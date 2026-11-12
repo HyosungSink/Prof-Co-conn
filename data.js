@@ -4769,6 +4769,654 @@ const survey = {
       ],
       evidence: '预印本首页的实习脚注标注第一作者 Xinming Wang。其公开履历明确具名的校内博士导师及腾讯混元 VLM 实习导师，同一研究阶段的论文列出其国科大学籍。两位导师均为本篇作者。',
       advising: [ '校内博士共同导师', 'Xinming Wang 在个人主页列张煦尧与刘成林为其博士导师。本篇有张煦尧署名。', 'https://gudehhh666.github.io/einwang/' ]
+    },
+    {
+      id: 'minimax-synlogic-hkust-he',
+      company: 'MiniMax',
+      team: '大模型后训练 · 逻辑推理',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      faculty: [ '何俊贤 · Junxian He', '香港科技大学计算机科学与工程学系助理教授，同篇以港科大署名。', 'https://researchportal.hkust.edu.hk/en/persons/junxian-he/' ],
+      employee: [
+        '赵鹏宇 · Pengyu Zhao',
+        '2023 年 8 月以自然语言处理研究员和工程师身份加入 MiniMax，负责大模型研发，同篇署 MiniMax。',
+        'https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100025.pdf#page=362'
+      ],
+      student: [
+        'Junteng Liu',
+        '2024 年本科毕业后入读香港科技大学博士。2025 年 2 月起在 MiniMax 做科研实习，参与逻辑推理强化学习；正式论文同时署港科大和 MiniMax。',
+        'https://mcpmark-eval-1031.github.io/'
+      ],
+      title: 'SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond',
+      short: 'SynLogic',
+      date: '2025-12',
+      venue: 'NeurIPS',
+      area: '语言模型与智能体',
+      paper: 'https://papers.nips.cc/paper_files/paper/2025/file/926ec82c83afe07db613956ae48c6700-Paper-Conference.pdf',
+      extra: [
+        [ '2025 年 5 月预印本', 'https://arxiv.org/abs/2505.19641' ],
+        [ 'MiniMax 官方项目', 'https://github.com/MiniMax-AI/SynLogic' ],
+        [ '作者的研究经历', 'https://vicent0205.github.io/' ]
+      ],
+      evidence: '正式论文首页列 Junteng Liu 为第一作者并列出校企双署名，何俊贤和 MiniMax 研发人员赵鹏宇同篇合著。学生的履历将逻辑推理强化学习列为其 MiniMax 实习期间的工作，MiniMax 官方仓库公开了同名研究。',
+      advising: [ '博士导师', '何俊贤的课题组名录列 Junteng Liu 为博士生，学生本人也具名确认何俊贤为其博士导师。', 'https://jxhe.github.io/group/' ]
+    },
+    {
+      company: '快手',
+      team: '基础模型与应用团队',
+      school: '中国科学院大学',
+      studentSchool: '中国科学院大学',
+      employee: [ '吴翔宇 · Xiangyu Wu', '快手算法专家，负责大模型在直播和商业化场景中的应用，同篇以快手署名并担任共同通讯作者。', 'https://aicon.infoq.cn/202512/beijing/speaker/9965' ],
+      title: 'Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces',
+      short: 'OmniBehavior',
+      date: '2026-04',
+      venue: 'arXiv 预印本',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2604.08362v3',
+      extra: [ [ '预印本发布日期和录用说明', 'https://arxiv.org/abs/2604.08362' ], [ '项目页', 'https://omnibehavior.github.io/' ] ],
+      evidence: '论文首页具名注明两位国科大合著学生 Jiawei Chen 和 Ruoxi Xu 在快手实习期间完成研究。论文机构、学生在读经历和企业作者岗位均有独立来源。',
+      id: 'kuaishou-omnibehavior-ucas-han',
+      faculty: [ '韩先培 · Xianpei Han', '中国科学院软件研究所研究员、博士生导师，在国科大培养研究生；原文以软件所署名。', 'https://people.ucas.ac.cn/~xphan' ],
+      student: [ 'Jiawei Chen', '在国科大培养单位中国科学院软件所读硕士，2025 年 9 月起在快手基础模型与应用团队做大模型科研实习，个人主页明确列本项目。', 'https://chenjiawei30.github.io/' ],
+      advising: [ '校内硕士共同导师', 'Jiawei Chen 本人明确列韩先培和陆垚杰为其硕士共同导师。', 'https://chenjiawei30.github.io/' ]
+    },
+    {
+      company: '快手',
+      team: '基础模型与应用团队',
+      school: '中国科学院大学',
+      studentSchool: '中国科学院大学',
+      employee: [ '吴翔宇 · Xiangyu Wu', '快手算法专家，负责大模型在直播和商业化场景中的应用，同篇以快手署名并担任共同通讯作者。', 'https://aicon.infoq.cn/202512/beijing/speaker/9965' ],
+      title: 'Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces',
+      short: 'OmniBehavior',
+      date: '2026-04',
+      venue: 'arXiv 预印本',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2604.08362v3',
+      extra: [ [ '预印本发布日期和录用说明', 'https://arxiv.org/abs/2604.08362' ], [ '项目页', 'https://omnibehavior.github.io/' ] ],
+      evidence: '论文首页具名注明两位国科大合著学生 Jiawei Chen 和 Ruoxi Xu 在快手实习期间完成研究。论文机构、学生在读经历和企业作者岗位均有独立来源。',
+      id: 'kuaishou-omnibehavior-ucas-lu',
+      faculty: [ '陆垚杰 · Yaojie Lu', '国科大导师、中国科学院软件研究所副研究员，原文以软件所署名。', 'https://people.ucas.ac.cn/~luyaojie' ],
+      student: [ 'Jiawei Chen', '在国科大培养单位中国科学院软件所读硕士，2025 年 9 月起在快手基础模型与应用团队做大模型科研实习，个人主页明确列本项目。', 'https://chenjiawei30.github.io/' ],
+      advising: [ '校内硕士共同导师', 'Jiawei Chen 本人明确列韩先培和陆垚杰为其硕士共同导师。', 'https://chenjiawei30.github.io/' ]
+    },
+    {
+      company: '快手',
+      team: '基础模型与应用团队',
+      school: '中国科学院大学',
+      studentSchool: '中国科学院大学',
+      employee: [ '吴翔宇 · Xiangyu Wu', '快手算法专家，负责大模型在直播和商业化场景中的应用，同篇以快手署名并担任共同通讯作者。', 'https://aicon.infoq.cn/202512/beijing/speaker/9965' ],
+      title: 'Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces',
+      short: 'OmniBehavior',
+      date: '2026-04',
+      venue: 'arXiv 预印本',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2604.08362v3',
+      extra: [ [ '预印本发布日期和录用说明', 'https://arxiv.org/abs/2604.08362' ], [ '项目页', 'https://omnibehavior.github.io/' ] ],
+      evidence: '论文首页具名注明两位国科大合著学生 Jiawei Chen 和 Ruoxi Xu 在快手实习期间完成研究。论文机构、学生在读经历和企业作者岗位均有独立来源。',
+      id: 'kuaishou-omnibehavior-ucas-sun',
+      faculty: [ '孙乐 · Le Sun', '国科大导师、中国科学院软件研究所研究员，原文以软件所署名。', 'https://people.ucas.ac.cn/~lesun' ],
+      student: [ 'Ruoxi Xu', '2020 年 9 月起在国科大培养单位中科院软件所攻读博士；论文首页注明她在快手实习完成该项研究。', 'https://rossixu.github.io/' ],
+      advising: [ '校内博士共同导师', 'Ruoxi Xu 本人明确列韩先培和孙乐为其博士导师。', 'https://rossixu.github.io/' ]
+    },
+    {
+      company: '蚂蚁集团',
+      team: '视觉生成研究',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      employee: [ '沈渝钧 · Yujun Shen', '2022 年 4 月至 2024 年 7 月为蚂蚁集团 Staff Research Scientist；原文署名蚂蚁集团。', 'https://shenyujun.github.io/' ],
+      student: [ 'Zifan Shi', '港科大计算机系博士在读期间，于 2022 年 6 月至 2023 年 4 月在 Ant Research 实习，企业导师为论文作者 Yujun Shen。', 'https://vivianszf.github.io/' ],
+      title: 'Learning 3D-Aware Image Synthesis With Unknown Pose Distribution',
+      short: 'PoF3D',
+      date: '2023-06',
+      venue: 'CVPR',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2301.07702v2',
+      extra: [
+        [
+          '港科大收录的 CVPR 发表版',
+          'https://researchportal.hkust.edu.hk/en/publications/learning-3d-aware-image-synthesis-with-unknown-pose-distribution/'
+        ],
+        [ '香港科技大学陈启峰学术团队学生名录', 'https://cqf.x10host.com/lab.html' ]
+      ],
+      evidence: '预印本首页的实习脚注附于第一作者 Zifan Shi；本人履历确认在蚂蚁的实习日期和研究指导者，并具名列出两位港科大校内导师，两人皆同篇署名。',
+      advising: [ '校内博士共同导师', 'Zifan Shi 的主页明确列陈启峰及 Dit-Yan Yeung 为她在香港科技大学读博期间的导师。', 'https://vivianszf.github.io/' ],
+      id: 'ant-pof3d-hkust-chen',
+      faculty: [ '陈启峰 · Qifeng Chen', '香港科技大学计算机科学与工程系及电子与计算机工程学系教师，同篇署名港科大。', 'https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf' ]
+    },
+    {
+      company: '蚂蚁集团',
+      team: '视觉生成研究',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      employee: [ '沈渝钧 · Yujun Shen', '2022 年 4 月至 2024 年 7 月为蚂蚁集团 Staff Research Scientist；原文署名蚂蚁集团。', 'https://shenyujun.github.io/' ],
+      student: [ 'Zifan Shi', '港科大计算机系博士在读期间，于 2022 年 6 月至 2023 年 4 月在 Ant Research 实习，企业导师为论文作者 Yujun Shen。', 'https://vivianszf.github.io/' ],
+      title: 'Learning 3D-Aware Image Synthesis With Unknown Pose Distribution',
+      short: 'PoF3D',
+      date: '2023-06',
+      venue: 'CVPR',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2301.07702v2',
+      extra: [
+        [
+          '港科大收录的 CVPR 发表版',
+          'https://researchportal.hkust.edu.hk/en/publications/learning-3d-aware-image-synthesis-with-unknown-pose-distribution/'
+        ],
+        [ '香港科技大学陈启峰学术团队学生名录', 'https://cqf.x10host.com/lab.html' ]
+      ],
+      evidence: '预印本首页的实习脚注附于第一作者 Zifan Shi；本人履历确认在蚂蚁的实习日期和研究指导者，并具名列出两位港科大校内导师，两人皆同篇署名。',
+      advising: [ '校内博士共同导师', 'Zifan Shi 的主页明确列陈启峰及 Dit-Yan Yeung 为她在香港科技大学读博期间的导师。', 'https://vivianszf.github.io/' ],
+      id: 'ant-pof3d-hkust-yeung',
+      faculty: [ '杨瓞仁 · Dit-Yan Yeung', '香港科技大学计算机科学与工程系教授，同篇署名港科大。', 'https://seng.hkust.edu.hk/about/people/faculty/dit-yan-yeung' ]
+    },
+    {
+      id: 'ant-glead-tsinghua-yang',
+      company: '蚂蚁集团',
+      team: '视觉生成研究',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '杨余久 · Yujiu Yang', '清华大学深圳国际研究生院教授；原文署名清华并为通讯作者。', 'https://openfiesta.sigs.tsinghua.edu.cn/pi/3/24' ],
+      employee: [ '沈渝钧 · Yujun Shen', '2022 年 4 月至 2024 年 7 月为蚂蚁集团 Staff Research Scientist；原文署名蚂蚁集团。', 'https://shenyujun.github.io/' ],
+      student: [ 'Qingyan Bai', '2020 至 2023 年在清华大学深圳国际研究生院攻读硕士，在蚂蚁集团参与生成模型研究实习。', 'https://bqy.info/' ],
+      title: 'GLeaD: Improving GANs With a Generator-Leading Task',
+      short: 'GLeaD',
+      date: '2023-06',
+      venue: 'CVPR',
+      area: '视觉与多模态',
+      paper: 'https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_GLeaD_Improving_GANs_With_a_Generator-Leading_Task_CVPR_2023_paper.pdf',
+      extra: [
+        [
+          'CVPR 补充材料及实习脚注',
+          'https://openaccess.thecvf.com/content/CVPR2023/supplemental/Bai_GLeaD_Improving_GANs_CVPR_2023_supplemental.pdf'
+        ],
+        [ '杨余久实验室学生名录及清华硕士时间', 'https://iigroup.github.io/members/' ],
+        [ '预印本及版本记录', 'https://arxiv.org/abs/2212.03752' ]
+      ],
+      evidence: 'CVPR 论文及补充材料首页均将蚂蚁实习脚注附于 Qingyan Bai；本人主页和导师名录给出清华硕士身份。预印本首发于 2022 年，正式论文发表于 2023 年。',
+      advising: [ '校内硕士导师', 'Qingyan Bai 的主页明确区分清华硕士导师杨余久与其后港科大博士导师陈启峰。', 'https://bqy.info/' ]
+    },
+    {
+      id: 'zhipu-zr0-ruc-zhang',
+      company: '智谱（GLM / Z.ai）',
+      team: '具身智能研发团队',
+      school: '中国人民大学',
+      studentSchool: '中国人民大学',
+      faculty: [ '张静 · Jing Zhang', '中国人民大学信息学院教授，论文通讯作者。', 'https://xiaojingzi.github.io/' ],
+      employee: [ 'Tong Yang', '2024 年 7 月起担任智谱具身智能研发项目负责人，本论文以智谱署名。', 'https://zjutongyang.github.io/' ],
+      student: [ 'Haoyang Li', '2021 至 2026 年为中国人民大学博士生；预印本首页具名说明其智谱实习中完成部分工作。', 'https://xiaojingzi.github.io/' ],
+      title: 'Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision',
+      short: 'ZR-0',
+      date: '2026-06',
+      venue: 'arXiv 预印本',
+      area: '具身智能与机器人',
+      paper: 'https://arxiv.org/pdf/2606.30552v2',
+      extra: [ [ '原文 HTML 与具名实习脚注', 'https://arxiv.org/html/2606.30552' ], [ '首次公开日期', 'https://arxiv.org/abs/2606.30552' ] ],
+      evidence: '预印本作者注将智谱实习标于 Haoyang Li；张静公开学生名录列出其博士年份和学位论文，Tong Yang 的履历注明智谱正式岗位及本项目。',
+      advising: [ '校内博士导师', '张静个人主页的学生及毕业生名录列出 Haoyang Li 的博士年份和学位论文。', 'https://xiaojingzi.github.io/#students' ]
+    },
+    {
+      id: 'arjudge-huawei-polyu-wenjie-li',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '香港理工大学',
+      studentSchool: '香港理工大学',
+      faculty: [
+        'Wenjie Li',
+        '香港理工大学计算学系教授，论文共同作者及 Xu 的博士导师。',
+        'https://www.polyu.edu.hk/mtri/news-and-events/news/2024/20241120---polyu-caict-and-hkpc-signed-a-strategic-partnership/'
+      ],
+      employee: [
+        '刘群 · Qun Liu',
+        '华为诺亚方舟实验室语音和语言计算首席科学家，原文署名华为诺亚方舟实验室。',
+        'https://aclanthology.org/anthology-files/pdf/emnlp/2025.emnlp-tutorials.1v1.pdf'
+      ],
+      student: [ 'Kaishuai Xu', '2021 年 9 月起于香港理工大学攻读计算机博士，2024 年 6 月至 2025 年 7 月于华为香港研究中心诺亚方舟实验室实习。', 'https://kaishxu.github.io/kaishxu_cv.pdf' ],
+      title: 'Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework',
+      short: 'ARJudge',
+      date: '2025-07',
+      venue: 'ACL Findings',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2025.findings-acl.494.pdf',
+      extra: [
+        [ '华为作者任职的同期学术会议材料', 'https://neurips2024-enlsp.github.io/' ],
+        [ '2025 年 2 月预印本', 'https://arxiv.org/abs/2502.18874' ],
+        [ '同一师生与企业研究人员的另一篇同期合作', 'https://aclanthology.org/2025.acl-long.1506.pdf' ]
+      ],
+      evidence: '论文首页以脚注标明第一作者于华为诺亚方舟实验室实习时开展该项研究。学生简历将 ARJudge 明确列在华为实习产出中。校内导师和企业首席科学家均为同篇作者。',
+      advising: [ '校内博士导师', 'Xu 的简历及导师组名录均证实其博士导师为 Wenjie Li。', 'https://web.comp.polyu.edu.hk/cswjli/Group.html' ]
+    },
+    {
+      id: 'ma-rag-huawei-nju-zhi-wang',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '南京大学',
+      studentSchool: '南京大学',
+      faculty: [ '王志 · Zhi Wang', '南京大学工程管理学院控制科学与智能工程系准聘副教授、博士生导师，论文共同通讯作者。', 'https://sme.nju.edu.cn/wz1/list.htm' ],
+      employee: [ 'Mingxuan Yuan', '华为诺亚方舟实验室研究员，论文署名华为。', 'https://sse.tongji.edu.cn/info/1125/1973.htm' ],
+      student: [ '吴文浩 · Wenhao Wu', '2024 年 9 月起于南京大学攻读硕士，2025 年 7 月至 2026 年 1 月于华为诺亚方舟实验室实习。', 'https://wuwenhao09.github.io/' ],
+      title: 'From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG',
+      short: 'MA-RAG',
+      date: '2026-07',
+      venue: 'ICML',
+      area: '推荐与检索',
+      paper: 'https://proceedings.mlr.press/v306/wu26ba.html',
+      extra: [
+        [ '作者与单位（预印本）', 'https://arxiv.org/html/2603.03292' ],
+        [ '导师组成员页', 'https://heyuanmingong.github.io/' ],
+        [ '华为研究员报告简介', 'https://sse.tongji.edu.cn/info/1125/1973.htm' ]
+      ],
+      evidence: '学生公开履历将医疗问答、冲突引导的多轮检索、BERT 重排序列作华为实习工作，与同页所列 MA-RAG 的具体方法对应。预印本给该生南大和华为双署名，南大导师与华为正式研究员同篇。',
+      advising: [ '校内硕士导师', 'Wu 的学术主页具名列王志为其南京大学硕士导师。', 'https://wuwenhao09.github.io/' ]
+    },
+    {
+      id: 'reasoning-under-uncertainty-tencent-thu-yong-jiang',
+      company: '腾讯',
+      team: '腾讯 · 网络研究',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '蒋勇 · Yong Jiang', '清华大学深圳国际研究生院教授、博士生导师，原文署名清华大学及鹏城实验室，并任通讯作者。', 'https://www.sigs.tsinghua.edu.cn/jy_en/main.psp' ],
+      employee: [ 'Congcong Miao', '在腾讯全职任高级研究员或工程师，论文中署名腾讯。', 'https://congcongmiao.github.io/' ],
+      student: [ '史镇宁 · Zhenning Shi', '2023 至 2026 年在清华大学攻读硕士，2025 年 1 月至 2026 年 3 月于腾讯担任科研实习生。', 'https://sznnzs.github.io/' ],
+      title: 'Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling',
+      short: 'Reasoning under Uncertainty',
+      date: '2025-11',
+      venue: 'EMNLP',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2025.emnlp-main.1638.pdf',
+      extra: [ [ '会议论文索引', 'https://aclanthology.org/2025.emnlp-main.1638/' ] ],
+      evidence: '研究在腾讯实习期内发表，第一作者有清华、鹏城实验室及腾讯三重署名。学生个人履历具名列蒋勇为校内导师、Congcong Miao 为企业实习导师，两人均在同篇署名。',
+      advising: [ '校内硕士导师', '个人履历明确列出蒋勇为清华硕士阶段导师之一。', 'https://sznnzs.github.io/' ]
+    },
+    {
+      id: 'beef-tencent-nju-ye',
+      company: '腾讯',
+      team: '腾讯 AI Lab',
+      school: '南京大学',
+      studentSchool: '南京大学',
+      faculty: [ '叶翰嘉 · Han-Jia Ye', '南京大学人工智能学院教师，论文署名南京大学并任通讯作者。', 'https://ai.nju.edu.cn/8d/4f/c18540a429391/pagem.htm' ],
+      employee: [
+        'Yatao Bian',
+        '研究时在腾讯 AI Lab 任职，2022 年为腾讯 AI Lab 机器学习中心资深研究员，原文署名腾讯 AI Lab 并任通讯作者。',
+        'https://www.shanghaitech.edu.cn/en/2022/0608/c1272a609626/page.htm'
+      ],
+      student: [ '汪福运 · Fu-Yun Wang', '2019 至 2023 年南京大学本科生，2022 年 6 月至 12 月在腾讯 AI Lab 科研实习。', 'https://g-u-n.github.io/' ],
+      title: 'BEEF: Bi-Compatible Class-Incremental Learning via Energy-Based Expansion and Fusion',
+      short: 'BEEF',
+      date: '2023-05',
+      venue: 'ICLR',
+      area: '视觉与多模态',
+      paper: 'https://openreview.net/references/pdf?id=8G-EGfFx4A',
+      extra: [
+        [ 'ICLR 论文记录', 'https://openreview.net/forum?id=iP77_axu0h3' ],
+        [ '指导教师实验室的学籍与共同指导名录', 'https://www.lamda.nju.edu.cn/zhoudw/team.html' ],
+        [ '企业作者同期项目经历', 'https://yataobian.com/' ]
+      ],
+      evidence: 'ICLR 论文首页具名注明第一作者在腾讯 AI Lab 实习期间完成此项研究。个人履历列南大本科时间及指导教师，校方课题组名录亦明确具名共同指导关系。',
+      advising: [ '校内科研指导', '学生本人列叶翰嘉与周大蔚为南京大学阶段指导老师，学校团队名录亦记载该关系。同篇叶翰嘉任通讯作者。', 'https://g-u-n.github.io/' ]
+    },
+    {
+      id: 'recreate-tencent-zju-jiawei-chen',
+      company: '腾讯',
+      team: 'CodeBuddy / WorkBuddy',
+      school: '浙江大学',
+      studentSchool: '浙江大学',
+      faculty: [ '陈佳伟 · Jiawei Chen', '浙江大学计算机科学与技术学院研究员，论文署名浙江大学并任通讯作者。', 'https://jiawei-chen.github.io/index.html' ],
+      employee: [
+        'Hande Dong',
+        '2023 年起任腾讯资深 AI 研究员，后负责 CodeBuddy / WorkBuddy 的大模型研发；原文以腾讯署名任通讯作者。',
+        'https://donghande.github.io/files/Hande_Dong_s_CV.pdf'
+      ],
+      student: [ 'Zhezheng Hao', '2025 年获西北工业大学硕士学位后于浙江大学攻读博士，在腾讯 CodeBuddy 团队担任科研实习生，个人主页明确列为 ReCreate 的核心贡献者。', 'https://zz-haooo.github.io/' ],
+      title: 'ReCreate: Reasoning and Creating Domain Agents Driven by Experience',
+      short: 'ReCreate',
+      date: '2026-07',
+      venue: 'ACL',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2026.acl-long.1432.pdf',
+      extra: [
+        [ '同一工作 ICLR 研讨会稿的腾讯 CodeBuddy 说明', 'https://openreview.net/pdf/2188b955f6b610650720f367fbe3daf387a79f66.pdf' ],
+        [ '同一研究的 2026 年 1 月初版', 'https://arxiv.org/abs/2601.11100' ],
+        [ '企业作者的团队及职务', 'https://donghande.github.io/' ],
+        [ '同篇实习合作者将 ReCreate 列为腾讯实习成果', 'https://wanghong1700.github.io/zh/' ]
+      ],
+      evidence: '正式论文列第一作者的浙大学籍单位、企业作者的腾讯署名，以及浙大校内导师的通讯作者身份。第一作者明确列出 CodeBuddy 实习和 ReCreate 核心贡献，同篇实习合作者将该作列作腾讯实习成果，同作研讨会稿明确由腾讯 CodeBuddy 支持。',
+      advising: [ '校内博士导师', '学生个人履历具名列陈佳伟为其浙江大学博士导师。', 'https://zz-haooo.github.io/' ]
+    },
+    {
+      id: 'fedbat-tencent-hust-ruixuan-li',
+      company: '腾讯',
+      team: '金融科技（FiT）',
+      school: '华中科技大学',
+      studentSchool: '华中科技大学',
+      faculty: [ '李瑞轩 · Ruixuan Li', '华中科技大学计算机科学与技术学院教授，同篇署名华中科技大学并任通讯作者。', 'https://idc.hust.edu.cn/rxli/index.htm' ],
+      employee: [ '何秀强 · Xiuqiang He', '2022 年 1 月至 2025 年 1 月为腾讯 FiT 智能应用中心高级总监及研究负责人，同篇署名腾讯 FiT。', 'https://he-xiuqiang.github.io/' ],
+      student: [ 'Shiwei Li', '研究时为华中科技大学智能与分布计算实验室博士生，论文首页具名注明在腾讯 FiT 实习期间完成工作。', 'https://leopold1423.github.io/' ],
+      title: 'FedBAT: Communication-Efficient Federated Learning via Learnable Binarization',
+      short: 'FedBAT',
+      date: '2024-07',
+      venue: 'ICML',
+      area: '基础模型与学习方法',
+      paper: 'https://raw.githubusercontent.com/mlresearch/v235/main/assets/li24ca/li24ca.pdf',
+      extra: [ [ 'ICML 正式论文索引', 'https://proceedings.mlr.press/v235/li24ca.html' ], [ '导师组同期成果', 'https://idc.hust.edu.cn/info/1021/1844.htm' ] ],
+      evidence: '论文脚注直接将第一作者与腾讯 FiT 实习和该项工作相连。学生个人主页具名确认博士导师，导师主页列其为在读博士。论文中还有同期在腾讯 FiT 任高级总监的何秀强。',
+      advising: [ '校内博士导师', 'Li 的个人履历具名列李瑞轩为华中科技大学博士导师；李瑞轩的学生名录也列 Li 为博士生。', 'https://leopold1423.github.io/' ]
+    },
+    {
+      id: 'rerum-tencent-cityu-chen-ma',
+      company: '腾讯',
+      team: '金融科技（FiT）',
+      school: '香港城市大学',
+      studentSchool: '香港城市大学',
+      faculty: [ '马辰 · Chen Ma', '香港城市大学计算机科学系教师，论文校方通讯作者，学校学位库列为 Bowei He 的导师。', 'https://scholars.cityu.edu.hk/en/persons/chenma/' ],
+      employee: [ '何秀强 · Xiuqiang He', '2022 年 1 月至 2025 年 1 月为腾讯 FiT 智能应用中心高级总监及研究负责人，同篇署名腾讯 FiT。', 'https://he-xiuqiang.github.io/' ],
+      student: [
+        'Bowei He',
+        '研究期间为香港城市大学博士生，论文首页具名注明研究在腾讯 FiT 实习时完成。',
+        'https://scholars.cityu.edu.hk/en/studentTheses/dynamic-adaptation-of-recommendation-models-structures-representa/'
+      ],
+      title: 'Rankability-enhanced Revenue Uplift Modeling Framework for Online Marketing',
+      short: 'RERUM',
+      date: '2024-08',
+      venue: 'KDD',
+      area: '推荐与检索',
+      paper: 'https://xingt-tang.github.io/assets/pdf/rerum_kdd24.pdf',
+      extra: [
+        [ '正式出版索引', 'https://doi.org/10.1145/3637528.3671516' ],
+        [ 'KDD 官方名单', 'https://kdd.org/kdd2024/applied-data-science-track-papers/' ],
+        [ '学生维护的同一项目', 'https://github.com/hebowei2000/revenue_uplift' ]
+      ],
+      evidence: 'KDD 论文首页的星号脚注对应第一作者 Bowei He，标明该工作由其在腾讯 FiT 实习期间完成。香港城市大学学位库具名列马辰为其博士导师；导师及同期 FiT 高级总监均是同篇作者。',
+      advising: [
+        '校内博士导师',
+        '城大博士论文记录将马辰明确列为导师，博士学位授予时间晚于本研究。',
+        'https://scholars.cityu.edu.hk/en/studentTheses/dynamic-adaptation-of-recommendation-models-structures-representa/'
+      ]
+    },
+    {
+      id: 'mango-huawei-hkust-jun-zhang',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      faculty: [ '张军 · Jun Zhang', '香港科技大学电子与计算机工程学系教授，同篇通讯作者。', 'https://ece.hkust.edu.hk/eejzhang' ],
+      employee: [ 'Zhitang Chen', '华为诺亚方舟实验室首席研究员，同篇署名华为。', 'https://www.cse.cuhk.edu.hk/~byu/papers/J83-TCAD2023-Causal-Root.pdf' ],
+      student: [
+        'Tailin Zhou',
+        '研究发生时在香港科技大学攻读博士，论文的致谢明确项目在其华为诺亚方舟实习期间启动和训练。',
+        'https://researchportal.hkust.edu.hk/en/studentTheses/understanding-improving-and-implementing-federated-learning-on-he/'
+      ],
+      title: 'Learning design-score manifold to guide diffusion models for offline optimization',
+      short: 'ManGO',
+      date: '2026-01-07',
+      venue: 'npj Artificial Intelligence',
+      area: '基础模型与学习方法',
+      paper: 'https://www.nature.com/articles/s44387-025-00055-1',
+      extra: [ [ '博士在读期间公开的初版', 'https://arxiv.org/abs/2506.05680' ], [ '同期华为研究活动记录', 'https://www.comp.hkbu.edu.hk/v1/?id=568&page=news' ] ],
+      evidence: '正式论文致谢写明主要构思和训练工作是在 Tailin Zhou 于华为诺亚方舟实习期间完成。2025 年 6 月初版早于 同年登记的博士学位论文。博士论文列出导师，企业作者的岗位见既往 IEEE 论文作者简介。',
+      advising: [
+        '校内博士导师',
+        '博士论文的学校公开记录具名列张军为导师。',
+        'https://researchportal.hkust.edu.hk/en/studentTheses/understanding-improving-and-implementing-federated-learning-on-he/'
+      ]
+    },
+    {
+      id: 'mango-huawei-hkustgz-danny-tsang',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '香港科技大学（广州）',
+      studentSchool: '香港科技大学',
+      faculty: [ '曾宪国 · Danny Hin Kwok Tsang', '香港科技大学（广州）物联网学域教授及学域主任，论文署港科大和港科大（广州）。', 'https://iott.hkust-gz.edu.cn/' ],
+      employee: [ 'Zhitang Chen', '华为诺亚方舟实验室首席研究员，同篇署名华为。', 'https://www.cse.cuhk.edu.hk/~byu/papers/J83-TCAD2023-Causal-Root.pdf' ],
+      student: [
+        'Tailin Zhou',
+        '研究发生时在香港科技大学攻读博士，论文的致谢明确项目在其华为诺亚方舟实习期间启动和训练。',
+        'https://researchportal.hkust.edu.hk/en/studentTheses/understanding-improving-and-implementing-federated-learning-on-he/'
+      ],
+      title: 'Learning design-score manifold to guide diffusion models for offline optimization',
+      short: 'ManGO',
+      date: '2026-01-07',
+      venue: 'npj Artificial Intelligence',
+      area: '基础模型与学习方法',
+      paper: 'https://www.nature.com/articles/s44387-025-00055-1',
+      extra: [ [ '博士在读期间公开的初版', 'https://arxiv.org/abs/2506.05680' ], [ '港科大（广州）学域的学生公开名录', 'https://iott.hkust-gz.edu.cn/people/p_students/' ] ],
+      evidence: '同篇致谢说明学生在华为诺亚方舟实习期间提出主要构思并完成训练。曾宪国在正式稿署名港科大（广州），其共同指导关系由香港科技大学的博士论文记录直接确认。',
+      advising: [
+        '跨校博士共同导师',
+        '由香港科技大学公开的博士论文记录具名列港科大（广州）教授曾宪国为共同导师。',
+        'https://researchportal.hkust.edu.hk/en/studentTheses/understanding-improving-and-implementing-federated-learning-on-he/'
+      ]
+    },
+    {
+      id: 'chronosteer-huawei-bupt-qi-qi',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '北京邮电大学',
+      studentSchool: '北京邮电大学',
+      faculty: [ '戚琦 · Qi Qi', '北京邮电大学网络智能研究中心教员、博士生导师，2025 年预印本署北京邮电大学。', 'https://nirc.top/people/?query-1-page=2' ],
+      employee: [ '潘璐伽 · Lujia Pan', '华为诺亚方舟实验室专家研究员，论文署华为诺亚方舟实验室。', 'https://gcastle-hub.github.io/csl-competition/organizers/' ],
+      student: [ 'Chengsen Wang', '2023 年 9 月起为北京邮电大学博士生，2025 年 2 月至 5 月赴华为诺亚方舟实验室科研实习。', 'https://home.chengsen.net.cn/' ],
+      title: 'ChronoSteer: Bridging Large Language Model and Time Series Foundation Model via Synthetic Cross-Modal Alignment Dataset',
+      short: 'ChronoSteer',
+      date: '2026-10-11',
+      venue: 'ACM TKDD',
+      area: '基础模型与学习方法',
+      paper: 'https://arxiv.org/html/2505.10083',
+      extra: [
+        [ 'ACM 论文索引', 'https://doi.org/10.1145/3849868' ],
+        [ '实习期间发表的初版和作者脚注', 'https://arxiv.org/html/2505.10083v1' ],
+        [ '同期华为研究署名与同一企业邮箱', 'https://www.vldb.org/pvldb/vol17/p386-wang.pdf' ]
+      ],
+      evidence: '第一作者脚注明确说明在华为实习期间开展该项研究。个人主页具名列戚琦与王敬宇为北邮校内导师，两人同篇。另有华为诺亚方舟实验室专家研究员潘璐伽同篇署名。',
+      advising: [ '校内博士共同导师', '学生主页具名列戚琦及王敬宇为北邮博士导师。', 'https://home.chengsen.net.cn/' ]
+    },
+    {
+      id: 'chronosteer-huawei-bupt-jingyu-wang',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '北京邮电大学',
+      studentSchool: '北京邮电大学',
+      faculty: [ '王敬宇 · Jingyu Wang', '北京邮电大学计算机学院长聘教授，研究时为网络智能研究中心主任。', 'https://jericwang.github.io/' ],
+      employee: [ '潘璐伽 · Lujia Pan', '华为诺亚方舟实验室专家研究员，论文署华为诺亚方舟实验室。', 'https://gcastle-hub.github.io/csl-competition/organizers/' ],
+      student: [ 'Chengsen Wang', '2023 年 9 月起为北京邮电大学博士生，2025 年 2 月至 5 月赴华为诺亚方舟实验室科研实习。', 'https://home.chengsen.net.cn/' ],
+      title: 'ChronoSteer: Bridging Large Language Model and Time Series Foundation Model via Synthetic Cross-Modal Alignment Dataset',
+      short: 'ChronoSteer',
+      date: '2026-10-11',
+      venue: 'ACM TKDD',
+      area: '基础模型与学习方法',
+      paper: 'https://arxiv.org/html/2505.10083',
+      extra: [
+        [ 'ACM 论文索引', 'https://doi.org/10.1145/3849868' ],
+        [ '实习期间发表的初版和作者脚注', 'https://arxiv.org/html/2505.10083v1' ],
+        [ '同期华为研究署名与同一企业邮箱', 'https://www.vldb.org/pvldb/vol17/p386-wang.pdf' ]
+      ],
+      evidence: '第一作者脚注明确说明在华为实习期间开展该项研究。个人主页具名列王敬宇为北邮博士共同导师；导师和华为正式研究员均为同篇作者。',
+      advising: [ '校内博士共同导师', '学生主页具名列戚琦及王敬宇为北邮博士导师。', 'https://home.chengsen.net.cn/' ]
+    },
+    {
+      id: 'dail-tencent-thu-xueqian-wang',
+      company: '腾讯',
+      team: '腾讯 AI Lab',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '王学谦 · Xueqian Wang', '清华大学深圳国际研究生院信息科学与技术学部教授，同篇署清华。', 'https://www.sigs.tsinghua.edu.cn/wxq_en/list.htm' ],
+      employee: [ '赵沛霖 · Peilin Zhao', '研究时在腾讯 AI Lab 担任主任研究员，同篇企业通讯作者。', 'https://peilinzhao.github.io/' ],
+      student: [ '刘子轩 · Zixuan Liu', '2021 年 9 月至 2024 年 6 月于清华大学攻读硕士，2022 年 1 月至 2023 年 8 月在腾讯 AI Lab 科研实习。', 'https://panda-shawn.github.io/' ],
+      title: 'Dynamics Adapted Imitation Learning',
+      short: 'DAIL',
+      date: '2023-07',
+      venue: 'TMLR',
+      area: '基础模型与学习方法',
+      paper: 'https://www.global-optimization.com/boyuan/Mypaper/TMLR-2023a.pdf',
+      extra: [
+        [ '企业作者的同期职务', 'https://www.cs.toronto.edu/~sven/Papers/PAMIStateOfTheJournal2022.pdf' ],
+        [ '正式发表作者稿', 'https://openreview.net/notes/edits/attachment?id=mpbEHYAB9Q&name=pdf' ]
+      ],
+      evidence: '论文首页列刘子轩为第一作者，兼署清华和腾讯 AI Lab。学生本人明确说明其在清华硕士期间于腾讯 AI Lab 实习，并将这篇同署论文列入发表成果；同期腾讯 AI Lab 主任研究员赵沛霖也参与了该研究。',
+      advising: [ '校内硕士导师', '刘子轩在个人学术页具名说明硕士学位来自清华大学，导师为王学谦。', 'https://panda-shawn.github.io/' ]
+    },
+    {
+      id: 'mmpd-huawei-sjtu-junchi-yan',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '上海交通大学',
+      studentSchool: '上海交通大学',
+      faculty: [ '严骏驰 · Junchi Yan', '上海交通大学人工智能学院长聘教授，同篇署上海交大并任通讯作者。', 'https://thinklab.sjtu.edu.cn/' ],
+      employee: [ '潘璐伽 · Lujia Pan', '华为诺亚方舟实验室专家研究员，论文署华为且使用企业邮箱，也是第一作者具名的实习导师。', 'https://gcastle-hub.github.io/csl-competition/organizers/' ],
+      student: [ '张昀浩 · Yunhao Zhang', '2021 年 9 月起在上海交通大学读博，2025 年 7 月至 2026 年 1 月在华为诺亚方舟实验室开展时序建模研究实习。', 'https://yunhaozhang-mars.github.io/' ],
+      title: 'MMPD: Diverse Time Series Forecasting via Multi-Mode Patch Diffusion Loss',
+      short: 'MMPD',
+      date: '2026-04',
+      venue: 'ICLR',
+      area: '基础模型与学习方法',
+      paper: 'https://proceedings.iclr.cc/paper_files/paper/2026/file/be7b70477c8fca697f14b1dbb1c086d1-Paper-Conference.pdf',
+      extra: [
+        [ '正式会议信息', 'https://proceedings.iclr.cc/paper_files/paper/2026/hash/be7b70477c8fca697f14b1dbb1c086d1-Abstract-Conference.html' ],
+        [ '同一课题的 OpenReview 投审稿及日期', 'https://openreview.net/forum?id=NEUgHT8dvH' ],
+        [ '校方课题组代码与作者记录', 'https://github.com/Thinklab-SJTU/MMPD' ]
+      ],
+      evidence: '学生主页具名列出华为诺亚实习导师潘璐伽和郑嘉乐，两人均为 MMPD 企业署名作者。其博士导师严骏驰任同篇通讯作者。此作研究时序预测，与学生在华为所述时序建模研究方向相符。',
+      advising: [ '校内博士导师', '学生本人具名列严骏驰为上海交通大学博士导师。', 'https://yunhaozhang-mars.github.io/' ]
+    },
+    {
+      id: 'alibaba-asi-hkust-wei-wang',
+      company: '阿里巴巴',
+      team: '基础设施与可靠性工程（TRE）',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      faculty: [ '王威 · Wei Wang', '香港科技大学计算机科学与工程学系教师，同篇署名港科大。', 'https://researchportal.hkust.edu.hk/en/persons/wei-wang/' ],
+      employee: [
+        'Liping Zhang',
+        '阿里巴巴系统软件资深技术人员。阿里云公开资料列其为 Principal Engineer，2025 年及本论文持续署阿里集团。',
+        'https://www.alibabacloud.com/en/campaign/gsac2018?_p_lc=1'
+      ],
+      student: [ 'Tianyuan Wu', '自 2024 年在港科大攻读计算机科学博士。履历记载 2023 年 10 月起在阿里科研实习，并在企业经历下列出本论文的大规模生产 AI 集群分析。', 'https://wutianyuan1.github.io/cv/' ],
+      title: 'Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba',
+      short: 'Heterogeneity at Hyperscale',
+      date: '2026-07',
+      venue: 'USENIX OSDI',
+      area: 'AI 基础设施',
+      paper: 'https://www.usenix.org/system/files/osdi26-li-suyi.pdf',
+      extra: [
+        [ '会议原文索引', 'https://www.usenix.org/conference/osdi26/presentation/li-suyi' ],
+        [ '企业作者 2025 年任职交叉核对', 'https://cs.sjtu.edu.cn/~lichao/publications/EXIST_Enabling_ASPLOS-2025-Wang.pdf' ],
+        [ '阿里 TRE 同篇作者的项目记录', 'https://www.lingyunyang.com/' ]
+      ],
+      evidence: '论文分析阿里巴巴的生产 AI 集群。Tianyuan Wu 的企业实习履历明确描述其参与分析阿里集群的 GPU 使用率与可靠性，同页列出本篇 OSDI 论文。博士导师王威与阿里工程人员 Liping Zhang 均为同篇作者。',
+      advising: [ '博士导师', 'Tianyuan Wu 的公开简历将王威列为港科大博士导师。', 'https://wutianyuan1.github.io/cv/' ]
+    },
+    {
+      id: 'alibaba-itryon-sysu-xiaodan-liang',
+      company: '阿里巴巴',
+      team: '淘天 · 拍立淘虚拟试衣',
+      school: '中山大学',
+      studentSchool: '中山大学',
+      faculty: [ '梁小丹 · Xiaodan Liang', '中山大学教师，正式稿署中山大学深圳校区并任通讯作者。', 'https://cse.sysu.edu.cn/hcp/cat/65' ],
+      employee: [ 'Mengting Chen', '阿里巴巴算法研究员，论文署阿里淘天。同一批作者参与的拍立淘技术报告明确列其为企业项目负责人。', 'https://mengtingchen.github.io/' ],
+      student: [ 'Jun Zheng', '中山大学在读硕士，2025 年 2 月起在阿里虚拟试衣团队实习。2026 年 6 月硕士毕业，7 月转任阿里算法工程师。', 'https://zhengjun-ai.github.io/' ],
+      title: 'iTryOn: Mastering Interactive Video Virtual Try-On with Spatial-Semantic Guidance',
+      short: 'iTryOn',
+      date: '2026-07',
+      venue: 'ICML',
+      area: '视觉与多模态',
+      paper: 'https://raw.githubusercontent.com/mlresearch/v306/main/assets/zheng26y/zheng26y.pdf',
+      extra: [
+        [ '正式会议索引', 'https://proceedings.mlr.press/v306/zheng26y.html' ],
+        [ '实习与在读期间发布的预印本', 'https://arxiv.org/abs/2605.21431' ],
+        [ '同一企业团队的技术报告及具名贡献', 'https://arxiv.org/html/2604.19748' ]
+      ],
+      evidence: '论文首版发表于 Jun Zheng 硕士毕业和阿里转正之前，正式稿署中山大学。本人把 iTryOn 列为在读阶段成果；同期开源报告把他列入拍立淘虚拟试衣团队，同篇企业作者 Mengting Chen 为该团队的项目负责人。',
+      advising: [ '硕士导师', 'Jun Zheng 的公开履历具名列梁小丹为其中山大学硕士导师。', 'https://zhengjun-ai.github.io/' ]
+    },
+    {
+      id: 'bytedance-acetone-ucas-qixiang-ye',
+      company: '字节跳动',
+      team: '智能创作团队',
+      school: '中国科学院大学',
+      studentSchool: '中国科学院大学',
+      faculty: [ '叶齐祥 · Qixiang Ye', '2022 年起任中国科学院大学特聘教授；原文署国科大并任通讯作者。', 'https://people.ucas.ac.cn/~qxye?language=en' ],
+      employee: [ 'Xijin Zhang', '字节跳动智能创作团队研究人员。既往学生公开履历将其列为该团队的企业实习导师，字节专利和跨年公司论文记录其参与研发，本篇署字节跳动。', 'https://xiezhy6.github.io/files/cv.pdf' ],
+      student: [ '马天仁 · Tianren Ma', '中国科学院大学在读博士，2025 年 8 月至 2026 年 2 月在字节跳动智能创作团队实习。', 'https://martian422.github.io/' ],
+      title: 'AceTone: Bridging Words and Colors for Conditional Image Grading',
+      short: 'AceTone',
+      date: '2026-06',
+      venue: 'CVPR',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2604.00530',
+      extra: [
+        [
+          'CVPR 正式论文索引',
+          'https://openaccess.thecvf.com/content/CVPR2026/html/Ma_AceTone_Bridging_Words_and_Colors_for_Conditional_Image_Grading_CVPR_2026_paper.html'
+        ],
+        [ '企业作者的字节研发记录', 'https://patents.google.com/patent/US20220292875A1/en' ],
+        [ '企业作者之前的字节论文与邮箱', 'https://arxiv.org/pdf/2303.13756' ]
+      ],
+      evidence: '原文首页在第一作者马天仁名下明确注明字节跳动实习，兼署国科大与字节。学生公开履历列出其实习团队、时间和校内导师，导师及企业研发人员同文。',
+      advising: [ '博士导师', '马天仁的中英文主页均明确列叶齐祥为其国科大博士导师。', 'https://martian422.github.io/' ]
+    },
+    {
+      id: 'alibaba-depo-thu-jia',
+      company: '阿里巴巴',
+      team: '淘天 · 视觉生成研究',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '贾珈 · Jia Jia', '清华大学计算机系教师，同篇署清华并任通讯作者。', 'https://www.cs.tsinghua.edu.cn/csen/info/1306/4330.htm' ],
+      employee: [ '葛铁铮 · Tiezheng Ge', '阿里巴巴算法研究人员。同期任企业科研实习导师，持续以淘天身份发表电商图像生成研究；本篇署阿里淘天并列企业邮箱。', 'https://dingyiyang.github.io/' ],
+      student: [ 'Shikun Sun', '2021 年获清华本科学位后在清华大学计算机系攻读博士。论文首页注明项目在其淘天实习期间完成。', 'https://skipper17.github.io/' ],
+      title: 'DEPO: Enhancing E-commerce Image Background Generation with Short Trajectory Direct Expected Preference Optimization',
+      short: 'DEPO',
+      date: '2025-10',
+      venue: 'ACM Multimedia',
+      area: '视觉与多模态',
+      paper: 'https://hcsi.cs.tsinghua.edu.cn/Paper/paper25/MM2025_Shikun%20Sun_DEPO_Enhancing%20E-commerce%20Image%20Background%20Generation%20with%20Short%20Trajectory%20Direct%20Expected%20Preference%20Optimizatio.pdf',
+      extra: [
+        [
+          '阿里研究人员的同期企业署名',
+          'https://proceedings.neurips.cc/paper_files/paper/2024/file/a07e5160196058120105ad7cb3505d3c-Paper-Conference.pdf'
+        ]
+      ],
+      evidence: '论文首页具名标注第一作者在阿里淘天实习时完成该研究；学生本人说明清华博士导师为同篇通讯作者贾珈，企业研究人员葛铁铮同篇署名。',
+      advising: [ '博士导师', '第一作者学术主页具名列贾珈为其清华博士导师。', 'https://skipper17.github.io/' ]
+    },
+    {
+      id: 'alibaba-captioning-ruc-jin',
+      company: '阿里巴巴',
+      team: '视觉生成研究',
+      school: '中国人民大学',
+      studentSchool: '中国人民大学',
+      faculty: [
+        '金琴 · Qin Jin',
+        '中国人民大学信息学院教授，论文署人大并任通讯作者。',
+        'https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm'
+      ],
+      employee: [ '葛铁铮 · Tiezheng Ge', '阿里巴巴算法研究人员，学生本人具名列其为阿里实习导师。论文署阿里集团，并使用企业邮箱。', 'https://dingyiyang.github.io/' ],
+      student: [ 'Dingyi Yang', '在中国人民大学攻读博士期间赴阿里巴巴科研实习，原文具名标注本研究在其阿里实习期间完成。', 'https://dingyiyang.github.io/' ],
+      title: 'Visual Captioning at Will: Describing Images and Videos Guided by a Few Stylized Sentences',
+      short: 'Visual Captioning at Will',
+      date: '2023-10',
+      venue: 'ACM Multimedia',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/html/2307.16399',
+      extra: [ [ '同一师生与企业研究人员的后续合著', 'https://aclanthology.org/2024.acl-long.513/' ] ],
+      evidence: '预印本的具名实习注直接对应第一作者。学生履历分别列金琴为人大博士导师、葛铁铮为阿里实习导师；两人均为该论文作者，企业导师署阿里巴巴。',
+      advising: [ '博士导师', 'Dingyi Yang 的公开教育履历明确列金琴为人大博士导师。', 'https://dingyiyang.github.io/' ]
+    },
+    {
+      id: 'alibaba-flowing-backwards-nju-limin-wang',
+      company: '阿里巴巴',
+      team: '阿里妈妈 · 视觉生成',
+      school: '南京大学',
+      studentSchool: '南京大学',
+      faculty: [ '王利民 · Limin Wang', '南京大学计算机学院教师，同篇以南京大学署名。', 'https://wanglimin.github.io/' ],
+      employee: [ '葛铁铮 · Tiezheng Ge', '阿里巴巴算法研究人员，研究期间参与阿里图像生成项目和企业实习指导，论文以阿里集团署名。', 'https://dingyiyang.github.io/' ],
+      student: [ 'Yang Chen', '2023 年 9 月起在南京大学攻读博士，2025 年 3 月至 2026 年 4 月在阿里妈妈研究图像生成和扩散蒸馏。', 'https://y-sisyphus.github.io/' ],
+      title: 'Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment',
+      short: 'Flowing Backwards',
+      date: '2026-03',
+      venue: 'AAAI',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/html/2511.22345',
+      extra: [ [ '正式会议索引', 'https://doi.org/10.1609/aaai.v40i4.37300' ], [ '2025 年 11 月首版', 'https://arxiv.org/abs/2511.22345' ] ],
+      evidence: '第一作者的双署名、实习履历与论文首版时间相互印证。学生在阿里妈妈从事图像生成研究时公开这项工作，同文列南京大学博士导师王利民及阿里作者葛铁铮。',
+      advising: [ '博士导师', 'Yang Chen 的公开主页具名列王利民为其南京大学博士导师。', 'https://y-sisyphus.github.io/' ]
     }
   ]
 };
