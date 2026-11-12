@@ -4747,6 +4747,28 @@ const survey = {
       extra: [ [ 'ICML 正式索引', 'https://proceedings.mlr.press/v306/guo26ad.html' ], [ '美团 LongCat 视频团队技术报告', 'https://arxiv.org/abs/2605.26486' ] ],
       evidence: '原文在第一作者 Qin Guo 名下标注论文工作于美团实习期间完成。其主页列出博士学籍、校内导师徐旦与美团实习。原文将美团研究员 Yong Zhang 标注为项目负责人。',
       advising: [ '校内博士导师', 'Qin Guo 的教育经历明确列徐旦为香港科技大学博士导师。', 'https://guoqincode.github.io/' ]
+    },
+    {
+      id: 'tencent-pattern-eval-ucas-zhang',
+      company: '腾讯',
+      team: '大模型部 · 混元多模态理解',
+      school: '中国科学院大学',
+      studentSchool: '中国科学院大学',
+      faculty: [ '张煦尧 · Xu-Yao Zhang', '中国科学院自动化研究所研究员、中国科学院大学导师，原文署名中科院自动化所并任通讯作者。', 'https://people.ucas.edu.cn/~0049542?language=en' ],
+      employee: [ 'Han Hu', '参与研究期间担任腾讯混元视觉语言模型负责人，原文署名腾讯大模型部。学生在实习经历中具名列其为企业导师。', 'https://ancientmooner.github.io/' ],
+      student: [ 'Xinming Wang', '研究期间为中国科学院大学博士生，在中国科学院自动化所与中关村学院联培。2025 年 6 月起参加腾讯混元多模态研究实习。', 'https://gudehhh666.github.io/einwang/' ],
+      title: 'Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs',
+      short: 'Beyond Correctness',
+      date: '2026-08',
+      venue: 'arXiv 预印本',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2608.12781v2',
+      extra: [
+        [ '同一学生与导师的国科大学籍和署名', 'https://www.techrxiv.org/doi/full/10.36227/techrxiv.175459840.02185500/v1' ],
+        [ '企业研究团队及岗位报道', 'https://eu.36kr.com/en/p/3907934819521670' ]
+      ],
+      evidence: '预印本首页的实习脚注标注第一作者 Xinming Wang。其公开履历明确具名的校内博士导师及腾讯混元 VLM 实习导师，同一研究阶段的论文列出其国科大学籍。两位导师均为本篇作者。',
+      advising: [ '校内博士共同导师', 'Xinming Wang 在个人主页列张煦尧与刘成林为其博士导师。本篇有张煦尧署名。', 'https://gudehhh666.github.io/einwang/' ]
     }
   ]
 };
