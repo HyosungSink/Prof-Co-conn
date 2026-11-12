@@ -4684,6 +4684,69 @@ const survey = {
       ],
       evidence: '论文及项目页在第一作者马泽红名下标注研究在华为实习期间完成。其个人主页明确北大博士学籍、华为实习时间和校内导师，华为高级研究员 Longhui Wei 为项目负责人。',
       advising: [ '校内博士导师', '马泽红的个人主页明确列 Shiliang Zhang 为其北京大学博士导师。', 'https://zehong-ma.github.io/' ]
+    },
+    {
+      company: '美团',
+      team: 'LongCat',
+      studentSchool: '中山大学',
+      employee: [ 'Yong Zhang', '美团视频生成方向团队负责人。论文署名美团并任通讯作者，学生主页列其为这段美团实习的企业导师。', 'https://auto202603.github.io/' ],
+      student: [ 'Zhe Kong', '研究时为中山大学在读博士生，2024 年 9 月起在美团从事视频生成科研实习。', 'https://kongzhecn.github.io/' ],
+      title: 'Let Them Talk: Audio-Driven Multi-Person Conversational Video Generation',
+      short: 'Let Them Talk',
+      date: '2025-12',
+      venue: 'NeurIPS',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2505.22647v1',
+      extra: [
+        [ 'NeurIPS 正式版', 'https://proceedings.nips.cc/paper_files/paper/2025/file/66fdfe692a360dfbad1fba32f64694da-Paper-Conference.pdf' ],
+        [ '作者项目页', 'https://meigen-ai.github.io/multi-talk/' ]
+      ],
+      evidence: '第一作者署名中山大学、美团及港科大，并在履历中列出该项目、美团实习时间和企业导师 Yong Zhang。企业导师与其两位具名博士导师均为同篇作者。',
+      id: 'meituan-multitalk-sysu-chen',
+      school: '中山大学',
+      faculty: [ '陈冠英 · Guanying Chen', '中山大学网络空间安全学院教师，论文署名中山大学。', 'https://scst.sysu.edu.cn/node/323' ],
+      advising: [ '博士共同导师', 'Zhe Kong 的中山大学博士履历具名列陈冠英为共同导师。', 'https://kongzhecn.github.io/' ]
+    },
+    {
+      company: '美团',
+      team: 'LongCat',
+      studentSchool: '中山大学',
+      employee: [ 'Yong Zhang', '美团视频生成方向团队负责人。论文署名美团并任通讯作者，学生主页列其为这段美团实习的企业导师。', 'https://auto202603.github.io/' ],
+      student: [ 'Zhe Kong', '研究时为中山大学在读博士生，2024 年 9 月起在美团从事视频生成科研实习。', 'https://kongzhecn.github.io/' ],
+      title: 'Let Them Talk: Audio-Driven Multi-Person Conversational Video Generation',
+      short: 'Let Them Talk',
+      date: '2025-12',
+      venue: 'NeurIPS',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2505.22647v1',
+      extra: [
+        [ 'NeurIPS 正式版', 'https://proceedings.nips.cc/paper_files/paper/2025/file/66fdfe692a360dfbad1fba32f64694da-Paper-Conference.pdf' ],
+        [ '作者项目页', 'https://meigen-ai.github.io/multi-talk/' ]
+      ],
+      evidence: '第一作者署名中山大学、美团及港科大，并在履历中列出该项目、美团实习时间和企业导师 Yong Zhang。企业导师与其两位具名博士导师均为同篇作者。',
+      id: 'meituan-multitalk-hkust-luo',
+      school: '香港科技大学',
+      faculty: [ 'Wenhan Luo', '2024 年 6 月起任香港科技大学副教授，论文署名香港科技大学。', 'https://whluo.github.io/assets/WenhanLuo_CV.pdf' ],
+      advising: [ '跨校博士共同指导', '中山大学博士生 Zhe Kong 的主页具名列港科大教师 Wenhan Luo 为共同导师。', 'https://kongzhecn.github.io/' ]
+    },
+    {
+      id: 'meituan-wildactor-hkust-xu',
+      company: '美团',
+      team: 'LongCat',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      faculty: [ '徐旦 · Dan Xu', '香港科技大学计算机科学与工程系教师，原文署港科大并任通讯作者。', 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dan-xu-danxu' ],
+      employee: [ 'Yong Zhang', '美团视频生成方向团队负责人，论文署名美团并标注为项目负责人。', 'https://auto202603.github.io/' ],
+      student: [ 'Qin Guo', '2025 年起为香港科技大学计算机博士生，2025 至 2026 年在美团科研实习。', 'https://guoqincode.github.io/' ],
+      title: 'WildActor: Unconstrained Identity-Preserving Video Generation',
+      short: 'WildActor',
+      date: '2026-07',
+      venue: 'ICML',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2603.00586v1',
+      extra: [ [ 'ICML 正式索引', 'https://proceedings.mlr.press/v306/guo26ad.html' ], [ '美团 LongCat 视频团队技术报告', 'https://arxiv.org/abs/2605.26486' ] ],
+      evidence: '原文在第一作者 Qin Guo 名下标注论文工作于美团实习期间完成。其主页列出博士学籍、校内导师徐旦与美团实习。原文将美团研究员 Yong Zhang 标注为项目负责人。',
+      advising: [ '校内博士导师', 'Qin Guo 的教育经历明确列徐旦为香港科技大学博士导师。', 'https://guoqincode.github.io/' ]
     }
   ]
 };
