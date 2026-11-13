@@ -153,3 +153,49 @@ function mergeFacultyRosters(directory) {
   }
   return schools;
 }
+
+const ucasSchool = '中国科学院大学';
+
+function ucasAccount(profile) {
+  if (!profile) return '';
+  const url = new URL(profile);
+  if (!/^people\.ucas\.(?:ac|edu)\.cn$/.test(url.hostname)) return '';
+  const match = decodeURIComponent(url.pathname).match(/^\/~([^/]+)\/?$/);
+  return match ? match[1].toLowerCase() : '';
+}
+
+function groupUcasFaculty(departments, bibliographyFor) {
+  const units = ucasInstitutes.map(([slug, name, url]) => ({ slug, name, url, people: [] }));
+  const byAccount = new Map(ucasInstitutes.flatMap(([, , , accounts], index) =>
+    accounts.split(' ').map(account => [account, units[index]])));
+  const unknown = { slug: 'unverified', name: '研究所待核实', people: [] };
+  units.push(unknown);
+  const people = new Map();
+  for (const department of departments) {
+    for (const original of department.people) {
+      const account = ucasAccount(original.profile);
+      const key = account || (original.profile ? facultyProfileKey(original.profile) : Symbol());
+      const bibliography = bibliographyFor(original, ucasSchool, department.name);
+      const existing = people.get(key);
+      if (existing) {
+        const merge = (first, second, identify) => [...new Map(
+          [...second, ...first].map(item => [identify(item), item])
+        ).values()];
+        for (const field of ['titles', 'tiers', 'titleLabels']) {
+          existing[field] = merge(existing[field], original[field], entry => facultySearchKey(entry.label));
+        }
+        for (const field of ['appointments', 'aliases']) {
+          existing[field] = merge(existing[field], original[field], facultySearchKey);
+        }
+        existing.bibliography = [existing.bibliography[0] || bibliography[0], existing.bibliography[1] || bibliography[1]];
+        existing.searchKey += ` ${original.searchKey}`;
+        if (original.profile.startsWith('https:')) existing.profile = original.profile;
+      } else {
+        const person = { ...original, bibliography, instituteSource: ucasInstituteSources.get(account) };
+        people.set(key, person);
+        (byAccount.get(account) || unknown).people.push(person);
+      }
+    }
+  }
+  return units.filter(unit => unit.people.length);
+}
