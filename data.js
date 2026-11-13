@@ -8557,16 +8557,78 @@ const survey = {
       employee: [ '刘天宇 · Tianyu Liu', '时任月之暗面研究员。本人职业主页列出 Kimi 岗位与 2025 年的 Kimi-Dev，GRSP 原文署其为项目负责人，单位栏保留北大署名。', 'https://tyliupku.github.io/' ],
       student: [
         '宋非凡 · Feifan Song',
-        '2021 年自山东大学直博进入北京大学，2026 年 5 月参加博士学位论文答辩。2025 年 10 月预印本第一作者署北京大学与 Moonshot AI。',
+        '2021 年直博进入北京大学。本人 2025 年 7 月的履历同时写明在北大攻读博士、在月之暗面做科研实习；2025 年 10 月预印本第一作者署北大和 Moonshot AI。',
         'https://www.tsxt.sdu.edu.cn/info/1003/1464.htm'
       ],
-      evidence: 'PDF 首页的机构编号把宋非凡同时署为北大与月之暗面。同一在读时段，月之暗面官方 Kimi K2 和 K2.5 的研发署名均列其名；公开履历将这段经历列为科研实习。论文注明刘天宇是项目负责人。',
+      evidence: 'PDF 首页的机构编号把宋非凡同时署为北大与月之暗面。同一在读时段，月之暗面官方 Kimi K2 和 K2.5 的研发署名均列其名；宋非凡在 2025 年 7 月发布的履历明确写为科研实习。论文注明刘天宇是项目负责人。',
       advising: [ '博士导师', '山东大学校方专访具名记录宋非凡直博北大并跟随王厚峰。北大研究生院 2026 年 5 月答辩公告再次列出同一导师。', 'https://www.tsxt.sdu.edu.cn/info/1003/1464.htm' ],
       extra: [
         [ '北京大学研究生院答辩公示', 'https://grs.pku.edu.cn/sjdj/bs/index74.htm' ],
         [ '月之暗面 Kimi K2 官方署名', 'https://github.com/MoonshotAI/Kimi-K2' ],
         [ '月之暗面 Kimi K2.5 官方署名', 'https://huggingface.co/moonshotai/Kimi-K2.5' ],
-        [ '研究经历：月之暗面实习', 'https://www.alphaxiv.org/%40feifan-song' ]
+        [ '研究经历：月之暗面实习', 'https://github.com/F2-Song/F2-Song/blob/aa98f558cee7b9607b165ad8e1915e145b36a620/README.md' ]
+      ]
+    },
+    {
+      company: '百度',
+      team: '百度 · 视觉生成研究',
+      school: '电子科技大学',
+      studentSchool: '电子科技大学',
+      employee: [ 'Zhenyang Li', '百度计算机视觉研究科学家，学生公开具名的百度实习合作者；论文署百度。', 'https://zhenyangli.github.io/' ],
+      student: [ '魏凡越 · Fanyue Wei', '电子科技大学 2021 至 2024 年为硕士生，2023 年 7 月起在百度担任研究实习生，并注明与本论文合作者 Zhenyang Li 共事。', 'https://wfanyue.github.io/' ],
+      title: 'Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning',
+      short: 'DPG-T2I',
+      date: '2024-10',
+      venue: 'ECCV',
+      area: '视觉与多模态',
+      paper: 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03967.pdf',
+      extra: [
+        [ '电子科技大学数据智能组学籍名录', 'https://diggers.ai/people/' ],
+        [ 'ECCV 投稿截止日（2024 年 3 月）', 'https://eccv2024.ecva.net/Conferences/2024/Dates' ],
+        [ 'ECCV 正式论文索引', 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3967_ECCV_2024_paper.php' ],
+        [
+          '学校 2023–2024 学年硕士学籍与奖学金公示',
+          'https://gr.uestc.edu.cn/attached/papers/258/202310/2023-2024%E5%AD%A6%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%A6%E4%B8%9A%E5%A5%96%E5%AD%A6%E9%87%91%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA_261416442083.pdf'
+        ]
+      ],
+      evidence: '魏凡越本人列出这篇 ECCV 论文和百度科研实习，实习合作者 Zhenyang Li 即同篇百度作者。学校课题组列其 2021–2024 年硕士学籍。ECCV 正式投稿在 2024 年 3 月截止，处于其硕士在读及百度实习重叠期，早于首次预印本和正式发表。',
+      advising: [ '校内硕士共同导师', '魏凡越的个人主页具名列出电子科技大学硕士阶段由李文和段立新共同指导，两人均在正式论文署名。', 'https://wfanyue.github.io/' ],
+      id: 'baidu-dpg-t2i-uestc-wen-li',
+      faculty: [
+        '李文 · Wen Li',
+        '时任电子科技大学计算机学院教授、该论文通讯作者，魏凡越的校内硕士导师之一。',
+        'https://www.news.uestc.edu.cn/?Id=93067&n=UestcNews.Front.DocumentV2.ArticlePage'
+      ]
+    },
+    {
+      company: '百度',
+      team: '百度 · 视觉生成研究',
+      school: '电子科技大学',
+      studentSchool: '电子科技大学',
+      employee: [ 'Zhenyang Li', '百度计算机视觉研究科学家，学生公开具名的百度实习合作者；论文署百度。', 'https://zhenyangli.github.io/' ],
+      student: [ '魏凡越 · Fanyue Wei', '电子科技大学 2021 至 2024 年为硕士生，2023 年 7 月起在百度担任研究实习生，并注明与本论文合作者 Zhenyang Li 共事。', 'https://wfanyue.github.io/' ],
+      title: 'Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning',
+      short: 'DPG-T2I',
+      date: '2024-10',
+      venue: 'ECCV',
+      area: '视觉与多模态',
+      paper: 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03967.pdf',
+      extra: [
+        [ '电子科技大学数据智能组学籍名录', 'https://diggers.ai/people/' ],
+        [ 'ECCV 投稿截止日（2024 年 3 月）', 'https://eccv2024.ecva.net/Conferences/2024/Dates' ],
+        [ 'ECCV 正式论文索引', 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3967_ECCV_2024_paper.php' ],
+        [
+          '学校 2023–2024 学年硕士学籍与奖学金公示',
+          'https://gr.uestc.edu.cn/attached/papers/258/202310/2023-2024%E5%AD%A6%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%A6%E4%B8%9A%E5%A5%96%E5%AD%A6%E9%87%91%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA_261416442083.pdf'
+        ]
+      ],
+      evidence: '魏凡越本人列出这篇 ECCV 论文和百度科研实习，实习合作者 Zhenyang Li 即同篇百度作者。学校课题组列其 2021–2024 年硕士学籍。ECCV 正式投稿在 2024 年 3 月截止，处于其硕士在读及百度实习重叠期，早于首次预印本和正式发表。',
+      advising: [ '校内硕士共同导师', '魏凡越的个人主页具名列出电子科技大学硕士阶段由李文和段立新共同指导，两人均在正式论文署名。', 'https://wfanyue.github.io/' ],
+      id: 'baidu-dpg-t2i-uestc-lixin-duan',
+      faculty: [
+        '段立新 · Lixin Duan',
+        '电子科技大学教授、博士生导师，魏凡越具名的硕士导师之一；论文署电子科技大学。',
+        'https://faculty.uestc.edu.cn/lxduan/zh_CN/index/164593/list/index.htm'
       ]
     }
   ]
