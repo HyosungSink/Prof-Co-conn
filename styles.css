@@ -71,11 +71,11 @@ h1 em { font-family: Georgia, "Times New Roman", serif; font-weight: 500; color:
 .school-tone-blue { --school-color: #1e70a7; --school-band: #86c7ef; }
 .school-tone-orange { --school-color: #ff8a1d; --school-band: #ffca88; --school-label: #21150d; }
 .school-tone-purple { --school-color: #7f54ad; --school-band: #d2b5eb; }
-.school-plot { --school-frame: #11141c; position: relative; height: clamp(520px, 66vw, 860px); background: var(--school-frame); border: clamp(7px, 1.2vw, 17px) solid var(--school-frame); }
+/* Trim the outside edges of the tiles while retaining their internal separators. */
+.school-plot { --school-divider: #11141c; position: relative; height: clamp(520px, 66vw, 860px); clip-path: inset(1px); }
 .school-map-group, .school-tile { position: absolute; }
 .school-map-group { isolation: isolate; }
-.school-map-group::after { content: ""; position: absolute; inset: 0; border: 2px solid var(--school-frame); pointer-events: none; z-index: 1; }
-.school-group-band { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; align-content: center; column-gap: .55em; height: var(--school-band-size); padding: 2px 5px; border: 1px solid var(--school-frame); background: var(--school-band); color: #15151c; font: 800 clamp(13px, 1.55vw, 23px)/1.03 system-ui, sans-serif; }
+.school-group-band { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; align-content: center; column-gap: .55em; height: var(--school-band-size); padding: 2px 5px; border: 1px solid var(--school-divider); background: var(--school-band); color: #15151c; font: 800 clamp(13px, 1.55vw, 23px)/1.03 system-ui, sans-serif; }
 .school-group-share { display: inline-flex; align-items: center; gap: .55em; font-variant-numeric: tabular-nums; }
 .school-group-share::before { content: "·"; }
 .school-group-short, .school-group-narrow .school-group-full { display: none; }
@@ -83,7 +83,7 @@ h1 em { font-family: Georgia, "Times New Roman", serif; font-weight: 500; color:
 .school-group-narrow .school-group-band { font-size: clamp(12px, 1.25vw, 17px); }
 .school-group-mini .school-group-band { font-size: 12px; }
 .school-group-tiles { position: absolute; inset: var(--school-band-size) 0 0; }
-.school-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-width: 0; overflow: hidden; border: 1px solid var(--school-frame); padding: 4px; background: var(--school-color); color: var(--school-label, #fffdf8); font-family: system-ui, sans-serif; text-align: center; text-decoration: none; }
+.school-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; min-width: 0; overflow: hidden; border: 1px solid var(--school-divider); padding: 4px; background: var(--school-color); color: var(--school-label, #fffdf8); font-family: system-ui, sans-serif; text-align: center; text-decoration: none; }
 .school-tile:hover, .school-tile:focus-visible { z-index: 2; outline: 2px solid currentColor; outline-offset: -4px; }
 .school-tile-name, .school-tile-short { max-width: 100%; font-size: var(--school-name-size); font-weight: 800; line-height: 1.04; text-wrap: balance; }
 .school-tile-name { max-width: 92%; }
