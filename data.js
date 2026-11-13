@@ -8688,6 +8688,42 @@ const survey = {
       ],
       evidence: '首版论文由西电在读生何潇领衔，涂志俊以华为诺亚方舟实验室署名，另有华为消费者业务同作者；涂志俊本人将本篇列为其负责的项目。西电课题组在 2025 年 2 月具名记录何潇在与华为合作期间参与快速推理算法研发。论文研究对象为只需一步推理的图像超分辨率；校方报道未写出论文题名或实习职务。',
       advising: [ '共同指导', '朱明瑞的西电科研团队主页将何潇具名列为 2021 级硕博连读、共同指导。', 'https://web.xidian.edu.cn/mrzhu/team.html' ]
+    },
+    {
+      id: 'huawei-noah-megatron-rvc-nwpu-yuchao-dai',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '西北工业大学',
+      studentSchool: '西北工业大学',
+      faculty: [
+        '戴玉超 · Yuchao Dai',
+        '西北工业大学教授、项末初硕士导师，并具名指导西工大与华为诺亚方舟实验室的 Megatron_RVC 联合队伍；为期刊论文通讯作者。',
+        'https://xygg.nwpu.edu.cn/info/1007/28437.htm'
+      ],
+      employee: [
+        '张镇嵩 · Zhensong Zhang',
+        '华为首席研究员；个人主页列有 2020 和 2022 年华为中央研究院奖项及本项目经历，2019 年期刊作者简介已列其为诺亚方舟实验室研究员，同篇署华为诺亚方舟实验室。',
+        'https://zhangzhensong.github.io/'
+      ],
+      student: [
+        '项末初 · Mochu Xiang',
+        '西北工业大学电子信息学院 2021 级硕士研究生；学校具名记录其为西工大与华为诺亚方舟实验室联合团队成员，期刊论文第一作者。',
+        'https://news.nwpu.edu.cn/info/1002/83353.htm'
+      ],
+      title: 'Towards a Unified Network for Robust Monocular Depth Estimation: Network Architecture, Training Strategy and Dataset',
+      short: 'Megatron_RVC',
+      date: '2023-10',
+      venue: 'IJCV（在线发表）',
+      area: '视觉与多模态',
+      paper: 'https://link.springer.com/article/10.1007/s11263-023-01915-6',
+      extra: [
+        [ '西工大电子信息学院：校企团队成员与 Megatron_RVC', 'https://dianzi.nwpu.edu.cn/info/1454/14285.htm' ],
+        [ 'RVC 2022 单目深度官方排行榜', 'https://playing-for-benchmarks.org/leaderboards/monodepth/' ],
+        [ '2019 年期刊作者简介：诺亚方舟研究员', 'https://www.sciencedirect.com/science/article/abs/pii/S0031320319304406' ],
+        [ '华为 PCT 公报：中英文姓名', 'https://patents.google.com/patent/WO2026189084A1/zh' ]
+      ],
+      evidence: '西工大公开材料具名记录在读硕士项末初在戴玉超指导下参加与华为诺亚方舟实验室的联合团队，研发的方案名为 Megatron_RVC。IJCV 原文明确刊载同一获奖方案；项末初、戴玉超与华为正式研究人员张镇嵩同篇署名。西工大未披露实习岗位或合同，依据是学校公开的具名校企联合研究项目。',
+      advising: [ '硕士导师及校企项目指导', '西北工业大学研究生院具名列项末初师从戴玉超教授，校方新闻同时列戴玉超为同一 Megatron_RVC 项目校企联合队伍的指导者。', 'https://xygg.nwpu.edu.cn/info/1007/28437.htm' ]
     }
   ]
 };
