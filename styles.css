@@ -272,6 +272,13 @@ dialog::backdrop { background: #211b3277; }
 .faculty-people .faculty-person-title { color: var(--ink); }
 .faculty-people .faculty-person-title-pending { color: var(--muted); }
 .faculty-person-title a { font-weight: 500; }
+.faculty-bibliography { display: grid; gap: 2px; margin-top: 5px; padding-top: 5px; border-top: 1px solid var(--rule); }
+.faculty-bibliography a { font-weight: 550; }
+.faculty-paper-grade { color: var(--brand-dark); font-weight: 650; }
+.faculty-paper { font-size: 12px; }
+.faculty-paper summary { width: fit-content; color: var(--brand-dark); cursor: pointer; }
+.faculty-paper[open] summary { margin-bottom: 4px; }
+.faculty-paper div small { display: block; margin-top: 2px; }
 .faculty-people a:focus-visible { outline-offset: 0; }
 @media (max-width: 800px) {
   .faculty-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }

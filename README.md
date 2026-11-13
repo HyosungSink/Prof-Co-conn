@@ -30,6 +30,8 @@
 - [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。点阵图显示各校院系名录记录数，点击高校即可筛选；也可选择高校和院系，按姓名或职称搜索。每个院系只展示一份名录，跨院系任职仍分别列出。核对职称时查看院系名录、教师工作简历、教师主页指向的个人主页，以及任职单位的官方资料。补录职称附原始链接；同一岗位在中英文来源中用词不同时，可分别查看两处来源。导师资格和双聘等另列，仅查到层级或缺少依据的记录分别标明。名录不用于直接确认论文作者当时的任职。
 - [核验口径](https://hyosungsink.github.io/Prof-Co-conn/method.html)说明确认条件、论文归属规则和高校范围。
 
+教师名录也列出已核实的 Google 学术主页和一篇可复核的 CCF 代表作。通过教师官网及其指向的个人主页、简历、ORCID 或署名论文核对同名作者；使用 [DBLP 书目快照](https://doi.org/10.4230/dblp.xml.2026-11-01)和出版方链接确认出版信息。分级依据 [CCF 2026 年第七版目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml)，会议只计正式长文。代表作可早于调查时间范围。没有足够公开资料时标为「未核实」。
+
 ## 本地运行与部署
 
 网站由静态 HTML、CSS 和 JavaScript 组成。用浏览器打开 `index.html` 即可运行，也可在项目根目录启动本地 HTTP 服务。
@@ -52,6 +54,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`connections.html`](connections.html)、[`app.js`](app.js) | 关系索引、筛选与证据详情 |
 | [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
 | [`faculty.html`](faculty.html)、[`faculty-page.js`](faculty-page.js)、[`faculty-rosters.js`](faculty-rosters.js)、[`faculty-data.js`](faculty-data.js)、[`faculty-titles.js`](faculty-titles.js) | 教师名录、院系内去重、官方名单和补录职称来源 |
+| [`faculty-bibliography.js`](faculty-bibliography.js) | 教师的 Google 学术主页、CCF 代表作和核对来源 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
 

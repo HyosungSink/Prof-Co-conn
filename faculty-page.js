@@ -4,6 +4,7 @@ const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
 const facultyCount = get('faculty-count');
 const snapshot = mergeFacultyRosters(facultyDirectory.schools);
+const bibliographyRecords = typeof facultyBibliography === 'undefined' ? {} : facultyBibliography.records;
 const countFormat = new Intl.NumberFormat('zh-CN');
 const recordsPerDot = 25;
 const facultyPlotButtons = new Map();
@@ -74,6 +75,44 @@ function appendFacultySources(section, top, department) {
   }
   details.append(list);
   section.append(details);
+}
+
+function appendFacultyBibliography(item, person, school, department) {
+  const { name, profile } = person;
+  const [scholar, paper] = bibliographyRecords[school]?.[department]?.[JSON.stringify([name, profile])] || [];
+  const block = element('div', '', 'faculty-bibliography');
+  const scholarRow = element('small', 'Google 学术：');
+  if (scholar) {
+    const [id, identity] = scholar;
+    const link = source('查看主页 ↗', `https://scholar.google.com/citations?user=${id}`);
+    link.setAttribute('aria-label', `查看 ${name} 的 Google 学术主页`);
+    scholarRow.append(link);
+    if (identity && identity !== link.href) scholarRow.append(' · ', source('身份来源', identity));
+  } else {
+    scholarRow.append('未核实');
+  }
+  const paperRow = element('small', 'CCF 论文：');
+  if (paper) {
+    const [title, year, venue, grade, url, publicationSource] = paper;
+    paperRow.append(element('span', `已核实 · ${grade} 类`, 'faculty-paper-grade'));
+    const details = element('details', '', 'faculty-paper');
+    const summary = element('summary', '查看代表作');
+    summary.setAttribute('aria-label', `查看 ${name} 的 CCF 代表作`);
+    details.append(summary);
+    const reference = element('div');
+    reference.append(source(`${title} ↗`, url), element('small', `${venue} · ${year}`));
+    if (publicationSource && publicationSource !== url) {
+      const verification = element('small');
+      verification.append(source('作者核对来源 ↗', publicationSource));
+      reference.append(verification);
+    }
+    details.append(reference);
+    block.append(scholarRow, paperRow, details);
+  } else {
+    paperRow.append('未核实');
+    block.append(scholarRow, paperRow);
+  }
+  item.append(block);
 }
 
 function renderFaculty() {
@@ -149,7 +188,8 @@ function renderFaculty() {
         appendFacultySources(section, top, department);
         if (people.length) {
           const list = element('ul', '', 'faculty-people');
-          for (const { name: person, titles, tiers, titleLabels, appointments, profile, aliases } of people) {
+          for (const teacher of people) {
+            const { name: person, titles, tiers, titleLabels, appointments, profile, aliases } = teacher;
             const item = element('li');
             item.append(profile ? source(person, profile) : element('strong', person));
             const ranks = titles.length ? titles : tiers;
@@ -170,6 +210,7 @@ function renderFaculty() {
             }
             if (aliases.length) item.append(element('small', aliases.join(' · ')));
             if (appointments.length) item.append(element('small', `任职信息：${appointments.join(' · ')}`));
+            appendFacultyBibliography(item, teacher, name, department.name);
             list.append(item);
           }
           section.append(list);
