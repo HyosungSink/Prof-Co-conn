@@ -2300,7 +2300,7 @@ const facultyDirectory = {
         ["赵凯", "中级", "https://sais.sjtu.edu.cn/faculty/zhaokai.html"],
         ["朱茂然", "中级", "https://sais.sjtu.edu.cn/faculty/zhumaoran.html"],
       ]},
-      { name: "网络空间安全学院 · 学科名录", url: "https://infosec.sjtu.edu.cn/Directory.aspx", note: "现与计算机学院共设；此处补列学科名录，可能与计算机学院重叠", aliases: ["网安学院","密码学"], people: [
+      { name: "网络空间安全学院 · 学科名录", department: "计算机学院（网络空间安全学院、密码学院）", url: "https://infosec.sjtu.edu.cn/Directory.aspx", note: "原网络空间安全学院的学科名录，现并入计算机学院名录", aliases: ["网安学院","密码学"], people: [
         ["谷大武", "院长、讲席教授", "https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=177"],
         ["邢朝平", "讲席教授", "https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=132"],
         ["李建华", "特聘教授、博导", "https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=133"],

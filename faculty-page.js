@@ -126,11 +126,18 @@ function renderFaculty() {
 addOptions(facultySchool, survey.schools);
 const facultyParams = new URLSearchParams(location.search);
 const selectedFacultySchool = facultyParams.get('school');
+const selectedDepartment = facultyParams.get('department');
 const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-(\d+)$/);
 const linkedSchool = facultyTarget && survey.schools[Number(facultyTarget[1]) - 1]?.[0];
 if (survey.schools.some(([school]) => school === selectedFacultySchool)) facultySchool.value = selectedFacultySchool;
 else if (linkedSchool) facultySchool.value = linkedSchool;
-setDepartmentOptions(facultyParams.get('department'));
+const previousDepartment = {
+  '上海交通大学': { '网络空间安全学院': '计算机学院（网络空间安全学院、密码学院）' },
+  '哈尔滨工业大学': Object.fromEntries([
+    '计算机科学与技术系', '软件工程系', '网络空间安全系', '人工智能系', '计算机基础系'
+  ].map(name => [`${name}（威海）`, '计算机科学与技术学院']))
+};
+setDepartmentOptions(previousDepartment[facultySchool.value]?.[selectedDepartment] ?? selectedDepartment);
 get('faculty-filters').addEventListener('submit', event => event.preventDefault());
 facultyQuery.addEventListener('input', renderFaculty);
 function applyFacultyFilters() {
