@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="styles.css">
   <script src="data.js" defer></script>
   <script src="leads.js" defer></script>
+  <script src="h-index.js" defer></script>
+  <script src="papers.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -44,7 +46,7 @@
 
     <section id="connections" class="main-section" aria-labelledby="connection-title">
       <div class="section-head">
-        <div><h2 id="connection-title">关系索引</h2><p>按企业团队、高校与教师汇总</p></div>
+        <div><h2 id="connection-title">关系索引</h2><p>每篇论文计一对关系，按归属教师及其对应的校企合作列出</p></div>
         <button id="clear-filters" class="text-button" type="button" hidden>清除筛选</button>
       </div>
       <form id="filters" class="filters" role="search" aria-label="筛选关系">
@@ -86,7 +88,7 @@
       <div class="method-grid">
         <div><h3>同一篇论文，三类作者</h3><p>核实高校指导教师、企业正式员工和参与该企业研究的在读学生。每条确认记录附具名的师生关系来源。跨校案例需要同期共同指导或联培依据。</p></div>
         <div><h3>按研究发生时的身份</h3><p>用个人履历、学位论文、教师的学生名录或项目贡献说明核对指导关系和时间。以实习脚注、联培记录或具名项目资料确认学生参与对应企业的研究。</p></div>
-        <div><h3>论文来源与汇总</h3><p>覆盖会议论文、期刊论文和预印本，正式版与预印本合并。关系按企业团队、高校与教师汇总。同篇论文有多位符合条件的指导教师时，分别记录。</p></div>
+        <div><h3>论文来源与归属</h3><p>正式版和预印本合并，每篇论文计一对关系。有多位经核实的指导教师时，归给 <a href="https://help.openalex.org/data/authors/">OpenAlex H 指数</a>最高的一位；并列时按教师英文署名排序。详情列出比较依据。</p></div>
       </div>
       <details class="scope"><summary>查看 26 所高校与检索别名</summary><ul id="school-list"></ul></details>
     </section>

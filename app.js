@@ -1,34 +1,15 @@
 const get = (id) => document.getElementById(id);
 const companyNames = new Map(survey.companies.map(([name, aliases]) => [name, aliases]));
 const schoolNames = new Map(survey.schools.map(([name, aliases]) => [name, aliases]));
-for (const record of survey.records) {
-  const [kind, description, url] = record.advising || [];
-  if (!kind || !description || !/^https?:\/\//.test(url || '')) {
-    record.gap ||= '需核对高校教师与在读作者之间的具名指导关系。';
-  }
-}
-const recordById = new Map(survey.records.map((record) => [record.id, record]));
+const paperIndex = buildPaperIndex(survey.records, paperLeads, new Map(facultyMetrics.profiles));
+const recordById = new Map(paperIndex.records.map((record) => [record.id, record]));
 const numberConfirmed = (records) => records.filter((record) => !record.gap).length;
-const confirmed = new Set(survey.records.filter((record) => !record.gap).map(relationKey)).size;
 const companyRecords = new Map(survey.companies.map(([company]) => [
-  company, survey.records.filter((record) => record.company === company),
+  company, paperIndex.records.filter((record) => record.company === company),
 ]));
 const state = { query: get('query'), company: get('company'), school: get('school'), status: get('status') };
 const plotButtons = new Map();
 const detail = get('detail');
-
-function relationKey(record) {
-  return [record.company, record.team, record.school, record.faculty[0]].join('|');
-}
-
-function relationCounts(records) {
-  const confirmedKeys = new Set(records.filter((record) => !record.gap).map(relationKey));
-  const pendingKeys = new Set(records.filter((record) => record.gap).map(relationKey));
-  return {
-    known: confirmedKeys.size,
-    pending: [...pendingKeys].filter((key) => !confirmedKeys.has(key)).length,
-  };
-}
 
 function element(tag, content, className) {
   const result = document.createElement(tag);
@@ -55,6 +36,23 @@ function recordButton(record, text, label) {
   button.setAttribute('aria-label', label || `查看 ${record.short} 的证据`);
   button.addEventListener('click', () => openRecord(record.id));
   return button;
+}
+
+function attributionFor(record) {
+  const section = element('section', '', 'attribution');
+  section.append(element('h3', '论文归属'), element('p', `比较已核实的指导教师 · OpenAlex H 指数 · ${facultyMetrics.checked}`));
+  const list = element('ul');
+  for (const { record: entry, metric } of record.attribution) {
+    const item = element('li');
+    const affiliation = `${entry.school} · ${entry.company}`;
+    item.append(element('strong', `${entry.faculty[0]} · ${affiliation}`));
+    if (entry.id === record.id && !record.gap) item.append(element('span', '归属教师', 'badge'));
+    item.append(metric ? source(`H 指数 ${metric[0]} ↗`, `https://openalex.org/${metric[1]}`) : element('span', 'H 指数待核验'));
+    if (entry.id !== record.id) item.append(source('指导关系依据 ↗', entry.advising[2]));
+    list.append(item);
+  }
+  section.append(list);
+  return section;
 }
 
 function openRecord(id) {
@@ -92,7 +90,9 @@ function openRecord(id) {
   const body = get('detail-body');
   body.replaceChildren(heading, meta, evidence);
   if (record.gap) body.append(element('p', record.gap, 'detail-gap'));
-  body.append(roles, sources);
+  body.append(roles);
+  if (record.attribution.length) body.append(attributionFor(record));
+  body.append(sources);
   if (!detail.open) detail.showModal();
 }
 
@@ -118,10 +118,11 @@ function searchText(record) {
     record.school, record.studentSchool, schoolNames.get(record.school), schoolNames.get(record.studentSchool),
     record.title, record.short, record.area, record.venue, record.date,
     record.faculty[0], record.employee[0], record.student[0], record.advising?.[0],
+    ...record.attribution.map(({ record: entry }) => entry.faculty[0]),
   ].join(' ').normalize('NFKC').toLocaleLowerCase();
 }
 
-const indexedRecords = survey.records.map((record) => [record, searchText(record)]);
+const indexedRecords = paperIndex.records.map((record) => [record, searchText(record)]);
 
 function renderResults() {
   const terms = state.query.value.trim().normalize('NFKC').toLocaleLowerCase().split(/\s+/).filter(Boolean);
@@ -130,7 +131,7 @@ function renderResults() {
   const status = state.status.value;
   const records = indexedRecords.filter(([record, haystack]) => (
     (!company || record.company === company)
-    && (!school || record.school === school || record.studentSchool === school)
+    && (!school || record.school === school)
     && (!status || (record.gap ? status === 'candidate' : status === 'confirmed'))
     && terms.every((term) => haystack.includes(term))
   )).map(([record]) => record);
@@ -154,7 +155,8 @@ function resetFilters() {
 function renderCompanyPlot() {
   for (const [name] of survey.companies) {
     const records = companyRecords.get(name);
-    const { known, pending } = relationCounts(records);
+    const known = numberConfirmed(records);
+    const pending = records.length - known;
     const button = element('button', '', 'plot-cell');
     button.type = 'button';
     const dots = element('span', '', 'dots');
@@ -184,7 +186,7 @@ function renderLeadResults() {
   const query = get('lead-query').value.trim().toLocaleLowerCase();
   const company = get('lead-company').value;
   const school = get('lead-school').value;
-  const matches = paperLeads.filter((paper) => (
+  const matches = paperIndex.leads.filter((paper) => (
     (!query || paper.title.toLocaleLowerCase().includes(query))
     && (!company || paper.companies.includes(company))
     && (!school || paper.schools.includes(school))
@@ -212,7 +214,7 @@ function resetLeadResults() {
   renderLeadResults();
 }
 
-get('confirmed-count').textContent = confirmed;
+get('confirmed-count').textContent = numberConfirmed(paperIndex.records);
 get('company-count').textContent = survey.companies.length;
 get('school-count').textContent = survey.schools.length;
 addOptions(state.company, survey.companies);
