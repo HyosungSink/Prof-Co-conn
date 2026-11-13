@@ -8057,6 +8057,113 @@ const survey = {
         'https://jszy.whu.edu.cn/lvxiliang/zh_CN/index/275065/list/index.htm'
       ],
       advising: [ '校内指导教师', 'Di Wu 的个人主页把焦雨领、吕锡亮都列为其在武汉大学计算数学本硕阶段的指导教师。', 'https://woody2357.github.io/' ]
+    },
+    {
+      id: 'zhipu-gaussianquant-thu-zhang',
+      company: '智谱（GLM / Z.ai）',
+      team: '视觉生成（CogView / CogVideo）',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '张亚勤 · Ya-Qin Zhang', '清华大学智能科学讲席教授、智能产业研究院创始院长，论文校方作者和第一作者博士导师。', 'https://air.tsinghua.edu.cn/gyair/csyz.htm' ],
+      employee: [
+        '唐杰 · Jie Tang',
+        '智谱创始人兼首席科学家（首席 AI 官），负责技术战略与前沿研发；作者预印本第二版署智谱，正式会议版仍列为通讯作者。',
+        'https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0419/2026041900085.pdf#page=71'
+      ],
+      student: [ '许同达 · Tongda Xu', '2023 年 9 月起在清华读博，2025 年 2 月起在智谱文生图基础模型团队科研实习。', 'https://tongdaxu.github.io/cv_xu.pdf' ],
+      title: 'Training-Free Vector Quantization via Gaussian VAEs',
+      short: 'Gaussian Quant',
+      date: '2026-07',
+      venue: 'ICML',
+      area: '视觉与多模态',
+      paper: 'https://raw.githubusercontent.com/mlresearch/v306/main/assets/xu26cn/xu26cn.pdf',
+      extra: [
+        [ 'ICML 正式出版索引', 'https://proceedings.mlr.press/v306/xu26cn.html' ],
+        [ '作者预印本第二版与企业署名', 'https://arxiv.org/html/2512.06609v2' ],
+        [
+          '早期公开的首席科学家身份',
+          'https://www.labmanager.com/digital-science-partners-with-zhipu-ai-to-conduct-data-challenges-and-build-covid-19-information-portal-22222'
+        ],
+        [ '作者项目与 CogView 研发路径', 'https://github.com/tongdaxu/VQ-VAE-from-Gaussian-VAE' ]
+      ],
+      evidence: 'ICML 首页具名注明许同达在智谱全职实习期间完成本研究，他的简历亦把 Gaussian VAE 图像 tokenization 列为智谱文生图实习项目。张亚勤与智谱首席科学家唐杰同文；唐杰在预印本第二版署智谱，在 ICML 版署清华并为通讯作者，两版对照可核对其双重机构身份。',
+      advising: [ '博士导师', '许同达的个人主页与简历均列张亚勤为清华博士导师。', 'https://tongdaxu.github.io/' ]
+    },
+    {
+      id: 'zhipu-infdit-thu-dong',
+      company: '智谱（GLM / Z.ai）',
+      team: '视觉生成（CogView / CogVideo）',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '东昱晓 · Yuxiao Dong', '研究时任清华大学计算机系教师，为同篇校方作者及学生在清华本科阶段的具名科研指导教师。', 'https://keg.cs.tsinghua.edu.cn/yuxiao/' ],
+      employee: [ '丁铭 · Ming Ding', '2024 年 5 月斯坦福 CS25 记录任智谱研究科学家。ECCV 正式版以智谱署名。', 'https://web.stanford.edu/class/cs25/past/cs25-v4/' ],
+      student: [ '姜赫扬 · Heyang Jiang', '当时为清华大学数学物理和软件工程双学士在读生；2022 年 10 月至 2024 年 7 月在智谱和清华 KEG 实验室做科研实习。', 'https://redredsheep.github.io/CV.pdf' ],
+      title: 'Inf-DiT: Upsampling Any-Resolution Image with Memory-Efficient Diffusion Transformer',
+      short: 'Inf-DiT',
+      date: '2024-10',
+      venue: 'ECCV',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2405.04312',
+      extra: [
+        [ 'ECCV 正式出版索引', 'https://link.springer.com/chapter/10.1007/978-3-031-73010-8_9' ],
+        [ '学生主页及导师', 'https://redredsheep.github.io/' ],
+        [ '清华 KEG 教师主页', 'https://keg.cs.tsinghua.edu.cn/yuxiao/' ]
+      ],
+      evidence: '姜赫扬的个人简历在智谱和清华 KEG 实习履历下具名列东昱晓为指导老师，明确将该 ECCV 论文列为该段实习的成果；正式版列姜赫扬、东昱晓为清华作者，丁铭为智谱作者，预印本列姜赫扬校企双署名。',
+      advising: [ '校内本科科研导师', '姜赫扬的个人主页在清华本科阶段的科研指导关系中列东昱晓；其正式简历将东昱晓明确列为智谱和 KEG 联合实习经历的校内指导教师。', 'https://redredsheep.github.io/CV.pdf' ]
+    },
+    {
+      id: 'zhipu-glm4voice-thu-dong',
+      company: '智谱（GLM / Z.ai）',
+      team: 'GLM-4-Voice',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '东昱晓 · Yuxiao Dong', '清华大学计算机系教师，论文校方通讯作者；2024 年校方新生典礼报道确认其为刘明道的直博导师。', 'https://www.cs.tsinghua.edu.cn/info/1058/6330.htm' ],
+      employee: [
+        '杜政晓 · Zhengxiao Du',
+        '同文署智谱，智谱上市申报文件把他列入公司研发关键人员并明确称为算法专家。',
+        'https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0108/11984305/sehk25121901749.pdf'
+      ],
+      student: [ '刘明道 · Mingdao Liu', '2024 年起为清华大学计算机系直博生，论文具名注明其在智谱科研实习期间完成工作。', 'https://www.cs.tsinghua.edu.cn/info/1058/6330.htm' ],
+      title: 'Scaling Speech-Text Pre-training with Synthetic Interleaved Data',
+      short: 'GLM-4-Voice 语音预训练',
+      date: '2025-04',
+      venue: 'ICLR',
+      area: '语音与音频',
+      paper: 'https://proceedings.iclr.cc/paper_files/paper/2025/file/7b5ae891000049b91b3b62de596b1560-Paper-Conference.pdf',
+      extra: [
+        [ '2024 年 11 月首版预印本', 'https://arxiv.org/abs/2411.17607' ],
+        [ '智谱官方 GLM-4-Voice 项目', 'https://github.com/zai-org/GLM-4-Voice' ],
+        [ '2025 年智谱 GLM 研发人员问答', 'https://www.infoq.cn/news/Xio27Fad3E973hyO203u' ]
+      ],
+      evidence: 'ICLR 首页具名注明共同第一作者刘明道在智谱实习时参与本论文，博士导师东昱晓为通讯作者。杜政晓同篇以智谱署名，港交所申报材料另列为智谱算法专家；智谱官方开源项目把本研究列作 GLM-4-Voice 的论文。',
+      advising: [ '博士导师', '2024 年清华计算机系新生典礼报道中，刘明道自述为 2024 级直博生，具名确认东昱晓是导师。', 'https://www.cs.tsinghua.edu.cn/info/1058/6330.htm' ]
+    },
+    {
+      id: 'minimax-webexplorer-hkust-junxian-he',
+      company: 'MiniMax',
+      team: '大模型后训练 · 网页检索智能体',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      faculty: [ '何俊贤 · Junxian He', '香港科技大学计算机科学与工程学系教师，原文以港科大署名。', 'https://researchportal.hkust.edu.hk/en/persons/junxian-he/' ],
+      employee: [
+        '赵鹏宇 · Pengyu Zhao',
+        '2023 年加入 MiniMax 并担任大语言模型研究和工程负责人；原文以 MiniMax 署名。',
+        'https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100025.pdf#page=362'
+      ],
+      student: [ 'Junteng Liu', '2024 年起为香港科技大学博士生，2025 年 2 月起在 MiniMax 实习并参与 M1 和 M2 系列。个人论文表列其为本篇第一作者。', 'https://vicent0205.github.io/' ],
+      title: 'WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents',
+      short: 'WebExplorer',
+      date: '2025-09',
+      venue: 'arXiv 预印本',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2509.06501',
+      extra: [
+        [ '港科大项目仓库确认 MiniMax 合作', 'https://github.com/hkust-nlp/WebExplorer' ],
+        [ 'MiniMax-M2 技术报告中的 WebExplorer 使用和归属', 'https://arxiv.org/html/2605.26494#S4.SS2.SSS3' ]
+      ],
+      evidence: '学生主页列出企业实习与同一期间公开的 WebExplorer，港科大官方项目仓库明确该篇是双方合作。MiniMax 技术报告将这套网页检索智能体作为 M2 搜索方向的评测框架；本项目与 SynLogic 的逻辑题训练项目分别有公开研发用途。',
+      advising: [ '博士导师', '何俊贤课题组公开名录将 Junteng Liu 列为博士生，学生主页亦具名确认。', 'https://jxhe.github.io/group/' ]
     }
   ]
 };
