@@ -3446,6 +3446,7 @@ const facultyTitleSources = {
       ["罗知", "https://ems.whu.edu.cn/info/1680/10590.htm", "教授", "https://ems.whu.edu.cn/info/1680/10590.htm"],
       ["吴世文", "http://journal.whu.edu.cn/intro/faculty/wusw", "教授", "http://journal.whu.edu.cn/intro/faculty/wusw"],
       ["杨冕", "https://ems.whu.edu.cn/info/1750/17256.htm", "教授", "https://ems.whu.edu.cn/info/1750/17256.htm"],
+      ["贾鹏", "https://jszy.whu.edu.cn/jp/zh_CN/index.htm", "教授", "https://jszy.whu.edu.cn/jp/zh_CN/index.htm"],
     ],
     "人工智能学院 · 两院院士": [
       ["刘经南", "https://www.whu.edu.cn/info/7241/202114.htm", "教授", ""],
@@ -3497,6 +3498,7 @@ const facultyTitleSources = {
       ["罗知", "https://ems.whu.edu.cn/info/1680/10590.htm", "教授", "https://ems.whu.edu.cn/info/1680/10590.htm"],
       ["吴世文", "http://journal.whu.edu.cn/intro/faculty/wusw", "教授", "http://journal.whu.edu.cn/intro/faculty/wusw"],
       ["杨冕", "https://ems.whu.edu.cn/info/1750/17256.htm", "教授", "https://ems.whu.edu.cn/info/1750/17256.htm"],
+      ["贾鹏", "https://jszy.whu.edu.cn/jp/zh_CN/index.htm", "教授", "https://jszy.whu.edu.cn/jp/zh_CN/index.htm"],
     ],
     "国家网络安全学院": [
       ["何德彪", "http://jszy.whu.edu.cn/hedebiao/zh_CN/index.htm", "教授", "https://cse.whu.edu.cn/szdw/jsml.htm"],
@@ -3983,6 +3985,7 @@ const facultyTitleSources = {
       ["缑水平", "https://web.xidian.edu.cn/shpgou", "教授", "https://web.xidian.edu.cn/shpgou"],
       ["王晓甜", "https://web.xidian.edu.cn/xtwang", "副教授", "https://web.xidian.edu.cn/xtwang"],
       ["吴金建", "https://web.xidian.edu.cn/wjj", "教授", "https://web.xidian.edu.cn/wjj"],
+      ["郭雨薇", "https://web.xidian.edu.cn/ywguo", "副教授", "https://web.xidian.edu.cn/ywguo"],
     ],
     "网络与信息安全学院": [
       ["丁文秀", "https://faculty.xidian.edu.cn/DWX1/zh_CN/index.htm", "副教授", ""],
@@ -4081,6 +4084,10 @@ const facultyTitleSources = {
       ["马卓然", "https://faculty.xidian.edu.cn/MAZHUORAN/zh_CN/index.htm", "副教授", "https://faculty.xidian.edu.cn/MAZHUORAN/zh_CN/index.htm"],
       ["张俊英", "https://faculty.xidian.edu.cn/ZHANGJUNYING/zh_CN/index.htm", "准聘副教授", "https://faculty.xidian.edu.cn/ZHANGJUNYING/zh_CN/index.htm"],
       ["宋祁朋", "https://faculty.xidian.edu.cn/SONGQIPENG/zh_CN/index.htm", "讲师", "https://faculty.xidian.edu.cn/SONGQIPENG/zh_CN/index.htm"],
+      ["尹志胜", "https://faculty.xidian.edu.cn/zsyin/zh_CN/index.htm", "副教授", "https://faculty.xidian.edu.cn/zsyin/zh_CN/index.htm"],
+      ["詹宇", "https://faculty.xidian.edu.cn/ZHANYU/zh_CN/index.htm", "副教授", "https://faculty.xidian.edu.cn/ZHANYU/zh_CN/index.htm"],
+      ["靖旭阳", "https://faculty.xidian.edu.cn/JINGXUYANG/zh_CN/index.htm", "副教授", "https://faculty.xidian.edu.cn/JINGXUYANG/zh_CN/index.htm"],
+      ["王运帷", "https://faculty.xidian.edu.cn/WANGYUNWEI/zh_CN/index.htm", "副教授", "https://faculty.xidian.edu.cn/WANGYUNWEI/zh_CN/index.htm"],
     ],
   },
   "香港理工大学": {
