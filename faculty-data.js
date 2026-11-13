@@ -199,7 +199,7 @@ const facultyDirectory = {
         ["赵行", "助理教授", "https://iiis.tsinghua.edu.cn/rydw/qzjs/zhaohang.htm"],
         ["高阳", "助理教授", "https://iiis.tsinghua.edu.cn/rydw/qzjs/gaoyang.htm"],
         ["弋力", "助理教授", "https://iiis.tsinghua.edu.cn/rydw/qzjs/yili.htm"],
-        ["杜韬", "助理教授", "https://iiis.tsinghua.edu.cn<span style='color:red;font-size:9pt'>转换链接错误</span>"],
+        ["杜韬", "助理教授", "https://people.iiis.tsinghua.edu.cn/~taodu/index.html"],
         ["许华哲", "助理教授", "https://iiis.tsinghua.edu.cn/rydw/qzjs/xuhuazhe.htm"],
         ["李克强", "院士", "https://www.svm.tsinghua.edu.cn/essay/80/1811.html"],
         ["董家鸿", "院士", "https://www.med.tsinghua.edu.cn/info/1160/2144.htm"],
