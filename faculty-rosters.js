@@ -38,24 +38,72 @@ function addFacultyValue(map, value) {
   if (value) map.set(facultySearchKey(value), value);
 }
 
+const facultyRankPattern = /教授(?!课程)|研究(?:实习)?[员員]|讲[师師]|講師|工程[师師]|实验师|實驗師|助教|館員|馆员|編審|编审|^(?:高级)?(?:编辑|翻译|统计师|会计师|经济师|主任医师|副主任医师)$|(?:Teaching|Research) Fellow|Research Associate|Scientist|Professor|Lecturer|Instructor|\bEngineer\b|\bReader\b|\bTutor\b/i;
+const facultyTierPattern = /^(?:正高(?:级)?|副高(?:级)?|中级|初级|初中级)(?:职称)?$/;
+const facultyTierLabel = { 正高: '正高级', 副高: '副高级' };
+const sharedRankGroups = {
+  '复旦大学': { 大数据学院: { '教授/研究员': '正高级', '副教授/副研究员': '副高级' } },
+  '哈尔滨工业大学': { '威海 · 网络空间安全系': { '教授/研究员': '正高级' } },
+  '华中科技大学': {
+    网络空间安全学院: { '教授/研究员': '正高级', '副教授/副研究员': '副高级' },
+    软件学院: { '教授/研究员': '正高级' }
+  }
+};
+const facultyRoleSeparator = /\s*·\s*|[，、；;]\s*|,\s+(?=博士|硕士|博导|硕导|Professor|Lecturer|Research|(?:Executive |Interim )?(?:Director|Head)|Chair Professor|(?:Associate |Assistant )?Dean|(?:Vice )?President)|(?<=(?:Professor|Lecturer))\s+(?=(?:Associate |Assistant |Division |UG )*(?:Dean|Director|Head|Academic Advisor|Curriculum Coordinator)\b)|\s*[/／]\s*(?=(?:院长|副院长|首席科学家|博士生导师|硕士生导师|博导|硕导)\s*$)|(?<=(?:院长|首席科学家))\s*[/／]\s*/;
+
+function splitFacultyRole(role) {
+  const ranks = [], tiers = [], appointments = [];
+  for (const part of role.split(facultyRoleSeparator).map(s => s.trim()).filter(Boolean)) {
+    if (facultyTierPattern.test(part)) {
+      const tier = part.replace(/职称$/, '');
+      tiers.push(facultyTierLabel[tier] || tier);
+    } else if (part === '高工') {
+      ranks.push('高级工程师');
+    } else if (facultyRankPattern.test(part) && !/^(?:未|无|曾任|历任)|博士后合作导师|协会会士|分教授会|拟入职|\(\d{4}\s*[–—-]/.test(part)) {
+      ranks.push(part);
+    } else {
+      appointments.push(part);
+    }
+  }
+  return { ranks, tiers, appointments };
+}
+
 function mergeFacultyRows(rows) {
   const { name } = rows[0];
-  const roles = new Map();
+  const titles = new Map();
+  const tiers = new Map();
+  const appointments = new Map();
   const aliases = new Map();
   let profile = '';
   for (const row of rows) {
-    addFacultyValue(roles, row.role);
+    const parts = splitFacultyRole(row.roleGroup || row.role);
+    for (const rank of parts.ranks) titles.set(facultySearchKey(rank), { label: rank });
+    for (const tier of parts.tiers) tiers.set(facultySearchKey(tier), { label: tier });
+    for (const appointment of parts.appointments) addFacultyValue(appointments, appointment);
     addFacultyValue(aliases, row.alias);
     if (row.profile && (!profile ||
       (profile.startsWith('http:') && row.profile.startsWith('https:')))) profile = row.profile;
   }
+  if (!titles.size) {
+    for (const { supplement } of rows) {
+      if (!supplement) continue;
+      const { ranks, tiers: levels } = splitFacultyRole(supplement.label);
+      for (const rank of ranks) titles.set(facultySearchKey(rank), { label: rank, url: supplement.url });
+      for (const level of levels) tiers.set(facultySearchKey(level), { label: level, url: supplement.url });
+    }
+  }
   return {
     name,
     profile,
-    roles: [...roles.values()],
+    titles: [...titles.values()],
+    tiers: [...tiers.values()],
+    appointments: [...appointments.values()],
     aliases: [...aliases.values()],
-    searchKey: facultySearchKey(rows.flatMap(row =>
-      [row.name, row.alias, row.role, row.unit.name, ...(row.unit.aliases || [])]).join(' '))
+    searchKey: facultySearchKey([
+      ...rows.flatMap(row => [row.name, row.alias, row.role, row.unit.name, ...(row.unit.aliases || [])]),
+      ...[...titles.values(), ...tiers.values()].map(rank => rank.label),
+      !titles.size && !tiers.size ? '职称待核实' : ''
+    ].join(' '))
   };
 }
 
@@ -69,7 +117,13 @@ function mergeFacultyRosters(directory) {
       const department = departments.get(name);
       department.sources.push(unit);
       department.unitIndexes.push(index);
-      department.people.push(...unit.people.map(([name, role, profile, alias]) => ({ name, role, profile, alias, unit })));
+      const supplements = new Map((facultyTitleSources[school]?.[unit.name] || []).map(([name, profile, label, url]) =>
+        [JSON.stringify([name, profile]), { label, url: url || profile || unit.url }]));
+      department.people.push(...unit.people.map(([name, role, profile, alias]) => ({
+        name, role, profile, alias, unit,
+        roleGroup: sharedRankGroups[school]?.[unit.name]?.[role.replaceAll('／', '/')],
+        supplement: supplements.get(JSON.stringify([name, profile]))
+      })));
     }
     schools[school] = Array.from(departments.values(), department => {
       const reviewed = new Set((verifiedFacultyMatches[school]?.[department.name] || '').split(' ').map(facultySearchKey));

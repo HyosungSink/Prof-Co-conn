@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
   <title>教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=aa20127be2db">
-  <script src="data.js?v=aa20127be2db" defer></script>
-  <script src="ui.js?v=aa20127be2db" defer></script>
-  <script src="faculty-data.js?v=aa20127be2db" defer></script>
-  <script src="faculty-rosters.js?v=aa20127be2db" defer></script>
-  <script src="faculty-page.js?v=aa20127be2db" defer></script>
+  <link rel="stylesheet" href="styles.css?v=5498b166401a">
+  <script src="data.js?v=5498b166401a" defer></script>
+  <script src="ui.js?v=5498b166401a" defer></script>
+  <script src="faculty-data.js?v=5498b166401a" defer></script>
+  <script src="faculty-titles.js?v=5498b166401a" defer></script>
+  <script src="faculty-rosters.js?v=5498b166401a" defer></script>
+  <script src="faculty-page.js?v=5498b166401a" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -27,7 +28,7 @@
   <main class="container standalone faculty-page">
     <section class="main-section" aria-labelledby="faculty-title">
       <div class="section-head"><div><h1 id="faculty-title">教师名录</h1><p>按高校查阅计算机、人工智能、网络安全、软件工程、数据科学及相关院系的公开师资名单。</p></div></div>
-      <p class="faculty-scope-note">每个院系合并为一份名录，同一人在同一院系只列一次；跨院系任职仍分别列出。导师、双聘、兼职和荣休不代表全职任职。名单范围见官方来源。</p>
+      <p class="faculty-scope-note">同一人在同一院系只列一次。职称与导师、双聘、兼职等任职信息分别列出；只查到职称层级时标为「职称层级」，缺少公开依据时标为「待核实」。</p>
       <form id="faculty-filters" class="filters faculty-filters" role="search" aria-label="筛选教师名录">
         <label class="search"><span>搜索</span><input id="faculty-query" type="search" placeholder="教师姓名、职称或院系"></label>
         <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>

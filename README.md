@@ -27,7 +27,7 @@
 - [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览和按企业、高校统计的合作关系分布。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数，分组标题带显示该组占比。点击图中的企业或高校，打开对应的关系索引。
 - [关系索引](https://hyosungsink.github.io/Prof-Co-conn/connections.html)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据。
 - [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)每篇论文一帖，列出相关机构、核验提示和原文链接，可按题名、企业或高校检索。
-- [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。点阵图显示各校院系名录记录数，点击高校即可筛选。也可用下拉框选择高校和院系，再按姓名、职称等关键词搜索。每个院系只展示一份名录，同一教师的职称和任职类别合并到一条，跨院系任职仍分别列出。官方来源保留各名单及其范围；名录不用于直接确认论文作者当时的任职。
+- [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。点阵图显示各校院系名录记录数，点击高校即可筛选。也可用下拉框选择高校和院系，再按姓名、职称等关键词搜索。每个院系只展示一份名录，跨院系任职仍分别列出。每条记录单列职称，和导师资格、双聘等任职信息分开。补录职称附原始链接；仅查到层级或暂无公开依据的记录分别标明。名录不用于直接确认论文作者当时的任职。
 - [核验口径](https://hyosungsink.github.io/Prof-Co-conn/method.html)说明确认条件、论文归属规则和高校范围。
 
 ## 本地运行与部署
@@ -51,7 +51,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`index.html`](index.html)、[`home.js`](home.js) | 首页概览、企业与高校分布图 |
 | [`connections.html`](connections.html)、[`app.js`](app.js) | 关系索引、筛选与证据详情 |
 | [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
-| [`faculty.html`](faculty.html)、[`faculty-page.js`](faculty-page.js)、[`faculty-rosters.js`](faculty-rosters.js)、[`faculty-data.js`](faculty-data.js) | 教师名录、检索、院系内去重和官方来源快照 |
+| [`faculty.html`](faculty.html)、[`faculty-page.js`](faculty-page.js)、[`faculty-rosters.js`](faculty-rosters.js)、[`faculty-data.js`](faculty-data.js)、[`faculty-titles.js`](faculty-titles.js) | 教师名录、院系内去重、官方名单和补录职称来源 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
 

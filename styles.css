@@ -269,6 +269,9 @@ dialog::backdrop { background: #211b3277; }
 .faculty-people { list-style: none; margin: 13px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); gap: 1px; border: 1px solid var(--rule); background: var(--rule); border-radius: 7px; overflow: hidden; }
 .faculty-people li { display: grid; align-content: start; gap: 2px; padding: 9px 12px; background: var(--white); overflow-wrap: anywhere; font-size: 13px; }
 .faculty-people a { font-weight: 650; width: fit-content; }
+.faculty-people .faculty-person-title { color: var(--ink); }
+.faculty-people .faculty-person-title-pending { color: var(--muted); }
+.faculty-person-title a { font-weight: 500; }
 .faculty-people a:focus-visible { outline-offset: 0; }
 @media (max-width: 800px) {
   .faculty-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }

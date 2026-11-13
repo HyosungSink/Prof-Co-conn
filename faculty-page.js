@@ -149,10 +149,19 @@ function renderFaculty() {
         appendFacultySources(section, top, department);
         if (people.length) {
           const list = element('ul', '', 'faculty-people');
-          for (const { name: person, roles, profile, aliases } of people) {
+          for (const { name: person, titles, tiers, appointments, profile, aliases } of people) {
             const item = element('li');
             item.append(profile ? source(person, profile) : element('strong', person));
-            if (aliases.length || roles.length) item.append(element('small', [...aliases, ...roles].join(' · ')));
+            const ranks = titles.length ? titles : tiers;
+            const title = element('small', titles.length ? '职称：' : tiers.length ? '职称层级：' : '职称：待核实', 'faculty-person-title');
+            if (!ranks.length) title.classList.add('faculty-person-title-pending');
+            for (const [index, rank] of ranks.entries()) {
+              if (index) title.append(' · ');
+              title.append(rank.url ? source(rank.label, rank.url) : rank.label);
+            }
+            item.append(title);
+            if (aliases.length) item.append(element('small', aliases.join(' · ')));
+            if (appointments.length) item.append(element('small', `任职信息：${appointments.join(' · ')}`));
             list.append(item);
           }
           section.append(list);
