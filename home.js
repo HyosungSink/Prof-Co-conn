@@ -34,9 +34,16 @@ for (const group of distribution('attributedCompany', survey.companies)) {
   get('company-plot').append(link);
 }
 
-// Pack consecutive schools into strips, keeping each strip's worst aspect ratio small.
-function tileLayout(entries, box, place) {
-  const areaPerRecord = box.width * box.height / entries.reduce((sum, entry) => sum + entry.known, 0);
+const schoolChartGroups = [
+  ['C9', 'C9 Universities', 'C9', 'red'],
+  ['新增高校', 'Other Mainland Universities', 'Other Mainland', 'blue'],
+  ['港五', 'Hong Kong Universities', 'Hong Kong', 'orange'],
+  ['合作大学', 'HK Universities’ Mainland Campuses', 'HK Campuses', 'purple'],
+];
+
+// Pack schools into strips, keeping each strip's worst aspect ratio small.
+function schoolTileLayout(entries, box, weight, place) {
+  const areaPerRecord = box.width * box.height / entries.reduce((sum, entry) => sum + weight(entry), 0);
   const ratio = (area, min, max, side) => {
     const thickness = area / side;
     return Math.max(thickness ** 2 / min, max / thickness ** 2);
@@ -45,12 +52,12 @@ function tileLayout(entries, box, place) {
   for (let i = 0; i < entries.length;) {
     const vertical = width >= height;
     const side = vertical ? height : width;
-    const first = entries[i].known * areaPerRecord;
+    const first = weight(entries[i]) * areaPerRecord;
     let area = first;
     let end = i + 1;
     while (end < entries.length) {
-      const next = entries[end].known * areaPerRecord;
-      const min = entries[end - 1].known * areaPerRecord;
+      const next = weight(entries[end]) * areaPerRecord;
+      const min = weight(entries[end - 1]) * areaPerRecord;
       if (ratio(area + next, next, first, side) > ratio(area, min, first, side)) break;
       area += next;
       end += 1;
@@ -58,7 +65,7 @@ function tileLayout(entries, box, place) {
     const thickness = area / side;
     let offset = 0;
     for (; i < end; i += 1) {
-      const length = entries[i].known * areaPerRecord / thickness;
+      const length = weight(entries[i]) * areaPerRecord / thickness;
       const tile = vertical
         ? { x, y: y + offset, width: thickness, height: length }
         : { x: x + offset, y, width: length, height: thickness };
@@ -72,6 +79,41 @@ function tileLayout(entries, box, place) {
       y += thickness;
       height -= thickness;
     }
+  }
+}
+
+function layoutSchoolGroups(groups, width, height, band, place) {
+  const total = groups.reduce((sum, group) => sum + group.weight, 0);
+  const draw = (group, x, y, width, height) => place(group, { x, y, width, height });
+  if (width < 590 || groups.length !== 4) {
+    let y = 0;
+    for (const group of groups) {
+      const size = band + (height - groups.length * band) * group.weight / total;
+      draw(group, 0, y, width, size);
+      y += size;
+    }
+    return;
+  }
+  const [c9, mainland, hk, campuses] = groups;
+  const sideBySide = width >= 880;
+  const rightBands = sideBySide ? 2 : 3;
+  const share = c9.weight / total;
+  // Leave room for heading bands while keeping the area below them proportional.
+  const leftWidth = share * width * (height - rightBands * band)
+    / (height - band - share * (rightBands - 1) * band);
+  const rightWidth = width - leftWidth;
+  const area = leftWidth * (height - band) / share;
+  const mainlandHeight = band + area * mainland.weight / total / rightWidth;
+  draw(c9, 0, 0, leftWidth, height);
+  draw(mainland, leftWidth, 0, rightWidth, mainlandHeight);
+  if (sideBySide) {
+    const hkWidth = rightWidth * hk.weight / (hk.weight + campuses.weight);
+    draw(hk, leftWidth, mainlandHeight, hkWidth, height - mainlandHeight);
+    draw(campuses, leftWidth + hkWidth, mainlandHeight, rightWidth - hkWidth, height - mainlandHeight);
+  } else {
+    const hkHeight = band + area * hk.weight / total / rightWidth;
+    draw(hk, leftWidth, mainlandHeight, rightWidth, hkHeight);
+    draw(campuses, leftWidth, mainlandHeight + hkHeight, rightWidth, height - mainlandHeight - hkHeight);
   }
 }
 
@@ -94,12 +136,7 @@ function renderSchoolChart() {
   }
   const percent = (known) => `${(100 * known / total).toFixed(1)}%`;
   const chart = get('school-plot');
-  const groups = [
-    ['C9', 'C9 Universities', 'C9', 'red'],
-    ['新增高校', 'Other Mainland Universities', 'Other Mainland', 'blue'],
-    ['港五', 'Hong Kong Universities', 'Hong Kong', 'orange'],
-    ['合作大学', 'HK Universities’ Mainland Campuses', 'HK Campuses', 'purple'],
-  ].flatMap(([category, title, shortTitle, color]) => {
+  const groups = schoolChartGroups.flatMap(([category, title, shortTitle, color]) => {
     const entries = schools.filter((school) => school.category === category && school.known)
       .sort((a, b) => b.known - a.known);
     const known = entries.reduce((sum, school) => sum + school.known, 0);
@@ -133,19 +170,20 @@ function renderSchoolChart() {
       body.append(tile);
     }
     chart.append(section);
-    return [{ section, entries, tiles, known }];
+    return [{ section, entries, tiles, weight: known }];
   });
 
   function position(node, { x, y, width, height }) {
     Object.assign(node.style, { left: `${x}px`, top: `${y}px`, width: `${width}px`, height: `${height}px` });
   }
 
-  function drawGroup(group, x, y, width, height, band) {
-    position(group.section, { x, y, width, height });
+  function drawGroup(group, box, band) {
+    const { width, height } = box;
+    position(group.section, box);
     group.section.style.setProperty('--school-band-size', `${band}px`);
     group.section.classList.toggle('school-group-narrow', width < 330);
     group.section.classList.toggle('school-group-mini', width < 185);
-    tileLayout(group.entries, { x: 0, y: 0, width, height: height - band }, (school, rect) => {
+    schoolTileLayout(group.entries, { x: 0, y: 0, width, height: height - band }, school => school.known, (school, rect) => {
       const { tile, full, short } = group.tiles.get(school);
       position(tile, rect);
       const compact = rect.width < 112 || rect.height < 60 || full.length > 34 || full.length > rect.width * .25;
@@ -160,37 +198,8 @@ function renderSchoolChart() {
 
   if (groups.length) new ResizeObserver(([{ contentRect: { width, height } }]) => {
     if (!width || !height) return;
-    const band = width < 500 || height < 320 ? 22 : 32;
-    if (width < 590 || groups.length !== 4) {
-      let y = 0;
-      for (const group of groups) {
-        const size = band + (height - groups.length * band) * group.known / total;
-        drawGroup(group, 0, y, width, size, band);
-        y += size;
-      }
-      return;
-    }
-    const [c9, mainland, hk, campuses] = groups;
-    const sideBySide = width >= 880;
-    const rightBands = sideBySide ? 2 : 3;
-    const share = c9.known / total;
-    // Reserve the heading strips before allocating the school tile areas.
-    const leftWidth = share * width * (height - rightBands * band)
-      / (height - band - share * (rightBands - 1) * band);
-    const rightWidth = width - leftWidth;
-    const area = leftWidth * (height - band) / share;
-    const mainlandHeight = band + area * mainland.known / total / rightWidth;
-    drawGroup(c9, 0, 0, leftWidth, height, band);
-    drawGroup(mainland, leftWidth, 0, rightWidth, mainlandHeight, band);
-    if (sideBySide) {
-      const hkWidth = rightWidth * hk.known / (hk.known + campuses.known);
-      drawGroup(hk, leftWidth, mainlandHeight, hkWidth, height - mainlandHeight, band);
-      drawGroup(campuses, leftWidth + hkWidth, mainlandHeight, rightWidth - hkWidth, height - mainlandHeight, band);
-    } else {
-      const hkHeight = band + area * hk.known / total / rightWidth;
-      drawGroup(hk, leftWidth, mainlandHeight, rightWidth, hkHeight, band);
-      drawGroup(campuses, leftWidth, mainlandHeight + hkHeight, rightWidth, height - mainlandHeight - hkHeight, band);
-    }
+    const band = Math.min(width < 500 || height < 320 ? 22 : 32, height / (groups.length + 1));
+    layoutSchoolGroups(groups, width, height, band, (group, rect) => drawGroup(group, rect, band));
   }).observe(chart);
 
   const empty = schools.filter((school) => !school.known);

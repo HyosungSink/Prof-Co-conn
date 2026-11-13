@@ -43,8 +43,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-// Walk a rectangular grid in a space-filling order. Consecutive records stay
-// close together so schools and units form compact areas in one shared grid.
+// Walk a school's grid in a space-filling order so its units stay close together.
 function facultyGridPath(columns, rows) {
   const cells = [];
   function walk(x, y, ax, ay, bx, by) {
@@ -78,6 +77,45 @@ function facultyGridPath(columns, rows) {
   return cells;
 }
 
+function layoutFacultyTiles(groups, width, height) {
+  const regions = [];
+  const tiles = [];
+  const positions = new Map();
+  layoutSchoolGroups(groups, width, height, 0, (group, box) => {
+    const schools = [];
+    regions.push({ box, schools });
+    schoolTileLayout(group.entries, box, school => school.count, (school, rect) => {
+      const { x, y, width, height } = rect;
+      const count = school.entries.length;
+      const rowCount = Math.min(count, Math.max(1, Math.round(Math.sqrt(count * height / width))));
+      const base = Math.floor(count / rowCount);
+      const extra = count % rowCount;
+      const grid = [];
+      let top = y;
+      // Distribute the extra cells over the rows. Every cell has the same area,
+      // and every school fills its rectangle, including the last row.
+      for (let row = 0; row < rowCount; row += 1) {
+        const columns = base + Math.floor((row + 1) * extra / rowCount) - Math.floor(row * extra / rowCount);
+        const rowHeight = height * columns / count;
+        grid.push({ y: top, height: rowHeight, width: width / columns, cells: new Array(columns) });
+        top += rowHeight;
+      }
+      let index = 0;
+      for (const [column, row] of facultyGridPath(base + Number(extra > 0), rowCount)) {
+        const line = grid[row];
+        if (column >= line.cells.length) continue;
+        const entry = school.entries[index++];
+        const tile = { entry, x: x + column * line.width, y: line.y, width: line.width, height: line.height };
+        line.cells[column] = tile;
+        tiles.push(tile);
+        positions.set(entry, tile);
+      }
+      schools.push({ school, rect, grid });
+    });
+  });
+  return { width, height, regions, tiles, positions };
+}
+
 function renderFacultyUnits() {
   const schoolPicker = get('unit-school');
   const groupPicker = get('unit-group');
@@ -90,6 +128,7 @@ function renderFacultyUnits() {
   const legend = [...document.querySelectorAll('.unit-map-key i')];
   const format = new Intl.NumberFormat('zh-CN');
   const colors = new Map(survey.schools.map(([name], index) => [name, facultySchoolShades(facultySchoolColors[index])]));
+  const categoryBySchool = new Map(survey.schools.map(([name, , category]) => [name, category]));
   const schools = facultyPlotStats.map(([name, count, , rows]) => ({
     name, count, color: colors.get(name), units: rows.map(([name, rows]) => ({ name, rows }))
   }));
@@ -97,8 +136,14 @@ function renderFacultyUnits() {
     for (const unit of school.units) {
       unit.entries = unit.rows.map(([name, score]) => ({ name, score, school, unit }));
     }
+    school.entries = school.units.flatMap(unit => unit.entries);
   }
-  const allEntries = schools.flatMap(school => school.units.flatMap(unit => unit.entries));
+  const groups = schoolChartGroups.flatMap(([category]) => {
+    const entries = schools.filter(school => categoryBySchool.get(school.name) === category && school.count)
+      .sort((a, b) => b.count - a.count);
+    return entries.length ? [{ entries, weight: entries.reduce((sum, school) => sum + school.count, 0) }] : [];
+  });
+  const allEntries = groups.flatMap(group => group.entries.flatMap(school => school.entries));
   const unitCount = schools.reduce((sum, school) => sum + school.units.length, 0);
   const instituteSchool = '中国科学院大学';
   addOptions(schoolPicker, survey.schools);
@@ -132,39 +177,43 @@ function renderFacultyUnits() {
     readout.title = readout.textContent;
   }
 
-  function calculateLayout(width, height) {
-    const columns = Math.ceil(Math.sqrt(allEntries.length * width / height));
-    const rows = Math.ceil(allEntries.length / columns);
-    const step = Math.min(width / columns, height / rows);
-    const insetX = Math.max(0, (width - columns * step) / 2);
-    const insetY = Math.max(0, (height - rows * step) / 2);
-    const positions = new Map();
-    const byCell = new Map();
-    const tiles = facultyGridPath(columns, rows).slice(0, allEntries.length).map(([column, row], index) => {
-      const entry = allEntries[index];
-      const tile = { entry, x: insetX + column * step, y: insetY + row * step };
-      positions.set(entry, tile);
-      byCell.set(row * columns + column, tile);
-      return tile;
-    });
-    return { width, height, columns, insetX, insetY, step, tiles, positions, byCell };
+  function drawBoundaries(boxes, weight) {
+    const { width, height } = currentLayout;
+    const edge = (x, y, x2, y2) => {
+      context.moveTo(x, y);
+      context.lineTo(x2, y2);
+    };
+    context.beginPath();
+    for (const { x, y, width: w, height: h } of boxes) {
+      const right = x + w, bottom = y + h;
+      if (x > .01) edge(x, y, x, bottom);
+      if (right < width - .01) edge(right, y, right, bottom);
+      if (y > .01) edge(x, y, right, y);
+      if (bottom < height - .01) edge(x, bottom, right, bottom);
+    }
+    context.strokeStyle = '#241d2d';
+    context.lineWidth = weight;
+    context.stroke();
   }
 
   function paint() {
     if (!currentLayout) return;
-    const { width, height, tiles, step, positions } = currentLayout;
+    const { width, height, regions, tiles, positions } = currentLayout;
     context.clearRect(0, 0, width, height);
-    const size = step - Math.min(.95, step * .16);
-    for (const { entry, x, y } of tiles) {
+    for (const { entry, x, y, width, height } of tiles) {
+      const gap = Math.min(.8, width * .15, height * .15);
       context.globalAlpha = matchesSelection(entry) ? 1 : .2;
       context.fillStyle = entry.school.color[entry.score];
-      context.fillRect(x, y, size, size);
+      context.fillRect(x + gap / 2, y + gap / 2, width - gap, height - gap);
     }
     context.globalAlpha = 1;
+    drawBoundaries(regions.flatMap(region => region.schools.map(({ rect }) => rect)), 1.45);
+    drawBoundaries(regions.map(({ box }) => box), 2.6);
     const marked = positions.get(inspected);
     if (marked) {
       context.strokeStyle = '#251c32';
-      context.strokeRect(marked.x - 1.25, marked.y - 1.25, size + 2.5, size + 2.5);
+      context.lineWidth = 1;
+      context.strokeRect(marked.x - .75, marked.y - .75, marked.width + 1.5, marked.height + 1.5);
     }
   }
 
@@ -175,7 +224,7 @@ function renderFacultyUnits() {
     canvas.width = Math.ceil(width * density);
     canvas.height = Math.ceil(height * density);
     context.setTransform(density, 0, 0, density, 0, 0);
-    currentLayout = calculateLayout(width, height);
+    currentLayout = layoutFacultyTiles(groups, width, height);
     paint();
   }
 
@@ -207,23 +256,31 @@ function renderFacultyUnits() {
     const bounds = canvas.getBoundingClientRect();
     const x = event.clientX - bounds.left;
     const y = event.clientY - bounds.top;
-    const { step, tiles, columns, insetX, insetY, byCell } = currentLayout;
-    const column = Math.floor((x - insetX) / step);
-    const row = Math.floor((y - insetY) / step);
-    let tile = column < 0 || column >= columns ? null : byCell.get(row * columns + column);
-    if (step < 4) {
-      // A touch can round to the next pixel. Prefer a nearby highlighted entry.
-      let nearest = Math.max(2, step);
-      for (const candidate of tiles) {
-        if (!matchesSelection(candidate)) continue;
-        const offset = Math.hypot(x - candidate.x - step / 2, y - candidate.y - step / 2);
-        if (offset < nearest) {
-          nearest = offset;
-          tile = candidate;
+    const contains = ({ x: left, y: top, width, height }) =>
+      x >= left && x < left + width && y >= top && y < top + height;
+    const region = currentLayout.regions.find(({ box }) => contains(box));
+    const school = region?.schools.find(({ rect }) => contains(rect));
+    if (!school) return;
+    const line = school.grid.find(line => y >= line.y && y < line.y + line.height);
+    if (!line) return;
+    const column = Math.min(line.cells.length - 1, Math.floor((x - school.rect.x) / line.width));
+    let tile = line.cells[column];
+    if (Math.min(line.width, line.height) < 4 && selectedUnit && !matchesSelection(tile.entry)) {
+      // On a dense touch screen, prefer a nearby highlighted tile in this school.
+      let nearest = Math.max(2, Math.min(line.width, line.height));
+      for (const row of school.grid) {
+        if (Math.abs(y - row.y - row.height / 2) >= nearest) continue;
+        for (const candidate of row.cells) {
+          if (!matchesSelection(candidate.entry)) continue;
+          const offset = Math.hypot(x - candidate.x - candidate.width / 2, y - candidate.y - candidate.height / 2);
+          if (offset < nearest) {
+            nearest = offset;
+            tile = candidate;
+          }
         }
       }
     }
-    if (tile) inspect(tile.entry);
+    inspect(tile.entry);
   }
 
   canvas.addEventListener('click', inspectTile);

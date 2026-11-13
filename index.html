@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=365acb81b32a">
+  <link rel="stylesheet" href="styles.css?v=5c34ddd604a9">
   <script>
     function redirectLegacySection() {
       const pages = new Map([
@@ -19,15 +19,15 @@
     addEventListener('hashchange', redirectLegacySection);
     redirectLegacySection();
   </script>
-  <script src="data.js?v=365acb81b32a" defer></script>
-  <script src="leads.js?v=365acb81b32a" defer></script>
-  <script src="h-index.js?v=365acb81b32a" defer></script>
-  <script src="papers.js?v=365acb81b32a" defer></script>
-  <script src="ui.js?v=365acb81b32a" defer></script>
-  <script src="faculty-plot-data.js?v=365acb81b32a" defer></script>
-  <script src="faculty-plot.js?v=365acb81b32a" defer></script>
-  <script src="faculty-heatmap.js?v=365acb81b32a" defer></script>
-  <script src="home.js?v=365acb81b32a" defer></script>
+  <script src="data.js?v=5c34ddd604a9" defer></script>
+  <script src="leads.js?v=5c34ddd604a9" defer></script>
+  <script src="h-index.js?v=5c34ddd604a9" defer></script>
+  <script src="papers.js?v=5c34ddd604a9" defer></script>
+  <script src="ui.js?v=5c34ddd604a9" defer></script>
+  <script src="faculty-plot-data.js?v=5c34ddd604a9" defer></script>
+  <script src="faculty-plot.js?v=5c34ddd604a9" defer></script>
+  <script src="faculty-heatmap.js?v=5c34ddd604a9" defer></script>
+  <script src="home.js?v=5c34ddd604a9" defer></script>
 </head>
 <body class="home-page">
   <header class="topbar">
@@ -99,7 +99,7 @@
         <section class="home-slide home-unit-slide faculty-distribution" aria-labelledby="faculty-unit-title" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-unit-title">院系／研究所教师分布</h2>
-            <p>一人一块，色相区分高校，同校颜色越深表示已核实项数越多。</p>
+            <p>每校一个矩形，一人一块；同校颜色越深，已核实项数越多。</p>
           </div>
           <div class="unit-toolbar">
             <label class="unit-picker"><span class="sr-only">高亮高校</span><select id="unit-school"><option value="">全部高校</option></select></label>
@@ -113,7 +113,7 @@
             </div>
           </div>
           <div id="unit-plot" class="unit-plot">
-            <canvas id="unit-canvas" tabindex="0" role="img" aria-label="全部高校教师热力图。用上下键查看教师。"></canvas>
+            <canvas id="unit-canvas" tabindex="0" role="img" aria-label="全部高校教师热力图，每所学校占一个矩形分区。用上下键查看教师。"></canvas>
           </div>
           <div class="unit-readout">
             <span id="unit-school-swatch" aria-hidden="true" hidden></span>

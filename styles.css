@@ -383,7 +383,7 @@ dialog::backdrop { background: #211b3277; }
   .home-footer, .home-stats { display: none; }
 }
 
-.home-unit-slide { margin: 0; }
+.home-unit-slide { margin: 0; min-width: 0; }
 .unit-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 9px; }
 .unit-picker { min-width: 0; }
 .unit-picker select { width: 100%; max-width: 240px; min-height: 31px; padding: 0 6px; border: 1px solid var(--rule); border-radius: 6px; background: var(--white); color: var(--ink); font-size: 12px; }
@@ -393,7 +393,7 @@ dialog::backdrop { background: #211b3277; }
 .unit-plot { flex: 1; min-height: 0; position: relative; }
 #unit-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; cursor: crosshair; }
 #unit-canvas:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
-.unit-readout { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; color: var(--muted); font-size: 11px; }
+.unit-readout { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; min-width: 0; color: var(--muted); font-size: 11px; }
 #unit-school-swatch { width: 9px; height: 9px; border-radius: 2px; flex: none; }
 #unit-summary { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
 #unit-directory-link { flex: none; }
