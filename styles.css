@@ -253,6 +253,10 @@ dialog::backdrop { background: #211b3277; }
 .faculty-unit-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 7px 16px; }
 .faculty-unit-head h2 { font-size: 15px; margin-bottom: 3px; }
 .faculty-unit-head a { font-size: 12px; flex: none; }
+.faculty-sources { margin-top: 6px; color: var(--muted); font-size: 12px; }
+.faculty-sources summary { width: fit-content; color: var(--brand-dark); cursor: pointer; }
+.faculty-sources ul { margin: 6px 0 0; padding-inline-start: 20px; }
+.faculty-sources small { display: block; font-size: inherit; }
 .faculty-people { list-style: none; margin: 13px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); gap: 1px; border: 1px solid var(--rule); background: var(--rule); border-radius: 7px; overflow: hidden; }
 .faculty-people li { display: grid; align-content: start; gap: 2px; padding: 9px 12px; background: var(--white); overflow-wrap: anywhere; font-size: 13px; }
 .faculty-people a { font-weight: 650; width: fit-content; }

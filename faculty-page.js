@@ -2,25 +2,36 @@ const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
-const snapshot = facultyDirectory.schools;
+const snapshot = mergeFacultyRosters(facultyDirectory.schools);
 const countFormat = new Intl.NumberFormat('zh-CN');
-
-function facultySearchKey(value) {
-  return value.normalize('NFKD').toLowerCase().replace(/[\p{M}\p{P}\p{Z}]/gu, '');
-}
-
-function departmentOf(unit) {
-  return unit.department ?? unit.name.split(' · ', 1)[0];
-}
 
 function setDepartmentOptions(selected = '') {
   const school = facultySchool.value;
-  const departments = new Set((snapshot[school] || []).map(departmentOf));
+  const departments = new Set((snapshot[school] || []).map(department => department.name));
   const placeholder = school ? '全部院系' : '请先选择高校';
   facultyDepartment.replaceChildren(new Option(placeholder, ''),
     ...Array.from(departments, name => new Option(name, name)));
   facultyDepartment.disabled = !school;
   facultyDepartment.value = departments.has(selected) ? selected : '';
+}
+
+function appendFacultySources(section, top, department) {
+  const [first, ...rest] = department.sources;
+  if (!rest.length) {
+    top.append(source(first.people.length ? '官方名录 ↗' : '院系官网 ↗', first.url));
+    return;
+  }
+  const details = element('details', '', 'faculty-sources');
+  details.append(element('summary', '官方来源'));
+  const list = element('ul');
+  for (const unit of department.sources) {
+    const item = element('li');
+    item.append(source(`${unit.name} ↗`, unit.url));
+    if (unit.note) item.append(element('small', unit.note));
+    list.append(item);
+  }
+  details.append(list);
+  section.append(details);
 }
 
 function renderFaculty() {
@@ -30,16 +41,17 @@ function renderFaculty() {
 
   for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
-    const units = (snapshot[name] || []).flatMap((unit, unitIndex) => {
-      const department = departmentOf(unit);
-      if (facultyDepartment.value && department !== facultyDepartment.value) return [];
-      const context = facultySearchKey([name, english, unit.name, department, ...(unit.aliases || [])].join(' '));
-      const matchUnit = words.every(word => context.includes(word));
-      const people = unit.people.filter(([person, role, , alias]) => {
-        const key = context + facultySearchKey([person, alias || '', role].join(' '));
-        return words.every(word => key.includes(word));
+    const units = (snapshot[name] || []).flatMap(department => {
+      if (facultyDepartment.value && department.name !== facultyDepartment.value) return [];
+      const context = facultySearchKey([name, english, department.name].join(' '));
+      const people = department.people.filter(person => words.every(word =>
+        context.includes(word) || person.searchKey.includes(word)));
+      const matchesSource = department.sources.some(unit => {
+        const key = facultySearchKey([unit.name, ...(unit.aliases || [])].join(' '));
+        return words.every(word => context.includes(word) || key.includes(word));
       });
-      return matchUnit || people.length ? [{ unit, people, id: `faculty-unit-${schoolIndex + 1}-${unitIndex + 1}` }] : [];
+      const id = `faculty-unit-${schoolIndex + 1}-${department.index + 1}`;
+      return matchesSource || people.length ? [{ department, people, id }] : [];
     });
 
     if (units.length) {
@@ -65,33 +77,36 @@ function renderFaculty() {
       if (units.length > 1) {
         const index = element('ul', '', 'faculty-unit-index');
         index.setAttribute('aria-label', `${name}的院系名录`);
-        for (const { unit, id } of units) {
+        for (const { department, id } of units) {
           const item = element('li');
-          const link = element('a', unit.name);
+          const link = element('a', department.name);
           link.href = `#${id}`;
           item.append(link);
           index.append(item);
         }
         body.append(index);
       }
-      for (const { unit, people, id } of units) {
+      for (const { department, people, id } of units) {
         const section = element('section', '', 'faculty-unit');
         section.id = id;
         const top = element('div', '', 'faculty-unit-head');
         const label = element('div');
-        label.append(element('h2', unit.name), element('p', [
-          unit.people.length ? `${countFormat.format(people.length)} ${words.length ? '条匹配' : '条名录记录'}` : '未收录逐人名单',
-          unit.status === 'partial' && '部分名单',
-          unit.note
+        const incomplete = department.sources.every(unit => unit.status === 'partial' || !unit.people.length) ||
+          department.sources.some(unit => !unit.people.length);
+        label.append(element('h2', department.name), element('p', [
+          department.people.length ? `${countFormat.format(people.length)} ${words.length ? '条匹配' : '位教师'}` : '未收录逐人名单',
+          department.people.length > 0 && incomplete && '部分名单',
+          department.sources.length === 1 && department.sources[0].note
         ].filter(Boolean).join(' · ')));
-        top.append(label, source(unit.people.length ? '官方名录 ↗' : '院系官网 ↗', unit.url));
+        top.append(label);
         section.append(top);
+        appendFacultySources(section, top, department);
         if (people.length) {
           const list = element('ul', '', 'faculty-people');
-          for (const [person, role, profile, alias] of people) {
+          for (const { name: person, roles, profile, aliases } of people) {
             const item = element('li');
             item.append(profile ? source(person, profile) : element('strong', person));
-            if (alias || role) item.append(element('small', [alias, role].filter(Boolean).join(' · ')));
+            if (aliases.length || roles.length) item.append(element('small', [...aliases, ...roles].join(' · ')));
             list.append(item);
           }
           section.append(list);
@@ -105,13 +120,13 @@ function renderFaculty() {
   });
 
   facultyRoot.replaceChildren(...(cards.length ? cards : [element('p', '没有找到符合条件的教师或院系。', 'empty')]));
-  get('faculty-count').textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '名录记录'} · 采集日期 ${facultyDirectory.checked}`;
+  get('faculty-count').textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '院系名录记录'} · 采集日期 ${facultyDirectory.checked}`;
 }
 
 addOptions(facultySchool, survey.schools);
 const facultyParams = new URLSearchParams(location.search);
 const selectedFacultySchool = facultyParams.get('school');
-const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-\d+$/);
+const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-(\d+)$/);
 const linkedSchool = facultyTarget && survey.schools[Number(facultyTarget[1]) - 1]?.[0];
 if (survey.schools.some(([school]) => school === selectedFacultySchool)) facultySchool.value = selectedFacultySchool;
 else if (linkedSchool) facultySchool.value = linkedSchool;
@@ -134,4 +149,12 @@ facultySchool.addEventListener('change', () => {
 });
 facultyDepartment.addEventListener('change', applyFacultyFilters);
 renderFaculty();
-if (facultyTarget) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+if (linkedSchool) {
+  const index = Number(facultyTarget[2]) - 1;
+  const department = snapshot[linkedSchool].find(item => item.unitIndexes.includes(index));
+  const section = department && get(`faculty-unit-${facultyTarget[1]}-${department.index + 1}`);
+  if (section) {
+    if (location.hash !== `#${section.id}`) history.replaceState(null, '', `#${section.id}`);
+    requestAnimationFrame(() => section.scrollIntoView());
+  }
+}

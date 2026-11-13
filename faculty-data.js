@@ -105,7 +105,7 @@ const facultyDirectory = {
         ["裴丹", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/7243.htm"],
         ["任丰原", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/3585.htm"],
         ["王继龙（校内兼职）", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/3584.htm"],
-        ["王小云（校内兼职）", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/3583.htm"],
+        ["王小云", "教授 · 校内兼职", "https://www.cs.tsinghua.edu.cn/info/1126/3583.htm"],
         ["吴建平", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/3582.htm"],
         ["徐恪", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/7184.htm"],
         ["徐明伟", "教授", "https://www.cs.tsinghua.edu.cn/info/1126/3580.htm"],
@@ -3579,7 +3579,7 @@ const facultyDirectory = {
         ["吴湘平", "助理研究员", "http://faculty.hitsz.edu.cn/wuxiangping"],
         ["贾小华", "教授", "https://cs.hitsz.edu.cn/info/1191/6080.htm"],
       ] },
-      { name: "威海 · 计算机科学与技术系", department: "计算机科学与技术系（威海）", url: "https://cst.hitwh.edu.cn/jsjkxyjsx/list.htm", note: "", people: [
+      { name: "威海 · 计算机科学与技术系", department: "计算机科学与技术学院", url: "https://cst.hitwh.edu.cn/jsjkxyjsx/list.htm", note: "", people: [
         ["季振洲", "教授", "https://homepage.hit.edu.cn/zhenzhouji?lang=zh"],
         ["伯彭波", "教授", "http://homepage.hit.edu.cn/bopengbo?lang=zh"],
         ["张策", "教授", "https://homepage.hit.edu.cn/ZHANGCE?lang=zh"],
@@ -3598,7 +3598,7 @@ const facultyDirectory = {
         ["杜海文", "讲师", "https://homepage.hit.edu.cn/duhaiwen?lang=zh"],
         ["孔珂（博士后/特聘副研究员）", "讲师", "https://cst.hitwh.edu.cn/2025/1008/c5977a205791/page.htm"],
       ] },
-      { name: "威海 · 软件工程系", department: "软件工程系（威海）", url: "https://cst.hitwh.edu.cn/rjgcx/list.htm", note: "", people: [
+      { name: "威海 · 软件工程系", department: "计算机科学与技术学院", url: "https://cst.hitwh.edu.cn/rjgcx/list.htm", note: "", people: [
         ["初佃辉", "教授", "https://homepage.hit.edu.cn/chudh?lang=zh"],
         ["韩希先", "教授", "https://homepage.hit.edu.cn/hanxixian?lang=zh"],
         ["涂志莹", "教授", "https://homepage.hit.edu.cn/tzy?lang=zh"],
@@ -3616,7 +3616,7 @@ const facultyDirectory = {
         ["万晓珑", "讲师", "https://homepage.hit.edu.cn/wanxiaolong?lang=zh"],
         ["李宗霖", "讲师", "https://homepage.hit.edu.cn/lizonglin?lang=zh"],
       ] },
-      { name: "威海 · 网络空间安全系", department: "网络空间安全系（威海）", url: "https://cst.hitwh.edu.cn/wlkjaq_5959/list.htm", note: "", people: [
+      { name: "威海 · 网络空间安全系", department: "计算机科学与技术学院", url: "https://cst.hitwh.edu.cn/wlkjaq_5959/list.htm", note: "", people: [
         ["董开坤", "教授/研究员", "https://homepage.hit.edu.cn/dongkaikun?lang=zh"],
         ["王佰玲", "教授/研究员", "https://homepage.hit.edu.cn/wbl?lang=zh"],
         ["张兆心", "教授/研究员", "https://homepage.hit.edu.cn/zhangzhaoxin?lang=zh"],
@@ -3637,7 +3637,7 @@ const facultyDirectory = {
         ["程亚楠（特聘）", "副教授", "https://homepage.hit.edu.cn/chengyanan?lang=zh"],
         ["陈浩", "讲师", "https://homepage.hit.edu.cn/chenhao?lang=zh"],
       ] },
-      { name: "威海 · 人工智能系", department: "人工智能系（威海）", url: "https://cst.hitwh.edu.cn/rgznx/list.htm", note: "", people: [
+      { name: "威海 · 人工智能系", department: "计算机科学与技术学院", url: "https://cst.hitwh.edu.cn/rgznx/list.htm", note: "", people: [
         ["张维刚", "教授", "https://homepage.hit.edu.cn/zhangweigang?lang=zh"],
         ["张盛平", "教授", "http://homepage.hit.edu.cn/zhangshengping"],
         ["丁建睿", "副教授", "https://homepage.hit.edu.cn/dingjianrui?lang=zh"],
@@ -3654,7 +3654,7 @@ const facultyDirectory = {
         ["吕晓倩", "讲师", "https://homepage.hit.edu.cn/lvxiaoqian?lang=zh"],
         ["刘心岩（博士后/助理研究员）", "讲师", "https://homepage.hit.edu.cn/liuxinyan?lang=zh"],
       ] },
-      { name: "威海 · 计算机基础系", department: "计算机基础系（威海）", url: "https://cst.hitwh.edu.cn/jsjjcx/list.htm", note: "", people: [
+      { name: "威海 · 计算机基础系", department: "计算机科学与技术学院", url: "https://cst.hitwh.edu.cn/jsjjcx/list.htm", note: "", people: [
         ["谷松林", "副教授", "http://homepage.hit.edu.cn/gusonglin?lang=zh"],
         ["刘东明", "副教授", "https://cst.hitwh.edu.cn/2024/0913/c5985a187364/page.htm"],
         ["张小东", "副教授", "https://cst.hitwh.edu.cn/2024/0913/c5985a187406/page.htm"],
@@ -3718,7 +3718,7 @@ const facultyDirectory = {
       { name: "人工智能学院 · 哈尔滨专任教师", url: "https://sai.hit.edu.cn/zrjs/list.htm", note: "", people: [
         ["刘挺", "教授", "https://homepage.hit.edu.cn/liuting"],
         ["车万翔", "教授", "http://ir.hit.edu.cn/~car"],
-        ["范晓鹏", "教授", "https://homepage.hit.edu.cn/liuting"],
+        ["范晓鹏", "教授", "https://homepage.hit.edu.cn/xiaopengfan"],
         ["冯骁骋", "教授", "https://homepage.hit.edu.cn/fengxiaocheng"],
         ["关毅", "教授", "https://homepage.hit.edu.cn/guanyi"],
         ["韩纪庆", "教授", "http://homepage.hit.edu.cn/hanjiqing"],
@@ -3739,7 +3739,7 @@ const facultyDirectory = {
         ["张伟男", "教授", "http://homepage.hit.edu.cn/zhangweinan?lang=zh"],
         ["张宇", "教授", "https://homepage.hit.edu.cn/yzhang"],
         ["赵德斌", "教授", "https://homepage.hit.edu.cn/zhaodebin"],
-        ["赵铁军", "教授", "https://homepage.hit.edu.cn/yzhang"],
+        ["赵铁军", "教授", "https://homepage.hit.edu.cn/zhaotiejun"],
         ["赵妍妍", "教授", "https://homepage.hit.edu.cn/yanyan?lang=zh"],
         ["左旺孟", "教授", "http://homepage.hit.edu.cn/wangmengzuo"],
         ["丁效", "研究员", "http://ir.hit.edu.cn/~xding/"],
@@ -5166,7 +5166,7 @@ const facultyDirectory = {
         ["Yingcong CHEN", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Yingcong/yingcongchen#new_tab"],
         ["Enyan DAI", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DAI-Enyan/enyandai#new_tab"],
         ["Xuming HU", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HU-Xuming/xuminghu#new_tab"],
-        ["Junwei LIANG", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Hao/liuh#new_tab"],
+        ["Junwei LIANG", "Assistant Professor", "https://junweiliang.me/", "梁俊卫"],
         ["Hao LIU", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Hao/liuh#new_tab"],
         ["Li LIU", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"],
         ["Chengwei QIN", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/QIN-Chengwei/chengweiqin#new_tab"],
@@ -7906,7 +7906,7 @@ const facultyDirectory = {
       ]},
       { name: "人工智能学院 · 高层次人才", url: "https://sai.whu.edu.cn/teacher/gccrc.htm", note: "学院分类名单，可能与其他栏目重叠", people: [
         ["杜博", "", "https://cs.whu.edu.cn/info/1019/2892.htm"],
-        ["郭宇峥", "", "https://jszy.whu.edu.cn/guoyuzheng/en/index.htm"],
+        ["郭宇铮", "", "https://jszy.whu.edu.cn/guoyuzheng/en/index.htm", "郭宇峥"],
         ["何德彪", "", "https://jszy.whu.edu.cn/hedebiao/zh_CN/index.htm"],
         ["贾鹏", "", "https://jszy.whu.edu.cn/jp/zh_CN/index.htm"],
         ["金芝", "", "http://jszy.whu.edu.cn/jinzhi/zh_CN/index.htm"],
