@@ -2,7 +2,7 @@ const { records } = buildPaperIndex(survey.records, paperLeads, new Map(facultyM
 const attributed = records.filter((record) => !record.attributionPending);
 
 function distribution(dimension, institutions) {
-  const groups = new Map(institutions.map(([name, , category]) => [name, { name, category, known: 0, pending: 0 }]));
+  const groups = new Map(institutions.map(([name, english, category]) => [name, { name, english, category, known: 0, pending: 0 }]));
   for (const record of attributed) {
     const group = groups.get(record[dimension]);
     if (group) group[record.gap ? 'pending' : 'known'] += 1;
@@ -33,108 +33,168 @@ for (const group of distribution('company', survey.companies)) {
   get('company-plot').append(link);
 }
 
-// Split roughly equal areas along the longer side to keep the tiles readable.
+// Pack consecutive schools into strips, keeping each strip's worst aspect ratio small.
 function tileLayout(entries, box, place) {
-  if (entries.length === 1) {
-    place(entries[0], box);
-    return;
+  const areaPerRecord = box.width * box.height / entries.reduce((sum, entry) => sum + entry.known, 0);
+  const ratio = (area, min, max, side) => {
+    const thickness = area / side;
+    return Math.max(thickness ** 2 / min, max / thickness ** 2);
+  };
+  let { x, y, width, height } = box;
+  for (let i = 0; i < entries.length;) {
+    const vertical = width >= height;
+    const side = vertical ? height : width;
+    const first = entries[i].known * areaPerRecord;
+    let area = first;
+    let end = i + 1;
+    while (end < entries.length) {
+      const next = entries[end].known * areaPerRecord;
+      const min = entries[end - 1].known * areaPerRecord;
+      if (ratio(area + next, next, first, side) > ratio(area, min, first, side)) break;
+      area += next;
+      end += 1;
+    }
+    const thickness = area / side;
+    let offset = 0;
+    for (; i < end; i += 1) {
+      const length = entries[i].known * areaPerRecord / thickness;
+      const tile = vertical
+        ? { x, y: y + offset, width: thickness, height: length }
+        : { x: x + offset, y, width: length, height: thickness };
+      place(entries[i], tile);
+      offset += length;
+    }
+    if (vertical) {
+      x += thickness;
+      width -= thickness;
+    } else {
+      y += thickness;
+      height -= thickness;
+    }
   }
-  const total = entries.reduce((sum, entry) => sum + entry.known, 0);
-  let split = 1;
-  let weight = entries[0].known;
-  while (split < entries.length - 1 && weight + entries[split].known / 2 < total / 2) {
-    weight += entries[split++].known;
-  }
-  const { x, y, width, height } = box;
-  const fraction = weight / total;
-  const horizontal = width >= height;
-  const cut = fraction * (horizontal ? width : height);
-  const first = horizontal ? { x, y, width: cut, height } : { x, y, width, height: cut };
-  const rest = horizontal
-    ? { x: x + cut, y, width: width - cut, height }
-    : { x, y: y + cut, width, height: height - cut };
-  tileLayout(entries.slice(0, split), first, place);
-  tileLayout(entries.slice(split), rest, place);
 }
 
-const shortSchoolNames = {
-  '清华大学': '清华大学', '北京大学': '北京大学', '复旦大学': '复旦大学',
-  '上海交通大学': '上海交大', '中国科学技术大学': '中国科大', '哈尔滨工业大学': '哈工大',
-  '西安交通大学': '西安交大', '香港大学': '港大', '香港中文大学': '港中大',
-  '香港科技大学': '港科大', '香港城市大学': '港城大', '香港理工大学': '港理工',
-  '香港中文大学（深圳）': '港中大·深圳', '香港科技大学（广州）': '港科大·广州',
-  '北京航空航天大学': '北航', '北京邮电大学': '北邮', '中国科学院大学': '国科大',
-  '中国人民大学': '人大', '华中科技大学': '华中科大', '电子科技大学': '电子科大',
-  '西安电子科技大学': '西电', '西北工业大学': '西工大',
-};
+function schoolLabels(school) {
+  const [full, alias] = school.english.split(' · ');
+  const short = {
+    '清华大学': 'Tsinghua', '复旦大学': 'Fudan', '西安电子科技大学': 'Xidian',
+  }[school.name] || alias || full;
+  return { full, short };
+}
 
 function renderSchoolChart() {
   const schools = distribution('school', survey.schools);
-  const panels = [
-    ['C9', 'C9 高校', 'red'],
-    ['港五', '港五高校', 'orange'],
-    ['合作大学', '港校内地校区', 'purple'],
-    ['新增高校', '其他纳入高校', 'blue'],
-  ].map(([category, title, color]) => {
+  const total = schools.reduce((sum, school) => sum + school.known, 0);
+  const percent = (known) => `${(100 * known / total).toFixed(1)}%`;
+  const chart = get('school-plot');
+  const groups = [
+    ['C9', 'C9 Universities', 'C9', 'red'],
+    ['新增高校', 'Other Mainland Universities', 'Other Mainland', 'blue'],
+    ['港五', 'Hong Kong Universities', 'Hong Kong', 'orange'],
+    ['合作大学', 'HK Universities’ Mainland Campuses', 'HK Campuses', 'purple'],
+  ].flatMap(([category, title, shortTitle, color]) => {
     const entries = schools.filter((school) => school.category === category && school.known)
       .sort((a, b) => b.known - a.known);
-    return { title, color, entries, known: entries.reduce((sum, school) => sum + school.known, 0) };
-  });
-  const summary = get('school-summary');
-  const chart = get('school-plot');
-  const groups = [];
-  for (const panel of panels) {
-    const tone = `school-tone-${panel.color}`;
-    const key = element('li', '', tone);
-    key.append(element('i', '', 'school-swatch'), element('span', panel.title), element('strong', String(panel.known)));
-    summary.append(key);
-    if (!panel.known) continue;
+    const known = entries.reduce((sum, school) => sum + school.known, 0);
+    if (!known) return [];
 
-    const section = element('div', '', `school-map-group ${tone}`);
+    const section = element('div', '', `school-map-group school-tone-${color}`);
     section.setAttribute('role', 'group');
-    section.setAttribute('aria-label', panel.title);
+    section.setAttribute('aria-label', `${title} · ${percent(known)}`);
+    section.lang = 'en';
+
+    const heading = element('div', '', 'school-group-band');
+    heading.append(element('span', title, 'school-group-full'), element('span', shortTitle, 'school-group-short'),
+      element('strong', percent(known), 'school-group-share'));
+    const body = element('div', '', 'school-group-tiles');
+    section.append(heading, body);
+
     const tiles = new Map();
-    for (const school of panel.entries) {
+    for (const school of entries) {
       const tile = plotLink('school', school);
       tile.className = 'school-tile';
-      tile.title = `${school.name} · ${school.known} 对已确认关系`;
+      const { full, short } = schoolLabels(school);
+      tile.title = `${full} · ${school.name} · ${percent(school.known)}（${school.known} 对）`;
       const name = tile.firstElementChild;
       name.className = 'school-tile-name';
-      const shortName = shortSchoolNames[school.name] || school.name;
-      if (school.category === '合作大学') name.textContent = shortName;
-      const short = element('span', shortName, 'school-tile-short');
-      tile.append(short, element('strong', String(school.known), 'plot-count'));
-      tiles.set(school, tile);
-      section.append(tile);
+      name.textContent = full;
+      const caption = element('span', '', 'school-tile-caption');
+      caption.append(element('span', percent(school.known), 'school-tile-share'),
+        element('span', String(school.known), 'plot-count'));
+      tile.append(element('span', short, 'school-tile-short'), caption);
+      tiles.set(school, { tile, full, short });
+      body.append(tile);
     }
     chart.append(section);
-    groups.push({ ...panel, section, tiles });
+    return [{ section, entries, tiles, known }];
+  });
+
+  function position(node, { x, y, width, height }) {
+    Object.assign(node.style, { left: `${x}px`, top: `${y}px`, width: `${width}px`, height: `${height}px` });
   }
 
-  function position(node, box, width, height) {
-    node.style.left = `${100 * box.x / width}%`;
-    node.style.top = `${100 * box.y / height}%`;
-    node.style.width = `${100 * box.width / width}%`;
-    node.style.height = `${100 * box.height / height}%`;
-  }
-  new ResizeObserver(([{ contentRect: { width, height } }]) => {
-    if (!groups.length || !width || !height) return;
-    tileLayout(groups, { x: 0, y: 0, width, height }, (group, box) => {
-      position(group.section, box, width, height);
-      tileLayout(group.entries, { x: 0, y: 0, width: box.width, height: box.height }, (school, rect) => {
-        const tile = group.tiles.get(school);
-        position(tile, rect, box.width, box.height);
-        tile.classList.toggle('school-tile-compact', rect.width < 150 || rect.height < 100);
-        tile.classList.toggle('school-tile-tight', rect.width < 55 || rect.height < 56);
-        tile.classList.toggle('school-tile-shallow', rect.height < 38);
-      });
+  function drawGroup(group, x, y, width, height, band) {
+    position(group.section, { x, y, width, height });
+    group.section.style.setProperty('--school-band-size', `${band}px`);
+    group.section.classList.toggle('school-group-narrow', width < 330);
+    group.section.classList.toggle('school-group-mini', width < 185);
+    tileLayout(group.entries, { x: 0, y: 0, width, height: height - band }, (school, rect) => {
+      const { tile, full, short } = group.tiles.get(school);
+      position(tile, rect);
+      const compact = rect.width < 112 || rect.height < 60 || full.length > 34 || full.length > rect.width * .25;
+      const longestWord = Math.max(...full.split(/\s+/).map((word) => word.length));
+      const font = Math.max(10, Math.min(35, rect.height * (compact ? .27 : .23), rect.width * .16,
+        compact ? rect.width / (short.length * .65 + 1.1) : rect.width / (longestWord * .65 + 1.5)));
+      tile.style.setProperty('--school-name-size', `${font}px`);
+      tile.classList.toggle('school-tile-compact', compact);
+      tile.classList.toggle('school-tile-dense', rect.width < 78 || rect.height < 47);
     });
+  }
+
+  if (groups.length) new ResizeObserver(([{ contentRect: { width, height } }]) => {
+    if (!width || !height) return;
+    const band = width < 500 ? 24 : 32;
+    if (width < 590 || groups.length !== 4) {
+      let y = 0;
+      for (const group of groups) {
+        const size = band + (height - groups.length * band) * group.known / total;
+        drawGroup(group, 0, y, width, size, band);
+        y += size;
+      }
+      return;
+    }
+    const [c9, mainland, hk, campuses] = groups;
+    const sideBySide = width >= 880;
+    const rightBands = sideBySide ? 2 : 3;
+    const share = c9.known / total;
+    // Reserve the heading strips before allocating the school tile areas.
+    const leftWidth = share * width * (height - rightBands * band)
+      / (height - band - share * (rightBands - 1) * band);
+    const rightWidth = width - leftWidth;
+    const area = leftWidth * (height - band) / share;
+    const mainlandHeight = band + area * mainland.known / total / rightWidth;
+    drawGroup(c9, 0, 0, leftWidth, height, band);
+    drawGroup(mainland, leftWidth, 0, rightWidth, mainlandHeight, band);
+    if (sideBySide) {
+      const hkWidth = rightWidth * hk.known / (hk.known + campuses.known);
+      drawGroup(hk, leftWidth, mainlandHeight, hkWidth, height - mainlandHeight, band);
+      drawGroup(campuses, leftWidth + hkWidth, mainlandHeight, rightWidth - hkWidth, height - mainlandHeight, band);
+    } else {
+      const hkHeight = band + area * hk.known / total / rightWidth;
+      drawGroup(hk, leftWidth, mainlandHeight, rightWidth, hkHeight, band);
+      drawGroup(campuses, leftWidth, mainlandHeight + hkHeight, rightWidth, height - mainlandHeight - hkHeight, band);
+    }
   }).observe(chart);
 
   const empty = schools.filter((school) => !school.known);
   if (empty.length) {
     const remainder = get('school-zero');
-    remainder.append('暂无已确认关系：', ...empty.map((school) => plotLink('school', school)));
+    remainder.append('暂无已确认关系：', ...empty.map((school) => {
+      const link = plotLink('school', school);
+      link.firstElementChild.textContent = schoolLabels(school).full;
+      link.lang = 'en';
+      return link;
+    }));
     remainder.hidden = false;
   }
 }
