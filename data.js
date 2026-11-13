@@ -8486,6 +8486,60 @@ const survey = {
         [ '作者具名指导说明的公开转录', 'https://www.instalker.org/lockonlvange/status/1889558507168686574' ],
         [ '同期发表报道', 'https://www.36kr.com/p/3170644914973446' ]
       ]
+    },
+    {
+      id: 'tqsed-alibaba-nwpu-jianfeng-chen',
+      company: '阿里巴巴',
+      team: '通义实验室 · 语音团队',
+      school: '西北工业大学',
+      studentSchool: '西北工业大学',
+      faculty: [ '陈建峰 · Jianfeng Chen', '西北工业大学航海学院教授，是 Han Yin 具名的硕士导师；论文署西工大并为通讯作者。', 'https://news.nwpu.edu.cn/info/1002/82054.htm' ],
+      employee: [
+        'Siqi Zheng',
+        '阿里巴巴语音实验室研究员。2021 年 Interspeech 和 2023 年 ACL 正式材料已连续署阿里；2024 年是尹涵具名的通义语音组实习导师并为本篇同作者。',
+        'https://aclanthology.org/2023.findings-acl.884.pdf'
+      ],
+      student: [
+        '尹涵 · Han Yin',
+        '2022 年 9 月至 2025 年 3 月为西北工业大学航海学院硕士生，2024 年 6 月 20 日至 9 月 30 日在阿里通义语音组实习；2024 年 9 月 20 日提交的论文第一作者同时署西工大及阿里语音实验室。',
+        'https://apple-yinhan.github.io/'
+      ],
+      title: 'Exploring Text-Queried Sound Event Detection with Audio Source Separation',
+      short: 'TQ-SED',
+      date: '2025-04',
+      venue: 'ICASSP',
+      area: '语音与音频',
+      paper: 'https://arxiv.org/pdf/2409.13292v1',
+      extra: [
+        [ 'IEEE 正式论文索引', 'https://ieeexplore.ieee.org/document/10889789/' ],
+        [ 'Interspeech 2021 企业署名', 'https://www.interspeech2021.org/program' ],
+        [ 'Interspeech 2024 企业署名', 'https://interspeech2024.org/wp-content/uploads/IS24-Provisional-Programme.pdf' ]
+      ],
+      evidence: '预印本第一作者同时署西工大和阿里语音实验室，首次公开日在其自述的阿里通义语音实习期内；其履历列明同篇的三位阿里导师 Siqi Zheng、Chong Deng、Hui Wang。后续 2025 年 4 月 9 日才转为阿里算法工程师。',
+      advising: [ '校内硕士导师', 'Han Yin 的个人履历在 2022 年 9 月至 2025 年 3 月的西工大硕士教育记录中具名列出陈建峰教授为导师。', 'https://apple-yinhan.github.io/' ]
+    },
+    {
+      id: 'mathshepherd-deepseek-pku-zhifang-sui',
+      company: 'DeepSeek',
+      team: 'DeepSeek-AI · 大模型对齐团队',
+      school: '北京大学',
+      studentSchool: '北京大学',
+      title: 'Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations',
+      short: 'Math-Shepherd',
+      date: '2024-08',
+      venue: 'ACL',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2024.acl-long.510.pdf',
+      faculty: [ '穗志方 · Zhifang Sui', '北京大学计算机学院教授，论文署北京大学多媒体信息处理重点实验室。', 'https://cs.pku.edu.cn/info/1078/1672.htm' ],
+      employee: [ '吴俣 · Yu Wu', '2023 年 9 月起在 DeepSeek 任职，负责大模型对齐；原文署 DeepSeek-AI。', 'https://sites.google.com/view/wuyu/home' ],
+      student: [ '王培懿 · Peiyi Wang', '研究期间为北京大学计算机学院博士生。2023 年 12 月首稿署北京大学，第一作者脚注明确为在 DeepSeek 实习期间的贡献。', 'https://arxiv.org/pdf/2312.08935v1' ],
+      evidence: '2023 年 12 月预印本具名标注王培懿的 DeepSeek 实习，北大博士导师穗志方及当时已在 DeepSeek 任职的吴俣均为同篇作者；工作是数学推理过程奖励模型和强化学习，不是 DeepSeekMoE 的模型架构项目。',
+      advising: [ '博士导师', '天津大学校友网记录王培懿为北京大学 2020 级直博生、师从穗志方。', 'https://alumni.tju.edu.cn/info/1057/3707.htm' ],
+      extra: [
+        [ 'ACL 正式索引', 'https://aclanthology.org/2024.acl-long.510/' ],
+        [ '2023 年 12 月具名实习脚注', 'https://arxiv.org/pdf/2312.08935v1' ],
+        [ '2023 年同期学校署名', 'https://aclanthology.org/2023.ccl-3.pdf' ]
+      ]
     }
   ]
 };
