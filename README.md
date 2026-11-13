@@ -27,7 +27,7 @@
 - [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览、企业分布和高校分布。高校矩形的面积表示已确认关系数，分组标题带显示该组占比。点击图中的企业或高校，打开对应的关系索引。
 - [关系索引](https://hyosungsink.github.io/Prof-Co-conn/connections.html)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据。
 - [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)每篇论文一帖，列出相关机构、核验提示和原文链接，可按题名、企业或高校检索。
-- [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资，支持姓名、职称和院系检索。院系范围按学校官网交叉核对，涵盖独立设置的计算机、人工智能、网络安全、软件工程、数据科学及相关单位。每份名录附官网链接，并标明只有部分名单或官网入口的栏目。名录记录不等同于独立人数，也不用于直接确认论文作者当时的任职。
+- [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。可先选高校，再选该校院系，并在选定范围内按姓名、职称等关键词搜索。院系范围按学校官网交叉核对，涵盖独立设置的计算机、人工智能、网络安全、软件工程、数据科学及相关单位。每份名录附官网链接，并标明只有部分名单或官网入口的栏目。名录记录不等同于独立人数，也不用于直接确认论文作者当时的任职。
 - [核验口径](https://hyosungsink.github.io/Prof-Co-conn/method.html)说明确认条件、论文归属规则和高校范围。
 
 ## 本地运行与部署

@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
   <title>教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=189b08977580">
-  <script src="data.js?v=189b08977580" defer></script>
-  <script src="ui.js?v=189b08977580" defer></script>
-  <script src="faculty-data.js?v=189b08977580" defer></script>
-  <script src="faculty-page.js?v=189b08977580" defer></script>
+  <link rel="stylesheet" href="styles.css?v=ec4b361de8f8">
+  <script src="data.js?v=ec4b361de8f8" defer></script>
+  <script src="ui.js?v=ec4b361de8f8" defer></script>
+  <script src="faculty-data.js?v=ec4b361de8f8" defer></script>
+  <script src="faculty-page.js?v=ec4b361de8f8" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -29,7 +29,8 @@
       <p class="faculty-scope-note">院系按各校官网设置分别列出。同一人可能在多个名单中出现；导师、双聘、兼职和荣休名单不代表全职任职。仅取得部分名单或官网入口的栏目已注明。</p>
       <form id="faculty-filters" class="filters faculty-filters" role="search" aria-label="筛选教师名录">
         <label class="search"><span>搜索</span><input id="faculty-query" type="search" placeholder="教师姓名、职称或院系"></label>
-        <label><span>高校</span><select id="faculty-school"><option value="">全部高校</option></select></label>
+        <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>
+        <label><span id="faculty-department-label">院系</span><select id="faculty-department" aria-labelledby="faculty-department-label" disabled><option value="">请先选择高校</option></select></label>
       </form>
       <div class="result-bar"><p id="faculty-count" aria-live="polite"></p></div>
       <div id="faculty-rosters" class="faculty-rosters"></div>

@@ -1,11 +1,26 @@
 const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
+const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
 const snapshot = facultyDirectory.schools;
 const countFormat = new Intl.NumberFormat('zh-CN');
 
 function facultySearchKey(value) {
   return value.normalize('NFKD').toLowerCase().replace(/[\p{M}\p{P}\p{Z}]/gu, '');
+}
+
+function departmentOf(unit) {
+  return unit.department ?? unit.name.split(' · ', 1)[0];
+}
+
+function setDepartmentOptions(selected = '') {
+  const school = facultySchool.value;
+  const departments = new Set((snapshot[school] || []).map(departmentOf));
+  const placeholder = school ? '全部院系' : '请先选择高校';
+  facultyDepartment.replaceChildren(new Option(placeholder, ''),
+    ...Array.from(departments, name => new Option(name, name)));
+  facultyDepartment.disabled = !school;
+  facultyDepartment.value = departments.has(selected) ? selected : '';
 }
 
 function renderFaculty() {
@@ -15,15 +30,17 @@ function renderFaculty() {
 
   for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
-    const units = (snapshot[name] || []).map((unit, unitIndex) => {
-      const context = facultySearchKey([name, english, unit.name, ...(unit.aliases || [])].join(' '));
+    const units = (snapshot[name] || []).flatMap((unit, unitIndex) => {
+      const department = departmentOf(unit);
+      if (facultyDepartment.value && department !== facultyDepartment.value) return [];
+      const context = facultySearchKey([name, english, unit.name, department, ...(unit.aliases || [])].join(' '));
       const matchUnit = words.every(word => context.includes(word));
       const people = unit.people.filter(([person, role, , alias]) => {
         const key = context + facultySearchKey([person, alias || '', role].join(' '));
         return words.every(word => key.includes(word));
       });
-      return { unit, matchUnit, people, id: `faculty-unit-${schoolIndex + 1}-${unitIndex + 1}` };
-    }).filter(({ matchUnit, people }) => matchUnit || people.length);
+      return matchUnit || people.length ? [{ unit, people, id: `faculty-unit-${schoolIndex + 1}-${unitIndex + 1}` }] : [];
+    });
 
     if (units.length) {
       matches += units.reduce((sum, { people }) => sum + people.length, 0);
@@ -92,20 +109,29 @@ function renderFaculty() {
 }
 
 addOptions(facultySchool, survey.schools);
-const selectedFacultySchool = new URLSearchParams(location.search).get('school');
+const facultyParams = new URLSearchParams(location.search);
+const selectedFacultySchool = facultyParams.get('school');
 const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-\d+$/);
 const linkedSchool = facultyTarget && survey.schools[Number(facultyTarget[1]) - 1]?.[0];
 if (survey.schools.some(([school]) => school === selectedFacultySchool)) facultySchool.value = selectedFacultySchool;
 else if (linkedSchool) facultySchool.value = linkedSchool;
+setDepartmentOptions(facultyParams.get('department'));
 get('faculty-filters').addEventListener('submit', event => event.preventDefault());
 facultyQuery.addEventListener('input', renderFaculty);
-facultySchool.addEventListener('change', () => {
+function applyFacultyFilters() {
   const url = new URL(location.href);
   if (facultySchool.value) url.searchParams.set('school', facultySchool.value);
   else url.searchParams.delete('school');
+  if (facultyDepartment.value) url.searchParams.set('department', facultyDepartment.value);
+  else url.searchParams.delete('department');
   url.hash = '';
   history.replaceState(null, '', url);
   renderFaculty();
+}
+facultySchool.addEventListener('change', () => {
+  setDepartmentOptions();
+  applyFacultyFilters();
 });
+facultyDepartment.addEventListener('change', applyFacultyFilters);
 renderFaculty();
 if (facultyTarget) document.getElementById(location.hash.slice(1))?.scrollIntoView();

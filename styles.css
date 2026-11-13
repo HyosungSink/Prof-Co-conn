@@ -229,7 +229,8 @@ dialog::backdrop { background: #211b3277; }
   .role-list > div { grid-template-columns: 1fr; }
 }
 
-.faculty-filters { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); }
+.faculty-filters { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1fr); }
+.faculty-filters select:disabled { opacity: 1; background: var(--page); color: var(--muted); cursor: default; }
 .faculty-scope-note { margin: -6px 0 18px; color: var(--muted); font-size: 13px; }
 .faculty-rosters { display: grid; gap: 10px; }
 .faculty-school-card { background: var(--white); border: 1px solid var(--rule); border-radius: 12px; }
@@ -256,6 +257,10 @@ dialog::backdrop { background: #211b3277; }
 .faculty-people li { display: grid; align-content: start; gap: 2px; padding: 9px 12px; background: var(--white); overflow-wrap: anywhere; font-size: 13px; }
 .faculty-people a { font-weight: 650; width: fit-content; }
 .faculty-people a:focus-visible { outline-offset: 0; }
+@media (max-width: 800px) {
+  .faculty-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .faculty-filters .search { grid-column: 1 / -1; }
+}
 @media (max-width: 560px) {
   .topbar-inner nav { justify-content: flex-end; }
   .faculty-filters { grid-template-columns: 1fr; }

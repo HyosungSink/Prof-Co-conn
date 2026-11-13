@@ -1,4 +1,5 @@
 // Public university directory snapshots. People: [name, role, profile, optional alias].
+// department overrides the filter label when a roster title uses a different grouping.
 const facultyDirectory = {
   checked: "2026-11-13",
   schools: {
@@ -3578,7 +3579,7 @@ const facultyDirectory = {
         ["吴湘平", "助理研究员", "http://faculty.hitsz.edu.cn/wuxiangping"],
         ["贾小华", "教授", "https://cs.hitsz.edu.cn/info/1191/6080.htm"],
       ] },
-      { name: "威海 · 计算机科学与技术系", url: "https://cst.hitwh.edu.cn/jsjkxyjsx/list.htm", note: "", people: [
+      { name: "威海 · 计算机科学与技术系", department: "计算机科学与技术系（威海）", url: "https://cst.hitwh.edu.cn/jsjkxyjsx/list.htm", note: "", people: [
         ["季振洲", "教授", "https://homepage.hit.edu.cn/zhenzhouji?lang=zh"],
         ["伯彭波", "教授", "http://homepage.hit.edu.cn/bopengbo?lang=zh"],
         ["张策", "教授", "https://homepage.hit.edu.cn/ZHANGCE?lang=zh"],
@@ -3597,7 +3598,7 @@ const facultyDirectory = {
         ["杜海文", "讲师", "https://homepage.hit.edu.cn/duhaiwen?lang=zh"],
         ["孔珂（博士后/特聘副研究员）", "讲师", "https://cst.hitwh.edu.cn/2025/1008/c5977a205791/page.htm"],
       ] },
-      { name: "威海 · 软件工程系", url: "https://cst.hitwh.edu.cn/rjgcx/list.htm", note: "", people: [
+      { name: "威海 · 软件工程系", department: "软件工程系（威海）", url: "https://cst.hitwh.edu.cn/rjgcx/list.htm", note: "", people: [
         ["初佃辉", "教授", "https://homepage.hit.edu.cn/chudh?lang=zh"],
         ["韩希先", "教授", "https://homepage.hit.edu.cn/hanxixian?lang=zh"],
         ["涂志莹", "教授", "https://homepage.hit.edu.cn/tzy?lang=zh"],
@@ -3615,7 +3616,7 @@ const facultyDirectory = {
         ["万晓珑", "讲师", "https://homepage.hit.edu.cn/wanxiaolong?lang=zh"],
         ["李宗霖", "讲师", "https://homepage.hit.edu.cn/lizonglin?lang=zh"],
       ] },
-      { name: "威海 · 网络空间安全系", url: "https://cst.hitwh.edu.cn/wlkjaq_5959/list.htm", note: "", people: [
+      { name: "威海 · 网络空间安全系", department: "网络空间安全系（威海）", url: "https://cst.hitwh.edu.cn/wlkjaq_5959/list.htm", note: "", people: [
         ["董开坤", "教授/研究员", "https://homepage.hit.edu.cn/dongkaikun?lang=zh"],
         ["王佰玲", "教授/研究员", "https://homepage.hit.edu.cn/wbl?lang=zh"],
         ["张兆心", "教授/研究员", "https://homepage.hit.edu.cn/zhangzhaoxin?lang=zh"],
@@ -3636,7 +3637,7 @@ const facultyDirectory = {
         ["程亚楠（特聘）", "副教授", "https://homepage.hit.edu.cn/chengyanan?lang=zh"],
         ["陈浩", "讲师", "https://homepage.hit.edu.cn/chenhao?lang=zh"],
       ] },
-      { name: "威海 · 人工智能系", url: "https://cst.hitwh.edu.cn/rgznx/list.htm", note: "", people: [
+      { name: "威海 · 人工智能系", department: "人工智能系（威海）", url: "https://cst.hitwh.edu.cn/rgznx/list.htm", note: "", people: [
         ["张维刚", "教授", "https://homepage.hit.edu.cn/zhangweigang?lang=zh"],
         ["张盛平", "教授", "http://homepage.hit.edu.cn/zhangshengping"],
         ["丁建睿", "副教授", "https://homepage.hit.edu.cn/dingjianrui?lang=zh"],
@@ -3653,7 +3654,7 @@ const facultyDirectory = {
         ["吕晓倩", "讲师", "https://homepage.hit.edu.cn/lvxiaoqian?lang=zh"],
         ["刘心岩（博士后/助理研究员）", "讲师", "https://homepage.hit.edu.cn/liuxinyan?lang=zh"],
       ] },
-      { name: "威海 · 计算机基础系", url: "https://cst.hitwh.edu.cn/jsjjcx/list.htm", note: "", people: [
+      { name: "威海 · 计算机基础系", department: "计算机基础系（威海）", url: "https://cst.hitwh.edu.cn/jsjjcx/list.htm", note: "", people: [
         ["谷松林", "副教授", "http://homepage.hit.edu.cn/gusonglin?lang=zh"],
         ["刘东明", "副教授", "https://cst.hitwh.edu.cn/2024/0913/c5985a187364/page.htm"],
         ["张小东", "副教授", "https://cst.hitwh.edu.cn/2024/0913/c5985a187406/page.htm"],
@@ -5147,7 +5148,7 @@ const facultyDirectory = {
       ]}
     ],
     "香港科技大学（广州）": [
-      { name: "信息枢纽 · 人工智能学域", url: "https://ait.hkust-gz.edu.cn/people/faculty/", note: "含官网列示的交叉任职", people: [
+      { name: "信息枢纽 · 人工智能学域", department: "人工智能学域", url: "https://ait.hkust-gz.edu.cn/people/faculty/", note: "含官网列示的交叉任职", people: [
         ["Xiaowen CHU", "Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu#new_tab"],
         ["Hui XIONG", "Chair Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"],
         ["Lei CHEN", "Chair Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen#new_tab"],
@@ -5184,7 +5185,7 @@ const facultyDirectory = {
         ["Yan LONG", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LONG-Yan/yanlong#new_tab"],
         ["Jiadong YU", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Jiadong/jiadongyu#new_tab"],
       ] },
-      { name: "信息枢纽 · 数据科学与分析学域", url: "https://dsa.hkust-gz.edu.cn/people/faculty/", note: "含官网列示的交叉任职", people: [
+      { name: "信息枢纽 · 数据科学与分析学域", department: "数据科学与分析学域", url: "https://dsa.hkust-gz.edu.cn/people/faculty/", note: "含官网列示的交叉任职", people: [
         ["Jeffrey Xu YU", "Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu#new_tab"],
         ["Lionel Ming-Shuan NI", "Chair Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni#new_tab"],
         ["Ting Chuen PONG", "Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PONG-TINGCHUEN/tcpong#new_tab"],
@@ -5222,7 +5223,7 @@ const facultyDirectory = {
         ["Lei ZHU", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu#new_tab"],
         ["Lorraine Yuxin ZHANG", "Lecturer II", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yuxin/yuxinz#new_tab"],
       ] },
-      { name: "信息枢纽 · 计算媒体与艺术学域", url: "https://cma.hkust-gz.edu.cn/tag/faculty-regular/", note: "Regular Faculty", people: [
+      { name: "信息枢纽 · 计算媒体与艺术学域", department: "计算媒体与艺术学域", url: "https://cma.hkust-gz.edu.cn/tag/faculty-regular/", note: "Regular Faculty", people: [
         ["Pan Hui", "Chair Professor, Thrust Head", "https://cma.hkust-gz.edu.cn/faculty-regular/pan-hui-3/"],
         ["Huamin Qu", "Chair Professor", "https://cma.hkust-gz.edu.cn/faculty-regular/huamin-qu-5/"],
         ["Kang Zhang", "Professor", "https://cma.hkust-gz.edu.cn/faculty-regular/kang-zhang/"],
@@ -5253,7 +5254,7 @@ const facultyDirectory = {
         ["Jake Zhang", "Assistant Professor of Practice", "https://cma.hkust-gz.edu.cn/faculty-regular/jake-zhang/"],
         ["Nicolò Merendino", "Assistant Professor of Practice", "https://cma.hkust-gz.edu.cn/faculty-regular/nicolo-merendino/"],
       ] },
-      { name: "信息枢纽 · 物联网学域", url: "https://iott.hkust-gz.edu.cn/people/p_faculty/", note: "以学域官网师资名录为准", people: [
+      { name: "信息枢纽 · 物联网学域", department: "物联网学域", url: "https://iott.hkust-gz.edu.cn/people/p_faculty/", note: "以学域官网师资名录为准", people: [
         ["Hin Kwok TSANG", "Professor, Thrust Head", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=9"],
         ["Xudong WANG", "Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=475"],
         ["Lingjie DUAN", "Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=592"],
@@ -5275,7 +5276,7 @@ const facultyDirectory = {
         ["Xin YANG", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=691"],
         ["Zhenyi YUAN", "Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=706"],
       ] },
-      { name: "系统枢纽 · 机器人与自主系统学域", url: "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/", note: "", people: [
+      { name: "系统枢纽 · 机器人与自主系统学域", department: "机器人与自主系统学域", url: "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/", note: "", people: [
         ["Jun MA", "Acting Thrust Head", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=67", "MA JUN"],
         ["Ricky Shi-Wei LEE", "Chair Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=16", "李世玮"],
         ["Bertram Emil SHI", "Chair Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=760", "施毅明"],
@@ -5302,7 +5303,7 @@ const facultyDirectory = {
         ["Zexin SUN", "Lecturer II", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=736", "孙泽辛"],
         ["Chencheng DONG", "Research Assistant Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=683", "董宸呈"],
       ]},
-      { name: "系统枢纽 · 智能制造学域", url: "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/", note: "", people: [
+      { name: "系统枢纽 · 智能制造学域", department: "智能制造学域", url: "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/", note: "", people: [
         ["Kai TANG", "Thrust Head", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=142", "汤凯"],
         ["Ricky Shi-Wei LEE", "Chair Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=16", "李世玮"],
         ["Jingshen WU", "Professor", "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=12", "吴景深"],
@@ -5692,7 +5693,7 @@ const facultyDirectory = {
       ]}
     ],
     "北京邮电大学": [
-      { name: "计算机学院 · 未来学院公开科研导师", url: "https://future.bupt.edu.cn/sztd1/kydstd1/jsjxy.htm", note: "仅覆盖未来学院所列导师；计算机学院全体教师尚未收录", people: [
+      { name: "计算机学院 · 未来学院公开科研导师", department: "计算机学院（国家示范性软件学院）", url: "https://future.bupt.edu.cn/sztd1/kydstd1/jsjxy.htm", note: "仅覆盖未来学院所列导师；计算机学院全体教师尚未收录", people: [
         ["陈晋鹏", "科研导师", "https://teacher.bupt.edu.cn/chenjinpeng/zh_CN/index.htm"],
         ["程渤", "科研导师", "https://teacher.bupt.edu.cn/chengbo/zh_CN/index.htm"],
         ["程祥", "科研导师", "https://teacher.bupt.edu.cn/chengxiang/zh_CN/index.htm"],
@@ -5731,11 +5732,11 @@ const facultyDirectory = {
         ["周安福", "科研导师", "https://teacher.bupt.edu.cn/zhouanfu/zh_CN/index.htm"],
         ["周傲", "科研导师", "https://teacher.bupt.edu.cn/zhouao/zh_CN/index.htm"],
       ] },
-      { name: "计算机学院 · 招生导师补录", url: "https://yzb.bupt.edu.cn/__local/3/58/80/C3B36AB905A062647928172AFAD_750E435D_13CD3.pdf?e=.pdf", note: "学校研招办专项名单；不等同于学院全表", people: [
+      { name: "计算机学院 · 招生导师补录", department: "计算机学院（国家示范性软件学院）", url: "https://yzb.bupt.edu.cn/__local/3/58/80/C3B36AB905A062647928172AFAD_750E435D_13CD3.pdf?e=.pdf", note: "学校研招办专项名单；不等同于学院全表", people: [
         ["石川", "招生导师", ""],
         ["王敬宇", "招生导师", ""],
       ] },
-      { name: "计算机学院 · 公开研究团队资料", url: "https://scs.bupt.edu.cn/__local/4/58/4B/BE600844EAC7616D23F98D1A86C_AD8A39DB_1457B9.pdf?e=.pdf", note: "团队资料所列职称；现任情况需另核实", people: [
+      { name: "计算机学院 · 公开研究团队资料", department: "计算机学院（国家示范性软件学院）", url: "https://scs.bupt.edu.cn/__local/4/58/4B/BE600844EAC7616D23F98D1A86C_AD8A39DB_1457B9.pdf?e=.pdf", note: "团队资料所列职称；现任情况需另核实", people: [
         ["谢东亮", "教授", ""],
         ["胡博", "教授", ""],
         ["卢美莲", "教授", ""],
@@ -8496,7 +8497,7 @@ const facultyDirectory = {
       ]}
     ],
     "西安电子科技大学": [
-      { name: "计算机科学与技术学院 · 公开导师", url: "https://cs.xidian.edu.cn/szdw/dsjs.htm", note: "导师名单；不等同于全体教师", people: [
+      { name: "计算机科学与技术学院 · 公开导师", department: "计算机科学与技术学院（示范性软件学院）", url: "https://cs.xidian.edu.cn/szdw/dsjs.htm", note: "导师名单；不等同于全体教师", people: [
         ["崔江涛", "研究生导师", "http://web.xidian.edu.cn/cuijt/"],
         ["方敏", "研究生导师", "https://faculty.xidian.edu.cn/FM1/zh_CN/index.htm"],
         ["高琳", "研究生导师", "http://web.xidian.edu.cn/lgao/"],
@@ -8692,7 +8693,7 @@ const facultyDirectory = {
         ["刘成基", "研究生导师", "https://faculty.xidian.edu.cn/LIUCHENGJI/zh_CN/index/439811/list/index.htm"],
         ["程飞", "研究生导师", "https://faculty.xidian.edu.cn/CF6/zh_CN/index.htm"],
       ] },
-      { name: "计算机学院（软件学院） · 教师主页", url: "https://web.xidian.edu.cn/showcollege.php?col_num=10", note: "学校公开个人主页目录", people: [
+      { name: "计算机学院（软件学院） · 教师主页", department: "计算机科学与技术学院（示范性软件学院）", url: "https://web.xidian.edu.cn/showcollege.php?col_num=10", note: "学校公开个人主页目录", people: [
         ["鲍亮", "", "https://web.xidian.edu.cn/baoliang"],
         ["陈静玉", "", "https://web.xidian.edu.cn/jychen"],
         ["陈平", "", "https://web.xidian.edu.cn/chenping"],
