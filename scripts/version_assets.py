@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import re
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,6 +15,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="report outdated references without writing")
     args = parser.parse_args()
+    subprocess.run(["node", str(ROOT / "scripts/build_faculty_plot.cjs")] +
+                   (["--check"] if args.check else []), check=True)
     pages = {page: page.read_text(encoding="utf-8") for page in sorted(ROOT.glob("*.html"))}
     assets = {match["path"] for html in pages.values() for match in ASSET.finditer(html)}
     digest = hashlib.sha256()

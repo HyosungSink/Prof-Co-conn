@@ -3,88 +3,29 @@ const facultySchool = get('faculty-school');
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
 const facultyCount = get('faculty-count');
-const snapshot = mergeFacultyRosters(facultyDirectory.schools);
-const bibliographyRecords = typeof facultyBibliography === 'undefined' ? {} : facultyBibliography.records;
-snapshot[ucasSchool] = groupUcasFaculty(snapshot[ucasSchool], facultyBibliographyFor);
+const snapshot = buildFacultyCatalog();
 const countFormat = new Intl.NumberFormat('zh-CN');
-const percentFormat = new Intl.NumberFormat('zh-CN', { style: 'percent', maximumFractionDigits: 1 });
-const recordsPerDot = 25;
 const facultyPlotButtons = new Map();
-
-function facultyBibliographyFor({ name, profile, bibliography }, school, department) {
-  return bibliography || bibliographyRecords[school]?.[department]?.[JSON.stringify([name, profile])] || [];
-}
 
 function facultyUnitId(schoolIndex, department) {
   return department.slug ? `faculty-institute-${department.slug}` : `faculty-unit-${schoolIndex + 1}-${department.index + 1}`;
 }
 
-function buildFacultyPlot() {
-  const schools = survey.schools.map(([name]) => {
-    let count = 0;
-    let complete = 0;
-    for (const department of snapshot[name] || []) {
-      count += department.people.length;
-      for (const person of department.people) {
-        const [scholar, paper] = facultyBibliographyFor(person, name, department.name);
-        if (person.titles.length && scholar && paper) complete += 1;
-      }
+function facultyPlotButton(name) {
+  const button = element('button');
+  button.type = 'button';
+  button.setAttribute('aria-controls', 'faculty-rosters');
+  button.addEventListener('click', () => {
+    facultySchool.value = facultySchool.value === name ? '' : name;
+    setDepartmentOptions();
+    applyFacultyFilters();
+    if (facultyCount.getBoundingClientRect().bottom > window.innerHeight) {
+      facultyCount.focus({ preventScroll: true });
+      facultyCount.scrollIntoView({ block: 'start' });
     }
-    return { name, count, complete };
-  }).sort((a, b) => b.count - a.count);
-
-  let allCount = 0;
-  let allComplete = 0;
-  const share = (part, total) => total ? percentFormat.format(part / total) : '—';
-  const describe = (label, part, total) => `${label} ${countFormat.format(part)} 条（${share(part, total)}）`;
-  for (const { name, count, complete } of schools) {
-    allCount += count;
-    allComplete += complete;
-    const button = element('button', '', 'plot-cell faculty-plot-cell');
-    button.type = 'button';
-    const description = `${name}，共 ${countFormat.format(count)} 条，${describe('三项齐全', complete, count)}，${describe('非三项齐全', count - complete, count)}`;
-    button.setAttribute('aria-label', description);
-    button.setAttribute('aria-controls', 'faculty-rosters');
-    button.title = description;
-    const dots = element('span', '', 'dots');
-    dots.setAttribute('aria-hidden', 'true');
-    for (let start = 0; start < count; start += recordsPerDot) {
-      const filled = Math.min(count - start, recordsPerDot);
-      const purple = Math.max(0, Math.min(complete - start, filled));
-      const dot = element('i', '', 'dot');
-      if (filled === recordsPerDot && purple === 0) {
-        dot.classList.add('candidate');
-      } else if (filled < recordsPerDot || purple < filled) {
-        dot.classList.add('faculty-dot-split');
-        dot.style.setProperty('--dot-complete', `${purple * 100 / recordsPerDot}%`);
-        dot.style.setProperty('--dot-fill', `${filled * 100 / recordsPerDot}%`);
-      }
-      dots.append(dot);
-    }
-    const stats = element('span', '', 'faculty-plot-stats');
-    const shares = element('small', '', 'faculty-plot-share');
-    shares.append(element('span', share(complete, count)), ' / ', element('span', share(count - complete, count)));
-    stats.append(
-      element('strong', countFormat.format(count), 'faculty-plot-count'),
-      shares
-    );
-    button.append(element('span', name, 'plot-label'), dots, stats);
-    button.addEventListener('click', () => {
-      facultySchool.value = facultySchool.value === name ? '' : name;
-      setDepartmentOptions();
-      applyFacultyFilters();
-      if (facultyCount.getBoundingClientRect().bottom > window.innerHeight) {
-        facultyCount.focus({ preventScroll: true });
-        facultyCount.scrollIntoView({ block: 'start' });
-      }
-    });
-    facultyPlotButtons.set(name, button);
-  }
-  get('faculty-plot-complete').textContent = describe('三项齐全', allComplete, allCount);
-  get('faculty-plot-incomplete').textContent = describe('非三项齐全', allCount - allComplete, allCount);
-  get('faculty-plot-scale').textContent = `1 个满圆 = ${recordsPerDot} 条名录记录`;
-  get('faculty-plot').replaceChildren(...facultyPlotButtons.values());
-  get('faculty-distribution').hidden = false;
+  });
+  facultyPlotButtons.set(name, button);
+  return button;
 }
 
 function setDepartmentOptions(selected = '') {
@@ -321,7 +262,8 @@ facultySchool.addEventListener('change', () => {
   applyFacultyFilters();
 });
 facultyDepartment.addEventListener('change', applyFacultyFilters);
-buildFacultyPlot();
+renderFacultyPlot(summarizeFaculty(snapshot), facultyPlotButton);
+get('faculty-distribution').hidden = false;
 renderFaculty();
 if (instituteTarget && facultySchool.value === ucasSchool) {
   const section = get(facultyUnitId(0, instituteTarget));

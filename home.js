@@ -28,7 +28,9 @@ for (const group of distribution('attributedCompany', survey.companies)) {
   for (let i = 0; i < group.known + group.pending; i += 1) {
     dots.append(element('i', '', i < group.known ? 'dot' : 'dot candidate'));
   }
-  link.append(dots);
+  const count = element('strong', String(group.known + group.pending), 'company-plot-count');
+  count.setAttribute('aria-hidden', 'true');
+  link.append(dots, count);
   get('company-plot').append(link);
 }
 
@@ -85,7 +87,11 @@ function renderSchoolChart() {
   const schools = distribution('attributedSchool', survey.schools);
   const total = schools.reduce((sum, school) => sum + school.known, 0);
   const pending = records.filter((record) => !record.gap && !record.attributedSchool).length;
-  if (pending) get('school-chart-note').append(` 另有 ${pending} 篇已确认合作的论文尚未确定高校归属。`);
+  if (pending) {
+    const note = get('school-chart-note');
+    note.textContent = `另有 ${pending} 篇已确认合作的论文尚未确定高校归属。`;
+    note.hidden = false;
+  }
   const percent = (known) => `${(100 * known / total).toFixed(1)}%`;
   const chart = get('school-plot');
   const groups = [
@@ -154,7 +160,7 @@ function renderSchoolChart() {
 
   if (groups.length) new ResizeObserver(([{ contentRect: { width, height } }]) => {
     if (!width || !height) return;
-    const band = width < 500 ? 24 : 32;
+    const band = width < 500 || height < 320 ? 22 : 32;
     if (width < 590 || groups.length !== 4) {
       let y = 0;
       for (const group of groups) {
@@ -200,4 +206,49 @@ function renderSchoolChart() {
   }
 }
 
-renderSchoolChart();
+function setupHomeCharts() {
+  const slides = [...document.querySelectorAll('.home-slide')];
+  const prev = get('chart-prev');
+  const next = get('chart-next');
+  const number = index => String(index).padStart(2, '0');
+  const initialized = new Set([0]);
+  let active = 0;
+  const init = [
+    null,
+    renderSchoolChart,
+    () => renderFacultyPlot(facultyPlotStats.map(([name, count, complete]) => ({ name, count, complete })), name => {
+      const link = element('a');
+      link.href = `faculty.html?${new URLSearchParams({ school: name })}#faculty-rosters`;
+      return link;
+    })
+  ];
+
+  function moveChart(direction) {
+    const nextIndex = (active + direction + slides.length) % slides.length;
+    const oldSlide = slides[active];
+    const newSlide = slides[nextIndex];
+    if (oldSlide.contains(document.activeElement)) (direction < 0 ? prev : next).focus();
+    oldSlide.hidden = true;
+    newSlide.hidden = false;
+    if (!initialized.has(nextIndex)) {
+      init[nextIndex]();
+      initialized.add(nextIndex);
+    }
+    active = nextIndex;
+    get('chart-position').textContent = `${number(active + 1)} / ${number(slides.length)}`;
+    get('chart-announcement').textContent = `第 ${active + 1} 张，共 ${slides.length} 张：${newSlide.querySelector('h2').textContent}`;
+  }
+
+  prev.addEventListener('click', () => moveChart(-1));
+  next.addEventListener('click', () => moveChart(1));
+  document.addEventListener('keydown', event => {
+    if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey ||
+      event.target.closest('input, textarea, select, [contenteditable]')) return;
+    const direction = event.key === 'ArrowLeft' ? -1 : event.key === 'ArrowRight' ? 1 : 0;
+    if (!direction) return;
+    event.preventDefault();
+    moveChart(direction);
+  });
+}
+
+setupHomeCharts();

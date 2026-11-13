@@ -24,7 +24,7 @@
 
 ## 浏览网站
 
-- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览和按企业、高校统计的合作关系分布。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数，分组标题带显示该组占比。点击图中的企业或高校，打开对应的关系索引。
+- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览，用页面箭头或键盘左右键切换企业合作、高校合作、教师名录三张图。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数，标题带显示该组占比。教师名录图显示各校总数和核验完成比例，点击高校可查看该校名录。
 - [关系索引](https://hyosungsink.github.io/Prof-Co-conn/connections.html)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据。
 - [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)每篇论文一帖，列出相关机构、核验提示和原文链接，可按题名、企业或高校检索。
 - [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。点阵图显示各校名录记录数及三项齐全的比例；具体职称、Google 学术主页、CCF 代表作均已核实才计为齐全。点击高校即可筛选；也可选择高校和院系，按姓名、职称或所属单位搜索。每个院系只展示一份名录，跨院系任职仍分别列出。中国科学院大学按教师档案和补充来源所载的研究机构归组，同一档案在多个学院列名时合并；校部人员和归属待核实的人员单列。核对职称时查看院系名录、教师工作简历、教师主页指向的个人主页，以及任职单位的官方资料。补录职称附原始链接；同一岗位在中英文来源中用词不同时，可分别查看两处来源。导师资格和双聘等另列，仅查到层级或缺少依据的记录分别标明。名录不用于直接确认论文作者当时的任职。
@@ -42,7 +42,7 @@
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-启动后打开 `http://127.0.0.1:8000/`。GitHub Pages 从 `main` 分支的根目录发布，推送到 `main` 后会自动重新部署。`.nojekyll` 让 Pages 直接发布静态文件。修改 JavaScript（含数据文件）或 CSS 后，提交前运行 `python3 scripts/version_assets.py`，让页面加载同一版资源。
+启动后打开 `http://127.0.0.1:8000/`。GitHub Pages 从 `main` 分支的根目录发布，推送到 `main` 后会自动重新部署。`.nojekyll` 让 Pages 直接发布静态文件。修改 JavaScript（含数据文件）或 CSS 后，提交前运行 `python3 scripts/version_assets.py`（需要 Node.js），同步首页教师统计并更新页面的资源版本。
 
 ## 数据与代码
 
@@ -52,11 +52,12 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`leads.js`](leads.js) | 合著论文线索、关联机构和待核验事项 |
 | [`h-index.js`](h-index.js) | 参与归属比较的教师、Google 学术档案标识和总 H 指数快照 |
 | [`papers.js`](papers.js) | 论文识别、去重与归属规则 |
-| [`index.html`](index.html)、[`home.js`](home.js) | 首页概览、企业与高校分布图 |
+| [`index.html`](index.html)、[`home.js`](home.js) | 首页概览和分布图切换 |
 | [`connections.html`](connections.html)、[`app.js`](app.js) | 关系索引、筛选与证据详情 |
 | [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
 | [`faculty.html`](faculty.html)、[`faculty-page.js`](faculty-page.js)、[`faculty-rosters.js`](faculty-rosters.js)、[`faculty-data.js`](faculty-data.js)、[`faculty-titles.js`](faculty-titles.js)、[`faculty-ucas-institutes.js`](faculty-ucas-institutes.js) | 教师名录、院系内去重、官方名单、补录职称来源及国科大研究所归属 |
 | [`faculty-bibliography.js`](faculty-bibliography.js) | 教师的 Google 学术主页、CCF 代表作和核对来源 |
+| [`faculty-catalog.js`](faculty-catalog.js)、[`faculty-plot.js`](faculty-plot.js)、[`faculty-plot-data.js`](faculty-plot-data.js) | 名录统计、共用图表及首页生成数据 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
 
