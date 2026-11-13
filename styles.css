@@ -16,7 +16,8 @@
   line-height: 1.5;
 }
 *, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); background: var(--page); }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; color: var(--ink); background: var(--page); }
+main { flex: 1; }
 button, input, select { font: inherit; color: inherit; }
 button, select { cursor: pointer; }
 a { color: var(--brand-dark); text-underline-offset: 3px; }
@@ -35,7 +36,8 @@ h1, h2, h3, p { margin: 0; }
 .mark i:nth-child(3) { left: 15px; top: 15px; }
 nav { display: flex; flex-wrap: wrap; gap: 10px 25px; }
 nav a { text-decoration: none; color: var(--muted); font-size: 13px; }
-nav a:hover { color: var(--brand); }
+nav a:hover, nav a[aria-current="page"] { color: var(--brand-dark); text-decoration: underline; }
+nav a[aria-current="page"] { font-weight: 650; }
 .hero { display: grid; grid-template-columns: 1.08fr 1fr; gap: clamp(20px, 4vw, 65px); margin-top: 35px; padding: 38px 40px; border: 1px solid #e5dbf3; border-radius: 20px; background: linear-gradient(118deg, #f1ebfa 0%, #f8f4ff 58%, #eee7f9 100%); }
 .hero-copy { align-self: center; }
 .period { display: flex; gap: 8px; align-items: center; color: var(--brand-dark); font-size: 12px; font-weight: 650; font-variant-numeric: tabular-nums; letter-spacing: .035em; }
@@ -61,6 +63,7 @@ h1 em { font-family: Georgia, "Times New Roman", serif; font-weight: 500; color:
 .main-section { margin-top: 37px; scroll-margin-top: 16px; }
 .section-head { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
 .section-head h2 { font-size: clamp(23px, 2.8vw, 34px); letter-spacing: -.045em; line-height: 1.15; }
+.standalone .section-head h1 { margin: 0; font-size: clamp(28px, 3.7vw, 44px); letter-spacing: -.045em; }
 .section-head p { margin-top: 5px; font-size: 13px; color: var(--muted); }
 .filters { display: grid; grid-template-columns: minmax(190px, 1.45fr) minmax(140px, 1fr) minmax(165px, 1fr) minmax(120px, .65fr); gap: 12px; }
 .filters label { display: grid; min-width: 0; gap: 4px; color: var(--muted); font-size: 12px; font-weight: 600; }
@@ -95,7 +98,7 @@ tbody tr:hover { background: #fbf9fd; }
 .more-leads { margin-top: 10px; padding: 8px 14px; border: 1px solid var(--rule); border-radius: 6px; background: var(--white); color: var(--brand-dark); }
 .method-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .method-grid div { border-top: 2px solid #d3c4ea; padding-top: 10px; }
-.method-grid h3 { font-size: 15px; margin-bottom: 5px; }
+.method-grid h2 { font-size: 15px; margin-bottom: 5px; }
 .method-grid p, .scope { font-size: 13px; color: var(--muted); }
 .scope { margin-top: 16px; padding: 12px 0; border-block: 1px solid var(--rule); }
 .scope summary { cursor: pointer; font-weight: 650; color: var(--brand-dark); }
@@ -123,6 +126,8 @@ dialog::backdrop { background: #211b3277; }
 .attribution p { color: var(--muted); }
 .attribution ul { list-style: none; padding: 0; margin: 0; }
 .attribution li { display: flex; align-items: baseline; flex-wrap: wrap; gap: 3px 10px; padding-block: 3px; }
+.comparison { margin-block: 0 12px; font-size: 13px; }
+.comparison summary { margin-bottom: 6px; color: var(--brand-dark); cursor: pointer; }
 .sources { display: flex; gap: 8px 15px; flex-wrap: wrap; font-size: 13px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 @media (max-width: 1050px) {

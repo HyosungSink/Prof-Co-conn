@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="浏览中国高校与企业 AI 研究的合著论文与待核验线索。">
+  <title>合著线索 · AI 研究 Connection</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="leads.js" defer></script>
+  <script src="papers.js" defer></script>
+  <script src="ui.js" defer></script>
+  <script src="leads-page.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a>
+      <nav aria-label="页面导航">
+        <a href="index.html">关系索引</a>
+        <a href="leads.html" aria-current="page">合著线索</a>
+        <a href="method.html">核验口径</a>
+      </nav>
+    </div>
+  </header>
+  <main id="top" class="container standalone">
+    <section id="leads" class="main-section" aria-labelledby="leads-title">
+      <div class="section-head"><div><h1 id="leads-title">合著线索</h1><p>在论文或会议作者名单中发现的校企合作线索。核验提示说明还需查证的身份、指导关系或企业参与依据。</p></div></div>
+      <form id="lead-filters" class="filters lead-filters" role="search" aria-label="筛选合著线索">
+        <label class="search"><span>论文</span><input id="lead-query" type="search" placeholder="按论文题名检索"></label>
+        <label><span>企业</span><select id="lead-company"><option value="">全部企业</option></select></label>
+        <label><span>高校</span><select id="lead-school"><option value="">全部高校</option></select></label>
+      </form>
+      <div class="result-bar"><p id="lead-count" aria-live="polite"></p></div>
+      <div class="table-wrap">
+        <table class="lead-table">
+          <thead><tr><th scope="col">论文与会议来源</th><th scope="col">相关企业</th><th scope="col">相关高校</th><th scope="col">核验提示</th></tr></thead>
+          <tbody id="lead-rows"></tbody>
+        </table>
+        <div id="lead-empty" class="empty" hidden>当前筛选下没有合著线索。</div>
+      </div>
+      <button id="more-leads" class="more-leads" type="button" hidden>查看更多线索</button>
+    </section>
+  </main>
+  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>公开资料核验 · 截至 2026 年 11 月 12 日</span></footer>
+</body>
+</html>

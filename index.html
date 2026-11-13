@@ -6,20 +6,26 @@
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
   <link rel="stylesheet" href="styles.css">
+  <script>
+    // Keep links to the original sections working.
+    if (location.hash === '#leads') location.replace('leads.html');
+    if (location.hash === '#method') location.replace('method.html');
+  </script>
   <script src="data.js" defer></script>
   <script src="leads.js" defer></script>
   <script src="h-index.js" defer></script>
   <script src="papers.js" defer></script>
+  <script src="ui.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="wordmark" href="#top"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a>
+      <a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a>
       <nav aria-label="页面导航">
-        <a href="#connections">关系索引</a>
-        <a href="#leads">合著线索</a>
-        <a href="#method">核验口径</a>
+        <a href="index.html" aria-current="page">关系索引</a>
+        <a href="leads.html">合著线索</a>
+        <a href="method.html">核验口径</a>
       </nav>
     </div>
   </header>
@@ -65,35 +71,8 @@
       </div>
     </section>
 
-    <section id="leads" class="main-section" aria-labelledby="leads-title">
-      <div class="section-head"><div><h2 id="leads-title">合著线索</h2><p>在论文或会议作者名单中发现的校企合作线索。核验提示说明还需查证的身份、指导关系或企业参与依据。</p></div></div>
-      <form id="lead-filters" class="filters lead-filters" role="search" aria-label="筛选合著线索">
-        <label class="search"><span>论文</span><input id="lead-query" type="search" placeholder="按论文题名检索"></label>
-        <label><span>企业</span><select id="lead-company"><option value="">全部企业</option></select></label>
-        <label><span>高校</span><select id="lead-school"><option value="">全部高校</option></select></label>
-      </form>
-      <div class="result-bar"><p id="lead-count" aria-live="polite"></p></div>
-      <div class="table-wrap">
-        <table class="lead-table">
-          <thead><tr><th scope="col">论文与会议来源</th><th scope="col">相关企业</th><th scope="col">相关高校</th><th scope="col">核验提示</th></tr></thead>
-          <tbody id="lead-rows"></tbody>
-        </table>
-        <div id="lead-empty" class="empty" hidden>当前筛选下没有合著线索。</div>
-      </div>
-      <button id="more-leads" class="more-leads" type="button" hidden>查看更多线索</button>
-    </section>
-
-    <section id="method" class="main-section" aria-labelledby="method-title">
-      <div class="section-head"><div><h2 id="method-title">核验口径</h2></div></div>
-      <div class="method-grid">
-        <div><h3>同一篇论文，三类作者</h3><p>核实高校指导教师、企业正式员工和参与该企业研究的在读学生。每条确认记录附具名的师生关系来源。跨校案例需要同期共同指导或联培依据。</p></div>
-        <div><h3>按研究发生时的身份</h3><p>用个人履历、学位论文、教师的学生名录或项目贡献说明核对指导关系和时间。以实习脚注、联培记录或具名项目资料确认学生参与对应企业的研究。</p></div>
-        <div><h3>论文来源与归属</h3><p>正式版和预印本合并，每篇论文计一对关系。有多位经核实的指导教师时，归给 <a href="https://help.openalex.org/data/authors/">OpenAlex H 指数</a>最高的一位；并列时按教师英文署名排序。详情列出比较依据。</p></div>
-      </div>
-      <details class="scope"><summary>查看 26 所高校与检索别名</summary><ul id="school-list"></ul></details>
-    </section>
   </main>
-  <footer class="container footer"><a class="wordmark" href="#top"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>公开资料核验 · 截至 2026 年 11 月 12 日</span></footer>
+  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>公开资料核验 · 截至 2026 年 11 月 12 日</span></footer>
 
   <dialog id="detail" aria-labelledby="detail-title">
     <div class="dialog-head"><div id="detail-status"></div><form method="dialog"><button class="close" aria-label="关闭详情">×</button></form></div>

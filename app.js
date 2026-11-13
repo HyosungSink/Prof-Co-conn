@@ -1,30 +1,14 @@
-const get = (id) => document.getElementById(id);
 const companyNames = new Map(survey.companies.map(([name, aliases]) => [name, aliases]));
 const schoolNames = new Map(survey.schools.map(([name, aliases]) => [name, aliases]));
 const paperIndex = buildPaperIndex(survey.records, paperLeads, new Map(facultyMetrics.profiles));
 const recordById = new Map(paperIndex.records.map((record) => [record.id, record]));
 const numberConfirmed = (records) => records.filter((record) => !record.gap).length;
 const companyRecords = new Map(survey.companies.map(([company]) => [
-  company, paperIndex.records.filter((record) => record.company === company),
+  company, paperIndex.records.filter((record) => !record.attributionPending && record.company === company),
 ]));
 const state = { query: get('query'), company: get('company'), school: get('school'), status: get('status') };
 const plotButtons = new Map();
 const detail = get('detail');
-
-function element(tag, content, className) {
-  const result = document.createElement(tag);
-  if (content) result.textContent = content;
-  if (className) result.className = className;
-  return result;
-}
-
-function source(label, url) {
-  const link = element('a', label);
-  link.href = url;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
-  return link;
-}
 
 function badge(record) {
   return record.gap ? element('span', '待核验', 'badge candidate') : element('span', '已确认', 'badge');
@@ -40,15 +24,16 @@ function recordButton(record, text, label) {
 
 function attributionFor(record) {
   const section = element('section', '', 'attribution');
-  section.append(element('h3', '论文归属'), element('p', `比较已核实的指导教师 · OpenAlex H 指数 · ${facultyMetrics.checked}`));
+  section.append(element('h3', '论文归属'), element('p', `Google 学术 · 总 H 指数 · ${facultyMetrics.checked} 核验`));
   const list = element('ul');
   for (const { record: entry, metric } of record.attribution) {
     const item = element('li');
     const affiliation = `${entry.school} · ${entry.company}`;
     item.append(element('strong', `${entry.faculty[0]} · ${affiliation}`));
     if (entry.id === record.id && !record.gap) item.append(element('span', '归属教师', 'badge'));
-    item.append(metric ? source(`H 指数 ${metric[0]} ↗`, `https://openalex.org/${metric[1]}`) : element('span', 'H 指数待核验'));
-    if (entry.id !== record.id) item.append(source('指导关系依据 ↗', entry.advising[2]));
+    const label = Number.isInteger(metric?.[0]) ? `H 指数 ${metric[0]}` : 'H 指数待核验';
+    item.append(metric?.[1] ? source(`${label} ↗`, `https://scholar.google.com/citations?user=${metric[1]}&hl=en`) : element('span', label));
+    if (entry.id !== record.id || record.attributionPending) item.append(source('指导关系依据 ↗', entry.advising[2]));
     list.append(item);
   }
   section.append(list);
@@ -61,7 +46,28 @@ function openRecord(id) {
   get('detail-status').replaceChildren(badge(record));
   const heading = element('h2', record.title);
   heading.id = 'detail-title';
-  const meta = element('p', `${record.company} · ${record.team} / ${record.venue} · ${record.date}`, 'detail-meta');
+  const affiliation = record.attributionPending ? '' : `${record.company} · ${record.team} / `;
+  const meta = element('p', `${affiliation}${record.venue} · ${record.date}`, 'detail-meta');
+  const sources = element('div', '', 'sources');
+  sources.append(source('论文原文 ↗', record.paper));
+  for (const [label, url] of record.extra || []) sources.append(source(`${label} ↗`, url));
+  const body = get('detail-body');
+  body.replaceChildren(heading, meta);
+  if (record.gap) body.append(element('p', record.gap, 'detail-gap'));
+  if (!record.attributionPending) body.append(...relationshipEvidence(record));
+  if (record.attribution.length) body.append(attributionFor(record));
+  if (record.attributionPending) {
+    for (const { record: entry } of record.attribution) {
+      const comparison = element('details', '', 'comparison');
+      comparison.append(element('summary', `${entry.faculty[0]} · ${entry.company} · 作者与指导依据`), ...relationshipEvidence(entry));
+      body.append(comparison);
+    }
+  }
+  body.append(sources);
+  if (!detail.open) detail.showModal();
+}
+
+function relationshipEvidence(record) {
   const evidence = element('p', record.evidence, 'detail-evidence');
   const roles = element('dl', '', 'role-list');
   for (const [key, label, person, affiliation] of [
@@ -84,24 +90,21 @@ function openRecord(id) {
     row.append(term, value);
     roles.append(row);
   }
-  const sources = element('div', '', 'sources');
-  sources.append(source('论文原文 ↗', record.paper));
-  for (const [label, url] of record.extra || []) sources.append(source(`${label} ↗`, url));
-  const body = get('detail-body');
-  body.replaceChildren(heading, meta, evidence);
-  if (record.gap) body.append(element('p', record.gap, 'detail-gap'));
-  body.append(roles);
-  if (record.attribution.length) body.append(attributionFor(record));
-  body.append(sources);
-  if (!detail.open) detail.showModal();
+  return [evidence, roles];
 }
 
 function rowFor(record) {
   const row = element('tr');
   const company = element('td');
-  company.append(element('strong', record.company), element('small', record.team));
   const school = element('td');
-  school.append(element('strong', record.school), element('small', record.faculty[0]));
+  if (record.attributionPending) {
+    const institutions = (key) => [...new Set(record.attribution.map(({ record: entry }) => entry[key]))].join('、');
+    company.append(element('strong', institutions('company')));
+    school.append(element('strong', institutions('school')), element('small', '归属教师待核验'));
+  } else {
+    company.append(element('strong', record.company), element('small', record.team));
+    school.append(element('strong', record.school), element('small', record.faculty[0]));
+  }
   const paper = element('td');
   paper.append(recordButton(record, record.short), element('small', `${record.venue} · ${record.date}`));
   const status = element('td');
@@ -118,7 +121,7 @@ function searchText(record) {
     record.school, record.studentSchool, schoolNames.get(record.school), schoolNames.get(record.studentSchool),
     record.title, record.short, record.area, record.venue, record.date,
     record.faculty[0], record.employee[0], record.student[0], record.advising?.[0],
-    ...record.attribution.map(({ record: entry }) => entry.faculty[0]),
+    ...record.attribution.map(({ record: entry }) => [entry.faculty[0], entry.company, entry.team, entry.school].join(' ')),
   ].join(' ').normalize('NFKC').toLocaleLowerCase();
 }
 
@@ -130,8 +133,9 @@ function renderResults() {
   const school = state.school.value;
   const status = state.status.value;
   const records = indexedRecords.filter(([record, haystack]) => (
-    (!company || record.company === company)
-    && (!school || record.school === school)
+    (record.attributionPending
+      ? !company && (!school || record.attribution.some(({ record: entry }) => entry.school === school))
+      : (!company || record.company === company) && (!school || record.school === school))
     && (!status || (record.gap ? status === 'candidate' : status === 'confirmed'))
     && terms.every((term) => haystack.includes(term))
   )).map(([record]) => record);
@@ -142,7 +146,9 @@ function renderResults() {
   });
   get('rows').replaceChildren(...records.map(rowFor));
   get('empty').hidden = records.length > 0;
-  get('result-count').textContent = `${records.length} 条关系 · ${numberConfirmed(records)} 条已确认`;
+  const confirmed = numberConfirmed(records);
+  get('result-count').textContent = `${records.length} 篇论文 · ${confirmed} 对已确认`
+    + (confirmed < records.length ? ` · ${records.length - confirmed} 篇待核验` : '');
   get('clear-filters').hidden = !(terms.length || company || school || status);
   for (const [name, button] of plotButtons) button.setAttribute('aria-pressed', String(company === name));
 }
@@ -175,64 +181,15 @@ function renderCompanyPlot() {
   }
 }
 
-function addOptions(input, entries) {
-  for (const [name] of entries) input.add(new Option(name, name));
-}
-
-const pageSize = 15;
-let visibleLeads = pageSize;
-
-function renderLeadResults() {
-  const query = get('lead-query').value.trim().toLocaleLowerCase();
-  const company = get('lead-company').value;
-  const school = get('lead-school').value;
-  const matches = paperIndex.leads.filter((paper) => (
-    (!query || paper.title.toLocaleLowerCase().includes(query))
-    && (!company || paper.companies.includes(company))
-    && (!school || paper.schools.includes(school))
-  ));
-  const rows = matches.slice(0, visibleLeads).map((paper) => {
-    const row = element('tr');
-    const title = element('td');
-    title.append(source(paper.title, paper.url), element('small', `${paper.venue || 'arXiv'} · ${paper.month}`));
-    row.append(
-      title,
-      element('td', paper.companies.join('、')),
-      element('td', paper.schools.join('、')),
-      element('td', paper.note || (paper.internship ? '原文含实习说明' : '作者身份待查')),
-    );
-    return row;
-  });
-  get('lead-rows').replaceChildren(...rows);
-  get('lead-count').textContent = `${matches.length} 篇合著线索 · 当前显示 ${rows.length} 篇`;
-  get('lead-empty').hidden = matches.length > 0;
-  get('more-leads').hidden = matches.length <= visibleLeads;
-}
-
-function resetLeadResults() {
-  visibleLeads = pageSize;
-  renderLeadResults();
-}
-
 get('confirmed-count').textContent = numberConfirmed(paperIndex.records);
 get('company-count').textContent = survey.companies.length;
 get('school-count').textContent = survey.schools.length;
 addOptions(state.company, survey.companies);
 addOptions(state.school, survey.schools);
-for (const [name, aliases, group] of survey.schools) get('school-list').append(element('li', `${name} · ${aliases} · ${group}`));
 get('filters').addEventListener('submit', (event) => event.preventDefault());
 state.query.addEventListener('input', renderResults);
 for (const input of [state.company, state.school, state.status, get('sort')]) input.addEventListener('change', renderResults);
 for (const id of ['clear-filters', 'empty-reset']) get(id).addEventListener('click', resetFilters);
-addOptions(get('lead-company'), survey.companies);
-addOptions(get('lead-school'), survey.schools);
-get('lead-filters').addEventListener('submit', (event) => event.preventDefault());
-get('lead-query').addEventListener('input', resetLeadResults);
-for (const id of ['lead-company', 'lead-school']) get(id).addEventListener('change', resetLeadResults);
-get('more-leads').addEventListener('click', () => {
-  visibleLeads += pageSize;
-  renderLeadResults();
-});
 detail.addEventListener('click', (event) => {
   if (event.target === detail) {
     const box = detail.getBoundingClientRect();
@@ -241,4 +198,3 @@ detail.addEventListener('click', (event) => {
 });
 renderCompanyPlot();
 renderResults();
-renderLeadResults();

@@ -7,7 +7,7 @@
 ## 调查范围
 
 - **时间与材料**　2023 年 1 月 1 日至 2026 年 11 月 12 日公开的 AI 会议论文、期刊论文和预印本。
-- **高校**　C9、港五、香港中文大学（深圳）、香港科技大学（广州），以及北航、北邮、国科大、人大、华中科大、武大、电子科大、西电、西工大和中山大学，共 26 所。 [完整名单与检索别名](https://hyosungsink.github.io/Prof-Co-conn/#method)
+- **高校**　C9、港五、香港中文大学（深圳）、香港科技大学（广州），以及北航、北邮、国科大、人大、华中科大、武大、电子科大、西电、西工大和中山大学，共 26 所。 [完整名单与检索别名](https://hyosungsink.github.io/Prof-Co-conn/method.html)
 - **企业**　华为、腾讯、字节跳动、阿里巴巴、百度、京东、DeepSeek、月之暗面（Kimi）、智谱（GLM / Z.ai）、MiniMax、美团、小红书、快手和蚂蚁集团。研究团队按公开资料核对企业归属。
 
 ## 核验规则
@@ -20,13 +20,13 @@
 
 身份以研究发生时为准。双署名、邮箱和共同作者名单用于发现线索。证据仍有缺口的记录保留为待核验线索，便于后续查证。
 
-**每篇论文在全站只计一对关系。** 预印本、正式发表版和同篇论文的校企合作记录合并。若有多位符合核验要求的指导教师，取 [OpenAlex](https://help.openalex.org/data/authors/) H 指数最高的一位，按其对应的高校和企业团队归属；最高分并列时按教师英文署名顺序确定。详情保留其他指导教师及比较来源。若比较所需的 H 指数尚未核实，该论文暂不计入已确认关系。
+**每篇论文在全站只计一对关系。** 预印本、正式发表版和同篇论文的校企合作记录合并。若有多位符合核验要求的指导教师，取 [Google 学术](https://scholar.google.com/intl/en/scholar/citations.html) 个人档案「全部（All）」列中 H 指数最高的一位，按其对应的高校和企业团队归属；最高分并列时按教师英文署名顺序确定。详情保留其他指导教师及比较来源。若有教师的指数尚未核实，论文归属暂待核验，不计入企业分布图或已确认总数。
 
 ## 浏览网站
 
-- 点击首页企业证据分布图中的企业，即可筛选关系索引。
-- 在关系索引中按归属企业、归属教师所在高校、核验状态筛选，或搜索论文和作者。点击论文题名查看原文与身份依据。
-- 在合著线索中按题名、企业或高校检索，查看每篇论文还需要补充哪些证据。
+- [关系索引](https://hyosungsink.github.io/Prof-Co-conn/)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据，点击企业分布图可按企业筛选。
+- [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)可按题名、企业或高校检索，查看每篇论文还需要补充哪些证据。
+- [核验口径](https://hyosungsink.github.io/Prof-Co-conn/method.html)说明确认条件、论文归属规则和高校范围。
 
 ## 本地运行与部署
 
@@ -44,10 +44,11 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | --- | --- |
 | [`data.js`](data.js) | 调查范围、关系记录、三类作者及其证据链接 |
 | [`leads.js`](leads.js) | 合著论文线索、关联机构和待核验事项 |
-| [`h-index.js`](h-index.js) | 参与归属比较的教师、OpenAlex 作者标识和 H 指数快照 |
+| [`h-index.js`](h-index.js) | 参与归属比较的教师、Google 学术档案标识和总 H 指数快照 |
 | [`papers.js`](papers.js) | 论文识别、去重与归属规则 |
-| [`index.html`](index.html) | 页面结构与核验口径 |
-| [`app.js`](app.js) | 分布图、筛选、排序与证据详情 |
+| [`index.html`](index.html)、[`app.js`](app.js) | 关系索引、企业分布图、筛选与证据详情 |
+| [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
+| [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
 
 补充或更正记录时，请附论文原文、相关作者和研究时间，以及能定位到具体身份、指导关系或企业参与的公开来源。可通过仓库 Issues 提交。 [提交线索或更正](https://github.com/HyosungSink/Prof-Co-conn/issues/new)

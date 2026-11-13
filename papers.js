@@ -48,19 +48,14 @@ function groupPapers(records) {
   return [...groups.values()];
 }
 
-function buildPaperIndex(records, leads, metrics) {
-  const normalized = records.map((record) => {
-    const [kind, description, url] = record.advising || [];
-    return kind && description && /^https?:\/\//.test(url || '') ? record : {
-      ...record, gap: record.gap || '需核对高校教师与在读作者之间的具名指导关系。',
-    };
-  });
-  const index = [];
+function partitionPapers(records, leads) {
+  const groups = [];
   const unmatched = [];
   const leadSet = new Set(leads);
-  for (const entries of groupPapers([...normalized, ...leads])) {
+  for (const entries of groupPapers([...records, ...leads])) {
     const group = entries.filter((entry) => !leadSet.has(entry));
-    if (!group.length) {
+    if (group.length) groups.push(group);
+    else {
       unmatched.push({
         ...entries[0],
         companies: [...new Set(entries.flatMap((paper) => paper.companies))],
@@ -68,8 +63,20 @@ function buildPaperIndex(records, leads, metrics) {
         internship: entries.some((paper) => paper.internship),
         note: [...new Set(entries.map((paper) => paper.note).filter(Boolean))].join(' '),
       });
-      continue;
     }
+  }
+  return { groups, unmatched };
+}
+
+function buildPaperIndex(records, leads, metrics) {
+  const { groups, unmatched } = partitionPapers(records, leads);
+  const index = groups.map((entries) => {
+    const group = entries.map((record) => {
+      const [kind, description, url] = record.advising || [];
+      return kind && description && /^https?:\/\//.test(url || '') ? record : {
+        ...record, gap: record.gap || '需核对高校教师与在读作者之间的具名指导关系。',
+      };
+    });
     const eligible = group.filter((record) => !record.gap);
     const profiles = new Map();
     for (const record of eligible) {
@@ -82,9 +89,9 @@ function buildPaperIndex(records, leads, metrics) {
     choices.sort((left, right) => ((right.metric?.[0] ?? -1) - (left.metric?.[0] ?? -1))
       || left.record.faculty[0].split(' · ').at(-1).localeCompare(right.record.faculty[0].split(' · ').at(-1), 'en'));
     const attribution = choices.length > 1 ? choices : [];
+    const attributionPending = attribution.some(({ metric }) => !Number.isInteger(metric?.[0]));
     const primary = choices[0]?.record || group[0];
-    const gap = attribution.some(({ metric }) => !metric)
-      ? '部分指导教师的 H 指数待核验，暂不计入已确认关系。' : primary.gap;
+    const gap = attributionPending ? '部分指导教师的 Google 学术总 H 指数待核验，论文归属尚未确定。' : primary.gap;
     const extra = new Map([[primary.paper, '论文原文']]);
     for (const record of group) {
       if (!extra.has(record.paper)) extra.set(record.paper, '论文其他版本');
@@ -93,7 +100,7 @@ function buildPaperIndex(records, leads, metrics) {
       }
     }
     extra.delete(primary.paper);
-    index.push({ ...primary, gap, attribution, extra: [...extra].map(([url, label]) => [label, url]) });
-  }
+    return { ...primary, gap, attribution, attributionPending, extra: [...extra].map(([url, label]) => [label, url]) };
+  });
   return { records: index, leads: unmatched };
 }
