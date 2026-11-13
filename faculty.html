@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
+  <title>教师名录 · AI 研究 Connection</title>
+  <link rel="stylesheet" href="styles.css?v=b1579a552885">
+  <script src="data.js?v=b1579a552885" defer></script>
+  <script src="ui.js?v=b1579a552885" defer></script>
+  <script src="faculty-data.js?v=b1579a552885" defer></script>
+  <script src="faculty-page.js?v=b1579a552885" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a>
+      <nav aria-label="页面导航">
+        <a href="connections.html">关系索引</a>
+        <a href="leads.html">合著线索</a>
+        <a href="faculty.html" aria-current="page">教师名录</a>
+        <a href="method.html">核验口径</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container standalone faculty-page">
+    <section class="main-section" aria-labelledby="faculty-title">
+      <div class="section-head"><div><h1 id="faculty-title">教师名录</h1><p>按高校查阅计算机及相关院系公开的师资名单，用于筛查校企合著。院系类别沿用官网口径。</p></div></div>
+      <p class="faculty-scope-note">名录是公开来源的快照。同一人可能在多个院系列名；导师、兼职和荣休名单不代表全职任职。只取得导师或个人主页目录的院系已注明范围。</p>
+      <form id="faculty-filters" class="filters faculty-filters" role="search" aria-label="筛选教师名录">
+        <label class="search"><span>搜索</span><input id="faculty-query" type="search" placeholder="教师姓名、职称或院系"></label>
+        <label><span>高校</span><select id="faculty-school"><option value="">全部高校</option></select></label>
+      </form>
+      <div class="result-bar"><p id="faculty-count" aria-live="polite"></p></div>
+      <div id="faculty-rosters" class="faculty-rosters"></div>
+      <noscript><p class="empty">请启用 JavaScript 以浏览教师名录。</p></noscript>
+    </section>
+  </main>
+  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>教师任职以院系官网为准</span></footer>
+</body>
+</html>
