@@ -8923,6 +8923,74 @@ const survey = {
         '清华官方英文简报具名确认郑纬民与章明星、武永卫共同带领校方团队完成 Mooncake 论文，并单列第一作者秦若愚的学位导师为章明星。',
         'https://www.tsinghua.edu.cn/en/pdf/Tsinghua_Newsletter_2025_Q1.pdf#page=17'
       ]
+    },
+    {
+      id: 'deepseek-visual-primitives-thu-chen',
+      company: 'DeepSeek',
+      team: 'DeepSeek-AI · 多模态团队',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '陈挺 · Ting Chen', '清华大学计算机系教授。其 Tim Group 名录将罗崚骁列为在读博士生；原文中陈挺署名清华大学。', 'https://www.cs.tsinghua.edu.cn/csen/info/1312/4385.htm' ],
+      employee: [
+        '陈小康 · Xiaokang Chen',
+        'DeepSeek 多模态研究技术人员。原文首页明确列为 DeepSeek 核心作者及项目负责人，个人主页说明其在 DeepSeek 负责基础模型的多模态研究。',
+        'https://charlescxk.github.io/'
+      ],
+      student: [ '罗崚骁 · Lingxiao Luo', '清华大学计算机系在读博士，在原文同时署清华大学和 DeepSeek，且是具名的核心作者。', 'https://ai.cs.tsinghua.edu.cn/rcpy/bsyjs.htm' ],
+      title: 'Thinking with Visual Primitives',
+      short: 'Thinking with Visual Primitives',
+      date: '2026-04-30',
+      venue: '公开预印本',
+      area: '视觉与多模态',
+      paper: 'https://raw.githubusercontent.com/mitkox/Thinking-with-Visual-Primitives/main/Thinking_with_Visual_Primitives.pdf',
+      extra: [
+        [ '陈挺课题组名录：唯一教员及博士生', 'http://timlab.cn/people/' ],
+        [ '陈挺课题组的博士生个人页', 'http://timlab.cn/author/lingxiao-luo/' ],
+        [ '同期发布记录及原发布地址', 'https://www.36kr.com/p/3789208597372165' ],
+        [ '同一师生的清华大学论文 VividMed', 'https://aclanthology.org/2025.naacl-long.89/' ]
+      ],
+      evidence: '原文首页将罗崚骁列为 DeepSeek 和清华大学双署名的核心贡献者，并将陈小康列为项目负责人。清华的实验室及陈挺课题组名录确认学籍。公开材料未注明具体实习岗位或起止日。原发布仓库当前无法打开，论文链接为原始 PDF 的归档副本。',
+      advising: [
+        '课题组博士指导',
+        '清华教师主页链接至陈挺课题组。该组公开名录只列陈挺一位教员，并具名列罗崚骁为其组内博士生；两人在 VividMed 中分别为并列第一作者和通讯作者。',
+        'https://www.cs.tsinghua.edu.cn/csen/info/1312/4385.htm'
+      ]
+    },
+    {
+      id: 'minimax-dive-hkust-junxian-he',
+      company: 'MiniMax',
+      team: 'MiniMax-M2 · Agentic Cowork',
+      school: '香港科技大学',
+      studentSchool: '香港科技大学',
+      faculty: [
+        '何俊贤 · Junxian He',
+        '香港科技大学计算机科学与工程学系助理教授、Junteng Liu 的博士导师；ICML 正式版署香港科技大学。',
+        'https://researchportal.hkust.edu.hk/en/persons/junxian-he/'
+      ],
+      employee: [
+        '赵鹏宇 · Pengyu Zhao',
+        '2025 年起任 MiniMax 大语言模型研发负责人；北大 2026 年 4 月校友活动以该职位介绍他，ICML 论文署 MiniMax。',
+        'https://cs.pku.edu.cn/info/1263/5340.htm'
+      ],
+      student: [
+        'Junteng Liu',
+        '2024 年起在港科大攻读博士；本人 2026 年 3 月的主页列 MiniMax 实习时段为 2025 年 2 月至 2026 年 2 月。3 月发布的预印本署 MiniMax，ICML 正式版同时署港科大和 MiniMax。',
+        'https://github.com/vicent0205/vicent0205.github.io/blob/76fa2fd4a1a209cee6b25452d10f9ac3efa05833/_pages/about.md#L29-L38'
+      ],
+      title: 'DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use',
+      short: 'DIVE',
+      date: '2026-07',
+      venue: 'ICML',
+      area: '语言模型与智能体',
+      paper: 'https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26gj/chen26gj.pdf',
+      extra: [
+        [ 'ICML 正式论文索引', 'https://proceedings.mlr.press/v306/chen26gj.html' ],
+        [ 'MiniMax 官方报告中 4.2.3 归入金融分析及表格操作', 'https://arxiv.org/html/2605.26494v1#S4.SS2.SSS3' ],
+        [ '项目作者与原始署名', 'https://sheep333c.github.io/DIVE/' ],
+        [ '2026 年 3 月预印本', 'https://arxiv.org/abs/2603.11076' ]
+      ],
+      evidence: 'ICML 正式版将 Junteng Liu 双署港科大和 MiniMax，并列港科大导师何俊贤及 MiniMax 研发负责人赵鹏宇。学生的同期履历记录其在读期间参与 M2 系列研发；公司 M2 技术报告在 Agentic Cowork 的金融分析与表格操作小节明确引用 DIVE 的真实金融工具任务合成方法。',
+      advising: [ '博士导师', 'Junteng Liu 的个人主页具名列何俊贤为港科大博士导师，何俊贤团队也列其为博士生。', 'https://jxhe.github.io/group/' ]
     }
   ]
 };
