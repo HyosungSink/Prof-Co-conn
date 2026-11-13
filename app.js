@@ -20,7 +20,7 @@ function recordButton(record, text, label) {
 
 function attributionFor(record) {
   const section = element('section', '', 'attribution');
-  section.append(element('h3', '论文归属'), element('p', `Google 学术 · 总 H 指数 · ${facultyMetrics.checked} 核验`));
+  section.append(element('h3', '指导教师与归属'), element('p', `Google 学术 · 总 H 指数 · ${facultyMetrics.checked} 核验`));
   const list = element('ul');
   for (const { record: entry, metric } of record.attribution) {
     const item = element('li');
@@ -50,14 +50,13 @@ function openRecord(id) {
   const body = get('detail-body');
   body.replaceChildren(heading, meta);
   if (record.gap) body.append(element('p', record.gap, 'detail-gap'));
-  if (!record.attributionPending) body.append(...relationshipEvidence(record));
   if (record.attribution.length) body.append(attributionFor(record));
-  if (record.attributionPending) {
-    for (const { record: entry } of record.attribution) {
-      const comparison = element('details', '', 'comparison');
-      comparison.append(element('summary', `${entry.faculty[0]} · ${entry.company} · 作者与指导依据`), ...relationshipEvidence(entry));
-      body.append(comparison);
-    }
+  if (!record.attributionPending) body.append(...relationshipEvidence(record));
+  for (const { record: entry } of record.attribution) {
+    if (entry.id === record.id && !record.attributionPending) continue;
+    const comparison = element('details', '', 'comparison');
+    comparison.append(element('summary', `${entry.faculty[0]} · ${entry.company} · 作者与指导依据`), ...relationshipEvidence(entry));
+    body.append(comparison);
   }
   body.append(sources);
   if (!detail.open) detail.showModal();
@@ -89,6 +88,28 @@ function relationshipEvidence(record) {
   return [evidence, roles];
 }
 
+function facultyForRow(record) {
+  const list = element('ul', '', 'row-faculty');
+  list.setAttribute('role', 'list');
+  for (const { record: entry, metric } of record.attribution) {
+    const item = element('li');
+    const name = element('div', '', 'row-faculty-name');
+    name.append(element('span', entry.faculty[0]));
+    if (entry.id === record.id && !record.attributionPending) {
+      item.className = 'row-faculty-primary';
+      name.append(element('span', '归属', 'row-faculty-tag'));
+    }
+    item.append(name);
+    const affiliation = [];
+    if (record.attributionPending || entry.school !== record.school) affiliation.push(entry.school);
+    if (entry.company !== record.company) affiliation.push(entry.company);
+    affiliation.push(Number.isInteger(metric?.[0]) ? `H 指数 ${metric[0]}` : 'H 指数待核验');
+    item.append(element('small', affiliation.join(' · ')));
+    list.append(item);
+  }
+  return list;
+}
+
 function rowFor(record) {
   const row = element('tr');
   const company = element('td');
@@ -96,11 +117,12 @@ function rowFor(record) {
   if (record.attributionPending) {
     const institutions = (key) => [...new Set(record.attribution.map(({ record: entry }) => entry[key]))].join('、');
     company.append(element('strong', institutions('company')));
-    school.append(element('strong', institutions('school')), element('small', '归属教师待核验'));
+    school.append(element('strong', '归属待定'));
   } else {
     company.append(element('strong', record.company), element('small', record.team));
-    school.append(element('strong', record.school), element('small', record.faculty[0]));
+    school.append(element('strong', record.school));
   }
+  school.append(record.attribution.length ? facultyForRow(record) : element('small', record.faculty[0]));
   const paper = element('td');
   paper.append(recordButton(record, record.short), element('small', `${record.venue} · ${record.date}`));
   const status = element('td');
@@ -117,7 +139,9 @@ function searchText(record) {
     record.school, record.studentSchool, schoolNames.get(record.school), schoolNames.get(record.studentSchool),
     record.title, record.short, record.area, record.venue, record.date,
     record.faculty[0], record.employee[0], record.student[0], record.advising?.[0],
-    ...record.attribution.map(({ record: entry }) => [entry.faculty[0], entry.company, entry.team, entry.school].join(' ')),
+    ...record.attribution.map(({ record: entry }) => [
+      entry.faculty[0], entry.company, entry.team, entry.school, schoolNames.get(entry.school),
+    ].join(' ')),
   ].join(' ').normalize('NFKC').toLocaleLowerCase();
 }
 

@@ -117,6 +117,11 @@ th:nth-child(1) { width: 21%; } th:nth-child(2) { width: 24%; } th:nth-child(3) 
 td { vertical-align: middle; padding: 13px 15px; border-top: 1px solid #eeeaf2; font-size: 13px; overflow-wrap: anywhere; }
 td strong { display: block; font-size: 14px; font-weight: 650; }
 td small { display: block; color: var(--muted); margin-top: 3px; font-size: 12px; }
+.row-faculty { display: grid; gap: 5px; list-style: none; margin: 4px 0 0; padding: 0; }
+.row-faculty-name { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 6px; }
+.row-faculty-primary .row-faculty-name { font-weight: 650; }
+.row-faculty-tag { padding: 0 4px; border-radius: 3px; background: var(--lavender); color: var(--brand-dark); font-size: 10px; }
+.row-faculty small { margin-top: 0; }
 tbody tr:hover { background: #fbf9fd; }
 .row-link { border: 0; padding: 0; background: transparent; text-align: left; color: var(--brand-dark); font-size: 14px; font-weight: 700; }
 .row-link:hover { text-decoration: underline; text-underline-offset: 3px; }
