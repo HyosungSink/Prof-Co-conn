@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
   <title>教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=fed8954c2179">
-  <script src="data.js?v=fed8954c2179" defer></script>
-  <script src="ui.js?v=fed8954c2179" defer></script>
-  <script src="faculty-data.js?v=fed8954c2179" defer></script>
-  <script src="faculty-titles.js?v=fed8954c2179" defer></script>
-  <script src="faculty-rosters.js?v=fed8954c2179" defer></script>
-  <script src="faculty-bibliography.js?v=fed8954c2179" defer></script>
-  <script src="faculty-page.js?v=fed8954c2179" defer></script>
+  <link rel="stylesheet" href="styles.css?v=2df5a5219ef6">
+  <script src="data.js?v=2df5a5219ef6" defer></script>
+  <script src="ui.js?v=2df5a5219ef6" defer></script>
+  <script src="faculty-data.js?v=2df5a5219ef6" defer></script>
+  <script src="faculty-titles.js?v=2df5a5219ef6" defer></script>
+  <script src="faculty-rosters.js?v=2df5a5219ef6" defer></script>
+  <script src="faculty-bibliography.js?v=2df5a5219ef6" defer></script>
+  <script src="faculty-page.js?v=2df5a5219ef6" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -38,8 +38,17 @@
       </form>
       <section id="faculty-distribution" class="hero-plot faculty-distribution" aria-labelledby="faculty-plot-title" hidden>
         <div class="plot-head">
-          <h2 id="faculty-plot-title">高校教师名录分布</h2>
-          <span class="legend"><span><i aria-hidden="true"></i><span id="faculty-plot-scale"></span></span></span>
+          <div>
+            <h2 id="faculty-plot-title">高校教师名录分布</h2>
+            <p class="faculty-plot-note">三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。</p>
+          </div>
+          <div class="faculty-plot-key">
+            <div class="legend">
+              <span><i aria-hidden="true"></i><span id="faculty-plot-complete"></span></span>
+              <span><i aria-hidden="true"></i><span id="faculty-plot-incomplete"></span></span>
+            </div>
+            <p id="faculty-plot-scale" class="faculty-plot-note"></p>
+          </div>
         </div>
         <div id="faculty-plot" class="faculty-plot"></div>
       </section>

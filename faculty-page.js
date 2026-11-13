@@ -6,32 +6,64 @@ const facultyCount = get('faculty-count');
 const snapshot = mergeFacultyRosters(facultyDirectory.schools);
 const bibliographyRecords = typeof facultyBibliography === 'undefined' ? {} : facultyBibliography.records;
 const countFormat = new Intl.NumberFormat('zh-CN');
+const percentFormat = new Intl.NumberFormat('zh-CN', { style: 'percent', maximumFractionDigits: 1 });
 const recordsPerDot = 25;
 const facultyPlotButtons = new Map();
 
-function buildFacultyPlot() {
-  const schools = survey.schools.map(([name]) => ({
-    name,
-    count: (snapshot[name] || []).reduce((sum, department) => sum + department.people.length, 0)
-  })).sort((a, b) => b.count - a.count);
+function facultyBibliographyFor({ name, profile }, school, department) {
+  return bibliographyRecords[school]?.[department]?.[JSON.stringify([name, profile])] || [];
+}
 
-  for (const { name, count } of schools) {
+function buildFacultyPlot() {
+  const schools = survey.schools.map(([name]) => {
+    let count = 0;
+    let complete = 0;
+    for (const department of snapshot[name] || []) {
+      count += department.people.length;
+      for (const person of department.people) {
+        const [scholar, paper] = facultyBibliographyFor(person, name, department.name);
+        if (person.titles.length && scholar && paper) complete += 1;
+      }
+    }
+    return { name, count, complete };
+  }).sort((a, b) => b.count - a.count);
+
+  let allCount = 0;
+  let allComplete = 0;
+  const share = (part, total) => total ? percentFormat.format(part / total) : '—';
+  const describe = (label, part, total) => `${label} ${countFormat.format(part)} 条（${share(part, total)}）`;
+  for (const { name, count, complete } of schools) {
+    allCount += count;
+    allComplete += complete;
     const button = element('button', '', 'plot-cell faculty-plot-cell');
     button.type = 'button';
-    button.setAttribute('aria-label', `${name}，${countFormat.format(count)} 条院系名录记录`);
+    const description = `${name}，共 ${countFormat.format(count)} 条，${describe('三项齐全', complete, count)}，${describe('非三项齐全', count - complete, count)}`;
+    button.setAttribute('aria-label', description);
     button.setAttribute('aria-controls', 'faculty-rosters');
+    button.title = description;
     const dots = element('span', '', 'dots');
     dots.setAttribute('aria-hidden', 'true');
-    for (let remaining = count; remaining > 0; remaining -= recordsPerDot) {
+    for (let start = 0; start < count; start += recordsPerDot) {
+      const filled = Math.min(count - start, recordsPerDot);
+      const purple = Math.max(0, Math.min(complete - start, filled));
       const dot = element('i', '', 'dot');
-      if (remaining < recordsPerDot) {
-        dot.classList.add('faculty-dot-partial');
-        dot.style.setProperty('--dot-fill', `${remaining * 100 / recordsPerDot}%`);
+      if (filled === recordsPerDot && purple === 0) {
+        dot.classList.add('candidate');
+      } else if (filled < recordsPerDot || purple < filled) {
+        dot.classList.add('faculty-dot-split');
+        dot.style.setProperty('--dot-complete', `${purple * 100 / recordsPerDot}%`);
+        dot.style.setProperty('--dot-fill', `${filled * 100 / recordsPerDot}%`);
       }
       dots.append(dot);
     }
-    button.append(element('span', name, 'plot-label'), dots,
-      element('span', countFormat.format(count), 'faculty-plot-count'));
+    const stats = element('span', '', 'faculty-plot-stats');
+    const shares = element('small', '', 'faculty-plot-share');
+    shares.append(element('span', share(complete, count)), ' / ', element('span', share(count - complete, count)));
+    stats.append(
+      element('strong', countFormat.format(count), 'faculty-plot-count'),
+      shares
+    );
+    button.append(element('span', name, 'plot-label'), dots, stats);
     button.addEventListener('click', () => {
       facultySchool.value = facultySchool.value === name ? '' : name;
       setDepartmentOptions();
@@ -43,7 +75,9 @@ function buildFacultyPlot() {
     });
     facultyPlotButtons.set(name, button);
   }
-  get('faculty-plot-scale').textContent = `1 个实心圆点 = ${recordsPerDot} 条名录记录`;
+  get('faculty-plot-complete').textContent = describe('三项齐全', allComplete, allCount);
+  get('faculty-plot-incomplete').textContent = describe('非三项齐全', allCount - allComplete, allCount);
+  get('faculty-plot-scale').textContent = `1 个满圆 = ${recordsPerDot} 条名录记录`;
   get('faculty-plot').replaceChildren(...facultyPlotButtons.values());
   get('faculty-distribution').hidden = false;
 }
@@ -78,8 +112,8 @@ function appendFacultySources(section, top, department) {
 }
 
 function appendFacultyBibliography(item, person, school, department) {
-  const { name, profile } = person;
-  const [scholar, paper] = bibliographyRecords[school]?.[department]?.[JSON.stringify([name, profile])] || [];
+  const { name } = person;
+  const [scholar, paper] = facultyBibliographyFor(person, school, department);
   const block = element('div', '', 'faculty-bibliography');
   const scholarRow = element('small', 'Google 学术：');
   if (scholar) {
