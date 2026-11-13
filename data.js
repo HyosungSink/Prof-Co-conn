@@ -8407,6 +8407,85 @@ const survey = {
         [ '清华自然语言处理实验室毕业新闻', 'https://nlp.csai.tsinghua.edu.cn/news/?page=2' ],
         [ 'ICLR 正式论文', 'https://openreview.net/pdf/56a196a3a0ca98fa4aa64ce3ef7e7c05f19bde18.pdf' ]
       ]
+    },
+    {
+      id: 'moonshot-kimivl-hku-tao-yu',
+      company: '月之暗面（Kimi）',
+      team: 'Kimi-VL',
+      school: '香港大学',
+      studentSchool: '香港大学',
+      faculty: [ '余涛 · Tao Yu', '香港大学计算机科学助理教授、XLANG Lab 负责人，论文附录以香港大学与月之暗面合作身份列名。', 'https://datascience.hku.hk/people/tao-yu/' ],
+      employee: [ '吴昊宁 · Haoning Wu', '月之暗面 Kimi-VL 项目负责人，第一方职业主页记载其负责这一模型系列的研发，技术报告也注明项目负责人。', 'https://teowu.github.io/' ],
+      student: [ 'Bowen Wang', '2024 年 9 月起在香港大学攻读博士，2025 年 2 月至 12 月在月之暗面实习，博士导师为余涛；本人将 Kimi-VL 技术报告列为参与成果。', 'https://bowenbryanwang.github.io/' ],
+      title: 'Kimi-VL Technical Report',
+      short: 'Kimi-VL',
+      date: '2025-04',
+      venue: 'arXiv 预印本',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/html/2504.07491#A1',
+      extra: [
+        [ '预印本及首次公开时间', 'https://arxiv.org/abs/2504.07491' ],
+        [ '月之暗面 Kimi-VL 官方项目', 'https://github.com/MoonshotAI/Kimi-VL' ],
+        [ '同期企业实习导师及同篇作者 Hao Hu', 'https://mousehu.github.io/' ]
+      ],
+      evidence: '原文附录同时点名在读实习生 Bowen Wang、博士导师余涛与月之暗面项目负责人吴昊宁；前两位带有香港大学和月之暗面合作署名。Bowen Wang 个人主页确认在读、实习时段、具名博士导师及本技术报告。该条对应 Kimi-VL 基础视觉语言模型项目；另一篇 OpenCUA 对应香港大学 XLANG Lab 牵头的计算机使用智能体项目。',
+      advising: [ '博士导师', 'Bowen Wang 的公开教育经历明确列余涛为香港大学博士导师。', 'https://bowenbryanwang.github.io/' ]
+    },
+    {
+      id: 'dbagent-huawei-uestc-zheng',
+      company: '华为',
+      team: '华为云 · 企业智能（EI）架构与设计',
+      school: '电子科技大学',
+      studentSchool: '电子科技大学',
+      faculty: [ '郑凯 · Kai Zheng', '电子科技大学计算机学院教授、博士生导师；同篇署电子科技大学并任通讯作者。', 'https://zheng-kai.com/' ],
+      employee: [ '曾凯 · Kai Zeng', '华为云数据与 AI 融合首席架构师，DBAgent 同篇以华为技术有限公司署名。', 'https://kai-zeng.github.io/' ],
+      student: [
+        '夏宇阳 · Yuyang Xia',
+        '电子科技大学计算机科学与工程学院博士生。2025 年 3 月起在华为云企业智能架构与设计团队实习，参与论文所描述的基于强化学习、能自主诊断慢查询的数据库运维智能体。',
+        'https://xiayuyang.github.io/'
+      ],
+      title: 'DBAgent: An RL-Based Agent for Autonomous Database Operations and Maintenance',
+      short: 'DBAgent',
+      date: '2026-08',
+      venue: 'PVLDB',
+      area: '语言模型与智能体',
+      paper: 'https://www.vldb.org/pvldb/vol19/p3928-chen.pdf',
+      extra: [
+        [ '论文 DOI', 'https://doi.org/10.14778/3827998.3828006' ],
+        [ '同篇共同第一作者的论文与部署记录', 'https://thisislegit.github.io/' ],
+        [ '华为云官方资料：GaussDB（DWS）专业服务团队', 'https://support.huaweicloud.com/intl/en-us/productdesc-professionalservices/gdwscps1.html' ]
+      ],
+      evidence: '夏宇阳在读期间于华为云企业智能架构与设计团队开展本篇慢查询运维项目，本人主页介绍的强化学习与迭代诊断方法与原文一致。论文同时署名夏宇阳、其电子科大共同导师郑凯和华为云首席架构师曾凯。DWS 是 DBAgent 的部署平台；学生履历明确列出其所在的 EI 架构与设计团队。',
+      advising: [ '博士共同导师', '夏宇阳的学术主页明确列出电子科技大学博士阶段的两位导师：郑凯和苏涵；两人均在 DBAgent 正式论文中署名。', 'https://xiayuyang.github.io/' ]
+    },
+    {
+      id: 'deepseek-codeio-hkust-junxian-he',
+      company: 'DeepSeek',
+      team: 'DeepSeek-AI · 大模型对齐团队',
+      school: '香港科技大学',
+      studentSchool: '上海交通大学',
+      title: 'CodeI/O: Condensing Reasoning Patterns via Code Input-Output Prediction',
+      short: 'CodeI/O',
+      date: '2025-07',
+      venue: 'ICML',
+      area: '语言模型与智能体',
+      paper: 'https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25t/li25t.pdf',
+      faculty: [ '何俊贤 · Junxian He', '香港科技大学计算机科学与工程学系助理教授，论文署港科大。', 'https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh' ],
+      employee: [ '郭达雅 · Daya Guo', '2023 年 7 月至 2026 年 4 月在 DeepSeek 任人工智能研究员，原文署 DeepSeek-AI。', 'https://guoday.github.io/' ],
+      student: [ 'Junlong Li', '2022 年 9 月至 2025 年 3 月就读上海交通大学硕士。首稿于 2025 年 2 月公开，第一作者脚注标明本研究在 DeepSeek 实习期间完成。', 'https://lockon-n.github.io/' ],
+      evidence: '正式论文首页具名将第一作者的工作对应到 DeepSeek 实习；学生本人将实习归在大模型对齐团队，并在首稿发布时区分企业导师 Yu Wu 与项目学术导师何俊贤。研究开展时学生为上海交大硕士；2025 年 9 月才入读港科大博士。',
+      advising: [
+        '跨校项目学术指导',
+        '第一作者发布本篇时明确称同篇港科大何俊贤为指导老师；学生当时的上海交大硕士导师为赵海。港科大课题组名录另确认何俊贤在其此后博士阶段继续担任导师。',
+        'https://x.com/lockonlvange/status/1889558507168686574'
+      ],
+      extra: [
+        [ 'ICML 正式索引', 'https://proceedings.mlr.press/v267/li25t.html' ],
+        [ '2025 年 2 月预印本', 'https://arxiv.org/pdf/2502.07316v1' ],
+        [ '作者发布的项目', 'https://codei-o.github.io/' ],
+        [ '作者具名指导说明的公开转录', 'https://www.instalker.org/lockonlvange/status/1889558507168686574' ],
+        [ '同期发表报道', 'https://www.36kr.com/p/3170644914973446' ]
+      ]
     }
   ]
 };
