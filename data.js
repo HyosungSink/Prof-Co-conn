@@ -8630,6 +8630,64 @@ const survey = {
         '电子科技大学教授、博士生导师，魏凡越具名的硕士导师之一；论文署电子科技大学。',
         'https://faculty.uestc.edu.cn/lxduan/zh_CN/index/164593/list/index.htm'
       ]
+    },
+    {
+      id: 'landiff-kimi-zju-siliang-tang',
+      company: '月之暗面（Kimi）',
+      team: 'Kimi · 视频生成研究',
+      school: '浙江大学',
+      studentSchool: '浙江大学',
+      title: 'The Best of Both Worlds: Integrating Language Models and Diffusion Models for Video Generation',
+      short: 'LanDiff',
+      date: '2025-10',
+      venue: 'ICCV',
+      area: '视觉与多模态',
+      paper: 'https://openaccess.thecvf.com/content/ICCV2025/papers/Yin_The_Best_of_Both_Worlds_Integrating_Language_Models_and_Diffusion_ICCV_2025_paper.pdf',
+      faculty: [ '汤斯亮 · Siliang Tang', '浙江大学计算机学院教授、博士生导师，原文署浙江大学。', 'https://person.zju.edu.cn/en/siliang' ],
+      employee: [ '谭旭 · Xu Tan', '月之暗面多模态研究副总裁，本篇共同第一作者和通讯作者；2025 年 3 月首稿列其月之暗面邮箱。本人主页将 LanDiff 列入参与设计的视频生成系统。', 'https://tan-xu.github.io/' ],
+      student: [
+        '尹傲雄 · Aoxiong Yin',
+        '2020 年 9 月至 2025 年 6 月在浙江大学读博，2024 年 7 月起在月之暗面实习；个人主页列出 2025 年 3 月发布 LanDiff 并为该论文共同第一作者。',
+        'https://i.yinaoxiong.cn/'
+      ],
+      evidence: '2025 年 3 月首稿公开时，尹傲雄的浙大博士学籍与月之暗面实习重叠。学生和企业通讯作者的主页都列本篇视频生成项目；首稿署名确认其企业团队和浙大博士导师同篇参与。',
+      advising: [ '校内共同博士导师', '尹傲雄的个人主页具名列出汤斯亮和赵洲为浙大博士导师；本篇作者表列有汤斯亮。', 'https://i.yinaoxiong.cn/' ],
+      extra: [
+        [ '2025 年 3 月预印本', 'https://arxiv.org/pdf/2503.04606v1' ],
+        [
+          'ICCV 正式论文索引',
+          'https://openaccess.thecvf.com/content/ICCV2025/html/Yin_The_Best_of_Both_Worlds_Integrating_Language_Models_and_Diffusion_ICCV_2025_paper.html'
+        ],
+        [ '作者项目页', 'https://landiff.github.io/' ]
+      ]
+    },
+    {
+      id: 'huawei-tadsr-xidian-mingrui-zhu',
+      company: '华为',
+      team: '诺亚方舟实验室',
+      school: '西安电子科技大学',
+      studentSchool: '西安电子科技大学',
+      faculty: [ '朱明瑞 · Mingrui Zhu', '西安电子科技大学副教授、硕导，署西电；是西电科研团队负责人，校内个人页面具名列何潇为共同指导的硕博连读生。', 'https://web.xidian.edu.cn/mrzhu/index.html' ],
+      employee: [ '涂志俊 · Zhijun Tu', '华为基础模型部门研究员。2024 年预印本列其为华为诺亚方舟实验室作者，本人将这篇论文列为其负责的项目。', 'https://tuzhijun.github.io/' ],
+      student: [
+        '何潇 · Xiao He',
+        '2021 级西电硕博连读生，研究快速图像超分辨率；王楠楠的西电官网在 2025 年 2 月具名确认何潇在与华为的合作项目中将快速推理算法落地于华为移动终端，并获华为创新先锋一等奖。',
+        'https://web.xidian.edu.cn/nnwang/index.html'
+      ],
+      title: 'One Step Diffusion-Based Super-Resolution With Time-Aware Distillation',
+      short: 'TAD-SR',
+      date: '2026-03',
+      venue: 'IEEE Transactions on Image Processing',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2408.07476v1',
+      extra: [
+        [ 'IEEE 正式论文 DOI', 'https://doi.org/10.1109/TIP.2026.3672376' ],
+        [ '2026 年 IEEE 正式论文索引', 'https://pubmed.ncbi.nlm.nih.gov/41838492/' ],
+        [ '第一作者代码与署名', 'https://github.com/LearningHx/TAD-SR' ],
+        [ '预印本与首次公开日期', 'https://arxiv.org/abs/2408.07476' ]
+      ],
+      evidence: '首版论文由西电在读生何潇领衔，涂志俊以华为诺亚方舟实验室署名，另有华为消费者业务同作者；涂志俊本人将本篇列为其负责的项目。西电课题组在 2025 年 2 月具名记录何潇在与华为合作期间参与快速推理算法研发。论文研究对象为只需一步推理的图像超分辨率；校方报道未写出论文题名或实习职务。',
+      advising: [ '共同指导', '朱明瑞的西电科研团队主页将何潇具名列为 2021 级硕博连读、共同指导。', 'https://web.xidian.edu.cn/mrzhu/team.html' ]
     }
   ]
 };
