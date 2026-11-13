@@ -1,9 +1,8 @@
 const { records } = buildPaperIndex(survey.records, paperLeads, new Map(facultyMetrics.profiles));
-const attributed = records.filter((record) => !record.attributionPending);
 
 function distribution(dimension, institutions) {
   const groups = new Map(institutions.map(([name, english, category]) => [name, { name, english, category, known: 0, pending: 0 }]));
-  for (const record of attributed) {
+  for (const record of records) {
     const group = groups.get(record[dimension]);
     if (group) group[record.gap ? 'pending' : 'known'] += 1;
   }
@@ -22,7 +21,7 @@ get('confirmed-count').textContent = records.filter((record) => !record.gap).len
 get('company-count').textContent = survey.companies.length;
 get('school-count').textContent = survey.schools.length;
 
-for (const group of distribution('company', survey.companies)) {
+for (const group of distribution('attributedCompany', survey.companies)) {
   const link = plotLink('company', group);
   const dots = element('span', '', 'dots');
   dots.setAttribute('aria-hidden', 'true');
@@ -83,8 +82,10 @@ function schoolLabels(school) {
 }
 
 function renderSchoolChart() {
-  const schools = distribution('school', survey.schools);
+  const schools = distribution('attributedSchool', survey.schools);
   const total = schools.reduce((sum, school) => sum + school.known, 0);
+  const pending = records.filter((record) => !record.gap && !record.attributedSchool).length;
+  if (pending) get('school-chart-note').append(` 另有 ${pending} 篇已确认合作的论文尚未确定高校归属。`);
   const percent = (known) => `${(100 * known / total).toFixed(1)}%`;
   const chart = get('school-plot');
   const groups = [

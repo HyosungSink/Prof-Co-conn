@@ -10,6 +10,16 @@ function badge(record) {
   return record.gap ? element('span', '待核验', 'badge candidate') : element('span', '已确认', 'badge');
 }
 
+function attributionNote(record) {
+  if (!record.attributionPending) return '';
+  const missing = [];
+  if (!record.attributedCompany) missing.push('企业');
+  else if (!record.attributedTeam) missing.push('团队');
+  if (!record.attributedSchool) missing.push('高校');
+  const consequence = missing.length ? `；${missing.join('与')}归属待定` : '；校企归属已确定';
+  return `教师排序待核验${consequence}`;
+}
+
 function recordButton(record, text, label) {
   const button = element('button', text, 'row-link');
   button.type = 'button';
@@ -20,15 +30,19 @@ function recordButton(record, text, label) {
 
 function attributionFor(record) {
   const section = element('section', '', 'attribution');
-  section.append(element('h3', '指导教师与归属'), element('p', `Google 学术 · 总 H 指数 · ${facultyMetrics.checked} 核验`));
+  section.append(element('h3', '指导教师与归属'), element('p', 'Google 学术 · 总 H 指数'));
   const list = element('ul');
   for (const { record: entry, metric } of record.attribution) {
     const item = element('li');
     const affiliation = `${entry.school} · ${entry.company}`;
     item.append(element('strong', `${entry.faculty[0]} · ${affiliation}`));
-    if (entry.id === record.id && !record.gap) item.append(element('span', '归属教师', 'badge'));
+    if (entry.id === record.id && !record.gap && !record.attributionPending) item.append(element('span', '归属教师', 'badge'));
     const label = Number.isInteger(metric?.[0]) ? `H 指数 ${metric[0]}` : 'H 指数待核验';
-    item.append(metric?.[1] ? source(`${label} ↗`, `https://scholar.google.com/citations?user=${metric[1]}&hl=en`) : element('span', label));
+    const profile = metric?.[1] && `https://scholar.google.com/citations?user=${metric[1]}&hl=en`;
+    const metricSource = metric?.[2] || profile;
+    item.append(metricSource ? source(`${label} ↗`, metricSource) : element('span', label));
+    if (metric?.[2] && profile) item.append(source('Google 学术档案 ↗', profile));
+    if (metric?.[3]) item.append(element('span', metric[3]));
     if (entry.id !== record.id || record.attributionPending) item.append(source('指导关系依据 ↗', entry.advising[2]));
     list.append(item);
   }
@@ -42,14 +56,15 @@ function openRecord(id) {
   get('detail-status').replaceChildren(badge(record));
   const heading = element('h2', record.title);
   heading.id = 'detail-title';
-  const affiliation = record.attributionPending ? '' : `${record.company} · ${record.team} / `;
-  const meta = element('p', `${affiliation}${record.venue} · ${record.date}`, 'detail-meta');
+  const affiliation = [record.attributedCompany, record.attributedTeam].filter(Boolean).join(' · ');
+  const meta = element('p', `${affiliation ? `${affiliation} / ` : ''}${record.venue} · ${record.date}`, 'detail-meta');
   const sources = element('div', '', 'sources');
   sources.append(source('论文原文 ↗', record.paper));
   for (const [label, url] of record.extra || []) sources.append(source(`${label} ↗`, url));
   const body = get('detail-body');
   body.replaceChildren(heading, meta);
   if (record.gap) body.append(element('p', record.gap, 'detail-gap'));
+  if (record.attributionPending) body.append(element('p', attributionNote(record), 'detail-gap'));
   if (record.attribution.length) body.append(attributionFor(record));
   if (!record.attributionPending) body.append(...relationshipEvidence(record));
   for (const { record: entry } of record.attribution) {
@@ -101,8 +116,8 @@ function facultyForRow(record) {
     }
     item.append(name);
     const affiliation = [];
-    if (record.attributionPending || entry.school !== record.school) affiliation.push(entry.school);
-    if (entry.company !== record.company) affiliation.push(entry.company);
+    if (entry.school !== record.attributedSchool) affiliation.push(entry.school);
+    if (entry.company !== record.attributedCompany) affiliation.push(entry.company);
     affiliation.push(Number.isInteger(metric?.[0]) ? `H 指数 ${metric[0]}` : 'H 指数待核验');
     item.append(element('small', affiliation.join(' · ')));
     list.append(item);
@@ -114,19 +129,15 @@ function rowFor(record) {
   const row = element('tr');
   const company = element('td');
   const school = element('td');
-  if (record.attributionPending) {
-    const institutions = (key) => [...new Set(record.attribution.map(({ record: entry }) => entry[key]))].join('、');
-    company.append(element('strong', institutions('company')));
-    school.append(element('strong', '归属待定'));
-  } else {
-    company.append(element('strong', record.company), element('small', record.team));
-    school.append(element('strong', record.school));
-  }
+  company.append(element('strong', record.attributedCompany || '企业归属待定'));
+  if (record.attributedTeam) company.append(element('small', record.attributedTeam));
+  school.append(element('strong', record.attributedSchool || '高校归属待定'));
   school.append(record.attribution.length ? facultyForRow(record) : element('small', record.faculty[0]));
   const paper = element('td');
   paper.append(recordButton(record, record.short), element('small', `${record.venue} · ${record.date}`));
   const status = element('td');
   status.append(badge(record));
+  if (record.attributionPending) status.append(element('small', '教师排序待核验'));
   const action = element('td', '', 'open-detail');
   action.append(recordButton(record, '↗'));
   row.append(company, school, paper, status, action);
@@ -153,10 +164,9 @@ function renderResults() {
   const school = state.school.value;
   const status = state.status.value;
   const records = indexedRecords.filter(([record, haystack]) => (
-    (record.attributionPending
-      ? !company && (!school || record.attribution.some(({ record: entry }) => entry.school === school))
-      : (!company || record.company === company) && (!school || record.school === school))
-    && (!status || (record.gap ? status === 'candidate' : status === 'confirmed'))
+    (!company || record.attributedCompany === company)
+    && (!school || record.attributedSchool === school)
+    && (!status || (status === 'attribution' ? record.attributionPending : record.gap ? status === 'candidate' : status === 'confirmed'))
     && terms.every((term) => haystack.includes(term))
   )).map(([record]) => record);
   const sort = get('sort').value;
@@ -167,8 +177,10 @@ function renderResults() {
   get('rows').replaceChildren(...records.map(rowFor));
   get('empty').hidden = records.length > 0;
   const confirmed = numberConfirmed(records);
+  const pendingAttribution = records.filter((record) => !record.gap && record.attributionPending).length;
   get('result-count').textContent = `${records.length} 篇论文 · ${confirmed} 对已确认`
-    + (confirmed < records.length ? ` · ${records.length - confirmed} 篇待核验` : '');
+    + (confirmed < records.length ? ` · ${records.length - confirmed} 篇合作待核验` : '')
+    + (pendingAttribution ? ` · 其中 ${pendingAttribution} 篇教师排序待核验` : '');
   get('clear-filters').hidden = !(terms.length || company || school || status);
 }
 

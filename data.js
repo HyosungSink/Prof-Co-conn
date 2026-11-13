@@ -265,14 +265,17 @@ const survey = {
       studentSchool: '清华大学',
       faculty: [ '章明星 · Mingxing Zhang', '清华大学 MADSys 教师；校方报道确认其为 Ruoyu Qin 的导师。', 'https://www.cs.tsinghua.edu.cn/info/1034/6611.htm' ],
       employee: [ 'Xinran Xu', 'GOSIM China 2024 会议简介列为 Moonshot AI 工程副总裁；同篇通讯作者。', 'https://china2024.gosim.org/speakers/xinran-xu.html' ],
-      student: [ 'Ruoyu Qin', '清华博士生，2023 年 9 月起在 Moonshot AI Infra 实习，并参与 Mooncake。', 'https://qinruoyu.com/static/media/cv-qinruoyu.pdf' ],
+      student: [ '秦若愚 · Ruoyu Qin', '2023 年 9 月开始实习时在清华读本科，2024 年本科毕业，FAST 2025 发表时为清华博士生。', 'https://qinruoyu.com/static/media/cv-qinruoyu.pdf' ],
       title: 'Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot',
       short: 'Mooncake',
       date: '2025-02',
       venue: 'USENIX FAST',
       area: 'AI 系统',
       paper: 'https://www.usenix.org/system/files/fast25-qin.pdf',
-      extra: [ [ '会议发表记录', 'https://www.usenix.org/conference/fast25/presentation/qin' ] ],
+      extra: [
+        [ '会议发表记录', 'https://www.usenix.org/conference/fast25/presentation/qin' ],
+        [ '清华大学报道：项目团队及秦若愚导师', 'https://www.tsinghua.edu.cn/info/1175/117420.htm' ]
+      ],
       evidence: 'FAST 论文首页确认 Ruoyu Qin 在月之暗面实习期间完成其贡献。清华报道和本人简历确认博士学籍、校内导师和实习时间；简历也列同篇企业通讯作者 Xinran Xu 为实习导师。',
       advising: [ '校内导师', 'Ruoyu Qin 的教育经历明确列 章明星 为当时的校内导师。', 'https://qinruoyu.com/static/media/cv-qinruoyu.pdf' ]
     },
@@ -2243,7 +2246,7 @@ const survey = {
       team: '京东探索研究院',
       school: '北京航空航天大学',
       studentSchool: '北京航空航天大学',
-      faculty: [ '朱皞罡 · Haogang Zhu', '北京航空航天大学计算机学院教授，是石鼎丰的博士导师及同篇通讯作者。', 'https://scse.buaa.edu.cn/info/1387/10341.htm' ],
+      faculty: [ '朱皞罡 · Haogang Zhu', '北京航空航天大学计算机学院教授，是石鼎丰的博士导师及同篇通讯作者。', 'https://ecpkn.buaa.edu.cn/info/1138/2728.htm' ],
       employee: [ '曹琼 · Qiong Cao', '京东探索研究院 Staff Research Scientist，同篇京东合作者。', 'https://qiongcao.github.io/' ],
       student: [ '石鼎丰 · Dingfeng Shi', '研究时为北航博士生，2025 年取得博士学位，个人主页明确曾在京东探索研究院实习并与曹琼共同开展研究。', 'https://dingfengshi.github.io/' ],
       title: 'Temporal Action Localization with Enhanced Instant Discriminability',
@@ -7152,7 +7155,7 @@ const survey = {
       evidence: '百度搜索科学团队的官方名录列第一作者为清华在读博士和百度检索实习生，列同篇 Yiding Liu 为高级研发工程师；清华课题组的论文项目和学生履历均列该文。学生履历具名的三位博士导师同篇署名。另有 2023 年首发的同期检索研究，三位导师及企业研究员再度同篇。',
       advising: [ '校内博士导师', '董骞主页具名列清华博士导师马少平、刘奕群和艾清遥，三位均在本篇署名。', 'https://dongqian.bj.cn/' ],
       id: 'baidu-i3-thu-ma',
-      faculty: [ '马少平 · Shaoping Ma', '清华大学计算机系教授，1984 年加入，同篇作者。', 'https://www.cs.tsinghua.edu.cn/csen/info/1312/4392.htm' ]
+      faculty: [ '马少平 · Shaoping Ma', '清华大学计算机系教授，1984 年加入，同篇作者。', 'https://www.cs.tsinghua.edu.cn/info/1088/5251.htm' ]
     },
     {
       id: 'baidu-rome-ucas-sun',
@@ -8856,7 +8859,7 @@ const survey = {
       ],
       student: [
         '秦若愚 · Ruoyu Qin',
-        '清华大学计算机系博士生；本人简历记载 2023 年 9 月起在月之暗面 AI Infra 科研实习，正式论文首页具名注明其在该公司实习期间完成所署工作。',
+        '2023 年 9 月开始实习时在清华读本科，2024 年本科毕业，FAST 2025 发表时为清华博士生；论文首页确认其在月之暗面实习期间完成所署工作。',
         'https://qinruoyu.com/static/media/cv-qinruoyu.pdf'
       ],
       title: 'Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot',
@@ -8896,7 +8899,7 @@ const survey = {
       ],
       student: [
         '秦若愚 · Ruoyu Qin',
-        '清华大学计算机系博士生；本人简历记载 2023 年 9 月起在月之暗面 AI Infra 科研实习，正式论文首页具名注明其在该公司实习期间完成所署工作。',
+        '2023 年 9 月开始实习时在清华读本科，2024 年本科毕业，FAST 2025 发表时为清华博士生；论文首页确认其在月之暗面实习期间完成所署工作。',
         'https://qinruoyu.com/static/media/cv-qinruoyu.pdf'
       ],
       title: 'Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot',

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=a763d1980a5a">
+  <link rel="stylesheet" href="styles.css?v=1cab5692470b">
   <script>
     function redirectLegacySection() {
       const pages = new Map([
@@ -19,12 +19,12 @@
     addEventListener('hashchange', redirectLegacySection);
     redirectLegacySection();
   </script>
-  <script src="data.js?v=a763d1980a5a" defer></script>
-  <script src="leads.js?v=a763d1980a5a" defer></script>
-  <script src="h-index.js?v=a763d1980a5a" defer></script>
-  <script src="papers.js?v=a763d1980a5a" defer></script>
-  <script src="ui.js?v=a763d1980a5a" defer></script>
-  <script src="home.js?v=a763d1980a5a" defer></script>
+  <script src="data.js?v=1cab5692470b" defer></script>
+  <script src="leads.js?v=1cab5692470b" defer></script>
+  <script src="h-index.js?v=1cab5692470b" defer></script>
+  <script src="papers.js?v=1cab5692470b" defer></script>
+  <script src="ui.js?v=1cab5692470b" defer></script>
+  <script src="home.js?v=1cab5692470b" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -67,7 +67,7 @@
       </div>
       <div id="school-plot" class="school-plot"></div>
       <div id="school-zero" class="school-zero" hidden></div>
-      <p class="school-chart-note">面积表示已确认关系数；百分比以全部已确认关系为分母。点击高校查看论文。</p>
+      <p id="school-chart-note" class="school-chart-note">面积表示归属该校的已确认关系数；占比以图中关系统计。点击高校查看论文。</p>
     </section>
   </main>
   <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>公开资料核验 · 截至 2026 年 11 月 12 日</span></footer>

@@ -91,7 +91,13 @@ function buildPaperIndex(records, leads, metrics) {
     const attribution = choices.length > 1 ? choices : [];
     const attributionPending = attribution.some(({ metric }) => !Number.isInteger(metric?.[0]));
     const primary = choices[0]?.record || group[0];
-    const gap = attributionPending ? '部分指导教师的 Google 学术总 H 指数待核验，论文归属尚未确定。' : primary.gap;
+    // Missing H indices affect an institution only when eligible advisers disagree on it.
+    const attributedCompany = !attributionPending || choices.every(({ record }) => record.company === primary.company)
+      ? primary.company : null;
+    const attributedTeam = attributedCompany && (!attributionPending || choices.every(({ record }) => record.team === primary.team))
+      ? primary.team : null;
+    const attributedSchool = !attributionPending || choices.every(({ record }) => record.school === primary.school)
+      ? primary.school : null;
     const extra = new Map([[primary.paper, '论文原文']]);
     for (const record of group) {
       if (!extra.has(record.paper)) extra.set(record.paper, '论文其他版本');
@@ -100,7 +106,8 @@ function buildPaperIndex(records, leads, metrics) {
       }
     }
     extra.delete(primary.paper);
-    return { ...primary, gap, attribution, attributionPending, extra: [...extra].map(([url, label]) => [label, url]) };
+    return { ...primary, attribution, attributionPending, attributedCompany, attributedTeam, attributedSchool,
+      extra: [...extra].map(([url, label]) => [label, url]) };
   });
   return { records: index, leads: unmatched };
 }
