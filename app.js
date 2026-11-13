@@ -183,3 +183,5 @@ detail.addEventListener('click', (event) => {
   }
 });
 renderResults();
+for (const input of [...Object.values(state), get('sort')]) input.disabled = false;
+get('index-load').hidden = true;

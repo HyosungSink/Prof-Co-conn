@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>关系索引 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="data.js" defer></script>
-  <script src="leads.js" defer></script>
-  <script src="h-index.js" defer></script>
-  <script src="papers.js" defer></script>
-  <script src="ui.js" defer></script>
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=894d9a3c669c">
+  <script src="data.js?v=894d9a3c669c" defer></script>
+  <script src="leads.js?v=894d9a3c669c" defer></script>
+  <script src="h-index.js?v=894d9a3c669c" defer></script>
+  <script src="papers.js?v=894d9a3c669c" defer></script>
+  <script src="ui.js?v=894d9a3c669c" defer></script>
+  <script src="app.js?v=894d9a3c669c" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -31,17 +31,21 @@
         <button id="clear-filters" class="text-button" type="button" hidden>清除筛选</button>
       </div>
       <form id="filters" class="filters" role="search" aria-label="筛选关系">
-        <label class="search"><span>搜索</span><input id="query" type="search" placeholder="论文、作者或研究方向"></label>
-        <label><span>企业</span><select id="company"><option value="">全部企业</option></select></label>
-        <label><span>高校</span><select id="school"><option value="">全部高校</option></select></label>
-        <label><span>状态</span><select id="status"><option value="">全部状态</option><option value="confirmed">已确认</option><option value="candidate">待核验</option></select></label>
+        <label class="search"><span>搜索</span><input id="query" type="search" placeholder="论文、作者或研究方向" disabled></label>
+        <label><span>企业</span><select id="company" disabled><option value="">全部企业</option></select></label>
+        <label><span>高校</span><select id="school" disabled><option value="">全部高校</option></select></label>
+        <label><span>状态</span><select id="status" disabled><option value="">全部状态</option><option value="confirmed">已确认</option><option value="candidate">待核验</option></select></label>
       </form>
-      <div class="result-bar"><p id="result-count" aria-live="polite"></p><label for="sort">排序 <select id="sort"><option value="evidence">已确认优先</option><option value="newest">发表时间从近到远</option><option value="oldest">发表时间从远到近</option></select></label></div>
+      <div class="result-bar"><p id="result-count" aria-live="polite"></p><label for="sort">排序 <select id="sort" disabled><option value="evidence">已确认优先</option><option value="newest">发表时间从近到远</option><option value="oldest">发表时间从远到近</option></select></label></div>
       <div class="table-wrap">
         <table>
           <thead><tr><th scope="col">企业与团队</th><th scope="col">高校与教师</th><th scope="col">代表论文</th><th scope="col">核验状态</th><th scope="col"><span class="sr-only">详情</span></th></tr></thead>
           <tbody id="rows"></tbody>
         </table>
+        <div id="index-load" class="empty" hidden>
+          <span id="index-load-message" role="status">正在加载关系索引…</span><button id="index-retry" class="text-button" type="button" hidden>重新加载</button>
+        </div>
+        <noscript><p class="empty">请启用 JavaScript 查看关系索引及证据。</p></noscript>
         <div id="empty" class="empty" hidden>当前筛选下没有记录。<button id="empty-reset" class="text-button" type="button">清除筛选</button></div>
       </div>
     </section>
@@ -52,6 +56,18 @@
     <div class="dialog-head"><div id="detail-status"></div><form method="dialog"><button class="close" aria-label="关闭详情">×</button></form></div>
     <div id="detail-body"></div>
   </dialog>
-  <noscript><p class="container">请启用 JavaScript 查看关系索引及证据。</p></noscript>
+  <script>
+    (() => {
+      const panel = document.getElementById('index-load');
+      const retry = document.getElementById('index-retry');
+      panel.hidden = false;
+      retry.addEventListener('click', () => location.reload());
+      document.addEventListener('DOMContentLoaded', () => {
+        if (panel.hidden) return;
+        document.getElementById('index-load-message').textContent = '关系索引暂时无法加载。';
+        retry.hidden = false;
+      }, { once: true });
+    })();
+  </script>
 </body>
 </html>

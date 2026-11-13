@@ -37,7 +37,7 @@
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-启动后打开 `http://127.0.0.1:8000/`。GitHub Pages 从 `main` 分支的根目录发布，推送到 `main` 后会自动重新部署。`.nojekyll` 让 Pages 直接发布静态文件。
+启动后打开 `http://127.0.0.1:8000/`。GitHub Pages 从 `main` 分支的根目录发布，推送到 `main` 后会自动重新部署。`.nojekyll` 让 Pages 直接发布静态文件。修改 JavaScript（含数据文件）或 CSS 后，提交前运行 `python3 scripts/version_assets.py`，让页面加载同一版资源。
 
 ## 数据与代码
 
