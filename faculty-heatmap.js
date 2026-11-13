@@ -1,4 +1,73 @@
-const facultyHeatColors = ['#e5deee', '#c2abdf', '#8862ba', '#4e2c7e'];
+const facultySchoolColors = [
+  '#6842ad', '#dc5f4b', '#338fc0', '#4da16c', '#cf8a2a', '#a34b8f', '#44a69c',
+  '#adbd52', '#4f68b8', '#d183ab', '#887454', '#65b5d1', '#637a36', '#e7ad42',
+  '#9771c0', '#c34355', '#207f88', '#ee926b', '#5262a2', '#a05876', '#25693c',
+  '#975a35', '#8c9fd7', '#b26156', '#1873a2', '#d2b85f'
+];
+
+/* Grid traversal adapted from https://github.com/jakubcerveny/gilbert
+
+BSD 2-Clause License
+
+Copyright (c) 2018, Jakub Červený
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+// Walk a rectangular grid in a space-filling order. Consecutive records stay
+// close together so schools and units form compact areas in one shared grid.
+function facultyGridPath(columns, rows) {
+  const cells = [];
+  function walk(x, y, ax, ay, bx, by) {
+    const width = Math.abs(ax + ay);
+    const height = Math.abs(bx + by);
+    const da = Math.sign(ax), ea = Math.sign(ay);
+    const db = Math.sign(bx), eb = Math.sign(by);
+    if (height === 1 || width === 1) {
+      for (let i = 0; i < Math.max(width, height); i += 1) {
+        cells.push([x, y]);
+        x += height === 1 ? da : db;
+        y += height === 1 ? ea : eb;
+      }
+      return;
+    }
+    let ax2 = Math.floor(ax / 2), ay2 = Math.floor(ay / 2);
+    let bx2 = Math.floor(bx / 2), by2 = Math.floor(by / 2);
+    if (2 * width > 3 * height) {
+      if (Math.abs(ax2 + ay2) % 2 && width > 2) { ax2 += da; ay2 += ea; }
+      walk(x, y, ax2, ay2, bx, by);
+      walk(x + ax2, y + ay2, ax - ax2, ay - ay2, bx, by);
+    } else {
+      if (Math.abs(bx2 + by2) % 2 && height > 2) { bx2 += db; by2 += eb; }
+      walk(x, y, bx2, by2, ax2, ay2);
+      walk(x + bx2, y + by2, ax, ay, bx - bx2, by - by2);
+      walk(x + ax - da + bx2 - db, y + ay - ea + by2 - eb, -bx2, -by2, ax2 - ax, ay2 - ay);
+    }
+  }
+  if (columns >= rows) walk(0, 0, columns, 0, 0, rows);
+  else walk(0, 0, 0, rows, columns, 0);
+  return cells;
+}
 
 function renderFacultyUnits() {
   const schoolPicker = get('unit-school');
@@ -8,9 +77,11 @@ function renderFacultyUnits() {
   const context = canvas.getContext('2d');
   const readout = get('unit-summary');
   const link = get('unit-directory-link');
+  const swatch = get('unit-school-swatch');
   const format = new Intl.NumberFormat('zh-CN');
+  const colors = new Map(survey.schools.map(([name], index) => [name, facultySchoolColors[index]]));
   const schools = facultyPlotStats.map(([name, count, , rows]) => ({
-    name, count, units: rows.map(([name, rows]) => ({ name, rows }))
+    name, count, color: colors.get(name), units: rows.map(([name, rows]) => ({ name, rows }))
   }));
   for (const school of schools) {
     for (const unit of school.units) {
@@ -23,7 +94,6 @@ function renderFacultyUnits() {
   addOptions(schoolPicker, survey.schools);
   let selectedSchool = null;
   let selectedUnit = null;
-  let inspectedUnit = null;
   let inspected = null;
   let currentLayout = null;
 
@@ -32,16 +102,18 @@ function renderFacultyUnits() {
   }
 
   function updateReadout() {
-    const school = inspected?.school || inspectedUnit?.school || selectedSchool;
-    const unit = inspected?.unit || inspectedUnit?.unit || selectedUnit;
+    const school = inspected?.school || selectedSchool;
+    const unit = inspected?.unit || selectedUnit;
     const params = new URLSearchParams();
+    swatch.hidden = !school;
+    swatch.style.background = school?.color || '';
     if (school) params.set('school', school.name);
     if (unit) params.set(school.name === instituteSchool ? 'institute' : 'department', unit.name);
     if (inspected) params.set('q', inspected.name);
     link.href = params.size ? `faculty.html?${params}#faculty-rosters` : 'faculty.html';
     link.textContent = inspected ? '查看该教师 ↗' : unit ? '查看该单位名录 ↗' : '查看名录 ↗';
     readout.textContent = inspected
-      ? `${inspected.name} · ${unit.name} · 已核实 ${inspected.score}/3 项`
+      ? `${inspected.name} · ${school.name} · ${unit.name} · 已核实 ${inspected.score}/3 项`
       : unit ? `${unit.name} · ${format.format(unit.rows.length)} 条记录`
       : school ? `${school.name} · ${school.units.length} 个单位分组 · ${format.format(school.count)} 条记录`
       : `${schools.length} 所高校 · ${unitCount} 个单位分组 · ${format.format(allEntries.length)} 块瓷砖`;
@@ -49,106 +121,38 @@ function renderFacultyUnits() {
   }
 
   function calculateLayout(width, height) {
-    const laneCount = width >= 1050 ? 4 : width >= 535 ? 3 : 2;
-    const laneGap = width >= 710 ? 10 : 5;
-    const pad = width >= 710 ? 5 : 3;
-    const laneWidth = Math.floor((width - laneGap * (laneCount - 1)) / laneCount);
-    const ordered = [...schools].sort((a, b) => b.count - a.count);
-    const header = height >= 440 ? 17 : height >= 280 ? 13 : 10;
-    const separation = height >= 440 ? 5 : 3;
-    // Use the same tile size for every school. Include gutters between units, even
-    // when two units fit on the same row, so the map preserves unit boundaries.
-    function arrange(step, schoolOrder, assignLane) {
-      const cols = Math.max(1, Math.floor((laneWidth - 2 * pad) / step));
-      const lengths = Array(laneCount).fill(0);
-      const items = [];
-      for (const school of schoolOrder) {
-        const lane = assignLane(school, lengths);
-        const slots = school.units.reduce((total, unit) => total + Math.max(1, unit.entries.length) + 2, 0);
-        const rows = Math.ceil(Math.max(0, slots - 2) / cols);
-        const size = header + rows * step + pad;
-        items.push({ school, rows, lane, x: lane * (laneWidth + laneGap), y: lengths[lane], size });
-        lengths[lane] += size + separation;
-      }
-      return { items, cols, step, maxHeight: Math.max(...lengths) - separation };
-    }
-
-    let plan;
-    for (let step = 9; step >= .75; step -= .25) {
-      plan = arrange(step, ordered, (_, lengths) => lengths.indexOf(Math.min(...lengths)));
-      if (plan.maxHeight <= height) break;
-    }
-    const lanes = new Map(plan.items.map(item => [item.school, item.lane]));
-    plan = arrange(plan.step, schools, school => lanes.get(school));
-    const tiles = [];
-    const groups = [];
-    const schoolBorders = [];
-    const entryPositions = new Map();
-    for (const { school, x, y, size } of plan.items) {
-      schoolBorders.push({ school, x, y, width: laneWidth, height: size });
-      let slot = 0;
-      for (const [index, unit] of school.units.entries()) {
-        const start = slot;
-        const entries = unit.entries.length ? unit.entries : [null];
-        for (const entry of entries) {
-          const tile = {
-            entry, school, unit, x: x + pad + (slot % plan.cols) * plan.step,
-            y: y + header + Math.floor(slot / plan.cols) * plan.step
-          };
-          tiles.push(tile);
-          if (entry) entryPositions.set(entry, tile);
-          slot += 1;
-        }
-        for (let i = start; i < slot;) {
-          const length = Math.min(slot - i, plan.cols - i % plan.cols);
-          groups.push({ index, unit, x: x + pad + i % plan.cols * plan.step,
-            y: y + header + Math.floor(i / plan.cols) * plan.step, width: length * plan.step });
-          i += length;
-        }
-        slot += 2;
-      }
-    }
-    return { tiles, groups, schoolBorders, entryPositions, step: plan.step, width, height };
+    const columns = Math.ceil(Math.sqrt(allEntries.length * width / height));
+    const rows = Math.ceil(allEntries.length / columns);
+    const step = Math.min(width / columns, height / rows);
+    const insetX = Math.max(0, (width - columns * step) / 2);
+    const insetY = Math.max(0, (height - rows * step) / 2);
+    const positions = new Map();
+    const byCell = new Map();
+    const tiles = facultyGridPath(columns, rows).slice(0, allEntries.length).map(([column, row], index) => {
+      const entry = allEntries[index];
+      const tile = { entry, x: insetX + column * step, y: insetY + row * step };
+      positions.set(entry, tile);
+      byCell.set(row * columns + column, tile);
+      return tile;
+    });
+    return { width, height, columns, insetX, insetY, step, tiles, positions, byCell };
   }
 
   function paint() {
     if (!currentLayout) return;
-    const { width, height, schoolBorders, groups, tiles, step, entryPositions } = currentLayout;
+    const { width, height, tiles, step, positions } = currentLayout;
     context.clearRect(0, 0, width, height);
-    context.font = `600 ${height >= 440 ? 10 : height >= 280 ? 9 : 8}px system-ui`;
-    context.textBaseline = 'top';
-    for (const area of schoolBorders) {
-      const active = !selectedSchool || selectedSchool === area.school;
-      context.fillStyle = active ? '#f8f5fb' : '#f8f7fa';
-      context.fillRect(area.x, area.y, area.width, area.height);
-      context.strokeStyle = active && selectedSchool ? '#8964b1' : '#e9e0f0';
-      context.strokeRect(area.x + .5, area.y + .5, area.width - 1, area.height - 1);
-      context.fillStyle = active ? '#493464' : '#7a7284';
-      context.fillText(area.school.name, area.x + 3, area.y + 1, area.width - 6);
-    }
-    const size = step - (step >= 4 ? 1 : step >= 2 ? .65 : .24);
-    for (const group of groups) {
-      const active = group.unit === selectedUnit;
-      if (!active && group.index % 2 === 0) continue;
-      context.fillStyle = active ? '#cebae5' : '#efe8f6';
-      context.fillRect(group.x - .4, group.y - .4, group.width, step);
-    }
-    for (const tile of tiles) {
-      context.globalAlpha = matchesSelection(tile) ? 1 : .32;
-      if (tile.entry) {
-        context.fillStyle = facultyHeatColors[tile.entry.score];
-        context.fillRect(tile.x, tile.y, size, size);
-      } else {
-        context.strokeStyle = '#a798b3';
-        context.strokeRect(tile.x, tile.y, size, size);
-      }
+    const size = step - Math.min(.95, step * .16);
+    for (const { entry, x, y } of tiles) {
+      context.globalAlpha = matchesSelection(entry) ? 1 : .2;
+      context.fillStyle = entry.school.color;
+      context.fillRect(x, y, size, size);
     }
     context.globalAlpha = 1;
-    const marked = entryPositions.get(inspected);
+    const marked = positions.get(inspected);
     if (marked) {
-      context.strokeStyle = '#a55d00';
-      context.lineWidth = 1;
-      context.strokeRect(marked.x - 1.5, marked.y - 1.5, size + 3, size + 3);
+      context.strokeStyle = '#251c32';
+      context.strokeRect(marked.x - 1.25, marked.y - 1.25, size + 2.5, size + 2.5);
     }
   }
 
@@ -164,8 +168,7 @@ function renderFacultyUnits() {
   }
 
   function inspect(entry) {
-    if (entry === inspected && !inspectedUnit) return;
-    inspectedUnit = null;
+    if (entry === inspected) return;
     inspected = entry;
     updateReadout();
     paint();
@@ -175,7 +178,6 @@ function renderFacultyUnits() {
     selectedSchool = schools.find(school => school.name === schoolPicker.value) || null;
     selectedUnit = null;
     inspected = null;
-    inspectedUnit = null;
     groupPicker.replaceChildren(new Option(selectedSchool?.name === instituteSchool ? '全部研究所' : '全部院系／研究所', ''));
     if (selectedSchool) for (const unit of selectedSchool.units) groupPicker.add(new Option(unit.name, unit.name));
     groupPicker.disabled = !selectedSchool;
@@ -185,7 +187,6 @@ function renderFacultyUnits() {
   groupPicker.addEventListener('change', () => {
     selectedUnit = selectedSchool?.units.find(unit => unit.name === groupPicker.value) || null;
     inspected = null;
-    inspectedUnit = null;
     updateReadout();
     paint();
   });
@@ -194,30 +195,25 @@ function renderFacultyUnits() {
     const bounds = canvas.getBoundingClientRect();
     const x = event.clientX - bounds.left;
     const y = event.clientY - bounds.top;
-    const { step, tiles } = currentLayout;
-    const distance = tile => Math.hypot(x - tile.x - step / 2, y - tile.y - step / 2);
-    let tile = tiles.find(tile => x >= tile.x && x < tile.x + step && y >= tile.y && y < tile.y + step);
+    const { step, tiles, columns, insetX, insetY, byCell } = currentLayout;
+    const column = Math.floor((x - insetX) / step);
+    const row = Math.floor((y - insetY) / step);
+    let tile = column < 0 || column >= columns ? null : byCell.get(row * columns + column);
     if (step < 4) {
-      // Touch and some browsers report whole-pixel coordinates even when tiles are smaller.
+      // A touch can round to the next pixel. Prefer a nearby highlighted entry.
       let nearest = Math.max(2, step);
       for (const candidate of tiles) {
         if (!matchesSelection(candidate)) continue;
-        const offset = distance(candidate);
+        const offset = Math.hypot(x - candidate.x - step / 2, y - candidate.y - step / 2);
         if (offset < nearest) {
           nearest = offset;
           tile = candidate;
         }
       }
     }
-    if (!tile) return;
-    if (tile.entry) inspect(tile.entry);
-    else if (inspectedUnit?.unit !== tile.unit) {
-      inspected = null;
-      inspectedUnit = tile;
-      updateReadout();
-      paint();
-    }
+    if (tile) inspect(tile.entry);
   }
+
   canvas.addEventListener('click', inspectTile);
   canvas.addEventListener('keydown', event => {
     if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
