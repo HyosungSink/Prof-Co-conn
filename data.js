@@ -8991,6 +8991,109 @@ const survey = {
       ],
       evidence: 'ICML 正式版将 Junteng Liu 双署港科大和 MiniMax，并列港科大导师何俊贤及 MiniMax 研发负责人赵鹏宇。学生的同期履历记录其在读期间参与 M2 系列研发；公司 M2 技术报告在 Agentic Cowork 的金融分析与表格操作小节明确引用 DIVE 的真实金融工具任务合成方法。',
       advising: [ '博士导师', 'Junteng Liu 的个人主页具名列何俊贤为港科大博士导师，何俊贤团队也列其为博士生。', 'https://jxhe.github.io/group/' ]
+    },
+    {
+      id: 'octobench-minimax-fudan-tao-gui',
+      company: 'MiniMax',
+      team: '代码智能体 · OctoBench 评测',
+      school: '复旦大学',
+      studentSchool: '复旦大学',
+      faculty: [ '桂韬 · Tao Gui', '复旦大学自然语言处理方向副研究员、硕士生导师；ACL 正式版署复旦大学并列为通讯作者。', 'https://imoll.fudan.edu.cn/info/1196/1454.htm' ],
+      employee: [
+        'Deming Ding',
+        '本人 ORCID 履历载明自 2025 年 7 月起在 MiniMax 通用模型团队担任算法研究员；正式论文列为并列第一作者，署复旦大学和 MiniMax。',
+        'https://orcid.org/0009-0006-3092-8848'
+      ],
+      student: [ '林佳航 · Jiahang Lin', '2025 年 9 月起在复旦大学攻读硕士，导师为桂韬与黄萱菁；本人主页列出此项研究与发布的评测工具。正式论文列为并列第一作者，署复旦大学。', 'https://curry09.github.io/' ],
+      title: 'OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding',
+      short: 'OctoBench',
+      date: '2026-07',
+      venue: 'ACL',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2026.acl-long.269.pdf',
+      extra: [
+        [ '2026 年 1 月首版预印本', 'https://arxiv.org/abs/2601.10343' ],
+        [ '学生同期主页：导师、研究与实习履历', 'https://github.com/Curry09/curry09.github.io/blob/d8c13a941c336224b044a8d751509ceda1902374/_pages/about.md' ],
+        [ 'MiniMax 官方 OctoBench 数据集及项目来源', 'https://huggingface.co/datasets/MiniMaxAI/OctoBench/blob/main/README.md' ],
+        [ 'MiniMax 发布的同篇论文评测工具', 'https://github.com/MiniMax-AI/mini-vela' ],
+        [ 'MiniMax 对前序项目 OctoCodingBench 的介绍', 'https://www.minimax.io/news/production-grade-benchmark-for-coding-agents' ],
+        [ 'AIware 会议列出的企业通讯作者岗位', 'https://2026.aiwareconf.org/track/aiware-2026-keynotes' ]
+      ],
+      evidence: '林佳航在 ACL 正式版中是并列第一作者，并在同期个人主页列出自己参与发表的评测工作及开源工具。论文首页链接 MiniMax 的工具仓库；企业数据卡将同篇成果明确列为其 OctoCodingBench 项目的扩展。校企两方通讯作者包括桂韬与 MiniMax 研究员 Qidi Xu。林佳航在该项目中以复旦在读学生身份参与联合科研，其公开履历在同期列有 NEX-AGI 实习。',
+      advising: [
+        '硕士共同导师',
+        '林佳航的同期公开履历具名列桂韬和黄萱菁为其复旦硕士导师；桂韬在 ACL 正式版中是共同通讯作者。',
+        'https://github.com/Curry09/curry09.github.io/blob/d8c13a941c336224b044a8d751509ceda1902374/_pages/about.md'
+      ]
+    },
+    {
+      id: 'deepseek-grm-thu-peng-li',
+      company: 'DeepSeek',
+      team: '奖励模型研究',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      faculty: [ '李鹏 · Peng Li', '2022 年起任清华大学智能产业研究院副研究员；在 DeepSeek-GRM 论文以清华大学署名。', 'https://air.tsinghua.edu.cn/en/info/1046/1373.htm' ],
+      employee: [ '许润昕 · Runxin Xu', '2023 年 8 月起在 DeepSeek 任研究员；在 DeepSeek-GRM 论文以 DeepSeek 署名。', 'https://runxinxu.github.io/#experience' ],
+      student: [
+        '刘子君 · Zijun Liu',
+        '2024 年起在清华大学计算机系攻读博士；2025 年 4 月本人报告介绍了这篇 DeepSeek-GRM 论文，原文具名注明研究在 DeepSeek 实习期间完成。',
+        'https://hub.baai.ac.cn/view/45080'
+      ],
+      title: 'Inference-Time Scaling for Generalist Reward Modeling',
+      short: 'DeepSeek-GRM',
+      date: '2025-04',
+      venue: 'arXiv 预印本',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2504.02495v3',
+      extra: [
+        [ 'DeepSeek-GRM 首次公开时间及作者名单', 'https://arxiv.org/abs/2504.02495' ],
+        [ 'ICML 2024 贡献声明，第 25 页', 'https://raw.githubusercontent.com/mlresearch/v235/main/assets/yang24p/yang24p.pdf#page=25' ],
+        [ '清华团队项目仓库：具名指导与学生分工', 'https://github.com/AgentForceTeamOfficial/UA2-Agent#contributions' ],
+        [ '2024 年 11 月清华智能体项目的署名', 'https://agent-force.github.io/AIGS/' ],
+        [ '2025 年 2 月首发的后续研究', 'https://arxiv.org/abs/2502.14496' ],
+        [ 'COLM 正式版的共同第一作者与通讯作者', 'https://arxiv.org/pdf/2502.14496v3' ],
+        [ '刘洋的清华大学学籍及指导名录', 'https://nlp.csai.tsinghua.edu.cn/~ly/' ]
+      ],
+      evidence: 'DeepSeek-GRM 首页将第一作者刘子君双署清华与 DeepSeek，并具名注明该工作完成于企业实习；李鹏和 DeepSeek 研究员许润昕同篇署名。清华科研项目的贡献声明记录了李鹏对刘子君参与的研究的指导。两人在刘子君读博后继续合作，2025 年 2 月公开的另一项研究中，正式版列刘子君为共同第一作者、李鹏为共同通讯作者。',
+      advising: [
+        '校内科研项目指导',
+        'ICML 2024 的清华团队贡献声明写明李鹏与刘洋共同指导 UA² 项目，刘子君共同主导实验并设计智能体框架。刘洋是刘子君的博士导师；DeepSeek-GRM 原文未单列各作者的指导分工。',
+        'https://raw.githubusercontent.com/mlresearch/v235/main/assets/yang24p/yang24p.pdf#page=25'
+      ]
+    },
+    {
+      id: 'octobench-minimax-fudan-xuanjing-huang',
+      company: 'MiniMax',
+      team: '代码智能体 · OctoBench 评测',
+      school: '复旦大学',
+      studentSchool: '复旦大学',
+      faculty: [ '黄萱菁 · Xuanjing Huang', '复旦大学计算机科学技术学院教授；ACL 正式版署复旦大学并列为通讯作者。', 'https://cs.fudan.edu.cn/_t4218/7b/d6/c24781a490454/page.psp' ],
+      employee: [
+        'Deming Ding',
+        '本人 ORCID 履历载明自 2025 年 7 月起在 MiniMax 通用模型团队担任算法研究员；正式论文列为并列第一作者，署复旦大学和 MiniMax。',
+        'https://orcid.org/0009-0006-3092-8848'
+      ],
+      student: [ '林佳航 · Jiahang Lin', '2025 年 9 月起在复旦大学攻读硕士，导师为桂韬与黄萱菁；本人主页列出此项研究与发布的评测工具。正式论文列为并列第一作者，署复旦大学。', 'https://curry09.github.io/' ],
+      title: 'OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding',
+      short: 'OctoBench',
+      date: '2026-07',
+      venue: 'ACL',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2026.acl-long.269.pdf',
+      extra: [
+        [ '2026 年 1 月首版预印本', 'https://arxiv.org/abs/2601.10343' ],
+        [ '学生同期主页：导师、研究与实习履历', 'https://github.com/Curry09/curry09.github.io/blob/d8c13a941c336224b044a8d751509ceda1902374/_pages/about.md' ],
+        [ 'MiniMax 官方 OctoBench 数据集及项目来源', 'https://huggingface.co/datasets/MiniMaxAI/OctoBench/blob/main/README.md' ],
+        [ 'MiniMax 发布的同篇论文评测工具', 'https://github.com/MiniMax-AI/mini-vela' ],
+        [ 'MiniMax 对前序项目 OctoCodingBench 的介绍', 'https://www.minimax.io/news/production-grade-benchmark-for-coding-agents' ],
+        [ 'AIware 会议列出的企业通讯作者岗位', 'https://2026.aiwareconf.org/track/aiware-2026-keynotes' ]
+      ],
+      evidence: '林佳航在 ACL 正式版中是并列第一作者，并在同期个人主页列出自己参与发表的评测工作及开源工具。论文首页链接 MiniMax 的工具仓库；企业数据卡将同篇成果明确列为其 OctoCodingBench 项目的扩展。校企两方通讯作者包括黄萱菁与 MiniMax 研究员 Qidi Xu。林佳航在该项目中以复旦在读学生身份参与联合科研，其公开履历在同期列有 NEX-AGI 实习。',
+      advising: [
+        '硕士共同导师',
+        '林佳航的同期公开履历具名列桂韬和黄萱菁为其复旦硕士导师；黄萱菁在 ACL 正式版中是共同通讯作者。',
+        'https://github.com/Curry09/curry09.github.io/blob/d8c13a941c336224b044a8d751509ceda1902374/_pages/about.md'
+      ]
     }
   ]
 };
