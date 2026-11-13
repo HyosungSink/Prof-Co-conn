@@ -8292,6 +8292,59 @@ const survey = {
       evidence: '第一共同作者袁慕遥有具名的微信 AI 项目脚注。论文同时列其西安交大导师张未展和腾讯微信 AI 项目负责人 Liyan Xu。',
       advising: [ '博士导师', '袁慕遥个人学术主页在博士经历中具名列出张未展为导师。', 'https://muyaoyuan.github.io/' ],
       extra: [ [ '预印本索引', 'https://arxiv.org/abs/2611.04814' ], [ '作者公开的项目代码', 'https://github.com/MuyaoYuan/LoCo' ] ]
+    },
+    {
+      id: 'baidu-dgtr-nwpu-han',
+      company: '百度',
+      team: '百度 VIS',
+      school: '西北工业大学',
+      studentSchool: '西北工业大学',
+      faculty: [ '韩军伟 · Junwei Han', '西北工业大学自动化学院教授、BRAIN 实验室负责人，为李昊博士期间公开具名的高校共同指导者；论文署西北工业大学。', 'https://zdhxy.nwpu.edu.cn/info/1081/31723.htm' ],
+      employee: [
+        '王井东 · Jingdong Wang',
+        '时任百度计算机视觉首席科学家，论文署百度 VIS，并在 2024 年活动介绍中被列为李昊的百度实习导师。',
+        'https://jingdongwang2017.github.io/CV_Jingdong_Wang.pdf'
+      ],
+      student: [ '李昊 · Hao Li', '西北工业大学 2022 级直博生；2024 年 7 月同期讲者简介称其正在百度 VIS 实习，本人履历列明实习导师和该论文。', 'https://lifuguan.github.io/' ],
+      title: 'DGTR: Distributed Gaussian Turbo-Reconstruction for Sparse-View Vast Scenes',
+      short: 'DGTR',
+      date: '2025-05',
+      venue: 'ICRA',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/html/2411.12309v2',
+      extra: [
+        [ 'ICRA 正式论文', 'https://doi.org/10.1109/ICRA55743.2025.11127313' ],
+        [ '西工大博士中期考核公告', 'https://zdhxy.nwpu.edu.cn/info/1120/34483.htm' ]
+      ],
+      evidence: '李昊作为第一作者署西北工业大学和百度 VIS，同篇作者包括西工大韩军伟和百度 VIS 王井东。2024 年同期讲者简介同时确认在读博士身份、两位校方指导者和百度 VIS 实习。',
+      advising: [ '博士期间共同指导', '2024 年 GAMES 活动的讲者简介具名列张鼎文、韩军伟两位为李昊的指导老师。西工大中期考核公告所列学籍导师为张鼎文。', 'https://games-cn.org/games-webinar-20240718-332/' ]
+    },
+    {
+      id: 'deepseek-moe-pku-zhifang-sui',
+      company: 'DeepSeek',
+      team: 'DeepSeek-AI · MoE 架构',
+      school: '北京大学',
+      studentSchool: '北京大学',
+      title: 'DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models',
+      short: 'DeepSeekMoE',
+      date: '2024-08',
+      venue: 'ACL',
+      area: '语言模型与智能体',
+      paper: 'https://aclanthology.org/2024.acl-long.70.pdf',
+      faculty: [ '穗志方 · Zhifang Sui', '北京大学计算机学院教授，论文署北京大学多媒体信息处理重点实验室。', 'https://cs.pku.edu.cn/info/1078/1672.htm' ],
+      employee: [ '梁文锋 · Wenfeng Liang', 'DeepSeek 创始人，论文署 DeepSeek-AI，为企业通讯作者。', 'https://www.nature.com/articles/d41586-025-03845-4' ],
+      student: [
+        '代达劢 · Damai Dai',
+        '2019 年进入北京大学攻读博士，2024 年博士毕业。本篇 2024 年 1 月预印本及 ACL 正式论文均具名标明其贡献来自在 DeepSeek 的实习。',
+        'https://cs.pku.edu.cn/info/1035/1331.htm'
+      ],
+      evidence: 'ACL 正式论文首页将代达劢同时署为北大和 DeepSeek，星号明确标明实习贡献。其北大博士导师穗志方及 DeepSeek 创始人梁文锋均为同篇作者。',
+      advising: [ '博士导师', '2024 年中国中文信息学会博士学位论文激励计划的公开发布记录列代达劢为北京大学博士论文作者、穗志方为导师。', 'https://photo.china.com.cn/2024-12/03/content_117584008.shtml' ],
+      extra: [
+        [ '2024 年 1 月首发预印本', 'https://arxiv.org/pdf/2401.06066v1' ],
+        [ '北京大学新闻网：研发经历', 'https://news.pku.edu.cn/info/2901/815451.htm' ],
+        [ '企业官方代码与技术报告', 'https://github.com/deepseek-ai/DeepSeek-MoE' ]
+      ]
     }
   ]
 };
