@@ -195,7 +195,20 @@ function renderFacultyUnits() {
     const x = event.clientX - bounds.left;
     const y = event.clientY - bounds.top;
     const { step, tiles } = currentLayout;
-    const tile = tiles.find(tile => x >= tile.x && x < tile.x + step && y >= tile.y && y < tile.y + step);
+    const distance = tile => Math.hypot(x - tile.x - step / 2, y - tile.y - step / 2);
+    let tile = tiles.find(tile => x >= tile.x && x < tile.x + step && y >= tile.y && y < tile.y + step);
+    if (step < 4) {
+      // Touch and some browsers report whole-pixel coordinates even when tiles are smaller.
+      let nearest = Math.max(2, step);
+      for (const candidate of tiles) {
+        if (!matchesSelection(candidate)) continue;
+        const offset = distance(candidate);
+        if (offset < nearest) {
+          nearest = offset;
+          tile = candidate;
+        }
+      }
+    }
     if (!tile) return;
     if (tile.entry) inspect(tile.entry);
     else if (inspectedUnit?.unit !== tile.unit) {
