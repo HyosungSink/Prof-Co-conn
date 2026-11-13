@@ -8345,6 +8345,68 @@ const survey = {
         [ '北京大学新闻网：研发经历', 'https://news.pku.edu.cn/info/2901/815451.htm' ],
         [ '企业官方代码与技术报告', 'https://github.com/deepseek-ai/DeepSeek-MoE' ]
       ]
+    },
+    {
+      id: 'alibaba-dmgasr-xidian-mingyang-zhang',
+      company: '阿里巴巴',
+      team: '达摩院 · AI Earth',
+      school: '西安电子科技大学',
+      studentSchool: '西安电子科技大学',
+      faculty: [
+        '张明阳 · Mingyang Zhang',
+        '自 2022 年 9 月任西电电子工程学院副教授及硕士生导师；是论文通讯作者，校内导师主页具名列王昭阳为其硕士研究生。',
+        'https://faculty.xidian.edu.cn/ZMY3/zh_CN/index.htm'
+      ],
+      employee: [ '罗浩 · Hao Luo', '达摩院算法专家、AI Earth 遥感大模型算法负责人，原文署名达摩院和湖畔实验室。', 'https://www.taibo.cn/live/422' ],
+      student: [
+        '王昭阳 · Zhaoyang Wang',
+        '2021 年 9 月至 2023 年 6 月为西电硕士、2023 年 9 月起为该校博士生。本人 ORCID 记载 2023 年 5 月至 2024 年 2 月为达摩院研究实习生。',
+        'https://orcid.org/0009-0001-6412-5799'
+      ],
+      title: 'Enhancing Hyperspectral Images via Diffusion Model and Group-Autoencoder Super-resolution Network',
+      short: 'DMGASR',
+      date: '2024-02',
+      venue: 'AAAI',
+      area: '计算机视觉',
+      paper: 'https://arxiv.org/pdf/2402.17285',
+      extra: [
+        [ '正式论文索引', 'https://ojs.aaai.org/index.php/AAAI/article/view/28392' ],
+        [ '预印本与首次公开日期', 'https://arxiv.org/abs/2402.17285' ],
+        [ 'VALSE 2024 作者中文名', 'https://valser.org/2024/static/VALSE2024_HYSC.pdf' ]
+      ],
+      evidence: '作者预印本在第一作者王昭阳名下注明本工作在阿里巴巴由李东阳指导实习期间完成。王昭阳的在读与实习重叠，硕士导师张明阳是同篇通讯作者，达摩院遥感大模型负责人罗浩同篇署名。张明阳的校方履历还列出同期主持的达摩院 AIR 创新研究计划。',
+      advising: [
+        '硕士生导师',
+        '张明阳的西电官网学生名录中，王昭阳是单独列出的硕士研究生，并有 2021 年 7 月发布的校内学生详情；学生自报当时在该校读硕。这里称张明阳为硕士阶段导师，不断言其随后仍为博士导师。',
+        'https://faculty.xidian.edu.cn/ZMY3/zh_CN/xsxx/405846/content/132132.htm'
+      ]
+    },
+    {
+      id: 'moonshot-kimi-dev-tsinghua-yang-liu',
+      company: '月之暗面（Kimi）',
+      team: 'Kimi 编程智能体',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      title: 'Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents',
+      short: 'Kimi-Dev',
+      date: '2026-04',
+      venue: 'ICLR',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2509.23045v3',
+      faculty: [ '刘洋 · Yang Liu', '清华大学计算机科学与技术系教授、智能产业研究院教师，原文署清华。', 'https://nlp.csai.tsinghua.edu.cn/~ly/index_cn.html' ],
+      employee: [ '杨植麟 · Zhilin Yang', '月之暗面联合创始人、CEO，同篇作者。', 'https://2024.baai.ac.cn/speakers' ],
+      student: [
+        '杨宗瀚 · Zonghan Yang',
+        '2020 年入学、2025 年 6 月博士毕业；同期简历记载自 2024 年 7 月在月之暗面实习。论文具名列为共同第一作者及项目负责人。',
+        'https://minicheshire.github.io/CV_yzh_202410.pdf'
+      ],
+      evidence: '月之暗面于 2025 年 6 月 16 日公开同一 Kimi-Dev-72B 项目，早于清华 6 月 22 日毕业典礼。作者论文将杨宗瀚列为共同一作和项目负责人，清华导师刘洋及月之暗面创始人杨植麟均同篇署名。',
+      advising: [ '博士导师', '清华大学学位论文系统在杨宗瀚的博士学位论文记录中具名列刘洋为导师。', 'https://newetds.lib.tsinghua.edu.cn/qh/paper/summary?dbCode=ETDQH&sysId=304529' ],
+      extra: [
+        [ '月之暗面 2025 年 6 月的项目发布', 'https://moonshotai.github.io/Kimi-Dev/' ],
+        [ '清华自然语言处理实验室毕业新闻', 'https://nlp.csai.tsinghua.edu.cn/news/?page=2' ],
+        [ 'ICLR 正式论文', 'https://openreview.net/pdf/56a196a3a0ca98fa4aa64ce3ef7e7c05f19bde18.pdf' ]
+      ]
     }
   ]
 };
