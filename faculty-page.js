@@ -228,6 +228,7 @@ addOptions(facultySchool, survey.schools);
 const facultyParams = new URLSearchParams(location.search);
 const selectedFacultySchool = facultyParams.get('school');
 const selectedDepartment = facultyParams.get('department');
+facultyQuery.value = facultyParams.get('q') || '';
 const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-(\d+)$/);
 const instituteTarget = snapshot[ucasSchool].find(({ slug }) => location.hash === `#faculty-institute-${slug}`);
 const linkedSchool = instituteTarget ? ucasSchool : facultyTarget && survey.schools[Number(facultyTarget[1]) - 1]?.[0];
@@ -250,6 +251,7 @@ function applyFacultyFilters() {
   else url.searchParams.delete('school');
   url.searchParams.delete('department');
   url.searchParams.delete('institute');
+  url.searchParams.delete('q');
   if (facultyDepartment.value) {
     url.searchParams.set(facultySchool.value === ucasSchool ? 'institute' : 'department', facultyDepartment.value);
   }

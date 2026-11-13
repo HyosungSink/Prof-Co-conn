@@ -220,7 +220,8 @@ function setupHomeCharts() {
       const link = element('a');
       link.href = `faculty.html?${new URLSearchParams({ school: name })}#faculty-rosters`;
       return link;
-    })
+    }),
+    renderFacultyUnits
   ];
 
   function moveChart(direction) {
@@ -249,6 +250,7 @@ function setupHomeCharts() {
     event.preventDefault();
     moveChart(direction);
   });
+  if (location.hash === '#faculty-units') moveChart(-1);
 }
 
 setupHomeCharts();

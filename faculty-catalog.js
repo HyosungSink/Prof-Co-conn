@@ -8,17 +8,25 @@ function buildFacultyCatalog() {
   return snapshot;
 }
 
+function facultyVerification(person, school, department) {
+  const [scholar, paper] = facultyBibliographyFor(person, school, department);
+  return Number(Boolean(person.titles.length)) + Number(Boolean(scholar)) + Number(Boolean(paper));
+}
+
 function summarizeFaculty(snapshot) {
   return survey.schools.map(([name]) => {
-    let count = 0;
-    let complete = 0;
-    for (const department of snapshot[name] || []) {
-      count += department.people.length;
+    const units = (snapshot[name] || []).map(department => {
+      let complete = 0;
       for (const person of department.people) {
-        const [scholar, paper] = facultyBibliographyFor(person, name, department.name);
-        if (person.titles.length && scholar && paper) complete += 1;
+        if (facultyVerification(person, name, department.name) === 3) complete += 1;
       }
-    }
-    return { name, count, complete };
+      return { name: department.name, count: department.people.length, complete };
+    }).sort((a, b) => b.count - a.count);
+    return {
+      name,
+      count: units.reduce((sum, unit) => sum + unit.count, 0),
+      complete: units.reduce((sum, unit) => sum + unit.complete, 0),
+      units
+    };
   }).sort((a, b) => b.count - a.count);
 }
