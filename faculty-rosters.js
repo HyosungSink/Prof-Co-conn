@@ -72,6 +72,7 @@ function mergeFacultyRows(rows) {
   const { name } = rows[0];
   const titles = new Map();
   const tiers = new Map();
+  const titleLabels = new Map();
   const appointments = new Map();
   const aliases = new Map();
   let profile = '';
@@ -90,6 +91,7 @@ function mergeFacultyRows(rows) {
       const { ranks, tiers: levels } = splitFacultyRole(supplement.label);
       for (const rank of ranks) titles.set(facultySearchKey(rank), { label: rank, url: supplement.url });
       for (const level of levels) tiers.set(facultySearchKey(level), { label: level, url: supplement.url });
+      for (const [label, url] of supplement.also) titleLabels.set(facultySearchKey(label), { label, url });
     }
   }
   return {
@@ -97,11 +99,12 @@ function mergeFacultyRows(rows) {
     profile,
     titles: [...titles.values()],
     tiers: [...tiers.values()],
+    titleLabels: [...titleLabels.values()],
     appointments: [...appointments.values()],
     aliases: [...aliases.values()],
     searchKey: facultySearchKey([
       ...rows.flatMap(row => [row.name, row.alias, row.role, row.unit.name, ...(row.unit.aliases || [])]),
-      ...[...titles.values(), ...tiers.values()].map(rank => rank.label),
+      ...[...titles.values(), ...tiers.values(), ...titleLabels.values()].map(rank => rank.label),
       !titles.size && !tiers.size ? '职称待核实' : ''
     ].join(' '))
   };
@@ -117,8 +120,8 @@ function mergeFacultyRosters(directory) {
       const department = departments.get(name);
       department.sources.push(unit);
       department.unitIndexes.push(index);
-      const supplements = new Map((facultyTitleSources[school]?.[unit.name] || []).map(([name, profile, label, url]) =>
-        [JSON.stringify([name, profile]), { label, url: url || profile || unit.url }]));
+      const supplements = new Map((facultyTitleSources[school]?.[unit.name] || []).map(([name, profile, label, url, also = []]) =>
+        [JSON.stringify([name, profile]), { label, url: url || profile || unit.url, also }]));
       department.people.push(...unit.people.map(([name, role, profile, alias]) => ({
         name, role, profile, alias, unit,
         roleGroup: sharedRankGroups[school]?.[unit.name]?.[role.replaceAll('／', '/')],
