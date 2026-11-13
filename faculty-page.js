@@ -13,16 +13,16 @@ function renderFaculty() {
   const schools = [];
   let matches = 0;
 
-  for (const [name, english, group] of survey.schools) {
+  for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
-    const units = (snapshot[name] || []).map(unit => {
-      const context = facultySearchKey([name, english, unit.name].join(' '));
+    const units = (snapshot[name] || []).map((unit, unitIndex) => {
+      const context = facultySearchKey([name, english, unit.name, ...(unit.aliases || [])].join(' '));
       const matchUnit = words.every(word => context.includes(word));
       const people = unit.people.filter(([person, role, , alias]) => {
         const key = context + facultySearchKey([person, alias || '', role].join(' '));
         return words.every(word => key.includes(word));
       });
-      return { unit, matchUnit, people };
+      return { unit, matchUnit, people, id: `faculty-unit-${schoolIndex + 1}-${unitIndex + 1}` };
     }).filter(({ matchUnit, people }) => matchUnit || people.length);
 
     if (units.length) {
@@ -45,15 +45,29 @@ function renderFaculty() {
     card.append(summary, body);
     function fill() {
       if (!card.open || body.childNodes.length) return;
-      for (const { unit, people } of units) {
+      if (units.length > 1) {
+        const index = element('ul', '', 'faculty-unit-index');
+        index.setAttribute('aria-label', `${name}的院系名录`);
+        for (const { unit, id } of units) {
+          const item = element('li');
+          const link = element('a', unit.name);
+          link.href = `#${id}`;
+          item.append(link);
+          index.append(item);
+        }
+        body.append(index);
+      }
+      for (const { unit, people, id } of units) {
         const section = element('section', '', 'faculty-unit');
+        section.id = id;
         const top = element('div', '', 'faculty-unit-head');
         const label = element('div');
         label.append(element('h2', unit.name), element('p', [
-          unit.people.length ? `${countFormat.format(people.length)} ${words.length ? '条匹配' : '条名录记录'}` : '官网入口',
+          unit.people.length ? `${countFormat.format(people.length)} ${words.length ? '条匹配' : '条名录记录'}` : '未收录逐人名单',
+          unit.status === 'partial' && '部分名单',
           unit.note
         ].filter(Boolean).join(' · ')));
-        top.append(label, source('官方名录 ↗', unit.url));
+        top.append(label, source(unit.people.length ? '官方名录 ↗' : '院系官网 ↗', unit.url));
         section.append(top);
         if (people.length) {
           const list = element('ul', '', 'faculty-people');
@@ -79,8 +93,19 @@ function renderFaculty() {
 
 addOptions(facultySchool, survey.schools);
 const selectedFacultySchool = new URLSearchParams(location.search).get('school');
+const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-\d+$/);
+const linkedSchool = facultyTarget && survey.schools[Number(facultyTarget[1]) - 1]?.[0];
 if (survey.schools.some(([school]) => school === selectedFacultySchool)) facultySchool.value = selectedFacultySchool;
+else if (linkedSchool) facultySchool.value = linkedSchool;
 get('faculty-filters').addEventListener('submit', event => event.preventDefault());
 facultyQuery.addEventListener('input', renderFaculty);
-facultySchool.addEventListener('change', renderFaculty);
+facultySchool.addEventListener('change', () => {
+  const url = new URL(location.href);
+  if (facultySchool.value) url.searchParams.set('school', facultySchool.value);
+  else url.searchParams.delete('school');
+  url.hash = '';
+  history.replaceState(null, '', url);
+  renderFaculty();
+});
 renderFaculty();
+if (facultyTarget) document.getElementById(location.hash.slice(1))?.scrollIntoView();

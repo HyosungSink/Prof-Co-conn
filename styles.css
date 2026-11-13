@@ -244,7 +244,10 @@ dialog::backdrop { background: #211b3277; }
 .faculty-school-count { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .faculty-school-group { border-radius: 5px; padding: 3px 8px; color: var(--brand-dark); background: var(--lavender); font-size: 11px; }
 .faculty-school-body { border-top: 1px solid var(--rule); padding-inline: 19px; }
-.faculty-unit { padding: 16px 0; }
+.faculty-unit-index { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 0; padding: 12px 0; list-style: none; border-bottom: 1px solid var(--rule); }
+.faculty-unit-index a { display: block; padding: 4px 8px; border-radius: 5px; color: var(--brand-dark); background: var(--lavender); font-size: 12px; text-decoration: none; }
+.faculty-unit-index a:hover { text-decoration: underline; }
+.faculty-unit { padding: 16px 0; scroll-margin-top: 16px; }
 .faculty-unit + .faculty-unit { border-top: 1px solid var(--rule); }
 .faculty-unit-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 7px 16px; }
 .faculty-unit-head h2 { font-size: 15px; margin-bottom: 3px; }
