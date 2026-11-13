@@ -3,11 +3,7 @@ const schoolNames = new Map(survey.schools.map(([name, aliases]) => [name, alias
 const paperIndex = buildPaperIndex(survey.records, paperLeads, new Map(facultyMetrics.profiles));
 const recordById = new Map(paperIndex.records.map((record) => [record.id, record]));
 const numberConfirmed = (records) => records.filter((record) => !record.gap).length;
-const companyRecords = new Map(survey.companies.map(([company]) => [
-  company, paperIndex.records.filter((record) => !record.attributionPending && record.company === company),
-]));
 const state = { query: get('query'), company: get('company'), school: get('school'), status: get('status') };
-const plotButtons = new Map();
 const detail = get('detail');
 
 function badge(record) {
@@ -150,44 +146,29 @@ function renderResults() {
   get('result-count').textContent = `${records.length} 篇论文 · ${confirmed} 对已确认`
     + (confirmed < records.length ? ` · ${records.length - confirmed} 篇待核验` : '');
   get('clear-filters').hidden = !(terms.length || company || school || status);
-  for (const [name, button] of plotButtons) button.setAttribute('aria-pressed', String(company === name));
 }
 
 function resetFilters() {
   for (const input of Object.values(state)) input.value = '';
+  syncCompanyUrl();
   renderResults();
 }
 
-function renderCompanyPlot() {
-  for (const [name] of survey.companies) {
-    const records = companyRecords.get(name);
-    const known = numberConfirmed(records);
-    const pending = records.length - known;
-    const button = element('button', '', 'plot-cell');
-    button.type = 'button';
-    const dots = element('span', '', 'dots');
-    dots.setAttribute('aria-hidden', 'true');
-    for (const record of records) dots.append(element('i', '', record.gap ? 'dot candidate' : 'dot'));
-    button.append(element('span', name), dots);
-    button.setAttribute('aria-label', `${name}，${known} 条已确认，${pending} 条待核验`);
-    button.addEventListener('click', () => {
-      state.company.value = state.company.value === name ? '' : name;
-      renderResults();
-      get('connections').scrollIntoView();
-      state.company.focus({ preventScroll: true });
-    });
-    plotButtons.set(name, button);
-    get('company-plot').append(button);
-  }
+function syncCompanyUrl() {
+  if (location.protocol === 'file:') return;
+  const url = new URL(location.href);
+  if (state.company.value) url.searchParams.set('company', state.company.value);
+  else url.searchParams.delete('company');
+  if (url.href !== location.href) history.replaceState(null, '', url);
 }
 
-get('confirmed-count').textContent = numberConfirmed(paperIndex.records);
-get('company-count').textContent = survey.companies.length;
-get('school-count').textContent = survey.schools.length;
 addOptions(state.company, survey.companies);
 addOptions(state.school, survey.schools);
+const linkedCompany = new URLSearchParams(location.search).get('company');
+if (companyNames.has(linkedCompany)) state.company.value = linkedCompany;
 get('filters').addEventListener('submit', (event) => event.preventDefault());
 state.query.addEventListener('input', renderResults);
+state.company.addEventListener('change', syncCompanyUrl);
 for (const input of [state.company, state.school, state.status, get('sort')]) input.addEventListener('change', renderResults);
 for (const id of ['clear-filters', 'empty-reset']) get(id).addEventListener('click', resetFilters);
 detail.addEventListener('click', (event) => {
@@ -196,5 +177,4 @@ detail.addEventListener('click', (event) => {
     if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) detail.close();
   }
 });
-renderCompanyPlot();
 renderResults();

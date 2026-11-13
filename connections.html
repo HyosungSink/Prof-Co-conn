@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
+  <title>关系索引 · AI 研究 Connection</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="leads.js" defer></script>
+  <script src="h-index.js" defer></script>
+  <script src="papers.js" defer></script>
+  <script src="ui.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a>
+      <nav aria-label="页面导航">
+        <a href="connections.html" aria-current="page">关系索引</a>
+        <a href="leads.html">合著线索</a>
+        <a href="method.html">核验口径</a>
+      </nav>
+    </div>
+  </header>
+  <main id="top" class="container standalone">
+    <section id="connections" class="main-section" aria-labelledby="connection-title">
+      <div class="section-head">
+        <div><h1 id="connection-title">关系索引</h1><p>每篇论文计一对关系，按归属教师及其对应的校企合作列出</p></div>
+        <button id="clear-filters" class="text-button" type="button" hidden>清除筛选</button>
+      </div>
+      <form id="filters" class="filters" role="search" aria-label="筛选关系">
+        <label class="search"><span>搜索</span><input id="query" type="search" placeholder="论文、作者或研究方向"></label>
+        <label><span>企业</span><select id="company"><option value="">全部企业</option></select></label>
+        <label><span>高校</span><select id="school"><option value="">全部高校</option></select></label>
+        <label><span>状态</span><select id="status"><option value="">全部状态</option><option value="confirmed">已确认</option><option value="candidate">待核验</option></select></label>
+      </form>
+      <div class="result-bar"><p id="result-count" aria-live="polite"></p><label for="sort">排序 <select id="sort"><option value="evidence">已确认优先</option><option value="newest">发表时间从近到远</option><option value="oldest">发表时间从远到近</option></select></label></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">企业与团队</th><th scope="col">高校与教师</th><th scope="col">代表论文</th><th scope="col">核验状态</th><th scope="col"><span class="sr-only">详情</span></th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <div id="empty" class="empty" hidden>当前筛选下没有记录。<button id="empty-reset" class="text-button" type="button">清除筛选</button></div>
+      </div>
+    </section>
+  </main>
+  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>公开资料核验 · 截至 2026 年 11 月 12 日</span></footer>
+
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="dialog-head"><div id="detail-status"></div><form method="dialog"><button class="close" aria-label="关闭详情">×</button></form></div>
+    <div id="detail-body"></div>
+  </dialog>
+  <noscript><p class="container">请启用 JavaScript 查看关系索引及证据。</p></noscript>
+</body>
+</html>

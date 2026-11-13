@@ -24,7 +24,8 @@
 
 ## 浏览网站
 
-- [关系索引](https://hyosungsink.github.io/Prof-Co-conn/)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据，点击企业分布图可按企业筛选。
+- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览和企业证据分布。点击图中的企业，打开该企业的关系索引。
+- [关系索引](https://hyosungsink.github.io/Prof-Co-conn/connections.html)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据。
 - [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)可按题名、企业或高校检索，查看每篇论文还需要补充哪些证据。
 - [核验口径](https://hyosungsink.github.io/Prof-Co-conn/method.html)说明确认条件、论文归属规则和高校范围。
 
@@ -46,7 +47,8 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`leads.js`](leads.js) | 合著论文线索、关联机构和待核验事项 |
 | [`h-index.js`](h-index.js) | 参与归属比较的教师、Google 学术档案标识和总 H 指数快照 |
 | [`papers.js`](papers.js) | 论文识别、去重与归属规则 |
-| [`index.html`](index.html)、[`app.js`](app.js) | 关系索引、企业分布图、筛选与证据详情 |
+| [`index.html`](index.html)、[`home.js`](home.js) | 首页概览和企业分布图 |
+| [`connections.html`](connections.html)、[`app.js`](app.js) | 关系索引、筛选与证据详情 |
 | [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
