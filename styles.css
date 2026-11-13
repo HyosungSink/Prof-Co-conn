@@ -387,7 +387,9 @@ dialog::backdrop { background: #211b3277; }
 .unit-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 9px; }
 .unit-picker { min-width: 0; }
 .unit-picker select { width: 100%; max-width: 240px; min-height: 31px; padding: 0 6px; border: 1px solid var(--rule); border-radius: 6px; background: var(--white); color: var(--ink); font-size: 12px; }
-.unit-map-key { margin-left: auto; color: var(--muted); white-space: nowrap; font-size: 11px; }
+.unit-map-key { margin-left: auto; display: flex; align-items: center; gap: 7px; color: var(--muted); white-space: nowrap; font-size: 11px; }
+.unit-map-key span { display: inline-flex; align-items: center; gap: 3px; }
+.unit-map-key i { width: 9px; height: 9px; border-radius: 2px; }
 .unit-plot { flex: 1; min-height: 0; position: relative; }
 #unit-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; cursor: crosshair; }
 #unit-canvas:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }

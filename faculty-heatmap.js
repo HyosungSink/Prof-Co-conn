@@ -5,6 +5,15 @@ const facultySchoolColors = [
   '#975a35', '#8c9fd7', '#b26156', '#1873a2', '#d2b85f'
 ];
 
+// Mix toward white or black without changing the school's hue.
+function facultySchoolShades(color) {
+  const channels = color.slice(1).match(/../g).map(channel => parseInt(channel, 16));
+  return [.55, .28, 0, -.24].map(lightness => '#' + channels.map(channel => {
+    const target = lightness < 0 ? 0 : 255;
+    return Math.round(channel + (target - channel) * Math.abs(lightness)).toString(16).padStart(2, '0');
+  }).join(''));
+}
+
 /* Grid traversal adapted from https://github.com/jakubcerveny/gilbert
 
 BSD 2-Clause License
@@ -78,8 +87,9 @@ function renderFacultyUnits() {
   const readout = get('unit-summary');
   const link = get('unit-directory-link');
   const swatch = get('unit-school-swatch');
+  const legend = [...document.querySelectorAll('.unit-map-key i')];
   const format = new Intl.NumberFormat('zh-CN');
-  const colors = new Map(survey.schools.map(([name], index) => [name, facultySchoolColors[index]]));
+  const colors = new Map(survey.schools.map(([name], index) => [name, facultySchoolShades(facultySchoolColors[index])]));
   const schools = facultyPlotStats.map(([name, count, , rows]) => ({
     name, count, color: colors.get(name), units: rows.map(([name, rows]) => ({ name, rows }))
   }));
@@ -106,7 +116,9 @@ function renderFacultyUnits() {
     const unit = inspected?.unit || selectedUnit;
     const params = new URLSearchParams();
     swatch.hidden = !school;
-    swatch.style.background = school?.color || '';
+    swatch.style.background = school?.color[inspected?.score ?? 2] || '';
+    const legendColors = school?.color || colors.values().next().value;
+    legend.forEach((chip, score) => { chip.style.background = legendColors[score]; });
     if (school) params.set('school', school.name);
     if (unit) params.set(school.name === instituteSchool ? 'institute' : 'department', unit.name);
     if (inspected) params.set('q', inspected.name);
@@ -145,7 +157,7 @@ function renderFacultyUnits() {
     const size = step - Math.min(.95, step * .16);
     for (const { entry, x, y } of tiles) {
       context.globalAlpha = matchesSelection(entry) ? 1 : .2;
-      context.fillStyle = entry.school.color;
+      context.fillStyle = entry.school.color[entry.score];
       context.fillRect(x, y, size, size);
     }
     context.globalAlpha = 1;

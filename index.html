@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=0dc53253ee08">
+  <link rel="stylesheet" href="styles.css?v=ee3a5b6bb69c">
   <script>
     function redirectLegacySection() {
       const pages = new Map([
@@ -19,15 +19,15 @@
     addEventListener('hashchange', redirectLegacySection);
     redirectLegacySection();
   </script>
-  <script src="data.js?v=0dc53253ee08" defer></script>
-  <script src="leads.js?v=0dc53253ee08" defer></script>
-  <script src="h-index.js?v=0dc53253ee08" defer></script>
-  <script src="papers.js?v=0dc53253ee08" defer></script>
-  <script src="ui.js?v=0dc53253ee08" defer></script>
-  <script src="faculty-plot-data.js?v=0dc53253ee08" defer></script>
-  <script src="faculty-plot.js?v=0dc53253ee08" defer></script>
-  <script src="faculty-heatmap.js?v=0dc53253ee08" defer></script>
-  <script src="home.js?v=0dc53253ee08" defer></script>
+  <script src="data.js?v=ee3a5b6bb69c" defer></script>
+  <script src="leads.js?v=ee3a5b6bb69c" defer></script>
+  <script src="h-index.js?v=ee3a5b6bb69c" defer></script>
+  <script src="papers.js?v=ee3a5b6bb69c" defer></script>
+  <script src="ui.js?v=ee3a5b6bb69c" defer></script>
+  <script src="faculty-plot-data.js?v=ee3a5b6bb69c" defer></script>
+  <script src="faculty-plot.js?v=ee3a5b6bb69c" defer></script>
+  <script src="faculty-heatmap.js?v=ee3a5b6bb69c" defer></script>
+  <script src="home.js?v=ee3a5b6bb69c" defer></script>
 </head>
 <body class="home-page">
   <header class="topbar">
@@ -99,12 +99,18 @@
         <section class="home-slide home-unit-slide faculty-distribution" aria-labelledby="faculty-unit-title" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-unit-title">院系／研究所教师分布</h2>
-            <p>一人一块，同校同色。点按瓷砖可查看教师及所属单位。</p>
+            <p>一人一块，色相区分高校，同校颜色越深表示已核实项数越多。</p>
           </div>
           <div class="unit-toolbar">
             <label class="unit-picker"><span class="sr-only">高亮高校</span><select id="unit-school"><option value="">全部高校</option></select></label>
             <label class="unit-picker"><span class="sr-only">高亮院系或研究所</span><select id="unit-group" disabled><option value="">全部院系／研究所</option></select></label>
-            <p class="unit-map-key">颜色区分高校</p>
+            <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作">
+              <span>已核实项数</span>
+              <span><i aria-hidden="true"></i>0</span>
+              <span><i aria-hidden="true"></i>1</span>
+              <span><i aria-hidden="true"></i>2</span>
+              <span><i aria-hidden="true"></i>3</span>
+            </div>
           </div>
           <div id="unit-plot" class="unit-plot">
             <canvas id="unit-canvas" tabindex="0" role="img" aria-label="全部高校教师热力图。用上下键查看教师。"></canvas>
