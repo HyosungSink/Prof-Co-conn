@@ -8843,6 +8843,86 @@ const survey = {
       ],
       evidence: '葛钰峣在第一方履历的月之暗面强化学习团队实习条目下，把研究项目直接链接到此篇代码智能体综述。论文同时列出博士导师刘盛华和刘天宇；同一学生的项目署名清单将刘天宇链接到自述曾任 Kimi 研究员、同期以 Moonshot AI 署名发表 Kimi-Dev 的同一人。',
       advising: [ '博士导师', '葛钰峣的个人学术主页明确列刘盛华为博士导师；论文首页将刘盛华列为通讯作者，师生皆有国科大署名。', 'https://www.geyuyao.com/' ]
+    },
+    {
+      company: '月之暗面（Kimi）',
+      team: 'AI Infra',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      employee: [
+        '许欣然 · Xinran Xu',
+        '2024 年任月之暗面工程副总裁，负责模型训练、推理和基础设施部门；会议主办方还列明其带队研发 Mooncake，原文为月之暗面通讯作者。',
+        'https://china2024.gosim.org/speakers/xinran-xu.html'
+      ],
+      student: [
+        '秦若愚 · Ruoyu Qin',
+        '清华大学计算机系博士生；本人简历记载 2023 年 9 月起在月之暗面 AI Infra 科研实习，正式论文首页具名注明其在该公司实习期间完成所署工作。',
+        'https://qinruoyu.com/static/media/cv-qinruoyu.pdf'
+      ],
+      title: 'Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot',
+      short: 'Mooncake',
+      date: '2025-02',
+      venue: 'USENIX FAST',
+      area: 'AI 系统',
+      paper: 'https://www.usenix.org/system/files/fast25-qin.pdf',
+      extra: [
+        [ 'USENIX 正式发表与署名', 'https://www.usenix.org/conference/fast25/presentation/qin' ],
+        [ '清华大学报道：校内团队与第一作者', 'https://www.tsinghua.edu.cn/info/1175/117420.htm' ],
+        [ '清华大学英文简报：三位教师共同带队', 'https://www.tsinghua.edu.cn/en/pdf/Tsinghua_Newsletter_2025_Q1.pdf#page=17' ],
+        [ '项目团队具名获奖名单', 'https://e.huawei.com/cn/topic/storage/olympus-mons-awards-2024' ]
+      ],
+      id: 'mooncake-thu-yongwei-wu',
+      faculty: [
+        '武永卫 · Yongwei Wu',
+        '清华大学计算机科学与技术系教授。清华计算机系将 Mooncake 及其相关大模型推理系统列为武永卫教授带领的团队成果，USENIX 正式版同篇署名。',
+        'https://www.cs.tsinghua.edu.cn/info/1107/3508.htm'
+      ],
+      evidence: 'FAST 原文首页具名确认第一作者秦若愚的贡献完成于月之暗面实习；武永卫与月之暗面工程副总裁许欣然同篇署名。清华将这一具名校企论文归于三位教师共同带队的工作，另以武永卫教授团队名义记录同一成果，并具名列秦若愚为项目获奖成员。',
+      advising: [
+        '校方项目带队教师',
+        '清华计算机系具名将 Mooncake 列为武永卫团队成果，并列出学生秦若愚为获奖成员；校方同篇报道另明确秦若愚的学位导师是章明星。',
+        'https://www.cs.tsinghua.edu.cn/info/1034/6907.htm'
+      ]
+    },
+    {
+      company: '月之暗面（Kimi）',
+      team: 'AI Infra',
+      school: '清华大学',
+      studentSchool: '清华大学',
+      employee: [
+        '许欣然 · Xinran Xu',
+        '2024 年任月之暗面工程副总裁，负责模型训练、推理和基础设施部门；会议主办方还列明其带队研发 Mooncake，原文为月之暗面通讯作者。',
+        'https://china2024.gosim.org/speakers/xinran-xu.html'
+      ],
+      student: [
+        '秦若愚 · Ruoyu Qin',
+        '清华大学计算机系博士生；本人简历记载 2023 年 9 月起在月之暗面 AI Infra 科研实习，正式论文首页具名注明其在该公司实习期间完成所署工作。',
+        'https://qinruoyu.com/static/media/cv-qinruoyu.pdf'
+      ],
+      title: 'Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot',
+      short: 'Mooncake',
+      date: '2025-02',
+      venue: 'USENIX FAST',
+      area: 'AI 系统',
+      paper: 'https://www.usenix.org/system/files/fast25-qin.pdf',
+      extra: [
+        [ 'USENIX 正式发表与署名', 'https://www.usenix.org/conference/fast25/presentation/qin' ],
+        [ '清华大学报道：校内团队与第一作者', 'https://www.tsinghua.edu.cn/info/1175/117420.htm' ],
+        [ '清华大学英文简报：三位教师共同带队', 'https://www.tsinghua.edu.cn/en/pdf/Tsinghua_Newsletter_2025_Q1.pdf#page=17' ],
+        [ '项目团队具名获奖名单', 'https://e.huawei.com/cn/topic/storage/olympus-mons-awards-2024' ]
+      ],
+      id: 'mooncake-thu-weimin-zheng',
+      faculty: [
+        '郑纬民 · Weimin Zheng',
+        '清华大学计算机科学与技术系教授、中国工程院院士。清华新闻具名将其列为与月之暗面合作发表该论文的校方教师，USENIX 正式版同篇署名。',
+        'https://www.cs.tsinghua.edu.cn/info/1107/3505.htm'
+      ],
+      evidence: 'FAST 原文首页具名确认第一作者秦若愚的贡献完成于月之暗面实习；郑纬民与月之暗面工程副总裁许欣然同篇署名。清华大学英文简报明确写出三位教师带领校方团队完成这一论文，获奖项目名单亦具名包含郑纬民和秦若愚。',
+      advising: [
+        '校方项目带队教师',
+        '清华官方英文简报具名确认郑纬民与章明星、武永卫共同带领校方团队完成 Mooncake 论文，并单列第一作者秦若愚的学位导师为章明星。',
+        'https://www.tsinghua.edu.cn/en/pdf/Tsinghua_Newsletter_2025_Q1.pdf#page=17'
+      ]
     }
   ]
 };
