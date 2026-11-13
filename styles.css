@@ -63,6 +63,17 @@ h1 em { font-family: Georgia, "Times New Roman", serif; font-weight: 500; color:
 .plot-cell:hover { border-color: #b49cd8; background: #efe6fa; }
 .plot-label { flex-shrink: 0; max-width: 48%; overflow-wrap: anywhere; }
 .dots { display: inline-flex; flex-wrap: wrap; justify-content: flex-end; gap: 3px; flex: 0 1 auto; min-width: 0; }
+.school-distribution { margin-top: 20px; padding: 18px; border: 1px solid #e8def2; border-radius: 13px; background: var(--white); }
+.school-distribution h2 { font-size: 18px; }
+.school-distribution p { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.school-plot { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 14px; }
+.school-plot .plot-cell { display: grid; grid-template-columns: 10.5em minmax(0, 1fr) minmax(3em, auto); gap: 8px; min-height: 36px; padding: 5px 9px; font-size: 12px; }
+.school-plot .plot-label { max-width: none; }
+.school-bar { display: flex; height: 7px; overflow: hidden; border-radius: 6px; background: #ebe4f4; }
+.bar-known { background: #7756bc; }
+.bar-pending { background: #b3812b; }
+.plot-count { text-align: right; font-weight: 650; font-variant-numeric: tabular-nums; color: var(--brand-dark); }
+.plot-pending { margin-left: 3px; color: var(--candidate); }
 .main-section { margin-top: 37px; scroll-margin-top: 16px; }
 .section-head { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
 .section-head h2 { font-size: clamp(23px, 2.8vw, 34px); letter-spacing: -.045em; line-height: 1.15; }
@@ -142,6 +153,7 @@ dialog::backdrop { background: #211b3277; }
   .hero { grid-template-columns: 1fr; gap: 22px; }
   h1 { font-size: clamp(37px, 7vw, 61px); }
   .hero-plot { width: 100%; }
+  .school-plot { grid-template-columns: 1fr; }
   .filters { grid-template-columns: 1fr 1fr; }
   .method-grid { grid-template-columns: 1fr; gap: 13px; }
 }
@@ -155,6 +167,8 @@ dialog::backdrop { background: #211b3277; }
   .hero-plot { padding: 10px; }
   .company-plot { gap: 4px; }
   .plot-cell { min-height: 40px; }
+  .school-distribution { margin-top: 14px; padding: 10px; }
+  .school-plot .plot-cell { min-height: 40px; }
   .main-section { margin-top: 28px; }
   table, tbody, tr, td { display: block; }
   thead { position: absolute; clip-path: inset(50%); width: 1px; height: 1px; overflow: hidden; }

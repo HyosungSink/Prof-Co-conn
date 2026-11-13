@@ -150,25 +150,30 @@ function renderResults() {
 
 function resetFilters() {
   for (const input of Object.values(state)) input.value = '';
-  syncCompanyUrl();
+  syncInstitutionUrl();
   renderResults();
 }
 
-function syncCompanyUrl() {
+function syncInstitutionUrl() {
   if (location.protocol === 'file:') return;
   const url = new URL(location.href);
-  if (state.company.value) url.searchParams.set('company', state.company.value);
-  else url.searchParams.delete('company');
+  for (const key of ['company', 'school']) {
+    if (state[key].value) url.searchParams.set(key, state[key].value);
+    else url.searchParams.delete(key);
+  }
   if (url.href !== location.href) history.replaceState(null, '', url);
 }
 
 addOptions(state.company, survey.companies);
 addOptions(state.school, survey.schools);
-const linkedCompany = new URLSearchParams(location.search).get('company');
-if (companyNames.has(linkedCompany)) state.company.value = linkedCompany;
+const linkedFilters = new URLSearchParams(location.search);
+for (const [key, names] of [['company', companyNames], ['school', schoolNames]]) {
+  const linked = linkedFilters.get(key);
+  if (names.has(linked)) state[key].value = linked;
+  state[key].addEventListener('change', syncInstitutionUrl);
+}
 get('filters').addEventListener('submit', (event) => event.preventDefault());
 state.query.addEventListener('input', renderResults);
-state.company.addEventListener('change', syncCompanyUrl);
 for (const input of [state.company, state.school, state.status, get('sort')]) input.addEventListener('change', renderResults);
 for (const id of ['clear-filters', 'empty-reset']) get(id).addEventListener('click', resetFilters);
 detail.addEventListener('click', (event) => {
