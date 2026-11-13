@@ -8164,6 +8164,134 @@ const survey = {
       ],
       evidence: '学生主页列出企业实习与同一期间公开的 WebExplorer，港科大官方项目仓库明确该篇是双方合作。MiniMax 技术报告将这套网页检索智能体作为 M2 搜索方向的评测框架；本项目与 SynLogic 的逻辑题训练项目分别有公开研发用途。',
       advising: [ '博士导师', '何俊贤课题组公开名录将 Junteng Liu 列为博士生，学生主页亦具名确认。', 'https://jxhe.github.io/group/' ]
+    },
+    {
+      company: '腾讯',
+      team: 'PCG · 腾讯视频 AI 技术中心',
+      studentSchool: '北京邮电大学',
+      employee: [
+        '陈曦 · Xi Chen',
+        '腾讯视频智能创作平台部算法专家，论文中署腾讯 PCG 在线视频事业部 AI 技术中心；此前个人主页亦披露在腾讯担任高级研究员。',
+        'https://www.ctpia.com.cn/mobile/Hyxx/detail/id/464.html'
+      ],
+      student: [ '张沛瑄 · Peixuan Zhang', '北京邮电大学人工智能学院在读博士生。同期会议演讲人简介列出在腾讯研究团队实习；本论文第一作者脚注具体指向腾讯 PCG。', 'https://zhidx.com/p/555802.html' ],
+      title: 'A Benchmark and Multi-Agent System for Instruction-driven Cinematic Video Compilation',
+      short: 'CineAgents',
+      date: '2026-09',
+      venue: 'ECCV',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2604.10456v1',
+      extra: [
+        [ '2025 年学术期刊作者简介', 'https://pub-e7bc7e5ed67b401a8e9e587c3dee22b6.r2.dev/publications/2025/Zhang_TPAMI25.pdf' ],
+        [ '中国计算机学会 2023 年作者简介所载既往指导关系', 'https://tc.ccf.org.cn/upload/resources/file/2024/02/27/5740efa88f5bf2bece0bf93d6dd6742b.pdf' ],
+        [ '同期行业报告：腾讯视频智能创作岗位及项目', 'https://www.cdut.edu.cn/__local/7/20/13/C34976723F26343861732D86AB2_EA5B70E7_15C76B5.pdf' ],
+        [ '同篇作者的 ECCV 2026 发表记录', 'https://shuchenweng.github.io/' ]
+      ],
+      evidence: '论文将腾讯 PCG 实习脚注附于第一作者，企业共同作者署腾讯视频 AI 技术中心。同期演讲人简介确认张沛瑄在北邮攻读博士、在腾讯实习，并具名列出两位同篇高校指导者。',
+      advising: [ '博士共同指导', '张沛瑄的同期会议演讲人简介具名列出李思与施柏鑫为其博士导师。', 'https://zhidx.com/p/555802.html' ],
+      id: 'cineagents-tencent-bupt-si-li',
+      school: '北京邮电大学',
+      faculty: [ '李思 · Si Li', '北京邮电大学人工智能学院副教授、博士生导师，论文署北邮并任通讯作者。', 'https://jwbs.bupt.edu.cn/info/1054/1335.htm' ]
+    },
+    {
+      company: '腾讯',
+      team: 'PCG · 腾讯视频 AI 技术中心',
+      studentSchool: '北京邮电大学',
+      employee: [
+        '陈曦 · Xi Chen',
+        '腾讯视频智能创作平台部算法专家，论文中署腾讯 PCG 在线视频事业部 AI 技术中心；此前个人主页亦披露在腾讯担任高级研究员。',
+        'https://www.ctpia.com.cn/mobile/Hyxx/detail/id/464.html'
+      ],
+      student: [ '张沛瑄 · Peixuan Zhang', '北京邮电大学人工智能学院在读博士生。同期会议演讲人简介列出在腾讯研究团队实习；本论文第一作者脚注具体指向腾讯 PCG。', 'https://zhidx.com/p/555802.html' ],
+      title: 'A Benchmark and Multi-Agent System for Instruction-driven Cinematic Video Compilation',
+      short: 'CineAgents',
+      date: '2026-09',
+      venue: 'ECCV',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2604.10456v1',
+      extra: [
+        [ '2025 年学术期刊作者简介', 'https://pub-e7bc7e5ed67b401a8e9e587c3dee22b6.r2.dev/publications/2025/Zhang_TPAMI25.pdf' ],
+        [ '同期行业报告：腾讯视频智能创作岗位及项目', 'https://www.cdut.edu.cn/__local/7/20/13/C34976723F26343861732D86AB2_EA5B70E7_15C76B5.pdf' ],
+        [ '同篇作者的 ECCV 2026 发表记录', 'https://shuchenweng.github.io/' ]
+      ],
+      evidence: '论文将腾讯 PCG 实习脚注附于第一作者，企业共同作者署腾讯视频 AI 技术中心。同期演讲人简介确认张沛瑄在北邮攻读博士、在腾讯实习，并具名列出两位同篇高校指导者。',
+      advising: [ '博士共同指导', '张沛瑄的同期会议演讲人简介具名列出李思与施柏鑫为其博士导师。', 'https://zhidx.com/p/555802.html' ],
+      id: 'cineagents-tencent-pku-boxin-shi',
+      school: '北京大学',
+      faculty: [ '施柏鑫 · Boxin Shi', '北京大学计算机学院长聘副教授、研究员、博士生导师，论文署北大。', 'https://cs.pku.edu.cn/info/1089/1812.htm' ]
+    },
+    {
+      company: '腾讯',
+      team: '优图天衍研究中心（Jarvis）',
+      studentSchool: '西安交通大学',
+      title: 'When MOE Meets LLMs: Parameter Efficient Fine-tuning for Multi-task Medical Applications',
+      short: 'MoELoRA',
+      date: '2024-07',
+      venue: 'SIGIR',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2310.18339v2',
+      employee: [ '吴宪 · Xian Wu', '2017 年 12 月加入腾讯，任天衍研究中心主任、专家研究员。原文署腾讯优图天衍并任通讯作者。', 'https://jarvislab.tencent.com/index-en.html' ],
+      student: [
+        '刘启东 · Qidong Liu',
+        '2019 年 9 月至 2025 年 6 月在西安交大读博，2022 年 9 月起与港城联合培养；2023 年 5 月至 2024 年 8 月在腾讯天衍实习。',
+        'https://liuqidong07.github.io/'
+      ],
+      evidence: '刘启东的同期简历将本论文列为 2023 年 6 至 10 月在腾讯天衍开展的医疗大模型项目成果，并列吴宪为企业指导者。原文首页列两位博士导师及腾讯天衍的吴宪。学生学籍为西安交大，同时在香港城市大学联培。',
+      extra: [
+        [ '同期简历：企业实习、项目和论文', 'https://liuqidong07.github.io/cv/resume_20240326.pdf' ],
+        [ '腾讯天衍发表目录', 'https://jarvislab.tencent.com/aca-publications-conference-6.html' ],
+        [ 'ACM 正式论文', 'https://doi.org/10.1145/3626772.3657722' ]
+      ],
+      id: 'moelora-tencent-xjtu-feng-tian',
+      school: '西安交通大学',
+      faculty: [ '田锋 · Feng Tian', '西安交通大学教师、博士生导师，原文署西安交大并任通讯作者。', 'https://faculty.xjtu.edu.cn/fengtian/zh_CN/zhym/976524/list/index.htm' ],
+      advising: [ '博士导师', '刘启东本人履历明确列田锋为西安交大博士导师。', 'https://liuqidong07.github.io/' ]
+    },
+    {
+      company: '腾讯',
+      team: '优图天衍研究中心（Jarvis）',
+      studentSchool: '西安交通大学',
+      title: 'When MOE Meets LLMs: Parameter Efficient Fine-tuning for Multi-task Medical Applications',
+      short: 'MoELoRA',
+      date: '2024-07',
+      venue: 'SIGIR',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2310.18339v2',
+      employee: [ '吴宪 · Xian Wu', '2017 年 12 月加入腾讯，任天衍研究中心主任、专家研究员。原文署腾讯优图天衍并任通讯作者。', 'https://jarvislab.tencent.com/index-en.html' ],
+      student: [
+        '刘启东 · Qidong Liu',
+        '2019 年 9 月至 2025 年 6 月在西安交大读博，2022 年 9 月起与港城联合培养；2023 年 5 月至 2024 年 8 月在腾讯天衍实习。',
+        'https://liuqidong07.github.io/'
+      ],
+      evidence: '刘启东的同期简历将本论文列为 2023 年 6 至 10 月在腾讯天衍开展的医疗大模型项目成果，并列吴宪为企业指导者。原文首页列两位博士导师及腾讯天衍的吴宪。学生学籍为西安交大，同时在香港城市大学联培。',
+      extra: [
+        [ '同期简历：企业实习、项目和论文', 'https://liuqidong07.github.io/cv/resume_20240326.pdf' ],
+        [ '腾讯天衍发表目录', 'https://jarvislab.tencent.com/aca-publications-conference-6.html' ],
+        [ 'ACM 正式论文', 'https://doi.org/10.1145/3626772.3657722' ]
+      ],
+      id: 'moelora-tencent-cityu-xiangyu-zhao',
+      school: '香港城市大学',
+      faculty: [ '赵翔宇 · Xiangyu Zhao', '香港城市大学数据科学学院教师，原文署港城并任通讯作者。', 'https://www.cityu.edu.hk/stfprofile/xyzhao.htm' ],
+      advising: [ '博士联培导师', '刘启东本人履历列赵翔宇为香港城市大学的博士联培导师。', 'https://liuqidong07.github.io/' ]
+    },
+    {
+      id: 'loco-tencent-xjtu-weizhan-zhang',
+      company: '腾讯',
+      team: '微信 AI（WeChat AI）',
+      school: '西安交通大学',
+      studentSchool: '西安交通大学',
+      title: 'Think Less, Locally: Local Preference Learning for Reasoning Compression',
+      short: 'LoCo',
+      date: '2026-11',
+      venue: 'arXiv',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2611.04814v1',
+      faculty: [ '张未展 · Weizhan Zhang', '西安交通大学教师，原文署西安交大并任通讯作者。', 'https://gr.xjtu.edu.cn/en/web/zhangwzh123' ],
+      employee: [ 'Liyan Xu', '腾讯微信 AI 高级研究员；论文署 WeChat AI, Tencent Inc.，具名为项目负责人并留腾讯邮箱。', 'https://lxucs.github.io/' ],
+      student: [ '袁慕遥 · Muyao Yuan', '西安交通大学在读博士，2026 年 3 月起在腾讯微信 AI 实习，个人主页将本篇列为实习研究同期成果。', 'https://muyaoyuan.github.io/' ],
+      evidence: '第一共同作者袁慕遥有具名的微信 AI 项目脚注。论文同时列其西安交大导师张未展和腾讯微信 AI 项目负责人 Liyan Xu。',
+      advising: [ '博士导师', '袁慕遥个人学术主页在博士经历中具名列出张未展为导师。', 'https://muyaoyuan.github.io/' ],
+      extra: [ [ '预印本索引', 'https://arxiv.org/abs/2611.04814' ], [ '作者公开的项目代码', 'https://github.com/MuyaoYuan/LoCo' ] ]
     }
   ]
 };
