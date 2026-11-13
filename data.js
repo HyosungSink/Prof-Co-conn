@@ -8724,6 +8724,34 @@ const survey = {
       ],
       evidence: '西工大公开材料具名记录在读硕士项末初在戴玉超指导下参加与华为诺亚方舟实验室的联合团队，研发的方案名为 Megatron_RVC。IJCV 原文明确刊载同一获奖方案；项末初、戴玉超与华为正式研究人员张镇嵩同篇署名。西工大未披露实习岗位或合同，依据是学校公开的具名校企联合研究项目。',
       advising: [ '硕士导师及校企项目指导', '西北工业大学研究生院具名列项末初师从戴玉超教授，校方新闻同时列戴玉超为同一 Megatron_RVC 项目校企联合队伍的指导者。', 'https://xygg.nwpu.edu.cn/info/1007/28437.htm' ]
+    },
+    {
+      id: 'simpleseg-kimi-nju-limin-wang',
+      company: '月之暗面（Kimi）',
+      team: 'Kimi · 多模态感知',
+      school: '南京大学',
+      studentSchool: '南京大学',
+      faculty: [ '王利民 · Limin Wang', '南京大学计算机学院教授、博士生导师；本论文署南京大学，第一作者本人具名称受其指导。', 'https://cs.nju.edu.cn/2f/cc/c2639a274380/page.htm' ],
+      employee: [ '吴昊宁 · Haoning Wu', '月之暗面 Kimi 多模态后训练研究员，自述在 Kimi 负责 Kimi-VL，并参与 K2.5 视觉后训练和 K3 联合强化学习；本论文署 Moonshot AI。', 'https://wuhaoning.com/' ],
+      student: [
+        '宋天惠 · Tianhui Song',
+        '南京大学研究生，校方研究组列为 2026 届毕业生。本人称受王利民指导；论文将他双署南京大学和月之暗面，并在其名字下注明本工作完成于在月之暗面的实习期间。',
+        'https://github.com/songtianhui#readme'
+      ],
+      title: 'Towards Pixel-Level VLM Perception via Simple Points Prediction',
+      short: 'SimpleSeg',
+      date: '2026-01',
+      venue: 'arXiv 预印本',
+      area: '视觉与多模态',
+      paper: 'https://arxiv.org/pdf/2601.19228v1',
+      extra: [
+        [ '南京大学研究组 2026 届名册', 'https://mcg.nju.edu.cn/alumni.html' ],
+        [ '首次公开日期与预印本索引', 'https://arxiv.org/abs/2601.19228' ],
+        [ '第一作者维护的项目代码', 'https://github.com/songtianhui/SimpleSeg' ],
+        [ '月之暗面官方论文页', 'https://huggingface.co/moonshotai/papers' ]
+      ],
+      evidence: '论文首页给宋天惠南京大学及 Moonshot AI 双署名，并具名标注论文工作在 Moonshot AI 实习中完成。本人明确公开其南大在读身份及导师王利民；同篇另有已在月之暗面任研究员的吴昊宁（与 MiniMax 的同音名研究者是不同人）。',
+      advising: [ '硕士生导师', '宋天惠在自己的 GitHub 学术档案（更新标注 2026 年 2 月）明确称在南京大学读研并受王利民指导。学校官方研究组同步列其为 2026 届。', 'https://github.com/songtianhui#readme' ]
     }
   ]
 };
