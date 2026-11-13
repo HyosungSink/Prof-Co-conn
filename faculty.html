@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
   <title>教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=fefecf34d50d">
-  <script src="data.js?v=fefecf34d50d" defer></script>
-  <script src="ui.js?v=fefecf34d50d" defer></script>
-  <script src="faculty-data.js?v=fefecf34d50d" defer></script>
-  <script src="faculty-rosters.js?v=fefecf34d50d" defer></script>
-  <script src="faculty-page.js?v=fefecf34d50d" defer></script>
+  <link rel="stylesheet" href="styles.css?v=aa20127be2db">
+  <script src="data.js?v=aa20127be2db" defer></script>
+  <script src="ui.js?v=aa20127be2db" defer></script>
+  <script src="faculty-data.js?v=aa20127be2db" defer></script>
+  <script src="faculty-rosters.js?v=aa20127be2db" defer></script>
+  <script src="faculty-page.js?v=aa20127be2db" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -33,7 +33,14 @@
         <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>
         <label><span id="faculty-department-label">院系</span><select id="faculty-department" aria-labelledby="faculty-department-label" disabled><option value="">请先选择高校</option></select></label>
       </form>
-      <div class="result-bar"><p id="faculty-count" aria-live="polite"></p></div>
+      <section id="faculty-distribution" class="hero-plot faculty-distribution" aria-labelledby="faculty-plot-title" hidden>
+        <div class="plot-head">
+          <h2 id="faculty-plot-title">高校教师名录分布</h2>
+          <span class="legend"><span><i aria-hidden="true"></i><span id="faculty-plot-scale"></span></span></span>
+        </div>
+        <div id="faculty-plot" class="faculty-plot"></div>
+      </section>
+      <div class="result-bar"><p id="faculty-count" aria-live="polite" tabindex="-1"></p></div>
       <div id="faculty-rosters" class="faculty-rosters"></div>
       <noscript><p class="empty">请启用 JavaScript 以浏览教师名录。</p></noscript>
     </section>

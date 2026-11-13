@@ -2,8 +2,50 @@ const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
+const facultyCount = get('faculty-count');
 const snapshot = mergeFacultyRosters(facultyDirectory.schools);
 const countFormat = new Intl.NumberFormat('zh-CN');
+const recordsPerDot = 25;
+const facultyPlotButtons = new Map();
+
+function buildFacultyPlot() {
+  const schools = survey.schools.map(([name]) => ({
+    name,
+    count: (snapshot[name] || []).reduce((sum, department) => sum + department.people.length, 0)
+  })).sort((a, b) => b.count - a.count);
+
+  for (const { name, count } of schools) {
+    const button = element('button', '', 'plot-cell faculty-plot-cell');
+    button.type = 'button';
+    button.setAttribute('aria-label', `${name}，${countFormat.format(count)} 条院系名录记录`);
+    button.setAttribute('aria-controls', 'faculty-rosters');
+    const dots = element('span', '', 'dots');
+    dots.setAttribute('aria-hidden', 'true');
+    for (let remaining = count; remaining > 0; remaining -= recordsPerDot) {
+      const dot = element('i', '', 'dot');
+      if (remaining < recordsPerDot) {
+        dot.classList.add('faculty-dot-partial');
+        dot.style.setProperty('--dot-fill', `${remaining * 100 / recordsPerDot}%`);
+      }
+      dots.append(dot);
+    }
+    button.append(element('span', name, 'plot-label'), dots,
+      element('span', countFormat.format(count), 'faculty-plot-count'));
+    button.addEventListener('click', () => {
+      facultySchool.value = facultySchool.value === name ? '' : name;
+      setDepartmentOptions();
+      applyFacultyFilters();
+      if (facultyCount.getBoundingClientRect().bottom > window.innerHeight) {
+        facultyCount.focus({ preventScroll: true });
+        facultyCount.scrollIntoView({ block: 'start' });
+      }
+    });
+    facultyPlotButtons.set(name, button);
+  }
+  get('faculty-plot-scale').textContent = `1 个实心圆点 = ${recordsPerDot} 条名录记录`;
+  get('faculty-plot').replaceChildren(...facultyPlotButtons.values());
+  get('faculty-distribution').hidden = false;
+}
 
 function setDepartmentOptions(selected = '') {
   const school = facultySchool.value;
@@ -38,6 +80,10 @@ function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
   const schools = [];
   let matches = 0;
+
+  for (const [name, button] of facultyPlotButtons) {
+    button.setAttribute('aria-pressed', String(name === facultySchool.value));
+  }
 
   for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
@@ -120,7 +166,7 @@ function renderFaculty() {
   });
 
   facultyRoot.replaceChildren(...(cards.length ? cards : [element('p', '没有找到符合条件的教师或院系。', 'empty')]));
-  get('faculty-count').textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '院系名录记录'} · 采集日期 ${facultyDirectory.checked}`;
+  facultyCount.textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '院系名录记录'} · 采集日期 ${facultyDirectory.checked}`;
 }
 
 addOptions(facultySchool, survey.schools);
@@ -155,6 +201,7 @@ facultySchool.addEventListener('change', () => {
   applyFacultyFilters();
 });
 facultyDepartment.addEventListener('change', applyFacultyFilters);
+buildFacultyPlot();
 renderFaculty();
 if (linkedSchool) {
   const index = Number(facultyTarget[2]) - 1;

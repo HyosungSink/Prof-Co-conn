@@ -232,6 +232,15 @@ dialog::backdrop { background: #211b3277; }
 .faculty-filters { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1fr); }
 .faculty-filters select:disabled { opacity: 1; background: var(--page); color: var(--muted); cursor: default; }
 .faculty-scope-note { margin: -6px 0 18px; color: var(--muted); font-size: 13px; }
+.faculty-distribution { margin-top: 16px; }
+.faculty-distribution .plot-head h2 { font-size: 16px; }
+.faculty-plot { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 10px; }
+.faculty-plot-cell { display: grid; grid-template-columns: minmax(0, 1fr) minmax(60px, 1.4fr) 5ch; min-height: 34px; padding: 5px 8px; font-size: 13px; }
+.faculty-plot-cell .plot-label { max-width: none; }
+.faculty-plot-cell[aria-pressed="true"] { border-color: #b49cd8; background: #efe6fa; }
+.faculty-plot-count { text-align: right; color: var(--brand-dark); font-weight: 650; font-variant-numeric: tabular-nums; }
+.faculty-dot-partial { background: linear-gradient(to right, #7756bc var(--dot-fill), #e1d6f0 var(--dot-fill)); }
+#faculty-count { scroll-margin-top: 16px; }
 .faculty-rosters { display: grid; gap: 10px; }
 .faculty-school-card { background: var(--white); border: 1px solid var(--rule); border-radius: 12px; }
 .faculty-school-head { cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto 12px; align-items: center; gap: 15px; padding: 14px 19px; list-style: none; }
@@ -268,6 +277,7 @@ dialog::backdrop { background: #211b3277; }
 @media (max-width: 560px) {
   .topbar-inner nav { justify-content: flex-end; }
   .faculty-filters { grid-template-columns: 1fr; }
+  .faculty-plot { grid-template-columns: minmax(0, 1fr); }
   .faculty-school-head { gap: 9px; padding-inline: 12px; }
   .faculty-school-body { padding-inline: 12px; }
   .faculty-people { grid-template-columns: 1fr 1fr; }
