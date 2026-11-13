@@ -63,17 +63,38 @@ h1 em { font-family: Georgia, "Times New Roman", serif; font-weight: 500; color:
 .plot-cell:hover { border-color: #b49cd8; background: #efe6fa; }
 .plot-label { flex-shrink: 0; max-width: 48%; overflow-wrap: anywhere; }
 .dots { display: inline-flex; flex-wrap: wrap; justify-content: flex-end; gap: 3px; flex: 0 1 auto; min-width: 0; }
-.school-distribution { margin-top: 20px; padding: 18px; border: 1px solid #e8def2; border-radius: 13px; background: var(--white); }
-.school-distribution h2 { font-size: 18px; }
-.school-distribution p { color: var(--muted); font-size: 12px; margin-top: 4px; }
-.school-plot { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 14px; }
-.school-plot .plot-cell { display: grid; grid-template-columns: 10.5em minmax(0, 1fr) minmax(3em, auto); gap: 8px; min-height: 36px; padding: 5px 9px; font-size: 12px; }
-.school-plot .plot-label { max-width: none; }
-.school-bar { display: flex; height: 7px; overflow: hidden; border-radius: 6px; background: #ebe4f4; }
-.bar-known { background: #7756bc; }
-.bar-pending { background: #b3812b; }
-.plot-count { text-align: right; font-weight: 650; font-variant-numeric: tabular-nums; color: var(--brand-dark); }
-.plot-pending { margin-left: 3px; color: var(--candidate); }
+.school-distribution { margin-top: 24px; padding: clamp(16px, 3vw, 36px); border: 1px solid #e7def2; border-radius: 20px; background: var(--white); }
+.school-chart-head { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: 15px 28px; margin-bottom: 22px; }
+.school-chart-title h2 { font-size: clamp(24px, 3vw, 37px); line-height: 1.15; letter-spacing: -.045em; }
+.school-chart-title p, .school-chart-note { color: var(--muted); font-size: 12px; margin-top: 7px; }
+.school-keys { display: flex; flex-wrap: wrap; gap: 6px 12px; margin: 0; padding: 0; list-style: none; }
+.school-keys li { display: inline-flex; gap: 6px; align-items: center; min-height: 28px; padding: 4px 8px; border-radius: 6px; background: var(--school-wash); color: var(--school-ink); font-size: 11px; }
+.school-keys strong { margin-left: 2px; font-variant-numeric: tabular-nums; }
+.school-swatch { width: 9px; height: 9px; border-radius: 2px; background: var(--school-color); }
+.school-tone-red { --school-color: #d3262b; --school-wash: #fce8e7; --school-ink: #8c1c20; }
+.school-tone-orange { --school-color: #fa8a23; --school-wash: #fff0da; --school-ink: #7e400d; --school-label: #23170f; }
+.school-tone-purple { --school-color: #8255ad; --school-wash: #efe6fa; --school-ink: #58357c; }
+.school-tone-blue { --school-color: #216fa5; --school-wash: #e4f1fb; --school-ink: #164d72; }
+.school-plot { --school-frame: #171a24; position: relative; height: clamp(390px, 45vw, 515px); border-radius: 4px; overflow: hidden; isolation: isolate; background: var(--school-frame); box-shadow: 0 0 0 3px var(--school-frame); }
+.school-map-group, .school-tile { position: absolute; }
+.school-map-group::after { content: ""; position: absolute; inset: 0; border: 1px solid var(--school-frame); pointer-events: none; }
+.school-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(3px, .6vw, 9px); min-width: 0; overflow: hidden; container-type: inline-size; border: 1px solid var(--school-frame); padding: clamp(7px, 1.1vw, 16px); background: var(--school-color); color: var(--school-label, #fffdf8); text-align: center; text-decoration: none; }
+.school-tile:hover, .school-tile:focus-visible { z-index: 1; outline: 2px solid currentColor; outline-offset: -4px; }
+.school-tile-name, .school-tile-short { max-width: 100%; font-size: clamp(12px, 12.5cqi, 19px); font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+.school-tile-short, .school-tile-compact .school-tile-name { display: none; }
+.school-tile-compact .school-tile-short { display: block; }
+.school-tile-compact .school-tile-short { font-size: clamp(11px, 1.05vw, 14px); }
+.school-tile .plot-count { font-size: clamp(19px, 2.7vw, 39px); font-weight: 720; letter-spacing: -.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+.school-tile-compact { gap: 4px; padding: clamp(6px, .8vw, 11px); }
+.school-tile-compact .plot-count { font-size: clamp(16px, 2vw, 24px); }
+.school-tile-tight { gap: 2px; padding: 4px 5px; }
+.school-tile-tight .plot-count { font-size: 15px; }
+.school-tile-shallow { gap: 1px; padding-block: 2px; }
+.school-tile-shallow .school-tile-short { font-size: 10px; }
+.school-tile-shallow .plot-count { font-size: 13px; }
+.school-zero { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 10px; font-size: 12px; color: var(--muted); }
+.school-zero .plot-label { max-width: none; }
+.school-chart-note { margin-top: 12px; }
 .main-section { margin-top: 37px; scroll-margin-top: 16px; }
 .section-head { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
 .section-head h2 { font-size: clamp(23px, 2.8vw, 34px); letter-spacing: -.045em; line-height: 1.15; }
@@ -153,7 +174,7 @@ dialog::backdrop { background: #211b3277; }
   .hero { grid-template-columns: 1fr; gap: 22px; }
   h1 { font-size: clamp(37px, 7vw, 61px); }
   .hero-plot { width: 100%; }
-  .school-plot { grid-template-columns: 1fr; }
+  .school-plot { height: clamp(450px, 80vw, 510px); }
   .filters { grid-template-columns: 1fr 1fr; }
   .method-grid { grid-template-columns: 1fr; gap: 13px; }
 }
@@ -167,8 +188,11 @@ dialog::backdrop { background: #211b3277; }
   .hero-plot { padding: 10px; }
   .company-plot { gap: 4px; }
   .plot-cell { min-height: 40px; }
-  .school-distribution { margin-top: 14px; padding: 10px; }
-  .school-plot .plot-cell { min-height: 40px; }
+  .school-distribution { margin-top: 14px; padding: 13px; border-radius: 12px; }
+  .school-chart-head { margin-bottom: 12px; }
+  .school-keys { gap: 4px; }
+  .school-keys li { padding-inline: 6px; }
+  .school-plot { height: 550px; }
   .main-section { margin-top: 28px; }
   table, tbody, tr, td { display: block; }
   thead { position: absolute; clip-path: inset(50%); width: 1px; height: 1px; overflow: hidden; }
