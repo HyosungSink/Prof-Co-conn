@@ -8752,6 +8752,97 @@ const survey = {
       ],
       evidence: '论文首页给宋天惠南京大学及 Moonshot AI 双署名，并具名标注论文工作在 Moonshot AI 实习中完成。本人明确公开其南大在读身份及导师王利民；同篇另有已在月之暗面任研究员的吴昊宁（与 MiniMax 的同音名研究者是不同人）。',
       advising: [ '硕士生导师', '宋天惠在自己的 GitHub 学术档案（更新标注 2026 年 2 月）明确称在南京大学读研并受王利民指导。学校官方研究组同步列其为 2026 届。', 'https://github.com/songtianhui#readme' ]
+    },
+    {
+      id: 'janusflow-deepseek-pku-jiaying-liu',
+      company: 'DeepSeek',
+      team: 'DeepSeek-AI · 多模态团队',
+      school: '北京大学',
+      studentSchool: '北京大学',
+      faculty: [ '刘家瑛 · Jiaying Liu', '北京大学王选计算机研究所教师，Yiyang Ma 在北大攻读硕士时的导师，论文署北京大学。', 'https://www.ai.pku.edu.cn/en/info/1404/1800.htm' ],
+      employee: [ '潘梓正 · Zizheng Pan', '本人履历明确列出自 2024 年 7 月起任 DeepSeek 全职研究员，从事多模态大模型；同篇署 DeepSeek-AI。', 'https://zizhengpan.github.io/' ],
+      student: [
+        '马逸扬 · Yiyang Ma',
+        '2022 年 9 月至 2025 年 7 月在北大攻读硕士；2024 年 6 至 11 月在 DeepSeek 担任 AGI 科研实习生，2025 年 4 月起另列正式研究员阶段。',
+        'https://realpasu.github.io/'
+      ],
+      title: 'JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation',
+      short: 'JanusFlow',
+      date: '2024-11',
+      venue: 'CVPR 2025',
+      area: '视觉与多模态',
+      paper: 'https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_JanusFlow_Harmonizing_Autoregression_and_Rectified_Flow_for_Unified_Multimodal_Understanding_CVPR_2025_paper.pdf',
+      extra: [
+        [ '2024 年 11 月预印本', 'https://arxiv.org/abs/2411.07975' ],
+        [ 'DeepSeek 官方 Janus 项目及成果列表', 'https://github.com/deepseek-ai/Janus' ],
+        [ '北大王选计算机研究所的论文报道', 'https://www.icst.pku.edu.cn/xwgg/xsj/1201844icst1385875.htm' ]
+      ],
+      evidence: '2024 年 11 月首稿与 CVPR 正式版均列 Yiyang Ma 为第一作者并双署 DeepSeek 与北大，刘家瑛与潘梓正也具名合著。学生履历列明同期 DeepSeek AGI 科研实习，DeepSeek 官方将论文列为 Janus 项目的研究成果。',
+      advising: [ '校内硕士导师', 'Yiyang Ma 在个人主页明确列明北大硕士期间由刘家瑛指导。', 'https://realpasu.github.io/' ]
+    },
+    {
+      id: 'janus-deepseek-hku-ping-luo',
+      company: 'DeepSeek',
+      team: 'DeepSeek-AI · 多模态团队',
+      school: '香港大学',
+      studentSchool: '香港大学',
+      faculty: [ '罗平 · Ping Luo', '香港大学计算机系教师，论文共同通讯作者，与王文平共同指导吴成岳的博士研究。', 'https://luoping.me/' ],
+      employee: [ '潘梓正 · Zizheng Pan', '本人履历明确列出自 2024 年 7 月起任 DeepSeek 全职研究员，从事多模态大模型；同篇署 DeepSeek-AI。', 'https://zizhengpan.github.io/' ],
+      student: [
+        '吴成岳 · Chengyue Wu',
+        '2023 年 9 月起就读港大计算机科学博士；2024 年 5 至 11 月在 DeepSeek 任 AGI 科研实习生，研究多模态理解与生成。',
+        'https://hills-code.github.io/CV.pdf'
+      ],
+      title: 'Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation',
+      short: 'Janus',
+      date: '2024-10',
+      venue: 'CVPR 2025',
+      area: '视觉与多模态',
+      paper: 'https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Janus_Decoupling_Visual_Encoding_for_Unified_Multimodal_Understanding_and_Generation_CVPR_2025_paper.html',
+      extra: [
+        [ '2024 年 10 月作者预印本', 'https://arxiv.org/abs/2410.13848' ],
+        [ 'DeepSeek 官方 Janus 项目', 'https://github.com/deepseek-ai/Janus' ],
+        [ '吴成岳个人学术主页', 'https://hills-code.github.io/' ],
+        [ '原始 PDF', 'https://arxiv.org/pdf/2410.13848v1' ]
+      ],
+      evidence: '首稿在吴成岳的 DeepSeek 科研实习期间公开；CVPR 原文将他列为第一作者，双署 DeepSeek 与港大，并列港大罗平和 DeepSeek 研究员潘梓正。吴成岳的履历列明同期 DeepSeek 实习岗位、课题和该论文，企业官方仓库发布 Janus 成果。',
+      advising: [
+        '校内博士共同指导',
+        '港大研究生院公开说明吴成岳由罗平与王文平共同指导；吴成岳的个人主页也明确列出两位导师。',
+        'https://gradsch.hku.hk/news_and_events/newsletter/awards-and-achievements-10'
+      ]
+    },
+    {
+      id: 'vibecoding-kimi-ucas-shenghua-liu',
+      company: '月之暗面（Kimi）',
+      team: 'Moonshot AI · 强化学习团队',
+      school: '中国科学院大学',
+      studentSchool: '中国科学院大学',
+      faculty: [ '刘盛华 · Shenghua Liu', '中国科学院大学师资主页列为中国科学院计算技术研究所教授，同篇国科大署名、通讯作者；葛钰峣本人具名列其为博士导师。', 'https://people.ucas.ac.cn/~0043238?language=en' ],
+      employee: [
+        '刘天宇 · Tianyu Liu',
+        '曾任 Kimi 研究员，个人履历区分正式研究岗位与此前学生时期实习，2025 年 9 月的 Kimi-Dev 具名署 Moonshot AI；本篇署北京大学，第一作者的项目页链接到同一人。',
+        'https://tyliupku.github.io/'
+      ],
+      student: [
+        '葛钰峣 · Yuyao Ge',
+        '国科大计算所培养的在读博士；同文脚注给中国科学院大学署名。本人列 2025 年 9 月至 2026 年 5 月在 Moonshot AI 强化学习团队科研实习，并在实习经历条目直接链接本篇论文。',
+        'https://www.geyuyao.com/#experience'
+      ],
+      title: 'A Survey of Vibe Coding with Large Language Models',
+      short: 'Vibe Coding Survey',
+      date: '2025-10',
+      venue: 'arXiv',
+      area: '智能体',
+      paper: 'https://arxiv.org/pdf/2510.12399v1',
+      extra: [
+        [ 'arXiv 首发时间与作者索引', 'https://arxiv.org/abs/2510.12399' ],
+        [ '作者第一方主页：项目作者与刘天宇身份指向', 'https://www.geyuyao.com/' ],
+        [ '刘天宇 2025 年 9 月同期 Kimi-Dev 公司署名', 'https://arxiv.org/pdf/2509.23045v1' ],
+        [ '国科大在读同期论文与署名', 'https://aclanthology.org/2025.emnlp-main.768.pdf' ]
+      ],
+      evidence: '葛钰峣在第一方履历的月之暗面强化学习团队实习条目下，把研究项目直接链接到此篇代码智能体综述。论文同时列出博士导师刘盛华和刘天宇；同一学生的项目署名清单将刘天宇链接到自述曾任 Kimi 研究员、同期以 Moonshot AI 署名发表 Kimi-Dev 的同一人。',
+      advising: [ '博士导师', '葛钰峣的个人学术主页明确列刘盛华为博士导师；论文首页将刘盛华列为通讯作者，师生皆有国科大署名。', 'https://www.geyuyao.com/' ]
     }
   ]
 };
