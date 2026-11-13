@@ -85,7 +85,7 @@ const facultyMetrics = {
     ["赵翔宇 · Xiangyu Zhao", [71, "Nkm9r2IAAAAJ"]],
     ["邓成 · Cheng Deng", [66, "OROjmc8AAAAJ"]],
     ["郑凯 · Kai Zheng", [79, "EM-l50cAAAAJ"]],
-    ["郑纬民 · Weimin Zheng", [null, "3GO5nkEAAAAJ"]],
+    ["郑纬民 · Weimin Zheng", [49, "3GO5nkEAAAAJ", "https://adscientificindex.com/subject-rankings/?ft_country=cn&ft_subtitle_id=53&page=40&subject_sort_type=h-index", "AD Scientific Index 中国计算机科学榜单 · 总 H 指数"]],
     ["郭毅可 · Yike Guo", [91, "-0q6cIYAAAAJ"]],
     ["邢春晓 · Chunxiao Xing", [31, null, "https://www.bnrist.tsinghua.edu.cn/info/1216/3866.htm", "清华官方档案所载 Google 学术数值"]],
     ["金鑫 · Xin Jin", [58, "NhsdGBUAAAAJ"]],
