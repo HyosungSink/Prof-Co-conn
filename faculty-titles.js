@@ -4134,11 +4134,17 @@ const facultyTitleSources = {
       ["王敬宇", "https://teacher.bupt.edu.cn/wangjingyu/zh_CN/index.htm", "长聘教授", "https://jericwang.github.io/"],
       ["宋美娜", "https://teacher.bupt.edu.cn/songmeina/zh_CN/index.htm", "教授", "https://scs.bupt.edu.cn/__local/1/37/46/4FD80C3B9DAF64E3B7E1775CEDE_ABD7B6EF_2F9A9F.pdf?e=.pdf"],
       ["薛哲", "https://teacher.bupt.edu.cn/xuezhe/zh_CN/index.htm", "副教授", "https://scs.bupt.edu.cn/__local/1/89/B1/929CC7B71EB96988C564F7839DA_F10AE4A6_54E253.pdf?e=.pdf"],
+      ["张欢欢", "https://teacher.bupt.edu.cn/zhanghuanhuan1/zh_CN/index.htm", "特聘研究员", "https://scs.bupt.edu.cn/__local/4/F3/1E/36A1DA13AFAEBDD56D1B0DE5A9F_95DEED79_322585.pdf?e=.pdf"],
+      ["赵帅", "https://teacher.bupt.edu.cn/zhaoshuai/zh_CN/index.htm", "教授", "https://scs.bupt.edu.cn/__local/B/C2/30/35C7BE984AEFB5571F8AE9338A6_5CE02FE8_12D5F1.pdf?e=.pdf"],
     ],
     "人工智能学院 · 公开科研导师": [
       ["方全", "https://teacher.bupt.edu.cn/fangquan/zh_CN/index.htm", "研究员", "https://tc.ccf.org.cn/tcmt/xsdt/zwhdt/2025-06-04/843259.shtml"],
       ["何召锋", "https://teacher.bupt.edu.cn/zhaofenghe/zh_CN/index.htm", "教授", "https://www.ai.pku.edu.cn/info/1086/3348.htm"],
       ["郭莉", "https://ai.bupt.edu.cn/xygk/zzjg/znxxgcx.htm", "教授", "https://xxgk.bupt.edu.cn/__local/4/F6/21/C7146555D6A13041619A018B45F_2F46BA8A_649294.pdf"],
+      ["朱孔林", "https://teacher.bupt.edu.cn/zhukonglin/zh_CN/index.htm", "副教授", "https://www.bupt.edu.cn/info/1026/86041.htm"],
+      ["乔媛媛", "https://teacher.bupt.edu.cn/qiaoyuanyuan/zh_CN/index.htm", "教授", "https://jwbs.bupt.edu.cn/info/1010/1280.htm"],
+      ["苏菲", "https://teacher.bupt.edu.cn/sufei/zh_CN/index.htm", "教授", "https://xyh.bupt.edu.cn/__local/D/53/E4/E34B04CB48E4803BBD95CB15765_E33C57E9_C5759A.pdf"],
+      ["马占宇", "https://teacher.bupt.edu.cn/mazhanyu/zh_CN/index.htm", "教授", "https://xxgk.bupt.edu.cn/__local/4/F6/21/C7146555D6A13041619A018B45F_2F46BA8A_649294.pdf"],
     ],
     "网络空间安全学院 · 公开科研导师": [
       ["李丽香", "https://scss.bupt.edu.cn/info/1063/1187.htm", "教授", "https://news.xupt.edu.cn/info/1004/25855.htm"],
