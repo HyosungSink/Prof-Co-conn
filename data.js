@@ -8540,6 +8540,34 @@ const survey = {
         [ '2023 年 12 月具名实习脚注', 'https://arxiv.org/pdf/2312.08935v1' ],
         [ '2023 年同期学校署名', 'https://aclanthology.org/2023.ccl-3.pdf' ]
       ]
+    },
+    {
+      id: 'grsp-kimi-pku-houfeng-wang',
+      company: '月之暗面（Kimi）',
+      team: 'Kimi · 推理与强化学习',
+      school: '北京大学',
+      studentSchool: '北京大学',
+      title: 'Mitigating Overthinking through Reasoning Shaping',
+      short: 'GRSP',
+      date: '2025-10-10',
+      venue: 'arXiv 预印本',
+      area: '语言模型与智能体',
+      paper: 'https://arxiv.org/pdf/2510.09535v1',
+      faculty: [ '王厚峰 · Houfeng Wang', '北京大学计算语言学研究所教授、宋非凡的博士导师；本篇通讯作者。', 'https://cs.pku.edu.cn/info/1083/1701.htm' ],
+      employee: [ '刘天宇 · Tianyu Liu', '时任月之暗面研究员。本人职业主页列出 Kimi 岗位与 2025 年的 Kimi-Dev，GRSP 原文署其为项目负责人，单位栏保留北大署名。', 'https://tyliupku.github.io/' ],
+      student: [
+        '宋非凡 · Feifan Song',
+        '2021 年自山东大学直博进入北京大学，2026 年 5 月参加博士学位论文答辩。2025 年 10 月预印本第一作者署北京大学与 Moonshot AI。',
+        'https://www.tsxt.sdu.edu.cn/info/1003/1464.htm'
+      ],
+      evidence: 'PDF 首页的机构编号把宋非凡同时署为北大与月之暗面。同一在读时段，月之暗面官方 Kimi K2 和 K2.5 的研发署名均列其名；公开履历将这段经历列为科研实习。论文注明刘天宇是项目负责人。',
+      advising: [ '博士导师', '山东大学校方专访具名记录宋非凡直博北大并跟随王厚峰。北大研究生院 2026 年 5 月答辩公告再次列出同一导师。', 'https://www.tsxt.sdu.edu.cn/info/1003/1464.htm' ],
+      extra: [
+        [ '北京大学研究生院答辩公示', 'https://grs.pku.edu.cn/sjdj/bs/index74.htm' ],
+        [ '月之暗面 Kimi K2 官方署名', 'https://github.com/MoonshotAI/Kimi-K2' ],
+        [ '月之暗面 Kimi K2.5 官方署名', 'https://huggingface.co/moonshotai/Kimi-K2.5' ],
+        [ '研究经历：月之暗面实习', 'https://www.alphaxiv.org/%40feifan-song' ]
+      ]
     }
   ]
 };
