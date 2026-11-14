@@ -6219,7 +6219,19 @@ const facultyPaperAudits = {
       "https://shiweijiezero.github.io/weijie.github.io/",
       "https://cse.hkust.edu.hk/admin/people/faculty/profile/zxf",
       "https://sites.google.com/site/yaliangli/",
-      "https://aclanthology.org/2026.emnlp-main.1420.pdf"
+      "https://aclanthology.org/2026.emnlp-main.1420.pdf",
+      "https://arxiv.org/abs/2610.06496",
+      "https://onedean.github.io/",
+      "https://sites.google.com/view/xiaofang-zhou/home/research-research-students",
+      "https://kaiwang960112.github.io/",
+      "https://arxiv.org/html/2610.06496v1",
+      "https://github.com/junle-chen/intent",
+      "https://aclanthology.org/2026.emnlp-main.1384/",
+      "https://aclanthology.org/2026.emnlp-main.1384.pdf",
+      "https://github.com/junle-chen/trip-plus",
+      "https://arxiv.org/abs/2610.06105",
+      "https://github.com/Onedean/Flash-OPD/commit/1c5f5ce",
+      "https://arxiv.org/html/2610.06105v1"
     ],
     "papers": [
       {
@@ -6227,6 +6239,27 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.emnlp-main.1420/",
         "outcome": "confirmed",
         "note": "正式论文首页具名写明史伟杰在通义实验室实习期间完成此研究；其本人将 R³L 列在通义实习项目下，且写明港科大博士导师 Xiaofang Zhou。正式论文中阿里方同篇作者 Yaliang Li 的履历列出 2018 年以来的正式任职。"
+      },
+      {
+        "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
+        "url": "https://arxiv.org/abs/2610.06496",
+        "outcome": "lead",
+        "note": "学生 Wei Chen 是梁宇轩主指导、周晓方共同指导的博士，同篇为通讯作者并双署腾讯混元，另有当时的腾讯正式研究员 Kai Wang。作者个人研究经历与此主题相符，代码记录未证实 Wei Chen 在腾讯对本篇的具体贡献，暂作线索。",
+        "year": 2026
+      },
+      {
+        "title": "Trip+: Benchmarking Agents in Personalized Interactive Travel Planning",
+        "url": "https://aclanthology.org/2026.emnlp-main.1384/",
+        "outcome": "lead",
+        "note": "正式发表稿显示 Wei Chen 同篇为通讯作者、双署腾讯混元；Kai Wang 与 Rui Chen 独立署腾讯。未找到这名正式博士生在腾讯针对 Trip+ 课题的直接工作证据。",
+        "year": 2026
+      },
+      {
+        "title": "Flash-OPD: Fast On-Policy Distillation",
+        "url": "https://arxiv.org/abs/2610.06105",
+        "outcome": "lead",
+        "note": "第一作者 Wei Chen 为周晓方共同指导的博士，三重机构之一为腾讯混元。代码确认其具体技术贡献并注明同篇 Kai Wang 员工；但具体工作是否在企业项目完成尚缺可复现出处。",
+        "year": 2026
       }
     ]
   },
@@ -6776,7 +6809,7 @@ const facultyPaperAudits = {
         "year": 2026
       }
     ],
-    "note": "以院系主页、作者主页、DBLP PID、精确 arXiv 作者检索及正式出版记录核对 2023–2026-11-12。排除 6 篇同名误归入（RMIT/Griffith 研究者与上海理工大学论文的不同 ORCID）；按 arXiv 编号合并标题版本，按正式出处记年，未来会议仅保留已公开预印本。2023 年 DAI 文章只能审阅作者与出版资料；作者 CV 另有 CHALE 数据集，没有可核对公开论文，不计。公开文献不足以证明不存在企业活动。 以上为可检索公开书目已逐篇梳理，非对未来版本或未公开活动的判断。 以上为可检索公开书目已逐篇梳理，非对未来版本或未公开活动的判断。"
+    "note": "以院系主页、作者主页、DBLP PID、精确 arXiv 作者检索及正式出版记录核对 2023–2026-11-12。排除 6 篇同名误归入（RMIT/Griffith 研究者与上海理工大学论文的不同 ORCID）；按 arXiv 编号合并标题版本，按正式出处记年，未来会议仅保留已公开预印本。2023 年 DAI 文章只能审阅作者与出版资料；作者 CV 另有 CHALE 数据集，没有可核对公开论文，不计。公开文献不足以证明不存在企业活动。 以上为可检索公开书目已逐篇梳理，非对未来版本或未公开活动的判断。"
   },
   "nVk-7EAAAAAJ": {
     "from": "2023-01-01",
@@ -26958,7 +26991,10 @@ const facultyPaperAudits = {
       "https://storage.hust.edu.cn/info/1014/1730.htm",
       "https://www.proceedings.com/content/069/069663webtoc.pdf",
       "https://www.usenix.org/conference/fast24/technical-sessions",
-      "https://date25.date-conference.com/programme"
+      "https://date25.date-conference.com/programme",
+      "https://www.cse.cuhk.edu.hk/~pclee/www/pubs/aspdac26.pdf",
+      "https://icde2026.github.io/program_details.html",
+      "https://link.springer.com/chapter/10.1007/978-3-031-69766-1_33"
     ],
     "papers": [
       {
@@ -27131,10 +27167,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "SpotCC: Facilitating Coded Computation for Prediction Serving Systems on Spot Instances",
-        "url": "https://2026.hpca-conf.org/room/hpcc-2026-venue-coogee",
+        "url": "https://doi.org/10.1109/HPCA68181.2026.11408557",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "HPCA 正式会议作者机构逐名核对，华中科大实验室也报道校内团队，无范围内企业共同署名。"
+        "note": "HPCA 正式程序逐名列华中科技大学作者，校方实验室报道同一项目；未见目标企业共同署名。"
       },
       {
         "title": "CoRD: Combining Raid and Delta for Fast Partial Updates in Erasure-Coded Storage Clusters",
@@ -27187,10 +27223,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Enabling Encrypted Delta Compression for Outsourced Storage Systems via Preserving Similarity",
-        "url": "https://www.proceedings.com/content/072/072344webtoc.pdf",
+        "url": "https://doi.org/10.1109/ICCD58817.2023.00043",
         "year": 2023,
         "outcome": "no-evidence",
-        "note": "ICCD 正式会议目录按论文逐名列出八位华中科大作者，未见范围内企业共同署名。"
+        "note": "IEEE 的 DOI 登记逐名列八位华中科技大学作者；未见目标企业共同署名。"
       },
       {
         "title": "Boosting Multi-Block Repair in Cloud Storage Systems with Wide-Stripe Erasure Coding",
@@ -27222,10 +27258,66 @@ const facultyPaperAudits = {
       },
       {
         "title": "Write-Optimized Persistent Hash Index for Non-Volatile Memory",
-        "url": "https://date25.date-conference.com/programme",
+        "url": "https://doi.org/10.23919/DATE64628.2025.10992796",
         "year": 2025,
         "outcome": "no-evidence",
-        "note": "DATE 正式程序逐名列江西理工大学、华中科技大学和西安理工大学，没有目标企业署名。"
+        "note": "IEEE DOI 登记与 DATE 正式程序逐名列江西理工大学、华中科技大学和西安理工大学；无目标企业署名。"
+      },
+      {
+        "title": "MASS: A Masking-aware Search Framework for Reliable QC-LDPC Code Construction in SSDs",
+        "url": "https://doi.org/10.1109/ASP-DAC66049.2026.11420819",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "核对 ASP-DAC 原文与大会程序的作者单位：七位华中科大作者及一位香港中文大学作者，无目标企业作者。"
+      },
+      {
+        "title": "SSFusion: Tensor Fusion with Selective Sparsification for Efficient Distributed DNN Training",
+        "url": "https://doi.org/10.1109/ICDE65706.2026.00107",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE ICDE 正式程序列六位华中科技大学作者与一位中电海康创新研究院作者；该单位不在目标企业范围。与 SAFusion 对比，选择性稀疏算法有独立改动。"
+      },
+      {
+        "title": "GroupRS: Node-Grouping-Based Data Placement Strategy in Erasure-Coded Data Center Storage for High Data Reliability",
+        "url": "https://doi.org/10.1109/ICPADS67057.2025.11323221",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IEEE 的 DOI 登记逐名列三位作者均属华中科技大学计算机学院，无目标企业作者。"
+      },
+      {
+        "title": "MPFS: A Scalable User-Space Persistent Memory File System for Multiple Processes",
+        "url": "https://csyhua.github.io/csyhua/HUA-DATE2025-MPFS.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "作者公开的 DATE 正式论文首页与会议程序同列华中科技大学武汉光电国家研究中心，无目标企业作者。"
+      },
+      {
+        "title": "Asymmetric Coded Distributed Computation for Resilient Prediction Serving Systems",
+        "url": "https://doi.org/10.1007/978-3-031-69766-1_33",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "Springer 正式卷逐名列五位作者均属华中科技大学。与 HPCA 2026 的 SpotCC 是同方向不同研究：后者另外处理竞价实例中断与跨实例调度。"
+      },
+      {
+        "title": "Optimizing encoding and repair for wide-stripe minimum bandwidth regenerating codes in in-memory key-value stores",
+        "url": "https://doi.org/10.1016/j.sysarc.2025.103369",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版商原文作者履历列 Weichun Wang 为海康威视计算与存储软件部员工，海康威视不在范围内。Amazon EC2 为实验平台。"
+      },
+      {
+        "title": "Repair friendly wide-stripe erasure coding for in-memory key-value stores",
+        "url": "https://doi.org/10.1016/j.sysarc.2025.103516",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Elsevier 的作者履历列华中科技大学、江西理工大学等，论文摘要列 Amazon EC2 为实验平台，未见目标企业共同研究。与另一篇侧重最小带宽再生码的期刊论文算法不同，保留独立记录。"
+      },
+      {
+        "title": "In-situ Indexing via Memristive Content-Addressable Memory",
+        "url": "https://arxiv.org/html/2606.31554v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首个公开预印本逐名登记华中科技大学与湖北工业大学作者。参考文献提及华为，未见其共同作者或学生企业研发。"
       }
     ]
   },
@@ -27471,7 +27563,166 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2509.05779",
       "https://arxiv.org/html/2509.05779",
       "https://arxiv.org/abs/2509.19062",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/39601"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39601",
+      "https://proceedings.colm.cc/paper_files/paper/2026/hash/d2cc447db9e56c13b993c11b45956281-Abstract-Conference.html",
+      "https://doi.org/10.1145/3774904.3792392",
+      "https://zheng-kai.com/paper/2026_www_fang.pdf",
+      "https://frakeyc.github.io/",
+      "https://arxiv.org/abs/2602.20677",
+      "https://kdd2026.kdd.org/papers/",
+      "https://arxiv.org/html/2602.20677v1",
+      "https://arxiv.org/abs/2602.19113",
+      "https://arxiv.org/html/2602.19113v1",
+      "https://arxiv.org/abs/2601.21726",
+      "https://siruzhong.github.io/publications",
+      "https://doi.org/10.1145/3783986",
+      "https://dblp.org/pid/183/0977-2.html",
+      "https://arxiv.org/abs/2404.18886",
+      "https://arxiv.org/abs/2606.01283v1",
+      "https://arxiv.org/abs/2606.01283",
+      "https://doi.org/10.1145/3774904.3792406",
+      "https://arxiv.org/abs/2510.19661",
+      "https://doi.org/10.18653/V1/2026.ACL-LONG.32",
+      "https://arxiv.org/abs/2510.07858",
+      "https://arxiv.org/abs/2601.21899v1",
+      "https://arxiv.org/abs/2601.21899",
+      "https://doi.org/10.1145/3799682.3841155",
+      "https://arxiv.org/abs/2608.21041",
+      "https://doi.org/10.1109/ICDE65706.2026.00105",
+      "https://arxiv.org/abs/2506.18939",
+      "https://arxiv.org/abs/2609.31680v1",
+      "https://arxiv.org/abs/2609.31680",
+      "https://arxiv.org/abs/2609.33368v1",
+      "https://arxiv.org/abs/2609.33368",
+      "https://doi.org/10.1145/3797908",
+      "https://arxiv.org/abs/2412.05437",
+      "https://arxiv.org/abs/2608.23525v1",
+      "https://arxiv.org/abs/2608.23525",
+      "https://doi.org/10.1145/3774904.3792789",
+      "https://arxiv.org/abs/2602.10502",
+      "https://skyerhxx.github.io/xxhao.github.io/",
+      "https://doi.org/10.1016/J.INFFUS.2026.104407",
+      "https://arxiv.org/abs/2508.14134",
+      "https://doi.org/10.1145/3770854.3780165",
+      "https://arxiv.org/abs/2601.05174",
+      "https://doi.org/10.24963/IJCAI.2026/877",
+      "https://arxiv.org/abs/2506.11512",
+      "https://doi.org/10.1016/J.NEUNET.2026.108986",
+      "https://arxiv.org/abs/2508.14083",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0893608026004478",
+      "https://doi.org/10.1145/3770855.3818964",
+      "https://arxiv.org/abs/2602.12913",
+      "https://thunderlrr.github.io/songxinlei.github.io/",
+      "https://arxiv.org/abs/2604.04106v2",
+      "https://arxiv.org/abs/2604.04106",
+      "https://arxiv.org/abs/2607.16251v1",
+      "https://arxiv.org/abs/2607.16251",
+      "https://arxiv.org/abs/2608.17299v1",
+      "https://arxiv.org/abs/2608.17299",
+      "https://arxiv.org/abs/2603.15797v2",
+      "https://arxiv.org/abs/2603.15797",
+      "https://alexander-wu.github.io/hao-wu/",
+      "https://arxiv.org/abs/2608.29880v1",
+      "https://arxiv.org/abs/2608.29880",
+      "https://arxiv.org/abs/2605.06310v1",
+      "https://arxiv.org/abs/2605.06310",
+      "https://arxiv.org/abs/2606.04599v1",
+      "https://arxiv.org/abs/2606.04599",
+      "https://arxiv.org/abs/2605.08935v3",
+      "https://arxiv.org/abs/2605.08935",
+      "https://yuangao-yg.github.io/",
+      "https://www.dess.tsinghua.edu.cn/info/1108/6422.htm",
+      "https://arxiv.org/abs/2609.23601v1",
+      "https://arxiv.org/abs/2609.23601",
+      "https://arxiv.org/abs/2601.02968v1",
+      "https://arxiv.org/abs/2601.02968",
+      "https://arxiv.org/abs/2607.18874v2",
+      "https://arxiv.org/abs/2607.18874",
+      "https://doi.org/10.1609/AAAI.V40I34.40149",
+      "https://arxiv.org/abs/2508.01971",
+      "https://arxiv.org/abs/2602.02230v2",
+      "https://arxiv.org/abs/2602.02230",
+      "https://arxiv.org/abs/2602.17001v3",
+      "https://arxiv.org/abs/2602.17001",
+      "https://doi.org/10.1007/978-3-032-06109-6_20",
+      "https://arxiv.org/abs/2404.07919",
+      "https://arxiv.org/abs/2607.13108v1",
+      "https://arxiv.org/abs/2607.13108",
+      "https://arxiv.org/abs/2609.30981v1",
+      "https://arxiv.org/abs/2609.30981",
+      "https://arxiv.org/abs/2609.39489v1",
+      "https://arxiv.org/abs/2609.39489",
+      "https://doi.org/10.18653/V1/2026.ACL-LONG.995",
+      "https://arxiv.org/abs/2508.02344",
+      "https://doi.org/10.1109/TKDE.2026.3719144",
+      "https://arxiv.org/abs/2403.14151",
+      "https://doi.org/10.1109/TKDE.2026.3651536",
+      "https://arxiv.org/abs/2506.01364",
+      "https://arxiv.org/abs/2602.03026v1",
+      "https://arxiv.org/abs/2602.03026",
+      "https://doi.org/10.1145/3799682.3840588",
+      "https://arxiv.org/abs/2510.26184",
+      "https://arxiv.org/abs/2503.04392v2",
+      "https://arxiv.org/abs/2503.04392",
+      "https://openreview.net/forum?id=kOJf7Dklyv",
+      "https://arxiv.org/abs/2410.19892",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/89a3b655a8b68ae1c76b768152c9c19d-Paper-Conference.pdf",
+      "https://doi.org/10.1609/AAAI.V39I27.35069",
+      "https://arxiv.org/abs/2501.13141",
+      "https://arxiv.org/abs/2508.09142v2",
+      "https://arxiv.org/abs/2508.09142",
+      "https://arxiv.org/abs/2508.04630v1",
+      "https://arxiv.org/abs/2508.04630",
+      "https://arxiv.org/abs/2509.20846v3",
+      "https://arxiv.org/abs/2509.20846",
+      "https://arxiv.org/abs/2506.02475v5",
+      "https://arxiv.org/abs/2506.02475",
+      "https://doi.org/10.24963/IJCAI.2025/1187",
+      "https://arxiv.org/abs/2402.04059",
+      "https://doi.org/10.1145/3690624.3709391",
+      "https://arxiv.org/abs/2403.02914",
+      "https://www.kdd.org/kdd2025/applied-data-science-ads-track-papers-2/",
+      "https://doi.org/10.1145/3711896.3737019",
+      "https://arxiv.org/abs/2505.17437",
+      "https://proceedings.mlr.press/v267/liu25an.html",
+      "https://arxiv.org/abs/2410.10469",
+      "https://doi.org/10.1109/ICDE65448.2025.00132",
+      "https://arxiv.org/abs/2412.16250",
+      "https://doi.org/10.1145/3637528.3671936",
+      "https://arxiv.org/abs/2408.04236",
+      "https://doi.org/10.1109/ICDE60146.2024.00047",
+      "https://arxiv.org/abs/2311.16191",
+      "https://doi.org/10.1109/TPAMI.2024.3387317",
+      "https://arxiv.org/abs/2306.10125",
+      "https://openreview.net/forum?id=Unb5CVPtae",
+      "https://arxiv.org/abs/2310.01728",
+      "https://doi.org/10.1145/3589334.3645378",
+      "https://arxiv.org/abs/2310.18340",
+      "https://doi.org/10.1145/3589132.3625614",
+      "https://arxiv.org/abs/2301.13629",
+      "https://arxiv.org/abs/2312.08403v3",
+      "https://arxiv.org/abs/2312.08403",
+      "https://arxiv.org/abs/2609.34387v2",
+      "https://arxiv.org/abs/2609.34387",
+      "https://arxiv.org/abs/2602.15040v2",
+      "https://arxiv.org/abs/2602.15040",
+      "https://arxiv.org/abs/2610.14583v1",
+      "https://arxiv.org/abs/2610.14583",
+      "https://arxiv.org/abs/2610.08527v1",
+      "https://arxiv.org/abs/2610.08527",
+      "https://reyjerry.github.io/",
+      "https://arxiv.org/abs/2610.01019v1",
+      "https://arxiv.org/abs/2610.01019",
+      "https://arxiv.org/abs/2610.02816v1",
+      "https://arxiv.org/abs/2610.02816",
+      "https://github.com/fla-org/flash-linear-attention",
+      "https://github.com/tencent/PhoenixGo",
+      "https://arxiv.org/abs/2505.19432v3",
+      "https://arxiv.org/abs/2505.19432",
+      "https://arxiv.org/abs/2602.19131v1",
+      "https://arxiv.org/abs/2602.19131",
+      "https://arxiv.org/abs/2502.01477v2",
+      "https://arxiv.org/abs/2502.01477"
     ],
     "papers": [
       {
@@ -27518,7 +27769,7 @@ const facultyPaperAudits = {
       },
       {
         "title": "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
-        "url": "https://arxiv.org/abs/2604.11628",
+        "url": "https://proceedings.colm.cc/paper_files/paper/2026/hash/d2cc447db9e56c13b993c11b45956281-Abstract-Conference.html",
         "outcome": "lead",
         "note": "梁宇轩团队列第一作者 Yuqian Wu 的学籍及主指导关系。混元正式研究员 Kai Wang 为同篇作者，但未见学生在腾讯完成本篇的说明；预印本缺署名单位。",
         "year": 2026
@@ -27536,7 +27787,696 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 正式论文作者署港科大（广州）及 Squirrel Ai Learning，后者不在范围，无范围内企业员工同篇。",
         "year": 2026
+      },
+      {
+        "title": "Efficient High-Dimensional Time Series Forecasting with Transformers: A Channel Reordering Perspective",
+        "url": "https://doi.org/10.1145/3774904.3792392",
+        "outcome": "no-evidence",
+        "note": "正式脚注明确电子科大博士方雨晨在字节跳动完成研究；其本人主页明确导师是同篇郑凯，关系索引已有 CRAFT。未发现梁宇轩是此生实际导师，勿另算关系。",
+        "year": 2026
+      },
+      {
+        "title": "UrbanFM: Scaling Urban Spatio-Temporal Foundation Models",
+        "url": "https://arxiv.org/abs/2602.20677",
+        "outcome": "no-evidence",
+        "note": "KDD 正式接受清单及作者主页均已核对。第一作者 Wei Chen 由梁宇轩指导，预印本只见研究机构和高校，未见范围内企业员工；不能用其他同期实习推断此作。",
+        "year": 2026
+      },
+      {
+        "title": "Learning from Complexity: Exploring Dynamic Sample Pruning of Spatio-Temporal Training",
+        "url": "https://arxiv.org/abs/2602.19113",
+        "outcome": "no-evidence",
+        "note": "作者为港科大（广州）与港科大的课题组成员；没有范围内企业员工及学生企业投入的原文证据。",
+        "year": 2026
+      },
+      {
+        "title": "DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting",
+        "url": "https://arxiv.org/abs/2601.21726",
+        "outcome": "no-evidence",
+        "note": "第一作者 Siru Zhong 明确是梁宇轩指导的博士；已看原文合作作者，无范围内企业正式员工同篇证据。",
+        "year": 2026
+      },
+      {
+        "title": "A Survey on Diffusion Models for Time Series and Spatio-Temporal Data",
+        "url": "https://doi.org/10.1145/3783986",
+        "outcome": "lead",
+        "note": "综述原稿中部分作者署蚂蚁集团；未发现范围内在读学生在该企业完成本篇综述的直接说明。",
+        "year": 2026
+      },
+      {
+        "title": "AdaKernel: Learning Adaptive Kernel Parameters for Spatiotemporal Graph Neural Networks",
+        "url": "https://arxiv.org/abs/2606.01283v1",
+        "outcome": "no-evidence",
+        "note": "原稿署四川大学、军事科学院和港科大（广州），未见范围内企业作者及学生企业贡献。",
+        "year": 2026
+      },
+      {
+        "title": "AgentSense: LLMs Empower Generalizable and Explainable Web-Based Participatory Urban Sensing",
+        "url": "https://doi.org/10.1145/3774904.3792406",
+        "outcome": "no-evidence",
+        "note": "港科大（广州）与北理工等署名；学校实验室与产业场景不等于范围内企业合作。",
+        "year": 2026
+      },
+      {
+        "title": "Augur: Modeling Covariate Causal Associations in Time Series via Large Language Models",
+        "url": "https://doi.org/10.18653/V1/2026.ACL-LONG.32",
+        "outcome": "no-evidence",
+        "note": "原稿署中科大苏州高等研究院、港科大（广州）、南京信息工程大学等；未见范围内企业项目证据。",
+        "year": 2026
+      },
+      {
+        "title": "Breaking the Regional Barrier: Inductive Semantic Topology Learning for Worldwide Air Quality Forecasting",
+        "url": "https://arxiv.org/abs/2601.21899v1",
+        "outcome": "no-evidence",
+        "note": "原稿所列机构为高校，尚无范围内公司参与本篇研究的作者或脚注。",
+        "year": 2026
+      },
+      {
+        "title": "CoST: Semantic-Aware Urban Understanding via Spatial-Temporal Alignment",
+        "url": "https://doi.org/10.1145/3799682.3841155",
+        "outcome": "no-evidence",
+        "note": "CIKM 论文原稿列港科大（广州）等高校；未见范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Damba-ST: Domain-Adaptive Mamba for Efficient Urban Spatio-Temporal Prediction",
+        "url": "https://doi.org/10.1109/ICDE65706.2026.00105",
+        "outcome": "no-evidence",
+        "note": "ICDE 原稿署西北工大、港理工、港科大（广州）；未见范围内企业作者或学生企业研发。",
+        "year": 2026
+      },
+      {
+        "title": "Does Joint-Embedding Predictive Architecture Pretraining Help Time Series Forecasting?",
+        "url": "https://arxiv.org/abs/2609.31680v1",
+        "outcome": "no-evidence",
+        "note": "早期港科广学生 Yutong Feng 后续读博在新加坡国立大学；原稿未见范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "DrafTS: Time-Aware Decomposition with Residual Correction for Time Series Modeling",
+        "url": "https://arxiv.org/abs/2609.33368v1",
+        "outcome": "no-evidence",
+        "note": "原稿包括港科大（广州）、Abel AI Lab 和 Squirrel Ai；后两家不在范围内。",
+        "year": 2026
+      },
+      {
+        "title": "DRL4AOI: A DRL Framework for Semantic-aware AOI Segmentation in Location-based Services",
+        "url": "https://doi.org/10.1145/3797908",
+        "outcome": "lead",
+        "note": "论文署菜鸟与北京交通大学。未见范围内高校在读学生在菜鸟完成论文研究，未证实梁宇轩直接指导。",
+        "year": 2026
+      },
+      {
+        "title": "EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards",
+        "url": "https://arxiv.org/abs/2608.23525v1",
+        "outcome": "no-evidence",
+        "note": "原稿署南京信息工程大学、港大、港科大（广州）及其他学术单位，未见范围内企业研究人员。",
+        "year": 2026
+      },
+      {
+        "title": "Enhancing Ride-Hailing Forecasting at DiDi with Multi-View Geospatial Representation Learning from the Web",
+        "url": "https://doi.org/10.1145/3774904.3792789",
+        "outcome": "no-evidence",
+        "note": "原文及学生 Xixuan Hao 本人主页均确认此项目是滴滴实习研究；滴滴不在企业范围内。",
+        "year": 2026
+      },
+      {
+        "title": "ERIS : An energy-guided feature disentanglement framework for out-of-distribution time series classification",
+        "url": "https://doi.org/10.1016/J.INFFUS.2026.104407",
+        "outcome": "no-evidence",
+        "note": "原稿为西南交大等高校与港科大（广州）合作；未见 14 家企业同篇。",
+        "year": 2026
+      },
+      {
+        "title": "FaST: Efficient and Effective Long-Horizon Forecasting for Large-Scale Spatial-Temporal Graphs via Mixture-of-Experts",
+        "url": "https://doi.org/10.1145/3770854.3780165",
+        "outcome": "no-evidence",
+        "note": "KDD 原稿署云南大学、港科大（广州）及其他高校，未见范围内企业作者或学生企业项目。",
+        "year": 2026
+      },
+      {
+        "title": "From Time Series Analysis to Question Answering: A Survey in the LLM Era",
+        "url": "https://doi.org/10.24963/IJCAI.2026/877",
+        "outcome": "no-evidence",
+        "note": "综述署人大、清华、港科大（广州）、奥尔堡大学等，原稿未见范围内企业合作记录。",
+        "year": 2026
+      },
+      {
+        "title": "GeoMAE : Masking representation learning for spatio-temporal graph forecasting with missing values",
+        "url": "https://doi.org/10.1016/J.NEUNET.2026.108986",
+        "outcome": "lead",
+        "note": "正式论文明确第一作者宋宇柯在京东智慧城市／JD iCity 实习期间完成，脚注明确由第五作者 Yanping Sun 指导；未见梁宇轩以导师身份参与。还需核实学生当时学籍、论文版本及校内导师。",
+        "year": 2026
+      },
+      {
+        "title": "Hierarchical Reinforcement Learning for Cooperative Air-Ground Delivery in Urban System",
+        "url": "https://doi.org/10.1145/3770855.3818964",
+        "outcome": "no-evidence",
+        "note": "KDD 论文原稿未注明范围内企业作者和企业研发参与。Songxin Lei 的其他腾讯经历不能替换本篇项目证据。",
+        "year": 2026
+      },
+      {
+        "title": "InsTraj: Instructing Diffusion Models with Travel Intentions to Generate Real-world Trajectories",
+        "url": "https://arxiv.org/abs/2604.04106v2",
+        "outcome": "no-evidence",
+        "note": "论文作者单位含南科大与港科大（广州）等；未查到范围内企业同篇。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Spatio-Temporal Foundation Models from Pure Synthetic Data",
+        "url": "https://arxiv.org/abs/2607.16251v1",
+        "outcome": "no-evidence",
+        "note": "脚注明确 Yutong Feng 的工作在港科大（广州）完成；未发现范围内企业研发的证据。",
+        "year": 2026
+      },
+      {
+        "title": "LiveHouse-TS: An Open-world Living Benchmark for Time Series Foundation Models",
+        "url": "https://arxiv.org/abs/2608.17299v1",
+        "outcome": "no-evidence",
+        "note": "作者署港科大（广州）及上海创新研究机构；未见范围内企业作者或企业学生项目。",
+        "year": 2026
+      },
+      {
+        "title": "OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning",
+        "url": "https://arxiv.org/abs/2603.15797v2",
+        "outcome": "lead",
+        "note": "原稿列清华博士生吴昊与腾讯吴闲；学生履历明确记录在腾讯天衍期间共同研究多模态基础模型。未证实梁宇轩对吴昊的同期指导，继续核对清华同篇导师的资格以及精确项目。",
+        "year": 2026
+      },
+      {
+        "title": "Perceive to Hypothesize, Verify to Ground: An Agentic Reasoning Framework for Open-World Geo-Localization",
+        "url": "https://arxiv.org/abs/2608.29880v1",
+        "outcome": "no-evidence",
+        "note": "第一作者 Yutian Jiang 与同篇 Ruijie Li 为梁宇轩指导学生，原稿无范围内企业作者署名。",
+        "year": 2026
+      },
+      {
+        "title": "Perceive, Route and Modulate: Dynamic Pattern Recalibration for Time Series Forecasting",
+        "url": "https://arxiv.org/abs/2605.06310v1",
+        "outcome": "no-evidence",
+        "note": "第一作者脚注明确本研究发生于赴清华访学期间；其他企业署名 Squirrel Ai 不在范围。",
+        "year": 2026
+      },
+      {
+        "title": "Plan First, Judge Later, Run Better: A DMAIC-Inspired Agentic System for Industrial Anomaly Detection",
+        "url": "https://arxiv.org/abs/2606.04599v1",
+        "outcome": "no-evidence",
+        "note": "原稿署港科大（广州）、港科大、上海财经大学及慕尼黑工业大学；题名的工业应用不构成企业研发证据。",
+        "year": 2026
+      },
+      {
+        "title": "PnP-Corrector: A Universal Correction Framework for Coupled Spatiotemporal Forecasting",
+        "url": "https://arxiv.org/abs/2605.08935v3",
+        "outcome": "lead",
+        "note": "ICML 论文清华博士生吴昊同时署腾讯，同篇通讯作者有腾讯吴闲。博士生本人列吴闲为同期企业导师，尚缺梁宇轩具名指导证据；黄小猛为另一个同篇候选，未在当前资格队列找到他。",
+        "year": 2026
+      },
+      {
+        "title": "PREM: Prefix-Steered Recurrent Memory for Long-Video Understanding",
+        "url": "https://arxiv.org/abs/2609.23601v1",
+        "outcome": "no-evidence",
+        "note": "原稿列港科大（广州）与 Beta Infinity 多名共著；Beta Infinity 不在企业范围，勿将其他腾讯经历套入。",
+        "year": 2026
+      },
+      {
+        "title": "Rationale-Grounded In-Context Learning for Time Series Reasoning with Multimodal Large Language Models",
+        "url": "https://arxiv.org/abs/2601.02968v1",
+        "outcome": "no-evidence",
+        "note": "主要参与为港科大（广州）以及中国移动虚拟现实团队等；中国移动不在 14 家范围，未见范围内公司同篇。",
+        "year": 2026
+      },
+      {
+        "title": "Reinforcement Learning for Delivery Drone-Based Participatory Sensing in Dynamic Environments",
+        "url": "https://arxiv.org/abs/2607.18874v2",
+        "outcome": "no-evidence",
+        "note": "SIGSPATIAL 2026 原稿核对学校作者；未见范围内企业作者或学生企业研发。",
+        "year": 2026
+      },
+      {
+        "title": "Revitalizing Canonical Pre-Alignment for Irregular Multivariate Time Series Forecasting",
+        "url": "https://doi.org/10.1609/AAAI.V40I34.40149",
+        "outcome": "no-evidence",
+        "note": "AAAI 论文为港科大（广州）、港科大等合作，未见范围内公司项目或相关企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "SEDformer: Event-Synchronous Spiking Transformers for Irregular Telemetry Time Series Forecasting",
+        "url": "https://arxiv.org/abs/2602.02230v2",
+        "outcome": "no-evidence",
+        "note": "原稿列港科大（广州）、电子科大与港科大等单位；未明确具名企业成员及学生在本篇的企业研究角色。",
+        "year": 2026
+      },
+      {
+        "title": "Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases",
+        "url": "https://arxiv.org/abs/2602.17001v3",
+        "outcome": "no-evidence",
+        "note": "原稿企业署名涉及微软；未见范围内企业参与本篇研究。",
+        "year": 2026
+      },
+      {
+        "title": "ST-LoRA: Low-Rank Adaptation for Spatio-Temporal Forecasting",
+        "url": "https://doi.org/10.1007/978-3-032-06109-6_20",
+        "outcome": "no-evidence",
+        "note": "ECML-PKDD 与原稿标注港科大（广州）、港中大及其他学术单位；未发现范围内企业员工和学生企业项目。",
+        "year": 2026
+      },
+      {
+        "title": "STKAN: Kolmogorov-Arnold Networks for Spatio-Temporal Forecasting",
+        "url": "https://arxiv.org/abs/2607.13108v1",
+        "outcome": "no-evidence",
+        "note": "作者署港科大（广州）等；未见范围内企业参与本篇。",
+        "year": 2026
+      },
+      {
+        "title": "STORM-Bench: Evaluating Online Video QA under Evolving and Incomplete Evidence",
+        "url": "https://arxiv.org/abs/2609.30981v1",
+        "outcome": "no-evidence",
+        "note": "原稿列 Beta Infinity、港科大（广州）、北航、电子科大、清华；未见范围内企业同篇。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Robust Time Series Learning via Capacity-Centric Modulation",
+        "url": "https://arxiv.org/abs/2609.39489v1",
+        "outcome": "no-evidence",
+        "note": "原稿四位作者所属港科大（广州）、中南大学、港科大；未见范围内企业作者或项目。",
+        "year": 2026
+      },
+      {
+        "title": "Traffic-R1: Reinforced LLMs Bring Human-Like Reasoning to Traffic Signal Control Systems",
+        "url": "https://doi.org/10.18653/V1/2026.ACL-LONG.995",
+        "outcome": "no-evidence",
+        "note": "ACL 正式原稿含佳都科技 PCITECH，超出 14 家企业；相关联合课题不计。",
+        "year": 2026
+      },
+      {
+        "title": "Trajectory Data Management and Mining: A Survey From Deep Learning to the LLM Era",
+        "url": "https://doi.org/10.1109/TKDE.2026.3719144",
+        "outcome": "no-evidence",
+        "note": "调查综述有港科大、电子科大、学外多机构与京东关联作者；缺范围内高校学生的具体企业任务证据。",
+        "year": 2026
+      },
+      {
+        "title": "Unraveling Spatio-Temporal Foundation Models via the Pipeline Lens: A Comprehensive Review",
+        "url": "https://doi.org/10.1109/TKDE.2026.3651536",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式原稿列港科大（广州）、电子科大等作者；未见范围内企业员工同篇。",
+        "year": 2026
+      },
+      {
+        "title": "Visual Reasoning over Time Series via Multi-Agent System",
+        "url": "https://arxiv.org/abs/2602.03026v1",
+        "outcome": "no-evidence",
+        "note": "原稿仅两名港科大（广州）作者 Weilin Ruan 和梁宇轩；无企业同篇。",
+        "year": 2026
+      },
+      {
+        "title": "A Game-Theoretic Spatio-Temporal Reinforcement Learning Framework for Collaborative Public Resource Allocation",
+        "url": "https://doi.org/10.1145/3799682.3840588",
+        "outcome": "no-evidence",
+        "note": "CIKM 2026 已发表版本为学校合作，未见范围内企业，不能用学生其他实习替代。",
+        "year": 2026
+      },
+      {
+        "title": "AgentSafe: Safeguarding Large Language Model-based Multi-agent Systems via Hierarchical Data Management",
+        "url": "https://arxiv.org/abs/2503.04392v2",
+        "outcome": "no-evidence",
+        "note": "核对中科大、南洋理工大学等作者机构；未见范围内企业研究角色。",
+        "year": 2025
+      },
+      {
+        "title": "Air Quality Prediction with Physics-Guided Dual Neural ODEs in Open Systems",
+        "url": "https://openreview.net/forum?id=kOJf7Dklyv",
+        "outcome": "lead",
+        "note": "正式 ICLR 原文列华为诺亚两名员工与华东师大第一作者 Jindong Tian；华东师大不在范围，亦未证实梁宇轩指导范围内在读学生。",
+        "year": 2025
+      },
+      {
+        "title": "AirRadar: Inferring Nationwide Air Quality in China with Deep Neural Networks",
+        "url": "https://doi.org/10.1609/AAAI.V39I27.35069",
+        "outcome": "no-evidence",
+        "note": "AAAI 原稿未见学籍同期的企业项目或独立企业员工，不能用后续毕业任职佐证。",
+        "year": 2025
+      },
+      {
+        "title": "Bayesian-Driven Graph Reasoning for Active Radio Map Construction",
+        "url": "https://arxiv.org/abs/2508.09142v2",
+        "outcome": "no-evidence",
+        "note": "原稿单位为多所高校；未见范围内企业员工同篇和学生企业项目。",
+        "year": 2025
+      },
+      {
+        "title": "CaPulse: Detecting Anomalies by Tuning in to the Causal Rhythms of Time Series",
+        "url": "https://arxiv.org/abs/2508.04630v1",
+        "outcome": "lead",
+        "note": "第一作者 Yutong Xia 与同篇 Yingying Zhang 署阿里；Yutong Xia 当时为新加坡国立大学学生，并非范围内高校在读。未见其他可替代学生。",
+        "year": 2025
+      },
+      {
+        "title": "Causal Time Series Generation via Diffusion Models",
+        "url": "https://arxiv.org/abs/2509.20846v3",
+        "outcome": "no-evidence",
+        "note": "原文企业为微软研究院及 Squirrel Ai Learning，均不在范围内。",
+        "year": 2025
+      },
+      {
+        "title": "Comba: Improving Bilinear RNNs with Closed-loop Control",
+        "url": "https://arxiv.org/abs/2506.02475v5",
+        "outcome": "no-evidence",
+        "note": "原文明确第一作者 Yongqi Pan 的具体实习在港科大（广州）；没有范围内企业承担该项研发的证据。",
+        "year": 2025
+      },
+      {
+        "title": "Deep Learning for Multivariate Time Series Imputation: A Survey",
+        "url": "https://doi.org/10.24963/IJCAI.2025/1187",
+        "outcome": "lead",
+        "note": "论文有华为研究人员署名，但原稿为综述；未找到范围内在读学生在华为完成具体研究的证据。",
+        "year": 2025
+      },
+      {
+        "title": "DynST: Dynamic Sparse Training for Resource-Constrained Spatio-Temporal Forecasting",
+        "url": "https://doi.org/10.1145/3690624.3709391",
+        "outcome": "lead",
+        "note": "早期 arXiv 原稿具名吴昊在腾讯机器学习平台部做本篇，原稿与 KDD 版本均列其当时是中科大作者；KDD 定稿单位表里仅京东。未证实梁宇轩是学生正式导师、亦未确认为正式版同篇仍有独立腾讯员工。",
+        "year": 2025
+      },
+      {
+        "title": "Learning Generalized and Flexible Trajectory Models from Omni-Semantic Supervision",
+        "url": "https://doi.org/10.1145/3711896.3737019",
+        "outcome": "no-evidence",
+        "note": "脚注明确第一作者 Yuanshao Zhu 的具体实习在港科大（广州），作者单位亦有商汤等范围外团队。",
+        "year": 2025
+      },
+      {
+        "title": "Moirai-MoE: Empowering Time Series Foundation Models with Sparse Mixture of Experts",
+        "url": "https://proceedings.mlr.press/v267/liu25an.html",
+        "outcome": "no-evidence",
+        "note": "ICML 论文脚注说明企业研究在 Salesforce AI Research；不在范围内。",
+        "year": 2025
+      },
+      {
+        "title": "Training-Free Heterogeneous Graph Condensation via Data Selection",
+        "url": "https://doi.org/10.1109/ICDE65448.2025.00132",
+        "outcome": "lead",
+        "note": "原文含华为作者；未找到本篇学生在华为工作和梁宇轩作为同期在读导师的直接证据。",
+        "year": 2025
+      },
+      {
+        "title": "Cluster-Wide Task Slowdown Detection in Cloud System",
+        "url": "https://doi.org/10.1145/3637528.3671936",
+        "outcome": "lead",
+        "note": "论文是阿里云及高校的共同工作；未定位范围内高校在读学生的具体企业研发贡献与导师。",
+        "year": 2024
+      },
+      {
+        "title": "Learning Multi-Pattern Normalities in the Frequency Domain for Efficient Time Series Anomaly Detection",
+        "url": "https://doi.org/10.1109/ICDE60146.2024.00047",
+        "outcome": "lead",
+        "note": "原文具有阿里作者署名；目前无具体企业学生研发和导师证据。",
+        "year": 2024
+      },
+      {
+        "title": "Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3387317",
+        "outcome": "lead",
+        "note": "综述原稿表示 Qingsong Wen 本篇工作在阿里完成，其为企业研究人员；未见范围内在读学生企业研发。",
+        "year": 2024
+      },
+      {
+        "title": "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models",
+        "url": "https://openreview.net/forum?id=Unb5CVPtae",
+        "outcome": "lead",
+        "note": "原文作者机构有阿里与蚂蚁；未核实范围内高校学生在任一家完成本篇的证据，预印本与 ICLR 正式稿分别核对。",
+        "year": 2024
+      },
+      {
+        "title": "UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web",
+        "url": "https://doi.org/10.1145/3589334.3645378",
+        "outcome": "lead",
+        "note": "原文同篇有阿里关联企业作者；港科大（广州）第一作者在校的履历和其他公司实习均已查，未见在阿里完成本篇的资料。",
+        "year": 2024
+      },
+      {
+        "title": "DiffSTG: Probabilistic Spatio-Temporal Graph Forecasting with Denoising Diffusion Models",
+        "url": "https://doi.org/10.1145/3589132.3625614",
+        "outcome": "lead",
+        "note": "原稿有阿里共著，尚无范围内学生在企业做同篇科研及导师同期身份的证据。",
+        "year": 2023
+      },
+      {
+        "title": "Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in One Model",
+        "url": "https://arxiv.org/abs/2312.08403v3",
+        "outcome": "no-evidence",
+        "note": "原稿注明吴昊于 2022 年在港科大（广州）校方实习期间完成，早于 2023 年腾讯实习，不应重复判断。",
+        "year": 2023
+      },
+      {
+        "title": "CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving",
+        "url": "https://arxiv.org/abs/2609.34387v2",
+        "outcome": "lead",
+        "note": "原文见华为，但该文梁宇轩的作者归属仍待证实，且未找到学生企业项目或实际学术指导。",
+        "year": 2026
+      },
+      {
+        "title": "Symmetric Composition of Anisotropic Operators for Global Subseasonal-to-Seasonal Climate Forecasting",
+        "url": "https://arxiv.org/abs/2602.15040v2",
+        "outcome": "lead",
+        "note": "预印本部分作者署蚂蚁集团；仍需核实同篇学生的企业项目角色及在读导师。",
+        "year": 2026
+      },
+      {
+        "title": "Remembering What Matters for Long-Horizon Robotic World Models",
+        "url": "https://arxiv.org/abs/2610.14583v1",
+        "outcome": "lead",
+        "note": "吴昊是清华博士且原稿署腾讯；未见梁宇轩与其同期指导关系，需要从不同合著的公开材料验证。",
+        "year": 2026
+      },
+      {
+        "title": "PHBA: Prefix-State Hybrid Block Attention",
+        "url": "https://arxiv.org/abs/2610.08527v1",
+        "outcome": "lead",
+        "note": "第一作者 Ruijie Li 的学校和导师已确认，其履历写明曾在字节跳动及腾讯研究高效架构；此篇未有具名企业项目与公司任职同篇证据。",
+        "year": 2026
+      },
+      {
+        "title": "FutureWorlds: Learning Robotic World Models from Alternative Futures",
+        "url": "https://arxiv.org/abs/2610.01019v1",
+        "outcome": "lead",
+        "note": "吴昊个人履历显示在腾讯相关团队研究机器人模型；该篇有腾讯署名，未证实梁宇轩同期指导或该文是企业项目的指定成果。",
+        "year": 2026
+      },
+      {
+        "title": "Gated Slot Attention-2: Two-Sided Associative Memory Correction in Linear Attention",
+        "url": "https://arxiv.org/abs/2610.02816v1",
+        "outcome": "lead",
+        "note": "Ruijie Li 的 2025 年硕士与梁宇轩指导由双方主页确认，2026 年 7 月起在腾讯微信研发高效架构，此研究同篇有 6 名腾讯作者；待核实本篇专门的企业项目说明。",
+        "year": 2026
+      },
+      {
+        "title": "Advanced Long-term Earth System Forecasting",
+        "url": "https://arxiv.org/abs/2505.19432v3",
+        "outcome": "lead",
+        "note": "稿件有腾讯署名和当期清华博士吴昊，尚不可据主题相似确认其企业项目、导师等全部条件。",
+        "year": 2025
+      },
+      {
+        "title": "Test-Time Learning of Causal Structure from Interventional Data",
+        "url": "https://arxiv.org/abs/2602.19131v1",
+        "outcome": "no-evidence",
+        "note": "本篇原稿脚注明确 Wei Chen 在微软研究院实习时做本篇；微软不在项目范围。",
+        "year": 2026
+      },
+      {
+        "title": "Achieving Time Series Reasoning Requires Rethinking Model Design, Tasks Formulation, and Evaluation",
+        "url": "https://arxiv.org/abs/2502.01477v2",
+        "outcome": "lead",
+        "note": "公开稿有蚂蚁集团作者；尚无范围内高校在读作者在蚂蚁完成本篇及导师同期指导的明确依据。",
+        "year": 2025
       }
-    ]
+    ],
+    "note": "已逐篇梳理公开论文的一部分，仍在对齐教师本人书目、DBLP、ORCID、arXiv 与正式出版记录。"
+  },
+  "xP3iu14AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://people.ucas.ac.cn/~barmpalias",
+      "https://barmpalias.net/publications/",
+      "https://arxiv.org/search/?query=Barmpalias%2C+G&searchtype=author",
+      "https://orcid.org/0000-0002-9921-760X",
+      "https://logic.nankai.edu.cn/Publications/listm.htm"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "The Kučera–Gács theorem revisited by Levin",
+        "url": "https://doi.org/10.1016/j.tcs.2023.113693",
+        "outcome": "no-evidence",
+        "note": "正式期刊与 2111.00516 是同篇。原文署软件所与法国蒙彼利埃 LIRMM/CNRS，致谢列自然科学基金和法国国家研究署资助；没有范围内企业研究署名或实研说明。"
+      },
+      {
+        "year": 2023,
+        "title": "Randomness below complete theories of arithmetic",
+        "url": "https://doi.org/10.1016/j.ic.2022.104983",
+        "outcome": "no-evidence",
+        "note": "以 2023 年正式卷期计，较早作者稿 2206.04996 合并。正文署软件所和中山大学，资助为自然科学基金，论文还注明受新加坡国立大学公开研讨启发；未见范围内企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "Growth and irreducibility in path-incompressible trees",
+        "url": "https://doi.org/10.1016/j.ic.2024.105136",
+        "outcome": "no-evidence",
+        "note": "作者稿第 4 版两作者均署软件所，致谢列自然科学基金和新加坡国立大学学术活动，未见企业实研。"
+      },
+      {
+        "year": 2024,
+        "title": "Pathwise-randomness and models of second-order arithmetic",
+        "url": "https://doi.org/10.1016/j.ic.2024.105181",
+        "outcome": "no-evidence",
+        "note": "期刊改题为 Pathwise-randomness，与 2104.12066 的作者及结果匹配，不重复计数。作者署软件所和中山大学，致谢无范围内企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Computable one-way functions on the reals",
+        "url": "https://doi.org/10.1016/j.ic.2025.105327",
+        "outcome": "no-evidence",
+        "note": "正式期刊与 2406.15817 合并。原文署软件所、国科大，项目资助为北京市自然科学基金；讨论密码学背景并非企业合著。"
+      },
+      {
+        "year": 2025,
+        "title": "Complexity of inversion of functions on the reals",
+        "url": "https://doi.org/10.1017/S0960129525100224",
+        "outcome": "no-evidence",
+        "note": "Cambridge 正式版与 2412.07592 合并。三作者均列软件所、国科大，致谢和资助无范围内企业；与同组另两篇研究单向函数存在性或抗碰撞性的是独立成果。"
+      },
+      {
+        "year": 2025,
+        "title": "Open Problems in Computability Theory and Descriptive Set Theory",
+        "url": "https://arxiv.org/abs/2507.03972",
+        "outcome": "no-evidence",
+        "note": "已核全文及天元数学中心官网，正文汇集 2025 年可计算性与描述集合论会议的问题，逐节具名作者；未披露范围内企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Collision-resistant hash-shuffles on the reals",
+        "url": "https://doi.org/10.1016/j.ic.2026.105426",
+        "outcome": "no-evidence",
+        "note": "作者稿 2501.02604 署软件所，致谢北京市自然科学基金；虽研究 hash 的抗碰撞性质，未见企业研究员或学生企业实研，和其单向函数存在性论文分别保留。"
+      },
+      {
+        "year": 2026,
+        "title": "Dimensionality and Randomness",
+        "url": "https://doi.org/10.1145/3806195",
+        "outcome": "no-evidence",
+        "note": "正式 ACM 书目与作者稿 2405.06961 合并。两位作者署软件所，Xiaoyan Zhang 官方页列硕士在读；原文只有学术署名及北京市自然科学基金资助，未见企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Compression of enumerations and gain",
+        "url": "https://doi.org/10.1016/j.apal.2026.103792",
+        "outcome": "no-evidence",
+        "note": "Annals 正式版含同三位软件所作者，2023 年公开稿 2304.03030、2025 年更新和 2023 年研讨会报告归并。全文中的 IBM 仅是所引参考资料单位，未见目标企业作者或实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Speedability of computably approximable reals and their approximations",
+        "url": "https://doi.org/10.1016/j.ic.2026.105451",
+        "outcome": "no-evidence",
+        "note": "期刊原文、2603.26484 和 CCA 2025 摘要归并。软件所、海德堡大学与法国波尔多高校实验室合著，作者贡献声明未显示企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Open Problems in Mathematical Logic",
+        "url": "https://arxiv.org/abs/2608.26628",
+        "outcome": "no-evidence",
+        "note": "作者稿与南开逻辑组书目对应，2026 年天元会议的问题记录，和上一年会议汇编内容不同；未见范围内企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Cardinality of the K-cones below a non infinitely often K-trivial",
+        "url": "https://arxiv.org/abs/2610.39172",
+        "outcome": "no-evidence",
+        "note": "10 月原文作者署软件所与中南大学，资助为自然科学基金；讨论 K 锥的基数与复杂度增长条件，与同日另外一个编码问题分开。未见企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Martin-Löf randomness and rK-reducibility",
+        "url": "https://arxiv.org/abs/2610.39174",
+        "outcome": "no-evidence",
+        "note": "10 月原文作者署软件所与中南大学，资助为自然科学基金。正文引用 IBM 的历史参考文献，未见企业参与本研究或学生实研。"
+      }
+    ],
+    "note": "按国科大导师页、作者书目、ORCID、完整的 arXiv 作者搜索、期刊及公开原文逐篇核对 2023-01-01 至 2026-11-12。以期刊正式卷期或未正式发表成果的首次公开日计。同一成果的会议摘要、早期稿及正式稿合并。2022 年首发且未找到正式版的 2201.07007 虽在 2026 年有勘误，不重复计入。"
+  },
+  "SM1ig-UAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~renyongmao",
+      "https://people.ucas.ac.cn/~renyongmao?language=en",
+      "https://cnic.cas.cn/gzdt/202310/t20231030_6895802.html",
+      "https://www-file.huawei.com/admin/asset/v1/pro/view/1f6f46557899427b9d6b37f0862a550d.pdf",
+      "https://orcid.org/0000-0002-0689-1997"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "AdaptaCC: A Highly Scalable Proactive Congestion Control for Hyper-speed Networks",
+        "url": "https://doi.org/10.1109/HPCC-DSS-SmartCity-DependSys60770.2023.00034",
+        "outcome": "lead",
+        "note": "HPCC 官方论文集具名华为作者徐安民，国科大导师页列同篇作者任泓臣为任勇毛的硕士生。未找到这名学生为同篇在华为参与研究的具名说明。"
+      },
+      {
+        "year": 2024,
+        "title": "DS-AQM: Differentiated Service Active Queue Management",
+        "url": "https://doi.org/10.23919/JCC.ja.2023-0007",
+        "outcome": "lead",
+        "note": "2023 年在线、2024 年刊列。中科院网信中心官网明确说明作者李聪为任勇毛指导的硕士、同篇获华为合作项目资助；末作者徐安民同期署华为。官网没有说明李聪在华为参与同篇研究。"
+      },
+      {
+        "year": 2024,
+        "title": "DRTP: A generic Differentiated Reliable Transport Protocol",
+        "url": "https://doi.org/10.1016/j.comcom.2024.08.003",
+        "outcome": "lead",
+        "note": "期刊 CRediT 说明任勇毛负责指导、国科大导师页列张运栋与李聪为其硕士生，两人参与论文研究；徐安民也具名参与并有同期华为任职证据。缺少学生在华为参与同篇研究的直接说明；SSRN 同题稿合入。"
+      },
+      {
+        "year": 2024,
+        "title": "A multipath scheduler based on cross-layer information for low-delay applications in 5G edge networks",
+        "url": "https://doi.org/10.1016/j.comnet.2024.110333",
+        "outcome": "no-evidence",
+        "note": "Computer Networks 期刊原文继续并扩展 2023 年同组 CPS 算法（10.1109/ICCCN58024.2023.10230144），两版合看。作者贡献说明详列多路径调度器开发，未见范围内企业的研究员署名或具名的学生企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "Cross-Layer Assisted Early Congestion Control for Cloud VR Applications in 5G Edge Networks",
+        "url": "https://doi.org/10.1109/WCNC57260.2024.10570557",
+        "outcome": "no-evidence",
+        "note": "WCNC 正式版和 2307.04529 同篇。作者稿列网信中心、国科大；文献引用华为 iLab 白皮书，未看到同篇企业研究人员或学生实研。"
+      },
+      {
+        "year": 2024,
+        "title": "A Routing Algorithm for Computing Power Network Based on Deep Reinforcement Learning and Graph Neural Networks",
+        "url": "https://doi.org/10.1109/HPCC64274.2024.00209",
+        "outcome": "no-evidence",
+        "note": "正式会议出版目录列中科院、国科大和军事科学院作者；邻篇为中国电信作者，不应归入本篇。无范围内企业实研证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Predictable Real-Time Video Latency Control with Frame-Level Collaboration",
+        "url": "https://greenlv.github.io/files/2025_RTSS_Co-RTV.pdf",
+        "outcome": "no-evidence",
+        "note": "作者公开的 RTSS 全文列计算所、国科大、网信中心和紫金山实验室。会议同一议程的另一篇有华为作者，Co-RTV 本篇未见企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient Cross-Datacenter Congestion Control with Fast Control Loops",
+        "url": "https://schmiste.github.io/icpp25.pdf",
+        "outcome": "no-evidence",
+        "note": "ICPP 作者全文列网信中心、国科大和 TU Berlin。讨论现网设备与快速反馈回路，署名和致谢未给出范围内企业或学生实研。"
+      }
+    ],
+    "note": "按国科大导师页中英文书目、网信中心的具名报道、ORCID 和公开论文逐篇核对 2023-01-01 至 2026-11-12。预印本、会议摘要、制品和正式版属同一成果时只计一篇；仅有海报的成果不计入论文。已核对可取得的数篇公开原文及正式出版资料；两篇 2026 年中文论文仍待取得独立出版记录。"
   }
 };
