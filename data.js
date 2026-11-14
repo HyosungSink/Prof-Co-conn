@@ -39514,6 +39514,161 @@ const survey = {
         "张辉个人简历具名两位博士导师；本栏目只登记在指定正式论文署名的导师。",
         "https://huizhang0812.github.io/CV_huizhang_en.pdf"
       ]
+    },
+    {
+      "id": "versecrafter-tencent-fudan-yanwei-fu",
+      "paperId": "arxiv:2601.05138",
+      "company": "腾讯",
+      "team": "ARC Lab",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "付彦伟 · Yanwei Fu",
+        "复旦博士导师；论文与学生同篇署名，本人主页明确记为腾讯 ARC Lab 合作成果。",
+        "https://yanweifu.github.io/zh/"
+      ],
+      "employee": [
+        "胡文博 · Wenbo Hu",
+        "2023 年 12 月起腾讯 ARC Lab 高级研究员、负责世界模型团队；同篇作者与实习指导。",
+        "https://wbhu.github.io/"
+      ],
+      "student": [
+        "郑思晓 · Sixiao Zheng",
+        "复旦在读博士，2025 年 5 月起腾讯 ARC Lab 研究实习，在公司官方仓库发布同篇推理代码。",
+        "https://sixiaozheng.github.io/SixiaoZheng_Fudan_PhD_Video_World_Model.pdf"
+      ],
+      "title": "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control",
+      "short": "VerseCrafter",
+      "date": "2026-01",
+      "venue": "CVPR",
+      "area": "视频世界模型",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_VerseCrafter_Dynamic_Realistic_Video_World_Model_with_4D_Geometric_Control_CVPR_2026_paper.html",
+      "extra": [
+        [
+          "首稿及首次发布日期",
+          "https://arxiv.org/abs/2601.05138"
+        ],
+        [
+          "腾讯 ARC Lab 官方论文项目与代码",
+          "https://github.com/TencentARC/VerseCrafter"
+        ],
+        [
+          "第一作者在腾讯仓库直接提交推理代码",
+          "https://github.com/TencentARC/VerseCrafter/commit/c2e2acbc4aa40bbb0fe872795a1a5fac49c0a0e0"
+        ],
+        [
+          "学生本人博士导师与企业实习导师",
+          "https://sixiaozheng.github.io/"
+        ],
+        [
+          "SIGGRAPH Asia 同期正式讲者简介",
+          "https://sa2025.conference-schedule.org/contributor/?uid=732904"
+        ]
+      ],
+      "evidence": "CVPR 2026 正式论文具名复旦博士郑思晓、复旦导师付彦伟、腾讯资深研究员胡文博；郑思晓本人简历列 2023 年 9 月起在复旦读博且导师为付彦伟、2025 年 5 月起在腾讯 ARC Lab 做视频生成研究实习，明确在该组跟随胡文博。项目首发于 2026 年 1 月；同月郑思晓亲自在腾讯官方项目仓库提交模型推理代码；付彦伟本人也将这篇确认为腾讯 ARC Lab 等合作研发，胡文博个人履历列 2023 年 12 月起在该组正式任职，公开书目列同篇论文。",
+      "advising": [
+        "校内博士与企业双边指导",
+        "郑思晓本人说明复旦博士导师为付彦伟、腾讯 ARC Lab 实习指导为胡文博，两人均同篇。",
+        "https://sixiaozheng.github.io/"
+      ]
+    },
+    {
+      "paperId": "doi:10.1007/978-3-032-37592-6_18",
+      "company": "华为",
+      "team": "华为海思联合研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
+      "short": "DOMINO",
+      "date": "2026-09-14",
+      "venue": "ECCV 2026",
+      "area": "具身智能与机器人操作",
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
+      "student": [
+        "李尚儒 · Shangru Li",
+        "华中科技大学未来技术学院 2024 级在读本科生；参与本篇动态操作基准设计、数据流水线、实验评估和论文写作。",
+        "https://news.hust.edu.cn/info/1004/59339.htm"
+      ],
+      "employee": [
+        "Xuanyang Xi",
+        "ECCV 正式版署华为；同篇作者贡献附录具名为项目指导人，华为机械臂标定专利著录列为发明人。",
+        "https://k-knowledge.kr/srch/read.jsp?id=290738126"
+      ],
+      "advising": [
+        "校内本科科研共同指导",
+        "学校未来技术学院同题报道具名白翔和梁定康指导李尚儒与王书涵，并说明该项目与华为海思联合研发。",
+        "https://news.hust.edu.cn/info/1004/59339.htm"
+      ],
+      "extra": [
+        [
+          "公开作者稿与逐名贡献说明",
+          "https://arxiv.org/html/2603.15620v3#Pt0.A1"
+        ],
+        [
+          "ECCV 会议录用名单",
+          "https://eccv.ecva.net/Conferences/2026/AcceptedPapers"
+        ],
+        [
+          "论文的官方研究项目",
+          "https://h-embodvis.github.io/DOMINO/"
+        ]
+      ],
+      "evidence": "ECCV 正式版与作者稿附录 0.A 逐名列出角色：李尚儒负责基准设计与数据流水线，王书涵参与模型训练与评估；Xuanyang Xi署华为，和两位校内教师一起负责项目指导。华中科技大学未来技术学院同题报道确认李尚儒与王书涵均为 2024 级在读本科生、受白翔与梁定康指导，并说明同一项目由学校与华为海思联合研发。华为名下同期机械臂标定专利交叉核对Xuanyang Xi的企业研发身份。",
+      "id": "huawei-domino-hust-tre69v0aaaaj",
+      "faculty": [
+        "梁定康 · Dingkang Liang",
+        "本篇正式版本的校方通讯作者；校方具名确认其指导学生的本项研究。",
+        "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm"
+      ]
+    },
+    {
+      "paperId": "doi:10.1007/978-3-032-37592-6_18",
+      "company": "华为",
+      "team": "华为海思联合研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
+      "short": "DOMINO",
+      "date": "2026-09-14",
+      "venue": "ECCV 2026",
+      "area": "具身智能与机器人操作",
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
+      "student": [
+        "李尚儒 · Shangru Li",
+        "华中科技大学未来技术学院 2024 级在读本科生；参与本篇动态操作基准设计、数据流水线、实验评估和论文写作。",
+        "https://news.hust.edu.cn/info/1004/59339.htm"
+      ],
+      "employee": [
+        "Xuanyang Xi",
+        "ECCV 正式版署华为；同篇作者贡献附录具名为项目指导人，华为机械臂标定专利著录列为发明人。",
+        "https://k-knowledge.kr/srch/read.jsp?id=290738126"
+      ],
+      "advising": [
+        "校内本科科研共同指导",
+        "学校未来技术学院同题报道具名白翔和梁定康指导李尚儒与王书涵，并说明该项目与华为海思联合研发。",
+        "https://news.hust.edu.cn/info/1004/59339.htm"
+      ],
+      "extra": [
+        [
+          "公开作者稿与逐名贡献说明",
+          "https://arxiv.org/html/2603.15620v3#Pt0.A1"
+        ],
+        [
+          "ECCV 会议录用名单",
+          "https://eccv.ecva.net/Conferences/2026/AcceptedPapers"
+        ],
+        [
+          "论文的官方研究项目",
+          "https://h-embodvis.github.io/DOMINO/"
+        ]
+      ],
+      "evidence": "ECCV 正式版与作者稿附录 0.A 逐名列出角色：李尚儒负责基准设计与数据流水线，王书涵参与模型训练与评估；Xuanyang Xi署华为，和两位校内教师一起负责项目指导。华中科技大学未来技术学院同题报道确认李尚儒与王书涵均为 2024 级在读本科生、受白翔与梁定康指导，并说明同一项目由学校与华为海思联合研发。华为名下同期机械臂标定专利交叉核对Xuanyang Xi的企业研发身份。",
+      "id": "huawei-domino-hust-ueltiq4aaaaj",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "本篇正式版本的华中科技大学作者；校方具名确认其共同指导学生的本项研究。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ]
     }
   ]
 };

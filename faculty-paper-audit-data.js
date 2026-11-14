@@ -723,7 +723,9 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2604.28196v2",
       "https://www.aicitychallenge.org/2026-challenge-winners/",
       "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026",
-      "https://news.hust.edu.cn/info/1004/59339.htm"
+      "https://news.hust.edu.cn/info/1004/59339.htm",
+      "https://h-embodvis.github.io/DOMINO/",
+      "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18"
     ],
     "papers": [
       {
@@ -812,10 +814,11 @@ const facultyPaperAudits = {
         "outcome": "lead"
       },
       {
+        "year": 2026,
         "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
-        "url": "https://arxiv.org/html/2603.15620v2",
-        "note": "Heng Fang 本人及名录指出华科在读及研究生导师，名录列华为实习；论文署华为，未写实习发生时间、人员及项目对应，且需正式员工身份来源。",
-        "outcome": "lead"
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
+        "outcome": "confirmed",
+        "note": "ECCV 正式版与作者稿附录 0.A 逐名列出角色：李尚儒负责基准设计与数据流水线，王书涵参与模型训练与评估；Xuanyang Xi署华为，和两位校内教师一起负责项目指导。华中科技大学未来技术学院同题报道确认李尚儒与王书涵均为 2024 级在读本科生、受白翔与梁定康指导，并说明同一项目由学校与华为海思联合研发。华为名下同期机械臂标定专利交叉核对Xuanyang Xi的企业研发身份。"
       },
       {
         "title": "CAPE: Camera View Position Embedding for Multi-View 3D Object Detection",
@@ -17390,7 +17393,9 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2604.28196v2",
       "https://www.aicitychallenge.org/2026-challenge-winners/",
       "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026",
-      "https://news.hust.edu.cn/info/1004/59339.htm"
+      "https://news.hust.edu.cn/info/1004/59339.htm",
+      "https://h-embodvis.github.io/DOMINO/",
+      "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18"
     ],
     "papers": [
       {
@@ -17412,10 +17417,11 @@ const facultyPaperAudits = {
         "outcome": "lead"
       },
       {
+        "year": 2026,
         "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
-        "url": "https://arxiv.org/html/2603.15620v2",
-        "note": "Heng Fang 本人及名录指出华科在读及研究生导师，名录列华为实习；论文署华为，未写实习发生时间、人员及项目对应，且需正式员工身份来源。",
-        "outcome": "lead"
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
+        "outcome": "confirmed",
+        "note": "ECCV 正式版与作者稿附录 0.A 逐名列出角色：李尚儒负责基准设计与数据流水线，王书涵参与模型训练与评估；Xuanyang Xi署华为，和两位校内教师一起负责项目指导。华中科技大学未来技术学院同题报道确认李尚儒与王书涵均为 2024 级在读本科生、受白翔与梁定康指导，并说明同一项目由学校与华为海思联合研发。华为名下同期机械臂标定专利交叉核对Xuanyang Xi的企业研发身份。"
       },
       {
         "title": "CAPE: Camera View Position Embedding for Multi-View 3D Object Detection",
@@ -33907,5 +33913,49 @@ const facultyPaperAudits = {
       }
     ],
     "note": "以港中大院系档案锁定作者，交叉核对本人公开书目、履历、ORCID、DBLP 和正式论文全文，共逐篇检查 11 项范围内论文。将同题预印本与正式版本合并；ORCID 另列的博士学位论文不计，2027 年 CenKL 截至 2026-11-12 仅自列待发表、未找到同期公开全文，亦未计入。"
+  },
+  "Vg54TcsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://yanweifu.github.io/zh/",
+      "https://yanweifu.github.io/Papers",
+      "https://sixiaozheng.github.io/",
+      "https://sixiaozheng.github.io/SixiaoZheng_Fudan_PhD_Video_World_Model.pdf",
+      "https://wbhu.github.io/",
+      "https://github.com/TencentARC/VerseCrafter"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_VerseCrafter_Dynamic_Realistic_Video_World_Model_with_4D_Geometric_Control_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "CVPR 2026 正式论文具名复旦博士郑思晓、复旦导师付彦伟、腾讯资深研究员胡文博；郑思晓本人简历列 2023 年 9 月起在复旦读博且导师为付彦伟、2025 年 5 月起在腾讯 ARC Lab 做视频生成研究实习，明确在该组跟随胡文博。项目首发于 2026 年 1 月；同月郑思晓亲自在腾讯官方项目仓库提交模型推理代码；付彦伟本人也将这篇确认为腾讯 ARC Lab 等合作研发，胡文博个人履历列 2023 年 12 月起在该组正式任职，公开书目列同篇论文。"
+      },
+      {
+        "year": 2026,
+        "title": "VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation",
+        "url": "https://doi.org/10.1109/TVCG.2026.3688720",
+        "outcome": "lead",
+        "note": "TVCG 作者简介明确复旦博士郑思晓在读由付彦伟指导，华为诺亚研究科学家 Yanpeng Zhou 同篇；郑思晓 2024-06 至 2025-04 在华为期间做视频生成，2025-02 首稿落在同期；但两版均未把学生署为华为，作者个人项目未明确记载在华为完成具体此项。待补参与归属。"
+      },
+      {
+        "year": 2026,
+        "title": "WorldPrism: 3D Consistency for Video World Models via Bidirectional Cross-Space Verification",
+        "url": "https://sixiaozheng.github.io/",
+        "outcome": "no-evidence",
+        "note": "郑思晓与腾讯胡文博等同篇，但付彦伟未署名，本教师口径不入库；可另查第一作者的校内导师。"
+      },
+      {
+        "year": 2025,
+        "title": "ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context",
+        "url": "https://ojs.aaai.org/index.php/AAAI/search/search?query=ContextualStory",
+        "outcome": "no-evidence",
+        "note": "郑思晓与复旦博士导师付彦伟两名作者，无第三位同期企业员工；主题与华为实习研究有交集也不补推。"
+      }
+    ],
+    "note": "以教师公开书目、作者项目及正式出版社交叉核验，逐篇补入；尚在梳理。"
   }
 };
