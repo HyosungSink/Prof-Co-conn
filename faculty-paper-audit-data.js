@@ -910,7 +910,9 @@ const facultyPaperAudits = {
     "through": "2026-11-12",
     "exhausted": false,
     "sources": [
-      "https://henglin-liu.github.io/HenglinLiu/"
+      "https://henglin-liu.github.io/HenglinLiu/",
+      "https://github.com/RyanLiu112",
+      "https://caip.org.cn/news/detail?id=29199"
     ],
     "papers": [
       {
@@ -918,6 +920,12 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_DiverseGRPO_Mitigating_Mode_Collapse_in_Image_Generation_via_Diversity-Aware_GRPO_CVPR_2026_paper.pdf",
         "outcome": "existing",
         "note": "同篇已在关系索引收录；导师和在快手实研证据已核实，不重复计数。"
+      },
+      {
+        "title": "Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b5758cf47184e79c7e3564a0285b5783-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文首页脚注挂在清华学生 Runze Liu 姓名后，明确在快手实习期间完成；同期本人学术履历列清华硕士学籍。"
       }
     ],
     "note": "仅核对刘恒林部分合作论文；本调查期完整题录待继续。"
@@ -2949,7 +2957,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://person.zju.edu.cn/shenyongliang",
-      "https://lll6gg.github.io/"
+      "https://lll6gg.github.io/",
+      "https://yanyc428.github.io/"
     ],
     "papers": [
       {
@@ -2957,6 +2966,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2605.15155",
         "outcome": "confirmed",
         "note": "Zhengxi Lu 为浙江大学在读博士，原文第一作者脚注明确该项目在美团实习期间完成；其主页列 2026 年 3 月起的美团 LongCat 实习及实习导师顾奇。"
+      },
+      {
+        "title": "VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/e812af67a942c21dd0104bd929f99da1-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "原文把具名实习脚注标在第一作者颜聿辰名后，明确该项工作是在美团实习期间完成；本人履历列在读博士和 2023 年 6 月至 2025 年 7 月的美团实习。"
+      },
+      {
+        "title": "MathFimer: Enhancing Mathematical Reasoning by Expanding Reasoning Steps through Fill-in-the-Middle Task",
+        "url": "https://arxiv.org/html/2502.11684",
+        "outcome": "confirmed",
+        "note": "原文把具名实习脚注标在第一作者颜聿辰名后，明确该项工作是在美团实习期间完成；本人履历列在读博士和 2023 年 6 月至 2025 年 7 月的美团实习。"
+      },
+      {
+        "title": "InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning",
+        "url": "https://arxiv.org/html/2602.06960",
+        "outcome": "confirmed",
+        "note": "在读博士颜聿辰完整履历列 2025 年 8 月至 2026 年 4 月为蚂蚁 Ling 实习生；论文「Conflict of Interest」明确具名其为蚂蚁实习生、在论文使用蚂蚁团队研发算法，并在致谢具名蚂蚁研究实习生项目。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -2998,7 +3025,25 @@ const facultyPaperAudits = {
       "https://openaccess.thecvf.com/content/ICCV2025/papers/Lai_Unleashing_Vecset_Diffusion_Model_for_Fast_Shape_Generation_ICCV_2025_paper.pdf",
       "https://github.com/Tencent-Hunyuan/FlashVDM",
       "https://arxiv.org/abs/2609.34621",
-      "https://github.com/wangjiangshan0725/Tex-Zero"
+      "https://github.com/wangjiangshan0725/Tex-Zero",
+      "https://arxiv.org/abs/2610.10342",
+      "https://ouyangziheng.github.io/Position-Forcing-Page/",
+      "https://zeqiang-lai.github.io/research.html",
+      "https://arxiv.org/abs/2610.06801",
+      "https://arxiv.org/pdf/2610.06801",
+      "https://arxiv.org/abs/2512.03043",
+      "https://tulerfeng.github.io/",
+      "https://manyuan97.github.io/",
+      "https://arxiv.org/pdf/2512.03043v1",
+      "https://xyue.io/publications.html",
+      "https://aclanthology.org/2026.findings-acl.95/",
+      "https://aclanthology.org/2026.findings-acl.95.pdf",
+      "https://doi.org/10.1109/CVPRF71909.2026.00431",
+      "https://onevfall.github.io/personal_page/",
+      "https://xinntao.github.io/",
+      "https://github.com/KlingAIResearch/VideoCanvas",
+      "https://arxiv.org/html/2510.08555v1",
+      "https://onevfall.github.io/project_page/videocanvas/"
     ],
     "papers": [
       {
@@ -3060,6 +3105,36 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2609.34621",
         "outcome": "confirmed",
         "note": "项目原始作者名册具名赖泽强同时署香港中文大学和腾讯混元，且担任本篇项目负责人；学生研究书目列出项目，项目开始时的企业在读履历已核实。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+      },
+      {
+        "title": "Position Forcing: Self-Conditioning 3D Generation",
+        "url": "https://arxiv.org/abs/2610.10342",
+        "outcome": "confirmed",
+        "note": "正式项目原始作者表标记赖泽强为本篇项目负责人，并列他的腾讯混元与香港中文大学双重署名；学生本人同期履历明确从 2025 年起为混元实习生，博士导师是同篇香港中文大学作者岳翔宇。已确认同篇腾讯通讯作者 Chunchao Guo 的混元负责人身份。"
+      },
+      {
+        "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+        "url": "https://arxiv.org/abs/2610.06801",
+        "outcome": "confirmed",
+        "note": "论文 PDF 首页标记赖泽强为本篇项目负责人，并列他的腾讯混元与香港中文大学双重署名；学生本人同期履历明确从 2025 年起为混元实习生，博士导师是同篇香港中文大学作者岳翔宇。已确认同篇腾讯通讯作者 Chunchao Guo 的混元负责人身份。"
+      },
+      {
+        "title": "OneThinker: All-in-one Reasoning Model for Image and Video",
+        "url": "https://arxiv.org/abs/2512.03043",
+        "outcome": "confirmed",
+        "note": "正式原稿为唯一第一作者 Kaituo Feng 具体标注美团 LongCat 和港中文双单位，美团团队为本篇明确合作方，同一作者表同时具名企业项目负责人。"
+      },
+      {
+        "title": "Exploring Reasoning Reward Model for Agents",
+        "url": "https://aclanthology.org/2026.findings-acl.95/",
+        "outcome": "confirmed",
+        "note": "正式论文为主作者 Kaituo Feng 具体标注美团和港中文双单位，公司员工 Manyuan Zhang 为项目负责人。学生导师岳翔宇本人于正式论文中共同署名及担任通讯作者。"
+      },
+      {
+        "title": "VideoCanvas: Unified Video Completion from Arbitrary Spatiotemporal Patches via In-Context Conditioning",
+        "url": "https://doi.org/10.1109/CVPRF71909.2026.00431",
+        "outcome": "confirmed",
+        "note": "论文与作者原始项目把在快手可灵完成本篇的脚注标给第一作者蔡明宏。蔡本人资料确认同期港中文在读和同篇通讯作者岳翔宇的博士导师身份；同篇作者王鑫涛的个人履历确认其领导可灵多模态生成团队及对应研发。"
       }
     ]
   },
@@ -4504,7 +4579,15 @@ const facultyPaperAudits = {
       "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee#new_tab",
       "https://jinchaoli.com/",
       "https://aclanthology.org/2026.findings-acl.1306.pdf",
-      "https://github.com/Tongyi-Zhiwen/Qwen-Doc"
+      "https://github.com/Tongyi-Zhiwen/Qwen-Doc",
+      "https://doi.org/10.1145/3711896.3737248",
+      "https://phoveran.fyi/",
+      "https://sites.google.com/view/lijia",
+      "https://cdn.aaai.org/ojs/5357/5357-13-8582-1-10-20200508.pdf",
+      "https://arxiv.org/html/2506.11037v1",
+      "https://doi.org/10.1145/3770854.3783924",
+      "https://patents.google.com/patent/US10728033B2/en",
+      "https://www.youtube.com/watch?v=eEMgqDldqZQ"
     ],
     "papers": [
       {
@@ -4512,6 +4595,18 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.findings-acl.1306/",
         "outcome": "confirmed",
         "note": "第一作者彭淼的首页脚注具名写明在阿里巴巴通义实验室实习期间进行；其公开履历记录实习起止时间及同篇通讯作者 Jia Li 的博士导师身份。当期通义企业作者 Ming Yan 在该论文及多篇正式通义项目为企业通讯作者，并由在通义工作作者的履历确认其在通义实验室指导职责。"
+      },
+      {
+        "title": "Mini-Game Lifetime Value Prediction in WeChat",
+        "url": "https://doi.org/10.1145/3711896.3737248",
+        "outcome": "confirmed",
+        "note": "本人明确逐项列为在读期间参与的微信企业研究；作者开放原稿记录微信小游戏投放系统的真实线上 A/B 实验，并具名列出资深腾讯研发合作者 Gong Chen。 学生公开主页同时明确在香港科技大学（广州）就读及 Jia Li 为本篇同署名的博士导师。"
+      },
+      {
+        "title": "Merchant Category Identification in Weixin Pay",
+        "url": "https://doi.org/10.1145/3770854.3783924",
+        "outcome": "confirmed",
+        "note": "本人明确逐项列为参与的微信支付企业研究；该论文作者表及 ACM 公开报告明确指向腾讯微信支付体系，并非将另一腾讯实习自动归于本篇。 学生公开主页同时明确在香港科技大学（广州）就读及 Jia Li 为本篇同署名的博士导师。"
       }
     ]
   },
@@ -6566,7 +6661,8 @@ const facultyPaperAudits = {
       "https://wmeiqi.github.io/",
       "https://arxiv.org/pdf/2603.22212",
       "https://arxiv.org/pdf/2507.11245v1",
-      "https://arxiv.org/html/2601.20504"
+      "https://arxiv.org/html/2601.20504",
+      "https://arxiv.org/pdf/2510.14847v2"
     ],
     "papers": [
       {
@@ -6592,6 +6688,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2601.20504",
         "outcome": "confirmed",
         "note": "论文明确说明国科大学生在阿里高德实习时完成；学籍、具名指导及阿里任职各有公开材料。"
+      },
+      {
+        "title": "ImagerySearch: Adaptive Test-Time Search for Video Generation Beyond Semantic Dependency Constraints",
+        "url": "https://arxiv.org/pdf/2510.14847v2",
+        "outcome": "confirmed",
+        "note": "预印本 PDF 的星号只标武美奇，明确将本论文工作对应她在高德的实习。"
       }
     ],
     "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
@@ -6916,6 +7018,199 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "唐嘉晋本人确认师从杨思蓓，但博士注册于上海科技大学；原文杨思蓓标中山大学。未查到在研究期间其与中山大学的联合培养或正式共同指导，因此暂不纳入。"
+      }
+    ]
+  },
+  "T4gqdPkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.ai.pku.edu.cn/info/1139/2949.htm",
+      "https://jianzongwu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "VMoBA: Mixture-of-Block Attention for Video Diffusion Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d6c4014ff8d95025aa35d831c0f81faa-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文明确写研究在第一作者吴健宗的快手可灵实习期间完成；本人主页说明 2024 年 12 月开始可灵实习及北大博士学籍。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "BN2Ze-QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2606.13679",
+      "https://zhengdian1.github.io/",
+      "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-hongsheng-li",
+      "https://manyuan97.github.io/",
+      "https://arxiv.org/pdf/2606.13679",
+      "https://arxiv.org/abs/2512.05965",
+      "https://arxiv.org/html/2512.05965v1"
+    ],
+    "papers": [
+      {
+        "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+        "url": "https://arxiv.org/abs/2606.13679",
+        "outcome": "confirmed",
+        "note": "论文首页将美团实习注释具名挂给第一作者郑典，并标示产业项目负责人 Manyuan Zhang 与香港中文大学的通讯作者李鸿升；学生本人记录实习起止和两端导师姓名。"
+      },
+      {
+        "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+        "url": "https://arxiv.org/abs/2512.05965",
+        "outcome": "confirmed",
+        "note": "论文原稿把在读博士郑典逐人绑定港中文与美团两个单位，学生列本篇为研究成果，公开履历给出同期美团实习及具名企业导师 Manyuan Zhang，并明确同篇李鸿升为其博士导师。"
+      }
+    ]
+  },
+  "RxvYlNQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~zhaodongbin",
+      "https://fyqqyf.github.io/",
+      "https://gjyin.github.io/",
+      "https://github.com/Simple-Efficient/Tool-Factory",
+      "https://people.ucas.edu.cn/~0001598"
+    ],
+    "papers": [
+      {
+        "title": "SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning",
+        "url": "https://openreview.net/pdf?id=n6E0r6kQWQ",
+        "outcome": "confirmed",
+        "note": "傅宇千公开履历将本篇对应美团实习，正式论文与双方人员身份一致。"
+      },
+      {
+        "title": "RLAE: Reinforcement Learning-Assisted Ensemble for LLMs",
+        "url": "https://aclanthology.org/2025.emnlp-main.680.pdf",
+        "outcome": "confirmed",
+        "note": "傅宇千公开履历将本篇对应美团实习，正式论文与双方人员身份一致。"
+      },
+      {
+        "title": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+        "url": "https://arxiv.org/html/2603.25562",
+        "outcome": "lead",
+        "note": "部分方法与字节实习项目吻合，但论文未署字节；Zhuo Jiang 为独立研究者，未确认研究时的公司身份和论文关系。"
+      }
+    ],
+    "note": "已核对傅宇千公开履历所涉主要论文，未覆盖该教师全部合作者和书目。"
+  },
+  "AMnkOiIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~zhuyuanheng",
+      "https://fyqqyf.github.io/",
+      "https://gjyin.github.io/",
+      "https://github.com/Simple-Efficient/Tool-Factory",
+      "https://people.ucas.edu.cn/~0001598"
+    ],
+    "papers": [
+      {
+        "title": "SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning",
+        "url": "https://openreview.net/pdf?id=n6E0r6kQWQ",
+        "outcome": "confirmed",
+        "note": "傅宇千公开履历将本篇对应美团实习，正式论文与双方人员身份一致。"
+      },
+      {
+        "title": "RLAE: Reinforcement Learning-Assisted Ensemble for LLMs",
+        "url": "https://aclanthology.org/2025.emnlp-main.680.pdf",
+        "outcome": "confirmed",
+        "note": "傅宇千公开履历将本篇对应美团实习，正式论文与双方人员身份一致。"
+      },
+      {
+        "title": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+        "url": "https://arxiv.org/html/2603.25562",
+        "outcome": "lead",
+        "note": "部分方法与字节实习项目吻合，但论文未署字节；Zhuo Jiang 为独立研究者，未确认研究时的公司身份和论文关系。"
+      }
+    ],
+    "note": "已核对傅宇千公开履历所涉主要论文，未覆盖该教师全部合作者和书目。"
+  },
+  "pGZtPjcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/ChenLiang",
+      "https://zzoomd.github.io/",
+      "https://www.cse.cuhk.edu.hk/upcoming-events/learning-molecular-graphs-under-label-scarcity-and-distribution-shift/",
+      "https://edisonleeeee.github.io/",
+      "https://isda2023.github.io/",
+      "https://chenliang.tech/publications"
+    ],
+    "papers": [
+      {
+        "title": "Measuring Diversity in Synthetic Datasets",
+        "url": "https://proceedings.mlr.press/v267/zhu25ac.html",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ICML 正式论文首页标明朱裕昌在腾讯 AI Lab 实习期间完成该研究，其履历逐篇将此成果列为腾讯实习产出。中大博士导师陈亮和当时的腾讯 AI Lab 研究员卞亚涛共同通讯。"
+      },
+      {
+        "title": "A Graph Is Worth 1-Bit Spikes: When Graph Contrastive Learning Meets Spiking Neural Networks",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/abb4847bbd60f38b1b7649d26c7a0067-Paper-Conference.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文首页明确标明李金膛在蚂蚁集团实习时完成该研究，与中大博士导师陈亮及蚂蚁高级工程师 Baokun Wang 共同署名。李金膛本人列出其研究时的中大博士学籍、校内指导者及蚂蚁实习时段。"
+      },
+      {
+        "title": "One Fits All: Learning Fair Graph Neural Networks for Various Sensitive Attributes",
+        "url": "https://arxiv.org/html/2406.13544v1",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "在读博士和企业作者均可核实，原文未说明这篇论文在实习期间完成；学生履历只把后续 ICML 论文明确列为腾讯实习成果。"
+      },
+      {
+        "title": "LoopGR: Parameter-Efficient Scaling for Generative Recommendation via Recurrent Depth",
+        "url": "https://arxiv.org/html/2610.34157v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "原文明确列 Huizhe Zhang 在腾讯 PCG 实习时完成该研究，陈亮为校方通讯；仍查具名导师或贡献声明。"
+      },
+      {
+        "title": "GT-SNT: A Linear-Time Transformer for Large-Scale Graphs via Spiking Node Tokenization",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38667",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "正式出版页的署名机构包括中山大学和厦门大学，未发现范围内企业作者。"
+      },
+      {
+        "title": "SGHormer: An Energy-Saving Graph Transformer Driven by Spikes",
+        "url": "https://arxiv.org/abs/2403.17656",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "查作者与机构，未见企业署名或本篇学生参与企业研究的公开记录。"
+      },
+      {
+        "title": "Scalable and Efficient Joint Spiking Embedding Predictive Architecture for Large-Scale Dynamic Graphs",
+        "url": "https://arxiv.org/abs/2607.18412",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "预印本作者为已知校内研究组成员，未发现同篇企业署名或具名项目材料。"
+      }
+    ]
+  },
+  "j-HxRy0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://marswhu.github.io/index.html"
+    ],
+    "papers": [
+      {
+        "title": "FedPissa: Towards Federated Personalized Adaptation of Foundation Models via LoRA Subspace Mapping",
+        "url": "https://proceedings.mlr.press/v306/he26p.html",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ICML 论文具名黄文柯在腾讯实习，实习者在本篇只署南洋理工；武汉大学公开资料已证实曾就读，尚需确认他参与该研究时是否仍在武大攻读博士。"
       }
     ]
   }
