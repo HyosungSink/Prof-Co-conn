@@ -2738,6 +2738,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2412.14780",
         "outcome": "lead",
         "note": "Ziang Ye 把该成果明确列在 Qwen 实习经历并具名列企业导师马坚鑫；但公开履历中的实习（2024 年 2–9 月）和冯福利硕士指导（2024 年 9 月起）仅在同一个月份相接，尚未找到本科时同项目指导或项目延续到研究生阶段的具体证据。"
+      },
+      {
+        "title": "Leveraging Unpaired Feedback for Long-Term LLM-based Recommendation Tuning",
+        "url": "https://aclanthology.org/2025.findings-emnlp.1332.pdf",
+        "outcome": "confirmed",
+        "note": "中科大博士生 Jizhi Zhang 是正式版本的第一作者；首页明确标注他在美团实习期间完成这项研究。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -4325,7 +4331,10 @@ const facultyPaperAudits = {
       "https://ise.sysu.edu.cn/teacher/LiangXiaodan",
       "https://menik1126.github.io/Jing_Xiong_s_CV_10_25.pdf",
       "https://menik1126.github.io/",
-      "https://dblp.org/pid/78/3967.html"
+      "https://dblp.org/pid/78/3967.html",
+      "https://zhanglk9.github.io/",
+      "https://chen-xw.github.io/",
+      "https://xuhangcn.github.io/"
     ],
     "papers": [
       {
@@ -4345,9 +4354,45 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2310.00656",
         "outcome": "lead",
         "note": "正式版有华为人员，熊璟已证实同期在华为从事定理证明；尚未在本人实习任务或官方材料中找到此篇具名关联。"
+      },
+      {
+        "title": "AtomicVLA: Unlocking the Potential of Atomic Skill Learning in Robots",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_AtomicVLA_Unlocking_the_Potential_of_Atomic_Skill_Learning_in_Robots_CVPR_2026_paper.html",
+        "note": "正式论文的第一作者与通讯作者分别为张立魁和梁小丹，徐航署引望。学生本人具体列出该课题，华为年报披露引望承接其智能汽车解决方案；按论文中的引望团队名称展示。",
+        "outcome": "confirmed"
+      },
+      {
+        "title": "Latent Visual States for Efficient Multimodal Reasoning",
+        "url": "https://arxiv.org/pdf/2606.24233",
+        "note": "作者原文将 D-GSPO 列为方法，张立魁的实习履历点名该训练项目；梁小丹为校方通讯作者，徐航为引望企业作者，同篇另有华为诺亚方舟实验室署名。",
+        "outcome": "confirmed"
+      },
+      {
+        "title": "SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation",
+        "url": "https://openreview.net/pdf?id=LKoDSviFpL",
+        "note": "原文具名第一作者 Zisheng Chen 在华为实习，还需独立证实该生由梁小丹具名指导。Xiuwei Chen 的校内导师与同期华为实习已核，需补他个人对此篇的企业角色。",
+        "outcome": "lead"
+      },
+      {
+        "title": "TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba",
+        "url": "https://arxiv.org/abs/2502.15130",
+        "note": "初版处于第一作者在华为实习期间，法人研究人员同时也是其具名企业导师；仍查作者是否有单独资料直接把本题列为实习任务。",
+        "outcome": "lead"
+      },
+      {
+        "title": "SyncLoop: A Multimodal Dual-Loop Framework for Self-Improving Mathematical Reasoning",
+        "url": "https://arxiv.org/abs/2507.16518",
+        "note": "首版原文署学校与华为实验室，学生当月处在公开实习履历中；待文献或项目说明具名确认具体参与形式。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Beyond the Eye: Efficient Multimodal Reasoning Via Self-Regulated Implicit Visual Tools",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3745877",
+        "note": "同篇有引望员工与中山大学指导教师，且学生公开实习期吻合；尚缺对本篇项目的具体企业职责来源。",
+        "outcome": "lead"
       }
     ],
-    "note": "已逐篇核对首批自动定理证明论文，其他公开成果仍在梳理。"
+    "note": "已逐篇梳理部分自动定理证明与多模态成果；其余公开书目仍在核查。"
   },
   "W-FGd_UAAAAJ": {
     "from": "2023-01-01",
@@ -4572,5 +4617,330 @@ const facultyPaperAudits = {
       }
     ],
     "note": "交叉核对本人书目、ORCID、DBLP、学位机构书目、arXiv 与出版社署名；对时间窗内可归属的公开论文、预印本和学位论文均已逐条核验。"
+  },
+  "oTU0v5IAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html",
+      "https://wangruinlp.github.io/",
+      "https://yikang0131.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Enhancing Machine Translation with Self-Supervised Preference Data",
+        "url": "https://aclanthology.org/2025.acl-long.1165.pdf",
+        "outcome": "confirmed",
+        "note": "论文第一作者 Haoxiang Sun 署上海交大；首页以星号注明本项研究在通义实验室实习期间完成。"
+      },
+      {
+        "title": "Draft Model Knows When to Stop: Self-Verification Speculative Decoding for Long-Form Generation",
+        "url": "https://aclanthology.org/2025.emnlp-main.844.pdf",
+        "outcome": "confirmed",
+        "note": "正式版本列 Ziyin Zhang 为第一作者且脚注明确具名标注此项工作在腾讯实习期间完成。"
+      },
+      {
+        "title": "Translationese-index: Using Likelihood Ratios for Graded and Generalizable Measurement of Translationese",
+        "url": "https://arxiv.org/abs/2507.12260",
+        "outcome": "confirmed",
+        "note": "正式版具名实习脚注、刘逸康本人公开的硕士导师记录和唐家龙在阿里通义任职记录均已核对。"
+      },
+      {
+        "title": "Debt Collection Negotiations with Large Language Models: An Evaluation System and Optimizing Decision Making with Multi-Agent",
+        "url": "https://arxiv.org/abs/2502.18228",
+        "outcome": "lead",
+        "note": "王瑞名录和正式版脚注确认 Xiaofeng Wang 在校期间在蚂蚁实习完成此项工作；两位蚂蚁署名作者尚缺独立任职来源。"
+      },
+      {
+        "title": "Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models",
+        "url": "https://arxiv.org/abs/2402.14007",
+        "outcome": "lead",
+        "note": "论文只有校园及企业署名；星号表示等贡献，暂无本项工作在企业完成的具名实习证据。"
+      },
+      {
+        "title": "A Systematic Assessment of Language Models with Linguistic Minimal Pairs in Chinese",
+        "url": "https://aclanthology.org/2026.tacl-1.34.pdf",
+        "outcome": "confirmed",
+        "note": "正式版具名实习脚注、刘逸康本人公开的硕士导师记录和唐家龙在阿里通义任职记录均已核对。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "ewA4NAcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2026.emnlp-main.1392/",
+      "https://aclanthology.org/2026.emnlp-main.1392.pdf",
+      "https://www1.se.cuhk.edu.hk/~textmine/",
+      "http://www.se.cuhk.edu.hk/people/wlam.html",
+      "https://tqfang.github.io/",
+      "https://aclanthology.org/2024.findings-acl.730/",
+      "https://aclanthology.org/2024.findings-acl.730.pdf",
+      "https://wwxu21.github.io/",
+      "https://jcyk.github.io/",
+      "https://arxiv.org/abs/2605.01688",
+      "https://arxiv.org/html/2605.01688",
+      "https://ysunbp.github.io/cv.pdf",
+      "https://arxiv.org/abs/2607.00394",
+      "https://arxiv.org/html/2607.00394",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf"
+    ],
+    "papers": [
+      {
+        "title": "InComeS: Integrating Compression and Selection Mechanisms into LLMs for Efficient Model Editing",
+        "url": "https://aclanthology.org/2026.emnlp-main.1392/",
+        "outcome": "confirmed",
+        "note": "首页在第一作者 Shuaiyi Li 和另一位作者位置以同符号标注研究期间在腾讯 AI Lab 实习。Wai Lam 的大学站课题组把 Shuaiyi Li 列为 2022 年入学博士生。 教师与腾讯正式职员均在同篇按校、企署名。"
+      },
+      {
+        "title": "Reasons to Reject? Aligning Language Models with Judgments",
+        "url": "https://aclanthology.org/2024.findings-acl.730/",
+        "outcome": "confirmed",
+        "note": "论文首页第一作者脚注注明 Weiwen Xu 在腾讯 AI Lab 实习期间开展此研究。第一作者公开履历给出港中文博士在读时间 2020–2024，并具体列 Wai Lam 为博士导师。 教师与腾讯正式职员均在同篇按校、企署名。"
+      },
+      {
+        "title": "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
+        "url": "https://arxiv.org/abs/2605.01688",
+        "outcome": "confirmed",
+        "note": "论文首页或署名脚注明确对应 Bowen Cao 的腾讯实习工作。港中文教授 Wai Lam 的学校课题组网页具名列其为自己的在读博士生；两人均为同篇作者。同篇企业一方主要作者或通讯作者经公开履历确认研究期间受雇于腾讯。"
+      },
+      {
+        "title": "When Classic Cache Policies Fail: Learning-Augmented Replacement for Semantic Retrieval Buffers",
+        "url": "https://arxiv.org/abs/2607.00394",
+        "outcome": "confirmed",
+        "note": "论文首页或署名脚注明确对应 Bowen Cao 的腾讯实习工作。港中文教授 Wai Lam 的学校课题组网页具名列其为自己的在读博士生；两人均为同篇作者。同篇企业一方主要作者或通讯作者经公开履历确认研究期间受雇于腾讯。"
+      },
+      {
+        "title": "On the Worst Prompt Performance of Large Language Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "论文首页或署名脚注明确对应 Bowen Cao 的腾讯实习工作。港中文教授 Wai Lam 的学校课题组网页具名列其为自己的在读博士生；两人均为同篇作者。同篇企业一方主要作者或通讯作者经公开履历确认研究期间受雇于腾讯。"
+      }
+    ]
+  },
+  "-oTraZ4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02634.pdf",
+      "https://gyhdog99.github.io/files/CV_of_Yunhao.pdf",
+      "https://gyhdog99.github.io/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk",
+      "https://racheltechie.github.io/",
+      "https://gyhdog99.github.io/projects/ecso/",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_EMOVA_Empowering_Language_Models_to_See_Hear_and_Speak_with_CVPR_2025_paper.html",
+      "https://emova-ollm.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2023/html/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.html",
+      "https://sai.cuhk.edu.cn/en/teacher/331",
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02634.pdf",
+        "outcome": "confirmed",
+        "note": "华为诺亚资深研究员 Lanqing Hong 的技术履历将 ECSO 明列于该实验室的对齐项目，其团队也将苟耘豪列为本组实习生；苟耘豪本人项目页和论文署其为共同第一作者。 论文的另一位合著者 James T. Kwok 为学生具名港科大博士导师。"
+      },
+      {
+        "title": "EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_EMOVA_Empowering_Language_Models_to_See_Hear_and_Speak_with_CVPR_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "华为诺亚项目技术负责人 Lanqing Hong 明列 EMOVA 为其华为组于 2024 年发布的项目，具名学生苟耘豪是共同第一作者，公开履历显示在此确切时期由 Lanqing Hong 指导，在华为进行多模态模型研究。 论文的另一位合著者 James T. Kwok 为学生具名港科大博士导师。"
+      },
+      {
+        "title": "Leveraging per Image-Token Consistency for Vision-Language Pre-Training",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.html",
+        "outcome": "confirmed",
+        "note": "CVPR 正式论文首页明确注明第一作者苟耘豪在字节跳动 AI Lab 实习期间完成这项视觉语言预训练研究；个人履历明确标注该实习 2022 年 1 月至 2023 年 3 月并由同篇作者 Tom Ko 指导。港科大博士自 2022 年 9 月起，与上述工作后期及 2022 年 11 月的预印本节点重叠。 论文的另一位合著者 James T. Kwok 为学生具名港科大博士导师。"
+      }
+    ]
+  },
+  "2WsrETAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cheng-bdal.github.io/",
+      "https://kxlkxl1999.github.io/",
+      "https://www.xinghaochen.xyz/",
+      "https://proceedings.mlr.press/v306/kang26q.html",
+      "https://github.com/kxlkxl1999/MP-MoE"
+    ],
+    "papers": [
+      {
+        "title": "Breaking the Echo Chamber: A Dynamic Ensemble Pruning Perspective on MoE",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/kang26q/kang26q.pdf",
+        "outcome": "confirmed",
+        "note": "共同一作身份、本人项目、相同企业实验室的实习时间及其博士导师可交叉确认；正式论文仅双署名，无具名实习脚注。"
+      }
+    ],
+    "note": "仅针对已公开的华为相关论文扩查，未覆盖教师全部成果。"
+  },
+  "3RpqutsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://isbd.ruc.edu.cn/sztd/5f23bd0f39ab47899e1eafe32fcd6f83.htm",
+      "https://sites.google.com/view/wenlindai/research",
+      "https://sites.google.com/view/wenlindai/students",
+      "https://orcid.org/0000-0002-4858-1145",
+      "https://dblp.uni-trier.de/pid/203/7224.html",
+      "https://isbd.ruc.edu.cn/cslm/b59f1add104043d2a205770efec541f7.htm",
+      "https://sites.google.com/view/maoyuzhang/research",
+      "https://yansong996.github.io/",
+      "https://sapphirexdy.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "On difference-based gradient estimation in nonparametric regression",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/sam.11644",
+        "outcome": "no-evidence",
+        "note": "两作者均署中国人民大学；未发现目标企业员工合著。"
+      },
+      {
+        "title": "A Community Hawkes Model for Continuous-Time Networks with Interaction Heterogeneity",
+        "url": "https://www3.stat.sinica.edu.tw/statistica/j36n1/j36n109/j36n109.html",
+        "outcome": "no-evidence",
+        "note": "两作者均署中国人民大学，期刊收录 2026；未发现企业作者。"
+      },
+      {
+        "title": "Exploratory analysis of dynamic networks using latent functions",
+        "url": "https://link.springer.com/article/10.1007/s11222-025-10573-2",
+        "outcome": "no-evidence",
+        "note": "两作者均署中国人民大学；未发现目标企业员工合著。"
+      },
+      {
+        "title": "Fast Robust Location and Scatter Estimation: A Depth-based Method",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00401706.2023.2216246",
+        "outcome": "no-evidence",
+        "note": "三人均署中国人民大学；合并 arXiv:2305.07813。"
+      },
+      {
+        "title": "Fast Community Detection in Dynamic and Heterogeneous Networks",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10618600.2023.2232852",
+        "outcome": "no-evidence",
+        "note": "三人署中国人民大学或埃默里大学，论文使用 Yelp 评论数据不代表企业参与；合并 2022 预印本。"
+      },
+      {
+        "title": "Multiplex Depth for Network-Valued Data and Applications",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/10618600.2025.2475137",
+        "outcome": "no-evidence",
+        "note": "署名中国人民大学、埃默里大学和香港中文大学（深圳），未发现目标企业员工合著。"
+      },
+      {
+        "title": "Robust Functional Ward's Linkages With Applications in EEG Data Clustering",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42872565/",
+        "outcome": "no-evidence",
+        "note": "三人署安徽大学或中国人民大学，合并 arXiv:2501.11081。"
+      },
+      {
+        "title": "Large-Scale Low-Rank Gaussian Process Prediction with Support Points",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2403188",
+        "outcome": "no-evidence",
+        "note": "三人署中国人民大学或阿卜杜拉国王科技大学；人大官方报道确认为代文林与毕业生宋妍合作，未发现企业参与；合并 2022 预印本。"
+      },
+      {
+        "title": "Robust two-layer partition clustering of sparse multivariate functional data",
+        "url": "https://repository.kaust.edu.sa/server/api/core/bitstreams/7d41bf2e-4230-4496-928c-8853ecc129c4/content",
+        "outcome": "no-evidence",
+        "note": "中国人民大学与阿卜杜拉国王科技大学合作；2023 在线，2026 卷期；合并 2022 预印本。"
+      },
+      {
+        "title": "Optimal subsampling for principal component analysis",
+        "url": "https://link.springer.com/article/10.1007/s11425-023-2343-7",
+        "outcome": "no-evidence",
+        "note": "中国人民大学、西安交通大学与苏黎世联邦理工学院，未发现目标企业员工合著。"
+      },
+      {
+        "title": "Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning",
+        "url": "https://aclanthology.org/2026.emnlp-main.743.pdf",
+        "outcome": "no-evidence",
+        "note": "校内博士生薛敦耀具名列孟澄和代文林为导师；五作者全部为中国人民大学，未发现该论文关联目标企业员工；合并 arXiv:2609.18723。"
+      },
+      {
+        "title": "Exploratory functional data analysis",
+        "url": "https://link.springer.com/article/10.1007/s11749-024-00952-8",
+        "outcome": "no-evidence",
+        "note": "出版列中国人民大学、阿卜杜拉国王科技大学等高校合作，未发现目标企业员工合著。"
+      },
+      {
+        "title": "Rejoinder to the discussion on “Exploratory Functional Data Analysis”",
+        "url": "https://link.springer.com/article/10.1007/s11749-025-00976-8",
+        "outcome": "no-evidence",
+        "note": "与主论文分列的期刊讨论答复；未发现目标企业员工合著。"
+      },
+      {
+        "title": "Learning Brain Connectivity in Social Cognition with Dynamic Network Regression",
+        "url": "https://doi.org/10.1214/24-aoas1942",
+        "outcome": "no-evidence",
+        "note": "合作单位为中国人民大学和海外高校，未发现目标企业正式员工参与；合并 arXiv:2303.12677。"
+      },
+      {
+        "title": "Interplay between astrocyte reactivity and APOE ε4 status is associated with accelerated pTau-related tau pathology in Alzheimer’s disease",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12573940/",
+        "outcome": "no-evidence",
+        "note": "期刊列人大、医学院校及医院，未发现目标企业员工合著。"
+      },
+      {
+        "title": "Plasma Glial Fibrillary Acid Protein and Phosphorated Tau 181 Association with Presynaptic Density-Dependent Tau Pathology at 18F-SynVesT-1 Brain PET Imaging",
+        "url": "https://pubs.rsna.org/doi/10.1148/radiol.233019",
+        "outcome": "no-evidence",
+        "note": "核对代文林 ORCID；联合医院与医学成像机构，Shanghai Conlight Medical 不在企业调查范围。"
+      },
+      {
+        "title": "Deterministic subsampling for logistic regression with massive data",
+        "url": "https://link.springer.com/article/10.1007/s00180-022-01319-z",
+        "outcome": "no-evidence",
+        "note": "2022 在线、2024 卷期；校内师生两人，未发现目标企业员工合著。"
+      },
+      {
+        "title": "A Subsampling Method for Regression Problems Based on Minimum Energy Criterion",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2127915",
+        "outcome": "no-evidence",
+        "note": "2022 在线、2023 卷期；人大与北京理工大学人员合著，无目标企业。"
+      },
+      {
+        "title": "Rate-Preserving Shrinking-Support Gaussian Process Prediction",
+        "url": "https://arxiv.org/html/2609.31284",
+        "outcome": "no-evidence",
+        "note": "港科大（广州）、人大、阿卜杜拉国王科技大学、新加坡国立大学；未发现目标企业员工合著。"
+      },
+      {
+        "title": "Synthetic Data Augmentation for Functional Data: Wasserstein Risk Bounds and Diffusion-Based Conditional Generation",
+        "url": "https://arxiv.org/html/2610.34120",
+        "outcome": "no-evidence",
+        "note": "三作者署中国人民大学或西安交大，未发现目标企业员工合著。"
+      },
+      {
+        "title": "Statistical Depth for Interval Data: A Closeness-Based Approach and Its Applications",
+        "url": "https://arxiv.org/html/2609.24641",
+        "outcome": "no-evidence",
+        "note": "两作者均署中国人民大学；未发现目标企业员工合著。"
+      },
+      {
+        "title": "Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales",
+        "url": "https://arxiv.org/html/2609.32678",
+        "outcome": "no-evidence",
+        "note": "只列西安交通大学和中国人民大学，未发现目标企业参与。"
+      },
+      {
+        "title": "Optimal-k difference sequence in nonparametric regression",
+        "url": "https://international2023.icsa.org/wp-content/uploads/2023/07/ICSAHK2023ProgramBook-7.pdf",
+        "outcome": "no-evidence",
+        "note": "2022 预印本，2023 ICSA 会议报告；人大、北师大和香港浸会大学合作。"
+      },
+      {
+        "title": "An Innovative Subsampling Approach for Efficient SVM Training with Large Datasets",
+        "url": "https://doi.org/10.1109/icicml67980.2025.11333554",
+        "outcome": "lead",
+        "note": "Crossref 核实有 Wenlin Dai、Shuo Sun、Dianpeng Wang，后者曾与人大代文林合著；正式全文及作者单位尚未查证，不能断定企业或学籍身份。"
+      }
+    ],
+    "note": "逐篇核对 2023-01-01 至 2026-11-12 的 23 篇可归属公开成果，合并预印本与期刊版并排除清华语音、怀化化学、温州儿科及绵阳激光同名作者。尚有 1 篇 IEEE 会议作品待查署名机构，未标为全量完成。"
   }
 };
