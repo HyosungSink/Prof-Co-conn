@@ -26761,6 +26761,320 @@ const survey = {
           "https://arxiv.org/abs/2509.24948"
         ]
       ]
+    },
+    {
+      "id": "mineexplorer-meituan-sjtu-r0fiqbaaaaaj",
+      "paperId": "arxiv:2605.30931",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "刘功申 · Gongshen Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/liugongshen.html"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "鞠天杰 · Tianjie Ju",
+        "原文脚注直接具名该研究在鞠天杰与吴铮于美团实习期间完成；鞠天杰于 2026 年 6 月获得上海交通大学博士学位，初版 2026 年 5 月时仍在读。",
+        "https://jometeorie.github.io/"
+      ],
+      "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
+      "short": "MineExplorer",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2605.30931",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.30931"
+        ],
+        [
+          "实验室双导师记录",
+          "https://bcmi.sjtu.edu.cn/home/zhangzs/member.html"
+        ],
+        [
+          "美团 LongCat 技术报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "原文脚注直接具名该研究在鞠天杰与吴铮于美团实习期间完成；鞠天杰于 2026 年 6 月获得上海交通大学博士学位，初版 2026 年 5 月时仍在读。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "鞠天杰本人及交大实验室均具名列刘功申为学术博士导师，本篇作者表也列刘功申。",
+        "https://jometeorie.github.io/"
+      ]
+    },
+    {
+      "id": "xron-alibaba-pku-nhsdgbuaaaaj",
+      "paperId": "doi:10.1145/3603269.3604845",
+      "company": "阿里巴巴",
+      "team": "阿里云网络研究",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "金鑫 · Xin Jin",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1069/1635.htm"
+      ],
+      "employee": [
+        "翟恩南 · Ennan Zhai",
+        "2018 年加入阿里巴巴；ACM 2023 中国图灵大会列其为阿里云资深技术专家和网络研究负责人，本篇明确署阿里云。",
+        "https://www.acmturc.com/2023/en/mobile/SIGCOMM_China.html"
+      ],
+      "student": [
+        "Bingyang Wu",
+        "第一作者在北大攻读博士且自述于 2021 年 11 月至 2023 年 9 月在阿里达摩院任研究实习生；本研究直接服务阿里云视频会议，原文双署北大和阿里云并明确致谢阿里研究实习项目。",
+        "https://bingyangwu.github.io/"
+      ],
+      "title": "XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale",
+      "short": "XRON",
+      "date": "2023-09",
+      "venue": "ACM SIGCOMM 2023",
+      "area": "计算机网络与系统",
+      "paper": "https://xinjin.github.io/files/SIGCOMM23_XRON.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3603269.3604845"
+        ],
+        [
+          "第一作者的论文项目页",
+          "https://bingyangwu.github.io/publication/xron/"
+        ]
+      ],
+      "evidence": "第一作者在北大攻读博士且自述于 2021 年 11 月至 2023 年 9 月在阿里达摩院任研究实习生；本研究直接服务阿里云视频会议，原文双署北大和阿里云并明确致谢阿里研究实习项目。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Bingyang Wu 本人公开主页具名列金鑫为博士导师；金鑫为论文作者。",
+        "https://bingyangwu.github.io/"
+      ]
+    },
+    {
+      "id": "ali-rcts-ucas-xiang",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴多模态研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "向世明 · Shiming Xiang",
+        "中国科学院大学博士生导师、中国科学院自动化研究所研究员。",
+        "https://people.ucas.ac.cn/~xiangshiming"
+      ],
+      "employee": [
+        "张承灏 · Chenghao Zhang",
+        "国科大官方导师主页记载其于 2023 年博士毕业后赴阿里巴巴工作，本文中署阿里巴巴。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "student": [
+        "杨奇 · Qi Yang",
+        "中国科学院自动化研究所博士生；ICML 正式论文说明在阿里巴巴实习期间完成本工作。",
+        "https://yannqi.github.io/"
+      ],
+      "title": "Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger",
+      "short": "RCTS",
+      "date": "2025-07",
+      "venue": "ICML",
+      "area": "视觉与多模态",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25at/yang25at.pdf",
+      "evidence": "ICML 正式版首页注明杨奇在阿里巴巴实习期间完成此研究；同篇含校内博士生导师向世明及阿里员工张承灏。",
+      "advising": [
+        "校内博士生导师",
+        "杨奇本人主页说明就读于中科院自动化所、由向世明指导。",
+        "https://yannqi.github.io/"
+      ],
+      "extra": [
+        [
+          "PMLR 正式书目",
+          "https://proceedings.mlr.press/v267/yang25at.html"
+        ],
+        [
+          "第一作者本人主页连接的 GitHub 中文姓名",
+          "https://github.com/yannqi"
+        ]
+      ],
+      "paperId": "arxiv:2506.07785"
+    },
+    {
+      "id": "kuaishou-rgd-ucas-liutingwen",
+      "company": "快手",
+      "team": "推荐系统团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "中国科学院信息工程研究所研究员、博士生导师，国科大岗位教授。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "欧文武 · Wenwu Ou",
+        "2025 年回归快手，2026 年正式会议以快手身份署名，同篇论文亦署快手。",
+        "https://www2026.thewebconf.org/accepted/industry"
+      ],
+      "student": [
+        "杨若琛 · Ruochen Yang",
+        "2023 年起在中国科学院信息工程研究所就读；两篇论文分别在其姓名标注快手实习。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "title": "Reward Guided Decoding for Generative Recommendation",
+      "short": "RGD",
+      "date": "2026-07-28",
+      "venue": "arXiv 预印本",
+      "area": "推荐系统与信息检索",
+      "paper": "https://arxiv.org/pdf/2607.25344v1",
+      "evidence": "论文首页在杨若琛姓名后标星，说明本研究在快手实习期间完成；国科大导师柳厅文与快手在职研究人员同篇署名。",
+      "advising": [
+        "校内研究生导师",
+        "国科大官方个人页在现指导学生名单列杨若琛；同篇共同作者盛嘉伟主页亦在与柳厅文共同指导的名单列 Ruochen Yang。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "共同指导资料",
+          "https://jiaweisheng.github.io/"
+        ],
+        [
+          "同期快手任职报道",
+          "https://finance.sina.com.cn/tech/roll/2025-01-09/doc-ineeitpc6547801.shtml"
+        ]
+      ],
+      "paperId": "arxiv:2607.25344"
+    },
+    {
+      "id": "kuaishou-sarm-ucas-liutingwen",
+      "company": "快手",
+      "team": "推荐系统团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "中国科学院信息工程研究所研究员、博士生导师，国科大岗位教授。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "Jiangxia Cao",
+        "2024 年 IEEE 期刊作者履历已列为快手算法工程师，本文为署快手的共同通讯作者。",
+        "https://liutingwen.ac.cn/papers/TASLP2024-Enhancing_Multimodal_Entity_and_Relation_Extraction_with_Variational_Information_Bottleneck.pdf"
+      ],
+      "student": [
+        "杨若琛 · Ruochen Yang",
+        "2023 年起在中国科学院信息工程研究所就读；两篇论文分别在其姓名标注快手实习。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "title": "SARM: LLM-Augmented Semantic Anchor for End-to-End Live-Streaming Ranking",
+      "short": "SARM",
+      "date": "2026-02-10",
+      "venue": "arXiv 预印本",
+      "area": "推荐系统与信息检索",
+      "paper": "https://arxiv.org/pdf/2602.09401v1",
+      "evidence": "论文首页在杨若琛姓名后标星，说明本研究在快手实习期间完成；国科大导师柳厅文与快手在职研究人员同篇署名。",
+      "advising": [
+        "校内研究生导师",
+        "国科大官方个人页在现指导学生名单列杨若琛；同篇共同作者盛嘉伟主页亦在与柳厅文共同指导的名单列 Ruochen Yang。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "共同指导资料",
+          "https://jiaweisheng.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2602.09401"
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "达摩院自动驾驶实验室",
+      "area": "自动驾驶与三维视觉",
+      "faculty": [
+        "梁小丹 · Xiaodan Liang",
+        "中山大学智能工程学院教授；同篇通讯作者及博士导师。",
+        "https://ise.sysu.edu.cn/teacher/LiangXiaodan"
+      ],
+      "student": [
+        "唐涛 · Tao Tang",
+        "中山大学在读博士，2022 年 3 月至 2023 年 12 月在达摩院自动驾驶实验室实习；原文具名说明本篇在实习期间完成。",
+        "https://tangtaogo.github.io/"
+      ],
+      "employee": [
+        "Dayang Hao",
+        "同篇署阿里巴巴自动驾驶实验室；国际会议资料将其列为达摩院自动驾驶感知团队技术负责人。",
+        "https://agist.org/iccsi2022/AutumnSchoolBios.html"
+      ],
+      "advising": [
+        "博士导师",
+        "唐涛本人主页列梁小丹为在中山大学攻读博士时的导师。",
+        "https://tangtaogo.github.io/"
+      ],
+      "id": "alibaba-lidar-robustness-sysu-xiaodan-liang",
+      "title": "Benchmarking the Robustness of LiDAR-Camera Fusion for 3D Object Detection",
+      "short": "LiDAR-Camera Robustness",
+      "date": "2023-06",
+      "venue": "CVPR Workshops",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023W/E2EAD/papers/Yu_Benchmarking_the_Robustness_of_LiDAR-Camera_Fusion_for_3D_Object_Detection_CVPRW_2023_paper.pdf",
+      "evidence": "CVPR 工作坊出版原文把达摩院实习脚注具名标在中大唐涛身上，并列梁小丹为通讯作者、Dayang Hao 为阿里方作者。唐涛履历说明同期的中大学籍、校方导师和达摩院实习。",
+      "extra": [
+        [
+          "实习导师的同期履历",
+          "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "达摩院自动驾驶实验室",
+      "area": "自动驾驶与三维视觉",
+      "faculty": [
+        "梁小丹 · Xiaodan Liang",
+        "中山大学智能工程学院教授；同篇通讯作者及博士导师。",
+        "https://ise.sysu.edu.cn/teacher/LiangXiaodan"
+      ],
+      "student": [
+        "唐涛 · Tao Tang",
+        "中山大学在读博士，2022 年 3 月至 2023 年 12 月在达摩院自动驾驶实验室实习；原文具名说明本篇在实习期间完成。",
+        "https://tangtaogo.github.io/"
+      ],
+      "employee": [
+        "Dayang Hao",
+        "同篇署阿里巴巴自动驾驶实验室；国际会议资料将其列为达摩院自动驾驶感知团队技术负责人。",
+        "https://agist.org/iccsi2022/AutumnSchoolBios.html"
+      ],
+      "advising": [
+        "博士导师",
+        "唐涛本人主页列梁小丹为在中山大学攻读博士时的导师。",
+        "https://tangtaogo.github.io/"
+      ],
+      "id": "alibaba-lidarnerf-sysu-xiaodan-liang",
+      "title": "LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields",
+      "short": "LiDAR-NeRF",
+      "date": "2024-10",
+      "venue": "ACM Multimedia",
+      "paper": "https://doi.org/10.1145/3664647.3681482",
+      "arxiv": "2304.10406",
+      "evidence": "原文在唐涛名下标注研究于达摩院实习期间完成。正式出版名单与研究项目页都列中山大学博士导师梁小丹及阿里自动驾驶团队合作者 Dayang Hao。实习导师同期履历还把 LiDAR 点云仿真列为唐涛的实习课题。",
+      "extra": [
+        [
+          "开放原文与实习脚注",
+          "https://arxiv.org/html/2304.10406"
+        ],
+        [
+          "作者项目及各作者机构",
+          "https://tangtaogo.github.io/lidar-nerf-website/"
+        ],
+        [
+          "实习导师的同期履历",
+          "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf"
+        ]
+      ]
     }
   ]
 };

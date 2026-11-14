@@ -1165,7 +1165,10 @@ const facultyPaperAudits = {
       "https://cqu-student.github.io/",
       "https://lubinfan.github.io/",
       "https://openaccess.thecvf.com/content/CVPR2026/papers/Hong_CC-VQA_Conflict-_and_Correlation-Aware_Method_for_Mitigating_Knowledge_Conflict_in_CVPR_2026_paper.pdf",
-      "https://arxiv.org/html/2608.30209v1"
+      "https://arxiv.org/html/2608.30209v1",
+      "https://people.ucas.ac.cn/~gfmeng",
+      "https://yannqi.github.io/",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25at/yang25at.pdf"
     ],
     "papers": [
       {
@@ -1215,9 +1218,15 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2604.22678",
         "outcome": "lead",
         "note": "在读及阿里同期实习可核实，原文尚未找到直接把该学生的实习与该项目对应的依据。"
+      },
+      {
+        "title": "Re-ranking Reasoning Context with Tree Search Makes Large Vision-Language Models Stronger",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25at/yang25at.pdf",
+        "outcome": "confirmed",
+        "note": "ICML 正式版首页注明杨奇在阿里巴巴实习期间完成此研究；同篇含校内博士生导师向世明及阿里员工张承灏。"
       }
     ],
-    "note": "仅逐篇核对洪宇洋的部分结果，未覆盖向世明全部论文。"
+    "note": "已查部分学生项目、论文与正式会议，未覆盖全部书目。"
   },
   "qkdvKNoAAAAJ": {
     "from": "2023-01-01",
@@ -4847,7 +4856,10 @@ const facultyPaperAudits = {
       "https://zhanglk9.github.io/",
       "https://chen-xw.github.io/",
       "https://xuhangcn.github.io/",
-      "https://kun-xiang.github.io/"
+      "https://kun-xiang.github.io/",
+      "https://tangtaogo.github.io/",
+      "https://agist.org/iccsi2022/AutumnSchoolBios.html",
+      "https://tangtaogo.github.io/publications/"
     ],
     "papers": [
       {
@@ -4882,21 +4894,24 @@ const facultyPaperAudits = {
       },
       {
         "title": "SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation",
-        "url": "https://openreview.net/pdf?id=LKoDSviFpL",
-        "note": "原文具名第一作者 Zisheng Chen 在华为实习，还需独立证实该生由梁小丹具名指导。Xiuwei Chen 的校内导师与同期华为实习已核，需补他个人对此篇的企业角色。",
-        "outcome": "lead"
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/49ffa271264808cf500ea528ed8ec9b3-Paper-Conference.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "实习脚注专指第一作者 Zisheng Chen 而非同组 Xiuwei Chen；前者在读已确认，待找其具名校内导师。"
       },
       {
         "title": "TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba",
-        "url": "https://arxiv.org/abs/2502.15130",
-        "note": "初版处于第一作者在华为实习期间，法人研究人员同时也是其具名企业导师；仍查作者是否有单独资料直接把本题列为实习任务。",
-        "outcome": "lead"
+        "url": "https://arxiv.org/html/2502.15130",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "校内师生、两位华为员工和学生同期在华为实习均可核查；原文暂未找到将这份工作归为实习产出的说明。"
       },
       {
         "title": "SyncLoop: A Multimodal Dual-Loop Framework for Self-Improving Mathematical Reasoning",
-        "url": "https://arxiv.org/abs/2507.16518",
-        "note": "首版原文署学校与华为实验室，学生当月处在公开实习履历中；待文献或项目说明具名确认具体参与形式。",
-        "outcome": "lead"
+        "url": "https://arxiv.org/html/2507.16518v3",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "原文具名作者和华为研究人员，仍需查学生参与企业一侧的具体研究任务；C2-Evo 为同一稿件的旧题名。"
       },
       {
         "title": "Beyond the Eye: Efficient Multimodal Reasoning Via Self-Regulated Implicit Visual Tools",
@@ -4910,6 +4925,62 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "达摩院正式项目与 arXiv 原文均将项鲲列为核心作者、Xin Li 为项目负责人，梁小丹共同署名。学生本人履历明确区分其博士导师和企业实习导师。"
+      },
+      {
+        "title": "Benchmarking the Robustness of LiDAR-Camera Fusion for 3D Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023W/E2EAD/papers/Yu_Benchmarking_the_Robustness_of_LiDAR-Camera_Fusion_for_3D_Object_Detection_CVPRW_2023_paper.pdf",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "CVPR 工作坊出版原文把达摩院实习脚注具名标在中大唐涛身上，并列梁小丹为通讯作者、Dayang Hao 为阿里方作者。唐涛履历说明同期的中大学籍、校方导师和达摩院实习。"
+      },
+      {
+        "title": "LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields",
+        "url": "https://doi.org/10.1145/3664647.3681482",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "原文在唐涛名下标注研究于达摩院实习期间完成。正式出版名单与研究项目页都列中山大学博士导师梁小丹及阿里自动驾驶团队合作者 Dayang Hao。实习导师同期履历还把 LiDAR 点云仿真列为唐涛的实习课题。"
+      },
+      {
+        "title": "RoboPearls: Editable Video Simulation for Robot Manipulation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tao_RoboPearls_Editable_Video_Simulation_for_Robot_Manipulation_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "论文将唐涛的实习明确归于理想汽车，该公司不在本次调查范围；另一企业作者署字节跳动，但未见学生亦为字节开展该篇研究。"
+      },
+      {
+        "title": "OmniGen: Unified Multimodal Sensor Generation for Autonomous Driving",
+        "url": "https://westlake-autolab.github.io/assets/pdf/MM25_UniGen__Camera_ready.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式稿明确唐涛在理想汽车实习完成研究；未发现他在本篇参与范围内企业研究。"
+      },
+      {
+        "title": "UA-Track: Uncertainty-Aware End-to-End 3D Multi-Object Tracking",
+        "url": "https://liautoad.github.io/ua-track-website/",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "作者项目页和本人履历均将该时期的企业研究指向理想汽车，超出范围。"
+      },
+      {
+        "title": "S2-Track: A Simple yet Strong Approach for End-to-End 3D Multi-Object Tracking",
+        "url": "https://proceedings.mlr.press/v267/tang25p.html",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式版延续同一项理想汽车项目，超出企业范围；不把先期 UA-Track 另计关系。"
+      },
+      {
+        "title": "BEV-TSR: Text-Scene Retrieval in BEV Space for Autonomous Driving",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32782",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "AAAI 出版页面列唐涛、梁小丹和理想汽车作者；无范围内企业作者。"
+      },
+      {
+        "title": "AlignMiF: Geometry-Aligned Multimodal Implicit Field for LiDAR-Camera Joint Synthesis",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Tao_AlignMiF_Geometry-Aligned_Multimodal_Implicit_Field_for_LiDAR-Camera_Joint_Synthesis_CVPR_2024_paper.pdf",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "原文署菜鸟集团作者并列唐涛为中大学生，没有实习声明。学生履历的达摩院实习方向与技术相符，但尚未逐篇确认。"
       }
     ],
     "note": "已逐篇梳理部分自动定理证明与多模态成果；其余公开书目仍在核查。"
@@ -7709,5 +7780,97 @@ const facultyPaperAudits = {
         "note": "项目页双列中大与阿里高德；没有明确两名学生参与企业研究的贡献或实习声明，需补证。"
       }
     ]
+  },
+  "r0FIQBAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/liugongshen.html",
+      "https://jometeorie.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
+        "url": "https://arxiv.org/html/2605.30931",
+        "outcome": "confirmed",
+        "note": "原文脚注直接具名该研究在鞠天杰与吴铮于美团实习期间完成；鞠天杰于 2026 年 6 月获得上海交通大学博士学位，初版 2026 年 5 月时仍在读。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "NhsdGBUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1069/1635.htm",
+      "https://bingyangwu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale",
+        "url": "https://xinjin.github.io/files/SIGCOMM23_XRON.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者在北大攻读博士且自述于 2021 年 11 月至 2023 年 9 月在阿里达摩院任研究实习生；本研究直接服务阿里云视频会议，原文双署北大和阿里云并明确致谢阿里研究实习项目。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "JqOOSuIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~0022723",
+      "https://people.ucas.ac.cn/~liutingwen?language=en",
+      "https://jiaweisheng.github.io/",
+      "https://liutingwen.ac.cn/",
+      "https://arxiv.org/pdf/2607.25344v1",
+      "https://arxiv.org/pdf/2602.09401v1",
+      "https://arxiv.org/abs/2607.24439",
+      "https://arxiv.org/abs/2602.23132",
+      "https://arxiv.org/abs/2602.08612",
+      "https://arxiv.org/abs/2502.09375"
+    ],
+    "papers": [
+      {
+        "title": "Reward Guided Decoding for Generative Recommendation",
+        "url": "https://arxiv.org/pdf/2607.25344v1",
+        "outcome": "confirmed",
+        "note": "论文首页在杨若琛姓名后标星，说明本研究在快手实习期间完成；国科大导师柳厅文与快手在职研究人员同篇署名。"
+      },
+      {
+        "title": "SARM: LLM-Augmented Semantic Anchor for End-to-End Live-Streaming Ranking",
+        "url": "https://arxiv.org/pdf/2602.09401v1",
+        "outcome": "confirmed",
+        "note": "论文首页在杨若琛姓名后标星，说明本研究在快手实习期间完成；国科大导师柳厅文与快手在职研究人员同篇署名。"
+      },
+      {
+        "title": "Unifying Generative Recall and Multi-Objective Ranking in a Single Decoder-Only Sequence",
+        "url": "https://arxiv.org/abs/2607.24439",
+        "outcome": "lead",
+        "note": "有柳厅文、杨若琛和快手在职员工同篇；原文未找到将杨若琛与快手此项目对应的声明。"
+      },
+      {
+        "title": "From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation",
+        "url": "https://arxiv.org/abs/2602.23132",
+        "outcome": "lead",
+        "note": "快手与国科大人员同篇，未找到杨若琛的该项目企业研究依据。"
+      },
+      {
+        "title": "OneLive: Dynamically Unified Generative Framework for Live-Streaming Recommendation",
+        "url": "https://arxiv.org/abs/2602.08612",
+        "outcome": "lead",
+        "note": "论文具名杨若琛实习，但导师柳厅文并非作者。"
+      },
+      {
+        "title": "FARM: Frequency-Aware Model for Cross-Domain Live-Streaming Recommendation",
+        "url": "https://arxiv.org/abs/2502.09375",
+        "outcome": "lead",
+        "note": "脚注说明快手资助和江霞曹领导；没有注明国科大学生在快手参与本项目的分工。"
+      }
+    ],
+    "note": "已按作者官方指导名单、公开书目及部分论文原文核查，尚未覆盖全部书目。"
   }
 };
