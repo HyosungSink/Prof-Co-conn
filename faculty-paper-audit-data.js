@@ -14509,21 +14509,135 @@ const facultyPaperAudits = {
   "QocCdX8AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://faculty.xidian.edu.cn/WANGMINGZHE/zh_CN/index.htm",
-      "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010"
+      "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
+      "https://faculty.xidian.edu.cn/WANGMINGZHE/en/article/446375/list/index.htm",
+      "https://orcid.org/0000-0003-2876-0856",
+      "https://api.crossref.org/works?filter=orcid:0000-0003-2876-0856",
+      "https://dblp.org/pid/64/9796.html",
+      "https://dblp.org/pid/00/1740.html",
+      "https://dblp.org/pid/l/HuiLi5.html",
+      "https://arxiv.org/abs/2512.11284",
+      "https://arxiv.org/abs/2602.08353v1",
+      "https://arxiv.org/abs/2602.08353v2",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0167739X26002256",
+      "https://link.springer.com/chapter/10.1007/978-981-92-0366-6_31",
+      "https://pubs.rsc.org/zh-hans/content/articlepdf/2026/ee/d5ee05042a",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698764",
+      "https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html",
+      "https://www.usenix.org/system/files/usenixsecurity23-han-xing.pdf",
+      "https://hanx.ing/",
+      "https://en.zhiyuan.sjtu.edu.cn/en/faculty/813/detail",
+      "https://wmzhere.github.io/",
+      "https://doi.org/10.1007/s11263-023-01953-0",
+      "https://doi.org/10.1039/D5EE05042A",
+      "https://doi.org/10.1016/j.future.2026.108591",
+      "https://doi.org/10.1007/978-981-92-0366-6_31",
+      "https://doi.org/10.2139/ssrn.4698764",
+      "https://arxiv.org/abs/2608.16270",
+      "https://arxiv.org/abs/2606.21584",
+      "https://arxiv.org/abs/2606.20488",
+      "https://arxiv.org/abs/2606.19269",
+      "https://arxiv.org/abs/2606.17160",
+      "https://arxiv.org/abs/2606.15153",
+      "https://www.usenix.org/conference/usenixsecurity23/presentation/han-xing"
     ],
     "papers": [
       {
         "title": "RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection",
+        "year": 2026,
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
-        "outcome": "no-evidence",
-        "note": "AAAI 2026 署名包括西安电子科技大学、澳大利亚联邦科学与工业研究组织和澳洲、香港高校；无范围内企业。",
-        "year": 2026
+        "note": "AAAI 2026 首页面将王鸣哲列为通讯作者，单位为西电；其余单位有悉尼科技大学、澳大利亚国家科研机构 CSIRO、新南威尔士大学、港理工及查尔斯达尔文大学。工业缺陷检测题材及产业数据集不能证明企业共同作者；与 2025 年 arXiv 稿合并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Few-Shot Stereo Matching with High Domain Adaptability Based on Adaptive Recursive Network",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/s11263-023-01953-0",
+        "note": "Springer 2023 年 11 月上线并编入 2024 年 5 月正式卷期。合著单位为西电、悉尼科大、陕西师范大学、澳大利亚科研机构 CSIRO；Digital Finance CRC 属于资助，未见范围内企业具名人员。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Unsupervised and few-shot segmentation in photovoltaic electroluminescence images for defect detection via a novel enhanced iterative autoencoder with simple implementation",
+        "year": 2026,
+        "url": "https://doi.org/10.1039/D5EE05042A",
+        "note": "英国皇家化学会正式卷期为 2026 年第 19 卷。西电、港理工和澳洲高校合著，贡献说明列王鸣哲为项目监督。光伏设备和行业应用场景没有对应范围内企业研究人员。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "DVSRQ: Distributed verifiable secure range query on geographic data in multi-cloud environment",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.future.2026.108591",
+        "note": "Elsevier 2026 年已先行公开并编入 11 月卷，作者名单为西电和西安邮电大学。论文设计多云系统并评估查询性能，未见对应云服务企业作者或具名在读研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ActiveDiag: Dynamic Fusion of Discrepancy and Uncertainty in Active Learning for Database Anomaly Diagnosis",
+        "year": 2026,
+        "url": "https://doi.org/10.1007/978-981-92-0366-6_31",
+        "note": "Springer 2026-05-09 正式论文列 Yaofeng Tu 署名中兴通讯，致谢列中兴产学研合作基金。属于有明确企业署名的合著，但中兴不在本项目企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Nndes2+: Enhancing K-Nearest Neighbor Graph Construction on High-Dimensional Data",
+        "year": 2024,
+        "url": "https://doi.org/10.2139/ssrn.4698764",
+        "note": "SSRN 2024-01-18 的版本九名作者均列西电，未见同篇范围内企业证据。相似标题的近邻图构建综述有不同方法与作者，未合并。未找到该篇独立正式版。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Efficient Coreset Selection via K-Nearest Neighbor Graphs",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.16270",
+        "note": "公开预印本列西电（含杭州研究院）、港中文、港科大（广州）及西安邮电大学。王鸣哲的西电单位和通讯身份与论文匹配；未见企业参与。稿件声明 CIKM 2026，但 DOI 仍为占位，会议正式程序未找到该篇，按预印本记录。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "When EER Hides Deployment Failure: Auditing Threshold Transfer and Unlabeled Score Calibration for Speech Deepfake Detectors",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.21584",
+        "note": "预印本两位作者均署西电；实验是语音伪造检测阈值跨域转移与校准，使用公开基准，未见具名企业员工或同篇在读企业研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "How Fragile Are Training-Free AI-Generated Image Detectors? A Controlled Audit of Score Direction, Preprocessing, and Compression",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.20488",
+        "note": "预印本两位作者均署西电；比较免训练图像来源检测的分数方向和预处理，未见具名范围内企业员工或同篇实习。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Scoring Backends Matter More Than Pooling: A Systematic Study of Training-Free Anomalous Sound Detection under Domain Shift",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.19269",
+        "note": "两位作者均署西电；工业异常声音数据用于比较评分方法，未见范围内企业人员署名或学生在企业完成研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Transductive Zero-Shot Audio Classification with Audio-Language Models",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.17160",
+        "note": "两位作者均署西电。利用已有音频语言模型做零样本分类不构成该模型开发方与本篇作者的校企关系。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "False Sense of Safety in Selective Signal Classification: Auditing Bound Tightness and Exchangeability for Risk Control",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.15153",
+        "note": "两位作者均署西电；研究从异常声音和合成图像两个任务测试风险控制规则，未见具名企业员工或学生参与企业的同篇证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Medusa Attack: Exploring Security Hazards of In-App QR Code Scanning",
+        "year": 2023,
+        "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/han-xing",
+        "note": "USENIX 原文第 14 页致谢注明上交大与阿里巴巴安全研究计划支持。Xing Han 本人说明在电子科大本科期间与 Juanru Li 一起开展移动安全研究；未见具名阿里正式员工为本篇作者，也未见在读作者在阿里完成该篇研究的证据。",
+        "outcome": "lead"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "核查窗口 2023-01-01 至 2026-11-12。以西电主页、ORCID、作者单位和同组作者书目辨认同名，交叉正式会议、期刊和 arXiv／SSRN。共 13 篇公开书目逐篇判定；RcAE 预印本与 AAAI 合并。另核对时序知识图谱 arXiv:2602.08353：2 月初稿列王鸣哲，10 月最新版改题为 TKGB 且已不列王鸣哲，故不在其名下另计。清华软件测试同名作者的工作亦已区分。"
   },
   "u9IRSacAAAAJ": {
     "from": "2023-01-01",
@@ -14535,15 +14649,29 @@ const facultyPaperAudits = {
       "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
       "https://www.vldb.org/pvldb/vol18/p2964-li.pdf",
       "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
-      "https://doi.org/10.1145/3774904.3792111"
+      "https://doi.org/10.1145/3774904.3792111",
+      "https://dblp.org/pid/00/1740.html",
+      "https://dblp.org/pid/l/HuiLi5.html",
+      "https://arxiv.org/abs/2512.11284",
+      "https://arxiv.org/abs/2602.08353v1",
+      "https://arxiv.org/abs/2602.08353v2",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0167739X26002256",
+      "https://link.springer.com/chapter/10.1007/978-981-92-0366-6_31",
+      "https://pubs.rsc.org/zh-hans/content/articlepdf/2026/ee/d5ee05042a",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698764",
+      "https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html",
+      "https://doi.org/10.1016/j.future.2026.108591",
+      "https://doi.org/10.1007/978-981-92-0366-6_31",
+      "https://doi.org/10.2139/ssrn.4698764",
+      "https://arxiv.org/abs/2608.16270"
     ],
     "papers": [
       {
         "title": "RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection",
+        "year": 2026,
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
-        "outcome": "no-evidence",
-        "note": "AAAI 2026 署名包括西安电子科技大学、澳大利亚联邦科学与工业研究组织和澳洲、香港高校；无范围内企业。",
-        "year": 2026
+        "note": "AAAI 2026 首页面将王鸣哲列为通讯作者，单位为西电；其余单位有悉尼科技大学、澳大利亚国家科研机构 CSIRO、新南威尔士大学、港理工及查尔斯达尔文大学。工业缺陷检测题材及产业数据集不能证明企业共同作者；与 2025 年 arXiv 稿合并。",
+        "outcome": "no-evidence"
       },
       {
         "title": "STsCache: An Efficient Semantic Caching Scheme for Time-series Data Workloads Based on Hybrid Storage",
@@ -14558,6 +14686,41 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3774904.3792111",
         "outcome": "no-evidence",
         "note": "ACM 论文集作者仅列西安电子科技大学（计科、人工智能）、香港科技大学和浙江大学。2024 年预印本按同篇。"
+      },
+      {
+        "title": "DVSRQ: Distributed verifiable secure range query on geographic data in multi-cloud environment",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.future.2026.108591",
+        "note": "Elsevier 2026 年已先行公开并编入 11 月卷，作者名单为西电和西安邮电大学。论文设计多云系统并评估查询性能，未见对应云服务企业作者或具名在读研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ActiveDiag: Dynamic Fusion of Discrepancy and Uncertainty in Active Learning for Database Anomaly Diagnosis",
+        "year": 2026,
+        "url": "https://doi.org/10.1007/978-981-92-0366-6_31",
+        "note": "Springer 2026-05-09 正式论文列 Yaofeng Tu 署名中兴通讯，致谢列中兴产学研合作基金。属于有明确企业署名的合著，但中兴不在本项目企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Nndes2+: Enhancing K-Nearest Neighbor Graph Construction on High-Dimensional Data",
+        "year": 2024,
+        "url": "https://doi.org/10.2139/ssrn.4698764",
+        "note": "SSRN 2024-01-18 的版本九名作者均列西电，未见同篇范围内企业证据。相似标题的近邻图构建综述有不同方法与作者，未合并。未找到该篇独立正式版。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Efficient Coreset Selection via K-Nearest Neighbor Graphs",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.16270",
+        "note": "公开预印本列西电（含杭州研究院）、港中文、港科大（广州）及西安邮电大学。王鸣哲的西电单位和通讯身份与论文匹配；未见企业参与。稿件声明 CIKM 2026，但 DOI 仍为占位，会议正式程序未找到该篇，按预印本记录。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "TKGB: A Comprehensive Benchmark for Temporal Knowledge Graph Forecasting",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2602.08353v2",
+        "outcome": "no-evidence",
+        "note": "arXiv 于 2026-10-14 更新作者和题名，初稿（Towards Better Evolution Modeling for Temporal Knowledge Graphs）按同一预印本处理。最新版列西电、北大、电子科大和西安邮电大学，未见范围内企业。"
       }
     ],
     "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
@@ -14570,15 +14733,27 @@ const facultyPaperAudits = {
       "https://web.xidian.edu.cn/hli/",
       "https://lihuidb.com/malos/",
       "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
-      "https://www.vldb.org/pvldb/vol18/p2964-li.pdf"
+      "https://www.vldb.org/pvldb/vol18/p2964-li.pdf",
+      "https://dblp.org/pid/00/1740.html",
+      "https://dblp.org/pid/l/HuiLi5.html",
+      "https://arxiv.org/abs/2512.11284",
+      "https://arxiv.org/abs/2602.08353v1",
+      "https://arxiv.org/abs/2602.08353v2",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0167739X26002256",
+      "https://link.springer.com/chapter/10.1007/978-981-92-0366-6_31",
+      "https://pubs.rsc.org/zh-hans/content/articlepdf/2026/ee/d5ee05042a",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698764",
+      "https://doi.org/10.1016/j.future.2026.108591",
+      "https://doi.org/10.1007/978-981-92-0366-6_31",
+      "https://doi.org/10.2139/ssrn.4698764"
     ],
     "papers": [
       {
         "title": "RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection",
+        "year": 2026,
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
-        "outcome": "no-evidence",
-        "note": "AAAI 2026 署名包括西安电子科技大学、澳大利亚联邦科学与工业研究组织和澳洲、香港高校；无范围内企业。",
-        "year": 2026
+        "note": "AAAI 2026 首页面将王鸣哲列为通讯作者，单位为西电；其余单位有悉尼科技大学、澳大利亚国家科研机构 CSIRO、新南威尔士大学、港理工及查尔斯达尔文大学。工业缺陷检测题材及产业数据集不能证明企业共同作者；与 2025 年 arXiv 稿合并。",
+        "outcome": "no-evidence"
       },
       {
         "title": "STsCache: An Efficient Semantic Caching Scheme for Time-series Data Workloads Based on Hybrid Storage",
@@ -14586,6 +14761,34 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "PVLDB 正式版中唯一企业署名是李辉兼署的 Yunxi Technology，该公司不在本项目范围。",
         "year": 2025
+      },
+      {
+        "title": "DVSRQ: Distributed verifiable secure range query on geographic data in multi-cloud environment",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.future.2026.108591",
+        "note": "Elsevier 2026 年已先行公开并编入 11 月卷，作者名单为西电和西安邮电大学。论文设计多云系统并评估查询性能，未见对应云服务企业作者或具名在读研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ActiveDiag: Dynamic Fusion of Discrepancy and Uncertainty in Active Learning for Database Anomaly Diagnosis",
+        "year": 2026,
+        "url": "https://doi.org/10.1007/978-981-92-0366-6_31",
+        "note": "Springer 2026-05-09 正式论文列 Yaofeng Tu 署名中兴通讯，致谢列中兴产学研合作基金。属于有明确企业署名的合著，但中兴不在本项目企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Nndes2+: Enhancing K-Nearest Neighbor Graph Construction on High-Dimensional Data",
+        "year": 2024,
+        "url": "https://doi.org/10.2139/ssrn.4698764",
+        "note": "SSRN 2024-01-18 的版本九名作者均列西电，未见同篇范围内企业证据。相似标题的近邻图构建综述有不同方法与作者，未合并。未找到该篇独立正式版。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "TKGB: A Comprehensive Benchmark for Temporal Knowledge Graph Forecasting",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2602.08353v2",
+        "outcome": "no-evidence",
+        "note": "arXiv 于 2026-10-14 更新作者和题名，初稿（Towards Better Evolution Modeling for Temporal Knowledge Graphs）按同一预印本处理。最新版列西电、北大、电子科大和西安邮电大学，未见范围内企业。"
       }
     ],
     "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
@@ -19195,5 +19398,405 @@ const facultyPaperAudits = {
       }
     ],
     "note": "对照本人公开书目、履历、DBLP、同人 ORCID、Crossref、arXiv 与正式会议和期刊目录，调查期内共六篇公开可归属的原作。本人主页另列一篇投稿，未找到其在截止日前的公开版本或正式出版记录，未纳入。逐篇区分华为项目资助与同篇企业参研。"
+  },
+  "E1P0JY4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://collegeai.tsinghua.edu.cn/rydw/qzpi/lixinyang.htm",
+      "https://xinyang-li.github.io/",
+      "https://media.au.tsinghua.edu.cn/cn/info/1011/1510.htm",
+      "https://orcid.org/0000-0003-3880-5448",
+      "https://pub.orcid.org/v3.0/0000-0003-3880-5448/works",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTHORID%3A0000-0003-3880-5448",
+      "https://opg.optica.org/abstract.cfm?uri=Microscopy-2026-MT1B.8",
+      "https://opg.optica.org/abstract.cfm?uri=OMP-2025-JD1.6",
+      "https://opg.optica.org/abstract.cfm?uri=DH-2025-JVD1.2"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Bio-friendly long-term subcellular dynamic recording by self-supervised image enhancement microscopy",
+        "url": "https://doi.org/10.1038/s41592-023-02058-9",
+        "outcome": "no-evidence",
+        "note": "2023 年：Nature Methods 原文列清华自动化系及脑与认知科学研究所等，没有范围内企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Challenges and opportunities in bioimage analysis",
+        "url": "https://doi.org/10.1038/s41592-023-01900-4",
+        "outcome": "no-evidence",
+        "note": "2023 年：Nature Methods 的正式综述性评论列四名清华作者，没有范围内企业署名。"
+      },
+      {
+        "year": 2023,
+        "title": "Rapid detection of neurons in widefield calcium imaging datasets after training with synthetic data",
+        "url": "https://doi.org/10.1038/s41592-023-01838-7",
+        "outcome": "no-evidence",
+        "note": "2023 年：Nature Methods 原文作者机构包括清华和复旦，无范围内企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Real-time denoising enables high-sensitivity fluorescence time-lapse imaging beyond the shot-noise limit",
+        "url": "https://doi.org/10.1038/s41587-022-01450-8",
+        "outcome": "no-evidence",
+        "note": "2023 年：Nature Biotechnology 正式卷期为 2023 年。清华、复旦、北大等科研人员共同署名；李欣阳当时为清华博士生。"
+      },
+      {
+        "year": 2023,
+        "title": "Spatial redundancy transformer for self-supervised fluorescence image denoising",
+        "url": "https://doi.org/10.1038/s43588-023-00568-2",
+        "outcome": "no-evidence",
+        "note": "2023 年：原文作者来自清华、深圳未来媒体技术研究院和北航。2025 Optica SRDTrans 邀请论文（DOI 10.1364/DH.2025.JVD1.2）仍是此方法，合并。"
+      },
+      {
+        "year": 2023,
+        "title": "Two-photon synthetic aperture microscopy for minimally invasive fast 3D imaging of native subcellular behaviors in deep tissue",
+        "url": "https://doi.org/10.1016/j.cell.2023.04.016",
+        "outcome": "no-evidence",
+        "note": "2023 年：Cell 正式全文及本人书目确认李欣阳为清华一方作者；作者机构主要为清华相关研究单位，未见范围内企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Leveraging spatial-angular redundancy for self-supervised denoising of 3D fluorescence imaging without temporal dependency",
+        "url": "https://doi.org/10.1038/s41467-025-66654-3",
+        "outcome": "no-evidence",
+        "note": "2025 年：Nature Communications 原文有清华、复旦和浙江禾湖科技署名；禾湖科技不在本项目企业范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Prominent involvement of acetylcholine dynamics in stable olfactory representation across the Drosophila brain",
+        "url": "https://doi.org/10.1038/s41467-025-63823-2",
+        "outcome": "no-evidence",
+        "note": "2025 年：Nature Communications 机构表列清华、北大及实验室，未见范围内企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "4D self-supervised learning of cross-dimensional representation enables high-performance denoising of volumetric fluorescence imaging",
+        "url": "https://doi.org/10.21203/rs.3.rs-10858302/v1",
+        "outcome": "no-evidence",
+        "note": "2026 年：Research Square 登记作者机构为清华及复旦，李欣阳 ORCID 与期刊论文相同；无范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "AI4Life Open Calls and Public Challenges: why, how, and what we have learned",
+        "url": "https://doi.org/10.64898/2026.07.21.739486",
+        "outcome": "no-evidence",
+        "note": "2026 年：bioRxiv 预印本的具名机构表核实李欣阳在清华；作者有北航、香港科大及国外高校／科研团队，未见范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising",
+        "url": "https://doi.org/10.1126/science.ady9404",
+        "outcome": "no-evidence",
+        "note": "2026 年：Science 正式稿与 arXiv:2602.17205 同篇；署清华、东京大学、日本国立天文台和青海大学等，没有范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "High-fidelity fast fluorescence lifetime imaging by event-based denoising",
+        "url": "https://doi.org/10.1038/s41587-026-03222-0",
+        "outcome": "no-evidence",
+        "note": "2026 年：Nature Biotechnology 已公开版本含清华、昌平实验室及华中科大同济医院，未见范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "High-fidelity intravital imaging of biological dynamics with latent-space-enhanced digital adaptive optics",
+        "url": "https://doi.org/10.1038/s41587-026-03107-2",
+        "outcome": "no-evidence",
+        "note": "2026 年：正式题录含清华、复旦、视科研究机构及浙江禾湖科技；后者不属项目企业范围。清华新闻亦逐名列学校团队与该研究贡献。"
+      },
+      {
+        "year": 2026,
+        "title": "Learning Continuous Spatiotemporal Implicit Neural Fields for Unsupervised Video Denoising",
+        "url": "https://doi.org/10.1109/tpami.2026.3680159",
+        "outcome": "no-evidence",
+        "note": "2026 年：IEEE 正式题录作者机构为北航和清华，无范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Physics-guided self-supervised learning for high-fidelity reconstruction in live-cell imaging",
+        "url": "https://doi.org/10.1038/s44303-026-00179-2",
+        "outcome": "no-evidence",
+        "note": "2026 年：npj Imaging 正式原文逐名列北航、清华；也列李欣阳采集数据与优化算法，未见范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Poisson2Gaussian: Noise Gaussianization to Enhance Image Denoising",
+        "url": "https://doi.org/10.48550/arXiv.2606.23098",
+        "outcome": "no-evidence",
+        "note": "2026 年：预印本列清华和北航，署名及清华邮箱明确，无范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Unsupervised transfer learning enables multi-animal tracking without training annotation",
+        "url": "https://doi.org/10.1038/s41592-026-03051-8",
+        "outcome": "no-evidence",
+        "note": "2026 年：Nature Methods 正式稿作者单位为清华、复旦等，无范围内企业作者。Optica 2025 JD1.6 和 Optica 2026 MT1B.8 都是同一个 UDMT 项目的会场版。"
+      }
+    ],
+    "note": "已逐篇梳理本人 Publications、清华课题组、同一 ORCID、Crossref、Europe PMC、Optica 和 arXiv 交叉证据可覆盖的 17 篇公开论文。重复会场稿并入原系统；Multi-focus 的出版商卷期为 2022 年，排除。CHI 2026 的 VR Calm Plus 虽来自同校，但正式版本的美院作者为另一 ORCID（0000-0003-4081-604X）；厦大李新阳及北航同名物理研究者也排除。"
+  },
+  "CAd3jhcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1109/SP46215.2023.10179366",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dongdong-she-dongdong",
+      "https://cse.hkust.edu.hk/~dongdong/",
+      "https://cse.hkust.edu.hk/~dongdong/publications/",
+      "https://dblp.org/pid/168/9537.html",
+      "https://orcid.org/0000-0001-6655-0468",
+      "https://conf.researchr.org/profile/conf/dongdongshe2",
+      "https://www.cs.columbia.edu/~dongdong/",
+      "https://doi.org/10.1145/3658644.3670362",
+      "https://doi.org/10.1145/3643659.3648562",
+      "https://arxiv.org/pdf/2406.04517v1",
+      "https://arxiv.org/abs/2409.04504",
+      "https://doi.org/10.1109/SP61157.2025.00190",
+      "https://arxiv.org/pdf/2505.03555v1",
+      "https://doi.org/10.1109/SBFT66712.2025.00018",
+      "https://doi.org/10.1109/ICPC66645.2025.00039",
+      "https://arxiv.org/pdf/2504.01294v1",
+      "https://doi.org/10.1145/3728904",
+      "https://arxiv.org/pdf/2505.02357v1",
+      "https://doi.org/10.1145/3728916",
+      "https://arxiv.org/pdf/2506.08838v1",
+      "https://arxiv.org/abs/2510.23675",
+      "https://crepuscule-v.github.io/",
+      "https://doi.org/10.1145/3832267",
+      "https://arxiv.org/abs/2509.05755",
+      "https://researchportal.hkust.edu.hk/en/publications/red-teaming-coding-agents-from-a-tool-invocation-perspective-an-e/",
+      "https://doi.org/10.1145/3832783.3834394",
+      "https://arxiv.org/abs/2510.22963",
+      "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/64/When-Compression-Becomes-an-Attack-Surface-Black-Box-Attacks-on-Prompt-Compressed-LL",
+      "https://doi.org/10.1145/3832783.3834410",
+      "https://conf.researchr.org/details/ase-2026/ase-2026-research-track/80/Verifier-in-the-Loop-LLM-Solving-of-Heap-Constraints-for-Concolic-Execution",
+      "https://arxiv.org/abs/2605.02187",
+      "https://arxiv.org/pdf/2605.02187v1",
+      "https://proceedings.mlr.press/v306/zhang26dt.html",
+      "https://arxiv.org/pdf/2601.23088v2",
+      "https://doi.org/10.1145/3798257",
+      "https://arxiv.org/pdf/2602.22729v1",
+      "https://arxiv.org/abs/2602.08401",
+      "https://arxiv.org/pdf/2602.08401v1",
+      "https://arxiv.org/abs/2605.04674",
+      "https://arxiv.org/pdf/2605.04674v1",
+      "https://arxiv.org/abs/2606.21732",
+      "https://arxiv.org/pdf/2606.21732v1",
+      "https://arxiv.org/abs/2609.33123",
+      "https://arxiv.org/pdf/2609.33123v1",
+      "https://arxiv.org/abs/2609.35908",
+      "https://arxiv.org/pdf/2609.35908v1",
+      "https://arxiv.org/abs/2609.35909",
+      "https://arxiv.org/pdf/2609.35909v1",
+      "https://arxiv.org/abs/2610.09681",
+      "https://arxiv.org/pdf/2610.09681v1"
+    ],
+    "papers": [
+      {
+        "title": "Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis",
+        "url": "https://doi.org/10.1109/SP46215.2023.10179366",
+        "outcome": "no-evidence",
+        "note": "IEEE S&P 正式论文及哥伦比亚原作者资料确认当时为哥伦比亚研究组成果；未出现调查范围企业同篇署名。",
+        "year": 2023
+      },
+      {
+        "title": "FOX: Coverage-guided Fuzzing as Online Stochastic Control",
+        "url": "https://doi.org/10.1145/3658644.3670362",
+        "outcome": "no-evidence",
+        "note": "ACM CCS 和 SBFT 竞赛出版记录（标题相同）及 2024 预印本统一。原文确认港科大与哥伦比亚大学两组；未出现目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "Comment on Revisiting Neural Program Smoothing for Fuzzing",
+        "url": "https://arxiv.org/abs/2409.04504",
+        "outcome": "no-evidence",
+        "note": "作者对 FSE 研究的评论预印本单列。原文为港科大、芝加哥大学和哥伦比亚大学研究组，无范围内企业。",
+        "year": 2024
+      },
+      {
+        "title": "Empc: Effective Path Prioritization for Symbolic Execution with Path Cover",
+        "url": "https://doi.org/10.1109/SP61157.2025.00190",
+        "outcome": "no-evidence",
+        "note": "S&P 论文与同题预印本合并。导师佘东冬和学生姚双捷为全部作者。虽然后来导师主页有该生腾讯混元实习记录，但本篇只有两名大学作者，未有企业正式作者或同期企业研究依据。",
+        "year": 2025
+      },
+      {
+        "title": "HFuzz: Havoc Mode Guided Fuzzing",
+        "url": "https://doi.org/10.1109/SBFT66712.2025.00018",
+        "outcome": "no-evidence",
+        "note": "IEEE SBFT 原始目录列港科大 Yuchong Xie 和佘东冬，无第三位作者。该会议发表早于学生公开见于 Kimi 或通义团队的任职。",
+        "year": 2025
+      },
+      {
+        "title": "Extracting Formal Specifications From Documents Using LLMS for Test Automation",
+        "url": "https://doi.org/10.1109/ICPC66645.2025.00039",
+        "outcome": "no-evidence",
+        "note": "ICPC 正式版与 2025 年 4 月预印本题名微调合并。原文为复旦大学与港科大作者，未见企业同篇加入。",
+        "year": 2025
+      },
+      {
+        "title": "RouthSearch: Inferring PID Parameter Specification for Flight Control Program by Coordinate Search",
+        "url": "https://doi.org/10.1145/3728904",
+        "outcome": "no-evidence",
+        "note": "ISSTA 正式稿及预印本均具名复旦大学与港科大；使用行业开源飞控项目不构成企业同篇联署。",
+        "year": 2025
+      },
+      {
+        "title": "ZTaint-Havoc: From Havoc Mode to Zero-Execution Fuzzing-Driven Taint Inference",
+        "url": "https://doi.org/10.1145/3728916",
+        "outcome": "no-evidence",
+        "note": "ISSTA 正式版列港科大和湖南大学作者；测试行业常见程序和第三方测试套件，未见相关企业正式员工或学生同期项目。",
+        "year": 2025
+      },
+      {
+        "title": "QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents",
+        "url": "https://arxiv.org/abs/2510.23675",
+        "outcome": "lead",
+        "note": "2025 年首版、2026 修订。港科大、复旦、清华为主要作者组织，导师名单能核 Yuchong Xie、Kaikai Zhang、Zesen Liu 相关实习经历；未找到作者本人在范围企业实施本篇研究的证据，也未见范围企业正式员工同篇。",
+        "year": 2025
+      },
+      {
+        "title": "Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment",
+        "url": "https://doi.org/10.1145/3832267",
+        "outcome": "lead",
+        "note": "2025 首版题名 On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems 后改题。正式 ISSTA 院校及原文脚注把 Yu Liu 和 Mingyu Luo 的对应研究地点指向港科大访问，与其他学生在腾讯、通义系统的实习不能凭同署关系视为独立企业参与；未见目标企业员工。",
+        "year": 2026
+      },
+      {
+        "title": "When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents",
+        "url": "https://doi.org/10.1145/3832783.3834394",
+        "outcome": "lead",
+        "note": "原题 CompressionAttack，2025 首版与 ASE 2026 正文合并。Zesen Liu 的腾讯混元实习可从导师名录独立核实，但论文版本与会议作者单位只列港科大／复旦，未见具名腾讯项目角色或企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Verifier-in-the-Loop LLM Solving of Heap Constraints for Concolic Execution",
+        "url": "https://doi.org/10.1145/3832783.3834410",
+        "outcome": "no-evidence",
+        "note": "ASE 官网名录核实复旦、苏州大学、港科大、北京交通大学；未列范围企业成员。",
+        "year": 2026
+      },
+      {
+        "title": "Rewriting the Response Path: Silent Tampering and Provider-Signed Defense in BYOK LLM Agents",
+        "url": "https://arxiv.org/abs/2605.02187",
+        "outcome": "lead",
+        "note": "首版题名 When Alignment Isn’t Enough，与现名合并。新旧原文均列港科大、复旦和华中科大作者，学生既往企业实习不足以证明本项目为企业开展；OpenAI/阿里类接口作研究对象，不是作为共著单位。",
+        "year": 2026
+      },
+      {
+        "title": "From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching",
+        "url": "https://proceedings.mlr.press/v306/zhang26dt.html",
+        "outcome": "lead",
+        "note": "ICML 正式版合并同名预印本。作者 Quanfeng Huang 署复旦，其他为港科大；在读 Zesen Liu 有腾讯混元实习事实但本篇没有腾讯项目或企业正式共著依据。",
+        "year": 2026
+      },
+      {
+        "title": "RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling",
+        "url": "https://doi.org/10.1145/3798257",
+        "outcome": "no-evidence",
+        "note": "OOPSLA 与同名预印本合并。原文正式作者单位港科大、复旦；两位学生的阿里通义或 Kimi 履历另有时间及团队，原文无范围企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "On Protecting Agentic Systems’ Intellectual Property via Watermarking",
+        "url": "https://arxiv.org/abs/2602.08401",
+        "outcome": "no-evidence",
+        "note": "2026 年已有全文；作者网页把后续 ICSE 2027 接收版与同一预印本关联，截止日前以 2026 预印本计。论文具名企业 HSBC 不在调查范围。",
+        "year": 2026
+      },
+      {
+        "title": "Machine learning inference of fission yields from gamma spectroscopy for very low-yield nuclear test verification",
+        "url": "https://arxiv.org/abs/2605.04674",
+        "outcome": "no-evidence",
+        "note": "arXiv 论文作者明确标港科大计算机系及与学校姓名一致邮箱／机构；作者单位为港科大、MIT、汉堡大学。原文鸣谢研究经费不等同于企业正式作者。",
+        "year": 2026
+      },
+      {
+        "title": "Safe to Check, Unsafe to Use: Relinking at the Compression Boundary of LLM Agents",
+        "url": "https://arxiv.org/abs/2606.21732",
+        "outcome": "lead",
+        "note": "三名作者在首版都列港科大，其中两名另有 Tencent/Qwen 相关学术主页履历，但没有把同期企业实习、企业正式员工和论文贡献联结的直接证据。",
+        "year": 2026
+      },
+      {
+        "title": "Compositional Safety Failures in Harness Evolution: Identification and Runtime Monitoring",
+        "url": "https://arxiv.org/abs/2609.33123",
+        "outcome": "lead",
+        "note": "2026 年 9 月首版以及最新修订只列港科大。共同作者 Zesen Liu 另有腾讯混元实习，未找到该论文包含腾讯或其他目标企业的同篇研究。",
+        "year": 2026
+      },
+      {
+        "title": "Similarity Is Not Validity: Defending LLM Semantic Caches Against Poisoning",
+        "url": "https://arxiv.org/abs/2609.35908",
+        "outcome": "lead",
+        "note": "论文原文为港科大、清华；导师网站列两位同期学生混元实习，但阿里云的系统仅为举例，并未发现目标公司研究人员以同篇贡献者身份参与。",
+        "year": 2026
+      },
+      {
+        "title": "Cheap to Hypothesize, Costly to Verify: The Defense Surface of Agentic Vulnerability Discovery",
+        "url": "https://arxiv.org/abs/2609.35909",
+        "outcome": "lead",
+        "note": "当前及初版只列港科大。Kaikai Zhang 自述 2026 年 7 月起于通义安全团队实习，导师确认该生学籍；尚缺本论文对应阿里正式作者和实习贡献的具名来源。",
+        "year": 2026
+      },
+      {
+        "title": "Cost-Efficient Theorem Proving via Agent Orchestration in Program Verification",
+        "url": "https://arxiv.org/abs/2610.09681",
+        "outcome": "no-evidence",
+        "note": "十月预印本明确列哥伦比亚、Barnard College 和港科大作者；教师页列 NeurIPS 研讨会接收，但截止日前公开版本为预印本。第一作者姚双捷本科、博士与混元履历可分别核对，本篇未见具名企业作者。",
+        "year": 2026
+      }
+    ],
+    "note": "截至 2026 年 11 月 12 日逐篇核对 22 篇公开论文。以港科大院系、作者年份书目、会议主办方、DBLP（168/9537）及港科大核定 ORCID、Crossref、arXiv 相互核对，合并首版、修改题名和正式出版。2023 年哥伦比亚博士学位论文属于学位研究，不另列共著论文；已公开的 ICSE 2027 待发表论文以首版公开年份 2026 核查。未确认新增关系。"
+  },
+  "hOUs2VEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://dblp.org/pid/129/4066.html",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4698764",
+      "https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html",
+      "https://doi.org/10.2139/ssrn.4698764",
+      "https://arxiv.org/abs/2608.16270"
+    ],
+    "papers": [
+      {
+        "title": "Nndes2+: Enhancing K-Nearest Neighbor Graph Construction on High-Dimensional Data",
+        "year": 2024,
+        "url": "https://doi.org/10.2139/ssrn.4698764",
+        "note": "SSRN 2024-01-18 的版本九名作者均列西电，未见同篇范围内企业证据。相似标题的近邻图构建综述有不同方法与作者，未合并。未找到该篇独立正式版。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Efficient Coreset Selection via K-Nearest Neighbor Graphs",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.16270",
+        "note": "公开预印本列西电（含杭州研究院）、港中文、港科大（广州）及西安邮电大学。王鸣哲的西电单位和通讯身份与论文匹配；未见企业参与。稿件声明 CIKM 2026，但 DOI 仍为占位，会议正式程序未找到该篇，按预印本记录。",
+        "outcome": "no-evidence"
+      }
+    ]
+  },
+  "ikbw5okAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2602.08353v1",
+      "https://arxiv.org/pdf/2602.08353v2",
+      "https://arxiv.org/abs/2602.08353v2"
+    ],
+    "papers": [
+      {
+        "title": "TKGB: A Comprehensive Benchmark for Temporal Knowledge Graph Forecasting",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2602.08353v2",
+        "outcome": "no-evidence",
+        "note": "arXiv 于 2026-10-14 更新作者和题名，初稿（Towards Better Evolution Modeling for Temporal Knowledge Graphs）按同一预印本处理。最新版列西电、北大、电子科大和西安邮电大学，未见范围内企业。"
+      }
+    ]
   }
 };
