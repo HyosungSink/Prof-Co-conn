@@ -44348,6 +44348,104 @@ const survey = {
         "徐纳恩本人明确列浙大硕士导师杜天宇、纪守领，导师本人书目亦明确下划线是本人指导学生，并为本篇负责通讯。",
         "https://bluedream02.github.io/"
       ]
+    },
+    {
+      "company": "字节跳动",
+      "team": "ByteDance Seed · 大模型系统",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "area": "AI 系统",
+      "faculty": [
+        "金鑫 · Xin Jin",
+        "北京大学计算机学院副教授，具名博士导师，同篇通讯作者。",
+        "https://cs.pku.edu.cn/info/1069/1635.htm"
+      ],
+      "id": "bytedance-megascale-infer-pku-xinjin",
+      "paperId": "doi:10.1145/3718958.3750506",
+      "employee": [
+        "Ziheng Jiang",
+        "论文首稿及正式作者版署字节 Seed；学生公开项目履历与既有 MegaScale 出版记录可交叉核实团队关系。",
+        "https://ziheng.org/"
+      ],
+      "student": [
+        "Ruidong Zhu",
+        "2023 年本科毕业后在北大读博；本人记载 2024-03 起在字节 Seed 基础设施组做研究实习，首稿首页按姓名标明这项工作在字节完成。",
+        "https://horsebridge.github.io/"
+      ],
+      "title": "MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism",
+      "short": "MegaScale-Infer",
+      "date": "2025-04-03",
+      "venue": "ACM SIGCOMM 2025",
+      "paper": "https://chaojin0310.github.io/files/papers/SIGCOMM25-MegaScale-Infer.pdf",
+      "extra": [
+        [
+          "ACM 正式题录",
+          "https://doi.org/10.1145/3718958.3750506"
+        ],
+        [
+          "首稿首页明确注明在字节 Seed 完成本项工作",
+          "https://arxiv.org/pdf/2504.02263v1"
+        ],
+        [
+          "北大成果库正式会刊记录",
+          "https://ir.pku.edu.cn/handle/20.500.11897/771321?mode=full"
+        ]
+      ],
+      "evidence": "2025-04-03 预印本首页在北大博士生 Ruidong Zhu 名下标注工作在字节 Seed 完成。其本人公布了 2024-03 起的 Seed 研究实习及金鑫、刘譞哲的具名共同指导。SIGCOMM 正式版虽省略早稿该脚注，保留学生、两位学校导师及字节正式研究人员的署名；合并为同一篇。该系统做 MoE 推理服务，与 MegaScale 原始训练系统及 MegaScale-MoE 的训练通信优化分列。",
+      "advising": [
+        "研究期间的具名博士导师",
+        "学生的教育记录明确列金鑫和刘譞哲为博士导师，二人均署名论文。",
+        "https://horsebridge.github.io/"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "team": "ByteDance Seed · 大模型系统",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "area": "AI 系统",
+      "faculty": [
+        "金鑫 · Xin Jin",
+        "北京大学计算机学院副教授，具名博士导师，同篇通讯作者。",
+        "https://cs.pku.edu.cn/info/1069/1635.htm"
+      ],
+      "id": "bytedance-megascale-moe-pku-xinjin",
+      "paperId": "doi:10.1145/3767295.3769325",
+      "employee": [
+        "Ningxin Zheng",
+        "本人履历记载 2023 年加入字节 Seed 做大模型训练系统；首稿与正式会议均署字节 Seed。",
+        "https://zheng-ningxin.github.io/"
+      ],
+      "student": [
+        "Chao Jin",
+        "2023-09 起为北大博士生；2023-07 至 2025-03 是字节 Seed AI 基础设施研究实习生，首稿首页在其姓名下标明这项工作在字节完成。",
+        "https://chaojin0310.github.io/files/cv.pdf"
+      ],
+      "title": "MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production",
+      "short": "MegaScale-MoE",
+      "date": "2025-05-16",
+      "venue": "ACM EuroSys 2026",
+      "paper": "https://chaojin0310.github.io/files/papers/EuroSys26-MegaScale-MoE.pdf",
+      "extra": [
+        [
+          "ACM 正式题录",
+          "https://doi.org/10.1145/3767295.3769325"
+        ],
+        [
+          "首稿首页的企业科研脚注",
+          "https://arxiv.org/pdf/2505.11432v1"
+        ],
+        [
+          "EuroSys 正式议程",
+          "https://2026.eurosys.org/preliminary-program.html"
+        ]
+      ],
+      "evidence": "2025-05-16 首稿首页给北大博士生 Chao Jin 的姓名加星号，说明该篇工作在字节 Seed 完成。他本人简历表明同期在北大攻读博士、师从金鑫，并在首稿发布前完成字节 Seed 研究实习。ACM 题录 2026-04-26 发布，4 月 28 日会议介绍；正式版保留三角色署名。作品是独立的 MoE 训练通信系统，有独立正式 DOI；不与 MegaScale 原型、推理服务、视觉语言训练合并。",
+      "advising": [
+        "研究期间的具名博士导师",
+        "学生本人网页和公开简历均列金鑫为博士导师，金鑫是两版论文通讯作者。",
+        "https://chaojin0310.github.io/"
+      ]
     }
   ]
 };

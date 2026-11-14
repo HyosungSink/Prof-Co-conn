@@ -14468,7 +14468,16 @@ const facultyPaperAudits = {
       "https://echostone1101.github.io/",
       "https://www.usenix.org/system/files/nsdi26-xiang-servegen.pdf",
       "https://github.com/alibaba/ServeGen/commit/4d6f0c7795d6b7ddc61fae1eeb73f9bd5a118f8f",
-      "https://ennanzhai.github.io/"
+      "https://ennanzhai.github.io/",
+      "https://arxiv.org/pdf/2504.02263v1",
+      "https://arxiv.org/pdf/2505.11432v1",
+      "https://zheng-ningxin.github.io/",
+      "https://www.zhengnq.com/",
+      "https://gjghfd.github.io/",
+      "https://tomquartz.github.io/",
+      "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "https://www.insc.tsinghua.edu.cn/info/1192/4104.htm",
+      "https://ennanzhai.github.io/pub/sosp23-dnsv.pdf"
     ],
     "papers": [
       {
@@ -14489,22 +14498,22 @@ const facultyPaperAudits = {
         "year": 2025,
         "title": "MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production",
         "url": "https://doi.org/10.1145/3767295.3769325",
-        "outcome": "lead",
-        "note": "EuroSys 正式版保留金鑫、字节 Seed 姜等和北大博士生 Chao Jin。该生实习截至 2025-03，首稿为 2025-05，还需具名材料直接联系这篇与实习期间工作。"
+        "outcome": "confirmed",
+        "note": "首稿 2505.11432v1 首页脚注明示博士生 Chao Jin 的本篇工作在字节 Seed 完成；本人简历给出金鑫博士指导及 2023-07 至 2025-03 的企业科研实习；正式版保留学生、导师与字节研究人员。"
       },
       {
         "year": 2025,
         "title": "MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism",
         "url": "https://doi.org/10.1145/3718958.3750506",
-        "outcome": "lead",
-        "note": "正式版与 2025-04 首稿合并；两位北大博士生及具名导师、字节人员同篇。本人分别公开同期或相近的 Seed 实习，但原文无具名实习脚注，尚缺明确的逐篇项目记录。"
+        "outcome": "confirmed",
+        "note": "首稿 2504.02263v1 首页脚注把第一共同作者 Ruidong Zhu 与 Chao Jin 的该篇工作具名归于字节 Seed；Ruidong Zhu 履历同时给出北大博士、金鑫及刘譞哲共同指导及同期 Seed 实习。正式版保留三角色。"
       },
       {
         "year": 2026,
         "title": "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint",
         "url": "https://www.usenix.org/system/files/nsdi26-zhu-ruidong.pdf",
         "outcome": "existing",
-        "note": "USENIX 正式版有北大博士生 Ruidong Zhu、具名博士导师刘譞哲与金鑫、两名 Seed 企业作者；第一作者个人页只列团队与实习时段，未把此件连到具体实习项目。"
+        "note": "原文和作者履历核对了学生、具名两位校内博士导师和企业署名。按已发布条目核对，保留现库记录；本次不重复计数。"
       },
       {
         "year": 2026,
@@ -14535,14 +14544,77 @@ const facultyPaperAudits = {
         "note": "NSDI 正式版只有北大和约翰斯霍普金斯；引用阿里集群资源利用率为论文背景，不能据此判为该篇企业工作。"
       },
       {
-        "title": "ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production",
         "year": 2025,
-        "url": "https://arxiv.org/abs/2505.09999",
+        "title": "ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production",
+        "url": "https://www.usenix.org/system/files/nsdi26-xiang-servegen.pdf",
         "outcome": "confirmed",
-        "note": "2025-05-15 首稿与 NSDI 2026 正式版合并。北大向昱行、具名导师金鑫及阿里翟恩南同篇；企业项目仓库保留向昱行实习期间提交的研究数据。与同作者部分重合的 Aegaeon 分列。"
+        "note": "阿里云实习期间公开的首稿有首作者阿里云及北大双署名，学生主页给出博士导师与实习起止及 LLM 服务方向；他同期在 alibaba/ServeGen 仓库提交这篇的具名实验负载。"
+      },
+      {
+        "year": 2023,
+        "title": "Automated Verification of an In-Production DNS Authoritative Engine",
+        "url": "https://doi.org/10.1145/3600006.3613153",
+        "outcome": "lead",
+        "note": "全文致谢阿里研究实习项目，郑耐谦本人履历显示当时是北大研究生和阿里科研实习生，还列有两名校内导师；尚缺将他本人实习工作直接对应这篇的材料，技术主题为 DNS 配置形式化验证。"
+      },
+      {
+        "year": 2025,
+        "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+        "url": "https://doi.org/10.1145/3718958.3750501",
+        "outcome": "lead",
+        "note": "SIGCOMM 正式议程列北大金鑫、中关村实验室及多名腾讯作者。清华网络研究院把本篇放在毕业生栏；首作者 Heng Yu 署中关村实验室，未看到其为金鑫在读受指导学生的证据。"
+      },
+      {
+        "year": 2025,
+        "title": "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/lou",
+        "outcome": "lead",
+        "note": "NSDI 正式版及 2025 年 2 月首稿 ParaServe 合为一篇。正式版有阿里研究人员和北大学生；齐昇公开的同年腾讯经历研究不同问题，阿里 PAI 经历在首稿后，其他学生尚无逐篇企业科研证据。"
+      },
+      {
+        "year": 2025,
+        "title": "WarmServe: Enabling One-for-Many GPU Prewarming for Multi-LLM Serving",
+        "url": "https://proceedings.mlr.press/v306/lou26f.html",
+        "outcome": "lead",
+        "note": "ICML 正式版及 2025 年 12 月首稿有北大与华为人员同署；已查看两版首页、学生个人资料，暂未见在读者在哪个华为项目中承担本篇科研。"
+      },
+      {
+        "year": 2024,
+        "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
+        "url": "https://doi.org/10.1145/3694715.3695948",
+        "outcome": "no-evidence",
+        "note": "SOSP 正式议程列北大与上海人工智能实验室，2024 首稿同篇，暂未见目标企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-bingyang",
+        "outcome": "no-evidence",
+        "note": "NSDI 正式版和 2023 年 5 月首稿 2305.05920 合为一篇；正式作者机构均为北大，公开实验是开源 LLM 的调度，不见目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+        "url": "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin",
+        "outcome": "no-evidence",
+        "note": "OSDI 正式版校外作者署 UC San Diego、阶跃星辰；学生履历把不同论文部署项目分列，不能挪用字节实习给此篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Optimizing RLHF Training for Large Language Models with Stage Fusion",
+        "url": "https://www.usenix.org/conference/nsdi25/presentation/zhong",
+        "outcome": "no-evidence",
+        "note": "NSDI 正式版和 RLHFuse 首稿 2409.13221 同篇。正式版署北大与阶跃星辰；学生履历的阶跃星辰项目与字节 MegaScale 分列。"
+      },
+      {
+        "year": 2025,
+        "title": "Cannikin: No Lagger of SLO in Concurrent Multiple LoRA LLM Serving",
+        "url": "https://doi.org/10.1109/tpds.2025.3590014",
+        "outcome": "lead",
+        "note": "TPDS 题录及原作者书目有同篇北大学生、两位博士导师、三位字节作者；暂未看到明确证明朱瑞东在字节完成该项工作的原文脚注或企业发布。"
       }
     ],
-    "note": "已核对首批系统论文原文、在读身份、学生履历及具名导师。需继续区分独立研究、预印本和变更后的作者署名。"
+    "note": "先核逐篇正式论文、学生期的具名企业项目及同期全职员工。已核对多篇正式版与首稿改名、版本脚注及同名系列，其他书目仍待逐篇梳理。"
   },
   "JqOOSuIAAAAJ": {
     "from": "2023-01-01",
@@ -38611,7 +38683,13 @@ const facultyPaperAudits = {
       "https://cnic.cas.cn/gzdt/202501/t20250106_7514258.html",
       "https://cnic.cas.cn/yjsjy/zsxx/sstk/202106/t20210630_6122015.html",
       "https://yangtonghome.github.io/uploads/BurstBalancer_TPDS_final.pdf",
-      "https://cnic.cas.cn/yjsjy/zsxx/tjms/202106/t20210630_6121992.html"
+      "https://cnic.cas.cn/yjsjy/zsxx/tjms/202106/t20210630_6121992.html",
+      "https://english.cnic.cas.cn/scientists/202610/t20261015_1203761.html",
+      "https://dblp.uni-trier.de/pid/64/9826-1.html",
+      "https://orcid.org/0000-0001-7408-2203",
+      "https://arxiv.org/pdf/2412.06290",
+      "https://conferences.sigcomm.org/events/apnet2026/apnetprogram.php",
+      "https://gopher943.github.io/pdf/tang_2024_survey.pdf"
     ],
     "papers": [
       {
@@ -38634,9 +38712,79 @@ const facultyPaperAudits = {
         "url": "https://www.zte.com.cn/content/dam/zte-site/res-www-zte-com-cn/mediares/magazine/publication/com_cn/article/202406/6.pdf",
         "outcome": "no-evidence",
         "note": "期刊卷期 2024，2025-01 在线。中兴通讯技术期刊原文作者均为中科院网络信息中心和国科大；中兴是出版方，并无企业合著证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Not All Data are What You Need: A Data-Efficient Training Method Using Heterogeneous Hardware",
+        "url": "https://doi.org/10.1109/TKDE.2026.3668991",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式题录含中科院计算所及网信中心、湖南科大、中山大学和纽约州立大学石溪校区；没有企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Rethinking Virtual Network Construction for Network Emulation at Scale: Analysis, Modeling, and Optimization",
+        "url": "https://doi.org/10.1109/TNSM.2026.3715559",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录作者机构为中科院及石溪校区；所研究的是虚拟网络仿真拓扑构建，未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Enhancing Video Conference Applications with VCApather: A Network as a Service Perspective",
+        "url": "https://doi.org/10.1145/3732780",
+        "outcome": "no-evidence",
+        "note": "ACM 题录企业作者署深信服，Cédric Westphal 在本篇署 UC Santa Cruz，而非其其他论文的 Futurewei；无目标企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "The Hybrid ROA: A Flexible and Scalable Encoding Scheme for Route Origin Authorization",
+        "url": "https://doi.org/10.1109/TON.2026.3740845",
+        "outcome": "no-evidence",
+        "note": "与 2024 年 12 月预印本 2412.06290 同篇。正式版与作者公开原文均显示唯一校外作者署 ZDNS 工程研究中心，而非范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "BiCayley: Traffic-Aware 3-ISL Topology Optimization via Bipartite Cayley Graph",
+        "url": "https://doi.org/10.1145/3820441.3820477",
+        "outcome": "no-evidence",
+        "note": "APNet 2026 会议正式议程列三位作者均为中科院网络信息中心，没有目标企业的署名。"
+      },
+      {
+        "year": 2025,
+        "title": "GraphBGP: BGP Anomaly Detection Based on Dynamic Graph Learning",
+        "url": "https://doi.org/10.1109/TIFS.2025.3607239",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录机构为南邮、中科院网信中心、纽约州立大学石溪校区、湖南科大。没有目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "GraphIoT: Lightweight IoT Device Detection Based on Graph Classifiers and Incremental Learning",
+        "url": "https://doi.org/10.1109/TSC.2024.3466854",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录作者属湖南的高校和中科院计算所/网信中心，未见目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "A Comprehensive Benchmark and Empirical Study of Trace Anomaly Detection",
+        "url": "https://doi.org/10.1109/TSC.2025.3622122",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录作者机构为南开、中科院网信中心和清华；研究用公开的调用链异常检测基准，未见目标企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Improving the Scalability of Distributed Network Emulations: An Algorithmic Perspective",
+        "url": "https://doi.org/10.1109/TNSM.2023.3287030",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者机构为中科院计算所、网信中心及国科大；未见目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Towards Enhancing Inter-Domain Routing Security With Visualization and Visual Analytics",
+        "url": "https://doi.org/10.1109/TBDATA.2024.3481899",
+        "outcome": "no-evidence",
+        "note": "IEEE 期刊 2024-10 在线、2025 卷；作者所公开的最终稿说明这是一项域间路由安全可视化综述，并非独立的某个企业实研项目。"
       }
     ],
-    "note": "优先核查参与华为作者的路由论文，已核到正式发表与部分校内指导记录，仍缺学生与本篇企业实研的联系；其他书目仍在逐篇核查。"
+    "note": "按国科大院所主页、ORCID、DBLP 身份与出版社题录逐篇交叉；已保留两件华为线索，尚无在读共著者于目标公司做该篇研究的直接证据。新增进度也覆盖无企业作者或仅涉及范围之外企业的论文；余下会议和期刊书目仍逐篇查。"
   },
   "TbomW9sAAAAJ": {
     "from": "2023-01-01",
