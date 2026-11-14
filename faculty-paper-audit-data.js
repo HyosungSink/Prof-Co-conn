@@ -12768,7 +12768,16 @@ const facultyPaperAudits = {
       "https://doi.org/10.1109/TNNLS.2024.3476114",
       "https://doi.org/10.1109/TCSVT.2023.3237328",
       "https://doi.org/10.1093/bioinformatics/btag566",
-      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html"
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
+      "https://dblp.org/pid/130/6591-1.html",
+      "https://dblp.uni-trier.de/pid/211/5867.html",
+      "https://arxiv.org/html/2603.26049",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37657",
+      "https://arxiv.org/html/2405.09586v2",
+      "https://github.com/mk-runner/FSE",
+      "https://doi.org/10.1016/j.eswa.2026.132550",
+      "https://link.springer.com/chapter/10.1007/978-3-031-73226-3_3",
+      "https://www.sciencedirect.com/science/article/pii/S0950705124000224"
     ],
     "papers": [
       {
@@ -12826,9 +12835,44 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
         "outcome": "no-evidence",
         "note": "CVF 正式论文首页仅列西电和布朗大学，没有范围内企业作者。"
+      },
+      {
+        "title": "Seeing Like Radiologists: Context- and Gaze-Guided Vision-Language Pretraining for Chest X-rays",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.26049",
+        "outcome": "no-evidence",
+        "note": "2026 年公开原文作者仅署西安电子科技大学和武汉大学，无范围内企业。"
+      },
+      {
+        "title": "PriorRG: Prior-Guided Contrastive Pre-training and Coarse-to-Fine Decoding for Chest X-ray Report Generation",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37657",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版六位作者均署西电计科院及合作重点实验室。"
+      },
+      {
+        "title": "Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.eswa.2026.132550",
+        "outcome": "no-evidence",
+        "note": "期刊正式版与 2024 年同名预印本合并；原稿和同一作者名单的正式稿列西电、布朗大学，无范围内企业。"
+      },
+      {
+        "title": "Watching it in Dark: A Target-Aware Representation Learning Framework for High-Level Vision Tasks in Low Illumination",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-73226-3_3",
+        "outcome": "no-evidence",
+        "note": "Springer 正式版作者单位为西电（含重点实验室）和兰州交通大学。"
+      },
+      {
+        "title": "DiffTAD: Denoising diffusion probabilistic models for vehicle trajectory anomaly detection",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0950705124000224",
+        "outcome": "no-evidence",
+        "note": "期刊正式版的全部作者单位是西安电子科技大学或桂林电子科技大学；无范围内企业。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "已按课题组公开书目继续逐篇核对作者、论文版本和所属单位；其余书目尚未穷尽。"
   },
   "skrocFAAAAAJ": {
     "from": "2023-01-01",
@@ -13881,7 +13925,14 @@ const facultyPaperAudits = {
     "sources": [
       "https://faculty.xidian.edu.cn/MAZHUOQI/zh_CN/index.htm",
       "https://doi.org/10.1093/bioinformatics/btag566",
-      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html"
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
+      "https://dblp.org/pid/130/6591-1.html",
+      "https://dblp.uni-trier.de/pid/211/5867.html",
+      "https://arxiv.org/html/2603.26049",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37657",
+      "https://arxiv.org/html/2405.09586v2",
+      "https://github.com/mk-runner/FSE",
+      "https://doi.org/10.1016/j.eswa.2026.132550"
     ],
     "papers": [
       {
@@ -13897,9 +13948,30 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
         "outcome": "no-evidence",
         "note": "CVF 正式论文首页仅列西电和布朗大学，没有范围内企业作者。"
+      },
+      {
+        "title": "Seeing Like Radiologists: Context- and Gaze-Guided Vision-Language Pretraining for Chest X-rays",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.26049",
+        "outcome": "no-evidence",
+        "note": "2026 年公开原文作者仅署西安电子科技大学和武汉大学，无范围内企业。"
+      },
+      {
+        "title": "PriorRG: Prior-Guided Contrastive Pre-training and Coarse-to-Fine Decoding for Chest X-ray Report Generation",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37657",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版六位作者均署西电计科院及合作重点实验室。"
+      },
+      {
+        "title": "Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.eswa.2026.132550",
+        "outcome": "no-evidence",
+        "note": "期刊正式版与 2024 年同名预印本合并；原稿和同一作者名单的正式稿列西电、布朗大学，无范围内企业。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "已按课题组公开书目继续逐篇核对作者、论文版本和所属单位；其余书目尚未穷尽。"
   },
   "0Eda01MAAAAJ": {
     "from": "2023-01-01",
@@ -13908,7 +13980,13 @@ const facultyPaperAudits = {
     "sources": [
       "https://faculty.xidian.edu.cn/LIYUNAN",
       "https://doi.org/10.1093/bioinformatics/btag566",
-      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html"
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
+      "https://dblp.org/pid/130/6591-1.html",
+      "https://dblp.uni-trier.de/pid/211/5867.html",
+      "https://arxiv.org/html/2603.26049",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37657",
+      "https://link.springer.com/chapter/10.1007/978-3-031-73226-3_3",
+      "https://www.sciencedirect.com/science/article/pii/S0950705124000224"
     ],
     "papers": [
       {
@@ -13924,9 +14002,37 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
         "outcome": "no-evidence",
         "note": "CVF 正式论文首页仅列西电和布朗大学，没有范围内企业作者。"
+      },
+      {
+        "title": "Seeing Like Radiologists: Context- and Gaze-Guided Vision-Language Pretraining for Chest X-rays",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.26049",
+        "outcome": "no-evidence",
+        "note": "2026 年公开原文作者仅署西安电子科技大学和武汉大学，无范围内企业。"
+      },
+      {
+        "title": "PriorRG: Prior-Guided Contrastive Pre-training and Coarse-to-Fine Decoding for Chest X-ray Report Generation",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37657",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版六位作者均署西电计科院及合作重点实验室。"
+      },
+      {
+        "title": "Watching it in Dark: A Target-Aware Representation Learning Framework for High-Level Vision Tasks in Low Illumination",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-73226-3_3",
+        "outcome": "no-evidence",
+        "note": "Springer 正式版作者单位为西电（含重点实验室）和兰州交通大学。"
+      },
+      {
+        "title": "DiffTAD: Denoising diffusion probabilistic models for vehicle trajectory anomaly detection",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0950705124000224",
+        "outcome": "no-evidence",
+        "note": "期刊正式版的全部作者单位是西安电子科技大学或桂林电子科技大学；无范围内企业。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "已按课题组公开书目继续逐篇核对作者、论文版本和所属单位；其余书目尚未穷尽。"
   },
   "U9TnHJgAAAAJ": {
     "from": "2023-01-01",
@@ -14964,5 +15070,544 @@ const facultyPaperAudits = {
       }
     ],
     "note": "公开书目仍在梳理；京东案例按每篇论文的脚注及同期在读、实习材料独立核对。"
+  },
+  "g61gTKsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://amr.pku.edu.cn/jzyg/szdw/T/f254b1bde0e14b159e3c87d05424d794.htm",
+      "https://tyj518.github.io/publications.html",
+      "https://tyj518.github.io/yujie_CV.pdf",
+      "https://orcid.org/0000-0002-4921-8372",
+      "https://dblp.org/pid/22/10163-2.html",
+      "https://api.crossref.org/works?filter=orcid:0000-0002-4921-8372,from-pub-date:2023-01-01,until-pub-date:2026-11-12&rows=100",
+      "https://export.arxiv.org/api/query?search_query=au:%22Yujie_Tang%22+AND+submittedDate:%5B202301010000+TO+202611122359%5D&max_results=100",
+      "https://proceedings.mlr.press/v283/zheng25a.html",
+      "https://ryjin66.github.io/ryjin.github.io/publications/",
+      "https://www.csauthors.net/yujie-tang-002/"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Analysis of the Optimization Landscape of Linear Quadratic Gaussian (LQG) Control",
+        "url": "https://doi.org/10.1007/s10107-023-01938-4",
+        "outcome": "no-evidence",
+        "note": "2023 年：Mathematical Programming 正式出版为 2023 年；预印本作者均署哈佛工程与应用科学学院，未见范围内企业作者或实习说明。"
+      },
+      {
+        "year": 2023,
+        "title": "Distributed Information-Based Source Seeking",
+        "url": "https://doi.org/10.1109/TRO.2023.3309099",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式卷期为 2023 年，预公开稿具名哈佛、MIT、北大作者，无范围内企业参与说明。"
+      },
+      {
+        "year": 2023,
+        "title": "Zeroth-Order Feedback Optimization for Cooperative Multi-Agent Systems",
+        "url": "https://par.nsf.gov/servlets/purl/10480259",
+        "outcome": "no-evidence",
+        "note": "2023 年：Automatica 正式卷期为 2023 年。原文作者署北大及哈佛；它注明部分内容曾在 2020 年会议报告，相关早稿不重复计数。"
+      },
+      {
+        "year": 2023,
+        "title": "On the Global Optimality of Direct Policy Search for Nonsmooth H∞ Output-Feedback Control",
+        "url": "https://doi.org/10.1109/CDC49753.2023.10383563",
+        "outcome": "no-evidence",
+        "note": "2023 年：会议正式稿及预印本仅列北大唐聿劼和 UC San Diego 的 Yang Zheng，仅两名作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Escaping Saddle Points in Zeroth-Order Optimization: The Power of Two-Point Estimators",
+        "url": "https://proceedings.mlr.press/v202/ren23b.html",
+        "outcome": "no-evidence",
+        "note": "2023 年：ICML 正式原文署哈佛和北大，无范围内企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Dynamic Control and Time-Delayed Channel Scheduling Co-Design for Voltage Control in Active Distribution Networks",
+        "url": "https://doi.org/10.1109/TSG.2023.3298139",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE 期刊正式卷期为 2024 年，另有 2023 在线版本。出版方登记列清华、北大及国网上海电力相关单位，国网超出本次范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Zeroth-Order Katyusha: An Accelerated Derivative-Free Method for Composite Convex Optimization",
+        "url": "https://doi.org/10.1109/CDC56724.2024.10885915",
+        "outcome": "no-evidence",
+        "note": "2024 年：CDC 题录和预印本均仅两位北大作者，没有企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Variance-Reduced Gradient Estimator for Nonconvex Zeroth-Order Distributed Optimization",
+        "url": "https://doi.org/10.23919/ACC63710.2025.11107900",
+        "outcome": "no-evidence",
+        "note": "2025 年：2024 预印本及 2025 ACC 版本归为同篇；原文列北大学术单位，无范围内企业人员。"
+      },
+      {
+        "year": 2025,
+        "title": "Zeroth-Order Feedback Optimization in Multi-Agent Systems: Tackling Coupled Constraints",
+        "url": "https://doi.org/10.23919/ACC63710.2025.11107733",
+        "outcome": "no-evidence",
+        "note": "2025 年：2024 arXiv 与 2025 ACC 正式版为同篇，只有北大两位作者；个人简历另核 Yingpeng Duan 为当期硕士生。"
+      },
+      {
+        "year": 2025,
+        "title": "Query-Efficient Zeroth-Order Algorithms for Nonconvex Constrained Optimization",
+        "url": "https://arxiv.org/abs/2510.19165",
+        "outcome": "no-evidence",
+        "note": "2025 年：2025 年首版、2026 年改稿共用同一预印本编号。原文作者单位为香港城市大学与北大，无范围内企业署名或具名参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Benign Nonconvex Landscapes in Optimal and Robust Control, Part I: Global Optimality",
+        "url": "https://doi.org/10.1109/TAC.2026.3675544",
+        "outcome": "no-evidence",
+        "note": "2026 年：2023 年预印本与 2026 年 IEEE 正式版合并，作者机构为 UC San Diego 和北大。2023 年的两作者 CDC 论文在本篇被单独引用，另列。"
+      },
+      {
+        "year": 2026,
+        "title": "Benign Nonconvex Landscapes in Optimal and Robust Control, Part II: Extended Convex Lifting",
+        "url": "https://doi.org/10.1109/TAC.2026.3675545",
+        "outcome": "no-evidence",
+        "note": "2026 年：将 2024 年预印本及同作者 2025 年 PMLR 短篇 ECL 一并核对；短篇明确引向该扩展报告，于本台账并列版本。两稿仅列 UC San Diego 与北大。"
+      },
+      {
+        "year": 2026,
+        "title": "Zeroth-Order Feedback-Based Optimization for Distributed Energy Management",
+        "url": "https://doi.org/10.1016/j.ejor.2026.01.028",
+        "outcome": "no-evidence",
+        "note": "2026 年：正式期刊为 2026 年；与同作者的 2023 年 Distributed Demand Response 预印本合并。核实原稿三位作者均署北大。"
+      },
+      {
+        "year": 2026,
+        "title": "ZIVR: An Incremental Variance Reduction Technique For Zeroth-Order Composite Problems",
+        "url": "https://arxiv.org/abs/2601.05056",
+        "outcome": "no-evidence",
+        "note": "2026 年：原稿仅两位北大作者，无企业作者；与另一个面向分布式有限和优化的独立稿分开。"
+      },
+      {
+        "year": 2026,
+        "title": "Policy Optimization of Mixed H2/H-infinity Control: Benign Nonconvexity and Global Optimality",
+        "url": "https://arxiv.org/abs/2603.04843",
+        "outcome": "no-evidence",
+        "note": "2026 年：原稿仅列 UC San Diego 和北大，没有范围内企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Harnessing Individual Motivation for Collective Efficiency: A Mechanism-Driven Distributed Optimization Method",
+        "url": "https://arxiv.org/abs/2605.23864",
+        "outcome": "no-evidence",
+        "note": "2026 年：原稿四位作者都署北大，没有范围内企业作者或实习脚注。"
+      },
+      {
+        "year": 2026,
+        "title": "Zeroth-Order Nonsmooth Nonconvex Optimization with Convex Liftings and Its Application to State-Feedback H∞ Policy Optimization",
+        "url": "https://arxiv.org/abs/2608.23178",
+        "outcome": "no-evidence",
+        "note": "2026 年：只列北大两位作者，教师履历具名列博士生 Xuhao Wang；模型引用不等于企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "A Two-Timescale Algorithm for the Optimal Operation of Traction Power Supply Systems with PV Generation and Energy Storage",
+        "url": "https://doi.org/10.2139/ssrn.7352474",
+        "outcome": "no-evidence",
+        "note": "2026 年：SSRN 发布于 2026 年 8 月，列北大、华北电力大学及一位未登记机构的作者；教师简历核实首作 Zitang Gou 是组内硕士，未发现该篇范围内企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "No Spurious Local Minima in Full-Order Linear Quadratic Gaussian Control",
+        "url": "https://arxiv.org/abs/2609.32875",
+        "outcome": "no-evidence",
+        "note": "2026 年：与 2023 年的 LQG 论文标题、作者和分析范围不同；本篇仅有 UC San Diego 与北大两位作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Distributed Zeroth-Order Composite Finite-Sum Optimization via Incremental Variance Reduction",
+        "url": "https://arxiv.org/abs/2610.41615",
+        "outcome": "no-evidence",
+        "note": "2026 年：原稿只列两位北大作者，未含同篇企业作者；与 2026 年较早的非分布式 ZIVR 分开。"
+      },
+      {
+        "year": 2026,
+        "title": "Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees",
+        "url": "https://arxiv.org/abs/2611.01373",
+        "outcome": "no-evidence",
+        "note": "2026 年：2026 年 11 月 1 日公开，作者只有两位北大研究者，无同篇企业作者。"
+      }
+    ],
+    "note": "已逐篇核查 2023-01-01 至 2026-11-12 可归属唐聿劼的公开论文，交叉个人书目、校内履历、ORCID、DBLP、Crossref、arXiv 及正式档案。预印本与正式版合并，采用正式出版年；未正式出版者用首次公开年。同名作者记录已排除。"
+  },
+  "xAIoG6cAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1016/j.cnsns.2023.107419",
+      "https://www.polyu.edu.hk/ama/profile/lou/publications.html",
+      "https://www.polyu.edu.hk/ama/profile/lou/cv.pdf",
+      "https://research.polyu.edu.hk/en/persons/yijun-lou/",
+      "https://orcid.org/0000-0003-3864-2001",
+      "https://dblp.org/pid/91/6573.html",
+      "https://doi.org/10.1016/j.nonrwa.2023.103867",
+      "https://www.sciencedirect.com/science/article/pii/S1468121823000378",
+      "https://doi.org/10.1007/s11538-023-01202-y",
+      "https://pubmed.ncbi.nlm.nih.gov/37679577/",
+      "https://doi.org/10.1007/s10884-023-10254-6",
+      "https://ira.lib.polyu.edu.hk/handle/10397/99294",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10042677/",
+      "https://doi.org/10.1137/23M1578115",
+      "https://doi.org/10.1016/j.actatropica.2024.107159",
+      "https://doi.org/10.1007/s00285-024-02091-y",
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/107670/1/Lou_Modeling_Insect_Growth.pdf",
+      "https://doi.org/10.1109/JAS.2024.124743",
+      "https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2024.124743",
+      "https://doi.org/10.1111/sapm.70101",
+      "https://doi.org/10.1016/j.jde.2025.113284",
+      "https://doi.org/10.1137/23M1586057",
+      "https://doi.org/10.1016/j.mbs.2025.109374",
+      "https://doi.org/10.1142/S3029286725500020",
+      "https://doi.org/10.1109/TCSI.2025.3550551",
+      "https://doi.org/10.1016/j.cnsns.2025.108907",
+      "https://ira.lib.polyu.edu.hk/handle/10397/116796",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1007570425003181",
+      "https://doi.org/10.1007/s00285-025-02329-3",
+      "https://doi.org/10.1007/s00285-026-02355-9",
+      "https://link.springer.com/article/10.1007/s00285-026-02355-9",
+      "https://doi.org/10.1016/j.jde.2026.114263",
+      "https://doi.org/10.1007/s10884-025-10471-1",
+      "https://link.springer.com/article/10.1007/s10884-025-10471-1",
+      "https://doi.org/10.1016/j.jde.2026.114341",
+      "https://research.polyu.edu.hk/en/publications/can-disease-invasion-match-population-expansion-in-a-time-periodi/",
+      "https://doi.org/10.1007/s00332-026-10283-7",
+      "https://link.springer.com/article/10.1007/s00332-026-10283-7",
+      "https://doi.org/10.1016/j.mbs.2026.109709",
+      "https://research.polyu.edu.hk/en/publications/an-epidemiological-model-with-arbitrary-distributions-for-infecti/",
+      "https://doi.org/10.1016/j.matcom.2026.06.025",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0378475426002697",
+      "https://doi.org/10.1111/sapm.70219",
+      "https://doi.org/10.1016/j.mbs.2026.109751",
+      "https://js.chd.edu.cn/lxy/lzm1/list.htm",
+      "https://doi.org/10.1073/pnas.2532976123",
+      "https://doi.org/10.1016/j.jtbi.2026.112629",
+      "https://pubmed.ncbi.nlm.nih.gov/42946157/",
+      "https://arxiv.org/abs/2403.15282",
+      "https://doi.org/10.64898/2026.09.30.26364380",
+      "https://www.medrxiv.org/content/10.64898/2026.09.30.26364380v1.full",
+      "https://doi.org/10.1016/j.na.2026.114268",
+      "https://ira.lib.polyu.edu.hk/handle/10397/121461?mode=full",
+      "https://doi.org/10.1016/j.nonrwa.2026.104723",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1468121826001239"
+    ],
+    "papers": [
+      {
+        "title": "An analytical approach to determining the coefficients in Lyapunov direct method: With application to an age-structured epidemiological model",
+        "url": "https://doi.org/10.1016/j.cnsns.2023.107419",
+        "outcome": "no-evidence",
+        "note": "Li、Lou、Zhang、Chen；院系年度研究成果、出版记录和理论论文未提供目标企业参与。",
+        "year": 2023
+      },
+      {
+        "title": "A periodic delay differential system for mosquito control with Wolbachia incompatible insect technique",
+        "url": "https://doi.org/10.1016/j.nonrwa.2023.103867",
+        "outcome": "no-evidence",
+        "note": "Kaihui Liu 和 Lou 的数学模型；论文列科研基金，未见范围企业人员或企业研究期间说明。",
+        "year": 2023
+      },
+      {
+        "title": "Getting Jab or Regular Test: Observations from an Impulsive Epidemic COVID-19 Model",
+        "url": "https://doi.org/10.1007/s11538-023-01202-y",
+        "outcome": "no-evidence",
+        "note": "出版方和 PubMed 列江苏大学、西电及港理工高校作者；未发现目标企业参与。",
+        "year": 2023
+      },
+      {
+        "title": "A Reaction-Diffusion Model with Spatially Inhomogeneous Delays",
+        "url": "https://doi.org/10.1007/s10884-023-10254-6",
+        "outcome": "no-evidence",
+        "note": "2023 年首次在线，2024 年正式刊期。Lou 与 Feng-Bin Wang 的高校合作；机构存档和原文均未列目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "Analysis of Equilibria and Connecting Orbits in a Nonlinear Viral Infection Model",
+        "url": "https://doi.org/10.1137/23M1578115",
+        "outcome": "no-evidence",
+        "note": "作者单位为上海大学与港理工；原文发表信息未列目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "Effectiveness evaluation of mosquito suppression strategies on dengue transmission under changing temperature and precipitation",
+        "url": "https://doi.org/10.1016/j.actatropica.2024.107159",
+        "outcome": "no-evidence",
+        "note": "Liu、Fang、Li、Lou 的登革热传播模型；院系书目与出版记录未提供学生参与企业科研的证据。",
+        "year": 2024
+      },
+      {
+        "title": "Modeling insect growth regulators for pest management",
+        "url": "https://doi.org/10.1007/s00285-024-02091-y",
+        "outcome": "no-evidence",
+        "note": "港理工和暨南大学合作；同年更正并入本篇，未见目标企业角色。",
+        "year": 2024
+      },
+      {
+        "title": "Distributed Saturated Impulsive Quasi-Consensus for Leader-Follower Multi-Agent Systems: An Open Topology Framework",
+        "url": "https://doi.org/10.1109/JAS.2024.124743",
+        "outcome": "no-evidence",
+        "note": "期刊明示 2025 年在线和正式刊期；DOI 所含 2024 并非发表年份。作者单位为东南大学、港理工、四川大学。",
+        "year": 2025
+      },
+      {
+        "title": "Global Dynamics of a Partially Degenerate Nonlocal Model for Mosquito-Borne Disease Transmission",
+        "url": "https://doi.org/10.1111/sapm.70101",
+        "outcome": "no-evidence",
+        "note": "原文署西电与港理工；未发现目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "Global dynamics of a degenerate reaction-diffusion model for Brucellosis transmission",
+        "url": "https://doi.org/10.1016/j.jde.2025.113284",
+        "outcome": "no-evidence",
+        "note": "Liu、Zhao、Bai、Lou、Sun、Li 的疾病传播模型。原文公开记录未给出目标企业员工或企业项目学生。",
+        "year": 2025
+      },
+      {
+        "title": "Stabilizing Logical Networks with Stochastic State-Heritable Control: A Markovian Sampling Method",
+        "url": "https://doi.org/10.1137/23M1586057",
+        "outcome": "no-evidence",
+        "note": "SIAM 列东南大学、浙江师范大学、港理工；无目标企业作者单位。",
+        "year": 2025
+      },
+      {
+        "title": "Infection-induced host extinction: Deterministic and stochastic models for environmentally transmitted pathogens",
+        "url": "https://doi.org/10.1016/j.mbs.2025.109374",
+        "outcome": "no-evidence",
+        "note": "Sun、Gao、Wang、Lou 的理论流行病学合作；未在公开论文中核到目标企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "Coupled contagion dynamics of behavior and disease: A mechanistic learning model approach",
+        "url": "https://doi.org/10.1142/S3029286725500020",
+        "outcome": "no-evidence",
+        "note": "签署单位为港理工、华中师范大学与南京师范大学；校内智慧城市研究院不属于企业。",
+        "year": 2025
+      },
+      {
+        "title": "Fixed-Time Stability of Nonlinear Systems With Destabilizing Delayed Impulses: Necessary and Sufficient Conditions",
+        "url": "https://doi.org/10.1109/TCSI.2025.3550551",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者单位为东南大学、港理工、西悉尼大学；未发现目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "Dynamical analysis of a parabolic-hyperbolic hybrid model for species with distinct dispersal and sedentary stages",
+        "url": "https://doi.org/10.1016/j.cnsns.2025.108907",
+        "outcome": "no-evidence",
+        "note": "西南大学与港理工；核对作者贡献和机构稿，无目标企业成员或实习声明。",
+        "year": 2025
+      },
+      {
+        "title": "A seasonal succession model for frog population dynamics with mating behaviors",
+        "url": "https://doi.org/10.1007/s00285-025-02329-3",
+        "outcome": "no-evidence",
+        "note": "Bei Sun 和 Lou 的种群数学模型。2025 年 12 月在线，2026 年正式出刊；未见范围企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "A nonlocal West Nile virus model with nonlocal free boundary conditions driven by both mosquitoes and birds",
+        "url": "https://doi.org/10.1007/s00285-026-02355-9",
+        "outcome": "no-evidence",
+        "note": "Springer 原文作者单位和资助为学术机构与科研基金，无目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "Fisher-KPP waves and the minimal speed on hexagonal lattice",
+        "url": "https://doi.org/10.1016/j.jde.2026.114263",
+        "outcome": "no-evidence",
+        "note": "Fang、Li、Lou、Wang 的单稳态行波研究；与四人同作的双稳态数学论文有不同主结果，无目标企业合作证据。",
+        "year": 2026
+      },
+      {
+        "title": "Isolas Dynamics: A Potential Mechanism Underlying DNA Damage Repair",
+        "url": "https://doi.org/10.1007/s10884-025-10471-1",
+        "outcome": "no-evidence",
+        "note": "Springer 给出 2026 年 1 月发表及学术机构作者；无目标企业角色。",
+        "year": 2026
+      },
+      {
+        "title": "Can disease invasion match population expansion in a time-periodic SI free boundary model?",
+        "url": "https://doi.org/10.1016/j.jde.2026.114341",
+        "outcome": "no-evidence",
+        "note": "Lou 与 Yijie Zha，两人合著已单独核对；高校成果库和原文没有目标企业员工作者。",
+        "year": 2026
+      },
+      {
+        "title": "Bistable Waves and Propagation Success on Hexagonal Lattice",
+        "url": "https://doi.org/10.1007/s00332-026-10283-7",
+        "outcome": "no-evidence",
+        "note": "哈尔滨工业大学与港理工的双稳态行波研究；不是 Fisher–KPP 单稳态论文的重复版本，无目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "An Epidemiological Model with Arbitrary Distributions for Infection and Relapse Stages",
+        "url": "https://doi.org/10.1016/j.mbs.2026.109709",
+        "outcome": "no-evidence",
+        "note": "Liu、Lou 和 Jin 的结核病模型；官方出版和港理工成果库没有范围企业成员。",
+        "year": 2026
+      },
+      {
+        "title": "Dynamics of a stochastic semi-Markovian hybrid switching epidemiological model with latency",
+        "url": "https://doi.org/10.1016/j.matcom.2026.06.025",
+        "outcome": "no-evidence",
+        "note": "2026 年 6 月已在线，12 月期次。合署高校包括劳里埃大学、宁夏大学、港理工，未见范围企业。",
+        "year": 2026
+      },
+      {
+        "title": "Global Dynamics of a Fear-Induced Predator–Prey Model With Age Structure and Advection",
+        "url": "https://doi.org/10.1111/sapm.70219",
+        "outcome": "no-evidence",
+        "note": "广州大学、西安科技大学、港理工和路易斯安那大学作者；未见范围企业。",
+        "year": 2026
+      },
+      {
+        "title": "Post-peak dynamics and epidemic overshoot in SIR-type frameworks",
+        "url": "https://doi.org/10.1016/j.mbs.2026.109751",
+        "outcome": "no-evidence",
+        "note": "出版记录及长安大学作者书目均列 Li、Lou、Jin；未找到目标企业共著或具名实习。",
+        "year": 2026
+      },
+      {
+        "title": "Integrating tumor–immune mechanistic modeling with transcriptomics reveals pattern-driven prognostic biomarkers in tumors",
+        "url": "https://doi.org/10.1073/pnas.2532976123",
+        "outcome": "no-evidence",
+        "note": "PNAS 给出武汉大学、港理工及加州大学作者单位；所用公开数据不构成企业共著或研究参与。",
+        "year": 2026
+      },
+      {
+        "title": "A neutral epidemic model of tick-borne pathogen transmission with co-infection and co-transmission",
+        "url": "https://doi.org/10.1016/j.jtbi.2026.112629",
+        "outcome": "no-evidence",
+        "note": "2026 年 10 月 27 日在线，核查时 PubMed 标作 ahead of print。机构有洛斯阿拉莫斯国家实验室、利兹大学、港理工、卡夫卡斯大学；国家实验室非范围企业，2024 年首次公开的同作者 arXiv 预印本已合并。",
+        "year": 2026
+      },
+      {
+        "title": "History-dependent SEIR models: equivalent formulations, fractional foundation, and growth and decay principles",
+        "url": "https://doi.org/10.64898/2026.09.30.26364380",
+        "outcome": "no-evidence",
+        "note": "2026 年 medRxiv 首次公开；作者单位为吉林大学、约克大学、港理工及哈工大，未见企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "Dynamics of a reaction-diffusion system with time-periodic and spatially dependent delay: A quotient space approach",
+        "url": "https://doi.org/10.1016/j.na.2026.114268",
+        "outcome": "no-evidence",
+        "note": "2026 年 8 月已发布，正式刊期为 2027 年 1 月。Lou 与 Zha 两人合著；学校存档列科研项目基金，没有企业成员共著。",
+        "year": 2027
+      },
+      {
+        "title": "Threshold dynamics of a reaction-diffusion population model with seasonal succession, periodic delays and mating behaviors",
+        "url": "https://doi.org/10.1016/j.nonrwa.2026.104723",
+        "outcome": "no-evidence",
+        "note": "2026 年 7 月已发布，2027 年 4 月正式期次。Sun、Tse、Zha、Lou；原文署名未发现目标企业参与。",
+        "year": 2027
+      }
+    ],
+    "note": "逐篇核对 30 项已公开成果。交叉核对教师官网书目与履历、PolyU Scholars Hub / 学校存档、ORCID、DBLP 和出版方登记；勘误与同论文预印本合并。两篇已在核查期间在线、正式刊期为 2027，逐条注明。未找到满足本项目条件的新增关系。"
+  },
+  "1oBy8zAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://duminxin.github.io/publication",
+      "https://duminxin.github.io/misc",
+      "https://dblp.org/pid/169/2251.html",
+      "https://orcid.org/0000-0001-6620-6923",
+      "https://research.polyu.edu.hk/en/persons/minxin-du/",
+      "https://xiaoyuxu1.github.io/",
+      "https://arxiv.org/html/2601.04278",
+      "https://github.com/Tencent/PowerFL-AnonGBDT",
+      "https://arxiv.org/html/2505.12453",
+      "https://doi.org/10.1145/3576915.3616592",
+      "https://xiaoyuxu1.github.io/SINGED_project/"
+    ],
+    "papers": [
+      {
+        "title": "Unlearning Isn’t Deletion: Investigating Reversibility of Machine Unlearning in LLMs",
+        "url": "https://arxiv.org/html/2505.16831v3",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "论文署华为郑华迪和胡培钊。杜闵欣的学生名录确认许晓宇为他和胡海波共同指导的港理工博士生。公开原文及个人主页均未说明许晓宇就该篇参与华为研究。"
+      },
+      {
+        "title": "From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning",
+        "url": "https://aclanthology.org/2026.findings-acl.1424.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ACL 论文署华为胡培钊及港理工在读作者。已确认许晓宇与杜闵欣的指导关系；没有找到具名、对应本篇的华为实习或联合研究分工。"
+      },
+      {
+        "title": "Practical Anonymous Two-Party Gradient Boosting Decision Tree",
+        "url": "https://duminxin.github.io/pdf/sp2026c1-final1050.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "IEEE S&P 原文逐名列多位腾讯作者，杜闵欣署香港理工。腾讯官方仓库提供代码。公开原文没有指出哪一位腾讯作者同时为在读学生，也未核实同期具名指导。"
+      },
+      {
+        "title": "Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for Scalable Federated Learning",
+        "url": "https://duminxin.github.io/pdf/sp2026c1-final793.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE S&P 原文逐名列希伯来大学、新加坡国立大学、港中大、香港理工。方法中讨论的工业部署不是作者任职；没有范围内企业署名。"
+      },
+      {
+        "title": "OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.183.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版列香港理工和浙江大学相关重点实验室；许晓宇具名列在共同导师杜闵欣的学生名单，未见企业作者或对应企业参研。"
+      },
+      {
+        "title": "SecEmb: Sparsity-Aware Secure Federated Learning of On-Device Recommender System with Large Embedding",
+        "url": "https://proceedings.mlr.press/v267/mai25a.html",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICML 论文作者分别署新加坡国立大学及重庆研究院、耶路撒冷希伯来大学、港理工；未见范围内企业。"
+      },
+      {
+        "title": "DP-Forward: Fine-tuning and Inference on Language Models with Differential Privacy in Forward Pass",
+        "url": "https://arxiv.org/html/2309.06746",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 正式题录对应公开原文。作者署港中大、俄亥俄州立大学、弗吉尼亚大学或为独立作者；没有范围内企业。"
+      },
+      {
+        "title": "Sanitizing Sentence Embeddings (and Labels) for Local Differential Privacy",
+        "url": "https://duminxin.github.io/pdf/TheWeb23_SentenceDP.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "WWW 正式原文四名作者仅署香港中文大学、俄亥俄州立大学；没有范围内企业。"
+      },
+      {
+        "title": "FIT to Forget: Robust Continual Unlearning for Large Language Models",
+        "url": "https://arxiv.org/html/2601.21682v2",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "同篇确有蚂蚁集团黄智聪及洪成署名，许晓宇的港理工学籍和杜闵欣共同指导已核实。公开原文及学生的个人书目未给出针对该篇的蚂蚁实习或同项目具体分工。"
+      },
+      {
+        "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning",
+        "url": "https://arxiv.org/html/2507.00432",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "该篇实习脚注指向作者在卡内基梅隆大学的研究；署名另含宾大、华盛顿大学、香港理工和 M-A-P。没有范围内企业作者。"
+      },
+      {
+        "title": "SINGED: Correct Outputs Do Not Certify Safe Execution in LLM Agents",
+        "url": "https://arxiv.org/abs/2609.35889",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "论文项目主页逐一列作者仅为香港理工和杭州电子科技大学；未见范围内企业。"
+      }
+    ]
   }
 };
