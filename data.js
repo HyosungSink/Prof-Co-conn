@@ -45468,6 +45468,116 @@ const survey = {
       ],
       "evidence": "首稿 2024-06-14 已列三位腾讯作者；正式 MICCAI PDF 第 9 页明确这项研究与腾讯天衍共同开展。港中文博士生 Conghao Xiong 在正式版列第一作者和共同通讯，并从本人可追溯仓库提交 254 行核心 MoME 模型实现；港中文实际博导金国庆、当时在腾讯全职的郑冶枫均同篇。它研究多模态癌症生存预测，与同一团队的病理切片知识转移 TAKT 是两篇独立论文。",
       "paperId": "10.1007/978-3-031-72083-3_30"
+    },
+    {
+      "id": "rednote-redtrans-buaa-zhoujun-li",
+      "title": "Redefining Machine Translation on Social Network Services with Large Language Models",
+      "short": "RedTrans",
+      "date": "2025-04-10",
+      "school": "北京航空航天大学",
+      "company": "小红书",
+      "team": "小红书 NLP 团队",
+      "venue": "ICDE 2026",
+      "area": "大语言模型 · 社交翻译",
+      "paper": "https://doi.org/10.1109/ICDE65706.2026.00291",
+      "paperId": "10.1109/ICDE65706.2026.00291",
+      "faculty": [
+        "李舟军",
+        "北京航空航天大学计算机学院教授、博士生导师；同篇作者。",
+        "https://teacher.buaa.edu.cn/08055/zh_CN/jsxx/42651/jsxx/jsxx.htm"
+      ],
+      "employee": [
+        "曹绍升",
+        "小红书 NLP 团队负责人，同篇小红书署名通讯作者；公开报告由其讲解该团队的翻译大模型和研发。",
+        "https://msup.com.cn/teacher/11194"
+      ],
+      "student": [
+        "郭宏成",
+        "北航在读博士与论文第一作者。RedTrans 项目介绍具名列其为小红书 NLP 实习生，郭本人在 2025-04-10 提交 RedTrans-Bench 评测工具。",
+        "https://github.com/HC-Guo/RedTrans/commit/fd0e7636fde1461e82cc6edac1d987e09bb1a5b5"
+      ],
+      "studentSchool": "北京航空航天大学",
+      "advising": [
+        "博士共同导师",
+        "郭宏成本人学术主页明确列李舟军和徐东为北航博士阶段的指导老师；北航 2020 级录取名单列郭，初始拟录取导师为徐东。",
+        "https://hc-guo.github.io/"
+      ],
+      "evidence": "同一工作 2025-04-10 首发，ICDE 2026 定稿改题为 Building and Benchmarking Large Language Models for Machine Translation in Social Network Services。两版使用同一 RedTrans-Bench 项目和双模型回译／RePO 方法。郭本人署名提交评测工具并更新数据；项目介绍将郭列为小红书 NLP 实习生，曹绍升为该团队负责人和通讯作者。",
+      "extra": [
+        [
+          "北航博士录取名单",
+          "https://scse.buaa.edu.cn/__local/7/0A/0F/B47EACA3D3249E01283CDB98588_74A06020_1EF07.pdf"
+        ],
+        [
+          "2025-04-10 作者首稿",
+          "https://arxiv.org/html/2504.07901v1"
+        ],
+        [
+          "RedTrans 研究项目及作者分工",
+          "https://2048ai.net/682fd478606a8318e859e5c9.html"
+        ],
+        [
+          "具名数据提交",
+          "https://github.com/HC-Guo/RedTrans/commit/a1f4489a1806bf77304f91836212624130f5452a"
+        ]
+      ]
+    },
+    {
+      "id": "rednote-sns-bench-buaa-zhoujun-li",
+      "title": "SNS-Bench: Defining, Building, and Assessing Capabilities of Large Language Models in Social Networking Services",
+      "short": "SNS-Bench",
+      "date": "2025-01",
+      "school": "北京航空航天大学",
+      "company": "小红书",
+      "team": "小红书 NLP 团队",
+      "venue": "ICML 2025",
+      "area": "大语言模型 · 社交文本评测",
+      "paper": "https://proceedings.mlr.press/v267/guo25o.html",
+      "paperId": "pmlr-v267-guo25o",
+      "faculty": [
+        "李舟军",
+        "北京航空航天大学计算机学院教授、博士生导师；同篇作者。",
+        "https://teacher.buaa.edu.cn/08055/zh_CN/jsxx/42651/jsxx/jsxx.htm"
+      ],
+      "employee": [
+        "曹绍升",
+        "小红书 NLP 团队负责人；ICML 正式版列其为小红书通讯作者。",
+        "https://msup.com.cn/teacher/11194"
+      ],
+      "student": [
+        "郭宏成",
+        "北航在读博士、第一作者，在 2025 年 1 月署名上传本研究的评测数据，4 月提交包括命名实体、查询和文本理解的评测代码；论文明确说明数据来自小红书并经内部审查。",
+        "https://github.com/HC-Guo/SNS-Bench/commit/2b721737de3e1096ad3360bbde44a9d5a441e9f6"
+      ],
+      "studentSchool": "北京航空航天大学",
+      "advising": [
+        "博士共同导师",
+        "郭宏成本人学术主页明确列李舟军和徐东为北航博士阶段的指导老师；北航 2020 级录取名单列郭，初始拟录取导师为徐东。",
+        "https://hc-guo.github.io/"
+      ],
+      "evidence": "PMLR 正式稿第 3 节点名小红书并说明基准数据经公司内部审查。北航博士郭宏成第一作者，公开提交该项目数据和十个评测脚本；小红书 NLP 团队的曹绍升为同篇通讯。它评估社交文本任务，与研究社交翻译模型的 RedTrans 独立。",
+      "extra": [
+        [
+          "北航博士录取名单",
+          "https://scse.buaa.edu.cn/__local/7/0A/0F/B47EACA3D3249E01283CDB98588_74A06020_1EF07.pdf"
+        ],
+        [
+          "企业员工及同篇通讯作者",
+          "https://msup.com.cn/teacher/11194"
+        ],
+        [
+          "正式论文 PDF，数据构建见第 3 节",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/guo25o/guo25o.pdf#page=3"
+        ],
+        [
+          "郭宏成的项目数据提交",
+          "https://github.com/HC-Guo/SNS-Bench/commit/f14ce0e9aa22699c31dee187fc27be1719ab533c"
+        ],
+        [
+          "同团队同期人员及实习身份",
+          "https://2048ai.net/682fd478606a8318e859e5c9.html"
+        ]
+      ]
     }
   ]
 };

@@ -3755,7 +3755,16 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2505.17104",
       "https://arxiv.org/abs/2406.07436",
       "https://mceval.github.io/",
-      "https://aclanthology.org/2024.acl-long.100/"
+      "https://aclanthology.org/2024.acl-long.100/",
+      "https://teacher.buaa.edu.cn/08055/zh_CN/jsxx/42651/jsxx/jsxx.htm",
+      "https://hc-guo.github.io/",
+      "https://arxiv.org/html/2504.07901v1",
+      "https://github.com/HC-Guo/RedTrans/commit/fd0e7636fde1461e82cc6edac1d987e09bb1a5b5",
+      "https://github.com/HC-Guo/RedTrans/commit/a1f4489a1806bf77304f91836212624130f5452a",
+      "https://proceedings.mlr.press/v267/guo25o.html",
+      "https://github.com/HC-Guo/SNS-Bench/commit/2b721737de3e1096ad3360bbde44a9d5a441e9f6",
+      "https://github.com/HC-Guo/SNS-Bench/commit/f14ce0e9aa22699c31dee187fc27be1719ab533c",
+      "https://msup.com.cn/teacher/11194"
     ],
     "papers": [
       {
@@ -3781,8 +3790,36 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2024.acl-long.100/",
         "outcome": "lead",
         "note": "同篇有导师和在读学生，研究时段与本人美团实习可能重叠。论文作者全部为高校，未找到同篇企业员工或企业项目证据。"
+      },
+      {
+        "title": "Redefining Machine Translation on Social Network Services with Large Language Models",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/ICDE65706.2026.00291",
+        "outcome": "confirmed",
+        "note": "同一工作 2025-04-10 首发，ICDE 2026 定稿改题为 Building and Benchmarking Large Language Models for Machine Translation in Social Network Services。两版使用同一 RedTrans-Bench 项目和双模型回译／RePO 方法。郭本人署名提交评测工具并更新数据；项目介绍将郭列为小红书 NLP 实习生，曹绍升为该团队负责人和通讯作者。",
+        "relationIds": [
+          "rednote-redtrans-buaa-zhoujun-li"
+        ]
+      },
+      {
+        "title": "SNS-Bench: Defining, Building, and Assessing Capabilities of Large Language Models in Social Networking Services",
+        "year": 2025,
+        "url": "https://proceedings.mlr.press/v267/guo25o.html",
+        "outcome": "confirmed",
+        "note": "PMLR 正式稿第 3 节点名小红书并说明基准数据经公司内部审查。北航博士郭宏成第一作者，公开提交该项目数据和十个评测脚本；小红书 NLP 团队的曹绍升为同篇通讯。它评估社交文本任务，与研究社交翻译模型的 RedTrans 独立。",
+        "relationIds": [
+          "rednote-sns-bench-buaa-zhoujun-li"
+        ]
+      },
+      {
+        "title": "SNS-Bench-VL: Benchmarking Multimodal Large Language Models in Social Networking Services",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2505.23065",
+        "outcome": "lead",
+        "note": "首稿作者有北航郭宏成、李舟军和小红书团队，但 arXiv 原作于 2025-12-15 因评测代码数值错误撤回，暂无可信的替代正式稿；保留核查记录，不作为已确认论文证据。"
       }
-    ]
+    ],
+    "note": "公开书目继续核查。已确认在郭宏成仍为北航博士期间，两项独立的小红书研究；同作各版本合计一篇。"
   },
   "4uE10I0AAAAJ": {
     "from": "2023-01-01",
