@@ -50440,5 +50440,420 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对校方主页、ORCID、前课题组书目和正式版中的首批作品；2022 年首发的 odd N 论文未在 2024 卷期重复计。仍需排查近期预印本。"
+  },
+  "Zl7vqy8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://aclanthology.org/2026.acl-long.263/",
+      "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+      "https://research.polyu.edu.hk/en/persons/jieming-shi/",
+      "https://www4.comp.polyu.edu.hk/~jiemshi/publications.html",
+      "https://www4.comp.polyu.edu.hk/~jiemshi/conference-publications.html",
+      "https://tommydzh.github.io/",
+      "https://tommydzh.github.io/assets/pdf/CV_Zhihao_Ding.pdf",
+      "https://www4.comp.polyu.edu.hk/~jiemshi/research-group.html",
+      "https://aclanthology.org/2026.acl-long.263.pdf",
+      "https://arxiv.org/abs/2602.23636",
+      "https://openreview.net/forum?id=NVrXCKaEjM",
+      "https://openreview.net/attachment?id=NVrXCKaEjM&name=pdf",
+      "https://www.vldb.org/pvldb/vol16/p3543-shi.pdf",
+      "https://github.com/Tencent/embedx",
+      "https://doi.org/10.14778/3611540.3611546",
+      "https://doi.org/10.1145/3725401",
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/115424/1/3725401.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/group.html",
+      "https://zzzzzfy.github.io/",
+      "https://doi.org/10.1145/3725399",
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/115423/1/3725399.pdf",
+      "https://doi.org/10.14778/3836663.3836699",
+      "https://doi.org/10.14778/3836663.3836711",
+      "https://arxiv.org/abs/2508.17203",
+      "https://tommydzh.github.io/assets/pdf/REVEAL.pdf",
+      "https://research.cuhk.edu.hk/en/publications/efficient-algorithms-for-budgeted-profit-maximization-with-theore/",
+      "https://researchportal.hkust.edu.hk/en/publications/efficient-algorithms-for-budgeted-profit-maximization-with-theore/",
+      "https://www.vldb.org/pvldb/vol18/p4269-shi.pdf",
+      "https://arxiv.org/abs/2508.08807",
+      "https://proceedings.mlr.press/v202/zhou23j.html",
+      "https://ira.lib.polyu.edu.hk/handle/10397/101341?mode=full",
+      "https://arxiv.org/abs/2405.01927",
+      "https://doi.org/10.1145/3627673.3679710",
+      "https://shenshiqi.com/academic/index_en.html",
+      "https://arxiv.org/abs/2310.10237",
+      "https://proceedings.mlr.press/v267/zhou25a.html",
+      "https://scottjiao.github.io/",
+      "https://proceedings.mlr.press/v267/zhou25a/zhou25a.pdf",
+      "https://arxiv.org/abs/2412.11180",
+      "https://doi.org/10.1007/s00778-024-00875-8",
+      "https://theses.lib.polyu.edu.hk/bitstream/200/14065/3/8522.pdf",
+      "https://cyanidecentral.github.io/",
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/109519/1/s00778-024-00875-8.pdf",
+      "https://arxiv.org/abs/2408.05459",
+      "https://www.vldb.org/pvldb/vol17/p1324-chen.pdf",
+      "https://socialalgo.github.io/",
+      "https://jerchenxin.github.io/",
+      "https://edwlin.github.io/",
+      "https://doi.org/10.1007/978-981-97-5575-2_24",
+      "https://lihui.info/doc/DASFAA24.pdf",
+      "https://arxiv.org/abs/2308.02793",
+      "https://www.sciencedirect.com/science/article/pii/S0020025523002244",
+      "https://arxiv.org/abs/1910.02684",
+      "https://doi.org/10.1145/3639278",
+      "https://2024.sigmod.org/sigmod-list.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/718dd6fa696c6303ca13ad81836014ee-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/090d636f951ac0bb18fd5610c95c6a76-Abstract-Conference.html",
+      "https://openreview.net/pdf?id=j3gNYqrHtl",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1bfd87d2d92f0556819467dc08034f76-Abstract-Conference.html",
+      "https://arxiv.org/abs/2503.02863",
+      "https://ieee-icde.org/2025/research-papers/",
+      "https://arxiv.org/abs/2508.09452",
+      "https://doi.org/10.1145/3769823",
+      "https://www.vldb.org/pvldb/vol16/p2512-tian.pdf",
+      "https://tianw.net/",
+      "https://tianw.net/files/wtian-cv.pdf",
+      "https://www.ipd.gov.hk/hkipjournal/25072025/Patent_25072025.pdf",
+      "https://doi.org/10.1145/3770855.3818012",
+      "https://web.comp.polyu.edu.hk/csmlyiu/conf/KDD26_UNITE.pdf",
+      "https://tianw.net/publications/",
+      "https://doi.org/10.1145/3770855.3818017",
+      "https://kdd2026.kdd.org/papers/",
+      "https://doi.org/10.1609/AAAI.V39I1.31991",
+      "https://research.polyu.edu.hk/en/publications/ringformer-a-ring-enhanced-graph-transformer-for-organic-solar-ce/",
+      "https://arxiv.org/abs/2412.09030",
+      "https://doi.org/10.1145/3637528.3671764",
+      "https://edisonchan-szu.github.io/publication/ABG_clustering.pdf",
+      "https://arxiv.org/abs/2405.11922",
+      "https://arxiv.org/abs/2603.17298",
+      "https://arxiv.org/html/2603.17298",
+      "https://dblp.org/pid/147/1237-1.html",
+      "https://arxiv.org/abs/2501.19180",
+      "https://arxiv.org/html/2501.19180",
+      "https://arxiv.org/abs/2503.00476",
+      "https://arxiv.org/html/2503.00476",
+      "https://dblp.org/pid/295/4600.html",
+      "https://arxiv.org/abs/2508.10460",
+      "https://doi.org/10.1109/TMM.2026.3713750",
+      "https://www.scilit.com/publications/620220564fd0c963c73f8cb97c724b89",
+      "https://doi.org/10.1016/j.knosys.2026.115494",
+      "https://research.polyu.edu.hk/en/publications/sa-diff-semantic-aware-graph-outlier-generation-via-diffusion-mod/",
+      "https://doi.org/10.1109/TNNLS.2023.3300514",
+      "https://doi.org/10.1145/3589261",
+      "https://scholars.hkbu.edu.hk/en/publications/efficient-and-effective-attributed-hypergraph-clustering-via-k-ne/",
+      "https://link.springer.com/article/10.1007/s00778-023-00790-4",
+      "https://arxiv.org/abs/2009.00826",
+      "https://doi.org/10.1609/aaai.v39i21.34450",
+      "https://arxiv.org/html/2412.09968",
+      "https://doi.org/10.1145/3627673.3679707",
+      "https://tommydzh.github.io/assets/pdf/Z_DING_CIKM_2024_DIAM.pdf",
+      "https://arxiv.org/abs/2309.02460",
+      "https://doi.org/10.1109/ICDE60146.2024.00220",
+      "https://about.uq.edu.au/experts-publication/10854/4751?page=3",
+      "https://arxiv.org/pdf/2307.15244",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/hash/206191b9b7349e2743d98d855dec9e58-Abstract-Conference.html",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/file/206191b9b7349e2743d98d855dec9e58-Paper-Conference.pdf",
+      "https://doi.org/10.1109/ICDE55515.2023.00026",
+      "https://zhengwang125.github.io/paper/ICDE23.pdf",
+      "https://arxiv.org/pdf/2211.08415",
+      "https://hub.hku.hk/handle/10722/344159",
+      "https://zhengwang125.github.io/",
+      "https://liuyiding.net/",
+      "https://link.springer.com/chapter/10.1007/978-3-031-39831-5_6",
+      "https://orcid.org/0000-0002-0465-1551",
+      "https://pub.orcid.org/v3.0/0000-0002-0465-1551/works",
+      "https://research.polyu.edu.hk/en/publications/anomaly-detection-infinancial-transactions-viagraph-based-feature/",
+      "https://doi.org/10.1109/TIFS.2023.3311584",
+      "https://research.polyu.edu.hk/en/publications/exponential-information-bottleneck-theory-against-intra-attribute/",
+      "https://300188.cn/upfiles/news/202401/1706587014463.pdf",
+      "https://doi.org/10.1109/ICDE65448.2025.00288",
+      "https://doi.org/10.1109/ICDE65448.2025.00034",
+      "https://research.polyu.edu.hk/en/publications/efficient-methods-for-accurate-sparse-trajectory-recovery-and-map/",
+      "https://arxiv.org/abs/2503.02863v1",
+      "https://doi.org/10.1109/ICDE55515.2023.00314",
+      "https://doi.org/10.1109/TKDE.2020.2983409"
+    ],
+    "papers": [
+      {
+        "title": "FlexGuard: Continuous Risk Scoring for Strictness-Adaptive LLM Content Moderation",
+        "url": "https://aclanthology.org/2026.acl-long.263/",
+        "outcome": "lead",
+        "note": "ACL 最终版、2026 年 2 月 v1 均列丁志浩港理工／字节双署、企业作者 Jinming Li 与 Ze Lu；丁志浩简历点名此题为抖音实习项目并在个人主页写明 2025 年 8 月起实习，课题组明确自 2022 年 9 月在读、由 Shi 指导。尚未独立证实任一同篇字节作者为当时正式员工。预印本与 ACL 合并。",
+        "year": 2026
+      },
+      {
+        "title": "Token-Efficient Long-Term Interest Sketching and Internalized Reasoning for LLM-based Recommendation",
+        "url": "https://openreview.net/forum?id=NVrXCKaEjM",
+        "outcome": "lead",
+        "note": "ICLR 正式版丁志浩港理工、字节双署；其履历在抖音实习项下链接这篇具体研究，港理工名录确认在读和具名导师。企业作者 Jinming Li 与 Shuai Mu 署字节，尚未独立核实同篇作者的正式任职；另 CV 列实习导师 Yuzhang Huang 而未署名，不能拿他充作第三位作者。",
+        "year": 2026
+      },
+      {
+        "title": "EmbedX: A Versatile, Efficient and Scalable Platform to Embed Both Graphs and High-Dimensional Sparse Data",
+        "url": "https://www.vldb.org/pvldb/vol16/p3543-shi.pdf",
+        "outcome": "lead",
+        "note": "正式版是腾讯发布和部署的嵌入平台，学生丁志浩简历精确写明微信实习完成该项并列 Yuanhang Zou 与 Shi 两位指导。但实习为 2022 年 6–9 月，港理工博士 9 月才入学；简历教育栏列西交硕士至 7 月、项目栏至 6 月，西交导师另有其人。尚无证据证明港理工博士入学后继续实质开展本项目或同期在西交获 Shi 指导。",
+        "year": 2023
+      },
+      {
+        "title": "Efficient Dynamic Indexing for Range Filtered Approximate Nearest Neighbor Search",
+        "url": "https://doi.org/10.1145/3725401",
+        "outcome": "existing",
+        "note": "阿里云与港中大关系已收入索引；原文实习脚注和具名博士指导指向张芳源／王思博。Shi 同篇署港理工，未找到对该学生的同期独立指导证据，不能再计。",
+        "year": 2025
+      },
+      {
+        "title": "DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter",
+        "url": "https://doi.org/10.1145/3725399",
+        "outcome": "existing",
+        "note": "阿里云与港中大关系已收入索引；原文实习脚注和具名博士指导指向张芳源／王思博。Shi 同篇署港理工，未找到对该学生的同期独立指导证据，不能再计。",
+        "year": 2025
+      },
+      {
+        "title": "Efficient GPU-Accelerated Adaptive Minimum Cost Seed Selection",
+        "url": "https://doi.org/10.14778/3836663.3836699",
+        "outcome": "no-evidence",
+        "note": "PVLDB 19(11) 与大会程序均列 Guo、Feng、Shi 为港理工，Li 为多伦多大学；种子选择论文无目标企业合著者。",
+        "year": 2026
+      },
+      {
+        "title": "Efficient GPU-Accelerated Local Subgraph Counting",
+        "url": "https://doi.org/10.14778/3836663.3836711",
+        "outcome": "no-evidence",
+        "note": "PVLDB 19(11) 与大会程序列三位港理工研究者及一位多伦多大学研究者，GPU 子图计数论文无目标企业合著者。",
+        "year": 2026
+      },
+      {
+        "title": "Retrieve-and-Verify: A Table Context Selection Framework for Accurate Column Annotations",
+        "url": "https://doi.org/10.1145/3769823",
+        "outcome": "no-evidence",
+        "note": "正式 PACMMOD 3(6) Article 358 为 2025 年 12 月，会议 SIGMOD 在 2026 年；预印本 2025 年 8 月并入同项。作者均署港理工，丁志浩本人把本题列入港理工博士项目、与字节实习分开。",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Algorithms for Budgeted Profit Maximization With Theoretical Guarantees",
+        "url": "https://research.cuhk.edu.hk/en/publications/efficient-algorithms-for-budgeted-profit-maximization-with-theore/",
+        "outcome": "no-evidence",
+        "note": "港中大与港科大正式书目覆盖同一组 IEEE 期刊作者，所属机构为港中大、港科大、港科大广州和港理工；来源无目标企业合著者。",
+        "year": 2026
+      },
+      {
+        "title": "Effective and Efficient Attributed Hypergraph Embedding on Nodes and Hyperedges",
+        "url": "https://www.vldb.org/pvldb/vol18/p4269-shi.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 PVLDB 首页四人均署港理工，具名博士生 Yiran Li 的课题组身份可核，未找到目标企业作者；arXiv 2508.08807 为同篇。",
+        "year": 2025
+      },
+      {
+        "title": "SlotGAT: Slot-based Message Passing for Heterogeneous Graphs",
+        "url": "https://proceedings.mlr.press/v202/zhou23j.html",
+        "outcome": "lead",
+        "note": "ICML 正文具名腾讯作者 Yuanhang Zou；港理工机构库确认腾讯资助，课题组列第一作者为 Shi 的博士生，但未找到该学生在腾讯完成该项目的具名独立材料。2024 arXiv 同组同算法，归并。",
+        "year": 2023
+      },
+      {
+        "title": "SGOOD: Substructure-enhanced Graph-Level Out-of-Distribution Detection",
+        "url": "https://doi.org/10.1145/3627673.3679710",
+        "outcome": "lead",
+        "note": "ACM 正式版署港理工学生丁志浩、导师 Shi 和腾讯微信沈世奇等。丁志浩本人履历将 SGOOD 列为港理工博士项目，不同于其明列的 2022 年微信实习 EmbedX；没有同篇学生企业参与的证据。2023 年预印本与正式版归并。",
+        "year": 2023
+      },
+      {
+        "title": "TINED: GNNs-to-MLPs by Teacher Injection and Dirichlet Energy Distillation",
+        "url": "https://proceedings.mlr.press/v267/zhou25a.html",
+        "outcome": "lead",
+        "note": "ICML 最终 PDF 确认微信成员沈世奇为同篇作者，学生周子昂、丁志浩在港理工且由 Shi 指导。二人自身公开履历均未把此论文列为企业工作，已有企业与校内合著、缺学生企业参与本项目的明示。2024 arXiv 归并。",
+        "year": 2024
+      },
+      {
+        "title": "A Versatile Framework for Attributed Network Clustering via K-Nearest Neighbor Augmentation",
+        "url": "https://doi.org/10.1007/s00778-024-00875-8",
+        "outcome": "lead",
+        "note": "期刊原文确有微信员工沈世奇，第一作者李一然的港理工学位论文明确写 Shi 为导师且此篇为学位成果。期刊注明腾讯资助（P0048511），个人主页与学位论文未见李一然在腾讯为本篇参与科研的具名资料。同算法的 2024 预印本并入期刊版。",
+        "year": 2024
+      },
+      {
+        "title": "Minimum Strongly Connected Subgraph Collection in Dynamic Graphs",
+        "url": "https://www.vldb.org/pvldb/vol17/p1324-chen.pdf",
+        "outcome": "existing",
+        "note": "该篇已按港中王思博指导陈鑫收录。腾讯社会算法团队逐篇清单明确标陈鑫为这篇腾讯实习生，林文清为腾讯团队成员；陈鑫的校内具名导师是王思博。通讯作者 Shi 不另算师生关系。",
+        "year": 2024
+      },
+      {
+        "title": "Crowdsourcing Fraud Detection Over Heterogeneous Temporal MMMA Graph",
+        "url": "https://doi.org/10.1007/978-981-97-5575-2_24",
+        "outcome": "lead",
+        "note": "DASFAA 原文题名、日期、腾讯员工署名和生产微信数据均清楚。第一作者署厦门大学且是该校学生，另一老师为厦大 Hui Li。没有调查范围高校在读的同篇企业学生或港理工导师的跨校指导材料；2023 预印本归并。",
+        "year": 2023
+      },
+      {
+        "title": "Efficient High-Quality Clustering for Large Bipartite Graphs",
+        "url": "https://doi.org/10.1145/3639278",
+        "outcome": "no-evidence",
+        "note": "SIGMOD 正式作者记录仅香港浸会大学 Renchi Yang 与香港理工 Shi，两位学术作者均无相应企业身份。",
+        "year": 2024
+      },
+      {
+        "title": "Prior-free Tabular Test-time Adaptation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/718dd6fa696c6303ca13ad81836014ee-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "正式 ICLR 书目仅两位作者，课题组资料确认同组 Rundong He 为博士后，未找到目标企业合著者。",
+        "year": 2026
+      },
+      {
+        "title": "FACT: Fine-grained Across-variable Convolution for Multivariate Time Series Forecasting",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/090d636f951ac0bb18fd5610c95c6a76-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "正式原文列在读博士 Huiqiang Wang、Shi、Qing Li，三人都署港理工；无目标企业合著者。",
+        "year": 2026
+      },
+      {
+        "title": "SteerConf: Steering LLMs for Confidence Elicitation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1bfd87d2d92f0556819467dc08034f76-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 作者三位署港理工、一位署新加坡国立大学。周子昂自己的履历里华为研究始于 2025 年 7 月，晚于同题稿 2025 年 3 月且无华为作者。 ORCID 列出的 Calibrating LLM Confidence with Semantic Steering 是同一 arXiv 编号的 v1 旧名，归并。",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Integration of Multi-View Attributed Graphs for Clustering and Embedding",
+        "url": "https://doi.org/10.1109/ICDE65448.2025.00288",
+        "outcome": "no-evidence",
+        "note": "正式 IEEE ICDE 名单把五人全列港理工或港中大，李一然学位论文注明是博士成果；同题预印本并入，未找到目标企业同篇作者。",
+        "year": 2025
+      },
+      {
+        "title": "Effective and Efficient Route Planning Using Historical Trajectories on Road Networks",
+        "url": "https://www.vldb.org/pvldb/vol16/p2512-tian.pdf",
+        "outcome": "lead",
+        "note": "VLDB 原文署腾讯邹远航并致谢腾讯项目 P0039546。学生田伟本人确认港理工博士及校内导师，但其微信／腾讯实习截至 2018 年，后来为 2020–2021 年阿里实习；未证实其在本研究期于腾讯工作或参与该企业项目。",
+        "year": 2023
+      },
+      {
+        "title": "UNITE: A Unified Framework for Accurate and Efficient Origin-Destination and Route Travel Time Estimation",
+        "url": "https://doi.org/10.1145/3770855.3818012",
+        "outcome": "no-evidence",
+        "note": "KDD 2026 原文三作者均署港理工，第一作者田伟在其博士书目列出本项目；未见目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Efficient Approximation Algorithms for Adaptive Minimum Cost Seed Selection via mRR-set Updates",
+        "url": "https://doi.org/10.1145/3770855.3818017",
+        "outcome": "no-evidence",
+        "note": "KDD 2026 正式会议作者单位为港理工、港中大、多伦多大学；与同年 PVLDB 的 GPU Seed Selection 题名、DOI 和方法侧重不同。未见目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "RingFormer: A Ring-Enhanced Graph Transformer for Organic Solar Cell Property Prediction",
+        "url": "https://doi.org/10.1609/AAAI.V39I1.31991",
+        "outcome": "no-evidence",
+        "note": "AAAI 2025 原文全部作者署港理工，丁志浩本人履历列为港理工博士研究项目。2024 同题预印本并入。",
+        "year": 2025
+      },
+      {
+        "title": "Effective Clustering on Large Attributed Bipartite Graphs",
+        "url": "https://doi.org/10.1145/3637528.3671764",
+        "outcome": "no-evidence",
+        "note": "KDD 正式版列香港浸会、港中、深圳大学和港理工；第二作者脚注明确项目是在浸会大学完成。无目标企业作者，2024 同题预印归并。",
+        "year": 2024
+      },
+      {
+        "title": "Efficient and Effective Table-Centric Table Union Search in Data Lakes",
+        "url": "https://arxiv.org/abs/2603.17298",
+        "outcome": "no-evidence",
+        "note": "DBLP 补得一篇个人会议书目未列的预印。署名四位港理工、一位港大。学生丁志浩的字节实习时间重叠，但项目原文无企业作者或归属，切勿借同人实习补证。",
+        "year": 2026
+      },
+      {
+        "title": "Enhancing Model Defense Against Jailbreaks with Proactive Safety Reasoning",
+        "url": "https://arxiv.org/abs/2501.19180",
+        "outcome": "no-evidence",
+        "note": "原文 v2 列两所新加坡高校及港理工，无目标企业作者。首次公开 2025 年 1 月；2026 年修改合并。",
+        "year": 2025
+      },
+      {
+        "title": "G-OSR: A Comprehensive Benchmark for Graph Open-Set Recognition",
+        "url": "https://arxiv.org/abs/2503.00476",
+        "outcome": "no-evidence",
+        "note": "DBLP 补得的公开预印，原文与研究组书目交叉验证，同时有山东大学、港理工等作者；未找到目标企业具名合作者及学生同篇参与材料。",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching",
+        "url": "https://doi.org/10.1109/ICDE65448.2025.00034",
+        "outcome": "no-evidence",
+        "note": "ICDE 2025 作者全署港理工，第一作者列明博士导师及刊会；无目标企业作者。2025 年 8 月 arXiv 同作后传，归并。",
+        "year": 2025
+      },
+      {
+        "title": "AIB-CL: Across Information Bottleneck Framework for Robust Contrastive Learning Against Intra-Class Variation",
+        "url": "https://doi.org/10.1109/TMM.2026.3713750",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式期刊 early access 2026-07-16；题录资助列腾讯 P0039546，暂无同篇真实企业合作者或学生实习。",
+        "year": 2026
+      },
+      {
+        "title": "SA-Diff: Semantic-Aware Graph Outlier Generation via Diffusion Models for Graph Out-of-Distribution Detection",
+        "url": "https://doi.org/10.1016/j.knosys.2026.115494",
+        "outcome": "no-evidence",
+        "note": "Elsevier 与港理工题录确认 2026 年 4 月，项目为图异常检测。同组 Rundong He 是该组博士后，未查到目标企业同篇正式作者或在读学生在企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "Low Latency and Sparse Computing Spiking Neural Networks With Self-Driven Adaptive Threshold Plasticity",
+        "url": "https://doi.org/10.1109/TNNLS.2023.3300514",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式卷期 2024 年 12 月，2023 年 8 月已提前在线。校方书目核五作者；未找到目标企业合著及学生在企业进行该项目的材料。",
+        "year": 2023
+      },
+      {
+        "title": "Efficient and Effective Attributed Hypergraph Clustering via K-Nearest Neighbor Augmentation",
+        "url": "https://doi.org/10.1145/3589261",
+        "outcome": "no-evidence",
+        "note": "SIGMOD／PACMMOD 2023 作者为李一然、Renchi Yang、Shi。李一然归为博士学位项目；另外两位署浸会及港理工，未发现目标企业合著人。该篇和 2024 ANCKA 期刊新增算法和企业作者、DOI 不同。",
+        "year": 2023
+      },
+      {
+        "title": "GraSP: Simple yet Effective Graph Similarity Predictions",
+        "url": "https://doi.org/10.1609/aaai.v39i21.34450",
+        "outcome": "no-evidence",
+        "note": "AAAI 卷期 2025 年，与 2024 arXiv 同篇。学生 Haoran Zheng 在导师主页列为 2023–24 硕士；预印本明示部分工作在港理工进行，无目标企业合著者。",
+        "year": 2024
+      },
+      {
+        "title": "Effective Illicit Account Detection on Large Cryptocurrency MultiGraphs",
+        "url": "https://doi.org/10.1145/3627673.3679707",
+        "outcome": "no-evidence",
+        "note": "CIKM 正式 PDF 四人均署港理工，丁志浩 CV 将其列为博士研究；2023 预印本并入，未查到目标企业合作者。",
+        "year": 2023
+      },
+      {
+        "title": "BOURNE: Bootstrapped Self-supervised Learning Framework for Unified Graph Anomaly Detection",
+        "url": "https://doi.org/10.1109/ICDE60146.2024.00220",
+        "outcome": "no-evidence",
+        "note": "ICDE 正式题录和 2023 预印首页对照同篇。作者为西工大、港理工、北大及昆士兰大学；未发现目标企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "LD2: Scalable Heterophilous Graph Neural Network with Decoupled Embeddings",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/206191b9b7349e2743d98d855dec9e58-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "正式 NeurIPS 作者署新加坡南洋理工、华东师范、香港理工，无目标企业合作者。",
+        "year": 2023
+      },
+      {
+        "title": "Anomaly Detection in Financial Transactions Via Graph-Based Feature Aggregations",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-39831-5_6",
+        "outcome": "no-evidence",
+        "note": "ORCID 补到个人站未列作品；Springer DaWaK 2023 原文列新加坡国立大学、香港浸会、香港理工。实验使用 PayPal 数据，但无目标企业同篇作者。",
+        "year": 2023
+      },
+      {
+        "title": "Exponential Information Bottleneck Theory Against Intra-Attribute Variations for Pedestrian Attribute Recognition",
+        "url": "https://doi.org/10.1109/TIFS.2023.3311584",
+        "outcome": "no-evidence",
+        "note": "ORCID 补到个人站未列作品；正式 IEEE 期刊与港理工题录确认七作者和日期。企业侧可查的是美亚柏科（本次范围外），未见 14 家目标企业合作者与具名学生企业项目。",
+        "year": 2023
+      }
+    ],
+    "note": "逐篇核对本人两类公开书目，并以 DBLP、香港理工大学题录及 ORCID 交叉补查：调查期间首次公开的作品去重后 40 篇。预印本、旧标题、扩展摘要和正式版归并；调查前首发、仅发布数据附件及尚无正文的未来接收项未计。公开企业参与或指导材料尚不足的作品仍列线索。"
   }
 };
