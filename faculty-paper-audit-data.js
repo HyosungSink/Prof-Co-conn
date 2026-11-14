@@ -20487,5 +20487,140 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已完成调查期内可公开查到的 33 篇，不将本人尚待正式会议的条目与已公开预印本重复计数。以本人完整 All 书目为起点，交叉清华实验室、哈佛博士论文引文、同一 ORCID、DBLP、Crossref 和预印本库，排除东华理工大学图像方向及农业方向的同名作者。逐篇检查正式原文及角色，32 篇未见范围内证据，1 篇存疑待补，不计入确认。"
+  },
+  "gKPWTtMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sklp.ict.ac.cn/gysys/yjdw/yjy/202302/t20230214_128688.html",
+      "https://dblp.org/pid/24/668.html",
+      "https://www.aiproteindesign.org/papers/",
+      "https://dingshizhe.github.io/publications/",
+      "https://ieda.oscc.cc/en/research/papers/",
+      "https://orcid.org/0000-0003-4119-4238"
+    ],
+    "papers": [
+      {
+        "title": "Protein Structure Prediction: Challenges, Advances, and the Shift of Research Paradigms",
+        "year": 2023,
+        "url": "https://academic.oup.com/gpb/article/21/5/913/7632861",
+        "outcome": "lead",
+        "note": "期刊署名与利益声明确认 Qi Zhang 当时受雇于华为；同时有国科大作者及卜东波通讯署名。孔鲁鹏在稿件提交之前已毕业；其他共同作者是否由卜东波指导、且在读时在华为参与这篇综述，证据仍不足。"
+      },
+      {
+        "title": "A Theory of Human-Like Few-Shot Learning",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2301.01047",
+        "outcome": "no-evidence",
+        "note": "作者公开稿署名为滑铁卢大学与中科院计算所，未见范围内企业作者。"
+      },
+      {
+        "title": "NeuralSteiner: Learning Steiner Tree for Overflow-avoiding Global Routing in Chip Design",
+        "year": 2024,
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/e6617714485265b9380a5315bf3ba98f-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "会议正式版列中科院计算所、国科大、中原人工智能产业技术研究院、北京开源芯片研究院、鹏城实验室及闽南师范大学；未见范围内的企业作者。"
+      },
+      {
+        "title": "Lossless data compression by large models",
+        "year": 2025,
+        "url": "https://www.nature.com/articles/s42256-025-01033-7",
+        "outcome": "no-evidence",
+        "note": "以含作者单位更正的期刊版为准；所列是研究院、高校与鹏城实验室，未见范围内企业作者。《Understanding is Compression》为同研究预印本。"
+      },
+      {
+        "title": "GGFlow: A Graph Flow Matching Method with Efficient Optimal Transport",
+        "year": 2025,
+        "url": "https://openreview.net/forum?id=K8RlXtMgzo",
+        "outcome": "no-evidence",
+        "note": "正式公开稿列国科大及中科院计算所等，Chunming Zhang 署有 Phil Rivers Technology，该企业不在核验范围。《Improving Molecular Graph Generation with Flow Matching and Optimal Transport》为同研究早稿。"
+      },
+      {
+        "title": "Accurate Immune Protein Structure Prediction by Large Language Model and Transfer Learning",
+        "year": 2025,
+        "url": "https://doi.org/10.21203/rs.3.rs-7153530/v1",
+        "outcome": "no-evidence",
+        "note": "将 2024 bioRxiv 的同一 ImmuneFold 工作与 2025 Research Square 稿合并。作者单位是高校与科研院所，未见范围内企业作者。"
+      }
+    ],
+    "note": "按中科院计算所、DBLP、合作者实验室书目与公开出版记录逐篇核对。草稿与正式版按同一研究合并，另行发表的扩展研究按独立工作处理。"
+  },
+  "Lh-UKzcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://cs.ustc.edu.cn/_t1744/2022/0418/c23236a552092/page.psp",
+      "https://fusep.ustc.edu.cn/2024/01/26/shuai-shao/",
+      "https://dblp.org/pid/71/8201-1.html",
+      "https://orcid.org/0000-0003-0935-2929",
+      "https://keshi.pro/"
+    ],
+    "papers": [
+      {
+        "title": "Real-weighted general factors on subcubic graphs",
+        "url": "https://link.springer.com/article/10.1007/s10107-026-02416-3",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "期刊列中国科大及合肥国家实验室、牛津大学。正文明确说明 2023 年 ISAAC 论文和 arXiv:2301.11761 是同一研究的早期版本；更正只补通信作者。未见目标企业或学生参与企业研究。"
+      },
+      {
+        "title": "Eulerian orientations and Hadamard codes: A novel connection via counting",
+        "url": "https://doi.org/10.1016/j.ic.2026.105492",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "期刊作者稿 arXiv:2411.02612v3 明确关联 ITCS 2025 版本；唐竹笑研究时是中国科大本科生，威斯康星大学麦迪逊分校为其后续单位，论文说明由国家科研项目支持，未见目标企业参与。"
+      },
+      {
+        "title": "Zero-Freeness Is All You Need: A Weitz-Type FPTAS for the Entire Lee-Yang Zero-Free Region",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2026.114",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ITCS 正式记录的两名作者均署名中国科大和合肥国家实验室；arXiv:2509.06623 为同一研究，未见目标企业参与。"
+      },
+      {
+        "title": "New Planar Algorithms and a Full Complexity Classification of the Eight-Vertex Model",
+        "url": "https://doi.org/10.1145/3798129.3800810",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "核对 STOC 正式条目与 arXiv:2602.11292 首页。署名单位为威斯康星大学麦迪逊分校和中国科大、合肥国家实验室；论文列国家科研项目，未发现目标企业参与。"
+      },
+      {
+        "title": "Strong Spatial Mixing for General 2-Spin Systems: A Unified Approach from Zero-Freeness",
+        "url": "https://arxiv.org/html/2401.09317v4",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024 首版使用 From Zero-Freeness to Strong Spatial Mixing via a Christoffel–Darboux Type Identity，2026 更新题名。脚注说明叶晓维在中国科大读本科时完成研究，现署名法国巴黎综合理工学校，未见目标企业参与。"
+      },
+      {
+        "title": "Coupling Independence Implies Zero-Freeness",
+        "url": "https://arxiv.org/html/2610.12456v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文仅有两位中国科大作者；AI 工具使用披露没有企业共同作者，也不构成学生在企业开展项目的证据。"
+      },
+      {
+        "title": "Zero-Freeness of the Hard-Core Model with Bounded Connective Constant",
+        "url": "https://arxiv.org/html/2604.02746v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "范围期内的预印本列三名中国科大和合肥国家实验室作者，未见目标企业参与。"
+      },
+      {
+        "title": "A Dichotomy for Boolean Complex Holant Problems with Conjugate-Closed Signature Sets",
+        "url": "https://arxiv.org/html/2609.13132v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文列中国科大、合肥国家实验室及威斯康星大学麦迪逊分校。作者使用 AI 工具的披露没有目标企业合作作者或学生企业项目。"
+      },
+      {
+        "title": "An LP Algorithm for Counting Eulerian Orientations Through the Lens of Quasi-polymorphism",
+        "url": "https://arxiv.org/html/2607.27961v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "三位作者均来自中国科大；合作者 Ke Shi 个人主页另挂出同一算法的 Promise Polymorphisms 题名作者稿。未见目标企业参与。"
+      }
+    ]
   }
 };
