@@ -12949,6 +12949,476 @@ const survey = {
         "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
         "https://www.qihuangzhong.top/"
       ]
+    },
+    {
+      "id": "uclr-alibaba-nju-zhanglj",
+      "paperId": "doi:10.1145/3589334.3645357",
+      "company": "阿里巴巴",
+      "team": "AliExpress（速卖通）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "张利军 · Lijun Zhang",
+        "南京大学教授、该在读博士生的具名导师，同篇作者。",
+        "https://ai.nju.edu.cn/zlj/"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "校方个人主页记载 2022 年 6 月博士毕业后加入阿里巴巴，任高级算法工程师；该篇以阿里巴巴署名。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "杨文昊 · Wenhao Yang",
+        "南京大学博士在读；主页列 2023 年 7 至 10 月在速卖通开展跨域推荐，明确记载产出 WWW 2024 论文，发表列表给出此篇。",
+        "https://www.lamda.nju.edu.cn/yangwh/"
+      ],
+      "title": "Not All Embeddings are Created Equal: Towards Robust Cross-domain Recommendation via Contrastive Learning",
+      "short": "UCLR",
+      "date": "2024-05",
+      "venue": "WWW 2024",
+      "area": "推荐系统",
+      "paper": "https://ai.nju.edu.cn/zlj/pdf/WWW-2024-Yang.pdf",
+      "extra": [
+        [
+          "正式题录或预印本题录",
+          "https://doi.org/10.1145/3589334.3645357"
+        ]
+      ],
+      "evidence": "在读博士的校方主页将具体论文与阿里实习成果明确对应。原文列导师及由独立职业资料核实的阿里算法工程师。",
+      "advising": [
+        "南京大学博士生导师",
+        "杨文昊的南京大学个人主页明确列 张利军为博士生导师。",
+        "https://www.lamda.nju.edu.cn/yangwh/"
+      ]
+    },
+    {
+      "id": "uiea-alibaba-nju-zhanglj",
+      "paperId": "doi:10.1609/aaai.v39i12.33391",
+      "company": "阿里巴巴",
+      "team": "AliExpress（速卖通）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "张利军 · Lijun Zhang",
+        "南京大学教授、该在读博士生的具名导师，同篇作者。",
+        "https://ai.nju.edu.cn/zlj/"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "校方个人主页记载 2022 年 6 月博士毕业后加入阿里巴巴，任高级算法工程师；该篇以阿里巴巴署名。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "杨文昊 · Wenhao Yang",
+        "南京大学博士在读；个人主页明确列速卖通 2023 年实习产出该 AAAI 论文，正式论文脚注也将其列为实习期间完成研究的作者。",
+        "https://www.lamda.nju.edu.cn/yangwh/"
+      ],
+      "title": "Towards Unbiased Information Extraction and Adaptation in Cross-Domain Recommendation",
+      "short": "UIEA",
+      "date": "2025-03",
+      "venue": "AAAI 2025",
+      "area": "推荐系统",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/download/33391/35546",
+      "extra": [
+        [
+          "正式题录或预印本题录",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/33391"
+        ]
+      ],
+      "evidence": "原文具名实习脚注、学生校方履历的项目与导师、企业作者的任职记载互相印证。",
+      "advising": [
+        "南京大学博士生导师",
+        "杨文昊的南京大学个人主页明确列 张利军为博士生导师。",
+        "https://www.lamda.nju.edu.cn/yangwh/"
+      ]
+    },
+    {
+      "id": "toolprefer-alibaba-nju-zhanglj",
+      "paperId": "arxiv:2406.07115",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "张利军 · Lijun Zhang",
+        "南京大学教授、该在读博士生的具名导师，同篇作者。",
+        "https://ai.nju.edu.cn/zlj/"
+      ],
+      "employee": [
+        "张开富 · Kaifu Zhang",
+        "阿里巴巴 2024 年官方采访介绍他为国际数字商业集团 AI 负责人；该篇以阿里巴巴国际数字商业集团署名。",
+        "https://www.alizila.com/podcast/ai-meets-global-commerce-finding-the-right-hammer-for-every-nail/"
+      ],
+      "student": [
+        "王一博 · Yibo Wang",
+        "南京大学博士在读；论文首页共同第一作者脚注明确该研究在阿里巴巴国际数字商业集团实习期间完成。",
+        "https://www.lamda.nju.edu.cn/wangyb/"
+      ],
+      "title": "Advancing Tool-Augmented Large Language Models: Integrating Insights from Errors in Inference Trees",
+      "short": "ToolPrefer-LLaMA",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://papers.nips.cc/paper_files/paper/2024/file/c0f7ee1901fef1da4dae2b88dfd43195-Paper-Conference.pdf",
+      "extra": [
+        [
+          "正式题录或预印本题录",
+          "https://papers.nips.cc/paper_files/paper/2024/hash/c0f7ee1901fef1da4dae2b88dfd43195-Abstract-Conference.html"
+        ]
+      ],
+      "evidence": "会议原文的具名实习脚注与校方博士生导师信息、阿里同期公开员工履历均已核对。",
+      "advising": [
+        "南京大学博士生导师",
+        "王一博的南京大学个人主页明确列 张利军为博士生导师。",
+        "https://www.lamda.nju.edu.cn/wangyb/"
+      ]
+    },
+    {
+      "id": "drim-alibaba-nju-zhanglj",
+      "paperId": "arxiv:2512.17306",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "张利军 · Lijun Zhang",
+        "南京大学教授、该在读博士生的具名导师，同篇作者。",
+        "https://ai.nju.edu.cn/zlj/"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "校方个人主页记载 2022 年 6 月博士毕业后加入阿里巴巴，任高级算法工程师；该篇以阿里巴巴署名。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "杨文昊 · Wenhao Yang",
+        "南京大学博士在读；校方主页列 2025 年 9 月至 2026 年 4 月阿里巴巴 AI Business 视觉多轮推理研究项目；原文首页特指杨文昊实习期间完成研究。",
+        "https://www.lamda.nju.edu.cn/yangwh/"
+      ],
+      "title": "Deep But Reliable: Advancing Multi-turn Reasoning for Thinking with Images",
+      "short": "DRIM",
+      "date": "2025-12",
+      "venue": "arXiv 预印本",
+      "area": "多模态与语言模型",
+      "paper": "https://arxiv.org/pdf/2512.17306",
+      "extra": [
+        [
+          "正式题录或预印本题录",
+          "https://arxiv.org/abs/2512.17306"
+        ]
+      ],
+      "evidence": "原文具名实习脚注、学生校方履历所列项目和导师及企业作者的任职吻合。",
+      "advising": [
+        "南京大学博士生导师",
+        "杨文昊的南京大学个人主页明确列 张利军为博士生导师。",
+        "https://www.lamda.nju.edu.cn/yangwh/"
+      ]
+    },
+    {
+      "id": "mdp3-alibaba-nju-liming",
+      "paperId": "arxiv:2501.02885",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）Ovis",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "黎铭 · Ming Li",
+        "南京大学教授、该在读博士生的具名导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=321868"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "校方个人主页记载 2022 年 6 月博士毕业后加入阿里巴巴，任高级算法工程师；该篇以阿里巴巴署名。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "孙辉 · Hui Sun",
+        "南京大学博士在读；个人校方主页的阿里巴巴实习经历逐项说明了他在 Ovis 组提出 MDP3 方法，并列 ICCV 2025 发表。",
+        "https://www.lamda.nju.edu.cn/sunh/"
+      ],
+      "title": "MDP3: A Training-free Approach for List-wise Frame Selection in Video-LLMs",
+      "short": "MDP3",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "多模态与视频",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_MDP3_A_Training-free_Approach_for_List-wise_Frame_Selection_in_Video-LLMs_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "正式题录或预印本题录",
+          "https://openaccess.thecvf.com/content/ICCV2025/html/Sun_MDP3_A_Training-free_Approach_for_List-wise_Frame_Selection_in_Video-LLMs_ICCV_2025_paper.html"
+        ]
+      ],
+      "evidence": "学生主页明确具名指定其在阿里实习期间对该论文的贡献及博士生导师，会议原文与独立员工履历一致。",
+      "advising": [
+        "南京大学博士生导师",
+        "孙辉的南京大学个人主页明确列 黎铭为博士生导师。",
+        "https://www.lamda.nju.edu.cn/sunh/"
+      ]
+    },
+    {
+      "id": "alibaba-dualres-mamba3d-ucas-yang",
+      "company": "阿里巴巴",
+      "team": "达摩院 Medical AI Lab",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨戈 · Ge Yang",
+        "中国科学院大学人工智能学院博士生导师、中国科学院自动化研究所研究员。",
+        "https://people.ucas.edu.cn/~geyang_ia"
+      ],
+      "employee": [
+        "Yuxing Tang",
+        "本人主页列阿里巴巴达摩院 Staff Algorithm Engineer，并将本篇列为 2025 年 9 月录用的项目；NeurIPS 正式论文署达摩院。",
+        "https://tangyuxing.github.io/index.html"
+      ],
+      "student": [
+        "周嘉恒 · Jiaheng Zhou",
+        "学校导师页列为在读博士生；该论文第一作者明确脚注在阿里巴巴达摩院 Medical AI Lab 实习期间完成。",
+        "https://people.ucas.edu.cn/~geyang_ia"
+      ],
+      "title": "Dual-Res Tandem Mamba-3D: Bilateral Breast Lesion Detection and Classification on Non-contrast Chest CT",
+      "short": "Dual-Res Tandem Mamba-3D",
+      "date": "2025-12",
+      "venue": "NeurIPS 2025",
+      "area": "计算机视觉",
+      "paper": "https://papers.nips.cc/paper_files/paper/2025/file/2456a42386e445ba884511aa17ca4a30-Paper-Conference.pdf",
+      "evidence": "论文首页把阿里达摩院实习脚注直接连到周嘉恒。杨戈和阿里达摩院工程师 Yuxing Tang 同为这篇论文的通讯作者。",
+      "advising": [
+        "校内导师",
+        "杨戈的国科大官方主页在「现指导学生」列周嘉恒为博士研究生。",
+        "https://people.ucas.edu.cn/~geyang_ia"
+      ],
+      "extra": [
+        [
+          "达摩院工程师公开履历",
+          "https://tangyuxing.github.io/index.html"
+        ]
+      ],
+      "paperId": "openreview:VkSd42HWil"
+    },
+    {
+      "id": "ant-skysensepp-whu-li",
+      "company": "蚂蚁集团",
+      "team": "武汉大学与蚂蚁智能遥感联合研究",
+      "employee": [
+        "陈景东 · Jingdong Chen",
+        "同期 GOSIM 会议资料与该研究的正式署名核实其为蚂蚁集团资深算法专家、同篇研究者。",
+        "https://hangzhou2025.gosim.org/speakers/jingdong-chen/"
+      ],
+      "student": [
+        "武康 · Kang Wu",
+        "同期学校资料确认其为武汉大学在读博士，并列为同篇科研团队成员。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ],
+      "title": "A semantic-enhanced multi-modal remote sensing foundation model for Earth observation",
+      "short": "SkySense++",
+      "date": "2025-08",
+      "venue": "Nature Machine Intelligence",
+      "paper": "https://www.nature.com/articles/s42256-025-01078-8",
+      "extra": [
+        [
+          "武汉大学项目公告",
+          "https://en.whu.edu.cn/info/4661/55581.htm"
+        ],
+        [
+          "武汉大学发布稿：作者及学籍说明",
+          "https://m.thepaper.cn/newsDetail_forward_31352810"
+        ],
+        [
+          "第一作者维护的项目代码",
+          "https://github.com/kang-wu/SkySensePlusPlus"
+        ]
+      ],
+      "evidence": "武汉大学确认该版是与蚂蚁集团共同研发的后续模型，提供语义增强与无微调部署。原文及武汉大学同期报道具名列武康为在读博士和共同第一作者，校方李彦胜和企业陈景东为同篇通讯作者。",
+      "advising": [
+        "校内科研指导",
+        "李彦胜的学校主页将武康列为课题组博士生，并登载这篇 Nature Machine Intelligence 成果。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ],
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "遥感与视觉",
+      "faculty": [
+        "李彦胜 · Yansheng Li",
+        "武汉大学遥感信息工程学院教授、博士生导师，本篇为武汉大学署名作者。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ]
+    },
+    {
+      "id": "ant-skysense-vita-whu-li",
+      "company": "蚂蚁集团",
+      "team": "智能遥感研究",
+      "employee": [
+        "陈景东 · Jingdong Chen",
+        "同期 GOSIM 会议资料与该研究的正式署名核实其为蚂蚁集团资深算法专家、同篇研究者。",
+        "https://hangzhou2025.gosim.org/speakers/jingdong-chen/"
+      ],
+      "student": [
+        "武康 · Kang Wu",
+        "武汉大学在读博士，为本篇第一作者；CVPR 正式论文首页具名标注为蚂蚁集团实习生。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ],
+      "title": "SkySense-VITA: Towards Universal In-context Segmentation of Multi-modal Remote Sensing Imagery",
+      "short": "SkySense-VITA",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_SkySense-VITA_Towards_Universal_In-context_Segmentation_of_Multi-modal_Remote_Sensing_Imagery_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "武康的项目主页",
+          "https://kang-wu.github.io/SkySense-VITA/"
+        ],
+        [
+          "武康维护的项目仓库",
+          "https://github.com/kang-wu/SkySense-VITA"
+        ]
+      ],
+      "evidence": "CVPR 正式论文首页在武康和罗俊伟两人署名处标注蚂蚁集团实习。本项研究有具名的核心作者、武大导师李彦胜，以及同篇蚂蚁研究者陈景东。其任务为多模态遥感图像上下文分割。",
+      "advising": [
+        "校内科研指导",
+        "李彦胜的武汉大学主页具名列武康为课题组博士生，并列 CVPR 2026 录用。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ],
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "遥感与视觉",
+      "faculty": [
+        "李彦胜 · Yansheng Li",
+        "武汉大学遥感信息工程学院教授、博士生导师，本篇为武汉大学署名作者。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ]
+    },
+    {
+      "id": "ant-mkgr-whu-li",
+      "company": "蚂蚁集团",
+      "team": "智能遥感与城市数据",
+      "employee": [
+        "陈景东 · Jingdong Chen",
+        "同期 GOSIM 会议资料与该研究的正式署名核实其为蚂蚁集团资深算法专家、同篇研究者。",
+        "https://hangzhou2025.gosim.org/speakers/jingdong-chen/"
+      ],
+      "student": [
+        "王宇 · Yu Wang",
+        "本人简历列 2023 年 9 月至 2026 年 7 月为武汉大学遥感硕士，且逐项列明硕士阶段对应的企业研究与成果。",
+        "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf"
+      ],
+      "title": "Learning to reason over multi-granularity knowledge graph for zero-shot urban land-use mapping",
+      "short": "mKGR",
+      "date": "2025-12",
+      "venue": "Remote Sensing of Environment",
+      "paper": "https://doi.org/10.1016/j.rse.2025.114961",
+      "extra": [
+        [
+          "作者公开稿及署名",
+          "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/2025_rse_kg.pdf"
+        ],
+        [
+          "王宇公布的项目主页",
+          "https://www.wangfaye.cn/paper/mkgr/"
+        ]
+      ],
+      "evidence": "王宇自述在蚂蚁参与知识图谱与多模态城市功能分类项目，该项目产出在蚂蚁的风控模型中使用。其履历单列对应论文，原文将王宇、校内硕士导师李彦胜与蚂蚁研究者陈景东列为同篇作者。企业研究经历与武大在读硕士阶段重叠。",
+      "advising": [
+        "硕士导师",
+        "王宇本人履历明确列李彦胜为攻读武汉大学遥感硕士期间的导师。",
+        "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf"
+      ],
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "遥感与视觉",
+      "faculty": [
+        "李彦胜 · Yansheng Li",
+        "武汉大学遥感信息工程学院教授、博士生导师，本篇为武汉大学署名作者。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ]
+    },
+    {
+      "id": "alibaba-socioreasoner-whu-li",
+      "company": "阿里巴巴",
+      "team": "高德地图 · 空间智能",
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人主页列 2024 年起任阿里巴巴高德空间智能团队负责人；原文署阿里巴巴高德，同篇作者。",
+        "https://cxxgtxy.github.io/"
+      ],
+      "student": [
+        "王宇 · Yu Wang",
+        "本人简历列 2023 年 9 月至 2026 年 7 月为武汉大学遥感硕士，且逐项列明硕士阶段对应的企业研究与成果。",
+        "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf"
+      ],
+      "title": "Urban Socio-Semantic Segmentation with Vision-Language Reasoning",
+      "short": "SocioReasoner",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "paper": "https://openreview.net/pdf/ada44556555b1122d047de155b2bf82fa4d8ba9d.pdf",
+      "extra": [
+        [
+          "带学生具名实习说明的预印本",
+          "https://arxiv.org/html/2601.10477"
+        ],
+        [
+          "高德发布项目代码",
+          "https://github.com/AMAP-ML/SocioReasoner"
+        ]
+      ],
+      "evidence": "原文首页明确列王宇在阿里高德实习期间完成本项工作，其简历列在读时间与同名项目。论文署名中同时有武大硕士导师李彦胜及高德在职研究者初祥祥。",
+      "advising": [
+        "硕士导师",
+        "王宇本人履历明确列李彦胜为攻读武汉大学遥感硕士期间的导师。",
+        "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf"
+      ],
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "遥感与视觉",
+      "faculty": [
+        "李彦胜 · Yansheng Li",
+        "武汉大学遥感信息工程学院教授、博士生导师，本篇为武汉大学署名作者。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ]
+    },
+    {
+      "id": "alibaba-urbex-whu-li",
+      "company": "阿里巴巴",
+      "team": "高德 DreamX · 空间智能",
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人主页列 2024 年起任阿里巴巴高德空间智能团队负责人；原文署阿里巴巴高德，同篇作者。",
+        "https://cxxgtxy.github.io/"
+      ],
+      "student": [
+        "王宇 · Yu Wang",
+        "本人简历列 2023 年 9 月至 2026 年 7 月为武汉大学遥感硕士，且逐项列明硕士阶段对应的企业研究与成果。",
+        "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf"
+      ],
+      "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+      "short": "Urbex",
+      "date": "2026-10",
+      "venue": "NeurIPS",
+      "paper": "https://arxiv.org/pdf/2610.18356",
+      "extra": [
+        [
+          "高德 DreamX 发布代码",
+          "https://github.com/AMAP-ML/Urbex"
+        ],
+        [
+          "第一作者的论文列表",
+          "https://www.wangfaye.cn/scholar/"
+        ]
+      ],
+      "evidence": "王宇的履历明确把 Urbex 列为 2025 年 5 月至 2026 年 5 月在阿里做的项目，此阶段他在武汉大学读硕士。论文虽在毕业后公开，仍按项目发生在读期间考核；原文列他与同篇武大导师李彦胜、高德员工初祥祥。",
+      "advising": [
+        "硕士导师",
+        "王宇本人履历明确列李彦胜为攻读武汉大学遥感硕士期间的导师。",
+        "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf"
+      ],
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "遥感与视觉",
+      "faculty": [
+        "李彦胜 · Yansheng Li",
+        "武汉大学遥感信息工程学院教授、博士生导师，本篇为武汉大学署名作者。",
+        "https://jszy.whu.edu.cn/liyansheng"
+      ]
     }
   ]
 };

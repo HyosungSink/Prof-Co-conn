@@ -2004,5 +2004,290 @@ const facultyPaperAudits = {
       }
     ],
     "note": "先核对钟起煌在京东探索研究院期间的论文。教师名录所列范围内的完整论文清单还有待梳理。"
+  },
+  "DC5FEjoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.nju.edu.cn/zlj/",
+      "https://www.lamda.nju.edu.cn/yangwh/",
+      "https://www.lamda.nju.edu.cn/wangyb/"
+    ],
+    "papers": [
+      {
+        "title": "Not All Embeddings are Created Equal: Towards Robust Cross-domain Recommendation via Contrastive Learning",
+        "url": "https://ai.nju.edu.cn/zlj/pdf/WWW-2024-Yang.pdf",
+        "outcome": "confirmed",
+        "note": "在读博士的校方主页将具体论文与阿里实习成果明确对应。原文列导师及由独立职业资料核实的阿里算法工程师。"
+      },
+      {
+        "title": "Towards Unbiased Information Extraction and Adaptation in Cross-Domain Recommendation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33391/35546",
+        "outcome": "confirmed",
+        "note": "原文具名实习脚注、学生校方履历的项目与导师、企业作者的任职记载互相印证。"
+      },
+      {
+        "title": "Advancing Tool-Augmented Large Language Models: Integrating Insights from Errors in Inference Trees",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/c0f7ee1901fef1da4dae2b88dfd43195-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "会议原文的具名实习脚注与校方博士生导师信息、阿里同期公开员工履历均已核对。"
+      },
+      {
+        "title": "Deep But Reliable: Advancing Multi-turn Reasoning for Thinking with Images",
+        "url": "https://arxiv.org/pdf/2512.17306",
+        "outcome": "confirmed",
+        "note": "原文具名实习脚注、学生校方履历所列项目和导师及企业作者的任职吻合。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "djdBwxwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=321868",
+      "https://www.lamda.nju.edu.cn/sunh/"
+    ],
+    "papers": [
+      {
+        "title": "MDP3: A Training-free Approach for List-wise Frame Selection in Video-LLMs",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_MDP3_A_Training-free_Approach_for_List-wise_Frame_Selection_in_Video-LLMs_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "学生主页明确具名指定其在阿里实习期间对该论文的贡献及博士生导师，会议原文与独立员工履历一致。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "nSlIK18AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.edu.cn/~geyang_ia",
+      "https://tangyuxing.github.io/index.html",
+      "https://www.cs.jhu.edu/~lelu/",
+      "https://papers.miccai.org/miccai-2025/paper/0082_paper.pdf",
+      "https://papers.nips.cc/paper_files/paper/2025/file/2456a42386e445ba884511aa17ca4a30-Paper-Conference.pdf",
+      "https://yanfeng-zhou.github.io/",
+      "https://dblp.org/pid/348/9667.html"
+    ],
+    "papers": [
+      {
+        "title": "Dual-Res Tandem Mamba-3D: Bilateral Breast Lesion Detection and Classification on Non-contrast Chest CT",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/2456a42386e445ba884511aa17ca4a30-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文将达摩院实习脚注直接标给周嘉恒，学校公开列杨戈为导师，企业研究人员同篇署名。"
+      },
+      {
+        "title": "Opportunistic Osteoporosis Diagnosis via Texture-Preserving Self-Supervision, Mixture of Experts and Multi-Task Integration",
+        "url": "https://papers.miccai.org/miccai-2025/paper/0082_paper.pdf",
+        "outcome": "lead",
+        "note": "论文致谢阿里巴巴研究实习项目，已确认黄家兴的校内导师及阿里巴巴另一项研究；仍需核对他参与该项企业研究的直接材料。"
+      },
+      {
+        "title": "Mamba-3D as Masked Autoencoders for Accurate and Data-Efficient Analysis of Medical Ultrasound Videos",
+        "url": "https://arxiv.org/html/2503.20258v1",
+        "outcome": "lead",
+        "note": "同组师生和达摩院员工同篇；公开稿未发现把周嘉恒或周岩峰的实习与这一篇绑定。"
+      },
+      {
+        "title": "MaRS: A Fast Sampler for Mean Reverting Diffusion Based on ODE and SDE Solvers",
+        "url": "https://openreview.net/pdf/bc06d66af9a37a8dbca8de65f9cbe7ae98f26b65.pdf",
+        "outcome": "lead",
+        "note": "实习计划支持及导师、企业同时确认；国科大双共同一作中仅李奥是该教师名单中的学生，致谢未明确是哪位学生参与实习。"
+      },
+      {
+        "title": "Representing Topological Self-Similarity Using Fractal Feature Maps for Accurate Segmentation of Tubular Structures",
+        "url": "https://arxiv.org/html/2407.14754",
+        "outcome": "lead",
+        "note": "有达摩院合作者和明确在读师生；本篇未发现学生实习说明。"
+      },
+      {
+        "title": "Towards a Comprehensive, Efficient and Promptable Anatomic Structure Segmentation Model using 3D Whole-body CT Scans",
+        "url": "https://arxiv.org/abs/2403.15063",
+        "outcome": "no-evidence",
+        "note": "可用于证实在读的黄家兴在阿里达摩院项目中的身份，但本人导师杨戈未在本篇作者名单。"
+      },
+      {
+        "title": "nnWNet: Rethinking the Use of Transformers in Biomedical Image Segmentation and Calling for a Unified Evaluation Benchmark",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_nnWNet_Rethinking_the_Use_of_Transformers_in_Biomedical_Image_Segmentation_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "杨戈指导的周岩峰署名达摩院并有实习计划致谢；杨戈未在本篇署名。"
+      },
+      {
+        "title": "Benchmarking the Scientific Mind: A Pathology-Derived Biomedical VQA Benchmark for Complex Scientific Reasoning",
+        "url": "https://proceedings.mlr.press/v306/zhao26ac.html",
+        "outcome": "no-evidence",
+        "note": "已核对论文作者与代码；作者名单含教师与该导师学生周嘉恒，但未发现同篇企业实习证据。"
+      },
+      {
+        "title": "Diffusion prior-based zero-shot denoising for real-world fluorescence microscopy images via encoder-decoder guided sampling",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12795429/",
+        "outcome": "no-evidence",
+        "note": "校方和项目页列三位作者；未发现企业作者或同篇实习说明。"
+      },
+      {
+        "title": "Endoplasmic reticulum junctions serve as a platform for endosome-lysosome interactions through their stop-and-go motion switching",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12442848/",
+        "outcome": "no-evidence",
+        "note": "对照期刊作者及贡献部分，单位为科研院所、高校与实验室，未见范围内企业参与。"
+      },
+      {
+        "title": "Blaze3DM: Integrating Triplane Representation with Diffusion for Solving 3D Inverse Problems in Medical Imaging",
+        "url": "https://arxiv.org/html/2405.15241",
+        "outcome": "no-evidence",
+        "note": "原文作者列中科院、国科大及高校，未见范围内企业作者或实习说明。"
+      },
+      {
+        "title": "IYNet: Asymmetric Multi-Input Network with Wavelet-Driven LF/HF Perturbation for Semi-Supervised Biomedical Image Segmentation",
+        "url": "https://openreview.net/pdf?id=5qjAJkeUmS",
+        "outcome": "lead",
+        "note": "已核对校方列出的三位作者。当前公开论文页面验证挡住正式稿核验，尚未确认企业来源；待补。"
+      },
+      {
+        "title": "SATO: Straighten Any 3D Tubular Object",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40392649/",
+        "outcome": "no-evidence",
+        "note": "核对正式索引及作者项目页；未找到范围内企业署名或在读学生在企业完成本篇的记录。"
+      },
+      {
+        "title": "A semi-supervised fracture-attention model for segmenting tubular objects with improved topological connectivity",
+        "url": "https://doi.org/10.1093/bioinformatics/btaf013",
+        "outcome": "no-evidence",
+        "note": "已核对四位论文署名及项目页；未找到同篇企业和实习佐证。"
+      },
+      {
+        "title": "DeepETPicker: Fast and accurate 3D particle picking for cryo-electron tomography using weakly supervised deep learning",
+        "url": "https://www.nature.com/articles/s41467-024-46041-0",
+        "outcome": "no-evidence",
+        "note": "正式稿署中科院、国科大和生物医学公共实验室，未列范围内企业。"
+      },
+      {
+        "title": "Accurate segmentation of intracellular organelle networks using low-level features and topological self-similarity",
+        "url": "https://academic.oup.com/bioinformatics/article/40/10/btae559/7762635",
+        "outcome": "no-evidence",
+        "note": "按正式稿作者及机构核对，未见范围内企业参与或具名实习。"
+      },
+      {
+        "title": "GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11615217/",
+        "outcome": "no-evidence",
+        "note": "正式稿列的 14 种单位地址为中科院体系和高校，未见范围内企业单位。"
+      },
+      {
+        "title": "Stay in touch with the endoplasmic reticulum",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38212460/",
+        "outcome": "no-evidence",
+        "note": "校方书目和正式索引是同一条；作者机构未见范围内企业。"
+      },
+      {
+        "title": "Physical Contacts Between Mitochondria and WPBs Participate in WPB Maturation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37942609/",
+        "outcome": "no-evidence",
+        "note": "已核对论文索引，未找到同篇实习证据。"
+      },
+      {
+        "title": "SCTS: Instance Segmentation of Single Cells Using a Transformer-Based Semantic-Aware Model and Space-Filling Augmentation",
+        "url": "https://openaccess.thecvf.com/content/WACV2023/html/Zhou_SCTS_Instance_Segmentation_of_Single_Cells_Using_a_Transformer-Based_Semantic-Aware_WACV_2023_paper.html",
+        "outcome": "no-evidence",
+        "note": "按正式场刊作者及作者项目资料核对，未发现范围内三方关系证据。"
+      },
+      {
+        "title": "Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Improving_Generalization_of_Adversarial_Training_via_Robust_Critical_Fine-Tuning_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式稿中的企业单位是 Microsoft Research，目前不在企业名单。"
+      },
+      {
+        "title": "Longitudinal real world correlation study of blood pressure and novel features of cerebral magnetic resonance angiography by artificial intelligence analysis on elderly cognitive impairment",
+        "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2023.1121152/full",
+        "outcome": "no-evidence",
+        "note": "期刊作者单位为医院、科研院所等。未见范围内企业科研实习。"
+      },
+      {
+        "title": "XNet: Wavelet-Based Low and High Frequency Fusion Networks for Fully- and Semi-Supervised Semantic Segmentation of Biomedical Images",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhou_XNet_Wavelet-Based_Low_and_High_Frequency_Fusion_Networks_for_Fully-_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式稿企业为 BioMap Research，目前不在企业名单。"
+      },
+      {
+        "title": "XNet v2: Fewer Limitations, Better Results and Greater Universality",
+        "url": "https://arxiv.org/abs/2409.00947",
+        "outcome": "no-evidence",
+        "note": "作者项目资料和论文页面未找到企业实习与本篇的对应证据。"
+      }
+    ],
+    "note": "逐条筛查了学校官网出版清单时间窗内所列 (1)–(20) 及若干补充成果；IYNet 正式全文仍待打开，官方清单之外的书目尚未查全，故仍记部分梳理。"
+  },
+  "wn9hc6UAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jszy.whu.edu.cn/liyansheng",
+      "https://github.com/kang-wu",
+      "https://image-1305984033.cos.ap-nanjing.myqcloud.com/pdf/resume.pdf",
+      "https://www.wangfaye.cn/scholar/",
+      "https://dblp.org/pid/133/4525-1.html"
+    ],
+    "papers": [
+      {
+        "title": "A semantic-enhanced multi-modal remote sensing foundation model for Earth observation",
+        "url": "https://www.nature.com/articles/s42256-025-01078-8",
+        "outcome": "confirmed",
+        "note": "武汉大学确认该版是与蚂蚁集团共同研发的后续模型，提供语义增强与无微调部署。原文及武汉大学同期报道具名列武康为在读博士和共同第一作者，校方李彦胜和企业陈景东为同篇通讯作者。"
+      },
+      {
+        "title": "SkySense-VITA: Towards Universal In-context Segmentation of Multi-modal Remote Sensing Imagery",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_SkySense-VITA_Towards_Universal_In-context_Segmentation_of_Multi-modal_Remote_Sensing_Imagery_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式论文首页在武康和罗俊伟两人署名处标注蚂蚁集团实习。本项研究有具名的核心作者、武大导师李彦胜，以及同篇蚂蚁研究者陈景东。其任务为多模态遥感图像上下文分割。"
+      },
+      {
+        "title": "Learning to reason over multi-granularity knowledge graph for zero-shot urban land-use mapping",
+        "url": "https://doi.org/10.1016/j.rse.2025.114961",
+        "outcome": "confirmed",
+        "note": "王宇自述在蚂蚁参与知识图谱与多模态城市功能分类项目，该项目产出在蚂蚁的风控模型中使用。其履历单列对应论文，原文将王宇、校内硕士导师李彦胜与蚂蚁研究者陈景东列为同篇作者。企业研究经历与武大在读硕士阶段重叠。"
+      },
+      {
+        "title": "Urban Socio-Semantic Segmentation with Vision-Language Reasoning",
+        "url": "https://openreview.net/pdf/ada44556555b1122d047de155b2bf82fa4d8ba9d.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页明确列王宇在阿里高德实习期间完成本项工作，其简历列在读时间与同名项目。论文署名中同时有武大硕士导师李彦胜及高德在职研究者初祥祥。"
+      },
+      {
+        "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+        "url": "https://arxiv.org/pdf/2610.18356",
+        "outcome": "confirmed",
+        "note": "王宇的履历明确把 Urbex 列为 2025 年 5 月至 2026 年 5 月在阿里做的项目，此阶段他在武汉大学读硕士。论文虽在毕业后公开，仍按项目发生在读期间考核；原文列他与同篇武大导师李彦胜、高德员工初祥祥。"
+      },
+      {
+        "title": "SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery",
+        "url": "https://arxiv.org/abs/2312.10115",
+        "outcome": "existing",
+        "note": "首个 SkySense 版本已收录，后续各自按独立发表成果核对。"
+      },
+      {
+        "title": "SkySense V2: A Unified Foundation Model for Multi-modal Remote Sensing",
+        "url": "https://arxiv.org/abs/2507.13812",
+        "outcome": "lead",
+        "note": "原文明示三方同篇，武康对本篇企业项目的具名参与依据仍待复核。"
+      },
+      {
+        "title": "SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding",
+        "url": "https://arxiv.org/abs/2406.10100",
+        "outcome": "lead",
+        "note": "原文署武大、蚂蚁，未见具名证据说明在读学生参与这项企业研究。"
+      },
+      {
+        "title": "Unleashing the potential of remote sensing foundation models via bridging data and computility islands",
+        "url": "https://doi.org/10.1016/j.xinn.2025.100841",
+        "outcome": "lead",
+        "note": "武大原始报道核实共同研发，仍需核对学生在具体项目中的具名参与。"
+      }
+    ],
+    "note": "已核对部分武大—蚂蚁遥感成果与王宇在读期间的企业项目。此前未核对的论文仍需逐篇检查。"
   }
 };
