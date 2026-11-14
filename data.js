@@ -33345,6 +33345,337 @@ const survey = {
         ]
       ],
       "evidence": "该生是共同第一作者，论文逐人列港城大与腾讯 WeChat AI；履历将真实任务及环境合成、用量规核对任务流程和产物写为 WeLM 的同期工作，本篇使用技能规范来划分工件角色、构建沙箱任务，以过程与完成标准的量规作双重评价。学生履历注明马辰为港城大博士导师；马辰与已具名核实的同篇微信 AI 研究员 Chuhan Wu 共同署名。"
+    },
+    {
+      "id": "eocbench-alibaba-zju-fqowfhqaaaaj",
+      "paperId": "arxiv:2506.05287",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "肖俊 · Jun Xiao",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/junx"
+      ],
+      "employee": [
+        "Xin Li",
+        "2021 年开始在阿里巴巴达摩院担任研究工程师，AAMAS 和个人学术履历相互印证；为袁瑜谦具名达摩院实习导师，本篇正式署名达摩院。",
+        "https://lixin4ever.github.io/"
+      ],
+      "student": [
+        "袁瑜谦 · Yuqian Yuan",
+        "袁瑜谦本人列出 2024 年 7 月至 2026 年 2 月达摩院实习和在浙大读博。达摩院自己的 EOC-Bench 项目介绍点名袁瑜谦为达摩院实习生和该文作者，正式全文将其列为本篇共同第一作者。",
+        "https://yuqianyuan.github.io/"
+      ],
+      "title": "EOC-Bench: Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?",
+      "short": "EOC-Bench",
+      "date": "2025-12",
+      "venue": "NeurIPS 2025",
+      "area": "具身智能与视觉语言模型",
+      "paper": "https://openreview.net/pdf/a48ec0fbef6bc638edb0187884767b01df1eb218.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://papers.nips.cc/paper_files/paper/2025/hash/c398086709acb9938fb8c4e0868e1643-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        [
+          "达摩院项目介绍及具名实习证据",
+          "https://damodev.csdn.net/694e0510bf6b0e4b285e79f3.html"
+        ],
+        [
+          "达摩院项目代码",
+          "https://github.com/alibaba-damo-academy/EOCBench"
+        ]
+      ],
+      "evidence": "袁瑜谦本人列出 2024 年 7 月至 2026 年 2 月达摩院实习和在浙大读博。达摩院自己的 EOC-Bench 项目介绍点名袁瑜谦为达摩院实习生和该文作者，正式全文将其列为本篇共同第一作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "袁瑜谦在个人主页具名列肖俊为浙江大学博士导师，肖俊与袁瑜谦共同署名该篇。",
+        "https://yuqianyuan.github.io/"
+      ]
+    },
+    {
+      "id": "tpla-tencent-pku-obbqkosaaaaj",
+      "paperId": "arxiv:2508.15881",
+      "company": "腾讯",
+      "team": "优图实验室",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "张牧涵 · Muhan Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.ai.pku.edu.cn/info/1284/1866.htm"
+      ],
+      "employee": [
+        "Xing Sun",
+        "《Pattern Recognition》论文附正式作者简历列其为腾讯优图首席研究员和团队经理，ASPLOS 组委会正式节目单同篇列腾讯优图。",
+        "https://www.sciencedirect.com/science/article/pii/S0031320324005727"
+      ],
+      "student": [
+        "Pingzhi Tang",
+        "北京大学在读本科生 Pingzhi Tang 在个人履历列出 2025 年 6 月至 9 月于腾讯优图实习期间做 MLA 张量并行的 KV 缓存研究，得到约 2 倍加速；同页具名把这项具体技术贡献列于 TPLA，且该篇首发时间在实习期内。",
+        "https://pingzhitang.cv/"
+      ],
+      "title": "TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated Prefill & Decode Inference",
+      "short": "TPLA",
+      "date": "2026-03",
+      "venue": "ASPLOS 2026",
+      "area": "模型推理与计算系统",
+      "paper": "https://arxiv.org/pdf/2508.15881",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3779212.3790237"
+        ],
+        [
+          "ASPLOS 正式节目",
+          "https://asplos-conference.org/asplos2026/program/index.html"
+        ],
+        [
+          "全文作者及原始单位",
+          "https://arxiv.org/html/2508.15881"
+        ]
+      ],
+      "evidence": "北京大学在读本科生 Pingzhi Tang 在个人履历列出 2025 年 6 月至 9 月于腾讯优图实习期间做 MLA 张量并行的 KV 缓存研究，得到约 2 倍加速；同页具名把这项具体技术贡献列于 TPLA，且该篇首发时间在实习期内。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Pingzhi Tang 的个人学术履历具名列张牧涵为 2024 年 7 月开始的北大实验室导师，正式会议论文张牧涵为通讯作者。",
+        "https://pingzhitang.cv/"
+      ]
+    },
+    {
+      "id": "huawei-reviseval-cityu-chen-ma",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "港城大副教授、论文通讯作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "张启源 · Qiyuan Zhang",
+        "香港城市大学博士生、第一或共同第一作者。2024 年 3 月至 2025 年 3 月在华为香港诺亚方舟实验室从事科研实习；履历在标注为华为工作的精确条目中具名列出 RevisEval。",
+        "https://zhangqiyuan-rico.github.io/cv/Qiyuan_CV.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生录取于 2023 年；履历明确列马辰为其港城大博士导师。",
+        "https://zhangqiyuan-rico.github.io/cv/Qiyuan_CV.pdf"
+      ],
+      "employee": [
+        "Liangyou Li",
+        "同篇署名华为香港诺亚方舟；河套学院正式档案具名列明其华为研究人员任职并列出该论文。",
+        "https://www.slai.edu.cn/en/teacher/576"
+      ],
+      "title": "RevisEval: Improving LLM-as-a-Judge via Response-Adapted References",
+      "short": "RevisEval",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "语言模型 · 评测",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f7ed2318cec3540ca267c3ede12d82fe-Abstract-Conference.html",
+      "extra": [
+        [
+          "论文原文",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/f7ed2318cec3540ca267c3ede12d82fe-Paper-Conference.pdf"
+        ],
+        [
+          "香港城市大学博士生名录",
+          "https://scholars.cityu.edu.hk/en/persons/qzhang732/"
+        ]
+      ],
+      "evidence": "张启源在博士履历中确认为马辰指导的港城大博士生。2024 年 3 月至 2025 年 3 月在华为香港诺亚方舟实验室从事科研实习；履历在标注为华为工作的精确条目中具名列出 RevisEval。同一原文列有马辰与独立履历已证实为同期企业研究人员的Liangyou Li。此前基线中同组另有独立论文，其方法与本条不同。"
+    },
+    {
+      "id": "tencent-rubricbench-cityu-chen-ma",
+      "company": "腾讯",
+      "team": "混元 X",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "港城大副教授、论文通讯作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "张启源 · Qiyuan Zhang",
+        "香港城市大学博士生、第一或共同第一作者。2025 年 3 月至 9 月及 2026 年 1 月起在腾讯混元 X 科研实习；简历在首段具名列出 RubricBench 评测项目，正式版亦逐名双署港城大与腾讯。",
+        "https://zhangqiyuan-rico.github.io/cv/Qiyuan_CV.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生录取于 2023 年；履历明确列马辰为其港城大博士导师。",
+        "https://zhangqiyuan-rico.github.io/cv/Qiyuan_CV.pdf"
+      ],
+      "employee": [
+        "Qingfeng Sun",
+        "同篇署名腾讯混元；本人履历确认 2024 年 12 月起任腾讯混元 X 高级研究员。",
+        "https://victorqsun.github.io/"
+      ],
+      "title": "RubricBench: Aligning Model-Generated Rubrics with Human Standards",
+      "short": "RubricBench",
+      "date": "2026-07",
+      "venue": "ACL 2026",
+      "area": "语言模型 · 评测",
+      "paper": "https://aclanthology.org/2026.acl-long.1439/",
+      "extra": [
+        [
+          "论文原文",
+          "https://aclanthology.org/2026.acl-long.1439.pdf"
+        ],
+        [
+          "香港城市大学博士生名录",
+          "https://scholars.cityu.edu.hk/en/persons/qzhang732/"
+        ]
+      ],
+      "evidence": "张启源在博士履历中确认为马辰指导的港城大博士生。2025 年 3 月至 9 月及 2026 年 1 月起在腾讯混元 X 科研实习；简历在首段具名列出 RubricBench 评测项目，正式版亦逐名双署港城大与腾讯。同一原文列有马辰与独立履历已证实为同期企业研究人员的Qingfeng Sun。此前基线中同组另有独立论文，其方法与本条不同。"
+    },
+    {
+      "id": "huawei-bmc-hkustgz-wei-wang",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "王伟 · Wei Wang",
+        "港科大（广州）教授；原文同时列港科大与港科大（广州）单位。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs"
+      ],
+      "student": [
+        "姜宇心 · Yuxin Jiang",
+        "港科大在读博士、第一作者；正文首页具名标注其部分研究在华为诺亚方舟实验室实习期间完成。",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/d41760ec1e2db105e63e98393648c763-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大（广州）正式博士答辩公告具名列王伟为首席导师；学生同时拥有港科大与港科大（广州）署名。",
+        "https://dsa.hkust-gz.edu.cn/blog/2025/05/21/towards-efficient-and-effective-alignment-of-large-language-models/"
+      ],
+      "employee": [
+        "Liangyou Li",
+        "同篇署名华为诺亚方舟实验室；河套学院履历明载华为香港诺亚方舟实验室研究员经历。",
+        "https://www.slai.edu.cn/en/teacher/576"
+      ],
+      "title": "Bridging and Modeling Correlations in Pairwise Data for Direct Preference Optimization",
+      "short": "BMC",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "大语言模型 · 数据合成与对齐",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d41760ec1e2db105e63e98393648c763-Abstract-Conference.html",
+      "extra": [
+        [
+          "论文和具名实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/d41760ec1e2db105e63e98393648c763-Paper-Conference.pdf"
+        ],
+        [
+          "学生公开履历",
+          "https://yjiangcm.github.io/"
+        ],
+        [
+          "华为实习时间和企业导师",
+          "https://yjiangcm.github.io/internship/"
+        ]
+      ],
+      "evidence": "正文首页在姜宇心姓名后用星号明确标记其部分研究在华为诺亚方舟实验室实习所作。同期博士学籍与指导由港科大（广州）正式答辩公告明确，论文把王伟列为港科大与港科大（广州）共同署名作者。Liangyou Li在原文以华为署名，另有公开履历核对任职。"
+    },
+    {
+      "id": "huawei-webr-hkustgz-wei-wang",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "王伟 · Wei Wang",
+        "港科大（广州）教授；原文同时列港科大与港科大（广州）单位。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs"
+      ],
+      "student": [
+        "姜宇心 · Yuxin Jiang",
+        "港科大在读博士、第一作者；正文首页具名标注其研究在华为诺亚方舟实验室实习期间完成。",
+        "https://aclanthology.org/2025.findings-acl.343.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大（广州）正式博士答辩公告具名列王伟为首席导师；学生同时拥有港科大与港科大（广州）署名。",
+        "https://dsa.hkust-gz.edu.cn/blog/2025/05/21/towards-efficient-and-effective-alignment-of-large-language-models/"
+      ],
+      "employee": [
+        "唐瑞明 · Ruiming Tang",
+        "同篇署名华为诺亚方舟实验室；会议手册的职业履历确认 2014 年 12 月至 2025 年 6 月任职华为诺亚方舟实验室。",
+        "https://www.sigir-ap.org/sigir-ap-2025/assets/files/SIGIRAP2025Booklet.pdf"
+      ],
+      "title": "Instruction-Tuning Data Synthesis from Scratch via Web Reconstruction",
+      "short": "WebR",
+      "date": "2025-07",
+      "venue": "ACL 2025 Findings",
+      "area": "大语言模型 · 数据合成与对齐",
+      "paper": "https://aclanthology.org/2025.findings-acl.343/",
+      "extra": [
+        [
+          "论文和具名实习脚注",
+          "https://aclanthology.org/2025.findings-acl.343.pdf"
+        ],
+        [
+          "学生公开履历",
+          "https://yjiangcm.github.io/"
+        ],
+        [
+          "华为实习时间和企业导师",
+          "https://yjiangcm.github.io/internship/"
+        ]
+      ],
+      "evidence": "正文首页在姜宇心姓名后用星号明确标记其研究在华为诺亚方舟实验室实习所作。同期博士学籍与指导由港科大（广州）正式答辩公告明确，论文把王伟列为港科大与港科大（广州）共同署名作者。唐瑞明 · Ruiming Tang在原文以华为署名，另有公开履历核对任职。"
+    },
+    {
+      "id": "alibaba-pixelrefer-zju-jun-xiao",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "title": "PixelRefer: A Unified Framework for Spatio-Temporal Object Referring with Arbitrary Granularity",
+      "short": "PixelRefer",
+      "date": "2025-10",
+      "venue": "arXiv",
+      "area": "多模态视觉理解",
+      "paper": "https://arxiv.org/abs/2510.23603",
+      "arxiv": "2510.23603",
+      "evidence": "袁瑜谦在本人页列为达摩院实习期独立研究产出，企业实习导师 Xin Li 也逐篇列为自身任职期间的研究；达摩院官方仓库列两人及肖俊为同篇作者、独立发布 PixelRefer 和 PixelRefer-2.2M，并将 CVPR VideoRefer 作为另一项成果。 袁瑜谦本人具名写明肖俊为浙大博士导师，并列出 2024 年 7 月至 2026 年 2 月的达摩院研究实习。",
+      "faculty": [
+        "肖俊 · Jun Xiao",
+        "浙江大学教授及博士生导师，论文共同作者。",
+        "https://person.zju.edu.cn/junx"
+      ],
+      "employee": [
+        "Xin Li",
+        "达摩院研究工程师；本人履历列出自 2021 年 3 月起任职。",
+        "https://lixin4ever.github.io/"
+      ],
+      "student": [
+        "袁瑜谦 · Yuqian Yuan",
+        "浙江大学在读博士、研究发生时为阿里巴巴达摩院研究实习生。",
+        "https://yuqianyuan.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生学术自介具名肖俊是其浙大博士导师。",
+        "https://yuqianyuan.github.io/"
+      ],
+      "extra": [
+        [
+          "达摩院开源仓库",
+          "https://github.com/alibaba-damo-academy/PixelRefer"
+        ],
+        [
+          "作者项目页",
+          "https://circleradon.github.io/PixelRefer/"
+        ],
+        [
+          "国际电信联盟会议任职资料",
+          "https://aiforgood.itu.int/speaker/xin-li/"
+        ]
+      ]
     }
   ]
 };

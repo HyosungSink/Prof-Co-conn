@@ -683,6 +683,42 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2609.00111v1#S8",
         "outcome": "confirmed",
         "note": "双重署名、明确核心贡献与企业项目、具名实习和共同博导；同篇只计 1。"
+      },
+      {
+        "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+        "url": "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
+        "note": "原文和项目页点名 Kaijin Chen 为快手实习生；梁定康名录已列在 2026 级博士（两位导师）。3 月发表早于常规秋季入学，需找到项目期间在读并受指导的依据。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+        "url": "https://arxiv.org/abs/2603.19235",
+        "note": "在读和后续联合培养已有公开线索，同篇有百度；导师名录记录百度实习，仍需确认这个项目属于其实习。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
+        "url": "https://arxiv.org/html/2603.15620v2",
+        "note": "Heng Fang 本人及名录指出华科在读及研究生导师，名录列华为实习；论文署华为，未写实习发生时间、人员及项目对应，且需正式员工身份来源。",
+        "outcome": "lead"
+      },
+      {
+        "title": "CAPE: Camera View Position Embedding for Multi-View 3D Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xiong_CAPE_Camera_View_Position_Embedding_for_Multi-View_3D_Object_Detection_CVPR_2023_paper.pdf",
+        "note": "熊凯欣在百度实习和学籍证据清楚；待证实白翔是实际指导教师。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Shuffle-R1: Efficient RL framework for Multimodal Large Language Models via Data-centric Dynamic Shuffle",
+        "url": "https://arxiv.org/abs/2508.05612",
+        "note": "原文明确学生实习，企业系范围外的小米。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ThinkOmni: Extending Text Reasoning to Omni-modal Scenarios via Guidance Decoding",
+        "url": "https://arxiv.org/abs/2602.23306",
+        "note": "原文明确学生实习，企业系范围外的小米。",
+        "outcome": "no-evidence"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -5172,7 +5208,9 @@ const facultyPaperAudits = {
     "sources": [
       "https://wlr737.github.io/",
       "https://bitwjg.github.io/",
-      "https://openreview.net/pdf/635fffd836636e1c56d6f86742d8b5a11c3e617d.pdf"
+      "https://openreview.net/pdf/635fffd836636e1c56d6f86742d8b5a11c3e617d.pdf",
+      "https://github.com/SpursGoZmy",
+      "https://people.ucas.ac.cn/~linzheng"
     ],
     "papers": [
       {
@@ -5180,6 +5218,24 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf/635fffd836636e1c56d6f86742d8b5a11c3e617d.pdf",
         "outcome": "confirmed",
         "note": "NeurIPS 正式版的联合工作脚注标给王岚睿本人；其主页确认在读期导师，另不推定本篇为实习。"
+      },
+      {
+        "title": "IM-TQA: A Chinese Table Question Answering Dataset with Implicit and Multi-type Table Structures",
+        "url": "https://aclanthology.org/2023.acl-long.278.pdf",
+        "note": "具名郑明宇在百度实习，林政是通讯作者，但没有直接校内指导资料。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Multimodal Table Understanding",
+        "url": "https://aclanthology.org/2024.acl-long.493.pdf",
+        "note": "同上：论文标记郑明宇同篇百度项目，待补导师证据。",
+        "outcome": "lead"
+      },
+      {
+        "title": "TableDreamer: Progressive and Weakness-guided Data Synthesis from Scratch for Table Instruction Tuning",
+        "url": "https://aclanthology.org/2025.findings-acl.381.pdf",
+        "note": "具名实习项目；待证林政校内指导。",
+        "outcome": "lead"
       }
     ],
     "note": "仅核对部分受指导学生的公开成果，未遍历教师全部书目。"
@@ -5447,7 +5503,15 @@ const facultyPaperAudits = {
       "https://dev3.noahlab.com.hk/Qun_Liu.html",
       "https://aclanthology.org/2024.acl-long.257.pdf",
       "https://dsa.hkust-gz.edu.cn/zh/blog/2024/06/02/towards-the-enhancement-of-large-language-models/",
-      "https://aclanthology.org/2024.acl-long.258/"
+      "https://aclanthology.org/2024.acl-long.258/",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d41760ec1e2db105e63e98393648c763-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/d41760ec1e2db105e63e98393648c763-Paper-Conference.pdf",
+      "https://dsa.hkust-gz.edu.cn/blog/2025/05/21/towards-efficient-and-effective-alignment-of-large-language-models/",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs",
+      "https://www.slai.edu.cn/en/teacher/576",
+      "https://aclanthology.org/2025.findings-acl.343/",
+      "https://aclanthology.org/2025.findings-acl.343.pdf",
+      "https://www.sigir-ap.org/sigir-ap-2025/assets/files/SIGIRAP2025Booklet.pdf"
     ],
     "papers": [
       {
@@ -5461,6 +5525,18 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2024.acl-long.258/",
         "outcome": "existing",
         "note": "同一导师及学生的华为联合研究已有记录；论文具名华为实习脚注，学生公开履历将 LTE 列为具体实习工作。"
+      },
+      {
+        "title": "Bridging and Modeling Correlations in Pairwise Data for Direct Preference Optimization",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d41760ec1e2db105e63e98393648c763-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "正文首页在姜宇心姓名后用星号明确标记其部分研究在华为诺亚方舟实验室实习所作。同期博士学籍与指导由港科大（广州）正式答辩公告明确，论文把王伟列为港科大与港科大（广州）共同署名作者。Liangyou Li在原文以华为署名，另有公开履历核对任职。"
+      },
+      {
+        "title": "Instruction-Tuning Data Synthesis from Scratch via Web Reconstruction",
+        "url": "https://aclanthology.org/2025.findings-acl.343/",
+        "outcome": "confirmed",
+        "note": "正文首页在姜宇心姓名后用星号明确标记其研究在华为诺亚方舟实验室实习所作。同期博士学籍与指导由港科大（广州）正式答辩公告明确，论文把王伟列为港科大与港科大（广州）共同署名作者。唐瑞明 · Ruiming Tang在原文以华为署名，另有公开履历核对任职。"
       }
     ]
   },
@@ -6868,21 +6944,27 @@ const facultyPaperAudits = {
     "papers": [
       {
         "title": "ResRL: Boosting LLM Reasoning via Negative Sample Projection Residual Reinforcement Learning",
-        "url": "https://proceedings.mlr.press/v306/lin26ak.html",
-        "outcome": "lead",
-        "note": "ICML 正式论文具名第一作者 Zihan Lin 在美团实习期间完成本篇、国科大学生主页与论文同标，企业资深研究员殷国君和国科大研究员赫然同篇通讯；暂无独立具名导师、组员或论文作者贡献说明。"
+        "url": "https://arxiv.org/abs/2605.00380",
+        "note": "同组同一学生、独立论文；仍需证实赫然是导师。",
+        "outcome": "lead"
       },
       {
-        "title": "ReST: Reshaping Token-Level Policy Gradients for Tool-Use Large Language Models",
-        "url": "https://openreview.net/pdf/6927046535afb180c4ba1d33a96a3b59d4b5999d.pdf",
-        "outcome": "lead",
-        "note": "ICLR 正式论文具名第一作者 Zihan Lin 在美团实习期间完成本篇、国科大学生主页与论文同标，企业资深研究员殷国君和国科大研究员赫然同篇通讯；暂无独立具名导师、组员或论文作者贡献说明。"
+        "title": "ResT: Reshaping Token-Level Policy Gradients for Tool-Use Large Language Models",
+        "url": "https://arxiv.org/abs/2509.21826",
+        "note": "具名 Zihan Lin 在美团实习、同期署国科大，殷国君美团身份有资料；未找到具名导师。",
+        "outcome": "lead"
       },
       {
         "title": "Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution",
         "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf",
         "outcome": "confirmed",
         "note": "国科大博士指导、具名快手实习及独立快手员工履历均有直接资料。"
+      },
+      {
+        "title": "One Step, One Lead: Mitigating Higher-Order Interference in Multi-Domain Reinforcement Learning via Cross-Step Control",
+        "url": "https://arxiv.org/abs/2609.06469",
+        "note": "同一企业团队和同一学生的第三份成果；继续查具名导师与本篇项目的关系。",
+        "outcome": "lead"
       }
     ],
     "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
@@ -6921,9 +7003,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "Tackling the Cross-Modal Retrieval Trilemma with Cross-Modal Indexing",
-        "url": "https://daqingliu.github.io/assets/files/CV_DaqingLiu_2303.pdf",
-        "outcome": "lead",
-        "note": "京东员工简历列为具名指导项目，尚未定位公开发表/预印本的确切题名。"
+        "url": "https://openreview.net/pdf?id=o5mLawmN232",
+        "note": "已找到 2022 年的匿名投稿，2023 的独立正式出版或题名相同的公开预印本未见；不计入。",
+        "outcome": "no-evidence"
       }
     ],
     "note": "已核查张恒的研修、校企导师和两篇正式论文，另记录同组一份待查成果；全部书目继续核。"
@@ -8916,6 +8998,18 @@ const facultyPaperAudits = {
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25185/24957",
         "outcome": "lead",
         "note": "本篇有阿里巴巴达摩院共同作者，但 Yanqin Jiang 仅署学校，全文未找到其参与本篇企业研究的证据。"
+      },
+      {
+        "title": "Reversing Flow for Image Restoration",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Qin_Reversing_Flow_for_Image_Restoration_CVPR_2025_paper.pdf",
+        "note": "在读 Haina Qin 注记蚂蚁实习，校内导师名录暂未将其与胡卫明关联。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Visual-Instructed Degradation Diffusion for All-in-One Image Restoration",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Luo_Visual-Instructed_Degradation_Diffusion_for_All-in-One_Image_Restoration_CVPR_2025_paper.pdf",
+        "note": "具名 Haina Qin 蚂蚁实习；导师仍待核。",
+        "outcome": "lead"
       }
     ],
     "note": "已逐篇检查部分书目和学生科研实习，尚未覆盖全部论文。"
@@ -9307,7 +9401,15 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2610.14915",
       "https://planepig.github.io/publications/",
       "https://arxiv.org/abs/2610.14918",
-      "https://arxiv.org/pdf/2610.14918"
+      "https://arxiv.org/pdf/2610.14918",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f7ed2318cec3540ca267c3ede12d82fe-Abstract-Conference.html",
+      "https://zhangqiyuan-rico.github.io/cv/Qiyuan_CV.pdf",
+      "https://www.slai.edu.cn/en/teacher/576",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/f7ed2318cec3540ca267c3ede12d82fe-Paper-Conference.pdf",
+      "https://scholars.cityu.edu.hk/en/persons/qzhang732/",
+      "https://aclanthology.org/2026.acl-long.1439/",
+      "https://victorqsun.github.io/",
+      "https://aclanthology.org/2026.acl-long.1439.pdf"
     ],
     "papers": [
       {
@@ -9363,6 +9465,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2610.14918",
         "outcome": "confirmed",
         "note": "该生是共同第一作者，论文逐人列港城大与腾讯 WeChat AI；履历将真实任务及环境合成、用量规核对任务流程和产物写为 WeLM 的同期工作，本篇使用技能规范来划分工件角色、构建沙箱任务，以过程与完成标准的量规作双重评价。学生履历注明马辰为港城大博士导师；马辰与已具名核实的同篇微信 AI 研究员 Chuhan Wu 共同署名。"
+      },
+      {
+        "title": "RevisEval: Improving LLM-as-a-Judge via Response-Adapted References",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f7ed2318cec3540ca267c3ede12d82fe-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "张启源在博士履历中确认为马辰指导的港城大博士生。2024 年 3 月至 2025 年 3 月在华为香港诺亚方舟实验室从事科研实习；履历在标注为华为工作的精确条目中具名列出 RevisEval。同一原文列有马辰与独立履历已证实为同期企业研究人员的Liangyou Li。此前基线中同组另有独立论文，其方法与本条不同。"
+      },
+      {
+        "title": "RubricBench: Aligning Model-Generated Rubrics with Human Standards",
+        "url": "https://aclanthology.org/2026.acl-long.1439/",
+        "outcome": "confirmed",
+        "note": "张启源在博士履历中确认为马辰指导的港城大博士生。2025 年 3 月至 9 月及 2026 年 1 月起在腾讯混元 X 科研实习；简历在首段具名列出 RubricBench 评测项目，正式版亦逐名双署港城大与腾讯。同一原文列有马辰与独立履历已证实为同期企业研究人员的Qingfeng Sun。此前基线中同组另有独立论文，其方法与本条不同。"
       }
     ]
   },
@@ -10200,6 +10314,42 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2609.00111v1#S8",
         "outcome": "confirmed",
         "note": "双重署名、明确核心贡献与企业项目、具名实习和共同博导；同篇只计 1。"
+      },
+      {
+        "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+        "url": "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
+        "note": "原文和项目页点名 Kaijin Chen 为快手实习生；梁定康名录已列在 2026 级博士（两位导师）。3 月发表早于常规秋季入学，需找到项目期间在读并受指导的依据。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+        "url": "https://arxiv.org/abs/2603.19235",
+        "note": "在读和后续联合培养已有公开线索，同篇有百度；导师名录记录百度实习，仍需确认这个项目属于其实习。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
+        "url": "https://arxiv.org/html/2603.15620v2",
+        "note": "Heng Fang 本人及名录指出华科在读及研究生导师，名录列华为实习；论文署华为，未写实习发生时间、人员及项目对应，且需正式员工身份来源。",
+        "outcome": "lead"
+      },
+      {
+        "title": "CAPE: Camera View Position Embedding for Multi-View 3D Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xiong_CAPE_Camera_View_Position_Embedding_for_Multi-View_3D_Object_Detection_CVPR_2023_paper.pdf",
+        "note": "熊凯欣在百度实习和学籍证据清楚；待证实白翔是实际指导教师。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Shuffle-R1: Efficient RL framework for Multimodal Large Language Models via Data-centric Dynamic Shuffle",
+        "url": "https://arxiv.org/abs/2508.05612",
+        "note": "原文明确学生实习，企业系范围外的小米。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ThinkOmni: Extending Text Reasoning to Omni-modal Scenarios via Guidance Decoding",
+        "url": "https://arxiv.org/abs/2602.23306",
+        "note": "原文明确学生实习，企业系范围外的小米。",
+        "outcome": "no-evidence"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -10221,5 +10371,128 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "fqOwFhQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/junx",
+      "https://yuqianyuan.github.io/",
+      "https://lixin4ever.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "EOC-Bench: Can MLLMs Identify, Recall, and Forecast Objects in an Egocentric World?",
+        "url": "https://openreview.net/pdf/a48ec0fbef6bc638edb0187884767b01df1eb218.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "达摩院的具名项目介绍以「阿里巴巴达摩院实习生」介绍第一作者袁瑜谦；论文列浙大与达摩院双署，以及肖俊与达摩院研究工程师 Xin Li。 袁瑜谦本人具名写明肖俊为浙大博士导师，并列出 2024 年 7 月至 2026 年 2 月的达摩院研究实习。"
+      },
+      {
+        "title": "PixelRefer: A Unified Framework for Spatio-Temporal Object Referring with Arbitrary Granularity",
+        "url": "https://arxiv.org/abs/2510.23603",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "袁瑜谦在本人页列为达摩院实习期独立研究产出，企业实习导师 Xin Li 也逐篇列为自身任职期间的研究；达摩院官方仓库列两人及肖俊为同篇作者、独立发布 PixelRefer 和 PixelRefer-2.2M，并将 CVPR VideoRefer 作为另一项成果。 袁瑜谦本人具名写明肖俊为浙大博士导师，并列出 2024 年 7 月至 2026 年 2 月的达摩院研究实习。"
+      },
+      {
+        "title": "RynnEC: Bringing MLLMs into Embodied World",
+        "url": "https://github.com/alibaba-damo-academy/RynnEC",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "学生本人列为其达摩院参与成果；逐篇核对作者名单，没有列出其导师肖俊。"
+      },
+      {
+        "title": "RynnVLA-002: A Unified Vision-Language-Action and World Model",
+        "url": "https://github.com/alibaba-damo-academy/RynnVLA-002",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "学生本人列为其达摩院参与成果；逐篇核对作者名单，没有列出其导师肖俊。"
+      },
+      {
+        "title": "RynnBrain: Open Embodied Foundation Models",
+        "url": "https://github.com/alibaba-damo-academy/RynnBrain",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "学生本人列为其达摩院参与成果；逐篇核对作者名单，没有列出其导师肖俊。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "OBBqkosAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.ai.pku.edu.cn/info/1284/1866.htm",
+      "https://pingzhitang.cv/"
+    ],
+    "papers": [
+      {
+        "title": "TPLA: Tensor Parallel Latent Attention for Efficient Disaggregated Prefill & Decode Inference",
+        "url": "https://arxiv.org/pdf/2508.15881",
+        "outcome": "confirmed",
+        "note": "北京大学在读本科生 Pingzhi Tang 在个人履历列出 2025 年 6 月至 9 月于腾讯优图实习期间做 MLA 张量并行的 KV 缓存研究，得到约 2 倍加速；同页具名把这项具体技术贡献列于 TPLA，且该篇首发时间在实习期内。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "nD0I3PUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://bool1020.github.io/",
+      "https://klais.ict.ac.cn/kxyj/yjjz/202609/t20260928_858509.html"
+    ],
+    "papers": [
+      {
+        "title": "Distilling Large Embeddings via Hyperspherical Householder Quantization",
+        "url": "https://aclanthology.org/2026.acl-long.482.pdf",
+        "note": "正式版具名汪奕航在字节实习完成；本人证实国科大硕士和实习起止，两个企业合作者需核任职，另未找到具名校内导师。",
+        "outcome": "lead"
+      }
+    ]
+  },
+  "hY8aLqAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://bool1020.github.io/",
+      "https://klais.ict.ac.cn/kxyj/yjjz/202609/t20260928_858509.html"
+    ],
+    "papers": [
+      {
+        "title": "Distilling Large Embeddings via Hyperspherical Householder Quantization",
+        "url": "https://aclanthology.org/2026.acl-long.482.pdf",
+        "note": "正式版具名汪奕航在字节实习完成；本人证实国科大硕士和实习起止，两个企业合作者需核任职，另未找到具名校内导师。",
+        "outcome": "lead"
+      }
+    ]
+  },
+  "sOI-S7oAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~liujing",
+      "https://wanquanf.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion",
+        "url": "https://arxiv.org/abs/2503.07418",
+        "note": "原文注字节实习，公司 Wanquan Feng 本人列项目及受聘经历；待确认实习作者具体身份及其当时的校内指导。",
+        "outcome": "lead"
+      },
+      {
+        "title": "COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection",
+        "url": "https://arxiv.org/abs/2412.00071",
+        "note": "Jing Liu 同名作者署名是字节，实习学生在 Rutgers，不匹配国科大研究员。",
+        "outcome": "no-evidence"
+      }
+    ]
   }
 };
