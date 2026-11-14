@@ -6465,14 +6465,17 @@ const facultyPaperAudits = {
       "https://xxzhang99.github.io/",
       "https://dblp.org/pid/185/1521-1.html",
       "https://cs.ccnu.edu.cn/info/1109/11816.htm",
-      "https://2026.sigmod.org/sigmod_industry_papers.shtml"
+      "https://2026.sigmod.org/sigmod_industry_papers.shtml",
+      "https://cs.whu.edu.cn/info/1054/43721.htm",
+      "https://ems.whu.edu.cn/info/1647/275071.htm",
+      "https://orcid.org/0000-0002-6330-9182"
     ],
     "papers": [
       {
         "title": "Complete or Abstain? Aligning SQL Completion with User Preferences",
         "url": "https://aclanthology.org/2026.emnlp-industry.16.pdf",
         "outcome": "lead",
-        "note": "EMNLP 版首页具名确认武大作者 Xintong Hu 在腾讯 TEG 实习完成本篇；江佳伟为同篇通讯。仍无具名材料证实江佳伟为该学生校内导师。",
+        "note": "EMNLP 正式版具名确认胡欣彤在腾讯 TEG 实习完成本篇；江佳伟为同篇通讯。武大经管学院新闻核到胡欣彤是研究生，并参与江佳伟、洪亮指导的竞赛团队；尚无具名材料把她的论文或学位研究指导连到江佳伟。",
         "year": 2026
       },
       {
@@ -6485,9 +6488,9 @@ const facultyPaperAudits = {
       {
         "title": "Self-Supervised Learning for Graph Dataset Condensation",
         "url": "https://obbusiness-private.oss-cn-shanghai.aliyuncs.com/resource-download/report/self-supervised%20learning%20for%20graph%20dataset%20condensation.pdf",
-        "year": 2026,
+        "year": 2024,
         "outcome": "lead",
-        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+        "note": "论文正式出版为 KDD 2024（10.1145/3637528.3671682），2026 为镜像站时间；原文具名 OceanBase 员工，但学生同项企业参与仍待证。"
       },
       {
         "title": "DevPiolt: Operation Recommendation for IoT Devices at Xiaomi Home",
@@ -6557,7 +6560,7 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2602.22580",
         "year": 2026,
         "outcome": "lead",
-        "note": "已核对 SIGMOD 主办方正式录用条目与 arXiv 首版。公开会方名单及论文显示阿里云员工和武汉大学 Yuhao Lin；会稿实习脚注仅在可对照的全文副本可读，另需研究期间的具名校内导师来源。"
+        "note": "SIGMOD 作者表明确武大林宇豪、阿里云员工与通讯江佳伟；正式版影印本的首页脚注具名确认学生在阿里云实研。武大两院新闻证实林宇豪参加江佳伟和洪亮指导的竞赛，也记录了在读身份。这些材料只证实特定竞赛的团队指导；还缺研究期论文或学位导师的直接证据。"
       },
       {
         "title": "DM-RAG: Enhancing User Support in Dameng Databases with Retrieval-Augmented Generation",
@@ -6600,6 +6603,41 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "IJCAI 正式版具名 OceanBase 许全清及武汉大学作者；当时学生的企业实研和校内导师尚缺具名来源。"
+      },
+      {
+        "title": "TreeCSS: An Efficient Framework for Vertical Federated Learning",
+        "url": "https://arxiv.org/html/2408.01691",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "原文具名 OceanBase 雇员许全清与武汉大学第一作者。实验使用 OceanBase 不证明具名学生在企业内开展该项研究。"
+      },
+      {
+        "title": "Exploiting Text Semantics for Few and Zero Shot Node Classification on Text-attributed Graph",
+        "url": "https://www.ijcai.org/proceedings/2025/0385.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IJCAI 正式版同列武大团队与 OceanBase 许全清；暂缺学生同篇企业实研及论文指导。"
+      },
+      {
+        "title": "BenchTemp: A General Benchmark for Evaluating Temporal Graph Neural Networks",
+        "url": "https://doi.org/10.1109/ICDE60146.2024.00310",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "论文为 2023 预印本及 2024 ICDE 正式版。正式版第一作者黄强目前公开的蚂蚁实习仅为 2021 至 2022 年初，与其 2023 年 9 月武大学籍不重合；未查到本篇其余实研证据。"
+      },
+      {
+        "title": "Retrofitting temporal GNN training with decoder-only Transformers on large-scale graphs",
+        "url": "https://doi.org/10.1016/j.eswa.2026.133466",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "卷期为 2027，但 2026 年已有 Elsevier 记录，2024 年公开 TF-TGN 前稿也在范围内。前稿与期刊作者有调整，期刊具名 OceanBase；未能确定研究期学生在目标企业参与本项。"
+      },
+      {
+        "title": "HAL: Accurate, Private, and Efficient Sample Alignment for Multimodal Federated Learning",
+        "url": "https://doi.org/10.1145/3770854.3780223",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "KDD 2026 论文列于 OceanBase 正式书目并有具名企业作者，尚无具名学生在该企业参与 HAL 的材料。"
       }
     ],
     "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
@@ -17715,7 +17753,11 @@ const facultyPaperAudits = {
       "https://dingyue772.github.io/",
       "https://github.com/dingyue772/Video-Understanding",
       "https://ia.cas.cn/xwzx/ttxw/202606/t20260603_8213499.html",
-      "https://arxiv.org/html/2605.29584v2"
+      "https://arxiv.org/html/2605.29584v2",
+      "https://people.ucas.ac.cn/~qiangliu",
+      "https://ucas.ac.cn/docs/2023-11/83b72dcc522b49a3a2e09f188b512b7e.pdf",
+      "https://shuwucasia.github.io/publications/",
+      "https://arxiv.org/html/2509.11569v1"
     ],
     "papers": [
       {
@@ -17821,7 +17863,7 @@ const facultyPaperAudits = {
         "title": "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
         "url": "https://aclanthology.org/2025.acl-long.561/",
         "outcome": "lead",
-        "note": "孙鑫本人确认在蚂蚁开展本篇，王亮博士联合指导。ACL 正式版与 arXiv v1 均将相关企业候选作者署为独立研究者；暂留线索，需有研究阶段任职及本篇参与的直接说明。"
+        "note": "孙鑫个人履历明确把此 ACL 2025 项目置于蚂蚁实习期，王亮为其国科大联合培养导师。预印本与 ACL 成稿均使用独立研究者和通用邮箱；同作者在其他同期论文的蚂蚁任职证据不能代替本篇企业作者身份的直接材料。"
       },
       {
         "year": 2026,
@@ -17919,7 +17961,7 @@ const facultyPaperAudits = {
         "title": "Attention-guided Self-reflection for Zero-shot Hallucination Detection in Large Language Models",
         "url": "https://aclanthology.org/2025.emnlp-main.1063/",
         "outcome": "lead",
-        "note": "EMNLP 正式版具名宋博文、王维强署蚂蚁；王亮与 Xinlong Chen、Yue Ding 共同署自动化所。蚂蚁基金只是资助，未查到这两位中有符合论文研究阶段学籍、王亮实际指导且参与蚂蚁项目的人，暂不确认。"
+        "note": "正式版明列企业作者王维强、宋博文及蚂蚁基金支持。丁悦的在读开始于 2025 年 9 月，2025 年 1 月首稿在先，个人履历列快手实习；同篇陈鑫龙的公开企业实研也未列这项蚂蚁项目。暂未见在读学生在蚂蚁开展本篇的直接证据。"
       },
       {
         "year": 2026,
@@ -17927,6 +17969,62 @@ const facultyPaperAudits = {
         "url": "https://proceedings.mlr.press/v306/ding26e.html",
         "outcome": "confirmed",
         "note": "ICML 正式稿在丁悦这位共同一作名下并列自动化所与快手可灵，同篇有其博士导师王亮及快手多模态理解组负责人张远行。丁悦本人把 OmniSIFT 写明为自动化所、快手可灵共同的音视频压缩研究，履历注明在可灵研究的开始日期和同篇的企业导师；初稿和正式研究期均已经在读。"
+      },
+      {
+        "year": 2025,
+        "title": "D2HScore: Reasoning-Aware Hallucination Detection via Semantic Breadth and Depth Analysis in LLMs",
+        "url": "https://arxiv.org/html/2509.11569v1",
+        "outcome": "no-evidence",
+        "note": "原稿列丁悦与王亮、刘强；企业单位只有 RealAI（瑞莱智慧，不在本网站 14 家企业范围），同一位学生在快手另有明确项目，不能据此将 D2HScore 算作快手合作。"
+      },
+      {
+        "year": 2025,
+        "title": "SHARP: Steering Hallucination in LVLMs via Representation Engineering",
+        "url": "https://aclanthology.org/2025.emnlp-main.725/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式全文列王亮及共一丁悦，机构为自动化所、国科大、哈工大与南京大学。丁悦的快手履历未将本篇列为同篇企业实研。"
+      },
+      {
+        "year": 2024,
+        "title": "Modality-Balanced Learning for Multimedia Recommendation",
+        "url": "https://doi.org/10.1145/3664647.3680626",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式登记与公开全文合一；张景昊、刘国帆、王亮等均为国科大人工智能学院／自动化所，无同篇企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Mining Stable Preferences: Adaptive Modality Decorrelation for Multimedia Recommendation",
+        "url": "https://doi.org/10.1145/3539618.3591729",
+        "outcome": "no-evidence",
+        "note": "ACM SIGIR 成稿与预印本 arXiv:2306.14179 合一；全部作者单位是自动化所与国科大，使用公开电商数据并不构成企业共同研究证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Personalized Text Generation with Contrastive Activation Steering",
+        "url": "https://aclanthology.org/2025.acl-long.353/",
+        "outcome": "no-evidence",
+        "note": "ACL 全文列张景昊与王亮等作者；所属机构为自动化所、国科大、东北大学、中科大和新加坡国立大学，未见范围内企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Stealthy Attack on Large Language Model based Recommendation",
+        "url": "https://aclanthology.org/2024.acl-long.318/",
+        "outcome": "no-evidence",
+        "note": "ACL 定稿与 arXiv:2402.14836 合一；张景昊、王亮及其他作者署自动化所、国科大和东北大学，测试并不构成同篇企业关系。"
+      },
+      {
+        "year": 2026,
+        "title": "SEEM: Exploiting Black-box Text Attacks to Manipulate Tool Selection",
+        "url": "https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=16298",
+        "outcome": "no-evidence",
+        "note": "IEEE 会方作者名录列自动化所、北邮；张景昊与王亮同篇，未见范围内企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration",
+        "url": "https://arxiv.org/html/2510.10395v1",
+        "outcome": "existing",
+        "note": "此文快手合作已在关系索引登记，确证的具名实习学生是陈鑫龙，其具名博士导师为谭铁牛；共同作者王亮另指导同篇丁悦，但现有同篇企业实习脚注不标丁悦。这篇不再新增一条王亮指导关系。"
       }
     ],
     "note": "继续依自动化所官方报道、两类博士生书目和正式论文逐一核验，区分同名作者及跨校指导；仍未穷尽教师整体书目。"
@@ -37668,7 +37766,11 @@ const facultyPaperAudits = {
       "https://redwyd.github.io/",
       "https://yongchao-liu.github.io/projects.html",
       "https://qingyue2014.github.io/qingyue_cv.pdf",
-      "https://liu-yang-maker.github.io/yangpage.github.io/index.html"
+      "https://liu-yang-maker.github.io/yangpage.github.io/index.html",
+      "https://ascii-iie.github.io/Students/ZH.html",
+      "https://orcid.org/0000-0002-1755-4267",
+      "https://api.crossref.org/works/10.1145/3795793",
+      "https://kdd.org/kdd2025/research-track-papers-2/"
     ],
     "papers": [
       {
@@ -37915,6 +38017,20 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TPAMI.2025.3610096",
         "outcome": "no-evidence",
         "note": "作者单位及大学存档未见范围企业署名。按 2026 年正式卷期登记，2025 年 early access 不另算。"
+      },
+      {
+        "year": 2026,
+        "title": "D2TCDR: Disentangled Diffusion-Based Transfer for Cross-Domain Recommendation",
+        "url": "https://doi.org/10.1145/3795793",
+        "outcome": "lead",
+        "note": "ACM 正式登记逐人列曹亚男、国科大在读首作者周红与字节跳动 Shichao Zhu，后者 ORCID 自报任职也列本篇。国科大实验室列周红书目，但未具名其在字节开展本项研究或由曹亚男指导；暂保留校企合著线索。"
+      },
+      {
+        "year": 2025,
+        "title": "FairCDR: Transferring Fairness and User Preferences for Cross-Domain Recommendation",
+        "url": "https://doi.org/10.1145/3711896.3736951",
+        "outcome": "no-evidence",
+        "note": "ACM KDD 研究轨道正式作者单位仅含国科大、信工所、数学院、武汉大学；共同作者周红书目亦列此项，字节作者 Shichao Zhu 仅署另篇 D2TCDR，不能迁移到本文。"
       }
     ],
     "note": "按正式书目、原文和学生履历逐篇记录；已有确认及缺实研依据的校企合著分开保留，完整书目仍在推进。"
@@ -38057,7 +38173,8 @@ const facultyPaperAudits = {
       "https://people.ucas.ac.cn/~chuanzhou",
       "https://dblp.org/pid/52/564-1.html",
       "https://liu-yang-maker.github.io/yangpage.github.io/index.html",
-      "https://orcid.org/0000-0002-1755-4267"
+      "https://orcid.org/0000-0002-1755-4267",
+      "https://aclanthology.org/2026.acl-long.815/"
     ],
     "papers": [
       {
@@ -38136,6 +38253,13 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TPAMI.2025.3610096",
         "outcome": "no-evidence",
         "note": "作者单位及大学存档未见范围企业署名。按 2026 年正式卷期登记，2025 年 early access 不另算。"
+      },
+      {
+        "year": 2026,
+        "title": "CIA: Inferring the Communication Topology from LLM-based Multi-Agent Systems",
+        "url": "https://aclanthology.org/2026.acl-long.815/",
+        "outcome": "no-evidence",
+        "note": "ACL 2026 正式版与 2604.12461 合一。作者单位为信工所、数学院及其国科大学院、格里菲斯大学、南洋理工大学；实验调用商业模型不构成作者企业任职。"
       }
     ],
     "note": "已按国科大名录和学生履历交叉核对部分正式出版及原文，企业同篇与学生在企业开展具体项目分开记录。"
@@ -38155,7 +38279,11 @@ const facultyPaperAudits = {
       "https://hkeee21.github.io/",
       "https://nicsefc.ee.tsinghua.edu.cn/publications.html",
       "https://stein-666.github.io/",
-      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/593f75ee-0504-4aa3-ac29-9ebb3c1e4551.pdf"
+      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/593f75ee-0504-4aa3-ac29-9ebb3c1e4551.pdf",
+      "https://www.microsoft.com/en-us/research/publication/can-llms-learn-by-teaching-a-preliminary-study/",
+      "https://www.microsoft.com/en-us/research/publication/flasheval-towards-fast-and-accurate-evaluation-of-text-to-image-diffusion-generative-models/",
+      "https://microarch.org/micro56/program/",
+      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/79238dc6-ba8a-4dea-acf5-f5362b40f771.pdf"
     ],
     "papers": [
       {
@@ -38283,6 +38411,97 @@ const facultyPaperAudits = {
         "url": "https://dai.sjtu.edu.cn/my_file/pdf/09e2bb88-604a-4503-a949-f3891ae96802.pdf",
         "outcome": "lead",
         "note": "IEEE 正文有阿里云、阿里达摩院资深作者，也有上交和清华，以及较早的 2020 MNSIM 会议版。尚不能证实该项具体在读者由戴国浩指导，且在企业参与了 2023 增量研究。"
+      },
+      {
+        "year": 2025,
+        "title": "DLFR-Gen: Diffusion-based Video Generation with Dynamic Latent Frame Rate",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yuan_DLFR-Gen_Diffusion-based_Video_Generation_with_Dynamic_Latent_Frame_Rate_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式原文是同作者的独立续作，原文具名企业为无问芯穹，无调查范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "DLFR-VAE: Dynamic Latent Frame Rate VAE for Video Generation",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/3dbe9923-3576-4ac6-aa42-e67f7bc52485.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM Multimedia 正式稿 10.1145/3746027.3755638，稿中方童程署清华，企业是无问芯穹。不同于 ICCV 的 DLFR-Gen。"
+      },
+      {
+        "year": 2025,
+        "title": "DiTFastAttnV2: Head-Wise Attention Compression for Multi-Modality Diffusion Transformers",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.01522",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式题录及 arXiv:2503.22796 原文交叉，使用高校与无问芯穹等，无目标企业同项证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Enabling Efficient Sparse Multiplications on GPUs With Heuristic Adaptability",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/74b6f554-89e7-4f1a-a964-ab6f63086428.pdf",
+        "outcome": "no-evidence",
+        "note": "作者版明确上交、清华、港科大和 UCSB，没有目标企业的当期署名。IEEE 终卷 2025；作者稿页眉模板年份 2021 不能当出版日。"
+      },
+      {
+        "year": 2025,
+        "title": "FlashDecoding++Next: High Throughput LLM Inference with Latency and Memory Optimization",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/bbd7ee50-1b25-4b34-9efe-3bc968bd0691.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025 独立正式长文（10.1109/TC.2025.3585339），新写内存重用机制，故与 MLSys FlashDecoding++ 分开。原文署清华、北大、上交、无问芯穹。"
+      },
+      {
+        "year": 2025,
+        "title": "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/429cbac0-9463-4978-941b-c3c8ef5daa01.pdf",
+        "outcome": "lead",
+        "note": "ICLR 原文确有微软员工 Zinan Lin。前两位清华学生赵天晨和方童程的履历都把同项明列无问芯穹实习。暂无证据证其他在读者在微软参与本项研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Can LLMs Learn by Teaching for Better Reasoning? A Preliminary Study",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/8340b085045cf13f1f0b6c2c4cc0a89c-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "NeurIPS 和微软研究同时列此研究，Zinan Lin 当期受雇于微软。清华合著者李师尧双署无问芯穹，尚无两校当期学生的微软实研证据。Peiran Yao 当期是 Alberta 博士且同时署无问芯穹，清华本科时间早于本项。"
+      },
+      {
+        "year": 2024,
+        "title": "DiTFastAttn: Attention Compression for Diffusion Transformer Models",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/0267925e3c276e79189251585b4100bf-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 原文无目标企业，清华/上交、无问芯穹等为合作者。单列正式出版的续作，不混入。"
+      },
+      {
+        "year": 2024,
+        "title": "FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning",
+        "url": "https://doi.org/10.1145/3620666.3651336",
+        "outcome": "no-evidence",
+        "note": "ASPLOS 正式会议节目和清华存档原文只列高校及无问芯穹。研究使用加速硬件的品牌不等于商业共同研发。"
+      },
+      {
+        "year": 2024,
+        "title": "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/5c1aab15-3c67-4f12-a905-559189c856a6.pdf",
+        "outcome": "lead",
+        "note": "微软官方书目及 CVPR 原文具名 Zinan Lin。2024-03 首稿同篇清华博士赵天晨与无问芯穹双署，其公开简历明确当期无问芯穹；尚未证实其本人在微软开展本项研究。"
+      },
+      {
+        "year": 2024,
+        "title": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/3fa036e2-0d62-45c4-81e2-20d9b7189504.pdf",
+        "outcome": "no-evidence",
+        "note": "FPGA 正式原文与会议题录互证。高校与无问芯穹同署，使用 Xilinx、NVIDIA 或 LLaMA 硬件／模型不构成实研。"
+      },
+      {
+        "year": 2024,
+        "title": "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression",
+        "url": "https://arxiv.org/html/2406.14909v1",
+        "outcome": "no-evidence",
+        "note": "原始 arXiv 作者脚注含清华、上交、Stanford 与无问芯穹；迁移任职与同期身份分开。"
+      },
+      {
+        "year": 2023,
+        "title": "DF-GAS: a Distributed FPGA-as-a-Service Architecture towards Billion-Scale Graph-based Approximate Nearest Neighbor Search",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/867cd930-3413-4af5-9bf6-f3640820d0e7.pdf",
+        "outcome": "lead",
+        "note": "MICRO 正式原文具名阿里达摩院 Shuangchen Li。共同一作者朱振华在清华存档简历明确其架构设计和写作，但未写是在阿里参与；阿里的相关图 FPGA 专利不列该生。单独保留可追溯线索。"
       }
     ],
     "note": "以校方、实验室、作者本人书目、ORCID 和正式出版社交叉构建公开论文清单；仍在逐篇梳理。"
@@ -38299,7 +38518,12 @@ const facultyPaperAudits = {
       "https://hkeee21.github.io/",
       "https://nicsefc.ee.tsinghua.edu.cn/publications.html",
       "https://stein-666.github.io/",
-      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/593f75ee-0504-4aa3-ac29-9ebb3c1e4551.pdf"
+      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/593f75ee-0504-4aa3-ac29-9ebb3c1e4551.pdf",
+      "https://www.microsoft.com/en-us/research/publication/can-llms-learn-by-teaching-a-preliminary-study/",
+      "https://www.microsoft.com/en-us/research/publication/flasheval-towards-fast-and-accurate-evaluation-of-text-to-image-diffusion-generative-models/",
+      "https://github.com/stein-666/stein-666.github.io/commit/f8aee507548b78f2d35158c0225a639313fc599b",
+      "https://microarch.org/micro56/program/",
+      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/79238dc6-ba8a-4dea-acf5-f5362b40f771.pdf"
     ],
     "papers": [
       {
@@ -38321,7 +38545,7 @@ const facultyPaperAudits = {
         "title": "SALAD: Achieve High-Sparsity Attention via Efficient Linear Attention Tuning for Video Diffusion Transformer",
         "url": "https://arxiv.org/pdf/2601.16515v1",
         "outcome": "lead",
-        "note": "原稿与 4 月改稿均以 † 标清方童程在快手可灵实习做这项，汪玉为本人具名硕导；Pengfei Wan 在快手官网有可灵团队负责人任职。同作者个人页明确列可灵实习 2026 年 2 月开始，晚于 2026-01-23 首稿，故待核实习起始或项目 4 月扩展的真实研发时点。"
+        "note": "原稿与 4 月改稿均以 † 标清方童程是在快手可灵实习完成；汪玉是本人具名硕导，Pengfei Wan 在快手官网为同部门负责人。不过个人主页是在 2026-01-23 首稿发布当日亲自写入「Feb 2026 – Present」作为实习起始（GitHub f8aee50，首稿提交后六个多小时），并非后补的远期回忆；需要解释同日的一月首稿与二月实习，或证明方参与后来 4 月新增实验。"
       },
       {
         "year": 2026,
@@ -38378,6 +38602,97 @@ const facultyPaperAudits = {
         "url": "https://proceedings.mlsys.org/paper_files/paper/2023/file/8e3e27d07b3f663b7f85c819b9692163-Paper-mlsys2023.pdf",
         "outcome": "no-evidence",
         "note": "课题组与 MLSys 正式文共同确认 PCEngine；未发现目标公司人员同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "DLFR-Gen: Diffusion-based Video Generation with Dynamic Latent Frame Rate",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yuan_DLFR-Gen_Diffusion-based_Video_Generation_with_Dynamic_Latent_Frame_Rate_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式原文是同作者的独立续作，原文具名企业为无问芯穹，无调查范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "DLFR-VAE: Dynamic Latent Frame Rate VAE for Video Generation",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/3dbe9923-3576-4ac6-aa42-e67f7bc52485.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM Multimedia 正式稿 10.1145/3746027.3755638，稿中方童程署清华，企业是无问芯穹。不同于 ICCV 的 DLFR-Gen。"
+      },
+      {
+        "year": 2025,
+        "title": "DiTFastAttnV2: Head-Wise Attention Compression for Multi-Modality Diffusion Transformers",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.01522",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式题录及 arXiv:2503.22796 原文交叉，使用高校与无问芯穹等，无目标企业同项证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Enabling Efficient Sparse Multiplications on GPUs With Heuristic Adaptability",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/74b6f554-89e7-4f1a-a964-ab6f63086428.pdf",
+        "outcome": "no-evidence",
+        "note": "作者版明确上交、清华、港科大和 UCSB，没有目标企业的当期署名。IEEE 终卷 2025；作者稿页眉模板年份 2021 不能当出版日。"
+      },
+      {
+        "year": 2025,
+        "title": "FlashDecoding++Next: High Throughput LLM Inference with Latency and Memory Optimization",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/bbd7ee50-1b25-4b34-9efe-3bc968bd0691.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025 独立正式长文（10.1109/TC.2025.3585339），新写内存重用机制，故与 MLSys FlashDecoding++ 分开。原文署清华、北大、上交、无问芯穹。"
+      },
+      {
+        "year": 2025,
+        "title": "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/429cbac0-9463-4978-941b-c3c8ef5daa01.pdf",
+        "outcome": "lead",
+        "note": "ICLR 原文确有微软员工 Zinan Lin。前两位清华学生赵天晨和方童程的履历都把同项明列无问芯穹实习。暂无证据证其他在读者在微软参与本项研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Can LLMs Learn by Teaching for Better Reasoning? A Preliminary Study",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/8340b085045cf13f1f0b6c2c4cc0a89c-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "NeurIPS 和微软研究同时列此研究，Zinan Lin 当期受雇于微软。清华合著者李师尧双署无问芯穹，尚无两校当期学生的微软实研证据。Peiran Yao 当期是 Alberta 博士且同时署无问芯穹，清华本科时间早于本项。"
+      },
+      {
+        "year": 2024,
+        "title": "DiTFastAttn: Attention Compression for Diffusion Transformer Models",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/0267925e3c276e79189251585b4100bf-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 原文无目标企业，清华/上交、无问芯穹等为合作者。单列正式出版的续作，不混入。"
+      },
+      {
+        "year": 2024,
+        "title": "FEASTA: A Flexible and Efficient Accelerator for Sparse Tensor Algebra in Machine Learning",
+        "url": "https://doi.org/10.1145/3620666.3651336",
+        "outcome": "no-evidence",
+        "note": "ASPLOS 正式会议节目和清华存档原文只列高校及无问芯穹。研究使用加速硬件的品牌不等于商业共同研发。"
+      },
+      {
+        "year": 2024,
+        "title": "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/5c1aab15-3c67-4f12-a905-559189c856a6.pdf",
+        "outcome": "lead",
+        "note": "微软官方书目及 CVPR 原文具名 Zinan Lin。2024-03 首稿同篇清华博士赵天晨与无问芯穹双署，其公开简历明确当期无问芯穹；尚未证实其本人在微软开展本项研究。"
+      },
+      {
+        "year": 2024,
+        "title": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/3fa036e2-0d62-45c4-81e2-20d9b7189504.pdf",
+        "outcome": "no-evidence",
+        "note": "FPGA 正式原文与会议题录互证。高校与无问芯穹同署，使用 Xilinx、NVIDIA 或 LLaMA 硬件／模型不构成实研。"
+      },
+      {
+        "year": 2024,
+        "title": "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression",
+        "url": "https://arxiv.org/html/2406.14909v1",
+        "outcome": "no-evidence",
+        "note": "原始 arXiv 作者脚注含清华、上交、Stanford 与无问芯穹；迁移任职与同期身份分开。"
+      },
+      {
+        "year": 2023,
+        "title": "DF-GAS: a Distributed FPGA-as-a-Service Architecture towards Billion-Scale Graph-based Approximate Nearest Neighbor Search",
+        "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/867cd930-3413-4af5-9bf6-f3640820d0e7.pdf",
+        "outcome": "lead",
+        "note": "MICRO 正式原文具名阿里达摩院 Shuangchen Li。共同一作者朱振华在清华存档简历明确其架构设计和写作，但未写是在阿里参与；阿里的相关图 FPGA 专利不列该生。单独保留可追溯线索。"
       }
     ],
     "note": "按公开书目分批核对，仍在梳理。"
