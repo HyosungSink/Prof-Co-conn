@@ -9457,7 +9457,9 @@ const facultyPaperAudits = {
       "https://neec.pku.edu.cn/xwgg/xwdt/c638a07db72e415cae5b2d75bf861018.htm",
       "https://grs.pku.edu.cn/sjdj/bs/index48.htm",
       "https://neec.pku.edu.cn/",
-      "https://lqrhs.github.io/"
+      "https://lqrhs.github.io/",
+      "https://github.com/AlibabaResearch/x-plane-5g-upf/commit/54e2dd0c27f850945faeb595c1e19cc27bff050a",
+      "https://github.com/niehao100"
     ],
     "papers": [
       {
@@ -9577,7 +9579,7 @@ const facultyPaperAudits = {
         "year": 2023,
         "url": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MobiCom2023_X-Plane.pdf",
         "outcome": "lead",
-        "note": "2023 年：MobiCom 原文列北大及阿里双署 Hao Nie 并致谢 Alibaba Innovative Research；确认企业共著，未找到许辰人对该生的具体师承或他的本项目企业参与安排。 其后来同署阶跃星辰并不能说明 2023 年的学术指导。"
+        "note": "2023 年：正式原文的北大／阿里巴巴双署共同一作 Hao Nie，在阿里研究官方仓库（github.com/AlibabaResearch/x-plane-5g-upf）上线首版实现及 RDMA 模块，已补具名企业研究参与。尚无可复核文献确认许辰人当期是其导师。该论文已独立确认上海交大江波侧关系；北大侧暂留待补。"
       },
       {
         "title": "AUGUR: Practical Mobile Multipath Transport Service for Low Tail Latency in Real-Time Streaming",
@@ -26180,7 +26182,13 @@ const facultyPaperAudits = {
       "https://patentimages.storage.googleapis.com/c3/1c/bd/d6639c403dfd5b/CN119512439A.pdf",
       "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm",
       "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2025&wbtreeid=1046",
-      "https://seucoin.github.io/workshop/llmg2025/file/talkinfo.pdf"
+      "https://seucoin.github.io/workshop/llmg2025/file/talkinfo.pdf",
+      "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2020&wbtreeid=1046",
+      "https://joinbytedance.com/blog/detail/20241013131616",
+      "https://cn.linkedin.com/in/jianshun-zhang-08910917b",
+      "https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf",
+      "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=1928&wbtreeid=1046",
+      "https://patentsgazette.uspto.gov/week44/OG/html/1552-1/US12783492-20261103.html"
     ],
     "papers": [
       {
@@ -26196,7 +26204,120 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "ACM 的 DOI 登记将冯丹、郭柯磊列于华中科技大学，Cheng Chen 列于字节跳动。学校具名说明郭柯磊是参与该项目的博士生，并由冯丹等指导，与字节跳动共同开发并在其生产环境部署。字节跳动火山引擎也公开说明同一项目的技术与生产应用。"
+      },
+      {
+        "title": "Terark-DS: A High-Performance and Storage-Efficient Key-Value Separation Storage Engine on Disaggregated Storage",
+        "url": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "VLDB 原版列华中科技大学博士生邓迅为共同第一作者、冯丹为共同作者、Jianjun Chen 署字节跳动。校方同题报道具名说明邓迅在冯丹等指导下与字节共同研发 Terark-DS；字节官方另行确认 Jianjun Chen 为基础设施团队成员。"
+      },
+      {
+        "title": "Scavenger+: Revisiting Space-Time Tradeoffs in Key-Value Separated LSM-Trees",
+        "url": "https://doi.org/10.1109/TC.2025.3587513",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ICDE 2024 由在读博士张健顺领衔，冯丹同篇署华中科大，Jiaxin Ou 同篇署字节。校方列出字节跳动校企合作项目，2024 年提交的华中科大与字节旗下企业的相关存储专利具名列张健顺、冯丹及 Jiaxin Ou。张本人资料列冯丹为其在读导师。2025 年期刊原文写明扩展自该会议论文，合并为一条。"
       }
     ]
+  },
+  "oEZ7iPkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~lzhou",
+      "https://orcid.org/0000-0002-9868-8477",
+      "https://quantum.cs.tsinghua.edu.cn/author/li-zhou/",
+      "https://www.veriqc.com/publications",
+      "https://conf.researchr.org/profile/conf/lizhou1"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "CoqQ: Foundational Verification of Quantum Programs",
+        "url": "https://doi.org/10.1145/3571222",
+        "outcome": "no-evidence",
+        "note": "UTS 保存的正式全文列 Pierre-Yves Strub 署 Meta、刘钧义署软件所和国科大。Meta 不在范围内，且未见论文学生企业实研声明。"
+      },
+      {
+        "year": 2025,
+        "title": "Automating Equational Proofs in Dirac Notation",
+        "url": "https://doi.org/10.1145/3704878",
+        "outcome": "no-evidence",
+        "note": "POPL 论文研究无标签形式的 Dirac 表示自动等式证明，作者稿 2411.11617 并入。核对作者署名与成果页，未见范围内企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "D-Hammer: Efficient Equational Reasoning for Labelled Dirac Notation",
+        "url": "https://doi.org/10.1007/978-3-031-98685-7_3",
+        "outcome": "no-evidence",
+        "note": "CAV 全文列周立与徐颖特等来自软件所、马普所等研究机构；Amazon 出现在编辑信息，不是作者单位。该作支持带标签的 Dirac 表示，与 POPL 论文方法和系统有独立贡献。"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient Formal Verification of Quantum Error Correcting Programs",
+        "url": "https://doi.org/10.1145/3729293",
+        "outcome": "no-evidence",
+        "note": "正式全文列黄启帆、赵孟宇与国科大及软件所，方望署爱丁堡大学，应明生署悉尼科技大学；未见范围内企业实研。预印本和 Zenodo 制品归入同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "Complete Quantum Relational Hoare Logics from Optimal Transport Duality",
+        "url": "https://doi.org/10.1109/LICS65433.2025.00072",
+        "outcome": "no-evidence",
+        "note": "原文与 LICS 书目确认周立、高敏博等作者；量子最优传输用于关系 Hoare 逻辑，公开作者与资助信息未见范围内企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Quantum Weakest Preconditions for Reasoning about Expected Runtimes of Quantum Programs",
+        "url": "https://doi.org/10.1145/3734516",
+        "outcome": "no-evidence",
+        "note": "2019 年起有公开稿，2025 年 JACM 发表正式期刊版；作者单位包含软件所、国科大、马普所、IMDEA 和清华，无范围内企业署名或实研声明。"
+      },
+      {
+        "year": 2025,
+        "title": "Laws of Quantum Programming",
+        "url": "https://doi.org/10.1145/3765903",
+        "outcome": "no-evidence",
+        "note": "2025 年在线、后编入 2026 年卷期，与预印本 2412.19463 合并。正文列悉尼科技大学、软件所、马普所及 IMDEA，未见范围内企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "An Expressive Assertion Language for Quantum Programs",
+        "url": "https://doi.org/10.1145/3776658",
+        "outcome": "no-evidence",
+        "note": "POPL 会务与正式出版确认作者苏泊楠、冯远、应明生及周立，苏泊楠在清华学习；未找到范围内企业参与这项断言语言研究的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Borrowing Dirty Qubits in Quantum Programs",
+        "url": "https://doi.org/10.1145/3779212.3790134",
+        "outcome": "no-evidence",
+        "note": "ASPLOS 正式论文及公开作者版本署清华、软件所和悉尼科技大学。2025 年预印本 2508.17190 并入；未见同篇企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Quantum Uncomputation of Clean and Dirty Ancilla Qubits",
+        "url": "https://doi.org/10.1145/3839528",
+        "outcome": "no-evidence",
+        "note": "OOPSLA 论文正文与会务确认刘宸科、周立、孟泊宁；使用 Qiskit 做实现与实验不等同于 IBM 参与，且未见范围内企业研究人员或实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Resource Estimation for Fault-Tolerant Quantum Programs",
+        "url": "https://arxiv.org/abs/2608.04573",
+        "outcome": "no-evidence",
+        "note": "已查看作者稿的清华、软件所及悉尼科技大学署名及量子资源估计方案，未见范围内企业作者或学生实研。"
+      },
+      {
+        "year": 2026,
+        "title": "TLCP Hardening with Formal Analysis and Post-Quantum Design",
+        "url": "https://doi.org/10.1186/s42400-026-00599-y",
+        "outcome": "no-evidence",
+        "note": "全文证实周立做形式分析，作者单位包含北京数字认证和中国电信量子集团，均不在范围内；贡献声明显示由张琼璐指导。"
+      }
+    ],
+    "note": "按国科大导师页、本人 ORCID、论文合作者机构书目、会议与期刊版本和公开原文逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本、摘要和正式版合一。已核对首批，仍在补核若干预印本及跨机构密码学论文。"
   }
 };

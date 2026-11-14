@@ -36245,6 +36245,112 @@ const survey = {
         ]
       ],
       "evidence": "ACM 的 DOI 登记将冯丹、郭柯磊列于华中科技大学，Cheng Chen 列于字节跳动。学校具名说明郭柯磊是参与该项目的博士生，并由冯丹等指导，与字节跳动共同开发并在其生产环境部署。字节跳动火山引擎也公开说明同一项目的技术与生产应用。"
+    },
+    {
+      "company": "字节跳动",
+      "team": "数据存储研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "area": "分布式键值存储",
+      "faculty": [
+        "冯丹 · Dan Feng",
+        "华中科技大学教授、该篇共同作者。",
+        "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm"
+      ],
+      "id": "bytedance-terark-ds-hust-dan-feng",
+      "paperId": "doi:10.14778/3796195.3796198",
+      "title": "Terark-DS: A High-Performance and Storage-Efficient Key-Value Separation Storage Engine on Disaggregated Storage",
+      "short": "Terark-DS",
+      "date": "2026-01",
+      "venue": "Proceedings of the VLDB Endowment",
+      "paper": "https://www.vldb.org/pvldb/vol19/p822-zhang.pdf",
+      "student": [
+        "邓迅 · Xun Deng",
+        "华中科技大学在读博士、该篇共同第一作者；学校具名确认在读期间联合字节跳动研发本人共同署名的 Terark-DS。",
+        "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2020&wbtreeid=1046"
+      ],
+      "employee": [
+        "Jianjun Chen",
+        "PVLDB 原文署字节跳动，字节跳动官方页面此前已具名介绍其正式基础设施工程团队身份。",
+        "https://joinbytedance.com/blog/detail/20241013131616"
+      ],
+      "advising": [
+        "该项研究的具名指导",
+        "华中科技大学实验室将冯丹、王芳及方鹏列为邓迅、张健顺完成此研究的指导人员。",
+        "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2020&wbtreeid=1046"
+      ],
+      "extra": [
+        [
+          "VLDB 正式 DOI",
+          "https://doi.org/10.14778/3796195.3796198"
+        ],
+        [
+          "2023 年字节跳动合作作者正式署名",
+          "https://www.vldb.org/pvldb/vol16/p3528-chen.pdf"
+        ],
+        [
+          "PVLDB 官方卷期日期",
+          "https://www.vldb.org/pvldb/vol19/FrontMatterVol19No5.pdf"
+        ]
+      ],
+      "evidence": "VLDB 原版列华中科技大学博士生邓迅为共同第一作者、冯丹为共同作者、Jianjun Chen 署字节跳动。校方同题报道具名说明邓迅在冯丹等指导下与字节共同研发 Terark-DS；字节官方另行确认 Jianjun Chen 为基础设施团队成员。"
+    },
+    {
+      "company": "字节跳动",
+      "team": "数据存储研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "area": "分布式键值存储",
+      "faculty": [
+        "冯丹 · Dan Feng",
+        "华中科技大学教授、该篇共同作者。",
+        "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm"
+      ],
+      "id": "bytedance-scavenger-hust-dan-feng",
+      "paperId": "doi:10.1109/TC.2025.3587513",
+      "title": "Scavenger+: Revisiting Space-Time Tradeoffs in Key-Value Separated LSM-Trees",
+      "short": "Scavenger / Scavenger+",
+      "date": "2025-10",
+      "venue": "IEEE Transactions on Computers · ICDE 2024 扩展版",
+      "paper": "https://doi.org/10.1109/TC.2025.3587513",
+      "student": [
+        "张健顺 · Jianshun Zhang",
+        "华中科技大学博士生、两篇同系列原文第一作者；学校具名确认 ICDE 工作，张本人资料确认 2019–2025 年在读及两位导师；同期共同署名的字节专利列其参与同方向存储垃圾回收。",
+        "https://cn.linkedin.com/in/jianshun-zhang-08910917b"
+      ],
+      "employee": [
+        "Jiaxin Ou",
+        "会议与期刊版均具名字节跳动；同期 PVLDB 企业论文及专利登记交叉证实属于相关企业研发团队。",
+        "https://www.vldb.org/pvldb/vol17/p3799-jiao.pdf"
+      ],
+      "advising": [
+        "在读期间具名导师",
+        "张健顺本人明列华中科大王芳与冯丹为其 2019–2025 年的导师，冯丹参与该论文及联合专利；校方也报道其在读工作。",
+        "https://cn.linkedin.com/in/jianshun-zhang-08910917b"
+      ],
+      "extra": [
+        [
+          "2024 ICDE 会议正式版",
+          "https://doi.org/10.1109/ICDE60146.2024.00312"
+        ],
+        [
+          "期刊作者稿（说明扩展自 2024 会议版）",
+          "https://arxiv.org/html/2508.13935v1"
+        ],
+        [
+          "华中科大实验室的同题报道",
+          "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=1928&wbtreeid=1046"
+        ],
+        [
+          "美国专利局公布该联合存储研究的相关专利",
+          "https://patentsgazette.uspto.gov/week44/OG/html/1552-1/US12783492-20261103.html"
+        ],
+        [
+          "同期企业存储专利的转让记录",
+          "https://patents.google.com/patent/US12235817B2/en"
+        ]
+      ],
+      "evidence": "ICDE 2024 由在读博士张健顺领衔，冯丹同篇署华中科大，Jiaxin Ou 同篇署字节。校方列出字节跳动校企合作项目，2024 年提交的华中科大与字节旗下企业的相关存储专利具名列张健顺、冯丹及 Jiaxin Ou。张本人资料列冯丹为其在读导师。2025 年期刊原文写明扩展自该会议论文，合并为一条。"
     }
   ]
 };
