@@ -29895,6 +29895,571 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2606.23105"
+    },
+    {
+      "id": "difflistener-ant-xjtu-lkppmxqaaaaj",
+      "paperId": "doi:10.1109/cvpr52734.2025.01481",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究院",
+      "school": "西安交通大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "王飞 · Fei Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://gr.xjtu.edu.cn/feynmanw/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Yanbo Fan",
+        "范彦波在本人任职履历明确列 2023 年 10 月至 2025 年 6 月任蚂蚁研究院资深研究科学家，同篇为蚂蚁方第一作者与通讯作者。",
+        "https://sites.google.com/site/yanbofan0124"
+      ],
+      "student": [
+        "王一诺 · Yinuo Wang",
+        "王一诺为西安交大人工智能研究团队学生，2024 年同一领域的国赛项目具名有其在校指导关系。本篇 CVPR 正式版首页单独具名说明王一诺于蚂蚁集团实习期间完成本研究。",
+        "https://nuo1wang.github.io/DiffListener/"
+      ],
+      "title": "Diffusion-based Realistic Listening Head Generation via Hybrid Motion Modeling",
+      "short": "DiffListener",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "多模态生成与交互",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Diffusion-based_Realistic_Listening_Head_Generation_via_Hybrid_Motion_Modeling_CVPR_2025_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Diffusion-based_Realistic_Listening_Head_Generation_via_Hybrid_Motion_Modeling_CVPR_2025_paper.html"
+        ],
+        [
+          "本篇第一作者项目页",
+          "https://nuo1wang.github.io/DiffListener/"
+        ],
+        [
+          "西安交大在同一方向的具名共同发明",
+          "https://patents.google.com/patent/CN118781235A/zh"
+        ],
+        [
+          "另一位学校端作者的学术成果页",
+          "https://yuguo-xjtu.github.io/"
+        ]
+      ],
+      "evidence": "王一诺为西安交大人工智能研究团队学生，2024 年同一领域的国赛项目具名有其在校指导关系。本篇 CVPR 正式版首页单独具名说明王一诺于蚂蚁集团实习期间完成本研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陕西省教育厅 2024 年创新大赛公示中，西安交通大学「电力客服系统中虚拟人说话人脸驱动技术的应用」项目具名列王一诺为学生、郭宇和王飞为指导教师。同校 2024 年虚拟人脸专利与郭宇的学术成果记录把同一组作者与该方向对应。王飞为本论文署名作者。",
+        "https://jyt.shaanxi.gov.cn/index/ztzl/wq/2024/gggsygd/202407/P020250123575620838259.pdf"
+      ]
+    },
+    {
+      "id": "mimictalker-ant-xjtu-lkppmxqaaaaj",
+      "paperId": "cvpr:2026:wang-mimictalker",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究院",
+      "school": "西安交通大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "王飞 · Fei Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://gr.xjtu.edu.cn/feynmanw/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "沈宇君个人履历具名列 2022 年 4 月起在蚂蚁集团担任研究科学家、2024 年 7 月起任高级研究科学家；本论文同篇明确署名蚂蚁集团。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "王一诺 · Yinuo Wang",
+        "王一诺为西安交大人工智能研究团队学生，2024 年同一领域的国赛项目具名有其在校指导关系。本篇 CVPR 正式版首页单独具名说明王一诺于蚂蚁集团实习期间完成本研究。",
+        "https://nuo1wang.github.io/MimicTalker/"
+      ],
+      "title": "MimicTalker: A Multimodal Interactive and Memory-Enhanced Framework for Real-Time Dyadic 3D Head Generation",
+      "short": "MimicTalker",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "多模态生成与交互",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_MimicTalker_A_Multimodal_Interactive_and_Memory-Enhanced_Framework_for_Real-Time_Dyadic_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_MimicTalker_A_Multimodal_Interactive_and_Memory-Enhanced_Framework_for_Real-Time_Dyadic_CVPR_2026_paper.html"
+        ],
+        [
+          "本篇第一作者项目页",
+          "https://nuo1wang.github.io/MimicTalker/"
+        ],
+        [
+          "西安交大在同一方向的具名共同发明",
+          "https://patents.google.com/patent/CN118781235A/zh"
+        ],
+        [
+          "另一位学校端作者的学术成果页",
+          "https://yuguo-xjtu.github.io/"
+        ]
+      ],
+      "evidence": "王一诺为西安交大人工智能研究团队学生，2024 年同一领域的国赛项目具名有其在校指导关系。本篇 CVPR 正式版首页单独具名说明王一诺于蚂蚁集团实习期间完成本研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陕西省教育厅 2024 年创新大赛公示中，西安交通大学「电力客服系统中虚拟人说话人脸驱动技术的应用」项目具名列王一诺为学生、郭宇和王飞为指导教师。同校 2024 年虚拟人脸专利与郭宇的学术成果记录把同一组作者与该方向对应。王飞为本论文署名作者。",
+        "https://jyt.shaanxi.gov.cn/index/ztzl/wq/2024/gggsygd/202407/P020250123575620838259.pdf"
+      ]
+    },
+    {
+      "id": "aia-ant-ustc-hdhaqb0aaaaj",
+      "paperId": "arxiv:2211.02843",
+      "company": "蚂蚁集团",
+      "team": "智能引擎技术",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "Jun Zhou",
+        "ICLR 2024 正式论文具名记载 Jun Zhou 任蚂蚁智能引擎技术部副总裁，2022 USENIX 名单和 2024 AAAI 论文对应其蚂蚁任职。NeurIPS 正式版列他为本篇蚂蚁方通讯作者，学生履历也列他为 2023–2024 的蚂蚁实习导师。",
+        "https://openreview.net/pdf?id=Unb5CVPtae"
+      ],
+      "student": [
+        "Yongduo Sui",
+        "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。",
+        "https://yongduosui.github.io/"
+      ],
+      "title": "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift",
+      "short": "AIA",
+      "date": "2023-12",
+      "venue": "NeurIPS 2023",
+      "area": "图学习",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/3a33ddacb2798fc7d83b8334d552e05a-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3a33ddacb2798fc7d83b8334d552e05a-Abstract-Conference.html"
+        ],
+        [
+          "2022 年无蚂蚁作者的首版预印本",
+          "https://arxiv.org/abs/2211.02843v1"
+        ],
+        [
+          "USENIX 2022 正式员工独立记录",
+          "https://www.usenix.org/conference/usenixsecurity22/speaker-or-organizer/jun-zhou-ant-group"
+        ],
+        [
+          "正式会议的作者报告",
+          "https://neurips.cc/media/neurips-2023/Slides/70792.pdf"
+        ]
+      ],
+      "evidence": "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "第一作者明确列出王翔和何向南共同指导其在中国科大的博士研究，两人都是此次正式论文的通讯作者。",
+        "https://yongduosui.github.io/"
+      ]
+    },
+    {
+      "id": "aia-ant-ustc-x45go24aaaaj",
+      "paperId": "arxiv:2211.02843",
+      "company": "蚂蚁集团",
+      "team": "智能引擎技术",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "何向南 · Xiangnan He",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm"
+      ],
+      "employee": [
+        "Jun Zhou",
+        "ICLR 2024 正式论文具名记载 Jun Zhou 任蚂蚁智能引擎技术部副总裁，2022 USENIX 名单和 2024 AAAI 论文对应其蚂蚁任职。NeurIPS 正式版列他为本篇蚂蚁方通讯作者，学生履历也列他为 2023–2024 的蚂蚁实习导师。",
+        "https://openreview.net/pdf?id=Unb5CVPtae"
+      ],
+      "student": [
+        "Yongduo Sui",
+        "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。",
+        "https://yongduosui.github.io/"
+      ],
+      "title": "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift",
+      "short": "AIA",
+      "date": "2023-12",
+      "venue": "NeurIPS 2023",
+      "area": "图学习",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/3a33ddacb2798fc7d83b8334d552e05a-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3a33ddacb2798fc7d83b8334d552e05a-Abstract-Conference.html"
+        ],
+        [
+          "2022 年无蚂蚁作者的首版预印本",
+          "https://arxiv.org/abs/2211.02843v1"
+        ],
+        [
+          "USENIX 2022 正式员工独立记录",
+          "https://www.usenix.org/conference/usenixsecurity22/speaker-or-organizer/jun-zhou-ant-group"
+        ],
+        [
+          "正式会议的作者报告",
+          "https://neurips.cc/media/neurips-2023/Slides/70792.pdf"
+        ]
+      ],
+      "evidence": "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "第一作者明确列出王翔和何向南共同指导其在中国科大的博士研究，两人都是此次正式论文的通讯作者。",
+        "https://yongduosui.github.io/"
+      ]
+    },
+    {
+      "id": "huawei-lsrp-cityu-xiangyu-zhao",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Yingyi Zhang",
+        "2024 年 9 月起具名参与港城大联合博士项目，2024 年 10 月至 2026 年 4 月在华为诺亚方舟实验室从事个性化研究。",
+        "https://zhang-yingyi.github.io/"
+      ],
+      "advising": [
+        "联合博士导师",
+        "本人主页和履历明确标记港城大联合导师赵翔宇，并将他列为华为个性化项目负责人。",
+        "https://zhang-yingyi.github.io/assets/files/YingyiZhang_CV.pdf"
+      ],
+      "employee": [
+        "Huifeng Guo",
+        "同篇署华为并在公开会议材料中以诺亚方舟实验室研究人员介绍。",
+        "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf"
+      ],
+      "title": "LSRP: A Leader–Subordinate Retrieval Framework for Privacy-Preserving Cloud–Device Collaboration",
+      "short": "LSRP",
+      "date": "2025-08",
+      "venue": "KDD 2025",
+      "area": "推荐系统 · 个性化检索",
+      "paper": "https://doi.org/10.1145/3711896.3737036",
+      "extra": [
+        [
+          "原文作者名单",
+          "https://arxiv.org/html/2505.05031"
+        ],
+        [
+          "华为项目和对应成果",
+          "https://zhang-yingyi.github.io/assets/files/YingyiZhang_CV.pdf"
+        ]
+      ],
+      "evidence": "Yingyi Zhang 的履历将 云端及设备上的大模型与小模型协作框架 逐项列为该华为项目产出，并对应到 KDD 2025 的正式论文。LSRP 正式版列其为第一作者或共同第一作者；港城大联合博士导师赵翔宇与同篇华为研究员 Huifeng Guo 均在正式作者名单。"
+    },
+    {
+      "id": "huawei-pbr-cityu-xiangyu-zhao",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Yingyi Zhang",
+        "2024 年 9 月起具名参与港城大联合博士项目，2024 年 10 月至 2026 年 4 月在华为诺亚方舟实验室从事个性化研究。",
+        "https://zhang-yingyi.github.io/"
+      ],
+      "advising": [
+        "联合博士导师",
+        "本人主页和履历明确标记港城大联合导师赵翔宇，并将他列为华为个性化项目负责人。",
+        "https://zhang-yingyi.github.io/assets/files/YingyiZhang_CV.pdf"
+      ],
+      "employee": [
+        "Huifeng Guo",
+        "同篇署华为并在公开会议材料中以诺亚方舟实验室研究人员介绍。",
+        "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf"
+      ],
+      "title": "Personalize Before Retrieve: LLM-based Personalized Query Expansion for User-Centric Retrieval",
+      "short": "PBR",
+      "date": "2026-03",
+      "venue": "AAAI 2026",
+      "area": "推荐系统 · 个性化检索",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/38679",
+      "extra": [
+        [
+          "原文作者名单",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/38679"
+        ],
+        [
+          "华为项目和对应成果",
+          "https://zhang-yingyi.github.io/assets/files/YingyiZhang_CV.pdf"
+        ]
+      ],
+      "evidence": "Yingyi Zhang 的履历将 个性化检索前处理方案 逐项列为该华为项目产出，并对应到 AAAI 2026 的正式论文。PBR 正式版列其为第一作者或共同第一作者；港城大联合博士导师赵翔宇与同篇华为研究员 Huifeng Guo 均在正式作者名单。"
+    },
+    {
+      "id": "kuaishou-glorank-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐系统",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "贾鹏越 · Pengyue Jia",
+        "2023 年 1 月起在港城大读博，2025 年 10 月至 2026 年 8 月在快手实习。本人主页逐篇列明该技术在快手应用上线。",
+        "https://jia-py.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "贾鹏越履历在港城市大学博士学习一栏明确列赵翔宇为导师。",
+        "https://jia-py.github.io/"
+      ],
+      "employee": [
+        "Shuchang Liu",
+        "同篇以快手为所在机构，使用快手公司邮箱，职业履历记录在快手任职。",
+        "https://www.linkedin.com/in/shuchang-liu-1b737b104"
+      ],
+      "title": "From Local Indices to Global Identifiers: Generative Reranking for Recommender Systems via Global Action Space",
+      "short": "GloRank",
+      "date": "2026-11",
+      "venue": "CIKM 2026",
+      "area": "推荐系统 · 生成式重排",
+      "paper": "https://arxiv.org/abs/2604.25291",
+      "extra": [
+        [
+          "论文作者与机构",
+          "https://arxiv.org/html/2604.25291v1"
+        ],
+        [
+          "论文及产品部署说明",
+          "https://jia-py.github.io/"
+        ]
+      ],
+      "evidence": "贾鹏越是GloRank的第一作者或共同第一作者；本人把该篇标记为部署在快手应用，并明确列出同期在快手的研究实习。论文报告该平台具名团队提供的线上 A/B 验证，港城大博士导师赵翔宇与快手正式研究人员 Shuchang Liu 同篇署名。"
+    },
+    {
+      "id": "kuaishou-unirank-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐系统",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "贾鹏越 · Pengyue Jia",
+        "2023 年 1 月起在港城大读博，2025 年 10 月至 2026 年 8 月在快手实习。本人主页逐篇列明该技术在快手应用上线。",
+        "https://jia-py.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "贾鹏越履历在港城市大学博士学习一栏明确列赵翔宇为导师。",
+        "https://jia-py.github.io/"
+      ],
+      "employee": [
+        "Shuchang Liu",
+        "同篇以快手为所在机构，使用快手公司邮箱，职业履历记录在快手任职。",
+        "https://www.linkedin.com/in/shuchang-liu-1b737b104"
+      ],
+      "title": "UniRank: Unified List-wise Reranking via Confidence-Ordered Denoising",
+      "short": "UniRank",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "推荐系统 · 生成式重排",
+      "paper": "https://arxiv.org/abs/2605.10527",
+      "extra": [
+        [
+          "论文作者与机构",
+          "https://arxiv.org/html/2605.10527v1"
+        ],
+        [
+          "论文及产品部署说明",
+          "https://jia-py.github.io/"
+        ]
+      ],
+      "evidence": "贾鹏越是UniRank的第一作者或共同第一作者；本人把该篇标记为部署在快手应用，并明确列出同期在快手的研究实习。论文报告该平台具名团队提供的线上 A/B 验证，港城大博士导师赵翔宇与快手正式研究人员 Shuchang Liu 同篇署名。"
+    },
+    {
+      "id": "baidu-diva-former-cityu-xiangyu-zhao",
+      "company": "百度",
+      "team": "搜索科学",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学副教授，论文通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Jiancheng Dong",
+        "自 2025 年 9 月起在港城大读博，2025 年 5 月至 2026 年 4 月在百度搜索科学实习；简历企业科研一栏逐项列出 DiVA-Former。",
+        "https://dongjiancheng77.github.io/pdfs/jiancheng-dong-cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "公开学籍和指导记录具名列赵翔宇为港城大导师。",
+        "https://www.ds.cityu.edu.hk/en/people/phd-students"
+      ],
+      "employee": [
+        "王帅强 · Shuaiqiang Wang",
+        "同篇署名百度；任职主页列百度首席架构师职位。 学生档案点名其为百度项目导师之一。",
+        "https://cn.linkedin.com/in/sqwang"
+      ],
+      "title": "How to Utilize Complementary Vision-Text Information for 2D Structure Understanding",
+      "short": "DiVA-Former",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "大语言模型 · 知识蒸馏与压缩",
+      "paper": "https://aclanthology.org/2026.emnlp-main.2081/",
+      "extra": [
+        [
+          "论文和作者署名",
+          "https://aclanthology.org/2026.emnlp-main.2081.pdf"
+        ],
+        [
+          "港城大应用机器学习组学生名录",
+          "https://aml-cityu.github.io/team/"
+        ]
+      ],
+      "evidence": "论文首页明确逐人列出第一作者的港城大和百度署名；学系导师表及履历确认赵翔宇是博士导师。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
+    },
+    {
+      "id": "baidu-be-token-cityu-xiangyu-zhao",
+      "company": "百度",
+      "team": "搜索科学",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学副教授，论文通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Jiancheng Dong",
+        "自 2025 年 9 月起在港城大读博，2025 年 5 月至 2026 年 4 月在百度搜索科学实习；履历逐项列出 Behavior-Equivalent Token 及该文实验。",
+        "https://dongjiancheng77.github.io/pdfs/jiancheng-dong-cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "公开学籍和指导记录具名列赵翔宇为港城大导师。",
+        "https://www.ds.cityu.edu.hk/en/people/phd-students"
+      ],
+      "employee": [
+        "王帅强 · Shuaiqiang Wang",
+        "同篇署名百度；任职主页列百度首席架构师职位。 学生档案点名其为百度项目导师之一。",
+        "https://cn.linkedin.com/in/sqwang"
+      ],
+      "title": "Learning a Single Token to Replace Long System Prompts in LLMs",
+      "short": "BE-Token",
+      "date": "2026-11",
+      "venue": "CIKM 2026",
+      "area": "大语言模型 · 知识蒸馏与压缩",
+      "paper": "https://doi.org/10.1145/3799682.3840759",
+      "extra": [
+        [
+          "论文和作者署名",
+          "https://arxiv.org/abs/2511.23271"
+        ],
+        [
+          "港城大应用机器学习组学生名录",
+          "https://aml-cityu.github.io/team/"
+        ]
+      ],
+      "evidence": "论文第一版在港城大入学后且处于百度实习期间；学生履历将相同的长提示词压缩方法和实验结果列为百度项目。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
+    },
+    {
+      "id": "baidu-adaswitch-cityu-xiangyu-zhao",
+      "company": "百度",
+      "team": "搜索科学",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学副教授，论文通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "彭靖宇 · Jingyu Peng",
+        "港城大与中国科学技术大学联合博士；个人简历列自 2025 年 5 月在百度搜索实习，研究内容正是论文中融合 on-policy 和 off-policy 的混合知识蒸馏。",
+        "https://jypeng28.github.io/files/CV_jypeng.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "公开学籍和指导记录具名列赵翔宇为港城大导师。",
+        "https://jypeng28.github.io/"
+      ],
+      "employee": [
+        "王帅强 · Shuaiqiang Wang",
+        "同篇署名百度；任职主页列百度首席架构师职位。",
+        "https://cn.linkedin.com/in/sqwang"
+      ],
+      "title": "AdaSwitch: Balancing Exploration and Guidance in Knowledge Distillation via Adaptive Switching",
+      "short": "AdaSwitch",
+      "date": "2025-10",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型 · 知识蒸馏与压缩",
+      "paper": "https://arxiv.org/abs/2510.07842",
+      "extra": [
+        [
+          "论文和作者署名",
+          "https://arxiv.org/pdf/2510.07842"
+        ],
+        [
+          "港城大应用机器学习组学生名录",
+          "https://aml-cityu.github.io/team/"
+        ]
+      ],
+      "evidence": "正式预印本第一作者以港城大、中科大、百度署名；其个人主页注明港城大指导老师为赵翔宇，企业履历所列蒸馏技术与该论文一致。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
+    },
+    {
+      "id": "tencent-seats-ruc-li",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李锡荣 · Xirong Li",
+        "2022 年 8 月起任中国人民大学信息学院教授，本篇校内通讯作者。",
+        "https://li-xirong.github.io/"
+      ],
+      "employee": [
+        "杨杰 · Jie Yang",
+        "腾讯微信视觉高级研究员；其个人书目和原文都列出他为 2026 年本篇的腾讯通讯作者。",
+        "https://yangjie-cv.github.io/"
+      ],
+      "student": [
+        "辛梓杰 · Zijie Xin",
+        "2024 年 9 月进入人大读博；2025 年 7 月加入腾讯微信视觉团队实习。",
+        "https://xxayt.github.io/"
+      ],
+      "title": "Stage-adaptive Token Selection for Efficient Omni-modal LLMs",
+      "short": "SEATS",
+      "date": "2026-05-19",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/html/2605.20035v1",
+      "evidence": "论文首版首页脚注明确指出辛梓杰、赵瑞祥在腾讯实习期间完成这项工作。两人均为中国人民大学在读博士生，且各自公开档案明确李锡荣为校内导师。腾讯微信视觉高级研究员杨杰为同篇企业通讯作者。",
+      "advising": [
+        "校内博士导师",
+        "辛梓杰与赵瑞祥的个人主页分别具名列出中国人民大学博士阶段的导师李锡荣。",
+        "https://xxayt.github.io/"
+      ],
+      "extra": [
+        [
+          "赵瑞祥本人主页：学籍、导师和本篇",
+          "https://ruixiangzhao.github.io/"
+        ],
+        [
+          "腾讯作者个人书目",
+          "https://yangjie-cv.github.io/#publications"
+        ]
+      ],
+      "paperId": "arxiv:2605.20035"
     }
   ]
 };

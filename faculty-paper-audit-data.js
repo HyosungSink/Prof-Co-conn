@@ -235,7 +235,30 @@ const facultyPaperAudits = {
       "https://aclanthology.org/2026.findings-acl.900.pdf",
       "https://arxiv.org/abs/2505.20192",
       "https://doi.org/10.1145/3626772.3657722",
-      "https://www.ccf.org.cn/Collaboration/Enterprise_Fund/yxxmal/2025/"
+      "https://www.ccf.org.cn/Collaboration/Enterprise_Fund/yxxmal/2025/",
+      "https://doi.org/10.1145/3711896.3737036",
+      "https://zhang-yingyi.github.io/",
+      "https://zhang-yingyi.github.io/assets/files/YingyiZhang_CV.pdf",
+      "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf",
+      "https://arxiv.org/html/2505.05031",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/38679",
+      "https://arxiv.org/abs/2604.25291",
+      "https://jia-py.github.io/",
+      "https://www.linkedin.com/in/shuchang-liu-1b737b104",
+      "https://arxiv.org/html/2604.25291v1",
+      "https://arxiv.org/abs/2605.10527",
+      "https://arxiv.org/html/2605.10527v1",
+      "https://aclanthology.org/2026.emnlp-main.2081/",
+      "https://dongjiancheng77.github.io/pdfs/jiancheng-dong-cv.pdf",
+      "https://www.ds.cityu.edu.hk/en/people/phd-students",
+      "https://cn.linkedin.com/in/sqwang",
+      "https://aclanthology.org/2026.emnlp-main.2081.pdf",
+      "https://doi.org/10.1145/3799682.3840759",
+      "https://arxiv.org/abs/2511.23271",
+      "https://arxiv.org/abs/2510.07842",
+      "https://jypeng28.github.io/files/CV_jypeng.pdf",
+      "https://jypeng28.github.io/",
+      "https://arxiv.org/pdf/2510.07842"
     ],
     "papers": [
       {
@@ -339,6 +362,48 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.findings-acl.900/",
         "outcome": "confirmed",
         "note": "正式论文首页将并列第一作者 Maolin Wang 标记为在蚂蚁完成该研究；其履历列明同期在读导师 Xiangyu Zhao 与蚂蚁函式调用实习工作。早期预印本已在 Maolin Wang 毕业前将上述三位列为作者；2025 年议程对企业通讯作者 Chenyi Zhuang 的蚂蚁 AWorld 岗位有实名介绍。"
+      },
+      {
+        "title": "LSRP: A Leader–Subordinate Retrieval Framework for Privacy-Preserving Cloud–Device Collaboration",
+        "url": "https://doi.org/10.1145/3711896.3737036",
+        "outcome": "confirmed",
+        "note": "Yingyi Zhang 的履历将 云端及设备上的大模型与小模型协作框架 逐项列为该华为项目产出，并对应到 KDD 2025 的正式论文。LSRP 正式版列其为第一作者或共同第一作者；港城大联合博士导师赵翔宇与同篇华为研究员 Huifeng Guo 均在正式作者名单。"
+      },
+      {
+        "title": "Personalize Before Retrieve: LLM-based Personalized Query Expansion for User-Centric Retrieval",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38679",
+        "outcome": "confirmed",
+        "note": "Yingyi Zhang 的履历将 个性化检索前处理方案 逐项列为该华为项目产出，并对应到 AAAI 2026 的正式论文。PBR 正式版列其为第一作者或共同第一作者；港城大联合博士导师赵翔宇与同篇华为研究员 Huifeng Guo 均在正式作者名单。"
+      },
+      {
+        "title": "From Local Indices to Global Identifiers: Generative Reranking for Recommender Systems via Global Action Space",
+        "url": "https://arxiv.org/abs/2604.25291",
+        "outcome": "confirmed",
+        "note": "贾鹏越是GloRank的第一作者或共同第一作者；本人把该篇标记为部署在快手应用，并明确列出同期在快手的研究实习。论文报告该平台具名团队提供的线上 A/B 验证，港城大博士导师赵翔宇与快手正式研究人员 Shuchang Liu 同篇署名。"
+      },
+      {
+        "title": "UniRank: Unified List-wise Reranking via Confidence-Ordered Denoising",
+        "url": "https://arxiv.org/abs/2605.10527",
+        "outcome": "confirmed",
+        "note": "贾鹏越是UniRank的第一作者或共同第一作者；本人把该篇标记为部署在快手应用，并明确列出同期在快手的研究实习。论文报告该平台具名团队提供的线上 A/B 验证，港城大博士导师赵翔宇与快手正式研究人员 Shuchang Liu 同篇署名。"
+      },
+      {
+        "title": "How to Utilize Complementary Vision-Text Information for 2D Structure Understanding",
+        "url": "https://aclanthology.org/2026.emnlp-main.2081/",
+        "outcome": "confirmed",
+        "note": "论文首页明确逐人列出第一作者的港城大和百度署名；学系导师表及履历确认赵翔宇是博士导师。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
+      },
+      {
+        "title": "Learning a Single Token to Replace Long System Prompts in LLMs",
+        "url": "https://doi.org/10.1145/3799682.3840759",
+        "outcome": "confirmed",
+        "note": "论文第一版在港城大入学后且处于百度实习期间；学生履历将相同的长提示词压缩方法和实验结果列为百度项目。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
+      },
+      {
+        "title": "AdaSwitch: Balancing Exploration and Guidance in Knowledge Distillation via Adaptive Switching",
+        "url": "https://arxiv.org/abs/2510.07842",
+        "outcome": "confirmed",
+        "note": "正式预印本第一作者以港城大、中科大、百度署名；其个人主页注明港城大指导老师为赵翔宇，企业履历所列蒸馏技术与该论文一致。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
       }
     ]
   },
@@ -4073,7 +4138,8 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2509.01322",
       "https://arxiv.org/pdf/2601.21468",
       "https://github.com/meituan/MemOCR",
-      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf"
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf",
+      "https://yongduosui.github.io/"
     ],
     "papers": [
       {
@@ -4123,6 +4189,12 @@ const facultyPaperAudits = {
         "url": "https://proceedings.mlr.press/v306/shi26l.html",
         "outcome": "confirmed",
         "note": "论文首页脚注明确第一作者 Yaorui Shi 在美团实习时完成本篇研究，学生本人学术主页具名王翔为博士联合导师、本人在美团 LongCat 实习，二者同篇署名。美团研究人员 Qi Gu 以企业通讯作者发表，项目亦由美团官方账号发布。"
+      },
+      {
+        "title": "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/3a33ddacb2798fc7d83b8334d552e05a-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -4133,7 +4205,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm",
-      "https://junkangwu.github.io/"
+      "https://junkangwu.github.io/",
+      "https://yongduosui.github.io/"
     ],
     "papers": [
       {
@@ -4177,6 +4250,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2509.22611",
         "outcome": "lead",
         "note": "吴俊康在首发时正在字节实习，但暂无证明本项目是在该企业完成的材料。"
+      },
+      {
+        "title": "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/3a33ddacb2798fc7d83b8334d552e05a-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -9035,5 +9114,83 @@ const facultyPaperAudits = {
         "note": "原文具名快手实习；实验、预印本及会议均早于学生港科大博士入学。正式署港科大不能替代证实当时在该校联合培养的学籍资料，华中科大硕士导师也未同篇署名。"
       }
     ]
+  },
+  "LKPpmXQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gr.xjtu.edu.cn/feynmanw/zh_CN/index.htm",
+      "https://nuo1wang.github.io/DiffListener/",
+      "https://jyt.shaanxi.gov.cn/index/ztzl/wq/2024/gggsygd/202407/P020250123575620838259.pdf",
+      "https://nuo1wang.github.io/MimicTalker/"
+    ],
+    "papers": [
+      {
+        "title": "Diffusion-based Realistic Listening Head Generation via Hybrid Motion Modeling",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Diffusion-based_Realistic_Listening_Head_Generation_via_Hybrid_Motion_Modeling_CVPR_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "王一诺为西安交大人工智能研究团队学生，2024 年同一领域的国赛项目具名有其在校指导关系。本篇 CVPR 正式版首页单独具名说明王一诺于蚂蚁集团实习期间完成本研究。"
+      },
+      {
+        "title": "MimicTalker: A Multimodal Interactive and Memory-Enhanced Framework for Real-Time Dyadic 3D Head Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_MimicTalker_A_Multimodal_Interactive_and_Memory-Enhanced_Framework_for_Real-Time_Dyadic_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "王一诺为西安交大人工智能研究团队学生，2024 年同一领域的国赛项目具名有其在校指导关系。本篇 CVPR 正式版首页单独具名说明王一诺于蚂蚁集团实习期间完成本研究。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "6m-ZQ1EAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://li-xirong.github.io/",
+      "https://xxayt.github.io/",
+      "https://yangjie-cv.github.io/",
+      "https://arxiv.org/html/2605.20035v1",
+      "https://ruixiangzhao.github.io/",
+      "https://ruc-aimc-lab.github.io/people/"
+    ],
+    "papers": [
+      {
+        "title": "Stage-adaptive Token Selection for Efficient Omni-modal LLMs",
+        "url": "https://arxiv.org/html/2605.20035v1",
+        "outcome": "confirmed",
+        "note": "论文首版首页脚注明确指出辛梓杰、赵瑞祥在腾讯实习期间完成这项工作。两人均为中国人民大学在读博士生，且各自公开档案明确李锡荣为校内导师。腾讯微信视觉高级研究员杨杰为同篇企业通讯作者。"
+      },
+      {
+        "title": "OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding",
+        "url": "https://arxiv.org/html/2605.18577v1",
+        "outcome": "lead",
+        "note": "本篇首版只见微信与人大合作，未找到两名博士生参与该篇企业研究的具名说明；不沿用 SEATS 的实习脚注。"
+      },
+      {
+        "title": "Hybrid-Tower: Fine-grained Pseudo-query Interaction and Generation for Text-to-Video Retrieval",
+        "url": "https://arxiv.org/html/2509.04773v1",
+        "outcome": "lead",
+        "note": "原文具名兰邦翔本篇腾讯实习；校方报道证实学籍、课题组仅列李锡荣为博导，尚需该学生具名指导。"
+      },
+      {
+        "title": "Music Grounding by Short Video",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xin_Music_Grounding_by_Short_Video_ICCV_2025_paper.pdf",
+        "outcome": "lead",
+        "note": "辛梓杰同期明确为快手实习生并完成项目，但研究始于其四川大学在读期间。本人 2023 年 10 月加入人大 AIMC 实验室、2024 年 9 月入学，需进一步区分跨校指导起点，暂不确认为人大的在读关系。"
+      },
+      {
+        "title": "ASR-enhanced Multimodal Representation Learning for Cross-Domain Product Retrieval",
+        "url": "https://arxiv.org/html/2408.02978v1",
+        "outcome": "lead",
+        "note": "正式研究有快手共同作者，未找到赵瑞祥具名实习或本篇企业科研参与的独立证明。"
+      },
+      {
+        "title": "ChinaOpen: A Dataset for Open-world Multimodal Learning",
+        "url": "https://arxiv.org/html/2305.05880v1",
+        "outcome": "lead",
+        "note": "可核腾讯作者和人大博士生，但预印本未说明博士生以企业项目成员参与该篇。"
+      }
+    ],
+    "note": "已核查教师自列书目中与多模态校企合作相关的一组论文，并对照实验室学生履历；仍需检查其余作品。"
   }
 };
