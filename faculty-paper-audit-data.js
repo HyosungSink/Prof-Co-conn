@@ -14220,9 +14220,6 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://web.xidian.edu.cn/dlu/index.html",
-      "https://hongsong-wang.github.io/TIP2025/",
-      "https://scholars.cityu.edu.hk/en/publications/commonality-feature-representation-learning-for-unsupervised-mult/",
-      "https://doi.org/10.1109/TIP.2025.3539461",
       "https://web.xidian.edu.cn/ylshen/files/6797b91fe5716.pdf",
       "https://cs.xidian.edu.cn/info/1038/18624.htm",
       "https://ieee-icde.org/2025/tkde-poster/",
@@ -14234,13 +14231,6 @@ const facultyPaperAudits = {
       "https://doi.org/10.1007/s11432-023-3865-0"
     ],
     "papers": [
-      {
-        "title": "Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection",
-        "year": 2025,
-        "url": "https://doi.org/10.1109/TIP.2025.3539461",
-        "outcome": "no-evidence",
-        "note": "正式出版作者及报告资料列陕西科技大学、西安电子科技大学和香港城市大学，没有范围内企业署名。"
-      },
       {
         "title": "BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems",
         "year": 2024,
@@ -15859,5 +15849,288 @@ const facultyPaperAudits = {
         "note": "正式原文列武大及腾讯大数据与人工智能平台部，武大刘格灵第一作者。公开原文未标实习，仍需同期具名指导和该篇的企业参研资料。"
       }
     ]
+  },
+  "K5FZmOkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1071/1690.htm",
+      "https://liutianren.com/#pub",
+      "https://cloud.liutianren.com/static/CV20241024.pdf",
+      "https://dblp.org/pid/133/5933.html",
+      "https://orcid.org/0009-0007-8697-2327",
+      "https://api.crossref.org/works?filter=orcid:0009-0007-8697-2327,from-pub-date:2023-01-01,until-pub-date:2026-11-12&rows=100",
+      "https://export.arxiv.org/api/query?search_query=au:%22Tianren_Liu%22+AND+submittedDate:%5B202301010000+TO+202611122359%5D&max_results=100",
+      "https://p-b-p-b.github.io/",
+      "https://www.csauthors.net/tianren-liu/"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "New Ways to Garble Arithmetic Circuits",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-30617-4_1",
+        "outcome": "no-evidence",
+        "note": "2023 年：EUROCRYPT 正式版逐名列纽约大学、华盛顿大学、北京大学；北大组的新闻确认 Hanjun Li 为华盛顿大学博士。企业奖项资助不构成同篇企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Succinct Computational Secret Sharing",
+        "url": "https://dspace.mit.edu/entities/publication/68782d90-3fdf-411c-9944-fa3f5a120750",
+        "outcome": "no-evidence",
+        "note": "2023 年：MIT 机构库可复核 STOC 正式题录和出版版本，IACR 原文作者署北大、MIT、特拉维夫大学、内盖夫本-古里安大学及 Technion，无指定企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Layout Graphs, Random Walks and the t-Wise Independence of SPN Block Ciphers",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-38548-3_23",
+        "outcome": "no-evidence",
+        "note": "2023 年：CRYPTO 正式出版年为 2023，2024 年 IACR 2024/083 归为同篇；论文出版页逐名列北大和美国高校研究人员，未列范围内企业。"
+      },
+      {
+        "year": 2024,
+        "title": "How to Garble Mixed Circuits that Combine Boolean and Arithmetic Computations",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-58751-1_12",
+        "outcome": "no-evidence",
+        "note": "2024 年：EUROCRYPT 正式版为 2024，2023 年 ePrint 归为同篇；仅两位作者，分别署华盛顿大学及北大。"
+      },
+      {
+        "year": 2024,
+        "title": "On Deterministically Approximating Total Variation Distance",
+        "url": "https://doi.org/10.1137/1.9781611977912.70",
+        "outcome": "no-evidence",
+        "note": "2024 年：SODA 正式论文为 2024，2023 年 arXiv:2309.14696 同篇；原文列北大与加州大学伯克利分校，个人书目具名 Liqiang Liu 为北大博士，未见同篇企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Garbled Lookup Tables from Homomorphic Secret Sharing",
+        "url": "https://eprint.iacr.org/2025/254",
+        "outcome": "no-evidence",
+        "note": "2025 年：IACR 原稿首发 2025 年，三位作者均署北大；Bo Peng 的个人学术履历核实其北大期间与刘天任的科研指导。未发现指定企业作者或实习。"
+      },
+      {
+        "year": 2026,
+        "title": "How Fast Does the Inverse Walk Approximate a Random Permutation?",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-35412-9_9",
+        "outcome": "no-evidence",
+        "note": "2026 年：CRYPTO 正式版 2026 年 8 月 11 日在线，与 2024 年 1795 早稿为同一项目，后来加入两位作者。出版页六人均署北大及美国高校，未列范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond NISQ Assumptions: One-time Memory in the Classically Accessible Random-Oracle Model",
+        "url": "https://arxiv.org/abs/2609.32603",
+        "outcome": "no-evidence",
+        "note": "2026 年：首发 2026 年 9 月 26 日，作者署清华及北大；个人主页具名 Luojian Wei 是课题组博士，未见企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Linear Set Reconciliation with O(d) Additive Redundancy",
+        "url": "https://arxiv.org/abs/2611.11409",
+        "outcome": "no-evidence",
+        "note": "2026 年：首发 2026 年 11 月 8 日，四位作者署北大和 MIT，未找到范围内企业参与证据。"
+      }
+    ],
+    "note": "逐篇核查 2023-01-01—2026-11-12 可公开归属的书目，交叉核对个人学术主页、DBLP、ORCID、IACR、arXiv 和会议正式档案。预印本收录正式版时只留一条，优先采用正式出版年。未发现符合本项目口径的三方关系。"
+  },
+  "FMnd3eYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1109/ISPASS57527.2023.00012",
+      "https://ece.hkust.edu.hk/eeentropy",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ceyu-xu-eeentropy",
+      "https://entropy-xcy.github.io/",
+      "https://orcid.org/0000-0002-2668-6456",
+      "https://dblp.org/pid/314/7085.html",
+      "https://fact-lab.hkust.edu.hk/publications/",
+      "https://users.cs.duke.edu/~lkw34/papers/ma-pytfhe-ispass2023.pdf",
+      "https://doi.org/10.1145/3607888.3608962",
+      "https://users.cs.duke.edu/~lkw34/papers/alcorta-ml4embedded-esweek2023.pdf",
+      "https://ieeexplore.ieee.org/document/10317830",
+      "https://doi.org/10.1145/3613424.3623794",
+      "https://entropy-xcy.github.io/attaches/snsv2-micro2023.pdf",
+      "https://doi.org/10.1109/TCAD.2024.3420904",
+      "https://doi.org/10.1109/ICCAD57390.2023.10323951",
+      "https://arxiv.org/abs/2311.08441",
+      "https://users.cs.duke.edu/~lkw34/papers/fang-presynthesis-tcad2024.pdf",
+      "https://arxiv.org/abs/2504.03871",
+      "https://xenshinu.github.io/research/",
+      "https://doi.org/10.1145/3695053.3731004",
+      "https://repository.kaust.edu.sa/server/api/core/bitstreams/584e0d27-3d19-489e-96fd-a3decf4032e5/content",
+      "https://doi.org/10.1109/ICCV51701.2025.02403",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Towards_Accurate_and_Efficient_3D_Object_Detection_for_Autonomous_Driving_ICCV_2025_paper.html",
+      "https://arxiv.org/abs/2507.04123",
+      "https://doi.org/10.1145/3725843.3756078",
+      "https://arxiv.org/abs/2407.00467",
+      "https://doi.org/10.1109/MM.2026.3701735",
+      "https://users.cs.duke.edu/~mlentz/papers/llm265_micro2025.pdf",
+      "https://arxiv.org/abs/2601.20317v2",
+      "https://doi.org/10.1145/3779212.3790202",
+      "https://fact-lab.hkust.edu.hk/publications/conference-paper/2025/xu-2025-pf-llm/3779212.3790202.pdf",
+      "https://baichen318.github.io/",
+      "https://limengming.github.io/files/CV_Mengming.pdf",
+      "https://doi.org/10.1109/LCA.2026.3690895",
+      "https://researchportal.hkust.edu.hk/en/publications/bisc-rethinking-instruction-set-abstractions-at-block-granularity/",
+      "https://doi.org/10.1109/ISCA66397.2026.00137",
+      "https://arxiv.org/abs/2509.12676",
+      "https://scholars.duke.edu/publication/1914783",
+      "https://doi.org/10.1109/ISCA66397.2026.00146",
+      "https://arxiv.org/abs/2605.15645",
+      "https://limengming.github.io/",
+      "https://arxiv.org/abs/2605.15508",
+      "https://arxiv.org/abs/2605.15508v3",
+      "https://elena32061.github.io/",
+      "https://arxiv.org/abs/2606.25353",
+      "https://arxiv.org/abs/2608.13027",
+      "https://arxiv.org/abs/2608.13027v2",
+      "https://arxiv.org/abs/2609.11294",
+      "https://arxiv.org/html/2609.11294v1",
+      "https://arxiv.org/abs/2609.38201",
+      "https://arxiv.org/abs/2609.38201v2",
+      "https://arxiv.org/abs/2610.09447",
+      "https://arxiv.org/pdf/2610.09447",
+      "https://doi.org/10.1145/3845814.3850054",
+      "https://yunmingxiao.github.io/publication/",
+      "https://shihanlin.pages.dev/publication",
+      "https://doi.org/10.1145/3845814.3850087",
+      "https://orcid.org/0000-0002-1742-0090"
+    ],
+    "papers": [
+      {
+        "title": "PyTFHE: An End-to-End Compilation and Execution Framework for Fully Homomorphic Encryption Applications",
+        "url": "https://doi.org/10.1109/ISPASS57527.2023.00012",
+        "outcome": "no-evidence",
+        "note": "Ma、Xu、Wills 三人在杜克，资助为科研计划，没有范围企业或该企业实习者。",
+        "year": 2023
+      },
+      {
+        "title": "Special Session: Machine Learning for Embedded System Design",
+        "url": "https://doi.org/10.1145/3607888.3608962",
+        "outcome": "no-evidence",
+        "note": "2023 年 ACM 会议伴刊，IEEE 收录亦有标为 2024 的记录，合并。Infineon 企业作者有明确署名，但该企业不在调查范围；徐策羽当时为杜克学生。",
+        "year": 2023
+      },
+      {
+        "title": "Fast, Robust and Transferable Prediction for Hardware Logic Synthesis",
+        "url": "https://doi.org/10.1145/3613424.3623794",
+        "outcome": "no-evidence",
+        "note": "MICRO 版本四位作者均署杜克；与 2022 SNS 第一版为不同会议成果，本篇未发现范围企业。",
+        "year": 2023
+      },
+      {
+        "title": "Transferable Presynthesis PPA Estimation for RTL Designs With Data Augmentation Techniques",
+        "url": "https://doi.org/10.1109/TCAD.2024.3420904",
+        "outcome": "no-evidence",
+        "note": "与 ICCAD 2023 同作者同方法 MasterRTL；期刊扩展于 2024 年先在线、2025 年正式刊期，合并会议与预印本。高校作者与科研基金，使用商业工艺库未提供企业人员共著或学生实习。",
+        "year": 2025
+      },
+      {
+        "title": "HeterMoE: Efficient Training of Mixture-of-Experts Models on Heterogeneous GPUs",
+        "url": "https://arxiv.org/abs/2504.03871",
+        "outcome": "no-evidence",
+        "note": "预印本作者单位为伯克利、密歇根大学、南加大和杜克；使用异构 GPU 不表示企业参与。并列第一作者的本人书目仍列投稿中。",
+        "year": 2025
+      },
+      {
+        "title": "Assassyn: A Unified Abstraction for Architectural Simulation and Implementation",
+        "url": "https://doi.org/10.1145/3695053.3731004",
+        "outcome": "no-evidence",
+        "note": "原论文确有具名实习脚注，但机构为阿卜杜拉国王科技大学（KAUST），论文同时明示其校内经费；无符合范围企业。",
+        "year": 2025
+      },
+      {
+        "title": "Towards Accurate and Efficient 3D Object Detection for Autonomous Driving: A Mixture of Experts Computing System on Edge",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.02403",
+        "outcome": "no-evidence",
+        "note": "2025 年 ICCV 录用原文及预印本，作者单位为约翰斯·霍普金斯、杜克、港科大；Jetson 用于实验，未见企业员工或实习。",
+        "year": 2025
+      },
+      {
+        "title": "LLM.265: Video Codecs are Secretly Tensor Codecs",
+        "url": "https://doi.org/10.1145/3725843.3756078",
+        "outcome": "no-evidence",
+        "note": "同一七位作者的 2024 VcLLM 预印本及 2026 IEEE Micro Top Picks 短文 The Rise of Tensor Codecs 并入 2025 MICRO 正文，后两版未新增企业作者证据。会议原文各位作者署杜克或卡耐基梅隆。",
+        "year": 2025
+      },
+      {
+        "title": "VersaQ-3D: Architecture Support for Visual Geometry Grounded Transformers via Versatile Quantization",
+        "url": "https://arxiv.org/abs/2601.20317v2",
+        "outcome": "no-evidence",
+        "note": "2026 年 7 月第二版新增徐策羽为共著者并调整标题；作者单位为港科大、北京科技大学、东北大学、港科大（广州）；模型来源未构成企业角色。",
+        "year": 2026
+      },
+      {
+        "title": "PF-LLM: Large Language Model Hinted Hardware Prefetching",
+        "url": "https://doi.org/10.1145/3779212.3790202",
+        "outcome": "no-evidence",
+        "note": "原文署港科大和杜克，致谢指向 ACCESS 芯片中心与科研基金。陈白阿里及华为实习已早于本研究，李孟明披露的是此前的英特尔实习，均无法指向此文。",
+        "year": 2026
+      },
+      {
+        "title": "BISC: Rethinking Instruction Set Abstractions at Block Granularity",
+        "url": "https://doi.org/10.1109/LCA.2026.3690895",
+        "outcome": "no-evidence",
+        "note": "IEEE 登记作者单位为 KAUST、中科院计算所、清华、港科大，未找到范围企业作者和企业实习。",
+        "year": 2026
+      },
+      {
+        "title": "FlashTFHE: A Scalable Architecture for Efficient Multi-bit Fully Homomorphic Encryption",
+        "url": "https://doi.org/10.1109/ISCA66397.2026.00137",
+        "outcome": "no-evidence",
+        "note": "2025 年首次公开的三作者预印本并入 2026 ISCA 正式四作者版；大会及杜克成果库列四位作者均属杜克。",
+        "year": 2026
+      },
+      {
+        "title": "ICP: Exploiting Instruction Correlation for Prefetching Irregular Memory Accesses",
+        "url": "https://doi.org/10.1109/ISCA66397.2026.00146",
+        "outcome": "no-evidence",
+        "note": "合并 2026 年 5 月预印本。Chenlu Miao 在原文列为独立研究人员，其他作者为港科大；第一作者确认导师为谢志尧，其先前英特尔实习未与本研究关联。",
+        "year": 2026
+      },
+      {
+        "title": "STS: Efficient Sparse Attention with Speculative Token Sparsity",
+        "url": "https://arxiv.org/abs/2605.15508",
+        "outcome": "no-evidence",
+        "note": "第三版亦只列港科大和伯克利；第一作者 Jiangnan Yu 确认导师为谢源，未给出本论文的企业科研经历。",
+        "year": 2026
+      },
+      {
+        "title": "Cache-Resident LLM Inference in GB-Scale Last-Level Caches",
+        "url": "https://arxiv.org/abs/2606.25353",
+        "outcome": "no-evidence",
+        "note": "原文作者为港科大及 KAUST；同名企业产品使用或引用不等于该企业员工参与，没有发现目标企业在作者或研究声明中出现。",
+        "year": 2026
+      },
+      {
+        "title": "Why Do Prefetchers Fail? Let Agents Answer",
+        "url": "https://arxiv.org/abs/2608.13027",
+        "outcome": "no-evidence",
+        "note": "六位作者均署港科大；使用 DeepSeek V4 Pro API 作模型工具，未发现 DeepSeek 员工作者或在企业进行的项目声明。",
+        "year": 2026
+      },
+      {
+        "title": "Memory Compression for High-Fanout Agent Sandboxes",
+        "url": "https://arxiv.org/abs/2609.11294",
+        "outcome": "no-evidence",
+        "note": "原文所有作者均署港科大；李孟明核实由谢志尧指导，既有英特尔经历时间不符。文中 E2B API 兼容、使用工具或数据不构成这里的企业共著。",
+        "year": 2026
+      },
+      {
+        "title": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
+        "url": "https://arxiv.org/abs/2609.38201",
+        "outcome": "no-evidence",
+        "note": "两版分别核对，第二版新增谢志尧，作者署港科大、南大、KAUST、之江实验室。第一作者确认导师为谢源，无范围企业同篇证据。",
+        "year": 2026
+      },
+      {
+        "title": "BenchmarkAnything: Agent-Driven Construction of Simulator-Ready Microarchitecture Benchmarks",
+        "url": "https://arxiv.org/abs/2610.09447",
+        "outcome": "no-evidence",
+        "note": "原文作者单位为港科大及复旦；陈白的既往阿里达摩院实习于 2024 年结束，未查到与该 2026 年项目关联。",
+        "year": 2026
+      }
+    ],
+    "note": "另有两篇拟于 2027 年发表的论文在截止日前仅有 DOI 元数据，未作为调查期内公开全文纳入本次逐篇判定。"
   }
 };
