@@ -51783,7 +51783,41 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2604.04812",
       "https://doi.org/10.1109/JSTSP.2024.3414147",
       "https://arxiv.org/pdf/2511.23335",
-      "https://scholars.cityu.edu.hk/en/publications/towards-improving-interpretability-of-language-model-generation-t/"
+      "https://scholars.cityu.edu.hk/en/publications/towards-improving-interpretability-of-language-model-generation-t/",
+      "https://arxiv.org/abs/2606.05729",
+      "https://arxiv.org/abs/2606.03097",
+      "https://arxiv.org/abs/2601.04823",
+      "https://quantaalpha.com/publications",
+      "https://arxiv.org/abs/2505.17571",
+      "https://arxiv.org/abs/2608.06396",
+      "https://arxiv.org/abs/2604.16278",
+      "https://openaccess.thecvf.com/content/CVPR2024/html/Lin_MoPE-CLIP_Structured_Pruning_for_Efficient_Vision-Language_Models_with_Module-wise_Pruning_CVPR_2024_paper.html",
+      "https://arxiv.org/abs/2403.07839",
+      "https://messix77.github.io/cv/",
+      "https://capricious-liu.github.io/files/Zhili_CV.pdf",
+      "https://haolibai.github.io/assets/cv.pdf",
+      "https://arxiv.org/abs/2407.14047",
+      "https://doi.org/10.1145/3701716.3715508",
+      "https://arxiv.org/abs/2502.06101",
+      "https://github.com/JianXu95/RALLRec",
+      "https://rguo12.github.io/mentees/",
+      "https://doi.org/10.1016/j.eswa.2025.129508",
+      "https://arxiv.org/abs/2503.20430",
+      "https://arxiv.org/abs/2509.22518",
+      "https://doi.org/10.1109/JSTSP.2026.3675525",
+      "https://arxiv.org/pdf/2603.14756",
+      "https://scholars.cityu.edu.hk/en/studentTheses/towards-responsible-text-modeling/",
+      "https://scholars.cityu.edu.hk/en/publications/towards-privacy-preserving-machine-translation-at-the-inference-s/",
+      "https://arxiv.org/abs/2502.10743",
+      "https://doi.org/10.1109/JSTSP.2025.3577756",
+      "https://arxiv.org/abs/2601.00003",
+      "https://arxiv.org/abs/2509.21870",
+      "https://doi.org/10.1109/JSAC.2025.3559136",
+      "https://arxiv.org/pdf/2312.07060",
+      "https://arxiv.org/abs/2402.01154",
+      "https://arxiv.org/abs/2406.01363",
+      "https://arxiv.org/abs/2402.01798",
+      "https://arxiv.org/abs/2312.07060"
     ],
     "papers": [
       {
@@ -52149,9 +52183,142 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "IEEE 在线首发 2024-06-13（2025 年 1 月卷期）；2025-11-28 预印公开同一成果。原文腾讯 Jianshu Chen、Xiaoyang Wang 与在读刘舒琦共署，毕业档案指宋为刘的导师，仍无刘本人参与腾讯此项研究的依据。",
         "year": 2024
+      },
+      {
+        "title": "Automated Proving of Shannon-Type Entropy Inequalities via Fine-Tuned Language Models and Guided Tree Search",
+        "url": "https://arxiv.org/abs/2606.05729",
+        "outcome": "no-evidence",
+        "note": "原文作者只署香港城市大学与香港中文大学；无目标企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "From Long News to Accurate Forecast: Importance-Aware Fusion and PRM-Guided Reflection for Time Series Forecasting",
+        "url": "https://arxiv.org/abs/2606.03097",
+        "outcome": "lead",
+        "note": "原文共同通讯分别为华为 Noah 的 Kang Qingcan、港城大宋林琦。第一作者明昜 Liu 的学校学籍及同期另一篇不同华为项目并不能证明他在华为完成此篇；具名指导也待补。",
+        "year": 2026
+      },
+      {
+        "title": "DR-LoRA: Dynamic Rank LoRA for Fine-Tuning Mixture-of-Experts Models",
+        "url": "https://arxiv.org/abs/2601.04823",
+        "outcome": "no-evidence",
+        "note": "COLM 2026 原文标明企业作者来自 QuantaAlpha，该企业不在14家内；其余署大学。",
+        "year": 2026
+      },
+      {
+        "title": "Reasoning Meets Personalization: Unleashing the Potential of Large Reasoning Model for Personalized Generation",
+        "url": "https://arxiv.org/abs/2505.17571",
+        "outcome": "no-evidence",
+        "note": "2025-05-23 首版、2026 修订，作者列东莞理工、港城大、清华及广州大学；无目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation",
+        "url": "https://arxiv.org/abs/2608.06396",
+        "outcome": "no-evidence",
+        "note": "首面各作者仅署港城大、卡内基梅隆、滑铁卢大学和港大；不同于 A Strong MoE 的任务与原文。",
+        "year": 2026
+      },
+      {
+        "title": "Learning to Reason with Insight for Informal Theorem Proving",
+        "url": "https://arxiv.org/abs/2604.16278",
+        "outcome": "no-evidence",
+        "note": "所列唯一企业为 Ke Holdings（贝壳），不在调查范围；其余是高校。",
+        "year": 2026
+      },
+      {
+        "title": "MoPE-CLIP: Structured Pruning for Efficient Vision-Language Models with Module-wise Pruning Error Metric",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lin_MoPE-CLIP_Structured_Pruning_for_Efficient_Vision-Language_Models_with_Module-wise_Pruning_CVPR_2024_paper.html",
+        "outcome": "lead",
+        "note": "孙哲南为第一作者林浩坤具名在读博士导师，华为 Haoli Bai 有独立履历，但林没有华为署名、实习脚注或可复查的同项目华为代码贡献。早期预印本显示港科大刘智力／华为双署，同篇未列其具名导师 James Kwok。宋林琦也未被证实为上述学生具名指导。",
+        "year": 2024
+      },
+      {
+        "title": "OCTrack: Benchmarking the Open-Corpus Multi-Object Tracking",
+        "url": "https://arxiv.org/abs/2407.14047",
+        "outcome": "no-evidence",
+        "note": "原文全体仅署天津大学、深圳先进技术研究机构、港城大和南卡罗来纳大学。",
+        "year": 2024
+      },
+      {
+        "title": "RALLRec: Improving Retrieval Augmented Large Language Model Recommendation with Representation Learning",
+        "url": "https://doi.org/10.1145/3701716.3715508",
+        "outcome": "lead",
+        "note": "首版 2025-02-10；WWW 正式论文有阿里 Haoming Huang、港城大在读共同一作 Sichun Luo 与其具名导师宋林琦。作者的精确代码库只为占位；可找到罗的字节实习说明，但没有罗或清华共同一作在阿里承担本篇工作的一手资料。",
+        "year": 2025
+      },
+      {
+        "title": "RALLRec+: Retrieval Augmented Large Language Model Recommendation with Reasoning",
+        "url": "https://doi.org/10.1016/j.eswa.2025.129508",
+        "outcome": "no-evidence",
+        "note": "2025-03-26 首次公开，2026 卷期；扩展检索和推理、作者不同于 2025 WWW 研究。原稿各作者只署五所高校，未列阿里。",
+        "year": 2025
+      },
+      {
+        "title": "REMA: A Unified Reasoning Manifold Framework for Interpreting Large Language Model",
+        "url": "https://arxiv.org/abs/2509.22518",
+        "outcome": "lead",
+        "note": "清华共同一作 Bo Li 是唯一同时署百度的作者，不能将同一人同时计为学生与独立员工；港城大共同一作 Deng Guanzhi 有组内资料，但未发现其在百度参与本篇的证据，也未见其他具名百度员工。",
+        "year": 2025
+      },
+      {
+        "title": "Towards Privacy-Preserving Machine Translation at the Inference Stage: A New Task and Benchmark",
+        "url": "https://doi.org/10.1109/JSTSP.2026.3675525",
+        "outcome": "lead",
+        "note": "原文首面页脚具名腾讯 AI Lab 作者；首作魏韶的 2024-08-06 港城大学位论文指明宋林琦指导，论文已有具体同一任务成果，能确认在读研究源头。仍没有魏在腾讯策划、开发或实习完成该工作的一手记录。2026-03-16 预印本与 2026-03-23 在线发表归同一篇。",
+        "year": 2026
+      },
+      {
+        "title": "1bit-Merging: Dynamic Quantized Merging for Large Language Models",
+        "url": "https://arxiv.org/abs/2502.10743",
+        "outcome": "lead",
+        "note": "第一作者刘舒琦同时署港城大与华为，宋林琦为她的博士导师，韩武有华为机构和联系方式；校方博士学位授予是 2025-01-23，首稿于 2025-02 公开，缺同篇企业工作内容及何时完成的在读证明。",
+        "year": 2025
+      },
+      {
+        "title": "Reasoning in Action: MCTS-Driven Knowledge Retrieval for Large Language Models",
+        "url": "https://doi.org/10.1109/JSTSP.2025.3577756",
+        "outcome": "no-evidence",
+        "note": "期刊论文及与其同题同作者的稿件四位作者均署港城大与其深圳研究院；不能从刘舒琦其他华为联名论文推定本篇企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "Enhancing Low-Rank Adaptation with Structured Nonlinear Transformations",
+        "url": "https://arxiv.org/abs/2509.21870",
+        "outcome": "no-evidence",
+        "note": "Deng 与 Liu 共一作版本，五位作者均署港城大及深圳研究院。方法名 LoRAN 与现有同名技术相近，以本篇作者标题辨认。",
+        "year": 2025
+      },
+      {
+        "title": "Layered Randomized Quantization for Communication-Efficient and Privacy-Preserving Distributed Learning",
+        "url": "https://doi.org/10.1109/JSAC.2025.3559136",
+        "outcome": "no-evidence",
+        "note": "2023-12-12 首稿，2025 正式。原稿首面页脚列港城大、恒生大学、乔治华盛顿大学及维多利亚大学，无目标企业。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Quantum-Safe Federated Learning via Homomorphic Encryption: Learning with Gradients",
+        "url": "https://arxiv.org/abs/2402.01154",
+        "outcome": "no-evidence",
+        "note": "原文作者都来自港城大、暨南大学及中国人民大学；校核作者和标题后未用机构简称推定企业。",
+        "year": 2024
+      },
+      {
+        "title": "Privacy in LLM-based Recommendation: Recent Advances and Future Directions",
+        "url": "https://arxiv.org/abs/2406.01363",
+        "outcome": "no-evidence",
+        "note": "原文作者来自港城大、清华、港大、东莞理工和首都经贸、未见目标企业共同作者。",
+        "year": 2024
+      },
+      {
+        "title": "Improved Quantization Strategies for Managing Heavy-tailed Gradients in Distributed Learning",
+        "url": "https://arxiv.org/abs/2402.01798",
+        "outcome": "no-evidence",
+        "note": "原文五位作者署港城大、香港恒生大学、夏威夷大学。",
+        "year": 2024
       }
     ],
-    "note": "交叉港城大官方出版目录、期刊和会议正式版、博士论文、作者与研究组书目；按同一研究合并首稿和正式版。剩余书目正在补查。"
+    "note": "交叉港城大正式题录、作者、学生书目与学位档案、会议期刊和首发原文。已核查 71 篇；机构库、DBLP、ORCID 的其他可辨识作品仍待逐篇核查。"
   },
   "ExIZrLAAAAAJ": {
     "from": "2023-01-01",
