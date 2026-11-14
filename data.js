@@ -41383,6 +41383,238 @@ const survey = {
         ]
       ],
       "evidence": "2025 年 3 月 9 日的腾讯 ARC Lab 官方项目初始公开提交已明确把第一作者卞宇轩列为腾讯与港中文双署；其本人同篇项目亦采用双署，SIGGRAPH 官方报告人介绍将其列为腾讯。当时他在港中文攻读博士并在腾讯 ARC Lab 实习（2024 年 6 月至 2025 年 5 月，具名导师 Zhaoyang Zhang 和 Ying Shan）。ACM 论文及最初 arXiv 通讯信息只列其港中文地址，此处保留差异；以同期企业项目资料交叉核实该生在腾讯参与这一具体项目、并用同篇在职腾讯主任 Ying Shan 与港中文博士导师徐强完成核验。"
+    },
+    {
+      "id": "tencent-camdm-hku-taku-komura",
+      "paperId": "arxiv:2404.15121",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "幸村琢 · Taku Komura",
+        "香港大学教授，与史明镒同篇；港大计算机系研究生名录明确将史明镒列为他的在读博士生。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/taku"
+      ],
+      "student": [
+        "史明镒 · Mingyi Shi",
+        "论文共同第一作者、香港大学在读博士；原版 PDF 在他与另一共同一作名后分别印同一个实习标记，脚注说明本工作在腾讯 AI Lab 实习期间完成。其本人亦记录 2023–2024 年腾讯实习。",
+        "https://arxiv.org/pdf/2404.15121v1"
+      ],
+      "advising": [
+        "港大博士导师",
+        "本人履历确认博士导师 Taku Komura；港大系级名录同样把他列为导师。两人均在该篇正式论文中署港大。",
+        "https://www.cs.hku.hk/research/research-student/"
+      ],
+      "employee": [
+        "陈学霖 · Xuelin Chen",
+        "同篇署腾讯 AI Lab，系通讯作者。会议方具名为该项目负责人、腾讯 AI Lab 高级研究员，个人履历确认任职。",
+        "https://s2025.siggraph.org/creativity-and-innovation-at-the-intersection-of-ai-computer-graphics-and-design/"
+      ],
+      "title": "Taming Diffusion Probabilistic Models for Character Control",
+      "short": "CAMDM",
+      "year": 2024,
+      "date": "2024-04-23",
+      "venue": "SIGGRAPH 2024",
+      "area": "计算机图形与数字人",
+      "paper": "https://doi.org/10.1145/3641519.3657440",
+      "extra": [
+        [
+          "2024-04-23 原始全文：两位共同一作各有同一实习脚注",
+          "https://arxiv.org/pdf/2404.15121v1"
+        ],
+        [
+          "史明镒本人：港大导师与 2023–2024 年腾讯实习",
+          "https://rubbly.cn/"
+        ],
+        [
+          "腾讯项目负责人本人履历",
+          "https://xuelin-chen.github.io/"
+        ],
+        [
+          "同期腾讯任职的另一位同篇作者 Shaoli Huang",
+          "https://shaoli-huang.github.io/"
+        ],
+        [
+          "港科大院校正式书目",
+          "https://researchportal.hkust.edu.hk/en/publications/taming-diffusion-probabilistic-models-for-character-control/"
+        ],
+        [
+          "作者同篇项目和单位",
+          "https://aiganimation.github.io/CAMDM/"
+        ],
+        [
+          "arXiv 首次公开日期",
+          "https://arxiv.org/abs/2404.15121"
+        ]
+      ],
+      "evidence": "2024 年 4 月原始 PDF 的同一星号分别标在史明镒和 Rui Chen 名后，脚注明确共同第一作者在腾讯 AI Lab 实习期间完成该工作。史明镒的本人履历和香港大学研究生名录分别确认腾讯实习时段与同篇导师幸村琢。企业共同作者陈学霖统一署腾讯 AI Lab，会议公开稿以具名引语确认其为该项研究负责人和腾讯高级研究员。SIGGRAPH 正式稿与首版同作。"
+    },
+    {
+      "id": "huawei-grid-cuhk-qiang-xu",
+      "paperId": "doi:10.52202/085713-1943",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "港中文计算机科学与工程学系教授，论文通讯作者，与其博士生 Xiangyu Wen 同署港中文。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "Xiangyu Wen",
+        "2022 年 8 月起攻读港中文博士；本人把 2024 年 10 月至 2025 年 8 月列为华为诺亚方舟实验室实习。共同作者 Min Li 的同期课题组通报指名这名华为实习生和本篇成果，并具名自己与华为研究员 Junhua Huang 共同指导。",
+        "https://formind.netlify.app/"
+      ],
+      "advising": [
+        "港中文博士导师",
+        "学生的博士档案明确徐强是其导师，两人均署同一篇 NeurIPS 论文，徐强为通讯作者。",
+        "https://xywen97.github.io/"
+      ],
+      "employee": [
+        "Junhua Huang",
+        "在本篇正式稿署华为诺亚方舟实验室；Min Li 的同期公告具名说明他共同指导这个华为实习项目；2025 年 DAC 正式议程独立列其华为任职。",
+        "https://www.dac.com/Portals/0/62DAC/Program/62DACProgram.pdf?ver=M_DMJU3AU3OMZhX6dDjwsQ%3D%3D"
+      ],
+      "title": "Dependency Matters: Enhancing LLM Reasoning with Explicit Knowledge Grounding",
+      "short": "GRiD",
+      "year": 2025,
+      "date": "2025-10",
+      "venue": "NeurIPS 2025",
+      "area": "语言模型与推理",
+      "paper": "https://papers.neurips.cc/paper_files/paper/2025/file/5401bede0941e568fa42b7b5910fa72c-Paper-Conference.pdf",
+      "extra": [
+        [
+          "共同作者与华为实习共同导师对同篇的具名原始公告",
+          "https://formind.netlify.app/"
+        ],
+        [
+          "学生教育和实习任期",
+          "https://xywen97.github.io/"
+        ],
+        [
+          "NeurIPS 正式论文目录",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5401bede0941e568fa42b7b5910fa72c-Abstract-Conference.html"
+        ],
+        [
+          "香港中文大学校方书目",
+          "https://research.cuhk.edu.hk/en/publications/dependency-matters-enhancing-llm-reasoning-with-explicit-knowledg/"
+        ],
+        [
+          "团队公开代码",
+          "https://github.com/cure-lab/GRiD"
+        ]
+      ],
+      "evidence": "共同作者 Min Li 2025 年 9 月的课题组公告逐名确认《Dependency Matters》收到 NeurIPS 录用，称第一作者 Xiangyu Wen 为其与 Junhua Huang 共同指导的华为实习生。学生本人记录华为实习和港中文在读的重合区间；NeurIPS 正式署名依次给出学生、华为诺亚方舟研究员 Junhua Huang 以及该生导师和通讯作者徐强。"
+    },
+    {
+      "id": "kuaishou-evosearch-hkust-pan",
+      "paperId": "arxiv:2505.17618",
+      "company": "快手",
+      "team": "快手 · KwaiVGI",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "潘玲 · Ling Pan",
+        "香港科技大学助理教授；其课题组名单列何浩然为 2024 年春季入学博士生，论文同篇署港科大。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan"
+      ],
+      "employee": [
+        "王鑫涛 · Xintao Wang",
+        "快手可灵团队研发负责人（个人履历列 2024 年起任职）；本篇署快手，是何浩然具名的企业实习导师。",
+        "https://xinntao.github.io/"
+      ],
+      "student": [
+        "何浩然 · Haoran He",
+        "2024 年起在香港科技大学攻读博士，曾由王鑫涛指导在快手可灵科研实习；本篇第一作者，原始论文及本人项目页同时列其港科大和快手署名。",
+        "https://tinnerhrhe.github.io/"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "潘玲课题组公开博士生名单列其 2024 年春入学，课题组与论文作者和港科大学籍相符。",
+        "https://ling-pan.github.io/group/"
+      ],
+      "title": "Scaling Image and Video Generation via Test-Time Evolutionary Search",
+      "short": "EvoSearch",
+      "year": 2025,
+      "date": "2025-05-26",
+      "venue": "arXiv 预印本",
+      "area": "视觉生成与强化学习",
+      "paper": "https://arxiv.org/pdf/2505.17618v1",
+      "extra": [
+        [
+          "同篇作者项目页明确的学生双署与团队名称",
+          "https://tinnerhrhe.github.io/evosearch/"
+        ],
+        [
+          "港科大官方教师任职与课题组",
+          "https://ri.hkust.edu.hk/people/ling-pan"
+        ],
+        [
+          "教师列出的论文",
+          "https://ling-pan.github.io/publications/"
+        ],
+        [
+          "首次公开日期",
+          "https://arxiv.org/abs/2505.17618"
+        ]
+      ],
+      "evidence": "正式可公开预印本首页和作者项目均列何浩然署港科大与快手，潘玲只署港科大，王鑫涛署快手。何浩然本人具名列王鑫涛为快手可灵科研实习指导者；潘玲课题组校内名单列其博士学籍及入学时间，王鑫涛本人履历列其 2024 年起在快手可灵负责研究团队。"
+    },
+    {
+      "id": "kuaishou-gardo-hkust-pan",
+      "paperId": "arxiv:2512.24138",
+      "company": "快手",
+      "team": "快手 · Kling",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "潘玲 · Ling Pan",
+        "香港科技大学助理教授；其课题组名单列何浩然为 2024 年春季入学博士生，论文同篇署港科大。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan"
+      ],
+      "employee": [
+        "王鑫涛 · Xintao Wang",
+        "快手可灵团队研发负责人（个人履历列 2024 年起任职）；本篇署快手，是何浩然具名的企业实习导师。",
+        "https://xinntao.github.io/"
+      ],
+      "student": [
+        "何浩然 · Haoran He",
+        "2024 年起在香港科技大学攻读博士，曾由王鑫涛指导在快手可灵科研实习；本篇第一作者，原始论文及本人项目页同时列其港科大和快手署名。",
+        "https://tinnerhrhe.github.io/"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "潘玲课题组公开博士生名单列其 2024 年春入学，课题组与论文作者和港科大学籍相符。",
+        "https://ling-pan.github.io/group/"
+      ],
+      "title": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+      "short": "GARDO",
+      "year": 2025,
+      "date": "2025-12-30",
+      "venue": "arXiv 预印本",
+      "area": "视觉生成与强化学习",
+      "paper": "https://arxiv.org/pdf/2512.24138v1",
+      "extra": [
+        [
+          "同篇作者项目页明确的学生双署与团队名称",
+          "https://tinnerhrhe.github.io/gardo_project/"
+        ],
+        [
+          "港科大官方教师任职与课题组",
+          "https://ri.hkust.edu.hk/people/ling-pan"
+        ],
+        [
+          "教师列出的论文",
+          "https://ling-pan.github.io/publications/"
+        ],
+        [
+          "首次公开日期",
+          "https://arxiv.org/abs/2512.24138"
+        ]
+      ],
+      "evidence": "正式可公开预印本首页和作者项目均列何浩然署港科大与快手，潘玲只署港科大，王鑫涛署快手。何浩然本人具名列王鑫涛为快手可灵科研实习指导者；潘玲课题组校内名单列其博士学籍及入学时间，王鑫涛本人履历列其 2024 年起在快手可灵负责研究团队。"
     }
   ]
 };

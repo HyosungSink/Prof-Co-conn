@@ -5882,7 +5882,33 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2412.10316v3",
       "https://github.com/TencentARC/BrushEdit",
       "https://yaoweili22.github.io/",
-      "https://research.cuhk.edu.hk/en/publications/brushedit-all-in-one-image-inpainting-and-editing/"
+      "https://research.cuhk.edu.hk/en/publications/brushedit-all-in-one-image-inpainting-and-editing/",
+      "https://papers.neurips.cc/paper_files/paper/2025/file/5401bede0941e568fa42b7b5910fa72c-Paper-Conference.pdf",
+      "https://formind.netlify.app/",
+      "https://xywen97.github.io/",
+      "https://www.dac.com/Portals/0/62DAC/Program/62DACProgram.pdf?ver=M_DMJU3AU3OMZhX6dDjwsQ%3D%3D",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5401bede0941e568fa42b7b5910fa72c-Abstract-Conference.html",
+      "https://research.cuhk.edu.hk/en/publications/dependency-matters-enhancing-llm-reasoning-with-explicit-knowledg/",
+      "https://github.com/cure-lab/GRiD",
+      "https://doi.org/10.1145/3803437.3806400",
+      "https://arxiv.org/html/2604.16571v1",
+      "https://research.cuhk.edu.hk/en/publications/equivfusion-unifying-hardware-equivalence-checking-from-algorithm/",
+      "https://doi.org/10.1109/TCAD.2026.3650860",
+      "https://flians.github.io/pdf/CHOP.pdf",
+      "https://research.cuhk.edu.hk/en/publications/chop-clustered-hybrid-optimization-for-logic-synthesis-with-self-/",
+      "https://doi.org/10.1109/JETCAS.2024.3476386",
+      "https://arxiv.org/pdf/2302.10296v1",
+      "https://research.cuhk.edu.hk/en/publications/on-function-coupled-watermarks-for-deep-neural-networks-4/",
+      "https://doi.org/10.1109/TCAD.2024.3513265",
+      "https://research.cuhk.edu.hk/en/publications/vision-transformer-acceleration-via-a-versatile-attention-optimiz/",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502234403363277",
+      "https://openreview.net/forum?id=cGLqQfS5wH",
+      "https://arxiv.org/pdf/2508.03346v1",
+      "https://2021.acmmm.org/documents/ACMMM21_Full_Technical_Program_18_3.pdf",
+      "https://arxiv.org/html/2603.08738v1",
+      "https://formind.netlify.app/files/papers/FormalRTL.pdf",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8248b1ded388fcdbbd121bcdfea3068c-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2509.23619v1"
     ],
     "papers": [
       {
@@ -5972,9 +5998,65 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "2024-12 首稿，与 2026 IEEE TPAMI 正式版同作。香港中文大学导师徐强、学生卞宇轩与鞠璇及腾讯 ARC 员工同署；作者企业项目仍把两位港中文学生单署港中文。企业任职和实习时间可证，尚需对两位港中文在读者的同篇企业项目归属；第一共同作者 Yaowei Li 的北大导师是邹月娴，独立核验其腾讯具体项目。",
         "year": 2026
+      },
+      {
+        "title": "Dependency Matters: Enhancing LLM Reasoning with Explicit Knowledge Grounding",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/5401bede0941e568fa42b7b5910fa72c-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "共同作者 Min Li 2025 年 9 月的课题组公告逐名确认《Dependency Matters》收到 NeurIPS 录用，称第一作者 Xiangyu Wen 为其与 Junhua Huang 共同指导的华为实习生。学生本人记录华为实习和港中文在读的重合区间；NeurIPS 正式署名依次给出学生、华为诺亚方舟研究员 Junhua Huang 以及该生导师和通讯作者徐强。",
+        "year": 2025
+      },
+      {
+        "title": "EquivFusion: Unifying Hardware Equivalence Checking from Algorithms to Netlists via MLIR",
+        "url": "https://doi.org/10.1145/3803437.3806400",
+        "outcome": "no-evidence",
+        "note": "FSE 2026 正式版和 2026-04 原稿同作；原始作者单位是南京国家 EDA 技术创新中心、东南大学、港中文，未见目标公司作者。同行 Min Li 已于 2025 年离开华为；软件工具比较不是公司参与。",
+        "year": 2026
+      },
+      {
+        "title": "CHOP: Clustered Hybrid Optimization for Logic Synthesis With Self-Supervised Prediction",
+        "url": "https://doi.org/10.1109/TCAD.2026.3650860",
+        "outcome": "no-evidence",
+        "note": "正式 IEEE 与作者公开全文编号相同。脚注逐名将作者列港中文或中科院计算所，两机构均没有企业身份。",
+        "year": 2026
+      },
+      {
+        "title": "On Function-Coupled Watermarks for Deep Neural Networks",
+        "url": "https://doi.org/10.1109/JETCAS.2024.3476386",
+        "outcome": "no-evidence",
+        "note": "2023-02 首稿与 2024 IEEE 正式稿同作，四名作者在首稿只署港中文、哈工大深圳与电子科大。Xiangyu Wen 的华为实习从 2024-10 开始，未见证据关联本项。",
+        "year": 2024
+      },
+      {
+        "title": "Vision Transformer Acceleration via a Versatile Attention Optimization Framework",
+        "url": "https://doi.org/10.1109/TCAD.2024.3513265",
+        "outcome": "no-evidence",
+        "note": "2024 IEEE early access，与 2025 卷期同作。港中文正式书目与 JST 逐名作者机构表一致，分别为上海交大或港中文，未发现范围内公司署名。",
+        "year": 2025
+      },
+      {
+        "title": "Making Slow Thinking Faster: Compressing LLM Chain-of-Thought via Step Entropy",
+        "url": "https://openreview.net/forum?id=cGLqQfS5wH",
+        "outcome": "lead",
+        "note": "2025-08-05 首稿与 ICLR 2026 正式版同作。华为 Yingying Cheng 与 Fan Zhang 的原始署名加公司邮箱，以及此前会议具名任职明确；徐强所指导的 Xiangyu Wen 在首次发布时仍处于华为实习期，但机制不同于同组明确的 GRiD，未见本人在企业参与本篇的证据。",
+        "year": 2026
+      },
+      {
+        "title": "FormalRTL: Verified RTL Synthesis at Scale",
+        "url": "https://arxiv.org/html/2603.08738v1",
+        "outcome": "lead",
+        "note": "2026-02-25 预印本列徐强、Xiangyu Wen、Kezhi Li 与华为 Junhua Huang；同组原资料的具名华为实习结束于 2025-08，提到的确切项目是 GRiD，不是本篇 RTL 合成。保留线索，待找该篇研究时点和企业技术分工。",
+        "year": 2026
+      },
+      {
+        "title": "Reasoning Scaffolding: Distilling the Flow of Thought from LLMs",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8248b1ded388fcdbbd121bcdfea3068c-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "2025-09-28 预印本与 ICLR 2026 同作，第一作者 Xiangyu Wen 和徐强同署港中文，Junhua Huang 和 Mingxuan Yuan 署华为诺亚方舟实验室。具名同一实习导师有证，但过后公布的这项蒸馏研究没有自己的实习脚注；不能用同一导师其他的 GRiD 公告类推。",
+        "year": 2026
       }
     ],
-    "note": "目前逐篇记录 14 项，分批继续对照香港中文大学研究门户、课题组和学生作者资料，未标完成。"
+    "note": "逐篇记录 22 项；对照港中文研究门户、CURE Lab、学生履历和 DBLP 43/1230-1（ORCID 0000-0001-6747-126X）。其余书目待继续。"
   },
   "su14mcEAAAAJ": {
     "from": "2023-01-01",
@@ -10639,7 +10721,31 @@ const facultyPaperAudits = {
       "https://ruixu.me/",
       "https://hku-cg.github.io/people/",
       "https://www.ai.hku.hk/index.php/people/academic-staff/taku",
-      "https://arxiv.org/html/2609.25832v2"
+      "https://arxiv.org/html/2609.25832v2",
+      "https://doi.org/10.1145/3641519.3657440",
+      "https://arxiv.org/pdf/2404.15121v1",
+      "https://www.cs.hku.hk/research/research-student/",
+      "https://s2025.siggraph.org/creativity-and-innovation-at-the-intersection-of-ai-computer-graphics-and-design/",
+      "https://rubbly.cn/",
+      "https://xuelin-chen.github.io/",
+      "https://shaoli-huang.github.io/",
+      "https://researchportal.hkust.edu.hk/en/publications/taming-diffusion-probabilistic-models-for-character-control/",
+      "https://aiganimation.github.io/CAMDM/",
+      "https://openaccess.thecvf.com/content/ICCV2023/html/Shi_PhaseMP_Robust_3D_Pose_Estimation_via_Phase-conditioned_Human_Motion_Prior_ICCV_2023_paper.html",
+      "https://rubbly.cn/publications/phaseMP/phaseMP_main.pdf",
+      "https://ai.meta.com/research/publications/phasemp-robust-3d-pose-estimation-via-phase-conditioned-human-motion-prior/",
+      "https://arxiv.org/pdf/2412.02419v1",
+      "https://hku-cg.github.io/publication/",
+      "https://arxiv.org/abs/2506.00173",
+      "https://arxiv.org/html/2506.00173v1",
+      "https://arxiv.org/pdf/2506.00173v2",
+      "https://doi.org/10.1145/3842553",
+      "https://arxiv.org/pdf/2610.09846v1",
+      "https://www.tohoku.ac.jp/japanese/2026/11/press20261111-06-3D.html",
+      "https://doi.org/10.1111/cgf.70568",
+      "https://arxiv.org/abs/2607.05938",
+      "https://diglib.eg.org/items/e3b69c99-91ac-40fa-9e89-04a1d80f5f50",
+      "https://aiganimation.github.io/HandPrior/"
     ],
     "papers": [
       {
@@ -10647,9 +10753,51 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。"
+      },
+      {
+        "title": "Taming Diffusion Probabilistic Models for Character Control",
+        "url": "https://doi.org/10.1145/3641519.3657440",
+        "outcome": "confirmed",
+        "note": "2024 年 4 月原始 PDF 的同一星号分别标在史明镒和 Rui Chen 名后，脚注明确共同第一作者在腾讯 AI Lab 实习期间完成该工作。史明镒的本人履历和香港大学研究生名录分别确认腾讯实习时段与同篇导师幸村琢。企业共同作者陈学霖统一署腾讯 AI Lab，会议公开稿以具名引语确认其为该项研究负责人和腾讯高级研究员。SIGGRAPH 正式稿与首版同作。",
+        "year": 2024
+      },
+      {
+        "title": "PhaseMP: Robust 3D Pose Estimation via Phase-conditioned Human Motion Prior",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Shi_PhaseMP_Robust_3D_Pose_Estimation_via_Phase-conditioned_Human_Motion_Prior_ICCV_2023_paper.html",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式稿和作者全文明确列两位 Meta 合作者，致谢指出史明镒在 Meta 实习期间完成主要工作；Meta 不在本研究企业范围。",
+        "year": 2023
+      },
+      {
+        "title": "It Takes Two: Real-time Co-Speech Two-person's Interaction Generation via Reactive Auto-regressive Diffusion Model",
+        "url": "https://arxiv.org/pdf/2412.02419v1",
+        "outcome": "no-evidence",
+        "note": "2024-12-03 预印本首页注明原作者属港大、港大转化纺织研究中心、湾区大学、日本国立信息学研究所；科研中心并非目标公司，没有具名在企业实习项目的说明。",
+        "year": 2024
+      },
+      {
+        "title": "MotionPersona: Real-Time Locomotion Control across Personas, Bodies, and Styles",
+        "url": "https://arxiv.org/abs/2506.00173",
+        "outcome": "no-evidence",
+        "note": "2025-05-30 v1 名为 Characteristics-aware Locomotion Control，2026-10-01 v2 同一预印本、更名。两版都把陈学霖单列 Adobe Research，其他署名是高校；其过去腾讯任职不能用于本项。",
+        "year": 2025
+      },
+      {
+        "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
+        "url": "https://doi.org/10.1145/3842553",
+        "outcome": "no-evidence",
+        "note": "2026-10-07 预印本与 ACM TOG 正式版同作；PDF 署东日本东北大学和港大。东日本东北大学校方成果新闻独立点名双方高校，未列目标公司。",
+        "year": 2026
+      },
+      {
+        "title": "Prior-First, Condition-Second: Scalable and Controllable Hand Motion Completion",
+        "url": "https://doi.org/10.1111/cgf.70568",
+        "outcome": "no-evidence",
+        "note": "Computer Graphics Forum、Eurographics 数字图书馆与同篇项目页相互核对，史明镒和幸村琢署港大，企业共同作者陈学霖署 Adobe，而非旧任职所属腾讯。",
+        "year": 2026
       }
     ],
-    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+    "note": "已逐篇记录 7 项，先对照港大课题组、学生作者书目和正式会刊；余下公开书目待继续。"
   },
   "Nav8m8gAAAAJ": {
     "from": "2023-01-01",
@@ -42540,6 +42688,90 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2312.17240",
         "outcome": "no-evidence",
         "note": "独立公开的 LISA 增强研究，篇名、作者、数据与方法增补有明确区分。首页机构只有港中文及 SmartMore；企业超范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Binary Contrast: Modeling Continuous Skeleton Action Spaces with Transitional Anchors",
+        "url": "https://arxiv.org/abs/2604.17914",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式作者与 2604.17914 一致。原文作者仅哈工大深圳与中南大学。"
+      },
+      {
+        "year": 2026,
+        "title": "Multimodal Dataset Distillation via Phased Teacher Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3a6935d11910d6f9142b0a1e36fc6753-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式与 2603.25388；首页作者仅哈工大深圳与港中文，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Plug-and-Play Fidelity Optimization for Diffusion Transformer Acceleration via Cumulative Error Minimization",
+        "url": "https://arxiv.org/abs/2512.23258",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式同篇，首页列六名作者仅哈工大深圳；田倬韬和苏敬勇为通信，无目标企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "SemanticVLA: Semantic-Aligned Sparsification and Enhancement for Efficient Robotic Manipulation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38904",
+        "outcome": "lead",
+        "note": "AAAI 正式与 2511.10518。华为合著者 Kaiwen Zhou 本人列 2022–2025 年 9 月在华为、后赴港中大；首稿 11 月晚于离职，不能把公开期与研究期混同。首作者李巍亲自列导师邵睿、张人山列邵睿和聂立强，未发现具名在华为参与本项的学生。"
+      },
+      {
+        "year": 2026,
+        "title": "UniRefiner: Teaching Pre-trained ViTs to Self-Dispose Dross via Contrastive Register",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Qiu_UniRefiner_Teaching_Pre-trained_ViTs_to_Self-Dispose_Dross_via_Contrastive_Register_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式及 2605.19622，原文署西交、国科大、哈工大与河套。使用公开 InternViT 权重不表示厂商参与。"
+      },
+      {
+        "year": 2026,
+        "title": "VisionLeaf: Entropy-Guided Leaf-First Reasoning for Efficient and Accurate Think-with-Image",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gui_VisionLeaf_Entropy-Guided_Leaf-First_Reasoning_for_Efficient_and_Accurate_Think-with-Image_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR PDF 作者均为港科大、港中文、哈工大；合作者 Sitong Wu 自述 2021–22 的旧百度经历，与 2026 本项无关联。"
+      },
+      {
+        "year": 2025,
+        "title": "Context-Aware Hierarchical Learning: A Two-Step Paradigm towards Safer LLMs",
+        "url": "https://arxiv.org/abs/2512.03720",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2025 同篇。哈尔滨工大深圳/本部、大湾区大学、浙大署名，全为学界。"
+      },
+      {
+        "year": 2025,
+        "title": "Edit360: 2D Image Edits to 3D Assets from Any Angle",
+        "url": "https://arxiv.org/abs/2506.10507",
+        "outcome": "no-evidence",
+        "note": "ICCV Highlight 正式同篇，署港中深、南洋理工、哈工大及滴滴 Voyager。滴滴不在范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Enhancing Spatial Reasoning in Multimodal Large Language Models through Reasoning-based Segmentation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ning_Enhancing_Spatial_Reasoning_in_Multimodal_Large_Language_Models_through_Reasoning-based_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式与 2506.23120 同篇。企业作者为滴滴 Voyager，超出范围。"
+      },
+      {
+        "year": 2025,
+        "title": "VisionZip: Longer is Better but Not Necessary in Vision Language Models",
+        "url": "https://doi.org/10.1109/CVPR52734.2025.01843",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式与 2412.04467 同篇；最新版作者机构为港中文、港科大和哈工大，未见目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Typicalness-Aware Learning for Failure Detection",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/155ace40b55215479b6ad4665d1f6c06-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "NeurIPS 正式和 2411.01981 同篇。腾讯优图 Qingdong He 为具名作者，田倬韬与苏敬勇共同通信；第一作者 Yijun Liu 的师承和本人在企业做此项目尚无直接材料。"
+      },
+      {
+        "year": 2023,
+        "title": "PFENet++: Boosting Few-Shot Semantic Segmentation With the Noise-Filtered Context-Aware Prior Mask",
+        "url": "https://doi.org/10.1109/TPAMI.2023.3329725",
+        "outcome": "no-evidence",
+        "note": "TPAMI 2023 公开、2024 卷，2021 版本为其预印本；中文大学作者原文 PDF 明确田倬韬等兼 SmartMore，企业超范围。"
       }
     ],
     "note": "先查个人公开代表作与最强校企候选，逐篇核对公式出处、作者及具名学生关系；其余仍在梳理。"
@@ -42977,5 +43209,73 @@ const facultyPaperAudits = {
       }
     ],
     "note": "以国科大导师页、网络信息中心正式报道、本人和在读生公开书目及会刊全文做首批核验。区分毕业任职、范围外实习和本篇实研；书目仍在梳理中。"
+  },
+  "9XrWuI8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan",
+      "https://ling-pan.github.io/group/",
+      "https://ri.hkust.edu.hk/people/ling-pan",
+      "https://ling-pan.github.io/publications/",
+      "https://tinnerhrhe.github.io/",
+      "https://xinntao.github.io/",
+      "https://orcid.org/0000-0002-4413-281X",
+      "https://yuxiaooye.github.io/",
+      "https://zhongwen.one/"
+    ],
+    "papers": [
+      {
+        "year": 2025,
+        "title": "Generative Flow Networks for Personalized Multimedia Systems: A Case Study on Short Video Feeds",
+        "url": "https://doi.org/10.1145/3746027.3758147",
+        "note": "ACM 明确列字节作者；潘玲组把 Yili Jin 记作麦吉尔博士来访，并没有范围内学籍。未核实范围内学生参与同篇企业研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "When RL Fails after SFT: Rejuvenating Model Plasticity for Robust SFT-to-RL Handoff",
+        "url": "https://arxiv.org/pdf/2606.09932v1",
+        "note": "原始作者机构仅港科大、浙大、中科院自动化所相关全国重点实验室，未列范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Edit-R2: Context-Aware Reinforcement Learning for Multi-Turn Image Editing",
+        "url": "https://arxiv.org/pdf/2606.05950v1",
+        "note": "首作者叶语霄双署港科大与快手，个人主页具名导师潘玲，王鑫涛同篇是快手正式人员；仍缺独立具名快手实习、项目发布或贡献说明来交叉核实该生参与。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "Random Policy Valuation is Enough for LLM Reasoning with Verifiable Rewards",
+        "url": "https://arxiv.org/pdf/2509.24981v1",
+        "note": "快手和阶跃星辰同篇署名。未找到何浩然或叶语霄的快手科研实习与此论文的具名项目对应证据；阶跃星辰不在范围。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "Pre-Trained Video Generative Models as World Simulators",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42465",
+        "note": "何浩然在本人主页列曾由同篇腾讯作者 Zhongwen Xu 指导实习；论文只为学生列港科大。因公开晚于该实习经历，仍需具名说明把这篇工作和实习连在一起。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "Scaling Image and Video Generation via Test-Time Evolutionary Search",
+        "url": "https://arxiv.org/pdf/2505.17618v1",
+        "note": "正式可公开预印本首页和作者项目均列何浩然署港科大与快手，潘玲只署港科大，王鑫涛署快手。何浩然本人具名列王鑫涛为快手可灵科研实习指导者；潘玲课题组校内名单列其博士学籍及入学时间，王鑫涛本人履历列其 2024 年起在快手可灵负责研究团队。",
+        "outcome": "confirmed"
+      },
+      {
+        "year": 2025,
+        "title": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+        "url": "https://arxiv.org/pdf/2512.24138v1",
+        "note": "正式可公开预印本首页和作者项目均列何浩然署港科大与快手，潘玲只署港科大，王鑫涛署快手。何浩然本人具名列王鑫涛为快手可灵科研实习指导者；潘玲课题组校内名单列其博士学籍及入学时间，王鑫涛本人履历列其 2024 年起在快手可灵负责研究团队。",
+        "outcome": "confirmed"
+      }
+    ],
+    "note": "核对港科大研究门户、个人书目、课题组博士生名录和正式论文首页。其余题录仍待逐篇梳理。"
   }
 };
