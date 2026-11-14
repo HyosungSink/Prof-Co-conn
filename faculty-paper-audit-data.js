@@ -1560,7 +1560,8 @@ const facultyPaperAudits = {
       "https://ngc7292.github.io/",
       "https://ngc7292.github.io/en/",
       "https://yinzhangyue.github.io/",
-      "https://zhiyuanzeng.github.io/"
+      "https://zhiyuanzeng.github.io/",
+      "https://landisen.github.io/"
     ],
     "papers": [
       {
@@ -1592,6 +1593,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2603.11103",
         "outcome": "confirmed",
         "note": "曾致远为复旦与字节 Seed 联培在读博士；本人主页把此篇标为 SEED 项目，对应其在 Seed Edge 的长上下文合成数据实习方向。原文首页将其列为具名核心贡献者、署复旦及字节 Seed，并列两位导师。"
+      },
+      {
+        "title": "Morphing into Hybrid Attention Models",
+        "url": "https://arxiv.org/pdf/2606.30562",
+        "outcome": "confirmed",
+        "note": "蓝迪森在复旦攻读博士并在字节跳动 Seed 实习；本人主页把本项目列为 Seed 技术报告，原文首页的第一作者脚注明确本工作在字节跳动 Seed 完成。"
       }
     ],
     "note": "按学生个人履历与作者发表记录抽取并核对部分论文；全期题录仍待继续。"
@@ -6958,7 +6965,9 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2510.14847v2",
       "https://ai.ucas.ac.cn/index.php/zh-cn/tzgg/6664-2022-03-21-06-48-19",
       "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_PeLK_Parameter-efficient_Large_Kernel_ConvNets_with_Peripheral_Convolution_CVPR_2024_paper.pdf",
-      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24bb/chen24bb.pdf"
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24bb/chen24bb.pdf",
+      "https://junshutang.github.io/",
+      "https://arxiv.org/pdf/2610.25959v2"
     ],
     "papers": [
       {
@@ -7002,6 +7011,12 @@ const facultyPaperAudits = {
         "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24bb/chen24bb.pdf",
         "outcome": "confirmed",
         "note": "ICML 正式版把美团实习明确标给前两位作者，其中第一作者陈宏昊为黄凯奇指导的国科大博士生。合作者初祥祥在原始投稿阶段尚为美团高级技术经理。"
+      },
+      {
+        "title": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+        "url": "https://arxiv.org/pdf/2610.25959v2",
+        "outcome": "confirmed",
+        "note": "论文稿注明实习期间在腾讯混元完成。共同一作唐俊姝在本人书目单独标出丰效坤是本篇实习作者，与丰效坤本人履历及同篇国科大、腾讯双署名吻合。博士导师黄凯奇同篇署名。"
       }
     ],
     "note": "已逐篇检查部分书目和学生科研实习，尚未覆盖全部论文。"
@@ -8792,29 +8807,37 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://cse.sysu.edu.cn/teacher/LiGuanbin",
-      "https://guanbinli.com/"
+      "https://guanbinli.com/",
+      "https://arxiv.org/html/2511.06272",
+      "https://tanxchong.github.io/",
+      "https://cse.sysu.edu.cn/article/2718",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.pdf",
+      "https://forestlinma.com/",
+      "https://cse.sysu.edu.cn/article/2674",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/3b00f67a2e03916b26f56b66b38445f7-Paper-Conference.pdf"
     ],
     "papers": [
       {
         "title": "Cross-Modal Attention Calibration for LVLM Hallucination Mitigation",
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.pdf",
         "year": 2026,
-        "outcome": "lead",
-        "note": "CVPR 具名实习脚注确认中大第一作者 Jiaming Li 在美团参与本篇；李冠彬是同篇唯一通讯，仍查逐人指导来源。"
+        "outcome": "confirmed",
+        "note": "CVPR 论文具名标注共同第一作者李佳铭在美团实习时完成该工作。校方博士招生公示具名列李冠彬为其导师，李冠彬同篇通讯；美团正式研究员马琳同篇署名。作者预印本和正式发表成果按同一项目追溯。"
       },
       {
         "title": "LaneDiffusion: Improving Centerline Graph Learning via Prior Injected BEV Feature Generation",
-        "url": "https://arxiv.org/abs/2511.06272",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_LaneDiffusion_Improving_Centerline_Graph_Learning_via_Prior_Injected_BEV_Feature_Generation_ICCV_2025_paper.html",
         "year": 2025,
-        "outcome": "lead",
-        "note": "原文及补充材料确认中大合著者 Zijie Wang 和百度多位员工；待核学生的逐篇企业参与及校内指导。"
+        "outcome": "confirmed",
+        "note": "ICCV 正式论文列王子杰和李冠彬为中大作者，谭啸为百度作者。同稿 arXiv 首页将实习脚注直接标注在一作王子杰姓名；学校官方博士公示具名列李冠彬为导师。"
       },
       {
         "title": "OptiMVMap: Offline Vectorized Map Construction via Optimal Multi-vehicle Perspectives",
-        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.pdf",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.html",
         "year": 2026,
-        "outcome": "lead",
-        "note": "CVPR 以并列一作标记确认百度实习和具体项目，仍补第一作者与李冠彬的独立指导或项目负责人证据。"
+        "outcome": "confirmed",
+        "note": "正式稿在王子杰姓名标注实习脚注，指出这项离线多车建图工作在百度参与；中大院系招生公示具名列其博士导师李冠彬，同篇由李冠彬通讯，百度视觉技术负责人谭啸为合著者。该研究的多车建图任务与前一篇车道中心线生成不同。"
       },
       {
         "title": "World Models as Group Actions",
@@ -8829,7 +8852,47 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "论文称第一作者为中大与深圳环带院，另有百度和腾讯合著人员。仍缺同篇研究的学生企业角色。"
+      },
+      {
+        "title": "GUIDED: Granular Understanding via Identification, Detection, and Discrimination for Fine-Grained Open-Vocabulary Object Detection",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/3b00f67a2e03916b26f56b66b38445f7-Abstract-Conference.html",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式版首页明确将美团实习脚注标注于李佳铭本人；马琳为美团正式研究员同篇署名。中山大学公示具名列李冠彬为博士导师，他是正式论文通讯作者。该项目为细粒度开放词汇目标检测，与同一学生的模型幻觉校准论文不同。"
       }
     ]
+  },
+  "Yjt0uzMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://teacher.bupt.edu.cn/lianghongliang/zh_CN/index.htm",
+      "https://gitee.com/organizations/tsislab/",
+      "https://dblp.org/pid/92/283.html",
+      "https://api.crossref.org/works?filter=orcid:0000-0001-6877-780X,from-pub-date:2023-01-01&rows=100",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/54/ViTAL-LLM-Powered-Taint-Analysis-for-GUI-Field-Visualization-Auditing-in-Android"
+    ],
+    "papers": [
+      {
+        "title": "ViTAL: LLM-Powered Taint Analysis for GUI Field Visualization Auditing in Android",
+        "url": "https://doi.org/10.1145/3786583.3786912",
+        "outcome": "lead",
+        "note": "会方和出版方列论文为北邮、抖音合著，实验证实用抖音、今日头条、番茄小说构造数据。第一作者 Liuyang Jiang 只署北邮；未查到他作为在读学生参与抖音项目的具名信息和梁洪亮的指导证据。"
+      },
+      {
+        "title": "Detecting vulnerabilities in IoT firmware via keyword identification and path optimization",
+        "url": "https://doi.org/10.1016/j.iot.2025.101808",
+        "outcome": "lead",
+        "note": "期刊列梁洪亮参与研究指导，公开摘要未逐名列单位或实习；需要进一步核查合作者身份。"
+      },
+      {
+        "title": "Data-independent generation of targeted universal adversarial perturbations",
+        "url": "https://doi.org/10.1016/j.knosys.2025.114684",
+        "outcome": "lead",
+        "note": "出版社公开页面列北邮团队作者，当前可读取页面未展示完整单位和在职情况。"
+      }
+    ],
+    "note": "逐篇查验 DBLP 与 Crossref 同人 ORCID 合集；目前已有 16 篇核查结果，仍有书目待完成，保留为部分梳理。"
   }
 };

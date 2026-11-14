@@ -29159,6 +29159,268 @@ const survey = {
           "https://github.com/bytedance/Next-ViT"
         ]
       ]
+    },
+    {
+      "id": "flashmorph-bytedance-fudan-pq4yp_kaaaaj",
+      "paperId": "arxiv:2606.30562",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "邱锡鹏 · Xipeng Qiu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.fudan.edu.cn/c5/46/c30604a443718/page.htm"
+      ],
+      "employee": [
+        "Xuefeng Xiao",
+        "共同作者是字节跳动 Seed 团队负责人；曾在 2023–2025 年于 Seed 实习及担任研究员的陆彦佐在本人履历具名列他为直属负责人。NeurIPS 2024 原文称他负责字节 Hyper-SD；本篇仍以字节跳动 Seed 署名。",
+        "https://yanzuo.lu/"
+      ],
+      "student": [
+        "蓝迪森 · Disen Lan",
+        "蓝迪森在复旦攻读博士并在字节跳动 Seed 实习；本人主页把本项目列为 Seed 技术报告，原文首页的第一作者脚注明确本工作在字节跳动 Seed 完成。",
+        "https://landisen.github.io/"
+      ],
+      "title": "Morphing into Hybrid Attention Models",
+      "short": "FlashMorph",
+      "date": "2026-06",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2606.30562",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2606.30562"
+        ],
+        [
+          "第一作者发布的项目库",
+          "https://github.com/LanDisen/FlashMorph"
+        ],
+        [
+          "NeurIPS 2024 字节项目负责人",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/d4e1c24ac41ff0b82ca1b171731f0b23-Paper-Conference.pdf"
+        ]
+      ],
+      "evidence": "蓝迪森在复旦攻读博士并在字节跳动 Seed 实习；本人主页把本项目列为 Seed 技术报告，原文首页的第一作者脚注明确本工作在字节跳动 Seed 完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "蓝迪森在本人履历具名说明邱锡鹏共同指导其 2025 年秋起的复旦博士研究；邱锡鹏也是本篇通讯作者。",
+        "https://landisen.github.io/"
+      ]
+    },
+    {
+      "id": "tencent-embodiedworld-ucas-huang",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、博士生导师。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "唐俊姝 · Junshu Tang",
+        "腾讯混元高级研究员，2025 年 SIGGRAPH Asia 腾讯专场讲者。",
+        "https://junshutang.github.io/"
+      ],
+      "student": [
+        "丰效坤 · Xiaokun Feng",
+        "国科大在读博士；本人公开履历列 2025 年 10 月起在腾讯混元研究实习。",
+        "https://xiaokunfeng.github.io/"
+      ],
+      "title": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+      "short": "EmbodiedWorld-200K",
+      "date": "2026-10-19",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2610.25959v2",
+      "evidence": "论文稿注明实习期间在腾讯混元完成。共同一作唐俊姝在本人书目单独标出丰效坤是本篇实习作者，与丰效坤本人履历及同篇国科大、腾讯双署名吻合。博士导师黄凯奇同篇署名。",
+      "advising": [
+        "校内博士导师",
+        "丰效坤本人公开主页明确在中科院自动化所攻读博士，由黄凯奇指导。",
+        "https://xiaokunfeng.github.io/"
+      ],
+      "extra": [
+        [
+          "官方活动任职旁证",
+          "https://sa2025.conference-schedule.org/session/?sess=sess335"
+        ],
+        [
+          "作者项目页",
+          "https://xiaokunfeng.github.io/EmbodiedWorld-200K/"
+        ]
+      ],
+      "paperId": "arxiv:2610.25959"
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "百度",
+      "team": "百度视觉技术部门",
+      "area": "自动驾驶与道路地图",
+      "faculty": [
+        "李冠彬 · Guanbin Li",
+        "中山大学计算机学院教授，论文通讯作者。",
+        "https://cse.sysu.edu.cn/teacher/LiGuanbin"
+      ],
+      "advising": [
+        "博士导师",
+        "中山大学计算机学院 2024 年博士生综合考核公示将王子杰列在李冠彬导师名下；两篇论文均为中大作者并由李冠彬通讯。",
+        "https://cse.sysu.edu.cn/article/2718"
+      ],
+      "employee": [
+        "谭啸 · Xiao Tan",
+        "同篇百度署名；其本人履历列出 2016 年入百度、2018 年起任百度视觉技术负责人。",
+        "https://tanxchong.github.io/"
+      ],
+      "id": "baidu-lanediffusion-sysu-guanbin-li",
+      "title": "LaneDiffusion: Improving Centerline Graph Learning via Prior Injected BEV Feature Generation",
+      "short": "LaneDiffusion",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_LaneDiffusion_Improving_Centerline_Graph_Learning_via_Prior_Injected_BEV_Feature_Generation_ICCV_2025_paper.html",
+      "arxiv": "2511.06272",
+      "student": [
+        "王子杰 · Zijie Wang",
+        "中大博士生，作品首页为并列第一作者，脚注说明本研究在百度实习期间完成。",
+        "https://arxiv.org/html/2511.06272"
+      ],
+      "evidence": "ICCV 正式论文列王子杰和李冠彬为中大作者，谭啸为百度作者。同稿 arXiv 首页将实习脚注直接标注在一作王子杰姓名；学校官方博士公示具名列李冠彬为导师。",
+      "extra": [
+        [
+          "同稿首页实习脚注",
+          "https://arxiv.org/html/2511.06272"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "百度",
+      "team": "百度视觉技术部门",
+      "area": "自动驾驶与道路地图",
+      "faculty": [
+        "李冠彬 · Guanbin Li",
+        "中山大学计算机学院教授，论文通讯作者。",
+        "https://cse.sysu.edu.cn/teacher/LiGuanbin"
+      ],
+      "advising": [
+        "博士导师",
+        "中山大学计算机学院 2024 年博士生综合考核公示将王子杰列在李冠彬导师名下；两篇论文均为中大作者并由李冠彬通讯。",
+        "https://cse.sysu.edu.cn/article/2718"
+      ],
+      "employee": [
+        "谭啸 · Xiao Tan",
+        "同篇百度署名；其本人履历列出 2016 年入百度、2018 年起任百度视觉技术负责人。",
+        "https://tanxchong.github.io/"
+      ],
+      "id": "baidu-optimvmap-sysu-guanbin-li",
+      "title": "OptiMVMap: Offline Vectorized Map Construction via Optimal Multi-vehicle Perspectives",
+      "short": "OptiMVMap",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.html",
+      "arxiv": "2604.17135",
+      "student": [
+        "王子杰 · Zijie Wang",
+        "中大博士生，共同第一作者；CVPR 首页将同一百度实习脚注标在王子杰及另一共同第一作者姓名上。",
+        "https://openaccess.thecvf.com/content/CVPR2026/papers/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.pdf"
+      ],
+      "evidence": "正式稿在王子杰姓名标注实习脚注，指出这项离线多车建图工作在百度参与；中大院系招生公示具名列其博士导师李冠彬，同篇由李冠彬通讯，百度视觉技术负责人谭啸为合著者。该研究的多车建图任务与前一篇车道中心线生成不同。",
+      "extra": [
+        [
+          "同篇正式 PDF",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.pdf"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "美团",
+      "team": "美团视觉研究",
+      "area": "多模态视觉识别",
+      "faculty": [
+        "李冠彬 · Guanbin Li",
+        "中山大学计算机学院教授、博士生导师；同篇通讯作者。",
+        "https://cse.sysu.edu.cn/teacher/LiGuanbin"
+      ],
+      "advising": [
+        "博士导师",
+        "中山大学计算机学院 2023 年拟录取博士公示具名列李佳铭及其拟录取博导李冠彬，随后同篇出版材料均署二人为中山大学。",
+        "https://cse.sysu.edu.cn/article/2674"
+      ],
+      "employee": [
+        "马琳 · Lin Ma",
+        "同篇署美团；本人职业主页载曾于 2020 年从腾讯任职转入美团，此后以美团正式研究员署名。",
+        "https://forestlinma.com/"
+      ],
+      "id": "meituan-cmac-sysu-guanbin-li",
+      "title": "Cross-Modal Attention Calibration for LVLM Hallucination Mitigation",
+      "short": "CMAC",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.pdf",
+      "arxiv": "2501.01926",
+      "student": [
+        "李佳铭 · Jiaming Li",
+        "中山大学计算机学院博士生，2023 年录取；CVPR 论文以姓名脚注明确标记本篇源于其美团实习。",
+        "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.pdf"
+      ],
+      "evidence": "CVPR 论文具名标注共同第一作者李佳铭在美团实习时完成该工作。校方博士招生公示具名列李冠彬为其导师，李冠彬同篇通讯；美团正式研究员马琳同篇署名。作者预印本和正式发表成果按同一项目追溯。",
+      "extra": [
+        [
+          "该研究早期版本及作者代码",
+          "https://arxiv.org/abs/2501.01926"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "美团",
+      "team": "美团视觉研究",
+      "area": "多模态视觉识别",
+      "faculty": [
+        "李冠彬 · Guanbin Li",
+        "中山大学计算机学院教授、博士生导师；同篇通讯作者。",
+        "https://cse.sysu.edu.cn/teacher/LiGuanbin"
+      ],
+      "advising": [
+        "博士导师",
+        "中山大学计算机学院 2023 年拟录取博士公示具名列李佳铭及其拟录取博导李冠彬，随后同篇出版材料均署二人为中山大学。",
+        "https://cse.sysu.edu.cn/article/2674"
+      ],
+      "employee": [
+        "马琳 · Lin Ma",
+        "同篇署美团；本人职业主页载曾于 2020 年从腾讯任职转入美团，此后以美团正式研究员署名。",
+        "https://forestlinma.com/"
+      ],
+      "id": "meituan-guided-sysu-guanbin-li",
+      "title": "GUIDED: Granular Understanding via Identification, Detection, and Discrimination for Fine-Grained Open-Vocabulary Object Detection",
+      "short": "GUIDED",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "paper": "https://proceedings.nips.cc/paper_files/paper/2025/hash/3b00f67a2e03916b26f56b66b38445f7-Abstract-Conference.html",
+      "arxiv": "2603.27014",
+      "student": [
+        "李佳铭 · Jiaming Li",
+        "中山大学计算机学院在读博士，论文以学校和美团双署名，并具名标注该研究在美团实习时完成。",
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/3b00f67a2e03916b26f56b66b38445f7-Paper-Conference.pdf"
+      ],
+      "evidence": "NeurIPS 正式版首页明确将美团实习脚注标注于李佳铭本人；马琳为美团正式研究员同篇署名。中山大学公示具名列李冠彬为博士导师，他是正式论文通讯作者。该项目为细粒度开放词汇目标检测，与同一学生的模型幻觉校准论文不同。",
+      "extra": [
+        [
+          "正式稿首页脚注",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/3b00f67a2e03916b26f56b66b38445f7-Paper-Conference.pdf"
+        ],
+        [
+          "企业合著者本人书目",
+          "https://forestlinma.com/Publications"
+        ]
+      ]
     }
   ]
 };
