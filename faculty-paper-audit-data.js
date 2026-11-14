@@ -22355,7 +22355,7 @@ const facultyPaperAudits = {
   "i_aajNoAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://collegeai.tsinghua.edu.cn/en/info/1301/1098.htm",
       "https://yimingli-page.github.io/",
@@ -22363,7 +22363,10 @@ const facultyPaperAudits = {
       "https://github.com/THUSI-Lab",
       "https://dblp.org/pid/l/YimingLi-3.html",
       "https://orcid.org/0000-0002-0157-6218",
-      "https://research.nvidia.com/labs/aspire/author/yiming-li/"
+      "https://research.nvidia.com/labs/aspire/author/yiming-li/",
+      "https://www.alphaxiv.org/@yiming-li",
+      "https://vision4robotics.github.io/authors/yiming-li/",
+      "https://selen-suyue.github.io/"
     ],
     "papers": [
       {
@@ -22434,7 +22437,7 @@ const facultyPaperAudits = {
         "year": 2024,
         "url": "https://doi.org/10.1109/CVPR52733.2024.02081",
         "outcome": "no-evidence",
-        "note": "2024 年：CVF 正式稿与 arXiv:2406.09383 合并；全体署 NYU，且数据工程不见范围内企业同篇作者。"
+        "note": "2024 年：CVF 正式稿与 arXiv:2406.09383 合并；全体作者署 NYU；正文记载与 May Mobility 共同建设数据集，但该企业不在调查范围。"
       },
       {
         "title": "RadarOcc: Robust 3D Occupancy Prediction with 4D Imaging Radar",
@@ -22502,9 +22505,9 @@ const facultyPaperAudits = {
       {
         "title": "Unraveling the Effects of Synthetic Data on End-to-End Autonomous Driving",
         "year": 2025,
-        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ge_Unraveling_the_Effects_of_Synthetic_Data_on_End-to-End_Autonomous_Driving_ICCV_2025_paper.pdf",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.02680",
         "outcome": "no-evidence",
-        "note": "2025 年：CVF 正式稿列上海交大、NYU、ETH Zurich、上海人工智能实验室与巴黎卓越工程师学院；未见范围内企业署名。"
+        "note": "2025 年：ICCV 正式版与 arXiv:2503.18108 合并；CVF 原文列上海交大、NYU、ETH Zurich、上海人工智能实验室与巴黎卓越工程师学院，未见范围内企业署名。"
       },
       {
         "title": "CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting",
@@ -22539,7 +22542,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/abs/2610.28698",
         "outcome": "no-evidence",
-        "note": "2026 年：原文有清华、国科大、香港大学、NUS、北大和米哈游；作者脚注说明部分代码或实验在米哈游团队完成，米哈游不在项目企业范围。"
+        "note": "2026 年：原文有清华、国科大、香港大学、NUS、北大和米哈游；三位共同第一作者的脚注注明在米哈游团队实习期间完成，米哈游不在项目企业范围。"
       },
       {
         "title": "Thinking in 360°: Humanoid Visual Search in the Wild",
@@ -22551,9 +22554,9 @@ const facultyPaperAudits = {
       {
         "title": "Towards Spatial Supersensing in the Wild",
         "year": 2026,
-        "url": "https://doi.org/10.48550/arXiv.2607.13681",
+        "url": "https://doi.org/10.1007/978-3-032-37174-4_25",
         "outcome": "no-evidence",
-        "note": "2026 年：原文署清华、NVIDIA 和斯坦福；未见项目企业或对应人员署名。"
+        "note": "2026 年：ECCV 正式版与 arXiv:2607.13681 合并；正式署名单位清华、NVIDIA、斯坦福、伦敦国王学院、达姆施塔特工业大学，未见范围内企业。"
       },
       {
         "title": "Wanderland: Geometrically Grounded Simulation for Open-World Embodied AI",
@@ -22565,9 +22568,9 @@ const facultyPaperAudits = {
       {
         "title": "WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence",
         "year": 2026,
-        "url": "https://doi.org/10.48550/arXiv.2607.06838",
+        "url": "https://doi.org/10.1007/978-3-032-37023-5_31",
         "outcome": "no-evidence",
-        "note": "2026 年：预印本署 May Mobility、NYU、NVIDIA、Stanford；May Mobility 和 NVIDIA 不在项目范围。"
+        "note": "2026 年：ECCV 正式版与 arXiv:2607.06838 合并；正式卷期署 May Mobility、NYU、NVIDIA、Stanford；两家企业均不在项目范围。"
       },
       {
         "title": "Adversarial Blur-Deblur Network for Robust UAV Tracking",
@@ -22644,7 +22647,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/abs/2609.18243",
         "outcome": "no-evidence",
-        "note": "2026 年：打开全文核对作者脚注，李一鸣、俞贺扬等署清华，署名单位还包括浙大、北大、上海交大、南开和中大；未见范围内企业。"
+        "note": "2026 年：打开全文核对作者脚注，李一鸣、Heyang Yu 等署清华，署名单位还包括浙大、北大、上海交大、南开和中大；未见范围内企业。"
       },
       {
         "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
@@ -22731,7 +22734,7 @@ const facultyPaperAudits = {
         "note": "2026 年：与 GameScaling 同一校企团队，但本篇是独立的视频评测论文。原文明确共同一作在米哈游实习期间完成；米哈游不在项目企业范围，MiniMax 和 Kimi 仅用于测评。"
       }
     ],
-    "note": "已逐篇核查 52 篇。清华入职档案、本人精选、NYU 课题组、清华空间智能团队、同一 DBLP/ORCID 交叉确定身份和作品。2026 年 3 月入职清华；不将当前职位套入此前 NYU 读博和 NVIDIA 任职阶段。本人书目只列精选，已交叉增补团队项目、出版商原文、共同作者作品清单；OneWM 留待补核。正在查索引提示的一篇工作坊候选及更多同名污染。"
+    "note": "已逐篇核查 52 篇。清华入职档案、本人精选、NYU 课题组、清华空间智能团队、同一 DBLP/ORCID 交叉确定身份和作品。2026 年 3 月入职清华；不将当前职位套入此前 NYU 读博和 NVIDIA 任职阶段。已核完这些独立来源交叉覆盖的公开论文，按正式卷期或仅有预印本的日期去重。报道称 VGGT-ρ 为已撤回的 ICLR 2027 投稿，截止日内没有可复核公开原文或可靠的作者机构，未计。剔除由同济在读博士的导师履历证实的同名 MARL 作者，及 Idiap、浙大信息安全等同名项。OneWM 已核原文和学生履历，仍缺企业项目与员工证据。"
   },
   "h8XVAkgAAAAJ": {
     "from": "2023-01-01",
@@ -23063,6 +23066,153 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "3 个公开版本合并；v3 增加两位上海交大作者，另外三位署中国科大。致谢及作者单位未见目标企业参与。"
+      }
+    ]
+  },
+  "KmmqNvQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://csjhcui.github.io/publications.html",
+      "https://csjhcui.github.io/people.html",
+      "https://dblp.org/pid/156/2428-1.html",
+      "https://orcid.org/0000-0002-3252-7937",
+      "https://xplorestaging.ieee.org/author/37085483905"
+    ],
+    "papers": [
+      {
+        "title": "Multi-dimensional differentiated key-value cache compaction scheme for large language model inference",
+        "url": "https://www.joca.cn/EN/10.11772/j.issn.1001-9081.2026060751",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "《计算机应用》2026-10-26 在线版。崔金华实验室成员页具名列王嗣童为在读成员，正式题录列院校，没有目标企业共同作者或本篇企业项目证据。"
+      },
+      {
+        "title": "Seg-FTL: A new Segment-Based FTL with Dynamic Linear Model for Enhanced SSD Performance",
+        "url": "https://doi.org/10.1145/3799988",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ACM DOI、作者团队档案及第一作者公开实现相符。已确认研究学生与教师身份，正式出版署名细节未全部取得；仍查是否有范围企业作者和学生企业贡献。"
+      },
+      {
+        "title": "WOM-FTL: An Efficient FTL for High-Density Flash Memory Through WOM-v Codes",
+        "url": "https://doi.org/10.1109/TCAD.2025.3571833",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "IEEE 期刊卷期与团队书目对应，唐凯在组内名录列 2025-06 结业。期刊版设计了 FTL；与 2023 安全删除会议论文技术任务不同。待补齐期刊全文署名和致谢。"
+      },
+      {
+        "title": "Device-Level Optimization Techniques for Solid-State Drives: A Survey",
+        "url": "https://arxiv.org/html/2507.10573v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "作者单位为香港城市大学、武汉理工大学、华中科大、厦门大学和穆罕默德·本·扎耶德人工智能大学。综述提及产业产品本身不表明企业参与。"
+      },
+      {
+        "title": "SecureIMR: A Plausibly Deniable Storage System for Interlaced Magnetic Recording",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-8399-7_21",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICA3PP 2025 与 arXiv:2506.08018 在 2026 年出版的正式卷合并。正式机构栏仅列华中科大及西安交大，没有范围内企业署名。"
+      },
+      {
+        "title": "Z-STREAM: A Transparent Reordering Engine for High-Performance Zoned Namespace SSDs",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-8399-7_26",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICA3PP 2025 正式卷于 2026 出版。正式机构栏为华中科大；成员页具名闻沧浩与付轩轩为组内学生。2026 录用扩展稿仍在核对出版及是否同项。"
+      },
+      {
+        "title": "MASan: A Multi-Pass-Aware Sanitization Mechanism for High-Density SSDs",
+        "url": "https://doi.org/10.1109/ISPA67752.2025.00046",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "会议正式目录列华中科大、中科院计算所和郑州大学。未见范围内企业或学生企业实研证据。"
+      },
+      {
+        "title": "PDFlash: Plausibly Deniable Flash Storage System Through Data Compression",
+        "url": "https://doi.org/10.1109/ISPA67752.2025.00203",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "会议正式目录的作者只署华中科大、中科院计算所，未见目标企业参与。"
+      },
+      {
+        "title": "Enhancing Zone Cleaning Efficiency and Lifespan of ZNS SSDs by Investigating Internal Details",
+        "url": "https://doi.org/10.1109/ISPA67752.2025.00028",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "会议正式目录给出华中科大、中科院计算所、河南大学和郑州大学，未发现目标企业证据。"
+      },
+      {
+        "title": "Leveraging Artificial Intelligence in the Fight Against Aortic Calcification",
+        "url": "https://doi.org/10.1097/CM9.0000000000003440",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "期刊正式题录是包含华中科大与川大等医院科研团队的综述，未发现范围内企业证据。"
+      },
+      {
+        "title": "Light weight Small Object Detection Algorithm for UAV Platforms",
+        "url": "https://csjhcui.github.io/publications.html",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "教师公开书目具名列河南大学学报自然科学版 55(1):1–11；仍查期刊原文作者机构和致谢。"
+      },
+      {
+        "title": "Tensor-Empowered Hardware-Friendly Lightweight Deep Neural Networks for Vehicular Edge Computing",
+        "url": "https://doi.org/10.1109/TCE.2024.3480139",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IEEE 2025 卷刊与原书目相符，部分可见作者机构含华中科大；仍查完整企业署名、项目和作者身份。"
+      },
+      {
+        "title": "SmartNetSSD: Exploiting Path Resources for Read Performance Improvement in Network-Based SSDs",
+        "url": "https://doi.org/10.1109/ICCD63220.2024.00061",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "会议卷目录逐人列华中科大与西安交大；实验室成员页可定位本校学生，未发现目标企业共同作者。"
+      },
+      {
+        "title": "Optimizing Secure Deletion in Interlaced Magnetic Recording With Move-on-Cover Approach",
+        "url": "https://doi.org/10.1109/TCAD.2024.3387341",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "IEEE 正式出版记录列四位作者，待核正式版单位与致谢。"
+      },
+      {
+        "title": "An Efficient Tensor-Based Transformer for Industrial Internet of Things",
+        "url": "https://doi.org/10.1109/TNSE.2023.3264544",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "2023 在线、2024 正式卷。已核出版身份及部分作者机构，仍查全部署名和论文支持项。"
+      },
+      {
+        "title": "A Fast Secure Deletion Strategy for High-Density Flash Memory through WOM-v Codes",
+        "url": "https://doi.org/10.1109/DAC56929.2023.10247911",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "DAC 官方程序三位作者同属华中科大；唐凯也是组内学生，未发现目标企业署名或在企项目参与。"
+      },
+      {
+        "title": "A Space-Efficient Fair Cache Scheme Based on Machine Learning for NVMe SSDs",
+        "url": "https://doi.org/10.1109/TPDS.2022.3221410",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 在线稿 2022、正式卷 2023。题录机构为华中科大（兼列圣弗朗西斯泽维尔大学），实验室列刘伟光为当时学生。未发现范围内企业。"
+      },
+      {
+        "title": "Improving 3-D NAND SSD Read Performance by Parallelizing Read-Retry",
+        "url": "https://doi.org/10.1109/TCAD.2022.3191256",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "IEEE 期刊正式卷 2023，已经核对作者名单，仍查可确认全部作者单位和致谢的来源。"
+      },
+      {
+        "title": "Adaptive KV Cache Reuse for Fast Long-Context LLM Serving",
+        "url": "https://arxiv.org/html/2605.24022v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文逐名标注西安交通大学及华中科大，未见目标企业参与。"
       }
     ]
   }
