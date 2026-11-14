@@ -7566,7 +7566,10 @@ const facultyPaperAudits = {
       "https://hsing-wang.github.io/academic_homepage/",
       "https://github.com/codefuse-ai/CodeFuse-Embeddings",
       "https://huggingface.co/Geralt-Targaryen",
-      "https://pengd.github.io/"
+      "https://pengd.github.io/",
+      "https://wangym2001.github.io/",
+      "https://paris2025.gosim.org/speakers/baosong-yang/",
+      "https://dblp.org/pid/w/RuiWang15.html"
     ],
     "papers": [
       {
@@ -7644,7 +7647,35 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://proceedings.mlr.press/v306/zhang26dh.html",
         "outcome": "confirmed",
-        "note": "ICML 正式版、学生实名在蚂蚁 CodeFuse 官网提交的独立项目与师承一致。ML-Embed 将 3D Matryoshka 学习中的 MEL/MLL 联合用于公开模型；同一团队另发的 F2LLM-v2 预印本如属相同研究版本将作为技术报告归并，不额外加数。企业通讯取杭宇，以适用 2026 年 4 月后在职证据。"
+        "note": "ICML 正式版、学生实名在蚂蚁 CodeFuse 官网提交的独立项目与师承一致。ML-Embed 将 3D Matryoshka 学习中的 MEL/MLL 联合用于公开模型；同一团队另发的 F2LLM-v2 预印本如属相同研究版本将作为技术报告归并，不额外加数。企业通讯取杭宇，以适用 2026 年 4 月后在职证据。 蚂蚁模型页明确使用 F2LLM-v2 数据，报告作为相关来源留档，本轮不另加关系。"
+      },
+      {
+        "title": "DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning",
+        "year": 2026,
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/df7b97ccf54c528516b62aa9a012d02a-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式原文首页明确何志威等在腾讯实习期间完成工作，上交博导王瑞和腾讯研究员 Zhaopeng Tu 同为通讯。首稿 2025 年 4 月，2026 正式版及校内项目页面共同核实；与视觉数据 DeepVision 或自然语言定理的 DeepTheorem 分属不同研究。"
+      },
+      {
+        "title": "DeepTheorem: Advancing LLM Reasoning for Theorem Proving Through Natural Language and Reinforcement Learning",
+        "year": 2025,
+        "url": "https://arxiv.org/pdf/2505.23754v2",
+        "outcome": "confirmed",
+        "note": "v2 首页具名张子殷、何志威和 Yansi Li 在腾讯 AI Lab 实习完成工作；张子殷是王瑞当期上交在读研究生，王瑞和腾讯研究员 Zhaopeng Tu 共同通讯。三位实习生只合计一篇。与 DeepMath 的训练数据及数学题答任务不同，此篇独立验证自然语言定理和证明。"
+      },
+      {
+        "title": "PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts",
+        "year": 2025,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3d5aa9a7ce28cdc710fbd044fd3610f3-Abstract-Datasets_and_Benchmarks_Track.html",
+        "outcome": "confirmed",
+        "note": "王一鸣在上交在读并由王瑞指导，作者履历明确阿里 Qwen 实习时间和具名企业导师，且单列论文与 Qwen 代码。阿里项目页标王一鸣双署，企业导师 Baosong Yang 为同篇作者。2025 年 4 月首稿在人事重叠期间，12 月正式收录。"
+      },
+      {
+        "title": "Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code",
+        "year": 2024,
+        "url": "https://openreview.net/pdf?id=hkNnGqZnpa",
+        "outcome": "confirmed",
+        "note": "TMLR 正文首页标明张子殷为上交和蚂蚁双署第一作者，王瑞及蚂蚁 Hang Yu 为通讯。出版稿把蚂蚁仓库列为综述的开放更新；学生在该官方仓库于同年 6 月更新论文目录，9 月发布正式引用。以此确认企业研究参与，未推定具体实习身份。"
       }
     ],
     "note": "已开始按正式出版、个人及企业项目记录逐篇审查；补论文书目与其余共同发表后再标全部。"
@@ -7852,7 +7883,32 @@ const facultyPaperAudits = {
       "https://www.languagesciences.cam.ac.uk/people/dr-zihao-fu",
       "https://orcid.org/0000-0001-5479-377X",
       "https://dblp.org/pid/48/1707.html",
-      "https://aclanthology.org/people/wai-lam/"
+      "https://aclanthology.org/people/wai-lam/",
+      "https://www.sciencedirect.com/science/article/pii/S0020025525009879",
+      "https://scholars.ln.edu.hk/en/publications/mfg-scisum-a-multimodal-faceted-graph-framework-for-scientific-su/",
+      "https://doi.org/10.1145/3715097",
+      "https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2026-02/ydeng-CV.pdf",
+      "https://doi.org/10.1145/3726302.3731684",
+      "https://dengyang17.github.io/files/sigir25-knowledge-boundary-tutorial.pdf",
+      "https://doi.org/10.1109/TKDE.2022.3230975",
+      "https://research.cuhk.edu.hk/en/publications/a-survey-on-aspect-based-sentiment-analysis-tasks-methods-and-cha-2/",
+      "https://arxiv.org/abs/2203.01054",
+      "https://doi.org/10.1109/TKDE.2022.3225109",
+      "https://research.cuhk.edu.hk/en/publications/leveraging-long-short-term-user-preference-in-conversational-reco-2/",
+      "https://dengyang17.github.io/",
+      "https://sites.google.com/site/yaliangli/",
+      "https://arxiv.org/abs/2309.04725",
+      "https://arxiv.org/html/2309.04725",
+      "https://openreview.net/forum?id=Hvq9RtSoHG",
+      "https://arxiv.org/abs/2305.10276",
+      "https://openreview.net/pdf?id=Hvq9RtSoHG",
+      "https://arxiv.org/abs/2304.04052",
+      "https://arxiv.org/html/2304.04052",
+      "https://doi.org/10.1145/3539618.3592009",
+      "https://ink.library.smu.edu.sg/sis_research/9106/",
+      "https://www.ijcai.org/proceedings/2023/738",
+      "https://www.ijcai.org/proceedings/2023/0738.pdf",
+      "https://arxiv.org/abs/2305.02750"
     ],
     "papers": [
       {
@@ -8220,7 +8276,7 @@ const facultyPaperAudits = {
         "title": "Unveiling the Entropy Dynamics of Chain-of-Thought Reasoning",
         "url": "https://arxiv.org/abs/2606.02020",
         "outcome": "lead",
-        "note": "Ting Xu 博士导师明确；论文缺具名企业实习脚注、还需查证学生和同篇企业人员的项目归属。",
+        "note": "本文署多名华为研究人员，第一作者 Ting Xu 的博士导师明确；检查原始正文无具名华为项目脚注、无独立履历将学生研究归到本篇。",
         "year": 2026
       },
       {
@@ -8339,7 +8395,7 @@ const facultyPaperAudits = {
         "title": "Plug-and-Play Policy Planner for Large Language Model Powered Dialogue Agents",
         "url": "https://openreview.net/forum?id=MCNqgUFTHI",
         "outcome": "lead",
-        "note": "已核 ICLR 作者表、预印本及港中文出版记录；纵有企业署名，未查到具名博士生在本企业做该论文的支持材料。",
+        "note": "已核 ICLR 作者表、预印本及港中文出版记录；没查到具名博士生在范围企业做该论文的支持材料。",
         "year": 2024
       },
       {
@@ -8361,6 +8417,83 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1609/aaai.v37i11.26505",
         "outcome": "lead",
         "note": "学校保留正式全文；阿里和港中文作者均可核，未发现 Haoran Yang 在阿里参与本篇研究的明确依据；曾受指导的第一作者已署剑桥。",
+        "year": 2023
+      },
+      {
+        "title": "DepWiGNN: A Depth-wise Graph Neural Network for Multi-hop Spatial Reasoning in Text",
+        "url": "https://aclanthology.org/2023.findings-emnlp.428/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2023
+      },
+      {
+        "title": "MFG-SciSum: A multimodal faceted graph framework for scientific summarization",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0020025525009879",
+        "outcome": "no-evidence",
+        "note": "出版社明确记录作者贡献；无该项目中同篇在读学生与范围企业工作证据。",
+        "year": 2026
+      },
+      {
+        "title": "Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities",
+        "url": "https://doi.org/10.1145/3715097",
+        "outcome": "no-evidence",
+        "note": "期刊载独立六人综述，作者和资助公开材料不足以证明范围内企业的学生科研。",
+        "year": 2025
+      },
+      {
+        "title": "Unveiling Knowledge Boundary of Large Language Models for Trustworthy Information Access",
+        "url": "https://doi.org/10.1145/3726302.3731684",
+        "outcome": "no-evidence",
+        "note": "会议教程作者均署学研单位；未查到相关企业人员与具名学生对同一企业研究的参与。",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges",
+        "url": "https://doi.org/10.1109/TKDE.2022.3230975",
+        "outcome": "lead",
+        "note": "期刊最终卷期在 2023 年，合并 2022 年预印本；正式作者包括阿里人员，未发现具名港中文学生是作为在企业研究者参与这一综述的证据。",
+        "year": 2023
+      },
+      {
+        "title": "Leveraging Long Short-Term User Preference in Conversational Recommendation via Multi-agent Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TKDE.2022.3225109",
+        "outcome": "lead",
+        "note": "港中文研究门户记载和阿里合作；邓扬的博士导师与企业在册同篇共同作者可核，但未找到材料明确说明学生在阿里开展本篇研究。",
+        "year": 2023
+      },
+      {
+        "title": "EPA: Easy Prompt Augmentation on Large Language Models via Multiple Sources and Multiple Targets",
+        "url": "https://arxiv.org/abs/2309.04725",
+        "outcome": "no-evidence",
+        "note": "核对 arXiv 原文作者、单位与措辞，未查到范围内企业与受指导学生共同参与该项企业研究的材料。",
+        "year": 2023
+      },
+      {
+        "title": "Chain-of-Symbol Prompting for Spatial Relationships in Large Language Models",
+        "url": "https://openreview.net/forum?id=Hvq9RtSoHG",
+        "outcome": "no-evidence",
+        "note": "对照 COLM 正式版与早期改题预印本；作者署学研机构，未发现十四家企业中的研究链。",
+        "year": 2024
+      },
+      {
+        "title": "Decoder-Only or Encoder-Decoder? Interpreting Language Model as a Regularized Encoder-Decoder",
+        "url": "https://arxiv.org/abs/2304.04052",
+        "outcome": "lead",
+        "note": "论文有京东正式研究者与前港中文博士，第一作者当时署剑桥；未找到仍在读且由论文中的合资格教师指导并参加京东本项研究的作者。",
+        "year": 2023
+      },
+      {
+        "title": "Learning to Ask Clarification Questions with Spatial Reasoning",
+        "url": "https://doi.org/10.1145/3539618.3592009",
+        "outcome": "no-evidence",
+        "note": "正式作者表为学术作者；未见范围内企业人员与具体项目中受指导学生同篇证据。",
+        "year": 2023
+      },
+      {
+        "title": "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects",
+        "url": "https://www.ijcai.org/proceedings/2023/738",
+        "outcome": "no-evidence",
+        "note": "正式版记载新加坡国立大学、四川大学、港中文和资助渠道，无符合范围的企业研究参与。",
         "year": 2023
       }
     ],
@@ -30410,7 +30543,10 @@ const facultyPaperAudits = {
       "https://conf.researchr.org/profile/guoquanwu",
       "https://2025.aiwareconf.org/profile/haoxiangtian",
       "https://changxiaoning.github.io/",
-      "https://people.ucas.ac.cn/~wchen"
+      "https://people.ucas.ac.cn/~wchen",
+      "https://doi.org/10.4230/dblp.xml.2026-11-01",
+      "https://api.crossref.org/works/10.1145/3843235",
+      "https://api.crossref.org/works/10.1109/ICRA55743.2025.11128674"
     ],
     "papers": [
       {
@@ -30425,14 +30561,14 @@ const facultyPaperAudits = {
         "title": "Discovering Safety Violations of Decision-Making in Autonomous Driving Systems from Accident-Free Traffic Scenarios",
         "url": "https://doi.org/10.1145/3787978",
         "outcome": "no-evidence",
-        "note": "正式版与 arXiv:2406.10857 为同一 CRISER 项目；作者署中科院、南洋理工与非范围企业机构。百度 Apollo 是受测系统，未见百度员工署名或学生在百度参与本项目。"
+        "note": "ACM 正式文章是无事故视频的 CRISER，与 arXiv:2406.10857v2 的方案、研究问题与仓库对应；v1 的 LEADE 实验另对应《软件学报》论文。正刊及预印本署高校或公开研究机构，百度 Apollo 是被测系统。"
       },
       {
         "year": 2026,
         "title": "基于路网建模的自动驾驶关键场景生成与自适应演化方法",
         "url": "https://doi.org/10.13328/j.cnki.jos.007471",
         "outcome": "no-evidence",
-        "note": "软件学报正式文署高校和研究所；研究对象为路网模型与自动驾驶测试系统，未见范围内企业员工署名或在读企业参与。"
+        "note": "《软件学报》定稿为 LEADE（2025-09-17 在线、2026-04-06 卷期），报道 Apollo 上 10 种安全违背及 4 种新增场景，与 arXiv:2406.10857v1 的实验对应；该预印本第二版内容转向后来独立发表的 CRISER。百度 Apollo 是被测平台，未见企业人员署名。"
       },
       {
         "year": 2026,
@@ -30570,9 +30706,9 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "A Constraint-Based Test Scenario Description and Generation Framework for Autonomous Driving Systems",
-        "url": "https://papers.ssrn.com/sol3/Delivery.cfm/aeae9cb4-8127-49d7-a802-e4c804c37432-MECA.pdf?abstractid=6711810&mirid=1",
+        "url": "https://doi.org/10.2139/ssrn.6711810",
         "outcome": "no-evidence",
-        "note": "SSRN 以 CreScent 项目公开；不同于基于无事故视频的 CRISER。已核对可见单位和摘要；部分作者单位未在平台页面列出，未见范围内企业或具名学生企业参与。"
+        "note": "SSRN 2026-05-04 公开 CreScent 书目和摘要；约束求解方法不同于 CRISER 或 LEADE。八位作者姓名可核，SSRN 未列吴国全、郭安、魏峻、陈伟的论文署名单位，未能核对全文致谢与项目参与，仅按可见证据判定。"
       },
       {
         "year": 2026,
@@ -30582,7 +30718,7 @@ const facultyPaperAudits = {
         "note": "ACM TOSEM 2026-09-17 正式在线。ACM 提交的 Crossref 题录列六位作者均署中科院软件所；早期 arXiv:2504.19237 曾署范围外的广东电网，正式版调整作者，方法及项目相同，只计一篇。"
       }
     ],
-    "note": "交叉核对国科大导师页、中科院软件工程组、ORCID 对应的 DBLP 条目及出版方来源。已区分同名的控制工程及无人机通信作者；一个成果的正式版和预印本合并。少数正式全文、预印本的期刊版本以及其他未必已公开的书目仍待核；HitMem 有阿里巴巴署名，但尚无学生在阿里参与本项目的证据。"
+    "note": "交叉核对 2023-01-01 至 2026-11-12 的国科大导师书目、中科院软件工程组、2026-11-01 完整 DBLP 快照、相关合作者个人书目、期刊及出版方登记信息。按论文单位和 ORCID 排除化工、通信与南科大同名作者，校方全部可辨识题录已列且预印本与正式版合并。CreScent 目前仅能核 SSRN 题录、摘要及部分作者机构，未能读取全文与致谢；保留梳理中。"
   },
   "xdcv7wQAAAAJ": {
     "from": "2023-01-01",
@@ -30866,7 +31002,7 @@ const facultyPaperAudits = {
         "year": 2025,
         "url": "https://doi.org/10.1016/j.ipm.2025.104236",
         "outcome": "no-evidence",
-        "note": "Elsevier 正刊：复旦／金融科技研究院、南京大学合作的图提示论文，未见目标企业员工。"
+        "note": "Elsevier 正刊及 JST 逐作者机构记录：复旦大学计算机学院、金融科技研究院与天津大学智能与计算学部合作；未见目标企业员工。"
       },
       {
         "title": "CI-STHPAN: Pre-trained Attention Network for Stock Selection with Channel-Independent Spatio-Temporal Hypergraph",
@@ -30917,7 +31053,7 @@ const facultyPaperAudits = {
         "title": "基于路网建模的自动驾驶关键场景生成与自适应演化方法",
         "url": "https://doi.org/10.13328/j.cnki.jos.007471",
         "outcome": "no-evidence",
-        "note": "软件学报正式文署高校和研究所；研究对象为路网模型与自动驾驶测试系统，未见范围内企业员工署名或在读企业参与。"
+        "note": "《软件学报》定稿为 LEADE（2025-09-17 在线、2026-04-06 卷期），报道 Apollo 上 10 种安全违背及 4 种新增场景，与 arXiv:2406.10857v1 的实验对应；该预印本第二版内容转向后来独立发表的 CRISER。百度 Apollo 是被测平台，未见企业人员署名。"
       },
       {
         "year": 2026,
@@ -30964,9 +31100,9 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "A Constraint-Based Test Scenario Description and Generation Framework for Autonomous Driving Systems",
-        "url": "https://papers.ssrn.com/sol3/Delivery.cfm/aeae9cb4-8127-49d7-a802-e4c804c37432-MECA.pdf?abstractid=6711810&mirid=1",
+        "url": "https://doi.org/10.2139/ssrn.6711810",
         "outcome": "no-evidence",
-        "note": "SSRN 以 CreScent 项目公开；不同于基于无事故视频的 CRISER。已核对可见单位和摘要；部分作者单位未在平台页面列出，未见范围内企业或具名学生企业参与。"
+        "note": "SSRN 2026-05-04 公开 CreScent 书目和摘要；约束求解方法不同于 CRISER 或 LEADE。八位作者姓名可核，SSRN 未列吴国全、郭安、魏峻、陈伟的论文署名单位，未能核对全文致谢与项目参与，仅按可见证据判定。"
       },
       {
         "year": 2026,

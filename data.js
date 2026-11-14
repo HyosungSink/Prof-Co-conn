@@ -37106,6 +37106,218 @@ const survey = {
         ]
       ],
       "evidence": "在 2026 年 9 月 13 日公开的 v6 正文 PDF 首页，星号唯一标注第一作者 Shuaiyi Li，说明该研究在腾讯实习期间完成。学校团队网页明确其在读及导师关系。同篇企业作者王琰有本人任职材料。"
+    },
+    {
+      "id": "deepmath-103k-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2504.11456",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯 AI Lab 首席研究员；本人主页及同期研发公开记录证明任职。原文为具名腾讯共同通讯作者，也是何志威的企业实习导师。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "上交在读博士，个人履历明确博士导师为王瑞，同时列腾讯 AI Lab 实习导师。此篇正式版具名腾讯实习期间完成。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "DeepMath-103K",
+      "title": "DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "数学推理",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/file/df7b97ccf54c528516b62aa9a012d02a-Paper-Conference.pdf",
+      "extra": [
+        [
+          "2025 年首稿",
+          "https://arxiv.org/abs/2504.11456"
+        ],
+        [
+          "具名学生发布代码",
+          "https://github.com/zwhe99/DeepMath"
+        ],
+        [
+          "校内导师关系的独立会议来源",
+          "https://cips-cl.org/static/CCL2025/en/cclProgram/hotPaper/index.html"
+        ],
+        [
+          "教师研究组",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "ICLR 正式原文首页明确何志威等在腾讯实习期间完成工作，上交博导王瑞和腾讯研究员 Zhaopeng Tu 同为通讯。首稿 2025 年 4 月，2026 正式版及校内项目页面共同核实；与视觉数据 DeepVision 或自然语言定理的 DeepTheorem 分属不同研究。",
+      "advising": [
+        "博士生导师",
+        "何志威本人履历明确列王瑞为上海交通大学博士导师，企业实习导师另列。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "deeptheorem-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2505.23754",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯 AI Lab 首席研究员；本人主页及同期研发公开记录证明任职。原文为具名腾讯共同通讯作者，也是何志威的企业实习导师。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "张子殷 · Ziyin Zhang",
+        "王瑞学生名录明确其 2023 年起在组攻读硕士，2025 年起攻读博士；本篇共同第一，原文脚注明确他在腾讯 AI Lab 实习完成。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "DeepTheorem",
+      "title": "DeepTheorem: Advancing LLM Reasoning for Theorem Proving Through Natural Language and Reinforcement Learning",
+      "date": "2025-05",
+      "venue": "arXiv 预印本",
+      "area": "数学推理",
+      "paper": "https://arxiv.org/pdf/2505.23754v2",
+      "extra": [
+        [
+          "arXiv 版本历史",
+          "https://arxiv.org/abs/2505.23754"
+        ],
+        [
+          "作者代码",
+          "https://github.com/Jiahao004/DeepTheorem"
+        ]
+      ],
+      "evidence": "v2 首页具名张子殷、何志威和 Yansi Li 在腾讯 AI Lab 实习完成工作；张子殷是王瑞当期上交在读研究生，王瑞和腾讯研究员 Zhaopeng Tu 共同通讯。三位实习生只合计一篇。与 DeepMath 的训练数据及数学题答任务不同，此篇独立验证自然语言定理和证明。",
+      "advising": [
+        "对应年份的上交导师",
+        "王瑞的组内学生名录具名该生，亦是该篇上交通讯作者。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "polymath-ant-sjtu-otu0v5iaaaaj",
+      "paperId": "doi:10.52202/085713-1431",
+      "company": "阿里巴巴",
+      "team": "通义实验室 · Qwen",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Baosong Yang",
+        "GOSIM 2025 具名演讲者资料确认其为阿里通义实验室科学家、Qwen 多语种研发负责人；王一鸣明确其为该期企业实习导师。",
+        "https://paris2025.gosim.org/speakers/baosong-yang/"
+      ],
+      "student": [
+        "王一鸣 · Yiming Wang",
+        "上交博士生，2024 年 7 月至 2025 年 9 月在阿里 Qwen 实习，企业导师 Baosong Yang；个人列本项目，正式论文具名作者且首版双署。",
+        "https://wangym2001.github.io/"
+      ],
+      "short": "PolyMath",
+      "title": "PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts",
+      "date": "2025-12",
+      "venue": "NeurIPS 2025",
+      "area": "多语种数学推理",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3d5aa9a7ce28cdc710fbd044fd3610f3-Abstract-Datasets_and_Benchmarks_Track.html",
+      "extra": [
+        [
+          "Qwen 项目作者、机构与正式代码",
+          "https://qwen-polymath.github.io/"
+        ],
+        [
+          "阿里 Qwen 公布的代码",
+          "https://github.com/QwenLM/PolyMath"
+        ],
+        [
+          "首稿及出刊时间",
+          "https://arxiv.org/abs/2504.18428"
+        ],
+        [
+          "王瑞研究组介绍",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "王一鸣在上交在读并由王瑞指导，作者履历明确阿里 Qwen 实习时间和具名企业导师，且单列论文与 Qwen 代码。阿里项目页标王一鸣双署，企业导师 Baosong Yang 为同篇作者。2025 年 4 月首稿在人事重叠期间，12 月正式收录。",
+      "advising": [
+        "博士生导师",
+        "王一鸣本人具名王瑞为上海交大博士导师；该生 2023 年入学。",
+        "https://wangym2001.github.io/"
+      ]
+    },
+    {
+      "id": "code-llm-survey-ant-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2311.07989",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 · CodeFuse",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Hang Yu",
+        "蚂蚁技术人员、TMLR 论文企业共同通讯；2024 年 ICSE 本人资料和技术论文均署蚂蚁，IEEE 正式简介确认其为资深算法专家。",
+        "https://conf.researchr.org/profile/TechDebt-2024/hangyu1"
+      ],
+      "student": [
+        "张子殷 · Ziyin Zhang",
+        "上交在读硕士，第一作者双署上交及蚂蚁集团。本人向论文指定的蚂蚁官方仓库连续贡献和按月更新调查书目至正式刊出，账号对应可核。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "Code LLM Survey",
+      "title": "Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code",
+      "date": "2024-09",
+      "venue": "TMLR 2024",
+      "area": "代码大模型",
+      "paper": "https://arxiv.org/html/2311.07989v3",
+      "extra": [
+        [
+          "TMLR 正式发表公告",
+          "https://groups.google.com/g/tmlr-announce-weekly/c/HRAOpcQ7DNY"
+        ],
+        [
+          "TMLR 论文原址",
+          "https://openreview.net/forum?id=hkNnGqZnpa"
+        ],
+        [
+          "文章指向的蚂蚁项目",
+          "https://github.com/codefuse-ai/Awesome-Code-LLM"
+        ],
+        [
+          "学生 2024 年 6 月提交 61 行更新",
+          "https://github.com/codefuse-ai/Awesome-Code-LLM/commit/da51fd5ddf61bd09d525eef5de7160b64a6b9f11"
+        ],
+        [
+          "同年 9 月学生提交正式引用",
+          "https://github.com/codefuse-ai/Awesome-Code-LLM/commit/ae8465ed8e988ab367493cfd0b1398f63a3622f2"
+        ],
+        [
+          "账号与实名链接",
+          "https://huggingface.co/Geralt-Targaryen"
+        ]
+      ],
+      "evidence": "TMLR 正文首页标明张子殷为上交和蚂蚁双署第一作者，王瑞及蚂蚁 Hang Yu 为通讯。出版稿把蚂蚁仓库列为综述的开放更新；学生在该官方仓库于同年 6 月更新论文目录，9 月发布正式引用。以此确认企业研究参与，未推定具体实习身份。",
+      "advising": [
+        "对应年份的上交导师",
+        "王瑞课题组明确列张子殷为 2023 年入学硕士；该文王瑞为上交通讯作者。",
+        "https://wangruinlp.github.io/"
+      ]
     }
   ]
 };
