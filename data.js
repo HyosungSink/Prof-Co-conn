@@ -37363,6 +37363,731 @@ const survey = {
         "陈鑫龙的教育履历具名列谭铁牛为其国科大博士生导师；论文中谭铁牛署国科大。",
         "https://xlchen0205.github.io/"
       ]
+    },
+    {
+      "id": "qe-reward-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.naacl-long.451",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Xing Wang",
+        "公开履历确认 2018 年 7 月至 2024 年 7 月腾讯 AI Lab 任职并指导何志威；该论文首稿时仍在职。",
+        "https://hsing-wang.github.io/academic_homepage/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "上交在读博士，个人明确校内导师王瑞；对应版本原文具名他在腾讯 AI Lab 实习时完成研究。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "QE reward",
+      "title": "Improving Machine Translation with Human Feedback: An Exploration of Quality Estimation as a Reward Model",
+      "date": "2024-06",
+      "venue": "NAACL 2024",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2024.naacl-long.451.pdf",
+      "extra": [
+        [
+          "2024 年 1 月预印本",
+          "https://arxiv.org/abs/2401.12873"
+        ],
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "NAACL 正式 PDF 首页标明何志威在腾讯 AI Lab 实习期间完成，2024 年 1 月首稿与 6 月会议均处于企业共同通讯王兴的任职期。王瑞也为上交共同通讯。",
+      "advising": [
+        "博士生导师",
+        "学生公开履历具名王瑞为上交博士导师。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "word-guessing-games-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2310.20499",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Xing Wang",
+        "公开履历确认 2018 年 7 月至 2024 年 7 月腾讯 AI Lab 任职并指导何志威；该论文首稿时仍在职。",
+        "https://hsing-wang.github.io/academic_homepage/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "上交在读博士，个人明确校内导师王瑞；对应版本原文具名他在腾讯 AI Lab 实习时完成研究。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "Word Guessing Games",
+      "title": "Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models",
+      "date": "2023-10",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与机器翻译",
+      "paper": "https://arxiv.org/pdf/2310.20499v2",
+      "extra": [
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "作者 v2 首页逐一点名何志威等在腾讯 AI Lab 实习期间完成，王兴署公司且具名同篇企业通讯，王瑞在同篇署上交。研究是 2023 年文字猜词实验，与 2024 多代理辩论不同。",
+      "advising": [
+        "博士生导师",
+        "学生公开履历具名王瑞为上交博士导师。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "panel-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2503.17363",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯 AI Lab 首席研究员；本人任职介绍及学生履历可核，原文共著并署腾讯。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "上交在读博士，个人明确校内导师王瑞；对应版本原文具名他在腾讯 AI Lab 实习时完成研究。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "PANEL",
+      "title": "Dancing with Critiques: Enhancing LLM Reasoning with Stepwise Natural Language Self-Critique",
+      "date": "2025-03",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与机器翻译",
+      "paper": "https://arxiv.org/pdf/2503.17363",
+      "extra": [
+        [
+          "作者实现",
+          "https://github.com/puddingyeah/PANEL"
+        ],
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "作者原文首页明确何志威、陈星宇及 Yansi Li 在腾讯实习时开展该工作，公开毕业及在读信息表明王瑞是何志威同期博士导师；腾讯涂兆鹏同篇通讯。本成果为自然语言的逐步骤自我批评，不是同期训练数据项目。",
+      "advising": [
+        "博士生导师",
+        "学生公开履历具名王瑞为上交博士导师。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "underthinking-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2501.18585",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯 AI Lab 首席研究员；本人任职介绍及学生履历可核，原文共著并署腾讯。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "上交在读博士，个人明确校内导师王瑞；对应版本原文具名他在腾讯 AI Lab 实习时完成研究。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "Underthinking",
+      "title": "Thoughts Are All Over the Place: On the Underthinking of Long Reasoning Models",
+      "date": "2025-12",
+      "venue": "NeurIPS 2025",
+      "area": "语言模型与机器翻译",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2bfc4acb2e5c4af1576d14b0df9a664c-Paper-Conference.pdf",
+      "extra": [
+        [
+          "早期题名原文",
+          "https://arxiv.org/pdf/2501.18585v1"
+        ],
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "NeurIPS 出版版及 arXiv 首版首页具名何志威及两名学生实习于腾讯时完成此项，企业员工涂兆鹏为通讯，王瑞是具名校内博士导师并署上交。arXiv 首版旧题 o1-Like LLMs 与正式版归为一篇。",
+      "advising": [
+        "博士生导师",
+        "学生公开履历具名王瑞为上交博士导师。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "lovefiction-alibaba-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.wmt-1.96",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴 · 通义实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Baosong Yang",
+        "GOSIM 2025 官方讲者档案确认为阿里通义实验室科学家；2024 正式原文已署企业且为具名作者。",
+        "https://paris2025.gosim.org/speakers/baosong-yang/"
+      ],
+      "student": [
+        "Haoxiang Sun",
+        "上交在读，王瑞组名录确认为本人学生；2025 年之前即在王瑞组指导的上交本科生，2025 年起在同组攻读硕士；WMT 正式原文具名阿里实习。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "LoveFiction",
+      "title": "SJTU LoveFiction’s System for WMT24 Discourse-Level Literary Translation",
+      "date": "2024-11",
+      "venue": "WMT 2024",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2024.wmt-1.96.pdf",
+      "extra": [
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "WMT 正式原文首页脚注明确 Haoxiang Sun 在阿里做本项；王瑞把该生列为 2025 届本科生、随后在组读硕士，2024 的该项翻译研究处于本科时；共同作者 Baosong Yang 同年署阿里任职。英语三种语向的篇章级文学翻译与西班牙低资源语对不是同一作品。",
+      "advising": [
+        "校内导师",
+        "王瑞本人课题组名单具名学生及研究生入学年份，正式原文另有王瑞的上交署名。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "wmt-spain-alibaba-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.wmt-1.92",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴 · 通义实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Baosong Yang",
+        "GOSIM 2025 官方讲者档案确认为阿里通义实验室科学家；2024 正式原文已署企业且为具名作者。",
+        "https://paris2025.gosim.org/speakers/baosong-yang/"
+      ],
+      "student": [
+        "Tianxiang Hu",
+        "上交在读，王瑞组名录确认为本人学生；2022 年在该组攻读上交硕士；正式原文具名阿里通义实习期间完成。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "WMT Spain",
+      "title": "SJTU System Description for the WMT24 Low-Resource Languages of Spain Task",
+      "date": "2024-11",
+      "venue": "WMT 2024",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2024.wmt-1.92.pdf",
+      "extra": [
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "WMT 正式版首页脚注写明第一作者 Tianxiang Hu 在通义实验室实习期间完成，王瑞的学生名录列该生为 2022 年入学硕士，王瑞和通义正式科学家 Baosong Yang 均是本篇通讯。",
+      "advising": [
+        "校内导师",
+        "王瑞本人课题组名单具名学生及研究生入学年份，正式原文另有王瑞的上交署名。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "domain-cot-alibaba-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.findings-emnlp.328",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴 · 通义实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Baosong Yang",
+        "GOSIM 2025 官方讲者档案确认为阿里通义实验室科学家；2024 正式原文已署企业且为具名作者。",
+        "https://paris2025.gosim.org/speakers/baosong-yang/"
+      ],
+      "student": [
+        "Tianxiang Hu",
+        "上交在读，王瑞组名录确认为本人学生；2022 年在该组攻读上交硕士；正式原文具名阿里通义实习期间完成。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "Domain CoT",
+      "title": "Large Language Model for Multi-Domain Translation: Benchmarking and Domain CoT Fine-tuning",
+      "date": "2024-11",
+      "venue": "EMNLP Findings 2024",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2024.findings-emnlp.328.pdf",
+      "extra": [
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "正式 EMNLP 文集首页具名 Tianxiang Hu 在阿里通义实习期间完成研究，教师名单证明校内在读指导，王瑞和企业 Baosong Yang 共为通讯。与同年 WMT 低资源工作不同，此篇覆盖跨行业多个领域和链式训练。",
+      "advising": [
+        "校内导师",
+        "王瑞本人课题组名单具名学生及研究生入学年份，正式原文另有王瑞的上交署名。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "knn-mt-meta-optimizer-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2023.emnlp-main.964",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Lemao Liu",
+        "本人公开履历记载在腾讯任首席研究员至 2025 年 10 月，论文研究与正式发表均处于任职期间；本篇为具名腾讯共同通讯。",
+        "https://lemaoliu.github.io/"
+      ],
+      "student": [
+        "高瑞泽 · Ruize Gao",
+        "本人履历具名上交硕士及导师王瑞；EMNLP 首页明确本人在腾讯 AI Lab 实习期间完成。",
+        "https://ruizgao.github.io/"
+      ],
+      "short": "KNN-MT Meta-Optimizer",
+      "title": "Nearest Neighbor Machine Translation is Meta-Optimizer on Output Projection Layer",
+      "date": "2023-12",
+      "venue": "EMNLP 2023",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2023.emnlp-main.964.pdf",
+      "extra": [
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "EMNLP 正式原文首页具名第一作者高瑞泽于腾讯 AI Lab 实习期间开展项目；本人主页明确上交硕士、王瑞指导。Lemao Liu 同篇署腾讯，个人履历确认当时在职。",
+      "advising": [
+        "硕士导师",
+        "高瑞泽个人学术履历具名校内导师王瑞，2021 年入读上交硕士。",
+        "https://ruizgao.github.io/"
+      ]
+    },
+    {
+      "id": "rethinking-tm-nmt-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2023.findings-acl.162",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Lemao Liu",
+        "本人公开履历记载在腾讯任首席研究员至 2025 年 10 月，论文研究与正式发表均处于任职期间；本篇为具名腾讯共同通讯。",
+        "https://lemaoliu.github.io/"
+      ],
+      "student": [
+        "郝宏坤 · Hongkun Hao",
+        "上交 2022 年 9 月至 2025 年 3 月在读硕士，个人具名王瑞校内导师，并有 2022–23 腾讯实习；原文明确实习期间完成部分研究。",
+        "https://hongkunhao.github.io/"
+      ],
+      "short": "Rethinking TM-NMT",
+      "title": "Rethinking Translation Memory Augmented Neural Machine Translation",
+      "date": "2023-07",
+      "venue": "ACL Findings 2023",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2023.findings-acl.162.pdf",
+      "extra": [
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "ACL 正式原文明确第一作者在腾讯 AI Lab 实习期间完成研究部分，作者履历给出 2022 年冬到 2023 年初腾讯、上交硕士期和导师王瑞。Lemao Liu 为正式稿腾讯共同通讯并明确当时正式任职。此文考察翻译记忆的检索偏差，与同年 kNN 元优化不同。",
+      "advising": [
+        "硕士导师",
+        "郝宏坤个人履历确立学业时期与王瑞的正式指导。",
+        "https://hongkunhao.github.io/"
+      ]
+    },
+    {
+      "id": "chain-of-embedding-alibaba-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2410.13640",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Baosong Yang",
+        "阿里通义实验室科学家、Qwen 多语研发负责人，正式原文具名为阿里共同通讯；也被王一鸣具名为企业实习导师。",
+        "https://paris2025.gosim.org/speakers/baosong-yang/"
+      ],
+      "student": [
+        "王一鸣 · Yiming Wang",
+        "上海交大在读博士，王瑞指导，个人列阿里通义 Qwen 实习时期。ICLR 正式论文明确此文于其阿里通义实习期间完成。",
+        "https://wangym2001.github.io/"
+      ],
+      "short": "Chain of Embedding",
+      "title": "Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "语言模型与推理",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/b0b1cfc8ede53f452cabf8b9cf4eef76-Paper-Conference.pdf",
+      "extra": [
+        [
+          "首稿",
+          "https://arxiv.org/abs/2410.13640"
+        ]
+      ],
+      "evidence": "正式 ICLR 原文首页具名王一鸣在阿里通义实习期间完成该研究；上交在读和王瑞当期指导证据来自学生本人。王瑞和 Baosong Yang 分别为校内、企业通讯。此文的通用自评方法、与 NeurIPS 2024 发布的数理推理分布外侦测不同。",
+      "advising": [
+        "博士生导师",
+        "本人履历明确王一鸣 2023 年入学上交，王瑞为其博士导师，阿里企业导师为 Baosong Yang。",
+        "https://wangym2001.github.io/"
+      ]
+    },
+    {
+      "id": "wlac-joint-training-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2023.emnlp-main.952",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Lemao Liu",
+        "本人公开履历记载在腾讯任首席研究员至 2025 年 10 月；2023 本篇为腾讯共同通讯。",
+        "https://lemaoliu.github.io/"
+      ],
+      "student": [
+        "Xingyu Chen",
+        "上交 2022 年起在读博士、王瑞组名录具名；正式原文明确第一作者的腾讯 AI Lab 实习。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "WLAC Joint Training",
+      "title": "Rethinking Word-Level Auto-Completion in Computer-Aided Translation",
+      "date": "2023-12",
+      "venue": "EMNLP 2023",
+      "area": "语言模型与机器翻译",
+      "paper": "https://aclanthology.org/2023.emnlp-main.952.pdf",
+      "extra": [
+        [
+          "原文较早版本",
+          "https://arxiv.org/abs/2310.14523"
+        ],
+        [
+          "项目代码",
+          "https://github.com/galaxyChen/WLAC-Joint-Training"
+        ]
+      ],
+      "evidence": "EMNLP 原文首页星号仅指向第一作者 Xingyu Chen，明确此项在腾讯 AI Lab 实习期间完成；王瑞学生名录具名其为 2022 年起在读博士，和同期正式员工刘乐茂同篇通讯。该文探索给定翻译上下文词汇有效性及联合训练；WMT23 任务系统另审。",
+      "advising": [
+        "博士生导师",
+        "王瑞的课题组在读博士名录列 Xingyu Chen 于 2022 年开始，研究期重叠；正式卷王瑞为上交共同通讯。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "kuaishou-scc-hkustgz-li-liu",
+      "company": "快手",
+      "team": "可灵 AI",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Li LIU",
+        "香港科技大学（广州）人工智能学域助理教授，本论文香港科大（广州）署名的通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"
+      ],
+      "student": [
+        "戎妍 · Yan Rong",
+        "香港科技大学（广州）在读博士生。正式会议原文首页仅在戎妍与另一学生作者署名后使用 ‡，明确两人在快手可灵实习期间开展本研究。",
+        "https://aclanthology.org/2026.emnlp-main.2683.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "Li Liu 本人主页在 2026 年 5 月明确将 Rong Yan 列为自己的博士生，在 2025 年 5 月曾列为自己的硕士生。中国期刊原文合列戎妍及 RONG Yan 的姓名，AAAI 2025 原文以 Yan Rong 与 Li Liu 两人署名。",
+        "https://liliu-avril.github.io/"
+      ],
+      "employee": [
+        "Chen Zhang",
+        "本文以快手可灵团队独立署名；另一原文 VQ-CTAP 作者简介明确其为快手可灵 AI 技术部音频中心主任，快手可灵技术报告亦列其与同篇的 Xu Li 等为同一企业团队。",
+        "https://arxiv.org/pdf/2408.05758v2"
+      ],
+      "title": "Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning",
+      "short": "Self-Check Captioning",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "多模态音频理解与生成",
+      "paper": "https://aclanthology.org/2026.emnlp-main.2683/",
+      "extra": [
+        [
+          "原文首页具名实习脚注",
+          "https://aclanthology.org/2026.emnlp-main.2683.pdf"
+        ],
+        [
+          "中英文姓名及学籍的早期出版记录",
+          "https://www.joca.cn/CN/abstract/abstract26514.shtml"
+        ],
+        [
+          "同校师生双作者 AAAI 正式书目",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/34694"
+        ],
+        [
+          "企业可灵技术报告同组署名",
+          "https://arxiv.org/abs/2601.04151"
+        ]
+      ],
+      "evidence": "正式会议原文首页仅在戎妍与另一学生作者署名后使用 ‡，明确两人在快手可灵实习期间开展本研究。Li Liu 具名披露硕士、博士师生关系；Chen Zhang 有独立任职介绍，且三方均为同篇作者。另有 2026 年 8 月 arXiv:2608.30713 预印本，按正式发表版计一次。"
+    },
+    {
+      "id": "kuaishou-audiomap-hkustgz-li-liu",
+      "company": "快手",
+      "team": "可灵 AI",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Li LIU",
+        "香港科技大学（广州）人工智能学域助理教授，本论文香港科大（广州）署名的通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"
+      ],
+      "student": [
+        "戎妍 · Yan Rong",
+        "香港科技大学（广州）在读博士生。原文首页星号只标注第一作者戎妍，明确其在快手可灵实习期间完成本研究。",
+        "https://arxiv.org/pdf/2608.09559"
+      ],
+      "advising": [
+        "博士导师",
+        "Li Liu 本人主页在 2026 年 5 月明确将 Rong Yan 列为自己的博士生，在 2025 年 5 月曾列为自己的硕士生。中国期刊原文合列戎妍及 RONG Yan 的姓名，AAAI 2025 原文以 Yan Rong 与 Li Liu 两人署名。",
+        "https://liliu-avril.github.io/"
+      ],
+      "employee": [
+        "Chen Zhang",
+        "本文以快手可灵团队独立署名；另一原文 VQ-CTAP 作者简介明确其为快手可灵 AI 技术部音频中心主任，快手可灵技术报告亦列其与同篇的 Xu Li 等为同一企业团队。",
+        "https://arxiv.org/pdf/2408.05758v2"
+      ],
+      "title": "AudioMap: Cloze-and-Choice Reinforcement Learning for Time-Aware Dense Audio Captioning",
+      "short": "AudioMap",
+      "date": "2026-08",
+      "venue": "arXiv",
+      "area": "多模态音频理解与生成",
+      "paper": "https://arxiv.org/abs/2608.09559",
+      "extra": [
+        [
+          "原文首页具名实习脚注",
+          "https://arxiv.org/pdf/2608.09559"
+        ],
+        [
+          "中英文姓名及学籍的早期出版记录",
+          "https://www.joca.cn/CN/abstract/abstract26514.shtml"
+        ],
+        [
+          "同校师生双作者 AAAI 正式书目",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/34694"
+        ],
+        [
+          "企业可灵技术报告同组署名",
+          "https://arxiv.org/abs/2601.04151"
+        ]
+      ],
+      "evidence": "原文首页星号只标注第一作者戎妍，明确其在快手可灵实习期间完成本研究。Li Liu 具名披露硕士、博士师生关系；Chen Zhang 有独立任职介绍，且三方均为同篇作者。本文与另外两篇音频描述论文的书名、任务和独立 arXiv 记录均不同。"
+    },
+    {
+      "id": "kuaishou-acecap-hkustgz-li-liu",
+      "company": "快手",
+      "team": "可灵 AI",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Li LIU",
+        "香港科技大学（广州）人工智能学域助理教授，本论文香港科大（广州）署名的通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"
+      ],
+      "student": [
+        "戎妍 · Yan Rong",
+        "香港科技大学（广州）在读博士生。原文首页星号明确戎妍和另一学生作者实习时在 KlingAI Research 完成本研究。",
+        "https://arxiv.org/pdf/2608.16162"
+      ],
+      "advising": [
+        "博士导师",
+        "Li Liu 本人主页在 2026 年 5 月明确将 Rong Yan 列为自己的博士生，在 2025 年 5 月曾列为自己的硕士生。中国期刊原文合列戎妍及 RONG Yan 的姓名，AAAI 2025 原文以 Yan Rong 与 Li Liu 两人署名。",
+        "https://liliu-avril.github.io/"
+      ],
+      "employee": [
+        "Chen Zhang",
+        "本文以快手可灵团队独立署名；另一原文 VQ-CTAP 作者简介明确其为快手可灵 AI 技术部音频中心主任，快手可灵技术报告亦列其与同篇的 Xu Li 等为同一企业团队。",
+        "https://arxiv.org/pdf/2408.05758v2"
+      ],
+      "title": "ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning",
+      "short": "ACE-Cap",
+      "date": "2026-08",
+      "venue": "arXiv",
+      "area": "多模态音频理解与生成",
+      "paper": "https://arxiv.org/abs/2608.16162",
+      "extra": [
+        [
+          "原文首页具名实习脚注",
+          "https://arxiv.org/pdf/2608.16162"
+        ],
+        [
+          "中英文姓名及学籍的早期出版记录",
+          "https://www.joca.cn/CN/abstract/abstract26514.shtml"
+        ],
+        [
+          "同校师生双作者 AAAI 正式书目",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/34694"
+        ],
+        [
+          "企业可灵技术报告同组署名",
+          "https://arxiv.org/abs/2601.04151"
+        ]
+      ],
+      "evidence": "原文首页星号明确戎妍和另一学生作者实习时在 KlingAI Research 完成本研究。Li Liu 具名披露硕士、博士师生关系；Chen Zhang 有独立任职介绍，且三方均为同篇作者。本文与另外两篇音频描述论文的书名、任务和独立 arXiv 记录均不同。"
+    },
+    {
+      "id": "svbench-kuaishou-ucas-xu",
+      "paperId": "arxiv:2502.10810",
+      "company": "快手",
+      "team": "快手 Keye",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "徐常胜 · Changsheng Xu",
+        "中国科学院自动化研究所研究员、国科大培养教师，同篇署名。杨振宇公开履历具名列他为博士阶段的导师。",
+        "https://www.ia.cas.cn/rcdw/yjy/202404/t20240422_7129942.html"
+      ],
+      "employee": [
+        "Fan Yang",
+        "ICLR 论文及 2025 年 2 月首稿署快手科技；2024 年 ACM MM 同作者组的另一作品也署快手，后续履历列其为快手高级算法专家。",
+        "https://arxiv.org/html/2502.10810v1"
+      ],
+      "student": [
+        "杨振宇 · Zhenyu Yang",
+        "国科大自动化所硕博连读，2024 年转博，正式论文在国科大和快手双署名，并明确注明本项研究完成于快手实习期间。其履历确认实习团队为快手 Keye。",
+        "https://sotayang.github.io/"
+      ],
+      "title": "SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding",
+      "short": "SVBench",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "流式视频理解、多模态评测",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/693ce820ea7e0f0c70a2a833cbdf7ccc-Paper-Conference.pdf",
+      "extra": [
+        [
+          "自动化所 2024 年硕博连读录取公示",
+          "https://www.ia.cas.cn/yjsjy/zs/bszs/202406/t20240613_7188202.html"
+        ],
+        [
+          "同期 ICLR 正式论文的快手单位与工作邮箱",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/e885e5bc6e13b9dd8f80bc5482b1fa2f-Paper-Conference.pdf"
+        ],
+        [
+          "作者团队发布的项目页",
+          "https://sotayang.github.io/SVBench/"
+        ],
+        [
+          "同团队 2024 年出版记录",
+          "https://doi.org/10.1145/3664647.3681649"
+        ],
+        [
+          "作者公开的快手职务资料",
+          "https://arxiv.org/pdf/2611.01934"
+        ]
+      ],
+      "evidence": "ICLR 正式原文首页明确注明第一作者杨振宇在快手实习期间完成本研究。杨振宇个人履历具名列徐常胜为博士导师；学校 2024 年硕博连读名单收录杨振宇。徐常胜、快手高级算法专家 Fan Yang 和杨振宇在同一正式论文具名署名。",
+      "advising": [
+        "在读博士研究生的具名导师",
+        "杨振宇的公开教育履历明确将徐常胜列为其国科大自动化所博士导师，研究所在 2024 年发布其硕博连读拟录取公示。",
+        "https://sotayang.github.io/"
+      ]
+    },
+    {
+      "id": "tencent-vie-wild-hust-xiang-bai",
+      "paperId": "doi:10.1007/978-3-031-41731-3_3",
+      "company": "腾讯",
+      "team": "腾讯优图实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "title": "Visual Information Extraction in the Wild: Practical Dataset and End-to-End Solution",
+      "short": "VIE in the Wild",
+      "date": "2023-08",
+      "venue": "ICDAR 2023",
+      "area": "文档视觉理解",
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-031-41731-3_3",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学教授，Springer 正式版的通讯作者；同期学校公示具名为华威的校内导师。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ],
+      "student": [
+        "华威 · Wei Hua",
+        "华中科大公示列其为 2021 级硕士生；Springer 正式论文注明他为共同第一作者并在腾讯实习期间完成本项研究。",
+        "https://ei.hust.edu.cn/info/1177/7104.htm"
+      ],
+      "employee": [
+        "蒋德强 · Deqiang Jiang",
+        "作者公开稿列其为腾讯优图实验室同篇作者。2023 年同期专利申请的权利转让记录中，腾讯云是受让方，蒋德强为发明人；同期公开论文同样署腾讯优图。",
+        "https://patents.google.com/patent/US20230260304A1/en"
+      ],
+      "advising": [
+        "校内硕士导师",
+        "华中科大 2022 年学业奖学金名单在华威同一行明确标注导师白翔。",
+        "https://ei.hust.edu.cn/info/1177/7104.htm"
+      ],
+      "extra": [
+        [
+          "原文的具名实习脚注与逐名作者单位",
+          "https://arxiv.org/html/2305.07498v2"
+        ],
+        [
+          "欧洲专利局：同期腾讯研发人员记录",
+          "https://data.epo.org/publication-server/rest/v1.2/publication-dates/2024-06-26/patents/EP4390864NWA1/document.pdf"
+        ]
+      ],
+      "evidence": "Springer 的 ICDAR 正式版明确本项研究在共同第一作者华威于腾讯实习期间完成。学校公示具名确认华威的在读身份及导师白翔，正式版也列白翔为通讯作者。同篇作者蒋德强署腾讯优图，前后论文署名和同期公开专利转让记录交叉核对其在腾讯的研发任职。"
     }
   ]
 };

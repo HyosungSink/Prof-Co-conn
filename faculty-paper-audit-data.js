@@ -644,7 +644,9 @@ const facultyPaperAudits = {
       "https://lmd0311.github.io/",
       "https://dblp.dagstuhl.de/pid/255/6274.html",
       "https://dblp.org/pid/255/6274.html",
-      "https://eddie0521.github.io/projects/iamflow/"
+      "https://eddie0521.github.io/projects/iamflow/",
+      "https://ei.hust.edu.cn/info/1177/7104.htm",
+      "https://patents.google.com/patent/US20230260304A1/en"
     ],
     "papers": [
       {
@@ -929,6 +931,13 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "作者单位为高校、中科院研究所和范围外的 Frontis.AI，未见目标企业作者。"
+      },
+      {
+        "title": "Visual Information Extraction in the Wild: Practical Dataset and End-to-End Solution",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-41731-3_3",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "Springer 的 ICDAR 正式版明确本项研究在共同第一作者华威于腾讯实习期间完成。学校公示具名确认华威的在读身份及导师白翔，正式版也列白翔为通讯作者。同篇作者蒋德强署腾讯优图，前后论文署名和同期公开专利转让记录交叉核对其在腾讯的研发任职。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -7062,14 +7071,23 @@ const facultyPaperAudits = {
       "https://www.ncmmsc.org.cn/en/news/show.asp?id=69",
       "https://github.com/imxtx/PhyAVBench",
       "https://arxiv.org/abs/2608.16162",
-      "https://aclanthology.org/2026.emnlp-main.2683.pdf"
+      "https://aclanthology.org/2026.emnlp-main.2683.pdf",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab",
+      "https://arxiv.org/pdf/2408.05758v2",
+      "https://www.joca.cn/CN/abstract/abstract26514.shtml",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/34694",
+      "https://arxiv.org/abs/2601.04151",
+      "https://arxiv.org/abs/2608.09559",
+      "https://arxiv.org/pdf/2608.09559",
+      "https://arxiv.org/pdf/2608.16162"
     ],
     "papers": [
       {
         "title": "Closing the Verification Loop: Self-Check Captioning for Long-Paragraph Detailed Audio Captioning",
         "url": "https://aclanthology.org/2026.emnlp-main.2683/",
-        "outcome": "lead",
-        "note": "正文附 Fengji Ma、Yan Rong 的准确实习脚注，但尚未找到 Li Liu 的官方学生名录、公开学位论文或本人履历确认指导。"
+        "outcome": "confirmed",
+        "note": "正式会议原文首页仅在戎妍与另一学生作者署名后使用 ‡，明确两人在快手可灵实习期间开展本研究。Li Liu 具名披露硕士、博士师生关系；Chen Zhang 有独立任职介绍，且三方均为同篇作者。另有 2026 年 8 月 arXiv:2608.30713 预印本，按正式发表版计一次。",
+        "year": 2026
       },
       {
         "title": "VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation",
@@ -7088,8 +7106,15 @@ const facultyPaperAudits = {
       {
         "title": "ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning",
         "url": "https://arxiv.org/abs/2608.16162",
-        "outcome": "lead",
-        "note": "Fengji Ma 与 Yan Rong 同署学校及快手，其另一篇正式版确有具名快手实习脚注；本篇仍缺可独立检验的研究归属和与 Li Liu 的同期指导资料。",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确戎妍和另一学生作者实习时在 KlingAI Research 完成本研究。Li Liu 具名披露硕士、博士师生关系；Chen Zhang 有独立任职介绍，且三方均为同篇作者。本文与另外两篇音频描述论文的书名、任务和独立 arXiv 记录均不同。",
+        "year": 2026
+      },
+      {
+        "title": "AudioMap: Cloze-and-Choice Reinforcement Learning for Time-Aware Dense Audio Captioning",
+        "url": "https://arxiv.org/abs/2608.09559",
+        "outcome": "confirmed",
+        "note": "原文首页星号只标注第一作者戎妍，明确其在快手可灵实习期间完成本研究。Li Liu 具名披露硕士、博士师生关系；Chen Zhang 有独立任职介绍，且三方均为同篇作者。本文与另外两篇音频描述论文的书名、任务和独立 arXiv 记录均不同。",
         "year": 2026
       }
     ]
@@ -7606,7 +7631,12 @@ const facultyPaperAudits = {
       "https://pengd.github.io/",
       "https://wangym2001.github.io/",
       "https://paris2025.gosim.org/speakers/baosong-yang/",
-      "https://dblp.org/pid/w/RuiWang15.html"
+      "https://dblp.org/pid/w/RuiWang15.html",
+      "https://ruizgao.github.io/",
+      "https://hongkunhao.github.io/",
+      "https://lemaoliu.github.io/",
+      "https://ruobingxie.github.io/",
+      "https://aclanthology.org/people/rui-wang-2503/"
     ],
     "papers": [
       {
@@ -7713,6 +7743,104 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf?id=hkNnGqZnpa",
         "outcome": "confirmed",
         "note": "TMLR 正文首页标明张子殷为上交和蚂蚁双署第一作者，王瑞及蚂蚁 Hang Yu 为通讯。出版稿把蚂蚁仓库列为综述的开放更新；学生在该官方仓库于同年 6 月更新论文目录，9 月发布正式引用。以此确认企业研究参与，未推定具体实习身份。"
+      },
+      {
+        "title": "Improving Machine Translation with Human Feedback: An Exploration of Quality Estimation as a Reward Model",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.naacl-long.451.pdf",
+        "outcome": "confirmed",
+        "note": "NAACL 正式 PDF 首页标明何志威在腾讯 AI Lab 实习期间完成，2024 年 1 月首稿与 6 月会议均处于企业共同通讯王兴的任职期。王瑞也为上交共同通讯。"
+      },
+      {
+        "title": "Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models",
+        "year": 2023,
+        "url": "https://arxiv.org/pdf/2310.20499v2",
+        "outcome": "confirmed",
+        "note": "作者 v2 首页逐一点名何志威等在腾讯 AI Lab 实习期间完成，王兴署公司且具名同篇企业通讯，王瑞在同篇署上交。研究是 2023 年文字猜词实验，与 2024 多代理辩论不同。"
+      },
+      {
+        "title": "Dancing with Critiques: Enhancing LLM Reasoning with Stepwise Natural Language Self-Critique",
+        "year": 2025,
+        "url": "https://arxiv.org/pdf/2503.17363",
+        "outcome": "confirmed",
+        "note": "作者原文首页明确何志威、陈星宇及 Yansi Li 在腾讯实习时开展该工作，公开毕业及在读信息表明王瑞是何志威同期博士导师；腾讯涂兆鹏同篇通讯。本成果为自然语言的逐步骤自我批评，不是同期训练数据项目。"
+      },
+      {
+        "title": "Thoughts Are All Over the Place: On the Underthinking of Long Reasoning Models",
+        "year": 2025,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2bfc4acb2e5c4af1576d14b0df9a664c-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 出版版及 arXiv 首版首页具名何志威及两名学生实习于腾讯时完成此项，企业员工涂兆鹏为通讯，王瑞是具名校内博士导师并署上交。arXiv 首版旧题 o1-Like LLMs 与正式版归为一篇。"
+      },
+      {
+        "title": "Do NOT Think That Much for 2+3=? On the Overthinking of Long Reasoning Models",
+        "year": 2025,
+        "url": "https://proceedings.mlr.press/v267/chen25bx.html",
+        "outcome": "lead",
+        "note": "原始稿及正式版都列腾讯共同作者和上交学生及导师；学生本人实习履历只证明该阶段在腾讯，两个版本均未具名说明这篇工作的企业研发身份。"
+      },
+      {
+        "title": "Hybrid Policy Distillation for LLMs",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/zhu26av.html",
+        "outcome": "lead",
+        "note": "ICML 正式版列腾讯大语言模型部门的企业合作者与上交学生及导师；原文没有实习脚注，作者个人代码库也未标同一项企业研发。"
+      },
+      {
+        "title": "SJTU LoveFiction’s System for WMT24 Discourse-Level Literary Translation",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.wmt-1.96.pdf",
+        "outcome": "confirmed",
+        "note": "WMT 正式原文首页脚注明确 Haoxiang Sun 在阿里做本项；王瑞把该生列为 2025 届本科生、随后在组读硕士，2024 的该项翻译研究处于本科时；共同作者 Baosong Yang 同年署阿里任职。英语三种语向的篇章级文学翻译与西班牙低资源语对不是同一作品。"
+      },
+      {
+        "title": "SJTU System Description for the WMT24 Low-Resource Languages of Spain Task",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.wmt-1.92.pdf",
+        "outcome": "confirmed",
+        "note": "WMT 正式版首页脚注写明第一作者 Tianxiang Hu 在通义实验室实习期间完成，王瑞的学生名录列该生为 2022 年入学硕士，王瑞和通义正式科学家 Baosong Yang 均是本篇通讯。"
+      },
+      {
+        "title": "Large Language Model for Multi-Domain Translation: Benchmarking and Domain CoT Fine-tuning",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.findings-emnlp.328.pdf",
+        "outcome": "confirmed",
+        "note": "正式 EMNLP 文集首页具名 Tianxiang Hu 在阿里通义实习期间完成研究，教师名单证明校内在读指导，王瑞和企业 Baosong Yang 共为通讯。与同年 WMT 低资源工作不同，此篇覆盖跨行业多个领域和链式训练。"
+      },
+      {
+        "title": "Nearest Neighbor Machine Translation is Meta-Optimizer on Output Projection Layer",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.emnlp-main.964.pdf",
+        "outcome": "confirmed",
+        "note": "EMNLP 正式原文首页具名第一作者高瑞泽于腾讯 AI Lab 实习期间开展项目；本人主页明确上交硕士、王瑞指导。Lemao Liu 同篇署腾讯，个人履历确认当时在职。"
+      },
+      {
+        "title": "Rethinking Translation Memory Augmented Neural Machine Translation",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.findings-acl.162.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式原文明确第一作者在腾讯 AI Lab 实习期间完成研究部分，作者履历给出 2022 年冬到 2023 年初腾讯、上交硕士期和导师王瑞。Lemao Liu 为正式稿腾讯共同通讯并明确当时正式任职。此文考察翻译记忆的检索偏差，与同年 kNN 元优化不同。"
+      },
+      {
+        "title": "Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation",
+        "year": 2025,
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/b0b1cfc8ede53f452cabf8b9cf4eef76-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "正式 ICLR 原文首页具名王一鸣在阿里通义实习期间完成该研究；上交在读和王瑞当期指导证据来自学生本人。王瑞和 Baosong Yang 分别为校内、企业通讯。此文的通用自评方法、与 NeurIPS 2024 发布的数理推理分布外侦测不同。"
+      },
+      {
+        "title": "Boosting Large Language Model for Speech Synthesis: An Empirical Study",
+        "year": 2025,
+        "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/hongkun-hao-3-ieee.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 IEEE 原文与郝宏坤本人履历可确认王瑞的硕士指导及 2023 年微软亚洲研究院实习课题，与周龙同期正式任职相符；微软不在项目 14 家企业范围，故不计入已确认关系。"
+      },
+      {
+        "title": "Rethinking Word-Level Auto-Completion in Computer-Aided Translation",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.emnlp-main.952.pdf",
+        "outcome": "confirmed",
+        "note": "EMNLP 原文首页星号仅指向第一作者 Xingyu Chen，明确此项在腾讯 AI Lab 实习期间完成；王瑞学生名录具名其为 2022 年起在读博士，和同期正式员工刘乐茂同篇通讯。该文探索给定翻译上下文词汇有效性及联合训练；WMT23 任务系统另审。"
       }
     ],
     "note": "已开始按正式出版、个人及企业项目记录逐篇审查；补论文书目与其余共同发表后再标全部。"
@@ -16295,7 +16423,10 @@ const facultyPaperAudits = {
       "https://bigteacher-777.github.io/",
       "https://arxiv.org/pdf/2109.01291",
       "https://dblp.org/pid/255/6274.html",
-      "https://eddie0521.github.io/projects/iamflow/"
+      "https://eddie0521.github.io/projects/iamflow/",
+      "https://arxiv.org/html/2305.07498v2",
+      "https://link.springer.com/chapter/10.1007/978-3-031-41731-3_3",
+      "https://ei.hust.edu.cn/info/1177/7104.htm"
     ],
     "papers": [
       {
@@ -16563,6 +16694,13 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "作者单位为高校、中科院研究所和范围外的 Frontis.AI，未见目标企业作者。"
+      },
+      {
+        "title": "Visual Information Extraction in the Wild: Practical Dataset and End-to-End Solution",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-41731-3_3",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "该篇关系由具名校内导师白翔归属；正式稿注明在读硕士华威在腾讯实习期间完成工作，梁定康是论文共同作者，无其指导华威的公开证据。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
