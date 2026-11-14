@@ -28482,6 +28482,554 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2510.14255"
+    },
+    {
+      "id": "autoeval-video-bytedance-sjtu-ajj2rf8aaaaj",
+      "paperId": "arxiv:2311.14906",
+      "company": "字节跳动",
+      "team": "ByteDance Research",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "黄维然 · Weiran Huang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html"
+      ],
+      "employee": [
+        "林苑 · Yuan Lin",
+        "2024 年的上海交大䇹政基金校友专访确认林苑在字节跳动工作，字节 2022 年公开专利及 2023 年本论文的字节研究通讯作者记录对应；另一学生 Lin Long 的 2024–2025 实习履历亦具名为同一研究团队的企业导师。",
+        "https://jun-zheng.sjtu.edu.cn/newsPreview.aspx?codeStr=FAF282FE687E15A6"
+      ],
+      "student": [
+        "陈修元 · Xiuyuan Chen",
+        "原文首页直接标记第一作者陈修元在字节跳动研究院实习期间完成本工作；学生为交大 MIFA 硕士，实验室记录对应其 2024 年 ECCV 第一作者。",
+        "https://mifa.sjtu.edu.cn/"
+      ],
+      "title": "AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering",
+      "short": "AutoEval-Video",
+      "date": "2024-09",
+      "venue": "ECCV 2024",
+      "area": "视频理解与评测",
+      "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08542.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8542_ECCV_2024_paper.php"
+        ],
+        [
+          "字节专利具名任职时段的独立记录",
+          "https://patentimages.storage.googleapis.com/f9/cb/48/103fc8636ba6e4/WO2022017299A1.pdf"
+        ],
+        [
+          "同期实习生具名企业指导履历",
+          "https://llong-cs.github.io/"
+        ],
+        [
+          "含脚注预印本",
+          "https://arxiv.org/html/2311.14906"
+        ]
+      ],
+      "evidence": "原文首页直接标记第一作者陈修元在字节跳动研究院实习期间完成本工作；学生为交大 MIFA 硕士，实验室记录对应其 2024 年 ECCV 第一作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "交大 MIFA 师资页列黄维然为课题组负责人，具名将陈修元列入本组硕士毕业生并对应其 ECCV 第一作者成果；黄维然是原文唯一的交大学术通讯作者。",
+        "https://mifa.sjtu.edu.cn/"
+      ]
+    },
+    {
+      "id": "bytedance-video-as-prompt-cuhk-qiang-xu",
+      "company": "字节跳动",
+      "team": "智能创作实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "许强 · Qiang Xu",
+        "香港中文大学计算机科学与工程学系教授，同篇署名。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "卞宇轩 · Yuxuan Bian",
+        "香港中文大学在读博士，实际在字节跳动智能创作实验室做可控视频生成实习，论文第一作者。",
+        "https://yxbian23.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页明确写明博士学习由许强指导，后者是论文共同通讯作者。",
+        "https://yxbian23.github.io/"
+      ],
+      "employee": [
+        "陈欣 · Xin Chen",
+        "字节跳动企业项目负责人和共同通讯作者；个人简历明确 2024 年 7 月入职字节跳动任高级研究科学家，并列该项目。",
+        "https://chenxin.tech/uploads/resume.pdf"
+      ],
+      "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+      "short": "Video-As-Prompt",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "计算机视觉 · 可控视频生成",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ba8d1b46292c5e82cbfb3b3dc3b968af-Abstract-Conference.html",
+      "extra": [
+        [
+          "字节跳动项目署名和作者脚注",
+          "https://bytedance.github.io/Video-As-Prompt/"
+        ],
+        [
+          "早期 arXiv",
+          "https://arxiv.org/abs/2510.20888"
+        ]
+      ],
+      "evidence": "字节跳动正式项目页在第一作者卞宇轩的双单位署名标注工作在智能创作实验室完成，学生主页确认该段实习和具名企业导师。许强为其港中文博士导师并署论文共同通讯，陈欣为企业在职研究员和明确项目负责人。"
+    },
+    {
+      "id": "tencent-brushnet-cuhk-qiang-xu",
+      "company": "腾讯",
+      "team": "腾讯 ARC Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "许强 · Qiang Xu",
+        "香港中文大学计算机科学与工程学系教授，同篇署名。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "鞠璇 · Xuan Ju",
+        "2022 年起读港中文博士；2023 年 10 月至 2024 年 6 月在腾讯 ARC 做图像生成与视频数据研究，该论文首页把这位共同一作标为腾讯与港中文双单位。",
+        "https://juxuan27.github.io/assets/cv/CV_Xuan.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页明确表示其港中文博士指导老师为许强，两人同篇署名。",
+        "https://juxuan27.github.io/"
+      ],
+      "employee": [
+        "王鑫涛 · Xintao Wang",
+        "论文中的腾讯 ARC 共同通讯作者，第一作者的公开履历列其为当时实习指导老师。",
+        "https://juxuan27.github.io/assets/cv/CV_Xuan.pdf"
+      ],
+      "title": "BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion",
+      "short": "BrushNet",
+      "date": "2024-10",
+      "venue": "ECCV 2024",
+      "area": "计算机视觉 · 生成模型",
+      "paper": "https://doi.org/10.1007/978-3-031-72661-3_9",
+      "extra": [
+        [
+          "原文与作者机构",
+          "https://arxiv.org/pdf/2403.06976"
+        ],
+        [
+          "企业项目或早期公开稿",
+          "https://tencentarc.github.io/BrushNet/"
+        ]
+      ],
+      "evidence": "出版论文或项目主页面将共同第一作者鞠璇分别标为腾讯 ARC Lab 和港中文；其 CV 列明博士在读期间的当期腾讯岗位及与原文相符的图像／视频研究，且列出此作品。公开学生履历确认其导师许强同篇署名。论文企业通讯作者或负责人任职可由独立资料验证。"
+    },
+    {
+      "id": "tencent-miradata-cuhk-qiang-xu",
+      "company": "腾讯",
+      "team": "腾讯 ARC Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "许强 · Qiang Xu",
+        "香港中文大学计算机科学与工程学系教授，同篇署名。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "鞠璇 · Xuan Ju",
+        "2022 年起读港中文博士；2023 年 10 月至 2024 年 6 月在腾讯 ARC 做图像生成与视频数据研究，该论文首页把这位共同一作标为腾讯与港中文双单位。",
+        "https://juxuan27.github.io/assets/cv/CV_Xuan.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页明确表示其港中文博士指导老师为许强，两人同篇署名。",
+        "https://juxuan27.github.io/"
+      ],
+      "employee": [
+        "Zhaoyang Zhang",
+        "原文标注仅署腾讯 ARC 实验室及企业项目负责人；其职业主页确认曾任腾讯 ARC 高级研究科学家。",
+        "https://zzyfd.github.io/"
+      ],
+      "title": "MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions",
+      "short": "MiraData",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "计算机视觉 · 生成模型",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html",
+      "extra": [
+        [
+          "原文与作者机构",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/57f6683e550eb067936c9e9f0bcb8e31-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        [
+          "企业项目或早期公开稿",
+          "https://arxiv.org/abs/2407.06358"
+        ]
+      ],
+      "evidence": "出版论文或项目主页面将共同第一作者鞠璇分别标为腾讯 ARC Lab 和港中文；其 CV 列明博士在读期间的当期腾讯岗位及与原文相符的图像／视频研究，且列出此作品。公开学生履历确认其导师许强同篇署名。论文企业通讯作者或负责人任职可由独立资料验证。"
+    },
+    {
+      "id": "bytedance-bagel2-cuhk-hongsheng-li",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "李鸿升 · Hongsheng Li",
+        "香港中文大学电子工程系教师；该正式企业报告共同作者。",
+        "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-hongsheng-li"
+      ],
+      "student": [
+        "何昊 · Hao He",
+        "港中文在读博士，2024 年起在字节 Seed 实习；字节跳动技术报告的项目主页具名标注其为共同第一作者。",
+        "https://hehao13.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "何昊主页具体列李鸿升为两名博士导师之一，李鸿升同篇署名。",
+        "https://hehao13.github.io/"
+      ],
+      "employee": [
+        "Ceyuan Yang",
+        "在职字节跳动研究科学家，报告第一共同作者和共同通讯；与学生早期履历相符。",
+        "https://ceyuan.me/"
+      ],
+      "title": "Context Unrolling in Omni Models",
+      "short": "Bagel2",
+      "date": "2026-04",
+      "venue": "arXiv 技术报告",
+      "area": "原生多模态 · 生成模型",
+      "paper": "https://arxiv.org/abs/2604.21921",
+      "extra": [
+        [
+          "Seed 项目发布及每名共同第一作者",
+          "https://omni-model.com/"
+        ]
+      ],
+      "evidence": "这篇论文是字节跳动 Seed 技术报告，项目页明确把何昊列为具名共同第一作者；何昊自身主页将这篇工作列于自己的研究，同时注明当时就在 Seed 做该类多模态模型研发。其港中文导师李鸿升同篇署名，实际任职的 Ceyuan Yang 为共同通讯作者。"
+    },
+    {
+      "id": "alibaba-animate3d-ucas-hu",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "胡卫明 · Weiming Hu",
+        "中国科学院自动化研究所研究员，中国科学院大学教师。",
+        "https://people.ucas.ac.cn/~huweiming"
+      ],
+      "employee": [
+        "Chaohui Yu",
+        "2020 年 7 月起任职阿里巴巴达摩院；NeurIPS 正式版署达摩院。",
+        "https://richardych.github.io/"
+      ],
+      "student": [
+        "Yanqin Jiang",
+        "在国科大攻读博士，NeurIPS 正式版署国科大及中科院自动化所，首页具名标出其在达摩院实习期间完成本研究。",
+        "https://yoyo000.github.io/group.html"
+      ],
+      "title": "Animate3D: Animating Any 3D Model with Multi-view Video Diffusion",
+      "short": "Animate3D",
+      "date": "2024-12",
+      "venue": "NeurIPS",
+      "area": "视觉与多模态",
+      "paper": "https://proceedings.nips.cc/paper_files/paper/2024/file/e3b53f89136b1bc69a5714ea465f01b6-Paper-Conference.pdf",
+      "evidence": "正式版首页具名注明 Yanqin Jiang 在阿里巴巴达摩院实习期间完成本研究；主管其博士学业的胡卫明与 2020 年 7 月入职达摩院的 Chaohui Yu 同篇署名。",
+      "advising": [
+        "校内博士导师",
+        "南京大学姚尧课题组的实习生名录写明 Yanqin Jiang 是中科院自动化所博士生，由胡卫明指导。",
+        "https://yoyo000.github.io/group.html"
+      ],
+      "extra": [
+        [
+          "作者项目页",
+          "https://animate3d.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2407.11398"
+    },
+    {
+      "id": "tencent-omnix-ucas-hu",
+      "company": "腾讯",
+      "team": "腾讯混元世界模型",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "胡卫明 · Weiming Hu",
+        "中国科学院自动化研究所研究员，中国科学院大学教师。",
+        "https://people.ucas.ac.cn/~huweiming"
+      ],
+      "employee": [
+        "王腾飞 · Tengfei Wang",
+        "截至 2025 年已主导腾讯混元世界模型；同篇署名腾讯混元通讯作者。",
+        "https://tengfei-wang.github.io/"
+      ],
+      "student": [
+        "Yanqin Jiang",
+        "国科大人工智能学院博士生；原文具名标明本研究在腾讯混元实习期间完成。",
+        "https://yoyo000.github.io/group.html"
+      ],
+      "title": "OmniX: Any-View and Any-Time 4D Reconstruction via Feed-Forward Trajectory Fields",
+      "short": "OmniX",
+      "date": "2026-09",
+      "venue": "ECCV",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2607.10840v1",
+      "evidence": "原文首页的实习脚注只对应 Yanqin Jiang；以腾讯混元署名的通讯作者王腾飞在个人书目再次标记他是这篇论文的组内实习生。其国科大博士导师胡卫明与两人同篇署名。",
+      "advising": [
+        "校内博士导师",
+        "南京大学姚尧课题组的实习生名录写明 Yanqin Jiang 是中科院自动化所博士生，由胡卫明指导。",
+        "https://yoyo000.github.io/group.html"
+      ],
+      "extra": [
+        [
+          "正式会议出版记录",
+          "https://doi.org/10.1007/978-3-032-37235-2_19"
+        ],
+        [
+          "作者项目页",
+          "https://omnix4d.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2607.10840"
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团图学习研究",
+      "area": "图学习",
+      "faculty": [
+        "陈亮 · Liang Chen",
+        "中山大学计算机学院副教授；学生公开履历具名的导师及同篇合著者。",
+        "https://cse.sysu.edu.cn/teacher/ChenLiang"
+      ],
+      "advising": [
+        "中山大学研究生导师",
+        "李金膛的公开履历具名列陈亮及郑子彬；陈亮课题组页列其自 2021 年起攻读博士。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇蚂蚁集团作者；企业公开资料列其为机器智能部总经理。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "李金膛 · Jintang Li",
+        "中山大学博士生（2021–2025）。其本人列出 2022 年 2–6 月和 2023 年 7 月至 2024 年 3 月两段蚂蚁科研实习。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "id": "ant-maskgae-sysu-liang-chen",
+      "title": "What's Behind the Mask: Understanding Masked Graph Modeling for Graph Autoencoders",
+      "short": "MaskGAE",
+      "date": "2023-08",
+      "venue": "ACM KDD",
+      "paper": "https://doi.org/10.1145/3580305.3599546",
+      "arxiv": "2205.10053",
+      "evidence": "2022 年 5 月首版 PDF 将博士生李金膛同时署于中大和蚂蚁；学生公开履历确认同期为蚂蚁研究实习。2023 年 KDD 正式版仍列中大导师陈亮、郑子彬和同一蚂蚁作者王维强；本人项目仓库把预印本和正式版列为同一成果。",
+      "extra": [
+        [
+          "同稿首版双署名",
+          "https://arxiv.org/pdf/2205.10053v1"
+        ],
+        [
+          "KDD 官方名录",
+          "https://kdd.org/kdd2023/research-track-papers/index.html"
+        ],
+        [
+          "作者项目仓库",
+          "https://github.com/EdisonLeeeee/MaskGAE"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团图学习研究",
+      "area": "图学习",
+      "faculty": [
+        "郑子彬 · Zibin Zheng",
+        "中山大学软件工程学院教授；在同篇论文署中山大学，学生公开履历具名的学位导师。",
+        "https://sse.sysu.edu.cn/teacher/100"
+      ],
+      "advising": [
+        "中山大学研究生导师",
+        "李金膛的公开履历具名列陈亮及郑子彬；陈亮课题组页列其自 2021 年起攻读博士。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇蚂蚁集团作者；企业公开资料列其为机器智能部总经理。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "李金膛 · Jintang Li",
+        "中山大学博士生（2021–2025）。其本人列出 2022 年 2–6 月和 2023 年 7 月至 2024 年 3 月两段蚂蚁科研实习。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "id": "ant-maskgae-sysu-zibin-zheng",
+      "title": "What's Behind the Mask: Understanding Masked Graph Modeling for Graph Autoencoders",
+      "short": "MaskGAE",
+      "date": "2023-08",
+      "venue": "ACM KDD",
+      "paper": "https://doi.org/10.1145/3580305.3599546",
+      "arxiv": "2205.10053",
+      "evidence": "2022 年 5 月首版 PDF 将博士生李金膛同时署于中大和蚂蚁；学生公开履历确认同期为蚂蚁研究实习。2023 年 KDD 正式版仍列中大导师陈亮、郑子彬和同一蚂蚁作者王维强；本人项目仓库把预印本和正式版列为同一成果。",
+      "extra": [
+        [
+          "同稿首版双署名",
+          "https://arxiv.org/pdf/2205.10053v1"
+        ],
+        [
+          "KDD 官方名录",
+          "https://kdd.org/kdd2023/research-track-papers/index.html"
+        ],
+        [
+          "作者项目仓库",
+          "https://github.com/EdisonLeeeee/MaskGAE"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团图学习研究",
+      "area": "图学习",
+      "faculty": [
+        "陈亮 · Liang Chen",
+        "中山大学计算机学院副教授；学生公开履历具名的导师及同篇合著者。",
+        "https://cse.sysu.edu.cn/teacher/ChenLiang"
+      ],
+      "advising": [
+        "中山大学研究生导师",
+        "李金膛的公开履历具名列陈亮及郑子彬；陈亮课题组页列其自 2021 年起攻读博士。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇蚂蚁集团作者；企业公开资料列其为机器智能部总经理。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "李金膛 · Jintang Li",
+        "中山大学博士生（2021–2025）。其本人列出 2022 年 2–6 月和 2023 年 7 月至 2024 年 3 月两段蚂蚁科研实习。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "id": "ant-guard-sysu-liang-chen",
+      "title": "GUARD: Graph Universal Adversarial Defense",
+      "short": "GUARD",
+      "date": "2023-10",
+      "venue": "ACM CIKM",
+      "paper": "https://doi.org/10.1145/3583780.3614903",
+      "arxiv": "2204.09803",
+      "evidence": "2022 年 4 月首版将李金膛同时署于中大和蚂蚁，时间落在其公开披露的蚂蚁科研实习内。中大两位学位导师陈亮、郑子彬和蚂蚁员工王维强同篇署名；正式出版于 CIKM 2023。",
+      "extra": [
+        [
+          "同稿首版双署名",
+          "https://arxiv.org/pdf/2204.09803v1"
+        ],
+        [
+          "学生发表目录",
+          "https://edisonleeeee.github.io/publications.html"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团图学习研究",
+      "area": "图学习",
+      "faculty": [
+        "郑子彬 · Zibin Zheng",
+        "中山大学软件工程学院教授；在同篇论文署中山大学，学生公开履历具名的学位导师。",
+        "https://sse.sysu.edu.cn/teacher/100"
+      ],
+      "advising": [
+        "中山大学研究生导师",
+        "李金膛的公开履历具名列陈亮及郑子彬；陈亮课题组页列其自 2021 年起攻读博士。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇蚂蚁集团作者；企业公开资料列其为机器智能部总经理。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "李金膛 · Jintang Li",
+        "中山大学博士生（2021–2025）。其本人列出 2022 年 2–6 月和 2023 年 7 月至 2024 年 3 月两段蚂蚁科研实习。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "id": "ant-guard-sysu-zibin-zheng",
+      "title": "GUARD: Graph Universal Adversarial Defense",
+      "short": "GUARD",
+      "date": "2023-10",
+      "venue": "ACM CIKM",
+      "paper": "https://doi.org/10.1145/3583780.3614903",
+      "arxiv": "2204.09803",
+      "evidence": "2022 年 4 月首版将李金膛同时署于中大和蚂蚁，时间落在其公开披露的蚂蚁科研实习内。中大两位学位导师陈亮、郑子彬和蚂蚁员工王维强同篇署名；正式出版于 CIKM 2023。",
+      "extra": [
+        [
+          "同稿首版双署名",
+          "https://arxiv.org/pdf/2204.09803v1"
+        ],
+        [
+          "学生发表目录",
+          "https://edisonleeeee.github.io/publications.html"
+        ]
+      ]
+    },
+    {
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团图学习研究",
+      "area": "图学习",
+      "faculty": [
+        "陈亮 · Liang Chen",
+        "中山大学计算机学院副教授；学生公开履历具名的导师及同篇合著者。",
+        "https://cse.sysu.edu.cn/teacher/ChenLiang"
+      ],
+      "advising": [
+        "中山大学研究生导师",
+        "李金膛的公开履历具名列陈亮及郑子彬；陈亮课题组页列其自 2021 年起攻读博士。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇蚂蚁集团作者；企业公开资料列其为机器智能部总经理。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "李金膛 · Jintang Li",
+        "中山大学博士生（2021–2025）。其本人列出 2022 年 2–6 月和 2023 年 7 月至 2024 年 3 月两段蚂蚁科研实习。",
+        "https://edisonleeeee.github.io/"
+      ],
+      "id": "ant-magi-sysu-liang-chen",
+      "title": "Revisiting Modularity Maximization for Graph Clustering: A Contrastive Learning Perspective",
+      "short": "MAGI",
+      "date": "2024-08",
+      "venue": "ACM KDD",
+      "paper": "https://doi.org/10.1145/3637528.3671967",
+      "arxiv": "2406.14288",
+      "evidence": "KDD 论文把在读博士李金膛列为蚂蚁署名的共同第一作者；官方全文截稿日落在其第二段蚂蚁科研实习内。陈亮本人书目和获录用公告明确称同一篇为与蚂蚁集团合作，学生也具名列陈亮为博士导师。陈亮在论文署名处未列机构，中大身份由本人团队、导师事实和前后持续的高校材料独立确认。王维强同篇蚂蚁署名。",
+      "extra": [
+        [
+          "投稿版本的署名与 DOI",
+          "https://arxiv.org/pdf/2406.14288v1"
+        ],
+        [
+          "陈亮公告：该篇与蚂蚁共同研究",
+          "https://chenliang.tech/news"
+        ],
+        [
+          "KDD 官方提交时间",
+          "https://www.kdd.org/kdd2024/research-track-call-for-papers/"
+        ]
+      ]
     }
   ]
 };

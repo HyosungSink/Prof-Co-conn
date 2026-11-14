@@ -3642,7 +3642,25 @@ const facultyPaperAudits = {
       "https://juxuan27.github.io/",
       "https://juxuan27.github.io/assets/cv/CV_Xuan.pdf",
       "https://xinntao.github.io/",
-      "https://openaccess.thecvf.com/content/ICCV2025/papers/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.pdf"
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.pdf",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ba8d1b46292c5e82cbfb3b3dc3b968af-Abstract-Conference.html",
+      "https://yxbian23.github.io/",
+      "https://chenxin.tech/uploads/resume.pdf",
+      "https://bytedance.github.io/Video-As-Prompt/",
+      "https://arxiv.org/abs/2510.20888",
+      "https://doi.org/10.1007/978-3-031-72661-3_9",
+      "https://arxiv.org/pdf/2403.06976",
+      "https://tencentarc.github.io/BrushNet/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html",
+      "https://zzyfd.github.io/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/57f6683e550eb067936c9e9f0bcb8e31-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "https://arxiv.org/abs/2407.06358",
+      "https://arxiv.org/abs/2606.04527",
+      "https://echo-team-joy-future-academy-jd.github.io/Echo-Infinity/",
+      "https://xuezeyue.github.io/cv/",
+      "https://arxiv.org/abs/2503.05639",
+      "https://openreview.net/pdf/5340694f24091f0ebf93e7be367380a96b06a86a.pdf",
+      "https://github.com/TencentARC/VideoPainter"
     ],
     "papers": [
       {
@@ -3680,6 +3698,36 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.html",
         "outcome": "confirmed",
         "note": "ICCV 正式出版论文以星号脚注注明第一作者鞠璇在快手可灵实习期间完成该研究。学生履历写明当时的港中文博士学籍、导师许强与快手实习导师王鑫涛；两者均同篇署名，许强为共同通讯。"
+      },
+      {
+        "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ba8d1b46292c5e82cbfb3b3dc3b968af-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "字节跳动正式项目页在第一作者卞宇轩的双单位署名标注工作在智能创作实验室完成，学生主页确认该段实习和具名企业导师。许强为其港中文博士导师并署论文共同通讯，陈欣为企业在职研究员和明确项目负责人。"
+      },
+      {
+        "title": "BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion",
+        "url": "https://doi.org/10.1007/978-3-031-72661-3_9",
+        "outcome": "confirmed",
+        "note": "出版论文或项目主页面将共同第一作者鞠璇分别标为腾讯 ARC Lab 和港中文；其 CV 列明博士在读期间的当期腾讯岗位及与原文相符的图像／视频研究，且列出此作品。公开学生履历确认其导师许强同篇署名。论文企业通讯作者或负责人任职可由独立资料验证。"
+      },
+      {
+        "title": "MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html",
+        "outcome": "confirmed",
+        "note": "出版论文或项目主页面将共同第一作者鞠璇分别标为腾讯 ARC Lab 和港中文；其 CV 列明博士在读期间的当期腾讯岗位及与原文相符的图像／视频研究，且列出此作品。公开学生履历确认其导师许强同篇署名。论文企业通讯作者或负责人任职可由独立资料验证。"
+      },
+      {
+        "title": "Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation",
+        "url": "https://arxiv.org/abs/2606.04527",
+        "outcome": "lead",
+        "note": "卞宇轩同篇学校署名，港中文许强博士指导和同期公开京东学术项目无疑；学生主页虽确认在京东由同篇两名员工指导工作，论文和项目仍只给他港中文署名。等待把具体成果明确映射到当期实习的证据。"
+      },
+      {
+        "title": "VideoPainter: Any-length Video Inpainting and Editing with Plug-and-Play Context Control",
+        "url": "https://arxiv.org/abs/2503.05639",
+        "outcome": "lead",
+        "note": "企业发布页与正式论文的第一作者署名不一致。Zhaoyang Zhang 明确同篇为腾讯项目负责人，学生卞宇轩把本人放置在与主题匹配的腾讯实习且确实由他指导，需再确认原始正式版或项目指名。"
       }
     ]
   },
@@ -7360,7 +7408,9 @@ const facultyPaperAudits = {
       "https://hehao13.github.io/",
       "https://ceyuan.me/",
       "https://openaccess.thecvf.com/content/ICCV2025/papers/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.pdf",
-      "https://arxiv.org/abs/2503.10592"
+      "https://arxiv.org/abs/2503.10592",
+      "https://arxiv.org/abs/2604.21921",
+      "https://omni-model.com/"
     ],
     "papers": [
       {
@@ -7386,6 +7436,12 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/html/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.html",
         "outcome": "confirmed",
         "note": "ICCV 论文在第一作者何昊名下注明研究是在字节跳动 Seed 实习期间完成。本人主页确认港中文博士指导老师李鸿升与公司实习导师 Ceyuan Yang，二者同篇署名；Ceyuan Yang 的研究主页和署名验证该时期在 Seed 任研究科学家。"
+      },
+      {
+        "title": "Context Unrolling in Omni Models",
+        "url": "https://arxiv.org/abs/2604.21921",
+        "outcome": "confirmed",
+        "note": "这篇论文是字节跳动 Seed 技术报告，项目页明确把何昊列为具名共同第一作者；何昊自身主页将这篇工作列于自己的研究，同时注明当时就在 Seed 做该类多模态模型研发。其港中文导师李鸿升同篇署名，实际任职的 Ceyuan Yang 为共同通讯作者。"
       }
     ]
   },
@@ -7465,7 +7521,10 @@ const facultyPaperAudits = {
       "https://www.cse.cuhk.edu.hk/upcoming-events/learning-molecular-graphs-under-label-scarcity-and-distribution-shift/",
       "https://edisonleeeee.github.io/",
       "https://isda2023.github.io/",
-      "https://chenliang.tech/publications"
+      "https://chenliang.tech/publications",
+      "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000",
+      "https://chenliang.tech/group",
+      "https://csxzjin.github.io/"
     ],
     "papers": [
       {
@@ -7516,6 +7575,69 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "预印本作者为已知校内研究组成员，未发现同篇企业署名或具名项目材料。"
+      },
+      {
+        "title": "What's Behind the Mask: Understanding Masked Graph Modeling for Graph Autoencoders",
+        "url": "https://doi.org/10.1145/3580305.3599546",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "2022 年 5 月首版 PDF 将博士生李金膛同时署于中大和蚂蚁；学生公开履历确认同期为蚂蚁研究实习。2023 年 KDD 正式版仍列中大导师陈亮、郑子彬和同一蚂蚁作者王维强；本人项目仓库把预印本和正式版列为同一成果。"
+      },
+      {
+        "title": "GUARD: Graph Universal Adversarial Defense",
+        "url": "https://doi.org/10.1145/3583780.3614903",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "2022 年 4 月首版将李金膛同时署于中大和蚂蚁，时间落在其公开披露的蚂蚁科研实习内。中大两位学位导师陈亮、郑子彬和蚂蚁员工王维强同篇署名；正式出版于 CIKM 2023。"
+      },
+      {
+        "title": "Revisiting Modularity Maximization for Graph Clustering: A Contrastive Learning Perspective",
+        "url": "https://doi.org/10.1145/3637528.3671967",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "KDD 论文把在读博士李金膛列为蚂蚁署名的共同第一作者；官方全文截稿日落在其第二段蚂蚁科研实习内。陈亮本人书目和获录用公告明确称同一篇为与蚂蚁集团合作，学生也具名列陈亮为博士导师。陈亮在论文署名处未列机构，中大身份由本人团队、导师事实和前后持续的高校材料独立确认。王维强同篇蚂蚁署名。"
+      },
+      {
+        "title": "Decomposition for Enhancing Attention: Improving LLM-based Text-to-SQL through Workflow Paradigm",
+        "url": "https://aclanthology.org/2024.findings-acl.641/",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "陈亮称该篇为与腾讯合作；硕士生金信洲的腾讯数据挖掘实习与论文首发重合，论文仅列他为中大作者，未指明其在腾讯参与本篇。继续核实相应项目经历。"
+      },
+      {
+        "title": "Enhancing Graph Collaborative Filtering via Neighborhood Structure Embedding",
+        "url": "https://doi.org/10.1109/ICDM58522.2023.00028",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "金信洲及导师和腾讯研究人员同篇；发表日期在腾讯实习中，但现有来源未指明在腾讯参与本篇。"
+      },
+      {
+        "title": "L2CL: Embarrassingly Simple Layer-to-Layer Contrastive Learning for Graph Collaborative Filtering",
+        "url": "https://arxiv.org/abs/2407.14266",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "论文机构是中大和腾讯 PCG；金信洲当时的名单列腾讯音乐实习，缺在腾讯 PCG 的同篇工作说明。"
+      },
+      {
+        "title": "Scaling Up Dynamic Graph Representation Learning via Spiking Neural Networks",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26034",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "正式版仅列李金膛在中大，首发晚于第一段蚂蚁实习；尚无同篇实习参与证据。"
+      },
+      {
+        "title": "SAD: Semi-Supervised Anomaly Detection on Dynamic Graphs",
+        "url": "https://www.ijcai.org/proceedings/2023/0256.pdf",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "最早公开稿日期在李金膛两段蚂蚁实习之间。正式版具名列其为中大作者；待查是否作为前段实习成果。"
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning with Discrete Fourier Transform",
+        "url": "https://proceedings.mlr.press/v235/gao24o.html",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "论文的企业作者来自腾讯 AI Lab；高子奇、王启超等学生的本篇企业工作证据待核。"
       }
     ]
   },
@@ -8369,5 +8491,84 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已逐篇检查部分书目和学生科研实习，未覆盖全部论文。"
+  },
+  "AjJ2rf8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html",
+      "https://mifa.sjtu.edu.cn/"
+    ],
+    "papers": [
+      {
+        "title": "AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08542.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页直接标记第一作者陈修元在字节跳动研究院实习期间完成本工作；学生为交大 MIFA 硕士，实验室记录对应其 2024 年 ECCV 第一作者。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "Wl4tl4QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~huweiming",
+      "https://yoyo000.github.io/group.html",
+      "https://richardych.github.io/",
+      "https://tengfei-wang.github.io/",
+      "https://proceedings.nips.cc/paper_files/paper/2024/file/e3b53f89136b1bc69a5714ea465f01b6-Paper-Conference.pdf",
+      "https://arxiv.org/pdf/2607.10840v1",
+      "https://people.ucas.ac.cn/~jgao?language=en"
+    ],
+    "papers": [
+      {
+        "title": "Animate3D: Animating Any 3D Model with Multi-view Video Diffusion",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2024/file/e3b53f89136b1bc69a5714ea465f01b6-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "正式版首页具名注明 Yanqin Jiang 在阿里巴巴达摩院实习期间完成本研究；主管其博士学业的胡卫明与 2020 年 7 月入职达摩院的 Chaohui Yu 同篇署名。"
+      },
+      {
+        "title": "OmniX: Any-View and Any-Time 4D Reconstruction via Feed-Forward Trajectory Fields",
+        "url": "https://arxiv.org/pdf/2607.10840v1",
+        "outcome": "confirmed",
+        "note": "原文首页的实习脚注只对应 Yanqin Jiang；以腾讯混元署名的通讯作者王腾飞在个人书目再次标记他是这篇论文的组内实习生。其国科大博士导师胡卫明与两人同篇署名。"
+      },
+      {
+        "title": "PolarFormer: Multi-Camera 3D Object Detection with Polar Transformer",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25185/24957",
+        "outcome": "lead",
+        "note": "本篇有阿里巴巴达摩院共同作者，但 Yanqin Jiang 仅署学校，全文未找到其参与本篇企业研究的证据。"
+      }
+    ],
+    "note": "已逐篇检查部分书目和学生科研实习，尚未覆盖全部论文。"
+  },
+  "WPC6ED4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sse.sysu.edu.cn/teacher/100",
+      "https://edisonleeeee.github.io/",
+      "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+    ],
+    "papers": [
+      {
+        "title": "What's Behind the Mask: Understanding Masked Graph Modeling for Graph Autoencoders",
+        "url": "https://doi.org/10.1145/3580305.3599546",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "2022 年 5 月首版 PDF 将博士生李金膛同时署于中大和蚂蚁；学生公开履历确认同期为蚂蚁研究实习。2023 年 KDD 正式版仍列中大导师陈亮、郑子彬和同一蚂蚁作者王维强；本人项目仓库把预印本和正式版列为同一成果。"
+      },
+      {
+        "title": "GUARD: Graph Universal Adversarial Defense",
+        "url": "https://doi.org/10.1145/3583780.3614903",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "2022 年 4 月首版将李金膛同时署于中大和蚂蚁，时间落在其公开披露的蚂蚁科研实习内。中大两位学位导师陈亮、郑子彬和蚂蚁员工王维强同篇署名；正式出版于 CIKM 2023。"
+      }
+    ]
   }
 };
