@@ -16112,7 +16112,7 @@ const facultyPaperAudits = {
   "JLs1Mf0AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://faculty.xidian.edu.cn/XIAOYANG/zh_CN/index.htm",
       "https://api.crossref.org/works/10.1109/TDSC.2024.3524760",
@@ -16165,7 +16165,14 @@ const facultyPaperAudits = {
       "https://api.openalex.org/works/https://doi.org/10.1016/j.neucom.2026.134006",
       "https://dblp.org/pid/06/4559",
       "https://dblp.uni-trier.de/pid/191/9426-1.html",
-      "https://web.xidian.edu.cn/yxiao/research.html"
+      "https://web.xidian.edu.cn/yxiao/research.html",
+      "https://faculty.xidian.edu.cn/XIAOYANG/zh_CN/lwcg/417144/list/index.htm",
+      "https://www.sciencedirect.com/science/article/pii/S1568494625015686",
+      "https://orcid.org/0009-0004-1593-935X",
+      "https://csintranet.ucd-cs.ie/phd-student/weipeng-huang/",
+      "https://openreview.net/pdf?id=R6wXP7txer",
+      "https://orcid.org/0000-0003-0516-2802",
+      "https://doi.org/10.1016/j.asoc.2025.114255"
     ],
     "papers": [
       {
@@ -16186,7 +16193,7 @@ const facultyPaperAudits = {
         "title": "Enhancing Text-Based Hierarchical Multilabel Classification for Mobile Applications via Contrastive Learning",
         "year": 2025,
         "url": "https://doi.org/10.1145/3711896.3737216",
-        "note": "正式 KDD 版及论文正文具名腾讯作者 Jiawei Guo并说明系统在腾讯部署；其余作者署西电、深圳信息职业技术学院与独立研究者，未发现其中有人以在读身份在腾讯开展此篇研究，也无对应导师证据。",
+        "note": "KDD 原文列 Jiawei Guo 为腾讯作者，致谢说明研究启动时 Weipeng Huang 也在腾讯；成果在腾讯应用。Huang 的公开博士资料在爱尔兰都柏林大学，导师为 Neil Hurley；Piao 的身份资料亦非在读。仍缺符合学校范围的在读作者在腾讯完成同篇研究及具名导师证据。",
         "outcome": "lead"
       },
       {
@@ -16221,14 +16228,14 @@ const facultyPaperAudits = {
         "title": "Cure-GNN: A Robust Curvature-Enhanced Graph Neural Network Against Adversarial Attacks",
         "year": 2023,
         "url": "https://doi.org/10.1109/tdsc.2022.3211955",
-        "note": "IEEE 正式卷期为 2023；邢卓林论文只署腾讯，西电团队页说明他是 2022 届硕士毕业生。核到同篇腾讯合著，但没有另外的在读合著者参与腾讯研究或邢卓林本人在读时于腾讯完成此篇且另有企业员工同署的证据。",
+        "note": "IEEE 正式卷期为 2023 年，线上首发为 2022 年。肖阳为第一作者；邢卓林是唯一署腾讯的作者，西电课题组列其为 2022 届毕业生并注明去向为腾讯。未见另一位在读作者在腾讯参加同篇研究，也无材料将邢卓林在校时的企业研究和独立腾讯员工对应到此篇。",
         "outcome": "lead"
       },
       {
         "title": "Defending Against DDoS Attacks via Heterogeneous Data Conflict Resolution for Secure Services in Internet of Things",
         "year": 2025,
         "url": "https://doi.org/10.1109/tetci.2025.3595575",
-        "note": "IEEE 在线正式稿列西电、广州大学及沙特哈立德国王大学等学术单位；未见范围内企业。",
+        "note": "IEEE 正式题录显示高校科研合作；肖阳官网明确列北京赛宁网安科技有限公司为成果转化单位。该公司不在项目范围，成果转化也不等同于具名在读学生参与企业的同篇研究。",
         "outcome": "no-evidence"
       },
       {
@@ -16370,9 +16377,16 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/NaNA60121.2023.00092",
         "note": "NaNA 2023 正式程序与 IEEE 元数据六位作者全部署西电，未见范围内企业。",
         "outcome": "no-evidence"
+      },
+      {
+        "title": "A sustainable urban optimization framework driven by a large language model based on multi-party trusted collaboration",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.asoc.2025.114255",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式卷期为 2026 年 1 月（第 186 卷 D 分册）；2025 年线上稿与卷期合并。作者单位为西电、印度 Galgotias 工程技术学院和台湾高雄科技大学。作者贡献表列肖阳负责指导与资助；未见范围内企业参与。"
       }
     ],
-    "note": "核查窗口为 2023-01-01 至 2026-11-12。按学校代表作、ORCID、正式会议、出版记录和合作者索引核查 29 篇；合并同名预印本与正式版。另剔除索引混入的 4 篇福州大学／东南大学同名作者论文。本人完整书目链接暂无法读取，两篇腾讯合著继续作为线索。"
+    "note": "核查窗口为 2023-01-01 至 2026-11-12。对照肖阳西电代表作、带唯一作者标识的 DBLP 和 ORCID、主要合作者的公开书目、会议和期刊原文，共逐篇判定 30 篇。合并同篇预印本和正式版，未将出版页显示为福州大学或东南大学的四篇同名论文误记。两篇腾讯合著仍记线索。"
   },
   "bj356J0AAAAJ": {
     "from": "2023-01-01",
@@ -19813,14 +19827,80 @@ const facultyPaperAudits = {
   "k1S8Sc4AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://arxiv.org/html/2609.34335v1",
       "https://narechania.com/docs/arpit_narechania_cv.pdf",
       "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit",
       "https://longo11070001.github.io/",
       "https://yhuang.top/",
-      "https://github.com/Ais0n/SkillPE"
+      "https://github.com/Ais0n/SkillPE",
+      "https://doi.org/10.1145/3544548.3581509",
+      "https://arxiv.org/abs/2303.01575",
+      "https://datavisards.com/projects/2023-paper-datapilot/",
+      "https://doi.org/10.1109/BigData59044.2023.10386133",
+      "https://narechania.com/docs/publications/datacockpit_mlbd_2023.pdf",
+      "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2023.55",
+      "https://datavisards.com/projects/2023-paper-resiliency/",
+      "https://doi.org/10.1145/3613905.3651064",
+      "https://datavisards.com/assets/pdfs/publications/2024-paper-biasbuzz.pdf",
+      "https://arxiv.org/abs/2408.13391",
+      "https://datavisards.com/projects/2024-paper-nl4dv-llm/",
+      "https://arxiv.org/abs/2408.13450",
+      "https://datavisards.com/projects/2024-paper-vitality-2/",
+      "https://doi.org/10.1109/TVCG.2024.3456144",
+      "https://arxiv.org/abs/2407.17431",
+      "https://datavisards.com/projects/2025-paper-provenance-widgets/",
+      "https://doi.org/10.1145/3708359.3712166",
+      "https://arxiv.org/abs/2502.00682",
+      "https://doi.org/10.1109/TVCG.2025.3571708",
+      "https://arxiv.org/abs/2505.11784",
+      "https://datavisards.com/projects/2025-paper-provenance-lens/",
+      "https://doi.org/10.1145/3757461",
+      "https://arxiv.org/abs/2504.09438",
+      "https://narechania.com/docs/publications/nl4dv-stylist_vis_2025.pdf",
+      "https://doi.org/10.31219/osf.io/fs4en_v2",
+      "https://datavisards.com/projects/2025-paper-nl4dv-stylist/",
+      "https://arxiv.org/abs/2506.22893",
+      "https://datavisards.com/projects/2025-paper-agentic-enterprise/",
+      "https://arxiv.org/abs/2512.23372",
+      "https://doi.org/10.1080/15230406.2025.2543483",
+      "https://arxiv.org/abs/2511.20655",
+      "https://datavisards.com/projects/2025-paper-exploropleth/",
+      "https://datavisards.com/projects/2023-poster-exploropleth-cridc/",
+      "https://doi.org/10.1145/3772363.3799032",
+      "https://arxiv.org/abs/2603.08017",
+      "https://doi.org/10.1145/3772363.3798415",
+      "https://arxiv.org/abs/2604.15326",
+      "https://doi.org/10.1145/3772363.3798409",
+      "https://arxiv.org/abs/2604.15342",
+      "https://doi.org/10.1145/3772318.3791303",
+      "https://datavisards.com/projects/2026-paper-elicitation-study/",
+      "https://datavisards.com/assets/pdfs/publications/2026-paper-elicitation-study.pdf",
+      "https://doi.org/10.1145/3772318.3791945",
+      "https://arxiv.org/abs/2601.15100",
+      "https://datavisards.com/projects/2026-paper-webseek/",
+      "https://doi.org/10.1145/3772318.3791942",
+      "https://arxiv.org/abs/2510.05742",
+      "https://doi.org/10.1145/3706599.3719757",
+      "https://datavisards.com/projects/2026-paper-vipera/",
+      "https://arxiv.org/abs/2607.04501",
+      "https://doi.org/10.5281/zenodo.21207995",
+      "https://arxiv.org/abs/2608.05971",
+      "https://datavisards.com/publications/",
+      "https://lisa.ieeevis.org/year/2026/program/content/?filter=author&search=Arpit+Narechania",
+      "https://arxiv.org/abs/2608.06804",
+      "https://github.com/datavisards/FYI",
+      "https://arxiv.org/abs/2608.24329",
+      "https://arxiv.org/abs/2610.25852",
+      "https://arxiv.org/abs/2611.11325",
+      "https://researchportal.hkust.edu.hk/en/persons/arpit-ajay-narechania/",
+      "https://dblp.org/pid/170/6664.html",
+      "https://orcid.org/0000-0001-6980-3686",
+      "https://api.crossref.org/works?filter=orcid:0000-0001-6980-3686",
+      "https://export.arxiv.org/api/query?search_query=au%3ANarechania_A",
+      "https://researchportal.hkust.edu.hk/en/projects/generative-user-interface-for-multi-model-agents/",
+      "https://hdl.handle.net/1853/76976"
     ],
     "papers": [
       {
@@ -19828,6 +19908,188 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2609.34335v1",
         "outcome": "confirmed",
         "note": "SkillPE 首页为唯一带实习注记的一作 Yanwei Huang 标港科大及 KlingAI；脚注明示关联到本篇研究。导师本人正式履历注明从 2025 秋学期指导其博士，并在论文署港科大。快手可灵经理张远行在同篇作者页具名且独立确认企业岗位。",
+        "year": 2026
+      },
+      {
+        "title": "DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation",
+        "url": "https://doi.org/10.1145/3544548.3581509",
+        "outcome": "no-evidence",
+        "note": "ACM CHI。同篇的产业作者署名 Adobe Research；Arpit 当时是在 Georgia Tech 就读，未见范围内企业。",
+        "year": 2023
+      },
+      {
+        "title": "DataCockpit: A Toolkit for Data Lake Navigation and Monitoring Utilizing Quality and Usage Information",
+        "url": "https://doi.org/10.1109/BigData59044.2023.10386133",
+        "outcome": "no-evidence",
+        "note": "IEEE BigData。原文作者署名 Georgia Tech、Databricks、Adobe Research；没有范围内企业。本作是对不同数据库仓库场景的单独出版成果，不与 DataPilot 合并。",
+        "year": 2023
+      },
+      {
+        "title": "Resiliency: A Consensus Data Binning Method (Short Paper)",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2023.55",
+        "outcome": "no-evidence",
+        "note": "Dagstuhl 正式论文的三位作者均署 Georgia Tech；项目和资助信息未显示范围内企业。",
+        "year": 2023
+      },
+      {
+        "title": "BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis",
+        "url": "https://doi.org/10.1145/3613905.3651064",
+        "outcome": "no-evidence",
+        "note": "CHI EA。Jamal Paden、Arpit Narechania、Alex Endert 的机构均为 Georgia Tech，实验与致谢未证明范围内企业共同研究。",
+        "year": 2024
+      },
+      {
+        "title": "Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models",
+        "url": "https://arxiv.org/abs/2408.13391",
+        "outcome": "no-evidence",
+        "note": "IEEE VIS 研讨会。原文作者机构为 UNC Charlotte 与 Georgia Tech。导师履历列有一作的学术指导，但没有范围内企业人员或该论文的企业实习。",
+        "year": 2024
+      },
+      {
+        "title": "vitaLITy 2: Reviewing Academic Literature Using Large Language Models",
+        "url": "https://arxiv.org/abs/2408.13450",
+        "outcome": "no-evidence",
+        "note": "IEEE VIS 研讨会。作者机构为 Nottingham、Georgia Tech、Emory；Google 学术等是被讨论的检索工具，不是参与论文的企业。",
+        "year": 2024
+      },
+      {
+        "title": "ProvenanceWidgets: A Library of UI Control Elements to Track and Dynamically Overlay Analytic Provenance",
+        "url": "https://doi.org/10.1109/TVCG.2024.3456144",
+        "outcome": "no-evidence",
+        "note": "IEEE TVCG 2025 卷期，2024 年公开。作者原稿与实验室书目未见范围企业共同作者或项目实习。",
+        "year": 2025
+      },
+      {
+        "title": "Guidance Source Matters: How Guidance from AI, Expert, or a Group of Analysts Impacts Visual Data Preparation and Analysis",
+        "url": "https://doi.org/10.1145/3708359.3712166",
+        "outcome": "no-evidence",
+        "note": "ACM IUI。企业署名为 Adobe Research，另两位署 Georgia Tech；未见范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "Utilizing Provenance as an Attribute for Visual Data Analysis: A Design Probe With ProvenanceLens",
+        "url": "https://doi.org/10.1109/TVCG.2025.3571708",
+        "outcome": "no-evidence",
+        "note": "IEEE TVCG。原文列出 HKUST/Georgia Tech 与 Adobe Research，产业参与仅 Adobe；没有范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "Cartographers in Cubicles: How Training and Preferences of Mapmakers Interplay with Structures and Norms in Not-for-Profit Organizations",
+        "url": "https://doi.org/10.1145/3757461",
+        "outcome": "no-evidence",
+        "note": "PACMHCI。作者为 HKUST/Georgia Tech；非营利机构是研究对象，论文脚注另说明第一作者部分工作在 Georgia Tech 完成，没有范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "NL4DV-Stylist: Styling Data Visualizations Using Natural Language and Example Charts",
+        "url": "https://narechania.com/docs/publications/nl4dv-stylist_vis_2025.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE VIS Poster Track 有独立文章及 OSF 版本，署名 Michigan、HKUST；一作在港科大实验室访问实习，未见范围内企业实习。",
+        "year": 2025
+      },
+      {
+        "title": "Agentic Enterprise: AI-Centric User to User-Centric AI",
+        "url": "https://arxiv.org/abs/2506.22893",
+        "outcome": "no-evidence",
+        "note": "原文署名 HKUST、Georgia Tech、Adobe Research。未显示研究由范围内企业及受指导学生共同完成。",
+        "year": 2025
+      },
+      {
+        "title": "A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics",
+        "url": "https://arxiv.org/abs/2512.23372",
+        "outcome": "no-evidence",
+        "note": "原文作者机构为 ETH Zürich、香港科技大学，没有范围内企业。未找到截止前另行发布的正式版本。",
+        "year": 2025
+      },
+      {
+        "title": "Exploropleth: Exploratory Analysis of Data Binning Methods in Choropleth Maps",
+        "url": "https://doi.org/10.1080/15230406.2025.2543483",
+        "outcome": "no-evidence",
+        "note": "2025-09 首先在线，按正式期刊第 53 卷第 6 期计 2026。作者署 HKUST、Georgia Tech；未见范围企业。2023 年 Exploropleth CRIDC 海报和 arXiv 预印本是同一系统/研究版本，合并；与单独发表的 Resiliency 短文区分。",
+        "year": 2026
+      },
+      {
+        "title": "Alignment-Process-Outcome: Rethinking How AIs and Humans Collaborate",
+        "url": "https://doi.org/10.1145/3772363.3799032",
+        "outcome": "no-evidence",
+        "note": "CHI EA。作者署 George Mason、Simon Fraser、HKUST；查阅导师履历及原文，未见范围企业雇员或作品对应企业实习。",
+        "year": 2026
+      },
+      {
+        "title": "Analyzing the Presentation, Content, and Utilization of References in LLM-powered Conversational AI Systems",
+        "url": "https://doi.org/10.1145/3772363.3798415",
+        "outcome": "no-evidence",
+        "note": "CHI EA。Ouyang 与导师仅署 HKUST；混元模型是被测产品，原文没有腾讯公司作者或参与本论文的员工/实习证明。",
+        "year": 2026
+      },
+      {
+        "title": "SuperProvenanceWidgets: Tracking and Visualizing Analytic Provenance Across UI Control Elements",
+        "url": "https://doi.org/10.1145/3772363.3798409",
+        "outcome": "no-evidence",
+        "note": "CHI EA。Kaustubh Odak 的署名为 Amazon Web Services，其他作者 HKUST；无范围企业。论文扩展了此前框架，另有作者、DOI 及跨控件贡献，分别记录。",
+        "year": 2026
+      },
+      {
+        "title": "Does a Picture Paint a Thousand Words? Using Visual and Textual Channels to Understand Attitudes and Beliefs",
+        "url": "https://doi.org/10.1145/3772318.3791303",
+        "outcome": "no-evidence",
+        "note": "ACM CHI。合著者分别来自 Emory、Georgia Tech、HKUST、Simon Fraser；原文无范围企业员工或同篇实习。",
+        "year": 2026
+      },
+      {
+        "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
+        "url": "https://doi.org/10.1145/3772318.3791945",
+        "outcome": "no-evidence",
+        "note": "ACM CHI。原文两位作者为港科大博士生 Yanwei Huang 及导师；这项工具的脚注、致谢没有注明快手或其他目标企业参与。作者在另一论文的可灵实习不适用于此篇。",
+        "year": 2026
+      },
+      {
+        "title": "Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI",
+        "url": "https://doi.org/10.1145/3772318.3791942",
+        "outcome": "no-evidence",
+        "note": "2025 预印本，2026 ACM CHI 正文作者为 HKUST 和 CMU。公开致谢中的 AI 工具、资金及一作其他时间的实习不是本篇企业参与。2025 CHI EA 较早相关同名工具文章没有 Arpit 署名，不单列。",
+        "year": 2026
+      },
+      {
+        "title": "From Interaction to Intent: Inferring User Objectives from Provenance Logs",
+        "url": "https://arxiv.org/abs/2607.04501",
+        "outcome": "no-evidence",
+        "note": "作者来自 ETH Zürich、香港科大；公开文稿未见范围内企业。Zenodo 附随条目确认为数据集并反向连到这篇论文，不重复计量。",
+        "year": 2026
+      },
+      {
+        "title": "PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching",
+        "url": "https://arxiv.org/abs/2608.05971",
+        "outcome": "no-evidence",
+        "note": "2026-08 底稿公开，IEEE VIS 2026 正式日程列出，TVCG 2027 卷期待出。一作的具名实习是港科大学术实验室；原文没有范围企业合著者。",
+        "year": 2026
+      },
+      {
+        "title": "Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles",
+        "url": "https://arxiv.org/abs/2608.06804",
+        "outcome": "no-evidence",
+        "note": "2026-08 文稿已公开；TVCG 2027 卷期待出。学生/科研实习属于高校，合作者的单位为港科大、南丹麦大学；无范围内企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "How Do Professional Editors Evaluate the Editing Quality of AI-Generated Cinematic Video Ads?",
+        "url": "https://arxiv.org/abs/2608.24329",
+        "outcome": "no-evidence",
+        "note": "两位产业作者署 Adaptive Machines, Inc，另一位署香港科大；企业确实共同研究但不是目标企业。原文中其他视频模型名称不构成员工共同署名。",
+        "year": 2026
+      },
+      {
+        "title": "MASIF: Implicit Failures for Process Observability in Multi-Agent Systems",
+        "url": "https://arxiv.org/abs/2610.25852",
+        "outcome": "no-evidence",
+        "note": "原文显示港科大学生 Yanwei Huang、其导师 Arpit 及 Adobe Research 的 Atanu Sinha 同篇；Adobe 不在范围。没有把同一学生另一篇的可灵实习带入。",
+        "year": 2026
+      },
+      {
+        "title": "Linking Event-sequence Data Claims to Analytic Provenance in Chatbots: Technique and Evaluation",
+        "url": "https://arxiv.org/abs/2611.11325",
+        "outcome": "no-evidence",
+        "note": "首篇文稿 2026-11-08。作者页标出 Adaptive Machines, Inc 与港科大，没有范围内企业；与同课题组的独立视频剪辑论文不同。",
         "year": 2026
       }
     ]
@@ -19974,5 +20236,256 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已交叉对照南大任职、ORCID、Crossref、DBLP、arXiv、ACL/ICML 与合作者机构库。仍有几篇需确认完整作者单位并寻漏收，暂标梳理中。"
+  },
+  "-AR1yc4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://collegeai.tsinghua.edu.cn/rydw/qzpi/wt.htm",
+      "https://collegeai.tsinghua.edu.cn/en/Research/Research_Groups/DeltaILab.htm",
+      "https://tonghanwang.github.io/",
+      "https://dblp.org/pid/175/6039-1.html",
+      "https://orcid.org/0000-0002-7703-6074",
+      "https://api.crossref.org/works?query.author=Tonghan+Wang",
+      "https://arxiv.org/search/?query=Tonghan+Wang&searchtype=author",
+      "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/3/796/files/2025/08/Tonghan__Thesis.pdf",
+      "https://ec26.sigecom.org/program/accepted-papers/",
+      "https://ruiyangsi.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Deep Contract Design via Discontinuous Networks",
+        "year": 2023,
+        "url": "https://doi.org/10.52202/075280-2873",
+        "outcome": "no-evidence",
+        "note": "2023 年：NeurIPS 终稿与更早题名的预印本同篇；署哈佛、Google Switzerland 和 Technion，Google 不在范围内。"
+      },
+      {
+        "title": "Never Explore Repeatedly in Multi-Agent Reinforcement Learning",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2308.09909",
+        "outcome": "no-evidence",
+        "note": "2023 年：原文署清华、哈佛、圣路易斯华盛顿大学，未见范围内企业角色。"
+      },
+      {
+        "title": "Symmetry-Aware Robot Design with Structured Subgroups",
+        "year": 2023,
+        "url": "https://proceedings.mlr.press/v202/dong23h.html",
+        "outcome": "no-evidence",
+        "note": "2023 年：ICML 正式稿与 arXiv 同篇；作者署清华、华中科大、哈佛及圣路易斯华盛顿大学，未见范围内企业。"
+      },
+      {
+        "title": "GemNet: Menu-Based, Strategy-Proof Multi-Bidder Auctions Through Deep Learning",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3670865.3673454",
+        "outcome": "no-evidence",
+        "note": "2024 年：ACM EC 正式稿和 ORCID 均确认，三位作者均属哈佛。"
+      },
+      {
+        "title": "Multi-agent policy transfer via task relationship modeling",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/s11432-023-3862-1",
+        "note": "2024 年：正式期刊与清华论文名单、王同翰博士论文互证，署南京大学、哈佛、清华及 Polixir Technologies；该公司不在范围内。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Multi-Sender Persuasion: A Computational Perspective",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/hossain24c.html",
+        "outcome": "no-evidence",
+        "note": "2024 年：ICML 正式稿与 arXiv 同篇，主要机构为哈佛、芝加哥大学；无范围内企业角色。"
+      },
+      {
+        "title": "Position: Social Environment Design Should be Further Developed for AI-based Policy-Making",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/zhang24cl.html",
+        "outcome": "no-evidence",
+        "note": "2024 年：ICML 正式题名与 Social Environment Design 预印本同篇；另有 牛津、Founding、Asari AI 与 Google Research，均不在企业范围。"
+      },
+      {
+        "title": "Principal-Agent Reinforcement Learning: Orchestrating AI Agents with Contracts",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2407.18074",
+        "outcome": "no-evidence",
+        "note": "2024 年：共同作者将其列作工作论文；原文含 Harvard、Technion 及 Google Research，Google 不在范围内。"
+      },
+      {
+        "title": "Adaptive Frontier Exploration on Graphs with Applications to Network-Based Disease Testing",
+        "year": 2025,
+        "url": "https://doi.org/10.52202/085713-5005",
+        "outcome": "no-evidence",
+        "note": "2025 年：NeurIPS 终稿列哈佛、Wits、WHO；未见范围内企业。"
+      },
+      {
+        "title": "Automated Mechanism Design: A Survey",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3821540.3821547",
+        "note": "2025 年：SIGecom 原文署伊利诺伊大学芝加哥分校和哈佛；Yahoo 是文献中讨论的案例。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "BundleFlow: Deep Menus for Combinatorial Auctions by Diffusion-Based Optimization",
+        "year": 2025,
+        "url": "https://doi.org/10.52202/085713-0569",
+        "outcome": "no-evidence",
+        "note": "2025 年：NeurIPS 正式稿及个人书目确认，三位作者均来自哈佛。"
+      },
+      {
+        "title": "Celebrating Diversity With Subtask Specialization in Shared Multiagent Reinforcement Learning",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TNNLS.2023.3326744",
+        "note": "2025 年：IEEE 正式版为 2025 年卷期、2023 年 online first，与 2021 年 NeurIPS 前版属同一研究系列。院校作者机构与本人博士论文交叉确认；使用 Google Research Football 不等于企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+        "year": 2025,
+        "url": "https://doi.org/10.52202/085713-3095",
+        "outcome": "no-evidence",
+        "note": "2025 年：NeurIPS Spotlight 正式稿与 2026 更新的预印本同篇；公开稿列哈佛一方。"
+      },
+      {
+        "title": "On Diffusion Models for Multi-Agent Partial Observability: Shared Attractors, Error Bounds, and Composite Flow",
+        "year": 2025,
+        "url": "https://doi.org/10.65109/ufog2679",
+        "outcome": "no-evidence",
+        "note": "2025 年：AAMAS 正式稿与 2024 预印本同篇；哈佛及清华同署，无范围内企业。"
+      },
+      {
+        "title": "Robust Optimization with Diffusion Models for Green Security",
+        "year": 2025,
+        "url": "https://proceedings.mlr.press/v286/kong25c.html",
+        "outcome": "no-evidence",
+        "note": "2025 年：UAI 正式稿与 arXiv 同篇，署哈佛与芝加哥大学；未见范围内企业。"
+      },
+      {
+        "title": "The Bandit Whisperer: Communication Learning for Restless Bandits",
+        "year": 2025,
+        "url": "https://doi.org/10.1609/aaai.v39i22.34508",
+        "outcome": "no-evidence",
+        "note": "2025 年：AAAI 正式稿与 2024 年 arXiv 同篇；原文有哈佛、GE Healthcare 和 Google DeepMind。"
+      },
+      {
+        "title": "A Mechanistic Study of Language Model Introspection",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.35108",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文列山东大学、美国东北大学、香港大学、清华，未见范围内企业。"
+      },
+      {
+        "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.42116",
+        "outcome": "no-evidence",
+        "note": "2026 年：三名作者均署清华；跨模型方法和使用工业模型没有具名企业研究员。"
+      },
+      {
+        "title": "DiffAuction: An Auction-Driven Framework for Generative Image Advertising",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.34917",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文列同济、清华和上海期智研究院；学生 Ruiyang Si 的公开履历具名王同翰和该项目，未见范围内企业角色。"
+      },
+      {
+        "title": "Duality for Optimal Multi-Item, Multi-Bidder Auction Design: Revenue Certificates through Deep Learning",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.10112",
+        "outcome": "no-evidence",
+        "note": "2026 年：ACM EC 官方录用目录与预印本同篇，署哈佛及清华，未见范围内企业。"
+      },
+      {
+        "title": "Evaluating and Pricing Advertisements in AI-Generated Responses",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2607.27686",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署 CMU 和清华，无范围内企业作者。"
+      },
+      {
+        "title": "Every Cache Entry Earns Its Place: Global Allocation of Resolution and Coverage for KV Cache Compression",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.07001",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文三位作者均署清华，无企业作者；仅涉及开放模型及其缓存。"
+      },
+      {
+        "title": "Growing and Transferring Pathways for LLM Reinforcement Learning",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.16489",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文三位作者均署清华；无具名企业员工或企业项目。"
+      },
+      {
+        "title": "How LLMs Are Persuaded: A Few Attention Heads, Rerouted",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.09314",
+        "outcome": "no-evidence",
+        "note": "2026 年：第二版列美国东北大学、香港大学、清华及 Skywork AI，天工不在本项目企业范围。"
+      },
+      {
+        "title": "Incentive-Aware Multi-Fidelity Optimization for Generative Advertising in Large Language Models",
+        "year": 2026,
+        "url": "https://openreview.net/forum?id=d8UTLNyXPj",
+        "outcome": "no-evidence",
+        "note": "2026 年：本人及第一作者均列 COLM 2026；公开作者单位为 CMU、阿德莱德大学、牛津与哈佛，未见范围内企业。"
+      },
+      {
+        "title": "LLM Active Alignment: A Nash Equilibrium Perspective",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2602.06836",
+        "outcome": "no-evidence",
+        "note": "2026 年：截至调查期使用 2 月公开预印本；其作者单位仅列清华与哈佛。虽同名 Xinyi Yang 后续论文出现腾讯署名，本篇未列其在腾讯参与。"
+      },
+      {
+        "title": "LLM Advertisement based on Neuron Auctions",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.08326",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署清华、CMU 和哈佛。梁曾在这一篇署清华，不能把他在不同论文的 Skywork AI 署名移到此篇。"
+      },
+      {
+        "title": "Loyal Agents: Training LLM Agents to Protect Principal Interests Under Strategic Information Asymmetry",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.34714",
+        "outcome": "no-evidence",
+        "note": "2026 年：脚注明确第一作者 Zimeng Huang 在上海期智研究院和阶跃星辰实习时完成，但阶跃星辰不在本项目 14 家企业范围。"
+      },
+      {
+        "title": "NaiAD: Initiate Data-Driven Research for LLM Advertising",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.09918",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署清华、安徽外国语学院和北京通用人工智能研究院，无指定企业。"
+      },
+      {
+        "title": "PILA: Plug-and-Play Insertion for LLM-native Advertising",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2607.25590",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文列北大、清华、密歇根大学、北京通用人工智能研究院和上海期智研究院，没有指定企业。"
+      },
+      {
+        "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.08060",
+        "outcome": "no-evidence",
+        "note": "2026 年：作者署 CMU／FOCAL、密歇根大学和哈佛；未见范围内企业。"
+      },
+      {
+        "title": "Translate Policy to Language: Flow Matching Generated Rewards for LLM Explanations",
+        "year": 2026,
+        "url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/3/796/files/2026/02/12727_Translate_Policy_to_Lang-1.pdf",
+        "outcome": "lead",
+        "note": "2026 年：ICLR 终稿将第一作者 Xinyi Yang 的机构更新为腾讯 AIPD，但脚注明确研究完成时仍是清华博士生；2025 初稿无腾讯，王同翰博士论文已收录该工作，且校方记录他自 2026 年 6 月任清华助理教授。未取得学生在腾讯参与本研究、王同翰当期指导及另有腾讯正式研究员同篇的证据。"
+      },
+      {
+        "title": "Verbalizing Multi-Token Concepts in LLMs",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.31084",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署清华；已核对首页实习脚注及个人书目，未发现范围内企业就本项目具名。"
+      }
+    ],
+    "note": "已完成调查期内可公开查到的 33 篇，不将本人尚待正式会议的条目与已公开预印本重复计数。以本人完整 All 书目为起点，交叉清华实验室、哈佛博士论文引文、同一 ORCID、DBLP、Crossref 和预印本库，排除东华理工大学图像方向及农业方向的同名作者。逐篇检查正式原文及角色，32 篇未见范围内证据，1 篇存疑待补，不计入确认。"
   }
 };
