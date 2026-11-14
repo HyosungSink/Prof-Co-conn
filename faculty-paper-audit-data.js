@@ -708,8 +708,9 @@ const facultyPaperAudits = {
       {
         "title": "Make Your ViT-based Multi-view 3D Detectors Faster via Token Compression",
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06320-supp.pdf",
+        "year": 2024,
         "outcome": "lead",
-        "note": "双方及学生同篇，但目前未证实梁定康参与本篇发生于百度实习。"
+        "note": "ECCV 与首稿都列百度正式合作者 Xiaoqing Ye 等、在读华中科大作者及通讯作者白翔。首稿没有具名企业实习脚注，暂缺在读学生与百度共同执行同一研究的项目说明。"
       },
       {
         "title": "SOOD++: Leveraging Unlabeled Data to Boost Oriented Object Detection",
@@ -814,6 +815,83 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "首稿列百度邹智康和叶晓青，邹本人也列梁定康为曾指导的实习生。论文同期具名校内博士导师白翔，但原文无同篇实习脚注，仍缺具体项目归属。"
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning",
+        "url": "https://arxiv.org/html/2410.08114v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IEEE TPAMI 论文的作者公开稿明确列百度正式员工邹智康和 Yumeng Zhang，梁定康与两名学生及白翔均署华中科大。初稿与梁在百度实习资料的时间及任务没有直接对应。"
+      },
+      {
+        "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+        "url": "https://arxiv.org/html/2501.14729v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICCV 2025 公开稿列华中科技大学、香港大学、Mach Drive 和旷视等，所列企业不在范围。"
+      },
+      {
+        "title": "Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis",
+        "url": "https://arxiv.org/html/2403.01439v1",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "CVPR 2024 作者公开稿有同篇百度正式员工邹智康、具名同篇学生梁定康与博士导师白翔；邹的履历列前者为曾指导实习生，但无法对应到该篇。"
+      },
+      {
+        "title": "ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+        "url": "https://arxiv.org/html/2503.19755v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICCV 当期公开稿及项目页列小米汽车合作者，小米不在目标企业名单。"
+      },
+      {
+        "title": "Extending Large Vision-Language Model for Diverse Interactive Tasks in Autonomous Driving",
+        "url": "https://arxiv.org/html/2505.08725v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE TIP 2026 作者公开稿具名列小米汽车两位作者，其他作者列华中科大；小米不在目标企业名单。"
+      },
+      {
+        "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+        "url": "https://arxiv.org/html/2502.10498v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "有百度研究人员及华中科大教师和学生共同署名；公开稿是综述，未具名说明学生以企业研发角色参与同项研究。"
+      },
+      {
+        "title": "MINIMA: Modality Invariant Image Matching",
+        "url": "https://arxiv.org/html/2412.19412v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "CVPR 2025 作者公开稿列华中科技大学和武汉大学，没有范围内企业共同署名。"
+      },
+      {
+        "title": "A Unified Framework for 3D Scene Understanding",
+        "url": "https://arxiv.org/html/2407.03263v1",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2024 作者公开稿首页逐名列华中科技大学。"
+      },
+      {
+        "title": "Query-based Temporal Fusion with Explicit Motion for 3D Object Detection",
+        "url": "https://papers.neurips.cc/paper_files/paper/2023/file/ef0dcb44a47185f5bacac62571f6e920-Paper-Conference.pdf",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "NeurIPS 正式首页列在读作者与白翔，也列百度员工邹智康、叶晓青。原文没有明确哪位学生在百度实研，已知实习履历不足以锁定本篇。"
+      },
+      {
+        "title": "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model",
+        "url": "https://arxiv.org/html/2306.02245v1",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "以 Science China Information Sciences 2024 正式书目计。首稿列百度邹智康、叶晓青与华中科大多位作者，未查到具名学生同篇企业实研。"
+      },
+      {
+        "title": "Mini-Monkey: Multi-Scale Adaptive Cropping for Multimodal Large Language Models",
+        "url": "https://arxiv.org/html/2408.02034v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICLR 2025 作者公开稿逐名列华南理工大学及华中科技大学。首稿具名说明一位作者在华中科大访问时完成，属于高校合作。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -7547,7 +7625,18 @@ const facultyPaperAudits = {
       "https://gao-xiao-bai.github.io/",
       "https://jcyk.github.io/indexv0.html",
       "https://proceedings.neurips.cc/paper_files/paper/2024/file/af7cc9e2366b8f8837a6ef339810277a-Paper-Conference.pdf",
-      "https://research.cuhk.edu.hk/en/publications/strategyllm-large-language-models-as-strategy-generators-executor/"
+      "https://research.cuhk.edu.hk/en/publications/strategyllm-large-language-models-as-strategy-generators-executor/",
+      "https://aclanthology.org/2026.acl-long.506/",
+      "https://aclanthology.org/2026.acl-long.506.pdf",
+      "https://hi-zenanxu.github.io/index.html",
+      "https://arxiv.org/abs/2509.19249",
+      "https://aclanthology.org/2023.findings-acl.754/",
+      "https://www.alibabacloud.com/zh/developer/event/alibaba-cloud-developer-summit-2023",
+      "https://aclanthology.org/2023.findings-acl.754.pdf",
+      "https://aclanthology.org/2025.findings-acl.828/",
+      "https://aclanthology.org/2025.findings-acl.828.pdf",
+      "https://www.huangzhichao.net/",
+      "https://arxiv.org/abs/2505.20622"
     ],
     "papers": [
       {
@@ -7614,6 +7703,27 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "正式论文首页匕首只标注第一作者高畅，明确该工作出自其腾讯 AI Lab 实习。在读时间和博士导师另由学生履历与校方课题组核实，同篇同署名的蔡登在同期任腾讯 AI Lab 高级研究员。",
         "year": 2024
+      },
+      {
+        "title": "Reinforcement Learning on Pre-Training Data",
+        "url": "https://aclanthology.org/2026.acl-long.506/",
+        "outcome": "confirmed",
+        "note": "正式版在共同第一作者 Siheng Li 的姓名上用星号明确注明该项工作在腾讯实习期间完成。教授所在学校课题组独立确认该学生及入学年。同篇共同第一作者徐泽南的正式腾讯任职有本人资料，且论文署名明确。",
+        "year": 2026
+      },
+      {
+        "title": "Easy-to-Hard Learning for Information Extraction",
+        "url": "https://aclanthology.org/2023.findings-acl.754/",
+        "outcome": "confirmed",
+        "note": "正式版具名标注高畅在达摩院实习期间完成本项工作。学生和港中文课题组都确认 Wai Lam 为博士导师，阿里达摩院同时期技术总监邴立东以企业身份共同署名。",
+        "year": 2023
+      },
+      {
+        "title": "SeqPO-SiMT: Sequential Policy Optimization for Simultaneous Machine Translation",
+        "url": "https://aclanthology.org/2025.findings-acl.828/",
+        "outcome": "confirmed",
+        "note": "首页星号直接标明第一作者 Ting Xu 在字节跳动实习时完成这篇研究。校方课题组具名列其为 Wai Lam 在读博士生；同篇通讯作者 Zhichao Huang 的原始资料独立确认其正式任职。",
+        "year": 2025
       }
     ]
   },
@@ -15372,7 +15482,8 @@ const facultyPaperAudits = {
       "https://lmd0311.github.io/",
       "https://dk-liang.github.io/",
       "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm",
-      "https://dblp.dagstuhl.de/pid/255/6274.html"
+      "https://dblp.dagstuhl.de/pid/255/6274.html",
+      "https://bigteacher-777.github.io/"
     ],
     "papers": [
       {
@@ -15479,6 +15590,111 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "首稿列百度邹智康和叶晓青，邹本人也列梁定康为曾指导的实习生。论文同期具名校内博士导师白翔，但原文无同篇实习脚注，仍缺具体项目归属。"
+      },
+      {
+        "title": "FVAR: Visual Autoregressive Modeling via Next Focus Prediction",
+        "url": "https://arxiv.org/html/2511.18838v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "CVPR 2026；公开稿所有作者合列于百度名下，梁定康同篇具名。是否存在该篇在读学生、符合范围的教师，以及企业项目中的具体身份，仍待明确。"
+      },
+      {
+        "title": "Video4Edit: Viewing Image Editing as a Degenerate Temporal Process",
+        "url": "https://arxiv.org/html/2511.18131v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "首稿作者单位统一为百度。梁定康在同月已完成博士答辩，论文没有具名学生或导师，也未声明哪位参与者是实习生。"
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning",
+        "url": "https://arxiv.org/html/2410.08114v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IEEE TPAMI 论文的作者公开稿明确列百度正式员工邹智康和 Yumeng Zhang，梁定康与两名学生及白翔均署华中科大。初稿与梁在百度实习资料的时间及任务没有直接对应。"
+      },
+      {
+        "title": "HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation",
+        "url": "https://arxiv.org/html/2501.14729v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICCV 2025 公开稿列华中科技大学、香港大学、Mach Drive 和旷视等，所列企业不在范围。"
+      },
+      {
+        "title": "Make Your ViT-based Multi-view 3D Detectors Faster via Token Compression",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06320-supp.pdf",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "ECCV 与首稿都列百度正式合作者 Xiaoqing Ye 等、在读华中科大作者及通讯作者白翔。首稿没有具名企业实习脚注，暂缺在读学生与百度共同执行同一研究的项目说明。"
+      },
+      {
+        "title": "Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis",
+        "url": "https://arxiv.org/html/2403.01439v1",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "CVPR 2024 作者公开稿有同篇百度正式员工邹智康、具名同篇学生梁定康与博士导师白翔；邹的履历列前者为曾指导实习生，但无法对应到该篇。"
+      },
+      {
+        "title": "ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+        "url": "https://arxiv.org/html/2503.19755v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICCV 当期公开稿及项目页列小米汽车合作者，小米不在目标企业名单。"
+      },
+      {
+        "title": "Navigation World Model for Driving Simulation via Multimodal Trajectory Prompting and Motion Alignment",
+        "url": "https://arxiv.org/html/2504.18576v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ACM MM 2025 公开稿统一署百度，未针对在读、导师及实习角色逐名说明。梁定康当年仍在攻读博士，暂未证实同篇的学生身份和校内导师共同发表。"
+      },
+      {
+        "title": "Extending Large Vision-Language Model for Diverse Interactive Tasks in Autonomous Driving",
+        "url": "https://arxiv.org/html/2505.08725v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE TIP 2026 作者公开稿具名列小米汽车两位作者，其他作者列华中科大；小米不在目标企业名单。"
+      },
+      {
+        "title": "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey",
+        "url": "https://arxiv.org/html/2502.10498v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "有百度研究人员及华中科大教师和学生共同署名；公开稿是综述，未具名说明学生以企业研发角色参与同项研究。"
+      },
+      {
+        "title": "MINIMA: Modality Invariant Image Matching",
+        "url": "https://arxiv.org/html/2412.19412v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "CVPR 2025 作者公开稿列华中科技大学和武汉大学，没有范围内企业共同署名。"
+      },
+      {
+        "title": "A Unified Framework for 3D Scene Understanding",
+        "url": "https://arxiv.org/html/2407.03263v1",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2024 作者公开稿首页逐名列华中科技大学。"
+      },
+      {
+        "title": "Query-based Temporal Fusion with Explicit Motion for 3D Object Detection",
+        "url": "https://papers.neurips.cc/paper_files/paper/2023/file/ef0dcb44a47185f5bacac62571f6e920-Paper-Conference.pdf",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "NeurIPS 正式首页列在读作者与白翔，也列百度员工邹智康、叶晓青。原文没有明确哪位学生在百度实研，已知实习履历不足以锁定本篇。"
+      },
+      {
+        "title": "SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model",
+        "url": "https://arxiv.org/html/2306.02245v1",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "以 Science China Information Sciences 2024 正式书目计。首稿列百度邹智康、叶晓青与华中科大多位作者，未查到具名学生同篇企业实研。"
+      },
+      {
+        "title": "Mini-Monkey: Multi-Scale Adaptive Cropping for Multimodal Large Language Models",
+        "url": "https://arxiv.org/html/2408.02034v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICLR 2025 作者公开稿逐名列华南理工大学及华中科技大学。首稿具名说明一位作者在华中科大访问时完成，属于高校合作。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -29555,7 +29771,7 @@ const facultyPaperAudits = {
         "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-modal Context-Aware Retrieval for Dynamic Environments",
         "url": "https://doi.org/10.1007/978-3-032-37435-6_3",
         "outcome": "lead",
-        "note": "ECCV 正式章节列邹晨烨署名阿里巴巴，国科大导师页列第一作者唐瑞杰为吴国全所指导的博士生；论文未说明学生在阿里巴巴参与同一研究，暂作线索。"
+        "note": "ECCV 正式章节列Chenye Zou署名阿里巴巴，国科大导师页列第一作者唐瑞杰为吴国全所指导的博士生；论文未说明学生在阿里巴巴参与同一研究，暂作线索。"
       },
       {
         "year": 2026,
@@ -29937,7 +30153,7 @@ const facultyPaperAudits = {
         "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-modal Context-Aware Retrieval for Dynamic Environments",
         "url": "https://doi.org/10.1007/978-3-032-37435-6_3",
         "outcome": "lead",
-        "note": "ECCV 正式章节列邹晨烨署名阿里巴巴，国科大导师页列第一作者唐瑞杰为吴国全所指导的博士生；论文未说明学生在阿里巴巴参与同一研究，暂作线索。 陈伟是同篇作者；现有唐瑞杰的具名导师材料指向吴国全，未见陈伟直接指导唐瑞杰或新增可确认的三方关系。"
+        "note": "ECCV 正式章节列Chenye Zou署名阿里巴巴，国科大导师页列第一作者唐瑞杰为吴国全所指导的博士生；论文未说明学生在阿里巴巴参与同一研究，暂作线索。 陈伟是同篇作者；现有唐瑞杰的具名导师材料指向吴国全，未见陈伟直接指导唐瑞杰或新增可确认的三方关系。"
       },
       {
         "year": 2026,

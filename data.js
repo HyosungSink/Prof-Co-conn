@@ -36669,6 +36669,134 @@ const survey = {
         ]
       ],
       "evidence": "正式论文首页匕首只标注第一作者高畅，明确该工作出自其腾讯 AI Lab 实习。在读时间和博士导师另由学生履历与校方课题组核实，同篇同署名的蔡登在同期任腾讯 AI Lab 高级研究员。"
+    },
+    {
+      "id": "tencent-rlpt-cuhk-wai-lam",
+      "company": "腾讯",
+      "team": "混元大语言模型团队",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "香港中文大学系统工程与工程管理学系教授，本篇共同作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Siheng Li",
+        "2024 年起为香港中文大学在读博士，本文共同第一作者，正式论文中星号标注在腾讯实习开展本项研究。",
+        "https://aclanthology.org/2026.acl-long.506.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "香港中文大学课题组具名列为 Wai Lam 自 2024 年起指导的博士生。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "徐泽南 · Zenan Xu",
+        "共同第一作者，署腾讯大语言模型部；其履历明确 2023 年博士毕业后正式加入腾讯，负责混元大模型后训练。",
+        "https://hi-zenanxu.github.io/index.html"
+      ],
+      "title": "Reinforcement Learning on Pre-Training Data",
+      "short": "RLPT",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "大语言模型",
+      "paper": "https://aclanthology.org/2026.acl-long.506/",
+      "extra": [
+        [
+          "正式论文首页和实习脚注",
+          "https://aclanthology.org/2026.acl-long.506.pdf"
+        ],
+        [
+          "2025 年 9 月同篇预印本",
+          "https://arxiv.org/abs/2509.19249"
+        ]
+      ],
+      "evidence": "正式版在共同第一作者 Siheng Li 的姓名上用星号明确注明该项工作在腾讯实习期间完成。教授所在学校课题组独立确认该学生及入学年。同篇共同第一作者徐泽南的正式腾讯任职有本人资料，且论文署名明确。"
+    },
+    {
+      "id": "alibaba-easy-to-hard-cuhk-wai-lam",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "student": [
+        "高畅 · Chang Gao",
+        "港中文博士（2020 年 8 月至 2025 年 3 月），论文第一作者。正式版脚注具名说明该工作在阿里达摩院实习期间完成。",
+        "https://gao-xiao-bai.github.io/"
+      ],
+      "employee": [
+        "邴立东 · Lidong Bing",
+        "论文署名阿里达摩院。阿里云同期活动资料载明其为阿里达摩院技术总监。",
+        "https://www.alibabacloud.com/zh/developer/event/alibaba-cloud-developer-summit-2023"
+      ],
+      "title": "Easy-to-Hard Learning for Information Extraction",
+      "short": "Easy-to-Hard Learning",
+      "date": "2023-07",
+      "venue": "Findings of ACL",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2023.findings-acl.754/",
+      "extra": [
+        [
+          "正式论文首页和实习脚注",
+          "https://aclanthology.org/2023.findings-acl.754.pdf"
+        ]
+      ],
+      "evidence": "正式版具名标注高畅在达摩院实习期间完成本项工作。学生和港中文课题组都确认 Wai Lam 为博士导师，阿里达摩院同时期技术总监邴立东以企业身份共同署名。",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "香港中文大学系统工程与工程管理学系教授，本篇共同作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "advising": [
+        "博士导师",
+        "港中文课题组具名列出其在读博士入学年。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ]
+    },
+    {
+      "id": "bytedance-seqpo-simt-cuhk-wai-lam",
+      "company": "字节跳动",
+      "team": "字节跳动 AI Lab",
+      "student": [
+        "Ting Xu",
+        "港中文课题组列为 2024 年起博士生。为第一作者，正式版具名同传研究在字节跳动实习期间完成。",
+        "https://aclanthology.org/2025.findings-acl.828.pdf"
+      ],
+      "employee": [
+        "Zhichao Huang",
+        "同篇字节跳动通讯作者；本人公开资料确认毕业后正式加入字节跳动 AI Lab 任研究员，并列出该篇研究。",
+        "https://www.huangzhichao.net/"
+      ],
+      "title": "SeqPO-SiMT: Sequential Policy Optimization for Simultaneous Machine Translation",
+      "short": "SeqPO-SiMT",
+      "date": "2025-07",
+      "venue": "Findings of ACL",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2025.findings-acl.828/",
+      "extra": [
+        [
+          "正式论文首页和实习脚注",
+          "https://aclanthology.org/2025.findings-acl.828.pdf"
+        ],
+        [
+          "同时期公开预印本",
+          "https://arxiv.org/abs/2505.20622"
+        ]
+      ],
+      "evidence": "首页星号直接标明第一作者 Ting Xu 在字节跳动实习时完成这篇研究。校方课题组具名列其为 Wai Lam 在读博士生；同篇通讯作者 Zhichao Huang 的原始资料独立确认其正式任职。",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "香港中文大学系统工程与工程管理学系教授，本篇共同作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "advising": [
+        "博士导师",
+        "港中文课题组具名列出其在读博士入学年。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ]
     }
   ]
 };
