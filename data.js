@@ -45692,6 +45692,79 @@ const survey = {
           "https://openreview.net/pdf/9479107515b2f45e615a7b7d5c49fe69d678c264.pdf"
         ]
       ]
+    },
+    {
+      "id": "tencent-gamegenx-hkust-hao-chen",
+      "company": "腾讯",
+      "team": "腾讯互动娱乐 · 光子工作室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈浩 · Hao Chen",
+        "香港科技大学助理教授，车昊轩具名博士导师；早期技术项目及正式论文均为通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc"
+      ],
+      "employee": [
+        "Quande Liu",
+        "2024 年 7 月当时的个人主页明列腾讯光子工作室高级算法研究员；11 月更新记录此前 2022–2024 在腾讯任该职。他是 9 月早期技术项目和 ICLR 论文的共同通讯作者。",
+        "https://github.com/liuquande/liuquande.github.io/blob/55b4f1c7ba7399de8f73bda224b4ba7b01870281/index.html#L76-L80"
+      ],
+      "student": [
+        "车昊轩 · Haoxuan Che",
+        "香港科技大学在读博士、论文共同第一作者；个人主页列 2024 年 5 月起在腾讯实习，其采访明确将 GameGen-X 的提出和游戏训练视频筛查归于当期腾讯实习。",
+        "https://chehx.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "香港科技大学学位存档具名陈浩为车昊轩博士导师。两人共同署名早期技术公开成果及正式论文。",
+        "https://cse.hkust.edu.hk/pg/defenses/S25/hche-12-05-2025.html"
+      ],
+      "title": "GameGen-X: Interactive Open-world Game Video Generation",
+      "short": "GameGen-X",
+      "date": "2024-11-01",
+      "venue": "ICLR 2025",
+      "area": "交互式游戏视频生成",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/5d2e24df9cfaad3189833b819c40b392-Abstract-Conference.html",
+      "extra": [
+        [
+          "2024-09-13 19:47 香港时间的早期 GameGen-O 技术披露、共同一作及通讯作者",
+          "https://github.com/Scoutink/GameGen-O/blob/1056153095c001eb3a2f88656de8e6b43e1188c2/README.md"
+        ],
+        [
+          "2024-11-01 arXiv 论文首版及署名",
+          "https://arxiv.org/abs/2411.00769v1"
+        ],
+        [
+          "ICLR 正式论文首页：车昊轩共同一作，Quande Liu、陈浩共同通讯",
+          "https://openreview.net/pdf/5a4c3701e3960ca9c924f406799bec4693421252.pdf"
+        ],
+        [
+          "车昊轩具名采访：在腾讯实习阶段完成该项研究及处理训练素材",
+          "https://elsewhere.news/en/elsewhere/to-hell-with-world-models"
+        ],
+        [
+          "Quande Liu 2024-11-06 当时履历：此前任腾讯高级算法研究员、此时已转快手",
+          "https://github.com/liuquande/liuquande.github.io/blob/2a57c11bc2bedf185266a139c10a8a2d813b1d82/index.html#L76-L80"
+        ],
+        [
+          "同年另一项目首页正式标注 Quande Liu 腾讯光子工作室",
+          "https://id-animator.github.io/"
+        ],
+        [
+          "香港科技大学学位档案：车昊轩的论文与博士导师",
+          "https://researchportal.hkust.edu.hk/en/studentTheses/domain-generalized-recognition-and-generation-for-medical-image-a/"
+        ],
+        [
+          "香港科技大学 2023 年论坛：列车昊轩为在读博士生",
+          "https://cse.hkust.edu.hk/event/RTF2023/"
+        ],
+        [
+          "第一作者本人同一条书目同时链接 GameGen-X 正式稿和早期 GameGen-O 报道",
+          "https://chehx.github.io/#publications"
+        ]
+      ],
+      "evidence": "2024-09-13 早期公开技术成果 GameGen-O 已署车昊轩为共同第一作者、Quande Liu 与陈浩为共同通讯，后续 GameGen-X 沿用 OGameData 和开放世界游戏视频生成技术并继续署三人；2024-11-01 是可查首篇全文，2025 年 ICLR 正式发表。车昊轩个人履历与具名采访交叉说明在腾讯实习期间提出此项研究并筛查游戏视频训练素材；校方学位论文记录具名导师陈浩。Quande Liu 2024-07 及 2024-11 的本人存档和同期公开项目区分腾讯任职与后续转岗。正式论文没有腾讯署名，企业判断基于早期实际研究阶段，而不把正式论文上的香港中文大学写成腾讯。项目展示、预印本和会刊合计一条。",
+      "paperId": "10.48550/arXiv.2411.00769"
     }
   ]
 };
