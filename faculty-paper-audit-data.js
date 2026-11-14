@@ -54452,7 +54452,14 @@ const facultyPaperAudits = {
       "https://faculty.sist.shanghaitech.edu.cn/zhanghp/",
       "https://arxiv.org/abs/2403.15835",
       "https://arxiv.org/abs/2505.21591",
-      "https://dzxy.imu.edu.cn/info/1088/5011.htm"
+      "https://dzxy.imu.edu.cn/info/1088/5011.htm",
+      "https://arxiv.org/abs/2406.01125",
+      "https://arxiv.org/abs/2305.19012",
+      "https://openreview.net/pdf/37c93ac0683f8fbef404cb7e7eb8d807326424a6.pdf",
+      "https://arxiv.org/abs/2406.03051",
+      "https://arxiv.org/abs/2406.01645",
+      "https://yiyingyang12.github.io/",
+      "https://pubmed.ncbi.nlm.nih.gov/41666485/"
     ],
     "papers": [
       {
@@ -54930,9 +54937,128 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1016/j.neucom.2024.128195",
         "outcome": "no-evidence",
         "note": "期刊明确第一作者郭鹏为复旦陈涛博士生，作者与项目贡献资料可复核。在本篇只见高校和研究机构署名，未见范围内公司参与。"
+      },
+      {
+        "year": 2026,
+        "title": "StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering",
+        "url": "https://arxiv.org/html/2605.25621v1",
+        "outcome": "no-evidence",
+        "note": "首稿明确谢明、谭旭东、王超及陈涛，单位列复旦、南京大学、华中科大、上海创智学院与上海人工智能实验室；未见范围内企业作者及在读学生公司研究。"
+      },
+      {
+        "year": 2026,
+        "title": "Learning to Explore with Parameter-Space Noise: A Deep Dive into Parameter-Space Noise for Reinforcement Learning with Verifiable Rewards",
+        "url": "https://arxiv.org/html/2602.02555v1",
+        "outcome": "no-evidence",
+        "note": "白必哲、王心悦与陈涛为复旦或上海创智学院，彭烨署港中大和上海人工智能实验室。无符合范围的企业共署，公开实验亦未列企业项目。"
+      },
+      {
+        "year": 2025,
+        "title": "HiPhO: How Far Are (M)LLMs from Humans in the Latest High School Physics Olympiad Benchmark?",
+        "url": "https://arxiv.org/html/2509.07894v1",
+        "outcome": "no-evidence",
+        "note": "文章首稿有陈涛及复旦、港中深、北大、浙大、电子科大、港中大、清华和上海人工智能实验室等署名；对公司模型的测评未构成协作。"
+      },
+      {
+        "year": 2024,
+        "title": "Δ-DiT: Accelerating Diffusion Transformers without Training via Denoising Property Alignment",
+        "url": "https://link.springer.com/article/10.1007/s11263-026-02871-7",
+        "outcome": "no-evidence",
+        "note": "2024-06 的 2406.01125（标题略异）与 IJCV 版作者及模型一致，正式版列复旦、帝国理工、上海创智学院。陈鹏涛 2026 年才在字节实习，不能套用于 2024 年研究。"
+      },
+      {
+        "year": 2026,
+        "title": "A Knowledge-driven Self-supervised Learning Method for Enhancing EEG-based Emotion Recognition",
+        "url": "https://doi.org/10.1016/j.neunet.2026.108676",
+        "outcome": "no-evidence",
+        "note": "出版机构和 PubMed 正式记录确认陈涛复旦署名、2026-02 在线。论文研究脑电情绪辨识，机构和公开资助未显示目标公司参与。"
+      },
+      {
+        "year": 2024,
+        "title": "Adapter-X: A General Parameter-Efficient Fine-Tuning Framework for 2D and 3D Vision",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231226005102",
+        "outcome": "no-evidence",
+        "note": "首稿 2406.03051、正式期刊延续同一标志性 Adapter-X 架构，有署名变化，仅计一次。首稿机构和期刊作者简介均未确认目标公司共研。"
+      },
+      {
+        "year": 2025,
+        "title": "E²LoRA: Efficient and Effective Low-Rank Adaptation with Entropy-Guided Adaptive Sharing",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/7b434657e8b8c3bfbf1d61d6e0026f90-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2025 年已有公开 OpenReview 初稿，与 ICLR 2026 正式版同结论；原文为复旦、中科大、港中大、上海人工智能实验室和上海创智学院，无范围内公司。"
+      },
+      {
+        "year": 2023,
+        "title": "StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation",
+        "url": "https://xplorestaging.ieee.org/document/11382190",
+        "outcome": "lead",
+        "note": "2023-05 首稿与正式 IEEE 论文同一作品，确有复旦陈涛和腾讯 PCG 俞刚等署名；公开原文未核到有陈涛的在读学生参与该公司的此项研究。"
+      },
+      {
+        "year": 2023,
+        "title": "Robust Geometry-Preserving Depth Estimation Using Differentiable Rendering",
+        "url": "https://doi.org/10.1109/ICCV51070.2023.00822",
+        "outcome": "lead",
+        "note": "ICCV 正式版及 2309.09724 同篇，陈涛复旦、企业作者俞刚等腾讯，另有大疆、新加坡 A*STAR、浙江大学；未有陈涛在读学生具名参与腾讯的本篇项目证据。"
+      },
+      {
+        "year": 2023,
+        "title": "VQ-NeRF: Vector Quantization Enhances Implicit Neural Representations",
+        "url": "https://arxiv.org/html/2310.14487v1",
+        "outcome": "lead",
+        "note": "本人与预印本列杨依颖、尹富坤、腾讯刘文及俞刚、复旦陈涛。虽有尹同期腾讯履历，尚未查到本篇项目层面的参与证据。杨的博士导师是马兴军，不能倒推她在前期的指导。"
+      },
+      {
+        "year": 2025,
+        "title": "Native 3D Editing with Full Attention",
+        "url": "https://arxiv.org/html/2511.17501v1",
+        "outcome": "no-evidence",
+        "note": "原文魏巍蔡署复旦和阶跃星辰，陈涛复旦；企业为阶跃星辰、VAST，均非调查范围。不会把俞刚旧腾讯职位用于该文。"
+      },
+      {
+        "year": 2023,
+        "title": "Performance-Aware Approximation of Global Channel Pruning for Multitask CNNs",
+        "url": "https://doi.org/10.1109/TPAMI.2023.3260903",
+        "outcome": "no-evidence",
+        "note": "与 2303.11923 同篇。叶翰嘉、陈涛等署复旦，另有上海人工智能实验室与之江实验室资助，无目标企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "ClipSAM: CLIP and SAM Collaboration for Zero-Shot Anomaly Segmentation",
+        "url": "https://doi.org/10.1016/j.neucom.2024.129122",
+        "outcome": "no-evidence",
+        "note": "与 2401.12665 首稿同篇；李盛泽、曹健健、彭烨、丁宇涵、涂崇俊与陈涛署复旦，无公司作者。所用 CLIP/SAM 并非企业参与证明。"
+      },
+      {
+        "year": 2024,
+        "title": "FNP: Fourier Neural Processes for Arbitrary-Resolution Data Assimilation",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/f93d03f2ad836c815b7ca60dfbe23bf8-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "首稿 2406.01645；陈坤的同篇实习脚注明确为上海人工智能实验室，陈涛复旦。该实验室不在目标企业名单。"
+      },
+      {
+        "year": 2025,
+        "title": "Decouple and Orthogonalize: A Data-Free Framework for LoRA Merging",
+        "url": "https://arxiv.org/html/2505.15875v1",
+        "outcome": "no-evidence",
+        "note": "正式作品和首稿均由哈工大、复旦、港中大及上海人工智能实验室研究者署名。黄辰宇本人也列该篇及复旦陈涛指导，未见范围内企业角色。"
+      },
+      {
+        "year": 2023,
+        "title": "Experts Weights Averaging: A New General Training Scheme for Vision Transformers",
+        "url": "https://arxiv.org/html/2308.06093v1",
+        "outcome": "no-evidence",
+        "note": "原文黄永琪、彭烨、陈涛署复旦，另有上海人工智能实验室及江西财大，无调查中的企业。"
+      },
+      {
+        "year": 2023,
+        "title": "SpVOS: Efficient Video Object Segmentation With Triple Sparse Convolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3327588",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式论文与 2310.15115 相同，林伟豪、陈涛及余崇均署复旦；无范围内企业或其学生项目。"
       }
     ],
-    "note": "已从陈涛本人书目、合作作者书目和公开原文核对 68 篇。按最早可核的公开版本列年份；同一研究的首稿与正式版合并。公开书目仍在整理。"
+    "note": "从本人书目、合作者和出版稿核了 85 篇；已按单位、研究方向和作者记录排除同名者。其他公开作品仍待补验。"
   },
   "FxVmazsAAAAJ": {
     "from": "2023-01-01",
@@ -55686,7 +55812,14 @@ const facultyPaperAudits = {
       "https://pengd.github.io/",
       "https://api.github.com/orgs/xjtu-intsoft/repos?per_page=100",
       "https://haoemmanuelwu.github.io/",
-      "https://conf.researchr.org/profile/conf/mingfan1"
+      "https://conf.researchr.org/profile/conf/mingfan1",
+      "https://ir.specialsci.cn/xajt/scholar/result?page=0&scholar=61dadbf3dc28a434%3AMing+FAN",
+      "https://faculty.xjtu.edu.cn/haijunwang/zh_CN/article/299103/content/16421.htm",
+      "https://www.csauthors.net/ming-fan-002/",
+      "https://gr.xjtu.edu.cn/tingliu/zh_CN/zhym/984479/list/index.htm",
+      "https://orcid.org/0000-0002-6464-5428",
+      "https://arxiv.org/abs/2107.12732",
+      "https://onlinelibrary.wiley.com/doi/10.1002/smr.2528"
     ],
     "papers": [
       {
@@ -55820,9 +55953,113 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "SaTS 正式 PDF 六人均为西交，在微信小程序验证方法不是该平台参与或企业合著。",
         "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Stealthy Backdoor Attacks against LLMs Based on Natural Style Triggers",
+        "url": "https://arxiv.org/html/2604.21700v1",
+        "outcome": "no-evidence",
+        "note": "2026-04 作者稿首页逐名列西交，没有目标企业参与；公开 LLM 是实验对象。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "ROMAN: Reward-Orchestrated Multi-Head Attention Network for Autonomous Driving System Testing",
+        "url": "https://arxiv.org/html/2602.05629v1",
+        "outcome": "no-evidence",
+        "note": "2026-02 原文首稿列西电、中科大、西交、新加坡管理大学和青岛港集团；测试百度 Apollo 系软件评测，没有百度署名或人员参与材料。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "CapCo: Automating Carla-Apollo Co-Simulation and Scenario Fuzzing",
+        "url": "https://conf.researchr.org/details/fse-2026/fse-2026-demonstrations/3/CapCo-Automating-Carla-Apollo-Co-Simulation-and-Scenario-Fuzzing",
+        "outcome": "no-evidence",
+        "note": "FSE 官方列国科大、西交、中科大及 Synkrotron，后者不在覆盖企业，使用 Apollo 不代替百度参与。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "On-Demand Scenario Generation for Testing Automated Driving Systems",
+        "url": "https://arxiv.org/html/2505.14053v1",
+        "outcome": "no-evidence",
+        "note": "FSE 正稿同作列西交、西电、中科大、新加坡管理大学、Synkrotron、长安汽车；两家工业单位均不在名单。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Stealthy Backdoor Attack to Real-world Models in Android Apps",
+        "url": "https://arxiv.org/html/2501.01263v1",
+        "outcome": "no-evidence",
+        "note": "2025-01 作者稿六人全为西交。范铭校方资料列焦文静毕业去华为，和本篇企业参与无关。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "大语言模型越狱攻击：模型、根因及其攻防演化",
+        "url": "https://scis.scichina.com/cn/2025/SSI-2024-0196.pdf",
+        "outcome": "lead",
+        "note": "原文郭家琪署微软（亚洲）互联网工程院，另有联通。西交校方新闻明示第一作者李希陶是同篇通讯作者王海军指导的博士生，未获李希陶在微软实研本项或范铭指导其本人资料。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "ELDetector: An Automated Approach Detecting Endless-loop in Mini Programs",
+        "url": "https://doi.org/10.1109/Forge66646.2025.00019",
+        "outcome": "no-evidence",
+        "note": "IEEE/ACM 正式目录具名西交及中国移动系统集成；中国移动不在企业清单。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "The Design Smells Breaking the Boundary between Android Variants and AOSP",
+        "url": "https://doi.org/10.1109/ICSE55347.2025.00062",
+        "outcome": "no-evidence",
+        "note": "ICSE 2025 正稿逐名列西交和独立的荣耀终端，无目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Do as You Say: Consistency Detection of Data Practice in Program Code and Privacy Policy in Mini-App",
+        "url": "https://arxiv.org/pdf/2302.13860",
+        "outcome": "lead",
+        "note": "2023-02 预印本首页将 Qi Xiong 与 Yuhao Liu 署为腾讯云与智慧产业事业群，2024 IEEE 定稿保留腾讯作者 Qi Xiong；两版同作。范铭明确指导首作王寅，但王寅履历同期注明蚂蚁研究实习，在腾讯参与本项研究的学生证据未找到。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "PyAnalyzer: An Effective and Practical Approach for Dependency Extraction from Python Code",
+        "url": "https://conf.researchr.org/details/icse-2024/icse-2024-research-track/233/PyAnalyzer-An-Effective-and-Practical-Approach-for-Dependency-Extraction-from-Python",
+        "outcome": "lead",
+        "note": "ICSE 官方列西交与华为 Hongxu Chen、Huijia Zhang。开源项目和华为合作有记录，但未证范铭指导的具名在读学生在华为从事这篇论文中的研究。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Cross-Inlining Binary Function Similarity Detection",
+        "url": "https://doi.org/10.1145/3597503.3639080",
+        "outcome": "no-evidence",
+        "note": "ICSE 2024 出版该文，作者均西交；区别于 2022 首稿二进制对源代码 O2NMatcher，本文为二进制对二进制，不能与腾讯更早合作混算。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "BDMMT: Backdoor Sample Detection for Language Models Through Model Mutation Testing",
+        "url": "https://arxiv.org/pdf/2301.10412",
+        "outcome": "no-evidence",
+        "note": "2023-01 首稿与 IEEE TIFS 正刊合并，原作者列表均西交。模型评测及后来的华为就业不作为同期实研证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Dependency Facade: The Coupling and Conflicts between Android Framework and Its Customization",
+        "url": "https://doi.org/10.1109/ICSE48619.2023.00144",
+        "outcome": "no-evidence",
+        "note": "ICSE 2023 列西交、UC Riverside 和荣耀终端，未见名单内公司。",
+        "relationIds": []
       }
     ],
-    "note": "已核 16 篇公开论文。RAG+、DAIS 两项关系已确认；蚂蚁合著的论文仍按每项具体贡献核对。"
+    "note": "已核 29 篇公开论文。逐篇区分正式出版、首稿和项目线索；RAG+ 与 DAIS 已确认，其他书目继续核查。"
   },
   "MXvC7tkAAAAJ": {
     "from": "2023-01-01",
@@ -56043,5 +56280,203 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已看金国庆公开书目中的 18 篇，结合学生、校方和企业公开研究资料逐篇判定。其余公开题录继续查。"
+  },
+  "Z_t5DjwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2611.06748",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc",
+      "https://home.cse.ust.hk/~jhc/",
+      "https://arxiv.org/pdf/2611.06748v1",
+      "https://tommy-bie.github.io/",
+      "https://github.com/Tommy-Bie/EvoWorld/",
+      "https://tommy-bie.github.io/projects/evoworld/",
+      "https://aclanthology.org/2024.findings-emnlp.82/",
+      "https://www.nature.com/articles/s41551-026-01764-x",
+      "https://smartx.cse.ust.hk/2026/08/17/conceptclip/",
+      "https://arxiv.org/abs/2501.15579",
+      "https://sunanhe.github.io/cv/",
+      "https://github.com/JerrryNie/ConceptCLIP",
+      "https://www.nature.com/articles/s41551-026-01653-3",
+      "https://arxiv.org/abs/2404.15127",
+      "https://cbe.hkust.edu.hk/news/hkust-develops-novel-ai-framework-enabling-efficient-collaboration-between-generalist-and",
+      "https://doi.org/10.1016/j.media.2023.102933",
+      "https://arxiv.org/abs/2202.08195",
+      "https://cse.hkust.edu.hk/News/BestDissertation2024-25/",
+      "https://jarvislab.tencent.com/aca-publications.html",
+      "https://en.westlake.edu.cn/faculty/yefeng-zheng.html",
+      "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
+      "https://arxiv.org/abs/2303.05780",
+      "https://papers.miccai.org/miccai-2024/paper/2121_paper.pdf",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/conghao-xiong/",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/40013",
+      "https://arxiv.org/abs/2511.09853",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/40013/43974",
+      "https://ijcai.org/proceedings/2023/176",
+      "https://arxiv.org/abs/2301.08125",
+      "https://www.ijcai.org/proceedings/2023/0176.pdf"
+    ],
+    "papers": [
+      {
+        "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+        "url": "https://arxiv.org/abs/2611.06748",
+        "outcome": "lead",
+        "note": "2026-11-04 首次公开。Hong Kong UST 博士 Yequan Bie 是第一作者，陈浩同篇任通讯，腾讯合著者 Liang、Chen 有长期同组出版。Bie 的秋季公开首页称腾讯 Project UP 实习，但论文只署港科大，代码/模型发布属于其个人仓库；未确认哪一部分是其作为腾讯实习者完成。",
+        "year": 2026
+      },
+      {
+        "title": "An explainable biomedical foundation model via large-scale concept-enhanced vision–language pre-training",
+        "url": "https://www.nature.com/articles/s41551-026-01764-x",
+        "outcome": "lead",
+        "note": "2025-01 年首发 ConceptCLIP，与 2026 正式版同篇，原始作者仅港科大；正式院系发布确认新增腾讯优图作者，以及 Yuxiang Nie、Sunan He、Yequan Bie 三位共同第一。没有三人参与此篇腾讯研究的具体分工和同期材料，2026 的企业经历不足以追认 2025 首版。",
+        "year": 2026
+      },
+      {
+        "title": "Towards generalizable AI in medicine via Generalist–Specialist Collaboration",
+        "url": "https://www.nature.com/articles/s41551-026-01653-3",
+        "outcome": "lead",
+        "note": "2024-04 首次公示 GSCo；2026-05 正式发表，同篇。校方明确陈浩指导两位共同一作 Sunan He、Yuxiang Nie，腾讯 Xian Wu 出现在正式作者名单。Sunan He 的腾讯任职到 2023-01、港科大博士始于 2023-09、京东实习始于 2026-04，均不能证明他在腾讯完成 2024 这项研究。",
+        "year": 2026
+      },
+      {
+        "title": "Nuclei segmentation with point annotations from pathology images via self-supervised learning and co-training",
+        "url": "https://doi.org/10.1016/j.media.2023.102933",
+        "outcome": "lead",
+        "note": "2022-02 首版与 2023-08 正式版合并。Yi Lin 和陈浩的同篇博士指导关系成立、腾讯天衍目录同篇及郑冶枫在职已有原始来源，第一作者正式署港科大。其腾讯全职履历被校方列作博士前；没有具名在读阶段以企业角色承担本项课题的明确材料。",
+        "year": 2023
+      },
+      {
+        "title": "TAKT: Target-Aware Knowledge Transfer for Whole Slide Image Classification",
+        "url": "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
+        "outcome": "lead",
+        "note": "2023-03 首稿与 MICCAI 2024 合并。腾讯天衍共同研究见正式文末；陈浩的港科大学生 Yi Lin 具名共同第一。港科大资料把其腾讯全职科研列在博士之前，出版没有点明他是否仍在读时担任企业端职务；同期另共同第一 Conghao Xiong 的校内导师是港中文金国庆，不能自动转给陈。",
+        "year": 2024
+      },
+      {
+        "title": "ConSurv: Multimodal Continual Learning for Survival Analysis",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40013",
+        "outcome": "no-evidence",
+        "note": "2025-11 预印本到 2026 正式；原文多校共同署名，没有目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Diagnose Like a Pathologist: Transformer-Enabled Hierarchical Attention-Guided Multiple Instance Learning for Whole Slide Image Classification",
+        "url": "https://ijcai.org/proceedings/2023/176",
+        "outcome": "no-evidence",
+        "note": "原文四位均属大学，港中文、港科大和新加坡南洋理工。作者曾有行业研究经历不属于本项。",
+        "year": 2023
+      }
+    ],
+    "note": "已用港科大档案、学生履历和作者原文核查前 7 篇。其他公开作品仍在逐篇核查。"
+  },
+  "eynbo4cAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://hc-guo.github.io/",
+      "https://faculty.fudan.edu.cn/GUO%2CHONGCHENG/en/index.htm",
+      "https://aclanthology.org/people/hongcheng-guo/",
+      "https://dblp.org/pid/84/8542.html",
+      "https://miraitowaves.github.io/",
+      "https://phoebussi.github.io/",
+      "https://github.com/XINGYUN-AI-LAB/OAR/blob/main/README.md"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "BehaviorMem: Building and Evaluating User Memory from Real-World E-Commerce Behavior Streams",
+        "url": "https://arxiv.org/html/2610.34790v1",
+        "outcome": "lead",
+        "note": "2026-10-26 首稿。复旦郭宏成与浙大匡昆均通讯；淘天署名齐全，原文致谢阿里创新研究计划。浙大学生方星皓本人具名匡昆和吴飞指导，仅写校内 DCD Lab 实习；复旦王同学仅署复旦。未找到学生就此篇在阿里从事研究及复旦具名指导的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "FORGE: Research-Trajectory Hijacking Attacks on Deep Research Agents",
+        "url": "https://arxiv.org/html/2607.04718v1",
+        "outcome": "lead",
+        "note": "2026-07-06 首稿列复旦郭宏成、京东探索研究院佀庆一及几名复旦/华科校内作者。佀本人也公开确认全职，但原文无具名公司实习，未核到郭宏成对其中学生的正式指导和同篇企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
+        "url": "https://arxiv.org/html/2607.13940v2",
+        "outcome": "lead",
+        "note": "同 2026-07-15 首稿；作者贡献明确郭宏成提出并指导该篇、临床等资源由京东共同作者佀庆一等参与，但李浩然、邓姓等贡献是复旦署名，未证实其中学生在京东参与这篇，不能把项目监督当作培养证明。"
+      },
+      {
+        "year": 2026,
+        "title": "IRPM: Intergroup Relative Preference Modeling for Pointwise Generative Reward Models",
+        "url": "https://arxiv.org/html/2601.00677v3",
+        "outcome": "lead",
+        "note": "2026-01-02 v1 原题 IRPO，与 IRPM 后续稿同编号且同项目。复旦郭宏成及阿里虎鲸星云同署，后版佀庆一也有署名。未证明同篇具名复旦学生在阿里项目工作，清华共同作者的身份另行核查。"
+      },
+      {
+        "year": 2026,
+        "title": "Outcome-Grounded Advantage Reshaping for Fine-Grained Credit Assignment in Mathematical Reasoning",
+        "url": "https://aclanthology.org/2026.acl-long.1132/",
+        "outcome": "lead",
+        "note": "2026-01-12 公开首稿，ACL 正式版有复旦郭宏成、肖仰华、阳德青与阿里虎鲸星云同署；第一作者李子恒有复旦、星云、北科大三署。团队官方仓库可确认工作归属，仍缺在读学校、具体导师和研究期间培养资料，保留线索。"
+      },
+      {
+        "year": 2026,
+        "title": "Enhancing Multilingual Reasoning via Steerable Model Merging",
+        "url": "https://aclanthology.org/2026.findings-acl.1856/",
+        "outcome": "no-evidence",
+        "note": "2026-06 首稿与 ACL 一致，郭宏成署复旦，其他作者北邮、北航、莫纳什、南京大学、清华及中关村实验室，无目标企业合著。"
+      },
+      {
+        "year": 2025,
+        "title": "SNS-Bench: Defining, Building, and Assessing Capabilities of Large Language Models in Social Networking Services",
+        "url": "https://proceedings.mlr.press/v267/guo25o.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式版明确郭宏成署北航，企业为小红书。复旦官网记录其 2025-07-21 才入职，不能按后来任职计复旦教师指导。北航导师李舟军的关系需单独参考原文和具名材料。"
+      },
+      {
+        "year": 2025,
+        "title": "SNS-Bench-VL: Benchmarking Multimodal Large Language Models in Social Networking Services",
+        "url": "https://arxiv.org/abs/2505.23065",
+        "outcome": "no-evidence",
+        "note": "首稿 2025-05 早于复旦任职，郭宏成以北航博士阶段作者身份参与小红书相关研究；不构成复旦教师指导。不要与文本基准 SNS-Bench 合并为同一篇。"
+      },
+      {
+        "year": 2025,
+        "title": "DinoCompanion: An Attachment-Theory Informed Multimodal Robot for Emotionally Responsive Child-AI Interaction",
+        "url": "https://arxiv.org/html/2506.12486v1",
+        "outcome": "no-evidence",
+        "note": "2025-06 首稿，郭宏成署北航且早于复旦任职，参与企业为松下而非目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "LogFormer: A Pre-train and Tuning Pipeline for Log Anomaly Detection",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/27764",
+        "outcome": "no-evidence",
+        "note": "2024-01 首稿和 AAAI 正式版相符；郭宏成北航学生身份，企业合作者有 Cloudwise 和华为等。该篇不产生郭宏成作为复旦教师的关系。"
+      },
+      {
+        "year": 2023,
+        "title": "RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.878/",
+        "outcome": "no-evidence",
+        "note": "2023-10 首稿，ACL 正式版仍列郭宏成为北航作者。原文有校企共同作者，但早于他在复旦出任教师，不作其复旦指导成果。"
+      },
+      {
+        "year": 2025,
+        "title": "Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks",
+        "url": "https://proceedings.mlr.press/v267/cheng25c.html",
+        "outcome": "no-evidence",
+        "note": "2025-05 首稿和 ICML 正式版同篇。原有合作署名含北航郭宏成，公开时间早于复旦 2025-07-21 入职；不能用此证明其任教期间的校企指导。"
+      },
+      {
+        "year": 2026,
+        "title": "HealthFound: a health world model for quantitative reasoning on longitudinal health profiles",
+        "url": "https://www.medrxiv.org/content/10.64898/2026.10.03.26364142v1",
+        "outcome": "no-evidence",
+        "note": "该篇是纵向健康世界模型，与 HealthClaw 智能体为不同研究。同篇列郭宏成复旦，与华山医院及高校作者共研；没有京东署名或该篇企业参与证据。"
+      }
+    ],
+    "note": "已查前 13 篇。2025 年 7 月起任职复旦，早年以博士生身份参加的论文单独判定，不作为复旦教师指导关系。"
   }
 };
