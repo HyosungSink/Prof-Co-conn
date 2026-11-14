@@ -265,7 +265,14 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2501.16125v1",
       "https://aclanthology.org/2025.coling-main.59/",
       "https://wlzhang2020.github.io/",
-      "https://aclanthology.org/2025.coling-main.59.pdf"
+      "https://aclanthology.org/2025.coling-main.59.pdf",
+      "https://doi.org/10.20944/preprints202512.0203.v1",
+      "https://xiaopengli1.github.io/",
+      "https://www.sigir-ap.org/sigir-ap-2025/assets/files/SIGIRAP2025Booklet.pdf",
+      "https://www.preprints.org/frontend/manuscript/9f1a828cd4f9b5f57b729f03832f1c96/download_pub",
+      "https://github.com/Kuaishou-RecModel/Tri-Decoupled-GenRec",
+      "https://arxiv.org/abs/2609.34552",
+      "https://arxiv.org/pdf/2609.34552"
     ],
     "papers": [
       {
@@ -429,6 +436,18 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.coling-main.59/",
         "outcome": "confirmed",
         "note": "正式论文由第一作者描述在华为系统进行该算法的具名在线 A/B 实验并完成实际部署。学生主页给出入学时间、具名博士导师和华为科研实习。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
+      },
+      {
+        "title": "A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization, Architecture, and Optimization",
+        "url": "https://doi.org/10.20944/preprints202512.0203.v1",
+        "outcome": "confirmed",
+        "note": "港城大博士 Xiaopeng Li 在 2025 年 9 月加入快手推荐部门，个人站点同年 12 月精确点名本篇综述是在快手合作完成。论文列港城大博士导师赵翔宇与快手推荐排序模型中心负责人唐瑞明两位通讯作者；快手维护论文伴随项目。"
+      },
+      {
+        "title": "EvoSkillRec: Skill-Genome Evolution for Recommender Architecture Discovery",
+        "url": "https://arxiv.org/abs/2609.34552",
+        "outcome": "confirmed",
+        "note": "论文首页将第一作者 Xiaopeng Li 的研究明示为快手实习期间完成。其个人履历确认正就读港城大博士并由同篇通讯作者赵翔宇指导。企业作者唐瑞明在快手推荐排序模型中心任高级总监，同篇以快手署名。"
       }
     ]
   },
@@ -1980,7 +1999,8 @@ const facultyPaperAudits = {
       "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html",
       "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
       "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
-      "https://arxiv.org/pdf/2312.09109v1"
+      "https://arxiv.org/pdf/2312.09109v1",
+      "https://arxiv.org/pdf/2310.10125v1"
     ],
     "papers": [
       {
@@ -2030,6 +2050,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2303.02982",
         "outcome": "lead",
         "note": "本篇院企作者齐全；预印本首页未标王翔实习，继续核正文致谢及企业项目记录。"
+      },
+      {
+        "title": "Few-shot Action Recognition with Captioning Foundation Models",
+        "url": "https://arxiv.org/pdf/2310.10125v1",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
       }
     ],
     "note": "已核查指导的部分学生论文和华中科大院系报道，仍需补齐教师完整书目。"
@@ -8601,7 +8627,8 @@ const facultyPaperAudits = {
       "https://github.com/TencentARC/NVComposer",
       "https://arxiv.org/abs/2603.04291",
       "https://arxiv.org/html/2603.04291v1",
-      "https://lg-li.github.io/project/cubecomposer"
+      "https://lg-li.github.io/project/cubecomposer",
+      "https://luo0207.github.io/yawenluo/"
     ],
     "papers": [
       {
@@ -8621,8 +8648,15 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2603.04291",
         "outcome": "lead",
         "note": "导师、学生和同项目企业负责人具名；预印本首页只有学生学校署名且不含实习字段。已确认的其他 ARC 实习论文不能替代此篇证明。"
+      },
+      {
+        "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/470.pdf",
+        "outcome": "confirmed",
+        "note": "香港中文大学博士生罗亚文为第一作者；会议原文首页明确注明罗亚文在快手可灵团队实习期间完成该项工作，快手可灵官方项目库同样列三人的本篇署名。"
       }
-    ]
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   },
   "z-rqsR4AAAAJ": {
     "from": "2023-01-01",
@@ -9329,19 +9363,160 @@ const facultyPaperAudits = {
   "MJ7X-bAAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://arxiv.org/abs/2609.34557",
       "https://difanzou.github.io/",
       "https://arxiv.org/pdf/2609.34557v1",
-      "https://bingning.wang/"
+      "https://bingning.wang/",
+      "https://arxiv.org/abs/2610.41455",
+      "https://gavenma.github.io/publications/",
+      "https://dblp.org/pid/227/3284.html",
+      "https://scholars.cityu.edu.hk/en/persons/ziye-ma(00a1dafa-1b4c-4def-957b-e1dcb661fc0d).html",
+      "https://arxiv.org/abs/2610.18318",
+      "https://arxiv.org/abs/2610.06542",
+      "https://arxiv.org/abs/2610.05329",
+      "https://www.ai.hku.hk/index.php/people/academic-staff/dzou",
+      "https://arxiv.org/pdf/2609.34557",
+      "https://arxiv.org/abs/2608.05088",
+      "https://arxiv.org/abs/2606.21514",
+      "https://arxiv.org/abs/2605.09034",
+      "https://arxiv.org/abs/2602.05887",
+      "https://arxiv.org/abs/2511.02122",
+      "https://gavenma.github.io/files/papers/Matrix_Lasso_NeurIPS_2025.pdf",
+      "https://arxiv.org/abs/2505.13954",
+      "https://arxiv.org/abs/2101.09306",
+      "https://arxiv.org/abs/2412.16619",
+      "https://proceedings.mlr.press/v238/ma24a.html",
+      "https://arxiv.org/abs/2310.15549",
+      "https://proceedings.mlr.press/v202/ma23f.html",
+      "https://arxiv.org/abs/2208.07469",
+      "https://arxiv.org/abs/2203.03899",
+      "https://doi.org/10.1287/ijoo.2023.0090",
+      "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-18.html",
+      "https://api.crossref.org/works/10.1109/ISBI61048.2026.11516020",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217411417249"
     ],
     "papers": [
       {
         "title": "SkillRubric: Co-Evolving Actor Guidance and Evaluator Rubrics for Multimodal Agents",
         "url": "https://arxiv.org/abs/2609.34557",
         "outcome": "existing",
-        "note": "同篇已按证据确认香港大学鄒荻凡指导第一作者的关系；港城大合作者马梓业未见具名指导该论文的企业实习生，归属仍为香港大学。"
+        "note": "论文首页和作者贡献逐人确认在读博士 Bingqing Jiang 在腾讯微信研究，独立资料具名其博导为港大邹荻凡。已作为港大关系记录；马梓业参与同篇合作但无具名指导证据。"
+      },
+      {
+        "title": "Improving the Optimization Landscape of Matrix Completion with ε-close Surrogates",
+        "url": "https://arxiv.org/abs/2610.41455",
+        "outcome": "no-evidence",
+        "note": "港城大单作者，书目与正式预印本均未列企业或学生合作者。"
+      },
+      {
+        "title": "Over-parameterization Is Neither Robust nor Fragile in Matrix Sensing: A Geometric Theory of Solution Robustness",
+        "url": "https://arxiv.org/abs/2610.18318",
+        "outcome": "no-evidence",
+        "note": "全部作者署港城大；论文原文未列企业科研合作。"
+      },
+      {
+        "title": "A Fine-Grained Analysis of the LoRA Fine-Tuning Landscape with Implications for Data Selection",
+        "url": "https://arxiv.org/abs/2610.06542",
+        "outcome": "no-evidence",
+        "note": "原文列港城大与上海财经大学，未核实范围内企业参与角色。"
+      },
+      {
+        "title": "Understanding the Weight Averaging Mechanism in LLM Training for Post-Training Quantization",
+        "url": "https://arxiv.org/abs/2610.05329",
+        "outcome": "no-evidence",
+        "note": "作者单位为港城大和港大，原文未列范围内企业参与。"
+      },
+      {
+        "title": "MALT: Lightweight Curvature-Aware Muon via Diagonal Preconditioning",
+        "url": "https://arxiv.org/abs/2608.05088",
+        "outcome": "no-evidence",
+        "note": "原文列宾州州立大学与港城大作者及独立研究者，未核实范围内企业和学生参与。"
+      },
+      {
+        "title": "Towards Understanding the Power and Limits of the Muon Optimizer: A River-Valley Perspective",
+        "url": "https://arxiv.org/abs/2606.21514",
+        "outcome": "no-evidence",
+        "note": "原文列港城大、宾夕法尼亚大学、上海财经大学，未核实范围内企业参与。"
+      },
+      {
+        "title": "Accelerating Zeroth-Order Spectral Optimization with Partial Orthogonalization from Power Iteration",
+        "url": "https://arxiv.org/abs/2605.09034",
+        "outcome": "no-evidence",
+        "note": "原文仅有港城大作者及校内研究，未核实目标企业参与。"
+      },
+      {
+        "title": "Escaping Local Minima Provably in Non-convex Matrix Sensing: A Deterministic Framework via Simulated Lifting",
+        "url": "https://arxiv.org/abs/2602.05887",
+        "outcome": "no-evidence",
+        "note": "预印本列港城大、耶鲁等高校科研人员，未核实目标企业参与。"
+      },
+      {
+        "title": "Matrix Sensing with Kernel Optimal Loss: Robustness and Optimization Landscape",
+        "url": "https://arxiv.org/abs/2511.02122",
+        "outcome": "no-evidence",
+        "note": "两种公开版本均列港城大等高校作者，未提供企业合著者与学生企业研究证据。"
+      },
+      {
+        "title": "Recovery Guarantees of the Matrix Lasso Problem: On Equivalence of Convex and Non-Convex Formulations",
+        "url": "https://gavenma.github.io/files/papers/Matrix_Lasso_NeurIPS_2025.pdf",
+        "outcome": "no-evidence",
+        "note": "作者保存的公开稿明确列港城大与上海理工大学单位，未核实企业合著者和学生企业研究。"
+      },
+      {
+        "title": "VAMO: Efficient Large-Scale Nonconvex Optimization via Adaptive Zeroth Order Variance Reduction",
+        "url": "https://arxiv.org/abs/2505.13954",
+        "outcome": "no-evidence",
+        "note": "全文列港城大两位作者，未核实目标企业参与。"
+      },
+      {
+        "title": "Towards Optimal Branching of Linear and Semidefinite Relaxations for Neural Network Robustness Certification",
+        "url": "https://arxiv.org/abs/2101.09306",
+        "outcome": "no-evidence",
+        "note": "2021 预印本与 JMLR 正式版为同一研究；原文列加州大学伯克利分校学术作者，无目标企业合著者。"
+      },
+      {
+        "title": "Topology-Aware 3D Gaussian Splatting: Leveraging Persistent Homology for Optimized Structural Integrity",
+        "url": "https://arxiv.org/abs/2412.16619",
+        "outcome": "no-evidence",
+        "note": "原文列港城大、北航和中国煤炭科学研究总院的人工智能研究机构；该机构不在14家企业范围。学生个人经历将该机构工作期与港城大博士期分开。"
+      },
+      {
+        "title": "Absence of spurious solutions far from ground truth: A low-rank analysis with high-order losses",
+        "url": "https://proceedings.mlr.press/v238/ma24a.html",
+        "outcome": "no-evidence",
+        "note": "正式 AISTATS 版列伯克利科研作者；未核实范围内企业合著。"
+      },
+      {
+        "title": "Algorithmic Regularization in Tensor Optimization: Towards a Lifted Approach in Matrix Sensing",
+        "url": "https://arxiv.org/abs/2310.15549",
+        "outcome": "no-evidence",
+        "note": "正式 NeurIPS 版与预印本合并核查；伯克利科研作者，未核实范围内企业及学生企业科研。"
+      },
+      {
+        "title": "Over-parametrization via Lifting for Low-rank Matrix Sensing: Conversion of Spurious Solutions to Strict Saddle Points",
+        "url": "https://proceedings.mlr.press/v202/ma23f.html",
+        "outcome": "no-evidence",
+        "note": "正式 ICML 版与预印本为同一篇；未核实范围内企业学研关系。"
+      },
+      {
+        "title": "Semidefinite Programming versus Burer-Monteiro Factorization for Matrix Sensing",
+        "url": "https://arxiv.org/abs/2208.07469",
+        "outcome": "no-evidence",
+        "note": "联合核对2022预印本及2023 AAAI 版；作者来自伯克利等高校，未核实范围内企业和学生企业科研证据。"
+      },
+      {
+        "title": "Noisy Low-rank Matrix Optimization: Geometry of Local Minima and Convergence Rate",
+        "url": "https://arxiv.org/abs/2203.03899",
+        "outcome": "no-evidence",
+        "note": "2022 预印本及正式 AISTATS 2023 同一篇，伯克利两位作者未形成范围内企业学研关系。"
+      },
+      {
+        "title": "Geometric Analysis of Noisy Low-rank Matrix Recovery in the Exact Parameterized and the Overparameterized Regimes",
+        "url": "https://doi.org/10.1287/ijoo.2023.0090",
+        "outcome": "no-evidence",
+        "note": "2023 正式期刊论文核对伯克利公开作者稿及出版社；四位作者均为学术署名，仅见研究资助，无目标企业合著。"
       }
     ]
   },
@@ -9398,7 +9573,9 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://person.zju.edu.cn/en/jkzhu",
-      "https://hanxunyu.github.io/"
+      "https://hanxunyu.github.io/",
+      "https://agnjason.github.io/",
+      "https://yuqianyuan.github.io/"
     ],
     "papers": [
       {
@@ -9412,6 +9589,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2605.15876",
         "outcome": "confirmed",
         "note": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。"
+      },
+      {
+        "title": "OmniAvatar: Efficient Audio-Driven Avatar Video Generation with Adaptive Body Animation",
+        "url": "https://arxiv.org/pdf/2506.18866",
+        "outcome": "confirmed",
+        "note": "浙江大学博士生干淇钧本人简历注明在该企业研究实习，论文首页第一作者具名脚注明确该工作在同一实习中完成。"
+      },
+      {
+        "title": "HumanDiT: Pose-Guided Diffusion Transformer for Long-form Human Motion Video Generation",
+        "url": "https://arxiv.org/pdf/2502.04847",
+        "outcome": "confirmed",
+        "note": "浙江大学博士生干淇钧本人简历注明在该企业研究实习，论文首页第一作者具名脚注明确该工作在同一实习中完成。"
+      },
+      {
+        "title": "VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yuan_VideoRefer_Suite_Advancing_Spatial-Temporal_Object_Understanding_with_Video_LLM_CVPR_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "浙江大学在读博士 Yuqian Yuan 本人主页给出自 2024 年 7 月起的达摩院实习，并具名列 Xin Li 为企业导师。CVPR 原文第一作者的具名脚注明确 VideoRefer 项目在达摩院实习期间完成。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -9474,7 +9669,8 @@ const facultyPaperAudits = {
       "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html",
       "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
       "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
-      "https://arxiv.org/pdf/2312.09109v1"
+      "https://arxiv.org/pdf/2312.09109v1",
+      "https://arxiv.org/pdf/2310.10125v1"
     ],
     "papers": [
       {
@@ -9506,6 +9702,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2303.02982",
         "outcome": "lead",
         "note": "本篇院企作者齐全；预印本首页未标王翔实习，继续核正文致谢及企业项目记录。"
+      },
+      {
+        "title": "Few-shot Action Recognition with Captioning Foundation Models",
+        "url": "https://arxiv.org/pdf/2310.10125v1",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
       }
     ],
     "note": "已核查指导的部分学生论文和华中科大院系报道，仍需补齐教师完整书目。"
@@ -9579,6 +9781,33 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "同篇联合研究已以明确带监督指导的李霏收录；正式版把姬东鸿的职责列为项目管理、资源与稿件修订，未凭通讯署名追加导师归属。"
+      }
+    ]
+  },
+  "4uggVcIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/LiangShangsong",
+      "https://guanzhchen.github.io/",
+      "https://lixin4ever.github.io/",
+      "https://guanzhchen.github.io/data/Resume_EN.pdf"
+    ],
+    "papers": [
+      {
+        "title": "CLEX: Continuous Length Extrapolation for Large Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/3df38ca67befaed9c03b95ffee07d9f8-Paper-Conference.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "ICLR 正式版首页具名说明陈官正于阿里巴巴达摩院实习期间完成此项研究。陈官正当时是中山大学硕士生，本人履历列梁上松为校内导师、Xin Li 为达摩院实习导师；两位均是论文通讯作者。"
+      },
+      {
+        "title": "Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding",
+        "url": "https://arxiv.org/abs/2311.16922",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "陈官正和达摩院作者同篇；出版稿无梁上松署名，不收录为梁上松的关系。"
       }
     ]
   }

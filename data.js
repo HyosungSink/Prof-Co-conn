@@ -31491,6 +31491,405 @@ const survey = {
           "http://lacc.whu.edu.cn/info/1011/2414.htm"
         ]
       ]
+    },
+    {
+      "id": "shotstream-kuaishou-cuhk-rfsqkriaaaaj",
+      "paperId": "arxiv:2603.25746",
+      "company": "快手",
+      "team": "可灵团队",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "薛天帆 · Tianfan Xue",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.ie.cuhk.edu.hk/people/tfxue.shtml"
+      ],
+      "employee": [
+        "王鑫涛 · Xintao Wang",
+        "本人历任记录注明 2024 年起任快手可灵团队技术负责人，在该项目研究和发表时具名署快手。",
+        "https://xinntao.github.io/"
+      ],
+      "student": [
+        "罗亚文 · Yawen Luo",
+        "香港中文大学博士生罗亚文为第一作者；会议原文首页明确注明罗亚文在快手可灵团队实习期间完成该项工作，快手可灵官方项目库同样列三人的本篇署名。",
+        "https://luo0207.github.io/yawenluo/"
+      ],
+      "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+      "short": "ShotStream",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "生成式视频与多模态",
+      "paper": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/470.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://eccv.ecva.net/virtual/2026/poster/3227"
+        ],
+        [
+          "快手可灵官方研究项目",
+          "https://github.com/KlingAIResearch/ShotStream"
+        ],
+        [
+          "原作者预印本实习脚注",
+          "https://arxiv.org/html/2603.25746"
+        ]
+      ],
+      "evidence": "香港中文大学博士生罗亚文为第一作者；会议原文首页明确注明罗亚文在快手可灵团队实习期间完成该项工作，快手可灵官方项目库同样列三人的本篇署名。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "罗亚文个人研究主页具名列薛天帆为香港中文大学 MMLab 博士导师，并列其为该篇通讯作者。",
+        "https://luo0207.github.io/yawenluo/"
+      ]
+    },
+    {
+      "id": "omniavatar-zju-sc-wmzwaaaaj",
+      "paperId": "arxiv:2506.18866",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "朱建科 · Jianke Zhu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/en/jkzhu"
+      ],
+      "employee": [
+        "Steven Hoi",
+        "本人工作履历明确列为阿里巴巴副总裁，2025 年 2 月到任；研究期作为该论文阿里巴巴一方具名作者。",
+        "https://sites.google.com/view/stevenhoi/home"
+      ],
+      "student": [
+        "干淇钧 · Qijun Gan",
+        "浙江大学博士生干淇钧本人简历注明在该企业研究实习，论文首页第一作者具名脚注明确该工作在同一实习中完成。",
+        "https://agnjason.github.io/"
+      ],
+      "title": "OmniAvatar: Efficient Audio-Driven Avatar Video Generation with Adaptive Body Animation",
+      "short": "OmniAvatar",
+      "date": "2025-06",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://arxiv.org/pdf/2506.18866",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2506.18866"
+        ],
+        [
+          "论文具名实习脚注",
+          "https://arxiv.org/html/2506.18866"
+        ]
+      ],
+      "evidence": "浙江大学博士生干淇钧本人简历注明在该企业研究实习，论文首页第一作者具名脚注明确该工作在同一实习中完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "干淇钧个人学术主页具名列朱建科为其浙江大学博士导师；本篇均具名联署。",
+        "https://agnjason.github.io/"
+      ]
+    },
+    {
+      "id": "humandit-zju-sc-wmzwaaaaj",
+      "paperId": "arxiv:2502.04847",
+      "company": "字节跳动",
+      "team": "视频生成研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "朱建科 · Jianke Zhu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/en/jkzhu"
+      ],
+      "employee": [
+        "任意 · Yi Ren",
+        "本人职业主页具名担任字节跳动/TikTok 语音研究科学家，学校和字节同篇署名，2024 年 ACM MM 同名及企业邮箱进一步确认身份与研究期。",
+        "https://zhangjb1992.github.io/"
+      ],
+      "student": [
+        "干淇钧 · Qijun Gan",
+        "浙江大学博士生干淇钧本人简历注明在该企业研究实习，论文首页第一作者具名脚注明确该工作在同一实习中完成。",
+        "https://agnjason.github.io/"
+      ],
+      "title": "HumanDiT: Pose-Guided Diffusion Transformer for Long-form Human Motion Video Generation",
+      "short": "HumanDiT",
+      "date": "2025-02",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://arxiv.org/pdf/2502.04847",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2502.04847"
+        ],
+        [
+          "论文具名实习脚注",
+          "https://arxiv.org/html/2502.04847"
+        ]
+      ],
+      "evidence": "浙江大学博士生干淇钧本人简历注明在该企业研究实习，论文首页第一作者具名脚注明确该工作在同一实习中完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "干淇钧个人学术主页具名列朱建科为其浙江大学博士导师；本篇均具名联署。",
+        "https://agnjason.github.io/"
+      ]
+    },
+    {
+      "id": "videorefer-alibaba-zju-sc-wmzwaaaaj",
+      "paperId": "arxiv:2501.00599",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "朱建科 · Jianke Zhu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/en/jkzhu"
+      ],
+      "employee": [
+        "Xin Li",
+        "研究工程师 Xin Li 本人履历记载自 2021 年 3 月正式任职阿里巴巴达摩院，并把 VideoRefer 列为本人的视频理解研究成果；原文署阿里巴巴。",
+        "https://lixin4ever.github.io/"
+      ],
+      "student": [
+        "Yuqian Yuan",
+        "浙江大学在读博士 Yuqian Yuan 本人主页给出自 2024 年 7 月起的达摩院实习，并具名列 Xin Li 为企业导师。CVPR 原文第一作者的具名脚注明确 VideoRefer 项目在达摩院实习期间完成。",
+        "https://yuqianyuan.github.io/"
+      ],
+      "title": "VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM",
+      "short": "VideoRefer Suite",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yuan_VideoRefer_Suite_Advancing_Spatial-Temporal_Object_Understanding_with_Video_LLM_CVPR_2025_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2501.00599"
+        ],
+        [
+          "含具名实习脚注的预印本",
+          "https://arxiv.org/html/2501.00599"
+        ],
+        [
+          "阿里达摩院官方研究仓库",
+          "https://github.com/DAMO-NLP-SG/VideoRefer"
+        ]
+      ],
+      "evidence": "浙江大学在读博士 Yuqian Yuan 本人主页给出自 2024 年 7 月起的达摩院实习，并具名列 Xin Li 为企业导师。CVPR 原文第一作者的具名脚注明确 VideoRefer 项目在达摩院实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yuqian Yuan 本人学术主页具名列朱建科为浙江大学博士导师；原文朱建科为具名通讯作者。",
+        "https://yuqianyuan.github.io/"
+      ]
+    },
+    {
+      "id": "kuaishou-tri-decoupled-genrec-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐排序模型中心",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学副教授，四类在查职称之一；同篇通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Xiaopeng Li",
+        "香港城市大学在读博士；学生主页记载 2025 年 9 月入职快手实习，2025 年 12 月点名该工作由其与快手合作完成。",
+        "https://xiaopengli1.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生研究主页具名列赵翔宇为其香港城市大学博士导师。",
+        "https://xiaopengli1.github.io/"
+      ],
+      "employee": [
+        "唐瑞明 · Ruiming Tang",
+        "同篇快手署名通讯作者；同期 SIGIR-AP 会议官方作者履历列快手高级总监、推荐排序模型中心负责人。",
+        "https://www.sigir-ap.org/sigir-ap-2025/assets/files/SIGIRAP2025Booklet.pdf"
+      ],
+      "title": "A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization, Architecture, and Optimization",
+      "short": "Tri-Decoupled GenRec",
+      "date": "2025-12",
+      "venue": "Preprints.org 预印本",
+      "area": "生成式推荐 · 学术综述",
+      "paper": "https://doi.org/10.20944/preprints202512.0203.v1",
+      "extra": [
+        [
+          "作者单位及通讯信息",
+          "https://www.preprints.org/frontend/manuscript/9f1a828cd4f9b5f57b729f03832f1c96/download_pub"
+        ],
+        [
+          "快手论文原始伴随项目",
+          "https://github.com/Kuaishou-RecModel/Tri-Decoupled-GenRec"
+        ]
+      ],
+      "evidence": "港城大博士 Xiaopeng Li 在 2025 年 9 月加入快手推荐部门，个人站点同年 12 月精确点名本篇综述是在快手合作完成。论文列港城大博士导师赵翔宇与快手推荐排序模型中心负责人唐瑞明两位通讯作者；快手维护论文伴随项目。"
+    },
+    {
+      "id": "kuaishou-evoskillrec-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐排序模型中心",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学副教授，论文通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Xiaopeng Li",
+        "港城大在读博士；论文首页脚注逐名将第一作者 Xiaopeng Li 的本篇研究标记为快手实习期间完成。",
+        "https://arxiv.org/pdf/2609.34552"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人主页具名列出博士导师赵翔宇，并记载 2025 年 9 月起加入快手做生成式推荐科研。",
+        "https://xiaopengli1.github.io/"
+      ],
+      "employee": [
+        "唐瑞明 · Ruiming Tang",
+        "同篇作者列快手单位；SIGIR-AP 正式会议手册记载快手高级总监、推荐排序模型中心负责人。",
+        "https://www.sigir-ap.org/sigir-ap-2025/assets/files/SIGIRAP2025Booklet.pdf"
+      ],
+      "title": "EvoSkillRec: Skill-Genome Evolution for Recommender Architecture Discovery",
+      "short": "EvoSkillRec",
+      "date": "2026-09",
+      "venue": "arXiv 预印本",
+      "area": "生成式推荐 · 架构搜索",
+      "paper": "https://arxiv.org/abs/2609.34552",
+      "extra": [
+        [
+          "导师实验室学生名录",
+          "https://aml-cityu.github.io/team/"
+        ]
+      ],
+      "evidence": "论文首页将第一作者 Xiaopeng Li 的研究明示为快手实习期间完成。其个人履历确认正就读港城大博士并由同篇通讯作者赵翔宇指导。企业作者唐瑞明在快手推荐排序模型中心任高级总监，同篇以快手署名。"
+    },
+    {
+      "id": "alibaba-capfsar-hust-gao",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "高常鑫 · Changxin Gao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为相关论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；四篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "Few-shot Action Recognition with Captioning Foundation Models",
+      "short": "CapFSAR",
+      "date": "2026-09",
+      "venue": "Computer Vision and Image Understanding",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2310.10125v1",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "Elsevier 正式版与贡献声明",
+          "https://doi.org/10.1016/j.cviu.2026.104894"
+        ]
+      ],
+      "paperId": "arxiv:2310.10125"
+    },
+    {
+      "id": "alibaba-capfsar-hust-sang",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "桑农 · Nong Sang",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/sangnong/zh_CN/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为相关论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；四篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "Few-shot Action Recognition with Captioning Foundation Models",
+      "short": "CapFSAR",
+      "date": "2026-09",
+      "venue": "Computer Vision and Image Understanding",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2310.10125v1",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "Elsevier 正式版与贡献声明",
+          "https://doi.org/10.1016/j.cviu.2026.104894"
+        ]
+      ],
+      "paperId": "arxiv:2310.10125"
+    },
+    {
+      "id": "alibaba-clex-sysu-shangsong-liang",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "达摩院／湖畔实验室",
+      "title": "CLEX: Continuous Length Extrapolation for Large Language Models",
+      "short": "CLEX",
+      "date": "2024-05",
+      "venue": "ICLR",
+      "area": "自然语言处理",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/3df38ca67befaed9c03b95ffee07d9f8-Paper-Conference.pdf",
+      "arxiv": "2310.16450",
+      "evidence": "ICLR 正式版首页具名说明陈官正于阿里巴巴达摩院实习期间完成此项研究。陈官正当时是中山大学硕士生，本人履历列梁上松为校内导师、Xin Li 为达摩院实习导师；两位均是论文通讯作者。",
+      "faculty": [
+        "梁上松 · Shangsong Liang",
+        "中山大学计算机学院副教授，硕士导师及论文共同通讯作者。",
+        "https://cse.sysu.edu.cn/teacher/LiangShangsong"
+      ],
+      "employee": [
+        "Xin Li",
+        "同篇通讯作者；本人履历自 2021 年 3 月起在阿里巴巴达摩院正式担任研究工程师。",
+        "https://lixin4ever.github.io/"
+      ],
+      "student": [
+        "陈官正 · Guanzheng Chen",
+        "研究发生时为中山大学计算机科学与技术硕士生；论文具名说明达摩院实习成果。",
+        "https://guanzhchen.github.io/"
+      ],
+      "advising": [
+        "硕士导师",
+        "学生的中英文履历列中山大学硕士阶段 2021 年 9 月至 2024 年 6 月，明确列梁上松为导师。",
+        "https://guanzhchen.github.io/data/Resume_EN.pdf"
+      ],
+      "extra": [
+        [
+          "阿里达摩院项目代码",
+          "https://github.com/DAMO-NLP-SG/CLEX"
+        ],
+        [
+          "陈官正公开履历中的实习时间和企业导师",
+          "https://guanzhchen.github.io/data/Resume_Guanzheng.pdf"
+        ]
+      ]
     }
   ]
 };
