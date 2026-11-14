@@ -12423,5 +12423,59 @@ const facultyPaperAudits = {
       }
     ],
     "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+  },
+  "e3X2Z3IAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/YANJIEXI/en/lwcg/442355/list/index.htm",
+      "https://jiexiyan.github.io/",
+      "https://web.xidian.edu.cn/chdeng/team.html",
+      "https://dblp.org/pid/49/3283-5.html",
+      "https://see.xidian.edu.cn/faculty/chdeng/Welcome%20to%20Cheng%20Deng%27s%20Homepage_files/Papers/Journal/TIP2022_Jiexi.pdf",
+      "https://doi.org/10.1109/TPAMI.2024.3379752",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Yan_Learning_with_Diversity_Self-Expanded_Equalization_for_Better_Generalized_Deep_Metric_ICCV_2023_paper.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29588/30990",
+      "https://proceedings.mlr.press/v235/yan24h.html"
+    ],
+    "papers": [
+      {
+        "title": "Adaptive Hierarchical Similarity Metric Learning With Noisy Labels",
+        "year": 2023,
+        "url": "https://see.xidian.edu.cn/faculty/chdeng/Welcome%20to%20Cheng%20Deng%27s%20Homepage_files/Papers/Journal/TIP2022_Jiexi.pdf",
+        "outcome": "lead",
+        "note": "论文明确有京东金融作者 Lei Luo；闫杰熹本人公开自述与导师组都能确认其读博导师，但未见闫参与京东同项目的证据，而且 2022 年已博士毕业、2023 年才发表；其导师不在本轮名录队列。"
+      },
+      {
+        "title": "Causality-Invariant Interactive Mining for Cross-Modal Similarity Learning",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TPAMI.2024.3379752",
+        "outcome": "lead",
+        "note": "论文署名包含腾讯员工 Wei Liu；第一作者闫杰熹 2022 年已毕业并留校，未发现本篇在读西电学生参加腾讯项目的证据，也未找到他在 2022 年以前参与本项目的证据。"
+      },
+      {
+        "title": "Learning with Diversity: Self-Expanded Equalization for Better Generalized Deep Metric Learning",
+        "year": 2023,
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yan_Learning_with_Diversity_Self-Expanded_Equalization_for_Better_Generalized_Deep_Metric_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版作者署西电和马里兰大学，无范围内企业。"
+      },
+      {
+        "title": "Asymmetric Mutual Alignment for Unsupervised Zero-Shot Sketch-Based Image Retrieval",
+        "year": 2024,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29588/30990",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版所有作者署西安电子科技大学。"
+      },
+      {
+        "title": "Retrieval Across Any Domains via Large-scale Pre-trained Model",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/yan24h.html",
+        "outcome": "no-evidence",
+        "note": "ICML 的 PMLR 正式 PDF 首页仅列西安电子科技大学和马里兰大学。"
+      }
+    ],
+    "note": "已核查其中五篇；有两篇发现企业合著，但仍欠在读生实际参与企业同项目的证据。其余书目待查。"
   }
 };
