@@ -312,20 +312,20 @@ const facultyPaperAudits = {
       {
         "title": "Training-free LLM Merging for Multi-task Learning",
         "url": "https://aclanthology.org/2025.acl-long.1588/",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "第一作者的实名履历将 2024 年 8 月起在腾讯 Jarvis 开发多任务学习的模型融合方法列为该岗位工作，恰与本论文方法对应；论文致谢列同一企业研究计划。 傅子川个人主页列明港城大博士导师 Xiangyu Zhao。教师和腾讯正式雇员 Xian Wu 均在同篇，其在腾讯的任职由实验室官网确认。"
       },
       {
         "title": "A Unified Framework for Multi-Domain CTR Prediction via Large Language Models",
         "url": "https://doi.org/10.1145/3698878",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "学生的具名履历将用大语言模型开展跨域点击率预测列为在华为诺亚期间实际工作，并明确列企业导师 Xiangyang Li；原文同为第一作者，其机构归属及华为正式岗位由履历与同年企业资料相互核对。导师 Xiangyu Zhao 是同篇作者，学生本人说明其指导博士研究。"
       },
       {
         "title": "BalanceSFT: Improving LLM Function Calling with Balanced Training Signals and Data Hardness",
         "url": "https://aclanthology.org/2026.findings-acl.900/",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "正式论文首页将并列第一作者 Maolin Wang 标记为在蚂蚁完成该研究；其履历列明同期在读导师 Xiangyu Zhao 与蚂蚁函式调用实习工作。早期预印本已在 Maolin Wang 毕业前将上述三位列为作者；2025 年议程对企业通讯作者 Chenyi Zhuang 的蚂蚁 AWorld 岗位有实名介绍。"
       }
     ]
   },
@@ -2663,7 +2663,8 @@ const facultyPaperAudits = {
       "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm",
       "https://whi497.github.io/leaf.github.io/",
       "https://cn.linkedin.com/in/yiyan-xu-617165355/zh-cn",
-      "https://baiyimeng.github.io/"
+      "https://baiyimeng.github.io/",
+      "https://hexiangnan.github.io/papers/tkde25-CoLLM.pdf"
     ],
     "papers": [
       {
@@ -2725,6 +2726,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2407.19682",
         "outcome": "confirmed",
         "note": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。"
+      },
+      {
+        "title": "HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.472.pdf",
+        "outcome": "confirmed",
+        "note": "同期 IEEE 论文作者履历证实其为中科大在读博士，正式版首页脚注明确具名注明 Keqin Bao 在阿里巴巴实习时完成这项研究。"
+      },
+      {
+        "title": "Disentangling Reasoning Tokens and Boilerplate Tokens For Language Model Fine-tuning",
+        "url": "https://arxiv.org/abs/2412.14780",
+        "outcome": "lead",
+        "note": "Ziang Ye 把该成果明确列在 Qwen 实习经历并具名列企业导师马坚鑫；但公开履历中的实习（2024 年 2–9 月）和冯福利硕士指导（2024 年 9 月起）仅在同一个月份相接，尚未找到本科时同项目指导或项目延续到研究生阶段的具体证据。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -4098,14 +4111,14 @@ const facultyPaperAudits = {
       {
         "title": "Democratizing Tool Learning with Environments Fully Simulated by a Free 8B Language Model",
         "url": "https://arxiv.org/pdf/2604.17739v1",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "北京大学硕士 Chenming Tang 的腾讯混元实习为 2025 年 7 月至 2026 年 5 月；最早公开稿同期标记他为共同第一作者，并明确脚注说明该工作于腾讯实习期间完成。更新后的标题由作者与北大官网交叉确认。"
       },
       {
         "title": "ORBIT: On-policy Exploration-Exploitation for Controllable Multi-Budget Reasoning",
         "url": "https://arxiv.org/pdf/2601.08310",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "Chenming Tang 的在读履历说明 2025 年 7 月至 2026 年 5 月在腾讯混元实习；正文星号同时标出三名北大具名作者，其中包括 Chenming Tang，并明确说明其研究于腾讯实习期间完成。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -4146,8 +4159,8 @@ const facultyPaperAudits = {
       {
         "title": "Incentivizing In-depth Reasoning over Long Contexts with Process Advantage Shaping",
         "url": "https://aclanthology.org/2026.findings-acl.1306/",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "第一作者彭淼的首页脚注具名写明在阿里巴巴通义实验室实习期间进行；其公开履历记录实习起止时间及同篇通讯作者 Jia Li 的博士导师身份。当期通义企业作者 Ming Yan 在该论文及多篇正式通义项目为企业通讯作者，并由在通义工作作者的履历确认其在通义实验室指导职责。"
       }
     ]
   },
@@ -4298,8 +4311,8 @@ const facultyPaperAudits = {
       {
         "title": "NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables",
         "url": "https://openreview.net/pdf/635fffd836636e1c56d6f86742d8b5a11c3e617d.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式版的联合工作脚注标给王岚睿本人；其主页确认在读期导师，另不推定本篇为实习。"
       }
     ],
     "note": "仅核对部分受指导学生的公开成果，未遍历教师全部书目。"
@@ -4335,5 +4348,229 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已逐篇核对首批自动定理证明论文，其他公开成果仍在梳理。"
+  },
+  "W-FGd_UAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~0009513",
+      "https://xlchen0205.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration",
+        "url": "https://openreview.net/pdf/0eee20e215f987e2c76d393d0a0fb6f2f88e100a.pdf",
+        "outcome": "confirmed",
+        "note": "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。"
+      },
+      {
+        "title": "DiaDem: Advancing Dialogue Descriptions in Audiovisual Video Captioning for Multimodal Large Language Models",
+        "url": "https://arxiv.org/pdf/2601.19267",
+        "outcome": "confirmed",
+        "note": "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。"
+      },
+      {
+        "title": "PIGEONS: Incremental Long-Video Captioning with Persistent Identity Gallery and Evolving Overarching Narrative Summary",
+        "url": "https://arxiv.org/pdf/2610.16066",
+        "outcome": "confirmed",
+        "note": "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。"
+      },
+      {
+        "title": "VidCapBench: A Comprehensive Benchmark of Video Captioning for Controllable Text-to-Video Generation",
+        "url": "https://arxiv.org/abs/2502.12782",
+        "outcome": "lead",
+        "note": "一作实习与快手员工作者可核，但最早公开时陈鑫龙仍在华中科技大学读本科。国科大博士导师的同期指导材料尚缺。"
+      },
+      {
+        "title": "VidBridge-R1: Bridging QA and Captioning for RL-based Video Understanding Models with Intermediate Proxy Tasks",
+        "url": "https://arxiv.org/abs/2506.09079",
+        "outcome": "lead",
+        "note": "一作实习与快手员工作者可核，但最早公开时陈鑫龙仍在华中科技大学读本科。国科大博士导师的同期指导材料尚缺。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "fyMni2cAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2024.acl-long.832/",
+      "https://kwanwaichung.github.io/files/cv.pdf",
+      "https://www.se.cuhk.edu.hk/news-events/news-archive/",
+      "http://www.se.cuhk.edu.hk/people/kfwong.html",
+      "https://dev3.noahlab.com.hk/Qun_Liu.html",
+      "https://aclanthology.org/2024.acl-long.832.pdf",
+      "https://aclanthology.org/2024.emnlp-main.1124/",
+      "https://aclanthology.org/2024.emnlp-main.1124.pdf"
+    ],
+    "papers": [
+      {
+        "title": "M4LE: A Multi-Ability Multi-Range Multi-Task Multi-Domain Long-Context Evaluation Benchmark for Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.832/",
+        "outcome": "confirmed",
+        "note": "正式论文首页的华为诺亚方舟实习脚注附在第一作者 Wai-Chung Kwan 名下，学术简历同时给出其博士阶段与实习期，写明构建了两项大模型评测基准。港中文院系具名确认博士导师黄锦辉；华为官网确认企业作者刘群的正式岗位。"
+      },
+      {
+        "title": "MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for Large Language Models",
+        "url": "https://aclanthology.org/2024.emnlp-main.1124/",
+        "outcome": "confirmed",
+        "note": "正式论文首页的华为诺亚方舟实习脚注附在第一作者 Wai-Chung Kwan 名下，学术简历同时给出其博士阶段与实习期，写明构建了两项大模型评测基准。港中文院系具名确认博士导师黄锦辉；华为官网确认企业作者刘群的正式岗位。"
+      }
+    ]
+  },
+  "wLtu3FYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2024.acl-long.257/",
+      "https://yjiangcm.github.io/internship/",
+      "https://yjiangcm.github.io/",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs#new_tab",
+      "https://dev3.noahlab.com.hk/Qun_Liu.html",
+      "https://aclanthology.org/2024.acl-long.257.pdf",
+      "https://dsa.hkust-gz.edu.cn/zh/blog/2024/06/02/towards-the-enhancement-of-large-language-models/",
+      "https://aclanthology.org/2024.acl-long.258/"
+    ],
+    "papers": [
+      {
+        "title": "FollowBench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.257/",
+        "outcome": "confirmed",
+        "note": "第一作者姜宇心的履历在华为诺亚方舟实习条目下明确列其构建 FollowBench，同篇有实习脚注；其博士导师王伟列为共同作者，华为诺亚负责人刘群按企业署名。"
+      },
+      {
+        "title": "Learning to Edit: Aligning LLMs with Knowledge Editing",
+        "url": "https://aclanthology.org/2024.acl-long.258/",
+        "outcome": "existing",
+        "note": "同一导师及学生的华为联合研究已有记录；论文具名华为实习脚注，学生公开履历将 LTE 列为具体实习工作。"
+      }
+    ]
+  },
+  "f1hBi5wAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2024.acl-long.163/",
+      "https://aclanthology.org/2024.acl-long.163.pdf",
+      "https://zhaoxlpku.github.io/",
+      "https://www.ai.hku.hk/index.php/people/academic-staff/lpk",
+      "https://dsa.hkust-gz.edu.cn/blog/2022/12/02/towards-diverse-informative-and-robust-natural-language-generation/",
+      "https://aclanthology.org/2024.acl-long.407/",
+      "https://aclanthology.org/2024.acl-long.407.pdf",
+      "https://timhuang1.github.io/",
+      "https://aclanthology.org/2024.findings-acl.433/",
+      "https://aclanthology.org/2024.findings-acl.433.pdf",
+      "https://aclanthology.org/2023.findings-acl.715/",
+      "https://aclanthology.org/2023.findings-acl.715.pdf",
+      "https://lemaoliu.github.io/",
+      "https://aclanthology.org/2025.findings-acl.935/",
+      "https://aclanthology.org/2025.findings-acl.935.pdf",
+      "https://jianguanthu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers",
+        "url": "https://aclanthology.org/2024.acl-long.163/",
+        "outcome": "confirmed",
+        "note": "两位学生共同作者 Qintong Li 与 Xueliang Zhao 都标有腾讯实习脚注，均公开列出 Lingpeng Kong 为香港大学在读阶段导师；这里登记 Xueliang Zhao 链。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+      },
+      {
+        "title": "SEGO: Sequential Subgoal Optimization for Mathematical Problem-Solving",
+        "url": "https://aclanthology.org/2024.acl-long.407/",
+        "outcome": "confirmed",
+        "note": "论文首页具名第一作者 Xueliang Zhao 的腾讯 AI Lab 实习，博士就读及 2023–2024 腾讯实习均由其本人确认。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+      },
+      {
+        "title": "BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.433/",
+        "outcome": "confirmed",
+        "note": "正式论文首页具名注明第一作者在腾讯 AI Lab 实习时完成正文研究。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+      },
+      {
+        "title": "SORTIE: Dependency-Aware Symbolic Reasoning for Logical Data-to-text Generation",
+        "url": "https://aclanthology.org/2023.findings-acl.715/",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "title": "PromptCoT: Synthesizing Olympiad-level Problems for Mathematical Reasoning in Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-acl.935/",
+        "outcome": "confirmed",
+        "note": "论文首页将第一作者 Xueliang Zhao 的工作具名标为蚂蚁集团实习期完成。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+      }
+    ]
+  },
+  "1Op_wVUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://cma.hkust-gz.edu.cn/faculty-regular/rachel-franz/",
+      "https://orcid.org/0000-0001-9760-8538",
+      "https://dblp.dagstuhl.de/pid/135/6924.html",
+      "https://rachelfranz.com/publications/",
+      "https://depts.washington.edu/acelab/people.html"
+    ],
+    "papers": [
+      {
+        "title": "Comparing Locomotion Techniques in Virtual Reality for People with Upper-Body Motor Impairments",
+        "url": "https://faculty.washington.edu/wobbrock/pubs/assets-23.02.pdf",
+        "outcome": "no-evidence",
+        "note": "ASSETS 会议全文首页三位作者均署华盛顿大学，未见范围内企业共同作者。"
+      },
+      {
+        "title": "A Virtual Reality Scene Taxonomy: Identifying and Designing Accessible Scene-Viewing Techniques",
+        "url": "https://doi.org/10.1145/3635142",
+        "outcome": "no-evidence",
+        "note": "出版社作者单位列华盛顿大学与微软研究院；该项目不涉及现有 14 家范围内企业，研究期间 Franz 为华盛顿大学博士生。"
+      },
+      {
+        "title": "Improving the accessibility of virtual reality for people with motor and visual impairments",
+        "url": "https://faculty.washington.edu/wobbrock/pubs/chi-24.02.pdf",
+        "outcome": "no-evidence",
+        "note": "华盛顿大学实验室论文清单及工作坊全文列三位作者为华盛顿大学，同篇未见范围内企业作者。"
+      },
+      {
+        "title": "Supporting the Design, Selection, and Evaluation of Accessible Interaction Techniques for Virtual Reality",
+        "url": "https://eric.ed.gov/?id=ED662234",
+        "outcome": "no-evidence",
+        "note": "华盛顿大学单作者博士论文；学位论文中的资助与指导不构成当前口径的同篇三类作者。"
+      },
+      {
+        "title": "Locability: An Ability-Based Ranking Model for Virtual Reality Locomotion Techniques",
+        "url": "https://arxiv.org/abs/2510.05679",
+        "outcome": "no-evidence",
+        "note": "核对预印本首页，两位署名分别为港科大（广州）和华盛顿大学，未见范围内企业合著。"
+      },
+      {
+        "title": "Quantifying Locomotion Differences Between Virtual Reality Users With and Without Motor Impairments",
+        "url": "https://arxiv.org/abs/2510.07987",
+        "outcome": "no-evidence",
+        "note": "核对预印本首页，两位署名分别为港科大（广州）和华盛顿大学，未见范围内企业合著。"
+      },
+      {
+        "title": "Can My Robot Relax Me? Comparing Robotic and Human Self-Touch for Stress Reduction",
+        "url": "https://programs.sigchi.org/chi/2026/program/content/229454",
+        "outcome": "no-evidence",
+        "note": "会议官方作者、机构资料及出版元数据列为港科大（广州）或港科大署名，未见范围内企业作者。"
+      },
+      {
+        "title": "FocalFlow: Facilitating Decision-Making in Multi-Step Mobile Tasks for Blind and Low Vision People",
+        "url": "https://doi.org/10.1145/3831982",
+        "outcome": "no-evidence",
+        "note": "正式出版元数据逐名列单位均为港科大（广州）；第一作者的项目页及学籍履历未指出企业研究角色。"
+      },
+      {
+        "title": "Negotiated Adoption of Health Sensing Systems: A Co-Design Study with Older Adults and Family Members",
+        "url": "https://doi.org/10.1145/3797867.3829012",
+        "outcome": "no-evidence",
+        "note": "正式出版元数据逐名列作者均为港科大（广州）；学生个人主页和会议正式日程均可互证。"
+      }
+    ],
+    "note": "交叉核对本人书目、ORCID、DBLP、学位机构书目、arXiv 与出版社署名；对时间窗内可归属的公开论文、预印本和学位论文均已逐条核验。"
   }
 };

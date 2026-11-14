@@ -14757,7 +14757,7 @@ const survey = {
           "https://cure-lab.github.io/"
         ],
         [
-          "华为方兰青洪履历和共同项目",
+          "华为方洪蓝青履历和共同项目",
           "https://racheltechie.github.io/"
         ],
         [
@@ -14805,7 +14805,7 @@ const survey = {
           "https://cure-lab.github.io/"
         ],
         [
-          "华为方兰青洪履历和共同项目",
+          "华为方洪蓝青履历和共同项目",
           "https://racheltechie.github.io/"
         ],
         [
@@ -14861,7 +14861,7 @@ const survey = {
           "https://cure-lab.github.io/"
         ],
         [
-          "华为方兰青洪履历和共同项目",
+          "华为方洪蓝青履历和共同项目",
           "https://racheltechie.github.io/"
         ],
         [
@@ -14917,7 +14917,7 @@ const survey = {
           "https://cure-lab.github.io/"
         ],
         [
-          "华为方兰青洪履历和共同项目",
+          "华为方洪蓝青履历和共同项目",
           "https://racheltechie.github.io/"
         ],
         [
@@ -15947,7 +15947,7 @@ const survey = {
         "https://bqy.info/"
       ],
       "employee": [
-        "沈瑜骏 · Yujun Shen",
+        "沈宇军 · Yujun Shen",
         "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
         "https://shenyujun.github.io/"
       ],
@@ -15971,7 +15971,7 @@ const survey = {
           "https://github.com/ant-research/edicho"
         ]
       ],
-      "evidence": "ICCV 正文在第一作者 Qingyan Bai 处加星号，首页脚注明确该工作在蚂蚁实习期间完成；该生主页和实验室资料核实同期师生关系。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      "evidence": "ICCV 正文在第一作者 Qingyan Bai 处加星号，首页脚注明确该工作在蚂蚁实习期间完成；该生主页和实验室资料核实同期师生关系。 蚂蚁同篇共同作者沈宇军的公开任职时间覆盖该项目。"
     },
     {
       "id": "ant-magicquill-hkust-qifeng-chen",
@@ -15995,7 +15995,7 @@ const survey = {
         "https://zliucz.github.io/"
       ],
       "employee": [
-        "沈瑜骏 · Yujun Shen",
+        "沈宇军 · Yujun Shen",
         "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
         "https://shenyujun.github.io/"
       ],
@@ -16019,7 +16019,7 @@ const survey = {
           "https://magicquill.art/"
         ]
       ],
-      "evidence": "学生在本人主页明示领衔该项目，列同期蚂蚁实习和指导教师。正式论文明确获蚂蚁研究实习项目支持，第一作者双重署名，蚂蚁保有具名的官方实现。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      "evidence": "学生在本人主页明示领衔该项目，列同期蚂蚁实习和指导教师。正式论文明确获蚂蚁研究实习项目支持，第一作者双重署名，蚂蚁保有具名的官方实现。 蚂蚁同篇共同作者沈宇军的公开任职时间覆盖该项目。"
     },
     {
       "id": "ant-magicquill-v2-hkust-qifeng-chen",
@@ -16043,7 +16043,7 @@ const survey = {
         "https://zliucz.github.io/"
       ],
       "employee": [
-        "沈瑜骏 · Yujun Shen",
+        "沈宇军 · Yujun Shen",
         "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
         "https://shenyujun.github.io/"
       ],
@@ -16063,7 +16063,7 @@ const survey = {
           "https://github.com/zliucz/MagicQuillV2"
         ]
       ],
-      "evidence": "第二代为新增分层处理模块的独立 CVPR 2026 论文。本人的实习履历和项目资料称其领衔第二代，论文致谢明确指出 Ant Group Research Intern Program，记录第一作者双重机构并列出两位指导角色作者。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      "evidence": "第二代为新增分层处理模块的独立 CVPR 2026 论文。本人的实习履历和项目资料称其领衔第二代，论文致谢明确指出 Ant Group Research Intern Program，记录第一作者双重机构并列出两位指导角色作者。 蚂蚁同篇共同作者沈宇军的公开任职时间覆盖该项目。"
     },
     {
       "id": "ant-manganinja-hkust-qifeng-chen",
@@ -16087,7 +16087,7 @@ const survey = {
         "https://felixcheng97.github.io/"
       ],
       "employee": [
-        "沈瑜骏 · Yujun Shen",
+        "沈宇军 · Yujun Shen",
         "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
         "https://shenyujun.github.io/"
       ],
@@ -16107,7 +16107,7 @@ const survey = {
           "https://johanan528.github.io/MangaNinjia/"
         ]
       ],
-      "evidence": "正式论文致谢分别写明阿里通义和蚂蚁研究实习计划支持；其第二顺位共同一作郑嘉亮在论文和具名项目页署港科大及蚂蚁，与其本人同期蚂蚁实习履历一致。这里核实郑嘉亮及蚂蚁一侧。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      "evidence": "正式论文致谢分别写明阿里通义和蚂蚁研究实习计划支持；其第二顺位共同一作郑嘉亮在论文和具名项目页署港科大及蚂蚁，与其本人同期蚂蚁实习履历一致。这里核实郑嘉亮及蚂蚁一侧。 蚂蚁同篇共同作者沈宇军的公开任职时间覆盖该项目。"
     },
     {
       "id": "ant-depthlab-hkust-qifeng-chen",
@@ -16131,7 +16131,7 @@ const survey = {
         "https://felixcheng97.github.io/"
       ],
       "employee": [
-        "沈瑜骏 · Yujun Shen",
+        "沈宇军 · Yujun Shen",
         "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
         "https://shenyujun.github.io/"
       ],
@@ -16155,7 +16155,7 @@ const survey = {
           "https://johanan528.github.io/depthlab_web/"
         ]
       ],
-      "evidence": "郑嘉亮为共同第一作者，2024 年公开报告和技术项目把他标作港科大与蚂蚁双重署名；蚂蚁研究官方仓库具名发布这一具体模型。本人的实习时间与论文和项目发布一致。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      "evidence": "郑嘉亮为共同第一作者，2024 年公开报告和技术项目把他标作港科大与蚂蚁双重署名；蚂蚁研究官方仓库具名发布这一具体模型。本人的实习时间与论文和项目发布一致。 蚂蚁同篇共同作者沈宇军的公开任职时间覆盖该项目。"
     },
     {
       "id": "ant-causalcine-hkust-qifeng-chen",
@@ -16179,7 +16179,7 @@ const survey = {
         "https://zliucz.github.io/"
       ],
       "employee": [
-        "沈瑜骏 · Yujun Shen",
+        "沈宇军 · Yujun Shen",
         "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
         "https://shenyujun.github.io/"
       ],
@@ -16199,7 +16199,7 @@ const survey = {
           "https://yihao-meng.github.io/CausalCine/"
         ]
       ],
-      "evidence": "该生履历明确表示参与这篇论文的模型研发，并由本人于 2026 年 5 月列出项目发布；正式论文及作者项目页明确同一研究项目中他以两家机构署名，导师陈启峰与蚂蚁研究全职科研人员沈瑜骏同篇。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      "evidence": "该生履历明确表示参与这篇论文的模型研发，并由本人于 2026 年 5 月列出项目发布；正式论文及作者项目页明确同一研究项目中他以两家机构署名，导师陈启峰与蚂蚁研究全职科研人员沈宇军同篇。 蚂蚁同篇共同作者沈宇军的公开任职时间覆盖该项目。"
     },
     {
       "id": "bytedance-illada-ruc-li",
@@ -18614,6 +18614,793 @@ const survey = {
         ]
       ],
       "evidence": "熊璟在同期简历的华为实习责任项明确列出他开发 TRIGO；正式 EMNLP 论文署熊璟为共同第一作者、梁小丹为通讯作者，华为实习导师 Yichun Yin 同篇署名。"
+    },
+    {
+      "id": "trustee-tencent-pku-d1ylkkaaaaaj",
+      "paperId": "arxiv:2604.17739",
+      "company": "腾讯",
+      "team": "混元大模型团队",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "吴云芳 · Yunfang Wu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1083/1705.htm"
+      ],
+      "employee": [
+        "Weijie Liu",
+        "Chenming Tang 自述 2025–2026 年由 Weijie Liu 指导在腾讯混元的研究；腾讯混元 2024 年 Hunyuan-Large 和 2025 年 TurboS 团队报告均具名列出，正式论文同一人以腾讯署名。",
+        "https://arxiv.org/abs/2505.15431"
+      ],
+      "student": [
+        "Chenming Tang",
+        "北京大学硕士 Chenming Tang 的腾讯混元实习为 2025 年 7 月至 2026 年 5 月；最早公开稿同期标记他为共同第一作者，并明确脚注说明该工作于腾讯实习期间完成。更新后的标题由作者与北大官网交叉确认。",
+        "https://jamydon.online/"
+      ],
+      "title": "Democratizing Tool Learning with Environments Fully Simulated by a Free 8B Language Model",
+      "short": "TRUSTEE",
+      "date": "2026-04",
+      "venue": "arXiv 预印本（NeurIPS 2026 已录用）",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2604.17739v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2604.17739"
+        ],
+        [
+          "北大教师页的最终题名和录用信息",
+          "https://cs.pku.edu.cn/info/1083/1705.htm"
+        ],
+        [
+          "共同指导项目及在读身份",
+          "https://jamydon.online/cv/"
+        ]
+      ],
+      "evidence": "北京大学硕士 Chenming Tang 的腾讯混元实习为 2025 年 7 月至 2026 年 5 月；最早公开稿同期标记他为共同第一作者，并明确脚注说明该工作于腾讯实习期间完成。更新后的标题由作者与北大官网交叉确认。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Chenming Tang 个人教育经历和公开履历具名列吴云芳为北京大学硕士生导师；吴云芳是同篇论文的校方通讯作者。",
+        "https://jamydon.online/cv/"
+      ]
+    },
+    {
+      "id": "orbit-tencent-pku-d1ylkkaaaaaj",
+      "paperId": "arxiv:2601.08310",
+      "company": "腾讯",
+      "team": "混元大模型团队",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "吴云芳 · Yunfang Wu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1083/1705.htm"
+      ],
+      "employee": [
+        "Weijie Liu",
+        "学生本人的公开研究履历列其为 2025–2026 年腾讯混元侧导师。2024 年腾讯混元模型团队报告与 2025 年 TurboS 同期报告均具名列他；本篇以腾讯身份署名。",
+        "https://arxiv.org/abs/2505.15431"
+      ],
+      "student": [
+        "Chenming Tang",
+        "Chenming Tang 的在读履历说明 2025 年 7 月至 2026 年 5 月在腾讯混元实习；正文星号同时标出三名北大具名作者，其中包括 Chenming Tang，并明确说明其研究于腾讯实习期间完成。",
+        "https://jamydon.online/"
+      ],
+      "title": "ORBIT: On-policy Exploration-Exploitation for Controllable Multi-Budget Reasoning",
+      "short": "ORBIT",
+      "date": "2026-01",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2601.08310",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2601.08310"
+        ],
+        [
+          "同期腾讯与北大导师列表",
+          "https://jamydon.online/cv/"
+        ]
+      ],
+      "evidence": "Chenming Tang 的在读履历说明 2025 年 7 月至 2026 年 5 月在腾讯混元实习；正文星号同时标出三名北大具名作者，其中包括 Chenming Tang，并明确说明其研究于腾讯实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Chenming Tang 的个人教育与研究履历具名确认北京大学吴云芳为硕士导师；吴云芳亦为本文校方通讯作者。",
+        "https://jamydon.online/cv/"
+      ]
+    },
+    {
+      "id": "hellaswag-pro-alibaba-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2502.11393",
+      "company": "阿里巴巴",
+      "team": "通义千问",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "刘大一恒 · Dayiheng Liu",
+        "其公开工作履历明确列 2021 年 1 月加入阿里巴巴达摩院，担任算法专家；该论文具名以阿里巴巴署名，多份同期千问技术报告亦列其为企业成员。",
+        "https://liudayiheng.github.io/"
+      ],
+      "student": [
+        "Keqin Bao",
+        "同期 IEEE 论文作者履历证实其为中科大在读博士，正式版首页脚注明确具名注明 Keqin Bao 在阿里巴巴实习时完成这项研究。",
+        "https://hexiangnan.github.io/papers/tkde25-CoLLM.pdf"
+      ],
+      "title": "HellaSwag-Pro: A Large-Scale Bilingual Benchmark for Evaluating the Robustness of LLMs in Commonsense Reasoning",
+      "short": "HellaSwag-Pro",
+      "date": "2025-07",
+      "venue": "ACL Findings 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2025.findings-acl.472.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2025.findings-acl.472/"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2502.11393"
+        ]
+      ],
+      "evidence": "同期 IEEE 论文作者履历证实其为中科大在读博士，正式版首页脚注明确具名注明 Keqin Bao 在阿里巴巴实习时完成这项研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "同期 IEEE 论文作者履历明确 Keqin Bao 的中科大博士导师包括冯福利与何向南；本论文有冯福利署名。",
+        "https://hexiangnan.github.io/papers/tkde25-CoLLM.pdf"
+      ]
+    },
+    {
+      "id": "avocado-kuaishou-ucas-w-fgd_uaaaaj",
+      "paperId": "arxiv:2510.10395",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "谭铁牛 · Tieniu Tan",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0009513"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "公开履历注明 2024 年起在快手任职，担任快手可灵多模态理解组负责人；学生在同一实习段具名列其为快手导师，原文署快手可灵。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "陈鑫龙 · Xinlong Chen",
+        "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。",
+        "https://xlchen0205.github.io/"
+      ],
+      "title": "AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration",
+      "short": "AVoCaDO",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://openreview.net/pdf/0eee20e215f987e2c76d393d0a0fb6f2f88e100a.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2510.10395"
+        ],
+        [
+          "作者与项目说明",
+          "https://avocado-captioner.github.io/"
+        ]
+      ],
+      "evidence": "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陈鑫龙的教育履历具名列谭铁牛为其国科大博士生导师；论文中谭铁牛署国科大。",
+        "https://xlchen0205.github.io/"
+      ]
+    },
+    {
+      "id": "diadem-kuaishou-ucas-w-fgd_uaaaaj",
+      "paperId": "arxiv:2601.19267",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "谭铁牛 · Tieniu Tan",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0009513"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "公开履历注明 2024 年起在快手任职，担任快手可灵多模态理解组负责人；学生在同一实习段具名列其为快手导师，原文署快手可灵。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "陈鑫龙 · Xinlong Chen",
+        "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。",
+        "https://xlchen0205.github.io/"
+      ],
+      "title": "DiaDem: Advancing Dialogue Descriptions in Audiovisual Video Captioning for Multimodal Large Language Models",
+      "short": "DiaDem",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2601.19267",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2601.19267"
+        ],
+        [
+          "作者与项目说明",
+          "https://diadem-captioner.github.io/"
+        ]
+      ],
+      "evidence": "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陈鑫龙的教育履历具名列谭铁牛为其国科大博士生导师；论文中谭铁牛署国科大。",
+        "https://xlchen0205.github.io/"
+      ]
+    },
+    {
+      "id": "pigeons-kuaishou-ucas-w-fgd_uaaaaj",
+      "paperId": "arxiv:2610.16066",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "谭铁牛 · Tieniu Tan",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0009513"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "公开履历注明 2024 年起在快手任职，担任快手可灵多模态理解组负责人；学生在同一实习段具名列其为快手导师，原文署快手可灵。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "陈鑫龙 · Xinlong Chen",
+        "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。",
+        "https://xlchen0205.github.io/"
+      ],
+      "title": "PIGEONS: Incremental Long-Video Captioning with Persistent Identity Gallery and Evolving Overarching Narrative Summary",
+      "short": "PIGEONS",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2610.16066",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2610.16066"
+        ],
+        [
+          "作者与项目说明",
+          "https://xlchen0205.github.io/"
+        ]
+      ],
+      "evidence": "陈鑫龙履历列他自 2025 年 9 月在中科院自动化所攻读博士，自 2024 年 11 月在快手可灵实习。原文具名列他为本篇第一作者，脚注明确这项工作完成于可灵实习期间。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陈鑫龙的教育履历具名列谭铁牛为其国科大博士生导师；论文中谭铁牛署国科大。",
+        "https://xlchen0205.github.io/"
+      ]
+    },
+    {
+      "id": "alibaba-longpas-hkust-gz-jia-li",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴通义实验室",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Jia Li",
+        "港科大（广州）数据科学与分析副教授、论文通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee#new_tab"
+      ],
+      "student": [
+        "彭淼 · Miao Peng",
+        "自 2024 年 9 月起为港科大（广州）博士生；2025 年 7 月至 2026 年 1 月在通义实习；第一作者具名脚注对应本篇。",
+        "https://gknl.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页具名列明博士导师 Jia Li。",
+        "https://gknl.github.io/"
+      ],
+      "employee": [
+        "Ming Yan",
+        "2024–2025 年以阿里通义实验室研究人员身份指导实习生 Houquan Zhou；并于同期担任正式论文和通义官方发布的长上下文技术报告通讯作者。",
+        "https://cv.hqzhou.com/"
+      ],
+      "title": "Incentivizing In-depth Reasoning over Long Contexts with Process Advantage Shaping",
+      "short": "LongPAS",
+      "date": "2026-07",
+      "venue": "Findings of ACL 2026",
+      "area": "长上下文推理",
+      "paper": "https://aclanthology.org/2026.findings-acl.1306/",
+      "extra": [
+        [
+          "正式论文通义实习脚注及作者名录",
+          "https://aclanthology.org/2026.findings-acl.1306.pdf"
+        ],
+        [
+          "企业官方长文本项目源",
+          "https://github.com/Tongyi-Zhiwen/Qwen-Doc"
+        ],
+        [
+          "另一位实习生记录的阿里达摩任职研究导师",
+          "https://jinchaoli.com/"
+        ]
+      ],
+      "evidence": "第一作者彭淼的首页脚注具名写明在阿里巴巴通义实验室实习期间进行；其公开履历记录实习起止时间及同篇通讯作者 Jia Li 的博士导师身份。当期通义企业作者 Ming Yan 在该论文及多篇正式通义项目为企业通讯作者，并由在通义工作作者的履历确认其在通义实验室指导职责。"
+    },
+    {
+      "id": "tencent-training-free-llm-merging-cityu-xiangyu-zhao",
+      "company": "腾讯",
+      "team": "腾讯优图 Jarvis 研究中心",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "香港城市大学数据科学系副教授；该文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "傅子川 · Zichuan Fu",
+        "自 2023 年起为香港城市大学在读博士；2024 年 8 月起在腾讯 Jarvis 开展研究；本篇署名第一作者。",
+        "https://fzkuji.github.io/cv/"
+      ],
+      "advising": [
+        "博士导师",
+        "傅子川公开学术主页具名 Xiangyu Zhao 为港城大博士导师，学校主页记录其学籍。",
+        "https://fzkuji.github.io/"
+      ],
+      "employee": [
+        "Xian Wu",
+        "2017 年 12 月加入腾讯，研究期间为 Jarvis 实验室主任及专家研究员；论文企业合著者。",
+        "https://jarvislab.tencent.com/index-en.html"
+      ],
+      "title": "Training-free LLM Merging for Multi-task Learning",
+      "short": "Hi-Merging",
+      "date": "2025-07",
+      "venue": "ACL 2025",
+      "area": "大语言模型",
+      "paper": "https://aclanthology.org/2025.acl-long.1588/",
+      "extra": [
+        [
+          "原文实习和作者证据",
+          "https://aclanthology.org/2025.acl-long.1588.pdf"
+        ],
+        [
+          "港城大在读身份",
+          "https://scholars.cityu.edu.hk/en/persons/zichuanfu2/"
+        ]
+      ],
+      "evidence": "第一作者的实名履历将 2024 年 8 月起在腾讯 Jarvis 开发多任务学习的模型融合方法列为该岗位工作，恰与本论文方法对应；论文致谢列同一企业研究计划。 傅子川个人主页列明港城大博士导师 Xiangyu Zhao。教师和腾讯正式雇员 Xian Wu 均在同篇，其在腾讯的任职由实验室官网确认。"
+    },
+    {
+      "id": "huawei-unictr-cityu-xiangyu-zhao",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "港城大数据科学系副教授、论文合著者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "傅子川 · Zichuan Fu",
+        "在读博士；2023 年 7 月至 2024 年 4 月在华为诺亚方舟实验室参与大语言模型跨域点击率预测，正式原文共同第一作者。",
+        "https://fzkuji.github.io/cv/"
+      ],
+      "advising": [
+        "博士导师",
+        "傅子川公开学术主页具名 Xiangyu Zhao 为港城大博士导师，学校主页记录其学籍。",
+        "https://fzkuji.github.io/"
+      ],
+      "employee": [
+        "Xiangyang Li",
+        "华为诺亚方舟实验室研究人员、论文共同第一作者；学生工作履历具名列其为同期华为研究负责人。",
+        "https://openreview.net/profile?id=~Xiangyang_Li2"
+      ],
+      "title": "A Unified Framework for Multi-Domain CTR Prediction via Large Language Models",
+      "short": "Uni-CTR",
+      "date": "2024-10",
+      "venue": "ACM Transactions on Information Systems",
+      "area": "推荐系统与语言模型",
+      "paper": "https://doi.org/10.1145/3698878",
+      "extra": [
+        [
+          "原文作者机构",
+          "https://batmanzzmc.github.io/papers/TOIS2024.pdf"
+        ],
+        [
+          "港城大出版资料",
+          "https://scholars.cityu.edu.hk/en/publications/a-unified-framework-for-multi-domain-ctr-prediction-via-large-lan/"
+        ]
+      ],
+      "evidence": "学生的具名履历将用大语言模型开展跨域点击率预测列为在华为诺亚期间实际工作，并明确列企业导师 Xiangyang Li；原文同为第一作者，其机构归属及华为正式岗位由履历与同年企业资料相互核对。导师 Xiangyu Zhao 是同篇作者，学生本人说明其指导博士研究。"
+    },
+    {
+      "id": "ant-balancesft-cityu-xiangyu-zhao",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 InclusionAI",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "香港城市大学数据科学系副教授、原文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Maolin Wang",
+        "研究开展时为香港城市大学在读博士、并列第一作者。履历列 2024 年 6 月至 2025 年 3 月在蚂蚁支付宝事业部研究大模型函数调用；首页合作标记具名此篇工作在蚂蚁开展。",
+        "https://morin.wang/"
+      ],
+      "advising": [
+        "博士导师",
+        "Maolin Wang 的个人履历明确列 Xiangyu Zhao 为港城大博士导师。",
+        "https://morin.wang/"
+      ],
+      "employee": [
+        "Chenyi Zhuang",
+        "蚂蚁集团 AWorld 算法负责人，由主办方公布的 2025 年演讲人履历明确列为蚂蚁集团正式岗位；同篇企业通讯作者。",
+        "https://ml-summit.org/speaker/1207?lang=en&uid=c1047"
+      ],
+      "title": "BalanceSFT: Improving LLM Function Calling with Balanced Training Signals and Data Hardness",
+      "short": "BalanceSFT",
+      "date": "2026-07",
+      "venue": "Findings of ACL 2026",
+      "area": "大模型工具调用",
+      "paper": "https://aclanthology.org/2026.findings-acl.900/",
+      "extra": [
+        [
+          "正式论文标注同篇为蚂蚁研究",
+          "https://aclanthology.org/2026.findings-acl.900.pdf"
+        ],
+        [
+          "同篇 2025 年公开预印本（原题 FunReason）",
+          "https://arxiv.org/abs/2505.20192"
+        ]
+      ],
+      "evidence": "正式论文首页将并列第一作者 Maolin Wang 标记为在蚂蚁完成该研究；其履历列明同期在读导师 Xiangyu Zhao 与蚂蚁函式调用实习工作。早期预印本已在 Maolin Wang 毕业前将上述三位列为作者；2025 年议程对企业通讯作者 Chenyi Zhuang 的蚂蚁 AWorld 岗位有实名介绍。"
+    },
+    {
+      "id": "huawei-m4le-cuhk-kam-fai-wong",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "黄锦辉 · Kam-Fai Wong",
+        "港中文系统工程与工程管理系教授；正式论文合著。",
+        "http://www.se.cuhk.edu.hk/people/kfwong.html"
+      ],
+      "student": [
+        "Wai-Chung Kwan",
+        "港中文在读博士；研究期间在华为诺亚方舟实习（2023 年 6 月至 2024 年 2 月），同篇第一作者及实习脚注对应作者。",
+        "https://kwanwaichung.github.io/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港中文院系新闻具名记录 Wai-Chung Kwan 是黄锦辉指导的博士生；研究生本人履历亦列相同关系。",
+        "https://www.se.cuhk.edu.hk/news-events/news-archive/"
+      ],
+      "employee": [
+        "刘群 · Qun Liu",
+        "华为诺亚方舟实验室语音和语言计算首席科学家，华为官网核实其正式岗位；同篇署名华为。",
+        "https://dev3.noahlab.com.hk/Qun_Liu.html"
+      ],
+      "title": "M4LE: A Multi-Ability Multi-Range Multi-Task Multi-Domain Long-Context Evaluation Benchmark for Large Language Models",
+      "short": "M4LE",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "语言模型评测",
+      "paper": "https://aclanthology.org/2024.acl-long.832/",
+      "extra": [
+        [
+          "正式论文作者和华为实习脚注",
+          "https://aclanthology.org/2024.acl-long.832.pdf"
+        ]
+      ],
+      "evidence": "正式论文首页的华为诺亚方舟实习脚注附在第一作者 Wai-Chung Kwan 名下，学术简历同时给出其博士阶段与实习期，写明构建了两项大模型评测基准。港中文院系具名确认博士导师黄锦辉；华为官网确认企业作者刘群的正式岗位。"
+    },
+    {
+      "id": "huawei-mt-eval-cuhk-kam-fai-wong",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "黄锦辉 · Kam-Fai Wong",
+        "港中文系统工程与工程管理系教授；正式论文合著。",
+        "http://www.se.cuhk.edu.hk/people/kfwong.html"
+      ],
+      "student": [
+        "Wai-Chung Kwan",
+        "港中文在读博士；研究期间在华为诺亚方舟实习（2023 年 6 月至 2024 年 2 月），同篇第一作者及实习脚注对应作者。",
+        "https://kwanwaichung.github.io/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港中文院系新闻具名记录 Wai-Chung Kwan 是黄锦辉指导的博士生；研究生本人履历亦列相同关系。",
+        "https://www.se.cuhk.edu.hk/news-events/news-archive/"
+      ],
+      "employee": [
+        "刘群 · Qun Liu",
+        "华为诺亚方舟实验室语音和语言计算首席科学家，华为官网核实其正式岗位；同篇署名华为。",
+        "https://dev3.noahlab.com.hk/Qun_Liu.html"
+      ],
+      "title": "MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for Large Language Models",
+      "short": "MT-Eval",
+      "date": "2024-11",
+      "venue": "EMNLP 2024",
+      "area": "语言模型评测",
+      "paper": "https://aclanthology.org/2024.emnlp-main.1124/",
+      "extra": [
+        [
+          "正式论文作者和华为实习脚注",
+          "https://aclanthology.org/2024.emnlp-main.1124.pdf"
+        ]
+      ],
+      "evidence": "正式论文首页的华为诺亚方舟实习脚注附在第一作者 Wai-Chung Kwan 名下，学术简历同时给出其博士阶段与实习期，写明构建了两项大模型评测基准。港中文院系具名确认博士导师黄锦辉；华为官网确认企业作者刘群的正式岗位。"
+    },
+    {
+      "id": "huawei-followbench-hkust-gz-wei-wang",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "王伟 · Wei Wang",
+        "港科大（广州）数据科学与分析教授，论文署港科大（广州）与港科大，为合著教师。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs#new_tab"
+      ],
+      "student": [
+        "姜宇心 · Yuxin Jiang",
+        "港科大博士研究期间以两校署名；本人履历记录 2023 年 9 月至 2024 年 2 月华为实习，并列 FollowBench 为该实习具体项目。",
+        "https://yjiangcm.github.io/internship/"
+      ],
+      "advising": [
+        "博士导师",
+        "本人学术主页明确说明博士导师为王伟；研究时港科大（广州）院系亦公开介绍过其博士研究。",
+        "https://yjiangcm.github.io/"
+      ],
+      "employee": [
+        "刘群 · Qun Liu",
+        "华为诺亚方舟实验室语音和语言计算首席科学家、该文华为署名作者。",
+        "https://dev3.noahlab.com.hk/Qun_Liu.html"
+      ],
+      "title": "FollowBench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models",
+      "short": "FollowBench",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "大模型指令遵循评测",
+      "paper": "https://aclanthology.org/2024.acl-long.257/",
+      "extra": [
+        [
+          "正式论文实习与作者信息",
+          "https://aclanthology.org/2024.acl-long.257.pdf"
+        ],
+        [
+          "港科大（广州）院系发布",
+          "https://dsa.hkust-gz.edu.cn/zh/blog/2024/06/02/towards-the-enhancement-of-large-language-models/"
+        ]
+      ],
+      "evidence": "第一作者姜宇心的履历在华为诺亚方舟实习条目下明确列其构建 FollowBench，同篇有实习脚注；其博士导师王伟列为共同作者，华为诺亚负责人刘群按企业署名。"
+    },
+    {
+      "id": "tencent-gsm-plus-hku-lingpeng-kong",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Lingpeng Kong",
+        "香港大学计算机科学系教师、正式论文共同作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/lpk"
+      ],
+      "student": [
+        "Xueliang Zhao",
+        "香港大学在读博士；论文首页实习脚注具名。",
+        "https://aclanthology.org/2024.acl-long.163.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "Xueliang Zhao 本人学术主页明确列 Lingpeng Kong 为其香港大学博士导师。",
+        "https://zhaoxlpku.github.io/"
+      ],
+      "employee": [
+        "Wei Bi",
+        "港科大（广州）公开讲者履历列腾讯 AI Lab 首席研究员，正式论文腾讯方通讯作者，共同作者 Qintong Li 的履历亦列其为腾讯实习导师。",
+        "https://dsa.hkust-gz.edu.cn/blog/2022/12/02/towards-diverse-informative-and-robust-natural-language-generation/"
+      ],
+      "title": "GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers",
+      "short": "GSM-Plus",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "大语言模型推理",
+      "paper": "https://aclanthology.org/2024.acl-long.163/",
+      "extra": [
+        [
+          "正式论文具名实习脚注与署名",
+          "https://aclanthology.org/2024.acl-long.163.pdf"
+        ],
+        [
+          "另一位实习作者的任职和导师履历",
+          "https://qtli.github.io/"
+        ]
+      ],
+      "evidence": "两位学生共同作者 Qintong Li 与 Xueliang Zhao 都标有腾讯实习脚注，均公开列出 Lingpeng Kong 为香港大学在读阶段导师；这里登记 Xueliang Zhao 链。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+    },
+    {
+      "id": "tencent-sego-hku-lingpeng-kong",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Lingpeng Kong",
+        "香港大学计算机科学系教师、正式论文共同作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/lpk"
+      ],
+      "student": [
+        "Xueliang Zhao",
+        "香港大学在读博士；论文首页实习脚注具名。",
+        "https://aclanthology.org/2024.acl-long.407.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "Xueliang Zhao 本人学术主页明确列 Lingpeng Kong 为其香港大学博士导师。",
+        "https://zhaoxlpku.github.io/"
+      ],
+      "employee": [
+        "黄昕庭 · Xinting Huang",
+        "2022 年 2 月起担任腾讯高级研究员；正式论文按腾讯署名。",
+        "https://timhuang1.github.io/"
+      ],
+      "title": "SEGO: Sequential Subgoal Optimization for Mathematical Problem-Solving",
+      "short": "SEGO",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "大语言模型推理",
+      "paper": "https://aclanthology.org/2024.acl-long.407/",
+      "extra": [
+        [
+          "正式论文具名实习脚注与署名",
+          "https://aclanthology.org/2024.acl-long.407.pdf"
+        ]
+      ],
+      "evidence": "论文首页具名第一作者 Xueliang Zhao 的腾讯 AI Lab 实习，博士就读及 2023–2024 腾讯实习均由其本人确认。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+    },
+    {
+      "id": "tencent-bba-hku-lingpeng-kong",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Lingpeng Kong",
+        "香港大学计算机科学系教师、正式论文共同作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/lpk"
+      ],
+      "student": [
+        "Xueliang Zhao",
+        "香港大学在读博士；论文首页实习脚注具名。",
+        "https://aclanthology.org/2024.findings-acl.433.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "Xueliang Zhao 本人学术主页明确列 Lingpeng Kong 为其香港大学博士导师。",
+        "https://zhaoxlpku.github.io/"
+      ],
+      "employee": [
+        "黄昕庭 · Xinting Huang",
+        "2022 年 2 月起担任腾讯高级研究员；正式论文按腾讯署名，本人作品栏列此论文。",
+        "https://timhuang1.github.io/"
+      ],
+      "title": "BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models",
+      "short": "BBA",
+      "date": "2024-08",
+      "venue": "Findings of ACL 2024",
+      "area": "大语言模型推理",
+      "paper": "https://aclanthology.org/2024.findings-acl.433/",
+      "extra": [
+        [
+          "正式论文具名实习脚注与署名",
+          "https://aclanthology.org/2024.findings-acl.433.pdf"
+        ]
+      ],
+      "evidence": "正式论文首页具名注明第一作者在腾讯 AI Lab 实习时完成正文研究。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+    },
+    {
+      "id": "ant-promptcot-hku-lingpeng-kong",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团研究团队",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Lingpeng Kong",
+        "香港大学计算机科学系教师、正式论文共同作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/lpk"
+      ],
+      "student": [
+        "Xueliang Zhao",
+        "香港大学在读博士；论文首页实习脚注具名。",
+        "https://aclanthology.org/2025.findings-acl.935.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "Xueliang Zhao 本人学术主页明确列 Lingpeng Kong 为其香港大学博士导师。",
+        "https://zhaoxlpku.github.io/"
+      ],
+      "employee": [
+        "关健 · Jian Guan",
+        "2024 年 7 月至 2026 年 1 月任蚂蚁集团研究员；学校博士毕业后加入，论文以蚂蚁集团署名。",
+        "https://jianguanthu.github.io/"
+      ],
+      "title": "PromptCoT: Synthesizing Olympiad-level Problems for Mathematical Reasoning in Large Language Models",
+      "short": "PromptCoT",
+      "date": "2025-07",
+      "venue": "Findings of ACL 2025",
+      "area": "大语言模型推理",
+      "paper": "https://aclanthology.org/2025.findings-acl.935/",
+      "extra": [
+        [
+          "正式论文具名实习脚注与署名",
+          "https://aclanthology.org/2025.findings-acl.935.pdf"
+        ]
+      ],
+      "evidence": "论文首页将第一作者 Xueliang Zhao 的工作具名标为蚂蚁集团实习期完成。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
+    },
+    {
+      "id": "meituan-needleinatable-ucas-lin",
+      "company": "美团",
+      "team": "大模型研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "林政 · Zheng Lin",
+        "中国科学院大学网络空间安全学院研究员。",
+        "https://people.ucas.ac.cn/~linzheng"
+      ],
+      "employee": [
+        "Jingang Wang",
+        "本人公开履历列 2022 年 12 月起任美团 LongCat 大模型团队研究员；此论文署美团。",
+        "https://bitwjg.github.io/"
+      ],
+      "student": [
+        "王岚睿 · Lanrui Wang",
+        "2022 年 9 月入读中国科学院大学硕士；出版稿首页明确写明工作在其国科大研究生期间完成，名字上同时带与美团联合开展的脚注。",
+        "https://wlr737.github.io/"
+      ],
+      "title": "NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables",
+      "short": "NeedleInATable",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "area": "语言模型与智能体",
+      "paper": "https://openreview.net/pdf/635fffd836636e1c56d6f86742d8b5a11c3e617d.pdf",
+      "evidence": "正式版首页注明王岚睿在读期间完成该工作，也将“Joint work with Meituan”的脚注明确标给王岚睿和美团合作人员。林政为通讯作者，Jingang Wang 同篇署美团。仅按论文具名项目协作认定。",
+      "advising": [
+        "校内硕士生导师",
+        "王岚睿公开主页具名注明，中国科学院大学硕士学业受林政指导。",
+        "https://wlr737.github.io/"
+      ],
+      "extra": [
+        [
+          "最早预印本",
+          "https://arxiv.org/abs/2504.06560"
+        ],
+        [
+          "王岚睿公开项目",
+          "https://github.com/wlr737/NeedleInATable"
+        ]
+      ],
+      "paperId": "arxiv:2504.06560"
     }
   ]
 };
