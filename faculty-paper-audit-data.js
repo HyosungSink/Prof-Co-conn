@@ -6496,15 +6496,15 @@ const facultyPaperAudits = {
         "title": "DevPiolt: Operation Recommendation for IoT Devices at Xiaomi Home",
         "url": "https://arxiv.org/abs/2511.14227",
         "year": 2025,
-        "outcome": "lead",
-        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+        "outcome": "no-evidence",
+        "note": "论文原文显示小米相关团队；小米不是本次调查的 14 家企业之一。未发现范围内企业署名。"
       },
       {
         "title": "Rethinking Positional Encoding and Interaction Granularity for CTR Prediction",
         "url": "https://arxiv.org/abs/2610.37140",
         "year": 2026,
         "outcome": "lead",
-        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+        "note": "预印本署名表确证江佳伟与腾讯等单位，第一作者 Xinxun Zhang 本人列具名导师和早期腾讯推荐实习；这篇 10 月预印本没有学生企业实研脚注，也没有材料将已核到的实习具体对应到本篇。"
       },
       {
         "title": "End-to-End Semantic ID Generation for Generative Advertisement Recommendation",
@@ -6543,17 +6543,17 @@ const facultyPaperAudits = {
       },
       {
         "title": "Guiding LLM-based Smart Contract Generation with Finite State Machine",
-        "url": "https://ijcai.org/proceedings/2025/0653.pdf",
+        "url": "https://www.ijcai.org/proceedings/2025/0653.pdf",
         "year": 2025,
         "outcome": "no-evidence",
-        "note": "IJCAI 正式版首作者与通讯作者均署武大，原文未指明范围内企业在这篇研究的参与者。另一篇腾讯研究的实习脚注不能移用于本篇。"
+        "note": "IJCAI 原文列计算机学院与国家网络安全学院两个武汉大学单位，无范围企业署名及实研。"
       },
       {
         "title": "MiCU: End-to-End Smart Home Command Understanding with Large Language Model",
         "url": "https://arxiv.org/pdf/2606.01099",
         "year": 2026,
-        "outcome": "lead",
-        "note": "KDD 论文首页列武汉大学 Haowei Han 与小米公司同篇；代码由小米仓库发布，缺学生具名校内指导与其企业研究角色。"
+        "outcome": "no-evidence",
+        "note": "论文原文显示小米相关团队；小米不是本次调查的 14 家企业之一。未发现范围内企业署名。"
       },
       {
         "title": "FuxiShuffle: An Adaptive and Resilient Shuffle Service for Distributed Data Processing on Alibaba Cloud",
@@ -6638,6 +6638,20 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "KDD 2026 论文列于 OceanBase 正式书目并有具名企业作者，尚无具名学生在该企业参与 HAL 的材料。"
+      },
+      {
+        "title": "TGraph: A Tensor-centric Graph Processing Framework",
+        "url": "https://doi.org/10.1145/3709731",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ACM 与华为作者项目页确认企业参与。武大实验室列张永亮的导师是同篇祝园园；尚无具名材料证实学生同篇在华为实研，也不把江佳伟合著列为指导。"
+      },
+      {
+        "title": "Recursive Short-to-Long Generalization for Multi-hop Reasoning",
+        "url": "https://doi.org/10.1145/3805712.3809697",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "SIGIR 正式版作者单位为武汉大学、武汉科技大学、中关村学院等校研机构，未见范围企业或学生在企业参与。"
       }
     ],
     "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
@@ -18378,7 +18392,10 @@ const facultyPaperAudits = {
     "sources": [
       "https://jszy.whu.edu.cn/qiantieyun/en/index/236186/list/index.htm",
       "https://liyongqi2002.github.io/",
-      "https://yongbin-li.github.io/"
+      "https://yongbin-li.github.io/",
+      "https://nlpgm.github.io/people.html",
+      "https://h20zhang.github.io/projects/2_tqex/",
+      "https://arxiv.org/html/2610.37140v1"
     ],
     "papers": [
       {
@@ -18386,16 +18403,339 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.acl-long.191.pdf",
         "year": 2026,
         "outcome": "confirmed",
-        "note": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。"
+        "note": "ACL 正式版首面与初稿均具名标识李永奇在通义实习期间完成本篇；武大官网培养名单与学生履历确认钱铁云指导，李永彬同篇署通义。"
       },
       {
         "title": "Understanding Generalization in Role-Playing Models via Information Theory",
         "url": "https://aclanthology.org/2026.findings-acl.87.pdf",
         "year": 2026,
         "outcome": "confirmed",
-        "note": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。"
+        "note": "ACL Findings 正式版和初稿均具名明确李永奇在通义实习期间完成本篇；学院名单明确学籍和导师，企业同行及通义项目库对应。"
+      },
+      {
+        "title": "Recursive Short-to-Long Generalization for Multi-hop Reasoning",
+        "url": "https://doi.org/10.1145/3805712.3809697",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "SIGIR 原文列武汉大学、武汉科技大学及中关村学院；研究生学籍可核，但未见范围企业作者或企业实研。"
+      },
+      {
+        "title": "ContiGuard: A Framework for Continual Toxicity Detection Against Evolving Evasive Perturbations",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/08/wKgCBWoZHeKAUIApAF8FVlsjBio381.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "正式版作者单位为武大、齐鲁工业大学及中关村学院等研究单位，没有具名企业参与。"
+      },
+      {
+        "title": "Tracing Belief-Driven Thoughts with Theory-of-Mind Agents: An Opinion Analysis Framework",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/08/wKgCBWoZHgOAEYV5ABXmqDoIM4o221.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "正式版列武汉大学及中关村学院，未见范围内企业作者和学生企业贡献。"
+      },
+      {
+        "title": "Privacy-protected Retrieval-Augmented Generation for Knowledge Graph Question Answering",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/06/wKgCBWnCHsKAUQl_AAUz9tDNKHU253.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者均列武汉大学；没有范围企业署名或具名实研脚注。"
+      },
+      {
+        "title": "Format as a Prior: Quantifying and Analyzing Bias in LLMs for Heterogeneous Data",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/06/wKgCBWnCHxiAeZEsAAPjFYWeSYs209.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者均列武汉大学，未见符合口径的企业贡献。"
+      },
+      {
+        "title": "How Robust are Large Language Models Against Word-Level Spurious Correlations? A Causal Discovery Approach",
+        "url": "https://doi.org/10.1007/s10994-026-07011-3",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer 首面作者署武汉大学与该校重点实验室，未见企业身份及学生在企业参与。"
+      },
+      {
+        "title": "Developing Continuous Toxicity Detection Against Increasing Types of Perturbed Toxic Text",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/02/wKgCBWkv0T6AfFkZAEGx8CAHIWU908.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Elsevier 原文列武汉大学和中关村学院，已知合著者毕业去向不能作为本篇的企业实研证据。"
+      },
+      {
+        "title": "Debiasing LLMs in Knowledge-Intensive Tasks via Information-Gain Guided Front-Door Adjustment",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/08/wKgCBWoZH4uADvaXABBzRmxuIZw944.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "DASFAA 正式版作者署武汉大学，没有具名企业参与。"
+      },
+      {
+        "title": "Local and Global Exploration for Next New POI Recommendation",
+        "url": "https://doi.org/10.1145/3807950",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM 原文作者署武汉科技大学、海军工程大学和武汉大学，未见范围企业或学生企业实研。"
+      },
+      {
+        "title": "Reasoning based on Symbolic and Parametric Knowledge Bases: A Survey",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/08/wKgCBWodMXSAPxLtALvWVqNgm_Y523.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Elsevier 原文作者均署武汉大学，仅为公开研究综述，未见本篇企业实研身份。"
+      },
+      {
+        "title": "Can a Small Model Learn to Look Before It Leaps? Dynamic Learning and Proactive Correction for Hallucination Detection",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/0E/wKgCBWqpBqCAXZEpACLSiFZXFrw825.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ECML/PKDD 原文列武汉大学和中关村学院；合著者毕业去向不据以认定本篇企业研究。"
+      },
+      {
+        "title": "AdaCultureSafe: Adaptive Cultural Safety Grounded by Cultural Knowledge in Large Language Models",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/10/wKgCBWrho72AFOVyAE8Kmn_B6qw997.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "EMNLP Findings 原文列武汉大学、清华大学、江西财经大学，未见范围企业作者。"
+      },
+      {
+        "title": "Format as Nuisance: Intervention-Inspired Cross-Format Distillation for Knowledge Conflicts",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/10/wKgCBWrho5uAN_s8AA7rIKHL3Bg279.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "EMNLP 原文列武汉大学、中山大学、中国科大、清华大学，未见具名企业作者或学生实研。"
+      },
+      {
+        "title": "Aligning VLM Assistants with Personalized Situated Cognition",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWiiww-AWf8UABuf6Cn959A545.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACL 原文全篇未署范围企业；李永奇同阶段另有通义实习项目，但这篇没有对应的实研声明或企业员工署名。"
+      },
+      {
+        "title": "CAVGAN: Unifying Jailbreak and Defense of LLMs via Generative Adversarial Attacks on their Internal Representations",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWiiw-KAaoJCAAvdPDzaHwA822.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式版作者列武汉大学和中关村学院。文内引用 DeepSeek 不代表企业署名或参与本篇。"
+      },
+      {
+        "title": "Generative Meta-Learning for Zero-Shot Relation Triplet Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWiixLiAS7FJABJWCGZdWbI027.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "SIGIR 原文列华中农业大学、武汉大学及中南大学等院校，未见范围企业参与。"
+      },
+      {
+        "title": "Enhancing Relation Extraction via Supervised Rationale Verification and Feedback",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/F6/wKgCBWf8s1KAKI07AAaHVbNOiCI990.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "AAAI 原文列武汉大学、其重点实验室及核电运行研究机构，未见范围企业。"
+      },
+      {
+        "title": "Strong Empowered and Aligned Weak Mastered Annotation for Weak-to-Strong Generalization",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/F6/wKgCBWf8s5iAa29HAAk8Okw6cuY922.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版列武汉大学及其重点实验室，未见符合的企业作者。"
+      },
+      {
+        "title": "TDT: Tensor Based Directed Truss Decomposition",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWi0N9mAa7_YABOXVqQpTII609.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IEEE 首面列武汉大学和香港中文大学，未见范围内企业署名及学生企业实研。"
+      },
+      {
+        "title": "Efficient Frequency-Aware k-Core Query on Temporal Graphs",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWi0N7KAS6j2ABysscgDCVM281.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版列武汉大学、华南师范大学和香港中文大学。"
+      },
+      {
+        "title": "Hounding Data Diversity: Towards Participant Selection in Vertical Federated Learning",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWi0OBSAPEDLAAv1jdsMSd8223.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IEEE 正式列武汉大学与 OceanBase／蚂蚁集团具名工程师；尚无证据证明哪位署名学生参与企业的本篇研究并由钱铁云指导。"
+      },
+      {
+        "title": "TGraph: A Tensor-centric Graph Processing Framework",
+        "url": "https://doi.org/10.1145/3709731",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ACM 原文及华为作者项目页确认企业参与；武汉大学实验室列张永亮的具名导师为共同通讯作者祝园园，并未显示钱铁云的指导关系或张永亮在华为实研。"
+      },
+      {
+        "title": "On More Efficiently and Versatilely Querying Historical k-Cores",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWiixv-AaSe_ABNpVOdHbyI267.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "PVLDB 作者署武汉大学、华南师范大学和香港中文大学，未见范围企业署名。"
+      },
+      {
+        "title": "PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated Learning",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWi0OreAPSwKACXBwYxUMYY948.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "PVLDB 版本列武汉大学、北京大学和上海交通大学有关单位，未出现范围企业作者。"
+      },
+      {
+        "title": "A Survey on Training-free Alignment of Large Language Models",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/01/02/wKgCBWkvzzKANkUwABHISmHzSds565.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "观察正式全文的作者单位、致谢与官方学生名单，未见范围企业作者参与本篇。论文发表于作者之一毕业赴腾讯之后也不改变研究时署名。"
+      },
+      {
+        "title": "City Matters! A Dual-Target Cross-City Sequential POI Recommendation Model",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/ED/wKgCBWbG75uARDpEAOLOGYzrDUI377.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACM 原文列武汉大学；致谢列联建信用科技实验室，但没有具名范围企业员工或学生同篇企业参与。"
+      },
+      {
+        "title": "An Ensemble-of-Experts Framework for Rehearsal-free Continual Relation Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/ED/wKgCBWbG7-KAdE2GABCuC8rIJ6g410.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACL Findings 首面列武汉大学及该校实验室，无范围企业参与。同篇第一作者当时尚未毕业赴腾讯。"
+      },
+      {
+        "title": "Episodic Memory Retrieval from LLMs: A Neuromorphic Mechanism to Generate Commonsense Counterfactuals for Relation Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/ED/wKgCBWbG8B-AWAOLAAbHcZTbIrk731.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACL Findings 原文具名作者均为武汉大学，未见符合范围的企业参与。"
+      },
+      {
+        "title": "Implanting LLM’s Knowledge via Reading Comprehension Tree for Toxicity Detection",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/ED/wKgCBWbG8DuABfqzACFttqjhOuk579.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACL Findings 仅两位武大作者，未见范围内企业参与。"
+      },
+      {
+        "title": "Evolution Forest Index: Towards Optimal Temporal k-Core Component Search via Time-Topology Isomorphic Computation",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWii0sOABvO9ACVCbAphB9c635.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "PVLDB 正式版列武汉大学、华南师范大学和香港中文大学，未见范围企业。"
+      },
+      {
+        "title": "Prompting Large Language Models for Counterfactual Generation: An Empirical Study",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/E7/wKgCBWZVSfiAPfv1ABWMG1w5vf4005.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "COLING 正式版作者单位为武汉大学和该校实验室，未见范围企业作者。"
+      },
+      {
+        "title": "Depression Detection in Clinical Interviews with LLM-Empowered Structural Element Graph",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/F1/wKgCBWc66FaAN9gbAA1rYrv0dhM146.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "NAACL 原文列清华大学、电子科技大学、武汉大学。未见具名企业实研或范围企业。"
+      },
+      {
+        "title": "Adaption-of-Thought: Learning Question Difficulty Improves Large Language Models for Reasoning",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/F1/wKgCBWc65-uAPNJSACJVar5j0NY804.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "EMNLP 原文的四位作者全列武汉大学，无范围内企业署名。"
+      },
+      {
+        "title": "Towards Model Robustness: Generating Contextual Counterfactuals for Entities in Relation Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/D9/wKgCBWS2LdOABcvMABAir0QkHFY331.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 首面四位署武汉大学；官网显示作者毕业后的企业去向，未见本研究期的对应实研。"
+      },
+      {
+        "title": "Mimicking the Thinking Process for Emotion Recognition in Conversation with Prompts and Paraphrasing",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/DB/wKgCBWTayESAO6tnAAVXPL6s_bk599.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IJCAI 原文作者署武汉大学及清华大学；作者张婷毕业后赴字节不证明参与本篇企业研究。"
+      },
+      {
+        "title": "On the Strength of Sequence Labeling and Generative Models for Aspect Sentiment Triplet Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/D9/wKgCBWS2L5CAf-q8ABwSCFzDTk0619.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式版两人均来自武汉大学，未见企业参与；作者毕业后赴腾讯不计。"
+      },
+      {
+        "title": "Attribute Graph Neural Networks for Strict Cold Start Recommendation (Extended Abstract)",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/DB/wKgCBWTMcu2ALZ0BAAykPJMQRM0637.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 正式卷中为扩展摘要，作者和机构未提供范围企业三方证据。"
+      },
+      {
+        "title": "低资源方面级情感分析研究综述",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/D9/wKgCBWS2LoGABwh4ABRYfxuV_QM943.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "正式中文版首页列署名及单位，无范围企业署名；学生后来任职不能追溯为本综述的当时参与。"
+      },
+      {
+        "title": "Adversarial Multi-Teacher Distillation for Semi-Supervised Relation Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/D9/wKgCBWS2f5uAZsTBAByDIywE4nM046.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版可追溯至 2023 首次在线；首页列武汉大学部门，未见范围企业作者。"
+      },
+      {
+        "title": "Pre-Training Across Different Cities for Next POI Recommendation",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/DB/wKgCBWTHnJmAL5LPABIy_E1615c845.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 正式版列武汉大学、港理工及华南师大；资助不构成具名企业参与。"
+      },
+      {
+        "title": "Towards more effective encoders in pre-training for sequential recommendation",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/DB/wKgCBWTayMKAX4kDABrgziSqgqs828.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "Springer 原文全部作者归属武汉大学，未见范围企业任职或同项学生实研。"
+      },
+      {
+        "title": "Cold-Start Multi-hop Reasoning by Hierarchical Guidance and Self-verification",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/DD/wKgCBWUL9T6Abg7GABKqUX3JMq8092.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "Springer 正式卷作者均为武汉大学；信用科技实验室资助未对应具名范围企业作者及学生贡献。"
+      },
+      {
+        "title": "Generating Commonsense Counterfactuals for Stable Relation Extraction",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/E1/wKgCBWV6mDKAJactAAlZ6v-yFCA104.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版列武汉大学及其重点实验室，未见范围企业参与。"
+      },
+      {
+        "title": "Type-Aware Decomposed Framework for Few-Shot Named Entity Recognition",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/E1/wKgCBWV6mX6AOdrmAA2SK959f4o100.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "EMNLP Findings 全部作者列武汉大学，研究先于李永奇的通义实习。"
+      },
+      {
+        "title": "Dynamic Open-book Prompt for Conversational Recommender System",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/E1/wKgCBWV6mgCABnBFAAtjbHa3Usk162.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "正式版三位署武汉大学，使用公开数据及模型不构成企业参与。"
+      },
+      {
+        "title": "One General Teacher for Multi-Data Multi-Task: A New Knowledge Distillation Framework for Discourse Relation Analysis",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/DF/wKgCBWVAeUmABoNeABOZWIsgtac091.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 首面列武汉大学及美国伊利诺伊大学，未见范围企业作者及具名学生的企业实研。"
       }
-    ]
+    ],
+    "note": "逐篇核实了武汉大学官方网站可公开下载且在调查期内的论文。两篇 IEEE 论文卷期虽为 2023，但原文标注首次公开在 2022，因此不计入本期。学校书目为选列，未将当前覆盖等同于完整书目。"
   },
   "8CEHlu4AAAAJ": {
     "from": "2023-01-01",
@@ -39008,5 +39348,181 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已将港科大（广州）在校履历、作者完整出版清单、实名 ORCID、DBLP、Crossref、合著者书目及公开正文交叉核到 2026-11-12。按真实发表年处理，有日期差异逐篇标明；预印本与同一正式成果归并，独立的技术论文及有 DOI 的会议同行评议海报单列。核除 DBLP 混入的交通控制同名作者（不同 ORCID 0009-0002-4371-1059）。共 32 篇，未找到范围内企业的三方关系；其中一篇的加拿大企业具名作者不在范围。"
+  },
+  "Kh7TbD0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~0064420",
+      "https://cnic.cas.cn/sourcedb_cnic_cas/zw/zjrc/dsdw/202107/t20210702_6125761.html",
+      "https://dblp.org/pid/83/5685.html",
+      "https://orcid.org/0000-0003-3812-5215",
+      "https://cnic.cas.cn/gzdt/202411/t20241120_7442650.html",
+      "https://ppopp26.sigplan.org/track/PPoPP-2026-papers",
+      "https://cnic.cas.cn/gzdt/202603/t20260312_8158762.html",
+      "https://cnic.cas.cn/gzdt/202609/t20260904_8278697.html",
+      "https://sc26.conference-program.com/presenter/?uid=372993",
+      "https://opaj.napstic.cn/periodical/sjyjsjfzqy?activeIssue=006&activeYear=2025&prePage=1",
+      "https://pengd.github.io/",
+      "https://cnic.cas.cn/gzdt/202607/t20260717_8251582.html",
+      "https://api.crossref.org/works/10.1109/ICPADS60453.2023.00042",
+      "https://cnic.cas.cn/gzdt/202601/t20260109_8101420.html",
+      "https://arxiv.org/pdf/2606.08532",
+      "https://ksem2026.rosc.org.cn/program",
+      "https://www.cloud-conf.net/datasec/2026/hpsc/program.html",
+      "https://api.crossref.org/works/10.1109/hpsc69479.2026.00020",
+      "https://api.crossref.org/works/10.1145/3832810.3832893"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "A Scalable Hybrid Total FETI Method for Massively Parallel FEM Simulations",
+        "url": "https://doi.org/10.1145/3572848.3577517",
+        "outcome": "no-evidence",
+        "note": "按 PPoPP 正式 2023 年计，中心在 2022 年仅报道已录用。会方逐名列杭州电子科技大学、网络信息中心和北邮；原子能院提供实验模型，不构成范围企业署名。"
+      },
+      {
+        "year": 2023,
+        "title": "Large-Scale Simulation of Structural Dynamics Computing on GPU Clusters",
+        "url": "https://doi.org/10.1145/3581784.3607082",
+        "outcome": "no-evidence",
+        "note": "SC 正式作者机构含网络信息中心、国科大、杭电、北邮与原子能院；采用超算 GPU，不构成范围内企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "An Auto-Parallel Method for Deep Learning Models Based on Genetic Algorithm",
+        "url": "https://doi.org/10.1109/ICPADS60453.2023.00042",
+        "outcome": "lead",
+        "note": "IEEE 正式稿登记 Mingyao Zhou 署华为、周纯葆署网络信息中心。杭电作者与中科院另一位合著者的公开信息未明确给出任一在读者在华为开展本研究或由周纯葆指导；保留线索。"
+      },
+      {
+        "year": 2024,
+        "title": "POSTER: ParGNN: Efficient Training for Large-Scale Graph Neural Network on GPU Clusters",
+        "url": "https://doi.org/10.1145/3627535.3638488",
+        "outcome": "no-evidence",
+        "note": "PPoPP 会议正式登记的短文。作者中有国网智能电网研究院，超出本次 14 家企业；该版本作者单位与次年 DAC 论文不同，保留出版记录。"
+      },
+      {
+        "year": 2025,
+        "title": "ParGNN: A Scalable Graph Neural Network Training Framework on multi-GPUs",
+        "url": "https://doi.org/10.1109/DAC63849.2025.11133102",
+        "outcome": "no-evidence",
+        "note": "DAC 正式论文署网络信息中心与北邮。中心确认顾峻瑜和李顺德为该中心博士生，另有中心研究人员共同一作；未见范围企业。与 PPoPP 2024 海报同项目，但有独立会刊、作者及机构变化，台账分别审读。"
+      },
+      {
+        "year": 2025,
+        "title": "Acc-SpMM: Accelerating General-purpose Sparse Matrix-Matrix Multiplication with GPU Tensor Cores",
+        "url": "https://doi.org/10.1145/3710848.3710888",
+        "outcome": "no-evidence",
+        "note": "PPoPP 正式论文合并 arXiv:2501.09251。中心官方明确首作者赵海杉当时硕士、由周纯葆指导；正式作者全为高校或网络信息中心。在英伟达 GPU 上做性能实验不形成企业共同作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Llama2-70b模型的微调技术及其在材料领域的应用研究",
+        "url": "https://opaj.napstic.cn/periodicalArticle/0120250300842751",
+        "outcome": "no-evidence",
+        "note": "期刊全文作者单位为网络信息中心、国科大与物理所。唐雷和周纯葆的指导可由国科大主页对照；使用 Meta 开源模型未见 Meta 或范围内其他企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "基于检查点的大模型弹性训练方法研究",
+        "url": "https://opaj.napstic.cn/periodicalArticle/0120250300842733",
+        "outcome": "no-evidence",
+        "note": "期刊正式全文与国科大导师名录可核王子健在读及周纯葆指导。国网资助不在范围，Llama 和 Megatron-DeepSpeed 是技术依赖，未见范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "基于深度学习的Taylor杆碰撞数值模拟算法",
+        "url": "https://opaj.napstic.cn/periodicalArticle/0120260100581190",
+        "outcome": "no-evidence",
+        "note": "期刊 2025 年第 6 期登记 101–110 页；作者单位为中科院网络信息中心及国科大，未见范围企业作者。平台 2026 年入库编号不改正式卷期年份。"
+      },
+      {
+        "year": 2025,
+        "title": "面向国产超算的深度学习框架算子的移植与适配",
+        "url": "https://opaj.napstic.cn/periodicalArticle/0120260100579520",
+        "outcome": "no-evidence",
+        "note": "正式期刊第 6 期第 136–148 页，作者来自中国矿业大学（北京）与中科院网络信息中心。主题是国产超算移植，未见范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform",
+        "url": "https://doi.org/10.1145/3774934.3786460",
+        "outcome": "lead",
+        "note": "ACM 版和会方明确 Peng Di 署蚂蚁与 UNSW；中科院报道共同一作高宏宇为中心博士，周纯葆的国科大导师名单确认另一共同作者唐雷为其硕士。尚缺任一由周指导的学生在蚂蚁开展本篇的明确材料；只保留线索。"
+      },
+      {
+        "year": 2026,
+        "title": "Acc-SpMV: Accelerating General-purpose Sparse Matrix-Vector Multiplication with GPU CUDA Cores",
+        "url": "https://doi.org/10.1145/3770743.3804276",
+        "outcome": "no-evidence",
+        "note": "DAC 正式论文署中科院网络信息中心及国科大；中心明确唐雷为在读硕士及周纯葆是通讯，导师主页证实指导。CUDA 作为所用平台，未见范围企业作者。本篇矩阵向量乘与 Acc-SpMM 矩阵乘分别记。"
+      },
+      {
+        "year": 2026,
+        "title": "DistSpMM: Accelerating Sparse Matrix Dense Matrix Multiplication on GPUs",
+        "url": "https://doi.org/10.1145/3841478",
+        "outcome": "no-evidence",
+        "note": "ACM TACO 正式登记含网络信息中心、国科大、社科院大学及伊利诺伊大学；中心确认顾峻瑜当时为中心博士，未见范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Full-Core Fluid-Structure-Interaction Simulation of Nuclear Reactor on CPU+GPU Hybrid Clusters",
+        "url": "https://doi.org/10.1145/3806645.3807600",
+        "outcome": "no-evidence",
+        "note": "HPDC 正式全文列网络信息中心与国科大；英伟达 GPU 是试验平台，未见英伟达或范围内其他企业作者。与 11 月另场正式会期超截止的 SC 稿区分。"
+      },
+      {
+        "year": 2026,
+        "title": "The numerical reactor system for China’s new-generation exascale supercomputer",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13069404/",
+        "outcome": "no-evidence",
+        "note": "The Innovation 期刊 2026 年 1 月在线首发与 4 月同卷合一，署网络信息中心、国科大、原子能院。期刊讨论国产超算，未见范围企业合著。"
+      },
+      {
+        "year": 2026,
+        "title": "DN-Hypo-Pipeline: An AI-Driven Workflow for Generating Hypotheses using Large Language Models and Scientific Explanations",
+        "url": "https://arxiv.org/abs/2606.08532",
+        "outcome": "no-evidence",
+        "note": "6 月初稿与 7 月 v5 同条记录，公开全文署网络信息中心、海军航空大学与斯特拉斯堡大学，无范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Communication-Efficient Training of Large Language Models with 1-Bit Allreduce for ZeRO",
+        "url": "https://doi.org/10.1109/hpsc69479.2026.00020",
+        "outcome": "no-evidence",
+        "note": "IEEE HPSC 会方与出版社原始登记核对，谢一浩署上海比亚迪；其余作者署中科院网络信息中心，比亚迪不在本次企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Vadar: Runtime Performance Variance Detection and Diagnosis for Parallel Applications",
+        "url": "https://doi.org/10.1145/3832810.3832893",
+        "outcome": "no-evidence",
+        "note": "ACM 版权登记逐人列网络信息中心与国科大；未见企业署名，论文正式刊行日期为 2026 年 9 月。"
+      },
+      {
+        "year": 2025,
+        "title": "面向国产超算系统的大模型训练优化方法",
+        "url": "https://opaj.napstic.cn/periodicalArticle/0120250500343926",
+        "outcome": "no-evidence",
+        "note": "国家科技期刊平台第 2 期正式记录及作者机构均为中科院网络信息中心；产品与系统对比未提供范围内企业共同作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Hierarchical Reinforcement Learning Agent for Distributed Event-Driven Multi-asset LOBs Simulation",
+        "url": "https://doi.org/10.1007/978-981-92-2852-2_41",
+        "outcome": "no-evidence",
+        "note": "Springer 登记 7 月发布，与 KSEM 会方项目对账。这篇研究分层强化学习代理，另立 DOI，有别于专注事件模拟的 DESMA。出版社公开题录未列作者单位；暂未见企业角色，正文待补。"
+      },
+      {
+        "year": 2026,
+        "title": "DESMA: A Distributed Discrete-Event Simulator for Synchronous Multi-asset Limit Order Books",
+        "url": "https://doi.org/10.1007/978-981-92-2859-1_43",
+        "outcome": "no-evidence",
+        "note": "KSEM 2026 正式会议和 Springer 书目核明逐名作者。本篇是限价簿事件模拟器，有别于同作者另一篇所研究的强化学习代理；题录未列单位，未见企业角色，正文待补。"
+      }
+    ],
+    "note": "已逐篇核对中心代表作、会议版权记录和中文期刊，另对三篇近似标题的数值模拟分别比较。已知 SC 2026 论文发布会期晚于 11 月 12 日，目前未见此前正式全文。仍继续查中文题录及两篇企业署名线索。"
   }
 };
