@@ -10577,7 +10577,7 @@ const facultyPaperAudits = {
         "title": "HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention",
         "url": "https://arxiv.org/abs/2603.28458",
         "outcome": "lead",
-        "note": "北大实验室公开名单列许亚非为张牧涵的博士生。原文另有小红书合作者，但未发现许亚非本人在小红书参与本篇研发的材料；另一本科身份并非当期北大在读。"
+        "note": "北大实验室公开名单列Yufei Xu为张牧涵的博士生。原文另有小红书合作者，但未发现Yufei Xu本人在小红书参与本篇研发的材料；另一本科身份并非当期北大在读。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -10775,9 +10775,73 @@ const facultyPaperAudits = {
         "title": "FOMI: A Force-Feedback Manipulation Interface for Teaching Contact-Rich Manipulation",
         "url": "https://arxiv.org/abs/2610.19839",
         "outcome": "lead",
-        "note": "沈奕舒本人的蚂蚁实习早于港科大 2026 年秋入学，未找到与本篇对应的同期实习材料。另一参与者罗一鸣为港大在读，称徐英浩为来访期间的指导者或企业导师，未以其代替校内导师。"
+        "note": "Yishu Shen 在准备入读港科大时已经公开蚂蚁实习经历，未找到入学后与本篇对应的同期实习材料。另一参与者 Yiming Luo为港大在读，称徐英浩为来访期间的指导者或企业导师，未以其代替校内导师。"
       }
     ],
     "note": "核对了公开论文、团队名录和研究期间的身份；尚未穷尽该教师的论文。"
+  },
+  "lxiqnI0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://chaofengc.github.io/publications.html",
+      "https://chaofengc.github.io/data/publications.bib",
+      "https://chaofengc.github.io/data/members.json",
+      "https://dblp.org/pid/198/2537.html",
+      "https://mc-lan.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "UniFlow-RS: Unified Generative Prediction for Heterogeneous Remote-Sensing Tasks",
+        "url": "https://arxiv.org/abs/2611.14281",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "逐名对照公开论文首版：课题组名录明确列何建龙为博士生、陈超锋为同篇通讯；五位作者分别署武大或西电，未见范围内企业的同篇作者。"
+      },
+      {
+        "title": "GeoMAR: Unleashing Geometrically Aligned Features for Masked Autoregressive Blind Face Restoration",
+        "url": "https://arxiv.org/abs/2608.03923",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "逐名对照 ACM MM 版本首页，作者只署中山大学和武汉大学，未见范围内企业的同篇作者。"
+      },
+      {
+        "title": "Decoupled Similarity for Task-Aware Token Pruning in Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2604.11240",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "逐名核对 ACM MM 版本首页：署名单位是武大、埃克塞特大学、中科院和西电，未见范围内企业的同篇作者。"
+      },
+      {
+        "title": "ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program",
+        "url": "https://arxiv.org/abs/2607.19947",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者分别署上海大学和武大数智院，ACM MM 正式会议日程与原文一致；未见范围内企业的同篇作者。"
+      },
+      {
+        "title": "SemMorph3D: Unsupervised Semantic-Aware 3D Morphing via Mesh-Guided Gaussians",
+        "url": "https://arxiv.org/abs/2510.02034",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "此文原题 GaussianMorphing；最新版单列腾讯作者。第一作者署上海大学，武大课题组公开名单未列该生，待核同一篇项目中的具名校方指导及学生在腾讯的具体研究。"
+      },
+      {
+        "title": "Text4Seg++: Advancing Image Segmentation via Generative Language Modeling",
+        "url": "https://arxiv.org/abs/2509.06321",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "同篇有字节员工。第一作者兰孟城履历写明当时在新加坡南洋理工读博，校内外指导者为 Yiping Ke、Wayne Zhang；亦具名列字节项目指导者宋白和 Zilong Huang。没有确认武大作者陈超锋为该案例校内导师。"
+      },
+      {
+        "title": "Text4Seg: Reimagining Image Segmentation as Text Generation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/04d8c25cbf0d5e1b70d64e672ac92637-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICLR 正式首页陈超锋还在南洋理工，另一共同署名单位是商汤，调查范围之外。"
+      }
+    ],
+    "note": "已逐篇对照个人主页公开题录中的若干成果、原文和课题组名单。个人书目与外部书目覆盖不同，仍在核对其余公开论文。"
   }
 };
