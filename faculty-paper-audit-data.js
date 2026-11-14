@@ -39777,7 +39777,10 @@ const facultyPaperAudits = {
       "https://ailab.hkust-gz.edu.cn/group.html",
       "https://chaowang-ustc.github.io/",
       "https://faculty.ustc.edu.cn/zhangyanyong/zh_CN/zdylm/1017617/list/index.htm",
-      "https://zhangsha1024.github.io/"
+      "https://zhangsha1024.github.io/",
+      "https://xinranz-ustc.github.io/",
+      "https://hechenming.github.io/publications/",
+      "https://wuyangz-ustc.github.io/"
     ],
     "papers": [
       {
@@ -40021,9 +40024,9 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "Perception Helps Planning: Facilitating Multi-Stage Lane-Level Integration via Double-Edge Structures",
-        "url": "https://arxiv.org/abs/2407.11644",
+        "url": "https://doi.org/10.1109/LRA.2024.3518075",
         "outcome": "no-evidence",
-        "note": "作者公开稿列全体中科大。张莎本人列论文 IEEE RA-L 已正式发表；未见该论文具名企业员工。与传感器融合方案 LFP 按两篇。"
+        "note": "作者公开稿列全体中科大。张莎本人列论文 IEEE RA-L 已正式发表；未见该论文具名企业员工。与传感器融合方案 LFP 按两篇。 2407.11644 同文，首次公开在 2024，卷期 2025 年 3 月。"
       },
       {
         "year": 2024,
@@ -40051,7 +40054,224 @@ const facultyPaperAudits = {
         "title": "CluB: Cluster Meets BEV for LiDAR-Based 3D Object Detection",
         "url": "https://doi.org/10.52202/075280-1758",
         "outcome": "no-evidence",
-        "note": "NeurIPS 2023 正式 PDF 头页只列中科大、上海人工智能实验室与阿德莱德大学。校方目录页把论文汇编年写作 2024，会议原文为 2023。"
+        "note": "NeurIPS 2023 正式 PDF 头页只列中科大、上海人工智能实验室与阿德莱德大学。校方目录页把论文汇编年写作 2024，会议原文为 2023。 该同篇脚注明确 Yingjie Wang 在上海人工智能实验室实习完成；该机构不在本次范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Breaking Model Lock-in: Cost-Efficient Zero-Shot LLM Routing via a Universal Latent Space",
+        "url": "https://doi.org/10.1609/aaai.v40i43.40970",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式与 2601.06220 属同篇。具名企业员工署科大讯飞；超出调查范围。"
+      },
+      {
+        "year": 2026,
+        "title": "DepCap: Adaptive Block-Wise Parallel Decoding for Efficient Diffusion LM Inference",
+        "url": "https://arxiv.org/abs/2604.15750",
+        "outcome": "no-evidence",
+        "note": "arXiv 正文作者为中科大及合肥科研机构，个别作者同时有华东师大学生邮箱，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "DynaHMRC: Decentralized Heterogeneous Multi-Robot Collaboration for Dynamic Tasks with Large Language Models",
+        "url": "https://doi.org/10.1109/TRO.2026.3740789",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式题录与 2606.14882 同篇；共同一作、项目负责人及其余作者仅署中科大和澳门大学。"
+      },
+      {
+        "year": 2026,
+        "title": "FAVLA: A Force-Adaptive Fast-Slow VLA Model for Contact-Rich Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2602.23648",
+        "outcome": "no-evidence",
+        "note": "第一版在截点前已公开，作者书目列 NeurIPS。原文署中科大、西交、中南大学；无范围公司正式人员。"
+      },
+      {
+        "year": 2026,
+        "title": "FeelWave: Enabling Emotion-Aware Voice Interaction through Noise-Robust mmWave Emotion Sensing",
+        "url": "https://doi.org/10.1145/3772318.3790631",
+        "outcome": "no-evidence",
+        "note": "CHI 原文首页仅中科大和独立研究者 Xiaoran Fan。列举理想及苹果的产品不等同于参与研究。"
+      },
+      {
+        "year": 2026,
+        "title": "FlowGait: Enabling Robust Long-Term Gait Recognition Across Real-World Covariates with mmWave Radar",
+        "url": "https://doi.org/10.1145/3772318.3790623",
+        "outcome": "no-evidence",
+        "note": "CHI 正式题录与作者全文相符，只有中科大与独立研究者；与 2024 RDGait 的方法不同。"
+      },
+      {
+        "year": 2026,
+        "title": "ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation",
+        "url": "https://arxiv.org/abs/2611.03294",
+        "outcome": "no-evidence",
+        "note": "第一版 2026-11-02 公开、项目页列 NeurIPS。正文署中科大、西交、苏州实验室、Synkrotron；该企业超出调查范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Needle in a Haystack: Tracking UAVs from Massive Noise in Real-World 5G-A Base Station Data",
+        "url": "https://doi.org/10.1145/3745756.3809186",
+        "outcome": "no-evidence",
+        "note": "MobiSys 正式题录与 2603.29187 相符，列中科大、合肥科研院及独立研究者 Xiaoran Fan；商业基站是测试对象。"
+      },
+      {
+        "year": 2026,
+        "title": "One Readout, Many Repairs: Diffusion-Guided Hierarchical Search for Tool-Agent Repair",
+        "url": "https://arxiv.org/abs/2609.34879",
+        "outcome": "no-evidence",
+        "note": "作者首页列中科大单位，张午阳与张燕咏共同署名。没有该项范围企业研究材料。"
+      },
+      {
+        "year": 2026,
+        "title": "TransLLM: A Unified Multi-Task Large Language Model for Urban Transportation via Learnable Prompting",
+        "url": "https://aclanthology.org/2026.acl-long.1195/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式 1195 与 2025 年 Foundation Framework / 2508.14782 是同篇。正式企业作者是科大讯飞研究者（超出范围）。"
+      },
+      {
+        "year": 2026,
+        "title": "ViCo3D: Empowering LiDAR-based Collaborative 3D Object Detection with Vision Foundation Models",
+        "url": "https://arxiv.org/abs/2607.12959",
+        "outcome": "no-evidence",
+        "note": "校方答辩公示说明任浩杰师从张燕咏；该篇原文为中科大团队，无范围企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "mmOVD+: Detecting Fully Occluded Vehicles With Millimeter-Wave Signals",
+        "url": "https://doi.org/10.1109/TMC.2026.3691347",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版 5 月首次上线；相对 2024 mmOVD 新增 GhostNet 与累计聚类。Xiaoran Fan 正式首页是独立研究者，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11127331",
+        "outcome": "no-evidence",
+        "note": "ICRA 正式与 2409.19597 同篇；原文列中科大计算机学院及人工智能与数据科学学院。"
+      },
+      {
+        "year": 2025,
+        "title": "CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration",
+        "url": "https://doi.org/10.1145/3746027.3755767",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式作者名、张午阳和于文豪本人书目互相对应；没有核实所列企业三方角色。"
+      },
+      {
+        "year": 2025,
+        "title": "GR-Fall: A Fall Detection System with Gait Recognition for Indoor Environments Using SISO mmWave Radar",
+        "url": "https://doi.org/10.1145/3749471",
+        "outcome": "no-evidence",
+        "note": "IMWUT 首页只列中科大、合肥综合性国家科学中心 AI 研究院及独立研究人员。"
+      },
+      {
+        "year": 2025,
+        "title": "GS-Share: Enabling High-fidelity Map Sharing with Incremental Gaussian Splatting",
+        "url": "https://doi.org/10.1111/cgf.70248",
+        "outcome": "no-evidence",
+        "note": "CGF 正式与 2510.02884 对应，首页只列中科大、合肥科研机构。"
+      },
+      {
+        "year": 2025,
+        "title": "Ghost Points Matter: Far-Range Vehicle Detection with a Single mmWave Radar in Tunnel",
+        "url": "https://doi.org/10.1145/3680207.3765237",
+        "outcome": "no-evidence",
+        "note": "MobiCom 正式同篇有何晨铭和其具名博士导师张燕咏；作者公开书目与 PDF 未发现所列企业同篇正式员工。"
+      },
+      {
+        "year": 2025,
+        "title": "MT-PCR: Leveraging Modality Transformation for Large-Scale Point Cloud Registration with Limited Overlap",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11128154",
+        "outcome": "no-evidence",
+        "note": "ICRA 正式与 2503.12833 同篇；原文单位为中科大及合肥科研机构。"
+      },
+      {
+        "year": 2025,
+        "title": "OG-Gaussian: Occupancy Based Street Gaussians for Autonomous Driving",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11127312",
+        "outcome": "no-evidence",
+        "note": "ICRA 正式与 2502.14235 同篇，作者单位皆为中科大，未见范围企业三方。"
+      },
+      {
+        "year": 2025,
+        "title": "PocketMap: An Interaction-centric 3D Map Serving System for Spatial Understanding on Mobile Devices",
+        "url": "https://doi.org/10.1145/3770680",
+        "outcome": "no-evidence",
+        "note": "ACM 正式交存 2025-12-02。第一作者本人写明博士导师张燕咏，唯一已知实习为 2022 微软；该篇没有目标企业的明确材料。"
+      },
+      {
+        "year": 2025,
+        "title": "STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation",
+        "url": "https://arxiv.org/abs/2504.18792",
+        "outcome": "no-evidence",
+        "note": "RSS 2025，原文中科大学院和先研院。机器人硬件厂商不是人员署名。"
+      },
+      {
+        "year": 2025,
+        "title": "SpatialSplat: Efficient Semantic 3D from Sparse Unposed Images",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Sheng_SpatialSplat_Efficient_Semantic_3D_from_Sparse_Unposed_Images_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式对应 2505.23044，原文为中科大、阿德莱德大学，无目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "UniSense: Spatial-Uncertainty-Aware Collaborative Sensing for Autonomous Driving",
+        "url": "https://doi.org/10.1145/3711875.3729130",
+        "outcome": "no-evidence",
+        "note": "MobiSys 当年档案把张午阳列 Meta；本人也明示任职至 2025。Meta 超出项目范围。"
+      },
+      {
+        "year": 2025,
+        "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
+        "url": "https://doi.org/10.1145/3680207.3765256",
+        "outcome": "no-evidence",
+        "note": "MobiCom 正式对应 2509.12207，均署中科大或合肥科研机构；未具名自动驾驶公司试点无法提供三方材料。"
+      },
+      {
+        "year": 2025,
+        "title": "mmMUSE: An mmWave-based Motion-resilient Universal Speech Enhancement System",
+        "url": "https://doi.org/10.1145/3770672",
+        "outcome": "no-evidence",
+        "note": "IMWUT 正式卷 2025，随后在 UbiComp 2026 介绍。同一论文只记一次，作者证据未见所列企业。"
+      },
+      {
+        "year": 2024,
+        "title": "MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10801605",
+        "outcome": "no-evidence",
+        "note": "IROS 正式与 2404.04026 同篇，原文作者署中科大。"
+      },
+      {
+        "year": 2024,
+        "title": "OCC-VO: Dense Mapping via 3D Occupancy-Based Visual Odometry for Autonomous Driving",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10611516",
+        "outcome": "no-evidence",
+        "note": "IEEE ICRA 正式与 2309.11011 同篇，作者均署中科大。"
+      },
+      {
+        "year": 2024,
+        "title": "RDGait: A mmWave Based Gait User Recognition System for Complex Indoor Environments Using Single-chip Radar",
+        "url": "https://doi.org/10.1145/3678552",
+        "outcome": "no-evidence",
+        "note": "ACM 论文对应张鑫燃本人公开书目。未发现所列企业同篇实研。"
+      },
+      {
+        "year": 2024,
+        "title": "mmPlace: Robust Place Recognition With Intermediate Frequency Signal of Low-Cost Single-Chip Millimeter Wave Radar",
+        "url": "https://doi.org/10.1109/LRA.2024.3377562",
+        "outcome": "no-evidence",
+        "note": "IEEE RA-L 正式与何晨铭公开列表相符。中科大及 Xiaoran Fan 参与，未见目标企业正式员工。"
+      },
+      {
+        "year": 2023,
+        "title": "TrajMatch: Toward Automatic Spatio-Temporal Calibration for Roadside LiDARs Through Trajectory Matching",
+        "url": "https://arxiv.org/abs/2302.02157",
+        "outcome": "no-evidence",
+        "note": "IEEE T-ITS 2023 年 11 月与 2302.02157 是同篇。中科大答辩公示确认第一作者任浩杰/张燕咏，原文 Sugang Li 署 Google Cloud（超范围）。"
+      },
+      {
+        "year": 2023,
+        "title": "USTC FLICAR: A multisensor fusion dataset of LiDAR-inertial-camera for heavy-duty autonomous aerial work robots",
+        "url": "https://doi.org/10.1177/02783649231195650",
+        "outcome": "no-evidence",
+        "note": "SAGE 正式与 2304.01986 同篇，列中科大计算机学院和校内中科院材料力学与仪器重点实验室；无指定企业。"
       }
     ],
     "note": "逐篇对照校方、会议期刊、作者个人站与原始论文。已核部分工作；公开书目仍在补录核对。"
@@ -40327,5 +40547,626 @@ const facultyPaperAudits = {
       }
     ],
     "note": "对照香港科技大学研究门户、VSDL 实验室书目、实名 ORCID 0000-0002-3885-4912 及 DBLP 书目，逐篇核对 25 项；使用正式版本日期，合并同篇初稿。两篇腾讯天衍和一篇腾讯生命科学合作仅列线索，仍需学生参与具体企业项目的证据。继续核对其他年份，未标完成。"
+  },
+  "dtRGhasAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://saids.ustc.edu.cn/2025/0319/c36362a677387/page.htm",
+      "https://wuyangz-ustc.github.io/",
+      "https://dblp.org/pid/194/1520.html"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Breaking Model Lock-in: Cost-Efficient Zero-Shot LLM Routing via a Universal Latent Space",
+        "url": "https://doi.org/10.1609/aaai.v40i43.40970",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式与 2601.06220 属同篇。具名企业员工署科大讯飞；超出调查范围。"
+      },
+      {
+        "year": 2026,
+        "title": "DAVET: Denoising-Aware Visual Evidence Trajectory Allocation for Diffusion Vision-Language Models",
+        "url": "https://arxiv.org/abs/2608.01821",
+        "outcome": "no-evidence",
+        "note": "原文列中科大一组和张午阳通信，论文使用 LLaDA-V 和 LaViDa 基座；没有所列企业人员证据。"
+      },
+      {
+        "year": 2026,
+        "title": "DepCap: Adaptive Block-Wise Parallel Decoding for Efficient Diffusion LM Inference",
+        "url": "https://arxiv.org/abs/2604.15750",
+        "outcome": "no-evidence",
+        "note": "arXiv 正文作者为中科大及合肥科研机构，个别作者同时有华东师大学生邮箱，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "FAVLA: A Force-Adaptive Fast-Slow VLA Model for Contact-Rich Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2602.23648",
+        "outcome": "no-evidence",
+        "note": "第一版在截点前已公开，作者书目列 NeurIPS。原文署中科大、西交、中南大学；无范围公司正式人员。"
+      },
+      {
+        "year": 2026,
+        "title": "ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation",
+        "url": "https://arxiv.org/abs/2611.03294",
+        "outcome": "no-evidence",
+        "note": "第一版 2026-11-02 公开、项目页列 NeurIPS。正文署中科大、西交、苏州实验室、Synkrotron；该企业超出调查范围。"
+      },
+      {
+        "year": 2026,
+        "title": "One Readout, Many Repairs: Diffusion-Guided Hierarchical Search for Tool-Agent Repair",
+        "url": "https://arxiv.org/abs/2609.34879",
+        "outcome": "no-evidence",
+        "note": "作者首页列中科大单位，张午阳与张燕咏共同署名。没有该项范围企业研究材料。"
+      },
+      {
+        "year": 2026,
+        "title": "REFLEX: Rethinking MoE Inference as Refinement-Aware Compute Allocation in Diffusion Language Models",
+        "url": "https://arxiv.org/abs/2608.01784",
+        "outcome": "no-evidence",
+        "note": "原文列中科大张午阳为通讯，实验模型来自公开权重；没有所列企业员工合著。"
+      },
+      {
+        "year": 2026,
+        "title": "Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+        "url": "https://arxiv.org/abs/2609.10226",
+        "outcome": "no-evidence",
+        "note": "原文署中科大、阶跃星辰、北大、港科大、耶鲁、宾大。阶跃星辰不在本次名单，未见其他范围内企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration",
+        "url": "https://doi.org/10.1145/3746027.3755767",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式作者名、张午阳和于文豪本人书目互相对应；没有核实所列企业三方角色。"
+      },
+      {
+        "year": 2025,
+        "title": "PocketMap: An Interaction-centric 3D Map Serving System for Spatial Understanding on Mobile Devices",
+        "url": "https://doi.org/10.1145/3770680",
+        "outcome": "no-evidence",
+        "note": "ACM 正式交存 2025-12-02。第一作者本人写明博士导师张燕咏，唯一已知实习为 2022 微软；该篇没有目标企业的明确材料。"
+      },
+      {
+        "year": 2025,
+        "title": "UniSense: Spatial-Uncertainty-Aware Collaborative Sensing for Autonomous Driving",
+        "url": "https://doi.org/10.1145/3711875.3729130",
+        "outcome": "no-evidence",
+        "note": "MobiSys 当年档案把张午阳列 Meta；本人也明示任职至 2025。Meta 超出项目范围。"
+      },
+      {
+        "year": 2025,
+        "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
+        "url": "https://doi.org/10.1145/3680207.3765256",
+        "outcome": "no-evidence",
+        "note": "MobiCom 正式对应 2509.12207，均署中科大或合肥科研机构；未具名自动驾驶公司试点无法提供三方材料。"
+      },
+      {
+        "year": 2024,
+        "title": "Map++: Towards User-Participatory Visual SLAM Systems with Efficient Map Expansion and Sharing",
+        "url": "https://doi.org/10.1145/3636534.3649386",
+        "outcome": "no-evidence",
+        "note": "ACM MobiCom 2024 作者稿 2411.02553 列 Wuyang Zhang 署 Meta，另有中科大和匹兹堡大学；Meta 不在企业范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Overcoming Noisy Labels and Non-IID Data in Edge Federated Learning",
+        "url": "https://doi.org/10.1109/TMC.2024.3398801",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式题录与教师本人书目互证；发表期张午阳的明确正式企业经历为 Meta，超出名单。未见其他目标企业具体研究证据。"
+      },
+      {
+        "year": 2023,
+        "title": "BOSE: Block-Wise Federated Learning in Heterogeneous Edge Computing",
+        "url": "https://doi.org/10.1109/TNET.2023.3316421",
+        "outcome": "no-evidence",
+        "note": "IEEE/ACM 2023 提前公开、2024 正式卷。张午阳本人列本篇与 2020–2025 Meta 正式任职；未见范围企业链。"
+      }
+    ],
+    "note": "按论文原文对照本人、中科大和出版社的公开书目。DBLP 有多个同名作者混入，以合作者、机构和通信信息核对；还有未核条目。"
+  },
+  "jiIB-8gAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~xujian82",
+      "https://orcid.org/0000-0003-2348-125X",
+      "https://github.com/uoe-haoyu/LULCFormer",
+      "https://arxiv.org/html/2410.03962v1",
+      "https://api.crossref.org/works/10.1109/jstars.2025.3641788",
+      "https://elib.dlr.de/222223/",
+      "https://eprints.soton.ac.uk/500575/1/UFLUX2.pdf",
+      "https://www.nature.com/articles/s41597-025-06401-x_reference.pdf",
+      "https://files.sciengine.com/pdfs/1674-7240/A314CC17B43844199CB29863987A65DD.pdf",
+      "https://pub.orcid.org/v3.0/0000-0003-2348-125X/works",
+      "https://www.slrss.cn/care/publications/",
+      "https://nora.nerc.ac.uk/id/eprint/541569/1/N541569JA.pdf",
+      "https://pure.mpg.de/rest/items/item_3583238/component/file_3658366/content",
+      "https://meetingorganizer.copernicus.org/EGU25/EGU25-7648.html?pdf=",
+      "https://api.crossref.org/works/10.1016/j.atmosenv.2026.122432",
+      "https://api.crossref.org/works/10.1016/B978-0-443-13220-9.00026-3"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Synergistic Fusion of Sentinel-1 and Sentinel-2 for Global LULC Mapping: The Multimodal Network LULC-Former and Dynamic World+ Dataset",
+        "url": "https://doi.org/10.1109/jstars.2025.3641788",
+        "outcome": "lead",
+        "note": "正式版将早期 SpecSAR-Former/2410.03962 同一研究扩充并重新题名，加入许健和施建成；共同一作 Hao Yu 和 Gen Li 署爱丁堡大学，Haoyu Liu 署腾讯，早期脚注列其 IEEE 学生会员。未见许健具名指导同篇在读作者或在腾讯完成本文的记录，企业作者雇佣身份也待核。"
+      },
+      {
+        "year": 2026,
+        "title": "Comprehensive Validation of Temperature and Humidity Profile Retrievals From FengYun-3E",
+        "url": "https://doi.org/10.1109/tgrs.2026.3658572",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式登记确认国家空间科学中心及中国气象局、南安普顿大学等，许健和其指导学生刘双慧同篇，但未见范围内企业作者；附录 DOI 合一。"
+      },
+      {
+        "year": 2025,
+        "title": "Sea breeze-driven daytime vertical distributions of air pollutants and photochemical implications in an island environment",
+        "url": "https://acp.copernicus.org/articles/25/18187/2025/",
+        "outcome": "no-evidence",
+        "note": "Copernicus 正式版与 egusphere-2025-2588 合一；列复旦、国家空间科学中心及相关学术研究单位，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "The UFLUX ensemble of multiple-scale carbon, water, and energy fluxes",
+        "url": "https://doi.org/10.1038/s41597-025-06401-x",
+        "outcome": "no-evidence",
+        "note": "Scientific Data 成稿以南安普顿大学公开备份核对完整单位；作者来自科研机构和多所高校，无范围企业。EGU 同题报告与正式论文合一。"
+      },
+      {
+        "year": 2025,
+        "title": "A New Cloud Water Path Retrieval Method Based on Geostationary Satellite Infrared Measurements",
+        "url": "https://doi.org/10.1109/TGRS.2025.3526262",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版全体作者登记为空间科学中心或空天信息创新研究院；卫星数据来源及 CARE 平台并非企业共同署名。"
+      },
+      {
+        "year": 2025,
+        "title": "Physics-Constrained Bayesian Neural Networks for Aerosol Retrieval From Hyperspectral Satellite Measurements With Integrated Uncertainty Quantification",
+        "url": "https://doi.org/10.1109/TGRS.2025.3640712",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式登记与 DLR 开放档案一致；饶兰兰、许健和德宇航中心及中科院研究者同篇，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "UFLUX v2.0: A Process-Informed Machine Learning Framework for Efficient and Explainable Modeling of Terrestrial Carbon Uptake",
+        "url": "https://doi.org/10.1109/LGRS.2025.3541893",
+        "outcome": "no-evidence",
+        "note": "高校开放存档与 IEEE 正式登记核对：爱丁堡、南安普顿、埃克塞特等高校与国家空间科学中心组成作者单位；无范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "基于卫星资料的青藏高原臭氧谷时空特征分析",
+        "url": "https://www.cjss.ac.cn/cn/article/doi/10.11728/cjss2025.05.2024-0105",
+        "outcome": "no-evidence",
+        "note": "本刊正式版确认马湘君是国科大在读硕士，许健为通讯作者；四位作者只署国家空间科学中心或国科大，无范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Near-global monitoring of surface solar radiation through the construction of a geostationary satellite network observation system",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12105475/",
+        "outcome": "no-evidence",
+        "note": "The Innovation 正式全文署多所研究机构、气象机构及高校，公开卫星观测协作中未见范围企业作者；合并同题预印。"
+      },
+      {
+        "year": 2025,
+        "title": "First total ozone column observations from the Ozone Monitoring Suite-Nadir (OMS-N) onboard China’s FengYun-3F satellite",
+        "url": "https://doi.org/10.1007/s11430-025-1686-0",
+        "outcome": "no-evidence",
+        "note": "英文正式刊与中文 DOI 10.1360/N072025-0050 同作者同研究，中文 PDF 并排给出引用。列中科院、国家卫星气象中心及德国宇航中心等，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Passive Remote Sensing of Marine Liquid Cloud Geometric Thickness Using the O₂–O₂ Band: First Results From TROPOMI",
+        "url": "https://doi.org/10.1029/2024GL113222",
+        "outcome": "no-evidence",
+        "note": "AGU 正式版 2025 年 1 月，不能从 DOI 年推定 2024；作者均署中科院相关研究所或国科大，无范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "对流层臭氧卫星遥感反演综述",
+        "url": "https://www.geores.com.cn/dqkxjz/CN/10.11867/j.issn.1001-8166.2024.002",
+        "outcome": "no-evidence",
+        "note": "本刊中文正式版，与另一个 DOI 的英文期刊综述相比分别出版，但同题研究是否构成翻译仍可继续对照。已见资料无范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Preliminary Global NO2 Retrieval from EMI-II Onboard GF5B/DQ1 and Comparison to TROPOMI",
+        "url": "https://www.mdpi.com/2072-4292/16/21/4087",
+        "outcome": "no-evidence",
+        "note": "正式版确有中国四维测绘技术有限公司作者，该企业不在调查 14 家内；许健署中科院国科大相关单位。"
+      },
+      {
+        "year": 2024,
+        "title": "A New Deep-Learning-Based Framework for Ice Water Path Retrieval From Microwave Humidity Sounder-II Aboard FengYun-3D Satellite",
+        "url": "https://doi.org/10.1109/TGRS.2024.3352654",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版信息列国家空间科学中心、北京信息科技大学与中科院空天院，未见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "China’s First Infrared Occultation Spectrometer (GaoFen-5/AIUS) Monitoring Atmosphere Above Antarctic: Evaluation of Methane Profiles",
+        "url": "https://doi.org/10.1109/JSTARS.2024.3381651",
+        "outcome": "no-evidence",
+        "note": "IEEE 按作者列中科院、南通大学、国家卫星气象中心与资源卫星数据机构，未见范围内企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Frequency Channel Selection and Performance Simulation of a Microwave Radiometer for Temperature and Sulfuric Compound Profiling of the Venusian Lower Atmosphere",
+        "url": "https://doi.org/10.1029/2023EA003429",
+        "outcome": "no-evidence",
+        "note": "AGU 期刊 2024 年正式版署国家空间科学中心、国科大及 ISSI-Beijing。仪器设计仿真未见范围企业署名。"
+      },
+      {
+        "year": 2024,
+        "title": "Remote Sensing of Tropospheric Ozone from Space: Progress and Challenges",
+        "url": "https://doi.org/10.34133/remotesensing.0178",
+        "outcome": "no-evidence",
+        "note": "Journal of Remote Sensing 独立出版题录及出版人逐一作者单位含中科院、国科大和爱丁堡大学，未见范围企业。与中文同期稿作者并非完全一致，暂分列书目。"
+      },
+      {
+        "year": 2024,
+        "title": "UFLUX-GPP: A Cost-Effective Framework for Quantifying Daily Terrestrial Ecosystem Carbon Uptake Using Satellite Data",
+        "url": "https://doi.org/10.1109/TGRS.2024.3439333",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式稿和同 DOI 附录合一。中科院、爱丁堡、复旦、埃克塞特与气象机构等作者未署范围企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Explainable Machine Learning Confirms the Global Terrestrial CO2 Fertilization Effect From Space",
+        "url": "https://doi.org/10.1109/LGRS.2023.3298373",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版作者单位涵盖国科大相关国家空间科学中心、英国高校和国家卫星气象中心，未见范围企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Eddy covariance fluxes over managed ecosystems extrapolated to field scales at fine spatial resolutions",
+        "url": "https://doi.org/10.1016/j.agrformet.2023.109675",
+        "outcome": "no-evidence",
+        "note": "期刊 PDF 署英国 Quanterra Systems Ltd.，不在调查 14 家。其他单位是国家空间科学中心、英国高校及研究机构。"
+      },
+      {
+        "year": 2025,
+        "title": "太赫兹大气临边探测技术研究进展",
+        "url": "https://doi.org/10.11867/j.issn.1001-8166.2025.005",
+        "outcome": "no-evidence",
+        "note": "许健与王文煜的国科大书目及地球科学进展卷页吻合。公开题录可查具名作者，但本轮暂未取得出版社的完整机构段；不计关系。"
+      },
+      {
+        "year": 2025,
+        "title": "Global distribution pattern in characteristics of gross primary productivity response to soil water availability",
+        "url": "https://doi.org/10.1016/j.agrformet.2025.110701",
+        "outcome": "no-evidence",
+        "note": "正式期刊 PDF 的作者单位为中科院、马克斯·普朗克研究所、里斯本新大学、福建师大及多伦多大学等。合并 SSRN:4789075，无范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Development of a hybrid algorithm for the simultaneous retrieval of aerosol optical thickness and fine-mode fraction from multispectral satellite observation combining radiative transfer and transfer learning approaches",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0034425725000239",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式版列许健和中科院研究人员，并有日本高校参与；尚未发现范围企业及学生在公司研究证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Assessment of Ocean Color Products From the New Generation Himawari-8 AHI Geostationary Satellite and Its Application in the Calculation of the Photosynthetically Active Radiation",
+        "url": "https://doi.org/10.1109/tgrs.2024.3494797",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式机构有中科院空天院与空间中心、中国气象局相关实验室和四川轻化工大学，无范围企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "First Results of Absorbing Aerosol Index From the Absorbing Aerosol Sensor Onboard Gaofen-5B",
+        "url": "https://doi.org/10.1109/JSTARS.2024.3439014",
+        "outcome": "no-evidence",
+        "note": "正式 PDF 表明除空间科学中心、上海卫星工程研究所外另有航天东方红卫星有限公司；该卫星企业不在 14 家范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Cloud Top Pressure Retrieval Using Polarized and Oxygen A-band Measurements from GF5 and PARASOL Satellites",
+        "url": "https://doi.org/10.1007/s00376-023-2382-5",
+        "outcome": "no-evidence",
+        "note": "Springer 正式出版是 2024 年 1 月；作者单位为中科院、内蒙古师范大学、国家空间科学中心等，未见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Development of an Algorithm for the Simultaneous Retrieval of Cloud-Top Height and Cloud Optical Thickness Combining Radiative Transfer and Multisource Satellite Information From O₄ Hyperspectral Measurements",
+        "url": "https://doi.org/10.1109/TGRS.2024.3385030",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式登记是空天院、国家卫星气象中心与国家空间科学中心。此 IEEE 工作与同年 RSE 的 CRANN 有不同作者、数据及正式文号，分列。"
+      },
+      {
+        "year": 2024,
+        "title": "A novel physics-based cloud retrieval algorithm based on neural networks (CRANN) from hyperspectral measurements in the O2-O2 band",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0034425724002852",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式版与 NASA CALIPSO 书目对应，研究对象是气体吸收带的云属性估计，没有范围企业角色证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Surface Solar Radiation Compositions Observed from Himawari-8/9 and Fengyun-4 Series",
+        "url": "https://doi.org/10.1175/BAMS-D-22-0154.1",
+        "outcome": "no-evidence",
+        "note": "美国气象学会正式版逐名登记多国高校、气象和航天机构、中科院空间中心及国科大，无范围企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "External-cavity diode laser-based near-infrared broadband laser heterodyne radiometer for remote sensing of atmospheric CO₂",
+        "url": "https://doi.org/10.1364/OE.482131",
+        "outcome": "no-evidence",
+        "note": "Optics Express 正式版署中科院、复旦、上海期智研究院及两所法国高校。上海期智为研究机构且不在范围内企业名单。"
+      },
+      {
+        "year": 2023,
+        "title": "Retrieval of cloud microphysical properties from Himawari-8/AHI infrared channels and its application in surface shortwave downward radiation estimation in the sun glint region",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0034425723000998",
+        "outcome": "no-evidence",
+        "note": "以 Elsevier 正式版与 NASA CERES 出版目录交叉核对；作者主要来自中科院，使用第三方卫星数据未见范围内企业实研。"
+      },
+      {
+        "year": 2023,
+        "title": "Estimating Near-Surface Concentrations of Major Air Pollutants From Space: A Universal Estimation Framework LAPSO",
+        "url": "https://doi.org/10.1109/TGRS.2023.3248180",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式作者逐人列中科院、埃克塞特大学、重庆邮电大学、南通大学、气象局等，未见范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "LESO: A ten-year ensemble of satellite-derived intercontinental hourly surface ozone concentrations",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10600137/",
+        "outcome": "no-evidence",
+        "note": "Scientific Data 期刊开放全文作者来自中科院、气象机构、南通大学等。风云气象数据及资助单位不构成企业共同署名。"
+      },
+      {
+        "year": 2023,
+        "title": "Feasibility analysis of optimal terahertz (THz) bands for passive limb sounding of middle and upper atmospheric wind",
+        "url": "https://amt.copernicus.org/articles/16/4137/2023/",
+        "outcome": "no-evidence",
+        "note": "Copernicus 期刊正式版与 AMT-2023-75 初稿合并，解决教师页面重复两次的问题；未发现范围企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "The Fusion of ERA5 and MERRA-2 Atmospheric Temperature Profiles with Enhanced Spatial Resolution and Accuracy",
+        "url": "https://www.mdpi.com/2072-4292/15/14/3592",
+        "outcome": "no-evidence",
+        "note": "正式期刊原文列西北师大、桂林理工、中科院空天院及空间中心；两套再分析数据来源不是合作企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Evaluation and uncertainty analysis of Himawari-8 hourly aerosol product version 3.1 and its influence on surface solar radiation before and during the COVID-19 outbreak",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0048969723030772",
+        "outcome": "no-evidence",
+        "note": "Elsevier 卷期 DOI 10.1016/j.scitotenv.2023.164456，与 SSRN:4358529 同一研究。使用日本卫星和观测网络，尚无范围企业合著或实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Pre-Launch Calibration and Performance Evaluation of OMS-N Onboard the FY-3F Satellite",
+        "url": "https://www.mdpi.com/2072-4292/18/10/1456",
+        "outcome": "no-evidence",
+        "note": "正式出版和 ORCID 书目一致，研究的是仪器发射前校准，并非使用在轨数据讨论臭氧反演的论文；未见范围企业角色。"
+      },
+      {
+        "year": 2026,
+        "title": "Characterization of Air Pollution Transport Using Absorbing Aerosol Index from Multiple Payloads and Synergistic Satellite and Ground-Based Observations",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1352231026005285",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式稿 10 月卷期列许健与张卓等；暂无范围企业同篇证据。与团队另一篇在轨 AAI 数据验证的目标、数据及正式 DOI 不同。"
+      },
+      {
+        "year": 2026,
+        "title": "Absorbing Aerosol Index from Ozone Monitoring Suite-Nadir Onboard FengYun-3F: First Results and Validation",
+        "url": "https://doi.org/10.1109/JSTARS.2026.3707189",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式登记、作者公开版本与 ORCID 汇合。共同作者来自国家空间科学中心及气象局，原文未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "A physics-based AI algorithm integrating radiative transfer and machine learning for joint retrieval of aerosol layer height and optical thickness from hyperspectral satellite observations over the ocean",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0034425726001495",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式版与研究者公开书目交叉核对；学术合作有中科院、北京大数据研究院、奥斯陆大学与日本高校等，未见范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Characterization of liquid cloud profiles using global collocated active radar and passive polarimetric cloud measurements",
+        "url": "https://acp.copernicus.org/articles/25/16167/2025/",
+        "outcome": "no-evidence",
+        "note": "Copernicus 正式全文与同年 egusphere-2025-2471 预印合一。署中科院及学术机构，未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "First global carbon dynamics from an observational and process-informed hybrid perspective: Oversimplified respiration representation likely drives divergence in terrestrial carbon sequestration across models",
+        "url": "https://doi.org/10.1016/j.agrformet.2026.111197",
+        "outcome": "no-evidence",
+        "note": "正式论文 PDF 由英国研究机构存档；作者含南安普顿大学、空间科学中心及其他研究机构，未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Multi-Sensor Intercomparison of Terrestrial Carbon and Water Fluxes: Evaluating VIIRS and Sentinel-3 as MODIS Successors Using Decade-Long Eddy Covariance Validation",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6750265",
+        "outcome": "no-evidence",
+        "note": "2026 年 5 月公开预印本，已列作者主要为中科院和多所高校，部分字段缺失；无范围内企业合著及在读实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Drivers of interannual variability in global gross primary productivity derived from observational upscaling",
+        "url": "https://doi.org/10.2139/ssrn.6233744",
+        "outcome": "no-evidence",
+        "note": "SSRN 2026 年公开预印本列许健为通讯作者；九名作者及排序与最终版 How atmospheric variability and observational representativeness shape global gross primary productivity upscaling（DOI 10.1016/j.atmosenv.2026.122432，2027 年 1 月卷期）一致，合为一篇。原稿未见范围内企业角色。"
+      },
+      {
+        "year": 2025,
+        "title": "Atmospheric physicochemical multi-parameter horizonal and vertical mitigation response of two recent Sheveluch volcano eruptions in kamchatka",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S135223102500531X",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式稿列许健负责分析，致谢明确三个研究单位：国家空间科学中心、中国地质大学（武汉）及生态环境卫星应用机构。与同一事件的 EGU 25-7648 短摘要对账，不另计；未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Remote Sensing of Tropospheric Aerosol Optical Depth From Multispectral Monodirectional Space-Based Observations",
+        "url": "https://doi.org/10.1016/B978-0-443-13220-9.00026-3",
+        "outcome": "no-evidence",
+        "note": "十足确认是实验室 CARE 书目的石崇、唐晨倩、许健等六人版本，区别 I. Laszlo 早期同名章节。出版人登记正式书载 2026；校内书目和实验室首期引用年份存在差异，出版社登记未供机构，无范围企业角色证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Towards Consistent Carbon Monitoring: The Role of Satellite Resolution and Process-Informed Machine Learning in Terrestrial Carbon Cycle Modelling",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5352244",
+        "outcome": "no-evidence",
+        "note": "SSRN 公布作者署名包括爱丁堡大学、南安普顿大学、中科院和爱丁堡合作单位 Space Intelligence；该公司不在调查范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Elevation-dependent controls of GPP on the Tibetan Plateau revealed by pixel-specific, remote-sensing-constrained attribution",
+        "url": "https://ssrn.com/abstract=5580394",
+        "outcome": "no-evidence",
+        "note": "SSRN 2025 年 10 月公开原稿六名作者，许健和包善宁等依次进行高原碳通量研究；尚未发现范围企业共同署名或在公司实研。"
+      }
+    ],
+    "note": "对照国科大 38 个调查期书目条目、本人 ORCID、实验室 CARE 和正式出版记录，并合并双语版和预印本。LULC-Former 暂存企业合著线索；个别期刊未公开完整作者机构，保留梳理中。"
+  },
+  "KEUan7IAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://shigangli.github.io/#Publications",
+      "https://teacher.bupt.edu.cn/lishigang/zh_CN/index.htm",
+      "https://dblp.org/pid/24/6178-2.html",
+      "https://orcid.org/0000-0003-0022-7865",
+      "https://fx.xwapp.moe.gov.cn/article/202507/686b8025001a451f99853903.html"
+    ],
+    "papers": [
+      {
+        "title": "Hypertron: Efficiently Scaling Large Models by Exploring High-Dimensional Parallelization Space",
+        "url": "https://doi.org/10.1145/3712285.3759783",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ACM 正式出版及 SC 会方均列北邮作者与华为胡中喆。教育部报道核到李士刚参与华为揭榜项目，但未将具名学生的企业研究活动对应到本篇，保留线索。"
+      },
+      {
+        "title": "OmniPipe: Efficient, Flexible and Scalable Pipeline Parallelism for Large Model Training",
+        "url": "https://doi.org/10.1145/3832810.3832820",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM 提交的出版资料三名作者均署北邮，未发现范围企业参与。"
+      },
+      {
+        "title": "MX-KMeans: Accelerating K-Means Clustering through Microscaling Quantization",
+        "url": "https://doi.org/10.1145/3832810.3832837",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM 登记作者单位为北邮及浪潮，后者不在 14 家企业内。"
+      },
+      {
+        "title": "UltraGNN: A Sparse-Operator-Aware Framework for Accelerating Graph Neural Networks on Tensor Cores",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11691052/",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE 正式登记的六位作者均为北邮；第一作者 ORCID 可核到在读身份，本篇没发现具名企业参与。"
+      },
+      {
+        "title": "MG-Cache: Multi-Granularity Caching for Accelerating Diffusion Transformer Inference",
+        "url": "https://arxiv.org/abs/2611.11365",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Pacific Graphics 正式原文三名作者均署北邮，测试公开混元模型不能作为腾讯员工作者或学生同项企业参与。"
+      },
+      {
+        "title": "Omnia: Efficient RAG Serving through Speculative Scheduling",
+        "url": "https://doi.org/10.1145/3806645.3807814",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM 登记作者单位全为北邮，合著者 ORCID 也收录本篇出版记录。"
+      },
+      {
+        "title": "Dynamo-MoE: Accelerating Sparse Large Model Inference with Dynamic Parallelization",
+        "url": "https://doi.org/10.1145/3806645.3807820",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM 提交的六位作者单位均为北邮，未发现目标企业。"
+      },
+      {
+        "title": "C3FT: Computation-Centric Checkpointing for Distributed Large Model Training",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-4805-6_18",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer 原文列北邮、清华、无问芯穹；后者不在 14 家企业范围内。"
+      },
+      {
+        "title": "CoLa: Towards Communication-Efficient Distributed Sparse Matrix-Matrix Multiplication on GPUs",
+        "url": "https://doi.org/10.1145/3721145.3730425",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 登记三个作者均署北邮，未找到具名企业实研。"
+      },
+      {
+        "title": "OptiFX: Automatic Optimization for Convolutional Neural Networks with Aggressive Operator Fusion on GPUs",
+        "url": "https://doi.org/10.1145/3716876",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 登记单位为北邮、中科院计算所、国科大、新南威尔士大学，没有范围企业作者。"
+      },
+      {
+        "title": "SparkAttention: High-Performance Multi-Head Attention for Large Models on Volta GPU Architecture",
+        "url": "https://arxiv.org/html/2502.12784v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2025 年 2 月首稿作者全列北邮计算机学院，使用 NVIDIA 硬件不构成目标企业参与。"
+      },
+      {
+        "title": "FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores",
+        "url": "https://doi.org/10.1145/3710848.3710858",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 正式记录作者全署北邮，学生 ORCID 可核，未见范围企业署名或项目角色。"
+      },
+      {
+        "title": "AutoDDL: Automatic Distributed Deep Learning with Near-Optimal Bandwidth Cost",
+        "url": "https://doi.org/10.1109/TPDS.2024.3397800",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2023 年首稿、2024 年 IEEE 版本同项；两名企业作者署 OneFlow，该机构不在调查范围。"
+      },
+      {
+        "title": "A High-Performance Design, Implementation, Deployment, and Evaluation of The Slim Fly Network",
+        "url": "https://www.usenix.org/system/files/nsdi24-blach.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "USENIX 原文企业作者署 Intel Labs，未见范围内公司作者或同项学生企业研究。"
+      },
+      {
+        "title": "Co-Design Hardware and Algorithm for Vector Search",
+        "url": "https://doi.org/10.1145/3581784.3607045",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 正式元数据列 Apple、ETH Zurich 与北邮，Apple 不在范围内。"
+      },
+      {
+        "title": "ANT-MOC: Scalable Neutral Particle Transport Using 3D Method of Characteristics on Multi-GPU Systems",
+        "url": "https://doi.org/10.1145/3581784.3607063",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 登记的机构为高校、中科院网络中心与原子能科学研究院，未见范围内企业。"
+      },
+      {
+        "title": "Large-Scale Simulation of Structural Dynamics Computing on GPU Clusters",
+        "url": "https://doi.org/10.1145/3581784.3607082",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 正式版列北邮、国科大、中科院网络中心、杭州电子科技大学与原子能科学研究院。"
+      },
+      {
+        "title": "A Scalable Hybrid Total FETI Method for Massively Parallel FEM Simulations",
+        "url": "https://doi.org/10.1145/3572848.3577517",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM 登记中包括北邮、中科院网络中心、国科大及杭州电子科技大学，未见范围企业作者。"
+      }
+    ],
+    "note": "以本人主页直链 Scholar 和 ORCID 核对作者，所查期刊和会议作品逐篇采用正式出版或第一版。部分书目和论文尚待对账，仍标梳理中。"
   }
 };
