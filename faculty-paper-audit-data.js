@@ -18,86 +18,109 @@ const facultyPaperAudits = {
       "https://huizhang0812.github.io/",
       "https://fandongmeng.github.io/",
       "https://fvl.fudan.edu.cn/en/publications.html",
-      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf"
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf",
+      "https://fvl-repo.github.io/en/people",
+      "https://orcid.org/0009-0005-8059-5976",
+      "https://news.fudan.edu.cn/2024/1016/c40a142550/page.htm",
+      "https://www.stuaff.fudan.edu.cn/11/26/c53573a725286/page.htm",
+      "https://francistu.github.io/",
+      "https://yinminghuang.github.io/",
+      "https://github.com/Tencent-Hunyuan/Prism",
+      "https://www.jarvis73.com/about/",
+      "https://github.com/FrancisTu/francistu.github.io/blob/903912e155a4d22995d1f21a830a9df121949ee5/index.html#L56-L59",
+      "https://www.microsoft.com/en-us/research/publication/stableavatar-ultra-long-audio-driven-avatar-video-generation/"
     ],
     "papers": [
       {
         "title": "CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping",
         "url": "https://arxiv.org/html/2605.30774v1",
         "outcome": "confirmed",
-        "note": "两位共同指导教师，同一篇论文只计一次；实际入库待主审核对。"
+        "note": "两位共同指导教师，同一篇论文只计一次；实际入库待主审核对。",
+        "year": 2026
       },
       {
         "title": "DCDM: Divide-and-Conquer Diffusion Models for Consistency-Preserving Video Generation",
         "url": "https://arxiv.org/html/2602.13637v1",
         "outcome": "confirmed",
-        "note": "两位共同指导教师，同一篇论文只计一次；实际入库待主审核对。"
+        "note": "两位共同指导教师，同一篇论文只计一次；实际入库待主审核对。",
+        "year": 2026
       },
       {
         "title": "CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation",
         "url": "https://arxiv.org/html/2604.09201v1",
         "outcome": "existing",
-        "note": "已在全站关系索引。"
+        "note": "已在全站关系索引。",
+        "year": 2026
       },
       {
         "title": "MagDiff: Multi-Alignment Diffusion for High-Fidelity Video Generation and Editing",
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02738.pdf",
         "outcome": "existing",
-        "note": "已在全站关系索引。"
+        "note": "已在全站关系索引。",
+        "year": 2024
       },
       {
         "title": "DynamiCtrl: Rethinking the Basic Structure and the Role of Text for High-quality Human Image Animation",
         "url": "https://arxiv.org/html/2503.21246v1",
         "outcome": "lead",
-        "note": "署名复旦及华为，实习期最后一个月首发。作者本人署名的校企项目页可证参与，但暂无具名实习脚注或独立原始流程来源；寻找直接绑定。"
+        "note": "署名复旦及华为，实习期最后一个月首发。作者本人署名的校企项目页可证参与，但暂无具名实习脚注或独立原始流程来源；寻找直接绑定。",
+        "year": 2025
       },
       {
         "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation",
         "url": "https://doi.org/10.1109/TMM.2026.3651052",
         "outcome": "lead",
-        "note": "华为与腾讯均在团队中；需追原稿提交及合作过程，确认在具体公司研究。"
+        "note": "华为与腾讯均在团队中；需追原稿提交及合作过程，确认在具体公司研究。",
+        "year": 2026
       },
       {
         "title": "SPEED: One-Step Pixel Diffusion for High-quality Video Frame Interpolation",
         "url": "https://arxiv.org/abs/2607.15585",
         "outcome": "no-evidence",
-        "note": "唯一企业为哔哩哔哩，范围外。"
+        "note": "唯一企业为哔哩哔哩，范围外。",
+        "year": 2026
       },
       {
         "title": "ShoulderShot: Generating Over-the-Shoulder Dialogue Videos",
         "url": "https://arxiv.org/abs/2508.07597",
         "outcome": "no-evidence",
-        "note": "同一学生在腾讯参与，但两位复旦导师没有本篇署名。"
+        "note": "同一学生在腾讯参与，但两位复旦导师没有本篇署名。",
+        "year": 2025
       },
       {
         "title": "ReFocusEraser: Refocusing for Small Object Removal with Robust Context-Shadow Repair",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8936fa1691764912d9519e1b5673ea66-Abstract-Conference.html",
         "outcome": "no-evidence",
-        "note": "赵浩宇有署名，两位复旦导师均不在作者表。"
+        "note": "赵浩宇有署名，两位复旦导师均不在作者表。",
+        "year": 2026
       },
       {
         "title": "UniCam: Taming Unified Diffusion Models in Noise Space for Camera-controllable Video Rendering",
         "url": "https://rdcu.be/fhEZc",
         "outcome": "no-evidence",
-        "note": "本人列三位作者均为复旦；未见企业作者。"
+        "note": "本人列三位作者均为复旦；未见企业作者。",
+        "year": 2025
       },
       {
         "title": "UniAdapter: All-in-One Control for Flexible Video Generation",
         "url": "https://dblp.org/db/journals/tcsv/tcsv35.html",
         "outcome": "no-evidence",
-        "note": "学生在该项华为研究作者表，两位复旦导师均不在刊物署名。"
+        "note": "学生在该项华为研究作者表，两位复旦导师均不在刊物署名。",
+        "year": 2025
       },
       {
         "title": "EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation",
         "url": "https://arxiv.org/abs/2503.15831",
         "outcome": "existing",
-        "note": "已有同一论文关系，以第一作者张子豪纳入。"
+        "note": "已有同一论文关系，以第一作者张子豪纳入。",
+        "year": 2025
       },
       {
         "title": "SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL",
         "url": "https://arxiv.org/pdf/2504.11455",
         "outcome": "confirmed",
-        "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
+        "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。",
+        "year": 2025
       },
       {
         "year": 2026,
@@ -110,7 +133,8 @@ const facultyPaperAudits = {
         "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
         "url": "https://arxiv.org/abs/2606.13674",
         "outcome": "lead",
-        "note": "原文公司同事共同署名。王君可另具名 Robbyant 的 LingBot-VA 2.0 项目，但无独立材料支持此篇亦为他的企业研究实习成果。"
+        "note": "原文公司同事共同署名。王君可另具名 Robbyant 的 LingBot-VA 2.0 项目，但无独立材料支持此篇亦为他的企业研究实习成果。",
+        "year": 2026
       },
       {
         "year": 2024,
@@ -139,9 +163,149 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_BlockDance_Reuse_Structurally_Similar_Spatio-Temporal_Features_to_Accelerate_Diffusion_Transformers_CVPR_2025_paper.pdf",
         "outcome": "confirmed",
         "note": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究缓存扩散模型中冗余块以加速图像生成，对应张辉简历所列字节实习任务中的高效图像生成；2025-03 首稿具名第一作者复旦／字节智能创作双署，正式 CVPR 卷有字节项目 CT20230914000147 的明确致谢。姜育刚未署名，因此这里只登记吴祖煊。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。"
+      },
+      {
+        "year": 2026,
+        "title": "ActiveMimic: Egocentric Video Pretraining with Active Perception",
+        "url": "https://arxiv.org/abs/2606.06194",
+        "outcome": "no-evidence",
+        "note": "CoRL 研究实际企业署名为 Current Robotics，非项目所覆盖 14 家。"
+      },
+      {
+        "year": 2026,
+        "title": "Baton: Explicit Semantic Blueprints for Joint Video-Audio Generation",
+        "url": "https://arxiv.org/abs/2605.25195",
+        "outcome": "lead",
+        "note": "首稿在 2026-05；第一作者涂树源复旦／腾讯双署，腾讯 Jian-Wei Zhang 为项目负责人。本人网页的“2026-06 复旦人工智能工学硕士”在 GitHub 2023-05-12 的版本已经写入，属于当时预计路径，不能据此确认实际毕业；FVL 名录则将其列入 2023 级博士生。学籍类型与后续状态仍待校方学位材料。 仍缺校内具名导师与该生企业实研独立证据。"
+      },
+      {
+        "year": 2026,
+        "title": "CreatiDesign: A Unified Multi-Conditional Diffusion Transformer for Creative Graphic Design",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b46b78c353f672d83997d4cce5f1b0fb-Abstract-Conference.html",
+        "outcome": "existing",
+        "note": "现有字节关系。首稿 2505.19114 落在张辉字节实习期；原文及公布的项目有字节项目负责人 Jie Shao、复旦两位具名博士导师。"
+      },
+      {
+        "year": 2026,
+        "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment",
+        "url": "https://arxiv.org/abs/2610.22186",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 工作原文具名复旦与 OPPO AI Center，OPPO 不在站内范围。王君可是复旦署名，不能依据其在字节的其他论文增加本章关系。"
+      },
+      {
+        "year": 2026,
+        "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
+        "url": "https://arxiv.org/abs/2512.16900",
+        "outcome": "lead",
+        "note": "2025-12 首稿，CVPR 2026 正式版；吴祖煊署名。同组涂树源与黄音铭均标复旦，正式文同篇有腾讯和微软，但未核对到二人任一参加该腾讯研究的明确材料。姜育刚未署名，不记。本人网页的“2026-06 复旦人工智能工学硕士”在 GitHub 2023-05-12 的版本已经写入，属于当时预计路径，不能据此确认实际毕业；FVL 名录则将其列入 2023 级博士生。学籍类型与后续状态仍待校方学位材料。"
+      },
+      {
+        "year": 2026,
+        "title": "FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xie_FluxMem_Adaptive_Hierarchical_Memory_for_Streaming_Video_Understanding_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式首页列复旦、上海创智学院、上海多模态具身实验室与马里兰大学。虽有王君可，其他字节作品不构成本篇企业研发。"
+      },
+      {
+        "year": 2026,
+        "title": "Ideal: In-DEpth ALignment Makes A Discrete Representation AutoEncoder",
+        "url": "https://arxiv.org/abs/2606.11096",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2026；两位导师及王君可具名，同篇作者仅标复旦、上海创智学院、马里兰大学，未发现具体目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation",
+        "url": "https://arxiv.org/html/2609.39507",
+        "outcome": "no-evidence",
+        "note": "原文只列复旦与上海创智学院。共同作者 Houze Xu 从 2026 年 9 月在复旦读博并由吴祖煊和叶子逸指导；同篇无目标企业作者或实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Prism: Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training",
+        "url": "https://arxiv.org/abs/2610.05416",
+        "outcome": "lead",
+        "note": "首稿 2026-10；腾讯官方仓库 ‡ 脚注明确涂树源在混元实习完成此项研究；企业项目负责人 Jian-Wei Zhang 自述 2023 年起任职混元。本人网页的“2026-06 复旦人工智能工学硕士”在 GitHub 2023-05-12 的版本已经写入，属于当时预计路径，不能据此确认实际毕业；FVL 名录则将其列入 2023 级博士生。学籍类型与后续状态仍待校方学位材料。 仍未核定实际研究阶段在读身份及具名校内导师。"
+      },
+      {
+        "year": 2026,
+        "title": "Seeing Touch from Motion: A Unified Modality-Aware Visuo-Tactile Policy with Tactile Motion Correlation",
+        "url": "https://arxiv.org/html/2606.29941",
+        "outcome": "no-evidence",
+        "note": "复旦博士第一作者许晟旗本人具名吴祖煊导师，原文同时署 Neote AI 并列其触觉传感器；该企业和其他署名单位均不在标准 14 家。"
+      },
+      {
+        "year": 2026,
+        "title": "StableAvatar: Ultra-Long Audio-Driven Avatar Video Generation",
+        "url": "https://www.microsoft.com/en-us/research/publication/stableavatar-ultra-long-audio-driven-avatar-video-generation/",
+        "outcome": "lead",
+        "note": "微软正式公布 NeurIPS 2026 版，2025 arXiv Infinite-Length 是同文。作者原始项目页明确涂树源只署复旦，另列微软与腾讯员工；未找到复旦学生在腾讯完成这篇的证据。本人网页的“2026-06 复旦人工智能工学硕士”在 GitHub 2023-05-12 的版本已经写入，属于当时预计路径，不能据此确认实际毕业；FVL 名录则将其列入 2023 级博士生。学籍类型与后续状态仍待校方学位材料。"
+      },
+      {
+        "year": 2026,
+        "title": "Steering the Verifiability of Multimodal AI Hallucinations",
+        "url": "https://arxiv.org/html/2604.06714",
+        "outcome": "no-evidence",
+        "note": "Pang 本人明确吴祖煊与叶子逸为复旦硕士导师；首稿几位作者仅署复旦及其校内省部级实验室，无目标企业作者或具体企业研发参与。"
+      },
+      {
+        "year": 2026,
+        "title": "ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2606.17937",
+        "outcome": "no-evidence",
+        "note": "CoRL 原文具名中国联通及 Neote AI，均在范围外；所署复旦学生的其他实习经历不能代替此文参与证据。"
+      },
+      {
+        "year": 2026,
+        "title": "VLZip: Unified Visual and Textual Compression for Interleaved Long-Context Modeling",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37550-6_11",
+        "outcome": "lead",
+        "note": "原文 2608.08630 首页明确张宇琪在蚂蚁实习完成本工作；ORCID 0009-0005-8059-5976 与正式 DOI 给出作者同一中文姓名与复旦归属，与复旦本科生同名且经历时间吻合，复旦校方公示本科为 2025 届，自述 2025-09 起仍有复旦归属，但未标学籍类型；未找到其当期在读和吴/姜哪位是校内导师的独立原证。"
+      },
+      {
+        "year": 2025,
+        "title": "AdaDiff: Adaptive Step Selection for Fast Diffusion Models",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33075",
+        "outcome": "lead",
+        "note": "AAAI 正式版张辉复旦与字节双署，Jie Shao 字节同篇；但 2311.14768v1 是 2023-11-24 且他只署复旦，早于简历所载 2024-01 字节实习。未证明实习期间完成本篇何种实质新增工作。"
+      },
+      {
+        "year": 2025,
+        "title": "DiffusionAD: Norm-Guided One-Step Denoising Diffusion for Anomaly Detection",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3570494",
+        "outcome": "no-evidence",
+        "note": "2023-03 首稿仅张辉、复旦两位导师和浙江工业大学作者，正式 IEEE TPAMI 亦无华为任职的共同作者。张辉毕业履历虽明确 2022-03 至 2023-03 华为做过异常检测，不能推定此论文有三方。"
+      },
+      {
+        "year": 2025,
+        "title": "MagicMotion: Controllable Video Generation with Dense-to-Sparse Trajectory Guidance",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicMotion_Controllable_Video_Generation_with_Dense-to-Sparse_Trajectory_Guidance_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "复旦与微软亚洲研究院合作；张辉、吴祖煊同篇，正式稿未署目标企业，姜育刚未署名。"
+      },
+      {
+        "year": 2025,
+        "title": "MotionFollower: Editing Video Motion via Score-Guided Diffusion",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tu_MotionFollower_Editing_Video_Motion_via_Score-Guided_Diffusion_ICCV_2025_paper.pdf",
+        "outcome": "lead",
+        "note": "正式版学生涂树源、张子豪均署复旦，腾讯韩欣彤和微软亚洲研究院人同篇。张子豪的同期明确实习为华为；未证实任一复旦学生在腾讯完成这篇。本人网页的“2026-06 复旦人工智能工学硕士”在 GitHub 2023-05-12 的版本已经写入，属于当时预计路径，不能据此确认实际毕业；FVL 名录则将其列入 2023 级博士生。学籍类型与后续状态仍待校方学位材料。"
+      },
+      {
+        "year": 2025,
+        "title": "Seg2Any: Open-set Segmentation-Mask-to-Image Generation with Precise Shape and Semantic Control",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/017728c91013c742d07d67a6403f6e74-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "正式版具名吴祖煊、张辉同篇；研究端同篇企业仅 HiThink Research（同花顺，超研究范围），张辉本人在字节期间也不能据此认定字节参与。未收姜育刚，因其未署名。"
+      },
+      {
+        "year": 2023,
+        "title": "Prototypical Residual Networks for Anomaly Detection and Localization",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Prototypical_Residual_Networks_for_Anomaly_Detection_and_Localization_CVPR_2023_paper.html",
+        "outcome": "no-evidence",
+        "note": "正式 CVF 首页为复旦、浙江工业大学与上海市协同创新中心；与张辉在华为实习题目相近，未有该企业工作证据或同篇华为员工。"
       }
     ],
-    "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
+    "note": "以复旦 FVL 正式书目、导师及作者公开记录、出版社原文交叉逐篇核查。当前补入多个作者的近期书目；全期未穷尽，仍为梳理中。同篇多版本和多导师按论文去重。"
   },
   "f3_FP8AAAAAJ": {
     "from": "2023-01-01",
@@ -728,7 +892,10 @@ const facultyPaperAudits = {
       "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
       "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026/blob/main/docs/GaugeAlign.pdf",
       "https://www.sina.cn/news/detail/5346306543586269.html",
-      "https://dk-liang.github.io/#students"
+      "https://dk-liang.github.io/#students",
+      "https://aia.hust.edu.cn/info/1485/8596.htm",
+      "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
+      "https://h-embodvis.github.io/TurboVLA/"
     ],
     "papers": [
       {
@@ -806,9 +973,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
-        "url": "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
-        "note": "原文和项目页点名 Kaijin Chen 为快手实习生；梁定康名录已列在 2026 级博士（两位导师）。3 月发表早于常规秋季入学，需找到项目期间在读并受指导的依据。",
-        "outcome": "lead"
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.25716v2",
+        "outcome": "lead",
+        "note": "作者稿与项目主页把首作者陈楷锦具名为快手可灵实习期间完成此研究，作者组也有快手万鹏飞等。学校本科名单可对照该生；两位同篇高校作者的公开名录写为 2026 年起博士共同指导，仍缺 3 月首发时的具名指导安排。"
       },
       {
         "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
@@ -850,10 +1018,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
-        "url": "https://arxiv.org/html/2607.27205v1",
         "year": 2026,
+        "url": "https://arxiv.org/abs/2607.27205v1",
         "outcome": "lead",
-        "note": "原文具名华为作者 Xuanyang Xi、Yiping Tang、Di Xu，并列梁定康为项目负责人；第一作者团队均署名华中科技大学，导师个人名录中具名列共同作者 Xianjin Wu 为与白翔共同指导的博士生，但尚缺具名学生在华为参与同一项研究的证据。"
+        "note": "第一版 arXiv 及官方项目列三位华为同篇作者，现行第三版在参考稿中移除三位华为作者；尚无项目说明明确列学生参与企业研发的分工、任职时间或版本变动原因，不据旧署名确认为关系。"
       },
       {
         "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
@@ -7377,7 +7545,41 @@ const facultyPaperAudits = {
       "https://www.isca-archive.org/interspeech_2023/wang23o_interspeech.html",
       "https://www.isca-archive.org/interspeech_2023/wang23o_interspeech.pdf",
       "https://www.isca-archive.org/interspeech_2023/gao23c_interspeech.html",
-      "https://www.isca-archive.org/interspeech_2023/gao23c_interspeech.pdf"
+      "https://www.isca-archive.org/interspeech_2023/gao23c_interspeech.pdf",
+      "https://doi.org/10.1609/aaai.v40i38.40516",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/40516/44477",
+      "https://home.chenxing.li/",
+      "https://aaai.org/wp-content/uploads/2025/11/main-track-poster-presentations-251120-2.pdf",
+      "https://doi.org/10.1609/aaai.v40i29.39603",
+      "https://arxiv.org/pdf/2405.17678",
+      "https://pure.au.dk/portal/da/publications/tima-text-image-mutual-awareness-for-balancing-zero-shot-adversar/",
+      "https://doi.org/10.1609/aaai.v40i39.40643",
+      "https://arxiv.org/pdf/2506.04134v1",
+      "https://arxiv.org/pdf/2506.04134v4",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/40643/44604",
+      "https://doi.org/10.1609/aaai.v40i36.40323",
+      "https://arxiv.org/pdf/2603.05231",
+      "https://imxtx.github.io/publications/",
+      "https://doi.org/10.1609/aaai.v40i2.37067",
+      "https://arxiv.org/pdf/2508.08334",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/37067/41029",
+      "https://aclanthology.org/2026.findings-acl.232/",
+      "https://aclanthology.org/2026.findings-acl.232.pdf",
+      "https://aclanthology.org/people/li-liu-0135/",
+      "https://doi.org/10.1109/TASLPRO.2026.3654246",
+      "https://researchportal.hkust.edu.hk/en/publications/semantic-modulated-prompting-for-few-shot-audio-visual-classifica/",
+      "https://github.com/DennisHgj/SMP_FSAVC",
+      "https://aclanthology.org/2025.emnlp-main.1133/",
+      "https://aclanthology.org/2025.emnlp-main.1133.pdf",
+      "https://www.yingcong.me/publication/2025-zhang-orchestrating/",
+      "https://zyh-lightyear.github.io/",
+      "https://doi.org/10.1609/aaai.v39i15.33770",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33770/35925",
+      "https://doi.org/10.1609/aaai.v39i25.34828",
+      "https://arxiv.org/pdf/2408.15861",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/34828",
+      "https://doi.org/10.1109/ICASSP49660.2025.10888246",
+      "https://ieeexplore.ieee.org/document/10888246/"
     ],
     "papers": [
       {
@@ -7631,9 +7833,86 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "官方全文署港科大（广州）及深圳市大数据研究院；未见范围内企业作者或具名企业实习。",
         "year": 2023
+      },
+      {
+        "title": "Cueing Without Gapping: Cuer-Independent Cued Speech Recognition Powered by Cross-Cuer Invariant Modeling",
+        "url": "https://doi.org/10.1609/aaai.v40i38.40516",
+        "outcome": "lead",
+        "note": "AAAI 原文首页署 Fengji Ma 与刘李为港科大（广州），李辰星（Chenxing Li）为腾讯 AI Lab。尚无可复现来源确认第一作者的同期学籍、具名指导与其在腾讯完成同篇研究的时段。保留为线索。",
+        "year": 2026
+      },
+      {
+        "title": "TIMA: Text-Image Mutual Awareness for Balancing Zero-Shot Adversarial Robustness and Generalization Ability",
+        "url": "https://doi.org/10.1609/aaai.v40i29.39603",
+        "outcome": "lead",
+        "note": "原稿首页列港科大（广州）Fengji Ma、刘李，及腾讯 AI Lab 李辰星。致谢列 2025 年 Tencent AI Lab Rhino-Bird Program 资助；没有具名实习脚注或其他公开来源确认第一作者在腾讯完成同篇研究。2024 arXiv 与 2026 AAAI 正式发表合并。",
+        "year": 2026
+      },
+      {
+        "title": "UniCUE: Unified Recognition and Generation Framework for Chinese Cued Speech Video-to-Speech Generation",
+        "url": "https://doi.org/10.1609/aaai.v40i39.40643",
+        "outcome": "lead",
+        "note": "论文首版 2025-06 已列腾讯 Shan Yang；AAAI 最终版另列两位腾讯作者。汪金婷本人说明 2023 起在港科大（广州）读博、由刘李指导及 2023–24 腾讯实习，论文谢腾讯资助；首版公开日晚于履历所列实习，未找到直接把 UniCUE 归入实习的原始证据。",
+        "year": 2026
+      },
+      {
+        "title": "Boosting ASR Robustness via Test-Time Reinforcement Learning with Audio-Text Semantic Rewards",
+        "url": "https://doi.org/10.1609/aaai.v40i36.40323",
+        "outcome": "no-evidence",
+        "note": "AAAI 同题作者稿首页仅港科大（广州）和慕尼黑工业大学，致谢列国家自然科学基金等。谢天新公开经历记录腾讯实习，但未找到本篇与该实习的联系，且未见目标企业员工署名。",
+        "year": 2026
+      },
+      {
+        "title": "HSA-Net: Hierarchical and Structure-Aware Framework for Efficient and Scalable Molecular Language Modeling",
+        "url": "https://doi.org/10.1609/aaai.v40i2.37067",
+        "outcome": "no-evidence",
+        "note": "作者稿所列机构仅港科大（广州）与暨南大学。虽致谢列 CCF–Tencent Rhino-Bird Open Research Fund，无腾讯署名作者，也未找到同篇企业研究证据；2025 预印本并入 2026 AAAI 正式论文。",
+        "year": 2026
+      },
+      {
+        "title": "CAGenMol: Condition-Aware Diffusion Language Model for Goal-Directed Molecular Generation",
+        "url": "https://aclanthology.org/2026.findings-acl.232/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式论文首页列港科大（广州）和暨南大学、刘李校方电邮。公开原文未见目标企业合著者或具名学生参与企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "Semantic Modulated Prompting for Few-Shot Audio-Visual Classification",
+        "url": "https://doi.org/10.1109/TASLPRO.2026.3654246",
+        "outcome": "no-evidence",
+        "note": "港科大学术门户确认刘李通讯作者、五位署名、正式刊发日 2026-01-14。第一作者发布代码及数据，但公开项目没有标示指定企业参与；未找到三方关系。",
+        "year": 2026
+      },
+      {
+        "title": "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis",
+        "url": "https://aclanthology.org/2025.emnlp-main.1133/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式论文首页仅港科大（广州）与香港科大。第一作者主页列其博士导师陈英聪，现任实习单位 Knowin AI 不在调查企业范围；未见与本篇相关的目标企业同篇合作证据。",
+        "year": 2025
+      },
+      {
+        "title": "Few-Shot Audio-Visual Class-Incremental Learning with Temporal Prompting and Regularization",
+        "url": "https://doi.org/10.1609/aaai.v39i15.33770",
+        "outcome": "no-evidence",
+        "note": "正式原文首页五名作者分别来自港理工、港科大（广州）、大湾区大学和哈工大；联系地址确认刘李本人。未找到目标企业署名或同篇企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "Fusing Pruned and Backdoored Models: Optimal Transport-based Data-free Backdoor Mitigation",
+        "url": "https://doi.org/10.1609/aaai.v39i25.34828",
+        "outcome": "no-evidence",
+        "note": "预印本列港科大（广州）、深圳市大数据研究院与港中深，未找到指定企业作者或具名学生在企业完成同篇研究；2024 预印本并入 2025 正式发表。",
+        "year": 2025
+      },
+      {
+        "title": "Inter- and Intra-Sentence Cuer-Invariant Representation Learning for Generalizable Cued Speech Recognition",
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10888246",
+        "outcome": "no-evidence",
+        "note": "第一作者完整目录和 IEEE 论文记录同列谢天新与刘李两名作者。本人记录腾讯实习从 2025-11 开始，晚于该届 2025-04 ICASSP，未找到其他企业参与。",
+        "year": 2025
       }
     ],
-    "note": "部分已查：香港科大（广州）作者身份及论文分别从本人书目、ORCID、ACM、IEEE、ISCA 原始文献核验。未完成其他年份与同名书目消歧。"
+    "note": "部分已查。以本人书目、港科大校方、原始会议和论文核对，共 47 篇；ACL Anthology 的六篇归集已逐篇对照，补查 2025/2026 AAAI 和 ICASSP 子集。本人主页只列精选论文，同名 DBLP 未完成逐条消歧，其他会刊仍待整理。腾讯资助或同期实习但无同篇项目证据的仅留线索。"
   },
   "cVDF1tkAAAAJ": {
     "from": "2023-01-01",
@@ -17476,7 +17755,10 @@ const facultyPaperAudits = {
       "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
       "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026/blob/main/docs/GaugeAlign.pdf",
       "https://www.sina.cn/news/detail/5346306543586269.html",
-      "https://dk-liang.github.io/#students"
+      "https://dk-liang.github.io/#students",
+      "https://aia.hust.edu.cn/info/1485/8596.htm",
+      "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
+      "https://h-embodvis.github.io/TurboVLA/"
     ],
     "papers": [
       {
@@ -17487,9 +17769,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
-        "url": "https://kj-chen666.github.io/Hybrid-Memory-in-Video-World-Models/",
-        "note": "原文和项目页点名 Kaijin Chen 为快手实习生；梁定康名录已列在 2026 级博士（两位导师）。3 月发表早于常规秋季入学，需找到项目期间在读并受指导的依据。",
-        "outcome": "lead"
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.25716v2",
+        "outcome": "lead",
+        "note": "作者稿与项目主页把首作者陈楷锦具名为快手可灵实习期间完成此研究，作者组也有快手万鹏飞等。学校本科名单可对照该生；两位同篇高校作者的公开名录写为 2026 年起博士共同指导，仍缺 3 月首发时的具名指导安排。"
       },
       {
         "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
@@ -17531,10 +17814,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
-        "url": "https://arxiv.org/html/2607.27205v1",
         "year": 2026,
+        "url": "https://arxiv.org/abs/2607.27205v1",
         "outcome": "lead",
-        "note": "原文具名华为作者 Xuanyang Xi、Yiping Tang、Di Xu，并列梁定康为项目负责人；第一作者团队均署名华中科技大学，导师个人名录中具名列共同作者 Xianjin Wu 为与白翔共同指导的博士生，但尚缺具名学生在华为参与同一项研究的证据。"
+        "note": "第一版 arXiv 及官方项目列三位华为同篇作者，现行第三版在参考稿中移除三位华为作者；尚无项目说明明确列学生参与企业研发的分工、任职时间或版本变动原因，不据旧署名确认为关系。"
       },
       {
         "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
@@ -34309,9 +34592,30 @@ const facultyPaperAudits = {
       {
         "year": 2025,
         "title": "ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context",
-        "url": "https://ojs.aaai.org/index.php/AAAI/search/search?query=ContextualStory",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33153",
         "outcome": "no-evidence",
         "note": "郑思晓与复旦博士导师付彦伟两名作者，无第三位同期企业员工；主题与华为实习研究有交集也不补推。"
+      },
+      {
+        "year": 2026,
+        "title": "ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation",
+        "url": "https://arxiv.org/abs/2601.08325",
+        "outcome": "no-evidence",
+        "note": "复旦博士第一作者 Zhenyang Liu 自述 2025-09 起在腾讯混元研究实习，校内导师包括付彦伟和薛向阳。但原文只列复旦、上海创智、南洋理工，腾讯官方相关成果另为 HY-World 2.0；此篇无腾讯员工或项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery",
+        "url": "https://yichangliu1224.github.io/EEG-Graspbot/",
+        "outcome": "no-evidence",
+        "note": "ICRA 正式论文的作者项目页具名两位通讯叶子逸和王守岩，参与研究的单位是复旦、上海创智、苏黎世联邦理工与校内实验室；无目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control",
+        "url": "https://arxiv.org/abs/2507.01424",
+        "outcome": "no-evidence",
+        "note": "ACM MM 2026 正式节目与 arXiv 指定作者均为复旦；虽郑思晓曾在多个企业实习，但未见本文具名企业作者或相应项目，不计。"
       }
     ],
     "note": "以教师公开书目、作者项目及正式出版社交叉核验，逐篇补入；尚在梳理。"
