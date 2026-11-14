@@ -62,10 +62,11 @@ function facultyTitleValues(person) {
   return values;
 }
 
-function setTitleOptions(selected) {
+function setTitleOptions(selected = facultyTitle.value) {
   const titles = new Set();
-  for (const departments of Object.values(snapshot)) {
-    for (const { people } of departments) {
+  const schools = facultySchool.value ? [facultySchool.value] : survey.schools.map(([name]) => name);
+  for (const school of schools) {
+    for (const { people } of directoryDepartments(school)) {
       for (const person of people) for (const value of facultyTitleValues(person)) titles.add(value);
     }
   }
@@ -73,12 +74,14 @@ function setTitleOptions(selected) {
   const regular = facultyTitleOptions.map(([label]) => label);
   const other = [...titles].filter(label => !regular.includes(label) && !levels.includes(label) && label !== '待核实')
     .sort((a, b) => a.localeCompare(b, 'zh-CN'));
-  facultyTitle.append(...[...regular, ...other].filter(label => titles.has(label)).map(label => new Option(label, label)));
+  facultyTitle.replaceChildren(new Option('全部职称', ''),
+    ...[...regular, ...other].filter(label => titles.has(label)).map(label => new Option(label, label)));
   const group = element('optgroup');
   group.label = '仅有职称层级';
   group.append(...levels.filter(label => titles.has(label)).map(label => new Option(label, label)));
   if (group.childElementCount) facultyTitle.append(group);
   if (titles.has('待核实')) facultyTitle.append(new Option('职称待核实', '待核实'));
+  facultyTitle.disabled = !titles.size;
   facultyTitle.value = titles.has(selected) ? selected : '';
 }
 
@@ -354,12 +357,12 @@ function setupFacultyDirectory() {
     location.replace(facultyDirectoryPages[destination] + url.search + url.hash);
     return;
   }
-  if (url.href !== location.href) history.replaceState(null, '', url);
-
   addOptions(facultySchool, survey.schools);
   facultySchool.value = school;
   facultyQuery.value = params.get('q') || '';
   setTitleOptions(params.get('title'));
+  if (!facultyTitle.value) params.delete('title');
+  if (url.href !== location.href) history.replaceState(null, '', url);
   setDepartmentOptions(linkedUnit && selectedUnit !== linkedUnit ? '' : selectedDepartment);
   updateDirectoryLinks();
   get('faculty-filters').addEventListener('submit', event => event.preventDefault());
@@ -369,6 +372,7 @@ function setupFacultyDirectory() {
   });
   facultySchool.addEventListener('change', () => {
     setDepartmentOptions();
+    setTitleOptions();
     applyFacultyFilters();
   });
   facultyDepartment.addEventListener('change', applyFacultyFilters);
