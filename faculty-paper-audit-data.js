@@ -11861,7 +11861,20 @@ const facultyPaperAudits = {
       "https://chaofengc.github.io/data/members.json",
       "https://dblp.org/pid/198/2537.html",
       "https://mc-lan.github.io/",
-      "https://chaofengc.github.io/assets/Resume_ChenChaofeng_en.pdf"
+      "https://chaofengc.github.io/assets/Resume_ChenChaofeng_en.pdf",
+      "https://personal.ntu.edu.sg/wslin/Publications.html",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502268224252137",
+      "https://hub.hku.hk/handle/10722/324698",
+      "https://research.ibm.com/publications/deep-face-video-inpainting-via-uv-mapping",
+      "https://doi.org/10.1109/TCSVT.2023.3249741",
+      "https://doi.org/10.1109/TPAMI.2023.3319332",
+      "https://arxiv.org/abs/2211.04894",
+      "https://doi.org/10.1016/j.cviu.2023.103775",
+      "https://i.cs.hku.hk/~kykwong/research.html",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502235070908372",
+      "https://cvlai.net/ntire/2023/",
+      "https://pubmed.ncbi.nlm.nih.gov/39236121/",
+      "https://dblp.org/db/journals/tmm/tmm28.html"
     ],
     "papers": [
       {
@@ -12080,6 +12093,83 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "no-evidence",
         "note": "2023 年 AAAI 正式发表，原文另列深圳市气象局、港中大（深圳）、爱丁堡大学和南洋理工大学，没有范围内企业署名。"
+      },
+      {
+        "title": "Toward Transparent Deep Image Aesthetics Assessment With Tag-Based Content Descriptors",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37647188/",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "期刊正式卷期与合作者书目均列 2025 年。JST 逐名列南洋理工大学、江西财经大学及新加坡科技研究局；未见范围内的企业作者。"
+      },
+      {
+        "title": "Deep Face Video Inpainting via UV Mapping",
+        "url": "https://i.cs.hku.hk/~kykwong/publications/wyang_tip2023.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "正式稿和 IBM 研究院均列 MIT-IBM；后者不在调查企业范围。第一作者杨文琦由港大黄启桢指导，但无范围内企业研究证据。"
+      },
+      {
+        "title": "DisCoVQA: Temporal Distortion-Content Transformers for Video Quality Assessment",
+        "url": "https://arxiv.org/html/2206.09853",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2023 年期刊正式版与 2022 年预印本合并。公开稿作者来自南洋理工大学及商汤，未见范围内企业。"
+      },
+      {
+        "title": "Neighbourhood Representative Sampling for Efficient End-to-End Video Quality Assessment",
+        "url": "https://arxiv.org/html/2210.05357",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "TPAMI 正式卷期 2023 年；公开稿逐名列南洋理工大学、商汤及其相关研究团队，未见范围内企业。"
+      },
+      {
+        "title": "Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Exploring_Video_Quality_Assessment_on_User_Generated_Contents_from_Aesthetic_ICCV_2023_paper.html",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICCV 原文作者署南洋理工大学、商汤和 Tetras AI；该篇与 2022 年公开稿合并，没有范围内企业。"
+      },
+      {
+        "title": "Semi-supervised Cycle-GAN for face photo-sketch translation in the wild",
+        "url": "https://arxiv.org/html/2307.10281",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "原文署港大、商汤和百度，陈超锋是原港大博士生，非以武大教师身份参与。港大导师已具名，但公开履历仅记录腾讯与阿里实习，尚无参与该篇百度研究的证据。"
+      },
+      {
+        "title": "Continual Learning of No-Reference Image Quality Assessment With Channel Modulation Kernel",
+        "url": "https://doi.org/10.1109/TCSVT.2024.3443414",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "期刊书目及 JST 逐名作者单位一致，为哈工大和南洋理工大学；无范围内企业。"
+      },
+      {
+        "title": "NTIRE 2023 Quality Assessment of Video Enhancement Challenge",
+        "url": "https://arxiv.org/abs/2307.09729",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "竞赛报告有多个独立团队。附录将陈超锋列作南洋理工队；阿里队确有具名实习脚注，但没有陈与北邮实习生的指导关系，且不属于同竞赛队伍。"
+      },
+      {
+        "title": "Blind Video Quality Prediction by Uncovering Human Video Perceptual Representation",
+        "url": "https://doi.org/10.1109/TIP.2024.3445738",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IEEE 刊期与 PubMed 为 2024 年。题录中作者单位含武大、南洋理工、商汤及南加州大学；陈超锋署南洋理工，无范围内的企业署名。"
+      },
+      {
+        "title": "Denoised Semantic Features for Local Consistent No-Reference Image Quality Assessment",
+        "url": "https://doi.org/10.1109/TMM.2025.3632644",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "正式卷期、作者书目及 DBLP 均确认，署名作者身份已交叉核对。尚未获得完整原文作者归属页或其他可核实的企业参研材料。"
+      },
+      {
+        "title": "Prompt-Image-Caption Consistency for AI-Generated Image Quality Assessment",
+        "url": "https://doi.org/10.1109/TMM.2026.3668530",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "作者书目及期刊题录一致。暂未找到完整的原文署名单位和在读学生参与该篇企业研究的依据。"
       }
     ],
     "note": "已逐篇对照个人主页公开题录中的若干成果、原文和课题组名单。个人书目与外部书目覆盖不同，仍在核对其余公开论文。"
@@ -12167,7 +12257,20 @@ const facultyPaperAudits = {
       "https://ieee-icde.org/2025/tkde-poster/",
       "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/",
       "https://arxiv.org/pdf/2112.11628v1",
-      "https://doi.org/10.1109/TKDE.2024.3374701"
+      "https://doi.org/10.1109/TKDE.2024.3374701",
+      "https://openreview.net/pdf/2ccd1b76d0208b2325e06a3781b52be8213f32ce.pdf",
+      "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
+      "https://arxiv.org/abs/2408.00662",
+      "https://arxiv.org/html/2510.09394",
+      "https://arxiv.org/html/2507.19031",
+      "https://arxiv.org/abs/2412.08144",
+      "https://papers.nips.cc/paper_files/paper/2025/hash/3dae45d23a505e42c86afdcfa6867a46-Abstract-Conference.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29328/30505",
+      "https://doi.org/10.1145/3774904.3792111",
+      "https://doi.org/10.1145/3774904.3792115",
+      "https://doi.org/10.1109/TKDE.2025.3607765",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/39587/43548",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/34107/36262"
     ],
     "papers": [
       {
@@ -12232,9 +12335,58 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TKDE.2024.3374701",
         "outcome": "no-evidence",
         "note": "2021 年首稿及京东实习已核实；师生履历显示管子玉为 2022 年起博士导师，未见其在本篇 2021 年研究期间担任校内导师的独立证据。"
+      },
+      {
+        "title": "Defining and Discovering Hyper-meta-paths for Heterogeneous Hypergraphs",
+        "year": 2025,
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/3dae45d23a505e42c86afdcfa6867a46-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 会稿作者单位只有西电和香港科技大学。"
+      },
+      {
+        "title": "NodeMixup: Tackling Under-Reaching for Graph Neural Networks",
+        "year": 2024,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29328/30505",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版全部作者列西电。"
+      },
+      {
+        "title": "Aligning Multiple Knowledge Graphs in a Single Pass",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792111",
+        "outcome": "no-evidence",
+        "note": "ACM 论文集作者仅列西安电子科技大学（计科、人工智能）、香港科技大学和浙江大学。2024 年预印本按同篇。"
+      },
+      {
+        "title": "Beyond Single-Granularity Prompts: A Multi-Scale Chain-of-Thought Prompt Learning for Graph",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792115",
+        "outcome": "no-evidence",
+        "note": "作者提交 2025 预印本列西安电子科技大学和香港科技大学，正式论文与预印本同篇。"
+      },
+      {
+        "title": "Unsupervised Entity Alignment Based on Personalized Discriminative Rooted Tree",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TKDE.2025.3607765",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 37 卷作者单位仅西安电子科技大学和浙江大学。"
+      },
+      {
+        "title": "ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39587/43548",
+        "outcome": "lead",
+        "note": "AAAI 研究有京东探索研究院作者，陆维港 2025 年夏已博士毕业，公开履历的京东实习是 2021 年，不能关联到这篇；未查到同篇西电学生作者具体参与企业项目的材料。"
+      },
+      {
+        "title": "AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34107/36262",
+        "outcome": "lead",
+        "note": "有京东探索研究院正式署名；陆维港本人履历仅列 2021 年京东实习，2024 年首版和 2025 年正式版均未指出同篇学生参与京东具体项目，仍待核对。"
       }
     ],
-    "note": "公开书目仍在梳理；阿里公开合著与京东实习材料分别留线索，待补同篇学生工作或指导证据。"
+    "note": "公开书目仍在梳理；京东案例按每篇论文的脚注及同期在读、实习材料独立核对。"
   },
   "OyzZmeAAAAAJ": {
     "from": "2023-01-01",
@@ -12258,7 +12410,20 @@ const facultyPaperAudits = {
       "https://ieee-icde.org/2025/tkde-poster/",
       "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/",
       "https://arxiv.org/pdf/2112.11628v1",
-      "https://doi.org/10.1109/TKDE.2024.3374701"
+      "https://doi.org/10.1109/TKDE.2024.3374701",
+      "https://openreview.net/pdf/2ccd1b76d0208b2325e06a3781b52be8213f32ce.pdf",
+      "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
+      "https://arxiv.org/abs/2408.00662",
+      "https://arxiv.org/html/2510.09394",
+      "https://arxiv.org/html/2507.19031",
+      "https://arxiv.org/abs/2412.08144",
+      "https://papers.nips.cc/paper_files/paper/2025/hash/3dae45d23a505e42c86afdcfa6867a46-Abstract-Conference.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29328/30505",
+      "https://doi.org/10.1145/3774904.3792111",
+      "https://doi.org/10.1145/3774904.3792115",
+      "https://doi.org/10.1109/TKDE.2025.3607765",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/39587/43548",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/34107/36262"
     ],
     "papers": [
       {
@@ -12330,9 +12495,58 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TKDE.2024.3374701",
         "outcome": "confirmed",
         "note": "2019–2021 西电硕导由陆维港本人具名核实；2021 首稿脚注明确京东探索研究院实习完成，同篇京东院长任职独立核验。按 2024 正式期刊版计入。"
+      },
+      {
+        "title": "Defining and Discovering Hyper-meta-paths for Heterogeneous Hypergraphs",
+        "year": 2025,
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/3dae45d23a505e42c86afdcfa6867a46-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 会稿作者单位只有西电和香港科技大学。"
+      },
+      {
+        "title": "NodeMixup: Tackling Under-Reaching for Graph Neural Networks",
+        "year": 2024,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29328/30505",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版全部作者列西电。"
+      },
+      {
+        "title": "Aligning Multiple Knowledge Graphs in a Single Pass",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792111",
+        "outcome": "no-evidence",
+        "note": "ACM 论文集作者仅列西安电子科技大学（计科、人工智能）、香港科技大学和浙江大学。2024 年预印本按同篇。"
+      },
+      {
+        "title": "Beyond Single-Granularity Prompts: A Multi-Scale Chain-of-Thought Prompt Learning for Graph",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792115",
+        "outcome": "no-evidence",
+        "note": "作者提交 2025 预印本列西安电子科技大学和香港科技大学，正式论文与预印本同篇。"
+      },
+      {
+        "title": "Unsupervised Entity Alignment Based on Personalized Discriminative Rooted Tree",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TKDE.2025.3607765",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 37 卷作者单位仅西安电子科技大学和浙江大学。"
+      },
+      {
+        "title": "ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39587/43548",
+        "outcome": "lead",
+        "note": "AAAI 研究有京东探索研究院作者，陆维港 2025 年夏已博士毕业，公开履历的京东实习是 2021 年，不能关联到这篇；未查到同篇西电学生作者具体参与企业项目的材料。"
+      },
+      {
+        "title": "AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34107/36262",
+        "outcome": "lead",
+        "note": "有京东探索研究院正式署名；陆维港本人履历仅列 2021 年京东实习，2024 年首版和 2025 年正式版均未指出同篇学生参与京东具体项目，仍待核对。"
       }
     ],
-    "note": "公开书目仍在梳理；阿里公开合著与京东实习材料分别留线索，待补同篇学生工作或指导证据。"
+    "note": "公开书目仍在梳理；京东案例按每篇论文的脚注及同期在读、实习材料独立核对。"
   },
   "hfNxbowAAAAJ": {
     "from": "2023-01-01",
@@ -13174,7 +13388,9 @@ const facultyPaperAudits = {
       "http://web.xidian.edu.cn/cuijt/",
       "https://web.xidian.edu.cn/cuijt/paper.html",
       "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
-      "https://www.vldb.org/pvldb/vol18/p2964-li.pdf"
+      "https://www.vldb.org/pvldb/vol18/p2964-li.pdf",
+      "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
+      "https://doi.org/10.1145/3774904.3792111"
     ],
     "papers": [
       {
@@ -13190,6 +13406,13 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "PVLDB 正式版中唯一企业署名是李辉兼署的 Yunxi Technology，该公司不在本项目范围。",
         "year": 2025
+      },
+      {
+        "title": "Aligning Multiple Knowledge Graphs in a Single Pass",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792111",
+        "outcome": "no-evidence",
+        "note": "ACM 论文集作者仅列西安电子科技大学（计科、人工智能）、香港科技大学和浙江大学。2024 年预印本按同篇。"
       }
     ],
     "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
@@ -13282,7 +13505,13 @@ const facultyPaperAudits = {
       "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
       "https://doi.org/10.1109/TCSVT.2023.3237328",
       "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
-      "https://doi.org/10.1109/TMM.2026.3651137"
+      "https://doi.org/10.1109/TMM.2026.3651137",
+      "https://web.xidian.edu.cn/fliu/chengguo.html",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26en/wang26en.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+      "https://doi.org/10.1145/3767308.3835499"
     ],
     "papers": [
       {
@@ -13326,9 +13555,30 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TMM.2026.3651137",
         "outcome": "no-evidence",
         "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      },
+      {
+        "title": "Delving Aleatoric Uncertainty in Medical Image Segmentation via Vision Foundation Models",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页作者统一列西电人工智能学院及相关实验室。"
+      },
+      {
+        "title": "VDFE: Difference-Aware 3D Scene Editing with Non-Intrusive Video Diffusion Priors for Multi-View Consistency and Efficiency",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文的全部作者统一列西电智能感知与图像理解教育部重点实验室。"
+      },
+      {
+        "title": "Anatomical Knowledge-Guided Semantic Conditioning for Medical Referring Expression Segmentation",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3767308.3835499",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式议程列八位作者均为西电；西电课题组记录确认刘芳指导博士生李瑞阳，但无范围内企业研究证据。"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "核对课题组书目中的正式论文、署名、机构和公开指导材料；公开书目尚未穷尽。"
   },
   "lUw7tVIAAAAJ": {
     "from": "2023-01-01",
@@ -14007,7 +14257,15 @@ const facultyPaperAudits = {
     "sources": [
       "https://web.xidian.edu.cn/llli",
       "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
-      "https://doi.org/10.1109/TMM.2026.3651137"
+      "https://doi.org/10.1109/TMM.2026.3651137",
+      "https://web.xidian.edu.cn/fliu/chengguo.html",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26en/wang26en.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+      "https://proceedings.mlr.press/v306/wang26en.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+      "https://doi.org/10.1145/3767308.3835499"
     ],
     "papers": [
       {
@@ -14016,9 +14274,44 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TMM.2026.3651137",
         "outcome": "no-evidence",
         "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      },
+      {
+        "title": "Delving Aleatoric Uncertainty in Medical Image Segmentation via Vision Foundation Models",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页作者统一列西电人工智能学院及相关实验室。"
+      },
+      {
+        "title": "VDFE: Difference-Aware 3D Scene Editing with Non-Intrusive Video Diffusion Priors for Multi-View Consistency and Efficiency",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文的全部作者统一列西电智能感知与图像理解教育部重点实验室。"
+      },
+      {
+        "title": "Foreground-Aware Token Routing Vision Transformer for Real-Time Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/wang26en.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 的 ICML 正式 PDF 首页八位作者均列西安电子科技大学人工智能学院。"
+      },
+      {
+        "title": "HTTrack: Learning to Perceive Targets via Historical Trajectories in Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者均署西安电子科技大学人工智能学院及相关实验室。"
+      },
+      {
+        "title": "Anatomical Knowledge-Guided Semantic Conditioning for Medical Referring Expression Segmentation",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3767308.3835499",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式议程列八位作者均为西电；西电课题组记录确认刘芳指导博士生李瑞阳，但无范围内企业研究证据。"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "核对课题组书目中的正式论文、署名、机构和公开指导材料；公开书目尚未穷尽。"
   },
   "FZbrL2YAAAAJ": {
     "from": "2023-01-01",
@@ -14027,7 +14320,14 @@ const facultyPaperAudits = {
     "sources": [
       "https://web.xidian.edu.cn/lchjiao",
       "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
-      "https://doi.org/10.1109/TMM.2026.3651137"
+      "https://doi.org/10.1109/TMM.2026.3651137",
+      "https://web.xidian.edu.cn/fliu/chengguo.html",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26en/wang26en.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+      "https://proceedings.mlr.press/v306/wang26en.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+      "https://doi.org/10.1145/3767308.3835499"
     ],
     "papers": [
       {
@@ -14036,9 +14336,37 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TMM.2026.3651137",
         "outcome": "no-evidence",
         "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      },
+      {
+        "title": "Delving Aleatoric Uncertainty in Medical Image Segmentation via Vision Foundation Models",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页作者统一列西电人工智能学院及相关实验室。"
+      },
+      {
+        "title": "Foreground-Aware Token Routing Vision Transformer for Real-Time Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/wang26en.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 的 ICML 正式 PDF 首页八位作者均列西安电子科技大学人工智能学院。"
+      },
+      {
+        "title": "HTTrack: Learning to Perceive Targets via Historical Trajectories in Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者均署西安电子科技大学人工智能学院及相关实验室。"
+      },
+      {
+        "title": "Anatomical Knowledge-Guided Semantic Conditioning for Medical Referring Expression Segmentation",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3767308.3835499",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式议程列八位作者均为西电；西电课题组记录确认刘芳指导博士生李瑞阳，但无范围内企业研究证据。"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "核对课题组书目中的正式论文、署名、机构和公开指导材料；公开书目尚未穷尽。"
   },
   "qrQkfxYAAAAJ": {
     "from": "2023-01-01",
@@ -14047,7 +14375,16 @@ const facultyPaperAudits = {
     "sources": [
       "https://web.xidian.edu.cn/fliu",
       "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
-      "https://doi.org/10.1109/TMM.2026.3651137"
+      "https://doi.org/10.1109/TMM.2026.3651137",
+      "https://web.xidian.edu.cn/fliu/chengguo.html",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26en/wang26en.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+      "https://proceedings.mlr.press/v306/wang26en.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37949",
+      "https://doi.org/10.1145/3767308.3835499"
     ],
     "papers": [
       {
@@ -14056,9 +14393,51 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TMM.2026.3651137",
         "outcome": "no-evidence",
         "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      },
+      {
+        "title": "Delving Aleatoric Uncertainty in Medical Image Segmentation via Vision Foundation Models",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页作者统一列西电人工智能学院及相关实验室。"
+      },
+      {
+        "title": "VDFE: Difference-Aware 3D Scene Editing with Non-Intrusive Video Diffusion Priors for Multi-View Consistency and Efficiency",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文的全部作者统一列西电智能感知与图像理解教育部重点实验室。"
+      },
+      {
+        "title": "Foreground-Aware Token Routing Vision Transformer for Real-Time Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/wang26en.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 的 ICML 正式 PDF 首页八位作者均列西安电子科技大学人工智能学院。"
+      },
+      {
+        "title": "HTTrack: Learning to Perceive Targets via Historical Trajectories in Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者均署西安电子科技大学人工智能学院及相关实验室。"
+      },
+      {
+        "title": "Semantic Feature Purification for Adversarially-Aware RGB-T Tracking",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37949",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版六位作者均署西电。"
+      },
+      {
+        "title": "Anatomical Knowledge-Guided Semantic Conditioning for Medical Referring Expression Segmentation",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3767308.3835499",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式议程列八位作者均为西电；西电课题组记录确认刘芳指导博士生李瑞阳，但无范围内企业研究证据。"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "核对课题组书目中的正式论文、署名、机构和公开指导材料；公开书目尚未穷尽。"
   },
   "_09bkMgAAAAJ": {
     "from": "2023-01-01",
@@ -14067,7 +14446,15 @@ const facultyPaperAudits = {
     "sources": [
       "https://web.xidian.edu.cn/xuliu",
       "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
-      "https://doi.org/10.1109/TMM.2026.3651137"
+      "https://doi.org/10.1109/TMM.2026.3651137",
+      "https://web.xidian.edu.cn/fliu/chengguo.html",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26en/wang26en.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+      "https://proceedings.mlr.press/v306/wang26en.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+      "https://doi.org/10.1145/3767308.3835499"
     ],
     "papers": [
       {
@@ -14076,9 +14463,44 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TMM.2026.3651137",
         "outcome": "no-evidence",
         "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      },
+      {
+        "title": "Delving Aleatoric Uncertainty in Medical Image Segmentation via Vision Foundation Models",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Delving_Aleatoric_Uncertainty_in_Medical_Image_Segmentation_via_Vision_Foundation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页作者统一列西电人工智能学院及相关实验室。"
+      },
+      {
+        "title": "VDFE: Difference-Aware 3D Scene Editing with Non-Intrusive Video Diffusion Priors for Multi-View Consistency and Efficiency",
+        "year": 2026,
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_VDFE_Difference-Aware_3D_Scene_Editing_with_Non-Intrusive_Video_Diffusion_Priors_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文的全部作者统一列西电智能感知与图像理解教育部重点实验室。"
+      },
+      {
+        "title": "Foreground-Aware Token Routing Vision Transformer for Real-Time Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/wang26en.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 的 ICML 正式 PDF 首页八位作者均列西安电子科技大学人工智能学院。"
+      },
+      {
+        "title": "HTTrack: Learning to Perceive Targets via Historical Trajectories in Satellite Video Tracking",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37950",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者均署西安电子科技大学人工智能学院及相关实验室。"
+      },
+      {
+        "title": "Anatomical Knowledge-Guided Semantic Conditioning for Medical Referring Expression Segmentation",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3767308.3835499",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式议程列八位作者均为西电；西电课题组记录确认刘芳指导博士生李瑞阳，但无范围内企业研究证据。"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "核对课题组书目中的正式论文、署名、机构和公开指导材料；公开书目尚未穷尽。"
   },
   "TimAUN0AAAAJ": {
     "from": "2023-01-01",
@@ -14133,7 +14555,8 @@ const facultyPaperAudits = {
       "https://ifgovh.github.io/people/",
       "https://ifgovh.github.io/research/iterative-latent-refinement/",
       "https://cccn2024.hkust.edu.hk/doc/abstract/Abs_CHEN_Guozhang.pdf",
-      "https://www.csauthors.net/guozhang-chen/"
+      "https://www.csauthors.net/guozhang-chen/",
+      "https://api.biorxiv.org/details/biorxiv/10.1101/2021.12.14.472260"
     ],
     "papers": [
       {
@@ -14246,7 +14669,7 @@ const facultyPaperAudits = {
       },
       {
         "title": "Neural heterogeneity enhances reliable neural information processing: Local sensitivity and globally input-slaved transient dynamics",
-        "url": "https://europepmc.org/article/MED/40178740",
+        "url": "https://europepmc.org/article/MED/40173217",
         "outcome": "no-evidence",
         "note": "Science Advances 正式期刊的作者机构亦可由 Europe PMC 核对，均为高校或非企业科研单位。"
       },
@@ -14254,7 +14677,7 @@ const facultyPaperAudits = {
         "title": "Evolutionary learning in neural networks by heterosynaptic plasticity",
         "url": "https://doi.org/10.1016/j.isci.2025.112340",
         "outcome": "no-evidence",
-        "note": "iScience 正式版作者机构为临港实验室、香港浸会、北大、之江实验室等。ORCID 中 2021 年同方向早期稿不重复计数。"
+        "note": "iScience 正式版作者机构为临港实验室、香港浸会、北大、之江实验室等。同研究的 bioRxiv 2021 首稿在 2023 年有公开修订版；与后续 iScience 版按同篇处理。"
       },
       {
         "title": "Data-based large-scale models provide a window into the organization of cortical computations",
@@ -14314,103 +14737,120 @@ const facultyPaperAudits = {
         "title": "Herding in Probabilistic Forecasts",
         "url": "https://doi.org/10.1287/mnsc.2022.4487",
         "outcome": "no-evidence",
-        "note": "期刊正式刊期为 2023；2022 年在线版本和工作论文合并。出版方列哥伦比亚大学、新加坡国立大学和 INSEAD，未见范围内企业作者。"
+        "note": "期刊正式刊期为 2023；2022 年在线版本和工作论文合并。出版方列哥伦比亚大学、新加坡国立大学和 INSEAD，未见范围内企业作者。",
+        "year": 2023
       },
       {
         "title": "Learning Equilibrium Mean-Variance Strategy",
         "url": "https://doi.org/10.1111/mafi.12402",
         "outcome": "no-evidence",
-        "note": "期刊原文列香港理工、同济、哥伦比亚及港中文。2021 工作稿与 2023 正式论文合并，未查到企业共同作者。"
+        "note": "期刊原文列香港理工、同济、哥伦比亚及港中文。2021 工作稿与 2023 正式论文合并，未查到企业共同作者。",
+        "year": 2023
       },
       {
         "title": "q-Learning in Continuous Time",
         "url": "https://www.jmlr.org/papers/v24/22-0755.html",
         "outcome": "no-evidence",
-        "note": "JMLR 正式版本的两位作者署港中文与哥伦比亚大学。校际研究资助不构成企业作者；在线勘误和 2022 预印本并入本篇。"
+        "note": "JMLR 正式版本的两位作者署港中文与哥伦比亚大学。校际研究资助不构成企业作者；在线勘误和 2022 预印本并入本篇。",
+        "year": 2023
       },
       {
         "title": "Sublinear Regret for a Class of Continuous-Time Linear-Quadratic Reinforcement Learning Problems",
         "url": "https://doi.org/10.1137/24M1695075",
         "outcome": "no-evidence",
-        "note": "原文三人署哥伦比亚大学与香港中文大学。致谢列大学项目与学术资助。另题 2024 arXiv 为本篇的早期稿。"
+        "note": "原文三人署哥伦比亚大学与香港中文大学。致谢列大学项目与学术资助。另题 2024 arXiv 为本篇的早期稿。",
+        "year": 2025
       },
       {
         "title": "Continuous-Time Risk-Sensitive Reinforcement Learning via Quadratic Variation Penalty",
         "url": "https://doi.org/10.1007/s00245-026-10412-4",
         "outcome": "no-evidence",
-        "note": "港中文贾颜玮独著，未见企业或学生共同作者。arXiv 与 SSRN 的 2024 预印本归入期刊正式版。"
+        "note": "港中文贾颜玮独著，未见企业或学生共同作者。arXiv 与 SSRN 的 2024 预印本归入期刊正式版。",
+        "year": 2026
       },
       {
         "title": "Accuracy of Discretely Sampled Stochastic Policies in Continuous-Time Reinforcement Learning",
         "url": "https://doi.org/10.1137/25M1742199",
         "outcome": "no-evidence",
-        "note": "原文三位作者分别署香港中文大学、清华大学和帝国理工学院。校方书目和合著者书目确认与 arXiv 为同一作品；未查到同篇企业作者。"
+        "note": "原文三位作者分别署香港中文大学、清华大学和帝国理工学院。校方书目和合著者书目确认与 arXiv 为同一作品；未查到同篇企业作者。",
+        "year": 2026
       },
       {
         "title": "Dynamic Mean-Variance Portfolio Selection with Transaction Costs",
         "url": "https://doi.org/10.2139/ssrn.4958481",
         "outcome": "no-evidence",
-        "note": "公开论文列香港中文大学、香港城市大学和牛津大学相关机构。合作方书目确认同作的期刊接收状态，未找到企业合著或企业研究记录。"
+        "note": "公开论文列香港中文大学、香港城市大学和牛津大学相关机构。合作方书目确认同作的期刊接收状态，未找到企业合著或企业研究记录。",
+        "year": 2024
       },
       {
         "title": "Mean-Variance Portfolio Selection by Continuous-Time Reinforcement Learning: Algorithms, Regret Analysis, and Empirical Study",
         "url": "https://arxiv.org/abs/2412.16175",
         "outcome": "no-evidence",
-        "note": "署香港中文大学和哥伦比亚大学。作者确认 ICAIF 2022 是同工作的早期短版本；本文使用市场数据，未发现参与该研究的范围内企业共同作者。"
+        "note": "署香港中文大学和哥伦比亚大学。作者确认 ICAIF 2022 是同工作的早期短版本；本文使用市场数据，未发现参与该研究的范围内企业共同作者。",
+        "year": 2024
       },
       {
         "title": "A General Framework for Importance Sampling with Markov Random Walks",
         "url": "https://doi.org/10.1287/opre.2024.1034",
         "outcome": "no-evidence",
-        "note": "终稿及早期预印本同三位作者，涉及香港中文大学、波士顿大学和中央研究院／台湾中央大学的学术合作。未见范围内企业共同作者。"
+        "note": "终稿及早期预印本同三位作者，涉及香港中文大学、波士顿大学和中央研究院／台湾中央大学的学术合作。未见范围内企业共同作者。",
+        "year": 2026
       },
       {
         "title": "Data-Driven Merton's Strategies via Policy Randomization",
         "url": "https://arxiv.org/abs/2312.11797",
         "outcome": "no-evidence",
-        "note": "原文列香港理工、同济、港中文和哥伦比亚大学。该 arXiv 条目的旧题为 Learning Merton’s Strategies in an Incomplete Market，与 SSRN 稿合并。"
+        "note": "原文列香港理工、同济、港中文和哥伦比亚大学。该 arXiv 条目的旧题为 Learning Merton’s Strategies in an Incomplete Market，与 SSRN 稿合并。",
+        "year": 2023
       },
       {
         "title": "The Wisdom of Strategically Diverse Crowds",
         "url": "https://doi.org/10.2139/ssrn.4855714",
         "outcome": "no-evidence",
-        "note": "共同作者本人公开书目、Aalto 科学会议摘要和论文所列机构为香港中文大学、新加坡国立大学和 INSEAD；未见范围内企业合著。"
+        "note": "共同作者本人公开书目、Aalto 科学会议摘要和论文所列机构为香港中文大学、新加坡国立大学和 INSEAD；未见范围内企业合著。",
+        "year": 2024
       },
       {
         "title": "Aggregating Estimates or Pooling Information?: When Misinterpretation Error Is Ignored",
         "url": "https://doi.org/10.2139/ssrn.4645002",
         "outcome": "no-evidence",
-        "note": "同一 SSRN 编号早期题名为 Aggregating or Interacting?: The Role of Individual Overconfidence，作者仅港中文贾颜玮与维也纳大学 Wenjie Tang。未找到企业共同作者。"
+        "note": "同一 SSRN 编号早期题名为 Aggregating or Interacting?: The Role of Individual Overconfidence，作者仅港中文贾颜玮与维也纳大学 Wenjie Tang。未找到企业共同作者。",
+        "year": 2023
       },
       {
         "title": "Variational Galton Machine: From Point Predictions to a Probabilistic Aggregate",
         "url": "https://doi.org/10.2139/ssrn.5392541",
         "outcome": "no-evidence",
-        "note": "SSRN 作者机构与 POMS 香港会议论文摘要一致，三位作者分别来自香港中文大学、新加坡国立大学和 INSEAD，未见范围内企业作者。"
+        "note": "SSRN 作者机构与 POMS 香港会议论文摘要一致，三位作者分别来自香港中文大学、新加坡国立大学和 INSEAD，未见范围内企业作者。",
+        "year": 2025
       },
       {
         "title": "Merton's Problem with Recursive Perturbed Utility",
         "url": "https://arxiv.org/abs/2602.13544",
         "outcome": "no-evidence",
-        "note": "原文列香港理工、同济、港中文和哥伦比亚大学。与另篇 Merton 策略研究虽作者相同，但各有不同技术和独立书目，分别核查。未发现企业作者。"
+        "note": "原文列香港理工、同济、港中文和哥伦比亚大学。与另篇 Merton 策略研究虽作者相同，但各有不同技术和独立书目，分别核查。未发现企业作者。",
+        "year": 2026
       },
       {
         "title": "A Zeroth-Order Deep Learning Method for Fully Nonlinear Parabolic Partial Differential Equations with Unknown Coefficients",
         "url": "https://arxiv.org/abs/2606.24999",
         "outcome": "no-evidence",
-        "note": "原文列香港中文大学、清华大学、法国 École Polytechnique 研究机构和哥伦比亚大学。合著者的研究书目一致，未查到范围内企业共同作者。"
+        "note": "原文列香港中文大学、清华大学、法国 École Polytechnique 研究机构和哥伦比亚大学。合著者的研究书目一致，未查到范围内企业共同作者。",
+        "year": 2026
       },
       {
         "title": "When Does Reinforcement Learning Improve upon Estimate-Then-Plug-In for Portfolio Selection?",
         "url": "https://doi.org/10.2139/ssrn.7209500",
         "outcome": "no-evidence",
-        "note": "公开论文列香港城市大学、香港中文大学和香港理工大学。数值研究使用股价数据，未发现企业共同作者。"
+        "note": "公开论文列香港城市大学、香港中文大学和香港理工大学。数值研究使用股价数据，未发现企业共同作者。",
+        "year": 2026
       },
       {
         "title": "Convergence and Regret of the Policy Gradient for Multi-Armed Bandits in Diffusion Environment",
         "url": "https://arxiv.org/abs/2607.29593",
         "outcome": "no-evidence",
-        "note": "2026 年公开原文两位作者分别署香港中文大学、清华大学。作者书目没有企业作者或企业实习参与该论文的记录。"
+        "note": "2026 年公开原文两位作者分别署香港中文大学、清华大学。作者书目没有企业作者或企业实习参与该论文的记录。",
+        "year": 2026
       }
     ]
   },
@@ -14429,7 +14869,20 @@ const facultyPaperAudits = {
       "https://ieee-icde.org/2025/tkde-poster/",
       "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/",
       "https://arxiv.org/pdf/2112.11628v1",
-      "https://doi.org/10.1109/TKDE.2024.3374701"
+      "https://doi.org/10.1109/TKDE.2024.3374701",
+      "https://openreview.net/pdf/2ccd1b76d0208b2325e06a3781b52be8213f32ce.pdf",
+      "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
+      "https://arxiv.org/abs/2408.00662",
+      "https://arxiv.org/html/2510.09394",
+      "https://arxiv.org/html/2507.19031",
+      "https://arxiv.org/abs/2412.08144",
+      "https://papers.nips.cc/paper_files/paper/2025/hash/3dae45d23a505e42c86afdcfa6867a46-Abstract-Conference.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29328/30505",
+      "https://doi.org/10.1145/3774904.3792111",
+      "https://doi.org/10.1145/3774904.3792115",
+      "https://doi.org/10.1109/TKDE.2025.3607765",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/39587/43548",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/34107/36262"
     ],
     "papers": [
       {
@@ -14459,8 +14912,57 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TKDE.2024.3374701",
         "outcome": "no-evidence",
         "note": "2021 年首稿及京东实习已核实；杨亚明为同篇作者，但未见他在研究期间为陆维港校内导师的公开证据。"
+      },
+      {
+        "title": "Defining and Discovering Hyper-meta-paths for Heterogeneous Hypergraphs",
+        "year": 2025,
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/3dae45d23a505e42c86afdcfa6867a46-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 会稿作者单位只有西电和香港科技大学。"
+      },
+      {
+        "title": "NodeMixup: Tackling Under-Reaching for Graph Neural Networks",
+        "year": 2024,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29328/30505",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版全部作者列西电。"
+      },
+      {
+        "title": "Aligning Multiple Knowledge Graphs in a Single Pass",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792111",
+        "outcome": "no-evidence",
+        "note": "ACM 论文集作者仅列西安电子科技大学（计科、人工智能）、香港科技大学和浙江大学。2024 年预印本按同篇。"
+      },
+      {
+        "title": "Beyond Single-Granularity Prompts: A Multi-Scale Chain-of-Thought Prompt Learning for Graph",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792115",
+        "outcome": "no-evidence",
+        "note": "作者提交 2025 预印本列西安电子科技大学和香港科技大学，正式论文与预印本同篇。"
+      },
+      {
+        "title": "Unsupervised Entity Alignment Based on Personalized Discriminative Rooted Tree",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TKDE.2025.3607765",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 37 卷作者单位仅西安电子科技大学和浙江大学。"
+      },
+      {
+        "title": "ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39587/43548",
+        "outcome": "lead",
+        "note": "AAAI 研究有京东探索研究院作者，陆维港 2025 年夏已博士毕业，公开履历的京东实习是 2021 年，不能关联到这篇；未查到同篇西电学生作者具体参与企业项目的材料。"
+      },
+      {
+        "title": "AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34107/36262",
+        "outcome": "lead",
+        "note": "有京东探索研究院正式署名；陆维港本人履历仅列 2021 年京东实习，2024 年首版和 2025 年正式版均未指出同篇学生参与京东具体项目，仍待核对。"
       }
     ],
-    "note": "公开书目仍在梳理；阿里公开合著与京东实习材料分别留线索，待补同篇学生工作或指导证据。"
+    "note": "公开书目仍在梳理；京东案例按每篇论文的脚注及同期在读、实习材料独立核对。"
   }
 };
