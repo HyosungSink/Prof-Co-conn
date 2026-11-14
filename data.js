@@ -23839,6 +23839,867 @@ const survey = {
           "https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_Panorama_Generation_From_NFoV_Image_Done_Right_CVPR_2025_paper.html"
         ]
       ]
+    },
+    {
+      "id": "context-alibaba-sjtu-pbjw9smaaaaj",
+      "paperId": "arxiv:2506.03799",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "张娅 · Ya Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/zhangya"
+      ],
+      "employee": [
+        "Baosong Yang",
+        "GOSIM AI Paris 2025 主办方的具名讲者履历列为阿里通义实验室科学家、Qwen 多语研究负责人；此篇论文正式论文署阿里通义。",
+        "https://paris2025.gosim.org/speakers/baosong-yang/"
+      ],
+      "student": [
+        "张菲 · Fei Zhang",
+        "论文首页具名题注说明研究在第一作者张菲的阿里通义实习期间完成；张菲个人主页列上海交大博士学籍与共同指导。",
+        "https://sii-ferenas.github.io/"
+      ],
+      "title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
+      "short": "ConText",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://proceedings.mlr.press/v267/zhang25dg.html",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2506.03799"
+        ],
+        [
+          "具名实习的原论文",
+          "https://openreview.net/pdf/bf9578dc87d74be8652c977fd85792236a6fe53e.pdf"
+        ]
+      ],
+      "evidence": "论文首页具名题注说明研究在第一作者张菲的阿里通义实习期间完成；张菲个人主页列上海交大博士学籍与共同指导。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "张菲本人学术主页列张娅为上海交大博士导师；论文列张娅为通讯作者。",
+        "https://sii-ferenas.github.io/"
+      ]
+    },
+    {
+      "id": "adarope-tencent-thu-zx7i1ekaaaaj",
+      "paperId": "arxiv:2607.19363",
+      "company": "腾讯",
+      "team": "混元",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李建 · Jian Li",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://iiis.tsinghua.edu.cn/rydw/qzjs/lijian.htm"
+      ],
+      "employee": [
+        "郑孙聪 · Suncong Zheng",
+        "公开职业履历列腾讯为其正式任职，2024 和 2026 两份腾讯混元团队技术报告均具名，2025 年有腾讯研究署名，本篇以腾讯混元署名。",
+        "https://cn.linkedin.com/in/suncong-zheng-5b219790"
+      ],
+      "student": [
+        "Shaowen Wang",
+        "ICML 正式论文首页明确写明本研究在 Shaowen Wang 腾讯实习期间完成；本人主页和校方课题组网站一致确认他是清华在读研究生。",
+        "https://outsider565.github.io/"
+      ],
+      "title": "AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally",
+      "short": "AdaRoPE",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26lk/wang26lk.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/wang26lk.html"
+        ],
+        [
+          "腾讯混元 2024 具名技术报告",
+          "https://arxiv.org/abs/2411.02265"
+        ],
+        [
+          "腾讯混元 2026 具名技术报告",
+          "https://arxiv.org/abs/2609.27284"
+        ]
+      ],
+      "evidence": "ICML 正式论文首页明确写明本研究在 Shaowen Wang 腾讯实习期间完成；本人主页和校方课题组网站一致确认他是清华在读研究生。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "学生学术主页具名李建为其导师；清华大学李建课题组网站列其为组内研究生；李建为正式论文通讯作者。",
+        "https://iiis.tsinghua.edu.cn/info/1193/4651.htm"
+      ]
+    },
+    {
+      "id": "fire-bytedance-pku-y2eaftaaaaaj",
+      "paperId": "pmlr:v306-ma26q",
+      "company": "字节跳动",
+      "team": "BandAI",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "穗志方 · Zhifang Sui",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1078/1672.htm"
+      ],
+      "employee": [
+        "李明浩 · Minghao Li",
+        "本人履历明确从 2025 年 4 月起任字节跳动 BandAI 研究员；本篇以相同单位和公开机构邮箱担任通讯作者。",
+        "https://minghao.li/cn/"
+      ],
+      "student": [
+        "Rui Li",
+        "ICML 正式论文把 Rui Li、Zheng Li、Jingyuan Ma 并列署为北大作者，三个姓名均标注实习脚注，具名说明此研究在字节跳动 BandAI 实习期间完成；Rui Li 本人也列明从 2025 年 10 月起的字节算法实习及北大硕士学籍与导师。",
+        "https://o-l1ru1.github.io/"
+      ],
+      "title": "FIRE: Learning to Navigate and Act on Real-World Files via Stateful Reinforcement Learning",
+      "short": "FIRE",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26q/ma26q.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/ma26q.html"
+        ],
+        [
+          "字节组织发布的该研究",
+          "https://bytedancebandai.notion.site/Bytedance-BandAI-s-Blog-26da469d87b480fcbb35df8d1f91e7f4"
+        ]
+      ],
+      "evidence": "ICML 正式论文把 Rui Li、Zheng Li、Jingyuan Ma 并列署为北大作者，三个姓名均标注实习脚注，具名说明此研究在字节跳动 BandAI 实习期间完成；Rui Li 本人也列明从 2025 年 10 月起的字节算法实习及北大硕士学籍与导师。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Rui Li 本人的学术主页具名说北大硕士就读期间由穗志方指导；穗志方是这篇正式论文的共同通讯作者。",
+        "https://o-l1ru1.github.io/"
+      ]
+    },
+    {
+      "id": "swe-flow-alibaba-ucas-_wop6kgaaaaj",
+      "paperId": "arxiv:2506.09003",
+      "company": "阿里巴巴",
+      "team": "通义 / Qwen",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Binyuan Hui",
+        "EMNLP 2025 正式教程作者履历列阿里巴巴 Qwen 高级研究科学家，负责 Qwen-Coder 研发；阿里巴巴同期技术报告和本篇原文具名。",
+        "https://aclanthology.org/2025.emnlp-tutorials.pdf"
+      ],
+      "student": [
+        "张磊 · Lei Zhang",
+        "首位作者张磊的同名脚注标注该研究在阿里 Qwen 实习完成；本人所列实习时间为 2024 年 8 月至 2026 年 3 月。 中国科学院大学导师名录与论文机构署名互证学生身份。",
+        "https://hambaobao.me/about/"
+      ],
+      "title": "SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner",
+      "short": "SWE-Flow",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25cn/zhang25cn.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/zhang25cn.html"
+        ],
+        [
+          "阿里巴巴技术报告",
+          "https://arxiv.org/abs/2505.09388"
+        ]
+      ],
+      "evidence": "首位作者张磊的同名脚注标注该研究在阿里 Qwen 实习完成；本人所列实习时间为 2024 年 8 月至 2026 年 3 月。 中国科学院大学导师名录与论文机构署名互证学生身份。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "中国科学院大学官方教师档案的指导学生名单具名列出该学生；杨敏在本篇论文署名并担任通讯。",
+        "https://people.ucas.ac.cn/~0064227"
+      ]
+    },
+    {
+      "id": "mega-flow-alibaba-ucas-_wop6kgaaaaj",
+      "paperId": "arxiv:2601.07526",
+      "company": "阿里巴巴",
+      "team": "通义 / Qwen",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Binyuan Hui",
+        "EMNLP 2025 正式教程作者履历列阿里巴巴 Qwen 高级研究科学家，负责 Qwen-Coder 研发；阿里巴巴同期技术报告和本篇原文具名。",
+        "https://aclanthology.org/2025.emnlp-tutorials.pdf"
+      ],
+      "student": [
+        "张磊 · Lei Zhang",
+        "首位作者张磊的同名脚注标注该研究在阿里 Qwen 实习完成；本人所列实习时间为 2024 年 8 月至 2026 年 3 月。 中国科学院大学导师名录与论文机构署名互证学生身份。",
+        "https://hambaobao.me/about/"
+      ],
+      "title": "MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era",
+      "short": "MegaFlow",
+      "date": "2026-01",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2601.07526",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2601.07526"
+        ],
+        [
+          "阿里巴巴技术报告",
+          "https://arxiv.org/abs/2505.09388"
+        ]
+      ],
+      "evidence": "首位作者张磊的同名脚注标注该研究在阿里 Qwen 实习完成；本人所列实习时间为 2024 年 8 月至 2026 年 3 月。 中国科学院大学导师名录与论文机构署名互证学生身份。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "中国科学院大学官方教师档案的指导学生名单具名列出该学生；杨敏在本篇论文署名并担任通讯。",
+        "https://people.ucas.ac.cn/~0064227"
+      ]
+    },
+    {
+      "id": "iterative-forward-tuning-alibaba-ucas-_wop6kgaaaaj",
+      "paperId": "arxiv:2305.13016",
+      "company": "阿里巴巴",
+      "team": "通义 / Qwen",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Binyuan Hui",
+        "EMNLP 2025 正式教程作者履历列阿里巴巴 Qwen 高级研究科学家，负责 Qwen-Coder 研发；阿里巴巴同期技术报告和本篇原文具名。",
+        "https://aclanthology.org/2025.emnlp-tutorials.pdf"
+      ],
+      "student": [
+        "杨家玺 · Jiaxi Yang",
+        "ACL 正式论文首页将实习脚注标在首位作者杨家玺姓名后，明确工作在阿里巴巴实习期间完成。 中国科学院大学导师名录与论文机构署名互证学生身份。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "title": "Iterative Forward Tuning Boosts In-Context Learning in Language Models",
+      "short": "Deep-Thinking",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.acl-long.825.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2024.acl-long.825/"
+        ],
+        [
+          "阿里巴巴技术报告",
+          "https://arxiv.org/abs/2505.09388"
+        ]
+      ],
+      "evidence": "ACL 正式论文首页将实习脚注标在首位作者杨家玺姓名后，明确工作在阿里巴巴实习期间完成。 中国科学院大学导师名录与论文机构署名互证学生身份。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "中国科学院大学官方教师档案的指导学生名单具名列出该学生；杨敏在本篇论文署名并担任通讯。",
+        "https://people.ucas.ac.cn/~0064227"
+      ]
+    },
+    {
+      "id": "nuggets-alibaba-ucas-_wop6kgaaaaj",
+      "paperId": "acl:2024.acl-long.252",
+      "company": "阿里巴巴",
+      "team": "通义 / Qwen",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Binyuan Hui",
+        "EMNLP 2025 正式教程作者履历列阿里巴巴 Qwen 高级研究科学家，负责 Qwen-Coder 研发；阿里巴巴同期技术报告和本篇原文具名。",
+        "https://aclanthology.org/2025.emnlp-tutorials.pdf"
+      ],
+      "student": [
+        "李云水 · Yunshui Li",
+        "ACL 正式论文首页将实习脚注标在首位作者李云水姓名后，明确工作在阿里巴巴实习期间完成。 中国科学院大学导师名录与论文机构署名互证学生身份。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "title": "One-Shot Learning as Instruction Data Prospector for Large Language Models",
+      "short": "NUGGETS",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.acl-long.252.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2024.acl-long.252/"
+        ],
+        [
+          "阿里巴巴技术报告",
+          "https://arxiv.org/abs/2505.09388"
+        ]
+      ],
+      "evidence": "ACL 正式论文首页将实习脚注标在首位作者李云水姓名后，明确工作在阿里巴巴实习期间完成。 中国科学院大学导师名录与论文机构署名互证学生身份。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "中国科学院大学官方教师档案的指导学生名单具名列出该学生；杨敏在本篇论文署名并担任通讯。",
+        "https://people.ucas.ac.cn/~0064227"
+      ]
+    },
+    {
+      "id": "daif-alibaba-ucas-_wop6kgaaaaj",
+      "paperId": "arxiv:2404.05868",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Ting-En Lin",
+        "其本人学术主页明确任阿里巴巴 Qwen-Character 研究员，并记录早自 2023 年起的阿里项目；同篇论文署通义实验室。",
+        "https://tnlin.github.io/"
+      ],
+      "student": [
+        "余天枢 · Tianshu Yu",
+        "TACL 正式版首页具名写明该研究在余天枢于通义实验室实习期间完成；国科大导师名录和深圳先进院新闻确认其硕士生身份。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "title": "Diverse AI Feedback For Large Language Model Alignment",
+      "short": "DAIF",
+      "date": "2025-04",
+      "venue": "TACL 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2025.tacl-1.19.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2025.tacl-1.19/"
+        ],
+        [
+          "早期预印本",
+          "https://arxiv.org/abs/2404.05868"
+        ],
+        [
+          "学生单位的新闻索引",
+          "https://www.siat.cas.cn/siatxww/zhxw/index_22.html"
+        ]
+      ],
+      "evidence": "TACL 正式版首页具名写明该研究在余天枢于通义实验室实习期间完成；国科大导师名录和深圳先进院新闻确认其硕士生身份。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "国科大官方教师档案列余天枢为杨敏具名指导的硕士生，正式论文里杨敏是通讯作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ]
+    },
+    {
+      "id": "tencent-twins-cuhk-xiangyu-yue",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学助理教授、正式论文通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "龚凯雄 · Kaixiong Gong",
+        "香港中文大学博士生、腾讯混元在读实习生与本论文共同第一作者；原文具名确认在实习期间完成本篇。",
+        "https://kxgong.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页明确于 2023 年起在香港中文大学攻读博士，具名岳翔宇为博士导师；二者均在论文署名。",
+        "https://kxgong.github.io/"
+      ],
+      "employee": [
+        "张建伟 · Jian-Wei Zhang",
+        "2023 年取得博士学位并加入腾讯混元；文章具名项目负责人，也是第一共同作者所列企业导师。",
+        "https://www.jarvis73.com/about/"
+      ],
+      "title": "Twins: Learn to Predict Unified Representations with Focal Loss",
+      "short": "Twins",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "计算机视觉与多模态",
+      "paper": "https://proceedings.mlr.press/v306/gong26b.html",
+      "extra": [
+        [
+          "作者原文的具名脚注及项目负责人",
+          "https://arxiv.org/html/2607.22531v1"
+        ],
+        [
+          "腾讯混元原始项目",
+          "https://github.com/Tencent-Hunyuan/Twins"
+        ],
+        [
+          "正式论文 PDF",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/gong26b/gong26b.pdf"
+        ]
+      ],
+      "evidence": "论文首页具名说明龚凯雄在腾讯混元实习期间完成本篇，并标出张建伟为项目负责人。龚凯雄的公开履历列岳翔宇为港中文博士导师、张建伟为同期混元企业导师，两者均为作者；张建伟的公开履历确认毕业后于 2023 年即入职腾讯混元。"
+    },
+    {
+      "id": "tencent-lattice-cuhk-xiangyu-yue",
+      "company": "腾讯",
+      "team": "腾讯混元 3D",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学助理教授、论文通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "赖泽强 · Zeqiang Lai",
+        "2025 年 1 月起为香港中文大学博士生、同时在腾讯混元 3D 实习并公开列出对应成果。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生学术主页与履历均标明在香港中文大学攻读博士期间，导师为岳翔宇；双方均在论文署名。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "employee": [
+        "Chunchao Guo",
+        "腾讯首席研究科学家、混元 3D 负责人、论文企业通讯作者。",
+        "https://sa2025.conference-schedule.org/contributor/?uid=9990288653133639651"
+      ],
+      "title": "LATTICE: Democratize High-Fidelity 3D Generation at Scale",
+      "short": "LATTICE",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_LATTICE_Democratize_High-Fidelity_3D_Generation_at_Scale_CVPR_2026_paper.html",
+      "extra": [
+        [
+          "原始项目及具体作者贡献",
+          "https://lattice3d.github.io/"
+        ],
+        [
+          "学生在读及企业成果的同期履历",
+          "https://zeqiang-lai.github.io/assets/pdf/Zeqiang_Lai_CV_2025_12.pdf"
+        ]
+      ],
+      "evidence": "公开履历在腾讯混元任职条目逐项把 LATTICE 列为本人第一作者成果；项目说明该研究实际用于腾讯混元 3D 2.5 与 3.0。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+    },
+    {
+      "id": "tencent-natex-cuhk-xiangyu-yue",
+      "company": "腾讯",
+      "team": "腾讯混元 3D",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学助理教授、论文通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "赖泽强 · Zeqiang Lai",
+        "2025 年 1 月起为香港中文大学博士生、同时在腾讯混元 3D 实习并公开列出对应成果。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生学术主页与履历均标明在香港中文大学攻读博士期间，导师为岳翔宇；双方均在论文署名。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "employee": [
+        "Chunchao Guo",
+        "腾讯首席研究科学家、混元 3D 负责人、论文企业通讯作者。",
+        "https://sa2025.conference-schedule.org/contributor/?uid=9990288653133639651"
+      ],
+      "title": "NaTex: Seamless Texture Generation as Latent Color Diffusion",
+      "short": "NaTex",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_NaTex_Seamless_Texture_Generation_as_Latent_Color_Diffusion_CVPR_2026_paper.html",
+      "extra": [
+        [
+          "原始项目及具体作者贡献",
+          "https://natex-ldm.github.io/"
+        ],
+        [
+          "学生在读及企业成果的同期履历",
+          "https://zeqiang-lai.github.io/assets/pdf/Zeqiang_Lai_CV_2025_12.pdf"
+        ]
+      ],
+      "evidence": "公开履历在腾讯混元任职条目逐项把 NaTex 列为本人第一作者成果；正式共同作者分别署名香港中文大学和腾讯混元。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+    },
+    {
+      "id": "tencent-flashvdm-cuhk-xiangyu-yue",
+      "company": "腾讯",
+      "team": "腾讯混元 3D",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学助理教授、论文通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "赖泽强 · Zeqiang Lai",
+        "2025 年 1 月起为香港中文大学博士生、同时在腾讯混元 3D 实习并公开列出对应成果。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生学术主页与履历均标明在香港中文大学攻读博士期间，导师为岳翔宇；双方均在论文署名。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "employee": [
+        "Chunchao Guo",
+        "腾讯首席研究科学家、混元 3D 负责人、论文企业通讯作者。",
+        "https://sa2025.conference-schedule.org/contributor/?uid=9990288653133639651"
+      ],
+      "title": "Unleashing Vecset Diffusion Model for Fast Shape Generation",
+      "short": "FlashVDM",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lai_Unleashing_Vecset_Diffusion_Model_for_Fast_Shape_Generation_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "原始项目及具体作者贡献",
+          "https://github.com/Tencent-Hunyuan/FlashVDM"
+        ],
+        [
+          "学生在读及企业成果的同期履历",
+          "https://zeqiang-lai.github.io/assets/pdf/Zeqiang_Lai_CV_2025_12.pdf"
+        ]
+      ],
+      "evidence": "公开履历在腾讯混元任职条目逐项把 FlashVDM 列为本人第一作者成果；腾讯官方项目资料说明该研究已部署到混元 3D 产品。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+    },
+    {
+      "id": "tencent-tex-zero-cuhk-xiangyu-yue",
+      "company": "腾讯",
+      "team": "腾讯混元 3D",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学助理教授、论文通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "赖泽强 · Zeqiang Lai",
+        "2025 年 1 月起为香港中文大学博士生、同时在腾讯混元 3D 实习并公开列出对应成果。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生学术主页与履历均标明在香港中文大学攻读博士期间，导师为岳翔宇；双方均在论文署名。",
+        "https://zeqiang-lai.github.io/"
+      ],
+      "employee": [
+        "Chunchao Guo",
+        "腾讯首席研究科学家、混元 3D 负责人、论文企业通讯作者。",
+        "https://sa2025.conference-schedule.org/contributor/?uid=9990288653133639651"
+      ],
+      "title": "Does Native 3D Texture Generation Necessarily Require 3D Assets for Training?",
+      "short": "Tex-Zero",
+      "date": "2026-09",
+      "venue": "arXiv",
+      "area": "计算机视觉与多模态",
+      "paper": "https://arxiv.org/abs/2609.34621",
+      "extra": [
+        [
+          "原始项目及具体作者贡献",
+          "https://github.com/wangjiangshan0725/Tex-Zero"
+        ],
+        [
+          "学生在读及企业成果的同期履历",
+          "https://zeqiang-lai.github.io/assets/pdf/Zeqiang_Lai_CV_2025_12.pdf"
+        ]
+      ],
+      "evidence": "项目原始作者名册具名赖泽强同时署香港中文大学和腾讯混元，且担任本篇项目负责人；学生研究书目列出项目，项目开始时的企业在读履历已核实。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+    },
+    {
+      "id": "tencent-vibeworlding-hkustgz-hao-liu",
+      "company": "腾讯",
+      "team": "人工智能平台部（AIPD）",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "刘浩 · Hao Liu",
+        "香港科技大学（广州）教师、论文通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Hao/liuh#new_tab"
+      ],
+      "student": [
+        "Yansong Ning",
+        "港科大（广州）在读博士及腾讯青云研究实习生、论文第一作者。项目页和论文首页均具名确认本篇在腾讯实习期间完成。",
+        "https://yasning.github.io/homepage/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人履历具名刘浩为其博士导师；教师组员名录相互印证。",
+        "https://raymondhliu.github.io/students/"
+      ],
+      "employee": [
+        "叶靖雯 · Jingwen Ye",
+        "同篇腾讯 AIPD 作者；会议官方名单记录在腾讯 AIPD，已有在本篇前由腾讯申请的同名具名发明。",
+        "https://s2025.conference-schedule.org/organization/?inst=8491162979695427896"
+      ],
+      "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+      "short": "VibeWorlding",
+      "date": "2026-08",
+      "venue": "arXiv",
+      "area": "计算机视觉与多模态",
+      "paper": "https://arxiv.org/abs/2608.15265",
+      "extra": [
+        [
+          "本篇原始项目及具名脚注",
+          "https://usail-hkust.github.io/VibeWorlding-Gym/"
+        ],
+        [
+          "腾讯具名同作者早期研发登记",
+          "https://data.epo.org/publication-server/rest/v1.2/patents/EP4571756NWA1/document.pdf"
+        ]
+      ],
+      "evidence": "第一作者在正式预印本和原始项目明示在腾讯实习时完成本篇，其学术主页列港科大（广州）在读博士和具名博士导师刘浩。原文的腾讯 AIPD 作者叶靖雯有同期公开的任职和研发依据，同篇发表；与另一篇 HRBench 为不同研究。"
+    },
+    {
+      "id": "rednote-mmrm-ucas-han",
+      "company": "小红书",
+      "team": "大模型研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "韩先培 · Xianpei Han",
+        "中国科学院软件研究所研究员，中国科学院大学导师。",
+        "https://people.ucas.ac.cn/~xphan"
+      ],
+      "employee": [
+        "张德兵 · Debing Zhang",
+        "小红书大模型研究和应用负责人。作者简介明确给出职务；2023 年正式论文已署小红书，本篇论文仍署小红书。",
+        "https://www.sciencedirect.com/science/article/pii/S2667325826000324"
+      ],
+      "student": [
+        "李梓超 · Zichao Li",
+        "2023 年本科毕业后在中科院软件所攻读硕士，论文署国科大；公开主页具名两位硕士导师。",
+        "https://lazyc81.github.io/"
+      ],
+      "title": "The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models",
+      "short": "The Devil Is in the Details",
+      "date": "2025-07",
+      "venue": "ICML",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.mlr.press/v267/li25cw/li25cw.pdf",
+      "evidence": "正式版首页明确说明李梓超和另一作者在小红书实习期间开展本论文工作；同篇有国科大署名的李梓超、其校内导师和署小红书的张德兵。",
+      "advising": [
+        "校内共同指导",
+        "李梓超本人主页明确具名孙乐和韩先培共同指导其在中科院软件所的硕士学业。",
+        "https://lazyc81.github.io/"
+      ],
+      "extra": [
+        [
+          "PMLR 正式论文书目",
+          "https://proceedings.mlr.press/v267/li25cw.html"
+        ],
+        [
+          "张德兵早期小红书共同署名",
+          "https://openaccess.thecvf.com/content/ICCV2023/html/Huang_One-shot_Implicit_Animatable_Avatars_with_Model-based_Priors_ICCV_2023_paper.html"
+        ]
+      ],
+      "paperId": "arxiv:2503.03122"
+    },
+    {
+      "id": "rednote-mmrm-ucas-sun",
+      "company": "小红书",
+      "team": "大模型研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "孙乐 · Le Sun",
+        "中国科学院软件研究所研究员，中国科学院大学导师。",
+        "https://people.ucas.ac.cn/~lesun"
+      ],
+      "employee": [
+        "张德兵 · Debing Zhang",
+        "小红书大模型研究和应用负责人。作者简介明确给出职务；2023 年正式论文已署小红书，本篇论文仍署小红书。",
+        "https://www.sciencedirect.com/science/article/pii/S2667325826000324"
+      ],
+      "student": [
+        "李梓超 · Zichao Li",
+        "2023 年本科毕业后在中科院软件所攻读硕士，论文署国科大；公开主页具名两位硕士导师。",
+        "https://lazyc81.github.io/"
+      ],
+      "title": "The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models",
+      "short": "The Devil Is in the Details",
+      "date": "2025-07",
+      "venue": "ICML",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.mlr.press/v267/li25cw/li25cw.pdf",
+      "evidence": "正式版首页明确说明李梓超和另一作者在小红书实习期间开展本论文工作；同篇有国科大署名的李梓超、其校内导师和署小红书的张德兵。",
+      "advising": [
+        "校内共同指导",
+        "李梓超本人主页明确具名孙乐和韩先培共同指导其在中科院软件所的硕士学业。",
+        "https://lazyc81.github.io/"
+      ],
+      "extra": [
+        [
+          "PMLR 正式论文书目",
+          "https://proceedings.mlr.press/v267/li25cw.html"
+        ],
+        [
+          "张德兵早期小红书共同署名",
+          "https://openaccess.thecvf.com/content/ICCV2023/html/Huang_One-shot_Implicit_Animatable_Avatars_with_Model-based_Priors_ICCV_2023_paper.html"
+        ]
+      ],
+      "paperId": "arxiv:2503.03122"
+    },
+    {
+      "id": "rednote-rethinkrm-ucas-he",
+      "company": "小红书",
+      "team": "大模型研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "何苯 · Ben He",
+        "中国科学院大学教授。",
+        "https://people.ucas.ac.cn/~benhe"
+      ],
+      "employee": [
+        "张德兵 · Debing Zhang",
+        "小红书大模型研究和应用负责人。作者简介明确给出职务；2023 年正式论文已署小红书，本篇论文仍署小红书。",
+        "https://www.sciencedirect.com/science/article/pii/S2667325826000324"
+      ],
+      "student": [
+        "温学儒 · Xueru Wen",
+        "2023 年起为中国科学院大学博士生；2023 年 9 月起在小红书从事模型后训练实习。",
+        "https://wenxueru.github.io/"
+      ],
+      "title": "Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?",
+      "short": "Rethinking RM Evaluation",
+      "date": "2025-04",
+      "venue": "ICLR",
+      "area": "语言模型与智能体",
+      "paper": "https://openreview.net/notes/edits/attachment?id=8L1kbRDNJY&name=pdf",
+      "evidence": "ICLR 正式稿首页直接将本研究连到温学儒在小红书的实习；何苯与小红书在任研究负责人张德兵在同篇署名。",
+      "advising": [
+        "校内导师",
+        "温学儒本人公开主页具名何苯指导自己在中国科学院大学的博士学业。",
+        "https://wenxueru.github.io/"
+      ],
+      "extra": [
+        [
+          "ICLR 正式录用及书目",
+          "https://openreview.net/forum?id=Cnwz9jONi5"
+        ],
+        [
+          "张德兵早期小红书共同署名",
+          "https://openaccess.thecvf.com/content/ICCV2023/html/Huang_One-shot_Implicit_Animatable_Avatars_with_Model-based_Priors_ICCV_2023_paper.html"
+        ]
+      ],
+      "paperId": "arxiv:2410.05584"
+    },
+    {
+      "id": "bytedance-dmdx-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "字节跳动",
+      "team": "Seed Vision",
+      "title": "Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis",
+      "short": "DMDX",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lu_Adversarial_Distribution_Matching_for_Diffusion_Distillation_Towards_Efficient_Image_and_ICCV_2025_paper.pdf",
+      "arxiv": "2507.18569",
+      "evidence": "ICCV 正式论文列卢彦作为中山大学和字节跳动 Seed Vision 双署名第一作者，项目组负责人 Xuefeng Xiao 和其校内导师为同篇作者。该会议在 2025 年 3 月锁定投稿作者名单，当时卢彦作仍在中大攻读硕士并在字节 Seed 实习研究这类扩散模型蒸馏；学生本人公开履历列出参与课题、硕士导师及企业负责人，6 月毕业后才转为全职。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授。是卢彦作硕士期间具名导师，也列于 ICCV 正式论文。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "employee": [
+        "Xuefeng Xiao",
+        "同篇字节 Seed Vision 通讯作者。学生本人公开履历列其为实习期研究负责人。",
+        "https://yanzuo.lu/"
+      ],
+      "student": [
+        "卢彦作 · Yanzuo Lu",
+        "2022 年 9 月至 2025 年 6 月在中山大学攻读硕士，2023 年 12 月至 2025 年 6 月同时在字节 Seed 科研实习。",
+        "https://yanzuo.lu/"
+      ],
+      "advising": [
+        "硕士导师",
+        "卢彦作的公开履历具名列出 Andy J. Ma、谢晓华、赖剑煌三人为中山大学硕士期间的导师。",
+        "https://yanzuo.lu/"
+      ],
+      "extra": [
+        [
+          "作者履历与逐篇书目",
+          "https://yanzuo.lu/Yanzuo_Lu_CV.pdf"
+        ],
+        [
+          "ICCV 作者名单截止规定",
+          "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines"
+        ]
+      ]
+    },
+    {
+      "id": "bytedance-dmdx-sysu-jianhuang-lai",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "字节跳动",
+      "team": "Seed Vision",
+      "title": "Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis",
+      "short": "DMDX",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lu_Adversarial_Distribution_Matching_for_Diffusion_Distillation_Towards_Efficient_Image_and_ICCV_2025_paper.pdf",
+      "arxiv": "2507.18569",
+      "evidence": "ICCV 正式论文列卢彦作为中山大学和字节跳动 Seed Vision 双署名第一作者，项目组负责人 Xuefeng Xiao 和其校内导师为同篇作者。该会议在 2025 年 3 月锁定投稿作者名单，当时卢彦作仍在中大攻读硕士并在字节 Seed 实习研究这类扩散模型蒸馏；学生本人公开履历列出参与课题、硕士导师及企业负责人，6 月毕业后才转为全职。",
+      "faculty": [
+        "赖剑煌 · Jian-Huang Lai",
+        "中山大学计算机学院教授。是卢彦作硕士期间具名导师，也列于 ICCV 正式论文。",
+        "https://cse.sysu.edu.cn/teacher/LaiJianhuang"
+      ],
+      "employee": [
+        "Xuefeng Xiao",
+        "同篇字节 Seed Vision 通讯作者。学生本人公开履历列其为实习期研究负责人。",
+        "https://yanzuo.lu/"
+      ],
+      "student": [
+        "卢彦作 · Yanzuo Lu",
+        "2022 年 9 月至 2025 年 6 月在中山大学攻读硕士，2023 年 12 月至 2025 年 6 月同时在字节 Seed 科研实习。",
+        "https://yanzuo.lu/"
+      ],
+      "advising": [
+        "硕士导师",
+        "卢彦作的公开履历具名列出 Andy J. Ma、谢晓华、赖剑煌三人为中山大学硕士期间的导师。",
+        "https://yanzuo.lu/"
+      ],
+      "extra": [
+        [
+          "作者履历与逐篇书目",
+          "https://yanzuo.lu/Yanzuo_Lu_CV.pdf"
+        ],
+        [
+          "ICCV 作者名单截止规定",
+          "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines"
+        ]
+      ]
     }
   ]
 };

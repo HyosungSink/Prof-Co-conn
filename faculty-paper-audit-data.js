@@ -1321,7 +1321,12 @@ const facultyPaperAudits = {
     "sources": [
       "https://people.ucas.ac.cn/~xphan",
       "https://chenjiawei30.github.io/",
-      "https://jw.beijing.gov.cn/gjc/tzgg_15688/202606/t20260615_4700536.html"
+      "https://jw.beijing.gov.cn/gjc/tzgg_15688/202606/t20260615_4700536.html",
+      "https://lazyc81.github.io/",
+      "https://www.sciencedirect.com/science/article/pii/S2667325826000324",
+      "https://proceedings.mlr.press/v267/li25cw.html",
+      "https://wenxueru.github.io/",
+      "https://people.ucas.ac.cn/~benhe"
     ],
     "papers": [
       {
@@ -1347,9 +1352,27 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2506.03558",
         "outcome": "no-evidence",
         "note": "首版公开早于 Jiawei Chen 的快手实习，论文没有快手署名。"
+      },
+      {
+        "title": "The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models",
+        "url": "https://proceedings.mlr.press/v267/li25cw/li25cw.pdf",
+        "outcome": "confirmed",
+        "note": "国科大李梓超在小红书具名实习；两位校内导师同篇，仅计一种研究成果。"
+      },
+      {
+        "title": "Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch",
+        "url": "https://arxiv.org/abs/2502.17173",
+        "outcome": "lead",
+        "note": "同篇作者有研读范围内导师、同校学生和在任小红书研究员，首版和修订版论文未提具体实习；先保留线索。"
+      },
+      {
+        "title": "Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?",
+        "url": "https://openreview.net/notes/edits/attachment?id=8L1kbRDNJY&name=pdf",
+        "outcome": "no-evidence",
+        "note": "同篇虽有署名，但学生本人只确认何苯为校内导师；本论文已记到何苯，不再按其他同篇作者重复追加。"
       }
     ],
-    "note": "已核对 Jiawei Chen 主页上所列几篇论文，未完成韩先培所有论文综排。"
+    "note": "已对李梓超和 Xueru Wen 合作论文的部分书目及正式版脚注进行了交叉核查，尚未覆盖全部书目。"
   },
   "F7bvTOEAAAAJ": {
     "from": "2023-01-01",
@@ -2957,7 +2980,25 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2602.14178",
       "https://shallowdream204.github.io/",
       "https://arxiv.org/abs/2510.10518",
-      "https://qunzhongwang.github.io/cv/Qunzhong_WANG_CV_1123.pdf"
+      "https://qunzhongwang.github.io/cv/Qunzhong_WANG_CV_1123.pdf",
+      "https://proceedings.mlr.press/v306/gong26b.html",
+      "https://kxgong.github.io/",
+      "https://www.ie.cuhk.edu.hk/people/xyyue.shtml",
+      "https://www.jarvis73.com/about/",
+      "https://arxiv.org/html/2607.22531v1",
+      "https://github.com/Tencent-Hunyuan/Twins",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/gong26b/gong26b.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_LATTICE_Democratize_High-Fidelity_3D_Generation_at_Scale_CVPR_2026_paper.html",
+      "https://zeqiang-lai.github.io/",
+      "https://sa2025.conference-schedule.org/contributor/?uid=9990288653133639651",
+      "https://lattice3d.github.io/",
+      "https://zeqiang-lai.github.io/assets/pdf/Zeqiang_Lai_CV_2025_12.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_NaTex_Seamless_Texture_Generation_as_Latent_Color_Diffusion_CVPR_2026_paper.html",
+      "https://natex-ldm.github.io/",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Lai_Unleashing_Vecset_Diffusion_Model_for_Fast_Shape_Generation_ICCV_2025_paper.pdf",
+      "https://github.com/Tencent-Hunyuan/FlashVDM",
+      "https://arxiv.org/abs/2609.34621",
+      "https://github.com/wangjiangshan0725/Tex-Zero"
     ],
     "papers": [
       {
@@ -2989,6 +3030,36 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2510.10518",
         "outcome": "lead",
         "note": "Qunzhong Wang 在读港中文并明确表示在可灵做视频生成后训练和奖励模型研究，但履历只提港中文 MMLab 合作交流，未举明岳翔宇指导；继续查其他同篇学生。"
+      },
+      {
+        "title": "Twins: Learn to Predict Unified Representations with Focal Loss",
+        "url": "https://proceedings.mlr.press/v306/gong26b.html",
+        "outcome": "confirmed",
+        "note": "论文首页具名说明龚凯雄在腾讯混元实习期间完成本篇，并标出张建伟为项目负责人。龚凯雄的公开履历列岳翔宇为港中文博士导师、张建伟为同期混元企业导师，两者均为作者；张建伟的公开履历确认毕业后于 2023 年即入职腾讯混元。"
+      },
+      {
+        "title": "LATTICE: Democratize High-Fidelity 3D Generation at Scale",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_LATTICE_Democratize_High-Fidelity_3D_Generation_at_Scale_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "公开履历在腾讯混元任职条目逐项把 LATTICE 列为本人第一作者成果；项目说明该研究实际用于腾讯混元 3D 2.5 与 3.0。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+      },
+      {
+        "title": "NaTex: Seamless Texture Generation as Latent Color Diffusion",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lai_NaTex_Seamless_Texture_Generation_as_Latent_Color_Diffusion_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "公开履历在腾讯混元任职条目逐项把 NaTex 列为本人第一作者成果；正式共同作者分别署名香港中文大学和腾讯混元。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+      },
+      {
+        "title": "Unleashing Vecset Diffusion Model for Fast Shape Generation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lai_Unleashing_Vecset_Diffusion_Model_for_Fast_Shape_Generation_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "公开履历在腾讯混元任职条目逐项把 FlashVDM 列为本人第一作者成果；腾讯官方项目资料说明该研究已部署到混元 3D 产品。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
+      },
+      {
+        "title": "Does Native 3D Texture Generation Necessarily Require 3D Assets for Training?",
+        "url": "https://arxiv.org/abs/2609.34621",
+        "outcome": "confirmed",
+        "note": "项目原始作者名册具名赖泽强同时署香港中文大学和腾讯混元，且担任本篇项目负责人；学生研究书目列出项目，项目开始时的企业在读履历已核实。 学生本人学术资料明确在香港中文大学由岳翔宇指导，2025 年起于腾讯混元实习。腾讯混元 3D 负责人 Chunchao Guo 与学术导师均作为本篇共同通讯作者。"
       }
     ]
   },
@@ -6565,6 +6636,286 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "作者含电子科大学生舒文正及周帆教授，数位作者署名快手；原文没有具名说明舒文正的企业参与，仍查个人资料和项目档案。"
+      }
+    ]
+  },
+  "pbjw9sMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/zhangya",
+      "https://sii-ferenas.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "ConText: Driving In-context Learning for Text Removal and Segmentation",
+        "url": "https://proceedings.mlr.press/v267/zhang25dg.html",
+        "outcome": "confirmed",
+        "note": "论文首页具名题注说明研究在第一作者张菲的阿里通义实习期间完成；张菲个人主页列上海交大博士学籍与共同指导。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "zX7i1EkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://iiis.tsinghua.edu.cn/rydw/qzjs/lijian.htm",
+      "https://outsider565.github.io/",
+      "https://iiis.tsinghua.edu.cn/info/1193/4651.htm"
+    ],
+    "papers": [
+      {
+        "title": "AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26lk/wang26lk.pdf",
+        "outcome": "confirmed",
+        "note": "ICML 正式论文首页明确写明本研究在 Shaowen Wang 腾讯实习期间完成；本人主页和校方课题组网站一致确认他是清华在读研究生。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "y2EaftAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1078/1672.htm",
+      "https://o-l1ru1.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "FIRE: Learning to Navigate and Act on Real-World Files via Stateful Reinforcement Learning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26q/ma26q.pdf",
+        "outcome": "confirmed",
+        "note": "ICML 正式论文把 Rui Li、Zheng Li、Jingyuan Ma 并列署为北大作者，三个姓名均标注实习脚注，具名说明此研究在字节跳动 BandAI 实习期间完成；Rui Li 本人也列明从 2025 年 10 月起的字节算法实习及北大硕士学籍与导师。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "_wop6KgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~0064227",
+      "https://hambaobao.me/about/"
+    ],
+    "papers": [
+      {
+        "title": "SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25cn/zhang25cn.pdf",
+        "outcome": "confirmed",
+        "note": "首位作者张磊的同名脚注标注该研究在阿里 Qwen 实习完成；本人所列实习时间为 2024 年 8 月至 2026 年 3 月。 中国科学院大学导师名录与论文机构署名互证学生身份。"
+      },
+      {
+        "title": "MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era",
+        "url": "https://arxiv.org/html/2601.07526",
+        "outcome": "confirmed",
+        "note": "首位作者张磊的同名脚注标注该研究在阿里 Qwen 实习完成；本人所列实习时间为 2024 年 8 月至 2026 年 3 月。 中国科学院大学导师名录与论文机构署名互证学生身份。"
+      },
+      {
+        "title": "Iterative Forward Tuning Boosts In-Context Learning in Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.825.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式论文首页将实习脚注标在首位作者杨家玺姓名后，明确工作在阿里巴巴实习期间完成。 中国科学院大学导师名录与论文机构署名互证学生身份。"
+      },
+      {
+        "title": "One-Shot Learning as Instruction Data Prospector for Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.252.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式论文首页将实习脚注标在首位作者李云水姓名后，明确工作在阿里巴巴实习期间完成。 中国科学院大学导师名录与论文机构署名互证学生身份。"
+      },
+      {
+        "title": "Diverse AI Feedback For Large Language Model Alignment",
+        "url": "https://aclanthology.org/2025.tacl-1.19.pdf",
+        "outcome": "confirmed",
+        "note": "TACL 正式版首页具名写明该研究在余天枢于通义实验室实习期间完成；国科大导师名录和深圳先进院新闻确认其硕士生身份。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "66KKZR4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2608.15265",
+      "https://yasning.github.io/homepage/",
+      "https://raymondhliu.github.io/students/",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Hao/liuh#new_tab",
+      "https://s2025.conference-schedule.org/organization/?inst=8491162979695427896",
+      "https://usail-hkust.github.io/VibeWorlding-Gym/",
+      "https://data.epo.org/publication-server/rest/v1.2/patents/EP4571756NWA1/document.pdf"
+    ],
+    "papers": [
+      {
+        "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+        "url": "https://arxiv.org/abs/2608.15265",
+        "outcome": "confirmed",
+        "note": "第一作者在正式预印本和原始项目明示在腾讯实习时完成本篇，其学术主页列港科大（广州）在读博士和具名博士导师刘浩。原文的腾讯 AIPD 作者叶靖雯有同期公开的任职和研发依据，同篇发表；与另一篇 HRBench 为不同研究。"
+      }
+    ]
+  },
+  "6bFNhtwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~lesun",
+      "https://lazyc81.github.io/",
+      "https://www.sciencedirect.com/science/article/pii/S2667325826000324",
+      "https://proceedings.mlr.press/v267/li25cw.html",
+      "https://wenxueru.github.io/",
+      "https://people.ucas.ac.cn/~benhe"
+    ],
+    "papers": [
+      {
+        "title": "The Devil Is in the Details: Tackling Unimodal Spurious Correlations for Generalizable Multimodal Reward Models",
+        "url": "https://proceedings.mlr.press/v267/li25cw/li25cw.pdf",
+        "outcome": "confirmed",
+        "note": "国科大李梓超在小红书具名实习；两位校内导师同篇，仅计一种研究成果。"
+      },
+      {
+        "title": "Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch",
+        "url": "https://arxiv.org/abs/2502.17173",
+        "outcome": "lead",
+        "note": "同篇作者有研读范围内导师、同校学生和在任小红书研究员，首版和修订版论文未提具体实习；先保留线索。"
+      },
+      {
+        "title": "Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?",
+        "url": "https://openreview.net/notes/edits/attachment?id=8L1kbRDNJY&name=pdf",
+        "outcome": "no-evidence",
+        "note": "同篇虽有署名，但学生本人只确认何苯为校内导师；本论文已记到何苯，不再按其他同篇作者重复追加。"
+      }
+    ],
+    "note": "已对李梓超和 Xueru Wen 合作论文的部分书目及正式版脚注进行了交叉核查，尚未覆盖全部书目。"
+  },
+  "EmTFUdQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~benhe",
+      "https://wenxueru.github.io/",
+      "https://openreview.net/notes/edits/attachment?id=8L1kbRDNJY&name=pdf",
+      "https://openreview.net/forum?id=Cnwz9jONi5",
+      "https://aclanthology.org/2025.acl-long.737/",
+      "https://aclanthology.org/2025.findings-acl.271/",
+      "https://arxiv.org/abs/2512.12576",
+      "https://www.sciencedirect.com/science/article/pii/S2667325826000324"
+    ],
+    "papers": [
+      {
+        "title": "Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?",
+        "url": "https://openreview.net/notes/edits/attachment?id=8L1kbRDNJY&name=pdf",
+        "outcome": "confirmed",
+        "note": "温学儒、何苯、张德兵；本人学业、具名实习脚注和在任期间交叉证实。"
+      },
+      {
+        "title": "Cheems: A Practical Guidance for Building and Evaluating Chinese Reward Models from Scratch",
+        "url": "https://aclanthology.org/2025.acl-long.737/",
+        "outcome": "lead",
+        "note": "同一时期的学生、导师和企业作者同篇，但暂无本项具体实习证据。"
+      },
+      {
+        "title": "On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation",
+        "url": "https://aclanthology.org/2025.findings-acl.271/",
+        "outcome": "lead",
+        "note": "同一时期的学生、导师和企业作者同篇，但暂无本项具体实习证据。"
+      },
+      {
+        "title": "Coupled Variational Reinforcement Learning for Language Model General Reasoning",
+        "url": "https://arxiv.org/abs/2512.12576",
+        "outcome": "lead",
+        "note": "同一时期的学生、导师和企业作者同篇，但暂无本项具体实习证据。"
+      }
+    ],
+    "note": "已核查温学儒与何苯近期合著中的一部分，仍需覆盖何苯其他公开作者组书目。"
+  },
+  "5YZ3kvoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/XieXiaohua",
+      "https://yanzuo.lu/"
+    ],
+    "papers": [
+      {
+        "title": "Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lu_Adversarial_Distribution_Matching_for_Diffusion_Distillation_Towards_Efficient_Image_and_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ICCV 正式论文列卢彦作为中山大学和字节跳动 Seed Vision 双署名第一作者，项目组负责人 Xuefeng Xiao 和其校内导师为同篇作者。该会议在 2025 年 3 月锁定投稿作者名单，当时卢彦作仍在中大攻读硕士并在字节 Seed 实习研究这类扩散模型蒸馏；学生本人公开履历列出参与课题、硕士导师及企业负责人，6 月毕业后才转为全职。"
+      },
+      {
+        "title": "Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation",
+        "url": "https://arxiv.org/html/2510.09094v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "首作郑有为具名在字节实习，同篇有谢晓华；校方教师主页确认曾指导他的本科论文，仍查这篇研究发生时的在读与指导情况。"
+      },
+      {
+        "title": "Coarse-to-Fine Latent Diffusion for Pose-Guided Person Image Synthesis",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Lu_Coarse-to-Fine_Latent_Diffusion_for_Pose-Guided_Person_Image_Synthesis_CVPR_2024_paper.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "全文作者单位为中大、实验室等；在公开机构署名中未找到范围内企业作者。"
+      }
+    ]
+  },
+  "w3GjGqoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/LaiJianhuang",
+      "https://yanzuo.lu/"
+    ],
+    "papers": [
+      {
+        "title": "Adversarial Distribution Matching for Diffusion Distillation Towards Efficient Image and Video Synthesis",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lu_Adversarial_Distribution_Matching_for_Diffusion_Distillation_Towards_Efficient_Image_and_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ICCV 正式论文列卢彦作为中山大学和字节跳动 Seed Vision 双署名第一作者，项目组负责人 Xuefeng Xiao 和其校内导师为同篇作者。该会议在 2025 年 3 月锁定投稿作者名单，当时卢彦作仍在中大攻读硕士并在字节 Seed 实习研究这类扩散模型蒸馏；学生本人公开履历列出参与课题、硕士导师及企业负责人，6 月毕业后才转为全职。"
+      }
+    ]
+  },
+  "SAUCVsEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jszy.whu.edu.cn/xiaguisong/zh_CN/index.htm"
+    ],
+    "papers": [
+      {
+        "title": "UNIC-Adapter: Unified Image-instruction Adapter with Multi-modal Transformer for Image Generation",
+        "url": "https://arxiv.org/abs/2412.18928",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "CVPR 正式论文具名确认武汉大学作者 Lunhao Duan 在阿里实习；武大夏桂松同篇为通讯，需找具名指导与学籍来源。"
+      }
+    ]
+  },
+  "4pg3rtYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://toneyaya.github.io/",
+      "https://faculty.sist.shanghaitech.edu.cn/yangsibei/"
+    ],
+    "papers": [
+      {
+        "title": "Chart Deep Research in LVLMs via Parallel Relative Policy Optimization",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/504bfc60c2a7fed53aed76eeed409cd1-Paper-Conference.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "唐嘉晋本人确认师从杨思蓓，但博士注册于上海科技大学；原文杨思蓓标中山大学。未查到在研究期间其与中山大学的联合培养或正式共同指导，因此暂不纳入。"
       }
     ]
   }
