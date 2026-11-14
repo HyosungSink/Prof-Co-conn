@@ -44717,6 +44717,112 @@ const survey = {
         "熊伯君本人标明北大 2025 年硕士及导师连宙辉，论文第一作者与通讯对应，北大院所将同篇列为连所在实验室成果。",
         "https://ymxbj.github.io/"
       ]
+    },
+    {
+      "id": "huawei-android-in-zoo-fudan-wei",
+      "company": "华为",
+      "team": "华为上海研究中心",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "魏忠钰 · Zhongyu Wei",
+        "复旦大学大数据学院博士生导师；项目期间复旦官方新闻列为副教授，本篇署复旦并担任通讯作者。",
+        "http://www.fudan-disc.com/people/zywei"
+      ],
+      "employee": [
+        "廖明辉 · Minghui Liao",
+        "2021 年起任华为研究员，在本篇署华为。",
+        "https://mhliao.github.io/"
+      ],
+      "student": [
+        "张霁雯 · Jiwen Zhang",
+        "2021 年 9 月起在复旦攻读博士；正式论文首页具名脚注说明这项工作在其华为上海研究中心实习期间完成。",
+        "https://imnearth.github.io/files/CV__Jiwen_Zhang.pdf"
+      ],
+      "advising": [
+        "在读博士导师",
+        "张霁雯在公开履历和个人主页中均具名魏忠钰为复旦博士导师；双方共同署名。",
+        "https://imnearth.github.io/"
+      ],
+      "area": "视觉与多模态",
+      "title": "Android in the Zoo: Chain-of-Action-Thought for GUI Agents",
+      "short": "Android in the Zoo",
+      "date": "2024-03-05",
+      "venue": "EMNLP 2024 Findings",
+      "paperId": "arxiv:2403.02713",
+      "paper": "https://aclanthology.org/2024.findings-emnlp.702/",
+      "extra": [
+        [
+          "正式论文与具名华为实习脚注",
+          "https://aclanthology.org/2024.findings-emnlp.702.pdf"
+        ],
+        [
+          "2024 年 3 月 5 日首稿",
+          "https://arxiv.org/abs/2403.02713"
+        ],
+        [
+          "作者姓名与同篇出版目录",
+          "https://aclanthology.org/people/jiwen-zhang/"
+        ],
+        [
+          "复旦大学教师资料",
+          "https://labndig.fudan.edu.cn/people/wei-zhongyu/"
+        ]
+      ],
+      "evidence": "EMNLP Findings 正式版首页将星号仅标在学生张霁雯处，脚注明确指这篇论文在其华为上海研究中心实习期间完成；同一首页列复旦导师魏忠钰、华为研究员廖明辉及学生的双署。张霁雯的履历列出 2021 年 9 月开始攻读复旦博士以及具名导师，廖明辉本人列 2021 年起受聘华为。2024-03-05 为同篇首稿；正式版 2024 年 11 月。"
+    },
+    {
+      "id": "alibaba-movt-fudan-wei",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴 · 未来生活实验室",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "魏忠钰 · Zhongyu Wei",
+        "复旦大学大数据学院博士生导师；研究期时任副教授，现为教授。本篇署复旦，担任通讯作者。",
+        "http://www.fudan-disc.com/people/zywei"
+      ],
+      "employee": [
+        "郑波 · Bo Zheng",
+        "本篇署阿里巴巴及未来生活实验室；中国计算机学会 2025 年大会资料列为淘天集团首席科学家、技术总裁。",
+        "https://www.ccf.org.cn/Media_list/cncc/2025-10-01/849291.shtml"
+      ],
+      "student": [
+        "李泽君 · Zejun Li",
+        "复旦大学博士生，2025 年 5 月起在阿里淘天实习；本人逐篇列出 Mixture-of-Visual-Thoughts，ICLR 正式版将这项研究具名于其在未来生活实验室实习。",
+        "https://junction4nako.github.io/"
+      ],
+      "advising": [
+        "在读博士导师",
+        "李泽君的个人主页列魏忠钰为复旦博士导师，并列明 2020 年 9 月入学，首稿在读期间。",
+        "https://junction4nako.github.io/"
+      ],
+      "area": "视觉与多模态",
+      "title": "Mixture-of-Visual-Thoughts: Exploring Context-Adaptive Reasoning Mode Selection for General Visual Reasoning",
+      "short": "MoVT",
+      "date": "2025-09-26",
+      "venue": "ICLR 2026",
+      "paperId": "arxiv:2509.22746",
+      "paper": "https://arxiv.org/html/2509.22746v1",
+      "extra": [
+        [
+          "首稿日期与版本记录",
+          "https://arxiv.org/abs/2509.22746"
+        ],
+        [
+          "阿里未来生活实验室公开项目",
+          "https://github.com/Future-Living-Lab/mixture-of-visual-thoughts"
+        ],
+        [
+          "复旦大学教师资料",
+          "https://labndig.fudan.edu.cn/people/wei-zhongyu/"
+        ],
+        [
+          "ICLR 正式版（如需验证可看首稿）",
+          "https://openreview.net/pdf/eb9cf08d0c7840ebffed57e14afc675b9d03693f.pdf"
+        ]
+      ],
+      "evidence": "ICLR 正式版首页明确把院校及公司双署的第一作者李泽君与本篇的阿里未来生活实验室实习相联。同页列复旦魏忠钰为通讯作者、郑波为阿里巴巴与实验室作者。学生本人列同一实习项目和在读博士导师，2025 年 CCF 当年材料与任职吻合。ICLR 正式论文与 2025-09-26 的 arXiv 首稿为同篇，只计一次。"
     }
   ]
 };

@@ -52973,5 +52973,36 @@ const facultyPaperAudits = {
         "note": "CVPR 正式版首页实习脚注明确指第一作者熊伯君在百度参与本项，同篇对应北大具名导师连宙辉和 Baidu VIS 研究人员 Chenming Wu；首稿 2024 年，和 2025 年正式版合并。"
       }
     ]
+  },
+  "AjLDxxgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://imnearth.github.io/files/CV__Jiwen_Zhang.pdf",
+      "https://mhliao.github.io/",
+      "http://www.fudan-disc.com/people/zywei",
+      "https://aclanthology.org/2024.findings-emnlp.702/",
+      "https://junction4nako.github.io/",
+      "https://www.ccf.org.cn/Media_list/cncc/2025-10-01/849291.shtml",
+      "https://arxiv.org/html/2509.22746v1"
+    ],
+    "papers": [
+      {
+        "title": "Android in the Zoo: Chain-of-Action-Thought for GUI Agents",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2403.02713",
+        "outcome": "confirmed",
+        "note": "EMNLP 正式论文首页在张霁雯名下明确注明在华为上海研究中心实习完成。该生公共 CV 载复旦博士及魏忠钰具名指导，廖明辉在职与企业署名一致。2024 年首稿和 EMNLP 同篇。"
+      },
+      {
+        "title": "Mixture-of-Visual-Thoughts: Exploring Context-Adaptive Reasoning Mode Selection for General Visual Reasoning",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2509.22746",
+        "outcome": "confirmed",
+        "note": "首稿和 ICLR 正式版本标示李泽君于阿里实习完成；同篇阿里员工郑波及复旦导师魏忠钰。学生履历明确同时在读并受魏指导。2025 首稿和 ICLR 2026 合并。"
+      }
+    ],
+    "note": "先核两个有逐篇具名实习脚注的项目；其他公开论文继续逐篇检查。"
   }
 };
