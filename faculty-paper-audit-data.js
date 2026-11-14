@@ -50294,5 +50294,140 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对本批论文的作者单位、致谢及具名学生经历。继续梳理公开书目，按每篇证据记录判断。"
+  },
+  "7GuQwWQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/node/3434",
+      "https://orcid.org/0000-0002-6650-6712",
+      "https://pub.orcid.org/v3.0/0000-0002-6650-6712/works",
+      "https://qizhao-quantum.github.io/research/",
+      "https://cse.sysu.edu.cn/node/2496",
+      "https://qici.weebly.com/news.html"
+    ],
+    "papers": [
+      {
+        "title": "Imaginarity of quantum superpositions",
+        "year": 2026,
+        "url": "https://journals.aps.org/pra/abstract/10.1103/7xk4-19hp",
+        "outcome": "no-evidence",
+        "note": "APS 正式版列广东工业大学及中山大学量子计算与软件研究所。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Linear Programming Bounds on k-Uniform States",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2503.02222",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版和 2025 年首稿同项；正式机构包括合肥国家实验室、中国科大与中山大学。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Experimental Multipartite Entanglement Detection with Minimal-Size Correlations",
+        "year": 2025,
+        "url": "https://journals.aps.org/prl/abstract/10.1103/w6fl-nx59",
+        "outcome": "no-evidence",
+        "note": "首稿是 2025-10 的 arXiv:2510.22918，APS 版仍列高校与学术机构。此为实验验证，与较早的探测长度理论分列。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Quantum states supported by matroids",
+        "year": 2026,
+        "url": "https://journals.aps.org/pra/abstract/10.1103/mx1w-k8fg",
+        "outcome": "no-evidence",
+        "note": "APS 作者单位为广州智能软件研究机构、中山大学和中科院软件所／国科大，未见调查企业。"
+      },
+      {
+        "title": "Exploring Quantum Weight Enumerators From the n-Qubit Parallelized SWAP Test",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2406.18280",
+        "outcome": "no-evidence",
+        "note": "2024 年首稿与 IEEE 2026 卷期合并；可核正式作者单位为中山大学、港大和中国科大。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Detecting entanglement and nonlocality with minimum observable length",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2412.00795",
+        "outcome": "no-evidence",
+        "note": "2024 年首稿与 2025 年 IOP 版本合并；正式作者机构为清华及港大。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Constructions of multipartite entanglement resistant to particle loss",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2505.06567",
+        "outcome": "no-evidence",
+        "note": "首稿和 APS 正式版合并；正式署名列中国科大与港大。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Extremal maximal entanglement",
+        "year": 2024,
+        "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.052410",
+        "outcome": "no-evidence",
+        "note": "2024 年首稿 arXiv:2411.12208；APS 版作者为中国科大、合肥国家实验室及港大。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Entanglement Detection Length of Multipartite Quantum States",
+        "year": 2024,
+        "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.050201",
+        "outcome": "no-evidence",
+        "note": "2024 年 1 月首稿与 PRL 正式版合并。作者机构包括港大、北航、牛津与理论物理研究所。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Bounds on k-Uniform Quantum States",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2310.06378",
+        "outcome": "no-evidence",
+        "note": "首稿 2023 年。IEEE 作者单位为港大、中国科大与合肥国家实验室，和线性规划边界新结果分列。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Almost all even-particle pure states are determined by their half-body marginals",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2401.07499",
+        "outcome": "no-evidence",
+        "note": "首稿及同年的 IOP 正式版确认中国科大、合肥国家实验室及港大作者。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Unextendible and strongly uncompletable product bases",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2411.18036",
+        "outcome": "no-evidence",
+        "note": "原稿与 AIP 版本确认河北师大、北邮、港大、首都师大研究单位。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Strongest nonlocal sets with small sizes",
+        "year": 2023,
+        "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.108.062407",
+        "outcome": "no-evidence",
+        "note": "APS 正式版作者来自中国科大、合肥国家实验室及港大。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "A graph-theoretic characterization of unextendible product bases",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2303.02553",
+        "outcome": "no-evidence",
+        "note": "2023 年作者稿与 APS 正式版确认中国科大、港大、合肥国家实验室和牛津等研究单位。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Unextendible product bases from tile structures in bipartite systems",
+        "year": 2023,
+        "url": "https://doi.org/10.1088/1751-8121/acb099",
+        "outcome": "no-evidence",
+        "note": "出版记录与山东大学合作者校方档案都列此作；正式作者单位为山东大学和港大。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "Automated Construction and Verification of Unextendible Product Bases",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2608.01438v1",
+        "outcome": "no-evidence",
+        "note": "首稿作者来自中国科大、合肥国家实验室及中山大学；公开资助为高校及科技项目。 未见调查范围内同篇企业参与。"
+      },
+      {
+        "title": "A Minimum-Cardinality Genuinely Unextendible Product Basis in Three Qutrits",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.12785",
+        "outcome": "no-evidence",
+        "note": "按预印本作者与课题组定位的独立构造工作；可查记录未出现符合口径的企业参与证据。"
+      }
+    ],
+    "note": "已核对校方主页、ORCID、前课题组书目和正式版中的首批作品；2022 年首发的 odd N 论文未在 2024 卷期重复计。仍需排查近期预印本。"
   }
 };
