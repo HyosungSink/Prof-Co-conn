@@ -34713,7 +34713,7 @@ const facultyPaperAudits = {
   "R-GbxYsAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://yaochen.site/",
       "https://yaochen.site/publication.html",
@@ -34731,7 +34731,11 @@ const facultyPaperAudits = {
       "https://experts.illinois.edu/en/publications/compilation-and-optimizations-for-efficient-machine-learning-on-e/",
       "https://www.acsac.org/2024/files/web/slides/shen-282-t-edge.pdf",
       "https://sg.linkedin.com/in/yujian-fu-460186276",
-      "https://www.emerald.com/ftsec/article-abstract/5/4/70/1333214/Cybersecurity-for-Modern-Smart-Grid-Against"
+      "https://www.emerald.com/ftsec/article-abstract/5/4/70/1333214/Cybersecurity-for-Modern-Smart-Grid-Against",
+      "https://api.crossref.org/works?filter=orcid%3A0000-0002-5798-2282",
+      "https://illinois-arcs.edu.sg/publications-tscp-dc/",
+      "https://qingyunzou.github.io/",
+      "https://www.kuleuven.be/wieiswie/en/person/00043861"
     ],
     "papers": [
       {
@@ -34865,7 +34869,7 @@ const facultyPaperAudits = {
         "title": "Revisiting the Design of In-Memory Dynamic Graph Storage",
         "url": "https://gaosen.org/resources/papers/dynamic_graph_storage.pdf",
         "outcome": "lead",
-        "note": "ACM 正式原文明列张昊、张晨弈署华为云，陈瑶署新加坡国大。上交学生郝驰宇个人履历把此论文归于上交实验室、导师为孙世轩；暂未见学生参与同项华为企业研究的具名证据。"
+        "note": "ACM 正式原文确认有两名华为云作者；陈瑶署新加坡国大。上交学生郝驰宇本人把同项工作归在上交 EPCC，列其指导者为孙世轩；未找到具名学生参与同项华为企业研究的来源，不作确认。"
       },
       {
         "year": 2025,
@@ -34940,12 +34944,19 @@ const facultyPaperAudits = {
       {
         "year": 2023,
         "title": "Cybersecurity for Modern Smart Grid Against Emerging Threats",
-        "url": "https://arxiv.org/abs/2404.04466",
+        "url": "https://doi.org/10.1561/3300000035",
         "outcome": "no-evidence",
-        "note": "出版商正式期刊与作者公开稿题名及五位作者相同；2024 arXiv 对应 2023 期刊版。未发现校内导师、合格学生和名单内企业在本项有同篇证据。"
+        "note": "Illini 研究中心托管的期刊原版明确陈瑶署新加坡国大，另外四位作者来自高校或学术研究中心；2024 arXiv 对应 2023 正式刊文，未见名单内企业人员。"
+      },
+      {
+        "year": 2025,
+        "title": "HLStrans: Dataset for C-to-HLS Hardware Code Synthesis",
+        "url": "https://arxiv.org/html/2507.04315v3",
+        "outcome": "no-evidence",
+        "note": "公开原文五位作者均列新加坡国大，第一作者的项目清单也有这篇。该数据集与后续 HLS-Seek 的方法论文分别登记，未查到指定企业同篇参与。"
       }
     ],
-    "note": "第一批逐篇对照本人论文清单、DBLP 和实名 ORCID。早期多篇署新加坡国立大学；统一保留在个人书目，按研究期的实际身份研判。后续待补齐发表清单、索引漏项和受限全文。 本轮已区分同名作者、不同论文的相近标题和同研究的预印本／会议／期刊版本；未把只在较早稿使用的旧单位泛化到入职华中科大后的研究。"
+    "note": "按本人公开清单、带身份消歧的 DBLP、ORCID 与出版商原始元数据核对窗口内的公开研究。2023/2024 的 HongTu 与 2025 期刊版合并；排除 ACM 特刊导言、对 SimLayerKV 的评审、2021–22 首发的 HiKonv 以及国科大信工所同名作者的 ConSA。少数受限全文依据公开作者单位、摘要或会议资料核查，相关论文逐篇注明局限。"
   },
   "REVw3uQAAAAJ": {
     "from": "2023-01-01",
