@@ -11,7 +11,9 @@ const facultyPaperAudits = {
       "https://wdrink.github.io/",
       "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40",
       "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40",
-      "https://xuefenghu.me/"
+      "https://xuefenghu.me/",
+      "https://github.com/FoundationVision",
+      "https://enjoyyi.github.io/"
     ],
     "papers": [
       {
@@ -104,6 +106,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2606.13674",
         "outcome": "lead",
         "note": "原文公司同事共同署名。王君可另具名 Robbyant 的 LingBot-VA 2.0 项目，但无独立材料支持此篇亦为他的企业研究实习成果。"
+      },
+      {
+        "year": 2024,
+        "title": "OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2024/file/31994923f58ae5b2d661b300bd439107-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式版和 2024-06-13 预印本具名复旦博士王君可、吴祖煊和姜育刚、字节研究人员 Yi Jiang。首发前数小时，王君可以真实姓名及企业邮箱直接向字节 FoundationVision 官方仓库提交 OmniTokenizer 主体实现与训练代码；企业团队首页独立把 OmniTokenizer 列为团队自己的成果。王君可本人另说明在复旦读博期间曾在字节实习。以该论文的企业科研工作成立，不推定这笔提交对应哪段人事安排。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -121,7 +130,9 @@ const facultyPaperAudits = {
       "https://wdrink.github.io/",
       "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40",
       "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40",
-      "https://xuefenghu.me/"
+      "https://xuefenghu.me/",
+      "https://github.com/FoundationVision",
+      "https://enjoyyi.github.io/"
     ],
     "papers": [
       {
@@ -214,6 +225,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2606.13674",
         "outcome": "lead",
         "note": "原文公司同事共同署名。王君可另具名 Robbyant 的 LingBot-VA 2.0 项目，但无独立材料支持此篇亦为他的企业研究实习成果。"
+      },
+      {
+        "year": 2024,
+        "title": "OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2024/file/31994923f58ae5b2d661b300bd439107-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式版和 2024-06-13 预印本具名复旦博士王君可、吴祖煊和姜育刚、字节研究人员 Yi Jiang。首发前数小时，王君可以真实姓名及企业邮箱直接向字节 FoundationVision 官方仓库提交 OmniTokenizer 主体实现与训练代码；企业团队首页独立把 OmniTokenizer 列为团队自己的成果。王君可本人另说明在复旦读博期间曾在字节实习。以该论文的企业科研工作成立，不推定这笔提交对应哪段人事安排。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
