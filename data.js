@@ -44446,6 +44446,52 @@ const survey = {
         "学生本人网页和公开简历均列金鑫为博士导师，金鑫是两版论文通讯作者。",
         "https://chaojin0310.github.io/"
       ]
+    },
+    {
+      "id": "kuaishou-lcot2tree-cityu-linqi-song",
+      "company": "快手",
+      "team": "NLP 与音频智能中心",
+      "school": "香港城市大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "宋林琦 · Linqi Song",
+        "香港城市大学电脑科学系副教授，本篇署香港城市大学与香港城市大学深圳研究院，列通讯作者。",
+        "https://scholars.cityu.edu.hk/en/persons/linqi-song(a665d7a3-8847-404d-a56a-2b10b470327c).html"
+      ],
+      "student": [
+        "Gangwei Jiang",
+        "正式版署中国科学技术大学、香港城市大学，港城大的研究组将其列为在读博士。论文首页具名注明他在快手实习。",
+        "https://aclanthology.org/2025.emnlp-main.329.pdf"
+      ],
+      "advising": [
+        "博士指导",
+        "宋林琦研究组在其亲自指导的在读博士名单中具名列 Gangwei Jiang，自 2022 年起。",
+        "https://sites.google.com/site/aisquaredlab/about-us"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "本人任职履历列其自 2022 年 5 月起担任快手 NLP 与音频智能中心主任，且在同篇署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "title": "What Makes a Good Reasoning Chain? Uncovering Structural Patterns in Long Chain-of-Thought Reasoning",
+      "short": "LCoT2Tree",
+      "year": 2025,
+      "date": "2025-05-28",
+      "venue": "EMNLP 2025",
+      "area": "大语言模型",
+      "paper": "https://aclanthology.org/2025.emnlp-main.329/",
+      "paperId": "arxiv:2505.22148",
+      "extra": [
+        [
+          "会议正式版首页：具名实习脚注",
+          "https://aclanthology.org/2025.emnlp-main.329.pdf"
+        ],
+        [
+          "同篇预印本（2025 年 5 月）",
+          "https://arxiv.org/abs/2505.22148"
+        ]
+      ],
+      "evidence": "EMNLP 正式版第 1 页明确写明 Gangwei Jiang 在快手实习时完成本研究，并列其中国科大与港城大署名；宋林琦研究组具名列其为 2022 年起指导的在读博士，宋同篇署港城大；在任快手 NLP 与音频智能中心主任张富峥同篇署快手。2025 年 5 月同篇预印本与 11 月会议版合并。"
     }
   ]
 };

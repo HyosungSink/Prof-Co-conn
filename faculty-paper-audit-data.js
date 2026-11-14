@@ -51460,5 +51460,153 @@ const facultyPaperAudits = {
       }
     ],
     "note": "本人、浙大 NESA、ACL 正式目录、ORCID、DBLP 及合著者书目交叉核对，剔除同名、调查前首发及尚未公开的未来会议作品；已确认一项关系。已有一篇获接收但未找到可核的论文正文，保持梳理中。"
+  },
+  "UcGN3MoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2025.emnlp-main.329/",
+      "https://aclanthology.org/2025.emnlp-main.329.pdf",
+      "https://sites.google.com/site/aisquaredlab/about-us",
+      "https://scholars.cityu.edu.hk/en/persons/linqsong/",
+      "https://zhfzhmsra.github.io/",
+      "https://arxiv.org/abs/2505.22148",
+      "https://aclanthology.org/2026.findings-emnlp.888/",
+      "https://aclanthology.org/people/linqi-song/",
+      "https://aclanthology.org/2026.findings-emnlp.1154/",
+      "https://scholars.cityu.edu.hk/en/studentTheses/towards-the-representation-compression-and-evaluation-for-sentenc/",
+      "https://aclanthology.org/2026.findings-acl.379/",
+      "https://aclanthology.org/2026.findings-acl.253/",
+      "https://aclanthology.org/2026.emnlp-main.2250/",
+      "https://aclanthology.org/2026.emnlp-main.1151/",
+      "https://aclanthology.org/2025.findings-acl.984/",
+      "https://sites.google.com/view/soda-shuqi/home",
+      "https://arxiv.org/abs/2502.12420",
+      "https://aclanthology.org/2024.acl-long.368/",
+      "https://namco0816.github.io/data/TAN_Haochen_CityU.pdf",
+      "https://arxiv.org/abs/2401.15042",
+      "https://calendar.hkust.edu.hk/zh-hant/events/data-science-and-analytics-thrust-seminar-towards-better-reasoning-large-language-models",
+      "https://aclanthology.org/2023.emnlp-main.812/",
+      "https://aclanthology.org/2023.findings-acl.377/",
+      "https://aclanthology.org/2023.emnlp-main.5/",
+      "https://hahahawu.com/",
+      "https://proceedings.colm.cc/paper_files/paper/2026/file/5c7024041be305c94d7311cfcc53d93e-Paper-Conference.pdf",
+      "https://zhaoyi-li21.github.io/",
+      "https://yangjinluan.github.io/",
+      "https://arxiv.org/html/2604.01702v1",
+      "https://arxiv.org/abs/2601.16725",
+      "https://aclanthology.org/2025.acl-long.1163.pdf",
+      "https://proceedings.colm.cc/paper_files/paper/2026/hash/5c7024041be305c94d7311cfcc53d93e-Abstract-Conference.html",
+      "https://aclanthology.org/2024.findings-emnlp.177/",
+      "https://aclanthology.org/2024.findings-acl.576/",
+      "https://arxiv.org/abs/2402.14328",
+      "https://aclanthology.org/2024.findings-acl.507/",
+      "https://scholars.cityu.edu.hk/en/studentTheses/towards-knowledge-and-reasoning-augmented-text-generation-in-lang/",
+      "https://aclanthology.org/2024.emnlp-main.879/",
+      "https://aclanthology.org/2024.acl-long.593/",
+      "https://aclanthology.org/2024.acl-long.593.pdf",
+      "https://hmzhang.me/cv/resume.pdf",
+      "https://eleanor-h.github.io/",
+      "https://www.au.tsinghua.edu.cn/info/1078/3257.htm",
+      "https://arxiv.org/abs/2311.17438",
+      "https://aclanthology.org/2024.acl-long.351/",
+      "https://doi.org/10.1016/j.csbj.2024.11.006",
+      "https://scholars.cityu.edu.hk/en/studentTheses/from-sequence-to-therapy-methylation-detection-proteinndashsmall-/",
+      "https://scholars.cityu.edu.hk/files/259472718/257450419.pdf",
+      "https://doi.org/10.1007/978-981-96-8197-6_14",
+      "https://scholars.cityu.edu.hk/en/publications/mhmg-dti-a-drug-target-interaction-prediction-framework-combining/",
+      "https://openreview.net/attachment?id=gc8QAQfXv6&name=pdf",
+      "https://arxiv.org/abs/2502.11019",
+      "https://github.com/GangweiJiang/FvForgetting",
+      "https://www.cs.cityu.edu.hk/people/research-students"
+    ],
+    "papers": [
+      {
+        "title": "What Makes a Good Reasoning Chain? Uncovering Structural Patterns in Long Chain-of-Thought Reasoning",
+        "url": "https://aclanthology.org/2025.emnlp-main.329/",
+        "outcome": "confirmed",
+        "note": "EMNLP 正式版第 1 页明确写明 Gangwei Jiang 在快手实习时完成本研究，并列其中国科大与港城大署名；宋林琦研究组具名列其为 2022 年起指导的在读博士，宋同篇署港城大；在任快手 NLP 与音频智能中心主任张富峥同篇署快手。2025 年 5 月同篇预印本与 11 月会议版合并。",
+        "year": 2025
+      },
+      {
+        "title": "FORGE: Fine-grained multimodal evaluation for manufacturing quality assurance",
+        "url": "https://aclanthology.org/2026.findings-emnlp.888/",
+        "outcome": "no-evidence",
+        "note": "正式版逐个作者署 10 个院校或大学研究院，未署目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "DeepDiver-DR: Empowering LLMs for Deep Research via Specialized Multi-Agent Collaboration",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1154/",
+        "outcome": "lead",
+        "note": "正式版列华为作者，宋组列第一作者 Zengyan Liu 为 2022 年起其指导博士；谭皓辰已于 2024 年毕业，本篇只署华为。未发现同篇具名在读学生实际于华为研究的来源。",
+        "year": 2026
+      },
+      {
+        "title": "On Temperature-Constrained Non-Deterministic Machine Translation: Potential and Evaluation",
+        "url": "https://aclanthology.org/2026.findings-acl.379/",
+        "outcome": "no-evidence",
+        "note": "正式版四位均署港城大或其深圳研究院；宋组具名列 Weichuan Wang 联合指导，但未见目标企业同篇作者或参与。",
+        "year": 2026
+      },
+      {
+        "title": "Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction for Training-Free NL2SQL",
+        "url": "https://aclanthology.org/2026.findings-acl.253/",
+        "outcome": "lead",
+        "note": "港城大授博士学位于 2026-03-12 并列宋林琦为 Zerui Yang 共同导师；本篇一月首版早于授予、七月正式发表。Zerui Yang 履历公开列华为但没有足够精确参与区间或把本篇列为在职研究成果，论文仅学校署名；Weichuan Wang 同样缺本篇企业参与资料。",
+        "year": 2026
+      },
+      {
+        "title": "AURA-KV: Adaptive Subspace Rank Approximation for Efficient Long-Context LLM Inference",
+        "url": "https://aclanthology.org/2026.emnlp-main.2250/",
+        "outcome": "no-evidence",
+        "note": "正式版六位作者署清华、港城大深圳研究院与深圳理工大学，未署目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "SpeechEditBench: A Bilingual Multi-Attribute Benchmark for Instruction-Guided Speech Editing",
+        "url": "https://aclanthology.org/2026.emnlp-main.1151/",
+        "outcome": "lead",
+        "note": "计算机系在读名单实名确认张瀚霖 (Hanlin Zhang) 是全日制博士，学号邮件与正式版同。宋林琦为通讯、其他同篇作者署华为，但仍缺具名导师或张在华为参与本篇证据，不计已确认。",
+        "year": 2026
+      },
+      {
+        "title": "Sens-Merging: Sensitivity-Guided Parameter Balancing for Merging Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-acl.984/",
+        "outcome": "lead",
+        "note": "校方论文明确刘舒琦学位授予于 2025-01-23、宋林琦为导师（早期主页的 2024.08 是预计）；2025-02 首版晚于毕业。双署且华为 Han Wu 有任职，但缺在学期间就在华为做本篇的日期。",
+        "year": 2025
+      },
+      {
+        "title": "ProxyQA: An Alternative Framework for Evaluating Long-Form Text Generation with Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.368/",
+        "outcome": "lead",
+        "note": "校方论文可核实博士研究确有此篇且由宋林琦指导；研究首版在博士毕业前公开。谭皓辰 CV 同期在华为，文章与同一实习导师、同期华为在职研究员 Zhijiang Guo 共一作，但未找到把 ProxyQA 列为该实习成果的独立来源。",
+        "year": 2024
+      },
+      {
+        "title": "Reconstruct Before Summarize: An Efficient Two-Step Framework for Condensing and Summarizing Meeting Transcripts",
+        "url": "https://aclanthology.org/2023.emnlp-main.812/",
+        "outcome": "no-evidence",
+        "note": "正式版企业为商汤科技；谭皓辰原始 CV 同样归于商汤会议摘要项目。商汤不属于本次 14 家。",
+        "year": 2023
+      },
+      {
+        "title": "VCSUM: A Versatile Chinese Meeting Summarization Dataset",
+        "url": "https://aclanthology.org/2023.findings-acl.377/",
+        "outcome": "no-evidence",
+        "note": "正式版企业为商汤，且谭皓辰原始 CV 将中文会议摘要数据集列在商汤经历；本次范围不包括商汤。",
+        "year": 2023
+      },
+      {
+        "title": "Fine-grained Conversational Decoding via Isotropic and Proximal Search",
+        "url": "https://aclanthology.org/2023.emnlp-main.5/",
+        "outcome": "no-evidence",
+        "note": "正式版四位作者均署港城大。Han Wu 之后赴华为就职，不改变这篇原始全港城大署名。",
+        "year": 2023
+      }
+    ],
+    "note": "核对本人研究组、港城大机构库、作者履历、学位论文与会议正式版。首批 12 篇含 1 条已确认关系；其他国际会议、期刊与预印本仍待核对。"
   }
 };
