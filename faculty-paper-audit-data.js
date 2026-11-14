@@ -14464,7 +14464,11 @@ const facultyPaperAudits = {
       "https://www.yinminzhong.com/assets/cv/resume.pdf",
       "https://horsebridge.github.io/",
       "https://chaojin0310.github.io/files/cv.pdf",
-      "https://conferences.sigcomm.org/sigcomm/2026/accepted/"
+      "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "https://echostone1101.github.io/",
+      "https://www.usenix.org/system/files/nsdi26-xiang-servegen.pdf",
+      "https://github.com/alibaba/ServeGen/commit/4d6f0c7795d6b7ddc61fae1eeb73f9bd5a118f8f",
+      "https://ennanzhai.github.io/"
     ],
     "papers": [
       {
@@ -14529,6 +14533,13 @@ const facultyPaperAudits = {
         "url": "https://www.usenix.org/system/files/nsdi23-wu.pdf",
         "outcome": "no-evidence",
         "note": "NSDI 正式版只有北大和约翰斯霍普金斯；引用阿里集群资源利用率为论文背景，不能据此判为该篇企业工作。"
+      },
+      {
+        "title": "ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2505.09999",
+        "outcome": "confirmed",
+        "note": "2025-05-15 首稿与 NSDI 2026 正式版合并。北大向昱行、具名导师金鑫及阿里翟恩南同篇；企业项目仓库保留向昱行实习期间提交的研究数据。与同作者部分重合的 Aegaeon 分列。"
       }
     ],
     "note": "已核对首批系统论文原文、在读身份、学生履历及具名导师。需继续区分独立研究、预印本和变更后的作者署名。"

@@ -44246,6 +44246,55 @@ const survey = {
         "https://www.yinminzhong.com/"
       ],
       "year": 2024
+    },
+    {
+      "id": "alibaba-servegen-pku-xinjin",
+      "paperId": "arxiv:2505.09999",
+      "company": "阿里巴巴",
+      "team": "阿里云 · Model Studio",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "金鑫 · Xin Jin",
+        "北京大学计算机学院副教授，学生的具名博士导师，首稿与正式版共同作者。",
+        "https://cs.pku.edu.cn/info/1069/1635.htm"
+      ],
+      "employee": [
+        "翟恩南 · Ennan Zhai",
+        "阿里巴巴 AI 系统研究负责人，论文首稿与 USENIX 正式版都署阿里。",
+        "https://ennanzhai.github.io/"
+      ],
+      "student": [
+        "向昱行 · Yuxing Xiang",
+        "北京大学博士生，2024-05 至 2025-06 在阿里云研究大模型服务；本篇第一作者双署北京大学、阿里，实习期内向阿里旗下同名开源项目提交实验数据文件。",
+        "https://echostone1101.github.io/"
+      ],
+      "title": "ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production",
+      "short": "ServeGen",
+      "date": "2025-05-15",
+      "venue": "USENIX NSDI 2026",
+      "area": "AI 系统",
+      "paper": "https://www.usenix.org/system/files/nsdi26-xiang-servegen.pdf",
+      "extra": [
+        [
+          "2025 年 5 月首稿",
+          "https://arxiv.org/html/2505.09999v1"
+        ],
+        [
+          "作者在企业官方项目仓库的具名贡献",
+          "https://github.com/alibaba/ServeGen/commit/4d6f0c7795d6b7ddc61fae1eeb73f9bd5a118f8f"
+        ],
+        [
+          "企业的同名项目",
+          "https://github.com/alibaba/ServeGen"
+        ]
+      ],
+      "evidence": "作者履历明载在读期间于阿里云参与大模型服务研究。首稿 2025-05-15 由向昱行提交，明载北大及阿里双署、金鑫和翟恩南同篇，并记录阿里云 Model Studio 真实运行负载。其个人主页关联的 GitHub 账号在同年 6 月向阿里官方 ServeGen 仓库提交本项目数据文件。正式版合并处理；同一个企业实习的 Aegaeon 是 GPU 池化系统，ServeGen 是负载刻画和生成方法，有独立题名和不同会议论文。",
+      "advising": [
+        "具名博士导师",
+        "学生本人公开主页具名列金鑫为其北大博士导师，金鑫是首稿与正式论文共同作者。",
+        "https://echostone1101.github.io/"
+      ]
     }
   ]
 };
