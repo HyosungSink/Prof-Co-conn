@@ -44196,6 +44196,56 @@ const survey = {
         ]
       ],
       "year": 2025
+    },
+    {
+      "id": "bytedance-megascale-nsdi-pku-xinjin",
+      "paperId": "arxiv:2402.15627",
+      "company": "字节跳动",
+      "team": "字节跳动 AML",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "金鑫 · Xin Jin",
+        "北大计算机学院；论文通讯作者，研究期间为该生博士导师。",
+        "https://cs.pku.edu.cn/info/1069/1635.htm"
+      ],
+      "employee": [
+        "Ziheng Jiang",
+        "论文署名第一并列贡献，研究时为字节训练系统研究人员；钟的同期履历列其为企业实习导师。",
+        "https://www.usenix.org/conference/nsdi24/presentation/jiang-ziheng"
+      ],
+      "student": [
+        "Yinmin Zhong",
+        "北大博士自 2022 年起在读；2023-08 至 2024-05 任字节研究实习生，CV 按日期列明 2023-09 MegaScale 字节部署项目。正式论文列其为共同一作。",
+        "https://www.yinminzhong.com/assets/cv/resume.pdf"
+      ],
+      "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+      "short": "MegaScale",
+      "date": "2024-02-23",
+      "venue": "USENIX NSDI 2024",
+      "area": "AI 系统",
+      "paper": "https://www.usenix.org/system/files/nsdi24-jiang-ziheng.pdf",
+      "extra": [
+        [
+          "正式会议题录",
+          "https://www.usenix.org/conference/nsdi24/presentation/jiang-ziheng"
+        ],
+        [
+          "同篇首稿",
+          "https://arxiv.org/abs/2402.15627"
+        ],
+        [
+          "字节共同第一作者海斌林的项目书目",
+          "https://sites.google.com/view/haibinlin/"
+        ]
+      ],
+      "evidence": "USENIX 正式作者表明确列钟与金署北大、Ziheng Jiang 署字节，将钟与 Jiang 标为共同第一作者。Yinmin Zhong 本人简历同时说明金鑫博士指导、2023-08 至 2024-05 字节实习、Ziheng Jiang 企业导师及 2023-09 在字节部署的同名 MegaScale 项目。该项另有正式版同一作者的论文级贡献和团队信息。与 MegaScale-Omni、MegaScale-MoE、MegaScale-Infer 分列。",
+      "advising": [
+        "具名博士导师",
+        "学生的公开履历明确写金鑫任其博士生导师；金鑫是同篇通讯作者。",
+        "https://www.yinminzhong.com/"
+      ],
+      "year": 2024
     }
   ]
 };

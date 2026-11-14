@@ -14458,17 +14458,80 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://cs.pku.edu.cn/info/1069/1635.htm",
-      "https://bingyangwu.github.io/"
+      "https://bingyangwu.github.io/",
+      "https://xinjin.github.io/",
+      "https://dblp.org/pid/68/3340-8.html",
+      "https://www.yinminzhong.com/assets/cv/resume.pdf",
+      "https://horsebridge.github.io/",
+      "https://chaojin0310.github.io/files/cv.pdf",
+      "https://conferences.sigcomm.org/sigcomm/2026/accepted/"
     ],
     "papers": [
       {
+        "year": 2023,
         "title": "XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale",
-        "url": "https://xinjin.github.io/files/SIGCOMM23_XRON.pdf",
+        "url": "https://doi.org/10.1145/3603269.3604845",
         "outcome": "confirmed",
-        "note": "第一作者在北大攻读博士且自述于 2021 年 11 月至 2023 年 9 月在阿里达摩院任研究实习生；本研究直接服务阿里云视频会议，原文双署北大和阿里云并明确致谢阿里研究实习项目。"
+        "note": "SIGCOMM 论文、校内博士导师、公司人员及在读者实习项目均核实；现库已记录 xron-alibaba-pku-nhsdgbuaaaaj。"
+      },
+      {
+        "year": 2024,
+        "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+        "url": "https://www.usenix.org/system/files/nsdi24-jiang-ziheng.pdf",
+        "outcome": "confirmed",
+        "note": "USENIX 正式版与 2402.15627 同篇。共同一作 Yinmin Zhong 的履历同时写明北大博士训练、金鑫为导师、字节实习期限及本人 2023-09 参与部署同名项目，并列企业作者为实习导师。"
+      },
+      {
+        "year": 2025,
+        "title": "MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production",
+        "url": "https://doi.org/10.1145/3767295.3769325",
+        "outcome": "lead",
+        "note": "EuroSys 正式版保留金鑫、字节 Seed 姜等和北大博士生 Chao Jin。该生实习截至 2025-03，首稿为 2025-05，还需具名材料直接联系这篇与实习期间工作。"
+      },
+      {
+        "year": 2025,
+        "title": "MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism",
+        "url": "https://doi.org/10.1145/3718958.3750506",
+        "outcome": "lead",
+        "note": "正式版与 2025-04 首稿合并；两位北大博士生及具名导师、字节人员同篇。本人分别公开同期或相近的 Seed 实习，但原文无具名实习脚注，尚缺明确的逐篇项目记录。"
+      },
+      {
+        "year": 2026,
+        "title": "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint",
+        "url": "https://www.usenix.org/system/files/nsdi26-zhu-ruidong.pdf",
+        "outcome": "existing",
+        "note": "USENIX 正式版有北大博士生 Ruidong Zhu、具名博士导师刘譞哲与金鑫、两名 Seed 企业作者；第一作者个人页只列团队与实习时段，未把此件连到具体实习项目。"
+      },
+      {
+        "year": 2026,
+        "title": "DualPath: Accelerating Agentic LLM Inference by Harvesting Disaggregated KV-Cache Storage I/O",
+        "url": "https://doi.org/10.1145/3789240.3829159",
+        "outcome": "existing",
+        "note": "SIGCOMM 正式版与 2602.21548 的变更署名合并；北大博士生 Yinmin Zhong、具名导师金鑫和 DeepSeek 作者共同署名，公开履历有复合学籍与任职，但尚需该位学生在本项目中作为培养参与的可定位材料。"
+      },
+      {
+        "year": 2024,
+        "title": "RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation",
+        "url": "https://doi.org/10.1145/3768628",
+        "outcome": "lead",
+        "note": "2024 首稿企业作者 Xin Liu、正式期刊更改为 Shufan Liu（字节 Seed），不能混用。首作者北大博士、当时在字节实习，尚未见将本项目列为实习成果的说明。"
+      },
+      {
+        "year": 2024,
+        "title": "dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving",
+        "url": "https://www.usenix.org/conference/osdi24/presentation/wu-bingyang",
+        "outcome": "no-evidence",
+        "note": "OSDI 正式版北大及上海 AI 实验室署名。Bingyang Wu 相近时段美团实习与 Ruidong Zhu 字节实习均未显示与本文项目对应。"
+      },
+      {
+        "year": 2023,
+        "title": "Transparent GPU Sharing in Container Clouds for Deep Learning Workloads",
+        "url": "https://www.usenix.org/system/files/nsdi23-wu.pdf",
+        "outcome": "no-evidence",
+        "note": "NSDI 正式版只有北大和约翰斯霍普金斯；引用阿里集群资源利用率为论文背景，不能据此判为该篇企业工作。"
       }
     ],
-    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+    "note": "已核对首批系统论文原文、在读身份、学生履历及具名导师。需继续区分独立研究、预印本和变更后的作者署名。"
   },
   "JqOOSuIAAAAJ": {
     "from": "2023-01-01",
@@ -49978,5 +50041,258 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对学校和作者书目、论文原文、港大图书馆及指导信息。蚂蚁合著与华为云署名仍缺同篇学生参与等证据。排除 2021 年先行出版的 UbiFin；可查书目仍待继续。"
+  },
+  "5RkXoFMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~pfwong",
+      "https://cnic.cas.cn/sourcedb_cnic_cas/zw/zjrc/dsdw/202211/t20221111_6547272.html",
+      "https://www.pengfeiwang.net/publications",
+      "https://ijcai.org/authors/pengfei-wang/",
+      "https://orcid.org/0000-0003-1075-0684",
+      "https://qiaoziyue.com/",
+      "https://pdxscholar.library.pdx.edu/compsci_fac/359/",
+      "https://www.bigdatamining.cn/"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "CellPolaris: Transfer Learning for Gene Regulatory Network Construction to Guide Cell State Transitions",
+        "url": "https://doi.org/10.1002/advs.202508697",
+        "outcome": "no-evidence",
+        "note": "Advanced Science 2026 正式全文与 bioRxiv 2023 首稿合一。正式作者单位为中科院研究所、国科大及再生医学研究机构等；未见目标公司或具名企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "scLLM-DSC: LLM-Knowledge Enhanced Cross-Modal Deep Structural Clustering for Single-Cell RNA Sequencing",
+        "url": "https://doi.org/10.24963/ijcai.2026/350",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式原文与 2606.13007 合一；具名合作者为国科大、网络中心、大湾区大学及西湖大学，采用大型语言模型不证明该企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "scCompass: An Integrated Multi-Species scRNA-seq Database for AI-Ready",
+        "url": "https://doi.org/10.1002/advs.202500870",
+        "outcome": "no-evidence",
+        "note": "Wiley 正式版与 2024-11 bioRxiv 合一；核对共同署名、贡献与资助，中科院多机构合作，未见具名范围内企业角色。"
+      },
+      {
+        "year": 2025,
+        "title": "Cell-GraphCompass: modeling single cells with graph structure foundation model",
+        "url": "https://doi.org/10.1093/nsr/nwaf255",
+        "outcome": "no-evidence",
+        "note": "正式版确有科大讯飞研究院与奥睿生物科技署名，均不属于本项目跟踪企业。与 scCompass 数据集和 GeneCompass 大模型分列。"
+      },
+      {
+        "year": 2024,
+        "title": "A Comprehensive Survey on Data Augmentation",
+        "url": "https://doi.org/10.1109/TKDE.2025.3622600",
+        "outcome": "no-evidence",
+        "note": "IEEE 版权版明确 2025-10-16 首次在线、卷期归 2026；与 2024 年 arXiv 同篇。企业作者 Aggarwal 署 IBM Watson，不属范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Motif-Oriented Representation Learning with Topology Refinement for Drug-Drug Interaction Prediction",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32097/34252",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版只有国科大、网络中心、北航与澳门大学机构；药物相互作用公开数据集没有提供企业人员参与的证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Next Arrival and Destination Prediction via Spatiotemporal Embedding with Urban Geography and Human Mobility Data",
+        "url": "https://doi.org/10.3390/math13050746",
+        "outcome": "no-evidence",
+        "note": "Mathematics 正式版仅网络中心、国科大及波特兰州立大学；交通轨迹数据资助与开源来源未显示企业参研。"
+      },
+      {
+        "year": 2024,
+        "title": "A Dual-channel Semi-supervised Learning Framework on Graphs via Knowledge Transfer and Meta-learning",
+        "url": "https://doi.org/10.1145/3577033",
+        "outcome": "lead",
+        "note": "ACM 原文列阿里作者黄建强、华先胜。乔子越本人记录阿里实习及博士导师周园春、杜一，未核到这篇就是其在读时期实习产出；也没有王鹏飞是该生校内导师的证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Deep Adaptive Graph Clustering via von Mises-Fisher Distributions",
+        "url": "https://doi.org/10.1145/3580521",
+        "outcome": "lead",
+        "note": "阿里达摩院企业署名可证，北大吴大庆的实研时间、导师与同篇项目未核实。王鹏飞已从国科大毕业，不能把他毕业后的阿里任职认作在读实研。"
+      },
+      {
+        "year": 2024,
+        "title": "Unveiling Delay Effects in Traffic Forecasting: A Perspective from Spatial-Temporal Delay Differential Equations",
+        "url": "https://doi.org/10.1145/3589334.3645688",
+        "outcome": "no-evidence",
+        "note": "2024-02 首稿首页明确同篇企业作者 Chong Chen 署 Terminus Group，不能用此前达摩院履历替代；龙晴晴的学校/企业具名角色也未证。"
+      },
+      {
+        "year": 2024,
+        "title": "Make Graph Neural Networks Great Again: A Generic Integration Paradigm of Topology-Free Patterns for Traffic Speed Prediction",
+        "url": "https://doi.org/10.24963/ijcai.2024/288",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式原文、预印本和作者代码库相同；署名国科大、网络中心、澳门大学、Stevens 和 ASU，无目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "TFWT: Tabular Feature Weighting with Transformer",
+        "url": "https://doi.org/10.24963/ijcai.2024/284",
+        "outcome": "no-evidence",
+        "note": "IJCAI 原版各作者署波特兰州立、网络中心、国科大、大连海事和吉林大学。未见范围企业角色。"
+      },
+      {
+        "year": 2024,
+        "title": "FedGCS: A Generative Framework for Efficient Client Selection in Federated Learning via Gradient-based Optimization",
+        "url": "https://doi.org/10.24963/ijcai.2024/526",
+        "outcome": "no-evidence",
+        "note": "正式版与 2405.06312 合一；全部作者为网络中心、国科大、澳门大学或牛津大学，网络联邦学习本身不证明企业人员参与。"
+      },
+      {
+        "year": 2023,
+        "title": "Adaptive Path-Memory Network for Temporal Knowledge Graph Reasoning",
+        "url": "https://doi.org/10.24963/ijcai.2023/232",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式版、CCF 论文导读及项目相符；乔子越以港科大（广州）署名，其他学术单位为中科院、国科大、澳门大学及中佛大，都没有阿里等企业身份。"
+      }
+    ],
+    "note": "已核对可查论文原文、作者书目和任职时间。阿里达摩院合著仍需补校内指导及同篇学生参与证据。"
+  },
+  "8r3y8IMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~liuchenglin",
+      "https://ghy0501.github.io/guohaiyang0501.github.io/",
+      "https://smallpigpeppa.github.io/",
+      "https://smallpigpeppa.github.io/data/CV_WenzhuoLiu.pdf",
+      "https://openreview.net/pdf?id=six75YUGgS",
+      "https://github.com/Ghy0501/MCITlib"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "One Patch Doesn’t Fit All: Adaptive Patching for Native-Resolution Multimodal Large Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2e936c33952e9370f863c0b0410c09c1-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "ICLR 正式版有刘成林、两名具名博士生和三名字节作者。郭海洋自述同期在字节负责 SAIL-VL2 数据和模型混合，未将实习对应 AdaPatch；另一博士生刘文卓也未找到同篇具名企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "RCL: Reliable Continual Learning for Unified Failure Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_RCL_Reliable_Continual_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式原文及补充只列国科大、中科院单位和上海人工智能实验室，没有目标公司。"
+      },
+      {
+        "year": 2023,
+        "title": "OpenMix: Exploring Outlier Samples for Misclassification Detection",
+        "url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21522_bnrlVIJ.pdf",
+        "outcome": "no-evidence",
+        "note": "作者会议报告与 CVPR 原版团队署名均为国科大与中科院自动化所；没有具名企业研究人员。"
+      },
+      {
+        "year": 2025,
+        "title": "Federated Continual Instruction Tuning",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Federated_Continual_Instruction_Tuning_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式原文署国科大、中科院研究机构与厦门理工。2025 年 6 月录用早于郭海洋开始字节实习；没有企业团队具名。"
+      },
+      {
+        "year": 2025,
+        "title": "ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt",
+        "url": "https://aclanthology.org/2025.emnlp-main.609/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版具名郭海洋及张煦尧、刘成林，作者为国科大、中科院自动化所、中科院香港创新研究院；录用在字节实习之前。"
+      },
+      {
+        "year": 2025,
+        "title": "HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model",
+        "url": "https://aclanthology.org/2025.acl-long.666/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版与 arXiv:2503.12941 合一。首作者国科大，两位具名导师同篇，已检查署名与致谢，未发现范围企业角色。"
+      },
+      {
+        "year": 2024,
+        "title": "PILoRA: Prototype Guided Incremental LoRA for Federated Class-Incremental Learning",
+        "url": "https://doi.org/10.1007/978-3-031-73650-6_9",
+        "outcome": "no-evidence",
+        "note": "ECCV 正式版及 CVF/ECVA 公开原文均为国科大及中科院单位，早于个人履历上的字节及腾讯任职。"
+      }
+    ],
+    "note": "已核对本批论文的作者单位、致谢及具名学生经历。继续梳理公开书目，按每篇证据记录判断。"
+  },
+  "xl11SEMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~xuyaozhang",
+      "https://ghy0501.github.io/guohaiyang0501.github.io/",
+      "https://smallpigpeppa.github.io/",
+      "https://smallpigpeppa.github.io/data/CV_WenzhuoLiu.pdf",
+      "https://openreview.net/pdf?id=six75YUGgS",
+      "https://github.com/Ghy0501/MCITlib"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "CL-VISTA: Benchmarking Continual Learning in Video Large Language Models",
+        "url": "https://arxiv.org/abs/2604.00677",
+        "outcome": "no-evidence",
+        "note": "首稿 2026-04-01，未显示企业具名。仓库正式记录是 MCITlib 代码库的扩展视频基准；没有把郭海洋此前做的 SAIL-VL2 数据工作认作本篇。"
+      },
+      {
+        "year": 2025,
+        "title": "MCITlib: Multimodal Continual Instruction Tuning Library and Benchmark",
+        "url": "https://arxiv.org/abs/2508.07307",
+        "outcome": "no-evidence",
+        "note": "同一论文版本合一。原文与作者 ICCV 研讨会/项目书目一致，团队国科大及研究机构；最早公开早于两家企业实习。后续 CL-VISTA 视频基准单列。"
+      },
+      {
+        "year": 2024,
+        "title": "RCL: Reliable Continual Learning for Unified Failure Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_RCL_Reliable_Continual_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式原文及补充只列国科大、中科院单位和上海人工智能实验室，没有目标公司。"
+      },
+      {
+        "year": 2023,
+        "title": "OpenMix: Exploring Outlier Samples for Misclassification Detection",
+        "url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21522_bnrlVIJ.pdf",
+        "outcome": "no-evidence",
+        "note": "作者会议报告与 CVPR 原版团队署名均为国科大与中科院自动化所；没有具名企业研究人员。"
+      },
+      {
+        "year": 2025,
+        "title": "Federated Continual Instruction Tuning",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Federated_Continual_Instruction_Tuning_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式原文署国科大、中科院研究机构与厦门理工。2025 年 6 月录用早于郭海洋开始字节实习；没有企业团队具名。"
+      },
+      {
+        "year": 2025,
+        "title": "ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt",
+        "url": "https://aclanthology.org/2025.emnlp-main.609/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版具名郭海洋及张煦尧、刘成林，作者为国科大、中科院自动化所、中科院香港创新研究院；录用在字节实习之前。"
+      },
+      {
+        "year": 2025,
+        "title": "HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model",
+        "url": "https://aclanthology.org/2025.acl-long.666/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版与 arXiv:2503.12941 合一。首作者国科大，两位具名导师同篇，已检查署名与致谢，未发现范围企业角色。"
+      },
+      {
+        "year": 2024,
+        "title": "PILoRA: Prototype Guided Incremental LoRA for Federated Class-Incremental Learning",
+        "url": "https://doi.org/10.1007/978-3-031-73650-6_9",
+        "outcome": "no-evidence",
+        "note": "ECCV 正式版及 CVF/ECVA 公开原文均为国科大及中科院单位，早于个人履历上的字节及腾讯任职。"
+      }
+    ],
+    "note": "已核对本批论文的作者单位、致谢及具名学生经历。继续梳理公开书目，按每篇证据记录判断。"
   }
 };
