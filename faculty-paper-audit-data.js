@@ -10977,7 +10977,11 @@ const facultyPaperAudits = {
       "https://muhanzhang.github.io/#pub",
       "https://ir.pku.edu.cn/researcher?fullname=%E5%BC%A0%E7%89%A7%E6%B6%B5&id=327984&uid=f65a8c82bc3dd0a90e6ee32b89760301",
       "https://aclanthology.org/people/muhan-zhang/",
-      "https://mulabpku.com/people/"
+      "https://mulabpku.com/people/",
+      "https://dblp.org/pid/157/5518.html",
+      "https://ir.pku.edu.cn/handle/20.500.11897/739059",
+      "https://ir.pku.edu.cn/handle/20.500.11897/741118",
+      "https://www.csauthors.net/muhan-zhang/"
     ],
     "papers": [
       {
@@ -11084,9 +11088,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "LIFT: A Novel Framework for Enhancing Long-Context Understanding of LLMs via Long Input Fine-Tuning",
-        "url": "https://arxiv.org/pdf/2412.13626",
+        "url": "https://arxiv.org/abs/2502.14644",
         "outcome": "no-evidence",
-        "note": "核对原文作者和机构署名，列有北大及北京通用人工智能研究院；未见既定企业作者或与本篇对应的具名企业实习。"
+        "note": "合并 2024 初稿 2412.13626 与 ICML 正式版前的修订公开稿 2502.14644。两个版本的作者机构均为北大及北京通用人工智能研究院，未见范围内企业参与。"
       },
       {
         "title": "VecMol: Vector-Field Representations for 3D Molecule Generation",
@@ -11176,7 +11180,7 @@ const facultyPaperAudits = {
         "title": "Beyond Single-Task: Robust Multi-Task Length Generalization for LLMs",
         "url": "https://arxiv.org/pdf/2502.11525",
         "outcome": "lead",
-        "note": "北大实验室具名 Yi Hu、Shijia Kang 为张牧涵在读博士生；小红书正式员工 Haotian Xu 本人履历也列同篇。原文未具名说明两位学生的企业科研参与方式，暂作线索。"
+        "note": "北大机构库旧题为 Training Large Language Models to be Better Rule Followers，和此篇为同一 arXiv。北大实验室列 Yi Hu、Shijia Kang 为张牧涵在读博士生；小红书正式员工 Haotian Xu 本人履历也列同篇。暂缺明确到学生在企业参与本篇的材料。"
       },
       {
         "title": "LooGLE v2: Are LLMs Ready for Real World Long Dependency Challenges?",
@@ -11453,9 +11457,201 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2501.11284",
         "outcome": "lead",
         "note": "张牧涵主页明确说与小红书合作。论文及团队页确认北大具名博士生，Haotian Xu 本人履历验证他在当期任职；未见明确到单个学生参与企业研究方式的记录。"
+      },
+      {
+        "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+        "url": "https://arxiv.org/abs/2607.27269",
+        "outcome": "no-evidence",
+        "note": "原稿三位作者均署北大人工智能研究院；未见范围内公司作者或具名企业研究说明。"
+      },
+      {
+        "title": "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory",
+        "url": "https://arxiv.org/abs/2605.12061",
+        "outcome": "no-evidence",
+        "note": "原稿作者单位为北大与北京理工大学，未列范围内企业。"
+      },
+      {
+        "title": "MISA: Mixture of Indexer Sparse Attention for Long-Context LLM Inference",
+        "url": "https://arxiv.org/abs/2605.07363",
+        "outcome": "no-evidence",
+        "note": "原稿没有逐名列作者单位，通讯邮箱和公开学术资料可辨认部分作者。DeepSeek 和 GLM 是其方法背景或评测对象；未找到本篇范围内企业署名与学生科研的联结证据。"
+      },
+      {
+        "title": "Rethinking Diffusion Models with Symmetries through Canonicalization with Applications to Molecular Graph Generation",
+        "url": "https://arxiv.org/abs/2602.15022",
+        "outcome": "no-evidence",
+        "note": "原稿列北大、浙大、MIT、普林斯顿等高校，未列范围内公司。"
+      },
+      {
+        "title": "LiteToken: Removing Intermediate Merge Residues From BPE Tokenizers",
+        "url": "https://arxiv.org/abs/2602.04706",
+        "outcome": "no-evidence",
+        "note": "原稿四位作者单位均为北大，未列企业或具名企业实习。"
+      },
+      {
+        "title": "ProofVerifier: A Scalable, Diversity-Driven Framework for Natural-Language Proof Verification",
+        "url": "https://arxiv.org/abs/2602.02377",
+        "outcome": "no-evidence",
+        "note": "首版题目为 Proof-RM，最新版改称 ProofVerifier，均使用同一 arXiv 编号；最新版作者机构仅为北大。"
+      },
+      {
+        "title": "Breaking the Blocks: Continuous Low-Rank Decomposed Scaling for Unified LLM Quantization and Adaptation",
+        "url": "https://arxiv.org/abs/2601.22716",
+        "outcome": "no-evidence",
+        "note": "原稿作者机构是北大、哈工大（深圳）及北京通用人工智能研究院；Pingzhi Tang 另有腾讯项目，但未找到本篇与该经历对应的证据。"
+      },
+      {
+        "title": "What Affects the Effective Depth of Large Language Models?",
+        "url": "https://arxiv.org/abs/2512.14064",
+        "outcome": "no-evidence",
+        "note": "原稿三位作者署北大及 MIT，未列范围内企业。"
+      },
+      {
+        "title": "Diffusion As Self-Distillation: End-to-End Latent Diffusion In One Model",
+        "url": "https://arxiv.org/abs/2511.14716",
+        "outcome": "no-evidence",
+        "note": "原稿仅有 Xiyuan Wang 和张牧涵两位北大作者，没有同篇企业作者。"
+      },
+      {
+        "title": "The Road Less Traveled: Enhancing Exploration in LLMs via Sequential Sampling",
+        "url": "https://arxiv.org/abs/2510.15502",
+        "outcome": "no-evidence",
+        "note": "原稿仅有 Shijia Kang 和张牧涵两位北大作者，没有同篇企业作者。"
+      },
+      {
+        "title": "GILT: An LLM-Free, Tuning-Free Graph Foundational Model for In-Context Learning",
+        "url": "https://arxiv.org/abs/2510.04567",
+        "outcome": "no-evidence",
+        "note": "北大机构库与原稿均有此篇，原文作者署北大王选计算机研究所及人工智能研究院，未见范围内企业署名。"
+      },
+      {
+        "title": "GeoRecon: Graph-Level Representation Learning for 3D Molecules via Reconstruction-Based Pretraining",
+        "url": "https://arxiv.org/abs/2506.13174",
+        "outcome": "no-evidence",
+        "note": "原稿署北大，未发现具名企业员工参与此篇。"
+      },
+      {
+        "title": "Meta Pruning via Graph Metanetworks : A Meta Learning Framework for Network Pruning",
+        "url": "https://arxiv.org/abs/2506.12041",
+        "outcome": "no-evidence",
+        "note": "原稿仅列北大作者，未见范围内企业参与。"
+      },
+      {
+        "title": "Masked Language Models are Good Heterogeneous Graph Generalizers",
+        "url": "https://arxiv.org/abs/2506.06157",
+        "outcome": "lead",
+        "note": "原文列蚂蚁集团 Zhiqiang Zhang；学生作者署北邮、张牧涵独自署北大。尚缺张牧涵具名跨校指导及学生参与该企业本篇研究的证据。"
+      },
+      {
+        "title": "Do Graph Diffusion Models Accurately Capture and Generate Substructure Distributions?",
+        "url": "https://arxiv.org/abs/2502.02488",
+        "outcome": "no-evidence",
+        "note": "原稿列北大及电子工程与计算机科学学术单位，未见指定企业署名、实习脚注或学生参与此篇的企业项目说明。"
+      },
+      {
+        "title": "GL-Fusion: Rethinking the Combination of Graph Neural Network and Large Language model",
+        "url": "https://arxiv.org/abs/2412.06849",
+        "outcome": "lead",
+        "note": "论文和北大机构库均列阿里巴巴；Haotong Yang 个人履历证实张牧涵为具名博士导师，并列该论文，但未找到其参与阿里本篇项目的具名资料。"
+      },
+      {
+        "title": "Fine-Grained Expressive Power of Weisfeiler-Leman: A Homomorphism Counting Perspective",
+        "url": "https://arxiv.org/abs/2410.03517",
+        "outcome": "no-evidence",
+        "note": "原稿仅有北大两名作者，没有同篇企业作者。"
+      },
+      {
+        "title": "On Lexical Invariance on Multisets and Graphs",
+        "url": "https://arxiv.org/abs/2409.14179",
+        "outcome": "no-evidence",
+        "note": "原稿为张牧涵单独署名的北大研究；无共同作者，不能建立三方关系。"
+      },
+      {
+        "title": "Foundations and Frontiers of Graph Learning Theory",
+        "url": "https://arxiv.org/abs/2407.03125",
+        "outcome": "no-evidence",
+        "note": "原稿明确写华为作者 Min Zhou 的文章工作独立于其公司岗位和资源，未见同期在读者通过华为参与该论文的证据。"
+      },
+      {
+        "title": "TAGLAS: An atlas of text-attributed graph datasets in the era of large graph and language models",
+        "url": "https://arxiv.org/abs/2406.14683",
+        "outcome": "no-evidence",
+        "note": "原稿具名华盛顿大学圣路易斯分校、北大等高校，未找到同篇既定企业参与。"
+      },
+      {
+        "title": "SPGNN: Recognizing Salient Subgraph Patterns via Enhanced Graph Convolution and Pooling",
+        "url": "https://arxiv.org/abs/2404.13655",
+        "outcome": "no-evidence",
+        "note": "原稿列北大及华盛顿大学圣路易斯分校，未见范围内企业作者。"
+      },
+      {
+        "title": "Highly Accurate Disease Diagnosis and Highly Reproducible Biomarker Identification with PathFormer",
+        "url": "https://arxiv.org/abs/2402.07268",
+        "outcome": "no-evidence",
+        "note": "原稿列美国高校、医学机构及北大；未见范围内企业作者或学生企业研究说明。"
+      },
+      {
+        "title": "Optimal mental representation of social networks explains biases in social learning and perception",
+        "url": "https://escholarship.org/uc/item/8v41v7zd",
+        "outcome": "no-evidence",
+        "note": "CogSci 学术档案列五位作者，作者名单与北大图研究组的同名作者及合作者吻合；公开条目未见范围内企业机构和具名的企业科研角色。"
+      },
+      {
+        "title": "PyTorch Geometric High Order: A Unified Library for High Order Graph Neural Network",
+        "url": "https://arxiv.org/abs/2311.16670",
+        "outcome": "no-evidence",
+        "note": "原稿仅列 Xiyuan Wang 与张牧涵两名北大作者，无同篇企业作者。"
+      },
+      {
+        "title": "Chain of Images for Intuitively Reasoning",
+        "url": "https://arxiv.org/abs/2311.09241",
+        "outcome": "no-evidence",
+        "note": "原稿列北大、北京通用人工智能研究院；未见范围内企业作者。"
+      },
+      {
+        "title": "Explaining the Complex Task Reasoning of Large Language Models with Template-Content Structure",
+        "url": "https://arxiv.org/abs/2310.05452",
+        "outcome": "no-evidence",
+        "note": "原稿列北大与鹏城实验室；未找到范围内企业参与。"
+      },
+      {
+        "title": "Universal Normalization Enhanced Graph Representation Learning for Gene Network Prediction",
+        "url": "https://arxiv.org/abs/2309.00738",
+        "outcome": "no-evidence",
+        "note": "原稿作者署北大及圣路易斯华盛顿大学的相关医学与科研单位，无范围内企业署名。"
+      },
+      {
+        "title": "Code Prompting: a Neural Symbolic Method for Complex Reasoning in Large Language Models",
+        "url": "https://arxiv.org/abs/2305.18507",
+        "outcome": "no-evidence",
+        "note": "原稿署北大研究团队；未发现可核的范围内企业员工或学生企业项目。"
+      },
+      {
+        "title": "Large Language Models are In-Context Semantic Reasoners rather than Symbolic Reasoners",
+        "url": "https://arxiv.org/abs/2305.14825",
+        "outcome": "no-evidence",
+        "note": "原文署北京通用人工智能研究院和北大学术团队，未发现既定企业作者。"
+      },
+      {
+        "title": "Time Associated Meta Learning for Clinical Prediction",
+        "url": "https://arxiv.org/abs/2303.02570",
+        "outcome": "lead",
+        "note": "原稿列京东探索研究院 Dacheng Tao；其他学生署华盛顿大学圣路易斯分校，暂缺张牧涵具名跨校指导及具体学生在京东参与本篇证据。"
+      },
+      {
+        "title": "Rewriting or Reweighting? A Geometric Account in Language Models",
+        "url": "https://arxiv.org/abs/2608.01835",
+        "outcome": "no-evidence",
+        "note": "原稿作者列北大和北京交通大学，未见范围内企业署名。"
+      },
+      {
+        "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+        "url": "https://arxiv.org/abs/2608.03874",
+        "outcome": "no-evidence",
+        "note": "arXiv 最新稿列作者均属北大人工智能研究院，未见企业作者或具名企业参与。"
       }
     ],
-    "note": "逐篇对照个人主页 2023 年起所列书目、北大机构库与正式论文，含在截止前首发而后年刊会的预印本。另核查主页新闻所列 RedStar。未穷尽其他索引中未列入个人书目的论文，继续标为梳理中。"
+    "note": "逐篇核查个人书目、北大机构库、ACL Anthology 与 DBLP 及其书目交叉检索结果；合并正式版和改题稿，剔除不属于该教师的同名作者记录。已覆盖当前台账所列论文；其他索引和期内尚未收录论文仍可能存在，保持梳理中。"
   },
   "nD0I3PUAAAAJ": {
     "from": "2023-01-01",
