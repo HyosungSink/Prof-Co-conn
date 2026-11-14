@@ -40405,7 +40405,27 @@ const facultyPaperAudits = {
       "https://www.nature.com/articles/s42256-023-00609-5",
       "https://arxiv.org/abs/2112.15270",
       "https://doi.org/10.23919/DATE69613.2026.11539592",
-      "https://arxiv.org/html/2601.06724v1"
+      "https://arxiv.org/html/2601.06724v1",
+      "https://doi.org/10.1038/s41467-025-67960-6",
+      "https://hub.hku.hk/bitstream/10722/370950/1/content.pdf?accept=1",
+      "https://arxiv.org/abs/2311.07164",
+      "https://doi.org/10.1038/s41467-025-56079-3",
+      "https://hub.hku.hk/bitstream/10722/368598/1/content.pdf?accept=1",
+      "https://arxiv.org/abs/2312.09262",
+      "https://doi.org/10.1038/s41467-026-72900-z",
+      "https://ir.pku.edu.cn/handle/20.500.11897/800721",
+      "https://arxiv.org/abs/2404.05648",
+      "https://doi.org/10.1126/sciadv.ado1058",
+      "https://ime.cas.cn/kygz/kydt/202408/t20240829_7326862.html",
+      "https://arxiv.org/html/2407.08990v1",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11323881/",
+      "https://doi.org/10.1109/ISCAS56072.2025.11043465",
+      "https://researchportal.hkust.edu.hk/en/publications/a-flexible-precision-scaling-deep-neural-network-accelerator-with/",
+      "https://arxiv.org/html/2502.00687v1",
+      "https://openreview.net/forum?id=MHfoA0Qf6g",
+      "https://openreview.net/pdf?id=MHfoA0Qf6g",
+      "https://arxiv.org/abs/2307.00331",
+      "https://github.com/HuangOwen/Quantization-Variation"
     ],
     "papers": [
       {
@@ -40687,9 +40707,51 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "DATE 2026 正式版与 2026-01 arXiv 预印本同作。Kunming Shao为高校在读、作者履历具名点到鄭光廷，但原文列港科大、华南理工、西湖大学及高校教育部工程中心，无目标公司。",
         "year": 2026
+      },
+      {
+        "title": "Pruning random resistive memory for optimizing analog AI",
+        "url": "https://doi.org/10.1038/s41467-025-67960-6",
+        "outcome": "no-evidence",
+        "note": "Nature Communications 2026 正式版，初稿 2023-11。正式 PDF 首页列港大、港科大及其他高校与中科院研究单位，未发现范围企业。",
+        "year": 2026
+      },
+      {
+        "title": "Random resistive memory-based deep extreme point learning machine for unified visual processing",
+        "url": "https://doi.org/10.1038/s41467-025-56079-3",
+        "outcome": "no-evidence",
+        "note": "Nature Communications 2025 正式版与 2023-12 首稿同作，港大保存正式版列港大、港科大、南科大、复旦、国科大、浙大、中科院与相关学术中心，未见调查范围企业。",
+        "year": 2025
+      },
+      {
+        "title": "Resistive memory-based neural differential equation solver for score-based diffusion model",
+        "url": "https://doi.org/10.1038/s41467-026-72900-z",
+        "outcome": "no-evidence",
+        "note": "2024-04 预印本与 2026 Nature Communications 正式论文合并。北大机构库保存本篇完整署名，机构为高校、中科院研究所与研究中心，未见调查范围企业。",
+        "year": 2026
+      },
+      {
+        "title": "Semantic memory–based dynamic neural network using memristive ternary CIM and CAM for 2D and 3D vision",
+        "url": "https://doi.org/10.1126/sciadv.ado1058",
+        "outcome": "no-evidence",
+        "note": "Science Advances 正式稿和 2024-07 预印本评估同一存内计算模型，按同作登记；中科院课题组披露正式稿，原始署名列微电子所、港科大等高校和学术单位，无调查范围企业。",
+        "year": 2024
+      },
+      {
+        "title": "A Flexible Precision Scaling Deep Neural Network Accelerator with Efficient Weight Combination",
+        "url": "https://doi.org/10.1109/ISCAS56072.2025.11043465",
+        "outcome": "no-evidence",
+        "note": "IEEE ISCAS 2025 正式目录逐名列港科大与华南理工。TSMC 28nm 为论文工艺，不是目标企业共著或在读研究证据；同一 arXiv 文只记录一次。",
+        "year": 2025
+      },
+      {
+        "title": "Quantization Variation: A New Perspective on Training Transformers with Low-Bit Precision",
+        "url": "https://openreview.net/forum?id=MHfoA0Qf6g",
+        "outcome": "no-evidence",
+        "note": "TMLR 2024-10 正式版与 2023-07 arXiv 原题 Variation-aware Vision Transformer Quantization 同作。四位作者同一，最终稿列港科大及 Zhiqiang Shen 的大学单位，无调查范围企业。",
+        "year": 2024
       }
     ],
-    "note": "按香港科技大学研究门户、VSDL 实验室书目、实名 ORCID 0000-0002-3885-4912 及 DBLP 2026-11-01 快照，逐篇核对 40 项；按正式版本日期优先、合并同篇初稿。两篇腾讯天衍和一篇腾讯生命科学论文仍只列线索，余下年份继续核对。"
+    "note": "按香港科技大学研究门户、VSDL 实验室书目、实名 ORCID 0000-0002-3885-4912 及 DBLP 2026-11-01 快照，逐篇核对 46 项；按正式版本日期优先、合并同篇初稿。两篇腾讯天衍和一篇腾讯生命科学论文仍只列线索，余下年份继续核对。"
   },
   "dtRGhasAAAAJ": {
     "from": "2023-01-01",
@@ -41326,7 +41388,12 @@ const facultyPaperAudits = {
       "https://lxzhang.com/",
       "https://haokunju.github.io/walking-wm.github.io/",
       "https://github.com/baaivision/nova",
-      "https://paranioar.github.io/"
+      "https://paranioar.github.io/",
+      "https://iip.ict.ac.cn/lwfb/2025/",
+      "https://geometrylearning.com/stylizedgs/",
+      "https://vipl-epp.github.io/publications/",
+      "https://shiliang26.github.io/",
+      "https://masterweaver.github.io/"
     ],
     "papers": [
       {
@@ -41447,9 +41514,121 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2412.14169",
         "outcome": "no-evidence",
         "note": "ICLR 2025 NOVA 与 arXiv:2412.14169 合并。论文官方代码列北邮、计算所、大连理工、智源；大连理工刁海文本人证实本段实习在智源，腾讯实习在 2020–21 年。"
+      },
+      {
+        "year": 2026,
+        "title": "DeepBias: Adaptive In-depth Probing of Social Biases in LVLMs",
+        "url": "https://arxiv.org/html/2607.11228",
+        "outcome": "lead",
+        "note": "论文履历明确Songkai Xue与 Jiahao Wang 在华为 2012 实验室，Anqi Li、Zhongqi Wang 为计算所在读博士；尚未找到个体导师关系与学生在华为参与本工作的直接证据。"
+      },
+      {
+        "year": 2025,
+        "title": "StylizedGS: Controllable Stylization for 3D Gaussian Splatting",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3604010",
+        "outcome": "no-evidence",
+        "note": "IEEE、计算所题录和正式项目页一致，作者为计算所/国科大及惠灵顿维多利亚大学；张丁夕的国科大经历可查，本篇无范围企业。合并 arXiv:2404.05220。"
+      },
+      {
+        "year": 2025,
+        "title": "EfficientMT: Efficient Temporal Adaptation for Motion Transfer in Text-to-Video Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Cai_EfficientMT_Efficient_Temporal_Adaptation_for_Motion_Transfer_in_Text-to-Video_Diffusion_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 全文作者为计算所、国科大和哈尔滨工业大学，致谢列国家自然科学基金。合并 arXiv:2503.19369。"
+      },
+      {
+        "year": 2025,
+        "title": "HIS-GPT: Towards 3D Human-In-Scene Multimodal Understanding",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhao_HIS-GPT_Towards_3D_Human-In-Scene_Multimodal_Understanding_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式全文作者为计算所、国科大及中国传媒大学，未见范围企业。合并 arXiv:2503.12955。"
+      },
+      {
+        "year": 2026,
+        "title": "VLBiasBench: A Comprehensive Benchmark for Evaluating Bias in Large Vision-Language Model",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3683747",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式篇与 arXiv:2406.14194 合并；作者单位为计算所、国科大与北京大学。接受测评的商业模型不视为合作。"
+      },
+      {
+        "year": 2026,
+        "title": "un2CLIP: Improving CLIP's Visual Detail Capturing Ability via Inverting unCLIP",
+        "url": "https://openreview.net/forum?id=kpdFjNitGW",
+        "outcome": "no-evidence",
+        "note": "合并 arXiv:2505.24517；原稿作者署中科院计算所，其余五名作者同时署国科大，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Jodi: Unification of Visual Generation and Understanding via Joint Modeling",
+        "url": "https://arxiv.org/html/2505.19084",
+        "outcome": "no-evidence",
+        "note": "公开全文五人均署计算所，四名作者另署国科大。公开影像与生成模型是实验工具，未见范围企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search",
+        "url": "https://openreview.net/pdf/b08774914ebce1eaef7904832504cd7677145d30.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式全文作者单位为计算所、国科大、西湖大学和中国人民大学，无范围企业；合并 arXiv:2506.00925。"
+      },
+      {
+        "year": 2025,
+        "title": "Leveraging face-prior knowledge for general face representation learning",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320325004443",
+        "outcome": "no-evidence",
+        "note": "正式论文逐名列孙浩淼等四位作者分工；计算所实验室、何明捷主页可对账，致谢仅资助项目，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Inference Calibration of Vision-Language Foundation Models for Zero-Shot and Few-Shot Learning",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167865525000959",
+        "outcome": "no-evidence",
+        "note": "Elsevier 期刊正式稿与计算所书目一致；所用 CLIP 等模型不等于研发企业参与。未见范围企业合著。"
+      },
+      {
+        "year": 2025,
+        "title": "PIT: A Plug-and-Play Image Translator for Making Off-the-Shelf Models Adapt to Corruptions",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3598147",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式登记与计算所的论文名录一致，四作者为计算所/国科大团队；没有范围企业角色证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Collaborative Map-Based and Route-Based Policy Learning for Continuous Vision-and-Language Navigation",
+        "url": "https://doi.org/10.1109/LRA.2026.3662659",
+        "outcome": "no-evidence",
+        "note": "IEEE 登记、Lixuan Zhang 履历和具身感知规划组书目互证。系校内团队持续视语导航项目，未找到范围企业同篇合著或实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Uniform Discrete Diffusion with Metric Path for Video Generation",
+        "url": "https://openreview.net/pdf?id=GFU5yCbILk",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版是自动化所、计算所、国科大、浙江大学、北京智源合作，智源不在调查企业范围。合并 arXiv:2510.24717。"
+      },
+      {
+        "year": 2026,
+        "title": "HumanPCR: Probing MLLM Capabilities in Diverse Human-Centric Scenes",
+        "url": "https://arxiv.org/html/2508.13692",
+        "outcome": "no-evidence",
+        "note": "ICLR 2026 正式版与 arXiv:2508.13692 合并。两版机构交叉为计算所、国科大、鹏城实验室，没有范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Pose-Robust Calibration Strategy for Point-of-Gaze Estimation on Mobile Phones",
+        "url": "https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_358/paper.pdf",
+        "outcome": "no-evidence",
+        "note": "BMVC 2025 正式原文与实验室项目页均列三位作者双署计算所/国科大，未见范围内手机企业；合并 arXiv:2508.10268。"
+      },
+      {
+        "year": 2025,
+        "title": "Real face foundation representation learning for generalized deepfake detection",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320324010501",
+        "outcome": "no-evidence",
+        "note": "正式 RFFR 与作者亲自链接的 2023 预印本相同，正式版新增两名曾公开署名好未来的作者；该公司不在 14 家内。首作者公开履历未列在好未来做该文。"
       }
     ],
-    "note": "首批按 DBLP、国科大教师页和计算所实验室题录核查，合并正式版与相同项目初稿。两篇华为线索均有学校具名导师记录，尚缺在读生在华为做该篇的证据。书目仍在梳理中。"
+    "note": "结合 DBLP、国科大教师页、计算所实验室书目与正式原文，合并重复版本。三篇华为合作论文暂存线索，尚缺在读生逐篇华为实研证据。书目梳理中。"
   },
   "nbyHGnsAAAAJ": {
     "from": "2023-01-01",
@@ -41626,5 +41805,269 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核对北邮档案、课题组主页及 ORCID，逐篇判断原文或出版社已完整登记作者单位的书目。部分文章仅有题录，另行检索全文；组员毕业去向不能证明此前的同篇实研。"
+  },
+  "XLbHoCsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://dfshan.github.io/publications/",
+      "https://dblp.org/pid/137/3349.html",
+      "https://xjtu-netverify.github.io/research/simulation/",
+      "https://haolis.com/pubs/",
+      "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=3163",
+      "https://gr.xjtu.edu.cn/yztang/zh_CN/lwcg/254927/list/index.htm",
+      "https://www.sciencedirect.com/science/article/pii/S1051200424002690",
+      "https://atc.sigops.org/2026/",
+      "https://www.usenix.org/archive/202609?page=2"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Adaptive Video Streaming Based on Transport Layer Information",
+        "url": "https://doi.org/10.7544/issn1000-1239.202440909",
+        "outcome": "no-evidence",
+        "note": "《计算机研究与发展》2026 正式第 63 卷，三人署西交。原文的 Alibaba XQUIC 是背景工具。"
+      },
+      {
+        "year": 2026,
+        "title": "CCC: Re-architecting Delay-based Congestion Control in Datacenter Networks",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/jiang",
+        "outcome": "no-evidence",
+        "note": "NSDI 正式原文作者机构为中南大学、西交及清华；阿里链路数据只在参考文献。"
+      },
+      {
+        "year": 2026,
+        "title": "Credix: A Credit-Driven Distributed Buffer Management for Large-Scale Switching Chips",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH837&sess=sess147",
+        "outcome": "no-evidence",
+        "note": "DAC 官方会议作者/单位：兰州大学、清华及中关村实验室、西交，没有范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Ditto: A Flexible Transmission Control Mechanism for Diverse User Demands and Network Conditions",
+        "url": "https://doi.org/10.1007/978-981-95-8408-6_26",
+        "outcome": "no-evidence",
+        "note": "ICA3PP 2025 论文在 Springer 2026-04-10 出版，四位作者均署西交；与 Adaptive Video Streaming 同组、不同论文。"
+      },
+      {
+        "year": 2026,
+        "title": "Hidden in Plain Sight: Diffusion-Based Unrestricted Robotic Attacks on Vision-Language-Action Models",
+        "url": "https://arxiv.org/abs/2608.10393",
+        "outcome": "no-evidence",
+        "note": "8 月公开原版，原文属西交、上海人工智能实验室、中科大，未见范围企业共署。"
+      },
+      {
+        "year": 2026,
+        "title": "Nüwa: A Generative Control Plane for AI Network Simulation",
+        "url": "https://doi.org/10.1145/3789240.3829106",
+        "outcome": "no-evidence",
+        "note": "SIGCOMM 2026 正式；APNet 2025 先行短篇没有单丹枫。西交团队成员本人列张鹏硕导，华为经历为兰州大学就读期未对应本篇；与本篇明确配对的仿真实习是微软亚洲研究院（范围外）。"
+      },
+      {
+        "year": 2026,
+        "title": "Quanta: Scaling Packet-Level Network Simulation by Exploiting Execution Redundancy",
+        "url": "https://doi.org/10.1145/3820441.3821239",
+        "outcome": "no-evidence",
+        "note": "APNet 正式工作坊收录（海报条目），六名作者均署西交；与 REAL 书目并列、不同方法。"
+      },
+      {
+        "year": 2026,
+        "title": "REAL: Emulating Control Plane at Simulator’s Cost",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/xia",
+        "outcome": "no-evidence",
+        "note": "USENIX 原文作者仅西交和 harnets.ai；讨论字节与阿里现有网络系统属于背景，未见这两家企业员工或具名学生参与本项。"
+      },
+      {
+        "year": 2026,
+        "title": "SkillEval: Decomposing Agent Skill Quality into Interpretable Signals",
+        "url": "https://arxiv.org/abs/2608.06891",
+        "outcome": "no-evidence",
+        "note": "正式公开 v1 和 v2 在日期范围内；原文首页为西交、上海人工智能实验室、香港理工、中国人民大学及哈工大，上海人工智能实验室不属目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Bandwidth Prediction Within Playback-Time of Buffer Duration Based on Frame-Level Stable Segment for Live Streaming",
+        "url": "https://doi.org/10.1007/978-981-96-8728-2_17",
+        "outcome": "no-evidence",
+        "note": "WASA Springer 正式章：中南大学与西交，致谢是公开资助与中南大学计算平台，无范围内企业人员。"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient Headroom Allocation With Two-Level Flow Control for Lossless Datacenter Networks",
+        "url": "https://doi.org/10.1109/TON.2025.3596437",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025 年 8 月提前公开，2026 卷。正文脚注明确 IEEE ICDCS 2023 的 Less is More（10.1109/ICDCS57875.2023.00019）是先行版本，并篇；正式作者仅西交、南航，用华为服务器评估不证明华为员工或研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Fast and Accurate Software Traffic Shaping With Inter-Flow Batching",
+        "url": "https://doi.org/10.1109/TON.2025.3598059",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式原文于 2025-10-27 提前公开、2026 年卷。首页明示 INFOCOM 2023 的 Burst can be Harmless（10.1109/INFOCOM53939.2023.10229082）是先行版本，并篇。作者单位为西交、中南大学、清华；未见目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Occamy: A Preemptive Buffer Management for On-chip Shared-memory Switches",
+        "url": "https://doi.org/10.1145/3689031.3717495",
+        "outcome": "lead",
+        "note": "ACM EuroSys、2501.13570、IEEE TC 2026 Revisiting Preemptive Buffer Management（10.1109/TC.2026.3711067，出版社摘要仍明确是同一 Occamy 系统）合记。EuroSys 原文 Zhenxing Zhang、Nan Li 署华为；西交官方列单丹枫主持 2022-09–2023-12 华为异构缓存管理技术项目。西交课题组原始代码由论文作者 Yunguang Li 等贡献，但没有材料把具体具名学生本项工作定位到华为；已知马锦超在组内博士指导从 2026 年起，还需早期师承证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Teaching to Fish Rather Than Giving a Fish: The Concentrator Method of Teaching Classic Congestion Control With Learning-Based Module",
+        "url": "https://doi.org/10.1109/TMC.2025.3567582",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025 正式与中南大学蒋万春校方书目互证，含教师个人主页漏列的末作者 Yijun Li；未取得本项范围公司员工或学生实研具名资料。"
+      },
+      {
+        "year": 2025,
+        "title": "Unleashing the Power of Visual Foundation Models for Generalizable Semantic Segmentation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34295/36450",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式 PDF 首页作者单位为西交、西电、新加坡管理大学、中科大和 Synkrotron；Synkrotron 不在目标企业范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Adaptive Approximate Fair Queueing for Shared-Memory Programmable Switches",
+        "url": "https://doi.org/10.1109/TNSE.2024.3377814",
+        "outcome": "no-evidence",
+        "note": "西交唐亚哲 2024-03-23 校内新闻确认在读硕士彭光宇由单丹枫指导并为学生一作。没有本篇目标企业正式人员或彭在企业具名参与材料。"
+      },
+      {
+        "year": 2023,
+        "title": "Enforcing Fairness in the Traffic Policer Among Heterogeneous Congestion Control Algorithms",
+        "url": "https://doi.org/10.1109/TNET.2023.3276410",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式 PDF 2023-06-16 首次公开、2024 年卷；INFOCOM 2021 是窗外先行版。原文机构未见目标企业，虽有行业网络设备。"
+      },
+      {
+        "year": 2023,
+        "title": "Improvement of Copa: Behaviors and Friendliness of Delay-Based Congestion Control Algorithm",
+        "url": "https://doi.org/10.1109/TNET.2023.3278677",
+        "outcome": "no-evidence",
+        "note": "IEEE 2023 提前公开、2024 年卷。中南大学黄家伟校方书目校验完整名单，未找到任一范围公司参与此研究的公开具名材料。"
+      },
+      {
+        "year": 2023,
+        "title": "LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed",
+        "url": "https://www.usenix.org/conference/nsdi23/presentation/li-hao",
+        "outcome": "no-evidence",
+        "note": "NSDI 正式 PDF 作者署西交、新加坡国立大学及上海纽约大学；未见范围企业正式研究人员。"
+      },
+      {
+        "year": 2023,
+        "title": "Programming Network Stack for Physical Middleboxes and Virtualized Network Functions",
+        "url": "https://doi.org/10.1109/TNET.2023.3307641",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式 PDF 2023 提前公开、2024 年卷。企业作者署 Intel 与 NIO，二者均不在此次范围。"
+      },
+      {
+        "year": 2023,
+        "title": "Reinforcement-Learning Based Preload Strategy for Short Video",
+        "url": "https://doi.org/10.1007/978-981-99-4761-4_28",
+        "outcome": "no-evidence",
+        "note": "Springer ICIC 2023 正式作者为中南大学与西交，使用 Douyin 场景和相关公开文献不代表字节员工参与。"
+      }
+    ],
+    "note": "逐篇核完可识别的公开书目（2023-01-01 至 2026-11-12）：将最新版本人清单与西交、共同作者页、DBLP 和出版社交叉，再核对原文。DBLP 混入同名雷达作者，出版社简介明确为 HELLA 项目经理，已排除。会议预告无截点前全文的 Clockwork（会议 11 月 15 日开始）及 2027 RoCE 研究不计；后者已查正式列名微软研究院。Occamy 的学生企业实研目前保留线索。"
+  },
+  "inRIcS0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/12150?yxsh=28",
+      "https://diggers.ai/people/",
+      "https://dblp.org/pid/54/7057.html",
+      "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_21"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "MixRea: Benchmarking Explicit-Implicit Reasoning in Large Language Models",
+        "url": "https://arxiv.org/html/2605.20128v1",
+        "outcome": "no-evidence",
+        "note": "原文作者均署电子科技大学深圳高等研究院；文章提及的模型及系统不构成企业作者参与。"
+      },
+      {
+        "year": 2026,
+        "title": "AutoMCU: Feasibility-First MCU Neural Network Customization via LLM-based Multi-Agent Systems",
+        "url": "https://arxiv.org/html/2605.21560v1",
+        "outcome": "no-evidence",
+        "note": "原文作者简介列出西南交通大学、电子科技大学和东北大学，未见范围内企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "FedCoE: Bridging Generalization and Personalization via Federated Coordinated Dual-level MoEs",
+        "url": "https://arxiv.org/html/2605.21264v1",
+        "outcome": "no-evidence",
+        "note": "原文作者简介列出西南交通大学、电子科技大学和东北大学，未见范围内企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Coding with Eyes: Visual Feedback Unlocks Reliable GUI Code Generating and Debugging",
+        "url": "https://arxiv.org/html/2604.19750v1",
+        "outcome": "no-evidence",
+        "note": "论文首面作者均署电子科技大学；Springer 论文集收录同一工作，以最早公开版本归并。"
+      },
+      {
+        "year": 2026,
+        "title": "Lighted-SAM: Lightening Open-World SAM for Low-Light Segmentation",
+        "url": "https://doi.org/10.1109/tip.2026.3702382",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者单位为电子科技大学与西南交通大学，未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "GeoQuery: Geometry-Query Diffusion for Sparse-View Reconstruction",
+        "url": "https://arxiv.org/html/2605.12399v1",
+        "outcome": "no-evidence",
+        "note": "首页标注肖超在 Rawmantic AI 实习期间完成该工作；该公司不在本项目范围。ACM 版归并至同一条。"
+      },
+      {
+        "year": 2023,
+        "title": "Harmonious Teacher for Cross-Domain Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Deng_Harmonious_Teacher_for_Cross-Domain_Object_Detection_CVPR_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版列电子科技大学、悉尼大学、四川省人民医院等单位，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-05169-1_22",
+        "outcome": "no-evidence",
+        "note": "Springer 列全体作者与所属学校、医院和研究机构，未见范围内企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Diffusion-Enhanced Transformation Consistency Learning for Retinal Image Segmentation",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_21",
+        "outcome": "no-evidence",
+        "note": "Springer 作者单位包括高校和琶洲实验室，未见范围内企业。论文列段立新的 ORCID，可用于区分同名作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Cache-Driven Spatial Test-Time Adaptation for Cross-Modality Medical Image Segmentation",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_14",
+        "outcome": "no-evidence",
+        "note": "Springer 作者单位包括高校、深圳市大数据研究院等，未见范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Double-Fine-Tuning Multi-Objective Vision-and-Language Transformer for Social Media Popularity Prediction",
+        "url": "https://doi.org/10.1145/3581783.3612845",
+        "outcome": "no-evidence",
+        "note": "ACM 向 Crossref 登记的所有作者单位为电子科技大学及其深圳高等研究院，未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "LATTE: Language-Driven Construction of 3D Driving Scenes for Closed-Loop AD Simulation",
+        "url": "https://2026.acmmm.org/site/technical-programme.html",
+        "outcome": "no-evidence",
+        "note": "ACM Multimedia 官方议程 Poster-Wm-K9 列出了五名作者及各自单位：电子科技大学和浙江大学。"
+      }
+    ],
+    "note": "以电子科技大学研究生导师目录、课题组主页和出版社作者身份交叉核对，再逐篇查看正式版、原文或会议的完整作者栏。本批只覆盖已直接核对的作品。"
   }
 };
