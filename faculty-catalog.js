@@ -9,6 +9,7 @@ function buildFacultyCatalog() {
 }
 
 function facultyVerification(person, school, department) {
+  if (isFacultyVerificationExempt(person)) return null;
   const [scholar, paper] = facultyBibliographyFor(person, school, department);
   return Number(Boolean(person.titles.length)) + Number(Boolean(scholar)) + Number(Boolean(paper));
 }

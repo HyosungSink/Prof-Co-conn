@@ -220,10 +220,13 @@ function facultyChartSchools(scope) {
     const included = units.filter(([unit]) => facultyDirectoryForUnit(name, unit) === scope);
     let count = 0, complete = 0;
     for (const [, teachers] of included) {
-      count += teachers.length;
-      complete += teachers.filter(([, score]) => score === 3).length;
+      for (const [, score] of teachers) {
+        if (score === null) continue;
+        count += 1;
+        if (score === 3) complete += 1;
+      }
     }
-    return count ? [{ name, count, complete, units: included }] : [];
+    return included.some(([, teachers]) => teachers.length) ? [{ name, count, complete, units: included }] : [];
   }).sort((a, b) => b.count - a.count);
 }
 
@@ -244,7 +247,7 @@ function setupHomeCharts() {
     const schools = facultyStats.get(scope);
     const directory = facultyDirectoryPages[scope];
     if (slide.classList.contains('home-faculty-slide')) {
-      renderFacultyPlot(slide, schools, directory);
+      renderFacultyPlot(slide, schools.filter(({ count }) => count), directory);
     } else {
       renderFacultyUnits(slide, schools, directory);
     }

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=76cdfbe11b61">
+  <link rel="stylesheet" href="styles.css?v=905f372a8258">
   <script>
     function redirectLegacySection() {
       const pages = new Map([
@@ -19,17 +19,17 @@
     addEventListener('hashchange', redirectLegacySection);
     redirectLegacySection();
   </script>
-  <script src="data.js?v=76cdfbe11b61" defer></script>
-  <script src="leads.js?v=76cdfbe11b61" defer></script>
-  <script src="h-index.js?v=76cdfbe11b61" defer></script>
-  <script src="papers.js?v=76cdfbe11b61" defer></script>
-  <script src="ui.js?v=76cdfbe11b61" defer></script>
-  <script src="faculty-plot-data.js?v=76cdfbe11b61" defer></script>
-  <script src="faculty-plot.js?v=76cdfbe11b61" defer></script>
-  <script src="faculty-title-values.js?v=76cdfbe11b61" defer></script>
-  <script src="faculty-unit-groups.js?v=76cdfbe11b61" defer></script>
-  <script src="faculty-heatmap.js?v=76cdfbe11b61" defer></script>
-  <script src="home.js?v=76cdfbe11b61" defer></script>
+  <script src="data.js?v=905f372a8258" defer></script>
+  <script src="leads.js?v=905f372a8258" defer></script>
+  <script src="h-index.js?v=905f372a8258" defer></script>
+  <script src="papers.js?v=905f372a8258" defer></script>
+  <script src="ui.js?v=905f372a8258" defer></script>
+  <script src="faculty-plot-data.js?v=905f372a8258" defer></script>
+  <script src="faculty-plot.js?v=905f372a8258" defer></script>
+  <script src="faculty-title-values.js?v=905f372a8258" defer></script>
+  <script src="faculty-unit-groups.js?v=905f372a8258" defer></script>
+  <script src="faculty-heatmap.js?v=905f372a8258" defer></script>
+  <script src="home.js?v=905f372a8258" defer></script>
 </head>
 <body class="home-page">
   <header class="topbar">
@@ -87,31 +87,31 @@
         <section id="faculty-distribution" class="home-slide home-faculty-slide faculty-distribution" data-faculty-scope="core" aria-labelledby="faculty-plot-title" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-plot-title">主要计算机院系 · 高校分布</h2>
-            <p>三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。</p>
+            <p>三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。讲师不计入本图。</p>
           </div>
         </section>
         <section id="faculty-units" class="home-slide home-unit-slide faculty-distribution" data-faculty-scope="core" aria-labelledby="faculty-unit-title" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-unit-title">主要计算机院系 · 教师热力图</h2>
-            <p data-unit-description>每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。</p>
+            <p data-unit-description>每校一种颜色，选择高校可展开院系或研究所。颜色越深，已核实项数越多。讲师显示为淡灰空格。</p>
           </div>
         </section>
         <section id="faculty-distribution-related" class="home-slide home-faculty-slide faculty-distribution" data-faculty-scope="related" aria-labelledby="faculty-plot-related-title" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-plot-related-title">相关交叉院系 · 高校分布</h2>
-            <p>三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。</p>
+            <p>三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。讲师不计入本图。</p>
           </div>
         </section>
         <section id="faculty-units-related" class="home-slide home-unit-slide faculty-distribution" data-faculty-scope="related" aria-labelledby="faculty-unit-related-title" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-unit-related-title">相关交叉院系 · 教师热力图</h2>
-            <p data-unit-description>每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。</p>
+            <p data-unit-description>每校一种颜色，选择高校可展开院系或研究所。颜色越深，已核实项数越多。讲师显示为淡灰空格。</p>
           </div>
         </section>
         <section id="faculty-titles" class="home-slide home-unit-slide faculty-distribution" aria-labelledby="faculty-title-map-heading" hidden>
           <div class="home-slide-title">
             <h2 id="faculty-title-map-heading">教师热力图 · 按职称</h2>
-            <p>每条记录一格，每种职称一种颜色。同一分区内颜色越深，已核实项数越多。</p>
+            <p>每种职称一种颜色，同一分区内颜色越深，已核实项数越多。讲师显示为淡灰空格。</p>
           </div>
         </section>
         <noscript><p class="empty">请启用 JavaScript 以浏览分布图。</p></noscript>
@@ -133,7 +133,7 @@
     <div class="unit-toolbar">
       <label class="unit-picker"><span class="sr-only">查看高校</span><select data-unit-school><option value="">全部高校</option></select></label>
       <label class="unit-picker"><span class="sr-only">高亮院系或研究所</span><select data-unit-group disabled><option value="">全部院系／研究所</option></select></label>
-      <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作；淡灰色空格没有教师记录">
+      <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作；淡灰空格表示讲师或没有记录">
         <span>已核实项数</span>
         <span><i data-verification-level aria-hidden="true"></i>0</span>
         <span><i data-verification-level aria-hidden="true"></i>1</span>
@@ -143,7 +143,7 @@
       </div>
     </div>
     <div data-unit-plot class="unit-plot">
-      <canvas data-unit-canvas tabindex="0" role="img" aria-label="全部高校教师热力图，每条记录一格，每所学校一种颜色。用上下键查看教师。"></canvas>
+      <canvas data-unit-canvas tabindex="0" role="img" aria-label="全部高校教师热力图，每所学校一种颜色。用上下键查看纳入核验的教师。"></canvas>
     </div>
     <div class="unit-readout">
       <span data-unit-swatch aria-hidden="true" hidden></span>

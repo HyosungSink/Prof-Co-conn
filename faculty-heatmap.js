@@ -134,6 +134,7 @@ function layoutFacultyTiles(groups, width, height, units) {
     const h = block.bottom - block.top;
     const path = facultyGridPath(w, h);
     entries.forEach((entry, index) => {
+      if (entry.score === null) return; // Keep the slot gray and out of the tile navigation.
       const [x, y] = path[index];
       // Reflect the walk so unused cells sit near the bottom-right of the block.
       const col = w >= h ? block.left + x : block.right - 1 - x;
@@ -267,16 +268,20 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
     for (const [index, unit] of school.units.entries()) {
       unit.color = facultyVerificationShades(facultyUnitColors[index % facultyUnitColors.length]);
       unit.entries = unit.rows.map(([name, score]) => ({ name, score, school, unit }));
+      unit.count = unit.entries.filter(({ score }) => score !== null).length;
     }
     school.entries = school.units.flatMap(unit => unit.entries);
+    school.unitCount = school.units.filter(unit => unit.count).length;
   }
   const groups = schoolChartGroups.flatMap(([category]) => {
-    const entries = schools.filter(school => categoryBySchool.get(school.name) === category && school.count)
-      .sort((a, b) => b.count - a.count);
-    return entries.length ? [{ entries, weight: entries.reduce((sum, school) => sum + school.count, 0) }] : [];
+    const entries = schools.filter(school => categoryBySchool.get(school.name) === category && school.entries.length)
+      .sort((a, b) => b.entries.length - a.entries.length);
+    return entries.length ? [{ entries, weight: entries.reduce((sum, school) => sum + school.entries.length, 0) }] : [];
   });
-  const allEntries = groups.flatMap(group => group.entries.flatMap(school => school.entries));
-  const unitCount = schools.reduce((sum, school) => sum + school.units.length, 0);
+  const allEntries = schools.flatMap(school => school.entries);
+  const schoolCount = schools.filter(school => school.count).length;
+  const unitCount = schools.reduce((sum, school) => sum + school.unitCount, 0);
+  const recordCount = schools.reduce((sum, school) => sum + school.count, 0);
   const instituteSchool = '中国科学院大学';
   const includedSchools = new Set(schools.map(({ name }) => name));
   addOptions(schoolPicker, survey.schools.filter(([name]) => includedSchools.has(name)));
@@ -308,9 +313,9 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
     link.textContent = inspected ? '查看该教师 ↗' : unit ? '查看该单位名录 ↗' : '查看名录 ↗';
     readout.textContent = inspected
       ? `${inspected.name} · ${school.name} · ${unit.name} · 已核实 ${inspected.score}/3 项`
-      : unit ? `${unit.name} · ${format.format(unit.rows.length)} 条记录`
-      : school ? `${school.name} · ${school.units.length} 个单位分组 · ${format.format(school.count)} 条记录`
-      : `${schools.length} 所高校 · ${unitCount} 个单位分组 · ${format.format(allEntries.length)} 块瓷砖`;
+      : unit ? `${unit.name} · ${format.format(unit.count)} 条纳入核验的记录`
+      : school ? `${school.name} · ${school.unitCount} 个单位分组 · ${format.format(school.count)} 条纳入核验的记录`
+      : `${schoolCount} 所高校 · ${unitCount} 个单位分组 · ${format.format(recordCount)} 条纳入核验的记录`;
     readout.title = readout.textContent;
   }
 
@@ -330,11 +335,11 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
     groupPicker.disabled = !selectedSchool;
     const unitType = selectedSchool?.name === instituteSchool ? '研究所' : '院系';
     description.textContent = selectedSchool
-      ? `每条记录一格，每个${unitType}一种颜色。同一分区内颜色越深，已核实项数越多。`
-      : '每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。';
+      ? `每个${unitType}一种颜色，颜色越深，已核实项数越多。讲师显示为淡灰空格。`
+      : '每校一种颜色，选择高校可展开院系或研究所。颜色越深，已核实项数越多。讲师显示为淡灰空格。';
     const scope = selectedSchool
-      ? `${selectedSchool.name}教师热力图，每条记录一格，每个${unitType}一种颜色。`
-      : '全部高校教师热力图，每条记录一格，每所学校一种颜色。';
+      ? `${selectedSchool.name}教师热力图，每个${unitType}一种颜色。`
+      : '全部高校教师热力图，每所学校一种颜色。';
     canvas.setAttribute('aria-label', `${scope}用上下键查看教师。`);
     updateReadout();
     resize();
@@ -350,7 +355,7 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
     colorsFor: entry => chartColors(entry.school, entry.unit),
     matchesSelection, inspect,
     getInspected: () => inspected,
-    keyboardEntries: () => selectedUnit?.entries || selectedSchool?.entries || allEntries,
+    keyboardEntries: () => (selectedUnit?.entries || selectedSchool?.entries || allEntries).filter(({ score }) => score !== null),
   });
   updateReadout();
 }
@@ -385,16 +390,18 @@ function renderFacultyTitles(slide) {
       for (const [name, score, title] of people) {
         const group = groups[title];
         group.entries.push({ name, score, school, unit, scope, group });
-        group.scopes.add(scope);
+        if (score !== null) group.scopes.add(scope);
       }
     }
   }
   groups.sort((a, b) => b.entries.length - a.entries.length);
-  for (const group of groups) {
-    group.entries.sort((a, b) => b.score - a.score);
-    picker.add(new Option(`${group.label}（${format.format(group.entries.length)}）`, group.name));
+  const countedGroups = groups.filter(group => group.scopes.size);
+  for (const group of countedGroups) {
+    group.inspectable = group.entries.filter(({ score }) => score !== null).sort((a, b) => b.score - a.score);
+    picker.add(new Option(`${group.label}（${format.format(group.inspectable.length)}）`, group.name));
   }
-  const allEntries = groups.flatMap(group => group.entries);
+  const allEntries = countedGroups.flatMap(group => group.inspectable);
+  const layoutGroups = groups.map(group => group.scopes.size ? group : { entries: group.entries });
   let selected = null;
   let inspected = null;
 
@@ -406,8 +413,8 @@ function renderFacultyTitles(slide) {
     legend.forEach((chip, score) => { chip.style.background = shades[score]; });
     readout.textContent = inspected
       ? `${inspected.name} · ${group.label} · ${inspected.school} · ${inspected.unit} · 已核实 ${inspected.score}/3 项`
-      : group ? `${group.label} · ${format.format(group.entries.length)} 条记录`
-      : `${groups.length} 个职称分组 · ${format.format(allEntries.length)} 条记录`;
+      : group ? `${group.label} · ${format.format(group.inspectable.length)} 条记录`
+      : `${countedGroups.length} 个职称分组 · ${format.format(allEntries.length)} 条纳入核验的记录`;
     readout.title = readout.textContent;
     const params = new URLSearchParams();
     if (group) params.set('title', group.name);
@@ -426,7 +433,7 @@ function renderFacultyTitles(slide) {
   }
 
   const { paint } = attachFacultyHeatmap(field, {
-    layoutAt: (width, height) => layoutFacultyTiles([], width, height, groups),
+    layoutAt: (width, height) => layoutFacultyTiles([], width, height, layoutGroups),
     colorsFor: entry => entry.group.shades,
     matchesSelection: entry => !selected || entry.group === selected,
     inspect: entry => {
@@ -436,10 +443,10 @@ function renderFacultyTitles(slide) {
       paint();
     },
     getInspected: () => inspected,
-    keyboardEntries: () => selected?.entries || allEntries,
+    keyboardEntries: () => selected?.inspectable || allEntries,
   });
   picker.addEventListener('change', () => {
-    selected = groups.find(group => group.name === picker.value) || null;
+    selected = countedGroups.find(group => group.name === picker.value) || null;
     inspected = null;
     updateReadout();
     paint();

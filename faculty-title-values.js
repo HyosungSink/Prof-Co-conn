@@ -52,4 +52,8 @@ function facultyTitleValues(person) {
   return values;
 }
 
+function isFacultyVerificationExempt(person) {
+  return facultyTitleValues(person).has('讲师');
+}
+
 const facultyTitleLevels = ['正高级', '副高级', '中级', '初级', '初中级'];

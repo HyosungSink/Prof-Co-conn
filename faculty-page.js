@@ -76,6 +76,7 @@ function appendFacultySources(section, top, department) {
 function appendFacultyBibliography(item, person, school, department) {
   const { name } = person;
   const [scholar, paper] = facultyBibliographyFor(person, school, department);
+  const showPending = !isFacultyVerificationExempt(person);
   const block = element('div', '', 'faculty-bibliography');
   const scholarRow = element('small', 'Google 学术：');
   if (scholar) {
@@ -84,8 +85,10 @@ function appendFacultyBibliography(item, person, school, department) {
     link.setAttribute('aria-label', `查看 ${name} 的 Google 学术主页`);
     scholarRow.append(link);
     if (identity && identity !== link.href) scholarRow.append(' · ', source('身份来源', identity));
-  } else {
+    block.append(scholarRow);
+  } else if (showPending) {
     scholarRow.append('未核实');
+    block.append(scholarRow);
   }
   const paperRow = element('small', 'CCF 论文：');
   if (paper) {
@@ -103,12 +106,12 @@ function appendFacultyBibliography(item, person, school, department) {
       reference.append(verification);
     }
     details.append(reference);
-    block.append(scholarRow, paperRow, details);
-  } else {
+    block.append(paperRow, details);
+  } else if (showPending) {
     paperRow.append('未核实');
-    block.append(scholarRow, paperRow);
+    block.append(paperRow);
   }
-  item.append(block);
+  if (block.childElementCount) item.append(block);
 }
 
 function renderFaculty() {

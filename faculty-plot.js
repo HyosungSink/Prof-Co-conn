@@ -47,7 +47,7 @@ function renderFacultyPlot(slide, schools, directory) {
   }
   slide.querySelector('[data-faculty-complete]').textContent = describe('三项齐全', allComplete, allCount);
   slide.querySelector('[data-faculty-incomplete]').textContent = describe('非三项齐全', allCount - allComplete, allCount);
-  slide.querySelector('[data-faculty-scale]').textContent = `1 个满圆 = ${recordsPerDot} 条名录记录`;
+  slide.querySelector('[data-faculty-scale]').textContent = `1 个满圆 = ${recordsPerDot} 条纳入核验的记录`;
   slide.querySelector('.faculty-plot').replaceChildren(...controls);
 }
 
