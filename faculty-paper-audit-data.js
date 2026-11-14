@@ -435,6 +435,12 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TPAMI.2024.3448620",
         "outcome": "lead",
         "note": "同组作者具名，但需判断是否与 2022 年的 HDR-NeRF 为同稿延伸，以及本项的实际企业参与时间。"
+      },
+      {
+        "title": "HumanNorm: Learning Normal Diffusion Model for High-quality and Realistic 3D Human Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_HumanNorm_Learning_Normal_Diffusion_Model_for_High-quality_and_Realistic_3D_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式论文的具名脚注说明研究在清华大学实习期间完成，作者署名也没有调查范围内的企业。"
       }
     ],
     "note": "当前仅梳理黄鑫的合作论文；仍需核对教师的完整论文清单。"
@@ -535,7 +541,8 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2606.10357",
       "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
       "https://astl.xmu.edu.cn/People.htm",
-      "https://doi.org/10.1145/3770855.3818320"
+      "https://doi.org/10.1145/3770855.3818320",
+      "https://arxiv.org/html/2608.04625"
     ],
     "papers": [
       {
@@ -549,6 +556,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2606.10357",
         "outcome": "confirmed",
         "note": "原文脚注指明 Zhuohang Jiang 的工作在快手科技实习时完成；其个人主页将 AIR 明确列在快手电商实习项下，同一时期就读香港理工大学博士。校方共同导师 Wenqi Fan、Qing Li 与快手员工周进东均列于作者栏。"
+      },
+      {
+        "title": "A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing",
+        "url": "https://arxiv.org/html/2608.04625",
+        "outcome": "existing",
+        "note": "同篇已收录。原文把快手实习脚注明确附在 Zhuohang Jiang 名下；他的个人主页把 A/B Agent 列为快手实习项目并列明两位校内共同导师。"
       }
     ]
   },
@@ -560,7 +573,8 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2611.01129",
       "https://zhuohangjiang.com/",
       "https://arxiv.org/html/2606.10357",
-      "https://astl.xmu.edu.cn/People.htm"
+      "https://astl.xmu.edu.cn/People.htm",
+      "https://arxiv.org/html/2608.04625"
     ],
     "papers": [
       {
@@ -574,6 +588,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2606.10357",
         "outcome": "confirmed",
         "note": "原文脚注指明 Zhuohang Jiang 的工作在快手科技实习时完成；其个人主页将 AIR 明确列在快手电商实习项下，同一时期就读香港理工大学博士。校方共同导师 Wenqi Fan、Qing Li 与快手员工周进东均列于作者栏。"
+      },
+      {
+        "title": "A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing",
+        "url": "https://arxiv.org/html/2608.04625",
+        "outcome": "existing",
+        "note": "同篇已收录。原文把快手实习脚注明确附在 Zhuohang Jiang 名下；他的个人主页把 A/B Agent 列为快手实习项目并列明两位校内共同导师。"
       }
     ]
   },
@@ -1148,7 +1168,10 @@ const facultyPaperAudits = {
       "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm",
       "https://aman-4-real.github.io/",
       "https://yhlleo.github.io/",
-      "https://ruc-aimind.github.io/team/"
+      "https://ruc-aimind.github.io/team/",
+      "https://alberttan.tech/about/",
+      "https://cn.linkedin.com/in/weihang-chen-180a6a2b5",
+      "https://github.com/redai-studio"
     ],
     "papers": [
       {
@@ -1168,8 +1191,469 @@ const facultyPaperAudits = {
         "url": "https://papers.nips.cc/paper_files/paper/2025/file/0706261aedab63814a2b73c32564b4c4-Paper-Conference.pdf",
         "outcome": "no-evidence",
         "note": "论文直接归属小米实习项目；小米不在当前调查名单。"
+      },
+      {
+        "title": "Pair-In, Pair-Out: Latent Multi-Token Prediction for Efficient LLMs",
+        "url": "https://arxiv.org/html/2605.27255",
+        "outcome": "confirmed",
+        "note": "小红书同团队公开 PIPO 原始署名项目与第一作者在该团队实习的证据互证。"
+      },
+      {
+        "title": "Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents",
+        "url": "https://arxiv.org/abs/2608.03327",
+        "outcome": "no-evidence",
+        "note": "学生在小红书团队的合著项目，但其校内导师宋睿华未同篇署名。"
       }
     ],
-    "note": "核对了曹乾的两项相关研究，正对课题组其他学生的成果交叉查证。"
+    "note": "核对了曹乾、Wenhui Tan 两人部分已知研究，尚未完成导师的全部论文综排。"
+  },
+  "dZJy8_8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://keg.cs.tsinghua.edu.cn/yuxiao/",
+      "https://xiao9905.github.io/AutoGLM/",
+      "https://extreme1228.github.io/extreme1228/"
+    ],
+    "papers": [
+      {
+        "title": "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework",
+        "url": "https://arxiv.org/pdf/2510.04206",
+        "outcome": "confirmed",
+        "note": "论文首页具名标注清华学生 Bowen Lv 在智谱实习期间完成此项研究，他的个人履历独立列出该篇项目；同篇作者刘潇的职务由 2025 年大会页面核实。"
+      },
+      {
+        "title": "MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents",
+        "url": "https://openreview.net/pdf?id=C3F0G9nXhl",
+        "outcome": "confirmed",
+        "note": "正式论文首页标明 Yifan Xu 为第一作者，脚注注明在智谱实习时完成部分工作；东昱晓为清华署名通讯作者，刘潇署智谱且任职已独立核实。"
+      },
+      {
+        "title": "AutoGLM: Autonomous Foundation Agents for GUIs",
+        "url": "https://arxiv.org/pdf/2411.00820",
+        "outcome": "confirmed",
+        "note": "作者项目页面具名标记 Yifan Xu 的同一论文实习和清华学籍，清华主页列出导师关系；刘潇是论文第一作者，同时期公开介绍明确称其智谱 AutoGLM 技术负责人。"
+      },
+      {
+        "title": "SCALECUA: Scaling Computer Use Agents with Verifiable Task Synthesis and Efficient Online RL",
+        "url": "https://arxiv.org/pdf/2607.11185v1",
+        "outcome": "existing",
+        "note": "已有确认证据和同导师记录，不重复计数。"
+      }
+    ],
+    "note": "已核对一部分具名博士生的企业合作工作；完整调查期题录仍待继续。"
+  },
+  "Pq4Yp_kAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.fudan.edu.cn/c5/46/c30604a443718/page.htm",
+      "https://aclanthology.org/people/xipeng-qiu/",
+      "https://junzhan2000.github.io/",
+      "https://ngc7292.github.io/",
+      "https://ngc7292.github.io/en/",
+      "https://yinzhangyue.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "VStyle: A Benchmark for Voice Style Adaptation with Spoken Instructions",
+        "url": "https://arxiv.org/pdf/2509.09716",
+        "outcome": "confirmed",
+        "note": "已确认论文、复旦师生关系、实习具名项目与阿里巴巴正式员工任职。"
+      },
+      {
+        "title": "Turn Waste into Worth: Rectifying Top-k Router of MoE",
+        "url": "https://aclanthology.org/2024.emnlp-main.739.pdf",
+        "outcome": "no-evidence",
+        "note": "虽与费朝烨在华为的研究方向相近，此篇仅有复旦与上海人工智能实验室署名；脚注明确指向后者。"
+      },
+      {
+        "title": "World-aware Planning Narratives Enhance Large Vision-Language Model Planner",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/48992045205729796194da77690a4547-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "作者名单仅见复旦、上海创智学院和上海人工智能实验室。"
+      },
+      {
+        "title": "Rethinking Label Smoothing on Multi-hop Question Answering",
+        "url": "https://aclanthology.org/2023.ccl-1.53.pdf",
+        "outcome": "lead",
+        "note": "复旦共同导师与华为正式署名已核对；尚未找到一名在读同篇学生对此项目的华为实研材料。"
+      }
+    ],
+    "note": "按学生个人履历与作者发表记录抽取并核对部分论文；全期题录仍待继续。"
+  },
+  "e-4LoEcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1145/3696630.3728552",
+      "https://asc8384.github.io/assets/pdf/Resume_ST.pdf",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1fe6f635fe265292aba3987b5123ae3d-Abstract-Conference.html",
+      "https://asc8384.github.io/",
+      "https://teacher.buaa.edu.cn/08055/zh_CN/index/42647/list/index.htm",
+      "https://arxiv.org/html/2505.17104",
+      "https://arxiv.org/abs/2406.07436",
+      "https://mceval.github.io/",
+      "https://aclanthology.org/2024.acl-long.100/"
+    ],
+    "papers": [
+      {
+        "title": "BitsAI-CR: Automated Code Review via LLM in Practice",
+        "url": "https://doi.org/10.1145/3696630.3728552",
+        "outcome": "no-evidence",
+        "note": "第一作者简历可以把论文和字节跳动实习相对应，但导师李舟军未署名。"
+      },
+      {
+        "title": "P2P: Automated Paper-to-Poster Generation and Fine-Grained Benchmark",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1fe6f635fe265292aba3987b5123ae3d-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "李舟军在同期仍是北航教师，且为署名通讯作者及该生校方导师。第一作者孙涛同期在字节跳动实习，对这项成果称为 BitsAI-P2P，论文亦列字节跳动署名；简历未明写此项目是该段企业实习成果，继续找项目归属的具体文字。"
+      },
+      {
+        "title": "McEval: Massively Multilingual Code Evaluation",
+        "url": "https://arxiv.org/abs/2406.07436",
+        "outcome": "no-evidence",
+        "note": "公开首版早于孙涛的字节跳动实习，企业研究缺少具名证据。"
+      },
+      {
+        "title": "UniCoder: Scaling Code Large Language Model via Universal Code",
+        "url": "https://aclanthology.org/2024.acl-long.100/",
+        "outcome": "lead",
+        "note": "同篇有导师和在读学生，研究时段与本人美团实习可能重叠。论文作者全部为高校，未找到同篇企业员工或企业项目证据。"
+      }
+    ]
+  },
+  "4uE10I0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/pdf/2506.04228",
+      "https://sihuiji.github.io/",
+      "https://arxiv.org/pdf/2512.14699",
+      "https://arxiv.org/html/2506.09995",
+      "https://yuanpengtu.github.io/",
+      "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao",
+      "https://ieeexplore.ieee.org/abstract/document/10559458/authors",
+      "https://openreview.net/pdf/8576828492200a77b6a51d1791f2e5e21da22d2c.pdf",
+      "https://hub.hku.hk/bitstream/10722/370044/1/content.pdf?accept=1",
+      "https://doi.org/10.1145/3721238.3730647",
+      "https://arxiv.org/html/2510.13809",
+      "https://www.xtao.website/",
+      "https://sihuiji.github.io/PhysMaster-Page/",
+      "https://arxiv.org/html/2501.02048",
+      "https://hub.hku.hk/handle/10722/370046",
+      "https://arxiv.org/html/2412.14168",
+      "https://arxiv.org/html/2603.21002"
+    ],
+    "papers": [
+      {
+        "title": "LayerFlow: A Unified Model for Layer-aware Video Generation",
+        "url": "https://arxiv.org/pdf/2506.04228",
+        "outcome": "existing",
+        "note": "已收录。本人主页和作品的具名实习脚注已核对。"
+      },
+      {
+        "title": "MemFlow: Flowing Adaptive Memory for Consistent and Efficient Long Video Narratives",
+        "url": "https://arxiv.org/pdf/2512.14699",
+        "outcome": "existing",
+        "note": "已收录。本人主页和作品的具名实习脚注已核对。"
+      },
+      {
+        "title": "PlayerOne: Egocentric World Simulator",
+        "url": "https://arxiv.org/html/2506.09995",
+        "outcome": "confirmed",
+        "note": "NeurIPS 论文在第一作者 Yuanpeng Tu 处注明论文工作在阿里巴巴达摩院实习期间完成，致谢也确认为达摩院实习项目。其个人主页证实当时学籍及博士导师赵恒爽，论文同列赵恒爽和阿里巴巴员工 Hao Luo。"
+      },
+      {
+        "title": "VideoAnydoor: High-fidelity Video Object Insertion with Precise Motion Control",
+        "url": "https://hub.hku.hk/bitstream/10722/370044/1/content.pdf?accept=1",
+        "outcome": "confirmed",
+        "note": "港大保存的 SIGGRAPH 正式论文实名注明由 Yuanpeng Tu 在阿里巴巴达摩院实习期间完成。其本人主页证实在港大读博和导师赵恒爽，同篇作者 Hao Luo 的同期任职资料与达摩院署名一致。"
+      },
+      {
+        "title": "PhysMaster: Mastering Physical Representation for Video Generation via Reinforcement Learning",
+        "url": "https://arxiv.org/html/2510.13809",
+        "outcome": "confirmed",
+        "note": "原文注明在快手可灵实习期间完成，第一作者 Sihui Ji 本人主页明确列 2025 年可灵实习及港大博士学籍与导师。赵恒爽和快手可灵员工 Xin Tao 均为本篇作者。"
+      },
+      {
+        "title": "DreamMask: Boosting Open-vocabulary Panoptic Segmentation with Synthetic Data",
+        "url": "https://arxiv.org/html/2501.02048",
+        "outcome": "no-evidence",
+        "note": "同期达摩院实习和校方导师均可核，但原文没有标签指明该研究在达摩院完成，也未找到同篇阿里巴巴员工。"
+      },
+      {
+        "title": "FashionComposer: Compositional Fashion Image Generation",
+        "url": "https://hub.hku.hk/handle/10722/370046",
+        "outcome": "lead",
+        "note": "同篇有港大导师、在读学生及阿里巴巴员工，时间与达摩院实习吻合。所查的预印本没有给出项目实习脚注，需查出版版本。"
+      },
+      {
+        "title": "SURF: Signature-Retained Fast Video Generation",
+        "url": "https://arxiv.org/html/2603.21002",
+        "outcome": "lead",
+        "note": "同篇含快手人员和在读学生；两版预印本都未见该生在快手完成这篇的明确说明。"
+      }
+    ]
+  },
+  "DDXcKKcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/mjx/index.htm",
+      "https://emanual20.github.io/",
+      "https://cn.linkedin.com/in/ruidong-han-a3232a148",
+      "https://orcid.org/0009-0004-1671-5016"
+    ],
+    "papers": [
+      {
+        "title": "Beyond Persuasiveness: A User-Centric Evaluation Framework of Explanations for Food Recommendation",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-21300-6_41",
+        "outcome": "confirmed",
+        "note": "ECIR 同篇实习脚注，结合研究期学籍、实习与毕业后变更的署名单位。"
+      },
+      {
+        "title": "Aligning Explanations for Recommendation with Rating and Feature via Maximizing Mutual Information",
+        "url": "https://doi.org/10.1145/3627673.3679663",
+        "outcome": "lead",
+        "note": "与孙一丁的美团实习吻合，同项目具名作者，待确认这篇 CIKM 的公开归属说明。"
+      },
+      {
+        "title": "BaichuanSEED: Sharing the Potential of ExtensivE Data Collection and Deduplication by Introducing a Competitive Large Language Model Baseline",
+        "url": "https://arxiv.org/abs/2408.15079",
+        "outcome": "no-evidence",
+        "note": "孙一丁列百川智能实习，百川不在企业调查名单。"
+      }
+    ],
+    "note": "核对了孙一丁本人列出的一部分成果，未完成毛佳昕的完整公开题录。"
+  },
+  "4tku-lwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm",
+      "https://www.toutiao.com/article/7688899252721943103/",
+      "https://www.wangyunhe.site/"
+    ],
+    "papers": [
+      {
+        "title": "UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zuo_UFineBench_Towards_Text-based_Person_Retrieval_with_Ultra-fine_Granularity_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "左嘉龙在华为的同篇实习注、校内教师和企业雇员已确认。"
+      },
+      {
+        "title": "PLIP: Language-Image Pre-training for Person Representation Learning",
+        "url": "https://arxiv.org/abs/2305.08386",
+        "outcome": "lead",
+        "note": "同一师生合著，但尚未找出校内导师、企业正式员工与本篇明确企业实习归属三项同证。"
+      }
+    ],
+    "note": "已核对左嘉龙部分论文，未完成高常鑫的全部题录。"
+  },
+  "urC8meQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/wxt/index.htm",
+      "https://curryxiaohu.github.io/",
+      "https://github.com/SKURA502/ProtoTS"
+    ],
+    "papers": [
+      {
+        "title": "Unlocking Implicit Experience: Synthesizing Tool-Use Trajectories from Text",
+        "url": "https://aclanthology.org/2026.acl-long.452.pdf",
+        "outcome": "lead",
+        "note": "许志豪在美团 LongCat 实习的同篇脚注和在读材料齐全；未找到王希廷具名为其校内导师的原始来源。"
+      },
+      {
+        "title": "ProtoTS: Learning Hierarchical Prototypes for Explainable Time Series Forecasting",
+        "url": "https://arxiv.org/html/2509.23159",
+        "outcome": "lead",
+        "note": "第一作者在阿里达摩期间研究有具名脚注，王希廷的校内指导角色缺独立证据。"
+      },
+      {
+        "title": "Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework",
+        "url": "https://aclanthology.org/2026.findings-acl.944/",
+        "outcome": "lead",
+        "note": "有阿里合著；尚不能把任一具体校内学生、指导教师与同篇实习三者绑定。"
+      }
+    ],
+    "note": "核对了若干校企候选，未完成王希廷的全部题录。"
+  },
+  "Qddov9wAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://lxie.npu-aslp.org/en/",
+      "https://dblp.org/pid/25/4011-2.html",
+      "https://asru2023.xlog.com.tw/motion.asp?menuid=49654&postid=697219&siteid=1007526"
+    ],
+    "papers": [
+      {
+        "title": "MFCCA: Multi-Frame Cross-Channel Attention for Multi-Speaker ASR in Multi-Party Meeting Scenario",
+        "url": "https://doi.org/10.1109/SLT54892.2023.10022715",
+        "outcome": "confirmed",
+        "note": "正式会议论文发表于 2023 年 1 月。论文致谢、同期阿里语音实验室技术报告和学位论文名单可交叉核对。"
+      },
+      {
+        "title": "The Second Multi-Channel Multi-Party Meeting Transcription Challenge (M2MeT 2.0): A Benchmark for Speaker-Attributed ASR",
+        "url": "https://asru2023.xlog.com.tw/motion.asp?menuid=49654&postid=697219&siteid=1007526",
+        "outcome": "lead",
+        "note": "该届于 2023 年底发表，原文列俞帆为阿里达摩院作者；需核对该届研究阶段是否早于毕业，或另找在读参与者。"
+      },
+      {
+        "title": "BA-MoE: Boundary-Aware Mixture-of-Experts Adapter for Code-Switching Speech Recognition",
+        "url": "https://arxiv.org/abs/2310.02629",
+        "outcome": "lead",
+        "note": "校企共同署名。西工大学生是否参与对应的华为研究仍待核对。"
+      },
+      {
+        "title": "An Exploration of Task-Decoupling on Two-Stage Neural Post Filter for Real-Time Personalized Acoustic Echo Cancellation",
+        "url": "https://arxiv.org/abs/2310.04715",
+        "outcome": "lead",
+        "note": "同篇含西工大与字节跳动作者，校内指导和学生参与企业项目的具名证据待查。"
+      }
+    ],
+    "note": "先梳理阿里会议语音项目及部分校企合著。继续核查谢磊的完整论文清单。"
+  },
+  "EM-l50cAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://zheng-kai.com/",
+      "https://thisislegit.github.io/",
+      "https://frakeyc.github.io/",
+      "https://www.news.uestc.edu.cn/?Id=94073&n=UestcNews.Front.DocumentV2.ArticlePage"
+    ],
+    "papers": [
+      {
+        "title": "LEON: A New Framework for ML-Aided Query Optimization",
+        "url": "https://www.vldb.org/pvldb/vol16/p2261-chen.pdf",
+        "outcome": "lead",
+        "note": "论文明确列陈旭在华为云 DWS 实习。本人的硕士、博士导师不同，2023 年项目发生时郑凯是否已指导他仍待直接材料。"
+      },
+      {
+        "title": "BASE: Bridging the Gap between Cost and Latency for Query Optimization",
+        "url": "https://www.vldb.org/pvldb/vol16/p1958-chen.pdf",
+        "outcome": "lead",
+        "note": "原文确认阿里巴巴同篇作者。陈旭个人主页确认在阿里达摩院的经历，该论文和实习的具体对应关系仍待核实。"
+      },
+      {
+        "title": "ESTELLE: An Efficient and Cost-effective Cloud Log Engine",
+        "url": "https://doi.org/10.1145/3626246.3653387",
+        "outcome": "lead",
+        "note": "论文与华为云技术解读确认合作成果；学生的具名指导和参与企业工作的依据待补。"
+      },
+      {
+        "title": "LEON+: towards robust ML-aided query optimization",
+        "url": "https://zheng-kai.com/paper/2026_vldbj_chen.pdf",
+        "outcome": "lead",
+        "note": "需核查论文是哪篇的扩展稿，并核实学生对相应企业工作的参与依据。"
+      },
+      {
+        "title": "A Database-Agnostic Cost Estimator",
+        "url": "https://zheng-kai.com/paper/icde_2024_liang.pdf",
+        "outcome": "lead",
+        "note": "待补学生具体参与企业研究的证据。"
+      },
+      {
+        "title": "DBAgent: An RL-Based Agent for Autonomous Database Operations and Maintenance",
+        "url": "https://www.vldb.org/pvldb/vol19/p3928-chen.pdf",
+        "outcome": "existing",
+        "note": "原文与华为云生产部署材料已被关系索引引用。"
+      },
+      {
+        "title": "Optimizing Block Skipping for High-Dimensional Data with Learned Adaptive Curve",
+        "url": "https://doi.org/10.1145/3709710",
+        "outcome": "existing",
+        "note": "原文明确标注陈旭在华为云实习，电子科大同期公告确认博士生身份。"
+      },
+      {
+        "title": "Efficient High-Dimensional Time Series Forecasting with Transformers: A Channel Reordering Perspective",
+        "url": "https://doi.org/10.1145/3774904.3792392",
+        "outcome": "existing",
+        "note": "原文脚注直接注明方雨晨在字节跳动完成该工作。"
+      }
+    ],
+    "note": "当前优先核对该校数据库优化、时序预测论文，以及学生在读、实习、导师三个时间段。"
+  },
+  "Hsff1lcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/ZhouZhi",
+      "https://warpmatrix.github.io/",
+      "https://www.usenix.org/conference/osdi24/poster-session"
+    ],
+    "papers": [
+      {
+        "title": "Injecting Adrenaline into LLM Serving: Boosting Resource Utilization and Throughput via Attention Disaggregation",
+        "url": "https://arxiv.org/abs/2503.20552",
+        "outcome": "existing",
+        "note": "已收录中山大学与华为云的关系。"
+      },
+      {
+        "title": "PipeDecode: Efficient LLM Inference using Pipelines within Decoding",
+        "url": "https://www.usenix.org/conference/osdi24/poster-session",
+        "outcome": "lead",
+        "note": "会议官网仅列海报及作者，学生确认博士阶段与华为云左鹏飞研究推理。需补能将特定成果与企业实习对应的独立材料。"
+      },
+      {
+        "title": "Laser: Unlocking Layer-Level Scheduling for Efficient Multi-SLO LLM Serving",
+        "url": "https://doi.org/10.1145/3774934.3786413",
+        "outcome": "no-evidence",
+        "note": "会议正式资料列全体作者为中山大学。现有资料未见调查范围内的企业研究者同篇。"
+      }
+    ],
+    "note": "已核对梁云凯公开发表的部分论文与博士阶段华为云实习，教师完整清单仍待梳理。"
+  },
+  "s_zdg_IAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/ChenChuan",
+      "https://dblp.org/pid/116/8489-1.html",
+      "https://github.com/SKYLENAGE-AI/SWE-CI"
+    ],
+    "papers": [
+      {
+        "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+        "url": "https://arxiv.org/html/2603.03823v1",
+        "outcome": "lead",
+        "note": "首版明确列陈家龙在阿里巴巴实习完成本项工作，陈川同篇署名。需补陈川对此学生的具名指导依据。"
+      }
+    ],
+    "note": "已核对 SWE-CI 首版署名和实习脚注，继续查陈川的其他论文及具名指导依据。"
+  },
+  "nGDBb0kAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://faculty.uestc.edu.cn/caishimin/zh_CN/index.htm",
+      "https://faculty.swjtu.edu.cn/huzheng12/zh_CN/index.htm",
+      "https://kdd2026.kdd.org/papers/"
+    ],
+    "papers": [
+      {
+        "title": "Stop Treating Collisions Equally: Qualification-Aware Semantic ID Learning for Recommendation at Industrial Scale",
+        "url": "https://arxiv.org/pdf/2603.00632v1",
+        "outcome": "lead",
+        "note": "可确认胡铮在电子科大就读及在快手完成本项工作；蔡世民在同期另一篇论文指导过该生，但本篇对应指导仍待核实。"
+      }
+    ],
+    "note": "优先梳理胡铮与蔡世民共同署名的推荐系统研究。"
   }
 };
