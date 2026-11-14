@@ -36192,6 +36192,59 @@ const survey = {
         ]
       ],
       "evidence": "IEEE 的登记资料将第一作者王霖、通讯作者胡燏翀及合作者冯丹列于华中科大，董如良列于华为。华中科大实验室报道具名说明，王霖在胡燏翀、秦磊华、冯丹指导下，和华为研发了同篇论文的 ReoDedup；华为的数据重删专利申请也列胡燏翀、王霖与董如良共同发明。"
+    },
+    {
+      "id": "bytedance-tokadb-hust-dan-feng",
+      "paperId": "doi:10.1145/3788853.3803078",
+      "title": "TokaDB: A Unified Storage Engine for Training-Serving Data Management in Large Recommendation Models",
+      "short": "TokaDB",
+      "date": "2026-05-30",
+      "venue": "ACM SIGMOD 2026 · Industry",
+      "area": "推荐模型存储系统",
+      "company": "字节跳动",
+      "team": "数据存储研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "冯丹 · Dan Feng",
+        "华中科技大学教授，校方实验室具名列为该研究的指导教师；为 ACM 正式论文作者。",
+        "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Cheng Chen",
+        "ACM 正式论文署名 ByteDance，同期会议项目及报告人介绍明确其任字节跳动 ByteGraph 技术负责人。",
+        "https://seucoin.github.io/workshop/llmg2025/file/talkinfo.pdf"
+      ],
+      "student": [
+        "郭柯磊 · Kelei Guo",
+        "该篇论文作者，校方具名证实其在华中科技大学攻读博士期间与字节跳动共同研发 TokaDB，并在字节跳动生产环境验证。",
+        "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2025&wbtreeid=1046"
+      ],
+      "advising": [
+        "该项研究的具名指导",
+        "华中科技大学实验室公开记录郭柯磊在冯丹、王芳与方鹏共同指导下开展该研究。",
+        "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2025&wbtreeid=1046"
+      ],
+      "paper": "https://doi.org/10.1145/3788853.3803078",
+      "extra": [
+        [
+          "ACM SIGMOD 正式会议作者与机构",
+          "https://sigmodconf.hosting.acm.org/2026/sigmod_program_detailed.shtml"
+        ],
+        [
+          "ACM 出版登记（含作者机构）",
+          "https://api.crossref.org/works/10.1145/3788853.3803078"
+        ],
+        [
+          "字节跳动火山引擎公开介绍本项研发",
+          "https://developer.volcengine.com/articles/7655011728837836819"
+        ],
+        [
+          "同期 VLDB 研讨会的字节跳动研究人员档案",
+          "https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/LLM%2BGraph/LLMGraph-1.pdf"
+        ]
+      ],
+      "evidence": "ACM 的 DOI 登记将冯丹、郭柯磊列于华中科技大学，Cheng Chen 列于字节跳动。学校具名说明郭柯磊是参与该项目的博士生，并由冯丹等指导，与字节跳动共同开发并在其生产环境部署。字节跳动火山引擎也公开说明同一项目的技术与生产应用。"
     }
   ]
 };

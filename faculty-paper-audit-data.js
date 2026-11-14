@@ -25473,7 +25473,7 @@ const facultyPaperAudits = {
   "BFzFy1YAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://collegeai.tsinghua.edu.cn/en/People/Full_time_PI/Alex_Lamb.htm",
       "https://collegeai.tsinghua.edu.cn/kxyj/ktzjs/Lamb_Lab.htm",
@@ -25482,7 +25482,11 @@ const facultyPaperAudits = {
       "https://www.alphaxiv.org/@alex-lamb",
       "https://liuhanzuo.github.io/",
       "https://people.iiis.tsinghua.edu.cn/~gaomy/students.html",
-      "https://aquahorsem.github.io/"
+      "https://aquahorsem.github.io/",
+      "https://mila.quebec/en/directory/alex-lamb",
+      "https://orcid.org/0000-0003-0779-1733",
+      "https://yks23.github.io/publications/",
+      "https://haru-lcy.github.io/"
     ],
     "papers": [
       {
@@ -25577,7 +25581,7 @@ const facultyPaperAudits = {
         "note": "2025 年：ICLR 正式稿与曾用名 Learning to Achieve Goals with Belief State Transformers 的 arXiv:2410.23506 合并；作者署 Microsoft Research、宾夕法尼亚大学、UT Austin 和 Alberta。"
       },
       {
-        "title": "Cache the Encoder Within:Compact, Reusable Memory across LLM Queries",
+        "title": "Cache the Encoder Within: Compact, Reusable Memory across LLM Queries",
         "year": 2026,
         "url": "https://arxiv.org/abs/2610.10058",
         "outcome": "no-evidence",
@@ -25609,7 +25613,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://doi.org/10.48550/arXiv.2604.03340",
         "outcome": "no-evidence",
-        "note": "2026 年：预印本有微软研究院、清华与武汉大学，微软不在范围内。"
+        "note": "2026 年：预印本有CoRL 2026 与预印本同篇； arXiv 原文署微软研究院、清华与武汉大学，微软不在范围内。"
       },
       {
         "title": "Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models",
@@ -25637,7 +25641,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/abs/2609.32665",
         "outcome": "lead",
-        "note": "2026 年：马钦伟自述导师为 Alex Lamb，也注明 2026 年 2 至 8 月腾讯混元视频世界模型组实习。本篇 9 月公开，论文当前版本没有腾讯署名或实习脚注，待补本篇项目及同篇腾讯员工。"
+        "note": "2026 年：马钦伟自述导师为 Alex Lamb，也注明 2026 年 2 至 8 月腾讯混元视频世界模型组实习。本篇 9 月公开，arXiv 初稿还具名普林斯顿大学 Mengdi Wang，10 月修订去掉该位合作者；两版均未署腾讯或标注实习项目，同篇企业参与仍待核。"
       },
       {
         "title": "VoidPadding: Let [VOID] Handle Padding in Masked Diffusion Language Models so that [EOS] Can Focus on Semantic Termination",
@@ -25656,7 +25660,7 @@ const facultyPaperAudits = {
       {
         "title": "Adaptive Discrete Communication Bottlenecks with Dynamic Vector Quantization for Heterogeneous Representational Coarseness",
         "year": 2023,
-        "url": "https://doi.org/10.1609/aaai.v37i7.26061",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26061",
         "outcome": "no-evidence",
         "note": "2023 年：AAAI 正式论文作者署 Mila、Google Research Brain Team、NUS，另列 CIFAR AI Chair；未见范围内企业。"
       },
@@ -25679,7 +25683,7 @@ const facultyPaperAudits = {
         "year": 2024,
         "url": "https://doi.org/10.48550/arXiv.2404.14552",
         "outcome": "no-evidence",
-        "note": "2024 年：同一预印本正文另用 Generalizing Inverse Kinematics for Representation Learning to Finite Memory POMDPs 的行标题。其机构脚注署 Microsoft Research New York、NYU、DreamFold、Mila、Meta，均不在范围。"
+        "note": "2024 年：与 2023 年 NeurIPS GenPlan 研讨会同一作者组的 Agent-Centric State Discovery for Finite-Memory POMDPs 合并；正文结论与实验对象一致。预印本正文亦见 Generalizing Inverse Kinematics for Representation Learning to Finite Memory POMDPs 的行标题。其机构脚注署 Microsoft Research New York、NYU、DreamFold、Mila、Meta，均不在范围。"
       },
       {
         "title": "Towards Improving Exploration through Sibling Augmented GFlowNets",
@@ -25703,7 +25707,7 @@ const facultyPaperAudits = {
         "note": "2026 年：TMLR 正式题录与同题评审稿、作者项目 lp-dreamer 合并。第一作者 Zarif Ikram 本人履历说明此前在 NUS 随 Dianbo Liu 研究世界模型，其后来赴微软的实习不形成范围内关系；未见同篇范围内企业。"
       }
     ],
-    "note": "已逐篇核查 31 篇。本人、清华研究组、DBLP 和 arXiv 按题名、署名、版本记录交叉。清华学校档案确定 2025 年 6 月开始任教；用同期身份判断。候选去重：更名预印本按同一 arXiv ID 归并，正式出版记录优先；核对两条尚缺证据的腾讯线索。"
+    "note": "已逐篇核查 31 篇。本人、清华研究组、Mila 官方档案、DBLP、arXiv 和具名合作者公开书目按题名、署名、版本记录交叉。ORCID 记录只用于身份核对，没有工作条目。清华学校档案确定 2025 年 6 月开始任教；用同期身份判断。候选去重：更名预印本按同一 arXiv ID 归并，正式出版记录优先；公开书目逐篇已核毕；当中两条候选关系证据尚不足，仍标待补。"
   },
   "WxAIZtMAAAAJ": {
     "from": "2023-01-01",
@@ -26173,7 +26177,10 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://storage.hust.edu.cn/xsdt/11.htm",
-      "https://patentimages.storage.googleapis.com/c3/1c/bd/d6639c403dfd5b/CN119512439A.pdf"
+      "https://patentimages.storage.googleapis.com/c3/1c/bd/d6639c403dfd5b/CN119512439A.pdf",
+      "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm",
+      "https://stlab.wnlo.hust.edu.cn/nr.jsp?urltype=news.NewsContentUrl&wbnewsid=2025&wbtreeid=1046",
+      "https://seucoin.github.io/workshop/llmg2025/file/talkinfo.pdf"
     ],
     "papers": [
       {
@@ -26182,6 +26189,13 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "confirmed",
         "note": "华中科大公开报道具名列冯丹与通讯作者胡燏翀等为王霖开展 ReoDedup 的指导教师。同篇华为合作关系在索引中只计一条。"
+      },
+      {
+        "title": "TokaDB: A Unified Storage Engine for Training-Serving Data Management in Large Recommendation Models",
+        "url": "https://doi.org/10.1145/3788853.3803078",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "ACM 的 DOI 登记将冯丹、郭柯磊列于华中科技大学，Cheng Chen 列于字节跳动。学校具名说明郭柯磊是参与该项目的博士生，并由冯丹等指导，与字节跳动共同开发并在其生产环境部署。字节跳动火山引擎也公开说明同一项目的技术与生产应用。"
       }
     ]
   }
