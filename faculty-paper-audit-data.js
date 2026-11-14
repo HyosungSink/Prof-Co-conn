@@ -13875,7 +13875,15 @@ const facultyPaperAudits = {
       "https://iai.buaa.edu.cn/info/1131/1745.htm",
       "https://developer.volcengine.com/articles/7389112553802039315",
       "https://colalab.net/media/paper/Room-Object_Entity_Prompting_and_Reasoning_for_Embodied_Referring_Expression.pdf",
-      "https://arxiv.org/abs/2411.04406"
+      "https://arxiv.org/abs/2411.04406",
+      "https://www.ijcai.org/proceedings/2023/0099.pdf",
+      "https://dzh19990407.github.io/",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/25137/24909",
+      "https://www.ijcai.org/proceedings/2023/99",
+      "https://ijcai-23.org/call-for-papers/",
+      "https://iai.buaa.edu.cn/info/1021/1116.htm",
+      "https://arxiv.org/html/2311.01091v1",
+      "https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Vasluianu_NTIRE_2023_Image_Shadow_Removal_Challenge_Report_CVPRW_2023_paper.pdf"
     ],
     "papers": [
       {
@@ -13883,6 +13891,13 @@ const facultyPaperAudits = {
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/37611b0fc2b65cdbb60865af5f6cf453-Abstract-Conference.html",
         "outcome": "confirmed",
         "note": "NeurIPS 正式论文在共同一作 Luting Wang 的北航署名处附字节跳动实习脚注。北航刘偲课题组确认为同一邮箱的博士生，论文中刘偲为学术通讯作者。字节跳动研究人员 Bingyi Kang 署企业邮箱并被该论文指定为项目负责人。"
+      },
+      {
+        "title": "Enriching Phrases with Coupled Pixel and Object Contexts for Panoptic Narrative Grounding",
+        "url": "https://www.ijcai.org/proceedings/2023/0099.pdf",
+        "outcome": "confirmed",
+        "note": "丁子涵公开履历具名披露北航博士导师刘偲，以及 2021 年 9 月至 2023 年 6 月在美团做多模态理解与生成、由 Junshi Huang 指导的实习。IJCAI 2023 正式原文确认为同一多模态项目，丁子涵同时署北航与美团，刘偲署北航，Junshi Huang 署美团且为通讯作者；正式会议 2023 年 1 月收稿、4 月录用，均落在具名企业实习期间。同期 AAAI 作者信息独立给出该通讯作者的美团署名和企业邮箱。",
+        "year": 2023
       }
     ]
   },
@@ -41393,7 +41408,11 @@ const facultyPaperAudits = {
       "https://geometrylearning.com/stylizedgs/",
       "https://vipl-epp.github.io/publications/",
       "https://shiliang26.github.io/",
-      "https://masterweaver.github.io/"
+      "https://masterweaver.github.io/",
+      "https://iip.ict.ac.cn/yjspy/xs/zdsss/",
+      "https://iip.ict.ac.cn/yjspy/ryjjl/xshjsw/",
+      "https://jiezhang010.github.io/members/",
+      "https://robin-wzq.github.io/"
     ],
     "papers": [
       {
@@ -41401,14 +41420,14 @@ const facultyPaperAudits = {
         "title": "SHALE: A Scalable Benchmark for Fine-grained Hallucination Evaluation in LVLMs",
         "url": "https://doi.org/10.1145/3746027.3758308",
         "outcome": "lead",
-        "note": "ACM 原文列 Jiahao Wang、Xiaozhen Wang 为华为可信技术与工程实验室，计算所 VIPL 官方名单用论文同一邮箱确证第一作者 Bei Yan 是山世光 2023 级硕士；未见其在华为完成本研究的具名说明。"
+        "note": "ACM 原文列 Jiahao Wang、Xiaozhen Wang 为华为可信技术与工程实验室，计算所 VIPL 官方名单用论文同一邮箱确证第一作者 严贝（Bei Yan） 是山世光 2023 级硕士；未见其在华为完成本研究的具名说明。"
       },
       {
         "year": 2026,
         "title": "A Survey of Multimodal Hallucination Evaluation and Detection",
         "url": "https://link.springer.com/article/10.1007/s11263-026-02756-9",
         "outcome": "lead",
-        "note": "IJCV 正式版和 arXiv:2507.19024 作者对应，同篇两名华为作者与山世光硕士生 Bei Yan。致谢只列科研项目，未见学生在华为实研或共同一作在华为实习证据。"
+        "note": "IJCV 正式版和 arXiv:2507.19024 作者对应，同篇两名华为作者与山世光硕士生严贝（Bei Yan）。致谢只列科研项目，未见学生在华为实研或共同一作在华为实习证据。"
       },
       {
         "year": 2026,
@@ -41520,7 +41539,7 @@ const facultyPaperAudits = {
         "title": "DeepBias: Adaptive In-depth Probing of Social Biases in LVLMs",
         "url": "https://arxiv.org/html/2607.11228",
         "outcome": "lead",
-        "note": "论文履历明确Songkai Xue与 Jiahao Wang 在华为 2012 实验室，Anqi Li、Zhongqi Wang 为计算所在读博士；尚未找到个体导师关系与学生在华为参与本工作的直接证据。"
+        "note": "原文作者履历确证华为 2012 实验室Songkai Xue、Jiahao Wang 和两名计算所在读博士。计算所正式名单证实王中琦读硕士时的导师是同篇张杰，博士阶段两名学生都出现在张杰团队名单；未见山世光本人指导，也未见在读者在华为参与本研究的直接证据。"
       },
       {
         "year": 2025,
@@ -41626,6 +41645,20 @@ const facultyPaperAudits = {
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320324010501",
         "outcome": "no-evidence",
         "note": "正式 RFFR 与作者亲自链接的 2023 预印本相同，正式版新增两名曾公开署名好未来的作者；该公司不在 14 家内。首作者公开履历未列在好未来做该文。"
+      },
+      {
+        "year": 2026,
+        "title": "ACT Now: Preempting LVLM Hallucinations via Adaptive Context Integration",
+        "url": "https://arxiv.org/pdf/2604.00983",
+        "outcome": "no-evidence",
+        "note": "公开全文第一作者是见于计算所名单的严贝，五位作者均双署计算所、国科大。与独立的 SHALE 基准不同，本项只核得校内合著。"
+      },
+      {
+        "year": 2026,
+        "title": "INFACT: A Diagnostic Benchmark for Induced Faithfulness and Factuality Hallucinations in Video-LLMs",
+        "url": "https://aclanthology.org/2026.acl-long.2062/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式 PDF 署中科院计算所及国科大交叉科学学院；无范围企业，合并 arXiv:2603.11481。"
       }
     ],
     "note": "结合 DBLP、国科大教师页、计算所实验室书目与正式原文，合并重复版本。三篇华为合作论文暂存线索，尚缺在读生逐篇华为实研证据。书目梳理中。"
@@ -41980,7 +42013,10 @@ const facultyPaperAudits = {
       "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/12150?yxsh=28",
       "https://diggers.ai/people/",
       "https://dblp.org/pid/54/7057.html",
-      "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_21"
+      "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_21",
+      "https://synps26.github.io/",
+      "https://wfanyue.github.io/",
+      "https://zhenyangli.github.io/"
     ],
     "papers": [
       {
@@ -42066,8 +42102,369 @@ const facultyPaperAudits = {
         "url": "https://2026.acmmm.org/site/technical-programme.html",
         "outcome": "no-evidence",
         "note": "ACM Multimedia 官方议程 Poster-Wm-K9 列出了五名作者及各自单位：电子科技大学和浙江大学。"
+      },
+      {
+        "title": "Unsupervised Domain Adaptation for Optical Flow Estimation",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-99-8435-0_4",
+        "year": 2023,
+        "note": "Springer 记录 2023 年 12 月上线，作者均属电子科技大学深圳高等研究院。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Multi-modal Instance Refinement for Cross-Domain Action Recognition",
+        "url": "https://arxiv.org/html/2311.14281",
+        "year": 2023,
+        "note": "原文包括中国联通深圳分公司；联通不在 14 家企业范围；论文集版归并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "The Devil is in Attention Sharing: Improving Complex Non-rigid Image Editing Faithfulness via Attention Synergy",
+        "url": "https://arxiv.org/html/2512.14423v1",
+        "year": 2025,
+        "note": "CVPR 2026 对应同作；原始项目页面列出完整机构，仅电子科技大学与新加坡国立大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ResCLIP: Residual Attention for Training-free Dense Vision-language Inference",
+        "url": "https://arxiv.org/html/2411.15851v1",
+        "year": 2024,
+        "note": "四名作者均署电子科技大学；与 CVPR 2025 同题同作者正式版归并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "S-INF: Towards Realistic Indoor Scene Synthesis via Scene Implicit Neural Field",
+        "url": "https://arxiv.org/html/2412.17561v1",
+        "year": 2024,
+        "note": "首面两处作者单位均属电子科技大学，未发现范围内企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Semantic segmentation with reward",
+        "url": "https://arxiv.org/html/2505.17905v1",
+        "year": 2025,
+        "note": "原文列电子科技大学和深圳高等研究院为作者单位，未发现范围企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Tuning-Free Adaptive Style Incorporation for Structure-Consistent Text-Driven Style Transfer",
+        "url": "https://arxiv.org/html/2404.06835v1",
+        "year": 2024,
+        "note": "作者单位包括电子科技大学、南方科技大学和 vivo；vivo 不在项目范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Simultaneous Detection and Interaction Reasoning for Object-Centric Action Recognition",
+        "url": "https://arxiv.org/html/2404.11903v1",
+        "year": 2024,
+        "note": "论文首面仅列电子科技大学与新加坡国立大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Learning Semantic Latent Directions for Accurate and Controllable Human Motion Prediction",
+        "url": "https://arxiv.org/html/2407.11494v1",
+        "year": 2024,
+        "note": "作者全部属电子科技大学；该 2024 研究与次年含腾讯署名的 OmniMotion-X 是不同作品。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Beyond Viewpoint: Robust 3D Object Recognition under Arbitrary Views through Joint Multi-Part Representation",
+        "url": "https://arxiv.org/html/2407.03842v1",
+        "year": 2024,
+        "note": "首作者双署电子科技大学及 vivo；vivo 不在 14 家范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03967.pdf",
+        "year": 2024,
+        "note": "同篇百度共同作者为魏凡越具名的百度实习指导者；学生履历列李文与段立新为共同导师。两位教师均在现有关系索引中，共用一条论文关系。",
+        "outcome": "existing"
       }
     ],
     "note": "以电子科技大学研究生导师目录、课题组主页和出版社作者身份交叉核对，再逐篇查看正式版、原文或会议的完整作者栏。本批只覆盖已直接核对的作品。"
+  },
+  "mEjhz-IAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://zhuotaotian.github.io/",
+      "https://www.slai.edu.cn/en/teacher/226",
+      "https://dblp.org/pid/243/7181.html"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
+        "url": "https://proceedings.mlr.press/v306/jiao26g.html",
+        "outcome": "lead",
+        "note": "ICML PMLR 正式和 arXiv 2607.20467 同篇，已确认 Huawei Noah’s Ark Lab 的 Hui-Ling Zhen 与哈工大多位作者该项目同篇。无具名学生在华为共同开展本项目的证据；Dynamic-dLLM 的另一篇实习脚注不能移用。"
+      },
+      {
+        "year": 2026,
+        "title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
+        "url": "https://openreview.net/forum?id=SdnkB5pGbq",
+        "outcome": "lead",
+        "note": "ICLR 正式与 arXiv 2606.26120 同篇。首页脚注明示 Tianyi Wu 在华为 CBG Celia DeviceAI Team 实习完成；华为同篇曹云浩由原博士导师吴建鑫的南大毕业名单证实 2024 后任职华为南研所。田倬韬为通讯，但独立资料目前只明确另一位共一作 Xiaoxi Sun 受其博士指导；不能把 Xiaoxi 的师承移给 Tianyi，亦不能把 Tianyi 的项目实习移给 Xiaoxi。"
+      },
+      {
+        "year": 2026,
+        "title": "HiconAgent: History Context-aware Policy Optimization for GUI Agents",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_HiconAgent_History_Context-aware_Policy_Optimization_for_GUI_Agents_CVPR_2026_paper.html",
+        "outcome": "lead",
+        "note": "CVPR 正式与 2512.01763 同篇。原文和项目是华为诺亚（Kaiwen Zhou、Shuai Wang）与哈工大合作。首作者Xurui Zhou本人标出 Rui Shao 与 Gongwei Chen 为导师，田倬韬系同篇共著；仍缺具名在读作者在华为做本项和指导链的闭合。"
+      },
+      {
+        "year": 2026,
+        "title": "Omni-DPO: A Dual-Perspective Paradigm for Dynamic Preference Learning of LLMs",
+        "url": "https://arxiv.org/abs/2506.10054",
+        "outcome": "no-evidence",
+        "note": "ICLR 2026 正式的署名与公开首稿可一一对应（Uni-DPO 项目），首稿在 Shangpin Peng 所列 2025-08 腾讯实习之前，原文均为学术单位。"
+      },
+      {
+        "year": 2026,
+        "title": "Scaling Multi-Reference Image Generation with Dynamic Reward Optimization",
+        "url": "https://arxiv.org/abs/2606.26947",
+        "outcome": "lead",
+        "note": "DyRef，作者官网列 ECCV Oral。Wenwang Huang 明示田倬韬为博士导师、自述腾讯研究实习方向为多模态强化学习和图像视频生成；但本篇稿作者单位为哈工大深圳、河套和独立研究者，无可配对的腾讯员工或腾讯侧项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "StrucTab: A Structured Optimization Framework for Table Parsing",
+        "url": "https://arxiv.org/abs/2606.29905",
+        "outcome": "lead",
+        "note": "v1 6 月、v2 9 月，作者本人书目列 ECCV。原文 Shangpin Peng 兼有腾讯、河套，v2 新列港科大；本人资料列哈工大深圳本科学籍至 2026-07、腾讯实习 2025-08–2026-09。因此在读期与本项目有交集；但尚无独立来源点名田倬韬为 Shangpin 本科研究导师。"
+      },
+      {
+        "year": 2025,
+        "title": "Mitigating Object Hallucinations via Sentence-Level Early Intervention",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Peng_Mitigating_Object_Hallucinations_via_Sentence-Level_Early_Intervention_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "ICCV 官方与 2507.12455。同组作者全部署哈工大／港中文等高校，初稿早于 Shangpin Peng 所列腾讯实习 2025-08，且无公司作者。"
+      }
+    ],
+    "note": "先查个人公开代表作与最强校企候选，逐篇核对公式出处、作者及具名学生关系；其余仍在梳理。"
+  },
+  "UqAybqgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~jqhuang?language=en",
+      "https://english.cnic.cas.cn/sourcedb/People/202407/t20240731_678887.html",
+      "https://dblp.org/pid/207/1901-1.html",
+      "https://orcid.org/0000-0001-5735-2910",
+      "https://zhijiangtang.github.io/",
+      "https://zhijiangtang.github.io/publications/",
+      "https://simpleshinobu.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Tang_CCCaption_Dual-Reward_Reinforcement_CVPR_2026_supplemental.pdf",
+      "https://wands.hk/papers/SIGMOD_23_1.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "CCCaption: Dual-Reward Reinforcement Learning for Complete and Correct Image Captioning",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_CCCaption_Dual-Reward_Reinforcement_Learning_for_Complete_and_Correct_Image_Captioning_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式附录明确唐治江在 Shopee 实习期间完成该篇，4 名企业作者署同一 Shopee 团队。其阿里研究实习从 2026 年 4 月开始；此文初稿 2 月已公开，Shopee 不在调查企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Long-CODE: Isolating Pure Long-Context as an Orthogonal Dimension in Video Evaluation",
+        "url": "https://arxiv.org/abs/2604.17428",
+        "outcome": "no-evidence",
+        "note": "预印本明确署名哔哩哔哩 AI Infrastructure 的 Bing Zhao。唐治江履历的哔哩哔哩实习方向吻合长视频测评，未见范围内 14 家公司投入此篇；阿里、字节、Google 的模型在该文是评测对象。"
+      },
+      {
+        "year": 2026,
+        "title": "A Reconstruction-Based Framework for Caption Evaluation Beyond Reference Captions",
+        "url": "https://arxiv.org/pdf/2607.23235",
+        "outcome": "no-evidence",
+        "note": "2026 年 7 月原稿作者署网络信息中心、国科大杭州高等研究院与同济大学。第一作者同期确有阿里实习，但未在本篇机构栏或正文发现阿里作者或项目；不同于其 CCCaption。"
+      },
+      {
+        "year": 2026,
+        "title": "A Model-Internal Protocol for Assessing Multimodal Models as Integrated Systems",
+        "url": "https://arxiv.org/abs/2608.11907",
+        "outcome": "no-evidence",
+        "note": "同一 arXiv 编号 v1 曾题为 Do You See What You Draw?；按 v2 合并。四名作者的纸本单位为国科大或网络信息中心；未见范围企业研究角色。"
+      },
+      {
+        "year": 2026,
+        "title": "SymFold: Synergizing Evolutionary and Structural Priors for Accurate Protein Inverse Folding",
+        "url": "https://arxiv.org/pdf/2609.01353",
+        "outcome": "no-evidence",
+        "note": "作者手稿首页四人署网络信息中心、国科大。黄建强与赖佰生过去的阿里合作不能推作此篇的企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "AffordAny: Open-World 3D Affordance Grounding from Monocular RGB Images via Vision-Language-Guided Geometric Reasoning",
+        "url": "https://arxiv.org/pdf/2608.20720",
+        "outcome": "no-evidence",
+        "note": "公开作者单位为同济大学和中科院，使用 Cosmos 特征作表征不等于作者来自相应企业。"
+      },
+      {
+        "year": 2026,
+        "title": "In Search of Lost DNA Sequence Pretraining",
+        "url": "https://arxiv.org/pdf/2604.16570",
+        "outcome": "no-evidence",
+        "note": "公开原文列计算机网络信息中心与国科大杭州高等研究院，无范围企业作者；任务是 DNA 序列预训练，与阿里购物智能体实习方向不同。"
+      },
+      {
+        "year": 2026,
+        "title": "Matching Matters: A Fair Quality-Efficiency Benchmark for Command-Line Agents",
+        "url": "https://arxiv.org/abs/2606.21140",
+        "outcome": "no-evidence",
+        "note": "AgentMeter 初稿与 2026-10-26 更名的 v3 合一。首页作者均为网络信息中心或国科大杭州高等研究院，测评 CLI 与模型不构成企业合著。"
+      },
+      {
+        "year": 2026,
+        "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data",
+        "url": "https://arxiv.org/pdf/2611.13801",
+        "outcome": "no-evidence",
+        "note": "11 月 10 日提交、调查期内的公开稿仅署国科大杭州高等研究院与计算机网络信息中心，论文版式未有正式出版日期。"
+      },
+      {
+        "year": 2026,
+        "title": "Scaling Test-Time Robustness of Vision-Language Models via Self-Critical Inference Framework",
+        "url": "https://arxiv.org/pdf/2603.07659",
+        "outcome": "no-evidence",
+        "note": "公开全文明确同济大学、网络信息中心、国科大，未见范围企业参与；使用研发工具不构成企业成员身份。"
+      },
+      {
+        "year": 2026,
+        "title": "KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora",
+        "url": "https://arxiv.org/abs/2609.37673",
+        "outcome": "no-evidence",
+        "note": "技术报告和团队公开项目指定上海库帕思和同济大学，黄建强具名作者。库帕思不在筛选公司范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Gene Incremental Learning for Single-Cell Transcriptomics",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37062",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版公开列明每位作者：网络信息中心、国科大和杭州高等研究院；合并 arXiv:2511.13762。"
+      },
+      {
+        "year": 2025,
+        "title": "Graph Neural Networks as a Substitute for Transformers in Single-Cell Transcriptomics",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11356560",
+        "outcome": "no-evidence",
+        "note": "IEEE BIBM 2025 正式与 arXiv:2507.04125 同一工作，IEEE 正式登记作者顺序有变化，原稿相关单位为中科院网络信息中心与国科大杭州高等研究院。"
+      },
+      {
+        "year": 2025,
+        "title": "A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32049",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式论文涉及网络信息中心、国科大杭州高等研究院、天津医科大学眼科医院等；不与研究基因增量或 GNN 替代的另外两篇合并。"
+      },
+      {
+        "year": 2025,
+        "title": "A Comprehensive Benchmark for Electrocardiogram Time-Series",
+        "url": "https://doi.org/10.1145/3746027.3754729",
+        "outcome": "no-evidence",
+        "note": "正式 ACM MM 与 arXiv:2507.14206 合并；原稿四人署国科大杭州高等研究院或网络信息中心，无范围企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "ST4ML: Machine Learning Oriented Spatio-Temporal Data Processing at Scale",
+        "url": "https://doi.org/10.1145/3588941",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版和会方名录均列黄建强为阿里达摩院，南洋理工作者为南洋理工及阿里联合研究院。该文于其 2023 年 12 月入职网络信息中心前发表，未发现他作为国科大教师指导学生参与此项成果。"
+      },
+      {
+        "year": 2024,
+        "title": "Networked Time-series Prediction with Incomplete Data via Generative Adversarial Network",
+        "url": "https://doi.org/10.1145/3643822",
+        "outcome": "no-evidence",
+        "note": "正式 ACM 卷期 2024；与 2021 初稿合并。黄建强以阿里达摩院身份署名，交大作者及其导师角色应作为另一条线索核查，不能算黄建强以国科大教师身份指导本篇。"
+      },
+      {
+        "year": 2023,
+        "title": "CrowdAtlas: Estimating Crowd Distribution within the Urban Rail Transit System",
+        "url": "https://doi.org/10.1145/3558521",
+        "outcome": "no-evidence",
+        "note": "2023 期刊正式篇与 2021 ICDE 同名、同作者、同主题，按延续版本对照保留一条。ICDE 原文黄建强署阿里并早于其国科大任职，未查获其以国科大教师指导本篇。"
+      },
+      {
+        "year": 2023,
+        "title": "A Survey on Deep Hashing Methods",
+        "url": "https://doi.org/10.1145/3532624",
+        "outcome": "no-evidence",
+        "note": "ACM 正式卷期与 arXiv:2003.03369 合一。正式作者机构明确黄建强署阿里，研究早于国科大任职，无证据他以国科大教师角色指导。"
+      },
+      {
+        "year": 2023,
+        "title": "Learning comprehensive global features in person re-identification: Ensuring discriminativeness of more local regions",
+        "url": "https://doi.org/10.1016/j.patcog.2022.109068",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式 2023 卷期，作者所在新加坡管理大学档案确认黄建强署阿里。未发现他以国科大在职教师指导同篇作者在阿里完成本项。"
+      }
+    ],
+    "note": "首批以国科大导师页、本人 DBLP/ORCID、学生本人书目和出版原文交叉核对，辨别阿里任职期与国科大任职期、同名作者，以及不同企业的实习项目。公开书目仍在梳理中。"
+  },
+  "yjG4Eg4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://faculty.uestc.edu.cn/liwen/zh_CN/index.htm",
+      "https://diggers.ai/people/",
+      "https://wfanyue.github.io/",
+      "https://synps26.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "The Devil is in Attention Sharing: Improving Complex Non-rigid Image Editing Faithfulness via Attention Synergy",
+        "url": "https://arxiv.org/html/2512.14423v1",
+        "year": 2025,
+        "note": "CVPR 2026 对应同作；原始项目页面列出完整机构，仅电子科技大学与新加坡国立大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "ResCLIP: Residual Attention for Training-free Dense Vision-language Inference",
+        "url": "https://arxiv.org/html/2411.15851v1",
+        "year": 2024,
+        "note": "四名作者均署电子科技大学；与 CVPR 2025 同题同作者正式版归并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Tuning-Free Adaptive Style Incorporation for Structure-Consistent Text-Driven Style Transfer",
+        "url": "https://arxiv.org/html/2404.06835v1",
+        "year": 2024,
+        "note": "作者单位包括电子科技大学、南方科技大学和 vivo；vivo 不在项目范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Simultaneous Detection and Interaction Reasoning for Object-Centric Action Recognition",
+        "url": "https://arxiv.org/html/2404.11903v1",
+        "year": 2024,
+        "note": "论文首面仅列电子科技大学与新加坡国立大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Learning Semantic Latent Directions for Accurate and Controllable Human Motion Prediction",
+        "url": "https://arxiv.org/html/2407.11494v1",
+        "year": 2024,
+        "note": "作者全部属电子科技大学；该 2024 研究与次年含腾讯署名的 OmniMotion-X 是不同作品。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Beyond Viewpoint: Robust 3D Object Recognition under Arbitrary Views through Joint Multi-Part Representation",
+        "url": "https://arxiv.org/html/2407.03842v1",
+        "year": 2024,
+        "note": "首作者双署电子科技大学及 vivo；vivo 不在 14 家范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03967.pdf",
+        "year": 2024,
+        "note": "同篇百度共同作者为魏凡越具名的百度实习指导者；学生履历列李文与段立新为共同导师。两位教师均在现有关系索引中，共用一条论文关系。",
+        "outcome": "existing"
+      }
+    ],
+    "note": "收录多名作者中同时核对了李文正式署名的论文，继续补其余公开书目。"
   }
 };

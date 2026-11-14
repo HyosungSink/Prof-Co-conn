@@ -41169,6 +41169,68 @@ const survey = {
       ],
       "evidence": "2025 年 12 月 18 日首版明确在第一作者 Yuxin Wang 名下标注本研究在腾讯 AI Lab 实习期间完成，并列本人港科大与腾讯双署。履历将该项目列为其在腾讯混元实习期间主导的项目，另有港科大课题组名录证实在读和校内导师。企业合著者张博强同篇署腾讯 AI Lab，本人履历列 2025 年 7 月起为腾讯全职研究工程师。",
       "paperId": "arxiv:2512.16561"
+    },
+    {
+      "id": "meituan-ppo-td-buaa-si-liu",
+      "paperId": "doi:10.24963/ijcai.2023/99",
+      "company": "美团",
+      "team": "美团 · 多模态视觉研究",
+      "school": "北京航空航天大学",
+      "studentSchool": "北京航空航天大学",
+      "faculty": [
+        "刘偲 · Si Liu",
+        "北航人工智能学院教授，在论文中署北航；由学生履历和北航教师组名单交叉确认其为博士导师。",
+        "https://iai.buaa.edu.cn/info/1131/1745.htm"
+      ],
+      "student": [
+        "丁子涵 · Zihan Ding",
+        "北航博士生；本人记载 2021 年 9 月至 2023 年 6 月在美团开展多模态理解与生成研究，由 Junshi Huang 指导；IJCAI 同篇列本人北航及美团双署。",
+        "https://dzh19990407.github.io/"
+      ],
+      "advising": [
+        "校内博士导师",
+        "丁子涵本人具名确认导师为刘偲；北航 CoLab 把丁子涵列为刘偲课题组博士生；两人同在正式论文作者表。",
+        "https://colalab.net/team/"
+      ],
+      "employee": [
+        "Junshi Huang",
+        "美团研究科学家、多模态图像理解与生成研究组负责人；2023 年论文署美团且为通讯作者，丁子涵履历列为实习导师。",
+        "https://ojs.aaai.org/index.php/AAAI/article/download/25137/24909"
+      ],
+      "title": "Enriching Phrases with Coupled Pixel and Object Contexts for Panoptic Narrative Grounding",
+      "short": "PPO-TD",
+      "year": 2023,
+      "date": "2023-08",
+      "venue": "IJCAI 2023",
+      "area": "计算机视觉与多模态",
+      "paper": "https://www.ijcai.org/proceedings/2023/0099.pdf",
+      "extra": [
+        [
+          "IJCAI 正式论文目录及 DOI",
+          "https://www.ijcai.org/proceedings/2023/99"
+        ],
+        [
+          "官方提交和录用时间",
+          "https://ijcai-23.org/call-for-papers/"
+        ],
+        [
+          "北航 2023 年学生报道",
+          "https://iai.buaa.edu.cn/info/1021/1116.htm"
+        ],
+        [
+          "同篇作者公开版本",
+          "https://arxiv.org/html/2311.01091v1"
+        ],
+        [
+          "独立同期同团队 CVPR 署名",
+          "https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Vasluianu_NTIRE_2023_Image_Shadow_Removal_Challenge_Report_CVPRW_2023_paper.pdf"
+        ],
+        [
+          "IEEE 论文作者简介：美团研究科学家、图像理解与生成团队负责人",
+          "https://guanbinli.com/papers/Contrastive_Open-Set_Active_Learning-Based_Sample_Selection_for_Image_Classification.pdf"
+        ]
+      ],
+      "evidence": "IJCAI 正式论文列明北航与美团两家单位，丁子涵双署、刘偲署北航，Junshi Huang 署美团并任通讯作者。丁子涵此前已在北航攻读博士；其履历具名列刘偲为博士导师，列 Junshi Huang 为 2021 年 9 月至 2023 年 6 月美团多模态理解与生成研究的实习导师。会议投稿和录用都在该实习期；IEEE 作者简介及同期企业署名独立提供 Huang 的美团研究职位证据。"
     }
   ]
 };
