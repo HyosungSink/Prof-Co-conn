@@ -15483,7 +15483,8 @@ const facultyPaperAudits = {
       "https://dk-liang.github.io/",
       "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm",
       "https://dblp.dagstuhl.de/pid/255/6274.html",
-      "https://bigteacher-777.github.io/"
+      "https://bigteacher-777.github.io/",
+      "https://arxiv.org/pdf/2109.01291"
     ],
     "papers": [
       {
@@ -15695,6 +15696,13 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "ICLR 2025 作者公开稿逐名列华南理工大学及华中科技大学。首稿具名说明一位作者在华中科大访问时完成，属于高校合作。"
+      },
+      {
+        "title": "LATFormer: Locality-Aware Point-View Fusion Transformer for 3D shape recognition",
+        "url": "https://doi.org/10.1016/j.patcog.2024.110413",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式卷 151（2024）与 2021 预印本为同一成果。原文作者单位包括华中农业大学、华中科技大学与牛津大学，未见目标企业科研参与。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -29933,14 +29941,17 @@ const facultyPaperAudits = {
   "xdcv7wQAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://cs.fudan.edu.cn/5b/f6/c30604a482294/page.htm",
       "https://fdzhuanyi.fudan.edu.cn/8f/af/c40941a757679/page.htm",
       "https://yeslab.co/member",
       "https://dblp.org/pid/20/9998.html",
       "https://orcid.org/0009-0007-4973-7942",
-      "https://zhiqix.github.io/"
+      "https://zhiqix.github.io/",
+      "https://aclanthology.org/people/guangnan-ye/",
+      "https://senliu.me/publication.html",
+      "https://www.csauthors.net/guangnan-ye/"
     ],
     "papers": [
       {
@@ -29967,9 +29978,9 @@ const facultyPaperAudits = {
       {
         "title": "From Correctness to Utility: Gain-Based Prefix Evaluation for LLM Reasoning",
         "year": 2026,
-        "url": "https://arxiv.org/abs/2606.07190",
+        "url": "https://aclanthology.org/2026.findings-emnlp.861/",
         "outcome": "no-evidence",
-        "note": "学校和上海创智学院三位作者。腾讯等模型是评测对象，未见企业作者。"
+        "note": "EMNLP 正式版本核对复旦、上海创智学院三位作者；腾讯等模型作评估对象，无企业作者。"
       },
       {
         "title": "GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation",
@@ -29997,14 +30008,14 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://aclanthology.org/2026.acl-long.563/",
         "outcome": "lead",
-        "note": "ACL 正式版列字节 Seed 作者 Ge Zhang，其任职可由 Seed Diffusion 和学生同期履历交叉；第一作者周宇航的公开经历列通义、大学和金融机构，暂无在字节开展本项研究的证据。其余学生与该公司项目及叶广楠的同期师承仍待核。"
+        "note": "ACL 正式版列字节 Seed Ge Zhang，Seed Diffusion 和学生同期履历交叉确认任职。第一作者周宇航本人明确当期校内导师为叶广楠和曹益新；其履历列通义、大学和金融机构。PRISM 原文没有具名的字节实习脚注，作者项目地址暂不可访问，未找到周宇航或其他在读学生在字节承担本项研发的证据。"
       },
       {
         "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
         "year": 2026,
-        "url": "https://arxiv.org/abs/2609.18591",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1680/",
         "outcome": "no-evidence",
-        "note": "原文为复旦四位作者；以公共品博弈分辨模型推理与外推，未见企业共同作者。"
+        "note": "EMNLP Findings 正式版本为复旦四位作者；研究公共品博弈中的递归信念，不与早先的网络博弈同算。"
       },
       {
         "title": "Rethinking the Role of Entropy in Optimizing Tool-Use Behaviors for Large Language Model Agents",
@@ -30042,32 +30053,32 @@ const facultyPaperAudits = {
         "note": "原文只署复旦；实验维度含 History 和 Machine Optimism，另核 2510.06903 同作者较早稿，留待确认两稿是否同一版本。"
       },
       {
-        "title": "Limited Reference, Reliable Generation: A Two-Component Framework for Tabular Data Generation in Low-Data Regimes",
-        "year": 2025,
-        "url": "https://arxiv.org/abs/2509.09960",
+        "title": "Limited Reference, Reliable Generation: Rule-Guided Tabular Data Generation with Dual-Granularity Filtering",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2509.09960v2",
         "outcome": "no-evidence",
-        "note": "原文机构为复旦与西北工业大学；未见目标企业。"
+        "note": "与 2509.09960 同一成果，合作者的公开书目将后一个标题列为 Information Processing & Management。期刊 DOI 暂未独立查到，保留可访问的原文；原文全为复旦/西北工业大学人员。"
       },
       {
         "title": "Reconstruction as a Bridge for Event-Based Visual Question Answering",
         "year": 2025,
         "url": "https://arxiv.org/abs/2512.11510",
         "outcome": "no-evidence",
-        "note": "原文为北大、上海创智学院、复旦和上海人工智能实验室，未见目标企业。"
+        "note": "预印本作者为北大、复旦、上海创智学院和上海 AI 实验室，没有目标企业同篇。"
       },
       {
         "title": "Schrödinger's Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation",
-        "year": 2025,
+        "year": 2026,
         "url": "https://arxiv.org/abs/2512.21201",
         "outcome": "no-evidence",
-        "note": "原文合作企业为 ActiMind，其他为高校或研究机构；ActiMind 不在目标名单。"
+        "note": "CoRL 项目主页和最新版原文核对，仅企业署名为 ActiMind，不在 14 家范围；保留可访问作者版。"
       },
       {
         "title": "StageDesigner: Artistic Stage Generation for Scenography via Theater Scripts",
         "year": 2025,
-        "url": "https://doi.org/10.1109/CVPR52734.2025.02673",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gan_StageDesigner_Artistic_Stage_Generation_for_Scenography_via_Theater_Scripts_CVPR_2025_paper.html",
         "outcome": "no-evidence",
-        "note": "CVPR 正式作者均为高校；原文致谢 CCF-百度基金，但无百度雇员共同作者或学生在百度完成这项研究的证据。"
+        "note": "CVF 正式论文致谢中国计算机学会—百度开放基金（OF202424），作者机构均为高校及戏剧学院；没有百度员工共同作者和学生参与公司研发的材料。"
       },
       {
         "title": "Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks",
@@ -30081,7 +30092,7 @@ const facultyPaperAudits = {
         "year": 2025,
         "url": "https://arxiv.org/abs/2510.06903",
         "outcome": "no-evidence",
-        "note": "原文与 SSRN 同合作组均仅复旦；与后续 2512.11943 及 2609.18591 区别见各条。"
+        "note": "团队的 2510.06903、2512.11943 及 SSRN 5578230 系列讨论同一有顺序和打乱历史的网络博弈、相近结果；合为一项保守记账。署名均为复旦。"
       },
       {
         "title": "DogLayout: Denoising Diffusion GAN for Discrete and Continuous Layout Generation",
@@ -30114,9 +30125,9 @@ const facultyPaperAudits = {
       {
         "title": "SilverSight: A Multi-Task Chinese Financial Large Language Model Based on Adaptive Semantic Space Learning",
         "year": 2024,
-        "url": "https://arxiv.org/abs/2404.04949",
+        "url": "https://aclanthology.org/2024.ccl-1.74/",
         "outcome": "no-evidence",
-        "note": "原文为复旦、同济大学。第一作者履历列后来的通义实习，时间与本篇不符。"
+        "note": "CCL 正式版本列复旦与同济大学；第一作者履历列后来的通义实习，与此项 2024 年成果不符。"
       },
       {
         "title": "VAEFL: Integrating variational autoencoders for privacy preservation and performance retention in federated learning",
@@ -30131,9 +30142,107 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3664647.3681092",
         "outcome": "no-evidence",
         "note": "ACM 正刊与 arXiv 2405.17894 核对；有达观数据（DataGrand），非目标企业。"
+      },
+      {
+        "title": "Dynamic graph learning for integrating temporal relationships in stock prediction",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.eswa.2026.131857",
+        "outcome": "no-evidence",
+        "note": "复旦合作者书目及正式 DOI 核对作者。与同作者在银联支付署名的另一篇不能混为一篇；可公开核实的材料未呈现目标公司的参与。"
+      },
+      {
+        "title": "Graph Self-Supervised Learning via Learnable View Augmentation for Recommender System",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TII.2025.3635135",
+        "outcome": "no-evidence",
+        "note": "IEEE 期刊卷和出版者作者单位列复旦、华中师范大学、吉林烟草工业与 Vesoft；吉林烟草和 Vesoft 均非目标企业。"
+      },
+      {
+        "title": "MasterKey: A multi-target backdoor attack in federated learning",
+        "year": 2026,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0950705126005174",
+        "outcome": "no-evidence",
+        "note": "期刊作者来自复旦计算与智能创新学院及金融科技研究院；未见目标企业。"
+      },
+      {
+        "title": "TabLoft: Tabular Data Generation Based on LLM with Ordered Features",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/ICDE65706.2026.00083",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版注册作者全署复旦；与另组的 Limited Reference… 数据生成不是同一论文。"
+      },
+      {
+        "title": "Teach2Eval: An Interaction-Driven LLMs Evaluation Method via Teaching Effectiveness",
+        "year": 2026,
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c98ef086dc70d528e1c1aa1e66893365-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "ICLR 2026 正式版更名，并有企业作者达观数据（DataGrand），不在名单。正式版和 2505.12259 是同一项目。"
+      },
+      {
+        "title": "ArtNVG: Content-Style Separated Artistic Neighboring-View Gaussian Stylization",
+        "year": 2025,
+        "url": "https://dl.acm.org/doi/10.1145/3731715.3733277",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版及 2412.18783 作者单位列复旦、上海大学及上海戏剧学院，没有目标企业。"
+      },
+      {
+        "title": "EditMaster: Bridging Text instruction and Visual Example for Multimodal guided Image Editing",
+        "year": 2025,
+        "url": "https://dl.acm.org/doi/10.1145/3746027.3754926",
+        "outcome": "no-evidence",
+        "note": "ACM 出版者作者机构列复旦、上海大学和上海纽约大学；没有目标企业。"
+      },
+      {
+        "title": "Enhancing Federated Knowledge Distillation in Heterogeneous and Non-IID Scenarios",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10888891",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者单位元数据列复旦和纽约大学两校；未见目标企业。"
+      },
+      {
+        "title": "FinIR: The 2nd Workshop on Financial Information Retrieval in the Era of Generative AI",
+        "year": 2025,
+        "url": "https://dl.acm.org/doi/10.1145/3726302.3730366",
+        "outcome": "no-evidence",
+        "note": "SIGIR 工作坊稿列的产业单位为 6Estates、Bloomberg、BlackRock 和 Goldman Sachs；均非目标公司。"
+      },
+      {
+        "title": "FSPFL: Mitigating Communication Gap in Personalization Federated Learning Through Flexible Sparsity Allocation",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/IWQoS65803.2025.11143282",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版者作者机构元数据核对为复旦与云南财经大学；未见目标企业。"
+      },
+      {
+        "title": "MultiHGPT: Multi-task heterogeneous graph prompt tuning",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.ipm.2025.104236",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正刊：复旦／金融科技研究院、南京大学合作的图提示论文，未见目标企业员工。"
+      },
+      {
+        "title": "CI-STHPAN: Pre-trained Attention Network for Stock Selection with Channel-Independent Spatio-Temporal Hypergraph",
+        "year": 2024,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28770",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式卷和作者机构列全部复旦；没有目标企业。"
+      },
+      {
+        "title": "DiffPatch: Generating Customizable Adversarial Patches using Diffusion Model",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2412.01440v1",
+        "outcome": "lead",
+        "note": "v1 署复旦的第一作者 Zhixiang Wang，叶广楠和华为任职 Xiaosen Wang 同篇。缺具名校内师承和学生在华为的本项研发角色；后来 BadPatch 版本已移除叶广楠及 Xiaosen Wang，不能回填为以正式版教师或企业署名。"
+      },
+      {
+        "title": "VFLAIR: A Research Library and Benchmark for Vertical Federated Learning",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2310.09827v1",
+        "outcome": "no-evidence",
+        "note": "2023 v1 原文有叶广楠署名，仅清华、复旦、东京大学；ICLR 2024 最终版移除其署名。未见目标企业。"
       }
     ],
-    "note": "第一批已核对复旦课题组资料、同一 ORCID 及 ACL/ACM/IEEE/CVF 等正式出版和 arXiv，仍在补全期刊书目及改题合并，未标全部。"
+    "note": "对照复旦个人/课题组、DBLP、ORCID 关联出版记录、ACL Anthology 作者目录、arXiv 与合作者公开书目，逐篇核完 2023-01-01 至 2026-11-12 可辨认的公开论文。正式版为优先；合并改题稿，在最终版删人时保留教师确实署名的最早公开版本。"
   },
   "gQlVhNsAAAAJ": {
     "from": "2023-01-01",
