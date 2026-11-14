@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
   <title>教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=61468657c3f7">
-  <script src="data.js?v=61468657c3f7" defer></script>
-  <script src="ui.js?v=61468657c3f7" defer></script>
-  <script src="faculty-data.js?v=61468657c3f7" defer></script>
-  <script src="faculty-titles.js?v=61468657c3f7" defer></script>
-  <script src="faculty-rosters.js?v=61468657c3f7" defer></script>
-  <script src="faculty-bibliography.js?v=61468657c3f7" defer></script>
-  <script src="faculty-ucas-institutes.js?v=61468657c3f7" defer></script>
-  <script src="faculty-catalog.js?v=61468657c3f7" defer></script>
-  <script src="faculty-unit-groups.js?v=61468657c3f7" defer></script>
-  <script src="faculty-page.js?v=61468657c3f7" defer></script>
+  <link rel="stylesheet" href="styles.css?v=37731636271d">
+  <script src="data.js?v=37731636271d" defer></script>
+  <script src="ui.js?v=37731636271d" defer></script>
+  <script src="faculty-data.js?v=37731636271d" defer></script>
+  <script src="faculty-titles.js?v=37731636271d" defer></script>
+  <script src="faculty-rosters.js?v=37731636271d" defer></script>
+  <script src="faculty-bibliography.js?v=37731636271d" defer></script>
+  <script src="faculty-ucas-institutes.js?v=37731636271d" defer></script>
+  <script src="faculty-catalog.js?v=37731636271d" defer></script>
+  <script src="faculty-unit-groups.js?v=37731636271d" defer></script>
+  <script src="faculty-page.js?v=37731636271d" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -31,11 +31,7 @@
   </header>
   <main class="container standalone faculty-page">
     <section class="main-section" aria-labelledby="faculty-title">
-      <div class="section-head"><div><h1 id="faculty-title">教师名录</h1><p>按高校查阅计算机、人工智能、网络安全、软件工程、数据科学及相关院系的公开师资名单。</p></div></div>
-      <p class="faculty-scope-note">各校按单位的主要学科分为「主要计算机院系」和「相关交叉院系」。前者包括以计算机、人工智能、网络安全、软件工程或数据科学为主的单位；机器人、遥感、自动化等相关单位列在后者。</p>
-      <p class="faculty-scope-note">中国科学院大学按所属研究机构分组，国科大校部和归属待核实人员各自保留入口。同一人在同一单位只列一次。</p>
-      <p class="faculty-scope-note">职称与导师、双聘、兼职等任职信息分别列出；只查到职称层级时标为「职称层级」。</p>
-      <p class="faculty-scope-note">Google 学术链接指向核实为本人的主页。CCF 论文依据<a href="https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml" target="_blank" rel="noopener noreferrer">中国计算机学会 2026 年推荐目录</a>，列出一篇可复核的期刊论文或正式会议长文。标为「未核实」表示尚缺可确认的公开来源。</p>
+      <div class="section-head"><div><h1 id="faculty-title">教师名录</h1></div></div>
       <form id="faculty-filters" class="filters faculty-filters" role="search" aria-label="筛选教师名录">
         <label class="search"><span>搜索</span><input id="faculty-query" type="search" placeholder="教师姓名、职称或所属单位"></label>
         <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>
@@ -47,6 +43,6 @@
       <noscript><p class="empty">请启用 JavaScript 以浏览教师名录。</p></noscript>
     </section>
   </main>
-  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><span>教师任职以院系官网为准</span></footer>
+  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><a href="method.html#faculty-method">教师名录核验口径</a></footer>
 </body>
 </html>
