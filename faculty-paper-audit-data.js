@@ -14222,7 +14222,16 @@ const facultyPaperAudits = {
       "https://web.xidian.edu.cn/dlu/index.html",
       "https://hongsong-wang.github.io/TIP2025/",
       "https://scholars.cityu.edu.hk/en/publications/commonality-feature-representation-learning-for-unsupervised-mult/",
-      "https://doi.org/10.1109/TIP.2025.3539461"
+      "https://doi.org/10.1109/TIP.2025.3539461",
+      "https://web.xidian.edu.cn/ylshen/files/6797b91fe5716.pdf",
+      "https://cs.xidian.edu.cn/info/1038/18624.htm",
+      "https://ieee-icde.org/2025/tkde-poster/",
+      "https://doi.org/10.1109/TKDE.2024.3380367",
+      "https://web.xidian.edu.cn/ylshen/files/6797c3dd18c32.pdf",
+      "https://doi.org/10.1109/TMC.2022.3200044",
+      "https://scis.scichina.com/scis2024.html",
+      "https://web.xidian.edu.cn/dlu/paper.html",
+      "https://doi.org/10.1007/s11432-023-3865-0"
     ],
     "papers": [
       {
@@ -14231,9 +14240,30 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TIP.2025.3539461",
         "outcome": "no-evidence",
         "note": "正式出版作者及报告资料列陕西科技大学、西安电子科技大学和香港城市大学，没有范围内企业署名。"
+      },
+      {
+        "title": "BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TKDE.2024.3380367",
+        "note": "IEEE 正式稿署西安电子科技大学和公立函馆未来大学；校方确认 ICDE 2025 所列为该期刊论文扩展摘要，合并为一项。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "A Two-Dimensional Sybil-Proof Mechanism for Dynamic Spectrum Access",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TMC.2022.3200044",
+        "note": "IEEE 正式卷期为 2023 年；论文作者署西安电子科技大学及日本国立信息学研究所，未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "CToMP: a cycle-task-oriented memory protection scheme for unmanned systems",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/s11432-023-3865-0",
+        "note": "按期刊正式发表日期 2024 年录入。作者署西安电子科技大学及俄勒冈大学，致谢为公开科研基金；没有范围内公司署名。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "先以官网邮箱、正式论文作者单位和 ORCID 区分同名作者，再逐篇核对项目、企业及指导证据；公开书目仍在补查。"
   },
   "M42jRkMAAAAJ": {
     "from": "2023-01-01",
@@ -14323,7 +14353,18 @@ const facultyPaperAudits = {
       "https://faculty.xidian.edu.cn/CUIDI/zh_CN/index.htm",
       "https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/20/Less-Effort-More-Productivity-Lessons-Learned-from-Developing-Millions-of-Lines-of-",
       "https://api.crossref.org/works/10.1145/3786583.3786872",
-      "https://doi.org/10.1145/3786583.3786872"
+      "https://doi.org/10.1145/3786583.3786872",
+      "https://orcid.org/0000-0003-2859-9003",
+      "https://conf.researchr.org/profile/dicui",
+      "https://doi.org/10.1145/3803437.3805780",
+      "https://doi.org/10.1145/3691620.3695291",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-nier/21/MAJIT-Just-in-Time-Detection-of-Compatibility-Issues-in-Android-and-iOS-Apps-through",
+      "https://doi.org/10.1145/3786582.3786819",
+      "https://doi.org/10.1145/3650212.3685307",
+      "https://doi.org/10.1145/3755881.3755933",
+      "https://doi.org/10.1145/3691620.3695068",
+      "https://doi.org/10.1145/3650212.3680379",
+      "https://doi.org/10.1145/3728930"
     ],
     "papers": [
       {
@@ -14332,9 +14373,65 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3786583.3786872",
         "outcome": "no-evidence",
         "note": "ACM 向 Crossref 提交的作者机构均为西电；国家自然科学基金和陕西省项目资助。论文讨论实际软件工程，但未见范围内企业参与作者证据。"
+      },
+      {
+        "title": "Bridging the Gap in Industrial Software Education: A LLM-Based Intelligent Assistant for GNU Radio",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3803437.3805780",
+        "note": "ACM 正式出版元数据列全部作者为西安电子科技大学；GNU Radio 是软件对象，不能当作企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Unity Is Strength: Collaborative LLM-Based Agents for Code Reviewer Recommendation",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3691620.3695291",
+        "note": "IEEE/ACM 会议作者署西安电子科技大学及中央密苏里大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "MAJIT: Just-in-Time Detection of Compatibility Issues in Android and iOS Apps through Large Language Model-based Multi-Agent Collaboration",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3786582.3786819",
+        "note": "ICSE 正式议程和 ACM 记录列 Jiaqi Wang、崔笛为西电、多人为抖音；暂缺 Jiaqi Wang 当期在读、参与抖音同篇研究及具名受崔笛指导证据。",
+        "outcome": "lead"
+      },
+      {
+        "title": "HECS: A Hypergraph Learning-Based System for Detecting Extract Class Refactoring Opportunities",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3650212.3685307",
+        "note": "ACM 正式作者单位仅西安电子科技大学、中央密苏里大学；Zenodo 数据工件与论文一并核对。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "UITrans: Seamless UI Translation from Android to HarmonyOS",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3755881.3755933",
+        "note": "ACM 正式署名均为西电或南京航空航天大学；HarmonyOS 是研究对象，无华为作者署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Three Heads Are Better Than One: Suggesting Move Method Refactoring Opportunities with Inter-class Code Entity Dependency Enhanced Hybrid Hypergraph Neural Network",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3691620.3695068",
+        "note": "ASE 正式议程及出版元数据列全部作者为西安电子科技大学及中央密苏里大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "One-to-One or One-to-Many? Suggesting Extract Class Refactoring Opportunities with Intra-class Dependency Hypergraph Neural Network",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3650212.3680379",
+        "note": "ACM 正式出版元数据列西电和中央密苏里大学，无范围内企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "REACCEPT: Automated Co-evolution of Production and Test Code Based on Dynamic Validation and Large Language Models",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3728930",
+        "note": "ISSTA 正式版作者涉及西电、哈工程、新加坡管理大学及微软；微软不在本项目企业范围内。同题预印本合并。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "交叉检索学校主页、本人 ORCID、正式会议和期刊；有企业署名的论文另核学生角色与指导证据。学校成果栏目为空白，公开索引与发表清单仍在补查。"
   },
   "DR-GIokAAAAJ": {
     "from": "2023-01-01",
@@ -15528,7 +15625,14 @@ const facultyPaperAudits = {
       "https://github.com/Tencent/PowerFL-AnonGBDT",
       "https://arxiv.org/html/2505.12453",
       "https://doi.org/10.1145/3576915.3616592",
-      "https://xiaoyuxu1.github.io/SINGED_project/"
+      "https://xiaoyuxu1.github.io/SINGED_project/",
+      "https://arxiv.org/abs/2402.15159",
+      "https://research.cuhk.edu.hk/en/publications/shielding-graph-for-exact-analytics-with-sgx-2/",
+      "https://peipeics.cc/publications/",
+      "https://research.polyu.edu.hk/en/publications/advddos-zero-query-adversarial-attacks-against-commercial-speech-/",
+      "https://research.polyu.edu.hk/en/publications/fasttextdodger-decision-based-adversarial-attack-against-black-bo/",
+      "https://whdy.publish.founderss.cn/zh/article/doi/10.14188/j.1671-8836.2023.0031/",
+      "https://research.polyu.edu.hk/en/publications/stealthy-and-effective-physical-adversarial-attacks-in-autonomous/"
     ],
     "papers": [
       {
@@ -15607,6 +15711,152 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "论文项目主页逐一列作者仅为香港理工和杭州电子科技大学；未见范围内企业。"
+      },
+      {
+        "title": "Machine Unlearning of Pre-trained Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.457.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACL 正式版作者均署大学（弗吉尼亚大学、佐治亚理工、港理工、墨尔本大学、卡内基梅隆大学）；文内讨论商业模型，没有范围内企业作者。"
+      },
+      {
+        "title": "Shielding Graph for eXact Analytics With SGX",
+        "url": "https://doi.org/10.1109/TDSC.2023.3241164",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 署名只列港中大和武大。研究使用 Intel SGX，并无该企业或调查范围内企业的同篇作者。"
+      },
+      {
+        "title": "AdvDDoS: Zero-Query Adversarial Attacks Against Commercial Speech Recognition Systems",
+        "url": "https://doi.org/10.1109/TIFS.2023.3283915",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "港理工机构库与 IEEE 题录匹配；作者原始归属字段逐名列武大和港中大，商用语音识别 API 是研究对象。"
+      },
+      {
+        "title": "FastTextDodger: Decision-Based Adversarial Attack Against Black-Box NLP Models With Extremely High Efficiency",
+        "url": "https://doi.org/10.1109/TIFS.2024.3350376",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "IEEE 作者单位字段列郑保林署阿里；武汉大学学报证实同研究方向作者胡晓雪是武大硕士生。尚未核实胡晓雪在该篇阿里项目中的具体参与或同篇具名指导。"
+      },
+      {
+        "title": "Stealthy and Effective Physical Adversarial Attacks in Autonomous Driving",
+        "url": "https://ieeexplore.ieee.org/document/10583962/",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "正式题录及作者单位字段对应华科、港理工、清华；未见范围内企业。"
+      },
+      {
+        "title": "Cryptography-Inspired Federated Learning for Generative Adversarial Networks and Meta Learning",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-46664-9_27",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "Springer 作者机构列港中大、东北大学、中佛罗里达大学、华科等，一位作者只列所在地上海。未见范围内企业具名参研。"
+      },
+      {
+        "title": "Unlearning Faithfulness: Unlearning Isn’t Deletion",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-17282-2_11",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer 章节独立 DOI，作者、体例及发表载体均与 ICML 实证论文不同；三人仅署香港理工和卡内基梅隆大学。"
+      },
+      {
+        "title": "Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions",
+        "url": "https://arxiv.org/abs/2609.30909",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "预印本首页列华为、香港理工和东南大学，报告为综述；杜闵欣的具名学生许晓宇在读，但未见其参与该篇华为研究的独立资料。"
+      },
+      {
+        "title": "When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents",
+        "url": "https://arxiv.org/abs/2605.06731",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文逐名对应香港理工和港科大（广州）；文内所测商业模型并非合著。"
+      },
+      {
+        "title": "CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?",
+        "url": "https://arxiv.org/abs/2608.27990",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "公开原文作者仅署香港理工和香港中文大学。没有范围内企业作者。"
+      }
+    ],
+    "note": "按研究发生时的任职核对；杜闵欣担任港理工研究助理教授期间的论文仍列入书目，不因后来任职武大而归为武大合作。"
+  },
+  "G2lp_8kAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/SYL4/zh_CN/index.htm",
+      "https://web.xidian.edu.cn/ylshen/files/6797b91fe5716.pdf",
+      "https://cs.xidian.edu.cn/info/1038/18624.htm",
+      "https://ieee-icde.org/2025/tkde-poster/",
+      "https://doi.org/10.1109/TKDE.2024.3380367",
+      "https://web.xidian.edu.cn/ylshen/files/6797c3dd18c32.pdf",
+      "https://doi.org/10.1109/TMC.2022.3200044"
+    ],
+    "papers": [
+      {
+        "title": "BiTDB: Constructing A Built-in TEE Secure Database for Embedded Systems",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TKDE.2024.3380367",
+        "note": "IEEE 正式稿署西安电子科技大学和公立函馆未来大学；校方确认 ICDE 2025 所列为该期刊论文扩展摘要，合并为一项。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "A Two-Dimensional Sybil-Proof Mechanism for Dynamic Spectrum Access",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TMC.2022.3200044",
+        "note": "IEEE 正式卷期为 2023 年；论文作者署西安电子科技大学及日本国立信息学研究所，未见范围内企业。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "先以官网邮箱、正式论文作者单位和 ORCID 区分同名作者，再逐篇核对项目、企业及指导证据；公开书目仍在补查。"
+  },
+  "Y3wT89MAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://dblp.org/pid/227/7192.html",
+      "https://cse.whu.edu.cn/info/3501/37731.htm",
+      "https://research.cuhk.edu.hk/en/publications/shielding-graph-for-exact-analytics-with-sgx-2/",
+      "https://peipeics.cc/publications/",
+      "https://research.polyu.edu.hk/en/publications/advddos-zero-query-adversarial-attacks-against-commercial-speech-/",
+      "https://research.polyu.edu.hk/en/publications/fasttextdodger-decision-based-adversarial-attack-against-black-bo/",
+      "https://whdy.publish.founderss.cn/zh/article/doi/10.14188/j.1671-8836.2023.0031/"
+    ],
+    "papers": [
+      {
+        "title": "Shielding Graph for eXact Analytics With SGX",
+        "url": "https://doi.org/10.1109/TDSC.2023.3241164",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 署名只列港中大和武大。研究使用 Intel SGX，并无该企业或调查范围内企业的同篇作者。"
+      },
+      {
+        "title": "AdvDDoS: Zero-Query Adversarial Attacks Against Commercial Speech Recognition Systems",
+        "url": "https://doi.org/10.1109/TIFS.2023.3283915",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "港理工机构库与 IEEE 题录匹配；作者原始归属字段逐名列武大和港中大，商用语音识别 API 是研究对象。"
+      },
+      {
+        "title": "FastTextDodger: Decision-Based Adversarial Attack Against Black-Box NLP Models With Extremely High Efficiency",
+        "url": "https://doi.org/10.1109/TIFS.2024.3350376",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "IEEE 作者单位字段列郑保林署阿里；武汉大学学报证实同研究方向作者胡晓雪是武大硕士生。尚未核实胡晓雪在该篇阿里项目中的具体参与或同篇具名指导。"
+      },
+      {
+        "title": "Solid-SQL: Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL",
+        "url": "https://aclanthology.org/2025.coling-main.654.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "正式原文列武大及腾讯大数据与人工智能平台部，武大刘格灵第一作者。公开原文未标实习，仍需同期具名指导和该篇的企业参研资料。"
       }
     ]
   }
