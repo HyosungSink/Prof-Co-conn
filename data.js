@@ -9097,6 +9097,534 @@ const survey = {
         '林佳航的同期公开履历具名列桂韬和黄萱菁为其复旦硕士导师；黄萱菁在 ACL 正式版中是共同通讯作者。',
         'https://github.com/Curry09/curry09.github.io/blob/d8c13a941c336224b044a8d751509ceda1902374/_pages/about.md'
       ]
+    },
+    {
+      "id": "cameranoise-tencent-fudan-zuxuan",
+      "company": "腾讯",
+      "team": "广告营销服务（AMS）",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "研究期间任复旦大学教师、博士生导师；复旦校友会 2024 年资料记为计算机学院副教授。",
+        "https://alumni.fudan.edu.cn/37/df/c14596a669663/page.htm"
+      ],
+      "employee": [
+        "Yeying Jin",
+        "2023 年 11 月起在腾讯任研究员，现任 Staff Researcher、研究负责人。本人研究清单列本论文；论文第 2 号单位署名为腾讯。",
+        "https://jinyeying.github.io/"
+      ],
+      "student": [
+        "赵浩宇 · Haoyu Zhao",
+        "复旦大学 2022 级博士生，2025 年 5 月至 2026 年 6 月在腾讯广告营销服务团队参加青云计划科研实习，2026 年 6 月获博士学位。",
+        "https://gulucaptain.github.io/"
+      ],
+      "title": "CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping",
+      "short": "CameraNoise",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "图像与视频生成",
+      "paper": "https://arxiv.org/html/2605.30774v1",
+      "extra": [
+        [
+          "ICML 正式论文集",
+          "https://proceedings.mlr.press/v306/zhao26l.html"
+        ],
+        [
+          "项目主页",
+          "https://gulucaptain.github.io/CameraNoise/"
+        ],
+        [
+          "复旦大学：赵浩宇 2022 级博士生",
+          "https://ciram.fudan.edu.cn/18/f4/c49211a792820/page.htm"
+        ]
+      ],
+      "evidence": "预印本作者行的黑桃符号标在赵浩宇名下，脚注明确该项目是腾讯青云计划实习成果；两位博士导师同篇任通讯作者。正式 ICML 论文集复核四人署名。",
+      "advising": [
+        "校内博士导师",
+        "赵浩宇个人履历具名列吴祖煊和姜育刚为复旦大学博士导师；两人均为该论文的复旦署名通讯作者。",
+        "https://gulucaptain.github.io/"
+      ]
+    },
+    {
+      "id": "cameranoise-tencent-fudan-yu-gang",
+      "company": "腾讯",
+      "team": "广告营销服务（AMS）",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "研究期间任复旦大学计算机学科教授、博士生导师。",
+        "https://www.fudan.edu.cn/_s2/2024/0117/c1177a139081/page.psp"
+      ],
+      "employee": [
+        "Yeying Jin",
+        "2023 年 11 月起在腾讯任研究员，现任 Staff Researcher、研究负责人。本人研究清单列本论文；论文第 2 号单位署名为腾讯。",
+        "https://jinyeying.github.io/"
+      ],
+      "student": [
+        "赵浩宇 · Haoyu Zhao",
+        "复旦大学 2022 级博士生，2025 年 5 月至 2026 年 6 月在腾讯广告营销服务团队参加青云计划科研实习，2026 年 6 月获博士学位。",
+        "https://gulucaptain.github.io/"
+      ],
+      "title": "CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping",
+      "short": "CameraNoise",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "图像与视频生成",
+      "paper": "https://arxiv.org/html/2605.30774v1",
+      "extra": [
+        [
+          "ICML 正式论文集",
+          "https://proceedings.mlr.press/v306/zhao26l.html"
+        ],
+        [
+          "项目主页",
+          "https://gulucaptain.github.io/CameraNoise/"
+        ],
+        [
+          "复旦大学：赵浩宇 2022 级博士生",
+          "https://ciram.fudan.edu.cn/18/f4/c49211a792820/page.htm"
+        ]
+      ],
+      "evidence": "预印本作者行的黑桃符号标在赵浩宇名下，脚注明确该项目是腾讯青云计划实习成果；两位博士导师同篇任通讯作者。正式 ICML 论文集复核四人署名。",
+      "advising": [
+        "校内博士导师",
+        "赵浩宇个人履历具名列吴祖煊和姜育刚为复旦大学博士导师；两人均为该论文的复旦署名通讯作者。",
+        "https://gulucaptain.github.io/"
+      ]
+    },
+    {
+      "id": "dcdm-tencent-fudan-zuxuan",
+      "company": "腾讯",
+      "team": "广告营销服务（AMS）",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "研究期间任复旦大学教师、博士生导师；复旦校友会 2024 年资料记为计算机学院副教授。",
+        "https://alumni.fudan.edu.cn/37/df/c14596a669663/page.htm"
+      ],
+      "employee": [
+        "张远 · Yuang Zhang",
+        "已在腾讯从事视频生成研究；本人主页列腾讯研究员身份，同期 2025 年 8 月项目仅署腾讯，2026 年 2 月本论文、2026 年 7 月 ICML 项目继续署腾讯。",
+        "https://zyayoung.github.io/"
+      ],
+      "student": [
+        "赵浩宇 · Haoyu Zhao",
+        "复旦大学 2022 级博士生，2025 年 5 月至 2026 年 6 月在腾讯广告营销服务团队参加青云计划科研实习，2026 年 6 月获博士学位。",
+        "https://gulucaptain.github.io/"
+      ],
+      "title": "DCDM: Divide-and-Conquer Diffusion Models for Consistency-Preserving Video Generation",
+      "short": "DCDM",
+      "date": "2026-02",
+      "venue": "arXiv",
+      "area": "图像与视频生成",
+      "paper": "https://arxiv.org/html/2602.13637v1",
+      "extra": [
+        [
+          "张远在 2025 年 8 月同类工作中已只署腾讯",
+          "https://arxiv.org/html/2508.07597v2"
+        ],
+        [
+          "腾讯官方项目的同一组人员",
+          "https://tencent.github.io/MimicMotion/"
+        ],
+        [
+          "复旦大学：赵浩宇 2022 级博士生",
+          "https://ciram.fudan.edu.cn/18/f4/c49211a792820/page.htm"
+        ]
+      ],
+      "evidence": "首版首页星号在第一作者赵浩宇名下，脚注明确该项工作在腾讯青云计划实习期间完成；本人履历把这一段实习明确定位在腾讯广告营销服务团队。两位复旦导师为同论文通讯作者。仅计预印本，AAAI 比赛奖项不是正式会刊发表。",
+      "advising": [
+        "校内博士导师",
+        "赵浩宇个人履历具名列吴祖煊和姜育刚为复旦大学博士导师；两人均为该论文的复旦署名通讯作者。",
+        "https://gulucaptain.github.io/"
+      ]
+    },
+    {
+      "id": "dcdm-tencent-fudan-yu-gang",
+      "company": "腾讯",
+      "team": "广告营销服务（AMS）",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "研究期间任复旦大学计算机学科教授、博士生导师。",
+        "https://www.fudan.edu.cn/_s2/2024/0117/c1177a139081/page.psp"
+      ],
+      "employee": [
+        "张远 · Yuang Zhang",
+        "已在腾讯从事视频生成研究；本人主页列腾讯研究员身份，同期 2025 年 8 月项目仅署腾讯，2026 年 2 月本论文、2026 年 7 月 ICML 项目继续署腾讯。",
+        "https://zyayoung.github.io/"
+      ],
+      "student": [
+        "赵浩宇 · Haoyu Zhao",
+        "复旦大学 2022 级博士生，2025 年 5 月至 2026 年 6 月在腾讯广告营销服务团队参加青云计划科研实习，2026 年 6 月获博士学位。",
+        "https://gulucaptain.github.io/"
+      ],
+      "title": "DCDM: Divide-and-Conquer Diffusion Models for Consistency-Preserving Video Generation",
+      "short": "DCDM",
+      "date": "2026-02",
+      "venue": "arXiv",
+      "area": "图像与视频生成",
+      "paper": "https://arxiv.org/html/2602.13637v1",
+      "extra": [
+        [
+          "张远在 2025 年 8 月同类工作中已只署腾讯",
+          "https://arxiv.org/html/2508.07597v2"
+        ],
+        [
+          "腾讯官方项目的同一组人员",
+          "https://tencent.github.io/MimicMotion/"
+        ],
+        [
+          "复旦大学：赵浩宇 2022 级博士生",
+          "https://ciram.fudan.edu.cn/18/f4/c49211a792820/page.htm"
+        ]
+      ],
+      "evidence": "首版首页星号在第一作者赵浩宇名下，脚注明确该项工作在腾讯青云计划实习期间完成；本人履历把这一段实习明确定位在腾讯广告营销服务团队。两位复旦导师为同论文通讯作者。仅计预印本，AAAI 比赛奖项不是正式会刊发表。",
+      "advising": [
+        "校内博士导师",
+        "赵浩宇个人履历具名列吴祖煊和姜育刚为复旦大学博士导师；两人均为该论文的复旦署名通讯作者。",
+        "https://gulucaptain.github.io/"
+      ]
+    },
+    {
+      "id": "alibaba-gflowgr-cityu-xiangyu-zhao",
+      "company": "阿里巴巴",
+      "team": "阿里妈妈（Alimama）",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学数据科学系副教授，以港城大署名并任通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "employee": [
+        "Jian Xu",
+        "阿里妈妈首席算法架构师、阿里巴巴资深总监，原文署名阿里集团。",
+        "https://openreview.net/pdf/70344285d0f2f98baec78b3ab203069e8ca59a03.pdf"
+      ],
+      "student": [
+        "Yejing Wang",
+        "当时为港城大数据科学博士生，2025 年 1 月起在阿里淘天集团实习。",
+        "https://dave-adamswang.github.io/"
+      ],
+      "title": "GFlowGR: Fine-tuning Generative Recommendation Frameworks with Generative Flow Networks",
+      "short": "GFlowGR · 生成式推荐",
+      "date": "2026-07",
+      "venue": "SIGIR",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/html/2506.16114v3",
+      "extra": [
+        [
+          "港城大正式出版索引",
+          "https://scholars.cityu.edu.hk/en/publications/gflowgr-fine-tuning-generative-recommendation-frameworks-with-gen/"
+        ],
+        [
+          "ACM DOI",
+          "https://doi.org/10.1145/3805712.3809663"
+        ],
+        [
+          "2025 年 6 月首版",
+          "https://arxiv.org/abs/2506.16114"
+        ]
+      ],
+      "evidence": "论文首页具名注明第一作者 Yejing Wang 在阿里巴巴实习期间开展本论文研究；论文还记录系统于 2025 年年中上线淘宝搜索广告。港城大博士导师赵翔宇是同篇通讯作者，阿里妈妈首席算法架构师 Jian Xu 为同篇企业作者。",
+      "advising": [
+        "博士导师",
+        "学生本人主页具名列赵翔宇为香港城市大学博士导师。",
+        "https://dave-adamswang.github.io/"
+      ]
+    },
+    {
+      "id": "xiaohongshu-omnigaia-ruc-dou",
+      "company": "小红书",
+      "team": "中央平台团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "窦志成 · Zhicheng Dou",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm"
+      ],
+      "employee": [
+        "焦文祥 · Wenxiang Jiao",
+        "2025 年 9 月起在小红书担任大模型算法专家；论文署小红书。",
+        "https://wxjiao.github.io/"
+      ],
+      "student": [
+        "李晓熙 · Xiaoxi Li",
+        "2023 年 9 月起在中国人民大学攻读博士；2025 年 6 月至 2026 年 5 月在小红书 RedStar 实习。",
+        "https://xiaoxi-li1.github.io/"
+      ],
+      "title": "OmniGAIA: Towards Native Omni-Modal AI Agents",
+      "short": "OmniGAIA",
+      "date": "2026-02-26",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2602.22897v1",
+      "evidence": "论文首页点名李晓熙在小红书实习期间完成工作；焦文祥和窦志成都在同一篇文章署名。",
+      "advising": [
+        "校内导师",
+        "李晓熙主页的教育经历注明来自中国人民大学、由窦志成指导。",
+        "https://xiaoxi-li1.github.io/"
+      ],
+      "paperId": "arxiv:2602.22897"
+    },
+    {
+      "id": "kuaishou-aepo-ruc-dou",
+      "company": "快手",
+      "team": "基座大模型团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "窦志成 · Zhicheng Dou",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "公开任职履历记载 2022 年 5 月起任快手 NLP 与音频智能中心主任；论文署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "student": [
+        "董冠霆 · Guanting Dong",
+        "2024 年 9 月起为中国人民大学高瓴人工智能学院博士生，2025 年 4 月至 11 月在快手基座大模型团队担任研究实习生。",
+        "https://dongguanting.github.io/"
+      ],
+      "title": "Agentic Entropy-Balanced Policy Optimization",
+      "short": "AEPO",
+      "date": "2026-04",
+      "venue": "The Web Conference",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2510.14545v1",
+      "evidence": "首版首页脚注把工作与董冠霆在快手的实习对应起来。快手在任负责人张富峥为同篇作者，署快手。",
+      "advising": [
+        "校内共同指导",
+        "董冠霆本人主页具名列窦志成和文继荣共同指导人大的博士学业。",
+        "https://dongguanting.github.io/"
+      ],
+      "extra": [
+        [
+          "人大课题组项目",
+          "https://github.com/RUC-NLPIR/ARPO"
+        ]
+      ],
+      "paperId": "arxiv:2510.14545"
+    },
+    {
+      "id": "kuaishou-arpo-ruc-dou",
+      "company": "快手",
+      "team": "基座大模型团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "窦志成 · Zhicheng Dou",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "公开任职履历记载 2022 年 5 月起任快手 NLP 与音频智能中心主任；论文署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "student": [
+        "董冠霆 · Guanting Dong",
+        "2024 年 9 月起为中国人民大学高瓴人工智能学院博士生，2025 年 4 月至 11 月在快手基座大模型团队担任研究实习生。",
+        "https://dongguanting.github.io/"
+      ],
+      "title": "Agentic Reinforced Policy Optimization",
+      "short": "ARPO",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2507.19849v1",
+      "evidence": "首版首页脚注把工作与董冠霆在快手的实习对应起来。快手在任负责人张富峥为同篇作者，署快手。",
+      "advising": [
+        "校内共同指导",
+        "董冠霆本人主页具名列窦志成和文继荣共同指导人大的博士学业。",
+        "https://dongguanting.github.io/"
+      ],
+      "extra": [
+        [
+          "正式会议版",
+          "https://openreview.net/pdf/fad759d153870080b021de5fd0773d6b9148c7ce.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2507.19849"
+    },
+    {
+      "id": "kuaishou-aepo-ruc-wen",
+      "company": "快手",
+      "team": "基座大模型团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "文继荣 · Ji-Rong Wen",
+        "2019 年起为中国人民大学高瓴人工智能学院长聘教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/wjr/index.htm"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "公开任职履历记载 2022 年 5 月起任快手 NLP 与音频智能中心主任；论文署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "student": [
+        "董冠霆 · Guanting Dong",
+        "2024 年 9 月起为中国人民大学高瓴人工智能学院博士生，2025 年 4 月至 11 月在快手基座大模型团队担任研究实习生。",
+        "https://dongguanting.github.io/"
+      ],
+      "title": "Agentic Entropy-Balanced Policy Optimization",
+      "short": "AEPO",
+      "date": "2026-04",
+      "venue": "The Web Conference",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2510.14545v1",
+      "evidence": "首版首页脚注把工作与董冠霆在快手的实习对应起来。快手在任负责人张富峥为同篇作者，署快手。",
+      "advising": [
+        "校内共同指导",
+        "董冠霆本人主页具名列窦志成和文继荣共同指导人大的博士学业。",
+        "https://dongguanting.github.io/"
+      ],
+      "extra": [
+        [
+          "人大课题组项目",
+          "https://github.com/RUC-NLPIR/ARPO"
+        ]
+      ],
+      "paperId": "arxiv:2510.14545"
+    },
+    {
+      "id": "kuaishou-arpo-ruc-wen",
+      "company": "快手",
+      "team": "基座大模型团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "文继荣 · Ji-Rong Wen",
+        "2019 年起为中国人民大学高瓴人工智能学院长聘教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/wjr/index.htm"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "公开任职履历记载 2022 年 5 月起任快手 NLP 与音频智能中心主任；论文署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "student": [
+        "董冠霆 · Guanting Dong",
+        "2024 年 9 月起为中国人民大学高瓴人工智能学院博士生，2025 年 4 月至 11 月在快手基座大模型团队担任研究实习生。",
+        "https://dongguanting.github.io/"
+      ],
+      "title": "Agentic Reinforced Policy Optimization",
+      "short": "ARPO",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2507.19849v1",
+      "evidence": "首版首页脚注把工作与董冠霆在快手的实习对应起来。快手在任负责人张富峥为同篇作者，署快手。",
+      "advising": [
+        "校内共同指导",
+        "董冠霆本人主页具名列窦志成和文继荣共同指导人大的博士学业。",
+        "https://dongguanting.github.io/"
+      ],
+      "extra": [
+        [
+          "正式会议版",
+          "https://openreview.net/pdf/fad759d153870080b021de5fd0773d6b9148c7ce.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2507.19849"
+    },
+    {
+      "id": "alibaba-animateanymesh-hust-xiang-bai",
+      "company": "阿里巴巴",
+      "team": "达摩院 · 视觉生成",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学教授、博士生导师，原文以华中科技大学署名。",
+        "https://sse.hust.edu.cn/info/1083/3520.htm"
+      ],
+      "employee": [
+        "Chaohui Yu",
+        "2020 年起任阿里达摩院算法专家，原文以达摩院和阿里集团署名。",
+        "https://richardych.github.io/"
+      ],
+      "student": [
+        "吴子杰 · Zijie Wu",
+        "华中科技大学博士生，2023 年 5 月至 2025 年 7 月在阿里达摩院做视觉生成科研实习。",
+        "https://jarrentwu1031.github.io/"
+      ],
+      "title": "AnimateAnyMesh: A Feed-Forward 4D Foundation Model for Text-Driven Universal Mesh Animation",
+      "short": "AnimateAnyMesh",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_AnimateAnyMesh_A_Feed-Forward_4D_Foundation_Model_for_Text-Driven_Universal_Mesh_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "实习期间公开的预印本",
+          "https://arxiv.org/abs/2506.09982"
+        ],
+        [
+          "作者项目页",
+          "https://animateanymesh.github.io/AnimateAnyMesh/"
+        ],
+        [
+          "华中科技大学研究生导师名录",
+          "https://ei.hust.edu.cn/info/1177/7104.htm"
+        ]
+      ],
+      "evidence": "吴子杰把 AnimateAnyMesh 具名列为 2023 年 5 月至 2025 年 7 月在阿里达摩院实习的第一作者成果；预印本于实习结束前公开。正式版同时列出该生的华中科大和阿里达摩院署名，以及华中科大导师白翔与阿里达摩院研究员 Chaohui Yu。",
+      "advising": [
+        "博士导师",
+        "吴子杰主页具名列白翔为华中科技大学博士导师；学校 2022 年研究生名单也记载其较早的硕士指导关系。",
+        "https://jarrentwu1031.github.io/"
+      ],
+      "paperId": "arxiv:2506.09982"
+    },
+    {
+      "id": "lirf-tencent-nwpu-wang",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab · 视觉计算中心",
+      "school": "西北工业大学",
+      "studentSchool": "西北工业大学",
+      "faculty": [
+        "王庆 · Qing Wang",
+        "西北工业大学计算机学院教授，黄鑫的博士导师；为该论文的西工大署名通讯作者。",
+        "https://npu-cvpg.org/group"
+      ],
+      "employee": [
+        "张琦 · Qi Zhang",
+        "本人履历列 2021 年至 2024 年在腾讯 AI Lab 任研究员，论文署腾讯 AI Lab；黄鑫列其为实习导师。",
+        "https://qzhang-cv.github.io/"
+      ],
+      "student": [
+        "黄鑫 · Xin Huang",
+        "在读西北工业大学博士生，2021 年至 2023 年在腾讯 AI Lab 视觉计算中心实习。",
+        "https://xhuangcv.github.io/"
+      ],
+      "title": "Local Implicit Ray Function for Generalizable Radiance Field Representation",
+      "short": "LIRF",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Local_Implicit_Ray_Function_for_Generalizable_Radiance_Field_Representation_CVPR_2023_paper.pdf",
+      "extra": [
+        [
+          "CVPR 正式论文集",
+          "https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Local_Implicit_Ray_Function_for_Generalizable_Radiance_Field_Representation_CVPR_2023_paper.html"
+        ]
+      ],
+      "evidence": "CVPR 正式版在第一作者黄鑫名下标注此工作在腾讯 AI Lab 实习期间完成。同篇通讯作者分别为西工大博士导师王庆与当时在腾讯任研究员的实习导师张琦。这篇研究是新视角合成，与已收录的同组隐式相机模型论文是两篇不同的正式论文。",
+      "advising": [
+        "校内博士导师",
+        "黄鑫本人在个人简介中具名列王庆为西北工业大学博士导师。",
+        "https://xhuangcv.github.io/"
+      ]
     }
   ]
 };

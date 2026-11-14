@@ -5,19 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅机器人、遥感、自动化等相关交叉院系的公开师资。">
   <title>相关交叉院系 · 教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=318edad2b5e6">
-  <script src="data.js?v=318edad2b5e6" defer></script>
-  <script src="ui.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-data.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-titles.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-rosters.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-bibliography.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-scholar-status.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-ucas-institutes.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-catalog.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-title-values.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-unit-groups.js?v=318edad2b5e6" defer></script>
-  <script src="faculty-page.js?v=318edad2b5e6" defer></script>
+  <link rel="stylesheet" href="styles.css?v=b9364b0bebbc">
+  <script src="data.js?v=b9364b0bebbc" defer></script>
+  <script src="ui.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-data.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-titles.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-rosters.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-bibliography.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-scholar-status.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-ucas-institutes.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-catalog.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-title-values.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-unit-groups.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-paper-audit-data.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-paper-audit.js?v=b9364b0bebbc" defer></script>
+  <script src="faculty-page.js?v=b9364b0bebbc" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -47,6 +49,11 @@
           <option value="">全部</option><option value="3">三项齐全</option>
           <option value="checked">三项已核查（暂无学术主页）</option><option value="2">已核实 2 项</option>
           <option value="1">已核实 1 项</option><option value="0">尚无已核实项</option>
+        </select></label>
+        <label><span>论文关系</span><select id="faculty-paper-audit-filter">
+          <option value="">全部</option><option value="eligible">本轮调查范围</option>
+          <option value="complete">已梳理</option><option value="partial">梳理中</option>
+          <option value="unstarted">未开始</option>
         </select></label>
       </form>
       <div class="result-bar"><p id="faculty-count" aria-live="polite"></p></div>

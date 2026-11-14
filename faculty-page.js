@@ -2,6 +2,7 @@ const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
 const facultyTitle = get('faculty-title-filter');
 const facultyVerificationFilter = get('faculty-verification-filter');
+const facultyPaperAuditFilter = get('faculty-paper-audit-filter');
 const directoryPage = document.querySelector('[data-faculty-page]').dataset.facultyPage;
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
@@ -130,11 +131,50 @@ function appendFacultyBibliography(item, person, school, department) {
   }
 }
 
+function appendFacultyPaperAudit(item, person, school, department) {
+  const result = facultyPaperAuditFor(person, school, department);
+  if (!result) return;
+  const { state, audit } = result;
+  if (state === 'unstarted') {
+    item.append(element('small', '论文关系：未开始', 'faculty-paper-audit'));
+    return;
+  }
+  const details = element('details', '', 'faculty-paper faculty-paper-audit');
+  details.append(element('summary', `论文关系：${state === 'complete' ? '已梳理' : '梳理中'} · ${countFormat.format(audit.papers.length)} 篇`));
+  function populateAudit() {
+    if (!details.open) return;
+    details.removeEventListener('toggle', populateAudit);
+    const body = element('div');
+    body.append(element('small', `调查期：${audit.from} 至 ${audit.through}`));
+    if (audit.note) body.append(element('small', audit.note));
+    const sources = element('small', '论文清单来源：');
+    audit.sources.forEach((url, index) => {
+      if (index) sources.append(' · ');
+      sources.append(source(`${index + 1} ↗`, url));
+    });
+    body.append(sources);
+    if (audit.papers.length) {
+      const list = element('ol');
+      for (const paper of audit.papers) {
+        const row = element('li');
+        row.append(source(paper.title, paper.url), element('small', facultyPaperAuditLabels[paper.outcome]));
+        if (paper.note) row.append(element('small', paper.note));
+        list.append(row);
+      }
+      body.append(list);
+    }
+    details.append(body);
+  }
+  details.addEventListener('toggle', populateAudit);
+  item.append(details);
+}
+
 function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
   const title = facultyTitle.value;
   const verification = facultyVerificationFilter.value;
-  const isSearch = Boolean(words.length || title || verification);
+  const audit = facultyPaperAuditFilter.value;
+  const isSearch = Boolean(words.length || title || verification || audit);
   const schools = [];
   let matches = 0;
 
@@ -148,8 +188,11 @@ function renderFaculty() {
         (!verification || (verification === 'checked'
           ? facultyThreeCheckedWithoutScholar(person, name, department.name)
           : facultyVerification(person, name, department.name) === Number(verification))) &&
+        (!audit || (audit === 'eligible'
+          ? facultyPaperAuditFor(person, name, department.name) !== null
+          : facultyPaperAuditFor(person, name, department.name)?.state === audit)) &&
         words.every(word => context.includes(word) || person.searchKey.includes(word)));
-      const matchesSource = !title && !verification && department.sources?.some(unit => {
+      const matchesSource = !title && !verification && !audit && department.sources?.some(unit => {
         const key = facultySearchKey([unit.name, ...(unit.aliases || [])].join(' '));
         return words.every(word => context.includes(word) || key.includes(word));
       });
@@ -254,6 +297,7 @@ function renderFacultyUnit({ department, people, id }, name, isSearch) {
         item.append(reference);
       }
       appendFacultyBibliography(item, teacher, name, department.name);
+      appendFacultyPaperAudit(item, teacher, name, department.name);
       list.append(item);
     }
     section.append(list);
@@ -266,6 +310,7 @@ function updateDirectoryLinks() {
   if (facultySchool.value) params.set('school', facultySchool.value);
   if (facultyTitle.value) params.set('title', facultyTitle.value);
   if (facultyVerificationFilter.value) params.set('verified', facultyVerificationFilter.value);
+  if (facultyPaperAuditFilter.value) params.set('paper-audit', facultyPaperAuditFilter.value);
   if (facultyQuery.value.trim()) params.set('q', facultyQuery.value.trim());
   for (const link of document.querySelectorAll('.faculty-directory-nav [data-directory]')) {
     link.href = facultyDirectoryPages[link.dataset.directory] + (params.size ? `?${params}` : '');
@@ -280,6 +325,8 @@ function applyFacultyFilters() {
   else url.searchParams.delete('title');
   if (facultyVerificationFilter.value) url.searchParams.set('verified', facultyVerificationFilter.value);
   else url.searchParams.delete('verified');
+  if (facultyPaperAuditFilter.value) url.searchParams.set('paper-audit', facultyPaperAuditFilter.value);
+  else url.searchParams.delete('paper-audit');
   url.searchParams.delete('department');
   url.searchParams.delete('institute');
   if (facultyQuery.value.trim()) url.searchParams.set('q', facultyQuery.value.trim());
@@ -340,6 +387,11 @@ function setupFacultyDirectory() {
     facultyVerificationFilter.value = '';
     params.delete('verified');
   }
+  facultyPaperAuditFilter.value = params.get('paper-audit') || '';
+  if (!facultyPaperAuditFilter.value) {
+    facultyPaperAuditFilter.value = '';
+    params.delete('paper-audit');
+  }
   if (url.href !== location.href) history.replaceState(null, '', url);
   setDepartmentOptions(linkedUnit && selectedUnit !== linkedUnit ? '' : selectedDepartment);
   updateDirectoryLinks();
@@ -356,6 +408,7 @@ function setupFacultyDirectory() {
   facultyDepartment.addEventListener('change', applyFacultyFilters);
   facultyTitle.addEventListener('change', applyFacultyFilters);
   facultyVerificationFilter.addEventListener('change', applyFacultyFilters);
+  facultyPaperAuditFilter.addEventListener('change', applyFacultyFilters);
   renderFaculty();
   if (url.hash === '#faculty-rosters' || linkedUnit) {
     const target = get(url.hash.slice(1));
