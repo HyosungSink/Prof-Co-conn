@@ -22603,6 +22603,571 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2510.10095"
+    },
+    {
+      "id": "tca-captioner-meituan-nju-nkaiuasaaaaj",
+      "paperId": "arxiv:2607.01667",
+      "company": "美团",
+      "team": "LongCat 视频研究团队",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "邰颖 · Ying Tai",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "http://is.nju.edu.cn/ty/main.htm"
+      ],
+      "employee": [
+        "Xiaoming Wei",
+        "IEEE 作者履历明确其任美团视觉理解团队负责人，2025 年美团 LongCat-Video 技术报告具名，且本论文以美团署名。",
+        "https://openreview.net/pdf/8d2d9b48d3d12aa43a4296cf128712484df64868.pdf"
+      ],
+      "student": [
+        "赵晨 · Chen Zhao",
+        "南京大学博士生赵晨的论文首发正式稿脚注具名说明该研究在其美团实习期间完成，研究署名南京大学和美团。",
+        "https://tyshiwo.github.io/"
+      ],
+      "title": "Temporal and Cross-Modal Alignment for Enhanced Audiovisual Video Captioning",
+      "short": "TCA-Captioner",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/html/2607.01667",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2607.01667"
+        ],
+        [
+          "邰颖会议题录",
+          "https://tyshiwo.github.io/pub"
+        ],
+        [
+          "美团同期团队报告",
+          "https://arxiv.org/abs/2510.22200"
+        ]
+      ],
+      "evidence": "南京大学博士生赵晨的论文首发正式稿脚注具名说明该研究在其美团实习期间完成，研究署名南京大学和美团。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "邰颖在个人主页的 ECCV 2026 录用消息中具名列赵晨为其博士生，并在论文中担任通讯作者。",
+        "https://tyshiwo.github.io/"
+      ]
+    },
+    {
+      "id": "gps-tencent-thu-sugr5vaaaaaj",
+      "paperId": "arxiv:2602.01970",
+      "company": "腾讯",
+      "team": "混元大语言模型部",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "季向阳 · Xiangyang Ji",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.au.tsinghua.edu.cn/info/1080/3178.htm"
+      ],
+      "employee": [
+        "杨恺 · Kai Yang",
+        "本人履历说明 2025 年从清华毕业后任腾讯混元大模型研究员；公开研究记录至少自 2025 年 11 月起具名列表明以腾讯团队开展研究，正式原文署腾讯。",
+        "https://yk7333.github.io/"
+      ],
+      "student": [
+        "曲云 · Yun Qu",
+        "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。",
+        "https://cloud-qu.github.io/"
+      ],
+      "title": "Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models",
+      "short": "GPS",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qu26f/qu26f.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/qu26f.html"
+        ],
+        [
+          "清华智能决策组成员名录",
+          "https://thuidm.vercel.app/"
+        ],
+        [
+          "原始预印本与实习脚注",
+          "https://arxiv.org/html/2602.01970"
+        ]
+      ],
+      "evidence": "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "曲云个人学术主页具名列季向阳为其清华博士导师；季向阳在论文署名。",
+        "https://cloud-qu.github.io/"
+      ]
+    },
+    {
+      "id": "lpo-tencent-thu-sugr5vaaaaaj",
+      "paperId": "arxiv:2605.06139",
+      "company": "腾讯",
+      "team": "混元大语言模型部",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "季向阳 · Xiangyang Ji",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.au.tsinghua.edu.cn/info/1080/3178.htm"
+      ],
+      "employee": [
+        "杨恺 · Kai Yang",
+        "本人履历说明 2025 年从清华毕业后任腾讯混元大模型研究员；公开研究记录至少自 2025 年 11 月起具名列表明以腾讯团队开展研究，正式原文署腾讯。",
+        "https://yk7333.github.io/"
+      ],
+      "student": [
+        "曲云 · Yun Qu",
+        "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。",
+        "https://cloud-qu.github.io/"
+      ],
+      "title": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+      "short": "Listwise Policy Optimization",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2605.06139",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.06139"
+        ],
+        [
+          "清华智能决策组成员名录",
+          "https://thuidm.vercel.app/"
+        ],
+        [
+          "原始预印本与实习脚注",
+          "https://arxiv.org/html/2605.06139"
+        ]
+      ],
+      "evidence": "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "曲云个人学术主页具名列季向阳为其清华博士导师；季向阳在论文署名。",
+        "https://cloud-qu.github.io/"
+      ]
+    },
+    {
+      "id": "trace-tencent-thu-sugr5vaaaaaj",
+      "paperId": "arxiv:2606.11119",
+      "company": "腾讯",
+      "team": "混元大语言模型部",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "季向阳 · Xiangyang Ji",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.au.tsinghua.edu.cn/info/1080/3178.htm"
+      ],
+      "employee": [
+        "杨恺 · Kai Yang",
+        "本人履历说明 2025 年从清华毕业后任腾讯混元大模型研究员；公开研究记录至少自 2025 年 11 月起具名列表明以腾讯团队开展研究，正式原文署腾讯。",
+        "https://yk7333.github.io/"
+      ],
+      "student": [
+        "曲云 · Yun Qu",
+        "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。",
+        "https://cloud-qu.github.io/"
+      ],
+      "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+      "short": "TRACE",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.emnlp-main.1610.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2026.emnlp-main.1610/"
+        ],
+        [
+          "清华智能决策组成员名录",
+          "https://thuidm.vercel.app/"
+        ],
+        [
+          "原始预印本与实习脚注",
+          "https://arxiv.org/html/2606.11119"
+        ]
+      ],
+      "evidence": "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "曲云个人学术主页具名列季向阳为其清华博士导师；季向阳在论文署名。",
+        "https://cloud-qu.github.io/"
+      ]
+    },
+    {
+      "id": "hokoff-tencent-thu-sugr5vaaaaaj",
+      "paperId": "arxiv:2408.10556",
+      "company": "腾讯",
+      "team": "天美工作室与 AI Lab",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "季向阳 · Xiangyang Ji",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.au.tsinghua.edu.cn/info/1080/3178.htm"
+      ],
+      "employee": [
+        "叶德珩 · Deheng Ye",
+        "本人公开履历列曾任腾讯 AI 技术总监、研究合伙人；2023 年同年正式会议记载其以腾讯 AI Lab 联系人发表，且本篇署腾讯 AI Lab。",
+        "https://yedeheng.github.io/"
+      ],
+      "student": [
+        "曲云 · Yun Qu",
+        "曲云从 2022 年起在清华攻读博士；本人公开履历明确把这篇论文列为 2023 年 2 月至 6 月在腾讯天美工作室实习期间完成的研究成果，腾讯 AI Lab 官方代码库也以该文章名发布。",
+        "https://cloud-qu.github.io/"
+      ],
+      "title": "Hokoff: Real Game Dataset from Honor of Kings and its Offline Reinforcement Learning Benchmarks",
+      "short": "Hokoff",
+      "date": "2023-12",
+      "venue": "NeurIPS 2023 Datasets & Benchmarks",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/464fefa022aaefc85d901317bbf13f85-Paper-Datasets_and_Benchmarks.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2408.10556"
+        ],
+        [
+          "腾讯官方代码库",
+          "https://github.com/tencent-ailab/hokoff"
+        ],
+        [
+          "2023 年会议腾讯任职记录",
+          "https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/163/SeeHow-Workflow-Extraction-from-Programming-Screencasts-through-Action-Aware-Video-Analytics"
+        ]
+      ],
+      "evidence": "曲云从 2022 年起在清华攻读博士；本人公开履历明确把这篇论文列为 2023 年 2 月至 6 月在腾讯天美工作室实习期间完成的研究成果，腾讯 AI Lab 官方代码库也以该文章名发布。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "曲云本人学术主页明确列季向阳为清华博士导师，正式原文列季为清华合著作者。",
+        "https://cloud-qu.github.io/"
+      ]
+    },
+    {
+      "id": "bytedance-epistemic-gain-cuhksz-baoxiang-wang",
+      "company": "字节跳动",
+      "team": "ByteBrain",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "WANG, Baoxiang",
+        "香港中文大学（深圳）教师、论文共同作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/330"
+      ],
+      "student": [
+        "Dan Qiao",
+        "香港中文大学（深圳）博士生、ByteBrain 研究实习生、论文第一作者；论文首页具名确认本文在字节跳动实习期间完成。",
+        "https://qiaodan-cuhk.github.io/"
+      ],
+      "advising": [
+        "博士联合导师",
+        "学生学术主页具名两位香港中文大学（深圳）博士联合导师；两人均在本篇论文署名。",
+        "https://qiaodan-cuhk.github.io/"
+      ],
+      "employee": [
+        "Tieying Zhang",
+        "字节跳动美国研究实验室研究总监，负责 ByteBrain，论文企业通讯作者。",
+        "https://tieyingzhang.github.io/home/"
+      ],
+      "title": "Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning",
+      "short": "Epistemic Gain, Aleatoric Cost",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.mlr.press/v306/qiao26a.html",
+      "extra": [
+        [
+          "ICML 正式全文及第一作者实习脚注",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiao26a/qiao26a.pdf"
+        ],
+        [
+          "字节跳动火山引擎的 ByteBrain 团队介绍",
+          "https://developer.volcengine.com/articles/7501163777204125733"
+        ]
+      ],
+      "evidence": "ICML 正式论文首页的具名脚注说明第一作者 Dan Qiao 在字节跳动 ByteBrain 实习期间完成本篇研究。学生本人学术主页明确列出本校的两位博士联合导师以及 2025 年 4–11 月 ByteBrain 实习，两位博士导师均同篇署名。同期 ByteBrain 研究总监 Tieying Zhang 作为企业通讯作者同篇署名。"
+    },
+    {
+      "id": "bytedance-epistemic-gain-cuhksz-hongyuan-zha",
+      "company": "字节跳动",
+      "team": "ByteBrain",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "ZHA, Hongyuan",
+        "香港中文大学（深圳）教师、论文共同作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/65"
+      ],
+      "student": [
+        "Dan Qiao",
+        "香港中文大学（深圳）博士生、ByteBrain 研究实习生、论文第一作者；论文首页具名确认本文在字节跳动实习期间完成。",
+        "https://qiaodan-cuhk.github.io/"
+      ],
+      "advising": [
+        "博士联合导师",
+        "学生学术主页具名两位香港中文大学（深圳）博士联合导师；两人均在本篇论文署名。",
+        "https://qiaodan-cuhk.github.io/"
+      ],
+      "employee": [
+        "Tieying Zhang",
+        "字节跳动美国研究实验室研究总监，负责 ByteBrain，论文企业通讯作者。",
+        "https://tieyingzhang.github.io/home/"
+      ],
+      "title": "Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning",
+      "short": "Epistemic Gain, Aleatoric Cost",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.mlr.press/v306/qiao26a.html",
+      "extra": [
+        [
+          "ICML 正式全文及第一作者实习脚注",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiao26a/qiao26a.pdf"
+        ],
+        [
+          "字节跳动火山引擎的 ByteBrain 团队介绍",
+          "https://developer.volcengine.com/articles/7501163777204125733"
+        ]
+      ],
+      "evidence": "ICML 正式论文首页的具名脚注说明第一作者 Dan Qiao 在字节跳动 ByteBrain 实习期间完成本篇研究。学生本人学术主页明确列出本校的两位博士联合导师以及 2025 年 4–11 月 ByteBrain 实习，两位博士导师均同篇署名。同期 ByteBrain 研究总监 Tieying Zhang 作为企业通讯作者同篇署名。"
+    },
+    {
+      "id": "alibaba-adahc-ucas-jia",
+      "company": "阿里巴巴",
+      "team": "通义训练与系统团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "贾伟乐 · Weile Jia",
+        "中国科学院计算技术研究所研究员、博士生导师；两篇同署中国科学院大学。",
+        "https://people.ucas.ac.cn/~jiaweile"
+      ],
+      "employee": [
+        "Chang Si",
+        "本人 OpenReview 职业履历列 2022—2026 阿里云研究员，两篇中均署阿里。",
+        "https://openreview.net/profile?id=~Chang_Si1"
+      ],
+      "student": [
+        "Yan Wang",
+        "公开学术履历列 2025—2028 国科大计算所硕士研究生、2025—2026 阿里通义实习。",
+        "https://openreview.net/profile?id=~Yan_Wang81"
+      ],
+      "title": "AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism",
+      "short": "AdaHC",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "AI 系统",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gy/wang26gy.pdf",
+      "evidence": "论文第一页以星号具名标注 Yan Wang 在阿里实习时完成本研究；阿里研究人员 Chang Si、国科大导师贾伟乐均为同篇作者。",
+      "advising": [
+        "校内导师",
+        "学生本人 OpenReview 在关系栏目具名列贾伟乐为 2025—2028 年学校导师，并在教育经历列相同时期国科大硕士学籍。",
+        "https://openreview.net/profile?id=~Yan_Wang81"
+      ],
+      "extra": [
+        [
+          "出版元数据及版本",
+          "https://proceedings.mlr.press/v306/wang26gy.html"
+        ],
+        [
+          "学生本人学籍补充",
+          "https://github.com/cherryWangY"
+        ]
+      ],
+      "paperId": "pmlr:wang26gy"
+    },
+    {
+      "id": "alibaba-libra-ucas-jia",
+      "company": "阿里巴巴",
+      "team": "通义训练与系统团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "贾伟乐 · Weile Jia",
+        "中国科学院计算技术研究所研究员、博士生导师；两篇同署中国科学院大学。",
+        "https://people.ucas.ac.cn/~jiaweile"
+      ],
+      "employee": [
+        "Chang Si",
+        "本人 OpenReview 职业履历列 2022—2026 阿里云研究员，两篇中均署阿里。",
+        "https://openreview.net/profile?id=~Chang_Si1"
+      ],
+      "student": [
+        "Yan Wang",
+        "公开学术履历列 2025—2028 国科大计算所硕士研究生、2025—2026 阿里通义实习。",
+        "https://openreview.net/profile?id=~Yan_Wang81"
+      ],
+      "title": "Libra: Taming Attention Workload Skew in Long-Context LLM Training with Bounded Attention Pools",
+      "short": "Libra",
+      "date": "2026-07-25",
+      "venue": "arXiv 预印本",
+      "area": "AI 系统",
+      "paper": "https://arxiv.org/pdf/2607.23250v2",
+      "evidence": "论文第一页以星号具名标注 Yan Wang 在阿里实习时完成本研究；阿里研究人员 Chang Si、国科大导师贾伟乐均为同篇作者。",
+      "advising": [
+        "校内导师",
+        "学生本人 OpenReview 在关系栏目具名列贾伟乐为 2025—2028 年学校导师，并在教育经历列相同时期国科大硕士学籍。",
+        "https://openreview.net/profile?id=~Yan_Wang81"
+      ],
+      "extra": [
+        [
+          "出版元数据及版本",
+          "https://arxiv.org/abs/2607.23250"
+        ],
+        [
+          "学生本人学籍补充",
+          "https://github.com/cherryWangY"
+        ]
+      ],
+      "paperId": "arxiv:2607.23250"
+    },
+    {
+      "id": "tencent-solireward-hust-hu",
+      "company": "腾讯",
+      "team": "混元视频生成团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "胡龙 · Long Hu",
+        "华中科技大学计算机科学与技术学院教授，两篇均为同篇作者。",
+        "http://faculty.hust.edu.cn/hulong/zh_CN/index/585065/list/index.htm"
+      ],
+      "employee": [
+        "Zixiang Zhou",
+        "本人主页明确现任腾讯混元研究员，并列同篇 SoliReward；ICCV 2025 正式论文已列其腾讯混元任职单位。",
+        "https://zixiangzhou916.github.io/"
+      ],
+      "student": [
+        "Jiesong Lian",
+        "本人 OpenReview 履历列为 2023—2027 年华中科技大学计算机科学与技术博士生。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "title": "SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models",
+      "short": "SoliReward",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.pdf",
+      "evidence": "论文首页的腾讯混元实习脚注明确标给 Jiesong Lian；混元研究员 Zixiang Zhou 和华科校内博士导师郝义学、胡龙均为同篇署名作者。",
+      "advising": [
+        "校内博士生共同指导",
+        "学生本人在 OpenReview 的公开学术履历中将郝义学和胡龙分别列为 2023—2027 年博士导师；两位均在本篇署名。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "extra": [
+        [
+          "正式论文索引或项目页",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.html"
+        ],
+        [
+          "企业作者同期腾讯混元署名",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.pdf"
+        ],
+        [
+          "论文元数据",
+          "https://arxiv.org/abs/2512.22170"
+        ]
+      ],
+      "paperId": "arxiv:2512.22170"
+    },
+    {
+      "id": "tencent-sara-hust-hu",
+      "company": "腾讯",
+      "team": "混元视频生成团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "胡龙 · Long Hu",
+        "华中科技大学计算机科学与技术学院教授，两篇均为同篇作者。",
+        "http://faculty.hust.edu.cn/hulong/zh_CN/index/585065/list/index.htm"
+      ],
+      "employee": [
+        "Zixiang Zhou",
+        "本人主页明确现任腾讯混元研究员，并列同篇 SoliReward；ICCV 2025 正式论文已列其腾讯混元任职单位。",
+        "https://zixiangzhou916.github.io/"
+      ],
+      "student": [
+        "Jiesong Lian",
+        "本人 OpenReview 履历列为 2023—2027 年华中科技大学计算机科学与技术博士生。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "title": "SARA: Semantically Adaptive Relational Alignment for Video Diffusion Models",
+      "short": "SARA",
+      "date": "2026-05-08",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2605.07800v2",
+      "evidence": "论文首页的腾讯混元实习脚注明确标给 Jiesong Lian；混元研究员 Zixiang Zhou 和华科校内博士导师郝义学、胡龙均为同篇署名作者。",
+      "advising": [
+        "校内博士生共同指导",
+        "学生本人在 OpenReview 的公开学术履历中将郝义学和胡龙分别列为 2023—2027 年博士导师；两位均在本篇署名。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "extra": [
+        [
+          "正式论文索引或项目页",
+          "https://saradit.github.io/"
+        ],
+        [
+          "企业作者同期腾讯混元署名",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.pdf"
+        ],
+        [
+          "论文元数据",
+          "https://arxiv.org/abs/2605.07800"
+        ]
+      ],
+      "paperId": "arxiv:2605.07800"
+    },
+    {
+      "id": "tencent-tranxadapter-whu-yong-luo",
+      "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
+      "short": "TranX-Adapter",
+      "paper": "https://proceedings.mlr.press/v306/wang26cj.html",
+      "venue": "ICML",
+      "date": "2026-07",
+      "company": "腾讯",
+      "team": "腾讯优图实验室",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "多模态生成内容检测",
+      "faculty": [
+        "罗勇 · Yong Luo",
+        "武汉大学计算机学院教师；ICML 正式稿同篇作者。",
+        "http://jszy.whu.edu.cn/luoyong6/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Shouhong Ding",
+        "香港浸会大学的 IAPR/IEEE 2025 活动档案确认其为腾讯优图实验室总监，ICML 正式论文署腾讯优图。",
+        "https://www.comp.hkbu.edu.hk/wsb2025/lecturer_details.php?lect_id=2"
+      ],
+      "student": [
+        "王文斌 · Wenbin Wang",
+        "武汉大学在读博士，正式原文首页实习星号只标在其姓名后。",
+        "https://dreammr.github.io/"
+      ],
+      "advising": [
+        "校内博士导师",
+        "王文斌的作者档案及本人主页具名列罗勇为武汉大学博士导师。",
+        "https://openreview.net/profile?id=~Wenbin_Wang2"
+      ],
+      "evidence": "ICML 正式论文首页具名标注第一作者王文斌在腾讯优图实习期间完成该工作，企业作者 Shouhong Ding 与校内导师罗勇同时署名。学生本人主页注明校内博士身份并确认该论文。",
+      "extra": [
+        [
+          "正式论文 PDF（含具名脚注）",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26cj/wang26cj.pdf"
+        ],
+        [
+          "首发预印本",
+          "https://arxiv.org/abs/2602.21716"
+        ]
+      ]
     }
   ]
 };

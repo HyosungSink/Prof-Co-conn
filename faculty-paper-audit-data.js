@@ -5232,6 +5232,12 @@ const facultyPaperAudits = {
         "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhao26d/zhao26d.pdf",
         "outcome": "confirmed",
         "note": "第一作者赵晨是南京大学在读博士，ICML 正式原文点名确认其在美团实习期间完成这项工作。"
+      },
+      {
+        "title": "Temporal and Cross-Modal Alignment for Enhanced Audiovisual Video Captioning",
+        "url": "https://arxiv.org/html/2607.01667",
+        "outcome": "confirmed",
+        "note": "南京大学博士生赵晨的论文首发正式稿脚注具名说明该研究在其美团实习期间完成，研究署名南京大学和美团。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -5870,5 +5876,129 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐项比对作者的公开书目、DBLP 和 IACR 署名及学校存档。七篇论文与一篇学位论文；各预印本及正式版合并。"
+  },
+  "SUgR5VAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.au.tsinghua.edu.cn/info/1080/3178.htm",
+      "https://cloud-qu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qu26f/qu26f.pdf",
+        "outcome": "confirmed",
+        "note": "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。"
+      },
+      {
+        "title": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+        "url": "https://arxiv.org/html/2605.06139",
+        "outcome": "confirmed",
+        "note": "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。"
+      },
+      {
+        "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+        "url": "https://aclanthology.org/2026.emnlp-main.1610.pdf",
+        "outcome": "confirmed",
+        "note": "曲云在论文相关实习时为清华在读博士，原文姓名后的脚注明确研究是在腾讯实习期间完成。本人履历公开腾讯混元实习时间为 2025 年 11 月至 2026 年 5 月。"
+      },
+      {
+        "title": "Hokoff: Real Game Dataset from Honor of Kings and its Offline Reinforcement Learning Benchmarks",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/464fefa022aaefc85d901317bbf13f85-Paper-Datasets_and_Benchmarks.pdf",
+        "outcome": "confirmed",
+        "note": "曲云从 2022 年起在清华攻读博士；本人公开履历明确把这篇论文列为 2023 年 2 月至 6 月在腾讯天美工作室实习期间完成的研究成果，腾讯 AI Lab 官方代码库也以该文章名发布。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "cQe4OeYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.mlr.press/v306/qiao26a.html",
+      "https://qiaodan-cuhk.github.io/",
+      "https://sds.cuhk.edu.cn/en/teacher/330",
+      "https://tieyingzhang.github.io/home/",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiao26a/qiao26a.pdf",
+      "https://developer.volcengine.com/articles/7501163777204125733"
+    ],
+    "papers": [
+      {
+        "title": "Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning",
+        "url": "https://proceedings.mlr.press/v306/qiao26a.html",
+        "outcome": "confirmed",
+        "note": "ICML 正式论文首页的具名脚注说明第一作者 Dan Qiao 在字节跳动 ByteBrain 实习期间完成本篇研究。学生本人学术主页明确列出本校的两位博士联合导师以及 2025 年 4–11 月 ByteBrain 实习，两位博士导师均同篇署名。同期 ByteBrain 研究总监 Tieying Zhang 作为企业通讯作者同篇署名。"
+      }
+    ]
+  },
+  "n1DQMIsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.mlr.press/v306/qiao26a.html",
+      "https://qiaodan-cuhk.github.io/",
+      "https://sds.cuhk.edu.cn/en/teacher/65",
+      "https://tieyingzhang.github.io/home/",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qiao26a/qiao26a.pdf",
+      "https://developer.volcengine.com/articles/7501163777204125733"
+    ],
+    "papers": [
+      {
+        "title": "Epistemic Gain, Aleatoric Cost: Uncertainty Decomposition in Multi-Agent Debate for Math Reasoning",
+        "url": "https://proceedings.mlr.press/v306/qiao26a.html",
+        "outcome": "confirmed",
+        "note": "ICML 正式论文首页的具名脚注说明第一作者 Dan Qiao 在字节跳动 ByteBrain 实习期间完成本篇研究。学生本人学术主页明确列出本校的两位博士联合导师以及 2025 年 4–11 月 ByteBrain 实习，两位博士导师均同篇署名。同期 ByteBrain 研究总监 Tieying Zhang 作为企业通讯作者同篇署名。"
+      }
+    ]
+  },
+  "Kzi4rW0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~jiaweile",
+      "https://openreview.net/profile?id=~Yan_Wang81",
+      "https://openreview.net/profile?id=~Chang_Si1",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gy/wang26gy.pdf",
+      "https://arxiv.org/pdf/2607.23250v2"
+    ],
+    "papers": [
+      {
+        "title": "AdaHC: Accelerating Multi-Token Prediction with Adaptive Head Chunking with Pipeline Parallelism",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gy/wang26gy.pdf",
+        "outcome": "confirmed",
+        "note": "具名阿里实习脚注；学生和企业人员各自的公开专业履历能记录同期的学籍、任职和师生关系。"
+      },
+      {
+        "title": "Libra: Taming Attention Workload Skew in Long-Context LLM Training with Bounded Attention Pools",
+        "url": "https://arxiv.org/pdf/2607.23250v2",
+        "outcome": "confirmed",
+        "note": "具名阿里实习脚注；学生和企业人员各自的公开专业履历能记录同期的学籍、任职和师生关系。"
+      }
+    ],
+    "note": "已核对 Yan Wang 的两篇具名合作及补查同组项目；未覆盖教师全部论文。"
+  },
+  "zb1oVGIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://jszy.whu.edu.cn/luoyong6/zh_CN/index.htm",
+      "https://proceedings.mlr.press/v306/wang26cj.html",
+      "https://dreammr.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
+        "url": "https://proceedings.mlr.press/v306/wang26cj.html",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "ICML 正式论文首页具名标注第一作者王文斌在腾讯优图实习期间完成该工作，企业作者 Shouhong Ding 与校内导师罗勇同时署名。学生本人主页注明校内博士身份并确认该论文。"
+      }
+    ]
   }
 };
