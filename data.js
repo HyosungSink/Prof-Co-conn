@@ -16925,6 +16925,778 @@ const survey = {
         ]
       ],
       "evidence": "ACL 正式论文首页将具名的腾讯实习脚注标在第一作者 Yang Yang 的姓名后。个人履历可对应中山大学博士学籍和姚亮导师；姚亮与腾讯互娱的同篇作者共同发表。"
+    },
+    {
+      "id": "duplexsurvey-alibaba-zju-iiofy90aaaaj",
+      "paperId": "arxiv:2606.19453",
+      "company": "阿里巴巴",
+      "team": "千问语音团队",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "赵洲 · Zhou Zhao",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/zhaozhou"
+      ],
+      "employee": [
+        "蒋冠军 · Guanjun Jiang",
+        "中国计算机学会 2026 年大会的官方开幕报道列蒋冠军时任阿里巴巴 ATH 副总裁；正式论文由蒋冠军以阿里千问事业部署名。",
+        "https://www.ccf.org.cn/Media_list/cncc/2026-10-22/943724.shtml"
+      ],
+      "student": [
+        "陆晶宇 · Jingyu Lu",
+        "陆晶宇是浙江大学在读硕士，个人履历列 2026 年 4 月起在阿里千问语音组实习，具体从事全双工语音对话；正式论文具名列其为首位作者，并同时注明浙江大学和阿里千问双重署名。",
+        "https://myjokerml.github.io/"
+      ],
+      "title": "Speaking While Listening: A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems",
+      "short": "Speaking While Listening",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "语音与多模态",
+      "paper": "https://aclanthology.org/2026.emnlp-main.1126.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2026.emnlp-main.1126/"
+        ],
+        [
+          "第一版预印本和项目代码",
+          "https://arxiv.org/abs/2606.19453"
+        ],
+        [
+          "主办方同期任职介绍",
+          "https://04665u.npoall.com/news/itemid-297307.html"
+        ]
+      ],
+      "evidence": "陆晶宇是浙江大学在读硕士，个人履历列 2026 年 4 月起在阿里千问语音组实习，具体从事全双工语音对话；正式论文具名列其为首位作者，并同时注明浙江大学和阿里千问双重署名。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陆晶宇的教育履历明确列赵洲为浙江大学硕士生导师；赵洲是正式版的通讯作者。",
+        "https://myjokerml.github.io/"
+      ]
+    },
+    {
+      "id": "outcome-accuracy-alibaba-fudan-xfqr3yyaaaaj",
+      "paperId": "arxiv:2602.04649",
+      "company": "阿里巴巴",
+      "team": "千问后训练团队",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "张奇 · Qi Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.fudan.edu.cn/5b/f8/c30604a482296/page.htm"
+      ],
+      "employee": [
+        "郁博文 · Bowen Yu",
+        "个人履历具名列其为阿里千问后训练负责人；2025 年千问技术报告有其阿里团队署名，此论文首发及正式版亦列其阿里署名。",
+        "https://yubowen-ph.github.io/"
+      ],
+      "student": [
+        "汪冰海 · Binghai Wang",
+        "复旦硕博连读生汪冰海在个人履历中记载 2024 年 10 月至 2026 年 5 月在阿里千问后训练组实习，并列此篇为一作成果。该论文在实习期内首发；正式版具名以复旦和阿里双署名，并单独注明他是阿里千问实习生。",
+        "https://refrain-wbh.github.io/"
+      ],
+      "title": "Outcome Accuracy is Not Enough: Aligning the Reasoning Process of Reward Models",
+      "short": "Outcome Accuracy is Not Enough",
+      "date": "2026-07",
+      "venue": "ACL 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.1924.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2026.acl-long.1924/"
+        ],
+        [
+          "在学生实习期公开的原始论文",
+          "https://arxiv.org/abs/2602.04649"
+        ],
+        [
+          "阿里千问团队同期报告",
+          "https://arxiv.org/abs/2505.09388"
+        ]
+      ],
+      "evidence": "复旦硕博连读生汪冰海在个人履历中记载 2024 年 10 月至 2026 年 5 月在阿里千问后训练组实习，并列此篇为一作成果。该论文在实习期内首发；正式版具名以复旦和阿里双署名，并单独注明他是阿里千问实习生。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "汪冰海的复旦学籍经历具名列张奇、黄萱菁等为共同导师；正式版有其具名作者。",
+        "https://refrain-wbh.github.io/"
+      ]
+    },
+    {
+      "id": "outcome-accuracy-alibaba-fudan-rgsmgza4h78c",
+      "paperId": "arxiv:2602.04649",
+      "company": "阿里巴巴",
+      "team": "千问后训练团队",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "黄萱菁 · Xuanjing Huang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.fudan.edu.cn/c3/e8/c30604a443368/page.htm"
+      ],
+      "employee": [
+        "郁博文 · Bowen Yu",
+        "个人履历具名列其为阿里千问后训练负责人；2025 年千问技术报告有其阿里团队署名，此论文首发及正式版亦列其阿里署名。",
+        "https://yubowen-ph.github.io/"
+      ],
+      "student": [
+        "汪冰海 · Binghai Wang",
+        "复旦硕博连读生汪冰海在个人履历中记载 2024 年 10 月至 2026 年 5 月在阿里千问后训练组实习，并列此篇为一作成果。该论文在实习期内首发；正式版具名以复旦和阿里双署名，并单独注明他是阿里千问实习生。",
+        "https://refrain-wbh.github.io/"
+      ],
+      "title": "Outcome Accuracy is Not Enough: Aligning the Reasoning Process of Reward Models",
+      "short": "Outcome Accuracy is Not Enough",
+      "date": "2026-07",
+      "venue": "ACL 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.1924.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2026.acl-long.1924/"
+        ],
+        [
+          "在学生实习期公开的原始论文",
+          "https://arxiv.org/abs/2602.04649"
+        ],
+        [
+          "阿里千问团队同期报告",
+          "https://arxiv.org/abs/2505.09388"
+        ]
+      ],
+      "evidence": "复旦硕博连读生汪冰海在个人履历中记载 2024 年 10 月至 2026 年 5 月在阿里千问后训练组实习，并列此篇为一作成果。该论文在实习期内首发；正式版具名以复旦和阿里双署名，并单独注明他是阿里千问实习生。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "汪冰海的复旦学籍经历具名列张奇、黄萱菁等为共同导师；正式版有其具名作者。",
+        "https://refrain-wbh.github.io/"
+      ]
+    },
+    {
+      "id": "meituan-carg-buaa-fuzhen-zhuang",
+      "company": "美团",
+      "team": "美团本地生活搜索",
+      "school": "北京航空航天大学",
+      "studentSchool": "北京航空航天大学",
+      "faculty": [
+        "庄福振 · Fuzhen Zhuang",
+        "北航人工智能研究院教授；同篇通讯作者。",
+        "https://iai.buaa.edu.cn/info/1131/1741.htm"
+      ],
+      "student": [
+        "张富威 · Fuwei Zhang",
+        "2023 年入学的北航博士生；共同第一作者。正式论文点名两位第一作者均在美团实习且期间完成本研究。",
+        "https://zhangfw123.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "张富威本人网页明确列庄福振为北航博士导师；论文首页另外明确列出庄福振提供学术指导。",
+        "https://zhangfw123.github.io/"
+      ],
+      "employee": [
+        "奚冬博 · Dongbo Xi",
+        "美团研究工程师；个人主页明确列出此文及在美团的职位，正式论文同期署美团。",
+        "https://xidongbo.github.io/"
+      ],
+      "title": "From Historical Queries to Actionable Rubrics: Category-Aware Rubric Generation for Local-Life AI Search",
+      "short": "CaRG",
+      "date": "2026-10",
+      "venue": "EMNLP 2026 Industry Track",
+      "area": "生成式搜索与大模型评测",
+      "paper": "https://aclanthology.org/2026.emnlp-industry.65/",
+      "extra": [
+        [
+          "正式论文具名实习和指导脚注",
+          "https://aclanthology.org/2026.emnlp-industry.65.pdf"
+        ]
+      ],
+      "evidence": "论文首页明确说明北航学生张富威等在美团实习期间完成本篇研究，且庄福振提供远程学术指导。张富威本人说明庄福振为其博士导师；合著者奚冬博的公开履历列出本论文及美团研究工程师身份。"
+    },
+    {
+      "id": "kuaishou-rolegen-buaa-fuzhen-zhuang",
+      "company": "快手",
+      "team": "快手电商推荐",
+      "school": "北京航空航天大学",
+      "studentSchool": "北京航空航天大学",
+      "faculty": [
+        "庄福振 · Fuzhen Zhuang",
+        "北航人工智能研究院教授；同篇通讯作者。",
+        "https://iai.buaa.edu.cn/info/1131/1741.htm"
+      ],
+      "student": [
+        "罗慧诗 · Huishi Luo",
+        "2022 年 9 月入学的北航人工智能博士生；具名快手实习脚注的第一作者。",
+        "https://chrissie-law.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "罗慧诗个人学术主页明确记载在北航由庄福振指导。",
+        "https://chrissie-law.github.io/"
+      ],
+      "employee": [
+        "欧文武 · Wenwu Ou",
+        "2025 年 1 月已重返快手担任技术岗位的合著者；正式论文和公开预印本都列其为快手团队作者。",
+        "https://finance.sina.com.cn/tech/roll/2025-01-09/doc-ineeitpc6547801.shtml"
+      ],
+      "title": "Awakening Dormant Users: Modeling Intent Evolution via LLM-based Functional Role Reasoning for Generative Recommendation",
+      "short": "RoleGen",
+      "date": "2026-10",
+      "venue": "EMNLP 2026 Industry Track",
+      "area": "生成式推荐",
+      "paper": "https://aclanthology.org/2026.emnlp-industry.199/",
+      "extra": [
+        [
+          "正式论文具名实习脚注",
+          "https://aclanthology.org/2026.emnlp-industry.199.pdf"
+        ],
+        [
+          "早期同篇公开预印本",
+          "https://arxiv.org/abs/2602.13134"
+        ]
+      ],
+      "evidence": "论文首页仅在第一作者罗慧诗姓名处注明快手实习期间完成；罗慧诗的学术主页明确写明庄福振是她的博士导师，庄福振为论文通讯作者。快手方合著者欧文武的任职记录与同篇论文署名互证。"
+    },
+    {
+      "id": "ant-lifelong-mgt-attribution-hkust-gz-yutao-yue",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团安全与隐私研究",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Yutao Yue",
+        "香港科技大学（广州）协同导师、正式论文共同作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue#new_tab"
+      ],
+      "student": [
+        "Zhen Sun",
+        "港科大（广州）在读博士、第一作者；首页具名脚注说明本文为蚂蚁集团实习工作。",
+        "https://zhensun.cn/"
+      ],
+      "advising": [
+        "博士协同导师",
+        "Zhen Sun 个人学术主页明确列明 Yutao Yue 为港科大（广州）协同导师。",
+        "https://zhensun.cn/"
+      ],
+      "employee": [
+        "黄智聪 · Zhicong Huang",
+        "2023 年起任蚂蚁集团研究科学家；个人研究团队名单列 Zhen Sun，正式论文同期署蚂蚁集团并担任通讯作者。",
+        "https://zicofish.github.io/"
+      ],
+      "title": "When New Generators Arrive: Lifelong Machine-Generated Text Attribution via Ridge Feature Transfer",
+      "short": "Lifelong MGT Attribution",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "机器生成文本溯源",
+      "paper": "https://aclanthology.org/2026.emnlp-main.993/",
+      "extra": [
+        [
+          "正式论文具名蚂蚁实习脚注",
+          "https://aclanthology.org/2026.emnlp-main.993.pdf"
+        ]
+      ],
+      "evidence": "论文首页在 Zhen Sun 姓名旁用星号标注该研究由其在蚂蚁集团实习期间完成；学生本人列明 Yutao Yue 的博士协同指导职责，两人均在正式论文署名；合著者黄智聪的公开履历列出同期的蚂蚁正式研究岗位。"
+    },
+    {
+      "id": "tencent-adaptime-cityu-xiangyu-zhao",
+      "company": "腾讯",
+      "team": "腾讯优图 Jarvis 研究中心",
+      "school": "香港城市大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "香港城市大学数据科学系副教授；同篇通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "邓怡敏 · Yimin Deng",
+        "西安交大与香港城市大学联合博士生、论文第一作者；论文具名脚注说明在腾讯 Jarvis Lab 开展该项研究。",
+        "https://aml-cityu.github.io/team/"
+      ],
+      "advising": [
+        "联合培养博士导师",
+        "香港城市大学研究人员门户在赵老师的 Supervised Students 栏具名列出邓怡敏，课题组列 CityU–XJTU 联合博士培养。",
+        "https://scholars.cityu.edu.hk/en/persons/xianzhao/"
+      ],
+      "employee": [
+        "Xian Wu",
+        "2017 年加入腾讯，当期任 Jarvis 研究中心主任和专家研究员；以腾讯署名并担任通讯作者。",
+        "https://jarvislab.tencent.com/index-en.html"
+      ],
+      "title": "AdapTime: Enabling Adaptive Temporal Reasoning in Large Language Models",
+      "short": "AdapTime",
+      "date": "2026-07",
+      "venue": "Findings of ACL 2026",
+      "area": "大模型时间推理",
+      "paper": "https://aclanthology.org/2026.findings-acl.1621/",
+      "extra": [
+        [
+          "正式论文首页学生开展研究的脚注",
+          "https://aclanthology.org/2026.findings-acl.1621.pdf"
+        ],
+        [
+          "校际联合培养名单",
+          "https://aml-cityu.github.io/team/"
+        ]
+      ],
+      "evidence": "正式论文首页由第一作者邓怡敏的星号脚注指明工作在腾讯 Jarvis Lab 完成；港城大明确列赵翔宇指导该生，课题组列为与西交大联合培养。导师是通讯作者；腾讯官网确认论文的企业通讯作者 Xian Wu 加入时间与雇用职务。"
+    },
+    {
+      "id": "tencent-multidx-cityu-xiangyu-zhao",
+      "company": "腾讯",
+      "team": "腾讯优图 Jarvis 研究中心",
+      "school": "香港城市大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "香港城市大学数据科学系副教授；同篇通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "邓怡敏 · Yimin Deng",
+        "西安交大与香港城市大学联合博士生、论文第一作者；论文具名脚注说明在腾讯 Jarvis Lab 开展该项研究。",
+        "https://aml-cityu.github.io/team/"
+      ],
+      "advising": [
+        "联合培养博士导师",
+        "香港城市大学研究人员门户在赵老师的 Supervised Students 栏具名列出邓怡敏，课题组列 CityU–XJTU 联合博士培养。",
+        "https://scholars.cityu.edu.hk/en/persons/xianzhao/"
+      ],
+      "employee": [
+        "Xian Wu",
+        "2017 年加入腾讯，当期任 Jarvis 研究中心主任和专家研究员；以腾讯署名并担任通讯作者。",
+        "https://jarvislab.tencent.com/index-en.html"
+      ],
+      "title": "MultiDx: A Multi-Source Knowledge Integration Framework towards Diagnostic Reasoning",
+      "short": "MultiDx",
+      "date": "2026-07",
+      "venue": "Findings of ACL 2026",
+      "area": "临床诊断推理",
+      "paper": "https://aclanthology.org/2026.findings-acl.1646/",
+      "extra": [
+        [
+          "正式论文首页学生开展研究的脚注",
+          "https://aclanthology.org/2026.findings-acl.1646.pdf"
+        ],
+        [
+          "校际联合培养名单",
+          "https://aml-cityu.github.io/team/"
+        ]
+      ],
+      "evidence": "正式论文首页由第一作者邓怡敏的星号脚注指明工作在腾讯 Jarvis Lab 完成；港城大明确列赵翔宇指导该生，课题组列为与西交大联合培养。导师是通讯作者；腾讯官网确认论文的企业通讯作者 Xian Wu 加入时间与雇用职务。"
+    },
+    {
+      "id": "baidu-tome-ruc-zhao",
+      "company": "百度",
+      "team": "NLP 部",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "赵鑫 · Wayne Xin Zhao",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/zx/index.htm"
+      ],
+      "employee": [
+        "刘璟 · Jing Liu",
+        "本人公开履历记载 2017 年 12 月起在百度任职，并列出对应研究；正式版署百度、为共同通讯作者。",
+        "https://legendarydan.github.io/"
+      ],
+      "student": [
+        "任瑞阳 · Ruiyang Ren",
+        "中国人民大学博士生，其本人主页记载 2020 年 5 月至 2024 年 7 月在百度 NLP 部实习，企业导师为刘璟。",
+        "https://rui-yang.ren/index.html"
+      ],
+      "title": "TOME: A Two-stage Approach for Model-based Retrieval",
+      "short": "TOME",
+      "date": "2023-07",
+      "venue": "ACL",
+      "area": "搜索与推荐",
+      "paper": "https://aclanthology.org/2023.acl-long.336.pdf",
+      "evidence": "正式版首页的实习脚注明确标给任瑞阳，注明工作在百度实习期间完成；校内导师赵鑫与在任百度研究员刘璟均为同篇通讯作者。",
+      "advising": [
+        "校内博士生导师",
+        "任瑞阳本人主页具名列赵鑫为中国人民大学的博士生导师。",
+        "https://rui-yang.ren/index.html"
+      ],
+      "extra": [
+        [
+          "正式出版索引",
+          "https://aclanthology.org/2023.acl-long.336/"
+        ]
+      ],
+      "paperId": "doi:10.18653/v1/2023.acl-long.336"
+    },
+    {
+      "id": "baidu-knowledge-boundary-ruc-zhao",
+      "company": "百度",
+      "team": "NLP 部",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "赵鑫 · Wayne Xin Zhao",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/zx/index.htm"
+      ],
+      "employee": [
+        "刘璟 · Jing Liu",
+        "本人公开履历记载 2017 年 12 月起在百度任职，并列出对应研究；正式版署百度、为共同通讯作者。",
+        "https://legendarydan.github.io/"
+      ],
+      "student": [
+        "任瑞阳 · Ruiyang Ren",
+        "中国人民大学博士生，其本人主页记载 2020 年 5 月至 2024 年 7 月在百度 NLP 部实习，企业导师为刘璟。",
+        "https://rui-yang.ren/index.html"
+      ],
+      "title": "Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation",
+      "short": "KNOWLEDGE-BOUNDARY",
+      "date": "2025-01",
+      "venue": "COLING",
+      "area": "搜索与推荐",
+      "paper": "https://aclanthology.org/2025.coling-main.250.pdf",
+      "evidence": "正式版首页的实习脚注明确标给任瑞阳，注明工作在百度实习期间完成；校内导师赵鑫与在任百度研究员刘璟均为同篇通讯作者。",
+      "advising": [
+        "校内博士生导师",
+        "任瑞阳本人主页具名列赵鑫为中国人民大学的博士生导师。",
+        "https://rui-yang.ren/index.html"
+      ],
+      "extra": [
+        [
+          "正式出版索引",
+          "https://aclanthology.org/2025.coling-main.250/"
+        ]
+      ],
+      "paperId": "arxiv:2307.11019"
+    },
+    {
+      "id": "baidu-matchtir-ruc-jun-xu",
+      "company": "百度",
+      "team": "搜索策略部门",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "王帅强 · Shuaiqiang Wang",
+        "本人职业主页称任百度首席架构师；其 2023 年 CCIR 署名演讲和本篇均为百度搜索。",
+        "https://cn.linkedin.com/in/sqwang"
+      ],
+      "student": [
+        "渠常乐 · Changle Qu",
+        "2023 年 9 月起为中国人民大学博士生；本人主页列百度搜索策略部门实习经历。",
+        "https://quchangle1.github.io/"
+      ],
+      "title": "MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching",
+      "short": "MatchTIR",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.549.pdf",
+      "evidence": "正式版首页只给渠常乐标注星号，注明本研究在百度实习期间完成；徐君为通讯作者，百度研究员王帅强署同篇。",
+      "advising": [
+        "校内博士生导师",
+        "渠常乐公开主页注明他在中国人民大学攻读博士，受徐君教授指导。",
+        "https://quchangle1.github.io/"
+      ],
+      "extra": [
+        [
+          "CCIR 公开企业演讲",
+          "https://www.cips-ir.org.cn/CCIR2023/assets/industry-baidu.pdf"
+        ],
+        [
+          "正式出版索引",
+          "https://aclanthology.org/2026.acl-long.549/"
+        ]
+      ],
+      "paperId": "doi:10.18653/v1/2026.acl-long.549"
+    },
+    {
+      "id": "tencent-gist-token-ruc-dou",
+      "company": "腾讯",
+      "team": "AI Lab",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "窦志成 · Zhicheng Dou",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm"
+      ],
+      "employee": [
+        "俞栋 · Dong Yu",
+        "本人主页记载其曾任腾讯 AI Lab 杰出科学家、副总经理至 2026 年；论文署腾讯 AI Lab。",
+        "https://dongyu888.github.io/"
+      ],
+      "student": [
+        "邓琛龙 · Chenlong Deng",
+        "本人主页列 2022 年起为中国人民大学博士生，2024 年 4 月到 2025 年 7 月在腾讯 AI Lab 研究实习。",
+        "https://dengchenlong.com/"
+      ],
+      "title": "A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression",
+      "short": "Gist Token 压缩",
+      "date": "2025-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2025.acl-long.241.pdf",
+      "evidence": "正式版首页把腾讯 AI Lab 的实习脚注标给邓琛龙本人；校内博士生导师窦志成为通讯作者，腾讯 AI Lab 研究员俞栋为同篇作者。",
+      "advising": [
+        "校内博士生导师",
+        "邓琛龙本人主页注明在中国人民大学攻读博士期间由窦志成指导。",
+        "https://dengchenlong.com/"
+      ],
+      "extra": [
+        [
+          "IEEE 受邀报告履历",
+          "https://signalprocessingsociety.org/index.php/education-training/distinguished-industry-speakers"
+        ]
+      ],
+      "paperId": "doi:10.18653/v1/2025.acl-long.241"
+    },
+    {
+      "id": "tencent-unigist-ruc-dou",
+      "company": "腾讯",
+      "team": "AI Lab",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "窦志成 · Zhicheng Dou",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm"
+      ],
+      "employee": [
+        "俞栋 · Dong Yu",
+        "本人主页记载其曾任腾讯 AI Lab 杰出科学家、副总经理至 2026 年；论文署腾讯 AI Lab。",
+        "https://dongyu888.github.io/"
+      ],
+      "student": [
+        "邓琛龙 · Chenlong Deng",
+        "本人主页列 2022 年起为中国人民大学博士生，2024 年 4 月到 2025 年 7 月在腾讯 AI Lab 研究实习。",
+        "https://dengchenlong.com/"
+      ],
+      "title": "UniGist: Towards General and Hardware-aligned Sequence-level Long Context Compression",
+      "short": "UniGist",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "area": "语言模型与智能体",
+      "paper": "https://openreview.net/pdf/8757228d10c75444816024ec46d5a907c5baeebc.pdf",
+      "evidence": "正式版首页把腾讯 AI Lab 的实习脚注标给邓琛龙本人；校内博士生导师窦志成为通讯作者，腾讯 AI Lab 研究员俞栋为同篇作者。",
+      "advising": [
+        "校内博士生导师",
+        "邓琛龙本人主页注明在中国人民大学攻读博士期间由窦志成指导。",
+        "https://dengchenlong.com/"
+      ],
+      "extra": [
+        [
+          "IEEE 受邀报告履历",
+          "https://signalprocessingsociety.org/index.php/education-training/distinguished-industry-speakers"
+        ]
+      ]
+    },
+    {
+      "id": "alibaba-gd2po-ruc-hongteng",
+      "company": "阿里巴巴",
+      "team": "Qwen 大模型应用团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "许洪腾 · Hongteng Xu",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xht/index.htm"
+      ],
+      "employee": [
+        "Pengyu Cheng",
+        "公开简历记载 2025 年 7 月起为阿里 Qwen 应用研究团队研究员、负责强化学习方向；这篇论文为企业方通讯作者。",
+        "https://linear95.github.io/files/CV_Pengyu_Cheng_online.pdf"
+      ],
+      "student": [
+        "刘浩天 · Haotian Liu",
+        "校内导师主页列为 2024 年起在读博士；正式版首页标注刘浩天在阿里实习完成本研究，作者单位列中国人民大学和阿里 Qwen。",
+        "https://hongtengxu.github.io/students.html"
+      ],
+      "title": "GD2PO: Group-Dynamic Reward-Decoupled Policy Optimization for Mitigating Multi-Reward RL Conflicts",
+      "short": "GD²PO",
+      "date": "2026-10",
+      "venue": "Findings of EMNLP",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.findings-emnlp.1070.pdf",
+      "evidence": "正式版把阿里实习脚注标于刘浩天等人名下，刘浩天列中国人民大学和 Qwen；导师许洪腾与阿里研究员 Pengyu Cheng 为同篇通讯作者。",
+      "advising": [
+        "校内博士生导师",
+        "许洪腾本人公开学生一览具名列刘浩天为 2024 年起的博士生。",
+        "https://hongtengxu.github.io/students.html"
+      ],
+      "extra": [
+        [
+          "正式出版元数据",
+          "https://aclanthology.org/2026.findings-emnlp.1070/"
+        ],
+        [
+          "阿里 Qwen 官方项目",
+          "https://github.com/Qwen-Applications/GD2PO"
+        ]
+      ],
+      "paperId": "arxiv:2606.16771"
+    },
+    {
+      "id": "ant-ltt-whu-chenliang-li",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "蚂蚁集团",
+      "team": "语言智能",
+      "area": "机器翻译",
+      "title": "Learning to Translate by Translating: Stabilizing the Dual Loop via Semantic-Aware Self-Evolution",
+      "short": "LTT",
+      "date": "2026-07",
+      "venue": "Findings of ACL",
+      "paper": "https://aclanthology.org/2026.findings-acl.723.pdf",
+      "faculty": [
+        "李晨亮 · Chenliang Li",
+        "武汉大学国家网络安全学院教授、论文通讯作者。",
+        "https://cse.whu.edu.cn/info/3421/37491.htm"
+      ],
+      "student": [
+        "Kui Liu",
+        "武汉大学硕士研究生，导师课题组列自 2023 年 9 月起就读；ACL 论文在其姓名后标注研究完成于蚂蚁集团实习期间。",
+        "https://lichenliang.net/"
+      ],
+      "employee": [
+        "Jun Zhou",
+        "论文中使用蚂蚁企业署名，与 Kui Liu 等共同发表；IEEE 正式论文作者简历记载其为蚂蚁高级技术人员。",
+        "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf"
+      ],
+      "advising": [
+        "硕士指导",
+        "李晨亮公开课题组名单列 Kui Liu 为硕士生，且为该篇正式论文通讯作者。",
+        "https://lichenliang.net/"
+      ],
+      "extra": [
+        [
+          "会议正式记录",
+          "https://aclanthology.org/2026.findings-acl.723/"
+        ]
+      ],
+      "evidence": "正式论文首页的实习标记明确指向第一作者 Kui Liu；导师名单与同篇署名可分别核对其武汉大学研究生身份、导师与蚂蚁在职共同作者。"
+    },
+    {
+      "id": "ant-ridgeft-whu-xinlei-he",
+      "school": "武汉大学",
+      "studentSchool": "香港科技大学（广州）",
+      "company": "蚂蚁集团",
+      "team": "AI 安全研究",
+      "area": "生成文本归因",
+      "title": "When New Generators Arrive: Lifelong Machine-Generated Text Attribution via Ridge Feature Transfer",
+      "short": "RidgeFT",
+      "date": "2026-10",
+      "venue": "EMNLP",
+      "paper": "https://aclanthology.org/2026.emnlp-main.993.pdf",
+      "faculty": [
+        "何新磊 · Xinlei He",
+        "武汉大学国家网络安全学院研究员，论文校方通讯作者。",
+        "https://xinleihe.github.io/"
+      ],
+      "student": [
+        "Zhen Sun",
+        "自 2024 年 8 月为港科大（广州）博士生，2026 年 3 月起在蚂蚁集团从事 AI 安全实习；原文脚注明确该研究在实习期间完成。",
+        "https://zhensun.cn/"
+      ],
+      "employee": [
+        "黄智聪 · Zhicong Huang",
+        "本人履历列 2023 年起在蚂蚁集团任研究科学家，是该文企业方通讯作者与学生企业导师。",
+        "https://zicofish.github.io/"
+      ],
+      "advising": [
+        "校方研究指导",
+        "学生主页明确列何新磊为其研究指导教师，并另列 Jiaheng Wei 为港科大（广州）主导师及 Yutao Yue 为共同指导。",
+        "https://zhensun.cn/"
+      ],
+      "extra": [
+        [
+          "会议正式记录",
+          "https://aclanthology.org/2026.emnlp-main.993/"
+        ]
+      ],
+      "evidence": "EMNLP 正式论文具名标注 Zhen Sun 的蚂蚁实习，公开履历同时给出两地校方指导及企业导师，和论文通讯作者相符。"
+    },
+    {
+      "id": "alibaba-guide-whu-chenliang-li",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "阿里巴巴",
+      "team": "淘天集团",
+      "area": "广告自动竞价",
+      "title": "Generative Auto-Bidding with Unified Modeling and Exploration",
+      "short": "GUIDE",
+      "date": "2026-07",
+      "venue": "SIGIR",
+      "paper": "https://doi.org/10.1145/3805712.3809661",
+      "faculty": [
+        "李晨亮 · Chenliang Li",
+        "武汉大学国家网络安全学院教授、论文通讯作者。",
+        "https://cse.whu.edu.cn/info/3421/37491.htm"
+      ],
+      "student": [
+        "Mingming Zhang、Na Li",
+        "李晨亮公开课题组名录分别列两人为 2024 年 9 月和 2023 年 9 月起的硕士生，两人均为论文点名的淘天科研实习生。",
+        "https://lichenliang.net/"
+      ],
+      "employee": [
+        "Keping Yang",
+        "论文署名阿里巴巴淘天集团；正式发表的作者介绍列其为阿里搜索推荐高级算法专家。",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0031320322001091"
+      ],
+      "advising": [
+        "硕士指导",
+        "导师公开研究团队名单分别列出 Mingming Zhang、Na Li 的入学时间，且把同篇论文列在自己的团队成果中。",
+        "https://lichenliang.net/"
+      ],
+      "extra": [
+        [
+          "作者公开全文与实习注释",
+          "https://arxiv.org/html/2605.19457"
+        ]
+      ],
+      "evidence": "SIGIR 作者稿将两位武汉大学硕士生点名列为淘天集团实习期间完成研究；通讯作者和阿里员工均有同篇署名。"
+    },
+    {
+      "id": "alibaba-qga-whu-chenliang-li",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "阿里巴巴",
+      "team": "淘天集团",
+      "area": "广告自动竞价",
+      "title": "Q-Regularized Generative Auto-Bidding: From Suboptimal Trajectories to Optimal Policies",
+      "short": "QGA",
+      "date": "2026-08",
+      "venue": "KDD",
+      "paper": "https://doi.org/10.1145/3770854.3783950",
+      "faculty": [
+        "李晨亮 · Chenliang Li",
+        "武汉大学国家网络安全学院教授、论文通讯作者。",
+        "https://cse.whu.edu.cn/info/3421/37491.htm"
+      ],
+      "student": [
+        "Mingming Zhang、Na Li",
+        "李晨亮公开课题组名录分别列两人为 2024 年 9 月和 2023 年 9 月起的硕士生，两人均为论文点名的淘天科研实习生。",
+        "https://lichenliang.net/"
+      ],
+      "employee": [
+        "Feiqing Zhuang",
+        "论文列其为阿里巴巴淘天集团作者；同年 SIGIR 的 GUIDE 同一企业团队列其为企业方通讯作者。",
+        "https://arxiv.org/html/2601.02754v3"
+      ],
+      "advising": [
+        "硕士指导",
+        "导师公开研究团队名单分别列出 Mingming Zhang、Na Li 的入学时间，且把同篇论文列在自己的团队成果中。",
+        "https://lichenliang.net/"
+      ],
+      "extra": [
+        [
+          "作者公开全文与具名实习注释",
+          "https://arxiv.org/html/2601.02754v3"
+        ]
+      ],
+      "evidence": "KDD 论文第一版及发表版均对两位共同第一作者明确记载淘天实习；李晨亮课题组名录和论文共同署名相互印证。与 SIGIR 的 GUIDE 是不同方法与不同正式出版 DOI。"
     }
   ]
 };

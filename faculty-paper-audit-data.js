@@ -194,7 +194,13 @@ const facultyPaperAudits = {
       "https://liuqidong07.github.io/cv/resume_20240326.pdf",
       "https://doi.org/10.1145/3706631",
       "https://jarvislab.tencent.com/aca-publications.html",
-      "https://gr.xjtu.edu.cn/fengtian/zh_CN/zhym/976526/list/index.htm"
+      "https://gr.xjtu.edu.cn/fengtian/zh_CN/zhym/976526/list/index.htm",
+      "https://aclanthology.org/2026.findings-acl.1621/",
+      "https://aml-cityu.github.io/team/",
+      "https://scholars.cityu.edu.hk/en/persons/xianzhao/",
+      "https://aclanthology.org/2026.findings-acl.1621.pdf",
+      "https://aclanthology.org/2026.findings-acl.1646/",
+      "https://aclanthology.org/2026.findings-acl.1646.pdf"
     ],
     "papers": [
       {
@@ -250,6 +256,18 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3706631",
         "outcome": "confirmed",
         "note": "刘启东同期简历在腾讯天衍多中心用药推荐项目项下逐字列出该论文作为项目产出，并给出企业指导者与工作日期。腾讯天衍收录论文，赵翔宇博士联培导师和腾讯天衍正式员工吴宪均为同篇作者。"
+      },
+      {
+        "title": "AdapTime: Enabling Adaptive Temporal Reasoning in Large Language Models",
+        "url": "https://aclanthology.org/2026.findings-acl.1621/",
+        "outcome": "confirmed",
+        "note": "正式论文首页由第一作者邓怡敏的星号脚注指明工作在腾讯 Jarvis Lab 完成；港城大明确列赵翔宇指导该生，课题组列为与西交大联合培养。导师是通讯作者；腾讯官网确认论文的企业通讯作者 Xian Wu 加入时间与雇用职务。"
+      },
+      {
+        "title": "MultiDx: A Multi-Source Knowledge Integration Framework towards Diagnostic Reasoning",
+        "url": "https://aclanthology.org/2026.findings-acl.1646/",
+        "outcome": "confirmed",
+        "note": "正式论文首页由第一作者邓怡敏的星号脚注指明工作在腾讯 Jarvis Lab 完成；港城大明确列赵翔宇指导该生，课题组列为与西交大联合培养。导师是通讯作者；腾讯官网确认论文的企业通讯作者 Xian Wu 加入时间与雇用职务。"
       }
     ]
   },
@@ -307,7 +325,11 @@ const facultyPaperAudits = {
       "https://dongguanting.github.io/",
       "https://xiaoxi-li1.github.io/",
       "https://wxjiao.github.io/",
-      "https://zhfzhmsra.github.io/"
+      "https://zhfzhmsra.github.io/",
+      "https://dengchenlong.com/",
+      "https://dongyu888.github.io/",
+      "https://aclanthology.org/2025.acl-long.241.pdf",
+      "https://openreview.net/pdf/8757228d10c75444816024ec46d5a907c5baeebc.pdf"
     ],
     "papers": [
       {
@@ -339,6 +361,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2505.16410",
         "outcome": "lead",
         "note": "有同期实习和快手合著；原文未发现实习脚注，待查项目归属。"
+      },
+      {
+        "title": "A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression",
+        "url": "https://aclanthology.org/2025.acl-long.241.pdf",
+        "outcome": "confirmed",
+        "note": "正式版具名腾讯实习脚注，导师及腾讯作者可核。"
+      },
+      {
+        "title": "UniGist: Towards General and Hardware-aligned Sequence-level Long Context Compression",
+        "url": "https://openreview.net/pdf/8757228d10c75444816024ec46d5a907c5baeebc.pdf",
+        "outcome": "confirmed",
+        "note": "正式版具名腾讯实习脚注，导师及腾讯作者可核。"
       }
     ],
     "note": "仅对李晓熙、董冠霆的部分成果开展扩查。"
@@ -1796,7 +1830,8 @@ const facultyPaperAudits = {
       "https://www.lamda.nju.edu.cn/yehj/",
       "https://sun-hailong.github.io/",
       "https://www.lamda.nju.edu.cn/zhangyk/",
-      "https://www.lamda.nju.edu.cn/jiangjp/"
+      "https://www.lamda.nju.edu.cn/jiangjp/",
+      "https://hunter-wrynn.github.io/"
     ],
     "papers": [
       {
@@ -1858,6 +1893,12 @@ const facultyPaperAudits = {
         "url": "https://papers.nips.cc/paper_files/paper/2025/file/305a5630c29aaca434e3415fc4638eb2-Paper-Conference.pdf",
         "outcome": "lead",
         "note": "原文列出南大师生和阿里企业作者，但没有具名实习脚注，尚需该项目和学生在 AIDC 实习的对应材料。"
+      },
+      {
+        "title": "Token-Disentangled Latent Test-Time Scaling for Vision-Language Reasoning",
+        "url": "https://aclanthology.org/2026.findings-emnlp.2219.pdf",
+        "outcome": "lead",
+        "note": "正式论文有企业研发项目和双署名；学生公开主页尚未明确其阿里任职或参与形式，需补原始证据。"
       }
     ],
     "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
@@ -3106,7 +3147,10 @@ const facultyPaperAudits = {
       "https://tengshi-ruc.github.io/",
       "https://jeryi-sun.github.io/",
       "https://arxiv.org/html/2606.06260v1",
-      "https://jianghaopg11.github.io/"
+      "https://jianghaopg11.github.io/",
+      "https://quchangle1.github.io/",
+      "https://cn.linkedin.com/in/sqwang",
+      "https://aclanthology.org/2026.acl-long.549.pdf"
     ],
     "papers": [
       {
@@ -3156,6 +3200,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2606.06260v1",
         "outcome": "confirmed",
         "note": "快手原文与学生履历均把施腾列入 OneReason 项目核心贡献者。"
+      },
+      {
+        "title": "MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching",
+        "url": "https://aclanthology.org/2026.acl-long.549.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 2026 正式版首页具名实习脚注、教师与百度作者均已确认。"
       }
     ],
     "note": "目前重点核对徐君学生在快手的研究，未覆盖完整发表书目。"
@@ -3602,5 +3652,215 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对部分面向工业数据系统的论文；待同篇项目与学生导师补证。"
+  },
+  "IIoFY90AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/zhaozhou",
+      "https://myjokerml.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Speaking While Listening: A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems",
+        "url": "https://aclanthology.org/2026.emnlp-main.1126.pdf",
+        "outcome": "confirmed",
+        "note": "陆晶宇是浙江大学在读硕士，个人履历列 2026 年 4 月起在阿里千问语音组实习，具体从事全双工语音对话；正式论文具名列其为首位作者，并同时注明浙江大学和阿里千问双重署名。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "XfqR3yYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.fudan.edu.cn/5b/f8/c30604a482296/page.htm",
+      "https://refrain-wbh.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Outcome Accuracy is Not Enough: Aligning the Reasoning Process of Reward Models",
+        "url": "https://aclanthology.org/2026.acl-long.1924.pdf",
+        "outcome": "confirmed",
+        "note": "复旦硕博连读生汪冰海在个人履历中记载 2024 年 10 月至 2026 年 5 月在阿里千问后训练组实习，并列此篇为一作成果。该论文在实习期内首发；正式版具名以复旦和阿里双署名，并单独注明他是阿里千问实习生。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "RGsMgZA4H78C": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.fudan.edu.cn/c3/e8/c30604a443368/page.htm",
+      "https://refrain-wbh.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Outcome Accuracy is Not Enough: Aligning the Reasoning Process of Reward Models",
+        "url": "https://aclanthology.org/2026.acl-long.1924.pdf",
+        "outcome": "confirmed",
+        "note": "复旦硕博连读生汪冰海在个人履历中记载 2024 年 10 月至 2026 年 5 月在阿里千问后训练组实习，并列此篇为一作成果。该论文在实习期内首发；正式版具名以复旦和阿里双署名，并单独注明他是阿里千问实习生。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "klJBYrAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2026.emnlp-industry.65/",
+      "https://zhangfw123.github.io/",
+      "https://iai.buaa.edu.cn/info/1131/1741.htm",
+      "https://xidongbo.github.io/",
+      "https://aclanthology.org/2026.emnlp-industry.65.pdf",
+      "https://aclanthology.org/2026.emnlp-industry.199/",
+      "https://chrissie-law.github.io/",
+      "https://finance.sina.com.cn/tech/roll/2025-01-09/doc-ineeitpc6547801.shtml",
+      "https://aclanthology.org/2026.emnlp-industry.199.pdf",
+      "https://arxiv.org/abs/2602.13134"
+    ],
+    "papers": [
+      {
+        "title": "From Historical Queries to Actionable Rubrics: Category-Aware Rubric Generation for Local-Life AI Search",
+        "url": "https://aclanthology.org/2026.emnlp-industry.65/",
+        "outcome": "confirmed",
+        "note": "论文首页明确说明北航学生张富威等在美团实习期间完成本篇研究，且庄福振提供远程学术指导。张富威本人说明庄福振为其博士导师；合著者奚冬博的公开履历列出本论文及美团研究工程师身份。"
+      },
+      {
+        "title": "Awakening Dormant Users: Modeling Intent Evolution via LLM-based Functional Role Reasoning for Generative Recommendation",
+        "url": "https://aclanthology.org/2026.emnlp-industry.199/",
+        "outcome": "confirmed",
+        "note": "论文首页仅在第一作者罗慧诗姓名处注明快手实习期间完成；罗慧诗的学术主页明确写明庄福振是她的博士导师，庄福振为论文通讯作者。快手方合著者欧文武的任职记录与同篇论文署名互证。"
+      }
+    ]
+  },
+  "shKATh0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2026.emnlp-main.993/",
+      "https://zhensun.cn/",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue#new_tab",
+      "https://zicofish.github.io/",
+      "https://aclanthology.org/2026.emnlp-main.993.pdf"
+    ],
+    "papers": [
+      {
+        "title": "When New Generators Arrive: Lifelong Machine-Generated Text Attribution via Ridge Feature Transfer",
+        "url": "https://aclanthology.org/2026.emnlp-main.993/",
+        "outcome": "confirmed",
+        "note": "论文首页在 Zhen Sun 姓名旁用星号标注该研究由其在蚂蚁集团实习期间完成；学生本人列明 Yutao Yue 的博士协同指导职责，两人均在正式论文署名；合著者黄智聪的公开履历列出同期的蚂蚁正式研究岗位。"
+      }
+    ]
+  },
+  "6hZNEtoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2026.emnlp-main.993/",
+      "https://zhensun.cn/",
+      "https://zicofish.github.io/",
+      "https://aclanthology.org/2026.emnlp-main.993.pdf",
+      "https://xinleihe.github.io/",
+      "https://dblp.org/pid/227/7262-1.html"
+    ],
+    "papers": [
+      {
+        "title": "When New Generators Arrive: Lifelong Machine-Generated Text Attribution via Ridge Feature Transfer",
+        "url": "https://aclanthology.org/2026.emnlp-main.993.pdf",
+        "outcome": "confirmed",
+        "note": "EMNLP 正式论文具名标注 Zhen Sun 的蚂蚁实习，公开履历同时给出两地校方指导及企业导师，和论文通讯作者相符。"
+      }
+    ],
+    "note": "核对了实名学生及对应研究，其余论文继续梳理。"
+  },
+  "JNhNacoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://rui-yang.ren/index.html",
+      "https://legendarydan.github.io/",
+      "https://aclanthology.org/2023.acl-long.336.pdf",
+      "https://aclanthology.org/2024.findings-emnlp.50.pdf",
+      "https://aclanthology.org/2025.coling-main.250.pdf"
+    ],
+    "papers": [
+      {
+        "title": "TOME: A Two-stage Approach for Model-based Retrieval",
+        "url": "https://aclanthology.org/2023.acl-long.336.pdf",
+        "outcome": "confirmed",
+        "note": "分别复核正式版首页具名实习脚注及两方指导关系。"
+      },
+      {
+        "title": "BASES: Large-scale Web Search User Simulation with Large Language Model based Agents",
+        "url": "https://aclanthology.org/2024.findings-emnlp.50.pdf",
+        "outcome": "existing",
+        "note": "分别复核正式版首页具名实习脚注及两方指导关系。"
+      },
+      {
+        "title": "Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation",
+        "url": "https://aclanthology.org/2025.coling-main.250.pdf",
+        "outcome": "confirmed",
+        "note": "分别复核正式版首页具名实习脚注及两方指导关系。"
+      }
+    ],
+    "note": "已围绕任瑞阳分期核对部分公开成果，尚未遍历教师全部论文。"
+  },
+  "7gYVOO8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://hongtengxu.github.io/students.html",
+      "https://linear95.github.io/files/CV_Pengyu_Cheng_online.pdf",
+      "https://aclanthology.org/2026.findings-emnlp.1070.pdf"
+    ],
+    "papers": [
+      {
+        "title": "GD2PO: Group-Dynamic Reward-Decoupled Policy Optimization for Mitigating Multi-Reward RL Conflicts",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1070.pdf",
+        "outcome": "confirmed",
+        "note": "EMNLP 正式版具名阿里实习脚注；教师个人学生名单确认为博士生。"
+      }
+    ],
+    "note": "已针对刘浩天的部分研究核对，未覆盖教师全部论文。"
+  },
+  "p4RNNCQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.whu.edu.cn/info/3421/37491.htm",
+      "https://lichenliang.net/",
+      "https://scholar.google.com/citations?user=p4RNNCQAAAAJ"
+    ],
+    "papers": [
+      {
+        "title": "Learning to Translate by Translating: Stabilizing the Dual Loop via Semantic-Aware Self-Evolution",
+        "url": "https://aclanthology.org/2026.findings-acl.723.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文首页的实习标记明确指向第一作者 Kui Liu；导师名单与同篇署名可分别核对其武汉大学研究生身份、导师与蚂蚁在职共同作者。"
+      },
+      {
+        "title": "Generative Auto-Bidding with Unified Modeling and Exploration",
+        "url": "https://doi.org/10.1145/3805712.3809661",
+        "outcome": "confirmed",
+        "note": "SIGIR 作者稿将两位武汉大学硕士生点名列为淘天集团实习期间完成研究；通讯作者和阿里员工均有同篇署名。"
+      },
+      {
+        "title": "Q-Regularized Generative Auto-Bidding: From Suboptimal Trajectories to Optimal Policies",
+        "url": "https://doi.org/10.1145/3770854.3783950",
+        "outcome": "confirmed",
+        "note": "KDD 论文第一版及发表版均对两位共同第一作者明确记载淘天实习；李晨亮课题组名录和论文共同署名相互印证。与 SIGIR 的 GUIDE 是不同方法与不同正式出版 DOI。"
+      }
+    ],
+    "note": "核对了部分会议原文及课题组实名学生名单；其余公开论文仍在梳理。"
   }
 };
