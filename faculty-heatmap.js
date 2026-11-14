@@ -43,7 +43,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-// Walk a school's grid in a space-filling order so its units stay close together.
+// Walk a rectangular grid in a space-filling order so related entries stay close.
 function facultyGridPath(columns, rows) {
   const cells = [];
   function walk(x, y, ax, ay, bx, by) {
@@ -77,23 +77,24 @@ function facultyGridPath(columns, rows) {
   return cells;
 }
 
-function layoutFacultyTiles(groups, width, height) {
+function layoutFacultyTiles(groups, width, height, school) {
   const regions = [];
   const tiles = [];
   const positions = new Map();
-  layoutSchoolGroups(groups, width, height, 0, (group, box) => {
-    const schools = [];
-    regions.push({ box, schools });
-    schoolTileLayout(group.entries, box, school => school.count, (school, rect) => {
+  const plotBox = { x: 0, y: 0, width, height };
+
+  function addRegion(groups, box) {
+    const blocks = [];
+    regions.push({ box, blocks });
+    layoutWeightedRectangles(groups, box, group => group.entries.length, ({ entries }, rect) => {
       const { x, y, width, height } = rect;
-      const count = school.entries.length;
+      const count = entries.length;
       const rowCount = Math.min(count, Math.max(1, Math.round(Math.sqrt(count * height / width))));
       const base = Math.floor(count / rowCount);
       const extra = count % rowCount;
       const grid = [];
       let top = y;
-      // Distribute the extra cells over the rows. Every cell has the same area,
-      // and every school fills its rectangle, including the last row.
+      // Distribute extra cells over the rows to fill the rectangle with equal-area tiles.
       for (let row = 0; row < rowCount; row += 1) {
         const columns = base + Math.floor((row + 1) * extra / rowCount) - Math.floor(row * extra / rowCount);
         const rowHeight = height * columns / count;
@@ -104,15 +105,22 @@ function layoutFacultyTiles(groups, width, height) {
       for (const [column, row] of facultyGridPath(base + Number(extra > 0), rowCount)) {
         const line = grid[row];
         if (column >= line.cells.length) continue;
-        const entry = school.entries[index++];
+        const entry = entries[index++];
         const tile = { entry, x: x + column * line.width, y: line.y, width: line.width, height: line.height };
         line.cells[column] = tile;
         tiles.push(tile);
         positions.set(entry, tile);
       }
-      schools.push({ school, rect, grid });
+      blocks.push({ rect, grid });
     });
-  });
+  }
+
+  if (school) {
+    const units = school.units.filter(unit => unit.entries.length).sort((a, b) => b.entries.length - a.entries.length);
+    addRegion(units, plotBox);
+  } else {
+    layoutSchoolGroups(groups, width, height, 0, (group, box) => addRegion(group.entries, box));
+  }
   return { width, height, regions, tiles, positions };
 }
 
@@ -153,7 +161,7 @@ function renderFacultyUnits() {
   let currentLayout = null;
 
   function matchesSelection(entry) {
-    return (!selectedSchool || entry.school === selectedSchool) && (!selectedUnit || entry.unit === selectedUnit);
+    return !selectedUnit?.entries.length || entry.unit === selectedUnit;
   }
 
   function updateReadout() {
@@ -207,8 +215,8 @@ function renderFacultyUnits() {
       context.fillRect(x + gap / 2, y + gap / 2, width - gap, height - gap);
     }
     context.globalAlpha = 1;
-    drawBoundaries(regions.flatMap(region => region.schools.map(({ rect }) => rect)), 1.45);
-    drawBoundaries(regions.map(({ box }) => box), 2.6);
+    drawBoundaries(regions.flatMap(region => region.blocks.map(({ rect }) => rect)), 1.45);
+    if (!selectedSchool) drawBoundaries(regions.map(({ box }) => box), 2.6);
     const marked = positions.get(inspected);
     if (marked) {
       context.strokeStyle = '#251c32';
@@ -224,7 +232,7 @@ function renderFacultyUnits() {
     canvas.width = Math.ceil(width * density);
     canvas.height = Math.ceil(height * density);
     context.setTransform(density, 0, 0, density, 0, 0);
-    currentLayout = layoutFacultyTiles(groups, width, height);
+    currentLayout = layoutFacultyTiles(groups, width, height, selectedSchool);
     paint();
   }
 
@@ -242,8 +250,12 @@ function renderFacultyUnits() {
     groupPicker.replaceChildren(new Option(selectedSchool?.name === instituteSchool ? '全部研究所' : '全部院系／研究所', ''));
     if (selectedSchool) for (const unit of selectedSchool.units) groupPicker.add(new Option(unit.name, unit.name));
     groupPicker.disabled = !selectedSchool;
+    const scope = selectedSchool
+      ? `${selectedSchool.name}教师热力图，按${selectedSchool.name === instituteSchool ? '研究所' : '院系'}划分矩形。`
+      : '全部高校教师热力图，每所学校占一个矩形。';
+    canvas.setAttribute('aria-label', `${scope}用上下键查看教师。`);
     updateReadout();
-    paint();
+    resize();
   });
   groupPicker.addEventListener('change', () => {
     selectedUnit = selectedSchool?.units.find(unit => unit.name === groupPicker.value) || null;
@@ -259,35 +271,19 @@ function renderFacultyUnits() {
     const contains = ({ x: left, y: top, width, height }) =>
       x >= left && x < left + width && y >= top && y < top + height;
     const region = currentLayout.regions.find(({ box }) => contains(box));
-    const school = region?.schools.find(({ rect }) => contains(rect));
-    if (!school) return;
-    const line = school.grid.find(line => y >= line.y && y < line.y + line.height);
+    const block = region?.blocks.find(({ rect }) => contains(rect));
+    if (!block) return;
+    const line = block.grid.find(line => y >= line.y && y < line.y + line.height);
     if (!line) return;
-    const column = Math.min(line.cells.length - 1, Math.floor((x - school.rect.x) / line.width));
-    let tile = line.cells[column];
-    if (Math.min(line.width, line.height) < 4 && selectedUnit && !matchesSelection(tile.entry)) {
-      // On a dense touch screen, prefer a nearby highlighted tile in this school.
-      let nearest = Math.max(2, Math.min(line.width, line.height));
-      for (const row of school.grid) {
-        if (Math.abs(y - row.y - row.height / 2) >= nearest) continue;
-        for (const candidate of row.cells) {
-          if (!matchesSelection(candidate.entry)) continue;
-          const offset = Math.hypot(x - candidate.x - candidate.width / 2, y - candidate.y - candidate.height / 2);
-          if (offset < nearest) {
-            nearest = offset;
-            tile = candidate;
-          }
-        }
-      }
-    }
-    inspect(tile.entry);
+    const column = Math.min(line.cells.length - 1, Math.floor((x - block.rect.x) / line.width));
+    inspect(line.cells[column].entry);
   }
 
   canvas.addEventListener('click', inspectTile);
   canvas.addEventListener('keydown', event => {
     if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
     event.preventDefault();
-    const entries = allEntries.filter(matchesSelection);
+    const entries = selectedUnit?.entries || selectedSchool?.entries || allEntries;
     const index = entries.indexOf(inspected);
     const direction = event.key === 'ArrowDown' ? 1 : -1;
     if (entries.length) inspect(entries[index < 0 ? 0 : (index + direction + entries.length) % entries.length]);

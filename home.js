@@ -41,8 +41,8 @@ const schoolChartGroups = [
   ['合作大学', 'HK Universities’ Mainland Campuses', 'HK Campuses', 'purple'],
 ];
 
-// Pack schools into strips, keeping each strip's worst aspect ratio small.
-function schoolTileLayout(entries, box, weight, place) {
+// Pack weighted rectangles into strips, keeping each strip's worst aspect ratio small.
+function layoutWeightedRectangles(entries, box, weight, place) {
   const areaPerRecord = box.width * box.height / entries.reduce((sum, entry) => sum + weight(entry), 0);
   const ratio = (area, min, max, side) => {
     const thickness = area / side;
@@ -183,7 +183,7 @@ function renderSchoolChart() {
     group.section.style.setProperty('--school-band-size', `${band}px`);
     group.section.classList.toggle('school-group-narrow', width < 330);
     group.section.classList.toggle('school-group-mini', width < 185);
-    schoolTileLayout(group.entries, { x: 0, y: 0, width, height: height - band }, school => school.known, (school, rect) => {
+    layoutWeightedRectangles(group.entries, { x: 0, y: 0, width, height: height - band }, school => school.known, (school, rect) => {
       const { tile, full, short } = group.tiles.get(school);
       position(tile, rect);
       const compact = rect.width < 112 || rect.height < 60 || full.length > 34 || full.length > rect.width * .25;
