@@ -944,7 +944,9 @@ const facultyPaperAudits = {
     "sources": [
       "https://henglin-liu.github.io/HenglinLiu/",
       "https://github.com/RyanLiu112",
-      "https://caip.org.cn/news/detail?id=29199"
+      "https://caip.org.cn/news/detail?id=29199",
+      "https://wonderno.github.io/",
+      "https://chengyufang.tech/"
     ],
     "papers": [
       {
@@ -958,6 +960,18 @@ const facultyPaperAudits = {
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b5758cf47184e79c7e3564a0285b5783-Paper-Conference.pdf",
         "outcome": "confirmed",
         "note": "ICLR 正式论文首页脚注挂在清华学生 Runze Liu 姓名后，明确在快手实习期间完成；同期本人学术履历列清华硕士学籍。"
+      },
+      {
+        "title": "Realistic Human Motion Generation with Cross-Diffusion Models",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03045.pdf",
+        "outcome": "confirmed",
+        "note": "ECCV 正式论文首页将第一作者 Zeping Ren 标为腾讯 AI Lab 实习期间完成工作；学生本人主页明确当时在清华大学深圳国际研究生院读硕士。"
+      },
+      {
+        "title": "Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/633780c1344d0c95e4d2dd3431fe08d9-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文首页具名 Chengyu Fang 与另一作者分别于阿里达摩院实习期间完成本研究。第一作者履历列同期在清华攻读硕士、2025 年 4 月至 2026 年 4 月在达摩院任实习研究员。"
       }
     ],
     "note": "仅核对刘恒林部分合作论文；本调查期完整题录待继续。"
@@ -4859,7 +4873,10 @@ const facultyPaperAudits = {
       "https://kun-xiang.github.io/",
       "https://tangtaogo.github.io/",
       "https://agist.org/iccsi2022/AutumnSchoolBios.html",
-      "https://tangtaogo.github.io/publications/"
+      "https://tangtaogo.github.io/publications/",
+      "https://graduate.sysu.edu.cn/zsw/sites/default/files/2025-06/%E9%99%84%E4%BB%B6%EF%BC%9A%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A62025%E5%B9%B4%E5%8D%9A%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9F%E5%BD%95%E5%8F%96%E5%90%8D%E5%8D%95%EF%BC%88%E4%B8%8D%E5%90%AB%E7%9B%B4%E5%8D%9A%E7%94%9F%EF%BC%89%20.pdf",
+      "https://hanjianhua44.github.io/",
+      "https://www.sysu.edu.cn/news/info/2331/1397411.htm"
     ],
     "papers": [
       {
@@ -4914,10 +4931,11 @@ const facultyPaperAudits = {
         "note": "原文具名作者和华为研究人员，仍需查学生参与企业一侧的具体研究任务；C2-Evo 为同一稿件的旧题名。"
       },
       {
-        "title": "Beyond the Eye: Efficient Multimodal Reasoning Via Self-Regulated Implicit Visual Tools",
+        "title": "Beyond the Eye: Efficient Multimodal Reasoning via Self-Regulated Implicit Visual Tools",
         "url": "https://doi.org/10.1109/TPAMI.2026.3745877",
-        "note": "同篇有引望员工与中山大学指导教师，且学生公开实习期吻合；尚缺对本篇项目的具体企业职责来源。",
-        "outcome": "lead"
+        "year": 2026,
+        "outcome": "lead",
+        "note": "同篇在读生、导师与引望员工都有具名来源，还需逐篇证明该项目属于学生引望实习期间的工作。"
       },
       {
         "title": "RynnUnify: Towards Unified Embodied Brain",
@@ -4981,6 +4999,41 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "原文署菜鸟集团作者并列唐涛为中大学生，没有实习声明。学生履历的达摩院实习方向与技术相符，但尚未逐篇确认。"
+      },
+      {
+        "title": "Thinking with Geometry: Active Geometry Integration for Spatial Reasoning",
+        "url": "https://proceedings.mlr.press/v306/li26j.html",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "ICML 首页在中大第一作者李浩源名字后标记在引望实习完成研究。中大公告具名将同一项目归于梁小丹课题组与引望，并由李浩源撰稿；学校名单列他硕博连读。正式版列引望研究人员 Jianhua Han 为共同作者。"
+      },
+      {
+        "title": "UniGS: Unified Language-Image-3D Pretraining with Gaussian Splatting",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/d826f5aadb26db488b8686097ceea2d1-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ICLR 原文确证李浩源在华为诺亚方舟实习期间完成；校方硕士入学材料与同篇通讯作者吻合，尚需拟确认该篇校内指导的具名来源。"
+      },
+      {
+        "title": "GeoThinker-F: Endogenous Predictive World Representations for Fast Spatial Intelligence",
+        "url": "https://arxiv.org/html/2610.20592",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "本篇是新的论文，实习脚注归小鹏汽车，当前企业范围不含小鹏，不能沿用前篇引望关系。"
+      },
+      {
+        "title": "AtomThink: Multimodal Slow Thinking with Atomic Step Reasoning",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11347549/authors",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "项鲲确为中大学生、梁小丹为其导师，且同期任华为实习生，企业导师也参与署名；暂缺该篇参与企业项目的公开说明。两份 arXiv 稿件都属于同一个项目。"
+      },
+      {
+        "title": "SeePhys: Does Seeing Help Thinking? – Benchmarking Vision-Based Physics Reasoning",
+        "url": "https://arxiv.org/abs/2505.19099",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "项鲲当期为华为诺亚方舟实习生，华为实习导师同篇；项目页及论文首版均未见具名说明他以企业实习身份开展本项。"
       }
     ],
     "note": "已逐篇梳理部分自动定理证明与多模态成果；其余公开书目仍在核查。"
@@ -5216,7 +5269,8 @@ const facultyPaperAudits = {
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html",
       "https://wangruinlp.github.io/",
-      "https://yikang0131.github.io/"
+      "https://yikang0131.github.io/",
+      "https://zwhe99.github.io/"
     ],
     "papers": [
       {
@@ -5254,6 +5308,18 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.tacl-1.34.pdf",
         "outcome": "confirmed",
         "note": "正式版具名实习脚注、刘逸康本人公开的硕士导师记录和唐家龙在阿里通义任职记录均已核对。"
+      },
+      {
+        "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+        "url": "https://aclanthology.org/2024.emnlp-main.992.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。"
+      },
+      {
+        "title": "Exploring Human-Like Translation Strategy with Large Language Models",
+        "url": "https://aclanthology.org/2024.tacl-1.13.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -7208,15 +7274,16 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://toneyaya.github.io/",
-      "https://faculty.sist.shanghaitech.edu.cn/yangsibei/"
+      "https://faculty.sist.shanghaitech.edu.cn/yangsibei/",
+      "https://cse.sysu.edu.cn/teacher/Yangsibei"
     ],
     "papers": [
       {
         "title": "Chart Deep Research in LVLMs via Parallel Relative Policy Optimization",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/504bfc60c2a7fed53aed76eeed409cd1-Paper-Conference.pdf",
         "year": 2026,
-        "outcome": "lead",
-        "note": "唐嘉晋本人确认师从杨思蓓，但博士注册于上海科技大学；原文杨思蓓标中山大学。未查到在研究期间其与中山大学的联合培养或正式共同指导，因此暂不纳入。"
+        "outcome": "no-evidence",
+        "note": "第一作者唐嘉晋公开履历证明在上海科技大学读博并由杨思蓓指导；杨在本篇仅署中山大学，但未发现上海科技大学在调查高校范围内。"
       }
     ]
   },
@@ -7872,5 +7939,70 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已按作者官方指导名单、公开书目及部分论文原文核查，尚未覆盖全部书目。"
+  },
+  "MdQZ-q8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openreview.net/forum?id=sfrVLzsmlf",
+      "https://jiayangcheng.com/",
+      "https://home.cse.ust.hk/~yqsong/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+      "https://arxiv.org/abs/2601.16725",
+      "https://openreview.net/pdf?id=sfrVLzsmlf",
+      "https://agi-eval-official.github.io/amemgym/",
+      "https://arxiv.org/abs/2603.01966",
+      "https://arxiv.org/abs/2605.01489",
+      "https://stonetzheng.github.io/",
+      "https://cse.hkust.edu.hk/pg/ourgraduates/",
+      "https://arxiv.org/html/2605.01489v1",
+      "https://tqfang.github.io/",
+      "https://arxiv.org/abs/2510.18560",
+      "https://lcy2723.github.io/assets/CV.pdf",
+      "https://lcy2723.github.io/",
+      "https://openreview.net/pdf/6616ae1e45e2386e9704232fec117db7edafda8f.pdf",
+      "https://cse.hkust.edu.hk/pg/defenses/Summer26/cliei-07-08-2026.html"
+    ],
+    "papers": [
+      {
+        "title": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
+        "url": "https://openreview.net/forum?id=sfrVLzsmlf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文给共同一作 Cheng Jiayang 标明香港科技大学与美团两项署名；他的主页列明在读期间到 LongCat 研究智能体记忆。导师与学生主页相互印证博士指导关系，宋陽秋同篇署名。美团研究人员 Lin Qiu 在原文和项目主页被标为本项目负责人，并有同期美团 LongCat 技术报告署名。"
+      },
+      {
+        "title": "SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning",
+        "url": "https://arxiv.org/abs/2605.01489",
+        "outcome": "confirmed",
+        "note": "论文作者脚注明确点名第一作者郑天石在腾讯实习期间完成本工作。郑天石与导师课题组的页面相互印证博士培养关系，宋陽秋同篇列名。腾讯 AI Lab 正式研究人员 Tianqing Fang 与 Xiyun Li 同篇署腾讯，港科大官方毕业生名录及 Fang 本人主页证实其任职。"
+      },
+      {
+        "title": "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality",
+        "url": "https://arxiv.org/abs/2510.18560",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文将李春阳同时署名港科大和腾讯 AI Lab，首页脚注明确其在腾讯实习期间完成本工作。个人简历与学位答辩资料印证当时学籍及实际课题，宋陽秋同篇署名并为其硕士导师。共同作者 Tianqing Fang 仅署腾讯，由港科大毕业生目录印证其正式任职。"
+      }
+    ]
+  },
+  "fSBdNg0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~caojuan",
+      "https://imxuyu.github.io/",
+      "https://tiankaihang.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_TAG-MoE_Task-Aware_Gating_for_Unified_Generative_Mixture-of-Experts_CVPR_2026_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_TAG-MoE_Task-Aware_Gating_for_Unified_Generative_Mixture-of-Experts_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式版明确标注徐榆在腾讯混元实习时完成此项研究；徐榆公开履历也列为该实习主要成果。校内导师曹娟和腾讯混元研究员 Tiankai Hang 同篇署名。"
+      }
+    ],
+    "note": "已逐篇检查部分书目和学生科研实习，不是全部论文。"
   }
 };

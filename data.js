@@ -27075,6 +27075,424 @@ const survey = {
           "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf"
         ]
       ]
+    },
+    {
+      "id": "crossdiff-tencent-thu-xrh1oiuaaaaj",
+      "paperId": "arxiv:2312.10993",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀 · Xiu Li",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.tsinghua.edu.cn/info/1132/3614.htm"
+      ],
+      "employee": [
+        "Shaoli Huang",
+        "本人履历列曾任腾讯 AI Lab 高级研究员；发表在 2022 年期刊的作者简介已明确该职位，2023 年原稿及 ECCV 正式全文均署腾讯 AI Lab。",
+        "https://shaoli-huang.github.io/"
+      ],
+      "student": [
+        "Zeping Ren",
+        "ECCV 正式论文首页将第一作者 Zeping Ren 标为腾讯 AI Lab 实习期间完成工作；学生本人主页明确当时在清华大学深圳国际研究生院读硕士。",
+        "https://wonderno.github.io/"
+      ],
+      "title": "Realistic Human Motion Generation with Cross-Diffusion Models",
+      "short": "CrossDiff",
+      "date": "2024-09",
+      "venue": "ECCV 2024",
+      "area": "视觉生成与人体运动",
+      "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03045.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3045_ECCV_2024_paper.php"
+        ],
+        [
+          "早期正式作者履历",
+          "https://shiruipan.github.io/publication/pr-22-liang/pr-22-liang.pdf"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2312.10993"
+        ]
+      ],
+      "evidence": "ECCV 正式论文首页将第一作者 Zeping Ren 标为腾讯 AI Lab 实习期间完成工作；学生本人主页明确当时在清华大学深圳国际研究生院读硕士。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "第一作者个人学术主页具名列李秀为其清华大学硕士导师，李秀为本论文作者。",
+        "https://wonderno.github.io/"
+      ]
+    },
+    {
+      "id": "photon-alibaba-thu-xrh1oiuaaaaj",
+      "paperId": "arxiv:2603.25155",
+      "company": "阿里巴巴",
+      "team": "达摩院医疗 AI",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀 · Xiu Li",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.tsinghua.edu.cn/info/1132/3614.htm"
+      ],
+      "employee": [
+        "Minfeng Xu",
+        "阿里巴巴集团新闻网站 Alizila 将其具名为达摩院 AI 算法专家；2025 年 Nature Medicine 同一身份署名，ICLR 论文列其为达摩院通讯作者。",
+        "https://www.alizila.com/how-damo-academys-ai-system-detects-coronavirus-cases/"
+      ],
+      "student": [
+        "Chengyu Fang",
+        "ICLR 正式论文首页具名 Chengyu Fang 与另一作者分别于阿里达摩院实习期间完成本研究。第一作者履历列同期在清华攻读硕士、2025 年 4 月至 2026 年 4 月在达摩院任实习研究员。",
+        "https://chengyufang.tech/"
+      ],
+      "title": "Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models",
+      "short": "Photon",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "医学影像与多模态模型",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/file/633780c1344d0c95e4d2dd3431fe08d9-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/633780c1344d0c95e4d2dd3431fe08d9-Abstract-Conference.html"
+        ],
+        [
+          "达摩院官方代码库",
+          "https://github.com/alibaba-damo-academy/Photon"
+        ],
+        [
+          "同期 Nature Medicine 署名",
+          "https://doi.org/10.1038/s41591-025-03916-z"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2603.25155"
+        ]
+      ],
+      "evidence": "ICLR 正式论文首页具名 Chengyu Fang 与另一作者分别于阿里达摩院实习期间完成本研究。第一作者履历列同期在清华攻读硕士、2025 年 4 月至 2026 年 4 月在达摩院任实习研究员。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Chengyu Fang 本人学术履历具名李秀为清华大学硕士导师，李秀为同篇作者。",
+        "https://chengyufang.tech/"
+      ]
+    },
+    {
+      "id": "multi-agent-debate-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.emnlp-main.992",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "王星 · Xing Wang",
+        "其本人公开履历明确曾任腾讯 AI Lab 高级研究员，并具名列 Zhiwei He 在腾讯实习；研究期间两篇原文署腾讯 AI Lab。",
+        "https://hsing-wang.github.io/academic_homepage/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。",
+        "https://zwhe99.github.io/"
+      ],
+      "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+      "short": "Multi-Agent Debate",
+      "date": "2024-11",
+      "venue": "EMNLP 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.emnlp-main.992.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2024.emnlp-main.992/"
+        ],
+        [
+          "与正式论文去重的预印本",
+          "https://arxiv.org/abs/2305.19118"
+        ]
+      ],
+      "evidence": "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "学生本人列王瑞为上海交通大学博士导师，导师本人也在博士生名录具名何志威（2021–2026）。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "maps-humanlike-translation-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.tacl-1.13",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "王星 · Xing Wang",
+        "其本人公开履历明确曾任腾讯 AI Lab 高级研究员，并具名列 Zhiwei He 在腾讯实习；研究期间两篇原文署腾讯 AI Lab。",
+        "https://hsing-wang.github.io/academic_homepage/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。",
+        "https://zwhe99.github.io/"
+      ],
+      "title": "Exploring Human-Like Translation Strategy with Large Language Models",
+      "short": "MAPS",
+      "date": "2024-03",
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.tacl-1.13.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2024.tacl-1.13/"
+        ],
+        [
+          "与正式论文去重的预印本",
+          "https://arxiv.org/abs/2305.04118"
+        ]
+      ],
+      "evidence": "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "学生本人列王瑞为上海交通大学博士导师，导师本人也在博士生名录具名何志威（2021–2026）。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "meituan-amemgym-hkust-yangqiu-song",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "宋陽秋 · Yangqiu Song",
+        "香港科技大学计算机科学与工程学系副教授，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong"
+      ],
+      "student": [
+        "Cheng Jiayang",
+        "香港科技大学博士生、论文共同第一作者，2025 年 4 月起在美团 LongCat 做智能体记忆研究实习。",
+        "https://jiayangcheng.com/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页明示宋陽秋指导其博士研究，导师主页列博士在读时间为 2023 年秋至 2026 年春。",
+        "https://home.cse.ust.hk/~yqsong/"
+      ],
+      "employee": [
+        "Lin Qiu",
+        "原文列其为仅署美团的项目负责人，使用美团邮箱；美团 LongCat 同期正式技术报告将其列为共同作者。",
+        "https://arxiv.org/abs/2601.16725"
+      ],
+      "title": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
+      "short": "AMemGym",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · 对话记忆",
+      "paper": "https://openreview.net/forum?id=sfrVLzsmlf",
+      "extra": [
+        [
+          "ICLR 正式论文 PDF",
+          "https://openreview.net/pdf?id=sfrVLzsmlf"
+        ],
+        [
+          "项目作者与角色",
+          "https://agi-eval-official.github.io/amemgym/"
+        ],
+        [
+          "同论文 arXiv 版本",
+          "https://arxiv.org/abs/2603.01966"
+        ]
+      ],
+      "evidence": "ICLR 正式论文给共同一作 Cheng Jiayang 标明香港科技大学与美团两项署名；他的主页列明在读期间到 LongCat 研究智能体记忆。导师与学生主页相互印证博士指导关系，宋陽秋同篇署名。美团研究人员 Lin Qiu 在原文和项目主页被标为本项目负责人，并有同期美团 LongCat 技术报告署名。"
+    },
+    {
+      "id": "tencent-sciresearcher-hkust-yangqiu-song",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "宋陽秋 · Yangqiu Song",
+        "香港科技大学计算机科学与工程学系副教授，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong"
+      ],
+      "student": [
+        "郑天石 · Tianshi Zheng",
+        "2024 年起就读港科大博士；论文第一作者，原文具名确认在腾讯实习期间完成此研究。",
+        "https://stonetzheng.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页明确写明其博士导师为宋陽秋；导师的港科大课题组名单亦列其 2024 年秋入学。",
+        "https://home.cse.ust.hk/~yqsong/"
+      ],
+      "employee": [
+        "Tianqing Fang",
+        "2024 年获港科大博士学位，港科大院系毕业生目录列其毕业后在腾讯 AI Lab 任研究员；两篇原文均署腾讯 AI Lab。",
+        "https://cse.hkust.edu.hk/pg/ourgraduates/"
+      ],
+      "title": "SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning",
+      "short": "SciResearcher",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型 · 科学研究智能体",
+      "paper": "https://arxiv.org/abs/2605.01489",
+      "extra": [
+        [
+          "原文具名实习脚注",
+          "https://arxiv.org/html/2605.01489v1"
+        ],
+        [
+          "企业研究员主页",
+          "https://tqfang.github.io/"
+        ]
+      ],
+      "evidence": "论文作者脚注明确点名第一作者郑天石在腾讯实习期间完成本工作。郑天石与导师课题组的页面相互印证博士培养关系，宋陽秋同篇列名。腾讯 AI Lab 正式研究人员 Tianqing Fang 与 Xiyun Li 同篇署腾讯，港科大官方毕业生名录及 Fang 本人主页证实其任职。"
+    },
+    {
+      "id": "tencent-webdevjudge-hkust-yangqiu-song",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "宋陽秋 · Yangqiu Song",
+        "香港科技大学计算机科学与工程学系副教授，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong"
+      ],
+      "student": [
+        "李春阳 · Chunyang Li",
+        "2024 年 9 月起就读港科大研究型硕士；论文共同第一作者，首页脚注明确说明他在腾讯实习期间完成本研究。",
+        "https://lcy2723.github.io/assets/CV.pdf"
+      ],
+      "advising": [
+        "硕士导师",
+        "学生简历和主页均把宋陽秋列为港科大硕士导师；港科大正式答辩公告确认 WebDevJudge 为该学位论文主要成果。",
+        "https://lcy2723.github.io/"
+      ],
+      "employee": [
+        "Tianqing Fang",
+        "2024 年获港科大博士学位，港科大院系毕业生目录列其毕业后在腾讯 AI Lab 任研究员；两篇原文均署腾讯 AI Lab。",
+        "https://cse.hkust.edu.hk/pg/ourgraduates/"
+      ],
+      "title": "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality",
+      "short": "WebDevJudge",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · Web 开发评测",
+      "paper": "https://arxiv.org/abs/2510.18560",
+      "extra": [
+        [
+          "ICLR 正式论文及具名实习脚注",
+          "https://openreview.net/pdf/6616ae1e45e2386e9704232fec117db7edafda8f.pdf"
+        ],
+        [
+          "港科大硕士论文答辩公告",
+          "https://cse.hkust.edu.hk/pg/defenses/Summer26/cliei-07-08-2026.html"
+        ],
+        [
+          "企业研究员主页",
+          "https://tqfang.github.io/"
+        ]
+      ],
+      "evidence": "ICLR 正式论文将李春阳同时署名港科大和腾讯 AI Lab，首页脚注明确其在腾讯实习期间完成本工作。个人简历与学位答辩资料印证当时学籍及实际课题，宋陽秋同篇署名并为其硕士导师。共同作者 Tianqing Fang 仅署腾讯，由港科大毕业生目录印证其正式任职。"
+    },
+    {
+      "id": "tencent-tagmoe-ucas-cao",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "曹娟 · Juan Cao",
+        "中国科学院计算技术研究所研究员、博士生导师，国科大计算机学院岗位教授。",
+        "https://people.ucas.ac.cn/~caojuan"
+      ],
+      "employee": [
+        "Tiankai Hang",
+        "东南大学 2025 年博士毕业后在腾讯混元任研究员；同篇正式版署腾讯。",
+        "https://tiankaihang.github.io/"
+      ],
+      "student": [
+        "徐榆 · Yu Xu",
+        "国科大博士毕业于 2026 年；2025 年 6 月至 2026 年 2 月在腾讯混元研究实习，公开履历详列本研究。",
+        "https://imxuyu.github.io/"
+      ],
+      "title": "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts",
+      "short": "TAG-MoE",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_TAG-MoE_Task-Aware_Gating_for_Unified_Generative_Mixture-of-Experts_CVPR_2026_paper.pdf",
+      "evidence": "CVPR 正式版明确标注徐榆在腾讯混元实习时完成此项研究；徐榆公开履历也列为该实习主要成果。校内导师曹娟和腾讯混元研究员 Tiankai Hang 同篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "徐榆个人主页具名列曹娟和唐帆为其博士导师。",
+        "https://imxuyu.github.io/"
+      ],
+      "extra": [
+        [
+          "徐榆团队项目页",
+          "https://yuci-gpt.github.io/TAG-MoE/"
+        ]
+      ],
+      "paperId": "arxiv:2601.08881"
+    },
+    {
+      "id": "huawei-geothinker-sysu-xiaodan-liang",
+      "title": "Thinking with Geometry: Active Geometry Integration for Spatial Reasoning",
+      "short": "GeoThinker",
+      "date": "2026-07",
+      "venue": "ICML",
+      "arxiv": "2602.06037",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "华为",
+      "team": "引望 · 2030 实验室",
+      "area": "多模态空间推理",
+      "paper": "https://proceedings.mlr.press/v306/li26j.html",
+      "faculty": [
+        "梁小丹 · Xiaodan Liang",
+        "中山大学智能工程学院教授，校方项目负责人、同篇通讯作者。",
+        "https://ise.sysu.edu.cn/teacher/LiangXiaodan"
+      ],
+      "student": [
+        "李浩源 · Haoyuan Li",
+        "中山大学智能工程学院硕博连读学生；ICML 正式版在其署名处标记引望实习。",
+        "https://graduate.sysu.edu.cn/zsw/sites/default/files/2025-06/%E9%99%84%E4%BB%B6%EF%BC%9A%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A62025%E5%B9%B4%E5%8D%9A%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9F%E5%BD%95%E5%8F%96%E5%90%8D%E5%8D%95%EF%BC%88%E4%B8%8D%E5%90%AB%E7%9B%B4%E5%8D%9A%E7%94%9F%EF%BC%89%20.pdf"
+      ],
+      "employee": [
+        "Jianhua Han",
+        "同篇署名引望；本人履历列自 2025 年起任引望 2030 实验室研究科学家。",
+        "https://hanjianhua44.github.io/"
+      ],
+      "advising": [
+        "校内项目指导",
+        "中山大学以同篇第一作者李浩源为通讯员，明确将该研究归于梁小丹教授课题组，并以梁小丹为正式论文唯一通讯作者；公开材料未明确学位导师。",
+        "https://www.sysu.edu.cn/news/info/2331/1397411.htm"
+      ],
+      "evidence": "ICML 首页在中大第一作者李浩源名字后标记在引望实习完成研究。中大公告具名将同一项目归于梁小丹课题组与引望，并由李浩源撰稿；学校名单列他硕博连读。正式版列引望研究人员 Jianhua Han 为共同作者。",
+      "extra": [
+        [
+          "ICML 正式论文首页",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/li26j/li26j.pdf"
+        ],
+        [
+          "华为年报关于引望的披露",
+          "https://www-file.huawei.com/admin/asset/v1/pro/view/dec782afd1544f558c32fc76e3141334.pdf"
+        ]
+      ]
     }
   ]
 };
