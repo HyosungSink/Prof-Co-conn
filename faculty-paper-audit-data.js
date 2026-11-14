@@ -19138,5 +19138,62 @@ const facultyPaperAudits = {
         "note": "Neural Networks 第 180 卷。六名作者署西电同一校内实验室；李柯公开主页列王笛为其博士导师，但本篇未见企业参与证据。"
       }
     ]
+  },
+  "4ZAsaUwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://gecunjing.github.io/",
+      "https://gecunjing.github.io/assets/files/cv_gecunjing.pdf",
+      "https://dblp.org/pid/140/7241.html",
+      "https://orcid.org/0000-0002-8249-1397",
+      "https://arxiv.org/search/?query=Cunjing+Ge&searchtype=author"
+    ],
+    "papers": [
+      {
+        "title": "Curriculum Abductive Learning",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/fed1ea8dcc2a13f3835cc854e8c8294c-Abstract-Conference.html",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式稿与 arXiv:2505.12275 合并；七位作者均列南京大学，未见范围内企业作者。"
+      },
+      {
+        "title": "Discovering Symbolic Partial Differential Equation by Abductive Learning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/52ec5b595a8cf66afee8cfae352b3c5c-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式稿列四位作者均署南京大学；未见企业合著。"
+      },
+      {
+        "title": "SharpSMT: a scalable toolkit for measuring solution spaces of SMT(LA) formulas",
+        "url": "https://doi.org/10.1007/s11704-024-40500-z",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "期刊正式卷期仅列葛存菁一位南京大学作者；致谢列 CCF—华为胡杨林基金，不能据此认定企业作者或学生参研。"
+      },
+      {
+        "title": "Improved Bounds of Integer Solution Counts via Volume and Extending to Mixed-Integer Linear Constraints",
+        "url": "https://doi.org/10.4230/LIPIcs.CP.2024.13",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "正式出版列南京大学及弗赖堡大学两名作者。CCF—华为胡杨林基金列于资助，未见企业署名。"
+      },
+      {
+        "title": "Approximate Integer Solution Counts over Linear Arithmetic Constraints",
+        "url": "https://doi.org/10.1609/aaai.v38i8.28640",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式稿与 2023 年预印本为同一单作者论文。原文列作者署南京大学，仅致谢 CCF—华为基金。"
+      },
+      {
+        "title": "An Exhaustive DPLL Approach to Model Counting over Integer Linear Constraints with Simplification Techniques",
+        "url": "https://arxiv.org/html/2509.13880v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "DBLP 与 arXiv 补出本人主页未列的公开稿。原文呈现暨南大学、南京大学及相关研究单位，未见调查企业作者。"
+      }
+    ],
+    "note": "对照本人公开书目、履历、DBLP、同人 ORCID、Crossref、arXiv 与正式会议和期刊目录，调查期内共六篇公开可归属的原作。本人主页另列一篇投稿，未找到其在截止日前的公开版本或正式出版记录，未纳入。逐篇区分华为项目资助与同篇企业参研。"
   }
 };
