@@ -3969,15 +3969,31 @@ const facultyPaperAudits = {
       },
       {
         "title": "MTGenRec: An Efficient Distributed Training System for Generative Recommendation Models in Meituan",
-        "url": "https://doi.org/10.1145/3770854.3783925",
+        "url": "https://kdd2026.kdd.org/papers/",
+        "year": 2026,
         "outcome": "lead",
-        "note": "美团发布团队及学校均列项目署名；仍缺在读作者具体企业岗位和导师证据。"
+        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
       },
       {
         "title": "Self-Supervised Learning for Graph Dataset Condensation",
         "url": "https://obbusiness-private.oss-cn-shanghai.aliyuncs.com/resource-download/report/self-supervised%20learning%20for%20graph%20dataset%20condensation.pdf",
+        "year": 2026,
         "outcome": "lead",
-        "note": "蚂蚁侧 OceanBase 团队发表了同一技术论文；需补在读作者研究期间具体参与及导师的公开记录。"
+        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+      },
+      {
+        "title": "DevPiolt: Operation Recommendation for IoT Devices at Xiaomi Home",
+        "url": "https://arxiv.org/abs/2511.14227",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+      },
+      {
+        "title": "Rethinking Positional Encoding and Interaction Granularity for CTR Prediction",
+        "url": "https://arxiv.org/abs/2610.37140",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
       }
     ],
     "note": "已核对部分面向工业数据系统的论文；待同篇项目与学生导师补证。"
@@ -5588,7 +5604,9 @@ const facultyPaperAudits = {
       "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html",
       "https://lyman-smoker.github.io/",
       "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml",
-      "https://gaoypeng.github.io/"
+      "https://gaoypeng.github.io/",
+      "https://zhengdian1.github.io/",
+      "https://bls.ccf.org.cn/posts/calendar/19.html"
     ],
     "papers": [
       {
@@ -5639,6 +5657,13 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "confirmed",
         "note": "正式稿首页具名注明严俊楷与 Yipeng Gao 在阿里巴巴实习期间完成论文；导师书目确认后者的科研指导关系，学生本人主页确认 2024 年中山大学硕士毕业。"
+      },
+      {
+        "title": "Panorama Generation From NFoV Image Done Right",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zheng_Panorama_Generation_From_NFoV_Image_Done_Right_CVPR_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "CVPR 正式论文首页具名说明郑典在阿里巴巴实习期间完成该研究。郑典本人的履历记录 2024 年 5–11 月阿里实习及其 2025 年获中山大学硕士学位，具名列郑伟诗为导师；同篇作者吕承飞为阿里正式研究员。"
       }
     ]
   },
@@ -6102,7 +6127,11 @@ const facultyPaperAudits = {
       "https://github.com/1229095296",
       "https://gjyin.github.io/",
       "https://rhe-web.github.io/people.html",
-      "https://openreview.net/pdf/6927046535afb180c4ba1d33a96a3b59d4b5999d.pdf"
+      "https://openreview.net/pdf/6927046535afb180c4ba1d33a96a3b59d4b5999d.pdf",
+      "https://openreview.net/profile?id=~Hongbo_Wang3",
+      "https://people.ucas.ac.cn/~heran",
+      "https://openreview.net/profile?id=~Jinhua_Hao1",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf"
     ],
     "papers": [
       {
@@ -6116,8 +6145,15 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf/6927046535afb180c4ba1d33a96a3b59d4b5999d.pdf",
         "outcome": "lead",
         "note": "ICLR 正式论文具名第一作者 Zihan Lin 在美团实习期间完成本篇、国科大学生主页与论文同标，企业资深研究员殷国君和国科大研究员赫然同篇通讯；暂无独立具名导师、组员或论文作者贡献说明。"
+      },
+      {
+        "title": "Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf",
+        "outcome": "confirmed",
+        "note": "国科大博士指导、具名快手实习及独立快手员工履历均有直接资料。"
       }
-    ]
+    ],
+    "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
   },
   "d3g2VJQAAAAJ": {
     "from": "2023-01-01",
@@ -6138,5 +6174,398 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对这篇和部分论文线索，未覆盖教师全部成果。"
+  },
+  "lTTeBdkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.ai.pku.edu.cn/info/1314/1717.htm",
+      "https://github.com/XavierZhang2002"
+    ],
+    "papers": [
+      {
+        "title": "SCOUT: Active Information Foraging for Long-Text Understanding with Decoupled Epistemic States",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26fz/zhang26fz.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文将第一作者 Zhenliang Zhang 和第二作者标为此研究在腾讯微信实习期间完成。第一作者在本人学术履历具体列该篇为腾讯微信实习工作；学生为北大在读。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "RvBDhSwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1071/1680.htm",
+      "https://dwzhu-pku.github.io/",
+      "https://eugeneyujunhao.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "PoSE: Efficient Context Window Extension of LLMs via Positional Skip-wise Training",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/524ef58c2bd075775861234266e5e020-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "正式论文具名标注在微软亚洲研究院实习期间完成；微软不在 14 家目标企业内。"
+      },
+      {
+        "title": "LongEmbed: Extending Embedding Models for Long Context Retrieval",
+        "url": "https://aclanthology.org/2024.emnlp-main.47/",
+        "outcome": "no-evidence",
+        "note": "正式论文具名标注在微软亚洲研究院实习期间贡献；微软不在 14 家目标企业内。"
+      },
+      {
+        "title": "FormAct: Agentic Source Editing for Rich-Format Document Generation",
+        "url": "https://proceedings.mlr.press/v306/yu26bt.html",
+        "outcome": "no-evidence",
+        "note": "正式论文具名标注在微软实习期间完成；微软不在 14 家目标企业内。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "yAE-Av4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.fudan.edu.cn/31/f9/c30604a733689/page.htm",
+      "https://admis.fudan.edu.cn/sgzhou/27420/list.htm"
+    ],
+    "papers": [
+      {
+        "title": "Towards Policy-Adaptive Image Guardrail: Benchmark and Method",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Piao_Towards_Policy-Adaptive_Image_Guardrail_Benchmark_and_Method_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "正式 CVPR 论文将朴彩咏标为在腾讯实习期间完成该研究；复旦校方导师名录列朴彩咏为 2025 年 9 月入学的博士生。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "ogXIdlYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.au.tsinghua.edu.cn/info/1080/3160.htm",
+      "https://carlyx.github.io/",
+      "https://s2026.conference-schedule.org/presenter/?uid=969304"
+    ],
+    "papers": [
+      {
+        "title": "MAViD: A Multimodal Framework for Audio-Visual Dialogue Understanding and Generation",
+        "url": "https://arxiv.org/html/2512.03034v1",
+        "outcome": "confirmed",
+        "note": "论文首发第一作者脚注具名说明研究在其美团实习期间完成；SIGGRAPH 正式报告人履历说明其从 2024 年秋起为清华自动化系博士生。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "AhLXqHbth54C": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://arxiv.org/abs/2611.12296",
+      "https://yxr620.github.io/",
+      "https://yimingqiu.me/",
+      "https://www.cs.hku.hk/people/academic-staff/yimingq/",
+      "https://arxiv.org/abs/2506.13695",
+      "https://arxiv.org/html/2611.12296v1",
+      "https://arxiv.org/abs/2609.12399",
+      "https://atcworkshop-rec.github.io/",
+      "https://arxiv.org/abs/2611.04715",
+      "https://arxiv.org/abs/2610.21264",
+      "https://dblp.org/pid/25/9687-1.html",
+      "https://hub.hku.hk/cris/rp/rp03552",
+      "https://ziqianliu423.github.io/",
+      "https://arxiv.org/html/2610.21264v1",
+      "https://doi.org/10.1145/3789240.3829153",
+      "https://www.comp.nus.edu.sg/~lijl/papers/horizon_sigcomm26.pdf",
+      "https://doi.org/10.1145/3820441.3820465",
+      "https://daqianding.github.io/",
+      "https://arxiv.org/abs/2505.24785",
+      "https://websites.umich.edu/~amberljc/",
+      "https://www.usenix.org/conference/nsdi26/presentation/guo-shixian",
+      "https://doi.org/10.1145/3772356.3772397",
+      "https://archit-bhatnagar.github.io/publication/remotedx.pdf",
+      "https://doi.org/10.1145/3772356.3772404",
+      "https://archit-bhatnagar.github.io/publication/cloud-emu.pdf",
+      "https://doi.org/10.1145/3759441.3759443",
+      "https://yunmingxiao.github.io/publication/",
+      "https://doi.org/10.1145/3725783.3764389",
+      "https://huangyibo.github.io/publications/",
+      "https://huangyibo.github.io/files/apnet2025-SwiftRDMA.pdf",
+      "https://ieeexplore.ieee.org/abstract/document/11029328",
+      "https://cloudintelligenceworkshop.org/",
+      "https://ieeexplore.ieee.org/abstract/document/11029329",
+      "https://www.usenix.org/system/files/nsdi25-hogan.pdf",
+      "https://www.usenix.org/conference/nsdi25/presentation/hogan",
+      "https://openreview.net/forum?id=7TCK0aBL1C",
+      "https://yimingqiu.me/pdf/Yiming_Qiu_CV_2024_12.pdf",
+      "https://doi.org/10.1145/3694715.3695974",
+      "https://doi.org/10.1145/3626111.3628206",
+      "https://doi.org/10.1145/3603269.3604882",
+      "https://www.usenix.org/conference/nsdi23/presentation/qiu",
+      "https://www.usenix.org/system/files/nsdi23-qiu.pdf",
+      "https://arxiv.org/abs/2502.16069",
+      "https://arxiv.org/abs/2607.25883",
+      "https://arxiv.org/abs/2607.25792",
+      "https://arxiv.org/abs/2604.24658",
+      "https://arxiv.org/abs/2608.23842",
+      "https://project-vera.github.io/blogs/cloudemu/cloudemu/",
+      "https://arxiv.org/abs/2610.37080",
+      "https://yunmingxiao.github.io/publication/26-tessera/"
+    ],
+    "papers": [
+      {
+        "title": "RecoGEM: A Serving System for Production-Scale Generative Recommendation",
+        "url": "https://arxiv.org/abs/2611.12296",
+        "outcome": "confirmed",
+        "note": "第一作者 Xiangrui Yang 明确在香港大学由邱一鸣指导攻读博士，2026 年 4 月起在快手算法引擎平台实习并负责 OneRec 和 OneRec-V2 的线上生成式推荐服务。原文明确报告这项服务已部署并在同一代 OneRec-V2 线上系统测试；文章共同第一作者 Yunfeng Zhao 在更早的快手 OneRec 技术报告中已为企业团队成员，博士导师邱一鸣与企业合作者 Yunfeng Zhao 均同篇署名。"
+      },
+      {
+        "title": "OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation",
+        "url": "https://arxiv.org/abs/2609.12399",
+        "outcome": "lead",
+        "note": "作者主页有快手生成推荐实习、同主题公开的 OneLA，论文与会议档案列名快手员工，无具名脚注或能证明该篇算法在企业研究范围的特定项目链接。"
+      },
+      {
+        "title": "ZeroGR: Filtering-First Constrained Decoding for Generative Recommendation",
+        "url": "https://arxiv.org/abs/2611.04715",
+        "outcome": "lead",
+        "note": "论文有快手同篇员工与工业数据，第一作者同一团队实习，但个人主页未列该论文和特定算法，目前缺项目归属原证。"
+      },
+      {
+        "title": "AdaBool: Sparse Boolean Matrix Processing with Adaptive Data Representation",
+        "url": "https://arxiv.org/abs/2610.21264",
+        "outcome": "lead",
+        "note": "原文用腾讯广告类生产数据，具名团队作者；学生在腾讯实习最晚于 2025 年 6 月结束，港大博士后于 2025 年入学/导师页面从 2026 年列名，未能证明学校指导与企业研究重叠。"
+      },
+      {
+        "title": "Horizon: A Hyper-Edge Observability Engine for Live Streaming Networks",
+        "url": "https://doi.org/10.1145/3789240.3829153",
+        "outcome": "lead",
+        "note": "第一作者及第二作者均由邱一鸣指导。同篇有字节员工和实际直播系统，但两位学生的公开实习履历可定位到微软和上海人工智能实验室，缺本篇在字节参与角色。"
+      },
+      {
+        "title": "Towards Learned Switch Behavior Modeling",
+        "url": "https://doi.org/10.1145/3820441.3820465",
+        "outcome": "no-evidence",
+        "note": "正式论文的具名企业作者来自微软研究院；其正式研究实习不属于目标企业。"
+      },
+      {
+        "title": "EXP-Bench: Can AI Conduct AI Research Experiments?",
+        "url": "https://arxiv.org/abs/2505.24785",
+        "outcome": "no-evidence",
+        "note": "原文、作者履历和 ICLR 记录明示主要密歇根合作者，没有该校教师在目标企业研究期间对其中一位相关在校作者指导的材料。"
+      },
+      {
+        "title": "Skyline: A Cloud Centric Internet Monitoring Engine",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-shixian",
+        "outcome": "lead",
+        "note": "正式论文列港大博士与字节网络员工，但至少 2025 年 12 月已有接受通知；第一学生自 2026 年 2 月开始攻读港大博士，且没有先前字节在企学生或同期具名校内指导记录。"
+      },
+      {
+        "title": "Remote Direct Code Execution",
+        "url": "https://doi.org/10.1145/3772356.3772397",
+        "outcome": "no-evidence",
+        "note": "作者公开正式 PDF 列大学署名；没有范围内企业员工。"
+      },
+      {
+        "title": "A Case for Learned Cloud Emulators",
+        "url": "https://doi.org/10.1145/3772356.3772404",
+        "outcome": "no-evidence",
+        "note": "正式论文是密歇根、伯克利和港大合作；使用其他云服务并不构成目标企业作者。"
+      },
+      {
+        "title": "Cloud Infrastructure Management in the Age of AI Agents",
+        "url": "https://doi.org/10.1145/3759441.3759443",
+        "outcome": "no-evidence",
+        "note": "正式作者名单与机构无相关目标企业在企学生。真实企业合作者 Martin Casado 的机构不在范围。"
+      },
+      {
+        "title": "Towards Fully Disaggregated Recommendation Model Serving",
+        "url": "https://doi.org/10.1145/3725783.3764389",
+        "outcome": "no-evidence",
+        "note": "正式论文作者表中未检索到在读学生经同篇邱一鸣指导参与本篇范围企业研究的具名材料。"
+      },
+      {
+        "title": "Exposing RDMA NIC Resources for Software-Defined Scheduling",
+        "url": "https://huangyibo.github.io/files/apnet2025-SwiftRDMA.pdf",
+        "outcome": "no-evidence",
+        "note": "原文首页列学术机构署名；没有目标企业技术人员。"
+      },
+      {
+        "title": "Automated Bug Discovery in Cloud Infrastructure-as-Code Updates with LLM Agents",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11029328",
+        "outcome": "no-evidence",
+        "note": "IEEE 在该工作中的行业团队和案例不对应任何目标企业证据；未见学生在企业做本篇工作的公开证明。"
+      },
+      {
+        "title": "Automated Lifting for Cloud Infrastructure-as-Code Programs",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11029329",
+        "outcome": "no-evidence",
+        "note": "正式作者和个人书目没有任何目标企业作者实习证明。"
+      },
+      {
+        "title": "Efficient Multi-WAN Transport for 5G with OTTER",
+        "url": "https://www.usenix.org/system/files/nsdi25-hogan.pdf",
+        "outcome": "no-evidence",
+        "note": "正式版为微软与密歇根/美国学校的合作，无范围内企业。"
+      },
+      {
+        "title": "IaC-Eval: A Code Generation Benchmark for Infrastructure-as-Code Programs",
+        "url": "https://openreview.net/forum?id=7TCK0aBL1C",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 原文及报告是邱一鸣仍在美国入读博士期间的研究，组内无本项目要求的港大在读学生及同期指导。"
+      },
+      {
+        "title": "Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs",
+        "url": "https://doi.org/10.1145/3694715.3695974",
+        "outcome": "no-evidence",
+        "note": "邱一鸣本人 CV 显示他当时是密歇根博士；微软而非目标企业共同署名。"
+      },
+      {
+        "title": "Simplifying Cloud Management with Cloudless Computing",
+        "url": "https://doi.org/10.1145/3626111.3628206",
+        "outcome": "no-evidence",
+        "note": "本人仍是美国博士，出版当时不以香港大学导师身份开展研究，不符合所求关系。"
+      },
+      {
+        "title": "Unleashing SmartNIC Packet Processing Performance in P4",
+        "url": "https://doi.org/10.1145/3603269.3604882",
+        "outcome": "no-evidence",
+        "note": "原论文及本人履历显示为在美国攻读博士期间的研究，企业为 NVIDIA/Mellanox。"
+      },
+      {
+        "title": "Synthesizing Runtime Programmable Switch Updates",
+        "url": "https://www.usenix.org/conference/nsdi23/presentation/qiu",
+        "outcome": "no-evidence",
+        "note": "本人在 Rice 读博士，同篇企业合作者 Ryan Beckett 为微软员工。"
+      },
+      {
+        "title": "Curie: Toward Rigorous and Automated Scientific Experimentation with AI Agents",
+        "url": "https://arxiv.org/abs/2502.16069",
+        "outcome": "no-evidence",
+        "note": "论文语料跨研究领域，但共同第一作者的任职轨迹均在美国，未发现目标企业的本篇学生研究。"
+      },
+      {
+        "title": "Towards a Systems Foundation for Agentic Cloud Management",
+        "url": "https://arxiv.org/abs/2607.25883",
+        "outcome": "no-evidence",
+        "note": "论文的企业共同作者供职微软，运行 Azure；该企业不在调查范围。"
+      },
+      {
+        "title": "The Model in the Middle: Toward AI-Native Real-Time Communication",
+        "url": "https://arxiv.org/abs/2607.25792",
+        "outcome": "no-evidence",
+        "note": "原文三位作者署港大，无同篇目标企业员工。"
+      },
+      {
+        "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+        "url": "https://arxiv.org/abs/2604.24658",
+        "outcome": "no-evidence",
+        "note": "同篇诸多作者非香港大学邱一鸣名下的具名研究生；现有贡献档案无可定位到三类角色的关系。"
+      },
+      {
+        "title": "Automated Synthesis of Cloud Emulators",
+        "url": "https://arxiv.org/abs/2608.23842",
+        "outcome": "no-evidence",
+        "note": "原稿仅密歇根、伯克利和港大三方学术署名。"
+      },
+      {
+        "title": "Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation",
+        "url": "https://arxiv.org/abs/2610.37080",
+        "outcome": "no-evidence",
+        "note": "原稿七位研究者署港中深、港大和北邮。未见目标企业员工或参与本篇的在企学生证据。"
+      }
+    ],
+    "note": "交叉对照本人公开书目和 ORCID 消歧的 DBLP 名录，补查本人课题组、合作者公开书目及正式出版记录。逐篇核查截至 2026-11-12 可公开查到的不同论文与预印本。同篇版本合并，尚未发布原文的 SkyRDMA 暂列为界外。保留公开资料中角色或时间仍不齐全的候选。"
+  },
+  "caQ-OmYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://xiaokunfeng.github.io/",
+      "https://people.ucas.ac.cn/~huangkaiqi",
+      "https://cxxgtxy.github.io/cv/",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/feng26ac/feng26ac.pdf",
+      "https://wmeiqi.github.io/",
+      "https://arxiv.org/pdf/2603.22212",
+      "https://arxiv.org/pdf/2507.11245v1",
+      "https://arxiv.org/html/2601.20504"
+    ],
+    "papers": [
+      {
+        "title": "Enhancing Train-Free Infinite-Frame Generation for Consistent Long Videos",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/feng26ac/feng26ac.pdf",
+        "outcome": "confirmed",
+        "note": "ICML 正式版具名阿里实习，学生和企业负责人的个人履历能各自核对身份。"
+      },
+      {
+        "title": "Omni-WorldBench: Towards a Comprehensive Interaction-Centric Evaluation for World Models",
+        "url": "https://arxiv.org/pdf/2603.22212",
+        "outcome": "confirmed",
+        "note": "学生本人履历确认在国科大持续就读和指导；本篇原文明确把阿里高德实习符号标给武美奇。"
+      },
+      {
+        "title": "NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation",
+        "url": "https://arxiv.org/pdf/2507.11245v1",
+        "outcome": "confirmed",
+        "note": "论文明确说明国科大学生在阿里高德实习时完成；学籍、具名指导及阿里任职各有公开材料。"
+      },
+      {
+        "title": "Latent Temporal Discrepancy as Motion Prior: A Loss-Weighting Strategy for Dynamic Fidelity in T2V",
+        "url": "https://arxiv.org/html/2601.20504",
+        "outcome": "confirmed",
+        "note": "论文明确说明国科大学生在阿里高德实习时完成；学籍、具名指导及阿里任职各有公开材料。"
+      }
+    ],
+    "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
+  },
+  "cuJ3QG8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~zlei",
+      "https://jingdongwang2017.github.io/index_cn.html",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "From Intuition to Investigation: A Tool-Augmented Reasoning MLLM Framework for Generalizable Face Anti-Spoofing",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "正式版具名百度实习；学籍、指导和百度研究人员均有第一方资料。"
+      }
+    ],
+    "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
+  },
+  "Ihj2Rw8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sites.google.com/view/intelligent-computing-lab/people"
+    ],
+    "papers": [
+      {
+        "title": "Generative Optimization for Incentivized Advertising with Global Level Constraints",
+        "url": "https://arxiv.org/html/2608.04421v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "论文具名确认电子科大硕士陈格格参与快手实习项目；电子科大实验室名录列学生和同篇教授周帆，但团队含多位教师，仍查具名指导关系。"
+      },
+      {
+        "title": "Reward Balancing Revisited: Enhancing Offline Reinforcement Learning for Recommender Systems",
+        "url": "https://arxiv.org/html/2506.22112v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "作者含电子科大学生舒文正及周帆教授，数位作者署名快手；原文没有具名说明舒文正的企业参与，仍查个人资料和项目档案。"
+      }
+    ]
   }
 };

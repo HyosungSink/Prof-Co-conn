@@ -23345,6 +23345,500 @@ const survey = {
           "https://kebii.github.io/data/ZhangJiaxu-CV-2026.pdf"
         ]
       ]
+    },
+    {
+      "id": "scout-tencent-pku-lttebdkaaaaj",
+      "paperId": "arxiv:2605.04496",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "万小军 · Xiaojun Wan",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.ai.pku.edu.cn/info/1314/1717.htm"
+      ],
+      "employee": [
+        "Yong Hu",
+        "本人公开任职明确 2021 年 7 月至 2026 年 8 月为腾讯微信 AI 高级研究员，并将该篇列于题录。正式原文同期署腾讯。",
+        "https://nghuyong.top/"
+      ],
+      "student": [
+        "Zhenliang Zhang",
+        "正式论文将第一作者 Zhenliang Zhang 和第二作者标为此研究在腾讯微信实习期间完成。第一作者在本人学术履历具体列该篇为腾讯微信实习工作；学生为北大在读。",
+        "https://github.com/XavierZhang2002"
+      ],
+      "title": "SCOUT: Active Information Foraging for Long-Text Understanding with Decoupled Epistemic States",
+      "short": "SCOUT",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26fz/zhang26fz.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/zhang26fz.html"
+        ],
+        [
+          "作者项目主页",
+          "https://github.com/XavierZhang2002/scout-page"
+        ],
+        [
+          "原始预印本",
+          "https://arxiv.org/abs/2605.04496"
+        ]
+      ],
+      "evidence": "正式论文将第一作者 Zhenliang Zhang 和第二作者标为此研究在腾讯微信实习期间完成。第一作者在本人学术履历具体列该篇为腾讯微信实习工作；学生为北大在读。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "学生的本人学术履历具名说明其为北大学生，由万小军指导；万小军为本篇作者。",
+        "https://github.com/XavierZhang2002"
+      ]
+    },
+    {
+      "id": "safeguard-vl-tencent-fudan-yae-av4aaaaj",
+      "paperId": "arxiv:2603.01228",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "周水庚 · Shuigeng Zhou",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.fudan.edu.cn/31/f9/c30604a733689/page.htm"
+      ],
+      "employee": [
+        "Yunzhen Zhao",
+        "本篇署腾讯，2024 年腾讯申请的视觉内容识别专利为具名发明人，2026 年 ACM Multimedia 正式议程明确以腾讯 AI Lab 身份发表，另有跨期腾讯署名供交叉核对。",
+        "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf"
+      ],
+      "student": [
+        "朴彩咏 · Caiyong Piao",
+        "正式 CVPR 论文将朴彩咏标为在腾讯实习期间完成该研究；复旦校方导师名录列朴彩咏为 2025 年 9 月入学的博士生。",
+        "https://admis.fudan.edu.cn/sgzhou/27420/list.htm"
+      ],
+      "title": "Towards Policy-Adaptive Image Guardrail: Benchmark and Method",
+      "short": "SafeGuard-VL",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Piao_Towards_Policy-Adaptive_Image_Guardrail_Benchmark_and_Method_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Piao_Towards_Policy-Adaptive_Image_Guardrail_Benchmark_and_Method_CVPR_2026_paper.html"
+        ],
+        [
+          "任职佐证：腾讯专利署名",
+          "https://k-knowledge.kr/srch/read.jsp?id=290963024"
+        ],
+        [
+          "同期 IEEE ICASSP 署名",
+          "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=11925&bare=1"
+        ]
+      ],
+      "evidence": "正式 CVPR 论文将朴彩咏标为在腾讯实习期间完成该研究；复旦校方导师名录列朴彩咏为 2025 年 9 月入学的博士生。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "周水庚在复旦大学教师网站的 Supervision 名录将朴彩咏具名列为从 2025 年秋开始指导的复旦博士生，且为本篇通讯作者。",
+        "https://admis.fudan.edu.cn/sgzhou/27420/list.htm"
+      ]
+    },
+    {
+      "id": "mavid-meituan-thu-ogxidlyaaaaj",
+      "paperId": "arxiv:2512.03034",
+      "company": "美团",
+      "team": "视觉智能部",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "刘烨斌 · Yebin Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.au.tsinghua.edu.cn/info/1080/3160.htm"
+      ],
+      "employee": [
+        "张勇 · Yong Zhang",
+        "CCF 2026 年美团专场明确介绍其为美团视觉智能部高级技术专家，报告了相关虚拟人视频团队工作；论文中以美团署名并担任通讯。",
+        "https://tc.ccf.org.cn/tcmt/cyhz/zjqy/2026-03-21/864020.shtml"
+      ],
+      "student": [
+        "Youxin Pang",
+        "论文首发第一作者脚注具名说明研究在其美团实习期间完成；SIGGRAPH 正式报告人履历说明其从 2024 年秋起为清华自动化系博士生。",
+        "https://carlyx.github.io/"
+      ],
+      "title": "MAViD: A Multimodal Framework for Audio-Visual Dialogue Understanding and Generation",
+      "short": "MAViD",
+      "date": "2026-07",
+      "venue": "ACM SIGGRAPH 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/html/2512.03034v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3799902.3811223"
+        ],
+        [
+          "作者时间及正式原稿",
+          "https://arxiv.org/abs/2512.03034"
+        ]
+      ],
+      "evidence": "论文首发第一作者脚注具名说明研究在其美团实习期间完成；SIGGRAPH 正式报告人履历说明其从 2024 年秋起为清华自动化系博士生。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "第一作者的 SIGGRAPH 官方报告人履历与个人学术主页均具名列刘烨斌为其清华博士导师，刘烨斌署名本论文。",
+        "https://s2026.conference-schedule.org/presenter/?uid=969304"
+      ]
+    },
+    {
+      "id": "kuaishou-recogem-hku-yiming-qiu",
+      "company": "快手",
+      "team": "快手算法引擎平台",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "邱一鸣 · Yiming Qiu",
+        "香港大学助理教授，论文末位作者。",
+        "https://www.cs.hku.hk/people/academic-staff/yimingq/"
+      ],
+      "student": [
+        "Xiangrui Yang",
+        "香港大学在读博士、快手算法引擎平台实习生，论文共同第一作者。本人主页列出本篇论文，并注明同期快手实习实际建设生成式推荐服务，明确点名支持 OneRec 和 OneRec-V2 线上部署。",
+        "https://yxr620.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页教育经历具名邱一鸣，导师主页学生名单也列出 Xiangrui Yang。",
+        "https://yimingqiu.me/"
+      ],
+      "employee": [
+        "Yunfeng Zhao",
+        "快手算法研究人员、论文共同第一作者。早于学生入职的快手 OneRec 团队技术报告具名列为团队成员。",
+        "https://arxiv.org/abs/2506.13695"
+      ],
+      "title": "RecoGEM: A Serving System for Production-Scale Generative Recommendation",
+      "short": "RecoGEM",
+      "date": "2026-11",
+      "venue": "arXiv",
+      "area": "推荐系统与信息检索",
+      "paper": "https://arxiv.org/abs/2611.12296",
+      "extra": [
+        [
+          "原文首页和第 5 节的部署及线上试验",
+          "https://arxiv.org/html/2611.12296v1"
+        ]
+      ],
+      "evidence": "第一作者 Xiangrui Yang 明确在香港大学由邱一鸣指导攻读博士，2026 年 4 月起在快手算法引擎平台实习并负责 OneRec 和 OneRec-V2 的线上生成式推荐服务。原文明确报告这项服务已部署并在同一代 OneRec-V2 线上系统测试；文章共同第一作者 Yunfeng Zhao 在更早的快手 OneRec 技术报告中已为企业团队成员，博士导师邱一鸣与企业合作者 Yunfeng Zhao 均同篇署名。"
+    },
+    {
+      "id": "alibaba-miga-ucas-huang",
+      "company": "阿里巴巴",
+      "team": "高德 AMAP DreamX",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、国科大博士生导师，ICML 论文通讯作者。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人履历记载 2024 年 3 月起任阿里高德 DreamX 负责人及高级总监；本篇署高德。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "丰效坤 · Xiaokun Feng",
+        "个人资料列 2022 年 9 月起在中国科学院自动化所攻读博士，2025 年 2—10 月为阿里高德研究实习生；ICML 正文标注该项目在高德实习完成。",
+        "https://xiaokunfeng.github.io/"
+      ],
+      "title": "Enhancing Train-Free Infinite-Frame Generation for Consistent Long Videos",
+      "short": "MIGA",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "视觉与多模态",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/feng26ac/feng26ac.pdf",
+      "evidence": "ICML 正式版首页注明工作在阿里高德实习开展；丰效坤为唯一同时署国科大、中科院自动化所和阿里高德的作者，本人公开履历亦确认 2025 年 2—10 月在高德实习。高德负责人初祥祥和国科大导师黄凯奇均为同篇作者。",
+      "advising": [
+        "校内博士生导师",
+        "丰效坤公开个人履历具名列中国科学院自动化研究所博士导师为黄凯奇。",
+        "https://xiaokunfeng.github.io/"
+      ],
+      "extra": [
+        [
+          "ICML 正式索引",
+          "https://proceedings.mlr.press/v306/feng26ac.html"
+        ],
+        [
+          "作者项目页",
+          "https://xiaokunfeng.github.io/miga_homepage/"
+        ]
+      ],
+      "paperId": "arxiv:2605.18233"
+    },
+    {
+      "id": "kuaishou-asasr-ucas-he",
+      "company": "快手",
+      "team": "视觉生成研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "赫然 · Ran He",
+        "中国科学院自动化研究所研究员、国科大博士生导师，同篇合著。",
+        "https://people.ucas.ac.cn/~heran"
+      ],
+      "employee": [
+        "Jinhua Hao",
+        "本人公开 OpenReview 履历列 2020 年起任快手研究员；同篇署快手。",
+        "https://openreview.net/profile?id=~Jinhua_Hao1"
+      ],
+      "student": [
+        "Hongbo Wang",
+        "本人公开学术履历列为 2024—2029 中国科学院自动化研究所博士生；ICML 正式版注明这篇是其在快手的实习。",
+        "https://openreview.net/profile?id=~Hongbo_Wang3"
+      ],
+      "title": "Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution",
+      "short": "ASASR",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "视觉与多模态",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf",
+      "evidence": "ICML 正式版的匕首符号明确标给第一作者 Hongbo Wang，说明作品在快手实习完成。导师赫然与快手正式研究人员 Jinhua Hao 均同篇。",
+      "advising": [
+        "校内博士生导师",
+        "Hongbo Wang 的 OpenReview 公开履历明确列赫然为 2024—2029 年博士导师；正式版署国科大及中科院自动化所。",
+        "https://openreview.net/profile?id=~Hongbo_Wang3"
+      ],
+      "extra": [
+        [
+          "ICML 正式索引",
+          "https://proceedings.mlr.press/v306/wang26ch.html"
+        ],
+        [
+          "OpenReview 作者交叉入口",
+          "https://openreview.net/forum?id=5p36n5cMJy"
+        ]
+      ],
+      "paperId": "arxiv:2605.23264"
+    },
+    {
+      "id": "baidu-fromintuition-ucas-lei",
+      "company": "百度",
+      "team": "计算机视觉团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "雷震 · Zhen Lei",
+        "中国科学院自动化研究所研究员、国科大博士生导师，CVPR 正式版同篇通讯作者。",
+        "https://people.ucas.ac.cn/~zlei"
+      ],
+      "employee": [
+        "王井东 · Jingdong Wang",
+        "本人公开专业主页记载担任百度视觉首席科学家；论文署百度。",
+        "https://jingdongwang2017.github.io/index_cn.html"
+      ],
+      "student": [
+        "张浩源 · Haoyuan Zhang",
+        "中国科学院大学博士生。本篇正式版具名将研究归于其百度实习期间；国科大导师名单列为在读博士。",
+        "https://people.ucas.ac.cn/~zlei"
+      ],
+      "title": "From Intuition to Investigation: A Tool-Augmented Reasoning MLLM Framework for Generalizable Face Anti-Spoofing",
+      "short": "From Intuition to Investigation",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.pdf",
+      "evidence": "CVPR 正式版具名说明张浩源在百度实习时完成这项研究，论文列国科大导师雷震为通讯作者，百度首席科学家王井东为同篇百度作者。",
+      "advising": [
+        "校内博士生导师",
+        "雷震的国科大官方档案在「现指导学生」具名列张浩源为博士研究生。",
+        "https://people.ucas.ac.cn/~zlei"
+      ],
+      "extra": [
+        [
+          "CVPR 正式出版",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.html"
+        ],
+        [
+          "学生同期学籍资料",
+          "https://openreview.net/profile?id=~Haoyuan_Zhang1"
+        ],
+        [
+          "2026 年 3 月预印本",
+          "https://arxiv.org/abs/2603.01038"
+        ]
+      ],
+      "paperId": "arxiv:2603.01038"
+    },
+    {
+      "id": "alibaba-omniworldbench-ucas-huang",
+      "company": "阿里巴巴",
+      "team": "高德 AMAP DreamX",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、国科大博士生导师，为 Omni-WorldBench 的一位通讯作者。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人履历记载 2024 年 3 月起任阿里高德 DreamX 负责人及高级总监，本篇署高德。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "武美奇 · Meiqi Wu",
+        "本人履历记载在国科大先攻读硕士、后攻读博士，均由黄凯奇指导；本篇署国科大和高德，首页标注阿里高德实习。",
+        "https://wmeiqi.github.io/"
+      ],
+      "title": "Omni-WorldBench: Towards a Comprehensive Interaction-Centric Evaluation for World Models",
+      "short": "Omni-WorldBench",
+      "date": "2026-03-23",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2603.22212",
+      "evidence": "论文首页双匕首符号注明武美奇等具名作者的工作来自高德实习。导师黄凯奇作为同篇通讯作者，高德 DreamX 负责人初祥祥同篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "武美奇本人公开履历写明其国科大硕士和博士阶段均由黄凯奇指导；国科大另一份导师档案也列武美奇为已指导硕士。",
+        "https://wmeiqi.github.io/"
+      ],
+      "extra": [
+        [
+          "预印本元数据",
+          "https://arxiv.org/abs/2603.22212"
+        ],
+        [
+          "国科大导师学生名单",
+          "https://people.ucas.ac.cn/~0004554"
+        ]
+      ],
+      "paperId": "arxiv:2603.22212"
+    },
+    {
+      "id": "alibaba-narrlv-ucas-huang",
+      "company": "阿里巴巴",
+      "team": "高德 AMAP DreamX",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、国科大博士生导师，以下论文同篇署名。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人履历记载 2024 年 3 月起任阿里高德 DreamX 负责人及高级总监，同篇署阿里高德。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "丰效坤 · Xiaokun Feng",
+        "2022 年 9 月起就读国科大、在中科院自动化所攻读博士，2025 年 2—10 月于阿里高德实习。",
+        "https://xiaokunfeng.github.io/"
+      ],
+      "title": "NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation",
+      "short": "NarrLV",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2507.11245v1",
+      "evidence": "初版首页只给丰效坤标阿里高德实习星号。 黄凯奇与阿里高德 DreamX 负责人初祥祥均在本篇作者名单。",
+      "advising": [
+        "校内博士生导师",
+        "丰效坤本人公开履历具名列博士导师为黄凯奇。",
+        "https://xiaokunfeng.github.io/"
+      ],
+      "extra": [
+        [
+          "ICLR 出版索引",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/237c16c6d4352c5e0e6336143a2daf7f-Abstract-Conference.html"
+        ]
+      ],
+      "paperId": "arxiv:2507.11245"
+    },
+    {
+      "id": "alibaba-ltd-ucas-huang",
+      "company": "阿里巴巴",
+      "team": "高德 AMAP DreamX",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、国科大博士生导师，以下论文同篇署名。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人履历记载 2024 年 3 月起任阿里高德 DreamX 负责人及高级总监，同篇署阿里高德。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "武美奇 · Meiqi Wu",
+        "本人公开履历列在国科大攻读博士，阿里高德实习由同篇研究原文具名标注。",
+        "https://wmeiqi.github.io/"
+      ],
+      "title": "Latent Temporal Discrepancy as Motion Prior: A Loss-Weighting Strategy for Dynamic Fidelity in T2V",
+      "short": "LTD",
+      "date": "2026-05",
+      "venue": "ICASSP",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/html/2601.20504",
+      "evidence": "公开论文 HTML 在第一作者武美奇名下有阿里高德实习的具名作者注，并由黄凯奇、初祥祥共同署名。 黄凯奇与阿里高德 DreamX 负责人初祥祥均在本篇作者名单。",
+      "advising": [
+        "校内博士生导师",
+        "武美奇本人公开履历明确其国科大硕士、博士均由黄凯奇指导。",
+        "https://wmeiqi.github.io/"
+      ],
+      "extra": [
+        [
+          "ICASSP 正式节目",
+          "https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=6874&bare=1"
+        ]
+      ],
+      "paperId": "arxiv:2601.20504"
+    },
+    {
+      "id": "alibaba-panodecouple-sysu-weishi-zheng",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "淘宝端智能",
+      "title": "Panorama Generation From NFoV Image Done Right",
+      "short": "PanoDecouple",
+      "date": "2025-06",
+      "venue": "CVPR",
+      "area": "计算机视觉",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zheng_Panorama_Generation_From_NFoV_Image_Done_Right_CVPR_2025_paper.pdf",
+      "arxiv": "2503.18420",
+      "evidence": "CVPR 正式论文首页具名说明郑典在阿里巴巴实习期间完成该研究。郑典本人的履历记录 2024 年 5–11 月阿里实习及其 2025 年获中山大学硕士学位，具名列郑伟诗为导师；同篇作者吕承飞为阿里正式研究员。",
+      "faculty": [
+        "郑伟诗 · Wei-Shi Zheng",
+        "中山大学计算机学院教授，论文通讯作者；本人书目逐篇列出论文与指导学生。",
+        "https://cse.sysu.edu.cn/teacher/ZhengWeishi"
+      ],
+      "employee": [
+        "吕承飞 · Chengfei Lv",
+        "同篇阿里巴巴作者；中国计算机学会同期会议列作阿里巴巴研究员、报告淘宝端智能方向。",
+        "https://bls.ccf.org.cn/posts/calendar/19.html"
+      ],
+      "student": [
+        "郑典 · Dian Zheng",
+        "研究发生时为中山大学硕士研究生，2024 年在阿里巴巴实习，其后获硕士学位。",
+        "https://zhengdian1.github.io/"
+      ],
+      "advising": [
+        "硕士导师",
+        "郑典本人履历具名列郑伟诗为中山大学硕士导师；郑伟诗的逐篇书目也列该篇及郑典。",
+        "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html"
+      ],
+      "extra": [
+        [
+          "阿里云官方开发者社区：吕承飞任职",
+          "https://developer.aliyun.com/article/779731"
+        ],
+        [
+          "CVF 论文目录",
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_Panorama_Generation_From_NFoV_Image_Done_Right_CVPR_2025_paper.html"
+        ]
+      ]
     }
   ]
 };
