@@ -39269,6 +39269,251 @@ const survey = {
         "王君可本人明确说明复旦博士导师为吴祖煊、姜育刚，两人均在发表版本署名。",
         "https://wdrink.github.io/"
       ]
+    },
+    {
+      "id": "weedit-tencent-fudan-f3_fp8aaaaaj",
+      "paperId": "arxiv:2603.11593",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "张辉在复旦读博期间的两位导师之一，具名同篇。",
+        "https://teai.fudan.edu.cn/faculty-detail.html?id=110"
+      ],
+      "employee": [
+        "孟凡东 · Fandong Meng",
+        "腾讯微信 AI 首席研究员、团队负责人，担任论文通讯作者。",
+        "https://fandongmeng.github.io/"
+      ],
+      "student": [
+        "张辉 · Hui Zhang",
+        "2021 年 9 月至 2026 年 7 月复旦在读博士；公开履历列任腾讯微信 AI 图像生成和编辑研究实习生期间包含同篇首稿公开日，并发表该项目及基准。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ],
+      "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-Centric Image Editing",
+      "short": "WeEdit",
+      "date": "2026-03",
+      "venue": "ECCV",
+      "area": "图像生成与编辑",
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-032-37013-6_26",
+      "extra": [
+        [
+          "2026 年 3 月首稿及作者",
+          "https://arxiv.org/abs/2603.11593v1"
+        ],
+        [
+          "由第一作者公开的企业项目与贡献者",
+          "https://huizhang0812.github.io/WeEdit/"
+        ],
+        [
+          "第一作者发布的 WeEdit 基准数据",
+          "https://huggingface.co/datasets/HuiZhang0812/WeEdit_benchmark"
+        ]
+      ],
+      "evidence": "论文首稿于 2026 年 3 月公开，张辉当时为复旦在读博士，个人履历明确 2025 年 8 月至 2026 年 6 月在腾讯微信 AI 从事图像生成与编辑研究实习，且列出同篇；作者原始项目页面和数据集还公开了他与腾讯研究团队开展这项具体工作的署名和成果。ECCV 正式版确认张辉复旦／微信 AI 双署、吴祖煊和姜育刚为同论文复旦作者，孟凡东为腾讯通讯作者。正式会议在毕业后举办，关系时点以 3 月首稿及项目研发为准。",
+      "advising": [
+        "复旦博士联合指导",
+        "张辉个人简历正式具名吴祖煊、姜育刚为其复旦博士导师。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ]
+    },
+    {
+      "id": "weedit-tencent-fudan-7t12hvkaaaaj",
+      "paperId": "arxiv:2603.11593",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "张辉在复旦读博期间的两位导师之一，具名同篇。",
+        "https://zxwu.azurewebsites.net/"
+      ],
+      "employee": [
+        "孟凡东 · Fandong Meng",
+        "腾讯微信 AI 首席研究员、团队负责人，担任论文通讯作者。",
+        "https://fandongmeng.github.io/"
+      ],
+      "student": [
+        "张辉 · Hui Zhang",
+        "2021 年 9 月至 2026 年 7 月复旦在读博士；公开履历列任腾讯微信 AI 图像生成和编辑研究实习生期间包含同篇首稿公开日，并发表该项目及基准。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ],
+      "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-Centric Image Editing",
+      "short": "WeEdit",
+      "date": "2026-03",
+      "venue": "ECCV",
+      "area": "图像生成与编辑",
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-032-37013-6_26",
+      "extra": [
+        [
+          "2026 年 3 月首稿及作者",
+          "https://arxiv.org/abs/2603.11593v1"
+        ],
+        [
+          "由第一作者公开的企业项目与贡献者",
+          "https://huizhang0812.github.io/WeEdit/"
+        ],
+        [
+          "第一作者发布的 WeEdit 基准数据",
+          "https://huggingface.co/datasets/HuiZhang0812/WeEdit_benchmark"
+        ]
+      ],
+      "evidence": "论文首稿于 2026 年 3 月公开，张辉当时为复旦在读博士，个人履历明确 2025 年 8 月至 2026 年 6 月在腾讯微信 AI 从事图像生成与编辑研究实习，且列出同篇；作者原始项目页面和数据集还公开了他与腾讯研究团队开展这项具体工作的署名和成果。ECCV 正式版确认张辉复旦／微信 AI 双署、吴祖煊和姜育刚为同论文复旦作者，孟凡东为腾讯通讯作者。正式会议在毕业后举办，关系时点以 3 月首稿及项目研发为准。",
+      "advising": [
+        "复旦博士联合指导",
+        "张辉个人简历正式具名吴祖煊、姜育刚为其复旦博士导师。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ]
+    },
+    {
+      "id": "creatilayout-bytedance-fudan-f3_fp8aaaaaj",
+      "paperId": "arxiv:2412.03859",
+      "company": "字节跳动",
+      "team": "Intelligent Creation",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "张辉的复旦博士导师，同期具名共同作者。",
+        "https://teai.fudan.edu.cn/faculty-detail.html?id=110"
+      ],
+      "employee": [
+        "Jie Shao",
+        "本文署名来自字节 Intelligent Creation；同期正式 ICML 论文署字节团队、列企业邮箱并明确作为研究项目负责人。",
+        "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf"
+      ],
+      "student": [
+        "张辉 · Hui Zhang",
+        "复旦博士期间在字节 Intelligent Creation 做高效、可控图像生成研究实习；首稿具名是此项工作负责发表的第一作者。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ],
+      "title": "CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation",
+      "short": "CreatiLayout",
+      "date": "2024-12",
+      "venue": "ICCV",
+      "area": "图像生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_CreatiLayout_Siamese_Multimodal_Diffusion_Transformer_for_Creative_Layout-to-Image_Generation_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "公开首次稿及日期",
+          "https://arxiv.org/abs/2412.03859v1"
+        ],
+        [
+          "第一作者的具体研发项目和对应原文",
+          "https://creatilayout.github.io/"
+        ],
+        [
+          "复旦实验室书目",
+          "https://fvl.fudan.edu.cn/en/publications.html"
+        ]
+      ],
+      "evidence": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究布局引导的图像生成，对应张辉简历所列字节实习任务中的可控图像生成；2024-12 首稿已经明确将第一作者共同署为复旦与字节，ICCV 正式版首页复核其字节 Intelligent Creation 双署，致谢具体企业项目号 CT20230914000147。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。",
+      "advising": [
+        "复旦博士联合指导",
+        "张辉个人简历具名两位博士导师；本栏目只登记在指定正式论文署名的导师。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ]
+    },
+    {
+      "id": "creatilayout-bytedance-fudan-7t12hvkaaaaj",
+      "paperId": "arxiv:2412.03859",
+      "company": "字节跳动",
+      "team": "Intelligent Creation",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "张辉的复旦博士导师，同期具名共同作者。",
+        "https://zxwu.azurewebsites.net/"
+      ],
+      "employee": [
+        "Jie Shao",
+        "本文署名来自字节 Intelligent Creation；同期正式 ICML 论文署字节团队、列企业邮箱并明确作为研究项目负责人。",
+        "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf"
+      ],
+      "student": [
+        "张辉 · Hui Zhang",
+        "复旦博士期间在字节 Intelligent Creation 做高效、可控图像生成研究实习；首稿具名是此项工作负责发表的第一作者。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ],
+      "title": "CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation",
+      "short": "CreatiLayout",
+      "date": "2024-12",
+      "venue": "ICCV",
+      "area": "图像生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_CreatiLayout_Siamese_Multimodal_Diffusion_Transformer_for_Creative_Layout-to-Image_Generation_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "公开首次稿及日期",
+          "https://arxiv.org/abs/2412.03859v1"
+        ],
+        [
+          "第一作者的具体研发项目和对应原文",
+          "https://creatilayout.github.io/"
+        ],
+        [
+          "复旦实验室书目",
+          "https://fvl.fudan.edu.cn/en/publications.html"
+        ]
+      ],
+      "evidence": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究布局引导的图像生成，对应张辉简历所列字节实习任务中的可控图像生成；2024-12 首稿已经明确将第一作者共同署为复旦与字节，ICCV 正式版首页复核其字节 Intelligent Creation 双署，致谢具体企业项目号 CT20230914000147。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。",
+      "advising": [
+        "复旦博士联合指导",
+        "张辉个人简历具名两位博士导师；本栏目只登记在指定正式论文署名的导师。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ]
+    },
+    {
+      "id": "blockdance-bytedance-fudan-7t12hvkaaaaj",
+      "paperId": "arxiv:2503.15927",
+      "company": "字节跳动",
+      "team": "Intelligent Creation",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "张辉的复旦博士导师，同期具名共同作者。",
+        "https://zxwu.azurewebsites.net/"
+      ],
+      "employee": [
+        "Jie Shao",
+        "本文署名来自字节 Intelligent Creation；同期正式 ICML 论文署字节团队、列企业邮箱并明确作为研究项目负责人。",
+        "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf"
+      ],
+      "student": [
+        "张辉 · Hui Zhang",
+        "复旦博士期间在字节 Intelligent Creation 做高效、可控图像生成研究实习；首稿具名是此项工作负责发表的第一作者。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ],
+      "title": "BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers",
+      "short": "BlockDance",
+      "date": "2025-03",
+      "venue": "CVPR",
+      "area": "图像生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_BlockDance_Reuse_Structurally_Similar_Spatio-Temporal_Features_to_Accelerate_Diffusion_Transformers_CVPR_2025_paper.pdf",
+      "extra": [
+        [
+          "公开首次稿及日期",
+          "https://arxiv.org/abs/2503.15927v1"
+        ],
+        [
+          "第一作者的具体研发项目和对应原文",
+          "https://arxiv.org/html/2503.15927"
+        ],
+        [
+          "复旦实验室书目",
+          "https://fvl.fudan.edu.cn/en/publications.html"
+        ]
+      ],
+      "evidence": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究缓存扩散模型中冗余块以加速图像生成，对应张辉简历所列字节实习任务中的高效图像生成；2025-03 首稿具名第一作者复旦／字节智能创作双署，正式 CVPR 卷有字节项目 CT20230914000147 的明确致谢。姜育刚未署名，因此这里只登记吴祖煊。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。",
+      "advising": [
+        "复旦博士联合指导",
+        "张辉个人简历具名两位博士导师；本栏目只登记在指定正式论文署名的导师。",
+        "https://huizhang0812.github.io/CV_huizhang_en.pdf"
+      ]
     }
   ]
 };

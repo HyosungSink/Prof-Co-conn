@@ -13,7 +13,12 @@ const facultyPaperAudits = {
       "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40",
       "https://xuefenghu.me/",
       "https://github.com/FoundationVision",
-      "https://enjoyyi.github.io/"
+      "https://enjoyyi.github.io/",
+      "https://huizhang0812.github.io/CV_huizhang_en.pdf",
+      "https://huizhang0812.github.io/",
+      "https://fandongmeng.github.io/",
+      "https://fvl.fudan.edu.cn/en/publications.html",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf"
     ],
     "papers": [
       {
@@ -113,6 +118,27 @@ const facultyPaperAudits = {
         "url": "https://proceedings.nips.cc/paper_files/paper/2024/file/31994923f58ae5b2d661b300bd439107-Paper-Conference.pdf",
         "outcome": "confirmed",
         "note": "NeurIPS 正式版和 2024-06-13 预印本具名复旦博士王君可、吴祖煊和姜育刚、字节研究人员 Yi Jiang。首发前数小时，王君可以真实姓名及企业邮箱直接向字节 FoundationVision 官方仓库提交 OmniTokenizer 主体实现与训练代码；企业团队首页独立把 OmniTokenizer 列为团队自己的成果。王君可本人另说明在复旦读博期间曾在字节实习。以该论文的企业科研工作成立，不推定这笔提交对应哪段人事安排。"
+      },
+      {
+        "year": 2026,
+        "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-Centric Image Editing",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37013-6_26",
+        "outcome": "confirmed",
+        "note": "论文首稿于 2026 年 3 月公开，张辉当时为复旦在读博士，个人履历明确 2025 年 8 月至 2026 年 6 月在腾讯微信 AI 从事图像生成与编辑研究实习，且列出同篇；作者原始项目页面和数据集还公开了他与腾讯研究团队开展这项具体工作的署名和成果。ECCV 正式版确认张辉复旦／微信 AI 双署、吴祖煊和姜育刚为同论文复旦作者，孟凡东为腾讯通讯作者。正式会议在毕业后举办，关系时点以 3 月首稿及项目研发为准。"
+      },
+      {
+        "year": 2025,
+        "title": "CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_CreatiLayout_Siamese_Multimodal_Diffusion_Transformer_for_Creative_Layout-to-Image_Generation_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究布局引导的图像生成，对应张辉简历所列字节实习任务中的可控图像生成；2024-12 首稿已经明确将第一作者共同署为复旦与字节，ICCV 正式版首页复核其字节 Intelligent Creation 双署，致谢具体企业项目号 CT20230914000147。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。"
+      },
+      {
+        "year": 2025,
+        "title": "BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_BlockDance_Reuse_Structurally_Similar_Spatio-Temporal_Features_to_Accelerate_Diffusion_Transformers_CVPR_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究缓存扩散模型中冗余块以加速图像生成，对应张辉简历所列字节实习任务中的高效图像生成；2025-03 首稿具名第一作者复旦／字节智能创作双署，正式 CVPR 卷有字节项目 CT20230914000147 的明确致谢。姜育刚未署名，因此这里只登记吴祖煊。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -132,7 +158,12 @@ const facultyPaperAudits = {
       "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40",
       "https://xuefenghu.me/",
       "https://github.com/FoundationVision",
-      "https://enjoyyi.github.io/"
+      "https://enjoyyi.github.io/",
+      "https://huizhang0812.github.io/CV_huizhang_en.pdf",
+      "https://huizhang0812.github.io/",
+      "https://fandongmeng.github.io/",
+      "https://fvl.fudan.edu.cn/en/publications.html",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/nie25c/nie25c.pdf"
     ],
     "papers": [
       {
@@ -232,6 +263,20 @@ const facultyPaperAudits = {
         "url": "https://proceedings.nips.cc/paper_files/paper/2024/file/31994923f58ae5b2d661b300bd439107-Paper-Conference.pdf",
         "outcome": "confirmed",
         "note": "NeurIPS 正式版和 2024-06-13 预印本具名复旦博士王君可、吴祖煊和姜育刚、字节研究人员 Yi Jiang。首发前数小时，王君可以真实姓名及企业邮箱直接向字节 FoundationVision 官方仓库提交 OmniTokenizer 主体实现与训练代码；企业团队首页独立把 OmniTokenizer 列为团队自己的成果。王君可本人另说明在复旦读博期间曾在字节实习。以该论文的企业科研工作成立，不推定这笔提交对应哪段人事安排。"
+      },
+      {
+        "year": 2026,
+        "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-Centric Image Editing",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37013-6_26",
+        "outcome": "confirmed",
+        "note": "论文首稿于 2026 年 3 月公开，张辉当时为复旦在读博士，个人履历明确 2025 年 8 月至 2026 年 6 月在腾讯微信 AI 从事图像生成与编辑研究实习，且列出同篇；作者原始项目页面和数据集还公开了他与腾讯研究团队开展这项具体工作的署名和成果。ECCV 正式版确认张辉复旦／微信 AI 双署、吴祖煊和姜育刚为同论文复旦作者，孟凡东为腾讯通讯作者。正式会议在毕业后举办，关系时点以 3 月首稿及项目研发为准。"
+      },
+      {
+        "year": 2025,
+        "title": "CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_CreatiLayout_Siamese_Multimodal_Diffusion_Transformer_for_Creative_Layout-to-Image_Generation_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "张辉个人履历明确：2021 年 9 月至 2026 年 7 月在复旦读博、双导师为吴祖煊和姜育刚；2024 年 1 月至 2025 年 7 月在字节 Intelligent Creation 实习，研究高效、可控图像生成，并具名这一论文。研究布局引导的图像生成，对应张辉简历所列字节实习任务中的可控图像生成；2024-12 首稿已经明确将第一作者共同署为复旦与字节，ICCV 正式版首页复核其字节 Intelligent Creation 双署，致谢具体企业项目号 CT20230914000147。 Jie Shao 同篇具名，且同期 ICML 正式原文具名其为字节智能创作研究项目负责人并列企业邮箱。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -8707,7 +8752,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/pdf/2611.00172",
         "outcome": "confirmed",
-        "note": "10 月 30 日首版首页明确张子殷共同第一和核心贡献者、王瑞上交共同通讯；该生在读并参加蚂蚁研发：其实名关联账号于 10 月 29 日直接向论文指定蚂蚁官方项目提交 对应该论文的综述材料，贡献同时得到署名及作者贡献说明支持。Siqiao Xue 亦为论文署蚂蚁的核心贡献者，本人确认是支付宝研究工程师。题目与 2024 Code LLM Survey、文本嵌入 F2LLM 等不同。"
+        "note": "10 月 30 日首版首页明确张子殷共同第一和核心贡献者、王瑞上交共同通讯；该生在读并参加蚂蚁研发：其实名关联账号于 10 月 29 日直接向论文指定蚂蚁官方项目提交 实质内容更新，有次年以前的早期实质提交可对照。Siqiao Xue 亦为论文署蚂蚁的核心贡献者，本人确认是支付宝研究工程师。题目与 2024 Code LLM Survey、文本嵌入 F2LLM 等不同。"
       },
       {
         "title": "Flexible Realignment of Language Models",
@@ -32721,7 +32766,10 @@ const facultyPaperAudits = {
       "https://doi.org/10.1109/TASLPRO.2026.3724410",
       "https://arxiv.org/abs/2610.25766",
       "https://arxiv.org/pdf/2610.25766",
-      "https://www.isca-archive.org/mlcslm_2025/xue25_mlcslm.pdf"
+      "https://www.isca-archive.org/mlcslm_2025/xue25_mlcslm.pdf",
+      "https://arxiv.org/abs/2412.18832",
+      "https://arxiv.org/pdf/2412.18832",
+      "https://dblp.org/pid/68/5214.html"
     ],
     "papers": [
       {
@@ -33178,9 +33226,16 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "论文首页列第一作者 Yifan Xu 同署港中大和 Tenlai Team；其余 Tenlai 作者与 2025 年腾讯 Ethereal Audio Lab 公开论文部分重合，但 2026-10 的 Tenlai 实体归属、企业人员的同期雇佣及 Yifan Xu 的在读项目参与和具名导师均未核实。",
         "year": 2026
+      },
+      {
+        "title": "Structured Speaker-Deficiency Adaptation of Foundation Models for Dysarthric and Elderly Speech Recognition",
+        "url": "https://arxiv.org/abs/2412.18832",
+        "outcome": "no-evidence",
+        "note": "2024-12 公开原文署港中大、中科院软件所、加拿大国家研究委员会；未见范围内企业合作者或具名企业实习。后续 Interspeech 文章将本稿单独列为参考文献。",
+        "year": 2024
       }
     ],
-    "note": "部分已查：逐篇比对港中大教师所列 2023–2026 年期刊及会议书目、Interspeech 正式全文与其他出版方原始记录，外部书目另外补充预印本。个别期刊只能核对公开题录；尚未完整对照独立索引补充篇目。"
+    "note": "部分已查：逐篇对照港中大教师所列书目、DBLP 作者号 68/5214、Interspeech 原文和其余出版记录。少数正式刊物未能取得全文，校方机构级完整书目分页仍未能打开；保留待补与待核。"
   },
   "hI9NRDkAAAAJ": {
     "from": "2023-01-01",
@@ -33309,7 +33364,10 @@ const facultyPaperAudits = {
       "https://cst.buaa.edu.cn/info/1059/4325.htm",
       "https://dblp.org/pid/68/10002.html",
       "https://orcid.org/0000-0002-2529-8021",
-      "https://zhaoxin-chang.github.io/"
+      "https://zhaoxin-chang.github.io/",
+      "https://zitonglan.github.io/",
+      "https://yuqisususu.github.io/publications/",
+      "https://dr.ntu.edu.sg/server/api/core/items/2d9dd9c1-7d74-4bea-9420-24e289cd12c1"
     ],
     "papers": [
       {
@@ -33696,9 +33754,16 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3603165.3607383",
         "outcome": "no-evidence",
         "note": "ACM 正式题录显示轮值学术教程性质，作者机构为软件所/国科大及北大/巴黎电信；无范围内企业。与同一文集下一篇速度误差论文分列。"
+      },
+      {
+        "year": 2026,
+        "title": "Quantum Sensing for Fine-Grained Liquid Recognition Using Rydberg Atoms",
+        "url": "https://doi.org/10.1109/mcom.001.2600305",
+        "outcome": "no-evidence",
+        "note": "IEEE 在 2026 年 10 月提交正式题录；兰自桐本人发表清单确认最终版，实验设计、17 种液体和牛奶酸碱度结果与 arXiv:2407.19656 合并，同一项成果仅计一次。公开作者稿列山西大学、软件所、北大及海内外高校，无可确认范围内企业。"
       }
     ],
-    "note": "在中国科学院软件研究所及北航两地任职共享台账。核对正式出版方、作者单位、导师及合作方来源，再合并预印本。先查国科大在读学生与腾讯合作较集中的定位研究，其余书目及少量受限全文仍在梳理。"
+    "note": "在中国科学院软件研究所及北航两地任职共享台账。核对正式出版方、作者单位、导师及合作方来源，再合并预印本。先查国科大在读学生与腾讯合作较集中的定位研究，已覆盖 DBLP、ORCID、国科大及多名同篇作者的公开目录；全国室外定位的致谢和个别近刊受限，水声综述仅见作者清单、未找到可归档的正式论文或截止前公开预印本，仍保留梳理中。"
   },
   "wxjUEnoAAAAJ": {
     "from": "2023-01-01",
@@ -33720,5 +33785,127 @@ const facultyPaperAudits = {
       }
     ],
     "note": "从公开原文及软件所研究生名单核对同一论文的任职与直接指导，完整书目仍在梳理。"
+  },
+  "RaFaX88AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://www.ie.cuhk.edu.hk/faculty/xue-diwen/",
+      "https://diwenx.com/publications",
+      "https://dblp.org/pid/259/6190.html",
+      "https://orcid.org/0000-0002-0616-4765",
+      "https://diwenx.com/assets/files/CV-DiwenXue-2025.pdf",
+      "https://commencement.umich.edu/wp-content/uploads/2026/01/260103-Winter-Commencement-2025-ToPost.pdf",
+      "https://petsymposium.org/foci/2023/foci-2023-0009.php",
+      "https://diwenx.com/assets/files/push-foci23.pdf",
+      "https://doi.org/10.56553/popets-2024-0070",
+      "https://diwenx.com/assets/files/vpn-conntrack-pets24.pdf",
+      "https://petsymposium.org/2024/program_UTC%2B5.php",
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/xue-bridging",
+      "https://www.usenix.org/system/files/usenixsecurity24-xue-bridging.pdf",
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/xue-fingerprinting",
+      "https://www.usenix.org/system/files/usenixsecurity24-xue-fingerprinting.pdf",
+      "https://petsymposium.org/popets/2025/popets-2025-0153.php",
+      "https://petsymposium.org/popets/2025/popets-2025-0153.pdf",
+      "https://doi.org/10.1145/3733802.3764059",
+      "https://diwenx.com/assets/files/cryptosluice.pdf",
+      "https://doi.org/10.1145/3719027.3765145",
+      "https://diwenx.com/assets/files/dmap.pdf",
+      "https://arxiv.org/abs/2509.09081",
+      "https://ece.engin.umich.edu/stories/diwen-xue-awarded-2026-irtf-applied-networking-research-prize",
+      "https://www.petsymposium.org/foci/2025/foci-2025-0001.php",
+      "https://www.petsymposium.org/foci/2025/foci-2025-0001.pdf",
+      "https://doi.org/10.1145/3618117",
+      "https://www.usenix.org/system/files/sec22-xue-diwen.pdf",
+      "https://arxiv.org/abs/2403.03998",
+      "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/198727/3618117.pdf?sequence=1",
+      "https://www.ndss-symposium.org/ndss-paper/the-discriminative-power-of-cross-layer-rtts-in-fingerprinting-proxy-traffic/",
+      "https://diwenx.com/assets/files/timing-ndss.pdf",
+      "https://doi.org/10.14722/ndss.2025.240966",
+      "https://arxiv.org/abs/2608.25735",
+      "https://arxiv.org/pdf/2608.25735",
+      "https://yunmingxiao.github.io/publication/"
+    ],
+    "papers": [
+      {
+        "title": "The Use of Push Notification in Censorship Circumvention",
+        "url": "https://petsymposium.org/foci/2023/foci-2023-0009.php",
+        "outcome": "no-evidence",
+        "note": "正式原文与 FOCI 论文页列薛棣文和 Roya Ensafi，两人均署密歇根大学；文中分析商业推送平台不构成企业作者或实习。",
+        "year": 2023
+      },
+      {
+        "title": "Attacking Connection Tracking Frameworks as used by Virtual Private Networks",
+        "url": "https://doi.org/10.56553/popets-2024-0070",
+        "outcome": "no-evidence",
+        "note": "PETS 原文和会议程序列密歇根大学、亚利桑那州立大学、多伦多大学 Citizen Lab、新墨西哥大学及 Breakpointing Bad；未见目标企业作者。",
+        "year": 2024
+      },
+      {
+        "title": "Bridging Barriers: A Survey of Challenges and Priorities in the Censorship Circumvention Landscape",
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/xue-bridging",
+        "outcome": "no-evidence",
+        "note": "USENIX 正式原文作者为密歇根大学及独立研究人员；调研对象及致谢中工具名称未构成具名目标企业研究。",
+        "year": 2024
+      },
+      {
+        "title": "Fingerprinting Obfuscated Proxy Traffic with Encapsulated TLS Handshakes",
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/xue-fingerprinting",
+        "outcome": "no-evidence",
+        "note": "USENIX 原文与正式论文页列密歇根大学、UMass Amherst 和有具名人员参与的 Merit Network；后者不在 14 家目标企业内。",
+        "year": 2024
+      },
+      {
+        "title": "CenPush: Blocking-Resistant Control Channel Using Push Notifications",
+        "url": "https://petsymposium.org/popets/2025/popets-2025-0153.php",
+        "outcome": "no-evidence",
+        "note": "正式原文列密歇根大学、Tor Project 和独立作者，未见范围内企业作者。本人书目称 Blocking-Resistant Communication Using Push Notifications，为同篇；2023 年两作者论文是本篇单独引用的先导工作，另列。",
+        "year": 2025
+      },
+      {
+        "title": "CryptoFilter: Privacy-Preserving Traffic Analysis of Weak Transport Layer Encryption at Internet Gateways",
+        "url": "https://doi.org/10.1145/3733802.3764059",
+        "outcome": "no-evidence",
+        "note": "ACM 作者信息及正式本文中，薛棣文当时署密歇根大学；其余署密歇根大学、亚利桑那州立大学、Breakpointing Bad。未见范围内企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "Fingerprinting Deep Packet Inspection Devices by Their Ambiguities",
+        "url": "https://doi.org/10.1145/3719027.3765145",
+        "outcome": "no-evidence",
+        "note": "ACM CCS 正式稿与密歇根大学获奖公告核实作者当时均来自密歇根大学或加州大学圣克鲁兹分校；DPI 产品为研究对象，非作者。2025-09 预印本归入同篇。",
+        "year": 2025
+      },
+      {
+        "title": "Is Custom Congestion Control a Bad Idea for Circumvention Tools?",
+        "url": "https://www.petsymposium.org/foci/2025/foci-2025-0001.php",
+        "outcome": "no-evidence",
+        "note": "FOCI 论文公开署名为密歇根大学、苏黎世联邦理工及一位未公开身份的合作者，无具名目标企业研究或在读实习依据。不对未公开作者作身份推断。",
+        "year": 2025
+      },
+      {
+        "title": "OpenVPN is Open to VPN Fingerprinting",
+        "url": "https://doi.org/10.1145/3618117",
+        "outcome": "no-evidence",
+        "note": "2022 USENIX 初版、2024 arXiv 及 ACM 期刊版同属一项；ACM 2024-06 在线、2025 年卷期内发表，按期刊年份列一篇。原文合作方 Merit Network 不属目标企业，作者当时为密歇根大学博士生。",
+        "year": 2025
+      },
+      {
+        "title": "The Discriminative Power of Cross-layer RTTs in Fingerprinting Proxy Traffic",
+        "url": "https://www.ndss-symposium.org/ndss-paper/the-discriminative-power-of-cross-layer-rtts-in-fingerprinting-proxy-traffic/",
+        "outcome": "no-evidence",
+        "note": "NDSS 原文首页四人均署密歇根大学；致谢的科研资助和反馈不表明目标企业成员参与。",
+        "year": 2025
+      },
+      {
+        "title": "Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale",
+        "url": "https://arxiv.org/abs/2608.25735",
+        "outcome": "no-evidence",
+        "note": "预印本首版 2026-08、截止日修订版 2026-11-12；薛棣文同期署港中大，其余作者署港中深、清华、北邮、中科院，无具名企业实习或目标企业署名。",
+        "year": 2026
+      }
+    ],
+    "note": "以港中大院系档案锁定作者，交叉核对本人公开书目、履历、ORCID、DBLP 和正式论文全文，共逐篇检查 11 项范围内论文。将同题预印本与正式版本合并；ORCID 另列的博士学位论文不计，2027 年 CenKL 截至 2026-11-12 仅自列待发表、未找到同期公开全文，亦未计入。"
   }
 };
