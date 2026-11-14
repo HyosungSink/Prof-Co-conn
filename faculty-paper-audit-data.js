@@ -46465,7 +46465,7 @@ const facultyPaperAudits = {
         "note": "正式开放版署名均为中科院计算所/国科大。陈薇组员名录具名 Tongrui Su 与 Qingbin Li；没看到企业作者或该项目在企业开展的证据。"
       },
       {
-        "year": 2026,
+        "year": 2025,
         "title": "How Do LLM-Generated Texts Impact Term-Based Retrieval Models?",
         "url": "https://doi.org/10.1145/3773966.3777988",
         "outcome": "lead",
@@ -46652,9 +46652,23 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2403.15146",
         "outcome": "no-evidence",
         "note": "预印本列中科大/微软研究院、北大、中科院、港中大（深圳）。唯一企业是范围外的微软；证明 Adam 与 SGDM 的收敛上下界，不是提出随机重排 Adam 的 KDD 2024 论文。"
+      },
+      {
+        "year": 2024,
+        "title": "Provable Adaptivity of Adam under Non-uniform Smoothness",
+        "url": "https://doi.org/10.1145/3637528.3671718",
+        "outcome": "no-evidence",
+        "note": "KDD 2024 正式版和 2022 首发、2024 更新的 arXiv 2208.09900 为同篇；北大张祜帅学校页以 Randomly-reshuffled Adam can provably converge under non-uniform smoothness 列出。作者早期微软学术合作，不作本项目目标企业关系。"
+      },
+      {
+        "year": 2023,
+        "title": "Incorporating NODE with Pre-trained Neural Differential Operator for Learning Dynamics",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231223000516",
+        "outcome": "no-evidence",
+        "note": "Elsevier 2023 卷期与 2021 arXiv 2106.04166 为同篇，记录窗口内正式刊出，原文致谢 Microsoft Research 并介绍多位员工。微软不在范围内，首次公开稿早于窗口。"
       }
     ],
-    "note": "用国科大教师本人分年书目、组内成员名单、已核身份证明的 ORCID 与合著者目录交叉补录；DBLP 同人记录分散在两个条目，未直接把其中任何一个条目认定为全集。正式 PDF 的 Microsoft Research 作者邮箱 weic@microsoft.com 为另一位 Wei Chen；Collaborative Pure Exploration in Kernel Bandit 和 Continuous K-Max Bandits 不列入。ICLR 2024 BGPT 单神经元动量研究的公开全文仍待核。"
+    "note": "已用教师分年书目、组员名单、ORCID、区分同名的 DBLP 记录与合著者书目交叉核对。仍需补查未见全文的作品和企业实研证据。"
   },
   "lsj5Wv4AAAAJ": {
     "from": "2023-01-01",
@@ -49123,5 +49137,686 @@ const facultyPaperAudits = {
       }
     ],
     "note": "首批核对北航公开书目与 ORCID、会议论文。DBLP 页面有同名作者，仍需继续交叉排查其它记录。"
+  },
+  "SL1QGDoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/wzh/index.htm",
+      "https://hertziszihe.github.io/",
+      "https://dblp.org/pid/137/7822-1.html",
+      "https://orcid.org/0000-0001-7752-4687",
+      "https://duabc.github.io/zhichengdu/",
+      "https://s7hang.github.io/",
+      "https://xyansjtu.github.io/",
+      "https://duabc.github.io/zhichengdu/publications/",
+      "https://duabc.github.io/zhichengdu/files/Zhicheng_Du_CV.pdf",
+      "https://s7hang.github.io/publications/",
+      "https://ai.ruc.edu.cn/GSAI_HOME/FACULTYn/ZiheWang/index.htm",
+      "https://lozycs.github.io/",
+      "https://haoqianghuang.github.io/publications/",
+      "https://www.weiran-shen.info/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Algorithmic Information Design for Searchers with Uncertain Alternatives",
+        "url": "https://arxiv.org/html/2606.03527v1",
+        "outcome": "no-evidence",
+        "note": "杜志成本人书目确认 2026 WINE 版与首稿改题为同一工作；2026-06 最早稿仅人大和上海财经，华为机制实习经历本身不证明本项目由华为开展。"
+      },
+      {
+        "year": 2026,
+        "title": "Cold-Start Pricing of LLM Services under Two-Sided Learning",
+        "url": "https://arxiv.org/html/2611.03199v1",
+        "outcome": "lead",
+        "note": "2026-11-02 首稿具名人大导师王子贺、首作者人大博士杜志成及三位华为合作者，其中阎翔本人确认是华为 Taylor Lab 研究员。杜的 CV 和本人站明确在职期间为 2026-06–11，方向机制设计，且本人书目列本篇；原文未明示杜具体在华为完成本项，仍需要直接的项目出处。"
+      },
+      {
+        "year": 2026,
+        "title": "Constant Approximation of Fréchet Distance in Near-Linear Time",
+        "url": "https://arxiv.org/html/2611.00240v1",
+        "outcome": "lead",
+        "note": "首稿含华为黄浩强与人大的王子贺、张硕，张本人和王的学生页双证师承。张的个人页及论文未写该篇在华为实研；STOC 2025 较慢算法的作者与学术机构不同，不能由它递推。"
+      },
+      {
+        "year": 2025,
+        "title": "Deterministic Implementation in Single-Item Auctions",
+        "url": "https://arxiv.org/html/2512.17386v1",
+        "outcome": "no-evidence",
+        "note": "首稿 2025-12，IJCAI/ECAI 正式 2026，作者署人大、清华和巴斯大学。任泽宇在稿时署人大，后来的字节去向不能用于本项。"
+      },
+      {
+        "year": 2026,
+        "title": "Dimension Amplification for Tarski Fixed-Point Query Lower Bounds",
+        "url": "https://arxiv.org/html/2610.05644v1",
+        "outcome": "no-evidence",
+        "note": "作者二人均署人大高瓴；没有同期企业合作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Ex-Ante Truthful Distribution-Reporting Mechanisms",
+        "url": "https://arxiv.org/html/2507.04030v1",
+        "outcome": "no-evidence",
+        "note": "首稿与 10.1007/978-3-032-18660-7_7 正式篇对应，作者署北大、人大、巴斯大学，无企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Finite-Size Limits of Adaptive Pauli Prediction",
+        "url": "https://arxiv.org/html/2610.13652v1",
+        "outcome": "no-evidence",
+        "note": "预印本作者均北理工／人大；致谢是北理工校级基金，无企业。"
+      },
+      {
+        "year": 2026,
+        "title": "From Bilateral Trade to Matching Markets: Sharp Gains from Trade",
+        "url": "https://arxiv.org/html/2609.30702v1",
+        "outcome": "no-evidence",
+        "note": "首稿署北理工、人大；交易增益和匹配扩张不同于总福利论文。无范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "GSP Autobidding Equilibria with Few Advertisers or Slots",
+        "url": "https://arxiv.org/html/2610.29310v1",
+        "outcome": "no-evidence",
+        "note": "预印本作者署北京理工与人大，无指定企业参与；GSP 机制不同于此前直接次价竞拍的研究。"
+      },
+      {
+        "year": 2026,
+        "title": "Hardness Amplification for Approximate Nash Equilibrium with Constantly Many Players",
+        "url": "https://arxiv.org/html/2610.25608v1",
+        "outcome": "no-evidence",
+        "note": "预印本作者署北大、香港城大、人大、巴斯大学等学术单位，未见指定企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empowered Reinforcement Learning",
+        "url": "https://arxiv.org/html/2601.21212v1",
+        "outcome": "no-evidence",
+        "note": "WWW 与首稿无重复计数，四位作者署人大高瓴，通讯加挂校内和教育部研究中心，无指定企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Mechanism Design via Market Clearing-Prices for Value Maximizers under Budget and RoS Constraints",
+        "url": "https://arxiv.org/html/2602.19085v1",
+        "outcome": "no-evidence",
+        "note": "三作者均人大单位，目标企业无署名或项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "More Papers More Slots: AI-Enabled Sybil Attacks in Peer Review",
+        "url": "https://www.adai.ai/dai/2026/accepted-papers.html",
+        "outcome": "no-evidence",
+        "note": "作者个人页和 DAI 官方收录摘要确认两名作者，都是人大。论文模型使用生成式 AI 情境，没有企业合著者。"
+      },
+      {
+        "year": 2026,
+        "title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+        "url": "https://arxiv.org/html/2611.14910v1",
+        "outcome": "lead",
+        "note": "arXiv 首稿时间戳 2026-11-11，作者栏有人大王子贺和 Songshi Liang、阿里 Ting-En Lin／Yuchuan Wu／Yongbin Li、北航 Zixuan Huang、武大 Rui Yan；致谢顾及阿里建议和赞助。未确认 Liang 的具名校内导师及此篇在阿里实研角色；不以通讯认定指导。"
+      },
+      {
+        "year": 2026,
+        "title": "Optimal Multi-Item Auctions with I.I.D. Values",
+        "url": "https://arxiv.org/html/2610.11051v1",
+        "outcome": "no-evidence",
+        "note": "首稿均为人大、北理工单位，未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Pacing Equilibria in Second-Price Auctions with Few Buyers",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38782",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 三位作者署北理工、人大。固定购买方，与固定商品数量的四作者工作不同。"
+      },
+      {
+        "year": 2026,
+        "title": "Pacing Equilibria in Second-Price Auctions with Few Goods",
+        "url": "https://arxiv.org/html/2605.09332v1",
+        "outcome": "no-evidence",
+        "note": "公开稿为有限商品而非 AAAI 2026 的有限购买方，仍采用定价均衡；结合合作者校方信息，未见本项指定企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Prices as Signals: Joint Design of Information and Pricing",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7541998",
+        "outcome": "no-evidence",
+        "note": "2026-09-29 公开稿、杜志成书目与 WINE 后续录用为同项。作者署人大和帝国理工，预印本声明无资助；未查到目标企业开展此篇的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Pricing Information in Search with Nonobligatory Inspection",
+        "url": "https://arxiv.org/html/2610.34369v1",
+        "outcome": "no-evidence",
+        "note": "预印本全部作者署人大，研究可选择检查的搜索；没有范围内企业署名或项目来源。"
+      },
+      {
+        "year": 2026,
+        "title": "Private Private Information in Second-Price Auction",
+        "url": "https://arxiv.org/html/2604.24530v1",
+        "outcome": "no-evidence",
+        "note": "人大本人和学生书目的 EC 2026 条目对齐，四作者只署人大与香港中文大学。"
+      },
+      {
+        "year": 2026,
+        "title": "Second-Best Bilateral Trade is 1/2 Efficient",
+        "url": "https://arxiv.org/html/2606.03849v1",
+        "outcome": "lead",
+        "note": "2026-06-03 预印本四作者只列高校及个人邮箱，任泽宇后来在导师主页列为字节跳动去向；未查到研究时即已任职或同项公司活动，不能把现单位追溯到该论文。"
+      },
+      {
+        "year": 2026,
+        "title": "Sharp Second-Best Welfare in Bilateral and Matching Markets",
+        "url": "https://arxiv.org/html/2609.37366v1",
+        "outcome": "no-evidence",
+        "note": "首稿署北理工、人大，研究总福利（含初始禀赋）的比例，而非另文的交易增益比例，未见企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Spectral symmetry fingerprints in equivariant representations",
+        "url": "https://arxiv.org/html/2611.07410v1",
+        "outcome": "no-evidence",
+        "note": "2026-11-07 首稿署人大高瓴及其三个相关研究平台；没有企业作者。是谱对称指纹，不与 2024 HEGNN 或 2025/26 不变学习合并。"
+      },
+      {
+        "year": 2025,
+        "title": "Universally Invariant Learning in Equivariant GNNs",
+        "url": "https://arxiv.org/html/2510.13169v1",
+        "outcome": "lead",
+        "note": "ICLR 与早期作者稿具名人大团队、湖畔实验室三位作者，并列通讯黄文炳的 DAMO 联合署名。未确认学生实际参加阿里本项目、也未把独立湖畔实验室署名当作阿里正式任职。"
+      },
+      {
+        "year": 2024,
+        "title": "A survey of geometric graph neural networks: data structures, models and applications",
+        "url": "https://link.springer.com/article/10.1007/s11704-025-41426-w",
+        "outcome": "lead",
+        "note": "2024 预印本与 2025 Springer 正式一篇。正式版列阿里达摩院、腾讯 AI Lab 员工，致谢腾讯犀牛鸟项目；第一作者韩佳齐做该项时访问人大，岑家成等署人大。仍缺与负责导师同篇且在指定公司做此项研究的学生证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Approximating EFX Through a New Notion of Fairness",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-4839-2_12",
+        "outcome": "no-evidence",
+        "note": "TAMC 2025 正式 Springer 章节与合作者刘正阳书目相符，院校为人大等学术单位，没有范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "CHBench: A Cognitive Hierarchy Benchmark for Evaluating Strategic Reasoning Capability of LLMs",
+        "url": "https://arxiv.org/html/2508.11944v1",
+        "outcome": "no-evidence",
+        "note": "2025-08 首稿四位人大作者，包括王与博士生杜；早于杜的华为实习，无指定企业来源。"
+      },
+      {
+        "year": 2025,
+        "title": "Edge-Centric Pricing Mechanisms with Selfish Heterogeneous Users",
+        "url": "https://link.springer.com/article/10.1007/s11390-024-3298-y",
+        "outcome": "no-evidence",
+        "note": "期刊原文确认 Zihe 是人大王子贺并明确韩震华署微软亚洲研究院（范围外）；使用 Google 集群数据不等于企业合作。CWSN 2020 是同工作初版。"
+      },
+      {
+        "year": 2025,
+        "title": "Environmental Policies within Cournot Oligopoly",
+        "url": "https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p2738.pdf",
+        "outcome": "no-evidence",
+        "note": "AAMAS 正式扩展摘要署人大、北理工、港科大；作者黄浩强当期仍用港科大学籍，不能套用后来的华为署名。与 Cournot 振荡稿不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Fair Value Distribution in Cooperative Committee Election",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-8312-3_28",
+        "outcome": "no-evidence",
+        "note": "Springer 2025 会刊，人大和巴斯学术合作。学生任泽宇当前去向不能回填具体企业工作。"
+      },
+      {
+        "year": 2025,
+        "title": "Multiplayer General Lotto Game",
+        "url": "https://researchportal.bath.ac.uk/en/publications/multiplayer-general-lotto-game/",
+        "outcome": "no-evidence",
+        "note": "WINE 2025 会议与 arXiv 2401.14613 同项；最后作者正式版扩充。初版署人大、清华，最终版有巴斯，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "On the Distortion of Multi-winner Election Using Single-Candidate Ballots",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-0215-8_21",
+        "outcome": "no-evidence",
+        "note": "COCOON 四作者机构名单及研究资助未列指定企业；任泽宇毕业后去向不用于本篇。"
+      },
+      {
+        "year": 2024,
+        "title": "On the Oscillations in Cournot Games with Best Response Strategies",
+        "url": "https://arxiv.org/html/2410.09435v1",
+        "outcome": "no-evidence",
+        "note": "作者公开稿 2024-10，经 COCOON 正式刊 DOI 10.1007/978-981-95-0215-8_24 为 2025，人员署人大和北理工；没有企业。"
+      },
+      {
+        "year": 2025,
+        "title": "On the design of truthful mechanisms for the capacitated facility location problem with two and more facilities",
+        "url": "https://researchportal.bath.ac.uk/en/publications/on-the-design-of-truthful-mechanisms-for-the-capacitated-facility/",
+        "outcome": "no-evidence",
+        "note": "正式期刊 DOI 10.1016/j.artint.2025.104390，校方存档三作者署帕多瓦、人大和巴斯；与 2024 IJCAI 同人同题组的设施容量机制连同预印本合计为一个成果，原始记录皆未见企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Optimal Calibrated Signaling in Digital Auctions",
+        "url": "https://arxiv.org/html/2507.17187v1",
+        "outcome": "no-evidence",
+        "note": "原文四人署人大、香港中文大学三作师生与合作者；早于杜在华为实际实习，未见其他公司证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Simultaneous All-Pay Auctions with Budget Constraints",
+        "url": "https://arxiv.org/html/2505.03291v1",
+        "outcome": "no-evidence",
+        "note": "首稿三作者均署人大；未查到目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Stackelberg vs. Nash in the Lottery Colonel Blotto Game",
+        "url": "https://arxiv.org/html/2410.07690v1",
+        "outcome": "no-evidence",
+        "note": "IJCAI 2025 正式 DOI 10.24963/ijcai.2025/441；同作者原文和教师机构书目对应。研究顺序与同时对抗之差，独立于多人 General Lotto；未见指定企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Are High-Degree Representations Really Unnecessary in Equivariant Graph Neural Networks?",
+        "url": "https://arxiv.org/html/2410.11443v1",
+        "outcome": "lead",
+        "note": "NeurIPS 与作者首稿有华为 2012 实验室任宇翔及人大两位教师；未证第一作者岑家成或其他在读作者就这项研究在华为做实研，不能把同篇企业署名视为完整三方。"
+      },
+      {
+        "year": 2023,
+        "title": "Bounded Incentives in Manipulating the Probabilistic Serial Rule",
+        "url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/361774654/1-s2.0-S002200002300096X-main-2.pdf",
+        "outcome": "no-evidence",
+        "note": "2023 年在线、JCSS 2024 卷，挂同篇研究者黄浩强当时的学术单位；不能追溯当事人后来任职。早期同题共著已合并。"
+      },
+      {
+        "year": 2024,
+        "title": "Competitive Information Design with Asymmetric Senders",
+        "url": "https://wtang.org/papers/AsymmetricCompet_EC%2724.pdf",
+        "outcome": "no-evidence",
+        "note": "独立合作者书目所列 ACM EC 原文，人大作者加当时在哥大任职的 Wei Tang，早于杜志成的华为实习，无他项企业证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Cost Minimization for Equilibrium Transition",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28835",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式作者部门为港科大、人大、北大、巴斯。arXiv 2312.07603 是同一研究；黄浩强该篇港科大学籍，与 2026 华为作品分开。"
+      },
+      {
+        "year": 2024,
+        "title": "Enhancing Multimodal Cooperation via Sample-level Modality Valuation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wei_Enhancing_Multimodal_Cooperation_via_Sample-level_Modality_Valuation_CVPR_2024_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版与 arXiv 2309.06255 改题同篇；项目由人大 GeWu Lab 公布，作者公开版署人大等学术单位；未见指定企业实研。"
+      },
+      {
+        "year": 2024,
+        "title": "Locate-then-Unlearn: An Effective Method of Multi-Task Continuous Learning for Large Language Models",
+        "url": "https://openreview.net/forum?id=cJ9qoVZbPd",
+        "outcome": "lead",
+        "note": "ICLR 2025 公开评审稿被 ACL 2025 正式文献逐作者引用，原研究于 2024 公布。与后续 MuEdit 的零空间冲突法或规模化配置不同。三位重叠作者后续有确切阿里署名，但本篇无同期师承或企业实研的直接材料。"
+      },
+      {
+        "year": 2024,
+        "title": "On Truthful Item-Acquiring Mechanisms for Reward Maximization",
+        "url": "https://purehost.bath.ac.uk/ws/files/328445349/2024_WWW_On_Truthful_Item_Acquiring_Mechanisms_for_Reward_Maximization.pdf",
+        "outcome": "no-evidence",
+        "note": "巴斯大学机构库正式 ACM 作者版，四人署人大、巴斯大学。张硕作者页也列出，企业实研证据未找到。"
+      },
+      {
+        "year": 2023,
+        "title": "Improved Approximation Ratios of Fixed-Price Mechanisms in Bilateral Trades",
+        "url": "https://arxiv.org/html/2303.15711v1",
+        "outcome": "no-evidence",
+        "note": "STOC 2023 正式议程与作者版相符；两位人大与一位北理工，无字节项目或毕业后任职回流。"
+      },
+      {
+        "year": 2023,
+        "title": "Node Conversion Optimization in Multi-hop Influence Networks",
+        "url": "https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2205.pdf",
+        "outcome": "no-evidence",
+        "note": "AAMAS 原文三位作者与巴斯机构库记录一致；无指定企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "Optimal Pricing Schemes for Identical Items with Time-Sensitive Buyers",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25716",
+        "outcome": "no-evidence",
+        "note": "AAAI 2023、arXiv 2304.08053 与 2025 Elsevier 期刊扩展（Striking the balance）合并为同一核心。三作者前后单位均人大和北理工，无指定企业。"
+      }
+    ],
+    "note": "已对照本人和人大高瓴书目、ORCID、DBLP、学生与合作者书目和正式出版记录。预印本与正式版合并；企业合著仍缺同篇学生参与或指导证据的，保留为线索。"
+  },
+  "2spsaBIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://link.springer.com/chapter/10.1007/978-3-032-37356-4_13",
+      "https://www.cs.hku.hk/people/academic-staff/kachow/",
+      "https://khchow.com/",
+      "https://dblp.org/pid/367/9233-1.html",
+      "https://orcid.org/0000-0001-5917-2577",
+      "https://robertflame.github.io/Homepage/",
+      "https://github.com/HKU-TASR/Proteus",
+      "https://www.usenix.org/conference/usenixsecurity26/presentation/hu-haoyang",
+      "https://alienhhy.github.io/",
+      "https://arxiv.org/abs/2602.06616",
+      "https://doi.org/10.1109/EuroSP68448.2026.00045",
+      "https://arxiv.org/html/2412.12640",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Protego_User-Centric_Pose-Invariant_Privacy_Protection_Against_Face_Recognition-Induced_Digital_Footprint_CVPR_2026_paper.html",
+      "https://arxiv.org/html/2508.02034",
+      "https://github.com/HKU-TASR/Protego",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_TRivia_Self-supervised_Fine-tuning_of_Vision-Language_Models_for_Table_Recognition_CVPR_2026_paper.html",
+      "https://arxiv.org/html/2512.01248",
+      "https://hub.hku.hk/handle/10722/375594",
+      "https://github.com/opendatalab/TRivia",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Shan_Geminio_Language-Guided_Gradient_Inversion_Attacks_in_Federated_Learning_ICCV_2025_paper.pdf",
+      "https://arxiv.org/abs/2411.14937",
+      "https://hku-jialin.github.io/",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_ICCV_2025_paper.html",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_ICCV_2025_paper.pdf",
+      "https://arxiv.org/html/2412.02592",
+      "https://hub.hku.hk/handle/10722/359007",
+      "https://link.springer.com/chapter/10.1007/978-3-032-07884-1_20",
+      "https://arxiv.org/html/2412.05883",
+      "https://hub.hku.hk/handle/10722/358772",
+      "https://keruiwu.github.io/assets/file/kerui_resume.pdf",
+      "https://doi.org/10.1109/EuroSP63326.2025.00061",
+      "https://arxiv.org/html/2410.21179v1",
+      "https://arxiv.org/html/2410.21179v2",
+      "https://github.com/HKU-TASR/Sanitizer",
+      "https://doi.org/10.1016/j.crmeth.2025.101171",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12539250/",
+      "https://hub.hku.hk/handle/10722/370099",
+      "https://www.biorxiv.org/content/10.1101/2024.07.23.604393v1",
+      "https://doi.org/10.1145/3689932.3694762",
+      "https://s2-lab.github.io/assets/aisec25-gnn.pdf",
+      "https://arxiv.org/abs/2407.02431",
+      "https://doi.org/10.1007/978-3-031-73007-8_25",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10846.pdf",
+      "https://arxiv.org/abs/2407.13975",
+      "https://ijcai.org/proceedings/2024/78",
+      "https://www.ijcai.org/proceedings/2024/0078.pdf",
+      "https://arxiv.org/abs/2401.01085",
+      "https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Tabassum_On_the_Efficiency_of_Privacy_Attacks_in_Federated_Learning_CVPRW_2024_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/papers/Tabassum_On_the_Efficiency_of_Privacy_Attacks_in_Federated_Learning_CVPRW_2024_paper.pdf",
+      "https://arxiv.org/abs/2404.09430",
+      "https://doi.org/10.1145/3589334.3645352",
+      "https://par.nsf.gov/servlets/purl/10613016",
+      "https://doi.org/10.1145/3627703.3629587",
+      "https://research.ibm.com/publications/atlas-hybrid-cloud-migration-advisor-for-interactive-microservices",
+      "https://arxiv.org/abs/2311.06962",
+      "https://openaccess.thecvf.com/content/WACV2024/papers/Ilhan_Adaptive_Deep_Neural_Network_Inference_Optimization_With_EENet_WACV_2024_paper.pdf",
+      "https://github.com/git-disl/EENet",
+      "https://arxiv.org/abs/2402.03688",
+      "https://arxiv.org/html/2402.03688",
+      "https://ifrc-zju.github.io/",
+      "https://leiyucs.github.io/publications/",
+      "https://doi.org/10.1109/TSC.2023.3341951",
+      "https://hub.hku.hk/handle/10722/343446",
+      "https://wenqiwei789.github.io/Homepage/pages/publications.html",
+      "https://papers.nips.cc/paper_files/paper/2023/hash/2376f25ef1725a9e3516ee3c86a59f46-Abstract-Conference.html",
+      "https://papers.nips.cc/paper_files/paper/2023/file/2376f25ef1725a9e3516ee3c86a59f46-Paper-Conference.pdf",
+      "https://ieeexplore.ieee.org/document/10415670",
+      "https://par.nsf.gov/servlets/purl/10515963",
+      "https://doi.org/10.1109/ICDM58522.2023.00074",
+      "https://hub.hku.hk/handle/10722/343443",
+      "https://arxiv.org/html/2310.02237",
+      "https://doi.org/10.1145/3555041.3589718",
+      "https://research.ibm.com/publications/scad-scalability-advisor-for-interactive-microservices-on-hybrid-clouds",
+      "https://db.cc.gatech.edu/publications/",
+      "https://doi.org/10.1109/ICDCS60910.2024.00139",
+      "https://arxiv.org/html/2405.16707",
+      "https://www.proceedings.com/content/075/075847webtoc.pdf",
+      "https://doi.org/10.1109/TPDS.2023.3273490",
+      "https://arxiv.org/html/2305.06473",
+      "https://github.com/git-disl/Fed-alphaCDP",
+      "https://doi.org/10.1109/CVPR52729.2023.01568",
+      "https://arxiv.org/html/2303.11511",
+      "https://openaccess.thecvf.com/content/CVPR2023/html/Chow_STDLens_Model_Hijacking-Resilient_Federated_Learning_for_Object_Detection_CVPR_2023_paper.html",
+      "https://doi.org/10.1145/3543873.3587370",
+      "https://hub.hku.hk/handle/10722/343423",
+      "https://researchnow-admin.flinders.edu.au/ws/portalfiles/portal/122471691/Senaratne_SEKA_P2023.pdf",
+      "https://doi.org/10.1145/3633286",
+      "https://hub.hku.hk/handle/10722/343451",
+      "https://arxiv.org/html/2311.10293",
+      "https://doi.org/10.1109/TMC.2021.3088268",
+      "https://www.cse.ust.hk/~gchan/papers/TMC23_ubifin.pdf",
+      "https://researchportal.hkust.edu.hk/en/publications/implicit-multimodal-crowdsourcing-for-joint-rf-and-geomagnetic-fi/",
+      "https://arxiv.org/abs/2608.12962",
+      "https://arxiv.org/html/2608.12962",
+      "https://petsymposium.org/popets/2024/popets-2024-0122.php",
+      "https://petsymposium.org/popets/2024/popets-2024-0122.pdf",
+      "https://arxiv.org/abs/2411.14243",
+      "https://arxiv.org/html/2503.06529",
+      "https://github.com/HKU-TASR/AnywhereDoor",
+      "https://arxiv.org/abs/2311.10293",
+      "https://arxiv.org/abs/2410.21179"
+    ],
+    "papers": [
+      {
+        "title": "Proteus: Model Leakage-Induced Adversarial Attack in Federated Learning",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37356-4_13",
+        "outcome": "no-evidence",
+        "note": "Springer 正式稿四名作者均署港大；作者指导和在读身份见团队及赵梓淇本人，未见范围企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "Confundo: Learning to Generate Robust Poison for Practical RAG Systems",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/hu-haoyang",
+        "outcome": "no-evidence",
+        "note": "USENIX 正式版列港大、南京大学和香港城市大学。Haoyang Hu本人材料将腾讯实习结束日列在 2024-12，早于其 2025-09 港大硕士和 2026-02 该预印稿，未有腾讯参与其港大本篇研究的记录。",
+        "year": 2026
+      },
+      {
+        "title": "GDBR: Label Recovery Attack Against Partial Gradient Encryption in Federated Learning",
+        "url": "https://doi.org/10.1109/EuroSP68448.2026.00045",
+        "outcome": "no-evidence",
+        "note": "EuroS&P 正式稿把 2024 预印本合并；两作者署港大，首作者脚注说明本研究实际在港理工读博期间完成，未见企业。",
+        "year": 2026
+      },
+      {
+        "title": "Protego: User-Centric Pose-Invariant Privacy Protection Against Face Recognition-Induced Digital Footprint Exposure",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Protego_User-Centric_Pose-Invariant_Privacy_Protection_Against_Face_Recognition-Induced_Digital_Footprint_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式文与 2025 预印本同篇。作者同署香港大学；公司搜索引擎是实验被测项，不是企业作者。独立资源 FRBench 不视作同一篇论文外的企业关系。",
+        "year": 2026
+      },
+      {
+        "title": "TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_TRivia_Self-supervised_Fine-tuning_of_Vision-Language_Models_for_Table_Recognition_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版与 2025 首稿同篇。论文列港大、北大、上海人工智能实验室等，企业作者署商汤（调查范围之外）；第一作者另获周嘉豪具名指导。",
+        "year": 2026
+      },
+      {
+        "title": "Geminio: Language-Guided Gradient Inversion Attacks in Federated Learning",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Shan_Geminio_Language-Guided_Gradient_Inversion_Attacks_in_Federated_Learning_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式作者均港大；作者自述与导师网站证实在读与带教。未见目标企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式稿具名蚂蚁 CAAI-Ant Group Research Fund 资助；作者单位全部是大学及上海人工智能实验室。导师网站将张俊元列为其指导的第一作者；未见同篇实际参加研究的蚂蚁员工，也未发现学生在蚂蚁完成该篇的证据。",
+        "year": 2025
+      },
+      {
+        "title": "On the Adversarial Robustness of Graph Neural Networks with Graph Reduction",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-07884-1_20",
+        "outcome": "no-evidence",
+        "note": "ESORICS 在 2025 年召开并由港大书目记 2025，Springer 文集版权 2026；对应 2024 预印本。第一作者本人说明当时是 RPI / 麻省大学学生；原始作者无范围内企业。与 AISec 2024 另一作者组合的后门论文分开。",
+        "year": 2025
+      },
+      {
+        "title": "Harmless Backdoor-based Client-side Watermarking in Federated Learning",
+        "url": "https://doi.org/10.1109/EuroSP63326.2025.00061",
+        "outcome": "lead",
+        "note": "EuroS&P 正式稿与 2024 首稿同作。Kaijing Luo 署华为云，但论文两个版本都明确该研究由其任港大研究助理时完成。周嘉豪官网说明其指导 Luo；暂无研究期内该人华为研究参与的证据，未见第三位独立企业员工。",
+        "year": 2024
+      },
+      {
+        "title": "Toward owner governance in genomic data privacy with Governome",
+        "url": "https://doi.org/10.1016/j.crmeth.2025.101171",
+        "outcome": "no-evidence",
+        "note": "期刊和港大馆原文作者均港大或香港理工。2024 bioRxiv 题名不同、作者顺位变化但研究代码及系统相同，按同篇合并。",
+        "year": 2025
+      },
+      {
+        "title": "On the Robustness of Graph Reduction Against GNN Backdoor",
+        "url": "https://doi.org/10.1145/3689932.3694762",
+        "outcome": "no-evidence",
+        "note": "AISec 正式稿的作者机构均为伦斯勒理工、蔚山科学技术院、香港大学；与 2025 ESORICS 新作者、不同评估范围的论文分开核对。",
+        "year": 2024
+      },
+      {
+        "title": "Personalized Privacy Protection Mask Against Unauthorized Facial Recognition",
+        "url": "https://doi.org/10.1007/978-3-031-73007-8_25",
+        "outcome": "no-evidence",
+        "note": "ECCV 正式稿与 arXiv 首稿同篇；作者为港大和佐治亚理工。与后续不同作者和方法的 Protego 分开。",
+        "year": 2024
+      },
+      {
+        "title": "Imperio: Language-Guided Backdoor Attacks for Arbitrary Model Control",
+        "url": "https://ijcai.org/proceedings/2024/78",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式文与 2024-01 首稿同一研究。首页机构为港大、福特汉姆大学、伦斯勒理工学院。",
+        "year": 2024
+      },
+      {
+        "title": "On the Efficiency of Privacy Attacks in Federated Learning",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024W/FedVision-2024/html/Tabassum_On_the_Efficiency_of_Privacy_Attacks_in_Federated_Learning_CVPRW_2024_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPRW 发表和预印稿同作。原文三机构为港大、佛罗里达国际大学和 Ahsanullah 科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "ZipZap: Efficient Training of Language Models for Large-Scale Fraud Detection on Blockchain",
+        "url": "https://doi.org/10.1145/3589334.3645352",
+        "outcome": "no-evidence",
+        "note": "ACM WWW 原稿所列作者均为佐治亚理工。个人书目的 Ethereum Fraud Detection 是该篇简称，未见范围企业。",
+        "year": 2024
+      },
+      {
+        "title": "Atlas: Hybrid Cloud Migration Advisor for Interactive Microservices",
+        "url": "https://doi.org/10.1145/3627703.3629587",
+        "outcome": "no-evidence",
+        "note": "EuroSys 正式稿并入 2023 预印本；IBM Research 公开档案自证企业参与，IBM 不在 14 家调查企业内。与独立的 SCAD demo 分开。",
+        "year": 2024
+      },
+      {
+        "title": "Adaptive Deep Neural Network Inference Optimization with EENet",
+        "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Ilhan_Adaptive_Deep_Neural_Network_Inference_Optimization_With_EENet_WACV_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式稿列佐治亚理工和 Cisco Research；Cisco 不在调查企业。另有早期同主题 demo 将单独比对。",
+        "year": 2024
+      },
+      {
+        "title": "A Survey of Privacy Threats and Defense in Vertical Federated Learning: From Model Life Cycle Perspective",
+        "url": "https://arxiv.org/abs/2402.03688",
+        "outcome": "lead",
+        "note": "预印稿首面署港大周嘉豪、浙大韩蒙等和四位蚂蚁研究员；不是仅有资助。浙大团队介绍明确韩蒙和林昶廷均为研究员；未见范围内学生在蚂蚁实际参与本篇，也未找到周指导该篇学生。模板 DOI 不是真正正式出版标识。",
+        "year": 2024
+      },
+      {
+        "title": "Demystifying Data Poisoning Attacks in Distributed Learning as a Service",
+        "url": "https://doi.org/10.1109/TSC.2023.3341951",
+        "outcome": "no-evidence",
+        "note": "按 2024 正式卷期，2023 年入 IEEE 数据库；港大馆和作者主页书目核对，公开资料未见范围企业与本论文关联。",
+        "year": 2023
+      },
+      {
+        "title": "Lockdown: Backdoor Defense for Federated Learning with Isolated Subspace Training",
+        "url": "https://papers.nips.cc/paper_files/paper/2023/hash/2376f25ef1725a9e3516ee3c86a59f46-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 首页六人均署佐治亚理工；未见范围内企业。",
+        "year": 2023
+      },
+      {
+        "title": "Model Cloaking against Gradient Leakage",
+        "url": "https://ieeexplore.ieee.org/document/10415670",
+        "outcome": "no-evidence",
+        "note": "美国 NSF 论文全文首页显示福特汉姆大学、佐治亚理工和佛罗里达国际大学。",
+        "year": 2023
+      },
+      {
+        "title": "Exploring Model Learning Heterogeneity for Boosting Ensemble Robustness",
+        "url": "https://doi.org/10.1109/ICDM58522.2023.00074",
+        "outcome": "no-evidence",
+        "note": "ICDM 和 2023 预印本为同篇；原文作者机构列佛罗里达国际大学、佐治亚理工和福特汉姆大学。",
+        "year": 2023
+      },
+      {
+        "title": "SCAD: Scalability Advisor for Interactive Microservices on Hybrid Clouds",
+        "url": "https://doi.org/10.1145/3555041.3589718",
+        "outcome": "no-evidence",
+        "note": "SIGMOD 范围外的 IBM Research 与佐治亚理工合作；与 EuroSys 2024 Atlas 不同题名和出版物。",
+        "year": 2023
+      },
+      {
+        "title": "Demo: Visualizing the Shadows: Unveiling Data Poisoning Behaviors in Federated Learning",
+        "url": "https://doi.org/10.1109/ICDCS60910.2024.00139",
+        "outcome": "no-evidence",
+        "note": "ICDCS 正式 demo 与 arXiv 同篇；会议作者目录列福特汉姆、哥伦比亚、港大与北卡州立。",
+        "year": 2024
+      },
+      {
+        "title": "Securing Distributed SGD Against Gradient Leakage Threats",
+        "url": "https://doi.org/10.1109/TPDS.2023.3273490",
+        "outcome": "no-evidence",
+        "note": "IEEE 期刊与首稿同篇。学术作者机构未出现目标公司；代码和论文说明是联邦学习泄露评估，不把被评估系统当作企业参与。",
+        "year": 2023
+      },
+      {
+        "title": "STDLens: Model Hijacking-Resilient Federated Learning for Object Detection",
+        "url": "https://doi.org/10.1109/CVPR52729.2023.01568",
+        "outcome": "no-evidence",
+        "note": "同作预印本的标题与第一作者匹配。原文作者全部来自佐治亚理工，未见 14 家企业；合作人简历里 Securing Federated Learning Against Model Hijacking Attacks 为同次 CVPR。",
+        "year": 2023
+      },
+      {
+        "title": "Hierarchical Deep Neural Network Inference for Device-Edge-Cloud Systems",
+        "url": "https://doi.org/10.1145/3543873.3587370",
+        "outcome": "no-evidence",
+        "note": "ACM WWW Companion 与港大库确认 HiDEC；大会完整目录为佐治亚理工作者。不同于 2024 WACV 的 EENet。",
+        "year": 2023
+      },
+      {
+        "title": "Hierarchical Pruning of Deep Ensembles with Focal Diversity",
+        "url": "https://doi.org/10.1145/3633286",
+        "outcome": "no-evidence",
+        "note": "ACM TIST 正式卷期为 2024；2023 预印本同篇，作者署佐治亚理工及佛罗里达国际大学。",
+        "year": 2023
+      },
+      {
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "url": "https://arxiv.org/abs/2608.12962",
+        "outcome": "no-evidence",
+        "note": "原论文首面六人全部署港大，成员及导师关系有作者本人材料。文中企业框架仅作对比，不能归为企业共同研究。明确与 2024 年由蚂蚁同署的综述不同。",
+        "year": 2026
+      },
+      {
+        "title": "Diversity-driven Privacy Protection Masks Against Unauthorized Face Recognition",
+        "url": "https://petsymposium.org/popets/2024/popets-2024-0122.php",
+        "outcome": "no-evidence",
+        "note": "PoPETs 正式版列港大及佐治亚理工；与 ECCV 的 Chameleon 不同（这里为 PMask、另有两人共同署名）。",
+        "year": 2024
+      },
+      {
+        "title": "AnywhereDoor: Multi-Target Backdoor Attacks on Object Detection",
+        "url": "https://arxiv.org/abs/2411.14243",
+        "outcome": "no-evidence",
+        "note": "2024 预印本与同题同作者 2025 新 ID 2503.06529 按同一项目合并，团队代码指向早稿。卢嘉霖本人、导师组及原文证实当时为港大团队；无调查企业署名或企业参与证据。",
+        "year": 2024
+      }
+    ],
+    "note": "已核对学校和作者书目、论文原文、港大图书馆及指导信息。蚂蚁合著与华为云署名仍缺同篇学生参与等证据。排除 2021 年先行出版的 UbiFin；可查书目仍待继续。"
   }
 };
