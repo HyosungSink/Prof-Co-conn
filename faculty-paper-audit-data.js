@@ -51608,5 +51608,257 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核对本人研究组、港城大机构库、作者履历、学位论文与会议正式版。首批 12 篇含 1 条已确认关系；其他国际会议、期刊与预印本仍待核对。"
+  },
+  "ExIZrLAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://gracezhao1997.github.io/",
+      "https://dblp.org/pid/67/1336-13.html",
+      "https://zhenxuan00.github.io/",
+      "https://chyxx.github.io/",
+      "https://yyyouy.github.io/",
+      "https://seed.bytedance.com/en/public_papers/flexworld-progressively-expanding-3d-scenes-for-flexiable-view-synthesis",
+      "https://dblp.uni-trier.de/pid/228/9782.html",
+      "https://abnerai.github.io/Publications/",
+      "https://embc.embs.org/2024/wp-content/uploads/sites/102/2024/07/EMBC-2024_Proceedings.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/39763511/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation",
+        "url": "https://arxiv.org/pdf/2605.15141",
+        "outcome": "no-evidence",
+        "note": "公开稿是从 Causal Forcing 延伸的独立少步逐帧初始化研究，列清华、人大、生数科技，无目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation",
+        "url": "https://arxiv.org/pdf/2602.02214",
+        "outcome": "no-evidence",
+        "note": "ICML 投稿演进稿所列企业为生数科技；赵敏与朱泓舟共同一作，所列单位为清华及生数。引用字节与快手相关工作不表示两家公司在本篇参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models",
+        "url": "https://arxiv.org/pdf/2606.25473v1",
+        "outcome": "no-evidence",
+        "note": "原稿逐人列清华、UT Austin、NVIDIA，清华＋NVIDIA 双署的人为 Kaiwen Zheng。英文专名 Wan2.1 只是评测底模，未见目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Pose-Aware Diffusion for 3D Generation",
+        "url": "https://arxiv.org/pdf/2605.00345v1",
+        "outcome": "no-evidence",
+        "note": "预印本署人大、南开、清华和浪潮。此处研究为观测坐标系姿态对齐，不是之前团队的 PoseCrafter。"
+      },
+      {
+        "year": 2025,
+        "title": "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse–Linear Attention",
+        "url": "https://arxiv.org/pdf/2509.24006",
+        "outcome": "no-evidence",
+        "note": "2025 首稿及 ICLR 2026 同项。本篇作者页仅列清华及 UC Berkeley，未见目标企业同篇角色。"
+      },
+      {
+        "year": 2025,
+        "title": "UltraViCo: Breaking Extrapolation Limits in Video Diffusion Transformers",
+        "url": "https://arxiv.org/pdf/2511.20123",
+        "outcome": "no-evidence",
+        "note": "2025 首稿、2026 ICLR 最终为同一论文；最终版列清华、生数、人大、UT Austin、Princeton。区分测试 Wan 等模型与员工参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
+        "url": "https://arxiv.org/pdf/2607.03118",
+        "outcome": "no-evidence",
+        "note": "列清华与生数科技，无目标企业。相较 2024 Vidu 这是单独的声音互动实时生成报告。"
+      },
+      {
+        "year": 2026,
+        "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+        "url": "https://arxiv.org/pdf/2609.11638v1",
+        "outcome": "no-evidence",
+        "note": "技术报告署清华与生数科技，无目标企业。研究增加实时编辑与空间视频，单独列作品。"
+      },
+      {
+        "year": 2026,
+        "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
+        "url": "https://arxiv.org/pdf/2605.30263v1",
+        "outcome": "no-evidence",
+        "note": "赵敏是原文具名项目负责人；所列企业为生数科技，其余为清华、人大、香港科大、UT Austin，未见目标企业共同研究。"
+      },
+      {
+        "year": 2025,
+        "title": "A cross-feature mutual learning framework integrating multiple features for brain disorder diagnosis",
+        "url": "https://doi.org/10.1016/j.neucom.2025.131105",
+        "outcome": "no-evidence",
+        "note": "正式 Neurocomputing 作者表换为 Xiangxiang Cui 首作者并扩展两种脑影像模态的对比互学习；赵敏作为第二作者，与早期 EMBC 初步研究分开。同篇无目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "BRIEF: BRain-Inspired network connection search with Extensive temporal feature Fusion enhances disease classification",
+        "url": "https://arxiv.org/pdf/2508.11732v1",
+        "outcome": "no-evidence",
+        "note": "首稿为北师大、清华、南航及美国 TReNDS 学术机构，赵敏署清华；与 CFML 图模型研究不同。"
+      },
+      {
+        "year": 2023,
+        "title": "ControlVideo: Adding Conditional Control for One-Shot Text-to-Video Editing",
+        "url": "https://doi.org/10.1007/s11432-023-4184-4",
+        "outcome": "no-evidence",
+        "note": "2024 在线、2025 卷期；与 2305.17098 同项。企业署名为生数，旁有清华、人大、琶洲实验室。"
+      },
+      {
+        "year": 2025,
+        "title": "FlexWorld: Progressively Expanding 3D Scenes for Flexible-View Exploration",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/fb23e1cbc747c96c07c7a1681b567c35-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "NeurIPS 正式和改名前 2503.13265 为一项。字节 Seed 官方项目页和正式版都列张戈、黄文浩；赵敏当时署清华。共同一作 Luxi Chen、Zihan Zhou原文署人大，待核其同篇在字节科研角色；没有确认赵敏在南京大学阶段的同项目指导。"
+      },
+      {
+        "year": 2025,
+        "title": "RIFLEx: A Free Lunch for Length Extrapolation in Video Diffusion Transformers",
+        "url": "https://proceedings.mlr.press/v267/zhao25m.html",
+        "outcome": "no-evidence",
+        "note": "ICML 最终版、2502.15894 同项。陈亦逍本人列 2024 至 2025 在生数实习，2026 年才到腾讯；不能把后一任职回填此论文。其他单位不含目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "UltraImage: Rethinking Resolution Extrapolation in Image Diffusion Transformers",
+        "url": "https://arxiv.org/pdf/2512.04504v1",
+        "outcome": "no-evidence",
+        "note": "2025-12 原文仅列企业生数科技；Qwen-Image 是实验采用的底座，不表示阿里参与。与视频长度外推的 UltraViCo 分属不同研究。"
+      },
+      {
+        "year": 2024,
+        "title": "A Cross-Feature Mutual Learning Framework to Integrate Functional Connectivity and Activity for Brain Disorder Classification",
+        "url": "https://doi.org/10.1109/EMBC53108.2024.10781810",
+        "outcome": "no-evidence",
+        "note": "IEEE 同行评议会刊与 EMBC 议程一致：原始作者团队仅自动化所、北京师范大学及美国三校神经影像中心。"
+      },
+      {
+        "year": 2023,
+        "title": "Functional imaging derived ADHD biotypes based on deep clustering: a study on personalized medication therapy guidance",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39763511/",
+        "outcome": "no-evidence",
+        "note": "2023 公开的 Research Square 初稿与 2024 EClinicalMedicine 正式同项；自动化所、国科大、临床机构或高校协作。"
+      },
+      {
+        "year": 2024,
+        "title": "Identifying and Solving Conditional Image Leakage in Image-to-Video Diffusion Model",
+        "url": "https://arxiv.org/pdf/2406.15735",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 和三次 arXiv 版本同项。逐作者所列企业为生数科技，研究机构来自清华、人大和琶洲实验室。"
+      },
+      {
+        "year": 2024,
+        "title": "PoseCrafter: One-Shot Personalized Video Synthesis Following Flexible Pose Control",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06050.pdf",
+        "outcome": "lead",
+        "note": "ECCV 两名作者署华为，通讯李崇轩本人导师清单明列共同第一作者 Yong Zhong 为 2021–26 博士。游泽彬首稿时在百度，随后转蚂蚁；未找到这两位在华为实研的同期证据。赵敏为过往国科大博士学生/清华访学，与当前南大指导身份分开。"
+      },
+      {
+        "year": 2024,
+        "title": "Vidu: a Highly Consistent, Dynamic and Skilled Text-to-Video Generator with Diffusion Models",
+        "url": "https://arxiv.org/pdf/2405.04233v1",
+        "outcome": "no-evidence",
+        "note": "首稿只有清华和生数科技，赵敏两者均署。未发现目标公司作为同篇研究雇主。"
+      }
+    ],
+    "note": "核对个人分组书目、DBLP 确切作者分户、学术合著者目录、PubMed 与首发版本，排除同名和 2022 年先公开的作品。公开窗口内 20 篇已查；另有两项缺少在读学生在该企业参与同项或同期具名指导的证据。"
+  },
+  "yhsnUnMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gong-tl.github.io/",
+      "https://dblp.org/pid/17/11359.html",
+      "https://proceedings.mlr.press/v267/zhang25ct.html",
+      "https://www.sentic.net/few-shot-named-entity-recognition.pdf",
+      "https://bdkelab.xjtu.edu.cn/yjfx/dsjzsgc.htm"
+    ],
+    "papers": [
+      {
+        "title": "Accurate spatial quantification in computational pathology with multiple instance learning",
+        "year": 2025,
+        "url": "https://www.nature.com/articles/s43018-025-01060-8",
+        "outcome": "no-evidence",
+        "note": "Nature Cancer 正式作者单位包括剑桥、西交、西工大、西交一附院和新国立，贡献声明列龚铁梁参与指导与理论推导，未发现目标企业同篇作者。"
+      },
+      {
+        "title": "Beyond Sharpness: A Flatness Decomposition Framework for Efficient Continual Learning",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2601.07636v1",
+        "outcome": "no-evidence",
+        "note": "首稿与 AAAI 正式题录同项。首稿作者机构均为西安交通大学及相关重点实验室，未发现目标企业人员。"
+      },
+      {
+        "title": "PRAM: An End-to-end Prototype-based Representation Alignment Model for Zero-resource Cross-lingual Named Entity Recognition",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.findings-acl.201.pdf",
+        "outcome": "lead",
+        "note": "正式 ACL 首页在西交硕士 Yucheng Huang 名下写明腾讯实习期间完成项目，并列腾讯互动娱乐 Wenqiang Liu 等。同期作者简历明列校内导师李辰；未核到龚铁梁与其具名指导。当前李辰不在三项齐全调查队列。"
+      },
+      {
+        "title": "OneActor: Consistent Subject Generation via Cluster-Conditioned Guidance",
+        "year": 2024,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/26300457961c3e056ea61c9d3ebec2a4-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "2024 年 4 月同项首稿与 NeurIPS 正式版归并。企业及研究机构为中国电信和国家电网相关实验室，未见目标公司。"
+      },
+      {
+        "title": "Accelerating Non-Maximum Suppression: A Graph Theory Perspective",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2409.20520v1",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版与首稿同项；作者来自西交及中国电信人工智能科技有限公司，后者不属此次调查。"
+      },
+      {
+        "title": "Rectified Diffusion Guidance for Conditional Generation",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2410.18737",
+        "outcome": "existing",
+        "note": "2024 年 10 月首稿与 CVPR 正式版合并。索引已按蚂蚁实习生 Mengfei Xia 及其具名清华导师刘永进记录；本篇未找到西交同署作者龚铁梁是该生导师的证据。"
+      },
+      {
+        "title": "InfoSAM: Fine-Tuning the Segment Anything Model from An Information-Theoretic Perspective",
+        "year": 2025,
+        "url": "https://proceedings.mlr.press/v267/zhang25ct.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式 PDF 所列企业为中国电信天翼视联；另为西安交通大学、其重点实验室及医院场景。该公司不在目标范围。"
+      },
+      {
+        "title": "Exactly Tight Information-theoretic Generalization Bounds via Binary Jensen-Shannon Divergence",
+        "year": 2025,
+        "url": "https://proceedings.mlr.press/v267/dong25e.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式 PDF 作者脚注单位为西安交通大学；未见目标公司在同篇参与。"
+      },
+      {
+        "title": "Towards Generalization beyond Pointwise Learning: A Unified Information-theoretic Perspective",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/dong24a.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式稿三家作者单位为西安交大、华中农大及中国电信。企业位于此次调查范围以外。"
+      },
+      {
+        "title": "Towards Sharper Generalization Bounds for Adversarial Contrastive Learning",
+        "year": 2024,
+        "url": "https://www.ijcai.org/proceedings/2024/0574.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 原文署华中农大研究中心、重点实验室与西安交大；无目标企业同篇共同研究。"
+      },
+      {
+        "title": "Fine-grained Analysis of Stability and Generalization for Stochastic Bilevel Optimization",
+        "year": 2024,
+        "url": "https://www.ijcai.org/proceedings/2024/0609.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 原文署华中农大、吉林大学、西安交大、南方科技大学，无目标企业同篇作者。"
+      }
+    ],
+    "note": "已从本人公开书目、正式会刊和合著者资料逐篇核对首批作品。另有期刊和近期会议书目需要继续检查。"
   }
 };
