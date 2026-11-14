@@ -85,15 +85,13 @@ function facultyGridPath(columns, rows) {
   return cells;
 }
 
-function layoutFacultyTiles(groups, width, height, school) {
+function layoutFacultyTiles(groups, width, height, units) {
   const box = { x: 0, y: 0, width, height };
   const ideal = [];
   const categories = [];
-  const units = school?.units.filter(unit => unit.entries.length)
-    .sort((a, b) => b.entries.length - a.entries.length);
-  const place = ({ entries }, rect) => ideal.push({ entries, rect });
+  const place = ({ entries, label }, rect) => ideal.push({ entries, label, rect });
   const pack = (parts, area) => layoutWeightedRectangles(parts, area, part => part.entries.length, place);
-  if (school) pack(units, box);
+  if (units) pack(units.filter(unit => unit.entries.length).sort((a, b) => b.entries.length - a.entries.length), box);
   else layoutSchoolGroups(groups, width, height, 0, ({ entries }, area) => {
     categories.push(area);
     pack(entries, area);
@@ -130,7 +128,7 @@ function layoutFacultyTiles(groups, width, height, school) {
   const cells = new Array(columns * rows);
   const tiles = [];
   const positions = new Map();
-  const blocks = ideal.map(({ entries, rect }) => {
+  const blocks = ideal.map(({ entries, label, rect }) => {
     const block = snap(rect, columns, rows);
     const w = block.right - block.left;
     const h = block.bottom - block.top;
@@ -145,10 +143,106 @@ function layoutFacultyTiles(groups, width, height, school) {
       tiles.push(tile);
       positions.set(entry, tile);
     });
-    return block;
+    return { ...block, label };
   });
   const bands = categories.map(rect => snap(rect, columns, rows));
   return { width, height, columns, rows, cellWidth, cellHeight, cells, tiles, positions, blocks, bands };
+}
+
+function attachFacultyHeatmap(field, { layoutAt, colorsFor, matchesSelection, inspect, getInspected, keyboardEntries }) {
+  const plot = field('plot');
+  const canvas = field('canvas');
+  const context = canvas.getContext('2d');
+  const emptyColor = getComputedStyle(field('empty-chip')).backgroundColor;
+  let currentLayout = null;
+
+  function drawBoundaries(blocks, weight) {
+    const { cellWidth, cellHeight } = currentLayout;
+    context.beginPath();
+    for (const { left, top, right, bottom } of blocks) {
+      context.rect(left * cellWidth, top * cellHeight, (right - left) * cellWidth, (bottom - top) * cellHeight);
+    }
+    context.strokeStyle = '#241d2d';
+    context.lineWidth = Math.min(weight, cellWidth * .35, cellHeight * .35);
+    context.stroke();
+  }
+
+  function paint() {
+    if (!currentLayout) return;
+    const { width, height, columns, cells, cellWidth, cellHeight, tiles, positions, blocks, bands } = currentLayout;
+    const gap = Math.min(.8, cellWidth * .15, cellHeight * .15);
+    context.clearRect(0, 0, width, height);
+    context.fillStyle = emptyColor;
+    for (let i = 0; i < cells.length; i += 1) {
+      if (cells[i]) continue;
+      const x = i % columns * cellWidth;
+      const y = Math.floor(i / columns) * cellHeight;
+      context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
+    }
+    for (const { entry, x, y } of tiles) {
+      context.globalAlpha = matchesSelection(entry) ? 1 : .2;
+      context.fillStyle = colorsFor(entry)[entry.score];
+      context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
+    }
+    context.globalAlpha = 1;
+    drawBoundaries(blocks, 1.45);
+    if (bands.length) drawBoundaries(bands, 2.6);
+    context.font = '600 12px system-ui, sans-serif';
+    context.textBaseline = 'middle';
+    for (const { label, left, right, top, bottom } of blocks) {
+      if (!label) continue;
+      const textWidth = Math.ceil(context.measureText(label).width);
+      if ((right - left) * cellWidth < textWidth + 22 || (bottom - top) * cellHeight < 28) continue;
+      const x = left * cellWidth + 5, y = top * cellHeight + 5;
+      context.fillStyle = 'rgba(255, 255, 255, .94)';
+      context.fillRect(x, y, textWidth + 12, 18);
+      context.fillStyle = '#241d2d';
+      context.fillText(label, x + 6, y + 9);
+    }
+    const marked = positions.get(getInspected());
+    if (marked) {
+      context.strokeStyle = '#251c32';
+      context.lineWidth = 1;
+      context.strokeRect(marked.x + .5, marked.y + .5, Math.max(0, cellWidth - 1), Math.max(0, cellHeight - 1));
+    }
+  }
+
+  function resize() {
+    const { width, height } = plot.getBoundingClientRect();
+    if (!width || !height) return;
+    const density = Math.max(2, window.devicePixelRatio);
+    canvas.width = Math.ceil(width * density);
+    canvas.height = Math.ceil(height * density);
+    context.setTransform(canvas.width / width, 0, 0, canvas.height / height, 0, 0);
+    currentLayout = layoutAt(width, height);
+    paint();
+  }
+
+  function inspectTile(event) {
+    if (!currentLayout) return;
+    const bounds = canvas.getBoundingClientRect();
+    const x = event.clientX - bounds.left;
+    const y = event.clientY - bounds.top;
+    const { width, height, columns, cellWidth, cellHeight, cells } = currentLayout;
+    if (!columns || x < 0 || x >= width || y < 0 || y >= height) return;
+    const column = Math.floor(x / cellWidth);
+    const row = Math.floor(y / cellHeight);
+    const entry = cells[row * columns + column];
+    if (entry) inspect(entry);
+  }
+
+  canvas.addEventListener('click', inspectTile);
+  canvas.addEventListener('keydown', event => {
+    if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
+    event.preventDefault();
+    const entries = keyboardEntries();
+    const index = entries.indexOf(getInspected());
+    const direction = event.key === 'ArrowDown' ? 1 : -1;
+    if (entries.length) inspect(entries[index < 0 ? 0 : (index + direction + entries.length) % entries.length]);
+  });
+  new ResizeObserver(resize).observe(plot);
+  resize();
+  return { paint, resize };
 }
 
 function renderFacultyUnits(slide, scopeSchools, directory) {
@@ -156,15 +250,12 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
   const field = name => slide.querySelector(`[data-unit-${name}]`);
   const schoolPicker = field('school');
   const groupPicker = field('group');
-  const plot = field('plot');
   const canvas = field('canvas');
-  const context = canvas.getContext('2d');
   const description = field('description');
   const readout = field('summary');
   const link = field('directory-link');
   const swatch = field('swatch');
   const legend = [...slide.querySelectorAll('[data-verification-level]')];
-  const emptyColor = getComputedStyle(field('empty-chip')).backgroundColor;
   const format = new Intl.NumberFormat('zh-CN');
   const colors = new Map(survey.schools.map(([name], index) => [name, facultyVerificationShades(facultySchoolColors[index])]));
   const defaultLegend = facultyVerificationShades('#626b7e');
@@ -192,7 +283,6 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
   let selectedSchool = null;
   let selectedUnit = null;
   let inspected = null;
-  let currentLayout = null;
 
   function matchesSelection(entry) {
     return !selectedUnit?.entries.length || entry.unit === selectedUnit;
@@ -222,56 +312,6 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
       : school ? `${school.name} · ${school.units.length} 个单位分组 · ${format.format(school.count)} 条记录`
       : `${schools.length} 所高校 · ${unitCount} 个单位分组 · ${format.format(allEntries.length)} 块瓷砖`;
     readout.title = readout.textContent;
-  }
-
-  function drawBoundaries(blocks, weight) {
-    const { cellWidth, cellHeight } = currentLayout;
-    context.beginPath();
-    for (const { left, top, right, bottom } of blocks) {
-      context.rect(left * cellWidth, top * cellHeight, (right - left) * cellWidth, (bottom - top) * cellHeight);
-    }
-    context.strokeStyle = '#241d2d';
-    context.lineWidth = Math.min(weight, cellWidth * .35, cellHeight * .35);
-    context.stroke();
-  }
-
-  function paint() {
-    if (!currentLayout) return;
-    const { width, height, columns, cells, cellWidth, cellHeight, tiles, positions, blocks, bands } = currentLayout;
-    const gap = Math.min(.8, cellWidth * .15, cellHeight * .15);
-    context.clearRect(0, 0, width, height);
-    context.fillStyle = emptyColor;
-    for (let i = 0; i < cells.length; i += 1) {
-      if (cells[i]) continue;
-      const x = i % columns * cellWidth;
-      const y = Math.floor(i / columns) * cellHeight;
-      context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
-    }
-    for (const { entry, x, y } of tiles) {
-      context.globalAlpha = matchesSelection(entry) ? 1 : .2;
-      context.fillStyle = chartColors(entry.school, entry.unit)[entry.score];
-      context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
-    }
-    context.globalAlpha = 1;
-    drawBoundaries(blocks, 1.45);
-    if (bands.length) drawBoundaries(bands, 2.6);
-    const marked = positions.get(inspected);
-    if (marked) {
-      context.strokeStyle = '#251c32';
-      context.lineWidth = 1;
-      context.strokeRect(marked.x + .5, marked.y + .5, Math.max(0, cellWidth - 1), Math.max(0, cellHeight - 1));
-    }
-  }
-
-  function resize() {
-    const { width, height } = plot.getBoundingClientRect();
-    if (!width || !height) return;
-    const density = Math.max(2, window.devicePixelRatio);
-    canvas.width = Math.ceil(width * density);
-    canvas.height = Math.ceil(height * density);
-    context.setTransform(canvas.width / width, 0, 0, canvas.height / height, 0, 0);
-    currentLayout = layoutFacultyTiles(groups, width, height, selectedSchool);
-    paint();
   }
 
   function inspect(entry) {
@@ -305,29 +345,104 @@ function renderFacultyUnits(slide, scopeSchools, directory) {
     updateReadout();
     paint();
   });
-  function inspectTile(event) {
-    if (!currentLayout) return;
-    const bounds = canvas.getBoundingClientRect();
-    const x = event.clientX - bounds.left;
-    const y = event.clientY - bounds.top;
-    const { width, height, columns, cellWidth, cellHeight, cells } = currentLayout;
-    if (!columns || x < 0 || x >= width || y < 0 || y >= height) return;
-    const column = Math.floor(x / cellWidth);
-    const row = Math.floor(y / cellHeight);
-    const entry = cells[row * columns + column];
-    if (entry) inspect(entry);
-  }
-
-  canvas.addEventListener('click', inspectTile);
-  canvas.addEventListener('keydown', event => {
-    if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
-    event.preventDefault();
-    const entries = selectedUnit?.entries || selectedSchool?.entries || allEntries;
-    const index = entries.indexOf(inspected);
-    const direction = event.key === 'ArrowDown' ? 1 : -1;
-    if (entries.length) inspect(entries[index < 0 ? 0 : (index + direction + entries.length) % entries.length]);
+  const { paint, resize } = attachFacultyHeatmap(field, {
+    layoutAt: (width, height) => layoutFacultyTiles(groups, width, height, selectedSchool?.units),
+    colorsFor: entry => chartColors(entry.school, entry.unit),
+    matchesSelection, inspect,
+    getInspected: () => inspected,
+    keyboardEntries: () => selectedUnit?.entries || selectedSchool?.entries || allEntries,
   });
   updateReadout();
-  new ResizeObserver(resize).observe(plot);
-  resize();
+}
+
+function renderFacultyTitles(slide) {
+  slide.append(get('faculty-heatmap-template').content.cloneNode(true));
+  const field = name => slide.querySelector(`[data-unit-${name}]`);
+  field('school').closest('label').remove();
+  const picker = field('group');
+  picker.previousElementSibling.textContent = '高亮职称';
+  picker.disabled = false;
+  picker.options[0].textContent = '全部职称';
+  field('canvas').setAttribute('aria-label', '按职称分区的教师热力图。用上下键查看教师。');
+
+  const readout = field('summary');
+  const swatch = field('swatch');
+  const legend = [...slide.querySelectorAll('[data-verification-level]')];
+  const links = document.createElement('span');
+  links.className = 'unit-directory-links';
+  field('directory-link').replaceWith(links);
+  const format = new Intl.NumberFormat('zh-CN');
+  const defaultLegend = facultyVerificationShades('#626b7e');
+  let colorIndex = 0;
+  const groups = facultyPlotTitles.map(name => {
+    const label = name === '待核实' ? '职称待核实' : facultyTitleLevels.includes(name) ? `仅知${name}` : name;
+    const shades = facultyVerificationShades(name === '待核实' ? '#747982' : facultyUnitColors[colorIndex++ % facultyUnitColors.length]);
+    return { name, label, shades, entries: [], scopes: new Set() };
+  });
+  for (const [school, , , units] of facultyPlotStats) {
+    for (const [unit, people] of units) {
+      const scope = facultyDirectoryForUnit(school, unit);
+      for (const [name, score, title] of people) {
+        const group = groups[title];
+        group.entries.push({ name, score, school, unit, scope, group });
+        group.scopes.add(scope);
+      }
+    }
+  }
+  groups.sort((a, b) => b.entries.length - a.entries.length);
+  for (const group of groups) {
+    group.entries.sort((a, b) => b.score - a.score);
+    picker.add(new Option(`${group.label}（${format.format(group.entries.length)}）`, group.name));
+  }
+  const allEntries = groups.flatMap(group => group.entries);
+  let selected = null;
+  let inspected = null;
+
+  function updateReadout() {
+    const group = inspected?.group || selected;
+    const shades = group?.shades || defaultLegend;
+    swatch.hidden = !group;
+    swatch.style.background = shades[inspected?.score ?? 2];
+    legend.forEach((chip, score) => { chip.style.background = shades[score]; });
+    readout.textContent = inspected
+      ? `${inspected.name} · ${group.label} · ${inspected.school} · ${inspected.unit} · 已核实 ${inspected.score}/3 项`
+      : group ? `${group.label} · ${format.format(group.entries.length)} 条记录`
+      : `${groups.length} 个职称分组 · ${format.format(allEntries.length)} 条记录`;
+    readout.title = readout.textContent;
+    const params = new URLSearchParams();
+    if (group) params.set('title', group.name);
+    if (inspected) {
+      params.set('school', inspected.school);
+      params.set(inspected.school === '中国科学院大学' ? 'institute' : 'department', inspected.unit);
+      params.set('q', inspected.name);
+    }
+    links.replaceChildren(...[['core', '主要院系名录'], ['related', '交叉院系名录']]
+      .filter(([scope]) => inspected ? scope === inspected.scope : !group || group.scopes.has(scope))
+      .map(([scope, label]) => {
+        const link = element('a', inspected ? '查看该教师 ↗' : `${label} ↗`);
+        link.href = facultyDirectoryPages[scope] + (params.size ? `?${params}#faculty-rosters` : '');
+        return link;
+      }));
+  }
+
+  const { paint } = attachFacultyHeatmap(field, {
+    layoutAt: (width, height) => layoutFacultyTiles([], width, height, groups),
+    colorsFor: entry => entry.group.shades,
+    matchesSelection: entry => !selected || entry.group === selected,
+    inspect: entry => {
+      if (entry === inspected) return;
+      inspected = entry;
+      updateReadout();
+      paint();
+    },
+    getInspected: () => inspected,
+    keyboardEntries: () => selected?.entries || allEntries,
+  });
+  picker.addEventListener('change', () => {
+    selected = groups.find(group => group.name === picker.value) || null;
+    inspected = null;
+    updateReadout();
+    paint();
+  });
+  updateReadout();
 }

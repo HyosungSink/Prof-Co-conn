@@ -24,7 +24,7 @@
 
 ## 浏览网站
 
-- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览，用页面箭头或键盘左右键切换六张图：企业合作、高校合作，以及主要计算机院系与相关交叉院系各自的高校分布图和教师热力图。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数。高校分布图显示各校名录的记录数及三项齐全的比例（具体职称、Google 学术主页、CCF 代表作均已核实），点击高校可查看对应名录。教师热力图使用统一网格，每条教师名录记录占一个同尺寸的格子。分区沿网格画成矩形，没有教师记录的格子显示为淡灰色。默认按高校分区，选中高校后按院系分区，中国科学院大学按研究所分区。同一分区用四档深浅表示已核实的项数。可以高亮一个院系或研究所，点击瓷砖查看教师和核验进度。
+- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览，用页面箭头或键盘左右键切换七张图：企业合作、高校合作、两类院系各自的高校分布图和教师热力图，以及按职称分区的教师热力图。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数。高校分布图显示各校名录的记录数及三项齐全的比例（具体职称、Google 学术主页、CCF 代表作均已核实），点击高校可查看对应名录。教师热力图使用统一网格，每条教师名录记录占一个同尺寸的格子。分区沿网格画成矩形，没有教师记录的格子显示为淡灰色。默认按高校分区，选中高校后按院系分区，中国科学院大学按研究所分区。同一分区用四档深浅表示已核实的项数。可以高亮一个院系或研究所，点击瓷砖查看教师和核验进度。职称热力图合并两类院系，每条名录记录按首个已记录的具体职称归入一个分区。只查到职称层级和职称待核实的记录分别保留，可按职称高亮，再进入对应的教师名录。
 - [关系索引](https://hyosungsink.github.io/Prof-Co-conn/connections.html)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据。
 - [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)每篇论文一帖，列出相关机构、核验提示和原文链接，可按题名、企业或高校检索。
 - 教师名录分为[主要计算机院系](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)和[相关交叉院系](https://hyosungsink.github.io/Prof-Co-conn/faculty-related.html)两页，收录 26 所目标高校的公开师资。两页都可按高校、院系和职称筛选，或按姓名、职称及所属单位搜索。分类依据单位的主要学科，计算机、人工智能、网络安全、软件工程及以数据科学为主的单位列为主要院系，机器人、遥感、自动化等单位列为交叉院系。未收录的类别不显示空列表。每个院系只展示一份名录，跨院系任职仍分别列出。中国科学院大学按教师档案和补充来源所载的研究机构归组，同一档案在多个学院列名时合并；校部人员和归属待核实的人员在主要计算机院系页单列。核对职称时查看院系名录、教师工作简历、教师主页指向的个人主页，以及任职单位的官方资料。补录职称附原始链接；同一岗位在中英文来源中用词不同时，可分别查看两处来源。导师资格和双聘等另列，仅查到层级或缺少依据的记录分别标明。名录不用于直接确认论文作者当时的任职。
@@ -57,6 +57,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
 | [`faculty.html`](faculty.html)、[`faculty-related.html`](faculty-related.html)、[`faculty-page.js`](faculty-page.js)、[`faculty-rosters.js`](faculty-rosters.js)、[`faculty-data.js`](faculty-data.js)、[`faculty-titles.js`](faculty-titles.js)、[`faculty-ucas-institutes.js`](faculty-ucas-institutes.js) | 教师名录、院系内去重、官方名单、补录职称来源及国科大研究所归属 |
 | [`faculty-unit-groups.js`](faculty-unit-groups.js) | 各校主要计算机院系和相关交叉院系归类；国科大按研究机构归类 |
+| [`faculty-title-values.js`](faculty-title-values.js) | 名录筛选和职称热力图共用的职称归并规则 |
 | [`faculty-bibliography.js`](faculty-bibliography.js) | 教师的 Google 学术主页、CCF 代表作和核对来源 |
 | [`faculty-catalog.js`](faculty-catalog.js)、[`faculty-plot.js`](faculty-plot.js)、[`faculty-plot-data.js`](faculty-plot-data.js) | 名录统计、首页点阵图及生成数据 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |

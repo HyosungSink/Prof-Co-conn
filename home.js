@@ -238,6 +238,7 @@ function setupHomeCharts() {
 
   function initSlide(slide) {
     if (slide.classList.contains('home-school-slide')) return renderSchoolChart();
+    if (slide.id === 'faculty-titles') return renderFacultyTitles(slide);
     const scope = slide.dataset.facultyScope;
     if (!facultyStats.has(scope)) facultyStats.set(scope, facultyChartSchools(scope));
     const schools = facultyStats.get(scope);

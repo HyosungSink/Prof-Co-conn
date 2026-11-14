@@ -402,6 +402,7 @@ dialog::backdrop { background: #211b3277; }
 [data-unit-swatch] { width: 9px; height: 9px; border-radius: 2px; flex: none; }
 [data-unit-summary] { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
 [data-unit-directory-link] { flex: none; }
+.unit-directory-links { display: flex; flex: none; gap: 8px; }
 @media (max-width: 650px) {
   .unit-toolbar { gap: 4px 6px; }
   .unit-picker { flex: 1 1 42%; }
