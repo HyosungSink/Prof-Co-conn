@@ -36607,7 +36607,11 @@ const facultyPaperAudits = {
       "https://orcid.org/0000-0002-9951-3345",
       "https://github.com/CGCL-codes/FOAMS",
       "https://xinx2013.github.io/CV-Xin.pdf",
-      "https://storage.googleapis.com/lacuna-pdfs-lunar-airport-385023/pdfs/17/94/179496753e0be8f0006aa4af669c2b312cb9b48373e887320f7c505a9cc67d9d.pdf"
+      "https://storage.googleapis.com/lacuna-pdfs-lunar-airport-385023/pdfs/17/94/179496753e0be8f0006aa4af669c2b312cb9b48373e887320f7c505a9cc67d9d.pdf",
+      "https://www.proceedings.com/content/077/077509webtoc.pdf",
+      "https://www.proceedings.com/content/069/069836webtoc.pdf",
+      "https://paperity.org/p/376789652/accelerating-out-of-core-graph-random-walk-processing-via-locality-aware-algorithm",
+      "https://www.iccd-conf.com/2026/home.html"
     ],
     "papers": [
       {
@@ -36699,7 +36703,7 @@ const facultyPaperAudits = {
         "title": "A Scalable, Efficient, and Robust Dynamic Memory Management Library for HLS-based FPGAs",
         "url": "https://www.microarch.org/micro57/program/",
         "outcome": "no-evidence",
-        "note": "MICRO 会议署名为华科、之江实验室与新南威尔士大学；王庆刚本人称该期在之江实验室做博士后，该机构不属调查企业。GraDMM 与 DAC 的 HeroDMM 为不同研究。"
+        "note": "MICRO 日程列华科与新南威尔士，两方论文集目录另列若干作者兼署之江实验室；王庆刚本人称该期在之江实验室做博士后，后者不属调查企业。GraDMM 与 DAC 的 HeroDMM 为不同研究。"
       },
       {
         "year": 2024,
@@ -36714,9 +36718,37 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TCAD.2023.3341753",
         "outcome": "no-evidence",
         "note": "IEEE 作者接收稿列华科与之江实验室及后者资助，后者不属调查企业。论文 2023 在线，编入 2024 卷。"
+      },
+      {
+        "year": 2026,
+        "title": "Accelerating Out-of-Core Graph Random Walk Processing via Locality-Aware Algorithm-Hardware Co-Design",
+        "url": "https://doi.org/10.1145/3779123",
+        "note": "ACM 正式文作者清单列华科、中佛罗里达和新南威尔士大学；评测使用三星 SmartSSD 并非三星合著，且三星不在企业范围。本人书目的 2025 是接收年份，期刊卷期为 2026。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "PhGraph: A High-Performance ReRAM-Based Accelerator for Hypergraph Applications",
+        "url": "https://doi.org/10.1109/TCAD.2023.3343228",
+        "note": "IEEE 公开版 2023 年 12 月上线，编入 2024 年期次；署名单位为华科与之江实验室，致谢列之江实验室基金。之江实验室不属调查企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "AFaVS: Accurate Yet Fast Version Switching for Graph Processing Systems",
+        "url": "https://icde2023.ics.uci.edu/detailed-program/",
+        "note": "ICDE 官方分场记华科与新南威尔士；正式论文集目录另列华科多位作者联合署之江实验室，三者均非范围企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "MeG2: In-Memory Acceleration for Genome Graphs Analysis",
+        "url": "https://60dac.conference-program.com/presentation/?id=RESEARCH1139&sess=sess157",
+        "note": "DAC 正式日程的九位作者均署华科，未见调查企业研究者。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "已用本人书目、DBLP 与会议、出版社和实验室记录核对这批论文；未对剩余书目作结论。以论文可追溯的在线和正式版本归并，按研究当时身份复核。"
+    "note": "仍在梳理。已交叉核对本人书目、DBLP、ORCID 与原文；ICCD 2026 有一篇本人列出但会议在调查截止日之后，尚未找到截止日前公开全文。本人书目中的 SpecTwin 暂只找到作者记录，继续核对首次公开日期。"
   },
   "Fzx5jZoAAAAJ": {
     "from": "2023-01-01",
@@ -36808,7 +36840,10 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2207.04455",
       "https://researchportal.hkust.edu.hk/en/publications/the-price-of-stability-for-first-price-auction/",
       "https://doi.org/10.1145/3617902",
-      "https://arxiv.org/pdf/2207.01761"
+      "https://arxiv.org/pdf/2207.01761",
+      "https://xhdeng19.github.io/assets/files/CV_Xihan_Deng.pdf",
+      "https://cs.sjtu.edu.cn/en/jiaoshiml/zhangyuhao.html",
+      "https://arxiv.org/pdf/2604.00954v1"
     ],
     "papers": [
       {
@@ -36822,14 +36857,14 @@ const facultyPaperAudits = {
         "title": "The Price of Anarchy for Selfish Load Balancing",
         "url": "https://focs.computer.org/2026/main-program/",
         "outcome": "no-evidence",
-        "note": "FOCS 官方议程确认四人署港科大、上海交大。邓熙涵履历明确本科在读及本人自 2025 年 7 月跟随金耀楠和Yuhao Zhang开展研究；公开议程和校方讲座未标示企业人员，无法以华为任职期间开始合作的时间代替项目或岗位证据。当前以正式展示记录核查，未找到会议全文。",
+        "note": "FOCS 官方议程列金耀楠为港科大、其余三位为上海交大。邓熙涵公开履历第 1 页将该篇具名列为 2025 年 7 月起在上海交大约翰·霍普克罗夫特计算机科学中心，在 Yuhao Zhang 与金耀楠指导下完成的研究。指导开始时金耀楠仍在华为，但该研究履历归入上海交大、论文议程无华为作者；未核实同篇华为项目或员工。正式论文全文仍待补。",
         "year": 2026
       },
       {
         "title": "The Price of Anarchy for Selfish Load Balancing under Correlated Priors",
         "url": "https://ijtcs-faw2026.github.io/IJTCS-FAW2026/program.html",
         "outcome": "no-evidence",
-        "note": "2026-11-08 官方议程列四位作者，区分 FOCS 同名基础模型论文与相关先验版本。邓熙涵本人证实同期上海交大本科和具名指导；项目内企业人员与研究归属的证据仍缺。OpenReview 人机验证，暂以官方会议信息核至署名，全文待补。",
+        "note": "2026-11-08 官方会议已展示，作者四人与 FOCS 版本相同；本人履历将两篇列作不同论文，并明确在上海交大约翰·霍普克罗夫特中心的研究期间及具名指导中完成相关先验部分，未列华为项目。OpenReview 全文触发人机验证，未完成全文阅读。",
         "year": 2026
       },
       {
@@ -36864,7 +36899,7 @@ const facultyPaperAudits = {
         "title": "Fully Scalable MPC Algorithms for Euclidean Clustering: Constant Approximation in Constant Rounds",
         "url": "https://arxiv.org/abs/2604.00954",
         "outcome": "no-evidence",
-        "note": "11 月公开稿列 Warwick、港科大和北大；楼佳宁本人书目列 4 月旧题并确认在读，未找到同篇企业参与资料。2026-04 的 Round-efficient Fully-scalable MPC algorithms for k-Means 为同一 arXiv 标识，合并至扩展题名。",
+        "note": "已交叉对照 2026-04-01 旧名首版与 11 月扩展原稿：金耀楠在首版虽署港科大，但履历显示当时仍任职华为；两版签名均无明确华为角色。首版楼佳宁、Weicheng Wang、姜少峰署北大，扩展另加 Warwick 作者。无同篇企业参与证据，不能仅凭署名预先变更推断任职。",
         "year": 2026
       },
       {
@@ -36931,7 +36966,7 @@ const facultyPaperAudits = {
         "year": 2023
       }
     ],
-    "note": "阶段核查。以本人书目与履历、港科大学术门户、ORCID、DBLP、原稿及正式会议核对，截至 2026-11-12 逐篇记录 17 篇；作者 2023-05 至 2026-05 任职华为 Taylor Lab，2026-06 起任教港科大，按同篇项目发生时身份核验。两篇负载均衡论文核至官方公开议程，待补可公开复核全文。2021 Fourier Growth 的期刊版仍见待刊备注，未另计。"
+    "note": "阶段核查。以本人书目与履历、港科大学术门户、ORCID、DBLP、原稿及正式会议核对，截至 2026-11-12 逐篇记录 17 篇；作者 2023-05 至 2026-05 任职华为 Taylor Lab，2026-06 起任教港科大，按同篇项目发生时身份核验。两篇负载均衡论文核至官方公开议程，待补可公开复核全文。2021 Fourier Growth 的期刊版仍见待刊备注，未另计。 已补邓熙涵本人正式履历与旧版 arXiv 的署名，证实两篇负载均衡工作列在上海交大中心；具体企业参与证据仍缺，FOCS 和 IJTCS-FAW 两篇全文待补。"
   },
   "L1y8y2MAAAAJ": {
     "from": "2023-01-01",
@@ -36947,7 +36982,7 @@ const facultyPaperAudits = {
         "title": "GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching",
         "url": "https://doi.org/10.1145/3620665.3640423",
         "outcome": "lead",
-        "note": "两位导师、同篇作者及学生同期间实习可核，企业仓库和同篇原文确认是蚂蚁与上交的研究。论文中郭聪署上交与期智，公开材料未具体说明其在企业内而不是期智以何种方式参与本篇，继续保留线索。"
+        "note": "学校与会议有共同一作郭聪、两位校内博士导师以及企业负责人同篇；4–9 月所在蚂蚁实习与会议完整稿最迟提交日期重叠。郭聪仅署上交和期智，项目公司侧公开代码未见其具名研究贡献，仍待把论文直接对应到实习工作。"
       },
       {
         "year": 2024,
@@ -36973,7 +37008,7 @@ const facultyPaperAudits = {
         "title": "GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching",
         "url": "https://doi.org/10.1145/3620665.3640423",
         "outcome": "lead",
-        "note": "两位导师、同篇作者及学生同期间实习可核，企业仓库和同篇原文确认是蚂蚁与上交的研究。论文中郭聪署上交与期智，公开材料未具体说明其在企业内而不是期智以何种方式参与本篇，继续保留线索。"
+        "note": "学校与会议有共同一作郭聪、两位校内博士导师以及企业负责人同篇；4–9 月所在蚂蚁实习与会议完整稿最迟提交日期重叠。郭聪仅署上交和期智，项目公司侧公开代码未见其具名研究贡献，仍待把论文直接对应到实习工作。"
       },
       {
         "year": 2024,
@@ -37136,7 +37171,13 @@ const facultyPaperAudits = {
       "https://ascii-iie.github.io/Students/SN.html",
       "https://people.ucas.edu.cn/~0046013",
       "https://zhenyu.ac.cn/",
-      "https://qingyue2014.github.io/"
+      "https://qingyue2014.github.io/",
+      "https://dblp.org/pid/97/5152-1.html",
+      "https://aclanthology.org/people/yanan-cao/",
+      "https://biguanqun.github.io/cv/",
+      "https://redwyd.github.io/",
+      "https://yongchao-liu.github.io/projects.html",
+      "https://qingyue2014.github.io/qingyue_cv.pdf"
     ],
     "papers": [
       {
@@ -37187,9 +37228,177 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2023.acl-long.114.pdf",
         "outcome": "existing",
         "note": "已在关系索引，王青悦本人项目简历和国科大导师关系可核；同篇的丁亮署京东探索研究院。"
+      },
+      {
+        "year": 2023,
+        "title": "DiffusEmp: A Diffusion Model-Based Framework with Multi-Grained Control for Empathetic Response Generation",
+        "url": "https://aclanthology.org/2023.acl-long.158/",
+        "outcome": "lead",
+        "note": "ACL 正式版具名毕冠群、导师曹亚男与京东 AI Research 何晓冬、Lei Shen、Meng Chen；毕本人履历确认 2019–2024 年由曹指导。正文没有京东实习脚注，本人公开履历也未将 DiffusEmp 标为京东研究。"
+      },
+      {
+        "year": 2023,
+        "title": "Multi-Aspect Heterogeneous Graph Augmentation",
+        "url": "https://doi.org/10.1145/3543507.3583208",
+        "outcome": "lead",
+        "note": "ACM 书目登记在读首作者周玉晨、校内导师曹亚男及蚂蚁 Yongchao Liu 等同篇。企业作者把论文列入其研究方向书目，尚未具名周玉晨在蚂蚁完成本篇。"
+      },
+      {
+        "year": 2025,
+        "title": "Contrastive Modality-Disentangled Learning for Multimodal Recommendation",
+        "url": "https://doi.org/10.1145/3715876",
+        "outcome": "lead",
+        "note": "ACM 原文列百度 Dawei Yin、国科大刘瑞与其导师曹亚男；研究还受 CCF-阿里妈妈项目资助。未找出该学生在哪家企业开展本篇的具名证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Graph Neural Stochastic Diffusion for Estimating Uncertainty in Node Classification",
+        "url": "https://proceedings.mlr.press/v235/lin24x.html",
+        "outcome": "lead",
+        "note": "PMLR 版列百度 Dawei Yin，通讯为曹亚男，导师名录确认石逢钊为其指导学生；致谢列华为和腾讯研究基金，不是石逢钊在百度参与本篇的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "EA-Agent: A Structured Multi-Step Reasoning Agent for Entity Alignment",
+        "url": "https://aclanthology.org/2026.acl-long.1420/",
+        "outcome": "lead",
+        "note": "ACL 正式版与预印本合一，国科大导师学生名录具名南艺璇；同篇郑方署京东，未找到学生于京东进行本研究的具名说明。"
+      },
+      {
+        "year": 2025,
+        "title": "Recursively summarizing enables long-term dialogue memory in large language models",
+        "url": "https://doi.org/10.1016/j.neucom.2025.130193",
+        "outcome": "lead",
+        "note": "Elsevier 正式版与 2308.15022 合一；国科大王青悦、曹亚男及曾任京东研究员的丁亮合作。原稿丁亮署悉尼大学，履历在 2023 年 6 月后列本项目但未把它归为京东实习；正式版作者简介仅记京东过往任职。"
+      },
+      {
+        "year": 2026,
+        "title": "CIA: Inferring the Communication Topology from LLM-based Multi-Agent Systems",
+        "url": "https://arxiv.org/abs/2604.12461",
+        "outcome": "no-evidence",
+        "note": "ACL 会方录用表与原文对账。作者机构是国科大、中科院信工所及数学院、格里菲斯大学、南洋理工大学；涉及企业模型的实验不形成共同署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Do LLMs Know Tool Irrelevance? Demystifying Structural Alignment Bias in Tool Invocations",
+        "url": "https://arxiv.org/abs/2604.11322",
+        "outcome": "no-evidence",
+        "note": "研究部原文的刘一龙、林希珣和曹亚男等作者为信工所、国科大、自动化所和东华大学，未署范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Cognitive Analysis Graph-Guided Multi-Turn Safety Enhancement for Large Language Models",
+        "url": "https://aclanthology.org/2026.findings-acl.1558/",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 原文列信工所、国科大及一名独立研究者。现有企业任职或此前实习不用于推断独立署名时的本篇身份。"
+      },
+      {
+        "year": 2026,
+        "title": "PathMind: A Retrieve-Prioritize-Reason Framework for Knowledge Graph Reasoning with Large Language Models",
+        "url": "https://arxiv.org/abs/2511.14256",
+        "outcome": "no-evidence",
+        "note": "研究组列 AAAI 2026；作者原稿列信工所、国科大、北京大学和计算所，没有范围企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Rethinking LLM Watermark Detection in Black-Box Settings: A Non-Intrusive Third-Party Framework",
+        "url": "https://arxiv.org/abs/2603.14968",
+        "outcome": "no-evidence",
+        "note": "作者原文署信工所、国科大、国家互联网应急中心，未见范围内企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack",
+        "url": "https://arxiv.org/abs/2512.16182",
+        "outcome": "no-evidence",
+        "note": "2025 年预印本作者均署信工所、国科大或计算所，未见范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "MetaGDPO: Alleviating Catastrophic Forgetting with Metacognitive Knowledge through Group Direct Preference Optimization",
+        "url": "https://arxiv.org/abs/2511.12113",
+        "outcome": "no-evidence",
+        "note": "研究组列 AAAI 2026，合并 2025 年预印本；机构有信工所、国科大、独立研究者和 JIUTIAN Research，名单中无范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Evidential Spectrum-Aware Contrastive Learning for OOD Detection in Dynamic Graphs",
+        "url": "https://doi.org/10.1007/978-3-032-05962-8_8",
+        "outcome": "no-evidence",
+        "note": "ECML-PKDD 正式版核对全部作者机构，无百度作者。孙楠本人 2025 年百度实习方向是多模态幻觉，不能据此把动态图库论文计为企业研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Conformal Graph-level Out-of-distribution Detection with Adaptive Data Augmentation",
+        "url": "https://research-management.mq.edu.au/ws/portalfiles/portal/524311633/524098551.pdf",
+        "outcome": "no-evidence",
+        "note": "大学存档的 ACM 正式版列多所院校与科研单位，只是使用公开基准和研究资助，未见指定企业同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "From Trade-off to Synergy: A Versatile Symbiotic Watermarking Framework for Large Language Models",
+        "url": "https://arxiv.org/abs/2505.09924",
+        "outcome": "no-evidence",
+        "note": "ACL 原稿与课题组书目对账；方滨兴署院士工作站，王一丹及曹亚男署国科大和信工所，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative In-Context Optimization",
+        "url": "https://arxiv.org/abs/2505.09921",
+        "outcome": "no-evidence",
+        "note": "ACL 原稿作者来自信工所、国科大及广州大学网络空间先进技术研究院；评测商用模型不构成共同署名。"
+      },
+      {
+        "year": 2026,
+        "title": "WorldCup Sampling for Multi-bit LLM Watermarking",
+        "url": "https://arxiv.org/abs/2602.01752",
+        "outcome": "no-evidence",
+        "note": "公开预印本只列王一丹和信工所、国科大的校内作者，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "A Group Fairness Lens for Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-emnlp.431/",
+        "outcome": "no-evidence",
+        "note": "EMNLP Findings 正式版与个人旧书目不同，只列信工所、国科大、计算所作者，未发现京东同篇任职。"
+      },
+      {
+        "year": 2023,
+        "title": "Towards Better Entity Linking with Multi-View Enhanced Distillation",
+        "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2023/06/Towards-Better-Entity-Linking-with-Multi-View-Enhanced-Distillation.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 2023 的确具名首作者 Yi Liu 在微软实习完成本篇，但微软不在本调查企业范围。"
+      },
+      {
+        "year": 2023,
+        "title": "Explainable Hyperbolic Temporal Point Process for User-Item Interaction Sequence Generation",
+        "url": "https://doi.org/10.1145/3570501",
+        "outcome": "no-evidence",
+        "note": "ACM 发表信息列国科大与数学院、格里菲斯大学、科廷大学；与另一篇蚂蚁同篇的周玉晨研究区分。"
+      },
+      {
+        "year": 2024,
+        "title": "Generative Models for Complex Logical Reasoning over Knowledge Graphs",
+        "url": "https://doi.org/10.1145/3616855.3635804",
+        "outcome": "no-evidence",
+        "note": "按 ACM 2024 正式版而非王青悦旧网页的 2023，作者均为信工所、国科大、计算所。"
+      },
+      {
+        "year": 2023,
+        "title": "Intra-Event and Inter-Event Dependency-Aware Graph Network for Event Argument Extraction",
+        "url": "https://aclanthology.org/2023.findings-emnlp.421/",
+        "outcome": "no-evidence",
+        "note": "ACL Anthology 正式版与课题组一览对账；作者署信工所、国科大与计算所，未见范围企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation",
+        "url": "https://aclanthology.org/2023.acl-long.17/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版作者均署信工所与国科大，利用混合检索增强提取事件论元；未见范围内企业同篇。"
       }
     ],
-    "note": "从国科大指导学生名单反查公开书目；既有王青悦京东案例和孙楠百度 V-ITI 已独立复核，部分书目仍待逐篇展开。"
+    "note": "本批从教学名录及实验组书目交叉正式出版页、原文和学生履历，逐篇记录。已有确认及缺实研依据的校企合著分开保留，完整书目仍在推进。"
   },
   "4VwsT3QAAAAJ": {
     "from": "2023-01-01",
