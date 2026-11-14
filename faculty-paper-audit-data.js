@@ -776,7 +776,9 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/161/9965.html",
       "https://zhenxuan00.github.io/",
       "https://nieshenx.github.io/",
-      "https://cn.linkedin.com/in/%E5%8B%87-%E5%8D%95-8a821b120/en"
+      "https://cn.linkedin.com/in/%E5%8B%87-%E5%8D%95-8a821b120/en",
+      "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/you25d/you25d.pdf"
     ],
     "papers": [
       {
@@ -832,9 +834,15 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2605.00161v1",
         "outcome": "no-evidence",
         "note": "论文标注实习单位为 Microsoft，在本项目企业名单之外。"
+      },
+      {
+        "title": "Effective and Efficient Masked Image Generation Models",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/you25d/you25d.pdf",
+        "outcome": "confirmed",
+        "note": "ICML 正式论文首页在第一作者游泽彬姓名后标注匕首，明确其在蚂蚁集团实习时做了本研究；同篇还有人大导师李崇轩、当时在蚂蚁任职的周俊。"
       }
     ],
-    "note": "部分：重点核对实验室几位学生在百度、蚂蚁及字节跳动阶段的公开成果。"
+    "note": "已按学生实习项目和会议原文逐篇查证一部分书目，未覆盖全部论文。"
   },
   "FbJrKzkAAAAJ": {
     "from": "2023-01-01",
@@ -3067,7 +3075,17 @@ const facultyPaperAudits = {
       "https://xinntao.github.io/",
       "https://github.com/KlingAIResearch/VideoCanvas",
       "https://arxiv.org/html/2510.08555v1",
-      "https://onevfall.github.io/project_page/videocanvas/"
+      "https://onevfall.github.io/project_page/videocanvas/",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_DiTCtrl_Exploring_Attention_Control_in_Multi-Modal_Diffusion_Transformer_for_Tuning-Free_CVPR_2025_paper.html",
+      "https://xiaoyu258.github.io/",
+      "https://openreview.net/pdf/81301222d54e4d7455e85a1269b1c9a1b7bce1d5.pdf",
+      "https://github.com/TencentARC/DiTCtrl",
+      "https://hk.linkedin.com/in/minghong-cai-425bb4274",
+      "https://arxiv.org/pdf/2512.18772",
+      "https://ywcmaike.github.io/",
+      "https://arxiv.org/html/2607.26860v1",
+      "https://arxiv.org/abs/2401.14405",
+      "https://arxiv.org/abs/2511.18780"
     ],
     "papers": [
       {
@@ -3159,6 +3177,36 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/CVPRF71909.2026.00431",
         "outcome": "confirmed",
         "note": "论文与作者原始项目把在快手可灵完成本篇的脚注标给第一作者蔡明宏。蔡本人资料确认同期港中文在读和同篇通讯作者岳翔宇的博士导师身份；同篇作者王鑫涛的个人履历确认其领导可灵多模态生成团队及对应研发。"
+      },
+      {
+        "title": "DiTCtrl: Exploring Attention Control in Multi-Modal Diffusion Transformer for Tuning-Free Multi-Prompt Longer Video Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_DiTCtrl_Exploring_Attention_Control_in_Multi-Modal_Diffusion_Transformer_for_Tuning-Free_CVPR_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "CVPR 原文及腾讯 ARC 原始项目把实习脚注明确标给第一作者蔡明宏。蔡本人列港中文博士导师为同篇岳翔宇；腾讯通讯作者 Xiaoyu Li 的公开任职履历确认当期是腾讯 ARC 高级研究员。"
+      },
+      {
+        "title": "In-Context Audio Control of Video Diffusion Transformers",
+        "url": "https://arxiv.org/pdf/2512.18772",
+        "outcome": "lead",
+        "note": "论文首页明确标为在快手完成的第一作者是港中文 Wenze Liu。同期研究员工 Kuaishou 的通讯作者 Weicai Ye 可核，但未找到直接指认 Wenze Liu 的博士导师或论文指导者的资料。"
+      },
+      {
+        "title": "Amortized Moment Matching for Visual Generation",
+        "url": "https://arxiv.org/html/2607.26860v1",
+        "outcome": "lead",
+        "note": "同样具名第一作者 Wenze Liu 在快手完成本篇、同篇只有港中大岳翔宇为高校通讯作者，应另找明确指导佐证。"
+      },
+      {
+        "title": "Multimodal Pathway: Improve Transformers with Irrelevant Data from Other Modalities",
+        "url": "https://arxiv.org/abs/2401.14405",
+        "outcome": "lead",
+        "note": "港中大第一作者 Yiyuan Zhang 与腾讯 AI Lab 多位人员同篇，但原文和官方代码没有学生具体在腾讯工作的说明；个人主页只点名后来字节工作。"
+      },
+      {
+        "title": "ConceptGuard: Proactive Safety in Text-and-Image-to-Video Generation through Multimodal Risk Detection",
+        "url": "https://arxiv.org/abs/2511.18780",
+        "outcome": "lead",
+        "note": "广东香港中大与阿里未来实验室同篇，但尚未找到港中大学生具名参与本篇对应阿里工作或在企实习的文件。"
       }
     ]
   },
@@ -6729,7 +6777,10 @@ const facultyPaperAudits = {
     "sources": [
       "https://people.ucas.ac.cn/~zlei",
       "https://jingdongwang2017.github.io/index_cn.html",
-      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.pdf",
+      "https://orcid.org/0000-0002-6159-619X",
+      "https://erictan7.github.io/",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/6d13e085b79d454da5910e4ca82a3d9d-Paper-Conference.pdf"
     ],
     "papers": [
       {
@@ -6737,9 +6788,15 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_From_Intuition_to_Investigation_A_Tool-Augmented_Reasoning_MLLM_Framework_for_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "正式版具名百度实习；学籍、指导和百度研究人员均有第一方资料。"
+      },
+      {
+        "title": "Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/6d13e085b79d454da5910e4ca82a3d9d-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式版将第一作者在蚂蚁集团实习与本论文研究直接关联。谭淏与校内导师雷震及蚂蚁正式员工王伟强均为同篇作者。"
       }
     ],
-    "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
+    "note": "已按学生实习项目和会议原文逐篇查证一部分书目，未覆盖全部论文。"
   },
   "Ihj2Rw8AAAAJ": {
     "from": "2023-01-01",
@@ -7362,5 +7419,295 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已经逐篇核对该合作簇及部分论文来源，未覆盖该教师全部公开书目。"
+  },
+  "n4csXw0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/qianhui/0.html",
+      "https://zituitui.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "BELM: Bidirectional Explicit Linear Multi-step Sampler for Exact Inversion in Diffusion Models",
+        "url": "https://openreview.net/pdf/7f3c70feb6ff46ecefa67a1d30b459467fd6fdd3.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。"
+      },
+      {
+        "title": "Efficiently Access Diffusion Fisher: Within the Outer Product Span Space",
+        "url": "https://openreview.net/pdf/16507a473ad0b5e0a4f2b28c9fbcbcc6e4be0c72.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。"
+      },
+      {
+        "title": "Unleashing High-Quality Image Generation in Diffusion Sampling Using Second-Order Levenberg-Marquardt-Langevin",
+        "url": "https://www.openaccess.thecvf.com/content/ICCV2025/papers/Wang_Unleashing_High-Quality_Image_Generation_in_Diffusion_Sampling_Using_Second-Order_Levenberg-Marquardt-Langevin_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "l4Dyt7EAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/shengyuzhang",
+      "https://jiajianxie.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "ETC: training-free diffusion models acceleration with Error-aware Trend Consistency",
+        "url": "https://arxiv.org/html/2510.24129",
+        "outcome": "confirmed",
+        "note": "原文首页脚注直接具名该研究在谢嘉健于腾讯微信实习期间完成；谢嘉健本人履历列 2024 年起在浙江大学读硕士，2025 年 6–12 月在腾讯微信视觉任研究实习生。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "IFX5C-cAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1084/1717.htm",
+      "https://soar.group/chenren/team/",
+      "https://cs.pku.edu.cn/info/1263/3003.htm"
+    ],
+    "papers": [
+      {
+        "title": "Reasoning about Network Traffic Load Property at Production Scale",
+        "url": "https://www.usenix.org/system/files/nsdi24-li-ruihan.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。"
+      },
+      {
+        "title": "A General and Efficient Approach to Verifying Traffic Load Properties under Arbitrary k Failures",
+        "url": "https://ennanzhai.github.io/pub/sigcomm24-yu.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "bWYvvkUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://proceedings.neurips.cc/paper_files/paper/2023/hash/ef0c0a23a1a8219c4fc381614664df3e-Abstract-Conference.html",
+      "https://andrewluo.net/",
+      "https://dblp.org/pid/234/8054.html",
+      "https://hub.hku.hk/cris/rp/rp03416",
+      "https://www.hendersonneurolab.com/publications/",
+      "https://doi.org/10.1101/2023.03.17.533179",
+      "https://arxiv.org/abs/2310.04420",
+      "https://arxiv.org/html/2407.11333v1",
+      "https://arxiv.org/abs/2406.05191",
+      "https://arxiv.org/abs/2406.13735",
+      "https://arxiv.org/abs/2410.05266",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Yeung_Reanimating_Images_using_Neural_Representations_of_Dynamic_Stimuli_CVPR_2025_paper.html",
+      "https://papers.nips.cc/paper_files/paper/2025/hash/f0990f6e98785d38035a607e7c2de2ae-Abstract-Conference.html",
+      "https://arxiv.org/abs/2505.21501",
+      "https://arxiv.org/abs/2505.15813",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2a095b46705d7e6f81fc50270fe770c2-Abstract-Conference.html",
+      "https://openreview.net/pdf/e3359bd3f47d742acf429bf1b35cfb26386fe6f6.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/42413",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/f7fc38fdd95fd146a471791b93ff9f12-Paper-Conference.pdf",
+      "https://arxiv.org/html/2602.12633v1",
+      "https://arxiv.org/html/2603.13994v1",
+      "https://arxiv.org/abs/2604.08537",
+      "https://arxiv.org/html/2604.09817v1",
+      "https://arxiv.org/html/2605.12491v1",
+      "https://arxiv.org/html/2605.13548v1",
+      "https://doi.org/10.64898/2026.05.12.724119",
+      "https://arxiv.org/pdf/2606.12995",
+      "https://arxiv.org/pdf/2609.18293",
+      "https://arxiv.org/html/2609.36391v1",
+      "https://connect.biorxiv.org/group/content/19?page=3",
+      "https://gradsch.hku.hk/news_and_events/newsletter/awards-and-achievements-12"
+    ],
+    "papers": [
+      {
+        "title": "Brain Diffusion for Visual Exploration: Cortical Discovery using Large Scale Generative Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/ef0c0a23a1a8219c4fc381614664df3e-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "CMU 时期论文，同篇仅校方作者，教师当时为 CMU 在读；无符合范围企业的研究身份。"
+      },
+      {
+        "title": "Neural Selectivity for Real-World Object Size In Natural Images",
+        "url": "https://doi.org/10.1101/2023.03.17.533179",
+        "outcome": "no-evidence",
+        "note": "核对同一 DOI 2023 初版与 2026-10-21 更名再版，计为同一公开论文。新版追加第一作者 Hlayhel；合著为 CMU / 港大等学界，无 14 家企业参与的具名证据。"
+      },
+      {
+        "title": "BrainSCUBA: Fine-Grained Natural Language Captions of Visual Cortex Selectivity",
+        "url": "https://arxiv.org/abs/2310.04420",
+        "outcome": "no-evidence",
+        "note": "核对论文及 ICLR 2024 版，CMU 研究团队学界作者；使用预训练视觉语言模型不代表企业人员参与。"
+      },
+      {
+        "title": "Disentangled Acoustic Fields for Multimodal Physical Scene Understanding",
+        "url": "https://arxiv.org/html/2407.11333v1",
+        "outcome": "no-evidence",
+        "note": "第一作者上海交大；Luo 在论文署 CMU。真正具名工业作者为三菱电机 MERL，另有 MIT–IBM，均不在 14 家企业调查范围。"
+      },
+      {
+        "title": "DiffusionPID: Interpreting Diffusion via Partial Information Decomposition",
+        "url": "https://arxiv.org/abs/2406.05191",
+        "outcome": "no-evidence",
+        "note": "核对 NeurIPS 2024 与 arXiv，同一论文计一次；作者学籍及作者表不支持港大学生的范围内企业研究。"
+      },
+      {
+        "title": "StableSemantics: A Synthetic Language-Vision Dataset of Semantic Representations in Naturalistic Images",
+        "url": "https://arxiv.org/abs/2406.13735",
+        "outcome": "no-evidence",
+        "note": "共同作者来自 CMU 学术团队，Luo 此时以 CMU 为机构，生成工具采用无同篇企业身份的外部产品。"
+      },
+      {
+        "title": "Brain Mapping with Dense Features: Grounding Cortical Semantic Selectivity in Natural Images with Vision Transformers",
+        "url": "https://arxiv.org/abs/2410.05266",
+        "outcome": "no-evidence",
+        "note": "ICLR 2025 同源预印本，作者研究为 CMU 等校内，未见范围内企业员工或项目。"
+      },
+      {
+        "title": "Reanimating Images using Neural Representations of Dynamic Stimuli",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yeung_Reanimating_Images_using_Neural_Representations_of_Dynamic_Stimuli_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "与 arXiv 2406.02659 同作者的 Neural Representations 初稿去重为一篇；同篇团队未见具名范围内企业或研究实习。"
+      },
+      {
+        "title": "In Silico Mapping of Visual Categorical Selectivity Across the Whole Brain",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/f0990f6e98785d38035a607e7c2de2ae-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "原始稿署 Columbia 与香港大学，企业模型作为工具；没有企业职员及学生参与该企研究的公开信息。"
+      },
+      {
+        "title": "Vision Transformers with Self-Distilled Registers",
+        "url": "https://arxiv.org/abs/2505.21501",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2025 原作品与 arXiv 共一篇。原稿作者单位为港大、浙大、新加坡南洋理工，实验室名册中一名后来去业界的合作者没有同期企业署名及企业参与说明。"
+      },
+      {
+        "title": "Meta-Learning an In-Context Transformer Model of Human Higher Visual Cortex",
+        "url": "https://arxiv.org/abs/2505.15813",
+        "outcome": "no-evidence",
+        "note": "学生个人 CV 列清楚这是港大校内指导项目。同行作者公开资料与正式稿未显示范围内企业研究。"
+      },
+      {
+        "title": "SynBrain: Enhancing Visual-to-fMRI Synthesis via Probabilistic Representation Learning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2a095b46705d7e6f81fc50270fe770c2-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "第一作者是 Luo 指导的香港大学博士，也明确实习于上海人工智能实验室，该机构不在 14 家企业范围。"
+      },
+      {
+        "title": "CONFORM: A Project to Create Crowd-Sourced Open Neuroscience fMRI Foundation Models",
+        "url": "https://openreview.net/pdf/e3359bd3f47d742acf429bf1b35cfb26386fe6f6.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 工作坊公开论文；机构名单含 MIT–IBM Watson AI Lab，IBM 不在范围，未见受 Luo 指导的范围内企业参与身份。"
+      },
+      {
+        "title": "BrainLMM: A Label-Free Framework for Mapping Multi-Semantic Representation in the Human Visual Cortex",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42413",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式论文名列北京理工大学与香港大学学术研究员，未见范围内企业角色。"
+      },
+      {
+        "title": "Compose Your Policies! Improving Diffusion-based or Flow-based Robot Policies via Test-time Distribution-level Composition",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/f7fc38fdd95fd146a471791b93ff9f12-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "具名港大博士 Jiahang Cao 亦署北京人形机器人创新中心和上海 AI 实验室，这两个机构不在范围。同期获腾讯奖学金，不能据此把本篇归给腾讯。"
+      },
+      {
+        "title": "Real-to-Sim for Highly Cluttered Environments via Physics-Consistent Inter-Object Reasoning",
+        "url": "https://arxiv.org/html/2602.12633v1",
+        "outcome": "no-evidence",
+        "note": "与 IEEE RA-L 版同一篇。原文各作者署港大或港科大（广州），其中指导关系清楚但无企业参与。"
+      },
+      {
+        "title": "Human-like Object Grouping in Self-supervised Vision Transformers",
+        "url": "https://arxiv.org/html/2603.13994v1",
+        "outcome": "no-evidence",
+        "note": "独立预印本由香港大学与美国、韩国和新加坡大学参与；无范围内企业员工。"
+      },
+      {
+        "title": "Meta-Learning In-Context Enables Training-Free Cross Subject Brain Decoding",
+        "url": "https://arxiv.org/abs/2604.08537",
+        "outcome": "no-evidence",
+        "note": "CVPR 2026 与公开预印本同一篇。学生在读及师生同篇明确；外部研究方上海人工智能实验室、河套学院及其他学校，无范围内企业。"
+      },
+      {
+        "title": "NeuroFlow: Toward Unified Visual Encoding and Decoding from Neural Activity",
+        "url": "https://arxiv.org/html/2604.09817v1",
+        "outcome": "no-evidence",
+        "note": "CVPR 与预印本合并。作者稿致谢精确指出在读学生本篇实习发生于上海人工智能实验室，不在企业范围。"
+      },
+      {
+        "title": "Elastic Attention Cores for Scalable Vision Transformers",
+        "url": "https://arxiv.org/html/2605.12491v1",
+        "outcome": "no-evidence",
+        "note": "研究单位为香港大学、CMU、Columbia；有具名学生，但未查见范围内企业署名或参与。"
+      },
+      {
+        "title": "AttenA+: Rectifying Action Inequality in Robotic Foundation Models",
+        "url": "https://arxiv.org/html/2605.13548v1",
+        "outcome": "no-evidence",
+        "note": "并列一作 Jiahang Cao 和 Luo 同篇，工业或研究机构署 IDEA、X-Humanoid，不在范围。无腾讯在该论文中角色的原始材料。"
+      },
+      {
+        "title": "Diffusion-based stimulus optimization reveals functional organization across higher visual cortex",
+        "url": "https://doi.org/10.64898/2026.05.12.724119",
+        "outcome": "no-evidence",
+        "note": "共同作者实验室正式报告及 VSS 名册列 CMU 和 HKU 学术合作，无范围内企业作者。"
+      },
+      {
+        "title": "GenHOI: Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training",
+        "url": "https://arxiv.org/pdf/2606.12995",
+        "outcome": "no-evidence",
+        "note": "原文署港大、港科大（广州）、中科大及新加坡国立；使用 Seedance 等模型不构成产品公司的具名论文关系。"
+      },
+      {
+        "title": "Function-Preserving Data Generation for Zero-Shot Real-to-Sim-to-Real Manipulation",
+        "url": "https://arxiv.org/pdf/2609.18293",
+        "outcome": "no-evidence",
+        "note": "原始论文将全部作者绑定港大或港科大（广州）；无可核的范围内企业研究。"
+      },
+      {
+        "title": "Receptive-field-constrained stimulus optimization for human early and intermediate visual cortex",
+        "url": "https://arxiv.org/html/2609.36391v1",
+        "outcome": "no-evidence",
+        "note": "用原文和共同作者实验室书目复核，该公开稿仅 CMU 和 HKU 学术单位，导师与范围内企业学生链条不成立。"
+      }
+    ]
+  },
+  "qH0rU44AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/ZhangQing",
+      "https://www.zhangqing-home.net/students.html",
+      "https://yandanyang.github.io/",
+      "https://amap-cvlab.github.io/index.zh.html"
+    ],
+    "papers": [
+      {
+        "title": "World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training",
+        "url": "https://arxiv.org/html/2509.24948v1",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "论文首页把第一作者肖俊锦同时列在中山大学和阿里巴巴高德，并说明研究在高德实习期间完成；高德项目目录收录同一研究。同篇合作者 Yandan Yang 公布其高德正式岗位。中大共同作者张青的学生名录列肖俊锦自 2023 年开始攻读硕士。"
+      },
+      {
+        "title": "Learning Action Manifold with Multi-view Latent Priors for Robotic Manipulation",
+        "url": "https://junjxiao.github.io/Multi-view-VLA.github.io/",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "项目页双列中大与阿里高德；没有明确两名学生参与企业研究的贡献或实习声明，需补证。"
+      }
+    ]
   }
 };

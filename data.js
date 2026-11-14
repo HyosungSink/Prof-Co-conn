@@ -26308,6 +26308,459 @@ const survey = {
           "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml"
         ]
       ]
+    },
+    {
+      "id": "belm-tencent-zju-n4csxw0aaaaj",
+      "paperId": "arxiv:2410.07273",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "钱徽 · Hui Qian",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/qianhui/0.html"
+      ],
+      "employee": [
+        "Hubery Yin",
+        "腾讯高校合作 2024 年公开报道具名列为腾讯微信视觉团队高级研究员；相应原文署腾讯微信视觉。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "student": [
+        "Fangyikang Wang",
+        "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。",
+        "https://zituitui.github.io/"
+      ],
+      "title": "BELM: Bidirectional Explicit Linear Multi-step Sampler for Exact Inversion in Diffusion Models",
+      "short": "BELM",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "扩散模型与生成视觉",
+      "paper": "https://openreview.net/pdf/7f3c70feb6ff46ecefa67a1d30b459467fd6fdd3.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://papers.nips.cc/paper_files/paper/2024/hash/520425a5a4c2fb7f7fc345078b188201-Abstract-Conference.html"
+        ],
+        [
+          "初版记录",
+          "https://arxiv.org/abs/2410.07273"
+        ]
+      ],
+      "evidence": "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Fangyikang Wang 本人公开履历将钱徽具名列为本科、硕士阶段导师；钱徽是同篇作者。",
+        "https://zituitui.github.io/"
+      ]
+    },
+    {
+      "id": "diffusion-fisher-tencent-zju-n4csxw0aaaaj",
+      "paperId": "arxiv:2505.23264",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "钱徽 · Hui Qian",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/qianhui/0.html"
+      ],
+      "employee": [
+        "Hubery Yin",
+        "腾讯高校合作 2024 年公开报道具名列为腾讯微信视觉团队高级研究员；相应原文署腾讯微信视觉。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "student": [
+        "Fangyikang Wang",
+        "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。",
+        "https://zituitui.github.io/"
+      ],
+      "title": "Efficiently Access Diffusion Fisher: Within the Outer Product Span Space",
+      "short": "Diffusion Fisher",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "扩散模型与生成视觉",
+      "paper": "https://openreview.net/pdf/16507a473ad0b5e0a4f2b28c9fbcbcc6e4be0c72.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/wang25ec.html"
+        ],
+        [
+          "初版记录",
+          "https://arxiv.org/abs/2505.23264"
+        ]
+      ],
+      "evidence": "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Fangyikang Wang 本人公开履历将钱徽具名列为本科、硕士阶段导师；钱徽是同篇作者。",
+        "https://zituitui.github.io/"
+      ]
+    },
+    {
+      "id": "lml-tencent-zju-n4csxw0aaaaj",
+      "paperId": "arxiv:2505.24222",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "钱徽 · Hui Qian",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/qianhui/0.html"
+      ],
+      "employee": [
+        "Hubery Yin",
+        "腾讯高校合作 2024 年公开报道具名列为腾讯微信视觉团队高级研究员；相应原文署腾讯微信视觉。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "student": [
+        "Fangyikang Wang",
+        "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。",
+        "https://zituitui.github.io/"
+      ],
+      "title": "Unleashing High-Quality Image Generation in Diffusion Sampling Using Second-Order Levenberg-Marquardt-Langevin",
+      "short": "LML",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "扩散模型与生成视觉",
+      "paper": "https://www.openaccess.thecvf.com/content/ICCV2025/papers/Wang_Unleashing_High-Quality_Image_Generation_in_Diffusion_Sampling_Using_Second-Order_Levenberg-Marquardt-Langevin_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Unleashing_High-Quality_Image_Generation_in_Diffusion_Sampling_Using_Second-Order_Levenberg-Marquardt-Langevin_ICCV_2025_paper.html"
+        ],
+        [
+          "初版记录",
+          "https://arxiv.org/abs/2505.24222"
+        ]
+      ],
+      "evidence": "第一作者 Fangyikang Wang 本人履历列 2023.09–2026.03 浙江大学硕士及 2024.03–2025.08 腾讯微信视觉实习，原文首页脚注明确本项工作在微信实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Fangyikang Wang 本人公开履历将钱徽具名列为本科、硕士阶段导师；钱徽是同篇作者。",
+        "https://zituitui.github.io/"
+      ]
+    },
+    {
+      "id": "etc-tencent-zju-l4dyt7eaaaaj",
+      "paperId": "arxiv:2510.24129",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "张圣宇 · Shengyu Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/shengyuzhang"
+      ],
+      "employee": [
+        "Hubery Yin",
+        "腾讯高校合作 2024 年公开报道具名列为腾讯微信视觉团队高级研究员；相应原文署腾讯微信视觉。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "student": [
+        "谢嘉健 · Jiajian Xie",
+        "原文首页脚注直接具名该研究在谢嘉健于腾讯微信实习期间完成；谢嘉健本人履历列 2024 年起在浙江大学读硕士，2025 年 6–12 月在腾讯微信视觉任研究实习生。",
+        "https://jiajianxie.github.io/"
+      ],
+      "title": "ETC: training-free diffusion models acceleration with Error-aware Trend Consistency",
+      "short": "ETC",
+      "date": "2025-10",
+      "venue": "arXiv 预印本",
+      "area": "扩散模型与生成视觉",
+      "paper": "https://arxiv.org/html/2510.24129",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2510.24129"
+        ],
+        [
+          "浙大实验室在读名录",
+          "https://ai4gc.org/team"
+        ]
+      ],
+      "evidence": "原文首页脚注直接具名该研究在谢嘉健于腾讯微信实习期间完成；谢嘉健本人履历列 2024 年起在浙江大学读硕士，2025 年 6–12 月在腾讯微信视觉任研究实习生。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "谢嘉健的公开学术主页具名张圣宇为其浙江大学硕士导师；张圣宇为本篇作者和通讯作者。",
+        "https://jiajianxie.github.io/"
+      ]
+    },
+    {
+      "id": "jingubang-alibaba-pku-ifx5c-caaaaj",
+      "paperId": "usenix:nsdi24-li-ruihan",
+      "company": "阿里巴巴",
+      "team": "阿里云网络研究",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "许辰人 · Chenren Xu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1084/1717.htm"
+      ],
+      "employee": [
+        "翟恩南 · Ennan Zhai",
+        "2018 年加入阿里巴巴；ACM 2023 中国图灵大会列其为阿里云资深技术专家和网络研究负责人，后续 SIGCOMM、NSDI 两篇均为阿里云侧通讯作者。",
+        "https://www.acmturc.com/2023/en/mobile/SIGCOMM_China.html"
+      ],
+      "student": [
+        "李睿涵 · Ruihan Li",
+        "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。",
+        "https://soar.group/chenren/team/"
+      ],
+      "title": "Reasoning about Network Traffic Load Property at Production Scale",
+      "short": "JINGUBANG",
+      "date": "2024-04",
+      "venue": "USENIX NSDI 2024",
+      "area": "计算机网络与系统",
+      "paper": "https://www.usenix.org/system/files/nsdi24-li-ruihan.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://www.usenix.org/conference/nsdi24/presentation/li-ruihan"
+        ],
+        [
+          "阿里云技术会议演讲者任职简介",
+          "https://www.alibabacloud.com/en/apsara-conference-2020/live-streaming/programmable-high-performance-network?_p_lc=1"
+        ]
+      ],
+      "evidence": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "北大导师课题组具名列李睿涵为 2022 级博士生；北大计算机学院的 NSDI 公告明确李睿涵由许辰人指导，许辰人为同篇作者。",
+        "https://cs.pku.edu.cn/info/1263/3003.htm"
+      ]
+    },
+    {
+      "id": "arbitrary-k-failure-verification-alibaba-pku-ifx5c-caaaaj",
+      "paperId": "doi:10.1145/3651890.3672246",
+      "company": "阿里巴巴",
+      "team": "阿里云网络研究",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "许辰人 · Chenren Xu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1084/1717.htm"
+      ],
+      "employee": [
+        "翟恩南 · Ennan Zhai",
+        "2018 年加入阿里巴巴；ACM 2023 中国图灵大会列其为阿里云资深技术专家和网络研究负责人，后续 SIGCOMM、NSDI 两篇均为阿里云侧通讯作者。",
+        "https://www.acmturc.com/2023/en/mobile/SIGCOMM_China.html"
+      ],
+      "student": [
+        "李睿涵 · Ruihan Li",
+        "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。",
+        "https://soar.group/chenren/team/"
+      ],
+      "title": "A General and Efficient Approach to Verifying Traffic Load Properties under Arbitrary k Failures",
+      "short": "Arbitrary k Failures",
+      "date": "2024-08",
+      "venue": "ACM SIGCOMM 2024",
+      "area": "计算机网络与系统",
+      "paper": "https://ennanzhai.github.io/pub/sigcomm24-yu.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3651890.3672246"
+        ],
+        [
+          "阿里云技术会议演讲者任职简介",
+          "https://www.alibabacloud.com/en/apsara-conference-2020/live-streaming/programmable-high-performance-network?_p_lc=1"
+        ]
+      ],
+      "evidence": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "北大导师课题组具名列李睿涵为 2022 级博士生；北大计算机学院的 NSDI 公告明确李睿涵由许辰人指导，许辰人为同篇作者。",
+        "https://cs.pku.edu.cn/info/1263/3003.htm"
+      ]
+    },
+    {
+      "id": "tencent-ditctrl-cuhk-xiangyu-yue",
+      "company": "腾讯",
+      "team": "PCG ARC Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学助理教授、论文高校通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "蔡明宏 · Minghong Cai",
+        "香港中文大学博士生；论文第一作者，具名在腾讯 ARC Lab 实习期间完成该研究。",
+        "https://onevfall.github.io/personal_page/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生学术主页明确列导师包括同篇香港中文大学通讯作者岳翔宇。",
+        "https://onevfall.github.io/personal_page/"
+      ],
+      "employee": [
+        "Xiaoyu Li",
+        "2021–2025 腾讯 AI Lab / ARC Lab 高级研究员，论文企业通讯作者；分别在其研究及详细任职表列本篇和同期腾讯职位。",
+        "https://xiaoyu258.github.io/"
+      ],
+      "title": "DiTCtrl: Exploring Attention Control in Multi-Modal Diffusion Transformer for Tuning-Free Multi-Prompt Longer Video Generation",
+      "short": "DiTCtrl",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_DiTCtrl_Exploring_Attention_Control_in_Multi-Modal_Diffusion_Transformer_for_Tuning-Free_CVPR_2025_paper.html",
+      "extra": [
+        [
+          "论文原稿首页与第一作者实习脚注",
+          "https://openreview.net/pdf/81301222d54e4d7455e85a1269b1c9a1b7bce1d5.pdf"
+        ],
+        [
+          "腾讯 ARC Lab 原始项目与具名作者",
+          "https://github.com/TencentARC/DiTCtrl"
+        ],
+        [
+          "学生公开研究实习与在读资料",
+          "https://hk.linkedin.com/in/minghong-cai-425bb4274"
+        ]
+      ],
+      "evidence": "CVPR 原文及腾讯 ARC 原始项目把实习脚注明确标给第一作者蔡明宏。蔡本人列港中文博士导师为同篇岳翔宇；腾讯通讯作者 Xiaoyu Li 的公开任职履历确认当期是腾讯 ARC 高级研究员。"
+    },
+    {
+      "id": "ant-emigm-ruc-li",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究院",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院教师，学生的校内导师及论文通讯作者。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "周俊 · Jun Zhou",
+        "IEEE 期刊作者简介在 2024 年列为蚂蚁集团高级专业工程师，同篇署蚂蚁集团。",
+        "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf"
+      ],
+      "student": [
+        "游泽彬 · Zebin You",
+        "中国人民大学高瓴人工智能学院在读博士，2024 年 6 月至 2026 年 4 月在蚂蚁集团研究实习。",
+        "https://yyyouy.github.io/"
+      ],
+      "title": "Effective and Efficient Masked Image Generation Models",
+      "short": "eMIGM",
+      "date": "2025-07",
+      "venue": "ICML",
+      "area": "视觉与多模态",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/you25d/you25d.pdf",
+      "evidence": "ICML 正式论文首页在第一作者游泽彬姓名后标注匕首，明确其在蚂蚁集团实习时做了本研究；同篇还有人大导师李崇轩、当时在蚂蚁任职的周俊。",
+      "advising": [
+        "校内博士生导师",
+        "游泽彬本人主页明确列李崇轩为人大博士导师。",
+        "https://yyyouy.github.io/"
+      ],
+      "extra": [
+        [
+          "PMLR 正式书目",
+          "https://proceedings.mlr.press/v267/you25d.html"
+        ]
+      ],
+      "paperId": "arxiv:2503.07197"
+    },
+    {
+      "id": "ant-veritas-ucas-lei",
+      "company": "蚂蚁集团",
+      "team": "机器智能与检测研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "雷震 · Zhen Lei",
+        "中国科学院自动化研究所研究员、国科大博士生导师。",
+        "https://people.ucas.ac.cn/~zlei"
+      ],
+      "employee": [
+        "王伟强 · Weiqiang Wang",
+        "公开 ORCID 履历列 2015 年起任蚂蚁集团风险及安全部门首席数据科学家；本篇署蚂蚁。",
+        "https://orcid.org/0000-0002-6159-619X"
+      ],
+      "student": [
+        "谭淏 · Hao Tan",
+        "2023 年起在中国科学院自动化所攻读博士，2025 年 3 月起在蚂蚁集团从事 AIGC 检测研究实习。",
+        "https://erictan7.github.io/"
+      ],
+      "title": "Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning",
+      "short": "Veritas",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "视觉与多模态",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/file/6d13e085b79d454da5910e4ca82a3d9d-Paper-Conference.pdf",
+      "evidence": "ICLR 正式版将第一作者在蚂蚁集团实习与本论文研究直接关联。谭淏与校内导师雷震及蚂蚁正式员工王伟强均为同篇作者。",
+      "advising": [
+        "校内博士生共同指导",
+        "谭淏的公开履历列雷震和万军为校内博士导师，雷震的国科大官方档案也列谭淏为现指导博士生。",
+        "https://erictan7.github.io/"
+      ],
+      "extra": [
+        [
+          "蚂蚁集团官方人员介绍",
+          "https://www.antgroup.com/en/technology"
+        ],
+        [
+          "预印本书目",
+          "https://arxiv.org/abs/2508.21048"
+        ]
+      ],
+      "paperId": "arxiv:2508.21048"
+    },
+    {
+      "id": "alibaba-worldenv-sysu-qing-zhang",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴高德视觉技术中心",
+      "title": "World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training",
+      "short": "World-Env",
+      "date": "2025-09",
+      "venue": "arXiv",
+      "area": "具身智能与世界模型",
+      "paper": "https://arxiv.org/html/2509.24948v1",
+      "arxiv": "2509.24948",
+      "evidence": "论文首页把第一作者肖俊锦同时列在中山大学和阿里巴巴高德，并说明研究在高德实习期间完成；高德项目目录收录同一研究。同篇合作者 Yandan Yang 公布其高德正式岗位。中大共同作者张青的学生名录列肖俊锦自 2023 年开始攻读硕士。",
+      "faculty": [
+        "张青 · Qing Zhang",
+        "中山大学计算机学院教师；同篇作者，公开学生名录列肖俊锦。",
+        "https://cse.sysu.edu.cn/teacher/ZhangQing"
+      ],
+      "student": [
+        "肖俊锦 · Junjin Xiao",
+        "研究期间为中山大学在读硕士，在阿里巴巴高德完成本篇研究。",
+        "https://www.zhangqing-home.net/students.html"
+      ],
+      "employee": [
+        "Yandan Yang",
+        "论文署名阿里巴巴高德；本人主页列其为高德视觉技术中心算法工程师，同时列出本篇。",
+        "https://yandanyang.github.io/"
+      ],
+      "advising": [
+        "硕士导师",
+        "张青公开的学生名录具名列肖俊锦为自 2023 年起就读的硕士生。",
+        "https://www.zhangqing-home.net/students.html"
+      ],
+      "extra": [
+        [
+          "企业项目目录",
+          "https://amap-cvlab.github.io/index.zh.html"
+        ],
+        [
+          "校方项目页",
+          "https://isee-laboratory.github.io/world-env.github.io/"
+        ],
+        [
+          "修订版本",
+          "https://arxiv.org/abs/2509.24948"
+        ]
+      ]
     }
   ]
 };
