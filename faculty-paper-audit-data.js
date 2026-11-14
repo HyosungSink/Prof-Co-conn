@@ -54900,7 +54900,7 @@ const facultyPaperAudits = {
   "373vlUEAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://arxiv.org/abs/2610.40133",
       "https://scholars.cityu.edu.hk/en/persons/zhisong-zhang/",
@@ -54964,7 +54964,56 @@ const facultyPaperAudits = {
       "https://aclanthology.org/2025.findings-emnlp.276/",
       "https://aclanthology.org/2025.findings-emnlp.276.pdf",
       "https://arxiv.org/abs/2505.20013",
-      "https://misc-lab.cse.cuhk.edu.hk/people/"
+      "https://misc-lab.cse.cuhk.edu.hk/people/",
+      "https://aclanthology.org/2026.emnlp-main.1513/",
+      "https://aclanthology.org/2026.emnlp-main.1513.pdf",
+      "https://lemaoliu.github.io/",
+      "https://aclanthology.org/2026.aacl-long.35/",
+      "https://aclanthology.org/2026.aacl-long.35.pdf",
+      "https://aclanthology.org/2025.emnlp-main.454/",
+      "https://arxiv.org/abs/2504.21024",
+      "https://aclanthology.org/2025.emnlp-main.454.pdf",
+      "https://aclanthology.org/2025.emnlp-main.235/",
+      "https://aclanthology.org/2025.emnlp-main.235.pdf",
+      "https://aclanthology.org/2025.acl-long.1555/",
+      "https://aclanthology.org/2025.acl-long.1555.pdf",
+      "https://arxiv.org/abs/2411.17691",
+      "https://xo28.github.io/",
+      "https://doi.org/10.1007/s40192-025-00420-7",
+      "https://arxiv.org/abs/2504.03979",
+      "https://www.osti.gov/servlets/purl/3014022",
+      "https://arxiv.org/abs/2406.16377",
+      "https://arxiv.org/html/2406.16377",
+      "https://jcyk.github.io/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf",
+      "https://arxiv.org/html/2406.10248v1",
+      "https://arxiv.org/html/2406.10248v4",
+      "https://web.pkusz.edu.cn/adsp/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E6%88%90%E5%91%98%EF%BC%88team%EF%BC%89/",
+      "https://jcyk.github.io/indexv0.html",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4be7e9867ef163563f4a5e90cec478f-Abstract-Conference.html",
+      "https://arxiv.org/html/2404.10642",
+      "https://papers.neurips.cc/paper_files/paper/2024/file/e4be7e9867ef163563f4a5e90cec478f-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2505.03320",
+      "https://arxiv.org/abs/2504.11788",
+      "https://doi.org/10.52202/085713-0665",
+      "https://orcid.org/0009-0005-2108-1246",
+      "https://aclanthology.org/people/zhisong-zhang/",
+      "https://arxiv.org/abs/2605.15913",
+      "https://arxiv.org/html/2605.15913v1",
+      "https://arxiv.org/pdf/2605.15913v6",
+      "https://www1.se.cuhk.edu.hk/~textmine/",
+      "https://arxiv.org/abs/2607.13474",
+      "https://arxiv.org/html/2607.13474",
+      "https://github.com/zzsfornlp/MyAG",
+      "https://arxiv.org/abs/2603.16453",
+      "https://arxiv.org/html/2603.16453v1",
+      "https://arxiv.org/abs/2606.15862",
+      "https://github.com/linghuazhang01/RetailBench",
+      "https://dblp.dagstuhl.de/pid/174/7415.html",
+      "https://dblp.org/pid/174/7415.html",
+      "https://arxiv.org/abs/2604.07981",
+      "https://lti.cmu.edu/people/alumni/alumni-thesis/zhang-zhisong-thesis.pdf",
+      "https://scholar.google.com/citations?user=373vlUEAAAAJ&hl=en&pagesize=100"
     ],
     "papers": [
       {
@@ -55033,8 +55082,8 @@ const facultyPaperAudits = {
       {
         "title": "UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation",
         "url": "https://aclanthology.org/2025.emnlp-main.1543/",
-        "outcome": "lead",
-        "note": "2025-05-22 首稿、2025 EMNLP；第一作者杨睿涵明确腾讯同篇实习、就读复旦，导师阳德青和腾讯在职黄昕庭均为共同作者。复旦导师的书目行缺 Google 学术（本轮已从 Chrome 定位至 uZdQxkwAAAAJ，待名录补链）。张智松虽在正式版署港城大，实习期为腾讯导师，不是复旦学术导师。",
+        "outcome": "existing",
+        "note": "同篇关系已确认，经学校和作者履历确认复旦博士导师阳德青、学生杨睿涵与腾讯员工黄昕庭。张智松当时为腾讯 AI Lab 作者及企业实习导师；与后来在港城大任教的身份区分。",
         "year": 2025
       },
       {
@@ -55042,7 +55091,7 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.findings-ijcnlp.9/",
         "outcome": "lead",
         "note": "正式首面三位实习者由匕首清楚标注；各属剑桥大学、复旦与港中文。杨睿涵的校内导师阳德青没有此篇署名，港中文 Sen Yang 的具名校内导师也没有列为作者；张智松作为企业通讯署腾讯。",
-        "year": 2025
+        "year": 2024
       },
       {
         "title": "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
@@ -55092,9 +55141,93 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "2025-05-26 首稿与 EMNLP 版同篇，腾讯张智松、Haitao Mi 等同署。港中文 Irwin King 指导第一作者胡敏达，但稿件无胡在腾讯承担此项工作的脚注和企业团队材料。",
         "year": 2025
+      },
+      {
+        "title": "Enhancing Long-Context Reasoning via Verifiable Atomic Skills",
+        "url": "https://aclanthology.org/2026.emnlp-main.1513/",
+        "outcome": "lead",
+        "note": "首版 2026-04-09 arXiv 2604.07981 题为 A Decomposition Perspective to Long-context Reasoning for LLMs；同作者同方法，正式版并作一篇。 正式首面腾讯与复旦双署 Shihan Dou、腾讯与西交双署 Guoliang Zhao，张智松署港城大，末位通讯刘乐茂署复旦。未发现刘或张在校具名指导上述学生、或该学生承担企业具体工作的独立材料。",
+        "year": 2026
+      },
+      {
+        "title": "A Survey of the Training Process of LLM-Based Agents",
+        "url": "https://aclanthology.org/2026.aacl-long.35/",
+        "outcome": "lead",
+        "note": "正式首页张智松署港城大，两名腾讯作者与复旦、上交教授合著。已看文章，未发现范围内在读学生的具名研究与指导。",
+        "year": 2026
+      },
+      {
+        "title": "WebEvolver: Enhancing Web Agent Self-Improvement with Co-evolving World Model",
+        "url": "https://aclanthology.org/2025.emnlp-main.454/",
+        "outcome": "no-evidence",
+        "note": "同篇预印本 2025-04，正式首面七位作者全部署腾讯 AI Lab。Fang 另有港科大学籍历史，但其博士导师不是此篇作者；没有独立的范围内高校导师。",
+        "year": 2025
+      },
+      {
+        "title": "Recall with Reasoning: Chain-of-Thought Distillation for Mamba’s Long-Context Memory and Extrapolation",
+        "url": "https://aclanthology.org/2025.emnlp-main.235/",
+        "outcome": "no-evidence",
+        "note": "正式首面全部六位作者署腾讯 AI Lab，未见同篇范围高校指导教师；公司成员有高校毕业经历不足以纳入。",
+        "year": 2025
+      },
+      {
+        "title": "Low-Bit Quantization Favors Undertrained LLMs",
+        "url": "https://aclanthology.org/2025.acl-long.1555/",
+        "outcome": "no-evidence",
+        "note": "2024-11-26 首稿，正式论文和欧阳旭本人履历均确认他为弗吉尼亚大学博士；脚注给腾讯 AI Lab Seattle 的确切实习，但大学不在范围，且张智松在此篇是腾讯作者。",
+        "year": 2024
+      },
+      {
+        "title": "Text Mining for Process–Structure–Properties Relationships in Metals",
+        "url": "https://doi.org/10.1007/s40192-025-00420-7",
+        "outcome": "no-evidence",
+        "note": "出版社版与 2025-04-04 预印本为同一研究，作者及论文版本确认张智松仅署 Carnegie Mellon University，其他作者署该校或 Lawrence Livermore National Laboratory；没有目标企业或调查高校学生的组合。",
+        "year": 2025
+      },
+      {
+        "title": "On the Transformations across Reward Model, Parameter Update, and In-Context Prompt",
+        "url": "https://arxiv.org/abs/2406.16377",
+        "outcome": "lead",
+        "note": "2024-06-24 预印本；张智松、蔡登等人署腾讯，北大、港中文、人大、清华均有学生作者，但论文未具名哪位承担腾讯项目，同期校内具名导师未同篇署名。刘乐茂该篇属腾讯，不能转用以后高校职务。",
+        "year": 2024
+      },
+      {
+        "title": "On the Worst Prompt Performance of Large Language Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "首版 2024-06-08 已注明腾讯实习并使用曹博文北大学籍邮箱，正式版换用港中文博士身份。北大实际导师邹月娴的实验室2024届硕士名单有曹博文，但该院系未入当前教师名录；港中文论文作者 Wai Lam 的课题组记录 2024 年入学，不足以证明他在北大项目首版前已具港中文在校身份。可确定张智松为企业作者，不以港城大后来的任职补足。",
+        "year": 2024
+      },
+      {
+        "title": "Self-playing Adversarial Language Game Enhances LLM Reasoning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4be7e9867ef163563f4a5e90cec478f-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2024-04-16 首版，同年正式 NeurIPS。具名作者仅含腾讯 AI Lab、腾讯 Robotics X 或独立身份。没有范围高校指导教师及在读学生组合。",
+        "year": 2024
+      },
+      {
+        "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
+        "url": "https://arxiv.org/abs/2605.15913",
+        "outcome": "existing",
+        "note": "同一篇已经以港中文 Wai Lam 指导 Shuaiyi Li 及腾讯企业研究人员的关系上线。张智松作为港城大共同通讯，第一作者的实际博士导师由学校指向 Wai Lam；无新增港城大学生指导或另一校企关系。",
+        "year": 2026
+      },
+      {
+        "title": "MyAG: A Graph-Based Framework for Designing and Analyzing Composable LLM Agent Systems",
+        "url": "https://arxiv.org/abs/2607.13474",
+        "outcome": "no-evidence",
+        "note": "2026-07-15 最早公开，张智松为唯一作者，以港城大计算机系署名；原文和个人代码仓库均为单作者研究。",
+        "year": 2026
+      },
+      {
+        "title": "RetailBench: Benchmarking long horizon reasoning and coherent decision making of LLM agents in realistic retail environments",
+        "url": "https://arxiv.org/abs/2603.16453",
+        "outcome": "lead",
+        "note": "2026-03-17 首稿、07-08 更新；另一 2026-06-14 arXiv 编号是同作者同代码的修订版，只算一篇。第一作者署蚂蚁并管理确切项目仓库；其资料及研究生课业线索指向 Rice，未发现他有范围内同期学籍或港城大陈述的导师身份。原文其他两名作者的单位与公司邮箱排列有歧义，学籍与张智松的具名指导尚缺直接资料，暂不确认。",
+        "year": 2026
       }
     ],
-    "note": "已对照港城大公开书目、正式刊会、作者履历与早期稿，区分港城大教师与腾讯员工时期。不列尚未发表且无该教师早期署名的接收条目。其他作品仍待核对。"
+    "note": "核对港城大档案、作者公开目录、Google 学术完整题录、ORCID、DBLP 及正式出版后，共梳理 30 篇范围内论文。学位论文单列为身份来源；尚无张智松署名的早期稿和超出截止日期的正式卷期不纳入。"
   },
   "uZdQxkwAAAAJ": {
     "from": "2023-01-01",
@@ -55152,5 +55285,92 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核 6 篇，结合复旦公开书目、第一方 Google 学术、学生正式履历和原文。其余作品仍待补查。"
+  },
+  "n7gNlCkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xjtu.edu.cn/mingfan/zh_CN/zhym/995657/list/index.htm",
+      "https://gr.xjtu.edu.cn/mingfan/zh_CN/zdylm/995662/list/index.htm",
+      "https://fanmingxjtu.github.io/",
+      "https://dblp.org/pid/63/6525-2.html",
+      "https://wyinleo.github.io/",
+      "https://pengd.github.io/",
+      "https://api.github.com/orgs/xjtu-intsoft/repos?per_page=100",
+      "https://haoemmanuelwu.github.io/",
+      "https://conf.researchr.org/profile/conf/mingfan1"
+    ],
+    "papers": [
+      {
+        "year": 2025,
+        "title": "RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning",
+        "url": "https://aclanthology.org/2025.emnlp-main.1630.pdf",
+        "outcome": "confirmed",
+        "note": "EMNLP 正式论文首页将星号通讯作者标于范铭，并以单独的匕首脚注明确第一作者王玉在华为技术有限公司实习期间完成此篇研究。范铭的西交校方指导名录具名王玉为联合指导的在读博士生。Yubo Zhang 在本篇及同一研究线其他公开论文持续以华为技术有限公司和同一企业邮箱署名。2025-06 首次预公开与 11 月正式发表认定为同一篇。",
+        "relationIds": [
+          "ragplus-huawei-xjtu-ming-fan"
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "DAIS: Dependency-Aware Intermediate QA Supervision for Complex Reasoning",
+        "url": "https://arxiv.org/pdf/2607.19088v1",
+        "outcome": "existing",
+        "note": "同一导师的博士生王玉，原文首页明确列其在华为实习期间完成；具名华为资深算法专家胡大海同篇，已上线。",
+        "relationIds": [
+          "dais-huawei-xjtu-fan"
+        ]
+      },
+      {
+        "year": 2024,
+        "title": "Strategic Chain-of-Thought: Guiding Accurate Reasoning in LLMs through Strategy Elicitation",
+        "url": "https://arxiv.org/pdf/2409.03271",
+        "outcome": "lead",
+        "note": "2024-09-05 首稿，同篇一作王玉（西交）及范铭与华为 Heyuan Huang、Yubo Zhang 合作；PDF 没有具名实习脚注。RAG+ 与 DAIS 的脚注指向各自项目，未能外推。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "MiniChecker: Detecting Data Privacy Risk of Abusive Permission Request Behavior in Mini-Programs",
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-research/134/MiniChecker-Detecting-Data-Privacy-Risk-of-Abusive-Permission-Request-Behavior-in-Mi",
+        "outcome": "lead",
+        "note": "王寅第一方 https://wyinleo.github.io/ 明载 2019-09–2025-12 西交博士、导师范铭及刘烃、2023-02–2024-02 蚂蚁实习。ASE 原题将 Shijie Li 等四人署蚂蚁；时任蚂蚁 IPE 负责人邸鹏 https://pengd.github.io/ 具名指该文为自己蚂蚁团队成果。GitHub 原始组织索引标此项同名仓库 2023-12-16 已创建（如组织接口快照，不含可归属个人的改动；独立项目入口目前不通）。强线索，但还缺直接写明王寅在蚂蚁实习时做该篇的记录或可归属实质提交。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Skyeye: Detecting Imminent Attacks via Analyzing Adversarial Smart Contracts",
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-research/126/Skyeye-Detecting-Imminent-Attacks-via-Analyzing-Adversarial-Smart-Contracts",
+        "outcome": "lead",
+        "note": "正式会议署西交与蚂蚁。对应企业合作者 Dijun Liu 与三位西交年轻作者，未发现其中有受范铭具体指导的在读者曾于蚂蚁完成这项工作。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "AdvSCanner: Generating Adversarial Smart Contracts to Exploit Reentrancy Vulnerabilities Using LLM and Static Analysis",
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-research/82/AdvSCanner-Generating-Adversarial-Smart-Contracts-to-Exploit-Reentrancy-Vulnerabilit",
+        "outcome": "lead",
+        "note": "西交、SMU、蚂蚁正式合著；Dijun Liu 的企业署名可查，但西交在读作者的实习项目及该项学术指导仍没有相符证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Giving without Notifying: Assessing Compliance of Data Transmission in Android Apps",
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-research/128/Giving-without-Notifying-Assessing-Compliance-of-Data-Transmission-in-Android-Apps",
+        "outcome": "no-evidence",
+        "note": "ASE 正式稿具名西交、南京邮电大学；石吉飞毕业后到华为终端，仅此不证在读时由该公司参与完成这篇。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "移动应用隐私权声明内容合规性检验方法",
+        "url": "https://www.jos.org.cn/jos/article/abstract/7121",
+        "outcome": "no-evidence",
+        "note": "软件学报作者全部西交；致谢包含 CCF-蚂蚁隐私计算专项科研基金但无公司研究人员共同署名，不能用资助代替参与。",
+        "relationIds": []
+      }
+    ],
+    "note": "已核前 8 篇公开论文。RAG+ 与 DAIS 均有华为实习脚注，是两项独立工作；其余公开书目继续核查。"
   }
 };

@@ -45297,6 +45297,59 @@ const survey = {
       ],
       "evidence": "首稿在复旦第一作者杨睿涵名下明确说明论文完成于腾讯混元实习。杨的公开履历同时具名复旦博士导师阳德青和腾讯阶段企业导师 Fanghua Ye，二人均在同篇署名。研究于 2026-02-13 首次公开，与较早的 Lighthouse 方法和论文分开计算。",
       "paperId": "arxiv:2602.12662"
+    },
+    {
+      "id": "ragplus-huawei-xjtu-ming-fan",
+      "paperId": "arxiv:2506.11555",
+      "company": "华为",
+      "team": "华为技术有限公司",
+      "school": "西安交通大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "范铭 · Ming Fan",
+        "西安交通大学网安学院副教授，论文通讯作者，学校指导名录列王玉为联合指导博士生。",
+        "https://faculty.xjtu.edu.cn/mingfan/zh_CN/zhym/995657/list/index.htm"
+      ],
+      "employee": [
+        "Yubo Zhang",
+        "同篇署华为技术有限公司。2024 年首稿至 2026 年的同一研究领域多项独立作品均沿用同一公司署名和企业邮箱。",
+        "https://aclanthology.org/2025.findings-acl.254v2.pdf"
+      ],
+      "student": [
+        "王玉 · Yu Wang",
+        "西交博士生，范铭联合指导。论文首页明确其在华为实习期间完成这篇应用感知检索推理论文。",
+        "https://aclanthology.org/2025.emnlp-main.1630.pdf"
+      ],
+      "title": "RAG+: Enhancing Retrieval-Augmented Generation with Application-Aware Reasoning",
+      "short": "RAG+",
+      "date": "2025-06-13",
+      "venue": "EMNLP 2025",
+      "area": "检索增强生成与知识应用",
+      "paper": "https://aclanthology.org/2025.emnlp-main.1630/",
+      "extra": [
+        [
+          "预印本与版本记录",
+          "https://arxiv.org/abs/2506.11555"
+        ],
+        [
+          "另一项同期华为作者正式记录",
+          "https://arxiv.org/pdf/2601.15296"
+        ],
+        [
+          "校方论文清单",
+          "https://gr.xjtu.edu.cn/mingfan/zh_CN/zdylm/995662/list/index.htm"
+        ],
+        [
+          "正式 PDF 首页团队与实习脚注",
+          "https://aclanthology.org/2025.emnlp-main.1630.pdf"
+        ]
+      ],
+      "evidence": "EMNLP 正式论文首页将星号通讯作者标于范铭，并以单独的匕首脚注明确第一作者王玉在华为技术有限公司实习期间完成此篇研究。范铭的西交校方指导名录具名王玉为联合指导的在读博士生。Yubo Zhang 在本篇及同一研究线其他公开论文持续以华为技术有限公司和同一企业邮箱署名。2025-06 首次预公开与 11 月正式发表认定为同一篇。",
+      "advising": [
+        "校内共同导师",
+        "范铭的西交教师主页在读博士生栏明确列名王玉为联合指导。",
+        "https://faculty.xjtu.edu.cn/mingfan/zh_CN/zhym/995657/list/index.htm"
+      ]
     }
   ]
 };
