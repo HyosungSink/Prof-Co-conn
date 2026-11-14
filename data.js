@@ -30460,6 +30460,415 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2605.20035"
+    },
+    {
+      "id": "abot-m0-alibaba-xjtu-4wirkacaaaaj",
+      "paperId": "arxiv:2602.11236",
+      "company": "阿里巴巴",
+      "team": "高德视觉实验室",
+      "school": "西安交通大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "魏星 · Xing Wei",
+        "西安交大副教授；高德同篇技术报告贡献章节具名列其为研究项目指导教师。",
+        "https://gr.xjtu.edu.cn/weixing/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Yandan Yang",
+        "本人履历具名列为高德地图视觉实验室正式算法工程师，上一职位于 2025 年结束；本人项目栏列出本篇和对应贡献，原文也具名。",
+        "https://yandanyang.github.io/"
+      ],
+      "student": [
+        "曾爽 · Shuang Zeng",
+        "西安交大 2024 级人工智能硕士曾爽在读期间，参与高德实验室这项研究。原文贡献章节具名记录他构建数据流程、模型结构、训练、评估及撰稿；公司官方项目库与第一作者履历互证同篇成果。",
+        "https://github.com/missTL"
+      ],
+      "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+      "short": "ABot-M0",
+      "date": "2026-02",
+      "venue": "高德视觉实验室技术报告",
+      "area": "机器人与具身智能",
+      "paper": "https://arxiv.org/pdf/2602.11236",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2602.11236"
+        ],
+        [
+          "高德团队官方成果库",
+          "https://github.com/amap-cvlab/ABot-Manipulation"
+        ],
+        [
+          "西安交通大学人工智能学院 2024 级硕士名单",
+          "https://www.aiar.xjtu.edu.cn/yjspy/info/1004/1112.htm"
+        ],
+        [
+          "曾爽在同一合作期的高德实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/3812c3c803e986eca64000fe92467991-Paper-Conference.pdf"
+        ]
+      ],
+      "evidence": "西安交大 2024 级人工智能硕士曾爽在读期间，参与高德实验室这项研究。原文贡献章节具名记录他构建数据流程、模型结构、训练、评估及撰稿；公司官方项目库与第一作者履历互证同篇成果。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "高德技术报告同篇贡献章节具名列魏星为该项目指导教师、曾爽为具名研究参与人；魏星在同期担任西交软件学院副教授。这里据原文记录校内老师的项目指导角色，不把它表述为学位导师。",
+        "https://arxiv.org/html/2602.11236"
+      ]
+    },
+    {
+      "id": "abot-physworld-alibaba-xjtu-4wirkacaaaaj",
+      "paperId": "arxiv:2603.23376",
+      "company": "阿里巴巴",
+      "team": "高德视觉实验室",
+      "school": "西安交通大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "魏星 · Xing Wei",
+        "西安交大副教授；高德同篇技术报告贡献章节具名列其为研究项目指导教师。",
+        "https://gr.xjtu.edu.cn/weixing/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Yandan Yang",
+        "本人履历具名列为高德地图视觉实验室正式算法工程师，上一职位于 2025 年结束；本人项目栏列出本篇和对应贡献，原文也具名。",
+        "https://yandanyang.github.io/"
+      ],
+      "student": [
+        "曾爽 · Shuang Zeng",
+        "西安交大 2024 级人工智能硕士曾爽在读期间，参与高德实验室这项研究。原文贡献章节具名记录他参与机器人操作数据整理；公司官方项目库与第一作者履历互证同篇成果。",
+        "https://github.com/missTL"
+      ],
+      "title": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment",
+      "short": "ABot-PhysWorld",
+      "date": "2026-03",
+      "venue": "高德视觉实验室技术报告",
+      "area": "机器人与具身智能",
+      "paper": "https://arxiv.org/pdf/2603.23376",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.23376"
+        ],
+        [
+          "高德团队官方成果库",
+          "https://github.com/amap-cvlab/ABot-PhysWorld"
+        ],
+        [
+          "西安交通大学人工智能学院 2024 级硕士名单",
+          "https://www.aiar.xjtu.edu.cn/yjspy/info/1004/1112.htm"
+        ],
+        [
+          "曾爽在同一合作期的高德实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/3812c3c803e986eca64000fe92467991-Paper-Conference.pdf"
+        ]
+      ],
+      "evidence": "西安交大 2024 级人工智能硕士曾爽在读期间，参与高德实验室这项研究。原文贡献章节具名记录他参与机器人操作数据整理；公司官方项目库与第一作者履历互证同篇成果。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "高德技术报告同篇贡献章节具名列魏星为该项目指导教师、曾爽为具名研究参与人；魏星在同期担任西交软件学院副教授。这里据原文记录校内老师的项目指导角色，不把它表述为学位导师。",
+        "https://arxiv.org/html/2603.23376"
+      ]
+    },
+    {
+      "id": "huawei-hierrec-cityu-xiangyu-zhao",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Jingtong Gao",
+        "港城大在读博士及共同第一作者，2022 年至 2024 年 6 月在华为研究实习。",
+        "https://gaojingtong.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学校学位论文记录或该生公开履历明确列赵翔宇为博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/open-world-recommendation-knowledge-transfer-scenario-adaptation-/"
+      ],
+      "employee": [
+        "Huifeng Guo",
+        "同篇署华为；同期公开会议教程列为华为诺亚方舟研究人员并注明企业邮件。",
+        "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf"
+      ],
+      "title": "HierRec: Scenario-Aware Hierarchical Modeling for Multi-scenario Recommendations",
+      "short": "HierRec",
+      "date": "2024-10",
+      "venue": "CIKM 2024",
+      "area": "推荐系统",
+      "paper": "https://doi.org/10.1145/3627673.3679615",
+      "extra": [
+        [
+          "该论文原文",
+          "https://arxiv.org/abs/2309.02061"
+        ]
+      ],
+      "evidence": "2023 年的第一版预印本与华为实习时间重叠。港城大博士论文逐项指明 HierRec 是在华为广告推荐平台部署的该生研究，原文与作者履历可交叉验证。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
+    },
+    {
+      "id": "huawei-samplellm-cityu-xiangyu-zhao",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Jingtong Gao",
+        "港城大博士生、论文共同第一作者，博士论文与本人项目列表指出这一具体研究成果上线于华为 AppGallery。",
+        "https://gaojingtong.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学校学位论文记录或该生公开履历明确列赵翔宇为博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/open-world-recommendation-knowledge-transfer-scenario-adaptation-/"
+      ],
+      "employee": [
+        "Huifeng Guo",
+        "同篇署华为；同期公开会议教程列为华为诺亚方舟研究人员并注明企业邮件。",
+        "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf"
+      ],
+      "title": "SampleLLM: Optimizing Tabular Data Synthesis in Recommendations",
+      "short": "SampleLLM",
+      "date": "2025-04",
+      "venue": "The Web Conference 2025",
+      "area": "推荐系统",
+      "paper": "https://doi.org/10.1145/3701716.3715253",
+      "extra": [
+        [
+          "该论文原文",
+          "https://arxiv.org/html/2501.16125v1"
+        ]
+      ],
+      "evidence": "博士论文把 SampleLLM 明确列为学生研究贡献，并记载华为 AppGallery 在线实验和部署；论文同篇报告在华为应用推荐系统做 A/B 实验。刊发于此前华为实习结束之后。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
+    },
+    {
+      "id": "huawei-llmtreerec-cityu-xiangyu-zhao",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学教师，论文共同作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "student": [
+        "Wenlin Zhang",
+        "2023 年 9 月起在港城大读博，公开主页记录华为诺亚方舟研究实习；是这项华为推荐系统研发论文的第一作者。",
+        "https://wlzhang2020.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学校学位论文记录或该生公开履历明确列赵翔宇为博士导师。",
+        "https://wlzhang2020.github.io/"
+      ],
+      "employee": [
+        "Huifeng Guo",
+        "同篇署华为；同期公开会议教程列为华为诺亚方舟研究人员并注明企业邮件。",
+        "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf"
+      ],
+      "title": "LLMTreeRec: Unleashing the Power of Large Language Models for Cold-Start Recommendations",
+      "short": "LLMTreeRec",
+      "date": "2025-01",
+      "venue": "COLING 2025",
+      "area": "推荐系统",
+      "paper": "https://aclanthology.org/2025.coling-main.59/",
+      "extra": [
+        [
+          "该论文原文",
+          "https://aclanthology.org/2025.coling-main.59.pdf"
+        ]
+      ],
+      "evidence": "正式论文由第一作者描述在华为系统进行该算法的具名在线 A/B 实验并完成实际部署。学生主页给出入学时间、具名博士导师和华为科研实习。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
+    },
+    {
+      "id": "tencent-skillrubric-hku-difan-zou",
+      "company": "腾讯",
+      "team": "微信",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "鄒荻凡 · Difan Zou",
+        "香港大学计算与数据科学学院助理教授，论文通讯作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/dzou"
+      ],
+      "student": [
+        "Bingqing Jiang",
+        "香港大学在读博士、并列第一作者；原始论文在姓名处明确写明本人在微信实习期间完成这项研究。",
+        "https://arxiv.org/pdf/2609.34557v1"
+      ],
+      "advising": [
+        "博士导师",
+        "鄒荻凡在其主页 2025 年 9 月具名公布 Bingqing Jiang 加入为博士生。",
+        "https://difanzou.github.io/"
+      ],
+      "employee": [
+        "王炳宁 · Bingning Wang",
+        "腾讯微信搜索应用部门 AI 负责人，论文标记为此项目的负责人。",
+        "https://bingning.wang/"
+      ],
+      "title": "SkillRubric: Co-Evolving Actor Guidance and Evaluator Rubrics for Multimodal Agents",
+      "short": "SkillRubric",
+      "date": "2026-09",
+      "venue": "arXiv 预印本",
+      "area": "多模态智能体 · 强化学习",
+      "paper": "https://arxiv.org/abs/2609.34557",
+      "extra": [
+        [
+          "具名实习和企业课题负责脚注",
+          "https://arxiv.org/pdf/2609.34557v1"
+        ]
+      ],
+      "evidence": "论文第一作者 Bingqing Jiang 同署香港大学与腾讯微信，在原文作者姓名处独立标注为微信实习成果。香港大学鄒荻凡具名所列博士生与第一作者吻合，鄒荻凡同篇通讯。微信正式研究负责人王炳宁同篇被标记为项目负责人，并有独立任职履历。"
+    },
+    {
+      "id": "bytedance-abdpo-ucas-wang",
+      "company": "字节跳动",
+      "team": "ByteDance Research",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。",
+        "https://people.ucas.edu.cn/~wangliang"
+      ],
+      "employee": [
+        "郑在翔 · Zaixiang Zheng",
+        "2021 年 7 月起在字节跳动担任研究科学家，正式论文署 ByteDance Research。",
+        "https://zhengzx-nlp.github.io/"
+      ],
+      "student": [
+        "周相鑫 · Xiangxin Zhou",
+        "在中国科学院自动化研究所和中国科学院大学攻读博士，2026 年获学位；论文明确研究在其字节跳动实习期间开展。",
+        "https://zhouxiangxin1998.github.io/"
+      ],
+      "title": "Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization",
+      "short": "AbDPO",
+      "date": "2024-12",
+      "venue": "NeurIPS",
+      "area": "科学智能",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/daef77101ba5711084a57442c8cf2709-Paper-Conference.pdf",
+      "evidence": "NeurIPS 正式稿首页明确将周相鑫列为在字节跳动开展本研究的实习生。王亮和时任字节研究科学家郑在翔均为同篇作者。",
+      "advising": [
+        "校内博士导师",
+        "周相鑫本人主页明确表示在中国科学院自动化所及中国科学院大学攻读博士时由王亮指导。国科大学者档案可核其中文姓名。",
+        "https://zhouxiangxin1998.github.io/"
+      ],
+      "extra": [
+        [
+          "会议论文页",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/daef77101ba5711084a57442c8cf2709-Abstract-Conference.html"
+        ],
+        [
+          "国科大指导页：中文姓名",
+          "https://people.ucas.edu.cn/~qiangliu"
+        ]
+      ],
+      "paperId": "arxiv:2403.16576"
+    },
+    {
+      "id": "bytedance-decompopt-ucas-wang",
+      "company": "字节跳动",
+      "team": "ByteDance Research",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。",
+        "https://people.ucas.edu.cn/~wangliang"
+      ],
+      "employee": [
+        "鲍宇 · Yu Bao",
+        "2022 年获博士学位后在字节跳动从事研究；其原企业导师记录他由实习转为正式员工。两篇原文均署 ByteDance Research。",
+        "https://baoy-nlp.github.io/"
+      ],
+      "student": [
+        "周相鑫 · Xiangxin Zhou",
+        "在中国科学院自动化研究所和中国科学院大学攻读博士，2026 年获学位；论文明确研究在其字节跳动实习期间开展。",
+        "https://zhouxiangxin1998.github.io/"
+      ],
+      "title": "DecompOpt: Controllable and Decomposed Diffusion Models for Structure-Based Molecular Optimization",
+      "short": "DecompOpt",
+      "date": "2024-05",
+      "venue": "ICLR",
+      "area": "科学智能",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/180f6184a3458fa19c28c5483bc61877-Paper-Conference.pdf",
+      "evidence": "正式稿及预印本均具名说明周相鑫在字节跳动实习期间完成这项研究，王亮和字节跳动研究员鲍宇同篇署名。",
+      "advising": [
+        "校内博士导师",
+        "周相鑫本人主页明确表示在中国科学院自动化所及中国科学院大学攻读博士时由王亮指导。国科大学者档案可核其中文姓名。",
+        "https://zhouxiangxin1998.github.io/"
+      ],
+      "extra": [
+        [
+          "预印本具名实习脚注",
+          "https://arxiv.org/html/2403.13829v1"
+        ],
+        [
+          "企业导师跨期记载鲍宇转正式员工",
+          "https://zhouh.github.io/students.html"
+        ],
+        [
+          "国科大指导页：中文姓名",
+          "https://people.ucas.edu.cn/~qiangliu"
+        ]
+      ],
+      "paperId": "arxiv:2403.13829"
+    },
+    {
+      "id": "bytedance-decompdiff-ucas-wang",
+      "company": "字节跳动",
+      "team": "ByteDance Research",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。",
+        "https://people.ucas.edu.cn/~wangliang"
+      ],
+      "employee": [
+        "鲍宇 · Yu Bao",
+        "2022 年获博士学位后在字节跳动从事研究；其原企业导师记录他由实习转为正式员工。两篇原文均署 ByteDance Research。",
+        "https://baoy-nlp.github.io/"
+      ],
+      "student": [
+        "周相鑫 · Xiangxin Zhou",
+        "在中国科学院自动化研究所和中国科学院大学攻读博士，2026 年获学位；论文明确研究在其字节跳动实习期间开展。",
+        "https://zhouxiangxin1998.github.io/"
+      ],
+      "title": "DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design",
+      "short": "DecompDiff",
+      "date": "2023-07",
+      "venue": "ICML",
+      "area": "科学智能",
+      "paper": "https://proceedings.mlr.press/v202/guan23a/guan23a.pdf",
+      "evidence": "PMLR 正式稿首页具名说明本篇研究在周相鑫和贾启的字节跳动实习期间开展。此条采周相鑫的校内导师王亮及正式企业员工鲍宇为同篇关系。",
+      "advising": [
+        "校内博士导师",
+        "周相鑫本人主页明确表示在中国科学院自动化所及中国科学院大学攻读博士时由王亮指导。国科大学者档案可核其中文姓名。",
+        "https://zhouxiangxin1998.github.io/"
+      ],
+      "extra": [
+        [
+          "字节跳动官方项目",
+          "https://github.com/bytedance/DecompDiff"
+        ],
+        [
+          "企业导师跨期记载鲍宇转正式员工",
+          "https://zhouh.github.io/students.html"
+        ],
+        [
+          "国科大指导页：中文姓名",
+          "https://people.ucas.edu.cn/~qiangliu"
+        ]
+      ],
+      "paperId": "arxiv:2403.07902"
     }
   ]
 };

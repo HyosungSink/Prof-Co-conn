@@ -258,7 +258,14 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2510.07842",
       "https://jypeng28.github.io/files/CV_jypeng.pdf",
       "https://jypeng28.github.io/",
-      "https://arxiv.org/pdf/2510.07842"
+      "https://arxiv.org/pdf/2510.07842",
+      "https://doi.org/10.1145/3627673.3679615",
+      "https://arxiv.org/abs/2309.02061",
+      "https://doi.org/10.1145/3701716.3715253",
+      "https://arxiv.org/html/2501.16125v1",
+      "https://aclanthology.org/2025.coling-main.59/",
+      "https://wlzhang2020.github.io/",
+      "https://aclanthology.org/2025.coling-main.59.pdf"
     ],
     "papers": [
       {
@@ -404,6 +411,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2510.07842",
         "outcome": "confirmed",
         "note": "正式预印本第一作者以港城大、中科大、百度署名；其个人主页注明港城大指导老师为赵翔宇，企业履历所列蒸馏技术与该论文一致。 赵翔宇同篇通讯，与同一论文中列明的百度搜索研究人员王帅强分别对应高校指导和企业正式任职。"
+      },
+      {
+        "title": "HierRec: Scenario-Aware Hierarchical Modeling for Multi-scenario Recommendations",
+        "url": "https://doi.org/10.1145/3627673.3679615",
+        "outcome": "confirmed",
+        "note": "2023 年的第一版预印本与华为实习时间重叠。港城大博士论文逐项指明 HierRec 是在华为广告推荐平台部署的该生研究，原文与作者履历可交叉验证。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
+      },
+      {
+        "title": "SampleLLM: Optimizing Tabular Data Synthesis in Recommendations",
+        "url": "https://doi.org/10.1145/3701716.3715253",
+        "outcome": "confirmed",
+        "note": "博士论文把 SampleLLM 明确列为学生研究贡献，并记载华为 AppGallery 在线实验和部署；论文同篇报告在华为应用推荐系统做 A/B 实验。刊发于此前华为实习结束之后。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
+      },
+      {
+        "title": "LLMTreeRec: Unleashing the Power of Large Language Models for Cold-Start Recommendations",
+        "url": "https://aclanthology.org/2025.coling-main.59/",
+        "outcome": "confirmed",
+        "note": "正式论文由第一作者描述在华为系统进行该算法的具名在线 A/B 实验并完成实际部署。学生主页给出入学时间、具名博士导师和华为科研实习。 博士导师赵翔宇与华为研究人员 Huifeng Guo 均同篇署名。"
       }
     ]
   },
@@ -9189,8 +9214,126 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2305.05880v1",
         "outcome": "lead",
         "note": "可核腾讯作者和人大博士生，但预印本未说明博士生以企业项目成员参与该篇。"
+      },
+      {
+        "title": "SAVE: Speech-Aware Video Representation Learning for Video-Text Retrieval",
+        "url": "https://github.com/ruc-aimc-lab/SAVE",
+        "outcome": "no-evidence",
+        "note": "由学生本人的出版书目及 CVPR 作者名单核对；该项未列明目标企业作者。"
       }
     ],
     "note": "已核查教师自列书目中与多模态校企合作相关的一组论文，并对照实验室学生履历；仍需检查其余作品。"
+  },
+  "4WirkacAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gr.xjtu.edu.cn/weixing/zh_CN/index.htm",
+      "https://github.com/missTL",
+      "https://arxiv.org/html/2602.11236",
+      "https://arxiv.org/html/2603.23376"
+    ],
+    "papers": [
+      {
+        "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+        "url": "https://arxiv.org/pdf/2602.11236",
+        "outcome": "confirmed",
+        "note": "西安交大 2024 级人工智能硕士曾爽在读期间，参与高德实验室这项研究。原文贡献章节具名记录他构建数据流程、模型结构、训练、评估及撰稿；公司官方项目库与第一作者履历互证同篇成果。"
+      },
+      {
+        "title": "ABot-PhysWorld: Interactive World Foundation Model for Robotic Manipulation with Physics Alignment",
+        "url": "https://arxiv.org/pdf/2603.23376",
+        "outcome": "confirmed",
+        "note": "西安交大 2024 级人工智能硕士曾爽在读期间，参与高德实验室这项研究。原文贡献章节具名记录他参与机器人操作数据整理；公司官方项目库与第一作者履历互证同篇成果。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "Cp4fcTQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2609.34557",
+      "https://arxiv.org/pdf/2609.34557v1",
+      "https://difanzou.github.io/",
+      "https://bingning.wang/",
+      "https://www.ai.hku.hk/index.php/people/academic-staff/dzou"
+    ],
+    "papers": [
+      {
+        "title": "SkillRubric: Co-Evolving Actor Guidance and Evaluator Rubrics for Multimodal Agents",
+        "url": "https://arxiv.org/abs/2609.34557",
+        "outcome": "confirmed",
+        "note": "论文第一作者 Bingqing Jiang 同署香港大学与腾讯微信，在原文作者姓名处独立标注为微信实习成果。香港大学鄒荻凡具名所列博士生与第一作者吻合，鄒荻凡同篇通讯。微信正式研究负责人王炳宁同篇被标记为项目负责人，并有独立任职履历。"
+      }
+    ]
+  },
+  "MJ7X-bAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2609.34557",
+      "https://difanzou.github.io/",
+      "https://arxiv.org/pdf/2609.34557v1",
+      "https://bingning.wang/"
+    ],
+    "papers": [
+      {
+        "title": "SkillRubric: Co-Evolving Actor Guidance and Evaluator Rubrics for Multimodal Agents",
+        "url": "https://arxiv.org/abs/2609.34557",
+        "outcome": "existing",
+        "note": "同篇已按证据确认香港大学鄒荻凡指导第一作者的关系；港城大合作者马梓业未见具名指导该论文的企业实习生，归属仍为香港大学。"
+      }
+    ]
+  },
+  "8kzzUboAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.edu.cn/~wangliang",
+      "https://zhouxiangxin1998.github.io/",
+      "https://zhengzx-nlp.github.io/",
+      "https://baoy-nlp.github.io/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/daef77101ba5711084a57442c8cf2709-Paper-Conference.pdf",
+      "https://proceedings.iclr.cc/paper_files/paper/2024/file/180f6184a3458fa19c28c5483bc61877-Paper-Conference.pdf",
+      "https://proceedings.mlr.press/v202/guan23a/guan23a.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/daef77101ba5711084a57442c8cf2709-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式稿首页明确将周相鑫列为在字节跳动开展本研究的实习生。王亮和时任字节研究科学家郑在翔均为同篇作者。"
+      },
+      {
+        "title": "DecompOpt: Controllable and Decomposed Diffusion Models for Structure-Based Molecular Optimization",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/180f6184a3458fa19c28c5483bc61877-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "正式稿及预印本均具名说明周相鑫在字节跳动实习期间完成这项研究，王亮和字节跳动研究员鲍宇同篇署名。"
+      },
+      {
+        "title": "DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design",
+        "url": "https://proceedings.mlr.press/v202/guan23a/guan23a.pdf",
+        "outcome": "confirmed",
+        "note": "PMLR 正式稿首页具名说明本篇研究在周相鑫和贾启的字节跳动实习期间开展。此条采周相鑫的校内导师王亮及正式企业员工鲍宇为同篇关系。"
+      },
+      {
+        "title": "Decomposed Direct Preference Optimization for Structure-Based Drug Design",
+        "url": "https://arxiv.org/html/2407.13981v1",
+        "outcome": "no-evidence",
+        "note": "原文具名仍在字节实习，但本篇未署王亮，不能沿用相近课题关系。"
+      },
+      {
+        "title": "Investigating Compositional Challenges in Vision-Language Models for Visual Grounding",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_Investigating_Compositional_Challenges_in_Vision-Language_Models_for_Visual_Grounding_CVPR_2024_paper.html",
+        "outcome": "lead",
+        "note": "曾宇楠的美团实习由原文具名；国科大两位同篇作者黄岩、王亮的直接指导未核到。"
+      }
+    ],
+    "note": "已按公开书目查过一批论文和学生相关正式会议，还未全面覆盖。"
   }
 };
