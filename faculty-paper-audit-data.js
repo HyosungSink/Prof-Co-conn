@@ -42016,7 +42016,9 @@ const facultyPaperAudits = {
       "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_21",
       "https://synps26.github.io/",
       "https://wfanyue.github.io/",
-      "https://zhenyangli.github.io/"
+      "https://zhenyangli.github.io/",
+      "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21506?yxsh=28",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/27958"
     ],
     "papers": [
       {
@@ -42179,6 +42181,62 @@ const facultyPaperAudits = {
         "year": 2024,
         "note": "同篇百度共同作者为魏凡越具名的百度实习指导者；学生履历列李文与段立新为共同导师。两位教师均在现有关系索引中，共用一条论文关系。",
         "outcome": "existing"
+      },
+      {
+        "year": 2026,
+        "title": "Dynamic Logits Adjustment and Exploration for Test-Time Adaptation in Vision Language Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Dynamic_Logits_Adjustment_and_Exploration_for_Test-Time_Adaptation_in_Vision_CVPR_2026_paper.pdf",
+        "note": "CVPR 正式原文列电子科技大学及四川大学为作者单位，无范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "LidarGait++: Learning Local Features and Size Awareness from LiDAR Point Clouds for 3D Gait Recognition",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shen_LidarGait_Learning_Local_Features_and_Size_Awareness_from_LiDAR_Point_CVPR_2025_paper.pdf",
+        "note": "CVPR 2025 正式原文列电子科技大学与南方科技大学；不同于 CVPR 2023 的 LidarGait 论文。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "SSR: SAM is a Strong Regularizer for domain adaptive semantic segmentation",
+        "url": "https://arxiv.org/html/2401.14686v1",
+        "note": "四位作者均署电子科技大学深圳高等研究院，未见范围内企业；与 IEEE CAI 同题同作者的正式版归并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Collaborative Group-Aware Hashing for Fast Recommender Systems",
+        "url": "https://arxiv.org/html/2512.20172v1",
+        "note": "作者机构包括电子科技大学、Charles Darwin University、A*STAR 和南洋理工大学；无范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Coherence-guided Preference Disentanglement for Cross-domain Recommendations",
+        "url": "https://arxiv.org/html/2410.20580v1",
+        "note": "原文只列电子科技大学、Charles Darwin University、昆士兰大学和 A*STAR。ACM 同一工作 DOI 10.1145/3742855。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "CARD: Semantic Segmentation with Efficient Class-Aware Regularized Decoder",
+        "url": "https://arxiv.org/html/2301.04258v1",
+        "note": "腾讯 AI Lab 作者与电子科技大学同篇；黄野的校方履历显示他已于 2022 年底转任博士后，此前腾讯实习隶属悉尼科技大学博士阶段。未查到范围内在读学生参与同篇项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "HFGD: High-level Feature Guided Decoder for Semantic Segmentation",
+        "url": "https://arxiv.org/html/2303.08646v1",
+        "note": "腾讯 AI Lab 的 Di Kang 同篇署名；第一作者黄野此时是电子科技大学博士后，论文及校方履历未提供范围内在读学生参加同篇项目的证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Beyond Prototypes: Semantic Anchor Regularization for Better Representation Learning",
+        "url": "https://arxiv.org/html/2312.11872v1",
+        "note": "AAAI 同作列多位腾讯优图作者，课题组公开葛彦齐为 2021–2024 硕士及毕业去向腾讯；未核实其在读期间参与同一腾讯项目及具体学术导师，保留线索。",
+        "outcome": "lead"
       }
     ],
     "note": "以电子科技大学研究生导师目录、课题组主页和出版社作者身份交叉核对，再逐篇查看正式版、原文或会议的完整作者栏。本批只覆盖已直接核对的作品。"
@@ -42241,6 +42299,41 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Peng_Mitigating_Object_Hallucinations_via_Sentence-Level_Early_Intervention_ICCV_2025_paper.html",
         "outcome": "no-evidence",
         "note": "ICCV 官方与 2507.12455。同组作者全部署哈工大／港中文等高校，初稿早于 Shangpin Peng 所列腾讯实习 2025-08，且无公司作者。"
+      },
+      {
+        "year": 2026,
+        "title": "AgentSteerTTS: A Multi-Agent Closed-Loop Framework for Composite-Instruction Text-to-Speech",
+        "url": "https://proceedings.mlr.press/v306/kang26p.html",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "year": 2026,
+        "title": "DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling",
+        "url": "https://arxiv.org/abs/2606.07108",
+        "outcome": "lead",
+        "note": "ICML 2026 作者书目的 Evolving Contextual Modeling 与正式公开文本题名互验。原文明确同篇华为诺亚 Hui-Ling Zhen，但首两位哈工大作者未获此项在华为实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient Reasoning with Balanced Thinking",
+        "url": "https://arxiv.org/abs/2603.12372",
+        "outcome": "lead",
+        "note": "ICLR 正式及 ReBalance 公开版，华为同篇人员 Yixin Chen 和 Hui-Ling Zhen；本项不能沿用其他论文的华为学生实习。"
+      },
+      {
+        "year": 2026,
+        "title": "LongHorizonUI: A Unified Framework for Robust Long-Horizon Task Automation of GUI Agent",
+        "url": "https://openreview.net/forum?id=BK7Mk5d4WE",
+        "outcome": "lead",
+        "note": "项目发布页和 ICLR 正式同篇。康斌在读、田倬韬导师、2025-03–2026-02 腾讯实习；王君乐是腾讯图灵正式负责人。但康斌本人在本篇仅署中国科学院大学等学校，第三作者 Yifei Bi 本人公开说 2025 年起腾讯做 GUI 实习却为佐治亚理工在读；有核实腾讯项目，尚需康斌同项目企业参与，不能合并两位学生事实。"
+      },
+      {
+        "year": 2025,
+        "title": "CalibCLIP: Contextual Calibration of Dominant Semantics for Text-Driven Image Retrieval",
+        "url": "https://doi.org/10.1145/3746027.3755765",
+        "outcome": "lead",
+        "note": "ACM 正式全名单包含腾讯正式研究人员王君乐（arXiv 2510.05586 删去了这一作者），在读康斌本人记载实习期与公开时间相合、其导师田倬韬学校通信。正式首页康斌却只署中科院和国科大，仍缺本项目在腾讯具名实研材料。"
       }
     ],
     "note": "先查个人公开代表作与最强校企候选，逐篇核对公式出处、作者及具名学生关系；其余仍在梳理。"
@@ -42258,7 +42351,14 @@ const facultyPaperAudits = {
       "https://zhijiangtang.github.io/publications/",
       "https://simpleshinobu.github.io/",
       "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Tang_CCCaption_Dual-Reward_Reinforcement_CVPR_2026_supplemental.pdf",
-      "https://wands.hk/papers/SIGMOD_23_1.pdf"
+      "https://wands.hk/papers/SIGMOD_23_1.pdf",
+      "https://simpleshinobu.github.io/publications/",
+      "https://api.crossref.org/works/10.1145/3577033",
+      "https://api.crossref.org/works/10.1145/3580521",
+      "https://pdxscholar.library.pdx.edu/compsci_fac/359/",
+      "https://qiaoziyue.com/",
+      "https://juweipku.github.io/files/PR24-GraphSpa.pdf",
+      "https://jhc.sjtu.edu.cn/~bjiang/"
     ],
     "papers": [
       {
@@ -42294,7 +42394,7 @@ const facultyPaperAudits = {
         "title": "SymFold: Synergizing Evolutionary and Structural Priors for Accurate Protein Inverse Folding",
         "url": "https://arxiv.org/pdf/2609.01353",
         "outcome": "no-evidence",
-        "note": "作者手稿首页四人署网络信息中心、国科大。黄建强与赖佰生过去的阿里合作不能推作此篇的企业参与。"
+        "note": "作者手稿首页四人署网络信息中心、国科大。黄建强与赖佰生过去的阿里合作不能推作此篇的企业参与。 OpenReview 早期匿名稿 Symmetric Dual-Path Integration for Protein Inverse Folding 三要素一致，不另计。"
       },
       {
         "year": 2026,
@@ -42377,8 +42477,8 @@ const facultyPaperAudits = {
         "year": 2024,
         "title": "Networked Time-series Prediction with Incomplete Data via Generative Adversarial Network",
         "url": "https://doi.org/10.1145/3643822",
-        "outcome": "no-evidence",
-        "note": "正式 ACM 卷期 2024；与 2021 初稿合并。黄建强以阿里达摩院身份署名，交大作者及其导师角色应作为另一条线索核查，不能算黄建强以国科大教师身份指导本篇。"
+        "outcome": "lead",
+        "note": "ACM 2024 卷期与 2021 初稿合并。黄建强原文署阿里达摩院；蒋博的交大主页确认曾指导同篇博士 Yichen Zhu（2025 毕业去华为），暂未发现该生在阿里参与这项具体研究。故黄建强不能列为国科大导师，另记交大候选。"
       },
       {
         "year": 2023,
@@ -42400,9 +42500,44 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1016/j.patcog.2022.109068",
         "outcome": "no-evidence",
         "note": "Elsevier 正式 2023 卷期，作者所在新加坡管理大学档案确认黄建强署阿里。未发现他以国科大在职教师指导同篇作者在阿里完成本项。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Universal Gene Regulatory Network Inference: Unlocking Generalizable Regulatory Knowledge in Single-cell Foundation Models",
+        "url": "https://proceedings.mlr.press/v306/qi26h.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式版作者署网络信息中心、国科大与杭州高等研究院，未见范围企业。与同组 11 月的 Bridging Graph 虽五位作者重合，前者研究单细胞基础模型的零样本泛化，后者用图与配对模型；按独立方法分列。"
+      },
+      {
+        "year": 2026,
+        "title": "Intrinsic Gradient Suppression for Label-Noise Prompt Tuning in Vision–Language Models",
+        "url": "https://proceedings.mlr.press/v306/li26er.html",
+        "outcome": "no-evidence",
+        "note": "ICML 定稿纠正早稿 Jianqiang 的拼写，可由同篇 CNIC 署名核身份。作者机构为浙大、同济、网络信息中心与国科大，没有范围内企业；合并 arXiv:2605.00591。"
+      },
+      {
+        "year": 2026,
+        "title": "Experience is the Best Teacher: Motivating Effective Exploration in Reinforcement Learning for LLMs",
+        "url": "https://proceedings.mlr.press/v306/zhang26io.html",
+        "outcome": "no-evidence",
+        "note": "正式 PDF 载网络信息中心、国科大及浙江大学。使用阿里 Qwen2.5 进行比较，与作者在阿里承担此篇研究不同。合并 arXiv:2603.20046。"
+      },
+      {
+        "year": 2024,
+        "title": "A Dual-channel Semi-supervised Learning Framework on Graphs via Knowledge Transfer and Meta-learning",
+        "url": "https://doi.org/10.1145/3577033",
+        "outcome": "lead",
+        "note": "ACM 向 Crossref 登记黄建强与华先胜署阿里，另有周园春、杜一同篇。乔子越本人确认师从后二人及曾在阿里实习，2022 已获博士学位、论文 2024 定稿；仍缺这篇从在读期阿里实习产出的直接证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Deep Adaptive Graph Clustering via von Mises-Fisher Distributions",
+        "url": "https://doi.org/10.1145/3580521",
+        "outcome": "lead",
+        "note": "ACM 登记吴大庆双署北大、阿里达摩院，阿里作者陈冲、黄建强、华先胜同篇。吴大庆另一篇 2021 年论文明确实习，现未查到本项具体校内指导（不能把合作导师或其他论文带入）与该实习延续。黄建强在本篇为企业作者。"
       }
     ],
-    "note": "首批以国科大导师页、本人 DBLP/ORCID、学生本人书目和出版原文交叉核对，辨别阿里任职期与国科大任职期、同名作者，以及不同企业的实习项目。公开书目仍在梳理中。"
+    "note": "对照国科大导师页、本人 DBLP 与 ORCID、学生与合作者书目后逐篇核正式来源。多篇阿里记录中黄建强本人属当时企业作者，因此不能由其国科大教师页反推在读研究；跨校线索保留。"
   },
   "yjG4Eg4AAAAJ": {
     "from": "2023-01-01",
@@ -42412,7 +42547,9 @@ const facultyPaperAudits = {
       "http://faculty.uestc.edu.cn/liwen/zh_CN/index.htm",
       "https://diggers.ai/people/",
       "https://wfanyue.github.io/",
-      "https://synps26.github.io/"
+      "https://synps26.github.io/",
+      "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21506?yxsh=28",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/27958"
     ],
     "papers": [
       {
@@ -42463,6 +42600,34 @@ const facultyPaperAudits = {
         "year": 2024,
         "note": "同篇百度共同作者为魏凡越具名的百度实习指导者；学生履历列李文与段立新为共同导师。两位教师均在现有关系索引中，共用一条论文关系。",
         "outcome": "existing"
+      },
+      {
+        "year": 2026,
+        "title": "Dynamic Logits Adjustment and Exploration for Test-Time Adaptation in Vision Language Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Dynamic_Logits_Adjustment_and_Exploration_for_Test-Time_Adaptation_in_Vision_CVPR_2026_paper.pdf",
+        "note": "CVPR 正式原文列电子科技大学及四川大学为作者单位，无范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "SSR: SAM is a Strong Regularizer for domain adaptive semantic segmentation",
+        "url": "https://arxiv.org/html/2401.14686v1",
+        "note": "四位作者均署电子科技大学深圳高等研究院，未见范围内企业；与 IEEE CAI 同题同作者的正式版归并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "HFGD: High-level Feature Guided Decoder for Semantic Segmentation",
+        "url": "https://arxiv.org/html/2303.08646v1",
+        "note": "腾讯 AI Lab 的 Di Kang 同篇署名；第一作者黄野此时是电子科技大学博士后，论文及校方履历未提供范围内在读学生参加同篇项目的证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Beyond Prototypes: Semantic Anchor Regularization for Better Representation Learning",
+        "url": "https://arxiv.org/html/2312.11872v1",
+        "note": "AAAI 同作列多位腾讯优图作者，课题组公开葛彦齐为 2021–2024 硕士及毕业去向腾讯；未核实其在读期间参与同一腾讯项目及具体学术导师，保留线索。",
+        "outcome": "lead"
       }
     ],
     "note": "收录多名作者中同时核对了李文正式署名的论文，继续补其余公开书目。"
