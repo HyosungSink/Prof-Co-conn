@@ -11003,7 +11003,14 @@ const facultyPaperAudits = {
       "https://doi.org/10.1111/cgf.70568",
       "https://arxiv.org/abs/2607.05938",
       "https://diglib.eg.org/items/e3b69c99-91ac-40fa-9e89-04a1d80f5f50",
-      "https://aiganimation.github.io/HandPrior/"
+      "https://aiganimation.github.io/HandPrior/",
+      "https://phj128.github.io/",
+      "https://hku-cg.github.io/",
+      "https://wenjiawang0312.github.io/cv/",
+      "https://hku-cg.github.io/authors/zhiyang-dou/",
+      "https://people.csail.mit.edu/frankzydou/files/CV_Zhiyang_Dou.pdf",
+      "https://dblp.org/pid/97/6832.html",
+      "https://xiaohanye99.github.io/"
     ],
     "papers": [
       {
@@ -11053,6 +11060,76 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "Computer Graphics Forum、Eurographics 数字图书馆与同篇项目页相互核对，史明镒和幸村琢署港大，企业共同作者陈学霖署 Adobe，而非旧任职所属腾讯。",
         "year": 2026
+      },
+      {
+        "year": 2026,
+        "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+        "url": "https://arxiv.org/pdf/2611.14092v1",
+        "outcome": "confirmed",
+        "note": "首版具名脚注明确第一作者 Huaijin Pi 在蚂蚁实习期间参与本研究。原文双署香港大学和 Robbyant；课题项目列其企业导师 Zehong Shen 为项目负责人、学术导师 Taku Komura 为通讯作者。2026-11-10 首稿公开晚于实习完成，按论文明确披露的研究发生时段核实。"
+      },
+      {
+        "title": "Efficient Differentiable Contact Model with Long-range Influence",
+        "url": "https://openreview.net/pdf?id=YSIHQy80Cr",
+        "outcome": "lead",
+        "note": "ICLR 首页面叶骁寒港大作者，Taku Komura 为现博士师承。企业员工武奎同篇明确署腾讯 Lightspeed，另一位 Zherong Pan 正式署 Meta；学生的已知腾讯实习可早至南开硕士阶段，需 2025 年本项目的确切企业参与，不由旧实习推算。",
+        "year": 2026
+      },
+      {
+        "title": "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents",
+        "url": "https://wenjiawang0312.github.io/projects/embodmocap/CVPR2026_EmbodMocap.pdf",
+        "outcome": "no-evidence",
+        "note": "校内导师和港大学生均具名；本篇原文只列港大、坦佩雷大学、港中大、马克斯普朗克研究所。Wenjia Wang 自述 2022 腾讯工作早于 2023 年入港大及本篇。",
+        "year": 2026
+      },
+      {
+        "title": "SDRS: Shape-Differentiable Robot Simulator",
+        "url": "https://hub.hku.hk/handle/10722/380334",
+        "outcome": "lead",
+        "note": "港大机构库 DOI 10.1109/TRO.2025.3636344 和 2412.19127 同一篇，前者 2026 卷、2025 提前公开。原文有腾讯 Lightspeed 武奎等三人，同期港大在读叶骁寒为第一作者但仅署港大，缺其在企业参与这一篇的准确时间或项目说明。",
+        "year": 2026
+      },
+      {
+        "title": "Strips as Tokens: Artist Mesh Generation with Native UV Segmentation",
+        "url": "https://arxiv.org/html/2604.09132v1",
+        "outcome": "no-evidence",
+        "note": "第一作者两名港大学生还双署范围外 Deemos Technology，项目包含上海科技大学等高校。Huaijin Pi 仅署港大，无相关蚂蚁参与的原文证据。",
+        "year": 2026
+      },
+      {
+        "title": "CoDA: Coordinated Diffusion Noise Optimization for Whole-Body Manipulation of Articulated Objects",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2dd7f33ffbb59b4ff987be5442a13016-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式列港大与浙大。港大博士 Huaijin Pi 可确认师承，但没有此项企业参与；蚂蚁实习在另一年。",
+        "year": 2025
+      },
+      {
+        "title": "Motion-2-to-3: Leveraging 2D Motion Data for 3D Motion Generations",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Motion-2-to-3_Leveraging_2D_Motion_Data_for_3D_Motion_Generations_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式版首作者 Ruoxi Guo 双署浙大和范围外格灵深瞳，Huaijin Pi 署港大，Zehong Shen 只署浙大；两人的后续蚂蚁经历不能倒推 2025 年的研究。",
+        "year": 2025
+      },
+      {
+        "title": "TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "原文首作者上海 AI 实验室/港大双署、公司合作者为范围外 Feeling AI，还列东南大学；未把学生过去腾讯工作倒推。",
+        "year": 2025
+      },
+      {
+        "title": "Zero-Shot Human-Object Interaction Synthesis with Multimodal Priors",
+        "url": "https://arxiv.org/abs/2503.20118",
+        "outcome": "lead",
+        "note": "正式作者项目列腾讯 Robotics X 人员并有港大 Taku Komura；未找到 Yuke Lou 等具体在读生在腾讯参与这篇。",
+        "year": 2025
+      },
+      {
+        "title": "C·ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters",
+        "url": "https://arxiv.org/html/2309.11351v1",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。",
+        "year": 2023
       }
     ],
     "note": "已逐篇记录 7 项，先对照港大课题组、学生作者书目和正式会刊；余下公开书目待继续。"
@@ -11712,7 +11789,7 @@ const facultyPaperAudits = {
         "title": "Generating Human Motion in 3D Scenes from Text Descriptions",
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cen_Generating_Human_Motion_in_3D_Scenes_from_Text_Descriptions_CVPR_2024_paper.pdf",
         "outcome": "lead",
-        "note": "CVPR 首页蚂蚁员工合著明确；岑帜署浙大，博士导师周晓巍，公开实习列的是微软和后来的快手；沈泽宏随后才入蚂蚁任职。尚缺对应这项蚂蚁研究的同期学生参与。"
+        "note": "正式署名中蚂蚁人员为 Minghui Yang、Shuai Zhu；岑帜、Huaijin Pi、Zehong Shen 等学生当时只署浙大，未找到在该项蚂蚁参与的日期与角色。相关人员后在蚂蚁的经历不能补此前论文。"
       },
       {
         "year": 2024,
@@ -11781,7 +11858,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
         "url": "https://arxiv.org/pdf/2611.14092v1",
-        "outcome": "lead",
+        "outcome": "no-evidence",
         "note": "明确学生魏鼎坤蚂蚁实习期间参加，但硕导周晓巍不在本文作者中；同篇港大导师和另一学生已独立形成确证，勿在浙大侧重复计。"
       },
       {
@@ -11843,30 +11920,30 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "Detector-Free Structure from Motion",
-        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/He_Detector-Free_Structure_from_Motion_CVPR_2024_paper.pdf",
+        "url": "https://arxiv.org/html/2306.15669v1",
         "outcome": "no-evidence",
-        "note": "CVPR 正式作者前页为浙大及得克萨斯大学奥斯汀分校；贺星毅本人后来加入蚂蚁研究，时间晚于此研究。"
+        "note": "首版署浙大、得州大学和范围外 Image Derivative。Xingyi He 自身的其他蚂蚁项目不构成该作品的证据；算作 CVPR24 作品一次。"
       },
       {
         "year": 2024,
         "title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Efficient_LoFTR_Semi-Dense_Local_Feature_Matching_with_Sparse-Like_Speed_CVPR_2024_paper.pdf",
         "outcome": "no-evidence",
-        "note": "CVPR 正式五位作者仅浙大。基于此工作后来另有 MatchAnything，不与本篇关系借证。"
+        "note": "正式全文列浙大一个单位，未找到同研究企业作者或实习。本篇与原始 2021 LoFTR 普通改题无关，是另一个方法。"
       },
       {
         "year": 2024,
         "title": "Relightable and Animatable Neural Avatar from Sparse-View Video",
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Relightable_and_Animatable_Neural_Avatar_from_Sparse-View_Video_CVPR_2024_paper.pdf",
         "outcome": "no-evidence",
-        "note": "CVPR 作者单位仅浙大、斯坦福及伊利诺伊大学香槟分校；另有 2023 年首稿同一工作。"
+        "note": "CVPR 正式只列浙大、斯坦福和伊利诺伊大学；2308.07903 同篇，未见具名公司参与。"
       },
       {
         "year": 2024,
         "title": "Representing Long Volumetric Video with Temporal Gaussian Hierarchy",
         "url": "https://arxiv.org/html/2412.09608v1",
         "outcome": "no-evidence",
-        "note": "2024 SIGGRAPH Asia (TOG) 项目作者页同原稿仅浙大、斯坦福、香港科技大学；不以 Yinghao Xu 之后加入蚂蚁倒推研究。"
+        "note": "SIGGRAPH Asia 正文列浙大、斯坦福及港科大。首作者 Zhen Xu 后来实习于字节和 Meta，但本篇公开完成在前，无目标企业作者。"
       },
       {
         "year": 2024,
@@ -11895,6 +11972,41 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2304.06717v1",
         "outcome": "lead",
         "note": "原稿给定研究单位为浙大。Yunzhi Yan 有相近期间的蚂蚁实习记录，仍没有蚂蚁共同作者或员工连接至本篇。"
+      },
+      {
+        "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
+        "url": "https://zju3dv.github.io/InfiniDepth/",
+        "outcome": "no-evidence",
+        "note": "项目正式单位明确余昊浙大与理想汽车双署、另一项目企业导师也同篇。理想汽车在范围外；不能将余昊后来混元的 SplatAnything 资格挪到这篇。",
+        "year": 2026
+      },
+      {
+        "title": "LiDAR-RT: Gaussian-based Ray Tracing for Dynamic LiDAR Re-simulation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_LiDAR-RT_Gaussian-based_Ray_Tracing_for_Dynamic_LiDAR_Re-simulation_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "企业名列吉利汽车研究院，非14家。两名共一作分别署浙大与中南大学。",
+        "year": 2025
+      },
+      {
+        "title": "Motion-2-to-3: Leveraging 2D Motion Data for 3D Motion Generations",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Motion-2-to-3_Leveraging_2D_Motion_Data_for_3D_Motion_Generations_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式版首作者 Ruoxi Guo 双署浙大和范围外格灵深瞳，Huaijin Pi 署港大，Zehong Shen 只署浙大；两人的后续蚂蚁经历不能倒推 2025 年的研究。",
+        "year": 2025
+      },
+      {
+        "title": "MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式原文涉及高校、上海人工智能实验室和范围外格灵深瞳。Huaijin Pi 署港大，周晓巍署浙大，均无指定公司在本项的原文证据。",
+        "year": 2025
+      },
+      {
+        "title": "Hierarchical Generation of Human-Object Interactions with Diffusion Probabilistic Models",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Pi_Hierarchical_Generation_of_Human-Object_Interactions_with_Diffusion_Probabilistic_Models_ICCV_2023_paper.pdf",
+        "outcome": "lead",
+        "note": "Huaijin Pi 本人证实周晓巍当年为浙大硕导、同篇署名。企业作者 Minghui Yang 署蚂蚁；Pi 只署浙大，其本人已确认的蚂蚁实习为 2026 年，尚缺 2023 年此项具体企业参与证据。",
+        "year": 2023
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -44649,6 +44761,304 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "原始预印本 2024 年 6 月与 CVPR 2025 正式页均具名说明第一共同作者 Wei Chen 在快手实习中完成整项研究；其同期阶段在旧履历中为 2024 年 3–8 月快手多媒体理解组实习。他本人公开列在武汉大学本科由武宇指导；武宇同篇是通讯作者。港科大团队确认该生 2024 年秋才开始攻读港科大博士，故按研究时的武汉大学学籍和指导核验，不能因港科大在论文署名或该生后来攻博倒推学籍。Bin Wen 同篇署快手，其正式工业论文和快手团队报告在其他作品独立确认企业角色。",
         "year": 2024
+      }
+    ]
+  },
+  "SoA0RiMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://orcid.org/0000-0002-2094-6480",
+      "https://jszy.whu.edu.cn/lixinghua2/zh_CN/index.htm",
+      "https://jszy.whu.edu.cn/lixinghua2/en/lwcg/456465/list/index.htm",
+      "https://jszy.whu.edu.cn/lixinghua2/zh_CN/zhym/456446/list/index.htm",
+      "https://www.sciencedirect.com/science/article/pii/S1110982323000492",
+      "https://api.crossref.org/works/10.1109/tgrs.2026.3740838",
+      "https://www.mdpi.com/2072-4292/17/11/1917",
+      "https://link.springer.com/book/10.1007/978-3-031-46317-4",
+      "https://isprs-annals.copernicus.org/articles/XI-3-2026/193/2026/"
+    ],
+    "papers": [
+      {
+        "title": "Image-Level and Feature-Level Semantic-Aware Architecture for Cross Domain Semantic Segmentation of High-Resolution Remote Sensing Imagery",
+        "url": "https://doi.org/10.5194/isprs-annals-xi-3-2026-193-2026",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "ISPRS 正式全文列三位作者，均署武汉大学或其测绘遥感国家重点实验室。"
+      },
+      {
+        "title": "WEGLA-NormGAN: wavelet-enhanced Cycle-GAN with global-local attention for radiometric normalization of remote sensing images",
+        "url": "https://doi.org/10.1016/j.isprsjprs.2026.01.020",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "Elsevier 书目所列机构为武汉工程大学、武汉大学及自然资源部重点实验室，未见范围内企业。"
+      },
+      {
+        "title": "Bi-Temporal Benefits: Progressive Spectral–Spatial–Temporal Feature Extraction for Hyperspectral Image Classification",
+        "url": "https://doi.org/10.1109/tip.2026.3695412",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 登记三位作者均为武汉大学遥感信息工程学院。TechRxiv 先行稿与正式稿合并，按 2025 首公开年记录。"
+      },
+      {
+        "title": "Cross-Attention-Based Spatiotemporal Learning Network for Generating Global-Scale Seamless Soil Moisture",
+        "url": "https://doi.org/10.1109/jstars.2026.3699955",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 文章登记作者单位为武汉大学、西南大学、南京大学及高校科研平台，未见范围内企业。"
+      },
+      {
+        "title": "DSDRN: A Dual-Stream Dual-Refinement Network With Superpixel and Location Semantics for Building Damage Classification",
+        "url": "https://doi.org/10.1109/jstars.2026.3691372",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 登记五人所属武汉工程大学和武汉大学，湖北省智能机器人重点实验室为校内平台。"
+      },
+      {
+        "title": "Edge Integrity Learning for Remote Sensing Image Change Detection",
+        "url": "https://doi.org/10.1109/jstars.2026.3716956",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 登记六位作者的归属为武昌首义学院与武汉大学。"
+      },
+      {
+        "title": "FarmCD: Agricultural Information-Guided Gated Network for Farmland Change Detection From Remote Sensing Images",
+        "url": "https://doi.org/10.1109/tgrs.2026.3652586",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 三位作者单位为武汉大学和国家海洋信息中心，未见范围内企业。"
+      },
+      {
+        "title": "HyperR3SNet: Leveraging Hyperbolic Space and Vision Foundation Models for Remote Sensing Semantic Segmentation",
+        "url": "https://doi.org/10.1109/tgrs.2026.3687072",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 作者机构包括温州理工学院、武汉大学、北京雁栖湖应用数学研究院和中国科学院地理科学与资源研究所。"
+      },
+      {
+        "title": "Multi-level Edge Information Guided Progressive Network for Fine-Grained Cultivated Land Delineation",
+        "url": "https://doi.org/10.1109/tgrs.2026.3740838",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "武汉大学论文成果页确认正式刊期，IEEE 登记三位作者均为武汉大学；与 2025 TechRxiv 同作者同任务先行稿合并。"
+      },
+      {
+        "title": "PDF-OS-CR: Prior-Driven Cross-Coupling Incremental Fusion Network for Cloud Removal with Optical-SAR Data",
+        "url": "https://doi.org/10.1109/tcsvt.2026.3742474",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "武汉大学论文成果页确认 2026 年发表；IEEE 登记曾令泽、李星华和沈焕锋均属武汉大学。"
+      },
+      {
+        "title": "Progressive Co-training Network for Image Translation and Cross Domain Semantic Segmentation",
+        "url": "https://doi.org/10.1109/tcsvt.2026.3730451",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 作者单位登记五人均为武汉大学，未见范围内企业。"
+      },
+      {
+        "title": "SuperScribble: A Super-Pixel and Pixel Dual Constraint Remote Sensing Image Semantic Segmentation Network With Scribble Annotation",
+        "url": "https://doi.org/10.1109/tgrs.2026.3689583",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "IEEE 文章作者登记四人均为武汉大学。"
+      },
+      {
+        "title": "The Global 9 km Soil Moisture Estimation by Downscaling of European Space Agency Climate Change Initiative Data from 1978 to 2020",
+        "url": "https://doi.org/10.3390/w17243471",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "Water 正式全文列七位作者和五个院系；来自仲恺农业工程学院、武汉大学与中山大学。"
+      },
+      {
+        "title": "A front-back view fusion strategy and a novel dataset for super tiny object detection in remote sensing imagery",
+        "url": "https://doi.org/10.1016/j.knosys.2025.114051",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "正式作者栏白学辰、李星华、缪健豪、沈焕锋，机构登记均为武汉大学；未见范围内企业。"
+      },
+      {
+        "title": "Enhanced Hourly Precipitation Estimation Using a Geographically Constrained Multi‐Source Fusion Network With Cross Attention",
+        "url": "https://doi.org/10.1029/2025wr040011",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "Wiley 正式论文逐人列单位和贡献，均属西南大学、武汉大学及附属科研平台。"
+      },
+      {
+        "title": "SEMA-YOLO: Lightweight Small Object Detection in Remote Sensing Image via Shallow-Layer Enhancement and Multi-Scale Adaptation",
+        "url": "https://doi.org/10.3390/rs17111917",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "Remote Sensing 正式论文及对应先行稿均列武汉大学，正式基金为武汉大学本科生创新项目。"
+      },
+      {
+        "title": "RS-NormGAN: Enhancing change detection of multi-temporal optical remote sensing images through effective radiometric normalization",
+        "url": "https://doi.org/10.1016/j.isprsjprs.2025.02.005",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "核对正式期刊作者单位为武汉大学、武汉工程大学及湖北珞珈实验室，未见范围内企业。"
+      },
+      {
+        "title": "MVCL: Multiview Complementary Learning Network for Remote Sensing Image Change Detection",
+        "url": "https://doi.org/10.1109/jstars.2025.3561656",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "正式文章的七名作者分别署武昌首义学院、湖北工业大学和武汉大学。"
+      },
+      {
+        "title": "STLNet: Symmetric Transformer Learning Network for Remote Sensing Image Change Detection",
+        "url": "https://doi.org/10.1109/jstars.2024.3519305",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "IEEE 著录列湖北工业大学、武昌首义学院、武汉大学及奈良先端科学技术大学院大学。"
+      },
+      {
+        "title": "ThiefCloud: A Thickness Fused Thin Cloud Removal Network for Optical Remote Sensing Image With Self-Supervised Learnable Cloud Prior",
+        "url": "https://doi.org/10.1109/tcsvt.2025.3585720",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 登记三位作者，武汉大学和陕西师范大学，未见范围内企业。"
+      },
+      {
+        "title": "Joint block adjustment and variational optimization for global and local radiometric normalization toward multiple remote sensing image mosaicking",
+        "url": "https://doi.org/10.1016/j.isprsjprs.2024.08.016",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式出版所列七位作者署武汉大学及自然资源部、湖北省相关科研平台。"
+      },
+      {
+        "title": "Collaborative dual-harmonization reconstruction network for large-ratio cloud occlusion missing information in high-resolution remote sensing images",
+        "url": "https://doi.org/10.1016/j.engappai.2024.108861",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式出版所列七位作者所属武汉大学、湘潭大学及西南交通大学与附属实验室。"
+      },
+      {
+        "title": "An Integrated Learning Framework for Seamless High-Resolution Soil Moisture Estimation",
+        "url": "https://doi.org/10.1109/tgrs.2024.3461717",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "IEEE 登记七位作者分属武汉大学与西南大学及后者的野外科学观测站。"
+      },
+      {
+        "title": "Boundary-enhanced dual-stream network for semantic segmentation of high-resolution remote sensing images",
+        "url": "https://doi.org/10.1080/15481603.2024.2356355",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "出版登记所列六位作者单位为武汉大学及相关遥感、自然资源研究平台。"
+      },
+      {
+        "title": "Concatenated Deep-Learning Framework for Multitask Change Detection of Optical and SAR Images",
+        "url": "https://doi.org/10.1109/jstars.2023.3333959",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 登记六人来自武汉大学及其测绘遥感相关科研平台。"
+      },
+      {
+        "title": "ESAM-CD: Fine-Tuned EfficientSAM Network With LoRA for Weakly Supervised Remote Sensing Image Change Detection",
+        "url": "https://doi.org/10.1109/tgrs.2024.3470808",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "IEEE 列西南交通大学、武汉大学与中国矿业大学（徐州）的作者。"
+      },
+      {
+        "title": "Enhanced wavelet based spatiotemporal fusion networks using cross-paired remote sensing images",
+        "url": "https://doi.org/10.1016/j.isprsjprs.2024.04.016",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "Elsevier 正式作者署名武汉大学、西北大学及实验室；未见范围内企业。2023 会议报告使用原型模型，2024 期刊新增模型与实验，分别审阅。"
+      },
+      {
+        "title": "Global and Local Dual Fusion Network for Large-Ratio Cloud Occlusion Missing Information Reconstruction of a High-Resolution Remote Sensing Image",
+        "url": "https://doi.org/10.1109/lgrs.2024.3356533",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "IEEE 正式记录列武汉大学、西南交通大学、辽宁师范大学、北京跟踪与通信技术研究所等；后者是科研机构，并非名单内电信企业。"
+      },
+      {
+        "title": "Large-scale land use/land cover extraction from Landsat imagery using feature relationships matrix based deep-shallow learning",
+        "url": "https://doi.org/10.1016/j.jag.2024.103866",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "刊印 PDF 完整列出中科院西北生态环境资源研究院、武汉大学及香港理工大学，未见范围内企业。"
+      },
+      {
+        "title": "Residual Dual U-Shape Networks With Improved Skip Connections for Cloud Detection",
+        "url": "https://doi.org/10.1109/lgrs.2023.3337860",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 三位作者来自武汉大学、湖北珞珈实验室和安徽大学。"
+      },
+      {
+        "title": "Rethinking Building Change Detection: Dual-Frequency Learnable Visual Encoder With Multiscale Integration Network",
+        "url": "https://doi.org/10.1109/jstars.2024.3401581",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "IEEE 登记十一人，来自湖北工业大学、武昌首义学院、武汉大学及中国地质大学。"
+      },
+      {
+        "title": "Spatiotemporal Enhancement and Interlevel Fusion Network for Remote Sensing Images Change Detection",
+        "url": "https://doi.org/10.1109/tgrs.2024.3360516",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "武汉大学主页列黄艳媛为硕士生并核对正式论文作者；IEEE 四位作者均署武汉大学不同院系。"
+      },
+      {
+        "title": "A Cross-Paired Wavelet Based Spatiotemporal Fusion Network for Remote Sensing Images",
+        "url": "https://doi.org/10.1007/978-3-031-46317-4_13",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "Springer 正式会议卷及出版机构署名中有中交第二公路勘察设计研究院，其不在本次企业范围内。"
+      },
+      {
+        "title": "A Fast Globally Optimal Seamline Detection Method for High-Resolution Remote Sensing Images",
+        "url": "https://doi.org/10.1109/lgrs.2023.3250519",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 作者列表与正式记录均列武汉大学，未见范围内企业。"
+      },
+      {
+        "title": "Bishift Networks for Thick Cloud Removal with Multitemporal Remote Sensing Images",
+        "url": "https://doi.org/10.1155/2023/9953198",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "Wiley 正式全文列四位作者，均署武汉大学，李星华另署湖北珞珈实验室。"
+      },
+      {
+        "title": "Cloud Detection from Remote Sensing Images by Cascaded U-shape Attention Networks",
+        "url": "https://doi.org/10.1007/978-3-031-46305-1_13",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "Springer 正式出版署武汉大学及中交第二公路勘察设计研究院，后者不在本次企业范围。"
+      },
+      {
+        "title": "DecRecNet: A Decoupling-Reconstruction Network for Restoring the Missing Information of Optical Remote Sensing Images",
+        "url": "https://doi.org/10.1109/jstars.2023.3323769",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 登记单位为武汉大学及测绘遥感重点实验室、中南大学、辽宁师范大学、东北大学等高校，未见范围内企业。"
+      },
+      {
+        "title": "Detail Injection-Based Spatio-Temporal Fusion for Remote Sensing Images With Land Cover Changes",
+        "url": "https://doi.org/10.1109/tgrs.2023.3252054",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 登记四位作者为宁波大学与武汉大学。"
+      },
+      {
+        "title": "Making the Earth Clear at Night: A High-Resolution Nighttime Light Image Deblooming Network",
+        "url": "https://doi.org/10.1109/tgrs.2023.3320192",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 四位作者均署武汉大学，校方资料亦列研究生相关成果。"
+      },
+      {
+        "title": "Monitoring vegetation dynamics (2010–2020) in Shengnongjia Forestry District with cloud-removed MODIS NDVI series by a spatio-temporal reconstruction method",
+        "url": "https://doi.org/10.1016/j.ejrs.2023.06.010",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "Elsevier 正式出版机构包括武汉大学、西北大学、中科院地理资源所及中交第二公路勘察设计研究院；该企业不在本次范围。"
       }
     ]
   }

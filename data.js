@@ -43185,6 +43185,60 @@ const survey = {
         ]
       ],
       "evidence": "原始预印本 2024 年 6 月与 CVPR 2025 正式页均具名说明第一共同作者 Wei Chen 在快手实习中完成整项研究；其同期阶段在旧履历中为 2024 年 3–8 月快手多媒体理解组实习。他本人公开列在武汉大学本科由武宇指导；武宇同篇是通讯作者。港科大团队确认该生 2024 年秋才开始攻读港科大博士，故按研究时的武汉大学学籍和指导核验，不能因港科大在论文署名或该生后来攻博倒推学籍。Bin Wen 同篇署快手，其正式工业论文和快手团队报告在其他作品独立确认企业角色。"
+    },
+    {
+      "id": "dexseed-ant-hku-komura",
+      "paperId": "arxiv:2611.14092",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁灵波科技（Robbyant）",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Komura, Taku · 幸村琢",
+        "香港大学计算机科学系教授，为本篇港大通讯作者；第一作者本人同时明确列为博士导师。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/taku"
+      ],
+      "employee": [
+        "Zehong Shen",
+        "蚂蚁灵波科技（Robbyant）正式研究科学家，论文独立标作企业项目负责人；是皮本人的企业实习导师。",
+        "https://zehongs.github.io/"
+      ],
+      "student": [
+        "Huaijin Pi",
+        "香港大学 2024 年 9 月起在读博士，导师 Taku Komura；本人记录 2026 年 3 月至 9 月在蚂蚁由 Zehong Shen 指导。首作者双署港大和蚂蚁灵波。",
+        "https://phj128.github.io/"
+      ],
+      "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+      "short": "DexSeed",
+      "date": "2026-11-10",
+      "venue": "arXiv 预印本",
+      "area": "机器人灵巧操作",
+      "paper": "https://arxiv.org/pdf/2611.14092v1",
+      "extra": [
+        [
+          "蚂蚁灵波官方团队发布同一项目",
+          "https://robbyant-research.github.io/DexSeed/"
+        ],
+        [
+          "港大实验室在读博士名录",
+          "https://hku-cg.github.io/people/"
+        ],
+        [
+          "蚂蚁集团子公司归属",
+          "https://www.robbyant.com/"
+        ],
+        [
+          "首版具名实习脚注与首次公开日期",
+          "https://arxiv.org/html/2611.14092v1"
+        ]
+      ],
+      "evidence": "首版具名脚注明确第一作者 Huaijin Pi 在蚂蚁实习期间参与本研究。原文双署香港大学和 Robbyant；课题项目列其企业导师 Zehong Shen 为项目负责人、学术导师 Taku Komura 为通讯作者。2026-11-10 首稿公开晚于实习完成，按论文明确披露的研究发生时段核实。",
+      "advising": [
+        "研究当期实名博士导师",
+        "Huaijin Pi 本人和港大课题组资料确认，他在香港大学攻读博士期间由 Taku Komura 指导。",
+        "https://phj128.github.io/"
+      ],
+      "year": 2026
     }
   ]
 };
