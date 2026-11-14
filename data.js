@@ -44885,6 +44885,59 @@ const survey = {
         ]
       ],
       "evidence": "首稿和 IJCV 期刊均将第一作者林浩坤同时列为腾讯 ARC、国科大培养单位中科院自动化所及港城大作者，具名博士导师孙哲南同篇。林本人学术主页链接可对应 GitHub 实名账户 MessiX77。2025 年 6 月 5 日，该账户在腾讯 ARC 官方代码库提交同篇代码与模型，8 月 6 日再提交训练实现，构成该学生实质参与企业项目的独立记录；同篇葛艺潇 2025 年 7 月前在腾讯 ARC 正式任职。首版 2025-05-08 与 2026-10-26 期刊合并。"
+    },
+    {
+      "id": "desrf-alibaba-pku-zhouhui-lian",
+      "paperId": "doi:10.1109/cvprw59228.2023.00078",
+      "company": "阿里巴巴",
+      "team": "阿里巴巴达摩院",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "连宙辉 · Zhouhui Lian",
+        "同篇北大通讯作者，公开履历确认在北大王选所任教；学生简历明确列为 2020–2023 北大硕士导师。",
+        "https://www.ai.pku.edu.cn/info/1139/2928.htm"
+      ],
+      "employee": [
+        "李凌志 · Lingzhi Li",
+        "论文署 Alibaba Group；本人履历记录从 2020 年 7 月在阿里云任算法专家，达摩院岗位也由其本人简历确认。徐诗瑶在该篇的阿里实习履历具名他为企业侧导师。",
+        "https://lingzhili.com/"
+      ],
+      "student": [
+        "徐诗瑶 · Shiyao Xu",
+        "2020–2023 北大硕士，连宙辉指导；本人公开简历第 2 页在 2021-08–2023-06 阿里达摩院实习下单列设计 DeSRF，明确把这篇研究同企业侧工作对应。",
+        "https://xusy2333.com/paper/ShiyaoXU_CV_JAN_2025.pdf"
+      ],
+      "title": "DeSRF: Deformable Stylized Radiance Field",
+      "short": "DeSRF",
+      "date": "2023-06",
+      "venue": "CVPR Workshops 2023 · Generative Models for Computer Vision",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Xu_DeSRF_Deformable_Stylized_Radiance_Field_CVPRW_2023_paper.pdf",
+      "extra": [
+        [
+          "学生本人研究主页",
+          "https://xusy2333.com/"
+        ],
+        [
+          "会议项目正式海报",
+          "https://generative-vision.github.io/workshop-CVPR-23/data/17_poster.pdf"
+        ],
+        [
+          "阿里作者公开任职履历",
+          "https://lingzhili.com/Lingzhi_Li_Resueme.pdf"
+        ],
+        [
+          "出版社 DOI 题录",
+          "https://doi.org/10.1109/CVPRW59228.2023.00078"
+        ]
+      ],
+      "evidence": "徐诗瑶个人简历在阿里达摩院暑期及长期实习经历下指名此研究成果，也列出论文同作者 Lingzhi Li、Li Shen 为企业侧指导者；学籍条目另列 2020–2023 北京大学和硕导连宙辉。CVPR Workshop 正式原文将同四名作者具名。另一篇 Your3dEmoji 已在 2022 年公开，按日期排除。",
+      "advising": [
+        "具名硕士导师",
+        "徐诗瑶公开简历列出北大硕士阶段直接由连宙辉指导，论文具名连宙辉为通讯作者。",
+        "https://xusy2333.com/paper/ShiyaoXU_CV_JAN_2025.pdf"
+      ]
     }
   ]
 };

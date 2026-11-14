@@ -53124,22 +53124,345 @@ const facultyPaperAudits = {
   "29Zn-UwAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://ymxbj.github.io/",
       "https://chenming-wu.github.io/",
       "https://www.ai.pku.edu.cn/info/1139/2928.htm",
-      "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiong_TexGaussian_Generating_High-quality_PBR_Material_via_Octree-based_3D_Gaussian_Splatting_CVPR_2025_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiong_TexGaussian_Generating_High-quality_PBR_Material_via_Octree-based_3D_Gaussian_Splatting_CVPR_2025_paper.pdf",
+      "https://www.wict.pku.edu.cn/zlian/",
+      "https://www.icst.pku.edu.cn/xwgg/xsj/1201844icst1385664.htm",
+      "https://dblp.org/pid/20/1780.html",
+      "https://www.icst.pku.edu.cn/kxyj/kycg/lwlz/1201844icst1384524.htm",
+      "https://menyifang.github.io/",
+      "https://www.icst.pku.edu.cn/xspy/ljxsxx/1201844icst1293804.htm",
+      "https://www.icst.pku.edu.cn/xwgg/xsj/f78135003f564c8dab72034ae807e1d0.htm",
+      "https://xusy2333.com/paper/ShiyaoXU_CV_JAN_2025.pdf",
+      "https://www.icst.pku.edu.cn/kxyj/kycg/lwlz/1201844icst1374721.htm",
+      "https://loyuxr.github.io/",
+      "https://trickygo.github.io/",
+      "https://lingzhili.com/",
+      "https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Xu_DeSRF_Deformable_Stylized_Radiance_Field_CVPRW_2023_paper.pdf"
     ],
     "papers": [
       {
-        "title": "TexGaussian: Generating High-quality PBR Material via Octree-based 3D Gaussian Splatting",
         "year": 2024,
-        "url": "https://arxiv.org/abs/2411.19654",
+        "title": "TexGaussian: Generating High-quality PBR Material via Octree-based 3D Gaussian Splatting",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiong_TexGaussian_Generating_High-quality_PBR_Material_via_Octree-based_3D_Gaussian_Splatting_CVPR_2025_paper.pdf",
         "outcome": "confirmed",
-        "note": "CVPR 正式版首页实习脚注明确指第一作者熊伯君在百度参与本项，同篇对应北大具名导师连宙辉和 Baidu VIS 研究人员 Chenming Wu；首稿 2024 年，和 2025 年正式版合并。"
+        "note": "北大官网认领同篇，熊伯君本人明确硕士导师连宙辉；CVPR 正式稿脚注写明熊在百度实习做此项目，正式百度研究员的署名与本人职位可交叉。按全篇只计一次。",
+        "relationIds": [
+          "texgaussian-baidu-pku-zhouhui-lian"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": "VecFontSDF: Learning to Reconstruct and Synthesize High-Quality Vector Fonts via Signed Distance Functions",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xia_VecFontSDF_Learning_To_Reconstruct_and_Synthesize_High-Quality_Vector_Fonts_via_CVPR_2023_paper.pdf",
+        "outcome": "lead",
+        "note": "CVF 发布稿三人署北大，IEEE 的书目包含 Zeqing Xia 同时署百度的索引，而项目作者早稿没有直接证据表明熊伯君当时也在百度做字形研究。TexGaussian 更晚的实习不能回填。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "DeSRF: Deformable Stylized Radiance Field",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Xu_DeSRF_Deformable_Stylized_Radiance_Field_CVPRW_2023_paper.pdf",
+        "note": "徐诗瑶本人履历直接列名在阿里达摩院实习研究并另列北大导师连宙辉；出版社与实习两位导师的同篇参与吻合，项目按同篇一次计入。",
+        "outcome": "confirmed",
+        "relationIds": [
+          "desrf-alibaba-pku-zhouhui-lian"
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "Gaussian Sculpting: End-to-End Controllable Surface Reconstruction via Field Optimization",
+        "url": "https://arxiv.org/html/2608.10602v1",
+        "outcome": "no-evidence",
+        "note": "首稿署大连理工、梅西大学、北大及宁波诺丁汉大学，未见范围内企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "MemeBench: What LVLMs Miss When Interpreting Culture-Dependent Memes",
+        "url": "https://arxiv.org/html/2607.27798v1",
+        "outcome": "no-evidence",
+        "note": "2026-07 首稿标明哔哩哔哩、复旦、北大。企业哔哩哔哩不在本轮核验范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "SciForma: Structure-Faithful Generation of Scientific Diagrams",
+        "url": "https://arxiv.org/html/2607.18091v1",
+        "outcome": "no-evidence",
+        "note": "原文脚注确认罗宇轩在微软亚洲研究院实习完成本项目；微软不在指定企业范围，本项不计。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization",
+        "url": "https://doi.org/10.1145/3799902.3811110",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH 2026 与 2606.17935 对齐；共同作者来自北大和北京氢源智能，后者非指定企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "ActMVS: Active Scene Reconstruction with Monocular Multi-View Stereo",
+        "url": "https://arxiv.org/html/2606.01367v1",
+        "outcome": "no-evidence",
+        "note": "ICRA 题目与作者版对应，三人均署北大；原文资助为基金、语委及教育部相关实验室。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Patches: Global-aware Autoregressive Model for Multimodal Few-Shot Font Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_Beyond_Patches_Global-aware_Autoregressive_Model_for_Multimodal_Few-Shot_Font_Generation_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式稿作者为北大王选所和北大电子与计算机相关院系；题目及首稿 2601.01593 对齐，无目标公司。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "FISHuman: Fine-grained Single-image 3D Human Reconstruction via Multi-view 4D Remeshing",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FISHuman_Fine-grained_Single-image_3D_Human_Reconstruction_via_Multi-view_4D_Remeshing_CVPR_2026_paper.html",
+        "outcome": "lead",
+        "note": "论文署北大学生刘涵兮（Hanxi Liu） 和连宙辉、阿里通义研究员Yifang Men；导师学校主页把 Liu 列为其组学生。正式论文和致谢未证明 Liu 在阿里承担这个项目。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "UTDesign: A Unified Framework for Stylized Text Editing and Generation in Graphic Design Images",
+        "url": "https://doi.org/10.1145/3757377.3763923",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia 同首稿 2512.20479 去重；署北大和金山办公，后者不在指定企业范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning",
+        "url": "https://arxiv.org/html/2506.10963v1",
+        "outcome": "no-evidence",
+        "note": "NeurIPS／作者原稿有具名微软实习，但微软不在指定企业范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "ART: Anonymous Region Transformer for Variable Multi-Layer Transparent Image Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pu_ART_Anonymous_Region_Transformer_for_Variable_Multi-Layer_Transparent_Image_Generation_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 与 2502.18364 合并；正式稿企业为微软亚洲研究院，其他署名是清华、北大和中科大；微软不在指定范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Creating Your Editable 3D Photorealistic Avatar with Tetrahedron-constrained Gaussian Splatting",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Creating_Your_Editable_3D_Photorealistic_Avatar_with_Tetrahedron-constrained_Gaussian_Splatting_CVPR_2025_paper.html",
+        "outcome": "lead",
+        "note": "CVPR／2025-04 首稿有阿里通义的Yifang Men与北大连宙辉、其组学生 Hanxi Liu；正式文、补充材料没有该生在阿里承担同项科研的表述。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "OctFusion: Octree-based Diffusion Models for 3D Shape Generation",
+        "url": "https://doi.org/10.1111/cgf.70198",
+        "outcome": "no-evidence",
+        "note": "北大报道、CGF 与 2408.14732 同工作；同篇企业为 VAST，不属于指定企业。熊伯君其他百度实习工作不能回填。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "HFH-Font: Few-shot Chinese Font Synthesis with Higher Quality, Faster Speed, and Higher Resolution",
+        "url": "https://arxiv.org/html/2410.06488v1",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia / ACM TOG 与原稿作者为李华（Hua Li） 和连宙辉，两者署北大；未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Pano2Room: Novel View Synthesis from a Single Indoor Panorama",
+        "url": "https://doi.org/10.1145/3680528.3687616",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia 与作者版本 2408.11413 对齐；三作者均北大，未见范围企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "UDiffText: A Unified Framework for High-quality Text Synthesis in Arbitrary Images via Character-aware Diffusion Models",
+        "url": "https://doi.org/10.1007/978-3-031-72751-1_13",
+        "outcome": "no-evidence",
+        "note": "ECCV 与 2023-12 首稿合并；署名只列两位北大作者，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "3DToonify: Creating Your High-Fidelity 3D Stylized Avatar Easily from 2D Portrait Images",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Men_3DToonify_Creating_Your_High-Fidelity_3D_Stylized_Avatar_Easily_from_2D_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "原文四位阿里作者（包括已于 2020 年毕业的正式研究员Yifang Men）、北大连宙辉与论文署北大的刘涵兮。北大推免名单与历届入学名录显示刘涵兮本科天津大学、2024 年秋才入北大；本篇 CVPR 2024 早于其北大研究生学籍，天津大学也不在范围，且缺同项企业实研证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "En3D: An Enhanced Generative Model for Sculpting 3D Humans from 2D Synthetic Data",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Men_En3D_An_Enhanced_Generative_Model_for_Sculpting_3D_Humans_from_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 首稿 2401.01173 五人署阿里智能计算研究院，连宙辉署北大。第一作者Yifang Men本人确认早至 2020 年完成北大硕士、后加入阿里；未见合资格学生作者。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "QT-Font: High-efficiency Font Synthesis via Quadtree-based Diffusion Models",
+        "url": "https://doi.org/10.1145/3641519.3657451",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH 正式卷目及北大校方双证刘亦天和连宙辉二人；同项目本人源代码只指向北大组，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "VecFontLLM: Anchor-Guided Direct Synthesis of Chinese Vector Fonts",
+        "url": "https://arxiv.org/html/2607.17251v1",
+        "outcome": "no-evidence",
+        "note": "2026-07 首稿四位作者来自福州大学和北大；无目标企业，区别于 2023 字体曲线建模。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "RSUniVLM: A unified vision-language model for remote sensing via Granularity-oriented MoE",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/792522",
+        "outcome": "no-evidence",
+        "note": "北大机构库与 2024 年 2412.05679 预印本归并，连宙辉、刘旭两位署北大王选所，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "TextFlux: An OCR-Free DiT Model for High-Fidelity Multilingual Scene Text Synthesis",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/790929",
+        "outcome": "no-evidence",
+        "note": "期刊与 2025 年的 2505.17778 一项合并，早期署名人数不同；两版有北大与哔哩哔哩，哔哩哔哩不在目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Environments",
+        "url": "https://arxiv.org/html/2512.19024v1",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 及作者稿都将作者列于北大王选所和北大通用人工智能重点实验室；任务使用通用模拟器并不指向企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Sharper Generalization Bounds for Transformer",
+        "url": "https://arxiv.org/html/2603.21541v1",
+        "outcome": "no-evidence",
+        "note": "首稿单位包括首都师范大学、北大、湘江实验室和北航；未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Machine Learning-Assisted High-Dimensional Matrix Estimation",
+        "url": "https://arxiv.org/html/2603.28346v1",
+        "outcome": "no-evidence",
+        "note": "首稿列北大相关学院、湘江实验室与东北财经大学，无目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "External validation and application of a machine learning–based model for diabetes progression in prediabetes",
+        "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1746570/full",
+        "outcome": "no-evidence",
+        "note": "期刊的作者署北大、北大人民医院、格拉斯哥大学等学术临床机构；未见目标公司，临床协作不同于目标企业共同研究。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Neural-Polyptych: Content Controllable Painting Recreation for Diverse Genres",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/757583",
+        "outcome": "no-evidence",
+        "note": "Computational Visual Media 与早稿 2409.19690 是同篇；原文企业单位为微软亚洲研究院，本轮不在范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "CalliReader: Contextualizing Chinese Calligraphy via an Embedding-Aligned Vision-Language Model",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.02138",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式与 2503.06472 同项，原稿只列北大、西安交大；郝飞洋本人公开说明在北大组的实质论文贡献，未见指定企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Predicting cardiovascular outcomes in Chinese patients with type 2 diabetes by combining risk factor trajectories and machine learning algorithm: a cohort study",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/735969",
+        "outcome": "no-evidence",
+        "note": "期刊与北大机构库具名连及北大和医院的作者；未见目标企业作者，临床队列资源不等于指定企业的参与。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "CHWmaster: mastering Chinese handwriting via sliding-window recurrent neural networks",
+        "url": "https://link.springer.com/article/10.1007/s10032-024-00468-9",
+        "outcome": "no-evidence",
+        "note": "Springer 正式版与院所目录对齐，三名作者均署北大王选计算机研究所，无目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Dynamic Texture Transfer using PatchMatch and Transformers",
+        "url": "https://arxiv.org/html/2402.00606v1",
+        "outcome": "no-evidence",
+        "note": "论文署名只列北大。徐诗瑶本人明示动态纹理迁移属于北大研究助理和学位工作，不能由她在达摩院的另一项 DeSRF 实习回填。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "CalliRewrite: Recovering Handwriting Behaviors from Calligraphy Images without Supervision",
+        "url": "https://arxiv.org/html/2405.15776v1",
+        "outcome": "no-evidence",
+        "note": "ICRA 2024 与同期公开稿去重；北大王选所及元培学院作者，没有指定企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "TextNeRF: A Novel Scene-Text Image Synthesis Method Based on Neural Radiance Fields",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cui_TextNeRF_A_Novel_Scene-Text_Image_Synthesis_Method_based_on_Neural_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 原文署北大、东南大学；另一作者个人明确 2023–24 实习于清华 AIR，非指定企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "DeepCalliFont: Few-Shot Chinese Calligraphy Font Synthesis by Integrating Dual-Modality Generative Models",
+        "url": "https://arxiv.org/html/2312.10314v1",
+        "outcome": "no-evidence",
+        "note": "AAAI 与 2023-12 作者稿同篇，署名只列北大王选所。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "SinMPI: Novel View Synthesis from a Single Image with Expanded Multiplane Images",
+        "url": "https://doi.org/10.1145/3610548.3618155",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia 与 2312.11037 归并；三位作者署北大，没有与目标企业的此项研究。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "CurveSDF: Binary Image Vectorization Using Signed Distance Fields",
+        "url": "https://doi.org/10.1145/3591106.3592256",
+        "outcome": "no-evidence",
+        "note": "ICMR 2023 及北大本校机构书目具名夏泽清、连宙辉，企业合作者未见。与 VecFontSDF 分别记录。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "DeepVecFont-v2: Exploiting Transformers to Synthesize Vector Fonts with Higher Quality",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_DeepVecFont-v2_Exploiting_Transformers_To_Synthesize_Vector_Fonts_With_Higher_Quality_CVPR_2023_paper.pdf",
+        "outcome": "lead",
+        "note": "脚注注明北大—百度基金资助，但署名均北大学术单位，未见百度正式合作者及在读学生参与企业侧同项研究。",
+        "relationIds": []
       }
-    ]
+    ],
+    "note": "连宙辉官方任职和研究组的学生名单、DBLP 正式索引与院所出版目录、合作者本人互证；重复预印与出版版本归并，企业同篇而无同项实研者保留线索。已将首次公开早于 2023 的 Your3dEmoji、Controllable Image Synthesis With Attribute-Decomposed GAN、Learning isometry-invariant representations for point cloud analysis、FontTransformer 按首稿或最先在线日期排除；2023-01 到 2026-11-12 公开可识别的独立论文以高校与逐个出版方核证，未证实的线索保留。"
   },
   "AjLDxxgAAAAJ": {
     "from": "2023-01-01",
