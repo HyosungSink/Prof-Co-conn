@@ -118,8 +118,8 @@ function appendFacultyBibliography(item, person, school, department) {
 function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
   const title = facultyTitle.value;
-  const verification = facultyVerificationFilter.value;
-  const isSearch = Boolean(words.length || title || verification);
+  const verificationCount = facultyVerificationFilter.value === '' ? null : Number(facultyVerificationFilter.value);
+  const isSearch = Boolean(words.length || title || verificationCount !== null);
   const schools = [];
   let matches = 0;
 
@@ -130,9 +130,9 @@ function renderFaculty() {
       const context = facultySearchKey([name, english, department.name].join(' '));
       const people = department.people.filter(person =>
         (!title || facultyTitleValues(person).has(title)) &&
-        (!verification || String(facultyVerification(person, name, department.name) ?? 'exempt') === verification) &&
+        (verificationCount === null || facultyVerification(person, name, department.name) === verificationCount) &&
         words.every(word => context.includes(word) || person.searchKey.includes(word)));
-      const matchesSource = !title && !verification && department.sources?.some(unit => {
+      const matchesSource = !title && verificationCount === null && department.sources?.some(unit => {
         const key = facultySearchKey([unit.name, ...(unit.aliases || [])].join(' '));
         return words.every(word => context.includes(word) || key.includes(word));
       });
