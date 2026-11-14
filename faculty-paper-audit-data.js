@@ -34396,5 +34396,120 @@ const facultyPaperAudits = {
       }
     ],
     "note": "交叉核对港中大院系档案、本人完整公开目录、签名 ORCID、DBLP 及共同作者的校方或论文清单；截至 2026-11-12 识别并研判 7 篇独立论文，其中两篇 IEEE 文章以出版商提交的原始署名资料核查，未能访问全文。剔除 UCLA 学位论文、FlashGPU-sim 同篇复现包，以及 DBLP 混入的两篇无相同 ORCID 且原始署名明显异同的同名论文（DSFF-GAN、ASICON 2023 Max Unpooling）；SUSim 仅见 2027 年 HPCA 目录，未查到截止日前公开稿。"
+  },
+  "R-GbxYsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://yaochen.site/",
+      "https://yaochen.site/publication.html",
+      "https://dblp.org/pid/70/3621-8.html",
+      "https://orcid.org/0000-0002-5798-2282",
+      "https://sc26.conference-program.com/presentation/?id=pap127&sess=sess231",
+      "https://www.iscaconf.org/isca2026_dev/program/",
+      "https://hongshitan.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "JetFire: Approximate-then-Correct Attention on Hybrid Memory for Long-Context LLM Inference",
+        "url": "https://atc.sigops.org/2026/accepted.html",
+        "outcome": "no-evidence",
+        "note": "ATC 录用清单逐名列华中科大、新加坡国大和苏黎世联邦理工；作者仓库披露实现与预稿入口，暂未见指定企业作者或同项实习。"
+      },
+      {
+        "year": 2026,
+        "title": "HiCAM: Accelerating Parallel Triangle Counting via Bit-Efficient Content-Addressable Memory on FPGA",
+        "url": "https://www.microarch.org/micro59/program/",
+        "outcome": "no-evidence",
+        "note": "MICRO 官方议程逐名列华中科大与新加坡国大；与合著者在发布会前公开稿信息相符，未见范围企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "RidgeBridge: Random Access Optimized Interconnect Architecture for Scalable Graph Random Walks",
+        "url": "https://hongshitan.github.io/2026-06-27/Paper-RidgeBridge",
+        "outcome": "no-evidence",
+        "note": "MICRO 正式议程列新加坡国大、港科大（广州）及多伦多大学；与下列 RidgeWalker 是分别录用的不同研究，此篇未见字节签名。"
+      },
+      {
+        "year": 2026,
+        "title": "PIMCQG: Co-Designing Billion-Scale Graph-Based Approximate Nearest Neighbor Search for Processing-in-Memory",
+        "url": "https://arxiv.org/html/2605.25522v2",
+        "outcome": "lead",
+        "note": "作者稿和 SC 议程实名确认陈瑶署华中科大、Minwen Deng 署腾讯；致谢包含腾讯基金。第一作者陈思田署香港浸会大学，未见范围内师生指导及学生参与同一腾讯项目的证据。会议报告在核查截止之后，计此前公开稿。"
+      },
+      {
+        "year": 2026,
+        "title": "HLS-Seek: QoR-Aware Code Generation for High-Level Synthesis via Proxy Comparative Reward Reinforcement Learning",
+        "url": "https://arxiv.org/html/2605.13536v2",
+        "outcome": "no-evidence",
+        "note": "ACM 卷对应作者稿逐名列新加坡国大与华中科大。AMD 硬件计划不属于本站研究企业，未见范围企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "HieraNTT: A Memory Hierarchy-Aware Data Access Architecture for Efficient Number Theoretic Transform on GPU",
+        "url": "https://grid.hust.edu.cn/info/1053/3036.htm",
+        "outcome": "lead",
+        "note": "学校实验室确认熊倩为在读博士并具名该论文；公开目录可核陈瑶同署，当前未获取可验证的完整全文和各方作者角色。"
+      },
+      {
+        "year": 2026,
+        "title": "Prefix-Cache-Aware Data Reordering for LLM-Augmented Database Analytics",
+        "url": "https://proceedings.mlr.press/v306/li26gn.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式卷和其原稿确认作者身份；未见范围内企业研究人员与同篇在读科研角色同时有证。"
+      },
+      {
+        "year": 2026,
+        "title": "XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA",
+        "url": "https://arxiv.org/abs/2605.06052",
+        "outcome": "no-evidence",
+        "note": "ISCA 官方议程逐名列五位作者均署新加坡国大；采用 AMD Xilinx 硬件，不据此计入企业研究。"
+      },
+      {
+        "year": 2026,
+        "title": "RidgeWalker: Perfectly Pipelined Graph Random Walks on FPGAs",
+        "url": "https://fardatalab.org/hpca26-tan.pdf",
+        "outcome": "lead",
+        "note": "IEEE 排版原文有字节 Cheng Chen，但陈瑶在此篇仅署新加坡国大，第一作者是新加坡国大博士生，导师为何丙胜和黄荣辉；未见华中科大指导及本站范围学生同篇企业研究。"
+      },
+      {
+        "year": 2025,
+        "title": "HiPACK: Efficient Sub-8-Bit Direct Convolution with SIMD and Bitwise Management",
+        "url": "https://doi.org/10.1145/3725843.3756124",
+        "outcome": "lead",
+        "note": "ACM 正式书目和陈瑶本人列表确认同篇，公开可查看的元数据有限。待核实原文单位与致谢，暂未发现符合口径的关系。"
+      },
+      {
+        "year": 2025,
+        "title": "Clementi: Efficient Load Balancing and Communication Overlap for Multi-FPGA Graph Processing",
+        "url": "https://soldierchen.github.io/assets/pdf/clementi-sigmod25.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM 正式 PDF 由合著者托管：逐名机构为新加坡国大和港科大（广州）；Google 奖项及 AMD 硬件捐赠均不属于本站企业范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Evaluating Small Language Models for News Summarization: Implications and Factors Influencing Performance",
+        "url": "https://aclanthology.org/2025.naacl-long.253/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式原文第 9 页具名说明山东大学学生在新加坡国大访学时开展研究；未见任何范围企业研究作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient KV Cache Spillover Management on Memory-Constrained GPU for LLM Inference",
+        "url": "https://doi.org/10.1109/TPDS.2025.3626974",
+        "outcome": "lead",
+        "note": "陈瑶的 ORCID 及正式卷期登记核对身份；2025 线上先刊与 2026 正式卷期合并。开放全文及部分作者单位仍需核对。"
+      },
+      {
+        "year": 2024,
+        "title": "Deep Feature Surgery: Towards Accurate and Efficient Multi-Exit Networks",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06613.pdf",
+        "outcome": "lead",
+        "note": "ECCV 正式稿：作者分别署南开大学、新加坡国大、电子科技大学及实验室，陈瑶仅署新加坡国大。第 15 页致谢列 CCF–百度开放基金，未见百度同篇作者或学生在百度参与本篇的直接证据。"
+      }
+    ],
+    "note": "第一批逐篇对照本人论文清单、DBLP 和实名 ORCID。早期多篇署新加坡国立大学；统一保留在个人书目，按研究期的实际身份研判。后续待补齐发表清单、索引漏项和受限全文。"
   }
 };
