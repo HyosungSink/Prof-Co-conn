@@ -40945,6 +40945,63 @@ const survey = {
           "https://arxiv.org/html/2610.41153v1"
         ]
       ]
+    },
+    {
+      "id": "paroattention-bytedance-tsinghua-yu-wang",
+      "paperId": "arxiv:2506.16054",
+      "company": "字节跳动",
+      "team": "ByteDance Seed Vision",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "汪玉 · Yu Wang",
+        "清华大学教授，赵天辰本人简历具名博士导师，本文通讯。",
+        "https://web.ee.tsinghua.edu.cn/wangyu/zh_CN/index.htm"
+      ],
+      "employee": [
+        "肖雪峰 · Xuefeng Xiao",
+        "ByteDance Seed 研究人员。与学生同篇，首稿署 ByteDance Seed；同年企业主页发表其另一项目，任职经企业资料和 ICCV 作者脚注复核。",
+        "https://seed.bytedance.com/en/public_papers/rayflow-instance-aware-diffusion-acceleration-via-adaptive-flow-trajectories"
+      ],
+      "student": [
+        "赵天辰 · Tianchen Zhao",
+        "清华大学电子工程系在读博士，2025 年 2–8 月 ByteDance Seed Vision TopSeed 实习；本人简历列 PAROAttention 为具体项目，正式原文首页明确本项在字节实习完成。",
+        "https://www.tianchen-zhao.info/files/english_resume_tianchen_zhao.pdf"
+      ],
+      "title": "PAROAttention: Pattern-Aware ReOrdering for Efficient Sparse and Quantized Attention in Visual Generation Models",
+      "short": "PAROAttention",
+      "date": "2025-06-19",
+      "venue": "NeurIPS 2025",
+      "area": "图像与视频生成模型加速",
+      "paper": "https://papers.nips.cc/paper_files/paper/2025/file/b7ed46bd87cd51d4c031b96d9b1a8eb6-Paper-Conference.pdf",
+      "extra": [
+        [
+          "arXiv 首稿作者单位及日期",
+          "https://arxiv.org/abs/2506.16054"
+        ],
+        [
+          "ByteDance Seed 项目具名作者",
+          "https://seed.bytedance.com/en/public_papers/rayflow-instance-aware-diffusion-acceleration-via-adaptive-flow-trajectories"
+        ],
+        [
+          "同期 ICCV 原文作者任职脚注",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Xia_Training-free_and_Adaptive_Sparse_Attention_for_Efficient_Long_Video_Generation_ICCV_2025_paper.pdf"
+        ],
+        [
+          "学生本人公开研究书目",
+          "https://www.tianchen-zhao.info/"
+        ],
+        [
+          "学生本人中文履历（核对中文姓名）",
+          "https://www.tianchen-zhao.info/files/%E4%B8%AD%E6%96%87%E7%AE%80%E5%8E%86_%E8%B5%B5%E5%A4%A9%E8%BE%B0.pdf"
+        ]
+      ],
+      "evidence": "赵天辰英文简历教育栏列 2023 年 9 月起为清华大学电子工程系博士生，导师明示为 Prof. Yu Wang；实习栏专门列 PAROAttention 为 ByteDance Seed Vision 实习项目（2025.02–2025.08）。NeurIPS 正式首页有具名实习脚注，并列清华汪玉为通讯；arXiv 首稿在实习期间于 2025-06-19 公开，作者脚注明确肖雪峰属字节 Seed。字节官方公布肖雪峰当期参与项目，ICCV 2025 另一原文同时具名单位。相近的 DAC PARO 与 MLSys db-SP 不作为同一条。",
+      "advising": [
+        "本人具名博士导师",
+        "学生公开英文简历首页 Education 明确标示该段 Ph.D. Advisor: Prof. Yu Wang；本项也由汪玉通讯。",
+        "https://www.tianchen-zhao.info/files/english_resume_tianchen_zhao.pdf"
+      ]
     }
   ]
 };

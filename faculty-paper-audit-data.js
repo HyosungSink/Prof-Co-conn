@@ -6463,7 +6463,9 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/62/1637-13.html",
       "https://bluesjjw.github.io/",
       "https://xxzhang99.github.io/",
-      "https://dblp.org/pid/185/1521-1.html"
+      "https://dblp.org/pid/185/1521-1.html",
+      "https://cs.ccnu.edu.cn/info/1109/11816.htm",
+      "https://2026.sigmod.org/sigmod_industry_papers.shtml"
     ],
     "papers": [
       {
@@ -6555,7 +6557,7 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2602.22580",
         "year": 2026,
         "outcome": "lead",
-        "note": "首稿直接列武大第一作者 Yuhao Lin、阿里云员工和江佳伟；仍待具名校内导师来源，并复核正式版的实习脚注。"
+        "note": "已核对 SIGMOD 主办方正式录用条目与 arXiv 首版。公开会方名单及论文显示阿里云员工和武汉大学 Yuhao Lin；会稿实习脚注仅在可对照的全文副本可读，另需研究期间的具名校内导师来源。"
       },
       {
         "title": "DM-RAG: Enhancing User Support in Dameng Databases with Retrieval-Augmented Generation",
@@ -6591,6 +6593,13 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "AAAI 正式版具名 OceanBase 许全清与江佳伟；尚无同篇学生参与企业研究及其校内指导的证据。"
+      },
+      {
+        "title": "Model Rake: A Defense Against Stealing Attacks in Split Learning",
+        "url": "https://ijcai.org/proceedings/2025/0779.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IJCAI 正式版具名 OceanBase 许全清及武汉大学作者；当时学生的企业实研和校内导师尚缺具名来源。"
       }
     ],
     "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
@@ -14676,7 +14685,18 @@ const facultyPaperAudits = {
       "https://pubmed.ncbi.nlm.nih.gov/42848551/",
       "https://github.com/JohnZhan2023/johnzhan2023.github.io/blob/b240a15e1000441dd70d6aac23b64510c2fe4d9e/index.html#L222-L232",
       "https://github.com/JohnZhan2023/johnzhan2023.github.io/blob/161bf658a392e1e4219dc74f78e1865864f1bf6d/index.html#L63-L84",
-      "https://github.com/JohnZhan2023/DuoMatching/commit/1ed5ba67e2d8cdf3a9810517ff94c1a4732cedf7"
+      "https://github.com/JohnZhan2023/DuoMatching/commit/1ed5ba67e2d8cdf3a9810517ff94c1a4732cedf7",
+      "https://www.gs.cuhk.edu.hk/academics/cross-institutional-course",
+      "https://github.com/JohnZhan2023/johnzhan2023.github.io/commit/161bf658a392e1e4219dc74f78e1865864f1bf6d",
+      "https://github.com/JohnZhan2023/DuoMatching/commit/1ed5ba67e2d8cdf3a9810517ff94c1a4732cedf7.patch",
+      "https://github.com/JohnZhan2023/johnzhan2023.github.io/blob/ab1e7e96cf4dff050112041814c0cd3dfe1e1596/index.html#L23-L29",
+      "https://github.com/JohnZhan2023/johnzhan2023.github.io/blob/ab1e7e96cf4dff050112041814c0cd3dfe1e1596/index.html#L245-L259",
+      "https://github.com/JohnZhan2023/MotionInsight/commit/c5d95d24de733e78439c0a77255da3cff4992bb2.patch",
+      "https://2026.emnlp.org/calls/main_conference_papers/",
+      "https://xuanyuzhang21.github.io/",
+      "https://tongjingqi.github.io/",
+      "https://arxiv.org/pdf/2610.17552v1",
+      "https://github.com/OpenImagingLab/FlashVSR_Plus"
     ],
     "papers": [
       {
@@ -14711,14 +14731,14 @@ const facultyPaperAudits = {
         "title": "MotionInsight: Diagnosing Object Motion Deficiencies in Generated Videos",
         "url": "https://aclanthology.org/2026.findings-emnlp.1898/",
         "outcome": "lead",
-        "note": "字节员工具名说明学生实习，正式稿标两家机构；研究代码在 2026-08-30 已整理发布，先于港中文秋季通常开学日，无具名的同期港中文指导证据，标线索。",
+        "note": "ACL 正式全文列第一作者詹佳豪及共同作者马咏芮均双署港中文与字节，脚注另具名字节通讯作者赵世杰为项目负责人。詹佳豪用企业账号于 2026-08-30 提交本项目训练与推理代码，和 EMNLP 终稿期限同日，早于港中文 09-07 开学。09-27 的个人快照和 09-30 预印本仅证明后来列出/公开作品，未证明博士学籍下开展新一轮同篇企业研究。马咏芮本人列顾金伟为博士导师并称薛天帆为合作教师，未查到马在该篇实习贡献的独立证据；两名跨校作者张轩宇、童敬祺公布的实习履历也未对应这篇。继续标线索。",
         "year": 2026
       },
       {
         "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
         "url": "https://arxiv.org/html/2610.03543v1",
         "outcome": "confirmed",
-        "note": "原文与第一作者项目逐项写明詹佳豪的香港中文大学及字节跳动双署名以及本篇技术贡献。字节在职研究员幸群亮的履历给出起始年月，并具名列詹佳豪为所指导的企业实习生，因此和其同篇第一作者贡献有独立的项目角色和同时期任职证据。詹佳豪本人列明同期博士导师薛天帆，后者是同篇通讯作者。",
+        "note": "已发布。港中文研究生院列 2026-09-07 开学，该日是一般校历而非个人注册记录。第一作者詹佳豪在 09-27 的主页提交中同时自述已为港中文博士生、薛天帆为导师，并首次列该项研究及八名同篇作者，同一快照列在字节多媒体实验室 2025-11 至当时仍在职；10-02 12:43 香港时间以字节域账户提交该篇完整训练和推理实现，早于 arXiv 首版的公开提交，后者明确港中文及字节双署。幸群亮 10-10 的履历快照列 2025-07 起在字节任职、具名协助指导詹佳豪。未定位个人确切注册日或项目初始实验日，证据确认入学后仍参与同篇技术工作。",
         "year": 2026
       },
       {
@@ -15257,7 +15277,7 @@ const facultyPaperAudits = {
         "title": "FlashVSR+: Efficient Video Super-Resolution via Hybrid Attention and Reward-Yield Distribution Matching",
         "url": "https://arxiv.org/abs/2610.17552v1",
         "outcome": "no-evidence",
-        "note": "独立技术报告，与 FlashVSR v1 研究阶段区分；作者署清华、港中文、上海人工智能实验室。MiniMax、字节模型在评测中出现；庄俊豪的后续京东职位无同篇落点。",
+        "note": "独立于 FlashVSR 的 2026-10-13 技术报告。原文及作者公开实现列港中文、清华、CPII under InnoHK 和上海人工智能实验室；导师组名录证实第一作者姚汝昌和合著者詹佳豪均为薛天帆组博士生，詹在此篇单署港中文。没有目标企业作者或该篇的具名企业参与；报告中的字节 SeedVR2、MiniMax 或阿里 Wan 系列作对照或底层模型，不能据此确认关系。",
         "year": 2026
       },
       {
@@ -37448,7 +37468,12 @@ const facultyPaperAudits = {
       "https://cave.cs.columbia.edu/Statics/publications/pdfs/Shao_Mob23.pdf",
       "https://zhoubinwy.github.io/pdf/N_euro_predictor.pdf",
       "https://doi.org/10.1007/s43154-023-00100-4",
-      "https://link.springer.com/article/10.1007/s43154-023-00100-4"
+      "https://link.springer.com/article/10.1007/s43154-023-00100-4",
+      "https://isd.hkust.edu.hk/news/",
+      "https://www.researchgate.net/publication/402460819_The_EasyCog_Dataset_Towards_Easier_Cognitive_Assessment_with_Passive_Video_Watching",
+      "https://repository.hkust.edu.hk/ir/bitstream/1783.1-152433/1/1783.1-152433.pdf",
+      "https://qingyong-hu.github.io/",
+      "https://www.researchgate.net/publication/402468984_RTSense_A_Fabric-based_Wearable_System_for_Return-To-Sport_Assessment_of_Anterior_Cruciate_Ligament_Injuries"
     ],
     "papers": [
       {
@@ -37469,28 +37494,28 @@ const facultyPaperAudits = {
         "title": "CareAssist: Supporting Offline Caregiver Coaching in Daily Autism Care through Multimodal Sensing and LLMs",
         "url": "https://doi.org/10.1145/3832014",
         "outcome": "no-evidence",
-        "note": "港科大研究门户列 Junxiao Chen 与导师Qijia Shao；实验室名单证实第一作者从本校本科进入博士。校方出版记录未把本篇归到华为项目，亦未找到公司作者或具名企业实习证据。当前依据校方及 ACM 元数据，全文暂缺。",
+        "note": "港科大 2026-11-02 官方报道具名确认 Junxiao Chen 为该学院学生，并明确本篇合作方为北京大学。作者实验室名单确认其为邵琪佳指导的学生。校方未列华为或具名企业科研；ACM 全文仍待复核。",
         "year": 2026
       },
       {
         "title": "PreTap: Implicit Reachability Analysis and Tap Prediction for One-handed Mobile Interaction",
         "url": "https://doi.org/10.1145/3831983",
         "outcome": "no-evidence",
-        "note": "具名学生刘子琦的个人页明确 2025 年 8 月起在港科大读硕士，并记录本研究获港科大本科研究项目奖。原始项目页和出版者索引未列华为人员、企业科研或同篇企业实习；全文暂缺。",
+        "note": "港科大 2026-11-02 官方报道具名确认刘子琦为该学院学生。个人页载 2025 年 8 月起就读港科大硕士，邵琪佳项目页明确具名指导、港科大本科研究项目已获奖；未发现华为人员或同篇企业实习。ACM 全文仍待复核。",
         "year": 2026
       },
       {
         "title": "CodeSensei: Turning Passive Behavioral Sensing into Adaptive Programming Education with Agentic AI",
         "url": "https://www.ubicomp-iswc.com/events/workshop-21/",
         "outcome": "no-evidence",
-        "note": "UbiSense 官方会议议程列 Zeyu Luo、Yuchao Wang、Qijia Shao；导师网站说明用于本校课程，团队资料列两名作者当时的校内身份。未找到华为研究人员或企业项目证据；全文暂缺。",
+        "note": "UbiSense 正式议程及港科大 2026-11-02 官方报道确认两位学生 Zeyu Luo、Yuchao Wang 为共同一作，均受邵琪佳指导，项目明确由港科大教育创新中心资助并用于本校课程。会议未提供全文下载，未找到范围内企业员工和该项目学生企业参与。",
         "year": 2026
       },
       {
         "title": "The EasyCog Dataset: Towards Easier Cognitive Assessment with Passive Video Watching",
         "url": "https://doi.org/10.1145/3789682",
         "outcome": "no-evidence",
-        "note": "港科大与 UbiComp 正式论文索引确认题名、出版年和作者；尚未找到目标企业员工共同署名或项目特定学生角色。",
+        "note": "ACM 正式版 2026-03-16 首面将 Lili Qiu 署为微软亚洲研究院（本次范围之外）；致谢列 RGC 及 TACC/港科大 iSING 算力，没有华为项目或具名企业实习。共同一作周宇轩在港科大的存档博士论文中列本篇为 2025 年即在投的工作，另一共同一作胡庆勇已于 2025-08 博士毕业。",
         "year": 2026
       },
       {
@@ -37511,7 +37536,7 @@ const facultyPaperAudits = {
         "title": "RTSense: A Fabric-based Wearable System for Return-To-Sport Assessment of Anterior Cruciate Ligament Injuries",
         "url": "https://doi.org/10.1145/3789686",
         "outcome": "no-evidence",
-        "note": "港中大与港科大双校官方记录对应同一刊物和九位作者；港中大档案列两校，正文摘要说明医疗中心合作。未找到华为或其他目标企业同篇员工与具名企业研究，全文暂待复核。",
+        "note": "ACM 正式版 2026-03-16 首面列港科大、港中文与南方科技大学，无目标企业共同作者；致谢只列香港 RGC 多项资助。未发现目标企业学生参与。",
         "year": 2026
       },
       {
@@ -38103,5 +38128,514 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已按国科大名录和学生履历交叉核对部分正式出版及原文，企业同篇与学生在企业开展具体项目分开记录。"
+  },
+  "gz3Tkl0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/daiguohao",
+      "https://dai.sjtu.edu.cn/pepledetail.html?id=218",
+      "https://dblp.org/pid/147/1470.html",
+      "https://orcid.org/0000-0002-8464-0130",
+      "https://mathscode.github.io/",
+      "https://arxiv.org/search/?query=Guohao+Dai&searchtype=author",
+      "https://dai.sjtu.edu.cn/publications.html",
+      "https://hkeee21.github.io/",
+      "https://nicsefc.ee.tsinghua.edu.cn/publications.html",
+      "https://stein-666.github.io/",
+      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/593f75ee-0504-4aa3-ac29-9ebb3c1e4551.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "BalanceGS: Algorithm-System Co-design for Efficient 3D Gaussian Splatting Training on GPU",
+        "url": "https://doi.org/10.1109/ASP-DAC66049.2026.11420502",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式卷与 arXiv 2510.14564 作者一致，预印本脚注只有上交、创智学院、无问芯穹。"
+      },
+      {
+        "year": 2026,
+        "title": "DLite: History-free Speculative Decoding for Agentic AI",
+        "url": "https://arxiv.org/abs/2610.23787",
+        "outcome": "no-evidence",
+        "note": "原文按作者注明上交、上海创智学院、清华、无问芯穹；许珈铭另有 2026–02 至 08 华为实习经历，但原文并未列华为合作人或该篇实习，不能把经历套用。"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient and Adaptable Overlapping for Computation and Communication via Signaling and Reordering",
+        "url": "https://doi.org/10.1145/3767295.3769370",
+        "outcome": "no-evidence",
+        "note": "EuroSys 正式论文和作者名录均仅列高校及无问芯穹；洪可本人列汪玉在校博士导师、戴国浩在无问芯穹实习指导。未见目标企业的同项参与。"
+      },
+      {
+        "year": 2026,
+        "title": "PM-KVQ: Progressive Mixed-precision KV Cache Quantization for Long-CoT LLMs",
+        "url": "https://openreview.net/pdf?id=Vem6FQvRvq",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式首页署清华、无问芯穹、哥伦比亚、OPPO 与上交；作者有后续阿里任职，但同项无阿里研究依据。"
+      },
+      {
+        "year": 2026,
+        "title": "SpAct-NDP: Efficient LLM Inference via Sparse Activation on NDP-GPU Heterogeneous Architecture",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/1b1ffbac-b71b-4079-b990-5c9ac1af6776.pdf",
+        "outcome": "no-evidence",
+        "note": "课题组公开 ASP-DAC 2026 原始陈述与会议署名列上交、清华、无问芯穹、上海创智学院。"
+      },
+      {
+        "year": 2026,
+        "title": "SpeContext: Enabling Efficient Long-context Reasoning with Speculative Context Sparsity in LLMs",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/13ec291c-e925-4186-9721-5a1e7a3cc7b0.pdf",
+        "outcome": "no-evidence",
+        "note": "ASPLOS 正式文作者列上交、清华、上海创智学院及无问芯穹；第一作者许珈铭本人也把这项实研归无问芯穹实习。"
+      },
+      {
+        "year": 2026,
+        "title": "SpecDiff: Accelerating Diffusion Model Inference with Self-Speculation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37771/41733",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式原文作者署上交、无问芯穹以及上海创智学院，最早 arXiv 2509.13848 与正式版合并。"
+      },
+      {
+        "year": 2026,
+        "title": "SpecPrune-VLA: Accelerating Vision-Language-Action Models via Action-Aware Self-Speculative Pruning",
+        "url": "https://proceedings.mlr.press/v306/wang26jj.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式正文与原始 arXiv 2509.05614 对照，机构为上交、无问芯穹、上海创智学院，未见目标企业员工同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "VocabTailor: Dynamic Vocabulary Selection for Downstream Tasks in Small Language Models",
+        "url": "https://aclanthology.org/2026.findings-acl.1418/",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式原文有清华硕士方童程和导师汪玉，但企业署无问芯穹；实验与快手无直接证据。与 arXiv:2508.15229 同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "DyLGNN: Efficient LM-GNN Fine-Tuning with Dynamic Node Partitioning, Low-Degree Sparsity, and Asynchronous Sub-Batch",
+        "url": "https://date25.date-conference.com/programme",
+        "outcome": "no-evidence",
+        "note": "DATE 2025 会议正式程序和上交计算中心的正式目录按题名列出；七名作者均署上交。"
+      },
+      {
+        "year": 2025,
+        "title": "SOLA: Optimizing SLO Attainment for Large Language Model Serving with State-Aware Scheduling",
+        "url": "https://proceedings.mlsys.org/paper_files/paper/2025/file/bc82dbfbfa43232be85b8d9838f49c3e-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "MLSys 正式版署清华、上交、北大与无问芯穹；未见目标企业具名。"
+      },
+      {
+        "year": 2025,
+        "title": "SpecEE: Accelerating Large Language Model Inference with Speculative Early Exiting",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/7e067065-0e58-4e87-a373-feea0bebde1b.pdf",
+        "outcome": "no-evidence",
+        "note": "ISCA 正式原文、无问芯穹开源项目、本人的具体实习论文履历互相对应，无问芯穹不在企业范围。"
+      },
+      {
+        "year": 2025,
+        "title": "TASP: Topology-aware Sequence Parallelism",
+        "url": "https://arxiv.org/abs/2509.26541",
+        "outcome": "no-evidence",
+        "note": "原稿按作者列首都师范大学、清华、上交与无问芯穹。后续洪可前往 DeepSeek 的经历不足以重推该文归属。"
+      },
+      {
+        "year": 2025,
+        "title": "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage",
+        "url": "https://arxiv.org/abs/2504.19867",
+        "outcome": "no-evidence",
+        "note": "原文只署高校和无问芯穹；测试 DeepSeek 公司模型不构成企业研究合作。"
+      },
+      {
+        "year": 2024,
+        "title": "A Survey on Efficient Inference for Large Language Models",
+        "url": "https://arxiv.org/html/2404.14294v1",
+        "outcome": "no-evidence",
+        "note": "首稿逐名脚注署清华、上交、北大与无问芯穹；不能将作者随后更换至其他企业的职位套用。"
+      },
+      {
+        "year": 2024,
+        "title": "FlashDecoding++: Faster Large Language Model Inference with Asynchronization, Flat GEMM Optimization, and Heuristics",
+        "url": "https://proceedings.mlsys.org/paper_files/paper/2024/file/5321b1dabcd2be188d796c21b733e8c7-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "MLSys 正文与许珈铭公开实习项目列表均指向无问芯穹。GPU 型号品牌属于测试设备。"
+      },
+      {
+        "year": 2023,
+        "title": "Exploiting Hardware Utilization and Adaptive Dataflow for Efficient Sparse Convolution in 3D Point Clouds",
+        "url": "https://proceedings.mlsys.org/paper_files/paper/2023/file/8e3e27d07b3f663b7f85c819b9692163-Paper-mlsys2023.pdf",
+        "outcome": "no-evidence",
+        "note": "课题组与 MLSys 正式文共同确认 PCEngine；未发现目标公司人员同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "MNSIM 2.0: A Behavior-Level Modeling Tool for Processing-In-Memory Architectures",
+        "url": "https://dai.sjtu.edu.cn/my_file/pdf/09e2bb88-604a-4503-a949-f3891ae96802.pdf",
+        "outcome": "lead",
+        "note": "IEEE 正文有阿里云、阿里达摩院资深作者，也有上交和清华，以及较早的 2020 MNSIM 会议版。尚不能证实该项具体在读者由戴国浩指导，且在企业参与了 2023 增量研究。"
+      }
+    ],
+    "note": "以校方、实验室、作者本人书目、ORCID 和正式出版社交叉构建公开论文清单；仍在逐篇梳理。"
+  },
+  "j8JGVvoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.ee.tsinghua.edu.cn/wangyu/zh_CN/index.htm",
+      "https://www.tianchen-zhao.info/files/english_resume_tianchen_zhao.pdf",
+      "https://www.tianchen-zhao.info/",
+      "https://seed.bytedance.com/en/public_papers/rayflow-instance-aware-diffusion-acceleration-via-adaptive-flow-trajectories",
+      "https://hkeee21.github.io/",
+      "https://nicsefc.ee.tsinghua.edu.cn/publications.html",
+      "https://stein-666.github.io/",
+      "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/593f75ee-0504-4aa3-ac29-9ebb3c1e4551.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Efficient and Adaptable Overlapping for Computation and Communication via Signaling and Reordering",
+        "url": "https://doi.org/10.1145/3767295.3769370",
+        "outcome": "no-evidence",
+        "note": "EuroSys 正式论文和作者名录均仅列高校及无问芯穹；洪可本人列汪玉在校博士导师、戴国浩在无问芯穹实习指导。未见目标企业的同项参与。"
+      },
+      {
+        "year": 2026,
+        "title": "PM-KVQ: Progressive Mixed-precision KV Cache Quantization for Long-CoT LLMs",
+        "url": "https://openreview.net/pdf?id=Vem6FQvRvq",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式首页署清华、无问芯穹、哥伦比亚、OPPO 与上交；作者有后续阿里任职，但同项无阿里研究依据。"
+      },
+      {
+        "year": 2026,
+        "title": "SALAD: Achieve High-Sparsity Attention via Efficient Linear Attention Tuning for Video Diffusion Transformer",
+        "url": "https://arxiv.org/pdf/2601.16515v1",
+        "outcome": "lead",
+        "note": "原稿与 4 月改稿均以 † 标清方童程在快手可灵实习做这项，汪玉为本人具名硕导；Pengfei Wan 在快手官网有可灵团队负责人任职。同作者个人页明确列可灵实习 2026 年 2 月开始，晚于 2026-01-23 首稿，故待核实习起始或项目 4 月扩展的真实研发时点。"
+      },
+      {
+        "year": 2026,
+        "title": "VocabTailor: Dynamic Vocabulary Selection for Downstream Tasks in Small Language Models",
+        "url": "https://aclanthology.org/2026.findings-acl.1418/",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式原文有清华硕士方童程和导师汪玉，但企业署无问芯穹；实验与快手无直接证据。与 arXiv:2508.15229 同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "db-SP: Accelerating Sparse Attention for Visual Generative Models with Dual-Balanced Sequence Parallelism",
+        "url": "https://proceedings.mlsys.org/paper_files/paper/2026/hash/db988b089d8d97d0f159c15ed0be6a71-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "Tianchen Zhao 主页把项目放在字节实习研究下面，清华博士简历明确导师汪玉；但正式讲稿及 arXiv v1 全部署清华，尚无同篇具名企业员工的独立证据。"
+      },
+      {
+        "year": 2026,
+        "title": "vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference",
+        "url": "https://arxiv.org/html/2611.06057v1",
+        "outcome": "no-evidence",
+        "note": "首稿列清华、北京信息科学与技术国家研究中心以及无问芯穹。洪可虽在同年加入 DeepSeek 系统组，本文无明确企业人员或公司合作，实验使用 DeepSeek 模型不计。"
+      },
+      {
+        "year": 2025,
+        "title": "PAROAttention: Pattern-Aware ReOrdering for Efficient Sparse and Quantized Attention in Visual Generation Models",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/b7ed46bd87cd51d4c031b96d9b1a8eb6-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "学生本人公开简历有汪玉为在读博士导师；正式原文首页也明确这是其在字节实习完成的研究。字节 Seed 具名公司研究人员肖雪峰同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "SOLA: Optimizing SLO Attainment for Large Language Model Serving with State-Aware Scheduling",
+        "url": "https://proceedings.mlsys.org/paper_files/paper/2025/file/bc82dbfbfa43232be85b8d9838f49c3e-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "MLSys 正式版署清华、上交、北大与无问芯穹；未见目标企业具名。"
+      },
+      {
+        "year": 2025,
+        "title": "TASP: Topology-aware Sequence Parallelism",
+        "url": "https://arxiv.org/abs/2509.26541",
+        "outcome": "no-evidence",
+        "note": "原稿按作者列首都师范大学、清华、上交与无问芯穹。后续洪可前往 DeepSeek 的经历不足以重推该文归属。"
+      },
+      {
+        "year": 2025,
+        "title": "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage",
+        "url": "https://arxiv.org/abs/2504.19867",
+        "outcome": "no-evidence",
+        "note": "原文只署高校和无问芯穹；测试 DeepSeek 公司模型不构成企业研究合作。"
+      },
+      {
+        "year": 2023,
+        "title": "Exploiting Hardware Utilization and Adaptive Dataflow for Efficient Sparse Convolution in 3D Point Clouds",
+        "url": "https://proceedings.mlsys.org/paper_files/paper/2023/file/8e3e27d07b3f663b7f85c819b9692163-Paper-mlsys2023.pdf",
+        "outcome": "no-evidence",
+        "note": "课题组与 MLSys 正式文共同确认 PCEngine；未发现目标公司人员同篇。"
+      }
+    ],
+    "note": "按公开书目分批核对，仍在梳理。"
+  },
+  "bym7rFQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2604.00941",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=704",
+      "https://yiming-meng.github.io/example.html",
+      "https://orcid.org/0000-0002-2923-7154",
+      "https://dblp.dagstuhl.de/pid/274/2374.html",
+      "https://arxiv.org/pdf/2604.00941",
+      "https://www.researchsquare.com/article/rs-8856625/v1",
+      "https://assets-eu.researchsquare.com/files/rs-8856625/v1_covered_84a31833-9519-4bb4-b299-84b57e751432.pdf?c=1776019230",
+      "https://doi.org/10.1109/TAC.2026.3674029",
+      "https://mornik.web.illinois.edu/wp-content/uploads/MSWO26.pdf",
+      "https://doi.org/10.1109/TAC.2026.3654481",
+      "https://mornik.web.illinois.edu/wp-content/uploads/MZOL26.pdf",
+      "https://arxiv.org/abs/2411.00923",
+      "https://doi.org/10.1109/TAC.2025.3560653",
+      "https://yiming-meng.github.io/Papers/Journal/TAC25.pdf",
+      "https://doi.org/10.1016/j.automatica.2025.112193",
+      "https://yiming-meng.github.io/Papers/Journal/Automatica25.pdf",
+      "https://doi.org/10.1080/14689367.2024.2436364",
+      "https://yiming-meng.github.io/Papers/Journal/DS25.pdf",
+      "https://doi.org/10.1109/LCSYS.2024.3416407",
+      "https://yiming-meng.github.io/Papers/Journal/LCSS24.pdf",
+      "https://doi.org/10.1109/TAC.2024.3368867",
+      "https://yiming-meng.github.io/Papers/Journal/TAC24.pdf",
+      "https://doi.org/10.1109/OJCSYS.2023.3294829",
+      "https://yiming-meng.github.io/Papers/Journal/OJCSYS23.pdf",
+      "https://doi.org/10.1007/s00332-023-09929-7",
+      "https://yiming-meng.github.io/Papers/Journal/JNLS23.pdf",
+      "https://doi.org/10.1016/j.nahs.2023.101340",
+      "https://yiming-meng.github.io/Papers/Journal/NAHS23.pdf",
+      "https://arxiv.org/abs/2511.09523",
+      "https://arxiv.org/pdf/2511.09523",
+      "https://arxiv.org/abs/2504.03502",
+      "https://arxiv.org/pdf/2504.03502",
+      "https://dblp.org/rec/conf/amcc/ZhouML26",
+      "https://arxiv.org/pdf/2504.13912",
+      "https://arxiv.org/abs/2510.02623",
+      "https://arxiv.org/pdf/2510.02623",
+      "https://ieeexplore.ieee.org/abstract/document/11312515",
+      "https://yiming-meng.github.io/Papers/Conf/CDC25.pdf",
+      "https://ieeexplore.ieee.org/document/11107648",
+      "https://yiming-meng.github.io/Papers/Conf/ACC25.pdf",
+      "https://proceedings.mlr.press/v283/zeng25a.html",
+      "https://yiming-meng.github.io/Papers/Conf/L4DC25.pdf",
+      "https://ieeexplore.ieee.org/document/10886084",
+      "https://yiming-meng.github.io/Papers/Conf/CDC24.pdf",
+      "https://ieeexplore.ieee.org/document/10920220",
+      "https://yiming-meng.github.io/Papers/Conf/ITSC24.pdf",
+      "https://proceedings.mlr.press/v235/meng24b.html",
+      "https://yiming-meng.github.io/Papers/Conf/ICML24.pdf",
+      "https://ieeexplore.ieee.org/document/10644273",
+      "https://yiming-meng.github.io/Papers/Conf/ACC24_2.pdf",
+      "https://ieeexplore.ieee.org/document/10644247",
+      "https://yiming-meng.github.io/Papers/Conf/ACC24_1.pdf",
+      "https://doi.org/10.1145/3641513.3650134",
+      "https://yiming-meng.github.io/Papers/Conf/HSCC24.pdf",
+      "https://doi.org/10.1016/j.ifacol.2024.07.448",
+      "https://yiming-meng.github.io/Papers/Conf/ADHS24.pdf",
+      "https://ieeexplore.ieee.org/document/10383299",
+      "https://yiming-meng.github.io/Papers/Conf/CDC23.pdf",
+      "https://doi.org/10.1007/978-3-031-72794-8_8",
+      "https://yiming-meng.github.io/Papers/Conf/IUTAM23.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Characterization of Safe Stabilization and Control Lyapunov–Barrier Functions via Zubov Equation Formulation",
+        "url": "https://arxiv.org/abs/2604.00941",
+        "outcome": "no-evidence",
+        "note": "首版署港科大（广州）与滑铁卢，作者仅孟毅明和 Jun Liu，计算及资助来源为滑铁卢项目及加拿大公共科研经费。",
+        "year": 2026
+      },
+      {
+        "title": "Flow-consistent identification of governing equations from sparsely sampled measurements",
+        "url": "https://www.researchsquare.com/article/rs-8856625/v1",
+        "outcome": "no-evidence",
+        "note": "Research Square 初稿首面署华中科技大学、上海创智学院和滑铁卢。孟毅明在本篇仍署滑铁卢；脚注仅列国家自然科学基金。",
+        "year": 2026
+      },
+      {
+        "title": "Online Learning and Control Synthesis for Reachable Paths of Unknown Nonlinear Systems",
+        "url": "https://doi.org/10.1109/TAC.2026.3674029",
+        "outcome": "no-evidence",
+        "note": "正式论文四名作者都署 UIUC，NASA 资助；同题 2024 预印本与 2026 正式刊合并。",
+        "year": 2026
+      },
+      {
+        "title": "Resolvent-Type Data-Driven Learning of Generators for Unknown Continuous-Time Dynamical Systems",
+        "url": "https://doi.org/10.1109/TAC.2026.3654481",
+        "outcome": "no-evidence",
+        "note": "作者保存的正式 IEEE 文本首面列 UIUC 与滑铁卢。两国公共科研经费；2024-11 同题预印本并入 2026 IEEE 期刊。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Regions of Attraction in Unknown Dynamical Systems via Zubov–Koopman Lifting: Regularities and Convergence",
+        "url": "https://doi.org/10.1109/TAC.2025.3560653",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式首页列 UIUC 与滑铁卢两个机构，未列目标公司。2023-11 的同题预印本并入期刊。",
+        "year": 2025
+      },
+      {
+        "title": "Physics-Informed Neural Network Lyapunov Functions: PDE Characterization, Learning, and Verification",
+        "url": "https://doi.org/10.1016/j.automatica.2025.112193",
+        "outcome": "no-evidence",
+        "note": "Automatica 出版全文四名作者都署滑铁卢大学，首面只列加拿大 NSERC 和加拿大研究讲席资金。",
+        "year": 2025
+      },
+      {
+        "title": "Almost Sure Asymptotic Stability of Parabolic SPDEs with Small Multiplicative Noise: With Application to the Perturbed Moore-Greitzer Model",
+        "url": "https://doi.org/10.1080/14689367.2024.2436364",
+        "outcome": "no-evidence",
+        "note": "正式在线日为 2024-12-05，2025 刊载卷；原文列 UIUC、滑铁卢及柏林自由大学。与 2023 同题 arXiv 合并。",
+        "year": 2024
+      },
+      {
+        "title": "Physics-Informed Extreme Learning Machine Lyapunov Functions",
+        "url": "https://doi.org/10.1109/LCSYS.2024.3416407",
+        "outcome": "no-evidence",
+        "note": "IEEE 首页孟毅明署 UIUC，其余三名作者署滑铁卢大学；公开全文未见目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "Stochastic Lyapunov–Barrier Functions for Robust Probabilistic Reach-Avoid-Stay Specifications",
+        "url": "https://doi.org/10.1109/TAC.2024.3368867",
+        "outcome": "no-evidence",
+        "note": "正式论文首页两名作者同署滑铁卢大学，资助为加拿大公共科研计划；区分 2022 ACC 短稿与本期刊正式成果。",
+        "year": 2024
+      },
+      {
+        "title": "Robustly Complete Finite-State Abstractions for Control Synthesis of Stochastic Systems",
+        "url": "https://doi.org/10.1109/OJCSYS.2023.3294829",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式文首页两名作者同署滑铁卢大学、仅列加拿大公共资助。2023 arXiv 同题稿并入。",
+        "year": 2023
+      },
+      {
+        "title": "Hopf Bifurcations of Moore-Greitzer PDE Model with Additive Noise",
+        "url": "https://doi.org/10.1007/s00332-023-09929-7",
+        "outcome": "no-evidence",
+        "note": "Springer 正式文所列机构为滑铁卢和欧洲大学，查不到目标公司署名；与后续针对乘性噪声的研究分别著录。",
+        "year": 2023
+      },
+      {
+        "title": "Lyapunov-barrier characterization of robust reach–avoid–stay specifications for hybrid systems",
+        "url": "https://doi.org/10.1016/j.nahs.2023.101340",
+        "outcome": "no-evidence",
+        "note": "正式出版首页署两名滑铁卢大学研究者，未列目标企业员工或论文对应的企业学生角色。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Learning and Verifying Maximal Lyapunov-Barrier Functions with a Zubov PDE Formulation",
+        "url": "https://arxiv.org/abs/2511.09523",
+        "outcome": "no-evidence",
+        "note": "ECC 2026 论文 2025 首次公开；预印本首页两位作者均署滑铁卢，未列范围企业。",
+        "year": 2026
+      },
+      {
+        "title": "Target Prediction Under Deceptive Switching Strategies via Outlier-Robust Filtering of Partially Observed Incomplete Trajectories",
+        "url": "https://arxiv.org/abs/2504.03502",
+        "outcome": "no-evidence",
+        "note": "ECC 2026 接收，2025 首次公开；原稿署 UIUC 与滑铁卢，列美国海军研究办公室资助，没有目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "Koopman Spectral Analysis and System Identification for Stochastic Dynamical Systems via Yosida Approximation of Generators",
+        "url": "https://dblp.org/rec/conf/amcc/ZhouML26",
+        "outcome": "no-evidence",
+        "note": "ACC 2026 正式会议及 2025 首版合并。首版具名华中科技大学周俊，但其余为伊利诺伊大学和滑铁卢，未列公司作者或该篇实习。",
+        "year": 2026
+      },
+      {
+        "title": "Reachable Predictive Control: A Novel Control Algorithm for Nonlinear Systems with Unknown Dynamics and its Practical Applications",
+        "url": "https://arxiv.org/abs/2510.02623",
+        "outcome": "no-evidence",
+        "note": "ICRA 2026；2025 首版三名作者均署 UIUC，致谢 NASA 公共资助。不是另一篇 2026 IEEE TAC 的同稿，两篇明确分别聚焦预测控制和可达路径在线学习。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Koopman-based Stability Certificates for Unknown Nonlinear Systems",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11312515",
+        "outcome": "no-evidence",
+        "note": "2025 CDC 正式全文和 2024 同题预印本合并；作者署滑铁卢、UIUC 与华中科技大学，公开全文没列目标公司。",
+        "year": 2025
+      },
+      {
+        "title": "Formally Verified Physics-Informed Neural Control Lyapunov Functions",
+        "url": "https://ieeexplore.ieee.org/document/11107648",
+        "outcome": "no-evidence",
+        "note": "2025 ACC 正式稿和 2024-09 预印本合并；四位作者均来自滑铁卢或 UIUC。",
+        "year": 2025
+      },
+      {
+        "title": "Data-driven Optimal Control of Unknown Nonlinear Dynamical Systems Based on the Koopman Operator",
+        "url": "https://proceedings.mlr.press/v283/zeng25a.html",
+        "outcome": "no-evidence",
+        "note": "2025 L4DC 正式稿首面四作者依次为华中科技大学、滑铁卢、UIUC、滑铁卢。没有公司署名或可核实企业项目角色；2024 arXiv 同题稿并入。",
+        "year": 2025
+      },
+      {
+        "title": "Koopman-Based Learning of Infinitesimal Generators without Operator Logarithm",
+        "url": "https://ieeexplore.ieee.org/document/10886084",
+        "outcome": "no-evidence",
+        "note": "2024 CDC 正文列 UIUC 与滑铁卢以及 NASA、AFOSR 和加拿大公共经费；论文明确篇幅限制下只给主要结果，另核正式刊扩展的研究设计。",
+        "year": 2024
+      },
+      {
+        "title": "Koopman-Based Data-Driven Techniques for Adaptive Cruise Control System Identification",
+        "url": "https://ieeexplore.ieee.org/document/10920220",
+        "outcome": "no-evidence",
+        "note": "2024 ITSC 论文首页列 UIUC 与威斯康星大学麦迪逊分校。模型测试用自动驾驶数据，不代表相关车企同篇参与。",
+        "year": 2024
+      },
+      {
+        "title": "Physics-Informed Neural Network Policy Iteration: Algorithms, Convergence, and Verification",
+        "url": "https://proceedings.mlr.press/v235/meng24b.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式全文列 UIUC 与滑铁卢，没有目标企业作者；2024 同题预印本并入 PMLR。",
+        "year": 2024
+      },
+      {
+        "title": "Zubov-Koopman Learning of Maximal Lyapunov Functions",
+        "url": "https://ieeexplore.ieee.org/document/10644273",
+        "outcome": "no-evidence",
+        "note": "ACC 2024 正式论文署 UIUC 和滑铁卢；本篇的最大 Lyapunov 函数会议记录与后续更完整的吸引域期刊各有完整正文，未见企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Compositionally Verifiable Vector Neural Lyapunov Functions for Stability Analysis of Interconnected Nonlinear Systems",
+        "url": "https://ieeexplore.ieee.org/document/10644247",
+        "outcome": "no-evidence",
+        "note": "2024 ACC 正式论文首页注明三名作者来自滑铁卢，孟毅明来自 UIUC。未见目标企业员工。",
+        "year": 2024
+      },
+      {
+        "title": "TOOL LyZNet: A Lightweight Python Tool for Learning and Verifying Neural Lyapunov Functions and Regions of Attraction",
+        "url": "https://doi.org/10.1145/3641513.3650134",
+        "outcome": "no-evidence",
+        "note": "ACM HSCC 正式工具论文列滑铁卢和 UIUC，2024-05 于香港会议发表，但会议地点不能证明港校研究生或目标公司参与。",
+        "year": 2024
+      },
+      {
+        "title": "LyZNet with Control: Physics-Informed Neural Network Control of Nonlinear Systems with Formal Guarantees",
+        "url": "https://doi.org/10.1016/j.ifacol.2024.07.448",
+        "outcome": "no-evidence",
+        "note": "ADHS 正式 6 页正文列滑铁卢与 UIUC，主题是基于工具的最优控制。Elsevier 正式 DOI 与作者主页误贴的 HSCC 工具 DOI 已区分。",
+        "year": 2024
+      },
+      {
+        "title": "Towards Learning and Verifying Maximal Neural Lyapunov Functions",
+        "url": "https://ieeexplore.ieee.org/document/10383299",
+        "outcome": "no-evidence",
+        "note": "2023 CDC 正式稿四人均署滑铁卢大学，2023 同题预印本并入。未列目标企业。",
+        "year": 2023
+      },
+      {
+        "title": "Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE Model with Small Multiplicative Noise Close to Stall Bifurcation",
+        "url": "https://doi.org/10.1007/978-3-031-72794-8_8",
+        "outcome": "no-evidence",
+        "note": "成文源自 2023 IUTAM 专题会，书章 2024 正式出版。正文署滑铁卢与欧洲学术机构；未发现范围企业。",
+        "year": 2024
+      }
+    ],
+    "note": "逐篇核完本人独立书目列出的 2023—2026 研究原文，正式书目与在校档案、实名 ORCID 及 DBLP 并核。本人自 2026 年才在港科大（广州）任教；作者索引混有不同 ORCID 的交通控制研究者，正在补核主页以外可归属于本人的新增篇目，现阶段标部分。"
   }
 };
