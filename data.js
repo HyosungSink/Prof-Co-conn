@@ -39775,6 +39775,59 @@ const survey = {
         "华中科技大学同篇作者；具名指导该项目的两位在读学生。",
         "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
       ]
+    },
+    {
+      "id": "async-fork-alibaba-sjtu-quan-chen",
+      "paperId": "doi:10.14778/3579075.3579079",
+      "company": "阿里巴巴",
+      "team": "阿里云操作系统与数据库团队",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "陈全 · Quan Chen",
+        "上交博士导师，该文共同通讯；庞浦本人列陈全为博士导师。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html"
+      ],
+      "employee": [
+        "Gang Deng",
+        "阿里云内核开发人员；具名与庞浦等贡献的共同第一作者。论文给出的单位与阿里 cloud-kernel 同期技术工作可对照。",
+        "https://lists.openanolis.cn/hyperkitty/list/cloud-kernel%40lists.openanolis.cn/thread/XMBD6BSQ6AG4TAI26PSBHQS7LG7HYCDO/"
+      ],
+      "student": [
+        "庞浦 · Pu Pang",
+        "上交博士生、同研究共同第一作者；正式版同时署上交与阿里，具体研究由阿里云操作系统团队、数据库团队与上交共同开发并部署。",
+        "https://pangpu.github.io/"
+      ],
+      "title": "Async-fork: Mitigating Query Latency Spikes Incurred by the Fork-based Snapshot Mechanism from the OS Level",
+      "short": "Async-fork",
+      "date": "2023-01",
+      "venue": "PVLDB",
+      "area": "数据库系统与操作系统协同优化",
+      "paper": "https://www.vldb.org/pvldb/vol16/p1033-chen.pdf",
+      "extra": [
+        [
+          "阿里云开发者社区项目技术说明",
+          "https://developer.aliyun.com/article/1173179"
+        ],
+        [
+          "阿里官方 cloud-kernel 源码提交",
+          "https://github.com/alibaba/cloud-kernel/commits"
+        ],
+        [
+          "陈全本人发表清单",
+          "https://www.cs.sjtu.edu.cn/~chen-quan/index_EN.html"
+        ],
+        [
+          "首稿及发布日期",
+          "https://arxiv.org/abs/2301.05861"
+        ]
+      ],
+      "evidence": "PVLDB 16(5) 具名陈全通讯和阿里云 Gang Deng，致谢说明学生庞浦与阿里共同第一作者 Gang Deng 等贡献。庞浦本人明确在上交读博由陈全指导，于 2023 获博士。阿里云开发者社区的具体技术材料说明 Async-fork 由其操作系统团队、数据库团队与上交 EPCC 共同研究，已将此方法用在在线 Redis；正式原文亦记阿里创新项目支持，并同时列第一作者庞浦有上交及阿里研究署名。Gang Deng 于早至 2022 年有实际阿里内核技术沟通和公司内核代码工作，与研究发生期及正式原文身份吻合。未推断人事合同日期。",
+      "advising": [
+        "本人具名博士导师",
+        "庞浦公开履历说明上海交大博士导师是陈全；两人同篇，陈全为共同通讯，庞浦与阿里员工共同第一。",
+        "https://pangpu.github.io/"
+      ]
     }
   ]
 };
