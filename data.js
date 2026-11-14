@@ -33124,6 +33124,139 @@ const survey = {
         ]
       ],
       "evidence": "马辰的组名单确认第一作者 Yinan Zhou 自 2023 年秋由西安交大来港城大联合培养博士，马辰在同篇以港城大通讯作者署名。大会正文在首页记录项目为腾讯实习成果，且 Yinan Zhou 同时署名两校与腾讯 ARC Lab；腾讯同篇参与者陈禹昕的高级研究员身份另有自述和会议履历。"
+    },
+    {
+      "id": "gui-cider-meituan-63ltqhgaaaaj",
+      "paperId": "arxiv:2605.28534",
+      "company": "美团",
+      "team": "LongCat 通用 Agent",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "张倬胜 · Zhuosheng Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangzhuosheng.html"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "吴铮 · Zheng Wu",
+        "上海交大硕士生吴铮本人列出 2026 年 1 至 9 月的美团 LongCat 实习，且将 GUI-CIDER 列为第一作者研究。原文首页点名吴铮在美团实习期间完成研究，同篇顾奇为联合通讯作者。",
+        "https://wuzheng02.github.io/"
+      ],
+      "title": "GUI-CIDER: Mid-training GUI Agents via Causal Internalization and Density-aware Exemplar Reselection",
+      "short": "GUI-CIDER",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "多模态智能体",
+      "paper": "https://arxiv.org/pdf/2605.28534",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.28534"
+        ],
+        [
+          "论文 HTML 具名实习脚注",
+          "https://arxiv.org/html/2605.28534"
+        ],
+        [
+          "第一作者项目",
+          "https://github.com/Wuzheng02/GUI-CIDER"
+        ],
+        [
+          "美团 LongCat 2026 年团队报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "上海交大硕士生吴铮本人列出 2026 年 1 至 9 月的美团 LongCat 实习，且将 GUI-CIDER 列为第一作者研究。原文首页点名吴铮在美团实习期间完成研究，同篇顾奇为联合通讯作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴铮本科和硕士履历均具名张倬胜为导师；同篇张倬胜为校方通讯作者。",
+        "https://wuzheng02.github.io/"
+      ]
+    },
+    {
+      "id": "jd-tcp-ruc-su",
+      "company": "京东",
+      "team": "京东探索研究院",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "苏冰 · Bing Su",
+        "中国人民大学高瓴人工智能学院长聘副教授、博士生导师。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/sb/index.htm"
+      ],
+      "employee": [
+        "刘大庆 · Daqing Liu",
+        "本人任职履历注明 2021 年 8 月至 2024 年 12 月受聘于京东，任京东探索研究院研究科学家。",
+        "https://daqingliu.github.io/"
+      ],
+      "student": [
+        "张恒 · Heng Zhang",
+        "中国人民大学高瓴人工智能学院博士生，2024 年完成学位答辩；京东研究员刘大庆具名将张恒列为指导学生。",
+        "https://ai.ruc.edu.cn/xwgg/xygg/20240422001.html"
+      ],
+      "title": "Exploring Temporal Concurrency for Video-Language Representation Learning",
+      "short": "TCP",
+      "date": "2023-10",
+      "venue": "ICCV",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Exploring_Temporal_Concurrency_for_Video-Language_Representation_Learning_ICCV_2023_paper.pdf",
+      "evidence": "CVF 正式论文脚注明确对第一作者张恒标注京东探索研究院实习研究员；京东研究科学家刘大庆同篇署名，其履历单独将张恒标注为在此项目中指导的学生。",
+      "advising": [
+        "校内博士导师",
+        "人大官方博士论文答辩公示明确列名：张恒、指导教师苏冰、论文主题「时序约束下的视频表征学习方法研究」。",
+        "https://ai.ruc.edu.cn/xwgg/xygg/20240422001.html"
+      ],
+      "extra": [
+        [
+          "京东研究科学家当期公开履历：出版清单和指导经历",
+          "https://daqingliu.github.io/assets/files/CV_DaqingLiu_2303.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "jd-vsp-ruc-su",
+      "company": "京东",
+      "team": "京东探索研究院",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "苏冰 · Bing Su",
+        "中国人民大学高瓴人工智能学院长聘副教授、博士生导师。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/sb/index.htm"
+      ],
+      "employee": [
+        "刘大庆 · Daqing Liu",
+        "本人任职履历注明 2021 年 8 月至 2024 年 12 月受聘于京东，任京东探索研究院研究科学家。",
+        "https://daqingliu.github.io/"
+      ],
+      "student": [
+        "张恒 · Heng Zhang",
+        "中国人民大学高瓴人工智能学院博士生，2024 年完成学位答辩；京东研究员刘大庆具名将张恒列为指导学生。",
+        "https://ai.ruc.edu.cn/xwgg/xygg/20240422001.html"
+      ],
+      "title": "Modeling Video As Stochastic Processes for Fine-Grained Video Representation Learning",
+      "short": "VSP",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Modeling_Video_As_Stochastic_Processes_for_Fine-Grained_Video_Representation_Learning_CVPR_2023_paper.pdf",
+      "evidence": "京东探索研究院在职研究科学家刘大庆的当期公开履历，将该论文中张恒标注为其直接指导的研究学生。论文亦列张恒与校内博导苏冰属人大，刘大庆在同一篇明列京东探索研究院。",
+      "advising": [
+        "校内博士导师",
+        "人大官方博士论文答辩公示明确列名：张恒、指导教师苏冰、论文主题「时序约束下的视频表征学习方法研究」。",
+        "https://ai.ruc.edu.cn/xwgg/xygg/20240422001.html"
+      ],
+      "extra": [
+        [
+          "京东研究科学家当期公开履历：出版清单和指导经历",
+          "https://daqingliu.github.io/assets/files/CV_DaqingLiu_2303.pdf"
+        ]
+      ]
     }
   ]
 };

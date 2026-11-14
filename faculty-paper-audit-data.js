@@ -6895,7 +6895,10 @@ const facultyPaperAudits = {
       "https://ai.ruc.edu.cn/szdw/zrjs/sb/index.htm",
       "https://openreview.net/profile?id=~Dongsheng_Jiang2",
       "https://openreview.net/profile?id=~Niuxin1",
-      "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.pdf",
+      "https://daqingliu.github.io/",
+      "https://ai.ruc.edu.cn/xwgg/xygg/20240422001.html",
+      "https://daqingliu.github.io/assets/files/CV_DaqingLiu_2303.pdf"
     ],
     "papers": [
       {
@@ -6903,9 +6906,27 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "CVPR 正式版具名华为实习；学生和企业作者的公开履历分别明确师生关系及华为任职。"
+      },
+      {
+        "title": "Exploring Temporal Concurrency for Video-Language Representation Learning",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Exploring_Temporal_Concurrency_for_Video-Language_Representation_Learning_ICCV_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVF 正式论文脚注明确对第一作者张恒标注京东探索研究院实习研究员；京东研究科学家刘大庆同篇署名，其履历单独将张恒标注为在此项目中指导的学生。"
+      },
+      {
+        "title": "Modeling Video As Stochastic Processes for Fine-Grained Video Representation Learning",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Modeling_Video_As_Stochastic_Processes_for_Fine-Grained_Video_Representation_Learning_CVPR_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "京东探索研究院在职研究科学家刘大庆的当期公开履历，将该论文中张恒标注为其直接指导的研究学生。论文亦列张恒与校内博导苏冰属人大，刘大庆在同一篇明列京东探索研究院。"
+      },
+      {
+        "title": "Tackling the Cross-Modal Retrieval Trilemma with Cross-Modal Indexing",
+        "url": "https://daqingliu.github.io/assets/files/CV_DaqingLiu_2303.pdf",
+        "outcome": "lead",
+        "note": "京东员工简历列为具名指导项目，尚未定位公开发表/预印本的确切题名。"
       }
     ],
-    "note": "已核对这篇和部分论文线索，未覆盖教师全部成果。"
+    "note": "已核查张恒的研修、校企导师和两篇正式论文，另记录同组一份待查成果；全部书目继续核。"
   },
   "lTTeBdkAAAAJ": {
     "from": "2023-01-01",
@@ -10162,5 +10183,23 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
+  },
+  "63LTQhgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangzhuosheng.html",
+      "https://wuzheng02.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "GUI-CIDER: Mid-training GUI Agents via Causal Internalization and Density-aware Exemplar Reselection",
+        "url": "https://arxiv.org/pdf/2605.28534",
+        "outcome": "confirmed",
+        "note": "上海交大硕士生吴铮本人列出 2026 年 1 至 9 月的美团 LongCat 实习，且将 GUI-CIDER 列为第一作者研究。原文首页点名吴铮在美团实习期间完成研究，同篇顾奇为联合通讯作者。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   }
 };
