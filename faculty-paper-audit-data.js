@@ -48783,9 +48783,93 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2312.01104v1",
         "outcome": "no-evidence",
         "note": "原稿作者均署浙大 CAD&CG；研究提出人体姿态量化模型，与使用语言模型解析提示的 CPoser 分列。"
+      },
+      {
+        "title": "Harnessing the Power of Reinforcement Learning for Language-Model-Based Information Retriever via Query-Document Co-Augmentation",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2506.18670v1",
+        "outcome": "lead",
+        "note": "同篇列美团 Wei Shi 与 Hui Su；丁尧相教师主页列 Jingming Liu 为硕士生。论文、作者发布代码及可查书目尚未核实学生是否为美团完成本项研究。"
+      },
+      {
+        "title": "Thinking with Patterns: Breaking the Perceptual Bottleneck in Visual Planning via Pattern Induction",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2605.16848v1",
+        "outcome": "no-evidence",
+        "note": "首发原稿全体署浙大 CAD&CG；调用外部模型未显示模型方参与。"
+      },
+      {
+        "title": "Can AI Understand the Language of Origami?",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.13856v3",
+        "outcome": "no-evidence",
+        "note": "按作者说明，此版本与先前 OrigamiBench 为不同文章。新稿署浙大、南大、卢森堡大学、MIT、鲁汶大学及独立研究人员，无调查企业。"
+      },
+      {
+        "title": "OrigamiBench: An Interactive Environment to Synthesize Flat-Foldable Origamis",
+        "year": 2026,
+        "url": "https://llmforplanning.github.io/ICML26/",
+        "outcome": "no-evidence",
+        "note": "ICML 工作坊单列本篇，2026 年 3 月已有首稿。首稿另有东北大学与 Algoverse AI Research；未找到范围内企业参与。"
+      },
+      {
+        "title": "Model Spider: Learning to Rank Pre-Trained Models Efficiently",
+        "year": 2023,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/2c71b14637802ed08eaa3cf50342b2b9-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "2023 年预印本与 NeurIPS 正式稿同作，作者分别署南大和浙大。"
+      },
+      {
+        "title": "Generating by Understanding: Neural Visual Generation with Logical Symbol Groundings",
+        "year": 2023,
+        "url": "https://arxiv.org/html/2310.17451v4",
+        "outcome": "no-evidence",
+        "note": "2023 首稿与 KDD 2025 正式版同作。正式版本的关联高校为浙大、南大与宾夕法尼亚大学，未见调查企业参与。"
+      },
+      {
+        "title": "Tree-Guided Identify-Then-Exploit: A Unified Framework of Best Arm Identification and Regret Minimization for Dueling Bandits",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2606.01799v1",
+        "outcome": "no-evidence",
+        "note": "两位作者均署浙大，未披露范围内企业参与。"
+      },
+      {
+        "title": "Reinforcement Learning from Bagged Reward",
+        "year": 2024,
+        "url": "https://openreview.net/pdf/873f490709c37292cb43103d4da5bf5b7a8676b8.pdf",
+        "outcome": "no-evidence",
+        "note": "首稿于 2024 年 2 月公开。TMLR 正式版有微软研究院作者，微软不在调查的 14 家企业内。"
+      },
+      {
+        "title": "Autonomous Imagination: Closed-Loop Decomposition of Visual-to-Textual Conversion in Visual Reasoning for Multimodal Large Language Models",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2411.18142v1",
+        "outcome": "no-evidence",
+        "note": "2024 年以 Enhancing Visual Reasoning with Autonomous Imagination 为题首发，后续 TMLR 版为同项。公开版作者署浙大，未见调查企业参与。"
+      },
+      {
+        "title": "Pre-Training Meta-Rule Selection Policy for Visual Generative Abductive Learning",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2503.06427v1",
+        "outcome": "no-evidence",
+        "note": "以可复用元规则选择策略为独立贡献，区别于较早的 AbdGen；公开原文作者署浙大与南大，未见调查企业参与。"
+      },
+      {
+        "title": "Enabling Synergistic Full-Body Control in Prompt-Based Co-Speech Motion Generation",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2410.00464v1",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式版本作者均列浙大 CAD&CG，未查到调查企业参与。"
+      },
+      {
+        "title": "Learning Only When It Matters: Cost-Aware Long-Tailed Classification",
+        "year": 2024,
+        "url": "https://www.lamda.nju.edu.cn/publication/aaai24he.pdf",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式原文作者署浙大和南大；实验中的销售数据不等于企业合著。"
       }
     ],
-    "note": "已核对作者公开书目的首批论文与首发版本，继续按公开书目逐项核对。"
+    "note": "已继续核对个人书目和正式出版与首发稿。原稿课题或作者明显不同的同号稿分别查；《Seeing Differently, Acting Similarly》于 2021 年首发，未重复列入。其余公开作品仍在梳理。"
   },
   "DhhH9J4AAAAJ": {
     "from": "2023-01-01",
