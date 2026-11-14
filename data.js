@@ -43297,6 +43297,64 @@ const survey = {
         "https://people.csail.mit.edu/frankzydou/files/CV_Zhiyang_Dou.pdf"
       ],
       "year": 2023
+    },
+    {
+      "id": "bytedance-resampling-forcing-cuhk-dahua-lin",
+      "paperId": "arxiv:2512.15702",
+      "company": "字节跳动",
+      "team": "Seed · 视频生成",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "林达华 · Dahua Lin",
+        "香港中文大学多媒体实验室教师、郭雨维的博士导师，原文及 ECCV 正式版同署香港中文大学。",
+        "https://mmlab.ie.cuhk.edu.hk/people.html"
+      ],
+      "student": [
+        "郭雨维 · Yuwei Guo",
+        "香港中文大学在读博士；本人列明 2025 年在字节 Seed 视频生成团队任研究实习生。2025 年 12 月首稿首页星号只标郭雨维，注明本研究在 ByteDance Seed 完成。",
+        "https://guoyww.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "本人公开学籍与经历明确点名林达华为博士导师，港中文实验室名单可交叉复核；林达华与学生在同篇正式署名。",
+        "https://guoyww.github.io/"
+      ],
+      "employee": [
+        "Ceyuan Yang",
+        "字节跳动在职研究科学家、同篇 ByteDance Seed 署名的通讯作者；SIGGRAPH 2025 会议档案亦将他列为字节跳动。",
+        "https://ceyuan.me/"
+      ],
+      "title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+      "short": "Resampling Forcing",
+      "year": 2025,
+      "date": "2025-12-17",
+      "venue": "ECCV 2026",
+      "area": "视觉与多模态",
+      "paper": "https://doi.org/10.1007/978-3-032-37574-2_18",
+      "extra": [
+        [
+          "首发 PDF：首页对第一作者郭雨维具名标记在 ByteDance Seed 完成研究",
+          "https://arxiv.org/pdf/2512.15702v1"
+        ],
+        [
+          "正式出版作者与上线日期",
+          "https://link.springer.com/chapter/10.1007/978-3-032-37574-2_18"
+        ],
+        [
+          "正式附录所载作者与机构",
+          "https://media.springernature.com/original/springer-static/esm/chp%3A10.1007%2F978-3-032-37574-2_18/MediaObjects/700343_1_En_18_MOESM1_ESM.pdf"
+        ],
+        [
+          "同篇企业通讯作者 2025 年公开任职旁证",
+          "https://s2025.conference-schedule.org/presenter/?uid=039073"
+        ],
+        [
+          "作者项目主页",
+          "https://guoyww.github.io/projects/resampling-forcing/"
+        ]
+      ],
+      "evidence": "ECCV 2026 同文首版于 2025-12-17 公开。arXiv 首版原始 PDF 只在第一作者郭雨维姓名后加星，对应脚注说明本研究在 ByteDance Seed 完成。正式版按港中文列郭雨维，仍与首版同作者和同研究；其本人公开履历明确 2025 在字节 Seed 视频生成组实习、师从港中文林达华。林达华与他同篇；企业通讯作者 Ceyuan Yang 的个人页及同年 SIGGRAPH 官方档案均独立确认企业身份。与既有的 Long Context Tuning、Context Unrolling in Omni Models 为不同论文。"
     }
   ]
 };

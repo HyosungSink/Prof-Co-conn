@@ -45204,5 +45204,30 @@ const facultyPaperAudits = {
         "note": "期刊署武汉大学、英国洛桑研究所及日本统计数理研究所、东北大学、埼玉大学、东京大学。"
       }
     ]
+  },
+  "GMzzRRUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1007/978-3-032-37574-2_18",
+      "https://guoyww.github.io/",
+      "https://mmlab.ie.cuhk.edu.hk/people.html",
+      "https://ceyuan.me/",
+      "https://arxiv.org/pdf/2512.15702v1",
+      "https://link.springer.com/chapter/10.1007/978-3-032-37574-2_18",
+      "https://media.springernature.com/original/springer-static/esm/chp%3A10.1007%2F978-3-032-37574-2_18/MediaObjects/700343_1_En_18_MOESM1_ESM.pdf",
+      "https://s2025.conference-schedule.org/presenter/?uid=039073",
+      "https://guoyww.github.io/projects/resampling-forcing/"
+    ],
+    "papers": [
+      {
+        "title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+        "url": "https://arxiv.org/html/2512.15702v1",
+        "outcome": "confirmed",
+        "note": "ECCV 2026 同文首版于 2025-12-17 公开。arXiv 首版原始 PDF 只在第一作者郭雨维姓名后加星，对应脚注说明本研究在 ByteDance Seed 完成。正式版按港中文列郭雨维，仍与首版同作者和同研究；其本人公开履历明确 2025 在字节 Seed 视频生成组实习、师从港中文林达华。林达华与他同篇；企业通讯作者 Ceyuan Yang 的个人页及同年 SIGGRAPH 官方档案均独立确认企业身份。与既有的 Long Context Tuning、Context Unrolling in Omni Models 为不同论文。",
+        "year": 2025
+      }
+    ]
   }
 };
