@@ -34727,7 +34727,11 @@ const facultyPaperAudits = {
       "https://api.crossref.org/works/10.1109/TC.2025.3648132",
       "https://hcahoi.github.io/",
       "https://www.microarch.org/micro58/program/",
-      "https://github.com/YujianFu97/Vista-Technical-Report"
+      "https://github.com/YujianFu97/Vista-Technical-Report",
+      "https://experts.illinois.edu/en/publications/compilation-and-optimizations-for-efficient-machine-learning-on-e/",
+      "https://www.acsac.org/2024/files/web/slides/shen-282-t-edge.pdf",
+      "https://sg.linkedin.com/in/yujian-fu-460186276",
+      "https://www.emerald.com/ftsec/article-abstract/5/4/70/1333214/Cybersecurity-for-Modern-Smart-Grid-Against"
     ],
     "papers": [
       {
@@ -34868,7 +34872,7 @@ const facultyPaperAudits = {
         "title": "Vista: Vector Indexing and Search for Large-Scale Imbalanced Datasets",
         "url": "https://ieeexplore.ieee.org/document/11112943/",
         "outcome": "lead",
-        "note": "IEEE 正式页面及第一作者同时期公开技术报告可核身份。需进一步核查原文与后续含字节作者的几何分区论文是否有同一实体或学生同项企业研究。"
+        "note": "ICDE 会议卷及第一作者项目把题名、作者逐一对应；会议卷列 Cheng Chen 属字节、陈瑶署新加坡国大。第一作者自述 2019–2024 在新加坡国大就读，后来任职 TikTok；尚未核实研究时点的学生、校内指导和同篇企业角色，仍保留线索。"
       },
       {
         "year": 2025,
@@ -34911,6 +34915,34 @@ const facultyPaperAudits = {
         "url": "https://soldierchen.github.io/assets/pdf/lightrw.pdf",
         "outcome": "no-evidence",
         "note": "ACM 正式排版 PDF 列五位作者均为新加坡国大；Google 奖项和 AMD 设备捐助仅见致谢且不属于范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Approaching Shannon Bound with Lossless LLM Weight Compression",
+        "url": "https://arxiv.org/html/2606.15789",
+        "outcome": "no-evidence",
+        "note": "ISCA 正式研究作者稿明确陈瑶署华中科大，另有新加坡国大与苏黎世联邦理工。实验运行 Qwen 不能作为阿里参与，暂未发现目标企业研究人员。"
+      },
+      {
+        "year": 2024,
+        "title": "T-Edge: Trusted Heterogeneous Edge Computing",
+        "url": "https://arxiv.org/html/2412.13905",
+        "outcome": "no-evidence",
+        "note": "ACSAC 作者稿及官方报告页逐名列新加坡国大；未发现站内指定企业人员或企业内学生科研。"
+      },
+      {
+        "year": 2023,
+        "title": "Compilation and Optimizations for Efficient Machine Learning on Embedded Systems",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-39932-9_3",
+        "outcome": "no-evidence",
+        "note": "Springer 正式章及伊利诺伊大学资料确认 2023 出版，2022 预印本并入。查当时机构，无范围企业合作证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Cybersecurity for Modern Smart Grid Against Emerging Threats",
+        "url": "https://arxiv.org/abs/2404.04466",
+        "outcome": "no-evidence",
+        "note": "出版商正式期刊与作者公开稿题名及五位作者相同；2024 arXiv 对应 2023 期刊版。未发现校内导师、合格学生和名单内企业在本项有同篇证据。"
       }
     ],
     "note": "第一批逐篇对照本人论文清单、DBLP 和实名 ORCID。早期多篇署新加坡国立大学；统一保留在个人书目，按研究期的实际身份研判。后续待补齐发表清单、索引漏项和受限全文。 本轮已区分同名作者、不同论文的相近标题和同研究的预印本／会议／期刊版本；未把只在较早稿使用的旧单位泛化到入职华中科大后的研究。"
@@ -35101,5 +35133,181 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核对国科大个人页、软件所两个实验室书目、ORCID、DBLP、主要合作者书目与截止日前公开原文；核对中文卷期、正式出版与同工作预印本，并排除南京理工机械工程及医学问答的同名作者。COMPSPEN 缺学生在具体企业做该研究的证据，仅记线索。"
+  },
+  "jCAwFlgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/sunshixuan.html",
+      "https://shixuansun.github.io/",
+      "https://shixuansun.github.io/publications/",
+      "https://shixuansun.github.io/people/",
+      "https://dblp.org/pid/131/9481.html",
+      "https://orcid.org/0000-0003-4060-9438",
+      "https://hcahoi.github.io/",
+      "https://wchen0.github.io/",
+      "https://gaosen.org/",
+      "https://h20zhang.github.io/projects/",
+      "https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/LLM%2BGraph/LLMGraph-1.pdf",
+      "https://ldbcouncil.org/docs/audits/snb/LDBC_SNB_I_20251201_SF100-300-1000_huawei.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "FaaSBoard: Efficient Graph Processing with a Disaggregated Architecture on Serverless Services",
+        "url": "https://doi.org/10.1145/3802054",
+        "outcome": "no-evidence",
+        "note": "SIGMOD 原始议程和正式刊载均具名中国电信云计算研究院；该企业不在目标清单，使用 AWS 不代表合作。Yushi Liu 的后续任职不当成本项研究经历。"
+      },
+      {
+        "year": 2026,
+        "title": "InfiniLoRA: Disaggregated Multi-LoRA Serving for Large Language Models",
+        "url": "https://arxiv.org/abs/2604.07173",
+        "outcome": "lead",
+        "note": "首稿 2026-04 在范围内，与 ACM DOI 10.1145/3828523.3857067 同文；陈宏宇本人具名孙世轩为博士导师；Zilin Xu 署字节。并未见此项目为陈宏宇的字节研发。Letian Ruan 将这一阶段实习列为 MiniMax，字节起始时间另列 2027。"
+      },
+      {
+        "year": 2026,
+        "title": "LiquidCP: Decoupling Attention Tasks from Communication and Kernel Boundaries in Context Parallelism",
+        "url": "https://arxiv.org/abs/2611.04401",
+        "outcome": "no-evidence",
+        "note": "11 月初公开原文与本人书目新闻同一。原文均署学术单位，无目标企业研发或该项员工。"
+      },
+      {
+        "year": 2026,
+        "title": "gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs",
+        "url": "https://doi.org/10.14778/3811243.3811248",
+        "outcome": "lead",
+        "note": "陈蔚天本人明确上交博士、孙世轩导师、2025 年 7–10 月在字节 Data Graph 组实习。正式文具名三位字节作者，Cheng Chen 的 VLDB 演讲身份是 ByteGraph Tech Lead。首稿与公开代码的最早提交均为 2026 年 4 月，均未明示此篇在该实习期内完成；暂缺本项目的学生企业研发记录。"
+      },
+      {
+        "year": 2025,
+        "title": "GES: High-Performance Graph Processing Engine and Service in Huawei",
+        "url": "https://doi.org/10.1145/3722212.3724439",
+        "outcome": "lead",
+        "note": "ACM 论文和 LDBC 的华为 audit p.22 均具名高森、孙世轩、华为 Hao Zhang 并列具体贡献；孙的课题组网页列高森为共导博士，但学生本人明确在新加坡国立大学注册，现无当期上交注册证据。论文的双署不能证明学籍。"
+      },
+      {
+        "year": 2025,
+        "title": "RapidStore: An Efficient Dynamic Graph Storage System for Concurrent Queries",
+        "url": "https://www.vldb.org/pvldb/vol18/p3587-sun.pdf",
+        "outcome": "lead",
+        "note": "PVLDB 首页具名正式华为单位人员，孙世轩通讯；第一作者郝驰宇的履历把 RapidStore 归在 2024 年赴新加坡国立大学交流、由何丙胜指导的经历，代码在 SJTU-Liquid。未找到其在华为完成该论文工作的证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Revisiting the Design of In-Memory Dynamic Graph Storage",
+        "url": "https://doi.org/10.1145/3709720",
+        "outcome": "lead",
+        "note": "SIGMOD 原文具名华为 Hao Zhang；上交本科郝驰宇本人将此研究列在由孙世轩指导的上交 EPCC-Liquid 经历中，未指为在华为开展。上交 Jixian Su 同篇但暂无其企业参与证据。"
+      },
+      {
+        "year": 2024,
+        "title": "FaaSGraph: Enabling Scalable, Efficient, and Cost-Effective Graph Processing with Serverless Computing",
+        "url": "https://doi.org/10.1145/3620665.3640361",
+        "outcome": "no-evidence",
+        "note": "ASPLOS 出版与程序均列上交及新加坡国立大学。仅使用公开云服务进行数据测试；无范围内企业研究署名或学生在公司完成此项工作的证据。"
+      }
+    ],
+    "note": "从上交官网、本人书目、DBLP 及 ORCID 建立清单，已先核对近期图计算与系统论文。校内、访学、企业经历分开记录。仍在扩展完整书目。"
+  },
+  "pUCv_e4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://arxiv.org/abs/2611.07413",
+      "https://www.cse.cuhk.edu.hk/people/faculty/xiao-liang/",
+      "https://xiao-liang.github.io/",
+      "https://xiao-liang.github.io/Resources/CV-Xiao-Liang.pdf",
+      "https://research.cuhk.edu.hk/en/persons/xiao-liang-2/",
+      "https://orcid.org/0000-0003-0858-9289",
+      "https://dblp.org/pid/06/4676-14.html",
+      "https://arxiv.org/pdf/2611.07413",
+      "https://arxiv.org/abs/2609.26448",
+      "https://arxiv.org/pdf/2609.26448",
+      "https://eprint.iacr.org/2026/2118",
+      "https://doi.org/10.1007/978-3-032-25336-1_15",
+      "https://arxiv.org/pdf/2409.06317",
+      "https://research.cuhk.edu.hk/en/publications/the-black-box-simulation-barrier-persists-in-a-fully-quantum-worl-2/",
+      "https://doi.org/10.1007/978-981-95-5125-5_12",
+      "https://link.springer.com/chapter/10.1007/978-981-95-5125-5_12",
+      "https://research.cuhk.edu.hk/en/publications/round-efficient-composable-two-party-quantum-computation/",
+      "https://eprint.iacr.org/2025/1595",
+      "https://doi.org/10.1007/978-981-95-5125-5_14",
+      "https://link.springer.com/chapter/10.1007/978-981-95-5125-5_14",
+      "https://research.cuhk.edu.hk/en/publications/almost-total-puzzles-andtheir-applications/",
+      "https://eprint.iacr.org/2025/949",
+      "https://doi.org/10.1007/978-3-032-01884-7_1",
+      "https://arxiv.org/pdf/2502.13830",
+      "https://research.cuhk.edu.hk/en/publications/the-round-complexity-ofblack-box-post-quantum-secure-computation/",
+      "https://doi.org/10.1109/FOCS57990.2023.00041",
+      "https://arxiv.org/pdf/2207.05861",
+      "https://research.cuhk.edu.hk/en/publications/a-new-approach-to-post-quantum-non-malleability/",
+      "https://doi.org/10.1007/978-3-031-38554-4_5",
+      "https://link.springer.com/chapter/10.1007/978-3-031-38554-4_5",
+      "https://research.cuhk.edu.hk/en/publications/on-concurrent-multi-party-quantum-computation/",
+      "https://eprint.iacr.org/2023/827"
+    ],
+    "papers": [
+      {
+        "title": "Structured Quantum Hardness from Unstructured Assumptions",
+        "url": "https://arxiv.org/abs/2611.07413",
+        "outcome": "no-evidence",
+        "note": "2026-11-05 公开初版。原稿列港中大师生 Xiao Liang、Chak Fai Yung 与 NTT Social Informatics Laboratories 的 Takashi Yamakawa；导师履历列 Yung 为同期港中大本科研究助理。NTT 不在目标企业范围，论文仅披露香港研究资助，未找到调查范围内其他企业的同篇参与。",
+        "year": 2026
+      },
+      {
+        "title": "I Prove, Therefore I Am: Spatiotemporal Multi-Party Computation",
+        "url": "https://arxiv.org/abs/2609.26448",
+        "outcome": "no-evidence",
+        "note": "2026-09-22 公开初版。导师履历明确 Ziqing Guo 自 2025-08 起为其港中大博士生。原文同篇企业作者 Fuyuki Kitagawa 署 NTT Social Informatics Laboratories（非目标企业），未找到范围企业参与；arXiv 与 IACR ePrint 2026/2118 合并。",
+        "year": 2026
+      },
+      {
+        "title": "The Black-Box Simulation Barrier Persists in a Fully Quantum World",
+        "url": "https://doi.org/10.1007/978-3-032-25336-1_15",
+        "outcome": "no-evidence",
+        "note": "Springer 正式论文、港中大目录与开放原稿均列作者机构为 Rice、中央研究院、港中大与 MIT，无目标企业合著或具名学生参与企业研究证据。2024 arXiv/IACR 同题稿及 TQC 同题报告均并入 2026 EUROCRYPT 正式论文。",
+        "year": 2026
+      },
+      {
+        "title": "Round-Efficient Composable Two-Party Quantum Computation",
+        "url": "https://doi.org/10.1007/978-981-95-5125-5_12",
+        "outcome": "no-evidence",
+        "note": "Springer 正式作者单位含港中大、卡内基梅隆大学、Stony Brook 及 NTT；履历说明 Yuhao Tang 当时为 Stony Brook 博士访问生。未找到目标企业参与。出版商的首次在线日期为 2025-12-08；书卷引用年份 2026，按首次正式发表 2025 计。IACR 2025/1595 并入。",
+        "year": 2025
+      },
+      {
+        "title": "Almost-Total Puzzles and Their Applications",
+        "url": "https://doi.org/10.1007/978-981-95-5125-5_14",
+        "outcome": "no-evidence",
+        "note": "正式作者单位为港中大、Stony Brook 及 NTT；未找到目标企业的同篇参与。出版商与港中大均列 2025 年 12 月首次正式发表，书卷引用年份为 2026；IACR 2025/949 合并。",
+        "year": 2025
+      },
+      {
+        "title": "The Round Complexity of Black-Box Post-Quantum Secure Computation",
+        "url": "https://doi.org/10.1007/978-3-032-01884-7_1",
+        "outcome": "no-evidence",
+        "note": "原稿和 CRYPTO 正式记录列港中大、NUS、Stony Brook 和 NTT。导师履历把 Rohit Chatterjee 列为 NUS 博士后访客；NTT 不在范围，亦未找到其他目标企业参加。arXiv 与 IACR ePrint 合并。",
+        "year": 2025
+      },
+      {
+        "title": "A New Approach to Post-Quantum Non-Malleability",
+        "url": "https://doi.org/10.1109/FOCS57990.2023.00041",
+        "outcome": "no-evidence",
+        "note": "2022 预印本与 2023 FOCS 正式版为同篇；原稿列 Rice、Stony Brook、NTT。作者 2024 年 9 月才加入港中大，2023 同篇校企参与不符合范围。",
+        "year": 2023
+      },
+      {
+        "title": "On Concurrent Multi-Party Quantum Computation",
+        "url": "https://doi.org/10.1007/978-3-031-38554-4_5",
+        "outcome": "no-evidence",
+        "note": "2023 CRYPTO 的出版机构记录列 NTT Research、Carnegie Mellon、Max Planck；Xiao Liang 署 NTT，履历确认当时在 NTT 做博士后。未找到目标高校导师指导在读者在调查企业完成该篇的证据。QCrypt 同题报告与 IACR 扩展原稿合并。",
+        "year": 2023
+      }
+    ],
+    "note": "核对港中大院系档案和学术门户条目、本人完整书目和履历、实名 ORCID 以及 DBLP 同一作者记录，逐篇核查截至 2026-11-12 的 8 篇；将同题 arXiv、IACR、会议报告与正式发表归为一篇。两篇带具名在读学生或本科研究助理的论文，其企业作者均属不在本项目范围的 NTT，其余资料未满足三方证据。"
   }
 };
