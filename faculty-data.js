@@ -6229,7 +6229,6 @@ const facultyDirectory = {
         ["Ramamohanarao Kotagiri", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/27f72bc03baa41de87375850fd6b479e.htm"],
         ["堵丁柱", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/9d3454ff28c441b1a14a4307876c50d6.htm"],
         ["韩家炜", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/5dbec65441dd482db1b558b0d1405552.htm"],
-        ["黄铭钧", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/27e41b5ff14a4f029dacd2935acd3f30.htm"],
         ["刘伶", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/410abfad369c42c58f2ed364b3858143.htm"],
         ["孟卫一", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/7801c0e0a3384fe5a96b49ea192cc828.htm"],
         ["于旭", "客座教授", "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/kzjs2/d752f63473d546de931da49f4ffefcb3.htm"],
