@@ -55819,7 +55819,10 @@ const facultyPaperAudits = {
       "https://gr.xjtu.edu.cn/tingliu/zh_CN/zhym/984479/list/index.htm",
       "https://orcid.org/0000-0002-6464-5428",
       "https://arxiv.org/abs/2107.12732",
-      "https://onlinelibrary.wiley.com/doi/10.1002/smr.2528"
+      "https://onlinelibrary.wiley.com/doi/10.1002/smr.2528",
+      "https://orcid.org/0000-0002-9327-0987",
+      "https://faculty.xjtu.edu.cn/mingfan/zh_CN/zdylm/995662/list/index.htm",
+      "https://doi.org/10.21655/ijsi.1673-7288.00333"
     ],
     "papers": [
       {
@@ -55855,7 +55858,7 @@ const facultyPaperAudits = {
         "title": "MiniChecker: Detecting Data Privacy Risk of Abusive Permission Request Behavior in Mini-Programs",
         "url": "https://conf.researchr.org/details/ase-2024/ase-2024-research/134/MiniChecker-Detecting-Data-Privacy-Risk-of-Abusive-Permission-Request-Behavior-in-Mi",
         "outcome": "lead",
-        "note": "王寅第一方 https://wyinleo.github.io/ 明载 2019-09–2025-12 西交博士、导师范铭及刘烃、2023-02–2024-02 蚂蚁实习。ASE 原题将 Shijie Li 等四人署蚂蚁；时任蚂蚁 IPE 负责人邸鹏 https://pengd.github.io/ 具名指该文为自己蚂蚁团队成果。GitHub 原始组织索引标此项同名仓库 2023-12-16 已创建（如组织接口快照，不含可归属个人的改动；独立项目入口目前不通）。强线索，但还缺直接写明王寅在蚂蚁实习时做该篇的记录或可归属实质提交。",
+        "note": "蚂蚁多名同篇作者，时任蚂蚁 IPE 负责人邸鹏将此作列为团队项目（pengd.github.io），王寅本人材料确认范铭和刘烃指导与 2023-02–2024-02 蚂蚁研究实习；公开 GitHub 项目在同一期间建立，但未查获王寅能归属的具体企业研究凭证。ASE 在线人员页把另一位作者 Hao Zhou 标为腾讯，ACM 印刷署名则为香港理工，也无王寅腾讯实研。",
         "relationIds": []
       },
       {
@@ -56023,7 +56026,7 @@ const facultyPaperAudits = {
         "title": "Do as You Say: Consistency Detection of Data Practice in Program Code and Privacy Policy in Mini-App",
         "url": "https://arxiv.org/pdf/2302.13860",
         "outcome": "lead",
-        "note": "2023-02 预印本首页将 Qi Xiong 与 Yuhao Liu 署为腾讯云与智慧产业事业群，2024 IEEE 定稿保留腾讯作者 Qi Xiong；两版同作。范铭明确指导首作王寅，但王寅履历同期注明蚂蚁研究实习，在腾讯参与本项研究的学生证据未找到。",
+        "note": "2023-02 预印本首页将 Qi Xiong 与 Yuhao Liu 署为腾讯云与智慧产业事业群，2024 IEEE 定稿保留腾讯作者 Qi Xiong；合并同作。学校导师资料列首作王寅、同篇刘峻峰与陶俊杰；王寅在读期明确的企业实习是蚂蚁，三位均未找到在腾讯参与本项的证据。",
         "relationIds": []
       },
       {
@@ -56057,9 +56060,153 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "ICSE 2023 列西交、UC Riverside 和荣耀终端，未见名单内公司。",
         "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "GraphAHA: Graph-Based Adaptive Search with Heterogeneous Actions for Test-Time Code Generation",
+        "url": "https://arxiv.org/html/2609.12757v1",
+        "outcome": "no-evidence",
+        "note": "2026-09 首稿分别列西交、新加坡管理大学；未见目标企业作者或实习说明。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Not All Tokens Are Equal: Region-Aware Consistency Repair of Backdoors in MLLMs",
+        "url": "https://arxiv.org/html/2608.24354v1",
+        "outcome": "no-evidence",
+        "note": "作者稿列西交、新加坡管理大学，未见目标企业署名。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Towards an Oracle for Binary Decomposition Under Compilation Variance",
+        "url": "https://doi.org/10.1145/3803807",
+        "outcome": "no-evidence",
+        "note": "ACM 正稿署大连理工和西交，未见企业研究者；与旧的内联函数匹配论文为不同技术项目。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "TDTS: A Trusted Data Trading System Framework Based on Blockchain Data Identification and Private Information Retrieval",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-3477-7_24",
+        "outcome": "no-evidence",
+        "note": "Springer 2026-01-02 正式在线；五位作者的三条机构均为西交。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "RightsGen: Automated Generation of User Rights Declaration on Android via LLM-Guided UI Traversal",
+        "url": "https://doi.org/10.1145/3803437.3805538",
+        "outcome": "no-evidence",
+        "note": "ACM 记录作者署西交及中国信通院；企业清单不含信通院。学校所列学生毕业去向不等于本项目企业实研。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "When fixes teach: Repair-aware contrastive learning for optimization-resilient binary vulnerability detection",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1383762126000408",
+        "outcome": "no-evidence",
+        "note": "Elsevier 出版条目署西安邮电大学、西交和罗切斯特理工学院，没有目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Software Architecture Recovery Augmented With Semantics",
+        "url": "https://doi.org/10.1109/TSE.2025.3620670",
+        "outcome": "no-evidence",
+        "note": "2025-10 提前在线，2026-01 正卷，原始作者机构为西交、南洋理工及北航，无目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Interpretable Defense Against Structural Adversarial Attacks on Android Malware Detection",
+        "url": "https://researchconnect.stonybrook.edu/en/publications/interpretable-defense-against-structural-adversarial-attacks-on-a/",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025 年先行在线；西交、香港理工、石溪大学和雪城大学署名。Hao Zhou 的现任职不能用于认定本篇在企业开展。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Detecting State Manipulation Vulnerabilities in Smart Contracts Using LLM and Static Analysis",
+        "url": "https://doi.org/10.1145/3755881.3755935",
+        "outcome": "no-evidence",
+        "note": "2025-06 预印本与正式版本同作；合作者来自西交和云南电网，后者不属于目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "3Erefactor: Effective, Efficient and Executable Refactoring Recommendation for Software Architectural Consistency",
+        "url": "https://doi.org/10.1109/TSE.2024.3449564",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版记录作者来自西交、南京理工；未见企业具名成员。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Business Compliance Detection of Smart Contracts in Electricity and Carbon Trading Scenarios",
+        "url": "https://doi.org/10.1109/ISSREW63542.2024.00074",
+        "outcome": "no-evidence",
+        "note": "IEEE ISSREW 出版作者单位均为西交；电力交易场景本身不构成公司合作。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Dynamic Testing for Mobile Privacy Compliance",
+        "url": "https://doi.org/10.1109/ISSREW63542.2024.00061",
+        "outcome": "no-evidence",
+        "note": "IEEE ISSREW 原始机构为西交和中国信通院，无目标企业作者。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "PatchDiscovery: Patch Presence Test for Identifying Binary Vulnerabilities Based on Key Basic Blocks",
+        "url": "https://doi.org/10.1109/TSE.2023.3332732",
+        "outcome": "no-evidence",
+        "note": "IEEE 2023 出版；西交、西电两校署名，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "The impact of class imbalance techniques on crashing fault residence prediction models",
+        "url": "https://link.springer.com/article/10.1007/s10664-023-10294-y",
+        "outcome": "no-evidence",
+        "note": "Springer 作者机构为高校；没有目标公司署名，也未获本科生或研究生在目标企业实研本篇的记录。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Identifying Code Changes for Architecture Decay via a Metric Forest Structure",
+        "url": "https://doi.org/10.1109/TechDebt59074.2023.00014",
+        "outcome": "no-evidence",
+        "note": "IEEE TechDebt 出版作者均为西交，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "JSLibD: Reliable and Heuristic Detection of Third-party Libraries in Miniapps",
+        "url": "https://superappsec.github.io/2023/accepted_papers/p11-tao.pdf",
+        "outcome": "no-evidence",
+        "note": "SaTS 官方正文首面作者均属西交；微信与支付宝小程序为研究对象。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Towards Robustness of Large Language Models on Text-to-SQL Task: An Adversarial and Cross-Domain Investigation",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-44192-9_15",
+        "outcome": "no-evidence",
+        "note": "Springer 会议出版作者均为西交；引用公开商用模型不代表企业共研。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "结合情节挖掘的软件实体演化耦合分析方法",
+        "url": "https://rjxb.alljournals.cn/jos/article/abstract/6853",
+        "outcome": "no-evidence",
+        "note": "软件学报明确记载 2023-01-13 在线，作者来自西交软件及网安两院；无企业署名。",
+        "relationIds": []
       }
     ],
-    "note": "已核 29 篇公开论文。逐篇区分正式出版、首稿和项目线索；RAG+ 与 DAIS 已确认，其他书目继续核查。"
+    "note": "按公开首稿、正式出版和作者履历核查 47 篇；仍在整理其余题录。学生在某个项目的企业实习证据不会用于其他项目。"
   },
   "MXvC7tkAAAAJ": {
     "from": "2023-01-01",
@@ -56149,7 +56296,10 @@ const facultyPaperAudits = {
       "https://ijcai.org/proceedings/2023/176",
       "https://arxiv.org/abs/2301.08125",
       "https://github.com/BearCleverProud/HAG-MIL",
-      "https://www.ijcai.org/proceedings/2023/0176.pdf"
+      "https://www.ijcai.org/proceedings/2023/0176.pdf",
+      "https://arxiv.org/pdf/2303.05780v1",
+      "https://papers.miccai.org/miccai-2024/paper/2121_paper.pdf#page=9",
+      "https://github.com/BearCleverProud/TAKT/commit/381576d85a76f3b096224d2936c07d5fe97ab1d2"
     ],
     "papers": [
       {
@@ -56197,9 +56347,9 @@ const facultyPaperAudits = {
       {
         "title": "TAKT: Target-Aware Knowledge Transfer for Whole Slide Image Classification",
         "url": "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
-        "outcome": "lead",
-        "note": "2023-03-10 同编号最早稿与 2024 MICCAI 正式合并。MICCAI 正式末页致谢明确此研究与腾讯优图天衍共同完成，且首面将港中文博士 Conghao Xiong 具名列为共同第一和共同通讯；学生成功放出技术实现。其实际港中文导师金国庆同署，由实验室直接确认。西湖大学郑冶枫校方简历确认他在 2018–2024 年研究期为腾讯天衍主任。没有找到学生本人明确的腾讯实习或职务档案，故按保守口径保留为线索，已有同篇联合项目证据可供复核。另一共一 Yi Lin 的本人及港科大资料明确他的腾讯全职经历在攻读博士之前，不能把两段时间叠加。",
-        "year": 2023
+        "outcome": "confirmed",
+        "note": "腾讯天衍与正式论文资料同时确认合作；港中文在读博士 Conghao Xiong 的署名代码实现合作版的专有新增模块。金国庆为明确的博士共同导师。2023 早稿无腾讯或该模块，与首次 2024-07-11 公开合作稿合为同一项。",
+        "year": 2024
       },
       {
         "title": "Shopping Trajectory Representation Learning with Pre-training for E-commerce Customer Understanding and Recommendation",
@@ -56277,9 +56427,30 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "2023-12 首稿，ACM 标记线上正式出版日 2024-11-07；原文十位作者署高校。刘瑷玮后入腾讯而本篇署清华，也没有其他公司研究角色。",
         "year": 2023
+      },
+      {
+        "title": "Dynamic Mixture of Latent Memories for Self-Evolving Agents",
+        "url": "https://arxiv.org/abs/2605.21951",
+        "outcome": "no-evidence",
+        "note": "2026-05-21 预印本首面列港中文、牛津、南洋理工、爱丁堡、上交，无调查企业共著。第一作者 Dianzhi Yu 公开个人书目与原文一致。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Binarized Representations with Pseudo-positive Sample Enhancement for Efficient Graph Collaborative Filtering",
+        "url": "https://doi.org/10.1145/3744239",
+        "outcome": "no-evidence",
+        "note": "首版与正式 ACM 记录作者一致，署 Cornell、香港城大及港中文。与 2022 华为参与的 BiGeaR 原论文是不同工作；不把旧作企业参与沿用到本篇。",
+        "year": 2025
+      },
+      {
+        "title": "Diagnose Like a Pathologist: Transformer-Enabled Hierarchical Attention-Guided Multiple Instance Learning for Whole Slide Image Classification",
+        "url": "https://ijcai.org/proceedings/2023/176",
+        "outcome": "no-evidence",
+        "note": "2023 正式版本与首稿同篇，Conghao Xiong、Hao Chen、Joseph Sung、Irwin King 的原研究机构均为学校，未找范围企业作者。",
+        "year": 2023
       }
     ],
-    "note": "已看金国庆公开书目中的 18 篇，结合学生、校方和企业公开研究资料逐篇判定。其余公开题录继续查。"
+    "note": "已核 21 篇，含以学生具体代码级贡献和企业正式研究来源确认的 TAKT。其余公开论文仍逐篇核查。"
   },
   "Z_t5DjwAAAAJ": {
     "from": "2023-01-01",

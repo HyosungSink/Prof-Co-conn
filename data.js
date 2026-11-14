@@ -45350,6 +45350,63 @@ const survey = {
         "范铭的西交教师主页在读博士生栏明确列名王玉为联合指导。",
         "https://faculty.xjtu.edu.cn/mingfan/zh_CN/zhym/995657/list/index.htm"
       ]
+    },
+    {
+      "id": "tencent-takt-cuhk-king",
+      "paperId": "10.1007/978-3-031-72083-3_47",
+      "company": "腾讯",
+      "team": "腾讯优图 · 天衍研究中心",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授；与其在读博士生共同署名。",
+        "https://misc-lab.cse.cuhk.edu.hk/people/"
+      ],
+      "employee": [
+        "郑冶枫 · Yefeng Zheng",
+        "当时任腾讯天衍研究中心主任、杰出科学家；论文首次公开合作版与正式稿均以天衍名义署名。",
+        "https://en.westlake.edu.cn/faculty/yefeng-zheng.html"
+      ],
+      "student": [
+        "Conghao Xiong",
+        "香港中文大学在读博士，论文共同第一及共同通讯作者。其署名代码实现合作版本新增的数据增强和基于最优传输的特征对齐。",
+        "https://bearcleverproud.github.io/"
+      ],
+      "advising": [
+        "博士共同导师",
+        "本人学术主页具名金国庆为博士共同导师，港中文研究组正式名录将其列为该组在读博士生。",
+        "https://bearcleverproud.github.io/"
+      ],
+      "title": "TAKT: Target-Aware Knowledge Transfer for Whole Slide Image Classification",
+      "short": "TAKT",
+      "date": "2024-07-11",
+      "venue": "MICCAI 2024",
+      "area": "医学影像与计算病理",
+      "paper": "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
+      "extra": [
+        [
+          "正式全文的合作声明与作者机构",
+          "https://papers.miccai.org/miccai-2024/paper/2121_paper.pdf"
+        ],
+        [
+          "腾讯天衍的公开研究成果目录",
+          "https://jarvislab.tencent.com/aca-publications.html"
+        ],
+        [
+          "学生本人的核心代码提交",
+          "https://github.com/BearCleverProud/TAKT/commit/381576d85a76f3b096224d2936c07d5fe97ab1d2"
+        ],
+        [
+          "2024-07-11 首次公开的合作版本",
+          "https://arxiv.org/abs/2303.05780v2"
+        ],
+        [
+          "2023 年的早期稿，尚无腾讯作者",
+          "https://arxiv.org/abs/2303.05780v1"
+        ]
+      ],
+      "evidence": "MICCAI 正式全文明确说明该研究与腾讯天衍共同完成，腾讯官方也把该论文列入团队成果。港中文博士生 Conghao Xiong 的署名提交具体实现了合作版新加入的目标感知数据增强和基于最优传输的特征对齐；其中的训练、数据构造与聚类代码可与论文第 2 节对应。2023 年相同编号的旧稿没有腾讯作者或上述两个模块，2024-07-11 才首次公开该合作版本，同一个演进工作只计一条。"
     }
   ]
 };
