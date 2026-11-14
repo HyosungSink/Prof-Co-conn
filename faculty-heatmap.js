@@ -5,8 +5,16 @@ const facultySchoolColors = [
   '#975a35', '#8c9fd7', '#b26156', '#1873a2', '#d2b85f'
 ];
 
-// Mix toward white or black without changing the school's hue.
-function facultySchoolShades(color) {
+// Use the strongest hue contrasts for the largest units.
+const facultyUnitColors = [
+  '#327dc0', '#d88a24', '#8452af', '#368752', '#cb526a', '#279599', '#a26d41',
+  '#5460ad', '#8e981f', '#bb5941', '#398bb0', '#8a4491', '#557b42', '#dbab35',
+  '#535f8c', '#d17598', '#137d6d', '#a05d2f', '#657cc6', '#ae3d4c', '#339a80',
+  '#8a779e', '#747537', '#b97426', '#576f99', '#99616f'
+];
+
+// Mix toward white or black to show the four verification levels for any base color.
+function facultyVerificationShades(color) {
   const channels = color.slice(1).match(/../g).map(channel => parseInt(channel, 16));
   return [.55, .28, 0, -.24].map(lightness => '#' + channels.map(channel => {
     const target = lightness < 0 ? 0 : 255;
@@ -130,18 +138,21 @@ function renderFacultyUnits() {
   const plot = get('unit-plot');
   const canvas = get('unit-canvas');
   const context = canvas.getContext('2d');
+  const description = get('unit-description');
   const readout = get('unit-summary');
   const link = get('unit-directory-link');
-  const swatch = get('unit-school-swatch');
+  const swatch = get('unit-swatch');
   const legend = [...document.querySelectorAll('.unit-map-key i')];
   const format = new Intl.NumberFormat('zh-CN');
-  const colors = new Map(survey.schools.map(([name], index) => [name, facultySchoolShades(facultySchoolColors[index])]));
+  const colors = new Map(survey.schools.map(([name], index) => [name, facultyVerificationShades(facultySchoolColors[index])]));
+  const defaultLegend = facultyVerificationShades('#626b7e');
   const categoryBySchool = new Map(survey.schools.map(([name, , category]) => [name, category]));
   const schools = facultyPlotStats.map(([name, count, , rows]) => ({
     name, count, color: colors.get(name), units: rows.map(([name, rows]) => ({ name, rows }))
   }));
   for (const school of schools) {
-    for (const unit of school.units) {
+    for (const [index, unit] of school.units.entries()) {
+      unit.color = facultyVerificationShades(facultyUnitColors[index % facultyUnitColors.length]);
       unit.entries = unit.rows.map(([name, score]) => ({ name, score, school, unit }));
     }
     school.entries = school.units.flatMap(unit => unit.entries);
@@ -164,13 +175,18 @@ function renderFacultyUnits() {
     return !selectedUnit?.entries.length || entry.unit === selectedUnit;
   }
 
+  function chartColors(school, unit) {
+    return selectedSchool ? unit?.color : school?.color;
+  }
+
   function updateReadout() {
     const school = inspected?.school || selectedSchool;
     const unit = inspected?.unit || selectedUnit;
     const params = new URLSearchParams();
-    swatch.hidden = !school;
-    swatch.style.background = school?.color[inspected?.score ?? 2] || '';
-    const legendColors = school?.color || colors.values().next().value;
+    const currentColors = chartColors(school, unit);
+    swatch.hidden = !currentColors;
+    swatch.style.background = currentColors?.[inspected?.score ?? 2] || '';
+    const legendColors = currentColors || defaultLegend;
     legend.forEach((chip, score) => { chip.style.background = legendColors[score]; });
     if (school) params.set('school', school.name);
     if (unit) params.set(school.name === instituteSchool ? 'institute' : 'department', unit.name);
@@ -211,7 +227,7 @@ function renderFacultyUnits() {
     for (const { entry, x, y, width, height } of tiles) {
       const gap = Math.min(.8, width * .15, height * .15);
       context.globalAlpha = matchesSelection(entry) ? 1 : .2;
-      context.fillStyle = entry.school.color[entry.score];
+      context.fillStyle = chartColors(entry.school, entry.unit)[entry.score];
       context.fillRect(x + gap / 2, y + gap / 2, width - gap, height - gap);
     }
     context.globalAlpha = 1;
@@ -250,9 +266,13 @@ function renderFacultyUnits() {
     groupPicker.replaceChildren(new Option(selectedSchool?.name === instituteSchool ? '全部研究所' : '全部院系／研究所', ''));
     if (selectedSchool) for (const unit of selectedSchool.units) groupPicker.add(new Option(unit.name, unit.name));
     groupPicker.disabled = !selectedSchool;
+    const unitType = selectedSchool?.name === instituteSchool ? '研究所' : '院系';
+    description.textContent = selectedSchool
+      ? `每个${unitType}一种颜色。一人一块，同一分区内颜色越深，已核实项数越多。`
+      : '每校一种颜色。选择高校可展开院系或研究所；颜色越深，已核实项数越多。';
     const scope = selectedSchool
-      ? `${selectedSchool.name}教师热力图，按${selectedSchool.name === instituteSchool ? '研究所' : '院系'}划分矩形。`
-      : '全部高校教师热力图，每所学校占一个矩形。';
+      ? `${selectedSchool.name}教师热力图，按${unitType}划分矩形，每个${unitType}一种颜色。`
+      : '全部高校教师热力图，每所学校占一个矩形，各用一种颜色。';
     canvas.setAttribute('aria-label', `${scope}用上下键查看教师。`);
     updateReadout();
     resize();

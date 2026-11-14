@@ -394,7 +394,7 @@ dialog::backdrop { background: #211b3277; }
 #unit-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; cursor: crosshair; }
 #unit-canvas:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 .unit-readout { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; min-width: 0; color: var(--muted); font-size: 11px; }
-#unit-school-swatch { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+#unit-swatch { width: 9px; height: 9px; border-radius: 2px; flex: none; }
 #unit-summary { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
 #unit-directory-link { flex: none; }
 @media (max-width: 650px) {
