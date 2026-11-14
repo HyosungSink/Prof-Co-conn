@@ -58623,5 +58623,154 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核完个人主页所列调查日期内的 40 篇，并对照逐篇原文、ORCID 与合作者页面。吴桐于 2026-06 加入复旦。公开原文显示早期作品是港中大读博或斯坦福团队期间的项目；Voxurf 2022 首发排除。个人主页属于代表作清单，继续从独立索引补找未列作品，暂不标穷尽。"
+  },
+  "Ia-Ig-YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.polyu.edu.hk/ama/profile/rjhan/research.html",
+      "https://www.polyu.edu.hk/ama/profile/rjhan/academia_CV.pdf",
+      "https://research.polyu.edu.hk/en/persons/ruijian-han/",
+      "https://www.polyu.edu.hk/ama/cmfai/lambda.html",
+      "https://arxiv.org/abs/2108.04437",
+      "https://arxiv.org/abs/2106.05925"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "Adaptive Debiased Lasso in High-Dimensional Generalized Linear Models with Streaming Data",
+        "url": "https://doi.org/10.1080/01621459.2026.2641199",
+        "outcome": "no-evidence",
+        "note": "2024-05 作者稿 2405.18284 与 2026 正式版为同一 ADL；作者列港理工、Rutgers 和港中文大学。2021 首发的早期递推模型是另一项研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Statistical ranking with dynamic covariates",
+        "url": "https://doi.org/10.1093/jrsssb/qkaf048",
+        "outcome": "no-evidence",
+        "note": "首稿 2406.16507 后收入期刊；韩瑞建履历另证 Pinjun Dong 的校内博士指导。比赛公开数据仅用于统计验证，未见指定企业署名或项目。"
+      },
+      {
+        "year": 2024,
+        "title": "A Survey on Large Language Model-based Agents for Statistics and Data Science",
+        "url": "https://doi.org/10.1080/00031305.2025.2561140",
+        "outcome": "no-evidence",
+        "note": "2024-12 arXiv 2412.14222，同一作者组的正式期刊版为港理工单位。综述提及多个商业工具和模型，没有同篇项目共研信息。"
+      },
+      {
+        "year": 2024,
+        "title": "LAMBDA: A Large Model Based Data Agent",
+        "url": "https://doi.org/10.1080/01621459.2025.2510000",
+        "outcome": "no-evidence",
+        "note": "2024-07 首稿 2407.17535，同篇正式刊作者均署港理工，校内项目组发布代码。调用不同公司的模型 API 不视为共研。"
+      },
+      {
+        "year": 2023,
+        "title": "A Unified Analysis of Likelihood-based Estimators in the Plackett–Luce Model",
+        "url": "https://doi.org/10.1214/25-AOS2530",
+        "outcome": "no-evidence",
+        "note": "2023-06 首稿 2306.02821、2025 正式版同一项排序估计理论；作者为港理工和肯塔基大学，未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "An Approximate Control Variates Approach to Multifidelity Distribution Estimation",
+        "url": "https://doi.org/10.1137/23M1584307",
+        "outcome": "no-evidence",
+        "note": "2023-03 首稿 2303.06422，2024 SIAM 正式刊同作；研究比较多保真方法，未见指定企业项目关系。"
+      },
+      {
+        "year": 2025,
+        "title": "Learning Guarantee of Reward Modeling Using Deep Neural Networks",
+        "url": "https://arxiv.org/abs/2505.06601",
+        "outcome": "no-evidence",
+        "note": "2025-05 具名首稿，KDD 2026（10.1145/3770854.3780316）定稿同作。匿名早稿用不同题名；作者所署单位均是港理工，无目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Run, Ruminate, and Regulate: A Dual-process Thinking System for Vision-and-Language Navigation",
+        "url": "https://arxiv.org/abs/2511.14131",
+        "outcome": "no-evidence",
+        "note": "2025-11 首发，AAAI 2026 正刊；原文关联港理工、国科大及中科院科研机构和中科大，公开语言模型用于方法组件，没有其厂商的同篇具名参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Variance-aware Reward Modeling with Anchor Guidance",
+        "url": "https://arxiv.org/abs/2605.11865",
+        "outcome": "no-evidence",
+        "note": "首稿作者单位为港理工和上海财经大学；韩瑞建公示方抒行的港理工博士指导，但没看到同篇目标企业研发。"
+      },
+      {
+        "year": 2026,
+        "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+        "url": "https://arxiv.org/abs/2603.04743",
+        "outcome": "no-evidence",
+        "note": "2026-03 原稿逐名均署港理工，检索数据来自 R 生态，公开商用模型接口不视为企业共同研究。"
+      },
+      {
+        "year": 2026,
+        "title": "Deep Ranking with Heterogeneous Effect",
+        "url": "https://arxiv.org/abs/2604.16129",
+        "outcome": "no-evidence",
+        "note": "2026-04 作者稿列港理工和肯塔基大学，比较算法使用 ATP 公开比赛数据；无指定企业参加。"
+      },
+      {
+        "year": 2026,
+        "title": "Rejoinder to the Discussions on “LAMBDA: A Large Model Based Data Agent”",
+        "url": "https://doi.org/10.1080/01621459.2025.2612245",
+        "outcome": "no-evidence",
+        "note": "独立文章和 DOI，正式稿为对同行讨论的 8 页回复，作者均港理工，基金及中心也来自学研机构；不重复计原研究关系。"
+      },
+      {
+        "year": 2023,
+        "title": "Online inference with debiased stochastic gradient descent",
+        "url": "https://doi.org/10.1093/biomet/asad046",
+        "outcome": "no-evidence",
+        "note": "作者 2023-06 公开稿、同年 7 月 ICSA 摘要和 Biometrika 先行版均为同一研究，四作者来自港理工、Iowa 及港中文大学。"
+      },
+      {
+        "year": 2026,
+        "title": "VAE-Inf: A Statistically Interpretable Generative Paradigm for Imbalanced Classification",
+        "url": "https://arxiv.org/abs/2604.25334",
+        "outcome": "no-evidence",
+        "note": "2026-04 首稿和 2026-09 TMLR 正刊同作；韩、Hongfei Wu、Yancheng Yuan 均署港理工。博士指导已具名，无企业研发。"
+      },
+      {
+        "year": 2026,
+        "title": "DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems",
+        "url": "https://aclanthology.org/2026.emnlp-main.970/",
+        "outcome": "no-evidence",
+        "note": "2026-01 首稿 2601.13591 与 EMNLP 正式稿同作；八位作者来自港理工，文中多种企业模型为被测对象。"
+      },
+      {
+        "year": 2026,
+        "title": "Convergence analysis of a family of Zermelo-type iterations for the Bradley–Terry model",
+        "url": "https://arxiv.org/abs/2607.22221",
+        "outcome": "no-evidence",
+        "note": "首稿作者单位为港理工和肯塔基大学；数学迭代研究未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Recent advances in the Bradley–Terry Model: theory, algorithms, and applications",
+        "url": "https://arxiv.org/abs/2601.14727",
+        "outcome": "no-evidence",
+        "note": "首稿为配对比较模型综述，作者包括韩瑞建具名在读博士。公开分数、模型或算例仅作讨论，未见企业共同研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Statistical inference for pairwise comparison models",
+        "url": "https://arxiv.org/abs/2401.08463",
+        "outcome": "no-evidence",
+        "note": "2024-01 首稿编号与署名确认；机构港理工、阿尔伯塔大学、滑铁卢大学。原稿页内的排版日期不作为首次提交日期。"
+      },
+      {
+        "year": 2026,
+        "title": "Rejoinder to the Discussions on “A Survey on Large Language Model-based Agents for Statistics and Data Science”",
+        "url": "https://doi.org/10.1080/00031305.2026.2689530",
+        "outcome": "no-evidence",
+        "note": "《The American Statistician》单独刊发的讨论回复，包含小型个案示例；作者机构为港理工，未见指定企业共研。"
+      }
+    ],
+    "note": "已核 19 篇。2021 年已有首稿的 streaming GLM 和早期递推工作、2022 年已在线的 General Pairwise、Post-selection 和 Archetypal Analysis 均不计。履历另列 Preserving Reasoning Before Confidence，目前未见公开题录或首稿，继续排查。"
   }
 };
