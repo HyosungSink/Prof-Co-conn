@@ -8680,7 +8680,15 @@ const facultyPaperAudits = {
     "sources": [
       "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/05708_ECCV_2024_paper.php",
       "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05708.pdf",
-      "https://mutianxu.github.io/CV.pdf"
+      "https://mutianxu.github.io/CV.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2024/html/Qiu_RichDreamer_A_Generalizable_Normal-Depth_Diffusion_Model_for_Detail_Richness_in_CVPR_2024_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Qiu_RichDreamer_A_Generalizable_Normal-Depth_Diffusion_Model_for_Detail_Richness_in_CVPR_2024_paper.pdf",
+      "https://lingtengqiu.github.io/",
+      "https://myweb.cuhk.edu.cn/hanxiaoguang",
+      "https://www.weihao-yuan.com/",
+      "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_IPoD_Implicit_Field_Learning_with_Point_Diffusion_for_Generalizable_3D_CVPR_2024_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_IPoD_Implicit_Field_Learning_with_Point_Diffusion_for_Generalizable_3D_CVPR_2024_paper.pdf",
+      "https://yushuang-wu.github.io/"
     ],
     "papers": [
       {
@@ -8688,6 +8696,18 @@ const facultyPaperAudits = {
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/05708_ECCV_2024_paper.php",
         "outcome": "lead",
         "note": "北大博士前经历无关；原文实习脚注实际对应 NUS 学生 David Junhao Zhang。港中深博士许牧天是项目负责人但脚注没有标其为实习者，自己的履历亦未证明该企业实习。"
+      },
+      {
+        "title": "RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Qiu_RichDreamer_A_Generalizable_Normal-Depth_Diffusion_Model_for_Detail_Richness_in_CVPR_2024_paper.html",
+        "outcome": "confirmed",
+        "note": "论文首页在共同第一作者邱陵腾姓名后标出阿里实习脚注；学生本人主页说明 2020 年 9 月至 2024 年 10 月在港中深读博，由同篇通讯作者韩晓光指导，毕业后才作为员工加入阿里。原玮浩在当时是阿里巴巴研究人员，身份由同篇阿里巴巴署名与本人履历交叉确认。"
+      },
+      {
+        "title": "IPoD: Implicit Field Learning with Point Diffusion for Generalizable 3D Object Reconstruction from Single RGB-D Images",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_IPoD_Implicit_Field_Learning_with_Point_Diffusion_for_Generalizable_3D_CVPR_2024_paper.html",
+        "outcome": "confirmed",
+        "note": "论文首页在第一作者吴毓双姓名后具名记录这项研究在阿里巴巴实习期间完成，并明确由阿里作者原玮浩指导该企业项目；学生本人主页列韩晓光和崔曙光为联合博士导师。原玮浩在当时是阿里巴巴研究人员，身份由同篇阿里巴巴署名与本人履历交叉确认。"
       }
     ]
   },
@@ -9182,7 +9202,9 @@ const facultyPaperAudits = {
       "https://ijcai.org/proceedings/2025/1192.pdf",
       "https://proceedings.mlr.press/v306/zhang26cb.html",
       "https://ai4math2026.github.io/",
-      "https://arxiv.org/html/2510.05115v1"
+      "https://arxiv.org/html/2510.05115v1",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/f53fd88a4340063ecd258c0ae9948b40-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2502.06892"
     ],
     "papers": [
       {
@@ -9208,6 +9230,12 @@ const facultyPaperAudits = {
         "url": "https://proceedings.mlr.press/v306/zhang26cb.html",
         "outcome": "confirmed",
         "note": "张岩森 · Yansen Zhang 是港城大在读博士及第一作者，原文具名脚注将 SAC-Opt 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Mingxuan Yuan 同篇署华为并有独立的同时期任职资料。早期预印本、ICLR workshop 与 ICML 正式版为同一工作。"
+      },
+      {
+        "title": "Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f53fd88a4340063ecd258c0ae9948b40-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文首页把华为香港诺亚方舟实验室的实习注释明确对应在读博士第一作者何博威；港城大正式论文库具名确认其博导马辰。华为署名作者 Hui-Ling Zhen 的研究人员身份亦有会议官方讲者履历。"
       }
     ]
   },
@@ -9850,7 +9878,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "http://is.nju.edu.cn/yy/main.htm",
-      "https://linzhuo.xyz/"
+      "https://linzhuo.xyz/",
+      "https://ygaojiany.github.io/"
     ],
     "papers": [
       {
@@ -9858,8 +9887,95 @@ const facultyPaperAudits = {
         "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/1662.pdf",
         "outcome": "confirmed",
         "note": "南京大学在读博士生陈林卓为第一作者，会议版首页标注实习工作；本人主页具名为蚂蚁 Robbyant 实习研究员、列本篇项目，官方蚂蚁项目库与同篇共同第一作者（南大博士 Jian Gao）本人履历交叉确认。"
+      },
+      {
+        "title": "Map2SLAM: From Streaming Map Prediction to Real-Time SLAM",
+        "url": "https://arxiv.org/pdf/2611.11169",
+        "outcome": "confirmed",
+        "note": "同一已具名蚂蚁实习团队的后续研究，原论文首页将南京大学博士生 Jian Gao 明确列为共同第一研究者、双署南京大学及蚂蚁 Robbyant；其本人主页具名列自 2025 年 9 月起在这家单位实习，官方项目页面以同一小组和身份发布。"
+      },
+      {
+        "title": "Infinite Worlds with Versatile Interactions",
+        "url": "https://arxiv.org/pdf/2607.07534",
+        "outcome": "confirmed",
+        "note": "蚂蚁 Robbyant 的该项目正式报告在第 7.1 节具名列南京大学博士生 Jian Gao 为核心数据研究贡献者；本人履历同时列 2025 年 9 月起在此研究实习及此项成果，蚂蚁官网发布对应项目。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "u92yhxUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gx77.github.io/GX/",
+      "https://people.ucas.ac.cn/~zhanglibo",
+      "https://hengfan2010.github.io/publication/TA-STVG-ICLR2025-slide.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Text with Knowledge Graph Augmented Transformer for Video Captioning",
+        "url": "https://isrc.iscas.ac.cn/zhanglibo/pdfs/2023/CVPR_2023.pdf",
+        "outcome": "confirmed",
+        "note": "CVF 原文注明论文在字节实习期间完成；具名第一作者的履历确认实习与两位同篇字节研究人员的指导关系。"
+      },
+      {
+        "title": "Multi-Reward as Condition for Instruction-based Image Editing",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/cc82fe357440ce3f43e1939f4f795478-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "论文首页明确说明第一作者 Xin Gu 在字节实习期间完成；该公司实习导师 Longyin Wen 与张立波同篇。"
+      },
+      {
+        "title": "Structured Context Learning for Generic Event Boundary Detection",
+        "url": "https://openaccess.thecvf.com/content/WACV2026/papers/Gu_Structured_Context_Learning_for_Generic_Event_Boundary_Detection_WACV_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVF 正式版首页明确说明第一作者 Xin Gu 在字节实习期间完成；公司研究负责人 Longyin Wen 和张立波均为同篇作者。"
+      },
+      {
+        "title": "Edit3K: Universal Representation Learning for Video Editing Components",
+        "url": "https://arxiv.org/pdf/2403.16048v1",
+        "outcome": "confirmed",
+        "note": "论文首版首页明确说明第一作者 Xin Gu 在字节实习期间完成；公司实习导师 Longyin Wen 与张立波同篇。"
+      },
+      {
+        "title": "Accurate and Fast Compressed Video Captioning",
+        "url": "https://arxiv.org/pdf/2309.12867",
+        "outcome": "lead",
+        "note": "文章承认在字节实习期间完成，但没有区分两名共同一作中的实习者。另一个共一现自述任职 TikTok；尚需该项目的个人归属证据。"
+      },
+      {
+        "title": "Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding",
+        "url": "https://hengfan2010.github.io/publication/TA-STVG-ICLR2025-slide.pdf",
+        "outcome": "lead",
+        "note": "会议报告有明确共同指导，尚需在读作者参与的对应企业项目证据。"
+      }
+    ],
+    "note": "已核查 Xin Gu 参与的多篇成果及合作培养经历；张立波全部书目仍待核。"
+  },
+  "zoDVBPAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jszy.whu.edu.cn/qiantieyun/en/index/236186/list/index.htm",
+      "https://liyongqi2002.github.io/",
+      "https://yongbin-li.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Controlling Multimodal Conversational Agents with Coverage-Enhanced Latent Actions",
+        "url": "https://aclanthology.org/2026.acl-long.191.pdf",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。"
+      },
+      {
+        "title": "Understanding Generalization in Role-Playing Models via Information Theory",
+        "url": "https://aclanthology.org/2026.findings-acl.87.pdf",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。"
+      }
+    ]
   }
 };

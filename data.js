@@ -32070,6 +32070,518 @@ const survey = {
           "https://ojs.aaai.org/index.php/AAAI/article/view/25430"
         ]
       ]
+    },
+    {
+      "id": "map2slam-ant-nju-mgxadveaaaaj",
+      "paperId": "arxiv:2611.11169",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "姚遥 · Yao Yao",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "http://is.nju.edu.cn/yy/main.htm"
+      ],
+      "employee": [
+        "Nan Xue",
+        "本人主页具名负责 Robbyant 空间感知研究团队，并列同一期间企业研究；Map2SLAM 的作者页将其列为蚂蚁 Robbyant 正式团队成员，同篇具名。",
+        "https://xuenan.net/"
+      ],
+      "student": [
+        "Jian Gao",
+        "同一已具名蚂蚁实习团队的后续研究，原论文首页将南京大学博士生 Jian Gao 明确列为共同第一研究者、双署南京大学及蚂蚁 Robbyant；其本人主页具名列自 2025 年 9 月起在这家单位实习，官方项目页面以同一小组和身份发布。",
+        "https://ygaojiany.github.io/"
+      ],
+      "title": "Map2SLAM: From Streaming Map Prediction to Real-Time SLAM",
+      "short": "Map2SLAM",
+      "date": "2026-11",
+      "venue": "arXiv 企业研究报告",
+      "area": "计算机视觉与具身智能",
+      "paper": "https://arxiv.org/pdf/2611.11169",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2611.11169"
+        ],
+        [
+          "蚂蚁 Robbyant 正式项目",
+          "https://robbyant-research.github.io/Map2SLAM/"
+        ],
+        [
+          "原文作者及贡献",
+          "https://arxiv.org/html/2611.11169"
+        ],
+        [
+          "蚂蚁 Robbyant 公司关系",
+          "https://www.robbyant.com/"
+        ]
+      ],
+      "evidence": "同一已具名蚂蚁实习团队的后续研究，原论文首页将南京大学博士生 Jian Gao 明确列为共同第一研究者、双署南京大学及蚂蚁 Robbyant；其本人主页具名列自 2025 年 9 月起在这家单位实习，官方项目页面以同一小组和身份发布。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Jian Gao 的个人履历具名列南京大学博士导师姚遥、谭铁牛；仅姚遥具名联署本篇，Map2SLAM 为通讯作者。",
+        "https://ygaojiany.github.io/"
+      ]
+    },
+    {
+      "id": "lingbot-world 2.0-ant-nju-mgxadveaaaaj",
+      "paperId": "arxiv:2607.07534",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "姚遥 · Yao Yao",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "http://is.nju.edu.cn/yy/main.htm"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "本人履历从 2022 年 4 月起任蚂蚁研究科学家、2024 年 7 月起任高级研究科学家；企业报告同篇贡献表具名列为项目支持者。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "Jian Gao",
+        "蚂蚁 Robbyant 的该项目正式报告在第 7.1 节具名列南京大学博士生 Jian Gao 为核心数据研究贡献者；本人履历同时列 2025 年 9 月起在此研究实习及此项成果，蚂蚁官网发布对应项目。",
+        "https://ygaojiany.github.io/"
+      ],
+      "title": "Infinite Worlds with Versatile Interactions",
+      "short": "LingBot-World 2.0",
+      "date": "2026-07",
+      "venue": "arXiv 企业研究报告",
+      "area": "计算机视觉与具身智能",
+      "paper": "https://arxiv.org/pdf/2607.07534",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2607.07534"
+        ],
+        [
+          "蚂蚁 Robbyant 正式项目",
+          "https://technology.robbyant.com/lingbot-world-v2"
+        ],
+        [
+          "原文作者及贡献",
+          "https://arxiv.org/html/2607.07534"
+        ],
+        [
+          "蚂蚁 Robbyant 公司关系",
+          "https://www.robbyant.com/"
+        ]
+      ],
+      "evidence": "蚂蚁 Robbyant 的该项目正式报告在第 7.1 节具名列南京大学博士生 Jian Gao 为核心数据研究贡献者；本人履历同时列 2025 年 9 月起在此研究实习及此项成果，蚂蚁官网发布对应项目。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Jian Gao 的个人履历具名列南京大学博士导师姚遥、谭铁牛；仅姚遥具名联署本篇，Map2SLAM 为通讯作者。",
+        "https://ygaojiany.github.io/"
+      ]
+    },
+    {
+      "id": "huawei-fuzzed-smoothing-cityu-chen-ma",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "港城大电脑科学系教师，论文通讯作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "何博威 · Bowei He",
+        "港城大在读博士、第一作者；论文首页具名注明本篇在华为香港诺亚方舟实验室实习期间完成。",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/f53fd88a4340063ecd258c0ae9948b40-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港城大学位论文归档具名列马辰为博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/dynamic-adaptation-of-recommendation-models-structures-representa/"
+      ],
+      "employee": [
+        "Hui-Ling Zhen",
+        "同篇署名华为香港；ISEDA 会议讲者简历记载她在华为诺亚方舟实验室任研究人员。",
+        "https://www.eda2.com/iseda2024/tutorials.html"
+      ],
+      "title": "Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks",
+      "short": "Fuzzed Randomized Smoothing",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "大语言模型 · 安全与稳健性",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f53fd88a4340063ecd258c0ae9948b40-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文公开预印本",
+          "https://arxiv.org/abs/2502.06892"
+        ]
+      ],
+      "evidence": "ICLR 正式论文首页把华为香港诺亚方舟实验室的实习注释明确对应在读博士第一作者何博威；港城大正式论文库具名确认其博导马辰。华为署名作者 Hui-Ling Zhen 的研究人员身份亦有会议官方讲者履历。"
+    },
+    {
+      "id": "alibaba-richdreamer-cuhksz-xiaoguang-han",
+      "company": "阿里巴巴",
+      "team": "三维视觉研究",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "韩晓光 · Xiaoguang Han",
+        "香港中文大学（深圳）教师，同篇通讯作者。",
+        "https://myweb.cuhk.edu.cn/hanxiaoguang"
+      ],
+      "student": [
+        "邱陵腾 · Lingteng Qiu",
+        "香港中文大学（深圳）在读博士；论文首页具名标记本篇是在阿里巴巴实习所作。",
+        "https://openaccess.thecvf.com/content/CVPR2024/papers/Qiu_RichDreamer_A_Generalizable_Normal-Depth_Diffusion_Model_for_Detail_Richness_in_CVPR_2024_paper.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人履历具名确认韩晓光是其在校博士指导教师。",
+        "https://lingtengqiu.github.io/"
+      ],
+      "employee": [
+        "原玮浩 · Weihao Yuan",
+        "同篇署名阿里巴巴；个人履历记录此前为阿里通义实验室多模态研究员。",
+        "https://www.weihao-yuan.com/"
+      ],
+      "title": "RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D",
+      "short": "RichDreamer",
+      "date": "2024-06",
+      "venue": "CVPR 2024",
+      "area": "三维视觉 · 扩散模型",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Qiu_RichDreamer_A_Generalizable_Normal-Depth_Diffusion_Model_for_Detail_Richness_in_CVPR_2024_paper.html",
+      "extra": [
+        [
+          "原文含具名实习脚注",
+          "https://openaccess.thecvf.com/content/CVPR2024/papers/Qiu_RichDreamer_A_Generalizable_Normal-Depth_Diffusion_Model_for_Detail_Richness_in_CVPR_2024_paper.pdf"
+        ]
+      ],
+      "evidence": "论文首页在共同第一作者邱陵腾姓名后标出阿里实习脚注；学生本人主页说明 2020 年 9 月至 2024 年 10 月在港中深读博，由同篇通讯作者韩晓光指导，毕业后才作为员工加入阿里。原玮浩在当时是阿里巴巴研究人员，身份由同篇阿里巴巴署名与本人履历交叉确认。"
+    },
+    {
+      "id": "alibaba-ipod-cuhksz-xiaoguang-han",
+      "company": "阿里巴巴",
+      "team": "三维视觉研究",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "韩晓光 · Xiaoguang Han",
+        "香港中文大学（深圳）教师，同篇通讯作者。",
+        "https://myweb.cuhk.edu.cn/hanxiaoguang"
+      ],
+      "student": [
+        "吴毓双 · Yushuang Wu",
+        "香港中文大学（深圳）在读博士；论文首页具名标记本篇是在阿里巴巴实习所作。",
+        "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_IPoD_Implicit_Field_Learning_with_Point_Diffusion_for_Generalizable_3D_CVPR_2024_paper.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人履历具名确认韩晓光是其在校博士指导教师。",
+        "https://yushuang-wu.github.io/"
+      ],
+      "employee": [
+        "原玮浩 · Weihao Yuan",
+        "同篇署名阿里巴巴；个人履历记录此前为阿里通义实验室多模态研究员。",
+        "https://www.weihao-yuan.com/"
+      ],
+      "title": "IPoD: Implicit Field Learning with Point Diffusion for Generalizable 3D Object Reconstruction from Single RGB-D Images",
+      "short": "IPoD",
+      "date": "2024-06",
+      "venue": "CVPR 2024",
+      "area": "三维视觉 · 扩散模型",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_IPoD_Implicit_Field_Learning_with_Point_Diffusion_for_Generalizable_3D_CVPR_2024_paper.html",
+      "extra": [
+        [
+          "原文含具名实习脚注",
+          "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_IPoD_Implicit_Field_Learning_with_Point_Diffusion_for_Generalizable_3D_CVPR_2024_paper.pdf"
+        ]
+      ],
+      "evidence": "论文首页在第一作者吴毓双姓名后具名记录这项研究在阿里巴巴实习期间完成，并明确由阿里作者原玮浩指导该企业项目；学生本人主页列韩晓光和崔曙光为联合博士导师。原玮浩在当时是阿里巴巴研究人员，身份由同篇阿里巴巴署名与本人履历交叉确认。"
+    },
+    {
+      "id": "bytedance-textkg-ucas-zhanglibo",
+      "company": "字节跳动",
+      "team": "计算机视觉 / 图像视频编辑",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "张立波 · Libo Zhang",
+        "中国科学院大学、中国科学院软件研究所研究员。",
+        "https://people.ucas.ac.cn/~zhanglibo"
+      ],
+      "employee": [
+        "Guang Chen",
+        "本人履历列明 2021 年 6 月起受聘为字节跳动研发工程师，也是项目同篇作者与 Xin Gu 的企业实习导师。",
+        "https://tomorrow.ai/"
+      ],
+      "student": [
+        "Xin Gu",
+        "2021 年 9 月至 2026 年 6 月攻读博士；2021 年 11 月至 2026 年 7 月在字节跳动任计算机视觉算法实习生。",
+        "https://gx77.github.io/GX/"
+      ],
+      "title": "Text with Knowledge Graph Augmented Transformer for Video Captioning",
+      "short": "textkg",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://isrc.iscas.ac.cn/zhanglibo/pdfs/2023/CVPR_2023.pdf",
+      "evidence": "CVF 原文注明论文在字节实习期间完成；具名第一作者的履历确认实习与两位同篇字节研究人员的指导关系。",
+      "advising": [
+        "校内联合指导",
+        "Xin Gu 本人履历列出 2020 年 10 月至 2024 年 12 月为中科院软件所联合培养学生，具名张立波等校内导师。校内联合指导与论文同时列名。",
+        "https://gx77.github.io/GX/"
+      ],
+      "extra": [
+        [
+          "共同指导成果报告",
+          "https://hengfan2010.github.io/publication/TA-STVG-ICLR2025-slide.pdf"
+        ],
+        [
+          "学生主页及研究清单",
+          "https://gx77.github.io/GX/"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2303.12423"
+        ]
+      ],
+      "paperId": "arxiv:2303.12423"
+    },
+    {
+      "id": "bytedance-multi-reward-editing-ucas-zhanglibo",
+      "company": "字节跳动",
+      "team": "计算机视觉 / 图像视频编辑",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "张立波 · Libo Zhang",
+        "中国科学院大学、中国科学院软件研究所研究员。",
+        "https://people.ucas.ac.cn/~zhanglibo"
+      ],
+      "employee": [
+        "Longyin Wen",
+        "字节跳动研究人员及 Xin Gu 的企业实习指导人，同篇以公司名义署名。",
+        "https://www.linkedin.com/in/longyin-wen-16934689"
+      ],
+      "student": [
+        "Xin Gu",
+        "2021 年 9 月至 2026 年 6 月攻读博士；2021 年 11 月至 2026 年 7 月在字节跳动任计算机视觉算法实习生。",
+        "https://gx77.github.io/GX/"
+      ],
+      "title": "Multi-Reward as Condition for Instruction-based Image Editing",
+      "short": "multi-reward-editing",
+      "date": "2025-04",
+      "venue": "ICLR",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/cc82fe357440ce3f43e1939f4f795478-Paper-Conference.pdf",
+      "evidence": "论文首页明确说明第一作者 Xin Gu 在字节实习期间完成；该公司实习导师 Longyin Wen 与张立波同篇。",
+      "advising": [
+        "校内联合指导",
+        "Xin Gu 本人履历列出 2020 年 10 月至 2024 年 12 月为中科院软件所联合培养学生，具名张立波等校内导师。校内联合指导与论文同时列名。",
+        "https://gx77.github.io/GX/"
+      ],
+      "extra": [
+        [
+          "共同指导成果报告",
+          "https://hengfan2010.github.io/publication/TA-STVG-ICLR2025-slide.pdf"
+        ],
+        [
+          "学生主页及研究清单",
+          "https://gx77.github.io/GX/"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2411.04713"
+        ]
+      ],
+      "paperId": "arxiv:2411.04713"
+    },
+    {
+      "id": "bytedance-scl-gebd-ucas-zhanglibo",
+      "company": "字节跳动",
+      "team": "计算机视觉 / 图像视频编辑",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "张立波 · Libo Zhang",
+        "中国科学院大学、中国科学院软件研究所研究员。",
+        "https://people.ucas.ac.cn/~zhanglibo"
+      ],
+      "employee": [
+        "Longyin Wen",
+        "字节跳动研究人员及 Xin Gu 的企业实习指导人，同篇以公司名义署名。",
+        "https://www.linkedin.com/in/longyin-wen-16934689"
+      ],
+      "student": [
+        "Xin Gu",
+        "2021 年 9 月至 2026 年 6 月攻读博士；2021 年 11 月至 2026 年 7 月在字节跳动任计算机视觉算法实习生。",
+        "https://gx77.github.io/GX/"
+      ],
+      "title": "Structured Context Learning for Generic Event Boundary Detection",
+      "short": "scl-gebd",
+      "date": "2026-03",
+      "venue": "WACV",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://openaccess.thecvf.com/content/WACV2026/papers/Gu_Structured_Context_Learning_for_Generic_Event_Boundary_Detection_WACV_2026_paper.pdf",
+      "evidence": "CVF 正式版首页明确说明第一作者 Xin Gu 在字节实习期间完成；公司研究负责人 Longyin Wen 和张立波均为同篇作者。",
+      "advising": [
+        "校内联合指导",
+        "Xin Gu 本人履历列出 2020 年 10 月至 2024 年 12 月为中科院软件所联合培养学生，具名张立波等校内导师。校内联合指导与论文同时列名。",
+        "https://gx77.github.io/GX/"
+      ],
+      "extra": [
+        [
+          "共同指导成果报告",
+          "https://hengfan2010.github.io/publication/TA-STVG-ICLR2025-slide.pdf"
+        ],
+        [
+          "学生主页及研究清单",
+          "https://gx77.github.io/GX/"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2512.00475"
+        ]
+      ],
+      "paperId": "arxiv:2512.00475"
+    },
+    {
+      "id": "bytedance-edit3k-ucas-zhanglibo",
+      "company": "字节跳动",
+      "team": "计算机视觉 / 图像视频编辑",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "张立波 · Libo Zhang",
+        "中国科学院大学、中国科学院软件研究所研究员。",
+        "https://people.ucas.ac.cn/~zhanglibo"
+      ],
+      "employee": [
+        "Longyin Wen",
+        "字节跳动研究人员及 Xin Gu 的企业实习指导人，同篇以公司名义署名。",
+        "https://www.linkedin.com/in/longyin-wen-16934689"
+      ],
+      "student": [
+        "Xin Gu",
+        "2021 年 9 月至 2026 年 6 月攻读博士；2021 年 11 月至 2026 年 7 月在字节跳动任计算机视觉算法实习生。",
+        "https://gx77.github.io/GX/"
+      ],
+      "title": "Edit3K: Universal Representation Learning for Video Editing Components",
+      "short": "edit3k",
+      "date": "2024-03-24",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://arxiv.org/pdf/2403.16048v1",
+      "evidence": "论文首版首页明确说明第一作者 Xin Gu 在字节实习期间完成；公司实习导师 Longyin Wen 与张立波同篇。",
+      "advising": [
+        "校内联合指导",
+        "Xin Gu 本人履历列出 2020 年 10 月至 2024 年 12 月为中科院软件所联合培养学生，具名张立波等校内导师。校内联合指导与论文同时列名。",
+        "https://gx77.github.io/GX/"
+      ],
+      "extra": [
+        [
+          "共同指导成果报告",
+          "https://hengfan2010.github.io/publication/TA-STVG-ICLR2025-slide.pdf"
+        ],
+        [
+          "学生主页及研究清单",
+          "https://gx77.github.io/GX/"
+        ],
+        [
+          "预印本",
+          "https://arxiv.org/abs/2403.16048"
+        ]
+      ],
+      "paperId": "arxiv:2403.16048"
+    },
+    {
+      "id": "alibaba-mmlatentaction-whu-tieyun-qian",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "阿里巴巴",
+      "team": "通义实验室／Character AI",
+      "title": "Controlling Multimodal Conversational Agents with Coverage-Enhanced Latent Actions",
+      "short": "MMLatentAction",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2026.acl-long.191.pdf",
+      "arxiv": "2601.07516",
+      "evidence": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。",
+      "faculty": [
+        "钱铁云 · Tieyun Qian",
+        "武汉大学计算机学院教授，论文共同通讯作者，学校主页逐篇列论文。",
+        "https://jszy.whu.edu.cn/qiantieyun/en/index/236186/list/index.htm"
+      ],
+      "employee": [
+        "李永彬 · Yongbin Li",
+        "阿里巴巴通义实验室正式研究人员，负责 Qwen-Character 等模型；学生具名列企业导师并同篇通讯。",
+        "https://yongbin-li.github.io/"
+      ],
+      "student": [
+        "Yongqi Li",
+        "研究开展时为武大硕士生；其时在通义 Character AI 组研究实习。",
+        "https://liyongqi2002.github.io/"
+      ],
+      "advising": [
+        "硕士导师",
+        "学生本人列武汉大学硕士阶段的导师是钱铁云，初版论文署名及武大教师书目对应。",
+        "https://liyongqi2002.github.io/"
+      ],
+      "extra": [
+        [
+          "含具名通义实习脚注的作者原稿",
+          "https://arxiv.org/pdf/2601.07516v1"
+        ],
+        [
+          "阿里研究组项目库",
+          "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/MMLatentAction"
+        ]
+      ]
+    },
+    {
+      "id": "alibaba-rpm-generalization-whu-tieyun-qian",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "阿里巴巴",
+      "team": "通义实验室／Character AI",
+      "title": "Understanding Generalization in Role-Playing Models via Information Theory",
+      "short": "R-EMID / RPGBench",
+      "date": "2026-07",
+      "venue": "ACL Findings",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2026.findings-acl.87.pdf",
+      "arxiv": "2512.17270",
+      "evidence": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。",
+      "faculty": [
+        "钱铁云 · Tieyun Qian",
+        "武汉大学计算机学院教授，论文共同通讯作者，学校主页逐篇列论文。",
+        "https://jszy.whu.edu.cn/qiantieyun/en/index/236186/list/index.htm"
+      ],
+      "employee": [
+        "李永彬 · Yongbin Li",
+        "阿里巴巴通义实验室正式研究人员，负责 Qwen-Character 等模型；学生具名列企业导师并同篇通讯。",
+        "https://yongbin-li.github.io/"
+      ],
+      "student": [
+        "Yongqi Li",
+        "研究开展时为武大硕士生；其时在通义 Character AI 组研究实习。",
+        "https://liyongqi2002.github.io/"
+      ],
+      "advising": [
+        "硕士导师",
+        "学生本人列武汉大学硕士阶段的导师是钱铁云，初版论文署名及武大教师书目对应。",
+        "https://liyongqi2002.github.io/"
+      ],
+      "extra": [
+        [
+          "含具名通义实习脚注的作者原稿",
+          "https://arxiv.org/pdf/2512.17270v1"
+        ],
+        [
+          "阿里研究组项目库",
+          "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/RPM-Generalization"
+        ]
+      ]
     }
   ]
 };
