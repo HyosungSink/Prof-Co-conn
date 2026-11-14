@@ -1,6 +1,7 @@
 const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
 const facultyTitle = get('faculty-title-filter');
+const facultyVerificationFilter = get('faculty-verification-filter');
 const directoryPage = document.querySelector('[data-faculty-page]').dataset.facultyPage;
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
@@ -117,7 +118,8 @@ function appendFacultyBibliography(item, person, school, department) {
 function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
   const title = facultyTitle.value;
-  const isSearch = Boolean(words.length || title);
+  const verification = facultyVerificationFilter.value;
+  const isSearch = Boolean(words.length || title || verification);
   const schools = [];
   let matches = 0;
 
@@ -126,9 +128,11 @@ function renderFaculty() {
     const units = directoryDepartments(name).flatMap(department => {
       if (facultyDepartment.value && department.name !== facultyDepartment.value) return [];
       const context = facultySearchKey([name, english, department.name].join(' '));
-      const people = department.people.filter(person => (!title || facultyTitleValues(person).has(title)) && words.every(word =>
-        context.includes(word) || person.searchKey.includes(word)));
-      const matchesSource = !title && department.sources?.some(unit => {
+      const people = department.people.filter(person =>
+        (!title || facultyTitleValues(person).has(title)) &&
+        (!verification || String(facultyVerification(person, name, department.name) ?? 'exempt') === verification) &&
+        words.every(word => context.includes(word) || person.searchKey.includes(word)));
+      const matchesSource = !title && !verification && department.sources?.some(unit => {
         const key = facultySearchKey([unit.name, ...(unit.aliases || [])].join(' '));
         return words.every(word => context.includes(word) || key.includes(word));
       });
@@ -244,6 +248,7 @@ function updateDirectoryLinks() {
   const params = new URLSearchParams();
   if (facultySchool.value) params.set('school', facultySchool.value);
   if (facultyTitle.value) params.set('title', facultyTitle.value);
+  if (facultyVerificationFilter.value) params.set('verified', facultyVerificationFilter.value);
   if (facultyQuery.value.trim()) params.set('q', facultyQuery.value.trim());
   for (const link of document.querySelectorAll('.faculty-directory-nav [data-directory]')) {
     link.href = facultyDirectoryPages[link.dataset.directory] + (params.size ? `?${params}` : '');
@@ -256,6 +261,8 @@ function applyFacultyFilters() {
   else url.searchParams.delete('school');
   if (facultyTitle.value) url.searchParams.set('title', facultyTitle.value);
   else url.searchParams.delete('title');
+  if (facultyVerificationFilter.value) url.searchParams.set('verified', facultyVerificationFilter.value);
+  else url.searchParams.delete('verified');
   url.searchParams.delete('department');
   url.searchParams.delete('institute');
   if (facultyQuery.value.trim()) url.searchParams.set('q', facultyQuery.value.trim());
@@ -311,6 +318,11 @@ function setupFacultyDirectory() {
   facultyQuery.value = params.get('q') || '';
   setTitleOptions(params.get('title'));
   if (!facultyTitle.value) params.delete('title');
+  facultyVerificationFilter.value = params.get('verified') || '';
+  if (!facultyVerificationFilter.value) {
+    facultyVerificationFilter.value = '';
+    params.delete('verified');
+  }
   if (url.href !== location.href) history.replaceState(null, '', url);
   setDepartmentOptions(linkedUnit && selectedUnit !== linkedUnit ? '' : selectedDepartment);
   updateDirectoryLinks();
@@ -326,6 +338,7 @@ function setupFacultyDirectory() {
   });
   facultyDepartment.addEventListener('change', applyFacultyFilters);
   facultyTitle.addEventListener('change', applyFacultyFilters);
+  facultyVerificationFilter.addEventListener('change', applyFacultyFilters);
   renderFaculty();
   if (url.hash === '#faculty-rosters' || linkedUnit) {
     const target = get(url.hash.slice(1));

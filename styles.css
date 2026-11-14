@@ -211,7 +211,7 @@ dialog::backdrop { background: #211b3277; }
 .faculty-directory-nav a { padding: 7px 11px; border: 1px solid var(--rule); border-radius: 6px; background: var(--white); color: var(--brand-dark); font-size: 13px; text-decoration: none; }
 .faculty-directory-nav a:hover { text-decoration: underline; }
 .faculty-directory-nav a[aria-current="page"] { background: var(--lavender); font-weight: 650; }
-.faculty-filters { grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr)); }
+.faculty-filters { grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr)); }
 .faculty-filters select:disabled { opacity: 1; background: var(--page); color: var(--muted); cursor: default; }
 .faculty-distribution { --dot-purple: #7756bc; --dot-gold: #b3812b; margin-top: 16px; }
 .faculty-distribution .plot-head h2 { font-size: 16px; }
@@ -270,14 +270,13 @@ dialog::backdrop { background: #211b3277; }
 .faculty-paper div small { display: block; margin-top: 2px; }
 .faculty-people a:focus-visible { outline-offset: 0; }
 @media (max-width: 800px) {
-  .faculty-filters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .faculty-filters { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .faculty-filters .search { grid-column: 1 / -1; }
   .faculty-plot-key { text-align: left; }
 }
 @media (max-width: 560px) {
   .topbar-inner nav { justify-content: flex-end; }
   .faculty-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .faculty-filters label:last-child { grid-column: 1 / -1; }
   .faculty-plot { grid-template-columns: minmax(0, 1fr); }
   .faculty-school-head { gap: 9px; padding-inline: 12px; }
   .faculty-school-body { padding-inline: 12px; }
