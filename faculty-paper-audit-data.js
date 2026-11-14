@@ -22568,9 +22568,170 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.48550/arXiv.2607.06838",
         "outcome": "no-evidence",
         "note": "2026 年：预印本署 May Mobility、NYU、NVIDIA、Stanford；May Mobility 和 NVIDIA 不在项目范围。"
+      },
+      {
+        "title": "Adversarial Blur-Deblur Network for Robust UAV Tracking",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/LRA.2023.3236584",
+        "outcome": "no-evidence",
+        "note": "2023 年：IEEE RA-L 正式卷期 2023；同济课题组题录与连续两项无人机跟踪研究核对出同济／NYU 团队及六名具名作者，未见范围内企业参与。"
+      },
+      {
+        "title": "Boosting UAV Tracking With Voxel-Based Trajectory-Aware Pre-Training",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/LRA.2023.3236583",
+        "outcome": "no-evidence",
+        "note": "2023 年：IEEE RA-L 正式卷期 2023；同济课题组的 TRTrack 项目、源代码及 NYU 作者资料合并对应论文，未见范围内企业同篇证据。"
+      },
+      {
+        "title": "DeepMapping2: Self-Supervised Large-Scale LiDAR Map Optimization",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/CVPR52729.2023.00898",
+        "outcome": "no-evidence",
+        "note": "2023 年：CVF 正式版和 arXiv:2212.06331 合并；仅 NYU 和罗切斯特大学两家署名。"
+      },
+      {
+        "title": "Metric-Free Exploration for Topological Mapping by Task and Motion Imitation in Feature Space",
+        "year": 2023,
+        "url": "https://doi.org/10.15607/RSS.2023.XIX.099",
+        "outcome": "no-evidence",
+        "note": "2023 年：RSS 正式论文与 arXiv:2303.09192 合并；作者均署牛津大学及 NYU，未见范围内企业。"
+      },
+      {
+        "title": "Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception",
+        "year": 2023,
+        "url": "https://proceedings.mlr.press/v205/li23e.html",
+        "outcome": "no-evidence",
+        "note": "2023 年：会议名为 CoRL 2022、PMLR 正式出版年 2023，合并 OpenReview 同题会稿。原文署 NYU 和 MIT。"
+      },
+      {
+        "title": "Uncertainty Quantification of Collaborative Detection for Self-Driving",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/ICRA48891.2023.10160367",
+        "outcome": "no-evidence",
+        "note": "2023 年：ICRA 正式版与 2022 年 arXiv:2209.08162 合并，论文作者机构是康涅狄格大学与纽约大学。"
+      },
+      {
+        "title": "CVT-Occ: Cost Volume Temporal Fusion for 3D Occupancy Prediction",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/978-3-031-73464-9_23",
+        "outcome": "no-evidence",
+        "note": "2024 年：ECCV 正式稿与 arXiv:2409.13430 合并；原文署清华、上海人工智能实验室、UC Berkeley、NYU 与上海期智，李一鸣署 NYU，Waymo 仅提供外部数据集。"
+      },
+      {
+        "title": "MonoGAE: Roadside Monocular 3D Object Detection With Ground-Aware Embeddings",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TITS.2024.3412759",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE TITS 正式版与 arXiv:2310.00400 同题；早稿用纽约大学机构及本人邮箱确认李一鸣，主体团队为清华车辆学院、华南理工及纽约大学，未见范围内企业。"
+      },
+      {
+        "title": "Spatial Reliability Enhanced Correlation Filter: An Efficient Approach for Real-Time UAV Tracking",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/tmm.2021.3118891",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE TMM 第 26 卷正式出版年为 2024，课题组标记 2021 在线先发，属同一 DOI。课题组公开署名及作者资料未见范围内企业人员。"
+      },
+      {
+        "title": "SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/IROS58592.2024.10802143",
+        "outcome": "no-evidence",
+        "note": "2024 年：IROS 正式版与 arXiv:2306.09001 合并；原文机构 NYU、清华、ETH Zurich、NVIDIA，李一鸣当时仍是 NYU 博士，NVIDIA 奖学金与署名均不能作为范围内企业证据。"
+      },
+      {
+        "title": "Acting in Meters: Learning Metric Interactions for Precise Robotic Manipulation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.18243",
+        "outcome": "no-evidence",
+        "note": "2026 年：打开全文核对作者脚注，李一鸣、俞贺扬等署清华，署名单位还包括浙大、北大、上海交大、南开和中大；未见范围内企业。"
+      },
+      {
+        "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.21095",
+        "outcome": "lead",
+        "note": "2026 年：论文及作者团队页未署腾讯或字节。第一作者苏悦主页证实 2026 年 9 月起在港大随刘希玮攻读博士、同期在腾讯光子实习，早期还在字节 Seed 实习；待核其本篇是否在腾讯完成及是否有具名腾讯正式员工共同署名。论文所列 IAAI Team 是学生本人创立的团队。"
+      },
+      {
+        "title": "DexNinja: Learning Robust Dexterous Cutting Policy with a Real-to-Sim-to-Real Data Engine",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.17208",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文机构含清华、INSAIT、北大、USC、北理工、Berkeley 和 vivo；vivo 未纳入项目企业范围。"
+      },
+      {
+        "title": "Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.28960",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文与项目页署清华；使用 Unitree G1 进行机器人实验，未见企业作者或该企业研究关系。和脚底触觉的 TactileStep 是不同工作。"
+      },
+      {
+        "title": "LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.06079",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文作者单位为清华、北大、MBZUAI、浙大、南洋理工和 Rutgers；未见范围内企业。"
+      },
+      {
+        "title": "MindBlock: Probing Spatial Assembly and Structure in Unified Multimodal Models",
+        "year": 2026,
+        "url": "https://doi.org/10.1007/978-3-032-37432-5_8",
+        "outcome": "no-evidence",
+        "note": "2026 年：Springer ECCV 正式版与 CVPR MUSI 同题研讨会稿合并。正式机构字段列 NYU、CMU、Cambridge、Northwestern；第一作者个人页说明其当时在 NYU 访学，没有范围内企业同篇证据。"
+      },
+      {
+        "title": "Planning Takes More Than Token Prediction: Causal Plan for Benchmarking and Building Physically Grounded Embodied Reasoners",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.01810",
+        "outcome": "no-evidence",
+        "note": "2026 年：同一 arXiv 条目首版名为 Token Predictors Are Not Planners，后续版本更新题名及署名，合为一篇。原文及团队项目核实清华、北大与 Microsoft Research Asia；微软不在调查范围，Seed 仅作基线。"
+      },
+      {
+        "title": "PrismWAM: Decoupling State Representations in World Action Models",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.26564",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文作者署清华及 NVIDIA；NVIDIA 不在企业范围。论文使用 Wan-AI 模型不是阿里人员参与的证据。"
+      },
+      {
+        "title": "RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.35604",
+        "outcome": "no-evidence",
+        "note": "2026 年：预印本和清华团队项目页为同稿；原文作者署清华、纽约大学、西北大学，没有范围内企业署名。"
+      },
+      {
+        "title": "SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.06718",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文明确具名清华和松延动力（Noetix Robotics），后者不在项目企业范围；和同一团队的 DAVIS 是不同技术与不同论文。"
+      },
+      {
+        "title": "TactileStep: Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.28959",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文所有作者署清华。使用宇树 G1 和传感硬件，正文未列范围内企业作者。与同团队同日发布的跑酷论文为不同系统。"
+      },
+      {
+        "title": "Towards Generalist Game Agents: A Survey of Foundation Models in Virtual Worlds",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.09965",
+        "outcome": "no-evidence",
+        "note": "2026 年：TMLR 正式稿与 arXiv:2605.09965 合并；作者列清华、港大、国科大，文献综述引用及整理业界模型不构成本篇企业合作。"
+      },
+      {
+        "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.14158",
+        "outcome": "no-evidence",
+        "note": "2026 年：与 GameScaling 同一校企团队，但本篇是独立的视频评测论文。原文明确共同一作在米哈游实习期间完成；米哈游不在项目企业范围，MiniMax 和 Kimi 仅用于测评。"
       }
     ],
-    "note": "首批逐篇核查 29 篇。清华入职档案、本人精选、NYU 课题组、清华空间智能团队、同一 DBLP/ORCID 交叉确定身份和作品。2026 年 3 月入职清华；不将当前职位套入此前 NYU 读博和 NVIDIA 任职阶段。继续核尚未覆盖的团队公开作品及 IEEE/期刊补遗。"
+    "note": "已逐篇核查 52 篇。清华入职档案、本人精选、NYU 课题组、清华空间智能团队、同一 DBLP/ORCID 交叉确定身份和作品。2026 年 3 月入职清华；不将当前职位套入此前 NYU 读博和 NVIDIA 任职阶段。本人书目只列精选，已交叉增补团队项目、出版商原文、共同作者作品清单；OneWM 留待补核。正在查索引提示的一篇工作坊候选及更多同名污染。"
   },
   "h8XVAkgAAAAJ": {
     "from": "2023-01-01",
@@ -22711,7 +22872,7 @@ const facultyPaperAudits = {
   "Z4lICl8AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://people.ucas.ac.cn/~yixinpei",
       "https://www.sari.cas.cn/gradedu/szdw/dbz/yjsds/202507/t20250709_7881945.html",
@@ -22760,9 +22921,65 @@ const facultyPaperAudits = {
         "url": "https://spj.science.org/doi/10.34133/csbj.0176",
         "outcome": "no-evidence",
         "note": "正式版署名为中科院上海高等研究院、国科大、复旦及上海交大。致谢中计算支持来自国家蛋白质科学研究设施；3 月 bioRxiv 预印本合并。"
+      },
+      {
+        "year": 2023,
+        "title": "A proteogenomics data-driven knowledge base of human cancer",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530292/",
+        "outcome": "no-evidence",
+        "note": "署名为贝勒医学院团队；论文披露的 AstraZeneca 顾问费用属于个别作者的其他关系，该企业也不在索引范围。"
+      },
+      {
+        "year": 2023,
+        "title": "Proteogenomic data and resources for pan-cancer analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10506762/",
+        "outcome": "no-evidence",
+        "note": "正式版作者包含伊心培。大型 CPTAC 联盟单位包括高校、公共研究中心及 ICF、Spectragen-Informatics；后两者不在关系索引的企业范围。"
+      },
+      {
+        "year": 2023,
+        "title": "Proteogenomic insights suggest druggable pathways in endometrial carcinoma",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10631452/",
+        "outcome": "no-evidence",
+        "note": "正式版署名为 CPTAC 联盟及若干高校、医院和科研机构，企业署名 Leidos Biomedical Research 不在本项目范围。未发现同篇在目标企业实研。"
+      },
+      {
+        "year": 2024,
+        "title": "Pan-cancer proteogenomics characterization of tumor immunity",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10988632/",
+        "outcome": "no-evidence",
+        "note": "正式版列伊心培参与 CPTAC。已核对作者单位和声明，未出现范围内企业或学生在其参与同篇研究的证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Tumor-associated antigen prediction using a single-sample gene expression state inference algorithm",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11705763/",
+        "outcome": "no-evidence",
+        "note": "正式版列上海交通大学、贝勒医学院及复旦大学附属中山医院，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Precision proteogenomics reveals pan-cancer impact of germline variants",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12326532/",
+        "outcome": "no-evidence",
+        "note": "伊心培列在正式正文的 CPTAC 联盟名单，未见范围内企业署名或具名实研；经费来自公共科研项目，使用开放联盟资源。"
+      },
+      {
+        "year": 2026,
+        "title": "PhosSight: A Unified Deep Learning Framework Boosting and Accelerating Phosphoproteome Identification to Enable Biological Discoveries",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.75856",
+        "outcome": "no-evidence",
+        "note": "伊心培以国科大和上海高研院署名通讯；署名及基金资料未显示范围内企业参与。2026 年 3 月预印本与正式版合一。"
+      },
+      {
+        "year": 2026,
+        "title": "Proteogenomic analysis of pediatric and AYA high-grade glioma reveals age-dependent biology, female-male differences, and kinase targets",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13710149/",
+        "outcome": "no-evidence",
+        "note": "2026 年 9 月在线；正式文明确列伊心培为 CPTAC 联盟成员。披露主要涉及生物医药公司，与关系索引范围无关；未见目标企业作作者单位。"
       }
     ],
-    "note": "按研究所书目、原团队书目、本人 ORCID、出版社正文与公开数据库的交叉结果逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本、摘要和正式版合一。仍在补核大型联盟论文的署名与声明。"
+    "note": "按研究所书目、原团队书目、本人 ORCID、出版社正文与公开数据库的交叉结果逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本、摘要和正式版合一。"
   },
   "pOhKXhYAAAAJ": {
     "from": "2023-01-01",
