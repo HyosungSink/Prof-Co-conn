@@ -38785,6 +38785,104 @@ const survey = {
         ]
       ],
       "evidence": "正式论文首页只在 Haoran Yang 署名后标星，注明大部分研究工作在腾讯 AI Lab 实习时完成。导师组名单列其为 2019 年级的港中文博士；2022 年港中文课程材料同一邮箱，2023 年 5 月预印本同一院系及身份，2024 年 3 月仍以港中文第一作者提交两篇只允许在读学生第一署名的 NAACL 学生研讨会论文。时间点在这段学籍之内。同篇通讯作者蔡登当时是腾讯 AI Lab 的高级研究员。"
+    },
+    {
+      "id": "tencent-fast-dysarthric-speaker-adaptation-cuhk-xunying-liu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "LIU Xunying Andrew",
+        "香港中文大学系统工程与工程管理学系教师，论文共同作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/"
+      ],
+      "student": [
+        "Mengzhe Geng",
+        "2019–2023 年港中大博士；原文首页名字后的唯一星号注明部分工作在腾讯 AI Lab 实习期间完成。",
+        "https://www.isca-archive.org/interspeech_2023/geng23_interspeech.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "刘循英校方课题组的历年博士生列出 Mengzhe Geng 2019–2023；本人公开经历独立确认同期学籍。",
+        "https://www1.se.cuhk.edu.hk/~xyliu/"
+      ],
+      "employee": [
+        "Jianwei Yu",
+        "同篇唯一单列腾讯 AI Lab 的非实习作者；港中深学校报道具名确认其为腾讯 AI Lab 语音语义中心高级研究员。",
+        "https://sds.cuhk.edu.cn/en/article/1707"
+      ],
+      "title": "On-the-Fly Feature Based Rapid Speaker Adaptation for Dysarthric and Elderly Speech Recognition",
+      "short": "On-the-Fly Speaker Adaptation",
+      "date": "2023-08",
+      "venue": "Interspeech 2023",
+      "area": "自动语音识别",
+      "paper": "https://www.isca-archive.org/interspeech_2023/geng23_interspeech.html",
+      "extra": [
+        [
+          "正式论文全文（具名实习脚注、企业持续署名）",
+          "https://www.isca-archive.org/interspeech_2023/geng23_interspeech.pdf"
+        ],
+        [
+          "第一作者的教育与任职时间线",
+          "https://mengzhegeng.github.io/"
+        ],
+        [
+          "学校教师的个人书目",
+          "https://www1.se.cuhk.edu.hk/~xyliu/pub.html"
+        ]
+      ],
+      "evidence": "Interspeech 2023 正式原文首页明确标注第一作者 Mengzhe Geng 的腾讯 AI Lab 实习与本篇研究有关。本人及刘循英校方组页记录 2019–2023 年港中大在读，刘循英同篇署名。Jianwei Yu 在同篇署腾讯 AI Lab，港中深学校活动记录其正式任职为腾讯 AI Lab 语音语义中心高级研究员。",
+      "paperId": "doi:10.21437/interspeech.2023-301"
+    },
+    {
+      "id": "tencent-dysarthric-impairment-severity-cuhk-xunying-liu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "LIU Xunying Andrew",
+        "香港中文大学系统工程与工程管理学系教师，论文共同作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/"
+      ],
+      "student": [
+        "Mengzhe Geng",
+        "2019–2023 年港中大博士；原文首页名字后的唯一星号注明部分工作在腾讯 AI Lab 实习期间完成。",
+        "https://www.isca-archive.org/interspeech_2023/geng23b_interspeech.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "刘循英校方课题组的历年博士生列出 Mengzhe Geng 2019–2023；本人公开经历独立确认同期学籍。",
+        "https://www1.se.cuhk.edu.hk/~xyliu/"
+      ],
+      "employee": [
+        "Jianwei Yu",
+        "同篇唯一单列腾讯 AI Lab 的非实习作者；港中深学校报道具名确认其为腾讯 AI Lab 语音语义中心高级研究员。",
+        "https://sds.cuhk.edu.cn/en/article/1707"
+      ],
+      "title": "Use of Speech Impairment Severity for Dysarthric Speech Recognition",
+      "short": "Speech Impairment Severity",
+      "date": "2023-08",
+      "venue": "Interspeech 2023",
+      "area": "自动语音识别",
+      "paper": "https://www.isca-archive.org/interspeech_2023/geng23b_interspeech.html",
+      "extra": [
+        [
+          "正式论文全文（具名实习脚注、企业持续署名）",
+          "https://www.isca-archive.org/interspeech_2023/geng23b_interspeech.pdf"
+        ],
+        [
+          "第一作者的教育与任职时间线",
+          "https://mengzhegeng.github.io/"
+        ],
+        [
+          "学校教师的个人书目",
+          "https://www1.se.cuhk.edu.hk/~xyliu/pub.html"
+        ]
+      ],
+      "evidence": "Interspeech 2023 正式原文首页明确标注第一作者 Mengzhe Geng 的腾讯 AI Lab 实习与本篇研究有关。本人及刘循英校方组页记录 2019–2023 年港中大在读，刘循英同篇署名。Jianwei Yu 在同篇署腾讯 AI Lab，港中深学校活动记录其正式任职为腾讯 AI Lab 语音语义中心高级研究员。",
+      "paperId": "doi:10.21437/interspeech.2023-322"
     }
   ]
 };

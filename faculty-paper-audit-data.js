@@ -704,7 +704,7 @@ const facultyPaperAudits = {
         "title": "SOOD: Towards Semi-Supervised Oriented Object Detection",
         "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hua_SOOD_Towards_Semi-Supervised_Oriented_Object_Detection_CVPR_2023_paper.pdf",
         "outcome": "confirmed",
-        "note": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。"
+        "note": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。 同时核对作者明称为会议版扩展的 SOOD++（DOI 10.1109/TPAMI.2025.3611519），两版合计一项研究。"
       },
       {
         "title": "A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection",
@@ -718,12 +718,6 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "ECCV 与首稿都列百度正式合作者 Xiaoqing Ye 等、在读华中科大作者及通讯作者白翔。首稿没有具名企业实习脚注，暂缺在读学生与百度共同执行同一研究的项目说明。"
-      },
-      {
-        "title": "SOOD++: Leveraging Unlabeled Data to Boost Oriented Object Detection",
-        "url": "https://arxiv.org/pdf/2407.01016",
-        "outcome": "lead",
-        "note": "2023 年 SOOD 扩展，尚未见独立具名项目实习证据。避免与会议版本重复统计。"
       },
       {
         "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
@@ -894,13 +888,6 @@ const facultyPaperAudits = {
         "note": "以 Science China Information Sciences 2024 正式书目计。首稿列百度邹智康、叶晓青与华中科大多位作者，未查到具名学生同篇企业实研。"
       },
       {
-        "title": "Mini-Monkey: Multi-Scale Adaptive Cropping for Multimodal Large Language Models",
-        "url": "https://arxiv.org/html/2408.02034v1",
-        "year": 2025,
-        "outcome": "no-evidence",
-        "note": "ICLR 2025 作者公开稿逐名列华南理工大学及华中科技大学。首稿具名说明一位作者在华中科大访问时完成，属于高校合作。"
-      },
-      {
         "title": "OneSparse: A Unified Framework for Sparse Activation Layers in Vision Models",
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_OneSparse_A_Unified_Framework_for_Sparse_Activation_Layers_in_Vision_CVPR_2026_paper.pdf",
         "year": 2026,
@@ -1025,6 +1012,40 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "逐队报告的 HUST-iPad 章节具名梁定康及华中科大成员；赛会的多机构署名不证明其与某目标企业参与同项研究。"
+      },
+      {
+        "title": "SOOD++: Leveraging Unlabeled Data to Boost Oriented Object Detection",
+        "url": "https://arxiv.org/pdf/2407.01016",
+        "outcome": "lead",
+        "note": "2023 年 SOOD 扩展，尚未见独立具名项目实习证据。避免与会议版本重复统计。"
+      },
+      {
+        "title": "Mini-Monkey: Alleviating the Semantic Sawtooth Effect for Lightweight MLLMs via Complementary Image Pyramid",
+        "url": "https://arxiv.org/abs/2408.02034v3",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "对应 ICLR 2025 论文。原文逐名列华南理工大学与华中科技大学，具名注明首位作者研究期间在华中科大访问；无目标企业同项参与证据。"
+      },
+      {
+        "title": "An Empirical Study of Ground Segmentation for 3-D Object Detection",
+        "url": "https://doi.org/10.1109/TITS.2025.3532436",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "武汉大学作者档案及原作者代码项目分别核实正式题名、作者及通讯作者白翔。百度研究员邹智康等同篇；没有找到具名在读学生在百度参与本项研究的材料。"
+      },
+      {
+        "title": "Scaling Dexterous Manipulation via Action Representation Pretraining",
+        "url": "https://arxiv.org/html/2610.34453v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者在公开原文列华中科技大学；使用第三方基准与现实硬件，没有具体目标企业作者或具名参与证据。"
+      },
+      {
+        "title": "Layerlink: Bridging remote sensing object detection and large vision models with efficient fine-tuning",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320325002432",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "正式期刊公开页核实作者表及论文研究，声明无利益冲突。公开摘要未完整展示单位及致谢；继续找可核对全文。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -7248,7 +7269,13 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2308.08849",
       "https://arxiv.org/pdf/2308.08849",
       "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.html",
-      "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.pdf"
+      "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/wang23m_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/wang23m_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/wang23o_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/wang23o_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/gao23c_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/gao23c_interspeech.pdf"
     ],
     "papers": [
       {
@@ -7478,12 +7505,33 @@ const facultyPaperAudits = {
       {
         "title": "FFD: Fine-Finger Diffusion Model for Music to Fine-grained Finger Dance Generation",
         "url": "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.html",
-        "outcome": "no-evidence",
-        "note": "核对正式版三人都署港科大（广州），没有范围内企业作者。",
+        "outcome": "lead",
+        "note": "正式发表的首页仅署港科大（广州）；致谢为 CCF—腾讯犀牛鸟开放基金，并无该篇腾讯实习生或单列腾讯员工合作者的证据。",
         "year": 2025
+      },
+      {
+        "title": "Emotional Talking Head Generation based on Memory-Sharing and Attention-Augmented Networks",
+        "url": "https://www.isca-archive.org/interspeech_2023/wang23m_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "官方全文署港科大（广州）和天津大学；未见范围内企业作者或具名企业实习。",
+        "year": 2023
+      },
+      {
+        "title": "MAVD: The First Open Large-Scale Mandarin Audio-Visual Dataset with Depth Information",
+        "url": "https://www.isca-archive.org/interspeech_2023/wang23o_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "官方全文署港科大（广州）和天津大学；未见范围内企业作者或具名企业实习。",
+        "year": 2023
+      },
+      {
+        "title": "A Novel Interpretable and Generalizable Re-synchronization Model for Cued Speech based on a Multi-Cuer Corpus",
+        "url": "https://www.isca-archive.org/interspeech_2023/gao23c_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "官方全文署港科大（广州）及深圳市大数据研究院；未见范围内企业作者或具名企业实习。",
+        "year": 2023
       }
     ],
-    "note": "逐篇核对 2023–2026 可取得原文的 ACL/ISCA、学生项目与论文；正式版、原预印本去重。ORCID 主要缺 2025–2026，DBLP 这个分身自身提示 ORCID 冲突，所以需要对剩余英文同名记录逐篇与港科大（广州）、GIPSA 历史和合著人身份交叉。未标为完整书目。"
+    "note": "部分已查：香港科大（广州）作者身份及论文分别从本人书目、ORCID、ACM、IEEE、ISCA 原始文献核验。未完成其他年份与同名书目消歧。"
   },
   "cVDF1tkAAAAJ": {
     "from": "2023-01-01",
@@ -8380,13 +8428,6 @@ const facultyPaperAudits = {
         "note": "预印本原文为上海交大在读学生与教师，无站内企业作者或具名企业研发。"
       },
       {
-        "title": "Is Cognition and Action Consistent or Not: Investigating Large Language Model's Personality",
-        "year": 2024,
-        "url": "https://arxiv.org/abs/2402.14679",
-        "outcome": "no-evidence",
-        "note": "正式 ICML 原文／arXiv 作者公开的是人格一致性数据集，未见站内企业员工与学生企业工作证据。"
-      },
-      {
         "title": "Embedding Trajectory for Out-of-Distribution Detection in Mathematical Reasoning",
         "year": 2024,
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4b734e95f0788a030a69caa987516186-Paper-Conference.pdf",
@@ -8597,13 +8638,6 @@ const facultyPaperAudits = {
         "note": "教师本人主页同题，原作两位上交作者；未见具名企业研发关系。"
       },
       {
-        "title": "Adding Alignment Control to Language Models / Flexible Realignment of Language Models",
-        "year": 2025,
-        "url": "https://arxiv.org/abs/2506.12704",
-        "outcome": "lead",
-        "note": "早稿 2503.04346 为同作者群（新版增腾讯谢若冰）和同一训练／推理对齐控制，归在正式 NeurIPS Flexible Realignment。王瑞及 Wenhong Zhu 在上交，新增有企业作者而没有该学生在腾讯参与本篇的具名证据。"
-      },
-      {
         "title": "Enhancing Social Intelligence in LLMs with Hierarchical Reasoning and Utterance-Level Goal Rewarding",
         "year": 2026,
         "url": "https://arxiv.org/pdf/2608.05832",
@@ -8622,7 +8656,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/pdf/2611.00172",
         "outcome": "confirmed",
-        "note": "10 月 30 日首版首页明确张子殷共同第一和核心贡献者、王瑞上交共同通讯；该生在读并参加蚂蚁研发：其实名关联账号于 10 月 29 日直接向论文指定蚂蚁官方项目提交 2,760 行更新，有次年以前的早期实质提交可对照。Siqiao Xue 亦为论文署蚂蚁的核心贡献者，本人确认是支付宝研究工程师。题目与 2024 Code LLM Survey、文本嵌入 F2LLM 等不同。"
+        "note": "10 月 30 日首版首页明确张子殷共同第一和核心贡献者、王瑞上交共同通讯；该生在读并参加蚂蚁研发：其实名关联账号于 10 月 29 日直接向论文指定蚂蚁官方项目提交 对应该论文的综述材料，贡献同时得到署名及作者贡献说明支持。Siqiao Xue 亦为论文署蚂蚁的核心贡献者，本人确认是支付宝研究工程师。题目与 2024 Code LLM Survey、文本嵌入 F2LLM 等不同。"
       },
       {
         "title": "Flexible Realignment of Language Models",
@@ -17366,13 +17400,6 @@ const facultyPaperAudits = {
         "note": "首稿列百度邹智康和叶晓青，邹本人也列梁定康为曾指导的实习生。论文同期具名校内博士导师白翔，但原文无同篇实习脚注，仍缺具体项目归属。"
       },
       {
-        "title": "FVAR: Visual Autoregressive Modeling via Next Focus Prediction",
-        "url": "https://arxiv.org/html/2511.18838v1",
-        "year": 2026,
-        "outcome": "lead",
-        "note": "CVPR 2026；公开稿所有作者合列于百度名下，梁定康同篇具名。是否存在该篇在读学生、符合范围的教师，以及企业项目中的具体身份，仍待明确。"
-      },
-      {
         "title": "Video4Edit: Viewing Image Editing as a Degenerate Temporal Process",
         "url": "https://arxiv.org/html/2511.18131v1",
         "year": 2025,
@@ -17415,13 +17442,6 @@ const facultyPaperAudits = {
         "note": "ICCV 当期公开稿及项目页列小米汽车合作者，小米不在目标企业名单。"
       },
       {
-        "title": "Navigation World Model for Driving Simulation via Multimodal Trajectory Prompting and Motion Alignment",
-        "url": "https://arxiv.org/html/2504.18576v1",
-        "year": 2025,
-        "outcome": "lead",
-        "note": "ACM MM 2025 公开稿统一署百度，未针对在读、导师及实习角色逐名说明。梁定康当年仍在攻读博士，暂未证实同篇的学生身份和校内导师共同发表。"
-      },
-      {
         "title": "Extending Large Vision-Language Model for Diverse Interactive Tasks in Autonomous Driving",
         "url": "https://arxiv.org/html/2505.08725v1",
         "year": 2026,
@@ -17462,13 +17482,6 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "以 Science China Information Sciences 2024 正式书目计。首稿列百度邹智康、叶晓青与华中科大多位作者，未查到具名学生同篇企业实研。"
-      },
-      {
-        "title": "Mini-Monkey: Multi-Scale Adaptive Cropping for Multimodal Large Language Models",
-        "url": "https://arxiv.org/html/2408.02034v1",
-        "year": 2025,
-        "outcome": "no-evidence",
-        "note": "ICLR 2025 作者公开稿逐名列华南理工大学及华中科技大学。首稿具名说明一位作者在华中科大访问时完成，属于高校合作。"
       },
       {
         "title": "LATFormer: Locality-Aware Point-View Fusion Transformer for 3D shape recognition",
@@ -17637,9 +17650,86 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "逐队报告的 HUST-iPad 章节具名梁定康及华中科大成员；赛会的多机构署名不证明其与某目标企业参与同项研究。"
+      },
+      {
+        "title": "FVAR: Next-Focus Prediction for Visual Autoregressive Modeling",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_FVAR_Next-Focus_Prediction_for_Visual_Autoregressive_Modeling_CVPR_2026_paper.html",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "CVPR 正式首页列梁定康和大部分作者署百度、Yanpeng Sun 署新加坡科技设计大学。与 arXiv:2511.18838 为同一研究。未找到范围内学校在读者、实习和指导三方对应材料。"
+      },
+      {
+        "title": "DriVerse: Navigation World Model for Driving Simulation via Multimodal Trajectory Prompting and Motion Alignment",
+        "url": "https://doi.org/10.1145/3746027.3755111",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ACM MM 2025 正式版与 arXiv:2504.18576 同一篇；公开作者稿署百度。仍缺同期校内导师从学籍到同篇研究参与的证据。"
+      },
+      {
+        "title": "Mini-Monkey: Alleviating the Semantic Sawtooth Effect for Lightweight MLLMs via Complementary Image Pyramid",
+        "url": "https://arxiv.org/abs/2408.02034v3",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "对应 ICLR 2025 论文。原文逐名列华南理工大学与华中科技大学，具名注明首位作者研究期间在华中科大访问；无目标企业同项参与证据。"
+      },
+      {
+        "title": "CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liang_CrowdCLIP_Unsupervised_Crowd_Counting_via_Vision-Language_Model_CVPR_2023_paper.pdf",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "本站已有该篇的百度关系，归属当时任教且指导学生的白翔。梁定康在研究期间为华中科技大学学生，正式原文具名注明在百度实习。"
+      },
+      {
+        "title": "SOOD: Towards Semi-Supervised Oriented Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hua_SOOD_Towards_Semi-Supervised_Oriented_Object_Detection_CVPR_2023_paper.pdf",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "本站已将会议论文的百度关系归入当时指导博士生梁定康的白翔。亦核对作者自述为扩展版的期刊 SOOD++（DOI 10.1109/TPAMI.2025.3611519；2025 年在线，2026 年卷期），该版与会议论文按同一工作合计。"
+      },
+      {
+        "title": "A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection",
+        "url": "https://doi.org/10.1109/ICCV51070.2023.00769",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "本站已按正式论文的具名百度实习和同期指导证据，归属于白翔；梁定康当时是学生。"
+      },
+      {
+        "title": "Focal Inverse Distance Transform Maps for Crowd Localization",
+        "url": "https://doi.org/10.1109/TMM.2022.3203870",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2021-22 年公开预印本和 2023 IEEE 期刊正式卷合计。作者公开 PDF 明列华中科技大学和北京邮电大学两校，没有目标企业。"
+      },
+      {
+        "title": "An Empirical Study of Ground Segmentation for 3-D Object Detection",
+        "url": "https://doi.org/10.1109/TITS.2025.3532436",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "武汉大学作者档案及原作者代码项目分别核实正式题名、作者及通讯作者白翔。百度研究员邹智康等同篇；没有找到具名在读学生在百度参与本项研究的材料。"
+      },
+      {
+        "title": "Scaling Dexterous Manipulation via Action Representation Pretraining",
+        "url": "https://arxiv.org/html/2610.34453v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者在公开原文列华中科技大学；使用第三方基准与现实硬件，没有具体目标企业作者或具名参与证据。"
+      },
+      {
+        "title": "Layerlink: Bridging remote sensing object detection and large vision models with efficient fine-tuning",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320325002432",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "正式期刊公开页核实作者表及论文研究，声明无利益冲突。公开摘要未完整展示单位及致谢；继续找可核对全文。"
+      },
+      {
+        "title": "Not All Texts Are the Same: Dynamically Querying Texts for Scene Text Detection",
+        "url": "https://doi.org/10.1007/978-981-97-8511-7_26",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "Springer 会议卷及 DOI 题录核实梁定康、题名和作者列表；目前只有可核对题录，仍需作者单位、全文和致谢。"
       }
     ],
-    "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
+    "note": "逐篇对照本人主页、DBLP、ORCID、预印本和正式来源；同名《Drift Calibration》原文仅署 UC San Diego，同事网络也不同，暂不归入本人的书目。仍有全文和书目范围待补。"
   },
   "63LTQhgAAAAJ": {
     "from": "2023-01-01",
@@ -32419,7 +32509,55 @@ const facultyPaperAudits = {
       "https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.html",
       "https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.pdf",
       "https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html",
-      "https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf"
+      "https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/meng23d_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/meng23d_interspeech.pdf",
+      "https://www1.se.cuhk.edu.hk/~xyliu/pub.html",
+      "https://www.isca-archive.org/interspeech_2023/wang23y_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/wang23y_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/geng23_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/geng23_interspeech.pdf",
+      "https://sds.cuhk.edu.cn/en/article/1707",
+      "https://mengzhegeng.github.io/",
+      "https://www.isca-archive.org/interspeech_2023/cui23_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/cui23_interspeech.pdf",
+      "https://arxiv.org/abs/2306.13307",
+      "https://www.isca-archive.org/interspeech_2023/hu23b_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/hu23b_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/geng23b_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/geng23b_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/li23x_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/li23x_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2023/deng23b_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2023/deng23b_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2024/wang24k_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2024/wang24k_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2024/li24v_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2024/li24v_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2024/jiang24b_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2024/jiang24b_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2024/li24o_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2024/li24o_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2024/meng24c_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2024/meng24c_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/cui25_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/cui25_interspeech.pdf",
+      "https://arxiv.org/abs/2409.08797",
+      "https://research.cuhk.edu.hk/en/publications/exploring-ssl-discrete-speech-features-for-zipformer-based-contex/projects/?status=FINISHED",
+      "https://www.isca-archive.org/interspeech_2025/li25_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/li25_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/li25v_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/li25v_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/xu25e_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/xu25e_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/zhong25_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/zhong25_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/hu25d_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/hu25d_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/chen25i_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/chen25i_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2025/deng25_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/deng25_interspeech.pdf"
     ],
     "papers": [
       {
@@ -32470,8 +32608,156 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "正式版作者只列香港中文大学与清华大学；未发现企业署名或实习。",
         "year": 2026
+      },
+      {
+        "title": "Integrated and Enhanced Pipeline System to Support Spoken Language Analytics for Screening Neurocognitive Disorders",
+        "url": "https://www.isca-archive.org/interspeech_2023/meng23d_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页列港中大、港科大、港理工与深圳大学等合作方；未见范围内企业作者或具名企业实习。",
+        "year": 2023
+      },
+      {
+        "title": "Hyper-parameter Adaptation of Conformer ASR Systems for Elderly and Dysarthric Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2023/wang23y_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页作者单位仅港中大和南洋理工；未见范围内企业作者或具名企业实习。",
+        "year": 2023
+      },
+      {
+        "title": "On-the-Fly Feature Based Rapid Speaker Adaptation for Dysarthric and Elderly Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2023/geng23_interspeech.html",
+        "outcome": "confirmed",
+        "note": "Interspeech 2023 正式原文首页明确标注第一作者 Mengzhe Geng 的腾讯 AI Lab 实习与本篇研究有关。本人及刘循英校方组页记录 2019–2023 年港中大在读，刘循英同篇署名。Jianwei Yu 在同篇署腾讯 AI Lab，港中深学校活动记录其正式任职为腾讯 AI Lab 语音语义中心高级研究员。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Effective and Compact Contextual Representation for Conformer Transducer Speech Recognition Systems",
+        "url": "https://www.isca-archive.org/interspeech_2023/cui23_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页列港中大、IDEA、鹏城实验室及上海交大。致谢列阿里资助，未列阿里员工为作者，原文已于 2023-06 公开，早于第一作者本人列的 2023-10 起阿里实习。",
+        "year": 2023
+      },
+      {
+        "title": "Exploiting Cross-Domain And Cross-Lingual Ultrasound Tongue Imaging Features For Elderly And Dysarthric Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2023/hu23b_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页署名是港中大及中科院软件所；未见范围内企业作者或具名企业实习。",
+        "year": 2023
+      },
+      {
+        "title": "Use of Speech Impairment Severity for Dysarthric Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2023/geng23b_interspeech.html",
+        "outcome": "confirmed",
+        "note": "Interspeech 2023 正式原文首页明确标注第一作者 Mengzhe Geng 的腾讯 AI Lab 实习与本篇研究有关。本人及刘循英校方组页记录 2019–2023 年港中大在读，刘循英同篇署名。Jianwei Yu 在同篇署腾讯 AI Lab，港中深学校活动记录其正式任职为腾讯 AI Lab 语音语义中心高级研究员。",
+        "year": 2023
+      },
+      {
+        "title": "Lossless 4-bit Quantization of Architecture Compressed Conformer ASR Systems on the 300-hr Switchboard Corpus",
+        "url": "https://www.isca-archive.org/interspeech_2023/li23x_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页署名是港中大及南洋理工；未见范围内企业作者或具名企业实习。",
+        "year": 2023
+      },
+      {
+        "title": "Factorised Speaker-environment Adaptive Training of Conformer Speech Recognition Systems",
+        "url": "https://www.isca-archive.org/interspeech_2023/deng23b_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页署名是港中大与中科院软件所；Jiajun Deng 后来入职华为，不回填为本篇当时的企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Effective and Efficient Non-autoregressive Decoding Using Block-based Attention Mask",
+        "url": "https://www.isca-archive.org/interspeech_2024/wang24k_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "首页确有实习脚注，但明确是中科院软件所而非范围内企业；其余作者单位港中大、南洋理工和加拿大国家研究委员会。",
+        "year": 2024
+      },
+      {
+        "title": "Joint Speaker Features Learning for Audio-visual Multichannel Speech Separation and Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2024/li24v_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "作者单位是港中大、加拿大国家研究委员会、港理工、中科院软件所；所引用的腾讯研究不等于企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Perceiver-Prompt: Flexible Speaker Adaptation in Whisper for Chinese Disordered Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2024/jiang24b_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "作者单位包括港中大、中科院软件所、深圳先进院和国科大；未见范围内企业实习或企业作者。",
+        "year": 2024
+      },
+      {
+        "title": "One-pass Multiple Conformer and Foundation Speech Systems Compression and Quantization Using An All-in-one Neural Model",
+        "url": "https://www.isca-archive.org/interspeech_2024/li24o_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页列港中大、南洋理工等高校和研究机构；没有范围内企业署名或具名实习证据。",
+        "year": 2024
+      },
+      {
+        "title": "Empowering Whisper as a Joint Multi-Talker and Target-Talker Speech Recognition System",
+        "url": "https://www.isca-archive.org/interspeech_2024/meng24c_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "全部作者署港中大，未见范围内企业署名或具名企业项目证据。",
+        "year": 2024
+      },
+      {
+        "title": "Exploring SSL Discrete Speech Features for Zipformer-based Contextual ASR",
+        "url": "https://www.isca-archive.org/interspeech_2025/cui25_interspeech.html",
+        "outcome": "lead",
+        "note": "出版原文明列阿里作者 Shiliang Zhang，校方将论文与阿里资助项目关联；第一作者本人列 2023-10 至 2024-02 阿里达摩院远程实习，首个论文预印本 2024-09。尚缺把其本人在阿里的工作明确对应本篇论文的脚注、成果清单或时间线。",
+        "year": 2025
+      },
+      {
+        "title": "Towards One-bit ASR: Extremely Low-bit Conformer Quantization Using Co-training and Stochastic Precision",
+        "url": "https://www.isca-archive.org/interspeech_2025/li25_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页署港中大与清华大学，未见范围内企业作者或具名企业实习。",
+        "year": 2025
+      },
+      {
+        "title": "Unfolding A Few Structures for The Many: Memory-Efficient Compression of Conformer and Speech Foundation Models",
+        "url": "https://www.isca-archive.org/interspeech_2025/li25v_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页署港中大、中科院软件所与清华；未见范围内企业作者或具名企业实习。",
+        "year": 2025
+      },
+      {
+        "title": "Effective and Efficient One-pass Compression of Speech Foundation Models Using Sparsity-aware Self-pinching Gates",
+        "url": "https://www.isca-archive.org/interspeech_2025/xu25e_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "作者均署港中大；未见范围内企业作者或具名企业实习。",
+        "year": 2025
+      },
+      {
+        "title": "Regularized Federated Learning for Privacy-Preserving Dysarthric and Elderly Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2025/zhong25_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式论文署港中大并列有加拿大国家研究委员会邮箱；未见范围内企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "On-the-fly Routing for Zero-shot MoE Speaker Adaptation of Speech Foundation Models for Dysarthric Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2025/hu25d_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "作者署港中大、中科院软件所与加拿大国家研究委员会；参考文献提及 DeepSeek 与腾讯，并非论文参与。",
+        "year": 2025
+      },
+      {
+        "title": "Towards LLM-Empowered Fine-Grained Speech Descriptors for Explainable Emotion Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2025/chen25i_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "作者署港中大、中科院软件所及加拿大国家研究委员会；未见范围内企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "MOPSA: Mixture of Prompt-Experts Based Speaker Adaptation for Elderly Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2025/deng25_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "作者署港中大、中科院软件所等学研机构；未见范围内企业作者或具名企业实习。",
+        "year": 2025
       }
-    ]
+    ],
+    "note": "部分已查：港中大教师书目、Interspeech 2023–2026 按原文逐篇核对；2023–2026 其他期刊及会议论文仍在继续补齐。"
   },
   "hI9NRDkAAAAJ": {
     "from": "2023-01-01",
