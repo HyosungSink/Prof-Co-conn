@@ -31890,6 +31890,186 @@ const survey = {
           "https://guanzhchen.github.io/data/Resume_Guanzheng.pdf"
         ]
       ]
+    },
+    {
+      "id": "omnihuman-benchmark-tencent-pku-zazffwwaaaaj",
+      "paperId": "arxiv:2604.18326",
+      "company": "腾讯",
+      "team": "微信实验室",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "陈杰 · Jie Chen",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://ai4s.pkusz.edu.cn/info/1032/1223.htm"
+      ],
+      "employee": [
+        "李琛 · Chen Li",
+        "IEEE TPAMI 的本人作者简介具名列 2020 年 4 月起为腾讯微信高级研究员并领导应用视觉组，ECCV 2026 同篇为腾讯微信实验室通讯作者。",
+        "https://www.jdl.link/doc/2011/20211231_Zhu_TPAMI21.pdf"
+      ],
+      "student": [
+        "Lei Zhu",
+        "北京大学在读博士生 Lei Zhu 为第一作者，ECCV 会刊首页明确本工作在其腾讯微信实习期间完成；北大组页面也列出同篇成果。",
+        "https://aimia-pku.github.io/people/"
+      ],
+      "title": "OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation",
+      "short": "OmniHuman Benchmark",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/5091.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://eccv.ecva.net/virtual/2026/poster/4251"
+        ],
+        [
+          "北京大学 AIMIA 论文清单",
+          "https://aimia-pku.github.io/zh/research/"
+        ],
+        [
+          "作者原文的实习脚注",
+          "https://arxiv.org/html/2604.18326"
+        ]
+      ],
+      "evidence": "北京大学在读博士生 Lei Zhu 为第一作者，ECCV 会刊首页明确本工作在其腾讯微信实习期间完成；北大组页面也列出同篇成果。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "由北京大学陈杰负责的 AIMIA 实验室第一方公开名录把 Lei Zhu 列为课题组博士生，陈杰本篇为北大侧通讯作者；论文为与其具名学生的同项研究。",
+        "https://aimia-pku.github.io/people/"
+      ]
+    },
+    {
+      "id": "lingbot-map-ant-nju-mgxadveaaaaj",
+      "paperId": "arxiv:2604.14141",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "姚遥 · Yao Yao",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "http://is.nju.edu.cn/yy/main.htm"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "本人履历从 2022 年 4 月起任蚂蚁研究科学家、2024 年 7 月起任高级研究科学家，并具名列任职团队与相应研究；论文及蚂蚁官方项目同篇署名。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "陈林卓 · Lin-Zhuo Chen",
+        "南京大学在读博士生陈林卓为第一作者，会议版首页标注实习工作；本人主页具名为蚂蚁 Robbyant 实习研究员、列本篇项目，官方蚂蚁项目库与同篇共同第一作者（南大博士 Jian Gao）本人履历交叉确认。",
+        "https://linzhuo.xyz/"
+      ],
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "short": "LingBot-Map",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/1662.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://eccv.ecva.net/virtual/2026/poster/3493"
+        ],
+        [
+          "蚂蚁 Robbyant 官方项目库与出版前后的版本对应",
+          "https://github.com/robbyant/lingbot-map"
+        ],
+        [
+          "同一蚂蚁项目的南大共同第一作者履历",
+          "https://ygaojiany.github.io/"
+        ]
+      ],
+      "evidence": "南京大学在读博士生陈林卓为第一作者，会议版首页标注实习工作；本人主页具名为蚂蚁 Robbyant 实习研究员、列本篇项目，官方蚂蚁项目库与同篇共同第一作者（南大博士 Jian Gao）本人履历交叉确认。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陈林卓本人主页具名列姚遥为南京大学博士导师，两人均为该论文具名作者，姚遥为高校侧通讯作者。",
+        "https://linzhuo.xyz/"
+      ]
+    },
+    {
+      "id": "jd-deepsolo-whu-liu",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "京东",
+      "team": "京东探索研究院",
+      "title": "DeepSolo: Let Transformer Decoder With Explicit Points Solo for Text Spotting",
+      "short": "DeepSolo",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "计算机视觉",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_DeepSolo_Let_Transformer_Decoder_With_Explicit_Points_Solo_for_Text_CVPR_2023_paper.pdf",
+      "arxiv": "2211.10772",
+      "evidence": "会议正式论文首页明确具名说明第一作者叶茂源在京东探索研究院实习期间完成本文。刘菊华在武大教师主页将叶茂源及本篇列入自己的硕士生科研成果，同篇为学校通讯作者。陶大程的同期公开履历确认其任京东探索研究院院长及京东副总裁。",
+      "faculty": [
+        "刘菊华 · Juhua Liu",
+        "武大计算机学院教授和本篇学校通讯作者，在本人的学校主页具名列出所指导硕士生及本篇成果。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "陶大程 · Dacheng Tao",
+        "研究期间为京东集团高级副总裁及京东探索研究院创院院长，本篇以京东探索研究院署名。",
+        "https://www.cityu.edu.hk/sdsc_web/data-science-and-ai-2022/ds/DSAI2022_Programme_Booklet_v7%20%28book%20form%29.pdf"
+      ],
+      "student": [
+        "叶茂源 · Maoyuan Ye",
+        "武大教师主页确认是同期该校硕士生，并列所发表的本篇；原文具名写明他参与京东实习研究。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "advising": [
+        "硕士生科研指导",
+        "刘菊华在本人学校主页逐篇列出硕士生叶茂源的论文，与正式版通讯作者对应。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "extra": [
+        [
+          "多语种扩展版本（同一项目）",
+          "https://arxiv.org/abs/2305.19957"
+        ]
+      ]
+    },
+    {
+      "id": "jd-dptext-detr-whu-liu",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "京东",
+      "team": "京东探索研究院",
+      "title": "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer",
+      "short": "DPText-DETR",
+      "date": "2023-02",
+      "venue": "AAAI",
+      "area": "计算机视觉",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/download/25430/25202",
+      "arxiv": "2207.04491",
+      "evidence": "会议正式论文首页明确具名说明第一作者叶茂源在京东探索研究院实习期间完成本文。刘菊华在武大教师主页将叶茂源及本篇列入自己的硕士生科研成果，同篇为学校通讯作者。陶大程的同期公开履历确认其任京东探索研究院院长及京东副总裁。",
+      "faculty": [
+        "刘菊华 · Juhua Liu",
+        "武大计算机学院教授和本篇学校通讯作者，在本人的学校主页具名列出所指导硕士生及本篇成果。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "陶大程 · Dacheng Tao",
+        "研究期间为京东集团高级副总裁及京东探索研究院创院院长，本篇以京东探索研究院署名。",
+        "https://www.cityu.edu.hk/sdsc_web/data-science-and-ai-2022/ds/DSAI2022_Programme_Booklet_v7%20%28book%20form%29.pdf"
+      ],
+      "student": [
+        "叶茂源 · Maoyuan Ye",
+        "武大教师主页确认是同期该校硕士生，并列所发表的本篇；原文具名写明他参与京东实习研究。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "advising": [
+        "硕士生科研指导",
+        "刘菊华在本人学校主页逐篇列出硕士生叶茂源的论文，与正式版通讯作者对应。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "extra": [
+        [
+          "AAAI 正式文章目录",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/25430"
+        ]
+      ]
     }
   ]
 };

@@ -2681,7 +2681,8 @@ const facultyPaperAudits = {
       "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm",
       "https://www.qihuangzhong.top/",
       "https://www.qihuangzhong.top/publication.html",
-      "https://liamding.cc/"
+      "https://liamding.cc/",
+      "https://www.cityu.edu.hk/sdsc_web/data-science-and-ai-2022/ds/DSAI2022_Programme_Booklet_v7%20%28book%20form%29.pdf"
     ],
     "papers": [
       {
@@ -2731,6 +2732,20 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TASLP.2023.3290431",
         "outcome": "lead",
         "note": "两位导师、京东作者均具名；首发时学生尚在京东实习期间，仍需补同一项目的具体参与证据。"
+      },
+      {
+        "title": "DeepSolo: Let Transformer Decoder With Explicit Points Solo for Text Spotting",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_DeepSolo_Let_Transformer_Decoder_With_Explicit_Points_Solo_for_Text_CVPR_2023_paper.pdf",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "会议正式论文首页明确具名说明第一作者叶茂源在京东探索研究院实习期间完成本文。刘菊华在武大教师主页将叶茂源及本篇列入自己的硕士生科研成果，同篇为学校通讯作者。陶大程的同期公开履历确认其任京东探索研究院院长及京东副总裁。"
+      },
+      {
+        "title": "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25430/25202",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "会议正式论文首页明确具名说明第一作者叶茂源在京东探索研究院实习期间完成本文。刘菊华在武大教师主页将叶茂源及本篇列入自己的硕士生科研成果，同篇为学校通讯作者。陶大程的同期公开履历确认其任京东探索研究院院长及京东副总裁。"
       }
     ],
     "note": "先核对钟起煌在京东探索研究院期间的论文。教师名录所列范围内的完整论文清单还有待梳理。"
@@ -9810,5 +9825,41 @@ const facultyPaperAudits = {
         "note": "陈官正和达摩院作者同篇；出版稿无梁上松署名，不收录为梁上松的关系。"
       }
     ]
+  },
+  "ZAZFfwwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai4s.pkusz.edu.cn/info/1032/1223.htm",
+      "https://aimia-pku.github.io/people/"
+    ],
+    "papers": [
+      {
+        "title": "OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation",
+        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/5091.pdf",
+        "outcome": "confirmed",
+        "note": "北京大学在读博士生 Lei Zhu 为第一作者，ECCV 会刊首页明确本工作在其腾讯微信实习期间完成；北大组页面也列出同篇成果。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "MGxaDVEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://is.nju.edu.cn/yy/main.htm",
+      "https://linzhuo.xyz/"
+    ],
+    "papers": [
+      {
+        "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/1662.pdf",
+        "outcome": "confirmed",
+        "note": "南京大学在读博士生陈林卓为第一作者，会议版首页标注实习工作；本人主页具名为蚂蚁 Robbyant 实习研究员、列本篇项目，官方蚂蚁项目库与同篇共同第一作者（南大博士 Jian Gao）本人履历交叉确认。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   }
 };
