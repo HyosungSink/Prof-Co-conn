@@ -26821,7 +26821,12 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3625549.3658678",
       "https://keyuncheng.github.io/resume/cv_keyun_cheng.pdf",
       "https://www.cse.cuhk.edu.hk/~pclee/www/people.html",
-      "https://storage.hust.edu.cn/info/1014/2001.htm"
+      "https://storage.hust.edu.cn/info/1014/2001.htm",
+      "https://icdcs2026.icdcs.org/program/main-technical-sessions/",
+      "https://sc24.conference-program.com/presenter/?uid=090393",
+      "https://storage.hust.edu.cn/info/1014/1730.htm",
+      "https://www.proceedings.com/content/069/069663webtoc.pdf",
+      "https://www.usenix.org/conference/fast24/technical-sessions"
     ],
     "papers": [
       {
@@ -26998,6 +27003,69 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "HPCA 正式会议作者机构逐名核对，华中科大实验室也报道校内团队，无范围内企业共同署名。"
+      },
+      {
+        "title": "CoRD: Combining Raid and Delta for Fast Partial Updates in Erasure-Coded Storage Clusters",
+        "url": "https://sc24.supercomputing.org/proceedings/tech_paper/tech_paper_pages/pap276.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "SC 正式会议档案明确列华中科大及海康威视，后者不在本站企业范围。"
+      },
+      {
+        "title": "COAR: Computation-Aware Erasure-Coded Repair in Storage Clusters for Distributed Data Analytics",
+        "url": "https://doi.org/10.1109/2575-8411.2026.00113",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE 正式编目与出版者大会项目均列同一组六位作者，对应华中科大与香港中文大学的团队，未发现范围企业作者。"
+      },
+      {
+        "title": "CodedFRER: Enhancing Reliability for FRER Protocol via Erasure Codes in Error-Prone Networks",
+        "url": "https://dblp.org/rec/conf/iwqos/DunJGHLF26.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "核对正式会议档案、论文摘要与教师书目具名六位作者，未发现范围企业研究人员和学生企业角色。"
+      },
+      {
+        "title": "ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage",
+        "url": "https://www.usenix.org/system/files/fast24-ren.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "USENIX 原文逐名列香港中文大学、华中科大及电子科技大学；未见范围内企业作者。"
+      },
+      {
+        "title": "Repair I/O Optimization for Clay Codes via Gray-Code Based Sub-Chunk Reorganization in Ceph",
+        "url": "https://www.msstconference.org/MSST-history/2024/Papers/msst24-2.1.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "大会原文列两位合作者来自浪潮，未见范围内企业作者。"
+      },
+      {
+        "title": "Read-Optimized Persistent Hash Index for Query Acceleration through Fingerprint Filtering and Lock-Free Prefetching",
+        "url": "https://ranger.uta.edu/~jiang/publication/Conferences/2024/ICCD2024%28ROPHI%29.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ICCD 正式原文列华中科大、得克萨斯大学阿灵顿分校和西安理工大学；未见目标企业共同作者。"
+      },
+      {
+        "title": "Accelerating Persistent Hash Indexes via Reducing Negative Searches",
+        "url": "https://ranger.uta.edu/~jiang/publication/Conferences/2023/SmartHT.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICCD 正式原文仅列华中科大及得克萨斯大学阿灵顿分校；所用硬件和设备不代表企业共同研究。"
+      },
+      {
+        "title": "Enabling Encrypted Delta Compression for Outsourced Storage Systems via Preserving Similarity",
+        "url": "https://www.proceedings.com/content/072/072344webtoc.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICCD 正式会议目录按论文逐名列出八位华中科大作者，未见范围内企业共同署名。"
+      },
+      {
+        "title": "Boosting Multi-Block Repair in Cloud Storage Systems with Wide-Stripe Erasure Coding",
+        "url": "https://doi.org/10.1109/IPDPS54959.2023.00036",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "IEEE 会议原卷具名四位华为合作者，校方明确胡燏翀、冯丹指导的项目学生为余祺和王霖。校方同题报道仅列公共基金，仍缺在读学生参加该项华为研发的公开证据；王霖的另一项华为项目不能替代。"
       }
     ]
   },
