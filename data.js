@@ -40375,6 +40375,100 @@ const survey = {
           "https://people.ucas.ac.cn/~caoyanan?language=en"
         ]
       ]
+    },
+    {
+      "id": "tencent-unisid-whu-jiang",
+      "paperId": "arxiv:2602.10445",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "team": "腾讯广告",
+      "faculty": [
+        "江佳伟 · Jiawei Jiang",
+        "论文通讯作者，研究论文署武汉大学；学生本人具名列为博士导师。",
+        "https://bluesjjw.github.io/"
+      ],
+      "employee": [
+        "蒋杰 · Jie Jiang",
+        "论文署腾讯。腾讯公告确认蒋杰任腾讯副总裁并参与生成式广告推荐工作。",
+        "https://www.tencent.com/index.php/zh-cn/articles/2202134.html"
+      ],
+      "student": [
+        "Xinxun Zhang",
+        "2025 年 9 月开始在武汉大学攻读博士，自 2025 年 11 月起在腾讯从事生成式推荐研究实习。",
+        "https://xxzhang99.github.io/"
+      ],
+      "title": "End-to-End Semantic ID Generation for Generative Advertisement Recommendation",
+      "short": "UniSID",
+      "date": "2026-02-11",
+      "venue": "arXiv 预印本",
+      "area": "生成式广告推荐、语义 ID",
+      "paper": "https://arxiv.org/abs/2602.10445",
+      "evidence": "原文列 Xinxun Zhang 与腾讯蒋杰为共同第一作者，武汉大学江佳伟为通讯作者。Xinxun 在个人主页中具名导师，列出 2025 年 11 月至 2026 年 2 月在腾讯研究生成式广告推荐，并在这段经历期间报告了 UniSID 的发布；可与论文使用的工业广告数据、作者署名和本人在 2 月 11 日提交的时间交叉核对。",
+      "advising": [
+        "武汉大学博士生导师",
+        "学生个人简介具名列江佳伟和 Xiao Yan 共同指导，履历列出武汉大学入学时间和腾讯实习。",
+        "https://xxzhang99.github.io/"
+      ],
+      "extra": [
+        [
+          "首版全文与作者单位",
+          "https://arxiv.org/html/2602.10445v1"
+        ],
+        [
+          "腾讯英文公告：员工姓名与职位",
+          "https://www.tencent.com/en-us/articles/2202134.html"
+        ],
+        [
+          "腾讯蒋杰署名的 PVLDB 正式论文",
+          "https://www.vldb.org/pvldb/vol18/p4763-he.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-univa-whu-jiang",
+      "paperId": "arxiv:2605.05803",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "team": "微信视频号广告推荐",
+      "faculty": [
+        "江佳伟 · Jiawei Jiang",
+        "论文通讯作者，研究论文署武汉大学；学生本人具名列为博士导师。",
+        "https://bluesjjw.github.io/"
+      ],
+      "employee": [
+        "蒋杰 · Jie Jiang",
+        "论文署腾讯。腾讯公告确认蒋杰任腾讯副总裁并参与生成式广告推荐工作。",
+        "https://www.tencent.com/index.php/zh-cn/articles/2202134.html"
+      ],
+      "student": [
+        "Xinxun Zhang",
+        "2025 年 9 月开始在武汉大学攻读博士，自 2025 年 11 月起在腾讯从事生成式推荐研究实习。",
+        "https://xxzhang99.github.io/"
+      ],
+      "title": "UniVA: Unified Value Alignment for Generative Recommendation in Online Advertising at Tencent",
+      "short": "UniVA",
+      "date": "2026-05-07",
+      "venue": "arXiv 预印本",
+      "area": "生成式广告推荐、商业价值对齐",
+      "paper": "https://arxiv.org/abs/2605.05803",
+      "evidence": "首稿由武大博士生 Xinxun Zhang 本人提交，他与腾讯作者共同第一，校内导师江佳伟与腾讯蒋杰均为通讯作者。原文第 4.5 节记载该项目于 2026 年 3 月 7–11 日在腾讯微信视频号广告系统进行线上实验；当期正是学生履历明确写出的腾讯生成式推荐基础设施研究实习阶段。UniVA 引用 UniSID，作为另一篇研究单独计数。",
+      "advising": [
+        "武汉大学博士生导师",
+        "学生个人简介具名列江佳伟和 Xiao Yan 共同指导，履历列出武汉大学入学时间和腾讯实习。",
+        "https://xxzhang99.github.io/"
+      ],
+      "extra": [
+        [
+          "首版全文与作者单位",
+          "https://arxiv.org/html/2605.05803v1#S4.SS5"
+        ],
+        [
+          "腾讯英文公告：员工姓名与职位",
+          "https://www.tencent.com/en-us/articles/2202134.html"
+        ]
+      ]
     }
   ]
 };

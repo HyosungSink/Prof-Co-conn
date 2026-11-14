@@ -6460,7 +6460,9 @@ const facultyPaperAudits = {
     "sources": [
       "https://cs.whu.edu.cn/info/1019/2501.htm",
       "https://cs.ccnu.edu.cn/info/1348/14276.htm",
-      "https://dblp.org/pid/62/1637-13.html"
+      "https://dblp.org/pid/62/1637-13.html",
+      "https://bluesjjw.github.io/",
+      "https://xxzhang99.github.io/"
     ],
     "papers": [
       {
@@ -6496,9 +6498,23 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+      },
+      {
+        "title": "End-to-End Semantic ID Generation for Generative Advertisement Recommendation",
+        "url": "https://arxiv.org/abs/2602.10445",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "原文列 Xinxun Zhang 与腾讯蒋杰为共同第一作者，武汉大学江佳伟为通讯作者。Xinxun 在个人主页中具名导师，列出 2025 年 11 月至 2026 年 2 月在腾讯研究生成式广告推荐，并在这段经历期间报告了 UniSID 的发布；可与论文使用的工业广告数据、作者署名和本人在 2 月 11 日提交的时间交叉核对。"
+      },
+      {
+        "title": "UniVA: Unified Value Alignment for Generative Recommendation in Online Advertising at Tencent",
+        "url": "https://arxiv.org/abs/2605.05803",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首稿由武大博士生 Xinxun Zhang 本人提交，他与腾讯作者共同第一，校内导师江佳伟与腾讯蒋杰均为通讯作者。原文第 4.5 节记载该项目于 2026 年 3 月 7–11 日在腾讯微信视频号广告系统进行线上实验；当期正是学生履历明确写出的腾讯生成式推荐基础设施研究实习阶段。UniVA 引用 UniSID，作为另一篇研究单独计数。"
       }
     ],
-    "note": "已核对部分面向工业数据系统的论文；待同篇项目与学生导师补证。"
+    "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
   },
   "IIoFY90AAAAJ": {
     "from": "2023-01-01",
