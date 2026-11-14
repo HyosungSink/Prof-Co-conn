@@ -45639,6 +45639,59 @@ const survey = {
       ],
       "evidence": "2025-02-12 原稿首页列周彦宁的腾讯 AI Lab 和港中文双署；作者贡献明确周彦宁与港科大博士生江浩共同开发测试时适应算法，由陈浩指导研究。江浩的博士答辩公告点名陈浩为导师，并把 Smart-CCS 列为其博士工作；周彦宁的履历显示自 2021-09 在腾讯任研究员。",
       "paperId": "10.48550/arXiv.2502.09662"
+    },
+    {
+      "id": "bytedance-p2p-buaa-zhoujun-li",
+      "title": "P2P: Automated Paper-to-Poster Generation and Fine-Grained Benchmark",
+      "short": "BitsAI-P2P",
+      "date": "2025-05-21",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · 科研海报生成",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1fe6f635fe265292aba3987b5123ae3d-Abstract-Conference.html",
+      "paperId": "10.48550/arXiv.2505.17104",
+      "school": "北京航空航天大学",
+      "studentSchool": "北京航空航天大学",
+      "company": "字节跳动",
+      "team": "Seed",
+      "faculty": [
+        "李舟军",
+        "北航计算机学院教授，是孙涛具名的硕士导师；论文中为通讯作者，署深圳智能科技公司并用北航通讯邮箱。",
+        "https://teacher.buaa.edu.cn/08055/zh_CN/jsxx/42651/jsxx/jsxx.htm"
+      ],
+      "employee": [
+        "Ge Zhang",
+        "字节跳动 2025 年活动公告列其为大模型研究员；本论文列字节跳动与 M-A-P 双署。",
+        "https://seed.bytedance.com/en/blog/call-for-papers-for-iclr-2025-workshop-promoting-open-source-sharing-and-reproducibility-of-foundation-models"
+      ],
+      "student": [
+        "孙涛",
+        "北航在读硕士，2024 年 9 月起为字节跳动 Seed 研究实习生。本篇第一作者署字节跳动与 M-A-P，并以 ASC8384 提交项目主要海报代码及评测实现。",
+        "https://asc8384.github.io/assets/pdf/Resume_ST.pdf"
+      ],
+      "advising": [
+        "硕士导师",
+        "孙涛本人的履历明确列出北航 2023-09 至 2026-01 硕士阶段及导师李舟军。",
+        "https://asc8384.github.io/assets/pdf/Resume_ST.pdf"
+      ],
+      "evidence": "可核最早全文为 2025-05-21 arXiv。两版均列第一作者孙涛、Ge Zhang 的字节跳动署名；孙涛个人履历确认同期实习与北航导师，署名提交新增了论文的海报生成、评测和数据代码。字节官方活动独立确认 Ge Zhang 的大模型研究员身份，正式稿李舟军为共同通讯作者。学校归属依据同期师生关系。",
+      "extra": [
+        [
+          "学生在日常主页列本项目及字节实习",
+          "https://asc8384.github.io/"
+        ],
+        [
+          "孙涛署名的 2025-05-22 核心代码提交",
+          "https://github.com/multimodal-art-projection/P2P/commit/14f9e9453881b8fac3b2a95bd688bf798c3defa1"
+        ],
+        [
+          "2025-05-21 论文首稿",
+          "https://arxiv.org/html/2505.17104v1"
+        ],
+        [
+          "ICLR 正式版作者页",
+          "https://openreview.net/pdf/9479107515b2f45e615a7b7d5c49fe69d678c264.pdf"
+        ]
+      ]
     }
   ]
 };
