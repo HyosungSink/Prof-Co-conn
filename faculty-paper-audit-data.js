@@ -819,7 +819,9 @@ const facultyPaperAudits = {
     "sources": [
       "https://3s.whu.edu.cn/info/1025/1451.htm",
       "https://xiangyuezhang.com/cv/",
-      "https://xiangyuezhang.com/publications/"
+      "https://xiangyuezhang.com/publications/",
+      "https://kebii.github.io/data/ZhangJiaxu-CV-2026.pdf",
+      "https://kebii.github.io/"
     ],
     "papers": [
       {
@@ -845,6 +847,27 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2608.01643",
         "outcome": "no-evidence",
         "note": "原版未列涂志刚为同篇作者。"
+      },
+      {
+        "title": "Skinned Motion Retargeting with Residual Perception of Motion Semantics & Geometry",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Skinned_Motion_Retargeting_With_Residual_Perception_of_Motion_Semantics__CVPR_2023_paper.pdf",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "CVPR 正式论文首页具名标注张嘉旭在腾讯实习时完成本研究的大部分工作，与腾讯导师 Junwu Weng 和武汉大学校内导师涂志刚共同署名。"
+      },
+      {
+        "title": "TapMo: Shape-aware Motion Generation of Skeleton-free Characters",
+        "url": "https://openreview.net/pdf/eaf38c128dca2c1b7c1287fadcae96f534386467.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文首页注明张嘉旭在腾讯 AI Lab 实习时完成本项研究的大部分工作。该学生的博士简历具名涂志刚，腾讯同篇作者 Shaoli Huang 有同期任职来源。"
+      },
+      {
+        "title": "Generative Motion Stylization of Cross-structure Characters within Canonical Motion Space",
+        "url": "https://doi.org/10.1145/3664647.3680864",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "已核实同篇校内导师及腾讯企业合作者；学生对这篇项目的实习归属仍待直接来源。"
       }
     ],
     "note": "先梳理章湘粤公开的相关论文，不代表已覆盖涂志刚的全部论文。"
@@ -2526,7 +2549,12 @@ const facultyPaperAudits = {
       "https://papers.miccai.org/miccai-2025/paper/0082_paper.pdf",
       "https://papers.nips.cc/paper_files/paper/2025/file/2456a42386e445ba884511aa17ca4a30-Paper-Conference.pdf",
       "https://yanfeng-zhou.github.io/",
-      "https://dblp.org/pid/348/9667.html"
+      "https://dblp.org/pid/348/9667.html",
+      "https://dblp.org/pid/48/4561-2.html",
+      "https://orcid.org/0000-0001-6176-3130",
+      "https://orcid.org/0000-0003-1154-2895",
+      "https://cbmi-group.github.io/publications.html",
+      "https://openreview.net/profile?id=~Shangwu_Feng1"
     ],
     "papers": [
       {
@@ -2539,7 +2567,7 @@ const facultyPaperAudits = {
         "title": "Opportunistic Osteoporosis Diagnosis via Texture-Preserving Self-Supervision, Mixture of Experts and Multi-Task Integration",
         "url": "https://papers.miccai.org/miccai-2025/paper/0082_paper.pdf",
         "outcome": "lead",
-        "note": "本论文致谢阿里研究实习计划、同期另一篇黄家兴确署达摩院；仍缺公开资料把黄家兴本人同这篇的实习绑定。"
+        "note": "已有论文、导师和企业证据；论文仅致谢阿里研究实习计划，未具名把黄家兴本人连到该项实习，保留线索。"
       },
       {
         "title": "Mamba-3D as Masked Autoencoders for Accurate and Data-Efficient Analysis of Medical Ultrasound Videos",
@@ -2598,8 +2626,8 @@ const facultyPaperAudits = {
       {
         "title": "IYNet: Asymmetric Multi-Input Network with Wavelet-Driven LF/HF Perturbation for Semi-Supervised Biomedical Image Segmentation",
         "url": "https://openreview.net/pdf?id=5qjAJkeUmS",
-        "outcome": "lead",
-        "note": "已核对校方列出的三位作者。当前公开论文页面验证挡住正式稿核验，尚未确认企业来源；待补。"
+        "outcome": "no-evidence",
+        "note": "现已打开 BIBM 正式版。三位作者仅署中科院自动化所和国科大；冯尚武公开履历列杨戈为导师，未见任何范围内企业作者。"
       },
       {
         "title": "SATO: Straighten Any 3D Tubular Object",
@@ -2672,9 +2700,63 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2409.00947",
         "outcome": "no-evidence",
         "note": "作者项目资料和论文页面未找到企业实习与本篇的对应证据。"
+      },
+      {
+        "title": "Confidence-aware dual-consistency and pixel-sampled dual-contrastive learning for semi-supervised biomedical image segmentation",
+        "url": "https://doi.org/10.1016/j.neucom.2025.132422",
+        "outcome": "no-evidence",
+        "note": "逐项查出版方作者贡献，三位作者；单位均国科大/中科院，没有企业作者。"
+      },
+      {
+        "title": "AI-driven Large-scale Electron Microscopy enables Whole-tissue Subcellular Digitization",
+        "url": "https://doi.org/10.21203/rs.3.rs-9065308/v1",
+        "outcome": "no-evidence",
+        "note": "arXiv:2511.02860 与 Research Square 是同篇；后者全文十人署高校、医院和科研院所。"
+      },
+      {
+        "title": "Benchmarking robustness of deep neural networks in semantic segmentation of fluorescence microscopy images",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39164632/",
+        "outcome": "no-evidence",
+        "note": "正式索引三位作者，均列高校、科研院所。"
+      },
+      {
+        "title": "Universal Transformer-Based Tracker for Accurate Tracking of Particles and Cells in Microscopy",
+        "url": "https://doi.org/10.1101/2025.05.09.653028",
+        "outcome": "no-evidence",
+        "note": "bioRxiv 原文三名作者均为国科大或中科院自动化所。"
+      },
+      {
+        "title": "Multi-Volume Isotropic Super-Resolution Wrist MRI Using Fourier-Guided Implicit Fusion",
+        "url": "https://doi.org/10.1109/ISBI60581.2025.10980917",
+        "outcome": "no-evidence",
+        "note": "IEEE ISBI 官方技术日程完整列出共同作者，都是华北医院、研究机构及高校。"
+      },
+      {
+        "title": "Artificial Intelligence-Enhanced Quantitative 3D Analysis of Distal Radioulnar Ligament Insertion Footprints of the Triangular Fibrocartilage Complex With Interactive Validation",
+        "url": "https://doi.org/10.1111/os.70231",
+        "outcome": "no-evidence",
+        "note": "Wiley 全文作者单位、作者贡献和致谢均未见范围内企业。"
+      },
+      {
+        "title": "GobletNet: Wavelet-Based High-Frequency Fusion Network for Semantic Segmentation of Electron Microscopy Images",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39365717/",
+        "outcome": "no-evidence",
+        "note": "按 IEEE DOI 与作者代码核对实现和共同作者，尚未发现相关企业研究。"
+      },
+      {
+        "title": "DUET: Dual-Domain Unification with Error-Aware Trajectory for Low-Dose CT Reconstruction",
+        "url": "https://dblp.org/rec/conf/ijcnn/QuFZY26",
+        "outcome": "lead",
+        "note": "四作者可核对，IEEE 正式全文未能公开访问，未证实企业参与，待补。"
+      },
+      {
+        "title": "AngioDiff: Structure-Preserving and 3D-Consistent Diffusion for CT Angiography Synthesis",
+        "url": "https://doi.org/10.1109/BIBM66473.2025.11356786",
+        "outcome": "lead",
+        "note": "BIBM 四作者含国科大导师和达摩院合作者；尚未打开全文及具名学生项目资料，保留待核线索。"
       }
     ],
-    "note": "逐条筛查了学校官网出版清单时间窗内所列 (1)–(20) 及若干补充成果；IYNet 正式全文仍待打开，官方清单之外的书目尚未查全，故仍记部分梳理。"
+    "note": "已对照校方近年出版信息、DBLP、ORCID、作者小组与学生书目，核对可获得的正式版和预印本；两项 IEEE 正式版待补，若干校企联名缺学生同篇贡献说明，仍记部分梳理。"
   },
   "wn9hc6UAAAAJ": {
     "from": "2023-01-01",
@@ -4934,7 +5016,11 @@ const facultyPaperAudits = {
       "https://aclanthology.org/2025.emnlp-main.1317/",
       "https://openreview.net/forum?id=i8iQUM33s",
       "https://arxiv.org/abs/2402.05382",
-      "https://valser.org/2023/static/VALSE2023_HYSC.pdf"
+      "https://valser.org/2023/static/VALSE2023_HYSC.pdf",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e36b276fdade9ed7f8e680cb2f1658ba-Abstract-Conference.html",
+      "https://zhenguol.github.io/",
+      "https://arxiv.org/abs/2506.04559",
+      "https://github.com/gyhdog99/RAPID"
     ],
     "papers": [
       {
@@ -4984,6 +5070,12 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/forum?id=i8iQUM33s",
         "outcome": "confirmed",
         "note": "同期 VALSE 官方展示名单将本篇归入华为诺亚项目，刘智立履历将其列为在港科大攻读博士且在华为诺亚任实习生期间的成果，主页具名 James Kwok 博士指导。华为员工 Lanqing Hong 同篇且公开列刘智立为实习成员。"
+      },
+      {
+        "title": "Reasoning-Aligned Perception Decoupling for Scalable Multi-modal Reasoning",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e36b276fdade9ed7f8e680cb2f1658ba-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "ICLR 正式论文把刘智立列为同时署名香港科技大学与华为诺亚方舟实验室的共同第一作者。其履历列出本篇工作，其个人主页具名 James Kwok 为博士导师、Zhenguo Li 为华为实习指导者。双方导师均在本篇署名，Zhenguo Li 同期担任华为 AI Theory Lab 主任。"
       }
     ]
   },
@@ -6000,5 +6092,51 @@ const facultyPaperAudits = {
         "note": "ICML 正式论文首页具名标注第一作者王文斌在腾讯优图实习期间完成该工作，企业作者 Shouhong Ding 与校内导师罗勇同时署名。学生本人主页注明校内博士身份并确认该论文。"
       }
     ]
+  },
+  "ayrg9AUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.mlr.press/v306/lin26ak.html",
+      "https://github.com/1229095296",
+      "https://gjyin.github.io/",
+      "https://rhe-web.github.io/people.html",
+      "https://openreview.net/pdf/6927046535afb180c4ba1d33a96a3b59d4b5999d.pdf"
+    ],
+    "papers": [
+      {
+        "title": "ResRL: Boosting LLM Reasoning via Negative Sample Projection Residual Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v306/lin26ak.html",
+        "outcome": "lead",
+        "note": "ICML 正式论文具名第一作者 Zihan Lin 在美团实习期间完成本篇、国科大学生主页与论文同标，企业资深研究员殷国君和国科大研究员赫然同篇通讯；暂无独立具名导师、组员或论文作者贡献说明。"
+      },
+      {
+        "title": "ReST: Reshaping Token-Level Policy Gradients for Tool-Use Large Language Models",
+        "url": "https://openreview.net/pdf/6927046535afb180c4ba1d33a96a3b59d4b5999d.pdf",
+        "outcome": "lead",
+        "note": "ICLR 正式论文具名第一作者 Zihan Lin 在美团实习期间完成本篇、国科大学生主页与论文同标，企业资深研究员殷国君和国科大研究员赫然同篇通讯；暂无独立具名导师、组员或论文作者贡献说明。"
+      }
+    ]
+  },
+  "d3g2VJQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/sb/index.htm",
+      "https://openreview.net/profile?id=~Dongsheng_Jiang2",
+      "https://openreview.net/profile?id=~Niuxin1",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "ReAttnCLIP: Training-Free Open-Vocabulary Remote Sensing Image Segmentation via Re-defined Attention in CLIP",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式版具名华为实习；学生和企业作者的公开履历分别明确师生关系及华为任职。"
+      }
+    ],
+    "note": "已核对这篇和部分论文线索，未覆盖教师全部成果。"
   }
 };

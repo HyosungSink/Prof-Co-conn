@@ -23168,6 +23168,183 @@ const survey = {
           "https://arxiv.org/abs/2602.21716"
         ]
       ]
+    },
+    {
+      "id": "huawei-rapid-hkust-james-kwok",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "James Tin-Yau KWOK",
+        "香港科技大学教授、论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk"
+      ],
+      "student": [
+        "刘智立 · Zhili Liu",
+        "香港科技大学博士生、华为诺亚方舟实验室实习生、论文共同第一作者；正式出版版同时注明港科大与华为诺亚方舟的署名。",
+        "https://capricious-liu.github.io/files/Zhili_CV.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "刘智立个人主页具名 James Kwok 为其香港科技大学博士导师，并列出同篇论文。",
+        "https://capricious-liu.github.io/"
+      ],
+      "employee": [
+        "Zhenguo Li",
+        "华为诺亚方舟实验室 AI Theory Lab 主任、首席研究员、论文共同作者；学生的公开履历具名其在华为实习期间的指导者为 Zhenguo Li。",
+        "https://zhenguol.github.io/"
+      ],
+      "title": "Reasoning-Aligned Perception Decoupling for Scalable Multi-modal Reasoning",
+      "short": "RAPID",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "计算机视觉与多模态",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e36b276fdade9ed7f8e680cb2f1658ba-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式论文初稿及三类作者",
+          "https://arxiv.org/abs/2506.04559"
+        ],
+        [
+          "论文项目及正式引用",
+          "https://github.com/gyhdog99/RAPID"
+        ]
+      ],
+      "evidence": "ICLR 正式论文把刘智立列为同时署名香港科技大学与华为诺亚方舟实验室的共同第一作者。其履历列出本篇工作，其个人主页具名 James Kwok 为博士导师、Zhenguo Li 为华为实习指导者。双方导师均在本篇署名，Zhenguo Li 同期担任华为 AI Theory Lab 主任。"
+    },
+    {
+      "id": "huawei-reattnclip-ruc-su",
+      "company": "华为",
+      "team": "视觉与多模态研究团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "苏冰 · Bing Su",
+        "中国人民大学高瓴人工智能学院副教授，本篇共同署名的通讯作者。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/sb/index.htm"
+      ],
+      "employee": [
+        "Dongsheng Jiang",
+        "本人 OpenReview 任职履历列 2017—2026 华为首席研究员；本篇署华为。",
+        "https://openreview.net/profile?id=~Dongsheng_Jiang2"
+      ],
+      "student": [
+        "Xin Niu",
+        "本人 OpenReview 公开履历列 2024—2028 在中国人民大学读博士；CVPR 正文明确为同篇在华为实习学生。",
+        "https://openreview.net/profile?id=~Niuxin1"
+      ],
+      "title": "ReAttnCLIP: Training-Free Open-Vocabulary Remote Sensing Image Segmentation via Re-defined Attention in CLIP",
+      "short": "ReAttnCLIP",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.pdf",
+      "evidence": "CVPR 正式版独立用匕首符号将华为实习脚注标给共同一作 Xin Niu。苏冰任通讯作者，华为研究人员 Dongsheng Jiang 同篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "学生本人公开 OpenReview 履历具名列苏冰为 2024—2028 年人大博士导师。",
+        "https://openreview.net/profile?id=~Niuxin1"
+      ],
+      "extra": [
+        [
+          "CVPR 正式出版条目",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Niu_ReAttnCLIP_Training-Free_Open-Vocabulary_Remote_Sensing_Image_Segmentation_via_Re-defined_Attention_CVPR_2026_paper.html"
+        ],
+        [
+          "会议作者档案交叉链接",
+          "https://openreview.net/forum?id=2Ng6xHIMn2"
+        ]
+      ],
+      "paperId": "openreview:2Ng6xHIMn2"
+    },
+    {
+      "id": "tencent-r2et-whu-zhigang-tu",
+      "title": "Skinned Motion Retargeting with Residual Perception of Motion Semantics & Geometry",
+      "short": "R²ET",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Skinned_Motion_Retargeting_With_Residual_Perception_of_Motion_Semantics__CVPR_2023_paper.pdf",
+      "team": "腾讯 AI Lab",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "area": "计算机图形与动作生成",
+      "faculty": [
+        "涂志刚 · Zhigang Tu",
+        "研究开展时为武汉大学教师及论文通讯作者。",
+        "https://3s.whu.edu.cn/info/1025/1451.htm"
+      ],
+      "student": [
+        "张嘉旭 · Jiaxu Zhang",
+        "武汉大学在读博士；正式论文和学生工作履历将此篇与腾讯研究实习相互印证。",
+        "https://kebii.github.io/"
+      ],
+      "employee": [
+        "Junwu Weng",
+        "同篇署腾讯 AI Lab；本人履历明确博士毕业后任职腾讯，张嘉旭也将其具名为当时企业导师。",
+        "https://calcifer.me/"
+      ],
+      "advising": [
+        "科研指导（博士就读期间）",
+        "张嘉旭同期公开博士 CV 具名列涂志刚为武汉大学导师；教师与学生为同篇作者。",
+        "https://kebii.github.io/data/ZhangJiaxu-CV-2026.pdf"
+      ],
+      "evidence": "CVPR 正式论文首页具名标注张嘉旭在腾讯实习时完成本研究的大部分工作，与腾讯导师 Junwu Weng 和武汉大学校内导师涂志刚共同署名。",
+      "extra": [
+        [
+          "相关出版与论文版本",
+          "https://arxiv.org/abs/2303.08658"
+        ],
+        [
+          "学生博士履历",
+          "https://kebii.github.io/data/ZhangJiaxu-CV-2026.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-tapmo-whu-zhigang-tu",
+      "title": "TapMo: Shape-aware Motion Generation of Skeleton-free Characters",
+      "short": "TapMo",
+      "date": "2024-05",
+      "venue": "ICLR",
+      "paper": "https://openreview.net/pdf/eaf38c128dca2c1b7c1287fadcae96f534386467.pdf",
+      "team": "腾讯 AI Lab",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "area": "计算机图形与动作生成",
+      "faculty": [
+        "涂志刚 · Zhigang Tu",
+        "研究开展时为武汉大学教师及论文通讯作者。",
+        "https://3s.whu.edu.cn/info/1025/1451.htm"
+      ],
+      "student": [
+        "张嘉旭 · Jiaxu Zhang",
+        "武汉大学在读博士；正式论文和学生工作履历将此篇与腾讯研究实习相互印证。",
+        "https://kebii.github.io/"
+      ],
+      "employee": [
+        "Shaoli Huang",
+        "同篇署腾讯 AI Lab，研究者本人首页及同期期刊作者简介确认正式任职。",
+        "https://shaoli-huang.github.io/"
+      ],
+      "advising": [
+        "科研指导（博士就读期间）",
+        "张嘉旭同期公开博士 CV 具名列涂志刚为武汉大学导师；教师与学生为同篇作者。",
+        "https://kebii.github.io/data/ZhangJiaxu-CV-2026.pdf"
+      ],
+      "evidence": "ICLR 正式论文首页注明张嘉旭在腾讯 AI Lab 实习时完成本项研究的大部分工作。该学生的博士简历具名涂志刚，腾讯同篇作者 Shaoli Huang 有同期任职来源。",
+      "extra": [
+        [
+          "相关出版与论文版本",
+          "https://proceedings.iclr.cc/paper_files/paper/2024/hash/9415416201aa201902d1743c7e65787b-Abstract-Conference.html"
+        ],
+        [
+          "学生博士履历",
+          "https://kebii.github.io/data/ZhangJiaxu-CV-2026.pdf"
+        ]
+      ]
     }
   ]
 };
