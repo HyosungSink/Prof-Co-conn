@@ -32557,7 +32557,34 @@ const facultyPaperAudits = {
       "https://www.isca-archive.org/interspeech_2025/chen25i_interspeech.html",
       "https://www.isca-archive.org/interspeech_2025/chen25i_interspeech.pdf",
       "https://www.isca-archive.org/interspeech_2025/deng25_interspeech.html",
-      "https://www.isca-archive.org/interspeech_2025/deng25_interspeech.pdf"
+      "https://www.isca-archive.org/interspeech_2025/deng25_interspeech.pdf",
+      "https://aclanthology.org/2026.emnlp-main.2015/",
+      "https://aclanthology.org/2026.emnlp-main.2015.pdf",
+      "https://lizhaoqing.github.io/",
+      "https://ruiliu-ai.github.io/",
+      "https://arxiv.org/abs/2605.31530",
+      "https://proceedings.mlr.press/v306/niu26d.html",
+      "https://arxiv.org/abs/2507.23511",
+      "https://github.com/xiaomi-research/mecat",
+      "https://www.xing.com/profile/Heinrich_Dinkel",
+      "https://cn.linkedin.com/in/tianzi-wang-3b7857154",
+      "https://ieeexplore.ieee.org/document/11461940",
+      "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=11323&bare=1",
+      "https://jjdean321.github.io/",
+      "https://aclanthology.org/2024.findings-emnlp.263/",
+      "https://aclanthology.org/2024.findings-emnlp.263.pdf",
+      "https://aclanthology.org/2025.acl-long.135/",
+      "https://aclanthology.org/2025.acl-long.135.pdf",
+      "https://arxiv.org/abs/2406.11546",
+      "https://github.com/SpeechColab/GigaSpeech2",
+      "https://ismir2024program.ismir.net/poster_48.html",
+      "https://zenodo.org/records/14877345/files/000036.pdf",
+      "https://juyaolongpaul.github.io/juyaolong/",
+      "https://arxiv.org/abs/2503.10086",
+      "https://ismir.net/conferences/ismir-2024/",
+      "https://arxiv.org/abs/2609.16855",
+      "https://arxiv.org/pdf/2609.16855",
+      "https://research.cuhk.edu.hk/en/publications/differentiable-and-severity-invariant-discrete-tokens-for-dysarth/"
     ],
     "papers": [
       {
@@ -32755,6 +32782,55 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "作者署港中大、中科院软件所等学研机构；未见范围内企业作者或具名企业实习。",
         "year": 2025
+      },
+      {
+        "title": "UNISON: A Unified Sound Generation and Editing Framework via Deep LLM Fusion",
+        "url": "https://aclanthology.org/2026.emnlp-main.2015/",
+        "outcome": "confirmed",
+        "note": "正式 EMNLP 原文首页的唯一星号专指第一作者 Zhaoqing Li，明载本篇工作在华为香港研究中心实习期间完成。本人主页明确为港中大博士、由刘循英指导，刘循英为本文通讯作者。另一通讯作者 Rui Liu 署华为香港研究中心，本人主页明确 2024 年 9 月入职华为与发布 UNISON。2026 年 5 月预印本与 10 月正式版合并为一篇。",
+        "year": 2026
+      },
+      {
+        "title": "MECAT: A Multi-Experts Constructed Benchmark for Fine-Grained Audio Understanding Tasks",
+        "url": "https://proceedings.mlr.press/v306/niu26d.html",
+        "outcome": "lead",
+        "note": "Tianzi Wang 的小米及港中大双署名出现在预印本和 ICML 正式稿，刘循英校方课题组记录其在 2021–2026 年攻读博士；小米研究官方项目库发布同篇，企业合作者 Heinrich Dinkel 的同期任职已经核实。暂缺将她本人在小米的身份及其具体公司研究职责与本篇绑定的独立具名证据；首页星号含义为并列贡献，非实习脚注。",
+        "year": 2026
+      },
+      {
+        "title": "Three Seconds is Sufficient: A Multi-Pronged Framework for Model-Based Speaker Adaptation in ASR Under Data-Scarce Conditions",
+        "url": "https://ieeexplore.ieee.org/document/11461940",
+        "outcome": "lead",
+        "note": "ICASSP 官方技术日程列 Jiajun Deng、Tristan Tsoi 和 Simon Lui 为华为作者，学校作者与刘循英同篇。Jiajun Deng 此时已经毕业并入职，不能再作为在读学生；需要补 Chunyat Wu 等当时在读作者的具名指导和本篇华为研究证据。",
+        "year": 2026
+      },
+      {
+        "title": "WavLLM: Towards Robust and Adaptive Speech Large Language Model",
+        "url": "https://aclanthology.org/2024.findings-emnlp.263/",
+        "outcome": "no-evidence",
+        "note": "正式 EMNLP 原文确有第一作者 Shujie Hu 具名实习脚注，但企业为 Microsoft Research，不在本项目 14 家企业范围。",
+        "year": 2024
+      },
+      {
+        "title": "GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages with Automated Crawling, Transcription and Refinement",
+        "url": "https://aclanthology.org/2025.acl-long.135/",
+        "outcome": "no-evidence",
+        "note": "正式 ACL 原文企业署名为 Birch AI、Dataocean AI、AISpeech 与 Seasalt AI，均不在调查范围；作者维护的 SpeechColab 项目亦列出相应参与机构。2024-06 预印本与 ACL 2025 正式版归为一篇。",
+        "year": 2025
+      },
+      {
+        "title": "Efficient Adapter Tuning for Joint Singing Voice Beat and Downbeat Tracking with Self-Supervised Learning Features",
+        "url": "https://ismir2024program.ismir.net/poster_48.html",
+        "outcome": "confirmed",
+        "note": "ISMIR 2024 正式稿第 7 节具名说明 Jiajun Deng 在华为香港研究中心实习期间开展本研究。本人履历列 2020-08 至 2024-07 港中大博士及导师刘循英，会议程序把他及同篇作者刘循英列为港中大。Yaolong Ju 的本人履历确认其华为中央媒体技术院企业身份并列此篇；论文也署华为。正式发表后的 arXiv 文稿与同篇合并。",
+        "year": 2024
+      },
+      {
+        "title": "Differentiable and Severity-invariant Discrete Tokens for Dysarthric Speech Recognition",
+        "url": "https://arxiv.org/abs/2609.16855",
+        "outcome": "no-evidence",
+        "note": "港中大校方记录列港中大、中科院、加拿大国家研究委员会等合作方，公开预印本证据未发现范围内企业角色；IEEE SLT 正式会议在调查截止日之后，先按 2026-09 预印本记录。",
+        "year": 2026
       }
     ],
     "note": "部分已查：港中大教师书目、Interspeech 2023–2026 按原文逐篇核对；2023–2026 其他期刊及会议论文仍在继续补齐。"
@@ -32794,5 +32870,487 @@ const facultyPaperAudits = {
       }
     ],
     "note": "先核对自动化所、学生履历和同行出版方公开材料中的杨振宇相关视频研究。未穷尽徐常胜全期出版物。学生的 2022 硕士名单与 2024 硕博连读公示分别处理，博士阶段指导关系由学生履历具名。"
+  },
+  "0_Uzya8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://sds.fudan.edu.cn/17429/list.htm",
+      "https://lingxiaqiao.github.io/publications/",
+      "https://orcid.org/0000-0003-2639-6851",
+      "https://rangamani.ucsd.edu/group",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH%3A%22Qiao%20Lingxia%22&format=json",
+      "https://api.crossref.org/works/10.1016/j.bpj.2022.11.1250",
+      "https://biophysics.cld.bz/BPS2025-Full-Program-Abstracts/149",
+      "https://arxiv.org/abs/2408.05395"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "A circuit for secretion-coupled cellular autonomy in multicellular eukaryotic cells",
+        "url": "https://link.springer.com/article/10.15252/msb.202211127",
+        "outcome": "no-evidence",
+        "note": "正式原文作者均署 UCSD 或圣地亚哥退伍军人医疗中心；资助来自 NIH、基金会等，未见范围内企业人员或就读期间的企业科研。"
+      },
+      {
+        "year": 2023,
+        "title": "Design principles of improving the dose-response alignment in coupled GTPase switches",
+        "url": "https://www.nature.com/articles/s41540-023-00266-9",
+        "outcome": "no-evidence",
+        "note": "正式原文列乔灵霞、Pradipta Ghosh、Padmini Rangamani，均署 UCSD；致谢不涉及站内企业。合并 2022 年 bioRxiv 同文。"
+      },
+      {
+        "year": 2023,
+        "title": "Pattern formation in nanodomain aggregates of membrane proteins",
+        "url": "https://biophysics.cld.bz/Biophysical-Society-67th-Annual-Meeting-Program-Guide/107/",
+        "outcome": "no-evidence",
+        "note": "BPS 2023 官方节目册第 107 页 1014-pos 与期刊摘要 DOI 10.1016/j.bpj.2022.11.1250 均只署乔灵霞，没有同篇企业人员或学生。此处仅收录有正式出版题录的会议摘要。"
+      },
+      {
+        "year": 2024,
+        "title": "Spatiotemporal orchestration of calcium-cAMP oscillations on AKAP/AC nanodomains is governed by an incoherent feedforward loop",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012564",
+        "outcome": "no-evidence",
+        "note": "正式原文的 Brian Tenner 署 SomaLogic，该公司不在站内范围；其余作者为 UCSD、印第安纳大学。合并 bioRxiv 预印与 UCR 同主题早期海报。"
+      },
+      {
+        "year": 2025,
+        "title": "The Evolution of Systems Biology and Systems Medicine: From Mechanistic Models to Uncertainty Quantification",
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-102723-065309",
+        "outcome": "no-evidence",
+        "note": "出版方确定 2025 年 2 月首刊；2024 年 arXiv 为同作者同文。四名作者均署 UCSD，未见范围内企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "Connexin 43-Enriched Vesicles Improve Synchronization in hiPSC-Derived Cardiomyocytes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13271624/",
+        "outcome": "no-evidence",
+        "note": "正式原文列 UCSD、德州大学奥斯汀分校研究人员，未见范围内企业人员和参与企业科研的在读学生。"
+      },
+      {
+        "year": 2026,
+        "title": "Dynamics of the formation of flat clathrin lattices in response to growth factor stimulus",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014013",
+        "outcome": "no-evidence",
+        "note": "正式署名为复旦／UCSD、NIH 与 UCSD；未见范围内企业人员。合并同四位作者的 BPS 2025 海报和 bioRxiv 预印本。"
+      },
+      {
+        "year": 2026,
+        "title": "Nanoscale Architecture Can Control Cellular Function",
+        "url": "https://pubs.acs.org/ancac3/article/doi/10.1021/acsnano.6c03529/5278611/Nanoscale-Architecture-Can-Control-Cellular",
+        "outcome": "no-evidence",
+        "note": "出版方脚注注明乔灵霞现为复旦，原工作署 UCSD，另一位同作者现址为加州理工，未见范围内企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "Systems modelling of mitochondrial dynamics in different exercise regimes",
+        "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP290424",
+        "outcome": "no-evidence",
+        "note": "Wiley 正式原文全体署 UCSD；作者资料所列以前任职不用于推定这项企业工作。合并出版方明示的 2025 年 bioRxiv 预印本。"
+      }
+    ],
+    "note": "已穷尽调查期内可公开确认的个人书目及补遗，共 9 项（8 篇正式文章与 1 项正式期刊会议摘要）；复旦学院确认身份，个人完整书目对照同 ORCID、Europe PMC、Crossref、出版方和会议日程。正式版与同文预印及早期海报归并，排除异机构同名电催化作者。在范围内未发现符合三方证据的关系。"
+  },
+  "qBQOXTwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~zhangfusang",
+      "https://people.ucas.ac.cn/~zhangfusang?language=en",
+      "https://cst.buaa.edu.cn/info/1059/4325.htm",
+      "https://dblp.org/pid/68/10002.html",
+      "https://orcid.org/0000-0002-2529-8021",
+      "https://zhaoxin-chang.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "AirKey: Multimodal Acoustic-Assisted WiFi Sensing for Zero-Training Robust PIN Inference",
+        "url": "https://doi.org/10.1145/3767308.3836211",
+        "outcome": "no-evidence",
+        "note": "CCS 正式题录 2026-11-09 在截止前上线，与 arXiv:2608.03151 同篇；企业署名为浪潮，调查范围不包含。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Physical Labels: Redefining Domains for Robust WiFi-based Gesture Recognition",
+        "url": "https://doi.org/10.1145/3790114",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版与 arXiv:2601.03825 合并，作者署高校及研究所；使用多域 Wi-Fi 数据评价手势识别，未见目标企业作者及具名企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Bridging the Resolution Gap: Cost-Effective Human Point Cloud Generation via Low-Bandwidth mmWave Radar",
+        "url": "https://doi.org/10.1145/3810223",
+        "outcome": "no-evidence",
+        "note": "ACM 正式题录列北大、北航、南洋理工等；低带宽雷达人体点云生成，以不同任务及正式题录与 OmniPC 分列。"
+      },
+      {
+        "year": 2026,
+        "title": "Commodity WiFi Can Capture Your Respiration Even the Motion Interference Exists",
+        "url": "https://doi.org/10.1145/3842662",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者来自合工大、中科大、北航、软件所及浪潮等，目标企业没有署名；商用 Wi-Fi 可测受干扰的呼吸。"
+      },
+      {
+        "year": 2026,
+        "title": "DailyBeat: Reliable Cardiac Sensing Under Self-Induced Dynamic Interference Using mmWave Radar",
+        "url": "https://doi.org/10.1145/3831967",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者来自北航、北大、巴黎电信及法国国家科研机构等；目标是抑制自然动作干扰心脏信号，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "DiffLoc+: Toward Robust Wi-Fi Hidden Camera Localization Based on Electromagnetic Diffraction",
+        "url": "https://doi.org/10.1109/jsac.2026.3671737",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者机构列软件所和国内外高校，采用电磁衍射定位隐藏 Wi-Fi 摄像头，未列范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "EcoTrack: Enabling Energy-Efficient Millimeter-Accurate Tracking on Commodity UWB Devices",
+        "url": "https://doi.org/10.1145/3832016",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者机构主要是中科院软件所、国科大及南洋理工、北航；低功耗毫米级 UWB 跟踪，未见企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "From Prototype to Nationwide Deployment: A 5-year Retrospect of a WiFi-based Outdoor Localization System",
+        "url": "https://doi.org/10.1145/3790112",
+        "outcome": "lead",
+        "note": "ACM 正式登记列苏畅、马俊麒署中科院软件所，及倪佳志等四位腾讯作者；国科大档案列苏畅由张扶桑指导，IPIN 2022 名录也把这些人列入校企联合竞赛团队。不同项目的竞赛名单不能直接证明学生在腾讯参与本篇全国部署研究，故暂列线索。"
+      },
+      {
+        "year": 2026,
+        "title": "From Quantum Measurement to Quantum Wireless Sensing: Current States and Future Opportunities",
+        "url": "https://doi.org/10.1109/mcom.001.2500356",
+        "outcome": "no-evidence",
+        "note": "IEEE 卷期列量子无线感知展望，不同于 2026 净零 Rydberg 实验论文。可核完整出版题录，暂未取得 IEEE 全文或完整作者单位，未见具名企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Hiding Identity, Preserving Respiration: Semantic-Decoupled Privacy Protection for mmWave Radar Sensing",
+        "url": "https://doi.org/10.1145/3832038",
+        "outcome": "no-evidence",
+        "note": "ACM 正式登载多所高校及浪潮；保护身份同时保留毫米波呼吸信息，未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Human Mesh Recovery from Partial Point Cloud Without Human Annotations",
+        "url": "https://doi.org/10.1109/icassp55912.2026.11463875",
+        "outcome": "no-evidence",
+        "note": "ICASSP 2026 正式会议列苏畅、金蓓弘、张扶桑、李思恒、王志，全部软件所；题名及出版 DOI 与 2025 ACM Multimedia 条目有别，全文未取得以比较两方法与数据。暂保留两正式题录供对账。"
+      },
+      {
+        "year": 2026,
+        "title": "Identifying Who You Are No Matter What You Write Through Abstracting Handwriting Style",
+        "url": "https://doi.org/10.1109/tdsc.2026.3668275",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录列多所高校及中科院软件所，识别笔迹风格，与 RF-Eye 的射频标签识别属不同题录，未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "OmniPC: A Generalizable Point Cloud Generation Pipeline for mmWave Radar",
+        "url": "https://doi.org/10.1145/3774906.3802797",
+        "outcome": "no-evidence",
+        "note": "SenSys 正式作者机构是北大、南洋理工、北航和巴黎电信等；构建通用毫米波点云生成流程，未见范围内企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "One2Three: 1D Scanning Unlocks High-Fidelity 3D Object Reconstruction",
+        "url": "https://doi.org/10.1145/3831975",
+        "outcome": "no-evidence",
+        "note": "ACM 署名北航、西交、上财、南大等高校；一维扫描重建物体，不见范围内企业的参与。"
+      },
+      {
+        "year": 2026,
+        "title": "PathClean: Breaking the Multipath Barrier for High-Fidelity mmWave Human Point Clouds",
+        "url": "https://doi.org/10.1145/3795866.3844476",
+        "outcome": "no-evidence",
+        "note": "ACM MobiCom 正式作者署北大、北航和巴黎电信；解决毫米波人体点云的多径残留，未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "PnPSelect: Plug-and-Play IoT Device Selection Using Ultra-Wideband Signals",
+        "url": "https://doi.org/10.1145/3849088",
+        "outcome": "no-evidence",
+        "note": "ACM 正式条目与 arXiv:2511.03534 去重；有作者个人公开全文，作者署软硬件高校及研究所。用商用手机与手表做指向识别实验，未见企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "Pushing Bistatic Wireless Sensing toward High Accuracy at the Sub-Wavelength Scale",
+        "url": "https://arxiv.org/abs/2603.07492",
+        "outcome": "no-evidence",
+        "note": "2026-03 公开原文列北大、北航及巴黎电信；11 月 22 日的正式会期晚于截止日，按范围内预印本记录一次。未见目标企业合著。"
+      },
+      {
+        "year": 2026,
+        "title": "Rydberg Atomic Receivers for Net-Zero 6G Wireless Communication and Sensing: Progress, Experiments, and Sustainable Prospects",
+        "url": "https://doi.org/10.1109/mcom.001.2500610",
+        "outcome": "no-evidence",
+        "note": "IEEE 的递交题录公开北京理工、伯明翰城市大学、清华、北航和中国海洋大学等；研发净零 6G 的 Rydberg 接收器，无范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "SAIN: A Hierarchical Dynamics-Aware EEG–fNIRS Framework for Continuous Affect Estimation",
+        "url": "https://doi.org/10.1145/3767308.3838613",
+        "outcome": "no-evidence",
+        "note": "ACM 正式 CCS 作者机构有北航、中科大、合工大等和合肥旋乐具身智能相关机构；未署调查范围内企业。用 EEG 与近红外测量情绪。"
+      },
+      {
+        "year": 2026,
+        "title": "Sensing Without Borders: A Sensing-Centric Handover Scheme for Continuous WiFi Sensing",
+        "url": "https://doi.org/10.1145/3832037",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者来自合工大、北航、中科大、日本电气通信大学及关西大学等；感知跨接入点切换，未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Large-Scale Wireless Sensing in Smart Buildings Using LoRa Signals",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-2581-2_11",
+        "outcome": "no-evidence",
+        "note": "Springer 正式出版，机构库交叉核准软件所和巴黎电信等来源；建筑两组 LoRa 实验不构成企业合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards an Acoustic Keyless Entry System: Leveraging Off-the-Shelf Wideband Ultrasound for Cost-Effective Approach Detection",
+        "url": "https://doi.org/10.1145/3831966",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者机构是软件所/国科大、北航、北大及巴黎电信等；声学无钥匙进入感知，不见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Wave-to-Mute: In-Cabin Single Gesture Mute Control via Acoustic Sensing",
+        "url": "https://doi.org/10.1007/978-3-032-22500-9_17",
+        "outcome": "no-evidence",
+        "note": "Springer 2026-05-01 发表，作者为范梦瑶、苏雨琦、张扶桑和金蓓弘；论文提出车辆内单手势静音，公开作者登记未列本次范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "WiRainbow: Single-Antenna Direction-Aware Wi-Fi Sensing via Dispersion Effect",
+        "url": "https://doi.org/10.1145/3774906.3800474",
+        "outcome": "no-evidence",
+        "note": "SenSys 正式题录和 arXiv:2511.20671 同一频扫天线论文；作者机构为软件所、北航、南科大、深圳信息职业技术学院、巴黎电信及北大等，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "AccCall: Enhancing Real-time Phone Call Quality with Smartphone's Built-in Accelerometer",
+        "url": "https://doi.org/10.1145/3749463",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者机构有苏州大学、北航、麦考瑞、南大及浪潮；利用手机加速度计提升通话质量，浪潮不属范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Breaking the Resolution Barriers of mmWave Arrays via Null Steering for Sleep Monitoring in Multi-Person Scenarios",
+        "url": "https://doi.org/10.1145/3749466",
+        "outcome": "no-evidence",
+        "note": "ACM 正式题录列软件所及合作高校，零陷波束抑制实现多人睡眠监控；未见范围企业雇员参与。"
+      },
+      {
+        "year": 2025,
+        "title": "From Spatial Domain to Temporal Domain: Unleashing the Capability of CFAR for mmWave Point Cloud Generation",
+        "url": "https://doi.org/10.1145/3729465",
+        "outcome": "no-evidence",
+        "note": "ACM 正式表列软件所/国科大、北大、南洋理工、中国移动、浪潮等，无范围企业作者；方法把检测移至时间维。"
+      },
+      {
+        "year": 2025,
+        "title": "MULoc: Towards Millimeter-Accurate Localization for Unlimited UWB Tags via Anchor Overhearing",
+        "url": "https://doi.org/10.1109/infocom55648.2025.11044652",
+        "outcome": "no-evidence",
+        "note": "软件所官方海报与 IEEE 署名一致。马俊麒列为软件所/国科大第一作者，锚点监听实现多标签定位；与测距的腾讯论文有不同作者，未见本篇企业人员。"
+      },
+      {
+        "year": 2025,
+        "title": "Manipulation of Acoustic Focusing for Multi-target Sensing with Distributed Microphones in Smart Car Cabin",
+        "url": "https://doi.org/10.1145/3729470",
+        "outcome": "no-evidence",
+        "note": "ACM 发表版列苏雨琦、张扶桑、金蓓弘、张大庆四人，单位为软件所、国科大及法国高校；声场聚焦新方法，和儿童存在检测论文不作同一版本。"
+      },
+      {
+        "year": 2025,
+        "title": "Multi-Antenna Quantum Receiver: A Leap Beyond Angle Estimation Constraints",
+        "url": "https://doi.org/10.1145/3680207.3765250",
+        "outcome": "no-evidence",
+        "note": "南洋理工机构库全文和 ACM 署名列软件所、北航、北大、山西大学、微软亚洲研究院等；微软非范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Multi-Person Respiration Monitoring Leveraging Commodity Wi-Fi Devices",
+        "url": "https://doi.org/10.1007/s11390-023-2722-z",
+        "outcome": "no-evidence",
+        "note": "期刊正式页列北大、软件所及其他高校，小米作者不属范围；一部商用 Wi-Fi 设备测多人呼吸与 UWB 睡眠分期不是同篇。按 2025 正式卷期记录。"
+      },
+      {
+        "year": 2025,
+        "title": "RF-AE: Single-site Arterial Elasticity Estimation Using UWB Signals",
+        "url": "https://doi.org/10.1145/3729460",
+        "outcome": "no-evidence",
+        "note": "ACM 署名为软件所、北京医院、北大第三医院等，商用设备被用于动脉弹性估计，不等于企业人员参与。"
+      },
+      {
+        "year": 2025,
+        "title": "RF-Eye: Commodity RFID Can Know What You Write and Who You Are Wherever You Are",
+        "url": "https://doi.org/10.1145/3737701",
+        "outcome": "no-evidence",
+        "note": "ACM 论文列浪潮和中科院软件所联合署名，另有中科大等高校；浪潮不属于范围企业。物联网 RFID 识别书写。"
+      },
+      {
+        "year": 2025,
+        "title": "Self-Supervised Human Mesh Recovery from Partial Point Cloud via a Self-Improving Loop",
+        "url": "https://doi.org/10.1145/3746027.3755570",
+        "outcome": "no-evidence",
+        "note": "ACM 正式题录全列软件所/国科大，苏畅的 ORCID 确认本篇，与其腾讯合著逐篇区分；没有企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "BFMSense: WiFi Sensing Using Beamforming Feedback Matrix",
+        "url": "https://www.usenix.org/conference/nsdi24/presentation/yi",
+        "outcome": "no-evidence",
+        "note": "USENIX 官方作者页点名小米员工牛凯；该企业不属于这次调查范围。通用 Wi-Fi 卡用于验证波束成形反馈矩阵，不见目标企业角色。"
+      },
+      {
+        "year": 2024,
+        "title": "Embracing Distributed Acoustic Sensing in Car Cabin for Children Presence Detection",
+        "url": "https://doi.org/10.1145/3643548",
+        "outcome": "no-evidence",
+        "note": "ACM 机构列国科大、北大、小米、微软亚洲研究院等；企业范围不包括小米或微软，未见范围内合作者。"
+      },
+      {
+        "year": 2024,
+        "title": "From Single-Point to Multi-Point Reflection Modeling: Robust Vital Signs Monitoring via mmWave Sensing",
+        "url": "https://doi.org/10.1109/tmc.2024.3450318",
+        "outcome": "no-evidence",
+        "note": "IEEE 在线版列北大、布法罗大学和中科院软件所；把雷达反射从单点扩展到多点以提高生命体征监测稳健性，未见企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Hypnos: A Contactless Sleep Stage Monitoring System Using UWB Signals",
+        "url": "https://doi.org/10.1145/3678581",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者来自软件所/国科大及西安交大第二附属医院；接触式对照和 UWB 睡眠分期，无范围内企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Leveraging Attention-reinforced UWB Signals to Monitor Respiration during Sleep",
+        "url": "https://doi.org/10.1145/3680550",
+        "outcome": "no-evidence",
+        "note": "ACM 发布版作者属于中科院软件所/国科大与西安交大二附院，呼吸序列估计与另一篇 Hypnos 分期结果各有独立题录；无范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "MSense: Boosting Wireless Sensing Capability Under Motion Interference",
+        "url": "https://doi.org/10.1145/3636534.3649350",
+        "outcome": "no-evidence",
+        "note": "MobiCom 原文及出版表列中国移动研究院、微软亚洲研究院和研究所等，均非范围企业；抗运动干扰的无线感知。"
+      },
+      {
+        "year": 2024,
+        "title": "MmECare: Enabling Fine-grained Vital Sign Monitoring for Emergency Care with Handheld MmWave Radars",
+        "url": "https://doi.org/10.1145/3699766",
+        "outcome": "no-evidence",
+        "note": "ACM 论文作者来自巴黎电信、软件所、北大等机构；手持毫米波急救生命体征检测，未见目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Offsite Evaluation of Localization Systems: Criteria, Systems, and Results From IPIN 2021 and 2022 Competitions",
+        "url": "https://biblio.ugent.be/publication/01J711DAF6X9CDW3DFC51SD7W1",
+        "outcome": "no-evidence",
+        "note": "作者稿署张扶桑、苏畅、王志、李思恒等中科院软件所相关机构，文章综合 IPIN 2021 与 2022 多支队伍的结果；未见腾讯作者同篇署名。2022 年另有腾讯参与的赛队不等于本篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Push the Limit of Highly Accurate Ranging on Commercial UWB Devices",
+        "url": "https://doi.org/10.1145/3659602",
+        "outcome": "lead",
+        "note": "ACM 正式作者机构和 UbiComp 议程列腾讯定位技术部倪佳志；马俊麒与软件所学生署国科大。已核软件所发布的本篇海报，但未见其在腾讯做本篇测距研究的独立说明。"
+      },
+      {
+        "year": 2024,
+        "title": "Robust Respiration Monitoring Under Body Motion Interference",
+        "url": "https://doi.org/10.1145/3636534.3698835",
+        "outcome": "no-evidence",
+        "note": "MobiCom 正式登记为呼吸监测短篇/展示，作者包括中国移动及微软亚洲研究院；与同一期的 MSense 长文主题相关，无法得出同篇范围内企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "UWB-enabled Sensing for Fast and Effortless Blood Pressure Monitoring",
+        "url": "https://doi.org/10.1145/3659617",
+        "outcome": "no-evidence",
+        "note": "ACM 作者登记均为软件所相关实验室，利用 UWB 测量血压；不是因委托企业设备或测量而成立的合作案例。"
+      },
+      {
+        "year": 2024,
+        "title": "Wi2DMeasure: WiFi-based 2D Object Size Measurement",
+        "url": "https://doi.org/10.1145/3666025.3699336",
+        "outcome": "no-evidence",
+        "note": "ACM 作者单位含小米与微软亚洲研究院；涉及 Wi-Fi 二维物体尺寸测量，不见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "基于多任务注意力网络的非接触式睡眠监测",
+        "url": "https://crad.ict.ac.cn/cn/article/doi/10.7544/issn1000-1239.202440389",
+        "outcome": "no-evidence",
+        "note": "中英文期刊正式全文列张扶桑及相关学生；软件所和西安交通大学第二附属医院共同研究。以多任务分类睡眠状态及睡眠呼吸模式，未见范围内企业人员。"
+      },
+      {
+        "year": 2023,
+        "title": "An Exploration on Integrated Sensing and Communication for the Future Smart Internet of Things",
+        "url": "https://arxiv.org/abs/2311.02093",
+        "outcome": "no-evidence",
+        "note": "2023 年原始预印本署巴黎电信、软件所及北大；验证 LoRa 感知和通信系统。未发现同作者组的独立企业研究，以及可确定的同篇正式版本。"
+      },
+      {
+        "year": 2023,
+        "title": "Enabling WiFi Sensing on New-generation WiFi Cards",
+        "url": "https://doi.org/10.1145/3633807",
+        "outcome": "no-evidence",
+        "note": "ACM 元数据及北大机构库列小米、北大、中科院软件所、国科大、马萨诸塞大学和法国高校；小米不在这次调查企业范围。"
+      },
+      {
+        "year": 2023,
+        "title": "Environment-aware Multi-person Tracking in Indoor Environments with MmWave Radars",
+        "url": "https://doi.org/10.1145/3610902",
+        "outcome": "no-evidence",
+        "note": "ACM 正式论文列北大、中科院软件所、麦克马斯特及伦敦玛丽女王等；室内多人跟踪的多径与环境建模无范围企业角色。"
+      },
+      {
+        "year": 2023,
+        "title": "How Target’s Location and Orientation Affect Velocity Extraction Accuracy in WiFi Sensing Systems",
+        "url": "https://doi.org/10.1145/3603165.3607384",
+        "outcome": "no-evidence",
+        "note": "ACM 正式条目列无线速度提取的目标位置和姿态实验，同篇企业署名是小米，无范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "LoCal: An Automatic Location Attribute Calibration Approach for Large-Scale Deployment of mmWave-based Sensing Systems",
+        "url": "https://doi.org/10.1145/3631436",
+        "outcome": "no-evidence",
+        "note": "ACM 正式条目列北大、国科大软件所、布法罗大学和巴黎电信等高校。自动校准毫米波设备的位置参数，未见范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Quantum Wireless Sensing: Principle, Design and Implementation",
+        "url": "https://doi.org/10.1145/3570361.3613258",
+        "outcome": "no-evidence",
+        "note": "ACM 以及软件所官方海报列软件所/国科大、北大、山西大学等；量子无线感知的原理、设计和实验，不见企业署名。"
+      },
+      {
+        "year": 2023,
+        "title": "Towards a Dynamic Fresnel Zone Model to WiFi-based Human Activity Recognition",
+        "url": "https://doi.org/10.1145/3596270",
+        "outcome": "no-evidence",
+        "note": "ACM 作者单位包括北大、麦考瑞、中科院软件所及哲库科技；哲库不属站点调查范围，未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Ubiquitous Wireless Sensing - Theory, Technique and Application",
+        "url": "https://doi.org/10.1145/3603165.3607383",
+        "outcome": "no-evidence",
+        "note": "ACM 正式题录显示轮值学术教程性质，作者机构为软件所/国科大及北大/巴黎电信；无范围内企业。与同一文集下一篇速度误差论文分列。"
+      }
+    ],
+    "note": "在中国科学院软件研究所及北航两地任职共享台账。核对正式出版方、作者单位、导师及合作方来源，再合并预印本。先查国科大在读学生与腾讯合作较集中的定位研究，其余书目及少量受限全文仍在梳理。"
   }
 };

@@ -38883,6 +38883,99 @@ const survey = {
       ],
       "evidence": "Interspeech 2023 正式原文首页明确标注第一作者 Mengzhe Geng 的腾讯 AI Lab 实习与本篇研究有关。本人及刘循英校方组页记录 2019–2023 年港中大在读，刘循英同篇署名。Jianwei Yu 在同篇署腾讯 AI Lab，港中深学校活动记录其正式任职为腾讯 AI Lab 语音语义中心高级研究员。",
       "paperId": "doi:10.21437/interspeech.2023-322"
+    },
+    {
+      "id": "huawei-unison-cuhk-xunying-liu",
+      "company": "华为",
+      "team": "香港研究中心",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "LIU Xunying Andrew",
+        "港中大系统工程与工程管理学系教师，原文通讯作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/"
+      ],
+      "student": [
+        "Zhaoqing Li",
+        "论文首页只在第一作者姓名后标出华为香港研究中心实习；本人主页列在读博士。",
+        "https://aclanthology.org/2026.emnlp-main.2015.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "Zhaoqing Li 个人主页明确称在香港中文大学就读博士、由刘循英指导。",
+        "https://lizhaoqing.github.io/"
+      ],
+      "employee": [
+        "Rui Liu",
+        "论文通讯作者；在华为香港研究中心任职的独立履历记录 2024 年 9 月入职，并具名介绍本篇为团队成果。",
+        "https://ruiliu-ai.github.io/"
+      ],
+      "title": "UNISON: A Unified Sound Generation and Editing Framework via Deep LLM Fusion",
+      "short": "UNISON",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "音频生成与编辑",
+      "paper": "https://aclanthology.org/2026.emnlp-main.2015/",
+      "extra": [
+        [
+          "正式原文：实习与通讯作者脚注",
+          "https://aclanthology.org/2026.emnlp-main.2015.pdf"
+        ],
+        [
+          "同篇首次公开时间（2026-05）",
+          "https://arxiv.org/abs/2605.31530"
+        ]
+      ],
+      "evidence": "正式 EMNLP 原文首页的唯一星号专指第一作者 Zhaoqing Li，明载本篇工作在华为香港研究中心实习期间完成。本人主页明确为港中大博士、由刘循英指导，刘循英为本文通讯作者。另一通讯作者 Rui Liu 署华为香港研究中心，本人主页明确 2024 年 9 月入职华为与发布 UNISON。2026 年 5 月预印本与 10 月正式版合并为一篇。",
+      "paperId": "doi:10.18653/2026.emnlp-main.2015"
+    },
+    {
+      "id": "huawei-singing-voice-beat-cuhk-xunying-liu",
+      "company": "华为",
+      "team": "香港研究中心／中央媒体技术院",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "LIU Xunying Andrew",
+        "港中大系统工程与工程管理学系教师，正式论文同篇作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/"
+      ],
+      "student": [
+        "Jiajun Deng",
+        "作者本人列 2020 年 8 月至 2024 年 7 月攻读港中大博士；正式原文致谢具名说明论文研究在华为香港研究中心实习期间完成。",
+        "https://zenodo.org/records/14877345/files/000036.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "共同作者 Jiajun Deng 本人履历具名确认刘循英为港中大博士导师。",
+        "https://jjdean321.github.io/"
+      ],
+      "employee": [
+        "Yaolong Ju",
+        "独立公开档案列为华为 2012 实验室中央媒体技术院主任工程师，并列本篇；出版原文和会议程序均署华为。",
+        "https://juyaolongpaul.github.io/juyaolong/"
+      ],
+      "title": "Efficient Adapter Tuning for Joint Singing Voice Beat and Downbeat Tracking with Self-Supervised Learning Features",
+      "short": "Joint Singing Voice Beat and Downbeat Tracking",
+      "date": "2024-11",
+      "venue": "ISMIR 2024",
+      "area": "音乐信息检索",
+      "paper": "https://ismir2024program.ismir.net/poster_48.html",
+      "extra": [
+        [
+          "正式论文原文第 7 节明确实习",
+          "https://zenodo.org/records/14877345/files/000036.pdf"
+        ],
+        [
+          "会后公开的同篇预印本（2025-03，合并）",
+          "https://arxiv.org/abs/2503.10086"
+        ],
+        [
+          "会议完整程序及正式页码",
+          "https://ismir.net/conferences/ismir-2024/"
+        ]
+      ],
+      "evidence": "ISMIR 2024 正式稿第 7 节具名说明 Jiajun Deng 在华为香港研究中心实习期间开展本研究。本人履历列 2020-08 至 2024-07 港中大博士及导师刘循英，会议程序把他及同篇作者刘循英列为港中大。Yaolong Ju 的本人履历确认其华为中央媒体技术院企业身份并列此篇；论文也署华为。正式发表后的 arXiv 文稿与同篇合并。"
     }
   ]
 };
