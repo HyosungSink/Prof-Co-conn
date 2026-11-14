@@ -11017,7 +11017,8 @@ const facultyPaperAudits = {
         "title": "MeshMosaic: Scaling Artist Mesh Generation via Local-to-Global Assembly",
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
-        "note": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。"
+        "note": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。",
+        "year": 2026
       },
       {
         "title": "Taming Diffusion Probabilistic Models for Character Control",
@@ -11066,7 +11067,7 @@ const facultyPaperAudits = {
         "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
         "url": "https://arxiv.org/pdf/2611.14092v1",
         "outcome": "confirmed",
-        "note": "首版具名脚注明确第一作者 Huaijin Pi 在蚂蚁实习期间参与本研究。原文双署香港大学和 Robbyant；课题项目列其企业导师 Zehong Shen 为项目负责人、学术导师 Taku Komura 为通讯作者。2026-11-10 首稿公开晚于实习完成，按论文明确披露的研究发生时段核实。"
+        "note": "首版首页具名脚注明确第一作者 Huaijin Pi 在蚂蚁实习期间参与了这项具体研究；原文双署香港大学和 Robbyant，企业导师 Zehong Shen 标为项目负责人、学术导师 Taku Komura 是港大通讯。本人履历与港大官方名录确认博士在读和论文贡献时间；2026-11-10 首稿公开略晚于其 3–9 月企业实习，按明确研究完成期间确认。另两篇 LHNav、DKWBC 的论文没有其港大导师署名，分别由浙大作者独立链确认。"
       },
       {
         "title": "Efficient Differentiable Contact Model with Long-range Influence",
@@ -11127,8 +11128,8 @@ const facultyPaperAudits = {
       {
         "title": "C·ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters",
         "url": "https://arxiv.org/html/2309.11351v1",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "outcome": "confirmed",
+        "note": "首版具名脚注表明第一作者 Zhiyang Dou 在腾讯 AI Lab 实习期间完成该研究。具名共同作者 Taku Komura 当时在香港大学指导他的硕士研究；同篇通讯 Xuelin Chen 与共同作者 Qingnan Fan 均署腾讯 AI Lab，个人履历独立确认二人曾任实验室高级研究员。2023 年 9 月 20 日预印本与同年 12 月正式会议论文按一项计。",
         "year": 2023
       }
     ],
@@ -45059,6 +45060,148 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "year": 2023,
         "note": "Elsevier 正式出版机构包括武汉大学、西北大学、中科院地理资源所及中交第二公路勘察设计研究院；该企业不在本次范围。"
+      }
+    ]
+  },
+  "j2pr_eAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://orcid.org/0000-0001-7847-7560",
+      "https://jszy.whu.edu.cn/lubinbin/zh_CN/index/431693/list/index.htm",
+      "https://jszy.whu.edu.cn/lubinbin/zh_CN/lwcg/431696/list/index.htm",
+      "https://dblp.org/pid/142/1625.html",
+      "https://essd.copernicus.org/preprints/essd-2026-530/",
+      "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EF004086",
+      "https://repository.rothamsted.ac.uk/id/eprint/33769/"
+    ],
+    "papers": [
+      {
+        "title": "Omission error in geographically weighted regression",
+        "url": "https://doi.org/10.1080/13658816.2026.2746632",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "期刊作者单位为武汉大学、江西师范大学、河南大学与英国洛桑研究所，未见范围内企业。"
+      },
+      {
+        "title": "4-D Aviation Emission Inventory Data of China Estimated with QAR Data in 2023 (4D-AEID-2023)",
+        "url": "https://doi.org/10.5194/essd-2026-530",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "ESSD 预印本实名署武汉大学、中国民航科学技术研究院与首都机场集团下属项目管理机构；后者不在调查企业名单。"
+      },
+      {
+        "title": "Geographically weighted redundancy analysis",
+        "url": "https://doi.org/10.1080/13658816.2026.2707611",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "正式著录列武汉大学、洛桑研究所与英国慈善机构 The Donkey Sanctuary，未见范围内企业。"
+      },
+      {
+        "title": "Global cotton yield trends and the driving factors: insights from a spatiotemporal analysis",
+        "url": "https://doi.org/10.1080/10095020.2026.2642554",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "核对洛桑研究所仓储的出版全文，作者机构为武汉大学、洛桑研究所与新疆大学。"
+      },
+      {
+        "title": "Uneven Performance of City-level Urban Renewal: Multi-scale Patterns and Mechanisms in Wuhan, China",
+        "url": "https://doi.org/10.2139/ssrn.6753772",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "SSRN 书目所列四位作者机构为武汉大学、利兹大学，未见范围企业。"
+      },
+      {
+        "title": "Multi-Scale Quantitative Direction-Relation Matrix for Cardinal Directions",
+        "url": "https://doi.org/10.3390/ijgi15010011",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "正式全文作者单位包括武汉大学、香港中文大学及长江武汉航道局；同题先行稿合并。"
+      },
+      {
+        "title": "Geographical and temporal density regression",
+        "url": "https://doi.org/10.1080/13658816.2025.2466110",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "正式出版作者署香港大学、布里斯托大学和武汉大学。"
+      },
+      {
+        "title": "An Improved Quantitative Analysis Method for the Unequal Supply and Demand of Ecosystem Services and Hierarchical Governance Suggestions",
+        "url": "https://doi.org/10.3390/land14030528",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "正式全文的任职披露分别列永康测绘与地理信息中心、广西交通设计集团，均不在企业范围。"
+      },
+      {
+        "title": "A Novel Interband Calibration Method for the FY3D MERSI-II Sensor Based on a Combination of Physical Mechanisms and a DNN Regression Model",
+        "url": "https://doi.org/10.1109/tgrs.2025.3548659",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 全部作者单位为武汉大学、中科院空天信息创新研究院、中国矿业大学（北京）和自然资源部国土卫星遥感应用中心。"
+      },
+      {
+        "title": "A backfitting maximum likelihood estimator for hierarchical and geographically weighted regression modelling, with a case study of house prices in Beijing",
+        "url": "https://doi.org/10.1080/13658816.2024.2391412",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式论文列四位作者，均来自武汉大学或布里斯托大学。"
+      },
+      {
+        "title": "Evaluating Urban Land Resource Carrying Capacity With Geographically Weighted Principal Component Analysis: A Case Study in Wuhan, China",
+        "url": "https://doi.org/10.1111/tgis.13241",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式论文署武汉大学、新疆大学、武汉市测绘研究院和洛桑研究所。"
+      },
+      {
+        "title": "Detecting Urban Traffic Anomalies Using Traffic-Monitoring Data",
+        "url": "https://doi.org/10.3390/ijgi13100351",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式全文三位作者均署武汉大学，先行稿与正式版本合并。"
+      },
+      {
+        "title": "Momentum-Magic Weapon in Tennis",
+        "url": "https://doi.org/10.1145/3685088.3685194",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ACM 正式记录所列四名作者均属武汉大学。"
+      },
+      {
+        "title": "Distribution and Growth Drivers of Oases at a Global Scale",
+        "url": "https://doi.org/10.1029/2023ef004086",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "Wiley 正式全文作者机构为武汉大学、中国科学院大学、中科院新疆生态与地理研究所及埃及科研机构。"
+      },
+      {
+        "title": "Spatio-temporal analysis of ecological service value driven by land use changes: A case study with Danjiangkou, Hubei section",
+        "url": "https://doi.org/10.1016/j.resenv.2023.100146",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式作者单位含中交二公院，与武汉大学、湖北省地理国情监测中心合著；企业不在本次范围。"
+      },
+      {
+        "title": "Exploring the Potential of OpenStreetMap Data in Regional Economic Development Evaluation Modeling",
+        "url": "https://doi.org/10.3390/rs16020239",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "正式全文列新疆大学、武汉大学、蒙特克莱尔州立大学，未见调查企业。"
+      },
+      {
+        "title": "Understanding and extending the geographical detector model under a linear regression framework",
+        "url": "https://doi.org/10.1080/13658816.2023.2266497",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "期刊出版全文页署河南大学、武汉大学、普渡大学与中科院地理资源所。"
+      },
+      {
+        "title": "A linearization for stable and fast geographically weighted Poisson regression",
+        "url": "https://doi.org/10.1080/13658816.2023.2209811",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "期刊署武汉大学、英国洛桑研究所及日本统计数理研究所、东北大学、埼玉大学、东京大学。"
       }
     ]
   }

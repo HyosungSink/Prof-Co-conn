@@ -43239,6 +43239,64 @@ const survey = {
         "https://phj128.github.io/"
       ],
       "year": 2026
+    },
+    {
+      "id": "case-tencent-hku-komura",
+      "paperId": "arxiv:2309.11351",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Komura, Taku · 幸村琢",
+        "香港大学计算机科学系教授、具名共同作者。第一作者公开简历明确其为港大硕士导师。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/taku"
+      ],
+      "employee": [
+        "Xuelin Chen",
+        "在开展这项研究时任腾讯 AI Lab 高级研究员。论文中为企业通讯作者，同篇还含已于 2021–2023 年任腾讯高研的 Qingnan Fan。",
+        "https://xuelin-chen.github.io/"
+      ],
+      "student": [
+        "Zhiyang Dou",
+        "2020 年 8 月起香港大学 MPhil，受 Taku Komura 和 Wenping Wang 指导；本人 CV 列 2022 年 4 月至 2023 年 6 月在腾讯 AI Lab 实习，并明确研究主题为物理角色控制。",
+        "https://people.csail.mit.edu/frankzydou/files/CV_Zhiyang_Dou.pdf"
+      ],
+      "title": "C·ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters",
+      "short": "C·ASE",
+      "date": "2023-09-20",
+      "venue": "SIGGRAPH Asia 2023",
+      "area": "物理角色动画",
+      "paper": "https://arxiv.org/html/2309.11351v1",
+      "extra": [
+        [
+          "正式 ACM 论文及 DOI",
+          "https://doi.org/10.1145/3610548.3618205"
+        ],
+        [
+          "港大课题组确认学籍和指导",
+          "https://hku-cg.github.io/authors/zhiyang-dou/"
+        ],
+        [
+          "同篇产品与在任期正式证据 PDF",
+          "https://fqnchina.github.io/QingnanFan_files/siga_2023.pdf"
+        ],
+        [
+          "另一具名腾讯研究员本人履历",
+          "https://fqnchina.github.io/"
+        ],
+        [
+          "首个公开版本日期",
+          "https://arxiv.org/abs/2309.11351"
+        ]
+      ],
+      "evidence": "首版具名脚注表明第一作者 Zhiyang Dou 在腾讯 AI Lab 实习期间完成该研究。具名共同作者 Taku Komura 当时在香港大学指导他的硕士研究；同篇通讯 Xuelin Chen 与共同作者 Qingnan Fan 均署腾讯 AI Lab，个人履历独立确认二人曾任实验室高级研究员。2023 年 9 月 20 日预印本与同年 12 月正式会议论文按一项计。",
+      "advising": [
+        "研究当期实名硕导",
+        "Zhiyang Dou 本人 MIT 公开简历第一页和港大实验室页确认其受 Taku Komura 与 Wenping Wang 共同指导。",
+        "https://people.csail.mit.edu/frankzydou/files/CV_Zhiyang_Dou.pdf"
+      ],
+      "year": 2023
     }
   ]
 };
