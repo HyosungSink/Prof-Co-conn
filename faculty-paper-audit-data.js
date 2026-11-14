@@ -51817,7 +51817,35 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2402.01154",
       "https://arxiv.org/abs/2406.01363",
       "https://arxiv.org/abs/2402.01798",
-      "https://arxiv.org/abs/2312.07060"
+      "https://arxiv.org/abs/2312.07060",
+      "https://papers.nips.cc/paper_files/paper/2024/hash/9febda1c8344cc5f2d51713964864e93-Abstract-Conference.html",
+      "https://papers.nips.cc/paper_files/paper/2024/file/9febda1c8344cc5f2d51713964864e93-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2406.01721",
+      "https://github.com/Hsu1023/DuQuant",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Qian_VOVTrack_Exploring_the_Potentiality_in_Raw_Videos_for_Open-Vocabulary_Multi-Object_ICCV_2025_paper.html",
+      "https://arxiv.org/abs/2410.08529",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Qian_VOVTrack_Exploring_the_Potentiality_in_Raw_Videos_for_Open-Vocabulary_Multi-Object_ICCV_2025_paper.pdf",
+      "https://doi.org/10.1109/ICASSP49660.2025.10888356",
+      "https://arxiv.org/abs/2501.00862",
+      "https://scholars.cityu.edu.hk/en/publications/diffetm-bdiffbusion-process-enhanced-bebmbedded-btbopic-bmbodel/",
+      "https://doi.org/10.1109/JSTSP.2026.3690098",
+      "https://arxiv.org/abs/2604.18327",
+      "https://arxiv.org/pdf/2604.18327",
+      "https://doi.org/10.1109/JSTSP.2024.3381373",
+      "https://par.nsf.gov/servlets/purl/10573022",
+      "https://scholars.cityu.edu.hk/en/studentTheses/towards-efficient-federated-learning-communication-and-computatio/",
+      "https://arxiv.org/abs/2210.13532",
+      "https://doi.org/10.1109/JSTSP.2024.3497660",
+      "https://openreview.net/pdf?id=1CXLB694W8",
+      "https://scholars.cityu.edu.hk/en/publications/cooperative-multi-model-training-for-personalized-federated-learn/",
+      "https://doi.org/10.1109/JSTSP.2025.3581101",
+      "https://scholars.cityu.edu.hk/en/publications/leveraging-correctness-based-learning-for-efficient-reasoning-via/",
+      "https://doi.org/10.1016/j.ipm.2026.104673",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0306457326000658",
+      "https://lemaoliu.github.io/",
+      "https://liuquncn.github.io/talks/20241116-17%20International%20Conference%20on%20Multilingual%20Information%20Processing%20%28IMLIP%29/Advances%20on%20LLM%20Evaluation.pdf",
+      "https://github.com/Namco0816/ProxyQA/commit/0554f05630bc",
+      "https://namco0816.github.io/"
     ],
     "papers": [
       {
@@ -52316,9 +52344,58 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "原文五位作者署港城大、香港恒生大学、夏威夷大学。",
         "year": 2024
+      },
+      {
+        "title": "DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/9febda1c8344cc5f2d51713964864e93-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "正式首面依次列国科大、中科院自动化所、港城大、清华、浙大，首稿 2024-06-03。论文和发布仓库均未表明有目标企业作者；和众多同作者量化作品分开。",
+        "year": 2024
+      },
+      {
+        "title": "VOVTrack: Exploring the Potentiality in Raw Videos for Open-Vocabulary Multi-Object Tracking",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Qian_VOVTrack_Exploring_the_Potentiality_in_Raw_Videos_for_Open-Vocabulary_Multi-Object_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "2024-10 首稿、2025 ICCV；正式 PDF 首页的全部作者来自天津大学、深圳理工大学和港城大。与同组其他目标跟踪论文分开。",
+        "year": 2024
+      },
+      {
+        "title": "DiffETM: Diffusion Process Enhanced Embedded Topic Model",
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10888356",
+        "outcome": "no-evidence",
+        "note": "2025-01-01 首稿首页三位全署港城大；ICASSP 正式合著者一致。未发现目标企业作者。",
+        "year": 2025
+      },
+      {
+        "title": "PARM: Pipeline-Adapted Reward Model",
+        "url": "https://doi.org/10.1109/JSTSP.2026.3690098",
+        "outcome": "no-evidence",
+        "note": "2026-04-20 首稿与 IEEE 作者一致；稿末五位作者履历分别指向港中文和港城大等学术机构，未见任何当前目标企业任职作者。与另一篇同缩写方法（Preference-Aware Autoregressive Reward Model）区分。",
+        "year": 2026
+      },
+      {
+        "title": "Cooperative Multi-Model Training for Personalized Federated Learning over Heterogeneous Devices",
+        "url": "https://doi.org/10.1109/JSTSP.2024.3497660",
+        "outcome": "lead",
+        "note": "2024 OpenReview 早稿确认华为作者 Shuo Wan 等与清华 Jian Xu、黄绍伦；2025 期刊扩展有港城大博士 Sichun Luo 与导师宋林琦，但未见罗参与华为此研究的原始材料。黄绍伦不在本次资格队列，清华徐本人的同项企业贡献亦尚无公开的一手资料，不计关系。",
+        "year": 2024
+      },
+      {
+        "title": "Leveraging Correctness-Based Learning for Efficient Reasoning via Automated Process Supervision",
+        "url": "https://doi.org/10.1109/JSTSP.2025.3581101",
+        "outcome": "lead",
+        "note": "2025-06-20 在线首发，2025 年 10 月正式卷期。高校书目列姚宇璇、明昜 Liu、郭志江、韩武和宋等，并提示原文机构字段不完整。该刊版包含新增 PRM 和 LECO-R 与不同合著阵容，暂留为技术扩展书目。姚博士导师及韩同期华为任职有独立档案，企业参与证据未能指向姚个人参与本项。",
+        "year": 2025
+      },
+      {
+        "title": "A self-modified hypergraph neural network for multimodal relation extraction",
+        "url": "https://doi.org/10.1016/j.ipm.2026.104673",
+        "outcome": "no-evidence",
+        "note": "出版社给出作者分工，作者机构对应中国传媒大学、四川警察学院、香港城市大学及其深圳研究院；无目标企业。",
+        "year": 2026
       }
     ],
-    "note": "交叉港城大正式题录、作者、学生书目与学位档案、会议期刊和首发原文。已核查 71 篇；机构库、DBLP、ORCID 的其他可辨识作品仍待逐篇核查。"
+    "note": "交叉港城大研究题录、研究者及学生书目、学位材料、会议和期刊全文。已核 78 篇在范围内的可查作品；其他发表记录还在查核。"
   },
   "ExIZrLAAAAAJ": {
     "from": "2023-01-01",
@@ -54416,5 +54493,204 @@ const facultyPaperAudits = {
       }
     ],
     "note": "西安交通大学网安院裴红斌的院校书目、本人书目和同组学生档案逐篇比对；学籍与企业具体项目分开验证，仍处逐篇补遗。"
+  },
+  "373vlUEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2610.40133",
+      "https://scholars.cityu.edu.hk/en/persons/zhisong-zhang/",
+      "https://zzsfornlp.github.io/research",
+      "https://arxiv.org/html/2610.40133v1",
+      "https://github.com/zsq259/DynaRev",
+      "https://scholars.cityu.edu.hk/en/publications/towards-optimism-pessimism-trade-off-in-model-based-offline-to-on/",
+      "https://openreview.net/pdf/b7c84293eb463cf9b4e00dad4511264397bc4fdd.pdf",
+      "https://stevenyangyj.github.io/",
+      "https://scholars.cityu.edu.hk/en/persons/guochzhou2/",
+      "https://aclanthology.org/2026.eacl-short.12/",
+      "https://aclanthology.org/2026.eacl-short.12.pdf",
+      "https://openreview.net/forum?id=KZYhyilFnt",
+      "https://openreview.net/pdf/ad292a7c7e8dd0002de4f58bf4c8f2ccabc5875c.pdf",
+      "https://arxiv.org/abs/2505.22654",
+      "https://github.com/Tencent/SelfEvolvingAgent/tree/main/VScan",
+      "https://scholars.cityu.edu.hk/en/publications/vscan-rethinking-visual-token-reduction-for-efficient-large-visio/",
+      "https://aclanthology.org/2025.acl-long.241/",
+      "https://aclanthology.org/2025.acl-long.241.pdf",
+      "https://playbigdata.ruc.edu.cn/dou/publication/2025_ACL_Silver.pdf",
+      "https://aclanthology.org/2025.acl-long.485/",
+      "https://aclanthology.org/2025.acl-long.485.pdf",
+      "https://arxiv.org/abs/2412.16545",
+      "https://aclanthology.org/2025.acl-long.928/",
+      "https://aclanthology.org/2025.acl-long.928.pdf",
+      "https://arxiv.org/abs/2410.14309",
+      "https://rhyang2021.github.io/",
+      "https://openreview.net/pdf/8757228d10c75444816024ec46d5a907c5baeebc.pdf",
+      "https://aclanthology.org/2026.emnlp-main.1392/",
+      "https://aclanthology.org/2026.acl-long.1124/",
+      "https://arxiv.org/abs/2510.14438",
+      "https://aclanthology.org/2026.acl-long.1124.pdf",
+      "https://github.com/Tencent/WebAggregator",
+      "https://hrwise-nlp.github.io/",
+      "https://aclanthology.org/2025.emnlp-main.1543/",
+      "https://aclanthology.org/2025.emnlp-main.1543.pdf",
+      "https://arxiv.org/abs/2505.16922v1",
+      "https://timhuang1.github.io/",
+      "https://scholar.google.com/citations?user=uZdQxkwAAAAJ&hl=en",
+      "https://aclanthology.org/2025.findings-ijcnlp.9/",
+      "https://aclanthology.org/2025.findings-ijcnlp.9.pdf",
+      "https://arxiv.org/abs/2410.13246",
+      "https://arxiv.org/abs/2508.00414",
+      "https://arxiv.org/html/2508.00414v1",
+      "https://github.com/Tencent/CognitiveKernel-Pro",
+      "https://tqfang.github.io/",
+      "https://aclanthology.org/2023.findings-emnlp.865/",
+      "https://aclanthology.org/2023.findings-emnlp.865.pdf",
+      "https://aclanthology.org/2023.sustainlp-1.10/",
+      "https://aclanthology.org/2023.sustainlp-1.10.pdf",
+      "https://aclanthology.org/2023.eacl-main.115/",
+      "https://aclanthology.org/2023.eacl-main.115.pdf",
+      "https://aclanthology.org/2024.findings-acl.730/",
+      "https://aclanthology.org/2024.findings-acl.730.pdf",
+      "https://arxiv.org/abs/2312.14591",
+      "https://wwxu21.github.io/",
+      "https://aclanthology.org/2024.emnlp-main.489/",
+      "https://aclanthology.org/2024.emnlp-main.489.pdf",
+      "https://arxiv.org/abs/2402.06925",
+      "https://sites.google.com/view/iigroup-thu/people",
+      "https://aclanthology.org/2025.findings-emnlp.276/",
+      "https://aclanthology.org/2025.findings-emnlp.276.pdf",
+      "https://arxiv.org/abs/2505.20013",
+      "https://misc-lab.cse.cuhk.edu.hk/people/"
+    ],
+    "papers": [
+      {
+        "title": "DynaRev: Benchmarking Web Agents under Dynamic Goal Revision",
+        "url": "https://arxiv.org/abs/2610.40133",
+        "outcome": "no-evidence",
+        "note": "2026-10-29 首稿；校方具名两位学生 Shiqi Zhang 及 Guochen Zhou 由张智松指导，论文和代码的作者只属港城大和上海交通大学，未找到目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms",
+        "url": "https://aclanthology.org/2026.eacl-short.12/",
+        "outcome": "lead",
+        "note": "正式 PDF 第一作者张智松署港城大，六位共同作者均署腾讯。逐位找不到另名范围内高校在读学生及相应的指导与企业研究证据。",
+        "year": 2026
+      },
+      {
+        "title": "VScan: Rethinking Visual Token Reduction for Efficient Large Vision-Language Models",
+        "url": "https://openreview.net/forum?id=KZYhyilFnt",
+        "outcome": "no-evidence",
+        "note": "TMLR 正式 PDF 首页明确第一作者 Ce Zhang 在腾讯 AI Lab 实习，原文首稿和正式版均标其卡耐基梅隆大学学籍（不在所涉高校），张智松在该篇是腾讯作者，校方收录成果不改变当时角色。",
+        "year": 2025
+      },
+      {
+        "title": "A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression",
+        "url": "https://aclanthology.org/2025.acl-long.241/",
+        "outcome": "existing",
+        "note": "已上线，以人民大学窦志成作为指导教师。原文标学生邓晨龙的腾讯 AI Lab 实习，张智松此篇署腾讯并任通讯。张并非这篇的港城大学术导师；不得再累计。",
+        "year": 2024
+      },
+      {
+        "title": "Attention Entropy is a Key Factor: An Analysis of Parallel Context Encoding with Full-attention-based Pre-trained Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.485/",
+        "outcome": "lead",
+        "note": "原文全体署腾讯 AI Lab，其中 Chenlong Deng 同时段曾在腾讯实习并在人大就读。其人大博士导师窦志成未列本篇署名，无合格高校指导方，不借其他论文补证。",
+        "year": 2025
+      },
+      {
+        "title": "LoGU: Long-form Generation with Uncertainty Expressions",
+        "url": "https://aclanthology.org/2025.acl-long.928/",
+        "outcome": "existing",
+        "note": "2024-10 预印本、2025 ACL。已上线，学生杨睿涵本人明确复旦阳德青为博士导师、张智松为同期腾讯 AI Lab 企业导师。既有归属复旦，不重复计数。",
+        "year": 2024
+      },
+      {
+        "title": "UniGist: Towards General and Hardware-aligned Sequence-level Long Context Compression",
+        "url": "https://openreview.net/pdf/8757228d10c75444816024ec46d5a907c5baeebc.pdf",
+        "outcome": "existing",
+        "note": "同篇现已有腾讯-人大导师窦志成记录。张智松首面署港城大任通讯；需另证张在港城大具名指导或联培邓晨龙，企业阶段对陈指导与新校署名不足以新增教师归属。",
+        "year": 2025
+      },
+      {
+        "title": "InComeS: Integrating Compression and Selection Mechanisms into LLMs for Efficient Model Editing",
+        "url": "https://aclanthology.org/2026.emnlp-main.1392/",
+        "outcome": "existing",
+        "note": "2025 预印本、2026 EMNLP 正式版。当前数据 tencent-incomes-cuhk-wai-lam 对应该论文，学术导师为港中文 Wai Lam。张智松列合作方；没有他作为该生港城大导师的证据。",
+        "year": 2025
+      },
+      {
+        "title": "WebAggregator: Enhancing Compositional Reasoning Capabilities of Deep Research Agent Foundation Models",
+        "url": "https://aclanthology.org/2026.acl-long.1124/",
+        "outcome": "lead",
+        "note": "2025-10-16 首次预印本至正式 ACL 2026。同篇明确腾讯团队、正式代码库和港中文 Rui Wang、Hongru Wang、Boyang Xue。港中文 Kam-Fai Wong 有具名指导证据但不在当前资格队列。张智松同篇以腾讯身份列名，无法替代校内导师，港中文学生的具体同期腾讯项目参与也待证。",
+        "year": 2025
+      },
+      {
+        "title": "UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation",
+        "url": "https://aclanthology.org/2025.emnlp-main.1543/",
+        "outcome": "lead",
+        "note": "2025-05-22 首稿、2025 EMNLP；第一作者杨睿涵明确腾讯同篇实习、就读复旦，导师阳德青和腾讯在职黄昕庭均为共同作者。复旦导师的书目行缺 Google 学术（本轮已从 Chrome 定位至 uZdQxkwAAAAJ，待名录补链）。张智松虽在正式版署港城大，实习期为腾讯导师，不是复旦学术导师。",
+        "year": 2025
+      },
+      {
+        "title": "Atomic Calibration of LLMs in Long-Form Generations",
+        "url": "https://aclanthology.org/2025.findings-ijcnlp.9/",
+        "outcome": "lead",
+        "note": "正式首面三位实习者由匕首清楚标注；各属剑桥大学、复旦与港中文。杨睿涵的校内导师阳德青没有此篇署名，港中文 Sen Yang 的具名校内导师也没有列为作者；张智松作为企业通讯署腾讯。",
+        "year": 2025
+      },
+      {
+        "title": "Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training",
+        "url": "https://arxiv.org/abs/2508.00414",
+        "outcome": "lead",
+        "note": "2025-08-01 首次公开，腾讯官方代码库和 Fang 官网确定企业项目。报告首版没有明确学生实习与合资格具名学校导师链；港中文 Rui Wang 后续独立 WebAggregator 作品的导师未在首版对应名单。",
+        "year": 2025
+      },
+      {
+        "title": "Data-efficient Active Learning for Structured Prediction with Partial Annotation and Self-Training",
+        "url": "https://aclanthology.org/2023.findings-emnlp.865/",
+        "outcome": "no-evidence",
+        "note": "论文三位作者在卡耐基梅隆大学语言技术学院，没有目标校企研究。",
+        "year": 2023
+      },
+      {
+        "title": "On the Interactions of Structural Constraints and Data Resources for Structured Prediction",
+        "url": "https://aclanthology.org/2023.sustainlp-1.10/",
+        "outcome": "no-evidence",
+        "note": "正式版首面三位作者皆为卡耐基梅隆大学；没有目标企业。",
+        "year": 2023
+      },
+      {
+        "title": "Towards More Efficient Insertion Transformer with Fractional Positional Encoding",
+        "url": "https://aclanthology.org/2023.eacl-main.115/",
+        "outcome": "no-evidence",
+        "note": "正式版确证张智松当时是卡耐基梅隆学生，实习脚注明确公司为微软；其他署名苹果和微软，均不在本调查。",
+        "year": 2023
+      },
+      {
+        "title": "Reasons to Reject? Aligning Language Models with Judgments",
+        "url": "https://aclanthology.org/2024.findings-acl.730/",
+        "outcome": "existing",
+        "note": "已上线腾讯与港中文 Wai Lam。正式版明确魏文许在腾讯实习，张智松作为腾讯作者，非同期港城大学术指导方。2023-12-22 首稿对照一致。",
+        "year": 2023
+      },
+      {
+        "title": "A Thorough Examination of Decoding Methods in the Era of LLMs",
+        "url": "https://aclanthology.org/2024.emnlp-main.489/",
+        "outcome": "lead",
+        "note": "2024-02-10 首稿，与 EMNLP 正式为一篇。腾讯两名作者、清华与港中文共同第一作者署名均明确，但未见此篇具体腾讯实习工作；具名清华导师为 Yujiu Yang，当期不在三项齐全队列。",
+        "year": 2024
+      },
+      {
+        "title": "WebCoT: Enhancing Web Agent Reasoning by Reconstructing Chain-of-Thought in Reflection, Branching, and Rollback",
+        "url": "https://aclanthology.org/2025.findings-emnlp.276/",
+        "outcome": "lead",
+        "note": "2025-05-26 首稿与 EMNLP 版同篇，腾讯张智松、Haitao Mi 等同署。港中文 Irwin King 指导第一作者胡敏达，但稿件无胡在腾讯承担此项工作的脚注和企业团队材料。",
+        "year": 2025
+      }
+    ],
+    "note": "已对照港城大公开书目、正式刊会、作者履历与早期稿，区分港城大教师与腾讯员工时期。不列尚未发表且无该教师早期署名的接收条目。其他作品仍待核对。"
   }
 };
