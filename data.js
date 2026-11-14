@@ -42231,6 +42231,134 @@ const survey = {
         ]
       ],
       "evidence": "首版论文作者分工专节将刘嘉顺列为核心贡献者，王维埙列为项目负责人，并列同篇作者潘玲。阿里官方 ROLL 仓库发布该论文、明确它是该公司团队的 ROME 研究成果。港科大博士生名录和同期公开活动确认刘嘉顺在读与学术指导，王维埙公开履历确认正式任职。"
+    },
+    {
+      "id": "archer-kuaishou-thu-xiu-li",
+      "paperId": "arxiv:2507.15778",
+      "company": "快手",
+      "team": "KwaiYii 大模型团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀 · Xiu Li",
+        "清华大学深圳国际研究生院教授；首版论文同篇署清华，课题组名单及同期报道明确当时指导该清华硕士。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.psp"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "2022 年 5 月起任快手 NLP 与音频智能中心负责人，首版原文具名署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "student": [
+        "刘润泽 · Runze Liu",
+        "清华 2023 级硕士；该篇首版作者栏同时署快手和清华，并参加由快手 Jiakang Wang 牵头的研究；相邻同期正式论文有本人快手实习脚注。",
+        "https://arxiv.org/pdf/2507.15778v1"
+      ],
+      "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR",
+      "short": "Archer",
+      "date": "2025-07-21",
+      "venue": "arXiv 预印本",
+      "area": "大模型强化学习",
+      "paper": "https://arxiv.org/pdf/2507.15778v1",
+      "extra": [
+        [
+          "清华李秀课题组：刘润泽为 2023 级硕士",
+          "https://thusigsiclab.github.io/thu.github.io/students.html"
+        ],
+        [
+          "同期报道（2025 年 2 月）点名硕导李秀",
+          "https://caip.org.cn/news/detail?id=29199"
+        ],
+        [
+          "论文版本及首次公开记录",
+          "https://arxiv.org/abs/2507.15778"
+        ],
+        [
+          "同篇研发实现",
+          "https://github.com/wizard-III/ArcherCodeR"
+        ],
+        [
+          "相邻学期 ICLR 论文实名明确快手实习（任职旁证）",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/b5758cf47184e79c7e3564a0285b5783-Paper-Conference.pdf"
+        ],
+        [
+          "个人学籍和论文代码公开账号",
+          "https://github.com/RyanLiu112"
+        ],
+        [
+          "本人在具名企业项目仓库提交代码变更",
+          "https://github.com/wizard-III/ArcherCodeR/commit/8a1785beff07"
+        ]
+      ],
+      "evidence": "首版第 1 页将刘润泽列为快手及清华双署名第二作者，李秀署清华，张富峥、企业项目首作者 Jiakang Wang 均署快手。刘本人随后在项目正式代码库具名提交安装修正。第 3 版（2026 年 11 月）将其更新为港科大单位并加入潘玲，不能倒推到 2025 年。 李秀领导的智能计算组实名列刘润泽是清华 2023 级硕士，同期独立报道具名确认其硕导。快手张富峥公开列同期正式岗位，已知同期正式 ICLR 论文也明示同一清华学生的快手实习。企业参与主要依据是此篇原版逐作者双署名和项目团队，相邻论文只作实习身份旁证。",
+      "advising": [
+        "研究时期的具名硕士导师",
+        "同期报道确认清华硕导李秀，课题组自己名录的「在读硕士」列刘润泽为 2023 级。",
+        "https://thusigsiclab.github.io/thu.github.io/students.html"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "aspo-kuaishou-thu-xiu-li",
+      "paperId": "arxiv:2510.06062",
+      "company": "快手",
+      "team": "KwaiYii 大模型团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀 · Xiu Li",
+        "清华大学深圳国际研究生院教授；首版论文同篇署清华，课题组名单及同期报道明确当时指导该清华硕士。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.psp"
+      ],
+      "employee": [
+        "张富峥 · Fuzheng Zhang",
+        "2022 年 5 月起任快手 NLP 与音频智能中心负责人，首版原文具名署快手。",
+        "https://zhfzhmsra.github.io/"
+      ],
+      "student": [
+        "刘润泽 · Runze Liu",
+        "清华 2023 级硕士；该篇首版作者栏同时署快手和清华，并参加由快手 Jiakang Wang 牵头的研究；相邻同期正式论文有本人快手实习脚注。",
+        "https://arxiv.org/pdf/2510.06062v1"
+      ],
+      "title": "ASPO: Asymmetric Importance Sampling Policy Optimization",
+      "short": "ASPO",
+      "date": "2025-10-07",
+      "venue": "arXiv 预印本",
+      "area": "大模型强化学习",
+      "paper": "https://arxiv.org/pdf/2510.06062v1",
+      "extra": [
+        [
+          "清华李秀课题组：刘润泽为 2023 级硕士",
+          "https://thusigsiclab.github.io/thu.github.io/students.html"
+        ],
+        [
+          "同期报道（2025 年 2 月）点名硕导李秀",
+          "https://caip.org.cn/news/detail?id=29199"
+        ],
+        [
+          "论文版本及首次公开记录",
+          "https://arxiv.org/abs/2510.06062"
+        ],
+        [
+          "同篇研发实现",
+          "https://github.com/wizard-III/Archer2.0"
+        ],
+        [
+          "相邻学期 ICLR 论文实名明确快手实习（任职旁证）",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/b5758cf47184e79c7e3564a0285b5783-Paper-Conference.pdf"
+        ],
+        [
+          "个人学籍和论文代码公开账号",
+          "https://github.com/RyanLiu112"
+        ]
+      ],
+      "evidence": "2025 年 10 月首稿第 1 页将刘润泽列为快手和清华双署名共同一作，Jiakang Wang 为快手具名项目负责人，张富峥署快手、李秀署清华。代码库从 ArcherCodeR 分支新增训练、损失算法和评估，首稿方法也独立，不与 Archer 合并。2026 年 5 月第 2 版改为 When Importance Sampling Misallocates Credit… 并加港科大关联；仍为同篇，不倒推到首稿研究期。 李秀领导的智能计算组实名列刘润泽是清华 2023 级硕士，同期独立报道具名确认其硕导。快手张富峥公开列同期正式岗位，已知同期正式 ICLR 论文也明示同一清华学生的快手实习。企业参与主要依据是此篇原版逐作者双署名和项目团队，相邻论文只作实习身份旁证。",
+      "advising": [
+        "研究时期的具名硕士导师",
+        "同期报道确认清华硕导李秀，课题组自己名录的「在读硕士」列刘润泽为 2023 级。",
+        "https://thusigsiclab.github.io/thu.github.io/students.html"
+      ],
+      "year": 2025
     }
   ]
 };

@@ -2947,7 +2947,9 @@ const facultyPaperAudits = {
       "https://github.com/RyanLiu112",
       "https://caip.org.cn/news/detail?id=29199",
       "https://wonderno.github.io/",
-      "https://chengyufang.tech/"
+      "https://chengyufang.tech/",
+      "https://www.sigs.tsinghua.edu.cn/lx/list.psp",
+      "https://thusigsiclab.github.io/thu.github.io/students.html"
     ],
     "papers": [
       {
@@ -2960,7 +2962,8 @@ const facultyPaperAudits = {
         "title": "Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b5758cf47184e79c7e3564a0285b5783-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "ICLR 正式论文首页脚注挂在清华学生 Runze Liu 姓名后，明确在快手实习期间完成；同期本人学术履历列清华硕士学籍。"
+        "note": "ICLR 正式首页明示刘润泽快手实习，三方已上线 attention-compass-kuaishou-thu-xrh1oiuaaaaj。李秀课题组名单新援引处明确刘为 2023 级硕士。",
+        "year": 2026
       },
       {
         "title": "Realistic Human Motion Generation with Cross-Diffusion Models",
@@ -2973,6 +2976,34 @@ const facultyPaperAudits = {
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/633780c1344d0c95e4d2dd3431fe08d9-Paper-Conference.pdf",
         "outcome": "confirmed",
         "note": "ICLR 正式论文首页具名 Chengyu Fang 与另一作者分别于阿里达摩院实习期间完成本研究。第一作者履历列同期在清华攻读硕士、2025 年 4 月至 2026 年 4 月在达摩院任实习研究员。"
+      },
+      {
+        "year": 2026,
+        "title": "GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40797/44758",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式首页署清华、上海人工智能实验室、北邮、哈工大；共同一作刘润泽双署清华与上海 AI Lab，未有范围内企业。首稿 2504.00891 与正式一稿。"
+      },
+      {
+        "year": 2025,
+        "title": "ASPO: Asymmetric Importance Sampling Policy Optimization",
+        "url": "https://arxiv.org/pdf/2510.06062v1",
+        "outcome": "confirmed",
+        "note": "2025 年 10 月首稿第 1 页将刘润泽列为快手和清华双署名共同一作，Jiakang Wang 为快手具名项目负责人，张富峥署快手、李秀署清华。代码库从 ArcherCodeR 分支新增训练、损失算法和评估，首稿方法也独立，不与 Archer 合并。2026 年 5 月第 2 版改为 When Importance Sampling Misallocates Credit… 并加港科大关联；仍为同篇，不倒推到首稿研究期。"
+      },
+      {
+        "year": 2025,
+        "title": "Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling",
+        "url": "https://openreview.net/pdf?id=CvjX9Lhpze",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式稿与课题原页说明刘润泽署上海人工智能实验室与清华，另有哈工大、北邮，未列快手等目标企业。同期报道发出时其在上海 AI Lab 实习，不能借用后来快手研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR",
+        "url": "https://arxiv.org/pdf/2507.15778v1",
+        "outcome": "confirmed",
+        "note": "首版第 1 页将刘润泽列为快手及清华双署名第二作者，李秀署清华，张富峥、企业项目首作者 Jiakang Wang 均署快手。刘本人随后在项目正式代码库具名提交安装修正。第 3 版（2026 年 11 月）将其更新为港科大单位并加入潘玲，不能倒推到 2025 年。"
       }
     ],
     "note": "仅核对刘恒林部分合作论文；本调查期完整题录待继续。"
@@ -43775,14 +43806,14 @@ const facultyPaperAudits = {
         "year": 2025,
         "title": "When Importance Sampling Misallocates Credit: Asymmetric Ratios for Outcome-Supervised RL",
         "url": "https://arxiv.org/html/2510.06062v1",
-        "note": "早期预印本曾用 ASPO 短名，快手与清华参与；刘润泽 2026 年秋才加入潘玲课题组，不能用后续的港科大指导关系确认 2025 年快手项目。",
+        "note": "核对首版与后续改题：刘润泽当时是清华李秀的硕士生，原版标注参与快手项目；后续加入的港科大署名不用于回推潘玲的指导。同篇已按李秀录入关系索引。",
         "outcome": "lead"
       },
       {
         "year": 2025,
         "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR",
         "url": "https://arxiv.org/html/2507.15778v1",
-        "note": "快手合著，刘润泽后来加入潘玲组；2025 年初稿阶段本人在清华读硕士，需找当时的明确校内导师。",
+        "note": "原版证实清华在读硕士刘润泽以快手及清华双署参加该论文，实际同期导师为李秀，已按李秀录入；潘玲的学术署名属于后续版本。",
         "outcome": "lead"
       },
       {
@@ -43805,6 +43836,41 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2402.14407v1",
         "note": "最早公开题名略有不同，与 NeurIPS 正式版同作；何浩然同时列上海人工智能实验室。该实验室与同篇中国电信均不在范围。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Let the Flows Tell: Solving Graph Combinatorial Problems with GFlowNets",
+        "url": "https://arxiv.org/html/2305.17010v1",
+        "note": "预印本列 Mila 和 Google DeepMind。Google DeepMind 不在范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Better Training of GFlowNets with Local Credit and Incomplete Trajectories",
+        "url": "https://arxiv.org/html/2302.01687v1",
+        "note": "最早原文四名作者均署 Mila / 蒙特利尔大学，早于潘玲在港科大任教。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Distributional GFlowNets with Quantile Flows",
+        "url": "https://arxiv.org/html/2302.05793v1",
+        "note": "原始作者署 Mila、蒙特利尔大学和 Meta AI，Meta 不在项目企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Stochastic Generative Flow Networks",
+        "url": "https://proceedings.mlr.press/v216/pan23a/pan23a.pdf",
+        "note": "UAI 正式版署 Mila、蒙特利尔大学及清华，没有范围内企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Flow Factorization for Efficient Generative Flow Networks",
+        "url": "https://arxiv.org/abs/2406.01901",
+        "note": "AAAI 正式版有快手 Qingpeng Cai；首稿早于刘嘉顺正式进入港科大，Chunhui Li 的名录入学亦晚于首稿。未见在读学生同时参加快手同篇研究的独立资料。",
+        "outcome": "lead"
       }
     ],
     "note": "核对港科大研究门户、个人书目、课题组博士生名录和正式论文首页。其余题录仍待逐篇梳理。"
