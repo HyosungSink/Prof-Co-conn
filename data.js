@@ -35761,6 +35761,115 @@ const survey = {
         "江波的上交教师主页列 Zihao Fan 为自己的在读博士、具名列 HyDra，江波为论文作者。",
         "https://jhc.sjtu.edu.cn/~bjiang/"
       ]
+    },
+    {
+      "id": "bifrost-alibaba-sjtu-wxaiztmaaaaj",
+      "paperId": "doi:10.5555/3833220.3833251",
+      "company": "阿里巴巴",
+      "team": "阿里云智能网络",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "祝顺民 · Shunmin Zhu",
+        "ACM SIGCOMM APNet 2025 的具名讲者资料列为阿里云网络部门负责人；燕山大学校友讲座列明阿里巴巴研究员、阿里云智能网络产品线负责人。NSDI 正式论文首页以阿里云署其为共同通讯作者。",
+        "https://conferences.sigcomm.org/events/apnet2025/industry.php"
+      ],
+      "student": [
+        "Zihao Fan",
+        "江波教师主页具名列 Zihao Fan 为其在读博士；NSDI 正式原文第一作者同时署上交和阿里云。原文第 2 至 6 节明确记录同一阿里云 Bifrost 研发、在公司内部部署及生产应用实测。2025 年 APNet 的初版也明确提出和评估同一 Bifrost，不再另计一条。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "Bifrost: Alibaba's Next-Generation VPC Network with High-Performance Multipath Reliable Transport",
+      "short": "Bifrost",
+      "date": "2026-05",
+      "venue": "USENIX NSDI 2026",
+      "area": "云计算网络系统",
+      "paper": "https://www.usenix.org/system/files/nsdi26-fan.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://www.usenix.org/conference/nsdi26/presentation/fan"
+        ],
+        [
+          "燕山大学官方任职介绍",
+          "https://ise.ysu.edu.cn/info/1066/8626.htm"
+        ],
+        [
+          "2025 APNet 出版档案（同系统初版）",
+          "https://doi.org/10.1145/3735358.3735393"
+        ],
+        [
+          "2025 APNet 初版原文",
+          "https://jhc.sjtu.edu.cn/~bjiang/papers/Fan_APNet2025_TCP.pdf"
+        ],
+        [
+          "NSDI 正式卷期 DOI",
+          "https://doi.org/10.5555/3833220.3833251"
+        ]
+      ],
+      "evidence": "江波教师主页具名列 Zihao Fan 为其在读博士；NSDI 正式原文第一作者同时署上交和阿里云。原文第 2 至 6 节明确记录同一阿里云 Bifrost 研发、在公司内部部署及生产应用实测。2025 年 APNet 的初版也明确提出和评估同一 Bifrost，不再另计一条。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "江波教师主页将 Zihao Fan 列为自己在读博士，并具名列论文；正式首页列江波为共同通讯作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
+    },
+    {
+      "id": "tencent-rlsta-hku-difan-zou",
+      "company": "腾讯",
+      "team": "光子工作室群",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "鄒荻凡 · Difan Zou",
+        "香港大学助理教授、论文共同通讯作者。",
+        "https://ai.hku.hk/people/academic-staff/dzou"
+      ],
+      "student": [
+        "Xingwu Chen",
+        "香港大学在读博士、第一作者；预印本发表前，以腾讯工作账号向本论文对应的官方代码库提交核心实现。",
+        "https://github.com/Tencent/RLSTA/commit/e35aa54337e4d58a6a98fd3c997105aeeb912b13"
+      ],
+      "advising": [
+        "博士导师",
+        "邹荻凡研究组明确列 Xingwu Chen 自 2023 年起在港大攻读博士。",
+        "https://difanzou.github.io/group/"
+      ],
+      "employee": [
+        "Zhanqiu Zhang",
+        "同篇共同通讯作者；正式论文署腾讯光子，2024 年 ACL 原始论文已独立写明任职团队为腾讯光子工作室群。",
+        "https://aclanthology.org/2024.emnlp-main.993.pdf"
+      ],
+      "title": "Breaking Contextual Inertia: Reinforcement Learning with Single-Turn Anchors for Stable Multi-Turn Interaction",
+      "short": "RLSTA",
+      "date": "2026-07",
+      "venue": "ACL Findings",
+      "area": "大语言模型 · 强化学习",
+      "paper": "https://aclanthology.org/2026.findings-acl.313/",
+      "extra": [
+        [
+          "腾讯官方代码库里的具名技术贡献元数据",
+          "https://api.github.com/repos/Tencent/RLSTA/commits/e35aa54337e4d58a6a98fd3c997105aeeb912b13"
+        ],
+        [
+          "正式论文及企业署名",
+          "https://aclanthology.org/2026.findings-acl.313.pdf"
+        ],
+        [
+          "首次公开预印本",
+          "https://arxiv.org/abs/2603.04783"
+        ],
+        [
+          "腾讯研究员在仓库追加项目引文",
+          "https://github.com/Tencent/RLSTA/commit/f69b280da41b0ea9dee8b19305a01b509ecb2739"
+        ]
+      ],
+      "evidence": "ACL 正式版标出港大第一作者 Xingwu Chen、腾讯光子合作者 Zhanqiu Zhang 与通讯作者邹荻凡。邹荻凡的课题组自 2023 年列 Chen 为博士生。原论文所指的腾讯官方 RLSTA 实现保留了 Chen 于 2026 年 3 月 1 日以腾讯工作账号提交的初始实现，包含本篇用于多轮交互模拟、强化学习和评测的核心代码，提交早于 3 月 5 日预印本；光子作者随后在同一仓库增加引用与许可。依据的是具名实施贡献和日期，不推断正式职位名称。"
     }
   ]
 };

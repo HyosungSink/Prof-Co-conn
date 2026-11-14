@@ -12898,7 +12898,14 @@ const facultyPaperAudits = {
       "https://doi.org/10.48550/ARXIV.2404.11888",
       "https://difanzou.github.io/publications/",
       "https://dblp.org/pid/161/8923.html",
-      "https://hub.hku.hk/cris/rp/rp03008"
+      "https://hub.hku.hk/cris/rp/rp03008",
+      "https://github.com/Tencent/RLSTA/commit/e35aa54337e4d58a6a98fd3c997105aeeb912b13",
+      "https://ai.hku.hk/people/academic-staff/dzou",
+      "https://aclanthology.org/2024.emnlp-main.993.pdf",
+      "https://api.github.com/repos/Tencent/RLSTA/commits/e35aa54337e4d58a6a98fd3c997105aeeb912b13",
+      "https://aclanthology.org/2026.findings-acl.313.pdf",
+      "https://arxiv.org/abs/2603.04783",
+      "https://github.com/Tencent/RLSTA/commit/f69b280da41b0ea9dee8b19305a01b509ecb2739"
     ],
     "papers": [
       {
@@ -12946,8 +12953,8 @@ const facultyPaperAudits = {
       {
         "title": "Breaking Contextual Inertia: Reinforcement Learning with Single-Turn Anchors for Stable Multi-Turn Interaction",
         "url": "https://aclanthology.org/2026.findings-acl.313/",
-        "outcome": "lead",
-        "note": "港大课题组确定第一作者 Xingwu Chen 为邹荻凡在读博士；论文署腾讯光子 Zhanqiu Zhang，腾讯官方代码库发布 RLSTA，尚缺 Chen 的实习履历或直接说明他在光子参与这一项目的角色。",
+        "outcome": "confirmed",
+        "note": "ACL 正式版标出港大第一作者 Xingwu Chen、腾讯光子合作者 Zhanqiu Zhang 与通讯作者邹荻凡。邹荻凡的课题组自 2023 年列 Chen 为博士生。原论文所指的腾讯官方 RLSTA 实现保留了 Chen 于 2026 年 3 月 1 日以腾讯工作账号提交的初始实现，包含本篇用于多轮交互模拟、强化学习和评测的核心代码，提交早于 3 月 5 日预印本；光子作者随后在同一仓库增加引用与许可。依据的是具名实施贡献和日期，不推断正式职位名称。",
         "year": 2026
       },
       {
@@ -24289,7 +24296,8 @@ const facultyPaperAudits = {
       "https://research.nvidia.com/labs/aspire/author/yiming-li/",
       "https://www.alphaxiv.org/@yiming-li",
       "https://vision4robotics.github.io/authors/yiming-li/",
-      "https://selen-suyue.github.io/"
+      "https://selen-suyue.github.io/",
+      "https://xh-liu.github.io/"
     ],
     "papers": [
       {
@@ -24577,7 +24585,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/abs/2610.21095",
         "outcome": "lead",
-        "note": "2026 年：论文及作者团队页未署腾讯或字节。第一作者苏悦主页证实 2026 年 9 月起在港大随刘希慧攻读博士、同期在腾讯光子实习，早期还在字节 Seed 实习；待核其本篇是否在腾讯完成及是否有具名腾讯正式员工共同署名。论文所列 IAAI Team 是学生本人创立的团队。"
+        "note": "2026 年：论文及作者团队页未署腾讯或字节。第一作者苏悦主页证实 2026 年 9 月起在港大随刘希慧（Xihui Liu）攻读博士、同期在腾讯光子实习，早期还在字节 Seed 实习；待核其本篇是否在腾讯完成及是否有具名腾讯正式员工共同署名。论文所列 IAAI Team 是学生本人创立的团队。"
       },
       {
         "title": "DexNinja: Learning Robust Dexterous Cutting Policy with a Real-to-Sim-to-Real Data Engine",
@@ -25660,6 +25668,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2609.34318",
         "outcome": "confirmed",
         "note": "Zihao Fan 为上海交大在读博士；原文将其列为第一作者并双署上海交大和腾讯混元。原文第 3 节和第 6 节将本项研发及其训练数据、优化和验证落在腾讯混元生产训练，具名确认该学生参与同一项企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "Bifrost: Alibaba's Next-Generation VPC Network with High-Performance Multipath Reliable Transport",
+        "url": "https://www.usenix.org/system/files/nsdi26-fan.pdf",
+        "outcome": "confirmed",
+        "note": "2026 年 NSDI 正式稿：投稿前的同一阿里云 Bifrost 系统研究另有 2025 年 APNet 初版（DOI 10.1145/3735358.3735393），初版正文同样提出并评估多路径 Bifrost，NSDI 引为文献 [28]。有同一在校导师、在读学生和企业研究人员参与，计一条，初版保留于来源。",
         "year": 2026
       }
     ],
