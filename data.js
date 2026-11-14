@@ -33676,6 +33676,288 @@ const survey = {
           "https://aiforgood.itu.int/speaker/xin-li/"
         ]
       ]
+    },
+    {
+      "id": "4danyone-ant-zju-e1vvpg4aaaaj",
+      "paperId": "arxiv:2608.20335",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "个人履历标出 2024 年 7 月起为蚂蚁高级研究科学家，现为 Robbyant 首席科学家；本研究列为 Robbyant 企业作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "靳宇栋 · Yudong Jin",
+        "靳宇栋本人列出自 2025 年 8 月起的 Robbyant 研究实习及企业实习指导人 Yinghao Xu。第一作者将本研究列在自己履历中，署浙大和 Robbyant，同一实习指导人与任职作者沈宇君共同署名；企业官方 ant-research 项目仓库独立确认技术项目。",
+        "https://krahets.com/"
+      ],
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "short": "4DAnyone",
+      "date": "2026-08",
+      "venue": "arXiv 预印本（SIGGRAPH Asia 2026 接收）",
+      "area": "计算机视觉与图形学",
+      "paper": "https://arxiv.org/pdf/2608.20335",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2608.20335"
+        ],
+        [
+          "蚂蚁研究官方项目",
+          "https://github.com/ant-research/4DAnyone"
+        ],
+        [
+          "项目作者及科研分工",
+          "https://4danyone.github.io/"
+        ]
+      ],
+      "evidence": "靳宇栋本人列出自 2025 年 8 月起的 Robbyant 研究实习及企业实习指导人 Yinghao Xu。第一作者将本研究列在自己履历中，署浙大和 Robbyant，同一实习指导人与任职作者沈宇君共同署名；企业官方 ant-research 项目仓库独立确认技术项目。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "靳宇栋的个人学术履历具名列周晓巍为浙江大学博士导师；周晓巍是该篇共同通讯作者。",
+        "https://krahets.com/"
+      ]
+    },
+    {
+      "id": "diffuman4d-ant-zju-e1vvpg4aaaaj",
+      "paperId": "arxiv:2507.13344",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "Xuan Wang",
+        "其个人学术履历写明在蚂蚁研究任从事神经渲染的研究人员，并将 Diffuman4D 列为同团队 ICCV 成果；正式全文同篇署蚂蚁研究。",
+        "https://xuanwangvc.github.io/"
+      ],
+      "student": [
+        "靳宇栋 · Yudong Jin",
+        "靳宇栋本人履历具名列出 2024 年 9 月至 2025 年 7 月在蚂蚁研究实习，并注明 Xuan Wang 为实习导师；此篇企业实习导师同篇署蚂蚁研究，双方均把同篇列为研究成果，且 7 月 17 日首发在该段实习期限内。",
+        "https://krahets.com/"
+      ],
+      "title": "Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models",
+      "short": "Diffuman4D",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "计算机视觉与图形学",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jin_Diffuman4D_4D_Consistent_Human_View_Synthesis_from_Sparse-View_Videos_with_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/ICCV2025/html/Jin_Diffuman4D_4D_Consistent_Human_View_Synthesis_from_Sparse-View_Videos_with_ICCV_2025_paper.html"
+        ],
+        [
+          "首发版及公司作者单位",
+          "https://arxiv.org/html/2507.13344"
+        ],
+        [
+          "具名共同作者的项目记录",
+          "https://diffuman4d.github.io/"
+        ],
+        [
+          "另一企业共同作者正式任职",
+          "https://shenyujun.github.io/"
+        ]
+      ],
+      "evidence": "靳宇栋本人履历具名列出 2024 年 9 月至 2025 年 7 月在蚂蚁研究实习，并注明 Xuan Wang 为实习导师；此篇企业实习导师同篇署蚂蚁研究，双方均把同篇列为研究成果，且 7 月 17 日首发在该段实习期限内。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "靳宇栋本人具名列周晓巍为在读博士导师，正式稿及预印本均列周晓巍为唯一通讯作者。",
+        "https://krahets.com/"
+      ]
+    },
+    {
+      "id": "ant-noisy-supervision-zju-haobo-wang",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "company": "蚂蚁集团",
+      "team": "大模型后训练研究",
+      "title": "Can LLMs Learn to Reason Robustly under Noisy Supervision?",
+      "short": "Noisy Supervision",
+      "date": "2026-04",
+      "venue": "arXiv",
+      "area": "强化学习与推理",
+      "paper": "https://arxiv.org/pdf/2604.03993",
+      "arxiv": "2604.03993",
+      "evidence": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。第一作者本人将其列为独立研究成果；论文研究噪声监督下的推理训练，而非 OPRD 的表征蒸馏。",
+      "faculty": [
+        "王皓波 · Haobo Wang",
+        "浙江大学博士生导师，论文共同作者。",
+        "https://person.zju.edu.cn/haobo_zju"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "论文署名蚂蚁集团；集团公开资料明确为机器智能部门负责人。",
+        "https://www.antgroup.com/en/technology"
+      ],
+      "student": [
+        "Shenzhi Yang",
+        "浙大在读博士；履历及论文两项署名相符，研究期间在蚂蚁集团科研实习。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人学术履历具名写明浙大导师为王皓波。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "extra": [
+        [
+          "校内导师研究成果与任职",
+          "https://hbzju.github.io/"
+        ],
+        [
+          "联合国会议主办方的企业任职资料",
+          "https://unctad.org/system/files/information-document/Programme_SE_AI_27thCSTD.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "ant-pivottrace-zju-haobo-wang",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "company": "蚂蚁集团",
+      "team": "大模型后训练研究",
+      "title": "Smart Picks in the Dark: Towards Efficient RLVR for Reasoning via Tracing Metacognitive Pivots",
+      "short": "PivotTrace",
+      "date": "2026-06",
+      "venue": "arXiv",
+      "area": "强化学习与推理",
+      "paper": "https://arxiv.org/pdf/2606.04503",
+      "arxiv": "2606.04503",
+      "evidence": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。正文以 PivotTrace 按推理枢轴划分待标注样本，与同组 GeoMin 的隐空间分布建模是独立方法与成果。",
+      "faculty": [
+        "王皓波 · Haobo Wang",
+        "浙江大学博士生导师，论文共同作者。",
+        "https://person.zju.edu.cn/haobo_zju"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "论文署名蚂蚁集团；集团公开资料明确为机器智能部门负责人。",
+        "https://www.antgroup.com/en/technology"
+      ],
+      "student": [
+        "Shenzhi Yang",
+        "浙大在读博士；履历及论文两项署名相符，研究期间在蚂蚁集团科研实习。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人学术履历具名写明浙大导师为王皓波。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "extra": [
+        [
+          "校内导师研究成果与任职",
+          "https://hbzju.github.io/"
+        ],
+        [
+          "联合国会议主办方的企业任职资料",
+          "https://unctad.org/system/files/information-document/Programme_SE_AI_27thCSTD.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "ant-geomin-zju-haobo-wang",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "company": "蚂蚁集团",
+      "team": "大模型后训练研究",
+      "title": "GeoMin: Data-Efficient Semi-Supervised RLVR via Geometric Distribution Modeling",
+      "short": "GeoMin",
+      "date": "2026-06",
+      "venue": "arXiv",
+      "area": "强化学习与推理",
+      "paper": "https://arxiv.org/pdf/2606.04516",
+      "arxiv": "2606.04516",
+      "evidence": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。正文以隐空间几何分布筛选可用未标注训练样本，独立于 PivotTrace 的枢轴标注选择。",
+      "faculty": [
+        "王皓波 · Haobo Wang",
+        "浙江大学博士生导师，论文共同作者。",
+        "https://person.zju.edu.cn/haobo_zju"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "论文署名蚂蚁集团；集团公开资料明确为机器智能部门负责人。",
+        "https://www.antgroup.com/en/technology"
+      ],
+      "student": [
+        "Shenzhi Yang",
+        "浙大在读博士；履历及论文两项署名相符，研究期间在蚂蚁集团科研实习。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人学术履历具名写明浙大导师为王皓波。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "extra": [
+        [
+          "校内导师研究成果与任职",
+          "https://hbzju.github.io/"
+        ],
+        [
+          "联合国会议主办方的企业任职资料",
+          "https://unctad.org/system/files/information-document/Programme_SE_AI_27thCSTD.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "ant-coca-zju-haobo-wang",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "company": "蚂蚁集团",
+      "team": "大模型后训练研究",
+      "title": "CoCA: Criterion-Aware Credit Assignment for Rubric-Based Reinforcement Learning",
+      "short": "CoCA",
+      "date": "2026-10",
+      "venue": "arXiv",
+      "area": "强化学习与推理",
+      "paper": "https://arxiv.org/pdf/2610.17733",
+      "arxiv": "2610.17733",
+      "evidence": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。正文独立研究如何将评价量规的奖励分配给相应词元，与标注筛选和统一训练框架均有区别。",
+      "faculty": [
+        "王皓波 · Haobo Wang",
+        "浙江大学博士生导师，论文共同作者。",
+        "https://person.zju.edu.cn/haobo_zju"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "论文署名蚂蚁集团；集团公开资料明确为机器智能部门负责人。",
+        "https://www.antgroup.com/en/technology"
+      ],
+      "student": [
+        "Shenzhi Yang",
+        "浙大在读博士；履历及论文两项署名相符，研究期间在蚂蚁集团科研实习。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人学术履历具名写明浙大导师为王皓波。",
+        "https://shenzhiyang2000.github.io/"
+      ],
+      "extra": [
+        [
+          "校内导师研究成果与任职",
+          "https://hbzju.github.io/"
+        ],
+        [
+          "联合国会议主办方的企业任职资料",
+          "https://unctad.org/system/files/information-document/Programme_SE_AI_27thCSTD.pdf"
+        ]
+      ]
     }
   ]
 };

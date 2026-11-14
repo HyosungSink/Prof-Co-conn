@@ -6610,7 +6610,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://mypage.zju.edu.cn/xzhou",
-      "https://kune1008.github.io/"
+      "https://kune1008.github.io/",
+      "https://krahets.com/"
     ],
     "papers": [
       {
@@ -6618,6 +6619,18 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Natural_Human_Motion_Recovery_by_Aligning_High-Order_Temporal_Dynamics_from_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "魏鼎坤在个人学术页记载 2024 年 9 月起攻读浙大硕士和 2025 年 9 月起在蚂蚁实习；原文首页点名确认本研究在其蚂蚁实习期间完成。"
+      },
+      {
+        "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+        "url": "https://arxiv.org/pdf/2608.20335",
+        "outcome": "confirmed",
+        "note": "靳宇栋本人列出自 2025 年 8 月起的 Robbyant 研究实习及企业实习指导人 Yinghao Xu。第一作者将本研究列在自己履历中，署浙大和 Robbyant，同一实习指导人与任职作者沈宇君共同署名；企业官方 ant-research 项目仓库独立确认技术项目。"
+      },
+      {
+        "title": "Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jin_Diffuman4D_4D_Consistent_Human_View_Synthesis_from_Sparse-View_Videos_with_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "靳宇栋本人履历具名列出 2024 年 9 月至 2025 年 7 月在蚂蚁研究实习，并注明 Xuan Wang 为实习导师；此篇企业实习导师同篇署蚂蚁研究，双方均把同篇列为研究成果，且 7 月 17 日首发在该段实习期限内。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -10492,6 +10505,61 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2412.00071",
         "note": "Jing Liu 同名作者署名是字节，实习学生在 Rutgers，不匹配国科大研究员。",
         "outcome": "no-evidence"
+      }
+    ]
+  },
+  "DnN-rggAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/haobo_zju",
+      "https://shenzhiyang2000.github.io/",
+      "https://www.antgroup.com/en/technology",
+      "https://hbzju.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Can LLMs Learn to Reason Robustly under Noisy Supervision?",
+        "url": "https://arxiv.org/pdf/2604.03993",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。第一作者本人将其列为独立研究成果；论文研究噪声监督下的推理训练，而非 OPRD 的表征蒸馏。"
+      },
+      {
+        "title": "Smart Picks in the Dark: Towards Efficient RLVR for Reasoning via Tracing Metacognitive Pivots",
+        "url": "https://arxiv.org/pdf/2606.04503",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。正文以 PivotTrace 按推理枢轴划分待标注样本，与同组 GeoMin 的隐空间分布建模是独立方法与成果。"
+      },
+      {
+        "title": "GeoMin: Data-Efficient Semi-Supervised RLVR via Geometric Distribution Modeling",
+        "url": "https://arxiv.org/pdf/2606.04516",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。正文以隐空间几何分布筛选可用未标注训练样本，独立于 PivotTrace 的枢轴标注选择。"
+      },
+      {
+        "title": "CoCA: Criterion-Aware Credit Assignment for Rubric-Based Reinforcement Learning",
+        "url": "https://arxiv.org/pdf/2610.17733",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首页逐人列 Shenzhi Yang 为浙江大学与蚂蚁集团双署名。该生本人公开履历具名列王皓波为浙大博士导师，并记载从 2025 年 5 月起在蚂蚁开展科研实习。王皓波和蚂蚁集团机器智能部门负责人王维强均为同篇作者。正文独立研究如何将评价量规的奖励分配给相应词元，与标注筛选和统一训练框架均有区别。"
+      },
+      {
+        "title": "TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning",
+        "url": "https://arxiv.org/abs/2512.13106",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "学生公开列蚂蚁研究实习，但该篇的正式版及预印本均仅列浙大，另查该篇的项目归属或具名贡献。"
+      },
+      {
+        "title": "DE-Venus: A Data-Efficient RLVR Framework for Large Language Models",
+        "url": "https://arxiv.org/abs/2609.03324",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "双方与在读学生身份可对应；是汇整多种同团队已公开方法的框架报告（部分方法独立计入），待细查增量后再定是否单独统计。"
       }
     ]
   }
