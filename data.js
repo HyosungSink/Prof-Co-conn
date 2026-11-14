@@ -3881,12 +3881,14 @@ const survey = {
       faculty: [ '沈永亮 · Yongliang Shen', '浙江大学 REAL Lab 教师，论文校方通讯作者。', 'https://zjureal.com/people.html' ],
       employee: [ 'Fei Huang', '2025 年会议资料列其为阿里云副总裁、通义 NLP 实验室负责人。原文署名阿里通义实验室。', 'https://www.luohanacademy.com/en//conference/1104/' ],
       student: [ '卢政希 · Zhengxi Lu', '2024 年 9 月起在浙大攻读博士，2025 年 6 月至 11 月在阿里巴巴通义实验室科研实习。', 'https://lll6gg.github.io/' ],
-      title: 'UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning',
-      short: 'UI-S1',
-      date: '2025-09',
-      venue: 'arXiv',
+      title: 'Experience-driven Multi-turn Reinforcement Learning for GUI Agents',
+      short: 'EMPO · UI-S1',
+      date: '2026-07',
+      venue: 'ACL',
       area: '语言模型与智能体',
-      paper: 'https://arxiv.org/pdf/2509.11543',
+      paper: 'https://aclanthology.org/2026.acl-long.428.pdf',
+      arxiv: '2509.11543',
+      extra: [ [ '原预印本 UI-S1', 'https://arxiv.org/abs/2509.11543' ], [ 'ACL 正式目录', 'https://aclanthology.org/2026.acl-long.428/' ] ],
       evidence: '原文首页具名注明浙大与通义双署名的第一作者在阿里实习期间完成。学生公开履历列出同期学籍、实习月份和同篇博士导师。',
       advising: [ '博士导师', '卢政希的学术主页明确列沈永亮为浙大博士导师。', 'https://lll6gg.github.io/' ]
     },
@@ -32979,48 +32981,149 @@ const survey = {
       "paperId": "arxiv:2609.00111"
     },
     {
-      "id": "alibaba-empo-zju-yongliang-shen",
-      "school": "浙江大学",
-      "studentSchool": "浙江大学",
-      "company": "阿里巴巴",
-      "team": "通义实验室",
-      "title": "Experience-driven Multi-turn Reinforcement Learning for GUI Agents",
-      "short": "EMPO",
-      "date": "2026-07",
-      "venue": "ACL",
-      "area": "GUI 智能体",
-      "paper": "https://aclanthology.org/2026.acl-long.428.pdf",
-      "evidence": "ACL 正式论文首页将第一作者卢政希单独加注为在阿里通义实习期间完成本工作。卢政希的个人主页具名列沈永亮为浙大博士导师，列出 2025 年 6–11 月在阿里通义实习及企业导师 Haiyang Xu；沈永亮和 Haiyang Xu 均为同篇通讯作者。",
+      "id": "dflare-tencent-pku-rvbdhswaaaaj",
+      "paperId": "arxiv:2606.02091",
+      "company": "腾讯",
+      "team": "混元 AngelSlim",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
       "faculty": [
-        "沈永亮 · Yongliang Shen",
-        "浙江大学 REAL Lab 负责人及博士生导师，校方通讯作者。",
-        "https://zjureal.com/people.html"
+        "李素建 · Sujian Li",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1071/1680.htm"
       ],
       "employee": [
-        "Haiyang Xu",
-        "阿里通义研究人员、企业通讯作者；同届 AAAI 论文独立核对任职。",
-        "https://ojs.aaai.org/index.php/AAAI/article/view/38017"
+        "Guanghua Yu",
+        "2025 年机器学习峰会主办方将其列为腾讯混元大模型压缩算法负责人，并具名介绍其带领 AngelSlim；本篇同列具名企业作者。",
+        "https://www.ml-summit.org/speaker/1189?lang=en&uid=c1047"
       ],
       "student": [
-        "卢政希 · Zhengxi Lu",
-        "浙大 REAL Lab 2024 级博士生，研究在阿里通义实习期间完成。",
-        "https://lll6gg.github.io/"
+        "Jiebin Zhang",
+        "北大 TANGENT 将 Jiebin Zhang 列为在读博士生；EMNLP 正式论文首页具名声明其在腾讯实习期间完成该篇研究，企业项目 AngelSlim 提供正式代码。",
+        "https://pku-tangent.github.io/"
       ],
-      "advising": [
-        "博士导师",
-        "博士生本人明确列为其博士导师，实验室名录核对 2024 年入组。",
-        "https://lll6gg.github.io/"
-      ],
+      "title": "DFlare: Scaling Up Draft Capacity for Block Diffusion Speculative Decoding",
+      "short": "DFlare",
+      "date": "2026-11",
+      "venue": "EMNLP 2026",
+      "area": "推理优化与系统",
+      "paper": "https://aclanthology.org/2026.emnlp-main.1503.pdf",
       "extra": [
         [
-          "ACL 论文目录",
-          "https://aclanthology.org/2026.acl-long.428/"
+          "论文题录",
+          "https://aclanthology.org/2026.emnlp-main.1503/"
         ],
         [
-          "浙江大学教师主页",
-          "https://person.zju.edu.cn/shenyongliang"
+          "腾讯混元项目",
+          "https://github.com/Tencent/AngelSlim"
+        ],
+        [
+          "作者预印本",
+          "https://arxiv.org/abs/2606.02091"
         ]
+      ],
+      "evidence": "北大 TANGENT 将 Jiebin Zhang 列为在读博士生；EMNLP 正式论文首页具名声明其在腾讯实习期间完成该篇研究，企业项目 AngelSlim 提供正式代码。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "李素建是北大 TANGENT 实验室列出的教授导师，Jiebin Zhang 具名列于同页博士生，本篇李素建是具名通讯作者。",
+        "https://pku-tangent.github.io/"
       ]
+    },
+    {
+      "id": "tencent-prp-cityu-chen-ma",
+      "company": "腾讯",
+      "team": "腾讯 ARC Lab（互动娱乐事业群）",
+      "school": "香港城市大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学副教授、同篇通讯作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "Yinan Zhou",
+        "西安交通大学与港城大联合培养博士，第一作者；同篇列两校与腾讯 ARC，并在首页注明研究于腾讯实习完成。",
+        "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/6848.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "马辰实验室学生名录将其列为 2023 年秋起由西安交大进入的联合培养博士。",
+        "https://allenjack.github.io/pages/people.html"
+      ],
+      "employee": [
+        "陈禹昕 · Yuxin Chen",
+        "同篇署名腾讯 ARC Lab；公开履历为腾讯 ARC Lab 高级研究员。",
+        "https://uason-chen.github.io/"
+      ],
+      "title": "Before Thinking, Learn to Decide: Proactive Routing for Efficient Visual Reasoning",
+      "short": "PRP",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "多模态模型 · 视觉推理",
+      "paper": "https://link.springer.com/chapter/10.1007/978-3-032-37086-0_19",
+      "extra": [
+        [
+          "正式论文全文",
+          "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/6848.pdf"
+        ],
+        [
+          "正式会议讲者履历",
+          "https://s2026.conference-schedule.org/presenter/?uid=738014"
+        ],
+        [
+          "导师论文清单",
+          "https://allenjack.github.io/pages/publication.html"
+        ]
+      ],
+      "evidence": "马辰的组名单确认第一作者 Yinan Zhou 自 2023 年秋由西安交大来港城大联合培养博士，马辰在同篇以港城大通讯作者署名。大会正文在首页记录项目为腾讯实习成果，且 Yinan Zhou 同时署名两校与腾讯 ARC Lab；腾讯同篇参与者陈禹昕的高级研究员身份另有自述和会议履历。"
+    },
+    {
+      "id": "tencent-dogr-cityu-chen-ma",
+      "company": "腾讯",
+      "team": "腾讯 ARC Lab（平台与内容事业群）",
+      "school": "香港城市大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学副教授、同篇通讯作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "Yinan Zhou",
+        "西安交通大学与港城大联合培养博士，第一作者；同篇列两校与腾讯 ARC，并在首页注明研究于腾讯实习完成。",
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "马辰实验室学生名录将其列为 2023 年秋起由西安交大进入的联合培养博士。",
+        "https://allenjack.github.io/pages/people.html"
+      ],
+      "employee": [
+        "陈禹昕 · Yuxin Chen",
+        "同篇署名腾讯 ARC Lab；公开履历为腾讯 ARC Lab 高级研究员。论文首页明示其为项目负责人。",
+        "https://uason-chen.github.io/"
+      ],
+      "title": "DOGR: Towards Versatile Visual Document Grounding and Referring",
+      "short": "DOGR",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "多模态模型 · 视觉推理",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.html",
+      "extra": [
+        [
+          "正式论文全文",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.pdf"
+        ],
+        [
+          "正式会议讲者履历",
+          "https://s2026.conference-schedule.org/presenter/?uid=738014"
+        ],
+        [
+          "导师论文清单",
+          "https://allenjack.github.io/pages/publication.html"
+        ]
+      ],
+      "evidence": "马辰的组名单确认第一作者 Yinan Zhou 自 2023 年秋由西安交大来港城大联合培养博士，马辰在同篇以港城大通讯作者署名。大会正文在首页记录项目为腾讯实习成果，且 Yinan Zhou 同时署名两校与腾讯 ARC Lab；腾讯同篇参与者陈禹昕的高级研究员身份另有自述和会议履历。"
     }
   ]
 };

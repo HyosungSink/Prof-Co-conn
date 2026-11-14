@@ -3274,7 +3274,7 @@ const facultyPaperAudits = {
         "title": "Experience-driven Multi-turn Reinforcement Learning for GUI Agents",
         "url": "https://aclanthology.org/2026.acl-long.428.pdf",
         "year": 2026,
-        "outcome": "confirmed",
+        "outcome": "existing",
         "note": "ACL 正式论文首页将第一作者卢政希单独加注为在阿里通义实习期间完成本工作。卢政希的个人主页具名列沈永亮为浙大博士导师，列出 2025 年 6–11 月在阿里通义实习及企业导师 Haiyang Xu；沈永亮和 Haiyang Xu 均为同篇通讯作者。"
       }
     ],
@@ -6932,7 +6932,8 @@ const facultyPaperAudits = {
     "sources": [
       "https://cs.pku.edu.cn/info/1071/1680.htm",
       "https://dwzhu-pku.github.io/",
-      "https://eugeneyujunhao.github.io/"
+      "https://eugeneyujunhao.github.io/",
+      "https://pku-tangent.github.io/"
     ],
     "papers": [
       {
@@ -6952,6 +6953,12 @@ const facultyPaperAudits = {
         "url": "https://proceedings.mlr.press/v306/yu26bt.html",
         "outcome": "no-evidence",
         "note": "正式论文具名标注在微软实习期间完成；微软不在 14 家目标企业内。"
+      },
+      {
+        "title": "DFlare: Scaling Up Draft Capacity for Block Diffusion Speculative Decoding",
+        "url": "https://aclanthology.org/2026.emnlp-main.1503.pdf",
+        "outcome": "confirmed",
+        "note": "北大 TANGENT 将 Jiebin Zhang 列为在读博士生；EMNLP 正式论文首页具名声明其在腾讯实习期间完成该篇研究，企业项目 AngelSlim 提供正式代码。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -9263,7 +9270,15 @@ const facultyPaperAudits = {
       "https://ai4math2026.github.io/",
       "https://arxiv.org/html/2510.05115v1",
       "https://proceedings.iclr.cc/paper_files/paper/2025/file/f53fd88a4340063ecd258c0ae9948b40-Paper-Conference.pdf",
-      "https://arxiv.org/abs/2502.06892"
+      "https://arxiv.org/abs/2502.06892",
+      "https://link.springer.com/chapter/10.1007/978-3-032-37086-0_19",
+      "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/6848.pdf",
+      "https://allenjack.github.io/pages/people.html",
+      "https://uason-chen.github.io/",
+      "https://s2026.conference-schedule.org/presenter/?uid=738014",
+      "https://allenjack.github.io/pages/publication.html",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.html",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.pdf"
     ],
     "papers": [
       {
@@ -9295,6 +9310,18 @@ const facultyPaperAudits = {
         "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f53fd88a4340063ecd258c0ae9948b40-Paper-Conference.pdf",
         "outcome": "confirmed",
         "note": "ICLR 正式论文首页把华为香港诺亚方舟实验室的实习注释明确对应在读博士第一作者何博威；港城大正式论文库具名确认其博导马辰。华为署名作者 Hui-Ling Zhen 的研究人员身份亦有会议官方讲者履历。"
+      },
+      {
+        "title": "Before Thinking, Learn to Decide: Proactive Routing for Efficient Visual Reasoning",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37086-0_19",
+        "outcome": "confirmed",
+        "note": "马辰的组名单确认第一作者 Yinan Zhou 自 2023 年秋由西安交大来港城大联合培养博士，马辰在同篇以港城大通讯作者署名。大会正文在首页记录项目为腾讯实习成果，且 Yinan Zhou 同时署名两校与腾讯 ARC Lab；腾讯同篇参与者陈禹昕的高级研究员身份另有自述和会议履历。"
+      },
+      {
+        "title": "DOGR: Towards Versatile Visual Document Grounding and Referring",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "马辰的组名单确认第一作者 Yinan Zhou 自 2023 年秋由西安交大来港城大联合培养博士，马辰在同篇以港城大通讯作者署名。大会正文在首页记录项目为腾讯实习成果，且 Yinan Zhou 同时署名两校与腾讯 ARC Lab；腾讯同篇参与者陈禹昕的高级研究员身份另有自述和会议履历。"
       }
     ]
   },
