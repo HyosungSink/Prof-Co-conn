@@ -44823,6 +44823,68 @@ const survey = {
         ]
       ],
       "evidence": "ICLR 正式版首页明确把院校及公司双署的第一作者李泽君与本篇的阿里未来生活实验室实习相联。同页列复旦魏忠钰为通讯作者、郑波为阿里巴巴与实验室作者。学生本人列同一实习项目和在读博士导师，2025 年 CCF 当年材料与任职吻合。ICLR 正式论文与 2025-09-26 的 arXiv 首稿为同篇，只计一次。"
+    },
+    {
+      "id": "tencent-toklip-ucas-zhenan-sun",
+      "company": "腾讯",
+      "team": "PCG · ARC Lab",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "孙哲南 · Zhenan Sun",
+        "中国科学院大学所辖中科院自动化所研究员；正式论文署中科院自动化所，与具名指导学生同篇。",
+        "http://people.ucas.ac.cn/~sunzhenan"
+      ],
+      "student": [
+        "林浩坤 · Haokun Lin",
+        "2021 年起在中科院自动化所读博，2022 年起与香港城大联合攻读；同篇首版及期刊按人把他标为腾讯 ARC、自动化所和港城大三署名的共同第一作者。本人公开账户在腾讯项目库发布同篇代码及权重，并提交训练实现。",
+        "https://messix77.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "林浩坤履历 2021 年起中科院自动化所博士段具名列孙哲南为导师。后来加入城大联合培养；不以联合培养代替确认孙的具名指导。",
+        "https://messix77.github.io/cv/"
+      ],
+      "employee": [
+        "葛艺潇 · Yixiao Ge",
+        "同篇署腾讯 ARC，2025 年稿件列通讯作者。本人公开履历列腾讯 ARC 首席研究员与 2025 年 7 月改赴小鹏；覆盖 5 月首稿与 6 月代码提交。",
+        "https://geyixiao.com/"
+      ],
+      "title": "TokLIP: Marry Visual Tokens to CLIP for Multimodal Comprehension and Generation",
+      "short": "TokLIP",
+      "year": 2025,
+      "date": "2025-05-08",
+      "venue": "IJCV",
+      "area": "视觉与多模态",
+      "paper": "https://link.springer.com/article/10.1007/s11263-026-03081-x",
+      "paperId": "arxiv:2505.05422",
+      "extra": [
+        [
+          "2025 年 5 月 8 日公开首版",
+          "https://arxiv.org/abs/2505.05422v1"
+        ],
+        [
+          "作者官方个人 GitHub 用于核对实名账户",
+          "https://github.com/MessiX77"
+        ],
+        [
+          "腾讯 ARC 官方仓库：具名提交代码和模型",
+          "https://github.com/TencentARC/TokLIP/commit/0c33dff21931"
+        ],
+        [
+          "具名提交训练工具、脚本及模型处理实现",
+          "https://github.com/TencentARC/TokLIP/commit/26a12a20af2c"
+        ],
+        [
+          "腾讯 ARC 官方发布权重与模型卡",
+          "https://huggingface.co/TencentARC/TokLIP"
+        ],
+        [
+          "中科院自动化所教师主页",
+          "https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129879.html"
+        ]
+      ],
+      "evidence": "首稿和 IJCV 期刊均将第一作者林浩坤同时列为腾讯 ARC、国科大培养单位中科院自动化所及港城大作者，具名博士导师孙哲南同篇。林本人学术主页链接可对应 GitHub 实名账户 MessiX77。2025 年 6 月 5 日，该账户在腾讯 ARC 官方代码库提交同篇代码与模型，8 月 6 日再提交训练实现，构成该学生实质参与企业项目的独立记录；同篇葛艺潇 2025 年 7 月前在腾讯 ARC 正式任职。首版 2025-05-08 与 2026-10-26 期刊合并。"
     }
   ]
 };

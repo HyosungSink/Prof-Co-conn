@@ -52985,7 +52985,12 @@ const facultyPaperAudits = {
       "https://aclanthology.org/2024.findings-emnlp.702/",
       "https://junction4nako.github.io/",
       "https://www.ccf.org.cn/Media_list/cncc/2025-10-01/849291.shtml",
-      "https://arxiv.org/html/2509.22746v1"
+      "https://arxiv.org/html/2509.22746v1",
+      "https://aclanthology.org/people/zhongyu-wei/",
+      "https://dblp.org/pid/31/10489.html",
+      "https://labndig.fudan.edu.cn/people/wei-zhongyu/",
+      "https://imnearth.github.io//research/",
+      "https://libertfan.github.io/"
     ],
     "papers": [
       {
@@ -53001,8 +53006,140 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2509.22746",
         "outcome": "confirmed",
         "note": "首稿和 ICLR 正式版本标示李泽君于阿里实习完成；同篇阿里员工郑波及复旦导师魏忠钰。学生履历明确同时在读并受魏指导。2025 首稿和 ICLR 2026 合并。"
+      },
+      {
+        "year": 2024,
+        "title": "UI-Hawk: Unleashing the Screen Stream Understanding for Mobile GUI Agents",
+        "url": "https://aclanthology.org/2025.emnlp-main.920/",
+        "outcome": "lead",
+        "note": "张霁雯在正式版与 2024 年 8 月首稿均双署复旦与华为，廖明辉本人自列本篇项目负责人，魏忠钰是同篇通讯作者及学生导师；两版本未明确写其在公司做该篇的实习日期或岗位，先留线索。"
+      },
+      {
+        "year": 2024,
+        "title": "VoCoT: Unleashing Visually Grounded Multi-Step Reasoning in Large Multi-Modal Models",
+        "url": "https://aclanthology.org/2025.naacl-long.192/",
+        "outcome": "lead",
+        "note": "首稿 v1/v2 复旦硕士候选罗瑞璞署复旦和字节；正式版只署字节，参与者邱明辉正式版署字节。首稿与正式版原文均无实习脚注；缺罗瑞璞该项目的具体企业在读参与及正式导师的独立记录。"
+      },
+      {
+        "year": 2023,
+        "title": "Valley: Video Assistant with Large Language Model Enhanced Ability",
+        "url": "https://arxiv.org/abs/2306.07207",
+        "outcome": "lead",
+        "note": "早期同篇罗瑞璞列复旦，修订版与邱明辉署字节，魏忠钰署复旦。罗在 2023 年的另篇用复旦研究生邮箱；字节同篇投入和具名校内正式导师仍待核。"
+      },
+      {
+        "year": 2023,
+        "title": "Breaking Down the Task: A Unit-Grained Hybrid Training Framework for Vision and Language Decision Making",
+        "url": "https://arxiv.org/abs/2307.08016",
+        "outcome": "no-evidence",
+        "note": "三位作者罗瑞璞、张霁雯及魏忠钰在原文皆署复旦，未标目标企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "ReForm-Eval: Evaluating Large Vision Language Models via Unified Re-Formulation of Task-Oriented Benchmarks",
+        "url": "https://doi.org/10.1145/3664647.3681529",
+        "outcome": "lead",
+        "note": "首稿和学生公开书目证实复旦在读李泽君、张霁雯及魏忠钰与在阿里通义任职的范智昊共同署名；李泽君公开的阿里项目在 2025 年起，与 2023 首稿不相符。无其他同篇学生在阿里科研证据。"
+      },
+      {
+        "year": 2024,
+        "title": "DELAN: Dual-Level Alignment for Vision-and-Language Navigation by Cross-Modal Contrastive Learning",
+        "url": "https://aclanthology.org/2024.lrec-main.411/",
+        "outcome": "lead",
+        "note": "原文仅范智昊署阿里，张霁雯、李泽君和罗瑞璞分别署复旦；没有具名在阿里开展该篇研发的学生，无实习脚注。"
+      },
+      {
+        "year": 2024,
+        "title": "从多模态预训练到多模态大模型：架构、训练、评测、趋势概览",
+        "url": "https://aclanthology.org/2024.ccl-2.1/",
+        "outcome": "no-evidence",
+        "note": "中文 CCL 正式版作者全署复旦；文章为研究综述，没有企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation",
+        "url": "https://aclanthology.org/2025.coling-main.223/",
+        "outcome": "lead",
+        "note": "刊出正式版范智昊署阿里，龙卓涵署复旦；其同篇 2024 年 2 月首稿署同济。可查实的阿里实习线索属 2026 年，无法证明这项旧工作入职研发。"
+      },
+      {
+        "year": 2024,
+        "title": "From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking",
+        "url": "https://aclanthology.org/2024.emnlp-main.973/",
+        "outcome": "lead",
+        "note": "华人姓名与机构在正式版可辨，范智昊署阿里、龙卓涵署复旦。原文未指学生在阿里参与本研究；2026 年实习不可追溯替代。"
+      },
+      {
+        "year": 2025,
+        "title": "EMGLLM: Data-to-Text Alignment for Electromyogram Diagnosis Generation with Medical Numerical Data Encoding",
+        "url": "https://aclanthology.org/2025.findings-acl.1050/",
+        "outcome": "no-evidence",
+        "note": "正式版作者署复旦、华中科技大学及上海创智学院，未列目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "SocioBench: Modeling Human Behavior in Sociological Surveys with Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.1335/",
+        "outcome": "no-evidence",
+        "note": "正式版作者署上海创智学院、同济、浙大、上海交大及复旦，无目标企业署名。"
+      },
+      {
+        "year": 2025,
+        "title": "AutoJudger: An Adaptive Evaluation Framework for Efficient Benchmarking of MLLMs",
+        "url": "https://aclanthology.org/2026.acl-long.685/",
+        "outcome": "no-evidence",
+        "note": "正式版题名略改，合并预印本 2505.21389；原文署复旦、上海创智学院和南加州大学。"
+      },
+      {
+        "year": 2026,
+        "title": "MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution",
+        "url": "https://aclanthology.org/2026.acl-long.1299/",
+        "outcome": "no-evidence",
+        "note": "正式版署复旦、上海创智学院和南加州大学，未列华为或其他企业合著。"
+      },
+      {
+        "year": 2026,
+        "title": "Can Agents Read the Room? Benchmarking Visual Social Intelligence in Multimodal Simulation",
+        "url": "https://aclanthology.org/2026.findings-emnlp.956/",
+        "outcome": "no-evidence",
+        "note": "正式版署复旦、上海创智学院和香港中文大学，未列企业作者；以截止前的正式站点条目为准。"
+      },
+      {
+        "year": 2023,
+        "title": "DISC-FinLLM: A Chinese Financial Large Language Model based on Multiple Experts Fine-tuning",
+        "url": "https://arxiv.org/abs/2310.15205",
+        "outcome": "no-evidence",
+        "note": "原文单位只有复旦及华中科技大学的各院系/研究机构，项目研究金融应用，但没有具名目标企业同篇。"
       }
     ],
-    "note": "先核两个有逐篇具名实习脚注的项目；其他公开论文继续逐篇检查。"
+    "note": "复旦大数据学院魏忠钰：首批交叉 ACL Anthology、DBLP、课题组介绍及学生/企业作者公开书目，逐篇核查同署、实习脚注与公开履历。已确认的两篇之外，单靠双署或课题组合作保留线索。DBLP 有更多收录，继续补核。"
+  },
+  "PuZGODYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://link.springer.com/article/10.1007/s11263-026-03081-x",
+      "https://messix77.github.io/",
+      "https://messix77.github.io/cv/",
+      "https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129879.html",
+      "https://geyixiao.com/",
+      "https://arxiv.org/abs/2505.05422v1",
+      "https://github.com/MessiX77",
+      "https://github.com/TencentARC/TokLIP/commit/0c33dff21931",
+      "https://github.com/TencentARC/TokLIP/commit/26a12a20af2c",
+      "https://huggingface.co/TencentARC/TokLIP"
+    ],
+    "papers": [
+      {
+        "title": "TokLIP: Marry Visual Tokens to CLIP for Multimodal Comprehension and Generation",
+        "url": "https://arxiv.org/abs/2505.05422",
+        "outcome": "confirmed",
+        "note": "首稿和 IJCV 期刊均将第一作者林浩坤同时列为腾讯 ARC、国科大培养单位中科院自动化所及港城大作者，具名博士导师孙哲南同篇。林本人学术主页链接可对应 GitHub 实名账户 MessiX77。2025 年 6 月 5 日，该账户在腾讯 ARC 官方代码库提交同篇代码与模型，8 月 6 日再提交训练实现，构成该学生实质参与企业项目的独立记录；同篇葛艺潇 2025 年 7 月前在腾讯 ARC 正式任职。首版 2025-05-08 与 2026-10-26 期刊合并。",
+        "year": 2025
+      }
+    ],
+    "note": "核实孙哲南指导的 TokLIP 同一工作。其余公开题录仍需逐篇查考。"
   }
 };
