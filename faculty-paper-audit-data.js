@@ -8,7 +8,10 @@ const facultyPaperAudits = {
       "https://zxwu.azurewebsites.net/",
       "https://fvl.fudan.edu.cn/publications.html",
       "https://gulucaptain.github.io/",
-      "https://wdrink.github.io/"
+      "https://wdrink.github.io/",
+      "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40",
+      "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40",
+      "https://xuefenghu.me/"
     ],
     "papers": [
       {
@@ -90,10 +93,11 @@ const facultyPaperAudits = {
         "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
       },
       {
+        "year": 2026,
         "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
-        "url": "https://arxiv.org/abs/2606.11188",
-        "outcome": "lead",
-        "note": "王君可列出复旦博士导师与字节实习，但本作于毕业同年公布；从在读研究实习转换到正式任职的时间及当时具体参与角色仍未核实。"
+        "url": "https://arxiv.org/pdf/2606.11188v1",
+        "outcome": "confirmed",
+        "note": "2026-06-09 的预印本具名共同第一作者王君可、字节正式员工 Xuefeng Hu，以及两位复旦博士导师。王君可于次日更新其主页，自述仍为复旦末年博士、提及 Seed 实习，同一版本已列 ARM；2026-07-20 版本才改为字节研究员。现行主页将这篇具体研究标为 ByteDance Seed；同期企业作者的任职履历亦具名这篇报告。"
       },
       {
         "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
@@ -114,7 +118,10 @@ const facultyPaperAudits = {
       "https://gulucaptain.github.io/",
       "https://zxwu.azurewebsites.net/",
       "https://sxjyjay.github.io/",
-      "https://wdrink.github.io/"
+      "https://wdrink.github.io/",
+      "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40",
+      "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40",
+      "https://xuefenghu.me/"
     ],
     "papers": [
       {
@@ -196,10 +203,11 @@ const facultyPaperAudits = {
         "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
       },
       {
+        "year": 2026,
         "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
-        "url": "https://arxiv.org/abs/2606.11188",
-        "outcome": "lead",
-        "note": "王君可列出复旦博士导师与字节实习，但本作于毕业同年公布；从在读研究实习转换到正式任职的时间及当时具体参与角色仍未核实。"
+        "url": "https://arxiv.org/pdf/2606.11188v1",
+        "outcome": "confirmed",
+        "note": "2026-06-09 的预印本具名共同第一作者王君可、字节正式员工 Xuefeng Hu，以及两位复旦博士导师。王君可于次日更新其主页，自述仍为复旦末年博士、提及 Seed 实习，同一版本已列 ARM；2026-07-20 版本才改为字节研究员。现行主页将这篇具体研究标为 ByteDance Seed；同期企业作者的任职履历亦具名这篇报告。"
       },
       {
         "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
@@ -649,7 +657,10 @@ const facultyPaperAudits = {
       "https://patents.google.com/patent/US20230260304A1/en",
       "https://orcid.org/0000-0003-3035-1373",
       "https://export.arxiv.org/api/query?search_query=au%3A%22Dingkang%20Liang%22&start=0&max_results=100",
-      "https://arxiv.org/html/2604.28196v2"
+      "https://arxiv.org/html/2604.28196v2",
+      "https://www.aicitychallenge.org/2026-challenge-winners/",
+      "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026",
+      "https://news.hust.edu.cn/info/1004/59339.htm"
     ],
     "papers": [
       {
@@ -1046,6 +1057,13 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "正式期刊公开页核实作者表及论文研究，声明无利益冲突。公开摘要未完整展示单位及致谢；继续找可核对全文。"
+      },
+      {
+        "title": "Aligning Learned Spatial Priors: Gauge Canonicalization for Multi-Camera 3D Perception under Sim-to-Real Transfer",
+        "url": "https://openreview.net/forum?id=8Mnad7EhgF",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ECCV 2026 研讨会正式程序及作者仓库核实华中科技大学—华为团队、两位研究生共同第一与两位导师同篇。团队确认联合研究，仍核对同期企业作者身份与在读者在同项企业研究的分工。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -3209,7 +3227,8 @@ const facultyPaperAudits = {
       "https://ngc7292.github.io/en/",
       "https://yinzhangyue.github.io/",
       "https://zhiyuanzeng.github.io/",
-      "https://landisen.github.io/"
+      "https://landisen.github.io/",
+      "https://seed.bytedance.com/en/blog/call-for-papers-for-iclr-2025-workshop-promoting-open-source-sharing-and-reproducibility-of-foundation-models"
     ],
     "papers": [
       {
@@ -3247,6 +3266,20 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2606.30562",
         "outcome": "confirmed",
         "note": "蓝迪森在复旦攻读博士并在字节跳动 Seed 实习；本人主页把本项目列为 Seed 技术报告，原文首页的第一作者脚注明确本工作在字节跳动 Seed 完成。"
+      },
+      {
+        "year": 2025,
+        "title": "RLoop: An Self-Improving Framework for Reinforcement Learning with Iterative Policy Initialization",
+        "url": "https://arxiv.org/pdf/2511.04285",
+        "outcome": "lead",
+        "note": "复旦博士曾致远本人列为 Seed 成果并列校内导师邱锡鹏、企业指导 Wenhao Huang，字节官方确认后者在职；原文中两人均列 M-A-P（开放研究组织），尚缺公司材料把这项具体研究确认为 Seed 课题，暂不确认。"
+      },
+      {
+        "year": 2026,
+        "title": "Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO",
+        "url": "https://arxiv.org/pdf/2605.04077",
+        "outcome": "lead",
+        "note": "复旦博士曾致远本人列为 Seed 成果并列校内导师邱锡鹏、企业指导 Wenhao Huang，字节官方确认后者在职；原文中两人均列 M-A-P（开放研究组织），尚缺公司材料把这项具体研究确认为 Seed 课题，暂不确认。"
       }
     ],
     "note": "按学生个人履历与作者发表记录抽取并核对部分论文；全期题录仍待继续。"
@@ -17291,7 +17324,10 @@ const facultyPaperAudits = {
       "https://ei.hust.edu.cn/info/1177/7104.htm",
       "https://orcid.org/0000-0003-3035-1373",
       "https://export.arxiv.org/api/query?search_query=au%3A%22Dingkang%20Liang%22&start=0&max_results=100",
-      "https://arxiv.org/html/2604.28196v2"
+      "https://arxiv.org/html/2604.28196v2",
+      "https://www.aicitychallenge.org/2026-challenge-winners/",
+      "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026",
+      "https://news.hust.edu.cn/info/1004/59339.htm"
     ],
     "papers": [
       {
@@ -17727,6 +17763,13 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "Springer 会议卷及 DOI 题录核实梁定康、题名和作者列表；目前只有可核对题录，仍需作者单位、全文和致谢。"
+      },
+      {
+        "title": "Aligning Learned Spatial Priors: Gauge Canonicalization for Multi-Camera 3D Perception under Sim-to-Real Transfer",
+        "url": "https://openreview.net/forum?id=8Mnad7EhgF",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ECCV 2026 研讨会正式程序及作者仓库核实华中科技大学—华为团队、两位研究生共同第一与两位导师同篇。团队确认联合研究，仍核对同期企业作者身份与在读者在同项企业研究的分工。"
       }
     ],
     "note": "逐篇对照本人主页、DBLP、ORCID、预印本和正式来源；同名《Drift Calibration》原文仅署 UC San Diego，同事网络也不同，暂不归入本人的书目。仍有全文和书目范围待补。"
@@ -32584,7 +32627,83 @@ const facultyPaperAudits = {
       "https://ismir.net/conferences/ismir-2024/",
       "https://arxiv.org/abs/2609.16855",
       "https://arxiv.org/pdf/2609.16855",
-      "https://research.cuhk.edu.hk/en/publications/differentiable-and-severity-invariant-discrete-tokens-for-dysarth/"
+      "https://research.cuhk.edu.hk/en/publications/differentiable-and-severity-invariant-discrete-tokens-for-dysarth/",
+      "https://ieeexplore.ieee.org/document/11464972",
+      "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=3702&bare=1",
+      "https://arxiv.org/pdf/2602.18802",
+      "https://ieeexplore.ieee.org/document/10889032",
+      "https://arxiv.org/pdf/2501.04379",
+      "https://research.cuhk.edu.hk/en/publications/phone-purity-guided-discrete-tokens-for-dysarthric-speech-recogni/projects/?status=FINISHED",
+      "https://ieeexplore.ieee.org/document/10888920",
+      "https://arxiv.org/pdf/2501.03643",
+      "https://ieeexplore.ieee.org/document/10887642",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/paper1.pdf",
+      "https://arxiv.org/abs/2409.08596",
+      "https://ieeexplore.ieee.org/document/10888841",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/paper2.pdf",
+      "https://ieeexplore.ieee.org/document/10448488",
+      "https://cmsworkshops.com/ICASSP2024/view_paper.php?PaperNum=4710",
+      "https://ieeexplore.ieee.org/document/10446249",
+      "https://ieeexplore.ieee.org/document/10095083",
+      "https://arxiv.org/pdf/2211.09313",
+      "https://ieeexplore.ieee.org/document/10095993",
+      "https://rc.signalprocessingsociety.org/conferences/icassp-2023/spsicassp23vid2164",
+      "https://arxiv.org/abs/2210.16539",
+      "https://ieeexplore.ieee.org/document/10096205",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/6063_AD.pdf",
+      "https://ieeexplore.ieee.org/document/10096395",
+      "https://arxiv.org/pdf/2303.08027",
+      "https://www.microsoft.com/en-us/research/publication/a-hierarchical-regression-chain-framework-for-affective-vocal-burst-recognition/",
+      "https://doi.org/10.1109/TASLPRO.2025.3633090",
+      "https://arxiv.org/pdf/2511.09084",
+      "https://research.cuhk.edu.hk/en/publications/towards-effective-and-efficient-non-autoregressive-decoders-for-c/",
+      "https://doi.org/10.1109/TASLPRO.2025.3606235",
+      "https://publications-cnrc.canada.ca/eng/view/ft/?id=136ad8da-3106-4795-bdf0-eebf08796b5f",
+      "https://arxiv.org/abs/2508.10456",
+      "https://doi.org/10.1109/TASLPRO.2025.3547217",
+      "https://arxiv.org/pdf/2407.06310",
+      "https://mengzhegeng.github.io/publications/",
+      "https://doi.org/10.1109/TASLP.2024.3422839",
+      "https://iris-backend.cuhk.edu.hk/ws/portalfiles/portal/291879350/Self-Supervised_ASR_Models_and_Features_for_Dysarthric_and_Elderly_Speech_Recognition.pdf",
+      "https://doi.org/10.1109/TASLP.2023.3323888",
+      "https://arxiv.org/pdf/2205.06445",
+      "https://research.cuhk.edu.hk/en/publications/personalized-adversarial-data-augmentation-for-dysarthric-and-eld-2/",
+      "https://doi.org/10.1109/TASLP.2023.3294705",
+      "https://arxiv.org/pdf/2307.02909",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/Audio-Visual_End-to-End_Multi-Channel_Speech_Separation_Dereverberation_and_Recognition.pdf",
+      "https://doi.org/10.1109/TASLP.2023.3250842",
+      "https://arxiv.org/pdf/2302.07521",
+      "https://research.cuhk.edu.hk/en/publications/confidence-score-based-speaker-adaptation-of-conformer-speech-rec-2/",
+      "https://doi.org/10.1109/TASLP.2023.3313428",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/Hiformer2024.pdf",
+      "https://doi.org/10.1109/JSTSP.2025.3622049",
+      "https://arxiv.org/abs/2501.03727",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/Detecting_Neurocognitive_Disorders_Through_Analyses_of_Topic_Evolution_and_Cross-Modal_Consistency_in_Visual-Stimulated_Narratives.pdf",
+      "https://arxiv.org/abs/2606.06559",
+      "https://arxiv.org/pdf/2606.06559",
+      "https://ismir2024.ismir.net/authors/call-for-papers/",
+      "https://ieeexplore.ieee.org/document/10447627",
+      "https://cmsworkshops.com/ICASSP2024/view_paper.php?PaperNum=3589",
+      "https://arxiv.org/pdf/2312.08641",
+      "https://ieeexplore.ieee.org/document/10447702",
+      "https://arxiv.org/pdf/2401.00662",
+      "https://ieeexplore.ieee.org/document/10445949",
+      "https://cmsworkshops.com/ICASSP2024/view_paper.php?PaperNum=8693",
+      "https://www1.se.cuhk.edu.hk/~hccl/publications/pub/Exploiting_Audio-Visual_Features_with_Pretrained_AV-HuBERT_for_Multi-Modal_Dysarthric_Speech_Reconstruction.pdf",
+      "https://ieeexplore.ieee.org/document/10800618",
+      "https://research.cuhk.edu.hk/en/publications/investigation-of-cross-modality-feature-fusion-for-audio-visual-d/",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502275429802665",
+      "https://ieeexplore.ieee.org/document/10800392",
+      "https://arxiv.org/pdf/2411.07563",
+      "https://ieeexplore.ieee.org/document/10095547",
+      "https://arxiv.org/pdf/2211.01646",
+      "https://resourcecenter.ieee.org/conferences/icassp-2023/spsicassp23vid0893",
+      "https://ieeexplore.ieee.org/document/10097275",
+      "https://arxiv.org/pdf/2302.14564",
+      "https://doi.org/10.1109/TASLPRO.2026.3724410",
+      "https://arxiv.org/abs/2610.25766",
+      "https://arxiv.org/pdf/2610.25766",
+      "https://www.isca-archive.org/mlcslm_2025/xue25_mlcslm.pdf"
     ],
     "papers": [
       {
@@ -32822,7 +32941,7 @@ const facultyPaperAudits = {
         "title": "Efficient Adapter Tuning for Joint Singing Voice Beat and Downbeat Tracking with Self-Supervised Learning Features",
         "url": "https://ismir2024program.ismir.net/poster_48.html",
         "outcome": "confirmed",
-        "note": "ISMIR 2024 正式稿第 7 节具名说明 Jiajun Deng 在华为香港研究中心实习期间开展本研究。本人履历列 2020-08 至 2024-07 港中大博士及导师刘循英，会议程序把他及同篇作者刘循英列为港中大。Yaolong Ju 的本人履历确认其华为中央媒体技术院企业身份并列此篇；论文也署华为。正式发表后的 arXiv 文稿与同篇合并。",
+        "note": "ISMIR 2024 正式稿第 7 节具名说明 Jiajun Deng 在华为香港研究中心实习期间开展本研究。本人履历列 2020-08 至 2024-07 港中大博士及导师刘循英，会议程序把他及同篇作者刘循英列为港中大。Yaolong Ju 的本人履历确认其华为中央媒体技术院企业身份并列此篇；论文也署华为。正式发表后的 arXiv 文稿与同篇合并。 会议官方全稿截止为 2024-04-12，录用通知为 2024-06-28，均在其 2024-07 毕业前；会议则于 2024-11 举行。",
         "year": 2024
       },
       {
@@ -32831,9 +32950,219 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "港中大校方记录列港中大、中科院、加拿大国家研究委员会等合作方，公开预印本证据未发现范围内企业角色；IEEE SLT 正式会议在调查截止日之后，先按 2026-09 预印本记录。",
         "year": 2026
+      },
+      {
+        "title": "Multi-Channel Speech Enhancement For Cocktail Party Speech Emotion Recognition",
+        "url": "https://ieeexplore.ieee.org/document/11464972",
+        "outcome": "no-evidence",
+        "note": "ICASSP 正式日程及公开全文署港中大、中科院软件所、加拿大国家研究委员会。Jiajun Deng 这篇仍以港中大署名，没有另一个范围内企业成员或具体实习项目的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Phone-purity Guided Discrete Tokens for Dysarthric Speech Recognition",
+        "url": "https://ieeexplore.ieee.org/document/10889032",
+        "outcome": "no-evidence",
+        "note": "正式会议信息与公开全文署港中大、中科院软件所、加拿大国家研究委员会，未见范围内企业作者。",
+        "year": 2025
+      },
+      {
+        "title": "Effective and Efficient Mixed Precision Quantization of Speech Foundation Models",
+        "url": "https://ieeexplore.ieee.org/document/10888920",
+        "outcome": "no-evidence",
+        "note": "同篇公开稿只有港中大和加拿大国家研究委员会单位；未见具名企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "Large Language Model Can Transcribe Speech in Multi-Talker Scenarios with Versatile Instructions",
+        "url": "https://ieeexplore.ieee.org/document/10887642",
+        "outcome": "no-evidence",
+        "note": "教师课题组公开原文中全部作者署港中大，星号说明并列贡献。2024-09 预印本与 2025 IEEE 版合并。",
+        "year": 2025
+      },
+      {
+        "title": "Disentangling Speakers in Multi-talker Speech Recognition with Bayes Risk CTC",
+        "url": "https://ieeexplore.ieee.org/document/10888841",
+        "outcome": "no-evidence",
+        "note": "学校公开原文及出版署名一致，所有作者署港中大；未见目标企业合作者。学校档案采用同一研究的 Speaker-Aware CTC 题名变体。",
+        "year": 2025
+      },
+      {
+        "title": "Towards High-Performance And Low-Latency Feature-Based Speaker Adaptation Of Conformer Speech Recognition Systems",
+        "url": "https://ieeexplore.ieee.org/document/10448488",
+        "outcome": "no-evidence",
+        "note": "ICASSP 2024 正式技术日程逐名列为港中大或中科院软件所。本篇没有 Jiajun Deng 在随后研究中以华为身份参与的足够证据。",
+        "year": 2024
+      },
+      {
+        "title": "Cross-speaker encoding network for multi-talker speech recognition",
+        "url": "https://ieeexplore.ieee.org/document/10446249",
+        "outcome": "no-evidence",
+        "note": "ICASSP 2024 正式技术日程逐名列出，全部作者署香港中文大学；没有可核实目标企业成员同篇参与。",
+        "year": 2024
+      },
+      {
+        "title": "Unsupervised model-based speaker adaptation of end-to-end lattice-free MMI model for speech recognition",
+        "url": "https://ieeexplore.ieee.org/document/10095083",
+        "outcome": "no-evidence",
+        "note": "原文署名中科院软件所及港中大；无目标企业。2022-11 预印本，首次正式出版为 ICASSP 2023，合并。",
+        "year": 2023
+      },
+      {
+        "title": "Exploiting prompt learning with pre-trained language models for Alzheimer's Disease detection",
+        "url": "https://ieeexplore.ieee.org/document/10095993",
+        "outcome": "no-evidence",
+        "note": "IEEE SPS 官方报告页及正式全文逐名列港中大及南洋理工；未见范围内企业参与。2022-10 预印本归并至正式会。",
+        "year": 2023
+      },
+      {
+        "title": "Leveraging Pretrained Representations with Task-related Keywords for Alzheimer's Disease Detection",
+        "url": "https://ieeexplore.ieee.org/document/10096205",
+        "outcome": "no-evidence",
+        "note": "学校留存的正式稿显示作者在 Microsoft 实习完成及微软亚洲研究院合作者，Microsoft 不在 14 家范围内。",
+        "year": 2023
+      },
+      {
+        "title": "A Hierarchical Regression Chain Framework for Affective Vocal Burst Recognition",
+        "url": "https://ieeexplore.ieee.org/document/10096395",
+        "outcome": "no-evidence",
+        "note": "公开稿与微软研究院正式项目档案显示参与企业为 Microsoft，不在目标企业范围。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Effective and Efficient Non-autoregressive Decoders for Conformer and LLM-based ASR using Block-based Attention Mask",
+        "url": "https://doi.org/10.1109/TASLPRO.2025.3633090",
+        "outcome": "no-evidence",
+        "note": "作者公开全文署港中大、清华、中科院软件所、南洋理工与加拿大国家研究委员会；未见目标企业作者。与 2024 Interspeech 会稿已有新增 LLM 实验和另一 DOI，保留独立正式版本。",
+        "year": 2025
+      },
+      {
+        "title": "Exploring Cross-Utterance Speech Contexts for Conformer-Transducer Speech Recognition Systems",
+        "url": "https://doi.org/10.1109/TASLPRO.2025.3606235",
+        "outcome": "no-evidence",
+        "note": "正式全文列港中大、上海交大和加拿大国家研究委员会，未见具名的企业参与。作者列在同时间的后续实习不作为该稿研究证据。",
+        "year": 2025
+      },
+      {
+        "title": "Homogeneous Speaker Features for On-the-Fly Dysarthric and Elderly Speaker Adaptation and Speech Recognition",
+        "url": "https://doi.org/10.1109/TASLPRO.2025.3547217",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式文章在 2025 年发表，2024-07 作者稿署港中大、中科院软件所、加拿大国家研究委员会；2023 On-the-Fly 论文具名腾讯作者 Jianwei Yu 不在本篇名单，也无同篇具名腾讯实习条款。",
+        "year": 2025
+      },
+      {
+        "title": "Self-supervised ASR Models and Features For Dysarthric and Elderly Speech Recognition",
+        "url": "https://doi.org/10.1109/TASLP.2024.3422839",
+        "outcome": "no-evidence",
+        "note": "校方托管期刊全文逐名列出港中大、中科院软件所、加拿大国家研究委员会。未见目标企业成员同篇参与。",
+        "year": 2024
+      },
+      {
+        "title": "Personalized Adversarial Data Augmentation for Dysarthric and Elderly Speech Recognition",
+        "url": "https://doi.org/10.1109/TASLP.2023.3323888",
+        "outcome": "no-evidence",
+        "note": "作者公开原稿中全部署名为港中文；预印本 2022-05、IEEE 在线正式出版 2023-10、卷期 2024，作为同一项。",
+        "year": 2024
+      },
+      {
+        "title": "Audio-visual End-to-end Multi-channel Speech Separation, Dereverberation and Recognition",
+        "url": "https://doi.org/10.1109/TASLP.2023.3294705",
+        "outcome": "no-evidence",
+        "note": "校方保存 IEEE 正式全文与 arXiv 稿均显示港中大团队，无目标企业合作者。",
+        "year": 2023
+      },
+      {
+        "title": "Confidence Score Based Speaker Adaptation of Conformer Speech Recognition Systems",
+        "url": "https://doi.org/10.1109/TASLP.2023.3250842",
+        "outcome": "no-evidence",
+        "note": "作者稿及港中大出版归档为港中大、中科院软件所；第一作者之后入职华为与这篇研究无关。",
+        "year": 2023
+      },
+      {
+        "title": "Hiformer: Sequence Modeling Networks with Hierarchical Attention Mechanisms",
+        "url": "https://doi.org/10.1109/TASLP.2023.3313428",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式全文列港中大及清华为作者机构，资助包括非目标研究中心；未见范围内企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "Detecting Neurocognitive Disorders through Analyses of Topic Evolution and Cross-Modal Consistency in Visual-Stimulated Narratives",
+        "url": "https://doi.org/10.1109/JSTSP.2025.3622049",
+        "outcome": "no-evidence",
+        "note": "学校留存的 IEEE 正式原文列港中大、港科大及港理工；未见目标企业作者。与 2025-01 预印本归并。",
+        "year": 2025
+      },
+      {
+        "title": "IRAF: Interference-Resilient Adaptive Fusion for Noise-Robust End-to-End Full-Duplex Spoken Dialogue Systems",
+        "url": "https://arxiv.org/abs/2606.06559",
+        "outcome": "lead",
+        "note": "第一作者 Tao Zhong 同时署港中大及华为 AudioLab，导师课题组名录确认 2022 年开始攻读博士，华为作者 Jiajun Deng 的独立任职履历已查。全文未具名说明 Tao 的华为项目角色或实习；不要把同名 Princeton 学生的实习履历混入。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Automatic Data Augmentation For Disordered Speech Recognition",
+        "url": "https://ieeexplore.ieee.org/document/10447627",
+        "outcome": "no-evidence",
+        "note": "ICASSP 官方技术日程署港中大及中科院软件所；公开初稿未见目标企业作者，2023-12 预印本与 2024 IEEE 正式版合并。",
+        "year": 2024
+      },
+      {
+        "title": "Enhancing Pre-Trained Asr System Fine-Tuning For Dysarthric Speech Recognition Using Adversarial Data Augmentation",
+        "url": "https://ieeexplore.ieee.org/document/10447702",
+        "outcome": "no-evidence",
+        "note": "IEEE 会议书目列全体作者为港中大，公开稿未见目标企业作者或实习。",
+        "year": 2024
+      },
+      {
+        "title": "Exploiting Audio-Visualfeatures With Pretrained Av-Huert For Multi-Modal Dysarthric Speech Reconstruction",
+        "url": "https://ieeexplore.ieee.org/document/10445949",
+        "outcome": "no-evidence",
+        "note": "正式全文与会议日程列港中大、清华与 Vocal Engineering Technologies；该企业不在 14 家范围内。",
+        "year": 2024
+      },
+      {
+        "title": "Investigation of Cross Modality Feature Fusion for Audio-Visual Dysarthric Speech Assessment",
+        "url": "https://ieeexplore.ieee.org/document/10800618",
+        "outcome": "no-evidence",
+        "note": "校方研究档案与交叉题录显示合作者来自中科院及港中大，未找到范围内企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Improving Grapheme-to-Phoneme Conversion through In-Context Knowledge Retrieval with Large Language Models",
+        "url": "https://ieeexplore.ieee.org/document/10800392",
+        "outcome": "no-evidence",
+        "note": "作者公开全文列港中大及 Centre for Perceptual and Interactive Intelligence（CPII）。未见 14 家企业合作者；使用外部模型不等于企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Adversarial Data Augmentation Using VAE-GAN for Disordered Speech Recognition",
+        "url": "https://ieeexplore.ieee.org/document/10095547",
+        "outcome": "no-evidence",
+        "note": "IEEE SPS 正式报告页逐名列港中大与中科院软件所，未见范围内企业参与。首次预印 2022-11，与 2023 正式论文归并。",
+        "year": 2023
+      },
+      {
+        "title": "Exploring Self-supervised Pre-trained ASR Models For Dysarthric and Elderly Speech Recognition",
+        "url": "https://ieeexplore.ieee.org/document/10097275",
+        "outcome": "no-evidence",
+        "note": "公开稿逐名列港中大及中科院软件所，没有范围内企业参与证据。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Extremely Low-Bit and Multi-Precision Conformer and Speech Foundation Model Quantization",
+        "url": "https://doi.org/10.1109/TASLPRO.2026.3724410",
+        "outcome": "lead",
+        "note": "师生两处书目列 IEEE TASLP 2026 卷 34 及 DOI；本次未获取可核实正式全文，不能判断在读作者与范围内企业具体作用。与同一组部分作者的早期量化会议论文仍待用正文比较。",
+        "year": 2026
+      },
+      {
+        "title": "PronCFT: Pronunciation Contextual Fine-Tuning for Contextual Biasing of Out-of-Vocabulary Words in LLM-Based ASR",
+        "url": "https://arxiv.org/abs/2610.25766",
+        "outcome": "lead",
+        "note": "论文首页列第一作者 Yifan Xu 同署港中大和 Tenlai Team；其余 Tenlai 作者与 2025 年腾讯 Ethereal Audio Lab 公开论文部分重合，但 2026-10 的 Tenlai 实体归属、企业人员的同期雇佣及 Yifan Xu 的在读项目参与和具名导师均未核实。",
+        "year": 2026
       }
     ],
-    "note": "部分已查：港中大教师书目、Interspeech 2023–2026 按原文逐篇核对；2023–2026 其他期刊及会议论文仍在继续补齐。"
+    "note": "部分已查：逐篇比对港中大教师所列 2023–2026 年期刊及会议书目、Interspeech 正式全文与其他出版方原始记录，外部书目另外补充预印本。个别期刊只能核对公开题录；尚未完整对照独立索引补充篇目。"
   },
   "hI9NRDkAAAAJ": {
     "from": "2023-01-01",

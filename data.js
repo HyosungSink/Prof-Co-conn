@@ -38976,6 +38976,120 @@ const survey = {
         ]
       ],
       "evidence": "ISMIR 2024 正式稿第 7 节具名说明 Jiajun Deng 在华为香港研究中心实习期间开展本研究。本人履历列 2020-08 至 2024-07 港中大博士及导师刘循英，会议程序把他及同篇作者刘循英列为港中大。Yaolong Ju 的本人履历确认其华为中央媒体技术院企业身份并列此篇；论文也署华为。正式发表后的 arXiv 文稿与同篇合并。"
+    },
+    {
+      "id": "arm-bytedance-fudan-f3_fp8aaaaaj",
+      "paperId": "arxiv:2606.11188",
+      "company": "字节跳动",
+      "team": "Seed · 多模态生成",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "王君可的当期复旦大学博士导师之一，亦为本文通讯作者。",
+        "https://teai.fudan.edu.cn/faculty-detail.html?id=110"
+      ],
+      "employee": [
+        "Xuefeng Hu",
+        "2026 年 3–7 月任字节跳动／TikTok Staff Research Scientist，个人任职履历具名 ARM 是 2026 年 6 月发布的项目；本文共同第一作者。",
+        "https://xuefenghu.me/"
+      ],
+      "student": [
+        "王君可 · Junke Wang",
+        "2026 年 6 月 10 日的本人公开主页仍列复旦末年博士，并具名两位导师及博士期间的 Seed 实习；现行书目单列 ARM 为 Seed 项目。",
+        "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
+      ],
+      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+      "short": "ARM",
+      "date": "2026-06",
+      "venue": "arXiv 预印本",
+      "area": "多模态视觉生成",
+      "paper": "https://arxiv.org/pdf/2606.11188v1",
+      "extra": [
+        [
+          "学生本人书目将同一题录归于 ByteDance Seed",
+          "https://wdrink.github.io/"
+        ],
+        [
+          "学生本人 2026-06-10 日期及对应原始主页",
+          "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
+        ],
+        [
+          "学生本人 2026-07-20 日期及正式任职更新",
+          "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40"
+        ],
+        [
+          "论文对应源码及共同作者",
+          "https://github.com/wdrink/ARM"
+        ],
+        [
+          "复旦官方博士生项目名录",
+          "https://cs.fudan.edu.cn/a5/36/c24867a763190/page.htm"
+        ]
+      ],
+      "evidence": "2026-06-09 的预印本具名共同第一作者王君可、字节正式员工 Xuefeng Hu，以及两位复旦博士导师。王君可于次日更新其主页，自述仍为复旦末年博士、提及 Seed 实习，同一版本已列 ARM；2026-07-20 版本才改为字节研究员。现行主页将这篇具体研究标为 ByteDance Seed；同期企业作者的任职履历亦具名这篇报告。",
+      "advising": [
+        "校内博士联合指导",
+        "学生署名的 2026-06-10 网页明确其复旦博士由吴祖煊、姜育刚指导，两人都是该文通讯作者。",
+        "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
+      ]
+    },
+    {
+      "id": "arm-bytedance-fudan-7t12hvkaaaaj",
+      "paperId": "arxiv:2606.11188",
+      "company": "字节跳动",
+      "team": "Seed · 多模态生成",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "王君可的当期复旦大学博士导师之一，亦为本文通讯作者。",
+        "https://zxwu.azurewebsites.net/"
+      ],
+      "employee": [
+        "Xuefeng Hu",
+        "2026 年 3–7 月任字节跳动／TikTok Staff Research Scientist，个人任职履历具名 ARM 是 2026 年 6 月发布的项目；本文共同第一作者。",
+        "https://xuefenghu.me/"
+      ],
+      "student": [
+        "王君可 · Junke Wang",
+        "2026 年 6 月 10 日的本人公开主页仍列复旦末年博士，并具名两位导师及博士期间的 Seed 实习；现行书目单列 ARM 为 Seed 项目。",
+        "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
+      ],
+      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+      "short": "ARM",
+      "date": "2026-06",
+      "venue": "arXiv 预印本",
+      "area": "多模态视觉生成",
+      "paper": "https://arxiv.org/pdf/2606.11188v1",
+      "extra": [
+        [
+          "学生本人书目将同一题录归于 ByteDance Seed",
+          "https://wdrink.github.io/"
+        ],
+        [
+          "学生本人 2026-06-10 日期及对应原始主页",
+          "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
+        ],
+        [
+          "学生本人 2026-07-20 日期及正式任职更新",
+          "https://github.com/wdrink/wdrink.github.io/blob/c661091fcd597b19c528de45eb7f2e855d5639a0/index.html#L33-L40"
+        ],
+        [
+          "论文对应源码及共同作者",
+          "https://github.com/wdrink/ARM"
+        ],
+        [
+          "复旦官方博士生项目名录",
+          "https://cs.fudan.edu.cn/a5/36/c24867a763190/page.htm"
+        ]
+      ],
+      "evidence": "2026-06-09 的预印本具名共同第一作者王君可、字节正式员工 Xuefeng Hu，以及两位复旦博士导师。王君可于次日更新其主页，自述仍为复旦末年博士、提及 Seed 实习，同一版本已列 ARM；2026-07-20 版本才改为字节研究员。现行主页将这篇具体研究标为 ByteDance Seed；同期企业作者的任职履历亦具名这篇报告。",
+      "advising": [
+        "校内博士联合指导",
+        "学生署名的 2026-06-10 网页明确其复旦博士由吴祖煊、姜育刚指导，两人都是该文通讯作者。",
+        "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
+      ]
     }
   ]
 };
