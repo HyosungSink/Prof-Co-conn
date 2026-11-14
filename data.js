@@ -37318,6 +37318,51 @@ const survey = {
         "王瑞课题组明确列张子殷为 2023 年入学硕士；该文王瑞为上交通讯作者。",
         "https://wangruinlp.github.io/"
       ]
+    },
+    {
+      "id": "capricorn-1k-kuaishou-ucas-tan",
+      "paperId": "doi:10.18653/2026.emnlp-main.272",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "谭铁牛 · Tieniu Tan",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://people.ucas.ac.cn/~0009513"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "公开履历注明 2024 年起在快手任职，担任快手可灵多模态理解组负责人；学生在同一实习段具名列其为快手导师，原文署快手可灵。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "陈鑫龙 · Xinlong Chen",
+        "个人教育履历记载 2025 年 9 月起为中科院自动化所博士生，2024 年 11 月起在快手可灵实习；2026 年 6 月的预印本和 10 月正式版均以首页脚注明确本作完成于可灵实习期间。",
+        "https://xlchen0205.github.io/"
+      ],
+      "title": "CapRiCorn-1K: A Comprehensive Benchmark for Video Captioning and Subject Referential Consistency Across Temporal Scales",
+      "short": "CapRiCorn-1K",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://aclanthology.org/2026.emnlp-main.272.pdf",
+      "extra": [
+        [
+          "EMNLP 正式题录",
+          "https://aclanthology.org/2026.emnlp-main.272/"
+        ],
+        [
+          "论文预印本与首页",
+          "https://arxiv.org/html/2606.21949v1"
+        ]
+      ],
+      "evidence": "EMNLP 正式原文首页中，第一作者陈鑫龙的星号指向在可灵团队实习期间完成本研究；张远行同篇署可灵，在个人履历记载自 2024 年在快手负责可灵多模态理解，并在本项目以前已担任陈鑫龙的企业导师。陈鑫龙在正式版署中科院自动化所并由个人教育履历及首稿核对国科大学籍，谭铁牛在首稿署国科大且具名指导其博士学业。",
+      "advising": [
+        "研究期间的具名导师",
+        "陈鑫龙的教育履历具名列谭铁牛为其国科大博士生导师；论文中谭铁牛署国科大。",
+        "https://xlchen0205.github.io/"
+      ]
     }
   ]
 };

@@ -642,7 +642,9 @@ const facultyPaperAudits = {
       "https://bigteacher-777.github.io/",
       "https://shuluoshu.github.io/",
       "https://lmd0311.github.io/",
-      "https://dblp.dagstuhl.de/pid/255/6274.html"
+      "https://dblp.dagstuhl.de/pid/255/6274.html",
+      "https://dblp.org/pid/255/6274.html",
+      "https://eddie0521.github.io/projects/iamflow/"
     ],
     "papers": [
       {
@@ -892,6 +894,41 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "ICLR 2025 作者公开稿逐名列华南理工大学及华中科技大学。首稿具名说明一位作者在华中科大访问时完成，属于高校合作。"
+      },
+      {
+        "title": "OneSparse: A Unified Framework for Sparse Activation Layers in Vision Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_OneSparse_A_Unified_Framework_for_Sparse_Activation_Layers_in_Vision_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "CVPR 正式稿列四位小红书作者，首位及通讯作者分别署华中科大，论文未具名学生的企业研发身份。公开代码地址暂不可用，不能据机构署名确认该关系。"
+      },
+      {
+        "title": "PointTPA: Dynamic Network Parameter Adaptation for 3D Scene Understanding",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_PointTPA_Dynamic_Network_Parameter_Adaptation_for_3D_Scene_Understanding_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者公开预印本首页列六位华中科大作者，正式 CVPR 书目一致，未见目标企业共同研发。"
+      },
+      {
+        "title": "Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously",
+        "url": "https://arxiv.org/html/2603.12262v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ECCV 2026 作者公开稿仅列华中科大和小米 MiLM Plus，小米不在目标企业名单。"
+      },
+      {
+        "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+        "url": "https://arxiv.org/html/2607.08772v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首次公开稿逐名列华中科技大学作者，没有目标企业署名。"
+      },
+      {
+        "title": "Unified Trajectory Matching Policy Optimization: Diverse T2I Generation and VLA Generalization",
+        "url": "https://arxiv.org/html/2609.34688v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者单位为高校、中科院研究所和范围外的 Frontis.AI，未见目标企业作者。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -16256,7 +16293,9 @@ const facultyPaperAudits = {
       "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm",
       "https://dblp.dagstuhl.de/pid/255/6274.html",
       "https://bigteacher-777.github.io/",
-      "https://arxiv.org/pdf/2109.01291"
+      "https://arxiv.org/pdf/2109.01291",
+      "https://dblp.org/pid/255/6274.html",
+      "https://eddie0521.github.io/projects/iamflow/"
     ],
     "papers": [
       {
@@ -16475,6 +16514,55 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "no-evidence",
         "note": "Elsevier 正式卷 151（2024）与 2021 预印本为同一成果。原文作者单位包括华中农业大学、华中科技大学与牛津大学，未见目标企业科研参与。"
+      },
+      {
+        "title": "Divide and Conquer: Decoupled Representation Alignment for Multimodal World Models",
+        "url": "https://arxiv.org/pdf/2605.01896",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ECCV 2026 作者公开稿中 Jun Huang 和 Jianlou Si 署阿里巴巴，梁定康为华中科大通讯，导师和学生资料也确认同期指导华中科大作者 Xin Zhou。未查到 Xin Zhou 或其他在读学生通过该企业开展本项研发的具名证据。"
+      },
+      {
+        "title": "Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory",
+        "url": "https://eddie0521.github.io/projects/iamflow/",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "作者项目主页逐名列腾讯优图及浙江大学、华中科大、上交的作者。第一作者本人履历确认浙江大学在读，缺其参与这项腾讯研究的具名证据，也未查到梁定康在同期对该生指导。"
+      },
+      {
+        "title": "OneSparse: A Unified Framework for Sparse Activation Layers in Vision Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_OneSparse_A_Unified_Framework_for_Sparse_Activation_Layers_in_Vision_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "CVPR 正式稿列四位小红书作者，首位及通讯作者分别署华中科大，论文未具名学生的企业研发身份。公开代码地址暂不可用，不能据机构署名确认该关系。"
+      },
+      {
+        "title": "PointTPA: Dynamic Network Parameter Adaptation for 3D Scene Understanding",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_PointTPA_Dynamic_Network_Parameter_Adaptation_for_3D_Scene_Understanding_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者公开预印本首页列六位华中科大作者，正式 CVPR 书目一致，未见目标企业共同研发。"
+      },
+      {
+        "title": "Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously",
+        "url": "https://arxiv.org/html/2603.12262v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ECCV 2026 作者公开稿仅列华中科大和小米 MiLM Plus，小米不在目标企业名单。"
+      },
+      {
+        "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+        "url": "https://arxiv.org/html/2607.08772v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首次公开稿逐名列华中科技大学作者，没有目标企业署名。"
+      },
+      {
+        "title": "Unified Trajectory Matching Policy Optimization: Diverse T2I Generation and VLA Generalization",
+        "url": "https://arxiv.org/html/2609.34688v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者单位为高校、中科院研究所和范围外的 Frontis.AI，未见目标企业作者。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
