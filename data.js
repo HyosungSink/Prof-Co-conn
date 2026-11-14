@@ -15634,6 +15634,613 @@ const survey = {
         ]
       ],
       "evidence": "小红书团队的发布项目清单具名列出孙智超作为 IVC-Prune 首位作者，企业维护的公开项目与他在小红书 AllSpark 研究实习时间相符。正式论文由在读博士孙智超、武大导师许永超以及小红书研究者 Xu Tang 共同完成。"
+    },
+    {
+      "id": "pointslong-tencent-sjtu-vtrqj4gaaaaj",
+      "paperId": "arxiv:2604.11627",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "谢伟迪 · Weidi Xie",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/xieweidi"
+      ],
+      "employee": [
+        "柳源 · Yuan Liu",
+        "公开任职履历自述为腾讯微信 AI 高级研究员，主页记录自 2024 年起发布 POINTS 系列；论文以腾讯微信 AI 署名。",
+        "https://yuanliuuuuuu.github.io/"
+      ],
+      "student": [
+        "Yikun Liu",
+        "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。CVPR 正式版列其为具名核心贡献者，同时署交大和腾讯微信 AI，项目页和企业团队仓库佐证同项参与。",
+        "https://code-kunkun.github.io/"
+      ],
+      "title": "POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs",
+      "short": "POINTS-Long",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_POINTS-Long_Adaptive_Dual-Mode_Visual_Reasoning_in_MLLMs_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2604.11627"
+        ],
+        [
+          "POINTS-Long 项目页",
+          "https://anakin-skywalker-joseph.github.io/POINTS-Long-Webpage/"
+        ],
+        [
+          "腾讯项目仓库",
+          "https://github.com/Tencent/POINTS-Seeker"
+        ]
+      ],
+      "evidence": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。CVPR 正式版列其为具名核心贡献者，同时署交大和腾讯微信 AI，项目页和企业团队仓库佐证同项参与。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yikun Liu 的学术主页具名确认谢伟迪为共同博士生导师，谢伟迪在本文具名署名。",
+        "https://code-kunkun.github.io/"
+      ]
+    },
+    {
+      "id": "pointsseeker-tencent-sjtu-vtrqj4gaaaaj",
+      "paperId": "arxiv:2604.14029",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "谢伟迪 · Weidi Xie",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/xieweidi"
+      ],
+      "employee": [
+        "柳源 · Yuan Liu",
+        "公开任职履历自述为腾讯微信 AI 高级研究员，主页记录自 2024 年起发布 POINTS 系列；论文以腾讯微信 AI 署名。",
+        "https://yuanliuuuuuu.github.io/"
+      ],
+      "student": [
+        "Yikun Liu",
+        "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。本人主页列 POINTS-Seeker 为技术报告及本人并列第一作者成果；同一模型及精确论文编号由腾讯账号正式发布，腾讯微信 AI 柳源为另一并列第一作者及通讯作者。",
+        "https://code-kunkun.github.io/"
+      ],
+      "title": "POINTS-Seeker: An Open Recipe for Multimodal Search Agents with Visual Memory Management",
+      "short": "POINTS-Seeker",
+      "date": "2026-07",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2604.14029",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2604.14029"
+        ],
+        [
+          "学生署名的具体技术项目",
+          "https://code-kunkun.github.io/POINTS-Seeker/"
+        ],
+        [
+          "腾讯发布的同一模型",
+          "https://huggingface.co/tencent/POINTS-Seeker"
+        ]
+      ],
+      "evidence": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。本人主页列 POINTS-Seeker 为技术报告及本人并列第一作者成果；同一模型及精确论文编号由腾讯账号正式发布，腾讯微信 AI 柳源为另一并列第一作者及通讯作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yikun Liu 的学术主页具名确认谢伟迪为共同博士生导师，谢伟迪在本文具名署名。",
+        "https://code-kunkun.github.io/"
+      ]
+    },
+    {
+      "id": "mimflow-alibaba-nju-heun8pcaaaaj",
+      "paperId": "arxiv:2606.26016",
+      "company": "阿里巴巴",
+      "team": "阿里妈妈",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "王利民 · Limin Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.nju.edu.cn/2f/cc/c2639a274380/pagem.htm"
+      ],
+      "employee": [
+        "葛铁铮 · Tiezheng Ge",
+        "VALSE 2025 官方会议手册列其为阿里妈妈企业宣讲人；同一时期为阿里妈妈视觉生成方向的具名实习导师；原文具名署阿里巴巴。",
+        "https://valser.org/2025/static/VALSE2025_HYSC.pdf"
+      ],
+      "student": [
+        "陈阳 · Yang Chen",
+        "陈阳自述 2023 年起攻读南京大学博士、2025 年 3 月至 2026 年 4 月在阿里妈妈从事图像生成。本人列此论文为一作成果，原文及官方实现明确陈阳同时以南京大学和阿里巴巴署名。",
+        "https://y-sisyphus.github.io/"
+      ],
+      "title": "MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation",
+      "short": "MIMFlow",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2606.26016",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2606.26016"
+        ],
+        [
+          "具名双署名项目和官方实现",
+          "https://github.com/MCG-NJU/MIMFlow"
+        ],
+        [
+          "ECCV 2026 官方录用名单",
+          "https://eccv.ecva.net/Conferences/2026/AcceptedPapers"
+        ],
+        [
+          "同期阿里妈妈任职与研究指导资料",
+          "https://zhendongwang6.github.io/images/CV_ZhendongWang.pdf"
+        ]
+      ],
+      "evidence": "陈阳自述 2023 年起攻读南京大学博士、2025 年 3 月至 2026 年 4 月在阿里妈妈从事图像生成。本人列此论文为一作成果，原文及官方实现明确陈阳同时以南京大学和阿里巴巴署名。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "陈阳的主页具名确认王利民是其南京大学博士导师及原文共同作者。",
+        "https://y-sisyphus.github.io/"
+      ]
+    },
+    {
+      "id": "timechat-captioner-kuaishou-pku-tpxiqkyaaaaj",
+      "paperId": "arxiv:2602.08711",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "孙栩 · Xu Sun",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1078/1673.htm"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "张远行的公开履历说明 2024 年起任职快手，现为可灵多模态理解团队负责人；原文以 Kling 团队署名。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "姚林丽 · Linli Yao",
+        "姚林丽是北京大学在读博士，履历记录 2024 年 12 月至 2025 年 12 月在快手可灵实习、导师张远行；本项发表于实习结束后，原文明确其为一作并以北京大学及快手可灵共同署名。",
+        "https://yaolinli.github.io/"
+      ],
+      "title": "TimeChat-Captioner: Scripting Multi-Scene Videos with Time-Aware and Structural Audio-Visual Captions",
+      "short": "TimeChat-Captioner",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yao26o/yao26o.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/yao26o.html"
+        ],
+        [
+          "项目及作者分属机构",
+          "https://timechat-captioner.github.io/"
+        ]
+      ],
+      "evidence": "姚林丽是北京大学在读博士，履历记录 2024 年 12 月至 2025 年 12 月在快手可灵实习、导师张远行；本项发表于实习结束后，原文明确其为一作并以北京大学及快手可灵共同署名。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "姚林丽的履历具名确认其自 2023 年 9 月起由北京大学的孙栩指导博士研究，孙栩是本文通讯作者。",
+        "https://yaolinli.github.io/"
+      ]
+    },
+    {
+      "id": "timechat-online-kuaishou-pku-tpxiqkyaaaaj",
+      "paperId": "arxiv:2504.17343",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "孙栩 · Xu Sun",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1078/1673.htm"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "张远行的公开履历说明 2024 年起任职快手，现为可灵多模态理解团队负责人；原文以 Kling 团队署名。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "姚林丽 · Linli Yao",
+        "姚林丽首发该项目时正在快手可灵实习；快手导师张远行在其公开科研履历明确将该具名成果列入所领导团队的项目列表，两方项目页均列姚林丽为共同第一作者。",
+        "https://yaolinli.github.io/"
+      ],
+      "title": "TimeChat-Online: 80% Visual Tokens are Naturally Redundant in Streaming Videos",
+      "short": "TimeChat-Online",
+      "date": "2025-10",
+      "venue": "ACM Multimedia 2025",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2504.17343",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3746027.3754839"
+        ],
+        [
+          "快手项目和具名学生",
+          "https://timechat-online.github.io/"
+        ]
+      ],
+      "evidence": "姚林丽首发该项目时正在快手可灵实习；快手导师张远行在其公开科研履历明确将该具名成果列入所领导团队的项目列表，两方项目页均列姚林丽为共同第一作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "姚林丽的履历具名确认其自 2023 年 9 月起由北京大学的孙栩指导博士研究；原文有孙栩署名。",
+        "https://yaolinli.github.io/"
+      ]
+    },
+    {
+      "id": "vedit-alibaba-ruc-8ukybcmaaaaj",
+      "paperId": "arxiv:2305.08389",
+      "company": "阿里巴巴",
+      "team": "阿里妈妈",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "金琴 · Qin Jin",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm"
+      ],
+      "employee": [
+        "葛铁铮 · Tiezheng Ge",
+        "VALSE 2025 官方会议手册列其为阿里妈妈企业宣讲人；同一时期为阿里妈妈视觉生成方向的具名实习导师；原文具名署阿里巴巴。",
+        "https://valser.org/2025/static/VALSE2025_HYSC.pdf"
+      ],
+      "student": [
+        "姚林丽 · Linli Yao",
+        "2023 年 5 月最早的公开稿将一作姚林丽同时列为中国人民大学和阿里巴巴的作者；此时她正在人大读硕士，并由阿里妈妈实习导师葛铁铮指导，后者也在同一篇署名。2024 年正式版更名并更新了学生署名。",
+        "https://yaolinli.github.io/"
+      ],
+      "title": "Edit As You Wish: Video Caption Editing with Multi-grained User Control",
+      "short": "Edit As You Wish",
+      "date": "2024-10",
+      "venue": "ACM Multimedia 2024",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2305.08389v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3664647.3681590"
+        ],
+        [
+          "最终署名与题名版本",
+          "https://arxiv.org/abs/2305.08389"
+        ],
+        [
+          "同期企业任职材料",
+          "https://www.ccf.org.cn/Activities/ConferenceS/CTO_Club/NEW/2023-09-15/795834.shtml"
+        ]
+      ],
+      "evidence": "2023 年 5 月最早的公开稿将一作姚林丽同时列为中国人民大学和阿里巴巴的作者；此时她正在人大读硕士，并由阿里妈妈实习导师葛铁铮指导，后者也在同一篇署名。2024 年正式版更名并更新了学生署名。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "姚林丽的履历具名确认金琴为其 2020 年 9 月至 2023 年 6 月的人大硕士导师；该论文初版的唯一通讯作者正是金琴。",
+        "https://yaolinli.github.io/"
+      ]
+    },
+    {
+      "id": "ant-edicho-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "Qingyan Bai",
+        "港科大在读博士，蚂蚁集团研究实习生，论文第一作者。",
+        "https://bqy.info/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人简历与实验室公开成员表核对出陈启峰为其港科大博士导师。",
+        "https://bqy.info/"
+      ],
+      "employee": [
+        "沈瑜骏 · Yujun Shen",
+        "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "Edicho: Consistent Image Editing in the Wild",
+      "short": "Edicho",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "图像与视频生成",
+      "paper": "https://doi.org/10.1109/ICCV51701.2025.01417",
+      "extra": [
+        [
+          "校方课题组博士名录",
+          "https://cqf.io/lab.html"
+        ],
+        [
+          "ICCV 首页脚注和署名",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Bai_Edicho_Consistent_Image_Editing_in_the_Wild_ICCV_2025_paper.pdf"
+        ],
+        [
+          "蚂蚁研究官方项目",
+          "https://github.com/ant-research/edicho"
+        ]
+      ],
+      "evidence": "ICCV 正文在第一作者 Qingyan Bai 处加星号，首页脚注明确该工作在蚂蚁实习期间完成；该生主页和实验室资料核实同期师生关系。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+    },
+    {
+      "id": "ant-magicquill-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "Zichen Liu",
+        "港科大 2023 年起在读博士，2024 年 6 月起蚂蚁集团研究实习生，第一作者。",
+        "https://zliucz.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人简历与实验室公开成员表核对出陈启峰为其港科大博士导师。",
+        "https://zliucz.github.io/"
+      ],
+      "employee": [
+        "沈瑜骏 · Yujun Shen",
+        "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "MagicQuill: An Intelligent Interactive Image Editing System",
+      "short": "MagicQuill",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MagicQuill_An_Intelligent_Interactive_Image_Editing_System_CVPR_2025_paper.pdf",
+      "extra": [
+        [
+          "校方课题组博士名录",
+          "https://cqf.io/lab.html"
+        ],
+        [
+          "蚂蚁研究官方项目",
+          "https://github.com/ant-research/MagicQuill"
+        ],
+        [
+          "具名成果页",
+          "https://magicquill.art/"
+        ]
+      ],
+      "evidence": "学生在本人主页明示领衔该项目，列同期蚂蚁实习和指导教师。正式论文明确获蚂蚁研究实习项目支持，第一作者双重署名，蚂蚁保有具名的官方实现。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+    },
+    {
+      "id": "ant-magicquill-v2-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "Zichen Liu",
+        "港科大 2023 年起在读博士，2024 年 6 月起蚂蚁集团研究实习生，第一作者。",
+        "https://zliucz.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人简历与实验室公开成员表核对出陈启峰为其港科大博士导师。",
+        "https://zliucz.github.io/"
+      ],
+      "employee": [
+        "沈瑜骏 · Yujun Shen",
+        "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "MagicQuill V2: Precise and Interactive Image Editing with Layered Visual Cues",
+      "short": "MagicQuill V2",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_MagicQuill_V2_Precise_and_Interactive_Image_Editing_with_Layered_Visual_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "校方课题组博士名录",
+          "https://cqf.io/lab.html"
+        ],
+        [
+          "具名第二代项目代码",
+          "https://github.com/zliucz/MagicQuillV2"
+        ]
+      ],
+      "evidence": "第二代为新增分层处理模块的独立 CVPR 2026 论文。本人的实习履历和项目资料称其领衔第二代，论文致谢明确指出 Ant Group Research Intern Program，记录第一作者双重机构并列出两位指导角色作者。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+    },
+    {
+      "id": "ant-manganinja-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "郑嘉亮 · Ka Leong Cheng",
+        "2025 年获港科大博士学位，2023–2025 年在蚂蚁研究实习；同篇共同第一作者。",
+        "https://felixcheng97.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人简历与实验室公开成员表核对出陈启峰为其港科大博士导师。",
+        "https://felixcheng97.github.io/"
+      ],
+      "employee": [
+        "沈瑜骏 · Yujun Shen",
+        "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "MangaNinja: Line Art Colorization with Precise Reference Following",
+      "short": "MangaNinja",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MangaNinja_Line_Art_Colorization_with_Precise_Reference_Following_CVPR_2025_paper.pdf",
+      "extra": [
+        [
+          "校方课题组博士名录",
+          "https://cqf.io/lab.html"
+        ],
+        [
+          "具名项目标注各作者企业",
+          "https://johanan528.github.io/MangaNinjia/"
+        ]
+      ],
+      "evidence": "正式论文致谢分别写明阿里通义和蚂蚁研究实习计划支持；其第二顺位共同一作郑嘉亮在论文和具名项目页署港科大及蚂蚁，与其本人同期蚂蚁实习履历一致。这里核实郑嘉亮及蚂蚁一侧。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+    },
+    {
+      "id": "ant-depthlab-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "郑嘉亮 · Ka Leong Cheng",
+        "2025 年获港科大博士学位，2023–2025 年在蚂蚁研究实习；同篇共同第一作者。",
+        "https://felixcheng97.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人简历与实验室公开成员表核对出陈启峰为其港科大博士导师。",
+        "https://felixcheng97.github.io/"
+      ],
+      "employee": [
+        "沈瑜骏 · Yujun Shen",
+        "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "DepthLab: From Partial to Complete",
+      "short": "DepthLab",
+      "date": "2024-12",
+      "venue": "arXiv 预印本",
+      "area": "图像与视频生成",
+      "paper": "https://arxiv.org/html/2412.18153",
+      "extra": [
+        [
+          "校方课题组博士名录",
+          "https://cqf.io/lab.html"
+        ],
+        [
+          "蚂蚁研究官方代码",
+          "https://github.com/robbyant-research/DepthLab"
+        ],
+        [
+          "同篇署名项目",
+          "https://johanan528.github.io/depthlab_web/"
+        ]
+      ],
+      "evidence": "郑嘉亮为共同第一作者，2024 年公开报告和技术项目把他标作港科大与蚂蚁双重署名；蚂蚁研究官方仓库具名发布这一具体模型。本人的实习时间与论文和项目发布一致。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+    },
+    {
+      "id": "ant-causalcine-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "Zichen Liu",
+        "港科大 2023 年起在读博士，2024 年 6 月起蚂蚁集团研究实习生，共同第一作者。",
+        "https://zliucz.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人简历与实验室公开成员表核对出陈启峰为其港科大博士导师。",
+        "https://zliucz.github.io/"
+      ],
+      "employee": [
+        "沈瑜骏 · Yujun Shen",
+        "2022 年 4 月起任蚂蚁研究科学家，2024 年 7 月起任高级资深研究科学家；同篇蚂蚁作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives",
+      "short": "CausalCine",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "图像与视频生成",
+      "paper": "https://arxiv.org/html/2605.12496",
+      "extra": [
+        [
+          "校方课题组博士名录",
+          "https://cqf.io/lab.html"
+        ],
+        [
+          "项目及研究贡献",
+          "https://yihao-meng.github.io/CausalCine/"
+        ]
+      ],
+      "evidence": "该生履历明确表示参与这篇论文的模型研发，并由本人于 2026 年 5 月列出项目发布；正式论文及作者项目页明确同一研究项目中他以两家机构署名，导师陈启峰与蚂蚁研究全职科研人员沈瑜骏同篇。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+    },
+    {
+      "id": "bytedance-illada-ruc-li",
+      "company": "字节跳动",
+      "team": "Seed 基础模型团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院副教授，负责生成模型研究。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "Yong Shan",
+        "本人职业资料确认字节跳动 Seed 任职并说明其参与多个基础模型；同篇论文署 ByteDance Seed。",
+        "https://cn.linkedin.com/in/%E5%8B%87-%E5%8D%95-8a821b120/en"
+      ],
+      "student": [
+        "聂燊 · Shen Nie",
+        "2022 年起在中国人民大学攻读博士；本人履历记载 2025 年 3 月起在字节跳动担任 TopSeed 研究实习生。",
+        "https://nieshenx.github.io/"
+      ],
+      "title": "Improved Large Language Diffusion Models",
+      "short": "iLLaDA",
+      "date": "2026-06-24",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2606.25331v1",
+      "evidence": "论文首页将字节跳动 Seed 实习脚注明确标在第一作者聂燊姓名后；校内导师李崇轩是本篇通讯作者，Seed 基础模型团队人员 Yong Shan 在本篇署字节跳动。",
+      "advising": [
+        "校内导师",
+        "聂燊主页列出中国人民大学博士阶段学业由李崇轩指导。",
+        "https://nieshenx.github.io/"
+      ],
+      "extra": [
+        [
+          "企业研究者的 Seed 项目履历",
+          "https://github.com/SkyAndCloud"
+        ]
+      ],
+      "paperId": "arxiv:2606.25331"
     }
   ]
 };

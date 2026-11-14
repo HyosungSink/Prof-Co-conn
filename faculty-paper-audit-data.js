@@ -657,7 +657,10 @@ const facultyPaperAudits = {
       "https://yyyouy.github.io/",
       "https://www.newx.sg/scholar/cAz9PToAAAAJ",
       "https://sites.google.com/site/leeplus/",
-      "https://dblp.org/pid/161/9965.html"
+      "https://dblp.org/pid/161/9965.html",
+      "https://zhenxuan00.github.io/",
+      "https://nieshenx.github.io/",
+      "https://cn.linkedin.com/in/%E5%8B%87-%E5%8D%95-8a821b120/en"
     ],
     "papers": [
       {
@@ -701,9 +704,21 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf?id=68DGlhlvD9",
         "outcome": "no-evidence",
         "note": "作者单位为港科大、人大、国科大和上海人工智能实验室，未见本调查口径内企业合作证据。"
+      },
+      {
+        "title": "Improved Large Language Diffusion Models",
+        "url": "https://arxiv.org/pdf/2606.25331v1",
+        "outcome": "confirmed",
+        "note": "具名 Seed 实习脚注、本人学籍与导师、同期企业作者证据齐全。"
+      },
+      {
+        "title": "Consistent Diffusion Language Models",
+        "url": "https://arxiv.org/html/2605.00161v1",
+        "outcome": "no-evidence",
+        "note": "论文标注实习单位为 Microsoft，在本项目企业名单之外。"
       }
     ],
-    "note": "已部分梳理本组扩散语言模型方向，其他研究方向仍需继续。"
+    "note": "部分：重点核对实验室几位学生在百度、蚂蚁及字节跳动阶段的公开成果。"
   },
   "FbJrKzkAAAAJ": {
     "from": "2023-01-01",
@@ -1978,7 +1993,27 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2307.06940",
       "https://arxiv.org/html/2310.07702",
       "https://arxiv.org/html/2406.01900",
-      "https://ojs.aaai.org/index.php/AAAI/article/download/28206/28408"
+      "https://ojs.aaai.org/index.php/AAAI/article/download/28206/28408",
+      "https://doi.org/10.1109/ICCV51701.2025.01417",
+      "https://bqy.info/",
+      "https://cqf.io/lab.html",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Bai_Edicho_Consistent_Image_Editing_in_the_Wild_ICCV_2025_paper.pdf",
+      "https://github.com/ant-research/edicho",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MagicQuill_An_Intelligent_Interactive_Image_Editing_System_CVPR_2025_paper.pdf",
+      "https://zliucz.github.io/",
+      "https://github.com/ant-research/MagicQuill",
+      "https://magicquill.art/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_MagicQuill_V2_Precise_and_Interactive_Image_Editing_with_Layered_Visual_CVPR_2026_paper.pdf",
+      "https://github.com/zliucz/MagicQuillV2",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MangaNinja_Line_Art_Colorization_with_Precise_Reference_Following_CVPR_2025_paper.pdf",
+      "https://felixcheng97.github.io/",
+      "https://johanan528.github.io/MangaNinjia/",
+      "https://arxiv.org/html/2412.18153",
+      "https://github.com/robbyant-research/DepthLab",
+      "https://johanan528.github.io/depthlab_web/",
+      "https://arxiv.org/html/2605.12496",
+      "https://yihao-meng.github.io/CausalCine/",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf"
     ],
     "papers": [
       {
@@ -2052,6 +2087,48 @@ const facultyPaperAudits = {
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/28206/28408",
         "outcome": "lead",
         "note": "具名腾讯实习脚注适用于当时在清华的 Yue Ma；该生同期主要导师 Xiu Li 的资格和证据链应另核。港科大何盈庆共同一作，但原文没将脚注附在其姓名处。"
+      },
+      {
+        "title": "Edicho: Consistent Image Editing in the Wild",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.01417",
+        "outcome": "confirmed",
+        "note": "ICCV 正文在第一作者 Qingyan Bai 处加星号，首页脚注明确该工作在蚂蚁实习期间完成；该生主页和实验室资料核实同期师生关系。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      },
+      {
+        "title": "MagicQuill: An Intelligent Interactive Image Editing System",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MagicQuill_An_Intelligent_Interactive_Image_Editing_System_CVPR_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "学生在本人主页明示领衔该项目，列同期蚂蚁实习和指导教师。正式论文明确获蚂蚁研究实成项目支持，第一作者双重署名，蚂蚁保有具名的官方实现。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      },
+      {
+        "title": "MagicQuill V2: Precise and Interactive Image Editing with Layered Visual Cues",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_MagicQuill_V2_Precise_and_Interactive_Image_Editing_with_Layered_Visual_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "第二代为新增分层处理模块的独立 CVPR 2026 论文。本人的实习履历和项目资料称其领衔第二代，论文致谢明确指出 Ant Group Research Intern Program，记录第一作者双重机构并列出两位指导角色作者。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      },
+      {
+        "title": "MangaNinja: Line Art Colorization with Precise Reference Following",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MangaNinja_Line_Art_Colorization_with_Precise_Reference_Following_CVPR_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文致谢分别写明阿里通义和蚂蚁研究实习计划支持；其第二顺位共同一作郑嘉亮在论文和具名项目页署港科大及蚂蚁，与其本人同期蚂蚁实习履历一致。这里核实郑嘉亮及蚂蚁一侧。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      },
+      {
+        "title": "DepthLab: From Partial to Complete",
+        "url": "https://arxiv.org/html/2412.18153",
+        "outcome": "confirmed",
+        "note": "郑嘉亮为共同第一作者，2024 年公开报告和技术项目把他标作港科大与蚂蚁双重署名；蚂蚁研究官方仓库具名发布这一具体模型。本人的实习时间与论文和项目发布一致。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      },
+      {
+        "title": "CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives",
+        "url": "https://arxiv.org/html/2605.12496",
+        "outcome": "confirmed",
+        "note": "该生履历明确表示参与这篇论文的模型研发，并由本人于 2026 年 5 月列出项目发布；正式论文及作者项目页明确同一研究项目中他以两家机构署名，导师陈启峰与蚂蚁研究全职科研人员沈瑜骏同篇。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+      },
+      {
+        "title": "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf",
+        "outcome": "lead",
+        "note": "Zichen Liu 与蚂蚁的同篇工作明确；博士导师陈启峰只出现在致谢部分，未共同署名。另查共同一作 Yihao Meng 的博士导师 Huamin Qu。"
       }
     ]
   },
@@ -2882,7 +2959,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://cs.nju.edu.cn/2f/cc/c2639a274380/pagem.htm",
-      "https://yi.fan/zh/"
+      "https://yi.fan/zh/",
+      "https://y-sisyphus.github.io/"
     ],
     "papers": [
       {
@@ -2890,6 +2968,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2607.20389",
         "outcome": "confirmed",
         "note": "许一凡自述 2023 年起在南京大学攻读博士、2025 年 10 月起在快手可灵实习；本论文首页标注并说明其主要工作在快手可灵团队实习期间完成。"
+      },
+      {
+        "title": "MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation",
+        "url": "https://arxiv.org/pdf/2606.26016",
+        "outcome": "confirmed",
+        "note": "陈阳自述 2023 年起攻读南京大学博士、2025 年 3 月至 2026 年 4 月在阿里妈妈从事图像生成。本人列此论文为一作成果，原文及官方实现明确陈阳同时以南京大学和阿里巴巴署名。"
+      },
+      {
+        "title": "Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37300/41262",
+        "outcome": "existing",
+        "note": "AAAI 正式版明确第一作者双署名南京大学与阿里巴巴；已在既有关系索引。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -3200,5 +3290,71 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已交叉核对部分武大与小红书联合成果及就读、指导、实习时间。其余书目待续。"
+  },
+  "Vtrqj4gAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/xieweidi",
+      "https://code-kunkun.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_POINTS-Long_Adaptive_Dual-Mode_Visual_Reasoning_in_MLLMs_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。CVPR 正式版列其为具名核心贡献者，同时署交大和腾讯微信 AI，项目页和企业团队仓库佐证同项参与。"
+      },
+      {
+        "title": "POINTS-Seeker: An Open Recipe for Multimodal Search Agents with Visual Memory Management",
+        "url": "https://arxiv.org/pdf/2604.14029",
+        "outcome": "confirmed",
+        "note": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。本人主页列 POINTS-Seeker 为技术报告及本人并列第一作者成果；同一模型及精确论文编号由腾讯账号正式发布，腾讯微信 AI 柳源为另一并列第一作者及通讯作者。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "tpXiQkYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1078/1673.htm",
+      "https://yaolinli.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "TimeChat-Captioner: Scripting Multi-Scene Videos with Time-Aware and Structural Audio-Visual Captions",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yao26o/yao26o.pdf",
+        "outcome": "confirmed",
+        "note": "姚林丽是北京大学在读博士，履历记录 2024 年 12 月至 2025 年 12 月在快手可灵实习、导师张远行；本项发表于实习结束后，原文明确其为一作并以北京大学及快手可灵共同署名。"
+      },
+      {
+        "title": "TimeChat-Online: 80% Visual Tokens are Naturally Redundant in Streaming Videos",
+        "url": "https://arxiv.org/pdf/2504.17343",
+        "outcome": "confirmed",
+        "note": "姚林丽首发该项目时正在快手可灵实习；快手导师张远行在其公开科研履历明确将该具名成果列入所领导团队的项目列表，两方项目页均列姚林丽为共同第一作者。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "8UkYbCMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/js2/260ab5295d334a67beb7620e931268b1.htm",
+      "https://yaolinli.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Edit As You Wish: Video Caption Editing with Multi-grained User Control",
+        "url": "https://arxiv.org/pdf/2305.08389v1",
+        "outcome": "confirmed",
+        "note": "2023 年 5 月最早的公开稿将一作姚林丽同时列为中国人民大学和阿里巴巴的作者；此时她正在人大读硕士，并由阿里妈妈实习导师葛铁铮指导，后者也在同一篇署名。2024 年正式版更名并更新了学生署名。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   }
 };
