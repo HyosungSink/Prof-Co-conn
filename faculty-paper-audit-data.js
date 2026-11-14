@@ -1571,7 +1571,17 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2512.16905",
       "https://github.com/KlingAIResearch/Alchemist",
       "https://arxiv.org/pdf/2608.13552",
-      "https://kxding.github.io/project/PlayWorld/"
+      "https://kxding.github.io/project/PlayWorld/",
+      "https://proceedings.mlr.press/v306/huang26bm.html",
+      "https://huangrh99.github.io/",
+      "https://wujie1010.github.io/",
+      "https://arxiv.org/html/2605.12495v1",
+      "https://arxiv.org/abs/2607.11886",
+      "https://arxiv.org/html/2607.11886v1",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Hint2Gen_Bridging_Understanding_and_Generation_via_Code-structured_Hints_CVPR_2026_paper.pdf",
+      "https://sg.linkedin.com/in/cypw",
+      "https://arxiv.org/abs/2509.20427",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Temporal_Equilibrium_MeanFlow_Bridging_the_Scale_Gap_for_One-Step_Generation_CVPR_2026_paper.pdf"
     ],
     "papers": [
       {
@@ -1594,9 +1604,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "VideoAnydoor: High-fidelity Video Object Insertion with Precise Motion Control",
-        "url": "https://hub.hku.hk/bitstream/10722/370044/1/content.pdf?accept=1",
+        "url": "https://doi.org/10.1145/3721238.3730647",
         "outcome": "confirmed",
-        "note": "港大保存的 SIGGRAPH 正式论文实名注明由 Yuanpeng Tu 在阿里巴巴达摩院实习期间完成。其本人主页证实在港大读博和导师赵恒爽，同篇作者 Hao Luo 的同期任职资料与达摩院署名一致。"
+        "note": "正式出版原文以具名脚注把第一作者 Yuanpeng Tu 的企业实习对应到本篇，且导师赵恒爽在同一作者表。学生及港大实验室明确具名导师和同期博士在读；企业合著者的正式员工岗位由职业档案或出版社作者简介核实。"
       },
       {
         "title": "PhysMaster: Mastering Physical Representation for Video Generation via Reinforcement Learning",
@@ -1669,6 +1679,30 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2608.13552",
         "outcome": "confirmed",
         "note": "论文首页 † 脚注明确该第一作者的工作在快手可灵团队完成。丁凯欣及港大方面均明确其博士导师赵恒爽且二人同篇署名。在职技术负责人 Xin Tao 同篇署名，个人履历确认直属企业团队。"
+      },
+      {
+        "title": "AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in Unified Multimodal Models via Decompositional Verifiable Reward",
+        "url": "https://proceedings.mlr.press/v306/huang26bm.html",
+        "outcome": "lead",
+        "note": "第一作者、导师和字节 Seed 员工同篇署名；第一作者的主页同列项目和 2025 年 9 月入职字节 Seed 研究实习。但目前仅见校方署名，论文未把他的实习工作单独对应到这两篇项目，继续找作者履历、企业公开材料或实验室项目记录。"
+      },
+      {
+        "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+        "url": "https://arxiv.org/abs/2607.11886",
+        "outcome": "lead",
+        "note": "第一作者、导师和字节 Seed 员工同篇署名；第一作者的主页同列项目和 2025 年 9 月入职字节 Seed 研究实习。但目前仅见校方署名，论文未把他的实习工作单独对应到这两篇项目，继续找作者履历、企业公开材料或实验室项目记录。"
+      },
+      {
+        "title": "Hint2Gen: Bridging Understanding and Generation via Code-structured Hints",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Hint2Gen_Bridging_Understanding_and_Generation_via_Code-structured_Hints_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "正式出版原文以具名脚注把第一作者 Yuanpeng Tu 的企业实习对应到本篇，且导师赵恒爽在同一作者表。学生及港大实验室明确具名导师和同期博士在读；企业合著者的正式员工岗位由职业档案或出版社作者简介核实。"
+      },
+      {
+        "title": "Temporal Equilibrium MeanFlow: Bridging the Scale Gap for One-Step Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Temporal_Equilibrium_MeanFlow_Bridging_the_Scale_Gap_for_One-Step_Generation_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "正式出版原文以具名脚注把第一作者 Yuanpeng Tu 的企业实习对应到本篇，且导师赵恒爽在同一作者表。学生及港大实验室明确具名导师和同期博士在读；企业合著者的正式员工岗位由职业档案或出版社作者简介核实。"
       }
     ]
   },
@@ -2877,7 +2911,16 @@ const facultyPaperAudits = {
       "https://guoqincode.github.io/",
       "https://tech.meituan.com/2026/06/29/ICML-2026.html",
       "https://arxiv.org/html/2606.30332",
-      "https://arxiv.org/html/2507.02713"
+      "https://arxiv.org/html/2507.02713",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.html",
+      "https://harlanhong.github.io/Projects/Resume/FatingHong_CV.pdf",
+      "https://cse.hkust.edu.hk/pg/defenses/S26/fhongac-06-05-2026.html",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_CVT-xRF_Contrastive_In-Voxel_Transformer_for_3D_Consistent_Radiance_Fields_from_CVPR_2024_paper.pdf",
+      "https://racheltechie.github.io/",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dan-xu-danxu",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/danxu",
+      "https://zhongyingji.github.io/CVT-xRF/",
+      "https://zhongyingji.github.io/"
     ],
     "papers": [
       {
@@ -2897,6 +2940,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2507.02713",
         "outcome": "lead",
         "note": "同篇可见腾讯署名，Qin Guo 在港科大读博前后学籍及学校指导需要与项目实际进行日期核对，未找到此次腾讯实习证据。"
+      },
+      {
+        "title": "Audio-visual Controlled Video Diffusion with Masked Selective State Spaces Modeling for Natural Talking Head Generation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.html",
+        "outcome": "existing",
+        "note": "作品已在关系库。学生履历把本篇列为 2024–25 年腾讯混元实习项目，港科大答辩确认 Dan Xu 指导本篇，腾讯企业导师 Qinglin Lu 同篇。"
+      },
+      {
+        "title": "CVT-xRF: Contrastive In-Voxel Transformer for 3D Consistent Radiance Fields from Sparse Inputs",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_CVT-xRF_Contrastive_In-Voxel_Transformer_for_3D_Consistent_Radiance_Fields_from_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "论文署名列港科大研究生、导师与华为高级研究员。华为高级研究员自己的公开研究与实习名录同时给出该论文和该实习学生；港科大正式教师档案具名 Yingji Zhong。"
       }
     ]
   },
@@ -3434,7 +3489,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/wangyanfeng",
-      "https://code-kunkun.github.io/"
+      "https://code-kunkun.github.io/",
+      "https://sunarker.github.io/group.html"
     ],
     "papers": [
       {
@@ -3472,6 +3528,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2602.06391",
         "outcome": "no-evidence",
         "note": "有同一学生和腾讯作者，但其具名上海交大博士导师王延峰、谢维迪和姚江超均未署名。"
+      },
+      {
+        "title": "GenMask: Adapting DiT for Segmentation via Direct Mask Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_GenMask_Adapting_DiT_for_Segmentation_via_Direct_Mask_Generation_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "Yuhuan Yang 为上海交大博士生；会议论文首页脚注明确第一作者在阿里巴巴实习期间完成本项研究。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -4428,7 +4490,8 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/78/3967.html",
       "https://zhanglk9.github.io/",
       "https://chen-xw.github.io/",
-      "https://xuhangcn.github.io/"
+      "https://xuhangcn.github.io/",
+      "https://kun-xiang.github.io/"
     ],
     "papers": [
       {
@@ -4484,6 +4547,13 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TPAMI.2026.3745877",
         "note": "同篇有引望员工与中山大学指导教师，且学生公开实习期吻合；尚缺对本篇项目的具体企业职责来源。",
         "outcome": "lead"
+      },
+      {
+        "title": "RynnUnify: Towards Unified Embodied Brain",
+        "url": "https://arxiv.org/html/2610.32965v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "达摩院正式项目与 arXiv 原文均将项鲲列为核心作者、Xin Li 为项目负责人，梁小丹共同署名。学生本人履历明确区分其博士导师和企业实习导师。"
       }
     ],
     "note": "已逐篇梳理部分自动定理证明与多模态成果；其余公开书目仍在核查。"
@@ -4841,7 +4911,10 @@ const facultyPaperAudits = {
       "https://doi.org/10.1109/TIP.2026.3678087",
       "https://arxiv.org/html/2312.12379",
       "https://aclanthology.org/2025.emnlp-main.1317.pdf",
-      "https://aclanthology.org/2025.emnlp-main.1317/"
+      "https://aclanthology.org/2025.emnlp-main.1317/",
+      "https://openreview.net/forum?id=i8iQUM33s",
+      "https://arxiv.org/abs/2402.05382",
+      "https://valser.org/2023/static/VALSE2023_HYSC.pdf"
     ],
     "papers": [
       {
@@ -4885,6 +4958,12 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.emnlp-main.1317.pdf",
         "outcome": "confirmed",
         "note": "论文署名、在读博士的项目列表与公开研究履历，以及华为研究员公开实习名录，分别对应此篇合作、研究实习和企业员工身份。学生学术主页明确 James Kwok 为博士导师。"
+      },
+      {
+        "title": "Task-customized Masked Autoencoder via Mixture of Cluster-conditional Experts",
+        "url": "https://openreview.net/forum?id=i8iQUM33s",
+        "outcome": "confirmed",
+        "note": "同期 VALSE 官方展示名单将本篇归入华为诺亚项目，刘智立履历将其列为在港科大攻读博士且在华为诺亚任实习生期间的成果，主页具名 James Kwok 博士指导。华为员工 Lanqing Hong 同篇且公开列刘智立为实习成员。"
       }
     ]
   },
@@ -5383,7 +5462,8 @@ const facultyPaperAudits = {
       "https://cse.sysu.edu.cn/teacher/ZhengWeishi",
       "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html",
       "https://lyman-smoker.github.io/",
-      "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml"
+      "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml",
+      "https://gaoypeng.github.io/"
     ],
     "papers": [
       {
@@ -5427,7 +5507,92 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "首作者 Yuan-Ming Li 的原文双署中山大学与阿里通义，研究内容与其同期公开实习项目（统一文本动作模型）一致；其博士导师郑伟诗与同期阿里作者杨琪泽共同署名。郑伟诗本人也将其标为该项目中所指导的中大学生。"
+      },
+      {
+        "title": "DreamView: Injecting View-Specific Text Guidance into Text-to-3D Generation",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03660.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "正式稿首页具名注明严俊楷与 Yipeng Gao 在阿里巴巴实习期间完成论文；导师书目确认后者的科研指导关系，学生本人主页确认 2024 年中山大学硕士毕业。"
       }
     ]
+  },
+  "amkOUMoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openreview.net/profile?id=~Jiesong_Lian1",
+      "http://faculty.hust.edu.cn/haoyixue1/zh_CN/index.htm",
+      "http://faculty.hust.edu.cn/hulong/zh_CN/index/585065/list/index.htm",
+      "https://zixiangzhou916.github.io/",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.pdf",
+      "https://arxiv.org/pdf/2605.07800v2"
+    ],
+    "papers": [
+      {
+        "title": "SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "学生公开履历明确写两名博士生导师和在读年份；原文具名标注腾讯混元实习；同篇全站只算一条。"
+      },
+      {
+        "title": "SARA: Semantically Adaptive Relational Alignment for Video Diffusion Models",
+        "url": "https://arxiv.org/pdf/2605.07800v2",
+        "outcome": "confirmed",
+        "note": "学生公开履历明确写两名博士生导师和在读年份；原文具名标注腾讯混元实习；同篇全站只算一条。"
+      }
+    ],
+    "note": "目前核对 Jiesong Lian 的腾讯合作项目，未覆盖教师全部论文。"
+  },
+  "SLHwj-oAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openreview.net/profile?id=~Jiesong_Lian1",
+      "http://faculty.hust.edu.cn/haoyixue1/zh_CN/index.htm",
+      "http://faculty.hust.edu.cn/hulong/zh_CN/index/585065/list/index.htm",
+      "https://zixiangzhou916.github.io/",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.pdf",
+      "https://arxiv.org/pdf/2605.07800v2"
+    ],
+    "papers": [
+      {
+        "title": "SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "学生公开履历明确写两名博士生导师和在读年份；原文具名标注腾讯混元实习；同篇全站只算一条。"
+      },
+      {
+        "title": "SARA: Semantically Adaptive Relational Alignment for Video Diffusion Models",
+        "url": "https://arxiv.org/pdf/2605.07800v2",
+        "outcome": "confirmed",
+        "note": "学生公开履历明确写两名博士生导师和在读年份；原文具名标注腾讯混元实习；同篇全站只算一条。"
+      }
+    ],
+    "note": "目前核对 Jiesong Lian 的腾讯合作项目，未覆盖教师全部论文。"
+  },
+  "7_BkyxEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~jinqiaowang",
+      "https://sites.google.com/site/qiumh0727",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.pdf",
+      "https://www.nlpr.ia.ac.cn/iva/homepage/jqwang/index.htm"
+    ],
+    "papers": [
+      {
+        "title": "GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "官方导师档案列詹宇飞为博士生；CVPR 原文具名，且有同篇在职研究员。"
+      }
+    ],
+    "note": "仅完成上述论文与部分合作线索，未覆盖教师全部论文。"
   }
 };

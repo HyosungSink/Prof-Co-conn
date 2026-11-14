@@ -21686,6 +21686,458 @@ const survey = {
         "https://lyman-smoker.github.io/"
       ],
       "extra": []
+    },
+    {
+      "id": "genmask-alibaba-sjtu-x_sgjskaaaaj",
+      "paperId": "arxiv:2603.23906",
+      "company": "阿里巴巴",
+      "team": "通义团队",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王延峰 · Yanfeng Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/wangyanfeng"
+      ],
+      "employee": [
+        "白帅 · Shuai Bai",
+        "本人学术主页列为阿里通义 Qwen-VL 与视觉智能团队负责人；2025 年 Qwen2.5-VL 公司报告具名，本论文同样以阿里巴巴署名。",
+        "https://shuaibai623.github.io/"
+      ],
+      "student": [
+        "Yuhuan Yang",
+        "Yuhuan Yang 为上海交大博士生；会议论文首页脚注明确第一作者在阿里巴巴实习期间完成本项研究。",
+        "https://sunarker.github.io/group.html"
+      ],
+      "title": "GenMask: Adapting DiT for Segmentation via Direct Mask Generation",
+      "short": "GenMask",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_GenMask_Adapting_DiT_for_Segmentation_via_Direct_Mask_Generation_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.23906"
+        ],
+        [
+          "同期阿里巴巴通义团队报告",
+          "https://arxiv.org/abs/2502.13923"
+        ],
+        [
+          "上海交大 MediaBrain 博士生名录",
+          "https://mediabrain.sjtu.edu.cn/members/"
+        ]
+      ],
+      "evidence": "Yuhuan Yang 为上海交大博士生；会议论文首页脚注明确第一作者在阿里巴巴实习期间完成本项研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大共同培养教师江朝尧的团队名录明确将 Yuhuan Yang 列为其与王延峰培养的上海交大博士生；王延峰为本论文的通讯作者。",
+        "https://sunarker.github.io/group.html"
+      ]
+    },
+    {
+      "id": "huawei-cvt-xrf-hkust-dan-xu",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Dan XU",
+        "香港科技大学副教授、论文末位作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/danxu"
+      ],
+      "student": [
+        "Yingji Zhong",
+        "香港科技大学博士生与论文第一作者；同篇华为员工的项目书目具名列本论文，同时在其团队的公开当前实习生栏具名该学生。",
+        "https://racheltechie.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大导师官方教师档案的在读研究生栏列出 Zhong, Yingji；学生主页同时确认在 Dan Xu 组读博。",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dan-xu-danxu"
+      ],
+      "employee": [
+        "洪蓝青 · Lanqing Hong",
+        "华为诺亚方舟实验室高级研究员；在本文以华为单位署名，公开列出本项目和其学生实习成员。",
+        "https://racheltechie.github.io/"
+      ],
+      "title": "CVT-xRF: Contrastive In-Voxel Transformer for 3D Consistent Radiance Fields from Sparse Inputs",
+      "short": "CVT-xRF",
+      "date": "2024-06",
+      "venue": "CVPR 2024",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_CVT-xRF_Contrastive_In-Voxel_Transformer_for_3D_Consistent_Radiance_Fields_from_CVPR_2024_paper.pdf",
+      "extra": [
+        [
+          "论文第一作者的项目页",
+          "https://zhongyingji.github.io/CVT-xRF/"
+        ],
+        [
+          "学生个人学术页",
+          "https://zhongyingji.github.io/"
+        ]
+      ],
+      "evidence": "论文署名列港科大研究生、导师与华为高级研究员。华为高级研究员自己的公开研究与实习名录同时给出该论文和该实习学生；港科大正式教师档案具名 Yingji Zhong。"
+    },
+    {
+      "id": "bytedance-hint2gen-hku-hengshuang-zhao",
+      "company": "字节跳动",
+      "team": "字节跳动 Seed",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Zhao, Hengshuang",
+        "香港大学助理教授、论文通讯作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao"
+      ],
+      "student": [
+        "Yuanpeng Tu",
+        "香港大学 2023 年 9 月起博士生；论文脚注明确对应第一作者的企业实习，任职起止由本人学术履历确认。",
+        "https://yuanpengtu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人明确列 Hengshuang Zhao 为博士导师，港大导师实验室也以姓名列入 2023 级。",
+        "https://i.cs.hku.hk/~hszhao/lab.html"
+      ],
+      "employee": [
+        "Yunpeng Chen",
+        "论文中以字节 Seed 独立署名；本人职业档案将字节列为正式工作，同时列于 2025 年公司 Seedream 4.0 技术报告的核心团队。",
+        "https://sg.linkedin.com/in/cypw"
+      ],
+      "title": "Hint2Gen: Bridging Understanding and Generation via Code-structured Hints",
+      "short": "Hint2Gen",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Hint2Gen_Bridging_Understanding_and_Generation_via_Code-structured_Hints_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文首页具名实习脚注",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Hint2Gen_Bridging_Understanding_and_Generation_via_Code-structured_Hints_CVPR_2026_paper.pdf"
+        ],
+        [
+          "同期企业技术报告",
+          "https://arxiv.org/abs/2509.20427"
+        ]
+      ],
+      "evidence": "正式出版原文以具名脚注把第一作者 Yuanpeng Tu 的企业实习对应到本篇，且导师赵恒爽在同一作者表。学生及港大实验室明确具名导师和同期博士在读；企业合著者的正式员工岗位由职业档案或出版社作者简介核实。"
+    },
+    {
+      "id": "bytedance-temporal-equilibrium-meanflow-hku-hengshuang-zhao",
+      "company": "字节跳动",
+      "team": "字节跳动 Seed",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "Zhao, Hengshuang",
+        "香港大学助理教授、论文通讯作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao"
+      ],
+      "student": [
+        "Yuanpeng Tu",
+        "香港大学 2023 年 9 月起博士生；论文脚注明确对应第一作者的企业实习，任职起止由本人学术履历确认。",
+        "https://yuanpengtu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人明确列 Hengshuang Zhao 为博士导师，港大导师实验室也以姓名列入 2023 级。",
+        "https://i.cs.hku.hk/~hszhao/lab.html"
+      ],
+      "employee": [
+        "Yunpeng Chen",
+        "论文中以字节 Seed 独立署名；本人职业档案将字节列为正式工作，同时列于 2025 年公司 Seedream 4.0 技术报告的核心团队。",
+        "https://sg.linkedin.com/in/cypw"
+      ],
+      "title": "Temporal Equilibrium MeanFlow: Bridging the Scale Gap for One-Step Generation",
+      "short": "TEMF",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Temporal_Equilibrium_MeanFlow_Bridging_the_Scale_Gap_for_One-Step_Generation_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文首页具名实习脚注",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Temporal_Equilibrium_MeanFlow_Bridging_the_Scale_Gap_for_One-Step_Generation_CVPR_2026_paper.pdf"
+        ],
+        [
+          "同期企业技术报告",
+          "https://arxiv.org/abs/2509.20427"
+        ]
+      ],
+      "evidence": "正式出版原文以具名脚注把第一作者 Yuanpeng Tu 的企业实习对应到本篇，且导师赵恒爽在同一作者表。学生及港大实验室明确具名导师和同期博士在读；企业合著者的正式员工岗位由职业档案或出版社作者简介核实。"
+    },
+    {
+      "id": "huawei-moce-hkust-james-kwok",
+      "company": "华为",
+      "team": "华为诺亚方舟实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "James Tin-Yau KWOK",
+        "香港科技大学教授，同篇末位作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk"
+      ],
+      "student": [
+        "刘智立 · Zhili Liu",
+        "香港科技大学博士与论文共同第一作者；本人在读履历注明 2019 年 6 月起在华为诺亚实习、列出此论文成果，主页同时列华为研究组正式报道。",
+        "https://capricious-liu.github.io/files/Zhili_CV.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "个人主页明示由 James Kwok 指导，论文共同署名。",
+        "https://capricious-liu.github.io/"
+      ],
+      "employee": [
+        "洪蓝青 · Lanqing Hong",
+        "华为诺亚方舟实验室高级研究员，同篇作者；公开实验室实习成员表具名列刘智立。",
+        "https://racheltechie.github.io/"
+      ],
+      "title": "Task-customized Masked Autoencoder via Mixture of Cluster-conditional Experts",
+      "short": "MoCE",
+      "date": "2023-05",
+      "venue": "ICLR 2023",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openreview.net/forum?id=i8iQUM33s",
+      "extra": [
+        [
+          "同篇作者和原始论文",
+          "https://arxiv.org/abs/2402.05382"
+        ],
+        [
+          "同期大会作品展示名单",
+          "https://valser.org/2023/static/VALSE2023_HYSC.pdf"
+        ]
+      ],
+      "evidence": "同期 VALSE 官方展示名单将本篇归入华为诺亚项目，刘智立履历将其列为在港科大攻读博士且在华为诺亚任实习生期间的成果，主页具名 James Kwok 博士指导。华为员工 Lanqing Hong 同篇且公开列刘智立为实习成员。"
+    },
+    {
+      "id": "tencent-solireward-hust-hao",
+      "company": "腾讯",
+      "team": "混元视频生成团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "郝义学 · Yixue Hao",
+        "华中科技大学计算机科学与技术学院副教授，两篇均署名。",
+        "http://faculty.hust.edu.cn/haoyixue1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Zixiang Zhou",
+        "本人主页明确现任腾讯混元研究员，并列同篇 SoliReward；ICCV 2025 正式论文已列其腾讯混元任职单位。",
+        "https://zixiangzhou916.github.io/"
+      ],
+      "student": [
+        "Jiesong Lian",
+        "本人 OpenReview 履历列为 2023—2027 年华中科技大学计算机科学与技术博士生。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "title": "SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models",
+      "short": "SoliReward",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.pdf",
+      "evidence": "论文首页的腾讯混元实习脚注明确标给 Jiesong Lian；混元研究员 Zixiang Zhou 和华科校内博士导师郝义学、胡龙均为同篇署名作者。",
+      "advising": [
+        "校内博士生共同指导",
+        "学生本人在 OpenReview 的公开学术履历中将郝义学和胡龙分别列为 2023—2027 年博士导师；两位均在本篇署名。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "extra": [
+        [
+          "正式论文索引或项目页",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Lian_SoliReward_Mitigating_Susceptibility_to_Reward_Hacking_and_Annotation_Noise_in_CVPR_2026_paper.html"
+        ],
+        [
+          "企业作者同期腾讯混元署名",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.pdf"
+        ],
+        [
+          "论文元数据",
+          "https://arxiv.org/abs/2512.22170"
+        ]
+      ],
+      "paperId": "arxiv:2512.22170"
+    },
+    {
+      "id": "tencent-sara-hust-hao",
+      "company": "腾讯",
+      "team": "混元视频生成团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "郝义学 · Yixue Hao",
+        "华中科技大学计算机科学与技术学院副教授，两篇均署名。",
+        "http://faculty.hust.edu.cn/haoyixue1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Zixiang Zhou",
+        "本人主页明确现任腾讯混元研究员，并列同篇 SoliReward；ICCV 2025 正式论文已列其腾讯混元任职单位。",
+        "https://zixiangzhou916.github.io/"
+      ],
+      "student": [
+        "Jiesong Lian",
+        "本人 OpenReview 履历列为 2023—2027 年华中科技大学计算机科学与技术博士生。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "title": "SARA: Semantically Adaptive Relational Alignment for Video Diffusion Models",
+      "short": "SARA",
+      "date": "2026-05-08",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2605.07800v2",
+      "evidence": "论文首页的腾讯混元实习脚注明确标给 Jiesong Lian；混元研究员 Zixiang Zhou 和华科校内博士导师郝义学、胡龙均为同篇署名作者。",
+      "advising": [
+        "校内博士生共同指导",
+        "学生本人在 OpenReview 的公开学术履历中将郝义学和胡龙分别列为 2023—2027 年博士导师；两位均在本篇署名。",
+        "https://openreview.net/profile?id=~Jiesong_Lian1"
+      ],
+      "extra": [
+        [
+          "正式论文索引或项目页",
+          "https://saradit.github.io/"
+        ],
+        [
+          "企业作者同期腾讯混元署名",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_Audio-visual_Controlled_Video_Diffusion_with_Masked_Selective_State_Spaces_Modeling_ICCV_2025_paper.pdf"
+        ],
+        [
+          "论文元数据",
+          "https://arxiv.org/abs/2605.07800"
+        ]
+      ],
+      "paperId": "arxiv:2605.07800"
+    },
+    {
+      "id": "bytedance-gthinker-ucas-wang",
+      "company": "字节跳动",
+      "team": "多模态研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "王金桥 · Jinqiao Wang",
+        "中国科学院自动化研究所研究员、博士生导师，国科大人工智能学院岗位教授，本篇同署并任通讯作者。",
+        "https://people.ucas.ac.cn/~jinqiaowang"
+      ],
+      "employee": [
+        "Minghui Qiu",
+        "个人主页列字节跳动 Staff Algorithm Expert 和电商大模型团队技术负责人，在 2025 年首版及 CVPR 正式版均为字节跳动同篇作者。",
+        "https://sites.google.com/site/qiumh0727"
+      ],
+      "student": [
+        "詹宇飞 · Yufei Zhan",
+        "国科大人工智能学院、中国科学院自动化研究所博士生；王金桥组公开资料记载 2026 年毕业，CVPR 论文明确标注其在字节跳动实习时完成。",
+        "https://people.ucas.ac.cn/~jinqiaowang"
+      ],
+      "title": "GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking",
+      "short": "GThinker",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.pdf",
+      "evidence": "CVPR 正式版将字节实习星号标给一作詹宇飞，王金桥为通讯作者、字节跳动大模型研究员 Minghui Qiu 为同篇作者。2025 年预印本及 2026 年大会版本只计一次。",
+      "advising": [
+        "校内博士生导师",
+        "国科大导师个人档案在招生信息明确将詹宇飞列于本人博士研究生，并列明专业；实验室官方名单列其为 2026 届博士。",
+        "https://people.ucas.ac.cn/~jinqiaowang"
+      ],
+      "extra": [
+        [
+          "CVPR 出版列表",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.html"
+        ],
+        [
+          "作者本人博士状态",
+          "https://github.com/jefferyZhan"
+        ],
+        [
+          "2025 初版",
+          "https://arxiv.org/abs/2506.01078"
+        ]
+      ],
+      "paperId": "arxiv:2506.01078"
+    },
+    {
+      "id": "alibaba-dreamview-sysu-weishi-zheng",
+      "title": "DreamView: Injecting View-Specific Text Guidance into Text-to-3D Generation",
+      "short": "DreamView",
+      "date": "2024-09",
+      "venue": "ECCV",
+      "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03660.pdf",
+      "team": "通义实验室",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "area": "计算机视觉与具身智能",
+      "faculty": [
+        "郑伟诗 · Wei-Shi Zheng",
+        "中山大学教授、论文通讯作者。",
+        "https://cse.sysu.edu.cn/teacher/ZhengWeishi"
+      ],
+      "student": [
+        "Yipeng Gao",
+        "论文首发时为中山大学硕士生；本人主页记录中大硕士学业与 2024 届优秀硕士论文，ECCV 首页具名标注他的阿里实习。",
+        "https://gaoypeng.github.io/"
+      ],
+      "employee": [
+        "杨琪泽 · Qize Yang",
+        "论文署阿里巴巴并列企业邮箱，早期 CVPR 正式论文也列其阿里任职单位。",
+        "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf"
+      ],
+      "advising": [
+        "校内科研指导",
+        "郑伟诗公开书目将高毅鹏列为该篇指导学生；星号含义在页面开头注明。",
+        "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html"
+      ],
+      "evidence": "正式稿首页具名注明严俊楷与 Yipeng Gao 在阿里巴巴实习期间完成论文；导师书目确认后者的科研指导关系，学生本人主页确认 2024 年中山大学硕士毕业。",
+      "extra": [
+        [
+          "首发预印本（2024 年 4 月）",
+          "https://arxiv.org/abs/2404.06119"
+        ]
+      ]
+    },
+    {
+      "id": "alibaba-rynnunify-sysu-xiaodan-liang",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "short": "RynnUnify",
+      "date": "2026-10-23",
+      "venue": "arXiv 技术报告",
+      "paper": "https://arxiv.org/html/2610.32965v1",
+      "team": "达摩院",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "area": "计算机视觉与具身智能",
+      "faculty": [
+        "梁小丹 · Xiaodan Liang",
+        "中山大学教师与技术报告共同作者；原文按报告组署名。",
+        "https://ise.sysu.edu.cn/teacher/LiangXiaodan"
+      ],
+      "student": [
+        "项鲲 · Kun Xiang",
+        "中山大学在读博士，2026 年 5 月起在阿里达摩院实习；本人研究主页列该成果为核心贡献者。",
+        "https://kun-xiang.github.io/"
+      ],
+      "employee": [
+        "Xin Li",
+        "2021 年起在阿里达摩院任研究工程师；同篇项目负责人。",
+        "https://lixin4ever.github.io/"
+      ],
+      "advising": [
+        "校内博士导师",
+        "项鲲本人中山大学博士履历具名列出梁小丹，另列 Xin Li 为阿里实习合作导师。",
+        "https://kun-xiang.github.io/"
+      ],
+      "evidence": "达摩院正式项目与 arXiv 原文均将项鲲列为核心作者、Xin Li 为项目负责人，梁小丹共同署名。学生本人履历明确区分其博士导师和企业实习导师。",
+      "extra": [
+        [
+          "达摩院官方项目",
+          "https://github.com/alibaba-damo-academy/RynnUnify"
+        ]
+      ]
     }
   ]
 };
