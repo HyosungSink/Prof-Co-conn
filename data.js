@@ -41231,6 +41231,158 @@ const survey = {
         ]
       ],
       "evidence": "IJCAI 正式论文列明北航与美团两家单位，丁子涵双署、刘偲署北航，Junshi Huang 署美团并任通讯作者。丁子涵此前已在北航攻读博士；其履历具名列刘偲为博士导师，列 Junshi Huang 为 2021 年 9 月至 2023 年 6 月美团多模态理解与生成研究的实习导师。会议投稿和录用都在该实习期；IEEE 作者简介及同期企业署名独立提供 Huang 的美团研究职位证据。"
+    },
+    {
+      "id": "agentsteertts-tencent-hit-tian",
+      "paperId": "arxiv:2605.17583",
+      "company": "腾讯",
+      "team": "腾讯互娱 Turing Lab",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "田倬韬 · Zhuotao Tian",
+        "哈工大（深圳）教授；康斌本人列博士联合培养导师；ICML 原文田倬韬为通信作者。",
+        "https://faculty.hitsz.edu.cn/zhuotaotian"
+      ],
+      "employee": [
+        "王君乐 · Junle Wang",
+        "腾讯图灵实验室负责人、专家研究员；ICML 正式版首页与康斌同署 Tencent Turinglab。",
+        "https://developer.cloud.tencent.com/article/2052299"
+      ],
+      "student": [
+        "康斌 · Bin Kang",
+        "中国科学院大学博士生（2023-09 起；哈工大深圳联合培养），2025-03–2026-02 腾讯算法研究实习，ICML 正式第一作者同篇具名兼署腾讯 Turinglab。",
+        "https://kane2kang.github.io/"
+      ],
+      "title": "AgentSteerTTS: A Multi-Agent Closed-Loop Framework for Composite-Instruction Text-to-Speech",
+      "short": "AgentSteerTTS",
+      "date": "2026-05-14",
+      "venue": "ICML 2026",
+      "area": "多智能体语音合成",
+      "paper": "https://proceedings.mlr.press/v306/kang26p.html",
+      "extra": [
+        [
+          "ICML 正式 PDF 首页作者与单位",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/kang26p/kang26p.pdf"
+        ],
+        [
+          "arXiv v1 本人、具体腾讯实验室及同篇作者",
+          "https://arxiv.org/html/2605.17583v1"
+        ],
+        [
+          "学生负责维护的同项项目及作者名单",
+          "https://kane2kang.github.io/AgentSteerTTS/"
+        ],
+        [
+          "会议主办方列腾讯互娱图灵实验室正式专家",
+          "https://www.stvf.com/english/content?aid=101231020155829485080936879230981047"
+        ],
+        [
+          "哈工大田倬韬身份与具体论文",
+          "https://zhuotaotian.github.io/"
+        ],
+        [
+          "ICML 2026 官方完整投稿截止（2026-01-28 AoE）",
+          "https://icml.cc/Conferences/2026/CallForPapers"
+        ],
+        [
+          "深圳南山政府 2025 名录确认王君乐在职",
+          "https://www.szns.gov.cn/attachment/1/1601/1601805/12267221.pdf"
+        ],
+        [
+          "ICML 正式题录所链接的投稿记录",
+          "https://openreview.net/forum?id=hgKQemfVbS"
+        ],
+        [
+          "arXiv 首次公开版本日期",
+          "https://arxiv.org/abs/2605.17583"
+        ]
+      ],
+      "evidence": "康斌本人主页教育与经历分别列 2023-09 起中国科学院大学博士、哈工大深圳联合培养、田倬韬为导师，2025-03 至 2026-02 在腾讯任算法研究实习生。ICML 正式 PDF 第 1 页康斌为第一作者，同时署中国科学院大学、深圳河套学院、Tencent Turinglab，明确是康斌本人以该实验室身份参与本论文；同篇王君乐仅署 Tencent Turinglab，腾讯官方资料明确其为该实验室负责人，及 2025 年正式任职和同篇署名互证。田倬韬以河套学院署名担任本项通信作者，哈工大副任机构见个人与校方页面；2026-05 arXiv 公开日期在实习结束后，作为公开日期单列，不据此推断仍在实习。同篇作者和机构以出版版为准。 ICML 主会征稿规定完整论文须于 2026 年 1 月 28 日（AoE）提交，处于腾讯 2025-03 至 2026-02 的实习窗口；由正式会议及其公开截止反推出正式版预印本日期不等于研究开始日期。",
+      "advising": [
+        "本人具名博士联合培养导师",
+        "康斌本人首页 About 明确列中国科学院大学博士、哈工大深圳联合培养，并写 advised by Prof. Zhuotao Tian。另由 ICML 正式首页证实本研究田倬韬通信。",
+        "https://kane2kang.github.io/"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "tencent-videopainter-cuhk-qiang-xu",
+      "paperId": "arxiv:2503.05639",
+      "company": "腾讯",
+      "team": "腾讯 PCG · ARC Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "港中文计算机科学与工程学系教授、通讯作者；校方课题组把卞宇轩列为 2024 年秋入学的博士生。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "卞宇轩 · Yuxuan Bian",
+        "港中文在读博士、论文第一作者；企业项目于 2025-03-09 发布时把他列为港中文和腾讯 ARC Lab 双署。他的履历记录腾讯实习为 2024 年 6 月至 2025 年 5 月，导师 Zhaoyang Zhang 和 Ying Shan，研究方向为可控视频生成。",
+        "https://github.com/TencentARC/VideoPainter/blob/9342fd1e69dd1f037505598275a31be86f132b0d/README.md"
+      ],
+      "advising": [
+        "港中文博士导师",
+        "卞宇轩在本人主页具名写明由徐强指导；课题组名录确认 2024 年秋开始攻读博士。导师是 VideoPainter 同篇通讯作者。",
+        "https://yxbian23.github.io/"
+      ],
+      "employee": [
+        "Ying Shan",
+        "同篇署腾讯 ARC Lab，SIGGRAPH Asia 2024 的具名履历独立确认其为腾讯杰出科学家及 ARC Lab 主任；卞宇轩履历列其为腾讯实习导师。",
+        "https://asia.siggraph.org/2024/presenter/?uid=553773"
+      ],
+      "title": "VideoPainter: Any-length Video Inpainting and Editing with Plug-and-Play Context Control",
+      "short": "VideoPainter",
+      "year": 2025,
+      "date": "2025-03-07",
+      "venue": "SIGGRAPH 2025",
+      "area": "视频生成与编辑",
+      "paper": "https://doi.org/10.1145/3721238.3730673",
+      "extra": [
+        [
+          "2025-03-09 腾讯项目首个公开提交与学生双署",
+          "https://github.com/TencentARC/VideoPainter/blob/9342fd1e69dd1f037505598275a31be86f132b0d/README.md"
+        ],
+        [
+          "学生主页旧版：腾讯实习起止时间、具名企业导师",
+          "https://github.com/yxbian23/yxbian23.github.io/blob/a6aa1b75c70a3920160109329ab3f1b4c55e6005/assets/index-860635d1.js"
+        ],
+        [
+          "学生本人同篇项目页的双署",
+          "https://yxbian23.github.io/project/video-painter/"
+        ],
+        [
+          "港中文学位开始时间与导师课题组",
+          "https://cure-lab.github.io/"
+        ],
+        [
+          "港中文校方正式书目",
+          "https://research.cuhk.edu.hk/en/publications/videopainter-any-length-video-inpainting-and-editing-with-plug-an/"
+        ],
+        [
+          "2025-03-07 原始作者表",
+          "https://arxiv.org/html/2503.05639v1"
+        ],
+        [
+          "SIGGRAPH 2025 官方报告人页面（卞宇轩列腾讯）",
+          "https://s2025schedule.siggraph.org/index.html%3Fpost_type%3Dpage%26p%3D13%26uid%3D145793.html"
+        ],
+        [
+          "腾讯发布 VPData 的同期存档",
+          "https://huggingface.co/datasets/TencentARC/VPData/blob/33cf227b2ef1ec1f1700564408d054f83149ed17/README.md"
+        ],
+        [
+          "arXiv 首次公开版本日期",
+          "https://arxiv.org/abs/2503.05639"
+        ],
+        [
+          "SIGGRAPH 2025 在职企业导师履历",
+          "https://s2025.conference-schedule.org/presenter/?uid=553773"
+        ]
+      ],
+      "evidence": "2025 年 3 月 9 日的腾讯 ARC Lab 官方项目初始公开提交已明确把第一作者卞宇轩列为腾讯与港中文双署；其本人同篇项目亦采用双署，SIGGRAPH 官方报告人介绍将其列为腾讯。当时他在港中文攻读博士并在腾讯 ARC Lab 实习（2024 年 6 月至 2025 年 5 月，具名导师 Zhaoyang Zhang 和 Ying Shan）。ACM 论文及最初 arXiv 通讯信息只列其港中文地址，此处保留差异；以同期企业项目资料交叉核实该生在腾讯参与这一具体项目、并用同篇在职腾讯主任 Ying Shan 与港中文博士导师徐强完成核验。"
     }
   ]
 };

@@ -5856,7 +5856,33 @@ const facultyPaperAudits = {
       "https://xuezeyue.github.io/cv/",
       "https://arxiv.org/abs/2503.05639",
       "https://openreview.net/pdf/5340694f24091f0ebf93e7be367380a96b06a86a.pdf",
-      "https://github.com/TencentARC/VideoPainter"
+      "https://github.com/TencentARC/VideoPainter",
+      "https://doi.org/10.1145/3721238.3730673",
+      "https://github.com/TencentARC/VideoPainter/blob/9342fd1e69dd1f037505598275a31be86f132b0d/README.md",
+      "https://asia.siggraph.org/2024/presenter/?uid=553773",
+      "https://github.com/yxbian23/yxbian23.github.io/blob/a6aa1b75c70a3920160109329ab3f1b4c55e6005/assets/index-860635d1.js",
+      "https://yxbian23.github.io/project/video-painter/",
+      "https://research.cuhk.edu.hk/en/publications/videopainter-any-length-video-inpainting-and-editing-with-plug-an/",
+      "https://arxiv.org/html/2503.05639v1",
+      "https://s2025schedule.siggraph.org/index.html%3Fpost_type%3Dpage%26p%3D13%26uid%3D145793.html",
+      "https://huggingface.co/datasets/TencentARC/VPData/blob/33cf227b2ef1ec1f1700564408d054f83149ed17/README.md",
+      "https://doi.org/10.1109/CVPRF71909.2026.00353",
+      "https://arxiv.org/html/2510.19789v1",
+      "https://arxiv.org/html/2510.19789v2",
+      "https://diggers.ai/people/",
+      "https://shaoli-huang.github.io/",
+      "https://rubbly.cn/",
+      "https://ailingzeng.site/",
+      "https://github.com/GuoweiXu368/OmniMotion-X",
+      "https://doi.org/10.1609/aaai.v39i2.32183",
+      "https://arxiv.org/html/2407.21136v1",
+      "https://arxiv.org/html/2407.21136",
+      "https://github.com/cure-lab/MotionCraft",
+      "https://doi.org/10.1109/TPAMI.2026.3695011",
+      "https://arxiv.org/html/2412.10316v3",
+      "https://github.com/TencentARC/BrushEdit",
+      "https://yaoweili22.github.io/",
+      "https://research.cuhk.edu.hk/en/publications/brushedit-all-in-one-image-inpainting-and-editing/"
     ],
     "papers": [
       {
@@ -5921,11 +5947,34 @@ const facultyPaperAudits = {
       },
       {
         "title": "VideoPainter: Any-length Video Inpainting and Editing with Plug-and-Play Context Control",
-        "url": "https://arxiv.org/abs/2503.05639",
+        "url": "https://doi.org/10.1145/3721238.3730673",
+        "outcome": "confirmed",
+        "note": "2025 年 3 月 9 日的腾讯 ARC Lab 官方项目初始公开提交已明确把第一作者卞宇轩列为腾讯与港中文双署；其本人同篇项目亦采用双署，SIGGRAPH 官方报告人介绍将其列为腾讯。当时他在港中文攻读博士并在腾讯 ARC Lab 实习（2024 年 6 月至 2025 年 5 月，具名导师 Zhaoyang Zhang 和 Ying Shan）。ACM 论文及最初 arXiv 通讯信息只列其港中文地址，此处保留差异；以同期企业项目资料交叉核实该生在腾讯参与这一具体项目、并用同篇在职腾讯主任 Ying Shan 与港中文博士导师徐强完成核验。",
+        "year": 2025
+      },
+      {
+        "title": "OmniMotion-X: Versatile Multimodal Whole-Body Motion Generation",
+        "url": "https://doi.org/10.1109/CVPRF71909.2026.00353",
         "outcome": "lead",
-        "note": "企业发布页与正式论文的第一作者署名不一致。Zhaoyang Zhang 明确同篇为腾讯项目负责人，学生卞宇轩把本人放置在与主题匹配的腾讯实习且确实由他指导，需再确认原始正式版或项目指名。"
+        "note": "2025-10-22 v1 首次公开，2026-06 正式出版于 CVPR Findings（不是主会长文元数据）；2026-07-18 arXiv v2 增补电子科大 Zhuo Chen。香港中文大学已核实徐强指导 2024 秋入学的共同一作卞宇轩，电子科大 DIG 独立证实另一位共同一作徐国威为 2023–2026 硕士。原文明确腾讯作者为 Shaoli Huang，自己曾是腾讯 AI Lab 高级研究员；Ailing Zeng 署独立研究者，不按旧任职算腾讯。卞宇轩公开旧履历的腾讯 ARC 实习为 2024-06 至 2025-05、导师为 Zhaoyang Zhang 和 Ying Shan，二人不在这篇；史明镒 2023–2024 有过腾讯实习，个人列港大导师 Taku Komura 同篇缺席。无具名证据把在读合作者的这篇实际贡献关联到腾讯，保留线索。",
+        "year": 2026
+      },
+      {
+        "title": "MotionCraft: Crafting Whole-Body Motion with Plug-and-Play Multimodal Controls",
+        "url": "https://doi.org/10.1609/aaai.v39i2.32183",
+        "outcome": "lead",
+        "note": "2024-07-30 首稿名为 Adding Multi-modal Controls to Whole-body Human Motion Generation，合并 AAAI 2025 正式版。企业署名明确 Ailing Zeng、Wei Liu；卞宇轩只署港中文。其履历记载腾讯实习始于 2024-06，提供具名 ARC 导师，但这篇未明示学生同篇在腾讯研究且港中文博士的 2024 秋公开入学日期晚于首版。需早期正式学籍或另一个同篇在读人如 Xuan Ju 的具体企业项目证据。",
+        "year": 2025
+      },
+      {
+        "title": "BrushEdit: All-In-One Image Inpainting and Editing",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3695011",
+        "outcome": "lead",
+        "note": "2024-12 首稿，与 2026 IEEE TPAMI 正式版同作。香港中文大学导师徐强、学生卞宇轩与鞠璇及腾讯 ARC 员工同署；作者企业项目仍把两位港中文学生单署港中文。企业任职和实习时间可证，尚需对两位港中文在读者的同篇企业项目归属；第一共同作者 Yaowei Li 的北大导师是邹月娴，独立核验其腾讯具体项目。",
+        "year": 2026
       }
-    ]
+    ],
+    "note": "目前逐篇记录 14 项，分批继续对照香港中文大学研究门户、课题组和学生作者资料，未标完成。"
   },
   "su14mcEAAAAJ": {
     "from": "2023-01-01",
@@ -42018,7 +42067,17 @@ const facultyPaperAudits = {
       "https://wfanyue.github.io/",
       "https://zhenyangli.github.io/",
       "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21506?yxsh=28",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/27958"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/27958",
+      "https://doi.org/10.1109/CVPRF71909.2026.00353",
+      "https://arxiv.org/html/2510.19789v1",
+      "https://arxiv.org/html/2510.19789v2",
+      "https://shaoli-huang.github.io/",
+      "https://rubbly.cn/",
+      "https://ailingzeng.site/",
+      "https://github.com/GuoweiXu368/OmniMotion-X",
+      "https://yxbian23.github.io/",
+      "https://github.com/yxbian23/yxbian23.github.io/blob/a6aa1b75c70a3920160109329ab3f1b4c55e6005/assets/index-860635d1.js",
+      "https://cure-lab.github.io/"
     ],
     "papers": [
       {
@@ -42237,6 +42296,55 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2312.11872v1",
         "note": "AAAI 同作列多位腾讯优图作者，课题组公开葛彦齐为 2021–2024 硕士及毕业去向腾讯；未核实其在读期间参与同一腾讯项目及具体学术导师，保留线索。",
         "outcome": "lead"
+      },
+      {
+        "title": "OmniMotion-X: Versatile Multimodal Whole-Body Motion Generation",
+        "url": "https://doi.org/10.1109/CVPRF71909.2026.00353",
+        "outcome": "lead",
+        "note": "2025-10-22 v1 首次公开，2026-06 正式出版于 CVPR Findings（不是主会长文元数据）；2026-07-18 arXiv v2 增补电子科大 Zhuo Chen。香港中文大学已核实徐强指导 2024 秋入学的共同一作卞宇轩，电子科大 DIG 独立证实另一位共同一作徐国威为 2023–2026 硕士。原文明确腾讯作者为 Shaoli Huang，自己曾是腾讯 AI Lab 高级研究员；Ailing Zeng 署独立研究者，不按旧任职算腾讯。卞宇轩公开旧履历的腾讯 ARC 实习为 2024-06 至 2025-05、导师为 Zhaoyang Zhang 和 Ying Shan，二人不在这篇；史明镒 2023–2024 有过腾讯实习，个人列港大导师 Taku Komura 同篇缺席。无具名证据把在读合作者的这篇实际贡献关联到腾讯，保留线索。 段立新、李文同署电子科大，但 DIG 通用组员名录不足以认定段立新是徐国威的具名导师。",
+        "year": 2026
+      },
+      {
+        "year": 2025,
+        "title": "Balanced Sharpness-Aware Minimization for Imbalanced Regression",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.00589",
+        "note": "IEEE 登记全体作者单位为电子科技大学和苏黎世联邦理工学院。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "The Devil Is in the Spurious Correlations: Boosting Moment Retrieval With Dynamic Learning",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.01950",
+        "note": "ICCV 论文的注册作者单位仅电子科技大学与新加坡国立大学，和作者本人代表作吻合。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Cross-Modality Anatomy Knowledge Distillation for Retinal OCT Layer Segmentation With Limited Labels",
+        "url": "https://doi.org/10.1109/TCSVT.2026.3701937",
+        "note": "IEEE 登记了各作者的单位，含高校、医院和琶洲实验室，无范围内企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Known Objects: Prompting 6D Pose Estimator to Learn Novel Objects Continually",
+        "url": "https://doi.org/10.1109/TIP.2026.3736044",
+        "note": "IEEE 出版方 2026 年 10 月已公开；作者单位为高校和教育部重点实验室，无范围企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Semantic discrete decoder based on adaptive pixel clustering for monocular depth estimation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40414148/",
+        "note": "出版方提交至 PubMed 的五位作者完整单位包括电子科技大学、华南理工大学、武汉工程大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Adaptive Multi-Scale Language Reinforcement for Multimodal Named Entity Recognition",
+        "url": "https://doi.org/10.1109/TMM.2025.3543105",
+        "note": "IEEE 作者机构列一位京东研究院人员，余为电子科技大学和西南交通大学；目前没有范围内在读学生参与这篇京东研究的具名证据。",
+        "outcome": "lead"
       }
     ],
     "note": "以电子科技大学研究生导师目录、课题组主页和出版社作者身份交叉核对，再逐篇查看正式版、原文或会议的完整作者栏。本批只覆盖已直接核对的作品。"
@@ -42304,13 +42412,13 @@ const facultyPaperAudits = {
         "year": 2026,
         "title": "AgentSteerTTS: A Multi-Agent Closed-Loop Framework for Composite-Instruction Text-to-Speech",
         "url": "https://proceedings.mlr.press/v306/kang26p.html",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "ICML 正式 PDF 及 arXiv 2605.17583。康斌本人明示 2023-09 起中科院大学博士、哈工大深圳联培、田倬韬导师，2025-03 至 2026-02 腾讯实习；正文同时具名康斌和腾讯图灵实验室；腾讯正式负责人王君乐同篇。"
       },
       {
         "year": 2026,
         "title": "DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling",
-        "url": "https://arxiv.org/abs/2606.07108",
+        "url": "https://proceedings.mlr.press/v306/tu26c.html",
         "outcome": "lead",
         "note": "ICML 2026 作者书目的 Evolving Contextual Modeling 与正式公开文本题名互验。原文明确同篇华为诺亚 Hui-Ling Zhen，但首两位哈工大作者未获此项在华为实研证据。"
       },
@@ -42334,6 +42442,104 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3746027.3755765",
         "outcome": "lead",
         "note": "ACM 正式全名单包含腾讯正式研究人员王君乐（arXiv 2510.05586 删去了这一作者），在读康斌本人记载实习期与公开时间相合、其导师田倬韬学校通信。正式首页康斌却只署中科院和国科大，仍缺本项目在腾讯具名实研材料。"
+      },
+      {
+        "year": 2026,
+        "title": "Benchmarking and Evolving Reason-Reflect-Rectify for Reflective Visual Generation",
+        "url": "https://proceedings.mlr.press/v306/wang26fe.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式与 2605.19639 同篇；正式版 Xinghua Lou、Xiangtai Li（arXiv Jason Li）和 Yanwei Li 当篇均署学术机构。第一作者 Junjie Wang 本人证实田倬韬与陈斌联导，未见本项有字节具名学生实研，历史任职不切换为该篇单位。"
+      },
+      {
+        "year": 2026,
+        "title": "FlashVID: Efficient Video Large Language Models via Training-free Tree-based Spatiotemporal Token Merging",
+        "url": "https://arxiv.org/abs/2602.08024",
+        "outcome": "no-evidence",
+        "note": "ICLR 2026 Oral。第一作者 Ziyang Fan 本人列田倬韬硕导及 2025-10 腾讯 PCG 视频生成智能体实习，本项原文为哈工大、港中深和河套，未见目标企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "Less Languages, Less Tokens: An Efficient Unified Logic Cross-lingual Chain-of-Thought Reasoning Framework",
+        "url": "https://aclanthology.org/2026.acl-long.1379/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式和 2604.20090。Qiguang Chen 本人有字节实习但具名导师为车万翔及覃立波；这篇正式作者机构为哈工大、中南大等高校，未见与该实习有关证据。"
+      },
+      {
+        "year": 2026,
+        "title": "PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval",
+        "url": "https://arxiv.org/abs/2609.36923",
+        "outcome": "no-evidence",
+        "note": "正式公开 9 月版本的五位作者单位是国科大、港科大、哈工大、港中文与河套。第三方索引混入另一篇 LongPuzzleBench 的腾讯单位，原文核对后排除。"
+      },
+      {
+        "year": 2026,
+        "title": "SMD: Multi-view Safety-Critical Driving Video Generation in the Real-world Domain",
+        "url": "https://proceedings.mlr.press/v306/zhou26aj.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式首页作者来自哈工大与浙大；未见目标企业作者，自动驾驶测试数据不作为研究关系。"
+      },
+      {
+        "year": 2026,
+        "title": "Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs",
+        "url": "https://openreview.net/forum?id=G7DBGlgjjp",
+        "outcome": "no-evidence",
+        "note": "ICLR 2026 正式和 Omni-DPO 2506.10054 首稿是同项。首稿早于 Shangpin Peng 所列 2025-08 开始腾讯实习；两版原文单位无本项具名企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Concerto: Joint 2D-3D Self-Supervised Learning Emerges Spatial Representations",
+        "url": "https://arxiv.org/abs/2510.23607",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式与两版 arXiv 同篇；原文实验室和三个具名机构为港大、港中文、哈工大。原文未赋予 Naiyan Wang 任何目标企业单位，没有具名学生企业证据。"
+      },
+      {
+        "year": 2025,
+        "title": "DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_DeCLIP_Decoupled_Learning_for_Open-Vocabulary_Dense_Perception_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式与 2505.04410 同篇。研究人员署哈工大和中科院/国科大；康斌当时已是联培，但不能据学籍和其腾讯实习自动归给企业。后增广 arXiv 对应多种额外任务、改署作者，另外记录。"
+      },
+      {
+        "year": 2025,
+        "title": "Generalized Decoupled Learning for Enhancing Open-Vocabulary Dense Perception",
+        "url": "https://arxiv.org/abs/2508.11256",
+        "outcome": "no-evidence",
+        "note": "DeCLIP 扩展研究，作者与任务范围有新增，原文署哈工大、港大与河套。第一作者 Junjie Wang 自述田倬韬/陈斌导师，没有目标企业同期参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Less Is More, but Where? Dynamic Token Compression via LLM-Guided Keyframe Prior",
+        "url": "https://arxiv.org/abs/2512.06866",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2025 DyToK 对应 2512.06866；田倬韬个人页错链 2510.23607 实为 Concerto。Ziyang Fan 和康斌有腾讯实习窗口，正文没有目标企业署名、员工或该项在腾讯实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Memory Forcing: Spatio-Temporal Memory for Consistent Scene Generation on Minecraft",
+        "url": "https://arxiv.org/abs/2510.03198",
+        "outcome": "no-evidence",
+        "note": "原文及项目团队材料均为港中深、河套、港大、滴滴 Voyager、微软；两家公司都不在范围。首作者明确师从 Li Jiang，腾讯实习在后续其他项目。"
+      },
+      {
+        "year": 2024,
+        "title": "LISA: Reasoning Segmentation via Large Language Model",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lai_LISA_Reasoning_Segmentation_via_Large_Language_Model_CVPR_2024_paper.html",
+        "outcome": "no-evidence",
+        "note": "正式 CVPR 与 2308.00692。发表稿单位为港中文、哈工大、SmartMore 及微软亚洲研究院；作者 Xin Lai 的后续腾讯经历不挪用到这篇微软共著。"
+      },
+      {
+        "year": 2024,
+        "title": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
+        "url": "https://arxiv.org/abs/2406.18629",
+        "outcome": "no-evidence",
+        "note": "首稿作者单位为港中文、哈工大及 SmartMore。Xin Lai 本人列腾讯实习经历，但本项没有范围公司具名作者或腾讯项目材料。"
+      },
+      {
+        "year": 2023,
+        "title": "LISA++: An Improved Baseline for Reasoning Segmentation with Large Language Model",
+        "url": "https://arxiv.org/abs/2312.17240",
+        "outcome": "no-evidence",
+        "note": "独立公开的 LISA 增强研究，篇名、作者、数据与方法增补有明确区分。首页机构只有港中文及 SmartMore；企业超范围。"
       }
     ],
     "note": "先查个人公开代表作与最强校企候选，逐篇核对公式出处、作者及具名学生关系；其余仍在梳理。"
@@ -42549,7 +42755,17 @@ const facultyPaperAudits = {
       "https://wfanyue.github.io/",
       "https://synps26.github.io/",
       "https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/21506?yxsh=28",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/27958"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/27958",
+      "https://doi.org/10.1109/CVPRF71909.2026.00353",
+      "https://arxiv.org/html/2510.19789v1",
+      "https://arxiv.org/html/2510.19789v2",
+      "https://shaoli-huang.github.io/",
+      "https://rubbly.cn/",
+      "https://ailingzeng.site/",
+      "https://github.com/GuoweiXu368/OmniMotion-X",
+      "https://yxbian23.github.io/",
+      "https://github.com/yxbian23/yxbian23.github.io/blob/a6aa1b75c70a3920160109329ab3f1b4c55e6005/assets/index-860635d1.js",
+      "https://cure-lab.github.io/"
     ],
     "papers": [
       {
@@ -42628,8 +42844,138 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2312.11872v1",
         "note": "AAAI 同作列多位腾讯优图作者，课题组公开葛彦齐为 2021–2024 硕士及毕业去向腾讯；未核实其在读期间参与同一腾讯项目及具体学术导师，保留线索。",
         "outcome": "lead"
+      },
+      {
+        "title": "OmniMotion-X: Versatile Multimodal Whole-Body Motion Generation",
+        "url": "https://doi.org/10.1109/CVPRF71909.2026.00353",
+        "outcome": "lead",
+        "note": "2025-10-22 v1 首次公开，2026-06 正式出版于 CVPR Findings（不是主会长文元数据）；2026-07-18 arXiv v2 增补电子科大 Zhuo Chen。香港中文大学已核实徐强指导 2024 秋入学的共同一作卞宇轩，电子科大 DIG 独立证实另一位共同一作徐国威为 2023–2026 硕士。原文明确腾讯作者为 Shaoli Huang，自己曾是腾讯 AI Lab 高级研究员；Ailing Zeng 署独立研究者，不按旧任职算腾讯。卞宇轩公开旧履历的腾讯 ARC 实习为 2024-06 至 2025-05、导师为 Zhaoyang Zhang 和 Ying Shan，二人不在这篇；史明镒 2023–2024 有过腾讯实习，个人列港大导师 Taku Komura 同篇缺席。无具名证据把在读合作者的这篇实际贡献关联到腾讯，保留线索。 李文同篇通讯及此前同一学生论文并不足以独立证明是徐国威的具名导师。",
+        "year": 2026
+      },
+      {
+        "year": 2025,
+        "title": "Balanced Sharpness-Aware Minimization for Imbalanced Regression",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.00589",
+        "note": "IEEE 登记全体作者单位为电子科技大学和苏黎世联邦理工学院。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "The Devil Is in the Spurious Correlations: Boosting Moment Retrieval With Dynamic Learning",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.01950",
+        "note": "ICCV 论文的注册作者单位仅电子科技大学与新加坡国立大学，和作者本人代表作吻合。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Known Objects: Prompting 6D Pose Estimator to Learn Novel Objects Continually",
+        "url": "https://doi.org/10.1109/TIP.2026.3736044",
+        "note": "IEEE 出版方 2026 年 10 月已公开；作者单位为高校和教育部重点实验室，无范围企业。",
+        "outcome": "no-evidence"
       }
     ],
     "note": "收录多名作者中同时核对了李文正式署名的论文，继续补其余公开书目。"
+  },
+  "r7_Yfj8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~0010947",
+      "https://people.ucas.edu.cn/~zhouyuanchun",
+      "https://english.cnic.cas.cn/rsearch/rp/202403/t20240307_658007.html",
+      "https://www.hdong.net/",
+      "https://qiaoziyue.com/",
+      "https://yiducn.github.io/group_temp/people.html",
+      "https://cnic.cas.cn/yjsjy/zsxx/tjms/202106/t20210630_6122005.html",
+      "https://aclanthology.org/people/yuanchun-zhou/"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "Temporal Inductive Path Neural Network for Temporal Knowledge Graph Reasoning",
+        "url": "https://doi.org/10.1016/j.artint.2024.104085",
+        "outcome": "no-evidence",
+        "note": "网络信息中心官方专题明确第一作者是周园春博士生董昊；正式稿和公开初稿未列范围企业，国家自然科学基金单独支持。标题不同于 IJCAI 的 Adaptive Path-Memory。"
+      },
+      {
+        "year": 2023,
+        "title": "Adaptive Path-Memory Network for Temporal Knowledge Graph Reasoning",
+        "url": "https://ijcai.org/proceedings/2023/232",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式版与 2304.12604 合并，作者列国科大和网络信息中心、澳门大学、港科大广州与中佛罗里达大学。董昊履历的字节实习 2024 才开始。"
+      },
+      {
+        "year": 2023,
+        "title": "Semi-supervised Domain Adaptation in Graph Transfer Learning",
+        "url": "https://ijcai.org/proceedings/2023/253",
+        "outcome": "no-evidence",
+        "note": "正式版有周园春指导过的乔子越和在读董昊共同署名，但各单位是国科大、港科大/广州霍英东研究院等；原文不列阿里，未找到同篇企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Disentangled Multi-span Evolutionary Network against Temporal Knowledge Graph Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.658/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式 PDF 与 arXiv:2505.14020 合并，董昊、周园春、杜一等署国科大，其他单位为大湾区大学与澳门大学。与董昊在字节研究的电商商品风险项目不同。"
+      },
+      {
+        "year": 2024,
+        "title": "基于语义相似关系的学科交叉主题识别方法",
+        "url": "https://qbxb.istic.ac.cn/CN/Y2024/V43/I1/34",
+        "outcome": "no-evidence",
+        "note": "《情报学报》原文词表、六名作者机构及介绍核对；列宁致远、董昊为国科大在读，无企业作者，2023 年 2 月已收稿。"
+      },
+      {
+        "year": 2023,
+        "title": "基于多标签分类的科技文献学科交叉研究性质识别",
+        "url": "https://manu44.magtech.com.cn/Jwk_infotech_wk3/CN/10.11925/infotech.2096-3467.2022.0358",
+        "outcome": "no-evidence",
+        "note": "《数据分析与知识发现》原文王卫军等四作者，网络信息中心、国科大等机构；与 2024 学科交叉主题识别一文的数据任务和 DOI 不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Rethinking Graph Contrastive Learning Through Relative Similarity Preservation",
+        "url": "https://ijcai.org/proceedings/2025/358",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式版四个院校单位包含网络信息中心、国科大、澳门大学和大湾区大学以及国科大杭州高等研究院。宁致远具名导师周园春；未见同篇企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Diversity-oriented Data Augmentation with Large Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.1084/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版与 arXiv:2502.11671 合并，作者为网络信息中心、国科大及波特兰州立大学；使用商业模型不能证明企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "scLLM-DSC: LLM-Knowledge Enhanced Cross-Modal Deep Structural Clustering for Single-Cell RNA Sequencing",
+        "url": "https://arxiv.org/pdf/2606.13007",
+        "outcome": "no-evidence",
+        "note": "公开原文九位作者署国科大及中科院、大湾区大学与西湖大学；未见范围企业角色。"
+      },
+      {
+        "year": 2026,
+        "title": "TLSA: LLM-Guided Text-Label Space Alignment with Contrastive Learning for Generalized Category Discovery",
+        "url": "https://aclanthology.org/2026.acl-long.869/",
+        "outcome": "lead",
+        "note": "ACL 正式 PDF 有百度 Chuyu Fang、国科大对应作者周园春、第一作者 Wenxi Xu 署国科大。在同篇的中科大 Xi Chen 另篇 2023 有百度实习脚注；没有证据将该实习对应此篇，也未查获该生校内导师的同篇证据。"
+      },
+      {
+        "year": 2024,
+        "title": "A Dual-channel Semi-supervised Learning Framework on Graphs via Knowledge Transfer and Meta-learning",
+        "url": "https://doi.org/10.1145/3577033",
+        "outcome": "lead",
+        "note": "乔子越本人确认博士期间师从周园春、杜一，并有阿里研究实习经历，正式版有阿里黄建强、华先胜。乔已于 2022 获博士，2024 卷期不能独自证明在读期的同篇实研。"
+      },
+      {
+        "year": 2024,
+        "title": "Deep Adaptive Graph Clustering via von Mises-Fisher Distributions",
+        "url": "https://doi.org/10.1145/3580521",
+        "outcome": "lead",
+        "note": "ACM 正式版北大吴大庆双署阿里达摩院，同篇黄建强等署阿里，周园春与其学生、2019 届博士王鹏飞同篇；王鹏飞毕业后入职阿里不能充当在读实研证据。吴大庆这一项的具体科研日期及校内指导仍待证。"
+      }
+    ],
+    "note": "以国科大导师页、网络信息中心正式报道、本人和在读生公开书目及会刊全文做首批核验。区分毕业任职、范围外实习和本篇实研；书目仍在梳理中。"
   }
 };
