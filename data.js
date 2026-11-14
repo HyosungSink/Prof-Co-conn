@@ -35870,6 +35870,328 @@ const survey = {
         ]
       ],
       "evidence": "ACL 正式版标出港大第一作者 Xingwu Chen、腾讯光子合作者 Zhanqiu Zhang 与通讯作者邹荻凡。邹荻凡的课题组自 2023 年列 Chen 为博士生。原论文所指的腾讯官方 RLSTA 实现保留了 Chen 于 2026 年 3 月 1 日以腾讯工作账号提交的初始实现，包含本篇用于多轮交互模拟、强化学习和评测的核心代码，提交早于 3 月 5 日预印本；光子作者随后在同一仓库增加引用与许可。依据的是具名实施贡献和日期，不推断正式职位名称。"
+    },
+    {
+      "id": "flowcheck-alibaba-sjtu-wxaiztmaaaaj",
+      "paperId": "doi:10.1145/3689031.3696088",
+      "company": "阿里巴巴",
+      "team": "阿里云智能网络",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "祝顺民 · Shunmin Zhu",
+        "阿里云官方 2023 云栖大会讲者档案与 ACM APNet 2025 讲者档案均列他为阿里云网络负责人；论文同期署阿里云／阿里巴巴。",
+        "https://www.alibabacloud.com/en/apsara-conference/speakers-2023?_p_lc=1"
+      ],
+      "student": [
+        "Zimeng Huang",
+        "上交江波教师主页把 Zimeng Huang 列为 2025 年毕业的硕士。EuroSys 原文其为共同第一作者，署上交与阿里云；原文所链接的阿里研究组织正式发布了同一系统完整实现。其在校期间参与该项阿里云研发；未声称是实习。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "FlowCheck: Decoupling Checkpointing and Training of Large-Scale Models",
+      "short": "FlowCheck",
+      "date": "2025-03",
+      "venue": "ACM EuroSys 2025",
+      "area": "云计算网络系统",
+      "paper": "https://jhc.sjtu.edu.cn/~bjiang/papers/Huang_EuroSys2025_FlowCheck.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3689031.3696088"
+        ],
+        [
+          "阿里研究官方同名项目",
+          "https://github.com/AlibabaResearch/flowcheck-eurosys25"
+        ],
+        [
+          "阿里云负责人 2025 年任职资料",
+          "https://conferences.sigcomm.org/events/apnet2025/industry.php"
+        ],
+        [
+          "独立企业合作者列本篇",
+          "https://jcggg.github.io/"
+        ]
+      ],
+      "evidence": "上交江波教师主页把 Zimeng Huang 列为 2025 年毕业的硕士。EuroSys 原文其为共同第一作者，署上交与阿里云；原文所链接的阿里研究组织正式发布了同一系统完整实现。其在校期间参与该项阿里云研发；未声称是实习。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大江波教师主页的学生名单确认该生为其在读或当期尚未毕业的学生；江波在会议原文是具名通讯作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
+    },
+    {
+      "id": "fastiov-alibaba-sjtu-wxaiztmaaaaj",
+      "paperId": "doi:10.1145/3689031.3696066",
+      "company": "阿里巴巴",
+      "team": "阿里云智能网络",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "祝顺民 · Shunmin Zhu",
+        "阿里云官方 2023 云栖大会讲者档案与 ACM APNet 2025 讲者档案均列他为阿里云网络负责人；论文同期署阿里云／阿里巴巴。",
+        "https://www.alibabacloud.com/en/apsara-conference/speakers-2023?_p_lc=1"
+      ],
+      "student": [
+        "Yunzhuo Liu",
+        "江波教师主页将 Yunzhuo Liu 列为 2025 年毕业博士。原文将其列为共同第一作者、同时署上交和阿里云；第 3 节把测试条件系于阿里云无服务器生产数据，阿里研究组织发布具名同篇 FastIOV 实现、数据和配套工具。校内学生实际参与同一研发，无须作实习认定。FastIOV 聚焦硬件直通 SR-IOV；正文另引 IMC 的软件 CNI 工作。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "FastIOV: Fast Startup of Passthrough Network I/O Virtualization for Secure Containers",
+      "short": "FastIOV",
+      "date": "2025-03",
+      "venue": "ACM EuroSys 2025",
+      "area": "云计算网络系统",
+      "paper": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_EuroSys2025_FastIOV.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3689031.3696066"
+        ],
+        [
+          "阿里研究官方同名项目",
+          "https://github.com/AlibabaResearch/fastiov-eurosys25"
+        ],
+        [
+          "同篇企业作者在研期间履历与工作列表",
+          "https://jcggg.github.io/"
+        ]
+      ],
+      "evidence": "江波教师主页将 Yunzhuo Liu 列为 2025 年毕业博士。原文将其列为共同第一作者、同时署上交和阿里云；第 3 节把测试条件系于阿里云无服务器生产数据，阿里研究组织发布具名同篇 FastIOV 实现、数据和配套工具。校内学生实际参与同一研发，无须作实习认定。FastIOV 聚焦硬件直通 SR-IOV；正文另引 IMC 的软件 CNI 工作。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大江波教师主页的学生名单确认该生为其在读或当期尚未毕业的学生；江波在会议原文是具名通讯作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
+    },
+    {
+      "id": "cnicmp-alibaba-sjtu-wxaiztmaaaaj",
+      "paperId": "doi:10.1145/3646547.3688436",
+      "company": "阿里巴巴",
+      "team": "阿里云智能网络",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "郭俊辰 · Junchen Guo",
+        "本人履历明确 2023.05–2024.10 为阿里云网络高级研究工程师，具名列本项目；正式论文署阿里云。",
+        "https://jcggg.github.io/"
+      ],
+      "student": [
+        "Yunzhuo Liu",
+        "江波将 Yunzhuo Liu 列为其 2025 年毕业博士。会议原文当时列刘为第一作者、双署上交和阿里云。论文第 3 至 6 节研究软件 CNI 启动时延，阿里研究官方发布同篇实现、测量工具和数据，已明确其第一作者参与同一企业研究。该篇处理软件 CNI，不是后续硬件直通 FastIOV 的改题。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "Understanding Network Startup for Secure Containers in Multi-Tenant Clouds: Performance, Bottleneck and Optimization",
+      "short": "Secure Container Network Startup",
+      "date": "2024-11",
+      "venue": "ACM IMC 2024",
+      "area": "云计算网络系统",
+      "paper": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_IMC2024_CNI.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3646547.3688436"
+        ],
+        [
+          "阿里研究官方同名项目",
+          "https://github.com/AlibabaResearch/cnicmp-imc2024"
+        ],
+        [
+          "ACM IMC 官方议程",
+          "https://conferences.sigcomm.org/imc/2024/program/"
+        ],
+        [
+          "阿里研究官方项目具名提交",
+          "https://github.com/AlibabaResearch/cnicmp-imc2024/commit/4b754c0e11b794d31af1724bd4459f041493640d"
+        ]
+      ],
+      "evidence": "江波将 Yunzhuo Liu 列为其 2025 年毕业博士。会议原文当时列刘为第一作者、双署上交和阿里云。论文第 3 至 6 节研究软件 CNI 启动时延，阿里研究官方发布同篇实现、测量工具和数据，已明确其第一作者参与同一企业研究。该篇处理软件 CNI，不是后续硬件直通 FastIOV 的改题。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大江波教师主页的学生名单确认该生为其在读或当期尚未毕业的学生；江波在会议原文是具名通讯作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
+    },
+    {
+      "id": "xplane-alibaba-sjtu-wxaiztmaaaaj",
+      "paperId": "doi:10.1145/3570361.3613267",
+      "company": "阿里巴巴",
+      "team": "阿里云智能网络",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "祝顺民 · Shunmin Zhu",
+        "阿里云官方 2023 云栖大会讲者档案与 ACM APNet 2025 讲者档案均列他为阿里云网络负责人；论文同期署阿里云／阿里巴巴。",
+        "https://www.alibabacloud.com/en/apsara-conference/speakers-2023?_p_lc=1"
+      ],
+      "student": [
+        "Yunzhuo Liu",
+        "江波在上交主页确认 Yunzhuo Liu 在此时为其在读、2025 年才毕业。ACM 原文具名其为共同第一作者、署上交及阿里巴巴，其共同作者在阿里研究官方项目上传了同一 X-Plane 的首版 P4 与随后的 RDMA 实现。阿里正式负责人祝顺民是同篇作者。证明是在读参加同一项企业研发，无须作实习认定。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "X-Plane: A High-Throughput Large-Capacity 5G UPF",
+      "short": "X-Plane",
+      "date": "2023-10",
+      "venue": "ACM MobiCom 2023",
+      "area": "云计算网络系统",
+      "paper": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MobiCom2023_X-Plane.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3570361.3613267"
+        ],
+        [
+          "阿里研究官方同名项目",
+          "https://github.com/AlibabaResearch/x-plane-5g-upf"
+        ],
+        [
+          "会议官方作者名单",
+          "https://sigmobile.org/mobicom/2023/program.html"
+        ],
+        [
+          "阿里研究官方项目初版提交",
+          "https://github.com/AlibabaResearch/x-plane-5g-upf/commit/54e2dd0c27f850945faeb595c1e19cc27bff050a"
+        ]
+      ],
+      "evidence": "江波在上交主页确认 Yunzhuo Liu 在此时为其在读、2025 年才毕业。ACM 原文具名其为共同第一作者、署上交及阿里巴巴，其共同作者在阿里研究官方项目上传了同一 X-Plane 的首版 P4 与随后的 RDMA 实现。阿里正式负责人祝顺民是同篇作者。证明是在读参加同一项企业研发，无须作实习认定。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大江波教师主页的学生名单确认该生为其在读或当期尚未毕业的学生；江波在会议原文是具名通讯作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
+    },
+    {
+      "id": "huawei-reodedup-hust-yuchong-hu",
+      "paperId": "doi:10.1109/cluster59342.2025.11186466",
+      "company": "华为",
+      "team": "数据存储研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "胡燏翀 · Yuchong Hu",
+        "华中科技大学教授，论文通讯作者，也是校方公开报道所列本项研究指导教师。",
+        "http://faculty.hust.edu.cn/huyuchong/zh_CN/index.htm"
+      ],
+      "employee": [
+        "董如良 · Ruliang Dong",
+        "IEEE 正式论文登记署华为技术有限公司。欧洲专利局另有华为独立申请的存储专利具名列其为研发发明人，同期美国专利移转记录亦指向华为。",
+        "https://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-03-26/patents/EP4261670NWB1/document.pdf"
+      ],
+      "student": [
+        "王霖 · Lin Wang",
+        "华中科技大学在读研究生、论文第一作者；校方公开报道具名说明他在导师指导下与华为开展本项研究。",
+        "https://storage.hust.edu.cn/xsdt/11.htm"
+      ],
+      "advising": [
+        "该项研究的具名指导",
+        "校方报道明确列胡燏翀、秦磊华、冯丹为王霖等学生开展 ReoDedup 研究的指导教师。",
+        "https://storage.hust.edu.cn/xsdt/11.htm"
+      ],
+      "title": "Revisiting Fragmentation for Deduplication in Clustered Primary Storage Systems",
+      "short": "ReoDedup",
+      "date": "2025-09-02",
+      "venue": "IEEE CLUSTER 2025",
+      "area": "分布式数据存储",
+      "paper": "https://doi.org/10.1109/CLUSTER59342.2025.11186466",
+      "extra": [
+        [
+          "IEEE 发表记录（含逐名署名机构）",
+          "https://api.crossref.org/works/10.1109/cluster59342.2025.11186466"
+        ],
+        [
+          "华中科技大学实验室关于该研究的报道",
+          "https://storage.hust.edu.cn/xsdt/11.htm"
+        ],
+        [
+          "国家知识产权局公布的华为数据重删专利申请",
+          "https://patentimages.storage.googleapis.com/c3/1c/bd/d6639c403dfd5b/CN119512439A.pdf"
+        ],
+        [
+          "校方具名研究生名单",
+          "https://storage.hust.edu.cn/kydw/ssyjs.htm"
+        ],
+        [
+          "美国专利记录中的同期华为任职佐证",
+          "https://patents.google.com/patent/US12619542B2/zh"
+        ]
+      ],
+      "evidence": "IEEE 的登记资料将第一作者王霖、通讯作者胡燏翀及合作者冯丹列于华中科大，董如良列于华为。华中科大实验室报道具名说明，王霖在胡燏翀、秦磊华、冯丹指导下，和华为研发了同篇论文的 ReoDedup；华为的数据重删专利申请也列胡燏翀、王霖与董如良共同发明。"
+    },
+    {
+      "id": "huawei-reodedup-hust-dan-feng",
+      "paperId": "doi:10.1109/cluster59342.2025.11186466",
+      "company": "华为",
+      "team": "数据存储研发",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "冯丹 · Dan Feng",
+        "华中科技大学教授、同篇作者，校方列为本项研究的具名指导教师。",
+        "http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm"
+      ],
+      "employee": [
+        "董如良 · Ruliang Dong",
+        "IEEE 正式论文登记署华为技术有限公司。欧洲专利局另有华为独立申请的存储专利具名列其为研发发明人，同期美国专利移转记录亦指向华为。",
+        "https://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-03-26/patents/EP4261670NWB1/document.pdf"
+      ],
+      "student": [
+        "王霖 · Lin Wang",
+        "华中科技大学在读研究生、论文第一作者；校方公开报道具名说明他在导师指导下与华为开展本项研究。",
+        "https://storage.hust.edu.cn/xsdt/11.htm"
+      ],
+      "advising": [
+        "该项研究的具名指导",
+        "校方报道明确列胡燏翀、秦磊华、冯丹为王霖等学生开展 ReoDedup 研究的指导教师。",
+        "https://storage.hust.edu.cn/xsdt/11.htm"
+      ],
+      "title": "Revisiting Fragmentation for Deduplication in Clustered Primary Storage Systems",
+      "short": "ReoDedup",
+      "date": "2025-09-02",
+      "venue": "IEEE CLUSTER 2025",
+      "area": "分布式数据存储",
+      "paper": "https://doi.org/10.1109/CLUSTER59342.2025.11186466",
+      "extra": [
+        [
+          "IEEE 发表记录（含逐名署名机构）",
+          "https://api.crossref.org/works/10.1109/cluster59342.2025.11186466"
+        ],
+        [
+          "华中科技大学实验室关于该研究的报道",
+          "https://storage.hust.edu.cn/xsdt/11.htm"
+        ],
+        [
+          "国家知识产权局公布的华为数据重删专利申请",
+          "https://patentimages.storage.googleapis.com/c3/1c/bd/d6639c403dfd5b/CN119512439A.pdf"
+        ],
+        [
+          "校方具名研究生名单",
+          "https://storage.hust.edu.cn/kydw/ssyjs.htm"
+        ],
+        [
+          "美国专利记录中的同期华为任职佐证",
+          "https://patents.google.com/patent/US12619542B2/zh"
+        ]
+      ],
+      "evidence": "IEEE 的登记资料将第一作者王霖、通讯作者胡燏翀及合作者冯丹列于华中科大，董如良列于华为。华中科大实验室报道具名说明，王霖在胡燏翀、秦磊华、冯丹指导下，和华为研发了同篇论文的 ReoDedup；华为的数据重删专利申请也列胡燏翀、王霖与董如良共同发明。"
     }
   ]
 };
