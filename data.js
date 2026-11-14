@@ -32582,6 +32582,175 @@ const survey = {
           "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/RPM-Generalization"
         ]
       ]
+    },
+    {
+      "id": "hypertree-planning-huawei-ustc-8cehlu4aaaaj",
+      "paperId": "arxiv:2505.02322",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "吴锋 · Feng Wu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.ustc.edu.cn/2020/0906/c23239a460138/page.htm"
+      ],
+      "employee": [
+        "Jianye Hao",
+        "IEEE 工业论坛 2025 年 3 月的官方讲者履历具名其为华为诺亚方舟决策与推理实验室主任，同篇按华为诺亚方舟署名。",
+        "https://icit2025.ieee-ies.org/ICIT%202025-Industry%20Forum%20Wuhan%20Program-v3.pdf"
+      ],
+      "student": [
+        "桂润泉 · Runquan Gui",
+        "中国科大在读硕士桂润泉本人具名列 2024 年 12 月到 2025 年 8 月在华为诺亚方舟开展研究合作；本人建立的该项目页面把原论文对应到华为诺亚方舟的同组三位具名研究者，ICML 正式全文独立证实署名和华为单位。这里依据研究合作记录，不把他的身份表述为实习或员工。",
+        "https://aintdoin.github.io/"
+      ],
+      "title": "HyperTree Planning: Enhancing LLM Reasoning via Hierarchical Thinking",
+      "short": "HyperTree Planning",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/gui25b/gui25b.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/gui25b.html"
+        ],
+        [
+          "同一学生的研究项目及具名华为团队",
+          "https://aintdoin.github.io/hypertree-planning.github.io/"
+        ],
+        [
+          "华为合作期内首发版",
+          "https://arxiv.org/abs/2505.02322"
+        ]
+      ],
+      "evidence": "中国科大在读硕士桂润泉本人具名列 2024 年 12 月到 2025 年 8 月在华为诺亚方舟开展研究合作；本人建立的该项目页面把原论文对应到华为诺亚方舟的同组三位具名研究者，ICML 正式全文独立证实署名和华为单位。这里依据研究合作记录，不把他的身份表述为实习或员工。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "桂润泉本人履历明确称中国科大硕士导师是吴锋，二人同篇署名；该项目发布于其硕士在读期间。",
+        "https://aintdoin.github.io/"
+      ]
+    },
+    {
+      "id": "baidu-crowdclip-hust-bai",
+      "company": "百度",
+      "team": "计算机视觉技术团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学人工智能与自动化学院教授。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ],
+      "employee": [
+        "邹智康 · Zhikang Zou",
+        "本人履历注明自 2020 年 7 月在百度任正式计算机视觉研究员，同篇以百度名义署名。",
+        "https://bigteacher-777.github.io/"
+      ],
+      "student": [
+        "梁定康 · Dingkang Liang",
+        "华中科技大学先完成硕士（2022 年），随后攻读博士（2025 年毕业）；三篇论文均注明其在百度实习。",
+        "https://dk-liang.github.io/"
+      ],
+      "title": "CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model",
+      "short": "crowdclip",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liang_CrowdCLIP_Unsupervised_Crowd_Counting_via_Vision-Language_Model_CVPR_2023_paper.pdf",
+      "evidence": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。",
+      "advising": [
+        "校内导师",
+        "梁定康主页明确说明其华中科技大学博士由白翔教授指导；白翔同时是论文通讯作者。",
+        "https://dk-liang.github.io/"
+      ],
+      "extra": [
+        [
+          "另一位同篇百度研究人员：叶晓青",
+          "https://shuluoshu.github.io/"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-sood-hust-bai",
+      "company": "百度",
+      "team": "计算机视觉技术团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学人工智能与自动化学院教授。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ],
+      "employee": [
+        "邹智康 · Zhikang Zou",
+        "本人履历注明自 2020 年 7 月在百度任正式计算机视觉研究员，同篇以百度名义署名。",
+        "https://bigteacher-777.github.io/"
+      ],
+      "student": [
+        "梁定康 · Dingkang Liang",
+        "华中科技大学先完成硕士（2022 年），随后攻读博士（2025 年毕业）；三篇论文均注明其在百度实习。",
+        "https://dk-liang.github.io/"
+      ],
+      "title": "SOOD: Towards Semi-Supervised Oriented Object Detection",
+      "short": "sood",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hua_SOOD_Towards_Semi-Supervised_Oriented_Object_Detection_CVPR_2023_paper.pdf",
+      "evidence": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。",
+      "advising": [
+        "校内导师",
+        "梁定康主页明确说明其华中科技大学博士由白翔教授指导；白翔同时是论文通讯作者。",
+        "https://dk-liang.github.io/"
+      ],
+      "extra": [
+        [
+          "另一位同篇百度研究人员：叶晓青",
+          "https://shuluoshu.github.io/"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-vitwss3d-hust-bai",
+      "company": "百度",
+      "team": "计算机视觉技术团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学人工智能与自动化学院教授。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ],
+      "employee": [
+        "邹智康 · Zhikang Zou",
+        "本人履历注明自 2020 年 7 月在百度任正式计算机视觉研究员，同篇以百度名义署名。",
+        "https://bigteacher-777.github.io/"
+      ],
+      "student": [
+        "梁定康 · Dingkang Liang",
+        "华中科技大学先完成硕士（2022 年），随后攻读博士（2025 年毕业）；三篇论文均注明其在百度实习。",
+        "https://dk-liang.github.io/"
+      ],
+      "title": "A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection",
+      "short": "vitwss3d",
+      "date": "2023-10",
+      "venue": "ICCV",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_A_Simple_Vision_Transformer_for_Weakly_Semi-supervised_3D_Object_Detection_ICCV_2023_paper.pdf",
+      "evidence": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。",
+      "advising": [
+        "校内导师",
+        "梁定康主页明确说明其华中科技大学博士由白翔教授指导；白翔同时是论文通讯作者。",
+        "https://dk-liang.github.io/"
+      ],
+      "extra": [
+        [
+          "另一位同篇百度研究人员：叶晓青",
+          "https://shuluoshu.github.io/"
+        ]
+      ]
     }
   ]
 };

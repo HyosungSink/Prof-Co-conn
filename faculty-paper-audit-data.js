@@ -598,7 +598,11 @@ const facultyPaperAudits = {
       "https://wjf5203.github.io/",
       "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09666.pdf",
       "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_General_Object_Foundation_Model_for_Images_and_Videos_at_Scale_CVPR_2024_paper.pdf",
-      "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf",
+      "https://dk-liang.github.io/",
+      "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm",
+      "https://bigteacher-777.github.io/",
+      "https://shuluoshu.github.io/"
     ],
     "papers": [
       {
@@ -642,9 +646,39 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf",
         "outcome": "confirmed",
         "note": "CVPR 首页以星号联结两位并列第一作者（含 Junfeng Wu）和本项字节跳动实习说明；学生履历也具名列此论文及同期实习。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。"
+      },
+      {
+        "title": "CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liang_CrowdCLIP_Unsupervised_Crowd_Counting_via_Vision-Language_Model_CVPR_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。"
+      },
+      {
+        "title": "SOOD: Towards Semi-Supervised Oriented Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hua_SOOD_Towards_Semi-Supervised_Oriented_Object_Detection_CVPR_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。"
+      },
+      {
+        "title": "A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_A_Simple_Vision_Transformer_for_Weakly_Semi-supervised_3D_Object_Detection_ICCV_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "计算机视觉基金会正式论文首页逐名明确：论文是在梁定康于百度实习期间完成。百度正式研究人员邹智康、叶晓青以及校内导师白翔均为同篇作者。"
+      },
+      {
+        "title": "Make Your ViT-based Multi-view 3D Detectors Faster via Token Compression",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06320-supp.pdf",
+        "outcome": "lead",
+        "note": "双方及学生同篇，但目前未证实梁定康参与本篇发生于百度实习。"
+      },
+      {
+        "title": "SOOD++: Leveraging Unlabeled Data to Boost Oriented Object Detection",
+        "url": "https://arxiv.org/pdf/2407.01016",
+        "outcome": "lead",
+        "note": "2023 年 SOOD 扩展，尚未见独立具名项目实习证据。避免与会议版本重复统计。"
       }
     ],
-    "note": "已经逐篇核对该合作簇及部分论文来源，未覆盖该教师全部公开书目。"
+    "note": "已核查梁定康的多篇作品及企业实习脚注；通盘书目仍待核。"
   },
   "8D_9JI0AAAAJ": {
     "from": "2023-01-01",
@@ -9977,5 +10011,23 @@ const facultyPaperAudits = {
         "note": "初版首页把通义实习成果脚注明确标在第一作者 Yongqi Li 名下；该生履历记载武大 2023–2026 硕士阶段、钱铁云为具名导师、2025.05–2026.01 通义实习，李永彬为企业导师。钱铁云与李永彬均是同篇通讯作者；通义公开组织代码库收录该项。"
       }
     ]
+  },
+  "8CEHlu4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.ustc.edu.cn/2020/0906/c23239a460138/page.htm",
+      "https://aintdoin.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "HyperTree Planning: Enhancing LLM Reasoning via Hierarchical Thinking",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/gui25b/gui25b.pdf",
+        "outcome": "confirmed",
+        "note": "中国科大在读硕士桂润泉本人具名列 2024 年 12 月到 2025 年 8 月在华为诺亚方舟开展研究合作；本人建立的该项目页面把原论文对应到华为诺亚方舟的同组三位具名研究者，ICML 正式全文独立证实署名和华为单位。这里依据研究合作记录，不把他的身份表述为实习或员工。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   }
 };
