@@ -41723,6 +41723,164 @@ const survey = {
         "https://zhanghe3z.github.io/"
       ],
       "year": 2023
+    },
+    {
+      "id": "tencent-shotverse-hkust-anyi-rao",
+      "paperId": "arxiv:2603.11421",
+      "company": "腾讯",
+      "team": "腾讯在线视频 · 视频 AI 中心（PCG）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "饶安逸 · Anyi Rao",
+        "港科大计算机科学与工程学系助理教授、论文通讯作者；Songlin Yang 的港科大博士导师之一。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/anyirao"
+      ],
+      "student": [
+        "Songlin Yang",
+        "港科大博士生，腾讯视频 AI 中心学生研究员；最初公开版本把他列为双方共同署名的共同第一作者及项目负责人，学生及项目页面可独立核对。",
+        "https://arxiv.org/pdf/2603.11421v1"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "学生本人具名列饶安逸、傅红波为博士导师；饶安逸同篇并为通讯作者，傅红波未署该篇。",
+        "https://songlin1998.github.io/"
+      ],
+      "employee": [
+        "Alan Zhao",
+        "论文同篇署腾讯视频 AI 中心。2025 年 SIGGRAPH Asia 官方报告人资料独立确定其任该中心主任。",
+        "https://sa2025.conference-schedule.org/contributor/?uid=042904"
+      ],
+      "title": "ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation",
+      "short": "ShotVerse",
+      "year": 2026,
+      "date": "2026-03-12",
+      "venue": "arXiv 预印本（SIGGRAPH Asia 2026 已录用）",
+      "area": "视频生成与智能创作",
+      "paper": "https://arxiv.org/pdf/2603.11421v1",
+      "extra": [
+        [
+          "原始合著项目与逐名单位",
+          "https://shotverse.github.io/"
+        ],
+        [
+          "学生的在读与腾讯研究员经历",
+          "https://songlin1998.github.io/"
+        ],
+        [
+          "港科大独立课题组名录",
+          "https://mmlab-hkust.github.io/"
+        ],
+        [
+          "后续会议版本与作者单位变更",
+          "https://arxiv.org/html/2603.11421v2"
+        ]
+      ],
+      "evidence": "2026-03-12 第一版明确在共同第一作者 Songlin Yang 名下列港科大、腾讯视频 AI 中心两项机构，并把该生标为本篇项目负责人。本人履历、团队名录分别确认同期博士指导和腾讯视频 AI 中心学生研究岗；同篇署腾讯的 Alan Zhao 由正式会议资料确认系该中心主任；饶安逸为校内博士导师、同篇通讯。8 月会议稿给前三名作者只保留港科大署名、本文同时保留原始企业项目证据；写作截止时正式 DOI 尚未生效。"
+    },
+    {
+      "id": "baidu-sghma-hkustgz-xiong",
+      "company": "百度",
+      "team": "Baidu Research",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "熊辉 · Hui Xiong",
+        "香港科技大学（广州）人工智能学域讲席教授；本篇署港科广。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"
+      ],
+      "employee": [
+        "周景博 · Jingbo Zhou",
+        "本人履历列 2015 年起任百度研究院研究科学家；本文共同作者署百度研究院。",
+        "https://zhoujingbo.github.io/"
+      ],
+      "student": [
+        "陈曦 · Xi Chen",
+        "中科大硕博阶段的在读生，2021 年开始硕士；具名在百度研究院实习完成本篇研究。",
+        "https://aclanthology.org/2023.findings-emnlp.44.pdf"
+      ],
+      "title": "A Table-to-Text Framework with Heterogeneous Multidominance Attention and Self-Evaluated Multi-Pass Deliberation",
+      "short": "SG-HMA",
+      "date": "2023-12-06",
+      "venue": "Findings of EMNLP 2023",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2023.findings-emnlp.44.pdf",
+      "evidence": "论文首页脚注具名首作者陈曦在百度研究院实习期间完成研究；陆新江和周景博同篇署百度研究院。熊辉同篇署港科广，其实验室官网把陈曦直接列入博士生栏目（中科大硕博项目，2021 年入硕），不同于单列的访问学生。中科院实验室公开名单和中科大官方公示可交叉确认同人及在读身份。",
+      "advising": [
+        "硕博培养期间学术指导",
+        "熊辉课题组官方博士生名单具名列陈曦（Xi Chen，中科大 Master–PhD program，2021 年入硕），与访问学生名单分开。",
+        "https://ailab.hkust-gz.edu.cn/group.html"
+      ],
+      "paperId": "doi:10.18653/v1/2023.findings-emnlp.44",
+      "extra": [
+        [
+          "港科大（广州）正式教师资料",
+          "https://www.hkust-gz.edu.cn/people/hui-xiong/"
+        ],
+        [
+          "中科院实验室访问时的姓名及在读反向对证",
+          "https://www.bigdatamining.cn/team.html"
+        ],
+        [
+          "中科大计算机学院博士奖学金公示",
+          "https://cs.ustc.edu.cn/2026/0928/c22510a754697/page.htm"
+        ],
+        [
+          "论文活动与日期",
+          "https://aclanthology.org/2023.findings-emnlp.44/"
+        ]
+      ],
+      "year": 2023
+    },
+    {
+      "id": "alibaba-asyppo-hkust-pan",
+      "paperId": "arxiv:2510.01656",
+      "company": "阿里巴巴",
+      "team": "淘天 · ROLL 研究团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "潘玲 · Ling Pan",
+        "香港科技大学助理教授；论文共同通讯作者，并在其课题组列刘嘉顺为博士生。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan"
+      ],
+      "employee": [
+        "王维埙 · Weixun Wang",
+        "阿里巴巴强化学习研究员；项目报告列其为淘天未来生活实验室算法专家，正式论文署阿里并列其公司邮箱及通讯作者身份。",
+        "https://wwxfromtju.github.io/"
+      ],
+      "student": [
+        "刘嘉顺 · Jiashun Liu",
+        "2025 年秋起攻读港科大博士；同篇共同第一作者兼署港科大与阿里。智源列其为本研究所在阿里 ROLL 项目的具名报告人。",
+        "https://hub.baai.ac.cn/view/50819"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "潘玲课题组博士生名单列刘嘉顺入学时间为 2025 年秋；二人是同一正式论文作者。",
+        "https://ling-pan.github.io/group/"
+      ],
+      "title": "Asymmetric Proximal Policy Optimization: mini-critics boost LLM reasoning",
+      "short": "AsyPPO",
+      "year": 2025,
+      "date": "2025-10-02",
+      "venue": "ICLR 2026",
+      "area": "强化学习与大语言模型",
+      "paper": "https://openreview.net/pdf/e2b881c5d551fd5c5c1c9d09cd500a88834560b4.pdf",
+      "extra": [
+        [
+          "阿里 ROLL 研究团队的同项目介绍",
+          "https://wwxfromtju.github.io/roll_team.html"
+        ],
+        [
+          "首次公开日期和作者书目",
+          "https://arxiv.org/abs/2510.01656"
+        ],
+        [
+          "智源活动：具名学生和企业研究团队报告介绍",
+          "https://hub.baai.ac.cn/view/50819"
+        ]
+      ],
+      "evidence": "ICLR 正式论文把共同第一作者刘嘉顺列为港科大与阿里巴巴双署；潘玲和淘天的王维埙均为通讯作者。潘玲的博士生名录和智源公开活动资料分别确认刘嘉顺自 2025 年秋在读；智源同一活动将刘嘉顺、王维埙具名列为阿里 ROLL 的 3A 联合项目报告人，内容明确包含 AsyPPO，王维埙的 ROLL 团队技术记录也将 AsyPPO 列为本团队研究。原始预印本于 2025 年 10 月 2 日公开。"
     }
   ]
 };

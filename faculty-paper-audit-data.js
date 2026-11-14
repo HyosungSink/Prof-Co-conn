@@ -8395,7 +8395,13 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://aclanthology.org/2026.acl-long.1047/",
-      "https://liyichen-cly.github.io/"
+      "https://liyichen-cly.github.io/",
+      "https://www.hkust-gz.edu.cn/people/hui-xiong/",
+      "https://ailab.hkust-gz.edu.cn/group.html",
+      "https://zhoujingbo.github.io/",
+      "https://aclanthology.org/2023.findings-emnlp.44.pdf",
+      "https://www.bigdatamining.cn/team.html",
+      "https://cs.ustc.edu.cn/2026/0928/c22510a754697/page.htm"
     ],
     "papers": [
       {
@@ -8403,6 +8409,13 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.acl-long.1047/",
         "outcome": "lead",
         "note": "小红书实习脚注专属于 USTC 博士生 Wei Wu，正式员工 Liyi Chen 确认；目前未查到校际共培或论文指导材料将 Wei Wu 交由港科大（广州）Hui Xiong 指导。同篇 Liyi Chen 曾为其学生但已于 2025 年毕业。"
+      },
+      {
+        "title": "A Table-to-Text Framework with Heterogeneous Multidominance Attention and Self-Evaluated Multi-Pass Deliberation",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.findings-emnlp.44.pdf",
+        "outcome": "confirmed",
+        "note": "正式版具名实习，百度研究科学家周景博同篇；熊辉课题组官方博士名单具名列中科大硕博生陈曦。"
       }
     ]
   },
@@ -43554,7 +43567,9 @@ const facultyPaperAudits = {
       "https://yuxiaooye.github.io/",
       "https://zhongwen.one/",
       "https://researchportal.hkust.edu.hk/en/persons/ling-pan/",
-      "https://wwxfromtju.github.io/"
+      "https://wwxfromtju.github.io/",
+      "https://hub.baai.ac.cn/view/50819",
+      "https://wwxfromtju.github.io/roll_team.html"
     ],
     "papers": [
       {
@@ -43607,11 +43622,11 @@ const facultyPaperAudits = {
         "outcome": "confirmed"
       },
       {
-        "year": 2025,
         "title": "Asymmetric Proximal Policy Optimization: mini-critics boost LLM reasoning",
-        "url": "https://openreview.net/pdf/e2b881c5d551fd5c5c1c9d09cd500a88834560b4.pdf",
-        "note": "正式版列第一作者刘嘉顺港科大及阿里巴巴双署，具名研究员王维埙为通讯作者、潘玲为其校内导师。待独立核实该生在阿里时对本项研究的贡献或项目归属。",
-        "outcome": "lead"
+        "year": 2025,
+        "note": "ICLR 正式论文把共同第一作者刘嘉顺列为港科大与阿里巴巴双署；潘玲和淘天的王维埙均为通讯作者。潘玲的博士生名录和智源公开活动资料分别确认刘嘉顺自 2025 年秋在读；智源同一活动将刘嘉顺、王维埙具名列为阿里 ROLL 的 3A 联合项目报告人，内容明确包含 AsyPPO，王维埙的 ROLL 团队技术记录也将 AsyPPO 列为本团队研究。原始预印本于 2025 年 10 月 2 日公开。",
+        "outcome": "confirmed",
+        "url": "https://openreview.net/pdf/e2b881c5d551fd5c5c1c9d09cd500a88834560b4.pdf"
       },
       {
         "year": 2025,
@@ -43692,5 +43707,191 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核对港科大研究门户、个人书目、课题组博士生名录和正式论文首页。其余题录仍待逐篇梳理。"
+  },
+  "8lKr7j4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/pdf/2603.11421v1",
+      "https://songlin1998.github.io/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/anyirao",
+      "https://sa2025.conference-schedule.org/contributor/?uid=042904",
+      "https://shotverse.github.io/",
+      "https://mmlab-hkust.github.io/",
+      "https://arxiv.org/html/2603.11421v2",
+      "https://arxiv.org/html/2605.23271v1",
+      "https://arxiv.org/pdf/2610.30926v1",
+      "https://shotverse.github.io/fapl/",
+      "https://arxiv.org/pdf/2609.37200v1"
+    ],
+    "papers": [
+      {
+        "title": "ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation",
+        "url": "https://arxiv.org/pdf/2603.11421v1",
+        "outcome": "confirmed",
+        "note": "2026-03-12 第一版明确在共同第一作者 Songlin Yang 名下列港科大、腾讯视频 AI 中心两项机构，并把该生标为本篇项目负责人。本人履历、团队名录分别确认同期博士指导和腾讯视频 AI 中心学生研究岗；同篇署腾讯的 Alan Zhao 由正式会议资料确认系该中心主任；饶安逸为校内博士导师、同篇通讯。8 月会议稿给前三名作者只保留港科大署名、本文同时保留原始企业项目证据；写作截止时正式 DOI 尚未生效。",
+        "year": 2026
+      },
+      {
+        "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+        "url": "https://arxiv.org/html/2605.23271v1",
+        "outcome": "existing",
+        "note": "该篇两位导师已上线并按一篇计数；第一作者纸面双署并具名项目负责，学生本人确认为腾讯视频 AI 中心学生研究员。",
+        "year": 2026
+      },
+      {
+        "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+        "url": "https://arxiv.org/pdf/2610.30926v1",
+        "outcome": "lead",
+        "note": "第一作者明确标项目负责但仅署港科大；同篇 Alan Zhao 和若干职员署腾讯视频，且其本人列腾讯研究岗。作者新项目含两项独立实验，不能沿用先前 ShotVerse 的企业标记；缺同篇企业参与来源。",
+        "year": 2026
+      },
+      {
+        "title": "Adaptive Reward Routing: Dynamic Multi-Reward Optimization for Joint Audio-Video Diffusion via Forward-Process RL",
+        "url": "https://arxiv.org/pdf/2609.37200v1",
+        "outcome": "lead",
+        "note": "港科大在读博士与导师、腾讯视频 AI 中心主任同篇，但学生署港科大，原始 PDF 无实习脚注。曾任腾讯学生研究员和该篇主题相关，未建立项目层级企业参与。",
+        "year": 2026
+      }
+    ],
+    "note": "先审课题组公开视频论文和参与者履历；其余书目待继续，未标完成。"
+  },
+  "DMibRrYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~duyi",
+      "https://cnic.cas.cn/sourcedb_cnic_cas/zw/rcdw/yjy/202107/t20210702_6125775.html",
+      "https://yiducn.github.io/cv/index_zh.html",
+      "https://orcid.org/0000-0003-3121-8937",
+      "https://qiaoziyue.com/",
+      "https://www.researchgate.net/publication/392033418_AutoDive_An_Adaptive_Model_Enhanced_Multimodal_Online_Annotation_Tool",
+      "https://arxiv.org/pdf/2309.01717",
+      "https://arxiv.org/pdf/2212.13408",
+      "https://pubmed.ncbi.nlm.nih.gov/38362645/"
+    ],
+    "papers": [
+      {
+        "title": "PreSL: Document Level Pre-training of Scientific Literature via Self-supervised Learning",
+        "year": 2026,
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-8447-5_2",
+        "outcome": "no-evidence",
+        "note": "BigData 2025 会后正式章于 2026 年 7 月出版；Springer 具名乔子越署大湾区大学，其他作者为网络信息中心、国科大、杭高院；未见目标企业。"
+      },
+      {
+        "title": "AutoDive+: An Adaptive Model Enhanced Multimodal Online Annotation Tool",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3701716.3715167",
+        "outcome": "no-evidence",
+        "note": "正式样式 PDF 由作者杜一上传，作者仅中科院网络信息中心与国科大；与 ACL 2023 的早期系统演示有不同样本、模块与 DOI。"
+      },
+      {
+        "title": "Autodive: An Integrated Onsite Scientific Literature Annotation Tool",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.acl-demo.7/",
+        "outcome": "no-evidence",
+        "note": "ACL 官方全文署中科院网络信息中心、国科大与中科大，未见目标企业合著。"
+      },
+      {
+        "title": "NEEDED: Introducing Hierarchical Transformer to Eye Diseases Diagnosis",
+        "year": 2023,
+        "url": "https://doi.org/10.1137/1.9781611977653.ch75",
+        "outcome": "no-evidence",
+        "note": "SIAM 正式版与 arXiv 2212.13408 合一。原稿具名长沙爱尔眼科医院参与，不在 14 家范围。"
+      },
+      {
+        "title": "Interdisciplinary Fairness in Imbalanced Research Proposal Topic Inference: A Hierarchical Transformer-based Method with Selective Interpolation",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3671149",
+        "outcome": "no-evidence",
+        "note": "ACM 正式论文与 2309.01717v3 合一。大湾区大学、亚利桑那州立大学、新加坡 A*STAR、国科大和中科院网络信息中心；未见目标企业。"
+      },
+      {
+        "title": "A corpus of CO2 electrocatalytic reduction process extracted from the scientific literature",
+        "year": 2023,
+        "url": "https://www.nature.com/articles/s41597-023-02089-z",
+        "outcome": "no-evidence",
+        "note": "Nature 正式原文作者机构为中科院网络中心、国家纳米科学中心和国科大；正文具名流程为国家纳米科学中心学生标注，非企业研究。"
+      },
+      {
+        "title": "Preference-Aware Bayesian Optimization for Interactive Decision Making",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TCYB.2025.3633283",
+        "outcome": "no-evidence",
+        "note": "IEEE 2026 年卷的独立论文；出版社登记作者单位仅网络信息中心，未见范围内企业合著。"
+      },
+      {
+        "title": "Hierarchical Interdisciplinary Topic Detection Model for Research Proposal Classification",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TKDE.2023.3248608",
+        "outcome": "no-evidence",
+        "note": "IEEE 2023 年卷；正式署名为中科院网络中心、澳门大学、中佛罗里达大学与港科广，未见范围内企业。"
+      },
+      {
+        "title": "Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3833385",
+        "outcome": "no-evidence",
+        "note": "ACM TKDD 正式书目为中科院网络中心、国科大、大湾区大学及新加坡医学院；未见范围内企业。"
+      },
+      {
+        "title": "Trajectory-Constrained Feature Transformation Optimization Framework for Stable Tabular Data Reprogramming",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3857802",
+        "outcome": "no-evidence",
+        "note": "ACM TKDD 正式书目为网络中心、国科大、清华、西湖、大湾区大学、新加坡 A*STAR 和美国高校；未见范围内企业。"
+      },
+      {
+        "title": "DP-CRE: Continual Relation Extraction via Decoupled Contrastive Learning and Memory Structure Preservation",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.lrec-main.475/",
+        "outcome": "no-evidence",
+        "note": "LREC-COLING 正式稿与 arXiv 2403.02718 合一；中科院网络信息中心、国科大与杭高院，未见目标企业。"
+      },
+      {
+        "title": "Large language model enhanced corpus of CO2 reduction electrocatalysts and synthesis procedures",
+        "year": 2024,
+        "url": "https://www.nature.com/articles/s41597-024-03180-9",
+        "outcome": "no-evidence",
+        "note": "Scientific Data 2024 独立论文；中科院网络信息中心、国家纳米科学中心等机构，具名学生标注无范围内企业。"
+      },
+      {
+        "title": "Assessing bioartificial organ function: the 3P model framework and its validation",
+        "year": 2024,
+        "url": "https://doi.org/10.1039/D3LC01020A",
+        "outcome": "no-evidence",
+        "note": "RSC 正式作者单位为中科院动物所、北京干细胞与再生医学研究院、北大及网络中心、国科大，无目标公司。"
+      },
+      {
+        "title": "RDKG: A Reinforcement Learning Framework for Disease Diagnosis on Knowledge Graph",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/ICDM58522.2023.00122",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式作者单位包含长沙爱尔眼科医院、网络信息中心与波特兰州立大学；医院不在目标企业名单。"
+      },
+      {
+        "title": "Revisiting Electrocatalyst Design by a Knowledge Graph of Cu-Based Catalysts for CO2 Reduction",
+        "year": 2023,
+        "url": "https://doi.org/10.1021/acscatal.3c00759",
+        "outcome": "no-evidence",
+        "note": "ACS 正式署名为网络信息中心、国家纳米科学中心及国科大，未见目标企业。"
+      },
+      {
+        "title": "Expert-in-the-Loop Systems for High-Quality Training Data Construction: A Survey",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TSMC.2026.3734945",
+        "outcome": "no-evidence",
+        "note": "IEEE 2026 年 11 月卷的综述；正式登记作者署名为中国科学院，无目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "A Dual-channel Semi-supervised Learning Framework on Graphs via Knowledge Transfer and Meta-learning",
+        "url": "https://doi.org/10.1145/3577033",
+        "outcome": "lead",
+        "note": "乔子越本人确认博士期间师从周园春、杜一，并有阿里研究实习经历，正式版有阿里黄建强、华先胜。乔已于 2022 获博士，2024 卷期不能独自证明在读期的同篇实研。"
+      }
+    ]
   }
 };
