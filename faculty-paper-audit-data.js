@@ -18714,7 +18714,11 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/88/9557.html",
       "https://aclanthology.org/",
       "https://openreview.net/",
-      "https://arxiv.org/search/?query=Yongchao+Chen&searchtype=author"
+      "https://arxiv.org/search/?query=Yongchao+Chen&searchtype=author",
+      "https://2026.acmmm.org/site/technical-programme.html",
+      "https://api.crossref.org/works?query.author=Yongchao+Chen",
+      "https://dash.harvard.edu/entities/publication/8ae55192-58de-47c8-b39f-359b3030c908",
+      "https://neurips.cc/virtual/2026/loc/sydney/poster/139243"
     ],
     "papers": [
       {
@@ -18748,7 +18752,7 @@ const facultyPaperAudits = {
       {
         "title": "Physics-Enhanced Multi-fidelity Learning for Optical Surface Imprint",
         "year": 2023,
-        "url": "https://doi.org/10.48550/arXiv.2311.10278",
+        "url": "https://openreview.net/pdf/bf058a3e9a97a2797a6d4a467ef64df251ddda89.pdf",
         "outcome": "no-evidence",
         "note": "2023 年：2023 NeurIPS 工作坊稿，由陈勇超独著，原文和本人书目交叉核对。"
       },
@@ -18804,7 +18808,7 @@ const facultyPaperAudits = {
       {
         "title": "CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance",
         "year": 2025,
-        "url": "https://openreview.net/forum?id=ezna4V4zHs",
+        "url": "https://proceedings.mlr.press/v267/chen25x.html",
         "outcome": "no-evidence",
         "note": "2025 年：ICML 2025 正式版与 arXiv 同篇；署 MIT、哈佛、伊利诺伊大学厄巴纳香槟分校、MIT-IBM Watson AI Lab。"
       },
@@ -18846,7 +18850,7 @@ const facultyPaperAudits = {
       {
         "title": "Steering Large Language Models between Code Execution and Textual Reasoning",
         "year": 2025,
-        "url": "https://openreview.net/forum?id=5X5Z7Ffrjb",
+        "url": "https://openreview.net/pdf/5b12beca358535fc788c1d49de3555794ff90b5b.pdf",
         "outcome": "no-evidence",
         "note": "2025 年：ICLR 正式稿作者来自 MIT、哈佛、微软与 Google DeepMind，后两者不在范围内。"
       },
@@ -18951,9 +18955,9 @@ const facultyPaperAudits = {
       {
         "title": "One-Step Flow Policy: Self-Distillation for Fast Visuomotor Policies",
         "year": 2026,
-        "url": "https://doi.org/10.48550/arXiv.2603.12480",
+        "url": "https://doi.org/10.1007/978-3-032-37242-0_2",
         "outcome": "no-evidence",
-        "note": "2026 年：原文署密歇根大学、理海大学和清华。"
+        "note": "2026 年：Springer 正式会议篇章与 3 月预印本同篇，密歇根大学、理海大学与清华同署，未见范围内企业。"
       },
       {
         "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
@@ -19010,9 +19014,16 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2610.41857v1",
         "outcome": "no-evidence",
         "note": "2026 年：原文署清华及中国科学院大学。"
+      },
+      {
+        "title": "HoRoTrust: Evaluating the Trustworthiness of Multimodal Large Language Models for Household Robot Interaction",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3767308.3835718",
+        "outcome": "no-evidence",
+        "note": "2026 年：ACM 于 11 月 9 日发表，11 月 11 日会议议程及 DOI 均列陈勇超署清华。其余作者署华中科大、理海大学；未发现范围内企业的具名作者。"
       }
     ],
-    "note": "交叉核对本人书目、DBLP、arXiv、会议与出版社原文，记录 42 篇；排除深圳儿童医院、安医附院、大连理工相关单位、山西大学量子光学及中南大学同名误收。部分会议仅公布录用清单或文献尚待确权，保留梳理中；首选正式出版年份，超出调查期的正式稿未纳入。"
+    "note": "交叉核对本人书目、DBLP、Crossref、哈佛学位库引文、arXiv、会议与出版社原文，已记 43 篇；哈佛学位论文本身不作论文，排除深圳儿童医院、安医附院、大连理工、山西大学及中南大学等同名误收。NeurIPS 2026 议程公布同名论文题录，但截至 11 月 12 日尚未见可核的公开论文全文或预印本，暂未计入。后续尚有书目待逐篇核对。"
   },
   "QsjKzGQAAAAJ": {
     "from": "2023-01-01",
@@ -19462,7 +19473,7 @@ const facultyPaperAudits = {
         "title": "Leveraging spatial-angular redundancy for self-supervised denoising of 3D fluorescence imaging without temporal dependency",
         "url": "https://doi.org/10.1038/s41467-025-66654-3",
         "outcome": "no-evidence",
-        "note": "2025 年：Nature Communications 原文有清华、复旦和浙江禾湖科技署名；禾湖科技不在本项目企业范围。"
+        "note": "2025 年：Nature Communications 原文有清华、复旦和Zhejiang Hehu Technology署名；该公司不在本项目企业范围。"
       },
       {
         "year": 2025,
@@ -19504,7 +19515,7 @@ const facultyPaperAudits = {
         "title": "High-fidelity intravital imaging of biological dynamics with latent-space-enhanced digital adaptive optics",
         "url": "https://doi.org/10.1038/s41587-026-03107-2",
         "outcome": "no-evidence",
-        "note": "2026 年：正式题录含清华、复旦、视科研究机构及浙江禾湖科技；后者不属项目企业范围。清华新闻亦逐名列学校团队与该研究贡献。"
+        "note": "2026 年：正式题录含清华、复旦、视科研究机构及Zhejiang Hehu Technology；后者不属项目企业范围。清华新闻亦逐名列学校团队与该研究贡献。"
       },
       {
         "year": 2026,
@@ -19798,5 +19809,170 @@ const facultyPaperAudits = {
         "note": "arXiv 于 2026-10-14 更新作者和题名，初稿（Towards Better Evolution Modeling for Temporal Knowledge Graphs）按同一预印本处理。最新版列西电、北大、电子科大和西安邮电大学，未见范围内企业。"
       }
     ]
+  },
+  "k1S8Sc4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2609.34335v1",
+      "https://narechania.com/docs/arpit_narechania_cv.pdf",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit",
+      "https://longo11070001.github.io/",
+      "https://yhuang.top/",
+      "https://github.com/Ais0n/SkillPE"
+    ],
+    "papers": [
+      {
+        "title": "SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering",
+        "url": "https://arxiv.org/html/2609.34335v1",
+        "outcome": "confirmed",
+        "note": "SkillPE 首页为唯一带实习注记的一作 Yanwei Huang 标港科大及 KlingAI；脚注明示关联到本篇研究。导师本人正式履历注明从 2025 秋学期指导其博士，并在论文署港科大。快手可灵经理张远行在同篇作者页具名且独立确认企业岗位。",
+        "year": 2026
+      }
+    ]
+  },
+  "M3KkzOcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.nju.edu.cn/e9/60/c18540a321888/pagem.htm",
+      "https://dblp.org/pid/163/5197.html",
+      "https://orcid.org/0009-0004-7762-8573",
+      "https://arxiv.org/search/?query=Yizheng+Zhao&searchtype=author",
+      "https://ai.nju.edu.cn/CamTuNguyen/",
+      "https://arxiv.org/html/2602.01572v2",
+      "https://arxiv.org/pdf/2511.17129v2",
+      "https://research.manchester.ac.uk/en/publications/do-transformers-learn-what-theory-predicts-knowledge-representati/",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602287950918674",
+      "https://doi.org/10.1145/3746252.3761464",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602297372206615",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602226897581650",
+      "https://www2024.thewebconf.org/accepted/research-tracks/",
+      "https://www.sigweb.hosting.acm.org/toc/cikm23.html"
+    ],
+    "papers": [
+      {
+        "title": "RAG-on-a-Diet: A Reinforcement Learning-Based Dynamic Resource Optimization Framework for RAG",
+        "url": "https://aclanthology.org/2026.acl-long.1562.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACL 正式稿列合作者来自深圳国际交流学院及南京大学，不见调查企业作者。"
+      },
+      {
+        "title": "LLM-based Embeddings: Attention Values Encode Sentence Semantics Better Than Hidden States",
+        "url": "https://proceedings.mlr.press/v306/zhang26ga.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICML 正式篇与 arXiv:2602.01572 合并，作者均署南京大学。"
+      },
+      {
+        "title": "Learning to Compress: Unlocking the Potential of Large Language Models for Text Representation",
+        "url": "https://doi.org/10.1609/aaai.v40i34.40075",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式篇与 2025 年预印本合并，南大课题组确认第一作者为在读博士；企业合作者署阶跃星辰，超出本项目 14 家企业范围。"
+      },
+      {
+        "title": "Do Transformers Learn What Theory Predicts? Knowledge Representation-Guided Mechanistic Verification via Causal Abstraction",
+        "url": "https://proceedings.kr.org/2026/95/",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "KR 2026 与曼彻斯特大学机构库的题录一致；公开作者对应南京大学、曼彻斯特大学和耶鲁大学。"
+      },
+      {
+        "title": "Uniform Interpolation and Forgetting for Large-Scale Ontologies with Application to Semantic Difference in SNOMED CT",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-99984-0_34",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer 原文只列南京大学和曼彻斯特大学作者；SNOMED CT 是论文研究对象。"
+      },
+      {
+        "title": "Strong Forgetting for ALCQ-Ontologies",
+        "url": "https://doi.org/10.1145/3746252.3761380",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 题录与 JST 独立逐名单位一致，两位作者均是南京大学。"
+      },
+      {
+        "title": "OntoLDiff: A Highly Efficient System for Tracking Logical Difference in Large-Scale Ontologies",
+        "url": "https://research.manchester.ac.uk/en/publications/ontoldiff-a-highly-efficient-system-for-tracking-logical-differen/",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "曼彻斯特大学机构库与 ACM 正式版对应；作者为两校研究人员，没有调查企业作者。"
+      },
+      {
+        "title": "A Neuro-Symbolic Approach to Symbol Grounding for ALC-Ontologies",
+        "url": "https://doi.org/10.1145/3711896.3736926",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式 KDD 与 JST 逐名作者单位对应；两位作者均为南京大学。"
+      },
+      {
+        "title": "When Logic Meets Perception: Operator-Agnostic Differentiable Reasoning for Reliable Neural Prediction",
+        "url": "https://research.manchester.ac.uk/en/publications/when-logic-meets-perception-operator-agnostic-differentiable-reas/",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "机构库与 KDD 正式记录一致，列南京大学、曼彻斯特大学和耶鲁大学。"
+      },
+      {
+        "title": "Fast and Faithful: Scalable Neuro-Symbolic Learning and Reasoning with Differentiable Fuzzy EL++",
+        "url": "https://doi.org/10.1145/3770854.3780220",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM KDD 正式题录与 JST 核对作者；无符合口径的企业参研或指导证据。"
+      },
+      {
+        "title": "Efficient Computation of Signature-Restricted Views for Semantic Web Ontologies",
+        "url": "https://doi.org/10.1145/3589334.3645317",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "WWW 正式会议仅列赵一铮一位作者，不具备三方关系。"
+      },
+      {
+        "title": "Highly-Optimized Forgetting for Creating Signature-Based Views of Ontologies",
+        "url": "https://doi.org/10.1145/3583780.3614771",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM CIKM 正式 DOI 只对应赵一铮单作者作品。另一篇 IJCKG 汇编首页误印同一个 DOI；两篇题名、作者、会议均有区别。"
+      },
+      {
+        "title": "Term Selection for Abstraction of OWL Ontologies",
+        "url": "https://ijckg2023.knowledge-graph.jp/pages/proc/paper_51.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IJCKG 会议发布汇编正稿列三名作者均署南京大学；首页错误复用 CIKM 另一篇 DOI，以会议原文标记。"
+      },
+      {
+        "title": "What a Surprise! Computing Rewritten Modules Can Be as Efficient as Computing Subset Modules",
+        "url": "https://doi.org/10.1145/3627673.3679528",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "CIKM 正式题录确认赵一铮与 Zhihao Yang 两名作者，缺可读原文单位栏，没有足够证据确认企业研究。"
+      },
+      {
+        "title": "From Global Search to Local Lookup: Scalable Knowledge Base Completion via Differentiable Guarded Logic",
+        "url": "https://doi.org/10.1145/3837113",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACM 期刊及 ORCID 仅列赵一铮；公开项目代码不构成企业合著。"
+      },
+      {
+        "title": "The Price of Fairness in Active Learning: Fundamental Limits and Optimal Label Acquisition",
+        "url": "https://doi.org/10.1145/3770855.3818205",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "KDD 正式题录确认 Hongwen Ding 与赵一铮两名作者，尚未获得正式稿逐名单位，不能从两人的另一篇论文推断本篇企业参与。"
+      },
+      {
+        "title": "OntoEL: Neuro-Symbolic Biomedical Entity Linking with Differentiable Fuzzy EL⊥ Reasoning",
+        "url": "https://doi.org/10.1145/3805712.3809595",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ACM SIGIR 与同一 ORCID 确认四名作者，但未取得可公开复核的作者单位页；未发现同篇学生企业项目证据。"
+      }
+    ],
+    "note": "已交叉对照南大任职、ORCID、Crossref、DBLP、arXiv、ACL/ICML 与合作者机构库。仍有几篇需确认完整作者单位并寻漏收，暂标梳理中。"
   }
 };

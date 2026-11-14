@@ -35447,6 +35447,51 @@ const survey = {
         ]
       ],
       "evidence": "学生个人履历明确记录浙江大学硕士和蚂蚁研究实习重叠，并具名列周晓巍为导师。论文同篇列其浙江大学/蚂蚁双署名第一作者、周晓巍通讯作者、正式员工沈宇君署蚂蚁；蚂蚁研究单独发布该研究模型。"
+    },
+    {
+      "id": "kuaishou-skillpe-hkust-arpit-narechania",
+      "paperId": "arxiv:2609.34335",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Arpit NARECHANIA",
+        "港科大计算机科学与工程系助理教授，论文同篇署港科大。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "本人公开履历确认自 2024 年在快手，负责可灵团队的多模态理解；本论文作者页上具名署 KlingAI。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "Yanwei Huang",
+        "香港科技大学博士在读；SkillPE 第一作者同时署港科大和 KlingAI，首页星号脚注明示本篇工作在可灵实习期间完成。",
+        "https://arxiv.org/html/2609.34335v1"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "Arpit Narechania 公开履历的博士指导名单明确记录从 2025 年秋季开始指导 Yanwei Huang，覆盖首版公开的 2026 年 9 月，并在论文同篇署名。",
+        "https://narechania.com/docs/arpit_narechania_cv.pdf"
+      ],
+      "title": "SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering",
+      "short": "SkillPE",
+      "date": "2026-09-28",
+      "venue": "arXiv 预印本",
+      "area": "视频生成与影视提示词研究",
+      "paper": "https://arxiv.org/html/2609.34335v1",
+      "extra": [
+        [
+          "学生本人主页",
+          "https://yhuang.top/"
+        ],
+        [
+          "学生和企业研究人员共同维护的项目",
+          "https://github.com/Ais0n/SkillPE"
+        ]
+      ],
+      "evidence": "SkillPE 首页为唯一带实习注记的一作 Yanwei Huang 标港科大及 KlingAI；脚注明示关联到本篇研究。导师本人正式履历注明从 2025 秋学期指导其博士，并在论文署港科大。快手可灵经理张远行在同篇作者页具名且独立确认企业岗位。"
     }
   ]
 };
