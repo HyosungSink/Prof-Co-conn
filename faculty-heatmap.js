@@ -112,7 +112,7 @@ function facultyPartitionTree(parts) {
   };
 }
 
-// Fill whole rows or columns first so surplus cells stay on a single edge.
+// Fill whole rows or columns first so the unfilled cells form one connected area.
 function facultyBlockPath(w, h, count) {
   if (w >= h) {
     const full = Math.floor(count / w), rest = count % w;
@@ -231,9 +231,10 @@ function layoutFacultyTiles(groups, width, height, units) {
       }
       return;
     }
-    const path = facultyBlockPath(w, h, node.count);
-    node.entries.forEach((entry, index) => {
-      if (entry.score === null) return; // Keep the slot gray and out of the tile navigation.
+    // Exempt lecturers contribute to the block's area, but must not interrupt the colored tiles.
+    const visible = node.entries.filter(({ score }) => score !== null);
+    const path = facultyBlockPath(w, h, visible.length);
+    visible.forEach((entry, index) => {
       const [x, y] = path[index];
       const col = block.left + x;
       const row = block.top + y;
