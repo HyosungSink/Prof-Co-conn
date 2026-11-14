@@ -8746,7 +8746,7 @@ const facultyPaperAudits = {
   "b2gLqsgAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://proceedings.iclr.cc/paper_files/paper/2026/hash/061238f13b8e65ce435c4a691ff5d7f1-Abstract-Conference.html",
       "https://proceedings.iclr.cc/paper_files/paper/2026/file/061238f13b8e65ce435c4a691ff5d7f1-Paper-Conference.pdf",
@@ -8778,7 +8778,79 @@ const facultyPaperAudits = {
       "https://edwlin.github.io/pubs/icde2025-kclique.pdf",
       "https://research.cuhk.edu.hk/en/publications/finding-near-optimal-maximum-set-of-disjoint-k-cliques-in-real-wo/projects/?status=FINISHED",
       "https://jerchenxin.github.io/",
-      "https://arxiv.org/abs/2503.20299"
+      "https://arxiv.org/abs/2503.20299",
+      "https://doi.org/10.1145/3725401",
+      "https://www1.se.cuhk.edu.hk/~swang/V3mod-152-RangePQ.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/publications.html",
+      "https://www1.se.cuhk.edu.hk/~swang/pub-full.html",
+      "https://dblp.org/pid/131/6529-1.html",
+      "https://research.cuhk.edu.hk/en/persons/sibo-wang/",
+      "https://orcid.org/0000-0003-1892-6971",
+      "https://doi.org/10.1145/3802030",
+      "https://www1.se.cuhk.edu.hk/~swang/V4mod153_ConTree.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/icdt26.pdf",
+      "https://doi.org/10.1145/3769755",
+      "https://www1.se.cuhk.edu.hk/~swang/ACGraph-SIGMOD2026.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/PVLDB2026-SO-COD.pdf",
+      "https://doi.org/10.1145/3677133",
+      "https://www1.se.cuhk.edu.hk/~swang/V2mod197-MCSS.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/p1272-hou.pdf",
+      "https://doi.org/10.1145/3690624.3709162",
+      "https://arxiv.org/pdf/2412.19415",
+      "https://arxiv.org/pdf/2502.03201",
+      "https://doi.org/10.1145/3696410.3714615",
+      "https://www1.se.cuhk.edu.hk/~swang/smoothgnn",
+      "https://doi.org/10.1145/3696410.3714652",
+      "https://www1.se.cuhk.edu.hk/~swang/WWW25-DGAC.pdf",
+      "https://doi.org/10.1145/3696410.3714651",
+      "https://www1.se.cuhk.edu.hk/~swang/KPG.pdf",
+      "https://doi.org/10.1145/3626753",
+      "https://www1.se.cuhk.edu.hk/~swang/V1mod259-zhang.pdf",
+      "https://doi.org/10.1145/3626726",
+      "https://www1.se.cuhk.edu.hk/~swang/V1mod239-chen.pdf",
+      "https://doi.org/10.1145/3617328",
+      "https://www1.se.cuhk.edu.hk/~swang/BAIM_SIGMOD24.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/p1183-chen.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/PVLDB2023-WSS-WIRS.pdf",
+      "https://doi.org/10.1145/3589334.3645663",
+      "https://www1.se.cuhk.edu.hk/~swang/www24-PPREI.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/ICLR2024-RQGNN.pdf",
+      "https://doi.org/10.1145/3588950",
+      "https://www1.se.cuhk.edu.hk/~swang/V1mod096-du.pdf",
+      "https://doi.org/10.1145/3588705",
+      "https://www1.se.cuhk.edu.hk/~swang/V1mod025-hou.pdf",
+      "https://doi.org/10.1145/3654994",
+      "https://www1.se.cuhk.edu.hk/~swang/V2mod148-li.pdf",
+      "https://doi.org/10.1145/3588725",
+      "https://www1.se.cuhk.edu.hk/~swang/V1mod045-liu.pdf",
+      "https://doi.org/10.1145/3770855.3818017",
+      "https://doi.org/10.1109/TKDE.2026.3657421",
+      "https://doi.org/10.1109/TKDE.2025.3639305",
+      "https://doi.org/10.1145/3711896.3736918",
+      "https://doi.org/10.1109/TKDE.2023.3349164",
+      "https://doi.org/10.1109/TKDE.2024.3376000",
+      "https://doi.org/10.1109/TKDE.2024.3385847",
+      "https://doi.org/10.1109/TKDE.2021.3093934",
+      "http://www.scopus.com/inward/record.url?eid=2-s2.0-85110793654&partnerID=MN8TOARS",
+      "https://doi.org/10.4324/9781003355984-3",
+      "http://www.scopus.com/inward/record.url?eid=2-s2.0-85169351447&partnerID=MN8TOARS",
+      "https://doi.org/10.1109/ICDE55515.2023.00074",
+      "http://www.scopus.com/inward/record.url?eid=2-s2.0-85167716119&partnerID=MN8TOARS",
+      "https://arxiv.org/abs/2307.11585",
+      "http://www.scopus.com/inward/record.url?eid=2-s2.0-85165958320&partnerID=MN8TOARS",
+      "https://sites.computer.org/debull/A23dec/p4.pdf",
+      "https://doi.org/10.1007/s00778-024-00870-z",
+      "https://doi.org/10.1007/s00778-024-00850-3",
+      "https://doi.org/10.1109/ICDE60146.2024.00038",
+      "https://arxiv.org/abs/2506.18052",
+      "https://arxiv.org/abs/2508.09452",
+      "https://arxiv.org/abs/2509.20978",
+      "https://arxiv.org/abs/2505.22792",
+      "https://arxiv.org/abs/2502.19391",
+      "https://www.vldb.org/2026/program.html",
+      "https://arxiv.org/abs/2604.01707",
+      "https://www.vldb.org/pvldb/vol19/p4453-zhou.pdf",
+      "https://openreview.net/forum?id=Kwbc8FXjJP"
     ],
     "papers": [
       {
@@ -8822,6 +8894,288 @@ const facultyPaperAudits = {
         "url": "https://edwlin.github.io/pubs/icde2025-kclique.pdf",
         "outcome": "confirmed",
         "note": "ICDE 原文脚注具名陈鑫与另一作者在腾讯实习时完成；陈鑫为王思博指导的香港中文大学博士，文中署名港中文。腾讯社交算法团队负责人 Wenqing Lin 同篇共同第一作者与通讯作者。论文在学生获学位后正式发表，实习时原份论文记载学生身份，学校档案同时关联截至 2024 年的同期项目。"
+      },
+      {
+        "title": "Efficient Dynamic Indexing for Range Filtered Approximate Nearest Neighbor Search",
+        "url": "https://doi.org/10.1145/3725401",
+        "outcome": "existing",
+        "note": "同篇已通过原文、学生和企业任职资料核实并发布。"
+      },
+      {
+        "title": "Concurrent Path-Copying Update to Tree Structures",
+        "url": "https://doi.org/10.1145/3802030",
+        "outcome": "no-evidence",
+        "note": "原文列港中文研究生和高校教师；张芳源已毕业，现职的研究院校仅为论文署名机构之一，未见范围内公司作者。"
+      },
+      {
+        "title": "Acyclic Join Sampling under Selections: Dichotomy, Union Sampling, and Enumeration",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/icdt26.pdf",
+        "outcome": "no-evidence",
+        "note": "原文三名作者均署香港中文大学；师生在校内开发无环连接采样算法。"
+      },
+      {
+        "title": "ACGraph: An Efficient Asynchronous Out-of-Core Graph Processing Framework",
+        "url": "https://doi.org/10.1145/3769755",
+        "outcome": "no-evidence",
+        "note": "作者分属香港中文大学及香港科技大学；下设研究机构仅为学术单位，没有企业作者。"
+      },
+      {
+        "title": "Optimal Approximate Matrix Multiplication over Sliding Windows",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/PVLDB2026-SO-COD.pdf",
+        "outcome": "no-evidence",
+        "note": "企业作者的单位为 Bitlink Capital Limited，不在调查企业清单；其余作者署港中大或港科大。"
+      },
+      {
+        "title": "Efficient Approximation Algorithms for Minimum Cost Seed Selection with Probabilistic Coverage Guarantee",
+        "url": "https://doi.org/10.1145/3677133",
+        "outcome": "no-evidence",
+        "note": "原文署港理工、港中文、国立新加坡大学等；陈星光当时已转到新加坡，不将其早期阿里实习推及本文。"
+      },
+      {
+        "title": "Efficient Concurrent Updates to Persistent Randomized Binary Search Trees",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/p1272-hou.pdf",
+        "outcome": "no-evidence",
+        "note": "四名作者均署香港中文大学。Microsoft Immortal DB 是背景引用，未见微软作者。"
+      },
+      {
+        "title": "DIPS: Optimal Dynamic Index for Poisson πps Sampling",
+        "url": "https://doi.org/10.1145/3690624.3709162",
+        "outcome": "no-evidence",
+        "note": "两名原文作者黄晋超、王思博均署香港中文大学，KDD 版和 arXiv 版合并。"
+      },
+      {
+        "title": "SpaceGNN: Multi-Space Graph Neural Network for Node Anomaly Detection with Extremely Limited Labels",
+        "url": "https://arxiv.org/pdf/2502.03201",
+        "outcome": "lead",
+        "note": "原文有港中文在读博士 Xiangyu Dong 及华为诺亚共同作者；导师确证学生在 2026 年毕业后入职华为，未见这篇论文具名企业实习。"
+      },
+      {
+        "title": "SmoothGNN: Smoothing-aware GNN for Unsupervised Node Anomaly Detection",
+        "url": "https://doi.org/10.1145/3696410.3714615",
+        "outcome": "lead",
+        "note": "原文作者分属港中文、MBZUAI、港城大及华为诺亚。已核对学生、导师和共同作者；缺该生在读期间在华为参与本篇的证据。"
+      },
+      {
+        "title": "Diffusion-based Graph-agnostic Clustering",
+        "url": "https://doi.org/10.1145/3696410.3714652",
+        "outcome": "no-evidence",
+        "note": "原文署港中文和香港浸会大学；没有范围内企业作者。"
+      },
+      {
+        "title": "Rumor Detection on Social Media with Reinforcement Learning-based Key Propagation Graph Generator",
+        "url": "https://doi.org/10.1145/3696410.3714651",
+        "outcome": "no-evidence",
+        "note": "正式版列港中文、MBZUAI 学术成员。KPG 为同一成果的早期标题；涉及社交媒体数据不构成企业研究关系。"
+      },
+      {
+        "title": "Scalable Approximate Butterfly and Bi-triangle Counting for Large Bipartite Networks",
+        "url": "https://doi.org/10.1145/3626753",
+        "outcome": "no-evidence",
+        "note": "原文列港中文、哈马德本哈利法大学和昆士兰大学。企业作者与合作实习均未见。"
+      },
+      {
+        "title": "Efficient Approximation Framework for Attribute Recommendation",
+        "url": "https://doi.org/10.1145/3626726",
+        "outcome": "no-evidence",
+        "note": "原文四人同署香港中文大学；学生陈星光的阿里经历不能适用于这篇高校合作。"
+      },
+      {
+        "title": "Efficient Algorithm for Budgeted Adaptive Influence Maximization: An Incremental RR-set Update Approach",
+        "url": "https://doi.org/10.1145/3617328",
+        "outcome": "no-evidence",
+        "note": "原文四人均署香港中文大学；课题组博士、博士后可核对，无企业作者。"
+      },
+      {
+        "title": "Minimum Strongly Connected Subgraph Collection in Dynamic Graphs",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/p1183-chen.pdf",
+        "outcome": "lead",
+        "note": "2024 PVLDB 论文有王思博、当时的博士生陈鑫与腾讯员工 Wenqing Lin；陈鑫另一篇已确认论文有腾讯实习脚注，这篇的原文、学生书目与团队记录尚未说明同项企业研究。"
+      },
+      {
+        "title": "Efficient Dynamic Weighted Set Sampling and Its Extension",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/PVLDB2023-WSS-WIRS.pdf",
+        "outcome": "no-evidence",
+        "note": "三名作者均署港中大；原文提及腾讯是图游走背景及文献来源，未见企业合著。"
+      },
+      {
+        "title": "Towards Deeper Understanding of PPR-based Embedding Approaches: A Topological Perspective",
+        "url": "https://doi.org/10.1145/3589334.3645663",
+        "outcome": "no-evidence",
+        "note": "WWW 原文有港中文和北京交通大学；研究组列后者本科访学，未见企业共同作者。和 arXiv 稿合并。"
+      },
+      {
+        "title": "Rayleigh Quotient Graph Neural Networks for Graph-level Anomaly Detection",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/ICLR2024-RQGNN.pdf",
+        "outcome": "no-evidence",
+        "note": "三人均署港中文同一系；校内师生合著，无范围内企业共同作者。与 2023 公开稿合并。"
+      },
+      {
+        "title": "Efficient Tree-SVD for Subset Node Embedding over Large Dynamic Graphs",
+        "url": "https://doi.org/10.1145/3588950",
+        "outcome": "no-evidence",
+        "note": "原文作者单位为香港中文大学和复旦大学；无企业作者。"
+      },
+      {
+        "title": "Personalized PageRank on Evolving Graphs with an Incremental Index-Update Scheme",
+        "url": "https://doi.org/10.1145/3588705",
+        "outcome": "no-evidence",
+        "note": "原文列港中文、中国人民大学等高校，未发现范围内企业作者。"
+      },
+      {
+        "title": "Learning-based Property Estimation with Polynomials",
+        "url": "https://doi.org/10.1145/3654994",
+        "outcome": "lead",
+        "note": "论文注明人大作者李佳俊在港中文访学；博士生本人项目信息和一手原文均未确定其同期在阿里开展这一研究。署阿里的 Bolin Ding 只证实共同作者身份。"
+      },
+      {
+        "title": "An Efficient Algorithm for Distance-based Structural Graph Clustering",
+        "url": "https://doi.org/10.1145/3588725",
+        "outcome": "no-evidence",
+        "note": "原文署清华大学及港中文，未发现目标企业共同作者。"
+      },
+      {
+        "title": "Efficient Approximation Algorithms for Adaptive Minimum Cost Seed Selection via mRR-set Updates",
+        "url": "https://doi.org/10.1145/3770855.3818017",
+        "outcome": "no-evidence",
+        "note": "官方 KDD 作者名单与项目团队公开书目列港理工和港中文合著；未找到范围内企业员工和学生企业工作。"
+      },
+      {
+        "title": "Efficient Algorithms for Budgeted Profit Maximization With Theoretical Guarantees",
+        "url": "https://doi.org/10.1109/TKDE.2026.3657421",
+        "outcome": "no-evidence",
+        "note": "港科大档案和作者履历列同篇六位高校科研人员，未检出企业研究身份。"
+      },
+      {
+        "title": "BOTBIN: Accelerated Indexing for Structural Graph Clustering on Dynamic Graphs",
+        "url": "https://doi.org/10.1109/TKDE.2025.3639305",
+        "outcome": "no-evidence",
+        "note": "期刊作者列表为高校研究者。张芳源先后在阿里云、华为任职；作者的在校工作、前作 BOTBIN 公开稿和正式署名均未证明该篇企业研究。"
+      },
+      {
+        "title": "Dynamic Structural Clustering Unleashed: Flexible Similarities, Versatile Updates and for All Parameters",
+        "url": "https://doi.org/10.1145/3711896.3736918",
+        "outcome": "no-evidence",
+        "note": "正式版与 2024 arXiv 同一工作；预印本列墨尔本、皇家墨尔本理工、港科大和港中文，未见范围内企业作者。"
+      },
+      {
+        "title": "Efficient Algorithms for Group Hitting Probability Queries on Large Graphs",
+        "url": "https://doi.org/10.1109/TKDE.2023.3349164",
+        "outcome": "lead",
+        "note": "原文及腾讯团队记录列 Wenqing Lin 为企业作者，第一作者郭钦天为王思博的博士生；同一团队没有把郭钦天或 Dandan Lin 标为本篇腾讯实习生，也无其他具名企业研究证据。"
+      },
+      {
+        "title": "Efficient Algorithms for Personalized PageRank Computation: A Survey",
+        "url": "https://doi.org/10.1109/TKDE.2024.3376000",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版与 arXiv 材料合并。论文按校方作者单位列高校、研究所作者，未查到范围内企业共同作者。"
+      },
+      {
+        "title": "Learning-Based Attribute-Augmented Proximity Matrix Factorization for Attributed Network Embedding",
+        "url": "https://doi.org/10.1109/TKDE.2024.3385847",
+        "outcome": "no-evidence",
+        "note": "IEEE 期刊与博士生书目列港中大学生与合作者。没有企业共同作者；同一学生参加其他企业项目不作本篇依据。"
+      },
+      {
+        "title": "2-hop+ Sampling: Efficient and Effective Influence Estimation",
+        "url": "https://doi.org/10.1109/TKDE.2021.3093934",
+        "outcome": "no-evidence",
+        "note": "IEEE 所列单位为南洋理工、港科大、港中文及西南交大；原文有投刊时的高校身份，无范围内企业。"
+      },
+      {
+        "title": "Diffusion of misinformation: Topological characteristics and user vulnerability",
+        "url": "https://doi.org/10.4324/9781003355984-3",
+        "outcome": "no-evidence",
+        "note": "原书目录和高校档案仅王思博与梁海两位学者。是书章，保留书目核对，不进入关系论文范围。"
+      },
+      {
+        "title": "PSPC: Efficient Parallel Shortest Path Counting on Large-Scale Graphs",
+        "url": "https://doi.org/10.1109/ICDE55515.2023.00074",
+        "outcome": "no-evidence",
+        "note": "三位作者均为学术单位，前置 2022 arXiv 与本期 ICDE 正式版合并核查。"
+      },
+      {
+        "title": "Subset Sampling and Its Extensions",
+        "url": "https://arxiv.org/abs/2307.11585",
+        "outcome": "no-evidence",
+        "note": "两位作者同署港中文，学生公开主页列为校内研究预印本，无范围内企业合著。"
+      },
+      {
+        "title": "A Summary of ICDE 2022 Research Session Panels",
+        "url": "https://sites.computer.org/debull/A23dec/p4.pdf",
+        "outcome": "no-evidence",
+        "note": "2023 年公开的 2022 年 ICDE 专家讨论纪要；列讨论专家和记录组织者，非三类作者参与同项的研究论文。"
+      },
+      {
+        "title": "FICOM: an effective and scalable active learning framework for GNNs on semi-supervised node classification",
+        "url": "https://doi.org/10.1007/s00778-024-00870-z",
+        "outcome": "no-evidence",
+        "note": "Springer 正式版四名作者均列香港中文大学，博士生公开书目一致。企业资助或学生其他实习不替代公司作者。"
+      },
+      {
+        "title": "Lero: applying learning-to-rank in query optimizer",
+        "url": "https://doi.org/10.1007/s00778-024-00850-3",
+        "outcome": "lead",
+        "note": "学生陈星光及其港中文导师王思博同署，学生履历写其 2022 年在阿里达摩院从事学习式查询优化，并具名同篇企业作者朱鎔指导。2023 年早期 Lero 无王思博署名，2024 年期刊扩展稿到 2023 年 10 月才投稿；尚待核实扩展稿具体成果与 2022 实习的联系。"
+      },
+      {
+        "title": "Personalized PageRanks over Dynamic Graphs -- The Case for Optimizing Quality of Service",
+        "url": "https://doi.org/10.1109/ICDE60146.2024.00038",
+        "outcome": "lead",
+        "note": "腾讯 Wenqing Lin 同署，本篇其他学生及学校作者为新加坡南洋理工，尚无调查范围高校在读学生及王思博同期跨校指导材料。"
+      },
+      {
+        "title": "A Survey on False Information Detection: From A Perspective of Propagation on Social Networks",
+        "url": "https://arxiv.org/abs/2506.18052",
+        "outcome": "no-evidence",
+        "note": "王思博和港中文博士生解坤均列港中文，没有企业共同作者；IEEE Data Engineering Bulletin 版与预印本并作一篇。"
+      },
+      {
+        "title": "Efficient Integration of Multi-View Attributed Graphs for Clustering and Embedding",
+        "url": "https://arxiv.org/abs/2508.09452",
+        "outcome": "no-evidence",
+        "note": "原文作者属港理工和港中文；与 ICDE 2025 正式论文合并，没有目标企业共同作者。"
+      },
+      {
+        "title": "FracAug: Fractional Augmentation boost Graph-level Anomaly Detection under Limited Supervision",
+        "url": "https://arxiv.org/abs/2509.20978",
+        "outcome": "no-evidence",
+        "note": "原稿作者为港中文和 MBZUAI 学术成员，没有企业合著署名。"
+      },
+      {
+        "title": "Rhetorical Text-to-Image Generation via Two-layer Diffusion Policy Optimization",
+        "url": "https://arxiv.org/abs/2505.22792",
+        "outcome": "no-evidence",
+        "note": "原文署港中深、加州大学伯克利及港中文；没有范围内企业合著者。"
+      },
+      {
+        "title": "Towards More Accurate Full-Atom Antibody Co-Design",
+        "url": "https://arxiv.org/abs/2502.19391",
+        "outcome": "no-evidence",
+        "note": "原文署暨南大学、MBZUAI、港中文及中国科学院大学。解坤其他腾讯研究论文有具名实习，本篇未见腾讯单位或企业作者。"
+      },
+      {
+        "title": "Graph-Based Retrieval-Augmented Generation: Applications, Challenges, Solutions, and Opportunities",
+        "url": "https://www.vldb.org/2026/program.html",
+        "outcome": "no-evidence",
+        "note": "正式会议将其列为图检索增强生成教程，作者为高校研究人员；没有目标企业作者。"
+      },
+      {
+        "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
+        "url": "https://arxiv.org/abs/2604.01707",
+        "outcome": "lead",
+        "note": "原稿列华为云企业作者，以及港中大研究助理 Tenghui Lin 和多所高校作者；没有核实到可归于该论文的同期在读企业研究，也没有把研究助理身份作为学籍。"
+      },
+      {
+        "title": "Nova: A Multi-Purpose Vector Engine for Low-Latency, Multi-Tenant, and Cross-Table Hybrid Retrieval",
+        "url": "https://www.vldb.org/pvldb/vol19/p4453-zhou.pdf",
+        "outcome": "lead",
+        "note": "论文列王思博课题组在读博士生 Dechuang Chen 与阿里云作者共同研发 Nova，缺学生在阿里工作或联培的具名说明。张芳源 2025 年已毕业；其先前 AnalyticDB-PG 实习不能自动延伸至本文。"
+      },
+      {
+        "title": "JacobiGAD: Jacobi Polynomial–Powered Heterogeneous Graph-Level Anomaly Detection",
+        "url": "https://openreview.net/forum?id=Kwbc8FXjJP",
+        "outcome": "lead",
+        "note": "公开投稿证实王思博、博士生 Xiangyu Dong、微信支付研究员 Wuxiong Zeng 等共同署名。学生本人项目页未标本篇在腾讯实习或联培，不将合著推定为在企研究。"
       }
     ]
   },
