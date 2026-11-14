@@ -52461,7 +52461,7 @@ const facultyPaperAudits = {
         "title": "Beyond Generator-Specific Shortcuts: Open-World AI-Generated Video Detection via Adversarial Training",
         "url": "https://arxiv.org/html/2610.23906v1",
         "outcome": "no-evidence",
-        "note": "2026-09 首稿五位作者均署西交电信学部，邓通讯；使用第三方模型生成视频不证明企业项目。",
+        "note": "2026-10 首稿五位作者均署西交电信学部，邓通讯；使用第三方模型生成视频不证明企业项目。",
         "relationIds": []
       },
       {
@@ -52514,5 +52514,237 @@ const facultyPaperAudits = {
       }
     ],
     "note": "西安交通大学官方与校内实验室确认邓辉琦为助理教授；兼查本人书目、DBLP 和出版社／会议作者索引。公开书目逐篇并交叉同组、原上交导师实验室和正式发表索引；早年上交博士后经历不回填当时的西交导师身份。DBLP 混有专做数据流的安徽大学同名作者（ORCID 0009-0001-4482-7873，有两项作者/机构双证），暂不归入西交。"
+  },
+  "_hZiQeUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://asg.ict.ac.cn/cmy/english/",
+      "https://2026.eurosys.org/preliminary-program.html",
+      "https://qingkeai.online/blog/ArchNights",
+      "https://asg.ict.ac.cn/cmy/",
+      "https://people.ucas.ac.cn/~cmy",
+      "https://dblp.org/pid/62/5558.html",
+      "https://acs.ict.ac.cn/kyry/zlyjy/202606/t20260618_842959.html",
+      "https://zxhero.github.io/cv/",
+      "https://www.usenix.org/system/files/atc25-zhang-xu.pdf",
+      "https://www.huaweicloud.com/lab/storage/news_paper_hopp.html",
+      "https://lastweek.io/pubs/HoPP-HPCA23.pdf",
+      "https://past.date-conference.com/proceedings-archive/2023/DATA/125.pdf",
+      "https://arxiv.org/abs/2401.11181",
+      "https://arxiv.org/abs/2310.06435",
+      "https://orcid.org/0000-0003-4469-1037",
+      "https://liuyuhang.cc/wp-content/uploads/2024/04/DAC-final.pdf",
+      "https://www.mclab.org/IWQoS-2023.pdf",
+      "https://research.cuhk.edu.hk/en/publications/a-unified-framework-for-drl-based-congestion-control-to-optimize-/",
+      "https://liuyuhang.cc/wp-content/uploads/2024/09/Ah-Q-HPCA.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "RaidenSwap: A Multi-Swap Remote System for Multi-core Applications",
+        "url": "https://doi.org/10.1145/3767295.3803575",
+        "note": "EuroSys 正式议程与陈明宇研究组主页证实在读博士生刘可凡与华为人员同篇，公开本人演讲简介具名其在计算所受刘珂和陈明宇指导；仍未见学生具体在华为进行该篇研发的原文或项目证据。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2026,
+        "title": "LightSerial: Accelerating In-Process Isolation via Implicit Dependency Exposure",
+        "url": "https://doi.org/10.1145/3801487.3801829",
+        "note": "正式题录所有作者均署计算所和国科大；进程内隔离系统，没有目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "AExec: Asynchronous Multi-accelerator Execution and Management Mechanism",
+        "url": "https://doi.org/10.1145/3801487.3801807",
+        "note": "ACM 正式版以香山处理器和 FPGA 评估异步管理多种加速器，作者机构为计算所及国科大，无企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "S-MSHR: A Scalable MSHR Architecture Using Cache Tag Data-Ready Bits and Index Queues",
+        "url": "https://doi.org/10.1109/CCGRID68966.2026.00055",
+        "note": "CCGrid 正式议程、IEEE 出版题录均为计算所作者，技术是处理器缓存未命中记录管理，无目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "ANIMo: Accelerating Nested Isolation with Monitor-free Domain Transition",
+        "url": "https://doi.org/10.1109/ASP-DAC66049.2026.11420350",
+        "note": "ASP-DAC 议程和 IEEE 题录显示全为计算所处理器实验室；通过 ISA 特权域机制加速嵌套保护，无目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "DASICS: Efficient In-Process Protection with Hardware-Assisted Dynamic Compartmentalization",
+        "url": "https://doi.org/10.1109/ICCD65941.2025.00052",
+        "note": "正式版与同组 2310.06435 的 DASICS 预印本合并。核心工作是 RISC-V 硬件辅助内存隔离和控制流检查；所有机构为计算所，未见企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "CoroAMU: Unleashing Memory-Driven Coroutines through Latency-Aware Decoupled Operations",
+        "url": "https://doi.org/10.1109/PACT65351.2025.00046",
+        "note": "IEEE 题录五名作者皆为计算所，侧重硬件辅助协程调度与访存，不得沿用相关 AMU 论文里的华为作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "A Survey of Hardware-Assisted Intra-Address Space Protections",
+        "url": "https://link.springer.com/article/10.1007/s11390-025-4827-z",
+        "note": "Springer 正式版所有作者为计算所、国科大。本文是进程内保护综述，无单独的企业研发项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "DRack: A CXL-Disaggregated Rack Architecture to Boost Inter-Rack Communication",
+        "url": "https://www.usenix.org/conference/atc25/presentation/zhang-xu",
+        "note": "USENIX 正式版确证张旭和华为员工、以 DNN 训练等作为原型工作负载。计算所履历给张旭博士毕业时间，陈明宇研究组校友名单给出具名指导。学生自述的华为博士奖不是实习，尚无具名材料把他在华为的研究与此篇联系起来。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "A Fast, Iterative Clock Skew Scheduling Algorithm with Dynamic Sequential Graph Extraction",
+        "url": "https://doi.org/10.1109/DAC63849.2025.11133114",
+        "note": "作者公开的 DAC 原文列计算所、国科大与鹏城实验室。研究采用时序传播的电路时钟偏斜迭代算法，未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Asynchronous Memory Access Unit: Exploiting Massive Parallelism for Far Memory Access",
+        "url": "https://doi.org/10.1145/3663479",
+        "note": "ACM 正式版里有华为作者，计算所官网名录列王鹿鸣和张旭曾受陈明宇指导。尚缺做本文时的在读者于华为实际开展该篇研究的材料；该技术为通用远端访存处理器单元。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2024,
+        "title": "Suppressing the Interference Within a Datacenter: Theorems, Metric and Strategy",
+        "url": "https://doi.org/10.1109/TPDS.2024.3354418",
+        "note": "IEEE 正式版作者均署国科大；区分前期相同作者在 HPCA 2023 披露的 Ah-Q 会议结果，不重计同组篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Planaria: Pattern Directed Cross-page Composite Prefetcher",
+        "url": "https://doi.org/10.1145/3649329.3656499",
+        "note": "会议节目用较早题名；作者发布的 ACM 终稿为此题名、两位计算所作者。两级预取器拟合访存规律；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Morpheus: An Adaptive DRAM Cache with Online Granularity Adjustment for Disaggregated Memory",
+        "url": "https://doi.org/10.1109/ICCD58817.2023.00029",
+        "note": "IEEE 正式题录与第一作者研究所介绍确认相同计算所团队；是远端访存粒度自适应，并未见目标公司作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "REMU: Enabling Cost-Effective Checkpointing and Deterministic Replay in FPGA-based Emulation",
+        "url": "https://doi.org/10.1109/ICCD58817.2023.00014",
+        "note": "IEEE 正式元数据只有计算所；核心是 FPGA 调试检查点和确定性回放，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Rethinking Design Paradigm of Graph Processing System with a CXL-like Memory Semantic Fabric",
+        "url": "https://doi.org/10.1109/CCGrid57682.2023.00013",
+        "note": "IEEE 正式题录作者均署计算所；同一研究者另有华为参与的 DRack，当前是不同的图处理系统方案和正式发表。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "MARB: Bridge the Semantic Gap between Operating System and Application Memory Access Behavior",
+        "url": "https://doi.org/10.23919/DATE56975.2023.10137018",
+        "note": "会议原文与 2401.11181 合并。华为研究员及国科大博士李海峰、导师陈明宇同篇；原文没有具名实习说明。技术聚焦内存追踪和通用工作负载访问行为，并无明确 AI 方法。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2023,
+        "title": "HoPP: Hardware-Software Co-Designed Page Prefetching for Disaggregated Memory",
+        "url": "https://doi.org/10.1109/HPCA56546.2023.10070986",
+        "note": "华为云官方说明本篇由其存储创新实验室与计算所合作提出，导师名录具名李海峰；仍无学生在企业实研角色的单独材料。与 MARB 同团队但本件聚焦硬件辅助页面预取；不从项目合作推断实习。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "远端内存访问性能优化关键技术综述",
+        "url": "https://journals.istic.ac.cn/gjstxcn/ch/reader/view_abstract.aspx?file_no=202506003&flag=1",
+        "note": "《高技术通讯》正式刊出，作者署计算所和国科大；综述处理器远端内存，并未涉及具体企业联合研发。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "LightShaper：一个高精度通用流量整形工具",
+        "url": "https://doi.org/10.3772/j.issn.1002-0470.2024.11.005",
+        "note": "出版社公开原文为一般网络流量整形，作者及课题组公布关系没有目标企业实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "一种软硬件协同的访存踪迹实时分析处理工具",
+        "url": "https://journals.istic.ac.cn/gjstxcn/ch/reader/view_abstract.aspx?file_no=202508003&flag=1",
+        "note": "《高技术通讯》原文为计算所与国科大。核心是 FPGA 实时采集及分析访存踪迹，没有目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "基于前递预取的SoC内存控制器精准仿真方法",
+        "url": "https://journals.istic.ac.cn/gjstxcn/ch/reader/view_abstract.aspx?file_no=202505006&flag=1",
+        "note": "《高技术通讯》卷页、作者和题录已核；以提前发起访存提高控制器仿真精度。公开书目未见目标企业研发证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "软硬件协同的远端内存系统研究",
+        "url": "https://journals.istic.ac.cn/gjstxcn/ch/reader/view_abstract.aspx?file_no=202310003",
+        "note": "题录署计算所与国科大，介绍热点提取的页面预取与替换组合；与 HoPP/MARB 有方法承接，本文作者没有目标企业，不移植其他作品的企业角色。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "面向应用定义优先级调度的用户态协议栈研究",
+        "url": "https://journals.istic.ac.cn/gjstxcn/ch/reader/view_abstract.aspx?file_no=202308003&flag=1",
+        "note": "《高技术通讯》式样目录和研究所书目同篇。公开成果的核心为用户定义优先级和协议栈调度，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "基于SoC-FPGA的RISC-V处理器软硬件系统级平台",
+        "url": "https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202330060.pdf",
+        "note": "计算机研究与发展正式原文，作者均署计算所和国科大。FPGA 处理器系统原型测试、无企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Simulation Platform Based on SoC-FPGA Clusters for CXL-ethernet Heterogeneous Interconnection",
+        "url": "https://dc-china-simulation.researchcommons.org/journal/vol38/iss7/17/",
+        "note": "《系统仿真学报》2026 正式版三人皆署计算所及国科大。对象为 CXL 与以太网的仿真平台 CNetSim，别于 DRack 的机柜体系。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Chrono-Fabric: A Decoupled Hierarchical Framework for Cycle-Accurate Coordination in Multi-FPGA Systems",
+        "url": "https://doi.org/10.1145/3748173.3779558",
+        "note": "ACM FPGA 正式议程全部为计算所；研究多个 FPGA 的周期级协调，与泛硬件协作不同。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "A Data-Driven Framework for TCP to Achieve Flexible QoS Control in Mobile Data Networks",
+        "url": "https://doi.org/10.1109/IWQoS57198.2023.10188765",
+        "note": "联合作者公开 IEEE 版第一页列高校和研究院所；从网络状态拟合速率控制参数，但公开电信网络跟踪只是数据，没有目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "A Unified Framework for DRL-Based Congestion Control to Optimize QoS Over Mobile Networks",
+        "url": "https://doi.org/10.1109/IWQoS65803.2025.11143480",
+        "note": "港中大和 IEEE 发布题录。深度强化学习为不同链路训练多个专用拥塞控制模型；作者为高校及研究院所，无目标企业。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "已交叉计算所中英文书目、DBLP/ORCID 人物身份和正式出版材料；华为同署项目逐篇保留待补的学生实研证据。仍在核独立书目剩余题录，未标已梳理。"
   }
 };
