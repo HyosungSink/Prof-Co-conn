@@ -85,51 +85,39 @@ function facultyGridPath(columns, rows) {
   return cells;
 }
 
-function layoutFacultyTiles(groups, width, height, school) {
-  const regions = [];
-  const tiles = [];
+function facultyGridSize(count, width, height) {
+  let best = { columns: 0, rows: 0, cost: Infinity };
+  for (let rows = 1; rows <= count; rows += 1) {
+    let columns = Math.ceil(count / rows);
+    // The Gilbert walk can step diagonally when the longer side is odd and
+    // the shorter one is even. Add a column if needed to keep every group connected.
+    if (Math.max(columns, rows) % 2 && Math.min(columns, rows) % 2 === 0) columns += 1;
+    const aspect = (width / columns) / (height / rows);
+    const unused = columns * rows - count;
+    const cost = Math.log(aspect) ** 2 + 4 * unused / count;
+    if (cost < best.cost) best = { columns, rows, cost };
+  }
+  return best;
+}
+
+function layoutFacultyTiles(entries, width, height) {
+  const { columns, rows } = facultyGridSize(entries.length, width, height);
+  const cellWidth = columns ? width / columns : 0;
+  const cellHeight = rows ? height / rows : 0;
+  const cells = new Array(columns * rows);
   const positions = new Map();
-  const plotBox = { x: 0, y: 0, width, height };
-
-  function addRegion(groups, box) {
-    const blocks = [];
-    regions.push({ box, blocks });
-    layoutWeightedRectangles(groups, box, group => group.entries.length, ({ entries }, rect) => {
-      const { x, y, width, height } = rect;
-      const count = entries.length;
-      const rowCount = Math.min(count, Math.max(1, Math.round(Math.sqrt(count * height / width))));
-      const base = Math.floor(count / rowCount);
-      const extra = count % rowCount;
-      const grid = [];
-      let top = y;
-      // Distribute extra cells over the rows to fill the rectangle with equal-area tiles.
-      for (let row = 0; row < rowCount; row += 1) {
-        const columns = base + Math.floor((row + 1) * extra / rowCount) - Math.floor(row * extra / rowCount);
-        const rowHeight = height * columns / count;
-        grid.push({ y: top, height: rowHeight, width: width / columns, cells: new Array(columns) });
-        top += rowHeight;
-      }
-      let index = 0;
-      for (const [column, row] of facultyGridPath(base + Number(extra > 0), rowCount)) {
-        const line = grid[row];
-        if (column >= line.cells.length) continue;
-        const entry = entries[index++];
-        const tile = { entry, x: x + column * line.width, y: line.y, width: line.width, height: line.height };
-        line.cells[column] = tile;
-        tiles.push(tile);
-        positions.set(entry, tile);
-      }
-      blocks.push({ rect, grid });
-    });
-  }
-
-  if (school) {
-    const units = school.units.filter(unit => unit.entries.length).sort((a, b) => b.entries.length - a.entries.length);
-    addRegion(units, plotBox);
-  } else {
-    layoutSchoolGroups(groups, width, height, 0, (group, box) => addRegion(group.entries, box));
-  }
-  return { width, height, regions, tiles, positions };
+  const path = columns ? facultyGridPath(columns, rows) : [];
+  const tiles = entries.map((entry, index) => {
+    const [col, row] = path[index];
+    // Reflect the walk so its unused tail ends near the bottom-right corner.
+    const x = columns >= rows ? col : columns - 1 - col;
+    const y = columns >= rows ? rows - 1 - row : row;
+    const tile = { entry, x: x * cellWidth, y: y * cellHeight };
+    cells[y * columns + x] = entry;
+    positions.set(entry, tile);
+    return tile;
+  });
+  return { width, height, columns, rows, cellWidth, cellHeight, cells, tiles, positions };
 }
 
 function renderFacultyUnits() {
@@ -157,12 +145,10 @@ function renderFacultyUnits() {
     }
     school.entries = school.units.flatMap(unit => unit.entries);
   }
-  const groups = schoolChartGroups.flatMap(([category]) => {
-    const entries = schools.filter(school => categoryBySchool.get(school.name) === category && school.count)
-      .sort((a, b) => b.count - a.count);
-    return entries.length ? [{ entries, weight: entries.reduce((sum, school) => sum + school.count, 0) }] : [];
-  });
-  const allEntries = groups.flatMap(group => group.entries.flatMap(school => school.entries));
+  const orderedSchools = schoolChartGroups.flatMap(([category]) =>
+    schools.filter(school => categoryBySchool.get(school.name) === category && school.count)
+      .sort((a, b) => b.count - a.count));
+  const allEntries = orderedSchools.flatMap(school => school.entries);
   const unitCount = schools.reduce((sum, school) => sum + school.units.length, 0);
   const instituteSchool = '中国科学院大学';
   addOptions(schoolPicker, survey.schools);
@@ -201,43 +187,51 @@ function renderFacultyUnits() {
     readout.title = readout.textContent;
   }
 
-  function drawBoundaries(boxes, weight) {
-    const { width, height } = currentLayout;
+  function drawBoundaries(groupOf, weight) {
+    const { cells, columns, rows, cellWidth, cellHeight } = currentLayout;
     const edge = (x, y, x2, y2) => {
       context.moveTo(x, y);
       context.lineTo(x2, y2);
     };
     context.beginPath();
-    for (const { x, y, width: w, height: h } of boxes) {
-      const right = x + w, bottom = y + h;
-      if (x > .01) edge(x, y, x, bottom);
-      if (right < width - .01) edge(right, y, right, bottom);
-      if (y > .01) edge(x, y, right, y);
-      if (bottom < height - .01) edge(x, bottom, right, bottom);
+    for (let row = 0; row < rows; row += 1) {
+      for (let column = 0; column < columns; column += 1) {
+        const i = row * columns + column;
+        const entry = cells[i];
+        if (!entry) continue;
+        const group = groupOf(entry);
+        const x = column * cellWidth, y = row * cellHeight;
+        const right = (column + 1) * cellWidth, bottom = (row + 1) * cellHeight;
+        if (column + 1 < columns && cells[i + 1] && groupOf(cells[i + 1]) !== group) edge(right, y, right, bottom);
+        if (row + 1 < rows && cells[i + columns] && groupOf(cells[i + columns]) !== group) edge(x, bottom, right, bottom);
+      }
     }
     context.strokeStyle = '#241d2d';
-    context.lineWidth = weight;
+    context.lineWidth = Math.min(weight, cellWidth * .35, cellHeight * .35);
     context.stroke();
   }
 
   function paint() {
     if (!currentLayout) return;
-    const { width, height, regions, tiles, positions } = currentLayout;
+    const { width, height, cellWidth, cellHeight, tiles, positions } = currentLayout;
+    const gap = Math.min(.8, cellWidth * .15, cellHeight * .15);
     context.clearRect(0, 0, width, height);
-    for (const { entry, x, y, width, height } of tiles) {
-      const gap = Math.min(.8, width * .15, height * .15);
+    for (const { entry, x, y } of tiles) {
       context.globalAlpha = matchesSelection(entry) ? 1 : .2;
       context.fillStyle = chartColors(entry.school, entry.unit)[entry.score];
-      context.fillRect(x + gap / 2, y + gap / 2, width - gap, height - gap);
+      context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
     }
     context.globalAlpha = 1;
-    drawBoundaries(regions.flatMap(region => region.blocks.map(({ rect }) => rect)), 1.45);
-    if (!selectedSchool) drawBoundaries(regions.map(({ box }) => box), 2.6);
+    if (selectedSchool) drawBoundaries(entry => entry.unit, 1.45);
+    else {
+      drawBoundaries(entry => entry.school, 1.45);
+      drawBoundaries(entry => categoryBySchool.get(entry.school.name), 2.6);
+    }
     const marked = positions.get(inspected);
     if (marked) {
       context.strokeStyle = '#251c32';
       context.lineWidth = 1;
-      context.strokeRect(marked.x - .75, marked.y - .75, marked.width + 1.5, marked.height + 1.5);
+      context.strokeRect(marked.x + .5, marked.y + .5, Math.max(0, cellWidth - 1), Math.max(0, cellHeight - 1));
     }
   }
 
@@ -247,8 +241,8 @@ function renderFacultyUnits() {
     const density = Math.max(2, window.devicePixelRatio);
     canvas.width = Math.ceil(width * density);
     canvas.height = Math.ceil(height * density);
-    context.setTransform(density, 0, 0, density, 0, 0);
-    currentLayout = layoutFacultyTiles(groups, width, height, selectedSchool);
+    context.setTransform(canvas.width / width, 0, 0, canvas.height / height, 0, 0);
+    currentLayout = layoutFacultyTiles(selectedSchool?.entries || allEntries, width, height);
     paint();
   }
 
@@ -268,11 +262,11 @@ function renderFacultyUnits() {
     groupPicker.disabled = !selectedSchool;
     const unitType = selectedSchool?.name === instituteSchool ? '研究所' : '院系';
     description.textContent = selectedSchool
-      ? `每个${unitType}一种颜色。一人一块，同一分区内颜色越深，已核实项数越多。`
-      : '每校一种颜色。选择高校可展开院系或研究所；颜色越深，已核实项数越多。';
+      ? `每条记录一格，每个${unitType}一种颜色。同一分区内颜色越深，已核实项数越多。`
+      : '每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。';
     const scope = selectedSchool
-      ? `${selectedSchool.name}教师热力图，按${unitType}划分矩形，每个${unitType}一种颜色。`
-      : '全部高校教师热力图，每所学校占一个矩形，各用一种颜色。';
+      ? `${selectedSchool.name}教师热力图，每条记录一格，每个${unitType}一种颜色。`
+      : '全部高校教师热力图，每条记录一格，每所学校一种颜色。';
     canvas.setAttribute('aria-label', `${scope}用上下键查看教师。`);
     updateReadout();
     resize();
@@ -288,15 +282,12 @@ function renderFacultyUnits() {
     const bounds = canvas.getBoundingClientRect();
     const x = event.clientX - bounds.left;
     const y = event.clientY - bounds.top;
-    const contains = ({ x: left, y: top, width, height }) =>
-      x >= left && x < left + width && y >= top && y < top + height;
-    const region = currentLayout.regions.find(({ box }) => contains(box));
-    const block = region?.blocks.find(({ rect }) => contains(rect));
-    if (!block) return;
-    const line = block.grid.find(line => y >= line.y && y < line.y + line.height);
-    if (!line) return;
-    const column = Math.min(line.cells.length - 1, Math.floor((x - block.rect.x) / line.width));
-    inspect(line.cells[column].entry);
+    const { width, height, columns, cellWidth, cellHeight, cells } = currentLayout;
+    if (!columns || x < 0 || x >= width || y < 0 || y >= height) return;
+    const column = Math.floor(x / cellWidth);
+    const row = Math.floor(y / cellHeight);
+    const entry = cells[row * columns + column];
+    if (entry) inspect(entry);
   }
 
   canvas.addEventListener('click', inspectTile);
