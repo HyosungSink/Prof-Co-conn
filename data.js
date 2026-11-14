@@ -29030,6 +29030,135 @@ const survey = {
           "https://www.kdd.org/kdd2024/research-track-call-for-papers/"
         ]
       ]
+    },
+    {
+      "id": "meituan-pelk-ucas-huang",
+      "company": "美团",
+      "team": "美团视觉智能团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、博士生导师。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人履历列明 2020 年 5 月至 2024 年 3 月任美团高级技术经理；研究期间在职，正式版署美团。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "陈宏昊 · Honghao Chen",
+        "国科大人工智能学院、中科院自动化所博士生。正式版实习脚注明确他在美团期间完成本研究。",
+        "https://ai.ucas.ac.cn/index.php/zh-cn/tzgg/6664-2022-03-21-06-48-19"
+      ],
+      "title": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+      "short": "PeLK",
+      "date": "2024-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_PeLK_Parameter-efficient_Large_Kernel_ConvNets_with_Peripheral_Convolution_CVPR_2024_paper.pdf",
+      "evidence": "CVPR 正式版首页的美团实习脚注只标记陈宏昊，由其博士导师黄凯奇与同篇在职美团员工初祥祥合著。作者于 2024 年 3 月 12 日发布预印本。",
+      "advising": [
+        "校内博士导师",
+        "黄凯奇的国科大官方主页「指导学生」栏把陈宏昊列为其博士研究生。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "paperId": "arxiv:2403.07589"
+    },
+    {
+      "id": "meituan-kernel-robustness-ucas-huang",
+      "company": "美团",
+      "team": "美团视觉智能团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "黄凯奇 · Kaiqi Huang",
+        "中国科学院自动化研究所研究员、博士生导师。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人履历列明 2020 年 5 月至 2024 年 3 月任美团高级技术经理；研究期间在职，正式版署美团。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "陈宏昊 · Honghao Chen",
+        "国科大人工智能学院、中科院自动化所博士生。正式版实习脚注明确他在美团期间完成本研究。",
+        "https://ai.ucas.ac.cn/index.php/zh-cn/tzgg/6664-2022-03-21-06-48-19"
+      ],
+      "title": "Revealing the Dark Secrets of Extremely Large Kernel ConvNets on Robustness",
+      "short": "大核卷积鲁棒性",
+      "date": "2024-07",
+      "venue": "ICML",
+      "area": "视觉与多模态",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24bb/chen24bb.pdf",
+      "evidence": "ICML 正式版把美团实习明确标给前两位作者，其中第一作者陈宏昊为黄凯奇指导的国科大博士生。合作者初祥祥在原始投稿阶段尚为美团高级技术经理。",
+      "advising": [
+        "校内博士导师",
+        "黄凯奇的国科大官方主页「指导学生」栏把陈宏昊列为其博士研究生。",
+        "https://people.ucas.ac.cn/~huangkaiqi"
+      ],
+      "extra": [
+        [
+          "正式出版记录",
+          "https://proceedings.mlr.press/v235/chen24bb.html"
+        ],
+        [
+          "会方正式初投截期（2024 年 2 月 1 日）",
+          "https://icml.cc/Conferences/2024/CallForPapers"
+        ]
+      ],
+      "paperId": "arxiv:2407.08972"
+    },
+    {
+      "id": "bytedance-dense2moe-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "字节跳动",
+      "team": "字节跳动智能创作与 Seed Vision",
+      "title": "Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation",
+      "short": "Dense2MoE",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "area": "扩散模型与高效生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_Dense2MoE_Restructuring_Diffusion_Transformer_to_MoE_for_Efficient_Text-to-Image_Generation_ICCV_2025_paper.html",
+      "arxiv": "2510.09094",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；同篇唯一校方高级作者。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "student": [
+        "郑有为 · Youwei Zheng",
+        "在中山大学计算机学院就读，ICCV 首页署学校和字节，并具名标注这篇工作在字节智能创作实习时完成。",
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Dense2MoE_Restructuring_Diffusion_Transformer_to_MoE_for_Efficient_Text-to-Image_Generation_ICCV_2025_paper.pdf"
+      ],
+      "employee": [
+        "肖雪峰 · Xuefeng Xiao",
+        "ICCV 原文与同期正式论文以同一企业研究地址列其为字节 Seed 作者；字节公开代码仓及 AAAI 等多篇正式记录可追溯连续的企业研究经历。",
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Xia_Training-free_and_Adaptive_Sparse_Attention_for_Efficient_Long_Video_Generation_ICCV_2025_paper.pdf"
+      ],
+      "advising": [
+        "校内指导教师",
+        "谢晓华的学校官方档案在“指导学生获得荣誉情况”具名列郑有为的毕业论文及研究生学术论坛。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "evidence": "正式出版版把第一作者郑有为同时署于中大和字节，并明确注明本篇在字节智能创作实习完成。谢晓华的中大官方档案具名列其指导的郑有为成果，校方研究生公示列他为计算机学院 2023 级硕士；谢晓华与字节研究作者肖雪峰均同篇。",
+      "extra": [
+        [
+          "ICCV 正式论文首页",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Dense2MoE_Restructuring_Diffusion_Transformer_to_MoE_for_Efficient_Text-to-Image_Generation_ICCV_2025_paper.pdf"
+        ],
+        [
+          "学校研究生公示",
+          "https://lifesciences.sysu.edu.cn/sites/default/files/2024-01/中山大学2023年拟录取免试研究生名单（含免试硕士生和直博生）.pdf"
+        ],
+        [
+          "同期企业团队代码项目",
+          "https://github.com/bytedance/Next-ViT"
+        ]
+      ]
     }
   ]
 };

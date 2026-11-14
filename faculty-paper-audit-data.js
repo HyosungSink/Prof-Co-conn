@@ -6955,7 +6955,10 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2603.22212",
       "https://arxiv.org/pdf/2507.11245v1",
       "https://arxiv.org/html/2601.20504",
-      "https://arxiv.org/pdf/2510.14847v2"
+      "https://arxiv.org/pdf/2510.14847v2",
+      "https://ai.ucas.ac.cn/index.php/zh-cn/tzgg/6664-2022-03-21-06-48-19",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_PeLK_Parameter-efficient_Large_Kernel_ConvNets_with_Peripheral_Convolution_CVPR_2024_paper.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24bb/chen24bb.pdf"
     ],
     "papers": [
       {
@@ -6987,9 +6990,21 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2510.14847v2",
         "outcome": "confirmed",
         "note": "预印本 PDF 的星号只标武美奇，明确将本论文工作对应她在高德的实习。"
+      },
+      {
+        "title": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_PeLK_Parameter-efficient_Large_Kernel_ConvNets_with_Peripheral_Convolution_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式版首页的美团实习脚注只标记陈宏昊，由其博士导师黄凯奇与同篇在职美团员工初祥祥合著。作者于 2024 年 3 月 12 日发布预印本。"
+      },
+      {
+        "title": "Revealing the Dark Secrets of Extremely Large Kernel ConvNets on Robustness",
+        "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24bb/chen24bb.pdf",
+        "outcome": "confirmed",
+        "note": "ICML 正式版把美团实习明确标给前两位作者，其中第一作者陈宏昊为黄凯奇指导的国科大博士生。合作者初祥祥在原始投稿阶段尚为美团高级技术经理。"
       }
     ],
-    "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
+    "note": "已逐篇检查部分书目和学生科研实习，尚未覆盖全部论文。"
   },
   "cuJ3QG8AAAAJ": {
     "from": "2023-01-01",
@@ -7249,7 +7264,9 @@ const facultyPaperAudits = {
       "https://ur.tencent.com/article/1473",
       "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html",
       "https://www.ipd.gov.hk/hkipjournal/04022022/Patent_04022022.pdf",
-      "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf"
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Zheng_Dense2MoE_Restructuring_Diffusion_Transformer_to_MoE_for_Efficient_Text-to-Image_Generation_ICCV_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Xia_Training-free_and_Adaptive_Sparse_Attention_for_Efficient_Long_Video_Generation_ICCV_2025_paper.pdf"
     ],
     "papers": [
       {
@@ -7261,10 +7278,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Dense2MoE: Restructuring Diffusion Transformer to MoE for Efficient Text-to-Image Generation",
-        "url": "https://arxiv.org/html/2510.09094v1",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_Dense2MoE_Restructuring_Diffusion_Transformer_to_MoE_for_Efficient_Text-to-Image_Generation_ICCV_2025_paper.html",
         "year": 2025,
-        "outcome": "lead",
-        "note": "首作郑有为具名在字节实习，同篇有谢晓华；校方教师主页确认曾指导他的本科论文，仍查这篇研究发生时的在读与指导情况。"
+        "outcome": "confirmed",
+        "note": "正式出版版把第一作者郑有为同时署于中大和字节，并明确注明本篇在字节智能创作实习完成。谢晓华的中大官方档案具名列其指导的郑有为成果，校方研究生公示列他为计算机学院 2023 级硕士；谢晓华与字节研究作者肖雪峰均同篇。"
       },
       {
         "title": "Coarse-to-Fine Latent Diffusion for Pose-Guided Person Image Synthesis",
@@ -8568,6 +8585,250 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "confirmed",
         "note": "2022 年 4 月首版将李金膛同时署于中大和蚂蚁，时间落在其公开披露的蚂蚁科研实习内。中大两位学位导师陈亮、郑子彬和蚂蚁员工王维强同篇署名；正式出版于 CIKM 2023。"
+      }
+    ]
+  },
+  "uh1-AvwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://arxiv.org/abs/2607.08303",
+      "https://fwm94.github.io/publications.html",
+      "https://dblp.org/pid/132/0888-1.html",
+      "https://cs.hku.hk/people/academic-staff/wfeng",
+      "https://fwm94.github.io/",
+      "https://jessenyoung.github.io/",
+      "https://arxiv.org/abs/2607.05248",
+      "https://arxiv.org/abs/2604.00963",
+      "https://arxiv.org/abs/2609.26197",
+      "https://arxiv.org/abs/2609.15268",
+      "https://arxiv.org/abs/2605.03839",
+      "https://arxiv.org/abs/2608.02523",
+      "https://arxiv.org/abs/2509.13112",
+      "https://arxiv.org/abs/2511.02487",
+      "https://arxiv.org/abs/2509.05016",
+      "https://arxiv.org/abs/2507.11031",
+      "https://arxiv.org/abs/2504.02740",
+      "https://arxiv.org/abs/2410.23225",
+      "https://arxiv.org/abs/2407.04672",
+      "https://arxiv.org/abs/2502.05437",
+      "https://arxiv.org/abs/2409.07892",
+      "https://arxiv.org/abs/2503.11099",
+      "https://arxiv.org/abs/2407.04576",
+      "https://arxiv.org/abs/2410.22267",
+      "https://arxiv.org/abs/2306.14867",
+      "https://arxiv.org/abs/2310.00938",
+      "https://arxiv.org/abs/2309.14696",
+      "https://doi.org/10.1137/24M1663806",
+      "https://arxiv.org/abs/2211.03487",
+      "https://arxiv.org/abs/2302.06172",
+      "https://doi.org/10.1016/j.ic.2023.105066",
+      "https://arxiv.org/abs/2205.01985",
+      "https://arxiv.org/abs/2208.00740"
+    ],
+    "papers": [
+      {
+        "title": "Learning AC^0 under locally sampleable graphical models",
+        "url": "https://arxiv.org/abs/2607.08303",
+        "outcome": "no-evidence",
+        "note": "作者单位为港大、UC Santa Barbara、南京大学；校方组名单和作者主页表明参与为大学研究助理。2026 年已有公开预印本，列入本期；SODA 2027 不另计。"
+      },
+      {
+        "title": "Fast counting and sampling for ferromagnetic two-spin systems",
+        "url": "https://arxiv.org/abs/2607.05248",
+        "outcome": "no-evidence",
+        "note": "列港大、爱丁堡等大学研究作者，合作者 Yichun Yang 在导师页面被记为校内科研助理。2026 年已有公开预印本，SODA 2027 不另计。"
+      },
+      {
+        "title": "Rapid mixing in positively weighted restricted Boltzmann machines",
+        "url": "https://arxiv.org/abs/2604.00963",
+        "outcome": "no-evidence",
+        "note": "Minji Yang 为作者具名博士生且将此文列入本人书目；原文与公开资料仅确认学术合作。"
+      },
+      {
+        "title": "An $\\widetilde{O}\\left(n^2\\right)$-time sampler for zero-field ferromagnetic Ising models",
+        "url": "https://arxiv.org/abs/2609.26197",
+        "outcome": "no-evidence",
+        "note": "Yiyao Zhang 个人主页与凤维明实验室相符；见该论文作者单位和致谢，未识别范围内企业科研角色。"
+      },
+      {
+        "title": "Learning CNF formulas from uniform random solutions: Near-tight sample complexity for Valiant's algorithm",
+        "url": "https://arxiv.org/abs/2609.15268",
+        "outcome": "no-evidence",
+        "note": "Yixiao Yu、Yiyao Zhang 被导师网页列入校内研究协作成员，原文未提供范围内企业参与两环节证据。"
+      },
+      {
+        "title": "On computing total variation distance between mixtures of product distributions",
+        "url": "https://arxiv.org/abs/2605.03839",
+        "outcome": "no-evidence",
+        "note": "Minji Yang 是本人具名港大博士，Yucheng Fu 为校内科研助理，论文没有相应企业共同作者和在企业开展研究的角色。"
+      },
+      {
+        "title": "Approximating two-terminal network reliability",
+        "url": "https://arxiv.org/abs/2608.02523",
+        "outcome": "no-evidence",
+        "note": "Yucheng Fu 在凤维明主页被列为港大校内本科科研助理；没有此篇范围内企业共同作者。"
+      },
+      {
+        "title": "Sublinear-time algorithms for diagonally dominant systems and applications to the Friedkin-Johnsen model",
+        "url": "https://arxiv.org/abs/2509.13112",
+        "outcome": "no-evidence",
+        "note": "Zelin Li 正式列入教师课题组校内研究助理；论文将社交平台公开图作为数据，不形成范围内企业共同作者或实习关系。"
+      },
+      {
+        "title": "Learning CNF formulas from uniform random solutions in the local lemma regime",
+        "url": "https://arxiv.org/abs/2511.02487",
+        "outcome": "no-evidence",
+        "note": "原文作者单位为港大、UC Santa Barbara、南京大学。学校研究人员的共同署名未显示符合范围的企业科研。"
+      },
+      {
+        "title": "On approximating the $f$-divergence between two Ising models",
+        "url": "https://arxiv.org/abs/2509.05016",
+        "outcome": "no-evidence",
+        "note": "致谢明确学生 Yucheng Fu 参加的是香港大学计算与数据科学学院暑期科研实习；无范围内企业共同作者。"
+      },
+      {
+        "title": "Rapid mixing of Glauber dynamics for monotone systems via entropic independence",
+        "url": "https://arxiv.org/abs/2507.11031",
+        "outcome": "no-evidence",
+        "note": "导师与港大博士生 Minji Yang 同篇，出版单位及学生书目无企业科研记录。"
+      },
+      {
+        "title": "Faster mixing of the Jerrum-Sinclair chain",
+        "url": "https://arxiv.org/abs/2504.02740",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Deterministic counting from coupling independence",
+        "url": "https://arxiv.org/abs/2410.23225",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Rapid mixing via coupling independence for spin systems with unbounded degree",
+        "url": "https://arxiv.org/abs/2407.04672",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Approximating the total variation distance between spin systems",
+        "url": "https://arxiv.org/abs/2502.05437",
+        "outcome": "no-evidence",
+        "note": "Minji Yang 出现在其港大学籍期间的自列论文，未发现可把这篇论文归入范围内企业的单位或角色。"
+      },
+      {
+        "title": "Rapid mixing of the flip chain over non-crossing spanning trees",
+        "url": "https://arxiv.org/abs/2409.07892",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Approximating the total variation distance between Gaussians",
+        "url": "https://arxiv.org/abs/2503.11099",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Optimal mixing for randomly sampling edge colorings on trees down to the max degree",
+        "url": "https://arxiv.org/abs/2407.04576",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Approximately counting knapsack solutions in subquadratic time",
+        "url": "https://arxiv.org/abs/2410.22267",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Approximate counting for spin systems in sub-quadratic time",
+        "url": "https://arxiv.org/abs/2306.14867",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "An FPRAS for two terminal reliability in directed acyclic graphs",
+        "url": "https://arxiv.org/abs/2310.00938",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "On deterministically approximating total variation distance",
+        "url": "https://arxiv.org/abs/2309.14696",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Towards derandomising Markov chain Monte Carlo",
+        "url": "https://doi.org/10.1137/24M1663806",
+        "outcome": "no-evidence",
+        "note": "2022 早期稿、2023 FOCS 与 2025 SIAM J. Comput. 扩展版同一方向、同一作者和共享公开稿，合并核查。正式版列 ETH、爱丁堡、南京大学作者及 ERC 经费，无符合口径企业。"
+      },
+      {
+        "title": "On the mixing time of Glauber dynamics for the hard-core and related models on G(n,d/n)",
+        "url": "https://arxiv.org/abs/2302.06172",
+        "outcome": "no-evidence",
+        "note": "原文作者及单位/致谢与教师公开书目作者列表相符；仅见高校科研合作或公共课题支持，未找到同篇范围内企业作者与学生企业研究证据。"
+      },
+      {
+        "title": "Swendsen-Wang dynamics for the ferromagnetic Ising model with external fields",
+        "url": "https://doi.org/10.1016/j.ic.2023.105066",
+        "outcome": "no-evidence",
+        "note": "2022 预印本至 2023 期刊版作者一致。研究在爱丁堡等高校开展，未找到所列企业人员同篇参加。"
+      },
+      {
+        "title": "A simple polynomial-time approximation algorithm for the total variation distance between two product distributions",
+        "url": "https://arxiv.org/abs/2208.00740",
+        "outcome": "no-evidence",
+        "note": "2022 预印本和 2023 年正式发表版本用同一作者顺序及核心方法，合并核查，未发现目标企业的在职合著者。"
+      }
+    ]
+  },
+  "2A2Bx2UAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/LiGuanbin",
+      "https://guanbinli.com/"
+    ],
+    "papers": [
+      {
+        "title": "Cross-Modal Attention Calibration for LVLM Hallucination Mitigation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "CVPR 具名实习脚注确认中大第一作者 Jiaming Li 在美团参与本篇；李冠彬是同篇唯一通讯，仍查逐人指导来源。"
+      },
+      {
+        "title": "LaneDiffusion: Improving Centerline Graph Learning via Prior Injected BEV Feature Generation",
+        "url": "https://arxiv.org/abs/2511.06272",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "原文及补充材料确认中大合著者 Zijie Wang 和百度多位员工；待核学生的逐篇企业参与及校内指导。"
+      },
+      {
+        "title": "OptiMVMap: Offline Vectorized Map Construction via Optimal Multi-vehicle Perspectives",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dan_OptiMVMap_Offline_Vectorized_Map_Construction_via_Optimal_Multi-vehicle_Perspectives_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "CVPR 以并列一作标记确认百度实习和具体项目，仍补第一作者与李冠彬的独立指导或项目负责人证据。"
+      },
+      {
+        "title": "World Models as Group Actions",
+        "url": "https://arxiv.org/abs/2605.24578",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "第一作者为中大及深圳环带院，论文同篇有百度研究人员、李冠彬。仍缺学生在企业做本篇及具名校内指导。"
+      },
+      {
+        "title": "ARDepth: Auto-regressive Monocular Depth Estimation with Progressive Visual Conditioning",
+        "url": "https://arxiv.org/abs/2607.12433",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "论文称第一作者为中大与深圳环带院，另有百度和腾讯合著人员。仍缺同篇研究的学生企业角色。"
       }
     ]
   }
