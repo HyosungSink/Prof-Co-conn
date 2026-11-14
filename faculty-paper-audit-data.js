@@ -9863,7 +9863,10 @@ const facultyPaperAudits = {
       "https://native4d.github.io/",
       "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1a1f7aeb1f9bd9052cfd11181430b806-Abstract-Conference.html",
       "https://proceedings.iclr.cc/paper_files/paper/2026/file/1a1f7aeb1f9bd9052cfd11181430b806-Paper-Conference.pdf",
-      "https://sites.google.com/view/yongrayma"
+      "https://sites.google.com/view/yongrayma",
+      "https://github.com/ryanxingql/ryanxingql.github.io/blob/d13ecc24619f444524b4d4fc213a99c6a8a57ba9/index_zh.html#L67-L71",
+      "https://github.com/JohnZhan2023/MotionInsight/commit/c5d95d24de733e78439c0a77255da3cff4992bb2",
+      "https://www.gs.cuhk.edu.hk/academics/preparation-for-new-academic-year"
     ],
     "papers": [
       {
@@ -9892,9 +9895,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "MotionInsight: Diagnosing Object Motion Deficiencies in Generated Videos",
-        "url": "https://aclanthology.org/2026.findings-emnlp.1898.pdf",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1898/",
         "outcome": "lead",
-        "note": "论文原文的第一作者同时署名港中文和字节跳动，且与港中文教师、字节正式员工同篇；仍核对项目实施与在读日期，以及学生在企业完成此篇工作的证据。",
+        "note": "字节正式员工的同期公开履历历史明确列该生为实习生，正式论文也标出港中文和字节双署名。但作者代码记录显示该篇最迟 2026-08-30 已完成到公开训练与推理代码阶段，先于一般港中文 2026 秋季开学日；仍缺少确证薛天帆在研究期间已指导詹佳豪的资料。",
         "year": 2026
       },
       {
@@ -21303,6 +21306,118 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "论文确有 Microsoft Research 共同作者，但微软不在本项目目标企业范围；未见其余目标企业署名。"
+      }
+    ]
+  },
+  "qx0FzMAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://saids.ustc.edu.cn/2026/0910/c36359a752891/page.htm",
+      "https://faculty.ustc.edu.cn/lvliyao/en/zdylm/1038647/list/index.htm",
+      "https://lyuliyao.com/publication.html",
+      "https://dblp.org/pid/251/9624.html",
+      "https://orcid.org/0000-0003-2994-1464"
+    ],
+    "papers": [
+      {
+        "title": "Wasserstein Moment Nudging for Vlasov-Poisson Data Assimilation",
+        "url": "https://arxiv.org/abs/2608.21725",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "预印本四位作者均署加州大学洛杉矶分校；未发现目标企业署名或学生企业研究。"
+      },
+      {
+        "title": "MVNN: A Measure-Valued Neural Network for Learning McKean-Vlasov Dynamics from Particle Data",
+        "url": "https://arxiv.org/abs/2604.00333",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "预印本三位作者均署加州大学洛杉矶分校，未见目标企业。"
+      },
+      {
+        "title": "Multiscale Nudging: From Macroscopic Observations to Microscopic Dynamics",
+        "url": "https://arxiv.org/abs/2606.06809",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "预印本署名为加州大学洛杉矶分校，未见目标企业。"
+      },
+      {
+        "title": "High-Dimensional Enhanced Sampling via Regularized Path-Dependent McKean--Vlasov Dynamics using Tensor Density Approximation",
+        "url": "https://arxiv.org/abs/2605.03080",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文列中国科大、苏州高等研究院、苏州大数据与人工智能研究机构和密歇根州立大学。未见目标企业合著者或学生在企项目证据。"
+      },
+      {
+        "title": "Consensus-Based Adaptive Sampling and Approximation for High-Dimensional Energy Landscapes",
+        "url": "https://doi.org/10.1137/25M1764967",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "SIAM 正式版两位作者均来自密歇根州立大学。arXiv:2311.05009 为同一工作，期刊版并入 2026 一条。"
+      },
+      {
+        "title": "On the Generalization Ability of Coarse-Grained Molecular Dynamics Models for Nonequilibrium Processes",
+        "url": "https://doi.org/10.1137/24M1694549",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "SIAM 署名机构仅有密歇根州立大学。未见范围内企业参与。"
+      },
+      {
+        "title": "Generative Model-based Collective Variable Learning with Metastable State Identification in Molecular Dynamics",
+        "url": "https://par.nsf.gov/biblio/10610686",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "美国国家科学基金会公开原稿列三位密歇根州立大学作者，未见目标企业参与。"
+      },
+      {
+        "title": "Consensus Based Stochastic Optimal Control",
+        "url": "https://proceedings.mlr.press/v267/lyu25b.html",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICML 正式条目和 arXiv:2501.17801 署名一致，作者来自密歇根州立大学、中国科大，未见目标企业。"
+      },
+      {
+        "title": "A unified framework for data-driven construction of stochastic reduced models with state-dependent memory",
+        "url": "https://arxiv.org/abs/2509.07264",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "原文列密歇根州立大学与加州大学洛杉矶分校；未见目标企业共同作者。"
+      },
+      {
+        "title": "A stochastic branching particle method for solving non-conservative reaction-diffusion equations",
+        "url": "https://arxiv.org/abs/2510.27615",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "原文署名加州大学洛杉矶分校和密歇根州立大学，未发现目标企业参与。"
+      },
+      {
+        "title": "Reproducing activation function for deep learning",
+        "url": "https://doi.org/10.4310/cms.2024.v22.n2.a1",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "作者公开的期刊原稿与 DOI 对应，署名为学术机构。2021 预印本早于范围，2024 正式出版计一条。"
+      },
+      {
+        "title": "Construction of coarse-grained molecular dynamics with many-body non-Markovian memory",
+        "url": "https://doi.org/10.1103/PhysRevLett.131.177301",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "APS 学术期刊原文列两位密歇根州立大学作者；arXiv:2304.09044 为同一工作。未见范围内企业参与。"
+      },
+      {
+        "title": "A Deep Learning Based Discontinuous Galerkin Method for Hyperbolic Equations with Discontinuous Solutions and Random Uncertainties",
+        "url": "https://doi.org/10.4208/jcm.2205-m2021-0277",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "期刊 DOI 与 arXiv:2107.01127 对应。原稿作者单位为苏州大学、上海交通大学与密歇根州立大学；未见目标企业参与。"
+      },
+      {
+        "title": "A structure-preserving neural density functional for the ions of a polymer electrolyte",
+        "url": "https://arxiv.org/html/2610.12132v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "中国科大及苏州教学科研机构单人署名；没有企业或其他作者。"
       }
     ]
   }
