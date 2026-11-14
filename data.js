@@ -35104,6 +35104,104 @@ const survey = {
         "武汉大学在其硕士期间的官方报道具名列王骞与赵令辰共同指导岳新立的研究；该官报所举论文与本篇均由三人共同署名。",
         "https://news.whu.edu.cn/info/1015/453917.htm"
       ]
+    },
+    {
+      "id": "ant-halo-hkust-yinghao-xu",
+      "paperId": "arxiv:2611.16439",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "徐英豪 · Yinghao Xu",
+        "港科大计算机科学与工程学系助理教授；同篇唯一通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu"
+      ],
+      "employee": [
+        "Kecheng Zheng",
+        "本人确认在蚂蚁研究任研究员，原文和企业项目页列其 Robbyant 署名。",
+        "https://zkcys001.github.io/"
+      ],
+      "student": [
+        "Shuai Yang",
+        "港科大计算机博士在读；本人履历列 2025 年至今的 Robbyant 科研实习，覆盖机器人实机部署和具身机器人设计。企业官方项目页明确列本人为同篇联合一作及港科大与 Robbyant 双署名。",
+        "https://yangs03.github.io/assets/resume_26.pdf"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "港科大截至 2026 年 9 月 14 日的官方研究生名单与学生履历均明确列徐英豪为该博士生导师，且徐英豪为论文唯一通讯作者。",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yinghao-xu-justimyhxu"
+      ],
+      "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+      "short": "HALO",
+      "date": "2026-11-12",
+      "venue": "arXiv 预印本",
+      "area": "全身移动操作与机器人示教",
+      "paper": "https://arxiv.org/html/2611.16439v1",
+      "extra": [
+        [
+          "Robbyant 原始项目发布",
+          "https://robbyant-research.github.io/Lingbot-ALOHA/"
+        ],
+        [
+          "徐英豪港科大团队成员名录",
+          "https://hkust-xulab.com/people/"
+        ],
+        [
+          "Robbyant 隶属蚂蚁集团",
+          "https://technology.robbyant.com/"
+        ]
+      ],
+      "evidence": "HALO 正文与 Robbyant 项目页将港科大博士生 Shuai Yang 列为企业双署名和具名联合一作，学生履历独立证实同期 Robbyant 实习和徐英豪博士指导。徐英豪同篇为唯一通讯，另外的企业作者 Kecheng Zheng 独立确认在蚂蚁任职。"
+    },
+    {
+      "id": "ant-zerowam-hkustgz-junwei-liang",
+      "paperId": "arxiv:2608.26103",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Junwei LIANG · 梁俊卫",
+        "香港科技大学（广州）助理教授及本篇共同通讯作者。",
+        "https://junweiliang.me/"
+      ],
+      "employee": [
+        "Qihang Zhang",
+        "本人公开档案注明在 Robbyant 从事机器人世界模型研究，企业项目正式具名同篇项目负责人。",
+        "https://zqh0253.github.io/"
+      ],
+      "student": [
+        "Jiaming Zhou",
+        "香港科技大学（广州）在读博士，个人档案列本人一作的 Zero-WAM，论文原页单独标其为 Robbyant 和港科大（广州）双署名，Robbyant 发布项目、模型及代码。",
+        "https://jiaming-zhou.github.io/"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "Jiaming Zhou 的履历明确把 Junwei Liang 列为博士导师，原文亦将梁俊卫列为共同通讯作者。",
+        "https://jiaming-zhou.github.io/"
+      ],
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "short": "Zero-WAM",
+      "date": "2026-08-26",
+      "venue": "arXiv 预印本",
+      "area": "视频世界模型与机器人操作",
+      "paper": "https://arxiv.org/pdf/2608.26103v1",
+      "extra": [
+        [
+          "蚂蚁 Robbyant 该项目原始发布",
+          "https://robbyant-research.github.io/Zero-WAM/"
+        ],
+        [
+          "论文首版及作者",
+          "https://arxiv.org/abs/2608.26103"
+        ],
+        [
+          "Robbyant 隶属蚂蚁集团",
+          "https://technology.robbyant.com/"
+        ]
+      ],
+      "evidence": "Zero-WAM 原文作者脚注明确将第一作者 Jiaming Zhou 署 Robbyant 和港科大（广州），企业官方发布明确列出项目作者和技术。学生本人确认港科大（广州）在读身份及具名学术导师梁俊卫；企业正式研究员 Qihang Zhang 被列为同篇项目负责人。"
     }
   ]
 };

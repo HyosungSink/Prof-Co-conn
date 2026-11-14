@@ -8309,37 +8309,463 @@ const facultyPaperAudits = {
       "https://cs.pku.edu.cn/info/1263/3003.htm",
       "https://galaxywalk.github.io/",
       "https://neec.pku.edu.cn/xsfc/09c00611aeb14930ae0e25ed62b95233.htm",
-      "https://cs.pku.edu.cn/cse/info/1003/1304.htm"
+      "https://cs.pku.edu.cn/cse/info/1003/1304.htm",
+      "https://soar.group/chenren/publications/",
+      "https://dblp.org/pid/94/8865.html",
+      "https://orcid.org/0000-0001-9171-2596",
+      "https://api.crossref.org/works?filter=orcid%3A0000-0001-9171-2596",
+      "https://ur.tencent.com/article/1481",
+      "https://ur.tencent.com/article/1482",
+      "https://research.cuhk.edu.hk/en/publications/a-practical-congestion-control-algorithm-for-low-latency-interact/",
+      "https://witty-me.github.io/",
+      "https://wang.ly/",
+      "https://www.usenix.org/conference/nsdi24/poster-session",
+      "https://jcggg.github.io/dist/file/ProjectExperience%402101.pdf"
     ],
     "papers": [
       {
         "title": "Reasoning about Network Traffic Load Property at Production Scale",
         "url": "https://www.usenix.org/system/files/nsdi24-li-ruihan.pdf",
         "outcome": "confirmed",
-        "note": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。"
+        "note": "2024 年：第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。",
+        "year": 2024
       },
       {
         "title": "A General and Efficient Approach to Verifying Traffic Load Properties under Arbitrary k Failures",
         "url": "https://ennanzhai.github.io/pub/sigcomm24-yu.pdf",
         "outcome": "confirmed",
-        "note": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。"
+        "note": "2024 年：第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。",
+        "year": 2024
       },
       {
         "title": "RF-Chord: Towards Deployable RFID Localization System for Logistic Networks",
         "url": "https://www.usenix.org/system/files/nsdi23-liang-bo.pdf",
         "outcome": "confirmed",
-        "note": "梁博 2022 年起为北大在读博士，公开履历记载 2021 年 7 月至 2023 年 5 月在阿里达摩院 XG Lab 从事 RFID 感知与定位；NSDI 正式原文把他列为署北大和阿里的第一作者，同期北大项目材料也记录了该成果。",
+        "note": "2023 年：梁博 2022 年起为北大在读博士，公开履历记载 2021 年 7 月至 2023 年 5 月在阿里达摩院 XG Lab 从事 RFID 感知与定位；NSDI 正式原文把他列为署北大和阿里的第一作者，同期北大项目材料也记录了该成果。 同篇阿里作者 Junchen Guo 的正式任职由本人档案核实。 同篇阿里作者 Junchen Guo 的正式任职由本人档案核实。 同篇阿里作者 Junchen Guo 的正式任职由本人档案核实。",
         "year": 2023
       },
       {
         "title": "CellFusion: Multipath Vehicle-to-Cloud Video Streaming with Network Coding in the Wild",
         "url": "https://ennanzhai.github.io/pub/cellfusion-sigcomm23.pdf",
         "outcome": "confirmed",
-        "note": "倪蕴哲为北大 2018 级在读博士，已在论文中以北大和阿里云双署共同第一作者。正式原文明确致谢阿里巴巴科研实习计划，并具名说明阿里团队共同参与本系统研发和测试。",
+        "note": "2023 年：倪蕴哲为北大 2018 级在读博士，已在论文中以北大和阿里云双署共同第一作者。正式原文明确致谢阿里巴巴科研实习计划，并具名说明阿里团队共同参与本系统研发和测试。",
         "year": 2023
+      },
+      {
+        "title": "A Self-Adaptive Retro-FSO Design for Air-to-Ground Communication",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3570361.3614067",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式题录作者机构为北大。"
+      },
+      {
+        "title": "BackLip: Passphrase-Independent Lip-reading User Authentication with Backscatter Signals",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/IWQoS57198.2023.10188767",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式会议题录的作者单位为北大、中科大、北航。"
+      },
+      {
+        "title": "Demo: EV-DMD: a high-speed VLC system",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3603269.3610861",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式 demo 题录列北大、山东大学、澳大利亚 CSIRO 及新南威尔士大学。"
+      },
+      {
+        "title": "Demo: Meta2Locate: Meta Surface Enabled Indoor Localization in Dynamic Environments",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3565287.3617904",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式 demo 题录的作者单位为北大。"
+      },
+      {
+        "title": "Experience: A Three-Year Retrospective of Large-scale Multipath Transport Deployment for Mobile Applications",
+        "year": 2023,
+        "url": "https://soar.group/pubs/Fleety.MobiCom23.pdf",
+        "outcome": "lead",
+        "note": "2023 年：MobiCom 原文公布华为 Fleety 部署，北大在读博士王诚科 为第一作者但只署北大；未能确认他在研究期进入华为参与本项目的角色。"
+      },
+      {
+        "title": "Knowing Your Heart Condition Anytime: User-Independent ECG Measurement Using Commercial Mobile Phones",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3610871",
+        "outcome": "no-evidence",
+        "note": "2023 年：ACM 题录列苏州大学、奥尔堡大学、麦考瑞大学、南大、北大与中科院深圳先进院。"
+      },
+      {
+        "title": "POLYCORN: Data-driven Cross-layer Multipath Networking for High-speed Railway through Composable Schedulerlets",
+        "year": 2023,
+        "url": "https://www.usenix.org/conference/nsdi23/presentation/ni",
+        "outcome": "no-evidence",
+        "note": "2023 年：USENIX 原文列北大、明尼苏达大学和国铁旗下 Gecent Technology；该企业不在本项目范围。"
+      },
+      {
+        "title": "Poster: Empower Smart Agriculture with RFID Reference Infrastructure",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/SECON58729.2023.10287453",
+        "outcome": "no-evidence",
+        "note": "2023 年：IEEE 正式题录作者单位为北大与哈工大。"
+      },
+      {
+        "title": "R-VLCP: Channel Modeling and Simulation in Retroreflective Visible Light Communication and Positioning Systems",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/JIOT.2023.3245096",
+        "outcome": "no-evidence",
+        "note": "2023 年：IEEE 期刊题录列北大、新墨西哥理工、新泽西理工和鹏城实验室。"
+      },
+      {
+        "title": "Reinforcement Learning-Based Physical Cross-Layer Security and Privacy in 6G",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/COMST.2022.3224279",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式期刊作者单位为清华、厦大、北大、滑铁卢大学及悉尼科技大学；2022 年先行、2023 年成卷。"
+      },
+      {
+        "title": "RF-SIFTER: Sifting Signals at Layer-0.5 to Mitigate Wideband Cross-Technology Interference for IoT",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3570361.3592513",
+        "outcome": "no-evidence",
+        "note": "2023 年：ACM 题录列香港城市大学、上交大与北大。"
+      },
+      {
+        "title": "When Visible Light (Backscatter) Communication Meets Neuromorphic Cameras in V2X",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3572864.3580333",
+        "outcome": "no-evidence",
+        "note": "2023 年：正式题录有北大与 SpikeVision (Beijing) Technology；该企业不在本项目企业范围。"
+      },
+      {
+        "title": "X-Plane: A High-Throughput Large-Capacity 5G UPF",
+        "year": 2023,
+        "url": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MobiCom2023_X-Plane.pdf",
+        "outcome": "lead",
+        "note": "2023 年：MobiCom 原文列北大及阿里双署 Hao Nie 并致谢 Alibaba Innovative Research；确认企业共著，未找到许辰人对该生的具体师承或他的本项目企业参与安排。"
+      },
+      {
+        "title": "AUGUR: Practical Mobile Multipath Transport Service for Low Tail Latency in Real-Time Streaming",
+        "year": 2024,
+        "url": "https://www.usenix.org/conference/nsdi24/presentation/zhou-yuhan",
+        "outcome": "lead",
+        "note": "2024 年：USENIX 原文具名北大博士、腾讯双署周裕涵；本人主页列本篇与导师，腾讯官方报道确认 START 应用与许辰人团队合作，但未直接明确他的企业研究安排。"
+      },
+      {
+        "title": "Beyond Specular Reflector: Broadening Reflection Coverage for Internet of Meta-Material Things",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TWC.2023.3346443",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE 题录列南洋理工大学及北大。"
+      },
+      {
+        "title": "BREAK: A Holistic Approach for Efficient Container Deployment among Edge Clouds",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/INFOCOM52122.2024.10621084",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE 题录中的企业为派欧云（PPIO）；它不在本项目企业范围。"
+      },
+      {
+        "title": "Exploring nonintrusive measurements of spatio-temporal portrait of microservices",
+        "year": 2024,
+        "url": "https://doi.org/10.1002/spe.3234",
+        "outcome": "no-evidence",
+        "note": "2024 年：正式卷期 2024、先行版 2023；Wiley 作者机构为国防科大、俄亥俄州立、澳门大学、南昌大学、北大。"
+      },
+      {
+        "title": "Exploring Real-Time Satellite Computing: From Energy and Thermal Perspectives",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/RTSS62706.2024.00023",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE 会议题录仅列北邮和北大。"
+      },
+      {
+        "title": "Internet of Meta-Material Things: A New Paradigm for Passive Wireless Sensing Systems",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/MCOM.002.2300085",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE 作者机构为南洋理工大学与北大。"
+      },
+      {
+        "title": "Pudica: Toward Near-Zero Queuing Delay in Congestion Control for Cloud Gaming",
+        "year": 2024,
+        "url": "https://www.usenix.org/conference/nsdi24/presentation/wang-shibo",
+        "outcome": "no-evidence",
+        "note": "2024 年：正式稿有西安交大与腾讯双署，腾讯官方披露王世博的学术导师是西安交大杨树森，未见许辰人担任其论文指导的证据；同类正式期刊版本合并。"
+      },
+      {
+        "title": "Robust Saliency-Driven Quality Adaptation for Mobile 360-Degree Video Streaming",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TMC.2023.3235103",
+        "outcome": "no-evidence",
+        "note": "2024 年：IEEE 题录有华为与西安交大，候选学生王世博的公开师承是西安交大杨树森；未见许辰人是论文指导教师。"
+      },
+      {
+        "title": "SMUFF: Towards Line Rate Wi-Fi Direct Transport with Orchestrated On-device Buffer Management",
+        "year": 2024,
+        "url": "https://www.usenix.org/conference/nsdi24/presentation/wang-chengke",
+        "outcome": "no-evidence",
+        "note": "2024 年：USENIX 正式稿企业作者来自深圳开鸿，不在本项目企业范围；文中仅作技术比较提到华为。"
+      },
+      {
+        "title": "Towards High-Speed Passive Visible Light Communication with Event Cameras and Digital Micro-Mirrors",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3666025.3699368",
+        "outcome": "no-evidence",
+        "note": "2024 年：正式原文列新南威尔士大学、山东大学与北大。"
+      },
+      {
+        "title": "Acoustic Sensing for Multi-User Heartbeat Monitoring Using Dualforming",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TMC.2025.3558418",
+        "outcome": "no-evidence",
+        "note": "2025 年：IEEE 正式题录列北大、麦考瑞大学、苏州大学、南大；合并同一 Dualforming 方法的 2023 DF-Sense 会议报告。"
+      },
+      {
+        "title": "Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB",
+        "year": 2025,
+        "url": "https://www.usenix.org/conference/atc25/presentation/peng-yuke",
+        "outcome": "lead",
+        "note": "2025 年：USENIX 正式稿有蚂蚁与北大作者；李睿涵可查到北大学籍，但该篇只署北大及中关村实验室，没有其在蚂蚁参与本课题的材料。"
+      },
+      {
+        "title": "Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3711875.3729123",
+        "outcome": "no-evidence",
+        "note": "2025 年：正式原文列北大与匹兹堡大学；合并 Communications of the ACM 对同一实验的简篇。"
+      },
+      {
+        "title": "Demo: Liquid Identification via Vision-Guided mmWave Imaging and LLM Reasoning",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3711875.3734376",
+        "outcome": "no-evidence",
+        "note": "2025 年：正式 demo 题录列北京交通大学、北大及其高可信软件教育部重点实验室。"
+      },
+      {
+        "title": "Dual Network Computation Offloading Based on DRL for Satellite-Terrestrial Integrated Networks",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TMC.2024.3493388",
+        "outcome": "no-evidence",
+        "note": "2025 年：IEEE 题录列北大、哈工大（含深圳校区）、西电和新加坡国立大学。"
+      },
+      {
+        "title": "DyQNet: Optimizing Dynamic Entanglement Routing with Online Request in Quantum Network",
+        "year": 2025,
+        "url": "https://doi.org/10.1007/978-981-95-1021-4_14",
+        "outcome": "no-evidence",
+        "note": "2025 年：Springer 出版页列浙江大学和北大。"
+      },
+      {
+        "title": "EchoSight: Streamlining Bidirectional Virtual-physical Interaction with In-situ Optical Tethering",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3706598.3713925",
+        "outcome": "no-evidence",
+        "note": "2025 年：ACM 题录列北大与加州大学洛杉矶分校。"
+      },
+      {
+        "title": "Emulating Space Computing Networks with RHONE",
+        "year": 2025,
+        "url": "https://www.usenix.org/conference/atc25/presentation/wang-liying",
+        "outcome": "no-evidence",
+        "note": "2025 年：USENIX ATC 正式论文署北大及北邮；同系统的 2024 NSDI 海报和 2025 demo 已合并。"
+      },
+      {
+        "title": "From Earth to Orbit: Launch Sequence Optimization for LEO Mega-Constellations",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TMC.2025.3556227",
+        "outcome": "no-evidence",
+        "note": "2025 年：IEEE 题录作者单位为北大及北邮。"
+      },
+      {
+        "title": "Fusion of heterogeneous industrial wireless networks: A survey",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.comnet.2024.110929",
+        "outcome": "no-evidence",
+        "note": "2025 年：期刊正式题录确认 2025 年卷、2024 年上线；可见作者资料不足以把企业单位对应到某位北大学生与许辰人的同篇指导。"
+      },
+      {
+        "title": "HiMo: End-to-End Congestion Control for High Speed Rail Data Networking",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TITS.2025.3558776",
+        "outcome": "no-evidence",
+        "note": "2025 年：正式题录作者单位为北大及山西大学。"
+      },
+      {
+        "title": "Near-Pareto Multiobjective Routing Optimization for Space-Air-Sea-Integrated Networks",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/JIOT.2024.3516121",
+        "outcome": "no-evidence",
+        "note": "2025 年：IEEE 题录列北大、哈工大（含深圳校区）、哈工程、西电。"
+      },
+      {
+        "title": "PowerRadio: Manipulate Sensor Measurement via Power GND Radiation",
+        "year": 2025,
+        "url": "https://www.ndss-symposium.org/ndss-paper/powerradio-manipulate-sensor-measurement-via-power-gnd-radiation/",
+        "outcome": "no-evidence",
+        "note": "2025 年：NDSS 正式稿作者单位均为浙大或北大。"
+      },
+      {
+        "title": "Prospective UAV-Assisted Positioning Architecture and Technologies for 6G Network Edge",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/MNET.2024.3519722",
+        "outcome": "no-evidence",
+        "note": "2025 年：IEEE 袖珍型无人机定位架构稿的作者单位为北大计算机学院及其教育部重点实验室。"
+      },
+      {
+        "title": "RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Perception of Embodied AI",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3715014.3722073",
+        "outcome": "no-evidence",
+        "note": "2025 年：ACM 作者单位列北大；学生之后就职情况不能代替论文当期企业角色。"
+      },
+      {
+        "title": "RetroV2X: A New V2X Paradigm with Visible Light Backscatter Networking",
+        "year": 2025,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12167859/",
+        "outcome": "no-evidence",
+        "note": "2025 年：2023 年在线披露，2025 年正式卷期；正式作者索引的四位作者均来自北大。"
+      },
+      {
+        "title": "RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3680207.3765262",
+        "outcome": "no-evidence",
+        "note": "2025 年：正式题录列北大、麻省理工学院、丽泽大学与浙大。"
+      },
+      {
+        "title": "T³Planner: Multi-Phase Planning Across Structure-Constrained Optical, IP, and Routing Topologies",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/JSAC.2025.3543511",
+        "outcome": "no-evidence",
+        "note": "2025 年：IEEE 题录列香港中文大学、西安交大和北大。"
+      },
+      {
+        "title": "Understanding 5G Performance on Heterogeneous Computing Architectures",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/MCOM.001.2400267",
+        "outcome": "lead",
+        "note": "2025 年：IEEE 正式稿有阿里云及北大，北大博士王诚科 可对应作者；仍缺把他的企业参与同本文研究相连的直接材料。"
+      },
+      {
+        "title": "A Co-Design Framework for Container Deployment in Mobile Edge Computing Networks",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMC.2025.3642137",
+        "outcome": "no-evidence",
+        "note": "2026 年：北大、北邮、天大、香港中文大学、厦大和派欧云；派欧云不在本项目企业范围。"
+      },
+      {
+        "title": "A RIS-enabled Hybrid-color Real-time Light Backscatter Communication System",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3842738",
+        "outcome": "no-evidence",
+        "note": "2026 年：ACM 早期正式题录列南昌大学及北京大学，未见范围内企业作者。"
+      },
+      {
+        "title": "AccLock: Unlocking Identity with Heartbeat Using In-Ear Accelerometers",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.11901",
+        "outcome": "no-evidence",
+        "note": "2026 年：论文首部及出版脚注逐名给出苏州大学、奥尔堡大学、麦考瑞大学、北大及南大。"
+      },
+      {
+        "title": "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+        "year": 2026,
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-fengqian",
+        "outcome": "lead",
+        "note": "2026 年：USENIX 正式版同时标注周裕涵在北大和腾讯，本人亦列论文及许辰人师承；稿件是 Tencent START 项目，未见明确界定周裕涵在腾讯的同期研究或实习角色的独立材料。"
+      },
+      {
+        "title": "Decentralized ISAC Service Modeling and Intelligent Scheduling Paradigm for 6G Low-Altitude Aerial-V2X",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TWC.2026.3657904",
+        "outcome": "no-evidence",
+        "note": "2026 年：IEEE 作者机构为北科大、河北省空天地通信实验室、布伦瑞克工业大学及北大。"
+      },
+      {
+        "title": "HCDN: Coordinated Stream Scheduling for Cost-Effective Live Video Delivery",
+        "year": 2026,
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-liying",
+        "outcome": "lead",
+        "note": "2026 年：USENIX 正式稿具名字节并描述实网部署，北大组名录列在读作者 Liying Wang、周裕涵等；北大学生各自署北大，缺能够确认其同期企业身份或参与安排的证据。"
+      },
+      {
+        "title": "LargeCall: Large-Model-Assisted Phone Call Enhancement Using Smartphone's Built-in Accelerometer",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/INFOCOM59046.2026.11571460",
+        "outcome": "no-evidence",
+        "note": "2026 年：IEEE 题录的作者单位为南大、北大和苏州大学。"
+      },
+      {
+        "title": "LightRider: Reliable UAV Ground Communication with a Single Laser Tethering Link",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/SECON68281.2026.11579017",
+        "outcome": "no-evidence",
+        "note": "2026 年：IEEE 作者题录列北大、浙工大、香港科大（广州）、卡内基梅隆和约翰斯·霍普金斯大学。"
+      },
+      {
+        "title": "LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks",
+        "year": 2026,
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan",
+        "outcome": "no-evidence",
+        "note": "2026 年：USENIX 正式稿作者署新加坡国立、北大、谢菲尔德大学及北邮；IACR 同题早稿为 2025 年。"
+      },
+      {
+        "title": "mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774906.3800473",
+        "outcome": "no-evidence",
+        "note": "2026 年：正式题录列北大计算机学院、北大中国药物依赖性研究所。"
+      },
+      {
+        "title": "MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.17598",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文明确部分工作在微软亚洲研究院实习期间完成；微软不在本项目企业范围。"
+      },
+      {
+        "title": "Octopus: An ABR-RAN Closed-Loop Approach Towards High QoE Multi-User 5G VR Gaming",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/SECON68281.2026.11579217",
+        "outcome": "lead",
+        "note": "2026 年：IEEE 题录中有阿里、北大、中国移动研究院；北大学生王诚科、周裕涵为组内具名作者，缺学生与企业团队在本篇的具体参与安排。"
+      },
+      {
+        "title": "TensorCast: The Missing Tensor Management Layer in Large Language Model Infrastructure",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.06007v1",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文列北大、北邮和阶跃星辰，具名企业实习是在阶跃星辰，其不在本项目企业范围。"
+      },
+      {
+        "title": "Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774906.3802759",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署北大、匹兹堡大学、庆应义塾大学及丽泽大学。"
+      },
+      {
+        "title": "UbiHearo: Bringing Scenario-Aware Sound Guidance to DHH Users with Mobile Agents",
+        "year": 2026,
+        "url": "https://zhouzimu.github.io/paper/ubicomp26-wu.pdf",
+        "outcome": "no-evidence",
+        "note": "2026 年：IMWUT 正式论文作者单位为西北工业大学、哈尔滨工程大学、香港城市大学和北京大学。"
+      },
+      {
+        "title": "Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2607.18875",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署北大和匹兹堡大学。"
+      },
+      {
+        "title": "WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2602.18726",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署北大、电子科技大学、匹兹堡大学与麻省理工学院。"
       }
     ],
-    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+    "note": "个人主页明示为精选书目；以北大主页、课题组书目、DBLP、ORCID、Crossref 和正式原文交叉核查，形成 63 篇可复核论文记录。优先记正式卷期，预印本与同成果简报合并；排除 2022 年正式发表的 BLEselect、编辑说明和研讨会简介，VLID 的期刊卷期仍不能确认。未能保证覆盖全期全部论文，继续梳理。"
   },
   "bWYvvkUAAAAJ": {
     "from": "2023-01-01",
@@ -11875,7 +12301,16 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2608.09682",
       "https://textcall.github.io/",
       "https://github.com/ant-research/TextCall",
-      "https://jiahao-shao1.github.io/"
+      "https://jiahao-shao1.github.io/",
+      "https://arxiv.org/html/2611.16439v1",
+      "https://yangs03.github.io/assets/resume_26.pdf",
+      "https://zkcys001.github.io/",
+      "https://robbyant-research.github.io/Lingbot-ALOHA/",
+      "https://hkust-xulab.com/people/",
+      "https://arxiv.org/pdf/2608.26103v1",
+      "https://robbyant-research.github.io/Zero-WAM/",
+      "https://jiaming-zhou.github.io/",
+      "https://junweiliang.me/"
     ],
     "papers": [
       {
@@ -11904,6 +12339,20 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2608.09682",
         "outcome": "lead",
         "note": "蚂蚁官方仓库、原文与项目页确认企业合作和徐英豪/杨策元共同指导，但一作 Jiahao Shao 的本人履历列港科大博士于 2026 年 9 月入读，晚于 8 月论文。浙大作者 Yuanbo Yang 的同期校内学籍、具名指导关系及企业研究仍待核实。",
+        "year": 2026
+      },
+      {
+        "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+        "url": "https://arxiv.org/html/2611.16439v1",
+        "outcome": "confirmed",
+        "note": "HALO 正文与 Robbyant 项目页将港科大博士生 Shuai Yang 列为企业双署名和具名联合一作，学生履历独立证实同期 Robbyant 实习和徐英豪博士指导。徐英豪同篇为唯一通讯，另外的企业作者 Kecheng Zheng 独立确认在蚂蚁任职。",
+        "year": 2026
+      },
+      {
+        "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "url": "https://arxiv.org/pdf/2608.26103v1",
+        "outcome": "existing",
+        "note": "徐英豪同为通讯；在读博士兼企业一作 Jiaming Zhou 的公开履历只具名港科大（广州）梁俊卫为其博士导师。徐英豪个人指导关系的其他候选（罗一鸣等）缺同时间的跨校指导记录；本篇沿梁俊卫关系记录，不重复计数。",
         "year": 2026
       }
     ],
@@ -14906,7 +15355,20 @@ const facultyPaperAudits = {
       "https://link.springer.com/chapter/10.1007/978-981-97-0798-0_14",
       "https://www.joconline.com.cn/zh/article/doi/10.11959/j.issn.1000-436x.2023220/",
       "https://arxiv.org/html/2502.14281",
-      "https://www.sciopen.com/article/10.26599/TST.2025.9010034?issn=1007-0214"
+      "https://www.sciopen.com/article/10.26599/TST.2025.9010034?issn=1007-0214",
+      "https://www.sciencedirect.com/science/article/pii/S0925231226014049",
+      "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cmu2.12774",
+      "https://arxiv.org/abs/2410.06514",
+      "https://arxiv.org/html/2403.16407",
+      "https://doi.org/10.1109/TKDE.2022.3220522",
+      "https://doi.org/10.1109/NaNA60121.2023.00092",
+      "https://researchportal.hkust.edu.hk/en/publications/mstdb-a-hybrid-storage-empowered-scalable-semantic-blockchain-dat/",
+      "https://faculty.xidian.edu.cn/PQQ/zh_CN/lwcg/321536/content/186951.htm",
+      "https://www.nana-conference.org/NaNA2023_program%20book.pdf",
+      "https://api.openalex.org/works/https://doi.org/10.1016/j.neucom.2026.134006",
+      "https://dblp.org/pid/06/4559",
+      "https://dblp.uni-trier.de/pid/191/9426-1.html",
+      "https://web.xidian.edu.cn/yxiao/research.html"
     ],
     "papers": [
       {
@@ -15069,9 +15531,51 @@ const facultyPaperAudits = {
         "url": "https://www.sciopen.com/article/10.26599/TST.2025.9010034?issn=1007-0214",
         "note": "SciOpen 记载论文于 2026 年 9 月正式在线公开；作者署西电、深圳信息职业技术学院、广州大学、杭州电子科技大学。",
         "outcome": "no-evidence"
+      },
+      {
+        "title": "On the privacy risks of graph neural architecture search",
+        "year": 2026,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231226014049",
+        "note": "Elsevier 正式卷期为 2026 年 10 月 14 日，全部作者机构是西电（含其重点实验室）；论文列肖阳负责指导、公开基金支持，未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Probabilistic models for evaluating network edge's resistance against scan and foothold attack",
+        "year": 2024,
+        "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cmu2.12774",
+        "note": "IET 正式卷期 2024；作者署西电及西安卫星测控中心的国家重点实验室，未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "MORSE: An Efficient Homomorphic Secret Sharing Scheme Enabling Non-Linear Operation",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2410.06514",
+        "note": "2024 年预印本公开署名及正文均未给出范围内企业合作者或在读人员参与企业科研的公开证据；按原稿独立记录。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "A Survey on Long Video Generation: Challenges, Methods, and Prospects",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2403.16407",
+        "note": "作者预印本列西电、上海人工智能实验室、悉尼大学、上海交通大学。未见范围内企业；上海人工智能实验室并非这里的商业研究机构。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "MSTDB: A Hybrid Storage-Empowered Scalable Semantic Blockchain Database",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TKDE.2022.3220522",
+        "note": "IEEE 2022 在线、正式卷期为 2023 年 35(8)。出版社提交的作者机构为西电、港理工、西挪威研究院；无范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Defense Against Adversarial Attacks via Adversarial Noise Denoising Networks in Image Recognition",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/NaNA60121.2023.00092",
+        "note": "NaNA 2023 正式程序与 IEEE 元数据六位作者全部署西电，未见范围内企业。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "已对代表作主页、ORCID、出版元数据、直接论文和团队官方名单逐篇核对；DBLP 与教师个人列出的其他题录待交叉补齐。"
+    "note": "核查窗口为 2023-01-01 至 2026-11-12。按学校代表作、ORCID、正式会议、出版记录和合作者索引核查 29 篇；合并同名预印本与正式版。另剔除索引混入的 4 篇福州大学／东南大学同名作者论文。本人完整书目链接暂无法读取，两篇腾讯合著继续作为线索。"
   },
   "bj356J0AAAAJ": {
     "from": "2023-01-01",
@@ -16179,7 +16683,13 @@ const facultyPaperAudits = {
       "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602247207877015",
       "https://pubmed.ncbi.nlm.nih.gov/36702690/",
       "https://crad.ict.ac.cn/fileJSJYJYFZ/journal/article/jsjyjyfz/2025/9/0a8f6c23-02a2-4b04-b7f5-bdff5c21231b.pdf",
-      "https://github.com/shenyizg/ImperceptibleAttack"
+      "https://github.com/shenyizg/ImperceptibleAttack",
+      "https://arxiv.org/search/?query=Lingchen+Zhao&searchtype=author",
+      "https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/lingchen-zhao-wuhan-university",
+      "https://arxiv.org/abs/2405.16181",
+      "https://github.com/SignedQiu/MEFAttack",
+      "https://arxiv.org/abs/2606.12263",
+      "https://doi.org/10.1109/TIFS.2026.3658188"
     ],
     "papers": [
       {
@@ -16261,10 +16771,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
-        "url": "https://arxiv.org/abs/2606.12263",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/qiu-chunlin",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "公开稿作者署武大、港科大（广州）、西安交通大学，未见企业作者。"
+        "note": "USENIX 2026 正式题录与 arXiv:2606.12263 同文，列武大、港科大（广州）及西安交通大学；未见范围内企业作者。"
       },
       {
         "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
@@ -16302,11 +16812,11 @@ const facultyPaperAudits = {
         "note": "公开稿作者署武汉大学、南京理工大学、香港城市大学；未见范围内企业作者。"
       },
       {
-        "title": "Enhancing Adversarial Transferability Through Neighborhood Conditional Sampling",
-        "url": "https://arxiv.org/abs/2405.16181",
-        "year": 2024,
+        "title": "Boosting Adversarial Transferability With Low-Cost Optimization via Maximin Expected Flatness",
+        "url": "https://arxiv.org/pdf/2405.16181v3",
+        "year": 2026,
         "outcome": "no-evidence",
-        "note": "公开稿所有作者列武汉大学；使用公开模型不说明企业参与。"
+        "note": "同一 arXiv:2405.16181 的初稿题为 Enhancing Adversarial Transferability Through Neighborhood Conditional Sampling，现用 2026 IEEE 正式版计一次。v3 首页列七位作者均署武汉大学；未见范围内企业作者。"
       },
       {
         "title": "Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle",
@@ -16391,9 +16901,44 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "已核对期刊作者与第一作者代码；同篇郑保林在同年另一研究署阿里。尚无可独立证实该篇企业参与和第一作者同期具名指导的公开材料。"
+      },
+      {
+        "title": "Reputation Defender: Local Black-Box Adversarial Attack against Image-Translation-Based DeepFake",
+        "url": "https://doi.org/10.1109/ICME57554.2024.10687690",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "IEEE ICME 题录核实三位同篇作者；可读题录未逐名列单位，现有公开资料尚不能完整确认企业参研。"
+      },
+      {
+        "title": "WaveTrap: A Clean-Label Poisoning Attack Against Unauthorized Voice Data Collection",
+        "url": "https://doi.org/10.1109/MNET.2025.3602993",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "核对 IEEE 卷期和作者原始 ORCID 的作品关联；公开 IEEE 页面未提供完整单位信息，无可确认的企业参研证据。"
+      },
+      {
+        "title": "When Deepfake Meets Backdoor: Leveraging GAN Fingerprints for Data Poisoning Attack",
+        "url": "https://doi.org/10.1109/TDSC.2025.3633381",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "IEEE 2026 卷期的原始作者名单与 DBLP 匹配；未取得完整原文单位栏，暂无该篇企业参研的独立公开证据。"
+      },
+      {
+        "title": "CuckooAttack: Towards Practical Backdoor Attack against Automatic Speech Recognition Systems",
+        "url": "https://ieeexplore.ieee.org/document/10916507/",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "核实 IEEE 卷期以及独立题录所记作者；未取到原始作者单位栏以确认企业参研。"
+      },
+      {
+        "title": "No-Box Universal Adversarial Perturbations Against Image Classifiers via Artificial Textures",
+        "url": "https://scholars.cityu.edu.hk/en/publications/no-box-universal-adversarial-perturbations-against-image-classifi/",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "香港城市大学机构库与 IEEE 正式题录相符；机构库没有为全部作者列单位，企业参研未获证实。"
       }
     ],
-    "note": "按作品逐篇核对作者单位、参研身份和指导关系；完整书目仍在核对。"
+    "note": "按实际任职、作者署名和学生参与逐篇检查，已对照 ORCID、DBLP、Crossref、arXiv 版本、正式出版社和中文期刊目录。已核对列入的公开书目，部分仅有题录，仍在寻找可读作者单位材料及未收索引的作品。"
   },
   "K5FZmOkAAAAJ": {
     "from": "2023-01-01",
@@ -17079,7 +17624,8 @@ const facultyPaperAudits = {
       "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602247207877015",
       "https://pubmed.ncbi.nlm.nih.gov/36702690/",
       "https://crad.ict.ac.cn/fileJSJYJYFZ/journal/article/jsjyjyfz/2025/9/0a8f6c23-02a2-4b04-b7f5-bdff5c21231b.pdf",
-      "https://github.com/shenyizg/ImperceptibleAttack"
+      "https://github.com/shenyizg/ImperceptibleAttack",
+      "https://doi.org/10.1109/TIFS.2026.3658188"
     ],
     "papers": [
       {
@@ -17165,8 +17711,73 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "lead",
         "note": "已核对期刊作者与第一作者代码；同篇郑保林在同年另一研究署阿里。尚无可独立证实该篇企业参与和第一作者同期具名指导的公开材料。"
+      },
+      {
+        "title": "WaveTrap: A Clean-Label Poisoning Attack Against Unauthorized Voice Data Collection",
+        "url": "https://doi.org/10.1109/MNET.2025.3602993",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "核对 IEEE 卷期和作者原始 ORCID 的作品关联；公开 IEEE 页面未提供完整单位信息，无可确认的企业参研证据。"
+      },
+      {
+        "title": "When Deepfake Meets Backdoor: Leveraging GAN Fingerprints for Data Poisoning Attack",
+        "url": "https://doi.org/10.1109/TDSC.2025.3633381",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "IEEE 2026 卷期的原始作者名单与 DBLP 匹配；未取得完整原文单位栏，暂无该篇企业参研的独立公开证据。"
+      },
+      {
+        "title": "CuckooAttack: Towards Practical Backdoor Attack against Automatic Speech Recognition Systems",
+        "url": "https://ieeexplore.ieee.org/document/10916507/",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "核实 IEEE 卷期以及独立题录所记作者；未取到原始作者单位栏以确认企业参研。"
+      },
+      {
+        "title": "No-Box Universal Adversarial Perturbations Against Image Classifiers via Artificial Textures",
+        "url": "https://scholars.cityu.edu.hk/en/publications/no-box-universal-adversarial-perturbations-against-image-classifi/",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "香港城市大学机构库与 IEEE 正式题录相符；机构库没有为全部作者列单位，企业参研未获证实。"
+      },
+      {
+        "title": "Boosting Adversarial Transferability With Low-Cost Optimization via Maximin Expected Flatness",
+        "url": "https://arxiv.org/pdf/2405.16181v3",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "同一 arXiv:2405.16181 的初稿题为 Enhancing Adversarial Transferability Through Neighborhood Conditional Sampling，现用 2026 IEEE 正式版计一次。v3 首页列七位作者均署武汉大学；未见范围内企业作者。"
+      },
+      {
+        "title": "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/qiu-chunlin",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "USENIX 2026 正式题录与 arXiv:2606.12263 同文，列武大、港科大（广州）及西安交通大学；未见范围内企业作者。"
       }
     ],
     "note": "按作品逐篇核对作者单位、参研身份和指导关系；完整书目仍在核对。"
+  },
+  "bMedjfUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/pdf/2608.26103v1",
+      "https://jiaming-zhou.github.io/",
+      "https://junweiliang.me/",
+      "https://zqh0253.github.io/",
+      "https://robbyant-research.github.io/Zero-WAM/",
+      "https://arxiv.org/abs/2608.26103",
+      "https://technology.robbyant.com/"
+    ],
+    "papers": [
+      {
+        "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "url": "https://arxiv.org/pdf/2608.26103v1",
+        "outcome": "confirmed",
+        "note": "Zero-WAM 原文作者脚注明确将第一作者 Jiaming Zhou 署 Robbyant 和港科大（广州），企业官方发布明确列出项目作者和技术。学生本人确认港科大（广州）在读身份及具名学术导师梁俊卫；企业正式研究员 Qihang Zhang 被列为同篇项目负责人。",
+        "year": 2026
+      }
+    ]
   }
 };
