@@ -54178,5 +54178,27 @@ const facultyPaperAudits = {
       }
     ],
     "note": "公开首批：身份由港城大和 ORCID 对齐，逐篇对照出版社作者机构与较早的同题首稿。其余公开书目仍待核对。"
+  },
+  "w3OoFL0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://fit.fudan.edu.cn/Data/View/2989",
+      "https://fukunyin.github.io/",
+      "https://www.skicyyu.org/",
+      "https://arxiv.org/html/2311.17618v3",
+      "https://shapegpt.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2311.17618",
+        "outcome": "confirmed",
+        "note": "2023 年 11 月首稿、12 月修订为同篇。修订稿具名指第一作者尹富坤在腾讯实习研究；本人说明在读博士导师陈涛并列腾讯研究实习阶段，企业作者俞刚的公开任职资料与时段一致。"
+      }
+    ],
+    "note": "先从论文、学生和企业公开资料核实 ShapeGPT；其他书目仍待逐篇查考。"
   }
 };

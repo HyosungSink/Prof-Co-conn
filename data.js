@@ -44991,6 +44991,55 @@ const survey = {
         ]
       ],
       "evidence": "首稿具名脚注明确旷皓予和 Yikai Zhang在字节跳动实习期间参与完成该工作；NeurIPS 正式版同一组作者和技术，仍将旷皓予列为复旦与字节 Seed 双署，脚注不再写具体实习。旷皓予本人注明攻读复旦硕士时由本篇通讯作者魏忠钰指导。第一作者叶蓉的个人履历注明 2020 年 7 月起全职受聘字节；她与旷皓予是不同角色。首稿 2025-01-24，正式版与预印本合并。"
+    },
+    {
+      "id": "tencent-shapegpt-fudan-tao-chen",
+      "company": "腾讯",
+      "team": "腾讯 · PCG",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "陈涛 · Tao Chen",
+        "复旦大学教授、尹富坤的在读博士导师；本篇通讯作者，署复旦大学。",
+        "https://fit.fudan.edu.cn/Data/View/2989"
+      ],
+      "employee": [
+        "俞刚 · Gang Yu",
+        "本篇署腾讯。其研究履历注明在加入阶跃星辰前任腾讯研究总监，腾讯任职覆盖 2023 年。",
+        "https://www.skicyyu.org/"
+      ],
+      "student": [
+        "尹富坤 · Fukun Yin",
+        "2021 年 9 月起在复旦攻读博士，2021 年 5 月至 2024 年 5 月在腾讯实习；作者版首页明确该篇由他在腾讯科研实习期间完成。",
+        "https://fukunyin.github.io/"
+      ],
+      "advising": [
+        "研究时的具名博士导师",
+        "学生个人首页直接说明在复旦由陈涛指导；校方导师同篇通讯。",
+        "https://fukunyin.github.io/"
+      ],
+      "area": "视觉与多模态",
+      "title": "ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model",
+      "short": "ShapeGPT",
+      "date": "2023-11-29",
+      "venue": "arXiv 预印本",
+      "paperId": "arxiv:2311.17618",
+      "paper": "https://arxiv.org/abs/2311.17618",
+      "extra": [
+        [
+          "论文 v3 中的具名研究实习脚注",
+          "https://arxiv.org/html/2311.17618v3"
+        ],
+        [
+          "原项目页及腾讯 PCG 团队",
+          "https://shapegpt.github.io/"
+        ],
+        [
+          "俞刚当期受聘资料",
+          "https://www.skicyyu.org/CV.pdf"
+        ]
+      ],
+      "evidence": "首稿于 2023-11-29 公开。12 月作者版首页将尹富坤及另外两名作者具名于腾讯科研实习；三角色同篇署名，尹富坤署复旦与腾讯，陈涛署复旦且担任通讯作者，俞刚署腾讯并公开列其腾讯研究总监工作。该文的 3D 形状语言模型与同名独立论文不合并。"
     }
   ]
 };
