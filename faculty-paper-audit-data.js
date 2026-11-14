@@ -7015,7 +7015,17 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://aclanthology.org/2026.emnlp-main.2683/",
-      "https://liliu-avril.github.io/"
+      "https://liliu-avril.github.io/",
+      "https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.pdf",
+      "https://imxtx.github.io/",
+      "https://www.chimechallenge.org/workshops/chime2020/programme",
+      "https://arxiv.org/abs/2512.23994",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://www.ncmmsc.org.cn/en/news/show.asp?id=69",
+      "https://github.com/imxtx/PhyAVBench",
+      "https://arxiv.org/abs/2608.16162",
+      "https://aclanthology.org/2026.emnlp-main.2683.pdf"
     ],
     "papers": [
       {
@@ -7023,6 +7033,27 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.emnlp-main.2683/",
         "outcome": "lead",
         "note": "正文附 Fengji Ma、Yan Rong 的准确实习脚注，但尚未找到 Li Liu 的官方学生名录、公开学位论文或本人履历确认指导。"
+      },
+      {
+        "title": "VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation",
+        "url": "https://www.isca-archive.org/interspeech_2026/xie26c_interspeech.html",
+        "outcome": "lead",
+        "note": "学生谢天鑫本人明确导师和 2025-11 开始腾讯实习。同篇腾讯员工、犀牛鸟资助可核，但学生仅署港科大广州，未找到专门说明本篇工作归属该企业实习的证据。",
+        "year": 2026
+      },
+      {
+        "title": "PhyAVBench: A Challenging Audio Physics-Sensitivity Benchmark for Physically Grounded Text-to-Audio-Video Generation",
+        "url": "https://arxiv.org/abs/2512.23994",
+        "outcome": "lead",
+        "note": "谢天鑫本人确认博士导师、腾讯实习；早期文章为双署名，正式会刊仅列学校，项目代码为个人账号；导师报告为实验室成果，论文仅列资助，缺具名企业项目描述。",
+        "year": 2026
+      },
+      {
+        "title": "ACE-Cap: Active Evidence Acquisition via Agentic Co-Evolution for Long-Paragraph Fine-Grained Audio Captioning",
+        "url": "https://arxiv.org/abs/2608.16162",
+        "outcome": "lead",
+        "note": "Fengji Ma 与 Yan Rong 同署学校及快手，其另一篇正式版确有具名快手实习脚注；本篇仍缺可独立检验的研究归属和与 Li Liu 的同期指导资料。",
+        "year": 2026
       }
     ]
   },
@@ -7531,7 +7562,11 @@ const facultyPaperAudits = {
       "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html",
       "https://wangruinlp.github.io/",
       "https://yikang0131.github.io/",
-      "https://zwhe99.github.io/"
+      "https://zwhe99.github.io/",
+      "https://hsing-wang.github.io/academic_homepage/",
+      "https://github.com/codefuse-ai/CodeFuse-Embeddings",
+      "https://huggingface.co/Geralt-Targaryen",
+      "https://pengd.github.io/"
     ],
     "papers": [
       {
@@ -7560,9 +7595,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models",
-        "url": "https://arxiv.org/abs/2402.14007",
-        "outcome": "lead",
-        "note": "论文只有校园及企业署名；星号表示等贡献，暂无本项工作在企业完成的具名实习证据。"
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.acl-long.226.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式版首页第 46 行的作者脚注明确何志威在腾讯 AI Lab 实习期间完成本工作，Xing Wang 同篇署腾讯且 2024 年 2 月首稿时仍正式任职。学生个人履历另具名王瑞为校内博士导师。旧预印本判为线索，正式版已有实习脚注。"
       },
       {
         "title": "A Systematic Assessment of Language Models with Linguistic Minimal Pairs in Chinese",
@@ -7581,9 +7617,37 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2024.tacl-1.13.pdf",
         "outcome": "confirmed",
         "note": "正式论文第一页面具名何志威和 Tian Liang 在腾讯 AI Lab 实习期间完成本文；何志威是上海交通大学在读博士，学生及腾讯实习导师两方履历都记载其参与。"
+      },
+      {
+        "title": "RaSA: Rank-Sharing Low-Rank Adaptation",
+        "year": 2025,
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/b4fd162d3e2d015233486a2e313828a7-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式原文首页明确何志威、Xingyu Chen、Zhijie Wang 在腾讯 AI Lab 实习时完成本项研究。何志威是上交在读的共同一作，王瑞和腾讯员工 Zhaopeng Tu 分别是校内及企业共同通讯。"
+      },
+      {
+        "title": "F2LLM Technical Report: Matching SOTA Embedding Performance with 6 Million Open-Source Data",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2510.02294",
+        "outcome": "confirmed",
+        "note": "项目原文首位学生并列蚂蚁及上交身份，课题组给出其同期学籍与导师。学生实名账号在蚂蚁官方代码仓库独立导入对应 F2LLM 代码。研究采用 600 万训练样本与三种尺寸，和 2026 年的新训练数据及扩展模型不是同一论文。"
+      },
+      {
+        "title": "C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2512.21332",
+        "outcome": "confirmed",
+        "note": "学生为并列第一作者；其实名账号在蚂蚁 CodeFuse 官方仓库提交 C2LLM 目录及指向同一论文的资源，蚂蚁项目公开 0.5B 与 7B 代码检索模型。Peng Di 任职期覆盖 2025 年 12 月。"
+      },
+      {
+        "title": "ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/zhang26dh.html",
+        "outcome": "confirmed",
+        "note": "ICML 正式版、学生实名在蚂蚁 CodeFuse 官网提交的独立项目与师承一致。ML-Embed 将 3D Matryoshka 学习中的 MEL/MLL 联合用于公开模型；同一团队另发的 F2LLM-v2 预印本如属相同研究版本将作为技术报告归并，不额外加数。企业通讯取杭宇，以适用 2026 年 4 月后在职证据。"
       }
     ],
-    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+    "note": "已开始按正式出版、个人及企业项目记录逐篇审查；补论文书目与其余共同发表后再标全部。"
   },
   "ewA4NAcAAAAJ": {
     "from": "2023-01-01",
@@ -7636,20 +7700,119 @@ const facultyPaperAudits = {
       "https://aclanthology.org/2025.findings-acl.828/",
       "https://aclanthology.org/2025.findings-acl.828.pdf",
       "https://www.huangzhichao.net/",
-      "https://arxiv.org/abs/2505.20622"
+      "https://arxiv.org/abs/2505.20622",
+      "https://aclanthology.org/2026.starsem-conference.36/",
+      "https://aclanthology.org/2026.starsem-conference.36.pdf",
+      "https://aclanthology.org/2026.starsem-conference.35/",
+      "https://aclanthology.org/2026.starsem-conference.35.pdf",
+      "https://aclanthology.org/2026.multilll-1.11/",
+      "https://aclanthology.org/2026.multilll-1.11.pdf",
+      "https://aclanthology.org/2026.findings-acl.2115/",
+      "https://aclanthology.org/2026.findings-acl.2115.pdf",
+      "https://aclanthology.org/2026.findings-aacl.245/",
+      "https://aclanthology.org/2026.findings-aacl.245.pdf",
+      "https://aclanthology.org/2026.emnlp-main.501/",
+      "https://aclanthology.org/2026.emnlp-main.501.pdf",
+      "https://aclanthology.org/2026.acl-long.188/",
+      "https://aclanthology.org/2026.acl-long.188.pdf",
+      "https://aclanthology.org/2025.naacl-short.15/",
+      "https://aclanthology.org/2025.naacl-short.15.pdf",
+      "https://aclanthology.org/2025.findings-naacl.8/",
+      "https://aclanthology.org/2025.findings-naacl.8.pdf",
+      "https://aclanthology.org/2025.findings-naacl.317/",
+      "https://aclanthology.org/2025.findings-naacl.317.pdf",
+      "https://ringos.github.io/",
+      "https://github.com/DAMO-NLP-SG/CaRing",
+      "https://ringos.github.io/files/better_reasoning_proof-preprint.pdf",
+      "https://aclanthology.org/2025.findings-emnlp.188/",
+      "https://aclanthology.org/2025.findings-emnlp.188.pdf",
+      "https://aclanthology.org/2025.findings-acl.62/",
+      "https://aclanthology.org/2025.findings-acl.62.pdf",
+      "https://yitianlian.github.io/files/Chengxing_Xie_cv.pdf",
+      "https://aclanthology.org/2025.findings-acl.595/",
+      "https://aclanthology.org/2025.findings-acl.595.pdf",
+      "https://aclanthology.org/2025.findings-acl.1232/",
+      "https://aclanthology.org/2025.findings-acl.1232.pdf",
+      "https://aclanthology.org/2025.emnlp-main.46/",
+      "https://aclanthology.org/2025.emnlp-main.46.pdf",
+      "https://aclanthology.org/2025.acl-long.1103/",
+      "https://aclanthology.org/2025.acl-long.1103.pdf",
+      "https://encyclomen.github.io/",
+      "https://encyclomen.github.io/cv/",
+      "https://arxiv.org/abs/2501.01705",
+      "https://aclanthology.org/2024.naacl-srw.3/",
+      "https://aclanthology.org/2024.naacl-srw.3.pdf",
+      "https://naacl2024-srw.github.io/cfp",
+      "https://aclanthology.org/2024.naacl-srw.2/",
+      "https://aclanthology.org/2024.naacl-srw.2.pdf",
+      "https://aclanthology.org/2024.naacl-long.51/",
+      "https://aclanthology.org/2024.naacl-long.51.pdf",
+      "https://aclanthology.org/2024.lrec-main.47/",
+      "https://aclanthology.org/2024.lrec-main.47.pdf",
+      "https://arxiv.org/abs/2305.12675",
+      "https://naacl2024-srw.github.io/accepted",
+      "https://aclanthology.org/2024.lrec-main.301/",
+      "https://aclanthology.org/2024.lrec-main.301.pdf",
+      "https://aclanthology.org/anthology-files/pdf/lrec/2024.lrec-main.301.pdf",
+      "https://aclanthology.org/2024.findings-emnlp.382/",
+      "https://aclanthology.org/2024.findings-emnlp.382.pdf",
+      "https://aclanthology.org/2024.findings-eacl.19/",
+      "https://aclanthology.org/2024.findings-eacl.19.pdf",
+      "https://aclanthology.org/2024.findings-acl.679/",
+      "https://aclanthology.org/2024.findings-acl.679.pdf",
+      "https://aclanthology.org/anthology-files/pdf/findings/2024.findings-acl.679.pdf",
+      "https://aclanthology.org/2024.emnlp-main.765/",
+      "https://aclanthology.org/2024.emnlp-main.765.pdf",
+      "https://aclanthology.org/anthology-files/pdf/emnlp/2024.emnlp-main.765.pdf",
+      "https://aclanthology.org/2024.emnlp-main.55/",
+      "https://aclanthology.org/2024.emnlp-main.55.pdf",
+      "https://aclanthology.org/2024.emnlp-main.489/",
+      "https://aclanthology.org/2024.emnlp-main.489.pdf",
+      "https://aclanthology.org/2024.acl-long.784/",
+      "https://aclanthology.org/2024.acl-long.784.pdf",
+      "https://aclanthology.org/2023.starsem-1.37/",
+      "https://aclanthology.org/2023.starsem-1.37.pdf",
+      "https://aclanthology.org/2023.findings-emnlp.526/",
+      "https://aclanthology.org/2023.findings-emnlp.526.pdf",
+      "https://aclanthology.org/2023.findings-emnlp.428/",
+      "https://aclanthology.org/2023.findings-emnlp.428.pdf",
+      "https://aclanthology.org/2023.findings-eacl.28/",
+      "https://aclanthology.org/2023.findings-eacl.28.pdf",
+      "https://github.com/LHRYANG/CommonGen",
+      "https://aclanthology.org/2023.findings-acl.601/",
+      "https://aclanthology.org/2023.findings-acl.601.pdf",
+      "https://aclanthology.org/2023.emnlp-main.728/",
+      "https://aclanthology.org/2023.emnlp-main.728.pdf",
+      "https://github.com/DAMO-NLP-SG/RemeMo",
+      "https://aclanthology.org/2023.eacl-main.5/",
+      "https://aclanthology.org/2023.eacl-main.5.pdf",
+      "https://aclanthology.org/2023.acl-long.667/",
+      "https://aclanthology.org/2023.acl-long.667.pdf",
+      "https://aclanthology.org/2023.acl-long.413/",
+      "https://aclanthology.org/2023.acl-long.413.pdf",
+      "https://en.westlake.edu.cn/faculty/zhenzhong-lan.html",
+      "https://aclanthology.org/2023.acl-long.225/",
+      "https://aclanthology.org/2023.acl-long.225.pdf",
+      "https://iris-backend.cuhk.edu.hk/ws/portalfiles/portal/718615224/icml2026_camera-ready.pdf",
+      "https://arxiv.org/abs/2512.23959",
+      "https://github.com/Encyclomen/HGMem",
+      "https://arxiv.org/abs/2606.02020",
+      "https://arxiv.org/html/2606.02020"
     ],
     "papers": [
       {
         "title": "InComeS: Integrating Compression and Selection Mechanisms into LLMs for Efficient Model Editing",
         "url": "https://aclanthology.org/2026.emnlp-main.1392/",
         "outcome": "confirmed",
-        "note": "首页在第一作者 Shuaiyi Li 和另一位作者位置以同符号标注研究期间在腾讯 AI Lab 实习。Wai Lam 的大学站课题组把 Shuaiyi Li 列为 2022 年入学博士生。 教师与腾讯正式职员均在同篇按校、企署名。"
+        "note": "首页在第一作者 Shuaiyi Li 和另一位作者位置以同符号标注研究期间在腾讯 AI Lab 实习。Wai Lam 的大学站课题组把 Shuaiyi Li 列为 2022 年入学博士生。 教师与腾讯正式职员均在同篇按校、企署名。",
+        "year": 2026
       },
       {
         "title": "Reasons to Reject? Aligning Language Models with Judgments",
         "url": "https://aclanthology.org/2024.findings-acl.730/",
         "outcome": "confirmed",
-        "note": "论文首页第一作者脚注注明 Weiwen Xu 在腾讯 AI Lab 实习期间开展此研究。第一作者公开履历给出港中文博士在读时间 2020–2024，并具体列 Wai Lam 为博士导师。 教师与腾讯正式职员均在同篇按校、企署名。"
+        "note": "论文首页第一作者脚注注明 Weiwen Xu 在腾讯 AI Lab 实习期间开展此研究。第一作者公开履历给出港中文博士在读时间 2020–2024，并具体列 Wai Lam 为博士导师。 教师与腾讯正式职员均在同篇按校、企署名。",
+        "year": 2024
       },
       {
         "title": "GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory",
@@ -7724,8 +7887,289 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "首页星号直接标明第一作者 Ting Xu 在字节跳动实习时完成这篇研究。校方课题组具名列其为 Wai Lam 在读博士生；同篇通讯作者 Zhichao Huang 的原始资料独立确认其正式任职。",
         "year": 2025
+      },
+      {
+        "title": "Dictionary Insertion Prompting for Multilingual Reasoning on Multilingual Large Language Models",
+        "url": "https://aclanthology.org/2026.starsem-conference.36/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Toxic Subword Pruning for Dialogue Response Generation on Large Language Models",
+        "url": "https://aclanthology.org/2026.starsem-conference.35/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Clean Evaluations on Contaminated Visual Language Models",
+        "url": "https://aclanthology.org/2026.multilll-1.11/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Multi-LLM Collaborative Search for Complex Problem Solving",
+        "url": "https://aclanthology.org/2026.findings-acl.2115/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2026
+      },
+      {
+        "title": "SeEM: Selective Dictionary-based Generation",
+        "url": "https://aclanthology.org/2026.findings-aacl.245/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Stephanie2: Thinking, Waiting, and Making Decisions Like Humans in Step-by-Step AI Social Chat",
+        "url": "https://aclanthology.org/2026.emnlp-main.501/",
+        "outcome": "no-evidence",
+        "note": "核对作者单位与原文致谢，合作方属 FaceMind 及学术单位；未发现范围内企业与具名研究学生的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Adam’s Law: Textual Frequency Law on Large Language Models",
+        "url": "https://aclanthology.org/2026.acl-long.188/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2026
+      },
+      {
+        "title": "LLM2: Let Large Language Models Harness System 2 Reasoning",
+        "url": "https://aclanthology.org/2025.naacl-short.15/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2025
+      },
+      {
+        "title": "Stephanie: Step-by-Step Dialogues for Mimicking Human Interactions in Social Conversations",
+        "url": "https://aclanthology.org/2025.findings-naacl.8/",
+        "outcome": "no-evidence",
+        "note": "篇中实习脚注明确为 FaceMind Corporation，该机构不在本次十四家企业名单。",
+        "year": 2025
+      },
+      {
+        "title": "Neuro-Symbolic Integration Brings Causal and Reliable Reasoning Proofs",
+        "url": "https://aclanthology.org/2025.findings-naacl.317/",
+        "outcome": "lead",
+        "note": "Sen Yang 本人明确博士导师及曾赴达摩院研究，正式论文为校企双署名，阿里组织仓库也有人名对应的实现提交；但资助归属只写 AIR 项目，未找到这篇明确属于学生企业项目或实习时段的具名材料。",
+        "year": 2025
+      },
+      {
+        "title": "LNE-Blocking: An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models",
+        "url": "https://aclanthology.org/2025.findings-emnlp.188/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2025
+      },
+      {
+        "title": "SWE-Fixer: Training Open-Source LLMs for Effective and Efficient GitHub Issue Resolution",
+        "url": "https://aclanthology.org/2025.findings-acl.62/",
+        "outcome": "no-evidence",
+        "note": "核对正式版和学生履历；主要合作机构为上海人工智能实验室（不在十四家范围），未找到本论文另有符合条件的企业研究。",
+        "year": 2025
+      },
+      {
+        "title": "Infinite ICL: Breaking the Limit of Context Window Size via Long Short-term Memory Transformation",
+        "url": "https://aclanthology.org/2025.findings-acl.595/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2025
+      },
+      {
+        "title": "JsonTuning: Towards Generalizable, Robust, and Controllable Instruction Tuning",
+        "url": "https://aclanthology.org/2025.findings-acl.1232/",
+        "outcome": "lead",
+        "note": "高畅博士履历与达摩院共同署名能核对，本文没有具名实习脚注；参与该项目的时间与企业实习关联仍待补。",
+        "year": 2025
+      },
+      {
+        "title": "SLoW: Select Low-frequency Words! Automatic Dictionary Selection for Translation on Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.46/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2025
+      },
+      {
+        "title": "The Essence of Contextual Understanding in Theory of Mind: A Study on Question Answering with Story Characters",
+        "url": "https://aclanthology.org/2025.acl-long.1103/",
+        "outcome": "lead",
+        "note": "Chulun Zhou 的导师与腾讯同篇员工可确认；其本人主页与履历子页关于腾讯工作截止时间不一致（主页 2023 年、履历 2025 年 11 月），正式版仅列腾讯项目资助，缺独立材料把学生本文工作归于企业。",
+        "year": 2025
+      },
+      {
+        "title": "Exploring Compositional Generalization of Large Language Models",
+        "url": "https://aclanthology.org/2024.naacl-srw.3/",
+        "outcome": "lead",
+        "note": "主办方规定研究论文第一作者为在读，导师名单和腾讯共同作者均能核对；本篇无学生实习或企业开发工作说明。",
+        "year": 2024
+      },
+      {
+        "title": "Rephrasing Invokes Better Generations for Large Language Models",
+        "url": "https://aclanthology.org/2024.naacl-srw.2/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2024
+      },
+      {
+        "title": "Unveiling the Generalization Power of Fine-Tuned Large Language Models",
+        "url": "https://aclanthology.org/2024.naacl-long.51/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2024
+      },
+      {
+        "title": "A Frustratingly Simple Decoding Method for Neural Text Generation",
+        "url": "https://aclanthology.org/2024.lrec-main.47/",
+        "outcome": "lead",
+        "note": "正式论文具名 Haoran Yang 是腾讯实习研究作者；导师的课题组给出 2019 博士入学年，另一官方学生活动在 2024 年要求第一作者在读，但仍缺覆盖 2023 年首版之前具体实习时段的完整学籍证据。",
+        "year": 2024
+      },
+      {
+        "title": "CO3: Low-resource Contrastive Co-training for Generative Conversational Query Rewrite",
+        "url": "https://aclanthology.org/2024.lrec-main.301/",
+        "outcome": "lead",
+        "note": "Yifei Yuan 署哥本哈根大学，Liyi Chen 署南开；正文有未具名的阿里实习说明，尚无证据证明具体实习作者与港中文在读及同期指导关系。",
+        "year": 2024
+      },
+      {
+        "title": "Not All Preference Pairs Are Created Equal: A Recipe for Annotation-Efficient Iterative Preference Learning",
+        "url": "https://aclanthology.org/2024.findings-emnlp.382/",
+        "outcome": "lead",
+        "note": "Sen Yang 本人确认在港中文由 Wai Lam 指导且曾赴腾讯研究，正式论文列腾讯共同作者，但缺本篇实习具名说明或对应工作履历。",
+        "year": 2024
+      },
+      {
+        "title": "Revamping Multilingual Agreement Bidirectionally via Switched Back-translation for Multilingual Neural Machine Translation",
+        "url": "https://aclanthology.org/2024.findings-eacl.19/",
+        "outcome": "no-evidence",
+        "note": "论文实习说明明确写微软研究院；未发现其余范围内企业证据。",
+        "year": 2024
+      },
+      {
+        "title": "CodeAttack: Revealing Safety Generalization Challenges of Large Language Models via Code Completion",
+        "url": "https://aclanthology.org/2024.findings-acl.679/",
+        "outcome": "no-evidence",
+        "note": "正式版列港中文、上交、华东师大及上海人工智能实验室；未发现范围内企业与在读学生的同篇证据。",
+        "year": 2024
+      },
+      {
+        "title": "Consecutive Batch Model Editing with HooK Layers",
+        "url": "https://aclanthology.org/2024.emnlp-main.765/",
+        "outcome": "lead",
+        "note": "Shuaiyi Li 是 Wai Lam 博士生，Deng Cai 企业署名腾讯；经正式论文与致谢核验，本篇只明确 InnoHK 资助，未找到学生在腾讯进行该项研究的材料。",
+        "year": 2024
+      },
+      {
+        "title": "Chain-of-Dictionary Prompting Elicits Translation in Large Language Models",
+        "url": "https://aclanthology.org/2024.emnlp-main.55/",
+        "outcome": "no-evidence",
+        "note": "原文合作来自港中文与微软相关团队；没发现范围内企业学生研究链。",
+        "year": 2024
+      },
+      {
+        "title": "A Thorough Examination of Decoding Methods in the Era of LLMs",
+        "url": "https://aclanthology.org/2024.emnlp-main.489/",
+        "outcome": "lead",
+        "note": "正式版列港中文共同作者、腾讯正式雇员，未发现把 Haoran Yang 或另一位合资格在读生具体连接至本篇企业工作的文字。",
+        "year": 2024
+      },
+      {
+        "title": "Distributional Inclusion Hypothesis and Quantifications: Probing for Hypernymy in Functional Distributional Semantics",
+        "url": "https://aclanthology.org/2024.acl-long.784/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2024
+      },
+      {
+        "title": "Functional Distributional Semantics at Scale",
+        "url": "https://aclanthology.org/2023.starsem-1.37/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2023
+      },
+      {
+        "title": "TRIP: Accelerating Document-level Multilingual Pre-training via Triangular Document-level Pre-training on Parallel Data Triplets",
+        "url": "https://aclanthology.org/2023.findings-emnlp.526/",
+        "outcome": "no-evidence",
+        "note": "论文署名及脚注指向微软研究院实习，未发现本次十四家企业学生研究链。",
+        "year": 2023
+      },
+      {
+        "title": "DeepWiGNN: A Depth-wise Graph Neural Network for Multi-hop Spatial Reasoning in Text",
+        "url": "https://aclanthology.org/2023.findings-emnlp.428/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2023
+      },
+      {
+        "title": "Bridging the Gap between Pre-Training and Fine-Tuning for Commonsense Generation",
+        "url": "https://aclanthology.org/2023.findings-eacl.28/",
+        "outcome": "lead",
+        "note": "正式论文题名脚注指向腾讯实习，但不点名。第一作者 Haoran Yang 在导师团队列为 2019 入学，仍待核准确实习月份与同期学籍。",
+        "year": 2023
+      },
+      {
+        "title": "Progressive Translation: Improving Domain Robustness of Neural Machine Translation with Intermediate Sequences",
+        "url": "https://aclanthology.org/2023.findings-acl.601/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2023
+      },
+      {
+        "title": "Once Upon a Time in Graph: Relative-Time Pretraining for Complex Temporal Reasoning",
+        "url": "https://aclanthology.org/2023.emnlp-main.728/",
+        "outcome": "lead",
+        "note": "Sen Yang 曾在达摩院研究，同篇阿里双署名、有企业资助和本人在达摩院项目仓库的提交；仍缺直接说明或精确同期实习时间的第一手材料。",
+        "year": 2023
+      },
+      {
+        "title": "PCC: Paraphrasing with Bottom-k Sampling and Cyclic Learning for Curriculum Data Augmentation",
+        "url": "https://aclanthology.org/2023.eacl-main.5/",
+        "outcome": "no-evidence",
+        "note": "已核对正式原文的作者署名、附注与公开研究说明，未发现本次范围内企业人员及具名在读学生参与同一项企业研究的证据。",
+        "year": 2023
+      },
+      {
+        "title": "Product Question Answering in E-Commerce: A Survey",
+        "url": "https://aclanthology.org/2023.acl-long.667/",
+        "outcome": "no-evidence",
+        "note": "本文为综述，作者单位有港中文、阿里达摩院和京东；未见在读学生在任何一家企业参与本文所述科研的具名证据。",
+        "year": 2023
+      },
+      {
+        "title": "Enhancing Grammatical Error Correction Systems with Explanations",
+        "url": "https://aclanthology.org/2023.acl-long.413/",
+        "outcome": "lead",
+        "note": "箭头脚注只标在浙江大学／西湖大学 Yuejiao Fei 署名，未证 Wai Lam 指导她；港中文同篇 Sen Yang 有本人导师材料，但没有本文腾讯实习或项目贡献说明。",
+        "year": 2023
+      },
+      {
+        "title": "Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations",
+        "url": "https://aclanthology.org/2023.acl-long.225/",
+        "outcome": "lead",
+        "note": "论文作者列港中文与阿里达摩院且提出对话方法；检索正文与公开履历未确认哪位同时受指导的学生在企业完成该项工作。",
+        "year": 2023
+      },
+      {
+        "title": "HGMem: Hypergraph-based Working Memory to Improve Multi-step RAG for Long-Context Complex Relational Modeling",
+        "url": "https://iris-backend.cuhk.edu.hk/ws/portalfiles/portal/718615224/icml2026_camera-ready.pdf",
+        "outcome": "lead",
+        "note": "Chulun Zhou 的港中文在读、导师与同篇腾讯人员均有原始证据；公开履历对离开腾讯时间不一致；论文仅列腾讯犀牛鸟资助，代码在个人账号，缺能把学生本篇研究明确定位于腾讯的材料。",
+        "year": 2026
+      },
+      {
+        "title": "Unveiling the Entropy Dynamics of Chain-of-Thought Reasoning",
+        "url": "https://arxiv.org/abs/2606.02020",
+        "outcome": "lead",
+        "note": "Ting Xu 博士导师明确；论文缺具名企业实习脚注、还需查证学生和同篇企业人员的项目归属。",
+        "year": 2026
       }
-    ]
+    ],
+    "note": "已逐篇核对 ACL Anthology 的范围内条目及其他会议中的部分论文；仍需核查该时段论文的其他会议、期刊和预印本。"
   },
   "-oTraZ4AAAAJ": {
     "from": "2023-01-01",
@@ -29863,7 +30307,7 @@ const facultyPaperAudits = {
         "title": "HeRo: A State Machine-Based, Fault-Tolerant Framework for Heterogeneous Multi-Robot Collaboration",
         "url": "https://doi.org/10.1109/ICRA55743.2025.11128674",
         "outcome": "no-evidence",
-        "note": "ICRA 正式元数据与导师页确认唐瑞杰、吴国全同篇；开放来源未提供范围内企业署名或具名在读项目参与，全文可获得性仍需查。"
+        "note": "IEEE 提交的 Crossref 正式元数据显示五位作者均署中科院软件所相关实验室；另核国科大名录中唐瑞杰为吴国全在读博士；暂无企业署名或具名在读企业参与，未取得开放全文。"
       },
       {
         "year": 2025,
@@ -29910,9 +30354,9 @@ const facultyPaperAudits = {
       {
         "year": 2023,
         "title": "Performance Diagnosis for Microservice-Based Systems via Intra-/Inter-Trace Analysis",
-        "url": "https://conf.researchr.org/details/apsec-2023/apsec-2023-early-research-achievements/17/Performance-Diagnosis-for-Microservice-based-Systems-via-Intra-Inter-trace-Analysis",
+        "url": "https://doi.org/10.1109/APSEC60848.2023.00079",
         "outcome": "no-evidence",
-        "note": "APSEC 正式会程列软件所、国科大及广东电网相关机构；后者不在范围。"
+        "note": "正式论文集及 IEEE 提交的元数据列四位作者；企业署名为南方电网联合实验室/广东电网，不在核验范围。"
       },
       {
         "year": 2026,
@@ -29934,6 +30378,13 @@ const facultyPaperAudits = {
         "url": "https://papers.ssrn.com/sol3/Delivery.cfm/aeae9cb4-8127-49d7-a802-e4c804c37432-MECA.pdf?abstractid=6711810&mirid=1",
         "outcome": "no-evidence",
         "note": "SSRN 以 CreScent 项目公开；不同于基于无事故视频的 CRISER。已核对可见单位和摘要；部分作者单位未在平台页面列出，未见范围内企业或具名学生企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "WebRLED: A Deep Reinforcement Learning Approach for Automated Web Application Exploration",
+        "url": "https://doi.org/10.1145/3843235",
+        "outcome": "no-evidence",
+        "note": "ACM TOSEM 2026-09-17 正式在线。ACM 提交的 Crossref 题录列六位作者均署中科院软件所；早期 arXiv:2504.19237 曾署范围外的广东电网，正式版调整作者，方法及项目相同，只计一篇。"
       }
     ],
     "note": "交叉核对国科大导师页、中科院软件工程组、ORCID 对应的 DBLP 条目及出版方来源。已区分同名的控制工程及无人机通信作者；一个成果的正式版和预印本合并。少数正式全文、预印本的期刊版本以及其他未必已公开的书目仍待核；HitMem 有阿里巴巴署名，但尚无学生在阿里参与本项目的证据。"
@@ -29951,7 +30402,9 @@ const facultyPaperAudits = {
       "https://zhiqix.github.io/",
       "https://aclanthology.org/people/guangnan-ye/",
       "https://senliu.me/publication.html",
-      "https://www.csauthors.net/guangnan-ye/"
+      "https://www.csauthors.net/guangnan-ye/",
+      "https://arxiv.org/pdf/2512.11943",
+      "https://arxiv.org/pdf/2510.06903"
     ],
     "papers": [
       {
@@ -30047,10 +30500,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "How AI Agents Follow the Herd of AI? Network Effects, History, and Machine Optimism",
-        "year": 2025,
         "url": "https://arxiv.org/abs/2512.11943",
+        "year": 2025,
         "outcome": "no-evidence",
-        "note": "原文只署复旦；实验维度含 History 和 Machine Optimism，另核 2510.06903 同作者较早稿，留待确认两稿是否同一版本。"
+        "note": "原文使用三种通义千问模型模拟六名参会者的定价博弈；使用公开模型不等于和阿里共同研发，未见企业作者。与同作者 50 个 GPT-5 代理的 2510.06903 具有独立实验，分别核查。"
       },
       {
         "title": "Limited Reference, Reliable Generation: Rule-Guided Tabular Data Generation with Dual-Granularity Filtering",
@@ -30092,7 +30545,7 @@ const facultyPaperAudits = {
         "year": 2025,
         "url": "https://arxiv.org/abs/2510.06903",
         "outcome": "no-evidence",
-        "note": "团队的 2510.06903、2512.11943 及 SSRN 5578230 系列讨论同一有顺序和打乱历史的网络博弈、相近结果；合为一项保守记账。署名均为复旦。"
+        "note": "原文以 50 个 GPT-5 代理开展重复博弈及历史信息实验；使用模型不等于与企业实研，未见目标企业作者。作者一致的 2512.11943 另用 6 个 Qwen 代理进行不同实验，分开记。"
       },
       {
         "title": "DogLayout: Denoising Diffusion GAN for Discrete and Continuous Layout Generation",
@@ -30353,7 +30806,7 @@ const facultyPaperAudits = {
         "title": "HeRo: A State Machine-Based, Fault-Tolerant Framework for Heterogeneous Multi-Robot Collaboration",
         "url": "https://doi.org/10.1109/ICRA55743.2025.11128674",
         "outcome": "no-evidence",
-        "note": "ICRA 正式元数据与导师页确认唐瑞杰、吴国全同篇；开放来源未提供范围内企业署名或具名在读项目参与，全文可获得性仍需查。"
+        "note": "IEEE 提交的 Crossref 正式元数据显示五位作者均署中科院软件所相关实验室；另核国科大名录中唐瑞杰为吴国全在读博士；暂无企业署名或具名在读企业参与，未取得开放全文。"
       },
       {
         "year": 2025,
@@ -30431,6 +30884,13 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/AST58925.2023.00006",
         "outcome": "no-evidence",
         "note": "作者正式稿列学生常晓宁与吴国全；联合署名是南方电网实验室，不在范围；后续工作经历不能转用于本论文。"
+      },
+      {
+        "year": 2026,
+        "title": "WebRLED: A Deep Reinforcement Learning Approach for Automated Web Application Exploration",
+        "url": "https://doi.org/10.1145/3843235",
+        "outcome": "no-evidence",
+        "note": "ACM TOSEM 2026-09-17 正式在线。ACM 提交的 Crossref 题录列六位作者均署中科院软件所；早期 arXiv:2504.19237 曾署范围外的广东电网，正式版调整作者，方法及项目相同，只计一篇。"
       }
     ],
     "note": "按国科大导师的出版信息、正式期刊和会议、公开预印本及 DBLP 交叉核对。该师的聚合书目有重名关联，按作者单位、共著者网络和 ORCID 核准。罕见或受限正式全文和遗漏书目仍待核。软件所确认其直接指导的汪涛在读成果在华为、微信验证，但尚无证据把匿名企业对应到具体论文的企业人员。"

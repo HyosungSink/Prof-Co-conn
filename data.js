@@ -36797,6 +36797,271 @@ const survey = {
         "港中文课题组具名列出其在读博士入学年。",
         "https://www1.se.cuhk.edu.hk/~textmine/"
       ]
+    },
+    {
+      "id": "rasa-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2503.12576",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯 AI Lab 首席研究员，正式 ICLR 原文署腾讯且为企业共同通讯，何志威个人履历将其与 Xing Wang 列为腾讯实习导师。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "2021 年起在上海交通大学攻读博士，校内导师王瑞；获本论文正式版具名腾讯 AI Lab 实习期间完成的证明。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "RaSA",
+      "title": "RaSA: Rank-Sharing Low-Rank Adaptation",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "大模型效率",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/b4fd162d3e2d015233486a2e313828a7-Paper-Conference.pdf",
+      "extra": [
+        [
+          "教师团队名录",
+          "https://wangruinlp.github.io/"
+        ],
+        [
+          "作者公开源码",
+          "https://github.com/zwhe99/RaSA"
+        ],
+        [
+          "同期任职论文作者简介",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/journal/jli_neurocomputing2021_on.pdf"
+        ]
+      ],
+      "evidence": "ICLR 正式原文首页明确何志威、Xingyu Chen、Zhijie Wang 在腾讯 AI Lab 实习时完成本项研究。何志威是上交在读的共同一作，王瑞和腾讯员工 Zhaopeng Tu 分别是校内及企业共同通讯。",
+      "advising": [
+        "博士生导师",
+        "何志威本人履历明确列王瑞为上海交通大学博士导师，企业实习导师另列。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "x-sir-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "acl:2024.acl-long.226",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Xing Wang",
+        "本人履历列 2018 年 7 月至 2024 年 7 月任腾讯 AI Lab 研究员／高级研究员，指导何志威实习，并列本论文；研究首稿于 2024 年 2 月公开，早于转任。",
+        "https://hsing-wang.github.io/academic_homepage/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "2021 年起在上海交通大学攻读博士，校内导师王瑞；获本论文正式版具名腾讯 AI Lab 实习期间完成的证明。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "X-SIR",
+      "title": "Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "area": "语言模型与安全",
+      "paper": "https://aclanthology.org/2024.acl-long.226.pdf",
+      "extra": [
+        [
+          "2024 年 2 月预印本",
+          "https://arxiv.org/abs/2402.14007"
+        ],
+        [
+          "ACL 正式题录",
+          "https://aclanthology.org/2024.acl-long.226/"
+        ]
+      ],
+      "evidence": "ACL 正式版首页第 46 行的作者脚注明确何志威在腾讯 AI Lab 实习期间完成本工作，Xing Wang 同篇署腾讯且 2024 年 2 月首稿时仍正式任职。学生个人履历另具名王瑞为校内博士导师。旧预印本判为线索，正式版已有实习脚注。",
+      "advising": [
+        "博士生导师",
+        "何志威本人履历明确列王瑞为上海交通大学博士导师，企业实习导师另列。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "f2llm-ant-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2510.02294",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 · CodeFuse",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Peng Di",
+        "本人公开履历写明 2020–2026 任蚂蚁集团高级技术人员并带领 IPE 团队，2026 年 4 月转任昆仑芯。此篇具名蚂蚁通讯。",
+        "https://pengd.github.io/"
+      ],
+      "student": [
+        "Ziyin Zhang",
+        "上海交大王瑞组的在读博士。项目原文具名第一作者并同时署上海交大及蚂蚁集团，且其署名账号向蚂蚁 CodeFuse 官方仓库贡献并发布对应项目。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "F2LLM",
+      "title": "F2LLM Technical Report: Matching SOTA Embedding Performance with 6 Million Open-Source Data",
+      "date": "2025-10",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与检索",
+      "paper": "https://arxiv.org/abs/2510.02294",
+      "extra": [
+        [
+          "首版原文",
+          "https://arxiv.org/html/2510.02294v1"
+        ],
+        [
+          "蚂蚁 CodeFuse 官网代码",
+          "https://github.com/codefuse-ai/CodeFuse-Embeddings"
+        ],
+        [
+          "学生具名提交",
+          "https://github.com/codefuse-ai/CodeFuse-Embeddings/commit/445717616bc2"
+        ],
+        [
+          "项目提交账号与实名对应",
+          "https://huggingface.co/Geralt-Targaryen"
+        ],
+        [
+          "同期企业任职资料",
+          "https://conf.researchr.org/profile/conf/hangyu1"
+        ]
+      ],
+      "evidence": "项目原文首位学生并列蚂蚁及上交身份，课题组给出其同期学籍与导师。学生实名账号在蚂蚁官方代码仓库独立导入对应 F2LLM 代码。研究采用 600 万训练样本与三种尺寸，和 2026 年的新训练数据及扩展模型不是同一论文。",
+      "advising": [
+        "对应年份的上交导师",
+        "王瑞的学生名单中列 Ziyin Zhang 为 2023 入学硕士、2025 起在读博士。原文王瑞为上交通讯作者。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "c2llm-ant-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2512.21332",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 · CodeFuse",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Peng Di",
+        "本人公开履历写明 2020–2026 任蚂蚁集团高级技术人员并带领 IPE 团队，2026 年 4 月转任昆仑芯。此篇具名蚂蚁通讯。",
+        "https://pengd.github.io/"
+      ],
+      "student": [
+        "Ziyin Zhang",
+        "上海交大王瑞组的在读博士。项目原文具名共同第一作者并同时署上海交大及蚂蚁集团，且其署名账号向蚂蚁 CodeFuse 官方仓库贡献并发布对应项目。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "C2LLM",
+      "title": "C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling",
+      "date": "2025-12",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与检索",
+      "paper": "https://arxiv.org/abs/2512.21332",
+      "extra": [
+        [
+          "首版原文",
+          "https://arxiv.org/html/2512.21332v1"
+        ],
+        [
+          "蚂蚁 CodeFuse 官网代码",
+          "https://github.com/codefuse-ai/CodeFuse-Embeddings"
+        ],
+        [
+          "学生具名提交",
+          "https://github.com/codefuse-ai/CodeFuse-Embeddings/commit/17b57affffd8"
+        ],
+        [
+          "项目提交账号与实名对应",
+          "https://huggingface.co/Geralt-Targaryen"
+        ],
+        [
+          "同期企业任职资料",
+          "https://conf.researchr.org/profile/conf/hangyu1"
+        ]
+      ],
+      "evidence": "学生为并列第一作者；其实名账号在蚂蚁 CodeFuse 官方仓库提交 C2LLM 目录及指向同一论文的资源，蚂蚁项目公开 0.5B 与 7B 代码检索模型。Peng Di 任职期覆盖 2025 年 12 月。",
+      "advising": [
+        "对应年份的上交导师",
+        "王瑞的学生名单中列 Ziyin Zhang 为 2023 入学硕士、2025 起在读博士。原文王瑞为上交通讯作者。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "ml-embed-ant-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2605.15081",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 · CodeFuse",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Hang Yu",
+        "蚂蚁集团技术人员，作者履历及 ICSE 2026 官方讲者资料确认同期蚂蚁任职；ICML 原文为企业共同通讯。",
+        "https://conf.researchr.org/profile/conf/hangyu1"
+      ],
+      "student": [
+        "Ziyin Zhang",
+        "上海交大王瑞组的在读博士。项目原文具名第一作者并同时署上海交大及蚂蚁集团，且其署名账号向蚂蚁 CodeFuse 官方仓库贡献并发布对应项目。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "ML-Embed",
+      "title": "ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与检索",
+      "paper": "https://proceedings.mlr.press/v306/zhang26dh.html",
+      "extra": [
+        [
+          "首版原文",
+          "https://arxiv.org/html/2605.15081v1"
+        ],
+        [
+          "蚂蚁 CodeFuse 官网代码",
+          "https://github.com/codefuse-ai/CodeFuse-Embeddings"
+        ],
+        [
+          "学生具名提交",
+          "https://github.com/codefuse-ai/CodeFuse-Embeddings/commit/f0abe7cd8fc2"
+        ],
+        [
+          "项目提交账号与实名对应",
+          "https://huggingface.co/Geralt-Targaryen"
+        ],
+        [
+          "同期企业任职资料",
+          "https://conf.researchr.org/profile/conf/hangyu1"
+        ]
+      ],
+      "evidence": "ICML 正式版、学生实名在蚂蚁 CodeFuse 仓库提交的独立项目与师承一致。ML-Embed 将 3D Matryoshka 学习中的 MEL/MLL 联合用于公开模型；同团队此前另发的 F2LLM-v2 技术报告不在本条之外另计。企业通讯取杭宇，以适用 2026 年 4 月后在职证据。",
+      "advising": [
+        "对应年份的上交导师",
+        "王瑞的学生名单中列 Ziyin Zhang 为 2023 入学硕士、2025 起在读博士。原文王瑞为上交通讯作者。",
+        "https://wangruinlp.github.io/"
+      ]
     }
   ]
 };
