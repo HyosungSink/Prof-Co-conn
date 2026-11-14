@@ -41881,6 +41881,356 @@ const survey = {
         ]
       ],
       "evidence": "ICLR 正式论文把共同第一作者刘嘉顺列为港科大与阿里巴巴双署；潘玲和淘天的王维埙均为通讯作者。潘玲的博士生名录和智源公开活动资料分别确认刘嘉顺自 2025 年秋在读；智源同一活动将刘嘉顺、王维埙具名列为阿里 ROLL 的 3A 联合项目报告人，内容明确包含 AsyPPO，王维埙的 ROLL 团队技术记录也将 AsyPPO 列为本团队研究。原始预印本于 2025 年 10 月 2 日公开。"
+    },
+    {
+      "id": "spatialtracker-ant-zju-zhou",
+      "paperId": "arxiv:2404.04319",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙江大学计算机学院教授，该篇共同署名的通讯作者。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "2022 年 4 月至 2024 年 7 月蚂蚁集团 Staff Research Scientist；CVPR 正式同篇仅署蚂蚁集团。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "肖宇曦 · Yuxi Xiao",
+        "2023 年 9 月起浙大博士、由周晓巍指导；本人记录 2023 年 2 月至 2025 年 3 月在蚂蚁研究并由沈宇君、Nan Xue 指导，两位企业导师均同篇。CVPR 正式第一作者为浙大和蚂蚁双署名。",
+        "https://henry123-boy.github.io/academic.html"
+      ],
+      "title": "SpatialTracker: Tracking Any 2D Pixels in 3D Space",
+      "short": "SpatialTracker",
+      "date": "2024-04-05",
+      "venue": "CVPR 2024",
+      "area": "视频三维点追踪",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_SpatialTracker_Tracking_Any_2D_Pixels_in_3D_Space_CVPR_2024_paper.pdf",
+      "extra": [
+        [
+          "浙大实验室项目及学生双署名",
+          "https://zju3dv.github.io/SpaTracker/"
+        ],
+        [
+          "首稿日期",
+          "https://arxiv.org/abs/2404.04319"
+        ]
+      ],
+      "evidence": "肖宇曦本人明确 2023-09 浙江大学博士入学、导师周晓巍，以及 2023-02–2025-03 蚂蚁研究实习由沈宇君、Nan Xue 指导。CVPR 成果以肖本人为浙大与蚂蚁双署名第一作者、两位企业导师都具名署蚂蚁，周晓巍为浙大通讯；浙大团队独立项目页也逐人写清同样的单位。论文 2024-04-05 公开，在学生和企业履历重叠区内。",
+      "advising": [
+        "在读博士导师",
+        "肖宇曦履历明确周晓巍指导其浙江大学博士（2023 年 9 月起），并在 CVPR 同篇署名。",
+        "https://henry123-boy.github.io/academic.html"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "spatialtrackerv2-ant-zju-zhou",
+      "paperId": "arxiv:2507.12462",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙江大学计算机学院教授，为 ICCV 正式论文通讯。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "同篇正式署蚂蚁集团，公开履历确认自 2022 年 4 月任蚂蚁研究员，2024 年 7 月晋升高级研究科学家。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "肖宇曦 · Yuxi Xiao",
+        "2023 年 9 月起浙大博士；ICCV 首页第一作者脚注明示部分工作在蚂蚁实习完成；本人确认蚂蚁实习至 2025 年 3 月。",
+        "https://henry123-boy.github.io/academic.html"
+      ],
+      "title": "SpatialTrackerV2: Advancing 3D Point Tracking with Explicit Camera Motion",
+      "short": "SpatialTrackerV2",
+      "date": "2025-07-16",
+      "venue": "ICCV 2025",
+      "area": "前馈视频三维追踪",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_SpatialTrackerV2_Advancing_3D_Point_Tracking_with_Explicit_Camera_Motion_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "首稿及先行标题（同一方法和作者，正式版改题）",
+          "https://arxiv.org/abs/2507.12462"
+        ],
+        [
+          "作者项目与标明部分在蚂蚁研究实习项目支持",
+          "https://spatialtracker.github.io/"
+        ]
+      ],
+      "evidence": "ICCV 正式正文首页第一作者肖宇曦的星号脚注专门标出部分工作在蚂蚁实习完成，末页也点名蚂蚁研究实习项目。本人独立确认蚂蚁实习为 2023-02 至 2025-03，周晓巍指导其 2023-09 起的浙大博士。首稿 2025 年 7 月晚于实习结束，按正式脚注认定研究期间任职，不把首稿日期当作实习日期。正式同篇还另署一家企业，不将肖的蚂蚁脚注平移至其他企业。",
+      "advising": [
+        "在读博士导师",
+        "肖宇曦公开履历点名周晓巍博士指导，正式 ICCV 同篇通讯。",
+        "https://henry123-boy.github.io/academic.html"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "mapa-ant-zju-zhou",
+      "paperId": "arxiv:2404.17569",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙江大学计算机教授；MaPa 正式论文同篇署浙大。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "2024 年 4 月公开研究时为蚂蚁集团正式 Staff Research Scientist，稿件和实验室项目均列其署蚂蚁。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "Shangzhan Zhang",
+        "2022–25 浙大计算机硕士；2023–25 在蚂蚁研究由沈宇君、Nan Xue 指导。本篇本人为蚂蚁及浙大双署名第一作者，企业两位导师均同篇。",
+        "https://zhanghe3z.github.io/"
+      ],
+      "title": "MaPa: Text-driven Photorealistic Material Painting for 3D Shapes",
+      "short": "MaPa",
+      "date": "2024-04-26",
+      "venue": "SIGGRAPH 2024",
+      "area": "三维材质生成",
+      "paper": "https://doi.org/10.1145/3641519.3657504",
+      "extra": [
+        [
+          "浙大团队论文项目、作者和双署名",
+          "https://zju3dv.github.io/MaPa/"
+        ],
+        [
+          "首稿正式署名及题目",
+          "https://arxiv.org/html/2404.17569v1"
+        ],
+        [
+          "首次公开时间",
+          "https://arxiv.org/abs/2404.17569"
+        ]
+      ],
+      "evidence": "2024-04-26 公开稿将第一作者 Shangzhan Zhang 明列为浙江大学与蚂蚁集团双署名，与浙大实验室正式项目页一致。其本人明确该时段的浙大硕士导师为周晓巍、蚂蚁研究导师为同篇的沈宇君和 Nan Xue；沈的正式岗位时间独立可核。同期还有其他研究实习，但该具体项目的单位逐作者列出，蚂蚁支持亦明示。",
+      "advising": [
+        "在读硕士导师",
+        "学生本人列周晓巍与彭斯达为该时段浙大计算机硕士导师；周晓巍在同篇。",
+        "https://zhanghe3z.github.io/"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "spatialtree-bytedance-zju-zhou",
+      "paperId": "arxiv:2512.20617",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙江大学计算机学院教授，正式同篇共同通讯。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "Bingyi Kang",
+        "字节企业技术论坛介绍为正式研究科学家；在 CVPR 论文中署字节 Seed、担任项目负责人和共同通讯，学生本人列其为 Seed 实习导师。",
+        "https://developer.volcengine.com/articles/7389112553802039315"
+      ],
+      "student": [
+        "肖宇曦 · Yuxi Xiao",
+        "2023-09 起浙大博士，2025-03–2026-04 字节 Top Seed 实习；该篇共同一作同时署浙大与字节，参与维护此项目字节官方仓库。",
+        "https://henry123-boy.github.io/academic.html"
+      ],
+      "title": "SpatialTree: How Spatial Intelligence Branches Out in MLLMs",
+      "short": "SpatialTree",
+      "date": "2025-12-23",
+      "venue": "CVPR 2026",
+      "area": "多模态模型空间智能",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_SpatialTree_How_Spatial_Intelligence_Branches_Out_in_MLLMs_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "同作者首稿（正式版改用 Intelligence）",
+          "https://arxiv.org/abs/2512.20617"
+        ],
+        [
+          "字节 Seed 官方项目代码",
+          "https://github.com/ByteDance-Seed/SpatialTree"
+        ],
+        [
+          "学生按本项目发布外部评测提交模板",
+          "https://github.com/ByteDance-Seed/SpatialTree/commit/31940f98cc317fc91a7de3896c1531e94f9f5e3d"
+        ],
+        [
+          "CVPR 主会完整论文截止日期 2025-11-13",
+          "https://cvpr.thecvf.com/Conferences/2026/Dates"
+        ]
+      ],
+      "evidence": "CVPR 正式首页列浙大及字节双署名共一作肖宇曦、校内博士导师周晓巍、署字节 Seed 的企业研究员和项目负责人 Bingyi Kang。肖在公开履历明确 2025-03–2026-04 在字节由 Kang 指导；初稿及投稿均在该窗；字节公开本研究仓库，肖本人亦在实习期间为本项目提交评测结果公开提交流程（不把该实现单独当作关系证据）。",
+      "advising": [
+        "在读博士导师",
+        "肖宇曦本人明确在该时间为浙江大学博士，导师周晓巍；CVPR 正式同篇共同通讯。",
+        "https://henry123-boy.github.io/academic.html"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "lidar-translator-alibaba-hku-zhao",
+      "paperId": "doi:10.52202/079017-2973",
+      "company": "阿里巴巴",
+      "team": "达摩院自动驾驶实验室",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "趙恒爽 · Zhao, Hengshuang",
+        "港大教师，为 NeurIPS 同篇通讯；Yixing Lao 本人说明博士师承。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao"
+      ],
+      "employee": [
+        "于开丞 · Kaicheng Yu",
+        "2021–23 达摩院正式高级研究科学家；2023-03-28 在任时列具名学生与研究项目；NeurIPS 2024 正式署其已转任的西湖大学。",
+        "https://en.westlake.edu.cn/faculty/kaicheng-yu.html"
+      ],
+      "student": [
+        "Yixing Lao",
+        "本人为香港大学博士、导师赵恒爽；于开丞在阿里任职时记录该唯一港大博士实习生的 LiDAR 跨域点云转换项目。该份履历姓拼 Liao，采用论文和本人主页的 Lao。",
+        "https://yxlao.github.io/"
+      ],
+      "title": "LiT: Unifying LiDAR “Languages” with LiDAR Translator",
+      "short": "LiT",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "跨域激光点云转换",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/aa76025af7f8d69338c4b5ee29f66e70-Abstract-Conference.html",
+      "extra": [
+        [
+          "NeurIPS 正式全文与三人作者",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/aa76025af7f8d69338c4b5ee29f66e70-Paper-Conference.pdf"
+        ],
+        [
+          "达摩院在职履历 2023-03-28，第 2 页具名博士、导师和课题",
+          "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf"
+        ],
+        [
+          "发表时的六位作者与属地",
+          "https://yxlao.github.io/lit/"
+        ],
+        [
+          "于开丞任期和 NeurIPS 接收日期",
+          "https://www.yukaicheng.cn/news/"
+        ]
+      ],
+      "evidence": "当期企业导师于开丞于 2023-03-28 撰写的履历具名其指导的港大博士实习生，列同一博士导师 Hengshuang Zhao，以及用隐式场变换 LiDAR 点云解决域差异的项目。NeurIPS 正式题目及第 4.1 节的方法正是上述隐式场跨域点云翻译，同篇有三人；学生本人独立确认港大和具名师承。同期履历写 Yixing Liao，与本人及论文的 Lao 有拼写差异；同名、同校、同导师、同企业共同通讯和同研究专题交叉匹配。于 2023 年 8 月转任西湖，2024 正式稿不倒推其单位，按 2023 履历的具体在任项目。同行作者 Peng Chen 的正式单位菜鸟不用于证明于的任职。",
+      "advising": [
+        "在读博士导师",
+        "学生本人列博士在读港大以及导师赵恒爽；同篇正式通讯，企业导师的同期履历还列师承。",
+        "https://yxlao.github.io/"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "alibaba-roll-flash-hkust-pan",
+      "paperId": "arxiv:2510.11345",
+      "company": "阿里巴巴",
+      "team": "淘天 · ROLL 研究团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "潘玲 · Ling Pan",
+        "香港科技大学助理教授，同篇作者；课题组博士生名单列刘嘉顺。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan"
+      ],
+      "employee": [
+        "王维埙 · Weixun Wang",
+        "阿里巴巴强化学习研究员，公开活动将其列为淘天未来生活实验室算法专家；在该论文承担通讯或项目负责。",
+        "https://wwxfromtju.github.io/"
+      ],
+      "student": [
+        "刘嘉顺 · Jiashun Liu",
+        "2025 年秋入学的港科大博士生，参加阿里 ROLL 的同篇公开研究，原文列其署名或明确的贡献分工。",
+        "https://arxiv.org/html/2510.11345v1"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "潘玲课题组列刘嘉顺为 2025 年秋季入学博士生，两人同篇署名。",
+        "https://ling-pan.github.io/group/"
+      ],
+      "title": "Part II: ROLL Flash — Accelerating RLVR and Agentic Training with Asynchrony",
+      "short": "ROLL Flash",
+      "year": 2025,
+      "date": "2025-10-13",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型与智能体强化学习",
+      "paper": "https://arxiv.org/html/2510.11345v1",
+      "extra": [
+        [
+          "阿里官方项目发布",
+          "https://github.com/alibaba/ROLL"
+        ],
+        [
+          "智源 ROLL 联合项目与具名参与人",
+          "https://hub.baai.ac.cn/view/50819"
+        ],
+        [
+          "首次公开日期及作者清单",
+          "https://arxiv.org/abs/2510.11345"
+        ]
+      ],
+      "evidence": "首版论文列刘嘉顺双署港科大与阿里，潘玲署港科大，王维埙署阿里并为通讯作者。阿里官方 ROLL 仓库列为团队发布成果；智源的同项活动把两位具名为 ROLL 联合项目报告人，并逐项介绍该论文的异步训练架构。"
+    },
+    {
+      "id": "alibaba-rome-hkust-pan",
+      "paperId": "arxiv:2512.24873",
+      "company": "阿里巴巴",
+      "team": "淘天 · ROLL 研究团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "潘玲 · Ling Pan",
+        "香港科技大学助理教授，同篇作者；课题组博士生名单列刘嘉顺。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/lingpan"
+      ],
+      "employee": [
+        "王维埙 · Weixun Wang",
+        "阿里巴巴强化学习研究员，公开活动将其列为淘天未来生活实验室算法专家；在该论文承担通讯或项目负责。",
+        "https://wwxfromtju.github.io/"
+      ],
+      "student": [
+        "刘嘉顺 · Jiashun Liu",
+        "2025 年秋入学的港科大博士生，参加阿里 ROLL 的同篇公开研究，原文列其署名或明确的贡献分工。",
+        "https://arxiv.org/html/2512.24873v1"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "潘玲课题组列刘嘉顺为 2025 年秋季入学博士生，两人同篇署名。",
+        "https://ling-pan.github.io/group/"
+      ],
+      "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+      "short": "ROME / Let It Flow",
+      "year": 2025,
+      "date": "2025-12-31",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型与智能体强化学习",
+      "paper": "https://arxiv.org/html/2512.24873v1",
+      "extra": [
+        [
+          "阿里官方项目发布",
+          "https://github.com/alibaba/ROLL"
+        ],
+        [
+          "智源 ROLL 联合项目与具名参与人",
+          "https://hub.baai.ac.cn/view/50819"
+        ],
+        [
+          "首次公开日期及作者清单",
+          "https://arxiv.org/abs/2512.24873"
+        ]
+      ],
+      "evidence": "首版论文作者分工专节将刘嘉顺列为核心贡献者，王维埙列为项目负责人，并列同篇作者潘玲。阿里官方 ROLL 仓库发布该论文、明确它是该公司团队的 ROME 研究成果。港科大博士生名录和同期公开活动确认刘嘉顺在读与学术指导，王维埙公开履历确认正式任职。"
     }
   ]
 };

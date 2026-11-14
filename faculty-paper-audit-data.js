@@ -3753,7 +3753,8 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2509.20427",
       "https://openaccess.thecvf.com/content/CVPR2026/papers/Tu_Temporal_Equilibrium_MeanFlow_Bridging_the_Scale_Gap_for_One-Step_Generation_CVPR_2026_paper.pdf",
       "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf",
-      "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Towards_Large-scale_3D_Representation_Learning_with_Multi-dataset_Point_Prompt_Training_CVPR_2024_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Towards_Large-scale_3D_Representation_Learning_with_Multi-dataset_Point_Prompt_Training_CVPR_2024_paper.pdf",
+      "https://yxlao.github.io/"
     ],
     "papers": [
       {
@@ -3882,6 +3883,13 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Towards_Large-scale_3D_Representation_Learning_with_Multi-dataset_Point_Prompt_Training_CVPR_2024_paper.pdf",
         "outcome": "confirmed",
         "note": "阿里导师 2023-03-28 亲自列港大博士 Xiaoyang Wu 的 Point Prompt 跨数据集研究课题，并明确博士导师赵恒爽；与 CVPR 正式三人作者互证。"
+      },
+      {
+        "year": 2024,
+        "title": "LiT: Unifying LiDAR “Languages” with LiDAR Translator",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/aa76025af7f8d69338c4b5ee29f66e70-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "当期企业导师于开丞于 2023-03-28 撰写的履历具名其指导的港大博士实习生，列同一博士导师 Hengshuang Zhao，以及通过 LiDAR 点云翻译克服域差异的项目。NeurIPS 正式题目及方法是上述跨域点云翻译，同篇有三人；学生本人独立确认港大和具名师承。同期履历写 Yixing Liao，与本人及论文的 Lao 有拼写差异；同名、同校、同导师、同企业共同通讯和同研究专题交叉匹配。于 2023 年 8 月转任西湖，2024 正式稿不倒推其单位，按 2023 履历的具体在任项目。同行作者 Peng Chen 的正式单位菜鸟不用于证明于的任职。"
       }
     ]
   },
@@ -11362,7 +11370,8 @@ const facultyPaperAudits = {
       "https://shenyujun.github.io/",
       "https://arxiv.org/pdf/2502.12138v1",
       "https://zhanghe3z.github.io/FLARE/",
-      "https://huggingface.co/AntResearch/FLARE"
+      "https://huggingface.co/AntResearch/FLARE",
+      "https://henry123-boy.github.io/academic.html"
     ],
     "papers": [
       {
@@ -11402,6 +11411,34 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/CVPR52729.2023.00823",
         "outcome": "confirmed",
         "note": "阿里导师 2023-03-28 履历第 2–3 页明确点名本论文项目及实习生 Shangzhan Zhang；其本人确认周晓巍为浙江大学硕士导师，CVPR 正式同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "SpatialTree: How Spatial Intelligence Branches Out in MLLMs",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_SpatialTree_How_Spatial_Intelligence_Branches_Out_in_MLLMs_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式首页列浙大及字节双署名共一作肖宇曦、校内博士导师周晓巍、署字节 Seed 的企业研究员和项目负责人 Bingyi Kang。肖在公开履历明确 2025-03–2026-04 在字节由 Kang 指导；初稿及投稿均在该窗；字节公开本研究仓库，肖本人亦在实习期间为本项目提交评测结果公开提交流程（不把该实现单独当作关系证据）。"
+      },
+      {
+        "year": 2025,
+        "title": "SpatialTrackerV2: Advancing 3D Point Tracking with Explicit Camera Motion",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_SpatialTrackerV2_Advancing_3D_Point_Tracking_with_Explicit_Camera_Motion_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "ICCV 正式正文首页第一作者肖宇曦的星号脚注专门标出部分工作在蚂蚁实习完成，末页也点名蚂蚁研究实习项目。本人独立确认蚂蚁实习为 2023-02 至 2025-03，周晓巍指导其 2023-09 起的浙大博士。首稿 2025 年 7 月晚于实习结束，按正式脚注认定研究期间任职，不把首稿日期当作实习日期。正式同篇还另署一家企业，不将肖的蚂蚁脚注平移至其他企业。"
+      },
+      {
+        "year": 2024,
+        "title": "MaPa: Text-driven Photorealistic Material Painting for 3D Shapes",
+        "url": "https://doi.org/10.1145/3641519.3657504",
+        "outcome": "confirmed",
+        "note": "2024-04-26 公开稿将第一作者 Shangzhan Zhang 明列为浙江大学与蚂蚁集团双署名，与浙大实验室正式项目页一致。其本人明确该时段的浙大硕士导师为周晓巍、蚂蚁研究导师为同篇的沈宇君和 Nan Xue；沈的正式岗位时间独立可核。同期还有其他研究实习，但该具体项目的单位逐作者列出，蚂蚁支持亦明示。"
+      },
+      {
+        "year": 2024,
+        "title": "SpatialTracker: Tracking Any 2D Pixels in 3D Space",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_SpatialTracker_Tracking_Any_2D_Pixels_in_3D_Space_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "肖宇曦本人明确 2023-09 浙江大学博士入学、导师周晓巍，以及 2023-02–2025-03 蚂蚁研究实习由沈宇君、Nan Xue 指导。CVPR 成果以肖本人为浙大与蚂蚁双署名第一作者、两位企业导师都具名署蚂蚁，周晓巍为浙大通讯；浙大团队独立项目页也逐人写清同样的单位。论文 2024-04-05 公开，在学生和企业履历重叠区内。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -43569,7 +43606,8 @@ const facultyPaperAudits = {
       "https://researchportal.hkust.edu.hk/en/persons/ling-pan/",
       "https://wwxfromtju.github.io/",
       "https://hub.baai.ac.cn/view/50819",
-      "https://wwxfromtju.github.io/roll_team.html"
+      "https://wwxfromtju.github.io/roll_team.html",
+      "https://github.com/alibaba/ROLL"
     ],
     "papers": [
       {
@@ -43703,6 +43741,69 @@ const facultyPaperAudits = {
         "title": "Kaleidoscope: Learnable Masks for Heterogeneous Multi-agent Reinforcement Learning",
         "url": "https://arxiv.org/html/2410.08540v1",
         "note": "原始作者栏三名作者均属港科大。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Part II: ROLL Flash — Accelerating RLVR and Agentic Training with Asynchrony",
+        "year": 2025,
+        "note": "首版论文列刘嘉顺双署港科大与阿里，潘玲署港科大，王维埙署阿里并为通讯作者。阿里官方 ROLL 仓库列为团队发布成果；智源的同项活动把两位具名为 ROLL 联合项目报告人，并逐项介绍该论文的异步训练架构。",
+        "outcome": "confirmed",
+        "url": "https://arxiv.org/html/2510.11345v1"
+      },
+      {
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "year": 2025,
+        "note": "首版论文作者分工专节将刘嘉顺列为核心贡献者，王维埙列为项目负责人，并列同篇作者潘玲。阿里官方 ROLL 仓库发布该论文、明确它是该公司团队的 ROME 研究成果。港科大博士生名录和同期公开活动确认刘嘉顺在读与学术指导，王维埙公开履历确认正式任职。",
+        "outcome": "confirmed",
+        "url": "https://arxiv.org/html/2512.24873v1"
+      },
+      {
+        "year": 2025,
+        "title": "Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach",
+        "url": "https://arxiv.org/html/2512.02834v1",
+        "note": "论文中的企业参与者是中国电信，超出项目范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Reformulate LLM Reinforcement Learning for Efficient Training under Black-box Discrepancy",
+        "url": "https://arxiv.org/html/2606.08779v1",
+        "note": "最早公开版的全体作者单位为港科大、浙大、天津大学，无范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "When Importance Sampling Misallocates Credit: Asymmetric Ratios for Outcome-Supervised RL",
+        "url": "https://arxiv.org/html/2510.06062v1",
+        "note": "早期预印本曾用 ASPO 短名，快手与清华参与；刘润泽 2026 年秋才加入潘玲课题组，不能用后续的港科大指导关系确认 2025 年快手项目。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR",
+        "url": "https://arxiv.org/html/2507.15778v1",
+        "note": "快手合著，刘润泽后来加入潘玲组；2025 年初稿阶段本人在清华读硕士，需找当时的明确校内导师。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2024,
+        "title": "Value-Based Deep Multi-Agent Reinforcement Learning with Dynamic Sparse Training",
+        "url": "https://arxiv.org/html/2409.19391v1",
+        "note": "作者单位是清华、中南大学和港科大。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Pre-Training and Fine-Tuning Generative Flow Networks",
+        "url": "https://arxiv.org/html/2310.03419v1",
+        "note": "原始预印本作者来自 Mila、蒙特利尔大学及 CIFAR，与港科大在职指导和范围企业均无公开对应。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Learning an Actionable Discrete Diffusion Policy via Large-Scale Actionless Video Pre-Training",
+        "url": "https://arxiv.org/html/2402.14407v1",
+        "note": "最早公开题名略有不同，与 NeurIPS 正式版同作；何浩然同时列上海人工智能实验室。该实验室与同篇中国电信均不在范围。",
         "outcome": "no-evidence"
       }
     ],
