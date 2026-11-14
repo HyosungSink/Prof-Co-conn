@@ -51704,7 +51704,54 @@ const facultyPaperAudits = {
       "https://openreview.net/attachment?id=gc8QAQfXv6&name=pdf",
       "https://arxiv.org/abs/2502.11019",
       "https://github.com/GangweiJiang/FvForgetting",
-      "https://www.cs.cityu.edu.hk/people/research-students"
+      "https://www.cs.cityu.edu.hk/people/research-students",
+      "https://web.archive.org/web/20240503133541/https://eleanor-h.github.io/uploads/_Curriculum_Vitae__Yinya_Huang.pdf",
+      "https://web.archive.org/web/20250620113629/https://eleanor-h.github.io/uploads/_Curriculum_Vitae__Yinya_Huang.pdf",
+      "https://doi.org/10.1145/3705728",
+      "https://scholars.cityu.edu.hk/en/studentTheses/towards-trushworthy-recommender-systems-leveraging-graph-neural-n/",
+      "https://arxiv.org/html/2312.16018",
+      "https://scholars.cityu.edu.hk/en/publications/recranker-instruction-tuning-large-language-model-as-ranker-for-t/",
+      "https://researchportal.hkust.edu.hk/en/publications/optibench-meets-resocratic-measure-and-improve-llms-for-optimizat/",
+      "https://arxiv.org/html/2407.09887v1",
+      "https://yangzhch6.github.io/",
+      "https://arxiv.org/abs/2507.07426",
+      "https://arxiv.org/html/2507.07426",
+      "https://vldb.org/2026/Workshops/vldb.html",
+      "https://vldb-ads.top/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/62c6d7893b13a13c659cb815852dd00d-Abstract-Datasets_and_Benchmarks_Track.html",
+      "https://papers.neurips.cc/paper_files/paper/2024/file/62c6d7893b13a13c659cb815852dd00d-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "https://arxiv.org/abs/2406.14408",
+      "https://proceedings.iclr.cc/paper_files/paper/2024/hash/1e118ba9ee76c20df728b42a35fb4704-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2024/file/1e118ba9ee76c20df728b42a35fb4704-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2402.08957",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/45fc4a0da7e7f6fbabaabe2d20a441d1-Paper-Conference.pdf",
+      "https://scholars.cityu.edu.hk/ws/portalfiles/portal/259480741/259019466.pdf",
+      "https://scholars.cityu.edu.hk/en/studentTheses/towards-efficient-collaboration-for-large-language-models/",
+      "https://cartus.github.io/members/",
+      "https://arxiv.org/abs/2403.19094",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b395e7bd5eaf3e980386debf2e9d7f11-Abstract-Conference.html",
+      "https://arxiv.org/abs/2505.14009",
+      "https://arxiv.org/abs/2502.10735",
+      "https://arxiv.org/html/2502.10735",
+      "https://arxiv.org/abs/2602.03237",
+      "https://arxiv.org/pdf/2602.03237",
+      "https://scholars.cityu.edu.hk/en/publications/determine-then-ensemble-necessity-of-top-k-union-for-large-langua/",
+      "https://arxiv.org/html/2410.03777v1",
+      "https://doi.org/10.1109/JSTSP.2026.3653160",
+      "https://research.cuhk.edu.hk/en/publications/integrating-large-language-models-into-recommendation-via-mutual-/",
+      "https://arxiv.org/pdf/2401.13870",
+      "https://doi.org/10.1109/JSTSP.2024.3376962",
+      "https://scholars.cityu.edu.hk/en/publications/a-language-model-based-fine-grained-address-resolution-framework-/",
+      "https://scholars.cityu.edu.hk/en/publications/can-llm-substitute-human-labeling-a-case-study-of-fine-grained-ch/",
+      "https://www2024.thewebconf.org/accepted/resource/",
+      "https://arxiv.org/abs/2403.06097",
+      "https://arxiv.org/abs/2601.09239",
+      "https://arxiv.org/pdf/2601.09239v1",
+      "https://iscslp.org/2026/ISCSLP2026_Program_Book.pdf",
+      "https://arxiv.org/abs/2608.16235",
+      "https://arxiv.org/pdf/2608.16235v2",
+      "https://arxiv.org/pdf/2608.16235v1"
     ],
     "papers": [
       {
@@ -51790,9 +51837,198 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "正式版四位作者均署港城大。Han Wu 之后赴华为就职，不改变这篇原始全港城大署名。",
         "year": 2023
+      },
+      {
+        "title": "On the Role of Reasoning Patterns in the Generalization Discrepancy of Long Chain-of-Thought Supervised Fine-Tuning",
+        "url": "https://proceedings.colm.cc/paper_files/paper/2026/file/5c7024041be305c94d7311cfcc53d93e-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "预印本和 COLM 正式版均在作者页标明 Zhaoyi Li 三署为美团 LongCat、港城大及中科大，当时在 LongCat 的研究实习及联合导师已证实；原文没有实习脚注，仍在补可明确将该篇具体工作归于该企业团队的具名项目资料。",
+        "year": 2026
+      },
+      {
+        "title": "LoRAN: Improved Low-Rank Adaptation by a Non-Linear Transformation",
+        "url": "https://aclanthology.org/2024.findings-emnlp.177/",
+        "outcome": "no-evidence",
+        "note": "正式版三位学者均署港城大，宋同时署其深圳研究院，未查到目标企业署名或在该企业研究。",
+        "year": 2024
+      },
+      {
+        "title": "Understanding and Patching Compositional Reasoning in LLMs",
+        "url": "https://aclanthology.org/2024.findings-acl.576/",
+        "outcome": "no-evidence",
+        "note": "正式版只署中科大、港城大及其深圳研究院、南洋理工；Zhaoyi Li 本人给出的美团、蚂蚁履历均始于本篇发表后。",
+        "year": 2024
+      },
+      {
+        "title": "Bi-Chainer: Automated Large Language Models Reasoning with Bidirectional Chaining",
+        "url": "https://aclanthology.org/2024.findings-acl.507/",
+        "outcome": "no-evidence",
+        "note": "港城大博士论文列为 Shuqi Liu 博士项目之一，且确认宋林琦正式指导；本篇三位均署港城大，并无目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "Mitigating the Language Mismatch and Repetition Issues in LLM-based Machine Translation via Model Editing",
+        "url": "https://aclanthology.org/2024.emnlp-main.879/",
+        "outcome": "no-evidence",
+        "note": "正式版作者为港城大、中科大及浙大，Zhaoyi Li 的美团、蚂蚁实习在此篇发表以后。",
+        "year": 2024
+      },
+      {
+        "title": "CLOMO: Counterfactual Logical Modification with Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.593/",
+        "outcome": "existing",
+        "note": "同篇关系由中山大学梁小丹对 Yinya Huang 的博士指导成立（作者 2024/2025 CV 逐篇列为腾讯实习项目）。宋林琦同篇署港城大通讯，2025 CV 记载其是 Huang 毕业后的港城大博士后阶段导师；不为宋添加在读研究指导归属。另一个具名实习者 Ruixin Hong 目前未确定合资格导师。",
+        "year": 2023
+      },
+      {
+        "title": "Benchmarking and Improving Compositional Generalization of Multi-aspect Controllable Text Generation",
+        "url": "https://aclanthology.org/2024.acl-long.351/",
+        "outcome": "no-evidence",
+        "note": "正式版作者来自中科大、港城大、北邮和南洋理工；无目标企业合作作者。",
+        "year": 2024
+      },
+      {
+        "title": "iResNetDM: An interpretable deep learning approach for four types of DNA methylation modification prediction",
+        "url": "https://doi.org/10.1016/j.csbj.2024.11.006",
+        "outcome": "no-evidence",
+        "note": "大学托管正式全文列各作者均来自港城大，贡献明确指宋和 Yudai Matsuda 指导，资金来源为政府及校内计划，无目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "mHMG-DTI: A Drug-Target Interaction Prediction Framework Combining Modified Hierarchical Molecular Graphs and Improved Convolutional Block Attention Module",
+        "url": "https://doi.org/10.1007/978-981-96-8197-6_14",
+        "outcome": "no-evidence",
+        "note": "Springer 和大学机构书目正式列四位港城大作者，未见目标企业共同作者。",
+        "year": 2025
+      },
+      {
+        "title": "Unlocking the Power of Function Vectors for Characterizing and Mitigating Catastrophic Forgetting in Continual Instruction Tuning",
+        "url": "https://openreview.net/attachment?id=gc8QAQfXv6&name=pdf",
+        "outcome": "lead",
+        "note": "ICLR 正式首页列 Caigao Jiang、Siqiao Xue、Jun Zhou 为 Independent；没有独立证据能把这篇具体研究追溯到学生的蚂蚁实习。Zhaoyi Li 自己的蚂蚁时间是 2026 年 10 月；Gangwei Jiang 的快手合作是另一项目。",
+        "year": 2025
+      },
+      {
+        "title": "RecRanker: Instruction Tuning Large Language Model as Ranker for Top-k Recommendation",
+        "url": "https://doi.org/10.1145/3705728",
+        "outcome": "no-evidence",
+        "note": "港城大博士档案明确第一作者 Sichun Luo 的博士指导关系。首版 2023.12，正式卷 2025，均合并为一篇；原文唯一企业署名为商汤（不在范围）。",
+        "year": 2023
+      },
+      {
+        "title": "OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/optibench-meets-resocratic-measure-and-improve-llms-for-optimizat/",
+        "outcome": "lead",
+        "note": "正式版列 Wei Shi、Xiongwei Han 华为诺亚，第一作者 Zhicheng Yang 署港科广且本人列过华为实习，但没有公开明确日期和同篇归属。宋林琦是合著者，港城大档案中 Huang 彼时为博士后，并非在读。",
+        "year": 2025
+      },
+      {
+        "title": "DrugMCTS: a Drug Repositioning Framework Combining Multi-Agent, RAG and Monte Carlo Tree Search",
+        "url": "https://arxiv.org/abs/2507.07426",
+        "outcome": "no-evidence",
+        "note": "港城大博士论文把本篇列为 Yang Zerui 的毕业研究，由宋联合指导。上述原始预印本 2025 年，首稿和最新作者资料未出现 14 家目标企业；GreenDynamics 不在范围。",
+        "year": 2025
+      },
+      {
+        "title": "ExpeSQL: An Efficient, Experience-Guided Decompositional Search Framework for Text-to-SQL",
+        "url": "https://vldb.org/2026/Workshops/vldb.html",
+        "outcome": "lead",
+        "note": "VLDB 正式工作坊题录列为与 Memo-SQL 不同条；题目结构、方法和作者组不同。工作坊议程列 Yang Zerui 港城大、Yanwei Xu／Wei Han／Bo Bai 华为。未见该学生在学期间做此篇企业研究的属实证明；学位已于 2026.03 授予。",
+        "year": 2026
+      },
+      {
+        "title": "FVEL: Interactive Formal Verification Environment with Large Language Models via Theorem Proving",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/62c6d7893b13a13c659cb815852dd00d-Abstract-Datasets_and_Benchmarks_Track.html",
+        "outcome": "lead",
+        "note": "正式原文 Zhengying Liu 署华为；四位共同第一作者分属其他机构。Yinya Huang 此时为港城大博士后。其余院校作者未找到本篇的企业实习与合资格导师的完整链。",
+        "year": 2024
+      },
+      {
+        "title": "MUSTARD: Mastering Uniform Synthesis of Theorem and Proof Data",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/1e118ba9ee76c20df728b42a35fb4704-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "ICLR 正式原文有华为公司人，但首作 Huang 在港城大为博士后，宋是其博士后期间导师；没有其他本篇作者的明确华为实习证据。",
+        "year": 2024
+      },
+      {
+        "title": "Scaling Reasoning Hop Exposes Weaknesses: Demystifying and Improving Hop Generalization in Large Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "正式版首面仅中科大、港城大及深圳研究院、浙江大学；即使作者在其他论文曾实习，本篇未出现目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Learning From Correctness Without Prompting Makes LLM Efficient Reasoner",
+        "url": "https://scholars.cityu.edu.hk/ws/portalfiles/portal/259480741/259019466.pdf",
+        "outcome": "lead",
+        "note": "正式 COLM 版指出 姚宇璇 署港城大共同一作、同篇有华为 Han Wu、Guo 等人；郭团队往届名单确认姚后来去华为，但没给这篇企业实习的时间或项目。宋是校方确认的博士导师。",
+        "year": 2024
+      },
+      {
+        "title": "Activation-Guided Consensus Merging for Large Language Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b395e7bd5eaf3e980386debf2e9d7f11-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "华为合著者包括 Han Wu 和已毕业的 Shuqi Liu；首作 姚宇璇 为宋指导的港城大博士，但首稿与正式版均无她做此项华为实习的脚注。刘博士学位于 2025-01-23，而本篇首次公开 2025.05。",
+        "year": 2025
+      },
+      {
+        "title": "Beyond One-Size-Fits-All Pruning via Evolutionary Metric Search for Large Language Models",
+        "url": "https://arxiv.org/abs/2502.10735",
+        "outcome": "lead",
+        "note": "首作 Shuqi Liu 在本篇稿件署港城大和华为，但该校博士授予 2025-01-23，首稿 2025-02，未见本论文在读时企业参与的日期。与 Sens-Merging 的任务、作者数及方法不同。",
+        "year": 2025
+      },
+      {
+        "title": "Merging Beyond: Streaming LLM Updates via Activation-Guided Rotations",
+        "url": "https://arxiv.org/abs/2602.03237",
+        "outcome": "lead",
+        "note": "首面 Shuqi Liu、Haochen Tan、Han Wu 等署华为，前两位在首稿前已经博士毕业。共同第一作者 姚宇璇 与 Haonan Sheng 署港城大，姚的正式博士导师为宋；未见论文相应企业参与的具名文档。",
+        "year": 2026
+      },
+      {
+        "title": "Determine-Then-Ensemble: Necessity of Top-k Union for Large Language Model Ensembling",
+        "url": "https://scholars.cityu.edu.hk/en/publications/determine-then-ensemble-necessity-of-top-k-union-for-large-langua/",
+        "outcome": "lead",
+        "note": "毕业论文明确该工作属于姚宇璇博士研究章；正式和预印本有华为员工同署，但姚只列港城大，缺同篇参与公司研究的独立资料。Guo 往届名单所列毕业去向不能补上此项。",
+        "year": 2025
+      },
+      {
+        "title": "Integrating Large Language Models Into Recommendation via Mutual Augmentation and Adaptive Aggregation",
+        "url": "https://doi.org/10.1109/JSTSP.2026.3653160",
+        "outcome": "no-evidence",
+        "note": "对照港中大正式 IEEE 2026 题录和 2024 首稿；仅有非范围企业商汤，方法与 RecRanker 区分，为 Llama4Rec。",
+        "year": 2024
+      },
+      {
+        "title": "A Language Model-based Fine-Grained Address Resolution Framework in UAV Delivery System",
+        "url": "https://doi.org/10.1109/JSTSP.2024.3376962",
+        "outcome": "lead",
+        "note": "IEEE 期刊原摘要明确提及通过美团无人机内测，正式作者四人均是高校作者；没找到目标企业正式员工同署及学生参加美团团队的独立证据。研究用途与独立的 CNER-UAV 数据论文区分。",
+        "year": 2024
+      },
+      {
+        "title": "Can LLM Substitute Human Labeling? A Case Study of Fine-grained Chinese Address Entity Recognition Dataset for UAV Delivery",
+        "url": "https://scholars.cityu.edu.hk/en/publications/can-llm-substitute-human-labeling-a-case-study-of-fine-grained-ch/",
+        "outcome": "no-evidence",
+        "note": "WWW Companion 正式篇是 CNER-UAV 数据集；以实际无人机配送系统数据为样本，但五位作者均无目标企业署名，未发现此篇具名企业实习或联合培养。",
+        "year": 2024
+      },
+      {
+        "title": "DSA-Tokenizer: Disentangled Semantic-Acoustic Tokenization via Flow Matching-based Hierarchical Fusion",
+        "url": "https://arxiv.org/abs/2601.09239",
+        "outcome": "lead",
+        "note": "正式目录尚未可靠定位；2026-01-14 首稿第 1 页双匕首明确张瀚霖实习期间在华为完成工作。港城大名录按同一院系邮件确认为全日制博士，宋林琦为通讯；同篇另有华为 Leibniz 的 Daxin Tan 和 Haochen Tan。尚缺宋林琦或王建平公开具名指导。",
+        "year": 2026
+      },
+      {
+        "title": "NormToken: Speaker- and Duration-Normalized Semantic Speech Tokens via Iterative S2U-T2U Refinement",
+        "url": "https://arxiv.org/abs/2608.16235",
+        "outcome": "lead",
+        "note": "2026-08-17 首稿，10-08 改为 NormToken，合为一篇。PDF 首面张瀚霖双匕首明确华为实习；正式在读名单和同篇学号一致，陈晓及谭达新署华为 Leibniz。宋为通讯而暂无具名指导资料，保留线索。",
+        "year": 2026
       }
     ],
-    "note": "核对本人研究组、港城大机构库、作者履历、学位论文与会议正式版。首批 12 篇含 1 条已确认关系；其他国际会议、期刊与预印本仍待核对。"
+    "note": "交叉港城大官方出版目录、期刊和会议正式版、博士论文、作者与研究组书目；按同一研究合并首稿和正式版。剩余书目正在补查。"
   },
   "ExIZrLAAAAAJ": {
     "from": "2023-01-01",
@@ -52045,5 +52281,238 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已从本人公开书目、正式会刊和合著者资料逐篇核对首批作品。另有期刊和近期会议书目需要继续检查。"
+  },
+  "QEjqzXgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gr.xjtu.edu.cn/denghq7/",
+      "https://gr.xjtu.edu.cn/denghq7/zh_CN/zdylm/1000527/list/index.htm",
+      "https://dblp.org/pid/229/1317.html",
+      "https://aclanthology.org/people/huiqi-deng/",
+      "https://sjtu-xai-lab.github.io/",
+      "https://gr.xjtu.edu.cn/phwang/zh_CN/zdylm/986231/list/index.htm",
+      "https://mengnandu.com/publications/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "SkillEval: Decomposing Agent Skill Quality into Interpretable Signals",
+        "url": "https://arxiv.org/html/2608.06891v1",
+        "outcome": "no-evidence",
+        "note": "2026-08 首稿及 10 月修订列西交、上智实验室、香港理工、人大、哈工大。未见目标企业；使用第三方模型评测本身不能算企业合著。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "url": "https://arxiv.org/html/2607.23496v1",
+        "outcome": "no-evidence",
+        "note": "2026-07 首稿九名作者署人大、西交、中科大、武大、上海人工智能实验室；修订稿署名有变，未见目标企业或具名实研。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Understanding Generalization through Decision Pattern Shift",
+        "url": "https://arxiv.org/abs/2605.13148",
+        "outcome": "no-evidence",
+        "note": "作者原稿列西交、上交及上海人工智能实验室，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "PolyGeom: Geometry-Aware Graph Transformer for Building Polygon Extraction in Remote Sensing Images",
+        "url": "https://www.mdpi.com/2072-4292/18/4/551",
+        "outcome": "no-evidence",
+        "note": "出版社署西交、深圳河套学院及吉林大学，通讯邓辉琦；以公开预训练模型为底座不构成指定企业合著。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Attribution Explanations for Deep Neural Networks: A Theoretical Perspective",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3667600",
+        "outcome": "no-evidence",
+        "note": "TPAMI 论文作者版（2025-08 首次发布）署西交、上海交大和新泽西理工三所高校，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "The Interaction Bottleneck of Deep Neural Networks: Discovery, Proof, and Modulation",
+        "url": "https://arxiv.org/abs/2512.18607",
+        "outcome": "no-evidence",
+        "note": "2025-12 首稿作者署西交、上交、同济，未见范围企业；与较早 ICML 的贝叶斯网络论文分别记录。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Towards Attributions of Input Variables in a Coalition",
+        "url": "https://proceedings.mlr.press/v267/zheng25d.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式文三位作者均署上海交大，同篇 2023 年预印本合并核；未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Explainability for Large Language Models: A Survey",
+        "url": "https://arxiv.org/abs/2309.01029",
+        "outcome": "no-evidence",
+        "note": "2023-09 首稿及后续版本列两位百度作者 Shuaiqiang Wang、Dawei Yin，并列在当时任上交博士后的邓辉琦。中国科学院计算技术研究所署名的蔡恒毅本人出版简介写明 2021 年博士已毕业；不能作为 2023 年在读学生。其余作者未见可归属的目标院校学生同期企业参与。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Unifying Fourteen Post-Hoc Attribution Methods With Taylor Interactions",
+        "url": "https://arxiv.org/abs/2303.01506",
+        "outcome": "no-evidence",
+        "note": "TPAMI 与 2023 年同篇早稿归并；作者版列学术机构，未获目标企业参与证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Explaining Generalization Power of a DNN Using Interactive Concepts",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29655",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式稿署上交及加州大学圣迭戈分校；2023 年原稿为同项工作，未见范围企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Defining and Quantifying the Emergence of Sparse Concepts in DNNs",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Ren_Defining_and_Quantifying_the_Emergence_of_Sparse_Concepts_in_DNNs_CVPR_2023_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式论文全部作者署上海交大，未见同篇企业实研证据；2021 年起题为 Towards Axiomatic, Hierarchical, and Symbolic Explanation for Deep Models 的 2111.06206 为同篇早期作者版。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Bayesian Neural Networks Avoid Encoding Complex and Perturbation-Sensitive Concepts",
+        "url": "https://proceedings.mlr.press/v202/ren23a.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式稿五作者均上海交大，校方课题组公开实现；未见同篇目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Prompts: Discovering Jailbreak Motifs in Sparse Feature Space",
+        "url": "https://aclanthology.org/2026.emnlp-main.2032/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版可查。作者署西交及学术单位，其中上海人工智能实验室并非目标企业；未见目标企业作者实研。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Your LLM, Your Style: Behavioral Mode Axes for LLM Behavioral Control",
+        "url": "https://arxiv.org/html/2608.10703v1",
+        "outcome": "no-evidence",
+        "note": "首稿署上海交大、上海人工智能实验室、香港科大和西交；代码为作者个人维护，未见同篇目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Hidden in Plain Sight: Diffusion-Based Unrestricted Robotic Attacks on Vision-Language-Action Models",
+        "url": "https://arxiv.org/html/2608.10393v1",
+        "outcome": "no-evidence",
+        "note": "首稿署西交、上海人工智能实验室、中科大，邓辉琦为共同通讯；无目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Mitigating Shortcuts in Language Models with Soft Label Encoding",
+        "url": "https://aclanthology.org/2024.lrec-main.991/",
+        "outcome": "no-evidence",
+        "note": "LREC-COLING 正式稿署新泽西理工、上海交大及佐治亚大学，2023 年预印本为同篇；无目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Multi-Track Message Passing: Tackling Oversmoothing and Oversquashing in Graph Learning via Preventing Heterophily Mixing",
+        "url": "https://proceedings.mlr.press/v235/pei24a.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式稿列西安交大和上海交大；仅用外部算法、公开数据及 KDD Cup 参赛不能作为目标企业合作。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "HAGO-Net: Hierarchical Geometric Massage Passing for Molecular Representation Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29373",
+        "outcome": "no-evidence",
+        "note": "作者学校书目与 AAAI 2024 正式录对齐；站点题名修正 Massage 为 Message，原正式目录曾拼为 Massage。西交课题组公开实现，未见目标企业项目材料。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Interpretability of Neural Networks Based on Game-theoretic Interactions",
+        "url": "https://doi.org/10.1007/s11633-023-1419-7",
+        "outcome": "no-evidence",
+        "note": "期刊原版六作者属于上海交大研究组；按卷期 2024，2023 在线底稿归并；未见目标公司。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Towards the Difficulty for a Deep Neural Network to Learn Concepts of Different Complexities",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/8143b8c73073a9a23b9c18e400066471-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "正式论文具名 Quanshi Zhang 指导，邓辉琦 当时为上交研究人员；未见目标企业正式合作者或学生在企业做此项目的材料。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Generator-Specific Shortcuts: Open-World AI-Generated Video Detection via Adversarial Training",
+        "url": "https://arxiv.org/html/2610.23906v1",
+        "outcome": "no-evidence",
+        "note": "2026-09 首稿五位作者均署西交电信学部，邓通讯；使用第三方模型生成视频不证明企业项目。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Faithful Activation Verbalization: Reducing Hallucinations in LLM Representation Interpretation",
+        "url": "https://arxiv.org/html/2609.34033v1",
+        "outcome": "no-evidence",
+        "note": "杜梦楠个人书目和原稿重合，所列机构为新泽西理工、上海人工智能实验室、西交、香港中文大学（深圳），没有指定企业署名。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+        "url": "https://arxiv.org/html/2601.18491v1",
+        "outcome": "no-evidence",
+        "note": "首稿末尾项目团队明确把邓列入贡献者、任祺涵列核心贡献者；该生本人履历把 2025-03 至 2026-01 的同方向实研明确归于上海人工智能实验室，首稿早于其 MiniMax 与阿里实习。原文作者项目未给范围企业参与依据。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Let’s Synthesize Step-by-Step: Generating Network Configurations with Chain of Thought",
+        "url": "https://doi.org/10.1109/ICNP65844.2025.11192427",
+        "outcome": "no-evidence",
+        "note": "IEEE 发布的作者元数据逐一列出六人均为西交；未获取同项企业研究证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Non-Stationary Predictions May Be More Informative: Exploring Pseudo-Labels with a Two-Phase Pattern of Training Dynamics",
+        "url": "https://proceedings.mlr.press/v267/pei25a.html",
+        "outcome": "no-evidence",
+        "note": "正式 ICML 及完整作者稿只列西交和北京信息科技大学；与 WWW 2024 的 Memory Disagreement 使用相邻主题，但检验不同的训练动态，保留两篇。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Memory Disagreement: A Pseudo-Labeling Measure from Training Dynamics for Semi-supervised Graph Learning",
+        "url": "https://doi.org/10.1145/3589334.3645398",
+        "outcome": "lead",
+        "note": "ACM 元数据明确 Jialun Liu 署百度，同期邓辉琦署上海交大，其余为西交课题组。尚未查到在读作者在百度参加此项研究的本人或单位记录；百度作者和导师同篇不足以确认。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "HyperplaneGAN: a unified consistent translation framework for facial attribute editing",
+        "url": "https://link.springer.com/article/10.1007/s11042-024-20062-9",
+        "outcome": "no-evidence",
+        "note": "Springer 2024 在线发表，作者与中山大学博士时期的导师冯国灿和合作者陈玮夫匹配；作者单位与资助无范围企业。",
+        "relationIds": []
+      }
+    ],
+    "note": "西安交通大学官方与校内实验室确认邓辉琦为助理教授；兼查本人书目、DBLP 和出版社／会议作者索引。公开书目逐篇并交叉同组、原上交导师实验室和正式发表索引；早年上交博士后经历不回填当时的西交导师身份。DBLP 混有专做数据流的安徽大学同名作者（ORCID 0009-0001-4482-7873，有两项作者/机构双证），暂不归入西交。"
   }
 };
