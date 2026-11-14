@@ -48732,14 +48732,20 @@ const facultyPaperAudits = {
   "POTjhnUAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://yaoxiangding.github.io/",
       "https://www.cs.zju.edu.cn/_upload/article/files/d4/45/e46a2ca6469693738d84d1fffc3f/642ea7c2-932e-4023-b1bb-ce1618ee6c27.pdf",
       "https://yaoxiangding.github.io/full-publication.html",
       "https://dblp.org/pid/186/8301-1.html",
       "https://github.com/ATH-MaaS/PixText",
-      "https://doctorkey.github.io/"
+      "https://doctorkey.github.io/",
+      "https://orcid.org/0000-0001-8580-1103",
+      "https://daiwz.net/publications/",
+      "https://www.lamda.nju.edu.cn/maljh/",
+      "https://www.csauthors.net/yao-xiang-ding-001/",
+      "https://researchr.org/publication/ijclr-2024",
+      "https://openreview.net/pdf/578fb8c6462acbecd5ca4a0446f21cabacf70d73.pdf"
     ],
     "papers": [
       {
@@ -48843,16 +48849,16 @@ const facultyPaperAudits = {
       {
         "title": "Autonomous Imagination: Closed-Loop Decomposition of Visual-to-Textual Conversion in Visual Reasoning for Multimodal Large Language Models",
         "year": 2024,
-        "url": "https://arxiv.org/html/2411.18142v1",
+        "url": "https://openreview.net/pdf/578fb8c6462acbecd5ca4a0446f21cabacf70d73.pdf",
         "outcome": "no-evidence",
         "note": "2024 年以 Enhancing Visual Reasoning with Autonomous Imagination 为题首发，后续 TMLR 版为同项。公开版作者署浙大，未见调查企业参与。"
       },
       {
         "title": "Pre-Training Meta-Rule Selection Policy for Visual Generative Abductive Learning",
-        "year": 2025,
+        "year": 2024,
         "url": "https://arxiv.org/html/2503.06427v1",
         "outcome": "no-evidence",
-        "note": "以可复用元规则选择策略为独立贡献，区别于较早的 AbdGen；公开原文作者署浙大与南大，未见调查企业参与。"
+        "note": "IJCLR 2024 会议已列本项，2025 年作者预印本为同项。提出独立的元规则选择策略，原文作者署浙大与南大。"
       },
       {
         "title": "Enabling Synergistic Full-Body Control in Prompt-Based Co-Speech Motion Generation",
@@ -48867,9 +48873,79 @@ const facultyPaperAudits = {
         "url": "https://www.lamda.nju.edu.cn/publication/aaai24he.pdf",
         "outcome": "no-evidence",
         "note": "AAAI 正式原文作者署浙大和南大；实验中的销售数据不等于企业合著。"
+      },
+      {
+        "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2610.13172v1",
+        "outcome": "no-evidence",
+        "note": "原稿署浙大与 Baiont Quant；该企业不在调查范围内。"
+      },
+      {
+        "title": "Achieving Nearly-Optimal Regret and Sample Complexity in Dueling Bandits with Applications in Online Recommendations",
+        "year": 2025,
+        "url": "https://www.lamda.nju.edu.cn/maljh/publication/REDB_cr.pdf",
+        "outcome": "no-evidence",
+        "note": "KDD 正式论文署南大、浙大、理研；实验涉及推荐系统不等于企业合作。"
+      },
+      {
+        "title": "Motion-example-controlled Co-speech Gesture Generation Leveraging Large Language Models",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2507.20220v1",
+        "outcome": "no-evidence",
+        "note": "各作者均列浙大 CAD&CG。与 SynTalker 使用不同控制信号，为单列研究。"
+      },
+      {
+        "title": "Enhancing Identity-Deformation Disentanglement in StyleGAN for One-Shot Face Video Re-Enactment",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32113",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式题录及原文的三位作者均署浙大。"
+      },
+      {
+        "title": "Handling Varied Objectives by Online Decision Making",
+        "year": 2024,
+        "url": "https://www.lamda.nju.edu.cn/publication/kdd24ma.pdf",
+        "outcome": "no-evidence",
+        "note": "KDD 正式论文作者分别署南大、浙大与日本理研；采用序贯在线决策，和相关性模型复用另列。"
+      },
+      {
+        "title": "Expressive Head Avatar Modeling from Monocular Video of Neutral Expression",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TVCG.2026.3690559",
+        "outcome": "no-evidence",
+        "note": "出版题录列三名浙大作者，摘要与公开信息未披露调查企业参与。"
+      },
+      {
+        "title": "Appearance as Reliable Evidence: Reconciling Appearance and Generative Priors for Monocular Motion Estimation",
+        "year": 2025,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0097849325002456",
+        "outcome": "no-evidence",
+        "note": "作者名单与 ORCID 交叉核实；出版页所列相关资助为国家自然科学基金，未见范围内企业同篇参与。"
+      },
+      {
+        "title": "Learning Objective Adaptation by Correlation-based Model Reuse",
+        "year": 2024,
+        "url": "https://www.lamda.nju.edu.cn/publication/ma2025tnnls.pdf",
+        "outcome": "no-evidence",
+        "note": "期刊首发日期为 2024-12-04，卷期为 2025。作者来自南大与浙大，未见调查企业。"
+      },
+      {
+        "title": "Beyond Simple Sum of Delayed Rewards: Non-Markovian Reward Modeling for Reinforcement Learning",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2410.20176v1",
+        "outcome": "no-evidence",
+        "note": "独立处理组合延迟回报，与 Bagged Reward 作者和问题不同。公开原稿为东京大学、理研、南大、浙大的合作，未见范围内企业。"
+      },
+      {
+        "title": "3D Geometric Tooth Alignment Planning via Deep Reinforcement Learning",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2607.14544v1",
+        "outcome": "no-evidence",
+        "note": "作者单位为浙大和其附属口腔医院；Choho Technology 提供测试数据并非调查范围内企业。"
       }
     ],
-    "note": "已继续核对个人书目和正式出版与首发稿。原稿课题或作者明显不同的同号稿分别查；《Seeing Differently, Acting Similarly》于 2021 年首发，未重复列入。其余公开作品仍在梳理。"
+    "note": "已逐篇核对截至 2026-11-12 本人及合作者公开书目、ORCID、DBLP 和独立题录交叉可查的论文。2021 年首发作品未计入，归并更名版本。CoAugRetriever 尚缺企业项目内的学生参与证据，仍标线索。"
   },
   "DhhH9J4AAAAJ": {
     "from": "2023-01-01",
