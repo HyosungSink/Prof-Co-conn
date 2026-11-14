@@ -1,5 +1,6 @@
 const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
+const facultyScope = get('faculty-scope');
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
 const facultyCount = get('faculty-count');
@@ -10,16 +11,28 @@ function facultyUnitId(schoolIndex, department) {
   return department.slug ? `faculty-institute-${department.slug}` : `faculty-unit-${schoolIndex + 1}-${department.index + 1}`;
 }
 
+function facultyGroupsFor(school, units, departmentOf) {
+  return facultyGroupLabels.flatMap(([key, label, instituteLabel]) => {
+    if (facultyScope.value && key !== facultyScope.value) return [];
+    const entries = units.filter(unit => facultyUnitGroup(school, departmentOf(unit)) === key);
+    return entries.length ? [{ key, label: school === ucasSchool ? instituteLabel : label, entries }] : [];
+  });
+}
+
 function setDepartmentOptions(selected = '') {
   const school = facultySchool.value;
-  const departments = new Set((snapshot[school] || []).map(department => department.name));
+  const groups = facultyGroupsFor(school, snapshot[school] || [], unit => unit);
   const label = school === ucasSchool ? '研究所' : '院系';
   get('faculty-department-label').textContent = label;
   const placeholder = school ? `全部${label}` : '请先选择高校';
-  facultyDepartment.replaceChildren(new Option(placeholder, ''),
-    ...Array.from(departments, name => new Option(name, name)));
-  facultyDepartment.disabled = !school;
-  facultyDepartment.value = departments.has(selected) ? selected : '';
+  facultyDepartment.replaceChildren(new Option(placeholder, ''), ...groups.map(({ label, entries }) => {
+    const optgroup = element('optgroup');
+    optgroup.label = label;
+    optgroup.append(...entries.map(({ name }) => new Option(name, name)));
+    return optgroup;
+  }));
+  facultyDepartment.disabled = !groups.length;
+  facultyDepartment.value = groups.some(({ entries }) => entries.some(({ name }) => name === selected)) ? selected : '';
 }
 
 function appendFacultySources(section, top, department) {
@@ -91,6 +104,7 @@ function renderFaculty() {
   for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
     const units = (snapshot[name] || []).flatMap(department => {
+      if (facultyScope.value && facultyUnitGroup(name, department) !== facultyScope.value) return [];
       if (facultyDepartment.value && department.name !== facultyDepartment.value) return [];
       const context = facultySearchKey([name, english, department.name].join(' '));
       const people = department.people.filter(person => words.every(word =>
@@ -123,72 +137,32 @@ function renderFaculty() {
     card.append(summary, body);
     function fill() {
       if (!card.open || body.childNodes.length) return;
+      const groups = facultyGroupsFor(name, units, unit => unit.department);
       if (units.length > 1) {
-        const index = element('ul', '', 'faculty-unit-index');
-        index.setAttribute('aria-label', `${name}的${name === ucasSchool ? '研究所' : '院系'}名录`);
-        for (const { department, id } of units) {
-          const item = element('li');
-          const link = element('a', department.name);
-          link.href = `#${id}`;
-          item.append(link);
-          index.append(item);
+        const index = element('nav', '', 'faculty-unit-index');
+        index.setAttribute('aria-label', `${name}名录索引`);
+        for (const { key, label, entries } of groups) {
+          const row = element('div', '', 'faculty-unit-index-row');
+          row.dataset.scope = key;
+          const list = element('ul');
+          for (const { department, id } of entries) {
+            const item = element('li');
+            const link = element('a', department.name);
+            link.href = `#${id}`;
+            item.append(link);
+            list.append(item);
+          }
+          row.append(element('span', label), list);
+          index.append(row);
         }
         body.append(index);
       }
-      for (const { department, people, id } of units) {
-        const section = element('section', '', 'faculty-unit');
-        section.id = id;
-        const top = element('div', '', 'faculty-unit-head');
-        const label = element('div');
-        const count = `${countFormat.format(people.length)} ${words.length ? '条匹配' : '位教师'}`;
-        const units = department.sources || [];
-        const incomplete = units.length && (units.every(unit => unit.status === 'partial' || !unit.people.length) ||
-          units.some(unit => !unit.people.length));
-        label.append(element('h2', department.name), element('p', [
-          department.people.length ? count : '未收录逐人名单',
-          department.people.length > 0 && incomplete && '部分名单',
-          units.length === 1 && units[0].note,
-          department.slug === 'unverified' && '公开资料暂未确认所属研究所',
-          department.slug === 'campus' && '公开档案列为国科大校部人员，未列独立研究所'
-        ].filter(Boolean).join(' · ')));
-        top.append(label);
-        section.append(top);
-        appendFacultySources(section, top, department);
-        if (people.length) {
-          const list = element('ul', '', 'faculty-people');
-          for (const teacher of people) {
-            const { name: person, titles, tiers, titleLabels, appointments, profile, aliases } = teacher;
-            const item = element('li');
-            item.append(profile ? source(person, profile) : element('strong', person));
-            const ranks = titles.length ? titles : tiers;
-            const title = element('small', titles.length ? '职称：' : tiers.length ? '职称层级：' : '职称：待核实', 'faculty-person-title');
-            if (!ranks.length) title.classList.add('faculty-person-title-pending');
-            for (const [index, rank] of ranks.entries()) {
-              if (index) title.append(' · ');
-              title.append(rank.url ? source(rank.label, rank.url) : rank.label);
-            }
-            item.append(title);
-            if (titleLabels.length) {
-              const labels = element('small', '英文主页：');
-              for (const [index, { label, url }] of titleLabels.entries()) {
-                if (index) labels.append(' · ');
-                labels.append(source(label, url));
-              }
-              item.append(labels);
-            }
-            if (aliases.length) item.append(element('small', aliases.join(' · ')));
-            if (appointments.length) item.append(element('small', `任职信息：${appointments.join(' · ')}`));
-            if (teacher.instituteSource) {
-              const reference = element('small');
-              reference.append(source('所属研究所来源 ↗', teacher.instituteSource));
-              item.append(reference);
-            }
-            appendFacultyBibliography(item, teacher, name, department.name);
-            list.append(item);
-          }
-          section.append(list);
-        }
-        body.append(section);
+      for (const { key, label, entries } of groups) {
+        const category = element('div', '', 'faculty-category');
+        category.dataset.scope = key;
+        category.append(element('h2', label, 'faculty-category-title'));
+        for (const unit of entries) category.append(renderFacultyUnit(unit, name, words.length));
+        body.append(category);
       }
     }
     fill();
@@ -196,16 +170,75 @@ function renderFaculty() {
     return card;
   });
 
-  facultyRoot.replaceChildren(...(cards.length ? cards : [
-    element('p', `没有找到符合条件的教师或${facultySchool.value === ucasSchool ? '研究所' : '院系'}。`, 'empty')
-  ]));
+  const noMatches = !words.length && facultySchool.value && facultyScope.value
+    ? '这所学校暂未收录此类别的院系或研究机构。'
+    : `没有找到符合条件的教师或${facultySchool.value === ucasSchool ? '研究所' : '院系'}。`;
+  facultyRoot.replaceChildren(...(cards.length ? cards : [element('p', noMatches, 'empty')]));
   facultyCount.textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '名录记录'} · 采集日期 ${facultyDirectory.checked}`;
+}
+
+function renderFacultyUnit({ department, people, id }, name, isSearch) {
+  const section = element('section', '', 'faculty-unit');
+  section.id = id;
+  const top = element('div', '', 'faculty-unit-head');
+  const label = element('div');
+  const count = `${countFormat.format(people.length)} ${isSearch ? '条匹配' : '位教师'}`;
+  const units = department.sources || [];
+  const incomplete = units.length && (units.every(unit => unit.status === 'partial' || !unit.people.length) ||
+    units.some(unit => !unit.people.length));
+  label.append(element('h3', department.name), element('p', [
+    department.people.length ? count : '未收录逐人名单',
+    department.people.length > 0 && incomplete && '部分名单',
+    units.length === 1 && units[0].note,
+    department.slug === 'unverified' && '公开资料暂未确认所属研究所',
+    department.slug === 'campus' && '公开档案列为国科大校部人员，未列独立研究所'
+  ].filter(Boolean).join(' · ')));
+  top.append(label);
+  section.append(top);
+  appendFacultySources(section, top, department);
+  if (people.length) {
+    const list = element('ul', '', 'faculty-people');
+    for (const teacher of people) {
+      const { name: person, titles, tiers, titleLabels, appointments, profile, aliases } = teacher;
+      const item = element('li');
+      item.append(profile ? source(person, profile) : element('strong', person));
+      const ranks = titles.length ? titles : tiers;
+      const title = element('small', titles.length ? '职称：' : tiers.length ? '职称层级：' : '职称：待核实', 'faculty-person-title');
+      if (!ranks.length) title.classList.add('faculty-person-title-pending');
+      for (const [index, rank] of ranks.entries()) {
+        if (index) title.append(' · ');
+        title.append(rank.url ? source(rank.label, rank.url) : rank.label);
+      }
+      item.append(title);
+      if (titleLabels.length) {
+        const labels = element('small', '英文主页：');
+        for (const [index, { label, url }] of titleLabels.entries()) {
+          if (index) labels.append(' · ');
+          labels.append(source(label, url));
+        }
+        item.append(labels);
+      }
+      if (aliases.length) item.append(element('small', aliases.join(' · ')));
+      if (appointments.length) item.append(element('small', `任职信息：${appointments.join(' · ')}`));
+      if (teacher.instituteSource) {
+        const reference = element('small');
+        reference.append(source('所属研究所来源 ↗', teacher.instituteSource));
+        item.append(reference);
+      }
+      appendFacultyBibliography(item, teacher, name, department.name);
+      list.append(item);
+    }
+    section.append(list);
+  }
+  return section;
 }
 
 addOptions(facultySchool, survey.schools);
 const facultyParams = new URLSearchParams(location.search);
 const selectedFacultySchool = facultyParams.get('school');
 const selectedDepartment = facultyParams.get('department');
+const selectedScope = facultyParams.get('scope');
+if (selectedScope === 'core' || selectedScope === 'related') facultyScope.value = selectedScope;
 facultyQuery.value = facultyParams.get('q') || '';
 const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-(\d+)$/);
 const instituteTarget = snapshot[ucasSchool].find(({ slug }) => location.hash === `#faculty-institute-${slug}`);
@@ -227,9 +260,12 @@ function applyFacultyFilters() {
   const url = new URL(location.href);
   if (facultySchool.value) url.searchParams.set('school', facultySchool.value);
   else url.searchParams.delete('school');
+  if (facultyScope.value) url.searchParams.set('scope', facultyScope.value);
+  else url.searchParams.delete('scope');
   url.searchParams.delete('department');
   url.searchParams.delete('institute');
-  url.searchParams.delete('q');
+  if (facultyQuery.value.trim()) url.searchParams.set('q', facultyQuery.value.trim());
+  else url.searchParams.delete('q');
   if (facultyDepartment.value) {
     url.searchParams.set(facultySchool.value === ucasSchool ? 'institute' : 'department', facultyDepartment.value);
   }
@@ -239,6 +275,10 @@ function applyFacultyFilters() {
 }
 facultySchool.addEventListener('change', () => {
   setDepartmentOptions();
+  applyFacultyFilters();
+});
+facultyScope.addEventListener('change', () => {
+  setDepartmentOptions(facultyDepartment.value);
   applyFacultyFilters();
 });
 facultyDepartment.addEventListener('change', applyFacultyFilters);
