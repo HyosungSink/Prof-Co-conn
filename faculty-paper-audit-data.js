@@ -10791,7 +10791,9 @@ const facultyPaperAudits = {
       "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf",
       "https://wafer-bob.github.io/",
       "https://people.ucas.ac.cn/~0073747",
-      "https://aclanthology.org/people/zihan-lin/"
+      "https://aclanthology.org/people/zihan-lin/",
+      "https://sais.ucas.ac.cn/index.php/zh/szdw/rhjs",
+      "https://sais.ucas.ac.cn/index.php/zh/xwgs/tgzs/1267-2025"
     ],
     "papers": [
       {
@@ -10879,10 +10881,17 @@ const facultyPaperAudits = {
         "title": "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
         "url": "https://arxiv.org/abs/2609.33589",
         "outcome": "lead",
-        "note": "截止内的 2026-09 原文首页脚注明确首作者 Zihan Lin 在美团做本篇、殷国君署美团，Lin 本人公开 GitHub 说明为国科大学生。仍缺该学生明确由赫然直接或共同指导的证据；NeurIPS 2026 尚未在调查截止时举办。"
+        "note": "2026-09 公开原文注明 Zihan Lin 在美团完成本项研究。作者同一公开账户明确是国科大学生，赫然虽在同院官方导师名册且参与通讯，已查自动化所及前沿交叉学院可见招生记录，仍无指名他指导 Zihan Lin 的公开文字。"
+      },
+      {
+        "year": 2025,
+        "title": "AWPO: Enhancing Tool-Use of Large Language Models through Adaptive Integration of Reasoning Rewards",
+        "url": "https://arxiv.org/abs/2512.19126",
+        "outcome": "lead",
+        "note": "2025-12 首稿、2026-01 修订；署自动化所、美团，Zihan Lin 同时署两单位，殷国君为美团研究员、赫然为共同通讯。原文未注明学生在本项目的美团实研及具名导师，双署名不能补足。"
       }
     ],
-    "note": "先逐篇核对王宏博及 Zihan Lin 的国科大合著公开原文；参与过某企业实习只用于找线索，正式原文及导师关系逐篇独立确认，完整书目仍在梳理。"
+    "note": "先逐篇核对王宏博及 Zihan Lin 的国科大合著公开原文，另核对院所招生材料和作者自述。参与企业实习和共同通讯各自核实，学生具名导师关系仍需独立证据；赫然完整书目还在梳理。"
   },
   "d3g2VJQAAAAJ": {
     "from": "2023-01-01",
@@ -34408,7 +34417,13 @@ const facultyPaperAudits = {
       "https://orcid.org/0000-0002-5798-2282",
       "https://sc26.conference-program.com/presentation/?id=pap127&sess=sess231",
       "https://www.iscaconf.org/isca2026_dev/program/",
-      "https://hongshitan.github.io/"
+      "https://hongshitan.github.io/",
+      "https://api.crossref.org/works/10.1109/TPDS.2025.3626974",
+      "https://api.crossref.org/works/10.1109/TKDE.2026.3667997",
+      "https://api.crossref.org/works/10.1109/TC.2025.3648132",
+      "https://hcahoi.github.io/",
+      "https://www.microarch.org/micro58/program/",
+      "https://github.com/YujianFu97/Vista-Technical-Report"
     ],
     "papers": [
       {
@@ -34449,9 +34464,9 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "HieraNTT: A Memory Hierarchy-Aware Data Access Architecture for Efficient Number Theoretic Transform on GPU",
-        "url": "https://grid.hust.edu.cn/info/1053/3036.htm",
-        "outcome": "lead",
-        "note": "学校实验室确认熊倩为在读博士并具名该论文；公开目录可核陈瑶同署，当前未获取可验证的完整全文和各方作者角色。"
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-4805-6_27",
+        "outcome": "no-evidence",
+        "note": "Springer 正式章真实首次公开为 2026 年 8 月，虽 ORCID 将卷年记为 2027。全部作者署华中科大或华威大学；学校另确认熊倩是博士生。未查到指定企业同篇研究人员。"
       },
       {
         "year": 2026,
@@ -34478,8 +34493,8 @@ const facultyPaperAudits = {
         "year": 2025,
         "title": "HiPACK: Efficient Sub-8-Bit Direct Convolution with SIMD and Bitwise Management",
         "url": "https://doi.org/10.1145/3725843.3756124",
-        "outcome": "lead",
-        "note": "ACM 正式书目和陈瑶本人列表确认同篇，公开可查看的元数据有限。待核实原文单位与致谢，暂未发现符合口径的关系。"
+        "outcome": "no-evidence",
+        "note": "ACM DOI 与 MICRO 官方议程可交叉核对：陈瑶、何丙胜均署新加坡国大，Cheng Gong 署天工大学。全文暂不可公开访问；官方列有全体作者单位，未发现指定企业作者。"
       },
       {
         "year": 2025,
@@ -34499,8 +34514,8 @@ const facultyPaperAudits = {
         "year": 2026,
         "title": "Efficient KV Cache Spillover Management on Memory-Constrained GPU for LLM Inference",
         "url": "https://doi.org/10.1109/TPDS.2025.3626974",
-        "outcome": "lead",
-        "note": "陈瑶的 ORCID 及正式卷期登记核对身份；2025 线上先刊与 2026 正式卷期合并。开放全文及部分作者单位仍需核对。"
+        "outcome": "no-evidence",
+        "note": "IEEE 提交的 11 位作者单位显示有第四范式，但该企业不属于范围；陈瑶署新加坡国大。2025 在线先刊与 2026 卷期合并，仍未访问全文。"
       },
       {
         "year": 2024,
@@ -34508,8 +34523,279 @@ const facultyPaperAudits = {
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06613.pdf",
         "outcome": "lead",
         "note": "ECCV 正式稿：作者分别署南开大学、新加坡国大、电子科技大学及实验室，陈瑶仅署新加坡国大。第 15 页致谢列 CCF–百度开放基金，未见百度同篇作者或学生在百度参与本篇的直接证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Geometric Partition for Billion-Scale Approximate Nearest Neighbor Search",
+        "url": "https://doi.org/10.1109/TKDE.2026.3667997",
+        "outcome": "lead",
+        "note": "IEEE 提供的逐名作者单位显示 Cheng Chen 署字节跳动，陈瑶及其余作者仅署新加坡国立大学。未见范围内的师生关系，也未见学生在字节参与同篇的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "QoS Awareness and Improved Throughput of Point Cloud Services With Dynamic Workloads",
+        "url": "https://doi.org/10.1109/TC.2025.3648132",
+        "outcome": "no-evidence",
+        "note": "IEEE 单位资料及港科大研究门户交叉：上海交大、新加坡国大和香港科大同篇，未见范围企业；陈瑶仅署新加坡国大。2025 先刊和 2026 卷期为一篇。"
+      },
+      {
+        "year": 2025,
+        "title": "Blurred Encoding for Trajectory Representation Learning",
+        "url": "https://arxiv.org/html/2511.13741",
+        "outcome": "no-evidence",
+        "note": "KDD 刊文与同题作者稿核对一致，陈瑶署新加坡国大，企业作者署日本 LocationMind，不在名单。"
+      },
+      {
+        "year": 2025,
+        "title": "Configurable DSP-Based CAM Architecture for Data-Intensive Applications on FPGAs",
+        "url": "https://62dac.conference-program.com/presentation/?id=RESEARCH1599&sess=sess131",
+        "outcome": "no-evidence",
+        "note": "DAC 会议资料及作者正式项目资料一致；只见新加坡国大和中国科大单位，未见名单内企业研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Revisiting the Design of In-Memory Dynamic Graph Storage",
+        "url": "https://gaosen.org/resources/papers/dynamic_graph_storage.pdf",
+        "outcome": "lead",
+        "note": "ACM 正式原文明列张昊、张晨弈署华为云，陈瑶署新加坡国大。上交学生郝驰宇个人履历把此论文归于上交实验室、导师为孙世轩；暂未见学生参与同项华为企业研究的具名证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Vista: Vector Indexing and Search for Large-Scale Imbalanced Datasets",
+        "url": "https://ieeexplore.ieee.org/document/11112943/",
+        "outcome": "lead",
+        "note": "IEEE 正式页面及第一作者同时期公开技术报告可核身份。需进一步核查原文与后续含字节作者的几何分区论文是否有同一实体或学生同项企业研究。"
+      },
+      {
+        "year": 2025,
+        "title": "ScalaGBM: Memory Efficient GBDT Training for High-Dimensional Data on GPU",
+        "url": "https://doi.org/10.1145/3690624.3709271",
+        "outcome": "no-evidence",
+        "note": "ACM 提交的完整作者单位为山大、港科大与广校区、新加坡国大；未见指定企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Scalable and Load-Balanced Full-Graph GNN Training on Multiple GPUs",
+        "url": "https://doi.org/10.1109/TKDE.2025.3558641",
+        "outcome": "no-evidence",
+        "note": "2025 期刊版和 2023 公开稿、2024 SIGMOD HongTu 作者组合及基本系统相同，归为一项；IEEE 作者机构记录全部为新加坡国大。"
+      },
+      {
+        "year": 2024,
+        "title": "Winols: A Large-Tiling Sparse Winograd CNN Accelerator on FPGAs",
+        "url": "https://doi.org/10.1145/3643682",
+        "outcome": "no-evidence",
+        "note": "ACM 具名单位仅所列南开大学和新加坡国大；未见指定企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Aggressive Post-Training Compression on Extremely Large Language Models",
+        "url": "https://arxiv.org/html/2409.20094",
+        "outcome": "no-evidence",
+        "note": "原文所有作者仅署新加坡国大及 Neuron Mobility，后者不在站内企业名单。"
+      },
+      {
+        "year": 2023,
+        "title": "NIOT: A Novel Inference Optimization of Transformers on Modern CPUs",
+        "url": "https://doi.org/10.1109/TPDS.2023.3269530",
+        "outcome": "no-evidence",
+        "note": "IEEE 向 Crossref 提交的作者单位为新加坡国大和 Neuron Mobility，未见名单内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "LightRW: FPGA Accelerated Graph Dynamic Random Walks",
+        "url": "https://soldierchen.github.io/assets/pdf/lightrw.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM 正式排版 PDF 列五位作者均为新加坡国大；Google 奖项和 AMD 设备捐助仅见致谢且不属于范围。"
       }
     ],
-    "note": "第一批逐篇对照本人论文清单、DBLP 和实名 ORCID。早期多篇署新加坡国立大学；统一保留在个人书目，按研究期的实际身份研判。后续待补齐发表清单、索引漏项和受限全文。"
+    "note": "第一批逐篇对照本人论文清单、DBLP 和实名 ORCID。早期多篇署新加坡国立大学；统一保留在个人书目，按研究期的实际身份研判。后续待补齐发表清单、索引漏项和受限全文。 本轮已区分同名作者、不同论文的相近标题和同研究的预印本／会议／期刊版本；未把只在较早稿使用的旧单位泛化到入职华中科大后的研究。"
+  },
+  "REVw3uQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://people.ucas.ac.cn/~wuzl",
+      "https://versys.ios.ac.cn/publications/",
+      "https://dblp.org/pid/71/3710.html",
+      "https://oslab.ios.ac.cn/publications.html",
+      "https://versys.ios.ac.cn/members/shidong-shen/",
+      "https://lcs.ios.ac.cn/2019/07/1915/",
+      "https://yangzy723.github.io/pages/about.html",
+      "https://orcid.org/0000-0003-0899-628X",
+      "https://songfu1983.github.io/publications/publications.html"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "芯片设计形式验证",
+        "url": "https://castjournals.cast.org.cn/joweb/qzkj/CN/1241719222749942559",
+        "outcome": "no-evidence",
+        "note": "期刊正式页面两位作者均为中科院软件所，综述涉及一些国内 EDA 公司及其工具，企业被提及不等于企业参与合著。"
+      },
+      {
+        "year": 2023,
+        "title": "前馈神经网络和循环神经网络的鲁棒性验证综述",
+        "url": "https://www.jos.org.cn/jos/article/abstract/6863",
+        "outcome": "no-evidence",
+        "note": "正式版作者署软件所、国科大、实验室和悉尼科技大学；有硕士生参与，未见范围企业同篇署名。"
+      },
+      {
+        "year": 2023,
+        "title": "COMPSPEN：对形状性质与数据约束进行融合推理的分离逻辑求解器",
+        "url": "https://rjxb.alljournals.cn/jos/article/pdf/6407",
+        "outcome": "lead",
+        "note": "期刊卷期为 2023，但期刊首页注明 2020-08 收稿、2021-08 期刊先发；与国科大导师名单核对，苏婉昀是吴志林 2018 级硕士，华为高冲和百度古新才曾为其学生。未见苏婉昀在华为或百度参与本项研究的证据，不纳入确认。"
+      },
+      {
+        "year": 2023,
+        "title": "String Constraints with Regex-Counting and String-Length Solved More Efficiently",
+        "url": "https://doi.org/10.1007/978-981-99-8664-4_1",
+        "outcome": "no-evidence",
+        "note": "SETTA 正式版作者胡登杭、吴志林均署软件所与国科大；论文的正则计数和字符串长度方法另有 2025 年期刊版本，两版均无范围企业联署。"
+      },
+      {
+        "year": 2024,
+        "title": "完备神经网络验证加速技术综述",
+        "url": "https://www.jos.org.cn/jos/article/abstract/7127",
+        "outcome": "no-evidence",
+        "note": "软件学报原文作者署软件所、国科大、利物浦大学。论文对不同验证加速策略做对照，未见企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Formally Verifying Arithmetic Chisel Designs for All Bit Widths at Once",
+        "url": "https://doi.org/10.1145/3649329.3657311",
+        "outcome": "no-evidence",
+        "note": "ACM 书目作者机构包括中科院软件所和深圳大学；同篇研究基于与具体位宽无关的算术电路验证，未见范围企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Verifying Randomized Consensus Protocols with Common Coins",
+        "url": "https://dsn2024uq.github.io/Proceedings/pdfs/DSN2024-6rvE3SSpzFYmysif75Dkid/410500a403/410500a403.pdf",
+        "outcome": "no-evidence",
+        "note": "DSN 正式论文与同名 arXiv 合并。四名作者及署名来源与软件所、国科大匹配，未见范围内企业同篇作者。"
+      },
+      {
+        "year": 2024,
+        "title": "A decision procedure for string constraints with string/integer conversion and flat regular constraints",
+        "url": "https://doi.org/10.1007/s00236-023-00446-4",
+        "outcome": "no-evidence",
+        "note": "期刊 2023-10 在线、2024 卷期；Springer 作者机构有软件所、国科大、学术机构和高校，未见范围内企业合著。"
+      },
+      {
+        "year": 2024,
+        "title": "Compositional Verification of Cryptographic Circuits Against Fault Injection Attacks",
+        "url": "https://doi.org/10.1007/978-3-031-71177-0_13",
+        "outcome": "no-evidence",
+        "note": "FM 2024 正式卷为 2024-09，软件所、国科大相关机构、南京软件技术研究院及伦敦大学署名；未见范围企业。模块组合验证与同年 SAT 加固验证作为不同论文记录。"
+      },
+      {
+        "year": 2024,
+        "title": "SAT-based Formal Verification of Fault Injection Countermeasures for Cryptographic Circuits",
+        "url": "https://tches.iacr.org/index.php/TCHES/article/view/11782",
+        "outcome": "no-evidence",
+        "note": "IACR 期刊版与 2023 年近名 arXiv 合并。正式论文通过 SAT 分析密码电路抗故障措施，署学术团队，无范围内企业同篇作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Deciding Separation Logic with Pointer Arithmetic and Inductive Definitions",
+        "url": "https://arxiv.org/html/2403.01867v1",
+        "outcome": "no-evidence",
+        "note": "原文苏婉昀、吴志林、Mihaela Sighireanu 研究带归纳定义的指针算术。署名来源为学术机构，无范围企业作者，与 COMPSPEN 是不同工作。"
+      },
+      {
+        "year": 2025,
+        "title": "An efficient string solver for string constraints with regex-counting and string-length",
+        "url": "https://doi.org/10.1016/j.sysarc.2025.103340",
+        "outcome": "no-evidence",
+        "note": "Elsevier 期刊正式版与软件所记录一致，仍是胡登杭、吴志林两人；扩大正则计数、长度约束的实验与实现，未见范围内企业人员或项目参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Formalization of Android Activity-Fragment Multitasking Mechanism and Static Analysis of Mobile Apps",
+        "url": "https://doi.org/10.1145/3708562",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版列何锦龙、吴志林和陈涛略，作者单位为软件所、国科大和伦敦大学伯贝克学院；Android 是被分析的平台。"
+      },
+      {
+        "year": 2025,
+        "title": "Towards Large Language Model-Friendly APIs",
+        "url": "https://doi.org/10.1145/3759441.3759445",
+        "outcome": "no-evidence",
+        "note": "ACM 书目显示软件所、国科大、南京大学、西安交大作者。Zhenyuan Yang 本人公开履历记载华为实习自 2026 年 7 月开始，晚于本篇 2025 年 8 月出版。"
+      },
+      {
+        "year": 2025,
+        "title": "BMCFuzz: Hybrid Verification of Processors by Synergistic Integration of Bound Model Checking and Fuzzing",
+        "url": "https://doi.org/10.1109/ICCAD66269.2025.11240887",
+        "outcome": "no-evidence",
+        "note": "ICCAD 官方节目表列全体作者署中科院软件所、国科大。申世东公开自证其导师为吴志林，但未见他在范围内企业做该研究或同篇企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "OSTRICH2: Solver for Complex String Constraints",
+        "url": "https://repositum.tuwien.at/handle/20.500.12708/219551",
+        "outcome": "no-evidence",
+        "note": "FMCAD 出版方正式版与 2506.14363 合并。来自高校、马普研究所与软件所；正文提 AWS 工具应用案例，AWS 不在范围且没有该公司合著作者。"
+      },
+      {
+        "year": 2026,
+        "title": "χRVFormal: Formal verification of RISC-V processor Chisel designs",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1383762126000792",
+        "outcome": "no-evidence",
+        "note": "期刊作者贡献及引言确认扩展自 SETTA 2024 同研究，新增指令扩展与 BOOM 等实验。合并审阅；申世东是吴志林所指导硕士，两版没有范围企业同篇署名。"
+      },
+      {
+        "year": 2026,
+        "title": "A Formally Verified Procedure for Width Inference in FIRRTL",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-22723-2_12",
+        "outcome": "no-evidence",
+        "note": "ESOP 出版商作者页与 arXiv 2601.12813 对照。作者来自软件所、国科大、南京软件技术研究院和伦敦大学；FIRRTL 工具讨论本身不表明企业参加。"
+      },
+      {
+        "year": 2026,
+        "title": "Can LLM Aid in Solving Constraints with Inductive Definitions?",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-26220-2_6",
+        "outcome": "no-evidence",
+        "note": "FM 正式版与 2603.03668 合并；用模型辅助生成归纳规则，作者署软件所、国科大、南京软件技术研究院和伦敦大学，无范围企业同篇署名。"
+      },
+      {
+        "year": 2026,
+        "title": "带递归定义的SMT公式求解技术综述",
+        "url": "https://rjxb.alljournals.cn/jos/article/pdf/7560",
+        "outcome": "no-evidence",
+        "note": "软件学报原文列冯维直、刘嘉祥、张立军、吴志林，全部为软件所、国科大及相应实验室；不同于同期 FM 实验论文。"
+      },
+      {
+        "year": 2026,
+        "title": "Optimal Circuit Synthesis of Linear Codes for Error Detection and Correction",
+        "url": "https://arxiv.org/html/2604.03608v1",
+        "outcome": "no-evidence",
+        "note": "作者原文署上科大、软件所、国科大、密码学实验室、南京软件技术研究院和伦敦大学，正文讨论基于最优线性码的电路合成；未见范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Decision Procedure for a Theory of String Sequences",
+        "url": "https://link.springer.com/book/10.1007/978-981-95-3585-9",
+        "outcome": "no-evidence",
+        "note": "APLAS 官方议程列 2025-10，章节、作者公开 PDF 与 2509.00948 合并。利用 OSTRICHSEQ 处理字符串序列约束；软件所、国科大、南京软件技术研究院及其他高校作者，未见范围企业同篇署名。"
+      },
+      {
+        "year": 2025,
+        "title": "Separation Logic with Heap Variables: A Decision Procedure and Its Application",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-7826-9_8",
+        "outcome": "no-evidence",
+        "note": "SETTA 2025 会议论文、2026 正式文集。出版商作者机构为软件所、国科大和伦敦大学伯贝克学院。技术焦点是含堆变量的分离逻辑可判定性，未见范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Ranking Function Generation with LLMs for Termination",
+        "url": "https://arxiv.org/html/2610.35523v1",
+        "outcome": "no-evidence",
+        "note": "2026-10 原文中软件所、国科大、南京软件技术研究院及伦敦大学团队基于大模型与符号验证器生成终止性证明。使用 MiniMax 模型做实验，但该公司未署名。"
+      }
+    ],
+    "note": "核对国科大个人页、软件所两个实验室书目、ORCID、DBLP、主要合作者书目与截止日前公开原文；核对中文卷期、正式出版与同工作预印本，并排除南京理工机械工程及医学问答的同名作者。COMPSPEN 缺学生在具体企业做该研究的证据，仅记线索。"
   }
 };
