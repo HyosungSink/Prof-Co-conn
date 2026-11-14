@@ -7962,7 +7962,18 @@ const facultyPaperAudits = {
       "https://lcy2723.github.io/assets/CV.pdf",
       "https://lcy2723.github.io/",
       "https://openreview.net/pdf/6616ae1e45e2386e9704232fec117db7edafda8f.pdf",
-      "https://cse.hkust.edu.hk/pg/defenses/Summer26/cliei-07-08-2026.html"
+      "https://cse.hkust.edu.hk/pg/defenses/Summer26/cliei-07-08-2026.html",
+      "https://aclanthology.org/2025.findings-emnlp.513/",
+      "https://zhaowei-wang-nlp.github.io/assets/pdf/CV-Homepage.pdf",
+      "https://cse.hkust.edu.hk/pg/defenses/F26/zwanggy-02-11-2026.html",
+      "https://xplorestaging.ieee.org/author/37419739100",
+      "https://aclanthology.org/2025.findings-emnlp.513.pdf",
+      "https://arxiv.org/abs/2410.02730",
+      "https://aclanthology.org/2026.findings-emnlp.1366/",
+      "https://zongqing0068.github.io/",
+      "https://aclanthology.org/2026.findings-emnlp.1366.pdf",
+      "https://arxiv.org/pdf/2610.11552",
+      "https://zongqing0068.github.io/EvolvingWorld_page/"
     ],
     "papers": [
       {
@@ -7982,6 +7993,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2510.18560",
         "outcome": "confirmed",
         "note": "ICLR 正式论文将李春阳同时署名港科大和腾讯 AI Lab，首页脚注明确其在腾讯实习期间完成本工作。个人简历与学位答辩资料印证当时学籍及实际课题，宋陽秋同篇署名并为其硕士导师。共同作者 Tianqing Fang 仅署腾讯，由港科大毕业生目录印证其正式任职。"
+      },
+      {
+        "title": "DivScene: Towards Open-Vocabulary Object Navigation with Large Vision Language Models in Diverse Scenes",
+        "url": "https://aclanthology.org/2025.findings-emnlp.513/",
+        "outcome": "confirmed",
+        "note": "第一作者 Zhaowei Wang 的简历明确记录他于港科大博士在读时到腾讯 AI Lab 做具身智能研究，并点名他在当地完成 DivScene 场景建设和导航模型。港科大答辩公告列宋陽秋为导师并列出本研究，宋陽秋和同期腾讯 AI Lab 研究负责人俞栋同篇署名。"
+      },
+      {
+        "title": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1366/",
+        "outcome": "confirmed",
+        "note": "港科大博士生宗晴在个人履历逐项写明，她在腾讯光子技术开发部实习时负责 EvolvingWorld；导师与学生主页均确认宋陽秋的博士指导，宋陽秋在正式论文署共同通讯。同行评审出版原文首页明确将 Yue Guo 标为唯一企业单位作者，并列腾讯邮箱；同一企业身份另有同期论文验证。"
       }
     ]
   },
@@ -8004,5 +8027,171 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已逐篇检查部分书目和学生科研实习，不是全部论文。"
+  },
+  "-QtVtNEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/37611b0fc2b65cdbb60865af5f6cf453-Abstract-Conference.html",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/37611b0fc2b65cdbb60865af5f6cf453-Paper-Conference.pdf",
+      "https://colalab.net/team/",
+      "https://iai.buaa.edu.cn/info/1131/1745.htm",
+      "https://developer.volcengine.com/articles/7389112553802039315",
+      "https://colalab.net/media/paper/Room-Object_Entity_Prompting_and_Reasoning_for_Embodied_Referring_Expression.pdf",
+      "https://arxiv.org/abs/2411.04406"
+    ],
+    "papers": [
+      {
+        "title": "Image Understanding Makes for A Good Tokenizer for Image Generation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/37611b0fc2b65cdbb60865af5f6cf453-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式论文在共同一作 Luting Wang 的北航署名处附字节跳动实习脚注。北航刘偲课题组确认为同一邮箱的博士生，论文中刘偲为学术通讯作者。字节跳动研究人员 Bingyi Kang 署企业邮箱并被该论文指定为项目负责人。"
+      }
+    ]
+  },
+  "b2gLqsgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/061238f13b8e65ce435c4a691ff5d7f1-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/061238f13b8e65ce435c4a691ff5d7f1-Paper-Conference.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/group.html",
+      "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+      "https://cn.linkedin.com/in/biaobin-jiang-46682b26",
+      "https://openreview.net/pdf?id=dGxAYNK6JU",
+      "https://ouyang-song.com/cv/"
+    ],
+    "papers": [
+      {
+        "title": "PoinnCARE: Hyperbolic Multi-Modal Learning for Enzyme Classification",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/061238f13b8e65ce435c4a691ff5d7f1-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "原文首页具名指出第一作者 Kun Xie 是在香港中文大学博士在读、同时在腾讯实习时完成研究。王思博的官方课题组名单印证学籍及实际指导，王思博同篇通讯。腾讯 AI for Life Sciences Lab 的 Biaobin Jiang 同篇通讯，腾讯任职和企业研究角色有独立证据。"
+      }
+    ]
+  },
+  "MTHO7DsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2602.07106",
+      "https://haoyu-ha.github.io/",
+      "https://mypage.cuhk.edu.cn/yutianshu/lab.html",
+      "https://sds.cuhk.edu.cn/en/teacher/448",
+      "https://arxiv.org/html/2508.04141v1",
+      "https://arxiv.org/html/2602.07106v1",
+      "https://github.com/Tencent/Ex-Omni",
+      "https://arxiv.org/abs/2608.10720",
+      "https://arxiv.org/html/2608.10720v1",
+      "https://github.com/LOGO-CUHKSZ/Ex-Omni-2D-Code"
+    ],
+    "papers": [
+      {
+        "title": "Ex-Omni: Enabling 3D Facial Animation Generation for Omni-modal Large Language Models",
+        "url": "https://arxiv.org/abs/2602.07106",
+        "outcome": "confirmed",
+        "note": "原文首页在第一作者 Haoyu Zhang 处用星号标注本研究在腾讯光子实习期间完成；在读、实习时间与学生和校方页面吻合。于天舒的大学站博士生名录确认实际课题组指导，他同篇任通讯。论文列 Zhipeng Li 为腾讯光子单位作者，同一企业邮箱在 2025 年另篇论文可交叉验证。"
+      },
+      {
+        "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
+        "url": "https://arxiv.org/abs/2608.10720",
+        "outcome": "confirmed",
+        "note": "原文首页在第一作者 Haoyu Zhang 处用星号标注本研究在腾讯光子实习期间完成；在读、实习时间与学生和校方页面吻合。于天舒的大学站博士生名录确认实际课题组指导，他同篇任通讯。论文列 Zhipeng Li 为腾讯光子单位作者，同一企业邮箱在 2025 年另篇论文可交叉验证。"
+      }
+    ]
+  },
+  "FjoRmF4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gpcv.whu.edu.cn/index.html",
+      "https://zhang-tao-whu.github.io/",
+      "https://openreview.net/pdf?id=jjvUeB2XlM",
+      "https://lxtgh.github.io/",
+      "https://zhouyiks.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "DVIS: Decoupled Video Instance Segmentation Framework",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_DVIS_Decoupled_Video_Instance_Segmentation_Framework_ICCV_2023_paper.html",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "ICCV 首页列张韬及通讯作者季顺平属武大，实习导师 Xingye Tian 和万鹏飞属快手 Y-Tech。张韬履历具名列两方导师与实习日期，并列这一课题。TPAMI 扩展和两次竞赛报告随主成果追溯。"
+      },
+      {
+        "title": "Sa2VA: Marrying SAM2 with MLLM for Dense Grounded Understanding of Images and Videos",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3720379",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "作者组将并列第一作者张韬同时署于武汉大学与字节 Seed，列李响泰为项目负责人；季顺平为同篇武大教师。张韬主页具名列学位导师和字节实习导师，字节代码组织发布了同一项目。"
+      },
+      {
+        "title": "Pixel-SAIL: Single Transformer For Pixel-Grounded Understanding",
+        "url": "https://arxiv.org/pdf/2504.10465",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "预印本首页把第一作者张韬同时署于武大和字节 Seed，季顺平署武大，李响泰和 Jiashi Feng 署字节。学生履历具名说明此时在字节实习和两位企业导师，企业开源项目独立列出 Pixel-SAIL 方法。"
+      },
+      {
+        "title": "SAMTok: Representing Any Mask with Two Words",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_SAMTok_Representing_Any_Mask_with_Two_Words_CVPR_2026_paper.html",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "CVPR 正文列周义康为共同第一作者、季顺平为通讯作者及李响泰为字节项目负责人。作者项目页把周义康同时列在武大和字节，企业开源仓库发布 SAMTok 项目。周义康的公开教育经历具名列季顺平为博士导师。"
+      },
+      {
+        "title": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3552694",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "沿用同一基础分割项目；与原 ICCV DVIS 合并为一条确认关系，期刊扩展可从原记录查看。"
+      },
+      {
+        "title": "1st Place Solution for the 5th LSVOS Challenge: Video Instance Segmentation",
+        "url": "https://arxiv.org/abs/2308.14392",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "快手和武大联合项目的竞赛报告，作者发布在同一个 DVIS 代码库，与主成果合并确认。"
+      },
+      {
+        "title": "1st Place Solution for PVUW Challenge 2023: Video Panoptic Segmentation",
+        "url": "https://arxiv.org/abs/2306.04091",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "快手和武大联合项目的竞赛报告，作者发布在同一个 DVIS 代码库，与主成果合并确认。"
+      },
+      {
+        "title": "OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/83eb86be3e2f9fd66c44d9073c51ba4d-Abstract-Conference.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "正式版具名张韬在 Skywork AI 实习时完成本篇，虽另有字节署名，未见学生参与字节的同篇证据。"
+      },
+      {
+        "title": "Improving Video Segmentation via Dynamic Anchor Queries",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6733_ECCV_2024_paper.php",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ECCV 原文列张韬此篇在 Skywork AI 实习时完成，企业超出范围。"
+      },
+      {
+        "title": "Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Are_They_the_Same_Exploring_Visual_Correspondence_Shortcomings_of_Multimodal_ICCV_2025_paper.html",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "正式版有字节项目负责人及武大学生，学生只署武大。还需确认首版作者机构和逐篇实习归属。"
+      },
+      {
+        "title": "Beyond Appearance: Geometric Cues for Robust Video Instance Segmentation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025W/LSVOS/papers/Niu_Beyond_Appearance_Geometric_Cues_for_Robust_Video_Instance_Segmentation_ICCVW_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版版本各作者同署武汉大学；无范围内企业研究记录。"
+      }
+    ]
   }
 };

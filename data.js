@@ -27493,6 +27493,454 @@ const survey = {
           "https://www-file.huawei.com/admin/asset/v1/pro/view/dec782afd1544f558c32fc76e3141334.pdf"
         ]
       ]
+    },
+    {
+      "id": "tencent-divscene-hkust-yangqiu-song",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "宋陽秋 · Yangqiu Song",
+        "香港科技大学计算机科学与工程学系副教授，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong"
+      ],
+      "student": [
+        "Zhaowei Wang",
+        "2023 年起港科大博士生、论文第一作者；2024 年 2–8 月在腾讯 AI Lab 实习，其简历明确把 DivScene 列为实习项目。",
+        "https://zhaowei-wang-nlp.github.io/assets/pdf/CV-Homepage.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大院系公开的博士答辩公告列宋陽秋为导师，且在论文摘要列本合作成果 DivScene。",
+        "https://cse.hkust.edu.hk/pg/defenses/F26/zwanggy-02-11-2026.html"
+      ],
+      "employee": [
+        "俞栋 · Dong Yu",
+        "同篇署腾讯 AI Lab；IEEE 作者简介确认他在腾讯 AI Lab 任杰出科学家、副总经理。",
+        "https://xplorestaging.ieee.org/author/37419739100"
+      ],
+      "title": "DivScene: Towards Open-Vocabulary Object Navigation with Large Vision Language Models in Diverse Scenes",
+      "short": "DivScene",
+      "date": "2025-11",
+      "venue": "Findings of EMNLP 2025",
+      "area": "多模态模型 · 具身导航",
+      "paper": "https://aclanthology.org/2025.findings-emnlp.513/",
+      "extra": [
+        [
+          "出版原文 PDF",
+          "https://aclanthology.org/2025.findings-emnlp.513.pdf"
+        ],
+        [
+          "早期公开稿",
+          "https://arxiv.org/abs/2410.02730"
+        ]
+      ],
+      "evidence": "第一作者 Zhaowei Wang 的简历明确记录他于港科大博士在读时到腾讯 AI Lab 做具身智能研究，并点名他在当地完成 DivScene 场景建设和导航模型。港科大答辩公告列宋陽秋为导师并列出本研究，宋陽秋和同期腾讯 AI Lab 研究负责人俞栋同篇署名。"
+    },
+    {
+      "id": "bytedance-vq-kdclip-buaa-si-liu",
+      "company": "字节跳动",
+      "team": "视觉研究",
+      "school": "北京航空航天大学",
+      "studentSchool": "北京航空航天大学",
+      "faculty": [
+        "刘偲 · Si Liu",
+        "北京航空航天大学教授，论文共同通讯作者。",
+        "https://iai.buaa.edu.cn/info/1131/1745.htm"
+      ],
+      "student": [
+        "Luting Wang",
+        "正式论文共同第一作者、北航在读博士；作者脚注明确本研究在字节跳动实习期间完成。",
+        "https://proceedings.neurips.cc/paper_files/paper/2024/file/37611b0fc2b65cdbb60865af5f6cf453-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "博士课题组指导",
+        "刘偲的 Colab 课题组将 Luting Wang 及其与论文相同的北航邮箱列在博士生名单；刘偲任此论文的学术通讯作者。",
+        "https://colalab.net/team/"
+      ],
+      "employee": [
+        "Bingyi Kang",
+        "论文列其为仅署字节跳动的项目负责人、通讯作者，火山引擎同期公司活动简介认定其正式研发岗位。",
+        "https://developer.volcengine.com/articles/7389112553802039315"
+      ],
+      "title": "Image Understanding Makes for A Good Tokenizer for Image Generation",
+      "short": "VQ-KDCLIP",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "计算机视觉 · 图像生成分词器",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/37611b0fc2b65cdbb60865af5f6cf453-Abstract-Conference.html",
+      "extra": [
+        [
+          "北航博士学籍（期刊作者介绍）",
+          "https://colalab.net/media/paper/Room-Object_Entity_Prompting_and_Reasoning_for_Embodied_Referring_Expression.pdf"
+        ],
+        [
+          "同篇 arXiv",
+          "https://arxiv.org/abs/2411.04406"
+        ]
+      ],
+      "evidence": "NeurIPS 正式论文在共同一作 Luting Wang 的北航署名处附字节跳动实习脚注。北航刘偲课题组确认为同一邮箱的博士生，论文中刘偲为学术通讯作者。字节跳动研究人员 Bingyi Kang 署企业邮箱并被该论文指定为项目负责人。"
+    },
+    {
+      "id": "tencent-poinncare-cuhk-sibo-wang",
+      "company": "腾讯",
+      "team": "AI for Life Sciences Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "香港中文大学系统工程与工程管理系副教授，论文共同通讯作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "student": [
+        "Kun Xie",
+        "2025 年 11 月获香港中文大学博士；论文第一作者，脚注明确研究是在博士在读且在腾讯做科研实习时完成的。",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/061238f13b8e65ce435c4a691ff5d7f1-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "王思博大学站课题组明确列 Kun Xie 为其指导的博士毕业生，另有当年同组文章的港中文署名。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "employee": [
+        "Biaobin Jiang",
+        "腾讯 AI for Life Sciences Lab 企业共同通讯作者，使用腾讯邮箱；其职业履历确认腾讯任职，同实验室研究人员还记录其指导企业项目实习。",
+        "https://cn.linkedin.com/in/biaobin-jiang-46682b26"
+      ],
+      "title": "PoinnCARE: Hyperbolic Multi-Modal Learning for Enzyme Classification",
+      "short": "PoinnCARE",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "AI for Science · 酶功能分类",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/061238f13b8e65ce435c4a691ff5d7f1-Abstract-Conference.html",
+      "extra": [
+        [
+          "ICLR OpenReview 正式版本",
+          "https://openreview.net/pdf?id=dGxAYNK6JU"
+        ],
+        [
+          "企业研究人员的正式实习指导记录",
+          "https://ouyang-song.com/cv/"
+        ]
+      ],
+      "evidence": "原文首页具名指出第一作者 Kun Xie 是在香港中文大学博士在读、同时在腾讯实习时完成研究。王思博的官方课题组名单印证学籍及实际指导，王思博同篇通讯。腾讯 AI for Life Sciences Lab 的 Biaobin Jiang 同篇通讯，腾讯任职和企业研究角色有独立证据。"
+    },
+    {
+      "id": "tencent-ex-omni-cuhksz-tianshu-yu",
+      "company": "腾讯",
+      "team": "光子工作室群（LIGHTSPEED）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "于天舒 · Tianshu Yu",
+        "港中大（深圳）数据科学学院助理教授，本论文共同通讯作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/448"
+      ],
+      "student": [
+        "Haoyu Zhang",
+        "2025 年 1 月起列于港中大（深圳）LOGO Lab 博士生名录；2025 年 4 月起在腾讯光子参加青云计划；论文第一作者。",
+        "https://haoyu-ha.github.io/"
+      ],
+      "advising": [
+        "博士课题组指导",
+        "于天舒在大学站开设的 LOGO Lab 现任博士生名册列 Haoyu Zhang 的入组时间，并链接匹配学生本人主页。",
+        "https://mypage.cuhk.edu.cn/yutianshu/lab.html"
+      ],
+      "employee": [
+        "Zhipeng Li",
+        "论文唯一署腾讯光子单位的共同作者；同一腾讯邮箱在 2025 年另一篇论文明确对应腾讯光子任职。",
+        "https://arxiv.org/html/2508.04141v1"
+      ],
+      "title": "Ex-Omni: Enabling 3D Facial Animation Generation for Omni-modal Large Language Models",
+      "short": "Ex-Omni",
+      "date": "2026-02",
+      "venue": "arXiv 预印本",
+      "area": "多模态生成 · 数字人",
+      "paper": "https://arxiv.org/abs/2602.07106",
+      "extra": [
+        [
+          "论文原文具名实习脚注",
+          "https://arxiv.org/html/2602.07106v1"
+        ],
+        [
+          "正式项目仓库",
+          "https://github.com/Tencent/Ex-Omni"
+        ]
+      ],
+      "evidence": "原文首页在第一作者 Haoyu Zhang 处用星号标注本研究在腾讯光子实习期间完成；在读、实习时间与学生和校方页面吻合。于天舒的大学站博士生名录确认实际课题组指导，他同篇任通讯。论文列 Zhipeng Li 为腾讯光子单位作者，同一企业邮箱在 2025 年另篇论文可交叉验证。"
+    },
+    {
+      "id": "tencent-ex-omni-2d-cuhksz-tianshu-yu",
+      "company": "腾讯",
+      "team": "光子工作室群（LIGHTSPEED）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "于天舒 · Tianshu Yu",
+        "港中大（深圳）数据科学学院助理教授，本论文共同通讯作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/448"
+      ],
+      "student": [
+        "Haoyu Zhang",
+        "2025 年 1 月起列于港中大（深圳）LOGO Lab 博士生名录；2025 年 4 月起在腾讯光子参加青云计划；论文第一作者。",
+        "https://haoyu-ha.github.io/"
+      ],
+      "advising": [
+        "博士课题组指导",
+        "于天舒在大学站开设的 LOGO Lab 现任博士生名册列 Haoyu Zhang 的入组时间，并链接匹配学生本人主页。",
+        "https://mypage.cuhk.edu.cn/yutianshu/lab.html"
+      ],
+      "employee": [
+        "Zhipeng Li",
+        "论文唯一署腾讯光子单位的共同作者；同一腾讯邮箱在 2025 年另一篇论文明确对应腾讯光子任职。",
+        "https://arxiv.org/html/2508.04141v1"
+      ],
+      "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
+      "short": "Ex-Omni-2D",
+      "date": "2026-08",
+      "venue": "arXiv 预印本",
+      "area": "多模态生成 · 数字人",
+      "paper": "https://arxiv.org/abs/2608.10720",
+      "extra": [
+        [
+          "论文原文具名实习脚注",
+          "https://arxiv.org/html/2608.10720v1"
+        ],
+        [
+          "正式项目仓库",
+          "https://github.com/LOGO-CUHKSZ/Ex-Omni-2D-Code"
+        ]
+      ],
+      "evidence": "原文首页在第一作者 Haoyu Zhang 处用星号标注本研究在腾讯光子实习期间完成；在读、实习时间与学生和校方页面吻合。于天舒的大学站博士生名录确认实际课题组指导，他同篇任通讯。论文列 Zhipeng Li 为腾讯光子单位作者，同一企业邮箱在 2025 年另篇论文可交叉验证。"
+    },
+    {
+      "id": "tencent-evolvingworld-hkust-yangqiu-song",
+      "company": "腾讯",
+      "team": "光子工作室群（LIGHTSPEED）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "宋陽秋 · Yangqiu Song",
+        "香港科技大学计算机科学与工程学系副教授，论文共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong"
+      ],
+      "student": [
+        "宗晴 · Qing Zong",
+        "2024 年入学港科大博士，2026 年 1 月起在腾讯光子技术开发部实习；本人主页逐名列出 EvolvingWorld 为其负责的企业项目。",
+        "https://zongqing0068.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页列宋陽秋为博士导师，导师官网也在 2024 年秋的博士生名册中列宗晴。",
+        "https://home.cse.ust.hk/~yqsong/"
+      ],
+      "employee": [
+        "Yue Guo",
+        "EMNLP 出版正文首页唯一署腾讯光子的共同作者，使用腾讯企业邮箱；同一期合作的另一论文亦署其光子单位。",
+        "https://aclanthology.org/2026.findings-emnlp.1366.pdf"
+      ],
+      "title": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World",
+      "short": "EvolvingWorld",
+      "date": "2026-10",
+      "venue": "Findings of EMNLP 2026",
+      "area": "多智能体 · 角色和世界生成",
+      "paper": "https://aclanthology.org/2026.findings-emnlp.1366/",
+      "extra": [
+        [
+          "同期论文作者页",
+          "https://arxiv.org/pdf/2610.11552"
+        ],
+        [
+          "作者项目页",
+          "https://zongqing0068.github.io/EvolvingWorld_page/"
+        ]
+      ],
+      "evidence": "港科大博士生宗晴在个人履历逐项写明，她在腾讯光子技术开发部实习时负责 EvolvingWorld；导师与学生主页均确认宋陽秋的博士指导，宋陽秋在正式论文署共同通讯。同行评审出版原文首页明确将 Yue Guo 标为唯一企业单位作者，并列腾讯邮箱；同一企业身份另有同期论文验证。"
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "视频分割与多模态视觉",
+      "faculty": [
+        "季顺平 · Shunping Ji",
+        "武汉大学教授；同篇作者。",
+        "https://gpcv.whu.edu.cn/index.html"
+      ],
+      "advising": [
+        "学位导师",
+        "张韬个人主页明确列季顺平为武汉大学硕士及博士导师。",
+        "https://zhang-tao-whu.github.io/"
+      ],
+      "id": "kuaishou-dvis-whu-shunping-ji",
+      "company": "快手",
+      "team": "快手 Y-Tech",
+      "title": "DVIS: Decoupled Video Instance Segmentation Framework",
+      "short": "DVIS",
+      "date": "2023-10",
+      "venue": "ICCV",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_DVIS_Decoupled_Video_Instance_Segmentation_Framework_ICCV_2023_paper.html",
+      "arxiv": "2306.03413",
+      "student": [
+        "张韬 · Tao Zhang",
+        "该论文 2023 年 6 月首发时在武汉大学攻读硕士；2022 年 1 月至 2024 年 2 月在快手 Y-Tech 实习，实习导师 Xingye Tian 为本篇共同作者。",
+        "https://zhang-tao-whu.github.io/"
+      ],
+      "employee": [
+        "万鹏飞 · Pengfei Wan",
+        "正式原文列其为快手 Y-Tech 员工作者；公开的期刊作者介绍列其为快手视觉生成与互动中心负责人。",
+        "https://openreview.net/pdf?id=jjvUeB2XlM"
+      ],
+      "evidence": "ICCV 首页列张韬及通讯作者季顺平属武大，实习导师 Xingye Tian 和万鹏飞属快手 Y-Tech。张韬履历具名列两方导师与实习日期，并列这一课题。TPAMI 扩展和两次竞赛报告随主成果追溯。",
+      "extra": [
+        [
+          "正式版首页",
+          "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_DVIS_Decoupled_Video_Instance_Segmentation_Framework_ICCV_2023_paper.pdf"
+        ],
+        [
+          "后续期刊扩展",
+          "https://doi.org/10.1109/TPAMI.2025.3552694"
+        ],
+        [
+          "同一项目的论文和竞赛报告",
+          "https://github.com/zhang-tao-whu/DVIS"
+        ]
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "视频分割与多模态视觉",
+      "faculty": [
+        "季顺平 · Shunping Ji",
+        "武汉大学教授；同篇作者。",
+        "https://gpcv.whu.edu.cn/index.html"
+      ],
+      "advising": [
+        "学位导师",
+        "张韬个人主页明确列季顺平为武汉大学硕士及博士导师。",
+        "https://zhang-tao-whu.github.io/"
+      ],
+      "company": "字节跳动",
+      "team": "字节跳动 Seed",
+      "student": [
+        "张韬 · Tao Zhang",
+        "武汉大学在读博士，自 2024 年 9 月在字节跳动 Seed 实习，指导人为 Xiangtai Li 和 Jiashi Feng。",
+        "https://zhang-tao-whu.github.io/"
+      ],
+      "employee": [
+        "李响泰 · Xiangtai Li",
+        "字节跳动资深研究科学家，学生本人列其为企业实习导师。",
+        "https://lxtgh.github.io/"
+      ],
+      "id": "bytedance-sa2va-whu-shunping-ji",
+      "title": "Sa2VA: Marrying SAM2 with MLLM for Dense Grounded Understanding of Images and Videos",
+      "short": "Sa2VA",
+      "date": "2026-08",
+      "venue": "IEEE TPAMI",
+      "paper": "https://doi.org/10.1109/TPAMI.2026.3720379",
+      "arxiv": "2501.04001",
+      "evidence": "作者组将并列第一作者张韬同时署于武汉大学与字节 Seed，列李响泰为项目负责人；季顺平为同篇武大教师。张韬主页具名列学位导师和字节实习导师，字节代码组织发布了同一项目。",
+      "extra": [
+        [
+          "开源论文及作者署名",
+          "https://arxiv.org/html/2501.04001v1"
+        ],
+        [
+          "企业开源项目",
+          "https://github.com/bytedance/Sa2VA"
+        ],
+        [
+          "项目作者及机构",
+          "https://lxtgh.github.io/project/sa2va/"
+        ]
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "视频分割与多模态视觉",
+      "faculty": [
+        "季顺平 · Shunping Ji",
+        "武汉大学教授；同篇作者。",
+        "https://gpcv.whu.edu.cn/index.html"
+      ],
+      "advising": [
+        "学位导师",
+        "张韬个人主页明确列季顺平为武汉大学硕士及博士导师。",
+        "https://zhang-tao-whu.github.io/"
+      ],
+      "company": "字节跳动",
+      "team": "字节跳动 Seed",
+      "student": [
+        "张韬 · Tao Zhang",
+        "武汉大学在读博士，自 2024 年 9 月在字节跳动 Seed 实习，指导人为 Xiangtai Li 和 Jiashi Feng。",
+        "https://zhang-tao-whu.github.io/"
+      ],
+      "employee": [
+        "李响泰 · Xiangtai Li",
+        "字节跳动资深研究科学家，学生本人列其为企业实习导师。",
+        "https://lxtgh.github.io/"
+      ],
+      "id": "bytedance-pixelsail-whu-shunping-ji",
+      "title": "Pixel-SAIL: Single Transformer For Pixel-Grounded Understanding",
+      "short": "Pixel-SAIL",
+      "date": "2025-04",
+      "venue": "arXiv",
+      "paper": "https://arxiv.org/pdf/2504.10465",
+      "arxiv": "2504.10465",
+      "evidence": "预印本首页把第一作者张韬同时署于武大和字节 Seed，季顺平署武大，李响泰和 Jiashi Feng 署字节。学生履历具名说明此时在字节实习和两位企业导师，企业开源项目独立列出 Pixel-SAIL 方法。",
+      "extra": [
+        [
+          "字节项目目录",
+          "https://github.com/bytedance/Sa2VA"
+        ]
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "area": "视频分割与多模态视觉",
+      "faculty": [
+        "季顺平 · Shunping Ji",
+        "武汉大学教授；同篇作者。",
+        "https://gpcv.whu.edu.cn/index.html"
+      ],
+      "advising": [
+        "博士导师",
+        "周义康本人主页明确写明博士阶段在武汉大学由季顺平指导。",
+        "https://zhouyiks.github.io/"
+      ],
+      "company": "字节跳动",
+      "team": "字节跳动 Seed",
+      "student": [
+        "周义康 · Yikang Zhou",
+        "武汉大学在读博士；同篇项目页把他同时列在武大和字节，CVPR 正式版列其共同第一作者。",
+        "https://zhouyiks.github.io/"
+      ],
+      "employee": [
+        "李响泰 · Xiangtai Li",
+        "字节跳动资深研究科学家，学生本人列其为企业实习导师。",
+        "https://lxtgh.github.io/"
+      ],
+      "id": "bytedance-samtok-whu-shunping-ji",
+      "title": "SAMTok: Representing Any Mask with Two Words",
+      "short": "SAMTok",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_SAMTok_Representing_Any_Mask_with_Two_Words_CVPR_2026_paper.html",
+      "arxiv": "2601.16093",
+      "evidence": "CVPR 正文列周义康为共同第一作者、季顺平为通讯作者及李响泰为字节项目负责人。作者项目页把周义康同时列在武大和字节，企业开源仓库发布 SAMTok 项目。周义康的公开教育经历具名列季顺平为博士导师。",
+      "extra": [
+        [
+          "作者具体机构与同篇项目贡献",
+          "https://zhouyiks.github.io/projects/SAMTok/"
+        ],
+        [
+          "企业开源项目",
+          "https://github.com/bytedance/Sa2VA/tree/main/projects/samtok"
+        ]
+      ]
     }
   ]
 };
