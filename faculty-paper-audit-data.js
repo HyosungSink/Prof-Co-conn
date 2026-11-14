@@ -7,7 +7,8 @@ const facultyPaperAudits = {
     "sources": [
       "https://zxwu.azurewebsites.net/",
       "https://fvl.fudan.edu.cn/publications.html",
-      "https://gulucaptain.github.io/"
+      "https://gulucaptain.github.io/",
+      "https://wdrink.github.io/"
     ],
     "papers": [
       {
@@ -81,6 +82,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2503.15831",
         "outcome": "existing",
         "note": "已有同一论文关系，以第一作者张子豪纳入。"
+      },
+      {
+        "title": "SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL",
+        "url": "https://arxiv.org/pdf/2504.11455",
+        "outcome": "confirmed",
+        "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -94,7 +101,8 @@ const facultyPaperAudits = {
       "https://fvl.fudan.edu.cn/publications.html",
       "https://gulucaptain.github.io/",
       "https://zxwu.azurewebsites.net/",
-      "https://sxjyjay.github.io/"
+      "https://sxjyjay.github.io/",
+      "https://wdrink.github.io/"
     ],
     "papers": [
       {
@@ -168,6 +176,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2504.04423",
         "outcome": "confirmed",
         "note": "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。"
+      },
+      {
+        "title": "SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL",
+        "url": "https://arxiv.org/pdf/2504.11455",
+        "outcome": "confirmed",
+        "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -2503,7 +2517,16 @@ const facultyPaperAudits = {
       "https://jackailab.github.io/Projects/UnityVideo/",
       "https://arxiv.org/pdf/2606.21661",
       "https://arxiv.org/abs/2606.21661",
-      "https://jackailab.github.io/Projects/UnityShots/"
+      "https://jackailab.github.io/Projects/UnityShots/",
+      "https://arxiv.org/abs/2506.21343",
+      "https://julietljy.github.io/Jingyao_Li.pdf",
+      "https://julietljy.github.io/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/jia",
+      "https://jiangyong.site/",
+      "https://arxiv.org/html/2506.21343",
+      "https://tongyi-agent.github.io/publication/",
+      "https://arxiv.org/abs/2410.10248",
+      "https://aclanthology.org/2025.coling-main.34/"
     ],
     "papers": [
       {
@@ -2517,6 +2540,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2606.21661",
         "outcome": "confirmed",
         "note": "论文首页在第一作者黄杰辉姓名旁标 †，对应脚注明确该工作于其在快手可灵团队实习期间完成。其个人主页证实港科大博士学籍和贾佳亚的指导关系。两位具名同篇作者贾佳亚和快手员工 Xin Tao 分别承担高校指导和企业研究角色。"
+      },
+      {
+        "title": "DynamicBench: Evaluating Real-Time Report Generation in Large Language Models",
+        "url": "https://arxiv.org/abs/2506.21343",
+        "outcome": "confirmed",
+        "note": "第一作者李靖瑶在其履历的阿里通义实习栏目明确列出 DynamicBench 为在职研究成果；其港中文博士指导教师贾佳亚按校方公告于 2024 年转任港科大，原文列港科大署名。阿里通义研究人员蒋勇为该篇共同作者，企业亦把论文列入其成果清单。"
+      },
+      {
+        "title": "QuickLLaMA: Query-aware Inference Acceleration for Large Language Models",
+        "url": "https://aclanthology.org/2025.coling-main.34/",
+        "outcome": "existing",
+        "note": "同一作者在另一段华为实习准确列出 QuickLLaMA，并已在基线以港中文同期指导记录收录。此处仅补逐篇台账。"
       }
     ]
   },

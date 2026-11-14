@@ -32908,7 +32908,7 @@ const survey = {
       "date": "2026-08-31",
       "venue": "arXiv 预印本",
       "area": "计算机视觉与多媒体",
-      "paper": "https://arxiv.org/html/2609.00111v1#S8",
+      "paper": "https://arxiv.org/html/2609.00111v1#Sx1",
       "evidence": "企业项目报告点名第一作者 Xin Zhou 为核心贡献者，明确列了通义千问与华中科技大学的双重归属；其校内导师梁定康公开名录明确证实通义实习。企业正式负责人白帅在同篇署名。",
       "advising": [
         "校内共同指导",
@@ -32957,7 +32957,7 @@ const survey = {
       "date": "2026-08-31",
       "venue": "arXiv 预印本",
       "area": "计算机视觉与多媒体",
-      "paper": "https://arxiv.org/html/2609.00111v1#S8",
+      "paper": "https://arxiv.org/html/2609.00111v1#Sx1",
       "evidence": "企业项目报告点名第一作者 Xin Zhou 为核心贡献者，明确列了通义千问与华中科技大学的双重归属；其校内导师梁定康公开名录明确证实通义实习。企业正式负责人白帅在同篇署名。",
       "advising": [
         "校内共同指导",
@@ -34143,6 +34143,164 @@ const survey = {
         ]
       ],
       "paperId": "acl:2026.acl-long.1675"
+    },
+    {
+      "id": "simplear-bytedance-fudan-f3_fp8aaaaaj",
+      "paperId": "arxiv:2504.11455",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://teai.fudan.edu.cn/faculty-detail.html?id=110"
+      ],
+      "employee": [
+        "Weilin Huang",
+        "其本人工作履历列字节跳动 Seed；字节官方发布的 SeedEdit 技术报告具名同一位研究者，SimpleAR 同篇由字节 Seed 署名。",
+        "https://cn.linkedin.com/in/weilin-huang-7a398649"
+      ],
+      "student": [
+        "王君可 · Junke Wang",
+        "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。",
+        "https://wdrink.github.io/"
+      ],
+      "title": "SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL",
+      "short": "SimpleAR",
+      "date": "2025-04",
+      "venue": "arXiv 预印本",
+      "area": "多模态视觉生成",
+      "paper": "https://arxiv.org/pdf/2504.11455",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2504.11455"
+        ],
+        [
+          "原文列校企作者",
+          "https://arxiv.org/html/2504.11455"
+        ],
+        [
+          "学生履历对应项目源码",
+          "https://github.com/wdrink/SimpleAR"
+        ],
+        [
+          "独立企业人员的同期字节团队资料",
+          "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/SeedEdit.pdf"
+        ],
+        [
+          "复旦官方博士生科研项目介绍",
+          "https://cs.fudan.edu.cn/a5/36/c24867a763190/page.htm"
+        ]
+      ],
+      "evidence": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "王君可本人学术履历明确具名吴祖煊与姜育刚为其复旦博士导师，两人同篇署名。",
+        "https://wdrink.github.io/"
+      ]
+    },
+    {
+      "id": "simplear-bytedance-fudan-7t12hvkaaaaj",
+      "paperId": "arxiv:2504.11455",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "吴祖煊 · Zuxuan Wu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://zxwu.azurewebsites.net/"
+      ],
+      "employee": [
+        "Weilin Huang",
+        "其本人工作履历列字节跳动 Seed；字节官方发布的 SeedEdit 技术报告具名同一位研究者，SimpleAR 同篇由字节 Seed 署名。",
+        "https://cn.linkedin.com/in/weilin-huang-7a398649"
+      ],
+      "student": [
+        "王君可 · Junke Wang",
+        "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。",
+        "https://wdrink.github.io/"
+      ],
+      "title": "SimpleAR: Pushing the Frontier of Autoregressive Visual Generation through Pretraining, SFT, and RL",
+      "short": "SimpleAR",
+      "date": "2025-04",
+      "venue": "arXiv 预印本",
+      "area": "多模态视觉生成",
+      "paper": "https://arxiv.org/pdf/2504.11455",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2504.11455"
+        ],
+        [
+          "原文列校企作者",
+          "https://arxiv.org/html/2504.11455"
+        ],
+        [
+          "学生履历对应项目源码",
+          "https://github.com/wdrink/SimpleAR"
+        ],
+        [
+          "独立企业人员的同期字节团队资料",
+          "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/SeedEdit.pdf"
+        ],
+        [
+          "复旦官方博士生科研项目介绍",
+          "https://cs.fudan.edu.cn/a5/36/c24867a763190/page.htm"
+        ]
+      ],
+      "evidence": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "王君可本人学术履历明确具名吴祖煊与姜育刚为其复旦博士导师，两人同篇署名。",
+        "https://wdrink.github.io/"
+      ]
+    },
+    {
+      "id": "alibaba-dynamicbench-hkust-jiaya-jia",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "贾佳亚 · Jiaya Jia",
+        "香港科技大学讲座教授。2024 年由香港中文大学转任港科大；本篇正式列其港科大署名。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/jia"
+      ],
+      "student": [
+        "李靖瑶 · Jingyao Li",
+        "香港中文大学在读博士（2022 年 8 月至 2026 年 10 月）。2024 年 12 月至 2025 年 7 月在阿里通义实习，履历在该段实习逐名列出第一作者成果 DynamicBench。",
+        "https://julietljy.github.io/Jingyao_Li.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "李靖瑶本人主页具名记载由贾佳亚指导其港中文博士研究。",
+        "https://julietljy.github.io/"
+      ],
+      "employee": [
+        "蒋勇 · Yong Jiang",
+        "同篇以阿里巴巴署名，个人学术履历记载其阿里通义实验室高级算法专家与深度研究团队负责人职务。",
+        "https://jiangyong.site/"
+      ],
+      "title": "DynamicBench: Evaluating Real-Time Report Generation in Large Language Models",
+      "short": "DynamicBench",
+      "date": "2025-06",
+      "venue": "arXiv 预印本",
+      "area": "语言模型 · 报告生成评估",
+      "paper": "https://arxiv.org/abs/2506.21343",
+      "extra": [
+        [
+          "论文署名依据",
+          "https://arxiv.org/html/2506.21343"
+        ],
+        [
+          "阿里通义项目清单",
+          "https://tongyi-agent.github.io/publication/"
+        ]
+      ],
+      "evidence": "第一作者李靖瑶在其履历的阿里通义实习栏目明确列出 DynamicBench 为在职研究成果；其港中文博士指导教师贾佳亚按校方公告于 2024 年转任港科大，原文列港科大署名。阿里通义研究人员蒋勇为该篇共同作者，企业亦把论文列入其成果清单。"
     }
   ]
 };
