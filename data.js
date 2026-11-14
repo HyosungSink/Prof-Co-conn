@@ -35492,6 +35492,104 @@ const survey = {
         ]
       ],
       "evidence": "SkillPE 首页为唯一带实习注记的一作 Yanwei Huang 标港科大及 KlingAI；脚注明示关联到本篇研究。导师本人正式履历注明从 2025 秋学期指导其博士，并在论文署港科大。快手可灵经理张远行在同篇作者页具名且独立确认企业岗位。"
+    },
+    {
+      "id": "kuaishou-native4dvae-cuhk-tianfan-xue",
+      "paperId": "url:https://proceedings.mlr.press/v306/ding26u.html",
+      "company": "快手",
+      "team": "可灵（Kling GenAI）",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "薛天帆 · Tianfan Xue",
+        "香港中文大学信息工程学系助理教授；以港中文单位同篇署名并担任通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/tfxue.shtml"
+      ],
+      "employee": [
+        "叶伟才 · Weicai Ye",
+        "本人履历注明 2024 年 10 月起在快手可灵任高级研究员，明确列出本成果；本篇署快手且为通讯作者。",
+        "https://ywcmaike.github.io/"
+      ],
+      "student": [
+        "丁立鹤 · Lihe Ding",
+        "ICML 原文第一作者同时署香港中文大学和快手；其履历明确记载 2025 年 5 月至 2026 年 4 月在快手 Kling GenAI 研究原生 4D 世界模型和表征，并列出与此研究对应的本论文。",
+        "https://dinglihe.github.io/data/CV_lihe_26.pdf"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "丁立鹤的履历注明 2023 年起在香港中文大学 MMLab 攻读博士，导师为薛天帆；双方同篇署名。",
+        "https://dinglihe.github.io/data/CV_lihe_26.pdf"
+      ],
+      "title": "Native Spatio-Temporal 4D Variational Autoencoder",
+      "short": "Native 4D VAE",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "四维表征与世界模型",
+      "paper": "https://proceedings.mlr.press/v306/ding26u.html",
+      "extra": [
+        [
+          "正式论文 PDF",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ding26u/ding26u.pdf"
+        ],
+        [
+          "研究项目与作者署名",
+          "https://native4d.github.io/"
+        ]
+      ],
+      "evidence": "ICML 正式论文及作者项目各自确认港中文博士生丁立鹤的首位署名和快手双署名。其亲自发布的履历给出快手实习年月、研究方向和对应论文，并具名记录同篇通讯作者薛天帆为博士导师。企业通讯作者叶伟才本人资料给出同期快手可灵的正式高级研究员职位并列该论文。"
+    },
+    {
+      "id": "bytedance-rdvfi-cuhk-jinwei-gu",
+      "paperId": "openreview:OiWyf1BNtC",
+      "company": "字节跳动",
+      "team": "多媒体实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "顾金伟 · Jinwei Gu",
+        "香港中文大学计算机科学与工程学系兼任副教授；以港中文单位同篇署名。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/jinwei-gu/"
+      ],
+      "employee": [
+        "赵世杰 · Shijie Zhao",
+        "字节跳动多媒体研究经理；本人任职档案及字节公开竞赛报告记录其全职研发身份；本篇署字节跳动并担任通讯作者。",
+        "https://cn.linkedin.com/in/shijie-zhao-bb017a110"
+      ],
+      "student": [
+        "马咏芮 · Yongrui Ma",
+        "香港中文大学博士生、双署名的第一作者；ICLR 正式论文致谢单独点名本篇工作完成于他在字节跳动的实习期间。",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/1a1f7aeb1f9bd9052cfd11181430b806-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "马咏芮个人主页明确写明由顾金伟指导；2024 年 SIGGRAPH Asia 的作者介绍也确认同一指导关系。",
+        "https://sites.google.com/view/yongrayma"
+      ],
+      "title": "Realtime Video Frame Interpolation using One-Step Diffusion Sampling",
+      "short": "RDVFI",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "视频生成与插帧",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1a1f7aeb1f9bd9052cfd11181430b806-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式论文与实习致谢",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/1a1f7aeb1f9bd9052cfd11181430b806-Paper-Conference.pdf"
+        ],
+        [
+          "更早的导师说明",
+          "https://asia.siggraph.org/2024/presenter/?uid=168683"
+        ],
+        [
+          "字节团队与任职记录",
+          "https://data.vision.ee.ethz.ch/cvl/aim22/AIM2022awards_certificates.pdf"
+        ],
+        [
+          "论文项目",
+          "https://mayongrui.github.io/RDVFI/"
+        ]
+      ],
+      "evidence": "ICLR 定稿首位作者马咏芮双署港中文及字节，致谢明确点名他在字节实习期间完成本篇。他的个人主页与 2024 年正式会议作者介绍均说明同期博士导师为顾金伟；顾同篇署港中文。赵世杰同篇署字节并担任通讯作者，独立任职材料可定位其正式团队身份。"
     }
   ]
 };
