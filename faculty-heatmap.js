@@ -211,7 +211,8 @@ function renderFacultyUnits() {
     if (school) params.set('school', school.name);
     if (unit) params.set(school.name === instituteSchool ? 'institute' : 'department', unit.name);
     if (inspected) params.set('q', inspected.name);
-    link.href = params.size ? `faculty.html?${params}#faculty-rosters` : 'faculty.html';
+    const page = facultyDirectoryPages[unit ? facultyDirectoryForUnit(school.name, unit.name) : 'core'];
+    link.href = params.size ? `${page}?${params}#faculty-rosters` : page;
     link.textContent = inspected ? '查看该教师 ↗' : unit ? '查看该单位名录 ↗' : '查看名录 ↗';
     readout.textContent = inspected
       ? `${inspected.name} · ${school.name} · ${unit.name} · 已核实 ${inspected.score}/3 项`

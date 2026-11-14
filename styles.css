@@ -207,7 +207,11 @@ dialog::backdrop { background: #211b3277; }
   .role-list > div { grid-template-columns: 1fr; }
 }
 
-.faculty-filters { grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr)); }
+.faculty-directory-nav { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-bottom: 18px; }
+.faculty-directory-nav a { padding: 7px 11px; border: 1px solid var(--rule); border-radius: 6px; background: var(--white); color: var(--brand-dark); font-size: 13px; text-decoration: none; }
+.faculty-directory-nav a:hover { text-decoration: underline; }
+.faculty-directory-nav a[aria-current="page"] { background: var(--lavender); font-weight: 650; }
+.faculty-filters { grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(0, 1fr)); }
 .faculty-filters select:disabled { opacity: 1; background: var(--page); color: var(--muted); cursor: default; }
 .faculty-distribution { --dot-purple: #7756bc; --dot-gold: #b3812b; margin-top: 16px; }
 .faculty-distribution .plot-head h2 { font-size: 16px; }
@@ -238,23 +242,14 @@ dialog::backdrop { background: #211b3277; }
 .faculty-school-count { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .faculty-school-group { border-radius: 5px; padding: 3px 8px; color: var(--brand-dark); background: var(--lavender); font-size: 11px; }
 .faculty-school-body { border-top: 1px solid var(--rule); padding-inline: 19px; }
-.faculty-unit-index { display: grid; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
-.faculty-unit-index-row { display: grid; grid-template-columns: 12em minmax(0, 1fr); align-items: start; gap: 4px 10px; }
-.faculty-unit-index-row > span { padding: 4px 0; color: var(--muted); font-size: 12px; font-weight: 650; }
+.faculty-unit-index { padding: 12px 0; border-bottom: 1px solid var(--rule); }
 .faculty-unit-index ul { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 0; padding: 0; list-style: none; }
 .faculty-unit-index a { display: block; padding: 4px 8px; border-radius: 5px; color: var(--brand-dark); background: var(--lavender); font-size: 12px; text-decoration: none; }
 .faculty-unit-index a:hover { text-decoration: underline; }
-.faculty-category { padding: 16px 0 0; }
-.faculty-category + .faculty-category { border-top: 1px solid var(--rule); }
-.faculty-category-title { margin: 0; padding: 8px 11px; border-radius: 6px; color: var(--brand-dark); background: var(--lavender); font-size: 15px; }
-.faculty-category[data-scope="related"] .faculty-category-title,
-.faculty-unit-index-row[data-scope="related"] a,
-.faculty-category[data-scope="unclassified"] .faculty-category-title,
-.faculty-unit-index-row[data-scope="unclassified"] a { color: var(--ink); background: var(--page); }
 .faculty-unit { padding: 16px 0; scroll-margin-top: 16px; }
 .faculty-unit + .faculty-unit { border-top: 1px solid var(--rule); }
 .faculty-unit-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 7px 16px; }
-.faculty-unit-head h3 { font-size: 15px; margin-bottom: 3px; }
+.faculty-unit-head h2 { font-size: 15px; margin-bottom: 3px; }
 .faculty-unit-head a { font-size: 12px; flex: none; }
 .faculty-sources { margin-top: 6px; color: var(--muted); font-size: 12px; }
 .faculty-sources summary { width: fit-content; color: var(--brand-dark); cursor: pointer; }
@@ -275,18 +270,15 @@ dialog::backdrop { background: #211b3277; }
 .faculty-paper div small { display: block; margin-top: 2px; }
 .faculty-people a:focus-visible { outline-offset: 0; }
 @media (max-width: 800px) {
-  .faculty-filters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .faculty-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .faculty-filters .search { grid-column: 1 / -1; }
   .faculty-plot-key { text-align: left; }
 }
 @media (max-width: 560px) {
   .topbar-inner nav { justify-content: flex-end; }
-  .faculty-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .faculty-filters label:last-child { grid-column: 1 / -1; }
   .faculty-plot { grid-template-columns: minmax(0, 1fr); }
   .faculty-school-head { gap: 9px; padding-inline: 12px; }
   .faculty-school-body { padding-inline: 12px; }
-  .faculty-unit-index-row { grid-template-columns: minmax(0, 1fr); }
   .faculty-people { grid-template-columns: 1fr 1fr; }
 }
 

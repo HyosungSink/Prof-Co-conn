@@ -1,6 +1,6 @@
 // Groups apply to the merged directory, not individual appointments.
 // Each school lists its core computing units, followed by related interdisciplinary units.
-// UCAS uses stable institute slugs; its unresolved affiliations remain a separate roster.
+// Use display names so the homepage and directory route to the same page.
 const facultyUnitGroups = {
   '清华大学': [
     ['计算机科学与技术系', '人工智能学院', '交叉信息研究院', '软件学院', '网络科学与网络空间研究院', '智能产业研究院'],
@@ -75,8 +75,33 @@ const facultyUnitGroups = {
     ['智能工程与自动化学院'],
   ],
   '中国科学院大学': [
-    ['ict', 'iscas', 'iie', 'cnic', 'casia', 'casit', 'sict', 'iaii', 'campus'],
-    ['sia', 'siat', 'nssc', 'cigit', 'fjirsm', 'xjipc', 'ioe', 'csu', 'microsate', 'amss', 'iue', 'sari', 'iet', 'casisd'],
+    [
+      '中国科学院计算技术研究所',
+      '中国科学院软件研究所',
+      '中国科学院信息工程研究所',
+      '中国科学院计算机网络信息中心',
+      '中国科学院自动化研究所',
+      '中国科学院成都计算机应用研究所',
+      '中国科学院沈阳计算技术研究所有限公司',
+      '中国科学院工业人工智能研究所',
+      '国科大校部',
+    ],
+    [
+      '中国科学院沈阳自动化研究所',
+      '中国科学院深圳先进技术研究院',
+      '中国科学院国家空间科学中心',
+      '中国科学院重庆绿色智能技术研究院',
+      '中国科学院福建物质结构研究所',
+      '中国科学院新疆理化技术研究所',
+      '中国科学院光电技术研究所',
+      '中国科学院空间应用工程与技术中心',
+      '中国科学院微小卫星创新研究院',
+      '中国科学院数学与系统科学研究院',
+      '中国科学院城市环境研究所',
+      '中国科学院上海高等研究院',
+      '中国科学院工程热物理研究所',
+      '中国科学院科技战略咨询研究院',
+    ],
   ],
   '中国人民大学': [
     ['信息学院', '高瓴人工智能学院', '苏州人工智能学院'],
@@ -108,16 +133,15 @@ const facultyUnitGroups = {
   ],
 };
 
-const facultyGroupLabels = [
-  ['core', '主要计算机院系', '主要计算机相关研究机构'],
-  ['related', '相关交叉院系', '相关交叉研究机构'],
-  ['unclassified', '归属待核实', '归属待核实'],
-];
+const facultyDirectoryPages = { core: 'faculty.html', related: 'faculty-related.html' };
 
-function facultyUnitGroup(school, unit) {
-  const key = unit.slug ?? unit.name;
+function facultyUnitGroup(school, name) {
   const [core, related] = facultyUnitGroups[school] ?? [[], []];
-  if (core.includes(key)) return 'core';
-  if (related.includes(key)) return 'related';
+  if (core.includes(name)) return 'core';
+  if (related.includes(name)) return 'related';
   return 'unclassified';
+}
+
+function facultyDirectoryForUnit(school, name) {
+  return facultyUnitGroup(school, name) === 'related' ? 'related' : 'core';
 }

@@ -1,6 +1,6 @@
 const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
-const facultyScope = get('faculty-scope');
+const directoryPage = document.querySelector('[data-faculty-page]').dataset.facultyPage;
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
 const facultyCount = get('faculty-count');
@@ -11,28 +11,19 @@ function facultyUnitId(schoolIndex, department) {
   return department.slug ? `faculty-institute-${department.slug}` : `faculty-unit-${schoolIndex + 1}-${department.index + 1}`;
 }
 
-function facultyGroupsFor(school, units, departmentOf) {
-  return facultyGroupLabels.flatMap(([key, label, instituteLabel]) => {
-    if (facultyScope.value && key !== facultyScope.value) return [];
-    const entries = units.filter(unit => facultyUnitGroup(school, departmentOf(unit)) === key);
-    return entries.length ? [{ key, label: school === ucasSchool ? instituteLabel : label, entries }] : [];
-  });
+function directoryDepartments(school) {
+  return (snapshot[school] || []).filter(unit => facultyDirectoryForUnit(school, unit.name) === directoryPage);
 }
 
 function setDepartmentOptions(selected = '') {
   const school = facultySchool.value;
-  const groups = facultyGroupsFor(school, snapshot[school] || [], unit => unit);
+  const departments = directoryDepartments(school);
   const label = school === ucasSchool ? '研究所' : '院系';
   get('faculty-department-label').textContent = label;
-  const placeholder = school ? `全部${label}` : '请先选择高校';
-  facultyDepartment.replaceChildren(new Option(placeholder, ''), ...groups.map(({ label, entries }) => {
-    const optgroup = element('optgroup');
-    optgroup.label = label;
-    optgroup.append(...entries.map(({ name }) => new Option(name, name)));
-    return optgroup;
-  }));
-  facultyDepartment.disabled = !groups.length;
-  facultyDepartment.value = groups.some(({ entries }) => entries.some(({ name }) => name === selected)) ? selected : '';
+  const placeholder = !school ? '请先选择高校' : departments.length ? `全部${label}` : '当前页面暂无收录';
+  facultyDepartment.replaceChildren(new Option(placeholder, ''), ...departments.map(({ name }) => new Option(name, name)));
+  facultyDepartment.disabled = !departments.length;
+  facultyDepartment.value = departments.some(({ name }) => name === selected) ? selected : '';
 }
 
 function appendFacultySources(section, top, department) {
@@ -103,8 +94,7 @@ function renderFaculty() {
 
   for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
-    const units = (snapshot[name] || []).flatMap(department => {
-      if (facultyScope.value && facultyUnitGroup(name, department) !== facultyScope.value) return [];
+    const units = directoryDepartments(name).flatMap(department => {
       if (facultyDepartment.value && department.name !== facultyDepartment.value) return [];
       const context = facultySearchKey([name, english, department.name].join(' '));
       const people = department.people.filter(person => words.every(word =>
@@ -137,41 +127,29 @@ function renderFaculty() {
     card.append(summary, body);
     function fill() {
       if (!card.open || body.childNodes.length) return;
-      const groups = facultyGroupsFor(name, units, unit => unit.department);
       if (units.length > 1) {
         const index = element('nav', '', 'faculty-unit-index');
         index.setAttribute('aria-label', `${name}名录索引`);
-        for (const { key, label, entries } of groups) {
-          const row = element('div', '', 'faculty-unit-index-row');
-          row.dataset.scope = key;
-          const list = element('ul');
-          for (const { department, id } of entries) {
-            const item = element('li');
-            const link = element('a', department.name);
-            link.href = `#${id}`;
-            item.append(link);
-            list.append(item);
-          }
-          row.append(element('span', label), list);
-          index.append(row);
+        const list = element('ul');
+        for (const { department, id } of units) {
+          const item = element('li');
+          const link = element('a', department.name);
+          link.href = `#${id}`;
+          item.append(link);
+          list.append(item);
         }
+        index.append(list);
         body.append(index);
       }
-      for (const { key, label, entries } of groups) {
-        const category = element('div', '', 'faculty-category');
-        category.dataset.scope = key;
-        category.append(element('h2', label, 'faculty-category-title'));
-        for (const unit of entries) category.append(renderFacultyUnit(unit, name, words.length));
-        body.append(category);
-      }
+      for (const unit of units) body.append(renderFacultyUnit(unit, name, words.length));
     }
     fill();
     card.addEventListener('toggle', fill);
     return card;
   });
 
-  const noMatches = !words.length && facultySchool.value && facultyScope.value
-    ? '这所学校暂未收录此类别的院系或研究机构。'
+  const noMatches = !words.length && facultySchool.value
+    ? '这所学校在本页暂未收录院系或研究机构。'
     : `没有找到符合条件的教师或${facultySchool.value === ucasSchool ? '研究所' : '院系'}。`;
   facultyRoot.replaceChildren(...(cards.length ? cards : [element('p', noMatches, 'empty')]));
   facultyCount.textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '名录记录'} · 采集日期 ${facultyDirectory.checked}`;
@@ -186,7 +164,7 @@ function renderFacultyUnit({ department, people, id }, name, isSearch) {
   const units = department.sources || [];
   const incomplete = units.length && (units.every(unit => unit.status === 'partial' || !unit.people.length) ||
     units.some(unit => !unit.people.length));
-  label.append(element('h3', department.name), element('p', [
+  label.append(element('h2', department.name), element('p', [
     department.people.length ? count : '未收录逐人名单',
     department.people.length > 0 && incomplete && '部分名单',
     units.length === 1 && units[0].note,
@@ -233,35 +211,19 @@ function renderFacultyUnit({ department, people, id }, name, isSearch) {
   return section;
 }
 
-addOptions(facultySchool, survey.schools);
-const facultyParams = new URLSearchParams(location.search);
-const selectedFacultySchool = facultyParams.get('school');
-const selectedDepartment = facultyParams.get('department');
-const selectedScope = facultyParams.get('scope');
-if (selectedScope === 'core' || selectedScope === 'related') facultyScope.value = selectedScope;
-facultyQuery.value = facultyParams.get('q') || '';
-const facultyTarget = location.hash.match(/^#faculty-unit-(\d+)-(\d+)$/);
-const instituteTarget = snapshot[ucasSchool].find(({ slug }) => location.hash === `#faculty-institute-${slug}`);
-const linkedSchool = instituteTarget ? ucasSchool : facultyTarget && survey.schools[Number(facultyTarget[1]) - 1]?.[0];
-if (survey.schools.some(([school]) => school === selectedFacultySchool)) facultySchool.value = selectedFacultySchool;
-else if (linkedSchool) facultySchool.value = linkedSchool;
-const previousDepartment = {
-  '上海交通大学': { '网络空间安全学院': '计算机学院（网络空间安全学院、密码学院）' },
-  '哈尔滨工业大学': Object.fromEntries([
-    '计算机科学与技术系', '软件工程系', '网络空间安全系', '人工智能系', '计算机基础系'
-  ].map(name => [`${name}（威海）`, '计算机科学与技术学院']))
-};
-setDepartmentOptions(facultySchool.value === ucasSchool
-  ? facultyParams.get('institute') ?? selectedDepartment
-  : previousDepartment[facultySchool.value]?.[selectedDepartment] ?? selectedDepartment);
-get('faculty-filters').addEventListener('submit', event => event.preventDefault());
-facultyQuery.addEventListener('input', renderFaculty);
+function updateDirectoryLinks() {
+  const params = new URLSearchParams();
+  if (facultySchool.value) params.set('school', facultySchool.value);
+  if (facultyQuery.value.trim()) params.set('q', facultyQuery.value.trim());
+  for (const link of document.querySelectorAll('.faculty-directory-nav [data-directory]')) {
+    link.href = facultyDirectoryPages[link.dataset.directory] + (params.size ? `?${params}` : '');
+  }
+}
+
 function applyFacultyFilters() {
   const url = new URL(location.href);
   if (facultySchool.value) url.searchParams.set('school', facultySchool.value);
   else url.searchParams.delete('school');
-  if (facultyScope.value) url.searchParams.set('scope', facultyScope.value);
-  else url.searchParams.delete('scope');
   url.searchParams.delete('department');
   url.searchParams.delete('institute');
   if (facultyQuery.value.trim()) url.searchParams.set('q', facultyQuery.value.trim());
@@ -271,34 +233,69 @@ function applyFacultyFilters() {
   }
   url.hash = '';
   history.replaceState(null, '', url);
+  updateDirectoryLinks();
   renderFaculty();
 }
-facultySchool.addEventListener('change', () => {
-  setDepartmentOptions();
-  applyFacultyFilters();
-});
-facultyScope.addEventListener('change', () => {
-  setDepartmentOptions(facultyDepartment.value);
-  applyFacultyFilters();
-});
-facultyDepartment.addEventListener('change', applyFacultyFilters);
-renderFaculty();
-if (instituteTarget && facultySchool.value === ucasSchool) {
-  const section = get(facultyUnitId(0, instituteTarget));
-  if (section) requestAnimationFrame(() => section.scrollIntoView());
-} else if (facultyTarget && linkedSchool === ucasSchool && facultySchool.value === ucasSchool) {
+
+function setupFacultyDirectory() {
   const url = new URL(location.href);
-  url.searchParams.set('school', ucasSchool);
-  url.searchParams.delete('department');
-  url.hash = 'faculty-rosters';
-  history.replaceState(null, '', url);
-  requestAnimationFrame(() => facultyRoot.scrollIntoView());
-} else if (facultyTarget && linkedSchool) {
-  const index = Number(facultyTarget[2]) - 1;
-  const department = snapshot[linkedSchool].find(item => item.unitIndexes.includes(index));
-  const section = department && get(`faculty-unit-${facultyTarget[1]}-${department.index + 1}`);
-  if (section) {
-    if (location.hash !== `#${section.id}`) history.replaceState(null, '', `#${section.id}`);
-    requestAnimationFrame(() => section.scrollIntoView());
+  const params = url.searchParams;
+  const unitAnchor = url.hash.match(/^#faculty-unit-(\d+)-(\d+)$/);
+  const instituteAnchor = snapshot[ucasSchool].find(({ slug }) => url.hash === `#faculty-institute-${slug}`);
+  const linkedSchool = instituteAnchor ? ucasSchool : unitAnchor && survey.schools[Number(unitAnchor[1]) - 1]?.[0];
+  const requestedSchool = params.get('school');
+  const school = Object.hasOwn(snapshot, requestedSchool) ? requestedSchool : linkedSchool || '';
+  const departments = snapshot[school] || [];
+  const aliases = {
+    '上海交通大学': { '网络空间安全学院': '计算机学院（网络空间安全学院、密码学院）' },
+    '哈尔滨工业大学': Object.fromEntries([
+      '计算机科学与技术系', '软件工程系', '网络空间安全系', '人工智能系', '计算机基础系'
+    ].map(name => [`${name}（威海）`, '计算机科学与技术学院']))
+  };
+  const requestedDepartment = school === ucasSchool ? params.get('institute') ?? params.get('department') : params.get('department');
+  const selectedDepartment = aliases[school]?.[requestedDepartment] ?? requestedDepartment;
+  let linkedUnit;
+  if (school === linkedSchool) {
+    linkedUnit = school === ucasSchool ? instituteAnchor : departments.find(unit =>
+      unit.unitIndexes.includes(Number(unitAnchor[2]) - 1));
+    if (linkedUnit) url.hash = facultyUnitId(survey.schools.findIndex(([name]) => name === school), linkedUnit);
+    else if (school === ucasSchool && unitAnchor) {
+      params.set('school', ucasSchool);
+      params.delete('department');
+      url.hash = 'faculty-rosters';
+    }
+  }
+  const selectedUnit = departments.find(unit => unit.name === selectedDepartment);
+  const destination = linkedUnit || selectedUnit
+    ? facultyDirectoryForUnit(school, (linkedUnit || selectedUnit).name)
+    : params.get('scope') === 'related' ? 'related' : params.get('scope') === 'core' ? 'core' : directoryPage;
+  params.delete('scope');
+  if (destination !== directoryPage) {
+    location.replace(facultyDirectoryPages[destination] + url.search + url.hash);
+    return;
+  }
+  if (url.href !== location.href) history.replaceState(null, '', url);
+
+  addOptions(facultySchool, survey.schools);
+  facultySchool.value = school;
+  facultyQuery.value = params.get('q') || '';
+  setDepartmentOptions(linkedUnit && selectedUnit !== linkedUnit ? '' : selectedDepartment);
+  updateDirectoryLinks();
+  get('faculty-filters').addEventListener('submit', event => event.preventDefault());
+  facultyQuery.addEventListener('input', () => {
+    updateDirectoryLinks();
+    renderFaculty();
+  });
+  facultySchool.addEventListener('change', () => {
+    setDepartmentOptions();
+    applyFacultyFilters();
+  });
+  facultyDepartment.addEventListener('change', applyFacultyFilters);
+  renderFaculty();
+  if (url.hash === '#faculty-rosters' || linkedUnit) {
+    const target = get(url.hash.slice(1));
+    if (target) requestAnimationFrame(() => target.scrollIntoView());
   }
 }
+
+setupFacultyDirectory();

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按高校和院系查阅机器人、遥感、自动化等相关交叉院系的公开师资。">
+  <title>相关交叉院系 · 教师名录 · AI 研究 Connection</title>
+  <link rel="stylesheet" href="styles.css?v=5bcc5162ddc9">
+  <script src="data.js?v=5bcc5162ddc9" defer></script>
+  <script src="ui.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-data.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-titles.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-rosters.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-bibliography.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-ucas-institutes.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-catalog.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-unit-groups.js?v=5bcc5162ddc9" defer></script>
+  <script src="faculty-page.js?v=5bcc5162ddc9" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a>
+      <nav aria-label="页面导航">
+        <a href="connections.html">关系索引</a>
+        <a href="leads.html">合著线索</a>
+        <a href="faculty-related.html" aria-current="page">教师名录</a>
+        <a href="method.html">核验口径</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container standalone faculty-page" data-faculty-page="related">
+    <section class="main-section" aria-labelledby="faculty-title">
+      <div class="section-head"><div><h1 id="faculty-title">相关交叉院系</h1></div></div>
+      <nav class="faculty-directory-nav" aria-label="教师名录页面">
+        <a href="faculty.html" data-directory="core">主要计算机院系</a>
+        <a href="faculty-related.html" data-directory="related" aria-current="page">相关交叉院系</a>
+      </nav>
+      <form id="faculty-filters" class="filters faculty-filters" role="search" aria-label="筛选教师名录">
+        <label class="search"><span>搜索</span><input id="faculty-query" type="search" placeholder="教师姓名、职称或所属单位"></label>
+        <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>
+        <label><span id="faculty-department-label">院系</span><select id="faculty-department" aria-labelledby="faculty-department-label" disabled><option value="">请先选择高校</option></select></label>
+      </form>
+      <div class="result-bar"><p id="faculty-count" aria-live="polite"></p></div>
+      <div id="faculty-rosters" class="faculty-rosters"></div>
+      <noscript><p class="empty">请启用 JavaScript 以浏览教师名录。</p></noscript>
+    </section>
+  </main>
+  <footer class="container footer"><a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span> Connection</a><a href="method.html#faculty-method">教师名录核验口径</a></footer>
+</body>
+</html>
