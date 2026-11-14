@@ -50309,14 +50309,16 @@ const facultyPaperAudits = {
   "7GuQwWQAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://cse.sysu.edu.cn/node/3434",
       "https://orcid.org/0000-0002-6650-6712",
       "https://pub.orcid.org/v3.0/0000-0002-6650-6712/works",
       "https://qizhao-quantum.github.io/research/",
       "https://cse.sysu.edu.cn/node/2496",
-      "https://qici.weebly.com/news.html"
+      "https://qici.weebly.com/news.html",
+      "https://qizhao-quantum.github.io/allnews.html",
+      "https://arxiv.org/abs/2610.40273"
     ],
     "papers": [
       {
@@ -50437,9 +50439,37 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2608.12785",
         "outcome": "no-evidence",
         "note": "按预印本作者与课题组定位的独立构造工作；可查记录未出现符合口径的企业参与证据。"
+      },
+      {
+        "title": "Complete Existence Classification of Seven-Partite Absolutely Maximally Entangled States",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2608.01011v1",
+        "outcome": "no-evidence",
+        "note": "首稿作者单位为中山大学、中国科大、合肥国家实验室及港大；七方绝对最大纠缠存在性与同组的其他极值纠缠工作分列。 未见调查范围企业参与。"
+      },
+      {
+        "title": "Bounds for General (r,δ)-Quantum Locally Recoverable Codes",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2610.40273v1",
+        "outcome": "no-evidence",
+        "note": "正文列两位中山大学作者，致谢国家自然科学基金和校内启动资助。 未见调查范围企业参与。"
+      },
+      {
+        "title": "Quantum state determinability from local marginals is universally robust",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2604.05508v1",
+        "outcome": "no-evidence",
+        "note": "首稿四作者分别署香港大学及中山大学，未发现企业署名或同篇学生企业科研材料。 未见调查范围企业参与。"
+      },
+      {
+        "title": "Size-Independent Robustness in Multipartite Bell Self-Testing",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2608.30851v1",
+        "outcome": "no-evidence",
+        "note": "首稿署香港大学、中山大学、悉尼科技大学；和量子态边缘分布可确定性的作品分别计。 未见调查范围企业参与。"
       }
     ],
-    "note": "已核对校方主页、ORCID、前课题组书目和正式版中的首批作品；2022 年首发的 odd N 论文未在 2024 卷期重复计。仍需排查近期预印本。"
+    "note": "逐篇交叉校方主页、本人 ORCID、前课题组书目、合作者发表目录、期刊原文及 arXiv 近期首稿。2022 年初次公开、2024 卷期的 odd N 论文未另计；公开期内核查 21 篇，未发现能确认目标校企关系的记录。"
   },
   "Zl7vqy8AAAAJ": {
     "from": "2023-01-01",
