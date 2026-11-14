@@ -16241,6 +16241,690 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2606.25331"
+    },
+    {
+      "id": "alphadpo-alibaba-ustc-hdhaqb0aaaaj",
+      "paperId": "arxiv:2410.10148",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "丁博林 · Bolin Ding",
+        "丁博林的个人履历列 2017 年起任职阿里巴巴，现任阿里通义实验室高级总监及研究科学家；对应论文中具名署阿里。",
+        "https://bolinding.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "AlphaDPO: Adaptive Reward Margin for Direct Preference Optimization",
+      "short": "AlphaDPO",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2410.10148v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/wu25af.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2410.10148"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "alphadpo-alibaba-ustc-x45go24aaaaj",
+      "paperId": "arxiv:2410.10148",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "何向南 · Xiangnan He",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm"
+      ],
+      "employee": [
+        "丁博林 · Bolin Ding",
+        "丁博林的个人履历列 2017 年起任职阿里巴巴，现任阿里通义实验室高级总监及研究科学家；对应论文中具名署阿里。",
+        "https://bolinding.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "AlphaDPO: Adaptive Reward Margin for Direct Preference Optimization",
+      "short": "AlphaDPO",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2410.10148v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/wu25af.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2410.10148"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "dpo-larger-smaller-alibaba-ustc-hdhaqb0aaaaj",
+      "paperId": "arxiv:2503.01864",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "丁博林 · Bolin Ding",
+        "丁博林的个人履历列 2017 年起任职阿里巴巴，现任阿里通义实验室高级总监及研究科学家；对应论文中具名署阿里。",
+        "https://bolinding.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。两位共同第一作者均有脚注说明工作在阿里巴巴实习期间完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "Larger or Smaller Reward Margins to Select Preferences for LLM Alignment?",
+      "short": "Larger or Smaller Reward Margins",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2503.01864v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/huang25al.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2503.01864"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。两位共同第一作者均有脚注说明工作在阿里巴巴实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "dpo-larger-smaller-alibaba-ustc-x45go24aaaaj",
+      "paperId": "arxiv:2503.01864",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "何向南 · Xiangnan He",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm"
+      ],
+      "employee": [
+        "丁博林 · Bolin Ding",
+        "丁博林的个人履历列 2017 年起任职阿里巴巴，现任阿里通义实验室高级总监及研究科学家；对应论文中具名署阿里。",
+        "https://bolinding.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。两位共同第一作者均有脚注说明工作在阿里巴巴实习期间完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "Larger or Smaller Reward Margins to Select Preferences for LLM Alignment?",
+      "short": "Larger or Smaller Reward Margins",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2503.01864v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/huang25al.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2503.01864"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。两位共同第一作者均有脚注说明工作在阿里巴巴实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "drdpo-alibaba-ustc-hdhaqb0aaaaj",
+      "paperId": "arxiv:2407.07880",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "谢悦湘 · Yuexiang Xie",
+        "谢悦湘的个人主页列明阿里通义实验室正式研究科学家，公开论文确认 2024 年同期的阿里独立署名；吴俊康也具名列其为阿里通义实习导师。",
+        "https://xieyxclack.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization",
+      "short": "Dr. DPO",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/294fd30f8cbb89ce328d5a01fef47fb4-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/294fd30f8cbb89ce328d5a01fef47fb4-Abstract-Conference.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2407.07880"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "drdpo-alibaba-ustc-x45go24aaaaj",
+      "paperId": "arxiv:2407.07880",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "何向南 · Xiangnan He",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm"
+      ],
+      "employee": [
+        "谢悦湘 · Yuexiang Xie",
+        "谢悦湘的个人主页列明阿里通义实验室正式研究科学家，公开论文确认 2024 年同期的阿里独立署名；吴俊康也具名列其为阿里通义实习导师。",
+        "https://xieyxclack.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization",
+      "short": "Dr. DPO",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/294fd30f8cbb89ce328d5a01fef47fb4-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/294fd30f8cbb89ce328d5a01fef47fb4-Abstract-Conference.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2407.07880"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "betadpo-alibaba-ustc-hdhaqb0aaaaj",
+      "paperId": "arxiv:2407.08639",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "谢悦湘 · Yuexiang Xie",
+        "谢悦湘的个人主页列明阿里通义实验室正式研究科学家，公开论文确认 2024 年同期的阿里独立署名；吴俊康也具名列其为阿里通义实习导师。",
+        "https://xieyxclack.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "β-DPO: Direct Preference Optimization with Dynamic β",
+      "short": "β-DPO",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ea888178abdb6fc233226d12321d754f-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ea888178abdb6fc233226d12321d754f-Abstract-Conference.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2407.08639"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "betadpo-alibaba-ustc-x45go24aaaaj",
+      "paperId": "arxiv:2407.08639",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "何向南 · Xiangnan He",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm"
+      ],
+      "employee": [
+        "谢悦湘 · Yuexiang Xie",
+        "谢悦湘的个人主页列明阿里通义实验室正式研究科学家，公开论文确认 2024 年同期的阿里独立署名；吴俊康也具名列其为阿里通义实习导师。",
+        "https://xieyxclack.github.io/"
+      ],
+      "student": [
+        "吴俊康 · Junkang Wu",
+        "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。",
+        "https://junkangwu.github.io/"
+      ],
+      "title": "β-DPO: Direct Preference Optimization with Dynamic β",
+      "short": "β-DPO",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ea888178abdb6fc233226d12321d754f-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ea888178abdb6fc233226d12321d754f-Abstract-Conference.html"
+        ],
+        [
+          "最早公开的预印本与研究时间",
+          "https://arxiv.org/abs/2407.08639"
+        ],
+        [
+          "阿里通义团队同期任职介绍",
+          "https://bolinding.github.io/papers/kdd24llmdata.pdf"
+        ]
+      ],
+      "evidence": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "吴俊康在个人教育履历具名列王翔与何向南为中国科学技术大学共同博士导师；两人同篇署名。",
+        "https://junkangwu.github.io/"
+      ]
+    },
+    {
+      "id": "huawei-icm-assistant-cuhk-chi-wing-fu",
+      "company": "华为",
+      "team": "华为香港研究中心",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "傅志伟 · Chi-Wing Fu",
+        "港中文计算机科学与工程系教授，原文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/fu-chi-wing/"
+      ],
+      "student": [
+        "Mengyang Wu",
+        "第一作者；研究期间为港中文博士生，首页具名华为香港研究所实习脚注。",
+        "https://ojs.aaai.org/index.php/AAAI/article/download/32908/35063"
+      ],
+      "advising": [
+        "博士导师",
+        "傅志伟个人主页博士生名录列 Mengyang Wu 为其 2025 年毕业的博士生；存档另确认在读期间赴华为实习。",
+        "https://www.cse.cuhk.edu.hk/~cwfu/"
+      ],
+      "employee": [
+        "赵昱植 · Yuzhi Zhao",
+        "2023 年 4 月至 2025 年 12 月华为香港研究中心研究员，公开履历写明同期带领多模态内容审核项目；本篇共一、通讯及项目负责人。",
+        "https://zhaoyuzhi.github.io/"
+      ],
+      "title": "ICM-Assistant: Instruction-tuning Multimodal Large Language Models for Rule-based Explainable Image Content Moderation",
+      "short": "ICM-Assistant",
+      "date": "2025-04",
+      "venue": "AAAI 2025",
+      "area": "多模态内容审核",
+      "paper": "https://doi.org/10.1609/aaai.v39i8.32908",
+      "extra": [
+        [
+          "AAAI 原文实习脚注与项目负责署名",
+          "https://ojs.aaai.org/index.php/AAAI/article/download/32908/35063"
+        ],
+        [
+          "港中文研究门户",
+          "https://research.cuhk.edu.hk/en/publications/icm-assistant-instruction-tuning-multimodal-large-language-models/"
+        ],
+        [
+          "公开预印本",
+          "https://arxiv.org/abs/2412.18216"
+        ]
+      ],
+      "evidence": "正式 AAAI 论文首页将从事华为香港研究中心实习的说明明确附在第一作者 Mengyang Wu 姓名处。港中文教授傅志伟的官方主页列其为所指导的博士生，两人同篇；共同第一作者且项目负责人赵昱植的实名任职资料确认在当时受雇于华为香港研究中心并负责上述多模态内容审核研究。"
+    },
+    {
+      "id": "ant-anidoc-hkust-huamin-qu",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "屈华民 · Huamin Qu",
+        "香港科技大学计算机科学与工程学系教授、同篇作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/huamin"
+      ],
+      "student": [
+        "蒙祎昊 · Yihao Meng",
+        "港科大在读博士，2024 年 6 月至 2026 年 4 月在蚂蚁研究任实习科学家，研究世界模型与视频生成。",
+        "https://yihao-meng.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页明确写明在港科大由屈华民指导。",
+        "https://yihao-meng.github.io/"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "2022 年起任蚂蚁研究科学家，学生所列蚂蚁实习导师；按正式论文以蚂蚁署名。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "AniDoc: Animation Creation Made Easier",
+      "short": "AniDoc",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Meng_AniDoc_Animation_Creation_Made_Easier_CVPR_2025_paper.html",
+      "extra": [
+        [
+          "项目和论文核对来源",
+          "https://openaccess.thecvf.com/content/CVPR2025/papers/Meng_AniDoc_Animation_Creation_Made_Easier_CVPR_2025_paper.pdf"
+        ]
+      ],
+      "evidence": "正式论文致谢注明资助来自蚂蚁研究实习项目，第一作者注明港科大与蚂蚁双重署名。蚂蚁研究名下发布该项目官方实现。 三位的真实姓名和时期均可在论文与本人任职履历中核对。"
+    },
+    {
+      "id": "ant-dynamic-typography-hkust-huamin-qu",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "屈华民 · Huamin Qu",
+        "香港科技大学计算机科学与工程学系教授、同篇作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/huamin"
+      ],
+      "student": [
+        "蒙祎昊 · Yihao Meng",
+        "港科大在读博士，2024 年 6 月至 2026 年 4 月在蚂蚁研究任实习科学家，研究世界模型与视频生成。",
+        "https://yihao-meng.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页明确写明在港科大由屈华民指导。",
+        "https://yihao-meng.github.io/"
+      ],
+      "employee": [
+        "Hao Ouyang",
+        "2024 年从港科大毕业后任蚂蚁研究科学家；学生履历列为当时蚂蚁实习导师，正式论文列其为蚂蚁方通讯作者。",
+        "https://ken-ouyang.github.io/"
+      ],
+      "title": "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior",
+      "short": "Dynamic Typography",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "项目和论文核对来源",
+          "https://animate-your-word.github.io/demo/"
+        ]
+      ],
+      "evidence": "ICCV 正式论文致谢注明 Ant Group Research Intern Program，学生以港科大和蚂蚁双重机构列为共同第一作者，蚂蚁实习导师和港科大博士导师分别为通讯作者。 三位的真实姓名和时期均可在论文与本人任职履历中核对。"
+    },
+    {
+      "id": "ant-holocine-hkust-huamin-qu",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "屈华民 · Huamin Qu",
+        "香港科技大学计算机科学与工程学系教授、同篇作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/huamin"
+      ],
+      "student": [
+        "蒙祎昊 · Yihao Meng",
+        "港科大在读博士，2024 年 6 月至 2026 年 4 月在蚂蚁研究任实习科学家，研究世界模型与视频生成。",
+        "https://yihao-meng.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生个人主页明确写明在港科大由屈华民指导。",
+        "https://yihao-meng.github.io/"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "2022 年起任蚂蚁研究科学家，学生所列蚂蚁实习导师；按正式论文以蚂蚁署名。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narratives",
+      "short": "HoloCine",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "图像与视频生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Meng_HoloCine_Holistic_Generation_of_Cinematic_Multi-Shot_Long_Video_Narratives_CVPR_2026_paper.html",
+      "extra": [
+        [
+          "项目和论文核对来源",
+          "https://github.com/yihao-meng/HoloCine"
+        ]
+      ],
+      "evidence": "技术报告于 2025 年 10 月、学生在蚂蚁研究世界模型与视频生成组工作期间公开；作者对该具体项目同时提供署名和所维护的模型实现，注明其为以两机构参与的第一作者。学生实习导师Yujun Shen与校方导师屈华民均同篇。 三位的真实姓名和时期均可在论文与本人任职履历中核对。"
+    },
+    {
+      "id": "kuaishou-onereason-ruc-jun-xu",
+      "company": "快手",
+      "team": "OneRec 团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "Hao Jiang",
+        "其公开履历记载 2024 年起任快手推荐基座模型方向研究员，并将 OneReason 列入本人项目。",
+        "https://jianghaopg11.github.io/"
+      ],
+      "student": [
+        "施腾 · Teng Shi",
+        "中国人民大学在读博士；2026 年 3–5 月在快手 OneRec 团队实习；本人履历把 OneReason 报告列为核心贡献项目。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "title": "OneReason Technical Report",
+      "short": "OneReason",
+      "date": "2026-06-04",
+      "venue": "arXiv 预印本",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/html/2606.06260v1",
+      "evidence": "原文把施腾列入核心贡献者，将徐君和快手研究员 Hao Jiang 列入同一篇报告署名；施腾本人在快手 OneRec 团队的实习岗位和核心贡献项目与报告对应。",
+      "advising": [
+        "校内博士生导师",
+        "施腾主页明确写明，他在中国人民大学攻读博士期间受徐君指导。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "paperId": "arxiv:2606.06260"
+    },
+    {
+      "id": "huawei-memsim-ruc-xu",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "陈旭 · Xu Chen",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm"
+      ],
+      "employee": [
+        "戴全宇 · Quanyu Dai",
+        "2023 年 NeurIPS 竞赛组织者履历列为华为诺亚方舟实验室首席研究员；张泽宇具名列其为华为方实习导师，MemSim 正式版由戴全宇署华为并列共同第一作者。",
+        "https://gcastle-hub.github.io/csl-competition/organizers/"
+      ],
+      "student": [
+        "张泽宇 · Zeyu Zhang",
+        "中国人民大学高瓴人工智能学院博士生；其主页记载 2024 年 2 月至 2025 年 5 月在华为诺亚方舟实验室实习。",
+        "https://zeyu-zhang.cn/"
+      ],
+      "title": "MemSim: A Bayesian Simulator for Evaluating Memory of LLM-based Personal Assistants",
+      "short": "MemSim",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/file/826aea2253363fe04e8c4991b2a8869e-Paper-Conference.pdf",
+      "evidence": "NeurIPS 正式版首页具名注明张泽宇在华为诺亚方舟实验室实习完成此项研究；陈旭为通讯作者，华为研究员戴全宇为共同第一作者。",
+      "advising": [
+        "校内博士生导师",
+        "张泽宇本人主页具名列陈旭为其在中国人民大学的博士生导师。",
+        "https://zeyu-zhang.cn/"
+      ],
+      "extra": [
+        [
+          "正式出版索引",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/826aea2253363fe04e8c4991b2a8869e-Abstract-Conference.html"
+        ],
+        [
+          "AAAI 研究员履历",
+          "https://personalizedllm.github.io/events/perfm-aaai26/"
+        ]
+      ],
+      "paperId": "doi:10.52202/085713-3025"
+    },
+    {
+      "id": "tencent-gcap-sysu-yao",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "腾讯",
+      "team": "互娱 · IEG CROS",
+      "area": "视觉语言模型",
+      "title": "G-Cap: A Game Character Caption Generator",
+      "short": "G-Cap",
+      "date": "2026-07",
+      "venue": "ACL",
+      "paper": "https://aclanthology.org/2026.acl-long.248.pdf",
+      "faculty": [
+        "姚亮 · Liang Yao",
+        "中山大学网络空间安全学院副教授、同篇通讯作者。",
+        "https://scst.sysu.edu.cn/teacher/YaoLiang"
+      ],
+      "student": [
+        "Yang Yang",
+        "本人公开履历列 2025 年 9 月起为中山大学在读博士，2025 年 8 月起在腾讯互娱 CROS 进行游戏多模态模型的科研实习。",
+        "https://azyoung233.github.io/"
+      ],
+      "employee": [
+        "Feng Hu",
+        "该项研究的共同作者，论文及 ACL Anthology 原始作者元数据均列其为腾讯互娱，参与腾讯团队的游戏视觉研究。",
+        "https://aclanthology.org/people/feng-hu/"
+      ],
+      "advising": [
+        "博士导师",
+        "Yang Yang 本人明确列出姚亮为其中山大学网络空间安全博士导师。",
+        "https://azyoung233.github.io/"
+      ],
+      "extra": [
+        [
+          "学生维护的官方实现",
+          "https://github.com/AZYoung233/GC-Cap"
+        ],
+        [
+          "正式会议记录",
+          "https://aclanthology.org/2026.acl-long.248/"
+        ]
+      ],
+      "evidence": "ACL 正式论文首页将具名的腾讯实习脚注标在第一作者 Yang Yang 的姓名后。个人履历可对应中山大学博士学籍和姚亮导师；姚亮与腾讯互娱的同篇作者共同发表。"
     }
   ]
 };

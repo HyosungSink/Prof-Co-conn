@@ -2092,37 +2092,37 @@ const facultyPaperAudits = {
         "title": "Edicho: Consistent Image Editing in the Wild",
         "url": "https://doi.org/10.1109/ICCV51701.2025.01417",
         "outcome": "confirmed",
-        "note": "ICCV 正文在第一作者 Qingyan Bai 处加星号，首页脚注明确该工作在蚂蚁实习期间完成；该生主页和实验室资料核实同期师生关系。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+        "note": "ICCV 正文在第一作者 Qingyan Bai 处加星号，首页脚注明确该工作在蚂蚁实习期间完成；该生主页和实验室资料核实同期师生关系。 蚂蚁同篇共同作者Yujun Shen的公开任职时间覆盖该项目。"
       },
       {
         "title": "MagicQuill: An Intelligent Interactive Image Editing System",
         "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MagicQuill_An_Intelligent_Interactive_Image_Editing_System_CVPR_2025_paper.pdf",
         "outcome": "confirmed",
-        "note": "学生在本人主页明示领衔该项目，列同期蚂蚁实习和指导教师。正式论文明确获蚂蚁研究实成项目支持，第一作者双重署名，蚂蚁保有具名的官方实现。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+        "note": "学生在本人主页明示领衔该项目，列同期蚂蚁实习和指导教师。正式论文明确获蚂蚁研究实习项目支持，第一作者双重署名，蚂蚁保有具名的官方实现。 蚂蚁同篇共同作者Yujun Shen的公开任职时间覆盖该项目。"
       },
       {
         "title": "MagicQuill V2: Precise and Interactive Image Editing with Layered Visual Cues",
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_MagicQuill_V2_Precise_and_Interactive_Image_Editing_with_Layered_Visual_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
-        "note": "第二代为新增分层处理模块的独立 CVPR 2026 论文。本人的实习履历和项目资料称其领衔第二代，论文致谢明确指出 Ant Group Research Intern Program，记录第一作者双重机构并列出两位指导角色作者。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+        "note": "第二代为新增分层处理模块的独立 CVPR 2026 论文。本人的实习履历和项目资料称其领衔第二代，论文致谢明确指出 Ant Group Research Intern Program，记录第一作者双重机构并列出两位指导角色作者。 蚂蚁同篇共同作者Yujun Shen的公开任职时间覆盖该项目。"
       },
       {
         "title": "MangaNinja: Line Art Colorization with Precise Reference Following",
         "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MangaNinja_Line_Art_Colorization_with_Precise_Reference_Following_CVPR_2025_paper.pdf",
         "outcome": "confirmed",
-        "note": "正式论文致谢分别写明阿里通义和蚂蚁研究实习计划支持；其第二顺位共同一作郑嘉亮在论文和具名项目页署港科大及蚂蚁，与其本人同期蚂蚁实习履历一致。这里核实郑嘉亮及蚂蚁一侧。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+        "note": "正式论文致谢分别写明阿里通义和蚂蚁研究实习计划支持；其第二顺位共同一作郑嘉亮在论文和具名项目页署港科大及蚂蚁，与其本人同期蚂蚁实习履历一致。这里核实郑嘉亮及蚂蚁一侧。 蚂蚁同篇共同作者Yujun Shen的公开任职时间覆盖该项目。"
       },
       {
         "title": "DepthLab: From Partial to Complete",
         "url": "https://arxiv.org/html/2412.18153",
         "outcome": "confirmed",
-        "note": "郑嘉亮为共同第一作者，2024 年公开报告和技术项目把他标作港科大与蚂蚁双重署名；蚂蚁研究官方仓库具名发布这一具体模型。本人的实习时间与论文和项目发布一致。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+        "note": "郑嘉亮为共同第一作者，2024 年公开报告和技术项目把他标作港科大与蚂蚁双重署名；蚂蚁研究官方仓库具名发布这一具体模型。本人的实习时间与论文和项目发布一致。 蚂蚁同篇共同作者Yujun Shen的公开任职时间覆盖该项目。"
       },
       {
         "title": "CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives",
         "url": "https://arxiv.org/html/2605.12496",
         "outcome": "confirmed",
-        "note": "该生履历明确表示参与这篇论文的模型研发，并由本人于 2026 年 5 月列出项目发布；正式论文及作者项目页明确同一研究项目中他以两家机构署名，导师陈启峰与蚂蚁研究全职科研人员沈瑜骏同篇。 蚂蚁同篇共同作者沈瑜骏的公开任职时间覆盖该项目。"
+        "note": "该生履历明确表示参与这篇论文的模型研发，并由本人于 2026 年 5 月列出项目发布；正式论文及作者项目页明确同一研究项目中他以两家机构署名，导师陈启峰与蚂蚁研究全职科研人员Yujun Shen同篇。 蚂蚁同篇共同作者Yujun Shen的公开任职时间覆盖该项目。"
       },
       {
         "title": "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior",
@@ -3092,7 +3092,7 @@ const facultyPaperAudits = {
         "title": "DiffGuard: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models",
         "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf",
         "outcome": "lead",
-        "note": "导师徐强、博士生高瑞元和华为员工洪兰青同篇；同期实习履历明确为自动驾驶合成，尚未核实这篇分布外检测具体在华为实习期如何贡献。"
+        "note": "导师徐强、博士生高瑞元和华为员工Lanqing Hong同篇；同期实习履历明确为自动驾驶合成，尚未核实这篇分布外检测具体在华为实习期如何贡献。"
       }
     ]
   },
@@ -3104,7 +3104,9 @@ const facultyPaperAudits = {
       "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm",
       "https://www.linkedin.com/in/xiaoxue-zang-53b275137",
       "https://tengshi-ruc.github.io/",
-      "https://jeryi-sun.github.io/"
+      "https://jeryi-sun.github.io/",
+      "https://arxiv.org/html/2606.06260v1",
+      "https://jianghaopg11.github.io/"
     ],
     "papers": [
       {
@@ -3148,6 +3150,12 @@ const facultyPaperAudits = {
         "url": "https://ai.ruc.edu.cn/uploads/20241023/ad5edba483957f7f3ed623be97172224.pdf",
         "outcome": "lead",
         "note": "三位同篇、期间重合；原文未找到实习具名。"
+      },
+      {
+        "title": "OneReason Technical Report",
+        "url": "https://arxiv.org/html/2606.06260v1",
+        "outcome": "confirmed",
+        "note": "快手原文与学生履历均把施腾列入 OneReason 项目核心贡献者。"
       }
     ],
     "note": "目前重点核对徐君学生在快手的研究，未覆盖完整发表书目。"
@@ -3163,7 +3171,10 @@ const facultyPaperAudits = {
       "https://shenshiqi.com/academic/",
       "https://www.ai-engine-lab.com/team",
       "https://www.kdd.org/kdd2025/applied-data-science-ads-track-papers-2/",
-      "https://gcastle-hub.github.io/csl-competition/"
+      "https://gcastle-hub.github.io/csl-competition/",
+      "https://zeyu-zhang.cn/",
+      "https://gcastle-hub.github.io/csl-competition/organizers/",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/826aea2253363fe04e8c4991b2a8869e-Paper-Conference.pdf"
     ],
     "papers": [
       {
@@ -3201,6 +3212,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2611.03116v1",
         "outcome": "confirmed",
         "note": "首页具名将华为实习与论文结合；校内导师公开唯一署名。"
+      },
+      {
+        "title": "MemSim: A Bayesian Simulator for Evaluating Memory of LLM-based Personal Assistants",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/826aea2253363fe04e8c4991b2a8869e-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "采用 NeurIPS 正式版，首页具名华为实习脚注未见于早期版本。"
       }
     ],
     "note": "目前重点核对唐嘉凯、Xueyang Feng 的部分校企成果，尚未覆盖陈旭全部书目。"
@@ -3356,5 +3373,234 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "HdhaQB0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm",
+      "https://junkangwu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "AlphaDPO: Adaptive Reward Margin for Direct Preference Optimization",
+        "url": "https://arxiv.org/pdf/2410.10148v1",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。"
+      },
+      {
+        "title": "Larger or Smaller Reward Margins to Select Preferences for LLM Alignment?",
+        "url": "https://arxiv.org/pdf/2503.01864v1",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。两位共同第一作者均有脚注说明工作在阿里巴巴实习期间完成。"
+      },
+      {
+        "title": "Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/294fd30f8cbb89ce328d5a01fef47fb4-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。"
+      },
+      {
+        "title": "β-DPO: Direct Preference Optimization with Dynamic β",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ea888178abdb6fc233226d12321d754f-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。"
+      },
+      {
+        "title": "RePO: Understanding Preference Learning Through ReLU-Based Optimization",
+        "url": "https://arxiv.org/abs/2503.07426",
+        "outcome": "existing",
+        "note": "阿里实习与两位具名导师均已收录。"
+      },
+      {
+        "title": "On the Direction of RLVR Updates for LLM Reasoning: Identification and Exploitation",
+        "url": "https://arxiv.org/abs/2603.22117",
+        "outcome": "lead",
+        "note": "有两名导师及阿里通义员工作者，正式版署“独立研究者”，暂缺论文归属学生实习工作的直接材料。"
+      },
+      {
+        "title": "Quantile Advantage Estimation for Entropy-Safe Reasoning",
+        "url": "https://arxiv.org/abs/2509.22611",
+        "outcome": "lead",
+        "note": "吴俊康在首发时正在字节实习，但暂无证明本项目是在该企业完成的材料。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "X45Go24AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://saids.ustc.edu.cn/2019/0604/c36359a382217/page.htm",
+      "https://junkangwu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "AlphaDPO: Adaptive Reward Margin for Direct Preference Optimization",
+        "url": "https://arxiv.org/pdf/2410.10148v1",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。"
+      },
+      {
+        "title": "Larger or Smaller Reward Margins to Select Preferences for LLM Alignment?",
+        "url": "https://arxiv.org/pdf/2503.01864v1",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。两位共同第一作者均有脚注说明工作在阿里巴巴实习期间完成。"
+      },
+      {
+        "title": "Towards Robust Alignment of Language Models: Distributionally Robustifying Direct Preference Optimization",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/294fd30f8cbb89ce328d5a01fef47fb4-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。"
+      },
+      {
+        "title": "β-DPO: Direct Preference Optimization with Dynamic β",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ea888178abdb6fc233226d12321d754f-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "吴俊康的履历记录 2021 年 9 月至 2026 年 6 月在中国科学技术大学读博，并于 2023 年 10 月至 2025 年 4 月在阿里通义实验室实习。首页第一作者脚注明确此项研究在阿里巴巴完成。"
+      },
+      {
+        "title": "RePO: Understanding Preference Learning Through ReLU-Based Optimization",
+        "url": "https://arxiv.org/abs/2503.07426",
+        "outcome": "existing",
+        "note": "阿里实习与两位具名导师均已收录。"
+      },
+      {
+        "title": "On the Direction of RLVR Updates for LLM Reasoning: Identification and Exploitation",
+        "url": "https://arxiv.org/abs/2603.22117",
+        "outcome": "lead",
+        "note": "有两名导师及阿里通义员工作者，正式版署“独立研究者”，暂缺论文归属学生实习工作的直接材料。"
+      },
+      {
+        "title": "Quantile Advantage Estimation for Entropy-Safe Reasoning",
+        "url": "https://arxiv.org/abs/2509.22611",
+        "outcome": "lead",
+        "note": "吴俊康在首发时正在字节实习，但暂无证明本项目是在该企业完成的材料。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "e5AJDrEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1609/aaai.v39i8.32908",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/32908/35063",
+      "https://www.cse.cuhk.edu.hk/~cwfu/",
+      "https://www.cse.cuhk.edu.hk/people/faculty/fu-chi-wing/",
+      "https://zhaoyuzhi.github.io/",
+      "https://research.cuhk.edu.hk/en/publications/icm-assistant-instruction-tuning-multimodal-large-language-models/",
+      "https://arxiv.org/abs/2412.18216"
+    ],
+    "papers": [
+      {
+        "title": "ICM-Assistant: Instruction-tuning Multimodal Large Language Models for Rule-based Explainable Image Content Moderation",
+        "url": "https://doi.org/10.1609/aaai.v39i8.32908",
+        "outcome": "confirmed",
+        "note": "正式 AAAI 论文首页将从事华为香港研究中心实习的说明明确附在第一作者 Mengyang Wu 姓名处。港中文教授傅志伟的官方主页列其为所指导的博士生，两人同篇；共同第一作者且项目负责人赵昱植的实名任职资料确认在当时受雇于华为香港研究中心并负责上述多模态内容审核研究。"
+      }
+    ]
+  },
+  "J7a5zGEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Meng_AniDoc_Animation_Creation_Made_Easier_CVPR_2025_paper.html",
+      "https://yihao-meng.github.io/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/huamin",
+      "https://shenyujun.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Meng_AniDoc_Animation_Creation_Made_Easier_CVPR_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf",
+      "https://ken-ouyang.github.io/",
+      "https://animate-your-word.github.io/demo/",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Meng_HoloCine_Holistic_Generation_of_Cinematic_Multi-Shot_Long_Video_Narratives_CVPR_2026_paper.html",
+      "https://github.com/yihao-meng/HoloCine"
+    ],
+    "papers": [
+      {
+        "title": "AniDoc: Animation Creation Made Easier",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Meng_AniDoc_Animation_Creation_Made_Easier_CVPR_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "正式论文致谢注明资助来自蚂蚁研究实习项目，第一作者注明港科大与蚂蚁双重署名。蚂蚁研究名下发布该项目官方实现。 三位的真实姓名和时期均可在论文与本人任职履历中核对。"
+      },
+      {
+        "title": "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "ICCV 正式论文致谢注明 Ant Group Research Intern Program，学生以港科大和蚂蚁双重机构列为共同第一作者，蚂蚁实习导师和港科大博士导师分别为通讯作者。 三位的真实姓名和时期均可在论文与本人任职履历中核对。"
+      },
+      {
+        "title": "HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narratives",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Meng_HoloCine_Holistic_Generation_of_Cinematic_Multi-Shot_Long_Video_Narratives_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "技术报告于 2025 年 10 月、学生在蚂蚁研究世界模型与视频生成组工作期间公开；作者对该具体项目同时提供署名和所维护的模型实现，注明其为以两机构参与的第一作者。学生实习导师Yujun Shen与校方导师屈华民均同篇。 三位的真实姓名和时期均可在论文与本人任职履历中核对。"
+      }
+    ]
+  },
+  "45HM9IgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://scst.sysu.edu.cn/teacher/YaoLiang",
+      "https://azyoung233.github.io/",
+      "https://yao8839836.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "G-Cap: A Game Character Caption Generator",
+        "url": "https://aclanthology.org/2026.acl-long.248.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式论文首页将具名的腾讯实习脚注标在第一作者 Yang Yang 的姓名后。个人履历可对应中山大学博士学籍和姚亮导师；姚亮与腾讯互娱的同篇作者共同发表。"
+      },
+      {
+        "title": "Friend Ranking in Online Games via Pre-training Edge Transformers",
+        "url": "https://arxiv.org/abs/2302.10043",
+        "outcome": "no-evidence",
+        "note": "姚亮在这篇研究期间的正式身份为腾讯研究员；中山大学任职始于 2024 年末。"
+      },
+      {
+        "title": "Large Language Models are Contrastive Reasoners",
+        "url": "https://doi.org/10.1016/j.eswa.2025.130407",
+        "outcome": "no-evidence",
+        "note": "早期公开稿仅姚亮署名；正式期刊版新增杨洋，未见同篇具名企业员工，杨洋在其他项目的实习不能作为此篇证据。"
+      }
+    ],
+    "note": "逐篇检查了当前重点书目，仍需继续对照完整公开论文清单。"
+  },
+  "G_Hg-j0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.whu.edu.cn/info/1019/2501.htm",
+      "https://cs.ccnu.edu.cn/info/1348/14276.htm",
+      "https://dblp.org/pid/62/1637-13.html"
+    ],
+    "papers": [
+      {
+        "title": "Complete or Abstain? Aligning SQL Completion with User Preferences",
+        "url": "https://aclanthology.org/2026.emnlp-industry.16.pdf",
+        "outcome": "lead",
+        "note": "原文具名列 Xintong Hu 在腾讯 TEG 实习期间完成研究；目前未找到可确认其与江佳伟指导关系的公开材料。"
+      },
+      {
+        "title": "MTGenRec: An Efficient Distributed Training System for Generative Recommendation Models in Meituan",
+        "url": "https://doi.org/10.1145/3770854.3783925",
+        "outcome": "lead",
+        "note": "美团发布团队及学校均列项目署名；仍缺在读作者具体企业岗位和导师证据。"
+      },
+      {
+        "title": "Self-Supervised Learning for Graph Dataset Condensation",
+        "url": "https://obbusiness-private.oss-cn-shanghai.aliyuncs.com/resource-download/report/self-supervised%20learning%20for%20graph%20dataset%20condensation.pdf",
+        "outcome": "lead",
+        "note": "蚂蚁侧 OceanBase 团队发表了同一技术论文；需补在读作者研究期间具体参与及导师的公开记录。"
+      }
+    ],
+    "note": "已核对部分面向工业数据系统的论文；待同篇项目与学生导师补证。"
   }
 };
