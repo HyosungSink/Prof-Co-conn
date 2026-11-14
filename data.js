@@ -36351,6 +36351,104 @@ const survey = {
         ]
       ],
       "evidence": "ICDE 2024 由在读博士张健顺领衔，冯丹同篇署华中科大，Jiaxin Ou 同篇署字节。校方列出字节跳动校企合作项目，2024 年提交的华中科大与字节旗下企业的相关存储专利具名列张健顺、冯丹及 Jiaxin Ou。张本人资料列冯丹为其在读导师。2025 年期刊原文写明扩展自该会议论文，合并为一条。"
+    },
+    {
+      "id": "zooming-v2-ant-sjtu-ajj2rf8aaaaj",
+      "paperId": "arxiv:2610.37037",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 · Machine Intelligence",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "黄维然 · Weiran Huang",
+        "上海交通大学计算机学院副教授；核对了原文署名及当期对该生的校内指导。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html"
+      ],
+      "employee": [
+        "Jun Lan",
+        "蚂蚁集团项目负责人，ICCV 2025 研讨会组织者档案、同篇原文和蚂蚁项目仓库均列蚂蚁集团；魏来个人履历列其为企业实习导师。",
+        "https://sites.google.com/view/face-anti-spoofing-challenge/welcome/challengeiccv2025"
+      ],
+      "student": [
+        "魏来 · Lai Wei",
+        "2024 年起为上海交通大学在读博士，2025–2026 年在蚂蚁集团 Machine Intelligence 做研究实习，企业导师是同篇项目负责人 Jun Lan。论文具名共同一作，蚂蚁同名项目有魏来本人提交。",
+        "https://waltonfuture.github.io/"
+      ],
+      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+      "short": "Zooming without Zooming v2",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/abs/2610.37037",
+      "extra": [
+        [
+          "蚂蚁集团公布的原始项目",
+          "https://github.com/inclusionAI/Zooming-without-Zooming-v2"
+        ],
+        [
+          "魏来在蚂蚁同名项目的具名提交",
+          "https://github.com/inclusionAI/Zooming-without-Zooming-v2/commit/8516ce34d0ce"
+        ],
+        [
+          "同实验室成员名录",
+          "https://mifa.sjtu.edu.cn/"
+        ]
+      ],
+      "evidence": "2026 年 10 月首发。论文首页具名魏来为并列第一作者、Jun Lan 为项目负责人、黄维然为通讯作者，致谢列蚂蚁集团 Research Intern Program。公司项目仓库具名公开魏来的提交。该篇提出独立的 EvidenceConnect 多区域问答构造及 GRPO 训练，另放独立数据和模型，与 2602.11858 的单区域 region-to-image 蒸馏不是同一论文的改版。",
+      "advising": [
+        "校内博士导师",
+        "魏来自述上海交通大学博士导师为黄维然，并单列中关村学院导师及蚂蚁导师，校方实验室也列其为在读博士。",
+        "https://waltonfuture.github.io/"
+      ]
+    },
+    {
+      "id": "trrag-ant-sjtu-ajj2rf8aaaaj",
+      "paperId": "arxiv:2607.02966",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁国际 · Ant International Research",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "黄维然 · Weiran Huang",
+        "上海交通大学计算机学院副教授；核对了原文署名及当期对该生的校内指导。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html"
+      ],
+      "employee": [
+        "Zhihao Wen",
+        "论文通讯作者，署蚂蚁国际、使用公司邮箱。同作者 2026 年 5 月的蚂蚁团队原文也为蚂蚁研究通讯作者；新加坡管理大学的博士导师任职材料记载他已于 2023 年毕业，公开履历列 2025 年起任蚂蚁研究员。",
+        "https://arxiv.org/html/2605.24426v1"
+      ],
+      "student": [
+        "周皓天 · Haotian Zhou",
+        "2025 年起为上海交大 MIFA 在读硕士。论文中为具名共同第一作者、署上交和蚂蚁国际，首页专门标明这项研究在蚂蚁国际实习期间完成。",
+        "https://arxiv.org/html/2607.02966v1"
+      ],
+      "title": "Distill Where the Student Goes: Teacher-Regularized RL for English-Evidence Cross-Lingual RAG",
+      "short": "TR-RAG · 跨语言检索增强",
+      "date": "2026-07",
+      "venue": "arXiv 预印本",
+      "area": "自然语言与大模型",
+      "paper": "https://arxiv.org/abs/2607.02966",
+      "extra": [
+        [
+          "上海交大 MIFA 实验室在读硕士名录",
+          "https://mifa.sjtu.edu.cn/"
+        ],
+        [
+          "新加坡管理大学导师公开履历及毕业年份",
+          "https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2026-02/yfang-Research%20Sttm-2026.pdf"
+        ],
+        [
+          "企业作者的公开职历",
+          "https://www.linkedin.com/in/zhihao-w-5b9a02201/"
+        ]
+      ],
+      "evidence": "第一作者周皓天与黄维然共同署上交，原文首页只为两名实习者（含周皓天）加实习脚注；蚂蚁国际单署名通讯 Zhihao Wen 未带实习标记，2026 年 5 月亦以蚂蚁研究通讯作者发表独立论文。实验室官网列黄维然是组内唯一 PI、周皓天是其在读硕士，未列共同指导者。",
+      "advising": [
+        "校内硕士导师",
+        "上海交大 MIFA 官方成员名录的唯一 PI 为黄维然，周皓天 2025 年起列在读硕士、非访学；二人是同篇具名共同第一作者。",
+        "https://mifa.sjtu.edu.cn/"
+      ]
     }
   ]
 };
