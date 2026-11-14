@@ -55802,7 +55802,7 @@ const facultyPaperAudits = {
   "n7gNlCkAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://faculty.xjtu.edu.cn/mingfan/zh_CN/zhym/995657/list/index.htm",
       "https://gr.xjtu.edu.cn/mingfan/zh_CN/zdylm/995662/list/index.htm",
@@ -56204,9 +56204,25 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "软件学报明确记载 2023-01-13 在线，作者来自西交软件及网安两院；无企业署名。",
         "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Exposure-Centric Robustness Analysis of Automated Driving Systems in Adversarial Multi-Agent Environments",
+        "url": "https://doi.org/10.1145/3859378",
+        "outcome": "no-evidence",
+        "note": "ACM 2026-10-21 在线，严宋杨为西交范铭的在读博士生；作者来自西交、中科大、Synkrotron、青岛港及其分支，未见名单企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "PLC-Bin2Src: Retrieving Corresponding Structured Text Source Files for PLC Binaries",
+        "url": "https://arxiv.org/html/2609.08563v2",
+        "outcome": "no-evidence",
+        "note": "作者稿首发 2026-09-08，原文署大连理工五人、西交范铭一人。不是同一团队未署范铭的 PLC-BinX（2605.17392）。",
+        "relationIds": []
       }
     ],
-    "note": "按公开首稿、正式出版和作者履历核查 47 篇；仍在整理其余题录。学生在某个项目的企业实习证据不会用于其他项目。"
+    "note": "以西交个人和组内书目、机构库、DBLP、ORCID、同篇作者档案与原始出版记录对齐，覆盖至 2026-11-12。正式版与确定同一论文的早版及中英文复刊合并；2023 年前已有同作、题名相近但无本人署名、已证实同名均排除。国家实践指南、专利属于辅助材料，不自行计作论文。已梳理指公开可识别书目逐篇核查；未见证据或线索不作为不存在关系的结论。"
   },
   "MXvC7tkAAAAJ": {
     "from": "2023-01-01",
@@ -56299,7 +56315,10 @@ const facultyPaperAudits = {
       "https://www.ijcai.org/proceedings/2023/0176.pdf",
       "https://arxiv.org/pdf/2303.05780v1",
       "https://papers.miccai.org/miccai-2024/paper/2121_paper.pdf#page=9",
-      "https://github.com/BearCleverProud/TAKT/commit/381576d85a76f3b096224d2936c07d5fe97ab1d2"
+      "https://github.com/BearCleverProud/TAKT/commit/381576d85a76f3b096224d2936c07d5fe97ab1d2",
+      "https://arxiv.org/abs/2406.09696",
+      "https://papers.miccai.org/miccai-2024/paper/2168_paper.pdf#page=9",
+      "https://github.com/BearCleverProud/MoME/commit/b4ddf3128e8d67f76652c03f5f3395621f7fb01c"
     ],
     "papers": [
       {
@@ -56340,8 +56359,8 @@ const facultyPaperAudits = {
       {
         "title": "MoME: Mixture of Multimodal Experts for Cancer Survival Prediction",
         "url": "https://doi.org/10.1007/978-3-031-72083-3_30",
-        "outcome": "lead",
-        "note": "2024-06-14 首次公开、同年 MICCAI。港中文实验室明确Conghao Xiong为金国庆指导博士，腾讯天衍将同篇列为自身论文，Hao Zheng、Dong Wei、Yefeng Zheng 三位均按腾讯署名。熊的原文为港中文署名、个人代码库公布，未找到对项目在企业环节做出具名贡献或实习的一手证据，故仍为线索。 学生本人公开主页确认成果，但没有把工作归于本人在腾讯的实习或具名项目角色。",
+        "outcome": "confirmed",
+        "note": "正式稿第 9 页明确与腾讯天衍共同完成；学生 Conghao Xiong 的署名提交发布对应的多模态专家模型实现。其具名博士导师金国庆与腾讯天衍主任郑冶枫均同篇。首稿 2024-06-14；与研究切片知识迁移的 TAKT 分开。",
         "year": 2024
       },
       {
@@ -56450,7 +56469,7 @@ const facultyPaperAudits = {
         "year": 2023
       }
     ],
-    "note": "已核 21 篇，含以学生具体代码级贡献和企业正式研究来源确认的 TAKT。其余公开论文仍逐篇核查。"
+    "note": "已核 21 篇。TAKT、MoME 分别由企业联合研究声明、学生本人具体代码和校方指导材料确认；其余公开书目仍逐篇核查。"
   },
   "Z_t5DjwAAAAJ": {
     "from": "2023-01-01",

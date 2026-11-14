@@ -45407,6 +45407,67 @@ const survey = {
         ]
       ],
       "evidence": "MICCAI 正式全文明确说明该研究与腾讯天衍共同完成，腾讯官方也把该论文列入团队成果。港中文博士生 Conghao Xiong 的署名提交具体实现了合作版新加入的目标感知数据增强和基于最优传输的特征对齐；其中的训练、数据构造与聚类代码可与论文第 2 节对应。2023 年相同编号的旧稿没有腾讯作者或上述两个模块，2024-07-11 才首次公开该合作版本，同一个演进工作只计一条。"
+    },
+    {
+      "id": "tencent-mome-cuhk-irwin-king",
+      "company": "腾讯",
+      "team": "腾讯优图 · 天衍研究中心",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授，论文首面与其博士生同署港中文。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/"
+      ],
+      "employee": [
+        "郑冶枫 · Yefeng Zheng",
+        "2024 年 6 月论文首发时为腾讯天衍研究中心主任、杰出科学家；西湖大学履历确认从 2018 年任职至 2024 年 7 月。论文首面按腾讯天衍署名。",
+        "https://en.westlake.edu.cn/faculty/yefeng-zheng.html"
+      ],
+      "student": [
+        "Conghao Xiong",
+        "在港中文攻读博士；本篇第一作者、与腾讯 Hao Zheng 共同通讯。其可核验的 2024-08-03 代码提交公开了 MoME、MoMETransformer 等核心技术实现。",
+        "https://github.com/BearCleverProud/MoME/commit/b4ddf3128e8d67f76652c03f5f3395621f7fb01c"
+      ],
+      "advising": [
+        "博士共同导师",
+        "Conghao Xiong 本人在公开学术主页上把金国庆列为博士共同导师；港中文 MISC 实验室列其为博士生。",
+        "https://bearcleverproud.github.io/"
+      ],
+      "title": "MoME: Mixture of Multimodal Experts for Cancer Survival Prediction",
+      "short": "MoME",
+      "date": "2024-06-14",
+      "venue": "MICCAI 2024",
+      "area": "医疗影像与计算病理",
+      "paper": "https://papers.miccai.org/miccai-2024/531-Paper2168.html",
+      "extra": [
+        [
+          "2024-06-14 最早公开稿及腾讯署名",
+          "https://arxiv.org/html/2406.09696v1"
+        ],
+        [
+          "MICCAI 正式全文第 9 页联合研究致谢",
+          "https://papers.miccai.org/miccai-2024/paper/2168_paper.pdf#page=9"
+        ],
+        [
+          "腾讯天衍成果总目录中的同篇论文",
+          "https://jarvislab.tencent.com/aca-publications-conference-2.html"
+        ],
+        [
+          "学生本人公开研究档案与代码链接",
+          "https://bearcleverproud.github.io/"
+        ],
+        [
+          "校方书目和正式十月出版日期",
+          "https://researchportal.hkust.edu.hk/en/publications/mome-mixture-ofmultimodal-experts-forcancer-survival-prediction/"
+        ],
+        [
+          "港中文研究组博士生名单",
+          "https://misc-lab.cse.cuhk.edu.hk/people/"
+        ]
+      ],
+      "evidence": "首稿 2024-06-14 已列三位腾讯作者；正式 MICCAI PDF 第 9 页明确这项研究与腾讯天衍共同开展。港中文博士生 Conghao Xiong 在正式版列第一作者和共同通讯，并从本人可追溯仓库提交 254 行核心 MoME 模型实现；港中文实际博导金国庆、当时在腾讯全职的郑冶枫均同篇。它研究多模态癌症生存预测，与同一团队的病理切片知识转移 TAKT 是两篇独立论文。",
+      "paperId": "10.1007/978-3-031-72083-3_30"
     }
   ]
 };
