@@ -42463,6 +42463,164 @@ const survey = {
         "https://zhoujingbo.github.io/"
       ],
       "year": 2025
+    },
+    {
+      "id": "codef-ant-hkust-qifeng-chen",
+      "paperId": "arxiv:2308.07926",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陳启峰 · Qifeng CHEN",
+        "港科大计算机系教授、原文共同通讯，课题组列欧阳豪为其博士生、2024年毕业。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "在 2023 年 8 月为蚂蚁集团正式 Staff Research Scientist、同篇蚂蚁共同通讯。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "欧阳豪 · Hao Ouyang",
+        "首稿公开后八天本人主页确认当时为港科大博士、校内导师陈启峰，并明确本人在蚂蚁研究由同篇沈宇君指导。原始 PDF 首页为港科大及蚂蚁双署共同一作。",
+        "https://github.com/ken-ouyang/ken-ouyang.github.io/blob/4990b51fd37db25bb4f594077602efa64280ab5d/index.html#L24-L26"
+      ],
+      "title": "CoDeF: Content Deformation Fields for Temporally Consistent Video Processing",
+      "short": "CoDeF",
+      "date": "2023-08-15",
+      "venue": "CVPR 2024",
+      "area": "一致性视频编辑",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Ouyang_CoDeF_Content_Deformation_Fields_for_Temporally_Consistent_Video_Processing_CVPR_2024_paper.pdf",
+      "extra": [
+        [
+          "2023 年 8 月首版具名双署 PDF",
+          "https://arxiv.org/pdf/2308.07926v1"
+        ],
+        [
+          "课题组博士师承及毕业名录",
+          "https://www.cqf.io/lab.html"
+        ],
+        [
+          "研究项目与发布",
+          "https://qiuyu96.github.io/CoDeF/"
+        ],
+        [
+          "蚂蚁研究托管项目",
+          "https://github.com/robbyant-research/CoDeF"
+        ],
+        [
+          "港科大研究论坛，导师展示同论文",
+          "https://cse.hkust.edu.hk/event/RTF2024/slides/cqf-VideoSynthesis_Apr_2024.pdf"
+        ]
+      ],
+      "evidence": "实际首版 PDF 和 CVPR 正式版均列欧阳豪为港科大与蚂蚁双署共同一作，陈启峰为港科大共同通讯，正式员工沈宇君为蚂蚁共同通讯。欧阳豪本人 2023-08-23 的同期公开主页在同页列 CoDeF，并独立明确其港科大博士由陈启峰指导、蚂蚁研究实习由沈宇君指导；两位导师具名同一项目。港科大课题组证明其博士到 2024 年，未用他毕业后的正式企业岗位回推。浙大肖宇曦在首稿时的博士学籍时间另列线索，不以其认领本记录。",
+      "advising": [
+        "研究当期具名博士导师",
+        "学生首版发表后一周的公开主页直接写本人为港科大在读博士，由陈启峰指导；港科大课题组博士名单互证。",
+        "https://github.com/ken-ouyang/ken-ouyang.github.io/blob/4990b51fd37db25bb4f594077602efa64280ab5d/index.html#L24-L26"
+      ],
+      "year": 2023
+    },
+    {
+      "id": "boxdreamer-ant-zju-zhou",
+      "paperId": "arxiv:2504.07955",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙江大学计算机学院教授；正式论文具名同篇，学生贺星毅、Yuanhong Yu 皆列为博士导师。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "2025 年任蚂蚁集团正式高级研究科学家；原文同篇署蚂蚁，且两名具名学生记录其指导。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "贺星毅 · Xingyi He",
+        "2021-09 至 2026-06 浙江大学在读博士；本人历史主页明确博士导师周晓巍，以及 2024-10 至 2026-06 在蚂蚁实习由沈宇君指导；ICCV 本研究以浙大及蚂蚁双署，列为第二作者。",
+        "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43"
+      ],
+      "title": "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation",
+      "short": "BoxDreamer",
+      "date": "2025-04-10",
+      "venue": "ICCV 2025",
+      "area": "三维物体姿态估计",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_BoxDreamer_Dreaming_Box_Corners_for_Generalizable_Object_Pose_Estimation_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "浙江大学团队项目",
+          "https://zju3dv.github.io/boxdreamer/"
+        ],
+        [
+          "首稿及公开日期",
+          "https://arxiv.org/abs/2504.07955"
+        ],
+        [
+          "双署第一作者的独立实习日期和导师",
+          "https://github.com/dadwadw233"
+        ],
+        [
+          "正式出版的 PDF 镜像",
+          "https://www.openaccess.thecvf.com/content/ICCV2025/papers/Yu_BoxDreamer_Dreaming_Box_Corners_for_Generalizable_Object_Pose_Estimation_ICCV_2025_paper.pdf"
+        ]
+      ],
+      "evidence": "ICCV 正式首页标第一作者 Yuanhong Yu 及第二作者贺星毅均为浙大/蚂蚁双署名，同时具名浙大周晓巍和蚂蚁正式高级研究科学家沈宇君。两份学生履历独立确认校内及企业指导：贺星毅本人履历给 2021-09–2026-06 浙大周晓巍指导博士和 2024-10–2026-06 蚂蚁沈宇君指导实习；Yuanhong Yu 本人亦列浙大博士导师周晓巍、2024-12–2026-07 蚂蚁实习与沈宇君，同篇双署名。首版公开 2025-04-10 落在两人重叠期间；原 PDF 与正式版一致支持 Yuanhong 的双署，贺星毅的企业署名按正式版。",
+      "advising": [
+        "研究当期具名博士导师",
+        "贺星毅的本人公开履历确认其博士阶段 2021-09 至 2026-06 由周晓巍指导。",
+        "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "baidu-refound-hkustgz-xiong",
+      "studentSchool": "中国科学技术大学",
+      "title": "ReFound: Crafting a Foundation Model for Urban Region Understanding upon Language and Visual Foundations",
+      "short": "ReFound",
+      "date": "2024-08-24",
+      "venue": "KDD 2024",
+      "area": "城市计算与多模态",
+      "paper": "https://huangjizhou.github.io/papers/ReFound-KDD24.pdf",
+      "paperId": "doi:10.1145/3637528.3671992",
+      "team": "Baidu Research · Business Intelligence Lab",
+      "student": [
+        "Congxi Xiao",
+        "中科大硕博项目，2020 年入硕；KDD 论文脚注明确在百度研究院实习期间由周景博指导、完成该工作。",
+        "https://huangjizhou.github.io/papers/ReFound-KDD24.pdf"
+      ],
+      "advising": [
+        "在读期间学术指导",
+        "港科大（广州）熊辉课题组官方博士名录具名列中科大硕博项目 2020 年入学的 Congxi Xiao；熊辉同篇共同通讯。",
+        "https://ailab.hkust-gz.edu.cn/group.html"
+      ],
+      "evidence": "KDD 正式论文首面给第一作者 Congxi Xiao 加具名实习脚注，明确本篇在百度研究院完成、指导者为同署百度的通讯作者周景博。熊辉署港科大（广州）及港科大并为共同通讯；其官方课题组将该生列在中科大 2020 年入硕的硕博项目博士组。周景博本人履历确认同期在百度研究院任正式研究员。",
+      "extra": [
+        [
+          "ACM 正式论文和出版日期",
+          "https://doi.org/10.1145/3637528.3671992"
+        ],
+        [
+          "熊辉学术课题组的博士生名单",
+          "https://ailab.hkust-gz.edu.cn/group.html"
+        ]
+      ],
+      "company": "百度",
+      "school": "香港科技大学（广州）",
+      "faculty": [
+        "熊辉 · Hui Xiong",
+        "香港科技大学（广州）人工智能学域讲席教授、同篇共同通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"
+      ],
+      "employee": [
+        "周景博 · Jingbo Zhou",
+        "本人履历列 2015 年起任百度研究院研究科学家；首版作者栏署百度研究院商业智能实验室，并为同篇通讯作者及论文具名的企业实习导师。",
+        "https://zhoujingbo.github.io/"
+      ],
+      "year": 2024
     }
   ]
 };

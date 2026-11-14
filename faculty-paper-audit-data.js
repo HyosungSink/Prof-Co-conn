@@ -4504,7 +4504,8 @@ const facultyPaperAudits = {
       "https://felixcheng97.github.io/NeRF-Texture/",
       "https://doi.org/10.1007/978-3-031-72983-6_20",
       "https://bqy.info/3dpe/",
-      "https://arxiv.org/abs/2402.14000"
+      "https://arxiv.org/abs/2402.14000",
+      "https://github.com/ken-ouyang/ken-ouyang.github.io/blob/4990b51fd37db25bb4f594077602efa64280ab5d/index.html#L24-L26"
     ],
     "papers": [
       {
@@ -4641,6 +4642,13 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "ECCV 作者项目正式列博士生 Qingyan Bai 的港科大及蚂蚁集团双署名和同篇一作；该生公开履历证实蚂蚁实习，港科大博士开题把本篇 3DPE 列为其博士研究，并具名列指导教师陈启峰。蚂蚁正式研究员沈宇君同篇共同通讯。",
         "year": 2024
+      },
+      {
+        "year": 2024,
+        "title": "CoDeF: Content Deformation Fields for Temporally Consistent Video Processing",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Ouyang_CoDeF_Content_Deformation_Fields_for_Temporally_Consistent_Video_Processing_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "实际首版 PDF 和 CVPR 正式版均列欧阳豪为港科大与蚂蚁双署共同一作，陈启峰为港科大共同通讯，正式员工沈宇君为蚂蚁共同通讯。欧阳豪本人 2023-08-23 的同期公开主页在同页列 CoDeF，并独立明确其港科大博士由陈启峰指导、蚂蚁研究实习由沈宇君指导；两位导师具名同一项目。港科大课题组证明其博士到 2024 年，未用他毕业后的正式企业岗位回推。浙大肖宇曦在首稿时的博士学籍时间另列线索，不以其认领本记录。"
       }
     ]
   },
@@ -8586,6 +8594,13 @@ const facultyPaperAudits = {
         "url": "https://zhoujingbo.github.io/paper/2024HierarchicalDASFAA.pdf",
         "outcome": "lead",
         "note": "DASFAA 会方和作者正式 PDF：中科大同篇 Congxi Xiao、Shuangli Li 使用百度邮箱，百度研究员周景博和同篇导师熊辉明确；未见学生在百度做本篇的直接说明。"
+      },
+      {
+        "title": "ReFound: Crafting a Foundation Model for Urban Region Understanding upon Language and Visual Foundations",
+        "url": "https://huangjizhou.github.io/papers/ReFound-KDD24.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "KDD 正式论文首面给第一作者 Congxi Xiao 加具名实习脚注，明确本篇在百度研究院完成、指导者为同署百度的通讯作者周景博。熊辉署港科大（广州）及港科大并为共同通讯；其官方课题组将该生列在中科大 2020 年入硕的硕博项目博士组。周景博本人履历确认同期在百度研究院任正式研究员。"
       }
     ]
   },
@@ -11533,7 +11548,9 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2502.12138v1",
       "https://zhanghe3z.github.io/FLARE/",
       "https://huggingface.co/AntResearch/FLARE",
-      "https://henry123-boy.github.io/academic.html"
+      "https://henry123-boy.github.io/academic.html",
+      "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43",
+      "https://github.com/dadwadw233"
     ],
     "papers": [
       {
@@ -11601,6 +11618,55 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_SpatialTracker_Tracking_Any_2D_Pixels_in_3D_Space_CVPR_2024_paper.pdf",
         "outcome": "confirmed",
         "note": "肖宇曦本人明确 2023-09 浙江大学博士入学、导师周晓巍，以及 2023-02–2025-03 蚂蚁研究实习由沈宇君、Nan Xue 指导。CVPR 成果以肖本人为浙大与蚂蚁双署名第一作者、两位企业导师都具名署蚂蚁，周晓巍为浙大通讯；浙大团队独立项目页也逐人写清同样的单位。论文 2024-04-05 公开，在学生和企业履历重叠区内。"
+      },
+      {
+        "year": 2025,
+        "title": "BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_BoxDreamer_Dreaming_Box_Corners_for_Generalizable_Object_Pose_Estimation_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "ICCV 正式首页标第一作者 Yuanhong Yu 及第二作者贺星毅均为浙大/蚂蚁双署名，同时具名浙大周晓巍和蚂蚁正式高级研究科学家沈宇君。两份学生履历独立确认校内及企业指导：贺星毅本人履历给 2021-09–2026-06 浙大周晓巍指导博士和 2024-10–2026-06 蚂蚁沈宇君指导实习；Yuanhong Yu 本人亦列浙大博士导师周晓巍、2024-12–2026-07 蚂蚁实习与沈宇君，同篇双署名。首版公开 2025-04-10 落在两人重叠期间；原 PDF 与正式版一致支持 Yuanhong 的双署，贺星毅的企业署名按正式版。"
+      },
+      {
+        "year": 2025,
+        "title": "Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lin_Prompting_Depth_Anything_for_4K_Resolution_Accurate_Metric_Depth_Estimation_CVPR_2025_paper.pdf",
+        "outcome": "existing",
+        "note": "首版和正式 CVPR 确认字节与浙大双署第一作者 Haotong Lin，字节正式项目页独立列明，博士导师周晓巍，已入库。"
+      },
+      {
+        "year": 2024,
+        "title": "4K4D: Real-Time 4D View Synthesis at 4K Resolution",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_4K4D_Real-Time_4D_View_Synthesis_at_4K_Resolution_CVPR_2024_paper.pdf",
+        "outcome": "lead",
+        "note": "CVPR 版学生均署浙大，沈宇君独署蚂蚁；Zhen Xu 与 Haotong Lin 的公开企业履历不能对应此一蚂蚁项目，首稿在 2023 年 10 月，勿将后来的字节研究借证。"
+      },
+      {
+        "year": 2024,
+        "title": "CoDeF: Content Deformation Fields for Temporally Consistent Video Processing",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Ouyang_CoDeF_Content_Deformation_Fields_for_Temporally_Consistent_Video_Processing_CVPR_2024_paper.pdf",
+        "outcome": "lead",
+        "note": "欧阳豪在港科大时的关联已另记陈启峰。浙大合作作者周晓巍和蚂蚁实习生肖宇曦确实同篇，但首稿 2023-08-15 早于肖 2023-09 浙大博士入学；其本人列此前武汉大学学籍截至 2023-06。尚无同项增量研究在浙大在读期进行、或当期已经在校且由周指导的证据，暂不新增浙大视角。"
+      },
+      {
+        "year": 2024,
+        "title": "Generating Human Motion in 3D Scenes from Text Descriptions",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cen_Generating_Human_Motion_in_3D_Scenes_from_Text_Descriptions_CVPR_2024_paper.pdf",
+        "outcome": "lead",
+        "note": "CVPR 首页蚂蚁员工合著明确；岑帜署浙大，博士导师周晓巍，公开实习列的是微软和后来的快手；沈泽宏随后才入蚂蚁任职。尚缺对应这项蚂蚁研究的同期学生参与。"
+      },
+      {
+        "year": 2024,
+        "title": "IntrinsicAnything: Learning Diffusion Priors for Inverse Rendering Under Unknown Illumination",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07782.pdf",
+        "outcome": "lead",
+        "note": "ECCV 具名两人署淘宝技术部阿里巴巴，Xi Chen、Dongchen Yang 列浙大，Yuan Liu 列港大，暂未找到学生和此专案在阿里开展的证据。"
+      },
+      {
+        "year": 2024,
+        "title": "SAM-Guided Graph Cut for 3D Instance Segmentation",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06451.pdf",
+        "outcome": "lead",
+        "note": "ECCV 版本明示沈宇君署蚂蚁，郭昊宇/王宇昂仅署浙江大学。项目页另一位共一作 He Zhu 的具名脚注明确为浙大实习；未见校内学生为蚂蚁开展此项的具名证据。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
