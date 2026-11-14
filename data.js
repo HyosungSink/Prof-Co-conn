@@ -43900,6 +43900,52 @@ const survey = {
       ],
       "paperId": "arxiv:2508.03379",
       "year": 2025
+    },
+    {
+      "id": "alibaba-cloud-pixtext-zju-ding-yaoxiang",
+      "company": "阿里巴巴",
+      "team": "阿里云计算",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "丁尧相 · Yao-Xiang Ding",
+        "浙江大学教师导师名录列为特聘研究员、硕导；本篇列浙大署名及共同通讯作者。",
+        "https://www.cs.zju.edu.cn/_upload/article/files/d4/45/e46a2ca6469693738d84d1fffc3f/642ea7c2-932e-4023-b1bb-ce1618ee6c27.pdf"
+      ],
+      "employee": [
+        "王国华 · Guo-Hua Wang",
+        "本人履历列自 2024 年 8 月起任阿里巴巴算法研究员；本篇为阿里巴巴署名的共同通讯作者。",
+        "https://doctorkey.github.io/"
+      ],
+      "student": [
+        "Yaoli Liu",
+        "丁尧相 2026 年 10 月的指导名单列其为浙大在读硕士；本篇首页以浙大及阿里巴巴双署名，并具名标记阿里云实习。",
+        "https://yaoxiangding.github.io/#students"
+      ],
+      "title": "Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation",
+      "short": "PixText",
+      "date": "2026-10-13",
+      "year": 2026,
+      "venue": "arXiv",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2610.18284v1",
+      "evidence": "首稿首页将实习脚注明确标在第一作者 Yaoli Liu 及另一位合作者后，说明研究在阿里云计算实习期间完成；丁尧相是其硕士导师及论文共同通讯，阿里算法研究员王国华亦为共同通讯。",
+      "advising": [
+        "硕士导师",
+        "丁尧相第一方页面列其为当前硕士生，更新于论文首发同月。",
+        "https://yaoxiangding.github.io/#students"
+      ],
+      "extra": [
+        [
+          "首发书目信息",
+          "https://arxiv.org/abs/2610.18284"
+        ],
+        [
+          "作者发布的项目源码",
+          "https://github.com/ATH-MaaS/PixText"
+        ]
+      ],
+      "paperId": "arxiv:2610.18284"
     }
   ]
 };

@@ -48714,5 +48714,63 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已用校方档案、ORCID 记录、出版方题录和合作者手稿交叉对照此时段可查成果。"
+  },
+  "POTjhnUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://yaoxiangding.github.io/",
+      "https://www.cs.zju.edu.cn/_upload/article/files/d4/45/e46a2ca6469693738d84d1fffc3f/642ea7c2-932e-4023-b1bb-ce1618ee6c27.pdf",
+      "https://yaoxiangding.github.io/full-publication.html",
+      "https://dblp.org/pid/186/8301-1.html",
+      "https://github.com/ATH-MaaS/PixText",
+      "https://doctorkey.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation",
+        "year": 2026,
+        "url": "https://arxiv.org/pdf/2610.18284v1",
+        "outcome": "confirmed",
+        "note": "首稿首页将实习脚注明确标在第一作者 Yaoli Liu 及另一位合作者后，说明研究在阿里云计算实习期间完成；丁尧相是其硕士导师及论文共同通讯，阿里算法研究员王国华亦为共同通讯。"
+      },
+      {
+        "title": "Dive into the Scene: Breaking the Perceptual Bottleneck in Vision-Language Decision Making via Focus Plan Generation",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/xiao26c.html",
+        "outcome": "no-evidence",
+        "note": "作者项目及 ICML 版列浙大、浙江重点实验室与 Baiont Quant；后者不在调查企业范围。"
+      },
+      {
+        "title": "FreeFuse: Multi-Subject LoRA Fusion via Auto Masking at Test Time",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2510.23515v1",
+        "outcome": "no-evidence",
+        "note": "首稿作者全为浙大 CAD&CG，未见该研究的企业实习或研发作者；同一学生后来在阿里云参与其它项目不追溯。"
+      },
+      {
+        "title": "Abductive Logical Rule Induction by Bridging Inductive Logic Programming and Multimodal Large Language Models",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2509.21874v1",
+        "outcome": "no-evidence",
+        "note": "署名来自浙大及南京大学；未见调查企业人员参与这项工作。"
+      },
+      {
+        "title": "CPoser: An Optimization-after-Parsing Approach for Text-to-Pose Generation Using Large Language Models",
+        "year": 2024,
+        "url": "https://asia.siggraph.org/2024/presentation/?id=papers_508&sess=sess223",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia 正式名单列浙大和北大，未见调查企业人员；同名的海外研究者不纳入。"
+      },
+      {
+        "title": "QPoser: Quantized Explicit Pose Prior Modeling for Controllable Pose Generation",
+        "year": 2023,
+        "url": "https://arxiv.org/html/2312.01104v1",
+        "outcome": "no-evidence",
+        "note": "原稿作者均署浙大 CAD&CG；研究提出人体姿态量化模型，与使用语言模型解析提示的 CPoser 分列。"
+      }
+    ],
+    "note": "已核对作者公开书目的首批论文与首发版本，继续按公开书目逐项核对。"
   }
 };
