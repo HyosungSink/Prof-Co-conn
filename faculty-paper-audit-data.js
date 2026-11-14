@@ -55095,5 +55095,62 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已对照港城大公开书目、正式刊会、作者履历与早期稿，区分港城大教师与腾讯员工时期。不列尚未发表且无该教师早期署名的接收条目。其他作品仍待核对。"
+  },
+  "uZdQxkwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sds.fudan.edu.cn/a4/2f/c22442a238639/page.htm",
+      "https://scholar.google.com/citations?user=uZdQxkwAAAAJ&hl=en",
+      "https://rhyang2021.github.io/",
+      "https://dblp.org/pid/01/2462.html",
+      "https://kw.fudan.edu.cn/publications"
+    ],
+    "papers": [
+      {
+        "title": "UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation",
+        "year": 2025,
+        "url": "https://aclanthology.org/2025.emnlp-main.1543/",
+        "outcome": "confirmed",
+        "note": "正式稿与首稿明确该学生在腾讯 AI Lab 实习期间完成，同篇有复旦导师阳德青和腾讯黄昕庭。"
+      },
+      {
+        "title": "Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2602.12662v1",
+        "outcome": "confirmed",
+        "note": "首稿具名复旦博士生杨睿涵在腾讯混元实习完成；同篇列他同期的企业导师 Fanghua Ye 和复旦导师阳德青。"
+      },
+      {
+        "title": "The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2503.16024v2",
+        "outcome": "existing",
+        "note": "复旦杨睿涵、阳德青和腾讯 Jian Li 的既有确认；2025-03 首稿与 NeurIPS 正式稿是同一论文。"
+      },
+      {
+        "title": "LoGU: Long-form Generation with Uncertainty Expressions",
+        "year": 2024,
+        "url": "https://aclanthology.org/2025.acl-long.928/",
+        "outcome": "existing",
+        "note": "既有记录：原文具名腾讯 AI Lab 实习，复旦博士导师和腾讯员工同篇。2024-10 首稿、ACL 2025 正式稿属同一项；后续 UNCLE 独立。"
+      },
+      {
+        "title": "ARIA: Training Language Agents with Intention-Driven Reward Aggregation",
+        "year": 2025,
+        "url": "https://aria-agent.github.io/",
+        "outcome": "lead",
+        "note": "作者正式项目页列字节 Seed 江杰杰与复旦师生；杨睿涵履历列同期腾讯及月之暗面，没有说明在字节参与本项研究。"
+      },
+      {
+        "title": "Deep Research as Rubric for Reinforcement Learning",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2606.01091v1",
+        "outcome": "lead",
+        "note": "公开原文明确复旦与小红书共同署名，两名复旦作者双署小红书。尚缺具名的实际校内导师和学生在小红书完成同项研究的独立证据。"
+      }
+    ],
+    "note": "已核 6 篇，结合复旦公开书目、第一方 Google 学术、学生正式履历和原文。其余作品仍待补查。"
   }
 };

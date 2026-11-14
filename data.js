@@ -45195,6 +45195,108 @@ const survey = {
         ]
       ],
       "evidence": "正式文章首页直接将这项研究联系到复旦硕士生江彪的腾讯 PCG 实习，并署名其复旦导师陈涛及腾讯研究员俞刚。首次公开为 2023-06-26，按原脚注和同期记录确认，不与其他同名论文或后续 MotionGPT3 合并。"
+    },
+    {
+      "id": "tencent-uncle-fudan-deqing-yang",
+      "company": "腾讯",
+      "team": "AI Lab",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "阳德青 · Deqing Yang",
+        "复旦大学大数据学院副教授、博士生导师；EMNLP 正式论文署复旦大学，并列通讯作者。",
+        "https://sds.fudan.edu.cn/a4/2f/c22442a238639/page.htm"
+      ],
+      "employee": [
+        "黄昕庭 · Xinting Huang",
+        "本人公开履历明确 2022 年 2 月起为腾讯资深研究员；正式论文以腾讯 AI Lab 署名。",
+        "https://timhuang1.github.io/"
+      ],
+      "student": [
+        "杨睿涵 · Ruihan Yang",
+        "复旦大学统计学博士生；履历列 2024 年 3–10 月在腾讯 AI Lab 实习研究长文本不确定性表达，个人主页将 UNCLE 列为该方向代表产出。",
+        "https://rhyang2021.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "杨睿涵在本人教育经历中具名列阳德青为复旦大学统计学博士导师。",
+        "https://rhyang2021.github.io/"
+      ],
+      "title": "UNCLE: Benchmarking Uncertainty Expressions in Long-Form Generation",
+      "short": "UNCLE",
+      "date": "2025-05-22",
+      "venue": "EMNLP 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2025.emnlp-main.1543/",
+      "extra": [
+        [
+          "正式论文首面与腾讯实习脚注",
+          "https://aclanthology.org/2025.emnlp-main.1543.pdf"
+        ],
+        [
+          "2025-05-22 首次公开稿",
+          "https://arxiv.org/abs/2505.16922v1"
+        ],
+        [
+          "阳德青 Google 学术个人档案",
+          "https://scholar.google.com/citations?user=uZdQxkwAAAAJ&hl=en"
+        ],
+        [
+          "arXiv 首稿与具名实习说明",
+          "https://arxiv.org/html/2505.16922v1"
+        ]
+      ],
+      "evidence": "正式论文首面在共同第一作者杨睿涵和 Caiqi Zhang 的上标中注明在腾讯 AI Lab 实习完成。杨的本人履历列出该实习时段、长文本不确定性方向和同篇工作的归属；企业作者黄昕庭正式在任，复旦大学博导阳德青同篇署名。基准评估与其同团队此前 LoGU 生成方法是不同论文，交叉检查正式目录和题名后未发现关系索引重复。",
+      "paperId": "arxiv:2505.16922"
+    },
+    {
+      "id": "tencent-cogrouter-fudan-deqing-yang",
+      "company": "腾讯",
+      "team": "腾讯混元 · 数字人团队",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "阳德青 · Deqing Yang",
+        "复旦大学大数据学院副教授、博士生导师，在同篇论文署复旦大学。",
+        "https://sds.fudan.edu.cn/a4/2f/c22442a238639/page.htm"
+      ],
+      "employee": [
+        "Fanghua Ye",
+        "同篇腾讯混元通讯作者；杨睿涵的公开履历具名其为腾讯混元实习期间的企业导师。",
+        "https://rhyang2021.github.io/#experience"
+      ],
+      "student": [
+        "杨睿涵 · Ruihan Yang",
+        "复旦统计学在读博士，2024 年 10 月至 2025 年 10 月在腾讯混元数字人团队任科研实习生；同篇脚注明确说明该研究是在此期间完成。",
+        "https://rhyang2021.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "杨睿涵在本人教育经历中具名列阳德青为复旦大学统计学博士导师。",
+        "https://rhyang2021.github.io/"
+      ],
+      "title": "Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents",
+      "short": "CogRouter",
+      "date": "2026-02-13",
+      "venue": "arXiv",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2602.12662v1",
+      "extra": [
+        [
+          "首稿日期和完整署名",
+          "https://arxiv.org/abs/2602.12662v1"
+        ],
+        [
+          "论文源代码",
+          "https://github.com/rhyang2021/CogRouter"
+        ],
+        [
+          "腾讯混元任职期间独立正式论文",
+          "https://papers.neurips.cc/paper_files/paper/2025/file/f09e8dd9274cb7c2dd0dc65ffc6f427a-Paper-Conference.pdf"
+        ]
+      ],
+      "evidence": "首稿在复旦第一作者杨睿涵名下明确说明论文完成于腾讯混元实习。杨的公开履历同时具名复旦博士导师阳德青和腾讯阶段企业导师 Fanghua Ye，二人均在同篇署名。研究于 2026-02-13 首次公开，与较早的 Lighthouse 方法和论文分开计算。",
+      "paperId": "arxiv:2602.12662"
     }
   ]
 };
