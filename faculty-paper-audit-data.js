@@ -445,7 +445,9 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://coai.cs.tsinghua.edu.cn/hml",
-      "https://aclanthology.org/people/jiale-cheng/"
+      "https://aclanthology.org/people/jiale-cheng/",
+      "https://www.cs.tsinghua.edu.cn/info/1121/5620.htm",
+      "https://zhuoerfeng.github.io/"
     ],
     "papers": [
       {
@@ -483,6 +485,42 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2023.findings-acl.34.pdf",
         "outcome": "no-evidence",
         "note": "原文所列作者署名均为清华大学，未见目标企业参与证据。"
+      },
+      {
+        "title": "RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis",
+        "url": "https://arxiv.org/html/2603.00686",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
+        "url": "https://arxiv.org/html/2603.00724",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "HoWToBench: Holistic Evaluation for LLM’s Capability in Human-level Writing using Tree of Writing",
+        "url": "https://aclanthology.org/2026.acl-long.317.pdf",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "AlignBench: Benchmarking Chinese Alignment of Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.624.pdf",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "Training Language Model to Critique for Better Refinement",
+        "url": "https://aclanthology.org/2025.findings-acl.1373.pdf",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "CritiqueLLM: Towards an Informative Critique Generation Model for Evaluation of Large Language Model Generation",
+        "url": "https://aclanthology.org/2024.acl-long.704.pdf",
+        "outcome": "lead",
+        "note": "学生和导师及在企实研已有材料，尚未核实同篇企业作者在实际研究期间的正式任职。"
       }
     ],
     "note": "先核对程家乐与黄民烈的部分合作论文，尚未完成该导师整个调查期的公开题录。"
@@ -910,5 +948,228 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对陈林个人成果的一部分和 R-4B。未完成向世明全部论文综排。"
+  },
+  "qkdvKNoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.tsinghua.edu.cn/info/1122/5712.htm",
+      "https://zhuoerfeng.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis",
+        "url": "https://arxiv.org/html/2603.00686",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
+        "url": "https://arxiv.org/html/2603.00724",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "HoWToBench: Holistic Evaluation for LLM’s Capability in Human-level Writing using Tree of Writing",
+        "url": "https://aclanthology.org/2026.acl-long.317.pdf",
+        "outcome": "confirmed",
+        "note": "论文脚注直接核验该学生在企业参加同一研究，另核对导师与企业人员的具名身份。"
+      },
+      {
+        "title": "CritiqueLLM: Towards an Informative Critique Generation Model for Evaluation of Large Language Model Generation",
+        "url": "https://aclanthology.org/2024.acl-long.704.pdf",
+        "outcome": "lead",
+        "note": "学生和导师及在企实研已有材料，尚未核实同篇企业作者在实际研究期间的正式任职。"
+      }
+    ],
+    "note": "先核对具名博士生的部分论文；尚未遍查全部公开发表论文。"
+  },
+  "rTQ9XoQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2406.02230",
+      "https://xiefan-guo.github.io/index.html",
+      "https://scse.buaa.edu.cn/info/1131/3219.htm",
+      "https://www.icaigc.org/2023.html",
+      "https://xiefan-guo.github.io/i4vgen/",
+      "https://arxiv.org/html/2507.22604",
+      "https://xiefan-guo.github.io/papers.html",
+      "https://arxiv.org/html/2404.04650",
+      "https://xiefan-guo.github.io/initno/",
+      "https://dreamoving.github.io/",
+      "https://k-knowledge.kr/srch/read.jsp?id=273309255"
+    ],
+    "papers": [
+      {
+        "title": "I4VGen: Image as Free Stepping Stone for Text-to-Video Generation",
+        "url": "https://arxiv.org/html/2406.02230",
+        "outcome": "confirmed",
+        "note": "预印本在第一作者郭谢帆名字旁直接注明阿里巴巴实习，其本人项目页将这项成果列为阿里巴巴智能计算研究工作；本人主页核实北航博士学籍与导师黄迪。具名导师黄迪和阿里巴巴实验室负责人薄列峰都是同篇作者。"
+      },
+      {
+        "title": "ShortFT: Diffusion Model Alignment via Shortcut-based Fine-Tuning",
+        "url": "https://arxiv.org/html/2507.22604",
+        "outcome": "lead",
+        "note": "学生、导师与企业作者已确定；还需找到郭谢帆在阿里巴巴实习期间参与本篇的具名说明。"
+      },
+      {
+        "title": "InitNO: Boosting Text-to-Image Diffusion Models via Initial Noise Optimization",
+        "url": "https://arxiv.org/html/2404.04650",
+        "outcome": "lead",
+        "note": "有同一组阿里巴巴合著人员，但原文没有指明具体学生在阿里巴巴完成本篇研究。"
+      },
+      {
+        "title": "DreaMoving: A Human Video Generation Framework based on Diffusion Models",
+        "url": "https://dreamoving.github.io/",
+        "outcome": "no-evidence",
+        "note": "郭谢帆参与阿里巴巴研究且同项目有专利，但作者列表未列其校方导师黄迪。"
+      }
+    ]
+  },
+  "j8K1FqEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm",
+      "https://keven980716.github.io/",
+      "https://ruobingxie.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "LaSeR: Reinforcement Learning with Last-Token Self-Rewarding",
+        "url": "https://openreview.net/pdf?id=1OhgEmix20",
+        "outcome": "confirmed",
+        "note": "腾讯实习脚注、博士导师与企业署名相互支持。"
+      },
+      {
+        "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+        "url": "https://arxiv.org/abs/2602.12125",
+        "outcome": "existing",
+        "note": "已列关系，Wenkai Yang、谢若冰、林衍凯。"
+      },
+      {
+        "title": "Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/3e22bea3b170f4c2aebb9c48d98ae64d-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "首版未载而正式版载实习脚注，但企业为微软，不在企业调查名单。"
+      },
+      {
+        "title": "Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents",
+        "url": "https://arxiv.org/abs/2402.11208",
+        "outcome": "lead",
+        "note": "与腾讯人员合著，第一作者在同一时期在腾讯实习，尚无这篇为该实习项目的证据。"
+      },
+      {
+        "title": "Distilling Rule-based Knowledge into Large Language Models",
+        "url": "https://arxiv.org/abs/2311.08883",
+        "outcome": "lead",
+        "note": "与腾讯作者合著、日期与实习重合，尚无证据把具体研究指向实习。"
+      },
+      {
+        "title": "Exploring Backdoor Vulnerabilities of Chat Models",
+        "url": "https://arxiv.org/abs/2404.02406",
+        "outcome": "no-evidence",
+        "note": "脚注指第一作者在高校实习，没有企业作者。"
+      },
+      {
+        "title": "DeepCritic: Deliberate Critique with Large Language Models",
+        "url": "https://arxiv.org/abs/2505.00662",
+        "outcome": "no-evidence",
+        "note": "署名未出现调查范围企业员工。"
+      }
+    ],
+    "note": "已核对 Wenkai Yang 列出的部分论文，未完成林衍凯所有论文综排。"
+  },
+  "pA88bm4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~xphan",
+      "https://chenjiawei30.github.io/",
+      "https://jw.beijing.gov.cn/gjc/tzgg_15688/202606/t20260615_4700536.html"
+    ],
+    "papers": [
+      {
+        "title": "OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling",
+        "url": "https://arxiv.org/html/2610.29472",
+        "outcome": "confirmed",
+        "note": "学生本人将该具名项目归快手，且同篇有校内导师和正式员工。"
+      },
+      {
+        "title": "Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces",
+        "url": "https://arxiv.org/abs/2604.08362",
+        "outcome": "existing",
+        "note": "OmniBehavior 已在基线。"
+      },
+      {
+        "title": "Learning from What Users Do Not Say: Self-Evolving Assistants by Internalizing Latent Thoughts",
+        "url": "https://chenjiawei30.github.io/",
+        "outcome": "lead",
+        "note": "本人主页标注为快手项目并具名论文作者，尚未找到可打开的独立论文。"
+      },
+      {
+        "title": "ConsistentChat: Building Skeleton-Guided Consistent Multi-Turn Dialogues for Large Language Models from Scratch",
+        "url": "https://arxiv.org/abs/2506.03558",
+        "outcome": "no-evidence",
+        "note": "首版公开早于 Jiawei Chen 的快手实习，论文没有快手署名。"
+      }
+    ],
+    "note": "已核对 Jiawei Chen 主页上所列几篇论文，未完成韩先培所有论文综排。"
+  },
+  "F7bvTOEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://hou9612.github.io/",
+      "https://ai.ruc.edu.cn/szdw/zrjs/hd/index.htm",
+      "https://github.com/GeWu-Lab/WCAE"
+    ],
+    "papers": [
+      {
+        "title": "Learning to Predict Advertisement Expansion Moments in Short-Form Video Platforms",
+        "url": "https://doi.org/10.1145/3731715.3733372",
+        "outcome": "lead",
+        "note": "项目感谢三名腾讯员工支持，但致谢人员未署名；第二作者 Kaibing Yang 的身份尚未确认。"
+      }
+    ],
+    "note": "仅核对侯文轩这一条项目线索。"
+  },
+  "v5LctN8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm",
+      "https://aman-4-real.github.io/",
+      "https://yhlleo.github.io/",
+      "https://ruc-aimind.github.io/team/"
+    ],
+    "papers": [
+      {
+        "title": "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing",
+        "url": "https://aclanthology.org/2026.acl-long.647.pdf",
+        "outcome": "confirmed",
+        "note": "曹乾、刘亚辉、宋睿华同篇，实习脚注明确。"
+      },
+      {
+        "title": "Evaluating Text Creativity across Diverse Domains: A Dataset and Large Language Model Evaluator",
+        "url": "https://arxiv.org/abs/2505.19236",
+        "outcome": "lead",
+        "note": "同篇有快手作者，但曹乾列快手实习始于 2025 年 6 月，原始公开稿 5 月，无更早研发参与证据。"
+      },
+      {
+        "title": "Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/0706261aedab63814a2b73c32564b4c4-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "论文直接归属小米实习项目；小米不在当前调查名单。"
+      }
+    ],
+    "note": "核对了曹乾的两项相关研究，正对课题组其他学生的成果交叉查证。"
   }
 };

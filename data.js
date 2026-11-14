@@ -10750,6 +10750,537 @@ const survey = {
         "https://clqwq.press/"
       ],
       "paperId": "arxiv:2609.35457"
+    },
+    {
+      "id": "ravel-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2603.00686",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "清华大学计算机科学与技术系教师、博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1121/5620.htm"
+      ],
+      "employee": [
+        "王存祥 · Cunxiang Wang",
+        "西湖大学 NLP 课题组校友资料具名列为智谱 AI 评测负责人；智谱 2025 年 GLM-4.5 技术报告列为核心研发成员；该篇署名智谱 AI。",
+        "https://westlakenlp.com/team.html"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis",
+      "short": "RAVEL",
+      "date": "2026-02",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2603.00686",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.00686"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "ravel-zhipu-tsinghua-wang",
+      "paperId": "arxiv:2603.00686",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "王宏宁 · Hongning Wang",
+        "2023 年 9 月起任清华大学计算机系长聘副教授、冯卓尔的共同博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1122/5712.htm"
+      ],
+      "employee": [
+        "王存祥 · Cunxiang Wang",
+        "西湖大学 NLP 课题组校友资料具名列为智谱 AI 评测负责人；智谱 2025 年 GLM-4.5 技术报告列为核心研发成员；该篇署名智谱 AI。",
+        "https://westlakenlp.com/team.html"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis",
+      "short": "RAVEL",
+      "date": "2026-02",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2603.00686",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.00686"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "rlar-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2603.00724",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "清华大学计算机科学与技术系教师、博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1121/5620.htm"
+      ],
+      "employee": [
+        "王存祥 · Cunxiang Wang",
+        "西湖大学 NLP 课题组校友资料具名列为智谱 AI 评测负责人；智谱 2025 年 GLM-4.5 技术报告列为核心研发成员；该篇署名智谱 AI。",
+        "https://westlakenlp.com/team.html"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
+      "short": "RLAR",
+      "date": "2026-02",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2603.00724",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.00724"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "rlar-zhipu-tsinghua-wang",
+      "paperId": "arxiv:2603.00724",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "王宏宁 · Hongning Wang",
+        "2023 年 9 月起任清华大学计算机系长聘副教授、冯卓尔的共同博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1122/5712.htm"
+      ],
+      "employee": [
+        "王存祥 · Cunxiang Wang",
+        "西湖大学 NLP 课题组校友资料具名列为智谱 AI 评测负责人；智谱 2025 年 GLM-4.5 技术报告列为核心研发成员；该篇署名智谱 AI。",
+        "https://westlakenlp.com/team.html"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models",
+      "short": "RLAR",
+      "date": "2026-02",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2603.00724",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.00724"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "howtobench-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2604.19071",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "清华大学计算机科学与技术系教师、博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1121/5620.htm"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源 2024 年研讨会的讲者资料具名列为智谱 AI GLM 技术团队研究员；该篇署名智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "HoWToBench: Holistic Evaluation for LLM’s Capability in Human-level Writing using Tree of Writing",
+      "short": "HoWToBench",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.317.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2026.acl-long.317/"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "howtobench-zhipu-tsinghua-wang",
+      "paperId": "arxiv:2604.19071",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "王宏宁 · Hongning Wang",
+        "2023 年 9 月起任清华大学计算机系长聘副教授、冯卓尔的共同博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1122/5712.htm"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源 2024 年研讨会的讲者资料具名列为智谱 AI GLM 技术团队研究员；该篇署名智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "HoWToBench: Holistic Evaluation for LLM’s Capability in Human-level Writing using Tree of Writing",
+      "short": "HoWToBench",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.317.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2026.acl-long.317/"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "alignbench-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2311.18743",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "清华大学计算机科学与技术系教师、博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1121/5620.htm"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源 2024 年研讨会的讲者资料具名列为智谱 AI GLM 技术团队研究员；该篇署名智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "冯卓尔 · Andrew Zhuoer Feng",
+        "2022 年 9 月入读清华大学计算机博士，2023 年 8 月起在智谱评测团队全职研究实习。本篇脚注点名说明该研究在其实习期间开展。",
+        "https://zhuoerfeng.github.io/"
+      ],
+      "title": "AlignBench: Benchmarking Chinese Alignment of Large Language Models",
+      "short": "AlignBench",
+      "date": "2024-08",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.acl-long.624.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2024.acl-long.624/"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "清华大学博士生冯卓尔在个人主页明确列黄民烈为导师、王宏宁为共同导师。",
+        "https://zhuoerfeng.github.io/"
+      ]
+    },
+    {
+      "id": "critique-refinement-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2506.22157",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "清华大学计算机科学与技术系教师、博士生导师，同篇署名。",
+        "https://www.cs.tsinghua.edu.cn/info/1121/5620.htm"
+      ],
+      "employee": [
+        "王存祥 · Cunxiang Wang",
+        "西湖大学 NLP 课题组校友资料具名列为智谱 AI 评测负责人；智谱 2025 年 GLM-4.5 技术报告列为核心研发成员；该篇署名智谱 AI。",
+        "https://westlakenlp.com/team.html"
+      ],
+      "student": [
+        "程家乐 · Jiale Cheng",
+        "清华大学在读博士。正式论文具名说明，程家乐在智谱 AI 实习期间参与完成这项工作。",
+        "https://cips-cl.org/?p=89141"
+      ],
+      "title": "Training Language Model to Critique for Better Refinement",
+      "short": "RCO",
+      "date": "2025-07",
+      "venue": "Findings of ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2025.findings-acl.1373.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2025.findings-acl.1373/"
+        ],
+        [
+          "智谱同期技术报告（研发成员）",
+          "https://arxiv.org/html/2508.06471#S6"
+        ]
+      ],
+      "evidence": "同篇论文作者和脚注核实导师、清华在读学生及智谱实习项目，独立具名公开资料核对该学生的导师与企业作者当时的身份。",
+      "advising": [
+        "校内博士生指导",
+        "计算语言学专业委员会报告人资料明确说明程家乐师从黄民烈。",
+        "https://cips-cl.org/?p=89141"
+      ]
+    },
+    {
+      "id": "alibaba-i4vgen-beihang-di-huang",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "北京航空航天大学",
+      "studentSchool": "北京航空航天大学",
+      "faculty": [
+        "黄迪 · Di Huang",
+        "北京航空航天大学计算机学院教授，本篇作者。",
+        "https://scse.buaa.edu.cn/info/1131/3219.htm"
+      ],
+      "student": [
+        "郭谢帆 · Xiefan Guo",
+        "北京航空航天大学博士生；本篇在其姓名旁标明阿里巴巴实习。",
+        "https://xiefan-guo.github.io/index.html"
+      ],
+      "advising": [
+        "博士导师",
+        "郭谢帆本人主页明确列黄迪为北航计算机博士阶段导师。",
+        "https://xiefan-guo.github.io/index.html"
+      ],
+      "employee": [
+        "薄列峰 · Liefeng Bo",
+        "2023 年行业会议资料记载其为阿里巴巴 XR 实验室负责人；2024 年版本署名阿里巴巴。",
+        "https://www.icaigc.org/2023.html"
+      ],
+      "title": "I4VGen: Image as Free Stepping Stone for Text-to-Video Generation",
+      "short": "I4VGen",
+      "date": "2024-06",
+      "venue": "arXiv 预印本",
+      "area": "多模态与视觉生成",
+      "paper": "https://arxiv.org/html/2406.02230",
+      "extra": [
+        [
+          "原作者项目页",
+          "https://xiefan-guo.github.io/i4vgen/"
+        ]
+      ],
+      "evidence": "预印本在第一作者郭谢帆名字旁直接注明阿里巴巴实习，其本人项目页将这项成果列为阿里巴巴智能计算研究工作；本人主页核实北航博士学籍与导师黄迪。具名导师黄迪和阿里巴巴实验室负责人薄列峰都是同篇作者。"
+    },
+    {
+      "id": "tencent-laser-ruc-lin",
+      "company": "腾讯",
+      "team": "混元大模型部",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "林衍凯 · Yankai Lin",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm"
+      ],
+      "employee": [
+        "谢若冰 · Ruobing Xie",
+        "本人主页列出 2017 年 7 月起任腾讯研究员，任职于混元团队；同篇署腾讯大模型部。",
+        "https://ruobingxie.github.io/"
+      ],
+      "student": [
+        "Wenkai Yang",
+        "本人主页列出 2023 年 9 月起在人大高瓴人工智能学院读博；2025 年 7 月至 2026 年 3 月在腾讯混元研究实习。",
+        "https://keven980716.github.io/"
+      ],
+      "title": "LaSeR: Reinforcement Learning with Last-Token Self-Rewarding",
+      "short": "LaSeR",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "语言模型与智能体",
+      "paper": "https://openreview.net/pdf?id=1OhgEmix20",
+      "evidence": "ICLR 正式论文首页将第一作者 Wenkai Yang 的工作标为腾讯实习完成；同篇作者谢若冰署腾讯大模型部，林衍凯任通讯作者。",
+      "advising": [
+        "博士生导师",
+        "Wenkai Yang 的本人主页明确列出林衍凯指导其人大博士学业。",
+        "https://keven980716.github.io/"
+      ],
+      "extra": [
+        [
+          "正式论文集",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e711dbcd6fb91da02c6d0599ec633c80-Abstract-Conference.html"
+        ],
+        [
+          "公开预印本",
+          "https://arxiv.org/html/2510.14943"
+        ]
+      ],
+      "paperId": "arxiv:2510.14943"
+    },
+    {
+      "id": "kuaishou-omnisimulator-ucas-han",
+      "company": "快手",
+      "team": "基座模型与应用团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "韩先培 · Xianpei Han",
+        "中国科学院软件研究所研究员、中国科学院大学博士生导师。",
+        "https://people.ucas.ac.cn/~xphan"
+      ],
+      "employee": [
+        "李晗 · Han Li",
+        "2026 年 6 月北京市教委发布的快手学术活动列其为快手基础大模型与应用部、推荐模型部负责人；论文亦署快手。",
+        "https://jw.beijing.gov.cn/gjc/tzgg_15688/202606/t20260615_4700536.html"
+      ],
+      "student": [
+        "Jiawei Chen",
+        "中国科学院大学软件工程硕士在读；2025 年 9 月起在快手基座模型与应用团队研究实习，导师为 Xiangyu Wu，负责用户行为模拟。",
+        "https://chenjiawei30.github.io/"
+      ],
+      "title": "OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling",
+      "short": "OmniSimulator",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2610.29472",
+      "evidence": "Jiawei Chen 在本人主页将 OmniSimulator 单独标为快手项目、说明自己是项目第一作者；论文署国科大 Jiawei Chen、中国科学院软件所韩先培，以及快手的李晗与企业导师 Xiangyu Wu。",
+      "advising": [
+        "校内共同导师",
+        "Jiawei Chen 在本人主页明确称由韩先培和 Yaojie Lu 共同指导其国科大硕士学业。",
+        "https://chenjiawei30.github.io/"
+      ],
+      "extra": [
+        [
+          "作者项目仓库",
+          "https://github.com/icip-cas/OmniSimulator"
+        ]
+      ],
+      "paperId": "arxiv:2610.29472"
+    },
+    {
+      "id": "kuaishou-dpwriter-ruc-song",
+      "company": "快手",
+      "team": "基座大模型团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "宋睿华 · Ruihua Song",
+        "2020 年 9 月起任中国人民大学高瓴人工智能学院长聘副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/srh/index.htm"
+      ],
+      "employee": [
+        "刘亚辉 · Yahui Liu",
+        "个人主页列出在快手任研究员，代表作列 DPWriter；论文署快手。",
+        "https://yhlleo.github.io/"
+      ],
+      "student": [
+        "曹乾 · Qian Cao",
+        "中国人民大学高瓴人工智能学院博士生；本人列出 2025 年 6 月至 2026 年 1 月在快手基座大模型团队研究实习。",
+        "https://aman-4-real.github.io/"
+      ],
+      "title": "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing",
+      "short": "DPWriter",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.647.pdf",
+      "evidence": "ACL 正式论文首页明确标注曹乾在快手科技实习期间完成工作。曹乾、在快手担任研究员的刘亚辉、曹乾的博士导师宋睿华均具名署名。",
+      "advising": [
+        "博士生导师",
+        "曹乾本人主页明确列出宋睿华指导其中国人民大学博士学业。",
+        "https://aman-4-real.github.io/"
+      ],
+      "extra": [
+        [
+          "ACL 论文首页",
+          "https://aclanthology.org/2026.acl-long.647/"
+        ],
+        [
+          "中国人民大学论文录用公告",
+          "https://news.ruc.edu.cn/2046132078609838081.html"
+        ]
+      ],
+      "paperId": "arxiv:2601.09609"
     }
   ]
 };
