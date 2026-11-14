@@ -38088,6 +38088,333 @@ const survey = {
         ]
       ],
       "evidence": "Springer 的 ICDAR 正式版明确本项研究在共同第一作者华威于腾讯实习期间完成。学校公示具名确认华威的在读身份及导师白翔，正式版也列白翔为通讯作者。同篇作者蒋德强署腾讯优图，前后论文署名和同期公开专利转让记录交叉核对其在腾讯的研发任职。"
+    },
+    {
+      "id": "overthinking-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2412.21187",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯 AI Lab 首席研究员；本人任职介绍及学生履历可核，原文共著并署腾讯。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "何志威 · Zhiwei He",
+        "上交在读博士，个人明确校内导师王瑞；对应版本原文具名他在腾讯 AI Lab 实习时完成研究。",
+        "https://zwhe99.github.io/"
+      ],
+      "short": "Overthinking",
+      "title": "Do NOT Think That Much for 2+3=? On the Overthinking of Long Reasoning Models",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "语言模型与机器翻译",
+      "paper": "https://proceedings.mlr.press/v267/chen25bx.html",
+      "extra": [
+        [
+          "2025 年 2 月 1 日 v2 首页具名实习脚注",
+          "https://arxiv.org/pdf/2412.21187v2"
+        ],
+        [
+          "正式实验证据",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25bx/chen25bx.pdf"
+        ],
+        [
+          "教师组名单",
+          "https://wangruinlp.github.io/"
+        ]
+      ],
+      "evidence": "2025 年 2 月 1 日 arXiv v2 PDF 首页脚注明确何志威及陈星宇在腾讯实习期间完成；ICML 正式版保留两位学生双署和同一作者群。王瑞是至少一位具名学生的学术导师，涂兆鹏同期在腾讯并合著。正式版题名稍改，合计一篇。",
+      "advising": [
+        "博士生导师",
+        "学生公开履历具名王瑞为上交博士导师。",
+        "https://zwhe99.github.io/"
+      ]
+    },
+    {
+      "id": "hybrid-policy-distillation-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2604.20244",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Ruobing Xie",
+        "本人主页明确为腾讯混元高级研究员并列该篇；ICML 原文署腾讯并为共同通讯。",
+        "https://ruobingxie.github.io/"
+      ],
+      "student": [
+        "Wenhong Zhu",
+        "上交在读，王瑞组名录确认为本人学生；2022 年起硕士、2024 年起博士；2026 年 8 月 8 日 arXiv v2 PDF 首页明确在腾讯混元实习期间开展本研究。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "Hybrid Policy Distillation",
+      "title": "Hybrid Policy Distillation for LLMs",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与机器翻译",
+      "paper": "https://proceedings.mlr.press/v306/zhu26av.html",
+      "extra": [
+        [
+          "arXiv v2 PDF 首页下方具名脚注",
+          "https://arxiv.org/pdf/2604.20244v2"
+        ],
+        [
+          "ICML 正式版",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26av/zhu26av.pdf"
+        ]
+      ],
+      "evidence": "2026 年 8 月 8 日的 arXiv v2 PDF 首页下方，ICML 版式作者终稿明确 Wenhong Zhu 在腾讯混元实习完成，王瑞校内导师和腾讯员工 Ruobing Xie 分别署上交与腾讯，均为同篇通讯。",
+      "advising": [
+        "校内导师",
+        "王瑞本人课题组名单具名学生及研究生入学年份，正式原文另有王瑞的上交署名。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "hate-tencent-sjtu-h6vhkjoaaaaj",
+      "paperId": "arxiv:2509.26126",
+      "company": "腾讯",
+      "team": "腾讯混元 · 数字人算法团队",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "赵海 · Hai Zhao",
+        "上海交大计算机学院教授、博士生导师；同篇原文上交署名。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/zhaohai.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯混元数字人算法负责人，本人主页与对应仓库中团队初始提交证明任职与公司项目角色；同篇企业通讯。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "Xinbei Ma",
+        "同期上交在读博士，赵海和 Zhuosheng Zhang 共同指导。原文第一作者双署腾讯／上交；本人账号随后在腾讯官方仓库具体提交 HATE 实验代码。",
+        "https://bcmi.sjtu.edu.cn/home/zhangzs/member.html"
+      ],
+      "title": "The Hunger Game Debate: On the Emergence of Over-Competition in Multi-Agent Systems",
+      "short": "HATE",
+      "date": "2025-09",
+      "venue": "arXiv 预印本",
+      "area": "多智能体推理",
+      "paper": "https://arxiv.org/pdf/2509.26126",
+      "extra": [
+        [
+          "作者学生身份及公开指导",
+          "https://bcmi.sjtu.edu.cn/home/zhangzs/"
+        ],
+        [
+          "腾讯产品组公开代码",
+          "https://github.com/Tencent/DigitalHuman/tree/main/HATE"
+        ],
+        [
+          "学生具名的 HATE 代码提交",
+          "https://github.com/Tencent/DigitalHuman/commit/9f477872f3c01b7e56c11d23e446ebe6a1537bb2"
+        ],
+        [
+          "公司作者初始加入项目",
+          "https://github.com/Tencent/DigitalHuman/commits/main/HATE"
+        ]
+      ],
+      "evidence": "原文双署上海交大与腾讯的第一作者 Xinbei Ma 是赵海同期在读博士。赵海及企业通讯、公示正式任职的 Zhaopeng Tu 均在原文；学生在原文明确指向的腾讯数字人研发仓库中由本人署名账号提交 HATE 实验实现。以具体企业研究贡献成立，不推定人事关系类型。",
+      "advising": [
+        "博士生联合指导",
+        "上海交大校内课题组公开资料明确 Xinbei Ma 由赵海与 Zhuosheng Zhang 联合指导，2021 年入学。",
+        "https://bcmi.sjtu.edu.cn/home/zhangzs/member.html"
+      ]
+    },
+    {
+      "id": "tencent-motioncomposer-hkustgz-li-liu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Li LIU",
+        "香港科技大学（广州）人工智能学域助理教授，本论文通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"
+      ],
+      "student": [
+        "汪金婷 · Jinting Wang",
+        "2023 年起为港科大（广州）博士，2023–2024 年腾讯 AI Lab 实习；本文星号明确在实习期开展。",
+        "https://beria-moon.github.io/files/MotionComposer_CameraReady.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "汪金婷本人主页明确具名刘李为博士导师。",
+        "https://beria-moon.github.io/"
+      ],
+      "employee": [
+        "Jun Wang",
+        "第三作者独立署名腾讯 AI Lab；同期《Rhythmic Foley》为独立腾讯通讯作者，2019–2021 连续以腾讯官方地址发表该方向论文。",
+        "https://arxiv.org/pdf/2409.08628"
+      ],
+      "title": "MotionComposer: Enhancing Rhythmic Music Generation with Adaptive Retrieval Reference",
+      "short": "MotionComposer",
+      "date": "2025-04",
+      "venue": "ICASSP 2025",
+      "area": "多模态音频生成",
+      "paper": "https://doi.org/10.1109/ICASSP49660.2025.10889094",
+      "extra": [
+        [
+          "作者公开的正式终稿及实习脚注",
+          "https://beria-moon.github.io/files/MotionComposer_CameraReady.pdf"
+        ],
+        [
+          "企业作者单人署腾讯的正式论文",
+          "https://www.isca-archive.org/interspeech_2020/wang20y_interspeech.pdf"
+        ]
+      ],
+      "evidence": "作者公开的 ICASSP 终稿首页将星号仅附于汪金婷，注明论文在腾讯 AI Lab 实习期间完成。本人列 2023–2024 腾讯实习、2023 起港科大（广州）人工智能学域博士，并具名导师刘李。企业作者 Jun Wang 同篇独立署腾讯；同主题同期正式论文有腾讯独立通讯身份及商用域邮箱，另有较早的腾讯署名单作者正式论文支持连续任职。"
+    },
+    {
+      "id": "tencent-fineportraitist-hkustgz-li-liu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Li LIU",
+        "香港科技大学（广州）人工智能学域助理教授，本论文通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"
+      ],
+      "student": [
+        "汪金婷 · Jinting Wang",
+        "2023 年起为港科大（广州）博士，2023–2024 年腾讯 AI Lab 实习；本文星号明确在实习期开展。",
+        "https://beria-moon.github.io/files/Fine_portraitist_CameraReady.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "汪金婷本人主页明确具名刘李为博士导师。",
+        "https://beria-moon.github.io/"
+      ],
+      "employee": [
+        "Jun Wang",
+        "第三作者独立署名腾讯 AI Lab；同期《Rhythmic Foley》为独立腾讯通讯作者，2019–2021 连续以腾讯官方地址发表该方向论文。",
+        "https://arxiv.org/pdf/2409.08628"
+      ],
+      "title": "Fine-portraitist: Visualizing the Speaker’s Face Portrait during Speech Listening",
+      "short": "Fine-portraitist",
+      "date": "2025-04",
+      "venue": "ICASSP 2025",
+      "area": "多模态音频生成",
+      "paper": "https://doi.org/10.1109/ICASSP49660.2025.10889904",
+      "extra": [
+        [
+          "作者公开的正式终稿及实习脚注",
+          "https://beria-moon.github.io/files/Fine_portraitist_CameraReady.pdf"
+        ],
+        [
+          "企业作者单人署腾讯的正式论文",
+          "https://www.isca-archive.org/interspeech_2020/wang20y_interspeech.pdf"
+        ]
+      ],
+      "evidence": "作者公开的 ICASSP 终稿首页将星号仅附于汪金婷，注明论文在腾讯 AI Lab 实习期间完成。本人列 2023–2024 腾讯实习、2023 起港科大（广州）人工智能学域博士，并具名导师刘李。企业作者 Jun Wang 同篇独立署腾讯；同主题同期正式论文有腾讯独立通讯身份及商用域邮箱，另有较早的腾讯署名单作者正式论文支持连续任职。"
+    },
+    {
+      "id": "huawei-ssl-tokens-cuhk-xunying-liu",
+      "company": "华为",
+      "team": "诺亚方舟实验室（香港）",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "LIU Xunying Andrew",
+        "香港中文大学系统工程与工程管理学系副教授，本论文同篇作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/"
+      ],
+      "student": [
+        "Mingyu Cui",
+        "港中文博士在读，2024-06 至 2025-06 为华为诺亚方舟实验室实习生。原文具名脚注明确本篇。",
+        "https://arxiv.org/pdf/2409.08805"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人明确列刘循英为博士导师，刘循英的学校站点也列他为博士生。",
+        "https://cuimingyu.github.io/"
+      ],
+      "employee": [
+        "谭达新 · Daxin Tan",
+        "论文中的华为诺亚方舟实验室作者，华为香港研究中心发布的 DSTK 列为企业团队核心开发者，会议手册另具名确认华为任职。",
+        "https://huggingface.co/DiscreteSpeech/DSTK"
+      ],
+      "title": "Exploring SSL Discrete Tokens for Multilingual ASR",
+      "short": "SSL Tokens for Multilingual ASR",
+      "date": "2024-09",
+      "venue": "arXiv",
+      "area": "自动语音识别",
+      "paper": "https://arxiv.org/abs/2409.08805",
+      "extra": [
+        [
+          "刘循英的正式学校团队网页",
+          "https://www1.se.cuhk.edu.hk/~xyliu/"
+        ],
+        [
+          "第一作者公开博士和实习时间",
+          "https://cuimingyu.github.io/"
+        ],
+        [
+          "企业员工公开任职履历",
+          "https://hk.linkedin.com/in/daxin-tan-b41870103"
+        ]
+      ],
+      "evidence": "原始预印本首页剑号只附于第一作者 Mingyu Cui，注明在华为诺亚方舟实验室实习期间完成。本人列 2024 年 6 月至 2025 年 6 月华为实习、同期港中文博士并具名导师刘循英；刘循英为同篇作者。Daxin Tan 以华为诺亚方舟实验室署名并为华为研究团队正式工具作者。2026 年另有相似题名、腾讯作者且多数作者不同的 ICASSP 版本；尚未找到该正式版直接承认沿用此稿、也未确认腾讯此篇分工，因此此处只计华为原文。"
+    },
+    {
+      "id": "alibaba-platonic-brain-hkustgz-li-liu",
+      "company": "阿里巴巴",
+      "team": "Token Hub",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "Li LIU",
+        "香港科技大学（广州）人工智能学域助理教授，本论文通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Li/avrillliu#new_tab"
+      ],
+      "student": [
+        "张鹏飞 · Pengfei Zhang",
+        "港科大（广州）人工智能在读博士；论文利益冲突声明明确是在阿里巴巴 Token Hub 实习期间完成。",
+        "https://github.com/zpforlove"
+      ],
+      "advising": [
+        "论文研究指导",
+        "v4 作者贡献部分明确刘李和张鹏飞共同构思，刘李监督研究并参与写作。",
+        "https://arxiv.org/pdf/2609.10947v4"
+      ],
+      "employee": [
+        "Biao Tian",
+        "同篇署名阿里巴巴 Token Hub，论文利益冲突声明明确 Biao Tian 和 Xiangang Li 是阿里巴巴集团员工。",
+        "https://arxiv.org/pdf/2609.10947v4"
+      ],
+      "title": "The Platonic brain bridge hypothesis: brain networks as architectural priors for multimodal large language models",
+      "short": "Platonic brain bridge",
+      "date": "2026-09",
+      "venue": "arXiv",
+      "area": "多模态大模型与脑启发架构",
+      "paper": "https://arxiv.org/abs/2609.10947",
+      "extra": [
+        [
+          "论文 v4 具名实习、员工和研究指导说明",
+          "https://arxiv.org/pdf/2609.10947v4"
+        ],
+        [
+          "港科大（广州）人工智能学域同期博士身份通报",
+          "https://mp.weixin.qq.com/s/xLK05FpoESB506PA3lAq-Q"
+        ]
+      ],
+      "evidence": "2026 年 11 月 11 日的 v4 页尾「作者贡献」明确列刘李与张鹏飞共同构思、刘李监督整体研究；「利益冲突」明确列张鹏飞在阿里巴巴 Token Hub 实习期间完成此篇，并明确两位共同作者 Biao Tian、Xiangang Li 为阿里巴巴员工。张鹏飞的本人主页及人工智能学域发布的同期 ICML 通报均确认其港科大（广州）在读博士身份。只记录同篇的具名指导，不外推正式博士导师任命。"
     }
   ]
 };
