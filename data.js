@@ -34301,6 +34301,92 @@ const survey = {
         ]
       ],
       "evidence": "第一作者李靖瑶在其履历的阿里通义实习栏目明确列出 DynamicBench 为在职研究成果；其港中文博士指导教师贾佳亚按校方公告于 2024 年转任港科大，原文列港科大署名。阿里通义研究人员蒋勇为该篇共同作者，企业亦把论文列入其成果清单。"
+    },
+    {
+      "id": "tencent-cpo-ruc-yankai-lin",
+      "company": "腾讯",
+      "team": "微信研究团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "林衍凯 · Yankai Lin",
+        "2022 年 9 月起于中国人民大学高瓴人工智能学院任教，现为预聘副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm"
+      ],
+      "employee": [
+        "谢若冰 · Ruobing Xie",
+        "本人履历载 2017 年 7 月起任腾讯高级研究员；论文署腾讯。",
+        "https://ruobingxie.github.io/#education"
+      ],
+      "student": [
+        "郭一驹 · Yiju Guo",
+        "本人简历载 2022 年 9 月起为中国人民大学高瓴人工智能学院博士生，导师为林衍凯。 2023 年 9 月至 2024 年 4 月在腾讯微信实习，简历具名对应到本项 CPO 论文。",
+        "https://yijuguo.github.io/Yiju_Guo_cv.pdf"
+      ],
+      "title": "Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment",
+      "short": "CPO",
+      "date": "2024-11",
+      "venue": "EMNLP",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.emnlp-main.85.pdf",
+      "evidence": "EMNLP 正式版同篇署名郭一驹、林衍凯与腾讯谢若冰；郭一驹的本人简历把这篇 CPO 论文列在腾讯微信 2023 年 9 月至 2024 年 4 月的企业实习项目下。",
+      "advising": [
+        "在读博士导师",
+        "郭一驹本人简历分别具名列林衍凯为人大博士导师和本项目指导者；林衍凯课题组亦将其列为博士生。",
+        "https://yijuguo.github.io/Yiju_Guo_cv.pdf"
+      ],
+      "extra": [
+        [
+          "导师课题组博士生名单",
+          "https://linyankai.github.io/#group"
+        ]
+      ],
+      "paperId": "acl:2024.emnlp-main.85"
+    },
+    {
+      "id": "baidu-lens-ruc-yankai-lin",
+      "company": "百度",
+      "team": "搜索团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "林衍凯 · Yankai Lin",
+        "2022 年 9 月起于中国人民大学高瓴人工智能学院任教，现为预聘副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm"
+      ],
+      "employee": [
+        "孙泽旭 · Zexu Sun",
+        "中国人民大学课题组将其列为毕业后就职百度的校友；2025 年 9 月公开论文已署百度，且本篇同样仅署百度。",
+        "https://www.ai-engine-lab.com/team"
+      ],
+      "student": [
+        "郭一驹 · Yiju Guo",
+        "本人简历载 2022 年 9 月起为中国人民大学高瓴人工智能学院博士生，导师为林衍凯。 2025 年 7 月至 2026 年 1 月在百度搜索实习，简历具名对应到本项 LENS 论文。",
+        "https://yijuguo.github.io/Yiju_Guo_cv.pdf"
+      ],
+      "title": "Less Noise, More Voice: Reinforcement Learning for Reasoning via Instruction Purification",
+      "short": "LENS",
+      "date": "2026-07",
+      "venue": "Findings of ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.findings-acl.659.pdf",
+      "evidence": "ACL 正式版首页脚注标明郭一驹在百度实习期间完成此研究，本人简历也明确写明 LENS 与起止月份；林衍凯为通讯作者，早在 2025 年 9 月已公开署名百度的孙泽旭是同篇百度作者。",
+      "advising": [
+        "在读博士导师",
+        "郭一驹本人简历分别具名列林衍凯为人大博士导师和本项目指导者；林衍凯课题组亦将其列为博士生。",
+        "https://yijuguo.github.io/Yiju_Guo_cv.pdf"
+      ],
+      "extra": [
+        [
+          "人大官方论文报道",
+          "https://ai.ruc.edu.cn/xwgg/xyxw/2026015101.html"
+        ],
+        [
+          "2025 年 9 月百度署名存档",
+          "https://arxiv.org/html/2509.06923v1"
+        ]
+      ],
+      "paperId": "acl:2026.findings-acl.659"
     }
   ]
 };

@@ -88,6 +88,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2504.11455",
         "outcome": "confirmed",
         "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
+      },
+      {
+        "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+        "url": "https://arxiv.org/abs/2606.11188",
+        "outcome": "lead",
+        "note": "王君可列出复旦博士导师与字节实习，但本作于毕业同年公布；从在读研究实习转换到正式任职的时间及当时具体参与角色仍未核实。"
+      },
+      {
+        "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+        "url": "https://arxiv.org/abs/2606.13674",
+        "outcome": "lead",
+        "note": "原文公司同事共同署名。王君可另具名 Robbyant 的 LingBot-VA 2.0 项目，但无独立材料支持此篇亦为他的企业研究实习成果。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -182,6 +194,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2504.11455",
         "outcome": "confirmed",
         "note": "王君可的个人学术履历列其在复旦攻博期间在字节跳动 Seed 实习，并明确把自己第一作者的 SimpleAR 题名标为 ByteDance Seed 成果。2025 年首发时其仍为复旦博士生，原文另具名列出四位字节 Seed 作者。"
+      },
+      {
+        "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+        "url": "https://arxiv.org/abs/2606.11188",
+        "outcome": "lead",
+        "note": "王君可列出复旦博士导师与字节实习，但本作于毕业同年公布；从在读研究实习转换到正式任职的时间及当时具体参与角色仍未核实。"
+      },
+      {
+        "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+        "url": "https://arxiv.org/abs/2606.13674",
+        "outcome": "lead",
+        "note": "原文公司同事共同署名。王君可另具名 Robbyant 的 LingBot-VA 2.0 项目，但无独立材料支持此篇亦为他的企业研究实习成果。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -1546,7 +1570,11 @@ const facultyPaperAudits = {
       "https://ruobingxie.github.io/#education",
       "https://ericshwu.github.io/",
       "https://aclanthology.org/2026.acl-long.1675.pdf",
-      "https://linyankai.github.io/#group"
+      "https://linyankai.github.io/#group",
+      "https://www.ai-engine-lab.com/team",
+      "https://yijuguo.github.io/Yiju_Guo_cv.pdf",
+      "https://aclanthology.org/2024.emnlp-main.85.pdf",
+      "https://aclanthology.org/2026.findings-acl.659.pdf"
     ],
     "papers": [
       {
@@ -1596,6 +1624,30 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.acl-long.1675.pdf",
         "outcome": "confirmed",
         "note": "正式论文致谢具名实习，加上双方独立在读、导师和在职证据。"
+      },
+      {
+        "title": "Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment",
+        "url": "https://aclanthology.org/2024.emnlp-main.85.pdf",
+        "outcome": "confirmed",
+        "note": "一手简历具名将 CPO 对应到腾讯微信研究实习。"
+      },
+      {
+        "title": "Less Noise, More Voice: Reinforcement Learning for Reasoning via Instruction Purification",
+        "url": "https://aclanthology.org/2026.findings-acl.659.pdf",
+        "outcome": "confirmed",
+        "note": "具名百度实习脚注，另有本人简历及百度研究人员的同期署名、毕业去向。"
+      },
+      {
+        "title": "Learning to Focus: Causal Attention Distillation via Gradient-Guided Token Pruning",
+        "url": "https://arxiv.org/abs/2506.07851",
+        "outcome": "no-evidence",
+        "note": "郭一驹本人简历将该工作明确对应到面壁智能实习；百度署名作者不能证明郭在百度参与本项工作，面壁智能不在本项目固定企业名单。"
+      },
+      {
+        "title": "Redesign Mixture-of-Experts Routers with Manifold Power Iteration",
+        "url": "https://arxiv.org/abs/2606.12397",
+        "outcome": "lead",
+        "note": "吴宋浩、林衍凯与独立核实腾讯员工同篇；论文未具名说明是否完成于前一年的腾讯实习，等待该项目的直接证据。"
       }
     ],
     "note": "已核对 Wenkai Yang 列出的部分论文，未完成林衍凯所有论文综排。"
@@ -6676,6 +6728,12 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jin_Diffuman4D_4D_Consistent_Human_View_Synthesis_from_Sparse-View_Videos_with_ICCV_2025_paper.pdf",
         "outcome": "confirmed",
         "note": "靳宇栋本人履历具名列出 2024 年 9 月至 2025 年 7 月在蚂蚁研究实习，并注明 Xuan Wang 为实习导师；此篇企业实习导师同篇署蚂蚁研究，双方均把同篇列为研究成果，且 7 月 17 日首发在该段实习期限内。"
+      },
+      {
+        "title": "EnvGS: Modeling View-Dependent Appearance with Environment Gaussian",
+        "url": "https://arxiv.org/abs/2412.15215",
+        "outcome": "lead",
+        "note": "与同一博士生的其他蚂蚁实习项目不同，公开署名和资助未能证明本篇属于其企业科研实习，也未找到同篇企业导师证据。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -9608,7 +9666,9 @@ const facultyPaperAudits = {
       "https://yangjie-cv.github.io/",
       "https://arxiv.org/html/2605.20035v1",
       "https://ruixiangzhao.github.io/",
-      "https://ruc-aimc-lab.github.io/people/"
+      "https://ruc-aimc-lab.github.io/people/",
+      "https://se-office.ruc.edu.cn/xwdt/3638da1b0ecf44c19bc06a4a5e988b63.htm",
+      "https://ruobingxie.github.io/"
     ],
     "papers": [
       {
@@ -9625,9 +9685,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "Hybrid-Tower: Fine-grained Pseudo-query Interaction and Generation for Text-to-Video Retrieval",
-        "url": "https://arxiv.org/html/2509.04773v1",
+        "url": "https://arxiv.org/html/2509.04773",
         "outcome": "lead",
-        "note": "原文具名兰邦翔本篇腾讯实习；校方报道证实学籍、课题组仅列李锡荣为博导，尚需该学生具名指导。"
+        "note": "原文具名兰邦翔在腾讯实习；谢若冰正式任职身份已确认。未证实兰本人的导师，人大新闻列杨刚为通讯作者。另一位同篇学生赵瑞祥本人确认由李锡荣指导，但其在本项目企业实习未获证明，不能与兰的脚注合并。"
       },
       {
         "title": "Music Grounding by Short Video",
@@ -10418,7 +10478,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/zhangzhuosheng.html",
-      "https://wuzheng02.github.io/"
+      "https://wuzheng02.github.io/",
+      "https://github.com/serein356"
     ],
     "papers": [
       {
@@ -10426,6 +10487,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2605.28534",
         "outcome": "confirmed",
         "note": "上海交大硕士生吴铮本人列出 2026 年 1 至 9 月的美团 LongCat 实习，且将 GUI-CIDER 列为第一作者研究。原文首页点名吴铮在美团实习期间完成研究，同篇顾奇为联合通讯作者。"
+      },
+      {
+        "title": "Causal Probing for Internal Visual Representations in Multimodal Large Language Models",
+        "url": "https://arxiv.org/abs/2605.05593",
+        "outcome": "no-evidence",
+        "note": "第一作者在可核对应期于苏州大学就读，在上海交大是来访科研身份；实验室材料所列上海交大正式入学时间为 2027，超出本轮时间范围。"
+      },
+      {
+        "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
+        "url": "https://arxiv.org/abs/2609.03438",
+        "outcome": "lead",
+        "note": "第一作者公开账号列上海交大本科，实验室有 2027 秋研究生入学信息。暂缺研究发生时具名本科导师及企业参与的对应材料。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -10484,7 +10557,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://www.ai.pku.edu.cn/info/1284/1866.htm",
-      "https://pingzhitang.cv/"
+      "https://pingzhitang.cv/",
+      "https://mulabpku.com/author/yufei-xu/"
     ],
     "papers": [
       {
@@ -10492,6 +10566,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2508.15881",
         "outcome": "confirmed",
         "note": "北京大学在读本科生 Pingzhi Tang 在个人履历列出 2025 年 6 月至 9 月于腾讯优图实习期间做 MLA 张量并行的 KV 缓存研究，得到约 2 倍加速；同页具名把这项具体技术贡献列于 TPLA，且该篇首发时间在实习期内。"
+      },
+      {
+        "title": "TransMLA: Multi-Head Latent Attention Is All You Need",
+        "url": "https://arxiv.org/abs/2502.07864",
+        "outcome": "no-evidence",
+        "note": "已找到学生在腾讯的明确起始时间为 2025 年 6 月，初稿于同年 2 月发布；正式会议版仅致谢企业资助，并不能证实该篇为其企业实习课题。"
+      },
+      {
+        "title": "HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention",
+        "url": "https://arxiv.org/abs/2603.28458",
+        "outcome": "lead",
+        "note": "北大实验室公开名单列许亚非为张牧涵的博士生。原文另有小红书合作者，但未发现许亚非本人在小红书参与本篇研发的材料；另一本科身份并非当期北大在读。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -10657,5 +10743,41 @@ const facultyPaperAudits = {
         "note": "ReSum 于 2025 年 9 月在 Xixi Wu 本人履历所列的阿里通义深度研究团队实习窗口内公开。原文将她标为香港中文大学与阿里通义双署的共同第一作者，企业自己的成果目录亦明确收录该篇。其博士导师程虹与企业研究员蒋勇均为同篇作者。"
       }
     ]
+  },
+  "VYEL_GQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.fudan.edu.cn/c5/30/c30604a443696/page.htm",
+      "https://cscw.fudan.edu.cn/"
+    ],
+    "papers": [
+      {
+        "title": "Fast-Slow Thinking RM: Efficient Integration of Scalar and Generative Reward Models",
+        "url": "https://aclanthology.org/2026.emnlp-main.1526.pdf",
+        "outcome": "lead",
+        "note": "论文具名标记吴家云于美团研究实习，实验室在读博士名录有同名学生。实验室有多位导师，且论文由两位教师共同通讯，暂缺吴家云对应到具体导师的公开证据；亦未核实美团作者在研究时的正式任职。"
+      }
+    ],
+    "note": "核对了公开论文、团队名录和研究期间的身份；尚未穷尽该教师的论文。"
+  },
+  "I_7PXKEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
+      "https://sys111111.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "FOMI: A Force-Feedback Manipulation Interface for Teaching Contact-Rich Manipulation",
+        "url": "https://arxiv.org/abs/2610.19839",
+        "outcome": "lead",
+        "note": "沈奕舒本人的蚂蚁实习早于港科大 2026 年秋入学，未找到与本篇对应的同期实习材料。另一参与者罗一鸣为港大在读，称徐英浩为来访期间的指导者或企业导师，未以其代替校内导师。"
+      }
+    ],
+    "note": "核对了公开论文、团队名录和研究期间的身份；尚未穷尽该教师的论文。"
   }
 };
