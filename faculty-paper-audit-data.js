@@ -8841,7 +8841,11 @@ const facultyPaperAudits = {
       "https://tangtaogo.github.io/publications/",
       "https://graduate.sysu.edu.cn/zsw/sites/default/files/2025-06/%E9%99%84%E4%BB%B6%EF%BC%9A%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A62025%E5%B9%B4%E5%8D%9A%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9F%E5%BD%95%E5%8F%96%E5%90%8D%E5%8D%95%EF%BC%88%E4%B8%8D%E5%90%AB%E7%9B%B4%E5%8D%9A%E7%94%9F%EF%BC%89%20.pdf",
       "https://hanjianhua44.github.io/",
-      "https://www.sysu.edu.cn/news/info/2331/1397411.htm"
+      "https://www.sysu.edu.cn/news/info/2331/1397411.htm",
+      "https://web.archive.org/web/20240503133541/https://eleanor-h.github.io/uploads/_Curriculum_Vitae__Yinya_Huang.pdf",
+      "https://eleanor-h.github.io/",
+      "https://hmzhang.me/cv/resume.pdf",
+      "https://aclanthology.org/2024.acl-long.593/"
     ],
     "papers": [
       {
@@ -8999,6 +9003,13 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "项鲲当期为华为诺亚方舟实习生，华为实习导师同篇；项目页及论文首版均未见具名说明他以企业实习身份开展本项。"
+      },
+      {
+        "title": "CLOMO: Counterfactual Logical Modification with Large Language Models",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2311.17438",
+        "outcome": "confirmed",
+        "note": "作者两份公开 CV 均按论文编号把具体项目列在中山大学博士阶段的腾讯实习，明确具名校内导师梁小丹和企业指导者 Hongming Zhang，均署本文。2023 首稿和 ACL 2024 正式版同项。"
       }
     ],
     "note": "已逐篇梳理部分自动定理证明与多模态成果；其余公开书目仍在核查。"
@@ -11215,7 +11226,14 @@ const facultyPaperAudits = {
     "sources": [
       "http://is.nju.edu.cn/ty/main.htm",
       "https://znan-chen.github.io/",
-      "https://tyshiwo.github.io/"
+      "https://tyshiwo.github.io/",
+      "https://tyshiwo.github.io/group.html",
+      "https://is.nju.edu.cn/94/a3/c57162a758947/page.htm",
+      "https://nju-pcalab.github.io/projects/MotionSight/",
+      "https://tyshiwo.github.io/pub",
+      "https://is.nju.edu.cn/is_en/95/70/c57786a759152/page.htm",
+      "https://huggingface.co/datasets/nkp37/MotionSight/commit/c8626908fa2c2ba7397351fcb3e8ba0a5acaf276",
+      "https://huggingface.co/datasets/nkp37/MotionSight/commit/5c4254417f7e5794fceff4ba86e012ecce1c010c"
     ],
     "papers": [
       {
@@ -11235,6 +11253,48 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2607.01667",
         "outcome": "confirmed",
         "note": "南京大学博士生赵晨的论文首发正式稿脚注具名说明该研究在其美团实习期间完成，研究署名南京大学和美团。"
+      },
+      {
+        "title": "InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption",
+        "url": "https://arxiv.org/pdf/2412.09283",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "首稿 2024-12 已公开，与南可攀南大博士和字节研究实习窗口重叠；论文只标该生南大，另两位字节作者。待找他在企业对此项目实质投入的明确公开依据。"
+      },
+      {
+        "title": "OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/0396ca5a4c628936609aa819bfbca916-Abstract-Conference.html",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "南大官方和 2024-07 首稿脚注均明确本项在南可攀字节实习期完成，邰颖通讯；首稿在该生2024年秋入南京大学博士前，需独立确认他当时在西工大在读且邰颖具名指导，而非毕业后的过渡期或仅推荐。"
+      },
+      {
+        "title": "STAR: Spatial-Temporal Augmentation with Text-to-Video Models for Real-World Video Super-Resolution",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xie_STAR_Spatial-Temporal_Augmentation_with_Text-to-Video_Models_for_Real-World_Video_Super-Resolution_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ICCV 正式明确 Rui Xie 在字节实习完成；同篇邰颖通讯，字节正式员工杨振恒。2025-01 初稿时 Xie 不在南大博士学籍，西南大学是否尚在读、并有邰颖跨校联合指导需证；若学籍在西南大学则非本站学生学校范围。"
+      },
+      {
+        "title": "Accelerating Autoregressive Video Diffusion via History-Guided Cache and Residual Correction",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "南可攀、邰颖及此前字节合作者仍列名，但终稿逐人明确 Penghao Zhou、杨振恒为独立研究人员；无对应期在字节开展同篇科研的直接信息。"
+      },
+      {
+        "title": "OpenVid++: A Large-scale High-quality Dataset for Text-to-video Generation",
+        "url": "https://doi.org/10.1007/s11263-026-02989-8",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "IJCV 2025-08 收稿，追加 OpenVidDy-60K 和运动采样模块，是 OpenVid-1M 的后续扩写。南可攀及邰颖署南大、Penghao Zhou 与杨振恒署目标企业，收稿位于南可攀南大博士和字节实习重叠期，但官方 2024 新闻只明确早版 OpenVid-1M 的实习贡献，暂未找到对具体新增部分的该企业实研证明。"
+      },
+      {
+        "title": "MotionSight: Boosting Fine-Grained Motion Understanding in Multimodal LLMs",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2506.01674",
+        "outcome": "confirmed",
+        "note": "同一正式项目的实名双署、博士关联和实习区间，由南可攀本人账号对官方数据仓库的两份具名核心数据提交互证。2025 年首稿与 ICLR 2026 归并。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -49363,20 +49423,6 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2406.17565",
         "outcome": "lead",
         "note": "学生履历列此成果并列华为云同篇研究团队，但首稿 2024 年 6 月公开，早于履历所列 7 月开始的华为云实习；具体参与身份仍待补核。"
-      },
-      {
-        "title": "xDeepServe: Model-as-a-Service on Huawei CloudMatrix384",
-        "url": "https://arxiv.org/abs/2508.02520",
-        "year": 2025,
-        "outcome": "no-evidence",
-        "note": "华为报告列华为员工和参研的北大博士生 Junhao Hu，但谢涛不署同篇。不能把 ATC DeepServe 署名套用到 xDeepServe。"
-      },
-      {
-        "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
-        "url": "https://arxiv.org/abs/2608.03764",
-        "year": 2026,
-        "outcome": "no-evidence",
-        "note": "Junhao Hu 的公开主页将其列为项目负责人，但项目首稿未见谢涛署名，不能算该师生关系。"
       },
       {
         "year": 2026,

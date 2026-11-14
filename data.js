@@ -44549,6 +44549,125 @@ const survey = {
         ]
       ],
       "evidence": "首稿 2026-07-29 已公开，8 月 11 日机构修订版明确 Jingbin Zhou 等作者属华为。第一作者胡天成及 CCF 报告将他的华为实习项目、北大博士指导和本篇所研究的超节点通讯结合：CCF 使用 ZeroCL 项目名，但同列注册与虚拟地址机制、设备 DMA 和完全一致的 CloudMatrix384 端到端性能指标。按该篇预印本收录，研究和实习在前，7 月首稿在后；未核到正式会议接收。"
+    },
+    {
+      "id": "motionsight-bytedance-nju-ying-tai",
+      "paperId": "arxiv:2506.01674",
+      "company": "字节跳动",
+      "team": "字节跳动视频研究",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "邰颖 · Ying Tai",
+        "论文通讯作者，南京大学智能科学与技术学院副教授、博导。其课题组名录列南可攀为自己的 2024 年秋博士生。",
+        "http://is.nju.edu.cn/ty/main.htm"
+      ],
+      "employee": [
+        "杨振恒 · Zhenheng Yang",
+        "作者本人自述 2021 年结束 Meta 正式工作后在字节跳动研发视觉、多模态与推荐；本篇正式原文具名署字节，同组另有字节作者 Penghao Zhou。",
+        "https://zhenheny.github.io/"
+      ],
+      "student": [
+        "南可攀 · Kepan Nan",
+        "课题组记载为 2024 年秋在读博士生、2024 年 3 月至 2026 年 4 月在字节视频团队实习；本篇原文具名双署南京大学／字节。南可攀本人的 Hugging Face 项目账户保存论文所用 MotionVid-QA 的多轮训练标注与偏好标注，其具名提交在 2025 年 6 月首稿公开后第 4 天；南大实验室项目直接把该仓库列为正式数据出口。",
+        "https://tyshiwo.github.io/group.html"
+      ],
+      "title": "MotionSight: Boosting Fine-Grained Motion Understanding in Multimodal LLMs",
+      "short": "MotionSight",
+      "date": "2025-06-02",
+      "venue": "ICLR 2026",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2506.01674",
+      "extra": [
+        [
+          "ICLR 正式论文题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/034d7bfeace2a9a258648b16fc626298-Abstract-Conference.html"
+        ],
+        [
+          "同研究校方团队项目页",
+          "https://nju-pcalab.github.io/projects/MotionSight/"
+        ],
+        [
+          "南京大学学院披露导师与企业实习",
+          "https://is.nju.edu.cn/94/a3/c57162a758947/page.htm"
+        ],
+        [
+          "学生本人的项目数据账户（回链本人 GitHub）",
+          "https://huggingface.co/nkp37"
+        ],
+        [
+          "校方项目所链接的正式数据集",
+          "https://huggingface.co/datasets/nkp37/MotionSight/tree/main"
+        ],
+        [
+          "南可攀具名提交 MotionVid-QA 训练标注",
+          "https://huggingface.co/datasets/nkp37/MotionSight/commit/c8626908fa2c2ba7397351fcb3e8ba0a5acaf276"
+        ],
+        [
+          "南可攀具名提交 MotionVid-QA 偏好标注",
+          "https://huggingface.co/datasets/nkp37/MotionSight/commit/5c4254417f7e5794fceff4ba86e012ecce1c010c"
+        ]
+      ],
+      "evidence": "2025-06-02 项目首稿位于南可攀南京大学博士在读、字节视频实习两者重叠期；邰颖通讯，杨振恒本人公开履历确认字节正式研发岗位，原文列南可攀南京大学／字节双署。由校方团队项目直接链接的 MotionVid-QA 正式数据仓库中，南可攀账户 2025-06-06 具名提交了实验使用的 all_sft.json 训练标注和 DPO.json 偏好标注，并保存原始视频档案；两份提交是可单独复核的具体论文材料，不是 GitHub 代码仓库的署名或文档编辑。该账户回链其本人 GitHub／学术主页。不把第二名学生 Rui Xie 后来入读南京大学的时间追填到该篇。",
+      "advising": [
+        "具名博士导师",
+        "该生入学、科研实习与师承由邰颖课题组的博士生实名目录和学院材料共同确定；同篇邰颖为通讯。",
+        "https://tyshiwo.github.io/group.html"
+      ]
+    },
+    {
+      "id": "tencent-clomo-sysu-xiaodan-liang",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab · 西雅图",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "faculty": [
+        "梁小丹 · Xiaodan Liang",
+        "中山大学教授，文章首稿和正式版均署中山大学，正式版注明为通讯作者。",
+        "https://ise.sysu.edu.cn/teacher/LiangXiaodan"
+      ],
+      "student": [
+        "Yinya Huang",
+        "2018.09–2023.06 为中山大学在读博士。本人档案逐篇交叉编号，将 CLOMO 及逻辑约束反事实修改研究明确列在 2021.12–2022.08 腾讯 AI Lab 远程研究实习段，学生署名在博士毕业后的首次和正式发表均更新为其港城大博士后单位。",
+        "https://web.archive.org/web/20240503133541/https://eleanor-h.github.io/uploads/_Curriculum_Vitae__Yinya_Huang.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开履历把梁小丹列为中山大学博士导师；最新主页同时认可梁小丹和林倞作为博士导师。林倞不署本篇。",
+        "https://eleanor-h.github.io/"
+      ],
+      "employee": [
+        "Hongming Zhang",
+        "在原文署腾讯 AI Lab，与学生及其导师同篇；公开履历列 2021.11–2025.07 腾讯 AI Lab 高级研究员／负责人，且学生实习档案列其同期在企业指导。",
+        "https://hmzhang.me/cv/resume.pdf"
+      ],
+      "date": "2023-11-29",
+      "year": 2023,
+      "venue": "ACL 2024",
+      "title": "CLOMO: Counterfactual Logical Modification with Large Language Models",
+      "short": "CLOMO",
+      "area": "大语言模型",
+      "paper": "https://aclanthology.org/2024.acl-long.593/",
+      "paperId": "arxiv:2311.17438",
+      "extra": [
+        [
+          "2024 年 5 月首次存档的作者 CV（页 1 博士修读，页 2 论文编号 [10] 与企业项目）",
+          "https://web.archive.org/web/20240503133541/https://eleanor-h.github.io/uploads/_Curriculum_Vitae__Yinya_Huang.pdf"
+        ],
+        [
+          "2025 年存档 CV（论文编号更新为 [12]）",
+          "https://web.archive.org/web/20250620113629/https://eleanor-h.github.io/uploads/_Curriculum_Vitae__Yinya_Huang.pdf"
+        ],
+        [
+          "ACL 正式版，三人同篇署名",
+          "https://aclanthology.org/2024.acl-long.593.pdf"
+        ],
+        [
+          "2023 年 11 月首次公开原文",
+          "https://arxiv.org/html/2311.17438v1"
+        ]
+      ],
+      "evidence": "作者 2024 年公开履历第 1 页明确其 2018.09–2023.06 在中山大学读博、由梁小丹指导，第 2 页把 CLOMO 编号 [10] 明确列入 2021.12–2022.08 的腾讯 AI Lab 研究实习，并展开同篇反事实方法；2025 年版编号 [12] 独立对应。梁小丹在同篇署中山大学；同篇腾讯员工 Hongming Zhang 履历及学生实习档案均给出同期在职、具名企业指导。论文首页另外点名另一位共同一作 Ruixin Hong 实习，因此不能仅靠该脚注替代 Huang 本人的逐篇实习资料。预印本 2023-11-29、正式版 2024-08，不改变其本人博士期间的实习。"
     }
   ]
 };
