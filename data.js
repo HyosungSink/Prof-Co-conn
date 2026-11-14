@@ -34611,6 +34611,54 @@ const survey = {
         ]
       ],
       "evidence": "ICDE 原文脚注具名陈鑫与另一作者在腾讯实习时完成；陈鑫为王思博指导的香港中文大学博士，文中署名港中文。腾讯社交算法团队负责人 Wenqing Lin 同篇共同第一作者与通讯作者。论文在学生获学位后正式发表，实习时原份论文记载学生身份，学校档案同时关联截至 2024 年的同期项目。"
+    },
+    {
+      "id": "tencent-mscsc-cuhk-sibo-wang",
+      "company": "腾讯",
+      "team": "互动娱乐事业群 · 社交算法团队",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "香港中文大学系统工程与工程管理学系教师，原文署香港中文大学。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "student": [
+        "陈鑫 · Xin Chen",
+        "研究期间为港中文博士生，论文第一作者。腾讯研究团队按论文标记他是本篇项目的实习生，王思博组档案列其于 2024 年 10 月获博士学位。",
+        "https://socialalgo.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "王思博的香港中文大学研究组名单列陈鑫为其具名博士毕业生，同文署港中文。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "employee": [
+        "Wenqing Lin",
+        "原文署腾讯，腾讯社交算法团队同期成果记载他是该篇企业团队成员，其个人主页亦记载担任腾讯主要研究员、社交算法团队负责人。",
+        "https://edwlin.github.io/"
+      ],
+      "title": "Minimum Strongly Connected Subgraph Collection in Dynamic Graphs",
+      "short": "MSCSC",
+      "date": "2024-02",
+      "venue": "PVLDB",
+      "area": "图数据挖掘 · 动态社交图",
+      "paper": "https://www.vldb.org/pvldb/vol17/p1324-chen.pdf",
+      "extra": [
+        [
+          "企业团队对本篇逐人标识实习生与正式成员",
+          "https://socialalgo.github.io/"
+        ],
+        [
+          "学生个人书目",
+          "https://jerchenxin.github.io/"
+        ],
+        [
+          "第一作者所在大学托管原文",
+          "https://www1.se.cuhk.edu.hk/~swang/p1183-chen.pdf"
+        ]
+      ],
+      "evidence": "腾讯社交算法团队按文章区分实习生和正式团队成员，明确在 MSCSC 这一篇把第一作者陈鑫标为实习生、Wenqing Lin 标为团队成员。陈鑫同期为港中大博士生，王思博研究组列其为指导的博士毕业生；三人同署原文。"
     }
   ]
 };

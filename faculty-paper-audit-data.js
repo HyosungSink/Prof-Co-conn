@@ -8850,7 +8850,8 @@ const facultyPaperAudits = {
       "https://www.vldb.org/2026/program.html",
       "https://arxiv.org/abs/2604.01707",
       "https://www.vldb.org/pvldb/vol19/p4453-zhou.pdf",
-      "https://openreview.net/forum?id=Kwbc8FXjJP"
+      "https://openreview.net/forum?id=Kwbc8FXjJP",
+      "https://www.vldb.org/pvldb/vol17/p1324-chen.pdf"
     ],
     "papers": [
       {
@@ -8987,9 +8988,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "Minimum Strongly Connected Subgraph Collection in Dynamic Graphs",
-        "url": "https://www1.se.cuhk.edu.hk/~swang/p1183-chen.pdf",
-        "outcome": "lead",
-        "note": "2024 PVLDB 论文有王思博、当时的博士生陈鑫与腾讯员工 Wenqing Lin；陈鑫另一篇已确认论文有腾讯实习脚注，这篇的原文、学生书目与团队记录尚未说明同项企业研究。"
+        "url": "https://www.vldb.org/pvldb/vol17/p1324-chen.pdf",
+        "outcome": "confirmed",
+        "note": "腾讯社交算法团队按文章区分实习生和正式团队成员，明确在 MSCSC 这一篇把第一作者陈鑫标为实习生、Wenqing Lin 标为团队成员。陈鑫同期为港中大博士生，王思博研究组列其为指导的博士毕业生；三人同署原文。"
       },
       {
         "title": "Efficient Dynamic Weighted Set Sampling and Its Extension",
@@ -12695,6 +12696,27 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "no-evidence",
         "note": "ICCV 正式版列浙江工商大学及省重点实验室、北大与华科；未见范围内企业署名。"
+      },
+      {
+        "title": "Seeing is Not Believing: Adversarial Natural Object Optimization for Hard-Label 3D Scene Attacks",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Seeing_is_Not_Believing_Adversarial_Natural_Object_Optimization_for_Hard-Label_CVPR_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "CVPR 正式论文只有两位作者，均署北京大学王选所。"
+      },
+      {
+        "title": "Attacking Gray-Box Large Vision-Language Models with Adaptive SVD-Structured Adversarial Alignment",
+        "url": "https://proceedings.mlr.press/v306/liu26c.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICML 正式首页列武大、华科、新加坡南洋理工、阿伯丁、港科大及广州大学；未见范围内企业同篇署名。"
+      },
+      {
+        "title": "Cognitive Disentanglement for Referring Multi-Object Tracking",
+        "url": "https://doi.org/10.1016/j.inffus.2025.103349",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式期刊题录与公开原文作者一致。高校及实验室为中国石油大学（华东）、港科大（广州）、北大、东南、北理工、南通大学、利物浦大学；未见范围内企业。"
       }
     ]
   },
