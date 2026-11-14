@@ -34708,6 +34708,402 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2112.11628"
+    },
+    {
+      "id": "rfchord-alibaba-pku-ifx5c-caaaaj",
+      "paperId": "arxiv:2211.00272",
+      "company": "阿里巴巴",
+      "team": "达摩院 XG Lab",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "许辰人 · Chenren Xu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1084/1717.htm"
+      ],
+      "employee": [
+        "郭俊辰 · Junchen Guo",
+        "其一手任职履历记载从 2021 年 7 月至 2023 年 5 月在阿里云达摩院 XG Lab 任高级软件工程师，在任职期间以阿里集团署名参加本篇。",
+        "https://jcggg.github.io/"
+      ],
+      "student": [
+        "梁博 · Bo Liang",
+        "梁博 2022 年起为北大在读博士，公开履历记载 2021 年 7 月至 2023 年 5 月在阿里达摩院 XG Lab 从事 RFID 感知与定位；NSDI 正式原文把他列为署北大和阿里的第一作者，同期北大项目材料也记录了该成果。",
+        "https://galaxywalk.github.io/"
+      ],
+      "title": "RF-Chord: Towards Deployable RFID Localization System for Logistic Networks",
+      "short": "RF-Chord",
+      "date": "2023-04",
+      "venue": "USENIX NSDI 2023",
+      "area": "网络系统与无线感知",
+      "paper": "https://www.usenix.org/system/files/nsdi23-liang-bo.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://www.usenix.org/conference/nsdi23/presentation/liang-bo"
+        ],
+        [
+          "北大计算机学院研究报道",
+          "https://cs.pku.edu.cn/info/1264/2312.htm"
+        ],
+        [
+          "2022 预印本，与 2023 正式版合并计一次",
+          "https://arxiv.org/abs/2211.00272"
+        ]
+      ],
+      "evidence": "梁博 2022 年起为北大在读博士，公开履历记载 2021 年 7 月至 2023 年 5 月在阿里达摩院 XG Lab 从事 RFID 感知与定位；NSDI 正式原文把他列为署北大和阿里的第一作者，同期北大项目材料也记录了该成果。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "北大梁博本人具名列许辰人为博士导师；许辰人课题组名单列梁为 2022 年入组的博士生，北大计算机学院将本篇具名列为许辰人课题组成果。",
+        "https://soar.group/chenren/team/"
+      ]
+    },
+    {
+      "id": "cellfusion-alibaba-pku-ifx5c-caaaaj",
+      "paperId": "doi:10.1145/3603269.3604832",
+      "company": "阿里巴巴",
+      "team": "阿里云",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "许辰人 · Chenren Xu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1084/1717.htm"
+      ],
+      "employee": [
+        "马云飞 · Yunfei Ma",
+        "本人职历列 2018 年 9 月起在阿里巴巴集团任正式研发岗位，研究主页列本篇，SIGCOMM 正式稿列为阿里云通讯作者。",
+        "https://yfmascgy.github.io/Yunfei_CV.pdf"
+      ],
+      "student": [
+        "倪蕴哲 · Yunzhe Ni",
+        "倪蕴哲为北大 2018 级在读博士，已在论文中以北大和阿里云双署共同第一作者。正式原文明确致谢阿里巴巴科研实习计划，并具名说明阿里团队共同参与本系统研发和测试。",
+        "https://neec.pku.edu.cn/xsfc/09c00611aeb14930ae0e25ed62b95233.htm"
+      ],
+      "title": "CellFusion: Multipath Vehicle-to-Cloud Video Streaming with Network Coding in the Wild",
+      "short": "CellFusion",
+      "date": "2023-09",
+      "venue": "ACM SIGCOMM 2023",
+      "area": "网络系统与车载传输",
+      "paper": "https://ennanzhai.github.io/pub/cellfusion-sigcomm23.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3603269.3604832"
+        ],
+        [
+          "北大在读生名录",
+          "https://neec.pku.edu.cn/xsfc/09c00611aeb14930ae0e25ed62b95233.htm"
+        ],
+        [
+          "企业作者关于本篇的个人研究档案",
+          "https://yfmascgy.github.io/research/"
+        ]
+      ],
+      "evidence": "倪蕴哲为北大 2018 级在读博士，已在论文中以北大和阿里云双署共同第一作者。正式原文明确致谢阿里巴巴科研实习计划，并具名说明阿里团队共同参与本系统研发和测试。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "北大关于本篇 SIGCOMM 论文的官方报道具名列倪蕴哲是 2018 级博士生、许辰人为导师；北大网络与高能效计算所研究生名录独立确认。",
+        "https://cs.pku.edu.cn/cse/info/1003/1304.htm"
+      ]
+    },
+    {
+      "id": "ant-fomi-hkust-yinghao-xu",
+      "paperId": "arxiv:2610.19839",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "香港科技大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "徐英豪 · Yinghao Xu",
+        "香港科技大学计算机科学与工程学系助理教授；同篇唯一通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "Robbyant 首席科学家、蚂蚁研究交互智能实验室负责人；同篇作者署 Robbyant。",
+        "https://shenyujun.github.io/index.html"
+      ],
+      "student": [
+        "罗一鸣 · Yiming Luo",
+        "香港大学在读博士；本人列同期 Robbyant 研究实习。Robbyant 官方项目页与论文均具名标其为该研究项目负责人。",
+        "https://ymluo1214.github.io/"
+      ],
+      "advising": [
+        "研究期内的跨校指导",
+        "本人列港大博士导师为 Fu Zhang（亦为论文作者）、Robbyant 期间由徐英豪指导；徐英豪港科大个人主页把他列为从港大来访的学生，且本人为同篇通讯作者。",
+        "https://justimyhxu.github.io/#students"
+      ],
+      "title": "FOMI: A Force-Feedback Manipulation Interface for Teaching Contact-Rich Manipulation",
+      "short": "FOMI",
+      "date": "2026-10-14",
+      "venue": "arXiv 预印本",
+      "area": "机器人学习与力反馈示教",
+      "paper": "https://arxiv.org/html/2610.19839v1",
+      "extra": [
+        [
+          "企业原始项目页",
+          "https://robbyant-research.github.io/FOMI/"
+        ],
+        [
+          "Robbyant 隶属蚂蚁集团",
+          "https://technology.robbyant.com/"
+        ],
+        [
+          "港大博士导师档案",
+          "https://hub.hku.hk/cris/rp/rp02460"
+        ],
+        [
+          "徐英豪公布 2026 年 4 月港科大到任",
+          "https://www.linkedin.com/posts/yinghao-xu-51a5b215a_life-update-i-left-stanford-in-may-2025-activity-7417987506303905793-mqZl"
+        ]
+      ],
+      "evidence": "2026 年 10 月 FOMI 论文和 Robbyant 项目页标罗一鸣为港大作者兼项目负责人，徐英豪为港科大通讯作者，Yujun Shen 署 Robbyant。罗一鸣的主页记录博士学籍、Robbyant 实习和徐英豪指导；徐英豪的港科大研究组主页也把他列为来自港大的访问学生。"
+    },
+    {
+      "id": "ant-dsaquant-hkust-yinghao-xu",
+      "paperId": "arxiv:2609.04031",
+      "company": "蚂蚁集团",
+      "team": "Robbyant",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "徐英豪 · Yinghao Xu",
+        "香港科技大学计算机科学与工程学系助理教授；论文共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "Robbyant 首席科学家、蚂蚁研究交互智能实验室负责人；同篇作者署 Robbyant。",
+        "https://shenyujun.github.io/index.html"
+      ],
+      "student": [
+        "郜泽霖 · Zelin Gao",
+        "原文及 Robbyant 官方代码均将郜泽霖具名列为该量化项目的港科大与 Robbyant 双署名作者；港科大与本人资料证实为在读博士。",
+        "https://github.com/robbyant-research/DSAQuant"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "HKUST 官方档案截至 2026 年 9 月 14 日将姓名列于徐英豪当前博士指导名单；郜泽霖个人页独立写明其导师为徐英豪。",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yinghao-xu-justimyhxu"
+      ],
+      "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+      "short": "DSAQuant",
+      "date": "2026-09-03",
+      "venue": "arXiv 预印本",
+      "area": "视频生成模型与量化",
+      "paper": "https://arxiv.org/html/2609.04031v1",
+      "extra": [
+        [
+          "学生本人确认博士学籍和导师",
+          "https://zelingao98.github.io/"
+        ],
+        [
+          "Robbyant 隶属蚂蚁集团",
+          "https://technology.robbyant.com/"
+        ],
+        [
+          "预印本公开记录",
+          "https://arxiv.org/abs/2609.04031"
+        ]
+      ],
+      "evidence": "2026 年 9 月 DSAQuant 公开论文和 Robbyant 官方项目单独列郜泽霖为 Robbyant 与港科大共同署名作者。港科大 9 月官方博士名单及本人履历均确认徐英豪指导，徐英豪同为论文通讯作者。另有正式员工 Yujun Shen 同篇署 Robbyant。"
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "team": "微信",
+      "title": "Advancing Video Quality Assessment for AIGC",
+      "short": "AIGC Video Quality Assessment",
+      "date": "2024-09-23",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉",
+      "paper": "https://arxiv.org/pdf/2409.14888v1",
+      "arxiv": "2409.14888",
+      "evidence": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。",
+      "employee": [
+        "Yuetang Deng",
+        "该篇署腾讯微信；同年 ASE 2024 微信案例论文列其腾讯身份和企业邮箱，FSE 2023 正式日程亦列作腾讯作者。",
+        "https://research.monash.edu/files/694588803/652457437.pdf"
+      ],
+      "student": [
+        "岳新立 · Xinli Yue",
+        "武汉大学 2022 级硕士研究生；本人公开履历列出其微信画质研究经历和本篇作品。",
+        "https://xinliyue.github.io/"
+      ],
+      "extra": [
+        [
+          "武汉大学同期报道：岳新立的在读身份及两位指导教师",
+          "https://news.whu.edu.cn/info/1015/453917.htm"
+        ],
+        [
+          "FSE 2023 正式日程：Yuetang Deng 的腾讯任职",
+          "https://2023.esec-fse.org/program/program-fse-2023/"
+        ],
+        [
+          "预印本公开记录",
+          "https://arxiv.org/abs/2409.14888"
+        ]
+      ],
+      "id": "tencent-aigc-vqa-whu-qian-wang",
+      "faculty": [
+        "王骞 · Qian Wang",
+        "武汉大学国家网络安全学院教授，本篇合作者。",
+        "https://cse.whu.edu.cn/info/3501/37731.htm"
+      ],
+      "advising": [
+        "硕士导师",
+        "岳新立的履历具名列王骞为硕士导师，武汉大学同期报道亦确认。",
+        "https://xinliyue.github.io/"
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "team": "微信",
+      "title": "Advancing Video Quality Assessment for AIGC",
+      "short": "AIGC Video Quality Assessment",
+      "date": "2024-09-23",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉",
+      "paper": "https://arxiv.org/pdf/2409.14888v1",
+      "arxiv": "2409.14888",
+      "evidence": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。",
+      "employee": [
+        "Yuetang Deng",
+        "该篇署腾讯微信；同年 ASE 2024 微信案例论文列其腾讯身份和企业邮箱，FSE 2023 正式日程亦列作腾讯作者。",
+        "https://research.monash.edu/files/694588803/652457437.pdf"
+      ],
+      "student": [
+        "岳新立 · Xinli Yue",
+        "武汉大学 2022 级硕士研究生；本人公开履历列出其微信画质研究经历和本篇作品。",
+        "https://xinliyue.github.io/"
+      ],
+      "extra": [
+        [
+          "武汉大学同期报道：岳新立的在读身份及两位指导教师",
+          "https://news.whu.edu.cn/info/1015/453917.htm"
+        ],
+        [
+          "FSE 2023 正式日程：Yuetang Deng 的腾讯任职",
+          "https://2023.esec-fse.org/program/program-fse-2023/"
+        ],
+        [
+          "预印本公开记录",
+          "https://arxiv.org/abs/2409.14888"
+        ]
+      ],
+      "id": "tencent-aigc-vqa-whu-lingchen-zhao",
+      "faculty": [
+        "赵令辰 · Lingchen Zhao",
+        "武汉大学国家网络安全学院副教授，本篇通讯作者。",
+        "http://jszy.whu.edu.cn/zhaolingchen/zh_CN/index.htm"
+      ],
+      "advising": [
+        "硕士研究指导",
+        "武汉大学在其硕士期间的官方报道具名列王骞与赵令辰共同指导岳新立的研究；该官报所举论文与本篇均由三人共同署名。",
+        "https://news.whu.edu.cn/info/1015/453917.htm"
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "team": "微信",
+      "title": "Revisiting Video Quality Assessment from the Perspective of Generalization",
+      "short": "VQA Generalization",
+      "date": "2024-09-23",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉",
+      "paper": "https://arxiv.org/pdf/2409.14847v1",
+      "arxiv": "2409.14847",
+      "evidence": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。",
+      "employee": [
+        "Yuetang Deng",
+        "该篇署腾讯微信；同年 ASE 2024 微信案例论文列其腾讯身份和企业邮箱，FSE 2023 正式日程亦列作腾讯作者。",
+        "https://research.monash.edu/files/694588803/652457437.pdf"
+      ],
+      "student": [
+        "岳新立 · Xinli Yue",
+        "武汉大学 2022 级硕士研究生；本人公开履历列出其微信画质研究经历和本篇作品。",
+        "https://xinliyue.github.io/"
+      ],
+      "extra": [
+        [
+          "武汉大学同期报道：岳新立的在读身份及两位指导教师",
+          "https://news.whu.edu.cn/info/1015/453917.htm"
+        ],
+        [
+          "FSE 2023 正式日程：Yuetang Deng 的腾讯任职",
+          "https://2023.esec-fse.org/program/program-fse-2023/"
+        ],
+        [
+          "预印本公开记录",
+          "https://arxiv.org/abs/2409.14847"
+        ]
+      ],
+      "id": "tencent-vqa-generalization-whu-qian-wang",
+      "faculty": [
+        "王骞 · Qian Wang",
+        "武汉大学国家网络安全学院教授，本篇合作者。",
+        "https://cse.whu.edu.cn/info/3501/37731.htm"
+      ],
+      "advising": [
+        "硕士导师",
+        "岳新立的履历具名列王骞为硕士导师，武汉大学同期报道亦确认。",
+        "https://xinliyue.github.io/"
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "腾讯",
+      "team": "微信",
+      "title": "Revisiting Video Quality Assessment from the Perspective of Generalization",
+      "short": "VQA Generalization",
+      "date": "2024-09-23",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉",
+      "paper": "https://arxiv.org/pdf/2409.14847v1",
+      "arxiv": "2409.14847",
+      "evidence": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。",
+      "employee": [
+        "Yuetang Deng",
+        "该篇署腾讯微信；同年 ASE 2024 微信案例论文列其腾讯身份和企业邮箱，FSE 2023 正式日程亦列作腾讯作者。",
+        "https://research.monash.edu/files/694588803/652457437.pdf"
+      ],
+      "student": [
+        "岳新立 · Xinli Yue",
+        "武汉大学 2022 级硕士研究生；本人公开履历列出其微信画质研究经历和本篇作品。",
+        "https://xinliyue.github.io/"
+      ],
+      "extra": [
+        [
+          "武汉大学同期报道：岳新立的在读身份及两位指导教师",
+          "https://news.whu.edu.cn/info/1015/453917.htm"
+        ],
+        [
+          "FSE 2023 正式日程：Yuetang Deng 的腾讯任职",
+          "https://2023.esec-fse.org/program/program-fse-2023/"
+        ],
+        [
+          "预印本公开记录",
+          "https://arxiv.org/abs/2409.14847"
+        ]
+      ],
+      "id": "tencent-vqa-generalization-whu-lingchen-zhao",
+      "faculty": [
+        "赵令辰 · Lingchen Zhao",
+        "武汉大学国家网络安全学院副教授，本篇通讯作者。",
+        "http://jszy.whu.edu.cn/zhaolingchen/zh_CN/index.htm"
+      ],
+      "advising": [
+        "硕士研究指导",
+        "武汉大学在其硕士期间的官方报道具名列王骞与赵令辰共同指导岳新立的研究；该官报所举论文与本篇均由三人共同署名。",
+        "https://news.whu.edu.cn/info/1015/453917.htm"
+      ]
     }
   ]
 };

@@ -8306,7 +8306,10 @@ const facultyPaperAudits = {
     "sources": [
       "https://cs.pku.edu.cn/info/1084/1717.htm",
       "https://soar.group/chenren/team/",
-      "https://cs.pku.edu.cn/info/1263/3003.htm"
+      "https://cs.pku.edu.cn/info/1263/3003.htm",
+      "https://galaxywalk.github.io/",
+      "https://neec.pku.edu.cn/xsfc/09c00611aeb14930ae0e25ed62b95233.htm",
+      "https://cs.pku.edu.cn/cse/info/1003/1304.htm"
     ],
     "papers": [
       {
@@ -8320,6 +8323,20 @@ const facultyPaperAudits = {
         "url": "https://ennanzhai.github.io/pub/sigcomm24-yu.pdf",
         "outcome": "confirmed",
         "note": "第一作者李睿涵在北大就读博士期间也以阿里云署名；该篇正式论文致谢明示阿里云研究实习项目支持。"
+      },
+      {
+        "title": "RF-Chord: Towards Deployable RFID Localization System for Logistic Networks",
+        "url": "https://www.usenix.org/system/files/nsdi23-liang-bo.pdf",
+        "outcome": "confirmed",
+        "note": "梁博 2022 年起为北大在读博士，公开履历记载 2021 年 7 月至 2023 年 5 月在阿里达摩院 XG Lab 从事 RFID 感知与定位；NSDI 正式原文把他列为署北大和阿里的第一作者，同期北大项目材料也记录了该成果。",
+        "year": 2023
+      },
+      {
+        "title": "CellFusion: Multipath Vehicle-to-Cloud Video Streaming with Network Coding in the Wild",
+        "url": "https://ennanzhai.github.io/pub/cellfusion-sigcomm23.pdf",
+        "outcome": "confirmed",
+        "note": "倪蕴哲为北大 2018 级在读博士，已在论文中以北大和阿里云双署共同第一作者。正式原文明确致谢阿里巴巴科研实习计划，并具名说明阿里团队共同参与本系统研发和测试。",
+        "year": 2023
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -11839,14 +11856,55 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
-      "https://sys111111.github.io/"
+      "https://sys111111.github.io/",
+      "https://arxiv.org/html/2610.19839v1",
+      "https://ymluo1214.github.io/",
+      "https://justimyhxu.github.io/#students",
+      "https://shenyujun.github.io/index.html",
+      "https://robbyant-research.github.io/FOMI/",
+      "https://technology.robbyant.com/",
+      "https://hub.hku.hk/cris/rp/rp02460",
+      "https://www.linkedin.com/posts/yinghao-xu-51a5b215a_life-update-i-left-stanford-in-may-2025-activity-7417987506303905793-mqZl",
+      "https://arxiv.org/html/2609.04031v1",
+      "https://github.com/robbyant-research/DSAQuant",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yinghao-xu-justimyhxu",
+      "https://zelingao98.github.io/",
+      "https://arxiv.org/abs/2609.04031",
+      "https://arxiv.org/html/2610.34845v1",
+      "https://sh17c.top/",
+      "https://arxiv.org/abs/2608.09682",
+      "https://textcall.github.io/",
+      "https://github.com/ant-research/TextCall",
+      "https://jiahao-shao1.github.io/"
     ],
     "papers": [
       {
         "title": "FOMI: A Force-Feedback Manipulation Interface for Teaching Contact-Rich Manipulation",
-        "url": "https://arxiv.org/abs/2610.19839",
+        "url": "https://arxiv.org/html/2610.19839v1",
+        "outcome": "confirmed",
+        "note": "2026 年 10 月 FOMI 论文和 Robbyant 项目页标罗一鸣为港大作者兼项目负责人，徐英豪为港科大通讯作者，Yujun Shen 署 Robbyant。罗一鸣的主页记录博士学籍、Robbyant 实习和徐英豪指导；徐英豪的港科大研究组主页也把他列为来自港大的访问学生。",
+        "year": 2026
+      },
+      {
+        "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+        "url": "https://arxiv.org/html/2609.04031v1",
+        "outcome": "confirmed",
+        "note": "2026 年 9 月 DSAQuant 公开论文和 Robbyant 官方项目单独列郜泽霖为 Robbyant 与港科大共同署名作者。港科大 9 月官方博士名单及本人履历均确认徐英豪指导，徐英豪同为论文通讯作者。另有正式员工 Yujun Shen 同篇署 Robbyant。",
+        "year": 2026
+      },
+      {
+        "title": "PosePlaner: Denoising Any Feed-Forward Pose Predictor from Pairwise Planar Geometry",
+        "url": "https://arxiv.org/html/2610.34845v1",
         "outcome": "lead",
-        "note": "Yishu Shen 在准备入读港科大时已经公开蚂蚁实习经历，未找到入学后与本篇对应的同期实习材料。另一参与者 Yiming Luo为港大在读，称徐英浩为来访期间的指导者或企业导师，未以其代替校内导师。"
+        "note": "Yihang Chen 在原文列港科大与 Robbyant，徐英豪同篇通讯并是目前博士导师；本人简历所列蚂蚁实习于 2026 年 7 月结束，仍缺论文实际完成时间与在读指导交叠证据。",
+        "year": 2026
+      },
+      {
+        "title": "Thinking With Tools, Not With Pixels: Tool Calls as Text Scaffolds for Visual Reasoning",
+        "url": "https://arxiv.org/abs/2608.09682",
+        "outcome": "lead",
+        "note": "蚂蚁官方仓库、原文与项目页确认企业合作和徐英豪/杨策元共同指导，但一作 Jiahao Shao 的本人履历列港科大博士于 2026 年 9 月入读，晚于 8 月论文。浙大作者 Yuanbo Yang 的同期校内学籍、具名指导关系及企业研究仍待核实。",
+        "year": 2026
       }
     ],
     "note": "核对了公开论文、团队名录和研究期间的身份；尚未穷尽该教师的论文。"
@@ -14338,7 +14396,7 @@ const facultyPaperAudits = {
   "fKoMXmIAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://faculty.xidian.edu.cn/CUIDI/zh_CN/index.htm",
       "https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/20/Less-Effort-More-Productivity-Lessons-Learned-from-Developing-Millions-of-Lines-of-",
@@ -14376,7 +14434,12 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/40/538.html",
       "https://api.crossref.org/works?filter=orcid:0000-0003-2859-9003",
       "https://orcid.org/0009-0006-6550-1502",
-      "https://orcid.org/0000-0001-5056-2704"
+      "https://orcid.org/0000-0001-5056-2704",
+      "https://dblp.org/pid/48/4546.html",
+      "https://dblp.uni-trier.de/pid/49/3800-14.html",
+      "https://ebook.xml-journal.net/rjxb/2025/09/files/basic-html/page125.html",
+      "https://www.sigmobile.org/mobisys/2023/program.html",
+      "https://conf.researchr.org/profile/jiaqiwang1"
     ],
     "papers": [
       {
@@ -14404,7 +14467,7 @@ const facultyPaperAudits = {
         "title": "MAJIT: Just-in-Time Detection of Compatibility Issues in Android and iOS Apps through Large Language Model-based Multi-Agent Collaboration",
         "year": 2026,
         "url": "https://doi.org/10.1145/3786582.3786819",
-        "note": "ICSE 正式议程和 ACM 记录列 Jiaqi Wang、崔笛为西电、多人为抖音；暂缺 Jiaqi Wang 当期在读、参与抖音同篇研究及具名受崔笛指导证据。",
+        "note": "ICSE 正式议程列 Jiaqi Wang、崔笛为西电、多人为抖音。MobiSys 2023 与 ICSE 2026 的齐名 Qiankang Mao 共享 ORCID，均署抖音；Jiaqi Wang 的会议及 ORCID 资料只有西电关联，仍缺当期在读、在抖音参与此篇及具名导师的证据。",
         "outcome": "lead"
       },
       {
@@ -14495,7 +14558,7 @@ const facultyPaperAudits = {
         "title": "基于多模态融合的软件缺陷协同分派方法",
         "year": 2025,
         "url": "https://jos.org.cn/jos/article/abstract/7267",
-        "note": "《软件学报》2025 正式刊期列四位作者，期刊和作者学校履历均未提供范围内企业署名或本篇企业实习信息。",
+        "note": "《软件学报》2025 正式刊首列西电及其重点实验室、延安大学；本篇致谢均为公开科研基金，未见符合口径的企业证据。",
         "outcome": "no-evidence"
       },
       {
@@ -14506,7 +14569,7 @@ const facultyPaperAudits = {
         "outcome": "no-evidence"
       }
     ],
-    "note": "已对学校身份、会议作者索引、ORCID、Crossref、同组作者索引及中文刊物检出的时间窗内论文逐篇核对。期刊与同题预印本合并；学校主页成果栏为空，公开书目仍在复核。MAJIT 已确认抖音合著，仍缺在读、该篇企业参与和个人指导的直接证据。"
+    "note": "按 2023-01-01 至 2026-11-12 的公开论文，交叉核对本人 ORCID、会议作者索引、Crossref、同组作者书目、中文期刊及预印本。可定位到的 18 篇正文题录均已判定；同题预印本与正式出版合并。MAJIT 为保留线索，完成书目梳理不等于关系确认。"
   },
   "DR-GIokAAAAJ": {
     "from": "2023-01-01",
@@ -15908,7 +15971,18 @@ const facultyPaperAudits = {
       "https://peipeics.cc/publications/",
       "https://research.polyu.edu.hk/en/publications/advddos-zero-query-adversarial-attacks-against-commercial-speech-/",
       "https://research.polyu.edu.hk/en/publications/fasttextdodger-decision-based-adversarial-attack-against-black-bo/",
-      "https://whdy.publish.founderss.cn/zh/article/doi/10.14188/j.1671-8836.2023.0031/"
+      "https://whdy.publish.founderss.cn/zh/article/doi/10.14188/j.1671-8836.2023.0031/",
+      "http://jszy.whu.edu.cn/zhaolingchen/zh_CN/index.htm",
+      "https://xinliyue.github.io/",
+      "https://research.monash.edu/files/694588803/652457437.pdf",
+      "https://news.whu.edu.cn/info/1015/453917.htm",
+      "https://orcid.org/0000-0002-1700-3836",
+      "https://arxiv.org/pdf/2308.02369",
+      "https://arxiv.org/pdf/2406.19311",
+      "https://arxiv.org/pdf/2504.04394",
+      "https://zijianling.github.io/",
+      "https://arxiv.org/abs/2502.07557",
+      "https://arxiv.org/pdf/2401.09740"
     ],
     "papers": [
       {
@@ -15938,8 +16012,114 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "正式原文列武大及腾讯大数据与人工智能平台部，武大刘格灵第一作者。公开原文未标实习，仍需同期具名指导和该篇的企业参研资料。"
+      },
+      {
+        "title": "Advancing Video Quality Assessment for AIGC",
+        "url": "https://arxiv.org/pdf/2409.14888v1",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。"
+      },
+      {
+        "title": "Revisiting Video Quality Assessment from the Perspective of Generalization",
+        "url": "https://arxiv.org/pdf/2409.14847v1",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。"
+      },
+      {
+        "title": "Revisiting Adversarial Training Under Long-Tailed Distributions",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yue_Revisiting_Adversarial_Training_Under_Long-Tailed_Distributions_CVPR_2024_paper.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "CVPR 正式稿所列四位作者均署武汉大学。武大同时公开确认岳新立的在读身份及王骞、赵令辰共同指导；该篇未见企业共同作者。"
+      },
+      {
+        "title": "Universal Defensive Underpainting Patch: Making Your Text Invisible to Optical Character Recognition",
+        "url": "https://doi.org/10.1145/3581783.3613768",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式论文与 arXiv 同稿合并。作者署宁波大学、武汉大学；未见范围内企业作者。"
+      },
+      {
+        "title": "Zero-Query Adversarial Attack on Black-box Automatic Speech Recognition Systems",
+        "url": "https://doi.org/10.1145/3658644.3670309",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACM MM 2024 与 arXiv 同稿合并，作者署武汉大学、清华大学、西安交通大学；商用语音模型只用于评测。"
+      },
+      {
+        "title": "Selective Masking Adversarial Attack on Automatic Speech Recognition Systems",
+        "url": "https://doi.org/10.1109/ICME59968.2025.11210179",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IEEE ICME 正式论文与 2025 年公开稿合并；公开稿四位作者均署武汉大学。"
+      },
+      {
+        "title": "SyncGait: Robust Long-Distance Authentication for Drone Delivery via Implicit Gait Behaviors",
+        "url": "https://arxiv.org/abs/2512.23778",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "首轮公开稿署华中科技大学、武汉大学、清华大学、西安交通大学。商用无人机属于测试设备；作者主页报 TDSC 于 2026 年录用，暂用可核对的公开版本。"
+      },
+      {
+        "title": "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
+        "url": "https://arxiv.org/abs/2606.12263",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "公开稿作者署武大、港科大（广州）、西安交通大学，未见企业作者。"
+      },
+      {
+        "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
+        "url": "https://arxiv.org/abs/2608.05909",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "公开稿作者署武汉大学、布法罗大学、西安交通大学。所测商用模型的供应商未在该篇署名。"
+      },
+      {
+        "title": "JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation",
+        "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "USENIX 正式稿作者署武汉大学、布法罗大学、西安交通大学和香港城市大学，与预印本合并。"
+      },
+      {
+        "title": "Hijacking Attacks against Neural Network by Analyzing Training Data",
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ge-hijacking",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "USENIX 正式稿与标题略异的预印本同文。作者署武汉大学、清华大学、香港城市大学和西安交通大学。"
+      },
+      {
+        "title": "More Simplicity for Trainers, More Opportunity for Attackers: Black-Box Attacks on Speaker Recognition Systems by Inferring Feature Extractor",
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ge-attacks",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "USENIX 正式稿作者署武汉大学、香港城市大学、清华大学、西安交通大学，商用系统为测试对象。"
+      },
+      {
+        "title": "Amulet: Fast TEE-Shielded Inference for On-Device Model Protection",
+        "url": "https://arxiv.org/abs/2512.07495",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "公开稿作者署武汉大学、南京理工大学、香港城市大学；未见范围内企业作者。"
+      },
+      {
+        "title": "Enhancing Adversarial Transferability Through Neighborhood Conditional Sampling",
+        "url": "https://arxiv.org/abs/2405.16181",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "公开稿所有作者列武汉大学；使用公开模型不说明企业参与。"
+      },
+      {
+        "title": "Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle",
+        "url": "https://www.ndss-symposium.org/wp-content/uploads/2025-268-paper.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "NDSS 正式稿明确作者均署香港城市大学、武汉大学、苏黎世联邦理工学院。"
       }
-    ]
+    ],
+    "note": "按作品逐篇核对作者单位、参研身份和指导关系；完整书目仍在核对。"
   },
   "K5FZmOkAAAAJ": {
     "from": "2023-01-01",
@@ -16243,5 +16423,74 @@ const facultyPaperAudits = {
       }
     ],
     "note": "所列论文已逐篇检查；公开书目尚未穷尽。"
+  },
+  "71CuCoEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2610.40333",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/chaojian",
+      "https://sponge-lab.github.io/publications.html",
+      "https://licj15.github.io/",
+      "https://orcid.org/0000-0003-4030-9777",
+      "https://dblp.org/pid/249/5403.html",
+      "https://brain-labbb.github.io/RFW_A_web/",
+      "https://sainingzhang.github.io/",
+      "https://arxiv.org/abs/2607.08639",
+      "https://technology.robbyant.com/lingbot-va-v2",
+      "https://list0830.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "RFW-A: Agentic Procedural Generation of 400K Articulated Assets over 500 Categories",
+        "url": "https://arxiv.org/abs/2610.40333",
+        "outcome": "lead",
+        "note": "原文和项目页列李朝鑒为港科大通讯作者，并列出阿里研究人员及多所高校。共同一作 Saining Zhang 履历确认领导清华—阿里联合项目，但 2026 年的在读学籍在南洋理工；他提到赵昊指导的是已经结束的本科阶段。几位清华与阿里双署作者仍缺可定位到本论文的指导、学籍或企业研究证据。",
+        "year": 2026
+      },
+      {
+        "title": "Native Video-Action Pretraining for Generalizable Robot Control",
+        "url": "https://arxiv.org/abs/2607.08639",
+        "outcome": "lead",
+        "note": "Robbyant 官方项目以及论文贡献表确认李朝鑒与浙江大学博士生 Shuaiting Li 一起负责加速，学生也确认参加同一企业研究。学生只称与李朝鑒密切合作，具名列浙大导师 Haibin Shen、实习导师 Yinghao Xu 和 Zifan Shi；李朝鑒的同期高校指导关系仍待确认。",
+        "year": 2026
+      }
+    ]
+  },
+  "CD7ybnAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.whu.edu.cn/info/3501/37731.htm",
+      "https://xinliyue.github.io/",
+      "https://research.monash.edu/files/694588803/652457437.pdf",
+      "https://news.whu.edu.cn/info/1015/453917.htm"
+    ],
+    "papers": [
+      {
+        "title": "Advancing Video Quality Assessment for AIGC",
+        "url": "https://arxiv.org/pdf/2409.14888v1",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。"
+      },
+      {
+        "title": "Revisiting Video Quality Assessment from the Perspective of Generalization",
+        "url": "https://arxiv.org/pdf/2409.14847v1",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "预印本首页具名注明岳新立在腾讯微信实习期间完成该篇研究。其履历列出 2022–2025 年在武汉大学读硕士、2024 年 5–8 月在微信研究视频画质，具名列王骞为硕士导师；武大同期报道另列王骞和赵令辰共同指导其研究。两位教师及腾讯微信作者 Yuetang Deng 均在该篇署名。同期 ASE 2024 正式稿也将 Deng 列为腾讯微信企业研究团队成员。"
+      },
+      {
+        "title": "Revisiting Adversarial Training Under Long-Tailed Distributions",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yue_Revisiting_Adversarial_Training_Under_Long-Tailed_Distributions_CVPR_2024_paper.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "CVPR 正式稿所列四位作者均署武汉大学。武大同时公开确认岳新立的在读身份及王骞、赵令辰共同指导；该篇未见企业共同作者。"
+      }
+    ],
+    "note": "按作品逐篇核对作者单位、参研身份和指导关系；完整书目仍在核对。"
   }
 };
