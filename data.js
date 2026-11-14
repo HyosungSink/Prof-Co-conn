@@ -35353,6 +35353,100 @@ const survey = {
         ]
       ],
       "evidence": "论文将鄭嘉亮明确列为港科大、蚂蚁双署名的一作；其履历按年确认同期蚂蚁实习，并公开同篇的项目资源。港科大答辩公告确认陈启峰指导；老师与蚂蚁雇员沈宇君均为同篇通讯作者。"
+    },
+    {
+      "id": "ant-3dpe-hkust-qifeng-chen",
+      "paperId": "doi:10.1007/978-3-031-72983-6_20",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Qifeng CHEN · 陈启峰",
+        "港科大计算机教师，同篇共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "研究期间任蚂蚁正式研究员，原文具名署蚂蚁集团。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "Qingyan Bai",
+        "个人主页明确列蚂蚁生成模型研究实习和此项目；本人原始项目页的 ECCV 2024 正式版本署名具名列本人港科大/蚂蚁双属，港科大博士开题也列明为其博士研究。",
+        "https://bqy.info/"
+      ],
+      "advising": [
+        "具名博士指导",
+        "港科大博士开题具名列其博士导师陈启峰并把 3DPE 明确列为博士研究第二部分；作者主页也写明同一关系。",
+        "https://cse.hkust.edu.hk/pg/defenses/S26/qbaiac-26-05-2026.html"
+      ],
+      "title": "Real-Time 3D-Aware Portrait Editing from a Single Image",
+      "short": "3DPE",
+      "date": "2024-10",
+      "venue": "ECCV 2024",
+      "area": "三维人像编辑",
+      "paper": "https://doi.org/10.1007/978-3-031-72983-6_20",
+      "extra": [
+        [
+          "原始作者项目及正式发布署名",
+          "https://bqy.info/3dpe/"
+        ],
+        [
+          "首版预印本（学生单位与最终项目页不同）",
+          "https://arxiv.org/abs/2402.14000"
+        ]
+      ],
+      "evidence": "ECCV 作者项目正式列博士生 Qingyan Bai 的港科大及蚂蚁集团双署名和同篇一作；该生公开履历证实蚂蚁实习，港科大博士开题把本篇 3DPE 列为其博士研究，并具名列指导教师陈启峰。蚂蚁正式研究员沈宇君同篇共同通讯。"
+    },
+    {
+      "id": "ant-flare-zju-xiaowei-zhou",
+      "paperId": "arxiv:2502.12138",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙江大学教师、同篇共同通讯作者。",
+        "https://xzhou.me/"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "研究期间任蚂蚁正式研究员，原文具名署蚂蚁集团。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "Shangzhan Zhang",
+        "2022–2025 浙江大学计算机硕士在读，2023–2025 蚂蚁研究实习；原文给其浙江大学与蚂蚁双署名一作，蚂蚁研究以具名作者发布同项目模型。",
+        "https://zhanghe3z.github.io/"
+      ],
+      "advising": [
+        "研究期间具名导师",
+        "学生本人明确列周晓巍（同篇通讯）及彭斯达为浙大硕士导师，论文首次发布时仍在浙大读研。",
+        "https://zhanghe3z.github.io/"
+      ],
+      "title": "FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views",
+      "short": "FLARE",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "稀疏视图三维重建与相机估计",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_FLARE_Feed-forward_Geometry_Appearance_and_Camera_Estimation_from_Uncalibrated_Sparse_Views_CVPR_2025_paper.html",
+      "extra": [
+        [
+          "原文预印本和作者单位",
+          "https://arxiv.org/pdf/2502.12138v1"
+        ],
+        [
+          "学生项目发布",
+          "https://zhanghe3z.github.io/FLARE/"
+        ],
+        [
+          "蚂蚁研究团队发布的模型",
+          "https://huggingface.co/AntResearch/FLARE"
+        ]
+      ],
+      "evidence": "学生个人履历明确记录浙江大学硕士和蚂蚁研究实习重叠，并具名列周晓巍为导师。论文同篇列其浙江大学/蚂蚁双署名第一作者、周晓巍通讯作者、正式员工沈宇君署蚂蚁；蚂蚁研究单独发布该研究模型。"
     }
   ]
 };
