@@ -33257,6 +33257,94 @@ const survey = {
           "https://daqingliu.github.io/assets/files/CV_DaqingLiu_2303.pdf"
         ]
       ]
+    },
+    {
+      "id": "tencent-workborne-cityu-chen-ma",
+      "company": "腾讯",
+      "team": "微信 WeLM 基础模型团队",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学副教授、同篇作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "Junyi Zhou",
+        "2025 年秋进入港城大读博；2026 年 6 月起在腾讯微信 WeLM 基础模型团队做研究实习，履历的具体实习任务与论文一致。",
+        "https://planepig.github.io/CV_JunyiZhou.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人自介具名马辰是其港城大博士导师。",
+        "https://planepig.github.io/"
+      ],
+      "employee": [
+        "Chuhan Wu",
+        "同篇署名腾讯 WeChat AI；个人履历确认是微信 AI 基础模型方向研究员。",
+        "https://wuch15.github.io/"
+      ],
+      "title": "WorkBorne: Discovering Agentic Tasks from Real-World Artifact Transitions",
+      "short": "WorkBorne",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型 · 任务合成与智能体评估",
+      "paper": "https://arxiv.org/abs/2610.14915",
+      "extra": [
+        [
+          "原文逐人署名",
+          "https://arxiv.org/pdf/2610.14915"
+        ],
+        [
+          "学生完整论文列表",
+          "https://planepig.github.io/publications/"
+        ]
+      ],
+      "evidence": "企业履历将跨代码、文档、数据分析与信息检索的真实任务及环境合成、轨迹筛选、用量规衡量任务完成写为 WeLM 实习负责内容，与本篇以真实工件变化合成任务、生成并筛选长程轨迹的核心贡献直接对应。学生履历注明马辰为港城大博士导师；马辰与已具名核实的同篇微信 AI 研究员 Chuhan Wu 共同署名。"
+    },
+    {
+      "id": "tencent-skillforgebench-cityu-chen-ma",
+      "company": "腾讯",
+      "team": "微信 WeLM 基础模型团队",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学副教授、同篇作者。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "Junyi Zhou",
+        "2025 年秋进入港城大读博；2026 年 6 月起在腾讯微信 WeLM 基础模型团队做研究实习，履历的具体实习任务与论文一致。",
+        "https://planepig.github.io/CV_JunyiZhou.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人自介具名马辰是其港城大博士导师。",
+        "https://planepig.github.io/"
+      ],
+      "employee": [
+        "Chuhan Wu",
+        "同篇署名腾讯 WeChat AI；个人履历确认是微信 AI 基础模型方向研究员。",
+        "https://wuch15.github.io/"
+      ],
+      "title": "SkillForgeBench: Evaluating Agent Reliability Grounded in Agent Skill Specifications",
+      "short": "SkillForgeBench",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型 · 任务合成与智能体评估",
+      "paper": "https://arxiv.org/abs/2610.14918",
+      "extra": [
+        [
+          "原文逐人署名",
+          "https://arxiv.org/pdf/2610.14918"
+        ],
+        [
+          "学生完整论文列表",
+          "https://planepig.github.io/publications/"
+        ]
+      ],
+      "evidence": "该生是共同第一作者，论文逐人列港城大与腾讯 WeChat AI；履历将真实任务及环境合成、用量规核对任务流程和产物写为 WeLM 的同期工作，本篇使用技能规范来划分工件角色、构建沙箱任务，以过程与完成标准的量规作双重评价。学生履历注明马辰为港城大博士导师；马辰与已具名核实的同篇微信 AI 研究员 Chuhan Wu 共同署名。"
     }
   ]
 };

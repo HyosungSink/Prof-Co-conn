@@ -9299,7 +9299,15 @@ const facultyPaperAudits = {
       "https://s2026.conference-schedule.org/presenter/?uid=738014",
       "https://allenjack.github.io/pages/publication.html",
       "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.html",
-      "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.pdf"
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.pdf",
+      "https://arxiv.org/abs/2610.14915",
+      "https://planepig.github.io/CV_JunyiZhou.pdf",
+      "https://planepig.github.io/",
+      "https://wuch15.github.io/",
+      "https://arxiv.org/pdf/2610.14915",
+      "https://planepig.github.io/publications/",
+      "https://arxiv.org/abs/2610.14918",
+      "https://arxiv.org/pdf/2610.14918"
     ],
     "papers": [
       {
@@ -9343,6 +9351,18 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_DOGR_Towards_Versatile_Visual_Document_Grounding_and_Referring_ICCV_2025_paper.html",
         "outcome": "confirmed",
         "note": "马辰的组名单确认第一作者 Yinan Zhou 自 2023 年秋由西安交大来港城大联合培养博士，马辰在同篇以港城大通讯作者署名。大会正文在首页记录项目为腾讯实习成果，且 Yinan Zhou 同时署名两校与腾讯 ARC Lab；腾讯同篇参与者陈禹昕的高级研究员身份另有自述和会议履历。"
+      },
+      {
+        "title": "WorkBorne: Discovering Agentic Tasks from Real-World Artifact Transitions",
+        "url": "https://arxiv.org/abs/2610.14915",
+        "outcome": "confirmed",
+        "note": "企业履历将跨代码、文档、数据分析与信息检索的真实任务及环境合成、轨迹筛选、用量规衡量任务完成写为 WeLM 实习负责内容，与本篇以真实工件变化合成任务、生成并筛选长程轨迹的核心贡献直接对应。学生履历注明马辰为港城大博士导师；马辰与已具名核实的同篇微信 AI 研究员 Chuhan Wu 共同署名。"
+      },
+      {
+        "title": "SkillForgeBench: Evaluating Agent Reliability Grounded in Agent Skill Specifications",
+        "url": "https://arxiv.org/abs/2610.14918",
+        "outcome": "confirmed",
+        "note": "该生是共同第一作者，论文逐人列港城大与腾讯 WeChat AI；履历将真实任务及环境合成、用量规核对任务流程和产物写为 WeLM 的同期工作，本篇使用技能规范来划分工件角色、构建沙箱任务，以过程与完成标准的量规作双重评价。学生履历注明马辰为港城大博士导师；马辰与已具名核实的同篇微信 AI 研究员 Chuhan Wu 共同署名。"
       }
     ]
   },
