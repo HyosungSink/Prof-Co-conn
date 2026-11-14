@@ -1780,6 +1780,18 @@ const facultyPaperAudits = {
         "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hu/zhang26hu.pdf",
         "outcome": "confirmed",
         "note": "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。"
+      },
+      {
+        "title": "V0.5: Generalist Value Model as a Prior for Sparse RL Rollouts",
+        "url": "https://arxiv.org/pdf/2603.10848",
+        "outcome": "lead",
+        "note": "学生在美团实习及师生关系有具名证据；预印本列顾奇，COLM 正式节目单改列 Xierui Song，后者同期正式任职及署名差异待复核。"
+      },
+      {
+        "title": "Let the LLM Stick to Its Strengths: Learning to Route Economical LLM",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/305a5630c29aaca434e3415fc4638eb2-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "原文列出南大师生和阿里企业作者，但没有具名实习脚注，尚需该项目和学生在 AIDC 实习的对应材料。"
       }
     ],
     "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
@@ -1830,6 +1842,18 @@ const facultyPaperAudits = {
         "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hu/zhang26hu.pdf",
         "outcome": "confirmed",
         "note": "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。"
+      },
+      {
+        "title": "V0.5: Generalist Value Model as a Prior for Sparse RL Rollouts",
+        "url": "https://arxiv.org/pdf/2603.10848",
+        "outcome": "lead",
+        "note": "学生在美团实习及师生关系有具名证据；预印本列顾奇，COLM 正式节目单改列 Xierui Song，后者同期正式任职及署名差异待复核。"
+      },
+      {
+        "title": "Let the LLM Stick to Its Strengths: Learning to Route Economical LLM",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/305a5630c29aaca434e3415fc4638eb2-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "原文列出南大师生和阿里企业作者，但没有具名实习脚注，尚需该项目和学生在 AIDC 实习的对应材料。"
       }
     ],
     "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
@@ -1895,7 +1919,15 @@ const facultyPaperAudits = {
       "https://chenyangqiqi.github.io/data/CV_Chenyang_Qi_2024_0203.pdf",
       "https://vinthony.github.io/academic/",
       "https://openaccess.thecvf.com/content/ICCV2023/html/QI_FateZero_Fusing_Attentions_for_Zero-shot_Text-based_Video_Editing_ICCV_2023_paper.html",
-      "https://fate-zero-edit.github.io/"
+      "https://fate-zero-edit.github.io/",
+      "https://arxiv.org/html/2310.19512",
+      "https://yingqinghe.github.io/",
+      "https://ailab-cvc.github.io/videocrafter1/",
+      "https://cse.hkust.edu.hk/event/RTF2024/slides/cqf-VideoSynthesis_Apr_2024.pdf",
+      "https://arxiv.org/html/2307.06940",
+      "https://arxiv.org/html/2310.07702",
+      "https://arxiv.org/html/2406.01900",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/28206/28408"
     ],
     "papers": [
       {
@@ -1939,6 +1971,36 @@ const facultyPaperAudits = {
         "url": "https://cqf.io/papers/FateZero_ICCV2023.pdf",
         "outcome": "confirmed",
         "note": "正式论文首页以星号在 Chenyang Qi 项注明腾讯 AI Lab 实习。本人履历确认同期港科大学籍和博士导师陈启峰；陈启峰与当时在腾讯 AI Lab 任职的寸晓东同列为论文通讯作者。"
+      },
+      {
+        "title": "VideoCrafter1: Open Diffusion Models for High-Quality Video Generation",
+        "url": "https://arxiv.org/html/2310.19512",
+        "outcome": "confirmed",
+        "note": "腾讯 AI Lab 的项目页具名列何盈庆为共同第一作者。其主页列本人在腾讯从事视频基础模型研发、所处日期并明确称参与发布 VideoCrafter 1。导师陈启峰在港科大同期报告明确将该具体模型归为腾讯项目，正式技术报告还共同列出陈启峰与在职腾讯研究员寸晓东。"
+      },
+      {
+        "title": "Animate-A-Story: Storytelling with Retrieval-Augmented Video Generation",
+        "url": "https://arxiv.org/html/2307.06940",
+        "outcome": "lead",
+        "note": "何盈庆与在职腾讯研究人员、港科大导师均在同篇署名；此版缺少针对该项目的具名实习或贡献说明。"
+      },
+      {
+        "title": "ScaleCrafter: Tuning-free Higher-Resolution Visual Generation with Diffusion Models",
+        "url": "https://arxiv.org/html/2310.07702",
+        "outcome": "lead",
+        "note": "何盈庆及其他同篇学生可能为腾讯项目贡献者，当前只核对到任职日期和部分双重署名；没有找到公开的具名项目参与说明。"
+      },
+      {
+        "title": "Follow-Your-Emoji: Fine-Controllable and Expressive Freestyle Portrait Animation",
+        "url": "https://arxiv.org/html/2406.01900",
+        "outcome": "lead",
+        "note": "腾讯作者和港科大导师同篇，何盈庆已知同期腾讯实习，未有这个项目的具名企业参与记录。"
+      },
+      {
+        "title": "Follow Your Pose: Pose-Guided Text-to-Video Generation Using Pose-Free Videos",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/28206/28408",
+        "outcome": "lead",
+        "note": "具名腾讯实习脚注适用于当时在清华的 Yue Ma；该生同期主要导师 Xiu Li 的资格和证据链应另核。港科大何盈庆共同一作，但原文没将脚注附在其姓名处。"
       }
     ]
   },
@@ -2363,7 +2425,9 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm",
-      "https://whi497.github.io/leaf.github.io/"
+      "https://whi497.github.io/leaf.github.io/",
+      "https://cn.linkedin.com/in/yiyan-xu-617165355/zh-cn",
+      "https://baiyimeng.github.io/"
     ],
     "papers": [
       {
@@ -2371,6 +2435,60 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2607.25308",
         "outcome": "confirmed",
         "note": "Ziang Ye 的个人学术主页将 CAST 具名列于 2026 年起在美团 LongCat 的实习成果，并说明其研究内容；发表时在中国科学技术大学读研。"
+      },
+      {
+        "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+        "url": "https://arxiv.org/pdf/2605.16143",
+        "outcome": "confirmed",
+        "note": "Ziang Ye 为中国科学技术大学在读硕士，个人学术主页将这个项目具名列在美团 LongCat 实习成果中；原文第一作者脚注也直接写明研究完成于美团实习。"
+      },
+      {
+        "title": "UniCustom: Unified Visual Conditioning for Multi-Reference Image Generation",
+        "url": "https://arxiv.org/pdf/2605.12088",
+        "outcome": "confirmed",
+        "note": "Yiyan Xu 为中国科学技术大学在读研究生；原文及本人项目主页的共同作者脚注均明确指出其于快手可灵团队实习期间完成研究。"
+      },
+      {
+        "title": "MAP: A Map-then-Act Paradigm for Long-Horizon Interactive Agent Reasoning",
+        "url": "https://arxiv.org/pdf/2605.13037",
+        "outcome": "lead",
+        "note": "学生个人主页明确列为 LongCat 实习成果，美团员工具名；冯福利不在原文作者名单。尚未确认另一位署名高校教师与同篇实习学生的同期具名指导关系。"
+      },
+      {
+        "title": "Travel Back To Move Forward: Retrospective Exploration and Evolving for Long Horizon Agents",
+        "url": "https://arxiv.org/pdf/2610.13058",
+        "outcome": "lead",
+        "note": "原文具名实习脚注及学生个人学术履历确认冯福利的指导。美团署名作者 Xierui Song 的独立同期正式任职证据尚待补足；原文列顾奇的邮箱，但顾奇未列于该版本作者名单。"
+      },
+      {
+        "title": "ReList: A Multi-objective Reasoning Framework for Diversified Listwise Query Recommendation",
+        "url": "https://aclanthology.org/2026.acl-industry.97.pdf",
+        "outcome": "lead",
+        "note": "原文具名美团实习脚注且有正式员工，尚无可直接确认 Shuxian Bi 同期硕博学籍和正式导师的材料。"
+      },
+      {
+        "title": "Personalized Image Generation with Large Multimodal Models",
+        "url": "https://staff.ustc.edu.cn/~hexn/papers/www25-Pigeon.pdf",
+        "outcome": "lead",
+        "note": "第一作者与冯福利具名导师关系及美团研究者可核验，原文仅给出企业合作者，缺第一作者参与美团该项目的独立证据。"
+      },
+      {
+        "title": "Leveraging Watch-time Feedback for Short-Video Recommendations: A Causal Labeling Framework",
+        "url": "https://arxiv.org/pdf/2306.17426",
+        "outcome": "confirmed",
+        "note": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。"
+      },
+      {
+        "title": "LabelCraft: Empowering Short Video Recommendations with Automated Label Crafting",
+        "url": "https://arxiv.org/pdf/2312.10947",
+        "outcome": "confirmed",
+        "note": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。"
+      },
+      {
+        "title": "GradCraft: Elevating Multi-task Recommendations through Holistic Gradient Crafting",
+        "url": "https://arxiv.org/pdf/2407.19682",
+        "outcome": "confirmed",
+        "note": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -2418,8 +2536,8 @@ const facultyPaperAudits = {
       {
         "title": "Growing Visual Generative Capacity for Pre-Trained MLLMs",
         "url": "https://arxiv.org/html/2510.01546",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "论文在共同一作 Jiaming Han 的署名处附字节跳动实习说明，作者履历列明港中文博士学籍及在字节跳动 Seed 实习。岳翔宇同篇署名且为其博士导师；论文与 Hao Chen 公开简历均标明他以在职研究员身份负责本项目。"
       },
       {
         "title": "Vision as a Dialect: Unifying Visual Understanding and Generation via Text-Aligned Representations",
@@ -2516,5 +2634,154 @@ const facultyPaperAudits = {
         "note": "Cancan Li 为课题组指导的作者，企业合著者所属 AISHELL 与 OPPO 不在调查范围内。"
       }
     ]
+  },
+  "uQnBgK0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1109/ISSRE62328.2024.00046",
+      "https://wenweigu.github.io/",
+      "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd",
+      "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/",
+      "https://xjtu-netverify.github.io/papers/NetMiner/NetMiner_TON.pdf",
+      "https://nkcs.iops.ai/wenweigu/",
+      "https://conf.researchr.org/profile/fse-2025/yongqiangyang",
+      "https://wenweigu.github.io/publications/issre24/issre24.pdf",
+      "https://doi.org/10.1109/ICSE55347.2025.00084",
+      "https://zbchern.github.io/papers/icse25.pdf",
+      "https://doi.org/10.1145/3702978",
+      "https://research.cuhk.edu.hk/en/publications/identifying-performance-issues-in-cloud-service-systems-based-on-/",
+      "https://arxiv.org/abs/2307.10869",
+      "https://arxiv.org/abs/2506.04569",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/28622",
+      "https://arxiv.org/abs/2205.15228"
+    ],
+    "papers": [
+      {
+        "title": "KPIRoot: Efficient Monitoring Metric-based Root Cause Localization in Large-scale Cloud Systems",
+        "url": "https://doi.org/10.1109/ISSRE62328.2024.00046",
+        "outcome": "confirmed",
+        "note": "KPIRoot 是学生的博士论文第三项成果，其答辩文件逐项列出华为云真实环境中的实验与 18 项核心网络服务的生产部署。 第一作者 Wenwei Gu 的公开履历确认同期学籍、导师和华为云研究岗位。Lyu 与在职华为云研究人员 Yongqiang Yang 在正式论文上共同署名。"
+      },
+      {
+        "title": "ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems",
+        "url": "https://doi.org/10.1109/ICSE55347.2025.00084",
+        "outcome": "confirmed",
+        "note": "ADAMAS 是学生答辩第二项成果，具名报告注明自 2023 年 10 月起部署在华为云 OBS 等服务中，处于该生在读并在华为云参与联合项目的时间内。 第一作者 Wenwei Gu 的公开履历确认同期学籍、导师和华为云研究岗位。Lyu 与在职华为云研究人员 Yongqiang Yang 在正式论文上共同署名。"
+      },
+      {
+        "title": "Identifying Performance Issues in Cloud Service Systems Based on Relational-Temporal Features",
+        "url": "https://doi.org/10.1145/3702978",
+        "outcome": "confirmed",
+        "note": "ISOLATE 是学生答辩第一项成果，答辩文件记录华为云的实际部署，预印本于 2023 年 7 月在其在读与华为云联合项目任期内发布，港中文研究门户给出正式发表版本。 第一作者 Wenwei Gu 的公开履历确认同期学籍、导师和华为云研究岗位。Lyu 与在职华为云研究人员 Yongqiang Yang 在正式论文上共同署名。"
+      },
+      {
+        "title": "KPIRoot+: An Efficient Integrated Framework for Anomaly Detection and Root Cause Analysis in Large-Scale Cloud Systems",
+        "url": "https://arxiv.org/abs/2506.04569",
+        "outcome": "lead",
+        "note": "期刊论文自行注明扩展了 ISSRE 2024 的 KPIRoot，暂不作为独立新增关系。"
+      },
+      {
+        "title": "Curvature-Invariant Adversarial Attacks for 3D Point Clouds",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28622",
+        "outcome": "lead",
+        "note": "答辩材料将其列入旁支成果，未确认其与华为云实习项目相关；不计。"
+      },
+      {
+        "title": "Revisiting, Benchmarking and Exploring API Recommendation: How Far Are We?",
+        "url": "https://arxiv.org/abs/2205.15228",
+        "outcome": "lead",
+        "note": "学生名列共同作者，未发现同期参与对应企业项目的公开证据；不计。"
+      }
+    ]
+  },
+  "vVhmzbAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/ly/index.htm",
+      "https://gjyin.github.io/",
+      "https://jinsong8.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models",
+        "url": "https://arxiv.org/html/2509.23140v1",
+        "outcome": "confirmed",
+        "note": "金松：首版具名实习脚注；美团员工、校内指导均核实。"
+      },
+      {
+        "title": "DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain",
+        "url": "https://aclanthology.org/2026.acl-long.1630.pdf",
+        "outcome": "confirmed",
+        "note": "公司项目发布具名列第一作者，首版明确贡献与双署，博士实习时段与公开时间重叠。"
+      }
+    ],
+    "note": "目前只调查金松可见的主要成果，尚未全部覆盖刘勇的发表书目。"
+  },
+  "UJpwap8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sse.sysu.edu.cn/node/463",
+      "https://angrychow.github.io/",
+      "https://jinyang88.github.io/",
+      "https://zbchern.github.io/",
+      "https://dblp.org/pid/195/1927.html"
+    ],
+    "papers": [
+      {
+        "title": "ErrorPrism: Reconstructing Error Propagation Paths in Cloud Service Systems",
+        "url": "https://zbchern.github.io/papers/ase25a.pdf",
+        "outcome": "confirmed",
+        "note": "原文具名列蒲俊宋为第一作者、陈壮彬为共同通讯作者、字节跳动研究科学家刘金杨为同篇作者，并报告在该公司的生产环境完成系统评估。刘金杨在接收时将 ErrorPrism 具名列为其实习生项目。院系名录明确将同届 ASE 工业论文列为蒲俊宋本科产出，并列其实习期与研究重叠。"
+      },
+      {
+        "title": "Automated Proactive Logging Quality Improvement for Large-Scale Codebases",
+        "url": "https://zbchern.github.io/papers/ase25b.pdf",
+        "outcome": "lead",
+        "note": "陈壮彬、蒲俊宋均署名；蒲是否在字节实习岗位参与该特定任务尚待具名说明。另查港中大导师与首位作者。"
+      },
+      {
+        "title": "CAST: Automated Resilience Testing for Production Cloud Service Systems",
+        "url": "https://zbchern.github.io/papers/icse-seip26.pdf",
+        "outcome": "lead",
+        "note": "原文明示华为云生产部署，同篇三名在读学生曾于华为云实习；仍需能明确定位各学生在该企业项目的贡献来源。"
+      },
+      {
+        "title": "AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories",
+        "url": "https://arxiv.org/abs/2608.15595",
+        "outcome": "lead",
+        "note": "导师和在读学生同篇；尚未核实研究对应的企业和参与时间。"
+      },
+      {
+        "title": "TypeScript Repository Indexing for Code Agent Retrieval",
+        "url": "https://arxiv.org/abs/2604.18413",
+        "outcome": "lead",
+        "note": "蒲俊宋本人具名记录对企业开源项目组件的贡献；同篇合作者李已在 2026 年 3 月由曾实习的字节跳动转职腾讯，暂无相同项目中符合条件的字节正式员工。"
+      },
+      {
+        "title": "Tracezip: Efficient Distributed Tracing via Trace Compression",
+        "url": "https://zbchern.github.io/papers/issta25.pdf",
+        "outcome": "no-evidence",
+        "note": "原文仅有高校作者单位，未见企业作者或具名学生参与企业研发的证据。"
+      },
+      {
+        "title": "MICRORACER: Detecting Concurrency Bugs for Cloud Service Systems",
+        "url": "https://doi.org/10.1109/APSEC66846.2025.00025",
+        "outcome": "no-evidence",
+        "note": "两位在读学生及校内导师同篇；未见同篇企业正式员工和对应企业研究。"
+      },
+      {
+        "title": "ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems",
+        "url": "https://zbchern.github.io/papers/icse25.pdf",
+        "outcome": "lead",
+        "note": "作者与学位论文核实港中大学生进行华为项目；未找到本名录教师与该学生的同期具名指导关系。"
+      }
+    ],
+    "note": "已核对组内学生在校与企业实习经历、相关 ASE 和 ICSE 论文。作者书目还需继续逐篇交叉核对。"
   }
 };

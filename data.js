@@ -13921,6 +13921,621 @@ const survey = {
         ]
       ],
       "evidence": "原论文注明工作在 TikTok 实习期间完成。第一作者 Lihe Yang 的公开学籍、博士导师、字节跳动实习经历均能核实，原文同列导师赵恒爽和字节跳动旗下 TikTok 的在职研究员 Bingyi Kang。"
+    },
+    {
+      "id": "look-before-you-leap-meituan-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2605.16143",
+      "company": "美团",
+      "team": "LongCat APA",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "Ziang Ye",
+        "Ziang Ye 为中国科学技术大学在读硕士，个人学术主页将这个项目具名列在美团 LongCat 实习成果中；原文第一作者脚注也直接写明研究完成于美团实习。",
+        "https://whi497.github.io/leaf.github.io/"
+      ],
+      "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+      "short": "Look Before You Leap",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2605.16143",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.16143"
+        ],
+        [
+          "美团 LongCat 2026 年团队报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "Ziang Ye 为中国科学技术大学在读硕士，个人学术主页将这个项目具名列在美团 LongCat 实习成果中；原文第一作者脚注也直接写明研究完成于美团实习。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Ziang Ye 的个人学术履历将冯福利具名列为 2024–2026 年的硕士导师。",
+        "https://whi497.github.io/leaf.github.io/"
+      ]
+    },
+    {
+      "id": "unicustom-kuaishou-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2605.12088",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "万鹏飞 · Pengfei Wan",
+        "快手 2024 年正式公告及 CVPR 2025 教程均具名列万鹏飞为快手视觉生成与互动中心（可灵）负责人；该篇署名可灵。",
+        "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and"
+      ],
+      "student": [
+        "Yiyan Xu",
+        "Yiyan Xu 为中国科学技术大学在读研究生；原文及本人项目主页的共同作者脚注均明确指出其于快手可灵团队实习期间完成研究。",
+        "https://cn.linkedin.com/in/yiyan-xu-617165355/zh-cn"
+      ],
+      "title": "UniCustom: Unified Visual Conditioning for Multi-Reference Image Generation",
+      "short": "UniCustom",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2605.12088",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.12088"
+        ],
+        [
+          "第一作者的项目页",
+          "https://yiyanxu.github.io/UniCustom/"
+        ],
+        [
+          "作者任职的 CVPR 2025 嘉宾传记",
+          "https://world-model-tutorial.github.io/"
+        ]
+      ],
+      "evidence": "Yiyan Xu 为中国科学技术大学在读研究生；原文及本人项目主页的共同作者脚注均明确指出其于快手可灵团队实习期间完成研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yiyan Xu 的公开职业履历列 2022–2027 就读于中国科学技术大学并具名列冯福利为导师。",
+        "https://cn.linkedin.com/in/yiyan-xu-617165355/zh-cn"
+      ]
+    },
+    {
+      "id": "dml-kuaishou-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2306.17426",
+      "company": "快手",
+      "team": "推荐系统",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "Yang Song",
+        "WWW 2024 大会公开作者简介列快手推荐负责人，主管核心推荐建模与数据挖掘；三篇论文均以快手和一致作者身份署名。",
+        "https://generative-rec.github.io/workshop/assets/files/2nd-workshop-on-recommendation-with-generative-models-pdf.pdf"
+      ],
+      "student": [
+        "Yimeng Bai",
+        "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。",
+        "https://baiyimeng.github.io/"
+      ],
+      "title": "Leveraging Watch-time Feedback for Short-Video Recommendations: A Causal Labeling Framework",
+      "short": "DML",
+      "date": "2023-10",
+      "venue": "CIKM 2023",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2306.17426",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3583780.3615483"
+        ],
+        [
+          "同篇作者、本人具名记录的快手实习导师",
+          "https://arxiv.org/abs/2302.02352"
+        ]
+      ],
+      "evidence": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yimeng Bai 的中国科学技术大学博士阶段公开个人简介明确列冯福利为导师。",
+        "https://baiyimeng.github.io/"
+      ]
+    },
+    {
+      "id": "labelcraft-kuaishou-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2312.10947",
+      "company": "快手",
+      "team": "推荐系统",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "Yang Song",
+        "WWW 2024 大会公开作者简介列快手推荐负责人，主管核心推荐建模与数据挖掘；三篇论文均以快手和一致作者身份署名。",
+        "https://generative-rec.github.io/workshop/assets/files/2nd-workshop-on-recommendation-with-generative-models-pdf.pdf"
+      ],
+      "student": [
+        "Yimeng Bai",
+        "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。",
+        "https://baiyimeng.github.io/"
+      ],
+      "title": "LabelCraft: Empowering Short Video Recommendations with Automated Label Crafting",
+      "short": "LabelCraft",
+      "date": "2024-03",
+      "venue": "WSDM 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2312.10947",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3616855.3635816"
+        ],
+        [
+          "同篇作者、本人具名记录的快手实习导师",
+          "https://arxiv.org/abs/2302.02352"
+        ]
+      ],
+      "evidence": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yimeng Bai 的中国科学技术大学博士阶段公开个人简介明确列冯福利为导师。",
+        "https://baiyimeng.github.io/"
+      ]
+    },
+    {
+      "id": "gradcraft-kuaishou-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2407.19682",
+      "company": "快手",
+      "team": "推荐系统",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "Yang Song",
+        "WWW 2024 大会公开作者简介列快手推荐负责人，主管核心推荐建模与数据挖掘；三篇论文均以快手和一致作者身份署名。",
+        "https://generative-rec.github.io/workshop/assets/files/2nd-workshop-on-recommendation-with-generative-models-pdf.pdf"
+      ],
+      "student": [
+        "Yimeng Bai",
+        "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。",
+        "https://baiyimeng.github.io/"
+      ],
+      "title": "GradCraft: Elevating Multi-task Recommendations through Holistic Gradient Crafting",
+      "short": "GradCraft",
+      "date": "2024-08",
+      "venue": "KDD 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2407.19682",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3637528.3671585"
+        ],
+        [
+          "同篇作者、本人具名记录的快手实习导师",
+          "https://arxiv.org/abs/2302.02352"
+        ]
+      ],
+      "evidence": "Yimeng Bai 在中国科学技术大学攻读博士，个人学术主页具名记录 2022 年 12 月至 2024 年 8 月赴快手实习。原文在 Yimeng Bai 署名下以星号明示该项工作在快手完成，同篇也列出其具名企业实习导师 Jing Lu。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yimeng Bai 的中国科学技术大学博士阶段公开个人简介明确列冯福利为导师。",
+        "https://baiyimeng.github.io/"
+      ]
+    },
+    {
+      "id": "bytedance-bridge-cuhk-xiangyu-yue",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "岳翔宇 · Xiangyu Yue",
+        "香港中文大学信息工程系助理教授，论文共同通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/xyyue.shtml"
+      ],
+      "student": [
+        "Jiaming Han",
+        "2023 年 9 月起就读港中文博士；2024 年 6 月起在字节跳动 Seed 做视觉理解和生成研究。",
+        "https://csuhan.com/attaches/CV_Jiaming-Han.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人公开简历和主页均列岳翔宇为港中文博士导师。",
+        "https://csuhan.com/"
+      ],
+      "employee": [
+        "Hao Chen",
+        "其简历记载 2024 年 5 月起任字节跳动高级研究科学家，并将本项目列为本人负责的工作。",
+        "https://haochen-rye.github.io/images/hao_cv.pdf"
+      ],
+      "title": "Growing Visual Generative Capacity for Pre-Trained MLLMs",
+      "short": "Bridge",
+      "date": "2025-10",
+      "venue": "arXiv 预印本",
+      "area": "多模态大模型",
+      "paper": "https://arxiv.org/html/2510.01546",
+      "extra": [
+        [
+          "原文 PDF",
+          "https://arxiv.org/pdf/2510.01546"
+        ],
+        [
+          "项目作者名单",
+          "https://hywang66.github.io/bridge/"
+        ],
+        [
+          "教师个人主页",
+          "https://xyue.io/"
+        ]
+      ],
+      "evidence": "论文在共同一作 Jiaming Han 的署名处附字节跳动实习说明，作者履历列明港中文博士学籍及在字节跳动 Seed 实习。岳翔宇同篇署名且为其博士导师；论文与 Hao Chen 公开简历均标明他以在职研究员身份负责本项目。"
+    },
+    {
+      "id": "tencent-videocrafter1-hkust-qifeng-chen",
+      "company": "腾讯",
+      "team": "AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师，论文共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "何盈庆 · Yingqing He",
+        "研究期间在港科大读博，2022 至 2024 年在腾讯 AI Lab 从事视频生成基础模型工作；本人记录于 2023 年参与发布本项目。",
+        "https://yingqinghe.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人明确列陈启峰为港科大博士导师。",
+        "https://yingqinghe.github.io/"
+      ],
+      "employee": [
+        "寸晓东 · Xiaodong Cun",
+        "本人任职履历载 2021 至 2024 年任腾讯 AI Lab 研究科学家；本篇共同第一作者。",
+        "https://vinthony.github.io/academic/"
+      ],
+      "title": "VideoCrafter1: Open Diffusion Models for High-Quality Video Generation",
+      "short": "VideoCrafter1",
+      "date": "2023-10",
+      "venue": "arXiv 技术报告",
+      "area": "视频生成",
+      "paper": "https://arxiv.org/html/2310.19512",
+      "extra": [
+        [
+          "腾讯 AI Lab 原始项目与共同第一作者",
+          "https://ailab-cvc.github.io/videocrafter1/"
+        ],
+        [
+          "港科大同期学术报告",
+          "https://cse.hkust.edu.hk/event/RTF2024/slides/cqf-VideoSynthesis_Apr_2024.pdf"
+        ]
+      ],
+      "evidence": "腾讯 AI Lab 的项目页具名列何盈庆为共同第一作者。其主页列本人在腾讯从事视频基础模型研发、所处日期并明确称参与发布 VideoCrafter 1。导师陈启峰在港科大同期报告明确将该具体模型归为腾讯项目，正式技术报告还共同列出陈启峰与在职腾讯研究员寸晓东。"
+    },
+    {
+      "id": "huawei-kpiroot-cuhk-michael-lyu",
+      "company": "华为",
+      "team": "华为云",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "Wenwei Gu",
+        "2021 年 8 月至 2025 年 7 月就读港中文博士，2022 年 1 月至 2025 年 1 月任华为云实习生并参与对应的华为云—港中文联合实验室。",
+        "https://wenweigu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生履历载，Michael Rung Tsong Lyu 指导其在港中文的博士学位；答辩资料将此论文作为博士研究成果。",
+        "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+      ],
+      "employee": [
+        "Yongqiang Yang",
+        "论文明确署名华为云计算技术有限公司；IEEE 作者履历另列其为华为云计算与网络创新实验室负责人。",
+        "https://xjtu-netverify.github.io/papers/NetMiner/NetMiner_TON.pdf"
+      ],
+      "title": "KPIRoot: Efficient Monitoring Metric-based Root Cause Localization in Large-scale Cloud Systems",
+      "short": "KPIRoot",
+      "date": "2024-10",
+      "venue": "ISSRE 2024",
+      "area": "云系统可靠性",
+      "paper": "https://doi.org/10.1109/ISSRE62328.2024.00046",
+      "extra": [
+        [
+          "南开课题组官方履历与联合实验室项目",
+          "https://nkcs.iops.ai/wenweigu/"
+        ],
+        [
+          "博士答辩材料各项目分节",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+        ],
+        [
+          "同期 FSE 项目作者的企业机构",
+          "https://conf.researchr.org/profile/fse-2025/yongqiangyang"
+        ],
+        [
+          "IEEE 论文公开稿与同期作者机构",
+          "https://wenweigu.github.io/publications/issre24/issre24.pdf"
+        ]
+      ],
+      "evidence": "KPIRoot 是学生的博士论文第三项成果，其答辩文件逐项列出华为云真实环境中的实验与 18 项核心网络服务的生产部署。 第一作者 Wenwei Gu 的公开履历确认同期学籍、导师和华为云研究岗位。Lyu 与在职华为云研究人员 Yongqiang Yang 在正式论文上共同署名。"
+    },
+    {
+      "id": "huawei-adamas-cuhk-michael-lyu",
+      "company": "华为",
+      "team": "华为云",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "Wenwei Gu",
+        "2021 年 8 月至 2025 年 7 月就读港中文博士，2022 年 1 月至 2025 年 1 月任华为云实习生并参与对应的华为云—港中文联合实验室。",
+        "https://wenweigu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生履历载，Michael Rung Tsong Lyu 指导其在港中文的博士学位；答辩资料将此论文作为博士研究成果。",
+        "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+      ],
+      "employee": [
+        "Yongqiang Yang",
+        "论文明确署名华为云计算技术有限公司；IEEE 作者履历另列其为华为云计算与网络创新实验室负责人。",
+        "https://xjtu-netverify.github.io/papers/NetMiner/NetMiner_TON.pdf"
+      ],
+      "title": "ADAMAS: Adaptive Domain-Aware Performance Anomaly Detection in Cloud Service Systems",
+      "short": "ADAMAS",
+      "date": "2025-04",
+      "venue": "ICSE 2025",
+      "area": "云系统可靠性",
+      "paper": "https://doi.org/10.1109/ICSE55347.2025.00084",
+      "extra": [
+        [
+          "南开课题组官方履历与联合实验室项目",
+          "https://nkcs.iops.ai/wenweigu/"
+        ],
+        [
+          "博士答辩材料各项目分节",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+        ],
+        [
+          "同期 FSE 项目作者的企业机构",
+          "https://conf.researchr.org/profile/fse-2025/yongqiangyang"
+        ],
+        [
+          "IEEE/ACM 论文公开稿与同期作者机构",
+          "https://zbchern.github.io/papers/icse25.pdf"
+        ]
+      ],
+      "evidence": "ADAMAS 是学生答辩第二项成果，具名报告注明自 2023 年 10 月起部署在华为云 OBS 等服务中，处于该生在读并在华为云参与联合项目的时间内。 第一作者 Wenwei Gu 的公开履历确认同期学籍、导师和华为云研究岗位。Lyu 与在职华为云研究人员 Yongqiang Yang 在正式论文上共同署名。"
+    },
+    {
+      "id": "huawei-isolate-cuhk-michael-lyu",
+      "company": "华为",
+      "team": "华为云",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "Wenwei Gu",
+        "2021 年 8 月至 2025 年 7 月就读港中文博士，2022 年 1 月至 2025 年 1 月任华为云实习生并参与对应的华为云—港中文联合实验室。",
+        "https://wenweigu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生履历载，Michael Rung Tsong Lyu 指导其在港中文的博士学位；答辩资料将此论文作为博士研究成果。",
+        "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+      ],
+      "employee": [
+        "Yongqiang Yang",
+        "论文明确署名华为云计算技术有限公司；IEEE 作者履历另列其为华为云计算与网络创新实验室负责人。",
+        "https://xjtu-netverify.github.io/papers/NetMiner/NetMiner_TON.pdf"
+      ],
+      "title": "Identifying Performance Issues in Cloud Service Systems Based on Relational-Temporal Features",
+      "short": "ISOLATE",
+      "date": "2025-02",
+      "venue": "ACM TOSEM",
+      "area": "云系统可靠性",
+      "paper": "https://doi.org/10.1145/3702978",
+      "extra": [
+        [
+          "南开课题组官方履历与联合实验室项目",
+          "https://nkcs.iops.ai/wenweigu/"
+        ],
+        [
+          "博士答辩材料各项目分节",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+        ],
+        [
+          "同期 FSE 项目作者的企业机构",
+          "https://conf.researchr.org/profile/fse-2025/yongqiangyang"
+        ],
+        [
+          "港中文正式论文记录",
+          "https://research.cuhk.edu.hk/en/publications/identifying-performance-issues-in-cloud-service-systems-based-on-/"
+        ],
+        [
+          "早期预印本",
+          "https://arxiv.org/abs/2307.10869"
+        ]
+      ],
+      "evidence": "ISOLATE 是学生答辩第一项成果，答辩文件记录华为云的实际部署，预印本于 2023 年 7 月在其在读与华为云联合项目任期内发布，港中文研究门户给出正式发表版本。 第一作者 Wenwei Gu 的公开履历确认同期学籍、导师和华为云研究岗位。Lyu 与在职华为云研究人员 Yongqiang Yang 在正式论文上共同署名。"
+    },
+    {
+      "id": "meituan-tagpr-ruc-liu",
+      "company": "美团",
+      "team": "小团团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "刘勇 · Yong Liu",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/ly/index.htm"
+      ],
+      "employee": [
+        "殷国君 · Guojun Yin",
+        "本人履历列美团高级研究员，负责生成式 AI 与基础模型研究，并列出这两项成果。",
+        "https://gjyin.github.io/"
+      ],
+      "student": [
+        "金松 · Song Jin",
+        "本人主页证实为中国人民大学高瓴人工智能学院在读博士、2025 年 1 月至 2026 年 4 月为美团小团团队实习生。",
+        "https://jinsong8.github.io/"
+      ],
+      "title": "TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models",
+      "short": "TagPR",
+      "date": "2025-09-27",
+      "venue": "EMNLP 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2509.23140v1",
+      "evidence": "预印本首页给金松具名加注，明确论文是他在美团实习期间完成；正式会议版仍列金松、刘勇及美团高级研究员殷国君。",
+      "advising": [
+        "校内共同指导",
+        "金松本人个人主页具名列刘勇为在中国人民大学攻读博士的共同导师。",
+        "https://jinsong8.github.io/"
+      ],
+      "extra": [
+        [
+          "EMNLP 正式版",
+          "https://aclanthology.org/2026.emnlp-main.1675/"
+        ]
+      ],
+      "paperId": "arxiv:2509.23140"
+    },
+    {
+      "id": "meituan-diningbench-ruc-liu",
+      "company": "美团",
+      "team": "小团团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "刘勇 · Yong Liu",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/ly/index.htm"
+      ],
+      "employee": [
+        "殷国君 · Guojun Yin",
+        "本人履历列美团高级研究员，负责生成式 AI 与基础模型研究，并列出这两项成果。",
+        "https://gjyin.github.io/"
+      ],
+      "student": [
+        "金松 · Song Jin",
+        "本人主页证实为中国人民大学高瓴人工智能学院在读博士、2025 年 1 月至 2026 年 4 月为美团小团团队实习生。",
+        "https://jinsong8.github.io/"
+      ],
+      "title": "DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain",
+      "short": "DiningBench",
+      "date": "2026-04-12",
+      "venue": "ACL 2026",
+      "area": "计算机视觉",
+      "paper": "https://aclanthology.org/2026.acl-long.1630.pdf",
+      "evidence": "美团官方发布的同名数据集直接列金松为首位研究作者；他在同期美团小团实习，首版具名署人大与美团并列金松为共同第一作者。论文同篇列共同导师刘勇，美团高级研究员殷国君亦参与。",
+      "advising": [
+        "校内共同指导",
+        "金松本人个人主页具名列刘勇为在中国人民大学攻读博士的共同导师。",
+        "https://jinsong8.github.io/"
+      ],
+      "extra": [
+        [
+          "美团官方数据集及研究作者",
+          "https://huggingface.co/datasets/meituan/DiningBench"
+        ],
+        [
+          "美团维护的项目代码",
+          "https://github.com/meituan/DiningBench"
+        ],
+        [
+          "预印本首版署名",
+          "https://arxiv.org/html/2604.10425v1"
+        ]
+      ],
+      "paperId": "arxiv:2604.10425"
+    },
+    {
+      "school": "中山大学",
+      "faculty": [
+        "陈壮彬 · Zhuangbin Chen",
+        "中山大学软件工程学院助理教授，校方主页具名列发表成果涉及的组内同学。",
+        "https://sse.sysu.edu.cn/teacher/463"
+      ],
+      "area": "软件工程与云系统",
+      "id": "bytedance-errorprism-sysu-chen",
+      "company": "字节跳动",
+      "team": "ByteBrain · 云系统可靠性",
+      "studentSchool": "北京邮电大学",
+      "student": [
+        "蒲俊宋 · Junsong Pu",
+        "中山大学软件工程学院列其 2025 年 3 月至 2026 年 6 月在字节跳动实习，并将其 ASE 2025 成果列为本科在读产出。本人现于中大攻读硕士；本科就读于北京邮电大学。",
+        "https://sse.sysu.edu.cn/node/463"
+      ],
+      "employee": [
+        "刘金杨 · Jinyang Liu",
+        "本人履历记载 2024 年博士毕业后加入字节跳动任研究科学家；论文明确列字节跳动署名。其同期项目更新将相关论文列为实习生的成果。",
+        "https://jinyang88.github.io/"
+      ],
+      "advising": [
+        "跨校科研指导",
+        "中山大学陈壮彬课题组的公开指导名单具名登记蒲俊宋，并将对应年份的 ASE 工业论文列为该学生本科阶段的成果；蒲俊宋本人确认现由陈壮彬担任中大硕士导师。",
+        "https://sse.sysu.edu.cn/node/463"
+      ],
+      "title": "ErrorPrism: Reconstructing Error Propagation Paths in Cloud Service Systems",
+      "short": "ErrorPrism",
+      "date": "2025-09",
+      "venue": "ASE",
+      "paper": "https://zbchern.github.io/papers/ase25a.pdf",
+      "extra": [
+        [
+          "预印本",
+          "https://arxiv.org/abs/2509.26463"
+        ],
+        [
+          "蒲俊宋本人学术履历",
+          "https://angrychow.github.io/"
+        ]
+      ],
+      "evidence": "原文具名列蒲俊宋为第一作者、陈壮彬为共同通讯作者、字节跳动研究科学家刘金杨为同篇作者，并报告在该公司的生产环境完成系统评估。刘金杨在接收时将 ErrorPrism 具名列为其实习生项目。院系名录明确将同届 ASE 工业论文列为蒲俊宋本科产出，并列其实习期与研究重叠。"
     }
   ]
 };
