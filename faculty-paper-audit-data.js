@@ -48852,5 +48852,276 @@ const facultyPaperAudits = {
       }
     ],
     "note": "先逐篇核查北大谢涛指导的 Junhao Hu 在各企业团队的合作，仍须继续谢涛全部书目。"
+  },
+  "G-k5fugAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1145/3796701.3815931",
+      "https://sds.cuhk.edu.cn/en/teacher/2338",
+      "https://aditidudeja.github.io/",
+      "https://dblp.org/pid/172/3892.html",
+      "https://sds-theory.github.io/",
+      "https://www.plus.ac.at/big-data-algorithms/research/dynasoar/?lang=en",
+      "https://arxiv.org/html/2605.21248",
+      "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CCC.2026.29",
+      "https://arxiv.org/html/2602.21089",
+      "https://link.springer.com/chapter/10.1007/978-3-032-28691-8_25",
+      "https://arxiv.org/abs/2602.15702",
+      "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FUN.2026.14",
+      "https://arxiv.org/abs/2602.20705",
+      "https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/LIPIcs.FUN.2026.14/LIPIcs.FUN.2026.14.pdf",
+      "https://epubs.siam.org/doi/10.1137/1.9781611978322.168",
+      "https://arxiv.org/abs/2406.13000",
+      "https://epubs.siam.org/doi/abs/10.1137/1.9781611978322.97",
+      "https://arxiv.org/abs/2410.18936",
+      "https://www.siam.org/conferences-events/past-event-archive/soda25/program/accepted-papers/",
+      "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.59",
+      "https://arxiv.org/abs/2312.08996",
+      "https://arxiv.org/abs/2402.03068",
+      "https://arxiv.org/html/2402.03068",
+      "https://arxiv.org/abs/2608.02176",
+      "https://arxiv.org/html/2608.02176"
+    ],
+    "papers": [
+      {
+        "title": "Distributed Stochastic Graph Algorithms",
+        "url": "https://doi.org/10.1145/3796701.3815931",
+        "outcome": "no-evidence",
+        "note": "PODC 正式版与 2026 年 5 月预印本同篇。原文只列 Technion、港中深和 Inria 研究所。",
+        "year": 2026
+      },
+      {
+        "title": "Frontier Space-Time Algorithms Using Only Full Memory",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CCC.2026.29",
+        "outcome": "no-evidence",
+        "note": "CCC 正式版；与 2026-02 首发预印本同篇。作者为港中深和查理大学。脚注明确研究在她任职萨尔茨堡大学期间开始，由欧盟和学术基金资助。",
+        "year": 2026
+      },
+      {
+        "title": "A Weighted-to-Unweighted Reduction for Matroid Intersection",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-28691-8_25",
+        "outcome": "no-evidence",
+        "note": "IPCO 正式文与预印本同篇。出版方列两位作者分别署港中深及萨尔茨堡大学；公开资助为 ERC 和萨尔茨堡州。",
+        "year": 2026
+      },
+      {
+        "title": "The Careless Coupon Collector's Problem",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FUN.2026.14",
+        "outcome": "no-evidence",
+        "note": "FUN 原文列罗马欧洲大学与港中深；脚注说明在萨尔茨堡期间启动，无涉及企业。与预印本合并。",
+        "year": 2026
+      },
+      {
+        "title": "Randomized Greedy Online Edge Coloring Succeeds for Dense and Randomly-Ordered Graphs",
+        "url": "https://epubs.siam.org/doi/10.1137/1.9781611978322.168",
+        "outcome": "no-evidence",
+        "note": "SODA 2025；2024 首发预印本与正式稿同篇。出版方列萨尔茨堡大学和罗格斯大学；资助是 FWF、ERC。 预印本 2024 年公开，SODA 2025 版合并。",
+        "year": 2024
+      },
+      {
+        "title": "Matching Composition and Efficient Weight Reduction in Dynamic Matching",
+        "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611978322.97",
+        "outcome": "no-evidence",
+        "note": "SODA 2025 正式文对应 2024 预印本。会议作者机构为萨尔茨堡大学、罗格斯大学、斯坦福大学；未见范围企业。",
+        "year": 2025
+      },
+      {
+        "title": "Decremental Matching in General Weighted Graphs",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.59",
+        "outcome": "no-evidence",
+        "note": "ICALP 正式文的 2023 预印稿合并。独著署萨尔茨堡大学，奥地利科研基金与 ERC 资助。 预印本 2023 年公开，ICALP 2024 版合并。",
+        "year": 2023
+      },
+      {
+        "title": "A Note on Rounding Matchings in General Graphs",
+        "url": "https://arxiv.org/abs/2402.03068",
+        "outcome": "no-evidence",
+        "note": "DBLP 补充的独立作者预印本。与同期的 Decremental Matching 任务不同；作者原文署萨尔茨堡大学，未见范围企业。",
+        "year": 2024
+      },
+      {
+        "title": "Randomized Algorithms for Learning Partitions with Near Optimal Query Complexity in Constant Rounds",
+        "url": "https://arxiv.org/abs/2608.02176",
+        "outcome": "no-evidence",
+        "note": "DBLP 独立补入、本人主页选列未显示；原文仅达特茅斯学院、港中深、法国 CNRS 与巴黎西岱大学。",
+        "year": 2026
+      }
+    ],
+    "note": "交叉对照港中深校方完整书目链接、个人论文页、DBLP、萨尔茨堡旧课题组与正式出版原文；以 2026-11-12 为止共 9 项公开科研论文。DBLP 补到本人主页未列的两篇，已合并现有正式版和预印本；SOSA 的会议委员会名单与学位论文不算研究文章。无新增关系。"
+  },
+  "RVQMz2sAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://people.ucas.ac.cn/~songlh",
+      "https://songlh.github.io/",
+      "https://dblp.org/pid/55/7502.html",
+      "https://arxiv.org/search/?query=Song%2C+Linhai&searchtype=author&abstracts=hide&size=50",
+      "https://charlesxsh.github.io/research/",
+      "https://molly-ting.github.io/",
+      "https://www.sigops.org/s/conferences/sosp/2026/accepted.html",
+      "https://2026.splashcon.org/details/oopsla-2026/18/SymGPT-Auditing-Smart-Contracts-via-Combining-Symbolic-Execution-with-Large-Language"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
+        "url": "https://doi.org/10.1145/3830418.3843908",
+        "outcome": "no-evidence",
+        "note": "SOSP 正式原文与首稿 2603.24595 合一；署名为宾州州立、国科大计算所及北大，现博士生贾浩民确在列。使用 CUDA 和 DeepSeek、向项目披露问题不构成同篇企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Mobile-MCP: Implementing the Model Context Protocol via Android’s Inter-Application Communication Mechanisms",
+        "url": "https://os-for-agent.github.io/papers/AgenticOS_2026_paper_18.pdf",
+        "outcome": "no-evidence",
+        "note": "研讨会原文首作者署北邮、团队页另列其为现国科大博士；其余为华东师大、宾州州立及计算所。用到小艺、通义千问等产品，未见企业员工或具名参与。"
+      },
+      {
+        "year": 2026,
+        "title": "SymGPT: Auditing Smart Contracts via Combining Symbolic Execution with Large Language Models",
+        "url": "https://doi.org/10.1145/3798217",
+        "outcome": "no-evidence",
+        "note": "PACMPL 正式版与 2502.07644 合一；宾州州立、UCSD、辛辛那提及牛津学术署名，无范围内企业。通过 DSL 和符号执行审计，与直接提示的 AuditGPT 有独立方法和实验。"
+      },
+      {
+        "year": 2026,
+        "title": "Doc2Spec: Synthesizing Formal Programming Specifications from Natural Language via Grammar Induction",
+        "url": "https://arxiv.org/abs/2602.04892",
+        "outcome": "no-evidence",
+        "note": "逐版核到国科大计算所及宾州州立学术队伍；第二版新增赵昕岩，使用 DeepSeek 模型是实验配置，无具名企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "How to Save My Gas Fees: Understanding and Detecting Real-World Gas Issues in Solidity Programs",
+        "url": "https://doi.org/10.1109/TSE.2025.3593930",
+        "outcome": "no-evidence",
+        "note": "2025 TSE 正式刊、2024 首稿与 2026 ICSE journal-first 合一；秦伯钦署天翼云科技，不在范围内；无目标企业及本校博士实研证据。"
+      },
+      {
+        "year": 2025,
+        "title": "SC-Bench: A Large-Scale Dataset for Smart Contract Auditing",
+        "url": "https://doi.org/10.1109/LLM4Code66737.2025.00012",
+        "outcome": "no-evidence",
+        "note": "2025 LLM4Code 版和 2024 年同名预印本合一；宾州州立与 UCSD 学术署名，样本来自公开以太坊合约，未见企业合作参与。"
+      },
+      {
+        "year": 2025,
+        "title": "MicroMoE: Fine-grained Load Balancing for Mixture-of-Experts with Token Scheduling",
+        "url": "https://arxiv.org/abs/2511.16947",
+        "outcome": "no-evidence",
+        "note": "2025 年首稿称 MicroMoE，后续版本更名。原稿署名北大及中科院计算所；DeepEP、TorchTitan 等仅用于对比。"
+      },
+      {
+        "year": 2024,
+        "title": "Understanding and Detecting Real-World Safety Issues in Rust",
+        "url": "https://doi.org/10.1109/TSE.2024.3380393",
+        "outcome": "no-evidence",
+        "note": "论文脚注明确秦伯钦当时是北邮博士并在宾州州立学术访问期间完成，发表时所署天翼云、陈逸伦所署 HoneycombData 均非范围企业；宋林海署宾州州立。"
+      },
+      {
+        "year": 2024,
+        "title": "Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation",
+        "url": "https://doi.org/10.1145/3597503.3639103",
+        "outcome": "no-evidence",
+        "note": "ICSE 正式全文只有中国科大与宾州州立署名；美国 NSF 与中国自然科学基金资助，无具名企业实研参与。"
+      },
+      {
+        "year": 2024,
+        "title": "AuditGPT: Auditing Smart Contracts with ChatGPT",
+        "url": "https://arxiv.org/abs/2404.04306",
+        "outcome": "no-evidence",
+        "note": "前期预印本署宾州州立、UCSD、辛辛那提；ChatGPT 是工具，其供应商没有人员署名；与后续 DSL/符号执行方法不同。"
+      }
+    ],
+    "note": "2023-01-01 至 2026-11-12：作者公开书目、DBLP、预印本作者索引、两位合作者书目与会议目录交叉去重。正式版、会议报告和预印本按同一研究去重；10 项已核原文署名与可核作者角色，暂无符合口径关系。作者 2025 年中由宾州州立转入中科院，早期已核作品不倒推国科大任职。完成标记指可找到的公开书目。"
+  },
+  "5nKXtoUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://scse.buaa.edu.cn/info/1131/3279.htm",
+      "https://orcid.org/0000-0002-5080-1733",
+      "https://dblp.org/pid/16/8496.html",
+      "https://orcid.org/0000-0002-2443-6285",
+      "https://www.nict.go.jp/en/asean_ivo/gden8c00000004el-att/fvsjtv0000000fta.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Spatially-Regularized Entropy for Discriminative Token Merging in Fine-Grained Re-Identification",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/li26hz.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式原文所有作者的单位均属北航，未见调查企业人员开展本项研究。"
+      },
+      {
+        "title": "Learning What to Generate: A Reinforcement Learning-based Closed-Loop Augmentation Framework for Person Re-Identification",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/shi26o.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式原文所有作者署北航，采用外部生成方法并不证明企业参与。"
+      },
+      {
+        "title": "ICAA: Interaction-Calibrated Attention-Based Asymmetric Feature Decomposition and Recovery for Domain Generalization and Adaptation",
+        "year": 2026,
+        "url": "https://www.mdpi.com/2079-9292/15/20/4742",
+        "outcome": "no-evidence",
+        "note": "正式原文列北航、真空电子技术全国重点实验室与牛津大学，未见范围内企业。"
+      },
+      {
+        "title": "Relational Clustering-Based Parallel Spaces Construction and Embedding for Dynamic Knowledge Graph",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TBDATA.2025.3527238",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录和教师 ORCID 均确认两名作者；可见资料未核实调查企业参与。"
+      },
+      {
+        "title": "CRF Based Pedestrian Trajectory Reconstruction With Spatio-Temporal Feature Embedding and Entropy Constraints",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TITS.2025.3553849",
+        "outcome": "no-evidence",
+        "note": "可核对署名为北航与中国人民公安大学，未披露调查企业参与研究。"
+      },
+      {
+        "title": "WildARe-YOLO: A lightweight and efficient wild animal recognition model",
+        "year": 2024,
+        "url": "https://doi.org/10.1016/j.ecoinf.2024.102541",
+        "outcome": "no-evidence",
+        "note": "出版全文只列北航及南非茨瓦内理工大学，未发现调查企业。"
+      },
+      {
+        "title": "WildPose: HRNet-based Lightweight and Efficient Wildlife Pose Estimation",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/APSIPAASC63619.2025.10849245",
+        "outcome": "no-evidence",
+        "note": "APSIPA 2024 项目公开后于次年收录 IEEE；对照会议议程与合作者书目，未查到范围内企业合作证据。"
+      },
+      {
+        "title": "Digital Eye on Endangered Wildlife: Crafting Recognition Datasets through Semi-Automated Annotation",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3635118.3635123",
+        "outcome": "no-evidence",
+        "note": "DOI 和作者 ORCID 交叉确认本项公开数据集；可查出版题录暂无调查企业参与的证据。"
+      },
+      {
+        "title": "ProtoHPE: Prototype-guided High-frequency Patch Enhancement for Visible-Infrared Person Re-identification",
+        "year": 2023,
+        "url": "https://arxiv.org/html/2310.07552v1",
+        "outcome": "no-evidence",
+        "note": "稿件作者均署北航；与可见光 PHA 的任务、实验与组成不同。"
+      },
+      {
+        "title": "PHA: Patch-Wise High-Frequency Augmentation for Transformer-Based Person Re-Identification",
+        "year": 2023,
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_PHA_Patch-Wise_High-Frequency_Augmentation_for_Transformer-Based_Person_Re-Identification_CVPR_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "原稿列北航及海康威视研究院。海康威视不在项目的 14 家企业范围内。"
+      }
+    ],
+    "note": "首批核对北航公开书目与 ORCID、会议论文。DBLP 页面有同名作者，仍需继续交叉排查其它记录。"
   }
 };
