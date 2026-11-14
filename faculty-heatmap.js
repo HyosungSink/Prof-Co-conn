@@ -85,39 +85,70 @@ function facultyGridPath(columns, rows) {
   return cells;
 }
 
-function facultyGridSize(count, width, height) {
-  let best = { columns: 0, rows: 0, cost: Infinity };
-  for (let rows = 1; rows <= count; rows += 1) {
-    let columns = Math.ceil(count / rows);
-    // The Gilbert walk can step diagonally when the longer side is odd and
-    // the shorter one is even. Add a column if needed to keep every group connected.
-    if (Math.max(columns, rows) % 2 && Math.min(columns, rows) % 2 === 0) columns += 1;
-    const aspect = (width / columns) / (height / rows);
-    const unused = columns * rows - count;
-    const cost = Math.log(aspect) ** 2 + 4 * unused / count;
-    if (cost < best.cost) best = { columns, rows, cost };
-  }
-  return best;
-}
+function layoutFacultyTiles(groups, width, height, school) {
+  const box = { x: 0, y: 0, width, height };
+  const ideal = [];
+  const categories = [];
+  const units = school?.units.filter(unit => unit.entries.length)
+    .sort((a, b) => b.entries.length - a.entries.length);
+  const place = ({ entries }, rect) => ideal.push({ entries, rect });
+  const pack = (parts, area) => layoutWeightedRectangles(parts, area, part => part.entries.length, place);
+  if (school) pack(units, box);
+  else layoutSchoolGroups(groups, width, height, 0, ({ entries }, area) => {
+    categories.push(area);
+    pack(entries, area);
+  });
 
-function layoutFacultyTiles(entries, width, height) {
-  const { columns, rows } = facultyGridSize(entries.length, width, height);
+  const count = ideal.reduce((sum, { entries }) => sum + entries.length, 0);
+  const snap = (rect, columns, rows) => {
+    const left = Math.round(rect.x / width * columns);
+    const right = Math.round((rect.x + rect.width) / width * columns);
+    const top = Math.round(rect.y / height * rows);
+    const bottom = Math.round((rect.y + rect.height) / height * rows);
+    return { left, top, right, bottom };
+  };
+  const capacity = ({ left, top, right, bottom }) => (right - left) * (bottom - top);
+  let columns = 0, rows = 0;
+  let bestCost = Infinity;
+  const idealRows = Math.sqrt(count * height / width);
+  // Share grid lines across rectangles. Find a grid with near-square tiles,
+  // few empty slots, and enough whole cells in every snapped rectangle.
+  if (count) for (let scale = 1; !rows; scale *= 2) {
+    for (let r = Math.max(1, Math.floor(idealRows * scale / 2)); r <= Math.ceil(idealRows * scale * 2); r += 1) {
+      for (let c = Math.max(1, Math.ceil(count / r)); c <= Math.ceil(count / r * scale * 1.4); c += 1) {
+        const cost = Math.log((width / c) / (height / r)) ** 2 + 4 * (c * r - count) / count;
+        if (cost >= bestCost || ideal.some(({ entries, rect }) => capacity(snap(rect, c, r)) < entries.length)) continue;
+        columns = c;
+        rows = r;
+        bestCost = cost;
+      }
+    }
+  }
+
   const cellWidth = columns ? width / columns : 0;
   const cellHeight = rows ? height / rows : 0;
   const cells = new Array(columns * rows);
+  const tiles = [];
   const positions = new Map();
-  const path = columns ? facultyGridPath(columns, rows) : [];
-  const tiles = entries.map((entry, index) => {
-    const [col, row] = path[index];
-    // Reflect the walk so its unused tail ends near the bottom-right corner.
-    const x = columns >= rows ? col : columns - 1 - col;
-    const y = columns >= rows ? rows - 1 - row : row;
-    const tile = { entry, x: x * cellWidth, y: y * cellHeight };
-    cells[y * columns + x] = entry;
-    positions.set(entry, tile);
-    return tile;
+  const blocks = ideal.map(({ entries, rect }) => {
+    const block = snap(rect, columns, rows);
+    const w = block.right - block.left;
+    const h = block.bottom - block.top;
+    const path = facultyGridPath(w, h);
+    entries.forEach((entry, index) => {
+      const [x, y] = path[index];
+      // Reflect the walk so unused cells sit near the bottom-right of the block.
+      const col = w >= h ? block.left + x : block.right - 1 - x;
+      const row = w >= h ? block.bottom - 1 - y : block.top + y;
+      const tile = { entry, x: col * cellWidth, y: row * cellHeight };
+      cells[row * columns + col] = entry;
+      tiles.push(tile);
+      positions.set(entry, tile);
+    });
+    return block;
   });
-  return { width, height, columns, rows, cellWidth, cellHeight, cells, tiles, positions };
+  const bands = categories.map(rect => snap(rect, columns, rows));
+  return { width, height, columns, rows, cellWidth, cellHeight, cells, tiles, positions, blocks, bands };
 }
 
 function renderFacultyUnits() {
@@ -145,10 +176,12 @@ function renderFacultyUnits() {
     }
     school.entries = school.units.flatMap(unit => unit.entries);
   }
-  const orderedSchools = schoolChartGroups.flatMap(([category]) =>
-    schools.filter(school => categoryBySchool.get(school.name) === category && school.count)
-      .sort((a, b) => b.count - a.count));
-  const allEntries = orderedSchools.flatMap(school => school.entries);
+  const groups = schoolChartGroups.flatMap(([category]) => {
+    const entries = schools.filter(school => categoryBySchool.get(school.name) === category && school.count)
+      .sort((a, b) => b.count - a.count);
+    return entries.length ? [{ entries, weight: entries.reduce((sum, school) => sum + school.count, 0) }] : [];
+  });
+  const allEntries = groups.flatMap(group => group.entries.flatMap(school => school.entries));
   const unitCount = schools.reduce((sum, school) => sum + school.units.length, 0);
   const instituteSchool = '中国科学院大学';
   addOptions(schoolPicker, survey.schools);
@@ -187,24 +220,11 @@ function renderFacultyUnits() {
     readout.title = readout.textContent;
   }
 
-  function drawBoundaries(groupOf, weight) {
-    const { cells, columns, rows, cellWidth, cellHeight } = currentLayout;
-    const edge = (x, y, x2, y2) => {
-      context.moveTo(x, y);
-      context.lineTo(x2, y2);
-    };
+  function drawBoundaries(blocks, weight) {
+    const { cellWidth, cellHeight } = currentLayout;
     context.beginPath();
-    for (let row = 0; row < rows; row += 1) {
-      for (let column = 0; column < columns; column += 1) {
-        const i = row * columns + column;
-        const entry = cells[i];
-        if (!entry) continue;
-        const group = groupOf(entry);
-        const x = column * cellWidth, y = row * cellHeight;
-        const right = (column + 1) * cellWidth, bottom = (row + 1) * cellHeight;
-        if (column + 1 < columns && cells[i + 1] && groupOf(cells[i + 1]) !== group) edge(right, y, right, bottom);
-        if (row + 1 < rows && cells[i + columns] && groupOf(cells[i + columns]) !== group) edge(x, bottom, right, bottom);
-      }
+    for (const { left, top, right, bottom } of blocks) {
+      context.rect(left * cellWidth, top * cellHeight, (right - left) * cellWidth, (bottom - top) * cellHeight);
     }
     context.strokeStyle = '#241d2d';
     context.lineWidth = Math.min(weight, cellWidth * .35, cellHeight * .35);
@@ -213,7 +233,7 @@ function renderFacultyUnits() {
 
   function paint() {
     if (!currentLayout) return;
-    const { width, height, cellWidth, cellHeight, tiles, positions } = currentLayout;
+    const { width, height, cellWidth, cellHeight, tiles, positions, blocks, bands } = currentLayout;
     const gap = Math.min(.8, cellWidth * .15, cellHeight * .15);
     context.clearRect(0, 0, width, height);
     for (const { entry, x, y } of tiles) {
@@ -222,11 +242,8 @@ function renderFacultyUnits() {
       context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
     }
     context.globalAlpha = 1;
-    if (selectedSchool) drawBoundaries(entry => entry.unit, 1.45);
-    else {
-      drawBoundaries(entry => entry.school, 1.45);
-      drawBoundaries(entry => categoryBySchool.get(entry.school.name), 2.6);
-    }
+    drawBoundaries(blocks, 1.45);
+    if (bands.length) drawBoundaries(bands, 2.6);
     const marked = positions.get(inspected);
     if (marked) {
       context.strokeStyle = '#251c32';
@@ -242,7 +259,7 @@ function renderFacultyUnits() {
     canvas.width = Math.ceil(width * density);
     canvas.height = Math.ceil(height * density);
     context.setTransform(canvas.width / width, 0, 0, canvas.height / height, 0, 0);
-    currentLayout = layoutFacultyTiles(selectedSchool?.entries || allEntries, width, height);
+    currentLayout = layoutFacultyTiles(groups, width, height, selectedSchool);
     paint();
   }
 
