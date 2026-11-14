@@ -37062,6 +37062,50 @@ const survey = {
         "王瑞的学生名单中列 Ziyin Zhang 为 2023 入学硕士、2025 起在读博士。原文王瑞为上交通讯作者。",
         "https://wangruinlp.github.io/"
       ]
+    },
+    {
+      "id": "tencent-block-distill-cuhk-wai-lam",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "香港中文大学系统工程与工程管理学系教授，本文共同通讯作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Shuaiyi Li",
+        "港中文课题组列为 2022 年起博士生。预印本 v6 PDF 首页星号明确说明第一作者在腾讯实习时完成这项研究。",
+        "https://arxiv.org/pdf/2605.15913v6"
+      ],
+      "advising": [
+        "博士导师",
+        "港中文课题组正式网页具名列其为 Wai Lam 在读博士生。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "王琰 · Yan Wang",
+        "同篇腾讯署名；本人学术主页载明是腾讯 AI Lab 首席研究科学家，领导模型架构研究；2025 年 ICLR 共同发表与本研究连续的 block attention 工作。",
+        "https://libertywing.github.io/yanwang.github.io/"
+      ],
+      "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
+      "short": "Block Attention Distillation",
+      "date": "2026-05",
+      "venue": "arXiv",
+      "area": "大语言模型与推理",
+      "paper": "https://arxiv.org/abs/2605.15913",
+      "extra": [
+        [
+          "v6 原始 PDF 首页星号",
+          "https://arxiv.org/pdf/2605.15913v6"
+        ],
+        [
+          "企业作者先行 ICLR 讲稿",
+          "https://iclr.cc/media/iclr-2025/Slides/30791_Q5gqwDD.pdf"
+        ]
+      ],
+      "evidence": "在 2026 年 9 月 13 日公开的 v6 正文 PDF 首页，星号唯一标注第一作者 Shuaiyi Li，说明该研究在腾讯实习期间完成。学校团队网页明确其在读及导师关系。同篇企业作者王琰有本人任职材料。"
     }
   ]
 };

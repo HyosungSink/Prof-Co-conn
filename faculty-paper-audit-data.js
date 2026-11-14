@@ -7797,7 +7797,62 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2512.23959",
       "https://github.com/Encyclomen/HGMem",
       "https://arxiv.org/abs/2606.02020",
-      "https://arxiv.org/html/2606.02020"
+      "https://arxiv.org/html/2606.02020",
+      "https://arxiv.org/abs/2605.15913",
+      "https://arxiv.org/pdf/2605.15913v6",
+      "https://libertywing.github.io/yanwang.github.io/",
+      "https://iclr.cc/media/iclr-2025/Slides/30791_Q5gqwDD.pdf",
+      "https://arxiv.org/abs/2606.18208",
+      "https://arxiv.org/html/2606.18208",
+      "https://arxiv.org/abs/2608.14022",
+      "https://asdfo123.github.io/",
+      "https://arxiv.org/html/2608.14022",
+      "https://github.com/asdfo123/ForgeWM",
+      "https://arxiv.org/abs/2604.11246",
+      "https://arxiv.org/html/2604.11246",
+      "https://arxiv.org/abs/2601.23048",
+      "https://iris-backend.cuhk.edu.hk/ws/portalfiles/portal/769496463/ICLR-2026-from-abstract-to-contextual-what-llms-still-cannot-do-in-mathematics-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2510.11391",
+      "https://arxiv.org/html/2510.11391",
+      "https://arxiv.org/abs/2506.09340",
+      "https://arxiv.org/pdf/2506.09340",
+      "https://openreview.net/forum?id=PahnCreCxK",
+      "https://arxiv.org/abs/2402.13064",
+      "https://research.cuhk.edu.hk/en/publications/synthetic-data-almost-from-scratch-generalized-instruction-tuning/",
+      "https://openreview.net/forum?id=FJgtVfUxLQ",
+      "https://arxiv.org/abs/2409.18786",
+      "https://research.cuhk.edu.hk/en/publications/a-survey-on-the-honesty-of-large-language-models/",
+      "https://openreview.net/forum?id=IIsTO4P3Ag",
+      "https://arxiv.org/abs/2410.13824",
+      "https://research.cuhk.edu.hk/en/publications/harnessing-webpage-uis-for-text-rich-visual-understanding/",
+      "https://doi.org/10.1145/3674501",
+      "https://arxiv.org/abs/2306.02051",
+      "https://intrebid.github.io/assets/pdf/10.1145/3674501.pdf",
+      "https://doi.org/10.1109/TNNLS.2023.3258413",
+      "https://ink.library.smu.edu.sg/sis_research/9089/",
+      "https://doi.org/10.1017/S1351324923000177",
+      "https://research.cuhk.edu.hk/en/publications/joint-learning-of-text-alignment-and-abstractive-summarization-fo-2/",
+      "https://arxiv.org/abs/2411.08147",
+      "https://arxiv.org/pdf/2411.08147",
+      "https://arxiv.org/abs/2404.05955",
+      "https://openreview.net/pdf/acdb1f843c05b5ecb8f09c6eca4981a762526097.pdf",
+      "https://doi.org/10.1145/3589334.3645483",
+      "https://irlab.science.uva.nl/wp-content/papercite-data/pdf/yuan-2024-asking.pdf",
+      "https://openreview.net/forum?id=MCNqgUFTHI",
+      "https://arxiv.org/abs/2311.00262",
+      "https://research.cuhk.edu.hk/en/publications/plug-and-play-policy-planner-for-large-language-model-powered-dia-2/",
+      "https://doi.org/10.1145/3624918.3625315",
+      "https://arxiv.org/abs/2309.16270",
+      "https://yfyuan01.github.io/",
+      "https://doi.org/10.1145/3570640",
+      "https://arxiv.org/abs/2204.06923",
+      "https://ink.library.smu.edu.sg/sis_research/9086/",
+      "https://doi.org/10.1609/aaai.v37i11.26505",
+      "https://www1.se.cuhk.edu.hk/~manchoso/papers/eff_fine_tune-aaai23.pdf",
+      "https://www.languagesciences.cam.ac.uk/people/dr-zihao-fu",
+      "https://orcid.org/0000-0001-5479-377X",
+      "https://dblp.org/pid/48/1707.html",
+      "https://aclanthology.org/people/wai-lam/"
     ],
     "papers": [
       {
@@ -8167,9 +8222,149 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "Ting Xu 博士导师明确；论文缺具名企业实习脚注、还需查证学生和同篇企业人员的项目归属。",
         "year": 2026
+      },
+      {
+        "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
+        "url": "https://arxiv.org/abs/2605.15913",
+        "outcome": "confirmed",
+        "note": "在 2026 年 9 月 13 日公开的 v6 正文 PDF 首页，星号唯一标注第一作者 Shuaiyi Li，说明该研究在腾讯实习期间完成。学校团队网页明确其在读及导师关系。同篇企业作者王琰有本人任职材料。",
+        "year": 2026
+      },
+      {
+        "title": "Looped World Models",
+        "url": "https://arxiv.org/abs/2606.18208",
+        "outcome": "no-evidence",
+        "note": "技术报告明确由 FaceMind Research Asia 发布，未见列入十四家范围的企业研究链。",
+        "year": 2026
+      },
+      {
+        "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
+        "url": "https://arxiv.org/abs/2608.14022",
+        "outcome": "lead",
+        "note": "学生主页说项目首度发布在 2026 年 5 月，8 月才报道腾讯光子实习；又有与论文署名一致但更早的腾讯 PCG 实习。论文无本文实习说明，仍缺港中文博士入学及项目究竟归哪段腾讯经历的时间链。",
+        "year": 2026
+      },
+      {
+        "title": "Judge Like Human Examiners: A Weighted Importance Multi-Point Evaluation Framework for Generative Tasks with Long-form Answers",
+        "url": "https://arxiv.org/abs/2604.11246",
+        "outcome": "lead",
+        "note": "Chulun Zhou 课题组、阿里 Qwen 实习及本文阿里署名均能核对；本文有多家合作机构，无材料明确该学生的具体企业项目角色。",
+        "year": 2026
+      },
+      {
+        "title": "From Abstract to Contextual: What LLMs Still Cannot Do in Mathematics",
+        "url": "https://arxiv.org/abs/2601.23048",
+        "outcome": "no-evidence",
+        "note": "核对 ICLR 正式版，合作方包括微软、FaceMind、港中文、港科大等；未找到范围公司在该论文的学生科研。",
+        "year": 2026
+      },
+      {
+        "title": "DocReward: A Document Reward Model for Structuring and Stylizing",
+        "url": "https://arxiv.org/abs/2510.11391",
+        "outcome": "no-evidence",
+        "note": "作者中港中文学生和部分其他高校学生在列，相关企业署名为微软，未见十四家范围内的企业共同项目。",
+        "year": 2026
+      },
+      {
+        "title": "RePO: Replay-Enhanced Policy Optimization",
+        "url": "https://arxiv.org/abs/2506.09340",
+        "outcome": "no-evidence",
+        "note": "同篇企业或实验室机构是上海人工智能实验室，未见范围内其他企业署名或学生企业研究材料。",
+        "year": 2025
+      },
+      {
+        "title": "Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models",
+        "url": "https://openreview.net/forum?id=PahnCreCxK",
+        "outcome": "no-evidence",
+        "note": "核 TMLR 正式版和港中文门户；工作涉及微软团队，未找到所列中国企业与该项研究的三方证据。",
+        "year": 2025
+      },
+      {
+        "title": "A Survey on the Honesty of Large Language Models",
+        "url": "https://openreview.net/forum?id=FJgtVfUxLQ",
+        "outcome": "lead",
+        "note": "文章为综述；在读生和腾讯员工同篇，未给出该学生在腾讯进行本文研究的直接证据。",
+        "year": 2025
+      },
+      {
+        "title": "Harnessing Webpage UIs for Text-Rich Visual Understanding",
+        "url": "https://openreview.net/forum?id=IIsTO4P3Ag",
+        "outcome": "no-evidence",
+        "note": "依据 ICLR 正式正文、预印本与港中文出版记录，未发现范围公司与同篇学生企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers",
+        "url": "https://doi.org/10.1145/3674501",
+        "outcome": "no-evidence",
+        "note": "综述正文核作者署名与项目资助，未找到具名学生在范围公司参加本文科研。",
+        "year": 2024
+      },
+      {
+        "title": "Nonfactoid Question Answering as Query-Focused Summarization With Graph-Enhanced Multihop Inference",
+        "url": "https://doi.org/10.1109/TNNLS.2023.3258413",
+        "outcome": "lead",
+        "note": "论文作者简介确认 Weiwen Xu 写作期间为港中文博士，并有达摩院员工，但未找到把学生具体工作归于达摩院的原始说明。",
+        "year": 2024
+      },
+      {
+        "title": "Joint learning of text alignment and abstractive summarization for long documents via unbalanced optimal transport",
+        "url": "https://doi.org/10.1017/S1351324923000177",
+        "outcome": "no-evidence",
+        "note": "剑桥出版社全文显示作者高校机构和对应基金，未找到本次企业参与及同篇学生证据。",
+        "year": 2024
+      },
+      {
+        "title": "Large Language Models Can Self-Improve in Long-context Reasoning",
+        "url": "https://arxiv.org/abs/2411.08147",
+        "outcome": "lead",
+        "note": "港中文学生 Siheng Li 的导师、腾讯同篇员工与两位通讯作者可确认，正文未标其在腾讯完成本篇，也未见企业项目的独立履历证据。",
+        "year": 2024
+      },
+      {
+        "title": "VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?",
+        "url": "https://arxiv.org/abs/2404.05955",
+        "outcome": "no-evidence",
+        "note": "已核 COLM 正式版，未匹配范围公司与同篇在读学生在该企业的研究。",
+        "year": 2024
+      },
+      {
+        "title": "Asking Multimodal Clarifying Questions in Mixed-Initiative Conversational Search",
+        "url": "https://doi.org/10.1145/3589334.3645483",
+        "outcome": "no-evidence",
+        "note": "论文脚注明确第一作者研究在阿姆斯特丹大学开展；其他作者也仅有高校署名。",
+        "year": 2024
+      },
+      {
+        "title": "Plug-and-Play Policy Planner for Large Language Model Powered Dialogue Agents",
+        "url": "https://openreview.net/forum?id=MCNqgUFTHI",
+        "outcome": "lead",
+        "note": "已核 ICLR 作者表、预印本及港中文出版记录；纵有企业署名，未查到具名博士生在本企业做该论文的支持材料。",
+        "year": 2024
+      },
+      {
+        "title": "Multimodal Fashion Knowledge Extraction as Captioning",
+        "url": "https://doi.org/10.1145/3624918.3625315",
+        "outcome": "lead",
+        "note": "Yifei Yuan 公布港中文博士毕业年及导师，论文列 Alibaba DAMO 员工；无具名企业参与说明，且论文与博士毕业同年，具体研究时段未核。",
+        "year": 2023
+      },
+      {
+        "title": "A Unified Multi-task Learning Framework for Multi-goal Conversational Recommender Systems",
+        "url": "https://doi.org/10.1145/3570640",
+        "outcome": "lead",
+        "note": "2022 年首次预印本与 2023 年期刊合并。第一作者、共同作者与教师及其他学术单位可核，未找到报告本篇研究由具名学生在企业实习完成的材料。",
+        "year": 2023
+      },
+      {
+        "title": "On the Effectiveness of Parameter-Efficient Fine-Tuning",
+        "url": "https://doi.org/10.1609/aaai.v37i11.26505",
+        "outcome": "lead",
+        "note": "学校保留正式全文；阿里和港中文作者均可核，未发现 Haoran Yang 在阿里参与本篇研究的明确依据；曾受指导的第一作者已署剑桥。",
+        "year": 2023
       }
     ],
-    "note": "已逐篇核对 ACL Anthology 的范围内条目及其他会议中的部分论文；仍需核查该时段论文的其他会议、期刊和预印本。"
+    "note": "已逐篇核对 ACL Anthology 的范围内条目，以及由学校主页、DBLP 和 ORCID 对照得到的部分期刊或其他会议论文、预印本；待核剩余出版来源。"
   },
   "-oTraZ4AAAAJ": {
     "from": "2023-01-01",
