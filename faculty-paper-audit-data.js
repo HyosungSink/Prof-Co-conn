@@ -11860,7 +11860,8 @@ const facultyPaperAudits = {
       "https://chaofengc.github.io/data/publications.bib",
       "https://chaofengc.github.io/data/members.json",
       "https://dblp.org/pid/198/2537.html",
-      "https://mc-lan.github.io/"
+      "https://mc-lan.github.io/",
+      "https://chaofengc.github.io/assets/Resume_ChenChaofeng_en.pdf"
     ],
     "papers": [
       {
@@ -11939,6 +11940,146 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "原文七位作者仅署武汉大学和西安电子科技大学，无范围内企业署名。"
+      },
+      {
+        "title": "TOPIQ: A Top-Down Approach From Semantics to Distortions for Image Quality Assessment",
+        "url": "https://arxiv.org/html/2308.03060",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "论文首页将陈超锋列为南洋理工大学作者，商汤和 Tetras.ai 不在本项目企业清单；正式版与预印本同篇。"
+      },
+      {
+        "title": "Q-Ground: Image Quality Grounding with Large Multi-modality Models",
+        "url": "https://arxiv.org/abs/2407.17035",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "论文署名南洋理工大学、上海交通大学和商汤；未见范围内企业。"
+      },
+      {
+        "title": "T2I-Scorer: Quantitative Evaluation on Text-to-Image Generation via Fine-Tuned Large Multi-Modal Models",
+        "url": "https://jhc.sjtu.edu.cn/~xiaohongliu/papers/2024T2I-Scorer.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ACM 正式版作者仅署上海交通大学和南洋理工大学，未见范围内企业。"
+      },
+      {
+        "title": "G-Refine: A General Quality Refiner for Text-to-Image Generation",
+        "url": "https://arxiv.org/abs/2404.18343",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "原文署上海交通大学、南洋理工大学、上海人工智能实验室；无范围内企业署名。"
+      },
+      {
+        "title": "LMM-PCQA: Assisting Point Cloud Quality Assessment with LMM",
+        "url": "https://arxiv.org/abs/2404.18203",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "原文首页作者单位均为上海交通大学或南洋理工大学；没有范围内企业作者。"
+      },
+      {
+        "title": "Combining Generative and Geometry Priors for Wide-Angle Portrait Correction",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04272.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ECCV 正式版作者单位含哈工大、南洋理工大学和琶洲实验室；未见范围内企业。"
+      },
+      {
+        "title": "ClearCLIP: Decomposing CLIP Representations for Dense Vision-Language Inference",
+        "url": "https://arxiv.org/abs/2407.12442",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "原文陈超锋署南洋理工大学；唯一企业署名为本项目范围外的商汤。"
+      },
+      {
+        "title": "ProxyCLIP: Proxy Attention Improves CLIP for Open-Vocabulary Segmentation",
+        "url": "https://arxiv.org/abs/2408.04883",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "原文作者单位含南洋理工大学、广东省电网数字化重点实验室和商汤；未见项目范围内企业。"
+      },
+      {
+        "title": "Towards Open-Ended Visual Quality Comparison",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00422.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "核对 ECCV 正式版的高校和企业署名；唯一企业署名为本项目范围外的商汤。"
+      },
+      {
+        "title": "Enhancing Diffusion Models with Text-Encoder Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2311.15657",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "论文逐名对应南洋理工大学和商汤；该企业不在本项目范围。"
+      },
+      {
+        "title": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+        "url": "https://proceedings.mlr.press/v235/wu24ah.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ICML 正式版列南洋理工大学、上海交通大学和商汤；未见范围内的企业作者。"
+      },
+      {
+        "title": "Boosting Image Quality Assessment Through Efficient Transformer Adaptation with Local Feature Enhancement",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Boosting_Image_Quality_Assessment_through_Efficient_Transformer_Adaptation_with_Local_CVPR_2024_paper.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版列武大、南洋理工大学和商汤。陈超锋此时署南洋理工大学；商汤不在本项目企业范围。"
+      },
+      {
+        "title": "Q-Instruct: Improving Low-Level Visual Abilities for Multi-Modality Foundation Models",
+        "url": "https://arxiv.org/abs/2311.06783",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "论文署南洋理工大学、上海交通大学、商汤和新加坡科技研究局；未见范围内企业。"
+      },
+      {
+        "title": "Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision",
+        "url": "https://openreview.net/forum?id=0V5TVt9bk0",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "正式题录与公开原文相符；作者署南洋理工大学、上海交通大学和商汤，未见范围内企业。"
+      },
+      {
+        "title": "Iterative Token Evaluation and Refinement for Real-World Super-resolution",
+        "url": "https://arxiv.org/abs/2312.05616",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "论文首页作者署南洋理工大学和商汤；陈超锋此时是南洋理工大学博士后。"
+      },
+      {
+        "title": "Towards Explainable In-the-Wild Video Quality Assessment: A Database and a Language-Prompted Approach",
+        "url": "https://arxiv.org/abs/2305.12726",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "作者单位均为南洋理工大学或商汤，未见范围内企业。"
+      },
+      {
+        "title": "Exploring Opinion-Unaware Video Quality Assessment with Semantic Affinity Criterion",
+        "url": "https://arxiv.org/abs/2302.13269",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "原文所列作者单位为南洋理工大学和商汤；未见范围内企业。"
+      },
+      {
+        "title": "Towards Robust Text-Prompted Semantic Criterion for In-the-Wild Video Quality Assessment",
+        "url": "https://arxiv.org/abs/2304.14672",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "公开原文的所属机构附注逐名对应南洋理工大学和商汤；未见范围内企业。"
+      },
+      {
+        "title": "MRSE: An Efficient Multi-modality Retrieval System for Large Scale E-commerce",
+        "url": "https://arxiv.org/abs/2408.14968",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "原文作者来自南洋理工大学、新加坡国立大学和 Shopee，后者不在本项目企业清单。"
+      },
+      {
+        "title": "MIMO Is All You Need: A Strong Multi-in-Multi-Out Baseline for Video Prediction",
+        "url": "https://arxiv.org/abs/2212.04655",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2023 年 AAAI 正式发表，原文另列深圳市气象局、港中大（深圳）、爱丁堡大学和南洋理工大学，没有范围内企业署名。"
       }
     ],
     "note": "已逐篇对照个人主页公开题录中的若干成果、原文和课题组名单。个人书目与外部书目覆盖不同，仍在核对其余公开论文。"
@@ -12418,7 +12559,18 @@ const facultyPaperAudits = {
       "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
       "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
       "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
-      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10"
+      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
+      "https://conf.researchr.org/profile/congtian1",
+      "https://faculty.xidian.edu.cn/YUBIN/zh_CN/lwcg/415709/content/12653.htm",
+      "https://api.crossref.org/works/10.1109/TPDS.2022.3215854",
+      "https://doi.org/10.1016/j.jss.2026.113168",
+      "https://wcventure.github.io/",
+      "https://doi.org/10.1109/TPDS.2022.3215854",
+      "https://www.sciencedirect.com/science/article/pii/S0167819123000406",
+      "https://arxiv.org/html/2404.00795",
+      "https://arxiv.org/html/2412.12700",
+      "https://doi.org/10.2139/ssrn.6731320",
+      "https://doi.org/10.1016/j.jisa.2024.103742"
     ],
     "papers": [
       {
@@ -12497,14 +12649,56 @@ const facultyPaperAudits = {
         "url": "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
         "outcome": "no-evidence",
         "note": "Springer 出版版列西电和北京控制工程研究所，致谢为自然科学基金和博士后基金，未见范围内企业。"
+      },
+      {
+        "title": "A Distributed Network-Based Runtime Verification of Full Regular Temporal Properties",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TPDS.2022.3215854",
+        "outcome": "no-evidence",
+        "note": "IEEE 向 Crossref 提交的作者单位均为西安电子科技大学；在线先发在 2022 年，正式卷期为 2023 年。"
+      },
+      {
+        "title": "Adaptively parallel runtime verification based on distributed network for temporal properties",
+        "year": 2023,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167819123000406",
+        "outcome": "no-evidence",
+        "note": "论文署名单位为西安电子科技大学、河北大学、曲阜师范大学与陕西师范大学，无范围内企业。正式刊文与 2023 年同名 SSRN 预印本按同篇。"
+      },
+      {
+        "title": "Towards Practical Requirement Analysis and Verification: A Case Study on Software IP Components in Aerospace Embedded Systems",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2404.00795",
+        "outcome": "no-evidence",
+        "note": "作者仅署西安电子科技大学（含广州研究院）与北京控制工程研究所；航天软件案例不属于本项目纳入的公司研究。"
+      },
+      {
+        "title": "ParMod: A Parallel and Modular Framework for Learning Non-Markovian Tasks",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2412.12700",
+        "outcome": "no-evidence",
+        "note": "arXiv 首版仅列西电研究所和实验室；本文为 ParMod 模块化框架，独立于同组随后发表的 T4NMTD 过渡分解框架。"
+      },
+      {
+        "title": "From Potential to Confirmed: Effective Detection of Atomicity Violations in Interrupt-Driven Programs via Guided Memory Access Graph",
+        "year": 2026,
+        "url": "https://doi.org/10.2139/ssrn.6731320",
+        "outcome": "no-evidence",
+        "note": "2026 年 SSRN 首版，期刊 DOI 10.1016/j.jss.2026.113168 编入 2027 年卷期，与首版合并检查。以卷期版机构补齐 SSRN 未列的曲阜师范大学；其余西安电子科技大学和太原理工大学，未发现范围内企业。"
+      },
+      {
+        "title": "Multi-keyword ranked search with access control for multiple data owners in the cloud",
+        "year": 2024,
+        "url": "https://doi.org/10.1016/j.jisa.2024.103742",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式作者简历记载郭佳琪为西电在读博士，四位其余作者同时均在西电计算理论与技术研究所；项目来源为国家重点研发计划和自然科学基金，未见范围内企业。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "公开书目未穷尽。追加核对出版方、作者主页、公示论文及预印本；检查正式版与预印本重合。"
   },
   "V5jcooYAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://faculty.xidian.edu.cn/LX13/zh_CN/index.htm",
       "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
@@ -12523,7 +12717,19 @@ const facultyPaperAudits = {
       "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
       "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
       "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
-      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10"
+      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
+      "https://api.crossref.org/works/10.1145/3845803",
+      "https://faculty.xidian.edu.cn/YUBIN/zh_CN/lwcg/415709/content/12653.htm",
+      "https://api.crossref.org/works/10.1109/TPDS.2022.3215854",
+      "https://doi.org/10.1016/j.jss.2026.113168",
+      "https://wcventure.github.io/",
+      "https://doi.org/10.1109/TPDS.2022.3215854",
+      "https://www.sciencedirect.com/science/article/pii/S0167819123000406",
+      "https://arxiv.org/html/2404.00795",
+      "https://arxiv.org/html/2412.12700",
+      "https://doi.org/10.2139/ssrn.6731320",
+      "https://doi.org/10.1016/j.jisa.2024.103742",
+      "https://doi.org/10.1145/3845803"
     ],
     "papers": [
       {
@@ -12623,9 +12829,58 @@ const facultyPaperAudits = {
         "url": "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
         "outcome": "no-evidence",
         "note": "Springer 出版版列西电和北京控制工程研究所，致谢为自然科学基金和博士后基金，未见范围内企业。"
+      },
+      {
+        "title": "A Distributed Network-Based Runtime Verification of Full Regular Temporal Properties",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TPDS.2022.3215854",
+        "outcome": "no-evidence",
+        "note": "IEEE 向 Crossref 提交的作者单位均为西安电子科技大学；在线先发在 2022 年，正式卷期为 2023 年。"
+      },
+      {
+        "title": "Adaptively parallel runtime verification based on distributed network for temporal properties",
+        "year": 2023,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167819123000406",
+        "outcome": "no-evidence",
+        "note": "论文署名单位为西安电子科技大学、河北大学、曲阜师范大学与陕西师范大学，无范围内企业。正式刊文与 2023 年同名 SSRN 预印本按同篇。"
+      },
+      {
+        "title": "Towards Practical Requirement Analysis and Verification: A Case Study on Software IP Components in Aerospace Embedded Systems",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2404.00795",
+        "outcome": "no-evidence",
+        "note": "作者仅署西安电子科技大学（含广州研究院）与北京控制工程研究所；航天软件案例不属于本项目纳入的公司研究。"
+      },
+      {
+        "title": "ParMod: A Parallel and Modular Framework for Learning Non-Markovian Tasks",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2412.12700",
+        "outcome": "no-evidence",
+        "note": "arXiv 首版仅列西电研究所和实验室；本文为 ParMod 模块化框架，独立于同组随后发表的 T4NMTD 过渡分解框架。"
+      },
+      {
+        "title": "From Potential to Confirmed: Effective Detection of Atomicity Violations in Interrupt-Driven Programs via Guided Memory Access Graph",
+        "year": 2026,
+        "url": "https://doi.org/10.2139/ssrn.6731320",
+        "outcome": "no-evidence",
+        "note": "2026 年 SSRN 首版，期刊 DOI 10.1016/j.jss.2026.113168 编入 2027 年卷期，与首版合并检查。以卷期版机构补齐 SSRN 未列的曲阜师范大学；其余西安电子科技大学和太原理工大学，未发现范围内企业。"
+      },
+      {
+        "title": "Multi-keyword ranked search with access control for multiple data owners in the cloud",
+        "year": 2024,
+        "url": "https://doi.org/10.1016/j.jisa.2024.103742",
+        "outcome": "no-evidence",
+        "note": "Elsevier 正式作者简历记载郭佳琪为西电在读博士，四位其余作者同时均在西电计算理论与技术研究所；项目来源为国家重点研发计划和自然科学基金，未见范围内企业。"
+      },
+      {
+        "title": "Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3845803",
+        "outcome": "no-evidence",
+        "note": "ACM 期刊版本的作者名单有变化，与会议 IDPVerifier 分别核对。出版方提交的机构显示 Yansong Dong 署麒麟软件，该公司超出范围，其余作者为高校。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "已交叉核对到 2026 年 11 月 12 日的 DBLP、ORCID、院校和会议公开书目；逐篇检查作者与机构，合并同一论文版本，对作者变化的期刊版单独复核。"
   },
   "c707dNUAAAAJ": {
     "from": "2023-01-01",
@@ -12648,7 +12903,20 @@ const facultyPaperAudits = {
       "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
       "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
       "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
-      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10"
+      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
+      "https://orcid.org/0000-0002-1680-3129",
+      "https://api.crossref.org/works/10.1145/3845803",
+      "https://faculty.xidian.edu.cn/YUBIN/zh_CN/lwcg/415709/content/12653.htm",
+      "https://api.crossref.org/works/10.1109/TPDS.2022.3215854",
+      "https://doi.org/10.1016/j.jss.2026.113168",
+      "https://wcventure.github.io/",
+      "https://doi.org/10.1109/TPDS.2022.3215854",
+      "https://www.sciencedirect.com/science/article/pii/S0167819123000406",
+      "https://arxiv.org/html/2404.00795",
+      "https://arxiv.org/html/2412.12700",
+      "https://doi.org/10.2139/ssrn.6731320",
+      "https://doi.org/10.1145/3845803",
+      "https://www.sciencedirect.com/science/article/pii/S0304397524004961"
     ],
     "papers": [
       {
@@ -12741,9 +13009,58 @@ const facultyPaperAudits = {
         "url": "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
         "outcome": "no-evidence",
         "note": "Springer 出版版列西电和北京控制工程研究所，致谢为自然科学基金和博士后基金，未见范围内企业。"
+      },
+      {
+        "title": "A Distributed Network-Based Runtime Verification of Full Regular Temporal Properties",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TPDS.2022.3215854",
+        "outcome": "no-evidence",
+        "note": "IEEE 向 Crossref 提交的作者单位均为西安电子科技大学；在线先发在 2022 年，正式卷期为 2023 年。"
+      },
+      {
+        "title": "Adaptively parallel runtime verification based on distributed network for temporal properties",
+        "year": 2023,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167819123000406",
+        "outcome": "no-evidence",
+        "note": "论文署名单位为西安电子科技大学、河北大学、曲阜师范大学与陕西师范大学，无范围内企业。正式刊文与 2023 年同名 SSRN 预印本按同篇。"
+      },
+      {
+        "title": "Towards Practical Requirement Analysis and Verification: A Case Study on Software IP Components in Aerospace Embedded Systems",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2404.00795",
+        "outcome": "no-evidence",
+        "note": "作者仅署西安电子科技大学（含广州研究院）与北京控制工程研究所；航天软件案例不属于本项目纳入的公司研究。"
+      },
+      {
+        "title": "ParMod: A Parallel and Modular Framework for Learning Non-Markovian Tasks",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2412.12700",
+        "outcome": "no-evidence",
+        "note": "arXiv 首版仅列西电研究所和实验室；本文为 ParMod 模块化框架，独立于同组随后发表的 T4NMTD 过渡分解框架。"
+      },
+      {
+        "title": "From Potential to Confirmed: Effective Detection of Atomicity Violations in Interrupt-Driven Programs via Guided Memory Access Graph",
+        "year": 2026,
+        "url": "https://doi.org/10.2139/ssrn.6731320",
+        "outcome": "no-evidence",
+        "note": "2026 年 SSRN 首版，期刊 DOI 10.1016/j.jss.2026.113168 编入 2027 年卷期，与首版合并检查。以卷期版机构补齐 SSRN 未列的曲阜师范大学；其余西安电子科技大学和太原理工大学，未发现范围内企业。"
+      },
+      {
+        "title": "Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3845803",
+        "outcome": "no-evidence",
+        "note": "ACM 期刊版本的作者名单有变化，与会议 IDPVerifier 分别核对。出版方提交的机构显示 Yansong Dong 署麒麟软件，该公司超出范围，其余作者为高校。"
+      },
+      {
+        "title": "Generating Java code pairing with ChatGPT",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304397524004961",
+        "outcome": "no-evidence",
+        "note": "正式出版作者均署西电计算理论与技术研究所；论文调用 ChatGPT，不构成 OpenAI 员工参与。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
   },
   "QocCdX8AAAAJ": {
     "from": "2023-01-01",
@@ -12878,7 +13195,9 @@ const facultyPaperAudits = {
       "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
       "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
       "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
-      "https://doi.org/10.1109/TCSVT.2023.3237328"
+      "https://doi.org/10.1109/TCSVT.2023.3237328",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
     ],
     "papers": [
       {
@@ -12915,9 +13234,16 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TCSVT.2023.3237328",
         "outcome": "no-evidence",
         "note": "六位作者均署西电；华为昇思学术开放基金属于论文资助，未见华为在职合著者或学生企业参与证明。"
+      },
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
       }
     ],
-    "note": "结合作者公开书目、西电课题组报告和正式出版物逐篇核对，尚未穷尽全部书目。"
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
   },
   "lUw7tVIAAAAJ": {
     "from": "2023-01-01",
@@ -12926,7 +13252,8 @@ const facultyPaperAudits = {
     "sources": [
       "https://liudaizong.github.io/publications/",
       "https://liudaizong.github.io/about.html",
-      "https://dblp.org/pid/239/6021.html"
+      "https://dblp.org/pid/239/6021.html",
+      "https://liudaizong.github.io/_pages/old_pub/"
     ],
     "papers": [
       {
@@ -12977,6 +13304,27 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "正式期刊题录与公开原文作者一致。高校及实验室为中国石油大学（华东）、港科大（广州）、北大、东南、北理工、南通大学、利物浦大学；未见范围内企业。"
+      },
+      {
+        "title": "Look, Compare, Decide: Alleviating Hallucination in Large Vision-Language Models via Multi-View Multi-Path Reasoning",
+        "url": "https://aclanthology.org/2025.coling-main.299.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "COLING 正式版署华科、厦门大学、北大、浙江工商大学、港中大；未见范围内企业。"
+      },
+      {
+        "title": "Spotlight on Token Perception for Multimodal Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2510.09285",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "公开原文的作者单位包括上海人工智能实验室与上海交通大学、港中大、南京大学、武大；没有调查范围内企业署名。"
+      },
+      {
+        "title": "FrameThinker: Learning to Think with Long Videos via Multi-Turn Frame Spotlighting",
+        "url": "https://arxiv.org/abs/2509.24304",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "核对 ICLR 版本署名，论文列上海人工智能实验室、南京大学、港中大、上海交通大学和武大，未见范围内企业作者。"
       }
     ]
   },
@@ -13204,7 +13552,14 @@ const facultyPaperAudits = {
       "https://chunleipeng.com/",
       "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
       "https://ojs.aaai.org/index.php/AAAI/article/view/37473",
-      "https://doi.org/10.1145/3774904.3792220"
+      "https://doi.org/10.1145/3774904.3792220",
+      "https://chunleipeng.com/publications",
+      "https://arxiv.org/abs/2212.14629",
+      "https://arxiv.org/abs/2307.11438",
+      "https://arxiv.org/abs/2401.05646",
+      "https://doi.org/10.1109/TMM.2023.3304913",
+      "https://doi.org/10.1109/TIFS.2024.3516561",
+      "https://doi.org/10.1109/TMM.2024.3521730"
     ],
     "papers": [
       {
@@ -13220,9 +13575,30 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3774904.3792220",
         "outcome": "no-evidence",
         "note": "ACM 会议论文集目录标注 Jingyi Zhang 署海康威视研究院，其余为西电；海康威视不在本项目覆盖的企业名单。"
+      },
+      {
+        "title": "Hierarchical Forgery Classifier on Multi-Modality Face Forgery Clues",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TMM.2023.3304913",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 26 卷正式作者单位为西安电子科技大学和重庆邮电大学。"
+      },
+      {
+        "title": "Attention Consistency Refined Masked Frequency Forgery Representation for Generalizing Face Forgery Detection",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TIFS.2024.3516561",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 20 卷与早期 arXiv 版本合并核对。作者署西电（含杭州研究院）和重庆邮电大学。"
+      },
+      {
+        "title": "Masked Attribute Description Embedding for Cloth-Changing Person Re-Identification",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TMM.2024.3521730",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 27 卷原文作者仅署西安电子科技大学和重庆邮电大学；2024 预印本为同一篇。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
   },
   "c5TFU9sAAAAJ": {
     "from": "2023-01-01",
@@ -13231,7 +13607,12 @@ const facultyPaperAudits = {
     "sources": [
       "https://faculty.xidian.edu.cn/LIUDECHENG/zh_CN/index.htm",
       "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
-      "https://doi.org/10.1145/3774904.3792220"
+      "https://doi.org/10.1145/3774904.3792220",
+      "https://web.xidian.edu.cn/dchliu/paper.html",
+      "https://doi.org/10.1109/TMM.2023.3304913",
+      "https://doi.org/10.1109/TIFS.2024.3516561",
+      "https://doi.org/10.1109/TMM.2024.3521730",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/33176"
     ],
     "papers": [
       {
@@ -13240,9 +13621,37 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3774904.3792220",
         "outcome": "no-evidence",
         "note": "ACM 会议论文集目录标注 Jingyi Zhang 署海康威视研究院，其余为西电；海康威视不在本项目覆盖的企业名单。"
+      },
+      {
+        "title": "Hierarchical Forgery Classifier on Multi-Modality Face Forgery Clues",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TMM.2023.3304913",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 26 卷正式作者单位为西安电子科技大学和重庆邮电大学。"
+      },
+      {
+        "title": "Attention Consistency Refined Masked Frequency Forgery Representation for Generalizing Face Forgery Detection",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TIFS.2024.3516561",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 20 卷与早期 arXiv 版本合并核对。作者署西电（含杭州研究院）和重庆邮电大学。"
+      },
+      {
+        "title": "Masked Attribute Description Embedding for Cloth-Changing Person Re-Identification",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TMM.2024.3521730",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 27 卷原文作者仅署西安电子科技大学和重庆邮电大学；2024 预印本为同一篇。"
+      },
+      {
+        "title": "Mitigating Feature Gap for Adversarial Robustness by Feature Disentanglement",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33176",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式网页及 PDF 显示西安电子科技大学、重庆邮电大学，未见范围内企业。"
       }
     ],
-    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
   },
   "kqRxf3MAAAAJ": {
     "from": "2023-01-01",
@@ -13334,5 +13743,246 @@ const facultyPaperAudits = {
       }
     ],
     "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "M42jRkMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1145/3591247",
+      "https://www.cse.cuhk.edu.hk/people/faculty/lauren-pick/",
+      "https://lmpick.github.io/",
+      "https://lmpick.github.io/cv.pdf",
+      "https://dblp.org/pid/223/5412.html",
+      "https://orcid.org/0000-0003-1605-5383",
+      "https://api.crossref.org/works?filter=orcid:0000-0003-1605-5383",
+      "https://conf.researchr.org/profile/conf/laurenpick1",
+      "https://lmpick.github.io/psym-extended.pdf",
+      "https://www.amazon.science/publications/psym-efficient-symbolic-exploration-of-distributed-systems",
+      "https://doi.org/10.1145/3591254",
+      "https://quest-lab.cs.wisc.edu/downloads/Papers/2023/2211.09691%20%283%29.pdf",
+      "https://arxiv.org/abs/2211.09691",
+      "https://doi.org/10.1145/3720504",
+      "https://lmpick.github.io/oopsla25-1.pdf",
+      "https://amandashoe.github.io/files/cv.pdf",
+      "https://doi.org/10.5281/zenodo.14918621",
+      "https://arxiv.org/abs/2505.18901",
+      "https://arxiv.org/html/2505.18901v2",
+      "https://yannxiaoyanhu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Psym: Efficient Symbolic Exploration of Distributed Systems",
+        "url": "https://doi.org/10.1145/3591247",
+        "outcome": "no-evidence",
+        "note": "原文列 Pick 为加州大学伯克利分校及威斯康星大学麦迪逊分校研究人员，企业作者 Desai 署 Amazon Web Services。Pick 的 CV 将该研究的企业阶段列为 2021 年在 AWS 实习；她当时为普林斯顿学生，合作企业和高校均不在本项目的相应范围。",
+        "year": 2023
+      },
+      {
+        "title": "Synthesizing Quantum-Circuit Optimizers",
+        "url": "https://doi.org/10.1145/3591254",
+        "outcome": "no-evidence",
+        "note": "PLDI 正式原文五位作者均署威斯康星大学麦迪逊分校。IBM 和其他量子平台用于技术比较，没有范围内企业共同作者。2022 arXiv 版与 2023 正式版合并。",
+        "year": 2023
+      },
+      {
+        "title": "Checking Observational Correctness of Database Systems",
+        "url": "https://doi.org/10.1145/3720504",
+        "outcome": "no-evidence",
+        "note": "OOPSLA 原文署港中文、威斯康星大学、加州大学伯克利及 AWS。合作者 Amanda Xu 的履历记载其为威斯康星博士生、曾到 AWS 实习；本篇明确列 AWS 共同作者，但 AWS 与该在读高校均不在范围。其 Zenodo 工具是同文伴随产物，不另记论文。",
+        "year": 2025
+      },
+      {
+        "title": "PromptWise: Online Learning for Cost-Aware Prompt Assignment in Generative Models",
+        "url": "https://arxiv.org/abs/2505.18901",
+        "outcome": "no-evidence",
+        "note": "预印本列在读学生 Xiaoyan Hu 及港中文研究人员，Ho-fung Leung 署独立研究人员。学生本人确认学术共同导师为 Farzan Farnia 和 Ho-fung Leung；文中测试企业模型，但无范围内企业共同作者、也无该篇企业实习证据。",
+        "year": 2025
+      }
+    ]
+  },
+  "tcwyqtUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1109/TKDE.2021.3132992",
+      "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "https://www.cse.cuhk.edu.hk/~adafu/",
+      "https://www.cse.cuhk.edu.hk/~adafu/publication.html",
+      "https://dblp.org/pid/f/AdaWaiCheeFu.html",
+      "https://www3.ntu.edu.sg/computing/dmal/dante/publications.html",
+      "https://personal.ntu.edu.sg/c.long/paper/22-TKDE-kpleased.pdf"
+    ],
+    "papers": [
+      {
+        "title": "k-Pleased Querying",
+        "url": "https://doi.org/10.1109/TKDE.2021.3132992",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式刊期为 2023，2022 ICDE 摘要按同一研究合并。原文四位作者为港中文和南洋理工高校人员；Ada Wai Chee Fu 组名单列其中两人为她的博士生。未发现范围内企业作者或该篇企业研究证据。",
+        "year": 2023
+      }
+    ]
+  },
+  "fKoMXmIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/CUIDI/zh_CN/index.htm",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-software-engineering-in-practice/20/Less-Effort-More-Productivity-Lessons-Learned-from-Developing-Millions-of-Lines-of-",
+      "https://api.crossref.org/works/10.1145/3786583.3786872",
+      "https://doi.org/10.1145/3786583.3786872"
+    ],
+    "papers": [
+      {
+        "title": "Less Effort, More Productivity: Lessons Learned from Developing Millions of Lines of Code with Large Language Model",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3786583.3786872",
+        "outcome": "no-evidence",
+        "note": "ACM 向 Crossref 提交的作者机构均为西电；国家自然科学基金和陕西省项目资助。论文讨论实际软件工程，但未见范围内企业参与作者证据。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "DR-GIokAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/ywguo",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
+    ],
+    "papers": [
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "W_Vi_hIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/llli",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
+    ],
+    "papers": [
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "FZbrL2YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/lchjiao",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
+    ],
+    "papers": [
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "qrQkfxYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/fliu",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
+    ],
+    "papers": [
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "_09bkMgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/xuliu",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
+    ],
+    "papers": [
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "TimAUN0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/syyang",
+      "https://api.crossref.org/works/10.1109/tmm.2026.3651137",
+      "https://doi.org/10.1109/TMM.2026.3651137"
+    ],
+    "papers": [
+      {
+        "title": "Edit-Your-Motion: Space-Time Diffusion Decoupling Learning for Video Motion Editing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TMM.2026.3651137",
+        "outcome": "no-evidence",
+        "note": "出版方提交的 8 位作者均署西安电子科技大学人工智能学院及实验室。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "JLs1Mf0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/XIAOYANG/zh_CN/index.htm",
+      "https://api.crossref.org/works/10.1109/TDSC.2024.3524760",
+      "https://doi.org/10.1109/TDSC.2024.3524760"
+    ],
+    "papers": [
+      {
+        "title": "DidTrust: Privacy-Preserving Trust Management for Decentralized Identity",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TDSC.2024.3524760",
+        "outcome": "no-evidence",
+        "note": "IEEE 第 22 卷作者单位为西电、澳大利亚联邦科学与工业研究组织、皇家墨尔本理工大学，无范围内企业。"
+      }
+    ],
+    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
   }
 };
