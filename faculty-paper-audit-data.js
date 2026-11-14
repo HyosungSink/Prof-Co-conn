@@ -8760,7 +8760,16 @@ const facultyPaperAudits = {
       "https://www.alibabacloud.com/en/apsara-conference-2022/speakers?_p_lc=1",
       "https://doi.org/10.1145/3725399",
       "https://alizila.oss-us-west-1.aliyuncs.com/uploads/2025/09/Press-Release_Alibaba-Cloud-Announces-New-Data-Centers-Expansion-Plan-to-Power-the-Next-Waves-of-AI-Innovation.pdf",
-      "https://www.vldb.org/pvldb/vol18/p5139-zhou.pdf"
+      "https://www.vldb.org/pvldb/vol18/p5139-zhou.pdf",
+      "https://www1.se.cuhk.edu.hk/~swang/kdd23-ComRec.pdf",
+      "https://josiah96zhang.github.io/",
+      "https://edwlin.github.io/",
+      "https://socialalgo.github.io/",
+      "https://kdd.org/kdd2023/ads-track-papers/index.html",
+      "https://doi.org/10.1145/3711896.3736877",
+      "https://www1.se.cuhk.edu.hk/~swang/ChiGAD.pdf",
+      "https://li-xiping.github.io/",
+      "https://openreview.net/profile?id=~Wuxiong_Zeng2"
     ],
     "papers": [
       {
@@ -8780,6 +8789,18 @@ const facultyPaperAudits = {
         "url": "https://www.vldb.org/pvldb/vol18/p5139-zhou.pdf",
         "outcome": "confirmed",
         "note": "张芳源与蔡华胤共同第一作者。张芳源个人履历明确将 AnalyticDB for PostgreSQL 核心引擎列为在读期间的阿里云贡献项目；论文正是该系统的正式出版报告。王思博、同篇阿里云正式员工李飞飞的指导及任职有来源可核。"
+      },
+      {
+        "title": "Constrained Social Community Recommendation",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/kdd23-ComRec.pdf",
+        "outcome": "confirmed",
+        "note": "KDD 首页脚注明示港中大博士生 Xingyi Zhang 在腾讯实习期间完成此项研究。学生指明王思博是其博士导师、Wenqing Lin 是腾讯端导师；团队公开记录把两人在同篇中分别标为实习生和正式团队成员。"
+      },
+      {
+        "title": "Chi-Square Wavelet Graph Neural Networks for Heterogeneous Graph Anomaly Detection",
+        "url": "https://doi.org/10.1145/3711896.3736877",
+        "outcome": "lead",
+        "note": "论文具名确认李熙平同时在港中大及腾讯研究实习，并有腾讯正式共同作者；他在哈工大（深圳）就读并明确提及王思博的实际指导。仍待公开材料确认哈工大与港中大同期共同指导或联合培养，或同篇另一位在读学生在腾讯微信参与具体项目。"
       }
     ]
   },
@@ -10576,7 +10597,11 @@ const facultyPaperAudits = {
     "sources": [
       "https://www.ai.pku.edu.cn/info/1284/1866.htm",
       "https://pingzhitang.cv/",
-      "https://mulabpku.com/author/yufei-xu/"
+      "https://mulabpku.com/author/yufei-xu/",
+      "https://muhanzhang.github.io/#pub",
+      "https://ir.pku.edu.cn/researcher?fullname=%E5%BC%A0%E7%89%A7%E6%B6%B5&id=327984&uid=f65a8c82bc3dd0a90e6ee32b89760301",
+      "https://aclanthology.org/people/muhan-zhang/",
+      "https://mulabpku.com/people/"
     ],
     "papers": [
       {
@@ -10589,16 +10614,472 @@ const facultyPaperAudits = {
         "title": "TransMLA: Multi-Head Latent Attention Is All You Need",
         "url": "https://arxiv.org/abs/2502.07864",
         "outcome": "no-evidence",
-        "note": "已找到学生在腾讯的明确起始时间为 2025 年 6 月，初稿于同年 2 月发布；正式会议版仅致谢企业资助，并不能证实该篇为其企业实习课题。"
+        "note": "北大合作者 Pingzhi Tang 的腾讯实习自 2025 年 6 月起，晚于同年 2 月首版；正式版致谢企业资助，未找到本篇和其企业参与相连的证据。"
       },
       {
         "title": "HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention",
         "url": "https://arxiv.org/abs/2603.28458",
         "outcome": "lead",
-        "note": "北大实验室公开名单列Yufei Xu为张牧涵的博士生。原文另有小红书合作者，但未发现Yufei Xu本人在小红书参与本篇研发的材料；另一本科身份并非当期北大在读。"
+        "note": "北大实验室具名 Yufei Xu 为张牧涵博士生。原文列腾讯及小红书相关合作者，暂缺该生对应到其中一家企业参与本篇的具名记录。"
+      },
+      {
+        "title": "RelPrism: Multi-Faceted Self-Supervised Learning on Relational Databases",
+        "url": "https://arxiv.org/pdf/2605.23241",
+        "outcome": "no-evidence",
+        "note": "后续会议年份为 2027，范围内的 2026 年预印本列出中国电信翼支付，其不在本次企业名单。"
+      },
+      {
+        "title": "Toward Better Geometric Representations for Molecule Generative Models",
+        "url": "https://arxiv.org/pdf/2605.07693",
+        "outcome": "lead",
+        "note": "原文列字节跳动药物发现团队及北大作者；暂未找到哪位同期在读学生为该篇参与字节研究的具名证据。"
+      },
+      {
+        "title": "FlashMol: High-Quality Molecule Generation in as Few as Four Steps",
+        "url": "https://arxiv.org/pdf/2605.07020",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及 MIT；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "The Expressivity Boundary of Probabilistic Circuits: A Comparison with Large Language Models",
+        "url": "https://arxiv.org/pdf/2605.12940",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及新加坡国立大学；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "CrossFlow: One-Step Generation Across Latent and Pixel Spaces",
+        "url": "https://arxiv.org/pdf/2606.19970",
+        "outcome": "lead",
+        "note": "原文列四名腾讯作者。北大课题组具名 Xiyuan Wang 是张牧涵在读博士生，暂缺该生在腾讯参与本篇的直接记录。"
+      },
+      {
+        "title": "TabDLM: Free-Form Tabular Data Generation via Joint Numerical–Language Diffusion",
+        "url": "https://arxiv.org/pdf/2602.22586",
+        "outcome": "lead",
+        "note": "原稿作者列蚂蚁集团；Yanbo Wang 是北大课题组在读博士生，暂缺其在蚂蚁参与本篇的材料。"
+      },
+      {
+        "title": "CanvasMAR: Improving Masked Autoregressive Video Prediction With Canvas",
+        "url": "https://arxiv.org/pdf/2510.13669",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Multi-Agent Evolve: LLM Self-Improve through Co-evolution",
+        "url": "https://aclanthology.org/2026.emnlp-main.1734.pdf",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式论文列伊利诺伊大学厄巴纳-香槟分校、北大及 NVIDIA；NVIDIA 不在核查企业名单。"
+      },
+      {
+        "title": "Round-trip Reinforcement Learning: Self-Consistent Training for Better Chemical LLMs",
+        "url": "https://arxiv.org/pdf/2510.01527",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及华盛顿大学圣路易斯分校；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
+        "url": "https://arxiv.org/pdf/2511.07457",
+        "outcome": "no-evidence",
+        "note": "原稿署华盛顿大学圣路易斯分校及北大；致谢中的 Moonshot 资助名称不等于作者受雇于月之暗面。"
+      },
+      {
+        "title": "Towards Stable, Globally Expressive Graph Representations with Laplacian Eigenvectors",
+        "url": "https://arxiv.org/pdf/2410.09737",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、MIT 及佐治亚理工相关学术单位；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "GREPO: A Benchmark for Graph Neural Networks on Repository-Level Bug Localization",
+        "url": "https://arxiv.org/pdf/2602.13921",
+        "outcome": "lead",
+        "note": "原文列蚂蚁集团的 Da Zheng、张牧涵及其所在组多名北大在读作者；未见能连到本篇的蚂蚁实习或等效的联合研究证据。"
+      },
+      {
+        "title": "SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass",
+        "url": "https://arxiv.org/pdf/2602.06358",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、牛津大学与 Technion 等机构（另有 NVIDIA，超出范围）；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Relational In-Context Learning via Synthetic Pre-training with Structural Prior",
+        "url": "https://arxiv.org/pdf/2603.03805",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、海内外高校；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "LIFT: A Novel Framework for Enhancing Long-Context Understanding of LLMs via Long Input Fine-Tuning",
+        "url": "https://arxiv.org/pdf/2412.13626",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及北京通用人工智能研究院；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "VecMol: Vector-Field Representations for 3D Molecule Generation",
+        "url": "https://arxiv.org/pdf/2603.12734",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有高校及科研机构；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner",
+        "url": "https://arxiv.org/pdf/2510.03206",
+        "outcome": "no-evidence",
+        "note": "核对正式稿及预印本作者机构，企业机构为 Microsoft Research，在本次企业名单之外。"
+      },
+      {
+        "title": "Expressive Graph Neural Networks via Equivariant Use of Noise",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26kj/wang26kj.pdf",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式版仅有 Xiyuan Wang 与张牧涵两位作者，没有第三位企业作者。"
+      },
+      {
+        "title": "Position: How can Graphs Help Large Language Models?",
+        "url": "https://arxiv.org/pdf/2605.02452",
+        "outcome": "no-evidence",
+        "note": "预印本作者单位为北大与北邮；出版页面未显示既定企业的署名。"
+      },
+      {
+        "title": "Knowledge is Not Enough: Injecting RL Skills for Continual Adaptation",
+        "url": "https://arxiv.org/pdf/2601.11258",
+        "outcome": "no-evidence",
+        "note": "首页三位作者均署北大；考察和引用 DeepSeek 不证明企业作者或企业参与。"
+      },
+      {
+        "title": "SubTokenTest: A Practical Benchmark for Real-World Sub-token Understanding",
+        "url": "https://arxiv.org/pdf/2601.09089",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Towards a Mechanistic Understanding of Large Reasoning Models: A Survey of Training, Inference, and Failures",
+        "url": "https://arxiv.org/pdf/2601.19928",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、清华及南洋理工大学；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "JurisBench: A Deep Benchmark for Assessing Large Language Models in Professional Legal Practice",
+        "url": "https://aclanthology.org/2026.acl-long.1666.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 正式论文列北大、清华和北京通用人工智能研究院，未列既定企业作者。"
+      },
+      {
+        "title": "Law in Silico: Simulating Legal Society with LLM-Based Agents",
+        "url": "https://arxiv.org/pdf/2510.24442",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、港大、北京通用人工智能研究院及独立研究者；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Unified modeling of 3D molecular generation via atomic interactions with PocketXMol",
+        "url": "https://doi.org/10.1016/j.cell.2026.01.003",
+        "outcome": "no-evidence",
+        "note": "北大及清华发布稿确认两校、医院和研究机构的团队；已核对该研究说明与正式题录，未见范围内企业参与的具名证据。"
+      },
+      {
+        "title": "Efficient neural common neighbor for temporal graph link prediction",
+        "url": "https://arxiv.org/pdf/2406.07926",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "FLORA: GNNs as Predictors of Agentic Workflow Performances",
+        "url": "https://openreview.net/pdf/f5cfc8423b46451d444f8ef5a71483420f447ad1.pdf",
+        "outcome": "no-evidence",
+        "note": "LoG 会议论文仅列上海交大、BIGAI、牛津及北大。第一作者本人列出论文；其导师为陈思衡。"
+      },
+      {
+        "title": "OCN: Effectively Utilizing Higher-Order Common Neighbors for Better Link Prediction",
+        "url": "https://arxiv.org/pdf/2505.19719",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "LoRASuite: Efficient LoRA Adaptation Across Large Language Model Upgrades",
+        "url": "https://arxiv.org/pdf/2505.13515",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北邮、北大及独立作者；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Beyond Single-Task: Robust Multi-Task Length Generalization for LLMs",
+        "url": "https://arxiv.org/pdf/2502.11525",
+        "outcome": "lead",
+        "note": "北大实验室具名 Yi Hu、Shijia Kang 为张牧涵在读博士生；小红书正式员工 Haotian Xu 本人履历也列同篇。原文未具名说明两位学生的企业科研参与方式，暂作线索。"
+      },
+      {
+        "title": "LooGLE v2: Are LLMs Ready for Real World Long Dependency Challenges?",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/12d6de42f0835de288d34783eeb35e2e-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版作者单位为北大、北京通用人工智能研究院和北京理工大学，未发现范围内企业作者。"
+      },
+      {
+        "title": "PHYBench: Holistic Evaluation of Physical Perception and Reasoning in Large Language Models",
+        "url": "https://arxiv.org/pdf/2504.16074",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及北京计算科学研究中心等学术机构；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "HD-PiSSA: High-Rank Distributed Orthogonal Adaptation",
+        "url": "https://aclanthology.org/2025.emnlp-main.330.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及北京通用人工智能研究院；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Reconsidering the Performance of GAE in Link Prediction",
+        "url": "https://arxiv.org/pdf/2411.03845",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Exact Acceleration of Subgraph Graph Neural Networks by Eliminating Computation Redundancy",
+        "url": "https://arxiv.org/pdf/2412.18125",
+        "outcome": "lead",
+        "note": "原文具名阿里巴巴作者；北大博士生 Xiyuan Wang 的学术指导已证实，未见该生参与阿里巴巴具体研究的证据。"
+      },
+      {
+        "title": "CLOVER: Cross-Layer Orthogonal Vectors Pruning and Fine-Tuning",
+        "url": "https://arxiv.org/pdf/2411.17426",
+        "outcome": "no-evidence",
+        "note": "与正式 ICLR 2025 版本 Parameter-Efficient and Stable Singular Value Adaptation for Pre-Trained Models 共用一个 arXiv 标识，合并计一次；本篇作者机构为北大及研究机构，未见指定企业署名或具名企业研究项目。"
+      },
+      {
+        "title": "Griffin: Towards a Graph-Centric Relational Database Foundation Model",
+        "url": "https://arxiv.org/pdf/2505.05568",
+        "outcome": "no-evidence",
+        "note": "原文脚注明确研究实习发生在 Amazon；该企业不在本次范围。"
+      },
+      {
+        "title": "Geometric Representation Condition Improves Equivariant Molecule Generation",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25dz/li25dz.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有高校学术机构；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "3D-SubG: A 3D Stacked Hybrid Processing Near/In-Memory Accelerator for Subgraph GNNs",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/771501",
+        "outcome": "no-evidence",
+        "note": "北大机构库列全体八位作者、北大人工智能研究院及集成电路学院，未列范围内企业。"
+      },
+      {
+        "title": "Improving Graph Neural Networks on Multi-node Tasks with the Labeling Trick",
+        "url": "https://arxiv.org/pdf/2304.10074",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及佐治亚理工；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "VACT: A Video Automatic Causal Testing System and a Benchmark",
+        "url": "https://arxiv.org/pdf/2503.06163?",
+        "outcome": "no-evidence",
+        "note": "原文作者均署北大单位；快手可灵是引用或测试模型，未见具名快手作者。"
+      },
+      {
+        "title": "GOFA: A Generative One-For-All Model for Joint Graph Language Modeling",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/652c104b5b0652a03684efeaf805463b-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版作者机构仅为华盛顿大学圣路易斯分校及北大。"
+      },
+      {
+        "title": "Number Cookbook: Number Understanding of Language Models and How to Improve It",
+        "url": "https://arxiv.org/pdf/2411.03766",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及琶洲实验室；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "On the Completeness of Invariant Geometric Deep Learning Models",
+        "url": "https://arxiv.org/pdf/2402.04836",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "A data-driven group retrosynthesis planning model inspired by neurosymbolic programming",
+        "url": "https://www.nature.com/articles/s41467-024-55374-9.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有高校、医院与科研机构；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Adaptive graph diffusion networks: compact and expressive GNNs with large receptive fields",
+        "url": "https://link.springer.com/content/pdf/10.1007/s10462-025-11114-z.pdf",
+        "outcome": "no-evidence",
+        "note": "Springer 原文列中国电信研究院、北大和北邮；中国电信不在既定企业范围。"
+      },
+      {
+        "title": "PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models",
+        "url": "https://arxiv.org/pdf/2404.02948",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及北京通用人工智能研究院；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Unifying Generation and Prediction on Graphs with Latent Graph Diffusion",
+        "url": "https://arxiv.org/pdf/2402.02518",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有清华、MIT 和北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Mars: Situated Inductive Reasoning in an Open-World Environment",
+        "url": "https://arxiv.org/pdf/2410.08126",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、清华及北京通用人工智能研究院；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "4DBInfer: A 4D Benchmarking Toolbox for Graph-Centric Predictive Modeling on Relational DBs",
+        "url": "https://arxiv.org/pdf/2404.18209",
+        "outcome": "no-evidence",
+        "note": "原文脚注注明在 Amazon Web Services 的研究实习，Amazon 不在既定企业范围。"
+      },
+      {
+        "title": "An Efficient Subgraph GNN with Provable Substructure Counting Power",
+        "url": "https://arxiv.org/pdf/2303.10576",
+        "outcome": "no-evidence",
+        "note": "原文虽致谢阿里巴巴创新研究资助，作者署名处未见阿里巴巴员工或项目实习。"
+      },
+      {
+        "title": "LooGLE: Can Long-Context Language Models Understand Long Contexts?",
+        "url": "https://arxiv.org/pdf/2311.04939",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及北京通用人工智能研究院；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "RulE: Knowledge Graph Reasoning with Rule Embedding",
+        "url": "https://arxiv.org/pdf/2210.14905",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大、清华等学术机构；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Refining Euclidean Obfuscatory Nodes Helps: A Joint-Space Graph Learning Method for Graph Neural Networks",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38875093/",
+        "outcome": "no-evidence",
+        "note": "IEEE 论文的 PubMed 题录列全体作者及校院单位；暂未见范围内企业或具名企业研究参与。"
+      },
+      {
+        "title": "The application of large language models in medicine: A scoping review",
+        "url": "https://rcastoragev2.blob.core.windows.net/7c8ce6c97b125614793b1ad7171d9ecb/main.PMC11091685.pdf",
+        "outcome": "no-evidence",
+        "note": "期刊正式稿列作者来自医院、高校及研究机构；未见范围内企业作者。"
+      },
+      {
+        "title": "Ambiguities in neural-network-based hyperedge prediction",
+        "url": "https://doi.org/10.1007/s41468-024-00172-x",
+        "outcome": "no-evidence",
+        "note": "Springer 正式题录列佐治亚理工、印第安纳大学、北大、普渡等学术单位，未见范围内企业作者。"
+      },
+      {
+        "title": "Case-Based or Rule-Based: How Do Transformers Do the Math?",
+        "url": "https://arxiv.org/pdf/2402.17709",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Graph As Point Set",
+        "url": "https://arxiv.org/pdf/2405.02795",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及佐治亚理工；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "An Empirical Study of Realized GNN Expressiveness",
+        "url": "https://arxiv.org/pdf/2304.07702",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Graph Contrastive Learning Meets Graph Meta Learning: A Unified Method for Few-shot Node Tasks",
+        "url": "https://arxiv.org/pdf/2309.10376.pdf",
+        "outcome": "lead",
+        "note": "原文有京东探索研究院作者，但北大仅张牧涵署名；其他学生作者署华盛顿大学圣路易斯分校，未找到跨校共同指导或学生参与京东研究的具名记录。"
+      },
+      {
+        "title": "One For All: Towards Training One Graph Model For All Classification Tasks",
+        "url": "https://arxiv.org/pdf/2310.00149",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有华盛顿大学圣路易斯分校、南洋理工及北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Neural Common Neighbor with Completion for Link Prediction",
+        "url": "https://arxiv.org/pdf/2302.00890",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "On the Stability of Expressive Positional Encodings for Graph Neural Networks",
+        "url": "https://arxiv.org/pdf/2310.02579",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有佐治亚理工、普渡、斯坦福、同济、北大及 MIT；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Rethinking the Power of Graph Canonization in Graph Representation Learning with Stability",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8305a0049227f7dd2bb91e11090f8cfa-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及医学、工程科研机构；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs",
+        "url": "https://arxiv.org/pdf/2308.02117.pdf",
+        "outcome": "lead",
+        "note": "论文有蚂蚁集团员工及多名北大教师／学生；暂未见能同时指向张牧涵的具名指导及学生在蚂蚁完成本篇的材料。"
+      },
+      {
+        "title": "Distance-Restricted Folklore Weisfeiler-Lehman GNNs with Provable Cycle Counting Power",
+        "url": "https://arxiv.org/pdf/2309.04941.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及华盛顿大学圣路易斯分校；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Is Distance Matrix Enough for Geometric Deep Learning?",
+        "url": "https://arxiv.org/pdf/2302.05743.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "MAG-GNN: Reinforcement Learning Boosted Graph Neural Network",
+        "url": "https://arxiv.org/pdf/2310.19142.pdf",
+        "outcome": "lead",
+        "note": "原文有京东探索研究院作者，但其余研究学生署华盛顿大学圣路易斯分校；暂缺到具名跨校导师及京东项目的对应证据。"
+      },
+      {
+        "title": "Extending the Design Space of Graph Neural Networks by Rethinking Folklore Weisfeiler-Lehman",
+        "url": "https://arxiv.org/pdf/2306.03266.pdf",
+        "outcome": "lead",
+        "note": "原文有京东探索研究院作者，其余同组作者署华盛顿大学圣路易斯分校。暂缺张牧涵共同指导和学生参与该篇京东研究的具名资料。"
+      },
+      {
+        "title": "Facilitating Graph Neural Networks with Random Walk on Simplicial Complexes",
+        "url": "https://arxiv.org/pdf/2310.19285.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有清华及北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "SUREL+: Moving from Walks to Sets for Scalable Subgraph-based Graph Representation Learning",
+        "url": "https://arxiv.org/pdf/2303.03379.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有普渡、北大及佐治亚理工；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "From Relational Pooling to Subgraph GNNs: A Universal Framework for More Expressive Graph Neural Networks",
+        "url": "https://arxiv.org/pdf/2305.04963.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有清华及北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "Boosting the Cycle Counting Power of Graph Neural Networks with I²-GNNs",
+        "url": "https://arxiv.org/pdf/2210.13978",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有清华及北大；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "CktGNN: Circuit Graph Neural Network for Electronic Design Automation",
+        "url": "https://par.nsf.gov/servlets/purl/10408869",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及华盛顿大学圣路易斯分校、悉尼大学等；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "MacroRank: Ranking Macro Placement Solutions Leveraging Translation Equivariancy",
+        "url": "https://yibolin.com/publications/papers/PLACE_ASPDAC2023_Chen.pdf",
+        "outcome": "no-evidence",
+        "note": "核对原文作者和机构署名，列有北大及北京先进集成电路高精尖创新中心；未见既定企业作者或与本篇对应的具名企业实习。"
+      },
+      {
+        "title": "RedStar: Does Scaling Long-CoT Data Unlock Better Slow-Reasoning Systems?",
+        "url": "https://arxiv.org/pdf/2501.11284",
+        "outcome": "lead",
+        "note": "张牧涵主页明确说与小红书合作。论文及团队页确认北大具名博士生，Haotian Xu 本人履历验证他在当期任职；未见明确到单个学生参与企业研究方式的记录。"
       }
     ],
-    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+    "note": "逐篇对照个人主页 2023 年起所列书目、北大机构库与正式论文，含在截止前首发而后年刊会的预印本。另核查主页新闻所列 RedStar。未穷尽其他索引中未列入个人书目的论文，继续标为梳理中。"
   },
   "nD0I3PUAAAAJ": {
     "from": "2023-01-01",
@@ -11214,7 +11695,14 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "http://web.xidian.edu.cn/ctian/",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/39620"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
+      "https://dblp.org/pid/00/5365-1.html",
+      "https://aclanthology.org/2026.acl-demo.24.pdf",
+      "https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
+      "https://arxiv.org/html/2508.18675"
     ],
     "papers": [
       {
@@ -11223,9 +11711,51 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 2026 将全部作者登记为西安电子科技大学。",
         "year": 2026
+      },
+      {
+        "title": "Bridging Kernel Drivers and Virtual Device Models with LLM-Powered Automation",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.acl-demo.24.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版全部作者均署西电；同一 DevGen 工具的另篇 ACM FSE Companion 版亦未见企业作者（10.1145/3803437.3805564）。"
+      },
+      {
+        "title": "RAT: Retrieval-Augmented Testing of Certificate Revocation List Parsers in TLS Implementations",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem",
+        "outcome": "no-evidence",
+        "note": "FSE 2026 会方作者名录只列曲阜师范大学、西安电子科技大学和西安理工大学。"
+      },
+      {
+        "title": "Atomicity Violation Detection for Interrupt-Driven Programs via Incrementally Exploring Concurrent Paths",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
+        "outcome": "no-evidence",
+        "note": "ICSE 2026 会方论文页面列西安电子科技大学和曲阜师范大学，无范围内企业。"
+      },
+      {
+        "title": "On the exploitation of control knowledge for enhancing automated planning",
+        "year": 2025,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
+        "outcome": "no-evidence",
+        "note": "期刊署名与作者公开预印本对照，只有西安电子科技大学和曲阜师范大学两处单位。"
+      },
+      {
+        "title": "Using experience classification for training non-Markovian tasks",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
+        "outcome": "no-evidence",
+        "note": "预印本作者署西安电子科技大学；正式版新增的 Jin Cui 由同一 ORCID 对应西安石油大学，未发现范围内企业作者。"
+      },
+      {
+        "title": "Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2508.18675",
+        "outcome": "no-evidence",
+        "note": "论文署西电、南洋理工大学、新加坡管理大学和武汉大学，无范围内企业。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "逐篇核对作者机构；同一 DevGen 项目两份会议版对照用于归并，其余年段仍待查验。"
   },
   "V5jcooYAAAAJ": {
     "from": "2023-01-01",
@@ -11233,7 +11763,15 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://faculty.xidian.edu.cn/LX13/zh_CN/index.htm",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/39620"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
+      "https://dblp.org/pid/53/6317-3.html",
+      "https://aclanthology.org/2026.acl-demo.24.pdf",
+      "https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
+      "https://arxiv.org/html/2508.18675",
+      "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce"
     ],
     "papers": [
       {
@@ -11242,9 +11780,58 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 2026 将全部作者登记为西安电子科技大学。",
         "year": 2026
+      },
+      {
+        "title": "Bridging Kernel Drivers and Virtual Device Models with LLM-Powered Automation",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.acl-demo.24.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版全部作者均署西电；同一 DevGen 工具的另篇 ACM FSE Companion 版亦未见企业作者（10.1145/3803437.3805564）。"
+      },
+      {
+        "title": "RAT: Retrieval-Augmented Testing of Certificate Revocation List Parsers in TLS Implementations",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem",
+        "outcome": "no-evidence",
+        "note": "FSE 2026 会方作者名录只列曲阜师范大学、西安电子科技大学和西安理工大学。"
+      },
+      {
+        "title": "Atomicity Violation Detection for Interrupt-Driven Programs via Incrementally Exploring Concurrent Paths",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
+        "outcome": "no-evidence",
+        "note": "ICSE 2026 会方论文页面列西安电子科技大学和曲阜师范大学，无范围内企业。"
+      },
+      {
+        "title": "On the exploitation of control knowledge for enhancing automated planning",
+        "year": 2025,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
+        "outcome": "no-evidence",
+        "note": "期刊署名与作者公开预印本对照，只有西安电子科技大学和曲阜师范大学两处单位。"
+      },
+      {
+        "title": "Using experience classification for training non-Markovian tasks",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
+        "outcome": "no-evidence",
+        "note": "预印本作者署西安电子科技大学；正式版新增的 Jin Cui 由同一 ORCID 对应西安石油大学，未发现范围内企业作者。"
+      },
+      {
+        "title": "Requirements Development and Formalization for Reliable Code Generation: A Multi-Agent Vision",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2508.18675",
+        "outcome": "no-evidence",
+        "note": "论文署西电、南洋理工大学、新加坡管理大学和武汉大学，无范围内企业。"
+      },
+      {
+        "title": "IDPVerifier: Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce",
+        "outcome": "no-evidence",
+        "note": "FSE 2026 会方名录列西安电子科技大学、河北大学和曲阜师范大学。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "逐篇核对作者机构；同一 DevGen 项目两份会议版对照用于归并，其余年段仍待查验。"
   },
   "c707dNUAAAAJ": {
     "from": "2023-01-01",
@@ -11252,7 +11839,14 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://faculty.xidian.edu.cn/YUBIN/zh_CN/index.htm",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/39620"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
+      "https://dblp.org/pid/27/116-8.html",
+      "https://aclanthology.org/2026.acl-demo.24.pdf",
+      "https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
+      "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce"
     ],
     "papers": [
       {
@@ -11261,9 +11855,51 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 2026 将全部作者登记为西安电子科技大学。",
         "year": 2026
+      },
+      {
+        "title": "Bridging Kernel Drivers and Virtual Device Models with LLM-Powered Automation",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.acl-demo.24.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版全部作者均署西电；同一 DevGen 工具的另篇 ACM FSE Companion 版亦未见企业作者（10.1145/3803437.3805564）。"
+      },
+      {
+        "title": "RAT: Retrieval-Augmented Testing of Certificate Revocation List Parsers in TLS Implementations",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/fse-2026/fse-2026-research-papers/199/RAT-Retrieval-Augmented-Testing-of-Certificate-Revocation-List-Parsers-in-TLS-Implem",
+        "outcome": "no-evidence",
+        "note": "FSE 2026 会方作者名录只列曲阜师范大学、西安电子科技大学和西安理工大学。"
+      },
+      {
+        "title": "Atomicity Violation Detection for Interrupt-Driven Programs via Incrementally Exploring Concurrent Paths",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
+        "outcome": "no-evidence",
+        "note": "ICSE 2026 会方论文页面列西安电子科技大学和曲阜师范大学，无范围内企业。"
+      },
+      {
+        "title": "On the exploitation of control knowledge for enhancing automated planning",
+        "year": 2025,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
+        "outcome": "no-evidence",
+        "note": "期刊署名与作者公开预印本对照，只有西安电子科技大学和曲阜师范大学两处单位。"
+      },
+      {
+        "title": "Using experience classification for training non-Markovian tasks",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
+        "outcome": "no-evidence",
+        "note": "预印本作者署西安电子科技大学；正式版新增的 Jin Cui 由同一 ORCID 对应西安石油大学，未发现范围内企业作者。"
+      },
+      {
+        "title": "IDPVerifier: Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce",
+        "outcome": "no-evidence",
+        "note": "FSE 2026 会方名录列西安电子科技大学、河北大学和曲阜师范大学。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "逐篇核对作者机构；同一 DevGen 项目两份会议版对照用于归并，其余年段仍待查验。"
   },
   "QocCdX8AAAAJ": {
     "from": "2023-01-01",

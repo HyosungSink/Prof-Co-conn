@@ -34471,6 +34471,50 @@ const survey = {
         ]
       ],
       "evidence": "张芳源与蔡华胤共同第一作者。张芳源个人履历明确将 AnalyticDB for PostgreSQL 核心引擎列为在读期间的阿里云贡献项目；论文正是该系统的正式出版报告。王思博、同篇阿里云正式员工李飞飞的指导及任职有来源可核。"
+    },
+    {
+      "id": "tencent-constrained-social-community-cuhk-sibo-wang",
+      "company": "腾讯",
+      "team": "互动娱乐事业群 · 社交算法团队",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "香港中文大学系统工程与工程管理学系教师，研究时指导学生，论文同署香港中文大学并任通讯作者。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "student": [
+        "Xingyi Zhang",
+        "港中大博士，毕业时间为 2024 年 7 月。论文首页以星号明确标注本研究在其腾讯实习期间完成，本人履历列同一腾讯社交算法研究团队及导师。",
+        "https://josiah96zhang.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人履历明确列王思博为其港中大博士导师；导师组名录复核具名学生和时间。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "employee": [
+        "Wenqing Lin",
+        "腾讯社交算法团队的主要研究员兼负责人，时任腾讯员工；团队在同期成果列表标记其为正式团队成员。",
+        "https://edwlin.github.io/"
+      ],
+      "title": "Constrained Social Community Recommendation",
+      "short": "Constrained Social Community Recommendation",
+      "date": "2023-08",
+      "venue": "KDD 2023",
+      "area": "推荐系统 · 社交图",
+      "paper": "https://www1.se.cuhk.edu.hk/~swang/kdd23-ComRec.pdf",
+      "extra": [
+        [
+          "腾讯作者团队记录",
+          "https://socialalgo.github.io/"
+        ],
+        [
+          "KDD 正式论文目录",
+          "https://kdd.org/kdd2023/ads-track-papers/index.html"
+        ]
+      ],
+      "evidence": "KDD 首页脚注明示港中大博士生 Xingyi Zhang 在腾讯实习期间完成此项研究。学生指明王思博是其博士导师、Wenqing Lin 是腾讯端导师；团队公开记录把两人在同篇中分别标为实习生和正式团队成员。"
     }
   ]
 };
