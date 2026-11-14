@@ -43850,6 +43850,56 @@ const survey = {
         ]
       ],
       "year": 2024
+    },
+    {
+      "id": "tencent-wechatpay-uml2dep-hit-cuiyun-gao",
+      "company": "腾讯",
+      "team": "微信支付",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "ASE 正式议程与哈工大校方资料列为哈工大（深圳）教师；公开预印本署香港中文大学。",
+        "https://cybersecurity.hitsz.edu.cn/info/1016/1005.htm"
+      ],
+      "employee": [
+        "王志涛 · Zhitao Wang",
+        "本人履历列 2020 年 5 月起在腾讯微信支付担任高级研究员，并将 UML2Dep 列为自己的同篇工作。",
+        "https://zhitao-wang.github.io/"
+      ],
+      "student": [
+        "Wenxin Mao",
+        "高翠芸指导名单中具名列为哈工大（深圳）在读硕士生，2025 年 5 月同组论文列其哈工大学生署名。",
+        "https://arxiv.org/pdf/2505.23838v1"
+      ],
+      "title": "Data Dependency-Aware Code Generation from Enhanced UML Sequence Diagrams",
+      "short": "UML2Dep",
+      "date": "2025-08-05",
+      "venue": "ASE Industry Showcase",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2508.03379v3",
+      "evidence": "首页脚注具名说明 Wenxin Mao 与 Sirong Chen 均在腾讯实习期间参与本项工作，王志涛同篇署微信支付并列共同一作。会议日程与哈工大教师资料支持高翠芸当时任职；预印本和正式发表为同一项研究。",
+      "advising": [
+        "硕士导师",
+        "高翠芸的课题组公开指导名单把 Wenxin Mao 和 Sirong Chen 均列为其在读硕士生。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "extra": [
+        [
+          "ASE 正式会议议程",
+          "https://conf.researchr.org/details/ase-2025/ase-2025-industry-showcase/27/Data-Dependency-Aware-Code-Generation-from-Enhanced-UML-Sequence-Diagrams"
+        ],
+        [
+          "IEEE 正式论文 DOI",
+          "https://doi.org/10.1109/ASE63991.2025.00282"
+        ],
+        [
+          "首稿与正式发表版本记录",
+          "https://arxiv.org/abs/2508.03379"
+        ]
+      ],
+      "paperId": "arxiv:2508.03379",
+      "year": 2025
     }
   ]
 };

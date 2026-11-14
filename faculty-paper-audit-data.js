@@ -42558,7 +42558,10 @@ const facultyPaperAudits = {
       "https://acdc-lab.github.io/en/members/",
       "https://teacher.bupt.edu.cn/chenjinpeng/zh_CN/index.htm",
       "https://dblp.org/pid/91/10208-1.html",
-      "https://orcid.org/0000-0003-4157-5110"
+      "https://orcid.org/0000-0003-4157-5110",
+      "https://aclanthology.org/people/jinpeng-chen-5110/",
+      "https://ai.szu.edu.cn/english/info/1103/5552.htm",
+      "https://www3.cs.stonybrook.edu/~icdm2025/acceptedpapers.html"
     ],
     "papers": [
       {
@@ -42721,9 +42724,121 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "no-evidence",
         "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "E2E-PP: End-to-End Privacy Protection via compressive sensing and personalized differential privacy for mobile crowdsensing",
+        "year": 2026,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167404826001380",
+        "outcome": "no-evidence",
+        "note": "出版页作者简介及署名为北邮和暨南大学，公开部分未披露范围内企业实习或研发身份。"
+      },
+      {
+        "title": "Towards dynamic cooperative scheduling in multi-UAV urban sensing: A hierarchical reinforcement learning approach",
+        "year": 2026,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2542660526001150",
+        "outcome": "no-evidence",
+        "note": "出版页作者简介和署名包括北邮和暨南大学，致谢为国家自然科学基金；公开部分未见范围内企业。"
+      },
+      {
+        "title": "STA-MS: A many-to-many stable task allocation based on multi-round selection in mobile crowdsensing",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.jnca.2026.104491",
+        "outcome": "no-evidence",
+        "note": "正式论文署名为暨南大学与北邮；可查题录未披露调查企业合作。"
+      },
+      {
+        "title": "Frequency-enhanced heterogeneous graph-based sequential recommendation with disentangled methods",
+        "year": 2026,
+        "url": "https://doi.org/10.1007/s10115-026-02820-3",
+        "outcome": "no-evidence",
+        "note": "期刊 AdaDisen 新增频域偏好、关系通道与自适应多路融合；与 ICDM 的 DisenRec 比较后分列。出版方列作者高校与学术实验室；Amazon-Books 为评测集。"
+      },
+      {
+        "title": "Dual-view collaboration fusion on diffusion learning for bundle recommendation",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.inffus.2025.103154",
+        "outcome": "no-evidence",
+        "note": "可查正式署名包括北邮、梧州学院、吉林大学、暨南大学、湘江实验室及新加坡国立大学，未发现调查企业同篇人员。"
+      },
+      {
+        "title": "PD-DRL: Towards privacy-preserving and energy-sustainable UAV crowdsensing",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.iot.2025.101520",
+        "outcome": "no-evidence",
+        "note": "出版记录列北邮和暨南大学；未发现调查企业人员。"
+      },
+      {
+        "title": "HLMEA: Unsupervised Entity Alignment Based on Hybrid Language Models",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33294",
+        "outcome": "lead",
+        "note": "同篇有阿里巴巴 Zhilin Wang。第一作者金雄男为深圳大学教师；尚无陈晋鹏所指导的在读学生参与阿里本项研究的证据。"
+      },
+      {
+        "title": "Leveraging the Dual Capabilities of LLM: LLM-Enhanced Text Mapping Model for Personality Detection",
+        "year": 2025,
+        "url": "https://doi.org/10.1609/aaai.v39i22.34517",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式署名为北邮、北京工商大学、中国传媒大学和北方工业大学相关单位；可查记录未给出调查企业实习关系。"
+      },
+      {
+        "title": "Heterogeneous Graph-Based Sequential Recommendation with Disentangled Methods",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/icdm65498.2025.00021",
+        "outcome": "no-evidence",
+        "note": "2025 年 11 月会议；IEEE 题录与会议名单只列高校作者，使用 Amazon-Books 数据集不能证明企业合作。"
+      },
+      {
+        "title": "Aggregation-based dual heterogeneous task allocation in spatial crowdsourcing",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/s11704-023-3133-6",
+        "outcome": "no-evidence",
+        "note": "Springer 作者单位列暨南大学与北邮；未见范围内企业在同篇参与。"
+      },
+      {
+        "title": "CRAS: cross-domain recommendation via aspect-level sentiment extraction",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/s10115-024-02130-6",
+        "outcome": "no-evidence",
+        "note": "作者单位包括梧州学院和北邮；未发现范围内企业身份。"
+      },
+      {
+        "title": "EMPNet: An extract-map-predict neural network architecture for cross-domain recommendation",
+        "year": 2024,
+        "url": "https://doi.org/10.1007/s11280-024-01240-z",
+        "outcome": "no-evidence",
+        "note": "作者机构包括北邮、浙大、成都理工、洛斯基勒大学及之江实验室等；未见范围内企业参与。"
+      },
+      {
+        "title": "GI-SMN: Gradient Inversion Attack Against Federated Learning Without Prior Knowledge",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2405.03516",
+        "outcome": "no-evidence",
+        "note": "首稿于 2024 年 5 月公开；原稿和正式章节记录为暨南大学与北邮等学术机构，未见调查企业。"
+      },
+      {
+        "title": "FePN: A robust feature purification network to defend against adversarial examples",
+        "year": 2023,
+        "url": "https://doi.org/10.1016/j.cose.2023.103427",
+        "outcome": "no-evidence",
+        "note": "可查作者机构为暨南大学和北邮，未见范围内企业。"
+      },
+      {
+        "title": "Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2610.37409v1",
+        "outcome": "no-evidence",
+        "note": "公开原稿列北邮、浙大与中南大学；电商公开数据为测试材料，未见调查企业同篇参与。"
+      },
+      {
+        "title": "Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.findings-emnlp.202.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版署深圳大学、北邮与厦门理工；论文调用的 Qwen 模型不能作为阿里参与研究的证据。"
       }
     ],
-    "note": "核对北邮档案、课题组主页及 ORCID，逐篇判断原文或出版社已完整登记作者单位的书目。部分文章仅有题录，另行检索全文；组员毕业去向不能证明此前的同篇实研。"
+    "note": "已继续核对个人书目、DBLP、ACL 和出版页。SR-HetGNN 与 Scalable and Adaptive GNN 首稿在 2021 年，未重复计入；仍待补核其它公开书目。"
   },
   "XLbHoCsAAAAJ": {
     "from": "2023-01-01",
@@ -47362,7 +47477,10 @@ const facultyPaperAudits = {
       "https://kinesiatricssxilm14.github.io/",
       "https://chao-peng.github.io/cv-chaopeng-zh.pdf",
       "https://se-research.bytedance.com/",
-      "https://github.com/kinesiatricssxilm14/ContextCRBench"
+      "https://github.com/kinesiatricssxilm14/ContextCRBench",
+      "https://conf.researchr.org/details/ase-2025/ase-2025-industry-showcase/27/Data-Dependency-Aware-Code-Generation-from-Enhanced-UML-Sequence-Diagrams",
+      "https://doi.org/10.1109/ASE63991.2025.00282",
+      "https://arxiv.org/abs/2508.03379"
     ],
     "papers": [
       {
@@ -47420,8 +47538,236 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "企业报告列胡瑞达为其他直接贡献者、彭超为项目负责人，但高翠芸在 PDF 贡献表仅列特别感谢。作者提交元数据含个人全名、PDF 集体署名，未据此计入。具有相近算法的 ICSE 2026 EnAgent 正式论文不列胡瑞达及高翠芸，也不作为另一个同组确认。"
+      },
+      {
+        "title": "Data Dependency-Aware Code Generation from Enhanced UML Sequence Diagrams",
+        "year": 2025,
+        "url": "https://arxiv.org/pdf/2508.03379v3",
+        "outcome": "confirmed",
+        "note": "首页脚注具名说明 Wenxin Mao 与 Sirong Chen 均在腾讯实习期间参与本项工作，王志涛同篇署微信支付并列共同一作。会议日程与哈工大教师资料支持高翠芸当时任职；预印本和正式发表为同一项研究。"
       }
     ],
     "note": "已逐篇核查哈工大（深圳）高翠芸与其硕士生胡瑞达的部分合著。学籍中断时段从严，以公开材料能落实到本篇工作为准；导师其他论文尚待继续。"
+  },
+  "WVRSfB0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding#new_tab",
+      "https://personal.hkust-gz.edu.cn/ding/",
+      "https://dblp.org/pid/276/3298.html",
+      "https://klsc749.github.io/",
+      "https://arxiv.org/html/2603.29122v3",
+      "https://arxiv.org/pdf/2508.11147",
+      "https://arxiv.org/pdf/2604.20211",
+      "https://arxiv.org/pdf/2512.16070",
+      "https://publications.polymtl.ca/57401/",
+      "https://arxiv.org/search/?query=Ding%2C+Zishuo&searchtype=author&abstracts=show&size=50",
+      "https://arxiv.org/html/2510.10081",
+      "https://arxiv.org/html/2507.08467",
+      "https://link.springer.com/chapter/10.1007/978-981-92-0369-7_38",
+      "https://cszhangtao.github.io/assets/CV.pdf",
+      "https://sense.eng.uwaterloo.ca/publications/"
+    ],
+    "papers": [
+      {
+        "title": "ReLog: Execution-Aware Logging with Runtime Feedback for LLM-Oriented Debugging",
+        "url": "https://doi.org/10.1145/3832783.3837463",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "学生王鑫公开履历确认博士期间由 Zishuo Ding 指导，2026 年 6–10 月在字节 TikTok 实习。论文首稿 3 月，8 月 v3 和 ACM/IEEE 联合会议正式版作者单位均为高校，致谢为国家自然科学基金；实习导师 Kelu Tao 不署名，未找到同篇实研或在岗企业作者证据。"
+      },
+      {
+        "title": "Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?",
+        "url": "https://arxiv.org/abs/2610.04716",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "10 月 3 日预印本的王鑫与其博士导师 Zishuo Ding 均署港科大（广州）；同篇署名全属高校，未标字节或其雇员。同期实习主题是用代理优化性能，而本篇研究开源代码移除日志；实习时间重合不足以确认此文属于项目。"
+      },
+      {
+        "title": "Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs",
+        "url": "https://doi.org/10.1145/3797129",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "FSE 正式版首页列约克大学、港科大（广州）、滑铁卢大学和阿尔伯塔大学；2026 年 4 月首稿早于王鑫 6 月字节实习，正式版没有其企业实研或企业员工共著证据。"
+      },
+      {
+        "title": "LLM4Perf: Large Language Models Are Effective Samplers for Multi-Objective Performance Modeling",
+        "url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/246/LLM4Perf-Large-Language-Models-Are-Effective-Samplers-for-Multi-Objective-Performanc",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2025 年 12 月首稿与 ICSE 2026 年 4 月正式议程均列港科大（广州）和约克大学，早于王鑫 6 月至字节实习；文中使用 DeepSeek 模型不构成同篇员工合著。"
+      },
+      {
+        "title": "Defects4Log: Benchmarking LLMs for Logging Code Defect Detection and Reasoning",
+        "url": "https://doi.org/10.1109/ASE63991.2025.00161",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2025 年 8 月首稿及 IEEE 正式版首页均列王鑫、丁及李署港科大（广州）或约克大学，早于 2026 年 6 月字节实习。"
+      },
+      {
+        "title": "TeleGen: Improving LLM-Based Web Application Generation via Runtime Telemetry",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1860/",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "EMNLP Findings 正式 PDF 作者单位为港科大（广州）、滑铁卢大学与港科大香港本部；资源致谢无具名企业科研或人员。"
+      },
+      {
+        "title": "EffiHolmes: Differential Profiling-Guided Repository Level Time Inefficiency Fix Localization",
+        "url": "https://doi.org/10.1145/3832783.3834353",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ASE 正式原文及配套预印本作者为两个高校团队；参会目录与作者原文对 Yun Peng 的单位标法有差异，均为大学，未见企业实研。"
+      },
+      {
+        "title": "Bridging User Feedback and System Diagnosis: Reproducing Mobile Performance Issues from Reviews",
+        "url": "https://doi.org/10.1145/3832189",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ISSTA 正式版首页所有作者署高校；致谢仅列国家自然科学基金。使用 Android 应用评论不构成同篇企业实研。"
+      },
+      {
+        "title": "Mathematically-Guided Detection of Floating-Point Errors",
+        "url": "https://arxiv.org/html/2510.10081v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ISSTA 2026 正式会议与 2025 首稿 2510.10081 同主方法 MGDE 及研究团队，按同一工作。原文及会议名单均仅列港科大（广州）、滑铁卢、武大，无调查范围内企业。"
+      },
+      {
+        "title": "Improving QA System Testing Efficiency Through White-Box Test Prioritization",
+        "url": "https://ece.uwaterloo.ca/~wshang/pubs/QRS2025_ANNA.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "QRS 合作者归档的 IEEE 正式 PDF（10.1109/QRS65678.2025.00046）首页作者只列滑铁卢大学及港科大（广州），公开测试工具与代码未给出具名企业实研。"
+      },
+      {
+        "title": "Towards a Robust Waiting Strategy for Web GUI Testing for an Industrial Software System",
+        "url": "https://ece.uwaterloo.ca/~wshang/pubs/Haonan-ASE-2024.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ASE 工业轨正式 PDF 明列合著企业及测试协作单位为加拿大 ERA Environmental，不属于本轮 14 家。"
+      },
+      {
+        "title": "LoGenText-Plus: Improving Neural Machine Translation Based Logging Texts Generation with Syntactic Templates",
+        "url": "https://doi.org/10.1145/3624740",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2023 年提前出版、2024 年正式卷期的 TOSEM 文章。从 2022 SANER 原论文实质扩展句法模板与实验；出版方原文/滑铁卢存档均显示全体署院校，未见范围内企业合作。"
+      },
+      {
+        "title": "SWE-NFI: Studying and Benchmarking Coding Agents for Non-Functional Improvements",
+        "url": "https://arxiv.org/abs/2607.27409",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "王鑫在字节实习的时段与首稿/修订重合，但全文署名为各所高校和独立研究者，未标字节或同篇员工，实验用公共 Python 仓库和模型。未取得实习对应本项目的具名证据。"
+      },
+      {
+        "title": "A multi-language perspective on the robustness of LLM code generation",
+        "url": "https://doi.org/10.1007/s10664-026-10882-8",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer 正式版与预印本在作者单位一致，致谢是魁北克研究基金；采用多个模型不证明其厂商参与研究。注意初版索引将 Zishuo 拼为 Zushuo，正式版/修订统一。"
+      },
+      {
+        "title": "Who’s to Blame? Rethinking the Brittleness of Automated Web GUI Testing from a Pragmatic Perspective",
+        "url": "https://doi.org/10.1109/ASE63991.2025.00251",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "滑铁卢存 IEEE 正式 PDF，具名作者为滑铁卢、港科大（广州）、纽芬兰纪念大学；公开网站用于测试，未发现范围内企业共同作者。"
+      },
+      {
+        "title": "Enhancing Log Sentiments: An Exploratory Study of Sentiments and Emotions with Software Logs",
+        "url": "https://doi.org/10.1145/3723355",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2025 年提前出版、2026 TOSEM 正刊；ACM PDF 同篇均署武大、港科大（广州）、滑铁卢。实验以开源项目日志为材料，未见企业实研。"
+      },
+      {
+        "title": "Towards effectively testing machine translation systems from white-box perspectives",
+        "url": "https://doi.org/10.1007/s10664-024-10549-2",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2024 年上线并进入 2025 EMSE 卷期；ICSE Journal-first 是同篇报告。正式论文作者单位为滑铁卢、港科大（广州）和康考迪亚，未见范围内企业。"
+      },
+      {
+        "title": "StableYolo: Optimizing Image Generation for Large Language Models",
+        "url": "https://doi.org/10.1007/978-3-031-48796-5_10",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "SSBSE 2023 会议、Springer 正式章 2024。大学作者存档列学术机构，并有欧洲研究委员会/英国大学项目资助。用 Stable Diffusion 无企业合著；后续 GreenStableYolo 另有独立方法。"
+      },
+      {
+        "title": "GreenStableYolo: Optimizing Inference Time and Image Quality of Text-to-Image Generation",
+        "url": "https://doi.org/10.1007/978-3-031-64573-0_7",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "作者 UCL 存档及 Springer 章节列学术单位；以遗传算法进一步优化不同于 StableYolo，致谢欧洲研究委员会，百度只是参考文献中的会议参赛记录。"
+      },
+      {
+        "title": "CoMSA: A Modeling-Driven Sampling Approach for Configuration Performance Testing",
+        "url": "https://ece.uwaterloo.ca/~wshang/pubs/ASE_2023_YUANJIE.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ASE 作者全文三位同署康考迪亚大学；未见具名调查企业。"
+      },
+      {
+        "title": "IoPV: On Inconsistent Option Performance Variations",
+        "url": "https://doi.org/10.1145/3611643.3616319",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "FSE 存档全文作者署武大、滑铁卢、RIT、ETS、Polytechnique Montréal、Queen’s；同篇没有企业实研署名。"
+      },
+      {
+        "title": "On the Temporal Relations between Logging and Code",
+        "url": "https://ece.uwaterloo.ca/~wshang/pubs/ICSE2023_ZISHUO.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICSE 2023 同篇作者署康考迪亚、北邮和 Polytechnique Montréal，属高校研究。"
+      },
+      {
+        "title": "Towards Learning Generalizable Code Embeddings Using Task-agnostic Graph Convolutional Networks",
+        "url": "https://doi.org/10.1145/3542944",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2022 先行版入 2023 ACM TOSEM 卷期，同年 ICSE Journal-first 报告，按一篇；作者稿署康考迪亚和 Polytechnique Montréal。"
+      },
+      {
+        "title": "OFP-Repair: Repairing Floating-point Errors via Original-Precision Arithmetic",
+        "url": "https://arxiv.org/abs/2510.09938",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "题录及公开全文显示港科大（广州）、武大、滑铁卢；GNU Scientific Library 和 SciPy 为开源案例。"
+      },
+      {
+        "title": "DELA: A Novel Approach for Detecting Errors Induced by Large Atomic Condition Numbers",
+        "url": "https://arxiv.org/abs/2412.20804",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024 首稿只见武大、港科大（广州）、滑铁卢。2025 的 Computing Floating-Point Errors by Injecting Perturbations 同作者、同任务与基线且有 arXiv 重合提示，暂作同一研究的后续稿归并。"
+      },
+      {
+        "title": "Automatic String Data Validation with Pattern Discovery",
+        "url": "https://arxiv.org/abs/2408.03005",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "有蚂蚁工业验证以及员工 Peng Di。首稿第一作者及另一学生署深圳大学（范围外），未发现港科大（广州）受本教师指导的在读作者。Springer DASFAA 正式论文 10.1007/978-981-92-0369-7_38 已移出 Ding 署名，以同一项目核对不重复。"
+      },
+      {
+        "title": "Towards More Accurate App Review Response Generation with Fine-Grained Filtering",
+        "url": "https://doi.org/10.1145/3786790",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者主页、正式 ACM 出版标识及同篇 Tao Zhang CV 对上；尚未取得正式全文用于核对脚注，不视为完整核查。"
+      },
+      {
+        "title": "ICE: Reducing Search Space for Error-Inducing Input Detection",
+        "url": "https://doi.org/10.1109/TSE.2026.3703362",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE TSE 题录、两位作者主页及目录中 CCF 代表作对上。与 MGDE 的牛顿法结构和任务阶段不同；缺公开全文用于最终核查，不作结项。"
+      }
+    ],
+    "note": "已交叉核对学校主页、作者书目与独立题录。少数付费论文仍须补核完整原文；与企业实习时间吻合的合著，仍需同篇的实习或企业研发证据。"
   }
 };
