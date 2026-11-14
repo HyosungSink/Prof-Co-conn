@@ -7105,13 +7105,15 @@ const facultyPaperAudits = {
         "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
         "url": "https://aclanthology.org/2026.emnlp-main.332/",
         "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "note": "首页明确标注杜恩俊和陈梓荣在腾讯实习期间完成相关工作；杜恩俊当时的正式学籍在北京理工大学，香港科技大学（广州）仅访问。课题组亦将陈梓荣列为北理工本科生、港科大（广州）研究助理，清华硕士学籍及对应指导的同期证据未见。尚未核实同篇另有处于调查范围高校学籍的具名实习作者。",
+        "year": 2026
       },
       {
         "title": "SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions",
         "url": "https://aclanthology.org/2026.findings-emnlp.955/",
         "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "note": "首页明确标注杜恩俊和陈梓荣在腾讯实习期间完成相关工作；杜恩俊当时的正式学籍在北京理工大学，香港科技大学（广州）仅访问。课题组亦将陈梓荣列为北理工本科生、港科大（广州）研究助理，清华硕士学籍及对应指导的同期证据未见。尚未核实同篇另有处于调查范围高校学籍的具名实习作者。",
+        "year": 2026
       }
     ]
   },
@@ -7213,7 +7215,40 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2609.34648",
       "https://arxiv.org/pdf/2609.34648",
       "https://arxiv.org/abs/2602.15909",
-      "https://arxiv.org/pdf/2602.15909"
+      "https://arxiv.org/pdf/2602.15909",
+      "https://www.ijcai.org/proceedings/2024/700",
+      "https://www.ijcai.org/proceedings/2024/0700.pdf",
+      "https://github.com/wentaol86/awesome-body-language",
+      "https://www.mingmingfan.com/lab/zh/people/",
+      "https://aclanthology.org/2026.emnlp-main.964/",
+      "https://aclanthology.org/2026.emnlp-main.964.pdf",
+      "https://linweiii.github.io/",
+      "https://github.com/linweiii/RedEdit",
+      "https://www.isca-archive.org/interspeech_2026/lei26_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/lei26_interspeech.pdf",
+      "https://arxiv.org/abs/2610.07902",
+      "https://arxiv.org/pdf/2610.07902",
+      "https://aclanthology.org/people/jinting-wang/",
+      "https://icml.cc/virtual/2026/poster/65899",
+      "https://arxiv.org/pdf/2603.01006",
+      "https://aclanthology.org/2025.emnlp-main.40/",
+      "https://aclanthology.org/2025.emnlp-main.40.pdf",
+      "https://arxiv.org/abs/2412.06602",
+      "https://arxiv.org/abs/2605.18168",
+      "https://arxiv.org/pdf/2605.18168",
+      "https://arxiv.org/abs/2604.26496",
+      "https://arxiv.org/pdf/2604.26496",
+      "https://arxiv.org/abs/2510.17633",
+      "https://arxiv.org/pdf/2510.17633",
+      "https://arxiv.org/abs/2409.16902",
+      "https://arxiv.org/pdf/2409.16902",
+      "https://arxiv.org/abs/2407.08428",
+      "https://arxiv.org/pdf/2407.08428",
+      "https://github.com/wentaoL86/Awesome-Human-Video-Generation",
+      "https://arxiv.org/abs/2308.08849",
+      "https://arxiv.org/pdf/2308.08849",
+      "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.pdf"
     ],
     "papers": [
       {
@@ -7355,8 +7390,100 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "正式 ICLR 版本和预印本四名作者全署港科大（广州），未具名企业作者或企业实习。",
         "year": 2026
+      },
+      {
+        "title": "Bridge to Non-Barrier Communication: Gloss-Prompted Fine-Grained Cued Speech Gesture Generation with Diffusion Model",
+        "url": "https://www.ijcai.org/proceedings/2024/700",
+        "outcome": "lead",
+        "note": "正式论文明确只有第一作者 Wentao Lei 的星号表示腾讯 AI Lab 实习，Jun Wang 只署腾讯。2023/2024 第一作者公开仓库有港科大（广州）学生域邮箱，导师本人把论文列为团队成果；仍缺当时学籍类型及对 Wentao Lei 的具名指导。另有曾在 RIT 后进美团的同英文姓名者，不合并。",
+        "year": 2024
+      },
+      {
+        "title": "RedEdit: Agentic Red-Teaming of Image Safety Classifiers via MCTS-Guided Photo-Editing",
+        "url": "https://aclanthology.org/2026.emnlp-main.964/",
+        "outcome": "lead",
+        "note": "正式版双署第一作者林威霖为港科大（广州）与腾讯；本人具名刘李、熊辉两位博士导师与腾讯微信安全组从 2025-12 起的实习。论文确认两位独立腾讯作者、同领域项目及微信犀牛鸟资助，但无具名在企业进行本篇工作的说明；个人仓库未直接说明企业项目归属。",
+        "year": 2026
+      },
+      {
+        "title": "ARCHES: An Agent-Based Refinement Cycle for Hierarchical Synthesis of Sound Effects for Variety Shows",
+        "url": "https://www.isca-archive.org/interspeech_2026/lei26_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "原文仅 Wentao Lei、刘李两位港科大（广州）作者，未见企业同篇作者。",
+        "year": 2026
+      },
+      {
+        "title": "ARIA: Audio-Driven Melody–Tone Relation Modeling for Cantonese Lyric Authoring",
+        "url": "https://arxiv.org/abs/2610.07902",
+        "outcome": "no-evidence",
+        "note": "原文三位均署港科大（广州）；没有企业同篇作者。同一 EMNLP 2026 Findings 预印本与正式版不分开。",
+        "year": 2026
+      },
+      {
+        "title": "AG-REPA: Causal Layer Selection for Representation Alignment in Audio Flow Matching",
+        "url": "https://icml.cc/virtual/2026/poster/65899",
+        "outcome": "no-evidence",
+        "note": "MP 通报四位同校身份；原文四位港科大（广州）作者，未见企业同篇作者。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Controllable Speech Synthesis in the Era of Large Language Models: A Systematic Survey",
+        "url": "https://aclanthology.org/2025.emnlp-main.40/",
+        "outcome": "no-evidence",
+        "note": "正式版四位港科大（广州），Wenwu Wang 署萨里大学；无企业作者。首版 2024 年预印本合并。",
+        "year": 2025
+      },
+      {
+        "title": "Acoustic Interference: A New Paradigm Weaponizing Acoustic Latent Semantic for Universal Jailbreak against Large Audio Language Models",
+        "url": "https://arxiv.org/abs/2605.18168",
+        "outcome": "no-evidence",
+        "note": "核对原文，作者机构为港科大（广州）／香港理工／香港中文；未有企业。",
+        "year": 2026
+      },
+      {
+        "title": "Robust Alignment: Harmonizing Clean Accuracy and Adversarial Robustness in Adversarial Training",
+        "url": "https://arxiv.org/abs/2604.26496",
+        "outcome": "no-evidence",
+        "note": "原文各作者仅香港理工或港科大（广州）署名；未有企业。",
+        "year": 2026
+      },
+      {
+        "title": "SARSteer: Safeguarding Large Audio Language Models via Safe-Ablated Refusal Steering",
+        "url": "https://arxiv.org/abs/2510.17633",
+        "outcome": "no-evidence",
+        "note": "ICML 2026 同一论文原文四位作者署港科大（广州）与中山大学，无腾讯合著；该生在腾讯的其他项目不能外推。本篇 2025 年首版按正式 ICML 会议年。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Underwater Camouflaged Object Tracking: An Experimental Evaluation of SAM and SAM 2",
+        "url": "https://arxiv.org/abs/2409.16902",
+        "outcome": "no-evidence",
+        "note": "原文署上海交大、港科大（广州）、上海人工智能实验室及中科院计算所；无范围内公司员工共同署名。",
+        "year": 2024
+      },
+      {
+        "title": "A Comprehensive Survey on Human Video Generation: Challenges, Methods, and Insights",
+        "url": "https://arxiv.org/abs/2407.08428",
+        "outcome": "no-evidence",
+        "note": "预印本无企业署名；作者维护的原始项目库申明是同一出版物，未标企业参与项目。",
+        "year": 2024
+      },
+      {
+        "title": "A Survey on Deep Multi-modal Learning for Body Language Recognition and Generation",
+        "url": "https://arxiv.org/abs/2308.08849",
+        "outcome": "no-evidence",
+        "note": "预印本和作者项目没有企业作者和实习说明。正文表头是投稿模板的 2022 日期，实际预印本首发为 2023。",
+        "year": 2023
+      },
+      {
+        "title": "FFD: Fine-Finger Diffusion Model for Music to Fine-grained Finger Dance Generation",
+        "url": "https://www.isca-archive.org/interspeech_2025/dong25c_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "核对正式版三人都署港科大（广州），没有范围内企业作者。",
+        "year": 2025
       }
-    ]
+    ],
+    "note": "逐篇核对 2023–2026 可取得原文的 ACL/ISCA、学生项目与论文；正式版、原预印本去重。ORCID 主要缺 2025–2026，DBLP 这个分身自身提示 ORCID 冲突，所以需要对剩余英文同名记录逐篇与港科大（广州）、GIPSA 历史和合著人身份交叉。未标为完整书目。"
   },
   "cVDF1tkAAAAJ": {
     "from": "2023-01-01",
@@ -7880,7 +8007,7 @@ const facultyPaperAudits = {
   "oTU0v5IAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html",
       "https://wangruinlp.github.io/",
@@ -7902,7 +8029,11 @@ const facultyPaperAudits = {
       "https://orcid.org/0000-0001-8007-2503",
       "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201801000199056253",
       "https://cs.shu.edu.cn/info/1471/40891.htm",
-      "https://tuzhaopeng.github.io/publications.html"
+      "https://tuzhaopeng.github.io/publications.html",
+      "https://ilampard.github.io/",
+      "https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings",
+      "https://huhailinguist.github.io/publications/",
+      "https://cs.sjtu.edu.cn/en/jiaoshiml/wangrui.html"
     ],
     "papers": [
       {
@@ -7944,7 +8075,7 @@ const facultyPaperAudits = {
         "title": "A Systematic Assessment of Language Models with Linguistic Minimal Pairs in Chinese",
         "url": "https://aclanthology.org/2026.tacl-1.34.pdf",
         "outcome": "confirmed",
-        "note": "正式版具名实习脚注、刘逸康本人公开的硕士导师记录和唐家龙在阿里通义任职记录均已核对。",
+        "note": "正式版具名实习脚注、刘逸康本人公开的硕士导师记录和唐家龙在阿里通义任职记录均已核对。 TACL 2026 正刊首页第 37 行确认同一实习脚注，已补正式版。",
         "year": 2026
       },
       {
@@ -8169,7 +8300,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://aclanthology.org/2026.acl-industry.147.pdf",
         "outcome": "lead",
-        "note": "ACL 产业卷分别标具名两个 Rui Wang（蚂蚁作者和上交末位导师），张子殷为双署共同一作，产业系统确在阿里生态支付宝运行，但公开论文未说明学生具体实习或题目级企业贡献，也未见公开项目提交，留待补。"
+        "note": "ACL 产业卷分别列两个 Rui Wang（蚂蚁作者和上交导师），当期在读张子殷双署共同第一。论文确述支付宝团队生产部署，致谢仅为 CCF–蚂蚁经费；仍缺张子殷具体参与企业团队研发或实习的公开明确说明。"
       },
       {
         "title": "The Hunger Game Debate: On the Emergence of Over-Competition in Multi-Agent Systems",
@@ -8231,7 +8362,7 @@ const facultyPaperAudits = {
         "title": "GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding",
         "year": 2025,
         "url": "https://aclanthology.org/2025.acl-long.676.pdf",
-        "outcome": "confirmed",
+        "outcome": "existing",
         "note": "站内既有关系 GALLa。ACL 原文首页具名张子殷在蚂蚁集团实习完成；王瑞课题组硕士名单、同篇上交通讯邮箱及企业 Jianguo Li 个人履历皆已核。"
       },
       {
@@ -8365,21 +8496,21 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://aclanthology.org/2026.aacl-long.134.pdf",
         "outcome": "lead",
-        "note": "正式稿显示王瑞在读学生 Haoxiang Sun、Lizhen Xu 同时署上交与阿里，阿里员工有待独立证件核；论文及公开第三方仓库未明确阐述学生此项在阿里的具体研究参与，留待补。"
+        "note": "AACL 终稿第 9 页明载阿里与上交联合研究实验室资助、第一和第二作者均双署且王瑞名列组内在读导师；同篇 Wotao Yin 自身及 INFORMS 确认阿里达摩院实验室主任。仍缺哪位学生在企业端实作的独立具名材料，学生 GitHub 所属个人号不单独证明公司研发管理。"
       },
       {
         "title": "AdaMem: Learning What to Remember with Adaptive Memory Policies for Personalized Agents",
         "year": 2026,
         "url": "https://aclanthology.org/2026.emnlp-industry.189.pdf",
-        "outcome": "lead",
-        "note": "腾讯涂兆鹏署名及本人任职、组内 Xingyu Chen 研究期师承可确认。论文及其学生个人 GitHub 未具名说明腾讯参与关系，待老师／企业课题或学生角色的材料。"
+        "outcome": "confirmed",
+        "note": "正式 EMNLP 产业卷第 8 页 Acknowledgments 具名 Xingyu Chen 在腾讯实习时开展本项，腾讯犀牛鸟 JR2026TEG042 提供支持；王瑞为其上交博士导师，腾讯涂兆鹏同篇通讯。相较早预印本，正式版新增具名致谢。研究目的为明确写入长期记忆的个性化偏好及更新，独立于对等考试项目。"
       },
       {
         "title": "LivingArena: Do LLMs Know What Other LLMs Don’t? Peer-Probing as Scalable Evaluation",
         "year": 2026,
         "url": "https://aclanthology.org/2026.emnlp-industry.176.pdf",
-        "outcome": "lead",
-        "note": "腾讯涂兆鹏、上交王瑞及组内 Xingyu Chen 同篇；无具体实习、合作项目致谢或腾讯官方工作认定。"
+        "outcome": "confirmed",
+        "note": "正式 EMNLP 产业卷第 8 页 Acknowledgments 具名 Xingyu Chen 在腾讯实习时开展本项，腾讯犀牛鸟 JR2026TEG042 提供支持；王瑞为其上交博士导师，腾讯涂兆鹏同篇通讯。相较早预印本，正式版新增具名致谢。研究目的为让模型共同出题和评估，发布独立代码和实证，独立于个性化记忆项目。"
       },
       {
         "title": "MrRoPE: Mixed-radix Rotary Position Embedding",
@@ -8435,7 +8566,7 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/abs/2603.19223",
         "outcome": "lead",
-        "note": "蚂蚁正式项目、原文同为上交及蚂蚁共同署名。本技术报告的数据被同年度 ML-Embed 明确使用，是否应作为独立关联暂保留；未把同项目证据自动登记两次。"
+        "note": "项目模型卡公开将 F2LLM-v2 的训练资料及 0.6B Preview 第一阶段检查点用于 ML-Embed（同一作者组）。单独列技术报告作为书目，但按研究版本审慎不另计确认关系。"
       },
       {
         "title": "Addressing Domain Mismatch in Unsupervised Neural Machine Translation",
@@ -8485,9 +8616,30 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2609.36750",
         "outcome": "lead",
         "note": "原文上交组同作与腾讯 Zhaopeng Tu 可确认；首版学生均单署学校，第一作者履历同月在字节，尚不能确认任一学生实际参与此项腾讯研究。"
+      },
+      {
+        "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+        "year": 2026,
+        "url": "https://arxiv.org/pdf/2611.00172",
+        "outcome": "confirmed",
+        "note": "10 月 30 日首版首页明确张子殷共同第一和核心贡献者、王瑞上交共同通讯；该生在读并参加蚂蚁研发：其实名关联账号于 10 月 29 日直接向论文指定蚂蚁官方项目提交 2,760 行更新，有次年以前的早期实质提交可对照。Siqiao Xue 亦为论文署蚂蚁的核心贡献者，本人确认是支付宝研究工程师。题目与 2024 Code LLM Survey、文本嵌入 F2LLM 等不同。"
+      },
+      {
+        "title": "Flexible Realignment of Language Models",
+        "year": 2025,
+        "url": "https://www.proceedings.com/085713-2239.html",
+        "outcome": "lead",
+        "note": "早稿 2503.04346 为同作者群（新版增腾讯谢若冰）和同一训练／推理对齐控制，归在正式 NeurIPS Flexible Realignment。王瑞及 Wenhong Zhu 在上交，新增有企业作者而没有该学生在腾讯参与本篇的具名证据。"
+      },
+      {
+        "title": "Is Self-knowledge and Action Consistent or Not: Investigating Large Language Model's Personality",
+        "year": 2024,
+        "url": "https://openreview.net/pdf/0b31ba48eaa20da69c8b4bc31451b75b93262a0d.pdf",
+        "outcome": "no-evidence",
+        "note": "ICML 2024 LLMs and Cognition 工作坊正式展示；与较早题名 Is Cognition and Action Consistent 的 arXiv 同文。上交及非目标机构，无站内企业三证。"
       }
     ],
-    "note": "已交叉本人、同 ORCID、DBLP、ACL、IEEE、JST 与合作者书目。排除 ORCID 误合并的唯品会作者（AD-KD／ClusterNS）、大模型蚂蚁作者（QuitoBench／Dialogue Topic Segmentation）、香港中文大学作者（WebAggregator 及其 preprint／Cognitive Kernel-Pro）、粤港澳大湾区数字经济研究院作者（CAPE／NICO／Linear Preference Optimization），不计入王瑞书目。剩近期卷及合作者论文继续补。"
+    "note": "核完截至 2026-11-12 的公开可辨认书目。逐篇交叉教师／同一 ORCID／ACL／DBLP／Crossref／学术合作者书目及期刊会议原文。早稿、改标题及正式版归并；无王瑞上交署名的同名污染（唯品会 AD-KD / ClusterNS，微软 MedFeat，IDEA CAPE / NICO，蚂蚁 QuitoBench / Dialogue Topic Segmentation，香港中文大学 WebAggregator）排除。逐条保留待补证据，不能据此断言没有合作。"
   },
   "ewA4NAcAAAAJ": {
     "from": "2023-01-01",
@@ -8717,7 +8869,8 @@ const facultyPaperAudits = {
       "https://ink.library.smu.edu.sg/sis_research/9106/",
       "https://www.ijcai.org/proceedings/2023/738",
       "https://www.ijcai.org/proceedings/2023/0738.pdf",
-      "https://arxiv.org/abs/2305.02750"
+      "https://arxiv.org/abs/2305.02750",
+      "https://www1.se.cuhk.edu.hk/~eclt5810/assignment/eclt5810-2022-assign2.pdf"
     ],
     "papers": [
       {
@@ -8944,8 +9097,8 @@ const facultyPaperAudits = {
       {
         "title": "A Frustratingly Simple Decoding Method for Neural Text Generation",
         "url": "https://aclanthology.org/2024.lrec-main.47/",
-        "outcome": "lead",
-        "note": "正式论文具名 Haoran Yang 是腾讯实习研究作者；导师的课题组给出 2019 博士入学年，另一官方学生活动在 2024 年要求第一作者在读，但仍缺覆盖 2023 年首版之前具体实习时段的完整学籍证据。",
+        "outcome": "confirmed",
+        "note": "正式论文首页只在 Haoran Yang 署名后标星，注明大部分研究工作在腾讯 AI Lab 实习时完成。导师组名单列其为 2019 年级的港中文博士；2022 年港中文课程材料同一邮箱，2023 年 5 月预印本同一院系及身份，2024 年 3 月仍以港中文第一作者提交两篇只允许在读学生第一署名的 NAACL 学生研讨会论文。时间点在这段学籍之内。同篇通讯作者蔡登当时是腾讯 AI Lab 的高级研究员。",
         "year": 2024
       },
       {
@@ -32231,6 +32384,13 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3843235",
         "outcome": "no-evidence",
         "note": "ACM TOSEM 2026-09-17 正式在线。ACM 提交的 Crossref 题录列六位作者均署中科院软件所；早期 arXiv:2504.19237 曾署范围外的广东电网，正式版调整作者，方法及项目相同，只计一篇。"
+      },
+      {
+        "year": 2026,
+        "title": "AutoCache: an online and automatic caching solution for Spark",
+        "url": "https://journal.hep.com.cn/fcs/EN/10.1007/s11704-025-40776-9",
+        "outcome": "no-evidence",
+        "note": "期刊正式页列陈伟署中科院软件所、国科大和南京相关基地；同篇企业仅中国民航信息网络（TravelSky）及民航大数据工程中心，不是调查范围内企业。按 2026 第五期归年，2025-04-14 在线版不另计。"
       }
     ],
     "note": "对照国科大导师书目、中科院软件工程组、正式会议节目和论文、公开预印本、作者 ORCID 及 2026-11-01 全部 DBLP 快照。DBLP 精确姓名 18 条归并为 15 篇，正式版本覆盖同一预印本。以作者单位和邮箱排除聚合书目误绑的 EuroSys 2025《Seal》（同名作者来自港科大）。CreScent 公开题录但全文受限，尚无法核对具名企业参与、致谢等。软件所确认其直接指导的汪涛在读成果在华为、微信验证，目前缺证据把匿名企业对应到具体论文的企业人员。"
@@ -32249,7 +32409,17 @@ const facultyPaperAudits = {
       "https://hk.linkedin.com/in/daxin-tan-b41870103",
       "https://doi.org/10.1109/ICASSP55912.2026.11460887",
       "https://research.cuhk.edu.hk/en/publications/exploring-ssl-discrete-tokens-for-multilingual-automatic-speech-r/",
-      "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13572&bare=1"
+      "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13572&bare=1",
+      "https://www.isca-archive.org/interspeech_2026/deng26_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/deng26_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.pdf",
+      "https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html",
+      "https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf"
     ],
     "papers": [
       {
@@ -32264,6 +32434,41 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/ICASSP55912.2026.11460887",
         "outcome": "lead",
         "note": "正式会刊的技术与 2024 年主题近似但有跨语句上下文及显著不同的作者组。2026 版企业成员来自腾讯，学生档案确认同期腾讯实习，但官方会期页面将学生列香港中文大学，暂未取得正式全文脚注、明确该实习的项目证据或两个版本的关系，暂不算第二条关系。",
+        "year": 2026
+      },
+      {
+        "title": "Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2026/deng26_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "全部作者同署香港中文大学，没有范围内企业作者或实习脚注。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering",
+        "url": "https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "全部作者同署香港中文大学，没有范围内企业作者或实习脚注。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Personalized Federated Learning for Dysarthric Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "原文全部作者同署香港中文大学，研究模拟数据客户端；没有企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Confidence Score Guided Incremental and Speaker Adaptive Pseudo-Labeling for Semi-Supervised Elderly Speech Recognition",
+        "url": "https://www.isca-archive.org/interspeech_2026/deng26c_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式版作者同署香港中文大学，无具名企业研究或实习。",
+        "year": 2026
+      },
+      {
+        "title": "Explainable and Trustworthy Speech Emotion Recognition Using Confidence Score and Reinforcement Learning Rectified Speech Emotion Descriptors",
+        "url": "https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html",
+        "outcome": "no-evidence",
+        "note": "正式版作者只列香港中文大学与清华大学；未发现企业署名或实习。",
         "year": 2026
       }
     ]

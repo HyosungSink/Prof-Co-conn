@@ -71,9 +71,9 @@ const survey = {
       team: 'Ant Research',
       school: '上海交通大学',
       studentSchool: '上海交通大学',
-      faculty: [ '王睿 · Rui Wang', '上海交通大学计算机学院副教授，2021 年起在上交大任教。', 'https://cs.sjtu.edu.cn/en/jiaoshiml/wangrui.html' ],
+      faculty: [ '王瑞 · Rui Wang', '上海交通大学计算机学院副教授，2021 年起在上交大任教。', 'https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html' ],
       employee: [ 'Jianguo Li', '2020 年 6 月加入蚂蚁集团，担任蚂蚁研究技术总监。', 'https://sites.google.com/site/leeplus/' ],
-      student: [ 'Ziyin Zhang', '王睿课题组名单显示，2023 年继续在上交大攻读硕士。', 'https://wangruinlp.github.io/' ],
+      student: [ 'Ziyin Zhang', '王瑞课题组名单显示，2023 年继续在上交大攻读硕士。', 'https://wangruinlp.github.io/' ],
       title: 'GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding',
       short: 'GALLa',
       date: '2025-07',
@@ -81,7 +81,7 @@ const survey = {
       area: '语言模型与智能体',
       paper: 'https://aclanthology.org/2025.acl-long.676.pdf',
       evidence: 'Ziyin Zhang 双署名上交大和蚂蚁集团。首页脚注点名说明工作在其蚂蚁实习期间完成，导师名录补足在读身份。',
-      advising: [ '课题组指导', '王睿的个人课题组名录将 Ziyin Zhang 列在自己的硕士生名单中，并记载其 2023 年起在上海交通大学攻读硕士。', 'https://wangruinlp.github.io/' ]
+      advising: [ '课题组指导', '王瑞的个人课题组名录将 Ziyin Zhang 列在自己的硕士生名单中，并记载其 2023 年起在上海交通大学攻读硕士。', 'https://wangruinlp.github.io/' ]
     },
     {
       id: 'dsec',
@@ -38570,6 +38570,221 @@ const survey = {
         "国科大导师名录与邓嘉鑫本人材料均明确其研究期间在国科大由孟高峰指导。",
         "https://people.ucas.ac.cn/~gfmeng"
       ]
+    },
+    {
+      "id": "omnimodal-embeddings-survey-ant-sjtu-otu0v5iaaaaj",
+      "paperId": "arxiv:2611.00172",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁集团 · CodeFuse",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Siqiao Xue",
+        "本人履历明确支付宝研究工程师；同年 QuitoBench 署蚂蚁，本篇为蚂蚁署名核心共同贡献者。",
+        "https://ilampard.github.io/"
+      ],
+      "student": [
+        "张子殷 · Ziyin Zhang",
+        "上海交大在读博士，原文双署蚂蚁及上海交大并列为核心贡献者；其实名关联账号在首稿前一天向蚂蚁 CodeFuse 该项仓库提交 论文相关综述材料。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "Omnimodal Embeddings Survey",
+      "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "多模态嵌入",
+      "paper": "https://arxiv.org/pdf/2611.00172",
+      "extra": [
+        [
+          "文章正式 arXiv 信息",
+          "https://arxiv.org/abs/2611.00172"
+        ],
+        [
+          "论文在蚂蚁官方仓库的具名实质提交",
+          "https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings/commit/9bd53c105f5ce242e321b06fa0b54ec2cf02029d"
+        ],
+        [
+          "实名账号",
+          "https://huggingface.co/Geralt-Targaryen"
+        ],
+        [
+          "同年任职的研究论文",
+          "https://arxiv.org/abs/2603.26017"
+        ]
+      ],
+      "evidence": "10 月 30 日首版首页明确张子殷共同第一和核心贡献者、王瑞上交共同通讯；该生在读并参加蚂蚁研发：其实名关联账号于 10 月 29 日直接向论文指定蚂蚁官方项目提交 综述材料，贡献同时得到论文署名及作者贡献说明支持。Siqiao Xue 亦为论文署蚂蚁的核心贡献者，本人确认是支付宝研究工程师。题目与 2024 Code LLM Survey、文本嵌入 F2LLM 等不同。",
+      "advising": [
+        "博士生导师",
+        "王瑞本人课题组名录确认张子殷在校内攻读 2023 年硕士、2025 年入学博士。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "adamem-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "doi:10.18653/2026.emnlp-industry.189",
+      "company": "腾讯",
+      "team": "腾讯混元 · 腾讯犀牛鸟",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯混元多模态部门数字人算法团队负责人；本人公开履历确认正式任职并列同篇。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "Xingyu Chen",
+        "王瑞课题组的上交在读博士；本篇 EMNLP 正式原文致谢明示其本人在腾讯实习做这项工作，列具体腾讯犀牛鸟项目。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "AdaMem",
+      "title": "AdaMem: Learning What to Remember with Adaptive Memory Policies for Personalized Agents",
+      "date": "2026-10",
+      "venue": "EMNLP 2026 产业卷",
+      "area": "语言模型智能体",
+      "paper": "https://aclanthology.org/2026.emnlp-industry.189.pdf",
+      "extra": [
+        [
+          "正式出版信息",
+          "https://aclanthology.org/2026.emnlp-industry.189/"
+        ],
+        [
+          "初版",
+          "https://arxiv.org/abs/2606.21144"
+        ],
+        [
+          "独立公开实现",
+          "https://github.com/galaxyChen/AdaMem"
+        ],
+        [
+          "腾讯作者书目",
+          "https://tuzhaopeng.github.io/publications.html"
+        ]
+      ],
+      "evidence": "正式 EMNLP 产业卷第 8 页 Acknowledgments 具名 Xingyu Chen 在腾讯实习时开展本项，腾讯犀牛鸟 JR2026TEG042 提供支持；王瑞为其上交博士导师，腾讯涂兆鹏同篇通讯。相较早预印本，正式版新增具名致谢。研究目的为明确写入长期记忆的个性化偏好及更新，独立于对等考试项目。",
+      "advising": [
+        "博士生导师",
+        "王瑞本人组学生名单明确 Xingyu Chen 是 2022 年起的在读博士；同篇均有王瑞的真实上交机构。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "livingarena-tencent-sjtu-otu0v5iaaaaj",
+      "paperId": "doi:10.18653/2026.emnlp-industry.176",
+      "company": "腾讯",
+      "team": "腾讯混元 · 腾讯犀牛鸟",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王瑞 · Rui Wang",
+        "上海交通大学计算机学院副教授、博士生导师，自 2021 年任教；该论文为上交署名作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/wangrui.html"
+      ],
+      "employee": [
+        "Zhaopeng Tu",
+        "腾讯混元多模态部门数字人算法团队负责人；本人公开履历确认正式任职并列同篇。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "Xingyu Chen",
+        "王瑞课题组的上交在读博士；本篇 EMNLP 正式原文致谢明示其本人在腾讯实习做这项工作，列具体腾讯犀牛鸟项目。",
+        "https://wangruinlp.github.io/"
+      ],
+      "short": "LivingArena",
+      "title": "LivingArena: Do LLMs Know What Other LLMs Don’t? Peer-Probing as Scalable Evaluation",
+      "date": "2026-10",
+      "venue": "EMNLP 2026 产业卷",
+      "area": "语言模型智能体",
+      "paper": "https://aclanthology.org/2026.emnlp-industry.176.pdf",
+      "extra": [
+        [
+          "正式出版信息",
+          "https://aclanthology.org/2026.emnlp-industry.176/"
+        ],
+        [
+          "初版",
+          "https://arxiv.org/abs/2607.24780"
+        ],
+        [
+          "独立公开实现",
+          "https://github.com/galaxyChen/LivingArena"
+        ],
+        [
+          "腾讯作者书目",
+          "https://tuzhaopeng.github.io/publications.html"
+        ]
+      ],
+      "evidence": "正式 EMNLP 产业卷第 8 页 Acknowledgments 具名 Xingyu Chen 在腾讯实习时开展本项，腾讯犀牛鸟 JR2026TEG042 提供支持；王瑞为其上交博士导师，腾讯涂兆鹏同篇通讯。相较早预印本，正式版新增具名致谢。研究目的为让模型共同出题和评估，发布独立代码和实证，独立于个性化记忆项目。",
+      "advising": [
+        "博士生导师",
+        "王瑞本人组学生名单明确 Xingyu Chen 是 2022 年起的在读博士；同篇均有王瑞的真实上交机构。",
+        "https://wangruinlp.github.io/"
+      ]
+    },
+    {
+      "id": "tencent-fsd-cuhk-wai-lam",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "LAM Wai",
+        "香港中文大学系统工程与工程管理学系教授，本论文作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Haoran Yang",
+        "在读港中文博士；同篇正式论文唯一实习星号明确其大部分研究在腾讯 AI Lab 完成。",
+        "https://aclanthology.org/2024.lrec-main.47.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "香港中文大学院系课题组网页具名列为 Wai Lam 的博士生。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "蔡登 · Deng Cai",
+        "同篇腾讯通讯作者；本人公开履历说明曾于论文研究阶段在腾讯 AI Lab 任高级研究员。",
+        "https://jcyk.github.io/indexv0.html"
+      ],
+      "title": "A Frustratingly Simple Decoding Method for Neural Text Generation",
+      "short": "Frustratingly Simple Decoding",
+      "date": "2024-05",
+      "venue": "LREC-COLING 2024",
+      "area": "神经文本生成",
+      "paper": "https://aclanthology.org/2024.lrec-main.47/",
+      "extra": [
+        [
+          "正式论文具名星号",
+          "https://aclanthology.org/2024.lrec-main.47.pdf"
+        ],
+        [
+          "2022 年学校课程同一身份",
+          "https://www1.se.cuhk.edu.hk/~eclt5810/assignment/eclt5810-2022-assign2.pdf"
+        ],
+        [
+          "2023 年同篇预印本",
+          "https://arxiv.org/abs/2305.12675"
+        ],
+        [
+          "2024 年现役学生限定研讨会同校首作",
+          "https://aclanthology.org/2024.naacl-srw.3/"
+        ],
+        [
+          "研讨会投稿资格条款",
+          "https://naacl2024-srw.github.io/cfp"
+        ]
+      ],
+      "evidence": "正式论文首页只在 Haoran Yang 署名后标星，注明大部分研究工作在腾讯 AI Lab 实习时完成。导师组名单列其为 2019 年级的港中文博士；2022 年港中文课程材料同一邮箱，2023 年 5 月预印本同一院系及身份，2024 年 3 月仍以港中文第一作者提交两篇只允许在读学生第一署名的 NAACL 学生研讨会论文。时间点在这段学籍之内。同篇通讯作者蔡登当时是腾讯 AI Lab 的高级研究员。"
     }
   ]
 };
