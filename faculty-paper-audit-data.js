@@ -52322,7 +52322,12 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/17/11359.html",
       "https://proceedings.mlr.press/v267/zhang25ct.html",
       "https://www.sentic.net/few-shot-named-entity-recognition.pdf",
-      "https://bdkelab.xjtu.edu.cn/yjfx/dsjzsgc.htm"
+      "https://bdkelab.xjtu.edu.cn/yjfx/dsjzsgc.htm",
+      "https://yuxin-dong.github.io/publications/",
+      "https://api.crossref.org/works?filter=orcid:0000-0002-3840-441X",
+      "https://gr.xjtu.edu.cn/shijiangbo/zh_CN/zdylm/1075820/list/index.htm",
+      "https://jarvislab.tencent.com/aca-publications-conference.html",
+      "https://www.medrxiv.org/content/10.1101/2025.04.22.25326190v1"
     ],
     "papers": [
       {
@@ -52401,9 +52406,79 @@ const facultyPaperAudits = {
         "url": "https://www.ijcai.org/proceedings/2024/0609.pdf",
         "outcome": "no-evidence",
         "note": "IJCAI 原文署华中农大、吉林大学、西安交大、南方科技大学，无目标企业同篇作者。"
+      },
+      {
+        "title": "ViLa-MIL: Dual-scale Vision-Language Multiple Instance Learning for Whole Slide Image Classification",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2502.08391",
+        "outcome": "lead",
+        "note": "2024 CVPR 正式发表早于 2025 年补传预印本。腾讯天衍中心书目列该工作，作者郑冶枫署腾讯优图；第一作者时江波署西交，暂未找到其本人及校方材料明确是龚铁梁指导且在腾讯参与此篇。"
+      },
+      {
+        "title": "Tilted Sparse Additive Models",
+        "year": 2023,
+        "url": "https://proceedings.mlr.press/v202/wang23c/wang23c.pdf",
+        "outcome": "lead",
+        "note": "ICML 正式稿列京东探索研究院和数家高校；第一作者署中国石油大学（华东）。未发现调查高校在读者在京东参与同篇及龚铁梁同时具名指导。"
+      },
+      {
+        "title": "How Does Distribution Matching Help Domain Generalization: An Information-Theoretic Analysis",
+        "year": 2025,
+        "url": "https://yuxin-dong.github.io/files/2025-TIT-IDM.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者版首页与作者履历列中国电信及西安交大、华中农大。中国电信不在调查企业。"
+      },
+      {
+        "title": "Robust multimodal sentiment analysis via double information bottleneck",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2511.01444v1",
+        "outcome": "no-evidence",
+        "note": "2025 年首稿与 Information Fusion 期刊同项，作者来自西安交大、西工大、NUS 和 NTU。未见目标企业。"
+      },
+      {
+        "title": "Efficient Approximations for Matrix-Based Rényi’s Entropy on Sequential Data",
+        "year": 2023,
+        "url": "https://yuxin-dong.github.io/files/2023-TNNLS-Sequent.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 2023 年提前在线作者版与 2025 卷期归并；作者机构为西安交大与华中农大，未见目标企业参与。"
+      },
+      {
+        "title": "Understanding the Generalization Ability of Deep Learning Algorithms: A Kernelized Rényi’s Entropy Perspective",
+        "year": 2023,
+        "url": "https://www.ijcai.org/proceedings/2023/0405.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 作者来自西安交通大学与华中农业大学；未见目标企业署名或同篇学生活动。"
+      },
+      {
+        "title": "ALPaCA: Adapting Llama for Pathology Context Analysis to enable slide-level question answering",
+        "year": 2025,
+        "url": "https://www.nature.com/articles/s41467-026-76372-z",
+        "outcome": "no-evidence",
+        "note": "2025-04 的 medRxiv 初稿与 2026 正式出版合并。正式作者机构为剑桥、NUS、西安交大、剑桥大学医院及哈佛医学院等；使用 Llama 作技术基础无目标企业同篇作者。"
+      },
+      {
+        "title": "Recovering Coherent Affective Patterns: Addressing Modality Missing in Multimodal Sentiment Analysis",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39349",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式题录列西安交大、NUS，作者在 NUS 合作者书目复核；项目托管研究小组代码，无目标企业同篇署名。"
+      },
+      {
+        "title": "Towards Generalization Bounds of GCNs for Adversarially Robust Node Classification",
+        "year": 2025,
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/b3b2c656de99c016f02a7f6b476efaae-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式作者署西安交大或华中农大及其研究机构。未见目标企业参与。"
+      },
+      {
+        "title": "Dual Attention and Patient Similarity Network for drug recommendation",
+        "year": 2023,
+        "url": "https://yuxin-dong.github.io/files/2023-Bioinfo-Drug.pdf",
+        "outcome": "no-evidence",
+        "note": "Bioinformatics 正式原文四位作者署西安交大。用公开病例数据，不等于目标企业共同研究。"
       }
     ],
-    "note": "已从本人公开书目、正式会刊和合著者资料逐篇核对首批作品。另有期刊和近期会议书目需要继续检查。"
+    "note": "本人、合著者书目、ORCID 对应出版数据和原文交叉核对。首稿与期刊卷期合并；2022 年先公开的 Virtual Prompt、Robust and Fast Measure 等不列。仍待核对其余期刊及新近书目。"
   },
   "QEjqzXgAAAAJ": {
     "from": "2023-01-01",
