@@ -13419,6 +13419,508 @@ const survey = {
         "武汉大学遥感信息工程学院教授、博士生导师，本篇为武汉大学署名作者。",
         "https://jszy.whu.edu.cn/liyansheng"
       ]
+    },
+    {
+      "id": "gui-agentic-q-alibaba-nju-dc5fejoaaaaj",
+      "paperId": "arxiv:2602.13653",
+      "company": "阿里巴巴",
+      "team": "Ovis",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "张利军 · Lijun Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://ai.nju.edu.cn/zlj/"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "校方个人主页记载 2022 年 6 月博士毕业后加入阿里巴巴，任高级算法工程师；该篇以阿里巴巴署名。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "王一博 · Yibo Wang",
+        "王一博为南京大学在读博士，原文第一作者脚注明确在阿里巴巴实习期间完成该 Ovis 项目。",
+        "https://www.lamda.nju.edu.cn/wangyb/"
+      ],
+      "title": "Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization",
+      "short": "Agentic-Q GUI",
+      "date": "2026-02",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2602.13653",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2602.13653"
+        ]
+      ],
+      "evidence": "王一博为南京大学在读博士，原文第一作者脚注明确在阿里巴巴实习期间完成该 Ovis 项目。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "王一博的南京大学个人主页列张利军为博士生导师。",
+        "https://www.lamda.nju.edu.cn/wangyb/"
+      ]
+    },
+    {
+      "id": "cast-meituan-ustc-qepm4u8aaaaj",
+      "paperId": "arxiv:2607.25308",
+      "company": "美团",
+      "team": "LongCat APA",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "冯福利 · Fuli Feng",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "Ziang Ye",
+        "Ziang Ye 的个人学术主页将 CAST 具名列于 2026 年起在美团 LongCat 的实习成果，并说明其研究内容；发表时在中国科学技术大学读研。",
+        "https://whi497.github.io/leaf.github.io/"
+      ],
+      "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
+      "short": "CAST",
+      "date": "2026-07",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2607.25308",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2607.25308"
+        ],
+        [
+          "研究代码和项目说明",
+          "https://github.com/Wloner0809/CAST"
+        ],
+        [
+          "美团 LongCat 2026 年团队报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "Ziang Ye 的个人学术主页将 CAST 具名列于 2026 年起在美团 LongCat 的实习成果，并说明其研究内容；发表时在中国科学技术大学读研。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Ziang Ye 的个人学术履历将 Fuli Feng 具名列为 2024–2026 年的硕士导师。",
+        "https://whi497.github.io/leaf.github.io/"
+      ]
+    },
+    {
+      "id": "sdar-meituan-zju-ut3nzfaaaaaj",
+      "paperId": "arxiv:2605.15155",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "沈永亮 · Yongliang Shen",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/shenyongliang"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "Zhengxi Lu",
+        "Zhengxi Lu 为浙江大学在读博士，原文第一作者脚注明确该项目在美团实习期间完成；其主页列 2026 年 3 月起的美团 LongCat 实习及实习导师顾奇。",
+        "https://lll6gg.github.io/"
+      ],
+      "title": "Self-Distilled Agentic Reinforcement Learning",
+      "short": "SDAR",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2605.15155",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.15155"
+        ],
+        [
+          "浙大实验室项目",
+          "https://github.com/ZJU-REAL/SDAR"
+        ],
+        [
+          "美团 LongCat 2026 年团队报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "Zhengxi Lu 为浙江大学在读博士，原文第一作者脚注明确该项目在美团实习期间完成；其主页列 2026 年 3 月起的美团 LongCat 实习及实习导师顾奇。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Zhengxi Lu 的学术主页将沈永亮具名列为浙江大学博士导师。",
+        "https://lll6gg.github.io/"
+      ]
+    },
+    {
+      "id": "reconstruction-bytedance-fudan-pq4yp_kaaaaj",
+      "paperId": "arxiv:2603.11103",
+      "company": "字节跳动",
+      "team": "Seed Edge",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "邱锡鹏 · Xipeng Qiu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.fudan.edu.cn/c5/46/c30604a443718/page.htm"
+      ],
+      "employee": [
+        "Wenhao Huang",
+        "字节跳动 Seed 研究人员，复旦与字节跳动联合培养的具名企业导师；本论文与已发表的 FutureX 均署名字节跳动 Seed。",
+        "https://cn.linkedin.com/in/wenhao-huang-476a0aaa"
+      ],
+      "student": [
+        "曾致远 · Zhiyuan Zeng",
+        "曾致远为复旦与字节 Seed 联培在读博士；本人主页把此篇标为 SEED 项目，对应其在 Seed Edge 的长上下文合成数据实习方向。原文首页将其列为具名核心贡献者、署复旦及字节 Seed，并列两位导师。",
+        "https://zhiyuanzeng.github.io/"
+      ],
+      "title": "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining",
+      "short": "Understanding by Reconstruction",
+      "date": "2026-03",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2603.11103",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2603.11103"
+        ],
+        [
+          "同一企业导师早期项目具名记录",
+          "https://arxiv.org/abs/2508.11987"
+        ]
+      ],
+      "evidence": "曾致远为复旦与字节 Seed 联培在读博士；本人主页把此篇标为 SEED 项目，对应其在 Seed Edge 的长上下文合成数据实习方向。原文首页将其列为具名核心贡献者、署复旦及字节 Seed，并列两位导师。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "曾致远学术主页的联培教育经历具名列邱锡鹏为复旦侧博士导师。",
+        "https://zhiyuanzeng.github.io/"
+      ]
+    },
+    {
+      "id": "v0-meituan-nju-mgoyhtoaaaaj",
+      "paperId": "arxiv:2602.03584",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "张逸凯 · Yi-Kai Zhang",
+        "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。",
+        "https://www.lamda.nju.edu.cn/zhangyk/"
+      ],
+      "title": "V0: A Generalist Value Model for Any Policy at State Zero",
+      "short": "V0",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hu/zhang26hu.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/zhang26hu.html"
+        ],
+        [
+          "第一作者公开项目页",
+          "https://now-join-us.github.io/V0/"
+        ],
+        [
+          "美团 LongCat 2026 年团队报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "南京大学 LAMDA 学生名录具名列张逸凯由叶翰嘉和詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "v0-meituan-nju-myjf4tcaaaaj",
+      "paperId": "arxiv:2602.03584",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "詹德川 · De-Chuan Zhan",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "张逸凯 · Yi-Kai Zhang",
+        "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。",
+        "https://www.lamda.nju.edu.cn/zhangyk/"
+      ],
+      "title": "V0: A Generalist Value Model for Any Policy at State Zero",
+      "short": "V0",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hu/zhang26hu.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/zhang26hu.html"
+        ],
+        [
+          "第一作者公开项目页",
+          "https://now-join-us.github.io/V0/"
+        ],
+        [
+          "美团 LongCat 2026 年团队报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "南京大学 LAMDA 学生名录具名列张逸凯由叶翰嘉和詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "tencent-sage-grpo-hkust-qifeng-chen",
+      "company": "腾讯",
+      "team": "混元",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系副教授，论文共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "郑名哲 · Mingzhe Zheng",
+        "港科大博士在读，腾讯混元青云研究实习生；研究大型视频模型的预训练和后训练。",
+        "https://mingzhezheng.homes/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人主页明确列港科大 Harry Yang 和陈启峰共同指导。",
+        "https://mingzhezheng.homes/"
+      ],
+      "employee": [
+        "Weijie Kong",
+        "腾讯混元视频研究人员，早期腾讯署名与腾讯混元技术报告已记载其团队角色，且为本篇来自混元的共同一作。",
+        "https://arxiv.org/abs/2412.03603"
+      ],
+      "title": "Manifold-Aware Exploration for Reinforcement Learning in Video Generation",
+      "short": "SAGE-GRPO",
+      "date": "2026-03",
+      "venue": "arXiv 预印本",
+      "area": "多模态与视觉生成",
+      "paper": "https://arxiv.org/abs/2603.21872",
+      "extra": [
+        [
+          "腾讯混元团队原始项目说明",
+          "https://github.com/Tencent-Hunyuan/SAGE-GRPO"
+        ],
+        [
+          "项目作者页",
+          "https://dungeonmassster.github.io/SAGE-GRPO-Page/"
+        ],
+        [
+          "同期混元项目署名",
+          "https://github.com/Tencent-Hunyuan/OmniWeaving"
+        ]
+      ],
+      "evidence": "腾讯混元团队正式发布项目，在署名旁说明此工作于混元实习期间完成。共同第一作者中，郑名哲明确记录为混元视频模型实习生，在读学校与在校导师陈启峰由本人履历确认；同篇还有混元正式研究人员 Weijie Kong。"
+    },
+    {
+      "id": "meituan-evospeakermem-cuhksz-ming-li",
+      "company": "美团",
+      "team": "LongCat 交互",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "李明 · Ming Li",
+        "香港中文大学（深圳）人工智能学院教授，原文标为通讯作者。",
+        "https://sai.cuhk.edu.cn/teacher/258"
+      ],
+      "student": [
+        "Yucong Zhang",
+        "作者身份档案列为武汉大学学生；论文列其武大学籍单位，并具名注明在美团实习期间完成此项工作。",
+        "https://loop.frontiersin.org/people/3043975/publications"
+      ],
+      "advising": [
+        "跨校科研指导",
+        "李明课题组官方论文页用星号标出其指导的学生、实习生或研究人员；Yucong Zhang 在 2025 与 2026 年的同一方向论文均具名加星标。同期原论文也列出 Yucong Zhang 的港中深研究署名。",
+        "https://sites.duke.edu/dkusmiip/publications/"
+      ],
+      "employee": [
+        "Bo Xiao",
+        "本人履历列在美团任职；与本篇同期的 ACL 美团交互论文和其他美团同一研究团队论文可核对。",
+        "https://www.linkedin.com/in/bo-xiao"
+      ],
+      "title": "From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents",
+      "short": "EvoSpeaker-Mem",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "语音与多模态",
+      "paper": "https://arxiv.org/pdf/2610.36713",
+      "extra": [
+        [
+          "论文作者单位和实习脚注",
+          "https://arxiv.org/html/2610.36713"
+        ],
+        [
+          "研究者的在职角色",
+          "https://theorg.com/org/meituan/person/bo-xiao"
+        ],
+        [
+          "同课题组论文及学校署名",
+          "https://sites.duke.edu/dkusmiip/files/2026/01/Multimodal_Laryngoscopic_Video_Analysis_for_Assisted_Diagnosis_of_Vocal_Fold_Paralysis-1.pdf"
+        ]
+      ],
+      "evidence": "原文页首将美团实习脚注同时标在 Yucong Zhang 和 Cancan Li 两位作者姓名旁，列两人为武汉大学计算机学院作者。武汉大学学生 Yucong Zhang 被李明的公开课题组明确列入受指导人员，同时署香港中文大学（深圳）。李明同篇通讯，独立任职资料明确署名作者 Bo Xiao 供职于美团。"
+    },
+    {
+      "id": "tencent-fatezero-hkust-qifeng-chen",
+      "company": "腾讯",
+      "team": "AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系教师、本篇共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "Chenyang Qi",
+        "2020 年起在港科大攻读博士；2023 年 1 月至 6 月在腾讯 AI Lab 科研实习。",
+        "https://chenyangqiqi.github.io/data/CV_Chenyang_Qi_2024_0203.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生同期简历明确列陈启峰为其港科大博士导师。",
+        "https://chenyangqiqi.github.io/data/CV_Chenyang_Qi_2024_0203.pdf"
+      ],
+      "employee": [
+        "寸晓东 · Xiaodong Cun",
+        "本人任职履历载 2021 至 2024 年任腾讯 AI Lab 研究科学家；本篇共同通讯作者。",
+        "https://vinthony.github.io/academic/"
+      ],
+      "title": "FateZero: Fusing Attentions for Zero-shot Text-based Video Editing",
+      "short": "FateZero",
+      "date": "2023-10",
+      "venue": "ICCV",
+      "area": "多模态与视觉生成",
+      "paper": "https://cqf.io/papers/FateZero_ICCV2023.pdf",
+      "extra": [
+        [
+          "ICCV 论文与署名",
+          "https://openaccess.thecvf.com/content/ICCV2023/html/QI_FateZero_Fusing_Attentions_for_Zero-shot_Text-based_Video_Editing_ICCV_2023_paper.html"
+        ],
+        [
+          "项目与致谢",
+          "https://fate-zero-edit.github.io/"
+        ]
+      ],
+      "evidence": "正式论文首页以星号在 Chenyang Qi 项注明腾讯 AI Lab 实习。本人履历确认同期港科大学籍和博士导师陈启峰；陈启峰与当时在腾讯 AI Lab 任职的寸晓东同列为论文通讯作者。"
+    },
+    {
+      "id": "bytedance-depth-anything-hku-hengshuang-zhao",
+      "company": "字节跳动",
+      "team": "TikTok 研究",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "赵恒爽 · Hengshuang Zhao",
+        "香港大学助理教授，原文通讯作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao"
+      ],
+      "student": [
+        "Lihe Yang",
+        "港大博士在读，公开履历列字节跳动研究实习；论文注明本工作在 TikTok 实习期间完成。",
+        "https://liheyoung.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "港大院系学术新闻和学生本人均具名确认导师赵恒爽。",
+        "https://ai.hku.hk/news-events/news-and-announcements/two-phd-students-awarded-research-grants-and-scholarship"
+      ],
+      "employee": [
+        "Bingyi Kang",
+        "同期字节跳动技术论坛将其介绍为 TikTok 研究科学家，论文标其 TikTok 单位及项目负责人。",
+        "https://developer.volcengine.com/articles/7389112553802039315"
+      ],
+      "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+      "short": "Depth Anything",
+      "date": "2024-06",
+      "venue": "CVPR",
+      "area": "深度估计",
+      "paper": "https://arxiv.org/html/2401.10891",
+      "extra": [
+        [
+          "作者项目页",
+          "https://depth-anything.github.io/"
+        ]
+      ],
+      "evidence": "原论文注明工作在 TikTok 实习期间完成。第一作者 Lihe Yang 的公开学籍、博士导师、字节跳动实习经历均能核实，原文同列导师赵恒爽和字节跳动旗下 TikTok 的在职研究员 Bingyi Kang。"
+    },
+    {
+      "id": "bytedance-depth-anything-v2-hku-hengshuang-zhao",
+      "company": "字节跳动",
+      "team": "TikTok 研究",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "赵恒爽 · Hengshuang Zhao",
+        "香港大学助理教授，原文通讯作者。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao"
+      ],
+      "student": [
+        "Lihe Yang",
+        "港大博士在读，公开履历列字节跳动研究实习；论文注明本工作在 TikTok 实习期间完成。",
+        "https://liheyoung.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "港大院系学术新闻和学生本人均具名确认导师赵恒爽。",
+        "https://ai.hku.hk/news-events/news-and-announcements/two-phd-students-awarded-research-grants-and-scholarship"
+      ],
+      "employee": [
+        "Bingyi Kang",
+        "同期字节跳动技术论坛将其介绍为 TikTok 研究科学家，论文标其 TikTok 单位及项目负责人。",
+        "https://developer.volcengine.com/articles/7389112553802039315"
+      ],
+      "title": "Depth Anything V2",
+      "short": "Depth Anything V2",
+      "date": "2024-12",
+      "venue": "NeurIPS",
+      "area": "深度估计",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/26cfdcd8fe6fd75cc53e92963a656c58-Paper-Conference.pdf",
+      "extra": [
+        [
+          "作者项目页",
+          "https://depth-anything-v2.github.io/"
+        ]
+      ],
+      "evidence": "原论文注明工作在 TikTok 实习期间完成。第一作者 Lihe Yang 的公开学籍、博士导师、字节跳动实习经历均能核实，原文同列导师赵恒爽和字节跳动旗下 TikTok 的在职研究员 Bingyi Kang。"
     }
   ]
 };

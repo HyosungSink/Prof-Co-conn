@@ -1254,7 +1254,8 @@ const facultyPaperAudits = {
       "https://junzhan2000.github.io/",
       "https://ngc7292.github.io/",
       "https://ngc7292.github.io/en/",
-      "https://yinzhangyue.github.io/"
+      "https://yinzhangyue.github.io/",
+      "https://zhiyuanzeng.github.io/"
     ],
     "papers": [
       {
@@ -1280,6 +1281,12 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2023.ccl-1.53.pdf",
         "outcome": "lead",
         "note": "复旦共同导师与华为正式署名已核对；尚未找到一名在读同篇学生对此项目的华为实研材料。"
+      },
+      {
+        "title": "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining",
+        "url": "https://arxiv.org/pdf/2603.11103",
+        "outcome": "confirmed",
+        "note": "曾致远为复旦与字节 Seed 联培在读博士；本人主页把此篇标为 SEED 项目，对应其在 Seed Edge 的长上下文合成数据实习方向。原文首页将其列为具名核心贡献者、署复旦及字节 Seed，并列两位导师。"
       }
     ],
     "note": "按学生个人履历与作者发表记录抽取并核对部分论文；全期题录仍待继续。"
@@ -1353,7 +1360,15 @@ const facultyPaperAudits = {
       "https://i.cs.hku.hk/~hszhao/lab.html",
       "https://shenyujun.github.io/",
       "https://arxiv.org/html/2601.11096",
-      "https://arxiv.org/html/2508.09454"
+      "https://arxiv.org/html/2508.09454",
+      "https://arxiv.org/html/2401.10891",
+      "https://liheyoung.github.io/",
+      "https://ai.hku.hk/news-events/news-and-announcements/two-phd-students-awarded-research-grants-and-scholarship",
+      "https://developer.volcengine.com/articles/7389112553802039315",
+      "https://depth-anything.github.io/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/26cfdcd8fe6fd75cc53e92963a656c58-Paper-Conference.pdf",
+      "https://depth-anything-v2.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.pdf"
     ],
     "papers": [
       {
@@ -1421,6 +1436,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2508.09454",
         "outcome": "lead",
         "note": "港大师生和蚂蚁员工同篇署名，但未见本项目具名实习说明及同期跨校指导记录；低版本也不能替代扩展论文的证据。"
+      },
+      {
+        "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+        "url": "https://arxiv.org/html/2401.10891",
+        "outcome": "confirmed",
+        "note": "原论文注明工作在 TikTok 实习期间完成。第一作者 Lihe Yang 的公开学籍、博士导师、字节跳动实习经历均能核实，原文同列导师赵恒爽和字节跳动旗下 TikTok 的在职研究员 Bingyi Kang。"
+      },
+      {
+        "title": "Depth Anything V2",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/26cfdcd8fe6fd75cc53e92963a656c58-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "原论文注明工作在 TikTok 实习期间完成。第一作者 Lihe Yang 的公开学籍、博士导师、字节跳动实习经历均能核实，原文同列导师赵恒爽和字节跳动旗下 TikTok 的在职研究员 Bingyi Kang。"
+      },
+      {
+        "title": "Video Depth Anything: Consistent Depth Estimation for Super-Long Videos",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "这篇后续拓展并未署名赵恒爽或 Lihe Yang，独立于 Depth Anything 两篇。"
       }
     ]
   },
@@ -1741,6 +1774,12 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf/3ac83a695e7603d731a2e40278edaf03209acf13.pdf",
         "outcome": "confirmed",
         "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "V0: A Generalist Value Model for Any Policy at State Zero",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hu/zhang26hu.pdf",
+        "outcome": "confirmed",
+        "note": "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。"
       }
     ],
     "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
@@ -1785,6 +1824,12 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf/3ac83a695e7603d731a2e40278edaf03209acf13.pdf",
         "outcome": "confirmed",
         "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "V0: A Generalist Value Model for Any Policy at State Zero",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26hu/zhang26hu.pdf",
+        "outcome": "confirmed",
+        "note": "张逸凯为南京大学博士生，具名列出 2025 年 12 月至 2026 年 6 月美团 LongCat 实习并由顾奇指导；其主页列此项为本人主导的价值模型。项目在该实习期发布，原文有 LongCat 标识，第一作者署南京大学和美团，同一实习导师顾奇为美团侧通讯作者。"
       }
     ],
     "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
@@ -1840,7 +1885,17 @@ const facultyPaperAudits = {
       "https://shenyujun.github.io/",
       "https://iccv2023.thecvf.com/iccv2023.main.conference.program-38--MTE.php",
       "https://arxiv.org/html/2603.21872",
-      "https://arxiv.org/html/2309.13956"
+      "https://arxiv.org/html/2309.13956",
+      "https://arxiv.org/abs/2603.21872",
+      "https://arxiv.org/abs/2412.03603",
+      "https://github.com/Tencent-Hunyuan/SAGE-GRPO",
+      "https://dungeonmassster.github.io/SAGE-GRPO-Page/",
+      "https://github.com/Tencent-Hunyuan/OmniWeaving",
+      "https://cqf.io/papers/FateZero_ICCV2023.pdf",
+      "https://chenyangqiqi.github.io/data/CV_Chenyang_Qi_2024_0203.pdf",
+      "https://vinthony.github.io/academic/",
+      "https://openaccess.thecvf.com/content/ICCV2023/html/QI_FateZero_Fusing_Attentions_for_Zero-shot_Text-based_Video_Editing_ICCV_2023_paper.html",
+      "https://fate-zero-edit.github.io/"
     ],
     "papers": [
       {
@@ -1863,9 +1918,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "Manifold-Aware Exploration for Reinforcement Learning in Video Generation",
-        "url": "https://arxiv.org/html/2603.21872",
-        "outcome": "lead",
-        "note": "腾讯研究员岳武参与，第一作者在港科大读博且有混元实习经历。该篇未见项目具名实习说明，需要企业贡献记录确认。"
+        "url": "https://arxiv.org/abs/2603.21872",
+        "outcome": "confirmed",
+        "note": "腾讯混元团队正式发布项目，在署名旁说明此工作于混元实习期间完成。共同第一作者中，郑名哲明确记录为混元视频模型实习生，在读学校与在校导师陈启峰由本人履历确认；同篇还有混元正式研究人员 Weijie Kong。"
       },
       {
         "title": "In-Domain GAN Inversion for Faithful Reconstruction and Editability",
@@ -1878,6 +1933,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2511.18870",
         "outcome": "no-evidence",
         "note": "郑名哲的个人介绍及报告贡献章节均具名，但陈启峰和 Harry Yang 未见同篇署名。"
+      },
+      {
+        "title": "FateZero: Fusing Attentions for Zero-shot Text-based Video Editing",
+        "url": "https://cqf.io/papers/FateZero_ICCV2023.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文首页以星号在 Chenyang Qi 项注明腾讯 AI Lab 实习。本人履历确认同期港科大学籍和博士导师陈启峰；陈启峰与当时在腾讯 AI Lab 任职的寸晓东同列为论文通讯作者。"
       }
     ]
   },
@@ -2038,6 +2099,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2512.17306",
         "outcome": "confirmed",
         "note": "原文具名实习脚注、学生校方履历所列项目和导师及企业作者的任职吻合。"
+      },
+      {
+        "title": "Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization",
+        "url": "https://arxiv.org/pdf/2602.13653",
+        "outcome": "confirmed",
+        "note": "王一博为南京大学在读博士，原文第一作者脚注明确在阿里巴巴实习期间完成该 Ovis 项目。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -2084,7 +2151,7 @@ const facultyPaperAudits = {
         "title": "Opportunistic Osteoporosis Diagnosis via Texture-Preserving Self-Supervision, Mixture of Experts and Multi-Task Integration",
         "url": "https://papers.miccai.org/miccai-2025/paper/0082_paper.pdf",
         "outcome": "lead",
-        "note": "论文致谢阿里巴巴研究实习项目，已确认黄家兴的校内导师及阿里巴巴另一项研究；仍需核对他参与该项企业研究的直接材料。"
+        "note": "本论文致谢阿里研究实习计划、同期另一篇黄家兴确署达摩院；仍缺公开资料把黄家兴本人同这篇的实习绑定。"
       },
       {
         "title": "Mamba-3D as Masked Autoencoders for Accurate and Data-Efficient Analysis of Medical Ultrasound Videos",
@@ -2289,5 +2356,165 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对部分武大—蚂蚁遥感成果与王宇在读期间的企业项目。此前未核对的论文仍需逐篇检查。"
+  },
+  "QePM4u8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://saids.ustc.edu.cn/2022/0317/c36359a549216/page.htm",
+      "https://whi497.github.io/leaf.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
+        "url": "https://arxiv.org/pdf/2607.25308",
+        "outcome": "confirmed",
+        "note": "Ziang Ye 的个人学术主页将 CAST 具名列于 2026 年起在美团 LongCat 的实习成果，并说明其研究内容；发表时在中国科学技术大学读研。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "UT3NzFAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/shenyongliang",
+      "https://lll6gg.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Self-Distilled Agentic Reinforcement Learning",
+        "url": "https://arxiv.org/pdf/2605.15155",
+        "outcome": "confirmed",
+        "note": "Zhengxi Lu 为浙江大学在读博士，原文第一作者脚注明确该项目在美团实习期间完成；其主页列 2026 年 3 月起的美团 LongCat 实习及实习导师顾奇。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "-xQ-C1sAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2510.01546",
+      "https://csuhan.com/attaches/CV_Jiaming-Han.pdf",
+      "https://csuhan.com/",
+      "https://xyue.io/",
+      "https://haochen-rye.github.io/images/hao_cv.pdf",
+      "https://arxiv.org/pdf/2510.01546",
+      "https://hywang66.github.io/bridge/",
+      "https://arxiv.org/html/2506.18898",
+      "https://huggingface.co/ByteDance-Seed/Tar-1.5B",
+      "https://arxiv.org/pdf/2602.14041",
+      "https://bitdance.csuhan.com/",
+      "https://arxiv.org/pdf/2602.14178",
+      "https://shallowdream204.github.io/",
+      "https://arxiv.org/abs/2510.10518",
+      "https://qunzhongwang.github.io/cv/Qunzhong_WANG_CV_1123.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Growing Visual Generative Capacity for Pre-Trained MLLMs",
+        "url": "https://arxiv.org/html/2510.01546",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "title": "Vision as a Dialect: Unifying Visual Understanding and Generation via Text-Aligned Representations",
+        "url": "https://arxiv.org/html/2506.18898",
+        "outcome": "existing",
+        "note": "Tar（Vision as a Dialect）已在关系库。此次交叉核对该生港中文学籍、字节跳动实习与企业项目。"
+      },
+      {
+        "title": "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+        "url": "https://arxiv.org/pdf/2602.14041",
+        "outcome": "lead",
+        "note": "论文确认两位港中文共同一作双署字节跳动，岳翔宇通讯，具任职时间的 Xuefeng Hu 同篇；Jiaming Han 最新主页仍处在实习区间，但简历截止时间不同，暂未看到指名项目实习或详细贡献说明。"
+      },
+      {
+        "title": "UniWeTok: An Unified Binary Tokenizer with Codebook Size 2^128 for Unified Multimodal Large Language Model",
+        "url": "https://arxiv.org/pdf/2602.14178",
+        "outcome": "lead",
+        "note": "岳翔宇、Jiaming Han、Yuang Ai 及字节跳动员工 Zhenheng Yang 都列名。学生履历可印证同期企业经历，原文未确认哪个学生是在企业完成此项目，尚待项目贡献记录。"
+      },
+      {
+        "title": "VR-Thinker: Boosting Video Reward Models through Thinking-with-Image Reasoning",
+        "url": "https://arxiv.org/abs/2510.10518",
+        "outcome": "lead",
+        "note": "Qunzhong Wang 在读港中文并明确表示在可灵做视频生成后训练和奖励模型研究，但履历只提港中文 MMLab 合作交流，未举明岳翔宇指导；继续查其他同篇学生。"
+      }
+    ]
+  },
+  "OuSPv-AAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2603.00586",
+      "https://guoqincode.github.io/",
+      "https://tech.meituan.com/2026/06/29/ICML-2026.html",
+      "https://arxiv.org/html/2606.30332",
+      "https://arxiv.org/html/2507.02713"
+    ],
+    "papers": [
+      {
+        "title": "WildActor: Unconstrained Identity-Preserving Video Generation",
+        "url": "https://arxiv.org/html/2603.00586",
+        "outcome": "existing",
+        "note": "已入库；原文及美团技术团队报道证实该项目在美团完成，第一作者本人确认导师徐旦及 2025 至 2026 年美团实习。"
+      },
+      {
+        "title": "UniGP: Taming Diffusion Transformer for Prior-Preserved Unified Generation and Perception",
+        "url": "https://arxiv.org/html/2606.30332",
+        "outcome": "lead",
+        "note": "Qin Guo 和徐旦具名指导关系明确，部分合著者在阿里巴巴，但论文没有指明 Qin Guo 此次企业参与，且他在此研究期附近亦有美团经历。"
+      },
+      {
+        "title": "UniMC: Taming Diffusion Transformer for Unified Keypoint-Guided Multi-Class Image Generation",
+        "url": "https://arxiv.org/html/2507.02713",
+        "outcome": "lead",
+        "note": "同篇可见腾讯署名，Qin Guo 在港科大读博前后学籍及学校指导需要与项目实际进行日期核对，未找到此次腾讯实习证据。"
+      }
+    ]
+  },
+  "zp2Kz44AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/pdf/2610.36713",
+      "https://loop.frontiersin.org/people/3043975/publications",
+      "https://sites.duke.edu/dkusmiip/publications/",
+      "https://sai.cuhk.edu.cn/teacher/258",
+      "https://www.linkedin.com/in/bo-xiao",
+      "https://arxiv.org/html/2610.36713",
+      "https://theorg.com/org/meituan/person/bo-xiao",
+      "https://sites.duke.edu/dkusmiip/files/2026/01/Multimodal_Laryngoscopic_Video_Analysis_for_Assisted_Diagnosis_of_Vocal_Fold_Paralysis-1.pdf",
+      "https://arxiv.org/abs/2607.10596",
+      "https://arxiv.org/abs/2509.23833",
+      "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=8862"
+    ],
+    "papers": [
+      {
+        "title": "From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents",
+        "url": "https://arxiv.org/pdf/2610.36713",
+        "outcome": "confirmed",
+        "note": "原文页首将美团实习脚注同时标在 Yucong Zhang 和 Cancan Li 两位作者姓名旁，列两人为武汉大学计算机学院作者。武汉大学学生 Yucong Zhang 被李明的公开课题组明确列入受指导人员，同时署香港中文大学（深圳）。李明同篇通讯，独立任职资料明确署名作者 Bo Xiao 供职于美团。"
+      },
+      {
+        "title": "ECHOv2: Two-Level Band-Splitting Representation Learning for Anomalous Sound Detection",
+        "url": "https://arxiv.org/abs/2607.10596",
+        "outcome": "no-evidence",
+        "note": "与同一位受指导学生共同发表，但署名没有调查范围内企业的人员，也没有在企业开展此篇研究的据证。"
+      },
+      {
+        "title": "AISHELL6-Whisper: A Chinese Mandarin Audio-Visual Whisper Speech Dataset with Speech Recognition Baselines",
+        "url": "https://arxiv.org/abs/2509.23833",
+        "outcome": "no-evidence",
+        "note": "Cancan Li 为课题组指导的作者，企业合著者所属 AISHELL 与 OPPO 不在调查范围内。"
+      }
+    ]
   }
 };
