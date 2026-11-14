@@ -43946,6 +43946,256 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2610.18284"
+    },
+    {
+      "company": "腾讯",
+      "team": "微信事业群 · 测试开发",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "谢涛 · Tao Xie",
+        "北京大学计算机学院讲席教授；本篇以北大科研单位署名。",
+        "https://cs.pku.edu.cn/info/1234/2160.htm"
+      ],
+      "employee": [
+        "邓跃堂 · Yuetang Deng",
+        "腾讯微信团队研究作者；学生同期履历列为微信实习的企业导师。",
+        "https://conf.researchr.org/profile/yuetangdeng"
+      ],
+      "student": [
+        "Junhao Hu",
+        "2022 年 9 月起在北京大学攻读计算机博士。本人简历记载 2022 年 3 月至 2024 年 6 月在腾讯微信事业群参与研究。",
+        "https://derekhjh.com/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "教师公开学生名单与学生履历均载 Junhao Hu 2022 年 9 月入学，实际导师为谢涛。",
+        "https://taoxiease.github.io/students.html"
+      ],
+      "area": "AI 辅助软件工程",
+      "id": "tencent-wechat-predicting-compilation-pku-xie",
+      "title": "Predicting Compilation Resources for Adaptive Build in an Industrial Setting",
+      "short": "PCRLINEAR",
+      "date": "2023-09-12",
+      "venue": "ASE",
+      "paper": "https://doi.org/10.1109/ASE56229.2023.00128",
+      "evidence": "学生履历“WXG, Tencent”逐项列本人主导自适应分布式构建项目并说明成果发表于 ASE 2023；题名、CV 书目和正式会议同篇对应。企业导师邓跃堂和北大博士导师谢涛同篇署名。",
+      "paperId": "doi:10.1109/ase56229.2023.00128",
+      "extra": [
+        [
+          "正式会议议程",
+          "https://conf.researchr.org/details/ase-2023/ase-2023-industry-showcase-papers/2/Predicting-Compilation-Resources-for-Adaptive-Build-in-an-Industrial-Setting"
+        ],
+        [
+          "学生个人页核对导师与学籍",
+          "https://derekhjh.com/"
+        ],
+        [
+          "ASE 2023 正式会议报告日程",
+          "https://conf.researchr.org/details/ase-2023/ase-2023-industry-showcase-papers/2/Predicting-Compilation-Resources-for-Adaptive-Build-in-an-Industrial-Setting"
+        ]
+      ],
+      "year": 2023
+    },
+    {
+      "company": "腾讯",
+      "team": "微信事业群 · 测试开发",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "谢涛 · Tao Xie",
+        "北京大学计算机学院讲席教授；本篇以北大科研单位署名。",
+        "https://cs.pku.edu.cn/info/1234/2160.htm"
+      ],
+      "employee": [
+        "邓跃堂 · Yuetang Deng",
+        "腾讯微信团队研究作者；学生同期履历列为微信实习的企业导师。",
+        "https://conf.researchr.org/profile/yuetangdeng"
+      ],
+      "student": [
+        "Junhao Hu",
+        "2022 年 9 月起在北京大学攻读计算机博士。本人简历记载 2022 年 3 月至 2024 年 6 月在腾讯微信事业群参与研究。",
+        "https://derekhjh.com/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "教师公开学生名单与学生履历均载 Junhao Hu 2022 年 9 月入学，实际导师为谢涛。",
+        "https://taoxiease.github.io/students.html"
+      ],
+      "area": "AI 辅助软件工程",
+      "id": "tencent-wechat-practitioner-code-completion-pku-xie",
+      "title": "How Practitioners Expect Code Completion?",
+      "short": "Practitioner Code Completion",
+      "date": "2023-01-10",
+      "venue": "ESEC/FSE",
+      "paper": "https://doi.org/10.1145/3611643.3616280",
+      "evidence": "学生履历“WXG, Tencent”列本人共同主导 AI 辅助代码生成，并具体注明成果发表于 ESEC/FSE 2023；同一简历对应书目列此文及其对实验和写作的贡献。企业导师邓跃堂与北大博士导师谢涛均在正式同篇署名。",
+      "paperId": "arxiv:2301.03846",
+      "extra": [
+        [
+          "正式会议议程",
+          "https://2023.esec-fse.org/details/fse-2023-research-papers/39/How-Practitioners-Expect-Code-Completion-"
+        ],
+        [
+          "学生个人页核对导师与学籍",
+          "https://derekhjh.com/"
+        ],
+        [
+          "同一研究的首发预印本",
+          "https://arxiv.org/abs/2301.03846"
+        ]
+      ],
+      "year": 2023
+    },
+    {
+      "company": "华为",
+      "team": "华为云 · MaaS",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "谢涛 · Tao Xie",
+        "北京大学计算机学院讲席教授；本篇以北大科研单位署名。",
+        "https://cs.pku.edu.cn/info/1234/2160.htm"
+      ],
+      "employee": [
+        "单一舟 · Yizhou Shan",
+        "本人履历列 2022 年起任华为云研究员；论文期间为华为云 MaaS 首席架构师，正式版同篇署华为云。",
+        "https://lastweek.io/pubs/Yizhou_Shan_CV.pdf"
+      ],
+      "student": [
+        "Junhao Hu",
+        "2022 年 9 月起攻读北大博士，2024 年 7 月至 2025 年 8 月在华为云参加研究，个人履历逐项目列出成果。",
+        "https://derekhjh.com/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "教师公开学生名单与学生履历均载 Junhao Hu 2022 年 9 月入学，实际导师为谢涛。",
+        "https://taoxiease.github.io/students.html"
+      ],
+      "area": "大模型推理与系统",
+      "id": "huawei-cloud-deepserve-pku-xie",
+      "title": "DeepServe: Serverless Large Language Model Serving at Scale",
+      "short": "DeepServe",
+      "date": "2025-01-24",
+      "venue": "USENIX ATC",
+      "paper": "https://www.usenix.org/system/files/atc25-hu-junhao.pdf",
+      "paperId": "arxiv:2501.14417",
+      "evidence": "ATC 正式版首页具名说明北大学生 Junhao Hu 在华为云实习时完成本项工作，谢涛为同篇北大作者，单一舟为华为云共同通讯。首稿 DeepFlow 与正式版 DeepServe 为同一研究。",
+      "extra": [
+        [
+          "学生本人项目经历",
+          "https://derekhjh.com/workexperience/"
+        ],
+        [
+          "学生个人页核对导师与学籍",
+          "https://derekhjh.com/"
+        ],
+        [
+          "同一研究的首发预印本",
+          "https://arxiv.org/abs/2501.14417"
+        ]
+      ],
+      "year": 2025
+    },
+    {
+      "company": "华为",
+      "team": "华为云 · MaaS",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "谢涛 · Tao Xie",
+        "北京大学计算机学院讲席教授；本篇以北大科研单位署名。",
+        "https://cs.pku.edu.cn/info/1234/2160.htm"
+      ],
+      "employee": [
+        "单一舟 · Yizhou Shan",
+        "本人履历列 2022 年起任华为云研究员；论文期间为华为云 MaaS 首席架构师，正式版同篇署华为云。",
+        "https://lastweek.io/pubs/Yizhou_Shan_CV.pdf"
+      ],
+      "student": [
+        "Junhao Hu",
+        "2022 年 9 月起攻读北大博士，2024 年 7 月至 2025 年 8 月在华为云参加研究，个人履历逐项目列出成果。",
+        "https://derekhjh.com/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "教师公开学生名单与学生履历均载 Junhao Hu 2022 年 9 月入学，实际导师为谢涛。",
+        "https://taoxiease.github.io/students.html"
+      ],
+      "area": "大模型推理与系统",
+      "id": "huawei-cloud-epic-pku-xie",
+      "title": "EPIC: Efficient Position-Independent Caching for Serving Large Language Models",
+      "short": "EPIC",
+      "date": "2024-10-20",
+      "venue": "ICML",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/hu25j/hu25j.pdf",
+      "paperId": "arxiv:2410.15332",
+      "evidence": "ICML 正式版首页具名脚注标明北大博士生 Junhao Hu 在华为云实习期间完成。谢涛和华为云单一舟同篇列通讯作者。作者首发 EPIC 含早期标题 Context Caching。",
+      "extra": [
+        [
+          "学生本人项目经历",
+          "https://derekhjh.com/workexperience/"
+        ],
+        [
+          "学生个人页核对导师与学籍",
+          "https://derekhjh.com/"
+        ],
+        [
+          "同一研究的首发预印本",
+          "https://arxiv.org/abs/2410.15332"
+        ]
+      ],
+      "year": 2024
+    },
+    {
+      "company": "华为",
+      "team": "华为云 · MaaS",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "谢涛 · Tao Xie",
+        "北京大学计算机学院讲席教授；本篇以北大科研单位署名。",
+        "https://cs.pku.edu.cn/info/1234/2160.htm"
+      ],
+      "employee": [
+        "单一舟 · Yizhou Shan",
+        "本人履历列 2022 年起任华为云研究员；论文期间为华为云 MaaS 首席架构师，正式版同篇署华为云。",
+        "https://lastweek.io/pubs/Yizhou_Shan_CV.pdf"
+      ],
+      "student": [
+        "Junhao Hu",
+        "2022 年 9 月起攻读北大博士，2024 年 7 月至 2025 年 8 月在华为云参加研究，个人履历逐项目列出成果。",
+        "https://derekhjh.com/files/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "教师公开学生名单与学生履历均载 Junhao Hu 2022 年 9 月入学，实际导师为谢涛。",
+        "https://taoxiease.github.io/students.html"
+      ],
+      "area": "大模型推理与系统",
+      "id": "huawei-cloud-raas-pku-xie",
+      "title": "RaaS: Reasoning-Aware Attention Sparsity for Efficient LLM Reasoning",
+      "short": "RaaS",
+      "date": "2025-02-16",
+      "venue": "Findings of ACL",
+      "paper": "https://aclanthology.org/2025.findings-acl.131.pdf",
+      "paperId": "arxiv:2502.11147",
+      "evidence": "ACL 正式版首页具名脚注确认北大博士生 Junhao Hu 在华为实习期间完成，学生履历列为其华为云项目。谢涛与华为云单一舟同篇。首稿与正式版合并。",
+      "extra": [
+        [
+          "学生本人项目经历",
+          "https://derekhjh.com/workexperience/"
+        ],
+        [
+          "学生个人页核对导师与学籍",
+          "https://derekhjh.com/"
+        ],
+        [
+          "同一研究的首发预印本",
+          "https://arxiv.org/abs/2502.11147"
+        ]
+      ],
+      "year": 2025
     }
   ]
 };

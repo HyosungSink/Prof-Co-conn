@@ -48772,5 +48772,85 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对作者公开书目的首批论文与首发版本，继续按公开书目逐项核对。"
+  },
+  "DhhH9J4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1084/1713.htm",
+      "https://derekhjh.com/",
+      "https://derekhjh.com/files/cv.pdf",
+      "https://derekhjh.com/workexperience/",
+      "https://derekhjh.com/publications/",
+      "https://lastweek.io/pubs/Yizhou_Shan_CV.pdf",
+      "https://taoxiease.github.io/students.html",
+      "https://taoxiease.github.io/publications.html",
+      "https://cs.pku.edu.cn/info/1234/2160.htm",
+      "https://doi.org/10.1109/ASE56229.2023.00128",
+      "https://doi.org/10.1145/3611643.3616280",
+      "https://www.usenix.org/system/files/atc25-hu-junhao.pdf",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/hu25j/hu25j.pdf",
+      "https://aclanthology.org/2025.findings-acl.131.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Predicting Compilation Resources for Adaptive Build in an Industrial Setting",
+        "url": "https://doi.org/10.1109/ASE56229.2023.00128",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "学生履历“WXG, Tencent”逐项列本人主导自适应分布式构建项目并说明成果发表于 ASE 2023；题名、CV 书目和正式会议同篇对应。企业导师邓跃堂和北大博士导师谢涛同篇署名。"
+      },
+      {
+        "title": "How Practitioners Expect Code Completion?",
+        "url": "https://doi.org/10.1145/3611643.3616280",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "学生履历“WXG, Tencent”列本人共同主导 AI 辅助代码生成，并具体注明成果发表于 ESEC/FSE 2023；同一简历对应书目列此文及其对实验和写作的贡献。企业导师邓跃堂与北大博士导师谢涛均在正式同篇署名。"
+      },
+      {
+        "title": "DeepServe: Serverless Large Language Model Serving at Scale",
+        "url": "https://www.usenix.org/system/files/atc25-hu-junhao.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ATC 正式版首页具名说明北大学生 Junhao Hu 在华为云实习时完成本项工作，谢涛为同篇北大作者，单一舟为华为云共同通讯。首稿 DeepFlow 与正式版 DeepServe 为同一研究。"
+      },
+      {
+        "title": "EPIC: Efficient Position-Independent Caching for Serving Large Language Models",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/hu25j/hu25j.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "ICML 正式版首页具名脚注标明北大博士生 Junhao Hu 在华为云实习期间完成。谢涛和华为云单一舟同篇列通讯作者。作者首发 EPIC 含早期标题 Context Caching。"
+      },
+      {
+        "title": "RaaS: Reasoning-Aware Attention Sparsity for Efficient LLM Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.131.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ACL 正式版首页具名脚注确认北大博士生 Junhao Hu 在华为实习期间完成，学生履历列为其华为云项目。谢涛与华为云单一舟同篇。首稿与正式版合并。"
+      },
+      {
+        "title": "Lil: Less is Less When Applying Post-Training Sparse-Attention Algorithms in Long-Decode Stage",
+        "url": "https://aclanthology.org/2026.findings-acl.91/",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ACL 全文列谢涛、Junhao Hu 和腾讯的 Mingtao Xu / Ting Peng，资助包含腾讯。作者的微信实习与混元经历已知，此文暂缺实习项目对应证据，不能以企业资助代替具名实研。"
+      },
+      {
+        "title": "Tessera: Unlocking Heterogeneous GPUs through Kernel-Granularity Disaggregation",
+        "url": "https://arxiv.org/abs/2604.10180",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "公开版列北大作者与企业作者；学生履历所列的华为云实习结束于 2025 年 8 月，且本篇有作者署字节，暂缺学生为哪家企业完成同篇研究的直接证据。"
+      },
+      {
+        "title": "MemServe: Context Caching for Disaggregated LLM Serving with Elastic Memory Pool",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2406.17565",
+        "outcome": "lead",
+        "note": "学生履历列此成果并列华为云同篇研究团队，但首稿 2024 年 6 月公开，早于履历所列 7 月开始的华为云实习；具体参与身份仍待补核。"
+      }
+    ],
+    "note": "先逐篇核查北大谢涛指导的 Junhao Hu 在各企业团队的合作，仍须继续谢涛全部书目。"
   }
 };
