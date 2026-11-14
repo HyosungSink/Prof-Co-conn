@@ -887,7 +887,7 @@ const facultyPaperAudits = {
   "SQ9UbHIAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://arxiv.org/html/2611.01129",
       "https://zhuohangjiang.com/",
@@ -1085,7 +1085,50 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/218/7410.html",
       "https://orcid.org/0000-0002-4049-1233",
       "https://research.polyu.edu.hk/en/persons/wenqi-fan/",
-      "https://aclanthology.org/people/wenqi-fan/"
+      "https://aclanthology.org/people/wenqi-fan/",
+      "https://doi.org/10.1145/3805712.3809536",
+      "https://intrebid.cs.hust.edu.cn/en/",
+      "https://link.springer.com/chapter/10.1007/978-981-92-0369-7_32#author-information",
+      "https://github.com/cskyan/CoG",
+      "https://www2026.thewebconf.org/program/full-schedule.html",
+      "https://cnais.sem.tsinghua.edu.cn/info/1073/1883.htm",
+      "https://doi.org/10.1109/TKDE.2026.3718940",
+      "https://pangjing-wu.github.io/",
+      "https://research.polyu.edu.hk/en/publications/temporal-knowledge-consistency-for-spammer-groups-detection-via-c/",
+      "https://github.com/NeenLee/TKCCL",
+      "https://link.springer.com/chapter/10.1007/978-981-96-0570-5_13",
+      "https://arxiv.org/abs/2507.14182",
+      "https://ssrn.com/abstract=5362066",
+      "https://doi.org/10.1109/TKDE.2025.3599265",
+      "https://arxiv.org/abs/2406.10450",
+      "https://doi.org/10.1109/ICDE65448.2025.00341",
+      "https://wenqifan03.github.io/tutorials.html",
+      "https://biglemon-ning.github.io/CV.pdf",
+      "https://doi.org/10.1109/ICCT62411.2024.10946583",
+      "https://icct2024.com/icct2024-prog.pdf",
+      "https://doi.org/10.1145/3589335.3651525",
+      "https://www.sigweb.sigweb.hosting.acm.org/toc/www24a.html",
+      "https://jglobal.jst.go.jp/en/public/202402284335610578",
+      "https://arxiv.org/abs/2408.01715",
+      "https://ming429778.github.io/",
+      "https://storage.googleapis.com/lacuna-pdfs-lunar-airport-385023/pdfs/ac/eb/acebe2cd67b04c2d0d60a1c9d6e59aea563a24d4070d7aa57f0ca7881d6f4b04.pdf",
+      "https://doi.org/10.1109/TIFS.2023.3327876",
+      "https://arxiv.org/abs/2211.11534",
+      "https://theses.lib.polyu.edu.hk/bitstream/200/13739/3/8180.pdf",
+      "https://scholars.cityu.edu.hk/en/publications/adversarial-attacks-for-black-box-recommender-systems-via-copying/",
+      "https://doi.org/10.1109/TKDE.2023.3272652",
+      "https://doi.org/10.1145/3604915.3608779",
+      "https://recsys.acm.org/recsys23/accepted-contributions/",
+      "https://doi.org/10.1145/3580305.3599575",
+      "https://advanced-recommender-systems.github.io/trustworthy-recommendations/doc/2023-KDD-TRec1.pdf",
+      "https://www.preprints.org/manuscript/202608.1414",
+      "https://www.yindawei.com/",
+      "https://arxiv.org/abs/2209.10117",
+      "https://wenqifan03.github.io/papers/2022-TRec.pdf",
+      "https://jiani-huang.github.io/",
+      "https://advanced-recommender-systems.github.io/AutoML-Recommendations/doc/WSDM23-Tutorial-AutoML%20for%20Deep%20Recommender%20Systems.pdf",
+      "https://openreview.net/forum?id=8Ur2xmuw7w",
+      "https://arxiv.org/abs/2310.00793"
     ],
     "papers": [
       {
@@ -1148,7 +1191,7 @@ const facultyPaperAudits = {
         "title": "An Exact Junction-Tree Extended Formulation for Optimal Classification Trees",
         "url": "https://arxiv.org/html/2609.24741v1",
         "outcome": "no-evidence",
-        "note": "原文是延博文、范文琦等的分类树整数规划学术项目；未找到范围内公司参与同篇的任职或学生项目证据。",
+        "note": "原文在港理工署名栏列 C. Tu、范文琦、R. Wang、S. Cheng 等共同完成的分类树建模研究。未见范围内公司员工或同篇学生企业研究。",
         "year": 2026
       },
       {
@@ -1218,14 +1261,14 @@ const facultyPaperAudits = {
         "title": "Diffusion Generative Recommendation with Continuous Tokens",
         "url": "https://doi.org/10.1145/3774904.3792428",
         "outcome": "no-evidence",
-        "note": "核对作者署名（含Haohao Qu、Shanru Lin）、正式出版页公开的单位或论文摘要。未查到十四家公司员工与具名在读学生同篇开展企业研究的证据。",
+        "note": "WWW 2026 论文和 2025 年同名预印本是 ContRec 一项工作。正式版和会议排程显示同一港理工作者组，首稿早于邱浩浩的腾讯履历，未发现同篇范围内企业角色。",
         "year": 2026
       },
       {
         "title": "Diffusion Language Model for Recommendation",
-        "url": "https://arxiv.org/abs/2607.21519v1",
+        "url": "https://arxiv.org/html/2607.21519v1",
         "outcome": "lead",
-        "note": "论文明确署名六位腾讯作者。刘成毅个人主页明确范文琦、李青是校内导师，但未核到当时在腾讯开展本 DLMRec 项目的具名实习或联培证据。",
+        "note": "原文明确署名六位腾讯作者。第一作者 Chengyi Liu 的主页写明范文琦和李青为校内导师，但未找到同篇企业实习说明；另一同姓作者 Yinghao Liu 本人的上海大学任职资料显示他是教师，不能代作在读学生。",
         "year": 2026
       },
       {
@@ -1428,7 +1471,7 @@ const facultyPaperAudits = {
         "title": "Towards Next-Generation Recommender Systems: A Benchmark for Personalized Recommendation Assistant with LLMs",
         "url": "https://doi.org/10.1145/3773966.3777954",
         "outcome": "lead",
-        "note": "原文列尹大伟、王帅强为百度作者，王士杰简历证实曾在二人所在团队实习，但简历点名的该项企业项目是 K-RagRec。PRS Bench 首发晚于该履历终止月，尚未有两位学生任一人在百度完成本篇研究的证据。",
+        "note": "RecBench+ 正式论文列百度尹大伟、王帅强。王士杰在简历把 K-RagRec 精确列为百度实习项目，并在另外的成果章节列 RecBench+；后者公开首稿也晚于该实习的结束月。第一作者 Jiani Huang 的主页只列李青为博士导师，也未将 RecBench+ 标为百度实习成果。",
         "year": 2026
       },
       {
@@ -1489,10 +1532,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Causal Behavior Pattern Inference for News Recommendation Through Multi-interest Matching",
-        "url": "https://doi.org/10.1007/978-981-96-0570-5_13",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-0570-5_13",
         "outcome": "no-evidence",
-        "note": "核对作者署名（含Xingming Chen、Wenqi Fan）、正式出版页公开的单位或论文摘要。未查到十四家公司员工与具名在读学生同篇开展企业研究的证据。",
-        "year": 2024
+        "note": "2024 年举行 WISE，修订论文集出版按书目列 2025；查出版社作者信息为陈星明、范文琦、李青，未发现同篇范围内公司人员或学生企业项目。",
+        "year": 2025
       },
       {
         "title": "CheatAgent: Attacking LLM-Empowered Recommender Systems via LLM Agent",
@@ -1734,10 +1777,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Joint Universal Adversarial Perturbations with Interpretations",
-        "url": "https://arxiv.org/abs/2408.01715v1",
+        "url": "https://arxiv.org/abs/2408.01715",
         "outcome": "lead",
-        "note": "论文作者单位注明 Luning Wang 为华为香港研究中心；未找到具名在读学生的同篇实习脚注或个人材料把本研究与其同期华为工作对应。",
-        "year": 2024
+        "note": "2024 年预印本列华为香港研究中心 Luning Wang 和第一作者梁博宁；本人简历、学术主页和作者书目注明 2026 年 PAKDD 发表与校方共同导师，未见与此篇对应的学生在华为开展企业科研。",
+        "year": 2026
       },
       {
         "title": "Large Language Models for Graph Learning",
@@ -1757,7 +1800,7 @@ const facultyPaperAudits = {
         "title": "LinRec: Linear Attention Mechanism for Long-term Sequential Recommender Systems",
         "url": "https://doi.org/10.1145/3539618.3591717",
         "outcome": "lead",
-        "note": "SIGIR 正式会议目录及出版社原稿列两位蚂蚁集团作者 Liu Cai 和 Yifu Lv；稍后 arXiv 没有企业作者，核查以正式版为准。未找到具名学生是在蚂蚁进行 LinRec 同篇研究的履历或原文说明。",
+        "note": "SIGIR 正式论文有蚂蚁研究人员 Liu Cai、Yifu Lv，晚到 2024 年的 arXiv 取消这两个署名。第一作者刘朗鸣个人主页确认同期在港城大、导师为赵祥宇，后来在阿里任职，但没有把 LinRec 与蚂蚁实习关联。亦未找到范文琦是该生本篇导师的证据。",
         "year": 2023
       },
       {
@@ -1783,10 +1826,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Revisiting Link Prediction: a data perspective",
-        "url": "https://arxiv.org/abs/2310.00793v3",
+        "url": "https://openreview.net/forum?id=8Ur2xmuw7w",
         "outcome": "no-evidence",
-        "note": "期刊版和作者稿列密歇根州立、港理工和 Snap 等；Snap 不在本轮公司范围，无可确认的其他范围内企业同篇研究。",
-        "year": 2023
+        "note": "2023 arXiv 后入选 ICLR 2024，原文署密歇根州立、港理工和 Snap 等；Snap 不在本轮公司范围，无可确认的其他范围内企业同篇研究。",
+        "year": 2024
       },
       {
         "title": "Sub-graph Based Diffusion Model for Link Prediction",
@@ -1798,8 +1841,8 @@ const facultyPaperAudits = {
       {
         "title": "AutoML for Deep Recommender Systems: Fundamentals and Advances",
         "url": "https://doi.org/10.1145/3539597.3572729",
-        "outcome": "no-evidence",
-        "note": "WSDM 论文集收录的教程说明，与正式 ACM AutoML 综述分列；主页未显示哪位学生在范围内公司完成该教程。",
+        "outcome": "lead",
+        "note": "WSDM 正式教程原件将 Bo Chen、Huifeng Guo、Ruiming Tang 归在华为诺亚方舟实验室，并列王业静为港城大；尚无同期具名学生在华为完成本教程的记录。另文是独立正式 ACM 综述。",
         "year": 2023
       },
       {
@@ -1885,8 +1928,107 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "期刊原文和学校机构库一致列出港理工作者及中国石油方向的同篇产业合作；中国石油不在本次指定公司中。",
         "year": 2026
+      },
+      {
+        "title": "Beyond Static Diffusion: Explicitly Modeling Temporal Patterns in Sequential Recommendation",
+        "url": "https://doi.org/10.1145/3805712.3809536",
+        "outcome": "no-evidence",
+        "note": "SIGIR 论文署吴垚、刘成一、范文琦和 Rui Zhang，华中科技大学课题组同时自列。未见 DLMRec 另文中的腾讯作者出现在此篇，也未见企业侧具名学生项目。",
+        "year": 2026
+      },
+      {
+        "title": "Consensus-on-Graph: Plan-Driven Exploration and Consensus Decision-Making on Knowledge Graphs",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-0369-7_32#author-information",
+        "outcome": "no-evidence",
+        "note": "Springer 原文作者单位为海南大学、华南理工大学和港理工；作者原始代码库及原刊均未标有范围内企业人员。",
+        "year": 2026
+      },
+      {
+        "title": "LLM-Powered KG Utility Evaluation Framework",
+        "url": "https://doi.org/10.1109/TKDE.2026.3718940",
+        "outcome": "no-evidence",
+        "note": "第一作者吴庞敬将该文列为博士成果并明确列三位导师。作者栏为这一学生和三位校方导师，未见指定公司员工或同篇企业项目。",
+        "year": 2026
+      },
+      {
+        "title": "Temporal Knowledge Consistency for Spammer Groups Detection via Contrastive Learning",
+        "url": "https://research.polyu.edu.hk/en/publications/temporal-knowledge-consistency-for-spammer-groups-detection-via-c/",
+        "outcome": "no-evidence",
+        "note": "校方机构库列正式期刊卷期、作者和代码；Amazon、Yelp 是评论来源示例，无证据显示范围内公司雇员参与学生同篇企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "From Bias to Behavior: Learning Bull-Bear Market Dynamics with Contrastive Modeling",
+        "url": "https://arxiv.org/abs/2507.14182",
+        "outcome": "no-evidence",
+        "note": "SSRN 作者投稿版公开每人机构：暨南大学、华中科技大学及香港理工大学；讨论所用金融市场数据不表示企业作者参与。",
+        "year": 2025
+      },
+      {
+        "title": "TokenRec: Learning to Tokenize ID for LLM-Based Generative Recommendations",
+        "url": "https://doi.org/10.1109/TKDE.2025.3599265",
+        "outcome": "no-evidence",
+        "note": "IEEE TokenRec 正式稿与 2024 预印本作者一致。预印本时邱浩浩尚未进入后来个人履历列出的腾讯岗位，其余作者单位未给出指定公司角色。",
+        "year": 2025
+      },
+      {
+        "title": "Towards Retrieval-Augmented Large Language Models: Data Management and System Design",
+        "url": "https://doi.org/10.1109/ICDE65448.2025.00341",
+        "outcome": "no-evidence",
+        "note": "ICDE 教程的六位署名者和 2024 年百度作者参与的 KDD 综述并不相同；作者网站与教程课件均无同篇范围内企业雇员。",
+        "year": 2025
+      },
+      {
+        "title": "Accelerating Communication for Distributed Training with Collaborative In-network Aggregation",
+        "url": "https://doi.org/10.1109/ICCT62411.2024.10946583",
+        "outcome": "no-evidence",
+        "note": "ICCT 2024 正式会务手册列电子科大的 Xixi Chen 主讲，列论文五位署名作者和摘要；未找到指定公司雇员和该生开展同篇企业研究的公开材料。",
+        "year": 2024
+      },
+      {
+        "title": "Interpretation-Empowered Neural Cleanse for Backdoor Attacks",
+        "url": "https://doi.org/10.1145/3589335.3651525",
+        "outcome": "lead",
+        "note": "ACM 正式作者列 Luning Wang（华为香港）与梁博宁；第一作者简历证实同期为范文琦、李青的博士生，并列本篇为首作者成果，未注明华为实习或企业研究。与另篇通用对抗扰动分别保留。",
+        "year": 2024
+      },
+      {
+        "title": "Toward Adversarially Robust Recommendation From Adaptive Fraudster Detection",
+        "url": "https://doi.org/10.1109/TIFS.2023.3327876",
+        "outcome": "no-evidence",
+        "note": "2022 年预印本后进入 IEEE TIFS 第 19 卷；香港理工大学机构库博士论文与原稿均列第一作者 Yuni Lai，未有范围内公司人员与该生同篇企业项目记录。",
+        "year": 2024
+      },
+      {
+        "title": "Adversarial Attacks for Black-Box Recommender Systems via Copying Transferable Cross-Domain User Profiles",
+        "url": "https://scholars.cityu.edu.hk/en/publications/adversarial-attacks-for-black-box-recommender-systems-via-copying/",
+        "outcome": "no-evidence",
+        "note": "港城大与 IEEE 原始记录对应 CopyAttack+，核对范文琦、赵祥宇等人署名及单位，不混同后来的多智能体攻击论文。未找到具名在读学生在范围内企业开展此工作。",
+        "year": 2023
+      },
+      {
+        "title": "STRec: Sparse Transformer for Sequential Recommendations",
+        "url": "https://doi.org/10.1145/3604915.3608779",
+        "outcome": "no-evidence",
+        "note": "RecSys 正式目录及同名出版记录列港城大、港理工、武汉大学和密歇根州立作者；邻接论文里的京东数据说明不属于 STRec。王业静在阿里的公开科技实习晚于此文。",
+        "year": 2023
+      },
+      {
+        "title": "Trustworthy Recommender Systems: Foundations and Frontiers",
+        "url": "https://doi.org/10.1145/3580305.3599575",
+        "outcome": "no-evidence",
+        "note": "KDD 2023 正式论文集的独立教程条目，核对作者和配套课件；未发现指定公司合著与具名学生同期企业研究。",
+        "year": 2023
+      },
+      {
+        "title": "From Solo Control to Enterprise Scale Through Agentic AI: A Survey of One-Person Agentic Company (OPAC)",
+        "url": "https://www.preprints.org/manuscript/202608.1414",
+        "outcome": "lead",
+        "note": "预印本有具名校方导师和尹大伟等产业背景共同作者，但未在公开稿里核实他们确切的本篇企业归属，也没有学生将 OPAC 精确列为其企业实习或联培项目。",
+        "year": 2026
       }
-    ]
+    ],
+    "note": "核对 2023-01-01 至 2026-11-12 的公开书目（作者主页、大学资料库、DBLP PID、ORCID、arXiv 和出版社/会议目录）；同一稿件的改名预印本与正式版合并。4 篇来自两个同名作者的 ISAC、分布优化稿按原始单位排除。Trustworthy AI 已于 2022 年正式上线，Trustworthy Recommender Systems 综述公开预印本仅见 2022 年，均在时间范围之外。逐篇缺企业证据的保留待核或未见证据。"
   },
   "D1LEg-YAAAAJ": {
     "from": "2023-01-01",
@@ -24168,7 +24310,10 @@ const facultyPaperAudits = {
       "https://orcid.org/0000-0001-8099-2035",
       "https://www.iscas.ac.cn/xwdt2016/kyjz2016/202508/t20250804_7900871.html",
       "https://gipsyh.github.io/",
-      "https://klss.ios.ac.cn/2024/12/3838.html"
+      "https://klss.ios.ac.cn/2024/12/3838.html",
+      "https://people.ucas.edu.cn/~0012988",
+      "https://people.ucas.ac.cn/~mingshu?language=en",
+      "https://easychair.org/smart-program/SETTA2026/"
     ],
     "papers": [
       {
@@ -24225,14 +24370,14 @@ const facultyPaperAudits = {
         "title": "Property-driven Parallel Symbolic Model Checking of LTL",
         "url": "https://doi.org/10.1109/DAC63849.2025.11133195",
         "outcome": "no-evidence",
-        "note": "DAC 正式日程列苏宇恒、李英诚、杨秋松、慈轶为来自软件所，黄子彧来自北京林大；未发现同篇在读学生赴企业研究的声明。"
+        "note": "DAC 正式日程列苏宇恒、李蓥成、杨秋松、慈轶为来自软件所，黄子彧来自北京林大；未发现同篇在读学生赴企业研究的声明。"
       },
       {
         "year": 2025,
         "title": "Fast, Transparent and Accurate Simulation of Thousand Processing-in-Memory Cores",
         "url": "https://doi.org/10.1145/3716368.3735197",
         "outcome": "no-evidence",
-        "note": "正式会议日程与卜天峻实验室主页一致；作者卜天峻 2024 年起为软件所硕士生，吕智超 ORCID 核实为本研究的国科大作者；未找到范围内企业研究人员或同篇企业实研线索。"
+        "note": "正式会议日程与卜天峻实验室主页一致；作者卜天峻 2024 年起为软件所硕士生，吕智超 ORCID 核实为本研究的国科大作者；出版方登记三位作者来自软件所、国科大及无锡研究实验室，未找到范围内企业研究人员或同篇实研线索。"
       },
       {
         "year": 2026,
@@ -24247,9 +24392,100 @@ const facultyPaperAudits = {
         "url": "https://www.vldb.org/pvldb/vol19/p2853-bu.pdf",
         "outcome": "no-evidence",
         "note": "VLDB 正文与会务署名列国科大和软件所；致谢中的软件所科研项目不支持企业合作认定。"
+      },
+      {
+        "year": 2024,
+        "title": "Survey of Formal Verification for File System Crash Consistency",
+        "url": "https://doi.org/10.2139/ssrn.5030923",
+        "outcome": "no-evidence",
+        "note": "SSRN 公开稿按十年文献做方法综述，和同团队开发验证逻辑的 ICPADS 论文题材相近但贡献不同；首页记录未列作者单位，公开履历及同期原文未见企业实研项目证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient processor verification by tautologies-derived universal properties model checking",
+        "url": "https://doi.org/10.1016/j.vlsi.2025.102502",
+        "outcome": "no-evidence",
+        "note": "期刊版提出 TPV，列入新作者田恩源并加入复杂重言式规则及验证部分。出版方简介列田恩源为软件所博士生；李宇锋于 2024 年毕业并转往中科院计算所。"
+      },
+      {
+        "year": 2025,
+        "title": "Formal Verification of a Crash-Safe File System Based on Non-Persistent Conditions Extended Concurrent Separation Logic",
+        "url": "https://doi.org/10.1109/ICPADS67057.2025.11322929",
+        "outcome": "no-evidence",
+        "note": "IEEE 存入的作者单位中，郑新民属国科大，其余三位属中科院软件所；本篇引入非持久条件用于崩溃一致性，未发现范围内企业作者或实研证明。"
+      },
+      {
+        "year": 2026,
+        "title": "ChipDRAG: Dynamic RAG for Chip Placement",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-8411-6_46",
+        "outcome": "no-evidence",
+        "note": "ICA3PP 2025 会后正式章于 2026 年 3 月上线；出版方列三人来自软件所，孙可钦另列国科大，李明树公开导师页列其为博士生。未发现同篇企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Dropping Multiple Literals per SAT Call in IC3 Model Checking",
+        "url": "https://doi.org/10.1145/3770743.3804348",
+        "outcome": "no-evidence",
+        "note": "DAC 日程列三人来自软件所；国科大导师名单与卜天峻实验室履历相互印证，其在读身份成立，未见其在范围内企业完成本文的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "S3-Repair: Error-Semantic Guided Symbolic Synthesis for RTL Repair",
+        "url": "https://doi.org/10.1109/CSCWD68734.2026.11582271",
+        "outcome": "no-evidence",
+        "note": "IEEE 元数据列李宇锋来自中科院计算所，其余作者来自软件所；田恩源列入杨秋松国科大导师名录，本文做 RTL 修复，未发现企业证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Dataflow-Based Path Pruning in Symbolic Execution for Hardware Verification",
+        "url": "https://doi.org/10.1109/CSCWD68734.2026.11582111",
+        "outcome": "no-evidence",
+        "note": "IEEE 元数据列梁佳辉、杨秋松、慈轶为来自软件所；国科大页面可核梁佳辉有导师关系，未发现同篇企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "ChipKDRAG: Knowledge-Driven Multi-Agent RAG Framework for Digital Chip Placement",
+        "url": "https://doi.org/10.1109/CSCWD68734.2026.11582026",
+        "outcome": "no-evidence",
+        "note": "IEEE 元数据列三人来自软件所，作者孙可钦在李明树国科大页面列为博士生；未找到企业研究人员或学生实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "ChipHier: A Partitioning and Optimization Framework for Large-Scale Chip Design",
+        "url": "https://doi.org/10.1109/CSCWD68734.2026.11581657",
+        "outcome": "no-evidence",
+        "note": "出版方登记三人均来自软件所；CSCWD 会务确认本篇为芯片分区框架，未发现同项目企业实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "AssertSynth: LLM-Based Assertion Synthesis via Multimodal Specification Extraction",
+        "url": "https://doi.org/10.1109/ISCAS66217.2026.11561988",
+        "outcome": "no-evidence",
+        "note": "更名自相同五作者的 AssertCoder（arXiv:2507.10338）；作者稿与 IEEE 存入的单位均仅列国科大、中科院软件所和计算所，无企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Reducing SQED Duplicate Mode Via Processor-Level Abstraction",
+        "url": "https://doi.org/10.1109/ISEDA70083.2026.11751513",
+        "outcome": "no-evidence",
+        "note": "论文将处理器级抽象用于减少 SQED 重复模式，与 2024 年 SEPE-SQED 不同。IEEE 元数据列全部作者来自中科院计算所和软件所，未发现企业实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Enhancing Chip Placement Generation Through Multi-channel Knowledge Graph Retrieval and Constraint-Aware Strategy Synthesis",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-2856-0_27",
+        "outcome": "no-evidence",
+        "note": "KSEM 2026 论文 7 月正式上线，虽文集版权年为 2027；出版方列三位作者来自软件所，孙可钦另列国科大，未见企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "融合多智能体系统与检索增强的芯片分区布局框架",
+        "url": "https://rjxb.alljournals.cn/jos/article/pdf/7671",
+        "outcome": "no-evidence",
+        "note": "《软件学报》2026-10-28 首发。全文列软件所、国科大，基金为国家和北京市自然科学基金；文中以 ChipDRAG 为基线，两篇研究不重复。"
       }
     ],
-    "note": "按国科大公开书目、实验室学生主页、出版社与作者公开全文逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本、摘要和正式版合一。仍在补核 2026 年芯片布图及形式验证论文的作者声明。"
+    "note": "按国科大公开书目、实验室学生主页、出版社与作者公开全文逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本、摘要和正式版合一。已核对基本公开书目及多个外部条目；《通信学报》另有同作者中文论文待补出版方全文。SETTA 的 Caster 在 2026 年 12 月举行，无截止日前独立公开论文，未纳入。"
   },
   "OsceCbcAAAAJ": {
     "from": "2023-01-01",
@@ -24320,5 +24556,191 @@ const facultyPaperAudits = {
         "note": "KDD 正式会议逐名列新加坡国立大学和香港浸会大学，正式出版 DOI 与作者单位库一致；未见目标企业参与。"
       }
     ]
+  },
+  "BFzFy1YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://collegeai.tsinghua.edu.cn/en/People/Full_time_PI/Alex_Lamb.htm",
+      "https://collegeai.tsinghua.edu.cn/kxyj/ktzjs/Lamb_Lab.htm",
+      "https://sites.google.com/view/alexmlamb/home",
+      "https://dblp.org/pid/134/3546.html",
+      "https://www.alphaxiv.org/@alex-lamb",
+      "https://liuhanzuo.github.io/",
+      "https://people.iiis.tsinghua.edu.cn/~gaomy/students.html",
+      "https://aquahorsem.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Leveraging the Third Dimension in Contrastive Learning",
+        "year": 2023,
+        "url": "https://doi.org/10.48550/arXiv.2301.11790",
+        "outcome": "no-evidence",
+        "note": "2023 年：原文作者机构为 Mila／蒙特利尔大学、微软纽约研究院、Google Research 和 DeepMind。"
+      },
+      {
+        "title": "Principled Offline RL in the Presence of Rich Exogenous Information",
+        "year": 2023,
+        "url": "https://proceedings.mlr.press/v202/islam23a.html",
+        "outcome": "no-evidence",
+        "note": "2023 年：ICML 正式原文具名 Lamb 署 Microsoft Research；作者包括北理工和 Mila 等，未见范围内企业。"
+      },
+      {
+        "title": "Representation Learning in Deep RL via Discrete Information Bottleneck",
+        "year": 2023,
+        "url": "https://proceedings.mlr.press/v206/islam23a.html",
+        "outcome": "no-evidence",
+        "note": "2023 年：AISTATS 正式原文列 Mila、北理工、Alberta、Virginia、Google DeepMind 及 Microsoft Research 等；未见范围内企业。"
+      },
+      {
+        "title": "Can AI Be as Creative as Humans?",
+        "year": 2024,
+        "url": "https://doi.org/10.48550/arXiv.2401.01623",
+        "outcome": "no-evidence",
+        "note": "2024 年：原文署 NUS、Stanford、Google DeepMind、Microsoft Research、Rutgers、宾夕法尼亚大学等，未见范围内企业参与。"
+      },
+      {
+        "title": "PcLast: Discovering Plannable Continuous Latent States",
+        "year": 2024,
+        "url": "https://openreview.net/forum?id=AaTYLZQPyC",
+        "outcome": "no-evidence",
+        "note": "2024 年：ICLR 正式稿与 arXiv:2311.03534 合并；当期 Lamb 署微软研究，原文未见范围内企业人员。"
+      },
+      {
+        "title": "Towards Principled Representation Learning from Videos for Reinforcement Learning",
+        "year": 2024,
+        "url": "https://openreview.net/forum?id=3mnWvUZIXt",
+        "outcome": "no-evidence",
+        "note": "2024 年：正式版本与 arXiv:2403.13765 合并；原文署微软纽约研究院和 Sony Research，均不在范围内。"
+      },
+      {
+        "title": "Video Occupancy Models",
+        "year": 2024,
+        "url": "https://doi.org/10.48550/arXiv.2407.09533",
+        "outcome": "no-evidence",
+        "note": "2024 年：论文署 Alberta、UT Austin、Microsoft Research NYC、UC Berkeley；致谢列入华为资金支持，未见华为研究人员署名或学生在华为完成项目。"
+      },
+      {
+        "title": "Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers",
+        "year": 2025,
+        "url": "https://doi.org/10.48550/arXiv.2509.16058",
+        "outcome": "no-evidence",
+        "note": "2025 年：原文使用 Alien Technology Technical 域名，机构不在项目企业范围；未见范围内企业署名。"
+      },
+      {
+        "title": "Efficient Joint Prediction of Multiple Future Tokens",
+        "year": 2025,
+        "url": "https://doi.org/10.48550/arXiv.2503.21801",
+        "outcome": "no-evidence",
+        "note": "2025 年：微软研究院原文独立技术报告，三名作者均署 Microsoft Research。3 月首次公开，早于 Lamb 6 月就任清华。"
+      },
+      {
+        "title": "Explore-Execute Chain: Towards an Efficient Structured Reasoning Paradigm",
+        "year": 2025,
+        "url": "https://doi.org/10.48550/arXiv.2509.23946",
+        "outcome": "no-evidence",
+        "note": "2025 年：初稿及更新版 DOI 相同，正式作者标签列期智、清华、NUS、上海交大及东北大学。马钦伟本人将其列为之前参与工作；论文初稿 2025 年 9 月，早于 2026 年腾讯实习，未见本篇腾讯项目。"
+      },
+      {
+        "title": "Inference-Time Alignment Control for Diffusion Models with Reinforcement Learning Guidance",
+        "year": 2025,
+        "url": "https://doi.org/10.48550/arXiv.2508.21016",
+        "outcome": "no-evidence",
+        "note": "2025 年：原始 arXiv 与 ICML 研讨会同题合并，作者校属复旦、清华、港中文、上海交大；研讨会作者表精简，未见范围内企业署名。若能核实学生的同期参与再升级。"
+      },
+      {
+        "title": "Next-Latent Prediction Transformers Learn Compact World Models",
+        "year": 2025,
+        "url": "https://doi.org/10.48550/arXiv.2511.05963",
+        "outcome": "no-evidence",
+        "note": "2025 年：截至 11 月 11 日版本仍所有作者署 Microsoft Research；第一作者现为 MIT 博士，但该工作不构成范围内企业论文。"
+      },
+      {
+        "title": "The Belief State Transformer",
+        "year": 2025,
+        "url": "https://openreview.net/forum?id=ThRMTCgpvo",
+        "outcome": "no-evidence",
+        "note": "2025 年：ICLR 正式稿与曾用名 Learning to Achieve Goals with Belief State Transformers 的 arXiv:2410.23506 合并；作者署 Microsoft Research、宾夕法尼亚大学与 UT Austin。"
+      },
+      {
+        "title": "Cache the Encoder Within:Compact, Reusable Memory across LLM Queries",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.10058",
+        "outcome": "no-evidence",
+        "note": "2026 年：作者全署清华。原文将 EncBank 明确描述为基于 CoMem 接口的新方法，须独立审阅；使用 Qwen 评测未见阿里署名，CoMem 当时的腾讯合作也不能移到此篇。"
+      },
+      {
+        "title": "CoMem: Reusing Transformer Depth across Queries with Persistent Intermediate Residuals",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2607.28263",
+        "outcome": "lead",
+        "note": "2026 年：COLM Efficient Reasoning 研讨会版本与 arXiv:2607.28263 初稿 Understanding Is Done Early 合并。第一作者刘涵祚据清华导师高鸣宇的学生页及第一作者履历证实为清华本科生、受高鸣宇指导；论文双署清华和腾讯，自有项目含其具名贡献。Ray Ying 与 Key Zhang 也出现在同年腾讯混元项目中。需补可对外复核的员工任职或第一方项目参与说明；Lamb 虽列其在实验室，但该生明确自述师承高鸣宇。"
+      },
+      {
+        "title": "Frozen in a Frame: The Velocity Blind Spot in JEPA World Models",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.04585",
+        "outcome": "no-evidence",
+        "note": "2026 年：预印本署清华、中科院自动化所、哈佛、牛津及东北大学。Lamb 本人列共同作者 Tinghe Zhang 为实验室成员，未见范围内企业署名。"
+      },
+      {
+        "title": "Improving Sampling for Masked Diffusion Models via Information Gain",
+        "year": 2026,
+        "url": "https://doi.org/10.48550/arXiv.2602.18176",
+        "outcome": "lead",
+        "note": "2026 年：原文作者包括清华导师/学生、MIT、上海交大等；待核原文岗位脚注和作者本人履历后再判定。"
+      },
+      {
+        "title": "Learning Additively Compositional Latent Actions for Embodied AI",
+        "year": 2026,
+        "url": "https://doi.org/10.48550/arXiv.2604.03340",
+        "outcome": "no-evidence",
+        "note": "2026 年：预印本有微软亚洲研究院、清华及其他机构，微软不在范围内。"
+      },
+      {
+        "title": "Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models",
+        "year": 2026,
+        "url": "https://doi.org/10.48550/arXiv.2602.08984",
+        "outcome": "no-evidence",
+        "note": "2026 年：LUMIA Lab 原文首页列上海交大、上海人工智能实验室、清华与上海创智学院，各具名作者未列范围内企业。"
+      },
+      {
+        "title": "Retrieval Geometry Shapes Cache-Based Clip Adaptation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.23409",
+        "outcome": "no-evidence",
+        "note": "2026 年：原文署清华、North South University、Computational Intelligence and Operations Laboratory、Jahangirnagar University、Charles Sturt University。虽投稿 ICLR 2027，但 arXiv 正文已在 2026 年 9 月公开。"
+      },
+      {
+        "title": "SLOPE: Optimistic Potential Landscape Shaping for Model-based Reinforcement Learning",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2602.03201",
+        "outcome": "no-evidence",
+        "note": "2026 年：最早的 From Scalar Rewards to Potential Trends 与改题后的 SLOPE 共享 arXiv:2602.03201。原文署北理工、清华、中科院深圳先进技术研究院及欧美高校和 Microsoft Research NY；微软不在范围内。"
+      },
+      {
+        "title": "Timestep Weighting: A Hidden Key to Effective ELBO-Based Flow-Matching RL",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.32665",
+        "outcome": "lead",
+        "note": "2026 年：马钦伟自述导师为 Alex Lamb，也注明 2026 年 2 至 8 月腾讯混元视频世界模型组实习。本篇 9 月公开，论文当前版本没有腾讯署名或实习脚注，待补本篇项目及同篇腾讯员工。"
+      },
+      {
+        "title": "VoidPadding: Let [VOID] Handle Padding in Masked Diffusion Language Models so that [EOS] Can Focus on Semantic Termination",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.17999",
+        "outcome": "no-evidence",
+        "note": "2026 年：COLM 研讨会公开稿署清华（四名作者）。Lamb 实验室名录与作者个人档案支持师生同署，未见符合条件的企业同篇参与。"
+      },
+      {
+        "title": "When Geometry Aligns: Dihedral Hidden-State Transformations in UNet, ViT, and DiT Architectures",
+        "year": 2026,
+        "url": "https://doi.org/10.48550/arXiv.2607.03580",
+        "outcome": "no-evidence",
+        "note": "2026 年：CoLLAs 2026 版本与预印本合并，作者为蒙特利尔大学、Mila 和清华。"
+      }
+    ],
+    "note": "首批逐篇核查 24 篇。本人、清华研究组、DBLP 和 arXiv 按题名、署名、版本记录交叉。清华学校档案确定 2025 年 6 月开始任教；用同期身份判断。继续核几篇早期出版商原文和腾讯署名工作。"
   }
 };
