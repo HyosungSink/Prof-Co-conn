@@ -4632,8 +4632,8 @@ const facultyPaperAudits = {
       {
         "title": "SORTIE: Dependency-Aware Symbolic Reasoning for Logical Data-to-text Generation",
         "url": "https://aclanthology.org/2023.findings-acl.715/",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "论文首页脚注明确点名 Xueliang Zhao 与 Tingchen Fu 两位并列第一作者均在腾讯 AI Lab 的实习中参与此篇。 同篇作者 Lingpeng Kong 的校内博士指导身份由学生本人证实；企业共同作者的正式任职和同篇署名已核对。"
       },
       {
         "title": "PromptCoT: Synthesizing Olympiad-level Problems for Mathematical Reasoning in Large Language Models",
@@ -4811,7 +4811,7 @@ const facultyPaperAudits = {
       {
         "title": "On the Worst Prompt Performance of Large Language Models",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf",
-        "outcome": "confirmed",
+        "outcome": "lead",
         "note": "论文明确为 Bowen Cao 在腾讯 AI Lab 实习工作且署港中文；但 2024 年 6 月已发布预印本，导师课题组只给 2024 年入学，仍缺实习研究当时已在读或正式联培的日期。"
       }
     ]
@@ -4865,26 +4865,26 @@ const facultyPaperAudits = {
       {
         "title": "Implicit Concept Removal of Diffusion Models",
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03200.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "论文署名、在读博士的项目列表与公开研究履历，以及华为研究员公开实习名录，分别对应此篇合作、研究实习和企业员工身份。学生学术主页明确 James Kwok 为博士导师。"
       },
       {
         "title": "Mixture of insighTful Experts (MoTE): The Synergy of Reasoning Chains and Expert Mixtures in Self-Alignment",
         "url": "https://aclanthology.org/2025.acl-long.151.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "论文署名、在读博士的项目列表与公开研究履历，以及华为研究员公开实习名录，分别对应此篇合作、研究实习和企业员工身份。学生学术主页明确 James Kwok 为博士导师。"
       },
       {
         "title": "Mixture of Cluster-Conditional LoRA Experts for Vision-Language Instruction Tuning",
         "url": "https://doi.org/10.1109/TIP.2026.3678087",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "论文署名、在读博士的项目列表与公开研究履历，以及华为研究员公开实习名录，分别对应此篇合作、研究实习和企业员工身份。学生学术主页明确 James Kwok 为博士导师。"
       },
       {
         "title": "Corrupted but Not Broken: Understanding and Mitigating the Negative Impacts of Corrupted Data in Visual Instruction Tuning",
         "url": "https://aclanthology.org/2025.emnlp-main.1317.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "论文署名、在读博士的项目列表与公开研究履历，以及华为研究员公开实习名录，分别对应此篇合作、研究实习和企业员工身份。学生学术主页明确 James Kwok 为博士导师。"
       }
     ]
   },
@@ -5090,7 +5090,8 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。"
       }
-    ]
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   },
   "Nav8m8gAAAAJ": {
     "from": "2023-01-01",
@@ -5108,6 +5109,324 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "报告附录 A 具名列出校内师生和企业作者；学生本人履历明确课题职责。"
+      }
+    ]
+  },
+  "NKaiUasAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://is.nju.edu.cn/ty/main.htm",
+      "https://znan-chen.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "DiP: Taming Diffusion Models in Pixel Space",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_DiP_Taming_Diffusion_Models_in_Pixel_Space_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "陈振南的学术履历列他 2024 年 9 月起在南大攻读博士，2025 年 1 月至 2026 年 6 月在腾讯优图实习；正式版首页星号标清他在腾讯实习时完成这项研究。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "7phvKK4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1086/1731.htm",
+      "https://zehong-ma.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ma_DeCo_Frequency-Decoupled_Pixel_Diffusion_for_End-to-End_Image_Generation_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "马泽红履历列 2022 年起在北京大学读博、2025 年 3–12 月在华为实习研究像素扩散。正式版首页对第一作者具名标注：该工作在华为实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "LbzoQBsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1086/1730.htm",
+      "https://yushengzhao.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Switch Attention: Towards Dynamic and Fine-grained Hybrid Transformers",
+        "url": "https://aclanthology.org/2026.emnlp-main.2079.pdf",
+        "outcome": "confirmed",
+        "note": "Yusheng Zhao 是北大在读博士及论文首作者。正式版首页给他单独标了华为实习贡献脚注，明确指向本项研究。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "GNDtwWQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.tsinghua.edu.cn/info/1116/3535.htm",
+      "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm"
+    ],
+    "papers": [
+      {
+        "title": "StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars",
+        "url": "https://arxiv.org/html/2512.22065",
+        "outcome": "confirmed",
+        "note": "孙志尧在清华大学导师主页列为 2021 年起的直博生；首发原文严格把实习脚注标在其名字旁，注明在腾讯混元实习中完成本项研究。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "Ae2kRCEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/shenwei.html",
+      "https://jumpat.github.io/jumpcat/"
+    ],
+    "papers": [
+      {
+        "title": "Text-Image Conditioned 3D Generation",
+        "url": "https://arxiv.org/html/2603.21295",
+        "outcome": "confirmed",
+        "note": "第一作者 Jiazhong Cen 自 2023 年在上海交大攻读博士，2024 年至 2026 年 6 月在华为实习；原文首页明确以脚注具名其华为实习与本项研究的关系。"
+      },
+      {
+        "title": "Tackling View-Dependent Semantics in 3D Language Gaussian Splatting",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/cen25a/cen25a.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者 Jiazhong Cen 自 2023 年在上海交大攻读博士，2024 年至 2026 年 6 月在华为实习；原文首页明确以脚注具名其华为实习与本项研究的关系。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "8hZIngIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.nju.edu.cn/d2/3f/c57761a643647/pagem.htm",
+      "https://zijian-wu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "UIKA: Fast Universal Head Avatar from Pose-Free Images",
+        "url": "https://arxiv.org/html/2601.07603",
+        "outcome": "confirmed",
+        "note": "巫子健自 2024 年 9 月在南京大学攻读硕士、自 2025 年 6 月在蚂蚁研究院交互智能实验室实习；正文首作的具名脚注说明具体工作在蚂蚁实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "YRxe0FkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://is.nju.edu.cn/zh/main.htm",
+      "https://zijian-wu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "UIKA: Fast Universal Head Avatar from Pose-Free Images",
+        "url": "https://arxiv.org/html/2601.07603",
+        "outcome": "confirmed",
+        "note": "巫子健自 2024 年 9 月在南京大学攻读硕士、自 2025 年 6 月在蚂蚁研究院交互智能实验室实习；正文首作的具名脚注说明具体工作在蚂蚁实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "Z7FOfV0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
+      "https://jzuming.github.io/publication.html",
+      "https://dblp.org/pid/237/8586.html",
+      "https://www.cs.hku.hk/people/academic-staff/jzuming/",
+      "https://zenodo.org/records/21383195",
+      "https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf",
+      "https://arxiv.org/abs/2408.07525",
+      "https://www.ndss-symposium.org/wp-content/uploads/2025-1912-paper.pdf",
+      "https://ast.ethz.ch/ast-news/2025/08/a-successful-phd-defense-for-zu-ming-jiang.html",
+      "https://www.usenix.org/conference/osdi24/presentation/jiang",
+      "https://www.usenix.org/system/files/osdi24-jiang.pdf",
+      "https://doi.org/10.1109/TDSC.2023.3288876",
+      "https://jzuming.github.io/paper/tdsc23-bai.pdf",
+      "https://www.usenix.org/conference/osdi23/presentation/jiang",
+      "https://www.usenix.org/system/files/osdi23-jiang.pdf",
+      "https://www.usenix.org/system/files/usenixsecurity23-jiang-zu-ming.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Testing Computation Pushdown in Distributed Database Systems",
+        "url": "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
+        "outcome": "no-evidence",
+        "note": "原创论文及正式会议署名：江祖铭在港大，Jinsheng Ba 与 Zhendong Su 为学术合作者。论文工件列研究时为 ETH 和港大，Ba 的官方简历表明该期为博士后，未见同篇企业作者或学生在企角色。"
+      },
+      {
+        "title": "Dinkel: State-Aware and Granular Framework for Validating Graph Databases",
+        "url": "https://www.vldb.org/pvldb/vol19/p1198-jiang.pdf",
+        "outcome": "no-evidence",
+        "note": "PVLDB 原文三位作者仅有港大、苏黎世联邦理工机构；没有企业作者或学生在企项目。2024 年公开预印本 2408.07525 为同一项目早期稿，参与作者和项目一致，不重复计数。"
+      },
+      {
+        "title": "Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning",
+        "url": "https://www.ndss-symposium.org/wp-content/uploads/2025-1912-paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式论文署北航、北大、ETH、ASU 等高校；江祖铭仍为 ETH 博士，无已具名的范围内企业作者或学生在企项目。"
+      },
+      {
+        "title": "Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation",
+        "url": "https://www.usenix.org/conference/osdi24/presentation/jiang",
+        "outcome": "no-evidence",
+        "note": "USENIX 正式记录两位作者均为 ETH 苏黎世，江祖铭是博士研究者。论文检测企业数据库软件本身不构成企业员工或在企学生同篇关系。"
+      },
+      {
+        "title": "Testing Error Handling Code With Software Fault Injection and Error-Coverage-Guided Fuzzing",
+        "url": "https://doi.org/10.1109/TDSC.2023.3288876",
+        "outcome": "no-evidence",
+        "note": "已核对作者稿及港大知识库：署名北航、清华与 ETH；江祖铭当时在 ETH，没有范围内企业作者。"
+      },
+      {
+        "title": "Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction",
+        "url": "https://www.usenix.org/conference/osdi23/presentation/jiang",
+        "outcome": "no-evidence",
+        "note": "正式作者单位只涉及 ETH 和新加坡国立大学。测试或汇报企业的数据库产品不能替代同篇的员工、导师与学生角色。"
+      },
+      {
+        "title": "DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation",
+        "url": "https://www.usenix.org/system/files/usenixsecurity23-jiang-zu-ming.pdf",
+        "outcome": "no-evidence",
+        "note": "USENIX 原文列两名 ETH 作者、一名清华作者。江祖铭为当时的 ETH 博士，未见企业作者和该工作在企业完成的证据。"
+      }
+    ],
+    "note": "已交叉核对本人完整公开书目与 DBLP，并对截止日内的 7 篇不同正式论文逐篇核查原文署名；Dinkel 预印本与正式版本合并。2027 年作品与 2023 年以前的论文未纳入本轮。"
+  },
+  "3s9f9VIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_Video-as-Answer_Predict_and_Generate_Next_Video_Event_with_Joint-GRPO_CVPR_2026_paper.html",
+      "https://donahowe.github.io/",
+      "https://scholars.cityu.edu.hk/en/persons/jingliao/",
+      "https://scholars.cityu.edu.hk/en/persons/jing-liao(45757c38-f737-420d-8a7f-73b58d30c1fd).html",
+      "https://www.xtao.website/",
+      "https://arxiv.org/pdf/2511.16669v1",
+      "https://scholars.cityu.edu.hk/en/persons/junhao-cheng/",
+      "https://arxiv.org/abs/2606.02564",
+      "https://arxiv.org/pdf/2606.02564v1",
+      "https://openaccess.thecvf.com/ICCV2025?day=2025-10-22",
+      "https://arxiv.org/abs/2505.21374"
+    ],
+    "papers": [
+      {
+        "title": "Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_Video-as-Answer_Predict_and_Generate_Next_Video_Event_with_Joint-GRPO_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "核对论文首次发布版本，† 脚注明确第一作者程钧豪是在快手可灵团队实习期间完成研究。香港城市大学正式导师与学生名录确认廖菁指导其研究型硕士，双方同篇署名。企业作者 Xin Tao 以可灵团队署名，公开履历确认其为该团队技术负责人。"
+      },
+      {
+        "title": "VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization",
+        "url": "https://arxiv.org/abs/2606.02564",
+        "outcome": "confirmed",
+        "note": "核对论文首次发布版本，† 脚注明确第一作者程钧豪是在快手可灵团队实习期间完成研究。香港城市大学正式导师与学生名录确认廖菁指导其研究型硕士，双方同篇署名。企业作者 Xin Tao 以可灵团队署名，公开履历确认其为该团队技术负责人。"
+      },
+      {
+        "title": "AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction",
+        "url": "https://openaccess.thecvf.com/ICCV2025?day=2025-10-22",
+        "outcome": "lead",
+        "note": "学生腾讯实习至 2025 年 6 月且论文预印本已在 2025 年 4 或 5 月发布；学生为中山大学本科，与他读香港城市大学 MPhil 的阶段不同，廖菁在当时是否正式指导尚无明确证据。中山大学本科导师虽已具名，但没有同篇署名。"
+      },
+      {
+        "title": "Video-Holmes: Can MLLM Think Like Holmes for Complex Video Reasoning?",
+        "url": "https://arxiv.org/abs/2505.21374",
+        "outcome": "lead",
+        "note": "学生腾讯实习至 2025 年 6 月且论文预印本已在 2025 年 4 或 5 月发布；学生为中山大学本科，与他读香港城市大学 MPhil 的阶段不同，廖菁在当时是否正式指导尚无明确证据。中山大学本科导师虽已具名，但没有同篇署名。"
+      }
+    ]
+  },
+  "9uPDtI4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.yuliang-liu.com/",
+      "https://www.yuliang-liu.com/group",
+      "https://bytedance.github.io/WildDoc/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_TextPecker_Rewarding_Structural_Anomaly_Quantification_for_Enhancing_Visual_Text_Rendering_CVPR_2026_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "TextPecker: Rewarding Structural Anomaly Quantification for Enhancing Visual Text Rendering",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_TextPecker_Rewarding_Structural_Anomaly_Quantification_for_Enhancing_Visual_Text_Rendering_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "官方小组名单列在读博士；CVPR 正式版具名实习脚注和雇员项目负责人身份均明确。"
+      }
+    ]
+  },
+  "AwqDDGoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/ZhengWeishi",
+      "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html",
+      "https://lyman-smoker.github.io/",
+      "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml"
+    ],
+    "papers": [
+      {
+        "title": "WeDetect: Fast Open-Vocabulary Object Detection as Retrieval",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fu_WeDetect_Fast_Open-Vocabulary_Object_Detection_as_Retrieval_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "正式论文脚注明示付盛豪在腾讯实习期间完成此项工作，企业合作者饶峰云为腾讯署名通讯作者。中大郑伟诗的公开书目在本篇具名标注他所指导的学生；论文单位则按原文为琶洲实验室（黄埔）及深圳环形实验室。"
+      },
+      {
+        "title": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/bf7262e692f3a5c7d676e9e06a1d919a-Paper-Conference.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式论文首页具名标明付盛豪在阿里实习期间完成研究、杨琪泽为项目组负责人、郑伟诗为通讯作者；郑伟诗本人论文列表逐篇标注指导关系。"
+      },
+      {
+        "title": "LLMDet: Learning Strong Open-Vocabulary Object Detectors under the Supervision of Large Language Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fu_LLMDet_Learning_Strong_Open-Vocabulary_Object_Detectors_under_the_Supervision_of_CVPR_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "正式论文补充材料首页具名标出付盛豪在阿里实习时参与此项工作，致谢确认阿里实习项目。杨琪泽署阿里通义，郑伟诗为通讯作者，导师本人公开书目分别具名标注。"
+      },
+      {
+        "title": "ViSpeak: Visual Instruction Feedback in Streaming Videos",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fu_ViSpeak_Visual_Instruction_Feedback_in_Streaming_Videos_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ICCV 正式论文首页专门标出付盛豪和 Yi-Xing Peng 的阿里实习完成该项课题。杨琪泽署阿里通义，郑伟诗在同篇署名并在本人公开书目明确列两人为指导学生。"
+      },
+      {
+        "title": "LOVE-R1: Advancing Long Video Understanding with an Adaptive Zoom-in Mechanism via Multi-Step Reasoning",
+        "url": "https://arxiv.org/html/2509.24786v1",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "论文首页具名记录 Yuan-Ming Li 与付盛豪在阿里实习期间做此研究，杨琪泽为阿里作者，郑伟诗为通讯作者；Yuan-Ming Li 的博士履历同时确认校内导师和该公司实习时间。"
+      },
+      {
+        "title": "IRG-MotionLLM: Interleaving Motion Generation, Assessment and Refinement for Text-to-Motion Generation",
+        "url": "https://arxiv.org/html/2512.10730v2",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首作者 Yuan-Ming Li 的原文双署中山大学与阿里通义，研究内容与其同期公开实习项目（统一文本动作模型）一致；其博士导师郑伟诗与同期阿里作者杨琪泽共同署名。郑伟诗本人也将其标为该项目中所指导的中大学生。"
       }
     ]
   }
