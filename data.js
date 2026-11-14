@@ -34515,6 +34515,102 @@ const survey = {
         ]
       ],
       "evidence": "KDD 首页脚注明示港中大博士生 Xingyi Zhang 在腾讯实习期间完成此项研究。学生指明王思博是其博士导师、Wenqing Lin 是腾讯端导师；团队公开记录把两人在同篇中分别标为实习生和正式团队成员。"
+    },
+    {
+      "id": "tencent-igseek-cuhk-sibo-wang",
+      "company": "腾讯",
+      "team": "AI for Life Sciences Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "香港中文大学系统工程与工程管理学系任教，同篇署香港中文大学。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "student": [
+        "解坤 · Kun Xie",
+        "港中大在读博士、并列第一作者，原文双署名且具名脚注确认研究期间为腾讯实习生；本人履历写明 2025 年初开始在该实验室实习。",
+        "https://kkkkk001.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人主页明确列王思博为博士生导师；课题组核对学籍截至 2025 年 11 月。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "employee": [
+        "Biaobin Jiang",
+        "同篇通讯作者，原文署腾讯生命科学实验室，企业实习导师与腾讯任职均可从同期学生项目、职业履历和论文署名核对。",
+        "https://cn.linkedin.com/in/biaobin-jiang-46682b26"
+      ],
+      "title": "Fast and Accurate Antibody Sequence Design via Structure Retrieval",
+      "short": "IgSeek",
+      "date": "2025-04",
+      "venue": "ICLR 2025 GEM Workshop",
+      "area": "AI for Science · 抗体序列设计",
+      "paper": "https://openreview.net/forum?id=MOP4UvU1iY",
+      "extra": [
+        [
+          "研讨会原文及具名实习脚注",
+          "https://openreview.net/pdf?id=MOP4UvU1iY"
+        ],
+        [
+          "同篇公开预印本",
+          "https://arxiv.org/abs/2502.19395"
+        ],
+        [
+          "同期同实验室研究论文",
+          "https://pubmed.ncbi.nlm.nih.gov/41365923/"
+        ]
+      ],
+      "evidence": "GEM 正式公开稿将腾讯实习脚注附并列第一作者解坤，其本人履历同时确认由王思博指导港中大博士研究、由同篇腾讯通讯作者 Biaobin Jiang 指导企业实习。两位指导人员与博士生同时署名，研究使用机器学习进行抗体序列设计。"
+    },
+    {
+      "id": "tencent-disjoint-kcliques-cuhk-sibo-wang",
+      "company": "腾讯",
+      "team": "互动娱乐事业群 · 社交算法团队",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "香港中文大学系统工程与工程管理学系任教，同篇署香港中文大学。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "student": [
+        "陈鑫 · Xin Chen",
+        "论文具名写明第一作者陈鑫在腾讯实习时完成，原文以港中大署名，校方课题组记载其至 2024 年 10 月博士毕业。",
+        "https://edwlin.github.io/pubs/icde2025-kclique.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "王思博的学校课题组名单把陈鑫具名列为指导的博士毕业生。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "employee": [
+        "Wenqing Lin",
+        "原文署腾讯并任共同第一作者和通讯作者；本人公开履历记载于腾讯任主要研究员并管理社交算法团队，把陈鑫列为该篇实习生。",
+        "https://edwlin.github.io/"
+      ],
+      "title": "Finding Near-Optimal Maximum Set of Disjoint k-Cliques in Real-World Social Networks",
+      "short": "Disjoint k-Cliques",
+      "date": "2025-05",
+      "venue": "ICDE 2025",
+      "area": "图数据挖掘 · 社交网络",
+      "paper": "https://edwlin.github.io/pubs/icde2025-kclique.pdf",
+      "extra": [
+        [
+          "学校论文档案",
+          "https://research.cuhk.edu.hk/en/publications/finding-near-optimal-maximum-set-of-disjoint-k-cliques-in-real-wo/projects/?status=FINISHED"
+        ],
+        [
+          "学生本人论文目录",
+          "https://jerchenxin.github.io/"
+        ],
+        [
+          "同篇公开预印本",
+          "https://arxiv.org/abs/2503.20299"
+        ]
+      ],
+      "evidence": "ICDE 原文脚注具名陈鑫与另一作者在腾讯实习时完成；陈鑫为王思博指导的香港中文大学博士，文中署名港中文。腾讯社交算法团队负责人 Wenqing Lin 同篇共同第一作者与通讯作者。论文在学生获学位后正式发表，实习时原份论文记载学生身份，学校档案同时关联截至 2024 年的同期项目。"
     }
   ]
 };

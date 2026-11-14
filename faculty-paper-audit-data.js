@@ -8769,7 +8769,16 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3711896.3736877",
       "https://www1.se.cuhk.edu.hk/~swang/ChiGAD.pdf",
       "https://li-xiping.github.io/",
-      "https://openreview.net/profile?id=~Wuxiong_Zeng2"
+      "https://openreview.net/profile?id=~Wuxiong_Zeng2",
+      "https://openreview.net/forum?id=MOP4UvU1iY",
+      "https://kkkkk001.github.io/",
+      "https://openreview.net/pdf?id=MOP4UvU1iY",
+      "https://arxiv.org/abs/2502.19395",
+      "https://pubmed.ncbi.nlm.nih.gov/41365923/",
+      "https://edwlin.github.io/pubs/icde2025-kclique.pdf",
+      "https://research.cuhk.edu.hk/en/publications/finding-near-optimal-maximum-set-of-disjoint-k-cliques-in-real-wo/projects/?status=FINISHED",
+      "https://jerchenxin.github.io/",
+      "https://arxiv.org/abs/2503.20299"
     ],
     "papers": [
       {
@@ -8801,6 +8810,18 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3711896.3736877",
         "outcome": "lead",
         "note": "论文具名确认李熙平同时在港中大及腾讯研究实习，并有腾讯正式共同作者；他在哈工大（深圳）就读并明确提及王思博的实际指导。仍待公开材料确认哈工大与港中大同期共同指导或联合培养，或同篇另一位在读学生在腾讯微信参与具体项目。"
+      },
+      {
+        "title": "Fast and Accurate Antibody Sequence Design via Structure Retrieval",
+        "url": "https://openreview.net/forum?id=MOP4UvU1iY",
+        "outcome": "confirmed",
+        "note": "GEM 正式公开稿将腾讯实习脚注附并列第一作者解坤，其本人履历同时确认由王思博指导港中大博士研究、由同篇腾讯通讯作者 Biaobin Jiang 指导企业实习。两位指导人员与博士生同时署名，研究使用机器学习进行抗体序列设计。"
+      },
+      {
+        "title": "Finding Near-Optimal Maximum Set of Disjoint k-Cliques in Real-World Social Networks",
+        "url": "https://edwlin.github.io/pubs/icde2025-kclique.pdf",
+        "outcome": "confirmed",
+        "note": "ICDE 原文脚注具名陈鑫与另一作者在腾讯实习时完成；陈鑫为王思博指导的香港中文大学博士，文中署名港中文。腾讯社交算法团队负责人 Wenqing Lin 同篇共同第一作者与通讯作者。论文在学生获学位后正式发表，实习时原份论文记载学生身份，学校档案同时关联截至 2024 年的同期项目。"
       }
     ]
   },
@@ -11824,7 +11845,11 @@ const facultyPaperAudits = {
       "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
       "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
       "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
-      "https://arxiv.org/html/2508.18675"
+      "https://arxiv.org/html/2508.18675",
+      "https://conf.researchr.org/profile/xulu",
+      "https://orcid.org/0000-0002-3421-1987",
+      "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
+      "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat"
     ],
     "papers": [
       {
@@ -11875,9 +11900,23 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2508.18675",
         "outcome": "no-evidence",
         "note": "论文署西电、南洋理工大学、新加坡管理大学和武汉大学，无范围内企业。"
+      },
+      {
+        "title": "Detecting Atomicity Violations in Interrupt-Driven Programs via Interruption Points Selecting and Delayed ISR-Triggering",
+        "year": 2023,
+        "url": "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
+        "outcome": "no-evidence",
+        "note": "FSE 正式程序列西安电子科技大学及北京控制工程研究所，没有范围内企业。"
+      },
+      {
+        "title": "SBDT: Search-Based Differential Testing of Certificate Parsers in SSL/TLS Implementations",
+        "year": 2023,
+        "url": "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
+        "outcome": "no-evidence",
+        "note": "ISSTA 会方逐名列出全部作者，仅西安电子科技大学和曲阜师范大学。"
       }
     ],
-    "note": "逐篇核对作者机构；同一 DevGen 项目两份会议版对照用于归并，其余年段仍待查验。"
+    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
   },
   "V5jcooYAAAAJ": {
     "from": "2023-01-01",
@@ -11893,7 +11932,13 @@ const facultyPaperAudits = {
       "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
       "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
       "https://arxiv.org/html/2508.18675",
-      "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce"
+      "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce",
+      "https://conf.researchr.org/profile/xulu",
+      "https://orcid.org/0000-0002-3421-1987",
+      "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
+      "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
+      "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
+      "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM"
     ],
     "papers": [
       {
@@ -11951,9 +11996,37 @@ const facultyPaperAudits = {
         "url": "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce",
         "outcome": "no-evidence",
         "note": "FSE 2026 会方名录列西安电子科技大学、河北大学和曲阜师范大学。"
+      },
+      {
+        "title": "Detecting Atomicity Violations in Interrupt-Driven Programs via Interruption Points Selecting and Delayed ISR-Triggering",
+        "year": 2023,
+        "url": "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
+        "outcome": "no-evidence",
+        "note": "FSE 正式程序列西安电子科技大学及北京控制工程研究所，没有范围内企业。"
+      },
+      {
+        "title": "SBDT: Search-Based Differential Testing of Certificate Parsers in SSL/TLS Implementations",
+        "year": 2023,
+        "url": "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
+        "outcome": "no-evidence",
+        "note": "ISSTA 会方逐名列出全部作者，仅西安电子科技大学和曲阜师范大学。"
+      },
+      {
+        "title": "DafnyRAG: A Retrieval-Augmented and Verification-Driven Tool for Automated Repair of Dafny Code",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
+        "outcome": "no-evidence",
+        "note": "ASE 会方注明六位作者署西安电子科技大学、曲阜师范大学及河北大学。DeepSeek-V3 是评测使用的模型，未见深度求索作者。"
+      },
+      {
+        "title": "OpenRepair: An Automated Tool for OpenMP Data Race Repair via Retrieval-Augmented LLMs",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
+        "outcome": "no-evidence",
+        "note": "SPLASH/ISSTA 会方把全体作者列为西安电子科技大学。"
       }
     ],
-    "note": "逐篇核对作者机构；同一 DevGen 项目两份会议版对照用于归并，其余年段仍待查验。"
+    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
   },
   "c707dNUAAAAJ": {
     "from": "2023-01-01",
@@ -11968,7 +12041,13 @@ const facultyPaperAudits = {
       "https://conf.researchr.org/details/icse-2026/icse-2026-nier/36/Atomicity-Violation-Detection-for-Interrupt-Driven-Programs-via-Incrementally-Explori",
       "https://www.sciencedirect.com/science/article/abs/pii/S0020025524015809",
       "https://www.sciencedirect.com/science/article/abs/pii/S0957417424015161",
-      "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce"
+      "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce",
+      "https://conf.researchr.org/profile/xulu",
+      "https://orcid.org/0000-0002-3421-1987",
+      "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
+      "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
+      "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
+      "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM"
     ],
     "papers": [
       {
@@ -12019,9 +12098,37 @@ const facultyPaperAudits = {
         "url": "https://conf.researchr.org/details/fse-2026/fse-2026-ideas-visions-and-reflections/12/IDPVerifier-Verifying-Interrupt-driven-Programs-Efficiently-via-Heuristic-and-Reduce",
         "outcome": "no-evidence",
         "note": "FSE 2026 会方名录列西安电子科技大学、河北大学和曲阜师范大学。"
+      },
+      {
+        "title": "Detecting Atomicity Violations in Interrupt-Driven Programs via Interruption Points Selecting and Delayed ISR-Triggering",
+        "year": 2023,
+        "url": "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
+        "outcome": "no-evidence",
+        "note": "FSE 正式程序列西安电子科技大学及北京控制工程研究所，没有范围内企业。"
+      },
+      {
+        "title": "SBDT: Search-Based Differential Testing of Certificate Parsers in SSL/TLS Implementations",
+        "year": 2023,
+        "url": "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
+        "outcome": "no-evidence",
+        "note": "ISSTA 会方逐名列出全部作者，仅西安电子科技大学和曲阜师范大学。"
+      },
+      {
+        "title": "DafnyRAG: A Retrieval-Augmented and Verification-Driven Tool for Automated Repair of Dafny Code",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
+        "outcome": "no-evidence",
+        "note": "ASE 会方注明六位作者署西安电子科技大学、曲阜师范大学及河北大学。DeepSeek-V3 是评测使用的模型，未见深度求索作者。"
+      },
+      {
+        "title": "OpenRepair: An Automated Tool for OpenMP Data Race Repair via Retrieval-Augmented LLMs",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
+        "outcome": "no-evidence",
+        "note": "SPLASH/ISSTA 会方把全体作者列为西安电子科技大学。"
       }
     ],
-    "note": "逐篇核对作者机构；同一 DevGen 项目两份会议版对照用于归并，其余年段仍待查验。"
+    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
   },
   "QocCdX8AAAAJ": {
     "from": "2023-01-01",
@@ -12236,5 +12343,85 @@ const facultyPaperAudits = {
         "note": "ICCV 正式版列浙江工商大学及省重点实验室、北大与华科；未见范围内企业署名。"
       }
     ]
+  },
+  "XtfE1f0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/ZHANGXIAOYU/zh_CN/index.htm",
+      "https://web.xidian.edu.cn/xiaoyuzhang/paper.html",
+      "https://doi.org/10.1145/3664647.3680775",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_Explaining_Adversarial_Robustness_of_Neural_Networks_from_Clustering_Effect_Perspective_ICCV_2023_paper.pdf",
+      "https://ieeexplore.ieee.org/abstract/document/10376357/authors",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_MUter_Machine_Unlearning_on_Adversarially_Trained_Models_ICCV_2023_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "GDR-GMA: Machine Unlearning via Direction-Rectified and Magnitude-Adjusted Gradients",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3664647.3680775",
+        "outcome": "no-evidence",
+        "note": "ACM 作者署西电、卧龙岗大学、兰卡斯特大学、新加坡科技设计大学，没有范围内企业。"
+      },
+      {
+        "title": "Explaining Adversarial Robustness of Neural Networks from Clustering Effect Perspective",
+        "year": 2023,
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_Explaining_Adversarial_Robustness_of_Neural_Networks_from_Clustering_Effect_Perspective_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版作者署西电、浙大杭州国际科创中心和曲阜师范大学，没有范围内企业。"
+      },
+      {
+        "title": "MODA: Model Ownership Deprivation Attack in Asynchronous Federated Learning",
+        "year": 2024,
+        "url": "https://ieeexplore.ieee.org/abstract/document/10376357/authors",
+        "outcome": "no-evidence",
+        "note": "IEEE 2024 正式卷期；四位作者署西电及皇家墨尔本理工大学，没有范围内企业。"
+      },
+      {
+        "title": "MUter: Machine Unlearning on Adversarially Trained Models",
+        "year": 2023,
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_MUter_Machine_Unlearning_on_Adversarially_Trained_Models_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版署名仅人大、西电及广州研究院、浙大及杭州国际科创中心、埃默里大学。"
+      }
+    ],
+    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+  },
+  "-3WhJecAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/CXF2/zh_CN/index.htm",
+      "https://web.xidian.edu.cn/xiaoyuzhang/paper.html",
+      "https://doi.org/10.1145/3664647.3680775",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_Explaining_Adversarial_Robustness_of_Neural_Networks_from_Clustering_Effect_Perspective_ICCV_2023_paper.pdf",
+      "https://ieeexplore.ieee.org/abstract/document/10376357/authors"
+    ],
+    "papers": [
+      {
+        "title": "GDR-GMA: Machine Unlearning via Direction-Rectified and Magnitude-Adjusted Gradients",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3664647.3680775",
+        "outcome": "no-evidence",
+        "note": "ACM 作者署西电、卧龙岗大学、兰卡斯特大学、新加坡科技设计大学，没有范围内企业。"
+      },
+      {
+        "title": "Explaining Adversarial Robustness of Neural Networks from Clustering Effect Perspective",
+        "year": 2023,
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_Explaining_Adversarial_Robustness_of_Neural_Networks_from_Clustering_Effect_Perspective_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版作者署西电、浙大杭州国际科创中心和曲阜师范大学，没有范围内企业。"
+      },
+      {
+        "title": "MODA: Model Ownership Deprivation Attack in Asynchronous Federated Learning",
+        "year": 2024,
+        "url": "https://ieeexplore.ieee.org/abstract/document/10376357/authors",
+        "outcome": "no-evidence",
+        "note": "IEEE 2024 正式卷期；四位作者署西电及皇家墨尔本理工大学，没有范围内企业。"
+      }
+    ],
+    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
   }
 };
