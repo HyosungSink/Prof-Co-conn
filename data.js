@@ -35708,6 +35708,59 @@ const survey = {
         "上海交大江波本人教师主页的在读博士名单明确列 Haohui Zhang；江波同时是该论文的通讯作者。",
         "https://jhc.sjtu.edu.cn/~bjiang/"
       ]
+    },
+    {
+      "id": "hydra-tencent-sjtu-wxaiztmaaaaj",
+      "paperId": "arxiv:2609.34318",
+      "company": "腾讯",
+      "team": "混元",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "Yunzhuo Liu",
+        "本人职业页说明在腾讯混元从事 AI 基础设施工作；交大导师页记录其 2025 年博士毕业后赴腾讯，同篇原文署腾讯混元。",
+        "https://cn.linkedin.com/in/yunzhuo-liu-75ab15310"
+      ],
+      "student": [
+        "Zihao Fan",
+        "上海交大在读博士，HyDra 第一作者，双署上海交大和腾讯混元。论文第 3、6 节报告在混元 Hy4-preview 生产训练中的测量和实测。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "HyDra: Demystifying and Taming Dynamic Context Parallelism at Production Scale",
+      "short": "HyDra",
+      "date": "2026-09-28",
+      "venue": "arXiv 预印本",
+      "area": "大模型分布式训练系统",
+      "paper": "https://arxiv.org/html/2609.34318v1",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2609.34318"
+        ],
+        [
+          "同期腾讯混元 HyScale 原文",
+          "https://arxiv.org/pdf/2610.32057v3"
+        ],
+        [
+          "腾讯混元官方开源项目列同名研究员",
+          "https://github.com/Tencent-Hunyuan/FlashTopK"
+        ],
+        [
+          "江波官方教师档案",
+          "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+        ]
+      ],
+      "evidence": "江波的交大主页把 Zihao Fan 列为其在读博士。HyDra 原文列江波、第一作者 Zihao Fan（双署交大与腾讯混元）及 Yunzhuo Liu（腾讯混元）。原文第 3、6 节报告用混元 Hy4-preview 生产训练验证本项研发。",
+      "advising": [
+        "研究期间的具名导师",
+        "江波的上交教师主页列 Zihao Fan 为自己的在读博士、具名列 HyDra，江波为论文作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
     }
   ]
 };
