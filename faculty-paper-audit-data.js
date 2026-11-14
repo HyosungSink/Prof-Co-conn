@@ -14477,7 +14477,13 @@ const facultyPaperAudits = {
       "https://tomquartz.github.io/",
       "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
       "https://www.insc.tsinghua.edu.cn/info/1192/4104.htm",
-      "https://ennanzhai.github.io/pub/sosp23-dnsv.pdf"
+      "https://ennanzhai.github.io/pub/sosp23-dnsv.pdf",
+      "https://github.com/NaturezzZ/NaturezzZ.github.io/blob/9d699b71fbf2064fe8c6a7a8b9f9e71837cacf5b/_pages/about.md",
+      "https://github.com/NaturezzZ/NaturezzZ.github.io/commit/0f9e134399e5bbb1c09d49a8c6e06239fbf4f0c4",
+      "https://www.zhengnq.com/files/SOSP23-DNSV-Slides.pdf",
+      "https://zilizhang.site/",
+      "https://zilizhang.site/files/zzl-cv.pdf",
+      "https://jokerwyt.github.io/"
     ],
     "papers": [
       {
@@ -14554,8 +14560,8 @@ const facultyPaperAudits = {
         "year": 2023,
         "title": "Automated Verification of an In-Production DNS Authoritative Engine",
         "url": "https://doi.org/10.1145/3600006.3613153",
-        "outcome": "lead",
-        "note": "全文致谢阿里研究实习项目，郑耐谦本人履历显示当时是北大研究生和阿里科研实习生，还列有两名校内导师；尚缺将他本人实习工作直接对应这篇的材料，技术主题为 DNS 配置形式化验证。"
+        "outcome": "no-evidence",
+        "note": "正式版、第一作者同期在读和指导记录、阿里研究实习经历和同篇会议报告均可印证，已核实校企共同研究。论文主题为 DNS 权威服务器的常规软件形式化验证，未见本篇针对 AI 模型、智能应用或 AI 系统的实质内容，不计入本站当前 AI 研究关系数。"
       },
       {
         "year": 2025,
@@ -14612,6 +14618,34 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/tpds.2025.3590014",
         "outcome": "lead",
         "note": "TPDS 题录及原作者书目有同篇北大学生、两位博士导师、三位字节作者；暂未看到明确证明朱瑞东在字节完成该项工作的原文脚注或企业发布。"
+      },
+      {
+        "year": 2026,
+        "title": "Iceberg: Automated Verification of DNS Authoritative Engines via Just-in-Time Summarization",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-iceberg",
+        "outcome": "no-evidence",
+        "note": "USENIX 正式版全部作者署北大，以不同方法和基准独立研究 DNS 权威引擎。与阿里 DNS-V 有研究承接，不能沿用其企业角色。"
+      },
+      {
+        "year": 2026,
+        "title": "Heddle: A Distributed Orchestration System for Agentic RL Rollout",
+        "url": "https://arxiv.org/abs/2603.28101",
+        "note": "首稿原文六人署北大、两人独立研究者，无企业署名或企业科研脚注。参与学生的别项履历不能证明此篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "TokenLake: A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving",
+        "url": "https://arxiv.org/abs/2508.17219",
+        "note": "首稿署名只有北大和阶跃星辰；同一博士生后来的字节及小红书实习不能替代这篇的具体参与材料。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models",
+        "url": "https://doi.org/10.1145/3718958.3750472",
+        "note": "SIGCOMM 正式议程显示北大、阶跃星辰及独立作者。即使第一作者后来继续做多模态训练，论文所列企业是阶跃星辰，不在目标名单。",
+        "outcome": "no-evidence"
       }
     ],
     "note": "先核逐篇正式论文、学生期的具名企业项目及同期全职员工。已核对多篇正式版与首稿改名、版本脚注及同名系列，其他书目仍待逐篇梳理。"
@@ -38689,7 +38723,11 @@ const facultyPaperAudits = {
       "https://orcid.org/0000-0001-7408-2203",
       "https://arxiv.org/pdf/2412.06290",
       "https://conferences.sigcomm.org/events/apnet2026/apnetprogram.php",
-      "https://gopher943.github.io/pdf/tang_2024_survey.pdf"
+      "https://gopher943.github.io/pdf/tang_2024_survey.pdf",
+      "https://csee.hnu.edu.cn/info/1286/14269.htm",
+      "https://researchconnect.stonybrook.edu/en/publications/map-increasing-node-capacity-of-programmable-cloud-gateways/",
+      "https://arxiv.org/abs/2408.04390",
+      "https://securecomm.eai-conferences.org/2025/"
     ],
     "papers": [
       {
@@ -38782,9 +38820,86 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TBDATA.2024.3481899",
         "outcome": "no-evidence",
         "note": "IEEE 期刊 2024-10 在线、2025 卷；作者所公开的最终稿说明这是一项域间路由安全可视化综述，并非独立的某个企业实研项目。"
+      },
+      {
+        "year": 2026,
+        "title": "More Bang for Your Buck: Gaining Collateral Benefit from Partial ROV Deployment",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-23456-8_14",
+        "note": "Springer 正式卷 2026、EAI 会期 2025，两版是同一项 ROV 部署研究；作者为各高校及中科院，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "INT-MC: Low-Overhead In-Band Network-Wide Telemetry Based on Matrix Completion",
+        "url": "https://doi.org/10.1145/3726854.3727291",
+        "note": "ACM 正式题录的作者来自湖南大学、湖南科大、中科院网信中心及国科大；矩阵补全方法用于网内遥测，未见目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "SkipTrie: Fast IPv6 Lookup with Sub-Trie Skipping",
+        "url": "https://doi.org/10.1109/INFOCOM59046.2026.11571393",
+        "note": "IEEE 正式题录作者均署中科院网信中心或北大；与同组早期华为合著的 Heuristic Binary Search 是不同题录和查找方案，不能套用早期企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "SBA-Route: Domain-Based Routing for Scalable and Low-Latency 5G Distributed Control Planes",
+        "url": "https://doi.org/10.1109/IWQoS70441.2026.11661168",
+        "note": "IEEE 正式题录作者是湖大、石溪校区及中科院。湖南大学的答辩公告把这项跨域服务路由与同作者 H-NRF 系列的单域检索分别列出。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "TAR: Traffic Adaptive IPv6 Routing Lookup Scheme",
+        "url": "https://doi.org/10.1145/3663408.3663428",
+        "note": "ACM 正式题录全部是国科大、中科院计算所或网信中心；用有流量模式的 IPv6 路由查找，无目标企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "H2-NRF: A high-performance and evolvable NRF with hierarchical indexing and minimal-overhead profile handling",
+        "url": "https://doi.org/10.1016/j.comnet.2026.112381",
+        "note": "以相同作者的 H-NRF APNet 2025 为同一核心工作，期刊版加上分层属性索引和序列化处理；作者属湖大、中科院及石溪校区，未核得目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "From Address Blocks to Authorized Prefixes: Redesigning RPKI ROV with a Hierarchical Hashing Scheme for Fast and Memory-Efficient Validation",
+        "url": "https://www.usenix.org/conference/nsdi25/presentation/ni",
+        "note": "USENIX 正式版有东南大学、紫金山实验室、中科院网信中心及国科大。公开评估为路由数据和仿真，没有目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Demystifying the Mobile Control Plane Characteristics for Ubiquitous Connectivity",
+        "url": "https://doi.org/10.1145/3730567.3764463",
+        "note": "ACM 题录机构只有中科院网信中心、国科大杭州高等研究院、湖南大学及纽约州立大学石溪校区。未见目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "PathProb: Probabilistic Inference and Path Scoring for Enhanced and Flexible BGP Route Leak Detection",
+        "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1691-paper.pdf",
+        "note": "NDSS 原文所有作者为网信中心和国科大，评估现实 BGP 轨迹，没有目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "MaP: Increasing node capacity of programmable cloud gateways",
+        "url": "https://doi.org/10.1016/j.comnet.2024.110590",
+        "note": "出版社原件和合作者院校书目核实，署名只有网信中心、湖南大学、石溪校区，资助单位为自然科学基金与中科院。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "TupleChain: Fast Flow Table Lookup With Efficient On-Line Updates and Scalability",
+        "url": "https://doi.org/10.1109/TC.2025.3626594",
+        "note": "合并同作者 2024 预印本 2408.04390。正式版无企业，尽管任能和李彦彪此前另一件主题相近的 INFOCOM 论文有华为作者，不能混用。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "按国科大院所主页、ORCID、DBLP 身份与出版社题录逐篇交叉；已保留两件华为线索，尚无在读共著者于目标公司做该篇研究的直接证据。新增进度也覆盖无企业作者或仅涉及范围之外企业的论文；余下会议和期刊书目仍逐篇查。"
+    "note": "已逐篇核对 DBLP 2026-11-01 的个人条目、CCF 书目、学校公开页及期刊/会议正式出版材料。两件华为同署仅能作线索，缺在读学生该篇的企业实研证据；外部书目与期刊页仍在最后对账。"
   },
   "TbomW9sAAAAJ": {
     "from": "2023-01-01",
@@ -49187,7 +49302,10 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3611643.3616280",
       "https://www.usenix.org/system/files/atc25-hu-junhao.pdf",
       "https://raw.githubusercontent.com/mlresearch/v267/main/assets/hu25j/hu25j.pdf",
-      "https://aclanthology.org/2025.findings-acl.131.pdf"
+      "https://aclanthology.org/2025.findings-acl.131.pdf",
+      "https://arxiv.org/html/2607.26444v2",
+      "https://ccf.org.cn/tcss2026",
+      "https://tiancheng-htc.github.io/Tiancheng-Hu.github.io/"
     ],
     "papers": [
       {
@@ -49245,6 +49363,27 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2406.17565",
         "outcome": "lead",
         "note": "学生履历列此成果并列华为云同篇研究团队，但首稿 2024 年 6 月公开，早于履历所列 7 月开始的华为云实习；具体参与身份仍待补核。"
+      },
+      {
+        "title": "xDeepServe: Model-as-a-Service on Huawei CloudMatrix384",
+        "url": "https://arxiv.org/abs/2508.02520",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "华为报告列华为员工和参研的北大博士生 Junhao Hu，但谢涛不署同篇。不能把 ATC DeepServe 署名套用到 xDeepServe。"
+      },
+      {
+        "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
+        "url": "https://arxiv.org/abs/2608.03764",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Junhao Hu 的公开主页将其列为项目负责人，但项目首稿未见谢涛署名，不能算该师生关系。"
+      },
+      {
+        "year": 2026,
+        "title": "StrataCL: Fabric-Native Communication Library for Production Supernodes",
+        "url": "https://arxiv.org/abs/2607.26444",
+        "note": "以华为作者署名修订版、博士生主页和 CCF ZeroCL 报告闭环；2026-07 首稿在范围期内，作者个人页列在华为实习所做的 CM384 通信。",
+        "outcome": "confirmed"
       }
     ],
     "note": "先逐篇核查北大谢涛指导的 Junhao Hu 在各企业团队的合作，仍须继续谢涛全部书目。"

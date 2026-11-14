@@ -44492,6 +44492,63 @@ const survey = {
         ]
       ],
       "evidence": "EMNLP 正式版第 1 页明确写明 Gangwei Jiang 在快手实习时完成本研究，并列其中国科大与港城大署名；宋林琦研究组具名列其为 2022 年起指导的在读博士，宋同篇署港城大；在任快手 NLP 与音频智能中心主任张富峥同篇署快手。2025 年 5 月同篇预印本与 11 月会议版合并。"
+    },
+    {
+      "id": "huawei-stratacl-pku-xie",
+      "company": "华为",
+      "team": "华为 · CloudMatrix384 超节点通信",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "谢涛 · Tao Xie",
+        "北京大学计算机学院教授，在读学生的具名博士导师并参与同一篇预印本。",
+        "https://cs.pku.edu.cn/info/1084/1713.htm"
+      ],
+      "employee": [
+        "Jingbin Zhou",
+        "本篇修订版列华为；本人公开任职资料与 APNet、CoNEXT 原文中的华为网络研究身份一致。",
+        "https://pages.cpsc.ucalgary.ca/~mghaderi/docs/conext25-harmonics.pdf"
+      ],
+      "student": [
+        "胡天成 · Tiancheng Hu",
+        "北京大学博士生，2025-07 至 2026-06 在华为诺亚方舟实验室做 CM384 内存管理与通信。本人研究列表直接链接本文，公开报告介绍在华为超节点的技术实现。",
+        "https://tiancheng-htc.github.io/Tiancheng-Hu.github.io/"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "胡天成本人主页和 CCF 系统软件技术论坛的具名履历均明确谢涛为博士导师；两人共同署名。",
+        "https://ccf.org.cn/tcss2026"
+      ],
+      "area": "AI 系统",
+      "title": "StrataCL: Fabric-Native Communication Library for Production Supernodes",
+      "short": "StrataCL",
+      "date": "2026-07-29",
+      "venue": "arXiv 预印本",
+      "paperId": "arxiv:2607.26444",
+      "paper": "https://arxiv.org/abs/2607.26444",
+      "extra": [
+        [
+          "作者修订版与华为作者机构",
+          "https://arxiv.org/html/2607.26444v2"
+        ],
+        [
+          "CCF 论坛：具名校内导师、项目与华为生产实现",
+          "https://ccf.org.cn/tcss2026"
+        ],
+        [
+          "发言者与 ZeroCL 第一作者",
+          "https://gacs.zhidx.com/2026/"
+        ],
+        [
+          "企业作者的早期正式文章",
+          "https://conferences.sigcomm.org/events/apnet2024/papers/RevisitingCongestionControlforWiFiNetworks.pdf"
+        ],
+        [
+          "企业作者公开任职资料",
+          "https://cn.linkedin.com/in/jingbin-zhou-a7bb609a"
+        ]
+      ],
+      "evidence": "首稿 2026-07-29 已公开，8 月 11 日机构修订版明确 Jingbin Zhou 等作者属华为。第一作者胡天成及 CCF 报告将他的华为实习项目、北大博士指导和本篇所研究的超节点通讯结合：CCF 使用 ZeroCL 项目名，但同列注册与虚拟地址机制、设备 DMA 和完全一致的 CloudMatrix384 端到端性能指标。按该篇预印本收录，研究和实习在前，7 月首稿在后；未核到正式会议接收。"
     }
   ]
 };
