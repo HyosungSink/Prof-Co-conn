@@ -24303,7 +24303,7 @@ const facultyPaperAudits = {
   "oV0URCcAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://people.ucas.ac.cn/~yqs",
       "https://versys.ios.ac.cn/members/",
@@ -24313,7 +24313,8 @@ const facultyPaperAudits = {
       "https://klss.ios.ac.cn/2024/12/3838.html",
       "https://people.ucas.edu.cn/~0012988",
       "https://people.ucas.ac.cn/~mingshu?language=en",
-      "https://easychair.org/smart-program/SETTA2026/"
+      "https://easychair.org/smart-program/SETTA2026/",
+      "https://arxiv.org/abs/2411.12749"
     ],
     "papers": [
       {
@@ -24335,7 +24336,7 @@ const facultyPaperAudits = {
         "title": "Predicting Lemmas in Generalization of IC3",
         "url": "https://doi.org/10.1145/3649329.3655970",
         "outcome": "no-evidence",
-        "note": "研究所报告确认第一作者苏宇恒为博士生，研究所海报列三人同属软件所；苏宇恒的 2020 年华为和 2021 年字节经历早于本研究，2026 年入职海思在论文之后。"
+        "note": "研究所报告确认第一作者苏宇恒为博士生，研究所海报与作者稿均列三人同属软件所，资助为中科院软件所和国家自然科学基金；苏宇恒的 2020 年华为和 2021 年字节经历早于本研究，2026 年入职海思在论文之后。"
       },
       {
         "year": 2024,
@@ -24483,9 +24484,16 @@ const facultyPaperAudits = {
         "url": "https://rjxb.alljournals.cn/jos/article/pdf/7671",
         "outcome": "no-evidence",
         "note": "《软件学报》2026-10-28 首发。全文列软件所、国科大，基金为国家和北京市自然科学基金；文中以 ChipDRAG 为基线，两篇研究不重复。"
+      },
+      {
+        "year": 2025,
+        "title": "基于锁保证条件扩展并发分离逻辑的并发文件系统形式化验证",
+        "url": "https://opaj.napstic.cn/periodicalArticle/0120260101948383",
+        "outcome": "no-evidence",
+        "note": "国家科技期刊平台转载《通信学报》原始记录，郑新民署软件所与国科大，其余三位署软件所；本文以锁保证条件（CSL-L）处理并发不变量，有别于 ICPADS 的非持久条件方案。"
       }
     ],
-    "note": "按国科大公开书目、实验室学生主页、出版社与作者公开全文逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本、摘要和正式版合一。已核对基本公开书目及多个外部条目；《通信学报》另有同作者中文论文待补出版方全文。SETTA 的 Caster 在 2026 年 12 月举行，无截止日前独立公开论文，未纳入。"
+    "note": "按国科大公开书目、实验室学生主页、出版社与作者公开全文逐篇核对 2023-01-01 至 2026-11-12。同研究的预印本与正式版合一；有新增作者、方法和独立结果的扩展论文独立记录。已排除与广州大学材料工程同名作者的记录；SETTA 的 Caster 在 2026 年 12 月举行，未发现截止日前独立公开论文。"
   },
   "OsceCbcAAAAJ": {
     "from": "2023-01-01",
@@ -24742,5 +24750,150 @@ const facultyPaperAudits = {
       }
     ],
     "note": "首批逐篇核查 24 篇。本人、清华研究组、DBLP 和 arXiv 按题名、署名、版本记录交叉。清华学校档案确定 2025 年 6 月开始任教；用同期身份判断。继续核几篇早期出版商原文和腾讯署名工作。"
+  },
+  "WxAIZtMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html",
+      "https://jhc.sjtu.edu.cn/~bjiang/"
+    ],
+    "papers": [
+      {
+        "title": "Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding",
+        "url": "https://arxiv.org/pdf/2609.36173v2",
+        "outcome": "confirmed",
+        "note": "Haohui Zhang 在上海交大攻读博士，DSpine 原文具名列其为上海交大和腾讯优图双署的共同第一作者；腾讯官方项目同名列为首位作者并发布其训练、推理代码及模型，明确连接该学生与本项腾讯研发。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "g5XtZGkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://en-cs.hust.edu.cn/info/1565/1531.htm",
+      "https://stlab.wnlo.hust.edu.cn/dy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013",
+      "https://dblp.org/pid/50/128.html",
+      "https://orcid.org/0000-0003-1597-1881",
+      "https://orcid.org/0009-0008-5297-3169"
+    ],
+    "papers": [
+      {
+        "title": "FMQ-ZNS: Enhancing ZNS-Aware Fairness and Performance Through Multi-queue I/O Scheduling",
+        "url": "https://doi.org/10.1007/978-981-95-8402-4_4",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICA3PP 2025 会议的章于 2026 年正式上线。版面三位华中科大作者，未见目标企业证据。"
+      },
+      {
+        "title": "AGDM: An Adaptive Granularity Data Migration Strategy for Hybrid Memory Systems",
+        "url": "https://doi.org/10.23919/DATE56975.2023.10137177",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "DATE 原文五位作者均署华中科大，陈俭喜及冯丹通讯；未发现目标企业。暂以独立会议报告列，待对照 AdaptHM 正式版。"
+      },
+      {
+        "title": "HyF2FS: A Filesystem to Fully Exploit the Parallelism of Hybrid Storage",
+        "url": "https://doi.org/10.1109/ICCD58817.2023.00049",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICCD 正式目录逐名列华中科大作者；未见范围内企业参与。"
+      },
+      {
+        "title": "SchInFS: A File System Integrating Functions of the Block I/O Scheduler for ZNS SSDs",
+        "url": "https://doi.org/10.1109/ICCD63220.2024.00057",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ICCD 会议目录逐名列华中科大武汉光电国家研究中心，未见目标企业共同作者。"
+      },
+      {
+        "title": "Optimizing Structural Modification Operation for B+-Tree on Byte-Addressable Devices",
+        "url": "https://doi.org/10.1109/ICCD63220.2024.00043",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "ICCD 正式会议目录列作者单位为华中科大，未发现目标企业署名。"
+      },
+      {
+        "title": "RWORT: A Read and Write Optimized Radix Tree for Persistent Memory",
+        "url": "https://doi.org/10.1109/ICCD58817.2023.00038",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICCD 2023 会议目录逐名标注华中科大作者，未见范围内企业证据。"
+      },
+      {
+        "title": "R2Hash: A Read-Optimized and Resize-Friendly Hashing Index for Persistent Memory",
+        "url": "https://doi.org/10.1109/ICCD65941.2025.00033",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "作者存档的 ICCD 正式原文逐名列六位华中科大作者，陈俭喜与冯丹为通讯作者，未见范围内企业参与。"
+      },
+      {
+        "title": "ZNStore: Decomposing the B+Tree Write Path for Zoned Namespace SSDs",
+        "url": "https://doi.org/10.1145/3832810.3832815",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "ICPP 正式 DOI、陈波 ORCID 及华中科大实验室的具名消息相符，证实第一作者为校内博士生；待能公开复核的论文单位与致谢。"
+      },
+      {
+        "title": "Giant: An I/O-Optimized Graph-Based Index for High-dimensional Vector Search via Page Group Expansion",
+        "url": "https://doi.org/10.1007/978-981-92-0363-5_40",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer DASFAA 正式稿列四位作者均来自华中科大武汉光电国家研究中心，未见目标企业参与。"
+      },
+      {
+        "title": "GECKO: A Write-Optimized Adaptive Radix Tree for Disaggregated Memory",
+        "url": "https://doi.org/10.1007/978-3-031-99872-0_17",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer Euro-Par 正式作者单位均为华中科大武汉光电国家研究中心，未见目标企业参与。"
+      },
+      {
+        "title": "Characterization of I/O Behaviors in Cloud Storage Workloads",
+        "url": "https://doi.org/10.1109/TC.2023.3263726",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "IEEE 期刊论文将华中科大陈俭喜与多位高校研究者组成作者组，DBLP 中他的 ORCID 与同校存储论文一致；待核原文企业数据来源及署名细节，公开数据本身不构成关系。"
+      },
+      {
+        "title": "Eukv: Enabling Efficient Updates for Hybrid PM-DRAM Key-Value Store",
+        "url": "https://doi.org/10.1109/ACCESS.2023.3261461",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE Access 开放正式文及校方成果记录可按公开 DOI 对应；两位华中科大作者，无目标企业共同署名。"
+      },
+      {
+        "title": "ZNSFQ: An Efficient and High-Performance Fair Queue Scheduling Scheme for ZNS SSDs",
+        "url": "https://doi.org/10.1145/3746230",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 正式论文的六位作者均署华中科大武汉光电国家研究中心。未见范围内企业共同作者。"
+      },
+      {
+        "title": "AdaptHM: A Fully Adaptive Data Migration Strategy for Hybrid Memory Systems",
+        "url": "https://doi.org/10.1109/TCAD.2023.3333284",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "IEEE 正式卷在 2025、在线为 2023；整理了九位合作者，待补齐单位与计划原文。与 DATE 2023 的 AGDM 关系仍待出版稿确认。"
+      },
+      {
+        "title": "RHPM: Using Relative Hotness to Guide Page Migration for Hybrid Memory Systems",
+        "url": "https://doi.org/10.1109/TCAD.2022.3231836",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "IEEE 正式卷 2023，已核对作品与合作者姓名，仍查可复核全文署名和致谢。"
+      },
+      {
+        "title": "PMEH: A Parallel and Write-Optimized Extendible Hashing for Persistent Memory",
+        "url": "https://doi.org/10.1109/TCAD.2023.3271579",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "美国国家科学基金会公开的 IEEE 正式版及作者 ORCID 显示高校团队。IEEE 论文与 2021 年作者组的 ICPP 会议扩展同一方向；范围内期刊计一条。"
+      }
+    ]
   }
 };

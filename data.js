@@ -35647,6 +35647,67 @@ const survey = {
         ]
       ],
       "evidence": "第一作者詹佳豪在论文原文及技术项目双署港中文和字节跳动；2026 年 9 月的个人履历同时记录其在港中文读博、由薛天帆指导，并仍在字节多媒体实验室担任算法实习生。字节全职研究员、同篇作者幸群亮同期公开页独立列他为实习生。10 月 2 日公开的训练、推理实现与论文同日上线；不从公开日期反推项目的开始时间。"
+    },
+    {
+      "id": "dspine-tencent-sjtu-wxaiztmaaaaj",
+      "paperId": "arxiv:2609.36173",
+      "company": "腾讯",
+      "team": "优图实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "江波 · Bo Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+      ],
+      "employee": [
+        "孙星 · Xing Sun",
+        "本人主页明确为腾讯优图实验室正式首席研究员、团队负责人；DSpine 原文以腾讯优图署名，2024 年正式论文亦列同一实验室。",
+        "https://www.sunxing.org/"
+      ],
+      "student": [
+        "Haohui Zhang",
+        "Haohui Zhang 是上海交大在读博士，原文以交大和腾讯优图双署列其为共同第一作者。腾讯官方仓库发布该项实现与模型，引用该论文并列其为第一作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ],
+      "title": "Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding",
+      "short": "DSpine",
+      "date": "2026-09-28",
+      "venue": "arXiv 预印本",
+      "area": "语言模型推理系统",
+      "paper": "https://arxiv.org/pdf/2609.36173v2",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2609.36173v2"
+        ],
+        [
+          "腾讯官方 DSpine 代码与项目作者名单",
+          "https://github.com/Tencent/DSpine"
+        ],
+        [
+          "腾讯仓库 2026 年 10 月 16 日的首次实现",
+          "https://github.com/Tencent/DSpine/commit/07f326a047f1d6c2f2a10451d80799499dad1406"
+        ],
+        [
+          "腾讯发布 DSpine 模型",
+          "https://huggingface.co/tencent/Qwen3-8B-DSpine-b16"
+        ],
+        [
+          "教师官方档案",
+          "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html"
+        ],
+        [
+          "企业研究员 2024 年正式署名",
+          "https://openreview.net/pdf?id=RJT1baPhdV"
+        ]
+      ],
+      "evidence": "上海交大导师主页列出其在读博士 Haohui Zhang。DSpine 原文列 Haohui Zhang 为上海交大和腾讯优图双署的共同第一作者，江波为通讯作者，孙星署名腾讯优图。腾讯仓库于 2026 年 10 月发布实现，项目引用该论文。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大江波本人教师主页的在读博士名单明确列 Haohui Zhang；江波同时是该论文的通讯作者。",
+        "https://jhc.sjtu.edu.cn/~bjiang/"
+      ]
     }
   ]
 };
