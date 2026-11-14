@@ -40469,6 +40469,116 @@ const survey = {
           "https://www.tencent.com/en-us/articles/2202134.html"
         ]
       ]
+    },
+    {
+      "id": "alibaba-molspectra-ucas-wang",
+      "paperId": "arxiv:2502.16284",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "阿里巴巴",
+      "team": "达摩院 Language And Science AI Lab（LASA）",
+      "faculty": [
+        "王亮 · Liang Wang（导师）",
+        "中国科学院自动化研究所研究员、国科大博士生导师；与首作者同名，以作者位置、单位邮箱和导师资料区分。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "荣钰 · Yu Rong",
+        "论文共同通讯作者，署阿里巴巴达摩院；阿里巴巴创业者基金确认其 2024 年 6 月加入达摩院，本人写明任 LASA 负责人。",
+        "https://royrong.me/"
+      ],
+      "student": [
+        "王亮 · Liang Wang（博士生）",
+        "2021–2026 年就读国科大自动化所博士；2024 年 8 月至 2025 年 3 月为达摩院 LASA 研究实习生，履历具名荣钰为企业导师，并将本项目列为实习成果。",
+        "https://azureleon1.github.io/"
+      ],
+      "title": "MolSpectra: Pre-training 3D Molecular Representation with Multi-modal Energy Spectra",
+      "short": "MolSpectra",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "分子光谱预训练",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/d7eb232f196124894f2e65b9010a5c57-Paper-Conference.pdf",
+      "evidence": "ICLR 正式版首作者为国科大博士生王亮，末位同名作者为其校内主导师，达摩院共同通讯作者荣钰同篇。学生履历在阿里实习项明确该工作发表于 ICLR 2025；同一履历仅列本篇为 ICLR 2025 论文，且预印本在实习结束前发布。",
+      "advising": [
+        "国科大博士生导师",
+        "博士生王亮的履历明确记载主导师为同名的自动化所王亮教授，吴书及刘强为共同指导。",
+        "https://azureleon1.github.io/files/CV_Liang_Wang_latest.pdf"
+      ],
+      "extra": [
+        [
+          "学生完整履历（学籍、校内导师、企业时间与具体成果）",
+          "https://azureleon1.github.io/files/CV_Liang_Wang_latest.pdf"
+        ],
+        [
+          "国科大吴书指导学生名单（博士生王亮）",
+          "https://people.ucas.ac.cn/~shuwu"
+        ],
+        [
+          "阿里巴巴创业者基金：荣钰加入达摩院的时间",
+          "https://jumpstarter.hk/en/ignition-gala"
+        ],
+        [
+          "ICLR 官方演讲稿与作者单位",
+          "https://iclr.cc/media/iclr-2025/Slides/27793.pdf"
+        ],
+        [
+          "预印本与提交时间",
+          "https://arxiv.org/abs/2502.16284"
+        ]
+      ]
+    },
+    {
+      "id": "meituan-bigsl-ucas-wang",
+      "paperId": "doi:10.1109/TKDE.2024.3397683",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "美团",
+      "team": "NLP 中心／知识计算团队",
+      "faculty": [
+        "王亮 · Liang Wang（导师）",
+        "中国科学院自动化研究所研究员、国科大博士生导师；与首作者同名，以作者位置、单位邮箱和导师资料区分。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "张梦迪 · Mengdi Zhang",
+        "原文机构与单位邮箱列为美团。2025 年 ACL 另一篇正式论文亦列其为美团研究人员。",
+        "https://aclanthology.org/2025.acl-long.1102.pdf"
+      ],
+      "student": [
+        "王亮 · Liang Wang（博士生）",
+        "2021–2026 年就读国科大自动化所博士；本人列 2021 年 9 月至 2022 年 10 月在美团 NLP 中心研究实习，成果发表于 IEEE TKDE 和 SDM。",
+        "https://azureleon1.github.io/"
+      ],
+      "title": "Bi-Level Graph Structure Learning for Next POI Recommendation",
+      "short": "BiGSL",
+      "date": "2024-11",
+      "venue": "IEEE TKDE",
+      "area": "图学习、地点推荐",
+      "paper": "https://doi.org/10.1109/TKDE.2024.3397683",
+      "evidence": "学生履历将美团实习的图学习和时空挖掘工作明确连到 IEEE TKDE 和 SDM；所列 IEEE TKDE 对应论文是 BiGSL。原文列首作者、末位同名的校内导师及美团作者张梦迪，使用 2021 年 10 月的美团交易数据。资料将研究连到实习期；正式版先于 2024 年 11 月刊期完成审稿。",
+      "advising": [
+        "国科大博士生导师",
+        "博士生王亮的履历明确记载主导师为同名的自动化所王亮教授，吴书及刘强为共同指导。",
+        "https://azureleon1.github.io/files/CV_Liang_Wang_latest.pdf"
+      ],
+      "extra": [
+        [
+          "学生完整履历（学籍、校内导师、企业时间与具体成果）",
+          "https://azureleon1.github.io/files/CV_Liang_Wang_latest.pdf"
+        ],
+        [
+          "国科大吴书指导学生名单（博士生王亮）",
+          "https://people.ucas.ac.cn/~shuwu"
+        ],
+        [
+          "作者公开全文、单位及投稿历史",
+          "https://arxiv.org/html/2411.01169v1"
+        ],
+        [
+          "出版社提交至 Crossref 的刊期与 DOI",
+          "https://api.crossref.org/works/10.1109/TKDE.2024.3397683"
+        ]
+      ]
     }
   ]
 };

@@ -6462,21 +6462,23 @@ const facultyPaperAudits = {
       "https://cs.ccnu.edu.cn/info/1348/14276.htm",
       "https://dblp.org/pid/62/1637-13.html",
       "https://bluesjjw.github.io/",
-      "https://xxzhang99.github.io/"
+      "https://xxzhang99.github.io/",
+      "https://dblp.org/pid/185/1521-1.html"
     ],
     "papers": [
       {
         "title": "Complete or Abstain? Aligning SQL Completion with User Preferences",
         "url": "https://aclanthology.org/2026.emnlp-industry.16.pdf",
         "outcome": "lead",
-        "note": "原文具名列 Xintong Hu 在腾讯 TEG 实习期间完成研究；目前未找到可确认其与江佳伟指导关系的公开材料。"
+        "note": "EMNLP 版首页具名确认武大作者 Xintong Hu 在腾讯 TEG 实习完成本篇；江佳伟为同篇通讯。仍无具名材料证实江佳伟为该学生校内导师。",
+        "year": 2026
       },
       {
         "title": "MTGenRec: An Efficient Distributed Training System for Generative Recommendation Models in Meituan",
-        "url": "https://kdd2026.kdd.org/papers/",
+        "url": "https://arxiv.org/abs/2505.12663",
         "year": 2026,
         "outcome": "lead",
-        "note": "江佳伟与公司及学校作者同篇署名，已对照出版名单或论文首版。还需能具名对应具体学生、项目参与及校内指导的来源。"
+        "note": "2025 年首稿名 MtgrBoost，2026 KDD 版为同一 arXiv 演进稿。美团线上应用明确，但武大第一作者 Yuxiang Wang 在美团参与本项研究与具体校内导师仍待补证。"
       },
       {
         "title": "Self-Supervised Learning for Graph Dataset Condensation",
@@ -6512,6 +6514,34 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "首稿由武大博士生 Xinxun Zhang 本人提交，他与腾讯作者共同第一，校内导师江佳伟与腾讯蒋杰均为通讯作者。原文第 4.5 节记载该项目于 2026 年 3 月 7–11 日在腾讯微信视频号广告系统进行线上实验；当期正是学生履历明确写出的腾讯生成式推荐基础设施研究实习阶段。UniVA 引用 UniSID，作为另一篇研究单独计数。"
+      },
+      {
+        "title": "Hounding Data Diversity: Towards Participant Selection in Vertical Federated Learning",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/FC/wKgCBWi0OBSAPEDLAAv1jdsMSd8223.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "ICDE 首页显示武大第一作者 Xiaokai Zhou、OceanBase 两位员工及武大通讯江佳伟；未找到具名学生企业参与及指导来源。"
+      },
+      {
+        "title": "VFCI: A Federated Framework for Vertical Causal Inference",
+        "url": "https://link.springer.com/article/10.1007/s41019-026-00357-7",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "Springer 原文作者表同列武大和 OceanBase；学生与该企业合作的具体角色未核实。"
+      },
+      {
+        "title": "Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning",
+        "url": "https://obbusiness-private.oss-cn-shanghai.aliyuncs.com/resource-download/report/generative%20and%20contrastive%20paradigms%20are%20complementary%20for%20graph%20self-supervised%20learning.pdf",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "ICDE 首页列武大首作者 Yuxiang Wang，OceanBase 员工许全清、杨传辉，武大江佳伟通讯；未找到具名学生在企业完成本研究的证据。"
+      },
+      {
+        "title": "Guiding LLM-based Smart Contract Generation with Finite State Machine",
+        "url": "https://ijcai.org/proceedings/2025/0653.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式版首作者与通讯作者均署武大，原文未指明范围内企业在这篇研究的参与者。另一篇腾讯研究的实习脚注不能移用于本篇。"
       }
     ],
     "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
@@ -17591,41 +17621,135 @@ const facultyPaperAudits = {
       "https://baoy-nlp.github.io/",
       "https://proceedings.neurips.cc/paper_files/paper/2024/file/daef77101ba5711084a57442c8cf2709-Paper-Conference.pdf",
       "https://proceedings.iclr.cc/paper_files/paper/2024/file/180f6184a3458fa19c28c5483bc61877-Paper-Conference.pdf",
-      "https://proceedings.mlr.press/v202/guan23a/guan23a.pdf"
+      "https://proceedings.mlr.press/v202/guan23a/guan23a.pdf",
+      "https://www.ia.cas.cn/rcdw/jcqn/202404/t20240422_7129880.html",
+      "https://azureleon1.github.io/",
+      "https://azureleon1.github.io/files/CV_Liang_Wang_latest.pdf",
+      "https://people.ucas.ac.cn/~shuwu",
+      "https://iclr.cc/media/iclr-2025/Slides/27793.pdf",
+      "https://royrong.me/",
+      "https://sigkg.cn/ccks2022/en/index.php/industry-forum/",
+      "https://sunxin000.github.io/",
+      "https://www.antgroup.com/en/technology",
+      "https://unctad.org/system/files/official-document/ecn162024inf1_en.pdf",
+      "https://openreview.net/pdf/9b472ed0671cf9a92c141bb68003a9dc4ee47ff9.pdf",
+      "https://people.ucas.ac.cn/~wangliang"
     ],
     "papers": [
       {
         "title": "Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/daef77101ba5711084a57442c8cf2709-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "NeurIPS 正式稿首页明确将周相鑫列为在字节跳动开展本研究的实习生。王亮和时任字节研究科学家郑在翔均为同篇作者。"
+        "note": "NeurIPS 正式稿首页明确将周相鑫列为在字节跳动开展本研究的实习生。王亮和时任字节研究科学家郑在翔均为同篇作者。",
+        "year": 2024
       },
       {
         "title": "DecompOpt: Controllable and Decomposed Diffusion Models for Structure-Based Molecular Optimization",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/180f6184a3458fa19c28c5483bc61877-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "正式稿及预印本均具名说明周相鑫在字节跳动实习期间完成这项研究，王亮和字节跳动研究员鲍宇同篇署名。"
+        "note": "正式稿及预印本均具名说明周相鑫在字节跳动实习期间完成这项研究，王亮和字节跳动研究员鲍宇同篇署名。",
+        "year": 2024
       },
       {
         "title": "DecompDiff: Diffusion Models with Decomposed Priors for Structure-Based Drug Design",
         "url": "https://proceedings.mlr.press/v202/guan23a/guan23a.pdf",
         "outcome": "confirmed",
-        "note": "PMLR 正式稿首页具名说明本篇研究在周相鑫和贾启的字节跳动实习期间开展。此条采周相鑫的校内导师王亮及正式企业员工鲍宇为同篇关系。"
+        "note": "PMLR 正式稿首页具名说明本篇研究在周相鑫和贾启的字节跳动实习期间开展。此条采周相鑫的校内导师王亮及正式企业员工鲍宇为同篇关系。",
+        "year": 2023
       },
       {
         "title": "Decomposed Direct Preference Optimization for Structure-Based Drug Design",
         "url": "https://arxiv.org/html/2407.13981v1",
         "outcome": "no-evidence",
-        "note": "原文具名仍在字节实习，但本篇未署王亮，不能沿用相近课题关系。"
+        "note": "原文具名仍在字节实习，但本篇未署王亮，不能沿用相近课题关系。",
+        "year": 2024
       },
       {
         "title": "Investigating Compositional Challenges in Vision-Language Models for Visual Grounding",
         "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_Investigating_Compositional_Challenges_in_Vision-Language_Models_for_Visual_Grounding_CVPR_2024_paper.html",
         "outcome": "lead",
-        "note": "曾宇楠的美团实习由原文具名；国科大两位同篇作者黄岩、王亮的直接指导未核到。"
+        "note": "曾宇楠的美团实习由原文具名；国科大两位同篇作者黄岩、王亮的直接指导未核到。",
+        "year": 2024
+      },
+      {
+        "year": 2025,
+        "title": "MolSpectra: Pre-training 3D Molecular Representation with Multi-modal Energy Spectra",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/d7eb232f196124894f2e65b9010a5c57-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式版首作者为国科大博士生王亮，末位同名作者为其校内主导师，达摩院共同通讯作者荣钰同篇。学生履历在阿里实习项明确该工作发表于 ICLR 2025；同一履历仅列本篇为 ICLR 2025 论文，且预印本在实习结束前发布。"
+      },
+      {
+        "year": 2024,
+        "title": "Bi-Level Graph Structure Learning for Next POI Recommendation",
+        "url": "https://doi.org/10.1109/TKDE.2024.3397683",
+        "outcome": "confirmed",
+        "note": "学生履历将美团实习的图学习和时空挖掘工作明确连到 IEEE TKDE 和 SDM；所列 IEEE TKDE 对应论文是 BiGSL。原文列首作者、末位同名的校内导师及美团作者张梦迪，使用 2021 年 10 月的美团交易数据。资料将研究连到实习期；正式版先于 2024 年 11 月刊期完成审稿。"
+      },
+      {
+        "year": 2025,
+        "title": "DiffSpectra: Molecular Structure Elucidation from Spectra using Diffusion Models",
+        "url": "https://arxiv.org/html/2507.06853v1",
+        "outcome": "lead",
+        "note": "首作者博士生与末位同名导师、达摩院荣钰等同篇；初稿发表于 2025 年 7 月，学生已结束阿里实习并在其他机构实习。现有履历的 ICLR 2025 具名成果是 MolSpectra，不能套入本篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Variational Reasoning for Language Models",
+        "url": "https://arxiv.org/pdf/2509.22637",
+        "outcome": "no-evidence",
+        "note": "作者、校内博士生周相鑫及王亮同篇，Sea AI Lab 为本文企业单位，超出调查企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Reinforcing General Reasoning without Verifiers",
+        "url": "https://arxiv.org/pdf/2505.21493",
+        "outcome": "no-evidence",
+        "note": "学生周相鑫与王亮同篇，实习脚注明确在 Sea AI Lab 开展，具名对应 Haonan Wang 和 Anya Sims；Sea AI Lab 不在范围，不能转引为其他企业。"
+      },
+      {
+        "year": 2026,
+        "title": "KBQA-R1: Reinforcing Large Language Models for Knowledge Base Question Answering",
+        "url": "https://proceedings.mlr.press/v306/sun26h.html",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "year": 2026,
+        "title": "Predict the Retrieval! Test Time Adaptation for Retrieval Augmented Generation",
+        "url": "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13877&bare=1",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "year": 2026,
+        "title": "Multimodal Adaptive Retrieval Augmented Generation through Internal Representation Learning",
+        "url": "https://doi.org/10.1109/IJCNN69854.2026.11729643",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "year": 2026,
+        "title": "EviSD: Evidence-Conditioned Self-Distillation for Search-Augmented Agents",
+        "url": "https://arxiv.org/html/2608.01359v1",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "year": 2025,
+        "title": "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
+        "url": "https://aclanthology.org/2025.acl-long.561/",
+        "outcome": "lead",
+        "note": "孙鑫本人确认在蚂蚁开展本篇，王亮博士联合指导。ACL 正式版与 arXiv v1 均将相关企业候选作者署为独立研究者；暂留线索，需有研究阶段任职及本篇参与的直接说明。"
+      },
+      {
+        "year": 2026,
+        "title": "GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering",
+        "url": "https://aclanthology.org/2026.findings-emnlp.2459/",
+        "outcome": "lead",
+        "note": "学生履历把本项目列为蚂蚁实习成果；2026-05 原文将王伟强、Bowen Song 署蚂蚁，EMNLP 2026 正式版改为独立研究者。仍需复核研究阶段任职与版本变更。"
       }
     ],
-    "note": "已按公开书目查过一批论文和学生相关正式会议，还未全面覆盖。"
+    "note": "已用学生履历和正式出版核验两位王亮的身份，区分已确证的企业研究与仅共同署名。教师整体书目尚未梳理完。"
   },
   "SC-WmzwAAAAJ": {
     "from": "2023-01-01",
@@ -35494,7 +35618,7 @@ const facultyPaperAudits = {
   "jCAwFlgAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/sunshixuan.html",
       "https://shixuansun.github.io/",
@@ -35512,7 +35636,12 @@ const facultyPaperAudits = {
       "https://tie-pilot-qxw.github.io/main.pdf",
       "https://sc25.conference-program.com/presentation/?id=pap197&sess=sess287",
       "https://2024.sigmod.org/sigmod-list.html",
-      "https://2025.sigmod.org/toc-3-3.html"
+      "https://2025.sigmod.org/toc-3-3.html",
+      "https://arxiv.org/search/?query=Shixuan+Sun&searchtype=author",
+      "https://journals.sagepub.com/doi/10.3233/JIFS-230144",
+      "https://www.inderscience.com/info/inarticle.php?artid=136585",
+      "https://chenc10.github.io/publications/",
+      "https://2027.sigmodconf.hosting.acm.org/sigmod_papers.shtml"
     ],
     "papers": [
       {
@@ -35541,7 +35670,7 @@ const facultyPaperAudits = {
         "title": "gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs",
         "url": "https://doi.org/10.14778/3811243.3811248",
         "outcome": "lead",
-        "note": "陈蔚天本人明确上交博士、孙世轩导师、2025 年 7–10 月在字节 Data Graph 组实习。正式文具名三位字节作者，Cheng Chen 的 VLDB 演讲身份是 ByteGraph Tech Lead。首稿与公开代码的最早提交均为 2026 年 4 月，均未明示此篇在该实习期内完成；暂缺本项目的学生企业研发记录。"
+        "note": "该文具名包括字节 ByteGraph 团队，上交博士陈蔚天本人列孙导师和 2025 年 7–10 月该团队实习。原文及公开代码在 2026 年出现，会议也只署他为上交；未找到可落实到实习期、明确完成本论文的学生项目证据。另列的 FastTGM 系不同项目，只有 2027 正式录用名单。"
       },
       {
         "year": 2025,
@@ -35723,7 +35852,7 @@ const facultyPaperAudits = {
         "title": "ORION: Optimizing OLAP Query Execution with Proactive Caching and Separate Operators",
         "url": "https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-13.pdf",
         "outcome": "lead",
-        "note": "正式原文具名华为云 Jie Meng、Jiang Liu。作者史久琛本人说明在 2024 年结束上海交大博士并转入港理工博士后；他早先明确的华为云项目针对跨地域数据中心和资源预留，没有指向本篇 OLAP。仝志欣具体导学及企业科研时点待查。"
+        "note": "原文明确有华为云的Jie Meng、Jiang Liu，孙是合作者；史久琛自己列 2024 年完成上交博士，导学是陈全、过敏意，2023–24 华为实习具名做的是多地域虚拟机/网络编排，不是这篇 OLAP。共同一作仝志欣的本项企业实研及具名导师尚未找到。"
       },
       {
         "year": 2025,
@@ -35787,9 +35916,65 @@ const facultyPaperAudits = {
         "url": "https://www.computer.org/csdl/journal/tk/2026/01/11215638/2b3fG2Y9f2g",
         "outcome": "no-evidence",
         "note": "IEEE DOI 10.1109/TKDE.2025.3624574 在线先发、2026 纸刊；出版页具名作者共上交、新加坡国立大学与新加坡管理大学，未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "A Thread-Register Decoupled GPU Execution Model for Efficient Tensor Computation",
+        "url": "https://arxiv.org/abs/2608.19628",
+        "outcome": "lead",
+        "note": "原文首页有华为的 Jiajin Tu、Junsong Wang，学校作者包括孙世轩与冷静文。尚未见在读学生由具体合作者指导且在华为开展本项研究的来源。"
+      },
+      {
+        "year": 2026,
+        "title": "DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models",
+        "url": "https://arxiv.org/abs/2603.26164",
+        "outcome": "no-evidence",
+        "note": "原文及北大张文涛作者书目均列该项，并逐项声明 Shixuan Sun 实现数据混合算法；原文除高校机构外列 OriginHub Technology、LLaMA-Factory 等，不在目标企业范围。使用 Qwen 或 DeepSpeed 不算合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Dissecting How Die Scaling Breaks GPU Fine-grained Scheduling",
+        "url": "https://arxiv.org/abs/2609.24270",
+        "outcome": "no-evidence",
+        "note": "该项上交、NUS 与 NVIDIA 作者具名；NVIDIA 不在目标企业清单。"
+      },
+      {
+        "year": 2026,
+        "title": "FenixWalk: Adaptive Sampling for Large-Scale Dynamic Graphs on Heterogeneous Architectures",
+        "url": "https://arxiv.org/html/2611.04683v1",
+        "outcome": "no-evidence",
+        "note": "2026-11-03 arXiv 原文按作者逐一署南京大学、北京大学和上海交大；孙用本人上交邮箱。未见目标企业员工共同署名。"
+      },
+      {
+        "year": 2026,
+        "title": "GPU-Tile-Sim: A Tile-Centric GPU Simulation Framework for LLM Hardware-Software Co-Design",
+        "url": "https://arxiv.org/html/2607.11262",
+        "outcome": "no-evidence",
+        "note": "arXiv 原文作者单位为上海交大、NUS、KAUST，无目标企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data",
+        "url": "https://arxiv.org/html/2610.25373v1",
+        "outcome": "no-evidence",
+        "note": "2026-10-18 arXiv 原文所列企业为 Zero Gravity Labs，不在目标企业范围；其他作者署上交和新加坡国立大学。"
+      },
+      {
+        "year": 2026,
+        "title": "Weave: Fine-Grained Dynamic SM Scheduling in an MoE Megakernel for Compute-Communication Overlap",
+        "url": "https://arxiv.org/abs/2609.21483",
+        "outcome": "lead",
+        "note": "原文明确上交、复旦、NUS 与阿里多名合作者；共同一作黄子昱公开履历确认上交目前博士，未见其在阿里参与本项的说明，亦未见其由孙世轩具体指导。"
+      },
+      {
+        "year": 2025,
+        "title": "FedSU: Communication-efficient Federated Learning with Speculative Updating",
+        "url": "https://doi.org/10.1109/ICDCS63083.2025.00047",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版元数据与正式 IEEE ICDCS 题录交叉，署上交、华科和香港科大；无覆盖的企业作者。"
       }
     ],
-    "note": "从上交官网、本人书目、DBLP 及 ORCID 建立清单，已先核对近期图计算与系统论文。校内、访学、企业经历分开记录。仍在扩展完整书目。"
+    "note": "已逐篇核查 47 篇。对照上交官方教师页、本人/合作者公开书目、DBLP、ORCID DOI 元数据与 arXiv 作者索引，对同稿预印本与正式版去重并以论文实际公开时间判断调查范围。出版社原文排除航天机械、海事无线、澳洲作者与中大同名；FastTGM、Impeller 仅见调查期内录用通知/代码，公开论文为 2027 年会议，未在本期计入。清单中的线索保留具体证据缺口。"
   },
   "pUCv_e4AAAAJ": {
     "from": "2023-01-01",
@@ -37066,14 +37251,42 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3749550",
       "https://colmanleung.com/doc/2025-pillow-paper.pdf",
       "https://icsl.ee.columbia.edu/pillowsense-receives-acm-imwut-ubicomp-distinguished-paper-award/",
-      "https://ieeexplore.ieee.org/document/10446435"
+      "https://ieeexplore.ieee.org/document/10446435",
+      "https://doi.org/10.1145/3789686",
+      "https://orcid.org/0000-0002-2250-1549",
+      "https://qijiashao.github.io/files/QijiaShao_CV.pdf",
+      "https://mobilex.cs.columbia.edu/pubs.html",
+      "https://research.cuhk.edu.hk/en/publications/rtsense-a-fabric-based-wearable-system-for-return-to-sport-assess/",
+      "https://openalex.org/works/W7136218262",
+      "https://doi.org/10.1145/3712299",
+      "https://arxiv.org/pdf/2403.10779",
+      "https://researchportal.hkust.edu.hk/en/publications/llm-based-conversational-ai-therapist-for-daily-functioning-scree-2/",
+      "https://doi.org/10.1145/3706598.3714062",
+      "https://doi.org/10.1145/3572864.3581592",
+      "https://doi.org/10.1145/3586182.3615801",
+      "https://chi2025.acm.org/",
+      "https://doi.org/10.1145/3643832.3661867",
+      "https://colmanleung.com/doc/2024-joey-paper.pdf",
+      "https://mobilex.cs.columbia.edu/joey/",
+      "https://doi.org/10.1145/3643832.3661839",
+      "https://doi.org/10.1145/3714983.3714994",
+      "https://www.usenix.org/conference/nsdi24/presentation/carver",
+      "https://www.usenix.org/system/files/nsdi24-carver.pdf",
+      "https://doi.org/10.1145/3570361.3614081",
+      "https://doi.org/10.1145/3643832.3661385",
+      "https://researchportal.hkust.edu.hk/en/publications/weaving-physical-and-physiological-sensing-with-computational-fab-2/",
+      "https://doi.org/10.1145/3610884",
+      "https://cave.cs.columbia.edu/Statics/publications/pdfs/Shao_Mob23.pdf",
+      "https://zhoubinwy.github.io/pdf/N_euro_predictor.pdf",
+      "https://doi.org/10.1007/s43154-023-00100-4",
+      "https://link.springer.com/article/10.1007/s43154-023-00100-4"
     ],
     "papers": [
       {
         "title": "SwimHR: Wearable-Free Heart Rate Monitoring for Swimmers via Water-Mediated ECG Sensing",
         "url": "https://doi.org/10.1145/3795866.3844450",
         "outcome": "no-evidence",
-        "note": "第一作者 Jiting Liu 同期港科大博士生并具名列导师Qijia Shao；MobiCom 原稿所有作者署港科大或港理工，致谢未见华为研究人员及企业科研。本人此前列 Microsoft Research Asia，经核为 2024 年经历且不在企业范围。同题展演收入论文核查，不计独立关系。",
+        "note": "第一作者 Jiting Liu 是同期港科大博士生，个人资料具名列 Qijia Shao 为导师；MobiCom 全文作者仅港科大与港理工，致谢第 12 页列香港 InnoHK-HKCRC 资助及学校泳池支持。个人履历另有 2024 年 Microsoft Research Asia 助研，与本篇时间不符且公司不在范围。2026 同题展演并入。",
         "year": 2026
       },
       {
@@ -37122,11 +37335,67 @@ const facultyPaperAudits = {
         "title": "Normalization is All You Need: Robust Full-Range Contactless SpO2 Estimation Across Users",
         "url": "https://ieeexplore.ieee.org/document/10446435",
         "outcome": "no-evidence",
-        "note": "Qijia Shao个人主页举该篇为在 Samsung Research 实习期间完成的具体项目，此时他仍是哥伦比亚大学博士生。三星和该校均不在本次范围。",
+        "note": "作者正式履历第 2 页具名列此项目为 2023 年夏在 Samsung Research America 的科研实习成果，2024 ICASSP 发表；彼时他仍为哥伦比亚大学博士生。三星与该校均不在本次范围。",
         "year": 2024
+      },
+      {
+        "title": "RTSense: A Fabric-based Wearable System for Return-To-Sport Assessment of Anterior Cruciate Ligament Injuries",
+        "url": "https://doi.org/10.1145/3789686",
+        "outcome": "no-evidence",
+        "note": "港中大与港科大双校官方记录对应同一刊物和九位作者；港中大档案列两校，正文摘要说明医疗中心合作。未找到华为或其他目标企业同篇员工与具名企业研究，全文暂待复核。",
+        "year": 2026
+      },
+      {
+        "title": "LLM-based Conversational AI Therapist for Daily Functioning Screening and Psychotherapeutic Intervention via Everyday Smart Devices",
+        "url": "https://doi.org/10.1145/3712299",
+        "outcome": "no-evidence",
+        "note": "原稿明确 Qijia Shao 当时署哥伦比亚大学，临床共同作者署 Kensington Wellness，未找到范围学校学生在目标企业完成项目的证据。2024-03 预印本并入港科大列示的 2026-06-22 ACM 正式期刊。",
+        "year": 2026
+      },
+      {
+        "title": "Enhancing the Educational Potential of Online Movement Videos: System Development and Empirical Studies with TikTok Dance Challenges",
+        "url": "https://doi.org/10.1145/3706598.3714062",
+        "outcome": "no-evidence",
+        "note": "ACM CHI 正式目录和哥伦比亚大学实验室书目确认；TikTok 是研究材料的视频来源，未查到字节员工或具体企业实习科研。以完整 19 页 CHI 论文汇总 2023 HotMobile 舞蹈课程演示及 2023 UIST LearnThatDance 短稿。",
+        "year": 2025
+      },
+      {
+        "title": "Joey: Supporting Kangaroo Mother Care with Computational Fabrics",
+        "url": "https://doi.org/10.1145/3643832.3661867",
+        "outcome": "no-evidence",
+        "note": "2024-06 MobiSys 论文首面七名作者均为哥伦比亚大学，当时 Qijia Shao 与 Jiting Liu 均未迁往港科大。全文所列参与方无目标企业。同题 MobiSys 演示、后续 GetMobile 研究亮点与数据制品统一归在该研究。",
+        "year": 2024
+      },
+      {
+        "title": "Catch Me If You Can: Laser Tethering with Highly Mobile Targets",
+        "url": "https://www.usenix.org/conference/nsdi24/presentation/carver",
+        "outcome": "no-evidence",
+        "note": "2024-04 NSDI 正式全文中所有合著者来自哥伦比亚大学和 Dartmouth，资金来自 NSF，未找到目标企业参与。2023 MobiCom 同一激光跟踪技术的演示并入正式论文。",
+        "year": 2024
+      },
+      {
+        "title": "Weaving Physical and Physiological Sensing with Computational Fabrics",
+        "url": "https://doi.org/10.1145/3643832.3661385",
+        "outcome": "no-evidence",
+        "note": "港科大官方记录为 2024-06 MobiSys Rising Star Forum 独著短稿，未见三方合著。与同题哥伦比亚博士论文分别著录，学位论文不计。",
+        "year": 2024
+      },
+      {
+        "title": "N-euro Predictor: A Neural Network Approach for Smoothing and Predicting Motion Trajectory",
+        "url": "https://doi.org/10.1145/3610884",
+        "outcome": "no-evidence",
+        "note": "期刊首页明确 Qijia Shao 在 Snap Research 实习期间完成，履历给出 2022 年夏，当时为哥伦比亚博士生。其他作者均署 Snap Inc.；学校与企业均不在本次范围。",
+        "year": 2023
+      },
+      {
+        "title": "Communication for Underwater Robots: Recent Trends",
+        "url": "https://doi.org/10.1007/s43154-023-00100-4",
+        "outcome": "no-evidence",
+        "note": "Springer 正式附有作者单位，只有 Dartmouth、哥伦比亚大学和南卡罗来纳大学。未找到范围内高校师生与目标企业同篇参与。",
+        "year": 2023
       }
     ],
-    "note": "已逐篇检查第一批 8 项。港科大校方列其主持华为资助的泛在感知项目（2025-05 至 2028-09），目前公开项目页未列企业研究员、参与学生或具体论文；书目仍待完整核查。"
+    "note": "已交叉核对港科大档案、实名 ORCID 0000-0002-2250-1549、DBLP、本人完整履历（2024-09 起任教港科大）与哥伦比亚大学实验室目录，逐篇合并至 16 个研究项目。校方列其主持 2025-05 至 2028-09 的华为泛在感知项目，但公开项目页未列企业研究员或成果；三星和 Snap 的研究实习则有直接资料，均不在范围。校方全量目录的浏览器验证与部分 ACM 全文未完成，继续标部分。"
   },
   "JEieoFsAAAAJ": {
     "from": "2023-01-01",
