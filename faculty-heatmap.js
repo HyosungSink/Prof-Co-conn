@@ -151,24 +151,26 @@ function layoutFacultyTiles(groups, width, height, school) {
   return { width, height, columns, rows, cellWidth, cellHeight, cells, tiles, positions, blocks, bands };
 }
 
-function renderFacultyUnits() {
-  const schoolPicker = get('unit-school');
-  const groupPicker = get('unit-group');
-  const plot = get('unit-plot');
-  const canvas = get('unit-canvas');
+function renderFacultyUnits(slide, scopeSchools, directory) {
+  slide.append(get('faculty-heatmap-template').content.cloneNode(true));
+  const field = name => slide.querySelector(`[data-unit-${name}]`);
+  const schoolPicker = field('school');
+  const groupPicker = field('group');
+  const plot = field('plot');
+  const canvas = field('canvas');
   const context = canvas.getContext('2d');
-  const description = get('unit-description');
-  const readout = get('unit-summary');
-  const link = get('unit-directory-link');
-  const swatch = get('unit-swatch');
-  const legend = [...document.querySelectorAll('.unit-map-key [data-verification-level]')];
-  const emptyColor = getComputedStyle(get('unit-empty-chip')).backgroundColor;
+  const description = field('description');
+  const readout = field('summary');
+  const link = field('directory-link');
+  const swatch = field('swatch');
+  const legend = [...slide.querySelectorAll('[data-verification-level]')];
+  const emptyColor = getComputedStyle(field('empty-chip')).backgroundColor;
   const format = new Intl.NumberFormat('zh-CN');
   const colors = new Map(survey.schools.map(([name], index) => [name, facultyVerificationShades(facultySchoolColors[index])]));
   const defaultLegend = facultyVerificationShades('#626b7e');
   const categoryBySchool = new Map(survey.schools.map(([name, , category]) => [name, category]));
-  const schools = facultyPlotStats.map(([name, count, , rows]) => ({
-    name, count, color: colors.get(name), units: rows.map(([name, rows]) => ({ name, rows }))
+  const schools = scopeSchools.map(({ name, count, units }) => ({
+    name, count, color: colors.get(name), units: units.map(([name, rows]) => ({ name, rows }))
   }));
   for (const school of schools) {
     for (const [index, unit] of school.units.entries()) {
@@ -185,7 +187,8 @@ function renderFacultyUnits() {
   const allEntries = groups.flatMap(group => group.entries.flatMap(school => school.entries));
   const unitCount = schools.reduce((sum, school) => sum + school.units.length, 0);
   const instituteSchool = '中国科学院大学';
-  addOptions(schoolPicker, survey.schools);
+  const includedSchools = new Set(schools.map(({ name }) => name));
+  addOptions(schoolPicker, survey.schools.filter(([name]) => includedSchools.has(name)));
   let selectedSchool = null;
   let selectedUnit = null;
   let inspected = null;
@@ -211,8 +214,7 @@ function renderFacultyUnits() {
     if (school) params.set('school', school.name);
     if (unit) params.set(school.name === instituteSchool ? 'institute' : 'department', unit.name);
     if (inspected) params.set('q', inspected.name);
-    const page = facultyDirectoryPages[unit ? facultyDirectoryForUnit(school.name, unit.name) : 'core'];
-    link.href = params.size ? `${page}?${params}#faculty-rosters` : page;
+    link.href = params.size ? `${directory}?${params}#faculty-rosters` : directory;
     link.textContent = inspected ? '查看该教师 ↗' : unit ? '查看该单位名录 ↗' : '查看名录 ↗';
     readout.textContent = inspected
       ? `${inspected.name} · ${school.name} · ${unit.name} · 已核实 ${inspected.score}/3 项`

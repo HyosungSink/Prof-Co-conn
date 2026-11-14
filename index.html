@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=5bcc5162ddc9">
+  <link rel="stylesheet" href="styles.css?v=5680dc5f03a8">
   <script>
     function redirectLegacySection() {
       const pages = new Map([
@@ -19,16 +19,16 @@
     addEventListener('hashchange', redirectLegacySection);
     redirectLegacySection();
   </script>
-  <script src="data.js?v=5bcc5162ddc9" defer></script>
-  <script src="leads.js?v=5bcc5162ddc9" defer></script>
-  <script src="h-index.js?v=5bcc5162ddc9" defer></script>
-  <script src="papers.js?v=5bcc5162ddc9" defer></script>
-  <script src="ui.js?v=5bcc5162ddc9" defer></script>
-  <script src="faculty-plot-data.js?v=5bcc5162ddc9" defer></script>
-  <script src="faculty-plot.js?v=5bcc5162ddc9" defer></script>
-  <script src="faculty-unit-groups.js?v=5bcc5162ddc9" defer></script>
-  <script src="faculty-heatmap.js?v=5bcc5162ddc9" defer></script>
-  <script src="home.js?v=5bcc5162ddc9" defer></script>
+  <script src="data.js?v=5680dc5f03a8" defer></script>
+  <script src="leads.js?v=5680dc5f03a8" defer></script>
+  <script src="h-index.js?v=5680dc5f03a8" defer></script>
+  <script src="papers.js?v=5680dc5f03a8" defer></script>
+  <script src="ui.js?v=5680dc5f03a8" defer></script>
+  <script src="faculty-plot-data.js?v=5680dc5f03a8" defer></script>
+  <script src="faculty-plot.js?v=5680dc5f03a8" defer></script>
+  <script src="faculty-unit-groups.js?v=5680dc5f03a8" defer></script>
+  <script src="faculty-heatmap.js?v=5680dc5f03a8" defer></script>
+  <script src="home.js?v=5680dc5f03a8" defer></script>
 </head>
 <body class="home-page">
   <header class="topbar">
@@ -59,7 +59,7 @@
         <button type="button" id="chart-prev" aria-label="上一张图" aria-controls="home-chart-stage">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
-        <span id="chart-position" class="home-chart-position" aria-hidden="true">01 / 04</span>
+        <span id="chart-position" class="home-chart-position" aria-hidden="true">01 / 06</span>
         <button type="button" id="chart-next" aria-label="下一张图" aria-controls="home-chart-stage">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 5 7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
@@ -83,44 +83,28 @@
           <div id="school-zero" class="school-zero" hidden></div>
           <p id="school-chart-note" class="school-chart-note" hidden></p>
         </section>
-        <section id="faculty-distribution" class="home-slide home-faculty-slide faculty-distribution" aria-labelledby="faculty-plot-title" hidden>
+        <section id="faculty-distribution" class="home-slide home-faculty-slide faculty-distribution" data-faculty-scope="core" aria-labelledby="faculty-plot-title" hidden>
           <div class="home-slide-title">
-            <h2 id="faculty-plot-title">高校教师名录分布</h2>
+            <h2 id="faculty-plot-title">主要计算机院系 · 高校分布</h2>
             <p>三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。</p>
           </div>
-          <div class="faculty-plot-key">
-            <div class="legend">
-              <span><i aria-hidden="true"></i><span id="faculty-plot-complete"></span></span>
-              <span><i aria-hidden="true"></i><span id="faculty-plot-incomplete"></span></span>
-            </div>
-            <p id="faculty-plot-scale" class="faculty-plot-note"></p>
-          </div>
-          <div id="faculty-plot" class="faculty-plot"></div>
         </section>
-        <section class="home-slide home-unit-slide faculty-distribution" aria-labelledby="faculty-unit-title" hidden>
+        <section id="faculty-units" class="home-slide home-unit-slide faculty-distribution" data-faculty-scope="core" aria-labelledby="faculty-unit-title" hidden>
           <div class="home-slide-title">
-            <h2 id="faculty-unit-title">院系／研究所教师分布</h2>
-            <p id="unit-description">每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。</p>
+            <h2 id="faculty-unit-title">主要计算机院系 · 教师热力图</h2>
+            <p data-unit-description>每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。</p>
           </div>
-          <div class="unit-toolbar">
-            <label class="unit-picker"><span class="sr-only">查看高校</span><select id="unit-school"><option value="">全部高校</option></select></label>
-            <label class="unit-picker"><span class="sr-only">高亮院系或研究所</span><select id="unit-group" disabled><option value="">全部院系／研究所</option></select></label>
-            <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作；淡灰色空格没有教师记录">
-              <span>已核实项数</span>
-              <span><i data-verification-level aria-hidden="true"></i>0</span>
-              <span><i data-verification-level aria-hidden="true"></i>1</span>
-              <span><i data-verification-level aria-hidden="true"></i>2</span>
-              <span><i data-verification-level aria-hidden="true"></i>3</span>
-              <span><i id="unit-empty-chip" aria-hidden="true"></i>空格</span>
-            </div>
+        </section>
+        <section id="faculty-distribution-related" class="home-slide home-faculty-slide faculty-distribution" data-faculty-scope="related" aria-labelledby="faculty-plot-related-title" hidden>
+          <div class="home-slide-title">
+            <h2 id="faculty-plot-related-title">相关交叉院系 · 高校分布</h2>
+            <p>三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。</p>
           </div>
-          <div id="unit-plot" class="unit-plot">
-            <canvas id="unit-canvas" tabindex="0" role="img" aria-label="全部高校教师热力图，每条记录一格，每所学校一种颜色。用上下键查看教师。"></canvas>
-          </div>
-          <div class="unit-readout">
-            <span id="unit-swatch" aria-hidden="true" hidden></span>
-            <p id="unit-summary" aria-live="polite"></p>
-            <a id="unit-directory-link" href="faculty.html">查看名录 ↗</a>
+        </section>
+        <section id="faculty-units-related" class="home-slide home-unit-slide faculty-distribution" data-faculty-scope="related" aria-labelledby="faculty-unit-related-title" hidden>
+          <div class="home-slide-title">
+            <h2 id="faculty-unit-related-title">相关交叉院系 · 教师热力图</h2>
+            <p data-unit-description>每条记录一格，每校一种颜色。选择高校可展开院系或研究所；同一分区内颜色越深，已核实项数越多。</p>
           </div>
         </section>
         <noscript><p class="empty">请启用 JavaScript 以浏览分布图。</p></noscript>
@@ -128,5 +112,37 @@
     </section>
   </main>
   <footer class="container home-footer"><span>公开资料核验</span><span>2023.01.01 – 2026.11.12</span></footer>
+  <template id="faculty-plot-template">
+    <div class="faculty-plot-key">
+      <div class="legend">
+        <span><i aria-hidden="true"></i><span data-faculty-complete></span></span>
+        <span><i aria-hidden="true"></i><span data-faculty-incomplete></span></span>
+      </div>
+      <p data-faculty-scale class="faculty-plot-note"></p>
+    </div>
+    <div class="faculty-plot"></div>
+  </template>
+  <template id="faculty-heatmap-template">
+    <div class="unit-toolbar">
+      <label class="unit-picker"><span class="sr-only">查看高校</span><select data-unit-school><option value="">全部高校</option></select></label>
+      <label class="unit-picker"><span class="sr-only">高亮院系或研究所</span><select data-unit-group disabled><option value="">全部院系／研究所</option></select></label>
+      <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作；淡灰色空格没有教师记录">
+        <span>已核实项数</span>
+        <span><i data-verification-level aria-hidden="true"></i>0</span>
+        <span><i data-verification-level aria-hidden="true"></i>1</span>
+        <span><i data-verification-level aria-hidden="true"></i>2</span>
+        <span><i data-verification-level aria-hidden="true"></i>3</span>
+        <span><i data-unit-empty-chip aria-hidden="true"></i>空格</span>
+      </div>
+    </div>
+    <div data-unit-plot class="unit-plot">
+      <canvas data-unit-canvas tabindex="0" role="img" aria-label="全部高校教师热力图，每条记录一格，每所学校一种颜色。用上下键查看教师。"></canvas>
+    </div>
+    <div class="unit-readout">
+      <span data-unit-swatch aria-hidden="true" hidden></span>
+      <p data-unit-summary aria-live="polite"></p>
+      <a data-unit-directory-link href="faculty.html">查看名录 ↗</a>
+    </div>
+  </template>
 </body>
 </html>

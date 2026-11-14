@@ -215,6 +215,18 @@ function renderSchoolChart() {
   }
 }
 
+function facultyChartSchools(scope) {
+  return facultyPlotStats.flatMap(([name, , , units]) => {
+    const included = units.filter(([unit]) => facultyDirectoryForUnit(name, unit) === scope);
+    let count = 0, complete = 0;
+    for (const [, teachers] of included) {
+      count += teachers.length;
+      complete += teachers.filter(([, score]) => score === 3).length;
+    }
+    return count ? [{ name, count, complete, units: included }] : [];
+  }).sort((a, b) => b.count - a.count);
+}
+
 function setupHomeCharts() {
   const slides = [...document.querySelectorAll('.home-slide')];
   const prev = get('chart-prev');
@@ -222,31 +234,39 @@ function setupHomeCharts() {
   const number = index => String(index).padStart(2, '0');
   const initialized = new Set([0]);
   let active = 0;
-  const init = [
-    null,
-    renderSchoolChart,
-    () => renderFacultyPlot(facultyPlotStats.map(([name, count, complete]) => ({ name, count, complete })), name => {
-      const link = element('a');
-      link.href = `faculty.html?${new URLSearchParams({ school: name })}#faculty-rosters`;
-      return link;
-    }),
-    renderFacultyUnits
-  ];
+  const facultyStats = new Map();
 
-  function moveChart(direction) {
-    const nextIndex = (active + direction + slides.length) % slides.length;
+  function initSlide(slide) {
+    if (slide.classList.contains('home-school-slide')) return renderSchoolChart();
+    const scope = slide.dataset.facultyScope;
+    if (!facultyStats.has(scope)) facultyStats.set(scope, facultyChartSchools(scope));
+    const schools = facultyStats.get(scope);
+    const directory = facultyDirectoryPages[scope];
+    if (slide.classList.contains('home-faculty-slide')) {
+      renderFacultyPlot(slide, schools, directory);
+    } else {
+      renderFacultyUnits(slide, schools, directory);
+    }
+  }
+
+  function showChart(nextIndex, focusTarget = next) {
+    if (nextIndex === active) return;
     const oldSlide = slides[active];
     const newSlide = slides[nextIndex];
-    if (oldSlide.contains(document.activeElement)) (direction < 0 ? prev : next).focus();
+    if (oldSlide.contains(document.activeElement)) focusTarget.focus();
     oldSlide.hidden = true;
     newSlide.hidden = false;
     if (!initialized.has(nextIndex)) {
-      init[nextIndex]();
+      initSlide(newSlide);
       initialized.add(nextIndex);
     }
     active = nextIndex;
     get('chart-position').textContent = `${number(active + 1)} / ${number(slides.length)}`;
     get('chart-announcement').textContent = `第 ${active + 1} 张，共 ${slides.length} 张：${newSlide.querySelector('h2').textContent}`;
+  }
+
+  function moveChart(direction) {
+    showChart((active + direction + slides.length) % slides.length, direction < 0 ? prev : next);
   }
 
   prev.addEventListener('click', () => moveChart(-1));
@@ -259,7 +279,12 @@ function setupHomeCharts() {
     event.preventDefault();
     moveChart(direction);
   });
-  if (location.hash === '#faculty-units') moveChart(-1);
+  function showLinkedChart() {
+    const index = slides.findIndex(slide => slide.id && location.hash === `#${slide.id}`);
+    if (index >= 0) showChart(index);
+  }
+  addEventListener('hashchange', showLinkedChart);
+  showLinkedChart();
 }
 
 setupHomeCharts();

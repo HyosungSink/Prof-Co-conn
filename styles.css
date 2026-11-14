@@ -320,7 +320,7 @@ dialog::backdrop { background: #211b3277; }
 
 @media (max-width: 950px), (max-height: 710px) {
   .home-faculty-slide .faculty-plot-cell { grid-template-columns: minmax(0, 1.5fr) minmax(12px, 1fr) auto; }
-  .home-faculty-slide .dots, .home-faculty-slide #faculty-plot-scale { display: none; }
+  .home-faculty-slide .dots, .home-faculty-slide [data-faculty-scale] { display: none; }
   .home-faculty-slide .faculty-plot-bar { display: block; width: max(2px, var(--bar-width)); height: 5px; border-radius: 4px; background: linear-gradient(90deg, var(--dot-purple) var(--bar-complete), var(--dot-gold) var(--bar-complete)); }
 }
 @media (max-height: 800px) {
@@ -392,14 +392,14 @@ dialog::backdrop { background: #211b3277; }
 .unit-map-key { margin-left: auto; display: flex; align-items: center; gap: 7px; color: var(--muted); white-space: nowrap; font-size: 11px; }
 .unit-map-key span { display: inline-flex; align-items: center; gap: 3px; }
 .unit-map-key i { width: 9px; height: 9px; border-radius: 2px; }
-#unit-empty-chip { background-color: #e4e6ea; }
+[data-unit-empty-chip] { background-color: #e4e6ea; }
 .unit-plot { flex: 1; min-height: 0; position: relative; }
-#unit-canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; cursor: crosshair; }
-#unit-canvas:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+[data-unit-canvas] { position: absolute; inset: 0; display: block; width: 100%; height: 100%; cursor: crosshair; }
+[data-unit-canvas]:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 .unit-readout { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; min-width: 0; color: var(--muted); font-size: 11px; }
-#unit-swatch { width: 9px; height: 9px; border-radius: 2px; flex: none; }
-#unit-summary { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
-#unit-directory-link { flex: none; }
+[data-unit-swatch] { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+[data-unit-summary] { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
+[data-unit-directory-link] { flex: none; }
 @media (max-width: 650px) {
   .unit-toolbar { gap: 4px 6px; }
   .unit-picker { flex: 1 1 42%; }

@@ -1,4 +1,5 @@
-function renderFacultyPlot(schools, createControl) {
+function renderFacultyPlot(slide, schools, directory) {
+  slide.append(get('faculty-plot-template').content.cloneNode(true));
   const countFormat = new Intl.NumberFormat('zh-CN');
   const percentFormat = new Intl.NumberFormat('zh-CN', { style: 'percent', maximumFractionDigits: 1 });
   const recordsPerDot = 25;
@@ -10,8 +11,8 @@ function renderFacultyPlot(schools, createControl) {
   for (const { name, count, complete } of schools) {
     allCount += count;
     allComplete += complete;
-    const control = createControl(name);
-    control.className = 'plot-cell faculty-plot-cell';
+    const control = element('a', '', 'plot-cell faculty-plot-cell');
+    control.href = `${directory}?${new URLSearchParams({ school: name })}#faculty-rosters`;
     const description = `${name}，共 ${countFormat.format(count)} 条，${describe('三项齐全', complete, count)}，${describe('非三项齐全', count - complete, count)}`;
     control.setAttribute('aria-label', description);
     control.title = description;
@@ -44,9 +45,9 @@ function renderFacultyPlot(schools, createControl) {
     control.append(element('span', name, 'plot-label'), dots, bar, stats);
     controls.push(control);
   }
-  get('faculty-plot-complete').textContent = describe('三项齐全', allComplete, allCount);
-  get('faculty-plot-incomplete').textContent = describe('非三项齐全', allCount - allComplete, allCount);
-  get('faculty-plot-scale').textContent = `1 个满圆 = ${recordsPerDot} 条名录记录`;
-  get('faculty-plot').replaceChildren(...controls);
+  slide.querySelector('[data-faculty-complete]').textContent = describe('三项齐全', allComplete, allCount);
+  slide.querySelector('[data-faculty-incomplete]').textContent = describe('非三项齐全', allCount - allComplete, allCount);
+  slide.querySelector('[data-faculty-scale]').textContent = `1 个满圆 = ${recordsPerDot} 条名录记录`;
+  slide.querySelector('.faculty-plot').replaceChildren(...controls);
 }
 
