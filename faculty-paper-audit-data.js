@@ -54352,21 +54352,31 @@ const facultyPaperAudits = {
   "FxVmazsAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://faculty.xjtu.edu.cn/peihongbin/zh_CN/zhym/994540/list/index.htm",
       "https://gr.xjtu.edu.cn/peihongbin/zh_CN/zdylm/994529/list/index.htm",
       "https://hp17illinois.github.io/",
       "https://dblp.org/pid/157/2982.html",
-      "https://patents.google.com/patent/CN121880810A/zh"
+      "https://patents.google.com/patent/CN121880810A/zh",
+      "https://faculty.xjtu.edu.cn/peihongbin/zh_CN/zdylm/994541/list/index.htm",
+      "https://tieyingzhang.github.io/home/",
+      "https://github.com/liyu199809/PineappleHouse/commit/4e3e1d75c55cd97aaea2f8293d2a6c9557945f39",
+      "https://gs.xjtu.edu.cn/info/1187/11574.htm",
+      "https://gs.xjtu.edu.cn/info/1187/10966.htm",
+      "https://gs.xjtu.edu.cn/info/1187/10294.htm",
+      "https://sigspatial2026.sigspatial.org/detailed-program.html",
+      "https://sigspatial2026.sigspatial.org/short-paper-accepted/",
+      "https://hujilin1229.github.io/Publications/",
+      "https://xjtu-netverify.github.io/papers/"
     ],
     "papers": [
       {
         "year": 2026,
         "title": "Beyond Independent Predictions: Learning the Browsing Journey for Sequence-Level Re-ranking",
         "url": "https://arxiv.org/html/2611.07591v1",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "outcome": "confirmed",
+        "note": "西交研究生院 2026 年学位论文名单第 2026101 项具名海竞昕的硕导裴红斌；课题组另列其 2023 年入学并在阿里妈妈实习。2026-01-05（在读阶段）淘宝中国软件提交的 CN121880810A 将他与张佳一、马振家、陈达贵一起列为发明人；该申请权利要求 1、3、4 与论文第 4.1、4.2 节采用同一序列尾部累积曝光概率与预测点击方法，四人均为同文作者。arXiv 版于 2026-11-05 公开；ACM 向 Crossref 申报发表日为 2026-11-06。论文包含淘宝广告线上实验。",
         "relationIds": [
           "ice-alibaba-xjtu-hongbin-pei"
         ]
@@ -54416,7 +54426,7 @@ const facultyPaperAudits = {
         "title": "Understanding Generalization through Decision Pattern Shift",
         "url": "https://arxiv.org/abs/2605.13148",
         "outcome": "no-evidence",
-        "note": "首稿列西交、上海交大、上海人工智能实验室，无指定企业。",
+        "note": "2026-05 首稿列西交、上交、上海人工智能实验室；西交合作者课题组列 NeurIPS 2026 接收，同篇计一次。未见指定企业。",
         "relationIds": []
       },
       {
@@ -54424,7 +54434,7 @@ const facultyPaperAudits = {
         "title": "Deliberation on Priors: Trustworthy Reasoning of Large Language Models on Knowledge Graphs",
         "url": "https://arxiv.org/html/2505.15210v1",
         "outcome": "no-evidence",
-        "note": "NeurIPS 2025 与作者版合并，主体署西交、重庆邮电和西北工业大学。渠宁曾在百度及字节实习，但该生本人列导师刘军（Jun Liu），未找到上述任一公司参加本项的证据。",
+        "note": "NeurIPS 2025 与作者版合并，主体署西交、重庆邮电和西北工业大学。渠宁曾在百度及字节实习，但该生本人列导师Jun Liu，未找到上述任一公司参加本项的证据。",
         "relationIds": []
       },
       {
@@ -54472,7 +54482,7 @@ const facultyPaperAudits = {
         "title": "Memory Disagreement: A Pseudo-Labeling Measure from Training Dynamics for Semi-supervised Graph Learning",
         "url": "https://doi.org/10.1145/3589334.3645398",
         "outcome": "lead",
-        "note": "元数据明确百度 Jialun Liu 参与；裴组名录具名熊宇恒为其西交研究生，并列研究方向一致，但公开实习去向是阿里云，未证其在百度从事本篇项目。",
+        "note": "正式 ACM 题录有百度 Jialun Liu。裴组列表写熊宇恒曾在阿里云实习，西交研究生院 2024 年优秀硕士论文第 2024076 项列其正式导师为邹建华；未证他在百度从事本篇项目。",
         "relationIds": []
       },
       {
@@ -54490,9 +54500,137 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 正式文署西交与上交，裴组具名学生陈泰乐另有腾讯、蚂蚁实习，但原文没有证据说明这些企业参加此项。正式旧题曾将 Message 拼为 Massage。",
         "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Generator-Specific Shortcuts: Open-World AI-Generated Video Detection via Adversarial Training",
+        "url": "https://arxiv.org/html/2610.23906v1",
+        "outcome": "no-evidence",
+        "note": "2026-10 首稿具名五位西交作者。评测用公开生成器产生的训练/测试图像，无指定企业人员参与证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "ADP: Graph Adaptive Pooling Based on Edge Understanding With Graph Pooling Information Bottleneck",
+        "url": "https://doi.org/10.1109/TCE.2025.3642264",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025-12-11 在线，2026 卷期；出版地址列北理工、西交、西工大和莱斯特大学，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "The Interaction Bottleneck of Deep Neural Networks: Discovery, Proof, and Modulation",
+        "url": "https://arxiv.org/html/2512.18607v1",
+        "outcome": "no-evidence",
+        "note": "2025-12 首稿列西交、上交、同济科研人员；理论与视觉实验未发现目标企业人员。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "An unsupervised fusion framework of generation and retrieval for entity search",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0957417425017270",
+        "outcome": "no-evidence",
+        "note": "Elsevier 署名列 Changyu Wang 来自京东，与北京信息科技大学和西交共同发文；未见目标在读者及在企业实施这项研究的证据。调用公开模型做比较不计企业参与。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "系统安全视角下网络社会治理的挑战、对策与前瞻技术",
+        "url": "https://www.sciengine.com/cfs/files/pdfs/view/1000-3045/414B10C68EBB45A0A976EB2A2100C086.pdf",
+        "outcome": "no-evidence",
+        "note": "2025 年第 40 卷第 10 期；中国科学院院刊具名四名作者都列西交，同组海竞昕的企业实习不能外推到此项。院刊仓库自动生成的 2024 引用年份与原卷期冲突。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "面向分子科学的人工智能研究进展分析与“去领域知识”思路展望",
+        "url": "https://faculty.xjtu.edu.cn/peihongbin/zh_CN/zdylm/994541/list/index.htm",
+        "outcome": "no-evidence",
+        "note": "西交院系书目为 CAAI 通讯 2025 年第 11 期，裴红斌与邓辉琦两名高校作者，区别于 2026 的同主题 FCS 文章，其另两位作者是海竞昕与魏哲巍。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Debate on Graph: A Flexible and Reliable Reasoning Framework for Large Language Models",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34658",
+        "outcome": "no-evidence",
+        "note": "2024-09 首稿与 AAAI 2025 正式稿合并。出版社列浙江 Createlink Technology 工业作者，该企业不在指定范围；其他作者为高校。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Look, Listen, and Answer: Overcoming Biases for Audio-Visual Question Answering",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/123a18dfd821c8b440f42a00a27648d6-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "2024-04 首稿与 NeurIPS 2024 正式工作相同；西交、西工大及中国移动系统集成公司，中国移动不在指定范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Robust Visual Question Answering: Datasets, Methods, and Future Challenges",
+        "url": "https://arxiv.org/pdf/2307.11471",
+        "outcome": "no-evidence",
+        "note": "2023-07 首稿与 IEEE TPAMI 2024 版（10.1109/TPAMI.2024.3366154）合并。作者稿首页各作者列西交不同院系，未见目标企业研究参与。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Generalized Variational Inference via Optimal Transport",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29035/29961",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式稿首页为吉林大学及西交，裴红斌为通讯作者；未见范围内企业研究人员。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Concentrating Estimation Attention: Human Prior Constrained Methods for Robust Classification",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-97-8499-8_39",
+        "outcome": "no-evidence",
+        "note": "Springer PRCV 全部八位作者隶属西交、北理工、港大、安徽工程大学或中科院研究所，致谢两项公共研究资助。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Data-driven smoothing approaches for interest modeling in recommendation systems",
+        "url": "https://news.bistu.edu.cn/ztwz/cgzsztw/docs/2025-10/d3c048bbddc24c0494f6599d0341b97a.pdf",
+        "outcome": "no-evidence",
+        "note": "出版原文有美团 Liang Shen、Youyou Zhang，项目实际部署。首作马登豪 2020 已获博士，西交仅裴红斌；未发现这项研究中的具名范围内在读受指导者。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "3rd Place Solution to KDD Cup 2024 Task 2: Large Academic Graph Retrieval via Multi-Track Message Passing Neural Network",
+        "url": "https://openreview.net/pdf?id=bVqeenaDoz",
+        "outcome": "lead",
+        "note": "赛题论文列李宇、陈泰乐、海竞昕，同文有字节 Yong Fu 和 Tieying Zhang；裴组官网列李宇字节暑期实习，李宇以西交署名提交关键检索实现。西交研究生院 2025 年优秀硕士论文第 2025102 项具名李宇正式导师为同文通讯陶敬，不能据同实验室推定裴红斌担任其学业导师。仍缺字节或本人把项目与其在公司期间的研究对应。赛题方案与不含字节署名的 ICML 通用方法论文分别记录。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "LaenNet: Learning robust GCNs by propagating labels",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37847949/",
+        "outcome": "no-evidence",
+        "note": "Elsevier 的 PubMed 备案逐名列西交及吉林大学，没有目标企业作者。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Graceful Degradation in Trajectory User Linking: A Regime-Adaptive Aggregation Framework",
+        "url": "https://sigspatial2026.sigspatial.org/detailed-program.html",
+        "outcome": "no-evidence",
+        "note": "ACM SIGSPATIAL 2026 正式议程 Research 1 逐名列中国地质大学（北京）、剑桥、香港理工、华东师大和西交。未见目标企业共同作者。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Adaptive Road Semantic Self-Learning for Kilo-metre level Vehicle Trajectory Prediction",
+        "url": "https://sigspatial2026.sigspatial.org/short-paper-accepted/",
+        "outcome": "no-evidence",
+        "note": "ACM SIGSPATIAL 2026 正式短文列表逐名列河北经贸大学、中国地质大学（北京）、华东师大和西交，没有目标企业。",
+        "relationIds": []
       }
     ],
-    "note": "西安交通大学网安院裴红斌的院校书目、本人书目和同组学生档案逐篇比对；学籍与企业具体项目分开验证，仍处逐篇补遗。"
+    "note": "逐篇比对西交院系书目、本人公开书目、ORCID 对应 DBLP，并以 Crossref、新近合作者书目与主办方议程补遗。核完截至 2026-11-12 可识别的范围内作品；合并同作预印本、会议、数据附件，排除同名中国建筑工程人员。待补的企业参与证据在对应论文内记为线索。"
   },
   "373vlUEAAAAJ": {
     "from": "2023-01-01",

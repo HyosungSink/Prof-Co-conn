@@ -45040,6 +45040,59 @@ const survey = {
         ]
       ],
       "evidence": "首稿于 2023-11-29 公开。12 月作者版首页将尹富坤及另外两名作者具名于腾讯科研实习；三角色同篇署名，尹富坤署复旦与腾讯，陈涛署复旦且担任通讯作者，俞刚署腾讯并公开列其腾讯研究总监工作。该文的 3D 形状语言模型与同名独立论文不合并。"
+    },
+    {
+      "id": "ice-alibaba-xjtu-hongbin-pei",
+      "paperId": "arxiv:2611.07591",
+      "company": "阿里巴巴",
+      "team": "阿里妈妈／淘天集团",
+      "school": "西安交通大学",
+      "studentSchool": "西安交通大学",
+      "faculty": [
+        "裴红斌 · Hongbin Pei",
+        "西安交通大学教师、同篇作者。西交研究生院的 2026 年优秀硕士论文名单第 2026101 项具名其为海竞昕导师。",
+        "https://gs.xjtu.edu.cn/info/1187/11574.htm"
+      ],
+      "employee": [
+        "陈达贵 · Dagui Chen",
+        "该文的阿里淘天集团通讯作者，也是该技术的淘宝公司专利共同发明人；KDD 2025 正式会议名录和此前同方向阿里巴巴在职研究与这项工作连续。",
+        "https://www.kdd.org/kdd2025/applied-data-science-ads-track-papers-2/"
+      ],
+      "student": [
+        "海竞昕 · Jingxin Hai",
+        "西交裴红斌指导的 2023 级硕士，阿里妈妈实习。该项目论文第二署名；在读期间与三位同文淘宝同事一起被列为淘宝公司对应该技术的发明人。",
+        "https://gr.xjtu.edu.cn/peihongbin/zh_CN/zdylm/994529/list/index.htm"
+      ],
+      "title": "Beyond Independent Predictions: Learning the Browsing Journey for Sequence-Level Re-ranking",
+      "short": "ICE",
+      "date": "2026-11-05",
+      "venue": "CIKM 2026",
+      "area": "广告推荐与序列重排",
+      "paper": "https://arxiv.org/html/2611.07591v1",
+      "extra": [
+        [
+          "淘宝中国软件发布的专利申请 CN121880810A",
+          "https://patents.google.com/patent/CN121880810A/zh"
+        ],
+        [
+          "CIKM 注册 DOI",
+          "https://doi.org/10.1145/3799682.3840169"
+        ],
+        [
+          "阿里巴巴在先专利的员工共同发明记录",
+          "https://patents.google.com/patent/CN114881736B/zh"
+        ],
+        [
+          "西交研究生院学位论文名单第 2026101 项",
+          "https://gs.xjtu.edu.cn/info/1187/11574.htm"
+        ]
+      ],
+      "evidence": "西交研究生院 2026 年学位论文名单第 2026101 项具名海竞昕的硕导裴红斌；课题组另列其 2023 年入学并在阿里妈妈实习。2026-01-05（在读阶段）淘宝中国软件提交的 CN121880810A 将他与张佳一、马振家、陈达贵一起列为发明人；该申请权利要求 1、3、4 与论文第 4.1、4.2 节采用同一序列尾部累积曝光概率与预测点击方法，四人均为同文作者。arXiv 首版日期为 2026-11-05；ACM 向 Crossref 申报发表日为 2026-11-06。论文包含淘宝广告线上实验。",
+      "advising": [
+        "具名硕士导师",
+        "西交研究生院 2026 年优秀硕士学位论文名单第 2026101 项把导师裴红斌与学生海竞昕一同具名。",
+        "https://gs.xjtu.edu.cn/info/1187/11574.htm"
+      ]
     }
   ]
 };
