@@ -8099,7 +8099,10 @@ const facultyPaperAudits = {
       "https://zhenyu.ac.cn/",
       "https://fupeng.ac.cn/",
       "https://iienlp.github.io/",
-      "https://arxiv.org/pdf/2512.10548v1"
+      "https://arxiv.org/pdf/2512.10548v1",
+      "https://zhenyu.ac.cn/pubs.html",
+      "https://aclanthology.org/2026.emnlp-main.386/",
+      "https://arxiv.org/abs/2509.21892"
     ],
     "papers": [
       {
@@ -8157,23 +8160,23 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "Advantageous Parameter Expansion Training Makes Better Large Language Models",
-        "url": "https://aclanthology.org/2026.emnlp-main.386/",
-        "outcome": "lead",
-        "note": "EMNLP 正式版列国科大顾佴彬一作、百度张振宇为项目负责人，国科大林政等联合导师同篇。问世于 2025 年 5 月的预印本与其百度实习同期；全文未具名本篇是实习工作，继续查企业项目页。"
+        "url": "https://aclanthology.org/2026.emnlp-main.386.pdf",
+        "outcome": "confirmed",
+        "note": "百度同篇在职作者张振宇逐篇书目用 ¡ 把顾佴彬标在本项工作中为实习生；已核国科大学籍与具名校内导师同篇。"
       },
       {
         "year": 2025,
         "title": "Elastic MoE: Unlocking the Inference-Time Scalability of Mixture-of-Experts",
-        "url": "https://arxiv.org/abs/2509.21892",
-        "outcome": "lead",
-        "note": "顾佴彬本人列其为一作研究；百度员工张振宇同为一作，林政、付鹏、王伟平联合导师同篇。原文未指明顾佴彬在百度完成本项研究。"
+        "url": "https://arxiv.org/pdf/2509.21892v1",
+        "outcome": "confirmed",
+        "note": "百度同篇在职作者张振宇逐篇书目用 ¡ 把顾佴彬标在本项工作中为实习生；已核国科大学籍与具名校内导师同篇。"
       },
       {
         "year": 2026,
         "title": "Blink: Dynamic Visual Token Resolution for Enhanced Multimodal Understanding",
         "url": "https://arxiv.org/abs/2512.10548",
         "outcome": "lead",
-        "note": "2025-12 v1 在冯宇辰姓名明确标出百度实习完成本篇，信工所 2025 国家奖学金名单可核他当时为硕士生。林政、付鹏、王伟平皆同篇；仍缺具名校内指导配对。"
+        "note": "2025-12 v1 和百度同篇作者张振宇逐篇书目均明确具名冯宇辰的百度实习；信工所 2025 国家奖学金核实他仍为硕士。同篇林政、付鹏、王伟平中尚无足以核实的具名指导者。"
       }
     ],
     "note": "优先核对学生顾佴彬、冯宇辰的论文，已有 1 篇找到校内导师、企业员工及具名实习证据。此前与其他学生的公开书目仍在梳理。"
@@ -13367,7 +13370,9 @@ const facultyPaperAudits = {
       "https://github.com/acl-org/acl-anthology/issues/8309",
       "https://arxiv.org/abs/2608.21265",
       "https://zhenyu.ac.cn/pubs.html",
-      "https://haoxiangzhao12138.github.io/"
+      "https://haoxiangzhao12138.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Debiasing_Multimodal_Large_Language_Models_via_Noise-Aware_Preference_Optimization_CVPR_2025_paper.html",
+      "https://github.com/zhangzef/COOPER"
     ],
     "papers": [
       {
@@ -13502,7 +13507,7 @@ const facultyPaperAudits = {
         "title": "Mixture of Universal Experts: Scaling Virtual Width via Depth-Width Transformation",
         "url": "https://arxiv.org/abs/2603.04971",
         "outcome": "lead",
-        "note": "同篇陈奕龙、柳厅文和百度张振宇。原文未注学生在哪家企业完成本项研究；陈奕龙本人同时列多段实习，MoUE 是独立公开研究，不能由 ERNIE 项目履历补足。"
+        "note": "百度同篇作者张振宇本人对本篇具名注明顾佴彬实习。顾的三位校内联合导师均不在作者表；同篇柳厅文是另一共同一作陈奕龙的导师，而张振宇逐篇书目未把陈奕龙标为该项企业实习者。"
       },
       {
         "year": 2024,
@@ -13521,9 +13526,16 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
-        "url": "https://arxiv.org/abs/2512.04563",
-        "outcome": "lead",
-        "note": "国科大导师页具名指导张泽锋，论文也有百度张振宇、高礼。本人履历可核同为第一作者的郝翔兆同期在百度实习，学校指导为郭海云而其未署同篇；尚缺张泽锋在百度完成本项研究的具名依据。"
+        "url": "https://arxiv.org/pdf/2512.04563v2",
+        "outcome": "confirmed",
+        "note": "百度同篇在职作者张振宇逐篇书目用 ¡ 把张泽锋标在本项工作中为实习生；已核国科大学籍与具名校内导师同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "Debiasing Multimodal Large Language Models via Noise-Aware Preference Optimization",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Debiasing_Multimodal_Large_Language_Models_via_Noise-Aware_Preference_Optimization_CVPR_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "百度同篇在职作者张振宇逐篇书目用 ¡ 把张泽锋标在本项工作中为实习生；已核国科大学籍与具名校内导师同篇。"
       }
     ],
     "note": "已按国科大导师名录、信工所公开证明、学生与员工本人履历及正式论文核查部分书目；陈奕龙 5 篇在百度完成的研究由各篇正式版致谢具名。陈瑶等同题组论文保留待查，完整书目仍在梳理。"
@@ -35609,14 +35621,14 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "gSWORD: GPU-accelerated Sampling for Subgraph Counting",
-        "url": "https://2024.sigmod.org/sigmod-list.html",
+        "url": "https://doi.org/10.1145/3639288",
         "outcome": "no-evidence",
         "note": "SIGMOD 正式名单及作者署名仅见新加坡管理大学、上交和 Meta 员工；Meta 不在本项目企业范围。正式 DOI 10.1145/3639288。"
       },
       {
         "year": 2024,
         "title": "uBlade: Efficient Batch Processing for Uncertainty Graph Queries",
-        "url": "https://2024.sigmod.org/sigmod-list.html",
+        "url": "https://doi.org/10.1145/3654982",
         "outcome": "no-evidence",
         "note": "SIGMOD 正式录用名单列新加坡管理大学、NUS 和上交；无目标企业作者。正式 DOI 10.1145/3654982。"
       },
@@ -35626,6 +35638,111 @@ const facultyPaperAudits = {
         "url": "https://www.vldb.org/pvldb/vol16/p1033-chen.pdf",
         "outcome": "no-evidence",
         "note": "正式 PVLDB 这一篇孙世轩署新加坡国立大学，作者庞浦本人具名陈全为博士导师；不当作孙的校内指导关系。"
+      },
+      {
+        "year": 2026,
+        "title": "DGS: A GPU-based Adaptive Graph Sampling Framework",
+        "url": "https://doi.org/10.1145/3817060",
+        "outcome": "lead",
+        "note": "正式卷有蚂蚁 Yongchao Liu、Chuntao Hong，Yongchao Liu 在本人研究项目页列本篇；上交第一作者梅君夷是李超博士生，暂未找到其在蚂蚁负责 DGS 子项目或孙对其具名指导。"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient Densest Flow Queries in Transaction Flow Networks",
+        "url": "https://doi.org/10.1109/TKDE.2026.3669778",
+        "outcome": "no-evidence",
+        "note": "IEEE DOI 对应 arXiv:2602.15773 完整稿，原文明确企业为新加坡 Grab；不在站内企业名单。"
+      },
+      {
+        "year": 2026,
+        "title": "FluxZK: Scalable and Efficient Zero-Knowledge Proof Computation via GPU Acceleration",
+        "url": "https://doi.org/10.1145/3806645.3820068",
+        "outcome": "no-evidence",
+        "note": "ACM 在线先于 SC 11 月现场，正式卷与 Zenodo artifact 为同研究。署名上交和北京区块链与边缘计算研究院；无目标企业研究作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Hermes: Efficient Serving of LLM Applications with Probabilistic Demand Modeling",
+        "url": "https://doi.org/10.1145/3803390",
+        "outcome": "lead",
+        "note": "上交陈晨组硕士 Zhenghao Gan 参加正式上交–华为联培；公开项目代码记录其研究贡献在 2024 年 10 月，两位华为云作者具名，陈晨指导。暂未发现孙世轩对该生具名指导证据，另核陈晨视角。"
+      },
+      {
+        "year": 2026,
+        "title": "LHRS-LTW: A Load-Aware Hybrid-Cloud Resource Scheduling Framework for Large-Scale Training Workloads",
+        "url": "https://doi.org/10.1109/TPDS.2026.3704297",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版方 DOI 及可取得作者附属元数据，只列贵州大学和上交。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards High-Goodput LLM Serving with Prefill-decode Multiplexing",
+        "url": "https://doi.org/10.1145/3779212.3790236",
+        "outcome": "lead",
+        "note": "2025 首稿 2504.14489 原题 Optimizing SLO-oriented LLM Serving with PD-Multiplexing，具名 Xusheng Chen 当时华为云，ASPLOS 正式版署名转变；尚未见具名学生同篇在华为科研及个人指导材料。"
+      },
+      {
+        "year": 2025,
+        "title": "ClusterFusion: Expanding Operator Fusion Scope for LLM Inference via Cluster-Level Collective Primitive",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/3760d0ea4709a913a4804f4b4c073836-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "首稿 2508.18850 与正式 NeurIPS 同文；正式稿只列上交、上海期智研究院、NUS。使用 NVIDIA 卡不构成目标企业合作。"
+      },
+      {
+        "year": 2025,
+        "title": "Enhancing High-Throughput GPU Random Walks Through Multi-Task Concurrency Orchestration",
+        "url": "https://doi.org/10.1145/3711820",
+        "outcome": "lead",
+        "note": "TACO 正式版具名阿里 Baoping Hao、李超和其上交博士徐诚。PPoPP 2023 CoWalker 海报展示同一系统，合并为同一作品，原海报同篇曾列三位阿里作者及当期孙世轩 NUS。专利共同署名为李超、徐诚等确认发明，申请人上交；现缺学生对阿里侧具名项目研发的材料，不能仅凭作者同篇及专利。"
+      },
+      {
+        "year": 2025,
+        "title": "Lumina: Real-Time Neural Rendering by Exploiting Computational Redundancy",
+        "url": "https://doi.org/10.1145/3695053.3731003",
+        "outcome": "no-evidence",
+        "note": "ISCA 正式题录列上交、上海期智研究院与罗切斯特大学；无目标企业署名。"
+      },
+      {
+        "year": 2025,
+        "title": "ORION: Optimizing OLAP Query Execution with Proactive Caching and Separate Operators",
+        "url": "https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-13.pdf",
+        "outcome": "lead",
+        "note": "正式原文具名华为云 Jie Meng、Jiang Liu。作者史久琛本人说明在 2024 年结束上海交大博士并转入港理工博士后；他早先明确的华为云项目针对跨地域数据中心和资源预留，没有指向本篇 OLAP。仝志欣具体导学及企业科研时点待查。"
+      },
+      {
+        "year": 2025,
+        "title": "SAMD-SRG: Service-Aware Microservice Deployment Using Spectral Ranking and Graph-Enhanced Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TCCN.2025.3599575",
+        "outcome": "no-evidence",
+        "note": "IEEE 首发 2025，期卷 2026；出版社作者单位只有贵州大学和上海交大，无具名企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "X-SET: An Efficient Graph Pattern Matching Accelerator With Order-Aware Parallel Intersection Units",
+        "url": "https://doi.org/10.1145/3725843.3756112",
+        "outcome": "no-evidence",
+        "note": "MICRO 出版题录列港科大广州、上交、清华与 QingCheng.AI，后者不在目标企业名单。"
+      },
+      {
+        "year": 2024,
+        "title": "A Survey on Concurrent Processing of Graph Analytical Queries: Systems and Algorithms",
+        "url": "https://doi.org/10.1109/TKDE.2024.3393936",
+        "outcome": "no-evidence",
+        "note": "IEEE 出版题录与作者对应所有单位，上交、新加坡国立及新加坡管理大学，无目标企业作者及研发。"
+      },
+      {
+        "year": 2024,
+        "title": "CANDY: A Benchmark for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion",
+        "url": "https://arxiv.org/abs/2406.19651",
+        "outcome": "no-evidence",
+        "note": "原文五个单位为上交、华科及新加坡三所大学，项目仓库 intellistream/candy；无目标企业人员或学生企业研发。"
+      },
+      {
+        "year": 2024,
+        "title": "vTensor: Flexible Virtual Tensor Management for Efficient LLM Serving",
+        "url": "https://arxiv.org/abs/2407.15309",
+        "outcome": "lead",
+        "note": "原文具名上交、期智、蚂蚁，蚂蚁官方 antgroup/glake 宣布同项研发，GLakeServe 首稿后有一条未确认自然人身份的 1aureate 提交，未找到它与具名学生的独立身份映射；尚未证实首作者 Jiale Xu 的企业研发生涯与孙的指导。"
       }
     ],
     "note": "从上交官网、本人书目、DBLP 及 ORCID 建立清单，已先核对近期图计算与系统论文。校内、访学、企业经历分开记录。仍在扩展完整书目。"
@@ -35945,7 +36062,7 @@ const facultyPaperAudits = {
         "title": "FlowWalker: A Memory-efficient and High-performance GPU-based Dynamic Graph Random Walk Framework",
         "url": "https://www.vldb.org/pvldb/vol17/p1788-mei.pdf",
         "outcome": "lead",
-        "note": "正式版具名李超、其在读硕士刘一博及字节员工 Cheng Chen 等，并记载字节抖音在该工程的系统研究。刘的公开提交在首版之后，限于许可证与发布检查，尚缺具名资料证明其在字节参与这篇的研究。"
+        "note": "刘一博与梅君夷均由李超指导，正式论文和企业作者同期自述证实字节图团队合作。刘一博在首稿之后，以字节邮箱向同一公开 artifact 提交许可证与 lint 构建规则；尚无其在首稿前于企业执行具体研究的来源。梅君夷首稿前确有图随机采样代码，但署上交而未见其在公司开发。"
       },
       {
         "year": 2023,
@@ -36572,5 +36689,220 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已用本人书目、DBLP 与会议、出版社和实验室记录核对这批论文；未对剩余书目作结论。以论文可追溯的在线和正式版本归并，按研究当时身份复核。"
+  },
+  "Fzx5jZoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/chenchen.html",
+      "https://chenc10.github.io/team/",
+      "https://chenc10.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "GoodServe: Globally-Coordinated Routing of Agentic LLM Inferences for High Goodput",
+        "url": "https://arxiv.org/abs/2605.16867",
+        "outcome": "no-evidence",
+        "note": "第一作者 Boxiao Du 为陈晨名录的上交–华为正式联培硕士；同篇首稿及后续改题都只列上交、港中文深圳及深圳北理莫斯科大学，没有目标企业员工证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Hermes: Efficient Serving of LLM Applications with Probabilistic Demand Modeling",
+        "url": "https://doi.org/10.1145/3803390",
+        "outcome": "confirmed",
+        "note": "公开校方实验室明确 Zhenghao Gan 自 2024 秋读陈晨上交硕士，属上交–华为联合项目；参与团队研发的概率模型、会话轨迹代码在 2024-10 有具名可读差异，正式文陈晨、学生和同期华为云 Yizhou Shan 同篇。"
+      }
+    ],
+    "note": "从教师官网及本人实验室出版书目开始追踪，逐篇梳理仍在进行。"
+  },
+  "4qW5L2AAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2507.11256",
+      "https://yj10027.github.io/",
+      "https://yj10027.github.io/CV.pdf",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/jinyaonan",
+      "https://researchportal.hkust.edu.hk/en/persons/yaonan-jin/",
+      "https://dblp.org/pid/218/5430.html",
+      "https://orcid.org/0000-0001-6256-7625",
+      "https://arxiv.org/pdf/2507.11256",
+      "https://focs.computer.org/2026/accepted-papers/",
+      "https://cfcs.pku.edu.cn/news/52494443e9344b5c8bb74bad7ffde7e5.htm",
+      "https://jianinglou.github.io/",
+      "https://focs.computer.org/2026/main-program/",
+      "https://xhdeng19.github.io/",
+      "https://cse.hkust.edu.hk/pg/seminars/F26/jin.html",
+      "https://cfcs.pku.edu.cn/announcement/events/cfcsyouthforum/f7c59d5561da489a9249f6c58e44ff36.htm",
+      "https://ijtcs-faw2026.github.io/IJTCS-FAW2026/program.html",
+      "https://ijtcs-faw2026.github.io/IJTCS-FAW2026/accepted-papers.html",
+      "https://doi.org/10.4230/LIPIcs.ICALP.2026.57",
+      "https://arxiv.org/pdf/2504.04349",
+      "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2026.57",
+      "https://basics.sjtu.edu.cn/people/people/",
+      "https://chihaozhang.com/",
+      "https://doi.org/10.1145/3774904.3792421",
+      "https://arxiv.org/pdf/2507.12733v1",
+      "https://arxiv.org/pdf/2507.12733",
+      "https://researchportal.hkust.edu.hk/en/publications/the-query-complexity-of-uniform-pricing/",
+      "https://doi.org/10.1137/1.9781611978971.212",
+      "https://arxiv.org/pdf/2504.03513",
+      "https://arxiv.org/abs/2601.16488",
+      "https://arxiv.org/pdf/2601.16488",
+      "https://ec26.sigecom.org/program/accepted-papers/",
+      "https://yingkai-li.github.io/publications/",
+      "https://arxiv.org/abs/2604.00954",
+      "https://arxiv.org/pdf/2604.00954",
+      "https://arxiv.org/abs/2604.00954v1",
+      "https://arxiv.org/abs/2610.24711",
+      "https://arxiv.org/pdf/2610.24711",
+      "https://arxiv.org/abs/2601.16412",
+      "https://arxiv.org/pdf/2601.16412",
+      "https://doi.org/10.1137/24M1684025",
+      "https://arxiv.org/pdf/2606.10169",
+      "https://ieee-focs.org/FOCS-2024-Papers/pdfs/FOCS2024-1oojWxXs5YAKfs3z3lBRMF/167400b251/167400b251.pdf",
+      "https://researchportal.hkust.edu.hk/en/publications/benchmark-tight-approximation-ratio-of-simple-mechanism-for-a-uni/",
+      "https://doi.org/10.1109/FOCS63196.2025.00020",
+      "https://arxiv.org/pdf/2411.03583",
+      "https://researchportal.hkust.edu.hk/en/publications/beyond-regularity-simple-versus-optimal-mechanisms-revisited/",
+      "https://doi.org/10.4230/LIPIcs.ITCS.2023.75",
+      "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2023.75",
+      "https://arxiv.org/abs/1912.10069",
+      "https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2023.39",
+      "https://drops.dagstuhl.de/storage/00lipics/lipics-vol275-approx-random2023/LIPIcs.APPROX-RANDOM.2023.39/LIPIcs.APPROX-RANDOM.2023.39.pdf",
+      "https://arxiv.org/abs/2301.07134",
+      "https://doi.org/10.1137/1.9781611977554.ch176",
+      "https://arxiv.org/pdf/2005.06156",
+      "https://doi.org/10.1137/1.9781611977554.ch14",
+      "https://arxiv.org/pdf/2207.04455",
+      "https://researchportal.hkust.edu.hk/en/publications/the-price-of-stability-for-first-price-auction/",
+      "https://doi.org/10.1145/3617902",
+      "https://arxiv.org/pdf/2207.01761"
+    ],
+    "papers": [
+      {
+        "title": "Fully Dynamic Euclidean k-Means",
+        "url": "https://arxiv.org/abs/2507.11256",
+        "outcome": "lead",
+        "note": "2025 首版原稿与 FOCS 2026 正式议程均将金耀楠署为华为。北大课题组官方文章和楼佳宁主页核实北大团队及博士身份，但未找到楼佳宁以华为实习或联培身份参与该篇的证据。应视金耀楠为该篇企业作者，不用其 2026 港科大职称反填导师角色。",
+        "year": 2026
+      },
+      {
+        "title": "The Price of Anarchy for Selfish Load Balancing",
+        "url": "https://focs.computer.org/2026/main-program/",
+        "outcome": "no-evidence",
+        "note": "FOCS 官方议程确认四人署港科大、上海交大。邓熙涵履历明确本科在读及本人自 2025 年 7 月跟随金耀楠和Yuhao Zhang开展研究；公开议程和校方讲座未标示企业人员，无法以华为任职期间开始合作的时间代替项目或岗位证据。当前以正式展示记录核查，未找到会议全文。",
+        "year": 2026
+      },
+      {
+        "title": "The Price of Anarchy for Selfish Load Balancing under Correlated Priors",
+        "url": "https://ijtcs-faw2026.github.io/IJTCS-FAW2026/program.html",
+        "outcome": "no-evidence",
+        "note": "2026-11-08 官方议程列四位作者，区分 FOCS 同名基础模型论文与相关先验版本。邓熙涵本人证实同期上海交大本科和具名指导；项目内企业人员与研究归属的证据仍缺。OpenReview 人机验证，暂以官方会议信息核至署名，全文待补。",
+        "year": 2026
+      },
+      {
+        "title": "Tight Regret Bounds for Fixed-Price Bilateral Trade",
+        "url": "https://doi.org/10.4230/LIPIcs.ICALP.2026.57",
+        "outcome": "lead",
+        "note": "ICALP 正式稿署上海交大 Houshuang Chen、张驰豪与华为 Taylor Lab 金耀楠、陆品燕。交大实验室把 Chen 列为博士校友，尚需同期在读年月、在范围导师具名指导和其在华为完成同篇项目的原始说明。金耀楠在该稿的具体角色为企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "The Query Complexity of Uniform Pricing",
+        "url": "https://doi.org/10.1145/3774904.3792421",
+        "outcome": "lead",
+        "note": "2025 首版将金耀楠和陆品燕署华为；最新版把金耀楠地址改为港科大，陆品燕仍署华为。研究首次公开时金耀楠履历仍在华为。Chen 与张驰豪署上海交大，但未找到 Chen 在华为完成本篇研究的具名项目证明。2025 首版旧题合并。",
+        "year": 2026
+      },
+      {
+        "title": "Local Search for Clustering in Almost-linear Time",
+        "url": "https://doi.org/10.1137/1.9781611978971.212",
+        "outcome": "lead",
+        "note": "2025 公开初稿署金耀楠、陆品燕为华为作者，北大姜少峰与楼佳宁也在同篇。楼佳宁原始主页确认北大博士学籍并列本篇，但没有其在华为参与本篇的具名佐证。正式 SODA 2026 与预印本合并。",
+        "year": 2026
+      },
+      {
+        "title": "Anonymous Pricing in Large Markets",
+        "url": "https://arxiv.org/abs/2601.16488",
+        "outcome": "no-evidence",
+        "note": "EC 2026 官方录用页和开放作者稿列金耀楠及新加坡国立大学 Yingkai Li 两位作者。首版虽处于金耀楠华为履历日期内，同篇未见独立的在读者与目标企业员工角色组合。",
+        "year": 2026
+      },
+      {
+        "title": "Fully Scalable MPC Algorithms for Euclidean Clustering: Constant Approximation in Constant Rounds",
+        "url": "https://arxiv.org/abs/2604.00954",
+        "outcome": "no-evidence",
+        "note": "11 月公开稿列 Warwick、港科大和北大；楼佳宁本人书目列 4 月旧题并确认在读，未找到同篇企业参与资料。2026-04 的 Round-efficient Fully-scalable MPC algorithms for k-Means 为同一 arXiv 标识，合并至扩展题名。",
+        "year": 2026
+      },
+      {
+        "title": "Mean-only Prophet Inequalities",
+        "url": "https://arxiv.org/abs/2610.24711",
+        "outcome": "no-evidence",
+        "note": "原始 arXiv 2026-10-17，作者四人，未找到目标企业作者或具名学生在企业完成该篇的第一手证据。",
+        "year": 2026
+      },
+      {
+        "title": "Tight Regret Bounds for Bilateral Trade under Semi Feedback",
+        "url": "https://arxiv.org/abs/2601.16412",
+        "outcome": "no-evidence",
+        "note": "原始预印本为金耀楠独著，即使研究活动处于任职交接附近，也没有三方同篇署名。",
+        "year": 2026
+      },
+      {
+        "title": "Benchmark-Tight Approximation Ratio of Simple Mechanism for a Unit-Demand Buyer",
+        "url": "https://doi.org/10.1137/24M1684025",
+        "outcome": "no-evidence",
+        "note": "SIAM 期刊原稿脚注明确金耀楠一部分工作在华为 Taylor Lab 任职期间完成，陆品燕署华为。两位作者均为研究人员，未找到同期范围高校学生参与。合并 2024 FOCS、2026 arXiv 与正式期刊版本。",
+        "year": 2026
+      },
+      {
+        "title": "Beyond Regularity: Simple versus Optimal Mechanisms, Revisited",
+        "url": "https://doi.org/10.1109/FOCS63196.2025.00020",
+        "outcome": "no-evidence",
+        "note": "2024 原稿署金耀楠为华为 TCS Lab，与另一位研究者 Yiding Feng 共同发表；没有具名在读者。会议名为 FOCS 2025，校方页面明确 IEEE 论文首次出版于 2026-02-09。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Reserve Prices in Second-Price Auctions",
+        "url": "https://doi.org/10.4230/LIPIcs.ITCS.2023.75",
+        "outcome": "no-evidence",
+        "note": "Dagstuhl 正式稿列当时仍在哥伦比亚大学攻读博士的金耀楠、上海财经大学陆品燕和华为 Tao Xiao；金耀楠本人当时的学籍不在 26 校范围，未发现另一位合格在读者。与 2019 公开预印本合并。",
+        "year": 2023
+      },
+      {
+        "title": "Subset Sum in Time 2^(n/2)/poly(n)",
+        "url": "https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2023.39",
+        "outcome": "no-evidence",
+        "note": "会议论文及本人学术履历核实为哥伦比亚研究期间共同完成，未找到范围内教师指导的在读者或目标企业员工参与。",
+        "year": 2023
+      },
+      {
+        "title": "Super-Resolution and Robust Sparse Continuous Fourier Transform in Any Constant Dimension: Nearly Linear Time and Sample Complexity",
+        "url": "https://doi.org/10.1137/1.9781611977554.ch176",
+        "outcome": "no-evidence",
+        "note": "首稿及 SODA 2023 正式来源均在金耀楠进入华为之前；论文三位作者的公开证据不支持范围高校教师、在读者和目标企业同篇合作。2020 预印本并入正式版。",
+        "year": 2023
+      },
+      {
+        "title": "The Price of Stability for First Price Auction",
+        "url": "https://doi.org/10.1137/1.9781611977554.ch14",
+        "outcome": "no-evidence",
+        "note": "原稿及 SIAM 正式版仅金耀楠、陆品燕两人，且金耀楠在 2023 年 4 月前仍是哥伦比亚大学博士生。2022 arXiv 并入。",
+        "year": 2023
+      },
+      {
+        "title": "First Price Auction is 1-1/e² Efficient",
+        "url": "https://doi.org/10.1145/3617902",
+        "outcome": "no-evidence",
+        "note": "2023 JACM 正式刊发，2022 FOCS 与预印本合并。arXiv 修订版确证金耀楠是在哥伦比亚大学攻读博士时完成研究，其新版署华为并不改变当时学籍及项目身份；另一作者陆品燕署上海财经大学／华为。未见范围高校在读者。",
+        "year": 2023
+      }
+    ],
+    "note": "阶段核查。以本人书目与履历、港科大学术门户、ORCID、DBLP、原稿及正式会议核对，截至 2026-11-12 逐篇记录 17 篇；作者 2023-05 至 2026-05 任职华为 Taylor Lab，2026-06 起任教港科大，按同篇项目发生时身份核验。两篇负载均衡论文核至官方公开议程，待补可公开复核全文。2021 Fourier Growth 的期刊版仍见待刊备注，未另计。"
   }
 };

@@ -40057,6 +40057,275 @@ const survey = {
           "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html"
         ]
       ]
+    },
+    {
+      "id": "hermes-huawei-sjtu-chen-chen",
+      "paperId": "arxiv:2506.14851",
+      "company": "华为",
+      "team": "华为云",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "陈晨 · Chen Chen",
+        "上海交通大学副教授、博士生导师；本人实验室列 Zhenghao Gan 是其华为联合培养硕士；同篇作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/chenchen.html"
+      ],
+      "employee": [
+        "单一舟 · Yizhou Shan",
+        "研究同期正式担任华为云研究科学家，主管 Serverless AI 模型服务平台；同篇署华为。",
+        "https://www.usenix.org/sites/default/files/atc24_cfp_010224.pdf"
+      ],
+      "student": [
+        "Zhenghao Gan",
+        "2024 秋起在陈晨组读硕士，学校网页注明为上交–华为联合培养，直接为 Hermes 实现研究中的概率模型与多轮会话评测。",
+        "https://chenc10.github.io/team/"
+      ],
+      "title": "Hermes: Efficient Serving of LLM Applications with Probabilistic Demand Modeling",
+      "short": "Hermes",
+      "date": "2025-06",
+      "venue": "ACM TACO",
+      "area": "大模型服务系统",
+      "paper": "https://doi.org/10.1145/3803390",
+      "extra": [
+        [
+          "华为云与上交同篇首稿",
+          "https://arxiv.org/html/2506.14851v1"
+        ],
+        [
+          "2024 年 10 月学生增加本项的贝叶斯共推理算法",
+          "https://github.com/sysdomlab/Hermes/commit/1759e0ee87d9d5c1d869f06046f14b8366e9344a"
+        ],
+        [
+          "学生同月参与多轮交互模型和评估",
+          "https://github.com/sysdomlab/Hermes/commit/72cf0164fabf56fa66b2c13dbc007eb6485650c4"
+        ],
+        [
+          "研究同期华为云正式身份：USENIX 程序委员会",
+          "https://www.usenix.org/sites/default/files/atc24_cfp_010224.pdf"
+        ]
+      ],
+      "evidence": "2025 年 6 月原稿和 2026 ACM 正式版同篇具名华为云研究科学家单一舟、上海交大陈晨和硕士 Zhenghao Gan。陈晨实验室名录明确后者 2024 秋加入并标注上海交大–华为联合项目；该生在两方同署研究的原始项目仓库 2024 年 10 月以校邮箱具名提交贝叶斯概率估算、多轮会话处理与任务模型数据，早于首稿且直接涉及论文核心机制。华为云身份另有单一舟本人履历及同期 USENIX 角色明确确认。",
+      "advising": [
+        "高校指导与上交–华为联合培养",
+        "陈晨实验室具名硕士、2024 秋起及与华为联合培养。陈晨、学生与华为云任职科学家同篇。",
+        "https://chenc10.github.io/team/"
+      ]
+    },
+    {
+      "id": "baidu-apex-param-expansion-ucas-zhenglin",
+      "paperId": "arxiv:2505.24241",
+      "company": "百度",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "林政 · Zheng Lin",
+        "国科大研究员；顾佴彬本人确认林政为其校内联合导师，同篇署名。",
+        "https://people.ucas.ac.cn/~linzheng"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "同篇署百度；本人履历显示自 2022 年 7 月在百度 NLP 部门任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "顾佴彬 · Naibin Gu",
+        "本人履历明确 2022 年起国科大直博，2024 年 10 月起在百度开展研究。百度同篇作者张振宇本人逐篇书目把他在本作姓名标为实习生。",
+        "https://gccnlp.github.io/"
+      ],
+      "title": "Advantageous Parameter Expansion Training Makes Better Large Language Models",
+      "short": "APEX",
+      "date": "2026-10",
+      "venue": "EMNLP 2026",
+      "paper": "https://aclanthology.org/2026.emnlp-main.386.pdf",
+      "area": "大模型训练、参数扩展",
+      "evidence": "教师林政、企业作者张振宇均见正式版，张振宇标为项目负责人。百度作者张振宇公开逐篇书目在本作作者行把顾佴彬标为实习生（该页图例解释 ¡ 标记）；结合学籍、同篇署名及校内指导资料核实。",
+      "advising": [
+        "校内联合导师",
+        "顾佴彬本人列付鹏、林政、王伟平为校内联合导师，三位同篇署名；按本轮名录记录林政。",
+        "https://gccnlp.github.io/"
+      ],
+      "extra": [
+        [
+          "百度研究人员的逐篇贡献书目（¡ 同篇实习标记）",
+          "https://zhenyu.ac.cn/pubs.html"
+        ],
+        [
+          "正式书目或项目作者页",
+          "https://aclanthology.org/2026.emnlp-main.386/"
+        ],
+        [
+          "同篇预印本或项目补充来源",
+          "https://arxiv.org/abs/2505.24241"
+        ],
+        [
+          "博士生学籍／共同指导旁证",
+          "https://www.iie.ac.cn/xwdt/zhxw/202602/t20260209_8142032.html"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-elastic-moe-ucas-zhenglin",
+      "paperId": "arxiv:2509.21892",
+      "company": "百度",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "林政 · Zheng Lin",
+        "国科大研究员；顾佴彬本人确认林政为其校内联合导师，同篇署名。",
+        "https://people.ucas.ac.cn/~linzheng"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "同篇署百度；本人履历显示自 2022 年 7 月在百度 NLP 部门任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "顾佴彬 · Naibin Gu",
+        "本人履历明确 2022 年起国科大直博，2024 年 10 月起在百度开展研究。百度同篇作者张振宇本人逐篇书目把他在本作姓名标为实习生。",
+        "https://gccnlp.github.io/"
+      ],
+      "title": "Elastic MoE: Unlocking the Inference-Time Scalability of Mixture-of-Experts",
+      "short": "Elastic MoE",
+      "date": "2025-09-26",
+      "venue": "arXiv 预印本",
+      "paper": "https://arxiv.org/pdf/2509.21892v1",
+      "area": "大模型推理、混合专家",
+      "evidence": "张振宇为同篇共同一作及其具名实习导师，林政为同篇联合导师。百度作者张振宇公开逐篇书目在本作作者行把顾佴彬标为实习生（该页图例解释 ¡ 标记）；结合学籍、同篇署名及校内指导资料核实。",
+      "advising": [
+        "校内联合导师",
+        "顾佴彬本人列付鹏、林政、王伟平为校内联合导师，三位同篇署名；按本轮名录记录林政。",
+        "https://gccnlp.github.io/"
+      ],
+      "extra": [
+        [
+          "百度研究人员的逐篇贡献书目（¡ 同篇实习标记）",
+          "https://zhenyu.ac.cn/pubs.html"
+        ],
+        [
+          "正式书目或项目作者页",
+          "https://arxiv.org/abs/2509.21892"
+        ],
+        [
+          "同篇预印本或项目补充来源",
+          "https://arxiv.org/abs/2509.21892v2"
+        ],
+        [
+          "博士生学籍／共同指导旁证",
+          "https://www.iie.ac.cn/xwdt/zhxw/202602/t20260209_8142032.html"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-napo-ucas-liutingwen",
+      "paperId": "doi:10.1109/CVPR52734.2025.00880",
+      "company": "百度",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员；国科大导师页在现指导学生中具名张泽锋。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "同篇署百度；本人履历显示自 2022 年 7 月在百度 NLP 部门任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "张泽锋 · Zefeng Zhang",
+        "国科大导师名单确认其为信工所在读博士生；百度同篇作者张振宇的逐篇书目把其在本作姓名标为实习生。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "title": "Debiasing Multimodal Large Language Models via Noise-Aware Preference Optimization",
+      "short": "NaPO",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Debiasing_Multimodal_Large_Language_Models_via_Noise-Aware_Preference_Optimization_CVPR_2025_paper.pdf",
+      "area": "多模态模型、偏好优化",
+      "evidence": "CVF 版注明张振宇为项目负责人、柳厅文为论文通讯作者，张泽锋为首作者。百度作者张振宇公开逐篇书目在本作作者行把张泽锋标为实习生（该页图例解释 ¡ 标记）；结合学籍、同篇署名及校内指导资料核实。",
+      "advising": [
+        "国科大博士导师",
+        "国科大现指导研究生名录直接列张泽锋；盛傢伟的博士生名单也注明与柳厅文共同指导。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "百度研究人员的逐篇贡献书目（¡ 同篇实习标记）",
+          "https://zhenyu.ac.cn/pubs.html"
+        ],
+        [
+          "正式书目或项目作者页",
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Debiasing_Multimodal_Large_Language_Models_via_Noise-Aware_Preference_Optimization_CVPR_2025_paper.html"
+        ],
+        [
+          "同篇预印本或项目补充来源",
+          "https://zhangzef.github.io/NaPO-Project-Page/"
+        ],
+        [
+          "博士生学籍／共同指导旁证",
+          "https://jiaweisheng.github.io/"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-cooper-ucas-liutingwen",
+      "paperId": "arxiv:2512.04563",
+      "company": "百度",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员；国科大导师页在现指导学生中具名张泽锋。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "同篇署百度；本人履历显示自 2022 年 7 月在百度 NLP 部门任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "张泽锋 · Zefeng Zhang",
+        "国科大导师名单确认其为信工所在读博士生；百度同篇作者张振宇的逐篇书目把其在本作姓名标为实习生。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "title": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
+      "short": "COOPER",
+      "date": "2026-06",
+      "venue": "arXiv 预印本 · 获 CVPR 2026 Findings 接收",
+      "paper": "https://arxiv.org/pdf/2512.04563v2",
+      "area": "多模态空间推理",
+      "evidence": "同篇张泽锋共同一作，百度张振宇、高礼同篇署名；公司张振宇本人在此条标注张泽锋为实习生。百度作者张振宇公开逐篇书目在本作作者行把张泽锋标为实习生（该页图例解释 ¡ 标记）；结合学籍、同篇署名及校内指导资料核实。",
+      "advising": [
+        "国科大博士导师",
+        "国科大现指导研究生名录直接列张泽锋；盛傢伟的博士生名单也注明与柳厅文共同指导。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "百度研究人员的逐篇贡献书目（¡ 同篇实习标记）",
+          "https://zhenyu.ac.cn/pubs.html"
+        ],
+        [
+          "正式书目或项目作者页",
+          "https://github.com/zhangzef/COOPER"
+        ],
+        [
+          "同篇预印本或项目补充来源",
+          "https://haoxiangzhao12138.github.io/"
+        ],
+        [
+          "博士生学籍／共同指导旁证",
+          "https://jiaweisheng.github.io/"
+        ],
+        [
+          "百度第二位作者书目列出同一发表信息",
+          "https://gaoli-sinh.github.io/publications.html"
+        ]
+      ]
     }
   ]
 };
