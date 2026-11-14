@@ -11550,7 +11550,8 @@ const facultyPaperAudits = {
       "https://huggingface.co/AntResearch/FLARE",
       "https://henry123-boy.github.io/academic.html",
       "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43",
-      "https://github.com/dadwadw233"
+      "https://github.com/dadwadw233",
+      "https://anitacen.github.io/"
     ],
     "papers": [
       {
@@ -11573,9 +11574,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "EnvGS: Modeling View-Dependent Appearance with Environment Gaussian",
-        "url": "https://arxiv.org/abs/2412.15215",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_EnvGS_Modeling_View-Dependent_Appearance_with_Environment_Gaussian_CVPR_2025_paper.pdf",
         "outcome": "lead",
-        "note": "与同一博士生的其他蚂蚁实习项目不同，公开署名和资助未能证明本篇属于其企业科研实习，也未找到同篇企业导师证据。"
+        "note": "CCF 正式是 CVPR 2025；论文首稿在 2024 年。浙大周晓巍与蚂蚁正式员工沈宇君同篇，但两位主要作者陶谢、Xi Chen 都只署浙大，后者履历未列蚂蚁，前者公开记录地平线实习。共同作者靳宇栋蚂蚁实习确证且同期，但其本篇只署浙大，缺具名具体企业工作证据。",
+        "year": 2025
       },
       {
         "title": "FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views",
@@ -11667,6 +11669,48 @@ const facultyPaperAudits = {
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06451.pdf",
         "outcome": "lead",
         "note": "ECCV 版本明示沈宇君署蚂蚁，郭昊宇/王宇昂仅署浙江大学。项目页另一位共一作 He Zhu 的具名脚注明确为浙大实习；未见校内学生为蚂蚁开展此项的具名证据。"
+      },
+      {
+        "year": 2026,
+        "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
+        "url": "https://arxiv.org/pdf/2611.09605v1",
+        "outcome": "confirmed",
+        "note": "第一作者魏鼎坤在本研究原创 PDF 同时署浙大与 Robbyant。其个人履历明示自 2025 年 9 月在蚂蚁集团由此篇企业项目负责人 Zehong Shen 指导，校内硕导是同篇浙大通讯周晓巍；公司团队独立发布相同工作。 Robbyant 官方自述属于蚂蚁集团，故归入蚂蚁集团。论文作者和企业研究职务另外有同篇企业署名、Zehong Shen 和沈宇君公开职责交叉证实。两篇前后公开时间相近，但研究分别解决逆动力学全身平衡和多目的地导航，双独立论文。"
+      },
+      {
+        "year": 2026,
+        "title": "GARDEN: Gravity-Aligned Reconstruction of Disentangled Environments from RGB Images",
+        "url": "https://sunjiahaovo.github.io/garden/",
+        "outcome": "lead",
+        "note": "实名脚注明示魏鼎坤也在蚂蚁实习期间完成本篇；但论文作者没有其硕导周晓巍。若具名验证其他论文共同作者为另一学生的校内导师，可另视角；此处不计。"
+      },
+      {
+        "year": 2026,
+        "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
+        "url": "https://arxiv.org/pdf/2611.12136v1",
+        "outcome": "confirmed",
+        "note": "原文首页脚注明确列魏鼎坤和其他三位具名作者在蚂蚁实习期间参与具体研究，魏本人在此篇双署浙大和 Robbyant；他在读硕导周晓巍为高校通讯，企业实习导师 Zehong Shen 在同篇为企业项目负责人。 Robbyant 官方自述属于蚂蚁集团，故归入蚂蚁集团。论文作者和企业研究职务另外有同篇企业署名、Zehong Shen 和沈宇君公开职责交叉证实。两篇前后公开时间相近，但研究分别解决逆动力学全身平衡和多目的地导航，双独立论文。"
+      },
+      {
+        "year": 2026,
+        "title": "StreamingTalker: Audio-driven 3D Facial Animation with Autoregressive Diffusion Model",
+        "url": "https://arxiv.org/abs/2511.14223",
+        "outcome": "lead",
+        "note": "原文查得企业及其他合著，需确认岑帜或具名在读学生与导师参加了对应工作，不能从其快手实习泛推。"
+      },
+      {
+        "year": 2025,
+        "title": "ReTracker: Exploring Image Matching for Robust Online Any Point Tracking",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_ReTracker_Exploring_Image_Matching_for_Robust_Online_Any_Point_Tracking_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "正式首页给贺星毅浙大/蚂蚁共一作双署，浙大博士导师周晓巍通讯、蚂蚁主管沈宇君同篇具名。贺本人履历在重叠博士及实习期分别列两个具名导师。2025 年 3 月 ICCV 投稿及 10 月发表均在其企业与学籍重叠期。另一个共一作也双署，但只记录独立师承及实习均已确认的贺。此研究并非另列的 SpatialTracker 或 BoxDreamer。"
+      },
+      {
+        "year": 2025,
+        "title": "Ready-to-React: Online Reaction Policy for Two-Character Interaction Generation",
+        "url": "https://arxiv.org/abs/2502.20370",
+        "outcome": "lead",
+        "note": "正式研究有蚂蚁研究员沈宇君；第一作者岑帜的快手实习从公开首稿两月后开始，且雇主不同。尚没有学生在蚂蚁参与此项的具名证据。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -44087,7 +44131,31 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2605.23271v1",
       "https://arxiv.org/pdf/2610.30926v1",
       "https://shotverse.github.io/fapl/",
-      "https://arxiv.org/pdf/2609.37200v1"
+      "https://arxiv.org/pdf/2609.37200v1",
+      "https://arxiv.org/abs/2608.23189",
+      "https://franklinz233.github.io/#-experience",
+      "https://ml-summit.org/speaker/1094?lang=cn&uid=c1051",
+      "https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/wm/",
+      "https://github.com/jd-opensource/JoyAI-Echo",
+      "https://huggingface.co/Echo-Team/Echo-WM",
+      "https://arxiv.org/html/2608.23189v1",
+      "https://arxiv.org/pdf/2603.17051v1",
+      "https://franklinz233.github.io/projects/astrolabe/",
+      "https://github.com/franklinz233/Astrolabe",
+      "https://arxiv.org/pdf/2607.14595v1",
+      "https://arxiv.org/html/2607.14595v1",
+      "https://cislab.hkust-gz.edu.cn/members/",
+      "https://yinhan-zhang.github.io/",
+      "https://refkxh.github.io/",
+      "https://arxiv.org/abs/2609.09123",
+      "https://arxiv.org/pdf/2609.09123v1",
+      "https://alicezrzhao.github.io/",
+      "https://alicezrzhao.github.io/mask_forcing/",
+      "https://doi.org/10.1145/3800645.3813048",
+      "https://arxiv.org/pdf/2507.22051v1",
+      "https://anyirao.com/",
+      "https://doi.org/10.1145/3772318.3791160",
+      "https://arxiv.org/pdf/2601.18428v1"
     ],
     "papers": [
       {
@@ -44117,9 +44185,37 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "港科大在读博士与导师、腾讯视频 AI 中心主任同篇，但学生署港科大，原始 PDF 无实习脚注。曾任腾讯学生研究员和该篇主题相关，未建立项目层级企业参与。",
         "year": 2026
+      },
+      {
+        "title": "EchoWM: Open and Enterable Omnimodal World Models",
+        "url": "https://arxiv.org/abs/2608.23189",
+        "outcome": "confirmed",
+        "note": "京东 Echo 团队的同篇项目页把张菘淳列为港科大、京东探索研究院双署的第一共同作者；学生本人履历独立记录 2026 年 1 月起在京东 TGT 进行多模态世界模型研究，企业导师 Zeyue Xue、Haoyang Huang、Nan Duan 均在本篇署京东。港科大 MMLab 名录在明确负责人饶安逸名下列张菘淳为博士生，饶安逸为同篇通讯作者。段楠同期是京东研究院在职副院长。与 Echo-Infinity 共用产品系列但作者组、独立 arXiv 与技术报告均不同，按独立论文。",
+        "year": 2026
+      },
+      {
+        "title": "Astrolabe: Steering Forward-Process Reinforcement Learning for Distilled Autoregressive Video Models",
+        "url": "https://arxiv.org/pdf/2603.17051v1",
+        "outcome": "lead",
+        "note": "张菘淳是港科大 MMLab 博士生，履历列同期 2026-01 起京东世界模型和实时视频模型后训练；三位企业导师和饶安逸同篇，原文仅给张校方署名，公开代码由其个人账号托管。需同篇京东来源或贡献证据；不能沿用 EchoWM 关系。",
+        "year": 2026
+      },
+      {
+        "title": "MagicPrompt: Ultra-Lightweight Prompt Tuning for Video Generation",
+        "url": "https://arxiv.org/pdf/2607.14595v1",
+        "outcome": "lead",
+        "note": "原文明确在腾讯实习时完成，第一作者 Yinhan Zhang 有腾讯和港校署名；2024 秋至 2026 春为港科大（广州）硕士，2026 年转往香港科大攻博。现组名录列饶安逸为所在组负责人，但须核对已知 2026 年 6 月录用时是否已受其具名指导或有正式同期联合培养。另一位学生 Xianghao Kong 只署港科大，不能移用各自的腾讯经历。",
+        "year": 2026
+      },
+      {
+        "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+        "url": "https://arxiv.org/abs/2609.09123",
+        "outcome": "lead",
+        "note": "第一作者 Zhuoran Zhao 具名列饶安逸及潘辉为导师，同期列腾讯光子视频生成实习；论文作者列腾讯研究者，学生仍只署港校，没有明确将这篇作品认定为腾讯实习项目的来源。",
+        "year": 2026
       }
     ],
-    "note": "先审课题组公开视频论文和参与者履历；其余书目待继续，未标完成。"
+    "note": "从官网和 MMLab 近期论文出发，已逐篇记录 10 项；未核完完整公开书目。"
   },
   "DMibRrYAAAAJ": {
     "from": "2023-01-01",
@@ -44281,14 +44377,34 @@ const facultyPaperAudits = {
       "https://s2026.conference-schedule.org/presentation/?id=papers_304&sess=sess148",
       "https://yaoweili22.github.io/",
       "https://arxiv.org/abs/2412.09349",
-      "https://lihxxx.github.io/DisPose/"
+      "https://lihxxx.github.io/DisPose/",
+      "https://github.com/lihx-me/lihx-me.github.io/blob/eec3e5e3e48e893134b292b03c3ffbf46f5771a5/_pages/about.md#L134-L138",
+      "https://github.com/lihx-me/lihx-me.github.io/blob/7eadb8aae0511ab4384ff0a3a2f32e2986a88341/_pages/about.md#L150-L154",
+      "https://shawnhuang497.github.io/xiaoshuanghuang.github.io/#-work-experience-",
+      "https://doi.org/10.1007/978-3-032-37356-4_10",
+      "https://dblp.org/pid/64/5725-16.html",
+      "https://arxiv.org/pdf/2606.30811v1",
+      "https://hkust-longgroup.github.io/AVTok/",
+      "https://proceedings.mlr.press/v306/chen26bp.html",
+      "https://arxiv.org/abs/2601.21542",
+      "https://github.com/HKUST-LongGroup/BA-solver",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/82b0c1b954b6ef9f3cfb664a82b201bb-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2506.23061v1",
+      "https://github.com/HKUST-LongGroup/DyME",
+      "https://arxiv.org/abs/2610.01408",
+      "https://arxiv.org/pdf/2610.01408v1",
+      "https://github.com/HKUST-LongGroup/CoFlow",
+      "https://doi.org/10.1109/TMI.2024.3523333",
+      "https://arxiv.org/pdf/2404.02845v1",
+      "https://shawnhuang497.github.io/xiaoshuanghuang.github.io/",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b3b0ea507520e3db70f7219b59fd5fd9-Abstract-Conference.html"
     ],
     "papers": [
       {
         "title": "GIR-Bench: Versatile Benchmark for Generating Images with Reasoning",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6274d57365d7a6be06e58cad30d1b9da-Abstract-Conference.html",
-        "outcome": "lead",
-        "note": "正式会议一版第一作者双署港科大与小红书，预印本只列港科大。已知他与校内导师同篇，但需补能独立证实其在小红书参与该研究的实名项目说明或任职依据。",
+        "outcome": "confirmed",
+        "note": "港科大名录将 Hongxiang Li 列为 2025 年秋入学博士生，其本人具名列陈隆为博士导师；陈隆为论文通讯作者。学生 2026 年 3 月公开的本人履历把小红书实习列为 2025 年至当时，覆盖 2025 年 10 月研究公开期；正式 ICLR 论文可核对的版本明确列其共同第一作者并双署港科大、小红书，首版 arXiv 只列港科大，保留两版差异。另有同篇小红书算法工程师 Xiaoshuang Huang，本人公开自述 2025 年 7 月起任职并具名列此项作品。",
         "year": 2026
       },
       {
@@ -44306,6 +44422,6 @@ const facultyPaperAudits = {
         "year": 2026
       }
     ],
-    "note": "从校方研究门户、个人书目与学生履历核对最接近企业线索的近期作品；不同来源列举范围不同，未标记完成。"
+    "note": "从校方研究门户、个人书目、同名识别后的 DBLP（64/5725-16）及课题组核对；已逐篇记录 9 项，未标完成。"
   }
 };

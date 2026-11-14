@@ -42621,6 +42621,296 @@ const survey = {
         "https://zhoujingbo.github.io/"
       ],
       "year": 2024
+    },
+    {
+      "id": "dkwbc-robbyant-ant-zju-zhou",
+      "paperId": "arxiv:2611.09605",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁灵波科技（Robbyant）",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙大计算机学院教授，论文同篇通讯；魏本人明确其为浙江大学硕士导师。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "Zehong Shen",
+        "公开履历自述为 Robbyant 研究科学家；同篇署公司并为项目负责人，具名指导了同篇实习生。",
+        "https://zehongs.github.io/"
+      ],
+      "student": [
+        "魏鼎坤 · Dingkun Wei",
+        "2024 年 9 月起在浙江大学读硕士并由周晓巍指导；本人记录自 2025 年 9 月在蚂蚁集团由企业人员 Zehong Shen 指导。",
+        "https://kune1008.github.io/"
+      ],
+      "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
+      "short": "DKWBC",
+      "date": "2026-11-06",
+      "venue": "arXiv 预印本",
+      "area": "人形机器人控制与导航",
+      "paper": "https://arxiv.org/pdf/2611.09605v1",
+      "extra": [
+        [
+          "企业团队正式发布同一项目",
+          "https://robbyant-research.github.io/DKWBC/"
+        ],
+        [
+          "蚂蚁集团子公司官方确认",
+          "https://www.robbyant.com/"
+        ],
+        [
+          "首稿日期",
+          "https://arxiv.org/abs/2611.09605"
+        ],
+        [
+          "同篇蚂蚁高级研究科学家沈宇君的同期任职",
+          "https://shenyujun.github.io/"
+        ]
+      ],
+      "evidence": "第一作者魏鼎坤在本研究原创 PDF 同时署浙大与 Robbyant。其个人履历明示自 2025 年 9 月在蚂蚁集团由此篇企业项目负责人 Zehong Shen 指导，校内硕导是同篇浙大通讯周晓巍；公司团队独立发布相同工作。 Robbyant 官方自述属于蚂蚁集团，故归入蚂蚁集团。论文作者和企业研究职务另外有同篇企业署名、Zehong Shen 和沈宇君公开职责交叉证实。两篇前后公开时间相近，但研究分别解决逆动力学全身平衡和多目的地导航，双独立论文。",
+      "advising": [
+        "研究当期实名硕导",
+        "魏鼎坤本人公开履历明确其浙大硕士阶段从 2024 年 9 月起由周晓巍指导，周在同篇具名。",
+        "https://kune1008.github.io/"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "lhnav-robbyant-ant-zju-zhou",
+      "paperId": "arxiv:2611.12136",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁灵波科技（Robbyant）",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙大计算机学院教授，论文同篇通讯；魏本人明确其为浙江大学硕士导师。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "Zehong Shen",
+        "公开履历自述为 Robbyant 研究科学家；同篇署公司并为项目负责人，具名指导了同篇实习生。",
+        "https://zehongs.github.io/"
+      ],
+      "student": [
+        "魏鼎坤 · Dingkun Wei",
+        "2024 年 9 月起在浙江大学读硕士并由周晓巍指导；本人记录自 2025 年 9 月在蚂蚁集团由企业人员 Zehong Shen 指导。",
+        "https://kune1008.github.io/"
+      ],
+      "title": "LHNav: Long-Horizon Humanoid Navigation via Multirate Coordination and Physics-Grounded Action Data",
+      "short": "LHNav",
+      "date": "2026-11-09",
+      "venue": "arXiv 预印本",
+      "area": "人形机器人控制与导航",
+      "paper": "https://arxiv.org/pdf/2611.12136v1",
+      "extra": [
+        [
+          "企业团队正式发布同一项目",
+          "https://robbyant-research.github.io/LHNav/"
+        ],
+        [
+          "蚂蚁集团子公司官方确认",
+          "https://www.robbyant.com/"
+        ],
+        [
+          "首稿日期",
+          "https://arxiv.org/abs/2611.12136"
+        ],
+        [
+          "同篇蚂蚁高级研究科学家沈宇君的同期任职",
+          "https://shenyujun.github.io/"
+        ]
+      ],
+      "evidence": "原文首页脚注明确列魏鼎坤和其他三位具名作者在蚂蚁实习期间参与具体研究，魏本人在此篇双署浙大和 Robbyant；他在读硕导周晓巍为高校通讯，企业实习导师 Zehong Shen 在同篇为企业项目负责人。 Robbyant 官方自述属于蚂蚁集团，故归入蚂蚁集团。论文作者和企业研究职务另外有同篇企业署名、Zehong Shen 和沈宇君公开职责交叉证实。两篇前后公开时间相近，但研究分别解决逆动力学全身平衡和多目的地导航，双独立论文。",
+      "advising": [
+        "研究当期实名硕导",
+        "魏鼎坤本人公开履历明确其浙大硕士阶段从 2024 年 9 月起由周晓巍指导，周在同篇具名。",
+        "https://kune1008.github.io/"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "retracker-ant-zju-zhou",
+      "paperId": "url:https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_ReTracker_Exploring_Image_Matching_for_Robust_Online_Any_Point_Tracking_ICCV_2025_paper.pdf",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙大计算机学院教授和 ICCV 正式论文通讯作者。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "同篇署蚂蚁研究；2025 年为蚂蚁集团正式高级研究科学家，学生本人确认其为对应实习导师。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "贺星毅 · Xingyi He",
+        "2021-09 至 2026-06 浙江大学博士，导师周晓巍；同篇 ICCV 共一作署浙江大学＋蚂蚁研究。本人确认蚂蚁实习时间 2024-10 至 2026-06 及公司导师沈宇君。",
+        "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43"
+      ],
+      "title": "ReTracker: Exploring Image Matching for Robust Online Any Point Tracking",
+      "short": "ReTracker",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "轨迹跟踪",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_ReTracker_Exploring_Image_Matching_for_Robust_Online_Any_Point_Tracking_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "正式同篇 PDF 镜像",
+          "https://www.openaccess.thecvf.com/content/ICCV2025/papers/Tan_ReTracker_Exploring_Image_Matching_for_Robust_Online_Any_Point_Tracking_ICCV_2025_paper.pdf"
+        ],
+        [
+          "ICCV 2025 正式投稿截止时间 2025-03-07",
+          "https://iccv.thecvf.com/Conferences/2025/CallForPapers"
+        ],
+        [
+          "作者项目与代码",
+          "https://re-tracker.github.io/"
+        ]
+      ],
+      "evidence": "正式首页给贺星毅浙大/蚂蚁共一作双署，浙大博士导师周晓巍通讯、蚂蚁主管沈宇君同篇具名。贺本人履历在重叠博士及实习期分别列两个具名导师。2025 年 3 月 ICCV 投稿及 10 月发表均在其企业与学籍重叠期。另一个共一作也双署，但只记录独立师承及实习均已确认的贺。此研究并非另列的 SpatialTracker 或 BoxDreamer。",
+      "advising": [
+        "研究当期实名博导",
+        "贺星毅公开履历明确 2021-09 至 2026-06 浙江大学计算机博士由周晓巍指导。",
+        "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "xiaohongshu-gir-bench-hkust-long-chen",
+      "paperId": "arxiv:2510.11026",
+      "company": "小红书",
+      "team": "小红书 · 多模态研发",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈隆 · Long Chen",
+        "香港科技大学计算机科学与工程学系助理教授及该论文通讯作者；校方资料对应学术档案 -gtmMpIAAAAJ。",
+        "https://researchportal.hkust.edu.hk/en/persons/long-chen/"
+      ],
+      "student": [
+        "Hongxiang Li",
+        "港科大课题组及个人履历确认 2025 年秋入读博士；2026 年 3 月本人公开履历明确列 2025 年起在小红书实习，与正式论文所列的港科大、小红书双单位可以独立交叉。",
+        "https://github.com/lihx-me/lihx-me.github.io/blob/eec3e5e3e48e893134b292b03c3ffbf46f5771a5/_pages/about.md#L134-L138"
+      ],
+      "advising": [
+        "港科大博士导师",
+        "学生本人具名注明港科大博士导师为陈隆；课题组官方名录独立列研究生入学时间。",
+        "https://lihx-me.github.io/"
+      ],
+      "employee": [
+        "Xiaoshuang Huang",
+        "同篇署小红书。公开履历明确 2025 年 7 月起在小红书任多模态大模型算法工程师，并在名下书目列 GIR-Bench。",
+        "https://shawnhuang497.github.io/xiaoshuanghuang.github.io/#-work-experience-"
+      ],
+      "title": "GIR-Bench: Versatile Benchmark for Generating Images with Reasoning",
+      "short": "GIR-Bench",
+      "year": 2025,
+      "date": "2025-10-13",
+      "venue": "ICLR 2026",
+      "area": "多模态生成与推理评测",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6274d57365d7a6be06e58cad30d1b9da-Abstract-Conference.html",
+      "extra": [
+        [
+          "ICLR 正式论文 PDF：共同一作双署",
+          "https://openreview.net/pdf/a030c960c2ec3981f0717614b06cd5f31f2b64eb.pdf"
+        ],
+        [
+          "港科大课题组名录：2025 秋入学",
+          "https://long-group.cse.ust.hk/people.html"
+        ],
+        [
+          "公开预印本首版：第一作者只列学校",
+          "https://arxiv.org/pdf/2510.11026v1"
+        ],
+        [
+          "港科大作者项目",
+          "https://hkust-longgroup.github.io/GIR-Bench/"
+        ],
+        [
+          "港科大校方记录：ICLR 会期",
+          "https://researchportal.hkust.edu.hk/en/publications/gir-bench-versatile-benchmark-for-generating-images-with-reasonin/"
+        ],
+        [
+          "学生 2026 年 3 月本人公开履历：2025 年起的小红书实习",
+          "https://github.com/lihx-me/lihx-me.github.io/blob/eec3e5e3e48e893134b292b03c3ffbf46f5771a5/_pages/about.md#L134-L138"
+        ],
+        [
+          "2026 年 6 月本人驻校与企业履历快照",
+          "https://github.com/lihx-me/lihx-me.github.io/blob/7eadb8aae0511ab4384ff0a3a2f32e2986a88341/_pages/about.md#L150-L154"
+        ],
+        [
+          "小红书在职作者的任职及本人同篇书目",
+          "https://shawnhuang497.github.io/xiaoshuanghuang.github.io/#-work-experience-"
+        ],
+        [
+          "首稿与正式稿为同一项、首次公开日期",
+          "https://arxiv.org/abs/2510.11026"
+        ]
+      ],
+      "evidence": "港科大名录将 Hongxiang Li 列为 2025 年秋入学博士生，其本人具名列陈隆为博士导师；陈隆为论文通讯作者。学生 2026 年 3 月公开的本人履历把小红书实习列为 2025 年至当时，覆盖 2025 年 10 月研究公开期；正式 ICLR 论文可核对的版本明确列其共同第一作者并双署港科大、小红书，首版 arXiv 只列港科大，保留两版差异。另有同篇小红书算法工程师 Xiaoshuang Huang，本人公开自述 2025 年 7 月起任职并具名列此项作品。"
+    },
+    {
+      "id": "jd-echowm-hkust-anyi-rao",
+      "paperId": "arxiv:2608.23189",
+      "company": "京东",
+      "team": "京东探索研究院 · JoyAI-Echo",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "饶安逸 · Anyi Rao",
+        "港科大助理教授，MMLab 导师；同篇通讯署名。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/anyirao"
+      ],
+      "student": [
+        "张菘淳 · Songchun Zhang",
+        "港科大 MMLab 博士生，2026 年 1 月开始在京东探索研究院 TGT 参与世界模型研发；京东的同篇项目把他列为港科大与京东双署的第一作者。",
+        "https://franklinz233.github.io/#-experience"
+      ],
+      "advising": [
+        "港科大博士研究组指导",
+        "饶安逸的 MMLab 名录将张菘淳列在其博士生组，学生本人确认隶属该校 MMLab；原文中饶安逸同篇且为通讯作者。",
+        "https://mmlab-hkust.github.io/"
+      ],
+      "employee": [
+        "段楠 · Nan Duan",
+        "论文及同篇项目列他署京东并为共同通讯；本人及同期正式会议档案确认京东集团副总裁、探索研究院副院长。",
+        "https://ml-summit.org/speaker/1094?lang=cn&uid=c1051"
+      ],
+      "title": "EchoWM: Open and Enterable Omnimodal World Models",
+      "short": "EchoWM",
+      "year": 2026,
+      "date": "2026-08-24",
+      "venue": "arXiv 技术报告",
+      "area": "可交互多模态世界模型",
+      "paper": "https://arxiv.org/abs/2608.23189",
+      "extra": [
+        [
+          "京东 Echo 团队公开同篇作者及双署",
+          "https://echo-team-joy-future-academy-jd.github.io/Echo-1.5-Page/wm/"
+        ],
+        [
+          "本人京东履历：2026 年 1 月起、具名企业导师",
+          "https://franklinz233.github.io/#-experience"
+        ],
+        [
+          "参与该报告的京东开源仓库",
+          "https://github.com/jd-opensource/JoyAI-Echo"
+        ],
+        [
+          "京东同篇模型权重项目",
+          "https://huggingface.co/Echo-Team/Echo-WM"
+        ],
+        [
+          "原文及作者署名",
+          "https://arxiv.org/html/2608.23189v1"
+        ]
+      ],
+      "evidence": "京东 Echo 团队的同篇项目页把张菘淳列为港科大、京东探索研究院双署的第一共同作者；学生本人履历独立记录 2026 年 1 月起在京东 TGT 进行多模态世界模型研究，企业导师 Zeyue Xue、Haoyang Huang、Nan Duan 均在本篇署京东。港科大 MMLab 名录在明确负责人饶安逸名下列张菘淳为博士生，饶安逸为同篇通讯作者。段楠同期是京东研究院在职副院长。与 Echo-Infinity 共用产品系列但作者组、独立 arXiv 与技术报告均不同，按独立论文。"
     }
   ]
 };
