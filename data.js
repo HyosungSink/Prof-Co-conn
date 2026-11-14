@@ -40579,6 +40579,112 @@ const survey = {
           "https://api.crossref.org/works/10.1109/TKDE.2024.3397683"
         ]
       ]
+    },
+    {
+      "id": "merkur-huawei-sjtu-quan-chen",
+      "paperId": "doi:10.1109/tc.2026.3733866",
+      "company": "华为",
+      "team": "华为云 Regionless 多地域资源编排",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "陈全 · Quan Chen",
+        "上海交通大学教授。史久琛本人具名的博士导师之一，与他共同署名本论文。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html"
+      ],
+      "employee": [
+        "Mosong Zhou",
+        "华为云云计算研发人员，2023 年为华为云相关虚拟机资源专利申请具名发明人。2022 年 ACM 与 2025 年 USENIX 正式会议均列华为云，本文 IEEE 存档亦列其华为云署名。",
+        "https://patents.google.com/patent/EP4568183A1/en"
+      ],
+      "student": [
+        "史久琛 · Jiuchen Shi",
+        "上海交大在读博士、论文第一作者；2024 年存档简历明确记载 2023 年 2 月至 2024 年 4 月担任华为云实习的跨地域计算与网络成本联合优化项目负责人，并列出这篇论文的早期投稿题名。",
+        "https://github.com/shijiuchen/shijiuchen.github.io/blob/eebc9181219ef7ad470092516cfd2dfa642871b6/files/CV-Chinese.pdf"
+      ],
+      "title": "Holistic Orchestration of Resource Reservation for Reducing Operation Costs in Geo-distributed Cloud",
+      "short": "Merkur",
+      "date": "2026-09-16",
+      "venue": "IEEE Transactions on Computers",
+      "area": "多地域云资源调度与网络优化",
+      "paper": "https://ieeexplore.ieee.org/abstract/document/11692658/",
+      "extra": [
+        [
+          "IEEE 按作者发布的题录与机构",
+          "https://api.crossref.org/works/10.1109/TC.2026.3733866"
+        ],
+        [
+          "史久琛本人导师和两个华为项目的书目",
+          "https://shijiuchen.github.io/"
+        ],
+        [
+          "华为云 Mosong Zhou 的同期正式会议身份",
+          "https://www.usenix.org/system/files/nsdi25-li-quanxi.pdf"
+        ],
+        [
+          "华为云 Mosong Zhou 在 2022 年的正式会议身份",
+          "https://acmsocc.org/2022/schedule.html"
+        ]
+      ],
+      "evidence": "IEEE Xplore 列 2026-09-16 提前公开，12 月卷期不作为首次公开时间。史久琛本人当前主页说明 2024 年获上交博士，明确两位导师；2024 年 7 月已存档的简历同时列该文在投稿标题（以降低多地域云运营成本为题，前七作者与正式版同序）及正在读博时负责的华为云实习项目。该项目联合编排虚拟机资源和网络、约降低 20% 的总运营成本；IEEE 最终摘要的 Merkur 同样联合编排计算与网络，报告 19.3%，可互证与简历中的同一研究。另一项 2021–22 的仅资源预留项目已在 2022 年单独发表，未计。Mosong Zhou 同篇具名华为云、上交在读实习期内具名华为云云计算专利，两位导师也同篇。",
+      "advising": [
+        "本人具名博士指导",
+        "史久琛公开主页明确两名上交博士导师；他在华为云实习的 2023–24 年间仍在读，两导师均参与论文。",
+        "https://shijiuchen.github.io/"
+      ]
+    },
+    {
+      "id": "merkur-huawei-sjtu-minyi-guo",
+      "paperId": "doi:10.1109/tc.2026.3733866",
+      "company": "华为",
+      "team": "华为云 Regionless 多地域资源编排",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "过敏意 · Minyi Guo",
+        "上海交通大学教授。史久琛本人具名的博士导师之一，与他共同署名本论文。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/guominyi.html"
+      ],
+      "employee": [
+        "Mosong Zhou",
+        "华为云云计算研发人员，2023 年为华为云相关虚拟机资源专利申请具名发明人。2022 年 ACM 与 2025 年 USENIX 正式会议均列华为云，本文 IEEE 存档亦列其华为云署名。",
+        "https://patents.google.com/patent/EP4568183A1/en"
+      ],
+      "student": [
+        "史久琛 · Jiuchen Shi",
+        "上海交大在读博士、论文第一作者；2024 年存档简历明确记载 2023 年 2 月至 2024 年 4 月担任华为云实习的跨地域计算与网络成本联合优化项目负责人，并列出这篇论文的早期投稿题名。",
+        "https://github.com/shijiuchen/shijiuchen.github.io/blob/eebc9181219ef7ad470092516cfd2dfa642871b6/files/CV-Chinese.pdf"
+      ],
+      "title": "Holistic Orchestration of Resource Reservation for Reducing Operation Costs in Geo-distributed Cloud",
+      "short": "Merkur",
+      "date": "2026-09-16",
+      "venue": "IEEE Transactions on Computers",
+      "area": "多地域云资源调度与网络优化",
+      "paper": "https://ieeexplore.ieee.org/abstract/document/11692658/",
+      "extra": [
+        [
+          "IEEE 按作者发布的题录与机构",
+          "https://api.crossref.org/works/10.1109/TC.2026.3733866"
+        ],
+        [
+          "史久琛本人导师和两个华为项目的书目",
+          "https://shijiuchen.github.io/"
+        ],
+        [
+          "华为云 Mosong Zhou 的同期正式会议身份",
+          "https://www.usenix.org/system/files/nsdi25-li-quanxi.pdf"
+        ],
+        [
+          "华为云 Mosong Zhou 在 2022 年的正式会议身份",
+          "https://acmsocc.org/2022/schedule.html"
+        ]
+      ],
+      "evidence": "IEEE Xplore 列 2026-09-16 提前公开，12 月卷期不作为首次公开时间。史久琛本人当前主页说明 2024 年获上交博士，明确两位导师；2024 年 7 月已存档的简历同时列该文在投稿标题（以降低多地域云运营成本为题，前七作者与正式版同序）及正在读博时负责的华为云实习项目。该项目联合编排虚拟机资源和网络、约降低 20% 的总运营成本；IEEE 最终摘要的 Merkur 同样联合编排计算与网络，报告 19.3%，可互证与简历中的同一研究。另一项 2021–22 的仅资源预留项目已在 2022 年单独发表，未计。Mosong Zhou 同篇具名华为云、上交在读实习期内具名华为云云计算专利，两位导师也同篇。",
+      "advising": [
+        "本人具名博士指导",
+        "史久琛公开主页明确两名上交博士导师；他在华为云实习的 2023–24 年间仍在读，两导师均参与论文。",
+        "https://shijiuchen.github.io/"
+      ]
     }
   ]
 };

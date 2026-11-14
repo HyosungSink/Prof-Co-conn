@@ -6542,6 +6542,55 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "IJCAI 正式版首作者与通讯作者均署武大，原文未指明范围内企业在这篇研究的参与者。另一篇腾讯研究的实习脚注不能移用于本篇。"
+      },
+      {
+        "title": "MiCU: End-to-End Smart Home Command Understanding with Large Language Model",
+        "url": "https://arxiv.org/pdf/2606.01099",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "KDD 论文首页列武汉大学 Haowei Han 与小米公司同篇；代码由小米仓库发布，缺学生具名校内指导与其企业研究角色。"
+      },
+      {
+        "title": "FuxiShuffle: An Adaptive and Resilient Shuffle Service for Distributed Data Processing on Alibaba Cloud",
+        "url": "https://arxiv.org/abs/2602.22580",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "首稿直接列武大第一作者 Yuhao Lin、阿里云员工和江佳伟；仍待具名校内导师来源，并复核正式版的实习脚注。"
+      },
+      {
+        "title": "DM-RAG: Enhancing User Support in Dameng Databases with Retrieval-Augmented Generation",
+        "url": "https://doi.org/10.1109/ICDE65706.2026.00304",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICDE 会方作者表中企业作者均属达梦数据库，该公司超出本次 14 家企业范围。"
+      },
+      {
+        "title": "Scheduling LLM Inference with Uncertainty-Aware Output Length Predictions",
+        "url": "https://proceedings.mlr.press/v306/zheng26ae.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "已核正式 PDF 首页，企业列为达梦数据库，超出本次调查企业范围。"
+      },
+      {
+        "title": "AdaMix: Adaptive Mixing for Short and Long Reasoning Adapters",
+        "url": "https://aclanthology.org/2026.acl-long.1864.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACL 正式版作者仅列武大及芜湖留学生创业园，分析使用的模型不代表范围内公司具名参与。"
+      },
+      {
+        "title": "PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated Learning",
+        "url": "https://www.vldb.org/pvldb/vol18/p3559-zhou.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "PVLDB 正式稿首页所有作者的署名均为高校，未列范围内企业员工。"
+      },
+      {
+        "title": "HaCore: Efficient Coreset Construction with Locality Sensitive Hashing for Vertical Federated Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34409/36564",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "AAAI 正式版具名 OceanBase 许全清与江佳伟；尚无同篇学生参与企业研究及其校内指导的证据。"
       }
     ],
     "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
@@ -36310,7 +36359,10 @@ const facultyPaperAudits = {
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/chenquan.html",
       "https://www.cs.sjtu.edu.cn/~chen-quan/index_EN.html",
-      "https://pangpu.github.io/"
+      "https://pangpu.github.io/",
+      "https://shijiuchen.github.io/",
+      "https://github.com/shijiuchen/shijiuchen.github.io/blob/eebc9181219ef7ad470092516cfd2dfa642871b6/files/CV-Chinese.pdf",
+      "https://api.crossref.org/works/10.1109/TC.2026.3733866"
     ],
     "papers": [
       {
@@ -36319,6 +36371,13 @@ const facultyPaperAudits = {
         "url": "https://www.vldb.org/pvldb/vol16/p1033-chen.pdf",
         "outcome": "confirmed",
         "note": "本人明确庞浦为陈全所指导博士，阿里云公开项目材料及正式长文结合原文作者等贡献声明，确认与同期阿里云 Gang Deng 同项；在生产数据库部署。"
+      },
+      {
+        "year": 2026,
+        "title": "Holistic Orchestration of Resource Reservation for Reducing Operation Costs in Geo-distributed Cloud",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11692658/",
+        "outcome": "confirmed",
+        "note": "IEEE 2026-09-16 已公开；中英文简历和正刊元数据证实第一作者史久琛在上交读博时，担任华为云同一项目的实习负责人。本文摘要中的联合编排方式与平均节约 19.3% 可对上其 2024 年在校简历约 20% 的项目结果。"
       }
     ],
     "note": "由校方教师页及本人书目开始逐篇核对，仍在梳理。"
@@ -37201,7 +37260,10 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/guominyi.html",
-      "https://news.sjtu.edu.cn/jdyw/20240604/198451.html"
+      "https://news.sjtu.edu.cn/jdyw/20240604/198451.html",
+      "https://shijiuchen.github.io/",
+      "https://github.com/shijiuchen/shijiuchen.github.io/blob/eebc9181219ef7ad470092516cfd2dfa642871b6/files/CV-Chinese.pdf",
+      "https://api.crossref.org/works/10.1109/TC.2026.3733866"
     ],
     "papers": [
       {
@@ -37217,6 +37279,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2407.15309",
         "outcome": "lead",
         "note": "蚂蚁官方仓库确认本项，但这项与 GMLake 应区分；郭聪已不在已知蚂蚁实习期内，其他具名在读学生尚无本项企业参与证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Holistic Orchestration of Resource Reservation for Reducing Operation Costs in Geo-distributed Cloud",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11692658/",
+        "outcome": "confirmed",
+        "note": "IEEE 2026-09-16 已公开；中英文简历和正刊元数据证实第一作者史久琛在上交读博时，担任华为云同一项目的实习负责人。本文摘要中的联合编排方式与平均节约 19.3% 可对上其 2024 年在校简历约 20% 的项目结果。"
       }
     ],
     "note": "已从校方和作者书目开始逐篇梳理。"
