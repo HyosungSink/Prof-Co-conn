@@ -33348,7 +33348,7 @@ const facultyPaperAudits = {
         "title": "From Prototype to Nationwide Deployment: A 5-year Retrospect of a WiFi-based Outdoor Localization System",
         "url": "https://doi.org/10.1145/3790112",
         "outcome": "lead",
-        "note": "ACM 正式登记列苏畅、马俊麒署中科院软件所，及倪佳志等四位腾讯作者；国科大档案列苏畅由张扶桑指导，IPIN 2022 名录也把这些人列入校企联合竞赛团队。不同项目的竞赛名单不能直接证明学生在腾讯参与本篇全国部署研究，故暂列线索。"
+        "note": "ACM 正式登记列苏畅、马俊麒署中科院软件所，及倪嘉志等四位腾讯作者；国科大档案列苏畅由张扶桑指导，IPIN 2022 名录也把这些人列入校企联合竞赛团队。不同项目的竞赛名单不能直接证明学生在腾讯参与本篇全国部署研究，故暂列线索。"
       },
       {
         "year": 2026,
@@ -33593,7 +33593,7 @@ const facultyPaperAudits = {
         "title": "Push the Limit of Highly Accurate Ranging on Commercial UWB Devices",
         "url": "https://doi.org/10.1145/3659602",
         "outcome": "lead",
-        "note": "ACM 正式作者机构和 UbiComp 议程列腾讯定位技术部倪佳志；马俊麒与软件所学生署国科大。已核软件所发布的本篇海报，但未见其在腾讯做本篇测距研究的独立说明。"
+        "note": "原文致谢明确马俊麒在腾讯地图定位技术部实习期间完成；正式入学名单明确马的导师为同篇的金蓓弘（已计入金蓓弘关系）。张扶桑虽为通讯作者，未见受其指导的苏畅在该项目实习，故本教师条目保留为线索。"
       },
       {
         "year": 2024,
@@ -33681,5 +33681,26 @@ const facultyPaperAudits = {
       }
     ],
     "note": "在中国科学院软件研究所及北航两地任职共享台账。核对正式出版方、作者单位、导师及合作方来源，再合并预印本。先查国科大在读学生与腾讯合作较集中的定位研究，其余书目及少量受限全文仍在梳理。"
+  },
+  "wxjUEnoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~0002576",
+      "https://www.iscas.ac.cn/yjsjy2016/zsxx2016/202109/t20210927_6216196.html",
+      "https://api.crossref.org/works/10.1145/3659602",
+      "https://www.researchgate.net/publication/380615990_Push_the_Limit_of_Highly_Accurate_Ranging_on_Commercial_UWB_Devices"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "Push the Limit of Highly Accurate Ranging on Commercial UWB Devices",
+        "url": "https://doi.org/10.1145/3659602",
+        "outcome": "confirmed",
+        "note": "作者公开的 ACM 正式原文第 24 页致谢具名说明马俊麒在腾讯地图定位技术部实习期间完成该研究；同篇倪嘉志署腾讯，软件所 2022 年直博录取公示列导师金蓓弘，2024–2025 期刊作者简介确认马俊麒博士在读。"
+      }
+    ],
+    "note": "从公开原文及软件所研究生名单核对同一论文的任职与直接指导，完整书目仍在梳理。"
   }
 };

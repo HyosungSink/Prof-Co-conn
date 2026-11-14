@@ -39090,6 +39090,63 @@ const survey = {
         "学生署名的 2026-06-10 网页明确其复旦博士由吴祖煊、姜育刚指导，两人都是该文通讯作者。",
         "https://github.com/wdrink/wdrink.github.io/blob/f627a8def961cb80edfbf514eccdc449ab67b359/index.html#L35-L40"
       ]
+    },
+    {
+      "id": "tencent-uwb-ucas-jin-ma",
+      "paperId": "doi:10.1145/3659602",
+      "company": "腾讯",
+      "team": "腾讯地图定位技术部",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "金蓓弘 · Beihong Jin",
+        "中科院软件所研究员、国科大博导，ACM 论文通讯作者；软件所 2022 年推免名单明确她为马俊麒的导师。",
+        "https://people.ucas.ac.cn/~0002576"
+      ],
+      "employee": [
+        "倪嘉志 · Jiazhi Ni",
+        "ACM 作者地址注明腾讯定位技术部与公司邮箱；此前同一定位方向的公开专利亦将其列为腾讯发明人。",
+        "https://www.ipd.gov.hk/hkipjournal/18062021/Patent_18062021.pdf#page=317"
+      ],
+      "student": [
+        "马俊麒 · Junqi Ma",
+        "2022 级国科大直博生；本人公开的 ACM 版原文致谢写明该具体工作在腾讯地图定位技术部实习期间完成。",
+        "https://www.researchgate.net/publication/380615990_Push_the_Limit_of_Highly_Accurate_Ranging_on_Commercial_UWB_Devices"
+      ],
+      "title": "Push the Limit of Highly Accurate Ranging on Commercial UWB Devices",
+      "short": "商用 UWB 设备高精度测距",
+      "date": "2024-05-13",
+      "venue": "ACM IMWUT 2024",
+      "area": "无线感知、超宽带高精度测距",
+      "paper": "https://doi.org/10.1145/3659602",
+      "extra": [
+        [
+          "作者公开的 ACM 排版全文（第 24 页致谢）",
+          "https://www.researchgate.net/publication/380615990_Push_the_Limit_of_Highly_Accurate_Ranging_on_Commercial_UWB_Devices#:~:text=Junqi%20Ma%20accomplished%20this%20work"
+        ],
+        [
+          "出版商登记的全部作者及署名机构",
+          "https://api.crossref.org/works/10.1145/3659602"
+        ],
+        [
+          "软件所正式发表的同期作者简介：马俊麒为在读博士生",
+          "https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202440389.pdf"
+        ],
+        [
+          "香港知识产权署公开专利公报：倪嘉志及腾讯公司",
+          "https://www.ipd.gov.hk/hkipjournal/18062021/Patent_18062021.pdf"
+        ],
+        [
+          "UbiComp 官方会议议程",
+          "https://ubicomp.hosting.acm.org/ubicompiswc2024_wp/conference-program/"
+        ]
+      ],
+      "evidence": "论文原文致谢具名说明，马俊麒在腾讯地图定位技术部实习期间完成这项测距研究。ACM 作者页列倪嘉志供职腾讯定位技术部，金蓓弘为通讯作者；软件所 2022 级直博录取公示明确金蓓弘为马俊麒的导师，后续期刊同期作者简介确认马仍为在读博士生。",
+      "advising": [
+        "软件所公示的在读博士生与导师",
+        "2022 年软件所推免直博拟录取表将马俊麒和金蓓弘在同一行明确对应，期刊原文列两人同篇，马俊麒的同期作者简介确认博士在读。",
+        "https://is.cas.cn/yjsjy2016/zsxx2016/202109/t20210927_6216196.html"
+      ]
     }
   ]
 };
