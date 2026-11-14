@@ -34659,6 +34659,55 @@ const survey = {
         ]
       ],
       "evidence": "腾讯社交算法团队按文章区分实习生和正式团队成员，明确在 MSCSC 这一篇把第一作者陈鑫标为实习生、Wenqing Lin 标为团队成员。陈鑫同期为港中大博士生，王思博研究组列其为指导的博士毕业生；三人同署原文。"
+    },
+    {
+      "id": "jd-skipnode-xidian-wei-zhao",
+      "company": "京东",
+      "team": "京东探索研究院",
+      "school": "西安电子科技大学",
+      "studentSchool": "西安电子科技大学",
+      "faculty": [
+        "赵伟 · Wei Zhao",
+        "西安电子科技大学教师。陆维港本人分开列出硕士和博士导师：2021 年研究期间的西电硕士导师是赵伟。赵伟在作者名单中。",
+        "https://faculty.xidian.edu.cn/ZW6/zh_CN/index.htm"
+      ],
+      "employee": [
+        "陶大程 · Dacheng Tao",
+        "京东在 2021 年 3 月发布任命报道，陶大程任京东探索研究院院长；2021 年该论文首版署其为京东探索研究院作者。",
+        "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/"
+      ],
+      "student": [
+        "陆维港 · Weigang Lu",
+        "2019 年 9 月至 2021 年 12 月就读西电硕士，2021 年 1 月至 12 月为京东探索研究院实习生。首版首页脚注明确本人在京东实习期间完成本研究。",
+        "https://weiganglu.github.io/HomePage/"
+      ],
+      "title": "SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks",
+      "short": "SkipNode",
+      "date": "2024-11",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "area": "图学习与推荐系统",
+      "paper": "https://arxiv.org/abs/2112.11628",
+      "evidence": "2021 年首稿首页明确列陆维港双署名（西电、京东）及其京东实习完成本研究；陶大程同期的企业正式任职由京东公告证实。2024 年期刊正式版相同九人署名，与预印本及 2025 年 ICDE 扩展摘要合并为一项。",
+      "advising": [
+        "西电硕士导师",
+        "学生个人履历具名为 2019 年 9 月至 2021 年 12 月西安电子科技大学硕士，由赵伟指导；管子玉是之后博士阶段导师。",
+        "https://weiganglu.github.io/HomePage/"
+      ],
+      "extra": [
+        [
+          "2021 年首稿及实习脚注",
+          "https://arxiv.org/pdf/2112.11628v1"
+        ],
+        [
+          "IEEE 2024 年正式期刊版",
+          "https://doi.org/10.1109/TKDE.2024.3374701"
+        ],
+        [
+          "2025 年同篇扩展摘要",
+          "https://doi.org/10.1109/ICDE65448.2025.00383"
+        ]
+      ],
+      "paperId": "arxiv:2112.11628"
     }
   ]
 };

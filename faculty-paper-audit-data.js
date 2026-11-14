@@ -12157,7 +12157,17 @@ const facultyPaperAudits = {
       "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
       "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
       "https://www.ijcai.org/proceedings/2024/0582.pdf",
-      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886"
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886",
+      "https://orcid.org/0009-0000-8121-2942",
+      "https://www.cikm2025.org/program/accepted-papers",
+      "https://kdd2026.kdd.org/papers/",
+      "https://arxiv.org/html/2510.11323",
+      "https://weiganglu.github.io/HomePage/",
+      "https://arxiv.org/abs/2112.11628",
+      "https://ieee-icde.org/2025/tkde-poster/",
+      "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/",
+      "https://arxiv.org/pdf/2112.11628v1",
+      "https://doi.org/10.1109/TKDE.2024.3374701"
     ],
     "papers": [
       {
@@ -12194,9 +12204,37 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 2025 正式版全部作者署西安电子科技大学。",
         "year": 2025
+      },
+      {
+        "title": "Audience-Aware and Self-Adaptive Multi-Interest Modeling for Sharing Rate Prediction in Affiliate Marketing",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3746252.3761559",
+        "outcome": "lead",
+        "note": "CIKM 正式记录明确列西电王哲、管子玉、杨亚明、赵伟与阿里多位作者；仍缺王哲参与这项企业研究的公开个人材料和具名导师记录。"
+      },
+      {
+        "title": "Dynamic Network-Based Two-Stage Time Series Forecasting for Affiliate Marketing",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3746252.3761515",
+        "outcome": "lead",
+        "note": "CIKM 原文中第一作者王哲给出西电学生邮箱，模型在阿里妈妈部署，并有阿里巴巴同篇署名；仍缺学生实际参与企业科研项目的材料、具名导师及人员任职时间。"
+      },
+      {
+        "title": "Scalable and Traceable Joint Uplift Modeling for Multi-Lever Online Marketing",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3770855.3818477",
+        "outcome": "lead",
+        "note": "KDD 官方目录确认王哲等西电作者与阿里巴巴的 Rui Wang、Bin Tong、Guan Wang 合著；未查到学生在读期间直接参与该公司此项目与具名导师的材料。"
+      },
+      {
+        "title": "SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TKDE.2024.3374701",
+        "outcome": "no-evidence",
+        "note": "2021 年首稿及京东实习已核实；师生履历显示管子玉为 2022 年起博士导师，未见其在本篇 2021 年研究期间担任校内导师的独立证据。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "公开书目仍在梳理；阿里公开合著与京东实习材料分别留线索，待补同篇学生工作或指导证据。"
   },
   "OyzZmeAAAAAJ": {
     "from": "2023-01-01",
@@ -12210,7 +12248,17 @@ const facultyPaperAudits = {
       "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
       "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
       "https://www.ijcai.org/proceedings/2024/0582.pdf",
-      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886"
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886",
+      "https://orcid.org/0009-0000-8121-2942",
+      "https://www.cikm2025.org/program/accepted-papers",
+      "https://kdd2026.kdd.org/papers/",
+      "https://arxiv.org/html/2510.11323",
+      "https://weiganglu.github.io/HomePage/",
+      "https://arxiv.org/abs/2112.11628",
+      "https://ieee-icde.org/2025/tkde-poster/",
+      "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/",
+      "https://arxiv.org/pdf/2112.11628v1",
+      "https://doi.org/10.1109/TKDE.2024.3374701"
     ],
     "papers": [
       {
@@ -12254,9 +12302,37 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 2025 正式版全部作者署西安电子科技大学。",
         "year": 2025
+      },
+      {
+        "title": "Audience-Aware and Self-Adaptive Multi-Interest Modeling for Sharing Rate Prediction in Affiliate Marketing",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3746252.3761559",
+        "outcome": "lead",
+        "note": "CIKM 正式记录明确列西电王哲、管子玉、杨亚明、赵伟与阿里多位作者；仍缺王哲参与这项企业研究的公开个人材料和具名导师记录。"
+      },
+      {
+        "title": "Dynamic Network-Based Two-Stage Time Series Forecasting for Affiliate Marketing",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3746252.3761515",
+        "outcome": "lead",
+        "note": "CIKM 原文中第一作者王哲给出西电学生邮箱，模型在阿里妈妈部署，并有阿里巴巴同篇署名；仍缺学生实际参与企业科研项目的材料、具名导师及人员任职时间。"
+      },
+      {
+        "title": "Scalable and Traceable Joint Uplift Modeling for Multi-Lever Online Marketing",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3770855.3818477",
+        "outcome": "lead",
+        "note": "KDD 官方目录确认王哲等西电作者与阿里巴巴的 Rui Wang、Bin Tong、Guan Wang 合著；未查到学生在读期间直接参与该公司此项目与具名导师的材料。"
+      },
+      {
+        "title": "SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TKDE.2024.3374701",
+        "outcome": "confirmed",
+        "note": "2019–2021 西电硕导由陆维港本人具名核实；2021 首稿脚注明确京东探索研究院实习完成，同篇京东院长任职独立核验。按 2024 正式期刊版计入。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "公开书目仍在梳理；阿里公开合著与京东实习材料分别留线索，待补同篇学生工作或指导证据。"
   },
   "hfNxbowAAAAJ": {
     "from": "2023-01-01",
@@ -12570,7 +12646,9 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2404.00795",
       "https://arxiv.org/html/2412.12700",
       "https://doi.org/10.2139/ssrn.6731320",
-      "https://doi.org/10.1016/j.jisa.2024.103742"
+      "https://doi.org/10.1016/j.jisa.2024.103742",
+      "https://aclanthology.org/2025.acl-long.1310.pdf",
+      "https://jialuncao.github.io/"
     ],
     "papers": [
       {
@@ -12691,9 +12769,16 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1016/j.jisa.2024.103742",
         "outcome": "no-evidence",
         "note": "Elsevier 正式作者简历记载郭佳琪为西电在读博士，四位其余作者同时均在西电计算理论与技术研究所；项目来源为国家重点研发计划和自然科学基金，未见范围内企业。"
+      },
+      {
+        "title": "From Informal to Formal – Incorporating and Evaluating LLMs on Natural Language Requirements to Verifiable Formal Proofs",
+        "year": 2025,
+        "url": "https://aclanthology.org/2025.acl-long.1310/",
+        "outcome": "lead",
+        "note": "ACL 正文确认西电、港科大、中科院与华为作者合著；没有具名实习脚注，未见能把同篇学生的在读、校内指导与华为实际项目贡献连起来的公开材料。"
       }
     ],
-    "note": "公开书目未穷尽。追加核对出版方、作者主页、公示论文及预印本；检查正式版与预印本重合。"
+    "note": "公开书目仍在梳理，华为合著线索缺具名学生在读期和同篇项目证据。"
   },
   "V5jcooYAAAAJ": {
     "from": "2023-01-01",
@@ -13253,7 +13338,8 @@ const facultyPaperAudits = {
       "https://liudaizong.github.io/publications/",
       "https://liudaizong.github.io/about.html",
       "https://dblp.org/pid/239/6021.html",
-      "https://liudaizong.github.io/_pages/old_pub/"
+      "https://liudaizong.github.io/_pages/old_pub/",
+      "https://liudaizong.github.io/about/"
     ],
     "papers": [
       {
@@ -13314,17 +13400,66 @@ const facultyPaperAudits = {
       },
       {
         "title": "Spotlight on Token Perception for Multimodal Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2510.09285",
+        "url": "https://openreview.net/pdf/29460e2a4030eb8409d96c00af6ba55187a45b9b.pdf",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "公开原文的作者单位包括上海人工智能实验室与上海交通大学、港中大、南京大学、武大；没有调查范围内企业署名。"
+        "note": "ICLR 正式版确认上海人工智能实验室、上海交通大学、港中大、南京大学和武大五个机构，未见范围内企业。"
       },
       {
         "title": "FrameThinker: Learning to Think with Long Videos via Multi-Turn Frame Spotlighting",
-        "url": "https://arxiv.org/abs/2509.24304",
+        "url": "https://openreview.net/pdf/9623f1d798117f4eeb7b6e1ff577f63ebcd1f8e1.pdf",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "核对 ICLR 版本署名，论文列上海人工智能实验室、南京大学、港中大、上海交通大学和武大，未见范围内企业作者。"
+        "note": "ICLR 正式版列上海人工智能实验室、南京大学、港中大、上海交通大学和武大，没有调查范围内企业署名。"
+      },
+      {
+        "title": "LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning",
+        "url": "https://aclanthology.org/2026.acl-long.408.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACL 正式作者栏仅列华科及其深圳研究院和武汉大学；未发现范围内企业共同署名。"
+      },
+      {
+        "title": "Cooperative or Competitive? Understanding the Interaction between Attention Heads From A Game Theory Perspective",
+        "url": "https://aclanthology.org/2025.acl-long.688.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACL 正式作者栏为华科、上海人工智能实验室、北大、浙江工商大学、港中大；刘岱宗署北大，未见范围内企业。"
+      },
+      {
+        "title": "Fast3D: Accelerating 3D Multi-modal Large Language Models for Efficient 3D Scene Understanding",
+        "url": "https://arxiv.org/html/2507.09334",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "公开稿为 ACM MM 同篇。三名作者均署北京大学王选计算机研究所；通用人工智能全国重点实验室的支持声明不是企业合著。"
+      },
+      {
+        "title": "Audio Does Matter: Importance-Aware Multi-Granularity Fusion for Video Moment Retrieval",
+        "url": "https://arxiv.org/html/2508.04273",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 版公开原文列浙江大学、北大、浙江工商大学、上海人工智能实验室、中国科大；未见范围内企业，第一作者 ORCID 列为浙大学生。"
+      },
+      {
+        "title": "Rethinking Video-Language Model from the Language Input Perspective",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37390/41352",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版可确认华科、南洋理工大学、伦敦大学学院和武汉大学，没有范围内企业作者。"
+      },
+      {
+        "title": "Towards Unified Vision-Language Models with Incomplete Multi-Modal Inputs",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37387/41349",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版逐名对应华科、南洋理工大学、伦敦大学学院、广州大学、武大、南京大学；未见范围内企业。"
+      },
+      {
+        "title": "Not All Inputs Are Valid: Towards Open-Set Video Moment Retrieval using Language",
+        "url": "https://arxiv.org/html/2605.29812",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2026 年上载的公开原文明确给出 2024 年 ACM MM 同篇 DOI，作者署华科、北大、浙江工商大学、大连理工、上海交大、新疆大学、港中大；无范围内企业。"
       }
     ]
   },
@@ -13984,5 +14119,348 @@ const facultyPaperAudits = {
       }
     ],
     "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+  },
+  "bj356J0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://cs.pku.edu.cn/info/1062/2902.htm",
+      "https://ifgovh.github.io/publications/",
+      "https://orcid.org/0000-0002-6171-6008",
+      "https://api.crossref.org/works?filter=orcid:0000-0002-6171-6008,from-pub-date:2023-01-01,until-pub-date:2026-11-12&rows=100",
+      "https://mlanthology.org/authors/c/chen-guozhang/",
+      "https://ifgovh.github.io/people/",
+      "https://ifgovh.github.io/research/iterative-latent-refinement/",
+      "https://cccn2024.hkust.edu.hk/doc/abstract/Abs_CHEN_Guozhang.pdf",
+      "https://www.csauthors.net/guozhang-chen/"
+    ],
+    "papers": [
+      {
+        "title": "Iterative Latent Refinement for Value Learning in Offline Goal-Conditioned RL",
+        "url": "https://neurips.cc/virtual/2026/poster/154947",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 会议页面及教师组发布页列三位作者，组内在读名单核实许松成的师承。当前公开材料未给全体作者单位，也未找到范围内企业作者或学生企业参与的证据。"
+      },
+      {
+        "title": "A Kernel-Spectral Index for Single-Neuron Input-Output Complexity",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764153v1",
+        "outcome": "no-evidence",
+        "note": "bioRxiv 题录查到首发日期、四位作者与北大通讯单位；未见具名的既定企业任职或研究角色。"
+      },
+      {
+        "title": "Softmax Attention with Any Temperature in Fixed Dimension: Matching the Best Known Maximum-Inner-Product Bounds",
+        "url": "https://arxiv.org/abs/2611.06055",
+        "outcome": "no-evidence",
+        "note": "预印本作者均署北大计算机学院，无范围内企业作者或具名企业参与说明。"
+      },
+      {
+        "title": "SFA: A Statistical Physics-Inspired Diffusion Transformer for Efficient and High-Quality Image Generation",
+        "url": "https://arxiv.org/abs/2611.00027",
+        "outcome": "no-evidence",
+        "note": "原稿全部作者署北大多媒体信息处理国家重点实验室；未发现范围内企业角色。"
+      },
+      {
+        "title": "Connectome-to-Function: Conditional Generative Latent Representations for Reservoir Computing",
+        "url": "https://arxiv.org/abs/2609.06093",
+        "outcome": "no-evidence",
+        "note": "预印本列北大与北京邮电大学等学术单位，未发现既定企业作者。"
+      },
+      {
+        "title": "Global Credit Assignment via Dynamical Criticality",
+        "url": "https://proceedings.mlr.press/v306/wang26be.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式稿列北大和大连理工大学，未见范围内企业。"
+      },
+      {
+        "title": "The Hippocampal Place Field Gradient: A Bio-inspired Framework Building Multiscale Representation for Better Sample Efficiency",
+        "url": "https://arxiv.org/abs/2506.04943",
+        "outcome": "no-evidence",
+        "note": "ICML 正式题录与预印本确认三位作者属于北大学术单位，无企业署名或具名企业课题。"
+      },
+      {
+        "title": "Aligning Inductive Bias for Data-Efficient Generalization in State Space Models",
+        "url": "https://arxiv.org/abs/2509.20789",
+        "outcome": "no-evidence",
+        "note": "预印本与 NeurIPS 接收记录对应，两位作者均在北大，不具备第三位企业作者。"
+      },
+      {
+        "title": "SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/136a45cd9b841bf785625709a19c6508-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式原文列北大各单位和宾夕法尼亚大学，未列范围内企业或企业实习。"
+      },
+      {
+        "title": "Redefining spiking neural networks through the lens of dynamical superspace",
+        "url": "https://link.springer.com/article/10.1007/s11571-026-10470-y",
+        "outcome": "no-evidence",
+        "note": "Springer 题录逐名列机构，涉及北大、香港理工、上海交大等学术单位，未见范围内企业。"
+      },
+      {
+        "title": "Discovering heterogeneous synaptic plasticity rules via large-scale neural evolution",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/dc1c478d31a5ed977309b6bec2d8c339-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式稿列香港理工与北大，未见范围内企业。"
+      },
+      {
+        "title": "Representation Transfer via Invariant Input-driven Continuous Attractors for Fast Domain Adaptation",
+        "url": "https://www.nature.com/articles/s42003-026-09938-8",
+        "outcome": "no-evidence",
+        "note": "Communications Biology 正式稿署之江实验室、复旦、福耀科技大学等高校或研究机构，未见范围内企业。"
+      },
+      {
+        "title": "Decoding Cortical Microcircuits: A Generative Model for Latent Space Exploration and Controlled Synthesis",
+        "url": "https://arxiv.org/abs/2506.11062",
+        "outcome": "no-evidence",
+        "note": "正式 PMLR 题录及预印本列北大和电子科技大学等，两者未发现范围内企业参与。"
+      },
+      {
+        "title": "Sparse cortical dynamics reveal flexible condition-dependent spike-order codes",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.13.724761v1",
+        "outcome": "no-evidence",
+        "note": "bioRxiv 公共题录提供作者及北大通讯单位，奥地利科学基金项目对应同篇，未见范围内企业参与说明。"
+      },
+      {
+        "title": "Bridging Scales: Spectral Theory Reveals How Local Connectivity Rules Sculpt Global Neural Dynamics in Spatially Extended Networks",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/5f63999aa6b4011a3615c2508c622821-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版与早期 bioRxiv 预印本合并；正式原稿机构含北大、东京大学和清华，未见范围内企业。"
+      },
+      {
+        "title": "SpikeGrasp: A Benchmark for 6-DoF Grasp Pose Detection from Stereo Spike Streams",
+        "url": "https://arxiv.org/abs/2510.10602v1",
+        "outcome": "no-evidence",
+        "note": "arXiv 明示已撤回，仍保留曾公开的 v1 检查轨迹。v1 所列作者均署北大，未见既定企业参与。"
+      },
+      {
+        "title": "SPKLIP: Aligning Spike Video Streams with Natural Language",
+        "url": "https://arxiv.org/abs/2505.12656",
+        "outcome": "no-evidence",
+        "note": "原稿列北大、中国科学院大学与电子科技大学，未见范围内企业作者。"
+      },
+      {
+        "title": "Unveiling and Steering Connectome Organization with Interpretable Latent Variables",
+        "url": "https://arxiv.org/abs/2505.13011",
+        "outcome": "no-evidence",
+        "note": "预印本列北大和电子科技大学，未见范围内企业参与。"
+      },
+      {
+        "title": "Neural heterogeneity enhances reliable neural information processing: Local sensitivity and globally input-slaved transient dynamics",
+        "url": "https://europepmc.org/article/MED/40178740",
+        "outcome": "no-evidence",
+        "note": "Science Advances 正式期刊的作者机构亦可由 Europe PMC 核对，均为高校或非企业科研单位。"
+      },
+      {
+        "title": "Evolutionary learning in neural networks by heterosynaptic plasticity",
+        "url": "https://doi.org/10.1016/j.isci.2025.112340",
+        "outcome": "no-evidence",
+        "note": "iScience 正式版作者机构为临港实验室、香港浸会、北大、之江实验室等。ORCID 中 2021 年同方向早期稿不重复计数。"
+      },
+      {
+        "title": "Data-based large-scale models provide a window into the organization of cortical computations",
+        "url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538662v3",
+        "outcome": "no-evidence",
+        "note": "bioRxiv 的 2023 预印本与 2024 港科大会摘要合并；核对公开全文摘要列北大、格拉茨理工，未见范围内企业。"
+      }
+    ],
+    "note": "逐篇梳理 2023-01-01 至 2026-11-12 的公开论文。个人书目、ORCID、Crossref、会议题录交叉核对，覆盖 21 篇；正式版、预印本与同篇会议摘要合并，保留撤回稿的追溯记录。审查范围为可公开归属到该教师的书目，未建立符合本项目条件的三方关系。"
+  },
+  "hoZerJcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1287/mnsc.2022.4487",
+      "https://iora.nus.edu.sg/wp-content/uploads/2022/09/SSRN-id3674961.pdf",
+      "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+      "https://research.cuhk.edu.hk/en/persons/yanwei-jia/",
+      "https://sites.google.com/view/yanwei-jia/home/research",
+      "https://orcid.org/0000-0002-6089-9842",
+      "https://dblp.org/pid/299/7757.html",
+      "https://api.crossref.org/works?filter=orcid:0000-0002-6089-9842",
+      "https://doi.org/10.1111/mafi.12402",
+      "https://math.tongji.edu.cn/info/1017/11482.htm",
+      "https://www.jmlr.org/papers/v24/22-0755.html",
+      "https://arxiv.org/abs/2207.00713",
+      "https://doi.org/10.1137/24M1695075",
+      "https://arxiv.org/abs/2407.17226",
+      "https://doi.org/10.1007/s00245-026-10412-4",
+      "https://arxiv.org/abs/2404.12598",
+      "https://doi.org/10.1137/25M1742199",
+      "https://arxiv.org/abs/2503.09981",
+      "https://doi.org/10.2139/ssrn.4958481",
+      "https://sites.google.com/view/mindai/full-publications",
+      "https://arxiv.org/abs/2412.16175",
+      "https://www.columbia.edu/~xz2574/download/HJZ-MV.pdf",
+      "https://doi.org/10.1287/opre.2024.1034",
+      "https://arxiv.org/abs/2311.12330",
+      "https://arxiv.org/abs/2312.11797",
+      "https://www.columbia.edu/~xz2574/download/DDJZ2.pdf",
+      "https://doi.org/10.2139/ssrn.4855714",
+      "https://blogs.aalto.fi/ada2024/wp-content/ada2024-abstracts.pdf",
+      "https://doi.org/10.2139/ssrn.4645002",
+      "https://sites.google.com/view/wenjietang/research",
+      "https://doi.org/10.2139/ssrn.5392541",
+      "https://sme.cuhk.edu.cn/sites/default/files/2025-12/Book_of_Abstracts_12_25_v1.pdf",
+      "https://arxiv.org/abs/2602.13544",
+      "https://doi.org/10.2139/ssrn.6235538",
+      "https://arxiv.org/abs/2606.24999",
+      "https://du-ouyang.github.io/research/",
+      "https://doi.org/10.2139/ssrn.7209500",
+      "https://arxiv.org/abs/2607.29593"
+    ],
+    "papers": [
+      {
+        "title": "Herding in Probabilistic Forecasts",
+        "url": "https://doi.org/10.1287/mnsc.2022.4487",
+        "outcome": "no-evidence",
+        "note": "期刊正式刊期为 2023；2022 年在线版本和工作论文合并。出版方列哥伦比亚大学、新加坡国立大学和 INSEAD，未见范围内企业作者。"
+      },
+      {
+        "title": "Learning Equilibrium Mean-Variance Strategy",
+        "url": "https://doi.org/10.1111/mafi.12402",
+        "outcome": "no-evidence",
+        "note": "期刊原文列香港理工、同济、哥伦比亚及港中文。2021 工作稿与 2023 正式论文合并，未查到企业共同作者。"
+      },
+      {
+        "title": "q-Learning in Continuous Time",
+        "url": "https://www.jmlr.org/papers/v24/22-0755.html",
+        "outcome": "no-evidence",
+        "note": "JMLR 正式版本的两位作者署港中文与哥伦比亚大学。校际研究资助不构成企业作者；在线勘误和 2022 预印本并入本篇。"
+      },
+      {
+        "title": "Sublinear Regret for a Class of Continuous-Time Linear-Quadratic Reinforcement Learning Problems",
+        "url": "https://doi.org/10.1137/24M1695075",
+        "outcome": "no-evidence",
+        "note": "原文三人署哥伦比亚大学与香港中文大学。致谢列大学项目与学术资助。另题 2024 arXiv 为本篇的早期稿。"
+      },
+      {
+        "title": "Continuous-Time Risk-Sensitive Reinforcement Learning via Quadratic Variation Penalty",
+        "url": "https://doi.org/10.1007/s00245-026-10412-4",
+        "outcome": "no-evidence",
+        "note": "港中文贾颜玮独著，未见企业或学生共同作者。arXiv 与 SSRN 的 2024 预印本归入期刊正式版。"
+      },
+      {
+        "title": "Accuracy of Discretely Sampled Stochastic Policies in Continuous-Time Reinforcement Learning",
+        "url": "https://doi.org/10.1137/25M1742199",
+        "outcome": "no-evidence",
+        "note": "原文三位作者分别署香港中文大学、清华大学和帝国理工学院。校方书目和合著者书目确认与 arXiv 为同一作品；未查到同篇企业作者。"
+      },
+      {
+        "title": "Dynamic Mean-Variance Portfolio Selection with Transaction Costs",
+        "url": "https://doi.org/10.2139/ssrn.4958481",
+        "outcome": "no-evidence",
+        "note": "公开论文列香港中文大学、香港城市大学和牛津大学相关机构。合作方书目确认同作的期刊接收状态，未找到企业合著或企业研究记录。"
+      },
+      {
+        "title": "Mean-Variance Portfolio Selection by Continuous-Time Reinforcement Learning: Algorithms, Regret Analysis, and Empirical Study",
+        "url": "https://arxiv.org/abs/2412.16175",
+        "outcome": "no-evidence",
+        "note": "署香港中文大学和哥伦比亚大学。作者确认 ICAIF 2022 是同工作的早期短版本；本文使用市场数据，未发现参与该研究的范围内企业共同作者。"
+      },
+      {
+        "title": "A General Framework for Importance Sampling with Markov Random Walks",
+        "url": "https://doi.org/10.1287/opre.2024.1034",
+        "outcome": "no-evidence",
+        "note": "终稿及早期预印本同三位作者，涉及香港中文大学、波士顿大学和中央研究院／台湾中央大学的学术合作。未见范围内企业共同作者。"
+      },
+      {
+        "title": "Data-Driven Merton's Strategies via Policy Randomization",
+        "url": "https://arxiv.org/abs/2312.11797",
+        "outcome": "no-evidence",
+        "note": "原文列香港理工、同济、港中文和哥伦比亚大学。该 arXiv 条目的旧题为 Learning Merton’s Strategies in an Incomplete Market，与 SSRN 稿合并。"
+      },
+      {
+        "title": "The Wisdom of Strategically Diverse Crowds",
+        "url": "https://doi.org/10.2139/ssrn.4855714",
+        "outcome": "no-evidence",
+        "note": "共同作者本人公开书目、Aalto 科学会议摘要和论文所列机构为香港中文大学、新加坡国立大学和 INSEAD；未见范围内企业合著。"
+      },
+      {
+        "title": "Aggregating Estimates or Pooling Information?: When Misinterpretation Error Is Ignored",
+        "url": "https://doi.org/10.2139/ssrn.4645002",
+        "outcome": "no-evidence",
+        "note": "同一 SSRN 编号早期题名为 Aggregating or Interacting?: The Role of Individual Overconfidence，作者仅港中文贾颜玮与维也纳大学 Wenjie Tang。未找到企业共同作者。"
+      },
+      {
+        "title": "Variational Galton Machine: From Point Predictions to a Probabilistic Aggregate",
+        "url": "https://doi.org/10.2139/ssrn.5392541",
+        "outcome": "no-evidence",
+        "note": "SSRN 作者机构与 POMS 香港会议论文摘要一致，三位作者分别来自香港中文大学、新加坡国立大学和 INSEAD，未见范围内企业作者。"
+      },
+      {
+        "title": "Merton's Problem with Recursive Perturbed Utility",
+        "url": "https://arxiv.org/abs/2602.13544",
+        "outcome": "no-evidence",
+        "note": "原文列香港理工、同济、港中文和哥伦比亚大学。与另篇 Merton 策略研究虽作者相同，但各有不同技术和独立书目，分别核查。未发现企业作者。"
+      },
+      {
+        "title": "A Zeroth-Order Deep Learning Method for Fully Nonlinear Parabolic Partial Differential Equations with Unknown Coefficients",
+        "url": "https://arxiv.org/abs/2606.24999",
+        "outcome": "no-evidence",
+        "note": "原文列香港中文大学、清华大学、法国 École Polytechnique 研究机构和哥伦比亚大学。合著者的研究书目一致，未查到范围内企业共同作者。"
+      },
+      {
+        "title": "When Does Reinforcement Learning Improve upon Estimate-Then-Plug-In for Portfolio Selection?",
+        "url": "https://doi.org/10.2139/ssrn.7209500",
+        "outcome": "no-evidence",
+        "note": "公开论文列香港城市大学、香港中文大学和香港理工大学。数值研究使用股价数据，未发现企业共同作者。"
+      },
+      {
+        "title": "Convergence and Regret of the Policy Gradient for Multi-Armed Bandits in Diffusion Environment",
+        "url": "https://arxiv.org/abs/2607.29593",
+        "outcome": "no-evidence",
+        "note": "2026 年公开原文两位作者分别署香港中文大学、清华大学。作者书目没有企业作者或企业实习参与该论文的记录。"
+      }
+    ]
+  },
+  "dD80rekAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/yym/",
+      "https://orcid.org/0009-0000-8121-2942",
+      "https://www.cikm2025.org/program/accepted-papers",
+      "https://kdd2026.kdd.org/papers/",
+      "https://arxiv.org/html/2510.11323",
+      "https://weiganglu.github.io/HomePage/",
+      "https://arxiv.org/abs/2112.11628",
+      "https://ieee-icde.org/2025/tkde-poster/",
+      "https://jdcorporateblog.com/top-ai-scholar-heads-jd-explore-academy/",
+      "https://arxiv.org/pdf/2112.11628v1",
+      "https://doi.org/10.1109/TKDE.2024.3374701"
+    ],
+    "papers": [
+      {
+        "title": "Audience-Aware and Self-Adaptive Multi-Interest Modeling for Sharing Rate Prediction in Affiliate Marketing",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3746252.3761559",
+        "outcome": "lead",
+        "note": "CIKM 正式记录明确列西电王哲、管子玉、杨亚明、赵伟与阿里多位作者；仍缺王哲参与这项企业研究的公开个人材料和具名导师记录。"
+      },
+      {
+        "title": "Dynamic Network-Based Two-Stage Time Series Forecasting for Affiliate Marketing",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3746252.3761515",
+        "outcome": "lead",
+        "note": "CIKM 原文中第一作者王哲给出西电学生邮箱，模型在阿里妈妈部署，并有阿里巴巴同篇署名；仍缺学生实际参与企业科研项目的材料、具名导师及人员任职时间。"
+      },
+      {
+        "title": "Scalable and Traceable Joint Uplift Modeling for Multi-Lever Online Marketing",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3770855.3818477",
+        "outcome": "lead",
+        "note": "KDD 官方目录确认王哲等西电作者与阿里巴巴的 Rui Wang、Bin Tong、Guan Wang 合著；未查到学生在读期间直接参与该公司此项目与具名导师的材料。"
+      },
+      {
+        "title": "SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TKDE.2024.3374701",
+        "outcome": "no-evidence",
+        "note": "2021 年首稿及京东实习已核实；杨亚明为同篇作者，但未见他在研究期间为陆维港校内导师的公开证据。"
+      }
+    ],
+    "note": "公开书目仍在梳理；阿里公开合著与京东实习材料分别留线索，待补同篇学生工作或指导证据。"
   }
 };
