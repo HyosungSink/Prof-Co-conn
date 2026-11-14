@@ -36449,6 +36449,226 @@ const survey = {
         "上海交大 MIFA 官方成员名录的唯一 PI 为黄维然，周皓天 2025 年起列在读硕士、非访学；二人是同篇具名共同第一作者。",
         "https://mifa.sjtu.edu.cn/"
       ]
+    },
+    {
+      "id": "alibaba-mpmr-cuhk-wai-lam",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "港中文系统工程与工程管理学系教授，在正式论文署名香港中文大学。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Weiwen Xu",
+        "2020 年 8 月至 2024 年 7 月为香港中文大学博士生。正式论文为第一作者，署港中文与阿里达摩院，脚注明确本工作在达摩院实习时完成。",
+        "https://wwxu21.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人直接列明 Wai Lam 为博士导师，港中文课题组也列其入学年份及毕业去向。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "Xin Li",
+        "同篇通讯作者，署阿里达摩院；本人履历明确从 2021 年 3 月起任达摩院研究工程师。",
+        "https://lixin4ever.github.io/"
+      ],
+      "title": "mPMR: A Multilingual Pre-trained Machine Reader at Scale",
+      "short": "mPMR",
+      "date": "2023-07",
+      "venue": "ACL",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2023.acl-short.131/",
+      "extra": [
+        [
+          "正式论文、作者表及实习脚注",
+          "https://aclanthology.org/2023.acl-short.131.pdf"
+        ],
+        [
+          "校验论文及公开时间",
+          "https://arxiv.org/abs/2305.13645"
+        ]
+      ],
+      "evidence": "正式版第一作者脚注明确 Weiwen Xu 的该项研究在阿里达摩院实习期间完成。学生和教授校企署名、企业正式任职及在读指导关系均有原始来源。2023 年 5 月的公开预印本与同年 ACL 版本合并；本篇为多语机器阅读器研究，与同一仓库发布的 NeurIPS PMR 论文为不同篇。"
+    },
+    {
+      "id": "alibaba-pmr-cuhk-wai-lam",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "港中文系统工程与工程管理学系教授，在正式论文署名香港中文大学。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Weiwen Xu",
+        "2020 年 8 月至 2024 年 7 月为香港中文大学博士生。正式论文为第一作者，署港中文与阿里达摩院，脚注明确本工作在达摩院实习时完成。",
+        "https://wwxu21.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人直接列明 Wai Lam 为博士导师，港中文课题组也列其入学年份及毕业去向。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "Xin Li",
+        "同篇通讯作者，署阿里达摩院；本人履历明确从 2021 年 3 月起任达摩院研究工程师。",
+        "https://lixin4ever.github.io/"
+      ],
+      "title": "From Cloze to Comprehension: Retrofitting Pre-trained Masked Language Models to Pre-trained Machine Reader",
+      "short": "PMR",
+      "date": "2023-12",
+      "venue": "NeurIPS",
+      "area": "自然语言处理",
+      "paper": "https://papers.neurips.cc/paper_files/paper/2023/hash/d4e1c24ac41ff0b82ca1b171731f0b23-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式论文、作者表及实习脚注",
+          "https://papers.neurips.cc/paper_files/paper/2023/file/d4e1c24ac41ff0b82ca1b171731f0b23-Paper-Conference.pdf"
+        ],
+        [
+          "校验论文及公开时间",
+          "https://github.com/DAMO-NLP-SG/PMR"
+        ]
+      ],
+      "evidence": "正式版第一作者脚注明确 Weiwen Xu 的该项研究在阿里达摩院实习期间完成。学生和教授校企署名、企业正式任职及在读指导关系均有原始来源。该文同时标注另一位实习生，关系使用具备港中文在读及导师证据的第一作者 Weiwen Xu。"
+    },
+    {
+      "id": "alibaba-peerda-cuhk-wai-lam",
+      "company": "阿里巴巴",
+      "team": "达摩院",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "港中文系统工程与工程管理学系教授，在正式论文署名香港中文大学。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Weiwen Xu",
+        "2020 年 8 月至 2024 年 7 月为香港中文大学博士生。正式论文为第一作者，署港中文与阿里达摩院，脚注明确本工作在达摩院实习时完成。",
+        "https://wwxu21.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人直接列明 Wai Lam 为博士导师，港中文课题组也列其入学年份及毕业去向。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "Xin Li",
+        "同篇通讯作者，署阿里达摩院；本人履历明确从 2021 年 3 月起任达摩院研究工程师。",
+        "https://lixin4ever.github.io/"
+      ],
+      "title": "PeerDA: Data Augmentation via Modeling Peer Relation for Span Identification Tasks",
+      "short": "PeerDA",
+      "date": "2023-07",
+      "venue": "ACL",
+      "area": "自然语言处理",
+      "paper": "https://aclanthology.org/2023.acl-long.484/",
+      "extra": [
+        [
+          "正式论文、作者表及实习脚注",
+          "https://aclanthology.org/2023.acl-long.484.pdf"
+        ],
+        [
+          "校验论文及公开时间",
+          "https://arxiv.org/abs/2210.08855"
+        ]
+      ],
+      "evidence": "正式版第一作者脚注明确 Weiwen Xu 的该项研究在阿里达摩院实习期间完成。学生和教授校企署名、企业正式任职及在读指导关系均有原始来源。arXiv 预印本首次公开于 2022 年 10 月；2023 年 7 月正式发表于 ACL，在本站的正式论文日期范围内，合并计一次。"
+    },
+    {
+      "id": "tencent-apex-sql-cuhk-wai-lam",
+      "company": "腾讯",
+      "team": "光子工作室群（LIGHTSPEED）",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "香港中文大学系统工程与工程管理学系教授，本篇共同作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "Bowen Cao",
+        "港中文 2024 年入学博士生，第一共同作者。正式论文具名脚注说明本篇在腾讯光子实习期间完成。",
+        "https://arxiv.org/html/2602.16720"
+      ],
+      "advising": [
+        "博士导师",
+        "港中文课题组将 Bowen Cao 具名列为 2024 年起的在读博士生。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "孙宇石 · Yushi Sun",
+        "本文通讯作者，署光子工作室群；其本人履历载明 2025 年 8 月起任腾讯光子资深研究员。",
+        "https://ysunbp.github.io/cv.pdf"
+      ],
+      "title": "APEX-SQL: Talking to the Data via Agentic Exploration for Text-to-SQL",
+      "short": "APEX-SQL",
+      "date": "2026-08",
+      "venue": "KDD",
+      "area": "大语言模型与数据库",
+      "paper": "https://doi.org/10.1145/3770855.3818075",
+      "extra": [
+        [
+          "港中文正式出版记录及全文",
+          "https://research.cuhk.edu.hk/en/publications/apex-sql-talking-to-the-data-via-agentic-exploration-for-text-to-/"
+        ],
+        [
+          "腾讯官方项目仓库",
+          "https://github.com/Tencent/APEX-SQL-Project"
+        ]
+      ],
+      "evidence": "论文首页星号明确属于第一共同作者 Bowen Cao，并说明这项工作是在腾讯光子实习时完成。港中文课题组确认其在读与指导关系；腾讯光子的正式员工孙宇石署名同篇通讯作者。2026 年 2 月预印本与 8 月 KDD 正式版合并。"
+    },
+    {
+      "id": "tencent-strategyllm-cuhk-wai-lam",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Wai Lam",
+        "香港中文大学系统工程与工程管理学系教授，本篇共同作者。",
+        "http://www.se.cuhk.edu.hk/people/wlam.html"
+      ],
+      "student": [
+        "高畅 · Chang Gao",
+        "2020 年 8 月至 2025 年 3 月为港中文博士生，论文第一作者，论文脚注注明该工作在腾讯 AI Lab 实习期间完成。",
+        "https://gao-xiao-bai.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "高畅本人教育履历及港中文课题组均明确将其博士指导归于 Wai Lam。",
+        "https://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "employee": [
+        "蔡登 · Deng Cai",
+        "同期任腾讯 AI Lab 高级研究员；本论文以腾讯署名，个人履历有正式任职与同篇发表。",
+        "https://jcyk.github.io/#employment"
+      ],
+      "title": "StrategyLLM: Large Language Models as Strategy Generators, Executors, Optimizers, and Evaluators for Problem Solving",
+      "short": "StrategyLLM",
+      "date": "2024-12",
+      "venue": "NeurIPS",
+      "area": "大语言模型",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/af7cc9e2366b8f8837a6ef339810277a-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式论文及明确实习脚注",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/af7cc9e2366b8f8837a6ef339810277a-Paper-Conference.pdf"
+        ],
+        [
+          "港中文出版记录",
+          "https://research.cuhk.edu.hk/en/publications/strategyllm-large-language-models-as-strategy-generators-executor/"
+        ]
+      ],
+      "evidence": "正式论文首页匕首只标注第一作者高畅，明确该工作出自其腾讯 AI Lab 实习。在读时间和博士导师另由学生履历与校方课题组核实，同篇同署名的蔡登在同期任腾讯 AI Lab 高级研究员。"
     }
   ]
 };

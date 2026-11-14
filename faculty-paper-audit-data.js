@@ -7542,7 +7542,12 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2602.16720",
       "https://research.cuhk.edu.hk/en/persons/wai-lam/",
       "https://research.cuhk.edu.hk/en/publications/apex-sql-talking-to-the-data-via-agentic-exploration-for-text-to-/",
-      "https://github.com/Tencent/APEX-SQL-Project"
+      "https://github.com/Tencent/APEX-SQL-Project",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/af7cc9e2366b8f8837a6ef339810277a-Abstract-Conference.html",
+      "https://gao-xiao-bai.github.io/",
+      "https://jcyk.github.io/indexv0.html",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/af7cc9e2366b8f8837a6ef339810277a-Paper-Conference.pdf",
+      "https://research.cuhk.edu.hk/en/publications/strategyllm-large-language-models-as-strategy-generators-executor/"
     ],
     "papers": [
       {
@@ -7578,30 +7583,37 @@ const facultyPaperAudits = {
       {
         "title": "mPMR: A Multilingual Pre-trained Machine Reader at Scale",
         "url": "https://aclanthology.org/2023.acl-short.131/",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "outcome": "confirmed",
+        "note": "正式版第一作者脚注明确 Weiwen Xu 的该项研究在阿里达摩院实习期间完成。学生和教授校企署名、企业正式任职及在读指导关系均有原始来源。2023 年 5 月的公开预印本与同年 ACL 版本合并；本篇为多语机器阅读器研究，与同一仓库发布的 NeurIPS PMR 论文为不同篇。",
         "year": 2023
       },
       {
         "title": "From Cloze to Comprehension: Retrofitting Pre-trained Masked Language Models to Pre-trained Machine Reader",
         "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/d4e1c24ac41ff0b82ca1b171731f0b23-Abstract-Conference.html",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "outcome": "confirmed",
+        "note": "正式版第一作者脚注明确 Weiwen Xu 的该项研究在阿里达摩院实习期间完成。学生和教授校企署名、企业正式任职及在读指导关系均有原始来源。该文同时标注另一位实习生，关系使用具备港中文在读及导师证据的第一作者 Weiwen Xu。",
         "year": 2023
       },
       {
         "title": "PeerDA: Data Augmentation via Modeling Peer Relation for Span Identification Tasks",
         "url": "https://aclanthology.org/2023.acl-long.484/",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "outcome": "confirmed",
+        "note": "正式版第一作者脚注明确 Weiwen Xu 的该项研究在阿里达摩院实习期间完成。学生和教授校企署名、企业正式任职及在读指导关系均有原始来源。arXiv 预印本首次公开于 2022 年 10 月；2023 年 7 月正式发表于 ACL，在本站的正式论文日期范围内，合并计一次。",
         "year": 2023
       },
       {
         "title": "APEX-SQL: Talking to the Data via Agentic Exploration for Text-to-SQL",
         "url": "https://doi.org/10.1145/3770855.3818075",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "outcome": "confirmed",
+        "note": "论文首页星号明确属于第一共同作者 Bowen Cao，并说明这项工作是在腾讯光子实习时完成。港中文课题组确认其在读与指导关系；腾讯光子的正式员工孙宇石署名同篇通讯作者。2026 年 2 月预印本与 8 月 KDD 正式版合并。",
         "year": 2026
+      },
+      {
+        "title": "StrategyLLM: Large Language Models as Strategy Generators, Executors, Optimizers, and Evaluators for Problem Solving",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/af7cc9e2366b8f8837a6ef339810277a-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "正式论文首页匕首只标注第一作者高畅，明确该工作出自其腾讯 AI Lab 实习。在读时间和博士导师另由学生履历与校方课题组核实，同篇同署名的蔡登在同期任腾讯 AI Lab 高级研究员。",
+        "year": 2024
       }
     ]
   },
@@ -29534,7 +29546,8 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/00/5453.html",
       "https://conf.researchr.org/profile/guoquanwu",
       "https://2025.aiwareconf.org/profile/haoxiangtian",
-      "https://changxiaoning.github.io/"
+      "https://changxiaoning.github.io/",
+      "https://people.ucas.ac.cn/~wchen"
     ],
     "papers": [
       {
@@ -29631,9 +29644,9 @@ const facultyPaperAudits = {
       {
         "year": 2025,
         "title": "FineFlow: FaaS工作流部署优化与执行系统",
-        "url": "https://www.jos.org.cn/download_upload_file.aspx?file_name=%2Fuploadfile%2Fcover%2Fjos%2F2025_2_contents.pdf",
+        "url": "https://www.jos.org.cn/jos/article/abstract/7146",
         "outcome": "no-evidence",
-        "note": "软件学报 36(2):488 确认五位作者；合并同组的 2023 软件所系统展示。正式目录和研究所展示均未显示范围内企业角色，仍待正式全文或期刊 DOI。"
+        "note": "期刊正式页面列 DOI 10.13328/j.cnki.jos.007146，2024-04-12 在线、2025-02-06 出版；五人单位均为中科院软件所、国科大及相关实验室。与 2023 年同一系统展示合并。"
       },
       {
         "year": 2024,
@@ -29645,9 +29658,9 @@ const facultyPaperAudits = {
       {
         "year": 2023,
         "title": "Detecting Smart Home Automation Application Interferences with Domain Knowledge",
-        "url": "https://conf.researchr.org/details/ase-2023/ase-2023-papers/36/Detecting-Smart-Home-Automation-Application-Interferences-with-Domain-Knowledge",
-        "outcome": "no-evidence",
-        "note": "ASE 程序与作者公开原文确认 KnowDetector 成果和南方电网作者单位；不属于企业范围。"
+        "url": "https://doi.org/10.1109/ASE56229.2023.00070",
+        "outcome": "lead",
+        "note": "作者原文称企业共同提供数据但匿名；软件所确认汪涛在读、导师为同篇黄涛、陈伟及魏峻直接指导，并说明其相关成果在华为、微信做技术验证。无法将本篇匿名公司明确对应到任一企业，也没有对应的具名企业雇员合作者。南方电网实验室为吴国全的共同署名。"
       },
       {
         "year": 2023,
@@ -29659,7 +29672,7 @@ const facultyPaperAudits = {
       {
         "year": 2023,
         "title": "A Reinforcement Learning Approach to Generating Test Cases for Web Applications",
-        "url": "https://changxiaoning.github.io/files/2023-ast-webqt.pdf",
+        "url": "https://doi.org/10.1109/AST58925.2023.00006",
         "outcome": "no-evidence",
         "note": "作者正式稿列学生常晓宁与吴国全；联合署名是南方电网实验室，不在范围；后续工作经历不能转用于本论文。"
       },
@@ -29676,8 +29689,425 @@ const facultyPaperAudits = {
         "url": "https://conf.researchr.org/details/apsec-2023/apsec-2023-early-research-achievements/17/Performance-Diagnosis-for-Microservice-based-Systems-via-Intra-Inter-trace-Analysis",
         "outcome": "no-evidence",
         "note": "APSEC 正式会程列软件所、国科大及广东电网相关机构；后者不在范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Toward Efficient Package Maintenance: An Empirical Study of Patch Sharing across Four Linux Distributions",
+        "url": "https://doi.org/10.1145/3744916.3787836",
+        "outcome": "no-evidence",
+        "note": "ICSE 官方节目列全体作者；除吴国全个人节目档案兼列范围外的南方电网，其他均为软件所或国科大。研究 Linux 维护活动，不等于雇员或学生企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "基于LLM智能体的智能家居场景规则自动生成",
+        "url": "https://www.jos.org.cn/jos/article/abstract/7663",
+        "outcome": "no-evidence",
+        "note": "软件学报公开原文列软件所、国科大及中科南京软件技术研究院，只列国家自然科学基金与软件所项目。共同作者汪涛 2025 年毕业后去华为，但未发现其以华为员工身份参与此项目或在读学生在华为参与的凭证。与早期历史日志 TAP 论文分列，方法和作者不同。"
+      },
+      {
+        "year": 2026,
+        "title": "A Constraint-Based Test Scenario Description and Generation Framework for Autonomous Driving Systems",
+        "url": "https://papers.ssrn.com/sol3/Delivery.cfm/aeae9cb4-8127-49d7-a802-e4c804c37432-MECA.pdf?abstractid=6711810&mirid=1",
+        "outcome": "no-evidence",
+        "note": "SSRN 以 CreScent 项目公开；不同于基于无事故视频的 CRISER。已核对可见单位和摘要；部分作者单位未在平台页面列出，未见范围内企业或具名学生企业参与。"
       }
     ],
-    "note": "交叉核对国科大导师页、中科院软件工程组、ORCID 对应的 DBLP 条目及出版方来源。已区分同名的控制工程及无人机通信作者；一个成果的正式版和预印本合并。正式出版全文、书目遗漏和两条早期稿尚在补核；HitMem 有阿里巴巴署名，但尚无学生在阿里参与本项目的证据。"
+    "note": "交叉核对国科大导师页、中科院软件工程组、ORCID 对应的 DBLP 条目及出版方来源。已区分同名的控制工程及无人机通信作者；一个成果的正式版和预印本合并。少数正式全文、预印本的期刊版本以及其他未必已公开的书目仍待核；HitMem 有阿里巴巴署名，但尚无学生在阿里参与本项目的证据。"
+  },
+  "xdcv7wQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.fudan.edu.cn/5b/f6/c30604a482294/page.htm",
+      "https://fdzhuanyi.fudan.edu.cn/8f/af/c40941a757679/page.htm",
+      "https://yeslab.co/member",
+      "https://dblp.org/pid/20/9998.html",
+      "https://orcid.org/0009-0007-4973-7942",
+      "https://zhiqix.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.11792",
+        "outcome": "no-evidence",
+        "note": "原文作者来自复旦、上海大学、上海戏剧学院和南京艺术学院；未见目标企业。"
+      },
+      {
+        "title": "Behavioral Consistency Validation for LLM Agents: An Analysis of Trading-Style Switching through Stock-Market Simulation",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.findings-acl.2006/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版列 BNP Paribas 与 Haven 及高校，均非目标企业。"
+      },
+      {
+        "title": "FraudSociety: A Generative Agent-Based Society for the Financial-Fraud Economy",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.33536",
+        "outcome": "no-evidence",
+        "note": "原文为复旦与伊利诺伊大学，不含目标公司。"
+      },
+      {
+        "title": "From Correctness to Utility: Gain-Based Prefix Evaluation for LLM Reasoning",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.07190",
+        "outcome": "no-evidence",
+        "note": "学校和上海创智学院三位作者。腾讯等模型是评测对象，未见企业作者。"
+      },
+      {
+        "title": "GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2603.01783",
+        "outcome": "no-evidence",
+        "note": "原文所有作者皆属复旦；未见目标企业正式人员。"
+      },
+      {
+        "title": "GQLBench: A Large-Scale Cross-Domain, Cross-Dialect Benchmark for NL2GQL",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.acl-long.1476/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版唯一公司作者来自 Vesoft（NebulaGraph），不在目标范围。"
+      },
+      {
+        "title": "Mind the Tool Failures: Achieving Synergistic Tool Gains for Medical Agents",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.26691",
+        "outcome": "no-evidence",
+        "note": "原文为复旦、上海创智学院、上海科学智能研究院、昆士兰大学及新加坡 A*STAR 等研究机构，未见范围内企业。"
+      },
+      {
+        "title": "PRISM: Probabilistic Reward Model with Inherent Structural Modeling",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.acl-long.563/",
+        "outcome": "lead",
+        "note": "ACL 正式版列字节 Seed 作者 Ge Zhang，其任职可由 Seed Diffusion 和学生同期履历交叉；第一作者周宇航的公开经历列通义、大学和金融机构，暂无在字节开展本项研究的证据。其余学生与该公司项目及叶广楠的同期师承仍待核。"
+      },
+      {
+        "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.18591",
+        "outcome": "no-evidence",
+        "note": "原文为复旦四位作者；以公共品博弈分辨模型推理与外推，未见企业共同作者。"
+      },
+      {
+        "title": "Rethinking the Role of Entropy in Optimizing Tool-Use Behaviors for Large Language Model Agents",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.acl-long.1288/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版中企业为 Haven，其他作者机构为高校；目标企业未出现。"
+      },
+      {
+        "title": "TransXion: A High-Fidelity Graph Benchmark for Realistic Anti-Money Laundering",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3770855.3817550",
+        "outcome": "no-evidence",
+        "note": "ACM/KDD 正式页和作者原文均只有复旦与北大。对同一主题的其他银行/公司新闻不计入。"
+      },
+      {
+        "title": "Are LLMs Rational Investors? A Study on the Financial Bias in LLMs",
+        "year": 2025,
+        "url": "https://aclanthology.org/2025.findings-acl.1239/",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式原文唯一企业作者署达观数据（DataGrand），非目标企业。"
+      },
+      {
+        "title": "FedCAda: Adaptive Client-Side Optimization for Accelerated and Stable Federated Learning",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10889407",
+        "outcome": "no-evidence",
+        "note": "ICASSP 正式题录及 2405.11811 原文均检查，未见目标公司。"
+      },
+      {
+        "title": "How AI Agents Follow the Herd of AI? Network Effects, History, and Machine Optimism",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2512.11943",
+        "outcome": "no-evidence",
+        "note": "原文只署复旦；实验维度含 History 和 Machine Optimism，另核 2510.06903 同作者较早稿，留待确认两稿是否同一版本。"
+      },
+      {
+        "title": "Limited Reference, Reliable Generation: A Two-Component Framework for Tabular Data Generation in Low-Data Regimes",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2509.09960",
+        "outcome": "no-evidence",
+        "note": "原文机构为复旦与西北工业大学；未见目标企业。"
+      },
+      {
+        "title": "Reconstruction as a Bridge for Event-Based Visual Question Answering",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2512.11510",
+        "outcome": "no-evidence",
+        "note": "原文为北大、上海创智学院、复旦和上海人工智能实验室，未见目标企业。"
+      },
+      {
+        "title": "Schrödinger's Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2512.21201",
+        "outcome": "no-evidence",
+        "note": "原文合作企业为 ActiMind，其他为高校或研究机构；ActiMind 不在目标名单。"
+      },
+      {
+        "title": "StageDesigner: Artistic Stage Generation for Scenography via Theater Scripts",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/CVPR52734.2025.02673",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式作者均为高校；原文致谢 CCF-百度基金，但无百度雇员共同作者或学生在百度完成这项研究的证据。"
+      },
+      {
+        "title": "Towards Million-Scale Adversarial Robustness Evaluation With Stronger Individual Attacks",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/CVPR52734.2025.02859",
+        "outcome": "no-evidence",
+        "note": "CVPR 正刊及预印本作者来自复旦和墨尔本大学；未见目标企业。"
+      },
+      {
+        "title": "When Machines Meet Each Other: Network Effects and the Strategic Role of History in Multi-Agent AI",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2510.06903",
+        "outcome": "no-evidence",
+        "note": "原文与 SSRN 同合作组均仅复旦；与后续 2512.11943 及 2609.18591 区别见各条。"
+      },
+      {
+        "title": "DogLayout: Denoising Diffusion GAN for Discrete and Continuous Layout Generation",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2412.00381",
+        "outcome": "no-evidence",
+        "note": "原文两位作者署复旦；未见目标企业员工或其学生企业项目。"
+      },
+      {
+        "title": "FedEGG: Federated Learning with Explicit Global Guidance",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2404.11888",
+        "outcome": "no-evidence",
+        "note": "最新版改名 FedEGG，原文列复旦、港大、上交等高校；无目标企业。"
+      },
+      {
+        "title": "RAGFormer: Learning Semantic Attributes and Topological Structure for Fraud Detection",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2402.17472",
+        "outcome": "no-evidence",
+        "note": "原文第三共同一作署上海银联电子支付（ChinaPay），非目标企业；其他署复旦。"
+      },
+      {
+        "title": "R³-NL2GQL: A Model Coordination and Knowledge Graph Alignment Approach for NL2GQL",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.findings-emnlp.800",
+        "outcome": "no-evidence",
+        "note": "EMNLP Findings 正式版为早先 2311.01862 的出版版本；企业为达观数据（DataGrand），非目标企业。"
+      },
+      {
+        "title": "SilverSight: A Multi-Task Chinese Financial Large Language Model Based on Adaptive Semantic Space Learning",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2404.04949",
+        "outcome": "no-evidence",
+        "note": "原文为复旦、同济大学。第一作者履历列后来的通义实习，时间与本篇不符。"
+      },
+      {
+        "title": "VAEFL: Integrating variational autoencoders for privacy preservation and performance retention in federated learning",
+        "year": 2024,
+        "url": "https://doi.org/10.1051/sands/2024005",
+        "outcome": "no-evidence",
+        "note": "期刊原文所有作者来自复旦计算机学院/金融科技研究院；未见目标企业。"
+      },
+      {
+        "title": "White-box Multimodal Jailbreaks Against Large Vision-Language Models",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3664647.3681092",
+        "outcome": "no-evidence",
+        "note": "ACM 正刊与 arXiv 2405.17894 核对；有达观数据（DataGrand），非目标企业。"
+      }
+    ],
+    "note": "第一批已核对复旦课题组资料、同一 ORCID 及 ACL/ACM/IEEE/CVF 等正式出版和 arXiv，仍在补全期刊书目及改题合并，未标全部。"
+  },
+  "gQlVhNsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~wchen",
+      "https://dblp.org/pid/c/WeiChen18.html",
+      "https://conf.researchr.org/profile/weichen1",
+      "https://orcid.org/0000-0003-2819-329X",
+      "https://tcse.iscas.ac.cn/research/ssgroup.html",
+      "https://iscas.cas.cn/yjsjy2016/ysbys/yxbys2025/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-modal Context-Aware Retrieval for Dynamic Environments",
+        "url": "https://doi.org/10.1007/978-3-032-37435-6_3",
+        "outcome": "lead",
+        "note": "ECCV 正式章节列邹晨烨署名阿里巴巴，国科大导师页列第一作者唐瑞杰为吴国全所指导的博士生；论文未说明学生在阿里巴巴参与同一研究，暂作线索。 陈伟是同篇作者；现有唐瑞杰的具名导师材料指向吴国全，未见陈伟直接指导唐瑞杰或新增可确认的三方关系。"
+      },
+      {
+        "year": 2026,
+        "title": "基于路网建模的自动驾驶关键场景生成与自适应演化方法",
+        "url": "https://doi.org/10.13328/j.cnki.jos.007471",
+        "outcome": "no-evidence",
+        "note": "软件学报正式文署高校和研究所；研究对象为路网模型与自动驾驶测试系统，未见范围内企业员工署名或在读企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "FaultWeave: Bounded Resilience Testing with Failure Diagnosis Capability for Microservice Applications",
+        "url": "https://doi.org/10.1145/3803437.3805257",
+        "outcome": "no-evidence",
+        "note": "会议论文列广东电网相关作者，企业不在范围；其他作者署中科院软件所或国科大。"
+      },
+      {
+        "year": 2026,
+        "title": "LightLoader: Accelerate Python FaaS Cold-Start via Multi-level Source Code Optimization",
+        "url": "https://doi.org/10.1007/978-981-95-5015-9_7",
+        "outcome": "no-evidence",
+        "note": "按 Springer 正式章节出版年记录；列中科院软件所及国科大作者，商用云函数用于背景或技术比较，未见范围内企业署名或在读企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Demystifying Deep Learning Compiler Frontend Bugs: An LLM-Aided Empirical Study",
+        "url": "https://arxiv.org/abs/2607.25651",
+        "outcome": "no-evidence",
+        "note": "原始预印本所有作者署中科院软件所或国科大；TorchDynamo 为被研究的开源对象，未见范围内企业人员及在读企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Prox: Training-Free FFN Activation Sparsity via Approximate Intermediate-Channel Salience in LLMs",
+        "url": "https://arxiv.org/abs/2607.27591",
+        "outcome": "no-evidence",
+        "note": "原始预印本作者署中科院软件所、国科大、南京邮电大学；第三方模型为实验对象，未见范围内企业的研究人员或学生企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Toward Efficient Package Maintenance: An Empirical Study of Patch Sharing across Four Linux Distributions",
+        "url": "https://doi.org/10.1145/3744916.3787836",
+        "outcome": "no-evidence",
+        "note": "ICSE 官方节目列全体作者；除吴国全个人节目档案兼列范围外的南方电网，其他均为软件所或国科大。研究 Linux 维护活动，不等于雇员或学生企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "基于LLM智能体的智能家居场景规则自动生成",
+        "url": "https://www.jos.org.cn/jos/article/abstract/7663",
+        "outcome": "no-evidence",
+        "note": "软件学报公开原文列软件所、国科大及中科南京软件技术研究院，只列国家自然科学基金与软件所项目。共同作者汪涛 2025 年毕业后去华为，但未发现其以华为员工身份参与此项目或在读学生在华为参与的凭证。与早期历史日志 TAP 论文分列，方法和作者不同。"
+      },
+      {
+        "year": 2026,
+        "title": "A Constraint-Based Test Scenario Description and Generation Framework for Autonomous Driving Systems",
+        "url": "https://papers.ssrn.com/sol3/Delivery.cfm/aeae9cb4-8127-49d7-a802-e4c804c37432-MECA.pdf?abstractid=6711810&mirid=1",
+        "outcome": "no-evidence",
+        "note": "SSRN 以 CreScent 项目公开；不同于基于无事故视频的 CRISER。已核对可见单位和摘要；部分作者单位未在平台页面列出，未见范围内企业或具名学生企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "VFLAgent: A Chain-of-Thought-Guided Multi-Agent Collaboration Framework for Vulnerable Function Localization",
+        "url": "https://doi.org/10.1109/SANER67736.2026.00072",
+        "outcome": "no-evidence",
+        "note": "IEEE 元数据和 SANER 正式节目列南京邮电、南开、软件所与国科大；模型用于漏洞定位实验，未见范围内企业人员或学生企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Testing the Fault-Tolerance of Multi-sensor Fusion Perception in Autonomous Driving Systems",
+        "url": "https://doi.org/10.1145/3728910",
+        "outcome": "no-evidence",
+        "note": "作者公开正式稿列首作者田浩翔在南洋理工访学开展课题；同篇 Continental-NTU Corporate Lab 不属范围，百度 Apollo 为被测系统。合并 arXiv:2504.13420。"
+      },
+      {
+        "year": 2025,
+        "title": "Deep Reinforcement Learning for Automated Web GUI Testing",
+        "url": "https://arxiv.org/abs/2504.19237",
+        "outcome": "no-evidence",
+        "note": "原始稿可查：署名单位含广东电网，非范围企业。导师页以后续题名 WebRLED 列为 2026 年期刊录用，暂未核得独立的正式 DOI；按同项目保留一条。"
+      },
+      {
+        "year": 2025,
+        "title": "LEGO: Synthesizing IoT Device Components Based on Static Analysis and Large Language Models",
+        "url": "https://doi.org/10.1145/3729482",
+        "outcome": "no-evidence",
+        "note": "正式论文列中科院软件所、国科大等科研教学单位；配套公开项目和使用的模型未提供范围内企业角色证据。"
+      },
+      {
+        "year": 2025,
+        "title": "HeRo: A State Machine-Based, Fault-Tolerant Framework for Heterogeneous Multi-Robot Collaboration",
+        "url": "https://doi.org/10.1109/ICRA55743.2025.11128674",
+        "outcome": "no-evidence",
+        "note": "ICRA 正式元数据与导师页确认唐瑞杰、吴国全同篇；开放来源未提供范围内企业署名或具名在读项目参与，全文可获得性仍需查。"
+      },
+      {
+        "year": 2025,
+        "title": "FineFlow: FaaS工作流部署优化与执行系统",
+        "url": "https://www.jos.org.cn/jos/article/abstract/7146",
+        "outcome": "no-evidence",
+        "note": "期刊正式页面列 DOI 10.13328/j.cnki.jos.007146，2024-04-12 在线、2025-02-06 出版；五人单位均为中科院软件所、国科大及相关实验室。与 2023 年同一系统展示合并。"
+      },
+      {
+        "year": 2025,
+        "title": "Characterizing and Detecting Python Version Incompatibilities Caused by Inconsistent Version Specifications",
+        "url": "https://doi.org/10.1016/j.jss.2025.112337",
+        "outcome": "no-evidence",
+        "note": "期刊正文和作者公开稿列软件所、国科大、南洋理工等单位；致谢为软件所与新加坡教育部。高浩城由陈伟指导，但无范围内企业合作者或本篇在企业开展的证据。"
+      },
+      {
+        "year": 2025,
+        "title": "LiPSBOMaker: A Prototype of Multi-Stage Linux Distribution Package SBOM Generator",
+        "url": "https://doi.org/10.1145/3713081.3731738",
+        "outcome": "no-evidence",
+        "note": "ISSTA 工具论文独立发表，会议程序署软件所、国科大等；分析 Linux 发行版与构建依赖，未见范围内企业作者或在读项目。"
+      },
+      {
+        "year": 2025,
+        "title": "面向Apache Flink流式分析应用的高吞吐优化技术",
+        "url": "https://doi.org/10.13328/j.cnki.jos.007235",
+        "outcome": "no-evidence",
+        "note": "2024 年网络首发、2025 年卷期为同一论文。正式稿七名作者均为软件所或国科大相关单位；基金为国家重点研发计划。"
+      },
+      {
+        "year": 2024,
+        "title": "Match Word with Deed: Maintaining Consistency for IoT Systems with Behavior Models",
+        "url": "https://doi.org/10.1145/3691620.3695319",
+        "outcome": "no-evidence",
+        "note": "ASE 短文为可独立检索的正式论文；已核中科院软件所成果说明，未见范围内企业署名或具名在读企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "Detecting Smart Home Automation Application Interferences with Domain Knowledge",
+        "url": "https://doi.org/10.1109/ASE56229.2023.00070",
+        "outcome": "lead",
+        "note": "作者原文称企业共同提供数据但匿名；软件所确认汪涛在读、导师为同篇黄涛、陈伟及魏峻直接指导，并说明其相关成果在华为、微信做技术验证。无法将本篇匿名公司明确对应到任一企业，也没有对应的具名企业雇员合作者。南方电网实验室为吴国全的共同署名。"
+      },
+      {
+        "year": 2023,
+        "title": "Characterizing Flaky Tests in Node.js Applications",
+        "url": "https://doi.org/10.1109/ASE56229.2023.00025",
+        "outcome": "no-evidence",
+        "note": "ASE 会议程序和论文列南方电网相关机构，不属范围；作者常晓宁毕业后入职华为不能作为这篇论文的在读企业研究依据。"
+      },
+      {
+        "year": 2023,
+        "title": "Generating Scenario-Centric TAP Rules for Smart Homes by Mining Historical Event Logs",
+        "url": "https://doi.org/10.1109/ICWS60048.2023.00015",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式论文集和软件所书目确认六位作者；未见范围内企业署名或具名在读企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "EasyPip: Detect and Fix Dependency Problems in Python Dependency Declaration Files",
+        "url": "https://ksiresearch.org/seke/seke23paper/paper120.pdf",
+        "outcome": "no-evidence",
+        "note": "SEKE 正式全文列软件所、国科大及相关实验室，未见范围内企业署名和在读企业研究。"
+      },
+      {
+        "year": 2023,
+        "title": "A Case Study of Dependency Network for Building Packages: The Fedora Linux Distribution",
+        "url": "https://ksiresearch.org/seke/seke23paper/paper098.pdf",
+        "outcome": "no-evidence",
+        "note": "SEKE 正式原文列广西大学、软件所、国科大、南京软件研究院等；由国家计划资助，使用 Fedora 包作为公开研究数据。"
+      },
+      {
+        "year": 2023,
+        "title": "A Reinforcement Learning Approach to Generating Test Cases for Web Applications",
+        "url": "https://doi.org/10.1109/AST58925.2023.00006",
+        "outcome": "no-evidence",
+        "note": "作者正式稿列学生常晓宁与吴国全；联合署名是南方电网实验室，不在范围；后续工作经历不能转用于本论文。"
+      }
+    ],
+    "note": "按国科大导师的出版信息、正式期刊和会议、公开预印本及 DBLP 交叉核对。该师的聚合书目有重名关联，按作者单位、共著者网络和 ORCID 核准。罕见或受限正式全文和遗漏书目仍待核。软件所确认其直接指导的汪涛在读成果在华为、微信验证，但尚无证据把匿名企业对应到具体论文的企业人员。"
   }
 };
