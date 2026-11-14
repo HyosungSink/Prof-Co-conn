@@ -55558,7 +55558,11 @@ const facultyPaperAudits = {
       "https://scholar.google.com/citations?user=uZdQxkwAAAAJ&hl=en",
       "https://rhyang2021.github.io/",
       "https://dblp.org/pid/01/2462.html",
-      "https://kw.fudan.edu.cn/publications"
+      "https://kw.fudan.edu.cn/publications",
+      "https://orcid.org/0000-0002-1390-3861",
+      "https://lightblues.github.io/",
+      "https://cn.linkedin.com/in/wangyi-mei-172239292",
+      "https://arxiv.org/html/2602.12662v1"
     ],
     "papers": [
       {
@@ -55571,9 +55575,9 @@ const facultyPaperAudits = {
       {
         "title": "Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents",
         "year": 2026,
-        "url": "https://arxiv.org/html/2602.12662v1",
+        "url": "https://proceedings.mlr.press/v306/yang26cz.html",
         "outcome": "confirmed",
-        "note": "首稿具名复旦博士生杨睿涵在腾讯混元实习完成；同篇列他同期的企业导师 Fanghua Ye 和复旦导师阳德青。"
+        "note": "首稿具名复旦博士生杨睿涵在腾讯混元实习完成；同篇列他同期的企业导师 Fanghua Ye 和复旦导师阳德青。 首稿与 ICML 2026 正式论文属于同一项。"
       },
       {
         "title": "The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement",
@@ -55601,10 +55605,73 @@ const facultyPaperAudits = {
         "year": 2026,
         "url": "https://arxiv.org/html/2606.01091v1",
         "outcome": "lead",
-        "note": "公开原文明确复旦与小红书共同署名，两名复旦作者双署小红书。尚缺具名的实际校内导师和学生在小红书完成同项研究的独立证据。"
+        "note": "公开原文列复旦与小红书共同署名。Wangyi Mei 本人准确列学籍和本项目所做训练工作；仍缺将该生与同篇在范围教师的明确指导关系。"
+      },
+      {
+        "title": "M3PT: A Multi-Modal Model for POI Tagging",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3580305.3599862",
+        "outcome": "lead",
+        "note": "原文列复旦第一作者 Jingsong Yang、两位高校通讯与阿里飞猪四位员工；论文用飞猪业务样本。尚未看到该学生的具名导师及在飞猪承担本项工作的独立材料。"
+      },
+      {
+        "title": "GORACS: Group-level Optimal Transport-guided Coreset Selection for LLM-based Recommender Systems",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3711896.3736985",
+        "outcome": "no-evidence",
+        "note": "KDD 正式作者单位都为复旦大数据学院，与 2025-06 首稿合并。未发现调查企业的研究参与。"
+      },
+      {
+        "title": "Learning to Think in Blocks: A Prior-Guided Reinforcement Learning Framework for Deep Research",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.findings-emnlp.1067/",
+        "outcome": "no-evidence",
+        "note": "正式作者单位是复旦大学及联合汽车电子。不能把第一作者另篇小红书的合著关系用于此篇。"
+      },
+      {
+        "title": "Logical Consistency is Vital: Neural-Symbolic Information Retrieval for Negative-Constraint Queries",
+        "year": 2025,
+        "url": "https://aclanthology.org/2025.findings-acl.92/",
+        "outcome": "no-evidence",
+        "note": "2025-05 预印与 ACL Findings 为同篇。正式版四位企业作者来自联合汽车电子，不在调查范围。"
+      },
+      {
+        "title": "SELFGOAL: Your Language Agents Already Know How to Achieve High-level Goals",
+        "year": 2024,
+        "url": "https://aclanthology.org/2025.naacl-long.36/",
+        "outcome": "no-evidence",
+        "note": "2024-06 首稿以及 NAACL 2025 正式版由复旦与 Allen Institute for AI 合作，未见指定企业。论文中同作者后来加入字节不能外推。"
+      },
+      {
+        "title": "“A good pun is its own reword”: Can Large Language Models Understand Puns?",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.emnlp-main.657/",
+        "outcome": "no-evidence",
+        "note": "2024-04 首稿；EMNLP 正式作者均署复旦。未发现指定企业研究参与。"
+      },
+      {
+        "title": "AgentRE: An Agent-Based Framework for Navigating Complex Information Landscapes in Relation Extraction",
+        "year": 2024,
+        "url": "https://arxiv.org/html/2409.01854v1",
+        "outcome": "no-evidence",
+        "note": "CIKM 正式书目信息与 2024-09 首稿相符，四名作者均署复旦。石的其他腾讯成果不能用于本篇。"
+      },
+      {
+        "title": "Negation Triplet Extraction with Syntactic Dependency and Semantic Consistency",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.lrec-main.1058/",
+        "outcome": "lead",
+        "note": "2024-04 首稿和 LREC-COLING 为同篇。Yuchen Shi 本人资料列阳德青与肖仰华为导师，同篇列两位美团员工，但尚未发现该学生具名在美团参与此项。另有美团同名研究者非此人。"
+      },
+      {
+        "title": "FlowAgent: Achieving Compliance and Flexibility for Workflow Agents",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2502.14345v1",
+        "outcome": "lead",
+        "note": "Yuchen Shi 首作且署腾讯优图，复旦导师阳德青与多位优图作者同篇。未取得论文研究阶段与该生复旦学籍明确重合的核验材料，不以既往受指导的身份推定。"
       }
     ],
-    "note": "已核 6 篇，结合复旦公开书目、第一方 Google 学术、学生正式履历和原文。其余作品仍待补查。"
+    "note": "已核 15 篇，结合复旦公开书目、第一方 Google 学术、学生履历和各篇全文；其余还在核查。"
   },
   "n7gNlCkAAAAJ": {
     "from": "2023-01-01",
@@ -55756,5 +55823,225 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核 16 篇公开论文。RAG+、DAIS 两项关系已确认；蚂蚁合著的论文仍按每项具体贡献核对。"
+  },
+  "MXvC7tkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://aclanthology.org/2025.findings-emnlp.276/",
+      "https://misc-lab.cse.cuhk.edu.hk/people/",
+      "https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/",
+      "https://aclanthology.org/2025.findings-emnlp.276.pdf",
+      "https://arxiv.org/abs/2505.20013",
+      "https://tqfang.github.io/",
+      "https://aclanthology.org/2025.emnlp-main.412/",
+      "https://aclanthology.org/2025.emnlp-main.412.pdf",
+      "https://arxiv.org/abs/2412.16686",
+      "https://huggingface.co/datasets/mindahu/NILE-IFT-Dataset",
+      "https://arxiv.org/abs/2601.04973",
+      "https://arxiv.org/html/2601.04973v1",
+      "https://arxiv.org/abs/2602.03647",
+      "https://arxiv.org/html/2602.03647v1",
+      "https://icml.cc/Downloads/2026",
+      "https://lczong.com/",
+      "https://aclanthology.org/2024.findings-emnlp.230/",
+      "https://aclanthology.org/2024.findings-emnlp.230.pdf",
+      "https://arxiv.org/abs/2403.03514",
+      "https://github.com/zexuanqiu/CLongEval",
+      "https://misc-lab.cse.cuhk.edu.hk/there-papers-accepted-to-emnlp-2024/",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/minda-hu/",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/zexuan-qiu/",
+      "https://hi-zenanxu.github.io/index.html",
+      "https://doi.org/10.1007/978-3-031-72083-3_30",
+      "https://jarvislab.tencent.com/aca-publications-conference-2.html",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/conghao-xiong/",
+      "https://arxiv.org/html/2406.09696v1",
+      "https://github.com/BearCleverProud/MoME",
+      "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
+      "https://arxiv.org/abs/2303.05780",
+      "https://papers.miccai.org/miccai-2024/paper/2121_paper.pdf",
+      "https://github.com/BearCleverProud/TAKT",
+      "https://doi.org/10.1145/3637528.3671747",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/yankai-chen/",
+      "https://yankai-chen.github.io/index.html",
+      "https://www.amazon.science/publications/shopping-trajectory-representation-learning-with-pre-training-for-e-commerce-customer-understanding-and-recommendation",
+      "https://doi.org/10.1145/3774904.3792738",
+      "https://arxiv.org/html/2602.21230v1",
+      "https://doi.org/10.1145/3774904.3792587",
+      "https://arxiv.org/pdf/2606.11023",
+      "https://github.com/AI-Santiago/GenAIR",
+      "https://ifaamas.org/Proceedings/aamas2026/forms/contents.htm",
+      "https://arxiv.org/abs/2505.17086",
+      "https://arxiv.org/html/2505.17086v1",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/muzhi-li/",
+      "https://bearcleverproud.github.io/",
+      "https://aclanthology.org/2025.emnlp-main.688/",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/yueen-ma/",
+      "https://aclanthology.org/2025.emnlp-main.688.pdf",
+      "https://research.cuhk.edu.hk/en/publications/astra-efficient-transformer-architecture-and-contrastive-dynamics/",
+      "https://github.com/yueen-ma/Astra",
+      "https://aclanthology.org/2024.findings-naacl.26/",
+      "https://arxiv.org/abs/2307.00852",
+      "https://aclanthology.org/2024.findings-naacl.26.pdf",
+      "https://doi.org/10.1109/TNNLS.2025.3650584",
+      "https://arxiv.org/abs/2405.14093",
+      "https://github.com/yueen-ma/awesome-vla",
+      "https://aclanthology.org/2026.findings-emnlp.1006/",
+      "https://arxiv.org/abs/2603.09632",
+      "https://aclanthology.org/2026.findings-emnlp.1006v2.pdf",
+      "https://github.com/yueen-ma/X-GS",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/40013",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/40013/43974",
+      "https://arxiv.org/abs/2511.09853",
+      "https://lucydyu.github.io/",
+      "https://openreview.net/pdf/4e857c12acd1102a651133516a51da81d8180e39.pdf",
+      "https://doi.org/10.1145/3691626",
+      "https://arxiv.org/abs/2312.07913",
+      "https://openreview.net/pdf?id=BUGf2UElEU",
+      "https://en.westlake.edu.cn/faculty/yefeng-zheng.html",
+      "https://cse.hkust.edu.hk/News/BestDissertation2024-25/",
+      "https://ianyilin.github.io/",
+      "https://aclanthology.org/2025.emnlp-main.688v3.pdf",
+      "https://arxiv.org/abs/2605.21951",
+      "https://arxiv.org/pdf/2605.21951",
+      "https://doi.org/10.1145/3744239",
+      "https://arxiv.org/pdf/2506.02750",
+      "https://github.com/QueYork/BiGeaR-SS",
+      "https://doi.org/10.1145/3534678.3539452",
+      "https://ijcai.org/proceedings/2023/176",
+      "https://arxiv.org/abs/2301.08125",
+      "https://github.com/BearCleverProud/HAG-MIL",
+      "https://www.ijcai.org/proceedings/2023/0176.pdf"
+    ],
+    "papers": [
+      {
+        "title": "WebCoT: Enhancing Web Agent Reasoning by Reconstructing Chain-of-Thought in Reflection, Branching, and Rollback",
+        "url": "https://aclanthology.org/2025.findings-emnlp.276/",
+        "outcome": "lead",
+        "note": "港中文 MISC 列第一作者胡敏达；腾讯正式员工 Tianqing Fang 和校园导师 Irwin King 同署。正式稿致谢指学生与老师受本地研发资助，论文未具名标注胡在腾讯承担本篇工作，不能由其他论文双署反推。",
+        "year": 2025
+      },
+      {
+        "title": "NILE: Internal Consistency Alignment in Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.412/",
+        "outcome": "lead",
+        "note": "2024-12 预印本、2025 正式会议。刊行首面 Huawei Noah 的 Yufei Wang、Liangyou Li、Yasheng Wang 与胡敏达和导师 Irwin King 同署；胡以个人帐号发布数据。没有同篇华为实习或可归于华为的个人项目履历。",
+        "year": 2025
+      },
+      {
+        "title": "ConMax: Confidence-Maximizing Compression for Efficient Chain-of-Thought Reasoning",
+        "url": "https://arxiv.org/abs/2601.04973",
+        "outcome": "lead",
+        "note": "2026-01-08 首稿；Minda Hu 与 Zexuan Qiu 是首面双署的港中文博士，在 MISC 名录列出，导师 Irwin King 同篇通讯。Bo Zhou 和 Zenan Xu 署腾讯 LLM；双署之外无具名实习脚注、企业发布或具体研发贡献，维持待核。 徐泽南的第一手履历确认他是 2023 年入职的腾讯研究员并列这篇为本人研究；两位博士各自资料明确其具名指导，学生端仍缺精确企业贡献证明。",
+        "year": 2026
+      },
+      {
+        "title": "Search-R2: Enhancing Search-Integrated Reasoning via Actor-Refiner Collaboration",
+        "url": "https://arxiv.org/abs/2602.03647",
+        "outcome": "lead",
+        "note": "2026-02-03 首次公开、ICML 目录收录。胡敏达以港中文／腾讯双署共一作并和校内导师 Irwin King 同列，Pluto Zhou 负责企业通讯。原文没有实习脚注；公开资料仅报道企业和高校团队合作，没有明确学生具体企业端贡献材料。 徐泽南的第一手履历确认他是 2023 年入职的腾讯研究员并列这篇为本人研究；两位博士各自资料明确其具名指导，学生端仍缺精确企业贡献证明。",
+        "year": 2026
+      },
+      {
+        "title": "CLongEval: A Chinese Benchmark for Evaluating Long-Context Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-emnlp.230/",
+        "outcome": "lead",
+        "note": "正式版与 2024-03-06 首稿列腾讯光子的 Xiaoqi Jiao；Zexuan Qiu 等学生与导师 Irwin King 同署。第一作者个人实现仓库确实对应本篇，没有他在腾讯承担此研究的一手证明。",
+        "year": 2024
+      },
+      {
+        "title": "MoME: Mixture of Multimodal Experts for Cancer Survival Prediction",
+        "url": "https://doi.org/10.1007/978-3-031-72083-3_30",
+        "outcome": "lead",
+        "note": "2024-06-14 首次公开、同年 MICCAI。港中文实验室明确Conghao Xiong为金国庆指导博士，腾讯天衍将同篇列为自身论文，Hao Zheng、Dong Wei、Yefeng Zheng 三位均按腾讯署名。熊的原文为港中文署名、个人代码库公布，未找到对项目在企业环节做出具名贡献或实习的一手证据，故仍为线索。 学生本人公开主页确认成果，但没有把工作归于本人在腾讯的实习或具名项目角色。",
+        "year": 2024
+      },
+      {
+        "title": "TAKT: Target-Aware Knowledge Transfer for Whole Slide Image Classification",
+        "url": "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
+        "outcome": "lead",
+        "note": "2023-03-10 同编号最早稿与 2024 MICCAI 正式合并。MICCAI 正式末页致谢明确此研究与腾讯优图天衍共同完成，且首面将港中文博士 Conghao Xiong 具名列为共同第一和共同通讯；学生成功放出技术实现。其实际港中文导师金国庆同署，由实验室直接确认。西湖大学郑冶枫校方简历确认他在 2018–2024 年研究期为腾讯天衍主任。没有找到学生本人明确的腾讯实习或职务档案，故按保守口径保留为线索，已有同篇联合项目证据可供复核。另一共一 Yi Lin 的本人及港科大资料明确他的腾讯全职经历在攻读博士之前，不能把两段时间叠加。",
+        "year": 2023
+      },
+      {
+        "title": "Shopping Trajectory Representation Learning with Pre-training for E-commerce Customer Understanding and Recommendation",
+        "url": "https://doi.org/10.1145/3637528.3671747",
+        "outcome": "no-evidence",
+        "note": "金国庆确为陈焱凯港中文博士导师；正式首面具名在读时的这项企业合作属于 Amazon，其他三位全是 Amazon 作者，公司不在范围。2024 出版晚于本人 2023 年毕业，不改原实习的归属。",
+        "year": 2024
+      },
+      {
+        "title": "TRACE: Trajectory-Aware Comprehensive Evaluation for Deep Research Agents",
+        "url": "https://doi.org/10.1145/3774904.3792738",
+        "outcome": "no-evidence",
+        "note": "2026 年预印本及 ACM WWW 正式条目同篇，首面所有作者只署港中文；校方组页确有博士生 Yanyu Chen，而论文中没有目标公司作者。",
+        "year": 2026
+      },
+      {
+        "title": "Generative Archetype-Grounded Item Representations for Sequential Recommendation",
+        "url": "https://doi.org/10.1145/3774904.3792587",
+        "outcome": "no-evidence",
+        "note": "WWW 2026 正式版本与后上 arXiv 的项目代码同篇。作者栏为港中文、McGill、同济等学校；Yifan Li 等可在港中文组页找到，未有目标公司作者。",
+        "year": 2026
+      },
+      {
+        "title": "Advancing Multi-Agent RAG Systems with Minimalist Reinforcement Learning",
+        "url": "https://ifaamas.org/Proceedings/aamas2026/forms/contents.htm",
+        "outcome": "lead",
+        "note": "2025-05-20 首版与 2026-05-24 AAMAS 正式版同篇。华为诺亚方舟两名研究者在正式同篇，港中文 Muzhi Li 的校方原档实际具名导师是同篇 Ho-fung Leung，2026 正式署独立研究者；不要从 MISC 小组页自动归给金国庆。未找到范围内学生在该华为项目承担的具名企业工作。",
+        "year": 2026
+      },
+      {
+        "title": "Astra: Efficient Transformer Architecture and Contrastive Dynamics Learning for Embodied Instruction Following",
+        "url": "https://aclanthology.org/2025.emnlp-main.688/",
+        "outcome": "lead",
+        "note": "2025-11 EMNLP 多版均有四位华为诺亚作者，港中文实验室确认第一作者 Yueen Ma 的博士身份；其个人 GitHub 发布模型首版。尚未查到他在华为进行这篇研究的具名项目证据，个人仓库不能代替企业分工。 第三版正式致谢补得到华为技术投资 CUHK 6906061 的部分资助。校企共同署名及项目资金已释明；未见学生的企业职责。",
+        "year": 2025
+      },
+      {
+        "title": "VOLTA: Improving Generative Diversity by Variational Mutual Information Maximizing Autoencoder",
+        "url": "https://aclanthology.org/2024.findings-naacl.26/",
+        "outcome": "lead",
+        "note": "2023-07 首版、正式 NAACL 2024，署港中文学生 Yueen Ma 及 Jingjing Li 和两位华为诺亚作者；未找到学生承担企业项目的具名记录。不能借同组 Astra 的人员推定。",
+        "year": 2023
+      },
+      {
+        "title": "A Survey on Vision-Language-Action Models for Embodied AI",
+        "url": "https://doi.org/10.1109/TNNLS.2025.3650584",
+        "outcome": "lead",
+        "note": "2024-05-23 首稿，2026 年正式刊期；正式团队及方法仓库均列港中文学生 Yueen Ma 和华为诺亚两名作者。未在原文、本人及课题组资料找到该学生在华为完成这篇综述的分工。",
+        "year": 2024
+      },
+      {
+        "title": "X-GS: An Extensible Framework for Perceiving and Thinking with 3D Gaussian Splatting",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1006/",
+        "outcome": "no-evidence",
+        "note": "arXiv 2026-03-10 至正式版为一项研究；正式新增复旦徐增林，原文机构包括港中文、复旦和上海科学智能研究院，没有范围企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "ConSurv: Multimodal Continual Learning for Survival Analysis",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40013",
+        "outcome": "no-evidence",
+        "note": "2025-11 预印本与 AAAI 2026 正式版合并，出版首面只有港中文、芝加哥伊利诺伊、南洋理工和港科大。不要用研究者曾有企业任职的履历替代同篇企业角色。",
+        "year": 2025
+      },
+      {
+        "title": "Exploiting Low-Dimensional Manifold of Features for Few-Shot Whole Slide Image Classification",
+        "url": "https://openreview.net/pdf/4e857c12acd1102a651133516a51da81d8180e39.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 2026 正式首页列学校、医学院与新加坡 MedVisAI 等研究实验室；金国庆与学生均按港中文署名，不含调查企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "A Survey of Text Watermarking in the Era of Large Language Models",
+        "url": "https://doi.org/10.1145/3691626",
+        "outcome": "no-evidence",
+        "note": "2023-12 首稿，ACM 标记线上正式出版日 2024-11-07；原文十位作者署高校。刘瑷玮后入腾讯而本篇署清华，也没有其他公司研究角色。",
+        "year": 2023
+      }
+    ],
+    "note": "已看金国庆公开书目中的 18 篇，结合学生、校方和企业公开研究资料逐篇判定。其余公开题录继续查。"
   }
 };

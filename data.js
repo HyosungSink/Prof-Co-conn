@@ -45278,13 +45278,13 @@ const survey = {
       "title": "Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents",
       "short": "CogRouter",
       "date": "2026-02-13",
-      "venue": "arXiv",
+      "venue": "ICML 2026",
       "area": "语言模型与智能体",
-      "paper": "https://arxiv.org/html/2602.12662v1",
+      "paper": "https://proceedings.mlr.press/v306/yang26cz.html",
       "extra": [
         [
-          "首稿日期和完整署名",
-          "https://arxiv.org/abs/2602.12662v1"
+          "首稿、署名与具名实习脚注",
+          "https://arxiv.org/html/2602.12662v1"
         ],
         [
           "论文源代码",
