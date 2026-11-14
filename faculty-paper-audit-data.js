@@ -11602,7 +11602,14 @@ const facultyPaperAudits = {
       "https://henry123-boy.github.io/academic.html",
       "https://github.com/hxy-123/hxy-123.github.io/blob/795e81faf247168eb3d4c4f8eae16dda2b7c51db/pages/about.html#L31-L43",
       "https://github.com/dadwadw233",
-      "https://anitacen.github.io/"
+      "https://anitacen.github.io/",
+      "https://www.xzhou.me/group",
+      "https://ritianyu.github.io/",
+      "https://dblp.org/pid/30/1273-1.html",
+      "https://yunzhiy.github.io/",
+      "https://guoyujie.cn/",
+      "https://zhenx.me/",
+      "https://www.xzhou.me/"
     ],
     "papers": [
       {
@@ -11627,7 +11634,7 @@ const facultyPaperAudits = {
         "title": "EnvGS: Modeling View-Dependent Appearance with Environment Gaussian",
         "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_EnvGS_Modeling_View-Dependent_Appearance_with_Environment_Gaussian_CVPR_2025_paper.pdf",
         "outcome": "lead",
-        "note": "CCF 正式是 CVPR 2025；论文首稿在 2024 年。浙大周晓巍与蚂蚁正式员工沈宇君同篇，但两位主要作者陶谢、Xi Chen 都只署浙大，后者履历未列蚂蚁，前者公开记录地平线实习。共同作者靳宇栋蚂蚁实习确证且同期，但其本篇只署浙大，缺具名具体企业工作证据。",
+        "note": "CCF 正式是 CVPR 2025；论文首稿在 2024 年。浙大周晓巍与蚂蚁正式员工沈宇君同篇，但两位主要作者Tao Xie、Xi Chen 都只署浙大，后者履历未列蚂蚁，前者公开记录地平线实习。共同作者靳宇栋蚂蚁实习确证且同期，但其本篇只署浙大，缺具名具体企业工作证据。",
         "year": 2025
       },
       {
@@ -11689,9 +11696,9 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "4K4D: Real-Time 4D View Synthesis at 4K Resolution",
-        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_4K4D_Real-Time_4D_View_Synthesis_at_4K_Resolution_CVPR_2024_paper.pdf",
+        "url": "https://arxiv.org/pdf/2310.11448v1",
         "outcome": "lead",
-        "note": "CVPR 版学生均署浙大，沈宇君独署蚂蚁；Zhen Xu 与 Haotong Lin 的公开企业履历不能对应此一蚂蚁项目，首稿在 2023 年 10 月，勿将后来的字节研究借证。"
+        "note": "同篇沈宇君当期在蚂蚁。Guangzhao He 公布带日期简历明确周晓巍指导自己在浙大做本篇并开发核心渲染器；没有该生在蚂蚁参与的证据。论文不同版本的 Derivative Inc 字样是范围外企业。"
       },
       {
         "year": 2024,
@@ -11716,10 +11723,10 @@ const facultyPaperAudits = {
       },
       {
         "year": 2024,
-        "title": "SAM-Guided Graph Cut for 3D Instance Segmentation",
+        "title": "SAM-guided Graph Cut for 3D Instance Segmentation",
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06451.pdf",
         "outcome": "lead",
-        "note": "ECCV 版本明示沈宇君署蚂蚁，郭昊宇/王宇昂仅署浙江大学。项目页另一位共一作 He Zhu 的具名脚注明确为浙大实习；未见校内学生为蚂蚁开展此项的具名证据。"
+        "note": "正式 PDF 给沈宇君唯一蚂蚁署名，浙大周晓巍通讯。共一作分别署浙大、北师大；还未找到学生在具体蚂蚁项目参与证据，未由基金致谢推算。正式和 2312.08372 同稿。"
       },
       {
         "year": 2026,
@@ -11733,7 +11740,7 @@ const facultyPaperAudits = {
         "title": "GARDEN: Gravity-Aligned Reconstruction of Disentangled Environments from RGB Images",
         "url": "https://sunjiahaovo.github.io/garden/",
         "outcome": "lead",
-        "note": "实名脚注明示魏鼎坤也在蚂蚁实习期间完成本篇；但论文作者没有其硕导周晓巍。若具名验证其他论文共同作者为另一学生的校内导师，可另视角；此处不计。"
+        "note": "实名脚注明示魏鼎坤和孙佳豪均在蚂蚁实习参与。周晓巍没有署名；第一作者孙佳豪本人确认为浙江大学控制工程博士，论文同篇通讯 Liang Li 是其导师，但 Liang Li 尚未落在本站的本轮三项齐全名单。保留跨队列线索，未计入。"
       },
       {
         "year": 2026,
@@ -11745,9 +11752,9 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "StreamingTalker: Audio-driven 3D Facial Animation with Autoregressive Diffusion Model",
-        "url": "https://arxiv.org/abs/2511.14223",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38162/42124",
         "outcome": "lead",
-        "note": "原文查得企业及其他合著，需确认岑帜或具名在读学生与导师参加了对应工作，不能从其快手实习泛推。"
+        "note": "AAAI 首页面列第一作者 Yifan Yang 浙大及蚂蚁双署，周晓巍组成员页列他是组内博士，本人 GitHub 也明确其博士学籍。Fan Jia 同篇署蚂蚁，SIGGRAPH Asia 论文页也证实其单位；仍未补齐 Yifan Yang 的明确具名导师和本篇的企业实习或工作关系。组内另有学术导师，不能单以组员推定；岑帜的实习为快手而非蚂蚁。正式 DOI 10.1609/aaai.v40i14.38162 与 2511.14223 同稿。"
       },
       {
         "year": 2025,
@@ -11762,6 +11769,132 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2502.20370",
         "outcome": "lead",
         "note": "正式研究有蚂蚁研究员沈宇君；第一作者岑帜的快手实习从公开首稿两月后开始，且雇主不同。尚没有学生在蚂蚁参与此项的具名证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Contact Matrix: Enhancing Dance Motion Synthesis with Precise Interaction Modeling",
+        "url": "https://arxiv.org/abs/2605.04662",
+        "outcome": "lead",
+        "note": "岑帜有另列的快手实习，但此篇原文未给公司项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+        "url": "https://arxiv.org/pdf/2611.14092v1",
+        "outcome": "lead",
+        "note": "明确学生魏鼎坤蚂蚁实习期间参加，但硕导周晓巍不在本文作者中；同篇港大导师和另一学生已独立形成确证，勿在浙大侧重复计。"
+      },
+      {
+        "year": 2026,
+        "title": "DynOLAT: OLAT Video Prediction for Controllable Dynamic Full-Body Relighting",
+        "url": "https://arxiv.org/pdf/2611.11210v1",
+        "outcome": "lead",
+        "note": "截点前预印本；蚂蚁作者 Fan Jia 具名。两位首作者和周晓巍的博士生靳宇栋在这篇均署浙大，靳已证实的蚂蚁实习来自其他时期与项目，缺能把本篇任务直接连到学生及企业的证据。4DV.ai 不在目标范围。"
+      },
+      {
+        "year": 2026,
+        "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+        "url": "https://arxiv.org/html/2610.20341v1",
+        "outcome": "no-evidence",
+        "note": "首版共一作者 Yongzhen Hu 双署浙大及范围外 Hello TransTech；同篇另有三位 Hello TransTech 作者和 Causa Robotics。余昊只署浙大，不能把同系列下一篇的腾讯混元合作倒推。"
+      },
+      {
+        "year": 2026,
+        "title": "InfiniSplat: Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis",
+        "url": "https://zju3dv.github.io/InfiniSplat/",
+        "outcome": "no-evidence",
+        "note": "截至截点已有 arXiv 2608.02437。作者项目列出三位范围外 UDeer.ai 合作者，两个共一作只署浙大；如考虑原达摩团队，仍需证实论文确切的当期指定企业及学生参与。"
+      },
+      {
+        "year": 2026,
+        "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
+        "url": "https://zju3dv.github.io/pointsplat/",
+        "outcome": "lead",
+        "note": "项目和预印本 2606.32036 主署浙大与字节科研。第一作者郭予捷自述 2025-09 从浙大读博士并有蚂蚁、阿里两段研究实习，均非本篇字节；曾有字节实习的同篇 Zhen Xu 只署浙大，暂无本篇在该公司的具体研究证据，不能拼接双方证据。"
+      },
+      {
+        "year": 2026,
+        "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+        "url": "https://arxiv.org/pdf/2611.08264v1",
+        "outcome": "confirmed",
+        "note": "首版正文明示第一作者余昊署浙江大学与腾讯混元，同篇作者包含他的浙大硕导周晓巍和腾讯实习导师 Tengfei Wang、Zhenwei Wang，且本项目联合企业署名在同一研究报告中。余昊本人履历说明腾讯混元实习自 2026 年 3 月起，项目首稿于 2026 年 11 月 5 日出现；Tengfei Wang 同时期且正式为腾讯混元世界模型负责人。InfiniSplat v1 是 UDeer.ai 工作、v2 的企业方是 Hello TransTech，此篇独立新技术，有单独编号和不同参与者。"
+      },
+      {
+        "year": 2025,
+        "title": "MatchAnything: Universal Cross-Modality Image Matching with Large-Scale Pre-Training",
+        "url": "https://arxiv.org/pdf/2501.07556v1",
+        "outcome": "lead",
+        "note": "首稿作者单位是浙大、山东大学；首作者贺星毅确有蚂蚁实习，但此篇没有对应企业正式作者或论文专属参与依据，不能借 ReTracker。"
+      },
+      {
+        "year": 2025,
+        "title": "Multi-view Reconstruction via SfM-guided Monocular Depth Estimation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Guo_Multi-view_Reconstruction_via_CVPR_2025_supplemental.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正文和补充列浙大与北京师范大学；没有指定公司或学生在公司参与该论文的正面证据。"
+      },
+      {
+        "year": 2025,
+        "title": "StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yan_StreetCrafter_Street_View_Synthesis_with_Controllable_Video_Diffusion_Models_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 首页首作者列浙大与理想汽车双署；作者本人记录该期理想汽车实习和在读博士师承。理想汽车不在14家公司内；本人过去蚂蚁和后来字节实习不适用于本篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Detector-Free Structure from Motion",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/He_Detector-Free_Structure_from_Motion_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式作者前页为浙大及得克萨斯大学奥斯汀分校；贺星毅本人后来加入蚂蚁研究，时间晚于此研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Efficient_LoFTR_Semi-Dense_Local_Feature_Matching_with_Sparse-Like_Speed_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式五位作者仅浙大。基于此工作后来另有 MatchAnything，不与本篇关系借证。"
+      },
+      {
+        "year": 2024,
+        "title": "Relightable and Animatable Neural Avatar from Sparse-View Video",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Relightable_and_Animatable_Neural_Avatar_from_Sparse-View_Video_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 作者单位仅浙大、斯坦福及伊利诺伊大学香槟分校；另有 2023 年首稿同一工作。"
+      },
+      {
+        "year": 2024,
+        "title": "Representing Long Volumetric Video with Temporal Gaussian Hierarchy",
+        "url": "https://arxiv.org/html/2412.09608v1",
+        "outcome": "no-evidence",
+        "note": "2024 SIGGRAPH Asia (TOG) 项目作者页同原稿仅浙大、斯坦福、香港科技大学；不以 Yinghao Xu 之后加入蚂蚁倒推研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9243_ECCV_2024_paper.php",
+        "outcome": "no-evidence",
+        "note": "原研究的企业单位是理想汽车，目标范围外；作者 CV 中所列 2025 年后字节经历不能倒推。ECCV 正式与 2401.01339 为同一工作，期刊续版按项目归并。"
+      },
+      {
+        "year": 2024,
+        "title": "World-Grounded Human Motion Recovery via Gravity-View Coordinates",
+        "url": "https://zju3dv.github.io/gvhmr/",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia 团队原始项目明示浙大、港大、格灵深瞳（Deep Glint）、深圳大学；无纳入范围企业。与后来 HTD-Refine 正式不同。"
+      },
+      {
+        "year": 2023,
+        "title": "Compact Neural Volumetric Video Representations with Dynamic Codebooks",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/ef63b00ad8475605b2eaf520747f61d4-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "沈宇君正式署蚂蚁，周晓巍同篇，Yunzhi Yan 自述 2023 年 3–8 月有蚂蚁实习，但本篇仅署浙大，且所列周晓巍为后来博士导师，尚无本人同一工作的实习参与和本科时导师证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Representing Volumetric Videos as Dynamic MLP Maps",
+        "url": "https://arxiv.org/pdf/2304.06717v1",
+        "outcome": "lead",
+        "note": "原稿给定研究单位为浙大。Yunzhi Yan 有相近期间的蚂蚁实习记录，仍没有蚂蚁共同作者或员工连接至本篇。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -44490,5 +44623,33 @@ const facultyPaperAudits = {
       }
     ],
     "note": "从校方研究门户、个人书目、同名识别后的 DBLP（64/5725-16）及课题组核对；已逐篇记录 9 项，未标完成。"
+  },
+  "23SZHUwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1109/CVPR52734.2025.00756",
+      "https://github.com/chenwei746/chenwei746.github.io/blob/91acdde9558dc7e801ba5184a0436a09d516b181/index.html#L225-L254",
+      "https://chenwei746.github.io/",
+      "https://yu-wu.net/",
+      "https://kdd.org/kdd2025/applied-data-science-ads-track-papers-2/",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_CoMM_A_Coherent_Interleaved_Image-Text_Dataset_for_Multimodal_Understanding_and_CVPR_2025_paper.pdf",
+      "https://arxiv.org/pdf/2406.10462v1",
+      "https://long-group.cse.ust.hk/people.html",
+      "https://cse.hkust.edu.hk/event/RTF2025/",
+      "https://github.com/Kwai-Keye/Keye",
+      "https://arxiv.org/abs/2507.01949",
+      "https://github.com/chenwei746/chenwei746.github.io/blob/12150bc709ae0a26b8f1a0bd9470d674c347f636/index.html#L55-L59"
+    ],
+    "papers": [
+      {
+        "title": "CoMM: A Coherent Interleaved Image-Text Dataset for Multimodal Understanding and Generation",
+        "url": "https://arxiv.org/html/2406.10462v1",
+        "outcome": "confirmed",
+        "note": "原始预印本 2024 年 6 月与 CVPR 2025 正式页均具名说明第一共同作者 Wei Chen 在快手实习中完成整项研究；其同期阶段在旧履历中为 2024 年 3–8 月快手多媒体理解组实习。他本人公开列在武汉大学本科由武宇指导；武宇同篇是通讯作者。港科大团队确认该生 2024 年秋才开始攻读港科大博士，故按研究时的武汉大学学籍和指导核验，不能因港科大在论文署名或该生后来攻博倒推学籍。Bin Wen 同篇署快手，其正式工业论文和快手团队报告在其他作品独立确认企业角色。",
+        "year": 2024
+      }
+    ]
   }
 };

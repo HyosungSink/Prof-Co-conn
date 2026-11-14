@@ -43061,6 +43061,130 @@ const survey = {
         ]
       ],
       "year": 2024
+    },
+    {
+      "id": "splatanything-hunyuan-zju-zhou",
+      "paperId": "arxiv:2611.08264",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙大计算机学院教授，具名论文作者；余昊本人公开列为硕导。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "Tengfei Wang",
+        "腾讯混元研究科学家，负责 HY World 研究与工程；论文署名腾讯混元，余昊本人列为实习导师之一。",
+        "https://tengfei-wang.github.io/"
+      ],
+      "student": [
+        "余昊 · Hao Yu",
+        "浙江大学在读硕士，论文首作者双署浙江大学和腾讯混元。本人记录 2026 年 3 月起在腾讯混元 Project Up 实习，由与本篇共同署名的 Tengfei Wang 和 Zhenwei Wang 指导。",
+        "https://ritianyu.github.io/"
+      ],
+      "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "short": "SplatAnything",
+      "date": "2026-11-05",
+      "venue": "arXiv 预印本",
+      "area": "三维场景重建",
+      "paper": "https://arxiv.org/pdf/2611.08264v1",
+      "extra": [
+        [
+          "浙大项目团队的独立论文页面",
+          "https://zju3dv.github.io/SplatAnything/"
+        ],
+        [
+          "原始 HTML 首版显示双署名与日期",
+          "https://arxiv.org/html/2611.08264v1"
+        ],
+        [
+          "腾讯正式技术报告列任职及团队领导",
+          "https://3d-models.hunyuan.tencent.com/world/world1_5/HYWorld_1.5_Tech_Report.pdf"
+        ],
+        [
+          "课题组在读硕士名录",
+          "https://www.xzhou.me/group"
+        ],
+        [
+          "首稿日期",
+          "https://arxiv.org/abs/2611.08264"
+        ]
+      ],
+      "evidence": "首版正文明示第一作者余昊署浙江大学与腾讯混元，同篇作者包含他的浙大硕导周晓巍和腾讯实习导师 Tengfei Wang、Zhenwei Wang，且本项目联合企业署名在同一研究报告中。余昊本人履历说明腾讯混元实习自 2026 年 3 月起，项目首稿于 2026 年 11 月 5 日出现；Tengfei Wang 同时期且正式为腾讯混元世界模型负责人。InfiniSplat v1 是 UDeer.ai 工作、v2 的企业方是 Hello TransTech，此篇独立新技术，有单独编号和不同参与者。",
+      "advising": [
+        "研究当期实名硕导",
+        "余昊本人公开履历列其浙大硕士导师为彭思达和周晓巍；两人均具名同篇，今轮只归入达到资格的周晓巍。",
+        "https://ritianyu.github.io/"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "kuaishou-comm-whu-yu-wu",
+      "paperId": "arxiv:2406.10462",
+      "company": "快手",
+      "team": "快手 · 多媒体理解团队",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "武宇 · Yu Wu",
+        "武汉大学计算机学院教师，论文共同通讯；学生本人确认本科阶段由他指导。",
+        "https://yu-wu.net/"
+      ],
+      "student": [
+        "Wei Chen",
+        "论文首版 2024-06-15 首次公开，当时仍为武汉大学本科生；论文首版和正式版都具名注明本成果在他于快手实习时完成。本人公开履历确认自 2024 年 3 月以研究实习生身份进入快手多媒体理解团队。",
+        "https://github.com/chenwei746/chenwei746.github.io/blob/91acdde9558dc7e801ba5184a0436a09d516b181/index.html#L225-L254"
+      ],
+      "advising": [
+        "武汉大学本科阶段研究导师",
+        "Wei Chen 本人具名说明在武汉大学计算机学院读本科时受武宇指导；武宇同篇署武汉大学、为通讯作者。港科大博士阶段始于 2024 年秋。",
+        "https://raw.githubusercontent.com/chenwei746/chenwei746.github.io/91acdde9558dc7e801ba5184a0436a09d516b181/index.html"
+      ],
+      "employee": [
+        "Bin Wen",
+        "同篇署快手，并在 KDD 2025 正式工业论文名单中继续列快手；快手组织公开的 Keye-VL 技术报告列他为企业研发作者。",
+        "https://kdd.org/kdd2025/applied-data-science-ads-track-papers-2/"
+      ],
+      "title": "CoMM: A Coherent Interleaved Image-Text Dataset for Multimodal Understanding and Generation",
+      "short": "CoMM",
+      "year": 2024,
+      "date": "2024-06-15",
+      "venue": "CVPR 2025",
+      "area": "多模态数据与生成",
+      "paper": "https://doi.org/10.1109/CVPR52734.2025.00756",
+      "extra": [
+        [
+          "CVPR 正式版首页具名实习脚注",
+          "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_CoMM_A_Coherent_Interleaved_Image-Text_Dataset_for_Multimodal_Understanding_and_CVPR_2025_paper.pdf"
+        ],
+        [
+          "2024-06-15 预印本首页与同一脚注",
+          "https://arxiv.org/pdf/2406.10462v1"
+        ],
+        [
+          "港科大团队确认博士学籍始于 2024 年秋",
+          "https://long-group.cse.ust.hk/people.html"
+        ],
+        [
+          "港科大 2025 报告人档案（博士阶段）",
+          "https://cse.hkust.edu.hk/event/RTF2025/"
+        ],
+        [
+          "快手官方 Keye 技术发布",
+          "https://github.com/Kwai-Keye/Keye"
+        ],
+        [
+          "快手在职作者独立同组技术报告",
+          "https://arxiv.org/abs/2507.01949"
+        ],
+        [
+          "学生主页可定位历史版本：本人具名列出武汉大学本科导师",
+          "https://github.com/chenwei746/chenwei746.github.io/blob/12150bc709ae0a26b8f1a0bd9470d674c347f636/index.html#L55-L59"
+        ]
+      ],
+      "evidence": "原始预印本 2024 年 6 月与 CVPR 2025 正式页均具名说明第一共同作者 Wei Chen 在快手实习中完成整项研究；其同期阶段在旧履历中为 2024 年 3–8 月快手多媒体理解组实习。他本人公开列在武汉大学本科由武宇指导；武宇同篇是通讯作者。港科大团队确认该生 2024 年秋才开始攻读港科大博士，故按研究时的武汉大学学籍和指导核验，不能因港科大在论文署名或该生后来攻博倒推学籍。Bin Wen 同篇署快手，其正式工业论文和快手团队报告在其他作品独立确认企业角色。"
     }
   ]
 };
