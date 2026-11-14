@@ -44295,6 +44295,59 @@ const survey = {
         "学生本人公开主页具名列金鑫为其北大博士导师，金鑫是首稿与正式论文共同作者。",
         "https://echostone1101.github.io/"
       ]
+    },
+    {
+      "id": "statetree-alibaba-zju-du-tianyu",
+      "paperId": "arxiv:2609.38809",
+      "company": "阿里巴巴",
+      "team": "淘宝天猫集团 · 直播技术团队",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "杜天宇",
+        "浙江大学软件学院特聘研究员。《StateTree》通讯作者，在本人书目中将徐纳恩明确标为自己指导的学生。",
+        "https://tydusky.github.io/"
+      ],
+      "employee": [
+        "Meiguang Jin",
+        "论文首页署淘宝天猫集团及企业邮箱，伯尔尼大学计算机视觉组校友名录列其为阿里巴巴计算机视觉研究科学家；同篇淘宝作者 Yibo Hu 在脚注被明确列为项目负责人。",
+        "https://www.cvg.unibe.ch/people/team/"
+      ],
+      "student": [
+        "徐纳恩",
+        "2024 年 9 月起为浙江大学软件工程硕士生，由杜天宇和纪守领指导。其首稿发布同日的公开履历写明正在淘宝天猫集团直播技术团队做研究实习，研究大模型和智能体后训练；该篇双署浙大和淘宝天猫，为共同第一作者。",
+        "https://github.com/bluedream02/bluedream02.github.io/blob/1a82e3fa9519b3465115dfe4882d244029591c5d/_pages/about.md#L20-L24"
+      ],
+      "title": "StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning",
+      "short": "StateTree",
+      "date": "2026-09-30",
+      "venue": "NeurIPS 2026",
+      "area": "强化学习",
+      "paper": "https://arxiv.org/pdf/2609.38809v1",
+      "extra": [
+        [
+          "徐纳恩本人履历、师承与论文",
+          "https://bluedream02.github.io/"
+        ],
+        [
+          "本人公开主页历史、提交时间",
+          "https://github.com/bluedream02/bluedream02.github.io/commit/1a82e3fa9519b3465115dfe4882d244029591c5d"
+        ],
+        [
+          "论文关联代码及徐纳恩实质贡献",
+          "https://github.com/bluedream02/StateTree/commit/c425b95ca9f2750181ca5443265e6da17ae9dcb1"
+        ],
+        [
+          "杜天宇浙大正式主页",
+          "https://person.zju.edu.cn/NB23063"
+        ]
+      ],
+      "evidence": "2026 年 9 月 30 日公开首稿在作者页列徐纳恩为淘宝天猫与浙大双署共同第一作者、Yibo Hu 为淘宝天猫项目负责人、杜天宇通讯，且列 Meiguang Jin 等企业研究合作者。同日徐纳恩本人论文清单与履历列本篇及其在集团直播技术团队从事模型后训练的研究实习；论文链接的公开代码项目由其贡献核心训练等代码。伯尔尼大学独立列 Meiguang Jin 的阿里正式岗位。本篇仅计一条关系；另一位硕导纪守领没有出现在本论文合著名单。",
+      "advising": [
+        "具名硕士导师",
+        "徐纳恩本人明确列浙大硕士导师杜天宇、纪守领，导师本人书目亦明确下划线是本人指导学生，并为本篇负责通讯。",
+        "https://bluedream02.github.io/"
+      ]
     }
   ]
 };

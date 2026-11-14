@@ -50855,5 +50855,432 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对本人两类公开书目，并以 DBLP、香港理工大学题录及 ORCID 交叉补查：调查期间首次公开的作品去重后 40 篇。预印本、旧标题、扩展摘要和正式版归并；调查前首发、仅发布数据附件及尚无正文的未来接收项未计。公开企业参与或指导材料尚不足的作品仍列线索。"
+  },
+  "kBqTzrwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/NB23063",
+      "https://tydusky.github.io/",
+      "https://dblp.org/pid/128/2982.html",
+      "https://api.crossref.org/works?filter=orcid:0000-0003-0896-0690",
+      "https://aclanthology.org/people/tianyu-du/",
+      "https://nesa.zju.edu.cn/webpage/news.html",
+      "https://greysahy.github.io/",
+      "https://jaamiezheng.github.io/",
+      "https://xaddwell.github.io/",
+      "https://bluedream02.github.io/",
+      "https://github.com/bluedream02/bluedream02.github.io/blob/1a82e3fa9519b3465115dfe4882d244029591c5d/_pages/about.md#L20-L24",
+      "https://nesa.zju.edu.cn/webpage/pubyear.html",
+      "https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/",
+      "https://www.cvg.unibe.ch/people/team/",
+      "https://ml.cs.tsinghua.edu.cn/adv-bench/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "ACIArena: Toward Unified Evaluation for Agent Cascading Injection",
+        "url": "https://arxiv.org/html/2604.07775v1",
+        "outcome": "no-evidence",
+        "note": "正式 ACL 与首稿同项。作者单位列为浙大、UCLA、Palo Alto Networks 等；学生安恒宇本人写本篇在 4 月录用，其蚂蚁实习在 5 月才开始。"
+      },
+      {
+        "year": 2026,
+        "title": "ARC: An Audit-Guided Risk Calibration Attack for Jailbreaking Multimodal Large Language Models",
+        "url": "https://aclanthology.org/2026.findings-emnlp.636.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 PDF 四名作者都署浙大；参评企业产品与企业员工合作性质不同。"
+      },
+      {
+        "year": 2026,
+        "title": "Automatic Red Teaming LLM-Based Agents With Model Context Protocol Tools",
+        "url": "https://nesa.zju.edu.cn/download/auto_20260505_T-IFS-23770_CameraReady.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式和初稿 2509.21011 同项；独立企业署名为 Palo Alto Networks。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds",
+        "url": "https://aclanthology.org/2026.findings-emnlp.188.pdf",
+        "outcome": "no-evidence",
+        "note": "正式原文所列企业为 OPPO 研究院；陈嘉豪其他公司的实习经历不用于本项。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond the Payload: How User Invocation Shapes Coding Agent Vulnerability to Repository Poisoning",
+        "url": "https://aclanthology.org/2026.emnlp-main.932.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 EMNLP 原文逐人署浙大或清华，致谢与作者页未给出目标企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?",
+        "url": "https://doi.org/10.1609/AAAI.V40I42.40910",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式论文与 2512.21871 同项；首稿企业署名分别为 Palo Alto Networks、OPPO 与杭州玄冶数字科技，均未进入目标企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Compiling Activation Steering into Weights via Null-Space Constraints for Stealthy Backdoors",
+        "url": "https://aclanthology.org/2026.acl-long.1206.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 ACL 除高校，具名企业合作者来自 Palo Alto Networks 和 OPPO，均不在范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Content-Adaptive Implicit Neural Representations for Resolution-Agnostic Remote Sensing Watermarking",
+        "url": "https://doi.org/10.1145/3805622.3810602",
+        "outcome": "no-evidence",
+        "note": "ICMR 2026 正式名单及单位来自浙大和浙大宁波科创中心。合作者安恒宇自己的蚂蚁实习从 2026-05 开始，本篇 2026-04 已录用，缺更早的企业研究证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem",
+        "url": "https://arxiv.org/pdf/2606.09151v1",
+        "outcome": "no-evidence",
+        "note": "CCS 同项作者为浙大、香港理工、天津大学。在本文采用平台和陈嘉豪未来的阿里履历不构成企业共同研究。"
+      },
+      {
+        "year": 2025,
+        "title": "DP-GenG: Differentially Private Dataset Distillation Guided by DP-Generated Data",
+        "url": "https://arxiv.org/pdf/2511.09876",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式同项的作者稿为浙大、UCLA、杭州师范、杭州电子科技大学，未见企业共同作者。"
+      },
+      {
+        "year": 2026,
+        "title": "FedAU²: Attribute Unlearning for User-Level Federated Recommender Systems with Adaptive and Robust Adversarial Training",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39500/43461",
+        "outcome": "lead",
+        "note": "AAAI 正式原文有蚂蚁研究员及蚂蚁研究基金；首作者署杭州电子科技大学，与浙大团队合著。未找到该生在蚂蚁完成本项目，或受杜天宇本人指导的同期证明。"
+      },
+      {
+        "year": 2026,
+        "title": "FraudShield: Knowledge Graph Empowered Defense for LLMs against Fraud Attacks",
+        "url": "https://arxiv.org/html/2601.22485v1",
+        "outcome": "no-evidence",
+        "note": "WWW 正式 DOI 10.1145/3774904.3792199，涉企业人员来自 OPPO 研究院。作者徐纳恩的其他企业项目不移作此篇证据。"
+      },
+      {
+        "year": 2023,
+        "title": "G2uardFL: Safeguarding Federated Learning Against Backdoor Attacks Through Attributed Client Graph Clustering",
+        "url": "https://doi.org/10.1109/TIFS.2025.3639985",
+        "outcome": "no-evidence",
+        "note": "2025 提前在线、2026 卷期，和 2306.04984 同一演进项目；实验合作单位是学术机构及澳洲 CSIRO Data61，无目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "HogVul: Black-box Adversarial Code Generation Framework Against LM-based Vulnerability Detectors",
+        "url": "https://arxiv.org/pdf/2601.05587",
+        "outcome": "no-evidence",
+        "note": "AAAI 口头报告同项，论文中第四作者的企业为 National Certification Technology (Hangzhou) Co., Ltd，经查与目标公司不同。"
+      },
+      {
+        "year": 2025,
+        "title": "LSHFed: Robust and Communication-Efficient Federated Learning with Locally-Sensitive Hashing Gradient Mapping",
+        "url": "https://arxiv.org/pdf/2511.01296",
+        "outcome": "no-evidence",
+        "note": "AAAI 同项，作者全部出自浙大软件学院或计算机学院。"
+      },
+      {
+        "year": 2025,
+        "title": "Leveraging Machine Unlearning for Cost-Efficient Preference Alignment",
+        "url": "https://proceedings.mlr.press/v306/feng26f.html",
+        "outcome": "lead",
+        "note": "ICML 最终版与 2504.06659、早期题名 Bridging the Gap 同为 U2A；正式出版为浙大、杭州电子科技大学。其他公开投稿记录出现蚂蚁人员姓名，但未证在读作者于蚂蚁开展本项目；不当作正式版的有效企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Leveraging Teacher-Forcing Token-Level Anomaly Signals for Heterogeneous Backdoor Filtering in LLMs",
+        "url": "https://aclanthology.org/2026.findings-emnlp.585.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 EMNLP Findings 作者署浙大、华东师大。没有目标企业同篇研究人员。"
+      },
+      {
+        "year": 2026,
+        "title": "LoRAShield: Data-Free Editing Alignment for Secure Personalized LoRA Sharing",
+        "url": "https://doi.org/10.1145/3770855.3817625",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者单位均为浙大相关机构，部分人员也署贵州医科大学。未见任何目标企业共同参与。"
+      },
+      {
+        "year": 2025,
+        "title": "NeuroBreak: Unveil Internal Jailbreak Mechanisms in Large Language Models",
+        "url": "https://arxiv.org/pdf/2509.03985",
+        "outcome": "no-evidence",
+        "note": "老师列 IEEE VIS 2026；作者 PDF 八位均属浙大院系/实验室，没有匹配的企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "PerMemSafe: Benchmarking Implicit Personalized Safety of Long-Horizon Self-Evolving Agents",
+        "url": "https://aclanthology.org/2026.findings-acl.320.pdf",
+        "outcome": "no-evidence",
+        "note": "终稿署浙大、清华、齐鲁工大。安恒宇自述四月录用、五月始到蚂蚁，未见此课题在蚂蚁进行。"
+      },
+      {
+        "year": 2026,
+        "title": "Profiling for Pennies: Unveiling the Privacy Iceberg of LLM Agents",
+        "url": "https://arxiv.org/pdf/2605.06232",
+        "outcome": "no-evidence",
+        "note": "公开预印本作者单位为浙大、重庆大学；第一作者陈嘉豪当时本人列在 OPPO，待定企业实验经历没有加到此作。"
+      },
+      {
+        "year": 2026,
+        "title": "Safety in Self-Evolving Agents: A Survey",
+        "url": "https://arxiv.org/html/2610.00093v1",
+        "outcome": "lead",
+        "note": "公开原文合著者陈岳峰、薛晖、李进锋署阿里，清华与阿里官方记录可证前两位的部门。第一作者陈嘉豪由纪守领指导，2026 年 8 月加入阿里安全研究智能体安全，并维护同篇专题站；原文对陈只标浙大。其本人同站将本篇和阿里实习分别列出，尚未发现发表材料将该篇明确指定为其阿里项目。徐纳恩同期在同集团的淘宝天猫直播团队，本篇原文署浙大，不能用 StateTree 的企业活动覆盖。"
+      },
+      {
+        "year": 2026,
+        "title": "StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning",
+        "url": "https://arxiv.org/html/2609.38809v1",
+        "outcome": "confirmed",
+        "note": "徐纳恩是杜天宇明确指导的浙大硕士、淘宝天猫直播技术团队当期研究实习生，本篇浙大＋淘宝双署共同一作和公开代码实质贡献。Meiguang Jin 有阿里正式任职，同篇 Yibo Hu 为淘宝项目负责人。",
+        "relationIds": [
+          "statetree-alibaba-zju-du-tianyu"
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions",
+        "url": "https://arxiv.org/pdf/2610.05241v1",
+        "outcome": "no-evidence",
+        "note": "首稿逐作者署西安交大或浙大；陈嘉豪同期在阿里的一般实习经历未链接到本文，无目标企业同篇作者。"
+      },
+      {
+        "year": 2026,
+        "title": "The Boy Who Cried Wolf: Adversarial Misclassification of Safe Inputs as Unsafe in Multimodal Guardrails",
+        "url": "https://doi.org/10.1145/3770855.3817756",
+        "outcome": "no-evidence",
+        "note": "KDD 正式版和首稿 2608.01373 同项；具名企业为 OPPO 研究院。陈嘉豪研究时的实习经历不等于该项目在目标企业开展。"
+      },
+      {
+        "year": 2025,
+        "title": "The Eminence in Shadow: Exploiting Feature Boundary Ambiguity for Robust Backdoor Attacks",
+        "url": "https://arxiv.org/html/2512.10402v1",
+        "outcome": "no-evidence",
+        "note": "2025-12 首稿与 KDD 2026 正式稿同项，正式作者逐人仅高校。陈嘉豪本人列该项，但当时署浙大，无此项目蚂蚁参与证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Understanding and Mitigating Prompt Leaking Attacks in Real-World LLM-Based Applications",
+        "url": "https://arxiv.org/pdf/2606.18673v1",
+        "outcome": "no-evidence",
+        "note": "CCS 与首稿同项。九名作者单位为浙大或郑州大学；商业平台作为测量样本。"
+      },
+      {
+        "year": 2026,
+        "title": "When Agents “Misremember” Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems",
+        "url": "https://arxiv.org/pdf/2602.00428",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版的非学术单位为 Palo Alto Networks 和 OPPO，均不在目标范围。"
+      },
+      {
+        "year": 2026,
+        "title": "“I See What You Did There”: Can Large Vision-Language Models Understand Multimodal Puns?",
+        "url": "https://aclanthology.org/2026.acl-long.444.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 ACL 原文写企业为 OPPO 和 Palo Alto Networks，均不在范围；不能用同一项目组其他研究的企业单位替代。"
+      },
+      {
+        "year": 2024,
+        "title": "An Inversion-based Measure of Memorization for Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ma_An_Inversion-based_Measure_of_Memorization_for_Diffusion_Models_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版及 2405.05846 同项，八位作者均署浙大。模型名称不作为企业科研关系证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Bridging Context Gaps: Leveraging Coreference Resolution for Long Contextual Understanding",
+        "url": "https://arxiv.org/html/2410.01671v1",
+        "outcome": "no-evidence",
+        "note": "正式 ICLR 与原始预印本为同项；署浙大、东南、MIT、波士顿大学，未见目标企业人员。"
+      },
+      {
+        "year": 2024,
+        "title": "CLIBE: Detecting Dynamic Backdoors in Transformer-based NLP Models",
+        "url": "https://arxiv.org/html/2409.01193v1",
+        "outcome": "no-evidence",
+        "note": "NDSS 正式会期与预印本同题同作者；作者皆署浙大，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "CLMTracing: Black-box User-level Watermarking for Code Language Model Tracing",
+        "url": "https://aclanthology.org/2025.emnlp-main.1475/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 论文所列外部单位为中国赛宝实验室（CEPREI），其余为浙大，不把个人过往企业履历回填。"
+      },
+      {
+        "year": 2024,
+        "title": "CollabEdit: Towards Non-destructive Collaborative Knowledge Editing",
+        "url": "https://arxiv.org/html/2410.09508v1",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式和 2024-10 首稿同项。作者首页脚注明确工作是Jiamu Zheng访问西湖大学时期所做；他在 2025-02 起的阿里云实习是另一项 READ-SQL。"
+      },
+      {
+        "year": 2024,
+        "title": "DP-MemArc: Differential Privacy Transfer Learning for Memory Efficient Language Models",
+        "url": "https://doi.org/10.1609/aaai.v39i25.34830",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式题名与初稿 MemDPT 同项；所列部门为浙大、MIT、东南、人大、UCLA、东京大学等，无目标企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "DROWN: Towards Tighter LiRPA-based Robustness Certification",
+        "url": "https://aclanthology.org/2025.coling-main.415.pdf",
+        "outcome": "no-evidence",
+        "note": "COLING 正式只列山大、浙大。DROWN 与同组认证递归网络的 RNN-Guard 研究问题有别。"
+      },
+      {
+        "year": 2025,
+        "title": "Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy Protection against Voice Deepfakes",
+        "url": "https://arxiv.org/html/2507.12932v1",
+        "outcome": "no-evidence",
+        "note": "ACM DOI 10.1145/3746027.3755629 与首稿同项，署浙大、重庆大学，未见目标企业共同研究。"
+      },
+      {
+        "year": 2025,
+        "title": "IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents",
+        "url": "https://arxiv.org/html/2508.15310v1",
+        "outcome": "no-evidence",
+        "note": "EMNLP 2025 口头报告为浙大、UCLA 与西湖大学学术合著；安恒宇此时还未开始 2026-05 的蚂蚁实习。"
+      },
+      {
+        "year": 2025,
+        "title": "Probing the Geometry of Truth: Consistency and Generalization of Truth Directions in LLMs Across Logical Transformations and Question Answering Tasks",
+        "url": "https://aclanthology.org/2025.findings-acl.38.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式作者在浙大及浙江师大。没有目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Scalable Multi-Stage Influence Function for Large Language Models via Eigenvalue-Corrected Kronecker-Factored Parameterization",
+        "url": "https://arxiv.org/html/2505.05017v1",
+        "outcome": "no-evidence",
+        "note": "原文合作者 Jiang Zong 署环球识别技术（杭州）有限公司，不在目标；其他机构为浙大及浙师大。"
+      },
+      {
+        "year": 2024,
+        "title": "Tool-Planner: Dynamic Solution Tree Planning for Large Language Model with Tool Clustering",
+        "url": "https://arxiv.org/html/2406.03807v1",
+        "outcome": "no-evidence",
+        "note": "正式 ICLR 与预印本一并计；作者页为浙大、东南、同济、MIT，无目标企业合著。"
+      },
+      {
+        "year": 2025,
+        "title": "VideoEraser: Concept Erasure in Text-to-Video Diffusion Models",
+        "url": "https://arxiv.org/html/2508.15314v1",
+        "outcome": "no-evidence",
+        "note": "EMNLP 最终版与 arXiv 同作者，企业署名仅 Palo Alto Networks；没有目标公司在此研究的同篇角色。"
+      },
+      {
+        "year": 2024,
+        "title": "Cons2Plan: Vector Floorplan Generation from Various Conditions via a Learning Framework based on Conditional Diffusion Models",
+        "url": "https://doi.org/10.1145/3664647.3680681",
+        "outcome": "no-evidence",
+        "note": "ACM 正式作者单位列浙大与神舟航天软件（范围外）；没有目标企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "CopyrightMeter: Revisiting Copyright Protection in Text-to-image Models",
+        "url": "https://arxiv.org/html/2411.13144v1",
+        "outcome": "no-evidence",
+        "note": "首稿作者页逐人署浙大、石溪、杭州电子科技大学。徐纳恩后来与淘天合作，是另一个项目。"
+      },
+      {
+        "year": 2024,
+        "title": "CoreGuard: Safeguarding Foundational Capabilities of LLMs Against Model Stealing in Edge Deployment",
+        "url": "https://arxiv.org/html/2410.13903v1",
+        "outcome": "no-evidence",
+        "note": "只在 2024 原始版本共同署名，后版不再列杜天宇。核心能力保护与 TransLinkGuard 是不同论文；初稿外部单位为中国电子科技集团设计研究机构，非目标对象。"
+      },
+      {
+        "year": 2024,
+        "title": "ERA-CoT: Improving Chain-of-Thought through Entity Relationship Analysis",
+        "url": "https://aclanthology.org/2024.acl-long.476.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 ACL 作者页仅列浙大及东南大学；未见三方企业研究证据。"
+      },
+      {
+        "year": 2024,
+        "title": "HijackRAG: Hijacking Attacks against Retrieval-Augmented Large Language Models",
+        "url": "https://arxiv.org/pdf/2410.22832v1",
+        "outcome": "no-evidence",
+        "note": "首稿全员署浙大，杜为通讯；未发现本课题的目标企业研究作者。"
+      },
+      {
+        "year": 2024,
+        "title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback",
+        "url": "https://aclanthology.org/2024.findings-acl.281.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 ACL 作者页所列机构为浙大、东南、MIT，未见目标企业参加。"
+      },
+      {
+        "year": 2023,
+        "title": "ReMasker: Imputing Tabular Data with Masked Autoencoding",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/258d234a229d1612a565f9d9a63e3e80-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "初稿 2309.13793 和正式版同项，Luca Melis 署 Meta。目标范围不含 Meta，未见另有目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "SecCoder: Towards Generalizable and Robust Secure Code Generation",
+        "url": "https://aclanthology.org/2024.emnlp-main.806.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 EMNLP 作者署浙大、浙工大、东北林大；未见目标企业同篇作者。"
+      },
+      {
+        "year": 2024,
+        "title": "TransLinkGuard: Safeguarding Transformer Models Against Model Stealing in Edge Deployment",
+        "url": "https://doi.org/10.1145/3664647.3680786",
+        "outcome": "no-evidence",
+        "note": "ACM 正式单位明确两位企业合作者都署神舟航天软件，在目标范围外。首稿的全学术署名以出版版核实纠正。"
+      },
+      {
+        "year": 2024,
+        "title": "Unveiling the Vulnerability of Private Fine-Tuning in Split-Based Frameworks for Large Language Models: A Bidirectionally Enhanced Attack",
+        "url": "https://arxiv.org/html/2409.00960v1",
+        "outcome": "no-evidence",
+        "note": "CCS 正式与首稿逐人明示企业为微众银行（范围外），其他为相应高校或研究机构。"
+      },
+      {
+        "year": 2023,
+        "title": "Defending Pre-trained Language Models as Few-shot Learners against Backdoor Attacks",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/677c8dc72c99482507323f313faf4738-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 终稿署宾州州立、浙大、石溪大学，未见目标企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "On the Security Risks of Knowledge Graph Reasoning",
+        "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/xi",
+        "outcome": "lead",
+        "note": "USENIX 正式作者页只署高校，2305.02383 较早稿的纪守领署浙大和蚂蚁金服。杜发稿时任宾州州立博士后，未见同期学生在该目标企业开展本项目，也无与其独立的蚂蚁合作者。"
+      },
+      {
+        "year": 2023,
+        "title": "RNN-Guard: Certified Robustness Against Multi-frame Attacks for Recurrent Neural Networks",
+        "url": "https://arxiv.org/html/2304.07980v1",
+        "outcome": "no-evidence",
+        "note": "2023-04 首稿所列作者为山大、宾州州立、浙大，杜当期为宾州博士后；和 DROWN 不同研究。"
+      },
+      {
+        "year": 2023,
+        "title": "UniT: A Unified Look at Certified Robust Training against Text Adversarial Perturbation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/46b065f7d301a15a23909f6cad409a97-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 NeurIPS 作者均在宾州州立、浙大、石溪大学。"
+      },
+      {
+        "year": 2023,
+        "title": "VLATTACK: Multimodal Adversarial Attacks on Vision-Language Tasks via Pre-trained Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a5e3cf29c269b041ccd644b6beaf5c42-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "正式论文为宾州州立、浙大、西交、大工与石溪大学，没有目标企业参与。"
+      }
+    ],
+    "note": "本人、浙大 NESA、ACL 正式目录、ORCID、DBLP 及合著者书目交叉核对，剔除同名、调查前首发及尚未公开的未来会议作品；已确认一项关系。已有一篇获接收但未找到可核的论文正文，保持梳理中。"
   }
 };
