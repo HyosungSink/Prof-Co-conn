@@ -42359,6 +42359,110 @@ const survey = {
         "https://thusigsiclab.github.io/thu.github.io/students.html"
       ],
       "year": 2025
+    },
+    {
+      "id": "jd-echo-infinity-cuhk-qiang-xu",
+      "paperId": "arxiv:2606.04527",
+      "company": "京东",
+      "team": "京东探索研究院 · JoyAI-Echo",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "香港中文大学计算机科学与工程学系教授、该论文通讯作者；课题组将卞宇轩列为 2024 年秋入学博士生。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "卞宇轩 · Yuxuan Bian",
+        "港中文在读博士与论文第一作者；本人公开列在京东探索研究院由同篇 Zeyue Xue、段楠指导进行世界模型研究。预印本首发当天，他在京东 Echo 官方仓库提交完整初版研究实现。",
+        "https://yxbian23.github.io/"
+      ],
+      "advising": [
+        "港中文博士导师",
+        "卞宇轩本人主页具名列徐强为博士导师；大学团队独立确认他 2024 年秋入学。徐强为该篇通讯作者。",
+        "https://cure-lab.github.io/"
+      ],
+      "employee": [
+        "段楠 · Nan Duan",
+        "同篇署京东探索研究院且为共同通讯作者。本人履历及会议报告人资料确认 2026 年任京东集团副总裁和探索研究院副院长，学生也列他为企业研究导师。",
+        "https://nanduan.github.io/"
+      ],
+      "title": "Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation",
+      "short": "Echo-Infinity",
+      "year": 2026,
+      "date": "2026-06-03",
+      "venue": "arXiv 预印本",
+      "area": "视频世界模型",
+      "paper": "https://arxiv.org/pdf/2606.04527v1",
+      "extra": [
+        [
+          "京东 Echo 团队首个源码提交（第一作者具名账号、2026-06-03）",
+          "https://github.com/Echo-Team-Joy-Future-Academy-JD/Echo-Infinity/commit/e3d9e64310ac03e99898144519a95511f20c1703"
+        ],
+        [
+          "京东官方项目页与机构代号",
+          "https://echo-team-joy-future-academy-jd.github.io/Echo-Infinity/"
+        ],
+        [
+          "arXiv 首次提交时间及第一作者身份",
+          "https://arxiv.org/abs/2606.04527"
+        ],
+        [
+          "京东探索研究院官网",
+          "https://research.joyai.com/"
+        ],
+        [
+          "段楠的同期会议报告人资料",
+          "https://ml-summit.org/speaker/1094?lang=cn&uid=c1051"
+        ]
+      ],
+      "evidence": "首版仅给卞宇轩标港中文，需独立确认同篇企业参与。学生本人公开把论文两位同署京东的作者 Zeyue Xue 和 Nan Duan 具名列为其京东探索研究院世界模型研究导师；2026-06-03 03:50 UTC，学生具名账号在京东 JoyAI-Echo 官方仓库提交该论文完整实现，含学习式记忆模块 model/query_memory.py、训练与流式推理；同日 07:09 UTC 由其本人提交对应预印本。这是在京东团队发布前即有的同篇技术贡献，非后来补链接。段楠为同期京东在职研究主管，港中文实验室确认第一作者学籍、徐强指导及论文同署。"
+    },
+    {
+      "id": "baidu-timefound-hkustgz-xiong",
+      "studentSchool": "中国科学技术大学",
+      "title": "TimeFound: A Foundation Model for Time Series Forecasting",
+      "short": "TimeFound",
+      "date": "2025-03-06",
+      "venue": "arXiv 预印本",
+      "area": "时序预测",
+      "paper": "https://arxiv.org/pdf/2503.04118v1",
+      "paperId": "arxiv:2503.04118",
+      "team": "Baidu Research · Business Intelligence Lab",
+      "student": [
+        "Congxi Xiao",
+        "中科大硕博培养项目学生，2020 年入硕；原文双署中科大及百度研究院，脚注具名说明本研究为百度实习成果。",
+        "https://arxiv.org/html/2503.04118v1"
+      ],
+      "advising": [
+        "在读期间学术指导",
+        "港科大（广州）熊辉课题组官方博士名录具名列中科大硕博项目 2020 年入学的 Congxi Xiao；熊辉同篇共同通讯。",
+        "https://ailab.hkust-gz.edu.cn/group.html"
+      ],
+      "evidence": "预印本第一页具名 Congxi Xiao 实习期间在百度研究院完成本研究、由百度同篇作者周景博指导；周景博的公开履历显示 2015 年起任百度研究科学家。港科大（广州）熊辉同篇署任职单位，课题组官网将该学生列在博士生名单。",
+      "extra": [
+        [
+          "首版公开日期与作者",
+          "https://arxiv.org/abs/2503.04118"
+        ],
+        [
+          "港科大（广州）教师页",
+          "https://www.hkust-gz.edu.cn/people/hui-xiong/"
+        ]
+      ],
+      "company": "百度",
+      "school": "香港科技大学（广州）",
+      "faculty": [
+        "熊辉 · Hui Xiong",
+        "香港科技大学（广州）人工智能学域讲席教授、同篇共同通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"
+      ],
+      "employee": [
+        "周景博 · Jingbo Zhou",
+        "本人履历列 2015 年起任百度研究院研究科学家；首版作者栏署百度研究院商业智能实验室，并为同篇通讯作者及论文具名的企业实习导师。",
+        "https://zhoujingbo.github.io/"
+      ],
+      "year": 2025
     }
   ]
 };

@@ -5956,7 +5956,15 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2603.08738v1",
       "https://formind.netlify.app/files/papers/FormalRTL.pdf",
       "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8248b1ded388fcdbbd121bcdfea3068c-Abstract-Conference.html",
-      "https://arxiv.org/pdf/2509.23619v1"
+      "https://arxiv.org/pdf/2509.23619v1",
+      "https://arxiv.org/pdf/2606.04527v1",
+      "https://nanduan.github.io/",
+      "https://github.com/Echo-Team-Joy-Future-Academy-JD/Echo-Infinity/commit/e3d9e64310ac03e99898144519a95511f20c1703",
+      "https://research.joyai.com/",
+      "https://ml-summit.org/speaker/1094?lang=cn&uid=c1051",
+      "https://arxiv.org/pdf/2412.10316v1",
+      "https://github.com/TencentARC/BrushEdit/commit/d5b7cbbaf4035",
+      "https://www.pkusz.edu.cn/info/1092/2720.htm"
     ],
     "papers": [
       {
@@ -6015,9 +6023,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Echo-Infinity: Learning Evolving Memory for Real-Time Infinite Video Generation",
-        "url": "https://arxiv.org/abs/2606.04527",
-        "outcome": "lead",
-        "note": "卞宇轩同篇学校署名，港中文许强博士指导和同期公开京东学术项目无疑；学生主页虽确认在京东由同篇两名员工指导工作，论文和项目仍只给他港中文署名。等待把具体成果明确映射到当期实习的证据。"
+        "url": "https://arxiv.org/pdf/2606.04527v1",
+        "outcome": "confirmed",
+        "note": "首版仅给卞宇轩标港中文，需独立确认同篇企业参与。学生本人公开把论文两位同署京东的作者 Zeyue Xue 和 Nan Duan 具名列为其京东探索研究院世界模型研究导师；2026-06-03 03:50 UTC，学生具名账号在京东 JoyAI-Echo 官方仓库提交该论文完整实现，含学习式记忆模块 model/query_memory.py、训练与流式推理；同日 07:09 UTC 由其本人提交对应预印本。这是在京东团队发布前即有的同篇技术贡献，非后来补链接。段楠为同期京东在职研究主管，港中文实验室确认第一作者学籍、许强指导及论文同署。",
+        "year": 2026
       },
       {
         "title": "VideoPainter: Any-length Video Inpainting and Editing with Plug-and-Play Context Control",
@@ -6044,7 +6053,7 @@ const facultyPaperAudits = {
         "title": "BrushEdit: All-In-One Image Inpainting and Editing",
         "url": "https://doi.org/10.1109/TPAMI.2026.3695011",
         "outcome": "lead",
-        "note": "2024-12 首稿，与 2026 IEEE TPAMI 正式版同作。香港中文大学导师徐强、学生卞宇轩与鞠璇及腾讯 ARC 员工同署；作者企业项目仍把两位港中文学生单署港中文。企业任职和实习时间可证，尚需对两位港中文在读者的同篇企业项目归属；第一共同作者 Yaowei Li 的北大导师是邹月娴，独立核验其腾讯具体项目。",
+        "note": "2024 年 12 月预印本、2026 年 TPAMI 为同一篇。可核实北大 2022 级博士生李耀伟受邹月娴指导，腾讯 ARC 实习期内主持企业仓库公开及实质代码提交；邹月娴同署后续版及正式稿，但其北大院系未纳入当前三项齐全检索范围。许强指导卞宇轩，后者本篇只有港中文署名，企业项目及代码无其作为腾讯项目在读者的直接归属；鞠璇旧实习于 2024 年 6 月已结束。保留待核。",
         "year": 2026
       },
       {
@@ -8440,7 +8449,17 @@ const facultyPaperAudits = {
       "https://zhoujingbo.github.io/",
       "https://aclanthology.org/2023.findings-emnlp.44.pdf",
       "https://www.bigdatamining.cn/team.html",
-      "https://cs.ustc.edu.cn/2026/0928/c22510a754697/page.htm"
+      "https://cs.ustc.edu.cn/2026/0928/c22510a754697/page.htm",
+      "https://ailab.hkust-gz.edu.cn/papers.html",
+      "https://dblp.org/pid/262/1686-1.html",
+      "https://github.com/cx9941/GenDis",
+      "https://haoran.xin/",
+      "https://haoran.xin/publications",
+      "https://zhangle09.github.io/",
+      "https://huzhengyu477.github.io/",
+      "https://www2026.thewebconf.org/accepted/industry.html",
+      "https://www.pengfeiwang.net/publications",
+      "https://arxiv.org/pdf/2407.01085v1"
     ],
     "papers": [
       {
@@ -8455,6 +8474,118 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2023.findings-emnlp.44.pdf",
         "outcome": "confirmed",
         "note": "正式版具名实习，百度研究科学家周景博同篇；熊辉课题组官方博士名单具名列中科大硕博生陈曦。"
+      },
+      {
+        "year": 2025,
+        "title": "TimeFound: A Foundation Model for Time Series Forecasting",
+        "url": "https://arxiv.org/pdf/2503.04118v1",
+        "outcome": "confirmed",
+        "note": "预印本第一页具名 Congxi Xiao 实习期间在百度研究院完成本研究、由百度同篇作者周景博指导；周景博的公开履历显示 2015 年起任百度研究科学家。港科大（广州）熊辉同篇署任职单位，课题组官网将该学生列在博士生名单。"
+      },
+      {
+        "year": 2026,
+        "title": "How Business Agglomeration Affects Individual Points-of-Interest: A Causal Effect Estimation Perspective",
+        "url": "https://haoran.xin/assets/papers/CARE.pdf",
+        "outcome": "lead",
+        "note": "ACM 脚注和学生履历已证明在百度实习完成该工作；须核对 2021–2023 实际研究期间熊辉的具名学术指导及当时任职单位，后来的港科广博士指导不能倒推。"
+      },
+      {
+        "year": 2024,
+        "title": "Job-SDF: A Multi-Granularity Dataset for Job Skill Demand Forecasting and Benchmarking",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e997325c6f4045aa646c81e674076297-Abstract-Datasets_and_Benchmarks_Track.html",
+        "outcome": "lead",
+        "note": "NeurIPS 正式版及 2406.11920 首版均有中科大学生陈曦、导师熊辉和同篇百度 Chuyu Fang；两版全文未见陈曦在百度参与本篇，不能把 2023 年另一篇的百度实习套用。"
+      },
+      {
+        "year": 2024,
+        "title": "Pre-DyGAE: Pre-training Enhanced Dynamic Graph Autoencoder for Occupational Skill Demand Forecasting",
+        "url": "https://ijcai.org/proceedings/2024/0222.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 原文具名陈曦在 BOSS 直聘同篇实习，由秦川指导；该企业不在本调查。与 Job-SDF 题名、方法及正式会次不同。"
+      },
+      {
+        "year": 2026,
+        "title": "GenDis: Generative-Discriminative Dual-View Co-Training for Generalized Category Discovery",
+        "url": "https://aclanthology.org/2026.acl-long.107/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式全文作者机构为中科大、中科院网络信息中心、国科大及港科大两校；未见目标企业参与。注意同题不同版本中的第三作者变动。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond the Known: An Unknown-Aware Large Language Model for Open-Set Text Classification",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/5f63999aa6b4011a3615c2508c622821-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式会方原文为 UnLLM，与 ACL GenDis 属不同方法。作者单位为中科大、国科大相关研究机构及两所港科大，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics",
+        "url": "https://doi.org/10.1109/JPROC.2025.3572744",
+        "outcome": "lead",
+        "note": "IEEE 期刊与 arXiv 2307.03195 合一；原稿同篇有熊辉、陈曦及百度研究员 Le Zhang，但原文未指明陈曦曾在百度做该综述。BOSS 直聘及上海 AI Lab 不在范围。"
+      },
+      {
+        "year": 2025,
+        "title": "SciHorizon: Benchmarking AI-for-Science Readiness from Scientific Data to Large Language Models",
+        "url": "https://doi.org/10.1145/3711896.3737403",
+        "outcome": "no-evidence",
+        "note": "SIGKDD 正式版与 2503.13503v3 合一。陈曦署国科大和中科大，熊辉署两校；此篇未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Virne: A Comprehensive Benchmark for RL-based Network Resource Allocation in NFV",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/782906be37b7bce606d62d8df35bf439-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "ICLR 的 Virne 与 2507.19234 合一；陈曦和王天夫参与，核查公开预稿，未见能证明这篇与王天夫腾讯实研同项目的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Escaping the KL Agreement Trap in On-Policy Distillation",
+        "url": "https://arxiv.org/abs/2606.09471",
+        "outcome": "no-evidence",
+        "note": "EMNLP 2026 主会确认及预印本为同一篇；原文作者为港科大（广州）、港科大、香港理工及宁波东方理工，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "LLMCDSR: Enhancing Cross-Domain Sequential Recommendation with Large Language Models",
+        "url": "https://doi.org/10.1145/3715099",
+        "outcome": "no-evidence",
+        "note": "作者上传 ACM 正式 PDF，辛浩然、孙莹、王超及熊辉的同篇署名显示校内研究，没有百度、腾讯同篇研究。"
+      },
+      {
+        "year": 2025,
+        "title": "LLMs as Better Recommenders with Natural Language Collaborative Signals: A Self-Assessing Retrieval Approach",
+        "url": "https://arxiv.org/abs/2505.19464",
+        "outcome": "no-evidence",
+        "note": "港科大（广州）、港科大、中科大作者；未见目标企业。学生辛浩然随后有腾讯实习，不能用于本项目。"
+      },
+      {
+        "year": 2025,
+        "title": "Improving Recommendation Fairness without Sensitive Attributes Using Multi-Persona LLMs",
+        "url": "https://arxiv.org/abs/2505.19473",
+        "outcome": "no-evidence",
+        "note": "公开论文列港科大（广州）、港科大及中科大，未见目标企业署名或同篇实习。"
+      },
+      {
+        "year": 2026,
+        "title": "ARADD: An Automatic Real-World API Discovery and Deployment Framework for AI Guide Service in Baidu Map",
+        "url": "https://doi.org/10.1145/3774904.3792817",
+        "outcome": "lead",
+        "note": "HKUST 机构知识库、正式 DOI 登记及会方交叉：熊辉官网博士名单列 Fuling Wang（孙莹共导）；出版社作者登记为港科广＋百度，另有研究员 Le Zhang、周景博。尚待首作者在百度的具体角色或正式正文贡献脚注，避免仅按双署判断。"
+      },
+      {
+        "year": 2025,
+        "title": "Explaining Length Bias in LLM-Based Preference Evaluations",
+        "url": "https://aclanthology.org/2025.findings-emnlp.358/",
+        "outcome": "lead",
+        "note": "学生本人具名熊辉为硕导、同篇美团作者为实习指导（正式版保留 Zhengyu Chen；2024-v1 另有 Wang Jingang）。原文未直接描述该论文出自美团实习，主页也未列实习日期。"
+      },
+      {
+        "year": 2024,
+        "title": "Hierarchical Cross-level Graph Contrastive Learning for Drug-Drug Interaction Prediction",
+        "url": "https://zhoujingbo.github.io/paper/2024HierarchicalDASFAA.pdf",
+        "outcome": "lead",
+        "note": "DASFAA 会方和作者正式 PDF：中科大同篇 Congxi Xiao、Shuangli Li 使用百度邮箱，百度研究员周景博和同篇导师熊辉明确；未见学生在百度做本篇的直接说明。"
       }
     ]
   },
@@ -44060,5 +44191,55 @@ const facultyPaperAudits = {
         "note": "乔子越本人确认博士期间师从周园春、杜一，并有阿里研究实习经历，正式版有阿里黄建强、华先胜。乔已于 2022 获博士，2024 卷期不能独自证明在读期的同篇实研。"
       }
     ]
+  },
+  "-gtmMpIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6274d57365d7a6be06e58cad30d1b9da-Abstract-Conference.html",
+      "https://openreview.net/pdf/a030c960c2ec3981f0717614b06cd5f31f2b64eb.pdf",
+      "https://lihx-me.github.io/",
+      "https://researchportal.hkust.edu.hk/en/persons/long-chen/",
+      "https://arxiv.org/html/2608.18606v1",
+      "https://long-group.cse.ust.hk/people.html",
+      "https://arxiv.org/pdf/2510.11026v1",
+      "https://arxiv.org/html/2512.00968v1",
+      "https://hkust-longgroup.github.io/GIR-Bench/",
+      "https://researchportal.hkust.edu.hk/en/publications/gir-bench-versatile-benchmark-for-generating-images-with-reasonin/",
+      "https://zjuchenlong.github.io/Publications/",
+      "https://arxiv.org/pdf/2606.23041v1",
+      "https://hkust-longgroup.github.io/SPAR/",
+      "https://arxiv.org/pdf/2606.23041v2",
+      "https://doi.org/10.1145/3799902.3811059",
+      "https://s2026.conference-schedule.org/presentation/?id=papers_304&sess=sess148",
+      "https://yaoweili22.github.io/",
+      "https://arxiv.org/abs/2412.09349",
+      "https://lihxxx.github.io/DisPose/"
+    ],
+    "papers": [
+      {
+        "title": "GIR-Bench: Versatile Benchmark for Generating Images with Reasoning",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6274d57365d7a6be06e58cad30d1b9da-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "正式会议一版第一作者双署港科大与小红书，预印本只列港科大。已知他与校内导师同篇，但需补能独立证实其在小红书参与该研究的实名项目说明或任职依据。",
+        "year": 2026
+      },
+      {
+        "title": "SPAR: Semantic-Pixel Self-Alignment and Adaptive Routing for Unified Multimodal Models",
+        "url": "https://arxiv.org/pdf/2606.23041v1",
+        "outcome": "lead",
+        "note": "ECCV 2026；共同一作 Hongxiang Li / Hongxu Chen 均为陈隆的港科大博士生，原文两人只署港科大；同一企业员工在此篇同署，但不能把前一篇 GIR-Bench 的双署沿用。等待本篇明确的企业参与材料。",
+        "year": 2026
+      },
+      {
+        "title": "ViewWeaver: Geometry-Grounded Generative Rendering for 3D-Aware Image Customization",
+        "url": "https://doi.org/10.1145/3799902.3811059",
+        "outcome": "lead",
+        "note": "ACM 2026-07-19 正式出版。港科大导师陈隆所带学生 Hongxiang Li 同篇仅署港科大，未见其参与该腾讯项目；北大第一作者 Yaowei Li 有同期腾讯 Project UP 履历，但其导师邹月娴及所在院系在当前名录范围外，且同篇学生原始机构仅为北大。",
+        "year": 2026
+      }
+    ],
+    "note": "从校方研究门户、个人书目与学生履历核对最接近企业线索的近期作品；不同来源列举范围不同，未标记完成。"
   }
 };
