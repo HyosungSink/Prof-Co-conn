@@ -53492,7 +53492,9 @@ const facultyPaperAudits = {
       "https://deepgenteam.github.io/",
       "https://github.com/FudanDISC/SocioVerse",
       "https://github.com/ljcleo/moe-lrc",
-      "https://arxiv.org/html/2501.14225v1"
+      "https://arxiv.org/html/2501.14225v1",
+      "https://arxiv.org/abs/2505.16056",
+      "https://arxiv.org/abs/2501.15103"
     ],
     "papers": [
       {
@@ -53830,9 +53832,212 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2501.14225",
         "outcome": "confirmed",
         "note": "2025-01-24 首稿具名旷皓予在字节完成本项实习研究，本人在校书目证明复旦学籍和魏忠钰作为硕士具名导师。企业正式员工叶蓉是同篇第一作者；NeurIPS 同篇归并。"
+      },
+      {
+        "year": 2024,
+        "title": "Debatrix: Multi-dimensional Debate Judge with Iterative Chronological Analysis Based on LLM",
+        "url": "https://aclanthology.org/2024.findings-acl.868/",
+        "outcome": "lead",
+        "note": "华为泊松实验室及字节叶蓉同署，复旦梁靖聪 ORCID 的华为终端云实习于 2024 年 7 月开始，晚于本文 2024 年 3 月 12 日首稿；无该篇实研确认。"
+      },
+      {
+        "year": 2024,
+        "title": "ALaRM: Align Language Models via Hierarchical Rewards Modeling",
+        "url": "https://aclanthology.org/2024.findings-acl.465/",
+        "outcome": "no-evidence",
+        "note": "正式版署复旦脑科学、大数据、计算机及复杂体系，没有企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation",
+        "url": "https://aclanthology.org/2024.findings-acl.285/",
+        "outcome": "no-evidence",
+        "note": "社会运动模拟正式版为复旦及上海协同创新中心团队，没有目标企业署名。"
+      },
+      {
+        "year": 2024,
+        "title": "SoMeLVLM: A Large Vision Language Model for Social Media Processing",
+        "url": "https://aclanthology.org/2024.findings-acl.140/",
+        "outcome": "no-evidence",
+        "note": "公开论文作者署复旦和罗切斯特；社交媒体数据不等于企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Symbolic Working Memory Enhances Language Models for Complex Rule Application",
+        "url": "https://aclanthology.org/2024.emnlp-main.974/",
+        "outcome": "no-evidence",
+        "note": "符号工作记忆正式版署南加大、复旦、华盛顿大学及艾伦人工智能研究所；无目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models",
+        "url": "https://aclanthology.org/2024.acl-short.33/",
+        "outcome": "no-evidence",
+        "note": "杜梦飞在读有阿里、字节履历，但本文作者全署复旦；未见企业科研来源。"
+      },
+      {
+        "year": 2024,
+        "title": "Can LLMs Reason with Rules? Logic Scaffolding for Stress-Testing and Improving LLMs",
+        "url": "https://aclanthology.org/2024.acl-long.406/",
+        "outcome": "no-evidence",
+        "note": "评估规则推理正式版四个机构为复旦、华盛顿大学、南加大和艾伦研究所；非目标企业合作。"
+      },
+      {
+        "year": 2023,
+        "title": "Unleashing the Power of Language Models in Text-Attributed Graph",
+        "url": "https://aclanthology.org/2023.findings-emnlp.565/",
+        "outcome": "lead",
+        "note": "华为作者 Haozhe Zhang / Zuyu Zhao 与复旦旷皓予、其具名导师魏忠钰同篇；本人公开可对应的是后来的字节 MaKTO，未查到在华为做本篇。"
+      },
+      {
+        "year": 2023,
+        "title": "One-Model-Connects-All: A Unified Graph Pre-Training Model for Online Community Modeling",
+        "url": "https://aclanthology.org/2023.findings-emnlp.1003/",
+        "outcome": "lead",
+        "note": "马若雪等复旦作者与华为 Haozhe Zhang、Zuyu Zhao 合著；本文目标是图预训练，尚缺具名学生企业实研及正式指导记录。"
+      },
+      {
+        "year": 2023,
+        "title": "Connectivity Patterns are Task Embeddings",
+        "url": "https://aclanthology.org/2023.findings-acl.759/",
+        "outcome": "lead",
+        "note": "百度认知计算实验室两名合著者明确；首作奚志恒公开列桂韬、张奇、黄萱菁为博士导师，未列魏忠钰，也未列本篇于百度的项目贡献。"
+      },
+      {
+        "year": 2023,
+        "title": "Detecting Adversarial Samples through Sharpness of Loss Landscape",
+        "url": "https://aclanthology.org/2023.findings-acl.717/",
+        "outcome": "no-evidence",
+        "note": "论文署复旦和南加大，作者未署目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "KNSE: A Knowledge-aware Natural Language Inference Framework for Dialogue Symptom Status Recognition",
+        "url": "https://aclanthology.org/2023.findings-acl.652/",
+        "outcome": "no-evidence",
+        "note": "疾病症状识别正式版只署复旦相关研究机构和院系，无企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Hi-ArG: Exploring the Integration of Hierarchical Argumentation Graphs in Language Pretraining",
+        "url": "https://aclanthology.org/2023.emnlp-main.902/",
+        "outcome": "lead",
+        "note": "华为泊松实验室和字节叶蓉均有同篇作者，但首作梁靖聪 2024 年 7 月才开始已知的华为实习；未见 2023 年企业参与依据。"
+      },
+      {
+        "year": 2023,
+        "title": "Argue with Me Tersely: Towards Sentence-Level Counter-Argument Generation",
+        "url": "https://aclanthology.org/2023.emnlp-main.1039/",
+        "outcome": "lead",
+        "note": "复旦 Jiayu Lin 与华为、字节分别同篇，未查到参与哪家公司同篇项目的具名证据。"
+      },
+      {
+        "year": 2023,
+        "title": "DSRM: Boost Textual Adversarial Training with Distribution Shift Risk Minimization",
+        "url": "https://aclanthology.org/2023.acl-long.680/",
+        "outcome": "lead",
+        "note": "腾讯 PCG 的 Jin Ma 与 Ying Shan 同篇，复旦作者署校方，未见该研究的学生实习或共同培养证据。"
+      },
+      {
+        "year": 2023,
+        "title": "UPPAM: A Unified Pre-training Architecture for Political Actor Modeling based on Language",
+        "url": "https://aclanthology.org/2023.acl-long.670/",
+        "outcome": "no-evidence",
+        "note": "UPPAM 正式版没有腾讯作者，牟心怡履历中 2021 年腾讯实习做广告识别，与本篇政治人物建模不同。"
+      },
+      {
+        "year": 2023,
+        "title": "Open Set Relation Extraction via Unknown-Aware Training",
+        "url": "https://aclanthology.org/2023.acl-long.525/",
+        "outcome": "no-evidence",
+        "note": "企业作者署达观数据；不是规定范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "RE-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction",
+        "url": "https://aclanthology.org/2023.acl-long.369/",
+        "outcome": "lead",
+        "note": "百度研究所 Minlong Peng、Mingming Sun 与复旦导师同篇，未见具名在校生在百度做这篇工作的证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Unifying Cross-Lingual and Cross-Modal Modeling Towards Weakly Supervised Multilingual Vision-Language Pre-training",
+        "url": "https://aclanthology.org/2023.acl-long.327/",
+        "outcome": "no-evidence",
+        "note": "人员在论文署复旦与上海协同研究中心；李泽君自己列出的字节实习成果为 2022 ACM MM 另一篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Actively Supervised Clustering for Open Relation Extraction",
+        "url": "https://aclanthology.org/2023.acl-long.273/",
+        "outcome": "lead",
+        "note": "百度研究院人员同篇明确；未见复旦学生在百度做该聚类工作的记录。"
+      },
+      {
+        "year": 2023,
+        "title": "Query Structure Modeling for Inductive Logical Reasoning Over Knowledge Graphs",
+        "url": "https://aclanthology.org/2023.acl-long.259/",
+        "outcome": "lead",
+        "note": "华为孟涵与复旦王思远、其具名导师魏忠钰同篇；王思远公开的企业实习在微软和澜舟，并未直接证实华为该篇。"
+      },
+      {
+        "year": 2025,
+        "title": "Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6a7a2238da2b755e6dc1dbe278c60c2a-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "ICLR 实体原文列梁靖聪与魏忠钰署复旦，田等三人署华为；梁本人 ORCID 记华为实习到 2025 年 2 月，首稿为 5 月 21 日，未证实这项工作在实习期完成。"
+      },
+      {
+        "year": 2025,
+        "title": "HardcoreLogic: Challenging Large Reasoning Models with Long-tail Logic Puzzle Games",
+        "url": "https://arxiv.org/abs/2510.12563",
+        "outcome": "lead",
+        "note": "ICLR 版本和首稿可核硕博期间的复旦作者、魏忠钰和华为企业作者；没有把该项任务明确纳入第一作者 2024–25 年华为实习的证据。"
+      },
+      {
+        "year": 2025,
+        "title": "SocioVerse: A World Model for Social Simulation Powered by LLM Agents and A Pool of 10 Million Real-World Users",
+        "url": "https://arxiv.org/abs/2504.10157",
+        "outcome": "lead",
+        "note": "正式项目及论文列小红书参与和多位复旦在读作者；来源没有指名其中在校作者在小红书承担该项目研究。"
+      },
+      {
+        "year": 2026,
+        "title": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm",
+        "url": "https://arxiv.org/abs/2609.24911",
+        "outcome": "no-evidence",
+        "note": "论文作为上一代扩展独立发布，作者署高校及研究院，无小红书或项目范围内企业，不能继承前代合作署名。"
+      },
+      {
+        "year": 2026,
+        "title": "SpatialNav: Leveraging Spatial Scene Graphs for Zero-Shot Vision-and-Language Navigation",
+        "url": "https://arxiv.org/abs/2601.06806",
+        "outcome": "no-evidence",
+        "note": "首稿脚注明确张霁雯在阿德莱德大学访问时完成该项工作；无华为及其他目标企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "SpatialAnt: Autonomous Zero-Shot Robot Navigation via Active Scene Reconstruction and Visual Anticipation",
+        "url": "https://arxiv.org/abs/2603.26837",
+        "outcome": "no-evidence",
+        "note": "稿件脚注明确为阿德莱德大学访问时期工作，作者院校同署；不承接较早华为实习。"
+      },
+      {
+        "year": 2026,
+        "title": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+        "url": "https://arxiv.org/abs/2602.12205",
+        "outcome": "no-evidence",
+        "note": "论文与项目团队都未列企业作者。王殿仪曾在 MiniMax 学习工业流程，采访将这段实习与之后在上海创智学院主导本项目分开，未指 MiniMax 同篇参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Each Rank Could be an Expert: Single-Ranked Mixture of Experts LoRA for Multi-Task Learning",
+        "url": "https://research.cuhk.edu.hk/en/publications/each-rank-could-be-an-expert-single-ranked-mixture-of-experts-lor/",
+        "outcome": "lead",
+        "note": "正式题录及首稿修订版同时列字节与浙大、复旦作者，浙大学生署高校。没有具名证据表明在读学生受魏忠钰同篇指导并明确参与企业实研。"
       }
     ],
-    "note": "已将首发预印本和正式版去重，逐篇查核作者、企业与具名项目。项目证据不足的保持线索；仍有期刊、会议书目待核。"
+    "note": "复旦大数据学院魏忠钰：交叉 ACL Anthology、DBLP 及学生/企业作者公开书目，已查看题录对应原文、实习脚注和关键履历。相同工作的预印本和正式版合并；另有期刊和会议书目待补，未标完整。"
   },
   "PuZGODYAAAAJ": {
     "from": "2023-01-01",
