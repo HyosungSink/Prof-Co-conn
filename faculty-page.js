@@ -1,11 +1,86 @@
 const facultyQuery = get('faculty-query');
 const facultySchool = get('faculty-school');
+const facultyTitle = get('faculty-title-filter');
 const directoryPage = document.querySelector('[data-faculty-page]').dataset.facultyPage;
 const facultyDepartment = get('faculty-department');
 const facultyRoot = get('faculty-rosters');
 const facultyCount = get('faculty-count');
 const snapshot = buildFacultyCatalog();
 const countFormat = new Intl.NumberFormat('zh-CN');
+
+// Match the most specific title first ("副教授" must not also match "教授").
+const facultyTitleOptions = [
+  ['教授', 'Professor'],
+  ['副教授', 'Associate Professor'],
+  ['助理教授', 'Assistant Professor'],
+  ['高级讲师', 'Senior Lecturer'],
+  ['讲师', 'Lecturer'],
+  ['助理讲师', 'Assistant Lecturer'],
+  ['助教'],
+  ['Instructor'],
+  ['Teaching Fellow'],
+  ['研究员'],
+  ['副研究员'],
+  ['助理研究员'],
+  ['研究实习员'],
+  ['Research Fellow'],
+  ['正高级工程师', '教授级高工'],
+  ['高级工程师'],
+  ['工程师', 'Engineer'],
+  ['助理工程师'],
+  ['正高级实验师'],
+  ['高级实验师'],
+  ['实验师'],
+  ['研究馆员'],
+  ['馆员'],
+  ['主任医师'],
+  ['副主任医师'],
+];
+const facultyTitleAliases = new Map(facultyTitleOptions.flatMap(([name, ...aliases]) =>
+  [name, ...aliases].map(alias => [alias.toLowerCase(), name])));
+const facultyTitleMatcher = new RegExp([...facultyTitleAliases.keys()].sort((a, b) => b.length - a.length)
+  .map(alias => /^[a-z]/.test(alias) ? `\\b${alias}s?\\b` : alias).join('|'), 'gi');
+const facetTitles = new WeakMap();
+
+function facultyTitleValues(person) {
+  if (facetTitles.has(person)) return facetTitles.get(person);
+  const values = new Set();
+  if (person.titles.length) {
+    for (const { label } of person.titles) {
+      const matches = label.replace(/\s+/g, ' ').match(facultyTitleMatcher);
+      for (const match of matches || []) {
+        const key = match.toLowerCase();
+        values.add(facultyTitleAliases.get(key) || facultyTitleAliases.get(key.slice(0, -1)));
+      }
+      if (!matches) values.add(label);
+    }
+  } else {
+    for (const { label } of person.tiers) values.add(label);
+    if (!values.size) values.add('待核实');
+  }
+  facetTitles.set(person, values);
+  return values;
+}
+
+function setTitleOptions(selected) {
+  const titles = new Set();
+  for (const departments of Object.values(snapshot)) {
+    for (const { people } of departments) {
+      for (const person of people) for (const value of facultyTitleValues(person)) titles.add(value);
+    }
+  }
+  const levels = ['正高级', '副高级', '中级', '初级', '初中级'];
+  const regular = facultyTitleOptions.map(([label]) => label);
+  const other = [...titles].filter(label => !regular.includes(label) && !levels.includes(label) && label !== '待核实')
+    .sort((a, b) => a.localeCompare(b, 'zh-CN'));
+  facultyTitle.append(...[...regular, ...other].filter(label => titles.has(label)).map(label => new Option(label, label)));
+  const group = element('optgroup');
+  group.label = '仅有职称层级';
+  group.append(...levels.filter(label => titles.has(label)).map(label => new Option(label, label)));
+  if (group.childElementCount) facultyTitle.append(group);
+  if (titles.has('待核实')) facultyTitle.append(new Option('职称待核实', '待核实'));
+  facultyTitle.value = titles.has(selected) ? selected : '';
+}
 
 function facultyUnitId(schoolIndex, department) {
   return department.slug ? `faculty-institute-${department.slug}` : `faculty-unit-${schoolIndex + 1}-${department.index + 1}`;
@@ -89,6 +164,8 @@ function appendFacultyBibliography(item, person, school, department) {
 
 function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
+  const title = facultyTitle.value;
+  const isSearch = Boolean(words.length || title);
   const schools = [];
   let matches = 0;
 
@@ -97,9 +174,9 @@ function renderFaculty() {
     const units = directoryDepartments(name).flatMap(department => {
       if (facultyDepartment.value && department.name !== facultyDepartment.value) return [];
       const context = facultySearchKey([name, english, department.name].join(' '));
-      const people = department.people.filter(person => words.every(word =>
+      const people = department.people.filter(person => (!title || facultyTitleValues(person).has(title)) && words.every(word =>
         context.includes(word) || person.searchKey.includes(word)));
-      const matchesSource = department.sources?.some(unit => {
+      const matchesSource = !title && department.sources?.some(unit => {
         const key = facultySearchKey([unit.name, ...(unit.aliases || [])].join(' '));
         return words.every(word => context.includes(word) || key.includes(word));
       });
@@ -141,18 +218,18 @@ function renderFaculty() {
         index.append(list);
         body.append(index);
       }
-      for (const unit of units) body.append(renderFacultyUnit(unit, name, words.length));
+      for (const unit of units) body.append(renderFacultyUnit(unit, name, isSearch));
     }
     fill();
     card.addEventListener('toggle', fill);
     return card;
   });
 
-  const noMatches = !words.length && facultySchool.value
+  const noMatches = !isSearch && facultySchool.value
     ? '这所学校在本页暂未收录院系或研究机构。'
     : `没有找到符合条件的教师或${facultySchool.value === ucasSchool ? '研究所' : '院系'}。`;
   facultyRoot.replaceChildren(...(cards.length ? cards : [element('p', noMatches, 'empty')]));
-  facultyCount.textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${words.length ? '匹配记录' : '名录记录'} · 采集日期 ${facultyDirectory.checked}`;
+  facultyCount.textContent = `${schools.length} 所高校 · ${countFormat.format(matches)} 条${isSearch ? '匹配记录' : '名录记录'} · 采集日期 ${facultyDirectory.checked}`;
 }
 
 function renderFacultyUnit({ department, people, id }, name, isSearch) {
@@ -214,6 +291,7 @@ function renderFacultyUnit({ department, people, id }, name, isSearch) {
 function updateDirectoryLinks() {
   const params = new URLSearchParams();
   if (facultySchool.value) params.set('school', facultySchool.value);
+  if (facultyTitle.value) params.set('title', facultyTitle.value);
   if (facultyQuery.value.trim()) params.set('q', facultyQuery.value.trim());
   for (const link of document.querySelectorAll('.faculty-directory-nav [data-directory]')) {
     link.href = facultyDirectoryPages[link.dataset.directory] + (params.size ? `?${params}` : '');
@@ -224,6 +302,8 @@ function applyFacultyFilters() {
   const url = new URL(location.href);
   if (facultySchool.value) url.searchParams.set('school', facultySchool.value);
   else url.searchParams.delete('school');
+  if (facultyTitle.value) url.searchParams.set('title', facultyTitle.value);
+  else url.searchParams.delete('title');
   url.searchParams.delete('department');
   url.searchParams.delete('institute');
   if (facultyQuery.value.trim()) url.searchParams.set('q', facultyQuery.value.trim());
@@ -279,6 +359,7 @@ function setupFacultyDirectory() {
   addOptions(facultySchool, survey.schools);
   facultySchool.value = school;
   facultyQuery.value = params.get('q') || '';
+  setTitleOptions(params.get('title'));
   setDepartmentOptions(linkedUnit && selectedUnit !== linkedUnit ? '' : selectedDepartment);
   updateDirectoryLinks();
   get('faculty-filters').addEventListener('submit', event => event.preventDefault());
@@ -291,6 +372,7 @@ function setupFacultyDirectory() {
     applyFacultyFilters();
   });
   facultyDepartment.addEventListener('change', applyFacultyFilters);
+  facultyTitle.addEventListener('change', applyFacultyFilters);
   renderFaculty();
   if (url.hash === '#faculty-rosters' || linkedUnit) {
     const target = get(url.hash.slice(1));
