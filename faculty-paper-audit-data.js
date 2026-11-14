@@ -53631,5 +53631,118 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核实孙哲南指导的 TokLIP 同一工作。其余公开题录仍需逐篇查考。"
+  },
+  "bow_liAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://scholars.cityu.edu.hk/en/persons/jianwang/",
+      "https://scholars.cityu.edu.hk/en/persons/jianwang/publications/",
+      "https://orcid.org/0000-0002-9318-1482",
+      "https://www.cs.cityu.edu.hk/~jianwang/recent-publications/index.html",
+      "https://arxiv.org/abs/2601.09239"
+    ],
+    "papers": [
+      {
+        "title": "To Cooperate or Not to Cooperate: A Systematic Review and Meta-Analysis of Human Driving Behavior in Interactions with Autonomous Vehicles",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3772318.3791151",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版逐位作者均属港城大电脑科学系或社会及行为科学系。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Wave-for-Safe: Multisensor-based Mutual Authentication for Unmanned Delivery Vehicle Services",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3565287.3610253",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版署港城大、港中大。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "VI-Planning: Infrastructure-Assisted Real-Time Planning Optimization for Autonomous Driving",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3680207.3765255",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版机构包括港城大及其深圳研究院、武汉理工与鸿海研究院。鸿海不在调查范围。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Deep Reinforcement Learning for Parameter Tuning of Robot Visual Servoing",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3579829",
+        "outcome": "no-evidence",
+        "note": "ACM 正式论文的两位作者均署港城大和其深圳研究院。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Strengthening Cooperative Consensus in Multi-Robot Confrontation",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3639371",
+        "outcome": "no-evidence",
+        "note": "ACM 作者元数据为港城大学术团队；作品讨论多机器人对抗而非与目标企业联合研究。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3696206",
+        "outcome": "no-evidence",
+        "note": "ACM 早期在线日期为 2024 年 10 月，与 2025 卷期归并；作者署港城大、电子科大和马里兰大学。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "SATMapTR: Satellite Image Enhanced Online HD Map Construction",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2512.11319v1",
+        "outcome": "no-evidence",
+        "note": "2025 年首稿与 IEEE 2026 正式版同项。原文香港城大之外的作者是鸿海研究院，未见目标企业。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "IMGTP: A Unified Framework for Improving and Measuring the Generalizability of Trajectory Prediction Models",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TIV.2024.3364714",
+        "outcome": "no-evidence",
+        "note": "IEEE 逐作者机构为港城大、华中师大与鸿海研究所；鸿海不在调查企业。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "AoI-Aware Service Provisioning in Edge Computing for Digital Twin Network Slicing Requests",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TMC.2024.3449818",
+        "outcome": "no-evidence",
+        "note": "IEEE 将作者分别列为港城大、港科大、港理工、四川大学、大连理工和广东工大。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Digital Twin Freshness Maximization in Edge Computing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TSC.2026.3651602",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版作者署港城大、广东工业大学与密苏里科技大学。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Time-Varying Weights in Multi-Reward Architecture for Deep Reinforcement Learning",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TETCI.2024.3359039",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版作者所属机构为港城大电脑科学系。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Communication-Topology-preserving Motion Planning: Enabling Static Routing in UAV Networks",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3631530",
+        "outcome": "no-evidence",
+        "note": "2023 年 12 月在线版与 2024 正式卷期并一。企业机构为北方信息控制研究院集团，另有港城大及东南大学；公司不在范围。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "Minimizing Age of Event in Artificial Intelligence of Things",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3717834",
+        "outcome": "no-evidence",
+        "note": "ACM 正式版作者来自港城大、东南大学、维多利亚大学，未见范围企业同篇作者。 未见调查口径下的同篇校企关系。"
+      },
+      {
+        "title": "DSA-Tokenizer: Disentangled Semantic-Acoustic Tokenization via Flow Matching-based Hierarchical Fusion",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2601.09239v2",
+        "outcome": "lead",
+        "note": "修订版作者表列汪建平，第一作者张瀚霖标明华为实习，且同篇有华为正式作者。港城大博士学籍已确认，尚未查到汪建平或宋林琦对他的同期具名学术指导，暂列线索。"
+      }
+    ],
+    "note": "公开首批：身份由港城大和 ORCID 对齐，逐篇对照出版社作者机构与较早的同题首稿。其余公开书目仍待核对。"
   }
 };
