@@ -300,8 +300,8 @@ const facultyPaperAudits = {
       {
         "title": "Sliding Window Attention Training for Efficient Large Language Models",
         "url": "https://arxiv.org/abs/2502.18845",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "预印本首页明确说明第一作者在腾讯优图实习期间开展本研究。 傅子川个人主页列明港城大博士导师 Xiangyu Zhao。教师和腾讯正式雇员 Xian Wu 均在同篇，其在腾讯的任职由实验室官网确认。"
       },
       {
         "title": "Model Merging for Knowledge Editing",
@@ -1097,7 +1097,12 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/81/6575.html",
       "https://ccbr99.cn/2025/keynotes.html",
       "https://houwenpeng.com/index.html",
-      "https://jiangllan.github.io/"
+      "https://jiangllan.github.io/",
+      "https://people.ucas.ac.cn/~xiangshiming",
+      "https://cqu-student.github.io/",
+      "https://lubinfan.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Hong_CC-VQA_Conflict-_and_Correlation-Aware_Method_for_Mitigating_Knowledge_Conflict_in_CVPR_2026_paper.pdf",
+      "https://arxiv.org/html/2608.30209v1"
     ],
     "papers": [
       {
@@ -1123,9 +1128,33 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2508.21113",
         "outcome": "lead",
         "note": "CASIA 与腾讯共同署名，彭厚文记有指导齐阳实习。尚未确认向世明是否为齐阳该阶段的校内导师。"
+      },
+      {
+        "title": "CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hong_CC-VQA_Conflict-_and_Correlation-Aware_Method_for_Mitigating_Knowledge_Conflict_in_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "原文具名实习脚注，学生个人履历明确在读及学企双方导师。"
+      },
+      {
+        "title": "DICS: Exploring Data Intrinsic Consistency for Visual Instruction Selection",
+        "url": "https://arxiv.org/html/2608.30209v1",
+        "outcome": "confirmed",
+        "note": "原文具名实习脚注，学生个人履历明确在读及学企双方导师。"
+      },
+      {
+        "title": "Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering",
+        "url": "https://arxiv.org/abs/2510.14605",
+        "outcome": "lead",
+        "note": "2025 年 10 月预印本早于学生公开履历 12 月阿里实习开始时间，且未找到具名实习脚注或其他项目贡献说明。"
+      },
+      {
+        "title": "BERAG: Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering",
+        "url": "https://arxiv.org/abs/2604.22678",
+        "outcome": "lead",
+        "note": "在读及阿里同期实习可核实，原文尚未找到直接把该学生的实习与该项目对应的依据。"
       }
     ],
-    "note": "已核对陈林个人成果的一部分和 R-4B。未完成向世明全部论文综排。"
+    "note": "仅逐篇核对洪宇洋的部分结果，未覆盖向世明全部论文。"
   },
   "qkdvKNoAAAAJ": {
     "from": "2023-01-01",
@@ -1535,7 +1564,14 @@ const facultyPaperAudits = {
       "https://depth-anything.github.io/",
       "https://proceedings.neurips.cc/paper_files/paper/2024/file/26cfdcd8fe6fd75cc53e92963a656c58-Paper-Conference.pdf",
       "https://depth-anything-v2.github.io/",
-      "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Ding_SURF_Signature-Retained_Fast_Video_Generation_CVPR_2026_paper.pdf",
+      "https://kxding.github.io/",
+      "https://kxding.github.io/project/SURF/",
+      "https://arxiv.org/pdf/2512.16905",
+      "https://github.com/KlingAIResearch/Alchemist",
+      "https://arxiv.org/pdf/2608.13552",
+      "https://kxding.github.io/project/PlayWorld/"
     ],
     "papers": [
       {
@@ -1582,9 +1618,9 @@ const facultyPaperAudits = {
       },
       {
         "title": "SURF: Signature-Retained Fast Video Generation",
-        "url": "https://arxiv.org/html/2603.21002",
-        "outcome": "lead",
-        "note": "同篇含快手人员和在读学生；两版预印本都未见该生在快手完成这篇的明确说明。"
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ding_SURF_Signature-Retained_Fast_Video_Generation_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "论文首页 † 脚注明确该第一作者的工作在快手可灵团队完成。丁凯欣及港大方面均明确其博士导师赵恒爽且二人同篇署名。在职技术负责人 Xin Tao 同篇署名，个人履历确认直属企业团队。"
       },
       {
         "title": "SynMotion: Semantic-Visual Adaptation for Motion Customized Video Generation",
@@ -1621,6 +1657,18 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.pdf",
         "outcome": "no-evidence",
         "note": "这篇后续拓展并未署名赵恒爽或 Lihe Yang，独立于 Depth Anything 两篇。"
+      },
+      {
+        "title": "Alchemist: Unlocking Efficiency in Text-to-Image Model Training via Meta-Gradient Data Selection",
+        "url": "https://arxiv.org/pdf/2512.16905",
+        "outcome": "confirmed",
+        "note": "论文首页 † 脚注明确该第一作者的工作在快手可灵团队完成。丁凯欣及港大方面均明确其博士导师赵恒爽且二人同篇署名。在职技术负责人 Xin Tao 同篇署名，个人履历确认直属企业团队。"
+      },
+      {
+        "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+        "url": "https://arxiv.org/pdf/2608.13552",
+        "outcome": "confirmed",
+        "note": "论文首页 † 脚注明确该第一作者的工作在快手可灵团队完成。丁凯欣及港大方面均明确其博士导师赵恒爽且二人同篇署名。在职技术负责人 Xin Tao 同篇署名，个人履历确认直属企业团队。"
       }
     ]
   },
@@ -3087,7 +3135,10 @@ const facultyPaperAudits = {
     "sources": [
       "https://cs.nju.edu.cn/2f/cc/c2639a274380/pagem.htm",
       "https://yi.fan/zh/",
-      "https://y-sisyphus.github.io/"
+      "https://y-sisyphus.github.io/",
+      "https://www.ecice06.com/CN/10.19678/j.issn.1000-3428.0253281",
+      "https://grawww.nju.edu.cn/_upload/article/files/1f/c2/55aff0984fedac523b87726beeb0/45c3df1f-16c2-421a-8be4-5898c5f9d775.pdf",
+      "https://home.j-zh.top/"
     ],
     "papers": [
       {
@@ -3107,6 +3158,18 @@ const facultyPaperAudits = {
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37300/41262",
         "outcome": "existing",
         "note": "AAAI 正式版明确第一作者双署名南京大学与阿里巴巴；已在既有关系索引。"
+      },
+      {
+        "title": "TempR1: Improving Temporal Understanding of MLLMs via Temporal-Aware Multi-Task Reinforcement Learning",
+        "url": "https://arxiv.org/html/2512.03963",
+        "outcome": "confirmed",
+        "note": "南京大学在读博士吴涛是第一作者；预印本与 CVPR 正式版本都具名标注他在字节跳动实习中完成本项工作。同年正式期刊的作者简介明确列出其博士研究生身份。"
+      },
+      {
+        "title": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+        "url": "https://arxiv.org/html/2512.14698v1",
+        "outcome": "confirmed",
+        "note": "张峻为南京大学 2023–2026 年在读硕士，个人履历列 2025 年在腾讯 ARC Lab 实习。正式版首页星号注明第一作者在腾讯实习时完成本项研究。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -3914,7 +3977,14 @@ const facultyPaperAudits = {
       "https://aclanthology.org/2025.coling-main.250.pdf",
       "https://aoidragon.github.io/",
       "https://sites.google.com/site/qiumh0727",
-      "https://aclanthology.org/2026.acl-long.934.pdf"
+      "https://aclanthology.org/2026.acl-long.934.pdf",
+      "https://aibox.ruc.edu.cn/ryjs/index.htm",
+      "https://ai.ruc.edu.cn/szdw/zrjs/zx/index.htm",
+      "https://grs.ruc.edu.cn/info/1033/3376.htm",
+      "https://aclanthology.org/2026.acl-long.612.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/40664/44625",
+      "https://aclanthology.org/2023.findings-emnlp.1057.pdf",
+      "https://arxiv.org/html/2505.11995v1"
     ],
     "papers": [
       {
@@ -3940,6 +4010,30 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.acl-long.934.pdf",
         "outcome": "confirmed",
         "note": "正式版与预印本具名实习脚注一致；中文姓名和导师从李依凡主页核实。"
+      },
+      {
+        "title": "Reinforced Informativeness Optimization for Long-Form Retrieval-Augmented Generation",
+        "url": "https://aclanthology.org/2026.acl-long.612.pdf",
+        "outcome": "confirmed",
+        "note": "正式会议版只给王禹淏标百度实习，校内同一教师的成员名录具名对应。"
+      },
+      {
+        "title": "BEE-RAG: Balanced Entropy Engineering for Retrieval-Augmented Generation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40664/44625",
+        "outcome": "confirmed",
+        "note": "正式会议版只给王禹淏标百度实习，校内同一教师的成员名录具名对应。"
+      },
+      {
+        "title": "A Thorough Examination on Zero-shot Dense Retrieval",
+        "url": "https://aclanthology.org/2023.findings-emnlp.1057.pdf",
+        "outcome": "confirmed",
+        "note": "正式版 2023-12 公开，关联 2022 年预印本，并以正式版脚注核准。"
+      },
+      {
+        "title": "Unveiling Knowledge Utilization Mechanisms in LLM-based Retrieval-Augmented Generation",
+        "url": "https://arxiv.org/html/2505.11995v1",
+        "outcome": "confirmed",
+        "note": "正式会议版只给王禹淏标百度实习，校内同一教师的成员名录具名对应。"
       }
     ],
     "note": "已围绕任瑞阳分期核对部分公开成果，尚未遍历教师全部论文。"
@@ -4686,7 +4780,8 @@ const facultyPaperAudits = {
       "https://ysunbp.github.io/cv.pdf",
       "https://arxiv.org/abs/2607.00394",
       "https://arxiv.org/html/2607.00394",
-      "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf"
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2406.10248"
     ],
     "papers": [
       {
@@ -4717,7 +4812,7 @@ const facultyPaperAudits = {
         "title": "On the Worst Prompt Performance of Large Language Models",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "论文首页或署名脚注明确对应 Bowen Cao 的腾讯实习工作。港中文教授 Wai Lam 的学校课题组网页具名列其为自己的在读博士生；两人均为同篇作者。同篇企业一方主要作者或通讯作者经公开履历确认研究期间受雇于腾讯。"
+        "note": "论文明确为 Bowen Cao 在腾讯 AI Lab 实习工作且署港中文；但 2024 年 6 月已发布预印本，导师课题组只给 2024 年入学，仍缺实习研究当时已在读或正式联培的日期。"
       }
     ]
   },
@@ -4736,7 +4831,17 @@ const facultyPaperAudits = {
       "https://emova-ollm.github.io/",
       "https://openaccess.thecvf.com/content/CVPR2023/html/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.html",
       "https://sai.cuhk.edu.cn/en/teacher/331",
-      "https://openaccess.thecvf.com/content/CVPR2023/papers/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.pdf",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03200.pdf",
+      "https://capricious-liu.github.io/files/Zhili_CV.pdf",
+      "https://capricious-liu.github.io/",
+      "https://kaichen1998.github.io/projects/geom-erasing/",
+      "https://aclanthology.org/2025.acl-long.151.pdf",
+      "https://aclanthology.org/2025.acl-long.151/",
+      "https://doi.org/10.1109/TIP.2026.3678087",
+      "https://arxiv.org/html/2312.12379",
+      "https://aclanthology.org/2025.emnlp-main.1317.pdf",
+      "https://aclanthology.org/2025.emnlp-main.1317/"
     ],
     "papers": [
       {
@@ -4756,6 +4861,30 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Gou_Leveraging_per_Image-Token_Consistency_for_Vision-Language_Pre-Training_CVPR_2023_paper.html",
         "outcome": "confirmed",
         "note": "CVPR 正式论文首页明确注明第一作者苟耘豪在字节跳动 AI Lab 实习期间完成这项视觉语言预训练研究；个人履历明确标注该实习 2022 年 1 月至 2023 年 3 月并由同篇作者 Tom Ko 指导。港科大博士自 2022 年 9 月起，与上述工作后期及 2022 年 11 月的预印本节点重叠。 论文的另一位合著者 James T. Kwok 为学生具名港科大博士导师。"
+      },
+      {
+        "title": "Implicit Concept Removal of Diffusion Models",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03200.pdf",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "title": "Mixture of insighTful Experts (MoTE): The Synergy of Reasoning Chains and Expert Mixtures in Self-Alignment",
+        "url": "https://aclanthology.org/2025.acl-long.151.pdf",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "title": "Mixture of Cluster-Conditional LoRA Experts for Vision-Language Instruction Tuning",
+        "url": "https://doi.org/10.1109/TIP.2026.3678087",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
+      },
+      {
+        "title": "Corrupted but Not Broken: Understanding and Mitigating the Negative Impacts of Corrupted Data in Visual Instruction Tuning",
+        "url": "https://aclanthology.org/2025.emnlp-main.1317.pdf",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
       }
     ]
   },
@@ -4942,5 +5071,44 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对 2023-01-01 至 2026-11-12 的 23 篇可归属公开成果，合并预印本与期刊版并排除清华语音、怀化化学、温州儿科及绵阳激光同名作者。尚有 1 篇 IEEE 会议作品待查署名机构，未标为全量完成。"
+  },
+  "TApLOhkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
+      "https://ruixu.me/",
+      "https://hku-cg.github.io/people/",
+      "https://www.ai.hku.hk/index.php/people/academic-staff/taku",
+      "https://arxiv.org/html/2609.25832v2"
+    ],
+    "papers": [
+      {
+        "title": "MeshMosaic: Scaling Artist Mesh Generation via Local-to-Global Assembly",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。"
+      }
+    ]
+  },
+  "Nav8m8gAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.sysu.edu.cn/teacher/LinLiang",
+      "https://arxiv.org/html/2604.20100v2",
+      "https://zhanglk9.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "JoyAI-RA 0.1: A Foundation Model for Robotic Autonomy",
+        "url": "https://arxiv.org/html/2604.20100v2",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "报告附录 A 具名列出校内师生和企业作者；学生本人履历明确课题职责。"
+      }
+    ]
   }
 };
