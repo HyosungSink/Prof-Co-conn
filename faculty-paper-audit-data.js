@@ -12139,7 +12139,9 @@ const facultyPaperAudits = {
       "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
       "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
       "https://doi.org/10.1109/TNNLS.2024.3476114",
-      "https://doi.org/10.1109/TCSVT.2023.3237328"
+      "https://doi.org/10.1109/TCSVT.2023.3237328",
+      "https://doi.org/10.1093/bioinformatics/btag566",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html"
     ],
     "papers": [
       {
@@ -12183,9 +12185,23 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TCSVT.2023.3237328",
         "outcome": "no-evidence",
         "note": "六位作者均署西电；华为昇思学术开放基金属于论文资助，未见华为在职合著者或学生企业参与证明。"
+      },
+      {
+        "title": "Patient-specific multimodal learning with multi-view contrastive alignment for chest X-ray report generation",
+        "year": 2026,
+        "url": "https://doi.org/10.1093/bioinformatics/btag566",
+        "outcome": "no-evidence",
+        "note": "牛津出版社正式版列西电及其重点实验室、上海交通大学医学院和哈尔滨医科大学附一院；署名和项目资助中未见范围内企业。"
+      },
+      {
+        "title": "Enhanced Contrastive Learning with Multi-view Longitudinal Data for Chest X-ray Report Generation",
+        "year": 2025,
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页仅列西电和布朗大学，没有范围内企业作者。"
       }
     ],
-    "note": "结合作者公开书目、西电课题组报告和正式出版物逐篇核对，尚未穷尽全部书目。"
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   },
   "skrocFAAAAAJ": {
     "from": "2023-01-01",
@@ -12204,7 +12220,9 @@ const facultyPaperAudits = {
       "https://conf.researchr.org/profile/xulu",
       "https://orcid.org/0000-0002-3421-1987",
       "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
-      "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat"
+      "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
+      "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
+      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10"
     ],
     "papers": [
       {
@@ -12269,9 +12287,23 @@ const facultyPaperAudits = {
         "url": "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
         "outcome": "no-evidence",
         "note": "ISSTA 会方逐名列出全部作者，仅西安电子科技大学和曲阜师范大学。"
+      },
+      {
+        "title": "Detecting Atomicity Violations for Interrupt-driven Programs via Systematic Scheduling and Prefix-directed Feedback",
+        "year": 2024,
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
+        "outcome": "no-evidence",
+        "note": "ASE 官方会议署名含北京 Sunwise Information Technology Ltd，该公司不在本站纳入范围；其余是西电和浙江大学。"
+      },
+      {
+        "title": "A Contract-Based Framework for Formal Verification of Embedded Software",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
+        "outcome": "no-evidence",
+        "note": "Springer 出版版列西电和北京控制工程研究所，致谢为自然科学基金和博士后基金，未见范围内企业。"
       }
     ],
-    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   },
   "V5jcooYAAAAJ": {
     "from": "2023-01-01",
@@ -12293,7 +12325,9 @@ const facultyPaperAudits = {
       "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
       "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
       "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
-      "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM"
+      "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
+      "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
+      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10"
     ],
     "papers": [
       {
@@ -12379,9 +12413,23 @@ const facultyPaperAudits = {
         "url": "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
         "outcome": "no-evidence",
         "note": "SPLASH/ISSTA 会方把全体作者列为西安电子科技大学。"
+      },
+      {
+        "title": "Detecting Atomicity Violations for Interrupt-driven Programs via Systematic Scheduling and Prefix-directed Feedback",
+        "year": 2024,
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
+        "outcome": "no-evidence",
+        "note": "ASE 官方会议署名含北京 Sunwise Information Technology Ltd，该公司不在本站纳入范围；其余是西电和浙江大学。"
+      },
+      {
+        "title": "A Contract-Based Framework for Formal Verification of Embedded Software",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
+        "outcome": "no-evidence",
+        "note": "Springer 出版版列西电和北京控制工程研究所，致谢为自然科学基金和博士后基金，未见范围内企业。"
       }
     ],
-    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   },
   "c707dNUAAAAJ": {
     "from": "2023-01-01",
@@ -12402,7 +12450,9 @@ const facultyPaperAudits = {
       "https://2023.esec-fse.org/details/fse-2023-research-papers/35/-Remote-Detecting-Atomicity-Violations-in-Interrupt-Driven-Programs-via-Interruption",
       "https://2023.issta.org/details/issta-2023-technical-papers/69/SBDT-Search-Based-Differential-Testing-of-Certificate-Parsers-in-SSL-TLS-Implementat",
       "https://conf.researchr.org/details/ase-2026/ase-2026-tools-and-data-sets/18/DafnyRAG-A-Retrieval-Augmented-and-Verification-Driven-Tool-for-Automated-Repair-of-",
-      "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM"
+      "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
+      "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
+      "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10"
     ],
     "papers": [
       {
@@ -12481,9 +12531,23 @@ const facultyPaperAudits = {
         "url": "https://conf.researchr.org/details/splash-issta-2026/splash-issta-2026-posters-and-tool-demonstrations/11/OpenRepair-An-Automated-Tool-for-OpenMP-Data-Race-Repair-via-Retrieval-Augmented-LLM",
         "outcome": "no-evidence",
         "note": "SPLASH/ISSTA 会方把全体作者列为西安电子科技大学。"
+      },
+      {
+        "title": "Detecting Atomicity Violations for Interrupt-driven Programs via Systematic Scheduling and Prefix-directed Feedback",
+        "year": 2024,
+        "url": "https://conf.researchr.org/details/ase-2024/ase-2024-posters/6/Detecting-Atomicity-Violations-for-Interrupt-driven-Programs-via-Systematic-Schedulin",
+        "outcome": "no-evidence",
+        "note": "ASE 官方会议署名含北京 Sunwise Information Technology Ltd，该公司不在本站纳入范围；其余是西电和浙江大学。"
+      },
+      {
+        "title": "A Contract-Based Framework for Formal Verification of Embedded Software",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-0602-3_10",
+        "outcome": "no-evidence",
+        "note": "Springer 出版版列西电和北京控制工程研究所，致谢为自然科学基金和博士后基金，未见范围内企业。"
       }
     ],
-    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   },
   "QocCdX8AAAAJ": {
     "from": "2023-01-01",
@@ -12730,7 +12794,11 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3664647.3680775",
       "https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_Explaining_Adversarial_Robustness_of_Neural_Networks_from_Clustering_Effect_Perspective_ICCV_2023_paper.pdf",
       "https://ieeexplore.ieee.org/abstract/document/10376357/authors",
-      "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_MUter_Machine_Unlearning_on_Adversarially_Trained_Models_ICCV_2023_paper.pdf"
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_MUter_Machine_Unlearning_on_Adversarially_Trained_Models_ICCV_2023_paper.pdf",
+      "https://openreview.net/pdf?id=uBoKLl4ZS1",
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/guo24h/guo24h.pdf",
+      "https://proceedings.mlr.press/v235/guo24h.html",
+      "https://doi.org/10.1145/3664647.3680963"
     ],
     "papers": [
       {
@@ -12760,9 +12828,23 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_MUter_Machine_Unlearning_on_Adversarially_Trained_Models_ICCV_2023_paper.pdf",
         "outcome": "no-evidence",
         "note": "ICCV 正式版署名仅人大、西电及广州研究院、浙大及杭州国际科创中心、埃默里大学。"
+      },
+      {
+        "title": "Automated Loss function Search for Class-imbalanced Node Classification",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/guo24h.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式 PDF 首页列出的作者机构是西电人工智能学院、网络与信息安全学院及广州研究院。"
+      },
+      {
+        "title": "Balancing Generalization and Robustness in Adversarial Training via Steering through Clean and Adversarial Gradient Directions",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3664647.3680963",
+        "outcome": "no-evidence",
+        "note": "ACM 正式 PDF 首页六位作者均署西电；另列广东省重点实验室，无范围内企业。"
       }
     ],
-    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   },
   "-3WhJecAAAAJ": {
     "from": "2023-01-01",
@@ -12773,7 +12855,9 @@ const facultyPaperAudits = {
       "https://web.xidian.edu.cn/xiaoyuzhang/paper.html",
       "https://doi.org/10.1145/3664647.3680775",
       "https://openaccess.thecvf.com/content/ICCV2023/papers/Jin_Explaining_Adversarial_Robustness_of_Neural_Networks_from_Clustering_Effect_Perspective_ICCV_2023_paper.pdf",
-      "https://ieeexplore.ieee.org/abstract/document/10376357/authors"
+      "https://ieeexplore.ieee.org/abstract/document/10376357/authors",
+      "https://openreview.net/pdf?id=uBoKLl4ZS1",
+      "https://doi.org/10.1145/3664647.3680963"
     ],
     "papers": [
       {
@@ -12796,9 +12880,16 @@ const facultyPaperAudits = {
         "url": "https://ieeexplore.ieee.org/abstract/document/10376357/authors",
         "outcome": "no-evidence",
         "note": "IEEE 2024 正式卷期；四位作者署西电及皇家墨尔本理工大学，没有范围内企业。"
+      },
+      {
+        "title": "Balancing Generalization and Robustness in Adversarial Training via Steering through Clean and Adversarial Gradient Directions",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3664647.3680963",
+        "outcome": "no-evidence",
+        "note": "ACM 正式 PDF 首页六位作者均署西电；另列广东省重点实验室，无范围内企业。"
       }
     ],
-    "note": "交叉核对教师公开书目、作者身份和正式出版物，未达到全书目覆盖。"
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   },
   "e3X2Z3IAAAAJ": {
     "from": "2023-01-01",
@@ -12853,5 +12944,199 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核查其中五篇；有两篇发现企业合著，但仍欠在读生实际参与企业同项目的证据。其余书目待查。"
+  },
+  "Gp4H63sAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/MAZHUOQI/zh_CN/index.htm",
+      "https://doi.org/10.1093/bioinformatics/btag566",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html"
+    ],
+    "papers": [
+      {
+        "title": "Patient-specific multimodal learning with multi-view contrastive alignment for chest X-ray report generation",
+        "year": 2026,
+        "url": "https://doi.org/10.1093/bioinformatics/btag566",
+        "outcome": "no-evidence",
+        "note": "牛津出版社正式版列西电及其重点实验室、上海交通大学医学院和哈尔滨医科大学附一院；署名和项目资助中未见范围内企业。"
+      },
+      {
+        "title": "Enhanced Contrastive Learning with Multi-view Longitudinal Data for Chest X-ray Report Generation",
+        "year": 2025,
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页仅列西电和布朗大学，没有范围内企业作者。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "0Eda01MAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/LIYUNAN",
+      "https://doi.org/10.1093/bioinformatics/btag566",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html"
+    ],
+    "papers": [
+      {
+        "title": "Patient-specific multimodal learning with multi-view contrastive alignment for chest X-ray report generation",
+        "year": 2026,
+        "url": "https://doi.org/10.1093/bioinformatics/btag566",
+        "outcome": "no-evidence",
+        "note": "牛津出版社正式版列西电及其重点实验室、上海交通大学医学院和哈尔滨医科大学附一院；署名和项目资助中未见范围内企业。"
+      },
+      {
+        "title": "Enhanced Contrastive Learning with Multi-view Longitudinal Data for Chest X-ray Report Generation",
+        "year": 2025,
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Enhanced_Contrastive_Learning_with_Multi-view_Longitudinal_Data_for_Chest_X-ray_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVF 正式论文首页仅列西电和布朗大学，没有范围内企业作者。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "U9TnHJgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/PCL1/zh_CN/index.htm",
+      "https://chunleipeng.com/",
+      "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37473",
+      "https://doi.org/10.1145/3774904.3792220"
+    ],
+    "papers": [
+      {
+        "title": "ResProto-FD: Visual-Language Residual Prototype Sets for Generalized Face Forgery Detection",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37473",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版三位作者均署西安电子科技大学网络与信息安全学院。"
+      },
+      {
+        "title": "MGFFD-VLM: Multi-Granularity Prompt Learning for Face Forgery Detection with VLM",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792220",
+        "outcome": "no-evidence",
+        "note": "ACM 会议论文集目录标注 Jingyi Zhang 署海康威视研究院，其余为西电；海康威视不在本项目覆盖的企业名单。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "c5TFU9sAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/LIUDECHENG/zh_CN/index.htm",
+      "https://publications.hse.ru/pubs/share/direct/1152301113.pdf",
+      "https://doi.org/10.1145/3774904.3792220"
+    ],
+    "papers": [
+      {
+        "title": "MGFFD-VLM: Multi-Granularity Prompt Learning for Face Forgery Detection with VLM",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792220",
+        "outcome": "no-evidence",
+        "note": "ACM 会议论文集目录标注 Jingyi Zhang 署海康威视研究院，其余为西电；海康威视不在本项目覆盖的企业名单。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "kqRxf3MAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/liujing",
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/guo24h/guo24h.pdf",
+      "https://proceedings.mlr.press/v235/guo24h.html"
+    ],
+    "papers": [
+      {
+        "title": "Automated Loss function Search for Class-imbalanced Node Classification",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/guo24h.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式 PDF 首页列出的作者机构是西电人工智能学院、网络与信息安全学院及广州研究院。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "4zGSPzsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/kwu",
+      "https://openreview.net/pdf?id=uBoKLl4ZS1",
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/guo24h/guo24h.pdf",
+      "https://proceedings.mlr.press/v235/guo24h.html",
+      "https://doi.org/10.1145/3664647.3680963"
+    ],
+    "papers": [
+      {
+        "title": "Automated Loss function Search for Class-imbalanced Node Classification",
+        "year": 2024,
+        "url": "https://proceedings.mlr.press/v235/guo24h.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式 PDF 首页列出的作者机构是西电人工智能学院、网络与信息安全学院及广州研究院。"
+      },
+      {
+        "title": "Balancing Generalization and Robustness in Adversarial Training via Steering through Clean and Adversarial Gradient Directions",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3664647.3680963",
+        "outcome": "no-evidence",
+        "note": "ACM 正式 PDF 首页六位作者均署西电；另列广东省重点实验室，无范围内企业。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "OsF11PIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/jiangfenlong/zh_CN/index.htm",
+      "https://hongsong-wang.github.io/TIP2025/",
+      "https://scholars.cityu.edu.hk/en/publications/commonality-feature-representation-learning-for-unsupervised-mult/",
+      "https://doi.org/10.1109/TIP.2025.3539461"
+    ],
+    "papers": [
+      {
+        "title": "Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TIP.2025.3539461",
+        "outcome": "no-evidence",
+        "note": "正式出版作者及报告资料列陕西科技大学、西安电子科技大学和香港城市大学，没有范围内企业署名。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
+  },
+  "bYKkc3QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/dlu/index.html",
+      "https://hongsong-wang.github.io/TIP2025/",
+      "https://scholars.cityu.edu.hk/en/publications/commonality-feature-representation-learning-for-unsupervised-mult/",
+      "https://doi.org/10.1109/TIP.2025.3539461"
+    ],
+    "papers": [
+      {
+        "title": "Commonality Feature Representation Learning for Unsupervised Multimodal Change Detection",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TIP.2025.3539461",
+        "outcome": "no-evidence",
+        "note": "正式出版作者及报告资料列陕西科技大学、西安电子科技大学和香港城市大学，没有范围内企业署名。"
+      }
+    ],
+    "note": "按公开论文书目逐篇核对正式出版作者、单位和公开脚注；公开书目尚未穷尽。"
   }
 };
