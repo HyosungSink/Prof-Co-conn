@@ -161,7 +161,8 @@ function renderFacultyUnits() {
   const readout = get('unit-summary');
   const link = get('unit-directory-link');
   const swatch = get('unit-swatch');
-  const legend = [...document.querySelectorAll('.unit-map-key i')];
+  const legend = [...document.querySelectorAll('.unit-map-key [data-verification-level]')];
+  const emptyColor = getComputedStyle(get('unit-empty-chip')).backgroundColor;
   const format = new Intl.NumberFormat('zh-CN');
   const colors = new Map(survey.schools.map(([name], index) => [name, facultyVerificationShades(facultySchoolColors[index])]));
   const defaultLegend = facultyVerificationShades('#626b7e');
@@ -233,9 +234,16 @@ function renderFacultyUnits() {
 
   function paint() {
     if (!currentLayout) return;
-    const { width, height, cellWidth, cellHeight, tiles, positions, blocks, bands } = currentLayout;
+    const { width, height, columns, cells, cellWidth, cellHeight, tiles, positions, blocks, bands } = currentLayout;
     const gap = Math.min(.8, cellWidth * .15, cellHeight * .15);
     context.clearRect(0, 0, width, height);
+    context.fillStyle = emptyColor;
+    for (let i = 0; i < cells.length; i += 1) {
+      if (cells[i]) continue;
+      const x = i % columns * cellWidth;
+      const y = Math.floor(i / columns) * cellHeight;
+      context.fillRect(x + gap / 2, y + gap / 2, cellWidth - gap, cellHeight - gap);
+    }
     for (const { entry, x, y } of tiles) {
       context.globalAlpha = matchesSelection(entry) ? 1 : .2;
       context.fillStyle = chartColors(entry.school, entry.unit)[entry.score];

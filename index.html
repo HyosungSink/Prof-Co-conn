@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="中国高校与企业 AI 研究合著及学生培养关系的公开证据索引。">
   <title>AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=5ef036b1b452">
+  <link rel="stylesheet" href="styles.css?v=776eeac1a6c5">
   <script>
     function redirectLegacySection() {
       const pages = new Map([
@@ -19,15 +19,15 @@
     addEventListener('hashchange', redirectLegacySection);
     redirectLegacySection();
   </script>
-  <script src="data.js?v=5ef036b1b452" defer></script>
-  <script src="leads.js?v=5ef036b1b452" defer></script>
-  <script src="h-index.js?v=5ef036b1b452" defer></script>
-  <script src="papers.js?v=5ef036b1b452" defer></script>
-  <script src="ui.js?v=5ef036b1b452" defer></script>
-  <script src="faculty-plot-data.js?v=5ef036b1b452" defer></script>
-  <script src="faculty-plot.js?v=5ef036b1b452" defer></script>
-  <script src="faculty-heatmap.js?v=5ef036b1b452" defer></script>
-  <script src="home.js?v=5ef036b1b452" defer></script>
+  <script src="data.js?v=776eeac1a6c5" defer></script>
+  <script src="leads.js?v=776eeac1a6c5" defer></script>
+  <script src="h-index.js?v=776eeac1a6c5" defer></script>
+  <script src="papers.js?v=776eeac1a6c5" defer></script>
+  <script src="ui.js?v=776eeac1a6c5" defer></script>
+  <script src="faculty-plot-data.js?v=776eeac1a6c5" defer></script>
+  <script src="faculty-plot.js?v=776eeac1a6c5" defer></script>
+  <script src="faculty-heatmap.js?v=776eeac1a6c5" defer></script>
+  <script src="home.js?v=776eeac1a6c5" defer></script>
 </head>
 <body class="home-page">
   <header class="topbar">
@@ -104,12 +104,13 @@
           <div class="unit-toolbar">
             <label class="unit-picker"><span class="sr-only">查看高校</span><select id="unit-school"><option value="">全部高校</option></select></label>
             <label class="unit-picker"><span class="sr-only">高亮院系或研究所</span><select id="unit-group" disabled><option value="">全部院系／研究所</option></select></label>
-            <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作">
+            <div class="unit-map-key" aria-label="已核实项数从 0 到 3，三项为具体职称、Google 学术主页和 CCF 代表作；淡灰色空格没有教师记录">
               <span>已核实项数</span>
-              <span><i aria-hidden="true"></i>0</span>
-              <span><i aria-hidden="true"></i>1</span>
-              <span><i aria-hidden="true"></i>2</span>
-              <span><i aria-hidden="true"></i>3</span>
+              <span><i data-verification-level aria-hidden="true"></i>0</span>
+              <span><i data-verification-level aria-hidden="true"></i>1</span>
+              <span><i data-verification-level aria-hidden="true"></i>2</span>
+              <span><i data-verification-level aria-hidden="true"></i>3</span>
+              <span><i id="unit-empty-chip" aria-hidden="true"></i>空格</span>
             </div>
           </div>
           <div id="unit-plot" class="unit-plot">
