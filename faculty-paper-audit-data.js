@@ -46650,5 +46650,433 @@ const facultyPaperAudits = {
         "note": "USENIX 正式前页列西北工业大学、墨尔本大学、哈尔滨工程大学。文中使用公开行业负载作为测试，不表明公司参与。"
       }
     ]
+  },
+  "KXumTFMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://zilimeng.com/papers.html",
+      "https://researchportal.hkust.edu.hk/en/persons/zili-meng/",
+      "https://dblp.org/pid/198/8304.html",
+      "https://ece.hkust.edu.hk/zilim",
+      "https://home.hxj.hk/",
+      "https://chenjing98.github.io/",
+      "https://bobankh.com/",
+      "https://researchportal.hkust.edu.hk/en/publications/llm4cot-large-language-models-orchestrating-chain-of-task-optimiz/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "A Composable Emulation Framework for Whitebox Switches",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/miao-whitebox",
+        "outcome": "lead",
+        "note": "原文明确腾讯生产网络和具名企业组，Xianneng Zou 腾讯与清华深圳双署；尚找无其在读身份/江勇具名师承，港科大仅孟子立一位作者。正式作者发表排序与个人书目旧排序不影响同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "COMETS: Coordinated Multi-Destination Video Transmission with In-Network Rate Adaptation",
+        "url": "https://arxiv.org/html/2601.18670v1",
+        "outcome": "no-evidence",
+        "note": "作者与作者简历脚注分别归港科大、港科大广州及相关学术单位；2026 IEEE 期刊与预印本合并，未发现学生参与范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Compass: Congestion Control for Disobedient Traffic",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/compass-congestion-control-for-disobedient-traffic/",
+        "outcome": "no-evidence",
+        "note": "港科大机构库确认 2026-02-11 在线和完整署名；原理研究使用 HPCC 和 PowerTCP 技术作底座，未查到范围内企业具名在读学生参加。"
+      },
+      {
+        "year": 2023,
+        "title": "Confucius: Adapting Home Routers to Congestion Control’s Reactions for Consistent Low Latency",
+        "url": "https://netsyn.princeton.edu/sites/g/files/toruqf3201/files/documents/infocom26.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 会议稿正式署港科大、斯坦福、清华、卡耐基梅隆、普林斯顿；2023 arXiv 2310.18030 改题原稿和 IETF 草案同一技术，不能另计。"
+      },
+      {
+        "year": 2026,
+        "title": "DeNC++: Efficient Diffusion-Enhanced Neural Codec for End-to-End Semantic Streaming at the Edge",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40135/44096",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式作者单位为深大、港科大、纽约州立大学布法罗分校和芝大；无范围内企业合作者。"
+      },
+      {
+        "year": 2026,
+        "title": "ForeQast: Structuring Forward Looking Delay Guarantees in QUIC",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/foreqast-structuring-forward-looking-delay-guarantees-in-quic/",
+        "outcome": "no-evidence",
+        "note": "港科大机构书目确认 DOI、在线日期和三作者；首作实名公开归功于港科大孟子立指导。该作没有范围内企业作者或具名项目。"
+      },
+      {
+        "year": 2026,
+        "title": "Hermit: A Flow-Collaborative Transport Scheme for Multi-Source Video On-Demand Streaming",
+        "url": "https://repository.hkust.edu.hk/ir/Record/1783.1-174066",
+        "outcome": "lead",
+        "note": "港科大机构库列字节合作团队 Haiping Wang、Shu Shi、Hebin Yu 等及清华作者；仍未见港科大孟指导且当时在读、参与该项企业研究的学生。相同企业团队另有独立的 Medley，不视为此作。"
+      },
+      {
+        "year": 2026,
+        "title": "LLM4CoT: Large Language Models Orchestrating Chain-of-Task Optimization Via Meta-Adapter in 6G Heterogeneous Networks",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/llm4cot-large-language-models-orchestrating-chain-of-task-optimiz/",
+        "outcome": "no-evidence",
+        "note": "港科大机构库显示 2026-05-15 期刊题录，作者王成祥的东南官方主页亦列同一作品。公开元数据确认作者与学术合作，但未能证明范围内企业的具名研究参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Law: Towards Consistent Low Latency in 802.11 Home Networks",
+        "url": "https://www.usenix.org/system/files/nsdi26-shen-yibin.pdf",
+        "outcome": "no-evidence",
+        "note": "NSDI 作者沈一斌与孟子立均署港科大，致谢为论文 shepherd 和公开科研项目。另一个清华博士沈逸昕（Yixin）是不同人。"
+      },
+      {
+        "year": 2026,
+        "title": "MAE: More Adaptive Video Encoder for Consistent Low Latency in High-Quality Real-Time Communication",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/meng",
+        "outcome": "no-evidence",
+        "note": "会议五作者均署港科大；黄湘杰有字节实习，但另一篇 ACE 的字节工作证据不延伸到此文。与 2025 同名词的自适应编码短海报进一步检查技术重复。"
+      },
+      {
+        "year": 2026,
+        "title": "MD2G-Cast: Relay-Coordinated Multicast for Scalable Volumetric Streaming over MoQ",
+        "url": "https://arxiv.org/html/2608.10020v1",
+        "outcome": "no-evidence",
+        "note": "原文四作者仅署港科大和港科大广州。本稿参考此前 INDS，主题改为多接收端的 MoQ 中继多播，保留独立论文。"
+      },
+      {
+        "year": 2025,
+        "title": "Make a Video Call with LLM: A Measurement Campaign over Six Mainstream Apps",
+        "url": "https://arxiv.org/html/2510.00481v2",
+        "outcome": "no-evidence",
+        "note": "arXiv 首版标题 Five Mainstream Apps，对应 ACM DOI 10.1145/3798065.3798087；第二版扩为 Six Mainstream Apps，仍同一实测基准。字节产品作为被测试对象，原文未署字节或说明学生参与字节研究。"
+      },
+      {
+        "year": 2026,
+        "title": "Mortise: Auto-tuning Congestion Control to Optimize QoE via Network-Aware Parameter Optimization",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/shen-yixin",
+        "outcome": "lead",
+        "note": "正式首作者沈逸昕三署清华、字节、中关村实验室，同篇 Yan Liu 只署字节；沈本人具名清华徐明伟为导师，孟子立没有港科大学生同篇证据。徐明伟及共同上署清华王博不在本轮符合条件的冻结队列；因此不能把这篇归孟。"
+      },
+      {
+        "year": 2026,
+        "title": "OCC: Physical-Layer Assisted Congestion Control for Real-Time Communications",
+        "url": "https://arxiv.org/html/2604.22383v1",
+        "outcome": "no-evidence",
+        "note": "公开原文四作者仅署香港科技大学电子与计算机工程系；行业使用场景没有具名合作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Poster: xg.glass: Develop AI Glasses Applications in 10 Lines of Code and Easily Deploy onto Different Glasses",
+        "url": "https://zilimeng.com/papers/xgglass-hotmobile26.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM HotMobile 原文五作者均署港科大；同文列 Rokid 和 Meta 产品作为背景提及，并非合作作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Real-Time Video Gets a Fast Lane via Smart Queue Flushing at the Wireless Edge",
+        "url": "https://repository.hkust.edu.hk/ir/Record/1783.1-173317",
+        "outcome": "no-evidence",
+        "note": "港科大机构库核对发布日、作者及 DOI 10.1109/INFOCOM59046.2026.11571420；与前一年 Jammed Packets 的同组研究也未见范围内企业。保留两条正式题录以便比对算法和版本。"
+      },
+      {
+        "year": 2026,
+        "title": "SSD-LLaMA: SSD-Native Inference for Trillion-Parameter MoE at 1+ Token/s on a Consumer PC",
+        "url": "https://arxiv.org/html/2609.18110v1",
+        "outcome": "no-evidence",
+        "note": "原文首页列港科大、WiCi AI、深理工及中科院深圳先进技术研究院；WiCi AI 不是项目指定的企业。"
+      },
+      {
+        "year": 2026,
+        "title": "WiCi: Wireless GPU Computing Infrastructure",
+        "url": "https://arxiv.org/html/2608.24204v1",
+        "outcome": "no-evidence",
+        "note": "正式 HotMobile 短演示 DOI 10.1145/3789514.3796248 与后续 arXiv 均作 WiCi 本地无线 GPU 基础设施，合为一个项目；短演示全为港科大，后续工程稿明确使用 WiCi 项目联络，未见范围内企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "ACE: Sending Burstiness Control for High-Quality Real-time Communication",
+        "url": "https://doi.org/10.1145/3718958.3750520",
+        "outcome": "lead",
+        "note": "原文第一作者黄湘杰港科大/字节双署，员工 Sandesh 本人对外发布点明该项目及企业实习。黄的本人履历记 2023-11 至 2025-08 在港科大组为访研实习，同段为中南大学硕士（导师张昊且不署名），随后港科大博导孟子立。尚未钉住其在读港科大后有实质研究，不以 9 月报告代替；ACM 8 月 27 日已公开。"
+      },
+      {
+        "year": 2025,
+        "title": "Active Management of Jammed Packets in Wireless Real-Time Communications",
+        "url": "https://www.nossdav.org/2025/",
+        "outcome": "no-evidence",
+        "note": "NOSSDAV 2025 正式会程逐作者原始单位全部清华大学或港科大，不含具名企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Adaptive Video Encoder for Network Bandwidth Drops in Real-Time Communication",
+        "url": "https://huameng15.github.io/pdf/sigcomm25posterdemo-final125.pdf",
+        "outcome": "no-evidence",
+        "note": "SIGCOMM 三页海报原文三人港科大，同组后来另有更完整 MAE 加入基于网络状态的提前探测；保留海报独立题录，无论是否计作同一研究都没有新增关系。"
+      },
+      {
+        "year": 2025,
+        "title": "Configuring Dynamic Multi-Stage Serverless Pipelines for Video Processing with Minimal Profiling Overhead",
+        "url": "https://doi.org/10.1145/3746027.3755046",
+        "outcome": "no-evidence",
+        "note": "ACM 正文作者单位仅清华大学与港科大；使用 AWS 等进行实验，不能算企业研究。与 Beimin 题录和运行调参方法分别记录。"
+      },
+      {
+        "year": 2025,
+        "title": "DACE: Dynamic Adaptive Complexity Encoding for Real Time Communication on Heterogeneous Devices",
+        "url": "https://conferences.sigcomm.org/sigcomm/2025/papers-posters-demos-info/",
+        "outcome": "no-evidence",
+        "note": "ACM 会程法人页直接显示全是港科大作者。学校 FYP 名册也证实孟指导 Yeung、Hutama、Lagade 的毕业项目，原文未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "INDS: Incremental Named Data Streaming for Real-Time Point Cloud Video",
+        "url": "https://arxiv.org/html/2508.13756v1",
+        "outcome": "no-evidence",
+        "note": "ACM MM DOI 10.1145/3746027.3755808 同首版。全文首页五人港科大广州、孟港科大，没有企业署名；作为后续 MD2G-Cast 的引文而非同一论文。"
+      },
+      {
+        "year": 2025,
+        "title": "Learning-Enhanced High-Throughput Pattern Matching Based on Programmable Data Plane",
+        "url": "https://www.usenix.org/system/files/atc25-duan-guanglin.pdf",
+        "outcome": "no-evidence",
+        "note": "USENIX 正式首页为鹏城、清华深圳、康奈尔、港科大两校区与深圳大学；没有具名企业角色。"
+      },
+      {
+        "year": 2025,
+        "title": "RoTO: Robust Topology Obfuscation Against Tomography Inference Attacks",
+        "url": "https://arxiv.org/html/2508.12852v1",
+        "outcome": "no-evidence",
+        "note": "首稿署深圳理工大学、北京交通大学及港科大，不含目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Tooth: Toward Optimal Balance of Video QoE and Redundancy Cost by Fine-Grained FEC in Cloud Gaming Streaming",
+        "url": "https://www.usenix.org/conference/nsdi25/presentation/an",
+        "outcome": "no-evidence",
+        "note": "作者正式单位是北邮、港科大和蔚领时代；该企业不在范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Zhuge: Toward Consistent Low Latency With Minimal Control Loop Delay",
+        "url": "https://xplorestaging.ieee.org/document/10770290",
+        "outcome": "no-evidence",
+        "note": "2024 在线、2025 IEEE 卷；作者 Justine Sherry 的个人书目同时列 2022 SIGCOMM 同核心技术的短控制环论文。正式卷为本篇。未找到 2023 后所增研究的在读企业参与证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Beimin: Serverless-based Adaptive Real-Time Video Processing",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/beimin-serverless-based-adaptive-real-time-video-processing-2/",
+        "outcome": "no-evidence",
+        "note": "IEEE ICME 三作者题录及摘要在港科大已公开，可确认 AWS Lambda 只是评测基础设施，无证据形成学生参与企业研究的三方链。"
+      },
+      {
+        "year": 2024,
+        "title": "Bidirectional Bandwidth Coordination under Half-Duplex Bottlenecks for Video Streaming",
+        "url": "https://zilimeng.com/papers/plum-icnp24.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 原文只有清华、中关村实验室和港科大；陈婧另一篇腾讯实习和研究不能用在本篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Cold Start or Hot Start? Robust Slow Start in Congestion Control with A Priori Knowledge for Mobile Web Services",
+        "url": "https://zilimeng.com/papers/wisestart-www24.pdf",
+        "outcome": "lead",
+        "note": "ACM 原文钱鑫与李晓天署美团。首作者张佳简历具名其在 2021–2023 清华在读时为李晓天指导的美团实习，但论文时已任中关村实验室，不借论文发表角色倒推实习参与。当前无法为孟建立三方；与 Floo 技术任务各自不同。"
+      },
+      {
+        "year": 2024,
+        "title": "Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming",
+        "url": "https://www.usenix.org/conference/nsdi24/presentation/meng",
+        "outcome": "lead",
+        "note": "腾讯官方确认 START 项目，正式原文同篇孟在清华博士研究阶段，又有腾讯与港科大后来署名；首作者博士论文第 4 章载技术，导师徐明伟不在本轮队列。清华陈婧 2021-07 至 2022-10 在腾讯实习，但没有证据表明孟子立当时是该清华学生的学术导师。"
+      },
+      {
+        "year": 2024,
+        "title": "Inferring In-Network Queue Management from End Hosts in Real-Time Communications",
+        "url": "https://zilimeng.com/papers/inferaqm-icc24.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE 正文首页作者单位为清华、中关村实验室、香港科技大学。"
+      },
+      {
+        "year": 2024,
+        "title": "KEPC-Push: A Knowledge-Enhanced Proactive Content Push Strategy for Edge-Assisted Video Feed Streaming",
+        "url": "https://zilimeng.com/papers/kepc-atc24.pdf",
+        "outcome": "lead",
+        "note": "USENIX 首作者 Ziwen Ye 双署清华深圳和鹏城，另有同篇字节三作者。未见学生在字节执行此项研究或为港科大孟指导。"
+      },
+      {
+        "year": 2024,
+        "title": "Poster: Content-aware Retransmission for Ultra-low-latency Video Streaming",
+        "url": "https://zilimeng.com/papers/li-sigcommposter24.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM SIGCOMM 原始海报目录作者李威与孟子立皆署港科大，未有目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Poster: Controlling TCP Socket Queueing Delay",
+        "url": "https://zilimeng.com/papers/park-sigcommposter24.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM SIGCOMM 原文两作者 Hyun Hu Park 与孟子立均为港科大；靶向改造 TCP 并非企业合作证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Poster: User-Controllable Congestion Mitigation for Low-Latency Applications",
+        "url": "https://zilimeng.com/papers/schlomer-sigcommposter24.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM SIGCOMM 原文作者仅卡内基梅隆与港科大。"
+      },
+      {
+        "year": 2024,
+        "title": "Prudentia: Findings of an Internet Fairness Watchdog",
+        "url": "https://zilimeng.com/papers/prudentia-sigcomm24.pdf",
+        "outcome": "no-evidence",
+        "note": "SIGCOMM 正文署 CMU、UC San Diego、港科大等学校；作者列表和摘要没有范围内企业研究人员。"
+      },
+      {
+        "year": 2024,
+        "title": "RoLL+: Real-Time and Accurate Route Leak Locating with AS Triplet Features at Scale",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/roll-real-time-and-accurate-route-leak-locating-with-as-triplet-f/",
+        "outcome": "no-evidence",
+        "note": "2024 IEEE 期刊与 2023 ICC RoLL 同一核心 AS 三元组定位框架并为扩展体量版，合看；最初正式 PDF 为清华及联合学术机构，未见目标企业学生项目。"
+      },
+      {
+        "year": 2023,
+        "title": "Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective",
+        "url": "https://zilimeng.com/papers/floo-atc23.pdf",
+        "outcome": "lead",
+        "note": "原文注明美团合作者与应用来自大众点评；第一作者张佳本人简历显示 2021-09–2023-06 在美团由同篇李晓天指导，在读清华博士导师徐明伟。此实际学术导师不在冻结队列，孟本篇本人尚在博士期，不以其后来港科大职务纳入。"
+      },
+      {
+        "year": 2023,
+        "title": "DeBGP: Decentralized and Efficient BGP Hijacking Prevention System",
+        "url": "https://zilimeng.com/papers/debgp-icccn23.pdf",
+        "outcome": "no-evidence",
+        "note": "IEEE ICCCN 公开原始首页是清华和联合实验室作者，未查得企业同项合作。此为路由劫持防御，与 RoLL 的路由泄漏定位不同。"
+      },
+      {
+        "year": 2023,
+        "title": "Enabling High Quality Real-Time Communications with Adaptive Frame-Rate",
+        "url": "https://www.usenix.org/conference/nsdi23/presentation/meng",
+        "outcome": "lead",
+        "note": "NSDI 作者首作当时仍为清华博士，腾讯 START 游戏团队联合，博导徐明伟不在冻结队列，不能作为孟本人港科大导师关系；同篇王挺峰北邮/清华/腾讯三署仍缺准确师承及参与期。正文第一轮正式线上 A/B 实验早在 2021-01 已执行（第 6 节），不能用 2023 发表倒推研究时间。"
+      },
+      {
+        "year": 2023,
+        "title": "Robustifying Measurement-Based Congestion Control Algorithms",
+        "url": "https://arxiv.org/pdf/2308.03350",
+        "outcome": "no-evidence",
+        "note": "arXiv 文章的署名与原文没有具名企业。沈逸昕另篇 Mortise 的字节经历不回填本稿。"
+      }
+    ],
+    "note": "用个人书目、港科大研究门户和 DBLP 交叉核对截至 2026-11-12 可辨认的公开论文。已公开多版的同项工作合并，首发早于调查期的同项工作与非论文专著未列。按清华求学期与港科大任教时段分别核对，证据不足的线索保留。"
+  },
+  "3e5kmjsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=718",
+      "https://tianyuanjin.github.io/",
+      "https://dblp.org/pid/208/2335.html",
+      "https://arxiv.org/search/?query=Jin%2C+Tianyuan&searchtype=author&abstracts=show&size=50",
+      "https://www.comp.nus.edu.sg/~xiaoxk/publications.html",
+      "https://vyftan.github.io/news.html",
+      "https://panxulab.github.io/publication",
+      "https://learningtheory.org/colt2026/program.html"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Nearly Minimax-Optimal Regret for Linear Contextual Bandits with Arbitrary Adaptive Action Sets",
+        "url": "https://arxiv.org/abs/2609.15170",
+        "outcome": "no-evidence",
+        "note": "2026-09-14 公开全文唯一作者晋天元，署港科广数据科学与分析学域，无公司作者。早于截止日的个人站遗漏项。"
+      },
+      {
+        "year": 2026,
+        "title": "Avoiding exp(k*) Scaling for Thompson Sampling in Combinatorial Semi-Bandits: From Multiple Seeds to a Single Seed",
+        "url": "https://proceedings.mlr.press/v336/jin26a.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式 PDF 载港科广、加州大学洛杉矶分校与新加坡国大；现场节目中的作者旧单位是新加坡国大，均无目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "SCOPE: Cost-Efficient Model Selection for Compound AI Systems under Quality Constraints",
+        "url": "https://doi.org/10.1145/3770855.3818067",
+        "outcome": "no-evidence",
+        "note": "正式稿及作者开放全文 2606.00774 载港科广、NUS 和 Shiqi Zhang 双署 PyroWis AI；该企业不在范围。首作者 Yiqian Huang 的个人目录明确博士导师为 Xiaokui Xiao；没有范围内公司合作角色。"
+      },
+      {
+        "year": 2024,
+        "title": "Best Arm Identification with Minimal Regret",
+        "url": "https://www.jmlr.org/papers/v27/24-1612.html",
+        "outcome": "no-evidence",
+        "note": "JMLR 27(86) 全文三位作者都署新加坡国大；与 arXiv 2409.18909 为同一 Double KL-UCB 成果，没有企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Asymptotically and Minimax Optimal Regret Bounds for Multi-Armed Bandits with Abstention",
+        "url": "https://openreview.net/forum?id=AYp5zOcFdA",
+        "outcome": "no-evidence",
+        "note": "TMLR 2026 年 4 月正式全文三位作者都署新加坡国大；此前 arXiv 2402.15127 原题 Multi-Armed Bandits with Abstention，为同一作品。"
+      },
+      {
+        "year": 2026,
+        "title": "Breaking the Total Variance Barrier: Sharp Sample Complexity for Linear Heteroscedastic Bandits with Fixed Action Set",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/166cdd595aea8bf6cd8de4998d49f205-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式全文列 UCLA、NUS 和 Duke；arXiv 2607.23679 同篇。致谢科研基金并非具名公司实研。"
+      },
+      {
+        "year": 2025,
+        "title": "SteerConf: Steering LLMs for Confidence Elicitation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1bfd87d2d92f0556819467dc08034f76-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版首页只列香港理工大学和新加坡国大。arXiv 2503.02863 v1 题名 Calibrating LLM Confidence with Semantic Steering: A Multi-Prompt Aggregation Framework，与修改至 SteerConf 的 v2 为同一作品。"
+      },
+      {
+        "year": 2025,
+        "title": "Breaking the log(1/Δ₂) Barrier: Better Batched Best Arm Identification with Adaptive Grids",
+        "url": "https://openreview.net/forum?id=buxFBI6GG4",
+        "outcome": "no-evidence",
+        "note": "ICLR 收录本与 arXiv 2501.17370 同一作品；作者 Jin、Zhang、Zhou 只署新加坡国大与印第安纳大学，不属于带有同样缩写但不同算法的 NeurIPS 2024 成果。"
+      },
+      {
+        "year": 2023,
+        "title": "Optimal Batched Best Arm Identification",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/f359ff8b0966cfc6cad70aaf251622ac-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 版本首页作者单位 NUS、港科广、Duke，致谢不显示指定企业实研。arXiv 2310.14129 同篇；研究最优选择的批次数，不是 ICML 的 linear bandits 累计 regret。"
+      },
+      {
+        "year": 2024,
+        "title": "Sparsity-Agnostic Linear Bandits with Adaptive Adversaries",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4a36c3c51af11ed9f34615b81edb5bbc-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版本及 arXiv 2406.01192 为同篇，公开全文作者机构为 NUS 和米兰大学；致谢学术资助，无范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Finite-Time Frequentist Regret Bounds of Multi-Agent Thompson Sampling on Sparse Hypergraphs",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29193",
+        "outcome": "no-evidence",
+        "note": "AAAI 出版稿署 NUS、Duke、UCLA。NSF 开放库同版与 2312.15549 预印本均已对照，没有范围内企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Optimal Batched Linear Bandits",
+        "url": "https://proceedings.mlr.press/v235/ren24a.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式 PDF 列中科大、NUS、Duke，致谢科研机构；arXiv 2406.04137 为同一 E^4 算法工作，无目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Thompson Sampling with Less Exploration is Fast and Optimal",
+        "url": "https://proceedings.mlr.press/v202/jin23b.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式论文只列 NUS 和 Duke，致谢公共资助；没有目标企业。正式发表时间 2023。"
+      }
+    ],
+    "note": "教师按年公开书目、DBLP 题录、arXiv 精确作者检索及主要合著者公开书目交叉比对，范围截止 2026-11-12。核到个人站未列的 2026-09 独著；旧 ICML 2021 Optimal Streaming Algorithms 仅于 2024 重上传 arXiv，原文明确引用 ICML 2021，两版不重复。Stochastic Bandits for Egalitarian Assignment 正式版列 Eugene Lim、Vincent Y. F. Tan、Harold Soh，不是晋天元的论文。"
   }
 };
