@@ -9625,6 +9625,709 @@ const survey = {
         "黄鑫本人在个人简介中具名列王庆为西北工业大学博士导师。",
         "https://xhuangcv.github.io/"
       ]
+    },
+    {
+      "id": "vpo-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2503.20491",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "研究期间为清华大学计算机系教授、CoAI 负责人和同篇通讯作者。",
+        "https://coai.cs.tsinghua.edu.cn/hml"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源会议讲者介绍列为智谱 AI GLM 技术团队研究员，之前担任华为云技术专家；该篇同署智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "程家乐 · Jiale Cheng",
+        "清华大学计算机系在读博士，师从黄民烈教授；本论文脚注明确以姓名首字母 JC 标注智谱 AI 实习期间完成。",
+        "https://cips-cl.org/?p=89141"
+      ],
+      "title": "VPO: Aligning Text-to-Video Generation Models with Prompt Optimization",
+      "short": "VPO",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_VPO_Aligning_Text-to-Video_Generation_Models_with_Prompt_Optimization_ICCV_2025_paper.pdf",
+      "extra": [
+        [
+          "正式会议题录",
+          "https://openaccess.thecvf.com/content/ICCV2025/html/Cheng_VPO_Aligning_Text-to-Video_Generation_Models_with_Prompt_Optimization_ICCV_2025_paper.html"
+        ],
+        [
+          "2025 青稞 AI 嘉年华具名师生信息",
+          "https://qingkeai.online/2025"
+        ]
+      ],
+      "evidence": "该篇作者和脚注明确对应：清华大学程家乐在智谱 AI 实习期间参与本文，黄民烈为清华署名通讯作者，顾晓韬为智谱 AI 署名作者。独立公开资料具名核对程家乐学籍、指导关系及顾晓韬企业研究员身份。",
+      "advising": [
+        "校内博士导师",
+        "计算语言学专业委员会公开讲者简介具名说明，清华大学博士生程家乐师从黄民烈教授。",
+        "https://cips-cl.org/?p=89141"
+      ]
+    },
+    {
+      "id": "autodetect-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2406.16714",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "研究期间为清华大学计算机系教授、CoAI 负责人和同篇通讯作者。",
+        "https://coai.cs.tsinghua.edu.cn/hml"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源会议讲者介绍列为智谱 AI GLM 技术团队研究员，之前担任华为云技术专家；该篇同署智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "程家乐 · Jiale Cheng",
+        "清华大学计算机系在读博士，师从黄民烈教授；本论文脚注明确以姓名首字母 JC 标注智谱 AI 实习期间完成。",
+        "https://cips-cl.org/?p=89141"
+      ],
+      "title": "AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models",
+      "short": "AutoDetect",
+      "date": "2024-11",
+      "venue": "Findings of EMNLP",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2406.16714v2",
+      "extra": [
+        [
+          "正式会议题录",
+          "https://aclanthology.org/2024.findings-emnlp.397/"
+        ],
+        [
+          "2025 青稞 AI 嘉年华具名师生信息",
+          "https://qingkeai.online/2025"
+        ]
+      ],
+      "evidence": "该篇作者和脚注明确对应：清华大学程家乐在智谱 AI 实习期间参与本文，黄民烈为清华署名通讯作者，顾晓韬为智谱 AI 署名作者。独立公开资料具名核对程家乐学籍、指导关系及顾晓韬企业研究员身份。",
+      "advising": [
+        "校内博士导师",
+        "计算语言学专业委员会公开讲者简介具名说明，清华大学博士生程家乐师从黄民烈教授。",
+        "https://cips-cl.org/?p=89141"
+      ]
+    },
+    {
+      "id": "spar-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2412.11605",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "研究期间为清华大学计算机系教授、CoAI 负责人和同篇通讯作者。",
+        "https://coai.cs.tsinghua.edu.cn/hml"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源会议讲者介绍列为智谱 AI GLM 技术团队研究员，之前担任华为云技术专家；该篇同署智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "程家乐 · Jiale Cheng",
+        "清华大学计算机系在读博士，师从黄民烈教授；本论文脚注明确以姓名首字母 JC 标注智谱 AI 实习期间完成。",
+        "https://cips-cl.org/?p=89141"
+      ],
+      "title": "SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models",
+      "short": "SPaR",
+      "date": "2025-04",
+      "venue": "ICLR",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2412.11605v2",
+      "extra": [
+        [
+          "正式会议题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/abe1eb21ceb046209c96a0f5e7544ccc-Abstract-Conference.html"
+        ],
+        [
+          "2025 青稞 AI 嘉年华具名师生信息",
+          "https://qingkeai.online/2025"
+        ]
+      ],
+      "evidence": "该篇作者和脚注明确对应：清华大学程家乐在智谱 AI 实习期间参与本文，黄民烈为清华署名通讯作者，顾晓韬为智谱 AI 署名作者。独立公开资料具名核对程家乐学籍、指导关系及顾晓韬企业研究员身份。",
+      "advising": [
+        "校内博士导师",
+        "计算语言学专业委员会公开讲者简介具名说明，清华大学博士生程家乐师从黄民烈教授。",
+        "https://cips-cl.org/?p=89141"
+      ]
+    },
+    {
+      "id": "longsafety-zhipu-tsinghua-huang",
+      "paperId": "arxiv:2502.16971",
+      "company": "智谱（GLM / Z.ai）",
+      "team": "GLM 技术团队",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "黄民烈 · Minlie Huang",
+        "研究期间为清华大学计算机系教授、CoAI 负责人和同篇通讯作者。",
+        "https://coai.cs.tsinghua.edu.cn/hml"
+      ],
+      "employee": [
+        "顾晓韬 · Xiaotao Gu",
+        "智源会议讲者介绍列为智谱 AI GLM 技术团队研究员，之前担任华为云技术专家；该篇同署智谱 AI。",
+        "https://hub.baai.ac.cn/view/37590"
+      ],
+      "student": [
+        "程家乐 · Jiale Cheng",
+        "清华大学计算机系在读博士，师从黄民烈教授；本论文脚注明确以姓名首字母 JC 标注智谱 AI 实习期间完成。",
+        "https://cips-cl.org/?p=89141"
+      ],
+      "title": "LongSafety: Evaluating Long-Context Safety of Large Language Models",
+      "short": "LongSafety",
+      "date": "2025-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2502.16971",
+      "extra": [
+        [
+          "正式会议题录",
+          "https://aclanthology.org/2025.acl-long.1530/"
+        ],
+        [
+          "2025 青稞 AI 嘉年华具名师生信息",
+          "https://qingkeai.online/2025"
+        ]
+      ],
+      "evidence": "该篇作者和脚注明确对应：清华大学程家乐在智谱 AI 实习期间参与本文，黄民烈为清华署名通讯作者，顾晓韬为智谱 AI 署名作者。独立公开资料具名核对程家乐学籍、指导关系及顾晓韬企业研究员身份。",
+      "advising": [
+        "校内博士导师",
+        "计算语言学专业委员会公开讲者简介具名说明，清华大学博士生程家乐师从黄民烈教授。",
+        "https://cips-cl.org/?p=89141"
+      ]
+    },
+    {
+      "id": "kuaishou-hrpo-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐算法",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学数据科学系教师，本篇校方共同通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "employee": [
+        "蔡庆芃 · Qingpeng Cai",
+        "快手高级总监，论文共同通讯作者。",
+        "https://qingpengcai.github.io/"
+      ],
+      "student": [
+        "Kaifeng Guo",
+        "2026 年 1 月起在香港城市大学攻读数据科学博士，2025 年 10 月起在快手科研实习。",
+        "https://kaifengguo.github.io/"
+      ],
+      "title": "Hierarchical Residual Policy Optimization for Generative Recommendations",
+      "short": "HRPO",
+      "date": "2026-08",
+      "venue": "KDD",
+      "area": "推荐与检索",
+      "paper": "https://arxiv.org/html/2608.00750",
+      "evidence": "论文脚注明确说明由 Kaifeng Guo 在快手实习时完成。本人主页显示其于该研究期间在港城大读博，并将本篇列为个人成果、2026 年 5 月录用。博士导师赵翔宇与快手高级总监蔡庆芃均是本篇通讯作者。",
+      "advising": [
+        "博士导师",
+        "Kaifeng Guo 本人主页列明由 Xiangyu Zhao 指导其港城大数据科学博士研究。",
+        "https://kaifengguo.github.io/"
+      ],
+      "extra": [
+        [
+          "港城大正式出版索引",
+          "https://scholars.cityu.edu.hk/en/publications/hierarchical-residual-policy-optimization-for-generative-recommen/"
+        ],
+        [
+          "ACM DOI",
+          "https://doi.org/10.1145/3770855.3818206"
+        ]
+      ]
+    },
+    {
+      "id": "kuaishou-gave-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐算法",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "香港城市大学数据科学系教师，为 Jingtong Gao 博士导师。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "employee": [
+        "蔡庆芃 · Qingpeng Cai",
+        "快手高级总监，论文共同通讯作者。",
+        "https://qingpengcai.github.io/"
+      ],
+      "student": [
+        "Jingtong Gao",
+        "在香港城市大学读博，2024 年 8 月起在快手做科研实习；将本篇列为在快手上线的研究。",
+        "https://gaojingtong.github.io/"
+      ],
+      "title": "Generative Auto-Bidding with Value-Guided Explorations",
+      "short": "GAVE",
+      "date": "2025-07",
+      "venue": "SIGIR",
+      "area": "推荐与检索",
+      "paper": "https://arxiv.org/html/2504.14587",
+      "evidence": "Jingtong Gao 为第一作者；其主页将这项成果明确标为在快手上线，并列同期快手实习。学校学位论文将 GAVE 列为作者本人博士研究，说明在快手用于实际竞价。原文列赵翔宇和快手高级总监蔡庆芃同为作者，记载快手资助和线上 A/B 测试。",
+      "advising": [
+        "博士导师",
+        "香港城市大学博士学位论文明确列 Xiangyu Zhao 为 Jingtong Gao 的导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/open-world-recommendation-knowledge-transfer-scenario-adaptation-/"
+      ],
+      "extra": [
+        [
+          "ACM DOI",
+          "https://doi.org/10.1145/3726302.3729987"
+        ],
+        [
+          "同篇作者保存的正式版",
+          "https://personal.ntu.edu.sg/boan/papers/SIGIR25_autobidding.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "kuaishou-cbd-cityu-xiangyu-zhao",
+      "company": "快手",
+      "team": "推荐算法",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "Xiangyu Zhao",
+        "香港城市大学数据科学系教师，为 Jingtong Gao 博士导师。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "employee": [
+        "蔡庆芃 · Qingpeng Cai",
+        "快手高级总监，论文共同通讯作者。",
+        "https://qingpengcai.github.io/"
+      ],
+      "student": [
+        "Jingtong Gao",
+        "在香港城市大学读博，2024 年 8 月起在快手做科研实习；将本篇列为在快手上线的研究。",
+        "https://gaojingtong.github.io/"
+      ],
+      "title": "Generative Auto-Bidding in Large-Scale Auctions via Diffusion Completer-Aligner",
+      "short": "CBD",
+      "date": "2026-08",
+      "venue": "KDD",
+      "area": "推荐与检索",
+      "paper": "https://doi.org/10.1145/3770855.3818422",
+      "evidence": "Jingtong Gao 个人履历将这篇具体成果列为快手上线项目，并列同期快手科研实习。2025 年公开首版正值其快手实习与港城大博士在读阶段，原文记载在快手广告线上系统实际测试；正式会议列其为第二作者，博士导师赵翔宇与快手高级总监蔡庆芃均为同篇作者。",
+      "advising": [
+        "博士导师",
+        "香港城市大学博士学位论文明确列 Xiangyu Zhao 为 Jingtong Gao 的导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/open-world-recommendation-knowledge-transfer-scenario-adaptation-/"
+      ],
+      "extra": [
+        [
+          "港城大正式出版索引",
+          "https://scholars.cityu.edu.hk/en/publications/generative-auto-bidding-in-large-scale-auctions-via-diffusion-com/"
+        ],
+        [
+          "2025 首版：快手上线细节",
+          "https://arxiv.org/html/2509.03348"
+        ]
+      ]
+    },
+    {
+      "company": "腾讯",
+      "team": "优图天衍研究中心（Jarvis）",
+      "studentSchool": "西安交通大学",
+      "title": "Large Language Model Distilling Medication Recommendation Model",
+      "short": "LEADER",
+      "date": "2024-02",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2402.02803v2",
+      "employee": [
+        "吴宪 · Xian Wu",
+        "2017 年 12 月加入腾讯，任天衍研究中心主任、专家研究员。原文署腾讯优图天衍并任通讯作者。",
+        "https://jarvislab.tencent.com/index-en.html"
+      ],
+      "student": [
+        "刘启东 · Qidong Liu",
+        "2019 年 9 月至 2025 年 6 月在西安交大读博，2022 年 9 月起与港城联合培养；2023 年 5 月至 2024 年 8 月在腾讯天衍实习。",
+        "https://liuqidong07.github.io/"
+      ],
+      "evidence": "刘启东 2024 年 3 月简历写明，他于 2023 年 11 月至 2024 年 1 月在腾讯天衍与吴宪开展基于 LLaMA-7B 的用药推荐蒸馏，在 MIMIC-III 与 MIMIC-IV 验证，与本篇的方法和数据完全对应，首版即发表于 2024 年 2 月。腾讯正式员工吴宪与港城大联培导师赵翔宇同为本篇通讯作者。",
+      "extra": [
+        [
+          "2024 年首版",
+          "https://arxiv.org/abs/2402.02803v1"
+        ],
+        [
+          "同期简历：腾讯项目时间和内容",
+          "https://liuqidong07.github.io/cv/resume_20240326.pdf"
+        ]
+      ],
+      "id": "tencent-leader-cityu-xiangyu-zhao",
+      "school": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学数据科学学院教师，原文署港城并任通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "advising": [
+        "博士联培导师",
+        "刘启东本人履历列赵翔宇为香港城市大学的博士联培导师。",
+        "https://liuqidong07.github.io/"
+      ]
+    },
+    {
+      "company": "腾讯",
+      "team": "优图天衍研究中心（Jarvis）",
+      "studentSchool": "西安交通大学",
+      "title": "A Contrastive Pretrain Model with Prompt Tuning for Multi-center Medication Recommendation",
+      "short": "Multi-center Medication Recommendation",
+      "date": "2025-02",
+      "venue": "ACM TOIS",
+      "area": "语言模型与智能体",
+      "paper": "https://doi.org/10.1145/3706631",
+      "employee": [
+        "吴宪 · Xian Wu",
+        "2017 年 12 月加入腾讯，任天衍研究中心主任、专家研究员。原文署腾讯优图天衍并任通讯作者。",
+        "https://jarvislab.tencent.com/index-en.html"
+      ],
+      "student": [
+        "刘启东 · Qidong Liu",
+        "西安交大在读博士，2022 年起与香港城大联合培养；在 2022 年 8–11 月间参与腾讯天衍用药推荐项目。",
+        "https://liuqidong07.github.io/cv/resume_20240326.pdf"
+      ],
+      "evidence": "刘启东同期简历在腾讯天衍多中心用药推荐项目项下逐字列出该论文作为项目产出，并给出企业指导者与工作日期。腾讯天衍收录论文，赵翔宇博士联培导师和腾讯天衍正式员工吴宪均为同篇作者。",
+      "extra": [
+        [
+          "腾讯天衍论文目录",
+          "https://jarvislab.tencent.com/aca-publications.html"
+        ],
+        [
+          "西安交大导师论文清单",
+          "https://gr.xjtu.edu.cn/fengtian/zh_CN/zhym/976526/list/index.htm"
+        ]
+      ],
+      "id": "tencent-contrastive-med-cityu-xiangyu-zhao",
+      "school": "香港城市大学",
+      "faculty": [
+        "赵翔宇 · Xiangyu Zhao",
+        "香港城市大学数据科学学院教师，原文署港城并任通讯作者。",
+        "https://www.cityu.edu.hk/stfprofile/xyzhao.htm"
+      ],
+      "advising": [
+        "博士联培导师",
+        "刘启东本人履历列赵翔宇为香港城市大学的博士联培导师。",
+        "https://liuqidong07.github.io/"
+      ]
+    },
+    {
+      "id": "kuaishou-air-polyu-wenqi-fan",
+      "company": "快手",
+      "team": "电商团队",
+      "school": "香港理工大学",
+      "studentSchool": "香港理工大学",
+      "faculty": [
+        "Wenqi Fan",
+        "香港理工大学电子计算学系助理教授；同篇作者。",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/"
+      ],
+      "employee": [
+        "周进东 · Jindong Zhou",
+        "厦门大学课题组毕业生名录列其于 2021 年毕业后入职北京快手；同篇署名快手并使用其快手邮箱。",
+        "https://astl.xmu.edu.cn/People.htm"
+      ],
+      "student": [
+        "Zhuohang Jiang",
+        "2024 年 9 月起就读香港理工大学博士，2025 年 10 月起在快手电商团队科研实习；本人在该实习项下列 AIR。",
+        "https://zhuohangjiang.com/"
+      ],
+      "title": "Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations",
+      "short": "AIR",
+      "date": "2026-08",
+      "venue": "KDD",
+      "area": "推荐与检索",
+      "paper": "https://arxiv.org/html/2606.10357",
+      "evidence": "原文脚注指明 Zhuohang Jiang 的工作在快手科技实习时完成；其个人主页将 AIR 明确列在快手电商实习项下，同一时期就读香港理工大学博士。校方共同导师 Wenqi Fan、Qing Li 与快手员工周进东均列于作者栏。",
+      "advising": [
+        "校内共同导师",
+        "学生个人主页列明 Wenqi Fan 和 Qing Li 为博士导师；两位导师均署名本篇。",
+        "https://zhuohangjiang.com/"
+      ],
+      "extra": [
+        [
+          "ACM DOI",
+          "https://doi.org/10.1145/3770855.3818320"
+        ]
+      ]
+    },
+    {
+      "id": "ant-llada15-ruc-li",
+      "company": "蚂蚁集团",
+      "team": "扩散语言模型研究",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院教师，学生的校内导师及论文通讯作者。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "张晓露 · Xiaolu Zhang",
+        "蚂蚁集团资深算法工程师，在同篇论文署蚂蚁集团；学生履历列其为该段实习导师。",
+        "https://cn.linkedin.com/in/zhang-xiaolu-94892416"
+      ],
+      "student": [
+        "Fengqi Zhu",
+        "李崇轩课题组具名博士生；论文署中国人民大学并注明在蚂蚁集团实习期间完成此项工作。",
+        "https://zhenxuan00.github.io/#group"
+      ],
+      "title": "LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models",
+      "short": "LLaDA 1.5",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.524.pdf",
+      "evidence": "ACL 正式版和作者项目页的具名脚注均说明第一作者 Fengqi Zhu 在蚂蚁集团实习期间完成此工作；李崇轩与张晓露均同篇署名。",
+      "advising": [
+        "博士导师",
+        "李崇轩本人在其中国人民大学课题组博士生名单中具名列出该同篇作者。",
+        "https://zhenxuan00.github.io/#group"
+      ],
+      "extra": [
+        [
+          "作者项目和实习脚注",
+          "https://ml-gsai.github.io/LLaDA-1.5-Demo/"
+        ],
+        [
+          "蚂蚁研究项目及学生",
+          "https://github.com/ML-GSAI/LLaDA-1.5"
+        ],
+        [
+          "往届正式会议企业身份",
+          "https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/former-websites/2022/index.html%40p%3D2535.html"
+        ]
+      ],
+      "paperId": "arxiv:2505.19223"
+    },
+    {
+      "id": "ant-lladav-ruc-li",
+      "company": "蚂蚁集团",
+      "team": "扩散语言模型研究",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院教师，学生的校内导师及论文通讯作者。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "张晓露 · Xiaolu Zhang",
+        "蚂蚁集团资深算法工程师，在同篇论文署蚂蚁集团；学生履历列其为该段实习导师。",
+        "https://cn.linkedin.com/in/zhang-xiaolu-94892416"
+      ],
+      "student": [
+        "游泽彬 · Zebin You",
+        "中国人民大学高瓴人工智能学院在读博士；本人记载 2024 年 6 月至 2026 年 4 月在蚂蚁集团研究扩散语言模型。",
+        "https://yyyouy.github.io/"
+      ],
+      "title": "LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning",
+      "short": "LLaDA-V",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "语言模型与智能体",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/You_LLaDA-V_Large_Language_Diffusion_Models_with_Visual_Instruction_Tuning_CVPR_2026_paper.html",
+      "evidence": "2025 年预印本具名脚注把第一作者游泽彬和蚂蚁实习对应；该生本人写明人大博士导师和蚂蚁实习导师。两位导师都列于正式论文。",
+      "advising": [
+        "博士导师",
+        "游泽彬本人主页明确列李崇轩为人大博士导师，并注明研究实习时间和企业导师。",
+        "https://yyyouy.github.io/"
+      ],
+      "extra": [
+        [
+          "实习脚注与预印本",
+          "https://arxiv.org/html/2505.16933v2"
+        ],
+        [
+          "作者项目",
+          "https://ml-gsai.github.io/LLaDA-V-demo/"
+        ],
+        [
+          "往届正式会议企业身份",
+          "https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/former-websites/2022/index.html%40p%3D2535.html"
+        ]
+      ],
+      "paperId": "arxiv:2505.16933"
+    },
+    {
+      "id": "ant-lladao-ruc-li",
+      "company": "蚂蚁集团",
+      "team": "扩散语言模型研究",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院教师，学生的校内导师及论文通讯作者。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "张晓露 · Xiaolu Zhang",
+        "蚂蚁集团资深算法工程师，在同篇论文署蚂蚁集团；学生履历列其为该段实习导师。",
+        "https://cn.linkedin.com/in/zhang-xiaolu-94892416"
+      ],
+      "student": [
+        "游泽彬 · Zebin You",
+        "中国人民大学高瓴人工智能学院在读博士；本人记载 2024 年 6 月至 2026 年 4 月在蚂蚁集团研究扩散语言模型。",
+        "https://yyyouy.github.io/"
+      ],
+      "title": "LLaDA-o: An Effective and Length-Adaptive Omni Diffusion Model",
+      "short": "LLaDA-o",
+      "date": "2026-03-01",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2603.01068v1",
+      "evidence": "原文首页把第一作者游泽彬单独标注为在蚂蚁集团实习期间完成工作；其已公开的在读和实习经历显示校内导师与蚂蚁实习导师，二人均为原文作者。",
+      "advising": [
+        "博士导师",
+        "游泽彬本人主页明确列李崇轩为人大博士导师，并注明研究实习时间和企业导师。",
+        "https://yyyouy.github.io/"
+      ],
+      "paperId": "arxiv:2603.01068",
+      "extra": [
+        [
+          "往届正式会议企业身份",
+          "https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/former-websites/2022/index.html%40p%3D2535.html"
+        ]
+      ]
+    },
+    {
+      "id": "ant-lladamoe-ruc-li",
+      "company": "蚂蚁集团",
+      "team": "扩散语言模型研究",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院教师，学生的校内导师及论文通讯作者。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "李建国 · Jianguo Li",
+        "本人履历记载 2020 年 6 月加入蚂蚁集团，任蚂蚁研究院技术总监并负责 LLaDA 系列研究；论文以蚂蚁集团署名。",
+        "https://sites.google.com/site/leeplus/"
+      ],
+      "student": [
+        "游泽彬 · Zebin You",
+        "中国人民大学高瓴人工智能学院在读博士；本人记载 2024 年 6 月至 2026 年 4 月在蚂蚁集团研究扩散语言模型。",
+        "https://yyyouy.github.io/"
+      ],
+      "title": "LLaDA-MoE: A Sparse MoE Diffusion Language Model",
+      "short": "LLaDA-MoE",
+      "date": "2025-09-29",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2509.24389v1",
+      "evidence": "原文将处于蚂蚁集团研究实习期的游泽彬列为具名核心贡献者，并列人大与蚂蚁集团双署。学校科研处公开报道指明是两方合作开发的同一项目。游泽彬本人说明实习研究方向和校内导师；同篇通讯作者李建国的主页明确其负责该系列在蚂蚁的研发。",
+      "advising": [
+        "博士导师",
+        "游泽彬本人主页明确列李崇轩为人大博士导师，并注明研究实习时间和企业导师。",
+        "https://yyyouy.github.io/"
+      ],
+      "extra": [
+        [
+          "人大科研部门报道",
+          "https://se-office.ruc.edu.cn/xwdt/5f6ccb4065e44328b5274f140269fe94.htm"
+        ]
+      ],
+      "paperId": "arxiv:2509.24389"
+    },
+    {
+      "id": "ant-lladamoev2-ruc-li",
+      "company": "蚂蚁集团",
+      "team": "扩散语言模型研究",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "李崇轩 · Chongxuan Li",
+        "中国人民大学高瓴人工智能学院教师，学生的校内导师及论文通讯作者。",
+        "https://zhenxuan00.github.io/"
+      ],
+      "employee": [
+        "李建国 · Jianguo Li",
+        "本人履历记载 2020 年 6 月加入蚂蚁集团，任蚂蚁研究院技术总监并负责 LLaDA 系列研究；论文以蚂蚁集团署名。",
+        "https://sites.google.com/site/leeplus/"
+      ],
+      "student": [
+        "Fengqi Zhu",
+        "李崇轩课题组具名博士生；论文署中国人民大学并注明在蚂蚁集团实习期间完成此项工作。",
+        "https://zhenxuan00.github.io/#group"
+      ],
+      "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
+      "short": "LLaDA MoE v2",
+      "date": "2026-08-04",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/pdf/2608.03457v1",
+      "evidence": "首页具名说明第一作者 Fengqi Zhu 在蚂蚁集团实习期间完成该论文。人大在读和导师见课题组博士生名录；李建国同时在论文署蚂蚁并在本人主页明确列为该项目的技术负责人。",
+      "advising": [
+        "博士导师",
+        "李崇轩本人在其中国人民大学课题组博士生名单中具名列出该同篇作者。",
+        "https://zhenxuan00.github.io/#group"
+      ],
+      "paperId": "arxiv:2608.03457"
+    },
+    {
+      "id": "echomask-alibaba-whu-tu",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "涂志刚 · Zhigang Tu",
+        "武汉大学教师，为章湘粤的硕士导师；以武汉大学署名任同篇通讯作者。",
+        "https://3s.whu.edu.cn/info/1025/1451.htm"
+      ],
+      "employee": [
+        "任健强 · Jianqiang Ren",
+        "阿里巴巴通义实验室高级算法专家；论文首发预印本与正式版均列为通义实验室同篇作者。",
+        "https://jianqiangren.github.io/"
+      ],
+      "student": [
+        "章湘粤 · Xiangyue Zhang",
+        "2023 年 9 月至 2026 年 6 月为武汉大学硕士生；2024 年 6 月至 2025 年 11 月在阿里巴巴通义实验室参与伴随语音的人体动作生成。",
+        "https://xiangyuezhang.com/cv/"
+      ],
+      "title": "EchoMask: Speech-Queried Attention-based Mask Modeling for Holistic Co-Speech Motion Generation",
+      "short": "EchoMask",
+      "date": "2025-10",
+      "venue": "ACM Multimedia",
+      "area": "视觉与多模态",
+      "paper": "https://doi.org/10.1145/3746027.3754847",
+      "extra": [
+        [
+          "原始预印本及署名",
+          "https://arxiv.org/html/2504.09209v1"
+        ],
+        [
+          "作者将 EchoMask 列作通义实习产出",
+          "https://jp.linkedin.com/in/xiangyue-zhang-53a29328a"
+        ],
+        [
+          "项目完整校企署名",
+          "https://xiangyuezhang.com/EchoMask/"
+        ]
+      ],
+      "evidence": "第一作者章湘粤在通义实习经历中把 EchoMask 列为实习成果；首版于该实习期间公开，并列出其武汉大学和通义实验室署名。武汉大学硕士导师涂志刚和通义实验室高级算法专家任健强均为同篇作者。",
+      "advising": [
+        "校内硕士导师",
+        "章湘粤的个人学业履历载明，武汉大学硕士期间由涂志刚指导。",
+        "https://xiangyuezhang.com/cv/"
+      ]
     }
   ]
 };

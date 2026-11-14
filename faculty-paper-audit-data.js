@@ -171,7 +171,30 @@ const facultyPaperAudits = {
       "https://openreview.net/pdf/70344285d0f2f98baec78b3ab203069e8ca59a03.pdf",
       "https://scholars.cityu.edu.hk/en/publications/gflowgr-fine-tuning-generative-recommendation-frameworks-with-gen/",
       "https://doi.org/10.1145/3805712.3809663",
-      "https://arxiv.org/abs/2506.16114"
+      "https://arxiv.org/abs/2506.16114",
+      "https://arxiv.org/html/2605.21967",
+      "https://gaojingtong.github.io/",
+      "https://arxiv.org/html/2608.00750",
+      "https://kaifengguo.github.io/",
+      "https://qingpengcai.github.io/",
+      "https://scholars.cityu.edu.hk/en/publications/hierarchical-residual-policy-optimization-for-generative-recommen/",
+      "https://doi.org/10.1145/3770855.3818206",
+      "https://arxiv.org/html/2504.14587",
+      "https://scholars.cityu.edu.hk/en/studentTheses/open-world-recommendation-knowledge-transfer-scenario-adaptation-/",
+      "https://doi.org/10.1145/3726302.3729987",
+      "https://personal.ntu.edu.sg/boan/papers/SIGIR25_autobidding.pdf",
+      "https://doi.org/10.1145/3770855.3818422",
+      "https://scholars.cityu.edu.hk/en/publications/generative-auto-bidding-in-large-scale-auctions-via-diffusion-com/",
+      "https://arxiv.org/html/2509.03348",
+      "https://arxiv.org/pdf/2310.18339v2",
+      "https://liuqidong07.github.io/",
+      "https://arxiv.org/html/2402.02803v2",
+      "https://jarvislab.tencent.com/index-en.html",
+      "https://arxiv.org/abs/2402.02803v1",
+      "https://liuqidong07.github.io/cv/resume_20240326.pdf",
+      "https://doi.org/10.1145/3706631",
+      "https://jarvislab.tencent.com/aca-publications.html",
+      "https://gr.xjtu.edu.cn/fengtian/zh_CN/zhym/976526/list/index.htm"
     ],
     "papers": [
       {
@@ -185,6 +208,48 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2506.16114v3",
         "outcome": "confirmed",
         "note": "论文首页具名注明第一作者 Yejing Wang 在阿里巴巴实习期间开展本论文研究；论文还记录系统于 2025 年年中上线淘宝搜索广告。港城大博士导师赵翔宇是同篇通讯作者，阿里妈妈首席算法架构师 Jian Xu 为同篇企业作者。"
+      },
+      {
+        "title": "Reinforced Preference Optimization for Reasoning-Augmented Recommendations",
+        "url": "https://arxiv.org/html/2605.21967",
+        "outcome": "existing",
+        "note": "本人在快手完成本篇已有发布。"
+      },
+      {
+        "title": "Hierarchical Residual Policy Optimization for Generative Recommendations",
+        "url": "https://arxiv.org/html/2608.00750",
+        "outcome": "confirmed",
+        "note": "论文脚注明确说明由 Kaifeng Guo 在快手实习时完成。本人主页显示其于该研究期间在港城大读博，并将本篇列为个人成果、2026 年 5 月录用。博士导师赵翔宇与快手高级总监蔡庆芃均是本篇通讯作者。"
+      },
+      {
+        "title": "Generative Auto-Bidding with Value-Guided Explorations",
+        "url": "https://arxiv.org/html/2504.14587",
+        "outcome": "confirmed",
+        "note": "Jingtong Gao 为第一作者；其主页将这项成果明确标为在快手上线，并列同期快手实习。学校学位论文将 GAVE 列为作者本人博士研究，说明在快手用于实际竞价。原文列赵翔宇和快手高级总监蔡庆芃同为作者，记载快手资助和线上 A/B 测试。"
+      },
+      {
+        "title": "Generative Auto-Bidding in Large-Scale Auctions via Diffusion Completer-Aligner",
+        "url": "https://doi.org/10.1145/3770855.3818422",
+        "outcome": "confirmed",
+        "note": "Jingtong Gao 个人履历将这篇具体成果列为快手上线项目，并列同期快手科研实习。2025 年公开首版正值其快手实习与港城大博士在读阶段，原文记载在快手广告线上系统实际测试；正式会议列其为第二作者，博士导师赵翔宇与快手高级总监蔡庆芃均为同篇作者。"
+      },
+      {
+        "title": "When MOE Meets LLMs: Parameter Efficient Fine-tuning for Multi-task Medical Applications",
+        "url": "https://arxiv.org/pdf/2310.18339v2",
+        "outcome": "existing",
+        "note": "本人同期简历具名列腾讯合作及本篇，已确认。"
+      },
+      {
+        "title": "Large Language Model Distilling Medication Recommendation Model",
+        "url": "https://arxiv.org/html/2402.02803v2",
+        "outcome": "confirmed",
+        "note": "刘启东 2024 年 3 月简历写明，他于 2023 年 11 月至 2024 年 1 月在腾讯天衍与吴宪开展基于 LLaMA-7B 的用药推荐蒸馏，在 MIMIC-III 与 MIMIC-IV 验证，与本篇的方法和数据完全对应，首版即发表于 2024 年 2 月。腾讯正式员工吴宪与港城大联培导师赵翔宇同为本篇通讯作者。"
+      },
+      {
+        "title": "A Contrastive Pretrain Model with Prompt Tuning for Multi-center Medication Recommendation",
+        "url": "https://doi.org/10.1145/3706631",
+        "outcome": "confirmed",
+        "note": "刘启东同期简历在腾讯天衍多中心用药推荐项目项下逐字列出该论文作为项目产出，并给出企业指导者与工作日期。腾讯天衍收录论文，赵翔宇博士联培导师和腾讯天衍正式员工吴宪均为同篇作者。"
       }
     ]
   },
@@ -373,5 +438,199 @@ const facultyPaperAudits = {
       }
     ],
     "note": "当前仅梳理黄鑫的合作论文；仍需核对教师的完整论文清单。"
+  },
+  "P1jPSzMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://coai.cs.tsinghua.edu.cn/hml",
+      "https://aclanthology.org/people/jiale-cheng/"
+    ],
+    "papers": [
+      {
+        "title": "VPO: Aligning Text-to-Video Generation Models with Prompt Optimization",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Cheng_VPO_Aligning_Text-to-Video_Generation_Models_with_Prompt_Optimization_ICCV_2025_paper.pdf",
+        "outcome": "confirmed",
+        "note": "论文脚注明确其研究在智谱实习期间完成，已用公开资料核实三位作者角色。"
+      },
+      {
+        "title": "AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models",
+        "url": "https://arxiv.org/html/2406.16714v2",
+        "outcome": "confirmed",
+        "note": "论文脚注明确其研究在智谱实习期间完成，已用公开资料核实三位作者角色。"
+      },
+      {
+        "title": "SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models",
+        "url": "https://arxiv.org/html/2412.11605v2",
+        "outcome": "confirmed",
+        "note": "论文脚注明确其研究在智谱实习期间完成，已用公开资料核实三位作者角色。"
+      },
+      {
+        "title": "LongSafety: Evaluating Long-Context Safety of Large Language Models",
+        "url": "https://arxiv.org/html/2502.16971",
+        "outcome": "confirmed",
+        "note": "论文脚注明确其研究在智谱实习期间完成，已用公开资料核实三位作者角色。"
+      },
+      {
+        "title": "Black-Box Prompt Optimization: Aligning Large Language Models without Model Training",
+        "url": "https://aclanthology.org/2024.acl-long.176.pdf",
+        "outcome": "lead",
+        "note": "有校企署名，但未发现将学生参与与该企业研究明确关联的材料。"
+      },
+      {
+        "title": "PAL: Persona-Augmented Emotional Support Conversation Generation",
+        "url": "https://aclanthology.org/2023.findings-acl.34.pdf",
+        "outcome": "no-evidence",
+        "note": "原文所列作者署名均为清华大学，未见目标企业参与证据。"
+      }
+    ],
+    "note": "先核对程家乐与黄民烈的部分合作论文，尚未完成该导师整个调查期的公开题录。"
+  },
+  "SQ9UbHIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2611.01129",
+      "https://zhuohangjiang.com/",
+      "https://arxiv.org/html/2606.10357",
+      "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+      "https://astl.xmu.edu.cn/People.htm",
+      "https://doi.org/10.1145/3770855.3818320"
+    ],
+    "papers": [
+      {
+        "title": "HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation",
+        "url": "https://arxiv.org/html/2611.01129",
+        "outcome": "existing",
+        "note": "同篇论文已收录。蒋卓航的个人主页同时列 Fan Wenqi 与 Li Qing 为校方共同导师。"
+      },
+      {
+        "title": "Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations",
+        "url": "https://arxiv.org/html/2606.10357",
+        "outcome": "confirmed",
+        "note": "原文脚注指明 Zhuohang Jiang 的工作在快手科技实习时完成；其个人主页将 AIR 明确列在快手电商实习项下，同一时期就读香港理工大学博士。校方共同导师 Wenqi Fan、Qing Li 与快手员工周进东均列于作者栏。"
+      }
+    ]
+  },
+  "D1LEg-YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2611.01129",
+      "https://zhuohangjiang.com/",
+      "https://arxiv.org/html/2606.10357",
+      "https://astl.xmu.edu.cn/People.htm"
+    ],
+    "papers": [
+      {
+        "title": "HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation",
+        "url": "https://arxiv.org/html/2611.01129",
+        "outcome": "existing",
+        "note": "同篇论文已收录。蒋卓航的个人主页同时列 Fan Wenqi 与 Li Qing 为校方共同导师。"
+      },
+      {
+        "title": "Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations",
+        "url": "https://arxiv.org/html/2606.10357",
+        "outcome": "confirmed",
+        "note": "原文脚注指明 Zhuohang Jiang 的工作在快手科技实习时完成；其个人主页将 AIR 明确列在快手电商实习项下，同一时期就读香港理工大学博士。校方共同导师 Wenqi Fan、Qing Li 与快手员工周进东均列于作者栏。"
+      }
+    ]
+  },
+  "UKMcQn4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://zhenxuan00.github.io/#group",
+      "https://yyyouy.github.io/",
+      "https://www.newx.sg/scholar/cAz9PToAAAAJ",
+      "https://sites.google.com/site/leeplus/",
+      "https://dblp.org/pid/161/9965.html"
+    ],
+    "papers": [
+      {
+        "title": "Large Language Diffusion Models",
+        "url": "https://arxiv.org/html/2502.09992",
+        "outcome": "existing",
+        "note": "原有 LLaDA 论文，不重复计入。"
+      },
+      {
+        "title": "LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models",
+        "url": "https://aclanthology.org/2026.acl-long.524.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式版和作者项目页的具名脚注均说明第一作者 Fengqi Zhu 在蚂蚁集团实习期间完成此工作；李崇轩与张晓露均同篇署名。"
+      },
+      {
+        "title": "LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/You_LLaDA-V_Large_Language_Diffusion_Models_with_Visual_Instruction_Tuning_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "2025 年预印本具名脚注把第一作者游泽彬和蚂蚁实习对应；该生本人写明人大博士导师和蚂蚁实习导师。两位导师都列于正式论文。"
+      },
+      {
+        "title": "LLaDA-o: An Effective and Length-Adaptive Omni Diffusion Model",
+        "url": "https://arxiv.org/pdf/2603.01068v1",
+        "outcome": "confirmed",
+        "note": "原文首页把第一作者游泽彬单独标注为在蚂蚁集团实习期间完成工作；其已公开的在读和实习经历显示校内导师与蚂蚁实习导师，二人均为原文作者。"
+      },
+      {
+        "title": "LLaDA-MoE: A Sparse MoE Diffusion Language Model",
+        "url": "https://arxiv.org/pdf/2509.24389v1",
+        "outcome": "confirmed",
+        "note": "原文将处于蚂蚁集团研究实习期的游泽彬列为具名核心贡献者，并列人大与蚂蚁集团双署。学校科研处公开报道指明是两方合作开发的同一项目。游泽彬本人说明实习研究方向和校内导师；同篇通讯作者李建国的主页明确其负责该系列在蚂蚁的研发。"
+      },
+      {
+        "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
+        "url": "https://arxiv.org/pdf/2608.03457v1",
+        "outcome": "confirmed",
+        "note": "首页具名说明第一作者 Fengqi Zhu 在蚂蚁集团实习期间完成该论文。人大在读和导师见课题组博士生名录；李建国同时在论文署蚂蚁并在本人主页明确列为该项目的技术负责人。"
+      },
+      {
+        "title": "UltraLLaDA: Scaling the Context Length to 128K for Diffusion Large Language Models",
+        "url": "https://openreview.net/pdf?id=68DGlhlvD9",
+        "outcome": "no-evidence",
+        "note": "作者单位为港科大、人大、国科大和上海人工智能实验室，未见本调查口径内企业合作证据。"
+      }
+    ],
+    "note": "已部分梳理本组扩散语言模型方向，其他研究方向仍需继续。"
+  },
+  "FbJrKzkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://3s.whu.edu.cn/info/1025/1451.htm",
+      "https://xiangyuezhang.com/cv/",
+      "https://xiangyuezhang.com/publications/"
+    ],
+    "papers": [
+      {
+        "title": "EchoMask: Speech-Queried Attention-based Mask Modeling for Holistic Co-Speech Motion Generation",
+        "url": "https://doi.org/10.1145/3746027.3754847",
+        "outcome": "confirmed",
+        "note": "履历具名确认是在通义实习的成果。"
+      },
+      {
+        "title": "SemTalk: Holistic Co-speech Motion Generation with Frame-level Semantic Emphasis",
+        "url": "https://xiangyuezhang.com/SemTalk/",
+        "outcome": "existing",
+        "note": "已收录武大与通义的同一论文关系。"
+      },
+      {
+        "title": "Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints",
+        "url": "https://arxiv.org/html/2511.10076v1",
+        "outcome": "no-evidence",
+        "note": "原版未列涂志刚为同篇作者。"
+      },
+      {
+        "title": "StreamTalk: Streaming Co-Speech Gesture Generation with Key-Pose Anchoring",
+        "url": "https://arxiv.org/abs/2608.01643",
+        "outcome": "no-evidence",
+        "note": "原版未列涂志刚为同篇作者。"
+      }
+    ],
+    "note": "先梳理章湘粤公开的相关论文，不代表已覆盖涂志刚的全部论文。"
   }
 };
