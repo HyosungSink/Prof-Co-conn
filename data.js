@@ -29686,6 +29686,215 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2506.17201"
+    },
+    {
+      "id": "huawei-degc-cityu-chen-ma",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学电脑科学系教师，论文共同作者及通讯。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "何博威 · Bowei He",
+        "港城大在读博士，第一作者；论文在其名下具名标注，该工作在华为香港诺亚方舟实验室实习中完成。",
+        "https://arxiv.org/html/2303.11700"
+      ],
+      "advising": [
+        "博士导师",
+        "港城大学位论文记录明确列马辰为该生博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/dynamic-adaptation-of-recommendation-models-structures-representa/"
+      ],
+      "employee": [
+        "Xu He",
+        "同篇作者，当时署名华为诺亚方舟实验室；职业履历记录 2020 年至 2025 年在华为担任 AI 研究及交付领导职务。",
+        "https://cn.linkedin.com/in/xu-he-98b98b1a7"
+      ],
+      "title": "Dynamically Expandable Graph Convolution for Streaming Recommendation",
+      "short": "DEGC",
+      "date": "2023-04",
+      "venue": "The Web Conference 2023",
+      "area": "推荐系统 · 持续学习",
+      "paper": "https://doi.org/10.1145/3543507.3583237",
+      "extra": [
+        [
+          "原文具名实习脚注",
+          "https://arxiv.org/html/2303.11700"
+        ]
+      ],
+      "evidence": "何博威 · Bowei He 是港城大在读博士及第一作者，原文具名脚注将 DEGC 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Xu He 同篇署华为并有独立的同时期任职资料。"
+    },
+    {
+      "id": "huawei-paser-cityu-chen-ma",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学电脑科学系教师，论文共同作者及通讯。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "何博威 · Bowei He",
+        "港城大在读博士，第一作者；第一版预印本和学籍时间交叉证实研究时尚未毕业，正式论文具名标记华为香港实习。",
+        "https://arxiv.org/abs/2502.12594"
+      ],
+      "advising": [
+        "博士导师",
+        "港城大学位论文记录明确列马辰为该生博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/dynamic-adaptation-of-recommendation-models-structures-representa/"
+      ],
+      "employee": [
+        "Hui-Ling Zhen",
+        "同篇作者，署名华为香港诺亚方舟；ISEDA 2024 讲者履历明确为华为香港诺亚方舟实验室研究人员。",
+        "https://www.eda2.com/iseda2024/tutorials.html"
+      ],
+      "title": "PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery",
+      "short": "PASER",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · 剪枝与训练数据",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/180d2acb13633fe78688d0d2347c731f-Abstract-Conference.html",
+      "extra": [
+        [
+          "原文具名实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/180d2acb13633fe78688d0d2347c731f-Paper-Conference.pdf"
+        ]
+      ],
+      "evidence": "何博威 · Bowei He 是港城大在读博士及第一作者，原文具名脚注将 PASER 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Hui-Ling Zhen 同篇署华为并有独立的同时期任职资料。"
+    },
+    {
+      "id": "huawei-decision-information-cityu-chen-ma",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学电脑科学系教师，论文共同作者及通讯。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "张岩森 · Yansen Zhang",
+        "港城大博士生、论文第一作者；CV 载明 2024 年 6 月至 2025 年 8 月在华为诺亚方舟实验室实习，本论文正式版有具名实习脚注。",
+        "https://forrest-stone.github.io/files/Yansen%20Zhang_CV.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港城大学位论文记录明确列马辰为该生博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/trustworthy-decision-making-in-learning-and-optimization/"
+      ],
+      "employee": [
+        "Qingcan Kang",
+        "同篇共同通讯，署名华为诺亚方舟实验室并使用华为邮箱；同年 IJCAI 正式论文亦列为诺亚方舟研究团队。",
+        "https://ijcai.org/proceedings/2025/1192.pdf"
+      ],
+      "title": "Decision Information Meets Large Language Models: The Future of Explainable Operations Research",
+      "short": "Explainable OR",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "大语言模型 · 可解释运筹",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a48e5877c7bf86a513950ab23b360498-Paper-Conference.pdf",
+      "extra": [
+        [
+          "原文具名实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/a48e5877c7bf86a513950ab23b360498-Paper-Conference.pdf"
+        ]
+      ],
+      "evidence": "张岩森 · Yansen Zhang 是港城大在读博士及第一作者，原文具名脚注将 Explainable OR 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Qingcan Kang 同篇署华为并有独立的同时期任职资料。"
+    },
+    {
+      "id": "huawei-sac-opt-cityu-chen-ma",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港城市大学",
+      "studentSchool": "香港城市大学",
+      "faculty": [
+        "马辰 · Chen Ma",
+        "香港城市大学电脑科学系教师，论文共同作者及通讯。",
+        "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html"
+      ],
+      "student": [
+        "张岩森 · Yansen Zhang",
+        "港城大博士生、论文第一作者；履历将 SAC-Opt 列为在华为诺亚方舟实验室的技术成果。",
+        "https://forrest-stone.github.io/files/Yansen%20Zhang_CV.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "港城大学位论文记录明确列马辰为该生博士导师。",
+        "https://scholars.cityu.edu.hk/en/studentTheses/trustworthy-decision-making-in-learning-and-optimization/"
+      ],
+      "employee": [
+        "Mingxuan Yuan",
+        "同篇署名华为诺亚方舟实验室；港科大公开报告与 ICML 2026 workshop 资料确认其华为研究人员身份。",
+        "https://ai4math2026.github.io/"
+      ],
+      "title": "SAC-Opt: Semantic Anchors for Iterative Correction in Optimization Modeling",
+      "short": "SAC-Opt",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "大语言模型 · 运筹优化",
+      "paper": "https://proceedings.mlr.press/v306/zhang26cb.html",
+      "extra": [
+        [
+          "原文具名实习脚注",
+          "https://arxiv.org/html/2510.05115v1"
+        ]
+      ],
+      "evidence": "张岩森 · Yansen Zhang 是港城大在读博士及第一作者，原文具名脚注将 SAC-Opt 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Mingxuan Yuan 同篇署华为并有独立的同时期任职资料。早期预印本、ICLR workshop 与 ICML 正式版为同一工作。"
+    },
+    {
+      "id": "alibaba-car-hust-cao",
+      "company": "阿里巴巴",
+      "team": "虎鲸文娱 · 优酷 Moku-Lab",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "曹治国 · Zhiguo Cao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://en-aia.hust.edu.cn/info/1030/1072.htm"
+      ],
+      "employee": [
+        "Jun Liang",
+        "以虎鲸文娱研究团队署名本篇通讯作者，同时在优酷与虎鲸文娱的公开项目担任团队研究人员。",
+        "https://orange-3dv-team.github.io/MoVerse/"
+      ],
+      "student": [
+        "彭展 · Zhan Peng",
+        "华中科技大学人工智能与自动化学院博士生；论文的实习脚注标注该研究在虎鲸文娱完成。",
+        "https://pzzz-cv.github.io/"
+      ],
+      "title": "Compression and Retrieval: Implicit Memory Retrieval for Video World Models",
+      "short": "CaR",
+      "date": "2026-06-22",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/html/2606.23105v1",
+      "evidence": "原文首页星号标注彭展在虎鲸文娱实习时完成本研究。虎鲸文娱是阿里巴巴集团业务。彭展在华中科技大学的导师曹治国和虎鲸文娱的 Jun Liang 同为本篇通讯作者。",
+      "advising": [
+        "校内博士导师",
+        "彭展本人主页列曹治国为其在华中科技大学博士阶段的导师。",
+        "https://pzzz-cv.github.io/"
+      ],
+      "extra": [
+        [
+          "公司官方研究数据及作者单位",
+          "https://huggingface.co/datasets/Orange-3DV-Team/SceneFly"
+        ],
+        [
+          "阿里集团年报：虎鲸文娱",
+          "https://data.alibabagroup.com/ir_filings/SEC/BABA/000119312526231755/baba-20260331.htm"
+        ],
+        [
+          "企业作者的团队资料",
+          "https://huggingface.co/utopiar"
+        ]
+      ],
+      "paperId": "arxiv:2606.23105"
     }
   ]
 };

@@ -8530,7 +8530,11 @@ const facultyPaperAudits = {
       "https://lijia7.github.io/",
       "https://www.sshao.com/ShuaiShao_CV.pdf",
       "https://arxiv.org/pdf/2506.17201v1",
-      "https://junshutang.github.io/"
+      "https://junshutang.github.io/",
+      "https://en-aia.hust.edu.cn/info/1030/1072.htm",
+      "https://pzzz-cv.github.io/",
+      "https://orange-3dv-team.github.io/MoVerse/",
+      "https://arxiv.org/html/2606.23105v1"
     ],
     "papers": [
       {
@@ -8544,6 +8548,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2506.17201v1",
         "outcome": "confirmed",
         "note": "腾讯混元共同一作唐俊姝在本人公开书目将黎家骐标记为本篇研究实习生，腾讯官方仓库确认项目及作者。黎家骐与华中科技大学导师曹治国、当时的混元首席研究员邵帅同篇署名。"
+      },
+      {
+        "title": "Compression and Retrieval: Implicit Memory Retrieval for Video World Models",
+        "url": "https://arxiv.org/html/2606.23105v1",
+        "outcome": "confirmed",
+        "note": "原文首页星号标注彭展在虎鲸文娱实习时完成本研究。虎鲸文娱是阿里巴巴集团业务。彭展在华中科技大学的导师曹治国和虎鲸文娱的 Jun Liang 同为本篇通讯作者。"
       }
     ],
     "note": "逐篇检查了部分出版书目与学生研究实习来源，尚未覆盖全部论文。"
@@ -8942,5 +8952,88 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "sSy7nvsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1145/3543507.3583237",
+      "https://arxiv.org/html/2303.11700",
+      "https://scholars.cityu.edu.hk/en/studentTheses/dynamic-adaptation-of-recommendation-models-structures-representa/",
+      "https://scholars.cityu.edu.hk/en/persons/chen-ma(8295a3d5-52ec-463b-86cf-1f477c0cb316).html",
+      "https://cn.linkedin.com/in/xu-he-98b98b1a7",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/180d2acb13633fe78688d0d2347c731f-Abstract-Conference.html",
+      "https://arxiv.org/abs/2502.12594",
+      "https://www.eda2.com/iseda2024/tutorials.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/180d2acb13633fe78688d0d2347c731f-Paper-Conference.pdf",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/a48e5877c7bf86a513950ab23b360498-Paper-Conference.pdf",
+      "https://forrest-stone.github.io/files/Yansen%20Zhang_CV.pdf",
+      "https://scholars.cityu.edu.hk/en/studentTheses/trustworthy-decision-making-in-learning-and-optimization/",
+      "https://ijcai.org/proceedings/2025/1192.pdf",
+      "https://proceedings.mlr.press/v306/zhang26cb.html",
+      "https://ai4math2026.github.io/",
+      "https://arxiv.org/html/2510.05115v1"
+    ],
+    "papers": [
+      {
+        "title": "Dynamically Expandable Graph Convolution for Streaming Recommendation",
+        "url": "https://doi.org/10.1145/3543507.3583237",
+        "outcome": "confirmed",
+        "note": "何博威 · Bowei He 是港城大在读博士及第一作者，原文具名脚注将 DEGC 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Xu He 同篇署华为并有独立的同时期任职资料。"
+      },
+      {
+        "title": "PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/180d2acb13633fe78688d0d2347c731f-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "何博威 · Bowei He 是港城大在读博士及第一作者，原文具名脚注将 PASER 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Hui-Ling Zhen 同篇署华为并有独立的同时期任职资料。"
+      },
+      {
+        "title": "Decision Information Meets Large Language Models: The Future of Explainable Operations Research",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a48e5877c7bf86a513950ab23b360498-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "张岩森 · Yansen Zhang 是港城大在读博士及第一作者，原文具名脚注将 Explainable OR 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Qingcan Kang 同篇署华为并有独立的同时期任职资料。"
+      },
+      {
+        "title": "SAC-Opt: Semantic Anchors for Iterative Correction in Optimization Modeling",
+        "url": "https://proceedings.mlr.press/v306/zhang26cb.html",
+        "outcome": "confirmed",
+        "note": "张岩森 · Yansen Zhang 是港城大在读博士及第一作者，原文具名脚注将 SAC-Opt 与华为诺亚方舟实验室实习直接关联。港城大正式学位论文记录列马辰为该生博士导师，马辰同篇通讯；Mingxuan Yuan 同篇署华为并有独立的同时期任职资料。早期预印本、ICLR workshop 与 ICML 正式版为同一工作。"
+      }
+    ]
+  },
+  "g20Q12MAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Ye_Visual-Aware_CoT_Achieving_High-Fidelity_Visual_Consistency_in_Unified_Models_CVPR_2026_paper.html",
+      "https://zixuan-ye.github.io/",
+      "https://liuquande.github.io/",
+      "https://arxiv.org/abs/2506.04216",
+      "https://openreview.net/pdf?id=Vb4nE3WWf5",
+      "https://arxiv.org/abs/2412.07744",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_StyleMaster_Stylize_Your_Video_with_Artistic_Generation_and_Translation_CVPR_2025_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Visual-Aware CoT: Achieving High-Fidelity Visual Consistency in Unified Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ye_Visual-Aware_CoT_Achieving_High-Fidelity_Visual_Consistency_in_Unified_Models_CVPR_2026_paper.html",
+        "outcome": "existing",
+        "note": "原文核对后确认已在基线，保留原记录及原有统计。"
+      },
+      {
+        "title": "UNIC: Unified In-Context Video Editing",
+        "url": "https://arxiv.org/abs/2506.04216",
+        "outcome": "lead",
+        "note": "叶紫璇具名快手实习，但 2025 年 6 月第一版论文早于本人主页记载的 2025 年 9 月港科大博士入学，当时仍属华中科大硕士；初步核查未见当时罗文寒对该生具名同步指导、联合培养或被列为另一学生的导师。"
+      },
+      {
+        "title": "StyleMaster: Stylize Your Video with Artistic Generation and Translation",
+        "url": "https://arxiv.org/abs/2412.07744",
+        "outcome": "lead",
+        "note": "原文具名快手实习；实验、预印本及会议均早于学生港科大博士入学。正式署港科大不能替代证实当时在该校联合培养的学籍资料，华中科大硕士导师也未同篇署名。"
+      }
+    ]
   }
 };
