@@ -43355,6 +43355,336 @@ const survey = {
         ]
       ],
       "evidence": "ECCV 2026 同文首版于 2025-12-17 公开。arXiv 首版原始 PDF 只在第一作者郭雨维姓名后加星，对应脚注说明本研究在 ByteDance Seed 完成。正式版按港中文列郭雨维，仍与首版同作者和同研究；其本人公开履历明确 2025 在字节 Seed 视频生成组实习、师从港中文林达华。林达华与他同篇；企业通讯作者 Ceyuan Yang 的个人页及同年 SIGGRAPH 官方档案均独立确认企业身份。与既有的 Long Context Tuning、Context Unrolling in Omni Models 为不同论文。"
+    },
+    {
+      "id": "odrl-tencent-thu-li-xiu",
+      "paperId": "arxiv:2410.20750",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Jingwen Yang",
+        "本人公开履历列 2022 年 9 月起任腾讯智能 NPC 团队负责人，具名参与同一论文。",
+        "https://yangjw73.github.io/cv/"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "ODRL: A Benchmark for Off-Dynamics Reinforcement Learning",
+      "short": "ODRL",
+      "date": "2024-10-28",
+      "venue": "NeurIPS 2024 Datasets and Benchmarks",
+      "area": "离线强化学习基准",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/6e37ba8a27b53fccd367c648ff365b8f-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "extra": [
+        [
+          "正式题录或作者公开稿",
+          "https://arxiv.org/abs/2410.20750"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ]
+      ],
+      "evidence": "NeurIPS 正式正文首页将腾讯互动娱乐事业群实习脚注标在清华第一作者吕加飞一人姓名之后，不是对其余清华学生的通用说明。Jingwen Yang 以腾讯署名，公开 CV 记其 2022 年 9 月起担任腾讯 NPC 团队负责人，吕本人也将其列为同期两位实习导师之一。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "otdf-tencent-thu-li-xiu",
+      "paperId": "openreview:LRrbD8EZJl",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Jingwen Yang",
+        "本人公开履历列 2022 年 9 月起任腾讯智能 NPC 团队负责人，具名参与同一论文。",
+        "https://yangjw73.github.io/cv/"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "Cross-Domain Offline Policy Adaptation with Optimal Transport and Dataset Constraint",
+      "short": "OTDF",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "跨域离线强化学习",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/d4ce6738e84876aa79f13c8bc8b7c5eb-Paper-Conference.pdf",
+      "extra": [
+        [
+          "正式题录或作者公开稿",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d4ce6738e84876aa79f13c8bc8b7c5eb-Abstract-Conference.html"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ]
+      ],
+      "evidence": "ICLR 正式版首页把在腾讯实习期间完成本项工作的脚注标在第一作者吕加飞姓名后，Jingwen Yang 同篇署腾讯，也是吕本人具名的腾讯实习导师；李秀为清华通讯作者。同一发现在正式题录和 OpenReview 只计一次。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "visualgap-tencent-thu-li-xiu",
+      "paperId": "arxiv:2402.02701",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Le Wan",
+        "原文同时署腾讯 IEG；吕加飞本人具名其为腾讯游戏 AI 研究中心当期实习导师。其 2024 年 AAMAS 正式作者信息也署腾讯 IEG。",
+        "https://aamas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p2369.pdf"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "Understanding What Affects the Generalization Gap in Visual Reinforcement Learning: Theory and Empirical Evidence",
+      "short": "Visual RL generalization gap",
+      "date": "2024-02-05",
+      "venue": "Journal of Artificial Intelligence Research 2024",
+      "area": "视觉强化学习泛化",
+      "paper": "https://arxiv.org/pdf/2402.02701v2",
+      "extra": [
+        [
+          "正式题录或作者公开稿",
+          "https://doi.org/10.1613/jair.1.16422"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ]
+      ],
+      "evidence": "JAIR 论文第 28 页致谢具名写吕加飞于腾讯 IEG 实习期间完成此项研究，第一页 Le Wan 署腾讯 IEG，李秀为清华通讯作者。AAMAS 2024 同作者扩展摘要共享同一重参数化理论和 DMC-GB 实验，合为一条；AAAI 期刊交流也不另计。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "smr-tencent-thu-li-xiu",
+      "paperId": "arxiv:2305.18443",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Le Wan",
+        "原文同时署腾讯 IEG；吕加飞本人具名其为腾讯游戏 AI 研究中心当期实习导师。其 2024 年 AAMAS 正式作者信息也署腾讯 IEG。",
+        "https://aamas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p2369.pdf"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse",
+      "short": "SMR",
+      "date": "2023-05-29",
+      "venue": "Information Sciences 2024",
+      "area": "连续控制与强化学习",
+      "paper": "https://arxiv.org/pdf/2305.18443v1",
+      "extra": [
+        [
+          "正式题录或作者公开稿",
+          "https://doi.org/10.1016/j.ins.2024.120371"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ]
+      ],
+      "evidence": "论文首版首页在清华第一作者吕加飞名后明确标注工作完成于腾讯 IEG 实习。首稿 2023 年 5 月 29 日处于其 2022 年 6 月至 2023 年 10 月的第一段腾讯实习，研究方向也一致。清华通讯李秀和腾讯 IEG Le Wan 同篇；期刊版与首稿只计一篇。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2023
+    },
+    {
+      "id": "seabo-tencent-thu-li-xiu",
+      "paperId": "arxiv:2402.03807",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Le Wan",
+        "原文同时署腾讯 IEG；吕加飞本人具名其为腾讯游戏 AI 研究中心当期实习导师。其 2024 年 AAMAS 正式作者信息也署腾讯 IEG。",
+        "https://aamas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p2369.pdf"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "SEABO: A Simple Search-Based Method for Offline Imitation Learning",
+      "short": "SEABO",
+      "date": "2024-02-06",
+      "venue": "ICLR 2024",
+      "area": "离线模仿学习",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/20217acebdb3c603f85a2775d15bbd08-Paper-Conference.pdf",
+      "extra": [
+        [
+          "正式题录或作者公开稿",
+          "https://arxiv.org/html/2402.03807v1"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ]
+      ],
+      "evidence": "ICLR 正文首页在清华第一作者吕加飞姓名后以星号标明该工作完成于腾讯实习；Le Wan 同页署腾讯 IEG，正式名录和本人学段均显示李秀指导吕加飞。刘润泽另为同篇清华作者，脚注未标他，故只确认吕加飞。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "uttd-tencent-thu-li-xiu",
+      "paperId": "arxiv:2304.04660",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Le Wan",
+        "原文同时署腾讯 IEG；吕加飞本人具名其为腾讯游戏 AI 研究中心当期实习导师。其 2024 年 AAMAS 正式作者信息也署腾讯 IEG。",
+        "https://aamas.csc.liv.ac.uk/Proceedings/aamas2024/pdfs/p2369.pdf"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "Uncertainty-Driven Trajectory Truncation for Data Augmentation in Offline Reinforcement Learning",
+      "short": "Uncertainty-driven Trajectory Truncation",
+      "date": "2023-04-10",
+      "venue": "ECAI 2023",
+      "area": "数据增广与离线强化学习",
+      "paper": "https://journals.sagepub.com/doi/10.3233/FAIA230618",
+      "extra": [
+        [
+          "正式题录或作者公开稿",
+          "https://arxiv.org/abs/2304.04660"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ],
+        [
+          "正式会议论文首页",
+          "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230618"
+        ]
+      ],
+      "evidence": "ECAI 正式出版记录 Notes 1 明示这项研究完成于共同第一作者吕加飞在腾讯实习期间，脚注明确写姓名，不套给共同第一作者张俊杰。Le Wan 同一出版记录署腾讯 IEG，李秀为清华通讯。2023 年 4 月首稿处于其第一段腾讯实习；ECAI 正式在线 2023 年 10 月 18 日，与预印本只计一次。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2023
+    },
+    {
+      "id": "par-tencent-thu-li-xiu",
+      "paperId": "arxiv:2405.15369",
+      "company": "腾讯",
+      "team": "腾讯 IEG 游戏 AI 研究中心",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "李秀",
+        "清华大学深圳国际研究生院教师；为同一论文通讯作者。清华发布的导师名单实名确认其指导吕加飞。",
+        "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+      ],
+      "employee": [
+        "Jingwen Yang",
+        "本人公开履历列 2022 年 9 月起任腾讯智能 NPC 团队负责人，具名参与同一论文。",
+        "https://yangjw73.github.io/cv/"
+      ],
+      "student": [
+        "吕加飞",
+        "清华深圳国际研究生院 2020 级博士生，导师李秀。本人列出 2022 年 6 月至 2025 年 1 月在腾讯游戏 AI 研究中心的两段连续研究实习及两位企业导师。",
+        "https://dmksjfl.github.io/"
+      ],
+      "title": "Cross-Domain Policy Adaptation by Capturing Representation Mismatch",
+      "short": "PAR",
+      "date": "2024-05-24",
+      "venue": "ICML 2024",
+      "area": "跨域策略迁移",
+      "paper": "https://proceedings.mlr.press/v235/lyu24a.html",
+      "extra": [
+        [
+          "PMLR 正式 PDF 首页与具名实习致谢",
+          "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lyu24a/lyu24a.pdf"
+        ],
+        [
+          "清华实名导师公告",
+          "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+        ],
+        [
+          "同作者首版的公开日期",
+          "https://arxiv.org/abs/2405.15369"
+        ]
+      ],
+      "evidence": "PMLR 正式论文首页列清华第一作者吕加飞、清华通讯作者李秀及腾讯 IEG 作者 Jingwen Yang；正文致谢具名确认吕在腾讯 IEG 实习期间完成该工作。吕本人列明李秀为博士导师、Jingwen Yang 为该期企业导师。正式版与 2024 年 5 月首稿只计一次。",
+      "advising": [
+        "具名博士导师",
+        "清华大学深圳国际研究生院公告列控制科学与工程 2020 级博士生吕加飞、导师李秀；吕本人主页确认 2020–2025 清华博士学籍与师承。",
+        "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
+      ],
+      "year": 2024
     }
   ]
 };

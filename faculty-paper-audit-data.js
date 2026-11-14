@@ -2949,7 +2949,12 @@ const facultyPaperAudits = {
       "https://wonderno.github.io/",
       "https://chengyufang.tech/",
       "https://www.sigs.tsinghua.edu.cn/lx/list.psp",
-      "https://thusigsiclab.github.io/thu.github.io/students.html"
+      "https://thusigsiclab.github.io/thu.github.io/students.html",
+      "https://www.sigs.tsinghua.edu.cn/lx/list.htm",
+      "https://dmksjfl.github.io/",
+      "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm",
+      "https://yangjw73.github.io/cv/",
+      "https://thusigsiclab.github.io/thu.github.io/paper.html"
     ],
     "papers": [
       {
@@ -2969,13 +2974,13 @@ const facultyPaperAudits = {
         "title": "Realistic Human Motion Generation with Cross-Diffusion Models",
         "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03045.pdf",
         "outcome": "confirmed",
-        "note": "ECCV 正式论文首页将第一作者 Zeping Ren 标为腾讯 AI Lab 实习期间完成工作；学生本人主页明确当时在清华大学深圳国际研究生院读硕士。"
+        "note": "已取得论文文本；同篇角色及研究时段仍待独立复核。"
       },
       {
         "title": "Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/633780c1344d0c95e4d2dd3431fe08d9-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "ICLR 正式论文首页具名 Chengyu Fang 与另一作者分别于阿里达摩院实习期间完成本研究。第一作者履历列同期在清华攻读硕士、2025 年 4 月至 2026 年 4 月在达摩院任实习研究员。"
+        "note": "已取得论文文本；同篇角色及研究时段仍待独立复核。"
       },
       {
         "year": 2026,
@@ -3003,10 +3008,59 @@ const facultyPaperAudits = {
         "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR",
         "url": "https://arxiv.org/pdf/2507.15778v1",
         "outcome": "confirmed",
-        "note": "首版第 1 页将刘润泽列为快手及清华双署名第二作者，李秀署清华，张富峥、企业项目首作者 Jiakang Wang 均署快手。刘本人随后在项目正式代码库具名提交安装修正。第 3 版（2026 年 11 月）将其更新为港科大单位并加入潘玲，不能倒推到 2025 年。"
+        "note": "已取得论文文本；同篇角色及研究时段仍待独立复核。"
+      },
+      {
+        "year": 2025,
+        "title": "Cross-Domain Offline Policy Adaptation with Optimal Transport and Dataset Constraint",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/d4ce6738e84876aa79f13c8bc8b7c5eb-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式版首页把在腾讯实习期间完成本项工作的脚注标在第一作者吕加飞姓名后，Jingwen Yang 同篇署腾讯，也是吕本人具名的腾讯实习导师；李秀为清华通讯作者。同一发现在正式题录和 OpenReview 只计一次。"
+      },
+      {
+        "year": 2024,
+        "title": "Cross-Domain Policy Adaptation by Capturing Representation Mismatch",
+        "url": "https://proceedings.mlr.press/v235/lyu24a.html",
+        "outcome": "confirmed",
+        "note": "PMLR 正式论文首页列清华第一作者吕加飞、清华通讯作者李秀及腾讯 IEG 作者 Jingwen Yang；正文致谢具名确认吕在腾讯 IEG 实习期间完成该工作。吕本人列明李秀为博士导师、Jingwen Yang 为该期企业导师。正式版与 2024 年 5 月首稿只计一次。"
+      },
+      {
+        "year": 2024,
+        "title": "ODRL: A Benchmark for Off-Dynamics Reinforcement Learning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/6e37ba8a27b53fccd367c648ff365b8f-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式正文首页将腾讯互动娱乐事业群实习脚注标在清华第一作者吕加飞一人姓名之后，不是对其余清华学生的通用说明。Jingwen Yang 以腾讯署名，公开 CV 记其 2022 年 9 月起担任腾讯 NPC 团队负责人，吕本人也将其列为同期两位实习导师之一。"
+      },
+      {
+        "year": 2023,
+        "title": "Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse",
+        "url": "https://arxiv.org/pdf/2305.18443v1",
+        "outcome": "confirmed",
+        "note": "论文首版首页在清华第一作者吕加飞名后明确标注工作完成于腾讯 IEG 实习。首稿 2023 年 5 月 29 日处于其 2022 年 6 月至 2023 年 10 月的第一段腾讯实习，研究方向也一致。清华通讯李秀和腾讯 IEG Le Wan 同篇；期刊版与首稿只计一篇。"
+      },
+      {
+        "year": 2024,
+        "title": "SEABO: A Simple Search-Based Method for Offline Imitation Learning",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/20217acebdb3c603f85a2775d15bbd08-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正文首页在清华第一作者吕加飞姓名后以星号标明该工作完成于腾讯实习；Le Wan 同页署腾讯 IEG，正式名录和本人学段均显示李秀指导吕加飞。刘润泽另为同篇清华作者，脚注未标他，故只确认吕加飞。"
+      },
+      {
+        "year": 2024,
+        "title": "Understanding What Affects the Generalization Gap in Visual Reinforcement Learning: Theory and Empirical Evidence",
+        "url": "https://arxiv.org/pdf/2402.02701v2",
+        "outcome": "confirmed",
+        "note": "JAIR 论文第 28 页致谢具名写吕加飞于腾讯 IEG 实习期间完成此项研究，第一页 Le Wan 署腾讯 IEG，李秀为清华通讯作者。AAMAS 2024 同作者扩展摘要共享同一重参数化理论和 DMC-GB 实验，合为一条；AAAI 期刊交流也不另计。"
+      },
+      {
+        "year": 2023,
+        "title": "Uncertainty-Driven Trajectory Truncation for Data Augmentation in Offline Reinforcement Learning",
+        "url": "https://journals.sagepub.com/doi/10.3233/FAIA230618",
+        "outcome": "confirmed",
+        "note": "ECAI 正式出版记录 Notes 1 明示这项研究完成于共同第一作者吕加飞在腾讯实习期间，脚注明确写姓名，不套给共同第一作者张俊杰。Le Wan 同一出版记录署腾讯 IEG，李秀为清华通讯。2023 年 4 月首稿处于其第一段腾讯实习；ECAI 正式在线 2023 年 10 月 18 日，与预印本只计一次。"
       }
     ],
-    "note": "仅核对刘恒林部分合作论文；本调查期完整题录待继续。"
+    "note": "分阶段审查刘润泽、刘恒林、吕加飞等论文原文，区分同一成果的预印本、会议与期刊版；完整书目仍在梳理。"
   },
   "n1zDCkQAAAAJ": {
     "from": "2023-01-01",
@@ -45229,5 +45283,441 @@ const facultyPaperAudits = {
         "year": 2025
       }
     ]
+  },
+  "xy9V7MEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://zixinzh.github.io/homepage/",
+      "https://zixinzh.github.io/homepage/research/",
+      "https://dblp.uni-trier.de/pid/228/6822.html",
+      "https://orcid.org/0000-0002-9810-7599",
+      "https://arxiv.org/html/2604.11056v1",
+      "https://arxiv.org/html/2511.09171",
+      "https://arxiv.org/html/2510.07888",
+      "https://yzhangee.github.io/group/",
+      "https://ieeexplore.ieee.org/document/9950536/",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=453",
+      "https://zixinzh.github.io/homepage/cv/cv_zixin_zhong_2024_08_04_eng_github.pdf",
+      "https://extend-lab.com/insights/learning-communication-efficient-protocols-in-marl/",
+      "https://pangzirui.com/",
+      "https://link.springer.com/chapter/10.1007/978-981-97-7004-5_24"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Where Hindsight Credit Can Reside: A Signed-Capacity View of Token Updates in RLVR",
+        "url": "https://arxiv.org/abs/2604.11056",
+        "outcome": "lead",
+        "note": "同一 arXiv ID v1 原题 Rethinking Token-Level Credit Assignment in RLVR；v2 具名华为 Zhuo Zheng、Qihong Lin。首作者 Yuhang He 与 Haodong Wu 等是同篇 Yongqi Zhang 的港科广组员，尚无同篇在华为实研证据，也未核实由钟梓昕具名指导。"
+      },
+      {
+        "year": 2026,
+        "title": "On the Benefits of Free Exploration for Regret Minimization in Multi-Armed Bandits",
+        "url": "https://arxiv.org/abs/2605.25789",
+        "outcome": "no-evidence",
+        "note": "原文分别署香港科技大学（广州）、新加坡国立大学，没有范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Learning Multi-Agent Communication Protocol: Study on Information Entropy Efficiency in MARL",
+        "url": "https://rlj.cs.umass.edu/2026/papers/Paper55.html",
+        "outcome": "no-evidence",
+        "note": "RLJ 正式版本与 arXiv 2606.07200 对应；EXTEND 组分别将其列作会议论文，与 2511.09171 的 IEEE 期刊正式版分开。RLJ 聚焦 IEI 和误差／训练实验，作者均港科广。"
+      },
+      {
+        "year": 2026,
+        "title": "Replay What Matters: Off-Policy Replay for Efficient LLM Reinforcement Unlearning",
+        "url": "https://arxiv.org/abs/2606.15333",
+        "outcome": "no-evidence",
+        "note": "原文是港科广、中科院自动化所、格拉斯哥大学。庞梓瑞本人明确 2026 年春入学并由钟梓昕、魏嘉珩指导，但本文没有公司参加的证据；其按重要性重放和标签平滑的训练机制不同。"
+      },
+      {
+        "year": 2026,
+        "title": "MESHA: Mechanism-Enforced Sequential Halving for Strategic Linear Bandits",
+        "url": "https://arxiv.org/abs/2607.14706",
+        "outcome": "no-evidence",
+        "note": "作者 Xin Li、Zixin Zhong 都署港科广数据科学与分析学域，未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Label Smoothing Improves Gradient Ascent in LLM Unlearning",
+        "url": "https://arxiv.org/abs/2510.22376",
+        "outcome": "no-evidence",
+        "note": "作者原文仅港科大（广州）、哈尔滨工业大学（威海）。与本文后续 LLM 重放工作作者和方法不同，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Almost Minimax Optimal Best Arm Identification in Piecewise Stationary Linear Bandits",
+        "url": "https://papers.neurips.cc/paper_files/paper/2024/file/e92b8441b702d142435f243806f9ec5a-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "正式全文三人只署 NUS 与港科广；与 2410.07638 合一，未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Probably Anytime-Safe Stochastic Combinatorial Semi-Bandits",
+        "url": "https://proceedings.mlr.press/v202/hou23d.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式原文对应 2301.13393，校方为 NUS 与阿尔伯塔大学，未见范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Stochastic Gradient Succeeds for Bandits",
+        "url": "https://proceedings.mlr.press/v202/mei23a.html",
+        "outcome": "no-evidence",
+        "note": "ICML 2023 正式 PDF 列阿尔伯塔大学、佐治亚理工和 Google Research/Brain，Google 不在 14 家范围。2024 预印本同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Learning Efficient Communication Protocols for Multi-Agent Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TMLCN.2026.3719222",
+        "outcome": "no-evidence",
+        "note": "IEEE 最终 PDF 为 2026-08-03 刊出，三位作者均署港科广。采用 IEI、SEI、TEI 的完整多轮框架，与 arXiv 2511.09171 同篇，同组另有独立 RLJ 记录；2025-10-09 预研稿 2510.07888 虽多 Sixi Cheng 与新加坡科技设计大学署名，核心实验和指标由这两篇正式作品覆盖，无需另计。"
+      }
+    ],
+    "note": "按学校履历、本人科研书目和简历、DBLP 快照、港科广合作者实验室及出版社交叉。排除另一 ORCID 的两篇沈阳自动化所研究；Springer NCAA 2024 糖尿病文本以及 NCAA 2026 SCRROM 会议项目均为华南师大合作簇，前者作者署华南师大，后者仅检出会议议程，未见本人同一性证据。两篇 IEEE 期刊分别记 2023 卷期和 2022 先行稿。"
+  },
+  "y0lN_XsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ict.cas.cn/sourcedb/cn/jssrck/202203/t20220314_6391556.html",
+      "https://weichen-cas.github.io/publications_date/",
+      "https://weichen-cas.github.io/Group/",
+      "https://orcid.org/0000-0002-7438-5180",
+      "https://dblp.org/pid/c/WeiChen34.html",
+      "https://kepingbi.github.io/publications/",
+      "https://kepingbi.github.io/student/",
+      "https://garios2.github.io/",
+      "https://garios2.github.io/CV.pdf",
+      "https://journals.sagepub.com/doi/pdf/10.3233/FAIA240745",
+      "https://arxiv.org/abs/2508.17715"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Extra-Merge: Tracing the Rank-1 Subspace of Model Merging in Language Model Pre-Training",
+        "url": "https://proceedings.mlr.press/v306/zhou26av.html",
+        "outcome": "lead",
+        "note": "ICML 正式版列阿里集团 Bohan Wang，陈薇的组员名单与 Wenjie Zhou 本人简历确认在读关系。本人的实习具体写蚂蚁百灵（2025.11–2026.03）与腾讯混元（2026.04–10），最终 PDF 未写本人在阿里 Qwen 参研，不能用“模型合并”主题把蚂蚁实习与阿里署名合并。arXiv 2605.26484 为同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "The Stability of Singular Distribution: A Spectral Perspective on the Two-Phase Dynamics of Language Model Pre-training",
+        "url": "https://proceedings.mlr.press/v306/zhang26jh.html",
+        "outcome": "no-evidence",
+        "note": "正式版双一作 Hongtao Zhang、Wenjie Zhou 均为陈薇名单组员，其余作者单位为中科院计算所、国科大及东南大学；全文致谢为国家/中科院基金。Wenjie Zhou 的实习履历未将此文指向具体企业；其 2605.26489 与正式版合一。"
+      },
+      {
+        "year": 2026,
+        "title": "Message Tuning Outshines Graph Prompt Tuning: A Prismatic Space Perspective",
+        "url": "https://proceedings.mlr.press/v306/chen26cz.html",
+        "outcome": "no-evidence",
+        "note": "正式版列中科院数学与系统科学研究院、信工所、计算所、国科大和香港城市大学；未见目标企业。与 2606.03290 同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Su_RaPA_Enhancing_Transferable_Targeted_Attacks_via_Random_Parameter_Pruning_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式开放版署名均为中科院计算所/国科大。陈薇组员名录具名 Tongrui Su 与 Qingbin Li；没看到企业作者或该项目在企业开展的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "How Do LLM-Generated Texts Impact Term-Based Retrieval Models?",
+        "url": "https://doi.org/10.1145/3773966.3777988",
+        "outcome": "lead",
+        "note": "ACM WSDM 2026，arXiv 2508.17715v2 为作者发布的同版本，首页蔡银琼（Yinqiong Cai）署百度。Wei Huang 由陈薇与程学旗共同培养，但正式版作者和致谢均未说其在百度开展本文。勿与同作者但使用监督密集检索的 EMNLP 研究合并。"
+      },
+      {
+        "year": 2026,
+        "title": "Relevance Supervision Can Teach Neural Retrievers to Prefer LLM-Generated Text",
+        "url": "https://aclanthology.org/2026.findings-emnlp.2038/",
+        "outcome": "lead",
+        "note": "EMNLP Findings 2026 年 10 月出版，arXiv 2604.06163 为同篇。蔡银琼署百度，Wei Huang 是陈薇与程学旗明确具名共同培养的博士；作者页、致谢和项目代码未证实其本人在百度实研。这篇研究监督学习导致的密集检索偏差，和 WSDM 的词项检索研究分开。"
+      },
+      {
+        "year": 2025,
+        "title": "BSFA: Leveraging the Subspace Dichotomy to Accelerate Neural Network Training",
+        "url": "https://aclanthology.org/2025.emnlp-main.952/",
+        "outcome": "no-evidence",
+        "note": "正式 PDF 的 Bohan Wang 明署独立研究者，Wenjie Zhou 署国科大；机构只为中科院计算所/国科大及独立研究者，未见当时企业参研。"
+      },
+      {
+        "year": 2025,
+        "title": "Jailbreak LLMs through Internal Stance Manipulation",
+        "url": "https://aclanthology.org/2025.emnlp-main.780/",
+        "outcome": "lead",
+        "note": "正式版第三机构为美团作者 Jingang Wang。Shuangjie Fu 与 Beining Huang 均署计算所/国科大，陈薇公开组员未列二人，致谢仅立项来源；未有在美团做本文的具名学生或由陈薇培养的独立证明。"
+      },
+      {
+        "year": 2025,
+        "title": "NAPPure: Adversarial Purification for Robust Image Classification under Non-Additive Perturbations",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Nan_NAPPure_Adversarial_Purification_for_Robust_Image_Classification_under_Non-Additive_Perturbations_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 开放版只有中科院计算所与国科大，致谢为中科院等公共科研项目；Junjie Nan 与 Mingkun Zhang 列陈薇组员。"
+      },
+      {
+        "year": 2025,
+        "title": "Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective",
+        "url": "https://aclanthology.org/2025.findings-acl.263/",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式全文全部作者为计算所与国科大，首作者 Yuchen Wen 为陈薇具名学生，致谢无企业岗位。与 arXiv 2406.14023 合并。"
+      },
+      {
+        "year": 2025,
+        "title": "CLIPure: Purification in Latent Space via CLIP for Adversarially Robust Zero-Shot Classification",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/2c2be72635379ec8600eea13df4743e3-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式论文全部署计算所和国科大。Mingkun Zhang 为陈薇、程学旗共导；毕可平的师生目录显示 2026 毕业后才去 TikTok，正式版不含注册企业。"
+      },
+      {
+        "year": 2024,
+        "title": "CausalDiff: Causality-Inspired Disentanglement via Diffusion Model for Adversarial Defense",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/e1b619a9e241606a23eb21767f16cf81-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 主会全文注明计算所与对外经济贸易大学；致谢仅基金和中科院人才项目，未出现范围内企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Generative Retrieval Meets Multi-Graded Relevance",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/853e781cb2af58956ed5c89aa59da3fc-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式 PDF 是计算所、国科大与阿姆斯特丹大学合作，Yubao Tang 同期另有百度论文不能移用；arXiv 2409.18409 为同篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Classifier Guidance Enhances Diffusion-Based Adversarial Purification by Preserving Predictive Information",
+        "url": "https://doi.org/10.3233/FAIA240745",
+        "outcome": "no-evidence",
+        "note": "ECAI 出版全文显示所有角色署中科院计算所与国科大实验室，无目标企业；合并 arXiv 2408.05900 和 ICLR 投审稿。"
+      },
+      {
+        "year": 2024,
+        "title": "Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28730",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式全文的作者机构为国科大、所内实验室和阿姆斯特丹大学；未见企业参研。arXiv 2312.10329 为同一 PIAT 研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Listwise Generative Retrieval Models via a Sequential Learning Process",
+        "url": "https://doi.org/10.1145/3653712",
+        "outcome": "no-evidence",
+        "note": "ACM 正式期刊正文首屏为中科院计算所/国科大、阿姆斯特丹大学，脚注明确张儒清在阿姆斯特丹大学时完成其研究，未指向公司。arXiv 2403.12499 为同篇；此文主方法为 ListGR，与多等级检索论文分开。"
+      },
+      {
+        "year": 2025,
+        "title": "CAME: Competitively Learning a Mixture-of-Experts Model for First-stage Retrieval",
+        "url": "https://doi.org/10.1145/3678880",
+        "outcome": "no-evidence",
+        "note": "正式卷期 2025，arXiv 2311.02834 的作者次序不同；研究目标和 CAME 方法相同。ACM 作者栏均为国科大和计算所，蔡银琼另文的百度身份不能转用。"
+      },
+      {
+        "year": 2023,
+        "title": "Closing the Gap between the Upper Bound and Lower Bound of Adam’s Iteration Complexity",
+        "url": "https://papers.nips.cc/paper/2023/hash/7ac19fdcdf4f311f3e3ef2e7ef4784d7-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 36 正式 PDF 列中科大、西安交大、计算所和微软研究院，微软不在本项目企业范围；没有其他范围内企业角色。"
+      },
+      {
+        "year": 2023,
+        "title": "Inducing Causal Structure for Abstractive Text Summarization",
+        "url": "https://doi.org/10.1145/3583780.3614934",
+        "outcome": "no-evidence",
+        "note": "郭嘉丰公开的出版全文首页仅列中科院计算所/国科大；Wei Huang 与陈薇同篇，但没有企业作者或企业岗位证据；arXiv 2308.12888 为同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Black-box Adversarial Attacks against Dense Retrieval Models: A Multi-view Contrastive Learning Method",
+        "url": "https://doi.org/10.1145/3583780.3614793",
+        "outcome": "no-evidence",
+        "note": "合著学校研究组保存的 ACM 原稿列计算所、国科大与阿姆斯特丹大学，未见目标企业；arXiv 2308.09861 为同篇。它用多视角对比策略攻击密集召回，区别于 SIGIR 2023 以同一主题多条查询为目标的攻击研究。"
+      },
+      {
+        "year": 2023,
+        "title": "L²R: Lifelong Learning for First-stage Retrieval with Backward-Compatible Representations",
+        "url": "https://doi.org/10.1145/3583780.3614947",
+        "outcome": "no-evidence",
+        "note": "作者公开 ACM 版本把蔡银琼列为计算所/国科大；其他人同样无公司署名。毕可平的目录记她 2024 年毕业才到百度，不能回填本篇。arXiv 2308.11512 与正式论文为一篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Continual Learning for Generative Retrieval over Dynamic Corpora",
+        "url": "https://doi.org/10.1145/3583780.3614821",
+        "outcome": "no-evidence",
+        "note": "郭嘉丰公开的 ACM 出版版列计算所、国科大和阿姆斯特丹大学，张儒清的脚注是合作学校，无企业参与。arXiv 2308.14968 为同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Convergence of AdaGrad for Non-convex Objectives: Simple Proofs and Relaxed Assumptions",
+        "url": "https://proceedings.mlr.press/v195/wang23a.html",
+        "outcome": "no-evidence",
+        "note": "COLT 正式 PDF 列中科大、微软亚洲研究院、数学与系统科学研究院与计算所；其企业只有范围外的微软。arXiv 2305.18471 同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models",
+        "url": "https://doi.org/10.1145/3539618.3591777",
+        "outcome": "no-evidence",
+        "note": "郭嘉丰公开的 SIGIR 出版 PDF 逐名只列计算所、国科大与阿姆斯特丹大学；没有企业参与。与 arXiv 2304.14867 合一。"
+      },
+      {
+        "year": 2024,
+        "title": "Generative Retrieval as Multi-Vector Dense Retrieval",
+        "url": "https://doi.org/10.1145/3626772.3657697",
+        "outcome": "no-evidence",
+        "note": "合著人及出版社正式论文列计算所、国科大与阿姆斯特丹大学；该文统一多向量密集检索和生成检索，区别于讨论动态语料持续学习的 CIKM 2023。"
+      },
+      {
+        "year": 2026,
+        "title": "When and Why Grouping Attention Heads Accelerates Muon Optimization",
+        "url": "https://arxiv.org/abs/2605.08933",
+        "outcome": "no-evidence",
+        "note": "两名在读作者均见陈薇组内名单，周文杰个人站也单列为 HiLD 工作坊。该研究优化注意力头分组，和 Tencent 官方案例所列 ELR 是不同论文；未见同篇企业作者和项目实研证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Rethinking Implicit Hate Speech Detection: Focusing on Latent Hate Components via Dual-Process Argumentation",
+        "url": "https://doi.org/10.1145/3774904.3792159",
+        "outcome": "no-evidence",
+        "note": "ACM 正式论文题名末尾为 Argumentation，教师书目中 Augmentation 为题名差异。ACM 登记的四位作者只列计算所和国科大；Shiqi Sun 名见陈薇组员。正文访问有限，未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "When and Why Momentum Accelerates SGD: An Empirical Study",
+        "url": "https://arxiv.org/abs/2306.09000",
+        "outcome": "no-evidence",
+        "note": "2023 作者原文具名 Jingwen Fu、Bohan Wang 在微软亚洲研究院实习完成工作，陈薇用计算所邮箱署名；企业微软不在范围。关注 SGD 动量对尖锐度与收敛的经验分析，与证明 Adam 迭代复杂度的 NeurIPS 工作独立。"
+      },
+      {
+        "year": 2023,
+        "title": "Power-law Dynamic arising from machine learning",
+        "url": "https://arxiv.org/abs/2306.09624",
+        "outcome": "no-evidence",
+        "note": "原文署 wche@microsoft.com，与陈薇本人小组页邮箱吻合；微软、国科大、中科大之外无作者所在企业，微软不在本项目范围。"
+      },
+      {
+        "year": 2024,
+        "title": "A Unified Causal View of Instruction Tuning",
+        "url": "https://arxiv.org/abs/2402.06220",
+        "outcome": "no-evidence",
+        "note": "公开全文六名作者均署计算所/国科大，Wei Chen 对应机构邮箱与国科大目录匹配；未见企业参与。本文用元因果结构跨多个指令微调任务，不是 CIKM 2023 文本摘要的同篇。"
+      },
+      {
+        "year": 2024,
+        "title": "On the Convergence of Adam under Non-uniform Smoothness: Separability from SGDM and Beyond",
+        "url": "https://arxiv.org/abs/2403.15146",
+        "outcome": "no-evidence",
+        "note": "预印本列中科大/微软研究院、北大、中科院、港中大（深圳）。唯一企业是范围外的微软；证明 Adam 与 SGDM 的收敛上下界，不是提出随机重排 Adam 的 KDD 2024 论文。"
+      }
+    ],
+    "note": "用国科大教师本人分年书目、组内成员名单、已核身份证明的 ORCID 与合著者目录交叉补录；DBLP 同人记录分散在两个条目，未直接把其中任何一个条目认定为全集。正式 PDF 的 Microsoft Research 作者邮箱 weic@microsoft.com 为另一位 Wei Chen；Collaborative Pure Exploration in Kernel Bandit 和 Continuous K-Max Bandits 不列入。ICLR 2024 BGPT 单神经元动量研究的公开全文仍待核。"
+  },
+  "lsj5Wv4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=377",
+      "https://jiadong-yu.github.io/Bio/",
+      "https://extend-lab.com/publications/",
+      "https://dblp.org/pid/123/7299.html",
+      "https://extend-lab.com/events/",
+      "https://extend-lab.com/insights/learning-communication-efficient-protocols-in-marl/",
+      "https://research-information.bris.ac.uk/en/publications/scheduling-and-fusion-for-multimodal-federated-learning-in-energy/",
+      "https://opus.lib.uts.edu.au/rest/bitstreams/5982b33a-39b9-4fc7-8bd0-ee50d790f212/retrieve",
+      "https://arxiv.org/abs/2502.07211",
+      "https://arxiv.org/abs/2603.22727"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "A Heterogeneous Multi-Agent Vision-Language Framework for Inductor Defect Recognition in Industrial IoT",
+        "url": "https://doi.org/10.1109/pimrc69400.2026.11711918",
+        "outcome": "no-evidence",
+        "note": "IEEE 登记的 Wenbo Cai 隶属于 Guangdong Quanzhun Technology Co., Ltd.；其他作者为复旦与港科广。该企业不是本项目 14 家。组内新闻确认 Ziru Zhang 在 IEEE PIMRC 报告；不能把研究组同期到腾讯交流移到本篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Learning Efficient Communication Protocols for Multi-Agent Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TMLCN.2026.3719222",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式篇列出同校三位作者，致谢是国家及地方基金。以 arXiv 2511.09171 的三指标框架为首稿，与 RLJ 独立会议论文分开。"
+      },
+      {
+        "year": 2026,
+        "title": "Learning Multi-Agent Communication Protocol: Study on Information Entropy Efficiency in MARL",
+        "url": "https://rlj.cs.umass.edu/2026/papers/Paper55.html",
+        "outcome": "no-evidence",
+        "note": "RLJ 正式稿仅三位港科广作者，EXTEND 与钟梓昕主页均证明书目信息。试验重点是用 IEI 约束消息熵，与同组 IEEE 的完整三指标框架不是重复出版记录；同一预印本 2606.07200 已合并。"
+      },
+      {
+        "year": 2026,
+        "title": "Amortized Reasoning Tree Search: Decoupling Proposal and Decision in Large Language Models",
+        "url": "https://arxiv.org/abs/2602.12846",
+        "outcome": "no-evidence",
+        "note": "2026-02-13 原稿列 Zesheng Hong、于佳冬、Hui Pan 全部为港科广；未见本文有企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Robust Beam Prediction for V2X Networks with Multi-Modal Sensing",
+        "url": "https://arxiv.org/abs/2609.10200",
+        "outcome": "no-evidence",
+        "note": "2026-09-09 公开全文三作者署悉尼科技大学，教师署港科广。BeamTransFuser 利用车联网的多模态实测数据，不是同一作者的脑机接口或脉冲强化学习论文；未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Spiking Personalized Federated Learning for Brain-Computer Interface-Enabled Immersive Communication",
+        "url": "https://doi.org/10.1109/INFOCOM59046.2026.11571348",
+        "outcome": "no-evidence",
+        "note": "INFOCOM Workshop 正式记录对应 arXiv 2603.22727；三作者署悉尼科技大学，教师署港科广。文章的目标是脑机接口的个性化联邦学习，不与三作者人类数字孪生架构论文合一。"
+      },
+      {
+        "year": 2026,
+        "title": "Integrating Brain-Computer Interface and Neuromorphic Computing for Human Digital Twins",
+        "url": "https://doi.org/10.1109/MCOM.001.2500100",
+        "outcome": "no-evidence",
+        "note": "IEEE Communications Magazine 正式版与 arXiv 2410.23639 为同篇。正式版作者单位为悉尼科技大学及港科广，论述人类数字孪生架构并给出案例分析；未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Scheduling and Fusion for Multimodal Federated Learning in Energy-Constrained Wireless Networks",
+        "url": "https://doi.org/10.1109/TMC.2025.3615129",
+        "outcome": "no-evidence",
+        "note": "IEEE 25(3) 正式卷期 2026，布里斯托大学留存 2025-09-29 上线记录。Zheng、Yu 为港科广，Liu 为布里斯托大学，无目标公司。EXTEND 另有一条同标题但署不同作者，不能用本 DOI 代替另一条。"
+      },
+      {
+        "year": 2026,
+        "title": "Energy-Efficient and Intelligent ISAC in V2X Networks With Spiking Neural Networks-Driven DRL",
+        "url": "https://doi.org/10.1109/TWC.2025.3589438",
+        "outcome": "no-evidence",
+        "note": "IEEE 和悉尼科技大学保存的正式作者稿为 Chen Shang / Jiadong Yu / Dinh Thai Hoang；作者单位仅港科广与悉尼科技大学，无目标公司。2025-01 arXiv 2501.01038 是同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Federated Prompt-Based Decision Transformer for Resource Allocation of Customized VR Streaming in Mobile Edge Computing",
+        "url": "https://doi.org/10.1109/TWC.2025.3586371",
+        "outcome": "no-evidence",
+        "note": "IEEE 2026 卷期和 arXiv 2402.09729 为同一 FedPromptDT。原文脚注是港科大（清水湾）和港科广合作，未见企业参研。"
+      },
+      {
+        "year": 2026,
+        "title": "Improve the Training Efficiency of DRL for Wireless Communication Resource Allocation: The Role of Generative Diffusion Models",
+        "url": "https://doi.org/10.1109/TWC.2026.3660250",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式卷期对应 arXiv 2502.07211，原文只列港科广两人。综合改进动作、奖励和状态探索，与只讨论奖励的同年 ICC workshop 有关但尚需对照全文避免重计。"
+      },
+      {
+        "year": 2026,
+        "title": "Maximizing Personalized Energy-efficiency for Swarm Learning in 6G Networks",
+        "url": "https://doi.org/10.1109/ICC59461.2026.11587844",
+        "outcome": "no-evidence",
+        "note": "IEEE 登记的作者单位只有港科广和布里斯托大学，未见目标企业。与 2025/2026 的多模态联邦学习作品不同，此项是个性化群智学习的能耗优化。"
+      }
+    ],
+    "note": "按 EXTEND 实验室期刊和会议名录，对照 DBLP 与按 DOI 提交的 IEEE 资料逐篇核对。不同学域同一教师合用一个台账；11 月接收但未找到公开全文/正式发布日期的研究仍待补，不记作已完整梳理。"
   }
 };
