@@ -77,6 +77,7 @@ function appendFacultySources(section, top, department) {
 function appendFacultyBibliography(item, person, school, department) {
   const { name } = person;
   const [scholar, paper] = facultyBibliographyFor(person, school, department);
+  const outcome = facultyScholarStatusFor(person, school, department);
   const showPending = !isFacultyVerificationExempt(person);
   const block = element('div', '', 'faculty-bibliography');
   const scholarRow = element('small', 'Google 学术：');
@@ -86,9 +87,20 @@ function appendFacultyBibliography(item, person, school, department) {
     link.setAttribute('aria-label', `查看 ${name} 的 Google 学术主页`);
     scholarRow.append(link);
     if (identity && identity !== link.href) scholarRow.append(' · ', source('身份来源', identity));
+    if (showPending && outcome?.state === 'moved') {
+      scholarRow.append(' · 旧链接已更新');
+      if (outcome.sourceUrl !== identity && outcome.sourceUrl !== link.href) {
+        scholarRow.append(' · ', source('迁移核对来源 ↗', outcome.sourceUrl));
+      }
+    }
     block.append(scholarRow);
   } else if (showPending) {
-    scholarRow.append('未核实');
+    if (outcome) {
+      scholarRow.append(outcome.state === 'absent' ? '已确认暂无公开主页' : '旧链接失效，现用主页待核实',
+        ' · ', source('核查来源 ↗', outcome.sourceUrl));
+    } else {
+      scholarRow.append('未核实');
+    }
     block.append(scholarRow);
   }
   const paperRow = element('small', 'CCF 论文：');
@@ -113,13 +125,16 @@ function appendFacultyBibliography(item, person, school, department) {
     block.append(paperRow);
   }
   if (block.childElementCount) item.append(block);
+  if (facultyThreeCheckedWithoutScholar(person, school, department)) {
+    item.append(element('small', '三项已核查', 'faculty-paper-grade'));
+  }
 }
 
 function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
   const title = facultyTitle.value;
-  const verificationCount = facultyVerificationFilter.value === '' ? null : Number(facultyVerificationFilter.value);
-  const isSearch = Boolean(words.length || title || verificationCount !== null);
+  const verification = facultyVerificationFilter.value;
+  const isSearch = Boolean(words.length || title || verification);
   const schools = [];
   let matches = 0;
 
@@ -130,9 +145,11 @@ function renderFaculty() {
       const context = facultySearchKey([name, english, department.name].join(' '));
       const people = department.people.filter(person =>
         (!title || facultyTitleValues(person).has(title)) &&
-        (verificationCount === null || facultyVerification(person, name, department.name) === verificationCount) &&
+        (!verification || (verification === 'checked'
+          ? facultyThreeCheckedWithoutScholar(person, name, department.name)
+          : facultyVerification(person, name, department.name) === Number(verification))) &&
         words.every(word => context.includes(word) || person.searchKey.includes(word)));
-      const matchesSource = !title && verificationCount === null && department.sources?.some(unit => {
+      const matchesSource = !title && !verification && department.sources?.some(unit => {
         const key = facultySearchKey([unit.name, ...(unit.aliases || [])].join(' '));
         return words.every(word => context.includes(word) || key.includes(word));
       });

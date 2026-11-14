@@ -14,6 +14,21 @@ function facultyVerification(person, school, department) {
   return Number(Boolean(person.titles.length)) + Number(Boolean(scholar)) + Number(Boolean(paper));
 }
 
+function facultyScholarStatusFor(person, school, department) {
+  const entry = facultyScholarStatus[school]?.[JSON.stringify([person.name, person.profile])];
+  if (!entry) return null;
+  const [state, sourceUrl] = entry;
+  const [scholar] = facultyBibliographyFor(person, school, department);
+  // A currently verified profile takes precedence over earlier negative findings.
+  if (scholar ? state !== 'moved' : state !== 'absent' && state !== 'broken') return null;
+  return { state, sourceUrl };
+}
+
+function facultyThreeCheckedWithoutScholar(person, school, department) {
+  return facultyVerification(person, school, department) === 2 &&
+    facultyScholarStatusFor(person, school, department)?.state === 'absent';
+}
+
 function summarizeFaculty(snapshot) {
   return survey.schools.map(([name]) => {
     const units = (snapshot[name] || []).map(department => {

@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅计算机、人工智能、网络安全、软件工程及数据科学等主要院系的公开师资。">
   <title>主要计算机院系 · 教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=03dbfa856f72">
-  <script src="data.js?v=03dbfa856f72" defer></script>
-  <script src="ui.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-data.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-titles.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-rosters.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-bibliography.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-ucas-institutes.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-catalog.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-title-values.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-unit-groups.js?v=03dbfa856f72" defer></script>
-  <script src="faculty-page.js?v=03dbfa856f72" defer></script>
+  <link rel="stylesheet" href="styles.css?v=0a9e4858802a">
+  <script src="data.js?v=0a9e4858802a" defer></script>
+  <script src="ui.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-data.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-titles.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-rosters.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-bibliography.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-scholar-status.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-ucas-institutes.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-catalog.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-title-values.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-unit-groups.js?v=0a9e4858802a" defer></script>
+  <script src="faculty-page.js?v=0a9e4858802a" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -42,8 +43,9 @@
         <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>
         <label><span id="faculty-department-label">院系</span><select id="faculty-department" aria-labelledby="faculty-department-label" disabled><option value="">请先选择高校</option></select></label>
         <label><span>职称</span><select id="faculty-title-filter"><option value="">全部职称</option></select></label>
-        <label><span>已核实项数</span><select id="faculty-verification-filter">
-          <option value="">全部</option><option value="3">三项齐全</option><option value="2">已核实 2 项</option>
+        <label><span>核验情况</span><select id="faculty-verification-filter">
+          <option value="">全部</option><option value="3">三项齐全</option>
+          <option value="checked">三项已核查（暂无学术主页）</option><option value="2">已核实 2 项</option>
           <option value="1">已核实 1 项</option><option value="0">尚无已核实项</option>
         </select></label>
       </form>

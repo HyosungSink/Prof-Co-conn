@@ -34,7 +34,7 @@
 
 教师名录也列出已核实的 Google 学术主页和一篇可复核的 CCF 代表作。归为「讲师」（含 Lecturer）的记录不参与已核实项数筛选或首页核验统计，仍可按职称筛选和搜索；名录中缺失的学术主页或代表作不显示「未核实」。从院系档案进入教师个人主页或课题组主页，继续查找 Publications、代表论文、简历及其分页。按原题名和署名核对同名作者，用 [DBLP 书目快照](https://doi.org/10.4230/dblp.xml.2026-11-01)、出版方论文页或正式论文集确认出版信息；代表作附论文和作者核对来源。找到署名论文后，可用题名与作者名反查 Google 学术个人主页，再用主页所列论文、机构或回链核对身份。同名搜索结果不直接计入。分级依据 [CCF 2026 年第七版目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml)，会议只计正式长文。代表作可早于调查时间范围。没有足够公开资料时标为「未核实」。
 
-补查优先覆盖计算机、人工智能、软件工程和网络安全等院系。教师本人或院系档案明确标注的 Google 学术个人主页可作为身份来源；通过论文反查时，须核对署名和身份。CCF 一栏只记录已找到并核实的代表作；其他学科的教师没有这项记录，并不能据此判断其发表情况。
+补查优先覆盖计算机、人工智能、软件工程和网络安全等院系。教师本人或院系档案明确标注的 Google 学术个人主页可作为身份来源；通过论文反查时，须核对署名和身份。另行记录有来源的主页核查结果：已知旧链接失效时注明，确认新主页时更新链接。只有公开来源明确说明本人暂无公开主页，且职称和代表作均已核实，才标记「三项已核查」，不计入「三项齐全」。CCF 一栏只记录已找到并核实的代表作；其他学科的教师没有这项记录，并不能据此判断其发表情况。
 
 ## 本地运行与部署
 
@@ -61,6 +61,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`faculty-unit-groups.js`](faculty-unit-groups.js) | 各校主要计算机院系和相关交叉院系归类；国科大按研究机构归类 |
 | [`faculty-title-values.js`](faculty-title-values.js) | 名录筛选和职称热力图共用的职称归并规则 |
 | [`faculty-bibliography.js`](faculty-bibliography.js) | 教师的 Google 学术主页、CCF 代表作和核对来源 |
+| [`faculty-scholar-status.js`](faculty-scholar-status.js) | 有来源的学术主页缺失、链接失效或更新记录 |
 | [`faculty-catalog.js`](faculty-catalog.js)、[`faculty-plot.js`](faculty-plot.js)、[`faculty-plot-data.js`](faculty-plot-data.js) | 名录统计、首页点阵图及生成数据 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
