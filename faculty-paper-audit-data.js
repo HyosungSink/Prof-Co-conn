@@ -602,7 +602,8 @@ const facultyPaperAudits = {
       "https://dk-liang.github.io/",
       "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm",
       "https://bigteacher-777.github.io/",
-      "https://shuluoshu.github.io/"
+      "https://shuluoshu.github.io/",
+      "https://lmd0311.github.io/"
     ],
     "papers": [
       {
@@ -676,9 +677,15 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2407.01016",
         "outcome": "lead",
         "note": "2023 年 SOOD 扩展，尚未见独立具名项目实习证据。避免与会议版本重复统计。"
+      },
+      {
+        "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+        "url": "https://arxiv.org/html/2609.00111v1#S8",
+        "outcome": "confirmed",
+        "note": "双重署名、明确核心贡献与企业项目、具名实习和共同博导；同篇只计 1。"
       }
     ],
-    "note": "已核查梁定康的多篇作品及企业实习脚注；通盘书目仍待核。"
+    "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
   },
   "8D_9JI0AAAAJ": {
     "from": "2023-01-01",
@@ -3234,7 +3241,9 @@ const facultyPaperAudits = {
     "sources": [
       "https://person.zju.edu.cn/shenyongliang",
       "https://lll6gg.github.io/",
-      "https://yanyc428.github.io/"
+      "https://yanyc428.github.io/",
+      "https://zjureal.com/people.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/38017"
     ],
     "papers": [
       {
@@ -3260,6 +3269,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2602.06960",
         "outcome": "confirmed",
         "note": "在读博士颜聿辰完整履历列 2025 年 8 月至 2026 年 4 月为蚂蚁 Ling 实习生；论文「Conflict of Interest」明确具名其为蚂蚁实习生、在论文使用蚂蚁团队研发算法，并在致谢具名蚂蚁研究实习生项目。"
+      },
+      {
+        "title": "Experience-driven Multi-turn Reinforcement Learning for GUI Agents",
+        "url": "https://aclanthology.org/2026.acl-long.428.pdf",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "ACL 正式论文首页将第一作者卢政希单独加注为在阿里通义实习期间完成本工作。卢政希的个人主页具名列沈永亮为浙大博士导师，列出 2025 年 6–11 月在阿里通义实习及企业导师 Haiyang Xu；沈永亮和 Haiyang Xu 均为同篇通讯作者。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -4983,7 +4999,10 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2506.11037v1",
       "https://doi.org/10.1145/3770854.3783924",
       "https://patents.google.com/patent/US10728033B2/en",
-      "https://www.youtube.com/watch?v=eEMgqDldqZQ"
+      "https://www.youtube.com/watch?v=eEMgqDldqZQ",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/302cffe73187dca597aeb309cad1c1cb-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2507.03112",
+      "https://peisongw.github.io/"
     ],
     "papers": [
       {
@@ -5003,6 +5022,12 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3770854.3783924",
         "outcome": "confirmed",
         "note": "本人明确逐项列为参与的微信支付企业研究；该论文作者表及 ACM 公开报告明确指向腾讯微信支付体系，并非将另一腾讯实习自动归于本篇。 学生公开主页同时明确在香港科技大学（广州）就读及 Jia Li 为本篇同署名的博士导师。"
+      },
+      {
+        "title": "RLVER: Reinforcement Learning with Verifiable Emotion Rewards for Empathetic Agents",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/302cffe73187dca597aeb309cad1c1cb-Paper-Conference.pdf",
+        "outcome": "lead",
+        "note": "正式版增加港科广导师 Jia Li，但 2025 年 7 月实习产出预印本没有 Jia Li，当时王沛松在清华大学读硕士、尚未于 2025 年 9 月赴港科广读博；不能仅凭正式版倒推同期指导。"
       }
     ]
   },
@@ -10029,5 +10054,86 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "yQVoXS0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://researchportal.hkust.edu.hk/en/publications/agent-oriented-planning-in-multi-agent-systems/",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/31610e68fe41a62e460e044216a10766-Paper-Conference.pdf",
+      "https://songzli.github.io/team.html",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season",
+      "https://xieyxclack.github.io/",
+      "https://repository.hkust.edu.hk/ir/bitstream/1783.1-152577/1/1783.1-152577.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Agent-Oriented Planning in Multi-Agent Systems",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/agent-oriented-planning-in-multi-agent-systems/",
+        "outcome": "confirmed",
+        "note": "ICLR 正式版脚注将具名第一作者 Ao Li 的研究标注为阿里实习产出。宋泽立的组名单明确记载 2021 年秋起与宗福季长期联合指导，论文列 Ao Li 和宗福季的港科大与港科大（广州）单位。企业共同作者谢悦湘的本人档案佐证其阿里通义研究员工身份。"
+      }
+    ]
+  },
+  "1Is687QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/07fa611a88be1832f4c6a96f044ebede-Paper-Conference.pdf",
+      "https://zli999.github.io/zijianli.github.io/",
+      "https://ece.hkust.edu.hk/eejzhang",
+      "https://jiangyong.site/",
+      "https://arxiv.org/abs/2509.13312"
+    ],
+    "papers": [
+      {
+        "title": "WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/07fa611a88be1832f4c6a96f044ebede-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "论文首页逐名标记李子健在阿里通义实习期间完成本工作，2025 年 9 月预印本时间也处于履历的实习窗口。李子健本人具名张军为港科大博士导师、蒋勇为阿里项目导师，两人均是同篇作者；蒋勇任职和对应 WebWeaver 项目另有本人履历。"
+      }
+    ]
+  },
+  "xaTK57QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/3cc87f2bd3e3b4df8f9217326761c322-Paper-Conference.pdf",
+      "https://hkpeilab.github.io/people/fushuo-huo/",
+      "https://huasion23.github.io/",
+      "https://peilinzhao.github.io/",
+      "https://huofushuo.github.io/",
+      "https://theses.lib.polyu.edu.hk/bitstream/200/14075/3/8528.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Self-Introspective Decoding: Alleviating Hallucinations for Large Vision-Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/3cc87f2bd3e3b4df8f9217326761c322-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文脚注具名霍赋硕在腾讯 AI Lab 实习期间开展本研究。港理工课题组明确港科大作者 Wenchao Xu 与宋国联合指导霍赋硕的港理工博士研究；Wenchao Xu 同篇通讯。另一通讯作者赵沛霖明确为同期腾讯员工，也由学生具名列为这段实习的企业导师。"
+      }
+    ]
+  },
+  "Tre69v0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://lmd0311.github.io/",
+      "https://dk-liang.github.io/",
+      "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm"
+    ],
+    "papers": [
+      {
+        "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+        "url": "https://arxiv.org/html/2609.00111v1#S8",
+        "outcome": "confirmed",
+        "note": "双重署名、明确核心贡献与企业项目、具名实习和共同博导；同篇只计 1。"
+      }
+    ],
+    "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
   }
 };

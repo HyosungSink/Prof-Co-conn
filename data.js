@@ -32751,6 +32751,276 @@ const survey = {
           "https://shuluoshu.github.io/"
         ]
       ]
+    },
+    {
+      "id": "alibaba-aop-hkustgz-fugee-tsung",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "宗福季 · Fugee Tsung",
+        "香港科技大学及香港科技大学（广州）共同署名作者，调查范围内的港科大（广州）教授。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season"
+      ],
+      "student": [
+        "Ao Li",
+        "港科大博士生，论文双署港科大及港科大（广州）。首页脚注明确第一作者在阿里巴巴实习完成该研究。",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/31610e68fe41a62e460e044216a10766-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "同篇作者宋泽立的课题组明确自 2021 年秋起联合宗福季共同指导学生 Ao Li。",
+        "https://songzli.github.io/team.html"
+      ],
+      "employee": [
+        "谢悦湘 · Yuexiang Xie",
+        "同篇作者署名阿里巴巴；本人履历列通义实验室研究科学家，并将该论文列入其成果。",
+        "https://xieyxclack.github.io/"
+      ],
+      "title": "Agent-Oriented Planning in Multi-Agent Systems",
+      "short": "AOP",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "大语言模型 · 多智能体规划",
+      "paper": "https://researchportal.hkust.edu.hk/en/publications/agent-oriented-planning-in-multi-agent-systems/",
+      "extra": [
+        [
+          "正式论文首页实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/31610e68fe41a62e460e044216a10766-Paper-Conference.pdf"
+        ],
+        [
+          "港科大博论",
+          "https://repository.hkust.edu.hk/ir/bitstream/1783.1-152577/1/1783.1-152577.pdf"
+        ]
+      ],
+      "evidence": "ICLR 正式版脚注将具名第一作者 Ao Li 的研究标注为阿里实习产出。宋泽立的组名单明确记载 2021 年秋起与宗福季长期联合指导，论文列 Ao Li 和宗福季的港科大与港科大（广州）单位。企业共同作者谢悦湘的本人档案佐证其阿里通义研究员工身份。"
+    },
+    {
+      "id": "alibaba-webweaver-hkust-jun-zhang",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "港科大电子及计算机工程学系教授、同篇通讯作者。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "student": [
+        "李子健 · Zijian Li",
+        "港科大博士生、论文第一作者；同期在阿里通义深度研究组实习，并由论文首页具名指明。",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/07fa611a88be1832f4c6a96f044ebede-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生履历明确张军为港科大博士导师，企业实习为 2025 年 7 月至 2026 年 1 月。",
+        "https://zli999.github.io/zijianli.github.io/"
+      ],
+      "employee": [
+        "蒋勇 · Yong Jiang",
+        "论文中署阿里通义实验室；学生称其为企业实习导师，本人公开履历列出其阿里通义工作和 WebWeaver 项目。",
+        "https://jiangyong.site/"
+      ],
+      "title": "WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research",
+      "short": "WebWeaver",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · 深度研究智能体",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/file/07fa611a88be1832f4c6a96f044ebede-Paper-Conference.pdf",
+      "extra": [
+        [
+          "预印本初版",
+          "https://arxiv.org/abs/2509.13312"
+        ]
+      ],
+      "evidence": "论文首页逐名标记李子健在阿里通义实习期间完成本工作，2025 年 9 月预印本时间也处于履历的实习窗口。李子健本人具名张军为港科大博士导师、蒋勇为阿里项目导师，两人均是同篇作者；蒋勇任职和对应 WebWeaver 项目另有本人履历。"
+    },
+    {
+      "id": "tencent-self-introspective-decoding-hkust-wenchao-xu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港理工大学",
+      "faculty": [
+        "Wenchao Xu",
+        "同篇通讯作者及当时港科大署名教师，现任港科大综合系统与设计学部助理教授。",
+        "https://huasion23.github.io/"
+      ],
+      "student": [
+        "霍赋硕 · Fushuo Huo",
+        "香港理工大学博士生，原文明确标注其在腾讯 AI Lab 实习期间完成论文。",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/3cc87f2bd3e3b4df8f9217326761c322-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "香港理工大学课题组学生简介同时列宋国和 Wenchao Xu 为霍赋硕的博士导师，Wenchao Xu 本人履历亦具名列出。",
+        "https://hkpeilab.github.io/people/fushuo-huo/"
+      ],
+      "employee": [
+        "赵沛霖 · Peilin Zhao",
+        "同篇以腾讯 AI Lab 通讯；本人履历列为腾讯 AI Lab 2017–2025 年首席研究员，学生履历点名该企业导师。",
+        "https://peilinzhao.github.io/"
+      ],
+      "title": "Self-Introspective Decoding: Alleviating Hallucinations for Large Vision-Language Models",
+      "short": "Self-Introspective Decoding",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "多模态大模型 · 幻觉抑制",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2025/file/3cc87f2bd3e3b4df8f9217326761c322-Paper-Conference.pdf",
+      "extra": [
+        [
+          "学生本人履历",
+          "https://huofushuo.github.io/"
+        ],
+        [
+          "港理工博士论文",
+          "https://theses.lib.polyu.edu.hk/bitstream/200/14075/3/8528.pdf"
+        ]
+      ],
+      "evidence": "正式论文脚注具名霍赋硕在腾讯 AI Lab 实习期间开展本研究。港理工课题组明确港科大作者 Wenchao Xu 与宋国联合指导霍赋硕的港理工博士研究；Wenchao Xu 同篇通讯。另一通讯作者赵沛霖明确为同期腾讯员工，也由学生具名列为这段实习的企业导师。"
+    },
+    {
+      "id": "alibaba-qwendrive-hust-bai",
+      "company": "阿里巴巴",
+      "team": "通义千问团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学人工智能与自动化学院教授；同篇报告列为研究指导。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ],
+      "employee": [
+        "白帅 · Shuai Bai",
+        "阿里巴巴通义千问团队视觉语言与视觉智能负责人，技术报告以企业团队核心成员身份署名。",
+        "https://shuaibai623.github.io/"
+      ],
+      "student": [
+        "Xin Zhou",
+        "华中科技大学在读博士，自 2025 年入学；两位导师之一的公开名录明确记载其在通义千问实习。",
+        "https://lmd0311.github.io/"
+      ],
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "short": "Qwen-Drive-1.0",
+      "date": "2026-08-31",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://arxiv.org/html/2609.00111v1#S8",
+      "evidence": "企业项目报告点名第一作者 Xin Zhou 为核心贡献者，明确列了通义千问与华中科技大学的双重归属；其校内导师梁定康公开名录明确证实通义实习。企业正式负责人白帅在同篇署名。",
+      "advising": [
+        "校内共同指导",
+        "Xin Zhou 的公开主页具名说明博士研究由白翔和梁定康共同指导；报告的 Authors 段两人均在核心贡献者及指导人员名单中。",
+        "https://lmd0311.github.io/"
+      ],
+      "extra": [
+        [
+          "梁定康课题组学生名录",
+          "https://dk-liang.github.io/"
+        ],
+        [
+          "通义千问官方代码",
+          "https://github.com/QwenLM/Qwen-Drive-1.0"
+        ],
+        [
+          "早期任职证据：通义官方技术报告",
+          "https://qianwen-res.oss-cn-beijing.aliyuncs.com/QWEN_TECHNICAL_REPORT.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2609.00111"
+    },
+    {
+      "id": "alibaba-qwendrive-hust-liang",
+      "company": "阿里巴巴",
+      "team": "通义千问团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "梁定康 · Dingkang Liang",
+        "华中科技大学助理教授；同篇报告列为研究指导。",
+        "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm"
+      ],
+      "employee": [
+        "白帅 · Shuai Bai",
+        "阿里巴巴通义千问团队视觉语言与视觉智能负责人，技术报告以企业团队核心成员身份署名。",
+        "https://shuaibai623.github.io/"
+      ],
+      "student": [
+        "Xin Zhou",
+        "华中科技大学在读博士，自 2025 年入学；两位导师之一的公开名录明确记载其在通义千问实习。",
+        "https://lmd0311.github.io/"
+      ],
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "short": "Qwen-Drive-1.0",
+      "date": "2026-08-31",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多媒体",
+      "paper": "https://arxiv.org/html/2609.00111v1#S8",
+      "evidence": "企业项目报告点名第一作者 Xin Zhou 为核心贡献者，明确列了通义千问与华中科技大学的双重归属；其校内导师梁定康公开名录明确证实通义实习。企业正式负责人白帅在同篇署名。",
+      "advising": [
+        "校内共同指导",
+        "Xin Zhou 的公开主页具名说明博士研究由白翔和梁定康共同指导；报告的 Authors 段两人均在核心贡献者及指导人员名单中。",
+        "https://lmd0311.github.io/"
+      ],
+      "extra": [
+        [
+          "梁定康课题组学生名录",
+          "https://dk-liang.github.io/"
+        ],
+        [
+          "通义千问官方代码",
+          "https://github.com/QwenLM/Qwen-Drive-1.0"
+        ],
+        [
+          "早期任职证据：通义官方技术报告",
+          "https://qianwen-res.oss-cn-beijing.aliyuncs.com/QWEN_TECHNICAL_REPORT.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2609.00111"
+    },
+    {
+      "id": "alibaba-empo-zju-yongliang-shen",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "title": "Experience-driven Multi-turn Reinforcement Learning for GUI Agents",
+      "short": "EMPO",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "GUI 智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.428.pdf",
+      "evidence": "ACL 正式论文首页将第一作者卢政希单独加注为在阿里通义实习期间完成本工作。卢政希的个人主页具名列沈永亮为浙大博士导师，列出 2025 年 6–11 月在阿里通义实习及企业导师 Haiyang Xu；沈永亮和 Haiyang Xu 均为同篇通讯作者。",
+      "faculty": [
+        "沈永亮 · Yongliang Shen",
+        "浙江大学 REAL Lab 负责人及博士生导师，校方通讯作者。",
+        "https://zjureal.com/people.html"
+      ],
+      "employee": [
+        "Haiyang Xu",
+        "阿里通义研究人员、企业通讯作者；同届 AAAI 论文独立核对任职。",
+        "https://ojs.aaai.org/index.php/AAAI/article/view/38017"
+      ],
+      "student": [
+        "卢政希 · Zhengxi Lu",
+        "浙大 REAL Lab 2024 级博士生，研究在阿里通义实习期间完成。",
+        "https://lll6gg.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "博士生本人明确列为其博士导师，实验室名录核对 2024 年入组。",
+        "https://lll6gg.github.io/"
+      ],
+      "extra": [
+        [
+          "ACL 论文目录",
+          "https://aclanthology.org/2026.acl-long.428/"
+        ],
+        [
+          "浙江大学教师主页",
+          "https://person.zju.edu.cn/shenyongliang"
+        ]
+      ]
     }
   ]
 };
