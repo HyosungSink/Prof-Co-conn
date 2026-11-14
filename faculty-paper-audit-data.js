@@ -6283,7 +6283,7 @@ const facultyPaperAudits = {
   "gfB8UaIAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://aclanthology.org/2026.emnlp-main.993/",
       "https://zhensun.cn/",
@@ -6776,7 +6776,7 @@ const facultyPaperAudits = {
         "year": 2026
       }
     ],
-    "note": "以院系主页、作者主页、DBLP PID、精确 arXiv 作者检索及正式出版记录核对 2023–2026-11-12。排除 6 篇同名误归入（RMIT/Griffith 研究者与上海理工大学论文的不同 ORCID）；按 arXiv 编号合并标题版本，按正式出处记年，未来会议仅保留已公开预印本。2023 年 DAI 文章只能审阅作者与出版资料；作者 CV 另有 CHALE 数据集，没有可核对公开论文，不计。公开文献不足以证明不存在企业活动。"
+    "note": "以院系主页、作者主页、DBLP PID、精确 arXiv 作者检索及正式出版记录核对 2023–2026-11-12。排除 6 篇同名误归入（RMIT/Griffith 研究者与上海理工大学论文的不同 ORCID）；按 arXiv 编号合并标题版本，按正式出处记年，未来会议仅保留已公开预印本。2023 年 DAI 文章只能审阅作者与出版资料；作者 CV 另有 CHALE 数据集，没有可核对公开论文，不计。公开文献不足以证明不存在企业活动。 以上为可检索公开书目已逐篇梳理，非对未来版本或未公开活动的判断。 以上为可检索公开书目已逐篇梳理，非对未来版本或未公开活动的判断。"
   },
   "nVk-7EAAAAAJ": {
     "from": "2023-01-01",
@@ -26192,7 +26192,7 @@ const facultyPaperAudits = {
   "WxAIZtMAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/jiangbo.html",
       "https://jhc.sjtu.edu.cn/~bjiang/",
@@ -26201,7 +26201,12 @@ const facultyPaperAudits = {
       "https://www.csauthors.net/bo-jiang-003/",
       "https://wanshuiyin.github.io/",
       "https://haolibai.github.io/",
-      "https://elemmire1.github.io/"
+      "https://elemmire1.github.io/",
+      "https://liu445126256.github.io/",
+      "https://haolibai.github.io/assets/cv.pdf",
+      "https://tianguo.info/project/performance-characterization-and-modeling/",
+      "https://shuaili8.github.io/publications.html",
+      "https://sc26.conference-program.com/presentation/?id=pap345&sess=sess196"
     ],
     "papers": [
       {
@@ -26236,21 +26241,21 @@ const facultyPaperAudits = {
         "title": "FastIOV: Fast Startup of Passthrough Network I/O Virtualization for Secure Containers",
         "url": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_EuroSys2025_FastIOV.pdf",
         "outcome": "confirmed",
-        "note": "江波教师主页将 Yunzhuo Liu 列为 2025 年毕业博士。原文将其列为共同第一作者、同时署上交和阿里云；第 3 节把测试条件系于阿里云无服务器生产数据，阿里研究组织发布具名同篇 FastIOV 实现、数据和配套工具。校内学生实际参与同一研发，无须作实习认定。FastIOV 聚焦硬件直通 SR-IOV；正文另引 IMC 的软件 CNI 工作。",
+        "note": "江波教师主页将 Yunzhuo Liu 列为 2025 年毕业博士。原文将其列为共同第一作者、同时署上交和阿里云；第 3 节把测试条件系于阿里云无服务器生产数据，阿里研究组织发布具名同篇 FastIOV 实现、数据和配套工具。校内学生实际参与同一研发，无须作实习认定。FastIOV 聚焦硬件直通 SR-IOV；正文另引 IMC 的软件 CNI 工作。学生本人主页另有具名导师、论文列表、2022 年 10 月至 2023 年 5 月阿里达摩院 XG Lab 与 2023 年 5 月至 2024 年 2 月阿里云的实习时间；不据发表时间倒推具体工作月份。",
         "year": 2025
       },
       {
         "title": "Understanding Network Startup for Secure Containers in Multi-Tenant Clouds: Performance, Bottleneck and Optimization",
         "url": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_IMC2024_CNI.pdf",
         "outcome": "confirmed",
-        "note": "江波将 Yunzhuo Liu 列为其 2025 年毕业博士。会议原文当时列刘为第一作者、双署上交和阿里云。论文第 3 至 6 节研究软件 CNI 启动时延，阿里研究官方发布同篇实现、测量工具和数据，已明确其第一作者参与同一企业研究。该篇处理软件 CNI，不是后续硬件直通 FastIOV 的改题。",
+        "note": "江波将 Yunzhuo Liu 列为其 2025 年毕业博士。会议原文当时列刘为第一作者、双署上交和阿里云。论文第 3 至 6 节研究软件 CNI 启动时延，阿里研究官方发布同篇实现、测量工具和数据，已明确其第一作者参与同一企业研究。该篇处理软件 CNI，不是后续硬件直通 FastIOV 的改题。学生本人主页另有具名导师、论文列表、2022 年 10 月至 2023 年 5 月阿里达摩院 XG Lab 与 2023 年 5 月至 2024 年 2 月阿里云的实习时间；不据发表时间倒推具体工作月份。",
         "year": 2024
       },
       {
         "title": "X-Plane: A High-Throughput Large-Capacity 5G UPF",
         "url": "https://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MobiCom2023_X-Plane.pdf",
         "outcome": "confirmed",
-        "note": "江波在上交主页确认 Yunzhuo Liu 在此时为其在读、2025 年才毕业。ACM 原文具名其为共同第一作者、署上交及阿里巴巴，其共同作者在阿里研究官方项目上传了同一 X-Plane 的首版 P4 与随后的 RDMA 实现。阿里正式负责人祝顺民是同篇作者。证明是在读参加同一项企业研发，无须作实习认定。",
+        "note": "江波在上交主页确认 Yunzhuo Liu 在此时为其在读、2025 年才毕业。ACM 原文具名其为共同第一作者、署上交及阿里巴巴，其共同作者在阿里研究官方项目上传了同一 X-Plane 的首版 P4 与随后的 RDMA 实现。阿里正式负责人祝顺民是同篇作者。证明是在读参加同一项企业研发，无须作实习认定。学生本人主页另有具名导师、论文列表、2022 年 10 月至 2023 年 5 月阿里达摩院 XG Lab 与 2023 年 5 月至 2024 年 2 月阿里云的实习时间；不据发表时间倒推具体工作月份。",
         "year": 2023
       },
       {
@@ -26370,14 +26375,14 @@ const facultyPaperAudits = {
         "year": 2024,
         "url": "https://doi.org/10.1109/ICASSP48485.2024.10446980",
         "outcome": "no-evidence",
-        "note": "2024 年：ICASSP 正式论文与 2023 IJCAI StableMiss 为同一方法的工作链，StableMiss+ 是另一期两作者正式发表并引述早稿，作者只署上交。与旧作技术差别的判定另行检查。"
+        "note": "2024 年：ICASSP 正式论文与 2023 IJCAI StableMiss 为同一方法的工作链，StableMiss+ 是另一期两作者正式论文：保留特征之间的相关性、去掉掩码内及其与特征的相关性。2023 方法也去除特征之间的相关性。两篇实现和题录分别保留，作者仅署上交。"
       },
       {
         "title": "Improved Discretization Complexity Analysis of Consistency Models: Variance Exploding Forward Process and Decay Discretization Scheme",
         "year": 2025,
         "url": "https://jhc.sjtu.edu.cn/~bjiang/papers/Yang_ICML2025_Consistency.pdf",
         "outcome": "no-evidence",
-        "note": "2025 年：ICML 正式论文署上海交大，杨若峰后来在企业的其它工作独立，本篇未见范围内企业参与。"
+        "note": "2025 年：ICML 正式稿署上海交大与华东师大，杨若峰后来在企业的其它工作独立，本篇未见范围内企业参与。"
       },
       {
         "title": "Optimizing Latency for Caching with Delayed Hits in Non-Stationary Environment",
@@ -26405,7 +26410,7 @@ const facultyPaperAudits = {
         "year": 2025,
         "url": "https://doi.org/10.1109/LSP.2025.3602653",
         "outcome": "no-evidence",
-        "note": "2025 年：IEEE 最终版具名的人员机构为上海交大、复旦大学及其临床相关单位；未见范围内企业参与。"
+        "note": "2025 年：IEEE 最终版具名的人员机构为上海交大及附属上海市第一人民医院；一位合著者现址为 Oklahoma；未见范围内企业参与。"
       },
       {
         "title": "Video Inspired Lesion Segmentation Algorithm for OCT Retinal Images",
@@ -26420,9 +26425,135 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/ICASSP49660.2025.10889583",
         "outcome": "lead",
         "note": "2025 年：IEEE 正式稿与 arXiv:2503.01330 合并。上交博士生 Jian Yuan 与导师江波都署上交；柏昊立任职华为且同篇。学生参加该项目时的华为研发角色尚缺具名材料。"
+      },
+      {
+        "title": "DeCa360: Deadline-aware edge caching for two-tier 360° video streaming",
+        "year": 2024,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1084804524001991",
+        "outcome": "no-evidence",
+        "note": "2024 年：DBLP 同人和 Elsevier 正式刊物交叉，出版方具名人物介绍确认江波负责论文评审修订，第一作者及学生属中国传媒大学；未见范围内企业。"
+      },
+      {
+        "title": "Short video preloading via domain knowledge assisted deep reinforcement learning",
+        "year": 2024,
+        "url": "https://doi.org/10.1016/j.dcan.2024.01.006",
+        "outcome": "no-evidence",
+        "note": "2024 年：期刊官网和共同作者 Tao Lin 的具名 ORCID 核对；以 TikTok 场景作问题背景，测试使用视频数据及网络踪迹，未见同篇字节员工或具名学生企业项目。"
+      },
+      {
+        "title": "AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2509.18144",
+        "outcome": "no-evidence",
+        "note": "2025 年：arXiv 与 DBLP 同人核对，江波学术档案具名列 Yubo Yang 和 Yichen Zhu 为组内学生。原文未见华为人员；Yichen Zhu 后续受雇华为没有本篇企业参与线索。"
+      },
+      {
+        "title": "Elucidating Rectified Flow with Deterministic Sampler: Polynomial Discretization Complexity for Multi and One-step Models",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2508.08735",
+        "outcome": "no-evidence",
+        "note": "2025 年：arXiv 原文署上海交大、华东师大；杨若峰明确导师是李帅，其美团研究内容及论文标题不同，本篇未见范围内企业参加。"
+      },
+      {
+        "title": "vClos: Network contention aware scheduling for distributed machine learning tasks in multi-tenant GPU clusters",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.comnet.2025.111285",
+        "outcome": "no-evidence",
+        "note": "2025 年：DBLP 同人收录；出版方与赵世祯上海交大技术报告交叉。作者单位为上海交大、清华和中科院，论文提及阿里 ACCL 只是现有流量路由方案，并无同篇企业作者。"
+      },
+      {
+        "title": "Attention Output Projection Importance Score for Key-Value Eviction",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/ICASSP55912.2026.11463309",
+        "outcome": "no-evidence",
+        "note": "2026 年：ICASSP IEEE 正式首页只有上海交大和上海创智学院，江波为通讯作者。与 ShrinKV 同作者但技术不同：本篇为输出投影打分与缓存保留算法，未见同篇企业。"
+      },
+      {
+        "title": "ClueKV: Self-Guided KV Cache Compression via Adaptive Head Prioritization",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.findings-emnlp.393/",
+        "outcome": "no-evidence",
+        "note": "2026 年：ACL Anthology 正式论文署上海交大计算机学院，江波通讯且上交学生名录列在读硕士 Zhuiri Xiao；未见本篇范围内企业员工。"
+      },
+      {
+        "title": "Cornucopia: Elastic GPU cluster management for mixed batch-interactive distributed training",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.jpdc.2026.105334",
+        "outcome": "no-evidence",
+        "note": "2026 年：Crossref、Elsevier 正式刊和 SSRN 5020140 交叉，合并前稿。机构码归上海交大和 Worcester Polytechnic Institute；贡献声明明确导师监督，未见同篇范围内企业。"
+      },
+      {
+        "title": "Elucidating Guidance in Variance Exploding Diffusion Models: Fast Convergence and Better Diversity",
+        "year": 2026,
+        "url": "https://openreview.net/pdf?id=PmcV9vW2qZ",
+        "outcome": "no-evidence",
+        "note": "2026 年：ICLR DeLTa 公开论文同作者主页互证；杨若峰与 Qiuyi Yu 等具名，未见原文具有本项目所需的同篇企业参加。"
+      },
+      {
+        "title": "Evaluating the Role of Great Pre-trained Diffusion Models in Few-shot Phase: Warm-up and Acceleration",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v337/yang26d.html",
+        "outcome": "no-evidence",
+        "note": "2026 年：UAI PMLR 正式版与同题 ICLR 2026 DeLTa 稿合并。原文署上海交大、华东师大；第一作者具名其导师是同篇李帅，个人书目将不同的腾讯/美团项目另列。"
+      },
+      {
+        "title": "Fourier Compressor: Frequency-Domain Visual Token Compression for Vision-Language Models",
+        "year": 2026,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-37035-8_16",
+        "outcome": "lead",
+        "note": "2026 年：ECCV Springer 正式版与 arXiv:2508.06038（曾名 Fourier-VLM）同篇。原文署柏昊立、侯璐为华为，其他作者署上交或上海创智学院；Huanyu Wang 本人将该项归于上交 LUMIA，未见其在华为的项目安排，也未证实江波为学生具名导师。"
+      },
+      {
+        "title": "FreqKV: Key-Value Compression in Frequency Domain for Context Window Extension",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2505.00570",
+        "outcome": "lead",
+        "note": "2026 年：ICLR 正式版与 arXiv:2505.00570 各次改题同篇。柏昊立具名署华为，Jushi Kai 等署上交 LUMIA；待补对应上交学生同期受江波指导及具体在华为承担本项研究的可复核来源。"
+      },
+      {
+        "title": "LEAP: Unlocking dLLM Parallelism via Lookahead Early-Convergence Token Detection",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2605.10980",
+        "outcome": "no-evidence",
+        "note": "2026 年：arXiv 首发及修订同篇。原文五名作者均署上海交大，两位是江波团队学生。本篇无腾讯署名；Haohui Zhang 同年在 DSpine 的参与不回溯。"
+      },
+      {
+        "title": "Multi-Subspace Multi-Modal Modeling for Diffusion Models: Estimation, Convergence and Mixture of Experts",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2601.01475",
+        "outcome": "no-evidence",
+        "note": "2026 年：ICLR 与 arXiv:2601.01475 并为一篇，机构署上海交大、华东师大及上海相关研究机构。杨若峰本人明确博士导师李帅，其腾讯／美团是其他研发。"
+      },
+      {
+        "title": "One Size Does Not Fit All: Token-Wise Adaptive Compression for KV Cache",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.emnlp-main.524/",
+        "outcome": "no-evidence",
+        "note": "2026 年：EMNLP 正式稿加入江波与 Jingzhi Wang；初稿 2603.04411 同篇、当时未列这两位。正式首页署上交、上海人工智能实验室和上海创智学院。第一作者履历将 DynaKV 归为上交 LUMIA Lab 的项目，未见范围内企业。"
+      },
+      {
+        "title": "ShrinKV: Key-Value Cache Compression with Progressive Hidden States Shrinking to Mitigate Prefilling Latency",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/ICASSP55912.2026.11463859",
+        "outcome": "no-evidence",
+        "note": "2026 年：ICASSP IEEE 正式首页只有上海交大和上海创智学院。江波通讯，Jian Yuan 为其具名博士生；未见同篇企业员工。"
+      },
+      {
+        "title": "TargetMR: Learning Modality Target for Multimodal Recommendation",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3774904.3792466",
+        "outcome": "no-evidence",
+        "note": "2026 年：Crossref 通过同一 ORCID 补获 WWW 正式论文。ACM 正式档案、会议页及共同作者书目交叉；机构为上海交大和中科院有关单位，未见企业作者。"
+      },
+      {
+        "title": "The Accumulation of Score Estimation Error in Diffusion Models",
+        "year": 2026,
+        "url": "https://proceedings.mlr.press/v306/he26q.html",
+        "outcome": "no-evidence",
+        "note": "2026 年：ICML PMLR 正式版与 OpenReview 早期同题稿相符。Baoxiang He 为江波在读博士；公开署名与研究过程未显示范围内企业参与。"
       }
     ],
-    "note": "已逐篇核查 31 篇。上交学校主页、同人 ORCID/Crossref、DBLP 0003 和作者公开原文交叉；华为和阿里线索区分已确认及尚缺学生项目证据。2026 会议和书目补遗继续核。"
+    "note": "已逐篇核查 49 篇。上交学校主页、同人 ORCID/Crossref、DBLP 0003 和作者公开原文交叉；华为和阿里线索区分已确认及尚缺学生项目证据。已核完这些相互印证的、截止日前已经公开的论文。REAL 只有 11 月 18 日会议议程和代码，Positional Encoding and Prompt-Order Sensitivity 仅有录用书目；未找到截止日前的正式或预印论文原文，暂不计入公开论文。排除同期仅署字节的同名 Bo Jiang（例如 EditFlow、EMNLP Velocity Alignment）。"
   },
   "g5XtZGkAAAAJ": {
     "from": "2023-01-01",
@@ -26826,7 +26957,8 @@ const facultyPaperAudits = {
       "https://sc24.conference-program.com/presenter/?uid=090393",
       "https://storage.hust.edu.cn/info/1014/1730.htm",
       "https://www.proceedings.com/content/069/069663webtoc.pdf",
-      "https://www.usenix.org/conference/fast24/technical-sessions"
+      "https://www.usenix.org/conference/fast24/technical-sessions",
+      "https://date25.date-conference.com/programme"
     ],
     "papers": [
       {
@@ -27020,10 +27152,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "CodedFRER: Enhancing Reliability for FRER Protocol via Erasure Codes in Error-Prone Networks",
-        "url": "https://dblp.org/rec/conf/iwqos/DunJGHLF26.html",
+        "url": "https://doi.org/10.1109/IWQOS70441.2026.11661014",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "核对正式会议档案、论文摘要与教师书目具名六位作者，未发现范围企业研究人员和学生企业角色。"
+        "note": "IEEE 正式 DOI 登记六位作者均来自华中科大，未见目标企业共同作者。"
       },
       {
         "title": "ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage",
@@ -27066,6 +27198,34 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "lead",
         "note": "IEEE 会议原卷具名四位华为合作者，校方明确胡燏翀、冯丹指导的项目学生为余祺和王霖。校方同题报道仅列公共基金，仍缺在读学生参加该项华为研发的公开证据；王霖的另一项华为项目不能替代。"
+      },
+      {
+        "title": "FullRepair: Towards Optimal Repair Pipelining in Erasure-Coded Clustered Storage Systems",
+        "url": "https://doi.org/10.1109/CLUSTER52292.2023.00017",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 登记六位作者均为华中科技大学，未见范围内企业署名。"
+      },
+      {
+        "title": "Locality-aware Speculative Cache for Fast Partial Updates in Erasure-Coded Cloud Clusters",
+        "url": "https://doi.org/10.1109/ICCD58817.2023.00030",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "IEEE 登记的两位企业作者 Wei Wang、Huadong Huang 均来自海康威视，该公司不在范围。"
+      },
+      {
+        "title": "Saving Memory via Residual Reduction for DNN Training with Compressed Communication",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-99857-7_16",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版商列全部八位作者属华中科技大学、项目受公共基金支持；正式网页发布于 2025 年 8 月。"
+      },
+      {
+        "title": "Write-Optimized Persistent Hash Index for Non-Volatile Memory",
+        "url": "https://date25.date-conference.com/programme",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "DATE 正式程序逐名列江西理工大学、华中科技大学和西安理工大学，没有目标企业署名。"
       }
     ]
   },
@@ -27278,5 +27438,105 @@ const facultyPaperAudits = {
       }
     ],
     "note": "按国科大导师页、本人 ORCID、合作者机构书目、会议与期刊及公开原文逐篇核对 2023-01-01 至 2026-11-12。预印本、会议摘要、制品和正式版属同一成果时只计一篇；仅有海报的成果不计入论文。"
+  },
+  "n9cODgcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://papers.nips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang#new_tab",
+      "https://yuxuanliang.com/mentoring/",
+      "https://yuxuanliang.com/publications/",
+      "https://siruzhong.github.io/",
+      "https://arxiv.org/abs/2601.12083",
+      "https://arxiv.org/html/2601.12083v1",
+      "https://jayjunjieqiu.github.io/",
+      "https://arxiv.org/abs/2611.05993",
+      "https://arxiv.org/html/2611.05993v1",
+      "https://github.com/yuppielqx/TSFM-Component-Token-Adapter",
+      "https://arxiv.org/abs/2606.04660",
+      "https://onedean.github.io/",
+      "https://sites.google.com/view/xiaofang-zhou/home/research-research-students",
+      "https://arxiv.org/html/2606.04660v1",
+      "https://arxiv.org/abs/2610.06105",
+      "https://arxiv.org/html/2610.06105v1",
+      "https://kaiwang960112.github.io/",
+      "https://github.com/Onedean/Flash-OPD/commit/1c5f5ce",
+      "https://doi.org/10.1145/3770855.3817614",
+      "https://home.cse.ust.hk/~raywong/paper/kdd26-TS-Memory.pdf",
+      "https://arxiv.org/abs/2602.11550",
+      "https://arxiv.org/abs/2604.11628",
+      "https://arxiv.org/html/2604.11628v1",
+      "https://arxiv.org/abs/2509.05779",
+      "https://arxiv.org/html/2509.05779",
+      "https://arxiv.org/abs/2509.19062",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39601"
+    ],
+    "papers": [
+      {
+        "title": "Learning to Factorize Spatio-Temporal Foundation Models",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/7fa2a1f2122a4dd76e6b9ac518cfce14-Paper-Conference.pdf",
+        "outcome": "existing",
+        "note": "本站原有 FactoST 已核实：Siru Zhong 公开履历给出在读学籍、梁宇轩的指导及华为 2012 实验室当时相同主题的实习。正式论文注明华为人员饶仲文、徐浩与同一项目资助。",
+        "year": 2025
+      },
+      {
+        "title": "Learning to Factorize and Adapt: A Versatile Approach Toward Universal Spatio-Temporal Foundation Models",
+        "url": "https://arxiv.org/abs/2601.12083",
+        "outcome": "no-evidence",
+        "note": "扩展稿原文明确自述是 NeurIPS 2025 FactoST 的扩展，使用相同的华为项目编号并保留同一导师、第一作者和华为员工；已附在已有 FactoST 关系，未重新计入。当前稿 2026 年 1 月公开，暂无独立的不同企业项目。",
+        "year": 2026
+      },
+      {
+        "title": "Decouple to Reuse: Fine-Grained Knowledge Augmentation for Time Series Foundation Models",
+        "url": "https://arxiv.org/abs/2611.05993",
+        "outcome": "lead",
+        "note": "梁宇轩本人列 Yuqian Wu 为 2025 级主指导硕士；原文其同时署腾讯 OVB 并列三名腾讯合作者。代码历史所示主要实现者为另一名共同作者 Qingxiang Liu，尚无材料明确 Yuqian Wu 在腾讯的这个项目所做工作。",
+        "year": 2026
+      },
+      {
+        "title": "LifeSide: Benchmarking Agents as Lifelong Digital Companions",
+        "url": "https://arxiv.org/abs/2606.04660",
+        "outcome": "lead",
+        "note": "原文仅有一名腾讯双署名者 Wei Chen；两位导师的团队资料均显示其同期仍为港科大（广州）博士生，不能用他同时充当学生和独立企业正式员工。第一作者 Yuqian Wu 为梁宇轩指导的硕士，尚缺该生在腾讯承担此篇研发的证据。",
+        "year": 2026
+      },
+      {
+        "title": "Flash-OPD: Fast On-Policy Distillation",
+        "url": "https://arxiv.org/abs/2610.06105",
+        "outcome": "lead",
+        "note": "第一作者 Wei Chen 是梁宇轩主指导的港科大（广州）博士生，同时署腾讯混元；其他同篇腾讯研究人员包括 Kai Wang。学生履历写明自 2026 年 4 月研究 Agent/LLM，项目 Git 记录确认学生本人实现了本篇，但公开使用个人邮箱，暂缺该作明确是腾讯实习项目的独立材料。",
+        "year": 2026
+      },
+      {
+        "title": "TS-Memory: Plug-and-Play Memory for Time Series Foundation Models",
+        "url": "https://doi.org/10.1145/3770855.3817614",
+        "outcome": "lead",
+        "note": "梁宇轩列 Sisuo Lyu、Siru Zhong 为其学生；论文列二人共同一作及腾讯 Tiegang Chen、Taiqiang Lv。Siru 的腾讯任职早于港科大（广州）硕士入学时间，尚无公开证据表明任一学生在腾讯参与此项研发。",
+        "year": 2026
+      },
+      {
+        "title": "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
+        "url": "https://arxiv.org/abs/2604.11628",
+        "outcome": "lead",
+        "note": "梁宇轩团队列第一作者 Yuqian Wu 的学籍及主指导关系。混元正式研究员 Kai Wang 为同篇作者，但未见学生在腾讯完成本篇的说明；预印本缺署名单位。",
+        "year": 2026
+      },
+      {
+        "title": "Select, then Balance: A Plug-and-Play Framework for Exogenous-Aware Spatio-Temporal Forecasting",
+        "url": "https://arxiv.org/abs/2509.05779",
+        "outcome": "lead",
+        "note": "梁宇轩具名指导第一作者 Wei Chen，论文有字节跳动 Shiyu Wang 署名；学生履历显示该时段在蚂蚁研究，不足以支持在字节跳动完成本篇。",
+        "year": 2025
+      },
+      {
+        "title": "OccamVTS: Distilling Vision Models to 1% Parameters for Time Series Forecasting",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39601",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式论文作者署港科大（广州）及 Squirrel Ai Learning，后者不在范围，无范围内企业员工同篇。",
+        "year": 2026
+      }
+    ]
   }
 };
