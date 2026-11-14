@@ -17,6 +17,11 @@ const facultyScholarStatus = {
       'broken', 'https://github.com/hengxin/ics-csrankings/blob/master/ics-csrankings.md', 'OkMoxEkAAAAJ'
     ],
   },
+  '哈尔滨工业大学': {
+    '["张海军","http://faculty.hitsz.edu.cn/zhanghaijun"]': [
+      'broken', 'https://csen.hitsz.edu.cn/info/1021/1877.htm', 'XEiWEDAAAAAJ'
+    ],
+  },
   '北京航空航天大学': {
     '["王田","https://iai.buaa.edu.cn/info/1131/1757.htm"]': [
       'broken', 'https://adscientificindex.com/scientist/tian-wang/742582/', 'IP_f-voAAAAJ'
