@@ -34387,6 +34387,90 @@ const survey = {
         ]
       ],
       "paperId": "acl:2026.findings-acl.659"
+    },
+    {
+      "company": "阿里巴巴",
+      "team": "阿里云 · 数据库",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "校方列其为香港中文大学系统工程与工程管理学系副教授，自 2018 年 12 月在该系任教。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "employee": [
+        "李飞飞 · Feifei Li",
+        "论文署阿里云。阿里云具名资料列其为集团副总裁、数据库产品事业部负责人。",
+        "https://www.alibabacloud.com/en/apsara-conference-2022/speakers?_p_lc=1"
+      ],
+      "advising": [
+        "博士导师",
+        "研究团队名录将张芳源具名列入王思博的博士生名单，并注明 2025 年 3 月毕业。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "id": "alibaba-digra-cuhk-sibo-wang",
+      "student": [
+        "张芳源 · Fangyuan Zhang",
+        "2021 年 8 月至 2025 年 3 月为港中大博士生；2024 年 8 月至 2025 年 3 月在阿里云实习，研究向量数据库混合检索。本篇星号附在其名字上。",
+        "https://zzzzzfy.github.io/"
+      ],
+      "title": "DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter",
+      "short": "DIGRA",
+      "date": "2025-06",
+      "venue": "SIGMOD / PACMMOD",
+      "area": "机器学习与优化 · 向量检索",
+      "paper": "https://www1.se.cuhk.edu.hk/~swang/V3mod148-DIGRA.pdf",
+      "extra": [
+        [
+          "正式出版记录",
+          "https://doi.org/10.1145/3725399"
+        ],
+        [
+          "同期企业任职公告",
+          "https://alizila.oss-us-west-1.aliyuncs.com/uploads/2025/09/Press-Release_Alibaba-Cloud-Announces-New-Data-Centers-Expansion-Plan-to-Power-the-Next-Waves-of-AI-Innovation.pdf"
+        ]
+      ],
+      "evidence": "论文首页将阿里巴巴实习脚注单独标在张芳源（第三作者）名下，王思博系通讯作者和其港中大博士导师。学生本人履历证实读博与阿里云实习在时间上重合，研究为混合向量检索；企业作者李飞飞同篇署阿里云。此文与 RangePQ 为不同 DOI、不同算法及不同文章。"
+    },
+    {
+      "company": "阿里巴巴",
+      "team": "阿里云 · 数据库",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "王思博 · Sibo Wang",
+        "校方列其为香港中文大学系统工程与工程管理学系副教授，自 2018 年 12 月在该系任教。",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+      ],
+      "employee": [
+        "李飞飞 · Feifei Li",
+        "论文署阿里云。阿里云具名资料列其为集团副总裁、数据库产品事业部负责人。",
+        "https://www.alibabacloud.com/en/apsara-conference-2022/speakers?_p_lc=1"
+      ],
+      "advising": [
+        "博士导师",
+        "研究团队名录将张芳源具名列入王思博的博士生名单，并注明 2025 年 3 月毕业。",
+        "https://www1.se.cuhk.edu.hk/~swang/group.html"
+      ],
+      "id": "alibaba-analyticdb-pg-cuhk-sibo-wang",
+      "student": [
+        "张芳源 · Fangyuan Zhang",
+        "2024 年 8 月至 2025 年 3 月任阿里云研究实习生，履历明确写出在此期间对 AnalyticDB for PostgreSQL 核心引擎做出贡献；同期在港中大攻读博士。",
+        "https://zzzzzfy.github.io/"
+      ],
+      "title": "AnalyticDB-PG: A Cloud-native High-performance Data Warehouse in Alibaba Cloud",
+      "short": "AnalyticDB-PG",
+      "date": "2025-08",
+      "venue": "PVLDB",
+      "area": "数据库系统 · 云数据仓库",
+      "paper": "https://www.vldb.org/pvldb/vol18/p5139-zhou.pdf",
+      "extra": [
+        [
+          "同期企业任职公告",
+          "https://alizila.oss-us-west-1.aliyuncs.com/uploads/2025/09/Press-Release_Alibaba-Cloud-Announces-New-Data-Centers-Expansion-Plan-to-Power-the-Next-Waves-of-AI-Innovation.pdf"
+        ]
+      ],
+      "evidence": "张芳源与蔡华胤共同第一作者。张芳源个人履历明确将 AnalyticDB for PostgreSQL 核心引擎列为在读期间的阿里云贡献项目；论文正是该系统的正式出版报告。王思博、同篇阿里云正式员工李飞飞的指导及任职有来源可核。"
     }
   ]
 };

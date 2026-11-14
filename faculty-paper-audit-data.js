@@ -8754,7 +8754,13 @@ const facultyPaperAudits = {
       "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
       "https://cn.linkedin.com/in/biaobin-jiang-46682b26",
       "https://openreview.net/pdf?id=dGxAYNK6JU",
-      "https://ouyang-song.com/cv/"
+      "https://ouyang-song.com/cv/",
+      "https://www1.se.cuhk.edu.hk/~swang/V3mod148-DIGRA.pdf",
+      "https://zzzzzfy.github.io/",
+      "https://www.alibabacloud.com/en/apsara-conference-2022/speakers?_p_lc=1",
+      "https://doi.org/10.1145/3725399",
+      "https://alizila.oss-us-west-1.aliyuncs.com/uploads/2025/09/Press-Release_Alibaba-Cloud-Announces-New-Data-Centers-Expansion-Plan-to-Power-the-Next-Waves-of-AI-Innovation.pdf",
+      "https://www.vldb.org/pvldb/vol18/p5139-zhou.pdf"
     ],
     "papers": [
       {
@@ -8762,6 +8768,18 @@ const facultyPaperAudits = {
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/061238f13b8e65ce435c4a691ff5d7f1-Abstract-Conference.html",
         "outcome": "confirmed",
         "note": "原文首页具名指出第一作者 Kun Xie 是在香港中文大学博士在读、同时在腾讯实习时完成研究。王思博的官方课题组名单印证学籍及实际指导，王思博同篇通讯。腾讯 AI for Life Sciences Lab 的 Biaobin Jiang 同篇通讯，腾讯任职和企业研究角色有独立证据。"
+      },
+      {
+        "title": "DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter",
+        "url": "https://www1.se.cuhk.edu.hk/~swang/V3mod148-DIGRA.pdf",
+        "outcome": "confirmed",
+        "note": "论文首页将阿里巴巴实习脚注单独标在张芳源（第三作者）名下，王思博系通讯作者和其港中大博士导师。学生本人履历证实读博与阿里云实习在时间上重合，研究为混合向量检索；企业作者李飞飞同篇署阿里云。此文与 RangePQ 为不同 DOI、不同算法及不同文章。"
+      },
+      {
+        "title": "AnalyticDB-PG: A Cloud-native High-performance Data Warehouse in Alibaba Cloud",
+        "url": "https://www.vldb.org/pvldb/vol18/p5139-zhou.pdf",
+        "outcome": "confirmed",
+        "note": "张芳源与蔡华胤共同第一作者。张芳源个人履历明确将 AnalyticDB for PostgreSQL 核心引擎列为在读期间的阿里云贡献项目；论文正是该系统的正式出版报告。王思博、同篇阿里云正式员工李飞飞的指导及任职有来源可核。"
       }
     ]
   },
@@ -10843,5 +10861,528 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已逐篇对照个人主页公开题录中的若干成果、原文和课题组名单。个人书目与外部书目覆盖不同，仍在核对其余公开论文。"
+  },
+  "olXDiE0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/cxu/",
+      "https://orcid.org/0000-0002-7191-7348",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/38639",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39896",
+      "https://web.xidian.edu.cn/cxu/index.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+      "https://www.ijcai.org/proceedings/2024/0582.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886"
+    ],
+    "papers": [
+      {
+        "title": "GUIDER: Uncertainty Guided Dynamic Re-ranking for Large Language Models Based Recommender Systems",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38639",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版五位作者均署西安电子科技大学，无范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Universal EEG Epilepsy Detection via Evidential Multi-View De-Biasing",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39896",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者仅署西安电子科技大学、西北大学与长安大学，无范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Progressive Deep Multi-View Comprehensive Representation Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
+        "outcome": "no-evidence",
+        "note": "AAAI 2023 正式版列西安电子科技大学、西安邮电大学和迪肯大学，无范围内企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "Reliable Conflictive Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+        "outcome": "no-evidence",
+        "note": "AAAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Trusted Multi-view Learning with Label Noise",
+        "url": "https://www.ijcai.org/proceedings/2024/0582.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Biased Incomplete Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886",
+        "outcome": "no-evidence",
+        "note": "AAAI 2025 正式版全部作者署西安电子科技大学。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "mSJcQwYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/GZY1/en/index.htm",
+      "https://dblp.org/pid/43/6970.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/38639",
+      "http://web.xidian.edu.cn/zyguan/",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+      "https://www.ijcai.org/proceedings/2024/0582.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886"
+    ],
+    "papers": [
+      {
+        "title": "GUIDER: Uncertainty Guided Dynamic Re-ranking for Large Language Models Based Recommender Systems",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38639",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版五位作者均署西安电子科技大学，无范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Progressive Deep Multi-View Comprehensive Representation Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
+        "outcome": "no-evidence",
+        "note": "AAAI 2023 正式版列西安电子科技大学、西安邮电大学和迪肯大学，无范围内企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "Reliable Conflictive Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+        "outcome": "no-evidence",
+        "note": "AAAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Trusted Multi-view Learning with Label Noise",
+        "url": "https://www.ijcai.org/proceedings/2024/0582.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Biased Incomplete Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886",
+        "outcome": "no-evidence",
+        "note": "AAAI 2025 正式版全部作者署西安电子科技大学。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "OyzZmeAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/ZW6/zh_CN/index.htm",
+      "https://dblp.org/pid/z/WeiZhao-19.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/38639",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39896",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+      "https://www.ijcai.org/proceedings/2024/0582.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886"
+    ],
+    "papers": [
+      {
+        "title": "GUIDER: Uncertainty Guided Dynamic Re-ranking for Large Language Models Based Recommender Systems",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38639",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版五位作者均署西安电子科技大学，无范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Universal EEG Epilepsy Detection via Evidential Multi-View De-Biasing",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39896",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版作者仅署西安电子科技大学、西北大学与长安大学，无范围内企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "Progressive Deep Multi-View Comprehensive Representation Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26254",
+        "outcome": "no-evidence",
+        "note": "AAAI 2023 正式版列西安电子科技大学、西安邮电大学和迪肯大学，无范围内企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "Reliable Conflictive Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+        "outcome": "no-evidence",
+        "note": "AAAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Trusted Multi-view Learning with Label Noise",
+        "url": "https://www.ijcai.org/proceedings/2024/0582.pdf",
+        "outcome": "no-evidence",
+        "note": "IJCAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Biased Incomplete Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33731/35886",
+        "outcome": "no-evidence",
+        "note": "AAAI 2025 正式版全部作者署西安电子科技大学。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "hfNxbowAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/zhangliang/",
+      "https://dblp.org/pid/50/6759-10.html",
+      "https://openreview.net/pdf/6952ca1e25b7229c2e0f8390182866778675d35e.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiong_Intervening_in_Black_Box_Concept_Bottleneck_Model_for_Enhancing_Human_ICCV_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Jiang_VoteSplat_Hough_Voting_Gaussian_Splatting_for_3D_Scene_Understanding_ICCV_2025_paper.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/38131/42093"
+    ],
+    "papers": [
+      {
+        "title": "FSD-CAP: Fractional Subgraph Diffusion with Class-Aware Propagation for Graph Feature Imputation",
+        "url": "https://openreview.net/pdf/6952ca1e25b7229c2e0f8390182866778675d35e.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版的作者单位仅包括西安电子科技大学、瑞典皇家理工学院、湖南先进技术研究院。",
+        "year": 2026
+      },
+      {
+        "title": "Intervening in Black Box: Concept Bottleneck Model for Enhancing Human Neural Network Mutual Understanding",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiong_Intervening_in_Black_Box_Concept_Bottleneck_Model_for_Enhancing_Human_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版作者仅署西安电子科技大学、瑞典皇家理工学院及东海实验室。",
+        "year": 2025
+      },
+      {
+        "title": "VoteSplat: Hough Voting Gaussian Splatting for 3D Scene Understanding",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jiang_VoteSplat_Hough_Voting_Gaussian_Splatting_for_3D_Scene_Understanding_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版中唯一企业单位是 Qing Yi（上海）算法研发中心，非项目范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "Target-Balanced Score Distillation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38131/42093",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版仅署清华大学及西安电子科技大学。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对出版社或会议正式版的作者与机构；仍须查验其余 2023 年起公开书目。"
+  },
+  "TcjxvFkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/gmzhu/paper.html",
+      "https://faculty.xidian.edu.cn/ZGM/zh_CN/index.htm",
+      "https://openreview.net/pdf/6952ca1e25b7229c2e0f8390182866778675d35e.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiong_Intervening_in_Black_Box_Concept_Bottleneck_Model_for_Enhancing_Human_ICCV_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Jiang_VoteSplat_Hough_Voting_Gaussian_Splatting_for_3D_Scene_Understanding_ICCV_2025_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "FSD-CAP: Fractional Subgraph Diffusion with Class-Aware Propagation for Graph Feature Imputation",
+        "url": "https://openreview.net/pdf/6952ca1e25b7229c2e0f8390182866778675d35e.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版的作者单位仅包括西安电子科技大学、瑞典皇家理工学院、湖南先进技术研究院。",
+        "year": 2026
+      },
+      {
+        "title": "Intervening in Black Box: Concept Bottleneck Model for Enhancing Human Neural Network Mutual Understanding",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Xiong_Intervening_in_Black_Box_Concept_Bottleneck_Model_for_Enhancing_Human_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版作者仅署西安电子科技大学、瑞典皇家理工学院及东海实验室。",
+        "year": 2025
+      },
+      {
+        "title": "VoteSplat: Hough Voting Gaussian Splatting for 3D Scene Understanding",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jiang_VoteSplat_Hough_Voting_Gaussian_Splatting_for_3D_Scene_Understanding_ICCV_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版中唯一企业单位是 Qing Yi（上海）算法研发中心，非项目范围内企业。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对出版社或会议正式版的作者与机构；仍须查验其余 2023 年起公开书目。"
+  },
+  "-g58LsoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/wsdong/",
+      "https://web.xidian.edu.cn/wsdong/paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_Parameterized_Blur_Kernel_Prior_Learning_for_Local_Motion_Deblurring_CVPR_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Gain_from_Neighbors_Boosting_Model_Robustness_in_the_Wild_via_CVPR_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Bian_Feature_Information_Driven_Position_Gaussian_Distribution_Estimation_for_Tiny_Object_CVPR_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Hierarchical_Gaussian_Mixture_Model_Splatting_for_Efficient_and_Part_Controllable_CVPR_2025_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Parameterized Blur Kernel Prior Learning for Local Motion Deblurring",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_Parameterized_Blur_Kernel_Prior_Learning_for_Local_Motion_Deblurring_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版的作者单位是西安电子科技大学与纽约州立大学奥尔巴尼分校，未列范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "Gain from Neighbors: Boosting Model Robustness in the Wild via Adversarial Perturbations Toward Neighboring Classes",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Gain_from_Neighbors_Boosting_Model_Robustness_in_the_Wild_via_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版的作者单位是西安电子科技大学与纽约州立大学奥尔巴尼分校，未列范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "Feature Information Driven Position Gaussian Distribution Estimation for Tiny Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Bian_Feature_Information_Driven_Position_Gaussian_Distribution_Estimation_for_Tiny_Object_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版的作者单位是西安电子科技大学、湖南大学和江西通信终端产业技术研究院，未列范围内企业。",
+        "year": 2025
+      },
+      {
+        "title": "Hierarchical Gaussian Mixture Model Splatting for Efficient and Part Controllable 3D Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Hierarchical_Gaussian_Mixture_Model_Splatting_for_Efficient_and_Part_Controllable_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版的作者单位是西安电子科技大学、湖南大学、西澳大学和江西通信终端产业技术研究院，未列范围内企业。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对出版社或会议正式版的作者与机构；仍须查验其余 2023 年起公开书目。"
+  },
+  "axaj7H4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/WY23/zh_CN/index.htm",
+      "https://ywuchina.github.io/",
+      "https://proceedings.mlr.press/v235/wu24k.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911"
+    ],
+    "papers": [
+      {
+        "title": "PointMC: Multi-instance Point Cloud Registration based on Maximal Cliques",
+        "url": "https://proceedings.mlr.press/v235/wu24k.html",
+        "outcome": "no-evidence",
+        "note": "ICML 2024 正式论文四个署名单位均属西安电子科技大学。",
+        "year": 2024
+      },
+      {
+        "title": "Reliable Conflictive Multi-View Learning",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+        "outcome": "no-evidence",
+        "note": "AAAI 2024 正式版全部作者署西安电子科技大学。",
+        "year": 2024
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "2TQfvt8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://web.xidian.edu.cn/qgmiao/",
+      "https://cs.xidian.edu.cn/kxyj/kyxw/3.htm",
+      "https://proceedings.mlr.press/v235/wu24k.html"
+    ],
+    "papers": [
+      {
+        "title": "PointMC: Multi-instance Point Cloud Registration based on Maximal Cliques",
+        "url": "https://proceedings.mlr.press/v235/wu24k.html",
+        "outcome": "no-evidence",
+        "note": "ICML 2024 正式论文四个署名单位均属西安电子科技大学。",
+        "year": 2024
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "skrocFAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://web.xidian.edu.cn/ctian/",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39620"
+    ],
+    "papers": [
+      {
+        "title": "T4NMTD: Transition-Centric Reinforcement Learning for Non-Markovian Task Decomposition",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 将全部作者登记为西安电子科技大学。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "V5jcooYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/LX13/zh_CN/index.htm",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39620"
+    ],
+    "papers": [
+      {
+        "title": "T4NMTD: Transition-Centric Reinforcement Learning for Non-Markovian Task Decomposition",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 将全部作者登记为西安电子科技大学。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "c707dNUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/YUBIN/zh_CN/index.htm",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/39620"
+    ],
+    "papers": [
+      {
+        "title": "T4NMTD: Transition-Centric Reinforcement Learning for Non-Markovian Task Decomposition",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39620",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 将全部作者登记为西安电子科技大学。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "QocCdX8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/WANGMINGZHE/zh_CN/index.htm",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010"
+    ],
+    "papers": [
+      {
+        "title": "RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 署名包括西安电子科技大学、澳大利亚联邦科学与工业研究组织和澳洲、香港高校；无范围内企业。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "u9IRSacAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://web.xidian.edu.cn/cuijt/",
+      "https://web.xidian.edu.cn/cuijt/paper.html",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
+      "https://www.vldb.org/pvldb/vol18/p2964-li.pdf"
+    ],
+    "papers": [
+      {
+        "title": "RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 署名包括西安电子科技大学、澳大利亚联邦科学与工业研究组织和澳洲、香港高校；无范围内企业。",
+        "year": 2026
+      },
+      {
+        "title": "STsCache: An Efficient Semantic Caching Scheme for Time-series Data Workloads Based on Hybrid Storage",
+        "url": "https://www.vldb.org/pvldb/vol18/p2964-li.pdf",
+        "outcome": "no-evidence",
+        "note": "PVLDB 正式版中唯一企业署名是李辉兼署的 Yunxi Technology，该公司不在本项目范围。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "RHoDfoEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/hli/",
+      "https://lihuidb.com/malos/",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
+      "https://www.vldb.org/pvldb/vol18/p2964-li.pdf"
+    ],
+    "papers": [
+      {
+        "title": "RcAE: Recursive Reconstruction Framework for Unsupervised Industrial Anomaly Detection",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38048/42010",
+        "outcome": "no-evidence",
+        "note": "AAAI 2026 署名包括西安电子科技大学、澳大利亚联邦科学与工业研究组织和澳洲、香港高校；无范围内企业。",
+        "year": 2026
+      },
+      {
+        "title": "STsCache: An Efficient Semantic Caching Scheme for Time-series Data Workloads Based on Hybrid Storage",
+        "url": "https://www.vldb.org/pvldb/vol18/p2964-li.pdf",
+        "outcome": "no-evidence",
+        "note": "PVLDB 正式版中唯一企业署名是李辉兼署的 Yunxi Technology，该公司不在本项目范围。",
+        "year": 2025
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "5nFa3N8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://web.xidian.edu.cn/xkma/",
+      "https://orcid.org/0000-0002-5604-7137",
+      "https://www.slai.edu.cn/en/teacher/181",
+      "https://link.springer.com/article/10.1186/s13059-024-03272-0",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070677/",
+      "https://link.springer.com/article/10.1186/s13073-026-01634-w",
+      "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013867"
+    ],
+    "papers": [
+      {
+        "title": "MNMST: topology of cell networks leverages identification of spatial domains from spatial transcriptomics data",
+        "url": "https://link.springer.com/article/10.1186/s13059-024-03272-0",
+        "outcome": "no-evidence",
+        "note": "正式版仅西安电子科技大学及广东省人民医院相关机构署名。",
+        "year": 2024
+      },
+      {
+        "title": "SA2E: spatial-aware auto-encoder for cell type deconvolution of spatial transcriptomics data",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070677/",
+        "outcome": "no-evidence",
+        "note": "Oxford 正式版仅西安电子科技大学及青海理工学院署名。",
+        "year": 2026
+      },
+      {
+        "title": "Alignment of spatial transcriptomics slices across diseases, platforms and conditions",
+        "url": "https://link.springer.com/article/10.1186/s13073-026-01634-w",
+        "outcome": "no-evidence",
+        "note": "正式版有西安电子科技大学、广东省人民医院相关机构、海南大学和深圳河套学院，无范围内企业。",
+        "year": 2026
+      },
+      {
+        "title": "Network models for bridging denoising and identifying spatial domains of spatially resolved transcriptomics",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013867",
+        "outcome": "no-evidence",
+        "note": "PLOS 正式版列西安电子科技大学、山东师范大学、广州大学及广东省人民医院相关机构，无范围内企业。",
+        "year": 2026
+      }
+    ],
+    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
   }
 };
