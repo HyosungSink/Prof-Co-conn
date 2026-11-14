@@ -14870,18 +14870,208 @@ const facultyPaperAudits = {
     "sources": [
       "https://faculty.xidian.edu.cn/XIAOYANG/zh_CN/index.htm",
       "https://api.crossref.org/works/10.1109/TDSC.2024.3524760",
-      "https://doi.org/10.1109/TDSC.2024.3524760"
+      "https://doi.org/10.1109/TDSC.2024.3524760",
+      "https://web.xidian.edu.cn/yxiao/",
+      "https://web.xidian.edu.cn/yxiao/paper.html",
+      "https://web.xidian.edu.cn/yxiao/team.html",
+      "https://dblp.org/pid/181/1848-14.html",
+      "https://orcid.org/0000-0003-1410-0486",
+      "https://api.crossref.org/works?filter=orcid:0000-0003-1410-0486",
+      "https://www.kdd.org/kdd2025/applied-data-science-ads-track-papers-2/",
+      "https://parklize.github.io/publications/KDD2025.pdf",
+      "https://faculty.xidian.edu.cn/lihongning/zh_CN/xsxx/377681/content/123628.htm",
+      "https://web.xidian.edu.cn/qqpei/team.html",
+      "https://aclanthology.org/2026.findings-acl.1172.pdf",
+      "https://oulurepo.oulu.fi/handle/10024/64507?show=full",
+      "https://www.sciopen.com/scholar/info?id=2099415312034742273",
+      "https://doi.org/10.1109/tcc.2025.3599468",
+      "https://doi.org/10.1145/3711896.3737216",
+      "https://doi.org/10.1109/tifs.2024.3461449",
+      "https://doi.org/10.1109/tnse.2025.3641172",
+      "https://doi.org/10.1109/tsc.2026.3697251",
+      "https://doi.org/10.1145/3770855.3817767",
+      "https://doi.org/10.1109/tdsc.2022.3211955",
+      "https://doi.org/10.1109/tetci.2025.3595575",
+      "https://doi.org/10.1109/jbhi.2024.3470338",
+      "https://doi.org/10.1109/tmc.2025.3581687",
+      "https://doi.org/10.1109/tifs.2025.3561662",
+      "https://doi.org/10.1109/tc.2025.3642408",
+      "https://doi.org/10.1109/jiot.2022.3145089",
+      "https://doi.org/10.1109/tdsc.2024.3524760",
+      "https://doi.org/10.1109/jiot.2022.3227564",
+      "https://doi.org/10.1109/tim.2024.3369130",
+      "https://aclanthology.org/2026.findings-acl.1172/",
+      "https://www.vldb.org/pvldb/vol18/p4602-zhou.pdf",
+      "https://www.vldb.org/pvldb/vol17/p912-zhou.pdf",
+      "https://link.springer.com/chapter/10.1007/978-981-97-0798-0_14",
+      "https://www.joconline.com.cn/zh/article/doi/10.11959/j.issn.1000-436x.2023220/",
+      "https://arxiv.org/html/2502.14281",
+      "https://www.sciopen.com/article/10.26599/TST.2025.9010034?issn=1007-0214"
     ],
     "papers": [
       {
         "title": "DidTrust: Privacy-Preserving Trust Management for Decentralized Identity",
         "year": 2025,
-        "url": "https://doi.org/10.1109/TDSC.2024.3524760",
-        "outcome": "no-evidence",
-        "note": "IEEE 第 22 卷作者单位为西电、澳大利亚联邦科学与工业研究组织、皇家墨尔本理工大学，无范围内企业。"
+        "url": "https://doi.org/10.1109/tdsc.2024.3524760",
+        "note": "2025 正式卷期；出版单位列西电、澳大利亚联邦科学与工业研究组织和皇家墨尔本理工大学，未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Pura: An Efficient Privacy-Preserving Solution for Face Recognition",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/tcc.2025.3599468",
+        "note": "正式署名包含西电、中国测绘科学研究院及华润智能计算；华润不属于本项目所列企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Enhancing Text-Based Hierarchical Multilabel Classification for Mobile Applications via Contrastive Learning",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3711896.3737216",
+        "note": "正式 KDD 版及论文正文具名腾讯作者 Jiawei Guo并说明系统在腾讯部署；其余作者署西电、深圳信息职业技术学院与独立研究者，未发现其中有人以在读身份在腾讯开展此篇研究，也无对应导师证据。",
+        "outcome": "lead"
+      },
+      {
+        "title": "MODEL: A Model Poisoning Defense Framework for Federated Learning via Truth Discovery",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/tifs.2024.3461449",
+        "note": "IEEE 署名包括西安电子科技大学、广州大学、福州大学及广州云趣信息科技，未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Efficient and Accurate Privacy-Preserving Task Allocation for Unmanned Aerial Vehicle-Based Mobile Crowdsensing",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/tnse.2025.3641172",
+        "note": "按卷 13 的正式期刊年记 2026。IEEE 作者来自西电、广州大学及北京应用物理与计算数学研究所。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Defense Against Membership Inference Attacks via Normalizing Flow-Based Adversarial Sample",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/tsc.2026.3697251",
+        "note": "IEEE 2026 正式元数据作者署西电和湖北汽车工业学院，未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "RekindleSketch: Time-Aware Detection of Recent Persistent Flows via Arrival-Driven Rewards",
+        "year": 2026,
+        "url": "https://doi.org/10.1145/3770855.3817767",
+        "note": "ACM KDD 2026 出版记录列西安电子科技大学及西北工业大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Cure-GNN: A Robust Curvature-Enhanced Graph Neural Network Against Adversarial Attacks",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/tdsc.2022.3211955",
+        "note": "IEEE 正式卷期为 2023；邢卓林论文只署腾讯，西电团队页说明他是 2022 届硕士毕业生。核到同篇腾讯合著，但没有另外的在读合著者参与腾讯研究或邢卓林本人在读时于腾讯完成此篇且另有企业员工同署的证据。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Defending Against DDoS Attacks via Heterogeneous Data Conflict Resolution for Secure Services in Internet of Things",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/tetci.2025.3595575",
+        "note": "IEEE 在线正式稿列西电、广州大学及沙特哈立德国王大学等学术单位；未见范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "LLM-Enhanced Multi-Teacher Knowledge Distillation for Modality-Incomplete Emotion Recognition in Daily Healthcare",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/jbhi.2024.3470338",
+        "note": "正式卷期为 2025；作者单位是西安交大、西电、沙特国王大学、奥尔堡大学及南洋理工大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "RAPOO: An Efficient Privacy-Preserving Facial Expression Recognition via Mobile Crowdsensing",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/tmc.2025.3581687",
+        "note": "IEEE 2025 正式卷期作者署西电及芬兰奥卢大学；奥卢大学机构存档可对照。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "DP-DID: A Dynamic and Proactive Decentralized Identity System",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/tifs.2025.3561662",
+        "note": "IEEE 署名仅西安电子科技大学及新加坡科技设计大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "FedInf: An Efficient and Secure Inference With Federated Participants",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/tc.2025.3642408",
+        "note": "IEEE 正式期刊年 2026，作者来自西电、广东工业大学和中国测绘科学研究院。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "SmartDID: A Novel Privacy-Preserving Identity Based on Blockchain for IoT",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/jiot.2022.3145089",
+        "note": "IEEE 正式卷期为 2023；作者署西电、瑞典皇家理工学院及日本电气通信大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Defed: An Edge-Feature-Enhanced Image Denoised Network Against Adversarial Attacks for Secure Internet of Things",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/jiot.2022.3227564",
+        "note": "2023 正式卷期；作者署西电、福州大学、温莎大学及室兰工业大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "EEG-Based Multimodal Emotion Recognition: A Machine Learning Perspective",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/tim.2024.3369130",
+        "note": "IEEE 署名均为西安交大、西电或丹麦奥尔堡大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Privacy Risks of Intermediate Representations: Attribute Inference in Distributed LLM Inference",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.findings-acl.1172/",
+        "note": "ACL 正式稿作者署西电、广州大学、中国科学院信息工程研究所。教师官网明确联合指导作者吕扬；未见范围内公司或企业研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Pistis: A Decentralized Knowledge Graph Platform Enabling Ownership-Preserving SPARQL Querying",
+        "year": 2025,
+        "url": "https://www.vldb.org/pvldb/vol18/p4602-zhou.pdf",
+        "note": "PVLDB 正版列西电、港科大、港理工及其深圳研究院、奥尔堡大学，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "VeriDKG: A Verifiable SPARQL Query Engine for Decentralized Knowledge Graphs",
+        "year": 2023,
+        "url": "https://www.vldb.org/pvldb/vol17/p912-zhou.pdf",
+        "note": "正式 PVLDB 17(4) 署名为西电、港理工、港科大及丹麦奥尔堡大学；未见企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "A Cross-Chain System Supports Verifiable Complete Data Provenance Queries",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-981-97-0798-0_14",
+        "note": "会议召开于 2023，Springer 正式论文是 2024 年首次出版。作者所属西电及港理工。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "理性安全的公平两方比较协议",
+        "year": 2023,
+        "url": "https://www.joconline.com.cn/zh/article/doi/10.11959/j.issn.1000-436x.2023220/",
+        "note": "期刊原文列西电、福州大学及新加坡管理大学；有西电在读学生署名，但未见目标企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Correcting Noisy Multilabel Predictions: Modeling Label Noise through Latent Space Shifts",
+        "year": 2025,
+        "url": "https://arxiv.org/html/2502.14281",
+        "note": "预印本列西电、深圳信息职业技术学院、广州大学、都柏林大学学院及独立研究者；作者名单与 KDD 2025 腾讯合著是不同项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Pure-GNN: A Lightweight Purified Graph Neural Network Against Adversarial Attacks",
+        "year": 2026,
+        "url": "https://www.sciopen.com/article/10.26599/TST.2025.9010034?issn=1007-0214",
+        "note": "SciOpen 记载论文于 2026 年 9 月正式在线公开；作者署西电、深圳信息职业技术学院、广州大学、杭州电子科技大学。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "按正式出版资料逐篇核对作者、单位和可见项目材料；公开书目仍在梳理。"
+    "note": "已对代表作主页、ORCID、出版元数据、直接论文和团队官方名单逐篇核对；DBLP 与教师个人列出的其他题录待交叉补齐。"
   },
   "bj356J0AAAAJ": {
     "from": "2023-01-01",
@@ -15982,7 +16172,14 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2504.04394",
       "https://zijianling.github.io/",
       "https://arxiv.org/abs/2502.07557",
-      "https://arxiv.org/pdf/2401.09740"
+      "https://arxiv.org/pdf/2401.09740",
+      "https://www.sciencedirect.com/science/article/pii/S0167739X23002315",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502267652520458",
+      "https://scholars.cityu.edu.hk/en/publications/differential-privacy-in-deep-learning-privacy-and-beyond/",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602247207877015",
+      "https://pubmed.ncbi.nlm.nih.gov/36702690/",
+      "https://crad.ict.ac.cn/fileJSJYJYFZ/journal/article/jsjyjyfz/2025/9/0a8f6c23-02a2-4b04-b7f5-bdff5c21231b.pdf",
+      "https://github.com/shenyizg/ImperceptibleAttack"
     ],
     "papers": [
       {
@@ -16117,6 +16314,83 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "NDSS 正式稿明确作者均署香港城市大学、武汉大学、苏黎世联邦理工学院。"
+      },
+      {
+        "title": "Divide and Conquer: Policy-Aware Jailbreak Defense for Large Language Models",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-2859-1_29",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer 在 2026 年 7 月已正式在线发布；书卷版权标为 2027。公开作者栏四人皆署武汉大学。"
+      },
+      {
+        "title": "IntentBreaker: Intent-Adaptive Jailbreak Attack on Large Language Models",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-06078-5_14",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer 的 ECML PKDD 2025 论文于 2025 年在线发布；五位作者均署武汉大学，公开致谢列国家自然科学基金。"
+      },
+      {
+        "title": "Revisiting Adversarial Robustness Distillation from the Perspective of Robust Fairness",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2023/file/6111371a868af8dcfba0f96ad9e25ae3-Paper-Conference.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2023 正式稿列四位作者均署武汉大学，没有范围内企业作者。"
+      },
+      {
+        "title": "Sonicumos: An Enhanced Active Face Liveness Detection System via Ultrasonic and Video Signals",
+        "url": "https://doi.org/10.1109/TMC.2025.3565689",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "与第一批公开书目及 JST 逐名单位相符：武汉大学、西安交通大学、香港城市大学；未见调查企业作者。"
+      },
+      {
+        "title": "Differential privacy in deep learning: Privacy and beyond",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167739X23002315",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "Elsevier 作者简介和港城大机构库均指向武汉大学、香港城市大学。期刊综述未见范围内企业作者。"
+      },
+      {
+        "title": "Fairness is essential for robustness: fair adversarial training by identifying and augmenting hard examples",
+        "url": "https://link.springer.com/article/10.1007/s11704-024-3587-1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer 卷期与本人书目相符，宁平牟等四位作者均为武汉大学；2024 在线稿和 2025 卷期合并。"
+      },
+      {
+        "title": "Artificial intelligence security and privacy: a survey",
+        "url": "https://link.springer.com/article/10.1007/s11432-025-4388-5",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式开放版逐人列明 18 个高校、科研院所单位。未见调查范围内企业作者。"
+      },
+      {
+        "title": "When Unlearnable Examples Cooperate With Watermarking: A Dual Voice Data Protection Against Unauthorized Exploitation",
+        "url": "https://doi.org/10.1109/TDSC.2025.3648349",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE 2026 正式卷期与 JST 的逐名机构相符，六位作者均为武汉大学院系或研究院。"
+      },
+      {
+        "title": "MiDA: Membership inference attacks against domain adaptation",
+        "url": "https://doi.org/10.1016/j.isatra.2023.01.021",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "正式出版社与 PubMed 均核实，作者张元杰、赵令辰、王骞均署武汉大学。"
+      },
+      {
+        "title": "多模态视觉语言表征学习模型及其对抗样本攻防技术综述",
+        "url": "https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202550410.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "《计算机研究与发展》正式稿和卷期目录均确认；四位作者署武汉大学国家网络安全学院或武汉数学与智能研究院。"
+      },
+      {
+        "title": "Perception-Driven Imperceptible Adversarial Attack Against Decision-Based Black-Box Models",
+        "url": "https://doi.org/10.1109/TIFS.2024.3359441",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "已核对期刊作者与第一作者代码；同篇郑保林在同年另一研究署阿里。尚无可独立证实该篇企业参与和第一作者同期具名指导的公开材料。"
       }
     ],
     "note": "按作品逐篇核对作者单位、参研身份和指导关系；完整书目仍在核对。"
@@ -16427,7 +16701,7 @@ const facultyPaperAudits = {
   "71CuCoEAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://arxiv.org/abs/2610.40333",
       "https://cse.hkust.edu.hk/admin/people/faculty/profile/chaojian",
@@ -16439,7 +16713,85 @@ const facultyPaperAudits = {
       "https://sainingzhang.github.io/",
       "https://arxiv.org/abs/2607.08639",
       "https://technology.robbyant.com/lingbot-va-v2",
-      "https://list0830.github.io/"
+      "https://list0830.github.io/",
+      "https://doi.org/10.1007/978-3-031-25066-8_40",
+      "https://researchportal.hkust.edu.hk/en/persons/chaojian-li/",
+      "https://sponge-lab.github.io/data/publications.json",
+      "https://arxiv.org/abs/2212.01959",
+      "https://doi.org/10.1109/TNNLS.2021.3138056",
+      "https://par.nsf.gov/servlets/purl/10358518",
+      "https://arxiv.org/abs/2101.01163",
+      "https://doi.org/10.1109/ICASSP49357.2023.10095360",
+      "https://arxiv.org/abs/2303.10727",
+      "https://doi.org/10.1109/HPCA56546.2023.10071027",
+      "https://arxiv.org/abs/2210.09573",
+      "https://doi.org/10.1109/HPCA56546.2023.10071081",
+      "https://doi.org/10.1145/3579371.3589115",
+      "https://arxiv.org/abs/2304.12467",
+      "https://eiclab.scs.gatech.edu/pages/team.html",
+      "https://doi.org/10.1109/DAC56929.2023.10247710",
+      "https://arxiv.org/abs/2305.05766",
+      "https://doi.org/10.1109/MM.2023.3274736",
+      "https://doi.org/10.1145/3470496.3527443",
+      "https://doi.org/10.1109/ICCAD57390.2023.10323953",
+      "https://arxiv.org/abs/2309.10730",
+      "https://doi.org/10.1109/3DV62453.2024.00087",
+      "https://arxiv.org/abs/2312.11841",
+      "https://doi.org/10.1145/3611387",
+      "https://researchportal.hkust.edu.hk/en/publications/an-investigation-on-hardware-aware-vision-transformer-scaling/",
+      "https://doi.org/10.1007/978-3-031-72640-8_9",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02444.pdf",
+      "https://arxiv.org/abs/2403.11131",
+      "https://doi.org/10.1109/MICRO61859.2024.00016",
+      "https://cocosys.ece.gatech.edu/research/",
+      "https://eiclab.scs.gatech.edu/pages/news.html",
+      "https://openreview.net/forum?id=IVqzbuLfoL",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b2de71212384ffcaf80ad9fd1a21fe3-Abstract-Conference.html",
+      "https://doi.org/10.1145/3676536.3689909",
+      "https://nvlabs.github.io/LLM4HWDesign/",
+      "https://arxiv.org/abs/2401.01040",
+      "https://doi.org/10.1109/TCASAI.2024.3462692",
+      "https://doi.org/10.1109/ISPASS61541.2024.00033",
+      "https://arxiv.org/abs/2409.13153",
+      "https://zishenwan.github.io/publication/TCASAI24.pdf",
+      "https://cocosys.ece.gatech.edu/2024/06/11/research-spotlight/",
+      "https://responsible.computing.gatech.edu/featured-project-cocosys/",
+      "https://luke-avionics.github.io/data/new_data/Luke_CV.pdf",
+      "https://doi.org/10.1109/HPCA61900.2025.00029",
+      "https://arxiv.org/abs/2503.23644",
+      "https://doi.org/10.1109/HPCA61900.2025.00036",
+      "https://arxiv.org/abs/2503.23625",
+      "https://doi.org/10.1109/DAC63849.2025.11132864",
+      "https://arxiv.org/abs/2504.08112",
+      "https://doi.org/10.1109/CVPR52734.2025.00719",
+      "https://arxiv.org/abs/2504.09606",
+      "https://doi.org/10.1145/3725843.3756039",
+      "https://www.aspdac.com/aspdac2026/archive/pdf/T4.pdf",
+      "https://www.sixul.com/homepage",
+      "https://doi.org/10.1109/MC.2025.3594818",
+      "https://doi.org/10.1109/ICCAD66269.2025.11240644",
+      "https://confcats-event-sessions.s3.us-east-1.amazonaws.com/iccad25/uploads/ICCAD_2025_Program_v8.pdf",
+      "https://aclanthology.org/2026.findings-eacl.315/",
+      "https://aclanthology.org/2026.findings-eacl.315.pdf",
+      "https://doi.org/10.1109/ISCA66397.2026.00124",
+      "https://www.iscaconf.org/isca2026_dev/program/",
+      "https://github.com/GATECH-EIC/NeRArch-Sim",
+      "https://arxiv.org/abs/2603.18126",
+      "https://arxiv.org/abs/2603.19131",
+      "https://arxiv.org/abs/2604.20046",
+      "https://openreview.net/forum?id=jdUAlrwppY",
+      "https://proceedings.mlr.press/v306/zhong26o.html",
+      "https://sponge-lab.github.io/TideGS/",
+      "https://arxiv.org/abs/2605.20150",
+      "https://arxiv.org/abs/2608.17420",
+      "https://arxiv.org/abs/2610.13498",
+      "https://arxiv.org/abs/2610.26585",
+      "https://arxiv.org/abs/2611.03595",
+      "https://arxiv.org/html/2611.03595v1",
+      "https://arxiv.org/abs/2611.08413",
+      "https://repository.gatech.edu/bitstreams/504c1f5e-33cc-43f7-8eca-87bc28ee7566/download",
+      "https://www.iieta.org/download/file/fid/154540",
+      "https://fileserver-az.core.ac.uk/download/640243320.pdf"
     ],
     "papers": [
       {
@@ -16455,8 +16807,261 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "Robbyant 官方项目以及论文贡献表确认李朝鑒与浙江大学博士生 Shuaiting Li 一起负责加速，学生也确认参加同一企业研究。学生只称与李朝鑒密切合作，具名列浙大导师 Haibin Shen、实习导师 Yinghao Xu 和 Zifan Shi；李朝鑒的同期高校指导关系仍待确认。",
         "year": 2026
+      },
+      {
+        "title": "INGeo: Accelerating Instant Neural Scene Reconstruction with Noisy Geometry Priors",
+        "url": "https://doi.org/10.1007/978-3-031-25066-8_40",
+        "outcome": "no-evidence",
+        "note": "2022 年 ECCV 研讨会及预印本，Springer 正式卷册 2023；Meta 与当时在美国高校攻读博士的 Li 合作，Meta 非项目范围企业。",
+        "year": 2023
+      },
+      {
+        "title": "SmartDeal: Remodeling Deep Network Weights for Efficient Inference and Training",
+        "url": "https://doi.org/10.1109/TNNLS.2021.3138056",
+        "outcome": "no-evidence",
+        "note": "早期预印本 2021，IEEE 2023 年正式刊期。NSF 公开原文给出 Rice 与得州大学奥斯汀分校等学术作者单位，未见目标企业研究。",
+        "year": 2023
+      },
+      {
+        "title": "ERSAM: Neural Architecture Search for Energy-Efficient and Real-Time Social Ambiance Measurement",
+        "url": "https://doi.org/10.1109/ICASSP49357.2023.10095360",
+        "outcome": "no-evidence",
+        "note": "Georgia Tech 与 Rice 的校园研究，正式 ICASSP 与 arXiv 合并。",
+        "year": 2023
+      },
+      {
+        "title": "ViTCoD: Vision Transformer Acceleration via Dedicated Algorithm and Accelerator Co-Design",
+        "url": "https://doi.org/10.1109/HPCA56546.2023.10071027",
+        "outcome": "no-evidence",
+        "note": "2022 年预印本，2023 年 HPCA 正式发表；作者单位有 Georgia Tech、Rice 和 Oracle Health and AI，Oracle 不在调查范围。",
+        "year": 2023
+      },
+      {
+        "title": "ViTALiTy: Unifying Low-rank and Sparse Approximation for Vision Transformer Acceleration with a Linear Taylor Attention",
+        "url": "https://doi.org/10.1109/HPCA56546.2023.10071081",
+        "outcome": "no-evidence",
+        "note": "IEEE 署名单位为 Georgia Tech、南京大学和 Rice，未发现目标企业角色。",
+        "year": 2023
+      },
+      {
+        "title": "Instant-3D: Instant Neural Radiance Field Training Towards On-Device AR/VR 3D Reconstruction",
+        "url": "https://doi.org/10.1145/3579371.3589115",
+        "outcome": "no-evidence",
+        "note": "ISCA 正式论文和 arXiv 均见 Georgia Tech 学术作者，SRC 展示来自同一研究；当时 Li 为博士生。",
+        "year": 2023
+      },
+      {
+        "title": "Instant-NeRF: Instant On-Device Neural Radiance Field Training via Algorithm-Accelerator Co-Designed Near-Memory Processing",
+        "url": "https://doi.org/10.1109/DAC56929.2023.10247710",
+        "outcome": "no-evidence",
+        "note": "Georgia Tech 与 Rice；不同于同年有同名近似主题的 ISCA Instant-3D，原文不同算法和作者。未见范围企业。",
+        "year": 2023
+      },
+      {
+        "title": "EyeCoD: Eye Tracking System Acceleration via FlatCam-Based Algorithm and Hardware Co-Design",
+        "url": "https://doi.org/10.1109/MM.2023.3274736",
+        "outcome": "no-evidence",
+        "note": "合并 ISCA 2022 的原始 EyeCoD 与 2023 年 IEEE Micro 同项目期刊版本，未找到目标企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "GPT4AIGChip: Towards Next-Generation AI Accelerator Design Automation via Large Language Models",
+        "url": "https://doi.org/10.1109/ICCAD57390.2023.10323953",
+        "outcome": "no-evidence",
+        "note": "Georgia Tech 合著，并用其他公司的 LLM 做工具；没有企业共著、具名实习或范围高校指导。",
+        "year": 2023
+      },
+      {
+        "title": "MixRT: Mixed Neural Representations For Real-Time NeRF Rendering",
+        "url": "https://doi.org/10.1109/3DV62453.2024.00087",
+        "outcome": "no-evidence",
+        "note": "2023 年 arXiv 首次，2024 年 3DV 正式发表；Bichen Wu、Peter Vajda 同篇署 Meta，非调查企业。",
+        "year": 2024
+      },
+      {
+        "title": "An Investigation on Hardware-Aware Vision Transformer Scaling",
+        "url": "https://doi.org/10.1145/3611387",
+        "outcome": "no-evidence",
+        "note": "2023 年 ACM 在线，2024 年正式刊期；原文有 Meta 和 Cruise 作者，二者均非范围企业。",
+        "year": 2024
+      },
+      {
+        "title": "Omni-Recon: Harnessing Image-Based Rendering for General-Purpose Neural Radiance Fields",
+        "url": "https://doi.org/10.1007/978-3-031-72640-8_9",
+        "outcome": "no-evidence",
+        "note": "2024 年 ECCV 正式版与 arXiv 改题版合并；正式稿署 Georgia Tech，未发现范围企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Fusion-3D: Integrated Acceleration for Instant 3D Reconstruction and Real-Time Rendering",
+        "url": "https://doi.org/10.1109/MICRO61859.2024.00016",
+        "outcome": "no-evidence",
+        "note": "同期开题和团队成果确认属于 Georgia Tech CoCoSys；Cheng Wan 同年虽另曾在字节实习，未找到本项的企业作者或实习证据。",
+        "year": 2024
+      },
+      {
+        "title": "3D Gaussian Rendering Can Be Sparser: Efficient Rendering via Learned Fragment Pruning",
+        "url": "https://openreview.net/forum?id=IVqzbuLfoL",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2024 正式会议；学校 Pure 有 2025 年数据库日期，依正式 NeurIPS 记录。未见目标企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Invited Paper: LLM4HWDesign Contest: Constructing a Comprehensive Dataset for LLM-Assisted Hardware Code Generation with Community Efforts",
+        "url": "https://doi.org/10.1145/3676536.3689909",
+        "outcome": "no-evidence",
+        "note": "2024 年 ICCAD，2025 年 IEEE 目录二次入库。NVIDIA 为竞赛合作方并有共著，超出项目企业范围。",
+        "year": 2024
+      },
+      {
+        "title": "Towards Cognitive AI Systems: a Survey and Prospective on Neuro-Symbolic AI",
+        "url": "https://arxiv.org/abs/2401.01040",
+        "outcome": "no-evidence",
+        "note": "2023 年 MLSys 研讨会内容于 2024 年首次从 arXiv 可取全文；独立综述，与后续工作负载实测不同，无目标企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Towards Efficient Neuro-Symbolic AI: From Workload Characterization to Hardware Architecture",
+        "url": "https://doi.org/10.1109/TCASAI.2024.3462692",
+        "outcome": "no-evidence",
+        "note": "含 ISPASS 的工作负载研究并增加硬件架构案例；另用 DOI 保存 2024 会议版本，合并计数。Georgia Tech、伯克利及 IBM Research，IBM 不在企业范围。",
+        "year": 2024
+      },
+      {
+        "title": "Data4AIGChip: An Automated Data Generation and Validation Flow for LLM-assisted Hardware Design",
+        "url": "https://cocosys.ece.gatech.edu/2024/06/11/research-spotlight/",
+        "outcome": "no-evidence",
+        "note": "Georgia Tech 和共同作者书目确认 2024 DAC 邀请研究，和 GPT4AIGChip 分别列明。公开研究说明没有范围企业成员或该篇的学生企业项目；不能从同组成员其他实习推断。",
+        "year": 2024
+      },
+      {
+        "title": "Uni-Render: A Unified Accelerator for Real-Time Rendering Across Diverse Neural Renderers",
+        "url": "https://doi.org/10.1109/HPCA61900.2025.00029",
+        "outcome": "no-evidence",
+        "note": "HPCA 原文及预印本五位作者均署 Georgia Tech；技术仿真不表示企业人员。",
+        "year": 2025
+      },
+      {
+        "title": "Gaussian Blending Unit: An Edge GPU Plug-in for Real-Time Gaussian-Based Rendering in AR/VR",
+        "url": "https://doi.org/10.1109/HPCA61900.2025.00036",
+        "outcome": "no-evidence",
+        "note": "论文首页署 Georgia Tech；作者其他时段的实习没有项目证据，GPU 设计不证明厂商共著。",
+        "year": 2025
+      },
+      {
+        "title": "Scaling Laws of Graph Neural Networks for Atomistic Materials Modeling",
+        "url": "https://doi.org/10.1109/DAC63849.2025.11132864",
+        "outcome": "no-evidence",
+        "note": "正式 DAC 与 arXiv 版本人员有变化，一并核对；机构包括 Georgia Tech 与美国橡树岭国家实验室，无目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "Early-Bird Diffusion: Investigating and Leveraging Timestep-Aware Early-Bird Tickets in Diffusion Models for Efficient Training",
+        "url": "https://doi.org/10.1109/CVPR52734.2025.00719",
+        "outcome": "no-evidence",
+        "note": "CVPR 论文六人署 Georgia Tech，未找到目标企业作者。",
+        "year": 2025
+      },
+      {
+        "title": "ORCHES: Orchestrated Test-Time-Compute-based LLM Reasoning on Collaborative GPU-PIM HEterogeneous System",
+        "url": "https://doi.org/10.1145/3725843.3756039",
+        "outcome": "no-evidence",
+        "note": "2025 MICRO 正式版，2026 ASP-DAC 幻灯片为同文展示。Georgia Tech 为核心，部分同学在 NVIDIA / Meta 的实习或后来任职不补足范围内同期证据。",
+        "year": 2025
+      },
+      {
+        "title": "Hardware Race for Scalable Real-Time 3D Neural Reconstruction and Rendering",
+        "url": "https://doi.org/10.1109/MC.2025.3594818",
+        "outcome": "no-evidence",
+        "note": "IEEE Computer 评论文章，三位作者署 Georgia Tech；未见目标企业共著。",
+        "year": 2025
+      },
+      {
+        "title": "LLM4Verilog: Building Large-Scale, High-Quality Data Infrastructure for Verilog Code Generation via Community Efforts",
+        "url": "https://doi.org/10.1109/ICCAD66269.2025.11240644",
+        "outcome": "no-evidence",
+        "note": "ICCAD 2025 对前届竞赛的综合数据研究，新增不同正式成果和作者；大会列 Georgia Tech、NVIDIA，NVIDIA 不在企业范围。",
+        "year": 2025
+      },
+      {
+        "title": "Think Hard Only When Needed: A Hybrid Best-of-N and Beam Search for Efficient Test-Time Compute",
+        "url": "https://aclanthology.org/2026.findings-eacl.315/",
+        "outcome": "no-evidence",
+        "note": "EACL 录用原文七位作者均署 Georgia Tech，未见该案的目标企业成员。",
+        "year": 2026
+      },
+      {
+        "title": "NeRArch-Sim: A Unified Simulator for Benchmarking and DSE of Neural Rendering Accelerators",
+        "url": "https://doi.org/10.1109/ISCA66397.2026.00124",
+        "outcome": "no-evidence",
+        "note": "IEEE 和 ISCA 会议书目核对，开源实现由 Georgia Tech EIC 发布；未核到范围企业作者或同篇学生企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "A Survey of Neural Network Variational Monte Carlo from a Computing Workload Characterization Perspective",
+        "url": "https://arxiv.org/abs/2603.18126",
+        "outcome": "no-evidence",
+        "note": "两版预印本同一工作；计算机与化学作者单位均为港科大。",
+        "year": 2026
+      },
+      {
+        "title": "From Inference Efficiency to Embodied Efficiency: Revisiting Efficiency Metrics for Vision-Language-Action Models",
+        "url": "https://arxiv.org/abs/2603.19131",
+        "outcome": "no-evidence",
+        "note": "原文作者所属港科大、Georgia Tech；实验模型及硬件使用未形成范围企业研究角色。",
+        "year": 2026
+      },
+      {
+        "title": "Gaussians on a Diet: High-Quality Memory-Bounded 3D Gaussian Splatting Training",
+        "url": "https://arxiv.org/abs/2604.20046",
+        "outcome": "no-evidence",
+        "note": "署得州大学阿灵顿分校、Georgia Tech 等高校；合并匿名 OpenReview 投稿与署名 arXiv 版本，未见范围企业。",
+        "year": 2026
+      },
+      {
+        "title": "TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization",
+        "url": "https://proceedings.mlr.press/v306/zhong26o.html",
+        "outcome": "no-evidence",
+        "note": "原文及港科大项目确认长城汽车 Hua Chen、Tiecheng Sun 参与，长城汽车不在调查企业范围；五月预印本、七月 ICML 合并。",
+        "year": 2026
+      },
+      {
+        "title": "SPVC: Structured and Panoptic Video Fixing for Cross-Dataset Driving Scene Rendering",
+        "url": "https://arxiv.org/abs/2608.17420",
+        "outcome": "no-evidence",
+        "note": "原文第 1 页具名长城汽车 Hua Chen、Xuyang Dai 为企业作者；范围不含长城汽车。",
+        "year": 2026
+      },
+      {
+        "title": "A Hybrid and Hierarchical Ray Tracing Method for Efficient 3D Gaussian Rendering",
+        "url": "https://arxiv.org/abs/2610.13498",
+        "outcome": "no-evidence",
+        "note": "原文署港科大、Georgia Tech、上交大、北大，NVIDIA RTX 用于评测，Sixu Li 的现职亦不把该文变为目标企业项目。",
+        "year": 2026
+      },
+      {
+        "title": "Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos",
+        "url": "https://arxiv.org/abs/2610.26585",
+        "outcome": "no-evidence",
+        "note": "原文有长城汽车 Xuyang Dai 和 Cheng Bi，调查范围不含该企业。",
+        "year": 2026
+      },
+      {
+        "title": "DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dynamic Boundaries",
+        "url": "https://arxiv.org/abs/2611.03595",
+        "outcome": "no-evidence",
+        "note": "原文各单位为清华、北大、南洋理工、上交大、港科大。Saining Zhang 在别的论文所涉阿里联合项目不能推及此文。",
+        "year": 2026
+      },
+      {
+        "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+        "url": "https://arxiv.org/abs/2611.08413",
+        "outcome": "no-evidence",
+        "note": "原文仅高校作者，唯一相关企业信息为 NVIDIA Academic Grant 资助与硬件；无范围企业作者。",
+        "year": 2026
       }
-    ]
+    ],
+    "note": "已逐篇梳理 38 个已公开成果，交叉核对港科大教师与实验室书目、自有履历、ORCID、DBLP、Crossref 和 arXiv 版本。学位论文与同一成果的演讲或预印本不重复计数；两篇玉林师范学院同名作者电商论文及材料、烟草、锡封等其他同名成果排除。已保存两项明确企业合作、但缺符合当前范围的具名同期指导的线索。"
   },
   "CD7ybnAAAAAJ": {
     "from": "2023-01-01",
@@ -16466,7 +17071,15 @@ const facultyPaperAudits = {
       "https://cse.whu.edu.cn/info/3501/37731.htm",
       "https://xinliyue.github.io/",
       "https://research.monash.edu/files/694588803/652457437.pdf",
-      "https://news.whu.edu.cn/info/1015/453917.htm"
+      "https://news.whu.edu.cn/info/1015/453917.htm",
+      "https://news.whu.edu.cn/info/1015/451777.htm",
+      "https://peipeics.cc/publications/",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502267652520458",
+      "https://scholars.cityu.edu.hk/en/publications/differential-privacy-in-deep-learning-privacy-and-beyond/",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602247207877015",
+      "https://pubmed.ncbi.nlm.nih.gov/36702690/",
+      "https://crad.ict.ac.cn/fileJSJYJYFZ/journal/article/jsjyjyfz/2025/9/0a8f6c23-02a2-4b04-b7f5-bdff5c21231b.pdf",
+      "https://github.com/shenyizg/ImperceptibleAttack"
     ],
     "papers": [
       {
@@ -16489,6 +17102,69 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "no-evidence",
         "note": "CVPR 正式稿所列四位作者均署武汉大学。武大同时公开确认岳新立的在读身份及王骞、赵令辰共同指导；该篇未见企业共同作者。"
+      },
+      {
+        "title": "Revisiting Adversarial Robustness Distillation from the Perspective of Robust Fairness",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2023/file/6111371a868af8dcfba0f96ad9e25ae3-Paper-Conference.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2023 正式稿列四位作者均署武汉大学，没有范围内企业作者。"
+      },
+      {
+        "title": "Sonicumos: An Enhanced Active Face Liveness Detection System via Ultrasonic and Video Signals",
+        "url": "https://doi.org/10.1109/TMC.2025.3565689",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "与第一批公开书目及 JST 逐名单位相符：武汉大学、西安交通大学、香港城市大学；未见调查企业作者。"
+      },
+      {
+        "title": "Differential privacy in deep learning: Privacy and beyond",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167739X23002315",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "Elsevier 作者简介和港城大机构库均指向武汉大学、香港城市大学。期刊综述未见范围内企业作者。"
+      },
+      {
+        "title": "Fairness is essential for robustness: fair adversarial training by identifying and augmenting hard examples",
+        "url": "https://link.springer.com/article/10.1007/s11704-024-3587-1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer 卷期与本人书目相符，宁平牟等四位作者均为武汉大学；2024 在线稿和 2025 卷期合并。"
+      },
+      {
+        "title": "Artificial intelligence security and privacy: a survey",
+        "url": "https://link.springer.com/article/10.1007/s11432-025-4388-5",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "正式开放版逐人列明 18 个高校、科研院所单位。未见调查范围内企业作者。"
+      },
+      {
+        "title": "When Unlearnable Examples Cooperate With Watermarking: A Dual Voice Data Protection Against Unauthorized Exploitation",
+        "url": "https://doi.org/10.1109/TDSC.2025.3648349",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IEEE 2026 正式卷期与 JST 的逐名机构相符，六位作者均为武汉大学院系或研究院。"
+      },
+      {
+        "title": "MiDA: Membership inference attacks against domain adaptation",
+        "url": "https://doi.org/10.1016/j.isatra.2023.01.021",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "正式出版社与 PubMed 均核实，作者张元杰、赵令辰、王骞均署武汉大学。"
+      },
+      {
+        "title": "多模态视觉语言表征学习模型及其对抗样本攻防技术综述",
+        "url": "https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202550410.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "《计算机研究与发展》正式稿和卷期目录均确认；四位作者署武汉大学国家网络安全学院或武汉数学与智能研究院。"
+      },
+      {
+        "title": "Perception-Driven Imperceptible Adversarial Attack Against Decision-Based Black-Box Models",
+        "url": "https://doi.org/10.1109/TIFS.2024.3359441",
+        "year": 2024,
+        "outcome": "lead",
+        "note": "已核对期刊作者与第一作者代码；同篇郑保林在同年另一研究署阿里。尚无可独立证实该篇企业参与和第一作者同期具名指导的公开材料。"
       }
     ],
     "note": "按作品逐篇核对作者单位、参研身份和指导关系；完整书目仍在核对。"
