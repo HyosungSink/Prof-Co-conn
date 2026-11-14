@@ -11780,6 +11780,1175 @@ const survey = {
         "2023 年西工大优秀硕士学位论文名单第 76 项记载：俞帆，导师谢磊，题目为《基于深度学习的多说话人语音识别技术研究》。同年公开课简介也列明指导关系。",
         "https://m.sme-gov.cn/xian/news/38864.html"
       ]
+    },
+    {
+      "id": "tvc-tencent-nju-ye",
+      "paperId": "arxiv:2503.13360",
+      "company": "腾讯",
+      "team": "混元",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "彭厚文 · Houwen Peng",
+        "2024 年机器学习峰会议程介绍为腾讯混元多模态建模负责人；本研究论文署名腾讯。",
+        "https://ml-summit.org/speaker/1021?lang=en&uid=c1041"
+      ],
+      "student": [
+        "Hai-Long Sun",
+        "南京大学硕士在读；个人主页列明 2024 年 10 月至 2025 年 4 月在腾讯混元实习，论文首页第一作者脚注将该研究指向腾讯混元。",
+        "https://sun-hailong.github.io/"
+      ],
+      "title": "Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal Long CoT Reasoning",
+      "short": "TVC",
+      "date": "2025-07",
+      "venue": "ACL 2025",
+      "area": "多模态与语言模型",
+      "paper": "https://aclanthology.org/2025.acl-long.257.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://aclanthology.org/2025.acl-long.257/"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学硕士在读；个人主页列明 2024 年 10 月至 2025 年 4 月在腾讯混元实习，论文首页第一作者脚注将该研究指向腾讯混元。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "叶翰嘉的南京大学 LAMDA 学生名录列 Hai-Long Sun 为 2023 年开始的硕士生；学生主页同样列叶翰嘉为研究生导师。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "parrot-alibaba-nju-ye",
+      "paperId": "arxiv:2406.02539",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Hai-Long Sun",
+        "南京大学硕士在读；个人主页列明 2024 年在阿里巴巴 AIDC 实习，论文首页第一作者脚注注明在阿里巴巴实习期间完成该研究。",
+        "https://sun-hailong.github.io/"
+      ],
+      "title": "Parrot: Multilingual Visual Instruction Tuning",
+      "short": "Parrot",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "多模态与语言模型",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sun25ad/sun25ad.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v267/sun25ad.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学硕士在读；个人主页列明 2024 年在阿里巴巴 AIDC 实习，论文首页第一作者脚注注明在阿里巴巴实习期间完成该研究。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "叶翰嘉的南京大学 LAMDA 学生名录列 Hai-Long Sun 为 2023 年开始的硕士生；学生主页同样列叶翰嘉为研究生导师。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "wings-alibaba-nju-ye",
+      "paperId": "arxiv:2406.03496",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "张逸凯 · Yi-Kai Zhang",
+        "南京大学研究生在读；本人在校方主页列 2024 年 3 月起在阿里巴巴国际数字商业集团 Ovis 实习及具名实习导师卢世银；论文首页标注第一作者在阿里巴巴实习期间完成该研究。",
+        "https://www.lamda.nju.edu.cn/zhangyk/"
+      ],
+      "title": "Wings: Learning Multimodal LLMs without Text-only Forgetting",
+      "short": "Wings",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "多模态与语言模型",
+      "paper": "https://papers.neurips.cc/paper_files/paper/2024/file/3852f6d247ba7deb46e4e4be9e702601-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2406.03496"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；本人在校方主页列 2024 年 3 月起在阿里巴巴国际数字商业集团 Ovis 实习及具名实习导师卢世银；论文首页标注第一作者在阿里巴巴实习期间完成该研究。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录将张逸凯列为 2021 年开始的研究生，明确由叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "wings-alibaba-nju-zhan",
+      "paperId": "arxiv:2406.03496",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "詹德川 · De-Chuan Zhan",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "张逸凯 · Yi-Kai Zhang",
+        "南京大学研究生在读；本人在校方主页列 2024 年 3 月起在阿里巴巴国际数字商业集团 Ovis 实习及具名实习导师卢世银；论文首页标注第一作者在阿里巴巴实习期间完成该研究。",
+        "https://www.lamda.nju.edu.cn/zhangyk/"
+      ],
+      "title": "Wings: Learning Multimodal LLMs without Text-only Forgetting",
+      "short": "Wings",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "多模态与语言模型",
+      "paper": "https://papers.neurips.cc/paper_files/paper/2024/file/3852f6d247ba7deb46e4e4be9e702601-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2406.03496"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；本人在校方主页列 2024 年 3 月起在阿里巴巴国际数字商业集团 Ovis 实习及具名实习导师卢世银；论文首页标注第一作者在阿里巴巴实习期间完成该研究。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录将张逸凯列为 2021 年开始的研究生，明确由叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "turbo-alibaba-nju-ye",
+      "paperId": "arxiv:2506.04088",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Jun-Peng Jiang",
+        "南京大学研究生在读；论文首页第一作者脚注注明该研究在阿里巴巴 AI Business 实习期间完成。",
+        "https://www.lamda.nju.edu.cn/jiangjp/"
+      ],
+      "title": "Multimodal Tabular Reasoning with Privileged Structured Information",
+      "short": "TURBO",
+      "date": "2025-12",
+      "venue": "NeurIPS 2025",
+      "area": "多模态与语言模型",
+      "paper": "https://arxiv.org/pdf/2506.04088",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2506.04088"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；论文首页第一作者脚注注明该研究在阿里巴巴 AI Business 实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录及 Jun-Peng Jiang 的校内个人主页均具名列明叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "turbo-alibaba-nju-zhan",
+      "paperId": "arxiv:2506.04088",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "詹德川 · De-Chuan Zhan",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Jun-Peng Jiang",
+        "南京大学研究生在读；论文首页第一作者脚注注明该研究在阿里巴巴 AI Business 实习期间完成。",
+        "https://www.lamda.nju.edu.cn/jiangjp/"
+      ],
+      "title": "Multimodal Tabular Reasoning with Privileged Structured Information",
+      "short": "TURBO",
+      "date": "2025-12",
+      "venue": "NeurIPS 2025",
+      "area": "多模态与语言模型",
+      "paper": "https://arxiv.org/pdf/2506.04088",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2506.04088"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；论文首页第一作者脚注注明该研究在阿里巴巴 AI Business 实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录及 Jun-Peng Jiang 的校内个人主页均具名列明叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "ovisocr-alibaba-nju-ye",
+      "paperId": "pmlr:v306/jiang26ag",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Jun-Peng Jiang",
+        "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。",
+        "https://www.lamda.nju.edu.cn/jiangjp/"
+      ],
+      "title": "OvisOCR: End-to-End Document Parsing via Aligning Specialized Perception with General Reasoning",
+      "short": "OvisOCR",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "多模态与语言模型",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26ag/jiang26ag.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/jiang26ag.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录及 Jun-Peng Jiang 的校内个人主页均具名列明叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "ovisocr-alibaba-nju-zhan",
+      "paperId": "pmlr:v306/jiang26ag",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "詹德川 · De-Chuan Zhan",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Jun-Peng Jiang",
+        "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。",
+        "https://www.lamda.nju.edu.cn/jiangjp/"
+      ],
+      "title": "OvisOCR: End-to-End Document Parsing via Aligning Specialized Perception with General Reasoning",
+      "short": "OvisOCR",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "多模态与语言模型",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26ag/jiang26ag.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/jiang26ag.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录及 Jun-Peng Jiang 的校内个人主页均具名列明叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "dissecting-post-training-alibaba-nju-ye",
+      "paperId": "pmlr:v306/jiang26q",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Jun-Peng Jiang",
+        "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。",
+        "https://www.lamda.nju.edu.cn/jiangjp/"
+      ],
+      "title": "Dissecting Post-Training: Uncovering the Complementary Roles of SFT and RL for Document Parsing",
+      "short": "Dissecting Post-Training",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "多模态与语言模型",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26q/jiang26q.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/jiang26q.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录及 Jun-Peng Jiang 的校内个人主页均具名列明叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "dissecting-post-training-alibaba-nju-zhan",
+      "paperId": "pmlr:v306/jiang26q",
+      "company": "阿里巴巴",
+      "team": "AI Business",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "詹德川 · De-Chuan Zhan",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "Jun-Peng Jiang",
+        "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。",
+        "https://www.lamda.nju.edu.cn/jiangjp/"
+      ],
+      "title": "Dissecting Post-Training: Uncovering the Complementary Roles of SFT and RL for Document Parsing",
+      "short": "Dissecting Post-Training",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "多模态与语言模型",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26q/jiang26q.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/jiang26q.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；正式论文第一作者脚注注明该研究在阿里巴巴实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录及 Jun-Peng Jiang 的校内个人主页均具名列明叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "zooprobe-alibaba-nju-ye",
+      "paperId": "iclr:bd18189308a4c45c7d71ca83acf3deaa",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "叶翰嘉 · Han-Jia Ye",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "张逸凯 · Yi-Kai Zhang",
+        "南京大学研究生在读；校方个人主页列阿里巴巴国际数字商业集团 Ovis 实习，正式论文第一作者脚注明确此项研究在该集团实习期间完成。",
+        "https://www.lamda.nju.edu.cn/zhangyk/"
+      ],
+      "title": "ZooProbe: A Data Engine for Evaluating, Exploring, and Evolving Large-scale Training Data for Multimodal LLMs",
+      "short": "ZooProbe",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "多模态与语言模型",
+      "paper": "https://openreview.net/pdf/3ac83a695e7603d731a2e40278edaf03209acf13.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/bd18189308a4c45c7d71ca83acf3deaa-Abstract-Conference.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；校方个人主页列阿里巴巴国际数字商业集团 Ovis 实习，正式论文第一作者脚注明确此项研究在该集团实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录将张逸凯列为 2021 年开始的研究生，明确由叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "zooprobe-alibaba-nju-zhan",
+      "paperId": "iclr:bd18189308a4c45c7d71ca83acf3deaa",
+      "company": "阿里巴巴",
+      "team": "国际数字商业集团（AIDC）",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "詹德川 · De-Chuan Zhan",
+        "南京大学教师，研究期间的校内共同导师，同篇作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030"
+      ],
+      "employee": [
+        "卢世银 · Shiyin Lu",
+        "个人主页列明 2022 年 6 月南京大学博士毕业后加入阿里巴巴，担任高级算法工程师；论文中署名阿里巴巴。",
+        "https://www.lamda.nju.edu.cn/lusy/"
+      ],
+      "student": [
+        "张逸凯 · Yi-Kai Zhang",
+        "南京大学研究生在读；校方个人主页列阿里巴巴国际数字商业集团 Ovis 实习，正式论文第一作者脚注明确此项研究在该集团实习期间完成。",
+        "https://www.lamda.nju.edu.cn/zhangyk/"
+      ],
+      "title": "ZooProbe: A Data Engine for Evaluating, Exploring, and Evolving Large-scale Training Data for Multimodal LLMs",
+      "short": "ZooProbe",
+      "date": "2025-04",
+      "venue": "ICLR 2025",
+      "area": "多模态与语言模型",
+      "paper": "https://openreview.net/pdf/3ac83a695e7603d731a2e40278edaf03209acf13.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/bd18189308a4c45c7d71ca83acf3deaa-Abstract-Conference.html"
+        ],
+        [
+          "导师团队学生名录",
+          "https://www.lamda.nju.edu.cn/yehj/"
+        ]
+      ],
+      "evidence": "南京大学研究生在读；校方个人主页列阿里巴巴国际数字商业集团 Ovis 实习，正式论文第一作者脚注明确此项研究在该集团实习期间完成。 论文中具名列出学生、指导教师和企业研究者；员工履历独立核实了研究期间的任职。",
+      "advising": [
+        "南京大学在读期间正式指导",
+        "南京大学 LAMDA 学生名录将张逸凯列为 2021 年开始的研究生，明确由叶翰嘉、詹德川共同指导。",
+        "https://www.lamda.nju.edu.cn/yehj/"
+      ]
+    },
+    {
+      "id": "kuaishou-unityvideo-hkust-jiaya-jia",
+      "company": "快手",
+      "team": "可灵团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "贾佳亚 · Jiaya Jia",
+        "香港科技大学计算机科学与工程学系讲座教授，本篇通讯作者。",
+        "https://researchportal.hkust.edu.hk/en/persons/jiaya-jia/"
+      ],
+      "student": [
+        "黄杰辉 · Jiehui Huang",
+        "港科大计算机博士在读；本人记录自 2025 年 4 月在快手可灵科研实习。",
+        "https://jackailab.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人主页将贾佳亚列为博士导师。",
+        "https://jackailab.github.io/"
+      ],
+      "employee": [
+        "Xin Tao",
+        "同期 SIGGRAPH 公开履历确认其 2020 年起供职于快手，发表时任可灵团队高级研究员和技术负责人。",
+        "https://s2025.conference-schedule.org/presenter/?uid=544893"
+      ],
+      "title": "UnityVideo: Unified Multi-Modal Multi-Task Learning for Enhancing World-Aware Video Generation",
+      "short": "UnityVideo",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "视频生成",
+      "paper": "https://arxiv.org/pdf/2512.07831",
+      "extra": [
+        [
+          "论文摘要及署名",
+          "https://arxiv.org/abs/2512.07831"
+        ],
+        [
+          "作者项目页",
+          "https://jackailab.github.io/Projects/UnityVideo/"
+        ]
+      ],
+      "evidence": "论文首页在第一作者黄杰辉姓名旁标 †，对应脚注明确该工作于其在快手可灵团队实习期间完成。其个人主页证实港科大博士学籍和贾佳亚的指导关系。两位具名同篇作者贾佳亚和快手员工 Xin Tao 分别承担高校指导和企业研究角色。"
+    },
+    {
+      "id": "kuaishou-unityshots-hkust-jiaya-jia",
+      "company": "快手",
+      "team": "可灵团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "贾佳亚 · Jiaya Jia",
+        "香港科技大学计算机科学与工程学系讲座教授，本篇通讯作者。",
+        "https://researchportal.hkust.edu.hk/en/persons/jiaya-jia/"
+      ],
+      "student": [
+        "黄杰辉 · Jiehui Huang",
+        "港科大计算机博士在读；本人记录自 2025 年 4 月在快手可灵科研实习。",
+        "https://jackailab.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人主页将贾佳亚列为博士导师。",
+        "https://jackailab.github.io/"
+      ],
+      "employee": [
+        "Xin Tao",
+        "同期 SIGGRAPH 公开履历确认其 2020 年起供职于快手，发表时任可灵团队高级研究员和技术负责人。",
+        "https://s2025.conference-schedule.org/presenter/?uid=544893"
+      ],
+      "title": "UnityShots: Memory-Driven Multi-Shot Audio-Video Generation with Boundary-Aware Gating",
+      "short": "UnityShots",
+      "date": "2026-06",
+      "venue": "arXiv 预印本",
+      "area": "视频生成",
+      "paper": "https://arxiv.org/pdf/2606.21661",
+      "extra": [
+        [
+          "论文摘要及署名",
+          "https://arxiv.org/abs/2606.21661"
+        ],
+        [
+          "作者项目页",
+          "https://jackailab.github.io/Projects/UnityShots/"
+        ]
+      ],
+      "evidence": "论文首页在第一作者黄杰辉姓名旁标 †，对应脚注明确该工作于其在快手可灵团队实习期间完成。其个人主页证实港科大博士学籍和贾佳亚的指导关系。两位具名同篇作者贾佳亚和快手员工 Xin Tao 分别承担高校指导和企业研究角色。"
+    },
+    {
+      "id": "tencent-emoreward-hkust-qifeng-chen",
+      "company": "腾讯",
+      "team": "混元",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系副教授，本篇共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "郑名哲 · Mingzhe Zheng",
+        "港科大计算机博士在读，腾讯混元青云研究实习生。",
+        "https://mingzhezheng.homes/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人主页公开记载由港科大 Harry Yang 与陈启峰共同指导。",
+        "https://mingzhezheng.homes/"
+      ],
+      "employee": [
+        "Changlin Li",
+        "本人职业履历列为腾讯混元视频团队计算机视觉工程师，2024 年和 2025 年已以相同团队成员参与腾讯模型。",
+        "https://cn.linkedin.com/in/changlin-li-b00064170"
+      ],
+      "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+      "short": "EmoReward",
+      "date": "2026-11",
+      "venue": "arXiv 预印本",
+      "area": "多模态与视觉生成",
+      "paper": "https://arxiv.org/pdf/2611.06518",
+      "extra": [
+        [
+          "腾讯研究团队项目",
+          "https://github.com/Tencent-Hunyuan/EmoReward"
+        ],
+        [
+          "腾讯混元 2025 团队报告",
+          "https://arxiv.org/abs/2511.18870"
+        ]
+      ],
+      "evidence": "论文首页分别列港科大博士生郑名哲、其联合导师陈启峰及腾讯混元工程师 Changlin Li。星号明确标在郑名哲姓名旁，说明该篇研究是其腾讯混元实习期间完成的工作。"
+    },
+    {
+      "id": "meituan-orca-hkust-qifeng-chen",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系副教授，本篇共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "何炫华 · Xuanhua He",
+        "2025 年 9 月开始在港科大攻读博士；2025 年 9 月至 2026 年 7 月在美团 LongCat Avatar 团队科研实习。",
+        "https://xuanhuahe.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "本人主页明确记载博士导师为陈启峰；后者课题组也列他为在读博士。",
+        "https://xuanhuahe.github.io/"
+      ],
+      "employee": [
+        "Tianyu Yang",
+        "本人主页列为美团正式研究员，同期本篇论文列其美团单位和共同通讯作者。",
+        "https://tianyu-yang.com/"
+      ],
+      "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+      "short": "ORCA",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "多模态与视觉生成",
+      "paper": "https://arxiv.org/html/2512.20615",
+      "extra": [
+        [
+          "陈启峰课题组博士生名录",
+          "https://www.cqf.io/lab.html"
+        ],
+        [
+          "CVPR 文章项目页",
+          "https://xuanhuahe.github.io/ORCA/"
+        ]
+      ],
+      "evidence": "论文首页在第一作者何炫华姓名处标明美团实习；他和陈启峰的指导关系以及实习日期有作者主页和课题组交叉证实。同篇通讯作者 Tianyu Yang 的研究者主页和论文写明美团任职。"
+    },
+    {
+      "id": "ant-linkgan-hkust-qifeng-chen",
+      "company": "蚂蚁集团",
+      "team": "Ant Research",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈启峰 · Qifeng Chen",
+        "港科大计算机科学与工程学系副教授，本篇共同作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "student": [
+        "Jiapeng Zhu",
+        "港科大计算机博士生，2025 年博士论文答辩；本篇署名及版本说明注明研究在蚂蚁集团实习时完成。",
+        "https://cse.hkust.edu.hk/pg/defenses/Summer25/jzhubt-22-07-2025.html"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大计算机系博士论文答辩公告具名标注陈启峰为 Jiapeng Zhu 指导教师。",
+        "https://cse.hkust.edu.hk/pg/defenses/Summer25/jzhubt-22-07-2025.html"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "公开履历记载 2022 年 4 月至 2024 年 7 月任蚂蚁集团 Staff Research Scientist。",
+        "https://shenyujun.github.io/"
+      ],
+      "title": "LinkGAN: Linking GAN Latents to Pixels for Controllable Image Synthesis",
+      "short": "LinkGAN",
+      "date": "2023-10",
+      "venue": "ICCV",
+      "area": "多模态与视觉生成",
+      "paper": "https://arxiv.org/pdf/2301.04604v2",
+      "extra": [
+        [
+          "港科大陈启峰实验室",
+          "https://www.cqf.io/lab.html"
+        ],
+        [
+          "ICCV 日程",
+          "https://iccv2023.thecvf.com/iccv2023.main.conference.program-38--MTE.php"
+        ]
+      ],
+      "evidence": "ICCV 论文原文在 Jiapeng Zhu 姓名处标出蚂蚁集团实习脚注；2025 年港科大论文答辩公告具名确认其博士导师，同篇作者陈启峰及蚂蚁在职研究员 Yujun Shen 均在首页列名。"
+    },
+    {
+      "id": "alibaba-filmworld-hust-gao",
+      "company": "阿里巴巴",
+      "team": "通义万相团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "高常鑫 · Changxin Gao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "http://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm"
+      ],
+      "employee": [
+        "Shiwei Zhang",
+        "阿里通义实验室的官方开源项目 ProMoE 将其列为项目负责人；另一位阿里研究者的公开履历也记其在通义万相团队指导工作。本篇以该团队署名。",
+        "https://github.com/ali-vilab/ProMoE"
+      ],
+      "student": [
+        "左嘉龙 · Jialong Zuo",
+        "华中科技大学博士生；主办学会介绍其在阿里云通义实验室开展过算法见习，并由其报告 FilmWorld 项目。该项目第一作者列华中科技大学与阿里万相团队两个单位。",
+        "https://www.toutiao.com/article/7688899252721943103/"
+      ],
+      "title": "FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling",
+      "short": "FilmWorld",
+      "date": "2026-07-21",
+      "venue": "arXiv 预印本",
+      "area": "多模态与视觉",
+      "paper": "https://arxiv.org/abs/2607.19038",
+      "evidence": "具名项目页列左嘉龙为阿里万相—华中科大联署第一作者、Shiwei Zhang 为阿里共同作者、高常鑫为华中科大共同作者，并明确声明该项目代码需经公司内部审查。学会活动把左嘉龙与该同名项目和阿里通义实习对应起来。",
+      "advising": [
+        "博士生导师",
+        "学会发布的报告者履历明确写左嘉龙师从高常鑫，校方报道也记录高常鑫指导其所在团队。",
+        "https://www.toutiao.com/article/7688899252721943103/"
+      ],
+      "extra": [
+        [
+          "具名项目页及代码归属说明",
+          "https://filmworld-ai.github.io/"
+        ],
+        [
+          "企业研究者履历中的同事身份",
+          "https://jacobyuan7.github.io/_pages/includes/intro/"
+        ],
+        [
+          "华中科大团队指导记录",
+          "https://aia.hust.edu.cn/info/1179/10727.htm"
+        ]
+      ],
+      "paperId": "arxiv:2607.19038"
+    },
+    {
+      "id": "jd-kgan-whu-du",
+      "paperId": "whu-jd-kgan",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "杜博 · Bo Du",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://cs.whu.edu.cn/info/1019/2892.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "Knowledge Graph Augmented Network Towards Multiview Representation Learning for Aspect-Based Sentiment Analysis",
+      "short": "KGAN",
+      "date": "2023-10",
+      "venue": "IEEE TKDE",
+      "area": "自然语言处理",
+      "paper": "https://doi.org/10.1109/TKDE.2023.3250499",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2201.04831"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。初始预印本早于调查起点，IEEE 正式期刊论文于 2023 年发表，合并计一篇。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-kgan-whu-liu",
+      "paperId": "whu-jd-kgan",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "刘菊华 · Juhua Liu",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "Knowledge Graph Augmented Network Towards Multiview Representation Learning for Aspect-Based Sentiment Analysis",
+      "short": "KGAN",
+      "date": "2023-10",
+      "venue": "IEEE TKDE",
+      "area": "自然语言处理",
+      "paper": "https://doi.org/10.1109/TKDE.2023.3250499",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2201.04831"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。初始预印本早于调查起点，IEEE 正式期刊论文于 2023 年发表，合并计一篇。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-chatgpt-understand-whu-du",
+      "paperId": "whu-jd-chatgpt-understand",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "杜博 · Bo Du",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://cs.whu.edu.cn/info/1019/2892.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "Can ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-tuned BERT",
+      "short": "Can ChatGPT Understand Too?",
+      "date": "2023-02",
+      "venue": "arXiv 预印本",
+      "area": "自然语言处理",
+      "paper": "https://arxiv.org/abs/2302.10198",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2302.10198v1"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。同期预印本已公开，研究比较了 ChatGPT 和微调 BERT 在自然语言理解任务上的表现。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-chatgpt-understand-whu-liu",
+      "paperId": "whu-jd-chatgpt-understand",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "刘菊华 · Juhua Liu",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "Can ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-tuned BERT",
+      "short": "Can ChatGPT Understand Too?",
+      "date": "2023-02",
+      "venue": "arXiv 预印本",
+      "area": "自然语言处理",
+      "paper": "https://arxiv.org/abs/2302.10198",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2302.10198v1"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。同期预印本已公开，研究比较了 ChatGPT 和微调 BERT 在自然语言理解任务上的表现。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-panda-whu-du",
+      "paperId": "whu-jd-panda",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "杜博 · Bo Du",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://cs.whu.edu.cn/info/1019/2892.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "PANDA: Prompt Transfer Meets Knowledge Distillation for Efficient Model Adaptation",
+      "short": "PANDA",
+      "date": "2024-03",
+      "venue": "IEEE TKDE",
+      "area": "自然语言处理",
+      "paper": "https://doi.org/10.1109/TKDE.2024.3376453",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2208.10160v1"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。2024 年 IEEE 正式版与首版为同一研究，合并计一篇。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-panda-whu-liu",
+      "paperId": "whu-jd-panda",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "刘菊华 · Juhua Liu",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "PANDA: Prompt Transfer Meets Knowledge Distillation for Efficient Model Adaptation",
+      "short": "PANDA",
+      "date": "2024-03",
+      "venue": "IEEE TKDE",
+      "area": "自然语言处理",
+      "paper": "https://doi.org/10.1109/TKDE.2024.3376453",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2208.10160v1"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。2024 年 IEEE 正式版与首版为同一研究，合并计一篇。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-e2s2-whu-du",
+      "paperId": "whu-jd-e2s2",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "杜博 · Bo Du",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://cs.whu.edu.cn/info/1019/2892.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "E2S2: Encoding-Enhanced Sequence-to-Sequence Pretraining for Language Understanding and Generation",
+      "short": "E2S2",
+      "date": "2023-12",
+      "venue": "IEEE TKDE",
+      "area": "自然语言处理",
+      "paper": "https://doi.org/10.1109/TKDE.2023.3341917",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2205.14912v1"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。2023 年 12 月 IEEE 在线发表，后收入正式卷期，与预印本合并计一篇。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
+    },
+    {
+      "id": "jd-e2s2-whu-liu",
+      "paperId": "whu-jd-e2s2",
+      "company": "京东",
+      "team": "京东探索研究院 · NLP",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "faculty": [
+        "刘菊华 · Juhua Liu",
+        "武汉大学计算机学院教授、钟起煌的博士导师，同篇以武汉大学署名。",
+        "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "丁亮 · Liang Ding",
+        "本人履历确认曾在京东探索研究院任研究科学家并负责 NLP 组；本篇研究阶段的原文中署京东探索研究院，是同篇作者。",
+        "https://liamding.cc/"
+      ],
+      "student": [
+        "钟起煌 · Qihuang Zhong",
+        "2020 年 9 月至 2025 年 12 月在武大读博，2021 年 9 月至 2023 年 5 月在京东探索研究院实习。原文具名注明本项工作在京东实习期间完成。",
+        "https://www.qihuangzhong.top/"
+      ],
+      "title": "E2S2: Encoding-Enhanced Sequence-to-Sequence Pretraining for Language Understanding and Generation",
+      "short": "E2S2",
+      "date": "2023-12",
+      "venue": "IEEE TKDE",
+      "area": "自然语言处理",
+      "paper": "https://doi.org/10.1109/TKDE.2023.3341917",
+      "extra": [
+        [
+          "带具名实习脚注的原文",
+          "https://arxiv.org/pdf/2205.14912v1"
+        ],
+        [
+          "学生本人论文目录",
+          "https://www.qihuangzhong.top/publication.html"
+        ]
+      ],
+      "evidence": "原文首页具名注明，第一作者钟起煌在京东探索研究院实习期间完成本项工作，并列同篇京东作者丁亮与武汉大学作者杜博、刘菊华。钟起煌的履历给出实习时间及两位博士导师。2023 年 12 月 IEEE 在线发表，后收入正式卷期，与预印本合并计一篇。",
+      "advising": [
+        "博士导师",
+        "钟起煌的本人履历明确记载其在 2020 至 2025 年武大博士阶段由杜博、刘菊华共同指导。",
+        "https://www.qihuangzhong.top/"
+      ]
     }
   ]
 };

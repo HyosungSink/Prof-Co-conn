@@ -1347,7 +1347,13 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2501.02048",
       "https://hub.hku.hk/handle/10722/370046",
       "https://arxiv.org/html/2412.14168",
-      "https://arxiv.org/html/2603.21002"
+      "https://arxiv.org/html/2603.21002",
+      "https://arxiv.org/html/2506.23690",
+      "https://tanshuai0219.github.io/index.html",
+      "https://i.cs.hku.hk/~hszhao/lab.html",
+      "https://shenyujun.github.io/",
+      "https://arxiv.org/html/2601.11096",
+      "https://arxiv.org/html/2508.09454"
     ],
     "papers": [
       {
@@ -1397,6 +1403,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2603.21002",
         "outcome": "lead",
         "note": "同篇含快手人员和在读学生；两版预印本都未见该生在快手完成这篇的明确说明。"
+      },
+      {
+        "title": "SynMotion: Semantic-Visual Adaptation for Motion Customized Video Generation",
+        "url": "https://arxiv.org/html/2506.23690",
+        "outcome": "lead",
+        "note": "确有谭帅本人的蚂蚁集团实习脚注、赵恒爽通讯署名及同期员工 Yujun Shen。谭帅本人及港大实验室说明其上海交大学籍，港大将其列为 2025 年起访问博士；未找到跨校共同指导或联合培养的明确依据。"
+      },
+      {
+        "title": "CoDance: An Unbind-Rebind Paradigm for Robust Multi-Subject Animation",
+        "url": "https://arxiv.org/html/2601.11096",
+        "outcome": "lead",
+        "note": "确有谭帅本人的蚂蚁集团实习脚注、赵恒爽通讯署名及同期员工 Yujun Shen。谭帅本人及港大实验室说明其上海交大学籍，港大将其列为 2025 年起访问博士；未找到跨校共同指导或联合培养的明确依据。"
+      },
+      {
+        "title": "Animate-X++: Universal Character Image Animation with Dynamic Backgrounds",
+        "url": "https://arxiv.org/html/2508.09454",
+        "outcome": "lead",
+        "note": "港大师生和蚂蚁员工同篇署名，但未见本项目具名实习说明及同期跨校指导记录；低版本也不能替代扩展论文的证据。"
       }
     ]
   },
@@ -1439,7 +1463,9 @@ const facultyPaperAudits = {
     "sources": [
       "http://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm",
       "https://www.toutiao.com/article/7688899252721943103/",
-      "https://www.wangyunhe.site/"
+      "https://www.wangyunhe.site/",
+      "https://github.com/ali-vilab/ProMoE",
+      "https://filmworld-ai.github.io/"
     ],
     "papers": [
       {
@@ -1453,6 +1479,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2305.08386",
         "outcome": "lead",
         "note": "同一师生合著，但尚未找出校内导师、企业正式员工与本篇明确企业实习归属三项同证。"
+      },
+      {
+        "title": "FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling",
+        "url": "https://arxiv.org/abs/2607.19038",
+        "outcome": "confirmed",
+        "note": "具名项目页和学会活动都能追溯左嘉龙参与的阿里项目，以及同篇指导老师、企业研究人员。"
       }
     ],
     "note": "已核对左嘉龙部分论文，未完成高常鑫的全部题录。"
@@ -1655,5 +1687,322 @@ const facultyPaperAudits = {
       }
     ],
     "note": "优先梳理胡铮与蔡世民共同署名的推荐系统研究。"
+  },
+  "mgOYhtoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=429391",
+      "https://www.lamda.nju.edu.cn/yehj/",
+      "https://sun-hailong.github.io/",
+      "https://www.lamda.nju.edu.cn/zhangyk/",
+      "https://www.lamda.nju.edu.cn/jiangjp/"
+    ],
+    "papers": [
+      {
+        "title": "Mitigating Visual Forgetting via Take-along Visual Conditioning for Multi-modal Long CoT Reasoning",
+        "url": "https://aclanthology.org/2025.acl-long.257.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "Parrot: Multilingual Visual Instruction Tuning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sun25ad/sun25ad.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "Wings: Learning Multimodal LLMs without Text-only Forgetting",
+        "url": "https://papers.neurips.cc/paper_files/paper/2024/file/3852f6d247ba7deb46e4e4be9e702601-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "Multimodal Tabular Reasoning with Privileged Structured Information",
+        "url": "https://arxiv.org/pdf/2506.04088",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "OvisOCR: End-to-End Document Parsing via Aligning Specialized Perception with General Reasoning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26ag/jiang26ag.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "Dissecting Post-Training: Uncovering the Complementary Roles of SFT and RL for Document Parsing",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26q/jiang26q.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "ZooProbe: A Data Engine for Evaluating, Exploring, and Evolving Large-scale Training Data for Multimodal LLMs",
+        "url": "https://openreview.net/pdf/3ac83a695e7603d731a2e40278edaf03209acf13.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      }
+    ],
+    "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
+  },
+  "mYJf4TcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=322030",
+      "https://www.lamda.nju.edu.cn/yehj/",
+      "https://www.lamda.nju.edu.cn/zhangyk/",
+      "https://www.lamda.nju.edu.cn/jiangjp/"
+    ],
+    "papers": [
+      {
+        "title": "Wings: Learning Multimodal LLMs without Text-only Forgetting",
+        "url": "https://papers.neurips.cc/paper_files/paper/2024/file/3852f6d247ba7deb46e4e4be9e702601-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "Multimodal Tabular Reasoning with Privileged Structured Information",
+        "url": "https://arxiv.org/pdf/2506.04088",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "OvisOCR: End-to-End Document Parsing via Aligning Specialized Perception with General Reasoning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26ag/jiang26ag.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "Dissecting Post-Training: Uncovering the Complementary Roles of SFT and RL for Document Parsing",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/jiang26q/jiang26q.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      },
+      {
+        "title": "ZooProbe: A Data Engine for Evaluating, Exploring, and Evolving Large-scale Training Data for Multimodal LLMs",
+        "url": "https://openreview.net/pdf/3ac83a695e7603d731a2e40278edaf03209acf13.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页的具名实习脚注、校方导师组学生名录及企业作者的职业履历形成同期证据。"
+      }
+    ],
+    "note": "逐篇核对公开论文及导师、学生、企业任职材料；尚未穷尽调查期内全部题录。"
+  },
+  "XPAkzTEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/pdf/2512.07831",
+      "https://jackailab.github.io/",
+      "https://researchportal.hkust.edu.hk/en/persons/jiaya-jia/",
+      "https://s2025.conference-schedule.org/presenter/?uid=544893",
+      "https://arxiv.org/abs/2512.07831",
+      "https://jackailab.github.io/Projects/UnityVideo/",
+      "https://arxiv.org/pdf/2606.21661",
+      "https://arxiv.org/abs/2606.21661",
+      "https://jackailab.github.io/Projects/UnityShots/"
+    ],
+    "papers": [
+      {
+        "title": "UnityVideo: Unified Multi-Modal Multi-Task Learning for Enhancing World-Aware Video Generation",
+        "url": "https://arxiv.org/pdf/2512.07831",
+        "outcome": "confirmed",
+        "note": "论文首页在第一作者黄杰辉姓名旁标 †，对应脚注明确该工作于其在快手可灵团队实习期间完成。其个人主页证实港科大博士学籍和贾佳亚的指导关系。两位具名同篇作者贾佳亚和快手员工 Xin Tao 分别承担高校指导和企业研究角色。"
+      },
+      {
+        "title": "UnityShots: Memory-Driven Multi-Shot Audio-Video Generation with Boundary-Aware Gating",
+        "url": "https://arxiv.org/pdf/2606.21661",
+        "outcome": "confirmed",
+        "note": "论文首页在第一作者黄杰辉姓名旁标 †，对应脚注明确该工作于其在快手可灵团队实习期间完成。其个人主页证实港科大博士学籍和贾佳亚的指导关系。两位具名同篇作者贾佳亚和快手员工 Xin Tao 分别承担高校指导和企业研究角色。"
+      }
+    ]
+  },
+  "lLMX9hcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/pdf/2611.06518",
+      "https://mingzhezheng.homes/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
+      "https://cn.linkedin.com/in/changlin-li-b00064170",
+      "https://github.com/Tencent-Hunyuan/EmoReward",
+      "https://arxiv.org/abs/2511.18870",
+      "https://arxiv.org/html/2512.20615",
+      "https://xuanhuahe.github.io/",
+      "https://tianyu-yang.com/",
+      "https://www.cqf.io/lab.html",
+      "https://xuanhuahe.github.io/ORCA/",
+      "https://arxiv.org/pdf/2301.04604v2",
+      "https://cse.hkust.edu.hk/pg/defenses/Summer25/jzhubt-22-07-2025.html",
+      "https://shenyujun.github.io/",
+      "https://iccv2023.thecvf.com/iccv2023.main.conference.program-38--MTE.php",
+      "https://arxiv.org/html/2603.21872",
+      "https://arxiv.org/html/2309.13956"
+    ],
+    "papers": [
+      {
+        "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+        "url": "https://arxiv.org/pdf/2611.06518",
+        "outcome": "confirmed",
+        "note": "论文首页分别列港科大博士生郑名哲、其联合导师陈启峰及腾讯混元工程师 Changlin Li。星号明确标在郑名哲姓名旁，说明该篇研究是其腾讯混元实习期间完成的工作。"
+      },
+      {
+        "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+        "url": "https://arxiv.org/html/2512.20615",
+        "outcome": "confirmed",
+        "note": "论文首页在第一作者何炫华姓名处标明美团实习；他和陈启峰的指导关系以及实习日期有作者主页和课题组交叉证实。同篇通讯作者 Tianyu Yang 的研究者主页和论文写明美团任职。"
+      },
+      {
+        "title": "LinkGAN: Linking GAN Latents to Pixels for Controllable Image Synthesis",
+        "url": "https://arxiv.org/pdf/2301.04604v2",
+        "outcome": "confirmed",
+        "note": "ICCV 论文原文在 Jiapeng Zhu 姓名处标出蚂蚁集团实习脚注；2025 年港科大论文答辩公告具名确认其博士导师，同篇作者陈启峰及蚂蚁在职研究员 Yujun Shen 均在首页列名。"
+      },
+      {
+        "title": "Manifold-Aware Exploration for Reinforcement Learning in Video Generation",
+        "url": "https://arxiv.org/html/2603.21872",
+        "outcome": "lead",
+        "note": "腾讯研究员岳武参与，第一作者在港科大读博且有混元实习经历。该篇未见项目具名实习说明，需要企业贡献记录确认。"
+      },
+      {
+        "title": "In-Domain GAN Inversion for Faithful Reconstruction and Editability",
+        "url": "https://arxiv.org/html/2309.13956",
+        "outcome": "lead",
+        "note": "在读学生、同篇导师及蚂蚁员工署名可确认；未找到该扩展论文的具名企业项目参与记录。"
+      },
+      {
+        "title": "HunyuanVideo 1.5 Technical Report",
+        "url": "https://arxiv.org/abs/2511.18870",
+        "outcome": "no-evidence",
+        "note": "郑名哲的个人介绍及报告贡献章节均具名，但陈启峰和 Harry Yang 未见同篇署名。"
+      }
+    ]
+  },
+  "BBLD3z8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.whu.edu.cn/info/1019/2892.htm",
+      "https://www.qihuangzhong.top/",
+      "https://www.qihuangzhong.top/publication.html",
+      "https://liamding.cc/"
+    ],
+    "papers": [
+      {
+        "title": "Knowledge Graph Augmented Network Towards Multiview Representation Learning for Aspect-Based Sentiment Analysis",
+        "url": "https://doi.org/10.1109/TKDE.2023.3250499",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "Can ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-tuned BERT",
+        "url": "https://arxiv.org/abs/2302.10198",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "PANDA: Prompt Transfer Meets Knowledge Distillation for Efficient Model Adaptation",
+        "url": "https://doi.org/10.1109/TKDE.2024.3376453",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "E2S2: Encoding-Enhanced Sequence-to-Sequence Pretraining for Language Understanding and Generation",
+        "url": "https://doi.org/10.1109/TKDE.2023.3341917",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "Revisiting Token Dropping Strategy in Efficient BERT Pretraining",
+        "url": "https://aclanthology.org/2023.acl-long.579.pdf",
+        "outcome": "existing",
+        "note": "该篇已确认；学生本人列两位导师。"
+      },
+      {
+        "title": "Self-Evolution Learning for Discriminative Language Model Pretraining",
+        "url": "https://aclanthology.org/2023.findings-acl.254/",
+        "outcome": "lead",
+        "note": "京东作者与武大博士导师均同篇；需补学生参加这项企业工作的具名证据。"
+      },
+      {
+        "title": "Zero-shot Sharpness-Aware Quantization for Pre-trained Language Models",
+        "url": "https://aclanthology.org/2023.emnlp-main.696/",
+        "outcome": "lead",
+        "note": "已核对武大导师与京东署名。论文投稿和学生实习时间可能重叠，仍需证明学生在京东完成对应项目。"
+      },
+      {
+        "title": "Unified Instance and Knowledge Alignment Pretraining for Aspect-Based Sentiment Analysis",
+        "url": "https://doi.org/10.1109/TASLP.2023.3290431",
+        "outcome": "lead",
+        "note": "两位导师、京东作者均具名；首发时学生尚在京东实习期间，仍需补同一项目的具体参与证据。"
+      }
+    ],
+    "note": "先核对钟起煌在京东探索研究院期间的论文。教师名录所列范围内的完整论文清单还有待梳理。"
+  },
+  "wN-rIgIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jszy.whu.edu.cn/liujuhua1/zh_CN/index.htm",
+      "https://www.qihuangzhong.top/",
+      "https://www.qihuangzhong.top/publication.html",
+      "https://liamding.cc/"
+    ],
+    "papers": [
+      {
+        "title": "Knowledge Graph Augmented Network Towards Multiview Representation Learning for Aspect-Based Sentiment Analysis",
+        "url": "https://doi.org/10.1109/TKDE.2023.3250499",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "Can ChatGPT Understand Too? A Comparative Study on ChatGPT and Fine-tuned BERT",
+        "url": "https://arxiv.org/abs/2302.10198",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "PANDA: Prompt Transfer Meets Knowledge Distillation for Efficient Model Adaptation",
+        "url": "https://doi.org/10.1109/TKDE.2024.3376453",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "E2S2: Encoding-Enhanced Sequence-to-Sequence Pretraining for Language Understanding and Generation",
+        "url": "https://doi.org/10.1109/TKDE.2023.3341917",
+        "outcome": "confirmed",
+        "note": "原文有具名实习脚注；现有期刊版与预印本按同篇统计。"
+      },
+      {
+        "title": "Revisiting Token Dropping Strategy in Efficient BERT Pretraining",
+        "url": "https://aclanthology.org/2023.acl-long.579.pdf",
+        "outcome": "existing",
+        "note": "该篇已确认；学生本人列两位导师。"
+      },
+      {
+        "title": "Self-Evolution Learning for Discriminative Language Model Pretraining",
+        "url": "https://aclanthology.org/2023.findings-acl.254/",
+        "outcome": "lead",
+        "note": "京东作者与武大博士导师均同篇；需补学生参加这项企业工作的具名证据。"
+      },
+      {
+        "title": "Zero-shot Sharpness-Aware Quantization for Pre-trained Language Models",
+        "url": "https://aclanthology.org/2023.emnlp-main.696/",
+        "outcome": "lead",
+        "note": "已核对武大导师与京东署名。论文投稿和学生实习时间可能重叠，仍需证明学生在京东完成对应项目。"
+      },
+      {
+        "title": "Unified Instance and Knowledge Alignment Pretraining for Aspect-Based Sentiment Analysis",
+        "url": "https://doi.org/10.1109/TASLP.2023.3290431",
+        "outcome": "lead",
+        "note": "两位导师、京东作者均具名；首发时学生尚在京东实习期间，仍需补同一项目的具体参与证据。"
+      }
+    ],
+    "note": "先核对钟起煌在京东探索研究院期间的论文。教师名录所列范围内的完整论文清单还有待梳理。"
   }
 };
