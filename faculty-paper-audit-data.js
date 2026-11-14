@@ -14354,7 +14354,29 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3755881.3755933",
       "https://doi.org/10.1145/3691620.3695068",
       "https://doi.org/10.1145/3650212.3680379",
-      "https://doi.org/10.1145/3728930"
+      "https://doi.org/10.1145/3728930",
+      "https://conf.researchr.org/details/icpc-2023/icpc-2023-research/2/REMS-Recommending-Extract-Method-Refactoring-Opportunities-via-Multi-view-Representa",
+      "https://www.proceedings.com/content/069/069700webtoc.pdf",
+      "https://doi.org/10.1109/ICPC58990.2023.00034",
+      "https://conf.researchr.org/details/internetware-2024/internetware-2024-new-idea-track/4/HGNN4Perf-Detecting-Performance-Optimization-Opportunities-via-Hypergraph-Neural-Net",
+      "https://api.crossref.org/works/10.1145/3671016.3671405",
+      "https://doi.org/10.1145/3671016.3671405",
+      "https://conf.researchr.org/details/icpc-2025/icpc-2025-research/38/Building-Bridges-Not-Walls-Fairness-aware-and-Accurate-Recommendation-of-Code-Revie",
+      "https://doi.org/10.1109/ICPC66645.2025.00067",
+      "https://conf.researchr.org/details/internetware-2026/internetware-2026-new-idea/4/WERCA-Workflow-guided-and-Evidence-constrained-Root-Cause-Analysis-for-DevOps-System",
+      "https://arxiv.org/html/2610.06968",
+      "https://onlinelibrary.wiley.com/doi/10.1155/2023/5959223",
+      "https://www.sciencedirect.com/science/article/pii/S0164121224002760",
+      "https://jos.org.cn/jos/article/abstract/7267",
+      "https://www.jos.org.cn/jos/article/issue/2025_36_9",
+      "https://jsjxy.yau.edu.cn/info/1721/17514.htm",
+      "https://www.jos.org.cn/jos/article/abstract/7326",
+      "https://rjxb.alljournals.cn/jos/article/pdf/7326",
+      "https://pub.orcid.org/v3.0/0000-0003-2859-9003/works",
+      "https://dblp.org/pid/40/538.html",
+      "https://api.crossref.org/works?filter=orcid:0000-0003-2859-9003",
+      "https://orcid.org/0009-0006-6550-1502",
+      "https://orcid.org/0000-0001-5056-2704"
     ],
     "papers": [
       {
@@ -14419,9 +14441,72 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3728930",
         "note": "ISSTA 正式版作者涉及西电、哈工程、新加坡管理大学及微软；微软不在本项目企业范围内。同题预印本合并。",
         "outcome": "no-evidence"
+      },
+      {
+        "title": "REMS: Recommending Extract Method Refactoring Opportunities via Multi-view Representation of Code Property Graph",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/ICPC58990.2023.00034",
+        "note": "IEEE/ACM 正式会议录列七位作者均署西安电子科技大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "HGNN4Perf: Detecting Performance Optimization Opportunities via Hypergraph Neural Network",
+        "year": 2024,
+        "url": "https://doi.org/10.1145/3671016.3671405",
+        "note": "ACM 存档列作者所属西电、中央密苏里大学及 Amazon.com Services；亚马逊不在本项目企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Building Bridges, Not Walls: Fairness-Aware and Accurate Recommendation of Code Reviewers via LLM-Based Agents Collaboration",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/ICPC66645.2025.00067",
+        "note": "IEEE 正式出版记录和会议议程均列西电、中央密苏里大学，无范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "WERCA: Workflow-guided and Evidence-constrained Root Cause Analysis for DevOps Systems",
+        "year": 2026,
+        "url": "https://conf.researchr.org/details/internetware-2026/internetware-2026-new-idea/4/WERCA-Workflow-guided-and-Evidence-constrained-Root-Cause-Analysis-for-DevOps-System",
+        "note": "Internetware 正式议程列有北京星云数字科技的作者，未发现该单位属任何范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Pattern-Guided Graph Synthesis for Suppressing Known Defects in DL Compiler Fuzzing",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2610.06968",
+        "note": "2026 年预印本作者仅署南京理工大学、西安电子科技大学和武汉大学；使用或报告工业开源软件缺陷不能证明企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "An Efficient Load Prediction-Driven Scheduling Strategy Model in Container Cloud",
+        "year": 2023,
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/5959223",
+        "note": "Wiley 正文列该论文全部作者均为西安电子科技大学；公开集群数据属于实验材料，不能证明企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Unveiling the microservices testing methods, challenges, solutions, and solutions gaps: A systematic mapping study",
+        "year": 2025,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0164121224002760",
+        "note": "正式卷期为 2025 年，原文作者来自西安电子科技大学及桂林电子科技大学；作者说明第一作者为西电研究生，致谢是公共基金，未见企业同署或实习。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "基于多模态融合的软件缺陷协同分派方法",
+        "year": 2025,
+        "url": "https://jos.org.cn/jos/article/abstract/7267",
+        "note": "《软件学报》2025 正式刊期列四位作者，期刊和作者学校履历均未提供范围内企业署名或本篇企业实习信息。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "基于大语言模型的多智能体协作代码评审人推荐",
+        "year": 2025,
+        "url": "https://www.jos.org.cn/jos/article/abstract/7326",
+        "note": "正式刊期为 2025 年。原文单位为西电、软件工程重点实验室以及北京控制工程研究所；署名与 ICPC 2025 及 ASE 2024 两篇不同，正文单独检查。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "交叉检索学校主页、本人 ORCID、正式会议和期刊；有企业署名的论文另核学生角色与指导证据。学校成果栏目为空白，公开索引与发表清单仍在补查。"
+    "note": "已对学校身份、会议作者索引、ORCID、Crossref、同组作者索引及中文刊物检出的时间窗内论文逐篇核对。期刊与同题预印本合并；学校主页成果栏为空，公开书目仍在复核。MAJIT 已确认抖音合著，仍缺在读、该篇企业参与和个人指导的直接证据。"
   },
   "DR-GIokAAAAJ": {
     "from": "2023-01-01",
@@ -15603,7 +15688,7 @@ const facultyPaperAudits = {
   "1oBy8zAAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://duminxin.github.io/publication",
       "https://duminxin.github.io/misc",
@@ -15622,15 +15707,21 @@ const facultyPaperAudits = {
       "https://research.polyu.edu.hk/en/publications/advddos-zero-query-adversarial-attacks-against-commercial-speech-/",
       "https://research.polyu.edu.hk/en/publications/fasttextdodger-decision-based-adversarial-attack-against-black-bo/",
       "https://whdy.publish.founderss.cn/zh/article/doi/10.14188/j.1671-8836.2023.0031/",
-      "https://research.polyu.edu.hk/en/publications/stealthy-and-effective-physical-adversarial-attacks-in-autonomous/"
+      "https://research.polyu.edu.hk/en/publications/stealthy-and-effective-physical-adversarial-attacks-in-autonomous/",
+      "https://duminxin.github.io/",
+      "https://proceedings.mlr.press/v306/",
+      "https://aclanthology.org/people/minxin-du/",
+      "https://arxiv.org/search/?query=Minxin+Du&searchtype=author",
+      "https://arxiv.org/html/2507.07017v1",
+      "https://duminxin.github.io/pdf/sp2026c1-final1050.pdf"
     ],
     "papers": [
       {
         "title": "Unlearning Isn’t Deletion: Investigating Reversibility of Machine Unlearning in LLMs",
-        "url": "https://arxiv.org/html/2505.16831v3",
+        "url": "https://proceedings.mlr.press/v306/xu26cd.html",
         "year": 2026,
         "outcome": "lead",
-        "note": "论文署华为郑华迪和胡培钊。杜闵欣的学生名录确认许晓宇为他和胡海波共同指导的港理工博士生。公开原文及个人主页均未说明许晓宇就该篇参与华为研究。"
+        "note": "ICML 正式稿列出两位华为作者；港理工在读博士许晓宇由杜闵欣与胡海波共同指导。原文及作者公开材料未明确许晓宇在该篇华为项目中的具体参与，保留为线索。"
       },
       {
         "title": "From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning",
@@ -15690,10 +15781,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning",
-        "url": "https://arxiv.org/html/2507.00432",
-        "year": 2025,
-        "outcome": "no-evidence",
-        "note": "该篇实习脚注指向作者在卡内基梅隆大学的研究；署名另含宾大、华盛顿大学、香港理工和 M-A-P。没有范围内企业作者。"
+        "url": "https://proceedings.mlr.press/v306/huan26a.html",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "2025 年预印本与 ICML 2026 正式稿合并。许晓宇和杜闵欣署香港理工；同篇 Tianyu Zheng 只署 M-A-P，另一篇同期作品出现其字节署名，未发现这篇工作由字节完成或许晓宇参与该企业项目的证据。"
       },
       {
         "title": "SINGED: Correct Outputs Do Not Certify Safe Execution in LLM Agents",
@@ -15773,7 +15864,7 @@ const facultyPaperAudits = {
         "note": "公开原文作者仅署香港理工和香港中文大学。没有范围内企业作者。"
       }
     ],
-    "note": "按研究发生时的任职核对；杜闵欣担任港理工研究助理教授期间的论文仍列入书目，不因后来任职武大而归为武大合作。"
+    "note": "对照本人书目与履历、DBLP、ORCID、Crossref、arXiv、ACL Anthology 和两篇 ICML 2026 正式稿，合并同文版本后，于调查时段内公开可归属的作品共 21 篇。按研究发生时任职核对，早期港理工任职不改计为武大。已逐篇检查；尚缺学生企业参与等证据的论文保留为线索。"
   },
   "G2lp_8kAAAAJ": {
     "from": "2023-01-01",
@@ -16131,6 +16222,26 @@ const facultyPaperAudits = {
         "year": 2026
       }
     ],
-    "note": "另有两篇拟于 2027 年发表的论文在截止日前仅有 DOI 元数据，未作为调查期内公开全文纳入本次逐篇判定。"
+    "note": "核对公开书目中的 19 个成果，按期刊及会议正式年份归并预印本和同文扩展。2027 年 ASPLOS 的 PhantomBox（10.1145/3845814.3850054）和 rLLM（10.1145/3845814.3850087）在截止日前仅有 DOI 著录，未找到同期预印本正文，未计入。另以杜克公开毕业名录确认本人博士学位论文及导师，学位论文及仅见有未来安排而无截至日期内论文记录的报告不计。"
+  },
+  "8FA57TYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xidian.edu.cn/DXW/zh_CN/index/347067/list/index.htm",
+      "https://web.xidian.edu.cn/ylshen/files/6797c3dd18c32.pdf",
+      "https://doi.org/10.1109/TMC.2022.3200044"
+    ],
+    "papers": [
+      {
+        "title": "A Two-Dimensional Sybil-Proof Mechanism for Dynamic Spectrum Access",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TMC.2022.3200044",
+        "note": "IEEE 正式卷期为 2023 年；论文作者署西安电子科技大学及日本国立信息学研究所，未见范围内企业。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "所列论文已逐篇检查；公开书目尚未穷尽。"
   }
 };
