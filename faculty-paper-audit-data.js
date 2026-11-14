@@ -17682,7 +17682,16 @@ const facultyPaperAudits = {
       "https://www.antgroup.com/en/technology",
       "https://unctad.org/system/files/official-document/ecn162024inf1_en.pdf",
       "https://openreview.net/pdf/9b472ed0671cf9a92c141bb68003a9dc4ee47ff9.pdf",
-      "https://people.ucas.ac.cn/~wangliang"
+      "https://people.ucas.ac.cn/~wangliang",
+      "https://sunxin000.github.io/files/resume.pdf",
+      "https://vim.ustc.edu.cn/2021/0704/c27141a571242/page.htm",
+      "https://dslx.ustc.edu.cn/?menu=expertlist&year=2025",
+      "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000",
+      "https://www.ia.cas.cn/kxyj/kydt_1/202606/t20260603_8213488.html",
+      "https://wbhu.net/",
+      "https://www.ia.cas.cn/xwzx/ttxw/202410/t20241024_7407724.html",
+      "https://arxiv.org/html/2512.10999v1#S7",
+      "https://arxiv.org/html/2512.10999v3"
     ],
     "papers": [
       {
@@ -17732,7 +17741,7 @@ const facultyPaperAudits = {
         "title": "Bi-Level Graph Structure Learning for Next POI Recommendation",
         "url": "https://doi.org/10.1109/TKDE.2024.3397683",
         "outcome": "confirmed",
-        "note": "学生履历将美团实习的图学习和时空挖掘工作明确连到 IEEE TKDE 和 SDM；所列 IEEE TKDE 对应论文是 BiGSL。原文列首作者、末位同名的校内导师及美团作者张梦迪，使用 2021 年 10 月的美团交易数据。资料将研究连到实习期；正式版先于 2024 年 11 月刊期完成审稿。"
+        "note": "学生履历将美团实习的图自监督及图时空挖掘成果分别连到 IEEE TKDE 和 SDM 2024，目录唯一 IEEE TKDE 论文为 BiGSL；原文作者信息同时列首作者、末位同名校内导师及美团正式员工张梦迪，研究使用美团交易数据。原版 2023 年投稿，2024 年正式出版，研究由实习履历关联。"
       },
       {
         "year": 2025,
@@ -17759,29 +17768,29 @@ const facultyPaperAudits = {
         "year": 2026,
         "title": "KBQA-R1: Reinforcing Large Language Models for Knowledge Base Question Answering",
         "url": "https://proceedings.mlr.press/v306/sun26h.html",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "孙鑫在履历中逐篇列本论文为蚂蚁实习成果，具名联合导师王亮同篇。2025 年 12 月首稿把王维强等四位作者列为蚂蚁员工，给出企业邮箱与岗位；学生项目页列双署名，同时期的 ICASSP 会方也列王维强为蚂蚁。ICML 定稿把这四位作者改列 Independent，原因未公开；本条据研究期材料确认。"
       },
       {
         "year": 2026,
         "title": "Predict the Retrieval! Test Time Adaptation for Retrieval Augmented Generation",
         "url": "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13877&bare=1",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "孙鑫在本人蚂蚁实习经历中把测试时检索适应列作 ICASSP 2026 项目。IEEE 出版方登记、会方日程和原稿均将同篇王维强列为蚂蚁；王亮署自动化所。正式出版日期为 2026 年 5 月 3 日，会方安排 5 月 7 日展示，与 arXiv:2601.11443 为同一篇。"
       },
       {
         "year": 2026,
         "title": "Multimodal Adaptive Retrieval Augmented Generation through Internal Representation Learning",
         "url": "https://doi.org/10.1109/IJCNN69854.2026.11729643",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "孙鑫在履历把本篇 IJCNN 论文明确列为蚂蚁实习的多模态自适应检索成果。正式 IEEE 题录与作者原文均列王维强、宋博文、陈中奇署蚂蚁，博士联合导师王亮署自动化所；正式篇与 arXiv:2603.00511 合并。"
       },
       {
         "year": 2026,
         "title": "EviSD: Evidence-Conditioned Self-Distillation for Search-Augmented Agents",
         "url": "https://arxiv.org/html/2608.01359v1",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "孙鑫在蚂蚁实习经历内具名链接 EviSD。8 月 2 日的预印本列孙鑫为共同第一作者，也列博士联合导师王亮与用蚂蚁企业邮箱署名的宋博文。前一篇 2025 年 12 月研究原稿的作者简介给出宋博文在蚂蚁的入职年份和正式岗位。"
       },
       {
         "year": 2025,
@@ -17796,9 +17805,100 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.findings-emnlp.2459/",
         "outcome": "lead",
         "note": "学生履历把本项目列为蚂蚁实习成果；2026-05 原文将王伟强、Bowen Song 署蚂蚁，EMNLP 2026 正式版改为独立研究者。仍需复核研究阶段任职与版本变更。"
+      },
+      {
+        "year": 2024,
+        "title": "Pin-Tuning: Parameter-Efficient In-Context Tuning for Few-Shot Molecular Property Prediction",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/82a9fb94035dad3ec007de4ad13c6748-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版与 2411.01158 合并；首作者及末位同名导师一一对应，孙鑫在中科大。全部作者单位为自动化所、国科大或中科大。"
+      },
+      {
+        "year": 2024,
+        "title": "DIVE: Subgraph Disagreement for Graph Out-of-Distribution Generalization",
+        "url": "https://doi.org/10.1145/3637528.3671878",
+        "outcome": "no-evidence",
+        "note": "核对 ACM 页和同文 2408.04400；孙鑫署中科大及自动化所，两位同名王亮为博士生与导师，另有中科大王子磊；未见企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Noise-Robust Semi-Supervised Learning for Distantly Supervised Relation Extraction",
+        "url": "https://aclanthology.org/2023.findings-emnlp.876/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版署中科大、自动化所、国科大；学生孙鑫与王亮、刘强和中科大王子磊共同署名，但无范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Uncertainty Calibration for Counterfactual Propensity Estimation in Recommendation",
+        "url": "https://doi.org/10.1109/TKDE.2025.3552658",
+        "outcome": "lead",
+        "note": "孙鑫本人明确把它列为 2022 年 2–8 月字节实习成果；其博士联合培养自 2022 年 9 月开始，实研期王亮的在读指导及同篇字节正式员工均未核实。正式版第一作者为合工大胡文波，不是有字节经历的同名胡文博。"
+      },
+      {
+        "year": 2023,
+        "title": "GSLB: The Graph Structure Learning Benchmark",
+        "url": "https://papers.nips.cc/paper_files/paper/2023/hash/60bc87f3cf5257579435d92ec12c761b-Abstract-Datasets_and_Benchmarks.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版作者单位为港中文、国科大、中科院自动化所、中科大、北邮、UCLA、CMU。末位前同名导师王亮同时署中科大，提供任职背景但本篇无企业。"
+      },
+      {
+        "year": 2026,
+        "title": "ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models",
+        "url": "https://arxiv.org/html/2601.21947v1",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版与 2601.21947 合并；作者来自自动化所、国科大及中关村学院／研究院，属于不同于蚂蚁 RAG 项目的合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Reading the Cell, Designing the Cure: Perturbation-Conditioned Molecular Diffusion for Function-Oriented Drug Design",
+        "url": "https://proceedings.mlr.press/v306/xu26ck.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式版全文与 2605.15243 合一，单位为自动化所、国科大、新加坡国立大学。两位王亮分别为国科大在读博士与导师；本篇未见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Reprogramming Pretrained Target-Specific Diffusion Models for Dual-Target Drug Design",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/9ebf3213e396975cce47f2762e87e166-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版首作者周相鑫及导师王亮同篇，另外是 UIUC、清华和北大；不同于周相鑫字节实习期间的 AbDPO。"
+      },
+      {
+        "year": 2025,
+        "title": "Integrating Protein Dynamics into Structure-Based Drug Design via Full-Atom Stochastic Flows",
+        "url": "https://arxiv.org/abs/2503.03989",
+        "outcome": "no-evidence",
+        "note": "ICLR 2025 正式作者机构含北京望石智慧，企业不在本调查名单内；未见字节／腾讯共同署名。"
+      },
+      {
+        "year": 2024,
+        "title": "Stabilizing Policy Gradients for Stochastic Differential Equations via Consistency with Perturbation Process",
+        "url": "https://proceedings.mlr.press/v235/zhou24q.html",
+        "outcome": "lead",
+        "note": "ICML 2024 首页同列国科大博士生周相鑫、导师王亮及署字节的通讯作者 Yichi Zhou；全文未具名实习，学生只列字节多个组实习，未把本篇明确归到企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Rethinking Graph Masked Autoencoders through Alignment and Uniformity",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/29479/30787",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式稿作者全部署国科大与中科院自动化所，双王亮邮箱已区分。"
+      },
+      {
+        "year": 2024,
+        "title": "Semantic Evolvement Enhanced Graph Autoencoder for Rumor Detection",
+        "url": "https://doi.org/10.1145/3589334.3645478",
+        "outcome": "no-evidence",
+        "note": "ACM Web 正式版本与 2404.16076 作者、实验内容相同，作者属自动化所与国科大，没有企业角色；社交平台内容为数据。"
+      },
+      {
+        "year": 2025,
+        "title": "Attention-guided Self-reflection for Zero-shot Hallucination Detection in Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.1063/",
+        "outcome": "lead",
+        "note": "EMNLP 正式版具名宋博文、王维强署蚂蚁；王亮与 Xinlong Chen、Yue Ding 共同署自动化所。蚂蚁基金只是资助，未查到这两位中有符合论文研究阶段学籍、王亮实际指导且参与蚂蚁项目的人，暂不确认。"
       }
     ],
-    "note": "已用学生履历和正式出版核验两位王亮的身份，区分已确证的企业研究与仅共同署名。教师整体书目尚未梳理完。"
+    "note": "继续依自动化所官方报道、两类博士生书目和正式论文逐一核验，区分同名作者及跨校指导；仍未穷尽教师整体书目。"
   },
   "SC-WmzwAAAAJ": {
     "from": "2023-01-01",
@@ -37531,7 +37631,8 @@ const facultyPaperAudits = {
       "https://biguanqun.github.io/cv/",
       "https://redwyd.github.io/",
       "https://yongchao-liu.github.io/projects.html",
-      "https://qingyue2014.github.io/qingyue_cv.pdf"
+      "https://qingyue2014.github.io/qingyue_cv.pdf",
+      "https://liu-yang-maker.github.io/yangpage.github.io/index.html"
     ],
     "papers": [
       {
@@ -37539,7 +37640,7 @@ const facultyPaperAudits = {
         "title": "MicroMouse: Masking Harmful Supervision in Long CoT via Relative Potential",
         "url": "https://arxiv.org/abs/2611.02710",
         "outcome": "lead",
-        "note": "中科院研究组与国科大教师名单核实朱孝伟为 2022 级博士生及曹亚男指导；同篇百度张振宇在其个人论文清单给朱标注上标 i，但图例仅解释 ¡ 为实习生。原文没有实习脚注，暂缺清楚的本篇企业参与说明。"
+        "note": "同一百度作者的书目将朱孝伟标为 i；该标法在该页另一篇 Memento 的 Xuan Wei 由原文证实是百度实习。但图例解释的是 ¡，MicroMouse 原文本身未注明实习。朱孝伟的学籍与曹亚男指导已证实，保留线索。"
       },
       {
         "year": 2026,
@@ -37750,9 +37851,37 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2023.acl-long.17/",
         "outcome": "no-evidence",
         "note": "ACL 正式版作者均署信工所与国科大，利用混合检索增强提取事件论元；未见范围内企业同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "AbstainGNN: Teaching Graph Neural Networks to Abstain for Graph Classification",
+        "url": "https://doi.org/10.1145/3770855.3817804",
+        "outcome": "lead",
+        "note": "KDD 稿列 TikTok 员工 Shichao Zhu，正式员工另有本人 ORCID 任职与 KDD 工业 track。数学院陈彦成、张帅同篇，但尚不能佐证哪一位在字节具体完成本研究。"
+      },
+      {
+        "year": 2024,
+        "title": "CL4KGE: A Curriculum Learning Method for Knowledge Graph Embedding",
+        "url": "https://arxiv.org/html/2408.14840v1",
+        "outcome": "lead",
+        "note": "原文学生刘洋与具名导师周川、教师曹亚男同篇；Yongchao Liu 署蚂蚁集团。学生自己的实习时间表未列蚂蚁，原文也未说明在蚂蚁开展本项目。"
+      },
+      {
+        "year": 2026,
+        "title": "SafeHarness: Lifecycle-Integrated Security Architecture for LLM-based Agent Deployment",
+        "url": "https://arxiv.org/html/2604.13630v1",
+        "outcome": "no-evidence",
+        "note": "作者单位仅列中科院信工所与数学院、应用物理与计算数学研究所、北京大学；已在企业任职或实习的个别作者并不能凭个人背景补出本篇企业角色。"
+      },
+      {
+        "year": 2026,
+        "title": "Generative Causality-Driven Network for Graph Multi-Task Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3610096",
+        "outcome": "no-evidence",
+        "note": "作者单位及大学存档未见范围企业署名。按 2026 年正式卷期登记，2025 年 early access 不另算。"
       }
     ],
-    "note": "本批从教学名录及实验组书目交叉正式出版页、原文和学生履历，逐篇记录。已有确认及缺实研依据的校企合著分开保留，完整书目仍在推进。"
+    "note": "按正式书目、原文和学生履历逐篇记录；已有确认及缺实研依据的校企合著分开保留，完整书目仍在推进。"
   },
   "4VwsT3QAAAAJ": {
     "from": "2023-01-01",
@@ -37883,5 +38012,96 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已交叉核对本人书目和原文，另用会议正式记录及公司公开书目核对蚂蚁合作线索。仍在比对近年补录、预印本及其他题录，不将缺证据视为否定关系。"
+  },
+  "4oBUWVEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~chuanzhou",
+      "https://dblp.org/pid/52/564-1.html",
+      "https://liu-yang-maker.github.io/yangpage.github.io/index.html",
+      "https://orcid.org/0000-0002-1755-4267"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "AbstainGNN: Teaching Graph Neural Networks to Abstain for Graph Classification",
+        "url": "https://doi.org/10.1145/3770855.3817804",
+        "outcome": "lead",
+        "note": "KDD 稿列 TikTok 员工 Shichao Zhu，正式员工另有本人 ORCID 任职与 KDD 工业 track。数学院陈彦成、张帅同篇，但尚不能佐证哪一位在字节具体完成本研究。"
+      },
+      {
+        "year": 2024,
+        "title": "CL4KGE: A Curriculum Learning Method for Knowledge Graph Embedding",
+        "url": "https://arxiv.org/html/2408.14840v1",
+        "outcome": "lead",
+        "note": "原文学生刘洋与具名导师周川、教师曹亚男同篇；Yongchao Liu 署蚂蚁集团。学生自己的实习时间表未列蚂蚁，原文也未说明在蚂蚁开展本项目。"
+      },
+      {
+        "year": 2026,
+        "title": "Hard Constraints Meet Soft Generation: Guaranteed Feasibility for LLM-based Combinatorial Optimization",
+        "url": "https://arxiv.org/html/2602.01090v1",
+        "outcome": "lead",
+        "note": "原文列刘洋、导师周川以及阿里 Xiaoqing Wang；刘洋本人明确将此作为博士论文的组合优化研究，但无阿里实研说明，当前保留为校企合著线索。"
+      },
+      {
+        "year": 2026,
+        "title": "SafeHarness: Lifecycle-Integrated Security Architecture for LLM-based Agent Deployment",
+        "url": "https://arxiv.org/html/2604.13630v1",
+        "outcome": "no-evidence",
+        "note": "作者单位仅列中科院信工所与数学院、应用物理与计算数学研究所、北京大学；已在企业任职或实习的个别作者并不能凭个人背景补出本篇企业角色。"
+      },
+      {
+        "year": 2026,
+        "title": "Message Tuning Outshines Graph Prompt Tuning: A Prismatic Space Perspective",
+        "url": "https://proceedings.mlr.press/v306/chen26cz.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式版与 arXiv:2606.03290 合一，作者机构是数学院、信工所、计算所、国科大及香港城市大学，未见范围企业同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Pairwise Interactions: Equivariant Hypergraph Diffusion for Crystal Structure Prediction",
+        "url": "https://arxiv.org/html/2501.18850v1",
+        "outcome": "no-evidence",
+        "note": "作为正式 KDD 2026 论文收录，与 2025 年首次上传合一。作者原稿单位含国科大及中科院、广州大学、格里菲斯大学；未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Conformal Anomaly Detection in Event Sequences",
+        "url": "https://proceedings.mlr.press/v267/zhang25dn.html",
+        "outcome": "no-evidence",
+        "note": "PMLR 正式版全文作者署国科大、数学院、信工所、广州大学和格里菲斯大学；用于验证方法的数据不能作为企业作者证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Latent Block-Diffusion Temporal Point Processes: A Semi-Autoregressive Framework for Asynchronous Event Sequence Generation",
+        "url": "https://arxiv.org/html/2606.24982v1",
+        "outcome": "no-evidence",
+        "note": "原文首页查核数学院及信工所、港城大、清华作者单位；未见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Transformer-based Graph Neural Networks for Battery Range Prediction in AIoT Battery-Swap Services",
+        "url": "https://arxiv.org/html/2407.16115v1",
+        "outcome": "no-evidence",
+        "note": "原文署杭州宇谷科技、浙江实验室和数所大学；杭州宇谷不在 14 家企业范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Decision-focused Graph Neural Networks for Combinatorial Optimization",
+        "url": "https://arxiv.org/html/2406.03647v1",
+        "outcome": "no-evidence",
+        "note": "2024 预印本为扩展版，与 ICDM 2023 的相近题名比较后按内容评估；同篇有杭州宇谷科技与多所学术机构，企业超出本调查范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Generative Causality-Driven Network for Graph Multi-Task Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3610096",
+        "outcome": "no-evidence",
+        "note": "作者单位及大学存档未见范围企业署名。按 2026 年正式卷期登记，2025 年 early access 不另算。"
+      }
+    ],
+    "note": "已按国科大名录和学生履历交叉核对部分正式出版及原文，企业同篇与学生在企业开展具体项目分开记录。"
   }
 };

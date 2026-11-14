@@ -40685,6 +40685,266 @@ const survey = {
         "史久琛公开主页明确两名上交博士导师；他在华为云实习的 2023–24 年间仍在读，两导师均参与论文。",
         "https://shijiuchen.github.io/"
       ]
+    },
+    {
+      "id": "ant-kbqa-r1-ucas-wang",
+      "paperId": "arxiv:2512.10999",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学技术大学",
+      "company": "蚂蚁集团",
+      "team": "机器智能部",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。孙鑫本人具名列为博士联合导师。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "该文 2025 年 12 月原稿列为蚂蚁集团，作者简介写明当时负责天筭实验室；2026 年 ICML 定稿改列独立作者。",
+        "https://arxiv.org/html/2512.10999v1"
+      ],
+      "student": [
+        "孙鑫 · Xin Sun",
+        "2022 年起在中国科学技术大学攻读博士，与中科院自动化所联合培养；2024 年 11 月进入蚂蚁机器智能部实习，2026 年 5 月为 Ant Star 研究实习生。",
+        "https://sunxin000.github.io/"
+      ],
+      "title": "KBQA-R1: Reinforcing Large Language Models for Knowledge Base Question Answering",
+      "short": "KBQA-R1",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "知识库问答、强化学习",
+      "paper": "https://proceedings.mlr.press/v306/sun26h.html",
+      "evidence": "孙鑫在履历中逐篇列本论文为蚂蚁实习成果，具名联合导师王亮同篇。2025 年 12 月首稿把王维强等四位作者列为蚂蚁员工，给出企业邮箱与岗位；学生项目页列双署名，同时期的 ICASSP 会方也列王维强为蚂蚁。ICML 定稿把这四位作者改列 Independent，原因未公开；本条据研究期材料确认。",
+      "advising": [
+        "博士联合培养",
+        "孙鑫在履历教育栏明确列为 2022 年起的中科大控制科学与工程博士联合培养（CASIA），具名王亮、刘强为导师。中科大 VIM 实验室记录他自 2022 年 9 月在自动化系就读，同期中科大博士招生表把王亮列为 081104 校外导师。",
+        "https://sunxin000.github.io/files/resume.pdf"
+      ],
+      "extra": [
+        [
+          "联合国贸发会议：2024 年雇主和职位",
+          "https://unctad.org/system/files/official-document/ecn162024inf1_en.pdf"
+        ],
+        [
+          "ICML 论文全文",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/sun26h/sun26h.pdf"
+        ],
+        [
+          "作者项目页和双署名",
+          "https://sunxin000.github.io/KBQA-R1/"
+        ],
+        [
+          "中科大实验室：2022 年加入时的研究生学籍",
+          "https://vim.ustc.edu.cn/2021/0704/c27141a571242/page.htm"
+        ],
+        [
+          "中科大研究生院：王亮为对应学科校外博导（研究期间）",
+          "https://dslx.ustc.edu.cn/?menu=expertlist&year=2025"
+        ],
+        [
+          "论文正式题录、出版时间及原稿",
+          "https://arxiv.org/abs/2512.10999"
+        ],
+        [
+          "研究期初稿、企业邮箱与全职任职介绍",
+          "https://arxiv.org/html/2512.10999v1#S7"
+        ],
+        [
+          "2026-01 修订稿：同样列出蚂蚁人员",
+          "https://arxiv.org/html/2512.10999v2"
+        ],
+        [
+          "2026-06-02 arXiv 第三版已改为 Independent",
+          "https://arxiv.org/html/2512.10999v3"
+        ],
+        [
+          "同一批企业作者同期 EMNLP 2025 正式稿的蚂蚁署名",
+          "https://aclanthology.org/2025.emnlp-main.1063.pdf"
+        ],
+        [
+          "同期 ICASSP 会方列王维强的蚂蚁单位",
+          "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13877&bare=1"
+        ]
+      ]
+    },
+    {
+      "id": "ant-ttarag-ucas-wang",
+      "paperId": "doi:10.1109/ICASSP55912.2026.11464478",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学技术大学",
+      "company": "蚂蚁集团",
+      "team": "机器智能部",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。孙鑫本人具名列为博士联合导师。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇署蚂蚁；蚂蚁中文官网正式职务为机器智能部总经理，联合国 2024 年档案及同期研究署名可交叉核实。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "孙鑫 · Xin Sun",
+        "2022 年起在中国科学技术大学攻读博士，与中科院自动化所联合培养；2024 年 11 月进入蚂蚁机器智能部实习，2026 年 5 月为 Ant Star 研究实习生。",
+        "https://sunxin000.github.io/"
+      ],
+      "title": "Predict the Retrieval! Test Time Adaptation for Retrieval Augmented Generation",
+      "short": "TTARAG",
+      "date": "2026-05-03",
+      "venue": "IEEE ICASSP 2026",
+      "area": "检索增强生成",
+      "paper": "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13877&bare=1",
+      "evidence": "孙鑫在本人蚂蚁实习经历中把测试时检索适应列作 ICASSP 2026 项目。IEEE 出版方登记、会方日程和原稿均将同篇王维强列为蚂蚁；王亮署自动化所。正式出版日期为 2026 年 5 月 3 日，会方安排 5 月 7 日展示，与 arXiv:2601.11443 为同一篇。",
+      "advising": [
+        "博士联合培养",
+        "孙鑫在履历教育栏明确列为 2022 年起的中科大控制科学与工程博士联合培养（CASIA），具名王亮、刘强为导师。中科大 VIM 实验室记录他自 2022 年 9 月在自动化系就读，同期中科大博士招生表把王亮列为 081104 校外导师。",
+        "https://sunxin000.github.io/files/resume.pdf"
+      ],
+      "extra": [
+        [
+          "联合国贸发会议：2024 年雇主和职位",
+          "https://unctad.org/system/files/official-document/ecn162024inf1_en.pdf"
+        ],
+        [
+          "IEEE 正式论文 DOI",
+          "https://doi.org/10.1109/ICASSP55912.2026.11464478"
+        ],
+        [
+          "作者公开全文",
+          "https://arxiv.org/html/2601.11443v1"
+        ],
+        [
+          "中科大实验室：2022 年加入时的研究生学籍",
+          "https://vim.ustc.edu.cn/2021/0704/c27141a571242/page.htm"
+        ],
+        [
+          "中科大研究生院：王亮为对应学科校外博导（研究期间）",
+          "https://dslx.ustc.edu.cn/?menu=expertlist&year=2025"
+        ],
+        [
+          "论文正式题录、出版时间及原稿",
+          "https://api.crossref.org/works/10.1109/ICASSP55912.2026.11464478"
+        ]
+      ]
+    },
+    {
+      "id": "ant-adaptive-rag-ucas-wang",
+      "paperId": "doi:10.1109/IJCNN69854.2026.11729643",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学技术大学",
+      "company": "蚂蚁集团",
+      "team": "机器智能部",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。孙鑫本人具名列为博士联合导师。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "同篇署蚂蚁；蚂蚁中文官网正式职务为机器智能部总经理，联合国 2024 年档案及同期研究署名可交叉核实。",
+        "https://www.antgroup.com/technology/new-tech-Technology-dynamics-detail/1713974400000"
+      ],
+      "student": [
+        "孙鑫 · Xin Sun",
+        "2022 年起在中国科学技术大学攻读博士，与中科院自动化所联合培养；2024 年 11 月进入蚂蚁机器智能部实习，2026 年 5 月为 Ant Star 研究实习生。",
+        "https://sunxin000.github.io/"
+      ],
+      "title": "Multimodal Adaptive Retrieval Augmented Generation through Internal Representation Learning",
+      "short": "Multimodal Adaptive RAG",
+      "date": "2026-06",
+      "venue": "IJCNN 2026",
+      "area": "多模态检索增强生成",
+      "paper": "https://doi.org/10.1109/IJCNN69854.2026.11729643",
+      "evidence": "孙鑫在履历把本篇 IJCNN 论文明确列为蚂蚁实习的多模态自适应检索成果。正式 IEEE 题录与作者原文均列王维强、宋博文、陈中奇署蚂蚁，博士联合导师王亮署自动化所；正式篇与 arXiv:2603.00511 合并。",
+      "advising": [
+        "博士联合培养",
+        "孙鑫在履历教育栏明确列为 2022 年起的中科大控制科学与工程博士联合培养（CASIA），具名王亮、刘强为导师。中科大 VIM 实验室记录他自 2022 年 9 月在自动化系就读，同期中科大博士招生表把王亮列为 081104 校外导师。",
+        "https://sunxin000.github.io/files/resume.pdf"
+      ],
+      "extra": [
+        [
+          "联合国贸发会议：2024 年雇主和职位",
+          "https://unctad.org/system/files/official-document/ecn162024inf1_en.pdf"
+        ],
+        [
+          "预印本全文与作者单位",
+          "https://arxiv.org/html/2603.00511v1"
+        ],
+        [
+          "中科大实验室：2022 年加入时的研究生学籍",
+          "https://vim.ustc.edu.cn/2021/0704/c27141a571242/page.htm"
+        ],
+        [
+          "中科大研究生院：王亮为对应学科校外博导（研究期间）",
+          "https://dslx.ustc.edu.cn/?menu=expertlist&year=2025"
+        ],
+        [
+          "论文正式题录、出版时间及原稿",
+          "https://api.crossref.org/works/10.1109/IJCNN69854.2026.11729643"
+        ]
+      ]
+    },
+    {
+      "id": "ant-evisd-ucas-wang",
+      "paperId": "arxiv:2608.01359",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学技术大学",
+      "company": "蚂蚁集团",
+      "team": "机器智能部",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "中国科学院自动化研究所研究员、国科大博士生导师。孙鑫本人具名列为博士联合导师。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "宋博文 · Bowen Song",
+        "原文署蚂蚁、使用企业邮箱；同一团队的 KBQA-R1 初版具名介绍其 2017 年入职并任资深算法工程师，2026 年 10 月另篇仍署蚂蚁。",
+        "https://arxiv.org/html/2512.10999v1#S7"
+      ],
+      "student": [
+        "孙鑫 · Xin Sun",
+        "2022 年起在中国科学技术大学攻读博士，与中科院自动化所联合培养；2024 年 11 月进入蚂蚁机器智能部实习，2026 年 5 月为 Ant Star 研究实习生。",
+        "https://sunxin000.github.io/"
+      ],
+      "title": "EviSD: Evidence-Conditioned Self-Distillation for Search-Augmented Agents",
+      "short": "EviSD",
+      "date": "2026-08-02",
+      "venue": "arXiv 预印本",
+      "area": "搜索智能体、强化学习",
+      "paper": "https://arxiv.org/html/2608.01359v1",
+      "evidence": "孙鑫在蚂蚁实习经历内具名链接 EviSD。8 月 2 日的预印本列孙鑫为共同第一作者，也列博士联合导师王亮与用蚂蚁企业邮箱署名的宋博文。前一篇 2025 年 12 月研究原稿的作者简介给出宋博文在蚂蚁的入职年份和正式岗位。",
+      "advising": [
+        "博士联合培养",
+        "孙鑫在履历教育栏明确列为 2022 年起的中科大控制科学与工程博士联合培养（CASIA），具名王亮、刘强为导师。中科大 VIM 实验室记录他自 2022 年 9 月在自动化系就读，同期中科大博士招生表把王亮列为 081104 校外导师。",
+        "https://sunxin000.github.io/files/resume.pdf"
+      ],
+      "extra": [
+        [
+          "ICLR 正式版同步的企业署名",
+          "https://openreview.net/pdf/9b472ed0671cf9a92c141bb68003a9dc4ee47ff9.pdf"
+        ],
+        [
+          "论文正式题录、出版时间及原稿",
+          "https://arxiv.org/abs/2608.01359"
+        ],
+        [
+          "论文程序仓库",
+          "https://github.com/JiananXie/EviSD"
+        ],
+        [
+          "中科大实验室：2022 年加入时的研究生学籍",
+          "https://vim.ustc.edu.cn/2021/0704/c27141a571242/page.htm"
+        ],
+        [
+          "中科大研究生院：王亮为对应学科校外博导（研究期间）",
+          "https://dslx.ustc.edu.cn/?menu=expertlist&year=2025"
+        ],
+        [
+          "2026-10 公开原文确认宋博文仍署蚂蚁",
+          "https://arxiv.org/html/2610.41153v1"
+        ]
+      ]
     }
   ]
 };
