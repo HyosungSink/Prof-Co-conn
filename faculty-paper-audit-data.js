@@ -54336,18 +54336,283 @@ const facultyPaperAudits = {
       "https://fukunyin.github.io/",
       "https://www.skicyyu.org/",
       "https://arxiv.org/html/2311.17618v3",
-      "https://shapegpt.github.io/"
+      "https://shapegpt.github.io/",
+      "https://eetchen.github.io/publications/",
+      "https://dblp.dagstuhl.de/pid/69/510-3.html",
+      "https://eetchen.github.io/teams/",
+      "https://ch3cook-fdu.github.io/resume/Sijin_Chen_Resume_20250803.pdf",
+      "https://www.biaojiang.tech/cv_biaojiang_240530.pdf",
+      "https://arxiv.org/html/2309.02999v1",
+      "https://arxiv.org/html/2506.24086v1",
+      "https://chenxin.tech/",
+      "https://jiakangyuan.github.io/",
+      "https://peyton-chen.github.io/homepage/",
+      "https://fansarah.github.io/publications",
+      "https://openreview.net/pdf?id=DCxsuBXHvx",
+      "https://arxiv.org/abs/2603.19571",
+      "https://aclanthology.org/2026.acl-long.578.pdf",
+      "https://jiakangyuan.github.io/publications/",
+      "https://arxiv.org/abs/2309.10527",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33173/35328",
+      "https://www.computer.org/csdl/journal/tp/5555/01/11073087/28bF1MrYhOg",
+      "https://arxiv.org/abs/2412.05983",
+      "https://arxiv.org/abs/2312.10763",
+      "https://arxiv.org/abs/2506.24086",
+      "https://arxiv.org/abs/2309.02999",
+      "https://arxiv.org/abs/2311.18651",
+      "https://arxiv.org/abs/2506.03065",
+      "https://arxiv.org/abs/2510.25590",
+      "https://doi.org/10.2139/ssrn.5009229",
+      "https://arxiv.org/abs/2505.21327",
+      "https://arxiv.org/abs/2511.16786",
+      "https://arxiv.org/abs/2410.06245",
+      "https://arxiv.org/abs/2309.05527",
+      "https://arxiv.org/abs/2509.24285",
+      "https://arxiv.org/abs/2412.11863",
+      "https://arxiv.org/abs/2412.09912",
+      "https://jiangbiao.tech/"
     ],
     "papers": [
       {
-        "title": "ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model",
         "year": 2023,
-        "url": "https://arxiv.org/abs/2311.17618",
+        "title": "ShapeGPT: 3D Shape Generation with a Unified Multi-modal Language Model",
+        "url": "https://doi.org/10.1109/TMM.2025.3535389",
         "outcome": "confirmed",
-        "note": "2023 年 11 月首稿、12 月修订为同篇。修订稿具名指第一作者尹富坤在腾讯实习研究；本人说明在读博士导师陈涛并列腾讯研究实习阶段，企业作者俞刚的公开任职资料与时段一致。"
+        "note": "尹富坤本人具名博士导师陈涛；首稿 2023-11-29，arXiv v3 明确本人在腾讯 PCG 实习时完成此项；复旦陈涛与腾讯 PCG 俞刚正式共署。IEEE 期刊版和预印本为同一工作。"
+      },
+      {
+        "year": 2023,
+        "title": "MotionGPT: Human Motion as a Foreign Language",
+        "url": "https://doi.org/10.52202/075280-0880",
+        "outcome": "confirmed",
+        "note": "NeurIPS 2023 正式原文具名江彪在腾讯 PCG 实习完成；其硕士期间简历和实验室名单核实陈涛指导，腾讯研究员俞刚在本篇署名。"
+      },
+      {
+        "year": 2024,
+        "title": "MeshXL: Neural Coordinate Field for Generative 3D Foundation Models",
+        "url": "https://doi.org/10.52202/079017-3080",
+        "outcome": "confirmed",
+        "note": "NeurIPS 2024 正式版具名陈思锦在腾讯 PCG 实习完成本篇；学生本人简历按工作逐项列 MeshXL、腾讯实习与复旦陈涛硕士导师。腾讯俞刚同篇署名。"
+      },
+      {
+        "year": 2023,
+        "title": "A Large-Scale Outdoor Multi-Modal Dataset and Benchmark for Novel View Synthesis and Implicit Scene Reconstruction",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_A_Large-Scale_Outdoor_Multi-Modal_Dataset_and_Benchmark_for_Novel_View_ICCV_2023_paper.pdf",
+        "outcome": "lead",
+        "note": "论文及正式项目均有腾讯 PCG，尹富坤为复旦及腾讯双署且本人列同期实习；仍未找到写明他在腾讯实习具体负责本篇的脚注或项目记录。"
+      },
+      {
+        "year": 2023,
+        "title": "Point Diffusion Implicit Function for Large-scale Scene Neural Representation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/0073cc73e1873b35345209b50a3dab66-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "复旦陈涛、共一尹富坤及腾讯 PCG 俞刚、陈昕、刘文同篇。正式 PDF 没有具名实习脚注，尚不能把尹的同期腾讯实习具体归到本论文。"
+      },
+      {
+        "year": 2023,
+        "title": "PM-INR: Prior-Rich Multi-Modal Implicit Large-Scale Scene Neural Representation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28481",
+        "outcome": "lead",
+        "note": "AAAI 论文列陈涛、尹富坤及腾讯 PCG 的刘文、陈昕、俞刚；尹只署复旦，尚未找到材料将他同期腾讯实习对应到 PM-INR。"
+      },
+      {
+        "year": 2023,
+        "title": "M3DBench: Towards Omni 3D Assistant with Interleaved Multi-modal Instructions",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07509.pdf",
+        "outcome": "lead",
+        "note": "ECCV 版与 2312.10763 首稿为同一基准；李明升、陈思锦、尹富坤仅署复旦，俞刚等署腾讯。陈思锦公开腾讯实习开始于首稿之后，尹虽同期实习仍欠本篇的具体项目证明。"
+      },
+      {
+        "year": 2025,
+        "title": "MotionGPT3: Human Motion as a Second Modality",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1551c01d7a3d0bf21e2518331e9f7074-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "ICLR 正式版列既有复旦指导关系的江彪、陈涛以及字节罗林杰、陈昕。江彪本人列相符实习与企业指导，但首稿与正式版均无具名本篇项目的实习脚注或贡献说明。"
+      },
+      {
+        "year": 2023,
+        "title": "DCNet: Large-Scale Point Cloud Semantic Segmentation With Discriminative and Efficient Feature Aggregation",
+        "url": "https://doi.org/10.1109/TCSVT.2023.3239541",
+        "outcome": "lead",
+        "note": "期刊原文和本人书目确认尹富坤、陈涛、俞刚作者；尹有当期腾讯实习。公开材料尚未核到本篇是该生的腾讯实习项目，2025 仅勘误同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "End-to-End 3D Dense Captioning With Vote2Cap-DETR",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_End-to-End_3D_Dense_Captioning_With_Vote2Cap-DETR_CVPR_2023_paper.html",
+        "outcome": "lead",
+        "note": "CVPR 正式稿陈涛、陈思锦署复旦，企业作者陈昕、俞刚署腾讯 PCG。陈思锦 CV 实习始于 2024 年 1 月，晚于本篇 2023 年发布；无其他学生的该企业项目依据。"
+      },
+      {
+        "year": 2023,
+        "title": "Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3387838",
+        "outcome": "lead",
+        "note": "TPAMI 版在初版基础上有新模型；原稿 2023-09 已公开，陈思锦与李明升只署复旦、俞刚陈昕署腾讯。原页另明写新加坡 A*STAR 指导，未将陈思锦的腾讯实习对应到本文。"
+      },
+      {
+        "year": 2023,
+        "title": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_LL3DA_Visual_Interactive_Instruction_Tuning_for_Omni-3D_Understanding_Reasoning_and_CVPR_2024_paper.html",
+        "outcome": "lead",
+        "note": "CVPR 与 2311.18651 首稿同一作品；腾讯陈昕、俞刚同署。陈思锦的首次腾讯实习晚于 2023-11 首稿，李明升也仅显复旦，公开资料未确证哪位学生在腾讯参与此篇。"
+      },
+      {
+        "year": 2024,
+        "title": "3DET-Mamba: Causal Sequence Modelling for End-to-End 3D Object Detection",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/547108084f0c2af39b956f8eadb75d1b-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "同一 NeurIPS 论文的 PDF 题名副标题不同，陈思锦在正式原文复旦/腾讯 PCG 双署、陈昕腾讯署名、陈涛通讯；陈思锦的实习简历在 Tencent 项下明确写 MeshXL，3DET-Mamba 另列。尚未找到把其实习活动具体关联到本篇的原文脚注或独立项目材料。"
+      },
+      {
+        "year": 2024,
+        "title": "Instruct Pix-to-3D: Instructional 3D object generation from a single image",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231224009275",
+        "outcome": "lead",
+        "note": "期刊列陈涛与尹富坤仅署复旦，陈昕腾讯署名；公开期刊资料未核到尹或另一名陈涛在读学生在该公司参与本项。"
+      },
+      {
+        "year": 2024,
+        "title": "Lightweight Model Pre-Training via Language Guided Knowledge Distillation",
+        "url": "https://arxiv.org/html/2406.11689v1",
+        "outcome": "lead",
+        "note": "TMM 同题正式出版（26 卷 10720—10730 页）。原文具名李明升、张林、朱明祯为复旦，黄子龙及俞刚署腾讯 GY-Lab；没有将三名学生中任何人关联到该篇的腾讯实习或合作项目。"
+      },
+      {
+        "year": 2025,
+        "title": "DeRS: Towards Extremely Efficient Upcycled Mixture-of-Experts Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DeRS_Towards_Extremely_Efficient_Upcycled_Mixture-of-Experts_Models_CVPR_2025_paper.html",
+        "outcome": "lead",
+        "note": "CVPR 正式原文同时列复旦陈涛及其组曹健健、张林，企业作者李保朴署百度美国；俞刚当时已署阶跃星辰。未核到哪位在读学生参与这一篇的百度工作，论文致谢仅列公共课题和复旦计算平台。"
+      },
+      {
+        "year": 2025,
+        "title": "Sparse-vDiT: Unleashing the Power of Sparse Attention to Accelerate Video Diffusion Transformers",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37287",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版陈鹏涛双署复旦和阶跃星辰、陈涛复旦/上海创智学院；陈鹏涛公开简历具名导师陈涛与阶跃星辰研究实习。该篇企业只有阶跃星辰，不在调查名单。"
+      },
+      {
+        "year": 2025,
+        "title": "FAVOR-Bench: A Comprehensive Benchmark for Fine-Grained Video Motion Understanding",
+        "url": "https://doi.org/10.52202/085713-4791",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版首稿一致地列复旦教师及学生；企业合著者为阶跃星辰，与范围内腾讯研究团队不同。未见本篇有范围内企业人员或学生企业项目。"
+      },
+      {
+        "year": 2025,
+        "title": "RegionE: Adaptive Region-Aware Generation for Efficient Image Editing",
+        "url": "https://arxiv.org/html/2510.25590v1",
+        "outcome": "no-evidence",
+        "note": "ICLR 已发正式版；首稿和正式原文列陈鹏涛、陈涛及阶跃星辰曾宪方、俞刚等。当前范围不含阶跃星辰，俞刚历史腾讯任职不能套到本篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Learnable Bi-directional Data Augmentation for few-shot cross-domain point cloud classification",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231225001584",
+        "outcome": "no-evidence",
+        "note": "已核 Neurocomputing 正式版及 SSRN 首稿；孙旭、张林、徐嘉豪、袁嘉康、陈涛均署复旦，作者贡献和可见资料无范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "A Scalable Multi-LLM Collaboration System with Retrieval-based Selection and Exploration-Exploitation-Driven Enhancement",
+        "url": "https://aclanthology.org/2026.acl-long.578/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版属于复旦、港中大、上海交大和上海人工智能实验室，虽出现多个商用模型作比较，未见范围内企业作者或研究。"
+      },
+      {
+        "year": 2026,
+        "title": "From Static Context to Calibrated Interactive RL: Mitigating Distribution Shift in Multi-turn Dialogue with Aligned Simulator",
+        "url": "https://arxiv.org/html/2605.26403v1",
+        "outcome": "no-evidence",
+        "note": "原稿确有袁嘉康及具名导师陈涛，论文署名只列复旦。袁嘉康主页显示 2026 年 2—4 月腾讯、5 月起阿里实习，但未将此文列为对应项目，且未核到企业作者参与。"
+      },
+      {
+        "year": 2025,
+        "title": "MME-Reasoning: A Broad-Spectrum Benchmark for Evaluating Logical Reasoning in MLLMs",
+        "url": "https://proceedings.mlr.press/v306/yuan26f.html",
+        "outcome": "no-evidence",
+        "note": "2025 年 MME-Reasoning 预印本与 ICML 正式版同一作品；袁嘉康本人列该期在上海人工智能实验室。原稿包含复旦、上海人工智能实验室、中科大、南京大学等，无学生参与具体目标企业项目。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Gemini-3-Pro: Revisiting LLM Routing and Aggregation at Scale",
+        "url": "https://arxiv.org/html/2601.01330v1",
+        "outcome": "no-evidence",
+        "note": "作者单位为复旦、上海人工智能实验室、香港中文大学、中国科大和西北工大等；Gemini 为比较模型，无范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "FRISM: Fine-Grained Reasoning Injection via Subspace-Level Model Merging for Vision–Language Models",
+        "url": "https://arxiv.org/html/2601.21187v1",
+        "outcome": "no-evidence",
+        "note": "原文列复旦、港中大、上海人工智能实验室、哈工大、中山大学和上海创智学院；使用 Qwen 等开源模型并不说明对应企业参加论文研究。"
+      },
+      {
+        "year": 2025,
+        "title": "PaceLLM: Brain-Inspired Large Language Models for Long-Context Understanding",
+        "url": "https://arxiv.org/html/2506.17310v1",
+        "outcome": "no-evidence",
+        "note": "原文附作者机构和通讯联系；复旦、港中大及上海人工智能实验室参与，未见范围内企业共署或项目。"
+      },
+      {
+        "year": 2025,
+        "title": "Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Revisiting_Multimodal_KV_Cache_Compression_A_Frequency-Domain-Guided_Outlier-KV-Aware_Approach_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "同一 FlashCache 工作有首稿 2511.16786。正式文章与首稿无范围内企业作者；测试 Qwen2.5-VL 等模型不等同联合研究。"
+      },
+      {
+        "year": 2024,
+        "title": "HiSplat: Hierarchical 3D Gaussian Splatting for Generalizable Sparse-View Reconstruction",
+        "url": "https://arxiv.org/html/2410.06245v1",
+        "outcome": "no-evidence",
+        "note": "首稿与作者首页列复旦、上海人工智能实验室、浙江大学，陈涛同署；未见范围内企业正式员工或对应项目。"
+      },
+      {
+        "year": 2023,
+        "title": "ReSimAD: Zero-Shot 3D Domain Transfer for Autonomous Driving with Source Reconstruction and Target Simulation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/ffe44976d273c8e5bb4b9ae2ebe746e2-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "与 2023 首稿同篇，袁嘉康署复旦及上海人工智能实验室，陈涛复旦，另有北航及上海交大等。本人履历对应上海人工智能实验室自动驾驶实习；该机构不在企业范围。"
+      },
+      {
+        "year": 2025,
+        "title": "SCI-Verifier: Scientific Verifier with Thinking",
+        "url": "https://arxiv.org/html/2509.24285v1",
+        "outcome": "no-evidence",
+        "note": "原文作者机构为复旦、哈工大、电子科大、中国科大、清华、香港中文大学（深圳）及上海人工智能实验室等，无范围内企业人员。"
+      },
+      {
+        "year": 2026,
+        "title": "CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management",
+        "url": "https://arxiv.org/html/2603.19571v1",
+        "outcome": "no-evidence",
+        "note": "ECCV 2026 对应首稿列四名学生复旦未来信息创新学院，陈涛为复旦和上海创智学院；无范围内企业共研证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Training-Free Adaptive Diffusion with Bounded Difference Approximation Strategy",
+        "url": "https://arxiv.org/html/2410.09873v1",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2024 与 2410.09873 首稿为同一工作；机构是复旦、上海交大与上海人工智能实验室。袁嘉康对应当期上海人工智能实验室实习，非范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Breaking the Compression Ceiling: Data-Free Pipeline for Ultra-Efficient Delta Compression",
+        "url": "https://arxiv.org/html/2505.13563v1",
+        "outcome": "no-evidence",
+        "note": "原文复旦、哈工大、港中大和上海人工智能实验室联合署名，公开致谢和作者材料未列目标企业合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient and Faithful High-Resolution Image Editing with Sparse Cross-Resolution Denoising",
+        "url": "https://arxiv.org/html/2611.04416v1",
+        "outcome": "no-evidence",
+        "note": "首稿日期在截止日之前；原文陈涛和陈鹏涛为复旦，参与企业是阶跃星辰，未见范围内其他企业。"
       }
     ],
-    "note": "先从论文、学生和企业公开资料核实 ShapeGPT；其他书目仍待逐篇查考。"
+    "note": "已从陈涛本人书目、合作作者书目和公开原文核对 34 篇工作。ShapeGPT、MotionGPT、MeshXL 均有同篇企业实习、导师与企业员工证据。其余公开书目仍在核查。"
   },
   "FxVmazsAAAAJ": {
     "from": "2023-01-01",

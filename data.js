@@ -45093,6 +45093,108 @@ const survey = {
         "西交研究生院 2026 年优秀硕士学位论文名单第 2026101 项把导师裴红斌与学生海竞昕一同具名。",
         "https://gs.xjtu.edu.cn/info/1187/11574.htm"
       ]
+    },
+    {
+      "company": "腾讯",
+      "team": "腾讯 · PCG",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "陈涛 · Tao Chen",
+        "复旦大学教授，论文通讯作者，与其具名学生共同署名。",
+        "https://fit.fudan.edu.cn/Data/View/2989"
+      ],
+      "employee": [
+        "俞刚 · Gang Yu",
+        "同篇腾讯作者，曾任腾讯研究总监。",
+        "https://www.skicyyu.org/"
+      ],
+      "id": "tencent-meshxl-fudan-tao-chen",
+      "student": [
+        "陈思锦 · Sijin Chen",
+        "2021-09 至 2024-06 在复旦攻读硕士，2024 年 1 月起赴腾讯做 3D 生成研究，NeurIPS 正式版明示在该实习期间完成论文研究。",
+        "https://ch3cook-fdu.github.io/"
+      ],
+      "advising": [
+        "在读硕士导师",
+        "本人履历具名陈涛为复旦导师，实验室校友页对应同一毕业时间，二人同篇共同署名。",
+        "https://eetchen.github.io/teams/"
+      ],
+      "area": "三维网格生成与多模态基础模型",
+      "title": "MeshXL: Neural Coordinate Field for Generative 3D Foundation Models",
+      "short": "MeshXL",
+      "date": "2024-05-31",
+      "venue": "NeurIPS 2024",
+      "paperId": "10.52202/079017-3080",
+      "paper": "https://papers.nips.cc/paper_files/paper/2024/hash/b0131b6ee02a00b03fc3320176fec8f5-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式版具名学生的腾讯科研实习脚注",
+          "https://papers.nips.cc/paper/2024/file/b0131b6ee02a00b03fc3320176fec8f5-Paper-Conference.pdf"
+        ],
+        [
+          "同篇首稿日期",
+          "https://arxiv.org/abs/2405.20853"
+        ],
+        [
+          "复旦学院团队的项目书目",
+          "https://fit.fudan.edu.cn/data/List/zzzn"
+        ]
+      ],
+      "evidence": "NeurIPS 正式版首页说明第一作者陈思锦在腾讯 PCG 实习时完成该研究，同页列复旦导师陈涛为通讯作者及腾讯作者俞刚。陈思锦本人列复旦硕士就读起止时间与陈涛导师，2024 年 5 月底首稿在其硕士毕业前；论文晚些时候正式刊出。"
+    },
+    {
+      "company": "腾讯",
+      "team": "腾讯 · PCG",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "陈涛 · Tao Chen",
+        "复旦大学教授，论文通讯作者，与其具名学生共同署名。",
+        "https://fit.fudan.edu.cn/Data/View/2989"
+      ],
+      "employee": [
+        "俞刚 · Gang Yu",
+        "同篇腾讯作者，曾任腾讯研究总监。",
+        "https://www.skicyyu.org/"
+      ],
+      "id": "tencent-motiongpt-fudan-tao-chen",
+      "student": [
+        "江彪 · Biao Jiang",
+        "2022 年起在复旦攻读硕士，2023 年 4 月起在腾讯实习；正式版脚注明确这项工作在其腾讯 PCG 实习期间完成。",
+        "https://jiangbiao.tech/"
+      ],
+      "advising": [
+        "在读硕士导师",
+        "本人当期履历列陈涛为导师；陈涛实验室官方名单列江彪为硕士生，并在本篇担任通讯作者。",
+        "https://eetchen.github.io/teams/"
+      ],
+      "area": "三维人体动作生成与多模态大模型",
+      "title": "MotionGPT: Human Motion as a Foreign Language",
+      "short": "MotionGPT",
+      "date": "2023-06-26",
+      "venue": "NeurIPS 2023",
+      "paperId": "10.52202/075280-0880",
+      "paper": "https://papers.nips.cc/paper_files/paper/2023/hash/3fbf0c1ea0716c03dea93bb6be78dd6f-Abstract-Conference.html",
+      "extra": [
+        [
+          "NeurIPS 具名实习脚注",
+          "https://papers.nips.cc/paper_files/paper/2023/file/3fbf0c1ea0716c03dea93bb6be78dd6f-Paper-Conference.pdf"
+        ],
+        [
+          "首稿日期",
+          "https://arxiv.org/abs/2306.14795"
+        ],
+        [
+          "复旦与腾讯 PCG 项目页",
+          "https://motion-gpt.github.io/"
+        ],
+        [
+          "作者 2024 年留存履历，含复旦导师与腾讯实习",
+          "https://www.biaojiang.tech/cv_biaojiang_240530.pdf"
+        ]
+      ],
+      "evidence": "正式文章首页直接将这项研究联系到复旦硕士生江彪的腾讯 PCG 实习，并署名其复旦导师陈涛及腾讯研究员俞刚。首次公开为 2023-06-26，按原脚注和同期记录确认，不与其他同名论文或后续 MotionGPT3 合并。"
     }
   ]
 };
