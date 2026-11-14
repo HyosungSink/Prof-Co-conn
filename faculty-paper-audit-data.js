@@ -53480,7 +53480,19 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/31/10489.html",
       "https://labndig.fudan.edu.cn/people/wei-zhongyu/",
       "https://imnearth.github.io//research/",
-      "https://libertfan.github.io/"
+      "https://libertfan.github.io/",
+      "https://haoyuk.github.io/",
+      "https://reneeye.github.io/assets/docs/cv.pdf",
+      "https://orcid.org/0009-0000-2488-2683",
+      "https://xymou.github.io/",
+      "https://xymou.github.io/files/XINYI_CV_EN.pdf",
+      "https://siyuanwangw.github.io/",
+      "https://ruifengyuan.github.io/",
+      "https://polyunlp.github.io/alumni",
+      "https://deepgenteam.github.io/",
+      "https://github.com/FudanDISC/SocioVerse",
+      "https://github.com/ljcleo/moe-lrc",
+      "https://arxiv.org/html/2501.14225v1"
     ],
     "papers": [
       {
@@ -53601,9 +53613,226 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2310.15205",
         "outcome": "no-evidence",
         "note": "原文单位只有复旦及华中科技大学的各院系/研究机构，项目研究金融应用，但没有具名目标企业同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "MedReaMM: Evaluating Large Multimodal Models on Expert-Level Clinical Diagnostic Synthesis",
+        "url": "https://aclanthology.org/2026.findings-emnlp.881/",
+        "outcome": "no-evidence",
+        "note": "作者署华中科大、复旦和江苏省人民医院等；临床任务未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "OViP: Online Vision-Language Preference Learning with Hallucination-Targeted Negatives",
+        "url": "https://aclanthology.org/2026.findings-emnlp.674/",
+        "outcome": "lead",
+        "note": "正式版王建翔和曾诚署字节，魏忠钰及复旦学生同篇；已核学生李泽君公开的企业经历对应阿里另一项目，未找到同篇在字节实研学生。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Isolated Behaviors: Hierarchical User Modeling for LLM Personalization",
+        "url": "https://aclanthology.org/2026.findings-emnlp.259/",
+        "outcome": "no-evidence",
+        "note": "正式版牟心怡仍署复旦，明确具名梁王和刘晓友的实习单位是 OPPO；该企业不在范围，不能按题录的腾讯机构处理。"
+      },
+      {
+        "year": 2026,
+        "title": "InterviewBench: Benchmarking Large Language Models as Interviewers",
+        "url": "https://aclanthology.org/2026.findings-emnlp.2141/",
+        "outcome": "no-evidence",
+        "note": "面试智能体评测正文的作者都署复旦大数据学院；未署目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "RIDGE: Region-Informed Derivative-Guided Evidence Selection for Long Video Understanding",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1813/",
+        "outcome": "no-evidence",
+        "note": "作者署华中科大、新加坡国立和复旦；不是与同名公司的合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Revising Context, Shifting Simulated Stance: Auditing LLM-Based Stance Simulation in Online Discussions",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1600/",
+        "outcome": "no-evidence",
+        "note": "正式版署复旦、罗切斯特、新加坡管理大学及上海创智学院；作者并无目标企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Autoregressive Semantic Visual Reconstruction Helps VLMs Understand Better",
+        "url": "https://aclanthology.org/2026.findings-acl.1900/",
+        "outcome": "no-evidence",
+        "note": "正式版为复旦、上海创智学院、西湖、浙大、上海人工智能实验室与南加州大学；图像重建实验未指目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "Listen, Pause, and Reason: Toward Perception-Grounded Hybrid Reasoning for Audio Understanding",
+        "url": "https://aclanthology.org/2026.findings-acl.1776/",
+        "outcome": "no-evidence",
+        "note": "正式版单位跨上海人工智能实验室、北大、港中大及复旦，未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Strong Reasoning Isn’t Enough: Evaluating Evidence Elicitation in Interactive Diagnosis",
+        "url": "https://aclanthology.org/2026.findings-acl.1372/",
+        "outcome": "no-evidence",
+        "note": "正式版龙卓涵、魏忠钰等署复旦，未见所列目标企业；学生后来实习不直接对应本文。"
+      },
+      {
+        "year": 2026,
+        "title": "LifeSim: Long-Horizon User Life Simulator for Personalized Assistant Evaluation",
+        "url": "https://aclanthology.org/2026.findings-acl.1022/",
+        "outcome": "no-evidence",
+        "note": "生活模拟器正式版各单位为复旦下属学院及研究机构；没有企业合著。"
+      },
+      {
+        "year": 2026,
+        "title": "ObGynLongBench: Revealing the Evidence-to-EHR Gap in Longitudinal EHR Decision-Making",
+        "url": "https://aclanthology.org/2026.emnlp-main.685/",
+        "outcome": "no-evidence",
+        "note": "妇产科临床决策正式版为复旦附属医院和复旦、华中科大院系；无范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "LegalWorld: A Life-Cycle Interactive Environment for Legal Agents",
+        "url": "https://aclanthology.org/2026.emnlp-main.390/",
+        "outcome": "no-evidence",
+        "note": "法律智能体正式版只列复旦、上海创智学院和西北政法；未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "PersonaDual: Balancing Personalization and Objectivity via Adaptive Reasoning",
+        "url": "https://aclanthology.org/2026.emnlp-main.355/",
+        "outcome": "no-evidence",
+        "note": "论文实际署复旦、上海创智学院和 OPPO；OPPO 不在企业范围。牟心怡会议信息中的腾讯标签不是本篇研究机构。"
+      },
+      {
+        "year": 2026,
+        "title": "CURP: Codebook-based Continuous User Representation for Personalized Generation with LLMs",
+        "url": "https://aclanthology.org/2026.emnlp-main.340/",
+        "outcome": "no-evidence",
+        "note": "论文实际只署复旦及上海创智学院；不沿用目录中个别作者的腾讯资料。"
+      },
+      {
+        "year": 2026,
+        "title": "HyLaT: Efficient Multi-Agent Communication via Hybrid Latent–Text Protocol",
+        "url": "https://aclanthology.org/2026.emnlp-main.181/",
+        "outcome": "no-evidence",
+        "note": "正式 PDF 署复旦、港中大、伦敦国王学院、图灵研究所及上海创智学院，不能把会务中腾讯标签当作同篇署名。"
+      },
+      {
+        "year": 2026,
+        "title": "CommunityBench: Benchmarking Community-Level Alignment across Diverse Groups and Tasks",
+        "url": "https://aclanthology.org/2026.emnlp-main.1498/",
+        "outcome": "no-evidence",
+        "note": "Jiayu Lin 与魏忠钰正式原文只署复旦和上海创智学院；未见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Ready Jurist One: Benchmarking Language Agents for Legal Intelligence in Dynamic Environments",
+        "url": "https://aclanthology.org/2026.acl-long.471/",
+        "outcome": "no-evidence",
+        "note": "本篇具名联合单位是蜜度科技、复旦等，蜜度科技不在目标企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Simple-VGC: Enhancing Visual Grounding in Multimodal Reasoning via Adaptive Tool Composition",
+        "url": "https://aclanthology.org/2026.acl-long.223/",
+        "outcome": "lead",
+        "note": "陈强龙署阿里，魏忠钰、李泽君等署复旦。学生公开履历的阿里项目指向 MoVT，尚无任一共同学生在阿里实际参与本篇视觉定位项目的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Doc-V^*: Coarse-to-Fine Interactive Visual Reasoning for Multi-Page Document VQA",
+        "url": "https://aclanthology.org/2026.acl-long.2129/",
+        "outcome": "no-evidence",
+        "note": "企业合著方为小米 MiLM Plus，与华中科大、复旦共同署名；小米不在范围。"
+      },
+      {
+        "year": 2026,
+        "title": "CT-FineBench: A Diagnostic Fidelity Benchmark for Fine-Grained Evaluation of CT Report Generation",
+        "url": "https://aclanthology.org/2026.acl-long.2038/",
+        "outcome": "lead",
+        "note": "数位作者署阿里达摩院，第一作者袁瑞峰也联署复旦但公开履历显示较早已取得港理工博士；不足以认定其为复旦在读学生。另查具名在读学生及正式指导。"
+      },
+      {
+        "year": 2026,
+        "title": "SpeechMedAssist: Efficiently and Effectively Adapting Speech Language Models for Medical Consultation",
+        "url": "https://aclanthology.org/2026.acl-long.1428/",
+        "outcome": "no-evidence",
+        "note": "正式作者单位为复旦、上海创智学院、北大与华中科大；没有范围内企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Interleaved Latent Visual Reasoning with Selective Perceptual Modeling",
+        "url": "https://aclanthology.org/2026.acl-long.1351/",
+        "outcome": "no-evidence",
+        "note": "视觉推理正式版为中国地大、复旦、浙大、上交、创智及南加大作者；无范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models",
+        "url": "https://aclanthology.org/2025.naacl-long.318/",
+        "outcome": "no-evidence",
+        "note": "金融问答项目有平安科技作者，与财大、UCI、复旦合著；企业不在范围。"
+      },
+      {
+        "year": 2024,
+        "title": "AgentSense: Benchmarking Social Intelligence of Language Agents through Interactive Scenarios",
+        "url": "https://aclanthology.org/2025.naacl-long.257/",
+        "outcome": "lead",
+        "note": "叶蓉自 2020 年任字节研究员并同篇署字节，导师魏忠钰与在读旷皓予及牟心怡同署。未找到具名学生在字节做本篇的证据；MaKTO 脚注不能移用。"
+      },
+      {
+        "year": 2025,
+        "title": "Multi-Agent Simulator Drives Language Models for Legal Intensive Interaction",
+        "url": "https://aclanthology.org/2025.findings-naacl.365/",
+        "outcome": "no-evidence",
+        "note": "律师模拟工作正式版署复旦、南加大和西北政法；文中 Company 为模拟场景，不是作者企业。"
+      },
+      {
+        "year": 2025,
+        "title": "SFMSS: Service Flow aware Medical Scenario Simulation for Conversational Data Generation",
+        "url": "https://aclanthology.org/2025.findings-naacl.259/",
+        "outcome": "no-evidence",
+        "note": "正式版皆为复旦相关单位，医学模拟没有范围内企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "EcoLANG: Efficient and Effective Agent Communication Language Induction for Social Simulation",
+        "url": "https://aclanthology.org/2025.findings-emnlp.284/",
+        "outcome": "lead",
+        "note": "学生牟心怡明确由魏忠钰指导；原文小红书作者严玲与胡尧需另核姓名以外信息，未见牟心怡在小红书做该篇的具名证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Word Form Matters: LLMs’ Semantic Reconstruction under Typoglycemia",
+        "url": "https://aclanthology.org/2025.findings-acl.866/",
+        "outcome": "no-evidence",
+        "note": "正式版作者仅署 MBZUAI 和复旦；讨论商业模型不等于合著。"
+      },
+      {
+        "year": 2025,
+        "title": "HAF-RM: A Hybrid Alignment Framework for Reward Model Training",
+        "url": "https://aclanthology.org/2025.acl-long.924/",
+        "outcome": "no-evidence",
+        "note": "正式版作者署复旦、南加大与宁波东方理工；未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Activating Distributed Visual Region within LLMs for Efficient and Effective Vision-Language Training and Inference",
+        "url": "https://aclanthology.org/2025.acl-long.1484/",
+        "outcome": "lead",
+        "note": "论文范智昊署阿里，首作王思远当时署南加大，其他在读作者署复旦/中大。李泽君所述阿里实习始于首稿之后；未找到学生阿里做该篇。"
+      },
+      {
+        "title": "Multi-agent KTO: Enhancing Strategic Interactions of Large Language Model in Language Game",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2501.14225",
+        "outcome": "confirmed",
+        "note": "2025-01-24 首稿具名旷皓予在字节完成本项实习研究，本人在校书目证明复旦学籍和魏忠钰作为硕士具名导师。企业正式员工叶蓉是同篇第一作者；NeurIPS 同篇归并。"
       }
     ],
-    "note": "复旦大数据学院魏忠钰：首批交叉 ACL Anthology、DBLP、课题组介绍及学生/企业作者公开书目，逐篇核查同署、实习脚注与公开履历。已确认的两篇之外，单靠双署或课题组合作保留线索。DBLP 有更多收录，继续补核。"
+    "note": "已将首发预印本和正式版去重，逐篇查核作者、企业与具名项目。项目证据不足的保持线索；仍有期刊、会议书目待核。"
   },
   "PuZGODYAAAAJ": {
     "from": "2023-01-01",

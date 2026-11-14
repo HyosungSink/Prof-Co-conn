@@ -44938,6 +44938,59 @@ const survey = {
         "徐诗瑶公开简历列出北大硕士阶段直接由连宙辉指导，论文具名连宙辉为通讯作者。",
         "https://xusy2333.com/paper/ShiyaoXU_CV_JAN_2025.pdf"
       ]
+    },
+    {
+      "id": "bytedance-makto-fudan-wei",
+      "company": "字节跳动",
+      "team": "字节跳动 · Seed",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "魏忠钰 · Zhongyu Wei",
+        "复旦大学大数据学院博士生导师，与其指导的复旦硕士旷皓予共同署名。",
+        "http://www.fudan-disc.com/people/zywei"
+      ],
+      "employee": [
+        "叶蓉 · Rong Ye",
+        "2020 年 7 月起任字节跳动研发工程师；论文第一作者。",
+        "https://reneeye.github.io/assets/docs/cv.pdf"
+      ],
+      "student": [
+        "旷皓予 · Haoyu Kuang",
+        "复旦大学大数据学院硕士生，作者版明确写他在字节跳动实习时完成同一项工作。",
+        "https://haoyuk.github.io/"
+      ],
+      "advising": [
+        "在读硕士导师",
+        "旷皓予本人明确在复旦读硕士并由魏忠钰指导，个人书目列该篇。",
+        "https://haoyuk.github.io/"
+      ],
+      "area": "大语言模型",
+      "title": "Multi-agent KTO: Enhancing Strategic Interactions of Large Language Model in Language Game",
+      "short": "MaKTO",
+      "date": "2025-01-24",
+      "venue": "NeurIPS 2025",
+      "paperId": "arxiv:2501.14225",
+      "paper": "https://papers.nips.cc/paper_files/paper/2025/hash/9d276b0a087efdd2404f3295b26c24c1-Abstract-Conference.html",
+      "extra": [
+        [
+          "首稿，具名学生实习脚注",
+          "https://arxiv.org/html/2501.14225v1"
+        ],
+        [
+          "NeurIPS 正式论文",
+          "https://papers.nips.cc/paper_files/paper/2025/file/9d276b0a087efdd2404f3295b26c24c1-Paper-Conference.pdf"
+        ],
+        [
+          "企业第一作者书目，首稿与正式版同一成果",
+          "https://reneeye.github.io/research.html"
+        ],
+        [
+          "另一位在读作者的具名企业实习项目",
+          "https://ykzhang721.github.io/"
+        ]
+      ],
+      "evidence": "首稿具名脚注明确旷皓予和 Yikai Zhang在字节跳动实习期间参与完成该工作；NeurIPS 正式版同一组作者和技术，仍将旷皓予列为复旦与字节 Seed 双署，脚注不再写具体实习。旷皓予本人注明攻读复旦硕士时由本篇通讯作者魏忠钰指导。第一作者叶蓉的个人履历注明 2020 年 7 月起全职受聘字节；她与旷皓予是不同角色。首稿 2025-01-24，正式版与预印本合并。"
     }
   ]
 };
