@@ -6681,6 +6681,20 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "IEEE 2026-06-09 在线，出版社提交的八位作者单位均属武大，未见范围企业参与。"
+      },
+      {
+        "title": "Evolving from Lessons: Skill-Augmented Table Graph Reasoning for Operation-wise Table Question Answering",
+        "url": "https://arxiv.org/html/2607.22633v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "虽列入学校的 2027 ICDE 接收书目，但 2026 年已有公开预印本。原稿作者单位为武汉大学，没有具名范围企业参与。"
+      },
+      {
+        "title": "Beyond Static Snapshots: Dynamic Modeling and Forecasting of Group-Level Value Evolution with Large Language Models",
+        "url": "https://arxiv.org/html/2602.14043v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首版列武汉大学及中关村学院，并说明使用公开社会调查资料；没有具名范围企业作者。"
       }
     ],
     "note": "已逐篇核对部分工业推荐和数据系统成果；其他合著继续补证研究期学籍、校内指导与企业实研。"
@@ -18915,6 +18929,41 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "no-evidence",
         "note": "IEEE 提交的 Crossref 元数据列全体作者于武大计算机学院，未发现范围企业或同篇学生企业实研。"
+      },
+      {
+        "title": "Discrimination Matters: A Simple but Effective Method for Zero-Shot Relation Triplet Extraction",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-0378-9_2",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "Springer 作者表列华中农大、武大、港科大（广州）及湖北洪山实验室。未见范围企业同篇参与。"
+      },
+      {
+        "title": "大模型红队测试研究综述",
+        "url": "https://doi.org/10.11896/jsjkx.240400190",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "《计算机科学》2025 年第 1 期载包泽芃和钱铁云；原刊书目与武大教师书目相符，未发现具名目标企业或同项实研。"
+      },
+      {
+        "title": "Harmonizing Safety and Reasoning: A Principle-Guided Alignment Framework for Large Reasoning Models",
+        "url": "https://doi.org/10.2139/ssrn.7536971",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "SSRN 9 月预印本列武大和南开大学，多数单位可核；部分作者单位未提交，当前公开材料未发现范围企业及同项学生参与。"
+      },
+      {
+        "title": "Evolving from Lessons: Skill-Augmented Table Graph Reasoning for Operation-wise Table Question Answering",
+        "url": "https://arxiv.org/html/2607.22633v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "虽列入学校的 2027 ICDE 接收书目，但 2026 年已有公开预印本。原稿作者单位为武汉大学，没有具名范围企业参与。"
+      },
+      {
+        "title": "Beyond Static Snapshots: Dynamic Modeling and Forecasting of Group-Level Value Evolution with Large Language Models",
+        "url": "https://arxiv.org/html/2602.14043v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首版列武汉大学及中关村学院，并说明使用公开社会调查资料；没有具名范围企业作者。"
       }
     ],
     "note": "已逐篇核实学校公开论文及已复核的 ORCID、出版方和会议书目条目；仍在对照全期书目。两篇卷期为 2023 的 IEEE 文章首次公开在 2022，未计入。"
@@ -39726,7 +39775,9 @@ const facultyPaperAudits = {
       "https://s4plus.ustc.edu.cn/2024/0926/c17199a655169/page.htm",
       "https://patents.google.com/patent/CN118378613A/zh",
       "https://ailab.hkust-gz.edu.cn/group.html",
-      "https://chaowang-ustc.github.io/"
+      "https://chaowang-ustc.github.io/",
+      "https://faculty.ustc.edu.cn/zhangyanyong/zh_CN/zdylm/1017617/list/index.htm",
+      "https://zhangsha1024.github.io/"
     ],
     "papers": [
       {
@@ -39821,11 +39872,11 @@ const facultyPaperAudits = {
         "note": "IJCAI 正式版为中科大团队的答案集规划。原文和作者题录未显示目标企业正式员工或学生在相应企业完成该研究。"
       },
       {
-        "year": 2025,
+        "year": 2026,
         "title": "Killing Two Birds with One Stone: A Spatio-temporal Prompt for the Inductive Traffic Extrapolation",
         "url": "https://doi.org/10.1007/978-981-95-3830-0_12",
         "outcome": "lead",
-        "note": "正式 DASFAA 题名与唐志鹏简历所用 Spatio-Temporal Extrapolation 对应。他本人列张燕咏为硕士导师；已见合作者有百度任职，但该文所对应的单位及唐志鹏或其他学生的同项企业实研还需要独立材料。"
+        "note": "2025 届 DASFAA，Springer 正式卷在 2026 年出版；正式题名与唐志鹏简历所用 Spatio-Temporal Extrapolation 对应。他本人列张燕咏为硕士导师；已见合作者有百度任职，但该文所对应的单位及唐志鹏或其他学生的同项企业实研还需要独立材料。"
       },
       {
         "year": 2025,
@@ -39910,6 +39961,97 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3575693.3575737",
         "outcome": "no-evidence",
         "note": "校方组页、ACM ASPLOS 作者名单与首稿 2211.03578 一致。2022 年 11 月已公开（采集 2023 年正式版），早于翟祎在华为任职；没有范围内企业作者。涉及同组专利不等于后来 TLM，分开记录。"
+      },
+      {
+        "year": 2026,
+        "title": "GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction",
+        "url": "https://arxiv.org/abs/2604.04331",
+        "outcome": "no-evidence",
+        "note": "作者稿列中科大、港中文和合肥国家科学中心人工智能研究院；未见本次企业同篇参与。与 PGOV3D 不是同一研究。"
+      },
+      {
+        "year": 2025,
+        "title": "OccMamba: Semantic Occupancy Prediction with State Space Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_OccMamba_Semantic_Occupancy_Prediction_with_State_Space_Models_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式首页为中科大、上海人工智能实验室、斯坦福、上海科技大学及合肥综合性国家科学中心合作，未见范围内企业正式员工。"
+      },
+      {
+        "year": 2025,
+        "title": "PGOV3D: Open-Vocabulary 3D Semantic Segmentation with Partial-to-Global Curriculum",
+        "url": "https://doi.org/10.1145/3746027.3755735",
+        "outcome": "no-evidence",
+        "note": "ACM 正式与 2506.23607 同篇。原文为学术团队多视角点云分割；未找到三方的企业研究材料。"
+      },
+      {
+        "year": 2025,
+        "title": "RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chu_RaCFormer_Towards_High-Quality_3D_Object_Detection_via_Query-based_Radar-Camera_Fusion_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正文仅中科大、阿德莱德大学和合肥综合性国家科学中心 AI 研究院；未找到范围企业的合著和在企经历。"
+      },
+      {
+        "year": 2024,
+        "title": "Agent3D-Zero: An Agent for Zero-shot 3D Understanding",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02877.pdf",
+        "outcome": "no-evidence",
+        "note": "ECCV 原文同篇有中科大张莎及其博士导师张燕咏，另署上海人工智能实验室和高校；2403.11835 为前稿，无范围企业人员。"
+      },
+      {
+        "year": 2024,
+        "title": "HVDistill: Transferring Knowledge from Images to Point Clouds via Unsupervised Hybrid-View Distillation",
+        "url": "https://doi.org/10.1007/s11263-023-01981-w",
+        "outcome": "no-evidence",
+        "note": "IJCV 2024-02-07 公布，2403.11817 同篇。张莎本人写明中科大导师张燕咏及曾与上海人工智能实验室合作，但该实验室不是所列企业；无范围企业同篇证据。"
+      },
+      {
+        "year": 2024,
+        "title": "LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion",
+        "url": "https://arxiv.org/abs/2409.14170",
+        "outcome": "no-evidence",
+        "note": "原文 Xingchen Li 中科大及商汤双署、张莎另署上海人工智能实验室，商汤不在本次范围；未发现本次企业员工同篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Map++: Towards User-Participatory Visual SLAM Systems with Efficient Map Expansion and Sharing",
+        "url": "https://doi.org/10.1145/3636534.3649386",
+        "outcome": "no-evidence",
+        "note": "ACM MobiCom 2024 作者稿 2411.02553 列 Wuyang Zhang 署 Meta，另有中科大和匹兹堡大学；Meta 不在企业范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Perception Helps Planning: Facilitating Multi-Stage Lane-Level Integration via Double-Edge Structures",
+        "url": "https://arxiv.org/abs/2407.11644",
+        "outcome": "no-evidence",
+        "note": "作者公开稿列全体中科大。张莎本人列论文 IEEE RA-L 已正式发表；未见该论文具名企业员工。与传感器融合方案 LFP 按两篇。"
+      },
+      {
+        "year": 2024,
+        "title": "PoIFusion: Multi-Modal 3D Object Detection via Fusion at Points of Interest",
+        "url": "https://arxiv.org/abs/2403.09212",
+        "outcome": "no-evidence",
+        "note": "当前公示 v2 为中科大、阿德莱德大学、上海人工智能实验室和穆罕默德·本·扎耶德人工智能大学，未见本次企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "See Through Vehicles: Fully Occluded Vehicle Detection with Millimeter Wave Radar",
+        "url": "https://doi.org/10.1145/3636534.3690658",
+        "outcome": "no-evidence",
+        "note": "ACM MobiCom 原文及大会节目共同列企业作者 Xiaoran Fan 署 Google，Google 不在范围；中科大学生和合肥研究院与之合作不计关系。"
+      },
+      {
+        "year": 2023,
+        "title": "Bi-LRFusion: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Bi-LRFusion_Bi-Directional_LiDAR-Radar_Fusion_for_3D_Dynamic_Object_Detection_CVPR_2023_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 原文机构为中科大、悉尼大学、科大讯飞和上海人工智能实验室。讯飞不在范围，其他作者未见范围内同期正式企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "CluB: Cluster Meets BEV for LiDAR-Based 3D Object Detection",
+        "url": "https://doi.org/10.52202/075280-1758",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2023 正式 PDF 头页只列中科大、上海人工智能实验室与阿德莱德大学。校方目录页把论文汇编年写作 2024，会议原文为 2023。"
       }
     ],
     "note": "逐篇对照校方、会议期刊、作者个人站与原始论文。已核部分工作；公开书目仍在补录核对。"
