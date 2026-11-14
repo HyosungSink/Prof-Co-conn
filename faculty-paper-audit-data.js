@@ -1528,7 +1528,11 @@ const facultyPaperAudits = {
     "sources": [
       "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm",
       "https://keven980716.github.io/",
-      "https://ruobingxie.github.io/"
+      "https://ruobingxie.github.io/",
+      "https://ruobingxie.github.io/#education",
+      "https://ericshwu.github.io/",
+      "https://aclanthology.org/2026.acl-long.1675.pdf",
+      "https://linyankai.github.io/#group"
     ],
     "papers": [
       {
@@ -1572,6 +1576,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2505.00662",
         "outcome": "no-evidence",
         "note": "署名未出现调查范围企业员工。"
+      },
+      {
+        "title": "Union-of-Experts: Neurons in Mixture-of-Experts are Secretly Routers",
+        "url": "https://aclanthology.org/2026.acl-long.1675.pdf",
+        "outcome": "confirmed",
+        "note": "正式论文致谢具名实习，加上双方独立在读、导师和在职证据。"
       }
     ],
     "note": "已核对 Wenkai Yang 列出的部分论文，未完成林衍凯所有论文综排。"
@@ -10560,6 +10570,56 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "双方与在读学生身份可对应；是汇整多种同团队已公开方法的框架报告（部分方法独立计入），待细查增量后再定是否单独统计。"
+      }
+    ]
+  },
+  "POlWWAsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.mlr.press/v267/li25dv.html",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25dv/li25dv.pdf",
+      "https://home.cse.ust.hk/~shuaiw/",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw",
+      "https://jiangyong.site/",
+      "https://tongyi-agent.github.io/publication/",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9760f18785acf535321e50405fd36578-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/9760f18785acf535321e50405fd36578-Paper-Conference.pdf"
+    ],
+    "papers": [
+      {
+        "title": "LaRA: Benchmarking Retrieval-Augmented Generation and Long-Context LLMs – No Silver Bullet for LC or RAG Routing",
+        "url": "https://proceedings.mlr.press/v267/li25dv.html",
+        "outcome": "confirmed",
+        "note": "PMLR 的正式论文明确把该篇研究归为李宽在阿里通义实验室的实习项目。Shuai Wang 的组名单和论文作者名单分别确认具名博士指导和同篇参与；企业共同作者蒋勇在阿里通义任研究职务。"
+      },
+      {
+        "title": "WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9760f18785acf535321e50405fd36578-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "论文初版由阿里通义实验室以机构原创项目发布，第一作者是已明确为同期阿里通义研究实习生的李宽；正式版明确其双署港科大和阿里通义，并列港科大博士导师同篇通讯。Shuai Wang 的组名单和论文作者名单分别确认具名博士指导和同篇参与；企业共同作者蒋勇在阿里通义任研究职务。"
+      }
+    ]
+  },
+  "s3lQL7YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2509.13313",
+      "https://wxxshirley.github.io/",
+      "https://www.cse.cuhk.edu.hk/people/faculty/hong-cheng/",
+      "https://jiangyong.site/",
+      "https://arxiv.org/pdf/2509.13313",
+      "https://tongyi-agent.github.io/publication/"
+    ],
+    "papers": [
+      {
+        "title": "ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization",
+        "url": "https://arxiv.org/abs/2509.13313",
+        "outcome": "confirmed",
+        "note": "ReSum 于 2025 年 9 月在 Xixi Wu 本人履历所列的阿里通义深度研究团队实习窗口内公开。原文将她标为香港中文大学与阿里通义双署的共同第一作者，企业自己的成果目录亦明确收录该篇。其博士导师程虹与企业研究员蒋勇均为同篇作者。"
       }
     ]
   }

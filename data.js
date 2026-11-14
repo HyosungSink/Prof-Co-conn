@@ -1344,7 +1344,7 @@ const survey = {
       team: '大模型后训练研究',
       school: '浙江大学',
       studentSchool: '浙江大学',
-      faculty: [ '王浩博 · Haobo Wang', '浙江大学博士生导师、论文通讯作者，并为 Shenzhi Yang 的浙大导师。', 'https://hbzju.github.io/index.html' ],
+      faculty: [ '王皓波 · Haobo Wang', '浙江大学博士生导师、论文通讯作者，并为 Shenzhi Yang 的浙大导师。', 'https://hbzju.github.io/index.html' ],
       employee: [ '王维强 · Weiqiang Wang', '蚂蚁集团公开资料列为机器智能部门总经理，同篇以蚂蚁集团署名。', 'https://www.antgroup.com/en/technology' ],
       student: [ 'Shenzhi Yang', '2025 年起为浙江大学博士生，2025 年 5 月起在蚂蚁集团实习；本人主页列明 OPRD。', 'https://shenzhiyang2000.github.io/' ],
       title: 'OPRD: On-Policy Representation Distillation',
@@ -1358,7 +1358,7 @@ const survey = {
         [ '企业岗位同期会议资料', 'https://unctad.org/system/files/official-document/ecn162024inf1_en.pdf' ]
       ],
       evidence: 'PDF 第一作者双署浙江大学与蚂蚁集团。本人履历把企业实习、浙大博士学籍及论文列在一起，导师及同篇企业合著者岗位有独立资料。',
-      advising: [ '校内导师', 'Shenzhi Yang 的教育经历明确列 王浩博 为当时的校内导师。', 'https://shenzhiyang2000.github.io/' ]
+      advising: [ '校内导师', 'Shenzhi Yang 的教育经历明确列王皓波为当时的校内导师。', 'https://shenzhiyang2000.github.io/' ]
     },
     {
       id: 'gapmllm-huawei-hit',
@@ -33958,6 +33958,191 @@ const survey = {
           "https://unctad.org/system/files/information-document/Programme_SE_AI_27thCSTD.pdf"
         ]
       ]
+    },
+    {
+      "id": "alibaba-lara-hkust-shuai-wang",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Shuai Wang",
+        "港科大电脑科学与工程学系教师，同篇作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw"
+      ],
+      "student": [
+        "李宽 · Kuan Li",
+        "2023 年秋起港科大在读博士；PMLR 的正式论文明确把该篇研究归为李宽在阿里通义实验室的实习项目。",
+        "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25dv/li25dv.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "教师组名单具名记录自 2023 年秋起 Shuai Wang 与 Minhao Cheng 共同指导李宽。",
+        "https://home.cse.ust.hk/~shuaiw/"
+      ],
+      "employee": [
+        "蒋勇 · Yong Jiang",
+        "同篇署名阿里通义并参与其深度搜索项目；本人档案明确其阿里通义的研究岗位。",
+        "https://jiangyong.site/"
+      ],
+      "title": "LaRA: Benchmarking Retrieval-Augmented Generation and Long-Context LLMs – No Silver Bullet for LC or RAG Routing",
+      "short": "LaRA",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "大语言模型 · 检索与深度研究",
+      "paper": "https://proceedings.mlr.press/v267/li25dv.html",
+      "extra": [
+        [
+          "论文原文及作者单位",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25dv/li25dv.pdf"
+        ],
+        [
+          "阿里通义团队正式成果目录",
+          "https://tongyi-agent.github.io/publication/"
+        ],
+        [
+          "同一实习的原始明确注释",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25dv/li25dv.pdf"
+        ]
+      ],
+      "evidence": "PMLR 的正式论文明确把该篇研究归为李宽在阿里通义实验室的实习项目。Shuai Wang 的组名单和论文作者名单分别确认具名博士指导和同篇参与；企业共同作者蒋勇在阿里通义任研究职务。"
+    },
+    {
+      "id": "alibaba-websailor-v2-hkust-shuai-wang",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Shuai Wang",
+        "港科大电脑科学与工程学系教师，同篇作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw"
+      ],
+      "student": [
+        "李宽 · Kuan Li",
+        "2023 年秋起港科大在读博士；论文初版由阿里通义实验室以机构原创项目发布，第一作者是已明确为同期阿里通义研究实习生的李宽；正式版明确其双署港科大和阿里通义，并列港科大博士导师同篇通讯。",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/9760f18785acf535321e50405fd36578-Paper-Conference.pdf"
+      ],
+      "advising": [
+        "联合博士导师",
+        "教师组名单具名记录自 2023 年秋起 Shuai Wang 与 Minhao Cheng 共同指导李宽。",
+        "https://home.cse.ust.hk/~shuaiw/"
+      ],
+      "employee": [
+        "蒋勇 · Yong Jiang",
+        "同篇署名阿里通义并参与其深度搜索项目；本人档案明确其阿里通义的研究岗位。",
+        "https://jiangyong.site/"
+      ],
+      "title": "WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning",
+      "short": "WebSailor-V2",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · 检索与深度研究",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9760f18785acf535321e50405fd36578-Abstract-Conference.html",
+      "extra": [
+        [
+          "论文原文及作者单位",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/9760f18785acf535321e50405fd36578-Paper-Conference.pdf"
+        ],
+        [
+          "阿里通义团队正式成果目录",
+          "https://tongyi-agent.github.io/publication/"
+        ],
+        [
+          "同一实习的原始明确注释",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/li25dv/li25dv.pdf"
+        ]
+      ],
+      "evidence": "论文初版由阿里通义实验室以机构原创项目发布，第一作者是已明确为同期阿里通义研究实习生的李宽；正式版明确其双署港科大和阿里通义，并列港科大博士导师同篇通讯。Shuai Wang 的组名单和论文作者名单分别确认具名博士指导和同篇参与；企业共同作者蒋勇在阿里通义任研究职务。"
+    },
+    {
+      "id": "alibaba-resum-cuhk-hong-cheng",
+      "company": "阿里巴巴",
+      "team": "通义实验室深度研究团队",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "程虹 · Hong Cheng",
+        "香港中文大学教授、同篇作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/hong-cheng/"
+      ],
+      "student": [
+        "Xixi Wu",
+        "香港中文大学博士生；2025 年 6 至 10 月为阿里通义深度研究实习生。论文初版出于该实习区间，阿里通义正式将论文列为团队项目，初版共同第一作者包含她。",
+        "https://wxxshirley.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "吴本人主页明确在香港中文大学由程虹指导。",
+        "https://wxxshirley.github.io/"
+      ],
+      "employee": [
+        "蒋勇 · Yong Jiang",
+        "同篇署名阿里通义，个人经历列出持续在阿里通义从事深度研究智能体研发。",
+        "https://jiangyong.site/"
+      ],
+      "title": "ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization",
+      "short": "ReSum",
+      "date": "2025-09",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型 · 长程搜索",
+      "paper": "https://arxiv.org/abs/2509.13313",
+      "extra": [
+        [
+          "论文原文双署",
+          "https://arxiv.org/pdf/2509.13313"
+        ],
+        [
+          "企业正式成果清单",
+          "https://tongyi-agent.github.io/publication/"
+        ]
+      ],
+      "evidence": "ReSum 于 2025 年 9 月在 Xixi Wu 本人履历所列的阿里通义深度研究团队实习窗口内公开。原文将她标为香港中文大学与阿里通义双署的共同第一作者，企业自己的成果目录亦明确收录该篇。其博士导师程虹与企业研究员蒋勇均为同篇作者。"
+    },
+    {
+      "id": "tencent-uoexperts-ruc-yankai-lin",
+      "company": "腾讯",
+      "team": "大语言模型部",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "林衍凯 · Yankai Lin",
+        "中国人民大学高瓴人工智能学院预聘副教授，2024 年 9 月起任。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/lyk/index.htm"
+      ],
+      "employee": [
+        "谢若冰 · Ruobing Xie",
+        "本人履历载 2017 年 7 月起任腾讯高级研究员；论文署腾讯大语言模型部。",
+        "https://ruobingxie.github.io/#education"
+      ],
+      "student": [
+        "吴宋浩 · Songhao Wu",
+        "中国人民大学高瓴人工智能学院博士生；2025 年入选 CCF-腾讯犀牛鸟精英人才计划，正式论文致谢指明本项工作完成于腾讯实习期间。",
+        "https://ericshwu.github.io/"
+      ],
+      "title": "Union-of-Experts: Neurons in Mixture-of-Experts are Secretly Routers",
+      "short": "Union-of-Experts",
+      "date": "2026-07",
+      "venue": "ACL",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.acl-long.1675.pdf",
+      "evidence": "ACL 正式版作者栏分别署人大和腾讯；致谢明确点名吴宋浩在 CCF-腾讯犀牛鸟计划下实习期间完成本项工作。林衍凯、吴宋浩和当时在腾讯任职的谢若冰同文署名。",
+      "advising": [
+        "在读博士导师",
+        "吴宋浩本人主页具名说明博士学业受林衍凯指导；林衍凯课题组名单也将其列为博士生。",
+        "https://ericshwu.github.io/"
+      ],
+      "extra": [
+        [
+          "导师课题组博士生名单",
+          "https://linyankai.github.io/#group"
+        ],
+        [
+          "人大官方论文报道",
+          "https://ai.ruc.edu.cn/xwgg/xyxw/2026015101.html"
+        ]
+      ],
+      "paperId": "acl:2026.acl-long.1675"
     }
   ]
 };
