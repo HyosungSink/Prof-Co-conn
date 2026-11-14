@@ -35590,6 +35590,63 @@ const survey = {
         ]
       ],
       "evidence": "ICLR 定稿首位作者马咏芮双署港中文及字节，致谢明确点名他在字节实习期间完成本篇。他的个人主页与 2024 年正式会议作者介绍均说明同期博士导师为顾金伟；顾同篇署港中文。赵世杰同篇署字节并担任通讯作者，独立任职材料可定位其正式团队身份。"
+    },
+    {
+      "id": "bytedance-duomatching-cuhk-tianfan-xue",
+      "paperId": "arxiv:2610.03543",
+      "company": "字节跳动",
+      "team": "多媒体实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "薛天帆 · Tianfan Xue",
+        "香港中文大学信息工程学系助理教授，本篇在同一份作者名单署香港中文大学并担任通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/tfxue.shtml"
+      ],
+      "employee": [
+        "幸群亮 · Qunliang Xing",
+        "本人公开履历注明自 2025 年 7 月起在字节跳动多媒体实验室全职任研究员，且列詹佳豪为具名实习生；同时在本篇署字节跳动。",
+        "https://github.com/ryanxingql/ryanxingql.github.io/blob/d13ecc24619f444524b4d4fc213a99c6a8a57ba9/index_zh.html#L67-L71"
+      ],
+      "student": [
+        "詹佳豪 · Jiahao Zhan",
+        "第一作者，在本篇明确同时署香港中文大学和字节跳动，开发少步生成视频的蒸馏；学生公开履历始于 2025 年 11 月并具名介绍字节实习导师；在职同篇作者幸群亮也具名确认。",
+        "https://arxiv.org/html/2610.03543v1"
+      ],
+      "advising": [
+        "研究期间的具名博士导师",
+        "詹佳豪的个人主页明确记载自 2026 年秋季起在香港中文大学 MMLab 攻读博士、由薛天帆指导；薛天帆是本篇通讯作者。",
+        "https://johnzhan2023.github.io/"
+      ],
+      "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+      "short": "DuoMatching",
+      "date": "2026-10-02",
+      "venue": "arXiv 预印本",
+      "area": "多模态视频生成",
+      "paper": "https://arxiv.org/html/2610.03543v1",
+      "extra": [
+        [
+          "第一作者的论文项目",
+          "https://johnzhan2023.github.io/DuoMatching/"
+        ],
+        [
+          "学生原始履历：字节岗位与实习导师",
+          "https://github.com/JohnZhan2023/johnzhan2023.github.io/blob/b240a15e1000441dd70d6aac23b64510c2fe4d9e/index.html#L222-L232"
+        ],
+        [
+          "2026-09-27 学生研究页快照",
+          "https://github.com/JohnZhan2023/johnzhan2023.github.io/blob/161bf658a392e1e4219dc74f78e1865864f1bf6d/index.html#L63-L84"
+        ],
+        [
+          "第一作者公开训练与推理代码的初次提交",
+          "https://github.com/JohnZhan2023/DuoMatching/commit/1ed5ba67e2d8cdf3a9810517ff94c1a4732cedf7"
+        ],
+        [
+          "字节跳动研究团队列出这项工作",
+          "https://huggingface.co/organizations/ByteDance/activity/all"
+        ]
+      ],
+      "evidence": "第一作者詹佳豪在论文原文及技术项目双署港中文和字节跳动；2026 年 9 月的个人履历同时记录其在港中文读博、由薛天帆指导，并仍在字节多媒体实验室担任算法实习生。字节全职研究员、同篇作者幸群亮同期公开页独立列他为实习生。10 月 2 日公开的训练、推理实现与论文同日上线；不从公开日期反推项目的开始时间。"
     }
   ]
 };
