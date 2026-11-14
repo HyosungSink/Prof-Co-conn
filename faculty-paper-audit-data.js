@@ -11339,6 +11339,34 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "ICLR 正式首页陈超锋还在南洋理工，另一共同署名单位是商汤，调查范围之外。"
+      },
+      {
+        "title": "MVQA: Mamba with Unified Sampling for Efficient Video Quality Assessment",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Mi_MVQA_Mamba_with_Unified_Sampling_for_Efficient_Video_Quality_Assessment_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版所列任职单位为哈尔滨工业大学和南京信息工程大学；未见范围内企业署名。"
+      },
+      {
+        "title": "2D Gaussian Splatting with Semantic Alignment for Image Inpainting",
+        "url": "https://arxiv.org/abs/2509.01964",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "原文逐名列出哈尔滨工业大学（深圳）、武汉大学及新加坡南洋理工大学。未见范围内企业同篇署名。"
+      },
+      {
+        "title": "Beyond the Dirac Delta: Mitigating Diversity Collapse in Reinforcement Fine-Tuning for Image Generation",
+        "url": "https://arxiv.org/abs/2601.12401",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "预印本首版与改题版为同篇。作者单位仅列南京大学、澳大利亚国立大学、武汉大学、新加坡国立大学和悉尼科技大学。"
+      },
+      {
+        "title": "LongEarth-R1: Benchmarking and Aligning Vision-Language Models for Long-Horizon Earth Observation Reasoning",
+        "url": "https://arxiv.org/abs/2608.13344",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文七位作者仅署武汉大学和西安电子科技大学，无范围内企业署名。"
       }
     ],
     "note": "已逐篇对照个人主页公开题录中的若干成果、原文和课题组名单。个人书目与外部书目覆盖不同，仍在核对其余公开论文。"
@@ -11649,7 +11677,16 @@ const facultyPaperAudits = {
       "https://faculty.xidian.edu.cn/WY23/zh_CN/index.htm",
       "https://ywuchina.github.io/",
       "https://proceedings.mlr.press/v235/wu24k.html",
-      "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911"
+      "https://ojs.aaai.org/index.php/AAAI/article/download/29546/30911",
+      "https://ywuchina.github.io/publications/",
+      "https://cois.xidian.edu.cn/xwdt/kyjz.htm",
+      "https://arxiv.org/html/2307.14019",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33121/35276",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
+      "https://doi.org/10.1109/TNNLS.2024.3476114",
+      "https://doi.org/10.1109/TCSVT.2023.3237328"
     ],
     "papers": [
       {
@@ -11665,9 +11702,51 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 2024 正式版全部作者署西安电子科技大学。",
         "year": 2024
+      },
+      {
+        "title": "Partial Point Cloud Registration with Multi-view 2D Image Learning",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33121/35276",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版仅列西电，无范围内企业作者。"
+      },
+      {
+        "title": "Inlier Confidence Calibration for Point Cloud Registration",
+        "year": 2024,
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版所列四个署名单位均属西安电子科技大学。"
+      },
+      {
+        "title": "Where Precision Meets Efficiency: Transformation Diffusion Model for Point Cloud Registration",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版署名只有西安电子科技大学和内蒙古师范大学。"
+      },
+      {
+        "title": "MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版署名只有西安电子科技大学和内蒙古师范大学。"
+      },
+      {
+        "title": "One-Nearest Neighborhood Guides Inlier Estimation for Unsupervised Point Cloud Registration",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TNNLS.2024.3476114",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版作者与公开全文相符；署西安电子科技大学与斯威本科技大学，无范围内企业。"
+      },
+      {
+        "title": "SACF-Net: Skip-Attention Based Correspondence Filtering Network for Point Cloud Registration",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TCSVT.2023.3237328",
+        "outcome": "no-evidence",
+        "note": "六位作者均署西电；华为昇思学术开放基金属于论文资助，未见华为在职合著者或学生企业参与证明。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "结合作者公开书目、西电课题组报告和正式出版物逐篇核对，尚未穷尽全部书目。"
   },
   "2TQfvt8AAAAJ": {
     "from": "2023-01-01",
@@ -11676,7 +11755,15 @@ const facultyPaperAudits = {
     "sources": [
       "http://web.xidian.edu.cn/qgmiao/",
       "https://cs.xidian.edu.cn/kxyj/kyxw/3.htm",
-      "https://proceedings.mlr.press/v235/wu24k.html"
+      "https://proceedings.mlr.press/v235/wu24k.html",
+      "https://ywuchina.github.io/publications/",
+      "https://cois.xidian.edu.cn/xwdt/kyjz.htm",
+      "https://arxiv.org/html/2307.14019",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
+      "https://doi.org/10.1109/TNNLS.2024.3476114",
+      "https://doi.org/10.1109/TCSVT.2023.3237328"
     ],
     "papers": [
       {
@@ -11685,9 +11772,44 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "ICML 2024 正式论文四个署名单位均属西安电子科技大学。",
         "year": 2024
+      },
+      {
+        "title": "Inlier Confidence Calibration for Point Cloud Registration",
+        "year": 2024,
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版所列四个署名单位均属西安电子科技大学。"
+      },
+      {
+        "title": "Where Precision Meets Efficiency: Transformation Diffusion Model for Point Cloud Registration",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版署名只有西安电子科技大学和内蒙古师范大学。"
+      },
+      {
+        "title": "MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版署名只有西安电子科技大学和内蒙古师范大学。"
+      },
+      {
+        "title": "One-Nearest Neighborhood Guides Inlier Estimation for Unsupervised Point Cloud Registration",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TNNLS.2024.3476114",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版作者与公开全文相符；署西安电子科技大学与斯威本科技大学，无范围内企业。"
+      },
+      {
+        "title": "SACF-Net: Skip-Attention Based Correspondence Filtering Network for Point Cloud Registration",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TCSVT.2023.3237328",
+        "outcome": "no-evidence",
+        "note": "六位作者均署西电；华为昇思学术开放基金属于论文资助，未见华为在职合著者或学生企业参与证明。"
       }
     ],
-    "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+    "note": "结合作者公开书目、西电课题组报告和正式出版物逐篇核对，尚未穷尽全部书目。"
   },
   "skrocFAAAAAJ": {
     "from": "2023-01-01",
@@ -12020,5 +12142,99 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对正式论文作者及机构；公开书目尚未穷尽。"
+  },
+  "I1pPv1QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://web.xidian.edu.cn/wpma",
+      "https://ywuchina.github.io/publications/",
+      "https://cois.xidian.edu.cn/xwdt/kyjz.htm",
+      "https://arxiv.org/html/2307.14019",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33121/35276",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
+      "https://doi.org/10.1109/TCSVT.2023.3237328"
+    ],
+    "papers": [
+      {
+        "title": "Partial Point Cloud Registration with Multi-view 2D Image Learning",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33121/35276",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版仅列西电，无范围内企业作者。"
+      },
+      {
+        "title": "Inlier Confidence Calibration for Point Cloud Registration",
+        "year": 2024,
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Inlier_Confidence_Calibration_for_Point_Cloud_Registration_CVPR_2024_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版所列四个署名单位均属西安电子科技大学。"
+      },
+      {
+        "title": "Where Precision Meets Efficiency: Transformation Diffusion Model for Point Cloud Registration",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33055/35210",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版署名只有西安电子科技大学和内蒙古师范大学。"
+      },
+      {
+        "title": "MUCD: Unsupervised Point Cloud Change Detection via Masked Consistency",
+        "year": 2025,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32918/35073",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式版署名只有西安电子科技大学和内蒙古师范大学。"
+      },
+      {
+        "title": "SACF-Net: Skip-Attention Based Correspondence Filtering Network for Point Cloud Registration",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TCSVT.2023.3237328",
+        "outcome": "no-evidence",
+        "note": "六位作者均署西电；华为昇思学术开放基金属于论文资助，未见华为在职合著者或学生企业参与证明。"
+      }
+    ],
+    "note": "结合作者公开书目、西电课题组报告和正式出版物逐篇核对，尚未穷尽全部书目。"
+  },
+  "lUw7tVIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://liudaizong.github.io/publications/",
+      "https://liudaizong.github.io/about.html",
+      "https://dblp.org/pid/239/6021.html"
+    ],
+    "papers": [
+      {
+        "title": "PRVR: Partially Relevant Video Retrieval",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/789262",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "北大机构库核对 IEEE 正式卷期及署名，刘岱宗当时署北大，其余作者均署高校或高校实验室，未见范围内企业作者。"
+      },
+      {
+        "title": "CAST: Context-Aware Dynamic Latent Space Transformation for Interactive Text-to-Image Retrieval",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lin_CAST_Context-Aware_Dynamic_Latent_Space_Transformation_for_Interactive_Text-to-Image_Retrieval_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "CVPR 正式版作者署浙江工商大学及其联合重点实验室、华东师大、武大、中国科大、浙大；未见范围内企业同篇署名。"
+      },
+      {
+        "title": "Spatial-Spectral Homogeneous Attacks on Physical-World Large Vision-Language Models",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37647/41609",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 正式作者栏列武大和北大两校，未见范围内企业作者。"
+      },
+      {
+        "title": "Dual Learning with Dynamic Knowledge Distillation for Partially Relevant Video Retrieval",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Dong_Dual_Learning_with_Dynamic_Knowledge_Distillation_for_Partially_Relevant_Video_ICCV_2023_paper.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "ICCV 正式版列浙江工商大学及省重点实验室、北大与华科；未见范围内企业署名。"
+      }
+    ]
   }
 };
