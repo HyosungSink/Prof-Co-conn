@@ -40326,6 +40326,55 @@ const survey = {
           "https://gaoli-sinh.github.io/publications.html"
         ]
       ]
+    },
+    {
+      "id": "baidu-viti-ucas-caoyanan",
+      "paperId": "arxiv:2512.03542",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "百度",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "曹亚男 · Yanan Cao",
+        "国科大研究员、博士生导师；同篇署信工所与国科大，学生履历及国科大教师名录具名指导。",
+        "https://people.ucas.edu.cn/~0046013"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "同为第一作者，论文署百度；本人履历列 2022 年 7 月起任百度算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "孙楠 · Nan Sun",
+        "2023 年 9 月至 2026 年 7 月在国科大攻读硕士，2025 年 4 月起在百度研究多模态幻觉；原文首页的实习脚注明确标在其姓名。",
+        "https://sunnan191.github.io/"
+      ],
+      "title": "V-ITI: Mitigating Hallucinations in Multimodal Large Language Models via Visual Inference-Time Intervention",
+      "short": "V-ITI",
+      "date": "2025-12-03",
+      "venue": "arXiv 预印本",
+      "area": "多模态大模型、幻觉缓解",
+      "paper": "https://arxiv.org/pdf/2512.03542v1",
+      "evidence": "原文首页的实习脚注明确说明孙楠在百度实习期间完成本项研究；原文同页列百度共同一作张振宇、校内导师曹亚男。孙楠本人履历列国科大硕士学籍、曹亚男与 Xixun Lin 具名共同指导和在百度研究多模态幻觉的同期经历。",
+      "advising": [
+        "国科大硕士共同指导",
+        "学生本人履历明确列曹亚男和 Xixun Lin 为共同指导，国科大曹亚男现指导学生名录具名孙楠。",
+        "https://sunnan191.github.io/"
+      ],
+      "extra": [
+        [
+          "原始 arXiv 书目",
+          "https://arxiv.org/abs/2512.03542"
+        ],
+        [
+          "中国科学院信工所研究组硕士生档案",
+          "https://ascii-iie.github.io/Students/SN.html"
+        ],
+        [
+          "国科大现指导学生",
+          "https://people.ucas.ac.cn/~caoyanan?language=en"
+        ]
+      ]
     }
   ]
 };

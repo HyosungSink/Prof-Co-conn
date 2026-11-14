@@ -35743,6 +35743,34 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2407.15309",
         "outcome": "lead",
         "note": "原文具名上交、期智、蚂蚁，蚂蚁官方 antgroup/glake 宣布同项研发，GLakeServe 首稿后有一条未确认自然人身份的 1aureate 提交，未找到它与具名学生的独立身份映射；尚未证实首作者 Jiale Xu 的企业研发生涯与孙的指导。"
+      },
+      {
+        "year": 2026,
+        "title": "CuBridge: An LLM-Based Framework for Understanding and Reconstructing High-Performance Attention Kernels",
+        "url": "https://aclanthology.org/2026.acl-long.500/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式稿标题与 arXiv 首发一致；具名上交、上海期智、新加坡国立大学，无目标公司作者；并未把 CUDA 优化等同合作。"
+      },
+      {
+        "year": 2026,
+        "title": "ECHO: Efficient KV Cache Offloading with Lossless Prefetching for Serving Native Sparse Attention LLMs",
+        "url": "https://www.usenix.org/conference/osdi26/presentation/liu-guangda",
+        "outcome": "lead",
+        "note": "OSDI 正式稿具名华为 Jing Lin、Yiwu Yao 和上交共同作者。赵洁茹课题组列 Chengwei Li 和 Zhenyu Ning 为其 2024 届硕士，并非默认视为孙世轩博士生。未找到本篇在华为的学生具体参与材料。"
+      },
+      {
+        "year": 2026,
+        "title": "TRADER: Real-Time Arbitrage Detection via Negative Cycles on Dynamic Graphs",
+        "url": "https://icde2026.github.io/accepted-papers",
+        "outcome": "no-evidence",
+        "note": "ICDE 正式程序具名伙伴 Tokka Labs，不属于 14 家。研究内容为动态图负环套利检测，与同组 ORDER 的路径索引分开。"
+      },
+      {
+        "year": 2025,
+        "title": "BLITZ: A Flexible and Efficient Graph Mining System",
+        "url": "https://www.computer.org/csdl/journal/tk/2026/01/11215638/2b3fG2Y9f2g",
+        "outcome": "no-evidence",
+        "note": "IEEE DOI 10.1109/TKDE.2025.3624574 在线先发、2026 纸刊；出版页具名作者共上交、新加坡国立大学与新加坡管理大学，未见目标企业作者。"
       }
     ],
     "note": "从上交官网、本人书目、DBLP 及 ORCID 建立清单，已先核对近期图计算与系统论文。校内、访学、企业经历分开记录。仍在扩展完整书目。"
@@ -36904,5 +36932,393 @@ const facultyPaperAudits = {
       }
     ],
     "note": "阶段核查。以本人书目与履历、港科大学术门户、ORCID、DBLP、原稿及正式会议核对，截至 2026-11-12 逐篇记录 17 篇；作者 2023-05 至 2026-05 任职华为 Taylor Lab，2026-06 起任教港科大，按同篇项目发生时身份核验。两篇负载均衡论文核至官方公开议程，待补可公开复核全文。2021 Fourier Growth 的期刊版仍见待刊备注，未另计。"
+  },
+  "L1y8y2MAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/lengjingwen.html",
+      "https://news.sjtu.edu.cn/jdyw/20240604/198451.html"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching",
+        "url": "https://doi.org/10.1145/3620665.3640423",
+        "outcome": "lead",
+        "note": "两位导师、同篇作者及学生同期间实习可核，企业仓库和同篇原文确认是蚂蚁与上交的研究。论文中郭聪署上交与期智，公开材料未具体说明其在企业内而不是期智以何种方式参与本篇，继续保留线索。"
+      },
+      {
+        "year": 2024,
+        "title": "vTensor: Flexible Virtual Tensor Management for Efficient LLM Serving",
+        "url": "https://arxiv.org/abs/2407.15309",
+        "outcome": "lead",
+        "note": "蚂蚁官方仓库确认本项，但这项与 GMLake 应区分；郭聪已不在已知蚂蚁实习期内，其他具名在读学生尚无本项企业参与证据。"
+      }
+    ],
+    "note": "已从校方和作者书目开始逐篇梳理。"
+  },
+  "8R8FO9IAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/guominyi.html",
+      "https://news.sjtu.edu.cn/jdyw/20240604/198451.html"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching",
+        "url": "https://doi.org/10.1145/3620665.3640423",
+        "outcome": "lead",
+        "note": "两位导师、同篇作者及学生同期间实习可核，企业仓库和同篇原文确认是蚂蚁与上交的研究。论文中郭聪署上交与期智，公开材料未具体说明其在企业内而不是期智以何种方式参与本篇，继续保留线索。"
+      },
+      {
+        "year": 2024,
+        "title": "vTensor: Flexible Virtual Tensor Management for Efficient LLM Serving",
+        "url": "https://arxiv.org/abs/2407.15309",
+        "outcome": "lead",
+        "note": "蚂蚁官方仓库确认本项，但这项与 GMLake 应区分；郭聪已不在已知蚂蚁实习期内，其他具名在读学生尚无本项企业参与证据。"
+      }
+    ],
+    "note": "已从校方和作者书目开始逐篇梳理。"
+  },
+  "lvAcSnoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1145/3795866.3844450",
+      "https://researchportal.hkust.edu.hk/en/persons/qijia-shao/",
+      "https://researchportal.hkust.edu.hk/en/projects/continuous-user-state-monitoring-via-ubiquitous-sensing/",
+      "https://qijiashao.github.io/team/",
+      "https://dblp.org/pid/211/1208.html",
+      "https://jitingliu.github.io/papers/SwimHR_MobiCom26.pdf",
+      "https://jitingliu.github.io/",
+      "https://www.sigmobile.org/mobicom/2026/accepted.html",
+      "https://doi.org/10.1145/3795866.3848438",
+      "https://arxiv.org/abs/2605.18837",
+      "https://arxiv.org/pdf/2605.18837",
+      "https://qijiashao.github.io/",
+      "https://doi.org/10.1145/3832014",
+      "https://researchportal.hkust.edu.hk/en/publications/careassist-supporting-offline-caregiver-coaching-in-daily-autism-/",
+      "https://doi.org/10.1145/3831983",
+      "https://ziqidennisliu.github.io/projects/9_project/",
+      "https://researchportal.hkust.edu.hk/en/publications/pretap-implicit-reachability-analysis-and-tap-prediction-for-one-/",
+      "https://www.ubicomp-iswc.com/events/workshop-21/",
+      "https://qijiashao.github.io/publications/",
+      "https://doi.org/10.1145/3789682",
+      "https://researchportal.hkust.edu.hk/en/publications/the-easycog-dataset-towards-easier-cognitive-assessment-with-pass/",
+      "https://www.ubicomp-iswc.com/events/session-h1/",
+      "https://doi.org/10.1145/3749550",
+      "https://colmanleung.com/doc/2025-pillow-paper.pdf",
+      "https://icsl.ee.columbia.edu/pillowsense-receives-acm-imwut-ubicomp-distinguished-paper-award/",
+      "https://ieeexplore.ieee.org/document/10446435"
+    ],
+    "papers": [
+      {
+        "title": "SwimHR: Wearable-Free Heart Rate Monitoring for Swimmers via Water-Mediated ECG Sensing",
+        "url": "https://doi.org/10.1145/3795866.3844450",
+        "outcome": "no-evidence",
+        "note": "第一作者 Jiting Liu 同期港科大博士生并具名列导师Qijia Shao；MobiCom 原稿所有作者署港科大或港理工，致谢未见华为研究人员及企业科研。本人此前列 Microsoft Research Asia，经核为 2024 年经历且不在企业范围。同题展演收入论文核查，不计独立关系。",
+        "year": 2026
+      },
+      {
+        "title": "VCR: Learning Valid Contextual Representation for Incomplete Wearable Signals",
+        "url": "https://arxiv.org/abs/2605.18837",
+        "outcome": "no-evidence",
+        "note": "预印本三位作者均署港科大，实验室列 Yuxuan Weng 2025 秋入学。虽为可穿戴信号，与校方列出的华为项目主题相近，全文无华为员工、具名实习或项目归属。NeurIPS 2026 在窗口后，保留公开预印本。",
+        "year": 2026
+      },
+      {
+        "title": "CareAssist: Supporting Offline Caregiver Coaching in Daily Autism Care through Multimodal Sensing and LLMs",
+        "url": "https://doi.org/10.1145/3832014",
+        "outcome": "no-evidence",
+        "note": "港科大研究门户列 Junxiao Chen 与导师Qijia Shao；实验室名单证实第一作者从本校本科进入博士。校方出版记录未把本篇归到华为项目，亦未找到公司作者或具名企业实习证据。当前依据校方及 ACM 元数据，全文暂缺。",
+        "year": 2026
+      },
+      {
+        "title": "PreTap: Implicit Reachability Analysis and Tap Prediction for One-handed Mobile Interaction",
+        "url": "https://doi.org/10.1145/3831983",
+        "outcome": "no-evidence",
+        "note": "具名学生刘子琦的个人页明确 2025 年 8 月起在港科大读硕士，并记录本研究获港科大本科研究项目奖。原始项目页和出版者索引未列华为人员、企业科研或同篇企业实习；全文暂缺。",
+        "year": 2026
+      },
+      {
+        "title": "CodeSensei: Turning Passive Behavioral Sensing into Adaptive Programming Education with Agentic AI",
+        "url": "https://www.ubicomp-iswc.com/events/workshop-21/",
+        "outcome": "no-evidence",
+        "note": "UbiSense 官方会议议程列 Zeyu Luo、Yuchao Wang、Qijia Shao；导师网站说明用于本校课程，团队资料列两名作者当时的校内身份。未找到华为研究人员或企业项目证据；全文暂缺。",
+        "year": 2026
+      },
+      {
+        "title": "The EasyCog Dataset: Towards Easier Cognitive Assessment with Passive Video Watching",
+        "url": "https://doi.org/10.1145/3789682",
+        "outcome": "no-evidence",
+        "note": "港科大与 UbiComp 正式论文索引确认题名、出版年和作者；尚未找到目标企业员工共同署名或项目特定学生角色。",
+        "year": 2026
+      },
+      {
+        "title": "My Pillow Knows My Sleep: Sleep Monitoring with Computational Fabrics in the Pillowcase",
+        "url": "https://doi.org/10.1145/3749550",
+        "outcome": "no-evidence",
+        "note": "正式全文列港科大、清华、哥伦比亚大学，致谢 NSF、哥伦比亚 RISE、InnoHK-HKCRC 和其他校内/临床支持，未见目标企业同篇角色。PillowSense 是系统名称，未另计。",
+        "year": 2025
+      },
+      {
+        "title": "Normalization is All You Need: Robust Full-Range Contactless SpO2 Estimation Across Users",
+        "url": "https://ieeexplore.ieee.org/document/10446435",
+        "outcome": "no-evidence",
+        "note": "Qijia Shao个人主页举该篇为在 Samsung Research 实习期间完成的具体项目，此时他仍是哥伦比亚大学博士生。三星和该校均不在本次范围。",
+        "year": 2024
+      }
+    ],
+    "note": "已逐篇检查第一批 8 项。港科大校方列其主持华为资助的泛在感知项目（2025-05 至 2028-09），目前公开项目页未列企业研究员、参与学生或具体论文；书目仍待完整核查。"
+  },
+  "JEieoFsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2607.29071",
+      "https://arxiv.org/pdf/2607.29071",
+      "https://zsk66.netlify.app/",
+      "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+      "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+      "https://toast-lab.sist.shanghaitech.edu.cn/2024/05/10/2024-05-10-Ant-visit/"
+    ],
+    "papers": [
+      {
+        "title": "Federated Foundation Models Fine-Tuning with Heterogeneous Compressed Clients",
+        "url": "https://arxiv.org/abs/2607.29071",
+        "outcome": "lead",
+        "note": "2026-07-31 首版，Shengkun Zhu 双署香港理工大学和蚂蚁 OceanBase，另一共同作者 Quanqing Xu 也署 OceanBase；个人主页明确来自武汉大学博士（2023-09 至 2026-06）、所列武大导师不同，目前只写由港理工Yang Liu / 杨强指导，未列港理工注册课程或同期学籍。无法由双署名、校邮或受指导推断当时为港理工在读学生。暂保留线索。",
+        "year": 2026
+      }
+    ],
+    "note": "部分已查：逐篇对照原稿、个人和校方资料；尚未梳理完整书目。"
+  },
+  "1LxWZLQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2607.29071",
+      "https://arxiv.org/pdf/2607.29071",
+      "https://zsk66.netlify.app/",
+      "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+      "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+      "https://toast-lab.sist.shanghaitech.edu.cn/2024/05/10/2024-05-10-Ant-visit/"
+    ],
+    "papers": [
+      {
+        "title": "Federated Foundation Models Fine-Tuning with Heterogeneous Compressed Clients",
+        "url": "https://arxiv.org/abs/2607.29071",
+        "outcome": "lead",
+        "note": "2026-07-31 首版，Shengkun Zhu 双署香港理工大学和蚂蚁 OceanBase，另一共同作者 Quanqing Xu 也署 OceanBase；个人主页明确来自武汉大学博士（2023-09 至 2026-06）、所列武大导师不同，目前只写由港理工Yang Liu / 杨强指导，未列港理工注册课程或同期学籍。无法由双署名、校邮或受指导推断当时为港理工在读学生。暂保留线索。",
+        "year": 2026
+      }
+    ],
+    "note": "部分已查：逐篇对照原稿、个人和校方资料；尚未梳理完整书目。"
+  },
+  "vxJGKrkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~caoyanan?language=en",
+      "https://ascii-iie.github.io/Students/ZXW.html",
+      "https://zhenyu.ac.cn/pubs.html",
+      "https://ascii-iie.github.io/Team.html",
+      "https://sunnan191.github.io/",
+      "https://ascii-iie.github.io/Students/SN.html",
+      "https://people.ucas.edu.cn/~0046013",
+      "https://zhenyu.ac.cn/",
+      "https://qingyue2014.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "MicroMouse: Masking Harmful Supervision in Long CoT via Relative Potential",
+        "url": "https://arxiv.org/abs/2611.02710",
+        "outcome": "lead",
+        "note": "中科院研究组与国科大教师名单核实朱孝伟为 2022 级博士生及曹亚男指导；同篇百度张振宇在其个人论文清单给朱标注上标 i，但图例仅解释 ¡ 为实习生。原文没有实习脚注，暂缺清楚的本篇企业参与说明。"
+      },
+      {
+        "year": 2026,
+        "title": "Exons-Detect: Identifying and Amplifying Exonic Tokens via Hidden-State Discrepancy for Robust AI-Generated Text Detection",
+        "url": "https://aclanthology.org/2026.acl-long.1211/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版列中科院信工所、国科大及中科院计算所；未见范围内企业同篇作者。"
+      },
+      {
+        "year": 2025,
+        "title": "DNA-DetectLLM: Unveiling AI-Generated Text via a DNA-Inspired Mutation-Repair Paradigm",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/0287c393907259ae6a269fca5e3509cd-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版列信工所、国科大、澳门科技大学、广州大学及中科院计算所；未见范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Reliably Bounding False Positives: A Zero-Shot Machine-Generated Text Detection Framework via Multiscaled Conformal Prediction",
+        "url": "https://aclanthology.org/2025.acl-long.601/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版列信工所、国科大和国家计算机网络应急技术处理协调中心；研究与范围企业合作未见。"
+      },
+      {
+        "year": 2025,
+        "title": "EnsemJudge: Enhancing Reliability in Chinese LLM-Generated Text Detection through Diverse Model Ensembles",
+        "url": "https://arxiv.org/abs/2603.27949",
+        "outcome": "no-evidence",
+        "note": "课题组列 NLPCC 2025 共享任务，作者稿在 2026 上线。作者由信工所、国科大团队组成；第三方工具或大模型评测不算企业共同作者。"
+      },
+      {
+        "year": 2025,
+        "title": "V-ITI: Mitigating Hallucinations in Multimodal Large Language Models via Visual Inference-Time Intervention",
+        "url": "https://arxiv.org/pdf/2512.03542v1",
+        "outcome": "confirmed",
+        "note": "原文 † 明确标在孙楠姓名，写明他于百度实习完成；具名导师曹亚男、百度员工张振宇同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Divide, Conquer, and Combine: Mixture of Semantic-Independent Experts for Zero-Shot Dialogue State Tracking",
+        "url": "https://aclanthology.org/2023.acl-long.114.pdf",
+        "outcome": "existing",
+        "note": "已在关系索引，王青悦本人项目简历和国科大导师关系可核；同篇的丁亮署京东探索研究院。"
+      }
+    ],
+    "note": "从国科大指导学生名单反查公开书目；既有王青悦京东案例和孙楠百度 V-ITI 已独立复核，部分书目仍待逐篇展开。"
+  },
+  "4VwsT3QAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sheng.whu.edu.cn/papers.html",
+      "https://sheng.whu.edu.cn/CV_Sheng_Wang.pdf",
+      "https://dblp.org/pid/85/1868-7.html",
+      "https://orcid.org/0000-0002-5461-4281",
+      "https://zsk66.netlify.app/",
+      "https://github.com/oceanbase/publications",
+      "https://kdd.org/kdd2025/research-track-papers-2/",
+      "https://2024.sigmodconf.hosting.acm.org/program_sigmod.shtml"
+    ],
+    "papers": [
+      {
+        "title": "LoRA-E2: Effective and Efficient Low-rank Adaptation",
+        "year": 2026,
+        "url": "https://sheng.whu.edu.cn/papers/26www.pdf",
+        "note": "正式全文署名均为高校。朱盛坤本人明确 2023—2026 年于武大读博由王胜及彭智勇指导；同期另一项蚂蚁工作不移用于此篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "BraveANN: Robust Approximate Nearest Neighbor Search for Billion-Scale Vectors",
+        "year": 2026,
+        "url": "https://sheng.whu.edu.cn/papers/26wwwj.pdf",
+        "note": "期刊正式 PDF 最后一页逐名列机构，只有武大、西安交大和拉筹伯大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Efficient Low-Rank Index Routing for High-Dimensional Approximate Nearest Neighbor Search",
+        "year": 2026,
+        "url": "https://sheng.whu.edu.cn/papers/26ipm.pdf",
+        "note": "正式文有亚马逊作者，且含武大与武大大数据研究院署名；亚马逊不在本调查企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Budgeted spatial data acquisition: when coverage and connectivity matter",
+        "year": 2026,
+        "url": "https://sheng.whu.edu.cn/papers/26fcs.pdf",
+        "note": "期刊正式文作者来自武汉大学与伍伦贡大学，未见范围企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Updatable Balanced Index for Fast On-device Search with Auto-selection Model",
+        "year": 2026,
+        "url": "https://sheng.whu.edu.cn/papers/26icde.pdf",
+        "note": "ICDE 作者全文列武大、亚马逊和拉筹伯大学；亚马逊不在企业范围。方法增加端侧模型选取，与 IEEE BigData 持续流数据版本分列。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Highly-Efficient Large-Scale k-means with Individual Fairness",
+        "year": 2026,
+        "url": "https://www.vldb.org/pvldb/vol19/p808-zhu.pdf",
+        "note": "PVLDB 正式版列武大、西安交大、拉筹伯、西工大及 RMIT，未见企业作者。并非 2023 年 OceanBase 的 F3KM。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Graph-centric Cross-model Data Integration and Analytics in a Unified Multi-model Database",
+        "year": 2026,
+        "url": "https://arxiv.org/html/2603.01598v2",
+        "note": "论文具名单位为武汉大学、武大大数据研究院和伍伦贡大学；GredoDB 的基准评测不作为企业同篇参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Updatable Balanced Index for Stable Streaming Similarity Search over Large-Scale Fresh Vectors",
+        "year": 2025,
+        "url": "https://sheng.whu.edu.cn/papers/25bigdata.pdf",
+        "note": "IEEE BigData 正式文逐名署武汉大学和伍伦贡大学，未见范围企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Federated and Balanced Clustering for High-dimensional Data",
+        "year": 2025,
+        "url": "https://sheng.whu.edu.cn/papers/25vldb.pdf",
+        "note": "正式论文只列武大、伍伦贡和武大大数据研究院。学生朱盛坤也共同署名，不能从其他 OceanBase 合著推断本篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "FedAPM: Federated Learning via ADMM with Partial Model Personalization",
+        "year": 2025,
+        "url": "https://sheng.whu.edu.cn/papers/25kdd.pdf",
+        "note": "KDD 原文及 OceanBase 官方书目列在读博士朱盛坤及武大导师王胜、蚂蚁徐泉清和杨传辉，原文另有蚂蚁科研基金。未见具名资料证明朱在企业参加此项研究；其于 2026 年 7 月双署港理工和 OceanBase 的不同论文不能回推。",
+        "outcome": "lead"
+      },
+      {
+        "title": "On Simplifying Large-Scale Spatial Vectors: Fast, Memory-Efficient, and Cost-Predictable k-means",
+        "year": 2025,
+        "url": "https://sheng.whu.edu.cn/papers/25icde-A.pdf",
+        "note": "ICDE 正式文与 2024 年首版预印本合并。作者单位为武大、武大大数据研究院和拉筹伯大学。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Approximate Vector Set Search: A Bio-Inspired Approach for High-Dimensional Spaces",
+        "year": 2025,
+        "url": "https://sheng.whu.edu.cn/papers/25icde-B.pdf",
+        "note": "同期版署武大、武大大数据研究院和亚马逊，亚马逊不在调查范围。预印本 arXiv:2412.03301 与 ICDE 版本合并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Joinable Search over Multi-source Spatial Datasets: Overlap, Coverage, and Efficiency",
+        "year": 2025,
+        "url": "https://sheng.whu.edu.cn/papers/25icde-C.pdf",
+        "note": "IEEE 正式 PDF 署武大、亚马逊和拉筹伯大学；亚马逊不在企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "Dependency relationships-enhanced attentive group recommendation in HINs",
+        "year": 2025,
+        "url": "https://link.springer.com/article/10.1007/s11280-025-01374-8",
+        "note": "Springer 正式版具名单位为河南大学、武汉大学及亚马逊。合并首稿 arXiv:2311.11239；亚马逊不在企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "title": "F3KM: Federated, Fair, and Fast k-means",
+        "year": 2023,
+        "url": "https://sheng.whu.edu.cn/papers/24SIGMOD.pdf",
+        "note": "ACM 于 2023-12 先刊、2024 SIGMOD 报告。首作者朱盛坤是武大在读博士，具名导师王胜、彭智勇，企业同篇作者徐泉清等；OceanBase 官方列本篇但未说明朱本人在企业参与此项工作；保留线索。",
+        "outcome": "lead"
+      },
+      {
+        "title": "Prerequisite-driven Fair Clustering on Heterogeneous Information Networks",
+        "year": 2023,
+        "url": "https://sheng.whu.edu.cn/papers/23SIGMOD.pdf",
+        "note": "正式全文署名仅武汉大学与拉筹伯大学；与之后的群组推荐研究独立。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "已交叉核对本人书目和原文，另用会议正式记录及公司公开书目核对蚂蚁合作线索。仍在比对近年补录、预印本及其他题录，不将缺证据视为否定关系。"
   }
 };
