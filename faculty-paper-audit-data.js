@@ -54075,7 +54075,8 @@ const facultyPaperAudits = {
       "https://scholars.cityu.edu.hk/en/persons/jianwang/publications/",
       "https://orcid.org/0000-0002-9318-1482",
       "https://www.cs.cityu.edu.hk/~jianwang/recent-publications/index.html",
-      "https://arxiv.org/abs/2601.09239"
+      "https://arxiv.org/abs/2601.09239",
+      "https://api.crossref.org/works?filter=orcid:0000-0002-9318-1482"
     ],
     "papers": [
       {
@@ -54175,9 +54176,79 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2601.09239v2",
         "outcome": "lead",
         "note": "修订版作者表列汪建平，第一作者张瀚霖标明华为实习，且同篇有华为正式作者。港城大博士学籍已确认，尚未查到汪建平或宋林琦对他的同期具名学术指导，暂列线索。"
+      },
+      {
+        "title": "Policy Correction and State-Conditioned Action Evaluation for Few-Shot Lifelong Deep Reinforcement Learning",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TNNLS.2024.3385570",
+        "outcome": "no-evidence",
+        "note": "IEEE 2024 年公开版本与 2025 卷期归并。作者均署港城大。 未发现范围内企业参与。"
+      },
+      {
+        "title": "Digital Twin-Enabled Service Provisioning in Edge Computing via Continual Learning",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TMC.2023.3332668",
+        "outcome": "no-evidence",
+        "note": "作者正式版标识 2023 年在线。作者单位包括港城大、港理工、港科大、南京大学和广东工业大学。 未发现范围内企业参与。"
+      },
+      {
+        "title": "AoI-Guaranteed Bandit: Information Gathering Over Unreliable Channels",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TMC.2024.3367869",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版逐位作者只来自港城大和东南大学。 未发现范围内企业参与。"
+      },
+      {
+        "title": "AoI-Aware, Digital Twin-Empowered IoT Query Services in Mobile Edge Computing",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TNET.2024.3395709",
+        "outcome": "no-evidence",
+        "note": "IEEE 列港城大、港科大、四川大学、Temple、大连理工和广东工业大学。 未发现范围内企业参与。"
+      },
+      {
+        "title": "TOFG: Temporal Occupancy Flow Graph for Prediction and Planning in Autonomous Driving",
+        "year": 2023,
+        "url": "https://doi.org/10.1109/TIV.2023.3296209",
+        "outcome": "no-evidence",
+        "note": "2023 首稿、2024 卷期为同一篇；IEEE 机构有鸿海研究院、卡内基梅隆和港城大，鸿海在范围外。 未发现范围内企业参与。"
+      },
+      {
+        "title": "Enhancing the Safety of Autonomous Driving Systems via AoI-Optimized Task Scheduling",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TVT.2024.3488194",
+        "outcome": "no-evidence",
+        "note": "IEEE 于 2024 年 10 月提前在线。作者来自港城大、维多利亚、波多黎各及布法罗等学校；测试 Apollo 系统不等于百度合著。 未发现范围内企业参与。"
+      },
+      {
+        "title": "Partial Decode and Compare: An Efficient Verification Scheme for Coded Edge Computing",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TCC.2024.3370834",
+        "outcome": "no-evidence",
+        "note": "IEEE 题录作者均为港城大、苏州大学或波多黎各大学；与更早 Decode-and-Compare 比较方法有新部分，本篇单列。 未发现范围内企业参与。"
+      },
+      {
+        "title": "Mobility-Aware Utility Maximization in Digital Twin-Enabled Serverless Edge Computing",
+        "year": 2024,
+        "url": "https://doi.org/10.1109/TC.2024.3388897",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者均署港城大、港科大、广东工大或港理工。 未发现范围内企业参与。"
+      },
+      {
+        "title": "MAPLE: A Modularized Framework for Learning-Based Planners to Integrate Prediction",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TETCI.2025.3577923",
+        "outcome": "no-evidence",
+        "note": "IEEE 2025 年在线版、2026 卷期合并。正式作者单位为港城大、卡内基梅隆和鸿海研究院。 未发现范围内企业参与。"
+      },
+      {
+        "title": "Metamorphic Testing for Vision-Based Autonomous Driving With Road Traffic Risk Exposure Extrapolation",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TITS.2025.3649971",
+        "outcome": "no-evidence",
+        "note": "正式版 2026-01 已公开，港城大、澳门大学、中科院深圳先进院、深圳理工是作者单位。 未发现范围内企业参与。"
       }
     ],
-    "note": "公开首批：身份由港城大和 ORCID 对齐，逐篇对照出版社作者机构与较早的同题首稿。其余公开书目仍待核对。"
+    "note": "已核 24 篇，结合港城大出版目录、ORCID、正式出版作者机构与首稿。范围内其他可查书目还在补核。"
   },
   "w3OoFL0AAAAJ": {
     "from": "2023-01-01",
@@ -54200,5 +54271,150 @@ const facultyPaperAudits = {
       }
     ],
     "note": "先从论文、学生和企业公开资料核实 ShapeGPT；其他书目仍待逐篇查考。"
+  },
+  "FxVmazsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.xjtu.edu.cn/peihongbin/zh_CN/zhym/994540/list/index.htm",
+      "https://gr.xjtu.edu.cn/peihongbin/zh_CN/zdylm/994529/list/index.htm",
+      "https://hp17illinois.github.io/",
+      "https://dblp.org/pid/157/2982.html",
+      "https://patents.google.com/patent/CN121880810A/zh"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Beyond Independent Predictions: Learning the Browsing Journey for Sequence-Level Re-ranking",
+        "url": "https://arxiv.org/html/2611.07591v1",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。",
+        "relationIds": [
+          "ice-alibaba-xjtu-hongbin-pei"
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "Learning What to Remember and What to Internalize in LLM Self-Evolution via Adaptive Memory-Parameter Coordination",
+        "url": "https://arxiv.org/html/2608.01234v1",
+        "outcome": "no-evidence",
+        "note": "2026-08-02 首稿署中科大、香港城市大学、合肥师范、西交，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Implicit Identity Technologies for LLMs: Fingerprinting and Watermarking Across Datasets, Models, and Generated Content",
+        "url": "https://ijcai.org/proceedings/2026/880",
+        "outcome": "no-evidence",
+        "note": "IJCAI 和 2605.29245 同工作；论文署西交、国科大、中科院信工所、国网河南营销服务中心和迪肯大学。国家电网不在指定范围。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Toward domain-knowledge-free modeling: bottleneck analysis and outlook for AI in molecular science",
+        "url": "https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-51647-2",
+        "outcome": "no-evidence",
+        "note": "出版方列三名作者署西交、深圳河套学院、人大，无指定企业，不能由海竞昕另有阿里妈妈实习推出。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "PolyGeom: Geometry-Aware Graph Transformer for Building Polygon Extraction in Remote Sensing Images",
+        "url": "https://www.mdpi.com/2072-4292/18/4/551",
+        "outcome": "no-evidence",
+        "note": "出版社具名西交、深圳河套学院、吉林大学。课题组名录对应李慧园和侯许凡；使用公开 SAM 底座不构成企业合著。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Attribution Explanations for Deep Neural Networks: A Theoretical Perspective",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3667600",
+        "outcome": "no-evidence",
+        "note": "作者稿 2508.07636 同篇，西交、上交和新泽西理工三所高校，未见指定企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Understanding Generalization through Decision Pattern Shift",
+        "url": "https://arxiv.org/abs/2605.13148",
+        "outcome": "no-evidence",
+        "note": "首稿列西交、上海交大、上海人工智能实验室，无指定企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Deliberation on Priors: Trustworthy Reasoning of Large Language Models on Knowledge Graphs",
+        "url": "https://arxiv.org/html/2505.15210v1",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2025 与作者版合并，主体署西交、重庆邮电和西北工业大学。渠宁曾在百度及字节实习，但该生本人列导师刘军（Jun Liu），未找到上述任一公司参加本项的证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "PARSIFAL: Private and Robust Sign Federated Learning",
+        "url": "https://doi.org/10.1145/3711896.3737074",
+        "outcome": "no-evidence",
+        "note": "ACM KDD 题录、官方发布视频的具名单位和校方书目一致，六位作者均西交，未见同项企业证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "VisitFrequency-Diffusion: Leveraging Recurrent Visits for Long-Term Individual Trajectory Forecasting",
+        "url": "https://doi.org/10.1145/3748636.3763227",
+        "outcome": "no-evidence",
+        "note": "正式 ACM 元数据七人署中国地质大学（北京）、北大、华东师大和西交；中国地大学校新闻明确首作师承公书慧，未见目标企业。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "TexGarment: Consistent Garment UV Texture Generation via Efficient 3D Structure-Guided Diffusion Transformer",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_TexGarment_Consistent_Garment_UV_Texture_Generation_via_Efficient_3D_Structure-Guided_CVPR_2025_paper.pdf",
+        "outcome": "lead",
+        "note": "CVPR 正式稿署百度 VIS、北大及西交裴红斌。北大的胡珈魁、熊伯君分别由陆延烨、连宙辉指导（本人明确），两位导师未列本篇。未获裴对本篇具名学生的同期跨校指导证据。不能以同一企业团队前篇 TexGaussian 回填。",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Non-Stationary Predictions May Be More Informative: Exploring Pseudo-Labels with a Two-Phase Pattern of Training Dynamics",
+        "url": "https://proceedings.mlr.press/v267/pei25a.html",
+        "outcome": "no-evidence",
+        "note": "正式稿署西交和北京信息科技大学。导师课题组列其中两位研究生的实习，但没有相应企业参与这项图学习论文的证据。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Multi-Track Message Passing: Tackling Oversmoothing and Oversquashing in Graph Learning via Preventing Heterophily Mixing",
+        "url": "https://proceedings.mlr.press/v235/pei24a.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式稿作者署西交和上海交大；赛题中的数据与公开代码未出现具名目标企业学术参与。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Memory Disagreement: A Pseudo-Labeling Measure from Training Dynamics for Semi-supervised Graph Learning",
+        "url": "https://doi.org/10.1145/3589334.3645398",
+        "outcome": "lead",
+        "note": "元数据明确百度 Jialun Liu 参与；裴组名录具名熊宇恒为其西交研究生，并列研究方向一致，但公开实习去向是阿里云，未证其在百度从事本篇项目。",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Deep click interest network for reranking hotels",
+        "url": "https://news.bistu.edu.cn/ztwz/cgzsztw/docs/2025-10/d3c048bbddc24c0494f6599d0341b97a.pdf",
+        "outcome": "no-evidence",
+        "note": "期刊最早 2023-12 在线，明确在美团酒店部署，三位美团作者；首作马登豪校方履历记 2020 已获人大博士，且论文其余署名非具名符合条件的在读学生。",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "HAGO-Net: Hierarchical Geometric Message Passing for Molecular Representation Learning",
+        "url": "https://doi.org/10.1609/aaai.v38i13.29373",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式文署西交与上交，裴组具名学生陈泰乐另有腾讯、蚂蚁实习，但原文没有证据说明这些企业参加此项。正式旧题曾将 Message 拼为 Massage。",
+        "relationIds": []
+      }
+    ],
+    "note": "西安交通大学网安院裴红斌的院校书目、本人书目和同组学生档案逐篇比对；学籍与企业具体项目分开验证，仍处逐篇补遗。"
   }
 };
