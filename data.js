@@ -14536,6 +14536,676 @@ const survey = {
         ]
       ],
       "evidence": "原文具名列蒲俊宋为第一作者、陈壮彬为共同通讯作者、字节跳动研究科学家刘金杨为同篇作者，并报告在该公司的生产环境完成系统评估。刘金杨在接收时将 ErrorPrism 具名列为其实习生项目。院系名录明确将同届 ASE 工业论文列为蒲俊宋本科产出，并列其实习期与研究重叠。"
+    },
+    {
+      "id": "percepcap-kuaishou-nju-heun8pcaaaaj",
+      "paperId": "arxiv:2607.20389",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "王利民 · Limin Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.nju.edu.cn/2f/cc/c2639a274380/pagem.htm"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "张远行的公开履历说明 2024 年起任职快手，现为可灵多模态理解团队负责人；原文以 Kling 团队署名。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "许一凡 · Yifan Xu",
+        "许一凡自述 2023 年起在南京大学攻读博士、2025 年 10 月起在快手可灵实习；本论文首页标注并说明其主要工作在快手可灵团队实习期间完成。",
+        "https://yi.fan/zh/"
+      ],
+      "title": "PercepCap: Video Captioner with Structured Spatio-Temporal Perception",
+      "short": "PercepCap",
+      "date": "2026-07",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2607.20389",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2607.20389"
+        ]
+      ],
+      "evidence": "许一凡自述 2023 年起在南京大学攻读博士、2025 年 10 月起在快手可灵实习；本论文首页标注并说明其主要工作在快手可灵团队实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "许一凡主页具名确认王利民是其南京大学博士生导师；王利民为本文通讯作者。",
+        "https://yi.fan/zh/"
+      ]
+    },
+    {
+      "id": "codecap-kuaishou-nju-yfi_rjuaaaaj",
+      "paperId": "arxiv:2610.37341",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "刘佳恒 · Jiaheng Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "http://is.nju.edu.cn/ljh/main.htm"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "张远行的公开履历说明 2024 年起任职快手，现为可灵多模态理解团队负责人；原文以 Kling 团队署名。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "汤家福 · Jiafu Tang",
+        "南京大学 LINK 团队记录汤家福为 2026 年起在读硕士，2025 年 12 月起在快手可灵实习；其在 2026 年 10 月公开的本文为并列第一作者，明确同时以南京大学及 Kling AI 署名。",
+        "https://liujiaheng.github.io/group.html?v=ecb4e245a982"
+      ],
+      "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
+      "short": "CodeCap-Bench",
+      "date": "2026-10",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2610.37341",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2610.37341"
+        ],
+        [
+          "可灵团队正式技术报告的贡献人名单",
+          "https://arxiv.org/html/2611.04916"
+        ]
+      ],
+      "evidence": "南京大学 LINK 团队记录汤家福为 2026 年起在读硕士，2025 年 12 月起在快手可灵实习；其在 2026 年 10 月公开的本文为并列第一作者，明确同时以南京大学及 Kling AI 署名。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "南京大学 LINK 实验室的研究生名单具名列出汤家福的硕士导师是刘佳恒；刘佳恒为本文通讯作者。",
+        "https://www.nju-link.com/zh/post/25-7-21-recruit2/"
+      ]
+    },
+    {
+      "id": "bytedance-logimprover-cuhk-michael-lyu",
+      "company": "字节跳动",
+      "team": "ByteBrain",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "Yichen Li",
+        "第一作者；2021 年 8 月至 2025 年 10 月就读港中文博士；2024 年 11 月至 2025 年 10 月在字节跳动 ByteBrain 任研究实习生。",
+        "https://yichenli00.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生在公开履历明示港中文博士导师为 Michael R. Lyu。",
+        "https://yichenli00.github.io/"
+      ],
+      "employee": [
+        "Jinyang Liu",
+        "2024 年 7 月博士答辩后全职加入字节跳动任研究科学家；文中以字节身份合著，并在本人主页把该论文列入其指导实习生的项目。",
+        "https://jinyang88.github.io/"
+      ],
+      "title": "Automated Proactive Logging Quality Improvement for Large-Scale Codebases",
+      "short": "LogImprover",
+      "date": "2025-11",
+      "venue": "ASE 2025 行业论文",
+      "area": "服务可靠性",
+      "paper": "https://doi.org/10.1109/ASE63991.2025.00283",
+      "extra": [
+        [
+          "正式论文作者与企业署名",
+          "https://zbchern.github.io/papers/ase25b.pdf"
+        ],
+        [
+          "港中文研究门户与 DOI",
+          "https://research.cuhk.edu.hk/en/publications/automated-proactive-logging-quality-improvement-for-large-scale-c/"
+        ],
+        [
+          "学生的实名论文目录",
+          "https://yichenli00.github.io/publications/"
+        ]
+      ],
+      "evidence": "LogImprover 已在字节跳动的代码库中部署；论文 2025 年 9 月获接收，处于该生港中文博士在读和字节实习重叠期。 学生本人提供同期博士、导师和字节跳动实习的起止日期；企业共同作者亦明确列此为其公司指导的实习生项目，正式论文把 Yichen Li 与同篇 Jinyang Liu 列在字节跳动署名下。"
+    },
+    {
+      "id": "bytedance-logpilot-cuhk-michael-lyu",
+      "company": "字节跳动",
+      "team": "ByteBrain",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "Yichen Li",
+        "第三作者；2021 年 8 月至 2025 年 10 月就读港中文博士；2024 年 11 月至 2025 年 10 月在字节跳动 ByteBrain 任研究实习生。",
+        "https://yichenli00.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生在公开履历明示港中文博士导师为 Michael R. Lyu。",
+        "https://yichenli00.github.io/"
+      ],
+      "employee": [
+        "Jinyang Liu",
+        "2024 年 7 月博士答辩后全职加入字节跳动任研究科学家；文中以字节身份合著，并在本人主页把该论文列入其指导实习生的项目。",
+        "https://jinyang88.github.io/"
+      ],
+      "title": "LogPilot: Intent-aware and Scalable Alert Diagnosis for Large-scale Online Service Systems",
+      "short": "LogPilot",
+      "date": "2025-11",
+      "venue": "ASE 2025 行业论文",
+      "area": "服务可靠性",
+      "paper": "https://doi.org/10.1109/ASE63991.2025.00272",
+      "extra": [
+        [
+          "正式论文作者与企业署名",
+          "https://zhihan-jiang.com/files/ASE25/LogPilot.pdf"
+        ],
+        [
+          "港中文研究门户与 DOI",
+          "https://research.cuhk.edu.hk/en/publications/logpilot-intent-aware-and-scalable-alert-diagnosis-for-large-scal/"
+        ],
+        [
+          "学生的实名论文目录",
+          "https://yichenli00.github.io/publications/"
+        ]
+      ],
+      "evidence": "LogPilot 的预印本于 2025 年 9 月发布；正式论文详述字节跳动火山引擎生产部署。以原文中明确署名字节的第三作者 Yichen Li 补齐同期实习证据，不推定同篇第一作者在字节实习。 学生本人提供同期博士、导师和字节跳动实习的起止日期；企业共同作者亦明确列此为其公司指导的实习生项目，正式论文把 Yichen Li 与同篇 Jinyang Liu 列在字节跳动署名下。"
+    },
+    {
+      "id": "huawei-magicdrive-cuhk-qiang-xu",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "高瑞元 · Ruiyuan Gao",
+        "2020 年 10 月至 2025 年 10 月在读港中文博士；2022 年 12 月至 2025 年 3 月在华为诺亚方舟实验室实习，从事自动驾驶图像、视频及三维场景合成。",
+        "https://gaoruiyuan.com/assets/pdf/Resume_RuiyuanGao.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页与港中文 CURE Lab 列明徐强为其博士导师；同时说明在读期间赴华为李政国团队开展研究。",
+        "https://gaoruiyuan.com/"
+      ],
+      "employee": [
+        "李政国 · Zhenguo Li",
+        "华为诺亚方舟实验室 AI 理论实验室主任；学生在读期间在其团队实习，本篇载华为署名。",
+        "https://zhenguol.github.io/"
+      ],
+      "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+      "short": "MagicDrive",
+      "date": "2024-05",
+      "venue": "ICLR 2024",
+      "area": "自动驾驶场景生成",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/635351dc3d18116d1a44ca31592e2f9a-Paper-Conference.pdf",
+      "extra": [
+        [
+          "校内 CURE Lab 教师与学生资料",
+          "https://cure-lab.github.io/"
+        ],
+        [
+          "华为方兰青洪履历和共同项目",
+          "https://racheltechie.github.io/"
+        ],
+        [
+          "华为开发者大会同期具名项目说明",
+          "https://gaoruiyuan.com/news/hdc2024/"
+        ]
+      ],
+      "evidence": "学生的华为实习履历直接列名其共同第一作者工作 MagicDrive 为在职项目；本人技术报告与华为同篇研究人员均证实该项目用于华为盘古 5.0，并于 HDC 2024 展示。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+    },
+    {
+      "id": "huawei-magicdrive3d-cuhk-qiang-xu",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "高瑞元 · Ruiyuan Gao",
+        "2020 年 10 月至 2025 年 10 月在读港中文博士；2022 年 12 月至 2025 年 3 月在华为诺亚方舟实验室实习，从事自动驾驶图像、视频及三维场景合成。",
+        "https://gaoruiyuan.com/assets/pdf/Resume_RuiyuanGao.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页与港中文 CURE Lab 列明徐强为其博士导师；同时说明在读期间赴华为李政国团队开展研究。",
+        "https://gaoruiyuan.com/"
+      ],
+      "employee": [
+        "李政国 · Zhenguo Li",
+        "华为诺亚方舟实验室 AI 理论实验室主任；学生在读期间在其团队实习，本篇载华为署名。",
+        "https://zhenguol.github.io/"
+      ],
+      "title": "MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes",
+      "short": "MagicDrive3D",
+      "date": "2026-03",
+      "venue": "WACV 2026",
+      "area": "自动驾驶场景生成",
+      "paper": "https://openaccess.thecvf.com/content/WACV2026/html/Gao_MagicDrive3D_Controllable_3D_Generation_for_Any-View_Rendering_in_Street_Scenes_WACV_2026_paper.html",
+      "extra": [
+        [
+          "校内 CURE Lab 教师与学生资料",
+          "https://cure-lab.github.io/"
+        ],
+        [
+          "华为方兰青洪履历和共同项目",
+          "https://racheltechie.github.io/"
+        ],
+        [
+          "华为开发者大会同期具名项目说明",
+          "https://gaoruiyuan.com/news/hdc2024/"
+        ],
+        [
+          "同期论文原稿",
+          "https://arxiv.org/abs/2405.14475"
+        ],
+        [
+          "同期三维模型项目",
+          "https://github.com/flymin/MagicDrive3D"
+        ]
+      ],
+      "evidence": "学生在华为实习期间具名发布的华为大会技术说明，将由其任第一作者的 MagicDrive3D 明确关联到展示的跨视角一致三维场景生成；2024 年 5 月预印本当时即注明与团队导师等共同署名。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+    },
+    {
+      "id": "huawei-magicdrive-v2-cuhk-qiang-xu",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "高瑞元 · Ruiyuan Gao",
+        "2020 年 10 月至 2025 年 10 月在读港中文博士；2022 年 12 月至 2025 年 3 月在华为诺亚方舟实验室实习，从事自动驾驶图像、视频及三维场景合成。",
+        "https://gaoruiyuan.com/assets/pdf/Resume_RuiyuanGao.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页与港中文 CURE Lab 列明徐强为其博士导师；同时说明在读期间赴华为李政国团队开展研究。",
+        "https://gaoruiyuan.com/"
+      ],
+      "employee": [
+        "李政国 · Zhenguo Li",
+        "华为诺亚方舟实验室 AI 理论实验室主任；学生在读期间在其团队实习，本篇载华为署名。",
+        "https://zhenguol.github.io/"
+      ],
+      "title": "MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control",
+      "short": "MagicDrive-V2",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "自动驾驶场景生成",
+      "paper": "https://doi.org/10.1109/ICCV51701.2025.02612",
+      "extra": [
+        [
+          "校内 CURE Lab 教师与学生资料",
+          "https://cure-lab.github.io/"
+        ],
+        [
+          "华为方兰青洪履历和共同项目",
+          "https://racheltechie.github.io/"
+        ],
+        [
+          "同期模型权重及作者",
+          "https://huggingface.co/flymin/MagicDriveDiT-stage3-40k-ft"
+        ],
+        [
+          "华为昇腾项目登记",
+          "https://github.com/Ascend/DrivingSDK/blob/master/model_examples/MagicDrive-V2/README.md"
+        ],
+        [
+          "首版预印本",
+          "https://arxiv.org/abs/2411.13807"
+        ]
+      ],
+      "evidence": "学生华为实习任期内担任该自动驾驶生成项目第一作者，个人同步记录在 2024 年 11、12 月完成技术报告、训练代码和权重发布；正式论文的多位华为共同作者包括该生的实际实习导师。华为昇腾官方 SDK 2025 年 4 月另列此具体模型及项目链接。V2 有独立论文标识和 DiT 架构，早期名为 MagicDriveDiT。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+    },
+    {
+      "id": "huawei-detdiffusion-cuhk-qiang-xu",
+      "company": "华为",
+      "team": "诺亚方舟实验室",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "徐强 · Qiang Xu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "高瑞元 · Ruiyuan Gao",
+        "2020 年 10 月至 2025 年 10 月在读港中文博士；2022 年 12 月至 2025 年 3 月在华为诺亚方舟实验室实习，从事自动驾驶图像、视频及三维场景合成。",
+        "https://gaoruiyuan.com/assets/pdf/Resume_RuiyuanGao.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页与港中文 CURE Lab 列明徐强为其博士导师；同时说明在读期间赴华为李政国团队开展研究。",
+        "https://gaoruiyuan.com/"
+      ],
+      "employee": [
+        "李政国 · Zhenguo Li",
+        "华为诺亚方舟实验室 AI 理论实验室主任；学生在读期间在其团队实习，本篇载华为署名。",
+        "https://zhenguol.github.io/"
+      ],
+      "title": "DetDiffusion: Synergizing Generative and Perceptive Models for Enhanced Data Generation and Perception",
+      "short": "DetDiffusion",
+      "date": "2024-06",
+      "venue": "CVPR 2024",
+      "area": "自动驾驶场景生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DetDiffusion_Synergizing_Generative_and_Perceptive_Models_for_Enhanced_Data_Generation_CVPR_2024_paper.html",
+      "extra": [
+        [
+          "校内 CURE Lab 教师与学生资料",
+          "https://cure-lab.github.io/"
+        ],
+        [
+          "华为方兰青洪履历和共同项目",
+          "https://racheltechie.github.io/"
+        ],
+        [
+          "同期公开稿",
+          "https://arxiv.org/abs/2403.13304"
+        ],
+        [
+          "华为合著者具名项目说明",
+          "https://racheltechie.github.io/"
+        ]
+      ],
+      "evidence": "华为科研人员 Lanqing Hong 的公开项目履历，将由该生共同第一署名的 DetDiffusion、MagicDrive 和 GeoDiffusion 具名列为其在华为的可控自动驾驶场景生成项目；项目和论文均在 Gao 所列的华为实习和港中文学籍期内。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+    },
+    {
+      "id": "kuaishou-unisar-ruc-xu",
+      "company": "快手",
+      "team": "搜索与推荐",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "Xiaoxue Zang",
+        "快手推荐算法专家；快手长序列推荐线上研究 TWIN V2 同期署快手，且两篇目标论文均署快手。",
+        "https://www.linkedin.com/in/xiaoxue-zang-53b275137"
+      ],
+      "student": [
+        "Teng Shi",
+        "本人主页注明中国人民大学高瓴人工智能学院在读博士、2023 年 8 月至 2025 年 7 月为快手研究实习生。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "title": "UniSAR: Modeling User Transition Behaviors between Search and Recommendation",
+      "short": "UniSAR",
+      "date": "2024-07",
+      "venue": "ACM SIGIR 2024",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/html/2404.09520v1",
+      "evidence": "本篇首页明确标注 Teng Shi 与 Zihua Si 在快手实习期间完成；第一作者本人确认研究发生期及博士导师。",
+      "advising": [
+        "校内共同指导",
+        "Teng Shi 的本人学术主页具名列徐君、Xiao Zhang 为中国人民大学博士导师。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "extra": [
+        [
+          "同期快手线上研究 TWIN V2",
+          "https://arxiv.org/html/2407.16357v1"
+        ]
+      ],
+      "paperId": "arxiv:2404.09520"
+    },
+    {
+      "id": "kuaishou-cfrag-ruc-xu",
+      "company": "快手",
+      "team": "搜索与推荐",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "Xiaoxue Zang",
+        "快手推荐算法专家；快手长序列推荐线上研究 TWIN V2 同期署快手，且两篇目标论文均署快手。",
+        "https://www.linkedin.com/in/xiaoxue-zang-53b275137"
+      ],
+      "student": [
+        "Teng Shi",
+        "本人主页注明中国人民大学高瓴人工智能学院在读博士、2023 年 8 月至 2025 年 7 月为快手研究实习生。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "title": "Retrieval Augmented Generation with Collaborative Filtering for Personalized Text Generation",
+      "short": "CF-RAG",
+      "date": "2025-07",
+      "venue": "ACM SIGIR 2025",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/html/2504.05731v1",
+      "evidence": "首页具名脚注明确论文在 Teng Shi 的快手实习期间完成，导师与快手员工在同篇。",
+      "advising": [
+        "校内共同指导",
+        "Teng Shi 的本人学术主页具名列徐君、Xiao Zhang 为中国人民大学博士导师。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "extra": [
+        [
+          "同期快手线上研究 TWIN V2",
+          "https://arxiv.org/html/2407.16357v1"
+        ]
+      ],
+      "paperId": "arxiv:2504.05731"
+    },
+    {
+      "id": "kuaishou-gensar-ruc-xu",
+      "company": "快手",
+      "team": "搜索与推荐",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "Xiaoxue Zang",
+        "快手推荐算法专家；企业导师与在任时间可由学生履历、同一阶段工业论文与任职履历相互核对。",
+        "https://www.linkedin.com/in/xiaoxue-zang-53b275137"
+      ],
+      "student": [
+        "Teng Shi",
+        "本人主页注明中国人民大学高瓴人工智能学院在读博士、2023 年 8 月至 2025 年 7 月为快手研究实习生。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "title": "GenSAR: Unifying Balanced Search and Recommendation with Generative Retrieval",
+      "short": "GenSAR",
+      "date": "2025-09",
+      "venue": "ACM RecSys 2025",
+      "area": "搜索与推荐",
+      "paper": "https://ai.ruc.edu.cn/uploads/20251110/b7c61d80d495d8b4fcc0742a93d8831a.pdf",
+      "evidence": "人大公开的正式稿首页明确声明 Teng Shi 在快手实习期间完成论文，署名另含徐君和快手员工。",
+      "advising": [
+        "校内共同指导",
+        "Teng Shi 的本人学术主页具名列徐君、Xiao Zhang 为中国人民大学博士导师。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "extra": [
+        [
+          "ACM 正式发表",
+          "https://doi.org/10.1145/3705328.3748071"
+        ],
+        [
+          "同期快手线上研究 TWIN V2",
+          "https://arxiv.org/html/2407.16357v1"
+        ]
+      ],
+      "paperId": "doi:10.1145/3705328.3748071"
+    },
+    {
+      "id": "kuaishou-saqrec-ruc-xu",
+      "company": "快手",
+      "team": "搜索与推荐",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "Xiaoxue Zang",
+        "快手推荐算法专家；企业导师与在任时间可由学生履历、同一阶段工业论文与任职履历相互核对。",
+        "https://www.linkedin.com/in/xiaoxue-zang-53b275137"
+      ],
+      "student": [
+        "Teng Shi",
+        "本人主页注明中国人民大学高瓴人工智能学院在读博士、2023 年 8 月至 2025 年 7 月为快手研究实习生。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "title": "SAQRec: Aligning Recommender Systems to User Satisfaction via Questionnaire Feedback",
+      "short": "SAQRec",
+      "date": "2024-10",
+      "venue": "ACM CIKM 2024",
+      "area": "搜索与推荐",
+      "paper": "https://gsai.ruc.edu.cn/uploads/20241023/683f0db249cd0b32fce84298a4c4618b.pdf",
+      "evidence": "正式稿首页具名注明 Teng Shi 和 Kepu Zhang 在快手实习期间完成论文；同篇有 Teng Shi 的校内导师徐君，以及快手 Xiaoxue Zang。",
+      "advising": [
+        "校内共同指导",
+        "Teng Shi 的本人学术主页具名列徐君、Xiao Zhang 为中国人民大学博士导师。",
+        "https://tengshi-ruc.github.io/"
+      ],
+      "extra": [
+        [
+          "ACM 正式发表",
+          "https://doi.org/10.1145/3627673.3679643"
+        ],
+        [
+          "同期快手线上研究 TWIN V2",
+          "https://arxiv.org/html/2407.16357v1"
+        ]
+      ],
+      "paperId": "doi:10.1145/3627673.3679643"
+    },
+    {
+      "id": "kuaishou-search-meets-recommendation-ruc-xu",
+      "company": "快手",
+      "team": "搜索与推荐",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "徐君 · Jun Xu",
+        "中国人民大学高瓴人工智能学院教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+      ],
+      "employee": [
+        "Xiaoxue Zang",
+        "快手推荐算法专家；孙忠祥的履历列实际企业导师 Xiaoxue Zang，其任职履历为快手。",
+        "https://www.linkedin.com/in/xiaoxue-zang-53b275137"
+      ],
+      "student": [
+        "孙忠祥 · Zhongxiang Sun",
+        "本人主页记载高瓴人工智能学院博士、2022 年 2 月至 2025 年 6 月为快手研究实习生。",
+        "https://jeryi-sun.github.io/"
+      ],
+      "title": "When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation",
+      "short": "When Search Meets Recommendation",
+      "date": "2023-07",
+      "venue": "ACM SIGIR 2023",
+      "area": "搜索与推荐",
+      "paper": "https://gsai.ruc.edu.cn/uploads/20230518/9d1f9b4bc1c31dad014b1e624fbdea05.pdf",
+      "evidence": "大学保存的正式会议论文具名标注孙忠祥与 Zihua Si 在快手实习期间完成研究；人大校内导师徐君与其快手实习导师 Xiaoxue Zang 均同篇署名。",
+      "advising": [
+        "校内导师",
+        "本人学术主页具名徐君指导其在中国人民大学的博士学业。",
+        "https://jeryi-sun.github.io/"
+      ]
+    },
+    {
+      "id": "alibaba-recbot-ruc-chen",
+      "company": "阿里巴巴",
+      "team": "淘天推荐",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "陈旭 · Xu Chen",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm"
+      ],
+      "employee": [
+        "Bo Zheng",
+        "ACM 中国图灵大会履历确认 2017 年加入阿里巴巴，任阿里妈妈和闲鱼 CTO；这篇同期论文署阿里巴巴。",
+        "https://www.acmturc.com/2023/en/mobile/SIGAI_China.html"
+      ],
+      "student": [
+        "唐嘉凯 · Jiakai Tang",
+        "本人主页列 2022 年 9 月起在中国人民大学硕博连读，并具名列校内导师陈旭。 2025 年 4 月起为阿里淘天团队 T-Star 推荐算法实习生。",
+        "https://tangjiakai.github.io/index.html"
+      ],
+      "title": "Interactive Recommendation Agent with Active User Commands",
+      "short": "RecBot",
+      "date": "2025-09-25",
+      "venue": "arXiv；KDD 2026",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/html/2509.21317v1",
+      "evidence": "论文首页在唐嘉凯姓名后具名关联阿里实习脚注，导师陈旭是同篇通讯作者，企业研发主管 Bo Zheng 列阿里巴巴。",
+      "advising": [
+        "校内导师",
+        "唐嘉凯本人在教育经历中具名列陈旭为人大硕博连读导师。",
+        "https://tangjiakai.github.io/index.html"
+      ],
+      "paperId": "arxiv:2509.21317"
+    },
+    {
+      "id": "tencent-kapa-ruc-chen",
+      "company": "腾讯",
+      "team": "微信",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "陈旭 · Xu Chen",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm"
+      ],
+      "employee": [
+        "沈世奇 · Shiqi Shen",
+        "个人学术页确认在腾讯微信任职，本篇正式会议版署 WeChat, Tencent。",
+        "https://shenshiqi.com/academic/"
+      ],
+      "student": [
+        "唐嘉凯 · Jiakai Tang",
+        "本人主页列 2022 年 9 月起在中国人民大学硕博连读，并具名列校内导师陈旭。 2024 年 11 月至 2025 年 3 月在腾讯微信担任大模型智能体算法实习生。",
+        "https://tangjiakai.github.io/index.html"
+      ],
+      "title": "KAPA: A Deliberative Agent Framework with Tree-Structured Knowledge Base for Multi-Domain User Intent Understanding",
+      "short": "KAPA",
+      "date": "2025-07",
+      "venue": "Findings of ACL 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2025.findings-acl.319.pdf",
+      "evidence": "正式会议版首页脚注明确唐嘉凯在腾讯访问期间完成本工作；本人履历标明是腾讯微信实习。校内导师陈旭和腾讯微信员工沈世奇同篇署名。",
+      "advising": [
+        "校内导师",
+        "唐嘉凯本人在教育经历中具名列陈旭为人大硕博连读导师。",
+        "https://tangjiakai.github.io/index.html"
+      ],
+      "paperId": "doi:10.18653/v1/2025.findings-acl.319"
     }
   ]
 };

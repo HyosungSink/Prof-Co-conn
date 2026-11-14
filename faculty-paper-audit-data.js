@@ -2655,7 +2655,16 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2307.10869",
       "https://arxiv.org/abs/2506.04569",
       "https://ojs.aaai.org/index.php/AAAI/article/view/28622",
-      "https://arxiv.org/abs/2205.15228"
+      "https://arxiv.org/abs/2205.15228",
+      "https://doi.org/10.1109/ASE63991.2025.00283",
+      "https://yichenli00.github.io/",
+      "https://jinyang88.github.io/",
+      "https://zbchern.github.io/papers/ase25b.pdf",
+      "https://research.cuhk.edu.hk/en/publications/automated-proactive-logging-quality-improvement-for-large-scale-c/",
+      "https://yichenli00.github.io/publications/",
+      "https://doi.org/10.1109/ASE63991.2025.00272",
+      "https://zhihan-jiang.com/files/ASE25/LogPilot.pdf",
+      "https://research.cuhk.edu.hk/en/publications/logpilot-intent-aware-and-scalable-alert-diagnosis-for-large-scal/"
     ],
     "papers": [
       {
@@ -2693,6 +2702,18 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2205.15228",
         "outcome": "lead",
         "note": "学生名列共同作者，未发现同期参与对应企业项目的公开证据；不计。"
+      },
+      {
+        "title": "Automated Proactive Logging Quality Improvement for Large-Scale Codebases",
+        "url": "https://doi.org/10.1109/ASE63991.2025.00283",
+        "outcome": "confirmed",
+        "note": "LogImprover 已在字节跳动的代码库中部署；论文 2025 年 9 月获接收，处于该生港中文博士在读和字节实习重叠期。 学生本人提供同期博士、导师和字节跳动实习的起止日期；企业共同作者亦明确列此为其公司指导的实习生项目，正式论文把 Yichen Li 与同篇 Jinyang Liu 列在字节跳动署名下。"
+      },
+      {
+        "title": "LogPilot: Intent-aware and Scalable Alert Diagnosis for Large-scale Online Service Systems",
+        "url": "https://doi.org/10.1109/ASE63991.2025.00272",
+        "outcome": "confirmed",
+        "note": "LogPilot 的预印本于 2025 年 9 月发布；正式论文详述字节跳动火山引擎生产部署。以原文中明确署名字节的第三作者 Yichen Li 补齐同期实习证据，不推定同篇第一作者在字节实习。 学生本人提供同期博士、导师和字节跳动实习的起止日期；企业共同作者亦明确列此为其公司指导的实习生项目，正式论文把 Yichen Li 与同篇 Jinyang Liu 列在字节跳动署名下。"
       }
     ]
   },
@@ -2783,5 +2804,229 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已核对组内学生在校与企业实习经历、相关 ASE 和 ICSE 论文。作者书目还需继续逐篇交叉核对。"
+  },
+  "HEuN8PcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.nju.edu.cn/2f/cc/c2639a274380/pagem.htm",
+      "https://yi.fan/zh/"
+    ],
+    "papers": [
+      {
+        "title": "PercepCap: Video Captioner with Structured Spatio-Temporal Perception",
+        "url": "https://arxiv.org/pdf/2607.20389",
+        "outcome": "confirmed",
+        "note": "许一凡自述 2023 年起在南京大学攻读博士、2025 年 10 月起在快手可灵实习；本论文首页标注并说明其主要工作在快手可灵团队实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "yFI_RjUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "http://is.nju.edu.cn/ljh/main.htm",
+      "https://liujiaheng.github.io/group.html?v=ecb4e245a982",
+      "https://www.nju-link.com/zh/post/25-7-21-recruit2/"
+    ],
+    "papers": [
+      {
+        "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
+        "url": "https://arxiv.org/pdf/2610.37341",
+        "outcome": "confirmed",
+        "note": "南京大学 LINK 团队记录汤家福为 2026 年起在读硕士，2025 年 12 月起在快手可灵实习；其在 2026 年 10 月公开的本文为并列第一作者，明确同时以南京大学及 Kling AI 署名。"
+      },
+      {
+        "title": "IF-VidCap: Can Video Caption Models Follow Instructions?",
+        "url": "https://arxiv.org/pdf/2510.18726",
+        "outcome": "lead",
+        "note": "已核对在读学生、导师和企业研究员名单；原文将学生署为南京大学，未查到具名证据确认李世昊在快手参与此项研究。"
+      },
+      {
+        "title": "ViDiC: Video Difference Captioning",
+        "url": "https://arxiv.org/pdf/2512.03405",
+        "outcome": "lead",
+        "note": "李世昊为共同第一作者，南京大学和快手可灵团队合作；可灵团队的后续技术报告使用该基准，但仍待查明李世昊如何以快手实习生身份参与此项目。"
+      },
+      {
+        "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
+        "url": "https://proceedings.mlr.press/v306/cao26v.html",
+        "outcome": "lead",
+        "note": "同篇有刘佳恒、快手张远行及硕士汪洋海；原文将汪洋海仅署南京大学，现有资料尚未具名说明其同项企业工作。"
+      },
+      {
+        "title": "AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning",
+        "url": "https://arxiv.org/pdf/2607.12820",
+        "outcome": "lead",
+        "note": "同篇有刘佳恒、张远行和学生汪洋海；后者的实习区间已知，但仍缺该篇学生参与企业研究的直接材料。"
+      },
+      {
+        "title": "DR³-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+        "url": "https://aclanthology.org/2026.emnlp-main.1691/",
+        "outcome": "lead",
+        "note": "核对题录和预印本署名，合作企业为九天研究机构；暂无证据确认所涉目标企业中的正式员工和学生的同一项目。"
+      },
+      {
+        "title": "OmniCap-IF: Benchmarking and Improving Instruction Following Abilities for Omni-Video Captioning",
+        "url": "https://arxiv.org/pdf/2606.08572",
+        "outcome": "lead",
+        "note": "王佳豪主页确认该项目为校企合作；仍需核对学生在项目中的企业研究角色。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "eSiKPqUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2024/file/635351dc3d18116d1a44ca31592e2f9a-Paper-Conference.pdf",
+      "https://gaoruiyuan.com/assets/pdf/Resume_RuiyuanGao.pdf",
+      "https://gaoruiyuan.com/",
+      "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/",
+      "https://zhenguol.github.io/",
+      "https://cure-lab.github.io/",
+      "https://racheltechie.github.io/",
+      "https://gaoruiyuan.com/news/hdc2024/",
+      "https://openaccess.thecvf.com/content/WACV2026/html/Gao_MagicDrive3D_Controllable_3D_Generation_for_Any-View_Rendering_in_Street_Scenes_WACV_2026_paper.html",
+      "https://arxiv.org/abs/2405.14475",
+      "https://github.com/flymin/MagicDrive3D",
+      "https://doi.org/10.1109/ICCV51701.2025.02612",
+      "https://huggingface.co/flymin/MagicDriveDiT-stage3-40k-ft",
+      "https://github.com/Ascend/DrivingSDK/blob/master/model_examples/MagicDrive-V2/README.md",
+      "https://arxiv.org/abs/2411.13807",
+      "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DetDiffusion_Synergizing_Generative_and_Perceptive_Models_for_Enhanced_Data_Generation_CVPR_2024_paper.html",
+      "https://arxiv.org/abs/2403.13304",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/635351dc3d18116d1a44ca31592e2f9a-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "学生的华为实习履历直接列名其共同第一作者工作 MagicDrive 为在职项目；本人技术报告与华为同篇研究人员均证实该项目用于华为盘古 5.0，并于 HDC 2024 展示。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+      },
+      {
+        "title": "MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes",
+        "url": "https://openaccess.thecvf.com/content/WACV2026/html/Gao_MagicDrive3D_Controllable_3D_Generation_for_Any-View_Rendering_in_Street_Scenes_WACV_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "学生在华为实习期间具名发布的华为大会技术说明，将由其任第一作者的 MagicDrive3D 明确关联到展示的跨视角一致三维场景生成；2024 年 5 月预印本当时即注明与团队导师等共同署名。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+      },
+      {
+        "title": "MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.02612",
+        "outcome": "confirmed",
+        "note": "学生华为实习任期内担任该自动驾驶生成项目第一作者，个人同步记录在 2024 年 11、12 月完成技术报告、训练代码和权重发布；正式论文的多位华为共同作者包括该生的实际实习导师。华为昇腾官方 SDK 2025 年 4 月另列此具体模型及项目链接。V2 有独立论文标识和 DiT 架构，早期名为 MagicDriveDiT。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+      },
+      {
+        "title": "DetDiffusion: Synergizing Generative and Perceptive Models for Enhanced Data Generation and Perception",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DetDiffusion_Synergizing_Generative_and_Perceptive_Models_for_Enhanced_Data_Generation_CVPR_2024_paper.html",
+        "outcome": "confirmed",
+        "note": "华为科研人员 Lanqing Hong 的公开项目履历，将由该生共同第一署名的 DetDiffusion、MagicDrive 和 GeoDiffusion 具名列为其在华为的可控自动驾驶场景生成项目；项目和论文均在 Gao 所列的华为实习和港中文学籍期内。 Gao 本人简历及主页确认同期学籍、导师徐强和在华为李政国团队的实习。徐强、李政国和高瑞元在正式论文共同署名。"
+      },
+      {
+        "title": "DiffGuard: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf",
+        "outcome": "lead",
+        "note": "导师徐强、博士生高瑞元和华为员工洪兰青同篇；同期实习履历明确为自动驾驶合成，尚未核实这篇分布外检测具体在华为实习期如何贡献。"
+      }
+    ]
+  },
+  "su14mcEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm",
+      "https://www.linkedin.com/in/xiaoxue-zang-53b275137",
+      "https://tengshi-ruc.github.io/",
+      "https://jeryi-sun.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "UniSAR: Modeling User Transition Behaviors between Search and Recommendation",
+        "url": "https://arxiv.org/html/2404.09520v1",
+        "outcome": "confirmed",
+        "note": "本篇首页明确标注 Teng Shi 与 Zihua Si 在快手实习期间完成；第一作者本人确认研究发生期及博士导师。"
+      },
+      {
+        "title": "Retrieval Augmented Generation with Collaborative Filtering for Personalized Text Generation",
+        "url": "https://arxiv.org/html/2504.05731v1",
+        "outcome": "confirmed",
+        "note": "首页具名脚注明确论文在 Teng Shi 的快手实习期间完成，导师与快手员工在同篇。"
+      },
+      {
+        "title": "GenSAR: Unifying Balanced Search and Recommendation with Generative Retrieval",
+        "url": "https://ai.ruc.edu.cn/uploads/20251110/b7c61d80d495d8b4fcc0742a93d8831a.pdf",
+        "outcome": "confirmed",
+        "note": "人大公开的正式稿首页明确声明 Teng Shi 在快手实习期间完成论文，署名另含徐君和快手员工。"
+      },
+      {
+        "title": "SAQRec: Aligning Recommender Systems to User Satisfaction via Questionnaire Feedback",
+        "url": "https://gsai.ruc.edu.cn/uploads/20241023/683f0db249cd0b32fce84298a4c4618b.pdf",
+        "outcome": "confirmed",
+        "note": "正式稿首页具名注明 Teng Shi 和 Kepu Zhang 在快手实习期间完成论文；同篇有 Teng Shi 的校内导师徐君，以及快手 Xiaoxue Zang。"
+      },
+      {
+        "title": "When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation",
+        "url": "https://gsai.ruc.edu.cn/uploads/20230518/9d1f9b4bc1c31dad014b1e624fbdea05.pdf",
+        "outcome": "confirmed",
+        "note": "正式稿具名实习、本人主页同时具名两个导师。"
+      },
+      {
+        "title": "KuaiSAR: A Unified Search And Recommendation Dataset",
+        "url": "https://arxiv.org/html/2306.07705",
+        "outcome": "lead",
+        "note": "同一团队于在读及实习期间合著；首版未找到与本论文具名匹配的实习证据。"
+      },
+      {
+        "title": "Large Language Models Enhanced Collaborative Filtering",
+        "url": "https://ai.ruc.edu.cn/uploads/20241023/ad5edba483957f7f3ed623be97172224.pdf",
+        "outcome": "lead",
+        "note": "三位同篇、期间重合；原文未找到实习具名。"
+      }
+    ],
+    "note": "目前重点核对徐君学生在快手的研究，未覆盖完整发表书目。"
+  },
+  "loPoqy0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm",
+      "https://tangjiakai.github.io/index.html",
+      "https://www.acmturc.com/2023/en/mobile/SIGAI_China.html",
+      "https://shenshiqi.com/academic/"
+    ],
+    "papers": [
+      {
+        "title": "KAPA: A Deliberative Agent Framework with Tree-Structured Knowledge Base for Multi-Domain User Intent Understanding",
+        "url": "https://aclanthology.org/2025.findings-acl.319.pdf",
+        "outcome": "confirmed",
+        "note": "同行评议版本标注唐嘉凯在腾讯访问期间完成，实习、学籍、校内导师、企业在岗互证。"
+      },
+      {
+        "title": "Interactive Recommendation Agent with Active User Commands",
+        "url": "https://arxiv.org/html/2509.21317v1",
+        "outcome": "confirmed",
+        "note": "原文注明阿里实习完成；学生博士教育和同篇企业员工身份明确。"
+      },
+      {
+        "title": "GenSim: A General Social Simulation Platform with Large Language Model based Agents",
+        "url": "https://aclanthology.org/2025.naacl-demo.15.pdf",
+        "outcome": "lead",
+        "note": "作者实习期与阿里团队合著重叠，但正式全文和初版未发现具名实习或在阿里完成的说明。"
+      },
+      {
+        "title": "RecGPT-V2 Technical Report",
+        "url": "https://arxiv.org/html/2512.14503v1",
+        "outcome": "lead",
+        "note": "淘宝线上项目明确本人核心贡献且实习期重合；正在查是否有企业正式具名表述。"
+      }
+    ],
+    "note": "仅重点核对唐嘉凯的校企研究成果。"
   }
 };
