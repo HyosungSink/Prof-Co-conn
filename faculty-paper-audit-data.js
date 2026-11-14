@@ -11072,7 +11072,7 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。",
-        "year": 2026
+        "year": 2025
       },
       {
         "title": "Taming Diffusion Probabilistic Models for Character Control",
@@ -47078,5 +47078,278 @@ const facultyPaperAudits = {
       }
     ],
     "note": "教师按年公开书目、DBLP 题录、arXiv 精确作者检索及主要合著者公开书目交叉比对，范围截止 2026-11-12。核到个人站未列的 2026-09 独著；旧 ICML 2021 Optimal Streaming Algorithms 仅于 2024 重上传 arXiv，原文明确引用 ICML 2021，两版不重复。Stochastic Bandits for Egalitarian Assignment 正式版列 Eugene Lim、Vincent Y. F. Tan、Harold Soh，不是晋天元的论文。"
+  },
+  "hbqQIB8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://orcid.org/0000-0001-6760-5539",
+      "https://www.research-collection.ethz.ch/items/67980fe8-92c7-44ab-bd81-626e0f7a45ab",
+      "https://xplorestaging.ieee.org/author/37086854469",
+      "https://jsj.nwpu.edu.cn/snew/szdwlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1515",
+      "https://www.research-collection.ethz.ch/server/api/core/bitstreams/d2056d5a-6ecc-4248-8b6f-142941b31dbd/content"
+    ],
+    "papers": [
+      {
+        "title": "AutoResearcHAR: A Multi-Agent Framework for Dataset Adaptive IMU Based Human Activity Recognition",
+        "url": "https://doi.org/10.1145/3830727.3834823",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "ACM 正式作者栏列西北工业大学、德国人工智能研究中心、凯泽斯劳滕-兰道大学和高丽大学，未见范围内企业。"
+      },
+      {
+        "title": "LoftSense: Volumetric Filling-as-Sensing for Wearable Interactions in Filled Garments",
+        "url": "https://doi.org/10.1145/3830727.3834839",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "ACM 作者单位有 NTT 意大利、德国人工智能研究中心、柏林艺术大学和西北工业大学；NTT 不在调查范围。"
+      },
+      {
+        "title": "Human-Computer Co-Regulation: A Review of Biofeedback for Meditative Practice",
+        "url": "https://doi.org/10.1145/3831659",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "ACM 正式书目列西北工业大学以及德国、日本的高校、科研机构，未见范围内企业。"
+      },
+      {
+        "title": "Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook",
+        "url": "https://doi.org/10.1145/3810230",
+        "outcome": "no-evidence",
+        "year": 2026,
+        "note": "ACM 正式论文与 2604.02711 同项综述，作者来自西北工业大学、哈尔滨工程大学、德国人工智能研究中心、凯泽斯劳滕-兰道大学和佐治亚理工。"
+      },
+      {
+        "title": "Passive Body-Area Electrostatic Field (Human Body Capacitance) for Ubiquitous Computing",
+        "url": "https://doi.org/10.1145/3714394.3756164",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "ACM 会议作者机构均为德国人工智能研究中心。"
+      },
+      {
+        "title": "From Neck to Head: Bio-Impedance Sensing for Head Pose Estimation",
+        "url": "https://doi.org/10.1145/3715071.3750425",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "ACM 正式作者来自德国人工智能研究中心与南安普顿大学研究团队。"
+      },
+      {
+        "title": "TinierHAR: Towards Ultra-Lightweight Deep Learning Models for Efficient Human Activity Recognition on Edge Devices",
+        "url": "https://doi.org/10.1145/3715071.3750410",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "ACM 正文机构为德国人工智能研究中心和凯泽斯劳滕-兰道大学。"
+      },
+      {
+        "title": "iBreath: Usage of Breathing Gestures as Means of Interactions",
+        "url": "https://doi.org/10.1145/3743710",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "ACM 正式题录单位是德国人工智能研究中心和凯泽斯劳滕-兰道大学；同 DOI 的两条 ORCID 记录合并。"
+      },
+      {
+        "title": "ODISI: On-Device Intelligence for Smart Interactions",
+        "url": "https://doi.org/10.1145/3737821.3743746",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "ACM 正式登记列德国人工智能研究中心、凯泽斯劳滕-兰道大学、慕尼黑大学、联邦国防军大学和马尔默大学，未见范围内企业。"
+      },
+      {
+        "title": "Optimizing Energy Consumption and Coverage in Underwater Magnetic Induction-Assisted Acoustic WSNs Using Learning Automata-Based Cooperative MIMO Formation",
+        "url": "https://doi.org/10.1109/tnse.2025.3561751",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 文章机构包括中国矿业大学、苏黎世联邦理工学院与江苏建筑职业技术学院。"
+      },
+      {
+        "title": "A Magnetic Field-based Ubiquitous 3D Tracking System With Physics-informed Deep Supervision Neural Network",
+        "url": "https://doi.org/10.21203/rs.3.rs-6908305/v1",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "Research Square 首版作者为凯泽斯劳滕-兰道大学和德国人工智能研究中心，利益披露无企业。"
+      },
+      {
+        "title": "Facial Gesture Recognition Using Bio-impedance Sensing",
+        "url": "https://doi.org/10.1145/3745900.3746120",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "ACM 会议文章作者所属德国人工智能研究中心，未见目标企业。"
+      },
+      {
+        "title": "Assessing the Impact of Sampling Irregularity in Time Series Data: Human Activity Recognition As A Case Study",
+        "url": "https://doi.org/10.1109/percomworkshops65533.2025.00083",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 登记作者五人，机构为德国人工智能研究中心。"
+      },
+      {
+        "title": "Collaborative Human Activity Recognition with Passive Inter-Body Electrostatic Field",
+        "url": "https://doi.org/10.1109/percomworkshops65533.2025.00082",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 会议作者为德国人工智能研究中心与凯泽斯劳滕-兰道大学。"
+      },
+      {
+        "title": "Efficient Continual Learning in Keyword Spotting using Binary Neural Networks",
+        "url": "https://doi.org/10.1109/sas65169.2025.11105106",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 论文机构为苏黎世联邦理工学院与瑞典中部大学。"
+      },
+      {
+        "title": "Hybrid CNN-Dilated Self-attention Model Using Inertial and Body-Area Electrostatic Sensing for Gym Workout Recognition, Counting, and User Authentification",
+        "url": "https://doi.org/10.1109/abc64332.2025.11118607",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 作者登记列凯泽斯劳滕-兰道大学以及德国人工智能研究中心。"
+      },
+      {
+        "title": "Optimization of An Induced Magnetic Field-Based Positioning System",
+        "url": "https://doi.org/10.1109/abc64332.2025.11118455",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "IEEE 登记四位作者均署德国人工智能研究中心。"
+      },
+      {
+        "title": "Ultra-Efficient On-Device Object Detection on AI-Integrated Smart Glasses with TinyissimoYOLO",
+        "url": "https://doi.org/10.1007/978-3-031-91989-3_17",
+        "outcome": "no-evidence",
+        "year": 2025,
+        "note": "Springer 出版作者来自苏黎世联邦理工学院和博洛尼亚大学。"
+      },
+      {
+        "title": "Earable and Wrist-worn Setup for Accurate Step Counting Utilizing Body-Area Electrostatic Sensing",
+        "url": "https://doi.org/10.1145/3675094.3678468",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ACM 登记八位作者均署苏黎世联邦理工学院。"
+      },
+      {
+        "title": "Initial Investigation of Kolmogorov-Arnold Networks (KANs) as Feature Extractors for IMU Based Human Activity Recognition",
+        "url": "https://doi.org/10.1145/3675094.3678446",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ACM 登记作者机构为苏黎世联邦理工学院、德国人工智能研究中心和凯泽斯劳滕-兰道大学。"
+      },
+      {
+        "title": "On-device Learning of EEGNet-based Network For Wearable Motor Imagery Brain-Computer Interface",
+        "url": "https://doi.org/10.1145/3675095.3676607",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ACM 会议作者来自德国人工智能研究中心、苏黎世联邦理工学院、斯洛伐克科学院及清华大学。"
+      },
+      {
+        "title": "iKAN: Global Incremental Learning with KAN for Human Activity Recognition Across Heterogeneous Datasets",
+        "url": "https://doi.org/10.1145/3675095.3676618",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ACM 作者列苏黎世联邦理工学院、德国人工智能研究中心和凯泽斯劳滕-兰道大学。"
+      },
+      {
+        "title": "Worker Activity Recognition in Manufacturing Line Using Near-Body Electric Field",
+        "url": "https://doi.org/10.1109/jiot.2023.3330372",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "苏黎世联邦理工仓储与 IEEE 作者记录为学术机构；测试使用 Apple Watch 设备不表示企业共同参研。首上线在 2023 年。"
+      },
+      {
+        "title": "Body-Area Capacitive or Electric Field Sensing for Human Activity Recognition and Human-Computer Interaction",
+        "url": "https://doi.org/10.1145/3643555",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ACM 正式论文登记作者机构为苏黎世联邦理工学院与德国人工智能研究中心。"
+      },
+      {
+        "title": "Embedding textile capacitive sensing into smart wearables as a versatile solution for human motion capturing",
+        "url": "https://doi.org/10.1038/s41598-024-66165-z",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "Scientific Reports 所列机构为德国科研团队与苏黎世联邦理工学院。"
+      },
+      {
+        "title": "Energy-efficient, low-latency, and non-contact eye blink detection with capacitive sensing",
+        "url": "https://doi.org/10.3389/fcomp.2024.1394397",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ETH 仓储的期刊原文列苏黎世联邦理工学院、德国人工智能研究中心及其他高校。2022 年同主题眼动检测还有短篇，后续需比对技术重复。"
+      },
+      {
+        "title": "Evaluation of Encoding Schemes on Ubiquitous Sensor Signal for Spiking Neural Network",
+        "url": "https://doi.org/10.1109/jsen.2024.3453927",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "ETH 仓储及 IEEE 正式作者记录为苏黎世联邦理工学院和苏黎世大学相关研究机构。"
+      },
+      {
+        "title": "Retina : Low-Power Eye Tracking with Event Camera and Spiking Hardware",
+        "url": "https://doi.org/10.1109/cvprw63382.2024.00577",
+        "outcome": "no-evidence",
+        "year": 2024,
+        "note": "IEEE 作者栏包含 Inivation AG、Synsense AG 与苏黎世联邦理工学院；两家公司不在调查范围。"
+      },
+      {
+        "title": "Evaluating Spiking Neural Network on Neuromorphic Platform For Human Activity Recognition",
+        "url": "https://doi.org/10.1145/3594738.3611369",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "ACM 和苏黎世联邦理工仓储显示两位作者皆属该校；使用 Intel 硬件评测不等于合著或实研。"
+      },
+      {
+        "title": "iEat: Human-food interaction with bio-impedance sensing",
+        "url": "https://doi.org/10.1145/3594739.3610799",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "ACM 会议演示作者归苏黎世联邦理工学院与德国人工智能研究中心。待比对后来同名期刊扩充是否应并为一项。"
+      },
+      {
+        "title": "MoCaPose",
+        "url": "https://doi.org/10.1145/3580883",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "ACM 正式作者包括苏黎世联邦理工学院、德国人工智能研究中心、凯泽斯劳滕-兰道大学与柏林艺术大学。"
+      },
+      {
+        "title": "ColibriES: A Milliwatts RISC-V Based Embedded System Leveraging Neuromorphic and Neural Networks Hardware Accelerators for Low-Latency Closed-loop Control Applications",
+        "url": "https://doi.org/10.1109/iscas46773.2023.10181726",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 正式论文登记作者为苏黎世联邦理工学院研究人员。"
+      },
+      {
+        "title": "ColibriUAV: An Ultra-Fast, Energy-Efficient Neuromorphic Edge Processing UAV-Platform with Event-Based and Frame-Based Cameras",
+        "url": "https://doi.org/10.1109/iwasi58316.2023.10164354",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 和苏黎世联邦理工仓储作者来自该校，未见目标企业。"
+      },
+      {
+        "title": "Fully Automatic Gym Exercises Recording: An IoT Solution",
+        "url": "https://doi.org/10.1109/metroind4.0iot57462.2023.10180177",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "IEEE 正式页三位作者署苏黎世联邦理工学院，未见范围内企业。"
+      },
+      {
+        "title": "TinyTracker: Ultra-Fast and Ultra-Low-Power Edge Vision In-Sensor for Gaze Estimation",
+        "url": "https://doi.org/10.1109/sensors56945.2023.10325167",
+        "outcome": "no-evidence",
+        "year": 2023,
+        "note": "苏黎世联邦理工仓储 PDF 首页五位作者均来自该校的项目学习中心。论文比较商用硬件，不据此计为企业合作。"
+      },
+      {
+        "title": "EdgeHAR: An Edge-Native Compact Sensor Foundation Model for Human Activity Recognition",
+        "url": "https://arxiv.org/html/2609.14498v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "arXiv 首稿的五人来自西北工业大学、凯泽斯劳滕-兰道大学和西安理工大学。"
+      },
+      {
+        "title": "You Don't Need To Train: Agentic Heuristic Learning Studio for Executable Human Activity Recognition",
+        "url": "https://arxiv.org/html/2609.16065v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首稿四位作者登记凯泽斯劳滕-兰道大学及西北工业大学，未见目标企业。"
+      }
+    ]
   }
 };

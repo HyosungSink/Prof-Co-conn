@@ -20329,46 +20329,6 @@ const survey = {
       "evidence": "论文首页 † 脚注明确该第一作者的工作在快手可灵团队完成。丁凯欣及港大方面均明确其博士导师赵恒爽且二人同篇署名。在职技术负责人 Xin Tao 同篇署名，个人履历确认直属企业团队。"
     },
     {
-      "id": "tencent-meshmosaic-hku-taku-komura",
-      "company": "腾讯",
-      "team": "腾讯 Visvise",
-      "school": "香港大学",
-      "studentSchool": "香港大学",
-      "faculty": [
-        "Komura, Taku",
-        "港大教授、论文通讯作者。",
-        "https://www.ai.hku.hk/index.php/people/academic-staff/taku"
-      ],
-      "student": [
-        "徐瑞 · Rui Xu",
-        "论文第一作者，2024 年 9 月起港大博士，2025 年 4–8 月在腾讯 Visvise 研究实习；论文具名脚注对应本人。",
-        "https://ruixu.me/"
-      ],
-      "advising": [
-        "博士导师",
-        "徐瑞个人履历明确列 Taku Komura 为导师，港大导师组也列其在读博士。",
-        "https://hku-cg.github.io/people/"
-      ],
-      "employee": [
-        "Le Wan",
-        "同篇署名腾讯 Visvise，较后正式论文持续列腾讯单位及企业邮箱，可与其他同名作者区分。",
-        "https://arxiv.org/html/2609.25832v2"
-      ],
-      "title": "MeshMosaic: Scaling Artist Mesh Generation via Local-to-Global Assembly",
-      "short": "MeshMosaic",
-      "date": "2026-06",
-      "venue": "CVPR 2026",
-      "area": "计算机视觉与多模态",
-      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
-      "extra": [
-        [
-          "具名实习脚注原文",
-          "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf"
-        ]
-      ],
-      "evidence": "CVPR 首页 * 明确第一作者徐瑞在腾讯实习中完成此研究。个人主页列 2025 年 4–8 月腾讯 Visvise 实习以及其港大博士导师 Taku Komura。论文通讯为该导师；Le Wan 以腾讯 Visvise 署名，另有同一团队正式论文对应腾讯邮箱。"
-    },
-    {
       "id": "alibaba-ccvqa-ucas-xiang",
       "company": "阿里巴巴",
       "team": "阿里云 ATH－通义",
@@ -20784,7 +20744,7 @@ const survey = {
       ],
       "title": "MeshMosaic: Scaling Artist Mesh Generation via Local-to-Global Assembly",
       "short": "MeshMosaic",
-      "date": "2026-06",
+      "date": "2025-09-24",
       "venue": "CVPR 2026",
       "area": "计算机视觉与多模态生成",
       "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MeshMosaic_Scaling_Artist_Mesh_Generation_via_Local-to-Global_Assembly_CVPR_2026_paper.pdf",
@@ -20804,6 +20764,14 @@ const survey = {
         [
           "腾讯专利公开记录",
           "https://patents.google.com/patent/US20190118085A1/en"
+        ],
+        [
+          "港大课题组在读博士名录",
+          "https://hku-cg.github.io/people/"
+        ],
+        [
+          "腾讯员工参与同组后续正式研究的旁证",
+          "https://arxiv.org/html/2609.25832v2"
         ]
       ],
       "evidence": "徐瑞履历列 2024 年 9 月起在香港大学读博、2025 年 4–8 月在腾讯 VISVISE 实习；CVPR 正式版首页以星号具名注明第一作者徐瑞在腾讯实习期间完成本研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
@@ -20811,7 +20779,8 @@ const survey = {
         "研究期间的具名导师",
         "徐瑞的第一方本人简介具名列幸村琢为香港大学博士导师；正式版后者为香港大学通讯作者。",
         "https://ruixu.me/"
-      ]
+      ],
+      "year": 2025
     },
     {
       "id": "switch-attention-huawei-pku-lbzoqbsaaaaj",
