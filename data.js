@@ -44668,6 +44668,55 @@ const survey = {
         ]
       ],
       "evidence": "作者 2024 年公开履历第 1 页明确其 2018.09–2023.06 在中山大学读博、由梁小丹指导，第 2 页把 CLOMO 编号 [10] 明确列入 2021.12–2022.08 的腾讯 AI Lab 研究实习，并展开同篇反事实方法；2025 年版编号 [12] 独立对应。梁小丹在同篇署中山大学；同篇腾讯员工 Hongming Zhang 履历及学生实习档案均给出同期在职、具名企业指导。论文首页另外点名另一位共同一作 Ruixin Hong 实习，因此不能仅靠该脚注替代 Huang 本人的逐篇实习资料。预印本 2023-11-29、正式版 2024-08，不改变其本人博士期间的实习。"
+    },
+    {
+      "id": "texgaussian-baidu-pku-zhouhui-lian",
+      "paperId": "arxiv:2411.19654",
+      "company": "百度",
+      "team": "Baidu VIS",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "连宙辉 · Zhouhui Lian",
+        "北京大学王选计算机研究所长聘副教授、研究员，原文通讯，熊伯君本人列其为北大硕士导师。",
+        "https://www.ai.pku.edu.cn/info/1139/2928.htm"
+      ],
+      "employee": [
+        "Chenming Wu",
+        "论文署 Baidu VIS。自己主页列其为百度研究员，区分前一份腾讯正式工作和此前的 AiFi 实习，并列同一研究方向。该篇 2024-11 公开时已署百度。",
+        "https://chenming-wu.github.io/"
+      ],
+      "student": [
+        "熊伯君 · Bojun Xiong",
+        "本人履历确认北大硕士 2025 年毕业、连宙辉指导；CVPR 正式论文第一页脚注明确标出他以百度 VIS 实习生身份参与完成本项研究。",
+        "https://ymxbj.github.io/"
+      ],
+      "title": "TexGaussian: Generating High-quality PBR Material via Octree-based 3D Gaussian Splatting",
+      "short": "TexGaussian",
+      "date": "2024-11-29",
+      "venue": "CVPR 2025",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiong_TexGaussian_Generating_High-quality_PBR_Material_via_Octree-based_3D_Gaussian_Splatting_CVPR_2025_paper.pdf",
+      "extra": [
+        [
+          "2024 年 11 月公开的作者首稿",
+          "https://arxiv.org/abs/2411.19654"
+        ],
+        [
+          "北大王选所确认为连宙辉所在课题组成果",
+          "https://www.icst.pku.edu.cn/xwgg/xsj/1201844icst1385664.htm"
+        ],
+        [
+          "CVPR 正式卷目",
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Xiong_TexGaussian_Generating_High-quality_PBR_Material_via_Octree-based_3D_Gaussian_Splatting_CVPR_2025_paper.html"
+        ]
+      ],
+      "evidence": "2024 年 11 月首稿时熊伯君仍在北大攻读硕士；他本人明确说由连宙辉指导，连在正式论文标为通讯。正式论文第一页脚注直接标明熊在百度进行这项实习科研；同篇 Chenming Wu 的百度 VIS 署名与他本人作为百度正式研究员的公开岗位对齐。只用已确认的熊—连指导组合；另一位同样实习的作者 Jiakui Hu 属不同导师。",
+      "advising": [
+        "具名硕士导师",
+        "熊伯君本人标明北大 2025 年硕士及导师连宙辉，论文第一作者与通讯对应，北大院所将同篇列为连所在实验室成果。",
+        "https://ymxbj.github.io/"
+      ]
     }
   ]
 };

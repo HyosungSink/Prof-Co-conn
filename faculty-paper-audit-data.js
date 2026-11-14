@@ -51751,7 +51751,39 @@ const facultyPaperAudits = {
       "https://iscslp.org/2026/ISCSLP2026_Program_Book.pdf",
       "https://arxiv.org/abs/2608.16235",
       "https://arxiv.org/pdf/2608.16235v2",
-      "https://arxiv.org/pdf/2608.16235v1"
+      "https://arxiv.org/pdf/2608.16235v1",
+      "https://arxiv.org/abs/2606.23120",
+      "https://arxiv.org/pdf/2606.23120",
+      "https://arxiv.org/abs/2610.41564",
+      "https://arxiv.org/html/2610.41564",
+      "https://scholars.cityu.edu.hk/en/persons/mingyaliu8/",
+      "https://arxiv.org/abs/2610.29498",
+      "https://arxiv.org/html/2610.29498",
+      "https://arxiv.org/abs/2609.34754",
+      "https://arxiv.org/pdf/2609.34754",
+      "https://github.com/Svardfox/Draft-KV",
+      "https://asi.cs.cityu.edu.hk/people/linquan-wu/",
+      "https://arxiv.org/abs/2610.15329",
+      "https://arxiv.org/pdf/2610.15329",
+      "https://arxiv.org/abs/2605.28306",
+      "https://arxiv.org/pdf/2605.28306",
+      "https://arxiv.org/abs/2609.15950",
+      "https://arxiv.org/pdf/2609.15950",
+      "https://doi.org/10.1007/978-3-032-37574-2_19",
+      "https://scholars.cityu.edu.hk/en/publications/lavit-aligning-latent-visual-thoughts-for-multi-modal-reasoning/",
+      "https://arxiv.org/pdf/2601.10129",
+      "https://arxiv.org/abs/2607.02502",
+      "https://arxiv.org/pdf/2607.02502",
+      "https://arxiv.org/abs/2606.11546",
+      "https://arxiv.org/pdf/2606.11546",
+      "https://arxiv.org/abs/2606.11164",
+      "https://arxiv.org/pdf/2606.11164",
+      "https://arxiv.org/abs/2604.04812",
+      "https://scholars.cityu.edu.hk/en/publications/systradebench-an-iterative-build-test-patch-benchmark-for-strateg/",
+      "https://arxiv.org/pdf/2604.04812",
+      "https://doi.org/10.1109/JSTSP.2024.3414147",
+      "https://arxiv.org/pdf/2511.23335",
+      "https://scholars.cityu.edu.hk/en/publications/towards-improving-interpretability-of-language-model-generation-t/"
     ],
     "papers": [
       {
@@ -52026,6 +52058,97 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "2026-08-17 首稿，10-08 改为 NormToken，合为一篇。PDF 首面张瀚霖双匕首明确华为实习；正式在读名单和同篇学号一致，陈晓及谭达新署华为 Leibniz。宋为通讯而暂无具名指导资料，保留线索。",
         "year": 2026
+      },
+      {
+        "title": "Does Source-Free Time-Series Adaptation Really Require Updating the Encoder?",
+        "url": "https://arxiv.org/abs/2606.23120",
+        "outcome": "no-evidence",
+        "note": "原文首面六位作者全部来自港城大及港中文。两版中 11 月修订仍在窗口，不重复计。",
+        "year": 2026
+      },
+      {
+        "title": "Verify–Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents",
+        "url": "https://arxiv.org/abs/2610.41564",
+        "outcome": "lead",
+        "note": "原文第一作者 Mingyang Liu 署港城大，第二共同一作及另外五位左右署华为；校方确认刘是博士在读，仅在作者名单中与宋等同署，并无此篇华为企业端参与或具体指导说明。",
+        "year": 2026
+      },
+      {
+        "title": "A Strong MoE Is All You Need for Process Supervision",
+        "url": "https://arxiv.org/abs/2610.29498",
+        "outcome": "no-evidence",
+        "note": "首面逐位来自港城大、港大、CMU，无目标公司。与 TEXAS 的任务、算法和公开稿不同。",
+        "year": 2026
+      },
+      {
+        "title": "Draft-KV: Learning Useful Latent Communication Between Language Models",
+        "url": "https://arxiv.org/abs/2609.34754",
+        "outcome": "lead",
+        "note": "原版及作者代码逐位标明腾讯 AIPD、华为理论实验室共同作者；Linquan Wu 的大学档案是在读博士，但代码库没有学生在哪一家企业完成的标注，亦未证实宋对其具名指导。",
+        "year": 2026
+      },
+      {
+        "title": "New Minimum Storage Regenerating Codes With Small Sub-packetization Levels for All Admissible Repair Degrees",
+        "url": "https://arxiv.org/abs/2610.15329",
+        "outcome": "no-evidence",
+        "note": "正式预印本研究为纠删编码；第一面署名说明三位仅来自港城大和西南交通大学。",
+        "year": 2026
+      },
+      {
+        "title": "RA-MoE: Routing-Aligned Fine-Tuning for Multilingual Adaptation of Mixture-of-Experts Models",
+        "url": "https://arxiv.org/abs/2605.28306",
+        "outcome": "no-evidence",
+        "note": "预印本第一面只列港城大、港大、卡内基梅隆与深圳职业技术大学；无目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "Privacy-Aligned Personalized Federated Learning with Compact Adaptation and Variable-Length Gaussian Communication",
+        "url": "https://arxiv.org/abs/2609.15950",
+        "outcome": "no-evidence",
+        "note": "原文四位来自港城大、不列颠哥伦比亚大学、希伯来大学。",
+        "year": 2026
+      },
+      {
+        "title": "LaViT: Aligning Latent Visual Thoughts for Multi-modal Reasoning",
+        "url": "https://doi.org/10.1007/978-3-032-37574-2_19",
+        "outcome": "no-evidence",
+        "note": "Springer ECCV 正式目录、大学说明与研究原文确认同篇。四个机构都是大学，没有目标公司的具名参与。",
+        "year": 2026
+      },
+      {
+        "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+        "url": "https://arxiv.org/abs/2607.02502",
+        "outcome": "no-evidence",
+        "note": "原文各作者署港城大、清华、深圳理工或港中深，无目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "VL-DINO: Leveraging CLIP Vision-Language Knowledge for Open-Vocabulary Object Detection",
+        "url": "https://arxiv.org/abs/2606.11546",
+        "outcome": "no-evidence",
+        "note": "原文作者署重庆大学及香港城市大学，二者以外未列企业。",
+        "year": 2026
+      },
+      {
+        "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+        "url": "https://arxiv.org/abs/2606.11164",
+        "outcome": "no-evidence",
+        "note": "首面各位署清华、港城大、北大、深圳理工、中科院自动化所；无目标企业共同作者。",
+        "year": 2026
+      },
+      {
+        "title": "SysTradeBench: An Iterative Build-Test-Patch Benchmark for Strategy-to-Code Trading Systems with Drift-Aware Diagnostics",
+        "url": "https://arxiv.org/abs/2604.04812",
+        "outcome": "no-evidence",
+        "note": "大学书目与稿件一致，逐位只署港城大及浙江大学，不能因同一张瀚霖另有华为实习归入此篇。",
+        "year": 2026
+      },
+      {
+        "title": "Towards Improving Interpretability of Language Model Generation Through a Structured Knowledge Discovery Approach",
+        "url": "https://doi.org/10.1109/JSTSP.2024.3414147",
+        "outcome": "lead",
+        "note": "IEEE 在线首发 2024-06-13（2025 年 1 月卷期）；2025-11-28 预印公开同一成果。原文腾讯 Jianshu Chen、Xiaoyang Wang 与在读刘舒琦共署，毕业档案指宋为刘的导师，仍无刘本人参与腾讯此项研究的依据。",
+        "year": 2024
       }
     ],
     "note": "交叉港城大官方出版目录、期刊和会议正式版、博士论文、作者与研究组书目；按同一研究合并首稿和正式版。剩余书目正在补查。"
@@ -52285,7 +52408,7 @@ const facultyPaperAudits = {
   "QEjqzXgAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://gr.xjtu.edu.cn/denghq7/",
       "https://gr.xjtu.edu.cn/denghq7/zh_CN/zdylm/1000527/list/index.htm",
@@ -52293,7 +52416,8 @@ const facultyPaperAudits = {
       "https://aclanthology.org/people/huiqi-deng/",
       "https://sjtu-xai-lab.github.io/",
       "https://gr.xjtu.edu.cn/phwang/zh_CN/zdylm/986231/list/index.htm",
-      "https://mengnandu.com/publications/"
+      "https://mengnandu.com/publications/",
+      "https://faculty.xjtu.edu.cn/peihongbin/zh_CN/zhym/994540/list/index.htm"
     ],
     "papers": [
       {
@@ -52511,9 +52635,17 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "Springer 2024 在线发表，作者与中山大学博士时期的导师冯国灿和合作者陈玮夫匹配；作者单位与资助无范围企业。",
         "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "面向分子科学的人工智能研究进展分析与“去领域知识”思路展望",
+        "url": "https://faculty.xjtu.edu.cn/peihongbin/zh_CN/zdylm/994541/list/index.htm",
+        "outcome": "no-evidence",
+        "note": "西交共同作者书目和《人工智能学会通讯》2025 年第 11 期列裴红斌、邓辉琦两位具名作者，类型为学术观点文章，未见学生或目标企业参与。独立于正式发表的 HAGO-Net。",
+        "relationIds": []
       }
     ],
-    "note": "西安交通大学官方与校内实验室确认邓辉琦为助理教授；兼查本人书目、DBLP 和出版社／会议作者索引。公开书目逐篇并交叉同组、原上交导师实验室和正式发表索引；早年上交博士后经历不回填当时的西交导师身份。DBLP 混有专做数据流的安徽大学同名作者（ORCID 0009-0001-4482-7873，有两项作者/机构双证），暂不归入西交。"
+    "note": "西安交通大学官方与校内实验室确认邓辉琦为助理教授；兼查本人书目、DBLP 和出版社／会议作者索引。2023 年起至调查截止日可公开核的 28 项各有结论，交叉本校同组、原上交导师实验室、正式发表索引与近期 arXiv；已将前置版本归入同项正式文；早年上交博士后经历不回填当时的西交导师身份。DBLP 混有专做数据流的安徽大学同名作者（ORCID 0009-0001-4482-7873，有两项作者/机构双证），暂不归入西交。"
   },
   "_hZiQeUAAAAJ": {
     "from": "2023-01-01",
@@ -52746,5 +52878,25 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已交叉计算所中英文书目、DBLP/ORCID 人物身份和正式出版材料；华为同署项目逐篇保留待补的学生实研证据。仍在核独立书目剩余题录，未标已梳理。"
+  },
+  "29Zn-UwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ymxbj.github.io/",
+      "https://chenming-wu.github.io/",
+      "https://www.ai.pku.edu.cn/info/1139/2928.htm",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Xiong_TexGaussian_Generating_High-quality_PBR_Material_via_Octree-based_3D_Gaussian_Splatting_CVPR_2025_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "TexGaussian: Generating High-quality PBR Material via Octree-based 3D Gaussian Splatting",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2411.19654",
+        "outcome": "confirmed",
+        "note": "CVPR 正式版首页实习脚注明确指第一作者熊伯君在百度参与本项，同篇对应北大具名导师连宙辉和 Baidu VIS 研究人员 Chenming Wu；首稿 2024 年，和 2025 年正式版合并。"
+      }
+    ]
   }
 };
