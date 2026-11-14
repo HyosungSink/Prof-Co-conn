@@ -8093,7 +8093,13 @@ const facultyPaperAudits = {
       "https://bitwjg.github.io/",
       "https://openreview.net/pdf/635fffd836636e1c56d6f86742d8b5a11c3e617d.pdf",
       "https://github.com/SpursGoZmy",
-      "https://people.ucas.ac.cn/~linzheng"
+      "https://people.ucas.ac.cn/~linzheng",
+      "https://gccnlp.github.io/",
+      "https://www.iie.ac.cn/xwdt/zhxw/202602/t20260209_8142032.html",
+      "https://zhenyu.ac.cn/",
+      "https://fupeng.ac.cn/",
+      "https://iienlp.github.io/",
+      "https://arxiv.org/pdf/2512.10548v1"
     ],
     "papers": [
       {
@@ -8119,9 +8125,58 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.findings-acl.381.pdf",
         "note": "具名实习项目；待证林政校内指导。",
         "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "BeamLoRA: Beam-Constraint Low-Rank Adaptation",
+        "url": "https://aclanthology.org/2025.acl-long.582.pdf",
+        "outcome": "existing",
+        "note": "正式版脚注具名顾佴彬于百度完成研究；本人明列导师林政和百度导师张振宇，同篇署名。"
+      },
+      {
+        "year": 2025,
+        "title": "DIVE into MoE: Diversity-Enhanced Reconstruction of Large Language Models from Dense into Mixture-of-Experts",
+        "url": "https://aclanthology.org/2025.acl-long.951/",
+        "outcome": "no-evidence",
+        "note": "ACL 正式版作者全部署信工所和国科大，实验使用 Llama 架构，无范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "CBP-Tuning: Efficient Local Customization for Black-box Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.991/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版署信工所、国科大；黑盒场景评测不证明企业共著，无范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Adapt Once, Thrive with Updates: Transferable Parameter-Efficient Fine-Tuning on Evolving Base Models",
+        "url": "https://arxiv.org/abs/2506.06844",
+        "outcome": "no-evidence",
+        "note": "ACL 正式书目和原稿均列顾佴彬及三位校内导师；企业人员未同篇，虽与产业实习方向有关仍不构成这篇的合作证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Advantageous Parameter Expansion Training Makes Better Large Language Models",
+        "url": "https://aclanthology.org/2026.emnlp-main.386/",
+        "outcome": "lead",
+        "note": "EMNLP 正式版列国科大顾佴彬一作、百度张振宇为项目负责人，国科大林政等联合导师同篇。问世于 2025 年 5 月的预印本与其百度实习同期；全文未具名本篇是实习工作，继续查企业项目页。"
+      },
+      {
+        "year": 2025,
+        "title": "Elastic MoE: Unlocking the Inference-Time Scalability of Mixture-of-Experts",
+        "url": "https://arxiv.org/abs/2509.21892",
+        "outcome": "lead",
+        "note": "顾佴彬本人列其为一作研究；百度员工张振宇同为一作，林政、付鹏、王伟平联合导师同篇。原文未指明顾佴彬在百度完成本项研究。"
+      },
+      {
+        "year": 2026,
+        "title": "Blink: Dynamic Visual Token Resolution for Enhanced Multimodal Understanding",
+        "url": "https://arxiv.org/abs/2512.10548",
+        "outcome": "lead",
+        "note": "2025-12 v1 在冯宇辰姓名明确标出百度实习完成本篇，信工所 2025 国家奖学金名单可核他当时为硕士生。林政、付鹏、王伟平皆同篇；仍缺具名校内指导配对。"
       }
     ],
-    "note": "仅核对部分受指导学生的公开成果，未遍历教师全部书目。"
+    "note": "优先核对学生顾佴彬、冯宇辰的论文，已有 1 篇找到校内导师、企业员工及具名实习证据。此前与其他学生的公开书目仍在梳理。"
   },
   "voxznZAAAAAJ": {
     "from": "2023-01-01",
@@ -13309,7 +13364,10 @@ const facultyPaperAudits = {
       "https://zhenyu.ac.cn/",
       "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html",
       "https://aclanthology.org/people/yao-chen-cas/",
-      "https://github.com/acl-org/acl-anthology/issues/8309"
+      "https://github.com/acl-org/acl-anthology/issues/8309",
+      "https://arxiv.org/abs/2608.21265",
+      "https://zhenyu.ac.cn/pubs.html",
+      "https://haoxiangzhao12138.github.io/"
     ],
     "papers": [
       {
@@ -13352,36 +13410,36 @@ const facultyPaperAudits = {
         "year": 2024,
         "title": "NACL: A General and Effective KV Cache Eviction Framework for LLMs at Inference Time",
         "url": "https://aclanthology.org/2024.acl-long.428.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "正式版第 9 页致谢明确写出陈奕龙在百度实习时完成本研究；同时有校内导师柳厅文及在职员工张振宇同篇。"
       },
       {
         "year": 2024,
         "title": "LEMON: Reviving Stronger and Smaller LMs from Larger LMs with Linear Parameter Fusion",
         "url": "https://aclanthology.org/2024.acl-long.434.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "正式版第 9 页致谢明确写出陈奕龙在百度实习时完成本研究；同时有校内导师柳厅文及在职员工张振宇同篇。"
       },
       {
         "year": 2024,
         "title": "DHA: Learning Decoupled-Head Attention from Transformer Checkpoints via Adaptive Heads Fusion",
         "url": "https://papers.nips.cc/paper_files/paper/2024/file/518a75257f37b32f711082dff33c2ffc-Paper-Conference.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "正式版第 10 页致谢明确写出陈奕龙在百度实习时完成本研究；同时有校内导师柳厅文及在职员工张振宇同篇。"
       },
       {
         "year": 2025,
         "title": "Mixture of Hidden-Dimensions: Not All Hidden-States’ Dimensions are Needed in Transformer",
         "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25bc/chen25bc.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "正式版第 9 页致谢明确写出陈奕龙在百度实习时完成本研究；同时有校内导师柳厅文及在职员工张振宇同篇。"
       },
       {
         "year": 2025,
         "title": "Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking",
         "url": "https://aclanthology.org/2025.acl-long.1369.pdf",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "outcome": "confirmed",
+        "note": "正式版第 9 页致谢明确写出陈奕龙在百度实习时完成本研究；同时有校内导师柳厅文及在职员工张振宇同篇。"
       },
       {
         "year": 2026,
@@ -13410,6 +13468,62 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.emnlp-main.250/",
         "outcome": "no-evidence",
         "note": "EMNLP 正式卷和陈瑶本人 ACL 同名更正一致；陈瑶、盛傢伟、张文元、柳厅文署信工所或国科大，没有范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Uncertainty-Aware Routing for Principled Alignment with MoE Dynamics",
+        "url": "https://aclanthology.org/2026.acl-long.1801/",
+        "outcome": "lead",
+        "note": "ACL 正式版列柳厅文通讯，百度 Shang Junyuan 为项目负责人；具名指导的陈奕龙为一作。致谢仅列公共资助，未找到学生对应本篇的百度项目证明。"
+      },
+      {
+        "year": 2026,
+        "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+        "url": "https://arxiv.org/abs/2608.21265",
+        "outcome": "lead",
+        "note": "原文列国科大陈奕龙、陈瑶，百度张振宇、Junyuan Shang，以及署腾讯的张文源；通讯作者柳厅文。公开全文未指明哪位在读学生于哪家企业开展该项研究。"
+      },
+      {
+        "year": 2026,
+        "title": "Polymorphic Universal Transformer",
+        "url": "https://aclanthology.org/2026.acl-long.1809/",
+        "outcome": "no-evidence",
+        "note": "正式版有陈奕龙与导师柳厅文，以及 IQuest Research 研究团队；企业不在调查范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond N-gram: Data-Aware X-gram Extraction for Efficient Embedding Parameter Scaling",
+        "url": "https://arxiv.org/abs/2604.21724",
+        "outcome": "no-evidence",
+        "note": "预印本明确 IQuest Research 与国科大合作，尚无范围内企业同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Mixture of Universal Experts: Scaling Virtual Width via Depth-Width Transformation",
+        "url": "https://arxiv.org/abs/2603.04971",
+        "outcome": "lead",
+        "note": "同篇陈奕龙、柳厅文和百度张振宇。原文未注学生在哪家企业完成本项研究；陈奕龙本人同时列多段实习，MoUE 是独立公开研究，不能由 ERNIE 项目履历补足。"
+      },
+      {
+        "year": 2024,
+        "title": "MoR: Mixture of Ranks for Low-Rank Adaptation Tuning",
+        "url": "https://arxiv.org/abs/2410.13408",
+        "outcome": "lead",
+        "note": "原文有唐传宇与陈奕龙（共同一作）、通讯柳厅文、百度张振宇和 Junyuan Shang；国科大指导名单列两位。公开全文没写明哪位在百度做本项研究。"
+      },
+      {
+        "year": 2024,
+        "title": "FFT: Towards Evaluating Large Language Models with Factuality, Fairness, Toxicity",
+        "url": "https://arxiv.org/abs/2311.18580",
+        "outcome": "lead",
+        "note": "同篇署名国科大与百度，通讯作者柳厅文，一作之一张振宇署百度；未找到国科大陈奕龙等学生参与同篇企业实研的证据。原稿 2023 后正式报告列 KDD 2024 Workshop。"
+      },
+      {
+        "year": 2026,
+        "title": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
+        "url": "https://arxiv.org/abs/2512.04563",
+        "outcome": "lead",
+        "note": "国科大导师页具名指导张泽锋，论文也有百度张振宇、高礼。本人履历可核同为第一作者的郝翔兆同期在百度实习，学校指导为郭海云而其未署同篇；尚缺张泽锋在百度完成本项研究的具名依据。"
       }
     ],
     "note": "已按国科大导师名录、信工所公开证明、学生与员工本人履历及正式论文核查部分书目；陈奕龙 5 篇在百度完成的研究由各篇正式版致谢具名。陈瑶等同题组论文保留待查，完整书目仍在梳理。"
@@ -36139,7 +36253,8 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/89/5901-9.html",
       "https://hanada31.github.io/",
       "https://iscas.cas.cn/xwdt/kyjz/202611/t20261109_8307181.html",
-      "https://conf.researchr.org/profile/conf/junyan"
+      "https://conf.researchr.org/profile/conf/junyan",
+      "https://www.iscas.ac.cn/yjsjy2016/zsxx2016/202310/t20231016_6902392.html"
     ],
     "papers": [
       {
@@ -36280,7 +36395,7 @@ const facultyPaperAudits = {
         "title": "Every Scenario Matters: Scenario-Guided White-Box Testing for Static Code Checkers Powered by LLMs",
         "url": "https://doi.org/10.1145/3832783.3834381",
         "outcome": "lead",
-        "note": "ASE 正式版列学校在读刘珺、计理强和华为潘临杰、任劲松。软件所确认同篇测试华为内部 CodeNavi；没有明确公开资料指明刘珺或计理强由哪位同篇教师直接指导，并在华为完成本篇实研。"
+        "note": "ASE 正式版列软件所、国科大及华为相关作者；软件所官方通告证实本篇使用华为内源 CodeNavi，2024 年拟录和团队名单核实 计理强的硕士身份。仍无本篇在华为进行的具名学生研究证明，也未核实严俊或张健直接指导哪位学生。"
       },
       {
         "year": 2026,
@@ -36308,7 +36423,8 @@ const facultyPaperAudits = {
       "https://people.ucas.ac.cn/~lybmath",
       "https://cnic.cas.cn/gzdt/202501/t20250106_7514258.html",
       "https://cnic.cas.cn/yjsjy/zsxx/sstk/202106/t20210630_6122015.html",
-      "https://yangtonghome.github.io/uploads/BurstBalancer_TPDS_final.pdf"
+      "https://yangtonghome.github.io/uploads/BurstBalancer_TPDS_final.pdf",
+      "https://cnic.cas.cn/yjsjy/zsxx/tjms/202106/t20210630_6121992.html"
     ],
     "papers": [
       {
@@ -36316,14 +36432,14 @@ const facultyPaperAudits = {
         "title": "Heuristic Binary Search: Adaptive and Fast IPv6 Route Lookup With Incremental Prefix Updates",
         "url": "https://ieeexplore.ieee.org/document/10781446/",
         "outcome": "lead",
-        "note": "IEEE 正式期刊 2024-12 在线、2025 年卷，同 APNET 2023 版本合并。姜东虹为国科大在读，华为具名作者为 Jing Hu 和 Yi Huang。研究所有同题路由成果说明，但未指明在读作者在华为参加本项研究及具名导师。"
+        "note": "IEEE 期刊正式版 2024-12 在线、2025 卷，和 APNET 2023 版本合并。网络信息中心证实本研究由所内团队联合华为算法专家提出；公示的姜东虹直博导师是同篇谢高岗，非李彦彪。未找到学生本人在华为进行该项研究的证据；论文技术主题是 IPv6 路由查找。"
       },
       {
         "year": 2025,
         "title": "A Balanced Tuple Partitioning Method for Packet Classification with High-Performance and Scalability",
         "url": "https://doi.org/10.1109/INFOCOM55648.2025.11044630",
         "outcome": "lead",
-        "note": "INFOCOM 正式论文含华为 Jing Hu，与同篇李彦彪；国科大正式拟录取材料列其为首作者任能的硕士导师。未确认实际研究期间任能仍在读，亦未找到任能参与华为本项目的说明。"
+        "note": "网络信息中心证实由所内团队与华为算法专家共同提出；IEEE 出版作者机构有华为，官方拟录取名单列李彦彪为首作者任能的硕士导师。仍待核任能在研究期的学籍及其在华为参与本篇的证据；主题是 SDN 流表查找。"
       },
       {
         "year": 2024,
@@ -36334,5 +36450,127 @@ const facultyPaperAudits = {
       }
     ],
     "note": "优先核查参与华为作者的路由论文，已核到正式发表与部分校内指导记录，仍缺学生与本篇企业实研的联系；其他书目仍在逐篇核查。"
+  },
+  "TbomW9sAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://qgwang-hust.github.io/",
+      "https://dblp.org/pid/15/457.html",
+      "https://cgi.cse.unsw.edu.au/~jingling/byyear.html",
+      "https://orcid.org/0000-0002-9951-3345",
+      "https://github.com/CGCL-codes/FOAMS",
+      "https://xinx2013.github.io/CV-Xin.pdf",
+      "https://storage.googleapis.com/lacuna-pdfs-lunar-airport-385023/pdfs/17/94/179496753e0be8f0006aa4af669c2b312cb9b48373e887320f7c505a9cc67d9d.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "RAIL: A Reconfigurable Spatial Accelerator for Linear-Time Sequence Model Inference",
+        "url": "https://www.microarch.org/micro59/program/",
+        "outcome": "no-evidence",
+        "note": "MICRO 正式程序逐人列单位，仅华科和新南威尔士大学。"
+      },
+      {
+        "year": 2026,
+        "title": "ReStream: A Locality-Aware Software/Hardware Co-Design for Efficient Large-Scale Streaming Graph Processing",
+        "url": "https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-61335-w",
+        "outcome": "no-evidence",
+        "note": "期刊的正式接收稿 10 月 9 日上线；所列署名单位为华科、昆山杜克大学和新加坡国立大学。"
+      },
+      {
+        "year": 2026,
+        "title": "FOAMS: Efficient Anonymized Network Sensing using Compact Matrix Format and Multi-Stage Pipeline Parallelism",
+        "url": "https://ieee-hpec.org/2026-hpec-proceedings-0916/",
+        "outcome": "no-evidence",
+        "note": "HPEC 论文日程的作者署名为华科及波士顿大学；同项目组代码说明使用通用 CUDA/NVIDIA 硬件。比赛名称中的 Amazon 与署名、学生企业科研是不同事实。"
+      },
+      {
+        "year": 2026,
+        "title": "Hardware-Accelerated Streaming Graph Processing with Fast Refinement",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-4805-6_30",
+        "outcome": "no-evidence",
+        "note": "Springer 2026 年 8 月 24 日在线版列五名作者均为华科；王庆刚为通讯作者。"
+      },
+      {
+        "year": 2026,
+        "title": "HBSpec: A Hybrid-Bonding-based Heterogeneous Accelerator for Efficient Tree-Structured Speculative Decoding",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH2417&sess=sess142",
+        "outcome": "no-evidence",
+        "note": "DAC 研究论文正式日程列出华科与新南威尔士大学的九位作者，无调查范围企业署名。"
+      },
+      {
+        "year": 2026,
+        "title": "An Energy-Efficient Dataflow Architecture for Efficient MoE Model Inference",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH2753&sess=sess142",
+        "outcome": "no-evidence",
+        "note": "DAC 列华科与郑州大学单位；李可欣在华科实验室另一篇论文报告中明确是廖小飞指导的博士生，未据通讯身份推断王庆刚是导师。"
+      },
+      {
+        "year": 2026,
+        "title": "FuseDot: A Multiplication-Fused Dot Product Accelerator for Efficient LLM Inference",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH1182&sess=sess156",
+        "outcome": "no-evidence",
+        "note": "DAC 作者单位为华科与密歇根理工；第一作者个人页同期列华科博士，并将本篇列为华科研究。未见范围企业共同作者。"
+      },
+      {
+        "year": 2026,
+        "title": "DANMP: Accelerating Multi-Scale Deformable Attention Using Near-Memory-Processing Architecture",
+        "url": "https://arxiv.org/html/2603.00959v1",
+        "outcome": "no-evidence",
+        "note": "原始全文逐名署华科、NUS 和中佛罗里达大学。并入 ACM ICS 正式版 DOI 10.1145/3797905.3800510；Xin Xin 的阿里实习是 2021 年，与本文期次无关。"
+      },
+      {
+        "year": 2026,
+        "title": "Adaptive Draft Sequence Length: Enhancing Speculative Decoding Throughput on PIM-Enabled Systems",
+        "url": "https://2026.hpca-conf.org/details/hpca-2026-main-conference/112/Adaptive-Draft-Sequence-Length-Enhancing-Speculative-Decoding-Throughput-on-PIM-Enab",
+        "outcome": "no-evidence",
+        "note": "HPCA 正式程序只列华科和新南威尔士大学，与 DAC 的树状 HBSpec 架构分别为独立论文。"
+      },
+      {
+        "year": 2025,
+        "title": "Diff-MoE: Efficient Batched MoE Inference with Priority-Driven Differential Expert Caching",
+        "url": "https://grid.hust.edu.cn/info/1053/2965.htm",
+        "outcome": "no-evidence",
+        "note": "华科新闻与 ACM 题录交叉确认正式研究、第一作者李可欣与导师廖小飞；Jingling Xue 的 UNSW 论文清单作者一致。公开证据未见调查范围企业角色，ACM 正文未能直接访问。"
+      },
+      {
+        "year": 2025,
+        "title": "Geans: A GPU-accelerated Framework for Efficient End-to-End Anonymized Network Sensing",
+        "url": "https://ieee-hpec.org/2025/ieee-hpec-2025-prelim-agenda/",
+        "outcome": "no-evidence",
+        "note": "IEEE HPEC 日程列全部七位作者为华科；Amazon 参与的是同场挑战活动，非本篇作者。与 2026 年新增字典偏移压缩和并行流水的 FOAMS 分开。"
+      },
+      {
+        "year": 2025,
+        "title": "MeHyper: Accelerating Hypergraph Neural Networks by Exploring Implicit Dataflows",
+        "url": "https://hpca-conf.org/2025/main-program/",
+        "outcome": "no-evidence",
+        "note": "HPCA 日程作者逐名为华科、广西大学、新加坡国立和新南威尔士大学；同一日程另外的阿里论文无关。"
+      },
+      {
+        "year": 2024,
+        "title": "A Scalable, Efficient, and Robust Dynamic Memory Management Library for HLS-based FPGAs",
+        "url": "https://www.microarch.org/micro57/program/",
+        "outcome": "no-evidence",
+        "note": "MICRO 会议署名为华科、之江实验室与新南威尔士大学；王庆刚本人称该期在之江实验室做博士后，该机构不属调查企业。GraDMM 与 DAC 的 HeroDMM 为不同研究。"
+      },
+      {
+        "year": 2024,
+        "title": "High-Performance and Resource-Efficient Dynamic Memory Management in High-Level Synthesis",
+        "url": "https://61dac.conference-program.com/presentation/?id=RESEARCH1116&sess=sess169",
+        "outcome": "no-evidence",
+        "note": "DAC 正式程序九位作者均署华科，介绍的是独立方案 HeroDMM。"
+      },
+      {
+        "year": 2023,
+        "title": "An Efficient GCNs Accelerator Using 3D-Stacked Processing-In-Memory Architectures",
+        "url": "https://doi.org/10.1109/TCAD.2023.3341753",
+        "outcome": "no-evidence",
+        "note": "IEEE 作者接收稿列华科与之江实验室及后者资助，后者不属调查企业。论文 2023 在线，编入 2024 卷。"
+      }
+    ],
+    "note": "已用本人书目、DBLP 与会议、出版社和实验室记录核对这批论文；未对剩余书目作结论。以论文可追溯的在线和正式版本归并，按研究当时身份复核。"
   }
 };

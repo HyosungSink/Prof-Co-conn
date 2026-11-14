@@ -39828,6 +39828,235 @@ const survey = {
         "庞浦公开履历说明上海交大博士导师是陈全；两人同篇，陈全为共同通讯，庞浦与阿里员工共同第一。",
         "https://pangpu.github.io/"
       ]
+    },
+    {
+      "id": "baidu-nacl-ucas-liutingwen",
+      "paperId": "doi:10.18653/v1/2024.acl-long.428",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "百度",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员、博士生导师；国科大任教资料列陈奕龙为其指导学生。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "正式论文署百度；本人履历明确自 2022 年 7 月在百度 NLP 部门工作，任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "陈奕龙 · Yilong Chen",
+        "本人履历列 2022–2024 年国科大硕士和 2024 年起国科大博士学习经历；本篇第 9 页致谢明确说这项工作在其百度实习期间完成。",
+        "https://chenyilong.cn/"
+      ],
+      "title": "NACL: A General and Effective KV Cache Eviction Framework for LLMs at Inference Time",
+      "short": "NACL",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "paper": "https://aclanthology.org/2024.acl-long.428.pdf",
+      "area": "大模型推理、KV 缓存压缩",
+      "evidence": "ACL 2024 论文第 9 页致谢具名说明陈奕龙在百度实习期间完成本项研究：将预填充时的缓存剔除用于长上下文推理。论文同篇署名包括国科大指导教师柳厅文及百度在职研究人员张振宇。学生本人履历、国科大指导名单及信工所公开材料核实学生和导师身份。",
+      "advising": [
+        "国科大学生与导师",
+        "陈奕龙本人列柳厅文为导师；国科大指导名单与信工所公开材料具名核实。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "正式出版书目",
+          "https://aclanthology.org/2024.acl-long.428/"
+        ],
+        [
+          "信工所公开导师配对",
+          "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-lemon-ucas-liutingwen",
+      "paperId": "doi:10.18653/v1/2024.acl-long.434",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "百度",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员、博士生导师；国科大任教资料列陈奕龙为其指导学生。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "正式论文署百度；本人履历明确自 2022 年 7 月在百度 NLP 部门工作，任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "陈奕龙 · Yilong Chen",
+        "本人履历列 2022–2024 年国科大硕士和 2024 年起国科大博士学习经历；本篇第 9 页致谢明确说这项工作在其百度实习期间完成。",
+        "https://chenyilong.cn/"
+      ],
+      "title": "LEMON: Reviving Stronger and Smaller LMs from Larger LMs with Linear Parameter Fusion",
+      "short": "LEMON",
+      "date": "2024-08",
+      "venue": "ACL 2024",
+      "paper": "https://aclanthology.org/2024.acl-long.434.pdf",
+      "area": "大模型架构、参数压缩",
+      "evidence": "ACL 2024 论文第 9 页致谢具名说明陈奕龙在百度实习期间完成本项研究：通过线性融合把大模型压缩到小模型。论文同篇署名包括国科大指导教师柳厅文及百度在职研究人员张振宇。学生本人履历、国科大指导名单及信工所公开材料核实学生和导师身份。",
+      "advising": [
+        "国科大学生与导师",
+        "陈奕龙本人列柳厅文为导师；国科大指导名单与信工所公开材料具名核实。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "正式出版书目",
+          "https://aclanthology.org/2024.acl-long.434/"
+        ],
+        [
+          "信工所公开导师配对",
+          "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-dha-ucas-liutingwen",
+      "paperId": "doi:10.52202/079017-1459",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "百度",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员、博士生导师；国科大任教资料列陈奕龙为其指导学生。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "正式论文署百度；本人履历明确自 2022 年 7 月在百度 NLP 部门工作，任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "陈奕龙 · Yilong Chen",
+        "本人履历列 2022–2024 年国科大硕士和 2024 年起国科大博士学习经历；本篇第 10 页致谢明确说这项工作在其百度实习期间完成。",
+        "https://chenyilong.cn/"
+      ],
+      "title": "DHA: Learning Decoupled-Head Attention from Transformer Checkpoints via Adaptive Heads Fusion",
+      "short": "DHA",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "paper": "https://papers.nips.cc/paper_files/paper/2024/file/518a75257f37b32f711082dff33c2ffc-Paper-Conference.pdf",
+      "area": "大模型架构、注意力压缩",
+      "evidence": "NeurIPS 2024 论文第 10 页致谢具名说明陈奕龙在百度实习期间完成本项研究：从预训练模型中自适应融合注意力头。论文同篇署名包括国科大指导教师柳厅文及百度在职研究人员张振宇。学生本人履历、国科大指导名单及信工所公开材料核实学生和导师身份。",
+      "advising": [
+        "国科大学生与导师",
+        "陈奕龙本人列柳厅文为导师；国科大指导名单与信工所公开材料具名核实。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "正式出版书目",
+          "https://papers.nips.cc/paper_files/paper/2024/hash/518a75257f37b32f711082dff33c2ffc-Abstract-Conference.html"
+        ],
+        [
+          "信工所公开导师配对",
+          "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-mohd-ucas-liutingwen",
+      "paperId": "arxiv:2412.05644",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "百度",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员、博士生导师；国科大任教资料列陈奕龙为其指导学生。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "正式论文署百度；本人履历明确自 2022 年 7 月在百度 NLP 部门工作，任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "陈奕龙 · Yilong Chen",
+        "本人履历列 2022–2024 年国科大硕士和 2024 年起国科大博士学习经历；本篇第 9 页致谢明确说这项工作在其百度实习期间完成。",
+        "https://chenyilong.cn/"
+      ],
+      "title": "Mixture of Hidden-Dimensions: Not All Hidden-States’ Dimensions are Needed in Transformer",
+      "short": "MoHD",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25bc/chen25bc.pdf",
+      "area": "大模型架构、动态路由",
+      "evidence": "ICML 2025 论文第 9 页致谢具名说明陈奕龙在百度实习期间完成本项研究：让模型按 token 动态选择隐维；同较早预印本合并。论文同篇署名包括国科大指导教师柳厅文及百度在职研究人员张振宇。学生本人履历、国科大指导名单及信工所公开材料核实学生和导师身份。",
+      "advising": [
+        "国科大学生与导师",
+        "陈奕龙本人列柳厅文为导师；国科大指导名单与信工所公开材料具名核实。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "正式出版书目",
+          "https://proceedings.mlr.press/v267/chen25bc.html"
+        ],
+        [
+          "信工所公开导师配对",
+          "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html"
+        ],
+        [
+          "与正式版同一研究的早期预印本",
+          "https://arxiv.org/abs/2412.05644"
+        ]
+      ]
+    },
+    {
+      "id": "baidu-itt-ucas-liutingwen",
+      "paperId": "doi:10.18653/v1/2025.acl-long.1369",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "company": "百度",
+      "team": "文心（ERNIE）团队",
+      "faculty": [
+        "柳厅文 · Tingwen Liu",
+        "国科大研究员、博士生导师；国科大任教资料列陈奕龙为其指导学生。",
+        "https://people.ucas.ac.cn/~0022723"
+      ],
+      "employee": [
+        "张振宇 · Zhenyu Zhang",
+        "正式论文署百度；本人履历明确自 2022 年 7 月在百度 NLP 部门工作，任算法工程师。",
+        "https://zhenyu.ac.cn/"
+      ],
+      "student": [
+        "陈奕龙 · Yilong Chen",
+        "本人履历列 2022–2024 年国科大硕士和 2024 年起国科大博士学习经历；本篇第 9 页致谢明确说这项工作在其百度实习期间完成。",
+        "https://chenyilong.cn/"
+      ],
+      "title": "Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking",
+      "short": "ITT",
+      "date": "2025-07",
+      "venue": "ACL 2025",
+      "paper": "https://aclanthology.org/2025.acl-long.1369.pdf",
+      "area": "大模型架构、动态深度",
+      "evidence": "ACL 2025 论文第 9 页致谢具名说明陈奕龙在百度实习期间完成本项研究：对重要 token 动态增加内部计算步骤。论文同篇署名包括国科大指导教师柳厅文及百度在职研究人员张振宇。学生本人履历、国科大指导名单及信工所公开材料核实学生和导师身份。",
+      "advising": [
+        "国科大学生与导师",
+        "陈奕龙本人列柳厅文为导师；国科大指导名单与信工所公开材料具名核实。",
+        "https://people.ucas.ac.cn/~liutingwen?language=en"
+      ],
+      "extra": [
+        [
+          "正式出版书目",
+          "https://aclanthology.org/2025.acl-long.1369/"
+        ],
+        [
+          "信工所公开导师配对",
+          "https://www.iie.cas.cn/xwdt/zhxw/202609/t20260910_8280346.html"
+        ]
+      ]
     }
   ]
 };
