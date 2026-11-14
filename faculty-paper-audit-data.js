@@ -470,7 +470,13 @@ const facultyPaperAudits = {
     "sources": [
       "https://jarrentwu1031.github.io/",
       "https://richardych.github.io/",
-      "https://dblp.org/pid/59/2741.html"
+      "https://dblp.org/pid/59/2741.html",
+      "https://faculty.hust.edu.cn/xiangbai/zh_CN/index.htm",
+      "https://torrvision.com/people/",
+      "https://wjf5203.github.io/",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09666.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_General_Object_Foundation_Model_for_Images_and_Videos_at_Scale_CVPR_2024_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf"
     ],
     "papers": [
       {
@@ -496,9 +502,27 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2604.26917",
         "outcome": "lead",
         "note": "同一导师及达摩院研究员参与；新版本未注明实习，初版公开时学生已离开阿里，需核查实际研发归属。"
+      },
+      {
+        "title": "PartGLEE: A Foundation Model for Recognizing and Parsing Any Objects",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09666.pdf",
+        "outcome": "confirmed",
+        "note": "ECCV 正式版首页直接具名 Junfeng Wu 在字节跳动实习完成此项研究。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。"
+      },
+      {
+        "title": "General Object Foundation Model for Images and Videos at Scale",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_General_Object_Foundation_Model_for_Images_and_Videos_at_Scale_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式版明确具名 Junfeng Wu 在字节跳动实习时进行本论文的研究。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。"
+      },
+      {
+        "title": "InstMove: Instance Motion for Object-Centric Video Segmentation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 首页以星号联结两位并列第一作者（含 Junfeng Wu）和本项字节跳动实习说明；学生履历也具名列此论文及同期实习。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。"
       }
     ],
-    "note": "目前完成吴子杰公开研究项目的部分论文。"
+    "note": "已经逐篇核对该合作簇及部分论文来源，未覆盖该教师全部公开书目。"
   },
   "8D_9JI0AAAAJ": {
     "from": "2023-01-01",
@@ -6942,7 +6966,12 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://cse.sysu.edu.cn/teacher/XieXiaohua",
-      "https://yanzuo.lu/"
+      "https://yanzuo.lu/",
+      "https://pangzecheung.github.io/Homepage/",
+      "https://ur.tencent.com/article/1473",
+      "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html",
+      "https://www.ipd.gov.hk/hkipjournal/04022022/Patent_04022022.pdf",
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf"
     ],
     "papers": [
       {
@@ -6965,6 +6994,48 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "no-evidence",
         "note": "全文作者单位为中大、实验室等；在公开机构署名中未找到范围内企业作者。"
+      },
+      {
+        "title": "Formulating Discrete Probability Flow Through Optimal Transport",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e6e706454d72c18582b9c1ff70b11f7d-Paper-Conference.pdf",
+        "year": 2023,
+        "outcome": "confirmed",
+        "note": "正式论文具名说明张鹏泽在微信实习期间完成本研究。张鹏泽履历、校方教师档案和腾讯高校合作资料分别确认中大博士学籍、谢晓华为导师及同期企业作者 Hubery Yin 的微信视觉正式任职。"
+      },
+      {
+        "title": "Tackling the Singularities at the Endpoints of Time Intervals in Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Tackling_the_Singularities_at_the_Endpoints_of_Time_Intervals_in_CVPR_2024_paper.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "正式论文具名说明张鹏泽在微信实习期间完成本研究。张鹏泽履历、校方教师档案和腾讯高校合作资料分别确认中大博士学籍、谢晓华为导师及同期企业作者 Hubery Yin 的微信视觉正式任职。"
+      },
+      {
+        "title": "WeDetect: Fast Open-Vocabulary Object Detection as Retrieval",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fu_WeDetect_Fast_Open-Vocabulary_Object_Detection_as_Retrieval_CVPR_2026_paper.pdf",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "正式论文脚注明示付盛豪在腾讯实习期间完成此项工作，企业合作者饶峰云为腾讯署名通讯作者。中大郑伟诗的公开书目在本篇具名标注他所指导的学生；论文单位则按原文为琶洲实验室（黄埔）及深圳环形实验室。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。"
+      },
+      {
+        "title": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/file/bf7262e692f3a5c7d676e9e06a1d919a-Paper-Conference.pdf",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式论文首页具名标明付盛豪在阿里实习期间完成研究、杨琪泽为项目组负责人、郑伟诗为通讯作者；郑伟诗本人论文列表逐篇标注指导关系。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。"
+      },
+      {
+        "title": "LLMDet: Learning Strong Open-Vocabulary Object Detectors under the Supervision of Large Language Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fu_LLMDet_Learning_Strong_Open-Vocabulary_Object_Detectors_under_the_Supervision_of_CVPR_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "正式论文补充材料首页具名标出付盛豪在阿里实习时参与此项工作，致谢确认阿里实习项目。杨琪泽署阿里通义，郑伟诗为通讯作者，导师本人公开书目分别具名标注。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。"
+      },
+      {
+        "title": "ViSpeak: Visual Instruction Feedback in Streaming Videos",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fu_ViSpeak_Visual_Instruction_Feedback_in_Streaming_Videos_ICCV_2025_paper.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "ICCV 正式论文首页专门标出付盛豪和 Yi-Xing Peng 的阿里实习完成该项课题。杨琪泽署阿里通义，郑伟诗在同篇署名并在本人公开书目明确列两人为指导学生。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。"
       }
     ]
   },
@@ -7050,7 +7121,10 @@ const facultyPaperAudits = {
       "https://manyuan97.github.io/",
       "https://arxiv.org/pdf/2606.13679",
       "https://arxiv.org/abs/2512.05965",
-      "https://arxiv.org/html/2512.05965v1"
+      "https://arxiv.org/html/2512.05965v1",
+      "https://arxiv.org/abs/2511.22663",
+      "https://arxiv.org/pdf/2511.22663v1",
+      "https://zhengdian1.github.io/AIA-project/"
     ],
     "papers": [
       {
@@ -7064,6 +7138,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2512.05965",
         "outcome": "confirmed",
         "note": "论文原稿把在读博士郑典逐人绑定港中文与美团两个单位，学生列本篇为研究成果，公开履历给出同期美团实习及具名企业导师 Manyuan Zhang，并明确同篇李鸿升为其博士导师。"
+      },
+      {
+        "title": "AIA: Rethinking Architecture Decoupling Strategy In Unified Multimodal Model",
+        "url": "https://arxiv.org/abs/2511.22663",
+        "outcome": "confirmed",
+        "note": "预印本首页把美团实习期间完成本篇的脚注明确指向第一作者郑典。学生公开履历确认香港中文大学在读、同篇学术导师李鸿升以及美团 LongCat 实习中由 Manyuan Zhang 指导；原始论文和项目同时把后者具名列为美团项目负责人。该文后续预印本改题，仍是同一编号的一篇。"
       }
     ]
   },
@@ -7213,5 +7293,74 @@ const facultyPaperAudits = {
         "note": "ICML 论文具名黄文柯在腾讯实习，实习者在本篇只署南洋理工；武汉大学公开资料已证实曾就读，尚需确认他参与该研究时是否仍在武大攻读博士。"
       }
     ]
+  },
+  "8e7H3PcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://mypage.zju.edu.cn/siliang",
+      "https://zhuyun97.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Graph Retrieval-Augmented Generation: A Survey",
+        "url": "https://arxiv.org/html/2408.08921",
+        "outcome": "confirmed",
+        "note": "朱赟为浙江大学在读博士，原文致谢明确论文由蚂蚁研究实习项目支持；本人履历和实习导师公开名录均确认其 2024–2025 年蚂蚁研究实习，方向覆盖 GraphRAG 与基础模型，初版处于同一实习期。"
+      },
+      {
+        "title": "GraphCLIP: Enhancing Transferability in Graph Foundation Models for Text-Attributed Graphs",
+        "url": "https://arxiv.org/html/2410.10329",
+        "outcome": "confirmed",
+        "note": "朱赟为浙江大学在读博士，原文致谢明确论文由蚂蚁研究实习项目支持；本人履历和实习导师公开名录均确认其 2024–2025 年蚂蚁研究实习，方向覆盖 GraphRAG 与基础模型，初版处于同一实习期。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "OUXS8doAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm",
+      "https://cxxgtxy.github.io/cv/",
+      "https://yanqidai.github.io/",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/1cac8326ce3fbe79171db9754211530c-Paper-Conference.pdf",
+      "https://dl.acm.org/doi/pdf/10.1145/3774904.3792371"
+    ],
+    "papers": [
+      {
+        "title": "Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/1cac8326ce3fbe79171db9754211530c-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式版明确将该论文对应代彦琪在阿里高德的实习。 人大校内导师卢志武和高德负责人初祥祥也在同一篇署名。"
+      },
+      {
+        "title": "Adaptive Task Balancing for Visual Instruction Tuning via Inter-Task Contribution and Intra-Task Difficulty",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3774904.3792371",
+        "outcome": "confirmed",
+        "note": "ACM 正式版首页明确注明部分工作在代彦琪的阿里高德实习期间完成。 人大校内导师卢志武和高德负责人初祥祥也在同一篇署名。"
+      }
+    ],
+    "note": "已经逐篇核对该合作簇及部分论文来源，未覆盖该教师全部公开书目。"
+  },
+  "5hti_r0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~gfmeng",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04016.pdf"
+    ],
+    "papers": [
+      {
+        "title": "AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04016.pdf",
+        "outcome": "confirmed",
+        "note": "ECCV 正式版明确将本作品归入第一作者许世雄的阿里云实习；其校内导师孟高峰及已毕业在阿里云工作的张承灏为同篇作者。"
+      }
+    ],
+    "note": "已经逐篇核对该合作簇及部分论文来源，未覆盖该教师全部公开书目。"
   }
 };

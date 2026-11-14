@@ -25663,6 +25663,651 @@ const survey = {
           "https://github.com/EdisonLeeeee/SpikeGCL"
         ]
       ]
+    },
+    {
+      "id": "graphrag-survey-ant-zju-8e7h3pcaaaaj",
+      "paperId": "doi:10.1145/3777378",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究实习项目",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "汤斯亮 · Siliang Tang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://mypage.zju.edu.cn/siliang"
+      ],
+      "employee": [
+        "刘永超 · Yongchao Liu",
+        "本人履历列其自 2017 年 7 月起任蚂蚁集团 Staff Engineer；为同篇论文具名蚂蚁作者及朱赟在蚂蚁的实习导师。",
+        "https://yongchao-liu.github.io/"
+      ],
+      "student": [
+        "朱赟 · Yun Zhu",
+        "朱赟为浙江大学在读博士，原文致谢明确论文由蚂蚁研究实习项目支持；本人履历和实习导师公开名录均确认其 2024–2025 年蚂蚁研究实习，方向覆盖 GraphRAG 与基础模型，初版处于同一实习期。",
+        "https://zhuyun97.github.io/"
+      ],
+      "title": "Graph Retrieval-Augmented Generation: A Survey",
+      "short": "GraphRAG Survey",
+      "date": "2025-12",
+      "venue": "ACM Transactions on Information Systems",
+      "area": "图机器学习与信息检索",
+      "paper": "https://arxiv.org/html/2408.08921",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3777378"
+        ],
+        [
+          "企业导师具名的研究实习名录",
+          "https://yongchao-liu.github.io/people.html"
+        ],
+        [
+          "初版与版本记录",
+          "https://arxiv.org/abs/2408.08921"
+        ]
+      ],
+      "evidence": "朱赟为浙江大学在读博士，原文致谢明确论文由蚂蚁研究实习项目支持；本人履历和实习导师公开名录均确认其 2024–2025 年蚂蚁研究实习，方向覆盖 GraphRAG 与基础模型，初版处于同一实习期。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "朱赟的个人学术主页具名列汤斯亮为其浙江大学博士导师；汤斯亮为同篇作者。",
+        "https://zhuyun97.github.io/"
+      ]
+    },
+    {
+      "id": "graphclip-ant-zju-8e7h3pcaaaaj",
+      "paperId": "doi:10.1145/3696410.3714801",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究实习项目",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "汤斯亮 · Siliang Tang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://mypage.zju.edu.cn/siliang"
+      ],
+      "employee": [
+        "刘永超 · Yongchao Liu",
+        "本人履历列其自 2017 年 7 月起任蚂蚁集团 Staff Engineer；为同篇论文具名蚂蚁作者及朱赟在蚂蚁的实习导师。",
+        "https://yongchao-liu.github.io/"
+      ],
+      "student": [
+        "朱赟 · Yun Zhu",
+        "朱赟为浙江大学在读博士，原文致谢明确论文由蚂蚁研究实习项目支持；本人履历和实习导师公开名录均确认其 2024–2025 年蚂蚁研究实习，方向覆盖 GraphRAG 与基础模型，初版处于同一实习期。",
+        "https://zhuyun97.github.io/"
+      ],
+      "title": "GraphCLIP: Enhancing Transferability in Graph Foundation Models for Text-Attributed Graphs",
+      "short": "GraphCLIP",
+      "date": "2025-04",
+      "venue": "The Web Conference 2025",
+      "area": "图机器学习与信息检索",
+      "paper": "https://arxiv.org/html/2410.10329",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3696410.3714801"
+        ],
+        [
+          "企业导师具名的研究实习名录",
+          "https://yongchao-liu.github.io/people.html"
+        ],
+        [
+          "初版与版本记录",
+          "https://arxiv.org/abs/2410.10329"
+        ]
+      ],
+      "evidence": "朱赟为浙江大学在读博士，原文致谢明确论文由蚂蚁研究实习项目支持；本人履历和实习导师公开名录均确认其 2024–2025 年蚂蚁研究实习，方向覆盖 GraphRAG 与基础模型，初版处于同一实习期。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "朱赟的个人学术主页具名列汤斯亮为其浙江大学博士导师；汤斯亮为同篇作者。",
+        "https://zhuyun97.github.io/"
+      ]
+    },
+    {
+      "id": "meituan-aia-cuhk-hongsheng-li",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "李鸿升 · Hongsheng Li",
+        "香港中文大学教授、论文高校通讯作者。",
+        "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-hongsheng-li"
+      ],
+      "student": [
+        "郑典 · Dian Zheng",
+        "香港中文大学博士生、文章第一作者；履历记录 2025 年 7 月至 2026 年 5 月在美团 LongCat 实习。",
+        "https://zhengdian1.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开学术主页列导师为同篇香港中文大学的李鸿升。",
+        "https://zhengdian1.github.io/"
+      ],
+      "employee": [
+        "Manyuan Zhang",
+        "美团 LongCat 团队正式研究员，论文具名项目负责人，亦为学生美团期间具名导师。",
+        "https://manyuan97.github.io/"
+      ],
+      "title": "AIA: Rethinking Architecture Decoupling Strategy In Unified Multimodal Model",
+      "short": "AIA",
+      "date": "2025-11",
+      "venue": "arXiv",
+      "area": "计算机视觉与多模态",
+      "paper": "https://arxiv.org/abs/2511.22663",
+      "extra": [
+        [
+          "论文第一版全文与第一作者美团实习脚注",
+          "https://arxiv.org/pdf/2511.22663v1"
+        ],
+        [
+          "原始项目与双方具名角色",
+          "https://zhengdian1.github.io/AIA-project/"
+        ]
+      ],
+      "evidence": "预印本首页把美团实习期间完成本篇的脚注明确指向第一作者郑典。学生公开履历确认香港中文大学在读、同篇学术导师李鸿升以及美团 LongCat 实习中由 Manyuan Zhang 指导；原始论文和项目同时把后者具名列为美团项目负责人。该文后续预印本改题，仍是同一编号的一篇。"
+    },
+    {
+      "id": "alibaba-mathforge-ruc-lu",
+      "company": "阿里巴巴",
+      "team": "高德 AMAP",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "卢志武 · Zhiwu Lu",
+        "中国人民大学高瓴人工智能学院教授、博士生导师。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人公开履历记载自 2024 年 3 月起任阿里高德 DreamX 负责人及高级总监，同篇署高德。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "代彦琪 · Yanqi Dai",
+        "中国人民大学高瓴人工智能学院在读博士，公开履历列 2025 年 3–9 月于阿里高德机器学习团队实习。",
+        "https://yanqidai.github.io/"
+      ],
+      "title": "Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation",
+      "short": "MATHFORGE",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "视觉与多模态",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/file/1cac8326ce3fbe79171db9754211530c-Paper-Conference.pdf",
+      "evidence": "ICLR 正式版明确将该论文对应代彦琪在阿里高德的实习。 人大校内导师卢志武和高德负责人初祥祥也在同一篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "代彦琪本人公开主页明确其人大博士学习由卢志武指导。",
+        "https://yanqidai.github.io/"
+      ],
+      "extra": [
+        [
+          "论文书目",
+          "https://arxiv.org/abs/2601.20614"
+        ]
+      ],
+      "paperId": "arxiv:2601.20614"
+    },
+    {
+      "id": "alibaba-visatb-ruc-lu",
+      "company": "阿里巴巴",
+      "team": "高德 AMAP",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "卢志武 · Zhiwu Lu",
+        "中国人民大学高瓴人工智能学院教授、博士生导师。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/lzw/index.htm"
+      ],
+      "employee": [
+        "初祥祥 · Xiangxiang Chu",
+        "本人公开履历记载自 2024 年 3 月起任阿里高德 DreamX 负责人及高级总监，同篇署高德。",
+        "https://cxxgtxy.github.io/cv/"
+      ],
+      "student": [
+        "代彦琪 · Yanqi Dai",
+        "中国人民大学高瓴人工智能学院在读博士，公开履历列 2025 年 3–9 月于阿里高德机器学习团队实习。",
+        "https://yanqidai.github.io/"
+      ],
+      "title": "Adaptive Task Balancing for Visual Instruction Tuning via Inter-Task Contribution and Intra-Task Difficulty",
+      "short": "VISATB",
+      "date": "2026-04",
+      "venue": "The Web Conference",
+      "area": "视觉与多模态",
+      "paper": "https://dl.acm.org/doi/pdf/10.1145/3774904.3792371",
+      "evidence": "ACM 正式版首页明确注明部分工作在代彦琪的阿里高德实习期间完成。 人大校内导师卢志武和高德负责人初祥祥也在同一篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "代彦琪本人公开主页明确其人大博士学习由卢志武指导。",
+        "https://yanqidai.github.io/"
+      ],
+      "extra": [
+        [
+          "论文书目",
+          "https://doi.org/10.1145/3774904.3792371"
+        ]
+      ],
+      "paperId": "doi:10.1145/3774904.3792371"
+    },
+    {
+      "id": "bytedance-partglee-hust-bai",
+      "company": "字节跳动",
+      "team": "AI Lab",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学教授、博士生导师，论文共同作者。",
+        "https://faculty.hust.edu.cn/xiangbai/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Song Bai",
+        "牛津大学视觉研究组原成员名录列其为字节跳动正式研究科学家，2023 年 ICLR 和本研究正式版均署字节跳动。",
+        "https://torrvision.com/people/"
+      ],
+      "student": [
+        "Junfeng Wu",
+        "本人记录在华中科技大学攻读博士、2021–2025 年在字节跳动 AI Lab 进行研究实习。",
+        "https://wjf5203.github.io/"
+      ],
+      "title": "PartGLEE: A Foundation Model for Recognizing and Parsing Any Objects",
+      "short": "partglee",
+      "date": "2024-09",
+      "venue": "ECCV",
+      "area": "视觉与多模态",
+      "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09666.pdf",
+      "evidence": "ECCV 正式版首页直接具名 Junfeng Wu 在字节跳动实习完成此项研究。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "学生本人公开主页明确其华中科技大学博士由白翔指导，也说明其字节读博实习合作对象包括 Song Bai。",
+        "https://wjf5203.github.io/"
+      ],
+      "extra": [
+        [
+          "论文书目",
+          "https://arxiv.org/abs/2407.16696"
+        ],
+        [
+          "同期字节任职佐证（牛津大学索引）",
+          "https://ora.ox.ac.uk/objects/uuid%3A0b8614e9-3a5e-4172-b17f-1a373483ee6f"
+        ]
+      ],
+      "paperId": "arxiv:2407.16696"
+    },
+    {
+      "id": "bytedance-glee-hust-bai",
+      "company": "字节跳动",
+      "team": "AI Lab",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学教授、博士生导师，论文共同作者。",
+        "https://faculty.hust.edu.cn/xiangbai/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Song Bai",
+        "牛津大学视觉研究组原成员名录列其为字节跳动正式研究科学家，2023 年 ICLR 和本研究正式版均署字节跳动。",
+        "https://torrvision.com/people/"
+      ],
+      "student": [
+        "Junfeng Wu",
+        "本人记录在华中科技大学攻读博士、2021–2025 年在字节跳动 AI Lab 进行研究实习。",
+        "https://wjf5203.github.io/"
+      ],
+      "title": "General Object Foundation Model for Images and Videos at Scale",
+      "short": "glee",
+      "date": "2024-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_General_Object_Foundation_Model_for_Images_and_Videos_at_Scale_CVPR_2024_paper.pdf",
+      "evidence": "CVPR 正式版明确具名 Junfeng Wu 在字节跳动实习时进行本论文的研究。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "学生本人公开主页明确其华中科技大学博士由白翔指导，也说明其字节读博实习合作对象包括 Song Bai。",
+        "https://wjf5203.github.io/"
+      ],
+      "extra": [
+        [
+          "论文书目",
+          "https://arxiv.org/abs/2312.09158"
+        ],
+        [
+          "同期字节任职佐证（牛津大学索引）",
+          "https://ora.ox.ac.uk/objects/uuid%3A0b8614e9-3a5e-4172-b17f-1a373483ee6f"
+        ]
+      ],
+      "paperId": "arxiv:2312.09158"
+    },
+    {
+      "id": "bytedance-instmove-hust-bai",
+      "company": "字节跳动",
+      "team": "AI Lab",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学教授、博士生导师，论文共同作者。",
+        "https://faculty.hust.edu.cn/xiangbai/zh_CN/index.htm"
+      ],
+      "employee": [
+        "Song Bai",
+        "牛津大学视觉研究组原成员名录列其为字节跳动正式研究科学家，2023 年 ICLR 和本研究正式版均署字节跳动。",
+        "https://torrvision.com/people/"
+      ],
+      "student": [
+        "Junfeng Wu",
+        "本人记录在华中科技大学攻读博士、2021–2025 年在字节跳动 AI Lab 进行研究实习。",
+        "https://wjf5203.github.io/"
+      ],
+      "title": "InstMove: Instance Motion for Object-Centric Video Segmentation",
+      "short": "instmove",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf",
+      "evidence": "CVPR 首页以星号联结两位并列第一作者（含 Junfeng Wu）和本项字节跳动实习说明；学生履历也具名列此论文及同期实习。 白翔及字节跳动研究科学家 Song Bai 在同一篇署名。",
+      "advising": [
+        "校内博士生导师",
+        "学生本人公开主页明确其华中科技大学博士由白翔指导，也说明其字节读博实习合作对象包括 Song Bai。",
+        "https://wjf5203.github.io/"
+      ],
+      "extra": [
+        [
+          "论文书目",
+          "https://arxiv.org/abs/2303.08132"
+        ],
+        [
+          "同期字节任职佐证（牛津大学索引）",
+          "https://ora.ox.ac.uk/objects/uuid%3A0b8614e9-3a5e-4172-b17f-1a373483ee6f"
+        ]
+      ],
+      "paperId": "arxiv:2303.08132"
+    },
+    {
+      "id": "alibaba-addressclip-ucas-meng",
+      "company": "阿里巴巴",
+      "team": "阿里云",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "孟高峰 · Gaofeng Meng",
+        "中国科学院自动化研究所研究员、国科大博士生导师。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "employee": [
+        "张承灏 · Chenghao Zhang",
+        "国科大导师公开履历载 2023 年博士毕业后进入阿里巴巴；ECCV 正式版署阿里云。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "student": [
+        "许世雄 · Shixiong Xu",
+        "国科大人工智能学院博士生（2020 年起）；ECCV 正式版注明在阿里云实习时从事本研究。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "title": "AddressCLIP: Empowering Vision-Language Models for City-wide Image Address Localization",
+      "short": "AddressCLIP",
+      "date": "2024-09",
+      "venue": "ECCV",
+      "area": "视觉与多模态",
+      "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04016.pdf",
+      "evidence": "ECCV 正式版明确将本作品归入第一作者许世雄的阿里云实习；其校内导师孟高峰及已毕业在阿里云工作的张承灏为同篇作者。",
+      "advising": [
+        "校内指导／共同指导",
+        "孟高峰的国科大官方页面在“在读学生（指导/共同指导）”具名许世雄，同时把张承灏列为 2023 年毕业、去向阿里巴巴。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "extra": [
+        [
+          "论文书目",
+          "https://arxiv.org/abs/2407.08156"
+        ],
+        [
+          "ECCV 对应项目",
+          "https://addressclip.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2407.08156"
+    },
+    {
+      "id": "tencent-discrete-flow-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "title": "Formulating Discrete Probability Flow Through Optimal Transport",
+      "short": "Discrete Probability Flow",
+      "date": "2023-12",
+      "venue": "NeurIPS",
+      "area": "扩散模型",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e6e706454d72c18582b9c1ff70b11f7d-Paper-Conference.pdf",
+      "arxiv": "2311.03886",
+      "evidence": "正式论文具名说明张鹏泽在微信实习期间完成本研究。张鹏泽履历、校方教师档案和腾讯高校合作资料分别确认中大博士学籍、谢晓华为导师及同期企业作者 Hubery Yin 的微信视觉正式任职。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；研究发生时为张鹏泽的博士导师。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "student": [
+        "张鹏泽 · Pengze Zhang",
+        "研究时是中山大学在读博士，在微信视觉参与腾讯犀牛鸟联合培养。",
+        "https://pangzecheung.github.io/Homepage/"
+      ],
+      "employee": [
+        "Hubery Yin",
+        "论文中的企业共同第一作者，腾讯高校合作正式报道列其为微信视觉高级研究员。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "advising": [
+        "博士生导师、校企联合培养",
+        "腾讯高校合作报道明确列谢晓华为张鹏泽的学界导师；本人履历亦列谢晓华为中山大学博士导师。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "extra": [
+        [
+          "学生逐篇学术履历",
+          "https://pangzecheung.github.io/Homepage/"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-singdiffusion-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "title": "Tackling the Singularities at the Endpoints of Time Intervals in Diffusion Models",
+      "short": "SingDiffusion",
+      "date": "2024-06",
+      "venue": "CVPR",
+      "area": "扩散模型",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Tackling_the_Singularities_at_the_Endpoints_of_Time_Intervals_in_CVPR_2024_paper.pdf",
+      "arxiv": "2403.08381",
+      "evidence": "正式论文具名说明张鹏泽在微信实习期间完成本研究。张鹏泽履历、校方教师档案和腾讯高校合作资料分别确认中大博士学籍、谢晓华为导师及同期企业作者 Hubery Yin 的微信视觉正式任职。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；研究发生时为张鹏泽的博士导师。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "student": [
+        "张鹏泽 · Pengze Zhang",
+        "研究时是中山大学在读博士，在微信视觉参与腾讯犀牛鸟联合培养。",
+        "https://pangzecheung.github.io/Homepage/"
+      ],
+      "employee": [
+        "Hubery Yin",
+        "论文中的企业共同第一作者，腾讯高校合作正式报道列其为微信视觉高级研究员。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "advising": [
+        "博士生导师、校企联合培养",
+        "腾讯高校合作报道明确列谢晓华为张鹏泽的学界导师；本人履历亦列谢晓华为中山大学博士导师。",
+        "https://ur.tencent.com/article/1473"
+      ],
+      "extra": [
+        [
+          "学生逐篇学术履历",
+          "https://pangzecheung.github.io/Homepage/"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-wedetect-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "腾讯",
+      "team": "微信视觉",
+      "title": "WeDetect: Fast Open-Vocabulary Object Detection as Retrieval",
+      "short": "WeDetect",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fu_WeDetect_Fast_Open-Vocabulary_Object_Detection_as_Retrieval_CVPR_2026_paper.pdf",
+      "evidence": "正式论文脚注明示付盛豪在腾讯实习期间完成此项工作，企业合作者饶峰云为腾讯署名通讯作者。中大郑伟诗的公开书目在本篇具名标注他所指导的学生；论文单位则按原文为琶洲实验室（黄埔）及深圳环形实验室。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；中大主页明确列付盛豪为其共同指导的博士生。本篇同一作者名单列谢晓华。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "employee": [
+        "饶峰云 · Fengyun Rao",
+        "腾讯微信视觉团队通讯作者；香港知识产权署公报另列为腾讯公司专利发明人。",
+        "https://www.ipd.gov.hk/hkipjournal/04022022/Patent_04022022.pdf"
+      ],
+      "student": [
+        "付盛豪 · Shenghao Fu",
+        "中山大学在读学生，导师公开书目将其标为该项目学生；论文具名标出实习。",
+        "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html"
+      ],
+      "advising": [
+        "中山大学博士共同指导",
+        "中山大学教师档案在指导学生一节具名注明谢晓华与郑伟诗联合指导付盛豪。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "extra": []
+    },
+    {
+      "id": "alibaba-frozendetr-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "title": "Frozen-DETR: Enhancing DETR with Image Understanding from Frozen Foundation Models",
+      "short": "Frozen-DETR",
+      "date": "2024-12",
+      "venue": "NeurIPS",
+      "area": "计算机视觉与多模态",
+      "paper": "https://papers.nips.cc/paper_files/paper/2024/file/bf7262e692f3a5c7d676e9e06a1d919a-Paper-Conference.pdf",
+      "evidence": "NeurIPS 正式论文首页具名标明付盛豪在阿里实习期间完成研究、杨琪泽为项目组负责人、郑伟诗为通讯作者；郑伟诗本人论文列表逐篇标注指导关系。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；中大主页明确列付盛豪为其共同指导的博士生。本篇同一作者名单列谢晓华。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "employee": [
+        "杨琪泽 · Qize Yang",
+        "阿里巴巴通义实验室企业作者。CVPR 2021 正式论文将其署为阿里巴巴并列企业邮箱；本轮论文同样以通义署名。",
+        "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf"
+      ],
+      "student": [
+        "付盛豪 · Shenghao Fu",
+        "中山大学在读学生，导师公开书目将其标为该项目学生；论文具名标出实习。",
+        "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html"
+      ],
+      "advising": [
+        "中山大学博士共同指导",
+        "中山大学教师档案在指导学生一节具名注明谢晓华与郑伟诗联合指导付盛豪。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "extra": [
+        [
+          "CCF 确认作者中文姓名",
+          "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml"
+        ]
+      ]
+    },
+    {
+      "id": "alibaba-llmdet-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "title": "LLMDet: Learning Strong Open-Vocabulary Object Detectors under the Supervision of Large Language Models",
+      "short": "LLMDet",
+      "date": "2025-06",
+      "venue": "CVPR",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fu_LLMDet_Learning_Strong_Open-Vocabulary_Object_Detectors_under_the_Supervision_of_CVPR_2025_paper.pdf",
+      "evidence": "正式论文补充材料首页具名标出付盛豪在阿里实习时参与此项工作，致谢确认阿里实习项目。杨琪泽署阿里通义，郑伟诗为通讯作者，导师本人公开书目分别具名标注。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；中大主页明确列付盛豪为其共同指导的博士生。本篇同一作者名单列谢晓华。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "employee": [
+        "杨琪泽 · Qize Yang",
+        "阿里巴巴通义实验室企业作者。CVPR 2021 正式论文将其署为阿里巴巴并列企业邮箱；本轮论文同样以通义署名。",
+        "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf"
+      ],
+      "student": [
+        "付盛豪 · Shenghao Fu",
+        "中山大学在读学生，导师公开书目将其标为该项目学生；论文具名标出实习。",
+        "https://www.isee-ai.cn/~zhwshi/selected_paper_list.html"
+      ],
+      "advising": [
+        "中山大学博士共同指导",
+        "中山大学教师档案在指导学生一节具名注明谢晓华与郑伟诗联合指导付盛豪。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "extra": [
+        [
+          "CVPR 正式论文补充材料",
+          "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Fu_LLMDet_Learning_Strong_CVPR_2025_supplemental.pdf"
+        ],
+        [
+          "CCF 论文介绍与各作者单位",
+          "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml"
+        ]
+      ]
+    },
+    {
+      "id": "alibaba-vispeak-sysu-xiaohua-xie",
+      "school": "中山大学",
+      "studentSchool": "中山大学",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "title": "ViSpeak: Visual Instruction Feedback in Streaming Videos",
+      "short": "ViSpeak",
+      "date": "2025-10",
+      "venue": "ICCV",
+      "area": "计算机视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fu_ViSpeak_Visual_Instruction_Feedback_in_Streaming_Videos_ICCV_2025_paper.pdf",
+      "evidence": "ICCV 正式论文首页专门标出付盛豪和 Yi-Xing Peng 的阿里实习完成该项课题。杨琪泽署阿里通义，郑伟诗在同篇署名并在本人公开书目明确列两人为指导学生。 同篇作者谢晓华也在中山大学教师档案中被明确列为付盛豪的共同指导教师。",
+      "faculty": [
+        "谢晓华 · Xiaohua Xie",
+        "中山大学计算机学院教授；中大主页明确列付盛豪为其共同指导的博士生。本篇同一作者名单列谢晓华。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "employee": [
+        "杨琪泽 · Qize Yang",
+        "阿里巴巴通义实验室企业作者。CVPR 2021 正式论文将其署为阿里巴巴并列企业邮箱；本轮论文同样以通义署名。",
+        "https://ira.lib.polyu.edu.hk/bitstream/10397/105457/1/Zhang_Interactive_Self-Training_Mean.pdf"
+      ],
+      "student": [
+        "付盛豪 · Shenghao Fu",
+        "中山大学博士生；论文具名标明其赴阿里实习完成该项目，校方教师档案列其与两名导师的关系。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "advising": [
+        "中山大学博士共同指导",
+        "中山大学教师档案在指导学生一节具名注明谢晓华与郑伟诗联合指导付盛豪。",
+        "https://cse.sysu.edu.cn/teacher/XieXiaohua"
+      ],
+      "extra": [
+        [
+          "CCF 确认作者中文姓名",
+          "https://tc.ccf.org.cn/tcmt/xsdt/lwdd/2026-07-10/913884.shtml"
+        ]
+      ]
     }
   ]
 };
