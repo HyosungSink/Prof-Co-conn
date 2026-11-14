@@ -12562,13 +12562,19 @@ const facultyPaperAudits = {
   "AjJ2rf8AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://www.cs.sjtu.edu.cn/jiaoshiml/huangweiran.html",
       "https://mifa.sjtu.edu.cn/",
       "https://mifa.sjtu.edu.cn/~weiranhuang/publications.html",
       "https://dblp.org/pid/170/0073-1.html",
-      "https://waltonfuture.github.io/"
+      "https://waltonfuture.github.io/",
+      "https://orcid.org/0000-0003-1193-6157",
+      "https://www.csauthors.net/weiran-huang-001/",
+      "https://aclanthology.org/2026.findings-acl.828/",
+      "https://yutingli0606.github.io/",
+      "https://mifa.sjtu.edu.cn/~weiranhuang/",
+      "https://yutingli0606.github.io/cv/YutingLi_CV_2026-2.pdf"
     ],
     "papers": [
       {
@@ -12623,7 +12629,7 @@ const facultyPaperAudits = {
       {
         "title": "First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training",
         "year": 2025,
-        "url": "https://arxiv.org/pdf/2505.22453",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2025/hash/59ddfff7979b43f54690fa986c0e5138-Abstract-Conference.html",
         "outcome": "no-evidence",
         "note": "原文作者仅上海交大、中关村学院、上海创新研究院及 Lehigh；魏来另有企业经历，未与本项对应。"
       },
@@ -12651,21 +12657,21 @@ const facultyPaperAudits = {
       {
         "title": "FinLLM-B: When Large Language Models Meet Financial Breakout Trading",
         "year": 2025,
-        "url": "https://arxiv.org/pdf/2402.07536",
+        "url": "https://aclanthology.org/2025.naacl-industry.29/",
         "outcome": "no-evidence",
         "note": "正式产业赛道不等于企业项目；原文机构为上交 MIFA、早稻田大学、Lehigh 和 BIGAI，未见目标企业。"
       },
       {
         "title": "Diff-eRank: A Novel Rank-Based Metric for Evaluating Large Language Models",
         "year": 2024,
-        "url": "https://arxiv.org/pdf/2401.17139",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/45cc967d7899616f51993b7b363d35b5-Abstract-Conference.html",
         "outcome": "no-evidence",
         "note": "原文列上海交大、清华、William & Mary 和独立研究者；无目标企业同期署名或项目角色。"
       },
       {
         "title": "SAFE: Slow and Fast Parameter-Efficient Tuning for Continual Learning with Pre-Trained Models",
         "year": 2024,
-        "url": "https://arxiv.org/pdf/2411.02175",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/ce406fcba6401cd90cbded79567e2cf5-Abstract-Conference.html",
         "outcome": "lead",
         "note": "NeurIPS 正文署腾讯优图；实验室把赵凌览和张雪睿列为当期访问学生，尚缺黄维然的同期校内或联合培养导师证据。"
       },
@@ -12721,51 +12727,51 @@ const facultyPaperAudits = {
       {
         "title": "DiffKendall: A Novel Approach for Few-Shot Learning with Differentiable Kendall's Rank Correlation",
         "year": 2023,
-        "url": "https://arxiv.org/pdf/2307.15317",
+        "url": "https://papers.nips.cc/paper_files/paper/2023/hash/9b01333262789ea3a65a5fab4c22feae-Abstract-Conference.html",
         "outcome": "no-evidence",
         "note": "原文企业合作方为微软亚洲研究院；微软不在目标公司范围。"
       },
       {
         "title": "FD-Align: Feature Discrimination Alignment for Fine-tuning Pre-Trained Models in Few-Shot Learning",
         "year": 2023,
-        "url": "https://arxiv.org/pdf/2310.15105",
+        "url": "https://papers.nips.cc/paper_files/paper/2023/hash/87cf37e2085655bad7bad0a014e0edad-Abstract-Conference.html",
         "outcome": "no-evidence",
         "note": "正式原文企业作者署微软亚洲研究院，微软不在目标公司范围；北京科技大学也不属于 26 校。"
       },
       {
         "title": "When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method",
         "year": 2023,
-        "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_When_Noisy_Labels_Meet_Long_Tail_Dilemmas_A_Representation_Calibration_ICCV_2023_paper.html",
+        "url": "https://doi.org/10.1109/ICCV51070.2023.01456",
         "outcome": "lead",
-        "note": "原文直接指出前两位作者是受黄维然指导的实习生并另署华为作者。实习发生于黄维然企业任职后转校前的候选阶段；首版 2022 年且无证据证实当时黄维然以两校的联合培养教师身份指导。核对学生正式校内导师可转为其他教师的关系。"
+        "note": "正式 ICCV 出版在范围内；首版于 2022 年公开，原文说明张曼怡和赵旭阳是受黄维然指导的企业实习者。黄维然当期是华为员工，未能核实同阶段以上交教师参与指导。清华袁春官方资料具名张曼怡为 2021 入学硕士，但袁春尚不在本次符合范围教师队列。"
       },
       {
         "title": "Rethinking Weak Supervision in Helping Contrastive Representation Learning",
         "year": 2023,
-        "url": "https://arxiv.org/pdf/2306.04160",
+        "url": "https://proceedings.mlr.press/v202/cui23a.html",
         "outcome": "lead",
         "note": "正式版黄维然校企双署，个人原文列早年华为项目。实验室将北大学生列为企业实习 2021–2022；未证实黄维然研究发生时已任目标高校教师并担当校内或具名联培导师。"
       },
       {
         "title": "Towards the Generalization of Contrastive Self-Supervised Learning",
         "year": 2023,
-        "url": "https://arxiv.org/pdf/2111.00743",
+        "url": "https://openreview.net/forum?id=XDJwuEYHhme",
         "outcome": "lead",
         "note": "2021 预印本、2023 正式版署华为及两所高校。尚缺该项目期间的学生企业项目角色、以及黄维然转高校后继续具名指导的材料；发布机构不能回推研究期角色。"
       },
       {
         "title": "ArCL: Enhancing Contrastive Learning with Augmentation-Robust Representations",
         "year": 2023,
-        "url": "https://arxiv.org/pdf/2303.01092",
+        "url": "https://openreview.net/forum?id=n0Pb9T5kmb",
         "outcome": "lead",
         "note": "北大赵旭阳和杜天祺、上交／华为共同发表，导师个人实验室列学生 2021–2022 企业实习，未证实黄维然是当期高校联合培养导师。"
       },
       {
         "title": "Your Contrastive Learning Is Secretly Doing Stochastic Neighbor Embedding",
         "year": 2023,
-        "url": "https://arxiv.org/pdf/2205.14814",
+        "url": "https://openreview.net/forum?id=XFSCKELP3bp",
         "outcome": "lead",
-        "note": "原文合作者 Zhili Liu 华为和港科大双署，黄维然为上交通讯；尚缺二人具名师承及该生当期企业身份材料。"
+        "note": "ICLR 原文合作者刘智立当期华为／港科大双署；其本人主页确认校内导师为港科大 James Kwok，黄维然不是具名校内导师。2022 预印本不可单凭 2023 最终单位回推；未找到黄维然被具名为联合导师。"
       },
       {
         "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
@@ -12794,9 +12800,219 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2608.03063",
         "outcome": "lead",
         "note": "张嘉兴为 2026 在读博士、同篇共同一作，微信支付生产部署及具名员工已核；尚缺其在该企业项目内的具体贡献说明，作者所链仓库未能用提交身份直接印证。"
+      },
+      {
+        "title": "Attend to Evidence: Evidence-Anchored Spatial Attention Supervision for Multimodal RLVR",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2605.30912",
+        "outcome": "no-evidence",
+        "note": "原文署 XinZhuAI 的企业对应作者；未见该机构属于现有目标企业，也未见具名的其他目标企业实际参加。"
+      },
+      {
+        "title": "Black-Box Continual Learning for Vision-Language Models",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2606.22999",
+        "outcome": "no-evidence",
+        "note": "核对作者机构与 Yuting Li 本人 CV：该项属 MIFA 方向，未见目标企业正式人员或同项企业研发。"
+      },
+      {
+        "title": "Camyla: Scaling Autonomous Research in Medical Image Segmentation",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2604.10696",
+        "outcome": "no-evidence",
+        "note": "原文核对中科大、上海创新研究院、上交大和上海 AI 实验室，均未见目标企业。"
+      },
+      {
+        "title": "CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2607.25294",
+        "outcome": "no-evidence",
+        "note": "原文作者只署上交、上海创新研究院和中关村学院，魏来的智谱经历未与该项对应。"
+      },
+      {
+        "title": "CrystalX: High-Accuracy Crystal Structure Analysis Using Deep Learning",
+        "year": 2026,
+        "url": "https://doi.org/10.1021/jacs.5c21832",
+        "outcome": "no-evidence",
+        "note": "JACS 正刊及同一 Research Square 前稿均为上海交大与上海人工智能实验室合著；未见目标企业。"
+      },
+      {
+        "title": "Dynamic Balancing of Model Scale, Efficiency, and Accuracy for Mobile Vision Applications",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TCSVT.2026.3692388",
+        "outcome": "no-evidence",
+        "note": "IEEE 有 ORCID 的出版附录列出上海第二工业大学、上海交大及云南大学三校；未见企业作者。"
+      },
+      {
+        "title": "Evidence-Grounded AI for Musculoskeletal Care",
+        "year": 2026,
+        "url": "https://doi.org/10.21203/rs.3.rs-10210240/v1",
+        "outcome": "no-evidence",
+        "note": "Research Square 与 arXiv 是同一跨多家高校医院的临床管理 AI；未见目标企业同篇参加。"
+      },
+      {
+        "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2610.00437",
+        "outcome": "no-evidence",
+        "note": "原文只有复旦及上交／上海创新研究院两名作者，未见正式企业员工同行。"
+      },
+      {
+        "title": "SWE-Game: Can Coding Agents Build the Games We Want?",
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2609.33678",
+        "outcome": "no-evidence",
+        "note": "原文唯一企业署名为 Elbetech，不在范围。作品测试智谱和 MiniMax 模型，不是为企业参与研究的证据。"
+      },
+      {
+        "title": "Targeted Exploration via Unified Entropy Control for Reinforcement Learning",
+        "year": 2026,
+        "url": "https://aclanthology.org/2026.findings-acl.828/",
+        "outcome": "no-evidence",
+        "note": "ACL Findings 正式版确认作者署高校与中关村学院，未见目标企业。"
+      },
+      {
+        "title": "Tortuosity in Cloud-to-Ground Lightning Discharges",
+        "year": 2026,
+        "url": "https://doi.org/10.1109/TPS.2026.3717844",
+        "outcome": "no-evidence",
+        "note": "ORCID、Crossref 与 IEEE 作者单位一致。本篇使用图像处理方法；合作机构为上海交大和国网上海电力研究院，后者非目标企业。"
+      },
+      {
+        "title": "Advancing Multimodal Reasoning via Reinforcement Learning with Cold Start",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2505.22334",
+        "outcome": "no-evidence",
+        "note": "作者来自上海交大、上海创新研究院、中关村学院及 Lehigh；未见目标公司员工或企业工作，和同周放出的 First SFT 等标题不同。"
+      },
+      {
+        "title": "Can Atomic Step Decomposition Enhance the Self-structured Reasoning of Multimodal Large Models?",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2503.06252v1",
+        "outcome": "lead",
+        "note": "2025 年公开预印本具名姜子昊（黄维然组 2025 届硕士）及华为作者。缺当期学生参与华为项目的独立证明。合并同一 AtomThink 项目的另一个 2411.11930；IEEE 正式版 DOI 10.1109/TPAMI.2026.3653573 已移除黄维然与姜子昊，不能把正式出版署名回填。"
+      },
+      {
+        "title": "EFRame: Deeper Reasoning via Exploration-Filter-Replay Reinforcement Learning Framework",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2506.22200",
+        "outcome": "no-evidence",
+        "note": "原文为中关村学院、南开、上交等学术研究；未见目标公司作者或公司项目中学生的对应贡献。"
+      },
+      {
+        "title": "Information-Theoretic Perspectives on Optimizers",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2502.20763",
+        "outcome": "no-evidence",
+        "note": "原文只有清华与上交作者，无企业同行或该项企业研发证据。"
+      },
+      {
+        "title": "MM-LIMA: Less Is More for Alignment in Multi-Modal Datasets",
+        "year": 2025,
+        "url": "https://doi.org/10.1049/aie2.70001",
+        "outcome": "no-evidence",
+        "note": "IET/Wiley 正刊列出上海交大、上海创新研究院与 Lehigh；未见目标企业；与曾名 InstructionGPT-4 的 2023 预印本为同一成果。"
+      },
+      {
+        "title": "RADAR: A Risk-Aware Dynamic Multi-Agent Framework for LLM Safety Evaluation via Role-Specialized Collaboration",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2509.25271",
+        "outcome": "no-evidence",
+        "note": "原文标陈修元在 TeleAI 实习完成；中国电信不在目标名单，和陈修元在字节产出的 AutoEval-Video 不同。"
+      },
+      {
+        "title": "Revisiting Visual Understanding in Multimodal Reasoning through a Lens of Image Perturbation",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2506.09736",
+        "outcome": "lead",
+        "note": "arXiv v1 题为 Vision Matters，未列企业署名；arXiv v2 增加腾讯 Guilin Li、Bo Wang。同题的 OpenReview 投稿和第一作者 CV 未列这两人，CV 将此工作归在黄维然指导的校内项目，未见学生企业参与的对应材料。"
+      },
+      {
+        "title": "RhythmFormer: Extracting Patterned rPPG Signals based on Periodic Sparse Attention",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.patcog.2025.111511",
+        "outcome": "no-evidence",
+        "note": "Pattern Recognition 期刊论文题录同 arXiv:2402.12788。原文列高校及研究机构，未见目标企业员工及学生在该企业的参与证据。"
+      },
+      {
+        "title": "SageTCR: a structure-based model integrating residue- and atom-level representations for enhanced TCR-pMHC binding prediction",
+        "year": 2025,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40984702/",
+        "outcome": "no-evidence",
+        "note": "DBLP 与期刊原文核对。作者主要为上海交大药学院及附属机构；经查资助／作者贡献中无目标企业。"
+      },
+      {
+        "title": "ATLAS: Adapter-Based Multi-Modal Continual Learning with a Two-Stage Learning Strategy",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2410.10923",
+        "outcome": "no-evidence",
+        "note": "原文为上海交大、清华、临港实验室及上海科技大学项目；未见目标企业研究。"
+      },
+      {
+        "title": "Can I understand what I create? Self-Knowledge Evaluation of Large Language Models",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2406.06140",
+        "outcome": "no-evidence",
+        "note": "原文唯一企业作者来自微软亚洲研究院，超出目标企业范围。"
+      },
+      {
+        "title": "ChemLLM: A Chemical Large Language Model",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2402.06852",
+        "outcome": "no-evidence",
+        "note": "作者学校和上海 AI 实验室等机构均已核对。原文未见目标企业作者或学生企业角色。"
+      },
+      {
+        "title": "Exploring Information-Theoretic Metrics Associated with Neural Collapse in Supervised Training",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2409.16767",
+        "outcome": "no-evidence",
+        "note": "目前可定位原文为 2024 年 arXiv；研究者来自学术团队，未见目标企业作者或论文相关企业实践。"
+      },
+      {
+        "title": "Investigating the Impact of Model Complexity in Large Language Models",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2410.00699",
+        "outcome": "no-evidence",
+        "note": "原文列山东大学、宾大医学院和上交 MIFA；未见目标企业。"
+      },
+      {
+        "title": "The Information of Large Language Model Geometry",
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2402.03471",
+        "outcome": "no-evidence",
+        "note": "原文为清华、独立作者及上海交大，未见目标企业研究。"
+      },
+      {
+        "title": "Tree-Based Ensemble Machine Learning Models in the Prediction of Acute Respiratory Distress Syndrome Following Cardiac Surgery: A Multicenter Cohort Study",
+        "year": 2024,
+        "url": "https://doi.org/10.1186/s12967-024-05395-1",
+        "outcome": "no-evidence",
+        "note": "J Translational Medicine 原文为高校附属医院及学术团队的多中心临床合作，无目标企业角色。"
+      },
+      {
+        "title": "FILM: How can Few-Shot Image Classification Benefit from Pre-Trained Language Models?",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2307.04114",
+        "outcome": "no-evidence",
+        "note": "唯一企业作者为微软亚洲研究院人员，不属于目标 14 家；不将姜子昊后来的职务当作此文期间的公司角色。"
+      },
+      {
+        "title": "TransMed: Large Language Models Enhance Vision Transformer for Biomedical Image Classification",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2312.07125",
+        "outcome": "no-evidence",
+        "note": "作者经由上海交大和 Lehigh 开展医学分类；未见目标企业。与旧题 Efficient Few-Shot Clinical Task Adaptation 同一稿号。"
+      },
+      {
+        "title": "Understanding Grokking Through A Robustness Viewpoint",
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2311.06597",
+        "outcome": "no-evidence",
+        "note": "两位作者只署清华与上海交大，无目标企业。"
       }
     ],
-    "note": "已逐篇核对校方与教师个人书目、会议正式原文/预印本、同篇作者及企业任职或实习来源。仍在补对正式书目和预印本，未标全部梳理。"
+    "note": "以个人与上交的下载书目、DBLP、同一 ORCID 的 Crossref/出版记录、ACL Anthology、arXiv 作者及合作者公开书目去重。按公开截止日可辨认的作品逐篇核对；独立 preprint 信息透明保留，异名与出版版合并（如 AtomThink）。没有等同于三方关系的公司资助或模型引用不计；每条待补记录写明具体缺失。"
   },
   "Wl4tl4QAAAAJ": {
     "from": "2023-01-01",
@@ -28609,7 +28825,7 @@ const facultyPaperAudits = {
         "title": "Gated Slot Attention-2: Two-Sided Associative Memory Correction in Linear Attention",
         "url": "https://arxiv.org/abs/2610.02816",
         "outcome": "lead",
-        "note": "原文列 Ruijie Li 为港科大（广州）第一作者、梁宇轩为通讯作者，并列六位腾讯作者。学生和导师主页确认硕士指导及同期腾讯微信实习；学生在公开稿发布后向社区库提交同篇的 Oja2 与 GDN-2 实现。尚缺资料明确说明这篇工作在其腾讯微信实习中完成；社区提交只证明具名贡献，先保留线索。",
+        "note": "第一作者 Ruijie Li 的港科大（广州）硕士学籍、梁宇轩指导关系、2026 年 7 月开始的腾讯微信实习均有明确来源；本篇有长期在腾讯微信的共同作者 Qinsong Zeng（另有 2026 年发文的腾讯邮箱），但学生本人本篇只署港科大（广州）。他在首版公开后向独立社区库提交的 GSA2 实现能说明具体技术贡献，无法证明该项研究是在腾讯实习项目内完成；原文无相关脚注或直接贡献声明。",
         "year": 2026
       },
       {
