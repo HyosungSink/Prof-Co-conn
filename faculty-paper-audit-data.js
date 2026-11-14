@@ -18131,20 +18131,27 @@ const facultyPaperAudits = {
       "https://person.zju.edu.cn/en/jkzhu",
       "https://hanxunyu.github.io/",
       "https://agnjason.github.io/",
-      "https://yuqianyuan.github.io/"
+      "https://yuqianyuan.github.io/",
+      "https://arxiv.org/html/2606.06891v1",
+      "https://www.kelei.site/",
+      "https://w-ted.github.io/assets/cv_yuxin_wang_hkust.pdf",
+      "https://eccv.ecva.net/virtual/2026/poster/3538",
+      "https://arxiv.org/html/2605.15876v1"
     ],
     "papers": [
       {
         "title": "Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors",
-        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/1896.pdf",
+        "url": "https://arxiv.org/html/2606.06891v1",
         "outcome": "confirmed",
-        "note": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。"
+        "note": "关系已上线，本次补齐日期。2026-06-05 首次公开，采用 ECCV 2026 正式版。原文具名脚注明确浙江大学博士生于瀚勋这项工作在腾讯混元完成；本人列朱建科为指导教师，两人及腾讯研究员 Lei Ke 同署。作者履历的实习年月倒置，采用论文脚注和企业人员公开任职交叉，未猜测更正。港科大实习生 Yuxin Wang 也署名，港科大导师徐旦未署名。",
+        "year": 2026
       },
       {
         "title": "Unlocking Dense Metric Depth Estimation in VLMs",
-        "url": "https://arxiv.org/pdf/2605.15876",
+        "url": "https://arxiv.org/html/2605.15876v1",
         "outcome": "confirmed",
-        "note": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。"
+        "note": "关系已上线，本次补齐日期。2026-05-15 首次公开，采用 arXiv。原文具名脚注明确浙江大学博士生于瀚勋这项工作在腾讯混元完成；本人列朱建科为指导教师，两人及腾讯研究员 Lei Ke 同署。作者履历的实习年月倒置，采用论文脚注和企业人员公开任职交叉，未猜测更正。港科大实习生 Yuxin Wang 也署名，港科大导师徐旦未署名。",
+        "year": 2026
       },
       {
         "title": "OmniAvatar: Efficient Audio-Driven Avatar Video Generation with Adaptive Body Animation",
@@ -40367,7 +40374,38 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2210.04227",
       "https://github.com/caiyu6666/DDAD-ASR",
       "https://proceedings.mlr.press/v202/liu23w.html",
-      "https://proceedings.mlr.press/v202/liu23w/liu23w.pdf"
+      "https://proceedings.mlr.press/v202/liu23w/liu23w.pdf",
+      "https://aclanthology.org/2024.findings-emnlp.444/",
+      "https://aclanthology.org/2024.findings-emnlp.444.pdf",
+      "https://aclanthology.org/2023.emnlp-main.39/",
+      "https://aclanthology.org/2023.emnlp-main.39.pdf",
+      "https://doi.org/10.1109/DAC63849.2025.11133081",
+      "https://arxiv.org/html/2505.03748v1",
+      "https://access-iclab.hk/about-us/",
+      "https://doi.org/10.1109/LRA.2026.3723740",
+      "https://researchportal.hkust.edu.hk/en/publications/aerial-exploration-on-point-cloud-maps-via-coverage-path-guidance/",
+      "https://zikangyuan.github.io/",
+      "https://doi.org/10.1609/aaai.v38i6.28394",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/28394",
+      "https://ojs.aaai.org/index.php/AAAI/article/download/28394/28770",
+      "https://arxiv.org/html/2609.18016v1",
+      "https://arxiv.org/abs/2510.15110",
+      "https://nvlabs.github.io/DLER/",
+      "https://arxiv.org/html/2509.23672v1",
+      "https://doi.org/10.1109/ISLPED65674.2025.11261807",
+      "https://arxiv.org/html/2510.25278v1",
+      "https://kunmingshao.github.io/",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/0d724619af0c483f9effa8ec23707953-Paper-Conference.pdf",
+      "https://arxiv.org/html/2502.01962v1",
+      "https://research.nvidia.com/labs/twn/publication/iclrw_2026_eora/",
+      "https://arxiv.org/abs/2410.21271",
+      "https://arxiv.org/html/2401.13174v1",
+      "https://doi.org/10.1109/TPAMI.2025.3525671",
+      "https://arxiv.org/html/2501.01114v1",
+      "https://www.nature.com/articles/s42256-023-00609-5",
+      "https://arxiv.org/abs/2112.15270",
+      "https://doi.org/10.23919/DATE69613.2026.11539592",
+      "https://arxiv.org/html/2601.06724v1"
     ],
     "papers": [
       {
@@ -40544,9 +40582,114 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "ICML 原文写学生与导师署港科大，Zechun Liu 署 Meta Reality Labs；致谢港府 InnoHK/研究资助局。Meta 不在范围。",
         "year": 2023
+      },
+      {
+        "title": "RoLoRA: Fine-tuning Rotated Outlier-free LLMs for Effective Weight-Activation Quantization",
+        "url": "https://aclanthology.org/2024.findings-emnlp.444/",
+        "outcome": "no-evidence",
+        "note": "EMNLP Findings 正式论文署港科大与 Meta；页首说明所有工作在港科大完成，Meta 作者提供咨询指导。没有范围内企业署名。",
+        "year": 2024
+      },
+      {
+        "title": "LLM-FP4: 4-Bit Floating-Point Quantized Transformers",
+        "url": "https://aclanthology.org/2023.emnlp-main.39/",
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式稿首面标港科大学生与 Meta Reality Labs 作者 Zechun Liu，Meta 不在调查范围，未见范围内企业。",
+        "year": 2023
+      },
+      {
+        "title": "APSQ: Additive Partial Sum Quantization with Algorithm-Hardware Co-Design",
+        "url": "https://doi.org/10.1109/DAC63849.2025.11133081",
+        "outcome": "no-evidence",
+        "note": "DAC 正式目录、原始预印本一致，首页仅港科大和 ACCESS 研究中心署名；后者为 InnoHK 资助的校方研究中心，非范围企业。",
+        "year": 2025
+      },
+      {
+        "title": "Aerial Exploration on Point Cloud Maps via Coverage Path Guidance",
+        "url": "https://doi.org/10.1109/LRA.2026.3723740",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式稿和校方记录。第一作者本人明确 2024 年 6 月博士毕业，同年 10 月起是港科大 ACCESS 博士后，2026 年 10 月加入的企业也不在范围。未见具名在读学生参与目标企业这篇工作。",
+        "year": 2026
+      },
+      {
+        "title": "DTMFormer: Dynamic Token Merging for Boosting Transformer-Based Medical Image Segmentation",
+        "url": "https://doi.org/10.1609/aaai.v38i6.28394",
+        "outcome": "no-evidence",
+        "note": "AAAI 原文署作者的单位为华中科技大学和港科大，没有范围内企业。",
+        "year": 2024
+      },
+      {
+        "title": "Causal-History Test-Time Scaling for Failure Recovery in Autoregressive World-Action Models",
+        "url": "https://arxiv.org/html/2609.18016v1",
+        "outcome": "no-evidence",
+        "note": "2026-09-16 预印本具名作者仅署港科大、ACCESS 和浙江大学。ACCESS 为 InnoHK 支持的校方研究中心，不能替代目标企业作者。",
+        "year": 2026
+      },
+      {
+        "title": "DLER: Doing Length pEnalty Right - Incentivizing More Intelligence per Token via Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2510.15110",
+        "outcome": "no-evidence",
+        "note": "arXiv 标 NVIDIA 技术报告；作者项目明确第一作者 Shih-Yang Liu 在 NVIDIA 实习时做此项，在读者与导师同署得到核对，但 NVIDIA 不在调查范围。未经独立核实的 ICLR 2026 引用不替代正式披露。",
+        "year": 2025
+      },
+      {
+        "title": "Token Merging via Spatiotemporal Information Mining for Surgical Video Understanding",
+        "url": "https://arxiv.org/html/2509.23672v1",
+        "outcome": "no-evidence",
+        "note": "2025-09 首次公开；原文作者附注仅列港科大、华中科大，无范围内企业署名。",
+        "year": 2025
+      },
+      {
+        "title": "DIRC-RAG: Accelerating Edge RAG with Robust High-Density and High-Loading-Bandwidth Digital In-ReRAM Computation",
+        "url": "https://doi.org/10.1109/ISLPED65674.2025.11261807",
+        "outcome": "no-evidence",
+        "note": "ISLPED 2025 正式稿。第一作者本人具名说是鄭光廷与 Chi-Ying Tsui 指导的港科大博士，并将 DIRC-RAG 作为该时期研究单列；原文仅列高校及 ACCESS/InnoHK 和公共科研资助，无范围企业署名。",
+        "year": 2025
+      },
+      {
+        "title": "Memory Efficient Transformer Adapter for Dense Predictions",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/0d724619af0c483f9effa8ec23707953-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 2025 正式版与 arXiv:2502.01962 同作。原始首面列港科大、南京大学和 ACCESS；没有范围企业署名。",
+        "year": 2025
+      },
+      {
+        "title": "EoRA: Fine-tuning-free Compensation for Compressed LLM with Eigenspace Low-Rank Approximation",
+        "url": "https://research.nvidia.com/labs/twn/publication/iclrw_2026_eora/",
+        "outcome": "no-evidence",
+        "note": "NVIDIA 官方列为 ICLR 2026 workshop，arXiv 2024-10-28 首版标题写 Training-free，与 2026 Workshop 同作。港科大导师和学生、NVIDIA 人员同篇；NVIDIA 不在调查范围。",
+        "year": 2026
+      },
+      {
+        "title": "Boundary and Relation Distillation for Semantic Segmentation",
+        "url": "https://arxiv.org/html/2401.13174v1",
+        "outcome": "no-evidence",
+        "note": "原文作者框列港科大与马克斯·普朗克信息学研究所，无范围内企业署名；确认作者组的正式代码附同一预印本。",
+        "year": 2024
+      },
+      {
+        "title": "Generalized Task-Driven Medical Image Quality Enhancement With Gradient Promotion",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3525671",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式版与 2025-01-02 arXiv 初稿合并。首面同一系的 Dong Zhang 与鄭光廷两位作者均署香港科技大学，没有企业署名。",
+        "year": 2025
+      },
+      {
+        "title": "Echo state graph neural networks with analogue random resistive memory arrays",
+        "url": "https://www.nature.com/articles/s42256-023-00609-5",
+        "outcome": "no-evidence",
+        "note": "Nature Machine Intelligence 2023 正式稿，与 2021-12 arXiv 的 analogue random resistor arrays 初稿为同一工作；发表页的全部署名单位为港大、中科院微电子所、国科大、复旦、浙大、比萨大学、港科大等学术院系，未见目标企业。",
+        "year": 2023
+      },
+      {
+        "title": "DS-CIM: Digital Stochastic Computing-In-Memory Featuring Accurate OR-Accumulation via Sample Region Remapping for Edge AI Models",
+        "url": "https://doi.org/10.23919/DATE69613.2026.11539592",
+        "outcome": "no-evidence",
+        "note": "DATE 2026 正式版与 2026-01 arXiv 预印本同作。Kunming Shao为高校在读、作者履历具名点到鄭光廷，但原文列港科大、华南理工、西湖大学及高校教育部工程中心，无目标公司。",
+        "year": 2026
       }
     ],
-    "note": "对照香港科技大学研究门户、VSDL 实验室书目、实名 ORCID 0000-0002-3885-4912 及 DBLP 书目，逐篇核对 25 项；使用正式版本日期，合并同篇初稿。两篇腾讯天衍和一篇腾讯生命科学合作仅列线索，仍需学生参与具体企业项目的证据。继续核对其他年份，未标完成。"
+    "note": "按香港科技大学研究门户、VSDL 实验室书目、实名 ORCID 0000-0002-3885-4912 及 DBLP 2026-11-01 快照，逐篇核对 40 项；按正式版本日期优先、合并同篇初稿。两篇腾讯天衍和一篇腾讯生命科学论文仍只列线索，余下年份继续核对。"
   },
   "dtRGhasAAAAJ": {
     "from": "2023-01-01",
@@ -41168,5 +41311,320 @@ const facultyPaperAudits = {
       }
     ],
     "note": "以本人主页直链 Scholar 和 ORCID 核对作者，所查期刊和会议作品逐篇采用正式出版或第一版。部分书目和论文尚待对账，仍标梳理中。"
+  },
+  "Vkzd7MIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~sgshan",
+      "https://dblp.org/pid/s/ShiguangShan.html",
+      "https://vipl.ict.ac.cn/publications/2025/jour/index_1.html",
+      "https://vipl.ict.ac.cn/en/student/master/202310/t20231028_197388.html",
+      "https://arxiv.org/html/2508.09584v1",
+      "https://arxiv.org/html/2507.19024v2",
+      "https://lxzhang.com/",
+      "https://haokunju.github.io/walking-wm.github.io/",
+      "https://github.com/baaivision/nova",
+      "https://paranioar.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2025,
+        "title": "SHALE: A Scalable Benchmark for Fine-grained Hallucination Evaluation in LVLMs",
+        "url": "https://doi.org/10.1145/3746027.3758308",
+        "outcome": "lead",
+        "note": "ACM 原文列 Jiahao Wang、Xiaozhen Wang 为华为可信技术与工程实验室，计算所 VIPL 官方名单用论文同一邮箱确证第一作者 Bei Yan 是山世光 2023 级硕士；未见其在华为完成本研究的具名说明。"
+      },
+      {
+        "year": 2026,
+        "title": "A Survey of Multimodal Hallucination Evaluation and Detection",
+        "url": "https://link.springer.com/article/10.1007/s11263-026-02756-9",
+        "outcome": "lead",
+        "note": "IJCV 正式版和 arXiv:2507.19024 作者对应，同篇两名华为作者与山世光硕士生 Bei Yan。致谢只列科研项目，未见学生在华为实研或共同一作在华为实习证据。"
+      },
+      {
+        "year": 2026,
+        "title": "TextFace: Compositional Text-Guided Identity Preserving Face Synthesis for Face Recognition",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-36969-7_12",
+        "outcome": "no-evidence",
+        "note": "ECCV 2026 正式章节列杨俊哲等三名作者均双署中科院计算所和国科大；Google 仅为大会论文集编者单位。"
+      },
+      {
+        "year": 2026,
+        "title": "RefHCM: A Unified Model for Referring Perceptions in Human-Centric Scenarios",
+        "url": "https://doi.org/10.1109/TMM.2026.3651042",
+        "outcome": "no-evidence",
+        "note": "正式 IEEE 卷期与 arXiv:2412.14643 合并。原稿四人同署计算所与国科大，侯瑞兵署计算所。没有范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Exp-VQA: Fine-grained facial expression analysis via visual question answering",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320325004431",
+        "outcome": "no-evidence",
+        "note": "正式原文及团队代码 repo 确认三位作者来自计算所与国科大。扩展早期 Exp-BLIP，使用 GPT-3.5 仅是工具。"
+      },
+      {
+        "year": 2025,
+        "title": "Dysca: A Dynamic and Scalable Benchmark for Evaluating Perception Ability of LVLMs",
+        "url": "https://openreview.net/pdf/5afd2fe0c345db671e1270af7e33d6af2942a28d.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式版列六人双署计算所与国科大，Mengqi Lei 署中国地质大学；被评估的商业模型未参与署名。"
+      },
+      {
+        "year": 2026,
+        "title": "MM-MoralBench: A Multimodal Moral Evaluation Benchmark for Large Vision-Language Models",
+        "url": "https://arxiv.org/html/2412.20718v2",
+        "outcome": "no-evidence",
+        "note": "对照 Elsevier 正式 DOI 10.1016/j.patcog.2026.113624，合并 2024 初稿。五人均双署计算所、国科大，无范围内企业。"
+      },
+      {
+        "year": 2025,
+        "title": "REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models",
+        "url": "https://arxiv.org/html/2503.16566",
+        "outcome": "no-evidence",
+        "note": "公开原稿九名作者的单位是计算所及国科大，商业模型只是测试对象。独立于同组的 Dysca 及 SHALE 两篇。"
+      },
+      {
+        "year": 2024,
+        "title": "PreLAR: World Model Pre-training with Learnable Action Representation",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03363.pdf",
+        "outcome": "no-evidence",
+        "note": "ECCV 原文中四人均署计算所与国科大，只有山世光另加鹏城实验室且不在调查企业中。"
+      },
+      {
+        "year": 2026,
+        "title": "Walking World Model for Visually Impaired Path Following",
+        "url": "https://doi.org/10.1109/LRA.2025.3641097",
+        "outcome": "no-evidence",
+        "note": "IEEE 2026 卷期与首作者项目页同一工作；作者网页明列计算所和国科大并确认六位作者，无企业参与的公开说明。"
+      },
+      {
+        "year": 2026,
+        "title": "Improving Policy Learning via Language-Guided State Representation in World Models",
+        "url": "https://doi.org/10.1109/LRA.2026.3728343",
+        "outcome": "no-evidence",
+        "note": "RA-L 正式登记与首作者博士学籍及 2026 年录用公告一致。四名作者为其计算所研究合作团队，未发现企业作者或实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Natural Adversarial Mask for Face Identity Protection in Physical World",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3522994",
+        "outcome": "no-evidence",
+        "note": "TPAMI 2025 正式卷期与 2024 年 12 月在线版同篇，计算所实验室逐名确认谢添鑫、韩琥、山世光、陈熙霖，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Generalized Face Liveness Detection via De-Fake Face Generator",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3507101",
+        "outcome": "no-evidence",
+        "note": "IEEE 卷期与 arXiv:2401.09006 同篇。三名作者均双署计算所和国科大；致谢列国家资助与中科院项目。"
+      },
+      {
+        "year": 2025,
+        "title": "Decoupled Doubly Contrastive Learning for Cross-Domain Facial Action Unit Detection",
+        "url": "https://doi.org/10.1109/TIP.2025.3546479",
+        "outcome": "no-evidence",
+        "note": "IEEE 与 arXiv:2503.08977 对账。原稿作者单位为东南大学、南理工、北师大、南洋理工、计算所及国科大，未见范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3644016",
+        "outcome": "no-evidence",
+        "note": "IEEE 与 arXiv:2504.20518 合并。四人均署计算所、国科大；第一作者是计算所在读硕士，未见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Tokenize Anything via Prompting",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06366-supp.pdf",
+        "outcome": "no-evidence",
+        "note": "ECCV 正式作者机构是计算所、国科大与北京智源人工智能研究院，仅能确认智源的合作，不在 14 家范围内。"
+      },
+      {
+        "year": 2025,
+        "title": "Autoregressive Video Generation without Vector Quantization",
+        "url": "https://arxiv.org/abs/2412.14169",
+        "outcome": "no-evidence",
+        "note": "ICLR 2025 NOVA 与 arXiv:2412.14169 合并。论文官方代码列北邮、计算所、大连理工、智源；大连理工刁海文本人证实本段实习在智源，腾讯实习在 2020–21 年。"
+      }
+    ],
+    "note": "首批按 DBLP、国科大教师页和计算所实验室题录核查，合并正式版与相同项目初稿。两篇华为线索均有学校具名导师记录，尚缺在读生在华为做该篇的证据。书目仍在梳理中。"
+  },
+  "nbyHGnsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://acdc-lab.github.io/jpchen/",
+      "https://acdc-lab.github.io/en/members/",
+      "https://teacher.bupt.edu.cn/chenjinpeng/zh_CN/index.htm",
+      "https://dblp.org/pid/91/10208-1.html",
+      "https://orcid.org/0000-0003-4157-5110"
+    ],
+    "papers": [
+      {
+        "title": "Enhancing Explainable Sequential Recommendation With Disentangled Representations and Auxiliary Review Explanations",
+        "url": "https://doi.org/10.1109/TCSS.2025.3603087",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Medical Image Privacy in Federated Learning: Segmentation-Reorganization and Sparsified Gradient Matching Attacks",
+        "url": "https://doi.org/10.1109/JBHI.2025.3593631",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Adapt-MDRL: An Adaptive Multiagent Deep Reinforcement Learning Framework for Dynamic UAV Crowdsensing",
+        "url": "https://doi.org/10.1109/TAES.2026.3679857",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "M4Rec: Multi-Modal Knowledge Graph Modeling of Multi-Dimensional User Preferences for Next-POI Recommendation",
+        "url": "https://doi.org/10.1109/TKDE.2026.3677245",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "DiMA: Distinguishing Resident and Tourist Preferences via Multi-Modal LLM Alignment for Out-of-Town Cross-Domain Recommendation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38663/42625",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "AAAI 原文企业作者为中国民航信息网络股份有限公司（TravelSky），该公司不在调查范围。"
+      },
+      {
+        "title": "Same Last-Item Confusion Unveiled: A Unified Mitigation Framework for Graph Learning in Session-Based Recommendation",
+        "url": "https://doi.org/10.1145/3774904.3792356",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，包括中国民航信息网络股份有限公司（不在目标企业范围），未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs",
+        "url": "https://aclanthology.org/2026.acl-long.1087.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ACL 首面列浙大、北邮和区块链与数据安全地方研究院，未见范围企业作者。"
+      },
+      {
+        "title": "Neural-Enhanced Sliding-Mode Control for Quadrotor Helicopters Operating in Dynamic and Uncertain Environments",
+        "url": "https://doi.org/10.1109/TSMC.2026.3688866",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，包括万帮数字能源（不在目标企业范围），未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Cost-Optimal Building Energy System Scheduling Integrating Solar Irradiance Forecasting via LSTM-Attention-TCN Model",
+        "url": "https://doi.org/10.1049/cit2.70128",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "LISA: Language-guided Interference-aware Spatial-Frequency Attention for Driver Gaze Estimation",
+        "url": "https://doi.org/10.24963/ijcai.2026/325",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Adaptive graph diffusion networks: compact and expressive GNNs with large receptive fields",
+        "url": "https://link.springer.com/article/10.1007/s10462-025-11114-z",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer 扩展期刊版署中国电信研究院、北大和北邮；中国电信不在范围。2020 年的有关预印本早于本轮窗口。"
+      },
+      {
+        "title": "IDBR: Interaction-Aware Dual-Granularity Learning for Bundle Recommendation",
+        "url": "https://doi.org/10.26599/bdma.2025.9020016",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Privacy-Preserving Multitask Online Matching in Mobile Crowdsensing: A Snapshot-Based Approach",
+        "url": "https://doi.org/10.1109/JIOT.2025.3571185",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Driving Risk Assessment for Intelligent Vehicles Based on Entropy-Informed Graph Neural Networks and Gaussian Distributions",
+        "url": "https://doi.org/10.1109/TNNLS.2025.3569826",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Hierarchical Intent-guided Optimization with Pluggable LLM-Driven Semantics for Session-based Recommendation",
+        "url": "https://doi.org/10.1145/3726302.3729994",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，包括中国民航信息网络股份有限公司（不在目标企业范围），未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Stable Task Allocation in Mobile Crowdsensing: An Interruption-Driven Approach",
+        "url": "https://doi.org/10.1109/TNSM.2025.3598025",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion in Conversational Recommendation",
+        "url": "https://doi.org/10.1145/3746252.3761186",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning",
+        "url": "https://aclanthology.org/2025.emnlp-main.366.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式版列浙大、北邮、港理工及区块链与数据安全地方研究院，无范围企业作者。"
+      },
+      {
+        "title": "Leveraging Multimodal Data and Side Users for Diffusion Cross-Domain Recommendation",
+        "url": "https://doi.org/10.1145/3746027.3754555",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "CoIDO: Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/f3f2ff9579ba6deeb89caa2fe1f0b99c-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版列浙江大学、杭州电子科技大学与北邮；未发现范围企业参与。"
+      },
+      {
+        "title": "Group Task Recommendation in Mobile Crowdsensing: An Attention-Based Neural Collaborative Approach",
+        "url": "https://doi.org/10.1109/TMC.2023.3345865",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "PACIFIC: Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Counterfactual Data Augmentation",
+        "url": "https://doi.org/10.1145/3627673.3679803",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      },
+      {
+        "title": "Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation",
+        "url": "https://doi.org/10.1109/ICME55011.2023.00264",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "出版社向 Crossref 登记了全体作者单位，未见 14 家范围企业署名或具名学生参与同篇企业研究。"
+      }
+    ],
+    "note": "核对北邮档案、课题组主页及 ORCID，逐篇判断原文或出版社已完整登记作者单位的书目。部分文章仅有题录，另行检索全文；组员毕业去向不能证明此前的同篇实研。"
   }
 };
