@@ -22138,6 +22138,471 @@ const survey = {
           "https://github.com/alibaba-damo-academy/RynnUnify"
         ]
       ]
+    },
+    {
+      "id": "qtfp-tencent-sjtu-yd58y_0aaaaj",
+      "paperId": "cvpr:2026:wang-qtfp",
+      "company": "腾讯",
+      "team": "优图实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "马利庄 · Lizhuang Ma",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/malizhuang.html"
+      ],
+      "employee": [
+        "Jiangming Wang",
+        "本人学术履历明确 2024 年 7 月加入腾讯优图任计算机视觉研究员，并列出本论文。原文以腾讯优图署名。",
+        "https://wjm-wjm.github.io/homepage/"
+      ],
+      "student": [
+        "王昌硕 · Changshuo Wang",
+        "实验室官网将王昌硕列为自 2025 年春季起的上海交大博士生，邮件与原文一致；会议正式原文首页注明该项研究在腾讯优图实习期间完成，且他是该文唯一同时署上海交大和腾讯优图的共同第一作者。",
+        "https://digitalmedia.sjtu.edu.cn/people/"
+      ],
+      "title": "Beyond [CLS] Token: Query-Driven Token-Level Forgery Purification for Generalizable Deepfake Detection",
+      "short": "Beyond [CLS] Token",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与人脸鉴伪",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Beyond_CLS_Token_Query-Driven_Token-Level_Forgery_Purification_for_Generalizable_Deepfake_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Beyond_CLS_Token_Query-Driven_Token-Level_Forgery_Purification_for_Generalizable_Deepfake_CVPR_2026_paper.html"
+        ],
+        [
+          "交大实验室博士名录",
+          "https://digitalmedia.sjtu.edu.cn/people/"
+        ]
+      ],
+      "evidence": "实验室官网将王昌硕列为自 2025 年春季起的上海交大博士生，邮件与原文一致；会议正式原文首页注明该项研究在腾讯优图实习期间完成，且他是该文唯一同时署上海交大和腾讯优图的共同第一作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "上海交大 2025 级博士考核官方公示对王昌硕具名列学术型博士及导师马利庄，后续实验室名录也列其博士身份；马利庄为该论文通讯作者。",
+        "https://www.seiee.sjtu.edu.cn/via/yjspy_zsgz_bszs/11645.html"
+      ]
+    },
+    {
+      "id": "dhu-tencent-sjtu-yd58y_0aaaaj",
+      "paperId": "aaai:27992",
+      "company": "腾讯",
+      "team": "优图实验室",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "马利庄 · Lizhuang Ma",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/malizhuang.html"
+      ],
+      "employee": [
+        "姚太平 · Taiping Yao",
+        "本人主页记载为腾讯优图研究员并获该公司优秀员工，腾讯优图同期项目公告具名列本论文，原文以腾讯优图署名。",
+        "https://sndler.github.io/"
+      ],
+      "student": [
+        "胡澄洋 · Chengyang Hu",
+        "胡澄洋于上海交大博士阶段开展该研究；AAAI 正式原文以单独脚注明确第一作者在腾讯优图实习期间完成该研究，本人学术主页亦列腾讯实习。",
+        "https://huchengyang.notion.site/"
+      ],
+      "title": "Domain-Hallucinated Updating for Multi-Domain Face Anti-spoofing",
+      "short": "DHU",
+      "date": "2024-03",
+      "venue": "AAAI 2024",
+      "area": "计算机视觉与人脸鉴伪",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/download/27992/28001",
+      "extra": [
+        [
+          "论文题录",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/27992"
+        ],
+        [
+          "腾讯优图同期论文公告",
+          "https://cloud.tencent.com/developer/article/2379693"
+        ]
+      ],
+      "evidence": "胡澄洋于上海交大博士阶段开展该研究；AAAI 正式原文以单独脚注明确第一作者在腾讯优图实习期间完成该研究，本人学术主页亦列腾讯实习。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "胡澄洋本人主页具名列马利庄为上海交大博士生导师，马利庄为正式论文通讯作者。",
+        "https://huchengyang.notion.site/"
+      ]
+    },
+    {
+      "id": "luve-meituan-nju-nkaiuasaaaaj",
+      "paperId": "arxiv:2602.11564",
+      "company": "美团",
+      "team": "LongCat 视频研究团队",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "邰颖 · Ying Tai",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "http://is.nju.edu.cn/ty/main.htm"
+      ],
+      "employee": [
+        "Xiaoming Wei",
+        "IEEE 作者履历明确其任美团视觉理解团队负责人，2025 年美团 LongCat-Video 技术报告具名，且本论文以美团署名。",
+        "https://openreview.net/pdf/8d2d9b48d3d12aa43a4296cf128712484df64868.pdf"
+      ],
+      "student": [
+        "赵晨 · Chen Zhao",
+        "第一作者赵晨是南京大学在读博士，ICML 正式原文点名确认其在美团实习期间完成这项工作。",
+        "https://tyshiwo.github.io/"
+      ],
+      "title": "LUVE: Latent-Cascaded Ultra-High-Resolution Video Generation with Dual Frequency Experts",
+      "short": "LUVE",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhao26d/zhao26d.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/zhao26d.html"
+        ],
+        [
+          "同期美团报告",
+          "https://arxiv.org/abs/2510.22200"
+        ],
+        [
+          "原始项目页",
+          "https://unicornanrocinu.github.io/LUVE_web/"
+        ]
+      ],
+      "evidence": "第一作者赵晨是南京大学在读博士，ICML 正式原文点名确认其在美团实习期间完成这项工作。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "邰颖个人学术主页在 2026 年 5 月 ICML 录用消息具名列赵晨为自己的博士研究生；在原文为通讯作者。",
+        "https://tyshiwo.github.io/"
+      ]
+    },
+    {
+      "id": "scaleenv-meituan-nju-bjsi-diaaaaj",
+      "paperId": "arxiv:2602.06820",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "南京大学",
+      "studentSchool": "南京大学",
+      "faculty": [
+        "申富饶 · Furao Shen",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=321886"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "涂敦炜 · Dunwei Tu",
+        "南大官方实验室主页列涂敦炜为博士生；ICML 正式原文在第一作者涂敦炜姓名后标出美团实习脚注，确认其在该实习中完成该研究。",
+        "https://ai.nju.edu.cn/rinc/student/tudunwei/index.html"
+      ],
+      "title": "ScaleEnv: Scaling Environment Synthesis from Scratch for Generalist Interactive Tool-Use Agent Training",
+      "short": "ScaleEnv",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tu26a/tu26a.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/tu26a.html"
+        ],
+        [
+          "同期美团报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "南大官方实验室主页列涂敦炜为博士生；ICML 正式原文在第一作者涂敦炜姓名后标出美团实习脚注，确认其在该实习中完成该研究。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "涂敦炜在南京大学 RINC 的主页明确列申富饶为导师；原文列申富饶为南京大学合著者。",
+        "https://ai.nju.edu.cn/rinc/student/tudunwei/index.html"
+      ]
+    },
+    {
+      "id": "htd-refine-ant-zju-e1vvpg4aaaaj",
+      "paperId": "arxiv:2605.26879",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究院交互智能实验室",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://mypage.zju.edu.cn/xzhou"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "本人公开履历列 2022 年 4 月起就职蚂蚁集团，2024 年 7 月升任资深研究科学家，现任蚂蚁研究院交互智能实验室负责人；论文以蚂蚁集团署名。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "魏鼎坤 · Dingkun Wei",
+        "魏鼎坤在个人学术页记载 2024 年 9 月起攻读浙大硕士和 2025 年 9 月起在蚂蚁实习；原文首页点名确认本研究在其蚂蚁实习期间完成。",
+        "https://kune1008.github.io/"
+      ],
+      "title": "Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos",
+      "short": "HTD-Refine",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Natural_Human_Motion_Recovery_by_Aligning_High-Order_Temporal_Dynamics_from_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.26879"
+        ],
+        [
+          "蚂蚁研究院原始项目",
+          "https://github.com/ant-research/HTD-Refine"
+        ]
+      ],
+      "evidence": "魏鼎坤在个人学术页记载 2024 年 9 月起攻读浙大硕士和 2025 年 9 月起在蚂蚁实习；原文首页点名确认本研究在其蚂蚁实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "魏鼎坤个人学术页具名列周晓巍为其浙大硕士导师；正式论文列两人同署浙江大学。",
+        "https://kune1008.github.io/"
+      ]
+    },
+    {
+      "id": "memocr-meituan-ustc-hdhaqb0aaaaj",
+      "paperId": "arxiv:2601.21468",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "Yaorui Shi",
+        "第一作者 Yaorui Shi 的本人学术主页明确他为中国科学技术大学在读博士和美团 LongCat 实习生，并点名 MemOCR 为在美团完成的项目。ICML 正式原文也以具名脚注说明在美团实习时开展。",
+        "https://syr-cn.github.io/"
+      ],
+      "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+      "short": "MemOCR",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/shi26l.html"
+        ],
+        [
+          "美团原始项目",
+          "https://meituan.github.io/MemOCR/"
+        ],
+        [
+          "同期美团报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "第一作者 Yaorui Shi 的本人学术主页明确他为中国科学技术大学在读博士和美团 LongCat 实习生，并点名 MemOCR 为在美团完成的项目。ICML 正式原文也以具名脚注说明在美团实习时开展。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yaorui Shi 个人学术主页具名列王翔和张岸为博士导师；两位导师均在原文列中国科学技术大学署名。",
+        "https://syr-cn.github.io/"
+      ]
+    },
+    {
+      "id": "memocr-meituan-ustc-bcx7gjcaaaaj",
+      "paperId": "arxiv:2601.21468",
+      "company": "美团",
+      "team": "LongCat",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "张岸 · An Zhang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2025/1030/c36359a706859/page.htm"
+      ],
+      "employee": [
+        "顾奇 · Qi Gu",
+        "2026 年 7 月中国 AI 智能体大会主办方介绍其为美团 LongCat 主任研究员和通用 Agent 团队负责人；美团 2026 年 1 月 LongCat 报告具名列出。",
+        "https://www.zhidx.com/p/567992.html"
+      ],
+      "student": [
+        "Yaorui Shi",
+        "第一作者 Yaorui Shi 的本人学术主页明确他为中国科学技术大学在读博士和美团 LongCat 实习生，并点名 MemOCR 为在美团完成的项目。ICML 正式原文也以具名脚注说明在美团实习时开展。",
+        "https://syr-cn.github.io/"
+      ],
+      "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+      "short": "MemOCR",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/shi26l.html"
+        ],
+        [
+          "美团原始项目",
+          "https://meituan.github.io/MemOCR/"
+        ],
+        [
+          "同期美团报告",
+          "https://arxiv.org/abs/2601.16725"
+        ]
+      ],
+      "evidence": "第一作者 Yaorui Shi 的本人学术主页明确他为中国科学技术大学在读博士和美团 LongCat 实习生，并点名 MemOCR 为在美团完成的项目。ICML 正式原文也以具名脚注说明在美团实习时开展。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yaorui Shi 个人学术主页具名列王翔和张岸为博士导师；两位导师均在原文列中国科学技术大学署名。",
+        "https://syr-cn.github.io/"
+      ]
+    },
+    {
+      "id": "meituan-memocr-ustc-xiang-wang",
+      "company": "美团",
+      "team": "美团 LongCat",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔",
+        "中国科学技术大学教授、论文共同作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "student": [
+        "Yaorui Shi",
+        "中国科学技术大学博士生、美团 LongCat 研究实习生、论文第一作者；首页姓名旁脚注明确本文工作在美团实习期间完成。",
+        "https://syr-cn.github.io/"
+      ],
+      "advising": [
+        "博士联合导师",
+        "学生学术主页具名王翔与 An Zhang 共同指导其中国科学技术大学博士。",
+        "https://syr-cn.github.io/"
+      ],
+      "employee": [
+        "Qi Gu",
+        "美团 LongCat 研究人员，在论文担任企业通讯作者；美团团队技术报告确认其同期团队岗位和项目。",
+        "https://arxiv.org/abs/2509.01322"
+      ],
+      "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+      "short": "MemOCR",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.mlr.press/v306/shi26l.html",
+      "extra": [
+        [
+          "论文首页的具名实习及企业通讯作者",
+          "https://arxiv.org/pdf/2601.21468"
+        ],
+        [
+          "美团官方项目页",
+          "https://github.com/meituan/MemOCR"
+        ],
+        [
+          "正式会议论文 PDF",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf"
+        ]
+      ],
+      "evidence": "论文首页脚注明确第一作者 Yaorui Shi 在美团实习时完成本篇研究，学生本人学术主页具名王翔为博士联合导师、本人在美团 LongCat 实习，二者同篇署名。美团研究人员 Qi Gu 以企业通讯作者发表，项目亦由美团官方账号发布。"
+    },
+    {
+      "id": "bytedance-vfaith-ucas-wang",
+      "company": "字节跳动",
+      "team": "多模态研究团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "王金桥 · Jinqiao Wang",
+        "中国科学院自动化研究所研究员、博士生导师，国科大人工智能学院岗位教授，本篇同署并任通讯作者。",
+        "https://people.ucas.ac.cn/~jinqiaowang"
+      ],
+      "employee": [
+        "Minghui Qiu",
+        "个人主页列字节跳动 Staff Algorithm Expert 和电商大模型团队技术负责人，在 2025 年首版及 CVPR 正式版均为字节跳动同篇作者。",
+        "https://sites.google.com/site/qiumh0727"
+      ],
+      "student": [
+        "詹宇飞 · Yufei Zhan",
+        "国科大人工智能学院、中国科学院自动化研究所博士生；王金桥组公开资料记载 2026 年毕业，CVPR 论文明确标注其在字节跳动实习时完成。",
+        "https://people.ucas.ac.cn/~jinqiaowang"
+      ],
+      "title": "VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?",
+      "short": "VFaith",
+      "date": "2025-06-13",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2506.11571v2",
+      "evidence": "论文第二版首页只把字节跳动实习的星号标给共同一作詹宇飞。字节研究员 Minghui Qiu 和该生的校内博士导师王金桥均在同篇作者名单。与 GThinker 是不同研究。",
+      "advising": [
+        "校内博士生导师",
+        "国科大导师个人档案在招生信息明确将詹宇飞列于本人博士研究生，并列明专业；实验室官方名单列其为 2026 届博士。",
+        "https://people.ucas.ac.cn/~jinqiaowang"
+      ],
+      "extra": [
+        [
+          "初次提交与版本记录",
+          "https://arxiv.org/abs/2506.11571"
+        ],
+        [
+          "共同一作项目与公司实习说明",
+          "https://littlecoder12345.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2506.11571"
+    },
+    {
+      "id": "kuaishou-cardrewriter-ruc-mao",
+      "company": "快手",
+      "team": "短视频搜索团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "毛佳昕 · Jiaxin Mao",
+        "中国人民大学高瓴人工智能学院长聘副教授，CardRewriter 的同篇署名作者。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/mjx/index.htm"
+      ],
+      "employee": [
+        "Chenglei Dai",
+        "公培元的个人履历具名列为快手方面实习导师；WWW 正式会议文献中的该作者署快手，2026 年同期研究亦用同一快手署名。",
+        "https://pygongnlp.github.io/"
+      ],
+      "student": [
+        "公培元 · Peiyuan Gong",
+        "2023 年起为中国人民大学高瓴人工智能学院博士生；本人履历记载 2024 年 10 月至 2025 年 11 月在快手实习。",
+        "https://pygongnlp.github.io/"
+      ],
+      "title": "CardRewriter: Leveraging Knowledge Cards for Long-Tail Query Rewriting on Short-Video Platforms",
+      "short": "CardRewriter",
+      "date": "2026-04",
+      "venue": "The Web Conference",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/pdf/2510.10095",
+      "evidence": "论文首页直接点名公培元在快手任实习生期间完成该项研究。其快手实习导师 Chenglei Dai 和人大博士导师毛佳昕均为同篇作者，正文也说明平台部署在快手。",
+      "advising": [
+        "校内博士生导师",
+        "公培元本人主页具名说明毛佳昕为其中国人民大学博士阶段导师。",
+        "https://pygongnlp.github.io/"
+      ],
+      "extra": [
+        [
+          "WWW 正式出版 DOI",
+          "https://doi.org/10.1145/3774904.3792809"
+        ],
+        [
+          "企业侧作者其他同期论文",
+          "https://arxiv.org/abs/2603.24975"
+        ]
+      ],
+      "paperId": "arxiv:2510.10095"
     }
   ]
 };

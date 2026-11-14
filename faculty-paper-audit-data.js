@@ -1714,7 +1714,9 @@ const facultyPaperAudits = {
       "https://ai.ruc.edu.cn/szdw/zrjs/mjx/index.htm",
       "https://emanual20.github.io/",
       "https://cn.linkedin.com/in/ruidong-han-a3232a148",
-      "https://orcid.org/0009-0004-1671-5016"
+      "https://orcid.org/0009-0004-1671-5016",
+      "https://pygongnlp.github.io/",
+      "https://arxiv.org/pdf/2510.10095"
     ],
     "papers": [
       {
@@ -1734,9 +1736,15 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2408.15079",
         "outcome": "no-evidence",
         "note": "孙一丁列百川智能实习，百川不在企业调查名单。"
+      },
+      {
+        "title": "CardRewriter: Leveraging Knowledge Cards for Long-Tail Query Rewriting on Short-Video Platforms",
+        "url": "https://arxiv.org/pdf/2510.10095",
+        "outcome": "confirmed",
+        "note": "论文作者注释点名公培元实习，博士生履历列出校内导师及实名企业实习导师。"
       }
     ],
-    "note": "核对了孙一丁本人列出的一部分成果，未完成毛佳昕的完整公开题录。"
+    "note": "已核对公培元与快手的具名论文，尚未逐篇覆盖全部公开成果。"
   },
   "4tku-lwAAAAJ": {
     "from": "2023-01-01",
@@ -3657,7 +3665,13 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm",
-      "https://junkangwu.github.io/"
+      "https://junkangwu.github.io/",
+      "https://syr-cn.github.io/",
+      "https://proceedings.mlr.press/v306/shi26l.html",
+      "https://arxiv.org/abs/2509.01322",
+      "https://arxiv.org/pdf/2601.21468",
+      "https://github.com/meituan/MemOCR",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf"
     ],
     "papers": [
       {
@@ -3701,6 +3715,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2509.22611",
         "outcome": "lead",
         "note": "吴俊康在首发时正在字节实习，但暂无证明本项目是在该企业完成的材料。"
+      },
+      {
+        "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+        "url": "https://proceedings.mlr.press/v306/shi26l.html",
+        "outcome": "confirmed",
+        "note": "论文首页脚注明确第一作者 Yaorui Shi 在美团实习时完成本篇研究，学生本人学术主页具名王翔为博士联合导师、本人在美团 LongCat 实习，二者同篇署名。美团研究人员 Qi Gu 以企业通讯作者发表，项目亦由美团官方账号发布。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -5197,7 +5217,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "http://is.nju.edu.cn/ty/main.htm",
-      "https://znan-chen.github.io/"
+      "https://znan-chen.github.io/",
+      "https://tyshiwo.github.io/"
     ],
     "papers": [
       {
@@ -5205,6 +5226,12 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_DiP_Taming_Diffusion_Models_in_Pixel_Space_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "陈振南的学术履历列他 2024 年 9 月起在南大攻读博士，2025 年 1 月至 2026 年 6 月在腾讯优图实习；正式版首页星号标清他在腾讯实习时完成这项研究。"
+      },
+      {
+        "title": "LUVE: Latent-Cascaded Ultra-High-Resolution Video Generation with Dual Frequency Experts",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhao26d/zhao26d.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者赵晨是南京大学在读博士，ICML 正式原文点名确认其在美团实习期间完成这项工作。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -5583,7 +5610,8 @@ const facultyPaperAudits = {
       "https://people.ucas.ac.cn/~jinqiaowang",
       "https://sites.google.com/site/qiumh0727",
       "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.pdf",
-      "https://www.nlpr.ia.ac.cn/iva/homepage/jqwang/index.htm"
+      "https://www.nlpr.ia.ac.cn/iva/homepage/jqwang/index.htm",
+      "https://arxiv.org/pdf/2506.11571v2"
     ],
     "papers": [
       {
@@ -5591,8 +5619,256 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "官方导师档案列詹宇飞为博士生；CVPR 原文具名，且有同篇在职研究员。"
+      },
+      {
+        "title": "VFaith: Do Large Multimodal Models Really Reason on Seen Images Rather than Previous Memories?",
+        "url": "https://arxiv.org/pdf/2506.11571v2",
+        "outcome": "confirmed",
+        "note": "2025-07 修订稿具名注明詹宇飞字节实习，2025-06 首次公开；王金桥是其导师，且与字节员工同篇。"
       }
     ],
     "note": "仅完成上述论文与部分合作线索，未覆盖教师全部论文。"
+  },
+  "yd58y_0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/malizhuang.html",
+      "https://digitalmedia.sjtu.edu.cn/people/",
+      "https://www.seiee.sjtu.edu.cn/via/yjspy_zsgz_bszs/11645.html",
+      "https://huchengyang.notion.site/"
+    ],
+    "papers": [
+      {
+        "title": "Beyond [CLS] Token: Query-Driven Token-Level Forgery Purification for Generalizable Deepfake Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Beyond_CLS_Token_Query-Driven_Token-Level_Forgery_Purification_for_Generalizable_Deepfake_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "实验室官网将王昌硕列为自 2025 年春季起的上海交大博士生，邮件与原文一致；会议正式原文首页注明该项研究在腾讯优图实习期间完成，且他是该文唯一同时署上海交大和腾讯优图的共同第一作者。"
+      },
+      {
+        "title": "Domain-Hallucinated Updating for Multi-Domain Face Anti-spoofing",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/27992/28001",
+        "outcome": "confirmed",
+        "note": "胡澄洋于上海交大博士阶段开展该研究；AAAI 正式原文以单独脚注明确第一作者在腾讯优图实习期间完成该研究，本人学术主页亦列腾讯实习。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "bjSi-dIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ai.nju.edu.cn/_redirect?siteId=391&columnId=18540&articleId=321886",
+      "https://ai.nju.edu.cn/rinc/student/tudunwei/index.html"
+    ],
+    "papers": [
+      {
+        "title": "ScaleEnv: Scaling Environment Synthesis from Scratch for Generalist Interactive Tool-Use Agent Training",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tu26a/tu26a.pdf",
+        "outcome": "confirmed",
+        "note": "南大官方实验室主页列涂敦炜为博士生；ICML 正式原文在第一作者涂敦炜姓名后标出美团实习脚注，确认其在该实习中完成该研究。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "E1vVpg4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://mypage.zju.edu.cn/xzhou",
+      "https://kune1008.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Natural_Human_Motion_Recovery_by_Aligning_High-Order_Temporal_Dynamics_from_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "魏鼎坤在个人学术页记载 2024 年 9 月起攻读浙大硕士和 2025 年 9 月起在蚂蚁实习；原文首页点名确认本研究在其蚂蚁实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "BcX7GJcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://saids.ustc.edu.cn/2025/1030/c36359a706859/page.htm",
+      "https://syr-cn.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf",
+        "outcome": "confirmed",
+        "note": "第一作者 Yaorui Shi 的本人学术主页明确他为中国科学技术大学在读博士和美团 LongCat 实习生，并点名 MemOCR 为在美团完成的项目。ICML 正式原文也以具名脚注说明在美团实习时开展。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "FIirppQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1145/3832092",
+      "https://bajinsheng.github.io/publications/",
+      "https://dblp.org/pid/318/0975.html",
+      "https://sds.cuhk.edu.cn/en/teacher/2436",
+      "https://zenodo.org/records/21383195",
+      "https://doi.org/10.1145/3832104",
+      "https://arxiv.org/html/2508.16307",
+      "https://arxiv.org/html/2605.22992v1",
+      "https://arxiv.org/abs/2605.22992",
+      "https://arxiv.org/html/2510.06452v1",
+      "https://arxiv.org/abs/2510.06452",
+      "https://bajinsheng.github.io/assets/pdf/uplan_icde25.pdf",
+      "https://arxiv.org/abs/2408.07857",
+      "https://doi.org/10.1145/3725300",
+      "https://sigmodconf.hosting.acm.org/2025/sigmod_papers.shtml",
+      "https://doi.org/10.1145/3654991",
+      "https://nus-test.github.io/publication/",
+      "https://doi.org/10.1145/3597503.3639076",
+      "https://zenodo.org/records/10476847",
+      "https://doi.org/10.1145/3597503.3623307",
+      "https://yuanchengjiang.github.io/docs/GraphGenie-ICSE24.pdf",
+      "https://doi.org/10.1109/ICSE48619.2023.00174",
+      "https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/55/Testing-Database-Engines-via-Query-Plan-Guidance"
+    ],
+    "papers": [
+      {
+        "title": "Testing Computation Pushdown in Distributed Database Systems",
+        "url": "https://doi.org/10.1145/3832092",
+        "outcome": "no-evidence",
+        "note": "论文和工件仅列 ETH、港大及作者后续所在港中深；无范围内在企学生或企业员工同篇记录。"
+      },
+      {
+        "title": "Metamorphic Coverage",
+        "url": "https://doi.org/10.1145/3832104",
+        "outcome": "no-evidence",
+        "note": "终稿仅港中深和新加坡国立大学，未发现企业作者及企业实习。期刊稿合并同名预印本。"
+      },
+      {
+        "title": "Finding Performance Issues in Database Systems by Exploiting Dormant Code Paths",
+        "url": "https://arxiv.org/html/2605.22992v1",
+        "outcome": "no-evidence",
+        "note": "公开预印本列两位 ETH 合作者；测试商业数据库并不提供共同作者在企业任职的证据。"
+      },
+      {
+        "title": "Code Semantic Zooming",
+        "url": "https://arxiv.org/html/2510.06452v1",
+        "outcome": "no-evidence",
+        "note": "公开原文三位作者均署 ETH；文中讨论企业模型和开发环境，但无具名在企学生或企业作者。"
+      },
+      {
+        "title": "Towards a Unified Query Plan Representation",
+        "url": "https://bajinsheng.github.io/assets/pdf/uplan_icde25.pdf",
+        "outcome": "no-evidence",
+        "note": "两位作者分别署名 ETH、新加坡国立大学；正式附注指出第一作者在新加坡国立大学开始该项目，不存在有证据的范围内企业角色。同早期预印本合并。"
+      },
+      {
+        "title": "Finding Logic Bugs in Graph-processing Systems via Graph-cutting",
+        "url": "https://doi.org/10.1145/3725300",
+        "outcome": "no-evidence",
+        "note": "ACM 公开作者单位只覆盖港中深、ETH 和新加坡国立大学；没有具名范围内企业员工/学生在企角色。"
+      },
+      {
+        "title": "Keep It Simple: Testing Databases via Differential Query Plans",
+        "url": "https://doi.org/10.1145/3654991",
+        "outcome": "no-evidence",
+        "note": "两位作者在新加坡国立大学；论文目录、原稿和作者履历一致。"
+      },
+      {
+        "title": "CERT: Finding Performance Issues in Database Systems Through the Lens of Cardinality Estimation",
+        "url": "https://doi.org/10.1145/3597503.3639076",
+        "outcome": "no-evidence",
+        "note": "两位作者及正式工件均标为新加坡国立大学；早期预印本题名略有变化，合并。"
+      },
+      {
+        "title": "Detecting Logic Bugs in Graph Database Management Systems via Injective and Surjective Graph Query Transformation",
+        "url": "https://doi.org/10.1145/3597503.3623307",
+        "outcome": "no-evidence",
+        "note": "正式会议原文六位研究者均来自新加坡国立大学，未见范围内企业作者。"
+      },
+      {
+        "title": "Testing Database Engines via Query Plan Guidance",
+        "url": "https://doi.org/10.1109/ICSE48619.2023.00174",
+        "outcome": "no-evidence",
+        "note": "ICSE 正式议程具名列表为两位新加坡国立大学学术人员。与同名 arXiv 和工件合并。"
+      }
+    ],
+    "note": "对照个人完整公开书目与 DBLP，对截至调查日期公开可查的 10 篇不同论文/预印本逐篇核对。不同稿版已合并；仅列为在审且未公开原文的条目和学位论文不计入。"
+  },
+  "oZJbK4AAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://mang-zhao.com/papers/",
+      "https://dblp.org/pid/270/6872.html",
+      "https://cse.whu.edu.cn/info/3501/38471.htm"
+    ],
+    "papers": [
+      {
+        "title": "On the State-Compromise Security of End-to-End Real-Time Group Communication",
+        "url": "https://eprint.iacr.org/2026/1165",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IACR 作者单位均为武汉大学。Zoom 和 Microsoft Teams 是研究对象，未见企业作者或在企业参与该研究的在读学生。"
+      },
+      {
+        "title": "An Extended Hierarchy of Security Notions for Threshold Signature Schemes and Automated Analysis of Protocols That Use Them",
+        "url": "https://eprint.iacr.org/2024/1920",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者单位列 CISPA 与独立研究者；2024 年预印本与教师名单所列 2026 年 ACM CCS 论文合并。"
+      },
+      {
+        "title": "ETK: External-Operations TreeKEM and the Security of MLS in RFC 9420",
+        "url": "https://eprint.iacr.org/2025/229",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文列 CISPA、Hasso Plattner Institute 和武汉大学，未见范围内企业作者或相应的企业学生研究。"
+      },
+      {
+        "title": "Multi-Stage Group Key Distribution and PAKEs: Securing Zoom Groups against Malicious Servers without New Security Elements",
+        "url": "https://eprint.iacr.org/2023/1243",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "Zoom 是研究对象，作者署 CISPA 和特拉维夫大学；IACR 与 IEEE S&P 版本合并。"
+      },
+      {
+        "title": "Secure Messaging with Strong Compromise Resilience, Temporal Privacy, and Immediate Decryption",
+        "url": "https://eprint.iacr.org/2022/1481",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IEEE S&P 2024 正式版，早期预印本 2022 年；两位作者均署 CISPA，无学生与范围内企业作者。"
+      },
+      {
+        "title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security",
+        "url": "https://eprint.iacr.org/2023/1246",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "作者署 CISPA 和 Inria，未见范围内企业作者；IACR 和 USENIX 重复版本合并。"
+      },
+      {
+        "title": "FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation",
+        "url": "https://eprint.iacr.org/2022/1029",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "正式版 2023 年；企业作者署 SandboxAQ，超出本站企业范围，且未见范围内在读学生。"
+      },
+      {
+        "title": "Provable Security and Real-World Protocols: Theory and Practice",
+        "url": "https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/37410/3/thesis_MangZhao.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "萨尔大学图书馆存档的单作者博士论文，DBLP 标识为论文集外的学位研究。"
+      }
+    ],
+    "note": "逐项比对作者的公开书目、DBLP 和 IACR 署名及学校存档。七篇论文与一篇学位论文；各预印本及正式版合并。"
   }
 };
