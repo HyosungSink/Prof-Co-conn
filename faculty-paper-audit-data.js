@@ -3637,7 +3637,12 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2411.13807",
       "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DetDiffusion_Synergizing_Generative_and_Perceptive_Models_for_Enhanced_Data_Generation_CVPR_2024_paper.html",
       "https://arxiv.org/abs/2403.13304",
-      "https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf"
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.html",
+      "https://juxuan27.github.io/",
+      "https://juxuan27.github.io/assets/cv/CV_Xuan.pdf",
+      "https://xinntao.github.io/",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.pdf"
     ],
     "papers": [
       {
@@ -3669,6 +3674,12 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.pdf",
         "outcome": "lead",
         "note": "导师徐强、博士生高瑞元和华为员工Lanqing Hong同篇；同期实习履历明确为自动驾驶合成，尚未核实这篇分布外检测具体在华为实习期如何贡献。"
+      },
+      {
+        "title": "FullDiT: Video Generative Foundation Models with Multimodal Control via Full Attention",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "ICCV 正式出版论文以星号脚注注明第一作者鞠璇在快手可灵实习期间完成该研究。学生履历写明当时的港中文博士学籍、导师许强与快手实习导师王鑫涛；两者均同篇署名，许强为共同通讯。"
       }
     ]
   },
@@ -5767,7 +5778,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://www.cs.tsinghua.edu.cn/info/1116/3535.htm",
-      "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm"
+      "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm",
+      "https://hyzcluster.github.io/"
     ],
     "papers": [
       {
@@ -5775,6 +5787,30 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2512.22065",
         "outcome": "confirmed",
         "note": "孙志尧在清华大学导师主页列为 2021 年起的直博生；首发原文严格把实习脚注标在其名字旁，注明在腾讯混元实习中完成本项研究。"
+      },
+      {
+        "title": "CHARM: Control-point-based 3D Anime Hairstyle Auto-Regressive Modeling",
+        "url": "https://arxiv.org/html/2509.21114",
+        "outcome": "confirmed",
+        "note": "原文脚注明确第一作者何雨泽在腾讯 AIPD 实习期间完成本项；个人履历列出清华博士身份、2024 年 7 月至 2025 年 8 月腾讯实习及同篇 Yanning Zhou 为企业导师。"
+      },
+      {
+        "title": "StdGEN: Semantic-Decomposed 3D Character Generation from Single Images",
+        "url": "https://arxiv.org/html/2411.05738",
+        "outcome": "confirmed",
+        "note": "原文明确具名何雨泽在腾讯 AI Lab 实习期间完成本研究；学生本人履历列出同期在清华读博士、2024–2025 年腾讯实习及企业导师 Yanning Zhou。"
+      },
+      {
+        "title": "PrimitiveAnything: Human-Crafted 3D Primitive Assembly Generation with Auto-Regressive Transformer",
+        "url": "https://arxiv.org/html/2505.04622",
+        "outcome": "confirmed",
+        "note": "项目当时的第一作者共同贡献和机构原文将何雨泽列为清华与腾讯 AIPD 共同第一作者；2025 年 5 月初稿落在其本人履历所记 2024 年 7 月至 2025 年 8 月腾讯视觉实习内，项目明确列其具名实习导师 Yanning Zhou 和 Xiao Han 为腾讯通讯作者。"
+      },
+      {
+        "title": "Persistent Planar Memory for Video World Models",
+        "url": "https://arxiv.org/html/2610.23795",
+        "outcome": "confirmed",
+        "note": "蚂蚁 RobbyAnt 官方仓库公开本项目；项目页将在读博士何雨泽列为蚂蚁和清华共同署名的第一作者、将其公开实习履历具名列出的同一蚂蚁导师 Nan Xue 和 Yinghao Xu 列在合作作者，Nan Xue 为通讯作者。其本人 2026 年 RobbyAnt 实习时间覆盖 10 月。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -7319,7 +7355,12 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2512.05965v1",
       "https://arxiv.org/abs/2511.22663",
       "https://arxiv.org/pdf/2511.22663v1",
-      "https://zhengdian1.github.io/AIA-project/"
+      "https://zhengdian1.github.io/AIA-project/",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.html",
+      "https://hehao13.github.io/",
+      "https://ceyuan.me/",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.pdf",
+      "https://arxiv.org/abs/2503.10592"
     ],
     "papers": [
       {
@@ -7339,6 +7380,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2511.22663",
         "outcome": "confirmed",
         "note": "预印本首页把美团实习期间完成本篇的脚注明确指向第一作者郑典。学生公开履历确认香港中文大学在读、同篇学术导师李鸿升以及美团 LongCat 实习中由 Manyuan Zhang 指导；原始论文和项目同时把后者具名列为美团项目负责人。该文后续预印本改题，仍是同一编号的一篇。"
+      },
+      {
+        "title": "CameraCtrl II: Dynamic Scene Exploration via Camera-controlled Video Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "ICCV 论文在第一作者何昊名下注明研究是在字节跳动 Seed 实习期间完成。本人主页确认港中文博士指导老师李鸿升与公司实习导师 Ceyuan Yang，二者同篇署名；Ceyuan Yang 的研究主页和署名验证该时期在 Seed 任研究科学家。"
       }
     ]
   },
@@ -8193,5 +8240,134 @@ const facultyPaperAudits = {
         "note": "出版版本各作者同署武汉大学；无范围内企业研究记录。"
       }
     ]
+  },
+  "klFoxpYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bbeef01d9753fd5a29e9fd02d275698-Abstract-Conference.html",
+      "https://haozheh3.github.io/",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fangzhen-lin-flin",
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/flin",
+      "https://seed.bytedance.com/en/blog/call-for-papers-for-iclr-2025-workshop-promoting-open-source-sharing-and-reproducibility-of-foundation-models",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/4bbeef01d9753fd5a29e9fd02d275698-Paper-Conference.pdf",
+      "https://m-a-p.ai/REER_DeepWriter/"
+    ],
+    "papers": [
+      {
+        "title": "Reverse-Engineered Reasoning for Open-Ended Generation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bbeef01d9753fd5a29e9fd02d275698-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "原文将第一作者 Haozhe Wang 同时署港科大和 Seed，具名脚注明确本研究在 Seed 完成；当事人主页把论文列为自己在 Seed 与 M-A-P 的实习项目。港科大教师官方档案核实林方真的博士指导关系，林方真与字节跳动官网认定的公司研究员 Ge Zhang 同篇通讯。"
+      }
+    ]
+  },
+  "RfSQKrIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c747d1894b5d0a3a0ee6889cf7bf741d-Abstract-Conference.html",
+      "https://lg-li.github.io/",
+      "https://tianfan.info/",
+      "https://www.ie.cuhk.edu.hk/people/tfxue.shtml",
+      "https://wangguangzhi.com/",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/c747d1894b5d0a3a0ee6889cf7bf741d-Paper-Conference.pdf",
+      "https://github.com/TencentARC/ToonComposer",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Li_NVComposer_Boosting_Generative_Novel_View_Synthesis_with_Multiple_Sparse_and_CVPR_2025_paper.html",
+      "https://zzyfd.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_NVComposer_Boosting_Generative_Novel_View_Synthesis_with_Multiple_Sparse_and_CVPR_2025_paper.pdf",
+      "https://github.com/TencentARC/NVComposer",
+      "https://arxiv.org/abs/2603.04291",
+      "https://arxiv.org/html/2603.04291v1",
+      "https://lg-li.github.io/project/cubecomposer"
+    ],
+    "papers": [
+      {
+        "title": "ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c747d1894b5d0a3a0ee6889cf7bf741d-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "正式出版论文在第一作者李林根的港中文署名处有星号脚注，指出工作于腾讯 ARC Lab 实习期间完成。学生主页把薛天帆列为博士导师之一，导师主页列有该生及共同指导人员；薛天帆同篇通讯。在职腾讯 ARC 研究人员同篇具名负责该企业项目。"
+      },
+      {
+        "title": "NVComposer: Boosting Generative Novel View Synthesis with Multiple Sparse and Unposed Images",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_NVComposer_Boosting_Generative_Novel_View_Synthesis_with_Multiple_Sparse_and_CVPR_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "正式出版论文在第一作者李林根的港中文署名处有星号脚注，指出工作于腾讯 ARC Lab 实习期间完成。学生主页把薛天帆列为博士导师之一，导师主页列有该生及共同指导人员；薛天帆同篇通讯。在职腾讯 ARC 研究人员同篇具名负责该企业项目。"
+      },
+      {
+        "title": "CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video",
+        "url": "https://arxiv.org/abs/2603.04291",
+        "outcome": "lead",
+        "note": "导师、学生和同项目企业负责人具名；预印本首页只有学生学校署名且不含实习字段。已确认的其他 ARC 实习论文不能替代此篇证明。"
+      }
+    ]
+  },
+  "z-rqsR4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/05708_ECCV_2024_paper.php",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05708.pdf",
+      "https://mutianxu.github.io/CV.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Free-ATM: Harnessing Free Attention Masks for Representation Learning on Diffusion-Generated Images",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/05708_ECCV_2024_paper.php",
+        "outcome": "lead",
+        "note": "北大博士前经历无关；原文实习脚注实际对应 NUS 学生 David Junhao Zhang。港中深博士许牧天是项目负责人但脚注没有标其为实习者，自己的履历亦未证明该企业实习。"
+      }
+    ]
+  },
+  "JNTG1KoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.html",
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.pdf",
+      "https://sds.cuhk.edu.cn/en/student-search?page=8",
+      "https://sai.cuhk.edu.cn/zh-hans/teacher/121",
+      "https://www.xtao.website/",
+      "https://arxiv.org/abs/2609.00206",
+      "https://arxiv.org/pdf/2609.00206"
+    ],
+    "papers": [
+      {
+        "title": "BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.html",
+        "outcome": "confirmed",
+        "note": "原文把实习脚注标在港中大（深圳）第一作者 Ruotong Wang 的姓名上，说明该工作在快手可灵实习期间完成。学校学生名录列吴保元为博士导师，吴保元通讯。快手可灵技术负责人 Xin Tao 同篇署名，时任身份由其职业主页验证。"
+      },
+      {
+        "title": "Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation",
+        "url": "https://arxiv.org/abs/2609.00206",
+        "outcome": "confirmed",
+        "note": "原文把实习脚注标在港中大（深圳）第一作者 Ruotong Wang 的姓名上，说明该工作在快手可灵实习期间完成。学校学生名录列吴保元为博士导师，吴保元通讯。快手可灵技术负责人 Xin Tao 同篇署名，时任身份由其职业主页验证。"
+      }
+    ]
+  },
+  "396o2BAAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.hust.edu.cn/caozhiguo1/zh_CN/index.htm",
+      "https://leoshen917.github.io/",
+      "https://wtjiang98.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.pdf"
+    ],
+    "papers": [
+      {
+        "title": "Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "CVPR 正式稿致谢明确说明本项目由阿里巴巴研究实习计划支持；2025 年首版在学生就读期间已公开，申立奥是唯一同时署名华科和阿里的作者，并与在任企业研究员姜文韬并列第一作者。双方个人项目书目均列 IPRO。"
+      }
+    ],
+    "note": "已逐篇检查部分书目和学生科研实习，未覆盖全部论文。"
   }
 };

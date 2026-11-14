@@ -27941,6 +27941,547 @@ const survey = {
           "https://github.com/bytedance/Sa2VA/tree/main/projects/samtok"
         ]
       ]
+    },
+    {
+      "id": "charm-tencent-thu-gndtwwqaaaaj",
+      "paperId": "doi:10.1145/3757377.3763912",
+      "company": "腾讯",
+      "team": "腾讯 AIPD / AI Lab",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "刘永进 · Yong-Jin Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.tsinghua.edu.cn/info/1116/3535.htm"
+      ],
+      "employee": [
+        "Yanning Zhou",
+        "本人学术主页说明曾为腾讯 AIPD 正式研究员并将本项目具名列为研究成果；论文作者栏署腾讯，其亦为学生主页所列腾讯实习导师。",
+        "https://amandaynzhou.github.io/"
+      ],
+      "student": [
+        "何雨泽 · Yuze He",
+        "原文脚注明确第一作者何雨泽在腾讯 AIPD 实习期间完成本项；个人履历列出清华博士身份、2024 年 7 月至 2025 年 8 月腾讯实习及同篇 Yanning Zhou 为企业导师。",
+        "https://hyzcluster.github.io/"
+      ],
+      "title": "CHARM: Control-point-based 3D Anime Hairstyle Auto-Regressive Modeling",
+      "short": "CHARM",
+      "date": "2025-11",
+      "venue": "SIGGRAPH Asia 2025",
+      "area": "三维生成与世界模型",
+      "paper": "https://arxiv.org/html/2509.21114",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3757377.3763912"
+        ],
+        [
+          "作者项目页",
+          "https://hyzcluster.github.io/charm/"
+        ],
+        [
+          "初版",
+          "https://arxiv.org/abs/2509.21114"
+        ]
+      ],
+      "evidence": "原文脚注明确第一作者何雨泽在腾讯 AIPD 实习期间完成本项；个人履历列出清华博士身份、2024 年 7 月至 2025 年 8 月腾讯实习及同篇 Yanning Zhou 为企业导师。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "何雨泽的个人学术主页具名列刘永进为 2022 年 9 月起的清华博士导师；刘永进为同篇作者。",
+        "https://hyzcluster.github.io/"
+      ]
+    },
+    {
+      "id": "stdgen-tencent-thu-gndtwwqaaaaj",
+      "paperId": "arxiv:2411.05738",
+      "company": "腾讯",
+      "team": "腾讯 AIPD / AI Lab",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "刘永进 · Yong-Jin Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.tsinghua.edu.cn/info/1116/3535.htm"
+      ],
+      "employee": [
+        "Yanning Zhou",
+        "本人学术主页说明曾为腾讯 AIPD 正式研究员并将本项目具名列为研究成果；论文作者栏署腾讯，其亦为学生主页所列腾讯实习导师。",
+        "https://amandaynzhou.github.io/"
+      ],
+      "student": [
+        "何雨泽 · Yuze He",
+        "原文明确具名何雨泽在腾讯 AI Lab 实习期间完成本研究；学生本人履历列出同期在清华读博士、2024–2025 年腾讯实习及企业导师 Yanning Zhou。",
+        "https://hyzcluster.github.io/"
+      ],
+      "title": "StdGEN: Semantic-Decomposed 3D Character Generation from Single Images",
+      "short": "StdGEN",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "三维生成与世界模型",
+      "paper": "https://arxiv.org/html/2411.05738",
+      "extra": [
+        [
+          "论文题录",
+          "https://openaccess.thecvf.com/content/CVPR2025/html/He_StdGEN_Semantic-Decomposed_3D_Character_Generation_from_Single_Images_CVPR_2025_paper.html"
+        ],
+        [
+          "作者项目页",
+          "https://stdgen.github.io/"
+        ]
+      ],
+      "evidence": "原文明确具名何雨泽在腾讯 AI Lab 实习期间完成本研究；学生本人履历列出同期在清华读博士、2024–2025 年腾讯实习及企业导师 Yanning Zhou。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "何雨泽的个人学术主页具名列刘永进为 2022 年 9 月起的清华博士导师；刘永进为同篇作者。",
+        "https://hyzcluster.github.io/"
+      ]
+    },
+    {
+      "id": "primitiveanything-tencent-thu-gndtwwqaaaaj",
+      "paperId": "doi:10.1145/3721238.3730732",
+      "company": "腾讯",
+      "team": "腾讯 AIPD / AI Lab",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "刘永进 · Yong-Jin Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.tsinghua.edu.cn/info/1116/3535.htm"
+      ],
+      "employee": [
+        "Yanning Zhou",
+        "本人学术主页说明曾为腾讯 AIPD 正式研究员并将本项目具名列为研究成果；论文作者栏署腾讯，其亦为学生主页所列腾讯实习导师。",
+        "https://amandaynzhou.github.io/"
+      ],
+      "student": [
+        "何雨泽 · Yuze He",
+        "项目当时的第一作者共同贡献和机构原文将何雨泽列为清华与腾讯 AIPD 共同第一作者；2025 年 5 月初稿落在其本人履历所记 2024 年 7 月至 2025 年 8 月腾讯视觉实习内，项目明确列其具名实习导师 Yanning Zhou 和 Xiao Han 为腾讯通讯作者。",
+        "https://hyzcluster.github.io/"
+      ],
+      "title": "PrimitiveAnything: Human-Crafted 3D Primitive Assembly Generation with Auto-Regressive Transformer",
+      "short": "PrimitiveAnything",
+      "date": "2025-08",
+      "venue": "SIGGRAPH 2025",
+      "area": "三维生成与世界模型",
+      "paper": "https://arxiv.org/html/2505.04622",
+      "extra": [
+        [
+          "论文题录",
+          "https://doi.org/10.1145/3721238.3730732"
+        ],
+        [
+          "两位具名企业实习导师共同署名的项目页",
+          "https://primitiveanything.github.io/"
+        ],
+        [
+          "初版",
+          "https://arxiv.org/abs/2505.04622"
+        ]
+      ],
+      "evidence": "项目当时的第一作者共同贡献和机构原文将何雨泽列为清华与腾讯 AIPD 共同第一作者；2025 年 5 月初稿落在其本人履历所记 2024 年 7 月至 2025 年 8 月腾讯视觉实习内，项目明确列其具名实习导师 Yanning Zhou 和 Xiao Han 为腾讯通讯作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "何雨泽的个人学术主页具名列刘永进为 2022 年 9 月起的清华博士导师；刘永进为同篇作者。",
+        "https://hyzcluster.github.io/"
+      ]
+    },
+    {
+      "id": "ppmem-ant-thu-gndtwwqaaaaj",
+      "paperId": "arxiv:2610.23795",
+      "company": "蚂蚁集团",
+      "team": "RobbyAnt",
+      "school": "清华大学",
+      "studentSchool": "清华大学",
+      "faculty": [
+        "刘永进 · Yong-Jin Liu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.tsinghua.edu.cn/info/1116/3535.htm"
+      ],
+      "employee": [
+        "Yujun Shen",
+        "本人任职经历列 2022 年 4 月起在蚂蚁任 Staff Research Scientist、2024 年 7 月起任 Senior Staff Research Scientist；同篇作者署蚂蚁集团。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "何雨泽 · Yuze He",
+        "蚂蚁 RobbyAnt 官方仓库公开本项目；项目页将在读博士何雨泽列为蚂蚁和清华共同署名的第一作者、将其公开实习履历具名列出的同一蚂蚁导师 Nan Xue 和 Yinghao Xu 列在合作作者，Nan Xue 为通讯作者。其本人 2026 年 RobbyAnt 实习时间覆盖 10 月。",
+        "https://hyzcluster.github.io/"
+      ],
+      "title": "Persistent Planar Memory for Video World Models",
+      "short": "PPMem",
+      "date": "2026-10",
+      "venue": "arXiv 预印本；获 NeurIPS 2026 接收",
+      "area": "三维生成与世界模型",
+      "paper": "https://arxiv.org/html/2610.23795",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2610.23795"
+        ],
+        [
+          "RobbyAnt 官方项目",
+          "https://github.com/robbyant-research/PPMem"
+        ],
+        [
+          "项目参与人员",
+          "https://hyzcluster.github.io/ppmem/"
+        ],
+        [
+          "蚂蚁实习导师的任职履历",
+          "https://xuenan.net/"
+        ]
+      ],
+      "evidence": "蚂蚁 RobbyAnt 官方仓库公开本项目；项目页将在读博士何雨泽列为蚂蚁和清华共同署名的第一作者、将其公开实习履历具名列出的同一蚂蚁导师 Nan Xue 和 Yinghao Xu 列在合作作者，Nan Xue 为通讯作者。其本人 2026 年 RobbyAnt 实习时间覆盖 10 月。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "何雨泽的个人学术主页具名列刘永进为 2022 年 9 月起的清华博士导师；刘永进为同篇作者。",
+        "https://hyzcluster.github.io/"
+      ]
+    },
+    {
+      "id": "bytedance-reer-hkust-fangzhen-lin",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "林方真 · Fangzhen Lin",
+        "香港科技大学计算机科学与工程学系教授，论文共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/flin"
+      ],
+      "student": [
+        "Haozhe Wang",
+        "自 2024 年 9 月在港科大读博；论文第一作者，ICLR 正文和本人主页都明确此研究是在字节跳动 Seed 实习期间所作。",
+        "https://haozheh3.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大教师档案将 Haozhe Wang 明列为林方真在读博士，学生本人主页同样明确记录。",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fangzhen-lin-flin"
+      ],
+      "employee": [
+        "Ge Zhang",
+        "字节跳动官方活动介绍其为大模型研究员；其以字节跳动 Seed 身份担任该论文共同通讯作者。",
+        "https://seed.bytedance.com/en/blog/call-for-papers-for-iclr-2025-workshop-promoting-open-source-sharing-and-reproducibility-of-foundation-models"
+      ],
+      "title": "Reverse-Engineered Reasoning for Open-Ended Generation",
+      "short": "REER",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "大语言模型 · 生成推理",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bbeef01d9753fd5a29e9fd02d275698-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式出版原文与实习说明",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/4bbeef01d9753fd5a29e9fd02d275698-Paper-Conference.pdf"
+        ],
+        [
+          "项目署名和角色",
+          "https://m-a-p.ai/REER_DeepWriter/"
+        ]
+      ],
+      "evidence": "原文将第一作者 Haozhe Wang 同时署港科大和 Seed，具名脚注明确本研究在 Seed 完成；当事人主页把论文列为自己在 Seed 与 M-A-P 的实习项目。港科大教师官方档案核实林方真的博士指导关系，林方真与字节跳动官网认定的公司研究员 Ge Zhang 同篇通讯。"
+    },
+    {
+      "id": "tencent-tooncomposer-cuhk-tianfan-xue",
+      "company": "腾讯",
+      "team": "腾讯 ARC Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "薛天帆 · Tianfan Xue",
+        "香港中文大学信息工程系教师，论文共同通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/tfxue.shtml"
+      ],
+      "student": [
+        "李林根 · Lingen Li",
+        "香港中文大学在读博士、论文第一作者，出版原文首页星号明确其在腾讯 ARC 实习时完成相关工作。",
+        "https://lg-li.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页明确列薛天帆为博士导师之一；薛天帆课题组也以合导方式列该生。",
+        "https://tianfan.info/"
+      ],
+      "employee": [
+        "Guangzhi Wang",
+        "腾讯 ARC Lab 研究员，履历列 2024 年起正式任职，论文项目负责人。",
+        "https://wangguangzhi.com/"
+      ],
+      "title": "ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing",
+      "short": "ToonComposer",
+      "date": "2026-04",
+      "venue": "ICLR 2026",
+      "area": "计算机视觉 · 生成式视频",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c747d1894b5d0a3a0ee6889cf7bf741d-Abstract-Conference.html",
+      "extra": [
+        [
+          "正式论文及实习脚注",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/c747d1894b5d0a3a0ee6889cf7bf741d-Paper-Conference.pdf"
+        ],
+        [
+          "企业正式项目发布",
+          "https://github.com/TencentARC/ToonComposer"
+        ]
+      ],
+      "evidence": "正式出版论文在第一作者李林根的港中文署名处有星号脚注，指出工作于腾讯 ARC Lab 实习期间完成。学生主页把薛天帆列为博士导师之一，导师主页列有该生及共同指导人员；薛天帆同篇通讯。在职腾讯 ARC 研究人员同篇具名负责该企业项目。"
+    },
+    {
+      "id": "tencent-nvcomposer-cuhk-tianfan-xue",
+      "company": "腾讯",
+      "team": "腾讯 ARC Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "薛天帆 · Tianfan Xue",
+        "香港中文大学信息工程系教师，论文共同通讯作者。",
+        "https://www.ie.cuhk.edu.hk/people/tfxue.shtml"
+      ],
+      "student": [
+        "李林根 · Lingen Li",
+        "香港中文大学在读博士、论文第一作者，出版原文首页星号明确其在腾讯 ARC 实习时完成相关工作。",
+        "https://lg-li.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页明确列薛天帆为博士导师之一；薛天帆课题组也以合导方式列该生。",
+        "https://tianfan.info/"
+      ],
+      "employee": [
+        "Zhaoyang Zhang",
+        "腾讯 ARC Lab 项目负责人及共同通讯作者，职业主页确认曾任 ARC 高级研究科学家并列其当时发表的同组作品。",
+        "https://zzyfd.github.io/"
+      ],
+      "title": "NVComposer: Boosting Generative Novel View Synthesis with Multiple Sparse and Unposed Images",
+      "short": "NVComposer",
+      "date": "2025-06",
+      "venue": "CVPR 2025",
+      "area": "计算机视觉 · 生成式视频",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_NVComposer_Boosting_Generative_Novel_View_Synthesis_with_Multiple_Sparse_and_CVPR_2025_paper.html",
+      "extra": [
+        [
+          "正式论文及实习脚注",
+          "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_NVComposer_Boosting_Generative_Novel_View_Synthesis_with_Multiple_Sparse_and_CVPR_2025_paper.pdf"
+        ],
+        [
+          "企业正式项目发布",
+          "https://github.com/TencentARC/NVComposer"
+        ]
+      ],
+      "evidence": "正式出版论文在第一作者李林根的港中文署名处有星号脚注，指出工作于腾讯 ARC Lab 实习期间完成。学生主页把薛天帆列为博士导师之一，导师主页列有该生及共同指导人员；薛天帆同篇通讯。在职腾讯 ARC 研究人员同篇具名负责该企业项目。"
+    },
+    {
+      "id": "kuaishou-badvideo-cuhksz-baoyuan-wu",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "吴保元 · Baoyuan Wu",
+        "香港中文大学（深圳）副教授，论文通讯作者。",
+        "https://sai.cuhk.edu.cn/zh-hans/teacher/121"
+      ],
+      "student": [
+        "Ruotong Wang",
+        "港中大（深圳）2024 级博士生、论文第一作者；原文在其名下标注本研究在可灵实习中完成。",
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学校官方学生名录明确列 Ruotong Wang 的入学届别及博士导师吴保元。",
+        "https://sds.cuhk.edu.cn/en/student-search?page=8"
+      ],
+      "employee": [
+        "Xin Tao",
+        "同篇署快手可灵，其主页记录 2020 年起在快手任职，并任可灵视觉生成组技术负责人。",
+        "https://www.xtao.website/"
+      ],
+      "title": "BadVideo: Stealthy Backdoor Attack against Text-to-Video Generation",
+      "short": "BadVideo",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "多模态模型 · 视频安全",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.html",
+      "extra": [
+        [
+          "论文原文具名实习脚注",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_BadVideo_Stealthy_Backdoor_Attack_against_Text-to-Video_Generation_ICCV_2025_paper.pdf"
+        ]
+      ],
+      "evidence": "原文把实习脚注标在港中大（深圳）第一作者 Ruotong Wang 的姓名上，说明该工作在快手可灵实习期间完成。学校学生名录列吴保元为博士导师，吴保元通讯。快手可灵技术负责人 Xin Tao 同篇署名，时任身份由其职业主页验证。"
+    },
+    {
+      "id": "kuaishou-dih-cuhksz-baoyuan-wu",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "吴保元 · Baoyuan Wu",
+        "香港中文大学（深圳）副教授，论文通讯作者。",
+        "https://sai.cuhk.edu.cn/zh-hans/teacher/121"
+      ],
+      "student": [
+        "Ruotong Wang",
+        "港中大（深圳）2024 级博士生、论文第一作者；原文在其名下标注本研究在可灵实习中完成。",
+        "https://arxiv.org/pdf/2609.00206"
+      ],
+      "advising": [
+        "博士导师",
+        "学校官方学生名录明确列 Ruotong Wang 的入学届别及博士导师吴保元。",
+        "https://sds.cuhk.edu.cn/en/student-search?page=8"
+      ],
+      "employee": [
+        "Xin Tao",
+        "同篇署快手可灵，其主页记录 2020 年起在快手任职，并任可灵视觉生成组技术负责人。",
+        "https://www.xtao.website/"
+      ],
+      "title": "Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation",
+      "short": "Distributed Implicit Harm",
+      "date": "2026-08",
+      "venue": "arXiv 预印本",
+      "area": "多模态模型 · 视频安全",
+      "paper": "https://arxiv.org/abs/2609.00206",
+      "extra": [
+        [
+          "论文原文具名实习脚注",
+          "https://arxiv.org/pdf/2609.00206"
+        ]
+      ],
+      "evidence": "原文把实习脚注标在港中大（深圳）第一作者 Ruotong Wang 的姓名上，说明该工作在快手可灵实习期间完成。学校学生名录列吴保元为博士导师，吴保元通讯。快手可灵技术负责人 Xin Tao 同篇署名，时任身份由其职业主页验证。"
+    },
+    {
+      "id": "kuaishou-fulldit-cuhk-qiang-xu",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "许强 · Qiang Xu",
+        "香港中文大学计算机科学与工程学系教授，论文共同通讯作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/qiang-xu/"
+      ],
+      "student": [
+        "鞠璇 · Xuan Ju",
+        "2022 年起在港中文攻读博士；2024 年 12 月至 2025 年 3 月在快手可灵研究多模态视频生成。",
+        "https://juxuan27.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开简历和课题组履历明确记录港中文博士导师为许强。",
+        "https://juxuan27.github.io/assets/cv/CV_Xuan.pdf"
+      ],
+      "employee": [
+        "王鑫涛 · Xintao Wang",
+        "时任快手可灵研究人员并同篇署名；第一作者的履历点名其指导当地的多模态视频实习。",
+        "https://xinntao.github.io/"
+      ],
+      "title": "FullDiT: Video Generative Foundation Models with Multimodal Control via Full Attention",
+      "short": "FullDiT",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "多模态视频生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.html",
+      "extra": [
+        [
+          "正式出版论文及具名脚注",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Ju_FullDiT_Video_Generative_Foundation_Models_with_Multimodal_Control_via_Full_ICCV_2025_paper.pdf"
+        ]
+      ],
+      "evidence": "ICCV 正式出版论文以星号脚注注明第一作者鞠璇在快手可灵实习期间完成该研究。学生履历写明当时的港中文博士学籍、导师许强与快手实习导师王鑫涛；两者均同篇署名，许强为共同通讯。"
+    },
+    {
+      "id": "bytedance-cameractrl2-cuhk-hongsheng-li",
+      "company": "字节跳动",
+      "team": "Seed",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "李鸿升 · Hongsheng Li",
+        "香港中文大学电子工程系教师，论文共同作者。",
+        "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-hongsheng-li"
+      ],
+      "student": [
+        "何昊 · Hao He",
+        "港中文在读博士；从 2024 年 4 月起在字节跳动实习，ICCV 论文原文明确本项成果来自该实习。",
+        "https://hehao13.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页公开把李鸿升和王晓刚均列为港中文博士导师。",
+        "https://hehao13.github.io/"
+      ],
+      "employee": [
+        "Ceyuan Yang",
+        "字节跳动研究科学家，论文共同通讯作者；亦为学生公开履历中具名的企业实习导师。",
+        "https://ceyuan.me/"
+      ],
+      "title": "CameraCtrl II: Dynamic Scene Exploration via Camera-controlled Video Diffusion Models",
+      "short": "CameraCtrl II",
+      "date": "2025-10",
+      "venue": "ICCV 2025",
+      "area": "计算机视觉 · 可控视频生成",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.html",
+      "extra": [
+        [
+          "正式出版论文及具名实习脚注",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.pdf"
+        ],
+        [
+          "arXiv 版本",
+          "https://arxiv.org/abs/2503.10592"
+        ]
+      ],
+      "evidence": "ICCV 论文在第一作者何昊名下注明研究是在字节跳动 Seed 实习期间完成。本人主页确认港中文博士指导老师李鸿升与公司实习导师 Ceyuan Yang，二者同篇署名；Ceyuan Yang 的研究主页和署名验证该时期在 Seed 任研究科学家。"
+    },
+    {
+      "id": "ali-ipro-hust-cao",
+      "company": "阿里巴巴",
+      "team": "淘天集团与阿里妈妈",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "曹治国 · Zhiguo Cao",
+        "华中科技大学人工智能与自动化学院教授、硕士生导师，同篇通讯作者。",
+        "https://faculty.hust.edu.cn/caozhiguo1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "姜文韬 · Wentao Jiang",
+        "本人主页记载 2024 年 7 月通过阿里星计划入职阿里，负责视频生成工作，且具名列此项目；同篇为并列第一作者。",
+        "https://wtjiang98.github.io/"
+      ],
+      "student": [
+        "申立奥 · Liao Shen",
+        "2023 至 2026 年为华中科技大学硕士生。2025 年首次公开的论文将其列为并列第一作者及唯一同时署名华科和阿里的作者。",
+        "https://leoshen917.github.io/"
+      ],
+      "title": "Identity-Preserving Image-to-Video Generation via Reward-Guided Optimization",
+      "short": "IPRO",
+      "date": "2026-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.pdf",
+      "evidence": "CVPR 正式稿致谢明确说明本项目由阿里巴巴研究实习计划支持；2025 年首版在学生就读期间已公开，申立奥是唯一同时署名华科和阿里的作者，并与在任企业研究员姜文韬并列第一作者。双方个人项目书目均列 IPRO。",
+      "advising": [
+        "校内硕士生导师",
+        "申立奥本人主页和公开履历明确列曹治国为其华中科技大学硕士导师。",
+        "https://leoshen917.github.io/"
+      ],
+      "extra": [
+        [
+          "具名项目及校企身份的首版",
+          "https://arxiv.org/pdf/2510.14255v1"
+        ],
+        [
+          "正式出版书目",
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.html"
+        ],
+        [
+          "硕士阶段本人履历",
+          "https://leoshen917.github.io/assets/pdf/leo_cv.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2510.14255"
     }
   ]
 };
