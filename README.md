@@ -24,10 +24,10 @@
 
 ## 浏览网站
 
-- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览，用页面箭头或键盘左右键切换企业合作、高校合作、高校教师名录、院系教师名录四张图。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数。第三张图显示各校名录的记录数及核验完成比例。第四张热力图默认每校一个矩形、一种颜色。选中高校后改按院系分色；中国科学院大学按研究所分色。矩形面积按教师名录记录数分配，每条记录一块瓷砖，同一分区用四档深浅表示已核实的项数。可以高亮一个院系或研究所，点击瓷砖查看教师和核验进度。
+- [首页](https://hyosungsink.github.io/Prof-Co-conn/)展示项目概览，用页面箭头或键盘左右键切换企业合作、高校合作、高校教师名录、院系教师名录四张图。企业点阵区分已确认和待核验；高校矩形的面积表示已确认关系数。第三张图显示各校名录的记录数及三项齐全的比例（具体职称、Google 学术主页、CCF 代表作均已核实），点击高校可查看对应名录。第四张热力图默认每校一个矩形、一种颜色。选中高校后改按院系分色；中国科学院大学按研究所分色。矩形面积按教师名录记录数分配，每条记录一块瓷砖，同一分区用四档深浅表示已核实的项数。可以高亮一个院系或研究所，点击瓷砖查看教师和核验进度。
 - [关系索引](https://hyosungsink.github.io/Prof-Co-conn/connections.html)可按归属企业、教师所在高校或核验状态筛选，也可搜索论文和作者。点击论文题名查看原文和身份依据。
 - [合著线索](https://hyosungsink.github.io/Prof-Co-conn/leads.html)每篇论文一帖，列出相关机构、核验提示和原文链接，可按题名、企业或高校检索。
-- [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。点阵图显示各校名录记录数及三项齐全的比例；具体职称、Google 学术主页、CCF 代表作均已核实才计为齐全。点击高校即可筛选；也可选择高校和院系，按姓名、职称或所属单位搜索。每个院系只展示一份名录，跨院系任职仍分别列出。中国科学院大学按教师档案和补充来源所载的研究机构归组，同一档案在多个学院列名时合并；校部人员和归属待核实的人员单列。核对职称时查看院系名录、教师工作简历、教师主页指向的个人主页，以及任职单位的官方资料。补录职称附原始链接；同一岗位在中英文来源中用词不同时，可分别查看两处来源。导师资格和双聘等另列，仅查到层级或缺少依据的记录分别标明。名录不用于直接确认论文作者当时的任职。
+- [教师名录](https://hyosungsink.github.io/Prof-Co-conn/faculty.html)按 26 所目标高校展示公开师资。可选择高校和院系，按姓名、职称或所属单位搜索。每个院系只展示一份名录，跨院系任职仍分别列出。中国科学院大学按教师档案和补充来源所载的研究机构归组，同一档案在多个学院列名时合并；校部人员和归属待核实的人员单列。核对职称时查看院系名录、教师工作简历、教师主页指向的个人主页，以及任职单位的官方资料。补录职称附原始链接；同一岗位在中英文来源中用词不同时，可分别查看两处来源。导师资格和双聘等另列，仅查到层级或缺少依据的记录分别标明。名录不用于直接确认论文作者当时的任职。
 - [核验口径](https://hyosungsink.github.io/Prof-Co-conn/method.html)说明确认条件、论文归属规则和高校范围。
 
 教师名录也列出已核实的 Google 学术主页和一篇可复核的 CCF 代表作。从院系档案进入教师个人主页或课题组主页，继续查找 Publications、代表论文、简历及其分页。按原题名和署名核对同名作者，用 [DBLP 书目快照](https://doi.org/10.4230/dblp.xml.2026-11-01)、出版方论文页或正式论文集确认出版信息；代表作附论文和作者核对来源。找到署名论文后，可用题名与作者名反查 Google 学术个人主页，再用主页所列论文、机构或回链核对身份。同名搜索结果不直接计入。分级依据 [CCF 2026 年第七版目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml)，会议只计正式长文。代表作可早于调查时间范围。没有足够公开资料时标为「未核实」。
@@ -57,7 +57,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 | [`leads.html`](leads.html)、[`leads-page.js`](leads-page.js) | 合著线索和检索 |
 | [`faculty.html`](faculty.html)、[`faculty-page.js`](faculty-page.js)、[`faculty-rosters.js`](faculty-rosters.js)、[`faculty-data.js`](faculty-data.js)、[`faculty-titles.js`](faculty-titles.js)、[`faculty-ucas-institutes.js`](faculty-ucas-institutes.js) | 教师名录、院系内去重、官方名单、补录职称来源及国科大研究所归属 |
 | [`faculty-bibliography.js`](faculty-bibliography.js) | 教师的 Google 学术主页、CCF 代表作和核对来源 |
-| [`faculty-catalog.js`](faculty-catalog.js)、[`faculty-plot.js`](faculty-plot.js)、[`faculty-plot-data.js`](faculty-plot-data.js) | 名录统计、共用图表及首页生成数据 |
+| [`faculty-catalog.js`](faculty-catalog.js)、[`faculty-plot.js`](faculty-plot.js)、[`faculty-plot-data.js`](faculty-plot-data.js) | 名录统计、首页点阵图及生成数据 |
 | [`method.html`](method.html)、[`method-page.js`](method-page.js) | 核验口径和高校范围 |
 | [`styles.css`](styles.css) | 页面样式与移动端布局 |
 

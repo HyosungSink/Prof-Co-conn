@@ -5,17 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按高校和院系查阅 26 所调查高校公开的计算机相关教师名录。">
   <title>教师名录 · AI 研究 Connection</title>
-  <link rel="stylesheet" href="styles.css?v=2fe5f1936649">
-  <script src="data.js?v=2fe5f1936649" defer></script>
-  <script src="ui.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-data.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-titles.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-rosters.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-bibliography.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-ucas-institutes.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-catalog.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-plot.js?v=2fe5f1936649" defer></script>
-  <script src="faculty-page.js?v=2fe5f1936649" defer></script>
+  <link rel="stylesheet" href="styles.css?v=ab6d92dc2191">
+  <script src="data.js?v=ab6d92dc2191" defer></script>
+  <script src="ui.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-data.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-titles.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-rosters.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-bibliography.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-ucas-institutes.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-catalog.js?v=ab6d92dc2191" defer></script>
+  <script src="faculty-page.js?v=ab6d92dc2191" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -40,23 +39,7 @@
         <label><span id="faculty-school-label">高校</span><select id="faculty-school" aria-labelledby="faculty-school-label"><option value="">全部高校</option></select></label>
         <label><span id="faculty-department-label">院系</span><select id="faculty-department" aria-labelledby="faculty-department-label" disabled><option value="">请先选择高校</option></select></label>
       </form>
-      <section id="faculty-distribution" class="hero-plot faculty-distribution" aria-labelledby="faculty-plot-title" hidden>
-        <div class="plot-head">
-          <div>
-            <h2 id="faculty-plot-title">高校教师名录分布</h2>
-            <p class="faculty-plot-note">三项齐全指已核实具体职称、Google 学术主页和 CCF 代表作。</p>
-          </div>
-          <div class="faculty-plot-key">
-            <div class="legend">
-              <span><i aria-hidden="true"></i><span id="faculty-plot-complete"></span></span>
-              <span><i aria-hidden="true"></i><span id="faculty-plot-incomplete"></span></span>
-            </div>
-            <p id="faculty-plot-scale" class="faculty-plot-note"></p>
-          </div>
-        </div>
-        <div id="faculty-plot" class="faculty-plot"></div>
-      </section>
-      <div class="result-bar"><p id="faculty-count" aria-live="polite" tabindex="-1"></p></div>
+      <div class="result-bar"><p id="faculty-count" aria-live="polite"></p></div>
       <div id="faculty-rosters" class="faculty-rosters"></div>
       <noscript><p class="empty">请启用 JavaScript 以浏览教师名录。</p></noscript>
     </section>

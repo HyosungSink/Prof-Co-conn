@@ -5,27 +5,9 @@ const facultyRoot = get('faculty-rosters');
 const facultyCount = get('faculty-count');
 const snapshot = buildFacultyCatalog();
 const countFormat = new Intl.NumberFormat('zh-CN');
-const facultyPlotButtons = new Map();
 
 function facultyUnitId(schoolIndex, department) {
   return department.slug ? `faculty-institute-${department.slug}` : `faculty-unit-${schoolIndex + 1}-${department.index + 1}`;
-}
-
-function facultyPlotButton(name) {
-  const button = element('button');
-  button.type = 'button';
-  button.setAttribute('aria-controls', 'faculty-rosters');
-  button.addEventListener('click', () => {
-    facultySchool.value = facultySchool.value === name ? '' : name;
-    setDepartmentOptions();
-    applyFacultyFilters();
-    if (facultyCount.getBoundingClientRect().bottom > window.innerHeight) {
-      facultyCount.focus({ preventScroll: true });
-      facultyCount.scrollIntoView({ block: 'start' });
-    }
-  });
-  facultyPlotButtons.set(name, button);
-  return button;
 }
 
 function setDepartmentOptions(selected = '') {
@@ -105,10 +87,6 @@ function renderFaculty() {
   const words = facultyQuery.value.trim().split(/\s+/).map(facultySearchKey).filter(Boolean);
   const schools = [];
   let matches = 0;
-
-  for (const [name, button] of facultyPlotButtons) {
-    button.setAttribute('aria-pressed', String(name === facultySchool.value));
-  }
 
   for (const [schoolIndex, [name, english, group]] of survey.schools.entries()) {
     if (facultySchool.value && facultySchool.value !== name) continue;
@@ -264,8 +242,6 @@ facultySchool.addEventListener('change', () => {
   applyFacultyFilters();
 });
 facultyDepartment.addEventListener('change', applyFacultyFilters);
-renderFacultyPlot(summarizeFaculty(snapshot), facultyPlotButton);
-get('faculty-distribution').hidden = false;
 renderFaculty();
 if (instituteTarget && facultySchool.value === ucasSchool) {
   const section = get(facultyUnitId(0, instituteTarget));
