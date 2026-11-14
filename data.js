@@ -42911,6 +42911,156 @@ const survey = {
         ]
       ],
       "evidence": "京东 Echo 团队的同篇项目页把张菘淳列为港科大、京东探索研究院双署的第一共同作者；学生本人履历独立记录 2026 年 1 月起在京东 TGT 进行多模态世界模型研究，企业导师 Zeyue Xue、Haoyang Huang、Nan Duan 均在本篇署京东。港科大 MMLab 名录在明确负责人饶安逸名下列张菘淳为博士生，饶安逸为同篇通讯作者。段楠同期是京东研究院在职副院长。与 Echo-Infinity 共用产品系列但作者组、独立 arXiv 与技术报告均不同，按独立论文。"
+    },
+    {
+      "id": "alibaba-tokenselect-hkustgz-xiong",
+      "company": "阿里巴巴",
+      "team": "阿里云 · Apsara Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "熊辉 · Hui Xiong",
+        "港科大（广州）人工智能学域讲席教授，本篇署香港科技大学（广州）。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"
+      ],
+      "employee": [
+        "Zheng Wang",
+        "阿里云生物智能团队 LucaGroup 的公开成员；首版企业邮箱、正式版阿里云署名。",
+        "https://github.com/LucaOne"
+      ],
+      "student": [
+        "Liyi Chen",
+        "2020 年 9 月至 2025 年 6 月在中科大攻读博士；2023 年 10 月至 2025 年 7 月在阿里云 Apsara Lab 实习，本篇具名实研。",
+        "https://liyichen-cly.github.io/"
+      ],
+      "title": "TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection",
+      "short": "TokenSelect",
+      "date": "2024-11-05",
+      "venue": "EMNLP 2025",
+      "area": "大语言模型",
+      "paper": "https://aclanthology.org/2025.emnlp-main.1079.pdf",
+      "paperId": "arxiv:2411.02886",
+      "evidence": "本篇原文对 Liyi Chen 具名标注在阿里云实习期间完成工作；本人履历列 2020–2025 年中科大博士、导师熊辉、2023 年 10 月–2025 年 7 月阿里云 Apsara Lab 实习。熊辉同篇署港科大（广州），企业科研人员同篇署阿里云。 2024-11-05 首稿时陈仍署中科大，2025 年最终发表时其改署毕业后单位小红书；两版均保留阿里云实习脚注，归为阿里巴巴。需区分公司同篇其他角色。",
+      "extra": [
+        [
+          "首稿、作者及逐篇实习脚注",
+          "https://arxiv.org/pdf/2411.02886v1"
+        ],
+        [
+          "实验室成员与校内指导名单",
+          "https://ailab.hkust-gz.edu.cn/group.html"
+        ],
+        [
+          "高校教师官方页",
+          "https://www.hkust-gz.edu.cn/people/hui-xiong/"
+        ]
+      ],
+      "advising": [
+        "校内博士培养期间具名指导",
+        "Liyi Chen 本人博士履历的 Supervisor 一栏明确列 Hui Xiong；熊辉课题组官方校友名录同时列其为中科大硕博培养项目。",
+        "https://liyichen-cly.github.io/"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "alibaba-protein-instruction-hkustgz-xiong",
+      "company": "阿里巴巴",
+      "team": "阿里云 · Apsara Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "熊辉 · Hui Xiong",
+        "港科大（广州）人工智能学域讲席教授，本篇署香港科技大学（广州）。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"
+      ],
+      "employee": [
+        "叶杰平 · Jieping Ye",
+        "2024 年 KDD DeepSpatial 官方会议资料列阿里巴巴副总裁；同篇署阿里云。",
+        "https://deepspatial2024.github.io/"
+      ],
+      "student": [
+        "Liyi Chen",
+        "2020 年 9 月至 2025 年 6 月在中科大攻读博士；2023 年 10 月至 2025 年 7 月在阿里云 Apsara Lab 实习，本篇具名实研。",
+        "https://liyichen-cly.github.io/"
+      ],
+      "title": "Structure-Enhanced Protein Instruction Tuning: Towards General-Purpose Protein Understanding with LLMs",
+      "short": "Protein Instruction Tuning",
+      "date": "2024-10-04",
+      "venue": "KDD 2025",
+      "area": "AI for Science",
+      "paper": "https://doi.org/10.1145/3711896.3737138",
+      "paperId": "arxiv:2410.03553",
+      "evidence": "本篇原文对 Liyi Chen 具名标注在阿里云实习期间完成工作；本人履历列 2020–2025 年中科大博士、导师熊辉、2023 年 10 月–2025 年 7 月阿里云 Apsara Lab 实习。熊辉同篇署港科大（广州），企业科研人员同篇署阿里云。 2024-10-04 为首版日期，作者书目与 2025 ACM 正式发表为同一工作。",
+      "extra": [
+        [
+          "首稿、作者及逐篇实习脚注",
+          "https://arxiv.org/html/2410.03553v3"
+        ],
+        [
+          "实验室成员与校内指导名单",
+          "https://ailab.hkust-gz.edu.cn/group.html"
+        ],
+        [
+          "高校教师官方页",
+          "https://www.hkust-gz.edu.cn/people/hui-xiong/"
+        ]
+      ],
+      "advising": [
+        "校内博士培养期间具名指导",
+        "Liyi Chen 本人博士履历的 Supervisor 一栏明确列 Hui Xiong；熊辉课题组官方校友名录同时列其为中科大硕博培养项目。",
+        "https://liyichen-cly.github.io/"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "alibaba-plan-on-graph-hkustgz-xiong",
+      "company": "阿里巴巴",
+      "team": "阿里云 · Apsara Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "熊辉 · Hui Xiong",
+        "港科大（广州）人工智能学域讲席教授，本篇共同通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIONG-Hui/xionghui#new_tab"
+      ],
+      "employee": [
+        "叶杰平 · Jieping Ye",
+        "2024 年 DeepSpatial 会方列阿里巴巴副总裁；论文阿里云署名共同通讯。",
+        "https://deepspatial2024.github.io/"
+      ],
+      "student": [
+        "Liyi Chen",
+        "在中科大攻读博士期间在阿里云 Apsara Lab 实习；正式论文首页脚注说明本篇参与。",
+        "https://liyichen-cly.github.io/"
+      ],
+      "title": "Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs",
+      "short": "Plan-on-Graph",
+      "date": "2024-10-31",
+      "venue": "NeurIPS 2024",
+      "area": "大语言模型与知识图谱",
+      "paper": "https://papers.neurips.cc/paper_files/paper/2024/file/4254e856d01a5e7b7ea050477c3ef9b9-Paper-Conference.pdf",
+      "paperId": "arxiv:2410.23875",
+      "evidence": "NeurIPS 2024 正式 PDF 首页具名 Liyi Chen 在阿里云实习完成本项；本人履历列 2020–2025 年中科大博士和熊辉导师，实习期从 2023 年 10 月起。叶杰平同篇署阿里云，2024 年官方 KDD workshop 列阿里巴巴副总裁。",
+      "advising": [
+        "校内博士培养期间具名指导",
+        "Liyi Chen 本人履历具名列博士导师熊辉，并与其官网最终校友分组一致。",
+        "https://liyichen-cly.github.io/"
+      ],
+      "extra": [
+        [
+          "2024 年 10 月 31 日首稿",
+          "https://arxiv.org/abs/2410.23875"
+        ],
+        [
+          "熊辉课题组官方名单",
+          "https://ailab.hkust-gz.edu.cn/group.html"
+        ],
+        [
+          "作者公开项目",
+          "https://github.com/liyichen-cly/PoG"
+        ]
+      ],
+      "year": 2024
     }
   ]
 };

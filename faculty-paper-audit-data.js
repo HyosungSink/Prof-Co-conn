@@ -8467,7 +8467,9 @@ const facultyPaperAudits = {
       "https://huzhengyu477.github.io/",
       "https://www2026.thewebconf.org/accepted/industry.html",
       "https://www.pengfeiwang.net/publications",
-      "https://arxiv.org/pdf/2407.01085v1"
+      "https://arxiv.org/pdf/2407.01085v1",
+      "https://github.com/LucaOne",
+      "https://deepspatial2024.github.io/"
     ],
     "papers": [
       {
@@ -8495,7 +8497,7 @@ const facultyPaperAudits = {
         "title": "How Business Agglomeration Affects Individual Points-of-Interest: A Causal Effect Estimation Perspective",
         "url": "https://haoran.xin/assets/papers/CARE.pdf",
         "outcome": "lead",
-        "note": "ACM 脚注和学生履历已证明在百度实习完成该工作；须核对 2021–2023 实际研究期间熊辉的具名学术指导及当时任职单位，后来的港科广博士指导不能倒推。"
+        "note": "ACM 版权 PDF 首页具名 Haoran Xin 为百度实习生、在同篇完成本研究，由百度作者 Xinjiang Lu 指导；本人履历显示该段实习于 2023 年 4 月结束、当时在中科大攻读硕士。熊辉课题组将其列在中科大硕士毕业生中，但尚无独立证据把熊辉具名为这段实习同期导师。后续港科广博士导师不可反推。"
       },
       {
         "year": 2024,
@@ -8601,6 +8603,55 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "confirmed",
         "note": "KDD 正式论文首面给第一作者 Congxi Xiao 加具名实习脚注，明确本篇在百度研究院完成、指导者为同署百度的通讯作者周景博。熊辉署港科大（广州）及港科大并为共同通讯；其官方课题组将该生列在中科大 2020 年入硕的硕博项目博士组。周景博本人履历确认同期在百度研究院任正式研究员。"
+      },
+      {
+        "title": "TokenSelect: Efficient Long-Context Inference and Length Extrapolation for LLMs via Dynamic Token-Level KV Cache Selection",
+        "year": 2025,
+        "url": "https://aclanthology.org/2025.emnlp-main.1079.pdf",
+        "outcome": "confirmed",
+        "note": "本篇原文对 Liyi Chen 具名标注在阿里云实习期间完成工作；本人履历列 2020–2025 年中科大博士、导师熊辉、2023 年 10 月–2025 年 7 月阿里云 Apsara Lab 实习。熊辉同篇署港科大（广州），企业科研人员同篇署阿里云。 2024-11-05 首稿时陈仍署中科大，2025 年最终发表时其改署毕业后单位小红书；两版均保留阿里云实习脚注，归为阿里巴巴。需区分公司同篇其他角色。"
+      },
+      {
+        "title": "Structure-Enhanced Protein Instruction Tuning: Towards General-Purpose Protein Understanding with LLMs",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3711896.3737138",
+        "outcome": "confirmed",
+        "note": "本篇原文对 Liyi Chen 具名标注在阿里云实习期间完成工作；本人履历列 2020–2025 年中科大博士、导师熊辉、2023 年 10 月–2025 年 7 月阿里云 Apsara Lab 实习。熊辉同篇署港科大（广州），企业科研人员同篇署阿里云。 2024-10-04 为首版日期，作者书目与 2025 ACM 正式发表为同一工作。"
+      },
+      {
+        "title": "Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs",
+        "year": 2024,
+        "url": "https://papers.neurips.cc/paper_files/paper/2024/file/4254e856d01a5e7b7ea050477c3ef9b9-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 2024 正式 PDF 首页具名 Liyi Chen 在阿里云实习完成本项；本人履历列 2020–2025 年中科大博士和熊辉导师，实习期从 2023 年 10 月起。叶杰平同篇署阿里云，2024 年官方 KDD workshop 列阿里巴巴副总裁。"
+      },
+      {
+        "year": 2024,
+        "title": "Tackling Uncertain Correspondences for Multi-Modal Entity Alignment",
+        "url": "https://papers.neurips.cc/paper_files/paper/2024/file/d7ed243b13831bdd468f35039936bcef-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2024 正式原文列中科大、两所港科大与 Rutgers；未见目标企业。与同一学生同年 PoG 的阿里云实习是不同研究。"
+      },
+      {
+        "year": 2024,
+        "title": "Collaboration-Aware Hybrid Learning for Knowledge Development Prediction",
+        "url": "https://doi.org/10.1145/3589334.3645326",
+        "outcome": "lead",
+        "note": "WWW 2024 正式 DOI 作者登记：中科大 Liyi Chen、导师熊辉、百度人才智能中心 Xin Song；另有 BOSS 直聘的秦川、祝恒书（超出范围）。本人百度实习分别结束于 2022 年 3 月、11 月，未见在百度做本篇的项目证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Hierarchical Time-Aware Mixture of Experts for Multi-Modal Sequential Recommendation",
+        "url": "https://doi.org/10.1145/3696410.3714676",
+        "outcome": "no-evidence",
+        "note": "WWW 2025 与 2501.14269 同篇，正式署中科大和港科广等高校，未见目标企业在本项目参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Aligning Large Language Models with Searcher Preferences",
+        "url": "https://arxiv.org/abs/2603.10473",
+        "outcome": "lead",
+        "note": "熊辉是同篇通讯，Wei Wu 为中科大同导师在读生；Liyi Chen 及多个共同作者是小红书。原文未具名学生在小红书做本研究，不能仅按小红书搜索团队课题判断。"
       }
     ]
   },
@@ -43879,7 +43930,9 @@ const facultyPaperAudits = {
       "https://wwxfromtju.github.io/",
       "https://hub.baai.ac.cn/view/50819",
       "https://wwxfromtju.github.io/roll_team.html",
-      "https://github.com/alibaba/ROLL"
+      "https://github.com/alibaba/ROLL",
+      "https://jmlr.org/tmlr/papers/",
+      "https://github.com/zarifikram/lp-dreamer"
     ],
     "papers": [
       {
@@ -44112,6 +44165,20 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2406.01901",
         "note": "AAAI 正式版有快手 Qingpeng Cai；首稿早于刘嘉顺正式进入港科大，Chunhui Li 的名录入学亦晚于首稿。未见在读学生同时参加快手同篇研究的独立资料。",
         "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "Learning Intractable Multimodal Policies with Reparameterization and Diversity Regularization",
+        "url": "https://openreview.net/pdf/87ec133d6808500a7411752b37d22c3f237b33e4.pdf",
+        "note": "NeurIPS 正式首页完整作者栏：三人均为港科大。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "World Model Anomaly Detection with a Latent Linear Prior",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/world-model-anomaly-detection-with-a-latent-linear-prior/",
+        "note": "核对 TMLR 书目，校方和作者项目公布的机构包括港科大、新加坡国立大学、Mila、清华和南加州大学，未见范围企业。",
+        "outcome": "no-evidence"
       }
     ],
     "note": "核对港科大研究门户、个人书目、课题组博士生名录和正式论文首页。其余题录仍待逐篇梳理。"
