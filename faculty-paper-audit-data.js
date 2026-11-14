@@ -47351,5 +47351,77 @@ const facultyPaperAudits = {
         "note": "首稿四位作者登记凯泽斯劳滕-兰道大学及西北工业大学，未见目标企业。"
       }
     ]
+  },
+  "9I2hTmQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://homepage.hit.edu.cn/gaocuiyun?lang=zh",
+      "https://cuiyungao.github.io/#advising",
+      "https://kinesiatricssxilm14.github.io/",
+      "https://chao-peng.github.io/cv-chaopeng-zh.pdf",
+      "https://se-research.bytedance.com/",
+      "https://github.com/kinesiatricssxilm14/ContextCRBench"
+    ],
+    "papers": [
+      {
+        "title": "AEGIS: An Agent-based Framework for Bug Reproduction from Issue Descriptions",
+        "url": "https://fse2025-industry.hotcrp.com/u/0/doc/fse2025-industry-final223.pdf?cap=hcav223WDQCXGXFfgFamBEeNpKNiiNC",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "首稿于 2024-11-27 首发。FSE 工业轨正式版首页将字节实习脚注标在胡瑞达和另一名学生后，具名确认胡参与该研究。彭超同篇任字节员工，高翠芸以哈工大（深圳）署名并为通讯、实际硕士导师。预印本与正式版只计一项。"
+      },
+      {
+        "title": "Understanding Large Language Model Performance in Software Engineering: A Large-scale Question Answering Benchmark",
+        "url": "https://chao-peng.github.io/publication/sigir25short/sigir25short.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "正式 PDF 首页以星号连接胡瑞达与字节实习，原文列彭超为字节作者，高翠芸为校方通讯作者。"
+      },
+      {
+        "title": "An Agent-based Evaluation Framework for Complex Code Generation",
+        "url": "https://arxiv.org/pdf/2504.13472v2",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "与 IEEE 会议题名一致的作者公开版本首页在胡瑞达姓名后标注脚注，说明工作在字节实习期间完成；彭超同署字节，高翠芸同署哈工大（深圳）并通讯。"
+      },
+      {
+        "title": "A Real-World Benchmark for Evaluating Fine-Grained Issue Solving Capabilities of Large Language Models",
+        "url": "https://arxiv.org/pdf/2411.18019v1",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "首稿首页用星号具名确认胡瑞达在字节实习期间参与本研究；高翠芸与彭超分别署哈工大（深圳）、字节。该工作为包含问答、错误定位、代码编辑三类任务的小样本基准；同作者 SIGIR 的 CodeRepoQA 使用独立的多轮问答数据构建和评价设计，两作在学生公开履历分列。"
+      },
+      {
+        "title": "Repo2Run: Automated Building Executable Environment for Code Repository at Scale",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2f2b1d6bbd50865eca40e2774a057eef-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "existing",
+        "note": "已收录；NeurIPS 正式 PDF 同篇脚注注明胡瑞达在字节实习时研发，导师高翠芸具名。"
+      },
+      {
+        "title": "RepoMasterEval: Evaluating Code Completion via Real-World Repositories",
+        "url": "https://arxiv.org/abs/2408.03519",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "同篇有实习生当时以字节工位署名及导师平台，首稿 2024 年 8 月处于本人公开履历显示 6 月本科结束和 9 月硕士开始之间；正式版 2025 年前的在读实研贡献仍缺具名证据。"
+      },
+      {
+        "title": "Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice",
+        "url": "https://doi.org/10.1145/3803437.3805235",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "第一作者胡瑞达在硕士并在字节实习期间提交首稿，项目资源由其维护，论文报告了字节实际应用；暂无脚注或公开贡献表将其本人在企业的工作具体指向该次部署或训练。另因会议目录的员工单位已变化，应按首稿和实际研究时期核。"
+      },
+      {
+        "title": "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling",
+        "url": "https://arxiv.org/abs/2507.23370",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "企业报告列胡瑞达为其他直接贡献者、彭超为项目负责人，但高翠芸在 PDF 贡献表仅列特别感谢。作者提交元数据含个人全名、PDF 集体署名，未据此计入。具有相近算法的 ICSE 2026 EnAgent 正式论文不列胡瑞达及高翠芸，也不作为另一个同组确认。"
+      }
+    ],
+    "note": "已逐篇核查哈工大（深圳）高翠芸与其硕士生胡瑞达的部分合著。学籍中断时段从严，以公开材料能落实到本篇工作为准；导师其他论文尚待继续。"
   }
 };

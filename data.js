@@ -43654,6 +43654,202 @@ const survey = {
         "https://www.sigs.tsinghua.edu.cn/2021/1217/c7687a31037/page.htm"
       ],
       "year": 2024
+    },
+    {
+      "company": "字节跳动",
+      "team": "TRAE · 软件工程实验室",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈尔滨工业大学（深圳）教师，同篇署哈工大（深圳）并列为通讯作者。",
+        "https://homepage.hit.edu.cn/gaocuiyun?lang=zh"
+      ],
+      "employee": [
+        "彭超 · Chao Peng",
+        "本人履历列自 2021 年 7 月加入字节跳动，在本研究期间任软件工程实验室研究员，原文署字节。",
+        "https://chao-peng.github.io/cv-chaopeng-zh.pdf"
+      ],
+      "student": [
+        "胡瑞达 · Ruida Hu",
+        "2024 年 9 月至 2026 年 8 月为哈尔滨工业大学（深圳）硕士生，2024 年 6 月至 2026 年 5 月在字节 TRAE 担任科研实习生，合作人包含同篇作者彭超。",
+        "https://kinesiatricssxilm14.github.io/"
+      ],
+      "area": "语言模型与智能体",
+      "advising": [
+        "硕士导师",
+        "高翠芸的课题组指导名录具名将 Ruida Hu 列为其在读硕士生。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "id": "bytedance-trae-aegis-hit-cuiyun-gao",
+      "title": "AEGIS: An Agent-based Framework for Bug Reproduction from Issue Descriptions",
+      "short": "AEGIS",
+      "date": "2024-11-27",
+      "venue": "FSE Industry",
+      "paper": "https://fse2025-industry.hotcrp.com/u/0/doc/fse2025-industry-final223.pdf?cap=hcav223WDQCXGXFfgFamBEeNpKNiiNC",
+      "evidence": "首稿于 2024-11-27 首发。FSE 工业轨正式版首页将字节实习脚注标在胡瑞达和另一名学生后，具名确认胡参与该研究。彭超同篇任字节员工，高翠芸以哈工大（深圳）署名并为通讯、实际硕士导师。预印本与正式版只计一项。",
+      "paperId": "arxiv:2411.18015",
+      "extra": [
+        [
+          "正式论文 DOI",
+          "https://doi.org/10.1145/3696630.3728557"
+        ],
+        [
+          "字节软件工程实验室成果目录",
+          "https://se-research.bytedance.com/"
+        ],
+        [
+          "2024 年首发版本",
+          "https://arxiv.org/abs/2411.18015"
+        ]
+      ],
+      "year": 2024
+    },
+    {
+      "company": "字节跳动",
+      "team": "TRAE · 软件工程实验室",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈尔滨工业大学（深圳）教师，同篇署哈工大（深圳）并列为通讯作者。",
+        "https://homepage.hit.edu.cn/gaocuiyun?lang=zh"
+      ],
+      "employee": [
+        "彭超 · Chao Peng",
+        "本人履历列自 2021 年 7 月加入字节跳动，在本研究期间任软件工程实验室研究员，原文署字节。",
+        "https://chao-peng.github.io/cv-chaopeng-zh.pdf"
+      ],
+      "student": [
+        "胡瑞达 · Ruida Hu",
+        "2024 年 9 月至 2026 年 8 月为哈尔滨工业大学（深圳）硕士生，2024 年 6 月至 2026 年 5 月在字节 TRAE 担任科研实习生，合作人包含同篇作者彭超。",
+        "https://kinesiatricssxilm14.github.io/"
+      ],
+      "area": "语言模型与智能体",
+      "advising": [
+        "硕士导师",
+        "高翠芸的课题组指导名录具名将 Ruida Hu 列为其在读硕士生。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "id": "bytedance-trae-coderepoqa-hit-cuiyun-gao",
+      "title": "Understanding Large Language Model Performance in Software Engineering: A Large-scale Question Answering Benchmark",
+      "short": "CodeRepoQA",
+      "date": "2025-07",
+      "venue": "SIGIR",
+      "paper": "https://chao-peng.github.io/publication/sigir25short/sigir25short.pdf",
+      "evidence": "正式 PDF 首页以星号连接胡瑞达与字节实习，原文列彭超为字节作者，高翠芸为校方通讯作者。",
+      "paperId": "doi:10.1145/3726302.3730262",
+      "extra": [
+        [
+          "正式论文 DOI",
+          "https://doi.org/10.1145/3726302.3730262"
+        ],
+        [
+          "字节软件工程实验室成果目录",
+          "https://se-research.bytedance.com/"
+        ],
+        [
+          "项目作者公布的独立问答数据集",
+          "https://github.com/kinesiatricssxilm14/CodeRepoQA"
+        ]
+      ],
+      "year": 2025
+    },
+    {
+      "company": "字节跳动",
+      "team": "TRAE · 软件工程实验室",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈尔滨工业大学（深圳）教师，同篇署哈工大（深圳）并列为通讯作者。",
+        "https://homepage.hit.edu.cn/gaocuiyun?lang=zh"
+      ],
+      "employee": [
+        "彭超 · Chao Peng",
+        "本人履历列自 2021 年 7 月加入字节跳动，在本研究期间任软件工程实验室研究员，原文署字节。",
+        "https://chao-peng.github.io/cv-chaopeng-zh.pdf"
+      ],
+      "student": [
+        "胡瑞达 · Ruida Hu",
+        "2024 年 9 月至 2026 年 8 月为哈尔滨工业大学（深圳）硕士生，2024 年 6 月至 2026 年 5 月在字节 TRAE 担任科研实习生，合作人包含同篇作者彭超。",
+        "https://kinesiatricssxilm14.github.io/"
+      ],
+      "area": "语言模型与智能体",
+      "advising": [
+        "硕士导师",
+        "高翠芸的课题组指导名录具名将 Ruida Hu 列为其在读硕士生。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "id": "bytedance-trae-codevisionary-hit-cuiyun-gao",
+      "title": "An Agent-based Evaluation Framework for Complex Code Generation",
+      "short": "CodeVisionary",
+      "date": "2025-04-18",
+      "venue": "ASE",
+      "paper": "https://arxiv.org/pdf/2504.13472v2",
+      "evidence": "与 IEEE 会议题名一致的作者公开版本首页在胡瑞达姓名后标注脚注，说明工作在字节实习期间完成；彭超同署字节，高翠芸同署哈工大（深圳）并通讯。",
+      "paperId": "arxiv:2504.13472",
+      "extra": [
+        [
+          "正式论文 DOI",
+          "https://doi.org/10.1109/ASE63991.2025.00200"
+        ],
+        [
+          "字节软件工程实验室成果目录",
+          "https://se-research.bytedance.com/"
+        ],
+        [
+          "预印本首发日期",
+          "https://arxiv.org/abs/2504.13472"
+        ]
+      ],
+      "year": 2025
+    },
+    {
+      "company": "字节跳动",
+      "team": "TRAE · 软件工程实验室",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈尔滨工业大学（深圳）教师，同篇署哈工大（深圳）并列为通讯作者。",
+        "https://homepage.hit.edu.cn/gaocuiyun?lang=zh"
+      ],
+      "employee": [
+        "彭超 · Chao Peng",
+        "本人履历列自 2021 年 7 月加入字节跳动，在本研究期间任软件工程实验室研究员，原文署字节。",
+        "https://chao-peng.github.io/cv-chaopeng-zh.pdf"
+      ],
+      "student": [
+        "胡瑞达 · Ruida Hu",
+        "2024 年 9 月至 2026 年 8 月为哈尔滨工业大学（深圳）硕士生，2024 年 6 月至 2026 年 5 月在字节 TRAE 担任科研实习生，合作人包含同篇作者彭超。",
+        "https://kinesiatricssxilm14.github.io/"
+      ],
+      "area": "语言模型与智能体",
+      "advising": [
+        "硕士导师",
+        "高翠芸的课题组指导名录具名将 Ruida Hu 列为其在读硕士生。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "id": "bytedance-trae-faun-eval-hit-cuiyun-gao",
+      "title": "A Real-World Benchmark for Evaluating Fine-Grained Issue Solving Capabilities of Large Language Models",
+      "short": "FAUN-Eval",
+      "date": "2024-11-27",
+      "venue": "arXiv 预印本",
+      "paper": "https://arxiv.org/pdf/2411.18019v1",
+      "evidence": "首稿首页用星号具名确认胡瑞达在字节实习期间参与本研究；高翠芸与彭超分别署哈工大（深圳）、字节。该工作为包含问答、错误定位、代码编辑三类任务的小样本基准；同作者 SIGIR 的 CodeRepoQA 使用独立的多轮问答数据构建和评价设计，两作在学生公开履历分列。",
+      "paperId": "arxiv:2411.18019",
+      "extra": [
+        [
+          "字节软件工程实验室成果目录",
+          "https://se-research.bytedance.com/"
+        ],
+        [
+          "第一作者公开书目分列本项与 CodeRepoQA",
+          "https://kinesiatricssxilm14.github.io/"
+        ]
+      ],
+      "year": 2024
     }
   ]
 };
