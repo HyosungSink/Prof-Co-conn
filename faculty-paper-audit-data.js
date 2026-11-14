@@ -93,7 +93,8 @@ const facultyPaperAudits = {
       "https://teai.fudan.edu.cn/faculty-detail.html?id=110",
       "https://fvl.fudan.edu.cn/publications.html",
       "https://gulucaptain.github.io/",
-      "https://zxwu.azurewebsites.net/"
+      "https://zxwu.azurewebsites.net/",
+      "https://sxjyjay.github.io/"
     ],
     "papers": [
       {
@@ -155,6 +156,18 @@ const facultyPaperAudits = {
         "url": "https://dblp.org/db/journals/tcsv/tcsv35.html",
         "outcome": "no-evidence",
         "note": "学生在该项华为研究作者表，两位复旦导师均不在刊物署名。"
+      },
+      {
+        "title": "Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/946ecab300b0695fe24b53a92e632935-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 论文首页的第一作者脚注明确说明焦洋在美团实习时完成 Lumen。第一作者当时为复旦在读博士，并同时署名复旦与美团；本人简历将该技术列于美团 2023–2024 研究实习期间。"
+      },
+      {
+        "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
+        "url": "https://arxiv.org/pdf/2504.04423",
+        "outcome": "confirmed",
+        "note": "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。"
       }
     ],
     "note": "目前为赵浩宇同导师的论文子集，未穷尽两位导师全期索引。"
@@ -8512,7 +8525,12 @@ const facultyPaperAudits = {
       "https://faculty.hust.edu.cn/caozhiguo1/zh_CN/index.htm",
       "https://leoshen917.github.io/",
       "https://wtjiang98.github.io/",
-      "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.pdf",
+      "http://faculty.hust.edu.cn/caozhiguo1/zh_CN/index.htm",
+      "https://lijia7.github.io/",
+      "https://www.sshao.com/ShuaiShao_CV.pdf",
+      "https://arxiv.org/pdf/2506.17201v1",
+      "https://junshutang.github.io/"
     ],
     "papers": [
       {
@@ -8520,9 +8538,15 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_Identity-Preserving_Image-to-Video_Generation_via_Reward-Guided_Optimization_CVPR_2026_paper.pdf",
         "outcome": "confirmed",
         "note": "CVPR 正式稿致谢明确说明本项目由阿里巴巴研究实习计划支持；2025 年首版在学生就读期间已公开，申立奥是唯一同时署名华科和阿里的作者，并与在任企业研究员姜文韬并列第一作者。双方个人项目书目均列 IPRO。"
+      },
+      {
+        "title": "Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition",
+        "url": "https://arxiv.org/pdf/2506.17201v1",
+        "outcome": "confirmed",
+        "note": "腾讯混元共同一作唐俊姝在本人公开书目将黎家骐标记为本篇研究实习生，腾讯官方仓库确认项目及作者。黎家骐与华中科技大学导师曹治国、当时的混元首席研究员邵帅同篇署名。"
       }
     ],
-    "note": "已逐篇检查部分书目和学生科研实习，未覆盖全部论文。"
+    "note": "逐篇检查了部分出版书目与学生研究实习来源，尚未覆盖全部论文。"
   },
   "AjJ2rf8AAAAJ": {
     "from": "2023-01-01",
@@ -8894,5 +8918,29 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇查验 DBLP 与 Crossref 同人 ORCID 合集；目前已有 16 篇核查结果，仍有书目待完成，保留为部分梳理。"
+  },
+  "DfWdqzQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jingjing1.github.io/#teach",
+      "https://sxjyjay.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/946ecab300b0695fe24b53a92e632935-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 论文首页的第一作者脚注明确说明焦洋在美团实习时完成 Lumen。第一作者当时为复旦在读博士，并同时署名复旦与美团；本人简历将该技术列于美团 2023–2024 研究实习期间。"
+      },
+      {
+        "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
+        "url": "https://arxiv.org/pdf/2504.04423",
+        "outcome": "confirmed",
+        "note": "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
   }
 };

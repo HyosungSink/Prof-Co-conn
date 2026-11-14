@@ -29421,6 +29421,271 @@ const survey = {
           "https://forestlinma.com/Publications"
         ]
       ]
+    },
+    {
+      "id": "lumen-meituan-fudan-f3_fp8aaaaaj",
+      "paperId": "arxiv:2403.07304",
+      "company": "美团",
+      "team": "多模态研究",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://teai.fudan.edu.cn/faculty-detail.html?id=110"
+      ],
+      "employee": [
+        "Lin Ma",
+        "美团正式研究员，个人主页列出已结束的腾讯 AI Lab 研究员任期和其后美团任职；本篇署名美团。",
+        "https://forestlinma.com/"
+      ],
+      "student": [
+        "焦洋 · Yang Jiao",
+        "NeurIPS 论文首页的第一作者脚注明确说明焦洋在美团实习时完成 Lumen。第一作者当时为复旦在读博士，并同时署名复旦与美团；本人简历将该技术列于美团 2023–2024 研究实习期间。",
+        "https://sxjyjay.github.io/"
+      ],
+      "title": "Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models",
+      "short": "Lumen",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "多模态理解与生成",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/946ecab300b0695fe24b53a92e632935-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/946ecab300b0695fe24b53a92e632935-Abstract.html"
+        ],
+        [
+          "第一作者具名实习履历",
+          "https://sxjyjay.github.io/data/YangJiao-CV-EN.pdf"
+        ],
+        [
+          "复旦导师的博士生记录",
+          "https://jingjing1.github.io/"
+        ],
+        [
+          "预印本题录",
+          "https://arxiv.org/abs/2403.07304"
+        ]
+      ],
+      "evidence": "NeurIPS 论文首页的第一作者脚注明确说明焦洋在美团实习时完成 Lumen。第一作者当时为复旦在读博士，并同时署名复旦与美团；本人简历将该技术列于美团 2023–2024 研究实习期间。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "焦洋第一人称学术主页具名说明复旦博士由姜育刚、陈静静共同指导；陈静静本人页面也明确列焦洋为 2021 年 9 月起的博士生，两位导师均为本篇作者。",
+        "https://sxjyjay.github.io/"
+      ]
+    },
+    {
+      "id": "unitoken-meituan-fudan-f3_fp8aaaaaj",
+      "paperId": "arxiv:2504.04423",
+      "company": "美团",
+      "team": "多模态研究",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "姜育刚 · Yu-Gang Jiang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://teai.fudan.edu.cn/faculty-detail.html?id=110"
+      ],
+      "employee": [
+        "Lin Ma",
+        "美团正式研究员，个人主页列出已结束的腾讯 AI Lab 研究员任期和其后美团任职；本篇署名美团。",
+        "https://forestlinma.com/"
+      ],
+      "student": [
+        "焦洋 · Yang Jiao",
+        "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。",
+        "https://sxjyjay.github.io/"
+      ],
+      "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
+      "short": "UniToken",
+      "date": "2025-06",
+      "venue": "CVPR 2025 工作坊",
+      "area": "多模态理解与生成",
+      "paper": "https://arxiv.org/pdf/2504.04423",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2504.04423"
+        ],
+        [
+          "2024 年中文简历的美团项目分栏",
+          "https://sxjyjay.github.io/data/YangJiao-CV-CN.pdf"
+        ],
+        [
+          "2024 年英文简历的美团项目分栏",
+          "https://sxjyjay.github.io/data/YangJiao-CV-EN.pdf"
+        ],
+        [
+          "第一作者的项目主页",
+          "https://github.com/SxJyJay/UniToken"
+        ],
+        [
+          "复旦导师的博士生记录",
+          "https://jingjing1.github.io/"
+        ]
+      ],
+      "evidence": "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "焦洋第一人称学术主页具名说明复旦博士由姜育刚、陈静静共同指导；陈静静本人页面也明确列焦洋为 2021 年 9 月起的博士生，两位导师均为本篇作者。",
+        "https://sxjyjay.github.io/"
+      ]
+    },
+    {
+      "id": "lumen-meituan-fudan-dfwdqzqaaaaj",
+      "paperId": "arxiv:2403.07304",
+      "company": "美团",
+      "team": "多模态研究",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "陈静静 · Jingjing Chen",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://jingjing1.github.io/#teach"
+      ],
+      "employee": [
+        "Lin Ma",
+        "美团正式研究员，个人主页列出已结束的腾讯 AI Lab 研究员任期和其后美团任职；本篇署名美团。",
+        "https://forestlinma.com/"
+      ],
+      "student": [
+        "焦洋 · Yang Jiao",
+        "NeurIPS 论文首页的第一作者脚注明确说明焦洋在美团实习时完成 Lumen。第一作者当时为复旦在读博士，并同时署名复旦与美团；本人简历将该技术列于美团 2023–2024 研究实习期间。",
+        "https://sxjyjay.github.io/"
+      ],
+      "title": "Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models",
+      "short": "Lumen",
+      "date": "2024-12",
+      "venue": "NeurIPS 2024",
+      "area": "多模态理解与生成",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/946ecab300b0695fe24b53a92e632935-Paper-Conference.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/946ecab300b0695fe24b53a92e632935-Abstract.html"
+        ],
+        [
+          "第一作者具名实习履历",
+          "https://sxjyjay.github.io/data/YangJiao-CV-EN.pdf"
+        ],
+        [
+          "复旦导师的博士生记录",
+          "https://jingjing1.github.io/"
+        ],
+        [
+          "预印本题录",
+          "https://arxiv.org/abs/2403.07304"
+        ]
+      ],
+      "evidence": "NeurIPS 论文首页的第一作者脚注明确说明焦洋在美团实习时完成 Lumen。第一作者当时为复旦在读博士，并同时署名复旦与美团；本人简历将该技术列于美团 2023–2024 研究实习期间。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "焦洋第一人称学术主页具名说明复旦博士由姜育刚、陈静静共同指导；陈静静本人页面也明确列焦洋为 2021 年 9 月起的博士生，两位导师均为本篇作者。",
+        "https://sxjyjay.github.io/"
+      ]
+    },
+    {
+      "id": "unitoken-meituan-fudan-dfwdqzqaaaaj",
+      "paperId": "arxiv:2504.04423",
+      "company": "美团",
+      "team": "多模态研究",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "陈静静 · Jingjing Chen",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://jingjing1.github.io/#teach"
+      ],
+      "employee": [
+        "Lin Ma",
+        "美团正式研究员，个人主页列出已结束的腾讯 AI Lab 研究员任期和其后美团任职；本篇署名美团。",
+        "https://forestlinma.com/"
+      ],
+      "student": [
+        "焦洋 · Yang Jiao",
+        "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。",
+        "https://sxjyjay.github.io/"
+      ],
+      "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
+      "short": "UniToken",
+      "date": "2025-06",
+      "venue": "CVPR 2025 工作坊",
+      "area": "多模态理解与生成",
+      "paper": "https://arxiv.org/pdf/2504.04423",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2504.04423"
+        ],
+        [
+          "2024 年中文简历的美团项目分栏",
+          "https://sxjyjay.github.io/data/YangJiao-CV-CN.pdf"
+        ],
+        [
+          "2024 年英文简历的美团项目分栏",
+          "https://sxjyjay.github.io/data/YangJiao-CV-EN.pdf"
+        ],
+        [
+          "第一作者的项目主页",
+          "https://github.com/SxJyJay/UniToken"
+        ],
+        [
+          "复旦导师的博士生记录",
+          "https://jingjing1.github.io/"
+        ]
+      ],
+      "evidence": "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "焦洋第一人称学术主页具名说明复旦博士由姜育刚、陈静静共同指导；陈静静本人页面也明确列焦洋为 2021 年 9 月起的博士生，两位导师均为本篇作者。",
+        "https://sxjyjay.github.io/"
+      ]
+    },
+    {
+      "id": "tencent-hunyuangamecraft-hust-cao",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "曹治国 · Zhiguo Cao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "http://faculty.hust.edu.cn/caozhiguo1/zh_CN/index.htm"
+      ],
+      "employee": [
+        "邵帅 · Shuai Shao",
+        "个人履历列明 2024 年 7 月起任腾讯混元首席研究员；同篇署腾讯混元。",
+        "https://www.sshao.com/ShuaiShao_CV.pdf"
+      ],
+      "student": [
+        "黎家骐 · Jiaqi Li",
+        "2023 年 9 月起在华中科技大学攻读人工智能硕士，由曹治国指导；论文项目参与已由腾讯混元研究员的公开书目标注。",
+        "https://lijia7.github.io/"
+      ],
+      "title": "Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition",
+      "short": "Hunyuan-GameCraft",
+      "date": "2025-06-20",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2506.17201v1",
+      "evidence": "腾讯混元共同一作唐俊姝在本人公开书目将黎家骐标记为本篇研究实习生，腾讯官方仓库确认项目及作者。黎家骐与华中科技大学导师曹治国、当时的混元首席研究员邵帅同篇署名。",
+      "advising": [
+        "校内硕士导师",
+        "黎家骐本人公开履历列出自 2023 年 9 月在华中科技大学攻读硕士，由曹治国指导。",
+        "https://lijia7.github.io/"
+      ],
+      "extra": [
+        [
+          "企业共同一作的项目和实习生标记",
+          "https://junshutang.github.io/"
+        ],
+        [
+          "腾讯混元官方项目仓库",
+          "https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0"
+        ]
+      ],
+      "paperId": "arxiv:2506.17201"
     }
   ]
 };
