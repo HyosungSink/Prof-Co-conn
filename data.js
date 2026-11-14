@@ -15206,6 +15206,434 @@ const survey = {
         "https://tangjiakai.github.io/index.html"
       ],
       "paperId": "doi:10.18653/v1/2025.findings-acl.319"
+    },
+    {
+      "id": "pointslong-tencent-sjtu-x_sgjskaaaaj",
+      "paperId": "arxiv:2604.11627",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王延峰 · Yanfeng Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/wangyanfeng"
+      ],
+      "employee": [
+        "柳源 · Yuan Liu",
+        "公开任职履历自述为腾讯微信 AI 高级研究员，主页记录自 2024 年起发布 POINTS 系列；论文以腾讯微信 AI 署名。",
+        "https://yuanliuuuuuu.github.io/"
+      ],
+      "student": [
+        "Yikun Liu",
+        "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。CVPR 正式版列其为具名核心贡献者，同时署交大和腾讯微信 AI，项目页和企业团队仓库佐证同项参与。",
+        "https://code-kunkun.github.io/"
+      ],
+      "title": "POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs",
+      "short": "POINTS-Long",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_POINTS-Long_Adaptive_Dual-Mode_Visual_Reasoning_in_MLLMs_CVPR_2026_paper.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2604.11627"
+        ],
+        [
+          "POINTS-Long 项目页",
+          "https://anakin-skywalker-joseph.github.io/POINTS-Long-Webpage/"
+        ],
+        [
+          "腾讯项目仓库",
+          "https://github.com/Tencent/POINTS-Seeker"
+        ]
+      ],
+      "evidence": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。CVPR 正式版列其为具名核心贡献者，同时署交大和腾讯微信 AI，项目页和企业团队仓库佐证同项参与。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yikun Liu 的学术主页具名确认王延峰为共同博士生导师；王延峰为本文通讯作者。",
+        "https://code-kunkun.github.io/"
+      ]
+    },
+    {
+      "id": "pointsseeker-tencent-sjtu-x_sgjskaaaaj",
+      "paperId": "arxiv:2604.14029",
+      "company": "腾讯",
+      "team": "微信 AI",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "王延峰 · Yanfeng Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/wangyanfeng"
+      ],
+      "employee": [
+        "柳源 · Yuan Liu",
+        "公开任职履历自述为腾讯微信 AI 高级研究员，主页记录自 2024 年起发布 POINTS 系列；论文以腾讯微信 AI 署名。",
+        "https://yuanliuuuuuu.github.io/"
+      ],
+      "student": [
+        "Yikun Liu",
+        "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。本人主页列 POINTS-Seeker 为技术报告及本人并列第一作者成果；同一模型及精确论文编号由腾讯账号正式发布，腾讯微信 AI 柳源为另一并列第一作者及通讯作者。",
+        "https://code-kunkun.github.io/"
+      ],
+      "title": "POINTS-Seeker: An Open Recipe for Multimodal Search Agents with Visual Memory Management",
+      "short": "POINTS-Seeker",
+      "date": "2026-07",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态生成",
+      "paper": "https://arxiv.org/pdf/2604.14029",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2604.14029"
+        ],
+        [
+          "学生署名的具体技术项目",
+          "https://code-kunkun.github.io/POINTS-Seeker/"
+        ],
+        [
+          "腾讯发布的同一模型",
+          "https://huggingface.co/tencent/POINTS-Seeker"
+        ]
+      ],
+      "evidence": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。本人主页列 POINTS-Seeker 为技术报告及本人并列第一作者成果；同一模型及精确论文编号由腾讯账号正式发布，腾讯微信 AI 柳源为另一并列第一作者及通讯作者。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Yikun Liu 的学术主页具名确认王延峰为共同博士生导师；王延峰亦列为本文作者及项目通讯作者。",
+        "https://code-kunkun.github.io/"
+      ]
+    },
+    {
+      "id": "baidu-k-ragrec-polyu-wenqi-fan",
+      "company": "百度",
+      "team": "搜索科学团队",
+      "school": "香港理工大学",
+      "studentSchool": "香港理工大学",
+      "faculty": [
+        "范文琦 · Wenqi Fan",
+        "香港理工大学电子计算学系，论文通讯作者。",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/"
+      ],
+      "student": [
+        "Shijie Wang",
+        "香港理工大学博士生，2024 年 6 月至 2025 年 1 月于百度搜索科学团队任研究实习生，简历在该任职项下列本人开发的 K-RagRec 项目。",
+        "https://sjay-wang.github.io/services/cv.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页与课题组均注明范文琦在其在读期间指导其博士研究。",
+        "https://sjay-wang.github.io/"
+      ],
+      "employee": [
+        "尹大伟 · Dawei Yin",
+        "百度搜索科学团队工程高级总监；该生在百度实习期间的指导人，论文共同作者。",
+        "https://www.yindawei.com/wp-content/uploads/2023/08/DaweiCV.pdf"
+      ],
+      "title": "Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation",
+      "short": "K-RagRec",
+      "date": "2025-07",
+      "venue": "ACL 2025",
+      "area": "推荐与检索",
+      "paper": "https://aclanthology.org/2025.acl-long.1317/",
+      "extra": [
+        [
+          "ACL 原文作者和机构",
+          "https://aclanthology.org/2025.acl-long.1317.pdf"
+        ],
+        [
+          "实习任期内提交的预印本",
+          "https://arxiv.org/abs/2501.02226"
+        ],
+        [
+          "范文琦课题组成员",
+          "https://wenqifan03.github.io/members.html"
+        ],
+        [
+          "同篇百度研究员论文履历",
+          "https://gsai.ruc.edu.cn/uploads/20241128/1b3ae4a05f14ae1836ac6f07e07d369e.pdf"
+        ]
+      ],
+      "evidence": "第一作者 Shijie Wang 的实名简历明确把 K-RagRec 列为其在百度搜索科学组实习期间开发的系统，并点名实习导师尹大伟、王帅强；同期预印本在实习期间已发布。ACL 正式论文共同列出学校导师范文琦以及两位在职百度研究人员。"
+    },
+    {
+      "company": "华为",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生履历载 Michael R. Lyu 指导其在港中文的博士学位。",
+        "https://wenweigu.github.io/"
+      ],
+      "date": "2025-06",
+      "venue": "DSN-S 2025 行业论文",
+      "area": "云系统可靠性",
+      "id": "huawei-llmprism-cuhk-michael-lyu",
+      "team": "华为云",
+      "student": [
+        "Wenwei Gu",
+        "2021 年 8 月至 2025 年 7 月就读港中文博士；期间为华为云实习生和联合实验室项目成员。2024 年 7 月至 2025 年 7 月，参与基于事务流的大模型训练全链路故障分析。",
+        "https://nkcs.iops.ai/wenweigu/"
+      ],
+      "employee": [
+        "Yongqiang Yang",
+        "论文及会议资料明确署名华为云计算与网络创新实验室；IEEE 作者履历另确认其为该实验室负责人。",
+        "https://xjtu-netverify.github.io/papers/NetMiner/NetMiner_TON.pdf"
+      ],
+      "title": "LLMPrism: Black-box Performance Diagnosis for Production LLM Training Platforms",
+      "short": "LLMPrism",
+      "paper": "https://doi.org/10.1109/DSN-S65789.2025.00034",
+      "extra": [
+        [
+          "正式论文与作者机构",
+          "https://research.cuhk.edu.hk/en/publications/llmprism-black-box-performance-diagnosis-for-production-llm-train/"
+        ],
+        [
+          "同期论文：流量数据、训练时间线与生产部署",
+          "https://arxiv.org/html/2505.00342"
+        ],
+        [
+          "会议行业论文和华为云作者机构",
+          "https://dsn2025.github.io/cpaccepted.html"
+        ]
+      ],
+      "evidence": "南开课题组具名履历把 Wenwei Gu 列为 2024 年 7 月起华为—港中文实验室的「基于事务流的大模型训练全链路故障分析」项目成员。论文具体采用网络流水重建训练时间线并记录 2024 年底的企业生产部署。其学籍与项目任期相交，博士导师 Lyu 和华为云在职负责人 Yongqiang Yang 同篇。"
+    },
+    {
+      "company": "华为",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "港中文计算机科学与工程学系教授，论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生履历载 Michael R. Lyu 指导其在港中文的博士学位。",
+        "https://wenweigu.github.io/"
+      ],
+      "date": "2025-06",
+      "venue": "DSN-S 2025 行业论文",
+      "area": "云系统可靠性",
+      "id": "huawei-cordial-cuhk-michael-lyu",
+      "team": "华为香港研究中心",
+      "student": [
+        "Wenwei Gu",
+        "同期就读港中文博士，并于 2025 年 2 至 6 月在华为香港研究中心任研究实习生；此项目在其具名答辩报告和论文目录中。",
+        "https://wenweigu.github.io/"
+      ],
+      "employee": [
+        "Jiazhen Gu",
+        "华为香港研究中心首席工程师、同篇通讯作者，正式论文和个人资料机构一致；此前曾为港中文博士后。",
+        "https://www.jiazhengu.com/"
+      ],
+      "title": "Cordial: Cross-row Failure Prediction Method Based on Bank-level Error Locality for HBMs",
+      "short": "Cordial",
+      "paper": "https://doi.org/10.1109/DSN-S65789.2025.00045",
+      "extra": [
+        [
+          "正式研究论文和企业作者",
+          "https://wenweigu.github.io/publications/dsn25/dsn25-1.pdf"
+        ],
+        [
+          "同期博士答辩工作记录",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/thesis/presentation_wenweigu.pdf?cache=cache&id=students%3Aphd"
+        ],
+        [
+          "港中文研究门户",
+          "https://research.cuhk.edu.hk/en/publications/cordial-cross-row-failure-prediction-method-based-on-bank-level-e/"
+        ]
+      ],
+      "evidence": "第一作者 Wenwei Gu 的博士答辩为 Cordial 单列技术分节并将其收进论文清单，正式论文记录在华为的 HBM 研究与数据，通讯作者为学生同期实习机构的在职研究人员 Jiazhen Gu；博士导师 Lyu 同篇共同署名。成果于该生在华为香港研究中心实习最后一个月报告。"
+    },
+    {
+      "id": "alibaba-think-before-recommend-ruc-chen",
+      "company": "阿里巴巴",
+      "team": "推荐算法团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "陈旭 · Xu Chen",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm"
+      ],
+      "employee": [
+        "Wen Chen",
+        "ACM KDD 2025 正式项目表列为阿里巴巴淘天集团团队成员；这篇论文署阿里巴巴，列为企业方通讯作者。",
+        "https://www.kdd.org/kdd2025/applied-data-science-ads-track-papers-2/"
+      ],
+      "student": [
+        "唐嘉凯 · Jiakai Tang",
+        "本人主页列 2022 年 9 月起在中国人民大学硕博连读，2024 年 5 至 11 月在阿里通义、2025 年 4 月起在阿里淘天实习。",
+        "https://tangjiakai.github.io/index.html"
+      ],
+      "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation",
+      "short": "Think Before Recommend",
+      "date": "2025-03-28",
+      "venue": "IEEE TKDE",
+      "area": "搜索与推荐",
+      "paper": "https://arxiv.org/html/2503.22675v1",
+      "evidence": "首版和同期报告均将阿里实习脚注标给唐嘉凯本人，且列学业导师陈旭和阿里研究人员 Wen Chen 为通讯作者。依据论文确认企业，不用首次公开日期倒推内部团队。",
+      "advising": [
+        "校内导师",
+        "唐嘉凯本人在教育经历中具名列陈旭为人大硕博连读导师。",
+        "https://tangjiakai.github.io/index.html"
+      ],
+      "extra": [
+        [
+          "正式出版",
+          "https://doi.org/10.1109/TKDE.2026.3694421"
+        ],
+        [
+          "SIGIR 专题报告版",
+          "https://sigirgennext.github.io/GENNEXT-SIGIR-25/submissions/gennext_sigir25_2.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2503.22675"
+    },
+    {
+      "id": "huawei-local-skills-ruc-chen",
+      "company": "华为",
+      "team": "智能体研究团队",
+      "school": "中国人民大学",
+      "studentSchool": "中国人民大学",
+      "faculty": [
+        "陈旭 · Xu Chen",
+        "中国人民大学高瓴人工智能学院副教授。",
+        "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm"
+      ],
+      "employee": [
+        "戴全宇 · Quanyu Dai",
+        "NeurIPS 2023 主办组资料列其为华为诺亚方舟实验室首席研究员；本篇署华为。",
+        "https://gcastle-hub.github.io/csl-competition/"
+      ],
+      "student": [
+        "Xueyang Feng",
+        "陈旭课题组公开名录列为 2023 年博士生；首版具名标注该论文在华为实习期间完成。",
+        "https://www.ai-engine-lab.com/team"
+      ],
+      "title": "From Local Skills to Long-Horizon Web Tasks: Progressive Skill Exploration for LLM Web Agents",
+      "short": "Progressive Skill Exploration",
+      "date": "2026-11-04",
+      "venue": "arXiv 预印本",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2611.03116v1",
+      "evidence": "论文首页具名将华为实习脚注对应共同第一作者 Xueyang Feng；校内导师陈旭和华为研究员戴全宇为同篇通讯作者。",
+      "advising": [
+        "校内导师",
+        "陈旭作为 AI Engine Lab 名录唯一标出的 Advisor；同一名录在 Ph.D. Students 中具名列 Xueyang Feng（2023）。",
+        "https://www.ai-engine-lab.com/team"
+      ],
+      "extra": [
+        [
+          "华为机构专利署名补充",
+          "https://patents.google.com/patent/EP4550224A1/en"
+        ]
+      ],
+      "paperId": "arxiv:2611.03116"
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "小红书",
+      "team": "FireRed · 图像智能",
+      "area": "多模态视觉理解",
+      "faculty": [
+        "许永超 · Yongchao Xu",
+        "武汉大学计算机学院教授、两篇论文的通讯作者。",
+        "https://cs.whu.edu.cn/info/1019/2496.htm"
+      ],
+      "employee": [
+        "Xu Tang",
+        "小红书 FireRed 多项正式发布成果的核心研究人员，论文使用小红书单位及企业邮箱；同一时期代表小红书发布其他工业研发成果。",
+        "https://arxiv.org/abs/2603.10420"
+      ],
+      "student": [
+        "孙智超 · Zhichao Sun",
+        "本人公开履历显示 2022 年 9 月起在武汉大学攻读博士，2024 年 9 月起先后在小红书 AIGC 及 AllSpark 团队实习。",
+        "https://sunzc-sunny.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "孙智超的个人学术主页明确列许永超为其武汉大学博士导师。",
+        "https://sunzc-sunny.github.io/"
+      ],
+      "id": "rednote-cqdino-whu-xu",
+      "title": "CQ-DINO: Mitigating Gradient Dilution via Category Queries for Vast Vocabulary Object Detection",
+      "short": "CQ-DINO",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/21168020249eccddcc1736ec79bd096f-Abstract-Conference.html",
+      "extra": [
+        [
+          "原文作者单位",
+          "https://openreview.net/pdf/5a1fc42330aab7d2628dbfb71fdd6ca82f41dcbb.pdf"
+        ],
+        [
+          "小红书 FireRed 项目与代码",
+          "https://github.com/FireRedTeam/CQ-DINO"
+        ],
+        [
+          "小红书团队发布项目清单",
+          "https://fireredteam.github.io/"
+        ]
+      ],
+      "evidence": "小红书 FireRed 团队明确把 CQ-DINO 列为自身公开研发项目并具名列孙智超，项目初稿在其小红书 AIGC 实习期间发布，本人主页也列为对应的第一作者成果。正式论文同列许永超和小红书研究者 Xu Tang。"
+    },
+    {
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "小红书",
+      "team": "FireRed · 图像智能",
+      "area": "多模态视觉理解",
+      "faculty": [
+        "许永超 · Yongchao Xu",
+        "武汉大学计算机学院教授、两篇论文的通讯作者。",
+        "https://cs.whu.edu.cn/info/1019/2496.htm"
+      ],
+      "employee": [
+        "Xu Tang",
+        "小红书 FireRed 多项正式发布成果的核心研究人员，论文使用小红书单位及企业邮箱；同一时期代表小红书发布其他工业研发成果。",
+        "https://arxiv.org/abs/2603.10420"
+      ],
+      "student": [
+        "孙智超 · Zhichao Sun",
+        "本人公开履历显示 2022 年 9 月起在武汉大学攻读博士，2024 年 9 月起先后在小红书 AIGC 及 AllSpark 团队实习。",
+        "https://sunzc-sunny.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "孙智超的个人学术主页明确列许永超为其武汉大学博士导师。",
+        "https://sunzc-sunny.github.io/"
+      ],
+      "id": "rednote-ivcprune-whu-xu",
+      "title": "IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning",
+      "short": "IVC-Prune",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "paper": "https://openreview.net/pdf?id=46LbXtFgBm",
+      "extra": [
+        [
+          "同篇预印本",
+          "https://arxiv.org/abs/2602.03060"
+        ],
+        [
+          "小红书 FireRed 项目与代码",
+          "https://github.com/FireRedTeam/IVC-Prune"
+        ],
+        [
+          "小红书团队发布项目清单",
+          "https://fireredteam.github.io/"
+        ]
+      ],
+      "evidence": "小红书团队的发布项目清单具名列出孙智超作为 IVC-Prune 首位作者，企业维护的公开项目与他在小红书 AllSpark 研究实习时间相符。正式论文由在读博士孙智超、武大导师许永超以及小红书研究者 Xu Tang 共同完成。"
     }
   ]
 };

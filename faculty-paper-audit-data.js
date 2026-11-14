@@ -542,7 +542,17 @@ const facultyPaperAudits = {
       "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
       "https://astl.xmu.edu.cn/People.htm",
       "https://doi.org/10.1145/3770855.3818320",
-      "https://arxiv.org/html/2608.04625"
+      "https://arxiv.org/html/2608.04625",
+      "https://aclanthology.org/2025.acl-long.1317/",
+      "https://sjay-wang.github.io/services/cv.pdf",
+      "https://sjay-wang.github.io/",
+      "https://www.yindawei.com/wp-content/uploads/2023/08/DaweiCV.pdf",
+      "https://aclanthology.org/2025.acl-long.1317.pdf",
+      "https://arxiv.org/abs/2501.02226",
+      "https://wenqifan03.github.io/members.html",
+      "https://gsai.ruc.edu.cn/uploads/20241128/1b3ae4a05f14ae1836ac6f07e07d369e.pdf",
+      "https://arxiv.org/html/2508.05197",
+      "https://openaccess.thecvf.com/content/CVPR2026F/html/Jiang_SuperGlasses_Benchmarking_Vision_Language_Models_as_Intelligent_Agents_for_AI_CVPRF_2026_paper.html"
     ],
     "papers": [
       {
@@ -562,6 +572,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2608.04625",
         "outcome": "existing",
         "note": "同篇已收录。原文把快手实习脚注明确附在 Zhuohang Jiang 名下；他的个人主页把 A/B Agent 列为快手实习项目并列明两位校内共同导师。"
+      },
+      {
+        "title": "Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation",
+        "url": "https://aclanthology.org/2025.acl-long.1317/",
+        "outcome": "confirmed",
+        "note": "第一作者 Shijie Wang 的实名简历明确把 K-RagRec 列为其在百度搜索科学组实习期间开发的系统，并点名实习导师尹大伟、王帅强；同期预印本在实习期间已发布。ACL 正式论文共同列出学校导师范文琦以及两位在职百度研究人员。"
+      },
+      {
+        "title": "QA-Dragon: Query-Aware Dynamic RAG System for Knowledge-Intensive Visual Question Answering",
+        "url": "https://arxiv.org/html/2508.05197",
+        "outcome": "lead",
+        "note": "港理工两位具名导师共同署名，全部所载作者为港理工。学生在 2025 年 10 月加入快手的履历晚于这篇论文；比赛主办方不等于同篇在职作者。"
+      },
+      {
+        "title": "SuperGlasses: Benchmarking Vision Language Models as Intelligent Agents for AI Smart Glasses",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Jiang_SuperGlasses_Benchmarking_Vision_Language_Models_as_Intelligent_Agents_for_AI_CVPRF_2026_paper.html",
+        "outcome": "lead",
+        "note": "两位导师均署名；同期学生在快手的个人履历未列此篇为快手项目，原文尚未标出可确认的同篇快手正式员工。"
       }
     ]
   },
@@ -574,7 +602,12 @@ const facultyPaperAudits = {
       "https://zhuohangjiang.com/",
       "https://arxiv.org/html/2606.10357",
       "https://astl.xmu.edu.cn/People.htm",
-      "https://arxiv.org/html/2608.04625"
+      "https://arxiv.org/html/2608.04625",
+      "https://aclanthology.org/2025.acl-long.1317/",
+      "https://sjay-wang.github.io/",
+      "https://sjay-wang.github.io/services/cv.pdf",
+      "https://arxiv.org/html/2508.05197",
+      "https://openaccess.thecvf.com/content/CVPR2026F/html/Jiang_SuperGlasses_Benchmarking_Vision_Language_Models_as_Intelligent_Agents_for_AI_CVPRF_2026_paper.html"
     ],
     "papers": [
       {
@@ -594,6 +627,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2608.04625",
         "outcome": "existing",
         "note": "同篇已收录。原文把快手实习脚注明确附在 Zhuohang Jiang 名下；他的个人主页把 A/B Agent 列为快手实习项目并列明两位校内共同导师。"
+      },
+      {
+        "title": "Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation",
+        "url": "https://aclanthology.org/2025.acl-long.1317/",
+        "outcome": "lead",
+        "note": "该生的共同导师李青未在此篇 ACL 论文作者栏；该证据已通过同篇导师范文琦收录。"
+      },
+      {
+        "title": "QA-Dragon: Query-Aware Dynamic RAG System for Knowledge-Intensive Visual Question Answering",
+        "url": "https://arxiv.org/html/2508.05197",
+        "outcome": "lead",
+        "note": "港理工两位具名导师共同署名，全部所载作者为港理工。学生在 2025 年 10 月加入快手的履历晚于这篇论文；比赛主办方不等于同篇在职作者。"
+      },
+      {
+        "title": "SuperGlasses: Benchmarking Vision Language Models as Intelligent Agents for AI Smart Glasses",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Jiang_SuperGlasses_Benchmarking_Vision_Language_Models_as_Intelligent_Agents_for_AI_CVPRF_2026_paper.html",
+        "outcome": "lead",
+        "note": "两位导师均署名；同期学生在快手的个人履历未列此篇为快手项目，原文尚未标出可确认的同篇快手正式员工。"
       }
     ]
   },
@@ -2664,7 +2715,15 @@ const facultyPaperAudits = {
       "https://yichenli00.github.io/publications/",
       "https://doi.org/10.1109/ASE63991.2025.00272",
       "https://zhihan-jiang.com/files/ASE25/LogPilot.pdf",
-      "https://research.cuhk.edu.hk/en/publications/logpilot-intent-aware-and-scalable-alert-diagnosis-for-large-scal/"
+      "https://research.cuhk.edu.hk/en/publications/logpilot-intent-aware-and-scalable-alert-diagnosis-for-large-scal/",
+      "https://doi.org/10.1109/DSN-S65789.2025.00034",
+      "https://research.cuhk.edu.hk/en/publications/llmprism-black-box-performance-diagnosis-for-production-llm-train/",
+      "https://arxiv.org/html/2505.00342",
+      "https://dsn2025.github.io/cpaccepted.html",
+      "https://doi.org/10.1109/DSN-S65789.2025.00045",
+      "https://www.jiazhengu.com/",
+      "https://wenweigu.github.io/publications/dsn25/dsn25-1.pdf",
+      "https://research.cuhk.edu.hk/en/publications/cordial-cross-row-failure-prediction-method-based-on-bank-level-e/"
     ],
     "papers": [
       {
@@ -2714,6 +2773,18 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/ASE63991.2025.00272",
         "outcome": "confirmed",
         "note": "LogPilot 的预印本于 2025 年 9 月发布；正式论文详述字节跳动火山引擎生产部署。以原文中明确署名字节的第三作者 Yichen Li 补齐同期实习证据，不推定同篇第一作者在字节实习。 学生本人提供同期博士、导师和字节跳动实习的起止日期；企业共同作者亦明确列此为其公司指导的实习生项目，正式论文把 Yichen Li 与同篇 Jinyang Liu 列在字节跳动署名下。"
+      },
+      {
+        "title": "LLMPrism: Black-box Performance Diagnosis for Production LLM Training Platforms",
+        "url": "https://doi.org/10.1109/DSN-S65789.2025.00034",
+        "outcome": "confirmed",
+        "note": "南开课题组具名履历把 Wenwei Gu 列为 2024 年 7 月起华为—港中文实验室的「基于事务流的大模型训练全链路故障分析」项目成员。论文具体采用网络流水重建训练时间线并记录 2024 年底的企业生产部署。其学籍与项目任期相交，博士导师 Lyu 和华为云在职负责人 Yongqiang Yang 同篇。"
+      },
+      {
+        "title": "Cordial: Cross-row Failure Prediction Method Based on Bank-level Error Locality for HBMs",
+        "url": "https://doi.org/10.1109/DSN-S65789.2025.00045",
+        "outcome": "confirmed",
+        "note": "第一作者 Wenwei Gu 的博士答辩为 Cordial 单列技术分节并将其收进论文清单，正式论文记录在华为的 HBM 研究与数据，通讯作者为学生同期实习机构的在职研究人员 Jiazhen Gu；博士导师 Lyu 同篇共同署名。成果于该生在华为香港研究中心实习最后一个月报告。"
       }
     ]
   },
@@ -2999,7 +3070,10 @@ const facultyPaperAudits = {
       "https://ai.ruc.edu.cn/szdw/zrjs/cx/index.htm",
       "https://tangjiakai.github.io/index.html",
       "https://www.acmturc.com/2023/en/mobile/SIGAI_China.html",
-      "https://shenshiqi.com/academic/"
+      "https://shenshiqi.com/academic/",
+      "https://www.ai-engine-lab.com/team",
+      "https://www.kdd.org/kdd2025/applied-data-science-ads-track-papers-2/",
+      "https://gcastle-hub.github.io/csl-competition/"
     ],
     "papers": [
       {
@@ -3025,8 +3099,106 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2512.14503v1",
         "outcome": "lead",
         "note": "淘宝线上项目明确本人核心贡献且实习期重合；正在查是否有企业正式具名表述。"
+      },
+      {
+        "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation",
+        "url": "https://arxiv.org/html/2503.22675v1",
+        "outcome": "confirmed",
+        "note": "学生本人具名实习脚注、公开导师和同篇员工。"
+      },
+      {
+        "title": "From Local Skills to Long-Horizon Web Tasks: Progressive Skill Exploration for LLM Web Agents",
+        "url": "https://arxiv.org/html/2611.03116v1",
+        "outcome": "confirmed",
+        "note": "首页具名将华为实习与论文结合；校内导师公开唯一署名。"
       }
     ],
-    "note": "仅重点核对唐嘉凯的校企研究成果。"
+    "note": "目前重点核对唐嘉凯、Xueyang Feng 的部分校企成果，尚未覆盖陈旭全部书目。"
+  },
+  "x_sgJskAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/wangyanfeng",
+      "https://code-kunkun.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_POINTS-Long_Adaptive_Dual-Mode_Visual_Reasoning_in_MLLMs_CVPR_2026_paper.pdf",
+        "outcome": "confirmed",
+        "note": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。CVPR 正式版列其为具名核心贡献者，同时署交大和腾讯微信 AI，项目页和企业团队仓库佐证同项参与。"
+      },
+      {
+        "title": "POINTS-Seeker: An Open Recipe for Multimodal Search Agents with Visual Memory Management",
+        "url": "https://arxiv.org/pdf/2604.14029",
+        "outcome": "confirmed",
+        "note": "Yikun Liu 自述为上海交大在读博士，2025 年 5 月起在腾讯实习。本人主页列 POINTS-Seeker 为技术报告及本人并列第一作者成果；同一模型及精确论文编号由腾讯账号正式发布，腾讯微信 AI 柳源为另一并列第一作者及通讯作者。"
+      },
+      {
+        "title": "LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_LamRA_Large_Multimodal_Model_as_Your_Advanced_Retrieval_Assistant_CVPR_2025_paper.pdf",
+        "outcome": "existing",
+        "note": "正式版首页注明学生于小红书实习期间完成，原关系已经入库。"
+      },
+      {
+        "title": "VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization",
+        "url": "https://arxiv.org/abs/2602.09934",
+        "outcome": "existing",
+        "note": "学生个人履历、项目发表时间、导师名单以及原关系已入库。"
+      },
+      {
+        "title": "A Sanity Check on Composed Image Retrieval",
+        "url": "https://arxiv.org/abs/2604.12904",
+        "outcome": "no-evidence",
+        "note": "核对原文及学生完整的公开署名，目前没有目标公司正式员工及该项企业参与的证据。"
+      },
+      {
+        "title": "POINTS-GUI-G: GUI-Grounding Journey",
+        "url": "https://arxiv.org/abs/2602.06391",
+        "outcome": "no-evidence",
+        "note": "有同一学生和腾讯作者，但其具名上海交大博士导师王延峰、谢维迪和姚江超均未署名。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "ArIg7-0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.whu.edu.cn/info/1019/2496.htm",
+      "https://sunzc-sunny.github.io/",
+      "https://fireredteam.github.io/",
+      "https://sites.google.com/view/yongchaoxu"
+    ],
+    "papers": [
+      {
+        "title": "CQ-DINO: Mitigating Gradient Dilution via Category Queries for Vast Vocabulary Object Detection",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/21168020249eccddcc1736ec79bd096f-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "小红书 FireRed 团队明确把 CQ-DINO 列为自身公开研发项目并具名列孙智超，项目初稿在其小红书 AIGC 实习期间发布，本人主页也列为对应的第一作者成果。正式论文同列许永超和小红书研究者 Xu Tang。"
+      },
+      {
+        "title": "IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning",
+        "url": "https://openreview.net/pdf?id=46LbXtFgBm",
+        "outcome": "confirmed",
+        "note": "小红书团队的发布项目清单具名列出孙智超作为 IVC-Prune 首位作者，企业维护的公开项目与他在小红书 AllSpark 研究实习时间相符。正式论文由在读博士孙智超、武大导师许永超以及小红书研究者 Xu Tang 共同完成。"
+      },
+      {
+        "title": "FinishStrong: Learning to End Well after Imperfect Start in Video Temporal Grounding",
+        "url": "https://arxiv.org/abs/2611.01765",
+        "outcome": "lead",
+        "note": "原文第一作者邹宇达双署武大和小红书、许永超同篇；待具名指导资料及具体企业研究角色。"
+      },
+      {
+        "title": "RefDrone: A Challenging Benchmark for Drone Scene Referring Expression Comprehension",
+        "url": "https://sunzc-sunny.github.io/",
+        "outcome": "no-evidence",
+        "note": "学生个人书目列本成果由武大团队完成，目前未见研究企业及同期正式员工。"
+      }
+    ],
+    "note": "已交叉核对部分武大与小红书联合成果及就读、指导、实习时间。其余书目待续。"
   }
 };
