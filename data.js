@@ -35202,6 +35202,157 @@ const survey = {
         ]
       ],
       "evidence": "Zero-WAM 原文作者脚注明确将第一作者 Jiaming Zhou 署 Robbyant 和港科大（广州），企业官方发布明确列出项目作者和技术。学生本人确认港科大（广州）在读身份及具名学术导师梁俊卫；企业正式研究员 Qihang Zhang 被列为同篇项目负责人。"
+    },
+    {
+      "id": "asterinas-ant-pku-ifx5c-caaaaj",
+      "paperId": "arxiv:2506.03876",
+      "company": "蚂蚁集团",
+      "team": "星绽 Asterinas",
+      "school": "北京大学",
+      "studentSchool": "北京大学",
+      "faculty": [
+        "许辰人 · Chenren Xu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://cs.pku.edu.cn/info/1084/1717.htm"
+      ],
+      "employee": [
+        "田洪亮 · Hongliang Tian",
+        "2024 年 Intel 会议材料、2025 年 GOSIM 大会议程分别列田洪亮为蚂蚁集团人员及资深技术专家、星绽项目发起者；USENIX 正式同篇列他为蚂蚁集团共同第一作者。",
+        "https://hangzhou2025.gosim.org/zh/workshops/"
+      ],
+      "student": [
+        "李睿涵 · Ruihan Li",
+        "北大在读博士李睿涵在 2024 年 12 月为此篇核心实现 OSTD 提交物理页引用计数安全改动，由同篇作者、蚂蚁星绽项目发起人田洪亮审查并合并；论文的正式评估代码保留这些改动使用的计数边界。",
+        "https://github.com/lrh2000"
+      ],
+      "title": "Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB",
+      "short": "Asterinas",
+      "date": "2025-07",
+      "venue": "USENIX ATC 2025",
+      "area": "操作系统与内存安全",
+      "paper": "https://www.usenix.org/system/files/atc25-peng-yuke.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://www.usenix.org/conference/atc25/presentation/peng-yuke"
+        ],
+        [
+          "同期具名代码贡献与企业负责人评审",
+          "https://github.com/asterinas/asterinas/pull/1752"
+        ],
+        [
+          "论文评估的相同核心模块源码",
+          "https://github.com/asterinas/atc25-artifact-evaluation/blob/c4a4747b701ce242ccbb46c9b55615af7da45e2f/ostd/src/mm/frame/meta.rs"
+        ],
+        [
+          "北大该篇项目及作者记录",
+          "https://neec.pku.edu.cn/xwgg/xwdt/c638a07db72e415cae5b2d75bf861018.htm"
+        ],
+        [
+          "蚂蚁集团官方星绽说明",
+          "https://www.antgroup.com/en/technology"
+        ],
+        [
+          "企业作者 2024 年参会资料",
+          "https://newsroom.intel.com/security/media-alert-intel-at-open-confidential-computing-conference-2024"
+        ]
+      ],
+      "evidence": "北大在读博士李睿涵在 2024 年 12 月为此篇核心实现 OSTD 提交物理页引用计数安全改动，由同篇作者、蚂蚁星绽项目发起人田洪亮审查并合并；论文的正式评估代码保留这些改动使用的计数边界。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "北大计算机学院具名列 2022 级博士生李睿涵的导师为许辰人，北大研究所本篇报道亦具名列李睿涵、许辰人及蚂蚁集团研究人员。",
+        "https://cs.pku.edu.cn/info/1263/3003.htm"
+      ]
+    },
+    {
+      "id": "ant-ditto-hkust-qifeng-chen",
+      "paperId": "arxiv:2510.15742",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Qifeng CHEN · 陈启峰",
+        "港科大计算机教师，论文具名作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "同期蚂蚁研究正式研究员；本人履历及原论文分别确认任职与同篇蚂蚁署名。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "Qingyan Bai",
+        "论文首版及项目页均单独将该一作列为港科大与蚂蚁双署名；本人确认蚂蚁生成模型研究实习并列该项目。港科大博士论文开题通知明确把 Ditto 列作其博士工作。",
+        "https://bqy.info/"
+      ],
+      "advising": [
+        "具名博士论文指导",
+        "港科大博士论文开题将 Qifeng Chen 列为 Qingyan Bai 的导师，并明确列 Ditto 为博士研究成果；本人主页独立确认指导关系。",
+        "https://cse.hkust.edu.hk/pg/defenses/S26/qbaiac-26-05-2026.html"
+      ],
+      "title": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset",
+      "short": "Ditto",
+      "date": "2026-06",
+      "venue": "CVPR 2026",
+      "area": "指令式视频编辑与数据集",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Bai_Scaling_Instruction-Based_Video_Editing_with_a_High-Quality_Synthetic_Dataset_CVPR_2026_paper.html",
+      "extra": [
+        [
+          "首版公开于 2025 年 10 月",
+          "https://arxiv.org/html/2510.15742v1"
+        ],
+        [
+          "原始作者项目",
+          "https://editto.net/"
+        ]
+      ],
+      "evidence": "原文与项目页均列 Qingyan Bai 为港科大和蚂蚁双署名一作；本人公开页确认蚂蚁研究实习并展示 Ditto。港科大博士论文开题正式确认陈启峰为导师并明列 Ditto 为学位研究。蚂蚁正式研究员沈宇君同篇署名。"
+    },
+    {
+      "id": "ant-naturally-aggregated-hkust-qifeng-chen",
+      "paperId": "doi:10.1109/3DV66043.2025.00075",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁研究",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Qifeng CHEN · 陈启峰",
+        "港科大计算机教师、同篇共同通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf"
+      ],
+      "employee": [
+        "沈宇君 · Yujun Shen",
+        "同期为蚂蚁正式研究员，论文共同通讯作者。",
+        "https://shenyujun.github.io/"
+      ],
+      "student": [
+        "鄭嘉亮 · Ka Leong Cheng",
+        "原始论文单独列其港科大与蚂蚁双署名。本人公开履历列 2023–2025 年蚂蚁研究实习，首页列该工作、项目代码和视频；2023 年预印本公开时正在港科大读博并实习。",
+        "https://felixcheng97.github.io/"
+      ],
+      "advising": [
+        "具名博士导师",
+        "港科大博士论文答辩公告列 Qifeng Chen 为鄭嘉亮的博士导师；原文另具名列其为通讯作者。",
+        "https://cse.hkust.edu.hk/pg/defenses/S25/klchengad-06-02-2025.html"
+      ],
+      "title": "Learning Naturally Aggregated Appearance for Efficient 3D Editing",
+      "short": "Naturally Aggregated Appearance",
+      "date": "2025-03",
+      "venue": "3DV 2025",
+      "area": "三维场景编辑与神经表示",
+      "paper": "https://doi.org/10.1109/3DV66043.2025.00075",
+      "extra": [
+        [
+          "2023 年 12 月首版作者与单位",
+          "https://arxiv.org/pdf/2312.06657v1"
+        ],
+        [
+          "同篇项目",
+          "https://felixcheng97.github.io/AGAP/"
+        ]
+      ],
+      "evidence": "论文将鄭嘉亮明确列为港科大、蚂蚁双署名的一作；其履历按年确认同期蚂蚁实习，并公开同篇的项目资源。港科大答辩公告确认陈启峰指导；老师与蚂蚁雇员沈宇君均为同篇通讯作者。"
     }
   ]
 };

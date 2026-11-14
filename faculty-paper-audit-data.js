@@ -2666,7 +2666,15 @@ const facultyPaperAudits = {
       "https://johanan528.github.io/depthlab_web/",
       "https://arxiv.org/html/2605.12496",
       "https://yihao-meng.github.io/CausalCine/",
-      "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf"
+      "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Bai_Scaling_Instruction-Based_Video_Editing_with_a_High-Quality_Synthetic_Dataset_CVPR_2026_paper.html",
+      "https://cse.hkust.edu.hk/pg/defenses/S26/qbaiac-26-05-2026.html",
+      "https://arxiv.org/html/2510.15742v1",
+      "https://editto.net/",
+      "https://doi.org/10.1109/3DV66043.2025.00075",
+      "https://cse.hkust.edu.hk/pg/defenses/S25/klchengad-06-02-2025.html",
+      "https://arxiv.org/pdf/2312.06657v1",
+      "https://felixcheng97.github.io/NeRF-Texture/"
     ],
     "papers": [
       {
@@ -2782,6 +2790,20 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Dynamic_Typography_Bringing_Text_to_Life_via_Video_Diffusion_Prior_ICCV_2025_paper.pdf",
         "outcome": "lead",
         "note": "Zichen Liu 与蚂蚁的同篇工作明确；博士导师陈启峰只出现在致谢部分，未共同署名。另查共同一作 Yihao Meng 的博士导师 Huamin Qu。"
+      },
+      {
+        "title": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bai_Scaling_Instruction-Based_Video_Editing_with_a_High-Quality_Synthetic_Dataset_CVPR_2026_paper.html",
+        "outcome": "confirmed",
+        "note": "原文与项目页均列 Qingyan Bai 为港科大和蚂蚁双署名一作；本人公开页确认蚂蚁研究实习并展示 Ditto。港科大博士论文开题正式确认陈启峰为导师并明列 Ditto 为学位研究。蚂蚁正式研究员沈宇君同篇署名。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Naturally Aggregated Appearance for Efficient 3D Editing",
+        "url": "https://doi.org/10.1109/3DV66043.2025.00075",
+        "outcome": "confirmed",
+        "note": "论文将鄭嘉亮明确列为港科大、蚂蚁双署名的一作；其履历按年确认同期蚂蚁实习，并公开同篇的项目资源。港科大答辩公告确认陈启峰指导；老师与蚂蚁雇员沈宇君均为同篇通讯作者。",
+        "year": 2025
       }
     ]
   },
@@ -8320,7 +8342,11 @@ const facultyPaperAudits = {
       "https://witty-me.github.io/",
       "https://wang.ly/",
       "https://www.usenix.org/conference/nsdi24/poster-session",
-      "https://jcggg.github.io/dist/file/ProjectExperience%402101.pdf"
+      "https://jcggg.github.io/dist/file/ProjectExperience%402101.pdf",
+      "https://github.com/lrh2000",
+      "https://github.com/asterinas/asterinas/pull/1752",
+      "https://github.com/asterinas/atc25-artifact-evaluation",
+      "https://neec.pku.edu.cn/xwgg/xwdt/c638a07db72e415cae5b2d75bf861018.htm"
     ],
     "papers": [
       {
@@ -8523,8 +8549,8 @@ const facultyPaperAudits = {
         "title": "Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB",
         "year": 2025,
         "url": "https://www.usenix.org/conference/atc25/presentation/peng-yuke",
-        "outcome": "lead",
-        "note": "2025 年：USENIX 正式稿有蚂蚁与北大作者；李睿涵可查到北大学籍，但该篇只署北大及中关村实验室，没有其在蚂蚁参与本课题的材料。"
+        "outcome": "confirmed",
+        "note": "2025 年：北大在读博士李睿涵在 2024 年 12 月为此篇核心实现 OSTD 提交物理页引用计数安全改动，由同篇作者、蚂蚁星绽项目发起人田洪亮审查并合并；论文的正式评估代码保留这些改动使用的计数边界。"
       },
       {
         "title": "Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data",
@@ -12310,7 +12336,13 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2608.26103v1",
       "https://robbyant-research.github.io/Zero-WAM/",
       "https://jiaming-zhou.github.io/",
-      "https://junweiliang.me/"
+      "https://junweiliang.me/",
+      "https://arxiv.org/html/2510.15742v1",
+      "https://editto.net/",
+      "https://cse.hkust.edu.hk/pg/defenses/S26/qbaiac-26-05-2026.html",
+      "https://doi.org/10.1109/3DV66043.2025.00075",
+      "https://arxiv.org/pdf/2312.06657v1",
+      "https://cse.hkust.edu.hk/pg/defenses/S25/klchengad-06-02-2025.html"
     ],
     "papers": [
       {
@@ -12354,6 +12386,20 @@ const facultyPaperAudits = {
         "outcome": "existing",
         "note": "徐英豪同为通讯；在读博士兼企业一作 Jiaming Zhou 的公开履历只具名港科大（广州）梁俊卫为其博士导师。徐英豪个人指导关系的其他候选（罗一鸣等）缺同时间的跨校指导记录；本篇沿梁俊卫关系记录，不重复计数。",
         "year": 2026
+      },
+      {
+        "title": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset",
+        "url": "https://arxiv.org/html/2510.15742v1",
+        "outcome": "existing",
+        "note": "2025 年首版中徐英豪以蚂蚁研究员身份署名；2026 CVPR 合并。原文项目、学生和博士开题具名确认陈启峰指导该在读学生，不能算作徐英豪在港科大指导。",
+        "year": 2026
+      },
+      {
+        "title": "Learning Naturally Aggregated Appearance for Efficient 3D Editing",
+        "url": "https://doi.org/10.1109/3DV66043.2025.00075",
+        "outcome": "existing",
+        "note": "2023 年首版以蚂蚁、港中大署徐英豪，2025 年 3DV 合并。公开证据确认陈启峰为博士导师，徐英豪并非学生在港科大的具名指导者。",
+        "year": 2025
       }
     ],
     "note": "核对了公开论文、团队名录和研究期间的身份；尚未穷尽该教师的论文。"
@@ -12381,15 +12427,22 @@ const facultyPaperAudits = {
       "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502235070908372",
       "https://cvlai.net/ntire/2023/",
       "https://pubmed.ncbi.nlm.nih.gov/39236121/",
-      "https://dblp.org/db/journals/tmm/tmm28.html"
+      "https://dblp.org/db/journals/tmm/tmm28.html",
+      "https://chaofengc.github.io/",
+      "https://chaofengc.github.io/group.html",
+      "https://arxiv.org/search/?query=Chaofeng+Chen&searchtype=author",
+      "https://arxiv.org/pdf/2604.11240v2",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://www.comp.nus.edu.sg/news/nus-school-of-computing-welcomes-17-new-faculty-members/",
+      "https://arxiv.org/abs/2308.12001"
     ],
     "papers": [
       {
         "title": "UniFlow-RS: Unified Generative Prediction for Heterogeneous Remote-Sensing Tasks",
-        "url": "https://arxiv.org/abs/2611.14281",
+        "url": "https://arxiv.org/pdf/2611.14281v1",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "逐名对照公开论文首版：课题组名录明确列何建龙为博士生、陈超锋为同篇通讯；五位作者分别署武大或西电，未见范围内企业的同篇作者。"
+        "note": "2026 年 11 月 10 日首稿及课题组名录确认何建龙为武大博士生，陈超锋为通讯作者。原文作者仅署武大及西安电子科技大学；未见企业参与证据。"
       },
       {
         "title": "GeoMAR: Unleashing Geometrically Aligned Features for Masked Autoregressive Blind Face Restoration",
@@ -12400,10 +12453,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Decoupled Similarity for Task-Aware Token Pruning in Large Vision-Language Models",
-        "url": "https://arxiv.org/abs/2604.11240",
+        "url": "https://doi.org/10.1145/3767308.3834997",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "逐名核对 ACM MM 版本首页：署名单位是武大、埃克塞特大学、中科院和西电，未见范围内企业的同篇作者。"
+        "note": "ACM MM 正式版与 arXiv:2604.11240 同文。作者单位逐名为武汉大学、埃克塞特大学、中国科学院及西电，引用企业模型不说明企业参与。"
       },
       {
         "title": "ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program",
@@ -12449,17 +12502,17 @@ const facultyPaperAudits = {
       },
       {
         "title": "Beyond the Dirac Delta: Mitigating Diversity Collapse in Reinforcement Fine-Tuning for Image Generation",
-        "url": "https://arxiv.org/abs/2601.12401",
+        "url": "https://arxiv.org/pdf/2601.12401v5",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "预印本首版与改题版为同篇。作者单位仅列南京大学、澳大利亚国立大学、武汉大学、新加坡国立大学和悉尼科技大学。"
+        "note": "2026 年 11 月 3 日的 v5 与早期长标题同一个 arXiv 编号。陈超锋署武大，卞亚涛只署新加坡国立；该校任职公告确认他已于 2025 年离开腾讯入职。未见本篇企业参与。"
       },
       {
         "title": "LongEarth-R1: Benchmarking and Aligning Vision-Language Models for Long-Horizon Earth Observation Reasoning",
-        "url": "https://arxiv.org/abs/2608.13344",
+        "url": "https://arxiv.org/pdf/2608.13344v1",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "原文七位作者仅署武汉大学和西安电子科技大学，无范围内企业署名。"
+        "note": "论文首页列武汉大学及西安电子科技大学院系；未见范围内企业作者的参与说明。"
       },
       {
         "title": "TOPIQ: A Top-Down Approach From Semantics to Distortions for Image Quality Assessment",
@@ -12543,7 +12596,7 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Boosting_Image_Quality_Assessment_through_Efficient_Transformer_Adaptation_with_Local_CVPR_2024_paper.pdf",
         "year": 2024,
         "outcome": "no-evidence",
-        "note": "CVPR 正式版列武大、南洋理工大学和商汤。陈超锋此时署南洋理工大学；商汤不在本项目企业范围。"
+        "note": "2023 预印本 Local Distortion Aware Efficient Transformer Adaptation 与 CVPR 正式版作者名单、方法相同，合并为一篇。正式稿唯一企业署名是商汤，超出调查企业范围。"
       },
       {
         "title": "Q-Instruct: Improving Low-Level Visual Abilities for Multi-Modality Foundation Models",
@@ -12677,9 +12730,16 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "作者书目及期刊题录一致。暂未找到完整的原文署名单位和在读学生参与该篇企业研究的依据。"
+      },
+      {
+        "title": "Data-Driven Vision-Language Models for Remote Sensing: A Survey",
+        "url": "https://arxiv.org/abs/2610.31304",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "预印本首页逐名标注上海交大、华东师大、东南大学、西南交大、南洋理工、武汉大学和其他高校；未见企业同篇作者。"
       }
     ],
-    "note": "已逐篇对照个人主页公开题录中的若干成果、原文和课题组名单。个人书目与外部书目覆盖不同，仍在核对其余公开论文。"
+    "note": "已对照本人书目、履历、合作者书目、DBLP、arXiv 搜索及会议正式稿。分开核对在香港大学就读、南洋理工大学工作与在武汉大学任教期间。部分 IEEE 论文全文署名仍未取得，保留梳理中。"
   },
   "olXDiE0AAAAJ": {
     "from": "2023-01-01",
@@ -17779,5 +17839,132 @@ const facultyPaperAudits = {
         "year": 2026
       }
     ]
+  },
+  "_mpy5bEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://faculty.xidian.edu.cn/hugn/zh_CN/index.htm",
+      "https://njuhugn.github.io/",
+      "https://dblp.org/pid/165/3128.html",
+      "https://api.crossref.org/works?filter=orcid:0000-0001-5239-8151",
+      "https://njuhugn.github.io/pdf/SeedOptE-aaai26.pdf",
+      "https://njuhugn.github.io/pdf/DESER-InformationIntelligence.pdf",
+      "https://www.sciencedirect.com/science/article/pii/S1566253526002526",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5704885",
+      "https://jinpeng0528.github.io/",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25n/chen25n.pdf",
+      "https://research.cuhk.edu.hk/en/publications/icm-assistant-instruction-tuning-multimodal-large-language-models/",
+      "https://www.cse.cuhk.edu.hk/~cwfu/",
+      "https://arxiv.org/abs/2412.18216",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/37893",
+      "https://doi.org/10.3233/FAIA240497",
+      "https://link.springer.com/chapter/10.1007/978-3-031-72890-7_11",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/28065",
+      "https://www.ijcai.org/proceedings/2023/0583",
+      "https://doi.org/10.1016/j.jiixd.2026.04.004",
+      "https://doi.org/10.1016/j.inffus.2026.104373",
+      "https://www.sciencedirect.com/science/article/pii/S0031320325005023",
+      "https://doi.org/10.1016/j.knosys.2024.112294",
+      "https://doi.org/10.1016/j.inffus.2024.102469",
+      "https://arxiv.org/abs/2512.17389",
+      "https://proceedings.mlr.press/v267/chen25n.html",
+      "https://doi.org/10.1609/aaai.v39i8.32908"
+    ],
+    "papers": [
+      {
+        "title": "Dual-Seed Evolutionary Algorithm for Noise Optimization in Diffusion Models",
+        "year": 2026,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37893",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式稿署西电、清华、浙江大学、北航；未见范围内的企业署名或同篇企业科研说明。"
+      },
+      {
+        "title": "MAMO: Multi-Task Architecture Learning via Multi-Objective and Gradients Mediative Kernel",
+        "year": 2024,
+        "url": "https://doi.org/10.3233/FAIA240497",
+        "outcome": "no-evidence",
+        "note": "ECAI 正式稿三位作者均署西电（含校内重点实验室），致谢为国家自然科学基金。个人主页用过稍不同的题名，已按同篇合并。"
+      },
+      {
+        "title": "Improving Vision and Language Concepts Understanding with Multimodal Counterfactual Samples",
+        "year": 2024,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-72890-7_11",
+        "outcome": "no-evidence",
+        "note": "Springer 正式会议章节于 2024-12-07 发布，四位作者均署西电；未见同篇企业参与证据。"
+      },
+      {
+        "title": "Towards More Faithful Natural Language Explanation Using Multi-Level Contrastive Learning in VQA",
+        "year": 2024,
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28065",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式稿为西电单位，无范围内企业署名或具名在读企业科研证据。"
+      },
+      {
+        "title": "TITAN: Task-oriented Dialogues with Mixed-Initiative Interactions",
+        "year": 2023,
+        "url": "https://www.ijcai.org/proceedings/2023/0583",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式稿作者单位为西电；无范围内企业署名或具名在读企业科研证据。"
+      },
+      {
+        "title": "Deep Modular Skip-Attention Networks for Multimodal Named Entity Recognition",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.jiixd.2026.04.004",
+        "outcome": "no-evidence",
+        "note": "出版社 2026-04-27 上线的校样中作者均署西电。赖成恩在作者简介中为 2025 年博士毕业后所列阿里通义工程师；稿件未说明其作为在读学生在阿里做本研究，也无同篇另一位阿里员工。"
+      },
+      {
+        "title": "Integrating Implicit Desire Fusion for Proactive Conversational Recommendation Systems with LLMs",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.inffus.2026.104373",
+        "outcome": "no-evidence",
+        "note": "以出版社 2026 年 10 月卷期为准，与 2025 年 SSRN 预印本合并；作者均署西电。赖成恩在另一篇作者简介中列毕业后任职阿里，本文无阿里机构署名或同篇在读企业参与说明。"
+      },
+      {
+        "title": "Advanced Dialog State Tracking with Noetic Graphs for Complex Human-Machine Interactions",
+        "year": 2025,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320325005023",
+        "outcome": "no-evidence",
+        "note": "Pattern Recognition 第 168 卷，六名作者均署西电；未见同篇企业科研证据。"
+      },
+      {
+        "title": "DANTE: Dialog graph enhanced prompt learning for conversational question answering over KGs",
+        "year": 2024,
+        "url": "https://doi.org/10.1016/j.knosys.2024.112294",
+        "outcome": "no-evidence",
+        "note": "Knowledge-Based Systems 第 301 卷，六名作者均署西电；未见同篇企业参与证据。"
+      },
+      {
+        "title": "ChatMDG: A discourse parsing graph fusion based approach for multi-party dialogue generation",
+        "year": 2024,
+        "url": "https://doi.org/10.1016/j.inffus.2024.102469",
+        "outcome": "no-evidence",
+        "note": "Information Fusion 第 110 卷，五名作者均署西电；未见同篇企业参与证据。"
+      },
+      {
+        "title": "The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2512.17389",
+        "outcome": "no-evidence",
+        "note": "2025-12-19 可核的预印本由胡光能单独署名。未找到截至 2026-11-12 的更晚正式版本，同篇三方关系不成立。"
+      },
+      {
+        "title": "SEFE: Superficial and Essential Forgetting Eliminator for Multimodal Continual Instruction Tuning",
+        "year": 2025,
+        "url": "https://proceedings.mlr.press/v267/chen25n.html",
+        "outcome": "no-evidence",
+        "note": "ICML 正式稿作者全署高校，致谢为公共科研基金。陈锦芃公开履历列华为实习并明确导师为 Horace Ip 和 Sam Kwong；履历未把该篇指定为华为项目，也未把胡光能列为该生导师。"
+      },
+      {
+        "title": "ICM-Assistant: Instruction-tuning Multimodal Large Language Models for Rule-based Explainable Image Content Moderation",
+        "year": 2025,
+        "url": "https://doi.org/10.1609/aaai.v39i8.32908",
+        "outcome": "lead",
+        "note": "原文列华为香港研发中心、华为 2012 实验室等，明确第一作者 Mengyang Wu 在本研究中的华为香港研发中心实习身份。同论文已按香港中文大学傅志伟与 Mengyang Wu 的师生关系收录；未找到胡光能直接指导参与本篇企业研究学生的材料。"
+      }
+    ],
+    "note": "核查窗口为 2023-01-01 至 2026-11-12。以个人完整公开书目、学校主页、DBLP 及作者标识下的 Crossref 记录交叉补齐论文，复核会议、期刊及预印本原文，共 13 篇。同题预印本与正式版合并。ICM-Assistant 已按另一所高校的实际指导关系收录，不能据此确认本教师的关系。"
   }
 };
