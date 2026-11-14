@@ -725,7 +725,10 @@ const facultyPaperAudits = {
       "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026",
       "https://news.hust.edu.cn/info/1004/59339.htm",
       "https://h-embodvis.github.io/DOMINO/",
-      "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18"
+      "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
+      "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026/blob/main/docs/GaugeAlign.pdf",
+      "https://www.sina.cn/news/detail/5346306543586269.html",
+      "https://dk-liang.github.io/#students"
     ],
     "papers": [
       {
@@ -1125,11 +1128,11 @@ const facultyPaperAudits = {
         "note": "正式期刊公开页核实作者表及论文研究，声明无利益冲突。公开摘要未完整展示单位及致谢；继续找可核对全文。"
       },
       {
+        "year": 2026,
         "title": "Aligning Learned Spatial Priors: Gauge Canonicalization for Multi-Camera 3D Perception under Sim-to-Real Transfer",
         "url": "https://openreview.net/forum?id=8Mnad7EhgF",
-        "year": 2026,
-        "outcome": "lead",
-        "note": "ECCV 2026 研讨会正式程序及作者仓库核实华中科技大学—华为团队、两位研究生共同第一与两位导师同篇。团队确认联合研究，仍核对同期企业作者身份与在读者在同项企业研究的分工。"
+        "outcome": "confirmed",
+        "note": "研讨会将胜出队伍 EVA 的报告列为本篇。作者仓库公开的 PDF 首页列武显瑾、方珩为华中科大共同第一作者，Xuanyang Xi 等三位为华为作者。方珩母校的具名报道直接指明本届同赛道获奖项目有华为团队参与技术联合研发，武显瑾、方珩由白翔与梁定康指导。梁本人学生名录独立确认两位在华中科技大学的共同指导；华为名下的同期专利与同年正式论文进一步核对 Xuanyang Xi 的企业研发身份。"
       }
     ],
     "note": "已按论文核查部分在读生的项目成果，通盘书目仍待核。"
@@ -10785,7 +10788,10 @@ const facultyPaperAudits = {
       "https://openreview.net/profile?id=~Hongbo_Wang3",
       "https://people.ucas.ac.cn/~heran",
       "https://openreview.net/profile?id=~Jinhua_Hao1",
-      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf"
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26ch/wang26ch.pdf",
+      "https://wafer-bob.github.io/",
+      "https://people.ucas.ac.cn/~0073747",
+      "https://aclanthology.org/people/zihan-lin/"
     ],
     "papers": [
       {
@@ -10811,9 +10817,72 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2609.06469",
         "note": "同一企业团队和同一学生的第三份成果；继续查具名导师与本篇项目的关系。",
         "outcome": "lead"
+      },
+      {
+        "year": 2024,
+        "title": "Hallo3D: Multi-Modal Hallucination Detection and Mitigation for Consistent 3D Content Generation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d75660d6eb0ce31360c768fef85301dd-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式首页列王宏博、中科院自动化所、国科大、上科大、中科大；论文做三维多视角幻觉抑制。未见快手或其他范围内企业同篇作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation",
+        "url": "https://arxiv.org/abs/2607.12752",
+        "outcome": "no-evidence",
+        "note": "作者原文 v2 和项目页将方法定位到时空一致的四维生成；机构为自动化所、国科大等高校，未见快手同篇作者，和 Hallo3D 分列。"
+      },
+      {
+        "year": 2026,
+        "title": "GaugeVLM: Structuring Spatial Supervision with Measured Geometric Interventions",
+        "url": "https://arxiv.org/abs/2609.38285",
+        "outcome": "no-evidence",
+        "note": "论文首页列五处机构均为高校或自动化所。用可控几何干预训练空间推理；王宏博主页提过快手实习，但论文未见企业作者或本篇实习说明。"
+      },
+      {
+        "year": 2026,
+        "title": "Think-Then-Generate: Structural Chain-of-Thought Reasoning for Consistent 3D Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Think-Then-Generate_Structural_Chain-of-Thought_Reasoning_for_Consistent_3D_Generation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式长文五名作者均为自动化所、国科大或上海科技大学。结构化推理改善三维生成一致性，未见本篇企业共著。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Fine-Grained Attribution: Instance-Aware Preference Optimization for Aligning Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_Towards_Fine-Grained_Attribution_Instance-Aware_Preference_Optimization_for_Aligning_Diffusion_Models_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVF 正式长文首页作者全部署国科大与自动化所；面向对象粒度的扩散模型偏好调优，与快手署名的 Coloring the Noise 分开。"
+      },
+      {
+        "year": 2026,
+        "title": "CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37915/41877",
+        "outcome": "no-evidence",
+        "note": "AAAI 正式原文说明六位作者只署国科大、自动化所与上海科技大学；基于时间步及梯度融合的三维优化，无范围企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Linear Shortcuts: Rectifying Diffusion Preference Optimization with Intrinsic Generative Geometry",
+        "url": "https://doi.org/10.1007/978-3-032-37083-9_29",
+        "outcome": "lead",
+        "note": "ECCV Springer 正式版有赫然及具名学生王宏博、阿里淘天姜文韬和Tiezheng Ge；姜本人列他自 2024-07 正式任职并列本篇。王宏博的具名经历是快手，未找到本篇项目对应阿里实研材料；不把该份经历套用到阿里。"
+      },
+      {
+        "year": 2026,
+        "title": "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1141.pdf",
+        "outcome": "lead",
+        "note": "ACL 正式 PDF 有国科大/自动化所 Zihan Lin 与同篇赫然及署美团的殷国君。Lin 本篇双署美团和校方，但正式来源未明确他的本篇实习及校内具体导师。"
+      },
+      {
+        "year": 2026,
+        "title": "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+        "url": "https://arxiv.org/abs/2609.33589",
+        "outcome": "lead",
+        "note": "截止内的 2026-09 原文首页脚注明确首作者 Zihan Lin 在美团做本篇、殷国君署美团，Lin 本人公开 GitHub 说明为国科大学生。仍缺该学生明确由赫然直接或共同指导的证据；NeurIPS 2026 尚未在调查截止时举办。"
       }
     ],
-    "note": "已逐篇查本合作簇，未覆盖教师全部成果。"
+    "note": "先逐篇核对王宏博及 Zihan Lin 的国科大合著公开原文；参与过某企业实习只用于找线索，正式原文及导师关系逐篇独立确认，完整书目仍在梳理。"
   },
   "d3g2VJQAAAAJ": {
     "from": "2023-01-01",
@@ -17395,7 +17464,10 @@ const facultyPaperAudits = {
       "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026",
       "https://news.hust.edu.cn/info/1004/59339.htm",
       "https://h-embodvis.github.io/DOMINO/",
-      "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18"
+      "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18",
+      "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026/blob/main/docs/GaugeAlign.pdf",
+      "https://www.sina.cn/news/detail/5346306543586269.html",
+      "https://dk-liang.github.io/#students"
     ],
     "papers": [
       {
@@ -17834,11 +17906,11 @@ const facultyPaperAudits = {
         "note": "Springer 会议卷及 DOI 题录核实梁定康、题名和作者列表；目前只有可核对题录，仍需作者单位、全文和致谢。"
       },
       {
+        "year": 2026,
         "title": "Aligning Learned Spatial Priors: Gauge Canonicalization for Multi-Camera 3D Perception under Sim-to-Real Transfer",
         "url": "https://openreview.net/forum?id=8Mnad7EhgF",
-        "year": 2026,
-        "outcome": "lead",
-        "note": "ECCV 2026 研讨会正式程序及作者仓库核实华中科技大学—华为团队、两位研究生共同第一与两位导师同篇。团队确认联合研究，仍核对同期企业作者身份与在读者在同项企业研究的分工。"
+        "outcome": "confirmed",
+        "note": "研讨会将胜出队伍 EVA 的报告列为本篇。作者仓库公开的 PDF 首页列武显瑾、方珩为华中科大共同第一作者，Xuanyang Xi 等三位为华为作者。方珩母校的具名报道直接指明本届同赛道获奖项目有华为团队参与技术联合研发，武显瑾、方珩由白翔与梁定康指导。梁本人学生名录独立确认两位在华中科技大学的共同指导；华为名下的同期专利与同年正式论文进一步核对 Xuanyang Xi 的企业研发身份。"
       }
     ],
     "note": "逐篇对照本人主页、DBLP、ORCID、预印本和正式来源；同名《Drift Calibration》原文仅署 UC San Diego，同事网络也不同，暂不归入本人的书目。仍有全文和书目范围待补。"
@@ -33779,7 +33851,11 @@ const facultyPaperAudits = {
       "https://people.ucas.ac.cn/~0002576",
       "https://www.iscas.ac.cn/yjsjy2016/zsxx2016/202109/t20210927_6216196.html",
       "https://api.crossref.org/works/10.1145/3659602",
-      "https://www.researchgate.net/publication/380615990_Push_the_Limit_of_Highly_Accurate_Ranging_on_Commercial_UWB_Devices"
+      "https://www.researchgate.net/publication/380615990_Push_the_Limit_of_Highly_Accurate_Ranging_on_Commercial_UWB_Devices",
+      "https://dblp.org/pid/75/1099.html",
+      "https://yuqisususu.github.io/publications/",
+      "https://recsys.acm.org/recsys23/session-2/",
+      "https://kdd2026.kdd.org/papers/"
     ],
     "papers": [
       {
@@ -33788,9 +33864,282 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3659602",
         "outcome": "confirmed",
         "note": "作者公开的 ACM 正式原文第 24 页致谢具名说明马俊麒在腾讯地图定位技术部实习期间完成该研究；同篇倪嘉志署腾讯，软件所 2022 年直博录取公示列导师金蓓弘，2024–2025 期刊作者简介确认马俊麒博士在读。"
+      },
+      {
+        "year": 2023,
+        "title": "A Deep Behavior Path Matching Network for Click-Through Rate Prediction",
+        "url": "https://doi.org/10.1145/3543873.3584662",
+        "outcome": "lead",
+        "note": "WWW 正式作者表列美团与软件所/国科大；全稿 arXiv:2302.00302 有美团外卖平台上线数据，未见 Yu、Lv 在美团完成本篇的具名说明。"
+      },
+      {
+        "year": 2023,
+        "title": "Deep Situation-Aware Interaction Network for Click-Through Rate Prediction",
+        "url": "https://doi.org/10.1145/3604915.3608793",
+        "outcome": "lead",
+        "note": "ACM RecSys 正式会议列 Yimin Lv 与金蓓弘署软件所，Shuli Wang 等署美团。全文致谢确认美团支持和部署，未具名列国科大学生企业实研；2026 年 arXiv:2604.12298 是同篇，不另计。"
+      },
+      {
+        "year": 2024,
+        "title": "Denoising Long- and Short-term Interests for Sequential Recommendation",
+        "url": "https://doi.org/10.1137/1.9781611978032.63",
+        "outcome": "no-evidence",
+        "note": "SIAM 正式论文署名机构为国科大、软件所和重庆大学，长短期兴趣去噪；arXiv:2407.14743 与正式版本合并，未见范围内企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Quantum Wireless Sensing: Principle, Design and Implementation",
+        "url": "https://doi.org/10.1145/3570361.3613258",
+        "outcome": "no-evidence",
+        "note": "MobiCom 正式作者署软件所、国科大、北大、山西大学等；设计量子射频接收实验，未见范围内企业。"
+      },
+      {
+        "year": 2024,
+        "title": "UWB-enabled Sensing for Fast and Effortless Blood Pressure Monitoring",
+        "url": "https://doi.org/10.1145/3659617",
+        "outcome": "no-evidence",
+        "note": "ACM 正式署名为软件所研究人员，超宽带信号用于无接触血压估计；不因商用 UWB 设备的使用认定企业人员。"
+      },
+      {
+        "year": 2024,
+        "title": "Embracing Distributed Acoustic Sensing in Car Cabin for Children Presence Detection",
+        "url": "https://doi.org/10.1145/3643548",
+        "outcome": "no-evidence",
+        "note": "ACM 登记署名含小米和微软亚洲研究院，车载扬声器及麦克风检测孩童存在；两家公司均不在本调查范围。"
+      },
+      {
+        "year": 2024,
+        "title": "Hypnos: A Contactless Sleep Stage Monitoring System Using UWB Signals",
+        "url": "https://doi.org/10.1145/3678581",
+        "outcome": "no-evidence",
+        "note": "ACM 署软件所/国科大与西安交大二附院，研究 UWB 睡眠分期；与连续呼吸监测是分立正式成果，无范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Leveraging Attention-reinforced UWB Signals to Monitor Respiration during Sleep",
+        "url": "https://doi.org/10.1145/3680550",
+        "outcome": "no-evidence",
+        "note": "ACM 署软件所、国科大与西安交大二附院，目标为整夜呼吸序列与异常事件，未见范围企业同篇作者。"
+      },
+      {
+        "year": 2024,
+        "title": "基于多任务注意力网络的非接触式睡眠监测",
+        "url": "https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202440389.pdf",
+        "outcome": "no-evidence",
+        "note": "期刊 2024 年第 61 卷第 12 期官方目录；软件所/国科大与西安交大二附院合著，用多任务注意力预测睡眠与呼吸状态，未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "RF-AE: Single-site Arterial Elasticity Estimation Using UWB Signals",
+        "url": "https://doi.org/10.1145/3729460",
+        "outcome": "no-evidence",
+        "note": "ACM 列软件所、北京医院与北大第三医院；估计单点动脉弹性，未见范围企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Manipulation of Acoustic Focusing for Multi-target Sensing with Distributed Microphones in Smart Car Cabin",
+        "url": "https://doi.org/10.1145/3729470",
+        "outcome": "no-evidence",
+        "note": "ACM 署软件所、国科大、北大和巴黎电信等。车载多通道声学聚焦的正式作者中未见范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "MULoc: Towards Millimeter-Accurate Localization for Unlimited UWB Tags via Anchor Overhearing",
+        "url": "https://doi.org/10.1109/infocom55648.2025.11044652",
+        "outcome": "no-evidence",
+        "note": "IEEE 与软件所官方海报列马俊麒、张扶桑、金蓓弘、李思恒、王志都为高校科研组；锚点偷听方案不同于腾讯实习完成的测距论文。"
+      },
+      {
+        "year": 2025,
+        "title": "Multi-Antenna Quantum Receiver: A Leap Beyond Angle Estimation Constraints",
+        "url": "https://doi.org/10.1145/3680207.3765250",
+        "outcome": "no-evidence",
+        "note": "ACM 正式机构包括微软亚洲研究院与国内外高校，微软不属调查范围。量子接收阵列估计来波角，与早期量子无线感知原理及液体识别不同。"
+      },
+      {
+        "year": 2025,
+        "title": "CARE-STaR: Constraint-aware Self-taught Reasoner",
+        "url": "https://aclanthology.org/2025.findings-acl.1116.pdf",
+        "outcome": "no-evidence",
+        "note": "ACL 正式论文首页列国科大、软件所、中国科大、MemTensor、中国电信研究院；后两企业均不在本次范围。"
+      },
+      {
+        "year": 2025,
+        "title": "Self-Supervised Human Mesh Recovery from Partial Point Cloud via a Self-Improving Loop",
+        "url": "https://doi.org/10.1145/3746027.3755570",
+        "outcome": "no-evidence",
+        "note": "ACM MM 正式作者全为软件所/国科大；作者项目显示用 SURREAL、BEHAVE、SLOPER4D 评估自监督方案，没有范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Hierarchical Sequence ID Representation of Large Language Models for Large-scale Recommendation Systems",
+        "url": "https://doi.org/10.1145/3701716.3715234",
+        "outcome": "lead",
+        "note": "ACM WWW Companion 正式作者有快手魏阳、蒋鹏等，首作 Rui Zhao 署软件所/国科大。缺直接指导和首作在快手完成本篇的具名证明，暂保留线索。"
+      },
+      {
+        "year": 2025,
+        "title": "Exploring Scaling Laws of CTR Model for Online Performance Improvement",
+        "url": "https://doi.org/10.1145/3705328.3748046",
+        "outcome": "lead",
+        "note": "原文 arXiv:2508.15326v2 致谢美团并列产品实测；学校公示第一作者赖伟江入学导师为吴国全，合著的郑益源在张扶桑国科大页面列受指导。未见金蓓弘联培证明或学生在美团做该具体论文的具名说明。"
+      },
+      {
+        "year": 2025,
+        "title": "Modeling Long-term User Behaviors with Diffusion-driven Multi-interest Network for CTR Prediction",
+        "url": "https://doi.org/10.1145/3705328.3748045",
+        "outcome": "lead",
+        "note": "RecSys 正式作者包含美团；作者全文 arXiv:2508.15311 的致谢仅写美团资助，国科大第一作者学校名录另列导师吴国全，无金蓓弘双指导及学生在美团做该文的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Unleashing the Potential of Sparse Attention on Long-term Behaviors for CTR Prediction",
+        "url": "https://doi.org/10.1145/3774904.3792808",
+        "outcome": "lead",
+        "note": "正式作者含美团公司；公开原文 arXiv:2601.17836 致谢美团资助和产品 A/B 测试，未具名对应国科大学生企业参与；首作赖伟江推免公示导师吴国全。"
+      },
+      {
+        "year": 2026,
+        "title": "GraTAG: Production AI Search via Graph-Based Query Decomposition and Triplet Aligned Generation with Rich Multimodal Representations",
+        "url": "https://doi.org/10.1145/3770855.3818426",
+        "outcome": "no-evidence",
+        "note": "KDD 官网列软件所、中科大、浙大等处，唯一署企业为 MemTensor，超出企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "From Prototype to Nationwide Deployment: A 5-year Retrospect of a WiFi-based Outdoor Localization System",
+        "url": "https://doi.org/10.1145/3790112",
+        "outcome": "lead",
+        "note": "ACM 正式作者包括腾讯地图倪嘉志、金蓓弘及其 2022 级直博生马俊麒。马在腾讯完成 2024 年另一篇 UWB 测距不等于在腾讯完成本篇，南洋理工社库仅有元数据，暂缺原文致谢及特定项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Wave-to-Mute: In-Cabin Single Gesture Mute Control via Acoustic Sensing",
+        "url": "https://doi.org/10.1007/978-3-032-22500-9_17",
+        "outcome": "no-evidence",
+        "note": "Springer 正式章节列四名软件所及相关高校作者，车内单手势静音原型，出版页未列范围企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Quantum Sensing for Fine-Grained Liquid Recognition Using Rydberg Atoms",
+        "url": "https://doi.org/10.1109/mcom.001.2600305",
+        "outcome": "no-evidence",
+        "note": "IEEE 2026-10 登记正式版，合并 arXiv:2407.19656；与其他通讯综述区分，公开稿列山西大学及软工所、北大等，不见范围内企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Human Mesh Recovery from Partial Point Cloud Without Human Annotations",
+        "url": "https://doi.org/10.1109/icassp55912.2026.11463875",
+        "outcome": "no-evidence",
+        "note": "ICASSP 2026 官方议程及出版方所列五位作者均为中科院软件所。全文暂未获取，待与 2025 ACM MM 同作者的不同题名核对，尚不影响关系判断。"
+      },
+      {
+        "year": 2026,
+        "title": "mmWaveFlow: Unified Enhancement and Generation of mmWave Human Point Clouds",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Su_mmWaveFlow_Unified_Enhancement_and_Generation_of_mmWave_Human_Point_Clouds_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "可见 CVF 正式作者为苏畅、金蓓弘、石琦文和王志，皆为软件所与国科大。原文用毫米波处理稀疏人体点云，未见范围企业。"
+      },
+      {
+        "year": 2023,
+        "title": "A Vlogger-augmented Graph Neural Network Model for Micro-video Recommendation",
+        "url": "https://doi.org/10.1007/978-3-031-43427-3_41",
+        "outcome": "no-evidence",
+        "note": "Springer 正式题录署软件所、国科大与重庆大学，arXiv:2405.18260 为同作品；聚合创作者与用户关系，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Multiple Hypergraph Learning for Ephemeral Group Recommendation",
+        "url": "https://doi.org/10.1007/978-3-031-70378-2_6",
+        "outcome": "no-evidence",
+        "note": "Springer 正式章节的 Rui Zhao、金蓓弘及其余三位均署软件所与国科大；多超图面向临时群体推荐，无企业署名。"
+      },
+      {
+        "year": 2024,
+        "title": "Multi-intent Driven Contrastive Sequential Recommendation",
+        "url": "https://doi.org/10.1007/978-3-031-70378-2_9",
+        "outcome": "no-evidence",
+        "note": "Springer 与 ECML PKDD 作者预印本均列国科大、软件所、重庆大学；用原型指导双层对比学习，目标企业未署名。"
+      },
+      {
+        "year": 2024,
+        "title": "Enhancing Sequential Recommendation via Aligning Interest Distributions",
+        "url": "https://doi.org/10.1007/978-3-031-72356-8_5",
+        "outcome": "no-evidence",
+        "note": "ICANN 正式版本只列重庆大学、软件所及国科大；训练序列推荐模型进行兴趣分布对齐，不见企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Collaborative Interest-Aware Graph Learning for Group Identification",
+        "url": "https://doi.org/10.1007/978-3-032-06129-4_24",
+        "outcome": "no-evidence",
+        "note": "ECML PKDD 正式出版和会议作者稿均列软件所、国科大、重庆大学；arXiv:2506.14826 同篇成果，未见企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Empowering Contactless Sleep Health Monitoring with Multi-task Learning",
+        "url": "https://doi.org/10.1007/978-981-92-1300-9_37",
+        "outcome": "no-evidence",
+        "note": "PAKDD 正式作者署软件所、国科大、西安交大二附院；字节人员在会议论文集为编辑，未参与这篇多任务睡眠监测论文。"
+      },
+      {
+        "year": 2026,
+        "title": "Semantic Gaussian Mixture Variational Autoencoder for Sequential Recommendation",
+        "url": "https://doi.org/10.1007/978-981-95-4155-3_22",
+        "outcome": "no-evidence",
+        "note": "DASFAA 2025 工作为 2026 年 Springer 正式出版，合并 arXiv:2502.16140。多峰先验用于建模顺序推荐，作者署软件所/国科大和重庆大学。"
+      },
+      {
+        "year": 2025,
+        "title": "Reducing Interaction Noise for Sequential Recommendation via Robust Interests",
+        "url": "https://doi.org/10.1007/978-981-97-5555-4_4",
+        "outcome": "no-evidence",
+        "note": "DASFAA 2024 会议成果由 Springer 于 2025 年上线，用鲁棒兴趣原型去噪；作者署软件所、国科大和重庆大学，未见范围企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Gemini: A Dual-Task Co-training Model for Partial Label Learning",
+        "url": "https://doi.org/10.1007/978-981-99-8388-9_27",
+        "outcome": "no-evidence",
+        "note": "Springer 正式作者仅重庆大学和软件所。双任务联合学习用于部分标签消歧，与后续 AsyCo 的不对称训练及新增作者不同。"
+      },
+      {
+        "year": 2025,
+        "title": "KnowGNN: a knowledge-aware and structure-sensitive model-level explainer for graph neural networks",
+        "url": "https://doi.org/10.1007/s10489-024-06034-4",
+        "outcome": "no-evidence",
+        "note": "期刊正式页列华北电力大学与软件所，公布了跨校作者贡献；2024 在线及 2025 同一正式卷期合并，无范围企业。"
+      },
+      {
+        "year": 2025,
+        "title": "AsyCo: an asymmetric dual-task co-training model for partial-label learning",
+        "url": "https://doi.org/10.1007/s11432-023-4068-1",
+        "outcome": "no-evidence",
+        "note": "期刊与 arXiv:2407.15036 为同项目，正式作者署重庆大学、软件所、国科大、浙大、南洋理工；不对称训练结合标签补集，未见企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Orthogonal Hyper-category Guided Multi-interest Elicitation for Micro-video Matching",
+        "url": "https://doi.org/10.1109/icme57554.2024.10687880",
+        "outcome": "no-evidence",
+        "note": "IEEE 正式发表版本与 arXiv:2407.14741 同一作者和模型；公开稿列唯一企业为新加坡 MX Media，不在范围内。"
+      },
+      {
+        "year": 2026,
+        "title": "EcoTrack: Enabling Energy-Efficient Millimeter-Accurate Tracking on Commodity UWB Devices",
+        "url": "https://doi.org/10.1145/3832016",
+        "outcome": "no-evidence",
+        "note": "ACM 作者单位包括软件所、国科大、北航和南洋理工，论文以低功耗跟踪为目标；与马俊麒在腾讯做的高精度测距为不同合作，正式题录无腾讯。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards an Acoustic Keyless Entry System: Leveraging Off-the-Shelf Wideband Ultrasound for Cost-Effective Approach Detection",
+        "url": "https://doi.org/10.1145/3831966",
+        "outcome": "no-evidence",
+        "note": "ACM 正式题录核对了苏雨琦本人发表清单，列软件所、国科大、北航、北大及巴黎电信等高校。商用超声部件用于无钥匙进入测试，未发现范围内企业作者。"
       }
     ],
-    "note": "从公开原文及软件所研究生名单核对同一论文的任职与直接指导，完整书目仍在梳理。"
+    "note": "继续梳理同篇作者角色：已经逐篇核对当前公开的定位、感知、自然语言处理及工业推荐论文。正式合著、数据使用和致谢资助分别记录；未证实企业实研或指导关系暂留线索。其余公开题录仍在对账。"
   },
   "RaFaX88AAAAJ": {
     "from": "2023-01-01",
@@ -33957,5 +34306,95 @@ const facultyPaperAudits = {
       }
     ],
     "note": "以教师公开书目、作者项目及正式出版社交叉核验，逐篇补入；尚在梳理。"
+  },
+  "h_GwGfQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://arxiv.org/abs/2609.15311",
+      "https://www.cse.cuhk.edu.hk/people/faculty/zhengrong-wang/",
+      "https://seanzw.github.io/publications/",
+      "https://dblp.org/pid/242/9000.html",
+      "https://orcid.org/0000-0003-2366-4267",
+      "https://www.cse.cuhk.edu.hk/~byu/publications.html",
+      "https://sy2u.github.io/",
+      "https://arxiv.org/pdf/2609.15311",
+      "https://www.microarch.org/micro59/program/",
+      "https://dblp.org/rec/data/12/YuHQGGWZY26",
+      "https://arxiv.org/abs/2605.17892",
+      "https://arxiv.org/pdf/2605.17892",
+      "https://doi.org/10.1109/LCA.2025.3564535",
+      "https://api.crossref.org/works/10.1109/LCA.2025.3564535",
+      "https://dblp.org/rec/journals/cal/AbrishamiWN25.html",
+      "https://doi.org/10.1109/LCA.2024.3499339",
+      "https://api.crossref.org/works/10.1109/LCA.2024.3499339",
+      "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502279808853077",
+      "https://doi.org/10.1145/3690824",
+      "https://lca.ece.utexas.edu/pubs/PIMSAB_TACO_25.pdf",
+      "https://arxiv.org/abs/2311.11384",
+      "https://dblp.org/rec/journals/taco/MaMWHWNJA24",
+      "https://doi.org/10.1145/3613424.3623778",
+      "https://www.cs.cmu.edu/~beckmann/publications/papers/2023.micro.affinity.pdf",
+      "https://cmu-corgi.github.io/publications.html",
+      "https://doi.org/10.1145/3582016.3582032",
+      "https://polyarch.cs.ucla.edu/papers/asplos2023-infinity-stream.pdf",
+      "https://dblp.org/rec/conf/asplos/WangLAJN23",
+      "https://pubmed.ncbi.nlm.nih.gov/38325211/",
+      "https://www.asicon.org/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/2023/program/ASICON2023-Program-Draft_0829.pdf",
+      "https://zjru.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "FlashGPU-sim: Enabling GPU Modeling for Modern Architectures and AI Workloads",
+        "url": "https://arxiv.org/abs/2609.15311",
+        "outcome": "lead",
+        "note": "余思颖自述 2025-08 起在港中大攻读博士，由Zhengrong Wang及 Bei Yu 指导，2026-06 起在华为 Leibniz Research Center 实习。MICRO 2026 正式议程与原稿作者单位仅港中大、浙大、上海交大；原稿脚注列科研基金和校方资助，未把同篇工作归属于实习，也未确认同篇华为员工。保留线索；预印本、会议稿和 Zenodo 复现包只计一篇。",
+        "year": 2026
+      },
+      {
+        "title": "CPPL: A Circuit Prompt Programming Language",
+        "url": "https://arxiv.org/abs/2605.17892",
+        "outcome": "no-evidence",
+        "note": "5 月预印本首页仅列港中大、港中深、复旦大学三校，未找到目标企业作者或学生在其中从事同篇研究的证据。作者的校方目录所列 ICCD 会议为 11 月 16–18 日，超过核查截止日；这里计入截止日前已公开的预印本。",
+        "year": 2026
+      },
+      {
+        "title": "Cache and Near-Data Co-Design for Chiplets",
+        "url": "https://doi.org/10.1109/LCA.2025.3564535",
+        "outcome": "no-evidence",
+        "note": "IEEE 向 Crossref 提交的署名资料逐人列出三名作者都属 UCLA，含 Zhengrong Wang 的相同 ORCID；其他公开书目亦匹配。未找到其作为范围内教师指导学生在指定企业完成该篇的证据。IEEE 全文未能公开访问，故依据出版者署名数据判断。",
+        "year": 2025
+      },
+      {
+        "title": "SPGPU: Spatially Programmed GPU",
+        "url": "https://doi.org/10.1109/LCA.2024.3499339",
+        "outcome": "no-evidence",
+        "note": "IEEE 提交的出版数据列五名作者均为 UCLA，并用 ORCID 确定 Zhengrong Wang；JST 索引逐名一致。IEEE 全文未能公开访问。未找到范围内师生及指定企业同篇工作证据。",
+        "year": 2024
+      },
+      {
+        "title": "PIMSAB: A Processing-In-Memory System with Spatially-Aware Communication and Bit-Serial-Aware Computation",
+        "url": "https://doi.org/10.1145/3690824",
+        "outcome": "no-evidence",
+        "note": "原刊全文所列作者单位为 UCLA、UT Austin、Arizona State University 和 KAUST，Zhengrong Wang 仍署 UCLA，未找到范围内师生和指定企业人员证据。2023 年同题 arXiv 版本并入 2024 年 ACM 正式刊文。",
+        "year": 2024
+      },
+      {
+        "title": "Affinity Alloc: Taming Not-So Near-Data Computing",
+        "url": "https://doi.org/10.1145/3613424.3623778",
+        "outcome": "no-evidence",
+        "note": "作者托管的 MICRO 2023 正式全文所列作者为 UCLA、Carnegie Mellon University 两校，Zhengrong Wang 署 UCLA；未找到目标学校的学生、指导与指定企业的同篇参与组合。",
+        "year": 2023
+      },
+      {
+        "title": "Infinity Stream: Portable and Programmer-Friendly In-/Near-Memory Fusion",
+        "url": "https://doi.org/10.1145/3582016.3582032",
+        "outcome": "no-evidence",
+        "note": "UCLA 实验室保存的 ASPLOS 2023 正式全文作者仅 UCLA 与 UT Austin，未找到范围学校师生及指定企业的同篇参与。标题不同的 CAL 短文首刊于 2022 年，超出窗口，未计入。",
+        "year": 2023
+      }
+    ],
+    "note": "交叉核对港中大院系档案、本人完整公开目录、签名 ORCID、DBLP 及共同作者的校方或论文清单；截至 2026-11-12 识别并研判 7 篇独立论文，其中两篇 IEEE 文章以出版商提交的原始署名资料核查，未能访问全文。剔除 UCLA 学位论文、FlashGPU-sim 同篇复现包，以及 DBLP 混入的两篇无相同 ORCID 且原始署名明显异同的同名论文（DSFF-GAN、ASICON 2023 Max Unpooling）；SUSim 仅见 2027 年 HPCA 目录，未查到截止日前公开稿。"
   }
 };

@@ -39669,6 +39669,112 @@ const survey = {
         "本篇正式版本的华中科技大学作者；校方具名确认其共同指导学生的本项研究。",
         "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
       ]
+    },
+    {
+      "paperId": "openreview:8Mnad7EhgF",
+      "company": "华为",
+      "team": "多相机三维感知联合团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "title": "Aligning Learned Spatial Priors: Gauge Canonicalization for Multi-Camera 3D Perception under Sim-to-Real Transfer",
+      "short": "GaugeAlign",
+      "date": "2026-09-08",
+      "venue": "ECCV 2026 · AI City Challenge Workshop",
+      "area": "多相机三维感知",
+      "paper": "https://openreview.net/forum?id=8Mnad7EhgF",
+      "student": [
+        "方珩 · Heng Fang",
+        "该项联合研究及会议报告的华中科技大学共同第一作者，学校相关报道和导师名录列其为博士一年级。",
+        "https://www.sina.cn/news/detail/5346306543586269.html"
+      ],
+      "employee": [
+        "Xuanyang Xi",
+        "作者稿首页单列华为作者；同期华为机器人研发专利登记及 ECCV 正式出版物复核企业身份。",
+        "https://k-knowledge.kr/srch/read.jsp?id=290738126"
+      ],
+      "advising": [
+        "校内共同指导",
+        "竞赛报道明确具名白翔和梁定康指导方珩、武显瑾；梁定康的公开学生名录交叉证实。",
+        "https://dk-liang.github.io/#students"
+      ],
+      "extra": [
+        [
+          "作者公开全文与逐名单位",
+          "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026/blob/main/docs/GaugeAlign.pdf"
+        ],
+        [
+          "比赛官方结果和论文",
+          "https://www.aicitychallenge.org/2026-challenge-winners/"
+        ],
+        [
+          "会议研讨会官方日程",
+          "https://www.aicitychallenge.org/2026-workshop/"
+        ],
+        [
+          "同年正式论文的华为任职署名",
+          "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18#author-information"
+        ]
+      ],
+      "evidence": "研讨会将胜出队伍 EVA 的报告列为本篇。作者仓库公开的 PDF 首页列武显瑾、方珩为华中科大共同第一作者，Xuanyang Xi 等三位为华为作者。方珩母校的具名报道直接指明本届同赛道获奖项目有华为团队参与技术联合研发，武显瑾、方珩由白翔与梁定康指导。梁本人学生名录独立确认两位在华中科技大学的共同指导；华为名下的同期专利与同年正式论文进一步核对 Xuanyang Xi 的企业研发身份。",
+      "id": "huawei-gaugealign-hust-tre69v0aaaaj",
+      "faculty": [
+        "梁定康 · Dingkang Liang",
+        "华中科技大学同篇作者；具名指导该项目的两位在读学生。",
+        "http://faculty.hust.edu.cn/dkliang/zh_CN/index.htm"
+      ]
+    },
+    {
+      "paperId": "openreview:8Mnad7EhgF",
+      "company": "华为",
+      "team": "多相机三维感知联合团队",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "title": "Aligning Learned Spatial Priors: Gauge Canonicalization for Multi-Camera 3D Perception under Sim-to-Real Transfer",
+      "short": "GaugeAlign",
+      "date": "2026-09-08",
+      "venue": "ECCV 2026 · AI City Challenge Workshop",
+      "area": "多相机三维感知",
+      "paper": "https://openreview.net/forum?id=8Mnad7EhgF",
+      "student": [
+        "方珩 · Heng Fang",
+        "该项联合研究及会议报告的华中科技大学共同第一作者，学校相关报道和导师名录列其为博士一年级。",
+        "https://www.sina.cn/news/detail/5346306543586269.html"
+      ],
+      "employee": [
+        "Xuanyang Xi",
+        "作者稿首页单列华为作者；同期华为机器人研发专利登记及 ECCV 正式出版物复核企业身份。",
+        "https://k-knowledge.kr/srch/read.jsp?id=290738126"
+      ],
+      "advising": [
+        "校内共同指导",
+        "竞赛报道明确具名白翔和梁定康指导方珩、武显瑾；梁定康的公开学生名录交叉证实。",
+        "https://dk-liang.github.io/#students"
+      ],
+      "extra": [
+        [
+          "作者公开全文与逐名单位",
+          "https://github.com/HyperbolicCurve/GaugeAlign-AICity2026/blob/main/docs/GaugeAlign.pdf"
+        ],
+        [
+          "比赛官方结果和论文",
+          "https://www.aicitychallenge.org/2026-challenge-winners/"
+        ],
+        [
+          "会议研讨会官方日程",
+          "https://www.aicitychallenge.org/2026-workshop/"
+        ],
+        [
+          "同年正式论文的华为任职署名",
+          "https://link.springer.com/chapter/10.1007/978-3-032-37592-6_18#author-information"
+        ]
+      ],
+      "evidence": "研讨会将胜出队伍 EVA 的报告列为本篇。作者仓库公开的 PDF 首页列武显瑾、方珩为华中科大共同第一作者，Xuanyang Xi 等三位为华为作者。方珩母校的具名报道直接指明本届同赛道获奖项目有华为团队参与技术联合研发，武显瑾、方珩由白翔与梁定康指导。梁本人学生名录独立确认两位在华中科技大学的共同指导；华为名下的同期专利与同年正式论文进一步核对 Xuanyang Xi 的企业研发身份。",
+      "id": "huawei-gaugealign-hust-ueltiq4aaaaj",
+      "faculty": [
+        "白翔 · Xiang Bai",
+        "华中科技大学同篇作者；具名指导该项目的两位在读学生。",
+        "http://faculty.hust.edu.cn/baixiang/zh_CN/index/1412472/list/index.htm"
+      ]
     }
   ]
 };
