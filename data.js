@@ -30869,6 +30869,628 @@ const survey = {
         ]
       ],
       "paperId": "arxiv:2403.07902"
+    },
+    {
+      "id": "predicting-future-utility-baidu-fudan-dfwdqzqaaaaj",
+      "paperId": "arxiv:2602.08585",
+      "company": "百度",
+      "team": "百度百舸",
+      "school": "复旦大学",
+      "studentSchool": "复旦大学",
+      "faculty": [
+        "陈静静 · Jingjing Chen",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://jingjing1.github.io/#teach"
+      ],
+      "employee": [
+        "Shiyong Li",
+        "百度系统架构师，其任职在英特尔与百度的客户案例中具名；同篇和 2025 年百度百舸技术报告均具名署百度。",
+        "https://www.intel.com.tw/content/dam/www/central-libraries/us/en/documents/2022-05/baidu-article-3-summary.pdf"
+      ],
+      "student": [
+        "Ziyao Tang",
+        "复旦在读硕士 Ziyao Tang 的第一作者脚注明确说明本工作在百度实习期间完成；论文致谢具体列百度百舸高校合作计划。",
+        "https://jingjing1.github.io/"
+      ],
+      "title": "Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction",
+      "short": "Predicting Future Utility",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "大模型系统与推理",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tang26i/tang26i.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v306/tang26i.html"
+        ],
+        [
+          "具名实习脚注和项目致谢",
+          "https://arxiv.org/html/2602.08585"
+        ],
+        [
+          "同一企业作者的百度百舸报告",
+          "https://arxiv.org/abs/2512.10576"
+        ]
+      ],
+      "evidence": "复旦在读硕士 Ziyao Tang 的第一作者脚注明确说明本工作在百度实习期间完成；论文致谢具体列百度百舸高校合作计划。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "复旦大学陈静静教师主页的本人课题组名录具名列 Ziyao Tang 为 2025 年 9 月起的硕士生；同篇陈静静为高校侧通讯作者。",
+        "https://jingjing1.github.io/"
+      ]
+    },
+    {
+      "id": "auctionformer-alibaba-ustc-hdhaqb0aaaaj",
+      "paperId": "pmlr:v235:huang24c",
+      "company": "阿里巴巴",
+      "team": "通义实验室 / 达摩院 DAIL",
+      "school": "中国科学技术大学",
+      "studentSchool": "中国科学技术大学",
+      "faculty": [
+        "王翔 · Xiang Wang",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://saids.ustc.edu.cn/2022/0321/c36359a549612/page.htm"
+      ],
+      "employee": [
+        "Bolin Ding",
+        "本人正式履历记录 2017 年起任职阿里巴巴，系同篇阿里巴巴署名作者，并为该学生具名的达摩院实习导师。",
+        "https://bolinding.github.io/index.html"
+      ],
+      "student": [
+        "黄科鑫 · Kexin Huang",
+        "中国科大 Kexin Huang 的本人主页具名列出 2023 年 4 月至 2026 年 1 月阿里通义实习和达摩院 DAIL 企业导师；ICML 原文把第一作者标为该工作在阿里完成，四名达摩院导师均同篇。",
+        "https://kexinhuang02.github.io/"
+      ],
+      "title": "Auctionformer: A Unified Deep Learning Algorithm for Solving Equilibrium Strategies in Auction Games",
+      "short": "Auctionformer",
+      "date": "2024-07",
+      "venue": "ICML 2024",
+      "area": "机器学习与博弈论",
+      "paper": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/huang24c/huang24c.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://proceedings.mlr.press/v235/huang24c.html"
+        ]
+      ],
+      "evidence": "中国科大 Kexin Huang 的本人主页具名列出 2023 年 4 月至 2026 年 1 月阿里通义实习和达摩院 DAIL 企业导师；ICML 原文把第一作者标为该工作在阿里完成，四名达摩院导师均同篇。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "Kexin Huang 本人主页具名列在读阶段由王翔和何向南指导；本篇王翔具名联署。",
+        "https://kexinhuang02.github.io/"
+      ]
+    },
+    {
+      "id": "stream3d-vlm-tencent-zju-sc-wmzwaaaaj",
+      "paperId": "arxiv:2606.06891",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "朱建科 · Jianke Zhu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/en/jkzhu"
+      ],
+      "employee": [
+        "Lei Ke",
+        "本人履历列 2025 年 3 月至 2026 年 8 月任腾讯混元高级研究科学家；于瀚勋本人履历列其为腾讯实习导师，且本篇腾讯署名具名。",
+        "https://www.kelei.site/"
+      ],
+      "student": [
+        "于瀚勋 · Hanxun Yu",
+        "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。",
+        "https://hanxunyu.github.io/"
+      ],
+      "title": "Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors",
+      "short": "Stream3D-VLM",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/1896.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://eccv.ecva.net/virtual/2026/poster/3538"
+        ],
+        [
+          "含具名实习脚注的预印本",
+          "https://arxiv.org/html/2606.06891"
+        ]
+      ],
+      "evidence": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "于瀚勋本人主页具名列其自 2023 年在读浙江大学博士阶段由朱建科指导；两人均为本篇具名作者。",
+        "https://hanxunyu.github.io/"
+      ]
+    },
+    {
+      "id": "depthvlm-tencent-zju-sc-wmzwaaaaj",
+      "paperId": "arxiv:2605.15876",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "朱建科 · Jianke Zhu",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://person.zju.edu.cn/en/jkzhu"
+      ],
+      "employee": [
+        "Lei Ke",
+        "本人履历列 2025 年 3 月至 2026 年 8 月任腾讯混元高级研究科学家；于瀚勋本人履历列其为腾讯实习导师，且本篇腾讯署名具名。",
+        "https://www.kelei.site/"
+      ],
+      "student": [
+        "于瀚勋 · Hanxun Yu",
+        "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。",
+        "https://hanxunyu.github.io/"
+      ],
+      "title": "Unlocking Dense Metric Depth Estimation in VLMs",
+      "short": "DepthVLM",
+      "date": "2026-05",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://arxiv.org/pdf/2605.15876",
+      "extra": [
+        [
+          "论文题录",
+          "https://arxiv.org/abs/2605.15876"
+        ],
+        [
+          "含具名实习脚注的预印本",
+          "https://arxiv.org/html/2605.15876"
+        ]
+      ],
+      "evidence": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "于瀚勋本人主页具名列其自 2023 年在读浙江大学博士阶段由朱建科指导；两人均为本篇具名作者。",
+        "https://hanxunyu.github.io/"
+      ]
+    },
+    {
+      "id": "se-detr-tencent-sjtu-yd58y_0aaaaj",
+      "paperId": "eccv:2026:5708",
+      "company": "腾讯",
+      "team": "腾讯优图",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "马利庄 · Lizhuang Ma",
+        "研究期间为该在读学生的具名校内导师，论文作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/malizhuang.html"
+      ],
+      "employee": [
+        "丁守鸿 · Shouhong Ding",
+        "2023 年学术会议记录其于 2016 年正式加入腾讯；2025 年 IAPR/IEEE 讲者资料列其为腾讯优图研究总监。同篇具名署腾讯优图并为通讯作者。",
+        "https://www.comp.hkbu.edu.hk/wsb2025/lecturer_details.php?lect_id=2"
+      ],
+      "student": [
+        "胡澄洋 · Chengyang Hu",
+        "胡澄洋在上海交通大学博士期间在腾讯优图实习；会议原文将胡澄洋单独标为在腾讯优图实习期间完成此项工作，其本人履历亦列该实习经历。",
+        "https://huchengyang.notion.site/"
+      ],
+      "title": "SE-DETR: Explicit Semantic Exploration for Generalizability and Distinguishability in Video Temporal Grounding",
+      "short": "SE-DETR",
+      "date": "2026-09",
+      "venue": "ECCV 2026",
+      "area": "计算机视觉与多模态学习",
+      "paper": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/12435.pdf",
+      "extra": [
+        [
+          "论文题录",
+          "https://eccv.ecva.net/virtual/2026/poster/5708"
+        ],
+        [
+          "上海交大实验室成果列表",
+          "https://dmcv.sjtu.edu.cn/"
+        ],
+        [
+          "2023 年会议丁守鸿履历",
+          "https://ccbr99.cn/2023/tslt.html"
+        ]
+      ],
+      "evidence": "胡澄洋在上海交通大学博士期间在腾讯优图实习；会议原文将胡澄洋单独标为在腾讯优图实习期间完成此项工作，其本人履历亦列该实习经历。 原文中的三人署名及企业研究人员的独立任职材料均已核对。",
+      "advising": [
+        "研究期间的具名导师",
+        "胡澄洋本人履历具名列马利庄为上海交通大学博士导师。两人在该论文联署，上交数字媒体与计算机视觉实验室亦记载该篇。",
+        "https://huchengyang.notion.site/"
+      ]
+    },
+    {
+      "id": "alibaba-multimodal-rope-ucas-chang",
+      "company": "阿里巴巴",
+      "team": "通义千问",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "常虹 · Hong Chang",
+        "中国科学院计算技术研究所智能信息处理实验室研究员。",
+        "https://english.ict.cas.cn/people/scien/bln/202303/t20230317_328346.html"
+      ],
+      "employee": [
+        "林俊旸 · Junyang Lin",
+        "2025 年 7 月为阿里巴巴资深技术员工和通义千问技术负责人；首版该年 10 月公开并署其为千问团队作者。",
+        "https://events.polyu.edu.hk/prsc2025/keynoteii"
+      ],
+      "student": [
+        "黄杰 · Jie Huang",
+        "中科院计算所官方名录列为 2024 级在读硕士生。",
+        "https://iip.ict.ac.cn/yjspy/xs/zdsss/"
+      ],
+      "title": "Revisiting Multimodal Positional Encoding in Vision–Language Models",
+      "short": "MHRoPE",
+      "date": "2026-04",
+      "venue": "ICLR",
+      "area": "视觉与多模态",
+      "paper": "https://openreview.net/pdf/c5f4d10dae70237b1d0354878beb73ae7d470d1a.pdf",
+      "evidence": "正式版首页实习脚注的 § 仅标在黄杰名字后，明确该工作在阿里通义千问实习期间开展；原文同时有校内导师常虹和同期企业技术负责人林俊旸。",
+      "advising": [
+        "校内硕士导师",
+        "计算所官方在读硕士生名录具名列导师常虹及入学年份 2024。",
+        "https://iip.ict.ac.cn/yjspy/xs/zdsss/"
+      ],
+      "extra": [
+        [
+          "计算所正式会议报道",
+          "https://klais.ict.ac.cn/kxyj/yjjz/202609/t20260928_858507.html"
+        ],
+        [
+          "作者个人资料",
+          "https://justinlin610.github.io/"
+        ],
+        [
+          "首发预印本",
+          "https://arxiv.org/html/2510.23095v1"
+        ]
+      ],
+      "paperId": "arxiv:2510.23095"
+    },
+    {
+      "id": "bytedance-dreamactor-m2-ucas-chang",
+      "company": "字节跳动",
+      "team": "Bytedance Intelligent Creation",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "常虹 · Hong Chang",
+        "中国科学院计算技术研究所及中国科学院大学研究员。",
+        "https://english.ict.cas.cn/people/scien/bln/202303/t20230317_328346.html"
+      ],
+      "employee": [
+        "Yuxuan Luo",
+        "字节跳动 DreamActor-M2 项目负责人；在 SIGGRAPH 2026 以字节跳动身份报告本项研究，上一年度 ICCV 已以同团队身份发表系列独立成果。",
+        "https://s2026.conference-schedule.org/presenter/?uid=611014"
+      ],
+      "student": [
+        "罗明双 · Mingshuang Luo",
+        "2022 年入学的国科大博士生；本人公开履历记载在 2025 年 4 月至 2026 年 1 月做字节跳动研究实习生，并列出本项目。",
+        "https://luomingshuang.github.io/"
+      ],
+      "title": "DreamActor-M2: Universal Character Image Animation via Spatiotemporal In-Context Learning",
+      "short": "DreamActor-M2",
+      "date": "2026-07-20",
+      "venue": "SIGGRAPH",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/html/2601.21716v1",
+      "evidence": "该项目首版于 2026 年 1 月 29 日公开。罗明双本人的公开履历列其 2025 年 4 月至 2026 年 1 月在字节跳动研究实习，并单列本篇项目；项目原页明确将罗列为校企双署名共同一作，常虹为同篇校内作者，Yuxuan Luo 为字节跳动项目负责人。",
+      "advising": [
+        "校内博士导师",
+        "计算所博士在读名录具名列出常虹；罗明双本人还列同作者侯瑞兵为共同指导者。",
+        "https://iip.ict.ac.cn/yjspy/xs/zdbss/"
+      ],
+      "extra": [
+        [
+          "博士生本人：导师、项目与实习",
+          "https://luomingshuang.github.io/"
+        ],
+        [
+          "项目：分工、署名及单位",
+          "https://grisoon.github.io/DreamActor-M2/"
+        ],
+        [
+          "企业项目负责人的同期正式资料",
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Luo_DreamActor-M1_Holistic_Expressive_and_Robust_Human_Image_Animation_with_Hybrid_ICCV_2025_paper.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2601.21716"
+    },
+    {
+      "id": "alibaba-tft2v-hust-gao",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "高常鑫 · Changxin Gao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为三篇论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；三篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "A Recipe for Scaling up Text-to-Video Generation with Text-free Videos",
+      "short": "TF-T2V",
+      "date": "2024-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "项目主页，区分同团队的 VideoLCM",
+          "https://tf-t2v.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2312.15770"
+    },
+    {
+      "id": "alibaba-molo-hust-gao",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "高常鑫 · Changxin Gao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为三篇论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；三篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "MoLo: Motion-Augmented Long-Short Contrastive Learning for Few-Shot Action Recognition",
+      "short": "MoLo",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "企业研究组官方代码",
+          "https://github.com/alibaba-mmai-research/MoLo"
+        ]
+      ],
+      "paperId": "arxiv:2304.00946"
+    },
+    {
+      "id": "alibaba-videolcm-hust-gao",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "高常鑫 · Changxin Gao",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为三篇论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；三篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "VideoLCM: Video Latent Consistency Model",
+      "short": "VideoLCM",
+      "date": "2023-12-14",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2312.09109v1",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "项目主页，分开列出两篇论文",
+          "https://tf-t2v.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2312.09109"
+    },
+    {
+      "id": "alibaba-tft2v-hust-sang",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "桑农 · Nong Sang",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/sangnong/zh_CN/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为三篇论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；三篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "A Recipe for Scaling up Text-to-Video Generation with Text-free Videos",
+      "short": "TF-T2V",
+      "date": "2024-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "项目主页，区分同团队的 VideoLCM",
+          "https://tf-t2v.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2312.15770"
+    },
+    {
+      "id": "alibaba-molo-hust-sang",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "桑农 · Nong Sang",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/sangnong/zh_CN/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为三篇论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；三篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "MoLo: Motion-Augmented Long-Short Contrastive Learning for Few-Shot Action Recognition",
+      "short": "MoLo",
+      "date": "2023-06",
+      "venue": "CVPR",
+      "area": "视觉与多模态",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "企业研究组官方代码",
+          "https://github.com/alibaba-mmai-research/MoLo"
+        ]
+      ],
+      "paperId": "arxiv:2304.00946"
+    },
+    {
+      "id": "alibaba-videolcm-hust-sang",
+      "company": "阿里巴巴",
+      "team": "达摩院 / 通义实验室",
+      "school": "华中科技大学",
+      "studentSchool": "华中科技大学",
+      "faculty": [
+        "桑农 · Nong Sang",
+        "华中科技大学人工智能与自动化学院教授。",
+        "https://faculty.hust.edu.cn/sangnong/zh_CN/index.htm"
+      ],
+      "employee": [
+        "张士伟 · Shiwei Zhang",
+        "阿里巴巴通义实验室多模态视频生成算法专家，与王翔联名且为三篇论文的企业通讯作者。",
+        "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html"
+      ],
+      "student": [
+        "王翔 · Xiang Wang",
+        "华中科技大学人工智能与自动化学院 2022 级博士；三篇论文分别以星号标其阿里巴巴实习。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "title": "VideoLCM: Video Latent Consistency Model",
+      "short": "VideoLCM",
+      "date": "2023-12-14",
+      "venue": "arXiv 预印本",
+      "area": "视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2312.09109v1",
+      "evidence": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。",
+      "advising": [
+        "校内博士共同指导",
+        "华中科技大学院系新闻具名记载 2022 级博士生王翔的两名导师为桑农、高常鑫。",
+        "https://aia.hust.edu.cn/info/1179/9109.htm"
+      ],
+      "extra": [
+        [
+          "项目主页，分开列出两篇论文",
+          "https://tf-t2v.github.io/"
+        ]
+      ],
+      "paperId": "arxiv:2312.09109"
+    },
+    {
+      "id": "ant-evorefuse-whu-fei-li",
+      "school": "武汉大学",
+      "studentSchool": "武汉大学",
+      "company": "蚂蚁集团",
+      "team": "大模型安全对齐校企联合项目",
+      "title": "EVOREFUSE: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal to Pseudo-Malicious Instructions",
+      "short": "EVOREFUSE",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "area": "自然语言处理",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/file/027613d38d7a8bc9e42ee862fcced7ea-Paper-Conference.pdf",
+      "arxiv": "2505.23473",
+      "evidence": "正式版作者贡献具名写明博士生武骁睿负责本文方法、软件和实验，并列李霏承担监督指导；致谢及作者项目库明确此项工作属于武汉大学与蚂蚁集团大模型安全对齐联合研究（COOP246P255333）。正式版列毛潇锋为蚂蚁集团作者，参与方法和稿件，不将联合研究写成实习。",
+      "faculty": [
+        "李霏 · Fei Li",
+        "武汉大学国家网络安全学院副教授，正式版作者贡献注明指导。",
+        "https://jszy.whu.edu.cn/lifei10/zh_CN/index.htm"
+      ],
+      "employee": [
+        "毛潇锋 · Xiaofeng Mao",
+        "正式版和初稿均列蚂蚁集团任职。本人的算法工程师身份亦可由此前任职单位的公开报道核对。",
+        "https://developer.aliyun.com/article/884036"
+      ],
+      "student": [
+        "武骁睿 · Xiaorui Wu",
+        "武大实验室官方博士生名录具名，正式版作者贡献明确是该联合研究的学生作者。",
+        "http://lacc.whu.edu.cn/info/1005/1684.htm"
+      ],
+      "advising": [
+        "本篇项目指导",
+        "NeurIPS 正式版的作者贡献明确李霏承担监督指导，武骁睿是负责研究实施的学生作者；公开审稿版本亦直接列李霏共同指导。",
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/027613d38d7a8bc9e42ee862fcced7ea-Paper-Conference.pdf"
+      ],
+      "extra": [
+        [
+          "作者的项目说明：武汉大学与蚂蚁联合研究",
+          "https://github.com/FishT0ucher/EVOREFUSE"
+        ],
+        [
+          "项目早期原稿：蚂蚁署名",
+          "https://arxiv.org/html/2505.23473v1"
+        ],
+        [
+          "武大实验室的成果名录",
+          "http://lacc.whu.edu.cn/info/1011/2414.htm"
+        ]
+      ]
     }
   ]
 };

@@ -1974,7 +1974,13 @@ const facultyPaperAudits = {
       "https://www.toutiao.com/article/7688899252721943103/",
       "https://www.wangyunhe.site/",
       "https://github.com/ali-vilab/ProMoE",
-      "https://filmworld-ai.github.io/"
+      "https://filmworld-ai.github.io/",
+      "https://faculty.hust.edu.cn/cgao/zh_CN/more/1104201/jsjjgd/index.htm",
+      "https://aia.hust.edu.cn/info/1179/9109.htm",
+      "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+      "https://arxiv.org/pdf/2312.09109v1"
     ],
     "papers": [
       {
@@ -1994,9 +2000,39 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2607.19038",
         "outcome": "confirmed",
         "note": "具名项目页和学会活动都能追溯左嘉龙参与的阿里项目，以及同篇指导老师、企业研究人员。"
+      },
+      {
+        "title": "A Recipe for Scaling up Text-to-Video Generation with Text-free Videos",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
+      },
+      {
+        "title": "MoLo: Motion-Augmented Long-Short Contrastive Learning for Few-Shot Action Recognition",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
+      },
+      {
+        "title": "VideoLCM: Video Latent Consistency Model",
+        "url": "https://arxiv.org/pdf/2312.09109v1",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
+      },
+      {
+        "title": "VideoComposer: Compositional Video Synthesis with Motion Controllability",
+        "url": "https://arxiv.org/abs/2306.02018",
+        "outcome": "no-evidence",
+        "note": "王翔在校、且有企业项目活动，但本篇未署两位校内导师。"
+      },
+      {
+        "title": "CLIP-Guided Prototype Modulating for Few-Shot Action Recognition",
+        "url": "https://arxiv.org/abs/2303.02982",
+        "outcome": "lead",
+        "note": "本篇院企作者齐全；预印本首页未标王翔实习，继续核正文致谢及企业项目记录。"
       }
     ],
-    "note": "已核对左嘉龙部分论文，未完成高常鑫的全部题录。"
+    "note": "已核查指导的部分学生论文和华中科大院系报道，仍需补齐教师完整书目。"
   },
   "urC8meQAAAAJ": {
     "from": "2023-01-01",
@@ -4164,7 +4200,8 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2601.21468",
       "https://github.com/meituan/MemOCR",
       "https://raw.githubusercontent.com/mlresearch/v306/main/assets/shi26l/shi26l.pdf",
-      "https://yongduosui.github.io/"
+      "https://yongduosui.github.io/",
+      "https://kexinhuang02.github.io/"
     ],
     "papers": [
       {
@@ -4220,6 +4257,12 @@ const facultyPaperAudits = {
         "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/3a33ddacb2798fc7d83b8334d552e05a-Paper-Conference.pdf",
         "outcome": "confirmed",
         "note": "2023 年 NeurIPS 正式版首页具名说明第一作者在蚂蚁集团实习时完成当前研究。本人履历列中国科大 2021–2024 在读博士、蚂蚁 2023 年 3 月至 2024 年 6 月实习和此篇蚂蚁同作者为企业导师；2022 年公开的旧稿标题和作者表不同，没有蚂蚁合作方。"
+      },
+      {
+        "title": "Auctionformer: A Unified Deep Learning Algorithm for Solving Equilibrium Strategies in Auction Games",
+        "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/huang24c/huang24c.pdf",
+        "outcome": "confirmed",
+        "note": "中国科大 Kexin Huang 的本人主页具名列出 2023 年 4 月至 2026 年 1 月阿里通义实习和达摩院 DAIL 企业导师；ICML 原文把第一作者标为该工作在阿里完成，四名达摩院导师均同篇。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -5101,17 +5144,17 @@ const facultyPaperAudits = {
       },
       {
         "title": "TransMamba: Fast Universal Architecture Adaption from Transformers to Mamba",
-        "url": "https://arxiv.org/html/2502.15130",
+        "url": "https://arxiv.org/abs/2502.15130",
         "year": 2025,
         "outcome": "lead",
-        "note": "校内师生、两位华为员工和学生同期在华为实习均可核查；原文暂未找到将这份工作归为实习产出的说明。"
+        "note": "中大博士生 Xiuwei Chen 本人列明梁小丹导师、华为同期实习及华为同篇作者作为企业导师；进一步核对该篇是否明确属于实习成果。"
       },
       {
         "title": "SyncLoop: A Multimodal Dual-Loop Framework for Self-Improving Mathematical Reasoning",
-        "url": "https://arxiv.org/html/2507.16518v3",
+        "url": "https://arxiv.org/abs/2507.16518",
         "year": 2026,
         "outcome": "lead",
-        "note": "原文具名作者和华为研究人员，仍需查学生参与企业一侧的具体研究任务；C2-Evo 为同一稿件的旧题名。"
+        "note": "与 C2-Evo 是同一论文。第一作者的华为实习与初稿日期相符，华为两位实习导师同篇，仍找项目分工或实习成果的明确出处。"
       },
       {
         "title": "Beyond the Eye: Efficient Multimodal Reasoning via Self-Regulated Implicit Visual Tools",
@@ -6357,6 +6400,12 @@ const facultyPaperAudits = {
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/27992/28001",
         "outcome": "confirmed",
         "note": "胡澄洋于上海交大博士阶段开展该研究；AAAI 正式原文以单独脚注明确第一作者在腾讯优图实习期间完成该研究，本人学术主页亦列腾讯实习。"
+      },
+      {
+        "title": "SE-DETR: Explicit Semantic Exploration for Generalizability and Distinguishability in Video Temporal Grounding",
+        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/12435.pdf",
+        "outcome": "confirmed",
+        "note": "胡澄洋在上海交通大学博士期间在腾讯优图实习；会议原文将胡澄洋单独标为在腾讯优图实习期间完成此项工作，其本人履历亦列该实习经历。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -9039,7 +9088,8 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://jingjing1.github.io/#teach",
-      "https://sxjyjay.github.io/"
+      "https://sxjyjay.github.io/",
+      "https://jingjing1.github.io/"
     ],
     "papers": [
       {
@@ -9053,6 +9103,12 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2504.04423",
         "outcome": "confirmed",
         "note": "第一作者焦洋的 2024 年两版简历均在美团实习项目栏明确列出其研发统一图像理解和文生图的原生多模态模型。本人主页将该模型具名列为 UniToken；原文与项目库均列三位他本人注明的在美团实习时的合作伙伴，且均署美团。论文在实习结束后发布。"
+      },
+      {
+        "title": "Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tang26i/tang26i.pdf",
+        "outcome": "confirmed",
+        "note": "复旦在读硕士 Ziyao Tang 的第一作者脚注明确说明本工作在百度实习期间完成；论文致谢具体列百度百舸高校合作计划。"
       }
     ],
     "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
@@ -9335,5 +9391,195 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已按公开书目查过一批论文和学生相关正式会议，还未全面覆盖。"
+  },
+  "SC-WmzwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://person.zju.edu.cn/en/jkzhu",
+      "https://hanxunyu.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors",
+        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/1896.pdf",
+        "outcome": "confirmed",
+        "note": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。"
+      },
+      {
+        "title": "Unlocking Dense Metric Depth Estimation in VLMs",
+        "url": "https://arxiv.org/pdf/2605.15876",
+        "outcome": "confirmed",
+        "note": "浙江大学博士生于瀚勋的本人主页具名记录腾讯混元研究实习和企业实习导师 Lei Ke；论文第一作者的具名脚注明确本论文工作在腾讯混元实习期间完成。"
+      }
+    ],
+    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+  },
+  "LX6MnNsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://english.ict.cas.cn/people/scien/bln/202303/t20230317_328346.html",
+      "https://iip.ict.ac.cn/yjspy/xs/zdsss/",
+      "https://events.polyu.edu.hk/prsc2025/keynoteii",
+      "https://openreview.net/pdf/c5f4d10dae70237b1d0354878beb73ae7d470d1a.pdf",
+      "https://luomingshuang.github.io/",
+      "https://s2026.conference-schedule.org/presenter/?uid=611014",
+      "https://arxiv.org/html/2601.21716v1",
+      "https://ruibinghou.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Revisiting Multimodal Positional Encoding in Vision–Language Models",
+        "url": "https://openreview.net/pdf/c5f4d10dae70237b1d0354878beb73ae7d470d1a.pdf",
+        "outcome": "confirmed",
+        "note": "正式版首页实习脚注的 § 仅标在黄杰名字后，明确该工作在阿里通义千问实习期间开展；原文同时有校内导师常虹和同期企业技术负责人林俊旸。"
+      },
+      {
+        "title": "DreamActor-M2: Universal Character Image Animation via Spatiotemporal In-Context Learning",
+        "url": "https://arxiv.org/html/2601.21716v1",
+        "outcome": "confirmed",
+        "note": "该项目首版于 2026 年 1 月 29 日公开。罗明双本人的公开履历列其 2025 年 4 月至 2026 年 1 月在字节跳动研究实习，并单列本篇项目；项目原页明确将罗列为校企双署名共同一作，常虹为同篇校内作者，Yuxuan Luo 为字节跳动项目负责人。"
+      },
+      {
+        "title": "FlowAct-R1: Towards Interactive Humanoid Video Generation",
+        "url": "https://arxiv.org/abs/2601.10103",
+        "outcome": "no-evidence",
+        "note": "学生本人以字节项目成员参与，原文没有常虹同篇署名。"
+      },
+      {
+        "title": "AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling",
+        "url": "https://arxiv.org/abs/2605.29488",
+        "outcome": "lead",
+        "note": "多数异校作者在现公开版署独立作者，需核研究期间的正式所属及学生具名企业研究证据。"
+      },
+      {
+        "title": "M3GPT: An Advanced Multimodal, Multitask Framework for Motion Comprehension and Generation",
+        "url": "https://arxiv.org/abs/2405.16273",
+        "outcome": "no-evidence",
+        "note": "作者、学生本人书目和原文未公开学生以目标企业项目成员开展本篇的证据。"
+      }
+    ],
+    "note": "对照学院名录、机构成果与部分学生的个人出版书目，仍在继续核对。"
+  },
+  "ky_ZowEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://faculty.hust.edu.cn/sangnong/zh_CN/index.htm",
+      "https://aia.hust.edu.cn/info/1179/9109.htm",
+      "https://community.modelscope.cn/65a4d2ad2c13685765decd75.html",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+      "https://arxiv.org/pdf/2312.09109v1"
+    ],
+    "papers": [
+      {
+        "title": "A Recipe for Scaling up Text-to-Video Generation with Text-free Videos",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_A_Recipe_for_Scaling_up_Text-to-Video_Generation_with_Text-free_Videos_CVPR_2024_paper.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
+      },
+      {
+        "title": "MoLo: Motion-Augmented Long-Short Contrastive Learning for Few-Shot Action Recognition",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
+      },
+      {
+        "title": "VideoLCM: Video Latent Consistency Model",
+        "url": "https://arxiv.org/pdf/2312.09109v1",
+        "outcome": "confirmed",
+        "note": "原文首页星号明确仅标注第一作者王翔为阿里巴巴实习生。张士伟以阿里巴巴身份担任同篇企业通讯作者；华中科大列同篇作者桑农、高常鑫皆为王翔的博士导师。"
+      },
+      {
+        "title": "VideoComposer: Compositional Video Synthesis with Motion Controllability",
+        "url": "https://arxiv.org/abs/2306.02018",
+        "outcome": "no-evidence",
+        "note": "王翔在校、且有企业项目活动，但本篇未署两位校内导师。"
+      },
+      {
+        "title": "CLIP-Guided Prototype Modulating for Few-Shot Action Recognition",
+        "url": "https://arxiv.org/abs/2303.02982",
+        "outcome": "lead",
+        "note": "本篇院企作者齐全；预印本首页未标王翔实习，继续核正文致谢及企业项目记录。"
+      }
+    ],
+    "note": "已核查指导的部分学生论文和华中科大院系报道，仍需补齐教师完整书目。"
+  },
+  "AoMmysMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jszy.whu.edu.cn/lifei10/zh_CN/index.htm",
+      "http://lacc.whu.edu.cn/info/1005/1684.htm",
+      "https://developer.aliyun.com/article/884036",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/027613d38d7a8bc9e42ee862fcced7ea-Paper-Conference.pdf",
+      "https://zhengli-whu.github.io/",
+      "http://lacc.whu.edu.cn/info/1011/2754.htm"
+    ],
+    "papers": [
+      {
+        "title": "EVOREFUSE: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal to Pseudo-Malicious Instructions",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/027613d38d7a8bc9e42ee862fcced7ea-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "正式版作者贡献具名写明博士生武骁睿负责本文方法、软件和实验，并列李霏承担监督指导；致谢及作者项目库明确此项工作属于武汉大学与蚂蚁集团大模型安全对齐联合研究（COOP246P255333）。正式版列毛潇锋为蚂蚁集团作者，参与方法和稿件，不将联合研究写成实习。"
+      },
+      {
+        "title": "Are Emotion and Rhetoric Neurons in LLM? Neuron Recognition and Adaptive Masking for Emotion-Rhetoric Prediction Steering",
+        "url": "https://aclanthology.org/2026.acl-long.193.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "郑理本人列两位博士导师，武大实验室官网确认博士身份。原文有蚂蚁共同作者及 CCF-蚂蚁科研基金；尚缺精确说明该生参与企业研究的项目贡献材料。"
+      },
+      {
+        "title": "Perceive-Then-Adjudicate: A Multi-Agent Framework for Resolving Knowledge-Evidence Conflicts in LLM Fact-Checking",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1445.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "实验室官网具名列张永成为第一作者，原文列武大及蚂蚁共同作者并注明科研基金。仍需具名的在读、导师和企业项目参与资料。"
+      }
+    ]
+  },
+  "2Q-7u3AAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://jszy.whu.edu.cn/lifei10/zh_CN/index.htm",
+      "https://zhengli-whu.github.io/",
+      "http://lacc.whu.edu.cn/info/1011/2754.htm",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/027613d38d7a8bc9e42ee862fcced7ea-Paper-Conference.pdf",
+      "http://lacc.whu.edu.cn/info/1005/1684.htm",
+      "https://github.com/FishT0ucher/EVOREFUSE"
+    ],
+    "papers": [
+      {
+        "title": "Are Emotion and Rhetoric Neurons in LLM? Neuron Recognition and Adaptive Masking for Emotion-Rhetoric Prediction Steering",
+        "url": "https://aclanthology.org/2026.acl-long.193.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "郑理本人列两位博士导师，武大实验室官网确认博士身份。原文有蚂蚁共同作者及 CCF-蚂蚁科研基金；尚缺精确说明该生参与企业研究的项目贡献材料。"
+      },
+      {
+        "title": "Perceive-Then-Adjudicate: A Multi-Agent Framework for Resolving Knowledge-Evidence Conflicts in LLM Fact-Checking",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1445.pdf",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "实验室官网具名列张永成为第一作者，原文列武大及蚂蚁共同作者并注明科研基金。仍需具名的在读、导师和企业项目参与资料。"
+      },
+      {
+        "title": "EVOREFUSE: Evolutionary Prompt Optimization for Evaluation and Mitigation of LLM Over-Refusal to Pseudo-Malicious Instructions",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/027613d38d7a8bc9e42ee862fcced7ea-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "同篇联合研究已以明确带监督指导的李霏收录；正式版把姬东鸿的职责列为项目管理、资源与稿件修订，未凭通讯署名追加导师归属。"
+      }
+    ]
   }
 };
