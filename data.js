@@ -45578,6 +45578,67 @@ const survey = {
           "https://2048ai.net/682fd478606a8318e859e5c9.html"
         ]
       ]
+    },
+    {
+      "id": "tencent-smartccs-hkust-hao-chen",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "陈浩 · Hao Chen",
+        "香港科技大学计算机系博士导师，论文通讯作者，作者分工注明其指导研究。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc"
+      ],
+      "employee": [
+        "周彦宁 · Yanning Zhou",
+        "2021 年博士毕业后进入腾讯担任全职研究人员。原文同时列香港中文大学与腾讯 AI Lab；贡献声明明确她与江浩共同开发适应算法。",
+        "https://amandaynzhou.github.io/experience/"
+      ],
+      "student": [
+        "江浩 · Hao Jiang",
+        "当时为香港科技大学计算机博士生；论文共同第一作者，作者贡献声明列其与腾讯周彦宁共同研发测试时适应算法。",
+        "https://hjiangaz.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "香港科技大学计算机系 2026-08-25 学位答辩公告具名陈浩为江浩的博士导师，并明确列该筛查系统为博士工作。",
+        "https://cse.hkust.edu.hk/pg/defenses/Summer26/hjiangaz-25-08-2026.html"
+      ],
+      "title": "Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation",
+      "short": "Smart-CCS",
+      "date": "2025-02-12",
+      "venue": "arXiv",
+      "area": "医疗影像与计算病理",
+      "paper": "https://arxiv.org/abs/2502.09662v1",
+      "extra": [
+        [
+          "第一版首页三方署名及第 22–23 页作者分工",
+          "https://arxiv.org/pdf/2502.09662v1#page=23"
+        ],
+        [
+          "员工公开履历：2021-09 入职腾讯任高级研究员",
+          "https://amandaynzhou.github.io/experience/"
+        ],
+        [
+          "港科大同篇研究书目",
+          "https://researchportal.hkust.edu.hk/en/publications/generalizable-cervical-cancer-screening-via-large-scale-pretraini/"
+        ],
+        [
+          "江浩发布的同篇技术代码",
+          "https://github.com/hjiangaz/Smart-CCS"
+        ],
+        [
+          "港科大项目组 2025-02-17 研究说明",
+          "https://smartx.cse.ust.hk/2025/02/17/smartccs/"
+        ],
+        [
+          "作者分工原文",
+          "https://arxiv.org/html/2502.09662v1"
+        ]
+      ],
+      "evidence": "2025-02-12 原稿首页列周彦宁的腾讯 AI Lab 和港中文双署；作者贡献明确周彦宁与港科大博士生江浩共同开发测试时适应算法，由陈浩指导研究。江浩的博士答辩公告点名陈浩为导师，并把 Smart-CCS 列为其博士工作；周彦宁的履历显示自 2021-09 在腾讯任研究员。",
+      "paperId": "10.48550/arXiv.2502.09662"
     }
   ]
 };

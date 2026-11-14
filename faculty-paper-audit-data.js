@@ -54595,7 +54595,13 @@ const facultyPaperAudits = {
       "https://github.com/harveyhuang18/Mixture_of_Weights",
       "https://pubmed.ncbi.nlm.nih.gov/42455713/",
       "https://neurips.cc/Downloads/2026",
-      "https://ciram.fudan.edu.cn/24/f7/c49211a795895/page.htm"
+      "https://ciram.fudan.edu.cn/24/f7/c49211a795895/page.htm",
+      "https://doi.org/10.1109/TCSVT.2025.3544680",
+      "https://doi.org/10.1109/LSP.2026.3705718",
+      "https://www.sigmm.org/opentoc/MM2023-TOC",
+      "https://papers.miccai.org/miccai-2025/paper/1824_paper.pdf",
+      "https://orcid.org/0009-0004-7453-5486",
+      "https://fansarah.github.io/"
     ],
     "papers": [
       {
@@ -54739,7 +54745,7 @@ const facultyPaperAudits = {
         "note": "已核 Neurocomputing 正式版及 SSRN 首稿；孙旭、张林、徐嘉豪、袁嘉康、陈涛均署复旦，作者贡献和可见资料无范围内企业。"
       },
       {
-        "year": 2026,
+        "year": 2025,
         "title": "A Scalable Multi-LLM Collaboration System with Retrieval-based Selection and Exploration-Exploitation-Driven Enhancement",
         "url": "https://aclanthology.org/2026.acl-long.578/",
         "outcome": "no-evidence",
@@ -55149,7 +55155,7 @@ const facultyPaperAudits = {
         "title": "Native 3D Editing with Full Attention",
         "url": "https://arxiv.org/html/2511.17501v1",
         "outcome": "no-evidence",
-        "note": "原文魏巍蔡署复旦和阶跃星辰，陈涛复旦；企业为阶跃星辰、VAST，均非调查范围。不会把俞刚旧腾讯职位用于该文。"
+        "note": "原文魏巍蔡署复旦和阶跃星辰，陈涛复旦；企业为阶跃星辰、VAST，均非调查范围。不会把俞刚旧腾讯职位用于该文。 2026 在线期刊 Geometry-Aware Joint Attention 具有早稿核心作者子集、同一原生结构化 3D latent 编辑框架，正式版重述联合注意力；合并作为连续版本。"
       },
       {
         "year": 2023,
@@ -55194,445 +55200,466 @@ const facultyPaperAudits = {
         "note": "IEEE 正式论文与 2310.15115 相同，林伟豪、陈涛及余崇均署复旦；无范围内企业或其学生项目。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Boost Vision Transformer with GPU-Friendly Sparsity and Quantization",
         "url": "https://doi.org/10.1109/CVPR52729.2023.02170",
         "outcome": "no-evidence",
         "note": "首稿 2305.10727；共同作者余崇双署复旦和 NVIDIA，其余为复旦。企业不在当前范围。与 NLP 的 ACL 同系列非同一研究。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Boost Transformer-based Language Models with GPU-Friendly Sparsity and Quantization",
         "url": "https://aclanthology.org/2023.findings-acl.15/",
         "outcome": "no-evidence",
         "note": "ACL 独立语言模型论文，非 CVPR 视觉模型论文的重刊。余崇、陈涛、甘中学、樊佳媛等在正式稿署复旦，未见目标企业项目。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Adversarial Amendment is the Only Force Capable of Transforming an Enemy into a Friend",
         "url": "https://www.ijcai.org/proceedings/2023/503",
         "outcome": "no-evidence",
         "note": "作者为复旦陈涛、余崇等；正式稿未提供属于范围的公司合著或具体实研项目。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "What Makes for Effective Few-shot Point Cloud Classification?",
         "url": "https://arxiv.org/html/2304.00022v1",
         "outcome": "no-evidence",
         "note": "周围实验与新加坡 A*STAR 学术指导有联系，首稿相关作者署复旦；无目标企业共著或学生在企业研究证据。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Merging Vision Transformers from Different Tasks and Domains",
         "url": "https://arxiv.org/html/2312.16240v1",
         "outcome": "no-evidence",
-        "note": "黄辰宇此篇仍署东南大学；陈涛署复旦，其余为上海人工智能实验室、帝国理工等。未发现范围内公司项目。"
+        "note": "2023 首稿与 2025 正式 MoW-Merging 版（10.1109/TCSVT.2025.3544680）共享作者次序、无标签轻量门控和按权重相似度选取层式合并，不重复计。正式原文单位为复旦、帝国理工和上海人工智能实验室，无目标企业。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Partial Fine-Tuning: A Successor to Full Fine-Tuning for Vision Transformers",
         "url": "https://arxiv.org/html/2312.15681v1",
         "outcome": "no-evidence",
         "note": "首稿列陈涛及其复旦合作者，另有上海人工智能实验室；部分微调技术未见范围内公司参与。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Exploring Multi-Timestep Multi-Stage Diffusion Features for Hyperspectral Image Classification",
         "url": "https://doi.org/10.1109/TGRS.2024.3407206",
         "outcome": "no-evidence",
         "note": "2023 首稿曾用 When Hyperspectral Image Classification Meets Diffusion Models 题，与 2024 期刊版同编号、作者和课题。后版列复旦、上海人工智能实验室及校内 CFFF 计算资助。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Towards an End-to-End Artificial Intelligence Driven Global Weather Forecasting System",
         "url": "https://arxiv.org/html/2312.12462v1",
         "outcome": "no-evidence",
         "note": "陈涛随复旦团队与上海人工智能实验室、南京信息工程大学合著；文章核验和数据来源未见范围内企业参与。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Biology-Instructions: A Dataset and Benchmark for Multi-Omics Sequence Understanding Capability of Large Language Models",
         "url": "https://aclanthology.org/2025.findings-emnlp.978/",
         "outcome": "no-evidence",
         "note": "2024 首发，正式版作者有上海人工智能实验室、中科大、悉尼大学、复旦、港中大等，未见所列企业参与生物序列基准。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "COMET: Benchmark for Comprehensive Biological Multi-omics Evaluation Tasks and Language Models",
         "url": "https://arxiv.org/html/2412.10347v1",
         "outcome": "no-evidence",
         "note": "首稿完整作者表第 90–99 行列陈涛复旦署名；合作者来自上海人工智能实验室、计算所、哈工大等。COMET 旧页模板的旁列作者表不能用于判断署名。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Temporally Coherent Dynamic Surface Reconstruction With Planar Gaussian Splatting",
         "url": "https://doi.org/10.1109/LSP.2026.3702802",
         "outcome": "no-evidence",
         "note": "同一 DynaSurfGS，项目作者页与原文核出魏巍蔡、叶维材、叶翰嘉、何童、复旦陈涛；单位仅复旦、浙江大学与上海人工智能实验室。首发 2024。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "DreamFrame: Enhancing Video Understanding via Automatically Generated QA and Style-Consistent Keyframes",
         "url": "https://doi.org/10.1145/3746027.3758252",
         "outcome": "lead",
         "note": "2024-03 的 MovieLLM 和同 arXiv 编号的 DreamFrame 计一篇。原串联复旦和腾讯 PCG，具名企业作者张驰、俞刚等；未得宋振德、王晨晨或盛佳牧参加腾讯该项目的直接证据。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "CTTS: Collective Test-Time Scaling",
         "url": "https://arxiv.org/html/2508.03333v1",
         "outcome": "no-evidence",
         "note": "宋振德随陈涛等复旦合著，首稿明确其该项实习在上海人工智能实验室，没有在目标公司实研证据。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Dynamic Base Model Shift for Delta Compression",
         "url": "https://arxiv.org/html/2505.11344v1",
         "outcome": "no-evidence",
         "note": "首稿列复旦、哈工大、港中大及上海人工智能实验室；BaseShift 模型架构不是另一论文 Breaking the Compression Ceiling 的 UltraDelta 管线。无目标企业。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "EGM: Efficiently Learning General Motion Tracking Policy for High Dynamic Humanoid Whole-Body Control",
         "url": "https://arxiv.org/html/2512.19043v1",
         "outcome": "lead",
         "note": "论文列复旦学生作者杨超、孙颖凯和陈涛，独立企业作者陈鑫属字节；未获得上述学生在字节具体参与本篇 EGM 的项目说明。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "EarthLink : Interpreting Climate Signals with Self-Evolving AI Agents",
         "url": "https://arxiv.org/html/2507.17311v1",
         "outcome": "no-evidence",
         "note": "气候信号多代理合作方为上海人工智能实验室及大学；正文和参与机构无所属目标公司及学生实研。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Local Information Matters: Inference Acceleration For Grounded Conversation Generation Models Through Adaptive Local-Aware Token Pruning",
         "url": "https://arxiv.org/html/2503.23959v1",
         "outcome": "no-evidence",
         "note": "作者来自复旦、上海创智学院和昆士兰大学；用作评测的开放模型不能证明企业参与。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "M-GRPO: Stabilizing Self-Supervised Reinforcement Learning for Large Language Models with Momentum-Anchored Policy Optimization",
         "url": "https://arxiv.org/html/2512.13070v1",
         "outcome": "no-evidence",
         "note": "首稿复旦、上海创智学院、上海人工智能实验室和港中大联合，未见目标公司或同篇学生实研脚注。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Multi-Level Decoupled Relational Distillation for Heterogeneous Architectures",
         "url": "https://arxiv.org/html/2502.06189v1",
         "outcome": "no-evidence",
         "note": "复旦组陈涛等的异构架构蒸馏研究，未见目标公司作者或关系证据。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "OmniCaptioner : One Captioner to Rule Them All",
         "url": "https://arxiv.org/html/2504.07089v1",
         "outcome": "no-evidence",
         "note": "署上海人工智能实验室与复旦。袁嘉康的 2026 年腾讯实习明显晚于该篇 2025 年首稿，论文未述参加腾讯项目。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "PRING: Rethinking Protein-Protein Interaction Prediction from Pairs to Graphs",
         "url": "https://papers.nips.cc/paper_files/paper/2025/hash/86a4ea51ccac6c830230f281a23e74c8-Abstract-Datasets_and_Benchmarks_Track.html",
         "outcome": "no-evidence",
         "note": "正式 NeurIPS 数据集赛道与首稿 2507.05101 合一；陈涛、上海人工智能实验室与大学作者，无目标企业。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "ReMix: Towards a Unified View of Consistent Character Generation and Editing",
         "url": "https://arxiv.org/html/2510.10156v1",
         "outcome": "lead",
         "note": "第一作者周本佳署腾讯，符斌双署复旦、腾讯，陈涛共同通信。尚无符斌在项目时期具体学生身份和陈涛具名指导的独立证据，不按邮址推断。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning",
         "url": "https://doi.org/10.1109/ICCV51701.2025.02149",
         "outcome": "no-evidence",
         "note": "2025-08 首版的原文将张林此项实习指向阶跃星辰，不属于现用公司范围。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Seeing Delta Parameters as JPEG Images: Data-Free Delta Compression with Discrete Cosine Transform",
         "url": "https://arxiv.org/html/2503.06676v1",
         "outcome": "no-evidence",
         "note": "复旦、港中大、哈工大和上海人工智能实验室合著。Delta 参数的离散余弦变换不涉及具名目标公司。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Sequential Token Merging: Revisiting Hidden States",
         "url": "https://arxiv.org/html/2509.22691v1",
         "outcome": "no-evidence",
         "note": "李保朴在这篇正式公开稿署独立；余为复旦、上海人工智能实验室等，不能把其他论文的公司职务类推到本篇。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Think Twice, Act Once: Token-Aware Compression and Action Reuse for Efficient Inference in Vision-Language-Action Models",
         "url": "https://arxiv.org/html/2505.21200v1",
         "outcome": "no-evidence",
         "note": "张江实验室、复旦、港中大及上海人工智能实验室合作；稿件没有在目标公司参与 VLA 开发的具名学生。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "TokenCarve: Information-Preserving Visual Token Compression in Multimodal Large Language Models",
         "url": "https://arxiv.org/html/2503.10501v1",
         "outcome": "no-evidence",
         "note": "视觉 token 压缩原文由复旦、港中大、上海人工智能实验室等署；没有范围内企业作者或科研脚注。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Wisdom of the Crowd: Reinforcement Learning from Coevolutionary Collective Feedback",
         "url": "https://arxiv.org/html/2508.12338v1",
         "outcome": "no-evidence",
         "note": "袁文振的具名项目脚注明确写上海人工智能实验室，非目标公司；陈涛署复旦。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "A Unified Study of LoRA Variants: Taxonomy, Review, Codebase, and Empirical Evaluation",
         "url": "https://arxiv.org/html/2601.22708v1",
         "outcome": "no-evidence",
         "note": "首稿所示署名来自复旦、中科大、上海人工智能实验室、港中大、港中深和中科院；无参与研究的目标公司署名。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "Can Multimodal Large Language Models Truly Understand Small Objects?",
         "url": "https://arxiv.org/html/2604.22884v1",
         "outcome": "no-evidence",
         "note": "小目标多模态识别的参与单位含复旦、上海人工智能实验室、港中深与中国科大，未见目标企业或特定实研学生。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "DecoMoE: Decoupling Visual Propagation and Expert Computation for Efficient Multimodal MoE Inference",
         "url": "https://arxiv.org/html/2609.38823v1",
         "outcome": "no-evidence",
         "note": "多模态专家模型联合由复旦与港中大团队署名；未见目标企业加入，仅对外部模型和效率基线评估。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
         "url": "https://arxiv.org/html/2609.02309v1",
         "outcome": "no-evidence",
         "note": "白必哲及合作者的 GUI 代理系统综述列学术团队及独立研究者；未发现满足关系口径的公司参与。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding",
         "url": "https://arxiv.org/html/2601.11913v1",
         "outcome": "no-evidence",
         "note": "复旦陈涛、港中大、上海人工智能实验室等所属。虽稿件声称期刊版权，首个公开版本仍可查到 2026-01；无三方项目证据。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "MLG-Stereo: ViT Based Stereo Matching with Multi-Stage Local-Global Enhancement",
         "url": "https://arxiv.org/html/2604.20393v1",
         "outcome": "no-evidence",
         "note": "初次投稿 2025 年，首次公开 2026-04。作者署复旦、上海人工智能实验室、港中大，算力由复旦提供，无范围内企业。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "MoE 2 -LoRA: When MoE Models Meet MoE-style Low-Rank Adaptation",
         "url": "https://arxiv.org/html/2607.21978v1",
         "outcome": "no-evidence",
         "note": "中科大、KTH、复旦、上海人工智能实验室及港中大共同参与；原文无目标公司研究成员。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "Small Model as Master Orchestrator: Learning Unified Agent-Tool Orchestration with Parallel Subtask Decomposition",
         "url": "https://arxiv.org/html/2604.17009v1",
         "outcome": "no-evidence",
         "note": "上海交大、复旦、港中大、四川大学及上海人工智能实验室所署；公开作者及机构未显示目标企业。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Causal Motion Tokenizer for Streaming Motion Generation",
         "url": "https://openaccess.thecvf.com/content/ICCV2025W/I-HFM/html/Jiang_Causal_Motion_Tokenizer_for_Streaming_Motion_Generation_ICCVW_2025_paper.html",
         "outcome": "no-evidence",
         "note": "正式 ICCV Workshop 原文具名江彪同篇实习在阶跃星辰，陈鑫虽署字节，不能将学生在阶跃完成的项目计为字节实研。另有同作 workshop 投递版本，仅计一次。 较早同稿在 ICLR 2025 评审期于 2024 年公开。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Boosting Residual Networks with Group Knowledge",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28322",
         "outcome": "no-evidence",
         "note": "AAAI 与 2308.13772 同篇。作者盛吉唐、叶翰嘉等与陈涛联合署复旦、上海人工智能实验室等，未见目标公司的项目和作者。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "G-Former: A Grouping Transformer for Weakly Supervised Point Cloud Segmentation",
         "url": "https://doi.org/10.1109/IJCNN60899.2024.10650287",
         "outcome": "lead",
         "note": "IEEE 作者单位列复旦尹富坤和陈涛、腾讯陈鑫、新加坡 A*STAR 朱洪源。尹本人明确是陈涛博士生、2021-05 至 2024-05 在腾讯实习，但还缺本篇实习项目的直接证据。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Multi-dimensional Search with Strip Convolution and R-Squared Loss for Lane Detection",
         "url": "https://doi.org/10.1109/IJCNN60899.2024.10650216",
         "outcome": "no-evidence",
         "note": "正式版列林子钧、叶翰嘉、陈涛等均署复旦信息学院，车道检测架构搜索未显示范围内公司角色。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "CSD3D: Cross-Scale Distillation via Dual-Consistency Learning for Semi-Supervised 3D Object Detection",
         "url": "https://doi.org/10.1109/IJCNN60899.2024.10651050",
         "outcome": "no-evidence",
         "note": "原始出版只有复旦署名，尹富坤本人主页题名为 Scale-Equivalent Distillation via Dual-Supervision，同作者及会议，作同一作品，未见绕过公开署名的同篇企业证据。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Through the Real World Haze Scenes: Navigating the Synthetic-to-Real Gap in Challenging Image Dehazing",
         "url": "https://doi.org/10.1109/ICRA57147.2024.10611709",
         "outcome": "no-evidence",
         "note": "ICRA 正式版五名作者均署复旦信息学院；这篇具体去雾研究的出版记录没有企业作者。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Once-Tuning-Multiple-Variants: Tuning Once and Expanded as Multiple Vision-Language Model Variants",
         "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Once-Tuning-Multiple-Variants_Tuning_Once_and_Expanded_as_Multiple_Vision-Language_Model_Variants_CVPR_2025_paper.html",
         "outcome": "no-evidence",
         "note": "CVPR 正式稿只有余崇、陈涛、甘中学，作者单位均为复旦；以外部模型为实验对象不构成企业共同科研。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Automatic Loss Function Search for Adversarial Unsupervised Domain Adaptation",
         "url": "https://doi.org/10.1109/TCSVT.2023.3260246",
         "outcome": "no-evidence",
         "note": "IEEE 逐名资料表明李保朴这篇署 Oracle，另有复旦及北航；当时署名不在目标名单，未用其后来百度履历替代。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Sparse-to-Dense Training: A Novel Training Scheme to Enhance Vision Transformers",
         "url": "https://doi.org/10.1109/TCSVT.2025.3586550",
         "outcome": "no-evidence",
         "note": "黄永琪、叶翰嘉与陈涛等署复旦和上海人工智能实验室；IEEE 原文机构数据无目标企业。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Latency-Aware Neural Architecture Performance Predictor With Query-to-Tier Technique",
         "url": "https://doi.org/10.1109/TCSVT.2023.3287684",
         "outcome": "no-evidence",
         "note": "2023-06 已在线，2024 收卷。复旦、浙大、网易伏羲合著，网易不在本文核查范围。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Push-and-Pull: A General Training Framework With Differential Augmentor for Domain Generalized Point Cloud Classification",
         "url": "https://doi.org/10.1109/TCSVT.2024.3371089",
         "outcome": "no-evidence",
         "note": "作者及其单位是复旦与上海人工智能实验室；没有目标公司。与另题 Pull & Push 异常定位方法及作者不同。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "DeNKD: Decoupled Non-Target Knowledge Distillation for Complementing Transformer-Based Unsupervised Domain Adaptation",
         "url": "https://doi.org/10.1109/TCSVT.2023.3315872",
         "outcome": "no-evidence",
         "note": "正式版 2023-09 在线，署复旦信息、工程学院及上海人工智能实验室团队；未见范围内企业。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Few-Shot Cross-Domain Object Detection With Instance-Level Prototype-Based Meta-Learning",
         "url": "https://doi.org/10.1109/TCSVT.2024.3395692",
         "outcome": "no-evidence",
         "note": "IEEE 索引原文作者单位为复旦和上海人工智能实验室；目标检测没有具名公司作者或学生企业项目。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "Joint Distribution Adaptive-Alignment for Cross-Domain Segmentation of High-Resolution Remote Sensing Images",
         "url": "https://doi.org/10.1109/TGRS.2023.3348505",
         "outcome": "no-evidence",
         "note": "首个可核 IEEE 公开记录于 2024-01-01，DOI 字段含 2023 不能代替日期。李保朴的这篇机构为 Intel，其他为复旦等，不计其后来百度职务。"
       },
       {
-        "year": "2024",
+        "year": 2024,
         "title": "U²ConvFormer: Marrying and Evolving Nested U-Net and Scale-Aware Transformer for Hyperspectral Image Classification",
         "url": "https://doi.org/10.1109/TGRS.2024.3394901",
         "outcome": "no-evidence",
         "note": "实验室简写 ConvFormer，2024-04 正式版；作者单位为复旦信息科学与工程学院组，无具名企业参与。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "FourierMask: Explain EEG-Based End-to-End Deep Learning Models in the Frequency Domain",
         "url": "https://doi.org/10.1109/JBHI.2025.3610742",
         "outcome": "no-evidence",
         "note": "出版社已于 2025-09 发布；陈涛署复旦，学术合作者中有南京理工等，无目标企业。与 2022 首发的 Rethinking Saliency Map 不是同篇。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "DSF2-NAS: Dual-Stage Feature Fusion via Network Architecture Search for Classification of Multimodal Remote Sensing Images",
         "url": "https://doi.org/10.1109/JSTARS.2025.3545831",
         "outcome": "no-evidence",
         "note": "复旦署名的遥感网络架构搜索；第一作者另列多模态数据研究组，出版机构资料未把该组标为目标企业。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Deep generative model for protein subcellular localization prediction",
         "url": "https://doi.org/10.1093/bib/bbaf152",
         "outcome": "no-evidence",
         "note": "OUP 原文署陈涛复旦，合作者来自复旦、上海人工智能实验室、上海创智学院等；无目标公司署名或研究证明。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "MADTP++: Bridge the Gap Between Token and Weight Pruning for Accelerating VLTs",
         "url": "https://doi.org/10.1109/TPAMI.2025.3650545",
         "outcome": "no-evidence",
         "note": "IEEE 正式记录首次在线为 2026-01-05，四人均署复旦。CVPR MADTP 旧篇对齐剪 token，此论文另加权重裁剪及混合框架，原稿未见目标企业。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "STPP: Efficient and Progressive Structured Pruning via Enhanced Sparsification Paradigm",
         "url": "https://doi.org/10.1109/TPAMI.2026.3714012",
         "outcome": "no-evidence",
         "note": "期刊 IEEE/Crossref 记录 2026-07 已在线，林伟豪与陈涛署复旦、盛吉唐及叶翰嘉署上海人工智能实验室。无目标公司。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "Bi3D++: Hybrid Bi-Domain Active Learning for Cross-Domain 3D Object Detection",
         "url": "https://doi.org/10.1109/TPAMI.2026.3688543",
         "outcome": "no-evidence",
         "note": "2026-04 IEEE 版加入混合源域/目标域主动采样与迁移，本篇与 Bi3D 不同方法且作者有变化；作者署复旦或上海人工智能实验室，不能把袁嘉康其他论文的腾讯实习生身份套入。"
       },
       {
-        "year": "2025",
+        "year": 2025,
         "title": "Mamba-Based Progressive-Recovery Framework for Multimodal Low Light Image Enhancement",
         "url": "https://doi.org/10.1109/TMM.2025.3623502",
         "outcome": "no-evidence",
         "note": "IEEE 2025-10 已在线，2026 收卷。Mahdizadeh、曹健健、叶翰嘉和陈涛均署复旦，无企业参与的原文信息。"
       },
       {
-        "year": "2023",
+        "year": 2023,
         "title": "Rethinking Cross-Domain Pedestrian Detection: A Background-Focused Distribution Alignment Framework for Instance-Free One-Stage Detectors",
         "url": "https://doi.org/10.1109/TIP.2023.3307222",
         "outcome": "no-evidence",
         "note": "与 2309.08771 及同题初稿同一项 BFDA。IEEE 正式版的李保朴署 Oracle，其余为复旦与上海人工智能实验室；无目标公司。可查初稿何时公开，暂用最早可核公开 2023。"
       },
       {
-        "year": "2025",
-        "title": "Dynamic Model Merging With Mixture of Weights",
-        "url": "https://doi.org/10.1109/TCSVT.2025.3544680",
-        "outcome": "no-evidence",
-        "note": "与 2312.16240 的 AdaMerging 类基线不同，本篇是另一个有独立代码与门控系数方法的 MoW-Merging，正式记录单位复旦、帝国理工与上海人工智能实验室。"
-      },
-      {
-        "year": "2025",
+        "year": 2025,
         "title": "Taylor-Series-Expansion-Based Vision Transformer Models",
         "url": "https://doi.org/10.1109/TPAMI.2025.3578827",
         "outcome": "no-evidence",
         "note": "IEEE PubMed 与出版社单位元数据均指这一组复旦作者余崇、陈涛与甘中学。测试使用 GPU 不构成厂商共研。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "RoboTacDex: A Dexterous Visual-Tactile-Action Dataset for Humanoid Manipulation",
         "url": "https://arxiv.org/pdf/2606.31836",
         "outcome": "lead",
         "note": "2026-06-30 公开 PDF 明示陈鑫署 ByteDance Intelligent Creation，陈涛、王欣怡等署复旦；文中未有任何学生在字节具体参加同一研究的说明。"
       },
       {
-        "year": "2026",
+        "year": 2026,
         "title": "Agentic RAG-VLM: Affordance-Aware Retrieval-Augmented Generation with Self-Reflective Planning for Robotic Grasping",
         "url": "https://arxiv.org/html/2606.31200v1",
         "outcome": "no-evidence",
         "note": "原文作者与甘中学同组、DBLP 匹配陈涛研究者号；全部单位为复旦与 Kean University，无目标企业。"
+      },
+      {
+        "year": 2023,
+        "outcome": "lead",
+        "title": "Rethinking Pseudo-Label-Based Unsupervised Person Re-ID with Hierarchical Prototype-based Graph",
+        "url": "https://doi.org/10.1145/3581783.3611980",
+        "note": "SIGMM 会议原始目录确认复旦陈涛和李保朴合著；公开版正式作者单位及正文未能核实，不能从同期其他论文外推李担任目标公司员工或具名学生企业实研。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Rendered 2D Semantic and Generative Priors Guided 3D Multi-Object Grounding",
+        "url": "https://doi.org/10.1109/TMM.2026.3668488",
+        "note": "2026-02 在线。IEEE 逐名册确认郭姓、尹富坤、陈涛等属于复旦及朱洪源署新加坡 A*STAR；未见目标公司。不得用尹更早腾讯实习作本篇角色证据。"
+      },
+      {
+        "year": 2023,
+        "outcome": "no-evidence",
+        "title": "Rethinking of Feature Interaction for Multi-task Learning on Dense Prediction",
+        "url": "https://arxiv.org/html/2312.13514v1",
+        "note": "2023-12 原文明确李保朴 Oracle、复旦陈涛及樊佳媛等署复旦，另有德州农工和上海人工智能实验室；无目标公司证据。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges",
+        "url": "https://arxiv.org/html/2604.13602v1",
+        "note": "首稿列复旦 NLP Group 及陈涛，主题为奖励黑客综述；原文未列学生在目标企业完成本篇，不能将作者的过往任职视为企业项目。"
       }
     ],
     "note": "按公开首发年份，对照 EDLAB 与经同名消歧的 DBLP、论文原文和正式出版记录。已核有在读学生具名实习的 3 篇腾讯论文；余下包括企业共署线索、无目标连接等。ConfDet、Dual-Pronged LoRA 仅见 2026 录用目录，尚待公开全文或首稿。"
@@ -57128,7 +57155,49 @@ const facultyPaperAudits = {
       "https://ojs.aaai.org/index.php/AAAI/article/download/37233/41195",
       "https://arxiv.org/abs/2406.09696",
       "https://papers.miccai.org/miccai-2024/paper/2168_paper.pdf#page=9",
-      "https://bearcleverproud.github.io/"
+      "https://bearcleverproud.github.io/",
+      "https://arxiv.org/abs/2502.09662v1",
+      "https://hjiangaz.github.io/",
+      "https://cse.hkust.edu.hk/pg/defenses/Summer26/hjiangaz-25-08-2026.html",
+      "https://arxiv.org/pdf/2502.09662v1#page=23",
+      "https://researchportal.hkust.edu.hk/en/publications/generalizable-cervical-cancer-screening-via-large-scale-pretraini/",
+      "https://atw.ust.hk/available-technologies/generalizable-cervical-cancer-screening-large-scale-pretraining-and-test",
+      "https://github.com/hjiangaz/Smart-CCS",
+      "https://doi.org/10.1109/BIBM62325.2024.10822187",
+      "https://arxiv.org/pdf/2409.13988",
+      "https://ebookshelf.hkust.edu.hk/flippingbook/G23630/8-9/",
+      "https://doi.org/10.1109/BIBM62325.2024.10822740",
+      "https://arxiv.org/pdf/2409.13987",
+      "https://researchportal.hkust.edu.hk/en/publications/holistic-and-historical-instance-comparison-for-cervical-cell-det/",
+      "https://openaccess.thecvf.com/content/CVPR2023/html/Jiang_DoNet_Deep_De-Overlapping_Network_for_Cytology_Instance_Segmentation_CVPR_2023_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_DoNet_Deep_De-Overlapping_Network_for_Cytology_Instance_Segmentation_CVPR_2023_paper.pdf",
+      "https://arxiv.org/abs/2303.14373",
+      "https://doi.org/10.1016/j.media.2022.102691",
+      "https://www.sciencedirect.com/science/article/pii/S136184152200319X",
+      "https://pubmed.ncbi.nlm.nih.gov/36455333/",
+      "https://arxiv.org/abs/2202.05126",
+      "https://openreview.net/pdf/76f48a883139a5c9081244b6ac793a68e4672f89.pdf",
+      "https://arxiv.org/abs/2410.15446",
+      "https://researchportal.hkust.edu.hk/en/publications/concept-complement-bottleneck-model-for-interpretable-medical-ima/",
+      "https://www.nature.com/articles/s41467-025-66220-x#author-information",
+      "https://arxiv.org/abs/2407.15362",
+      "https://pubmed.ncbi.nlm.nih.gov/41387679/",
+      "https://innse.github.io/",
+      "https://www.nature.com/articles/s41467-025-58798-z#author-information",
+      "https://pubmed.ncbi.nlm.nih.gov/40246826/",
+      "https://github.com/LLYXC/MOME",
+      "https://papers.miccai.org/miccai-2024/531-Paper2168.html",
+      "https://arxiv.org/abs/2602.14010",
+      "https://researchportal.hkust.edu.hk/en/publications/a-deployment-friendly-foundational-framework-for-efficient-comput/",
+      "https://vsdl.hkust.edu.hk/members/yu-cai.html",
+      "https://caiyu6666.github.io/files/YuCai_resume.pdf",
+      "https://doi.org/10.1109/TCYB.2024.3390769",
+      "https://www.biorxiv.org/content/10.1101/2025.06.25.661622v1.full.pdf",
+      "https://caiyu6666.github.io/",
+      "https://doi.org/10.1016/j.media.2025.103500",
+      "https://arxiv.org/abs/2404.04518",
+      "https://www.biorxiv.org/content/10.1101/2025.06.25.661622v1.full.pdf#page=37",
+      "https://doi.org/10.1101/2025.06.25.661622"
     ],
     "papers": [
       {
@@ -57233,17 +57302,104 @@ const facultyPaperAudits = {
         "year": 2026
       },
       {
-        "year": 2024,
         "title": "MoME: Mixture of Multimodal Experts for Cancer Survival Prediction",
-        "url": "https://arxiv.org/abs/2406.09696",
+        "url": "https://papers.miccai.org/miccai-2024/531-Paper2168.html",
         "outcome": "existing",
-        "note": "陈浩为同篇作者，Conghao Xiong 的本人主页具名列金国庆和陈浩共同指导；正式稿明示与腾讯天衍共同完成，已在索引按港中文学生和导师收录，不重复计数。",
+        "note": "计算病理 MICCAI 2024 MoME 已以香港中文大学金国庆的正式博士生 Conghao Xiong 为在读者，按腾讯共同研究记录。港科大陈浩同篇，但不将同项目重复算为一条新确认。",
+        "year": 2024,
         "relationIds": [
           "tencent-mome-cuhk-irwin-king"
         ]
+      },
+      {
+        "title": "Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation",
+        "url": "https://arxiv.org/abs/2502.09662v1",
+        "outcome": "confirmed",
+        "note": "2025-02-12 原稿首页列周彦宁的腾讯 AI Lab 和港中文双署；作者贡献明确周彦宁与港科大博士生江浩共同开发测试时适应算法，由陈浩指导研究。江浩的博士答辩公告点名陈浩为导师，并把 Smart-CCS 列为其博士工作；周彦宁的履历显示自 2021-09 在腾讯任研究员。",
+        "year": 2025,
+        "relationIds": [
+          "tencent-smartccs-hkust-hao-chen"
+        ]
+      },
+      {
+        "title": "GAInS: Gradient Anomaly-aware Biomedical Instance Segmentation",
+        "url": "https://doi.org/10.1109/BIBM62325.2024.10822187",
+        "outcome": "lead",
+        "note": "2024 年 BIBM。原文腾讯周彦宁署名，校方本科 UROP 明确将同一题目记为陈浩指导刘润生的项目，江浩同为第一作者。原文未说明哪个技术任务由企业成员与学生共同研发；校内 UROP 和企业合著为可核线索。",
+        "year": 2024
+      },
+      {
+        "title": "Holistic and Historical Instance Comparison for Cervical Cell Detection",
+        "url": "https://doi.org/10.1109/BIBM62325.2024.10822740",
+        "outcome": "lead",
+        "note": "2024-09 公开稿及 BIBM 2024 报告，2025-01 正式上线。原文腾讯周彦宁署名，港科大博士江浩署名第一，并在其导师陈浩指导的学位工作中介绍该方向。未发现企业参与的细化贡献或学生实习说明。",
+        "year": 2025
+      },
+      {
+        "title": "DoNet: Deep De-Overlapping Network for Cytology Instance Segmentation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Jiang_DoNet_Deep_De-Overlapping_Network_for_Cytology_Instance_Segmentation_CVPR_2023_paper.html",
+        "outcome": "lead",
+        "note": "CVPR 初版与 2023-03 arXiv 同篇；原文署名陈浩与在读博士江浩同属港科大、周彦宁属腾讯 AI Lab。原文无具名企业实习或双边同项分工，江浩个人只记同期校内研究工作。",
+        "year": 2023
+      },
+      {
+        "title": "Deep learning for computational cytology: A survey",
+        "url": "https://doi.org/10.1016/j.media.2022.102691",
+        "outcome": "no-evidence",
+        "note": "2022-11 在线、2023-02 卷期，2022-02 arXiv 同篇。从出版社学术归属与分工看腾讯当期员工周彦宁在本篇只署其母校香港中文大学；没有企业项目公开证据。",
+        "year": 2023
+      },
+      {
+        "title": "Concept Complement Bottleneck Model for Interpretable Medical Image Diagnosis",
+        "url": "https://openreview.net/pdf/76f48a883139a5c9081244b6ac793a68e4672f89.pdf",
+        "outcome": "no-evidence",
+        "note": "2024-10 arXiv 预印本到 2026 MIDL PMLR 正式出版合为一篇。五名作者全部港科大，首面无目标企业或同篇实习脚注。",
+        "year": 2026
+      },
+      {
+        "title": "A multimodal knowledge-enhanced whole-slide pathology foundation model",
+        "url": "https://www.nature.com/articles/s41467-025-66220-x#author-information",
+        "outcome": "no-evidence",
+        "note": "mSTAR 2024-07 首稿、2025-12 正式版同篇。正式版只列大学、医院和公共实验室；三位共同一作有明确技术任务，项目资助机构列表中有校方产业联合研究计划编号，但无 14 家公司具名人员或企业项目。",
+        "year": 2025
+      },
+      {
+        "title": "A large model for non-invasive and personalized management of breast cancer from multiparametric MRI",
+        "url": "https://www.nature.com/articles/s41467-025-58798-z#author-information",
+        "outcome": "no-evidence",
+        "note": "Nature 2025 乳癌 MRI MOME，简称重叠但与金国庆学生的 MICCAI 病理多专家模型不同，作者、临床数据和具体任务不同。正式名单列大学和医院，未见目标公司作者。",
+        "year": 2025
+      },
+      {
+        "title": "A Deployment-Friendly Foundational Framework for Efficient Computational Pathology",
+        "url": "https://arxiv.org/abs/2602.14010",
+        "outcome": "no-evidence",
+        "note": "LitePath 预印本仅署大学和临床研究单位，截至截止日接受意向不另记正式论文。学生蔡煜早期腾讯实习是用基因突变识别癌症原发灶，与这篇病理部署模型不同。",
+        "year": 2026
+      },
+      {
+        "title": "LENAS: Learning-Based Neural Architecture Search and Ensemble for 3-D Radiotherapy Dose Prediction",
+        "url": "https://doi.org/10.1109/TCYB.2024.3390769",
+        "outcome": "lead",
+        "note": "2021-06 早期腾讯版未列陈浩；2024 纳入陈浩等港科大作者并同刊，保留为一篇。校方明确 Yi Lin 是陈浩与鄭光廷的博士生且之前任腾讯研究员，未找到当时仍以腾讯角色完成这项在读期扩展的材料。",
+        "year": 2024
+      },
+      {
+        "title": "Genomic Touchstone: Benchmarking Genomic Language Models in the Context of the Central Dogma",
+        "url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661622v1.full.pdf#page=37",
+        "outcome": "no-evidence",
+        "note": "2025-06-30 首稿第 37 页具名：港科大学生蔡煜参与实验设计讨论，腾讯姚建华提供生物学指导。原文利益声明另外明确，姚在研究期受雇于腾讯，但腾讯公司没有影响这项研究；没有双方共同技术任务或学生以企业身份开展本篇的证据。蔡煜公开的腾讯实习方向为用基因突变识别不明原发灶肿瘤，与本篇基准不同。保留合作署名的核对记录。",
+        "year": 2025
+      },
+      {
+        "title": "MedIAnomaly: A comparative study of anomaly detection in medical images",
+        "url": "https://doi.org/10.1016/j.media.2025.103500",
+        "outcome": "no-evidence",
+        "note": "2024-04 arXiv、2025 MedIA 正式版同作，全部作者港科大。学生蔡煜的腾讯署名履历是不同任务且发表于首稿之后。",
+        "year": 2025
       }
     ],
-    "note": "已核 15 篇，TAKT 和 MoME 分别对应索引中已有的两项校企研究；未见独立关系的线索不重复计入。其他公开书目继续核查。"
+    "note": "已核 27 篇，Smart-CCS 由原文具名分工和校方答辩确认；港中文两篇已收录论文无需重复计数。其余已识别书目待逐篇核查。"
   },
   "eynbo4cAAAAJ": {
     "from": "2023-01-01",
@@ -57641,5 +57797,406 @@ const facultyPaperAudits = {
       }
     ],
     "note": "校方与本人书目、ORCID、DBLP、期刊及会议原文交叉；按首发年计同一预印本和正式版。排除 2023 前的 XTQA、Multitask Learning、Relation-Aware Fine-Grained Reasoning，以及索引误合并的 Scalpel、LFWS、六边形循环分块（西交马洁）和 RAG 调研（中科大硕士 Jie Ma）。2026 年图文交织一项已见项目公开说明及校方书目、未见定稿记录；另有课程论文仅见双重作者书目，保留来源限制。"
+  },
+  "JYaf_gcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://gr.xjtu.edu.cn/cxwang/zh_CN/zdylm/990031/list/index.htm",
+      "https://faculty.xjtu.edu.cn/cxwang/zh_CN/zhym/989957/list/index.htm",
+      "https://dblp.org/pid/16/10143-1.html",
+      "https://gs.xjtu.edu.cn/info/1187/10294.htm",
+      "https://gr.xjtu.edu.cn/cxwang/zh_CN/zhym/990030/list/index.htm",
+      "https://orcid.org/0000-0002-9539-5046",
+      "https://www.csauthors.net/chenxu-wang/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Extracting Training Dialogue Data from Large Language Model based Task Bots",
+        "url": "https://arxiv.org/pdf/2603.01550",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-03 首稿首页明确六名作者均为西交智能网络与网络安全重点实验室；公开模型或对话数据并非企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "TDTS: A Trusted Data Trading System Framework Based on Blockchain Data Identification and Private Information Retrieval",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-3477-7_24",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 首次公开于 2026-01-02，五位均署西交；作者身份由学院与论文通讯信息互证。"
+      },
+      {
+        "year": 2026,
+        "title": "FSFDLLM: Financial Statement Fraud Detection Aided by Large Language Models",
+        "url": "https://spj.science.org/doi/10.34133/icomputing.0274",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "原刊 2026-04-29 在线；作者署西交与澳大利亚 Griffith University，支援为国家、陕西及校内项目。"
+      },
+      {
+        "year": 2024,
+        "title": "SMUG: Sand Mixing for Unobserved Class Detection in Graph Few-Shot Learning",
+        "url": "https://doi.org/10.1145/3589334.3645466",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "首发开放审稿页明确 2024-01-23；ACM 正式版六名作者均为西交，开源人工图数据不证明企业参与。"
+      },
+      {
+        "year": 2024,
+        "title": "AFANS: Augmentation-Free Graph Contrastive Learning with Adversarial Negative Sampling",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-97-5615-5_30",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2024-08-03 记录四位均为西交，未见目标企业合作。"
+      },
+      {
+        "year": 2024,
+        "title": "Beyond Simple Text Style Transfer: Unveiling Compound Text Style Transfer with Prompt-Based Pre-Trained Language Models",
+        "url": "https://doi.org/10.1109/ICASSP48485.2024.10447801",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 正式会议论文集署 Shuai Ju、王晨旭，均为西交，使用预训练模型不构成企业共研。"
+      },
+      {
+        "year": 2024,
+        "title": "Are We There Yet? Unraveling the State-of-the-Art Smart Contract Fuzzers",
+        "url": "https://arxiv.org/abs/2402.02973",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-02 首稿和 ICSE 正式论文是同一篇，会议逐名列西交及香港理工。Hao Zhou 后续从事腾讯工作不能代替本篇同项实际参与。"
+      },
+      {
+        "year": 2024,
+        "title": "Learning-to-Rank Debias with Popularity-weighted Negative Sampling and Popularity Regularization",
+        "url": "https://doi.org/10.1016/j.neucom.2024.127681",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Elsevier 2024-04 先在线，三作者均为西交；Tao Qin 身份为西交秦涛，非同名微软研究员。"
+      },
+      {
+        "year": 2024,
+        "title": "Multi-Relational Graph Representation Learning for Financial Statement Fraud Detection",
+        "url": "https://doi.org/10.26599/BDMA.2024.9020013",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2024-08 在线，作者署西交、港中深深圳高等金融研究院，未获目标企业人员同项参与。与 2026 FSFDLLM 题名方法不同。"
+      },
+      {
+        "year": 2023,
+        "title": "GTCAlign: Global Topology Consistency-Based Graph Alignment",
+        "url": "https://doi.org/10.1109/TKDE.2023.3312358",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-09 最早上线，2024-05 正卷；西交研究生院具名姜佩京导师王晨旭，但同篇单位为西交与圣母大学。作者秦涛 ORCID 0000-0003-4874-2567 为西交，非同名微软研究员。"
+      },
+      {
+        "year": 2023,
+        "title": "A Blockchain-Based On-Chain and Off-Chain Dual-Trusted Carbon Emission Trading System with Reputation Mechanism",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-99-8101-4_12",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 列 2023-11-25 首次公开（2024 书卷），两位作者均为西交软件学院。"
+      },
+      {
+        "year": 2026,
+        "title": "BadSKP: Backdoor Attacks on Knowledge Graph-Enhanced LLMs with Soft Prompts",
+        "url": "https://arxiv.org/pdf/2605.11996",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-05 原文首页逐人列西交、西电、北京交大、中科院计算所、INRIA、A*STAR，未见名单企业。作者校邮确认是西交王晨旭。"
+      },
+      {
+        "year": 2026,
+        "title": "RTCM: A Distributed Snapshot-Based Framework for Real-Time Co-Movement Mining",
+        "url": "https://www.openproceedings.org/2026/conf/edbt/paper-199.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "EDBT 正式 PDF 首面逐人来自西交和奥尔堡大学；秦涛原文明确用西交校邮。与 SWISP 使用不同算法、实时流协议。"
+      },
+      {
+        "year": 2026,
+        "title": "基于个人知识图谱表示学习的推荐算法",
+        "url": "https://jns.nju.edu.cn/CN/abstract/article/0469-5097/1787",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "正式条目 2026-04-07 网络出版，四名作者均西交；KuaiRec 和网易数据只是评测数据，不是企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "B2BGAN: A Backbone-to-Branches GAN-Based Oversampling Approach for Class-Imbalanced Tabular Data",
+        "url": "https://doi.org/10.1109/TKDE.2025.3593637",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-07 IEEE 先行在线，原作者来自西交；未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "DAPEW: Towards robust collaborative filtering with graph contrastive learning",
+        "url": "https://doi.org/10.1016/j.knosys.2025.113570",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Elsevier 2025-04 在线，作者来自西交和中山大学。原文秦涛、朱奎宇均为西交，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "FiGraph: A Dynamic Heterogeneous Graph Dataset for Financial Anomaly Detection",
+        "url": "https://doi.org/10.1145/3701716.3715301",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 论文六名作者均为西交；这是发布 FiGraph 数据的独立论文，不是 FSFDLLM 使用该数据的后续论文。"
+      },
+      {
+        "year": 2025,
+        "title": "PARSIFAL: Private and Robust Sign Federated Learning",
+        "url": "https://doi.org/10.1145/3711896.3737074",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 正式会议六名均为西交，未见目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "Task Negative Sampling Enhanced Graph Few-shot Learning",
+        "url": "https://doi.org/10.1145/3711896.3737148",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 正式同篇四名全部来自西交，未见目标企业；和 2024 SMUG 的开放集问题不能混为一篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Graph contrastive learning with high-order feature interactions and adversarial Wasserstein-distance-based alignment",
+        "url": "https://link.springer.com/article/10.1007/s13042-024-02461-4",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2024-11-21 首发、2025 正卷。作者和贡献声明中的五名均为西交。"
+      },
+      {
+        "year": 2024,
+        "title": "Graph augmentation against structural poisoning attacks via structure and attribute reconciliation",
+        "url": "https://link.springer.com/article/10.1007/s13042-024-02380-4",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2024-09-11 首发、2025 正卷；原稿作者均来自西交，资助未列目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "SynSem-ASTE: An Enhanced Multi-Encoder Network for Aspect Sentiment Triplet Extraction With Syntax and Semantics",
+        "url": "https://doi.org/10.1109/TAFFC.2024.3397961",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2024-05 首发，原稿逐人为西交，未见企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Blockchain-Based Dynamic Cloud Data Integrity Auditing via Non-Leaf Node Sampling of Rank-Based Merkle Hash Tree",
+        "url": "https://doi.org/10.1109/TNSE.2024.3393978",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2024-04 首次在线，原稿署西交和中大；采用云平台不是企业实研。另一中文论文的多云多副本方法另核。"
+      },
+      {
+        "year": 2024,
+        "title": "Distribution-aware hybrid noise augmentation in graph contrastive learning for recommendation",
+        "url": "https://doi.org/10.1016/j.eswa.2024.125118",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "原出版作者单位逐名为西交和西安理工，2024-08 在线。"
+      },
+      {
+        "year": 2024,
+        "title": "SWISP: Distributed Convoy Mining via Sliding Window-based Indexing and Sub-track Partitioning",
+        "url": "https://vbn.aau.dk/en/publications/swisp-distributed-convoy-mining-via-sliding-window-based-indexing/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICDE 和共同作者单位收藏原稿（10.1109/ICDE60146.2024.00344）均证明作者来自西交和奥尔堡。与后续 RTCM 各为独立。"
+      },
+      {
+        "year": 2024,
+        "title": "Learning to Hash with Long-Short-Term Graph Neural Networks for Efficient Social Recommendation",
+        "url": "https://doi.org/10.1109/HPCC64274.2024.00173",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE HPCC 2024 原稿署三名全为西交软件学院；未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Towards Understanding the Instability of Network Embedding (Extended Abstract)",
+        "url": "https://doi.org/10.1109/ICDE55515.2023.00339",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICDE 正式原文署名都来自西交；研究的是嵌入不稳定性，按已公开的会议摘要记录。"
+      },
+      {
+        "year": 2023,
+        "title": "Foreground Extraction in Histo-Pathological Image by Combining Mathematical Morphology Operations and U-Net",
+        "url": "https://doi.org/10.5220/0011803500003414",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "出版作者为西交、莱顿大学和莱顿大学医学中心；DBLP 有王的 ORCID，未见目标企业。"
+      }
+    ],
+    "note": "学校个人与学院书目、DBLP/ORCID、同文作者与原始出版逐项互证。已剔除误归的北邮/石河子同名 AI 论文，及 2023 前已有正式出版的 SocialSift 与 FuAlign。其余书目继续核查。"
+  },
+  "cLUgV4YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://wutong16.github.io/",
+      "https://orcid.org/0000-0001-5557-0623",
+      "https://ys-imtech.github.io/projects/PermaVid/",
+      "https://streetnvs.github.io/",
+      "https://lizb6626.github.io/IDArb/",
+      "https://github.com/Bujiazi/HiFlow",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3457_ECCV_2024_paper.php",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03632.pdf",
+      "https://ys-imtech.github.io/HyperDreamer/",
+      "https://fiva-dataset.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "PermaVid: Consistent Video Generation Across Edits via Disentangled Context Memory",
+        "url": "https://arxiv.org/html/2606.16449v1",
+        "note": "作者官方项目及原文首稿 2026-06-15 指上交、斯坦福、南洋理工、港中大及上海创智学院，吴桐未明确用复旦署名，亦无目标企业作者或具名研究脚注。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Effective Multi-sensor Conditioning for Street-view Novel-view Synthesis",
+        "url": "https://arxiv.org/html/2606.01590v1",
+        "note": "6 月首版将吴桐等署斯坦福，唯一企业作者 Jonathan Tremblay 署 NVIDIA；公司不在范围，不能用同月的新复旦任职替代。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Infinite Gaze Generation for Videos with Autoregressive Diffusion",
+        "url": "https://arxiv.org/html/2603.24938v1",
+        "note": "2026-03 首发，虽数月后在 ECCV 发表，合作作者来自斯坦福和纽约大学，吴桐在斯坦福。未见调查内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "From Sparse to Dense: Multi-View GRPO for Flow Models via Augmented Condition Space",
+        "url": "https://arxiv.org/html/2603.12648v1",
+        "note": "2026-03 首稿有吴桐斯坦福署名，复旦与吴的作者单位不同；高校、上海人工智能实验室、上海创智学院及 Adobe 署名中无目标企业。原文无同篇企业实习。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+        "url": "https://arxiv.org/html/2602.18422v1",
+        "note": "2026-02 原文脚注明示有关工作在斯坦福访学期间完成，参与机构斯坦福、上海纽约大学与北卡教堂山。吴当时不任复旦教师。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "UniHand: A Unified Model for Diverse Controlled 4D Hand Motion Modeling",
+        "url": "https://arxiv.org/html/2602.21631v1",
+        "note": "吴桐在公开论文首版署斯坦福，复旦作者在 TEAI，和以后任职分开；手势数据集未显示目标企业参与。ICLR 与 arXiv 是同一篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Image2Garment: Simulation-ready Garment Generation from a Single Image",
+        "url": "https://arxiv.org/html/2601.09658v1",
+        "note": "2026-01 原文列斯坦福与 Google 合作；无目标公司或复旦任教时期项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties",
+        "url": "https://arxiv.org/html/2512.11799v1",
+        "note": "2025-12 首稿具名复旦学生方烨，在 Adobe 实习时部分完成此篇；吴署斯坦福，Adobe 不在调查公司名单。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "BulletTime: Decoupled Control of Time and Camera Pose for Video Generation",
+        "url": "https://arxiv.org/html/2512.05076v1",
+        "note": "2025-12 首稿的参加者来自瑞士苏黎世联邦理工、斯坦福、港中大。吴桐为斯坦福研究阶段，未见目标公司参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "ViSAudio: End-to-End Video-Driven Binaural Spatial Audio Generation",
+        "url": "https://arxiv.org/html/2512.03036v1",
+        "note": "2025-12 公开原文列浙大、上交、北航、港中大、上海创智学院和上海人工智能实验室；吴用斯坦福邮箱，无范围内企业或访企研究脚注。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Hi3DEval: Advancing 3D Generation Evaluation with Hierarchical Validity",
+        "url": "https://arxiv.org/html/2508.05609v1",
+        "note": "2025-08 首稿；吴桐列斯坦福，与复旦、清华、港中大及两个学术实验室合著，早于复旦任职也无目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
+        "url": "https://arxiv.org/html/2508.04700v1",
+        "note": "2025-08 原文将吴署港中大，其他作者为上交或上海人工智能实验室；未见所列企业在这项自演化代理研究中参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Video World Models with Long-term Spatial Memory",
+        "url": "https://arxiv.org/html/2506.05284v1",
+        "note": "2025-06 首稿，吴桐共同一作，参与单位为斯坦福、上交、港中大、上海人工智能实验室、南洋理工；无目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "SS4D: Native 4D Generative Model via Structured Spacetime Latents",
+        "url": "https://arxiv.org/html/2512.14284v1",
+        "note": "2025-12 首稿及 ACM 正文，吴桐为斯坦福通信作者。港中大、浙大及上海人工智能实验室参与；不能把之后的复旦聘任当作该篇的指导身份。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Towards Vision-Language-Garment Models for Web Knowledge Garment Understanding and Generation",
+        "url": "https://arxiv.org/html/2506.05210v1",
+        "note": "2025-06 学术合作者为斯坦福团队，时尚数据与生成基准未有目标公司或学生在公司参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "HiFlow: Training-free High-Resolution Image Generation with Flow-Aligned Guidance",
+        "url": "https://arxiv.org/html/2504.06232v1",
+        "note": "2025-04 首稿，吴此时在斯坦福，其余为中科大、上交、港中大、上海人工智能实验室、上海创智学院等；无目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "GenDoP: Auto-regressive Camera Trajectory Generation as a Director of Photography",
+        "url": "https://arxiv.org/html/2504.07083v1",
+        "note": "2025-04 首稿列浙大、港中大、南洋理工、上海人工智能实验室及吴所在的斯坦福；无目标企业共同作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Light-A-Video: Training-free Video Relighting via Progressive Light Fusion",
+        "url": "https://arxiv.org/html/2502.08590v1",
+        "note": "2025-02 首稿与 ICCV 同篇。合作单位含上交、中科大、港中大、港科大、上海人工智能实验室与斯坦福，没有范围内企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "RelightVid: Temporal-Consistent Diffusion Model for Video Relighting",
+        "url": "https://arxiv.org/html/2501.16330v1",
+        "note": "2025-01 首稿，复旦、上交、浙大、斯坦福、港中大及上海人工智能实验室参与。吴为斯坦福，后续 Adobe 实习与其他论文不混在一起。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "IDArb: Intrinsic Decomposition for Arbitrary Number of Input Views and Illuminations",
+        "url": "https://arxiv.org/html/2412.12083v1",
+        "note": "2024-12 首发、2025 ICLR，研究者主要来自港中大、浙大和上海人工智能实验室，吴在复旦任职前已公开，未发现目标企业共研。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "核完个人主页所列调查日期内的 40 篇，并对照逐篇原文、ORCID 与合作者页面。吴桐于 2026-06 加入复旦。公开原文显示早期作品是港中大读博或斯坦福团队期间的项目；Voxurf 2022 首发排除。个人主页属于代表作清单，继续从独立索引补找未列作品，暂不标穷尽。"
   }
 };
