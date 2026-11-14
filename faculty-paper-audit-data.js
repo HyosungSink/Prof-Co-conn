@@ -17711,7 +17711,11 @@ const facultyPaperAudits = {
       "https://wbhu.net/",
       "https://www.ia.cas.cn/xwzx/ttxw/202410/t20241024_7407724.html",
       "https://arxiv.org/html/2512.10999v1#S7",
-      "https://arxiv.org/html/2512.10999v3"
+      "https://arxiv.org/html/2512.10999v3",
+      "https://dingyue772.github.io/",
+      "https://github.com/dingyue772/Video-Understanding",
+      "https://ia.cas.cn/xwzx/ttxw/202606/t20260603_8213499.html",
+      "https://arxiv.org/html/2605.29584v2"
     ],
     "papers": [
       {
@@ -17789,7 +17793,7 @@ const facultyPaperAudits = {
         "title": "KBQA-R1: Reinforcing Large Language Models for Knowledge Base Question Answering",
         "url": "https://proceedings.mlr.press/v306/sun26h.html",
         "outcome": "confirmed",
-        "note": "孙鑫在履历中逐篇列本论文为蚂蚁实习成果，具名联合导师王亮同篇。2025 年 12 月首稿把王维强等四位作者列为蚂蚁员工，给出企业邮箱与岗位；学生项目页列双署名，同时期的 ICASSP 会方也列王维强为蚂蚁。ICML 定稿把这四位作者改列 Independent，原因未公开；本条据研究期材料确认。"
+        "note": "孙鑫本人明确将这篇 ICML 论文列作蚂蚁实习成果，联合导师王亮同篇。2025 年 12 月与 2026 年 1 月预印本把王维强、宋博文、陈中奇、郑行列为蚂蚁，有企业邮箱，作者简介也给出正式职务。2026-06-02 arXiv 第三版起已将这四位改列 Independent，ICML 定稿沿用；原因未公开。这里按有同期来源的研究阶段身份确认。 ICML 会期为 7 月 6–11 日。正式版与 2025 年 12 月预印本合并；自动化所报道列具名作者王维强和王子磊。"
       },
       {
         "year": 2026,
@@ -17803,14 +17807,14 @@ const facultyPaperAudits = {
         "title": "Multimodal Adaptive Retrieval Augmented Generation through Internal Representation Learning",
         "url": "https://doi.org/10.1109/IJCNN69854.2026.11729643",
         "outcome": "confirmed",
-        "note": "孙鑫在履历把本篇 IJCNN 论文明确列为蚂蚁实习的多模态自适应检索成果。正式 IEEE 题录与作者原文均列王维强、宋博文、陈中奇署蚂蚁，博士联合导师王亮署自动化所；正式篇与 arXiv:2603.00511 合并。"
+        "note": "孙鑫本人把 IJCNN 2026 多模态自适应检索列为蚂蚁机器智能部研发成果。IEEE 通过 Crossref 登记的正式作者单位与公开原文一致，均将王维强、宋博文、陈中奇列为蚂蚁，联合导师王亮署自动化所。 Crossref 出版方登记 6 月，会期 6 月 22–26 日；登记记录 10 月 19 日生成。正式版与 arXiv:2603.00511 合并。"
       },
       {
         "year": 2026,
         "title": "EviSD: Evidence-Conditioned Self-Distillation for Search-Augmented Agents",
         "url": "https://arxiv.org/html/2608.01359v1",
         "outcome": "confirmed",
-        "note": "孙鑫在蚂蚁实习经历内具名链接 EviSD。8 月 2 日的预印本列孙鑫为共同第一作者，也列博士联合导师王亮与用蚂蚁企业邮箱署名的宋博文。前一篇 2025 年 12 月研究原稿的作者简介给出宋博文在蚂蚁的入职年份和正式岗位。"
+        "note": "孙鑫本人在蚂蚁实习经历下逐篇链接 EviSD。预印本把孙鑫标为共同一作、署有校内联合导师王亮及蚂蚁宋博文；后者同年 10 月仍用蚂蚁署名。 8 月 2 日公开的预印本。没有将 2027 年投稿写成录用；与同一批的评估基准 HopRefusalBench 不同。"
       },
       {
         "year": 2025,
@@ -17823,8 +17827,8 @@ const facultyPaperAudits = {
         "year": 2026,
         "title": "GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering",
         "url": "https://aclanthology.org/2026.findings-emnlp.2459/",
-        "outcome": "lead",
-        "note": "学生履历把本项目列为蚂蚁实习成果；2026-05 原文将王伟强、Bowen Song 署蚂蚁，EMNLP 2026 正式版改为独立研究者。仍需复核研究阶段任职与版本变更。"
+        "outcome": "confirmed",
+        "note": "孙鑫主页的蚂蚁实习项目专门链接 EMNLP Findings 的本篇成果，并具名王亮为博士联合导师。同篇 2026 年 5 月及 6 月预印本把王维强、陈中奇、宋博文署为蚂蚁，保留企业邮箱；同期正式 IJCNN/ICASSP 署名及企业公告可核王维强任职。十月正式版改为独立研究者，原因未公开，记录只核认实际研究阶段。"
       },
       {
         "year": 2024,
@@ -17916,6 +17920,13 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.emnlp-main.1063/",
         "outcome": "lead",
         "note": "EMNLP 正式版具名宋博文、王维强署蚂蚁；王亮与 Xinlong Chen、Yue Ding 共同署自动化所。蚂蚁基金只是资助，未查到这两位中有符合论文研究阶段学籍、王亮实际指导且参与蚂蚁项目的人，暂不确认。"
+      },
+      {
+        "year": 2026,
+        "title": "OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models",
+        "url": "https://proceedings.mlr.press/v306/ding26e.html",
+        "outcome": "confirmed",
+        "note": "ICML 正式稿在丁悦这位共同一作名下并列自动化所与快手可灵，同篇有其博士导师王亮及快手多模态理解组负责人张远行。丁悦本人把 OmniSIFT 写明为自动化所、快手可灵共同的音视频压缩研究，履历注明在可灵研究的开始日期和同篇的企业导师；初稿和正式研究期均已经在读。"
       }
     ],
     "note": "继续依自动化所官方报道、两类博士生书目和正式论文逐一核验，区分同名作者及跨校指导；仍未穷尽教师整体书目。"
@@ -38374,7 +38385,7 @@ const facultyPaperAudits = {
   "bym7rFQAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://arxiv.org/abs/2604.00941",
       "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=704",
@@ -38436,14 +38447,31 @@ const facultyPaperAudits = {
       "https://ieeexplore.ieee.org/document/10383299",
       "https://yiming-meng.github.io/Papers/Conf/CDC23.pdf",
       "https://doi.org/10.1007/978-3-031-72794-8_8",
-      "https://yiming-meng.github.io/Papers/Conf/IUTAM23.pdf"
+      "https://yiming-meng.github.io/Papers/Conf/IUTAM23.pdf",
+      "https://arxiv.org/abs/2606.12768",
+      "https://arxiv.org/html/2606.12768v1",
+      "https://arxiv.org/abs/2610.24588",
+      "https://arxiv.org/html/2610.24588v1",
+      "https://doi.org/10.1145/3641513.3652530",
+      "https://dblp.org/rec/conf/hybrid/LiuMFZ24a",
+      "https://arxiv.org/abs/2312.12759",
+      "https://arxiv.org/html/2312.12759v1",
+      "https://arxiv.org/html/2604.00941v1",
+      "https://arxiv.org/html/2604.00941v2",
+      "https://link.springer.com/chapter/10.1007/978-3-031-72794-8_8",
+      "https://www.math.uwaterloo.ca/~j49liu/publications.html",
+      "https://orcid.org/0009-0002-4371-1059",
+      "https://dblp.org/rec/journals/access/MengLW25",
+      "https://dblp.org/rec/conf/eucc/MengL26",
+      "https://dblp.org/rec/conf/eucc/MengLO26",
+      "https://dblp.org/rec/conf/icra/ShafaMO26"
     ],
     "papers": [
       {
         "title": "Characterization of Safe Stabilization and Control Lyapunov–Barrier Functions via Zubov Equation Formulation",
         "url": "https://arxiv.org/abs/2604.00941",
         "outcome": "no-evidence",
-        "note": "首版署港科大（广州）与滑铁卢，作者仅孟毅明和 Jun Liu，计算及资助来源为滑铁卢项目及加拿大公共科研经费。",
+        "note": "2026-04-01 arXiv 首版两人均署滑铁卢；2026-09-11 二版才更新孟毅明为港科大（广州）。两位作者及资助都无目标企业或范围内学生的该篇企业科研。",
         "year": 2026
       },
       {
@@ -38513,7 +38541,7 @@ const facultyPaperAudits = {
         "title": "Hopf Bifurcations of Moore-Greitzer PDE Model with Additive Noise",
         "url": "https://doi.org/10.1007/s00332-023-09929-7",
         "outcome": "no-evidence",
-        "note": "Springer 正式文所列机构为滑铁卢和欧洲大学，查不到目标公司署名；与后续针对乘性噪声的研究分别著录。",
+        "note": "Springer 正式版为 2023-06-17，所列机构为滑铁卢与德国柏林自由大学。加性噪声研究同后续乘性噪声分开记录，无目标公司。",
         "year": 2023
       },
       {
@@ -38632,10 +38660,38 @@ const facultyPaperAudits = {
         "title": "Asymptotic Approximation of the Maximal Lyapunov Exponent of Moore-Greitzer PDE Model with Small Multiplicative Noise Close to Stall Bifurcation",
         "url": "https://doi.org/10.1007/978-3-031-72794-8_8",
         "outcome": "no-evidence",
-        "note": "成文源自 2023 IUTAM 专题会，书章 2024 正式出版。正文署滑铁卢与欧洲学术机构；未发现范围企业。",
+        "note": "研究在 2023 IUTAM 专题会上报告，Springer 书章 2025-01-07 首次正式上线。正文署滑铁卢与欧洲学术机构，列加拿大 NSERC 公共资助。",
+        "year": 2025
+      },
+      {
+        "title": "Patching Control Lyapunov Barrier Functions for Temporal Logic Specifications with Bounded Controls",
+        "url": "https://arxiv.org/abs/2606.12768",
+        "outcome": "no-evidence",
+        "note": "2026-06 正文列孟毅明署港科大（广州），其余属 MIT、滑铁卢与加拿大矿山设备公司 MacLean Engineering；企业共同作者所在单位不在调查的 14 家范围。",
+        "year": 2026
+      },
+      {
+        "title": "Physics-Informed Koopman Learning for Data-Efficient System Identification of Automated Vehicle Dynamics",
+        "url": "https://arxiv.org/abs/2610.24588",
+        "outcome": "no-evidence",
+        "note": "2026-10 预印本列孟毅明目前的港科大（广州）通讯邮箱，但作者脚注明确本项工作署 UIUC 与威斯康星大学麦迪逊分校。采用量产车评测数据不表示车企同篇参与。",
+        "year": 2026
+      },
+      {
+        "title": "Physics-Informed Neural Networks for Stability Analysis and Control with Formal Guarantees",
+        "url": "https://doi.org/10.1145/3641513.3652530",
+        "outcome": "no-evidence",
+        "note": "ACM HSCC 2024 正式 2 页同行审查海报，与同期 8 页工具论文不同 DOI，概述控制框架并引用工具论文。ACM 具名作者仅 UIUC 与滑铁卢，资助来自加拿大公共科研计划。",
         "year": 2024
+      },
+      {
+        "title": "Stochastic Control Barrier Functions with Bayesian Inference for Unknown Stochastic Differential Equations",
+        "url": "https://arxiv.org/abs/2312.12759",
+        "outcome": "no-evidence",
+        "note": "2023-12 公开预印本，四位作者分属滑铁卢与 UIUC。论文用自适应巡航仿真，无目标企业作者；没有将同组 2022 年 CDC 的较早研究重复计入。",
+        "year": 2023
       }
     ],
-    "note": "逐篇核完本人独立书目列出的 2023—2026 研究原文，正式书目与在校档案、实名 ORCID 及 DBLP 并核。本人自 2026 年才在港科大（广州）任教；作者索引混有不同 ORCID 的交通控制研究者，正在补核主页以外可归属于本人的新增篇目，现阶段标部分。"
+    "note": "已将港科大（广州）在校履历、作者完整出版清单、实名 ORCID、DBLP、Crossref、合著者书目及公开正文交叉核到 2026-11-12。按真实发表年处理，有日期差异逐篇标明；预印本与同一正式成果归并，独立的技术论文及有 DOI 的会议同行评议海报单列。核除 DBLP 混入的交通控制同名作者（不同 ORCID 0009-0002-4371-1059）。共 32 篇，未找到范围内企业的三方关系；其中一篇的加拿大企业具名作者不在范围。"
   }
 };

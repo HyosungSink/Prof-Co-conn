@@ -41002,6 +41002,120 @@ const survey = {
         "学生公开英文简历首页 Education 明确标示该段 Ph.D. Advisor: Prof. Yu Wang；本项也由汪玉通讯。",
         "https://www.tianchen-zhao.info/files/english_resume_tianchen_zhao.pdf"
       ]
+    },
+    {
+      "id": "ant-gapd-ucas-wang",
+      "paperId": "arxiv:2605.29584",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学技术大学",
+      "company": "蚂蚁集团",
+      "team": "机器智能部",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "自动化所研究员、国科大博士生导师；孙鑫本人列为博士联合导师。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "王维强 · Weiqiang Wang",
+        "GAPD 的 2026 年 5 月及 6 月原稿署蚂蚁集团，正式版改为独立研究者；同一研究期的 ICASSP 会方与 IJCNN 出版记录均列其为蚂蚁。",
+        "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13877&bare=1"
+      ],
+      "student": [
+        "孙鑫 · Xin Sun",
+        "2022 年起在中国科学技术大学攻读博士，与中科院自动化所联合培养；2024 年 11 月进入蚂蚁机器智能部实习，2026 年 5 月为 Ant Star 研究实习生。",
+        "https://sunxin000.github.io/"
+      ],
+      "title": "GAPD: Gold-Action Policy Distillation for Agentic Reinforcement Learning in Knowledge Base Question Answering",
+      "short": "GAPD",
+      "date": "2026-10",
+      "venue": "Findings of EMNLP 2026",
+      "area": "知识库问答、强化学习",
+      "paper": "https://aclanthology.org/2026.findings-emnlp.2459/",
+      "evidence": "孙鑫主页的蚂蚁实习项目专门链接 EMNLP Findings 的本篇成果，并具名王亮为博士联合导师。同篇 2026 年 5 月及 6 月预印本把王维强、陈中奇、宋博文署为蚂蚁，保留企业邮箱；同期正式 IJCNN/ICASSP 署名及企业公告可核王维强任职。十月正式版改为独立研究者，原因未公开，记录只核认实际研究阶段。",
+      "advising": [
+        "博士联合培养",
+        "孙鑫在履历教育栏明确列为 2022 年起的中科大控制科学与工程博士联合培养（CASIA），具名王亮、刘强为导师。中科大 VIM 实验室记录他自 2022 年 9 月在自动化系就读，同期中科大博士招生表把王亮列为 081104 校外导师。",
+        "https://sunxin000.github.io/files/resume.pdf"
+      ],
+      "extra": [
+        [
+          "2026-05 初稿（企业单位及邮箱）",
+          "https://arxiv.org/html/2605.29584v1"
+        ],
+        [
+          "2026-06 修订稿（仍署蚂蚁）",
+          "https://arxiv.org/html/2605.29584v2"
+        ],
+        [
+          "十月正式版署名",
+          "https://aclanthology.org/2026.findings-emnlp.2459.pdf"
+        ],
+        [
+          "蚂蚁在职负责人及其同期项目信息",
+          "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13877&bare=1"
+        ],
+        [
+          "中科大实验室学员信息",
+          "https://vim.ustc.edu.cn/2021/0704/c27141a571242/page.htm"
+        ]
+      ]
+    },
+    {
+      "id": "kuaishou-omnisift-ucas-wang",
+      "paperId": "arxiv:2602.04804",
+      "company": "快手",
+      "team": "可灵多模态理解团队",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "王亮 · Liang Wang",
+        "国科大博导、自动化所研究员；丁悦主页具名列为博士导师，正式稿署自动化所。",
+        "https://people.ucas.ac.cn/~wangliang"
+      ],
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "2024 年起正式任职于快手，现任可灵多模态理解组负责人；论文署快手，丁悦本人具名列其为本企业研究指导。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "丁悦 · Yue Ding",
+        "2025 年 9 月起在国科大自动化所和模式识别实验室攻读博士；2025 年 8 月起在快手可灵团队担任研究实习生，由张远行指导开展音视频理解研究。",
+        "https://dingyue772.github.io/"
+      ],
+      "title": "OmniSIFT: Modality-Asymmetric Token Compression for Efficient Omni-modal Large Language Models",
+      "short": "OmniSIFT",
+      "date": "2026-07",
+      "venue": "ICML 2026",
+      "area": "音视频理解与计算压缩",
+      "paper": "https://proceedings.mlr.press/v306/ding26e.html",
+      "evidence": "ICML 正式稿在丁悦这位共同一作名下并列自动化所与快手可灵，同篇有其博士导师王亮及快手多模态理解组负责人张远行。丁悦本人把 OmniSIFT 写明为自动化所、快手可灵共同的音视频压缩研究，履历注明在可灵研究的开始日期和同篇的企业导师；初稿和正式研究期均已经在读。",
+      "advising": [
+        "国科大博士指导",
+        "丁悦本人主页明确列王亮、刘强为博士导师，并给出 2025 年 9 月的入学时间；国科大人工智能学院列王亮为自动化所博导。",
+        "https://dingyue772.github.io/"
+      ],
+      "extra": [
+        [
+          "正式论文首页与署名",
+          "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ding26e/ding26e.pdf"
+        ],
+        [
+          "本人研究书目说明本篇属自动化所和可灵",
+          "https://github.com/dingyue772/Video-Understanding"
+        ],
+        [
+          "官方发表通知及全部中文作者",
+          "https://ia.cas.cn/xwzx/ttxw/202606/t20260603_8213499.html"
+        ],
+        [
+          "早期公告及本项研究贡献",
+          "https://github.com/dingyue772/OmniSIFT"
+        ],
+        [
+          "国科大博导名录",
+          "https://aipt.ucas.ac.cn/index.php/zh-cn/tzgg/19-szdw"
+        ]
+      ]
     }
   ]
 };
