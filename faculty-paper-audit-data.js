@@ -45451,42 +45451,150 @@ const facultyPaperAudits = {
       "https://l-yezhu.github.io/",
       "https://wangruoyu02.github.io/cow.github.io/",
       "https://github.com/BigAandSmallq/COW",
-      "https://pyh-129.github.io/SOW/"
+      "https://pyh-129.github.io/SOW/",
+      "https://doi.org/10.1109/CVPR52734.2025.01635",
+      "https://dblp.org/pid/22/0-11.html",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Fan_Re-HOLD_Video_Hand_Object_Interaction_Reenactment_via_adaptive_Layout-instructed_Diffusion_CVPR_2025_paper.pdf",
+      "https://arxiv.org/pdf/2503.16942",
+      "https://fyycs.github.io/Re-HOLD/",
+      "https://hangz-nju-cuhk.github.io/index.html",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_D3_Scaling_Up_Deepfake_Detection_by_Learning_from_Discrepancy_CVPR_2025_paper.html",
+      "https://arxiv.org/pdf/2404.04584",
+      "https://doi.org/10.24963/ijcai.2025/131",
+      "https://ijcai.org/proceedings/2025/0131.pdf",
+      "https://arxiv.org/pdf/2507.02271",
+      "https://doi.org/10.1007/978-3-031-72995-9_8",
+      "https://arxiv.org/pdf/2408.01120",
+      "https://doi.org/10.1109/CVPR52733.2024.01469",
+      "https://arxiv.org/pdf/2404.01925",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8dc9b0192713f44f035b8c0bd3f4153a-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2506.10754",
+      "https://doi.org/10.1109/ICCV51070.2023.01971",
+      "https://arxiv.org/pdf/2303.13233",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/file/7fbae0a0885d3d688840bd34e4a8a698-Paper-Conference.pdf",
+      "https://arxiv.org/pdf/2306.00595",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f737da5ea0e122870fad209509f87d5b-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2302.08357",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8644353f7d307baaf29bc1e56fe8e0ec-Abstract-Datasets_and_Benchmarks.html",
+      "https://arxiv.org/pdf/2310.17290",
+      "https://faculty.bjtu.edu.cn/9763/",
+      "https://doi.org/10.1109/ICCV51701.2025.01637",
+      "https://collaborate.princeton.edu/en/publications/the-silent-assistant-noisequery-as-implicit-guidance-for-goal-dri/",
+      "https://github.com/wangruoyu02/NoiseQuery",
+      "https://arxiv.org/pdf/2412.05101",
+      "https://doi.org/10.1109/TIP.2026.3721361",
+      "https://arxiv.org/pdf/2509.11638",
+      "https://doi.org/10.1109/TMM.2026.3668471",
+      "https://arxiv.org/pdf/2406.12757",
+      "https://arxiv.org/pdf/2601.02201",
+      "https://arxiv.org/pdf/2501.18940",
+      "https://wangsai23.github.io/TV-Dialogue/",
+      "https://doi.org/10.1109/ICCV51070.2023.00124",
+      "https://zhang-tao-whu.github.io/",
+      "https://gpcv.whu.edu.cn/members.html",
+      "https://github.com/zhang-tao-whu/DVIS",
+      "https://doi.org/10.1109/TPAMI.2025.3552694",
+      "https://arxiv.org/pdf/2312.13305",
+      "https://arxiv.org/pdf/2308.14392",
+      "https://youtube-vos.org/challenge/2023/leaderboard/",
+      "https://news.whu.edu.cn/kydt/249.htm",
+      "https://arxiv.org/pdf/2306.04091",
+      "https://gpcv.whu.edu.cn/news.html",
+      "https://doi.org/10.1007/978-3-031-73021-4_7",
+      "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11800.pdf",
+      "https://arxiv.org/abs/2407.15328",
+      "https://doi.org/10.1109/CVPR52729.2023.00295",
+      "https://openaccess.thecvf.com/content/CVPR2023/papers/Qu_Learning_To_Segment_Every_Referring_Object_Point_by_Point_CVPR_2023_paper.pdf",
+      "https://media.icml.cc/Conferences/CVPR2023/CVPR_2023_MainConference_ProgramGuide.pdf",
+      "https://doi.org/10.1109/CVPR52733.2024.01352",
+      "https://api.crossref.org/works/10.1109/CVPR52733.2024.01352",
+      "https://papers.nips.cc/paper_files/paper/2024/hash/e95eb5206c867be843fbc14bbfe8c10e-Abstract-Conference.html",
+      "https://papers.nips.cc/paper_files/paper/2024/file/e95eb5206c867be843fbc14bbfe8c10e-Paper-Conference.pdf",
+      "https://openreview.net/pdf/d217aca9d2b4ac1be080c492bb9d4939061d6de7.pdf",
+      "https://doi.org/10.1109/TNNLS.2024.3350660",
+      "https://pubmed.ncbi.nlm.nih.gov/38241100/",
+      "https://api.crossref.org/works/10.1109/TNNLS.2024.3350660",
+      "https://doi.org/10.1109/TIP.2026.3707757",
+      "https://api.crossref.org/works/10.1109/TIP.2026.3707757",
+      "https://doi.org/10.1109/TPAMI.2022.3144984",
+      "https://ieeexplore.ieee.org/ielx7/34/9970415/09693277.pdf",
+      "https://opus.lib.uts.edu.au/bitstream/10453/169313/2/Switchable_Novel_Object_Captioner.pdf",
+      "https://doi.org/10.1109/TPAMI.2020.3015894",
+      "https://pubmed.ncbi.nlm.nih.gov/32780698/",
+      "https://epic-kitchens.github.io/Reports/EPIC-KITCHENS-Challenges-2020-Report.pdf",
+      "https://doi.org/10.1109/TPAMI.2024.3420239",
+      "https://iris.unitn.it/retrieve/b8507c56-9427-465b-a38f-47073576945a/Vision__X_A_Survey_on_Multimodal_Learning_in_the_Light_of_Data.pdf",
+      "https://arxiv.org/abs/2210.02884",
+      "https://doi.org/10.1016/j.patcog.2024.110259",
+      "https://www.sciencedirect.com/science/article/pii/S0031320324000104",
+      "https://ssrn.com/abstract=4567048",
+      "https://arxiv.org/abs/2310.09213",
+      "https://arxiv.org/html/2310.09213",
+      "https://arxiv.org/abs/2312.10539",
+      "https://arxiv.org/html/2312.10539",
+      "https://deter2024.github.io/deter/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zou_RiskProp_Collision-Anchored_Self-Supervised_Risk_Propagation_For_Early_Accident_Anticipation_CVPR_2026_paper.pdf",
+      "https://arxiv.org/abs/2603.27165",
+      "https://xingyueye5.github.io/",
+      "https://doi.org/10.1109/ICASSP49660.2025.10889839",
+      "https://dblp.uni-trier.de/rec/conf/icassp/FanW0H025.html",
+      "https://doi.org/10.1021/acs.jcim.6c01506",
+      "https://pubs.acs.org/doi/10.1021/acs.jcim.6c01506",
+      "https://arxiv.org/abs/2608.16111",
+      "https://arxiv.org/html/2402.11435",
+      "https://proceedings.mlr.press/v306/huang26bj.html",
+      "https://arxiv.org/html/2606.01651v1",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/huang26bj/huang26bj.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_Implicit_Bias_Injection_Attacks_against_Text-to-Image_Diffusion_Models_CVPR_2025_paper.pdf",
+      "https://arxiv.org/abs/2504.01819",
+      "https://papers.nips.cc/paper_files/paper/2024/hash/073c8584ef86bee26fe9d639ec648e28-Abstract-Conference.html",
+      "https://papers.nips.cc/paper_files/paper/2024/file/073c8584ef86bee26fe9d639ec648e28-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2411.03862",
+      "https://doi.org/10.1109/TPAMI.2026.3723036",
+      "https://api.crossref.org/works/10.1109/TPAMI.2026.3723036",
+      "https://github.com/Hannah1102/ROBIN",
+      "https://arxiv.org/html/2502.09434",
+      "https://arxiv.org/abs/2502.09434",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ae86071c169649bff21188c536163dc-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/3ae86071c169649bff21188c536163dc-Paper-Conference.pdf",
+      "https://arxiv.org/html/2511.01419v2",
+      "https://github.com/Hannah1102",
+      "https://fyycs.github.io/medclaw/"
     ],
     "papers": [
       {
         "title": "CoMM: A Coherent Interleaved Image-Text Dataset for Multimodal Understanding and Generation",
-        "url": "https://arxiv.org/html/2406.10462v1",
+        "url": "https://arxiv.org/abs/2406.10462",
         "outcome": "confirmed",
         "note": "已在关系索引。2024 年首版及 2025 正式版本同作，具名附注说明 Wei Chen 在快手实习时完成；本人记录当时武大本科由武宇指导。",
         "year": 2024
       },
       {
         "title": "Towards One-Step Causal Video Generation via Adversarial Self-Distillation",
-        "url": "https://openreview.net/pdf/e44a392e7db1d4273672b0c2ca18431604a4ef69.pdf",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ae86071c169649bff21188c536163dc-Abstract-Conference.html",
         "outcome": "lead",
-        "note": "与 2025-11 预印本同篇，ICLR 2026 正式首页首列两位武大作者及三位首作者的星号，脚注明确研究在腾讯优图实习期间完成，武宇与腾讯员工 Donghao Luo 并列通讯。未见校方或学生独立档案确证 2025 研究时学籍和武宇是否实际指导 Yongqi Yang 或 Huayang Huang，暂不从通讯署名推断。",
-        "year": 2026
+        "note": "ICLR 正式论文首页的同一星号分别标杨永祺、Huayang Huang（均武汉大学）与徐鹏（腾讯）；脚注说明等贡献暨在腾讯优图实习中完成，支持本项目企业参与。2025 年 2 月另一篇共同署名原文作者简介确认 Huayang Huang 在武汉大学取得硕士学位（2024）并为该校计算机学院在读博士。武宇和腾讯 Donghao Luo 同列通讯；暂未找到具体指导其中哪位实习生的独立证据，仍待补。",
+        "year": 2025
       },
       {
         "title": "Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning",
         "url": "https://proceedings.mlr.press/v235/qian24a.html",
         "outcome": "no-evidence",
-        "note": "ICML 2024 与 2 月预印本合并，PMLR 首页作者仅浙江大学、武汉大学、新加坡国立大学。",
+        "note": "ICML 正式版和预印本同作，作者机构仅浙江大学、武汉大学及新加坡国立大学。",
         "year": 2024
       },
       {
         "title": "Implicit Bias Injection Attacks against Text-to-Image Diffusion Models",
-        "url": "https://arxiv.org/pdf/2504.01819v1",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_Implicit_Bias_Injection_Attacks_against_Text-to-Image_Diffusion_Models_CVPR_2025_paper.pdf",
         "outcome": "no-evidence",
-        "note": "CVPR 2025 正式版与 4 月预印本同作，作者为武汉大学和中山大学。第一作者在另一论文工作中的腾讯优图脚注不能用于本作品。",
+        "note": "CVPR 正式文与 2025-04 预印本合并，所有作者机构为武汉大学、中山大学。",
         "year": 2025
       },
       {
         "title": "Restoring Initial Noise Sensitivity in Text-to-Image Distillation via Geometric Alignment",
-        "url": "https://arxiv.org/pdf/2606.01651v1",
+        "url": "https://proceedings.mlr.press/v306/huang26bj.html",
         "outcome": "no-evidence",
-        "note": "作者与小米 MiLM Plus 合作，小米不在调查 14 家范围。与腾讯优图 ASD 研究作者虽部分重叠，先后发表、企业和技术问题均为不同。",
+        "note": "ICML 正式文与 2026-06 arXiv 为同篇，需合并。论文明确小米 MiLM Plus 的三位作者与团队资助，小米不在 14 家调查范围内。未沿用同批作者其他公司的实习。",
         "year": 2026
       },
       {
@@ -45502,9 +45610,254 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "原始项目及论文作者仅武汉大学与普林斯顿大学；与 COW 虽为同团队和生成方案，研究不同。",
         "year": 2024
+      },
+      {
+        "title": "Re-HOLD: Video Hand Object Interaction Reenactment via adaptive Layout-instructed Diffusion Model",
+        "url": "https://doi.org/10.1109/CVPR52734.2025.01635",
+        "outcome": "lead",
+        "note": "2025-03 预印本和 CVPR 同篇。正式稿仅给第一作者 Yingying Fan 实习符号，明确在百度实习期间完成该篇，武宇为武大共同通讯。Hang Zhou 独立资料明确任百度视频生成技术负责人。尚缺 2025 年该生学籍及武宇指导关系独立佐证，不能据同校反推。同一作者自己的 2026 年 MedClaw 页标北京交通大学与马里兰大学，不能回推 2024–25 年的具体学籍。",
+        "year": 2025
+      },
+      {
+        "title": "D³: Scaling Up Deepfake Detection by Learning from Discrepancy",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_D3_Scaling_Up_Deepfake_Detection_by_Learning_from_Discrepancy_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "2024-04 预印本及 CVPR 2025 版合并；首面仅武汉大学和普林斯顿。",
+        "year": 2025
+      },
+      {
+        "title": "Spotlighting Partially Visible Cinematic Language for Video-to-Audio Generation via Self-distillation",
+        "url": "https://doi.org/10.24963/ijcai.2025/131",
+        "outcome": "no-evidence",
+        "note": "IJCAI 正式版、同年首稿、作者单位均武大，与标题相似的 ICLR 2026 自蒸馏工作不是同篇。",
+        "year": 2025
+      },
+      {
+        "title": "An Efficient and Effective Transformer Decoder-Based Framework for Multi-Task Visual Grounding",
+        "url": "https://doi.org/10.1007/978-3-031-72995-9_8",
+        "outcome": "no-evidence",
+        "note": "ECCV 出版及预印本同作，作者仅武大和港科大。魏生同期快手 CoMM 实习脚注只明确对应彼篇。",
+        "year": 2024
+      },
+      {
+        "title": "Improving Bird’s Eye View Semantic Segmentation by Task Decomposition",
+        "url": "https://doi.org/10.1109/CVPR52733.2024.01469",
+        "outcome": "no-evidence",
+        "note": "CVPR 2024 和预印本同题、TapMo 项目同作；首面为武汉大学和滴滴出行。滴滴未纳入研究企业。",
+        "year": 2024
+      },
+      {
+        "title": "BNMusic: Blending Environmental Noises into Personalized Music",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8dc9b0192713f44f035b8c0bd3f4153a-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "6 月预印本与 NeurIPS 合并；含 Bang & Olufsen 的论文合作不落入 14 家，余作者来自高校。",
+        "year": 2025
+      },
+      {
+        "title": "Visually-Prompted Language Model for Fine-Grained Scene Graph Generation in an Open World",
+        "url": "https://doi.org/10.1109/ICCV51070.2023.01971",
+        "outcome": "no-evidence",
+        "note": "ICCV 与首稿同作；机构为浙大、武汉大学与新加坡国立大学。",
+        "year": 2023
+      },
+      {
+        "title": "Revisit Weakly-Supervised Audio-Visual Video Parsing from the Language Perspective",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/7fbae0a0885d3d688840bd34e4a8a698-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 和 2023 预印本同作，首面作者均为武汉大学与湖北珞珈实验室。与同作者后续百度作品分开核验。",
+        "year": 2023
+      },
+      {
+        "title": "Boundary Guided Learning-Free Semantic Control with Diffusion Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f737da5ea0e122870fad209509f87d5b-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式标题与较早 Boundary Guided Mixing Trajectory 预印本同作。论文作者之一署 Google Research，其余高校，Google 不在调查范围。",
+        "year": 2023
+      },
+      {
+        "title": "RIO: A Benchmark for Reasoning Intention-Oriented Objects in Open Environments",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8644353f7d307baaf29bc1e56fe8e0ec-Abstract-Datasets_and_Benchmarks.html",
+        "outcome": "lead",
+        "note": "原文具名刘武署 JD Explore Academy。第一作者 Qu Mengxue 署北京交通大学；缺在京东完成本项的具名证据，以及武宇实际跨校指导关系。",
+        "year": 2023
+      },
+      {
+        "title": "The Silent Assistant: NoiseQuery as Implicit Guidance for Goal-Driven Image Generation",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.01637",
+        "outcome": "no-evidence",
+        "note": "2024 的 The Silent Prompt（2412.05101）与 ICCV 2025 NoiseQuery 项目一致，合并。机构武大与普林斯顿，无范围企业。",
+        "year": 2025
+      },
+      {
+        "title": "IS-Diff: Improving Diffusion-Based Inpainting With Better Initial Seed",
+        "url": "https://doi.org/10.1109/TIP.2026.3721361",
+        "outcome": "no-evidence",
+        "note": "首稿于 2025 年，期刊于 2026 年。原始首页确认四作者武汉大学，未见企业。该文与 2025 NoiseQuery 的方法和第一作者不同。",
+        "year": 2026
+      },
+      {
+        "title": "MAC: A Benchmark for Multiple Attributes Compositional Zero-Shot Learning",
+        "url": "https://doi.org/10.1109/TMM.2026.3668471",
+        "outcome": "no-evidence",
+        "note": "2024 预印本与 IEEE TMM 正式版同作，作者署武汉大学及上海科技大学。",
+        "year": 2026
+      },
+      {
+        "title": "CORE: Code-based Inverse Self-Training Framework with Graph Expansion for Virtual Agents",
+        "url": "https://arxiv.org/pdf/2601.02201",
+        "outcome": "no-evidence",
+        "note": "首页仅浙江大学、武汉大学，项目无调查企业署名。",
+        "year": 2026
+      },
+      {
+        "title": "TV-Dialogue: Crafting Theme-Aware Video Dialogues with Immersive Interaction",
+        "url": "https://arxiv.org/pdf/2501.18940",
+        "outcome": "no-evidence",
+        "note": "首页作者为武汉大学及浙江大学；同作者所在其他单位不能当作本篇企业归属。",
+        "year": 2025
+      },
+      {
+        "title": "DVIS: Decoupled Video Instance Segmentation Framework",
+        "url": "https://doi.org/10.1109/ICCV51070.2023.00124",
+        "outcome": "existing",
+        "note": "网站关系已归季顺平，他是张韬明确具名的武大硕导及博导；快手导师为同篇田兴业。武宇同署，但无另一个具名指导角色。主文关系包括后续竞赛材料及正式期刊扩展。",
+        "year": 2023
+      },
+      {
+        "title": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
+        "url": "https://doi.org/10.1109/TPAMI.2025.3552694",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。",
+        "year": 2025
+      },
+      {
+        "title": "1st Place Solution for the 5th LSVOS Challenge: Video Instance Segmentation",
+        "url": "https://arxiv.org/pdf/2308.14392",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。",
+        "year": 2023
+      },
+      {
+        "title": "1st Place Solution for PVUW Challenge 2023: Video Panoptic Segmentation",
+        "url": "https://arxiv.org/pdf/2306.04091",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。",
+        "year": 2023
+      },
+      {
+        "title": "Iterative Ensemble Training with Anti-Gradient Control for Mitigating Memorization in Diffusion Models",
+        "url": "https://doi.org/10.1007/978-3-031-73021-4_7",
+        "outcome": "no-evidence",
+        "note": "正式版的作者单位为武汉大学、中山大学；同年预印本与正式版合并。",
+        "year": 2024
+      },
+      {
+        "title": "Learning to Segment Every Referring Object Point by Point",
+        "url": "https://doi.org/10.1109/CVPR52729.2023.00295",
+        "outcome": "lead",
+        "note": "与 RIO 为独立论文，皆有具名京东刘武。原文第一作者曲梦雪署北京交通大学，未找到范围内学籍、同一项目在京东参与或武宇直接指导。",
+        "year": 2023
+      },
+      {
+        "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
+        "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
+        "outcome": "no-evidence",
+        "note": "出版方提交的作者机构列三人均为武汉大学；公开论文未见范围企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Toward Real Ultra Image Segmentation: Leveraging Surrounding Context to Cultivate General Segmentation Model",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/e95eb5206c867be843fbc14bbfe8c10e-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式稿作者首页列四人均来自武汉大学。",
+        "year": 2024
+      },
+      {
+        "title": "Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation",
+        "url": "https://openreview.net/pdf/d217aca9d2b4ac1be080c492bb9d4939061d6de7.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 正式稿签武汉大学、伊利诺伊理工学院及 Snap；该公司不在 14 家范围内。",
+        "year": 2023
+      },
+      {
+        "title": "FADngs: Federated Learning for Anomaly Detection",
+        "url": "https://doi.org/10.1109/TNNLS.2024.3350660",
+        "outcome": "no-evidence",
+        "note": "IEEE 卷期 2025，网络首发 2024。武宇署普林斯顿，其余作者均浙江大学，没有企业署名。",
+        "year": 2025
+      },
+      {
+        "title": "DiffRES: Unleashing Text-to-Image Diffusion Models for Generative Referring Expression Segmentation Without Information Leakage",
+        "url": "https://doi.org/10.1109/TIP.2026.3707757",
+        "outcome": "no-evidence",
+        "note": "IEEE 稿件作者级元数据列四人均为武汉大学，未见目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "Promote knowledge mining towards open-world semi-supervised learning",
+        "url": "https://doi.org/10.1016/j.patcog.2024.110259",
+        "outcome": "no-evidence",
+        "note": "SSRN 2023 年版本与 Pattern Recognition 2024 正式版为同作。SSRN 作者栏四位均属武汉大学。",
+        "year": 2024
+      },
+      {
+        "title": "A Sampling-Based Domain Generalization Study with Diffusion Generative Models",
+        "url": "https://openreview.net/pdf/a5eeae3756b3e715effad2e1f578abd809b5e12c.pdf",
+        "outcome": "no-evidence",
+        "note": "2023 年预印稿原名 Unseen Image Synthesis with Diffusion Models；保留 NeurIPS 2025 Frontiers in Probabilistic Inference 辅会正式稿为同一篇。扩充版另有 Google DeepMind，非调查企业。",
+        "year": 2025
+      },
+      {
+        "title": "DETER: Detecting Edited Regions for Deterring Generative Manipulations",
+        "url": "https://arxiv.org/abs/2312.10539",
+        "outcome": "no-evidence",
+        "note": "论文首面及作者项目均署武汉大学和普林斯顿大学。",
+        "year": 2023
+      },
+      {
+        "title": "RiskProp: Collision-Anchored Self-Supervised Risk Propagation For Early Accident Anticipation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zou_RiskProp_Collision-Anchored_Self-Supervised_Risk_Propagation_For_Early_Accident_Anticipation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 与 arXiv 同作。邹奕杨本人资料证实在武汉读硕士；本篇企业署名及专项资助为滴滴，未纳入 14 家。其另一期腾讯游戏实习未关联此交通论文。",
+        "year": 2026
+      },
+      {
+        "title": "RQTalker: Speech-driven 3D Facial Animation via Region-aware Vector Quantization",
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10889839",
+        "outcome": "lead",
+        "note": "ICASSP 正式目录和 Re-HOLD 出版稿参考文献均确认独立论文和武宇、Yingying Fan、Hang Zhou 三人同篇。尚无法借公开材料确认 Fan 的同期学籍、武宇具名指导、且本篇未找到可核的百度实习脚注；不能沿用 Re-HOLD 脚注。",
+        "year": 2025
+      },
+      {
+        "title": "RetroMPA: A Molecular Property-Aware Auxiliary Framework for Enhancing Retrosynthesis Prediction",
+        "url": "https://doi.org/10.1021/acs.jcim.6c01506",
+        "outcome": "no-evidence",
+        "note": "ACS 正式文于 7 月首发，比同年 8 月 arXiv 更早。作者贡献明确武宇指导本研究，作者机构均为武汉大学或浙江大学，未见调查企业。",
+        "year": 2026
+      },
+      {
+        "title": "ROBIN: Robust and Invisible Watermarks for Diffusion Models with Adversarial Optimization",
+        "url": "https://papers.nips.cc/paper_files/paper/2024/hash/073c8584ef86bee26fe9d639ec648e28-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 原文仅武汉大学，2024 预印本合为同篇。2026 ROBIN++ 新增内容感知扰动与双域定位，作者组合也变化，单独核查。",
+        "year": 2024
+      },
+      {
+        "title": "ROBIN++: Unified Copyright Protection and Tamper Localization for Diffusion Models via Dual-Domain Synergistic Watermarking",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3723036",
+        "outcome": "no-evidence",
+        "note": "IEEE 提交的作者机构均为武汉大学。2024 ROBIN 为三人水印设计，此稿为五人双域保护和篡改定位独立扩展，均无调查企业。",
+        "year": 2026
+      },
+      {
+        "title": "Redistribute Ensemble Training for Mitigating Memorization in Diffusion Models",
+        "url": "https://arxiv.org/html/2502.09434",
+        "outcome": "no-evidence",
+        "note": "原文说明在 2024 ECCV 的基础上增加高记忆样本重分配与动态数据增强、新作者与实验；保留此公开扩展。作者机构仅武汉大学、中山大学、浙江大学，作者本人简介另确认 Huayang Huang 2025 年初为武大在读博士。",
+        "year": 2025
       }
     ],
-    "note": "武大人事主页与 ORCID 明确同一姓名身份；个人书目最后大批更新于 2022。现已逐篇核查 7 篇，用出版原文与项目逐步补充，未标完整。"
+    "note": "已核对课题组书目、出版版本及作者主页。2020、2022 已公开的工作未纳入；同篇披露实习但未确认指导关系的，仍为线索。"
   },
   "SoA0RiMAAAAJ": {
     "from": "2023-01-01",
@@ -47769,5 +48122,597 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已交叉核对学校主页、作者书目与独立题录。少数付费论文仍须补核完整原文；与企业实习时间吻合的合著，仍需同篇的实习或企业研发证据。"
+  },
+  "BN9Q_dcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://wxwangiris.github.io/",
+      "https://dblp.org/pid/203/1536-3.html",
+      "https://renshi.nwpu.edu.cn/jiaoshigongshi202219.pdf",
+      "https://dblp.dagstuhl.de/rec/conf/cvpr/WangWYQZ26.html",
+      "https://dblp.org/pid/203/1536.html",
+      "https://dblp1.uni-trier.de/pid/211/2720.html",
+      "https://fvl-repo.github.io/publications.html",
+      "https://doi.org/10.12466/xhcl.2025.02.002",
+      "https://github.com/wurqjackey/MIP"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Beyond Appearance: A Multi-cue Framework and Large-scale Benchmark for Pedestrian Association and Tracking on Mobile Aerial–Ground Platforms",
+        "url": "https://arxiv.org/html/2607.23803v1",
+        "outcome": "no-evidence",
+        "note": "预印本首页脚注分清西工大、深圳理工等高校；该篇跟踪和关联不同于 SeCap 的跨视角单任务识别，未见指定企业的同项参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Image-Conditioned Instance Prompt Network for Referring Remote Sensing Image Segmentation",
+        "url": "https://arxiv.org/html/2605.24532v1",
+        "outcome": "no-evidence",
+        "note": "作者站的 ICME 通告和 arXiv 首稿为同题同五作者；原文单位仅西工大、其深圳研究院及复旦，没有目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Lifelong person re-identification via dynamically knowledge adaptation and retention",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41619703/",
+        "outcome": "no-evidence",
+        "note": "2026-01-09 在线的期刊登记，四位作者分别署西工大和其深圳研究院；第一作者 Zhiyu Chen，区别于另一篇 Hongyu Chen。"
+      },
+      {
+        "year": 2026,
+        "title": "MEC-Patch: Visible-Infrared Cross-Modal Adversarial Attack Driven by Intrinsic Material Emissivity Laws",
+        "url": "https://arxiv.org/html/2608.05634v1",
+        "outcome": "no-evidence",
+        "note": "ACM/首稿 DOI 10.1145/3767308.3835147 同稿。文章实际有企业合作者 Lu Yang（Raytron Technology），为范围外；其他作者属西工大或香港城大。未查得指定企业的合著链。"
+      },
+      {
+        "year": 2026,
+        "title": "Post-enhancing viewpoint robustness for pre-training generalizable re-identification",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0950705126012542",
+        "outcome": "no-evidence",
+        "note": "Elsevier 五作者版为 2026 年 9 月卷，研究为无监督跨视角后增强，国家和省级科研资助。没有可归到指定企业与当时在读生的共同项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Robustness Under Data Scarcity: Few-Shot Continual Adversarial Training for Evolving Threats",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Robustness_Under_Data_Scarcity_Few-Shot_Continual_Adversarial_Training_for_Evolving_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 首页面五位作者均属西工大计算机、自动化或深圳研究院，致谢无目标企业；DBLP 另放同名条目，以本人直接列本篇和正式稿邮箱确认归属。"
+      },
+      {
+        "year": 2026,
+        "title": "Taming semantic segmentation for effective transferable attack against object detection",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0957417426032963",
+        "outcome": "no-evidence",
+        "note": "出版社已于 2026-09 建档，正式卷标 2027-02，因此列于公开于截点前的可见条目。使用跨任务语义表征和梯度融合，与 LSDM 方法不同；现有公开预览未查证指定企业和学生角色。"
+      },
+      {
+        "year": 2026,
+        "title": "Words Strip Wardrobe: Learning Invariant Textual Prompts for Cloth-Changing Person Re-Identification",
+        "url": "https://scholars.cityu.edu.hk/en/publications/words-strip-wardrobe-learning-invariant-textual-prompts-for-cloth/",
+        "outcome": "no-evidence",
+        "note": "香港城大机构库显示 2025-12-22 在线、IEEE 2026 卷；出版社存入 Crossref 的逐作者单位均为西工大或香港城大，同组另一篇服装重识别 ICASSP 题录不混入。"
+      },
+      {
+        "year": 2025,
+        "title": "Dynamic Dual-level Defense Routing for Continual Adversarial Training",
+        "url": "https://arxiv.org/html/2509.21392v1",
+        "outcome": "no-evidence",
+        "note": "DBLP 姓名总表误归未消歧条目；预印本原文署校内组，三作者与同组原文对齐。技术为双层路由，不是 CVPR 2026 少样本防御稿。"
+      },
+      {
+        "year": 2025,
+        "title": "Dynamic Routing and Knowledge Re-Learning for Data-Free Black-Box Attack",
+        "url": "https://ieeexplore.ieee.org/document/10697391",
+        "outcome": "no-evidence",
+        "note": "IEEE 2024-09 在线、2025 卷；复旦 FVL 官网的同题同 DOI 可交叉。期刊元数据作者署西工大与复旦等学术单位。"
+      },
+      {
+        "year": 2024,
+        "title": "Enhancing Visible-Infrared Person Re-Identification With Modality- and Instance-Aware Adaptation Learning",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10963697/",
+        "outcome": "no-evidence",
+        "note": "作者将 ICMR 2024 正式版和 TCSVT 扩展版放在同一 MIP 项目，按一项核对。出版记录无范围内企业署名；百度网盘只是模型文件渠道。"
+      },
+      {
+        "year": 2025,
+        "title": "Hierarchical Context Interaction and Reasoning with Transformer for Emotion Recognition",
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10889152",
+        "outcome": "no-evidence",
+        "note": "作者主页、IEEE 会议和同篇学术作者索引交叉确认 TransEmo 六人；未找到指定企业或共同的学生实研证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Improving the Transferability of Adversarial Attacks on Face Recognition with Diverse Parameters Augmentation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_Improving_the_Transferability_of_Adversarial_Attacks_on_Face_Recognition_with_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式原文首页写华中科大、上海识装信息科技有限公司、上海交大和西工大，第二作者现篇的企业系范围外公司，不以其以前的腾讯研究替换。arXiv 2411.15555 为同篇首版改题。"
+      },
+      {
+        "year": 2025,
+        "title": "Latent-space diffusion models for stealthy and transferable adversarial attacks on object detection",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231225021289",
+        "outcome": "no-evidence",
+        "note": "Neurocomputing DOI 10.1016/j.neucom.2025.131456，出版社作者履历、致谢已核对，项目支持为公开科研基金，未查证范围内企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "SeCap: Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks",
+        "url": "https://arxiv.org/html/2503.06965v1",
+        "outcome": "no-evidence",
+        "note": "CVPR 与 arXiv 同作者同方法。原文作者属西工大及其宁波研究院；无人机拍摄数据与后续本组多线索跟踪技术不视作企业合作。"
+      },
+      {
+        "year": 2025,
+        "title": "面向深度模型的对抗攻击与对抗防御技术综述",
+        "url": "https://doi.org/10.12466/xhcl.2025.02.002",
+        "outcome": "no-evidence",
+        "note": "《信号处理》正式中英文原文明确王文萱、汪成磊、齐慧慧、叶梦昊和张艳宁；单位为西工大及其工程实验室，未发现指定企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Dynamic Textual Prompt For Rehearsal-free Lifelong Person Re-identification",
+        "url": "https://arxiv.org/html/2411.06023v1",
+        "outcome": "no-evidence",
+        "note": "arXiv 首页脚注注明第一作者 Hongyu Chen 与三位西工大作者；与 2026 DKAR 的第一作者 Zhiyu Chen、方法不同，不按题材混为同一成果。没有目标企业人员。"
+      },
+      {
+        "year": 2024,
+        "title": "Sustainable Self-evolution Adversarial Training",
+        "url": "https://arxiv.org/html/2412.02270v1",
+        "outcome": "no-evidence",
+        "note": "ACM MM DOI 10.1145/3664647.3681077 与作者公开版同题；首页列西工大等学术单位，无具名目标企业人员，致谢为科研资助。"
+      }
+    ],
+    "note": "已对照作者书目、独立题录及公开项目，梳理本时段可核对的公开成果。"
+  },
+  "IGaC5nIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://homepage.hit.edu.cn/beiczhang",
+      "https://dblp.org/pid/71/9257-6.html",
+      "https://vipl.ict.ac.cn/publications/2023/conf/",
+      "https://www.cs.cityu.edu.hk/~abchan/",
+      "https://orcid.org/0000-0001-5030-0632",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://arxiv.org/html/2606.31410v1",
+      "https://ustc-milab.work/",
+      "https://tc.ccf.org.cn/tcmt/xsdt/zwxw/2026-03-21/864033.shtml",
+      "https://api.crossref.org/works?filter=orcid:0000-0001-5030-0632",
+      "https://dblp.uni-trier.de/pid/93/8587-8.html",
+      "https://klais.ict.ac.cn/lwfb/2024/",
+      "https://people.ucas.ac.cn/~qmhuang",
+      "https://scce.ucas.ac.cn/index.php/zh-CN/xwbd/3507-2024"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "A Multi-Modal Per-Pair Pipeline for UAV Pose Estimation in Orbital Image Sets",
+        "url": "https://doi.org/10.1145/3841459.3841547",
+        "outcome": "no-evidence",
+        "note": "2026-11-09 会议和 ACM 逐作者单位与共同作者 Antoni Chan 的高校书目一致：哈工大（威海）、中科大和香港城大。"
+      },
+      {
+        "year": 2026,
+        "title": "AIFIND: Artifact-Aware Interpreting Fine-Grained Alignment for Incremental Face Forgery Detection",
+        "url": "https://arxiv.org/abs/2604.16207",
+        "outcome": "no-evidence",
+        "note": "ICMR 论文和作者预印本（同 DOI 10.1145/3805622.3810877）为同一组成果；八位作者的单位同为哈工大威海计算机学院，未见企业项目关系。"
+      },
+      {
+        "year": 2026,
+        "title": "DyG²T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer",
+        "url": "https://arxiv.org/pdf/2608.18498v1",
+        "outcome": "no-evidence",
+        "note": "2026-08-19 首稿的首页逐作者脚注列哈工大（威海）、中科院计算所和国科大，其经费为国家和省自然科学基金。页眉 2025 是模版占位日期，无正式出版证据时采用预印本日期。"
+      },
+      {
+        "year": 2026,
+        "title": "Generalizing Beyond Patterns: Dynamic Moment Query Recalibrating for Out-of-Distribution Video Temporal Localization",
+        "url": "https://doi.org/10.1109/TMM.2026.3684315",
+        "outcome": "no-evidence",
+        "note": "IEEE 向 Crossref 存档的逐作者单位为中科院、国科大、杭州电子科大、哈工大威海和中科大。未见指定企业署名或学生企业项目。"
+      },
+      {
+        "year": 2026,
+        "title": "LMDA: LLM-Guided Marginal Distribution Alignment for Open-Set Active Learning",
+        "url": "https://doi.org/10.23919/CJE.2025.00.446",
+        "outcome": "no-evidence",
+        "note": "2026 年 CVPR 论文参考文献反查后，以 IEEE 正式 DOI 和其 Crossref 逐作者单位复核。正式刊为 2026-09 卷，第五作者在早期四作者引用中遗漏；作者署中科院计算所、哈工大威海与北京科技大学。"
+      },
+      {
+        "year": 2026,
+        "title": "Multimodal-guided mixture-of-experts bias removal strategy for natural language video localization",
+        "url": "https://link.springer.com/article/10.1007/s00530-025-02120-w",
+        "outcome": "no-evidence",
+        "note": "Springer 2026-01-04 正式条目显示六作者均署哈工大威海；逐作者贡献、科研资助都未见公司人员或本项企业研究。"
+      },
+      {
+        "year": 2026,
+        "title": "PTNET: A Proposal-centric Transformer Network for 3D Object Detection",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8995993d267236a6bb90bace6ece185f-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 全文首页列哈工大威海及青岛研究院、国科大，无指定企业参加的署名或项目证据。"
+      },
+      {
+        "year": 2026,
+        "title": "SEE: Structure-aware Exploring & Exploiting for Long-horizon GUI Agent Trajectory Synthesis",
+        "url": "https://arxiv.org/pdf/2607.18046v1",
+        "outcome": "no-evidence",
+        "note": "哈工大通讯张北辰、张维刚；四位作者在 ACM 版标 Researcher，其中 Jian Luan、Changqiao Wu 等另见同月小米公司 GUI-0 原文。小米不属本项目 14 家；没有另查到范围内企业或第一作者在同一企业实研的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "STAND: Semantic Anchoring Constraint with Dual-Granularity Disambiguation for Remote Sensing Image Change Captioning",
+        "url": "https://arxiv.org/html/2604.23309v1",
+        "outcome": "no-evidence",
+        "note": "首稿逐作者均署哈工大威海，开放仓库亦未见指定企业参与此研究。"
+      },
+      {
+        "year": 2026,
+        "title": "SinkRouter: Sink-Aware Routing for Efficient Long-Context Decoding in Large Language and Multimodal Models",
+        "url": "https://arxiv.org/abs/2604.16883",
+        "outcome": "no-evidence",
+        "note": "ACM DOI 10.1145/3767308.3835358 与 arXiv 同篇；原文明确作者单位为哈工大（威海）、香港大学、香港城大，未见指定企业研究人员。"
+      },
+      {
+        "year": 2026,
+        "title": "TowerDataset: A Heterogeneous Benchmark for Transmission Corridor Segmentation with a Global-Local Fusion Framework",
+        "url": "https://arxiv.org/html/2604.16848v1",
+        "outcome": "no-evidence",
+        "note": "首稿误拼 Beichen Zang，作者的哈工大单位及机构邮箱与官方本人主页完全一致；通过共著者刘心岩的 DBLP 补入。论文列哈工大、国科大和香港城大，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Dynamic Strategy Prompt Reasoning for Emotional Support Conversation",
+        "url": "https://doi.org/10.1109/TMM.2024.3521669",
+        "outcome": "no-evidence",
+        "note": "IEEE 期刊 2024 年底上线、2025 卷。中科大课题组确认六位作者，IEEE 存档作者单位为中科院计算所、国科大及中科大。与另篇 MaTCR 的腾讯作者不同，未找到本篇目标企业关系。"
+      },
+      {
+        "year": 2025,
+        "title": "Masked Temporal Interpolation Diffusion for Procedure Planning in Instructional Videos",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/731ff01ca533403062eaa4ef09608878-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "ICLR 原文及作者 arXiv 2507.03393 同稿，作者列哈工大威海及中科院计算所。未见指定企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Matching Street View and Satellite Images via Drone Imagery and Semantic Descriptions",
+        "url": "https://doi.org/10.1145/3728482.3757391",
+        "outcome": "no-evidence",
+        "note": "ACM 出版单位为哈工大威海与中科大；使用商用地图数据不等于企业合作。与 2026 年卫星轨道图像定位 Workshop 的位姿估计任务不同。"
+      },
+      {
+        "year": 2024,
+        "title": "Downstream-Pretext Domain Knowledge Traceback for Active Learning",
+        "url": "https://arxiv.org/html/2407.14720v1",
+        "outcome": "no-evidence",
+        "note": "作者版与 DOI 10.1109/TMM.2024.3391897 同篇，作者单位为国科大、中科院计算所及罗切斯特大学等学术单位；张仍署国科大。"
+      },
+      {
+        "year": 2024,
+        "title": "Inductive State-Relabeling Adversarial Active Learning With Heuristic Clique Rescaling",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3432099",
+        "outcome": "lead",
+        "note": "IEEE 2024 卷逐作者登记确认齐天署华为 Cloud BU，张北辰当时署国科大；此为相同 2020 CVPR 状态重标记方法的扩展。国科大官方导师名单证实黄庆明曾指导张，其 2024 年毕业；华为署名仅证实对本文合著，尚无张在 2023–2024 年为扩展研究实际参与华为项目的同期证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Dynamic Contrastive Learning with Pseudo-samples Intervention for Weakly Supervised Joint Video MR and HD",
+        "url": "https://doi.org/10.1145/3581783.3612384",
+        "outcome": "no-evidence",
+        "note": "ACM 向 Crossref 存档的逐人单位为山东大学威海、中科院计算所、国科大和杭州电子科大。中科院课题组可交叉确认同一篇；未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "MaTCR: Modality-Aligned Thought Chain Reasoning for Multimodal Task-Oriented Dialogue Generation",
+        "url": "https://doi.org/10.1145/3581783.3612268",
+        "outcome": "lead",
+        "note": "中科院书目与论文一致列 Yiting Liu、张北辰、Shan Huang、黄庆明等。张当时在国科大，论文有腾讯作者但黄庆明官方指导名单确认张北辰为其博士，国科大毕业报道确定学籍截至 2024 年。不过没有找到张或刘参与该项腾讯企业研究的同期来源，保留国科大线索。"
+      }
+    ],
+    "note": "已对照学校教师主页、ORCID、DBLP、实验室书目与出版资料梳理公开成果。两项企业合著须补核当时学生是否为该企业完成同篇研究。"
+  },
+  "fc3K_lkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://doi.org/10.1109/jlt.2024.3357289",
+      "https://sai.cuhk.edu.cn/en/teacher/159",
+      "https://pub.orcid.org/v3.0/0000-0001-5543-5034/works",
+      "https://dblp.org/pid/12/512.html",
+      "https://arxiv.org/search/?query=Kam%2C+Pooi-Yuen&searchtype=author",
+      "https://api.crossref.org/works/10.1109/jlt.2024.3357289",
+      "https://doi.org/10.1109/icccworkshops62562.2024.10693718",
+      "https://api.crossref.org/works/10.1109/icccworkshops62562.2024.10693718",
+      "https://doi.org/10.1109/upinlbs68186.2025.11468383",
+      "https://api.crossref.org/works/10.1109/upinlbs68186.2025.11468383",
+      "https://doi.org/10.1109/iccworkshops63917.2026.11586560",
+      "https://api.crossref.org/works/10.1109/iccworkshops63917.2026.11586560",
+      "https://arxiv.org/pdf/2602.10482",
+      "https://doi.org/10.1109/tmc.2026.3696720",
+      "https://api.crossref.org/works/10.1109/tmc.2026.3696720",
+      "https://doi.org/10.3390/e27040451",
+      "https://api.crossref.org/works/10.3390/e27040451",
+      "https://www.mdpi.com/1099-4300/27/4/451",
+      "https://doi.org/10.3390/app16147032",
+      "https://api.crossref.org/works/10.3390/app16147032",
+      "https://www.mdpi.com/2076-3417/16/14/7032",
+      "https://doi.org/10.1109/iccworkshops63917.2026.11586741",
+      "https://api.crossref.org/works/10.1109/iccworkshops63917.2026.11586741",
+      "https://arxiv.org/pdf/2602.05579",
+      "https://doi.org/10.1109/icccworkshops67136.2025.11148227",
+      "https://api.crossref.org/works/10.1109/icccworkshops67136.2025.11148227",
+      "https://doi.org/10.1109/tcomm.2023.3280218",
+      "https://api.crossref.org/works/10.1109/tcomm.2023.3280218",
+      "https://doi.org/10.1109/lpt.2024.3523478",
+      "https://api.crossref.org/works/10.1109/lpt.2024.3523478",
+      "https://doi.org/10.1109/globecom54140.2023.10437963",
+      "https://api.crossref.org/works/10.1109/globecom54140.2023.10437963",
+      "https://doi.org/10.23919/oecc/psc62146.2025.11109607",
+      "https://api.crossref.org/works/10.23919/oecc/psc62146.2025.11109607",
+      "https://doi.org/10.1109/icwoc65853.2025.11150802",
+      "https://api.crossref.org/works/10.1109/icwoc65853.2025.11150802",
+      "https://doi.org/10.1049/ell2.12997",
+      "https://api.crossref.org/works/10.1049/ell2.12997",
+      "https://doi.org/10.22541/au.168252825.53930031/v1",
+      "https://doi.org/10.1109/wcnc61545.2025.10978631",
+      "https://api.crossref.org/works/10.1109/wcnc61545.2025.10978631",
+      "https://doi.org/10.1109/acp/poem59049.2023.10368832",
+      "https://api.crossref.org/works/10.1109/acp/poem59049.2023.10368832",
+      "https://doi.org/10.1109/tvt.2025.3548639",
+      "https://api.crossref.org/works/10.1109/tvt.2025.3548639",
+      "https://doi.org/10.1109/jiot.2025.3567270",
+      "https://api.crossref.org/works/10.1109/jiot.2025.3567270",
+      "https://doi.org/10.1109/icccworkshops57813.2023.10233820",
+      "https://api.crossref.org/works/10.1109/icccworkshops57813.2023.10233820",
+      "https://doi.org/10.1109/lcomm.2023.3326746",
+      "https://api.crossref.org/works/10.1109/lcomm.2023.3326746",
+      "https://doi.org/10.1109/wcnc57260.2024.10570836",
+      "https://api.crossref.org/works/10.1109/wcnc57260.2024.10570836",
+      "https://doi.org/10.1109/jphot.2024.3415635",
+      "https://api.crossref.org/works/10.1109/jphot.2024.3415635",
+      "https://ira.lib.polyu.edu.hk/bitstream/10397/115297/1/Wang_Viterbi-Viterbi_Carrier_Phase.pdf",
+      "https://doi.org/10.1109/iccworkshops63917.2026.11586490",
+      "https://api.crossref.org/works/10.1109/iccworkshops63917.2026.11586490",
+      "https://doi.org/10.1109/pimrc69400.2026.11711623",
+      "https://api.crossref.org/works/10.1109/pimrc69400.2026.11711623",
+      "https://doi.org/10.1109/tmc.2026.3667476",
+      "https://api.crossref.org/works/10.1109/tmc.2026.3667476",
+      "https://doi.org/10.1109/tnse.2025.3649043",
+      "https://api.crossref.org/works/10.1109/tnse.2025.3649043",
+      "https://arxiv.org/pdf/2510.09055",
+      "https://arxiv.org/pdf/2608.01218",
+      "https://arxiv.org/pdf/2605.15560",
+      "https://arxiv.org/pdf/2512.08263",
+      "https://arxiv.org/pdf/2502.17897",
+      "https://doi.org/10.1109/TMC.2026.3730010"
+    ],
+    "papers": [
+      {
+        "title": "Maximum Likelihood Estimation of Wiener Phase Noise Variance in Coherent Optical Systems",
+        "url": "https://doi.org/10.1109/jlt.2024.3357289",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Guangdong Provincial Key Laboratory of Interdisciplinary Research and Application for Data Science, BNU-HKBU United International College, Zhuhai, China; College of Information Engineering, Zhejiang University of Technology, Hangzhou, China; School of Science and Engineering, Chinese University of Hong Kong, Shenzhen, China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2024
+      },
+      {
+        "title": "Adaptive Tompson Sampling for Beam Tracking in Terahertz Empowered Immersive Communications",
+        "url": "https://doi.org/10.1109/icccworkshops62562.2024.10693718",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：School of Science and Engineering and Shenzhen Future Network of Intelligence Institute, The Chinese University of Hong Kong,Guangdong Provincial Key Laboratory of Future Networks of Intelligence,Shenzhen,Guangdong,China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2024
+      },
+      {
+        "title": "A Model-Free Coarse-to-Fine Framework for Estimating Time-Varying Wireless Signals",
+        "url": "https://doi.org/10.1109/upinlbs68186.2025.11468383",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：The Chinese University of Hong Kong, Shenzhen,School of Science and Engineering,Shenzhen,China; The Chinese University of Hong Kong, Shenzhen,School of Artificial Intelligence,Shenzhen,China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "Robust Semantic Transmission for Low-Altitude UAVs: Predictive Channel-Aware Scheduling and Generative Reconstruction",
+        "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586560",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：The Chinese University of Hong Kong,School of Science and Engineering,Shenzhen,China,518172; The Chinese University of Hong Kong,School of Artificial Intelligence,Shenzhen,China,518172。无调查范围内企业署名或具名企业学生参与。2026-02 预印本归入 IEEE ICC Workshops 同篇。",
+        "year": 2026
+      },
+      {
+        "title": "Principled, Model-Free State Estimation: From Constrained Smoothness to Hierarchical Energy",
+        "url": "https://doi.org/10.1109/tmc.2026.3696720",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：The Chinese University of Hong Kong。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2026
+      },
+      {
+        "title": "Mutual Information Neural-Estimation-Driven Constellation Shaping Design and Performance Analysis",
+        "url": "https://doi.org/10.3390/e27040451",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou 310023, China; The School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen), Shenzhen 518172, China。无调查范围内企业署名或具名企业学生参与。与 2023 初步会议不同刊文；正式刊文标四位学术作者。",
+        "year": 2025
+      },
+      {
+        "title": "ANM-Based DOA Estimation and Signal Detection for Multi-Tag Ambient Backscatter Communications",
+        "url": "https://doi.org/10.3390/app16147032",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou 310023, China; School of Ocean Engineering and Technology, Sun Yat-Sen University, Zhuhai 519082, China; School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen), Shenzhen 518172, China; Center for Advanced Microelectronic Devices, NUS Research Institute (NUSRI), Suzhou 215123, China。无调查范围内企业署名或具名企业学生参与。出版页面明确列甘培润在本研究承担指导与项目管理；全部机构来自高校及其研究所。",
+        "year": 2026
+      },
+      {
+        "title": "Physics-Aware Tensor Reconstruction for Radio Maps in Pixel-Based Fluid Antenna Systems",
+        "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586741",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：The Chinese University of Hong Kong (Shenzhen),School of Science and Engineering,China,518172; City University of Hong Kong,Department of Electrical Engineering,Hong Kong; The Chinese University of Hong Kong (Shenzhen),School of Artificial Intelligence,China,518172。无调查范围内企业署名或具名企业学生参与。2026-02 预印本归入 IEEE ICC Workshops 同篇。",
+        "year": 2026
+      },
+      {
+        "title": "Bayesian-based Transmission and Channel Knowledge Map Reconstruction in LEO Satellite-terrestrial Communication",
+        "url": "https://doi.org/10.1109/icccworkshops67136.2025.11148227",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：The Chinese University of Hong Kong,School of Science and Engineering (SSE),Shenzhen,China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "A New Approach to Deriving Closed-Form Bit Error Probability Expressions of MPSK Signals",
+        "url": "https://doi.org/10.1109/tcomm.2023.3280218",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：School of Electrical and Information Engineering, Tianjin University, Tianjin, China; School of Science and Engineering, The Chinese University of Hong Kong at Shenzhen, Shenzhen, China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2023
+      },
+      {
+        "title": "Non-Data-Aided ML Estimation of Timing Offset and Carrier Phase for M-APSK Modulated FSO Systems",
+        "url": "https://doi.org/10.1109/lpt.2024.3523478",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Guangdong Provincial Key Laboratory of Interdisciplinary Research and Application for Data Science, BNU-HKBU United International College, Zhuhai, China; Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou, China; School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen), Shenzhen, China。无调查范围内企业署名或具名企业学生参与。2024-12 在线，2025-05 正式刊期。",
+        "year": 2025
+      },
+      {
+        "title": "Explicit, Closed-Form Approximations for BEPs of BDPSK/QDPSK Signals over EW FSO Channel",
+        "url": "https://doi.org/10.1109/globecom54140.2023.10437963",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：School of Electrical and Information Engineering, Tianjin University,Tianjin,China,300072; School of Science and Engineering, The Chinese University of Hong Kong,Shenzhen,China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2023
+      },
+      {
+        "title": "Maximum a Posteriori Probability Phase Recovery for 256-QAM Modulated Signals in Coherent Optical Communications",
+        "url": "https://doi.org/10.23919/oecc/psc62146.2025.11109607",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Beijing Normal-Hong Kong Baptist University,Guangdong Provincial/Zhuhai Key Laboratory of Interdisciplinary Research and Application for Data Science,Zhuhai,China,519087; Institute of Cyberspace Security, Zhejiang University of Technology,Hangzhou,China,310023; School of Science and Engineering, the Chinese University of Hong Kong (Shenzhen),Shenzhen,China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "Closed-Form Approximation for the BEP of BDPSK Signals Over EW FSO Channel in Dual-Hop DF Relaying Systems",
+        "url": "https://doi.org/10.1109/icwoc65853.2025.11150802",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Beijing Normal-Hong Kong Baptist University,Guangdong Provincial/Zhuhai Key Laboratory of Interdisciplinary Research and Application for Data Science,Zhuhai,China,519087; Photonics Research Institute, Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University,Kowloon,Hong Kong; School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen),Shenzhen,China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "New upper bounds on the Gaussian Q ‐function via Jensen's inequality and integration by parts, and applications in symbol error probability analysis",
+        "url": "https://doi.org/10.1049/ell2.12997",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：School of Information and Electronic Engineering Zhejiang University of Science and Technology Hangzhou China; School of Science and Engineering Chinese University of Hong Kong Shenzhen China。无调查范围内企业署名或具名企业学生参与。同题 2023-04 Authorea 预印本在期刊同年正式刊发，合并。",
+        "year": 2023
+      },
+      {
+        "title": "Maximum Likelihood Estimation of Wiener Phase Noise Variance in MPSK Modulated Systems",
+        "url": "https://doi.org/10.1109/wcnc61545.2025.10978631",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Institute of Cyberspace Security, Zhejiang University of Technology,Hangzhou,China,310023; BNU-HKBU United International College,Guangdong Provincial Key Laboratory of Interdisciplinary Research and Application for Data Science,Zhuhai,China,519087; College of Electronics and Information Engineering, Zhejiang University,Hangzhou,China,310058; School of Science and Engineering, the Chinese University of Hong Kong (Shenzhen),China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "Pilot-Aided Deep Learning Based Phase Estimation for OFDM Systems with Wiener Phase Noise",
+        "url": "https://doi.org/10.1109/acp/poem59049.2023.10368832",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：College of Information Engineering, Zhejiang University of Technology,Hangzhou,China,310023; BNU-HKBU United International College,Guangdong Provincial Key Laboratory of Interdisciplinary Research and Application for Data Science,Zhuhai,China,519087; The Hong Kong Polytechnic University,Department of Electronic and Information Engineering,Hong Kong,China,999077; School of Science and Engineering the Chinese University of Hong Kong (Shenzhen),Shenzhen,China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2023
+      },
+      {
+        "title": "Model-Driven Channel Estimation Network for Orthogonal Time-Frequency Space Systems",
+        "url": "https://doi.org/10.1109/tvt.2025.3548639",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou, China; School of Information Science and Technology, Hangzhou Normal University, Hangzhou, China; School of Science and Engineering, Chinese University of Hong Kong, Shenzhen, China; State Key Laboratory of Internet of Things for Smart City, Department of Computer and Information Science, University of Macau, Macau, China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "Multimodel Selection and Computation Resource Allocation Driven Cooperative Spectrum Sensing",
+        "url": "https://doi.org/10.1109/jiot.2025.3567270",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou, China; State Key Laboratory of CAD & CG and the College of Electrical Engineering, Zhejiang University, Hangzhou, China; Center for Intelligent Networking and Communications, University of Electronic Science and Technology of China, Chengdu, China; School of Science and Engineering, the Chinese University of Hong Kong (Shenzhen), Shenzhen, China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2025
+      },
+      {
+        "title": "MINE-based Geometric Constellation Shaping in AWGN Channel",
+        "url": "https://doi.org/10.1109/icccworkshops57813.2023.10233820",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Zhejiang University of Technology,College of Information Engineering,Hangzhou,China,310023; University of Essex,School of Computer Science and Electronics Engineering,UK; BNU-HKBU United International College,Division of Science and Technology,Zhuhai,China,519087; Chinese University of Hong Kong (Shenzhen),School of Science and Engineering,China,518172。无调查范围内企业署名或具名企业学生参与。会议文为 AWGN 灵敏度；期刊工作额外扩展衰落条件及实证，作者组合亦有变化，按不同出版物分别核对。",
+        "year": 2023
+      },
+      {
+        "title": "Design and Performance Evaluation of Polar Coding for BICM Systems With Phase Noise",
+        "url": "https://doi.org/10.1109/lcomm.2023.3326746",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：College of Information Engineering, Zhejiang University of Technology, Hangzhou, China; College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China; Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou, China; School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen), Shenzhen, China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2023
+      },
+      {
+        "title": "Mth Power Carrier Phase Estimation with Wiener Phase Noise for MPSK Modulations",
+        "url": "https://doi.org/10.1109/wcnc57260.2024.10570836",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：College of Information Engineering, Zhejiang University of Technology,Hangzhou,China,310023; College of Electronics and Information Engineering, Shenzhen University,Shenzhen,China,518060; BNU-HKBU United International College,Guangdong Provincial Key Laboratory of Interdisciplinary Research and Application for Data Science,Zhuhai,China,519087; School of Science and Engineering, the Chinese University of Hong Kong (Shenzhen),China,518172。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2024
+      },
+      {
+        "title": "Viterbi-Viterbi Carrier Phase Estimation for Multi-Ring M-APSK With Wiener Carrier Phase Noise and Its Performance",
+        "url": "https://doi.org/10.1109/jphot.2024.3415635",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：College of Information Engineering, Zhejiang University of Technology, Hangzhou, China; Guangdong Provincial Key Laboratory of Interdisciplinary Research and Application for Data Science, BNU-HKBU United International College, Zhuhai, China; Photonics Research Institute, Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University, Kowloon, Hong Kong; School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen), Shenzhen, China。无调查范围内企业署名或具名企业学生参与。理大公开全文及出版方机构元数据相符。",
+        "year": 2024
+      },
+      {
+        "title": "Co-Optimization of Satellite Wake-Up and Routing for Lifetime and Delay Balance in LEO Constellations",
+        "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586490",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Zhejiang University of Technology,Institute of Cyberspace Security,Hangzhou,China; The Chinese University of Hong Kong (Shenzhen),School of Artificial Intelligence,China; University of Essex,School of Computer Science and Electronics Engineering,Colchester,UK; University of Surrey,School of Computer Science and Electronic Engineering,Surrey,UK。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2026
+      },
+      {
+        "title": "SAD-CP: Spatially Anchored Dual-Distilled Continual Prediction for Dynamic CSI Tracking",
+        "url": "https://doi.org/10.1109/pimrc69400.2026.11711623",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Zhejiang University of Technology; Zhejiang University of Technology and the Binjiang Institute of Artificial Intelligence, ZJUT; Chinese University of Hong Kong (Shenzhen)。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2026
+      },
+      {
+        "title": "Adaptive Semantic Compression and Transmission With Joint Resource Allocation Optimization for Multi-User Image Classification",
+        "url": "https://doi.org/10.1109/tmc.2026.3667476",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Institute of Cyberspace Security, Zhejiang University of Technology, Hangzhou, China; College of Information Science and Electronic Engineering, Zhejiang University, Hangzhou, China; Center for Intelligent Networking and Communications (CINC), University of Electronic Science and Technology of China (UESTC), Chengdu, China; School of Artificial Intelligence, Chinese University of Hong Kong (Shenzhen), Shenzhen, China。无调查范围内企业署名或具名企业学生参与。",
+        "year": 2026
+      },
+      {
+        "title": "UAV Detection and Localization: A RF-Based Framework via Multiple Stations Collaboration",
+        "url": "https://doi.org/10.1109/tnse.2025.3649043",
+        "outcome": "no-evidence",
+        "note": "出版方作者信息列各人的机构：Guangdong Provincial Key Laboratory of Aerospace Communication and Networking Technology, School of Information Science and Technology, Harbin Institute of Technology (Shenzhen), Shenzhen, China; School of Science and Engineering, Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen), Shenzhen, China; Information System Technology and Design, Singapore University of Technology and Design, Singapore; Information System Technology and Design Pillar, Singapore University of Technology and Design, Singapore。无调查范围内企业署名或具名企业学生参与。2025-10 预印本旧题 Sensing, Detection and Localization for Low Altitude UAV: A RF-Based Framework via Multiple BSs Collaboration，正式期 2026；作者、方法与图表一致，合并。",
+        "year": 2026
+      },
+      {
+        "title": "Bayesian Bandit Beamforming with Implicit Channel Learning for RIS under Hybrid Near/Far-Field Propagation",
+        "url": "https://arxiv.org/pdf/2608.01218",
+        "outcome": "no-evidence",
+        "note": "首发 2026-08-02，原文三位作者仅署香港中文大学（深圳）及未来智联网络研究院。",
+        "year": 2026
+      },
+      {
+        "title": "Privacy-Preserving Federated Radio Map Learning for Wireless Digital Twins via Adaptive Noise Allocation",
+        "url": "https://arxiv.org/pdf/2605.15560",
+        "outcome": "no-evidence",
+        "note": "作者均署香港中文大学（深圳）及未来智联网络研究院。与 2025 年位置隐私文章同方向，但 2026 作者组和隐私预算按发射方分配机制不同、单独 arXiv ID。",
+        "year": 2026
+      },
+      {
+        "title": "Geometry-Aligned Differential Privacy for Location-Safe Federated Radio Map Construction",
+        "url": "https://arxiv.org/pdf/2512.08263",
+        "outcome": "no-evidence",
+        "note": "首发和作者属于香港中文大学（深圳）；方法为针对空间位置泄露的几何对齐机制，有单独的实验及作者组合。",
+        "year": 2025
+      },
+      {
+        "title": "Noncoherent Detection of Constant-Envelope Signals for Mobile Edge Applications – Optimum Detectors and Intelligent Decision Rule",
+        "url": "https://arxiv.org/pdf/2502.17897",
+        "outcome": "no-evidence",
+        "note": "2025-02 首发，与题名略改的 IEEE TMC 正式刊为同一研究。IEEE 刊期为 2026-12，超过当前收录截止，故以已有公开供复查的首稿记录一次。作者均属港中深和电子科技大学，未见调查企业。",
+        "year": 2025
+      }
+    ],
+    "note": "已用校方档案、ORCID 记录、出版方题录和合作者手稿交叉对照此时段可查成果。"
   }
 };
