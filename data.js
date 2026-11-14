@@ -41615,6 +41615,114 @@ const survey = {
         ]
       ],
       "evidence": "正式可公开预印本首页和作者项目均列何浩然署港科大与快手，潘玲只署港科大，王鑫涛署快手。何浩然本人具名列王鑫涛为快手可灵科研实习指导者；潘玲课题组校内名单列其博士学籍及入学时间，王鑫涛本人履历列其 2024 年起在快手可灵负责研究团队。"
+    },
+    {
+      "id": "point-prompt-training-alibaba-hku-hengshuang-zhao",
+      "paperId": "arxiv:2308.09718",
+      "company": "阿里巴巴",
+      "team": "达摩院自动驾驶实验室",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "faculty": [
+        "赵恒爽 · Hengshuang Zhao",
+        "香港大学计算机科学教师，为同篇通讯；学生本人和企业导师 2023 年履历均明确博士师承。",
+        "https://www.ai.hku.hk/index.php/people/academic-staff/hszhao"
+      ],
+      "employee": [
+        "于开丞 · Kaicheng Yu",
+        "达摩院正式高级研究科学家、自动驾驶感知方向团队负责人（2021 年 9 月至 2023 年 8 月转任西湖）；两版论文均具名阿里巴巴。",
+        "https://en.westlake.edu.cn/faculty/kaicheng-yu.html"
+      ],
+      "student": [
+        "Xiaoyang Wu",
+        "当时港大在读博士；本人列在阿里巴巴实习跟从于开丞，于开丞的同期简历点名其在阿里做跨数据集室内三维 Point Prompt 研究。",
+        "https://xywu.me/"
+      ],
+      "title": "Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training",
+      "short": "Point Prompt Training",
+      "date": "2023-08-18",
+      "venue": "CVPR 2024",
+      "area": "三维点云与跨数据集训练",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Towards_Large-scale_3D_Representation_Learning_with_Multi-dataset_Point_Prompt_Training_CVPR_2024_paper.pdf",
+      "extra": [
+        [
+          "阿里导师 2023-03-28 履历第 3 页：实名项目和导师",
+          "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf"
+        ],
+        [
+          "提交日期、第一作者及其企业导师",
+          "https://arxiv.org/abs/2308.09718"
+        ],
+        [
+          "阿里任职起止及本人发表书目",
+          "https://www.yukaicheng.cn/"
+        ],
+        [
+          "港大学术导师本人书目",
+          "https://i.cs.hku.hk/~hszhao/"
+        ]
+      ],
+      "evidence": "于开丞 2023-03-28 履历在 Supervised interns 中列港大博士 Xiaoyang Wu，点明学业导师 Hengshuang Zhao，并把跨数据集三维室内场景 Point Prompt Tuning 列为其负责的实习课题，与 CVPR 正式文的跨数据集训练相符。学生本人确认博士师从赵恒爽、阿里期间跟从于开丞。论文首稿 2023-08-18 发布，于开丞已转西湖但论文保留其阿里与西湖双署；西湖官方确认他作为阿里正式高级研究科学家指导该学生时仍在任。正式论文也明示阿里研究基金，并列三人作者；基金仅作旁证。",
+      "advising": [
+        "本人具名博士导师",
+        "学生本人主页点名香港大学博士导师赵恒爽；阿里研究员履历第 3 页独立确认。",
+        "https://xywu.me/"
+      ],
+      "year": 2023
+    },
+    {
+      "id": "painting-3d-nature-alibaba-zju-xiaowei-zhou",
+      "paperId": "arxiv:2302.07224",
+      "company": "阿里巴巴",
+      "team": "达摩院自动驾驶实验室",
+      "school": "浙江大学",
+      "studentSchool": "浙江大学",
+      "faculty": [
+        "周晓巍 · Xiaowei Zhou",
+        "浙大计算机学院教授，同篇署浙江大学；第一作者本人及企业导师简历独立列其为浙大硕士导师。",
+        "https://xzhou.me/"
+      ],
+      "employee": [
+        "于开丞 · Kaicheng Yu",
+        "西湖大学官方说明 2021–2023 为阿里达摩院高级研究科学家，领导自动驾驶视觉感知；CVPR 正式此篇署 Alibaba Group。",
+        "https://en.westlake.edu.cn/faculty/kaicheng-yu.html"
+      ],
+      "student": [
+        "Shangzhan Zhang",
+        "浙江大学 2022–25 计算机在读硕士；阿里导师当年履历把他标作本论文关联的具体实习生，且他本人列周晓巍为硕导。",
+        "https://zhanghe3z.github.io/"
+      ],
+      "title": "Painting 3D Nature in 2D: View Synthesis of Natural Scenes from a Single Semantic Mask",
+      "short": "Painting 3D Nature in 2D",
+      "date": "2023-02-14",
+      "venue": "CVPR 2023",
+      "area": "单视图三维场景生成",
+      "paper": "https://doi.org/10.1109/CVPR52729.2023.00823",
+      "extra": [
+        [
+          "阿里企业导师同期履历论文标记、实习题目（第 2–3 页）",
+          "https://www.yukaicheng.cn/assets/pdf/academic_resume.pdf"
+        ],
+        [
+          "CVPR 官方原文及阿里作者",
+          "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Painting_3D_Nature_in_2D_View_Synthesis_of_Natural_Scenes_CVPR_2023_paper.pdf"
+        ],
+        [
+          "2023-02-14 公开首稿",
+          "https://arxiv.org/abs/2302.07224"
+        ],
+        [
+          "作者项目页及单位",
+          "https://paintingnature.github.io/"
+        ]
+      ],
+      "evidence": "阿里高级研究科学家于开丞的 2023-03-28 履历第 2 页用受指导实习生符号把 Shangzhan Zhang 直接标在此篇正式题名下；第 3 页同一学生实习条目再次具名该标题缩写、浙江大学硕士学籍和高校导师周晓巍。学生本人也明确 2022–25 浙江大学硕士、由周晓巍和彭斯达指导。CVPR 正式论文确认于开丞署阿里巴巴，周晓巍和实习生同篇。arXiv 作者拼写 Shangzan 取正式版本及本人用的 Shangzhan。",
+      "advising": [
+        "本人具名硕士导师",
+        "学生本人教育段明确列浙江大学硕士的周晓巍；于开丞的同期项目简历同样列周晓巍。",
+        "https://zhanghe3z.github.io/"
+      ],
+      "year": 2023
     }
   ]
 };
