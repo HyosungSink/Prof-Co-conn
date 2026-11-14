@@ -632,5 +632,283 @@ const facultyPaperAudits = {
       }
     ],
     "note": "先梳理章湘粤公开的相关论文，不代表已覆盖涂志刚的全部论文。"
+  },
+  "vTC9TSQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.cs.sjtu.edu.cn/jiaoshiml/xueguangtao.html",
+      "https://news.sjtu.edu.cn/jdyw/20230303/179470.html",
+      "https://ruiming-lu.github.io/",
+      "https://master-chen-xin-qi.github.io/",
+      "https://dblp.org/pid/79/1810.html"
+    ],
+    "papers": [
+      {
+        "title": "Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems",
+        "url": "https://www.usenix.org/conference/fast23/presentation/lu",
+        "outcome": "confirmed",
+        "note": "交大同期说明具名导师和阿里云实研；在读实习及企业正式员工证据齐全。其期刊扩展稿并入同一篇。"
+      },
+      {
+        "title": "MasterPlan: A Reinforcement Learning Based Scheduler for Archive Storage",
+        "url": "https://doi.org/10.1145/3708542",
+        "outcome": "lead",
+        "note": "交大导师、阿里云正式署名及在读学生已对应，尚缺明确指向这篇合作的在企实研证明。"
+      },
+      {
+        "title": "How Soon is Now? Preloading Images for Virtual Disks with ThinkAhead",
+        "url": "https://www.usenix.org/conference/fast26/presentation/chen",
+        "outcome": "no-evidence",
+        "note": "学生在阿里云 EBS 团队、导师和企业作者可匹配；原文预加载算法未采用所引机器学习方法，未计入 AI 论文范围。"
+      }
+    ],
+    "note": "按学生论文和正式出版题录部分核查，完整调查期题录仍待核对。"
+  },
+  "Xrh1OIUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://henglin-liu.github.io/HenglinLiu/"
+    ],
+    "papers": [
+      {
+        "title": "DiverseGRPO: Mitigating Mode Collapse in Image Generation via Diversity-Aware GRPO",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_DiverseGRPO_Mitigating_Mode_Collapse_in_Image_Generation_via_Diversity-Aware_GRPO_CVPR_2026_paper.pdf",
+        "outcome": "existing",
+        "note": "同篇已在关系索引收录；导师和在快手实研证据已核实，不重复计数。"
+      }
+    ],
+    "note": "仅核对刘恒林部分合作论文；本调查期完整题录待继续。"
+  },
+  "n1zDCkQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://tengjiayan20.github.io/",
+      "https://criliasmiller.github.io/Kaleido_Project/"
+    ],
+    "papers": [
+      {
+        "title": "Kaleido",
+        "url": "https://arxiv.org/abs/2510.18573",
+        "outcome": "lead",
+        "note": "学生具名为项目负责人及导师具名；原文实习脚注未发现可明确适用于该学生。"
+      },
+      {
+        "title": "GFD-OPD",
+        "url": "https://arxiv.org/abs/2609.39692",
+        "outcome": "lead",
+        "note": "学生与导师可对应，尚未找到可归属这一篇的企业实研材料。"
+      }
+    ],
+    "note": "仅核对滕佳言部分合作论文；完整题录待继续。"
+  },
+  "tnRV5QYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2606.01143",
+      "https://azency.github.io/pengboli.github.io/assets/pengbo-li-cv-en.pdf",
+      "https://cse.hkust.edu.hk/pg/defenses/F26/plibt-23-10-2026.html",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kai-chen-kaichen",
+      "https://www.liziniu.org/",
+      "https://arxiv.org/abs/2606.01143v1",
+      "https://openreview.net/forum?id=FPJ4b4JwEE",
+      "https://farrenzhang.github.io/",
+      "https://arxiv.org/html/2608.29296",
+      "https://openreview.net/pdf/ddf5536d927c46b6cd41023605878b3ab046c3b0.pdf"
+    ],
+    "papers": [
+      {
+        "title": "PrefixFlow: Training-Time KV Caching for Schedule-Level Prefix Reuse in LLM RL Training",
+        "url": "https://arxiv.org/html/2606.01143",
+        "outcome": "confirmed",
+        "note": "李鹏博的同期简历明确写明，其腾讯混元实习的前缀复用工作产出了这篇第一作者论文。港科大博士资格考核公告标明 Kai Chen 为其导师。原文列李鹏博、Kai Chen 和已于 2026 年 2 月入职腾讯混元任研究科学家的 Ziniu Li 为共同作者。以调查期内公开的预印本计一条。"
+      },
+      {
+        "title": "Canopy: Tree-Aware Rollout Scheduling for Agent Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=FPJ4b4JwEE",
+        "outcome": "lead",
+        "note": "两位港科大学生与校方导师均署名；腾讯同篇作者任职可核，待核对论文致谢或分工是否把至少一位受指导学生的劳动明确连到此次企业研究。"
+      },
+      {
+        "title": "When Do Larger Batches Help Scale LLM Reinforcement Learning?",
+        "url": "https://arxiv.org/html/2608.29296",
+        "outcome": "no-evidence",
+        "note": "作者中有其在读学生，但校方导师 Kai Chen 未署名。"
+      },
+      {
+        "title": "Unlocking Full Efficiency of Token Filtering in Large Language Model Training",
+        "url": "https://openreview.net/pdf/ddf5536d927c46b6cd41023605878b3ab046c3b0.pdf",
+        "outcome": "no-evidence",
+        "note": "学生简历所列研究期为 2025 年 1–10 月，早于李鹏博 2026 年 3 月入职腾讯混元实习。现有论文材料未说明另一位受指导学生在企业完成本研究。"
+      }
+    ]
+  },
+  "Jk4vJU8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/html/2510.04204",
+      "https://tangzhy.github.io/CV_Zhengyang_Tang.pdf",
+      "https://itso.cuhk.edu.cn/en/article/523",
+      "https://sds.cuhk.edu.cn/en/teacher/571",
+      "https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr",
+      "https://tangzhy.github.io/",
+      "https://arxiv.org/html/2501.05727",
+      "https://openreview.net/pdf/67171a4d26bdcd50f955d395efa0276253dc1056.pdf",
+      "https://arxiv.org/html/2506.09820",
+      "https://arxiv.org/abs/2403.02884",
+      "https://arxiv.org/abs/2402.13064",
+      "https://arxiv.org/html/2606.17861",
+      "https://tongxuluo.github.io/",
+      "https://www.liziniu.org/",
+      "https://arxiv.org/html/2503.02875",
+      "https://1ke-ji.github.io/",
+      "https://wabyking.github.io/old",
+      "https://tuzhaopeng.github.io/",
+      "https://openreview.net/pdf/b261818533917595d3cba6ac4e58c4a6d02409ce.pdf",
+      "https://dblp.uni-trier.de/pid/145/1166.html",
+      "https://arxiv.org/html/2604.00986"
+    ],
+    "papers": [
+      {
+        "title": "CALM Before the STORM: Unlocking Native Reasoning for Optimization Modeling",
+        "url": "https://arxiv.org/html/2510.04204",
+        "outcome": "confirmed",
+        "note": "香港中文大学（深圳）的同篇成果报道写明共同一作 Zhengyang Tang 是王本友指导的在读博士，并正在通义千问团队实习。本人同期简历在通义千问实习项下逐项列出 STORM。论文将王本友与通义千问刘大一恒列为通讯作者。"
+      },
+      {
+        "title": "Self-Evolving Critique Abilities in Large Language Models",
+        "url": "https://arxiv.org/html/2501.05727",
+        "outcome": "confirmed",
+        "note": "Zhengyang Tang 的同期简历将 SCRIT 明确列为在阿里巴巴 Qwen 团队实习时共同开发的框架。香港中文大学（深圳）的公告确认当时博士学籍与王本友的指导；COLM 版同列王本友与阿里巴巴 Qwen 员工刘大一恒。"
+      },
+      {
+        "title": "CoRT: Code-integrated Reasoning within Thinking",
+        "url": "https://arxiv.org/html/2506.09820",
+        "outcome": "confirmed",
+        "note": "Zhengyang Tang 的同期简历写明，在阿里巴巴 Qwen 团队实习的智能体强化学习项目产出 CoRT；学校公告确认在读和王本友的指导。论文标明他为共同一作、王本友为共同作者，以及阿里巴巴 Qwen 的刘大一恒为通讯作者。"
+      },
+      {
+        "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+        "url": "https://arxiv.org/abs/2403.02884",
+        "outcome": "no-evidence",
+        "note": "学生、导师和企业工作能够对应，公开来源指向微软亚洲研究院；该企业不在调查范围。"
+      },
+      {
+        "title": "Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models",
+        "url": "https://arxiv.org/abs/2402.13064",
+        "outcome": "no-evidence",
+        "note": "学生简历将该项成果列为微软亚洲研究院实习产出；该企业不在调查范围。"
+      },
+      {
+        "title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
+        "url": "https://arxiv.org/html/2606.17861",
+        "outcome": "lead",
+        "note": "腾讯正式研究人员、学校和作者已核对，第一作者亦记录现为腾讯实习；尚无明确说明他在腾讯完成本篇，同时须确认本篇研究期间的校方具体指导身份。"
+      },
+      {
+        "title": "The First Few Tokens Are All You Need: An Efficient and Effective Unsupervised Prefix Fine-Tuning Method for Reasoning Models",
+        "url": "https://arxiv.org/html/2503.02875",
+        "outcome": "confirmed",
+        "note": "论文首页的脚注明确写明冀轲在腾讯 AI Lab 实习期间完成本研究。校方博士导师王本友和腾讯员工涂兆鹏是本篇共同通讯作者。"
+      },
+      {
+        "title": "WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents",
+        "url": "https://dblp.uni-trier.de/pid/145/1166.html",
+        "outcome": "no-evidence",
+        "note": "冀轲参加 MiniMax 同期研究，但王本友未在同篇署名。"
+      },
+      {
+        "title": "Do Phone-Use Agents Respect Your Privacy?",
+        "url": "https://arxiv.org/html/2604.00986",
+        "outcome": "lead",
+        "note": "同篇有腾讯作者；冀轲的腾讯实习在 2025 年 5 月结束，来源没有把他的工作和该篇 2026 年论文的腾讯合作对应。继续核对其他在读作者。"
+      }
+    ]
+  },
+  "dW3gcXoAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://proceedings.mlr.press/v306/li26v.html",
+      "https://x.com/ZiniuLi/status/1973626847511585267",
+      "https://www.liziniu.org/docs/CV_Ziniu_Li.pdf",
+      "https://sds.cuhk.edu.cn/en/teacher/214",
+      "https://lf3-static.bytednsdoc.com/obj/eden-cn/hyvsmeh7uhobf/sdiff_updated.pdf",
+      "https://arxiv.org/html/2509.25849",
+      "https://www.liziniu.org/",
+      "https://arxiv.org/abs/2510.25741",
+      "https://ouro-llm.github.io/",
+      "https://arxiv.org/abs/2303.07046"
+    ],
+    "papers": [
+      {
+        "title": "Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation",
+        "url": "https://proceedings.mlr.press/v306/li26v.html",
+        "outcome": "confirmed",
+        "note": "第一作者李子牛在 2025 年发布本篇时称为在字节跳动 Seed 完成的研究，个人同期简历记载其在 2025 年 5 月起由 Ge Zhang 指导在字节跳动实习并开展在线强化学习论文。原文同列其校方博士导师罗智泉以及字节跳动 Seed 的通讯作者 Ge Zhang。"
+      },
+      {
+        "title": "Scaling Latent Reasoning via Looped Language Models",
+        "url": "https://arxiv.org/abs/2510.25741",
+        "outcome": "no-evidence",
+        "note": "该生在字节跳动实习期间参加了 Ouro 基础模型研究；导师罗智泉未署名本篇。"
+      },
+      {
+        "title": "Deploying Offline Reinforcement Learning with Human Feedback",
+        "url": "https://arxiv.org/abs/2303.07046",
+        "outcome": "no-evidence",
+        "note": "同篇作者和本人简历可核腾讯实习工作，但导师罗智泉未署名本篇。"
+      }
+    ]
+  },
+  "0ggsACEAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131981.html",
+      "https://clqwq.press/",
+      "https://dblp.org/pid/81/6575.html",
+      "https://ccbr99.cn/2025/keynotes.html",
+      "https://houwenpeng.com/index.html",
+      "https://jiangllan.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "Beyond Next-Token Alignment: Distilling Multimodal Large Language Models via Token Interactions",
+        "url": "https://proceedings.mlr.press/v306/chen26gr.html",
+        "outcome": "confirmed",
+        "note": "同篇实习脚注、学校指导关系、企业任职及三人署名已核对。"
+      },
+      {
+        "title": "Beyond Sequential Distance: Inter-Modal Distance Invariant Position Encoding",
+        "url": "https://doi.org/10.1007/978-3-032-37627-5_30",
+        "outcome": "confirmed",
+        "note": "同篇实习脚注、学校指导关系、企业任职及三人署名已核对。"
+      },
+      {
+        "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+        "url": "https://arxiv.org/html/2609.35457",
+        "outcome": "confirmed",
+        "note": "同篇实习脚注、学校指导关系、企业任职及三人署名已核对。"
+      },
+      {
+        "title": "R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs via Bi-Mode Annealing and Reinforce Learning",
+        "url": "https://arxiv.org/abs/2508.21113",
+        "outcome": "lead",
+        "note": "CASIA 与腾讯共同署名，彭厚文记有指导齐阳实习。尚未确认向世明是否为齐阳该阶段的校内导师。"
+      }
+    ],
+    "note": "已核对陈林个人成果的一部分和 R-4B。未完成向世明全部论文综排。"
   }
 };

@@ -10328,6 +10328,428 @@ const survey = {
         "章湘粤的个人学业履历载明，武汉大学硕士期间由涂志刚指导。",
         "https://xiangyuezhang.com/cv/"
       ]
+    },
+    {
+      "id": "perseus-alibaba-sjtu-xue",
+      "paperId": "doi:10.1145/3617690",
+      "company": "阿里巴巴",
+      "team": "阿里云 · 存储产品线",
+      "school": "上海交通大学",
+      "studentSchool": "上海交通大学",
+      "faculty": [
+        "薛广涛 · Guangtao Xue",
+        "上海交通大学计算机系教授、鲁瑞明的具名共同博士生导师、该篇共同通讯作者。",
+        "https://www.cs.sjtu.edu.cn/jiaoshiml/xueguangtao.html"
+      ],
+      "employee": [
+        "吴结生 · Jiesheng Wu",
+        "2022 年云栖大会阿里云官方资料列为阿里巴巴研究员、阿里云智能存储产品线总经理；该篇署名阿里巴巴。",
+        "https://www.alibabacloud.com/en/apsara-conference-2022/speakers?_p_lc=1"
+      ],
+      "student": [
+        "鲁瑞明 · Ruiming Lu",
+        "2020–2025 年上海交通大学计算机博士生；简历列出 2021 年 8 月至 2023 年 6 月在阿里云研究实习期间负责实际部署于阿里云的慢盘检测框架，与论文所述项目对应。",
+        "https://ruiming-lu.github.io/data/cv.pdf"
+      ],
+      "title": "Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems",
+      "short": "Perseus",
+      "date": "2023-02",
+      "venue": "USENIX FAST",
+      "area": "机器学习与系统",
+      "paper": "https://www.usenix.org/system/files/fast23-lu.pdf",
+      "extra": [
+        [
+          "正式会议题录",
+          "https://www.usenix.org/conference/fast23/presentation/lu"
+        ],
+        [
+          "期刊扩展稿（同一项目，合并计数）",
+          "https://dl.acm.org/doi/10.1145/3617690"
+        ],
+        [
+          "中国计算机学会具名任职资料",
+          "https://www.ccf.org.cn/Activities/Training/ADL/ADL/2018-08-22/651514.shtml"
+        ]
+      ],
+      "evidence": "交大同期公告具名说明鲁瑞明受薛广涛、李明禄共同指导，并确认论文由交大和阿里云联合完成。鲁瑞明履历列出实习时间与同一检测框架。论文使用主成分分析、DBSCAN 和多项式回归建模，在阿里云生产环境部署；作者栏包括三人，吴结生的同期任职由阿里云正式活动页面独立核实。期刊扩展稿并入同一条。",
+      "advising": [
+        "联合博士生指导",
+        "上海交通大学获奖报道具名说明薛广涛、李明禄在交大共同指导鲁瑞明。",
+        "https://news.sjtu.edu.cn/jdyw/20230303/179470.html"
+      ]
+    },
+    {
+      "id": "tencent-prefixflow-hkust-kai-chen",
+      "company": "腾讯",
+      "team": "混元团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "Kai Chen",
+        "香港科技大学计算机科学与工程学系教授、本篇共同通讯作者。",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kai-chen-kaichen"
+      ],
+      "student": [
+        "李鹏博 · Pengbo Li",
+        "2024 年 9 月起在港科大读计算机博士；2026 年 3 月起在腾讯混元实习，简历明列 PrefixFlow 是该段实习的产出。",
+        "https://azency.github.io/pengboli.github.io/assets/pengbo-li-cv-en.pdf"
+      ],
+      "employee": [
+        "Ziniu Li",
+        "本人从 2026 年 2 月起在腾讯混元担任研究科学家，本篇署名腾讯。",
+        "https://www.liziniu.org/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大学位资格考核公告列 Kai Chen 为李鹏博的博士导师，并将 PrefixFlow 列为考核报告中的研究。",
+        "https://cse.hkust.edu.hk/pg/defenses/F26/plibt-23-10-2026.html"
+      ],
+      "title": "PrefixFlow: Training-Time KV Caching for Schedule-Level Prefix Reuse in LLM RL Training",
+      "short": "PrefixFlow",
+      "date": "2026-10",
+      "venue": "arXiv 预印本 / ACM SIGOPS ATC 录用",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2606.01143",
+      "extra": [
+        [
+          "预印本首版",
+          "https://arxiv.org/abs/2606.01143v1"
+        ]
+      ],
+      "evidence": "李鹏博的同期简历明确写明，其腾讯混元实习的前缀复用工作产出了这篇第一作者论文。港科大博士资格考核公告标明 Kai Chen 为其导师。原文列李鹏博、Kai Chen 和已于 2026 年 2 月入职腾讯混元任研究科学家的 Ziniu Li 为共同作者。以调查期内公开的预印本计一条。"
+    },
+    {
+      "id": "alibaba-storm-cuhksz-benyou-wang",
+      "company": "阿里巴巴",
+      "team": "通义千问（Qwen）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "王本友 · Benyou Wang",
+        "香港中文大学（深圳）数据科学学院助理教授、博士生导师，同篇作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/571"
+      ],
+      "student": [
+        "Zhengyang Tang",
+        "研究期间在香港中文大学（深圳）读博，2024 年 10 月起在阿里巴巴 Qwen 团队实习；本人简历在该段实习项下标明本篇。",
+        "https://tangzhy.github.io/CV_Zhengyang_Tang.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学校公开介绍明确记载 Zhengyang Tang 为当时的在读博士、由王本友指导。",
+        "https://itso.cuhk.edu.cn/en/article/523"
+      ],
+      "employee": [
+        "刘大一恒 · Dayiheng Liu",
+        "阿里巴巴 Qwen 技术团队研究人员；企业文档列其为 Qwen 团队核心报告作者，本篇以 Qwen 署名。",
+        "https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr"
+      ],
+      "title": "CALM Before the STORM: Unlocking Native Reasoning for Optimization Modeling",
+      "short": "CALM / STORM",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2510.04204",
+      "extra": [
+        [
+          "学生近期个人主页",
+          "https://tangzhy.github.io/"
+        ]
+      ],
+      "evidence": "香港中文大学（深圳）的同篇成果报道写明共同一作 Zhengyang Tang 是王本友指导的在读博士，并正在通义千问团队实习。本人同期简历在通义千问实习项下逐项列出 STORM。论文将王本友与通义千问刘大一恒列为通讯作者。"
+    },
+    {
+      "id": "alibaba-scrit-cuhksz-benyou-wang",
+      "company": "阿里巴巴",
+      "team": "通义千问（Qwen）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "王本友 · Benyou Wang",
+        "香港中文大学（深圳）数据科学学院助理教授、博士生导师，同篇作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/571"
+      ],
+      "student": [
+        "Zhengyang Tang",
+        "研究期间在香港中文大学（深圳）读博，2024 年 10 月起在阿里巴巴 Qwen 团队实习；本人简历在该段实习项下标明本篇。",
+        "https://tangzhy.github.io/CV_Zhengyang_Tang.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学校公开介绍明确记载 Zhengyang Tang 为当时的在读博士、由王本友指导。",
+        "https://itso.cuhk.edu.cn/en/article/523"
+      ],
+      "employee": [
+        "刘大一恒 · Dayiheng Liu",
+        "阿里巴巴 Qwen 技术团队研究人员；企业文档列其为 Qwen 团队核心报告作者，本篇以 Qwen 署名。",
+        "https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr"
+      ],
+      "title": "Self-Evolving Critique Abilities in Large Language Models",
+      "short": "SCRIT",
+      "date": "2025-10",
+      "venue": "COLM",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2501.05727",
+      "extra": [
+        [
+          "学生近期个人主页",
+          "https://tangzhy.github.io/"
+        ],
+        [
+          "COLM 最终版",
+          "https://openreview.net/pdf/67171a4d26bdcd50f955d395efa0276253dc1056.pdf"
+        ]
+      ],
+      "evidence": "Zhengyang Tang 的同期简历将 SCRIT 明确列为在阿里巴巴 Qwen 团队实习时共同开发的框架。香港中文大学（深圳）的公告确认当时博士学籍与王本友的指导；COLM 版同列王本友与阿里巴巴 Qwen 员工刘大一恒。"
+    },
+    {
+      "id": "alibaba-cort-cuhksz-benyou-wang",
+      "company": "阿里巴巴",
+      "team": "通义千问（Qwen）",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "王本友 · Benyou Wang",
+        "香港中文大学（深圳）数据科学学院助理教授、博士生导师，同篇作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/571"
+      ],
+      "student": [
+        "Zhengyang Tang",
+        "研究期间在香港中文大学（深圳）读博，2024 年 10 月起在阿里巴巴 Qwen 团队实习；本人简历在该段实习项下标明本篇。",
+        "https://tangzhy.github.io/CV_Zhengyang_Tang.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学校公开介绍明确记载 Zhengyang Tang 为当时的在读博士、由王本友指导。",
+        "https://itso.cuhk.edu.cn/en/article/523"
+      ],
+      "employee": [
+        "刘大一恒 · Dayiheng Liu",
+        "阿里巴巴 Qwen 技术团队研究人员；企业文档列其为 Qwen 团队核心报告作者，本篇以 Qwen 署名。",
+        "https://www.alibabacloud.com/help/en/model-studio/qwen-vl-ocr"
+      ],
+      "title": "CoRT: Code-integrated Reasoning within Thinking",
+      "short": "CoRT",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2506.09820",
+      "extra": [
+        [
+          "学生近期个人主页",
+          "https://tangzhy.github.io/"
+        ]
+      ],
+      "evidence": "Zhengyang Tang 的同期简历写明，在阿里巴巴 Qwen 团队实习的智能体强化学习项目产出 CoRT；学校公告确认在读和王本友的指导。论文标明他为共同一作、王本友为共同作者，以及阿里巴巴 Qwen 的刘大一恒为通讯作者。"
+    },
+    {
+      "id": "tencent-upft-cuhksz-benyou-wang",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "王本友 · Benyou Wang",
+        "香港中文大学（深圳）数据科学学院助理教授、博士生导师，本篇共同通讯作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/571"
+      ],
+      "student": [
+        "冀轲 · Ke Ji",
+        "2024 年 9 月起在香港中文大学（深圳）攻读博士，2024 年 10 月至 2025 年 5 月在腾讯 AI Lab 做科研实习。",
+        "https://1ke-ji.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生主页列王本友为博士导师；王本友亦在自己学生名单列冀轲为 2024 年秋入学博士生。",
+        "https://wabyking.github.io/old"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "腾讯研究负责人，本篇以腾讯 AI Lab 署名并注明为通讯作者。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "title": "The First Few Tokens Are All You Need: An Efficient and Effective Unsupervised Prefix Fine-Tuning Method for Reasoning Models",
+      "short": "UPFT",
+      "date": "2025-12",
+      "venue": "NeurIPS",
+      "area": "语言模型与智能体",
+      "paper": "https://arxiv.org/html/2503.02875",
+      "extra": [
+        [
+          "NeurIPS 正式论文",
+          "https://openreview.net/pdf/b261818533917595d3cba6ac4e58c4a6d02409ce.pdf"
+        ]
+      ],
+      "evidence": "论文首页的脚注明确写明冀轲在腾讯 AI Lab 实习期间完成本研究。校方博士导师王本友和腾讯员工涂兆鹏是本篇共同通讯作者。"
+    },
+    {
+      "id": "bytedance-knapsack-rl-cuhksz-zhiquan-luo",
+      "company": "字节跳动",
+      "team": "Seed-Edge",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "罗智泉 · Zhi-Quan Luo",
+        "香港中文大学（深圳）数据科学学院校长讲座教授，本篇共同作者。",
+        "https://sds.cuhk.edu.cn/en/teacher/214"
+      ],
+      "student": [
+        "李子牛 · Ziniu Li",
+        "研究期间在香港中文大学（深圳）攻读数据科学博士，2025 年 5 月进入字节跳动 Seed-Edge 实习；本人发布本篇时将其列为字节跳动研究。",
+        "https://x.com/ZiniuLi/status/1973626847511585267"
+      ],
+      "advising": [
+        "博士导师",
+        "该生当时的简历写明学校博士学籍和导师 Zhi-Quan Luo，并注明由字节跳动 Ge Zhang 指导实习期间的强化学习课题。",
+        "https://www.liziniu.org/docs/CV_Ziniu_Li.pdf"
+      ],
+      "employee": [
+        "Ge Zhang",
+        "字节跳动 Seed 研究人员、该生企业导师、本篇通讯作者；企业项目报告列 Ge Zhang 为研究成员。",
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/hyvsmeh7uhobf/sdiff_updated.pdf"
+      ],
+      "title": "Knapsack RL: Compute-Efficient Reinforcement Learning via Heterogeneous Rollout Allocation",
+      "short": "Knapsack RL",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "语言模型与智能体",
+      "paper": "https://proceedings.mlr.press/v306/li26v.html",
+      "extra": [
+        [
+          "研究时期预印本",
+          "https://arxiv.org/html/2509.25849"
+        ],
+        [
+          "学生履历：字节 Seed-Edge 实习日期",
+          "https://www.liziniu.org/"
+        ]
+      ],
+      "evidence": "第一作者李子牛在 2025 年发布本篇时称为在字节跳动 Seed 完成的研究，个人同期简历记载其在 2025 年 5 月起由 Ge Zhang 指导在字节跳动实习并开展在线强化学习论文。原文同列其校方博士导师罗智泉以及字节跳动 Seed 的通讯作者 Ge Zhang。"
+    },
+    {
+      "id": "ant-align-ti-ucas-xiang",
+      "company": "蚂蚁集团",
+      "team": "蚂蚁数科",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "向世明 · Shiming Xiang",
+        "中国科学院自动化研究所研究员，中国科学院大学人工智能学院岗位教授及博士生导师。",
+        "https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131981.html"
+      ],
+      "employee": [
+        "李哲 · Zhe Li",
+        "2025 年中国生物特征识别大会的具名报告嘉宾履历列为蚂蚁数科 AI 科技创新技术部负责人、蚂蚁天玑实验室主任。IJCAI 2025 工作坊和论文亦将他列为蚂蚁数科。",
+        "https://ccbr99.cn/2025/keynotes.html"
+      ],
+      "student": [
+        "陈林 · Lin Chen",
+        "2024 年 9 月起在中国科学院自动化研究所攻读博士，列明向世明为导师；2024 年 12 月至 2025 年 11 月在蚂蚁集团实习，2025 年 12 月起在腾讯混元团队实习。",
+        "https://clqwq.press/"
+      ],
+      "title": "Beyond Next-Token Alignment: Distilling Multimodal Large Language Models via Token Interactions",
+      "short": "Align-TI",
+      "date": "2026-07",
+      "venue": "ICML",
+      "area": "多模态与视觉",
+      "paper": "https://proceedings.mlr.press/v306/chen26gr.html",
+      "evidence": "论文脚注明确指这项工作在陈林于蚂蚁数科实习期间完成；正式版列陈林、李哲、向世明为同篇作者。",
+      "advising": [
+        "博士生导师",
+        "陈林的个人主页明确列出向世明指导其博士学业。",
+        "https://clqwq.press/"
+      ],
+      "extra": [
+        [
+          "含实习说明的论文全文",
+          "https://arxiv.org/html/2602.09483"
+        ],
+        [
+          "IJCAI 2025 具名组织者",
+          "https://deepfake-workshop-ijcai2025.github.io/main/organizers.html"
+        ]
+      ],
+      "paperId": "arxiv:2602.09483"
+    },
+    {
+      "id": "tencent-dipe-ucas-xiang",
+      "company": "腾讯",
+      "team": "混元",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "向世明 · Shiming Xiang",
+        "中国科学院自动化研究所研究员，中国科学院大学人工智能学院岗位教授及博士生导师。",
+        "https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131981.html"
+      ],
+      "employee": [
+        "彭厚文 · Houwen Peng",
+        "本人履历说明曾负责腾讯混元多模态团队；2026 年 3 月论文署腾讯混元。同年发布的 ICLR 学术报告亦列其为腾讯混元项目负责人。",
+        "https://houwenpeng.com/index.html"
+      ],
+      "student": [
+        "陈林 · Lin Chen",
+        "2024 年 9 月起在中国科学院自动化研究所攻读博士，列明向世明为导师；2024 年 12 月至 2025 年 11 月在蚂蚁集团实习，2025 年 12 月起在腾讯混元团队实习。",
+        "https://clqwq.press/"
+      ],
+      "title": "Beyond Sequential Distance: Inter-Modal Distance Invariant Position Encoding",
+      "short": "DIPE",
+      "date": "2026-09",
+      "venue": "ECCV",
+      "area": "多模态与视觉",
+      "paper": "https://doi.org/10.1007/978-3-032-37627-5_30",
+      "evidence": "论文首版首页明确标记第一作者陈林在腾讯混元团队实习期间开展工作；彭厚文与向世明均具名合著。",
+      "advising": [
+        "博士生导师",
+        "陈林的个人主页明确列出向世明指导其博士学业。",
+        "https://clqwq.press/"
+      ],
+      "extra": [
+        [
+          "含实习说明的论文全文",
+          "https://arxiv.org/html/2603.10863"
+        ],
+        [
+          "ICLR 2026 具名项目团队",
+          "https://iclr.cc/media/iclr-2026/Slides/10010295.pdf"
+        ]
+      ],
+      "paperId": "arxiv:2603.10863"
+    },
+    {
+      "id": "tencent-encoder-free-scaling-ucas-xiang",
+      "company": "腾讯",
+      "team": "基础模型部",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "向世明 · Shiming Xiang",
+        "中国科学院自动化研究所研究员，中国科学院大学人工智能学院岗位教授及博士生导师。",
+        "https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131981.html"
+      ],
+      "employee": [
+        "Lan Jiang",
+        "个人学术主页明确列出自 2024 年 11 月起担任腾讯混元预训练团队研究员。",
+        "https://jiangllan.github.io/"
+      ],
+      "student": [
+        "陈林 · Lin Chen",
+        "2024 年 9 月起在中国科学院自动化研究所攻读博士，列明向世明为导师；2024 年 12 月至 2025 年 11 月在蚂蚁集团实习，2025 年 12 月起在腾讯混元团队实习。",
+        "https://clqwq.press/"
+      ],
+      "title": "How Far Are We from Removing the Visual Encoder? Scaling Laws for Encoder-Free Multimodal Pretraining",
+      "short": "无视觉编码器多模态预训练",
+      "date": "2026-09-28",
+      "venue": "arXiv 预印本",
+      "area": "多模态与视觉",
+      "paper": "https://arxiv.org/html/2609.35457",
+      "evidence": "论文首页脚注明确指陈林在腾讯实习完成本文工作；同篇署名含腾讯研究员 Lan Jiang 和博士生导师向世明。",
+      "advising": [
+        "博士生导师",
+        "陈林的个人主页明确列出向世明指导其博士学业。",
+        "https://clqwq.press/"
+      ],
+      "paperId": "arxiv:2609.35457"
     }
   ]
 };
