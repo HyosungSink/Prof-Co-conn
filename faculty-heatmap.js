@@ -85,42 +85,128 @@ function facultyGridPath(columns, rows) {
   return cells;
 }
 
+// The treemap is built from straight cuts. Keep that structure, but let adjacent
+// blocks share the rounding error when their dimensions must be whole cells.
+function facultyPartitionTree(parts) {
+  if (parts.length < 2) return parts[0];
+  const count = parts.reduce((sum, part) => sum + part.count, 0);
+  const tolerance = 1e-6;
+  let best = null;
+  for (const [axis, size] of [['x', 'width'], ['y', 'height']]) {
+    const ordered = [...parts].sort((a, b) => a.rect[axis] - b.rect[axis]);
+    let edge = -Infinity, used = 0;
+    for (let i = 1; i < ordered.length; i += 1) {
+      const { rect, count: n } = ordered[i - 1];
+      edge = Math.max(edge, rect[axis] + rect[size]);
+      used += n;
+      if (edge > ordered[i].rect[axis] + tolerance) continue;
+      const imbalance = Math.abs(count - 2 * used);
+      if (!best || imbalance < best.imbalance) best = { axis, ordered, i, imbalance };
+    }
+  }
+  const { axis, ordered, i } = best;
+  return {
+    count, axis,
+    first: facultyPartitionTree(ordered.slice(0, i)),
+    second: facultyPartitionTree(ordered.slice(i)),
+  };
+}
+
+// Fill whole rows or columns first so surplus cells stay on a single edge.
+function facultyBlockPath(w, h, count) {
+  if (w >= h) {
+    const full = Math.floor(count / w), rest = count % w;
+    const path = full ? facultyGridPath(w, full) : [];
+    for (let x = 0; x < rest; x += 1) path.push([x, full]);
+    return path;
+  }
+  const full = Math.floor(count / h), rest = count % h;
+  const path = full ? facultyGridPath(full, h) : [];
+  for (let y = 0; y < rest; y += 1) path.push([full, y]);
+  return path;
+}
+
 function layoutFacultyTiles(groups, width, height, units) {
   const box = { x: 0, y: 0, width, height };
-  const ideal = [];
-  const categories = [];
-  const place = ({ entries, label }, rect) => ideal.push({ entries, label, rect });
-  const pack = (parts, area) => layoutWeightedRectangles(parts, area, part => part.entries.length, place);
-  if (units) pack(units.filter(unit => unit.entries.length).sort((a, b) => b.entries.length - a.entries.length), box);
-  else layoutSchoolGroups(groups, width, height, 0, ({ entries }, area) => {
-    categories.push(area);
-    pack(entries, area);
-  });
+  function pack(parts, area) {
+    const leaves = [];
+    layoutWeightedRectangles(parts, area, part => part.entries.length, ({ entries, label }, rect) => {
+      leaves.push({ entries, label, rect, count: entries.length });
+    });
+    return facultyPartitionTree(leaves);
+  }
+  let tree;
+  if (units) tree = pack(units.filter(unit => unit.entries.length).sort((a, b) => b.entries.length - a.entries.length), box);
+  else {
+    const categories = [];
+    layoutSchoolGroups(groups, width, height, 0, ({ entries }, rect) => {
+      categories.push({ ...pack(entries, rect), rect, band: true });
+    });
+    tree = facultyPartitionTree(categories);
+  }
 
-  const count = ideal.reduce((sum, { entries }) => sum + entries.length, 0);
-  const snap = (rect, columns, rows) => {
-    const left = Math.round(rect.x / width * columns);
-    const right = Math.round((rect.x + rect.width) / width * columns);
-    const top = Math.round(rect.y / height * rows);
-    const bottom = Math.round((rect.y + rect.height) / height * rows);
-    return { left, top, right, bottom };
+  const count = tree?.count || 0;
+  const cuts = new WeakMap();
+  const fit = (node, w, h) => {
+    if (w * h < node.count) return false;
+    if (!node.axis) return w * h - node.count <= Math.max(w, h);
+    if (!cuts.has(node)) cuts.set(node, new Map());
+    const cache = cuts.get(node);
+    const key = `${w},${h}`;
+    if (cache.has(key)) return Boolean(cache.get(key));
+    const vertical = node.axis === 'x';
+    const span = vertical ? w : h, cross = vertical ? h : w;
+    const low = Math.ceil(node.first.count / cross);
+    const high = span - Math.ceil(node.second.count / cross);
+    const goal = span * node.first.count / node.count;
+    // Move the shared edge just far enough for both sides to fit.
+    let left = Math.min(Math.floor(goal), high), right = Math.max(Math.floor(goal) + 1, low);
+    while (left >= low || right <= high) {
+      const cut = left >= low && (right > high || goal - left <= right - goal) ? left-- : right++;
+      if (fit(node.first, vertical ? cut : w, vertical ? h : cut) &&
+        fit(node.second, vertical ? w - cut : w, vertical ? h : h - cut)) {
+        cache.set(key, cut);
+        return true;
+      }
+    }
+    cache.set(key, 0);
+    return false;
   };
-  const capacity = ({ left, top, right, bottom }) => (right - left) * (bottom - top);
   let columns = 0, rows = 0;
   let bestCost = Infinity;
   const idealRows = Math.sqrt(count * height / width);
-  // Share grid lines across rectangles. Find a grid with near-square tiles,
-  // few empty slots, and enough whole cells in every snapped rectangle.
-  if (count) for (let scale = 1; !rows; scale *= 2) {
-    for (let r = Math.max(1, Math.floor(idealRows * scale / 2)); r <= Math.ceil(idealRows * scale * 2); r += 1) {
-      for (let c = Math.max(1, Math.ceil(count / r)); c <= Math.ceil(count / r * scale * 1.4); c += 1) {
-        const cost = Math.log((width / c) / (height / r)) ** 2 + 4 * (c * r - count) / count;
-        if (cost >= bestCost || ideal.some(({ entries, rect }) => capacity(snap(rect, c, r)) < entries.length)) continue;
-        columns = c;
-        rows = r;
-        bestCost = cost;
-      }
+  const costOf = (c, r) => Math.log((width / c) / (height / r)) ** 2 + 4 * (c * r - count) / count;
+  // Search for near-square cells, keeping each rectangle to at most one spare row or column.
+  if (count) for (let r = Math.max(1, Math.floor(idealRows / 2)); r <= Math.ceil(idealRows * 2); r += 1) {
+    for (let c = Math.ceil(count / r); c <= Math.ceil(count / r * 1.4); c += 1) {
+      const cost = costOf(c, r);
+      if (cost >= bestCost || !fit(tree, c, r)) continue;
+      columns = c;
+      rows = r;
+      bestCost = cost;
     }
+  }
+  if (tree && !rows) {
+    // A row of strips always fits if the preferred arrangement is too tight.
+    const stripe = (node, axis) => node.axis
+      ? { ...node, axis, first: stripe(node.first, axis), second: stripe(node.second, axis) }
+      : node;
+    const span = (node, cross) => node.axis
+      ? span(node.first, cross) + span(node.second, cross)
+      : Math.ceil(node.count / cross);
+    tree = stripe(tree, width >= height ? 'x' : 'y');
+    const vertical = width >= height;
+    const idealCross = Math.sqrt(count * Math.min(width, height) / Math.max(width, height));
+    for (let cross = Math.max(1, Math.floor(idealCross / 2)); cross <= Math.ceil(idealCross * 2); cross += 1) {
+      const length = span(tree, cross);
+      const [c, r] = vertical ? [length, cross] : [cross, length];
+      const cost = costOf(c, r);
+      if (cost >= bestCost) continue;
+      columns = c;
+      rows = r;
+      bestCost = cost;
+    }
+    fit(tree, columns, rows);
   }
 
   const cellWidth = columns ? width / columns : 0;
@@ -128,25 +214,37 @@ function layoutFacultyTiles(groups, width, height, units) {
   const cells = new Array(columns * rows);
   const tiles = [];
   const positions = new Map();
-  const blocks = ideal.map(({ entries, label, rect }) => {
-    const block = snap(rect, columns, rows);
+  const blocks = [];
+  const bands = [];
+  function place(node, block) {
     const w = block.right - block.left;
     const h = block.bottom - block.top;
-    const path = facultyGridPath(w, h);
-    entries.forEach((entry, index) => {
+    if (node.band) bands.push(block);
+    if (node.axis) {
+      const cut = cuts.get(node).get(`${w},${h}`);
+      if (node.axis === 'x') {
+        place(node.first, { ...block, right: block.left + cut });
+        place(node.second, { ...block, left: block.left + cut });
+      } else {
+        place(node.first, { ...block, bottom: block.top + cut });
+        place(node.second, { ...block, top: block.top + cut });
+      }
+      return;
+    }
+    const path = facultyBlockPath(w, h, node.count);
+    node.entries.forEach((entry, index) => {
       if (entry.score === null) return; // Keep the slot gray and out of the tile navigation.
       const [x, y] = path[index];
-      // Reflect the walk so unused cells sit near the bottom-right of the block.
-      const col = w >= h ? block.left + x : block.right - 1 - x;
-      const row = w >= h ? block.bottom - 1 - y : block.top + y;
+      const col = block.left + x;
+      const row = block.top + y;
       const tile = { entry, x: col * cellWidth, y: row * cellHeight };
       cells[row * columns + col] = entry;
       tiles.push(tile);
       positions.set(entry, tile);
     });
-    return { ...block, label };
-  });
-  const bands = categories.map(rect => snap(rect, columns, rows));
+    blocks.push({ ...block, label: node.label });
+  }
+  if (tree) place(tree, { left: 0, top: 0, right: columns, bottom: rows });
   return { width, height, columns, rows, cellWidth, cellHeight, cells, tiles, positions, blocks, bands };
 }
 
