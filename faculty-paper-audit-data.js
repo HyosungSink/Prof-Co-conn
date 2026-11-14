@@ -5432,7 +5432,15 @@ const facultyPaperAudits = {
       "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dan-xu-danxu",
       "https://cse.hkust.edu.hk/admin/people/faculty/profile/danxu",
       "https://zhongyingji.github.io/CVT-xRF/",
-      "https://zhongyingji.github.io/"
+      "https://zhongyingji.github.io/",
+      "https://arxiv.org/pdf/2512.16561v1",
+      "https://w-ted.github.io/assets/cv_yuxin_wang_hkust.pdf",
+      "https://www.danxurgb.net/people.html",
+      "https://www.kelei.site/",
+      "https://arxiv.org/abs/2512.16561v1",
+      "https://n3d-vlm.github.io/",
+      "https://w-ted.github.io/",
+      "https://cyrilsterling.github.io/"
     ],
     "papers": [
       {
@@ -5464,6 +5472,13 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhong_CVT-xRF_Contrastive_In-Voxel_Transformer_for_3D_Consistent_Radiance_Fields_from_CVPR_2024_paper.pdf",
         "outcome": "confirmed",
         "note": "论文署名列港科大研究生、导师与华为高级研究员。华为高级研究员自己的公开研究与实习名录同时给出该论文和该实习学生；港科大正式教师档案具名 Yingji Zhong。"
+      },
+      {
+        "title": "N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models",
+        "url": "https://arxiv.org/pdf/2512.16561v1",
+        "outcome": "confirmed",
+        "note": "2025 年 12 月 18 日公开首版，Yuxin Wang 同时署名港科大与腾讯 AI Lab；其公开履历把本篇列为他于 2025 年 5 月开始在腾讯混元实习期间主导的项目，港科大研究组名录亦列出他是徐旦指导的博士生。企业合著者张博强以腾讯 AI Lab 署名，其公开任职履历明确为 2025 年 7 月起在腾讯任全职研究工程师。",
+        "year": 2025
       }
     ]
   },
@@ -18449,7 +18464,8 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2610.37140v1",
       "https://dblp.org/pid/17/5583.html",
       "https://orcid.org/0000-0003-4667-5794",
-      "https://aclanthology.org/people/tieyun-qian/"
+      "https://aclanthology.org/people/tieyun-qian/",
+      "https://doi.org/10.4230/dblp.xml.2026-11-01"
     ],
     "papers": [
       {
@@ -18843,6 +18859,62 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "10 月预印本列武大、北大及腾讯。第一作者本人具名博士导师为江佳伟，并记录更早的腾讯实习；未查到学生在腾讯参与本篇或钱铁云指导的直接依据。"
+      },
+      {
+        "title": "Every Picture Tells a Dangerous Story: Memory-Augmented Multi-Agent Jailbreak Attacks on VLMs",
+        "url": "https://arxiv.org/html/2604.12616v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2026 年 4 月预印本列武大、国科大、天津大学和中关村学院；元数据无企业作者。学校另列 WISE 接收，作者有所调整，正式版尚待用署名表复查。"
+      },
+      {
+        "title": "DocNavRAG: Document-Structured Graph RAG with Stateful Evidence Construction for Complex Document Question Answering",
+        "url": "https://arxiv.org/html/2608.01565v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "原文列武大、港科大、港中文、苏黎世联邦理工诸高校。作者张浩在本篇署港中文，而非此前发表 TGraph、TQEx 时的华为署名。"
+      },
+      {
+        "title": "NeuronTune: Fine-Grained Neuron Modulation for Balanced Safety-Utility Alignment in LLMs",
+        "url": "https://arxiv.org/html/2508.09473v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2025 年 8 月首稿列武汉大学与中关村学院，引用或使用企业开放模型不证明企业参与。校方列 WISE 2026 接收。"
+      },
+      {
+        "title": "FuSaR: A Fuzzification-Based Method for LRM Safety-Reasoning Balance",
+        "url": "https://arxiv.org/html/2508.12897v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "预印本作者署武汉大学、南开大学和中山大学，未出现范围内企业作者或学生实研证明。"
+      },
+      {
+        "title": "SynTSE: A Syntax-Aware Generative Method for Topic-Stance Extraction",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-5640-3_25",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2025 会期、2026 年 1 月正式出版。Springer 的作者单位全为武大，致谢未见范围企业参与。"
+      },
+      {
+        "title": "Scalable Time-Range k-Core Query on Temporal Graphs",
+        "url": "https://www.vldb.org/pvldb/vol16/p1168-zhong.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "PVLDB 论文及全稿是同一项，列武汉大学、华南师范大学、香港中文大学，没有范围企业作者。"
+      },
+      {
+        "title": "Querying Cohesive Subgraph Regarding Span-Constrained Triangles on Temporal Graphs",
+        "url": "https://jszy.whu.edu.cn/_resources/group1/M00/00/ED/wKgCBWbG78CABPc0AB2i6f4T6gM524.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IEEE 原文与会方列武汉大学、之江实验室、华南师大和港中文；之江实验室不在范围内。2026 年同主题扩展版未列钱铁云，不归到她名下。"
+      },
+      {
+        "title": "DCOAT: Dynamic Core-attachment based Protein Complex Detection",
+        "url": "https://doi.org/10.1109/BIBM62325.2024.10821746",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IEEE 提交的 Crossref 元数据列全体作者于武大计算机学院，未发现范围企业或同篇学生企业实研。"
       }
     ],
     "note": "已逐篇核实学校公开论文及已复核的 ORCID、出版方和会议书目条目；仍在对照全期书目。两篇卷期为 2023 的 IEEE 文章首次公开在 2022，未计入。"
@@ -39896,7 +39968,44 @@ const facultyPaperAudits = {
       "https://doi.org/10.1101/2025.06.25.661622",
       "https://github.com/wyhsleep/GenomicTouchstone",
       "https://cse.hkust.edu.hk/pg/seminars/S24/yao.html",
-      "https://wang-lab.hkust.edu.hk/publications/Publication.html"
+      "https://wang-lab.hkust.edu.hk/publications/Publication.html",
+      "https://doi.org/10.1016/j.media.2026.104214",
+      "https://www.sciencedirect.com/science/article/pii/S1361841526002835",
+      "https://researchportal.hkust.edu.hk/en/publications/prompt-guided-foundation-model-tuning-for-pathology-image-classif/",
+      "https://github.com/hust-linyi/PAMT",
+      "https://doi.org/10.1038/s41551-025-01488-4",
+      "https://www.nature.com/articles/s41551-025-01488-4",
+      "https://arxiv.org/abs/2407.18449",
+      "https://pubmed.ncbi.nlm.nih.gov/40897898/",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SnapGen_Taming_High-Resolution_Text-to-Image_Models_for_Mobile_Devices_with_Efficient_CVPR_2025_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_SnapGen_Taming_High-Resolution_Text-to-Image_Models_for_Mobile_Devices_with_Efficient_CVPR_2025_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Chen_SnapGen_Taming_High-Resolution_CVPR_2025_supplemental.pdf",
+      "https://huangowen.github.io/",
+      "https://arxiv.org/abs/2412.09619",
+      "https://doi.org/10.1016/j.media.2025.103500",
+      "https://arxiv.org/pdf/2404.04518",
+      "https://pubmed.ncbi.nlm.nih.gov/40009901/",
+      "https://doi.org/10.1016/j.media.2025.103615",
+      "https://arxiv.org/abs/2305.00678",
+      "https://arxiv.org/pdf/2505.04652",
+      "https://github.com/xiaofang007/CTO",
+      "https://doi.org/10.1109/TMI.2025.3530113",
+      "https://arxiv.org/pdf/2303.13111",
+      "https://doi.org/10.1109/TMI.2024.3355068",
+      "https://arxiv.org/pdf/2401.07437v1",
+      "https://github.com/hust-linyi/bonus",
+      "https://doi.org/10.1007/978-3-031-72120-5_51",
+      "https://papers.miccai.org/miccai-2024/654-Paper0616.html",
+      "https://arxiv.org/pdf/2403.09303",
+      "https://proceedings.mlr.press/v235/liu24bn.html",
+      "https://raw.githubusercontent.com/mlresearch/v235/main/assets/liu24bn/liu24bn.pdf",
+      "https://github.com/NVlabs/DoRA",
+      "https://doi.org/10.1016/j.media.2023.102794",
+      "https://pubmed.ncbi.nlm.nih.gov/36934507/",
+      "https://arxiv.org/pdf/2210.04227",
+      "https://github.com/caiyu6666/DDAD-ASR",
+      "https://proceedings.mlr.press/v202/liu23w.html",
+      "https://proceedings.mlr.press/v202/liu23w/liu23w.pdf"
     ],
     "papers": [
       {
@@ -39996,8 +40105,85 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "bioRxiv 首页标姚建华署腾讯 AI for Life Sciences，Yu Cai 署港科大，与指导教师鄭光廷和陈浩同篇。Yu Cai 履历确认 2024-07 至 11 在腾讯同部门实习，明确只说负责基因突变识别原发灶不明癌；本篇是 2025-06 公布的基因组语言模型基准，尚不能用题材或同组人员证明本人是在腾讯开展这篇基准。保留线索。",
         "year": 2025
+      },
+      {
+        "title": "Prompt-guided foundation model tuning for pathology image classification",
+        "url": "https://doi.org/10.1016/j.media.2026.104214",
+        "outcome": "no-evidence",
+        "note": "Elsevier、港科大与作者代码明确是同篇 PAMT。作者 Yi Lin、Zhengjie Zhu、鄭光廷与陈浩均列校方单位，未见范围内企业署名。校方的 Yi Lin 旧腾讯任职资料不能证明这篇。",
+        "year": 2026
+      },
+      {
+        "title": "A generalizable pathology foundation model using a unified knowledge distillation pretraining framework",
+        "url": "https://doi.org/10.1038/s41551-025-01488-4",
+        "outcome": "no-evidence",
+        "note": "2025-09-02 首次正式在线、2026 年卷期，与 2024-07 arXiv 初稿并为一项。Nature 正式作者表和单位列两所港科大、医院、大学及上海人工智能实验室；没有研究范围企业作者。Yu Cai 的腾讯项目与本篇病理图像蒸馏不同。",
+        "year": 2026
+      },
+      {
+        "title": "SnapGen: Taming High-Resolution Text-to-Image Models for Mobile Devices with Efficient Architectures and Training",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SnapGen_Taming_High-Resolution_Text-to-Image_Models_for_Mobile_Devices_with_Efficient_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式稿及作者贡献附件表明合作方是 Snap，而非范围内公司。Xijie Huang 的公开履历确认在读时的 Snap 实习和具体论文；该情况不计关系。",
+        "year": 2025
+      },
+      {
+        "title": "MedIAnomaly: A comparative study of anomaly detection in medical images",
+        "url": "https://doi.org/10.1016/j.media.2025.103500",
+        "outcome": "no-evidence",
+        "note": "2024-04 预印本、2025 正式开放数据基准同作。出版稿作者全部属港科大，具名第一作者 Yu Cai 的 2024 年腾讯项目是研究原发灶不明癌，非这项医学图像异常基准。",
+        "year": 2025
+      },
+      {
+        "title": "Rethinking Boundary Detection in Deep Learning-Based Medical Image Segmentation",
+        "url": "https://doi.org/10.1016/j.media.2025.103615",
+        "outcome": "no-evidence",
+        "note": "2023、2025 两个预印本均是 CTO 架构、相同作者与主成果，和 2025 MedIA 正式论文合并。出版稿所有作者属港科大，深圳研究院为校方机构；未见目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "Boosting Convolution With Efficient MLP-Permutation for Volumetric Medical Image Segmentation",
+        "url": "https://doi.org/10.1109/TMI.2025.3530113",
+        "outcome": "no-evidence",
+        "note": "2023-03 预印本与 2025 IEEE TMI 正式论文为同一 PHNet；港科大署名及政府经费列于全文首页，未发现范围内公司、企业实习或具名公司研究贡献。",
+        "year": 2025
+      },
+      {
+        "title": "BoNuS: Boundary Mining for Nuclei Segmentation With Partial Point Labels",
+        "url": "https://doi.org/10.1109/TMI.2024.3355068",
+        "outcome": "no-evidence",
+        "note": "2024-01 首版与正式出版均署港科大机构；同 2023 SC-Net 不同，本篇为局部点标注和边界挖掘，新增 Zeyu Wang 和 Dong Zhang，腾讯作者不在这篇。",
+        "year": 2024
+      },
+      {
+        "title": "Rethinking Autoencoders for Medical Anomaly Detection from A Theoretical Perspective",
+        "url": "https://doi.org/10.1007/978-3-031-72120-5_51",
+        "outcome": "no-evidence",
+        "note": "正式 MICCAI 和预印本三位作者都署港科大，致谢香港研究资助。2024-03 首次公开早于学生 2024-07 腾讯实习，研究主题也与基因突变项目无关。",
+        "year": 2024
+      },
+      {
+        "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+        "url": "https://proceedings.mlr.press/v235/liu24bn.html",
+        "outcome": "no-evidence",
+        "note": "正式论文首页列港科大、NVIDIA；学生 Shih-Yang Liu 同期参与 NVIDIA 项目，NVIDIA 不在范围内。NVLabs 代码作为同篇归属的补证。",
+        "year": 2024
+      },
+      {
+        "title": "Dual-distribution discrepancy with self-supervised refinement for anomaly detection in medical images",
+        "url": "https://doi.org/10.1016/j.media.2023.102794",
+        "outcome": "no-evidence",
+        "note": "2022 MICCAI 短稿和 2022-10 扩展预印本对应同一 DDAD 主方法，登记 2023 正式扩展版；四处作者署名均为港科大或华中科大，未见范围企业。",
+        "year": 2023
+      },
+      {
+        "title": "Oscillation-free Quantization for Low-bit Vision Transformers",
+        "url": "https://proceedings.mlr.press/v202/liu23w.html",
+        "outcome": "no-evidence",
+        "note": "ICML 原文写学生与导师署港科大，Zechun Liu 署 Meta Reality Labs；致谢港府 InnoHK/研究资助局。Meta 不在范围。",
+        "year": 2023
       }
     ],
-    "note": "对照香港科技大学研究门户、VSDL 实验室书目、DBLP 和实名 ORCID 0000-0002-3885-4912。已核对 14 个独立研究（合并同芯片会议/扩展版）；继续补 2023–2026 其余正式论文。现有两篇腾讯天衍和一篇腾讯生命科学合作的在读与企业工作同期性未确证。"
+    "note": "对照香港科技大学研究门户、VSDL 实验室书目、实名 ORCID 0000-0002-3885-4912 及 DBLP 书目，逐篇核对 25 项；使用正式版本日期，合并同篇初稿。两篇腾讯天衍和一篇腾讯生命科学合作仅列线索，仍需学生参与具体企业项目的证据。继续核对其他年份，未标完成。"
   }
 };

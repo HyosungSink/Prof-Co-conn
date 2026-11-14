@@ -41116,6 +41116,59 @@ const survey = {
           "https://aipt.ucas.ac.cn/index.php/zh-cn/tzgg/19-szdw"
         ]
       ]
+    },
+    {
+      "id": "tencent-n3d-vlm-hkust-dan-xu",
+      "company": "腾讯",
+      "team": "腾讯混元团队（论文署腾讯 AI Lab）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "徐旦 · Dan XU",
+        "香港科技大学副教授；论文明确标为通讯作者，学生公开履历确认是第一作者博士导师。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/danxu"
+      ],
+      "student": [
+        "Yuxin Wang",
+        "香港科技大学在读博士，2022 年 2 月起由徐旦指导；自 2025 年 5 月在腾讯混元实习，履历具名列 N3D-VLM 为其在腾讯主导的项目，同篇双署香港科技大学和腾讯 AI Lab。",
+        "https://w-ted.github.io/assets/cv_yuxin_wang_hkust.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开履历列出徐旦为博士导师，徐旦实验室成员名录列有该博士生；两者同篇署名。",
+        "https://www.danxurgb.net/people.html"
+      ],
+      "employee": [
+        "张博强 · Boqiang Zhang",
+        "2025 年 7 月起任腾讯 AI Lab 高级研究工程师；2025 年 12 月公开的本篇以腾讯 AI Lab 署名。",
+        "https://cyrilsterling.github.io/"
+      ],
+      "title": "N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models",
+      "short": "N3D-VLM",
+      "date": "2025-12-18",
+      "venue": "arXiv 预印本",
+      "area": "计算机视觉与多模态",
+      "paper": "https://arxiv.org/pdf/2512.16561v1",
+      "extra": [
+        [
+          "含具名实习脚注及通讯作者的原始预印本",
+          "https://arxiv.org/html/2512.16561v1"
+        ],
+        [
+          "作者项目页的双重署名与企业合著者",
+          "https://n3d-vlm.github.io/"
+        ],
+        [
+          "学生主页的腾讯导师信息",
+          "https://w-ted.github.io/"
+        ],
+        [
+          "另一名同篇企业合著者 Lei Ke 的腾讯履历",
+          "https://www.kelei.site/"
+        ]
+      ],
+      "evidence": "2025 年 12 月 18 日首版明确在第一作者 Yuxin Wang 名下标注本研究在腾讯 AI Lab 实习期间完成，并列本人港科大与腾讯双署。履历将该项目列为其在腾讯混元实习期间主导的项目，另有港科大课题组名录证实在读和校内导师。企业合著者张博强同篇署腾讯 AI Lab，本人履历列 2025 年 7 月起为腾讯全职研究工程师。",
+      "paperId": "arxiv:2512.16561"
     }
   ]
 };
