@@ -38415,6 +38415,161 @@ const survey = {
         ]
       ],
       "evidence": "2026 年 11 月 11 日的 v4 页尾「作者贡献」明确列刘李与张鹏飞共同构思、刘李监督整体研究；「利益冲突」明确列张鹏飞在阿里巴巴 Token Hub 实习期间完成此篇，并明确两位共同作者 Biao Tian、Xiangang Li 为阿里巴巴员工。张鹏飞的本人主页及人工智能学域发布的同期 ICML 通报均确认其港科大（广州）在读博士身份。只记录同篇的具名指导，不外推正式博士导师任命。"
+    },
+    {
+      "id": "kuaishou-hkg-video-ucas-meng",
+      "paperId": "doi:10.1145/3591106.3592258",
+      "company": "快手",
+      "team": "快手多模态理解（MMU）",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "孟高峰 · Gaofeng Meng",
+        "中科院自动化所研究员，2019 年起为国科大岗位教师；国科大导师页明确列他指导 2022 年入学的邓嘉鑫，论文共同作者。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "employee": [
+        "杨帆 · Fan Yang",
+        "同篇正式版署快手多模态理解团队，具有 ORCID 和同一企业邮箱；原文只有学生邓嘉鑫被标为实习生。公司 2025 技术报告列杨帆为核心成员，另有作者简介核实正式职务。",
+        "https://arxiv.org/html/2507.01949v1"
+      ],
+      "student": [
+        "邓嘉鑫 · Jiaxin Deng",
+        "2022 年 9 月入学国科大，2022 年 3–10 月在快手 MMU 实习，重叠时段为 2022 年 9–10 月；本人在这一实习段明确列出本篇成果，原文同样以星号标注。",
+        "https://jiaxindeng.xyz/data/DengJiaXin_UESTC_CH.pdf"
+      ],
+      "title": "A Unified Model for Video Understanding and Knowledge Embedding with Heterogeneous Knowledge Graph Dataset",
+      "short": "异构知识图谱与视频理解",
+      "date": "2023-06-12",
+      "venue": "ACM ICMR 2023",
+      "area": "短视频理解、知识图谱与多模态检索",
+      "paper": "https://doi.org/10.1145/3591106.3592258",
+      "extra": [
+        [
+          "ACM 出版登记：2023-06-12 正式出版及作者名单",
+          "https://api.crossref.org/works/10.1145/3591106.3592258"
+        ],
+        [
+          "2023 年原文完整作者单位与具名实习脚注",
+          "https://arxiv.org/pdf/2211.10624v2"
+        ],
+        [
+          "2022 年首个公开预印本及同期工作邮箱",
+          "https://arxiv.org/pdf/2211.10624v1"
+        ],
+        [
+          "杨帆在后续论文作者履历中的正式职务",
+          "https://arxiv.org/pdf/2611.01934"
+        ]
+      ],
+      "evidence": "正式论文发表于 2023 年 6 月，原始预印本 2022 年 11 月公开，合计一次。该论文的第一作者邓嘉鑫署中科院自动化所、国科大，论文脚注单独注明其在快手多模态理解组实习；导师孟高峰和同期具有快手单位及同一企业邮箱的杨帆均为同篇作者。学校导师页及邓嘉鑫个人页交叉确认研究期间的学籍和直接指导。 学生公开履历把本篇列在 2022 年 3–10 月快手实习段，其中 9–10 月与国科大在读重叠。",
+      "advising": [
+        "研究期间的具名导师",
+        "孟高峰在国科大主页登记邓嘉鑫为 2022 年起指导或共同指导的硕士，学生本人明确列其为实际导师。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ]
+    },
+    {
+      "id": "kuaishou-live-highlights-ucas-meng",
+      "paperId": "doi:10.1109/ICME57554.2024.10687664",
+      "company": "快手",
+      "team": "快手多模态理解（MMU）",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "孟高峰 · Gaofeng Meng",
+        "中科院自动化所研究员、国科大岗位教师，同篇作者且在国科大导师页具名列邓嘉鑫为其 2022 年入学的硕士生。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "employee": [
+        "杨帆 · Fan Yang",
+        "本篇正式论文列其快手单位，2022–2025 年公开论文持续使用同一企业邮箱，2025 年快手 Keye-VL 技术报告列其为核心人员。",
+        "https://arxiv.org/html/2507.01949v1"
+      ],
+      "student": [
+        "邓嘉鑫 · Jiaxin Deng",
+        "2022 年入学国科大；简历把 2023 年 1–6 月在快手 MMU 实习做出的工作与本篇 ICME 论文按完整题名对应。",
+        "https://jiaxindeng.xyz/data/DengJiaXin_UESTC_CH.pdf"
+      ],
+      "title": "A Multimodal Transformer for Live Streaming Highlight Prediction",
+      "short": "多模态直播精彩时刻预测",
+      "date": "2024-07-15",
+      "venue": "IEEE ICME 2024",
+      "area": "直播内容理解、多模态建模",
+      "paper": "https://doi.org/10.1109/ICME57554.2024.10687664",
+      "extra": [
+        [
+          "IEEE 作者单位登记",
+          "https://api.crossref.org/works/10.1109/ICME57554.2024.10687664"
+        ],
+        [
+          "邓嘉鑫本人列出导师与发表作品",
+          "https://jiaxindeng.xyz/"
+        ],
+        [
+          "杨帆同期快手单位及邮箱",
+          "https://arxiv.org/pdf/2211.10624v2"
+        ],
+        [
+          "作者公开全文：致谢核实快手实习计划",
+          "https://arxiv.org/html/2407.12002v1#acknowledgment"
+        ]
+      ],
+      "evidence": "邓嘉鑫的公开简历在快手 MMU 的 2023 年 1–6 月实习段具体描述这项研究，逐字列明本篇 ICME 正式题名。国科大导师名录列孟高峰指导邓嘉鑫；IEEE 正式出版方记录三人同篇，杨帆署快手。",
+      "advising": [
+        "研究期间的具名导师",
+        "国科大导师名录与邓嘉鑫本人材料均明确其研究期间在国科大由孟高峰指导。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ]
+    },
+    {
+      "id": "kuaishou-mmbee-ucas-meng",
+      "paperId": "doi:10.1145/3637528.3671511",
+      "company": "快手",
+      "team": "直播推荐部实时内容推荐组",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "孟高峰 · Gaofeng Meng",
+        "中科院自动化所研究员、国科大岗位教师，同篇作者且在国科大导师页具名列邓嘉鑫为其 2022 年入学的硕士生。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ],
+      "employee": [
+        "Guorui Zhou",
+        "本篇通讯作者署快手，个人 ORCID 任职登记为北京快手科技；研究同年另篇团队工作的公开论文列其快手署名。",
+        "https://pub.orcid.org/v3.0/0009-0002-8550-279X/employment/28690742"
+      ],
+      "student": [
+        "邓嘉鑫 · Jiaxin Deng",
+        "国科大在读期间于 2023 年 8–9 月在快手直播推荐部实时内容推荐组做打赏预估项目；本人简历用完整题名把该项实习研究和本篇论文相连。",
+        "https://jiaxindeng.xyz/data/DengJiaXin_UESTC_CH.pdf"
+      ],
+      "title": "MMBee: Live Streaming Gift-Sending Recommendations via Multi-Modal Fusion and Behaviour Expansion",
+      "short": "MMBee",
+      "date": "2024-08-24",
+      "venue": "ACM SIGKDD 2024",
+      "area": "直播推荐、多模态融合",
+      "paper": "https://doi.org/10.1145/3637528.3671511",
+      "extra": [
+        [
+          "KDD 2024 官方会议表全作者所属机构",
+          "https://kdd.org/kdd2024/applied-data-science-track-papers/"
+        ],
+        [
+          "2023 年同作者组作品中的快手署名",
+          "https://arxiv.org/html/2306.14392v1"
+        ],
+        [
+          "KDD 论文作者提交的全文",
+          "https://arxiv.org/html/2407.00056v1"
+        ]
+      ],
+      "evidence": "邓嘉鑫的公开简历在快手直播推荐团队的 2023 年 8–9 月实习段详细列出图行为扩展和多模态打赏预估，并按完整题名对应本篇工作。国科大登记孟高峰为邓嘉鑫实际导师。ACM 论文和 KDD 官方会议表列邓嘉鑫、孟高峰与快手正式员工 Guorui Zhou 同篇署名。",
+      "advising": [
+        "研究期间的具名导师",
+        "国科大导师名录与邓嘉鑫本人材料均明确其研究期间在国科大由孟高峰指导。",
+        "https://people.ucas.ac.cn/~gfmeng"
+      ]
     }
   ]
 };
