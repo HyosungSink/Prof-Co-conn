@@ -20690,7 +20690,9 @@ const facultyPaperAudits = {
       "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9067f9e64c6868279e9af14c796aef25-Abstract-Conference.html",
       "https://arxiv.org/pdf/2511.19437v1#page=1",
       "https://jingzhi03.com/",
-      "https://github.com/LumiTexPBR/LumiTex"
+      "https://github.com/LumiTexPBR/LumiTex",
+      "https://eccv.ecva.net/virtual/2026/poster/3899",
+      "https://neurips.cc/virtual/2026/loc/sydney/poster/149554"
     ],
     "papers": [
       {
@@ -20784,6 +20786,130 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2611.08216",
         "outcome": "no-evidence",
         "note": "2026-11-05 预印，学生主页记录 NeurIPS 录用时点。原件作者单位为港科大、西工大、中国电信 TeleAI 与清华，后一份 CV 亦把论文列于不同项目，未建立目标企业相关研究。",
+        "year": 2026
+      },
+      {
+        "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+        "url": "https://proceedings.mlr.press/v306/sun26az.html",
+        "outcome": "confirmed",
+        "note": "张军教授的港科大主页明确把 WorldPlay 与 HY-World 1.5 一并列作腾讯合作，实名确认博士生孙文强是关键贡献者；同一校方课题组名录记录孙文强博士论文于 2026 年 5 月完成。腾讯混元世界模型负责人 Tengfei Wang 的本人学术履历在本篇书目将 Sun 标记为本人实习生；他在论文同为企业通讯作者。原始稿与 ICML 正式版本保留同一学生共同一作、学术导师、企业负责人。2025-12-16 17:22 UTC 提交 arXiv，腾讯混元官方仓库确认北京时间 12 月 17 日公开同一模型、论文与技术报告；技术报告与主论文一起计一次。",
+        "year": 2025,
+        "paperId": "10.48550/arXiv.2512.14614",
+        "relationIds": [
+          "tencent-worldplay-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
+        "url": "https://arxiv.org/abs/2609.35560v1",
+        "outcome": "lead",
+        "note": "2026-09-28 预印本，提出混合控制、压缩记忆和稳定蒸馏，独立于 WorldPlay 1。原稿首页未标作者单位或实习；孙文强于 2026 年 5 月完成博士，组页记毕业后到腾讯。目前缺本论文研究时段仍在读及其同篇企业参与出处，不把一代资料沿用到续作。同期北航 Haiyu Zhang 如果能核具名导师 Yunhong Wang、在读及本项企业研究，可以重开。",
+        "year": 2026
+      },
+      {
+        "title": "Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse-View Videos",
+        "url": "https://arxiv.org/abs/2509.24209v1",
+        "outcome": "confirmed",
+        "note": "2025-09-29 首稿在 Yingdong Hu 2025 年 5 月至 2026 年 4 月的阿里通义实验室实习期间。企业共同一作兼通讯作者何益升在本人书目中逐篇用 ^ 标记了 Yingdong Hu 是该研究企业实习生；该学生自述何益升是本次任职的合作者，并在项目页与官方实现中记录该方法。两位作者分别明确标出受指导、参与本项目的在读学生；港科大组页确认 2023 秋起在读，学生署名的学术导师张军也出现在首稿与会议版本。ECCV 版本加入企业作者，仍为同篇。",
+        "year": 2025,
+        "paperId": "10.48550/arXiv.2509.24209",
+        "relationIds": [
+          "alibaba-forge4d-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "FA-LAM: Focus-Aware Large Avatar Model for One-Shot 4D Animatable Gaussian Head",
+        "url": "https://arxiv.org/abs/2607.20922v1",
+        "outcome": "confirmed",
+        "note": "2026-07-23 首次公开晚于港科大博士生 Yingdong Hu结束通义实习，但企业共同一作兼通讯作者何益升在本篇学术书目直接用 ^ 标记该博士生是实习学生；学生本人公开履历实名列何益升为 2025 年 5 月至 2026 年 4 月通义实验室同期研究协作者，方向与本篇一致。记录研究期的企业参与，不推定公开日仍在职。首稿列学生和任导师张军为港科大，何益升及 Steven Hoi 为阿里通义。NeurIPS 2026 官方目录有该名称。与 Forge4D 的稀疏视图人体重建分别处理；与以单目全头静态建模为主的 PanoLAM 是不同论文，FA-LAM 首稿也引用 PanoLAM。",
+        "year": 2026,
+        "paperId": "10.48550/arXiv.2607.20922",
+        "relationIds": [
+          "alibaba-fa-lam-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "Enhancing Autoregressive Video Generation via Representation Adversarial Distillation",
+        "url": "https://arxiv.org/html/2609.40037v1",
+        "outcome": "no-evidence",
+        "note": "2026-09-30 首稿港科大和 Vivix，学生多人与 Vivix 双署，使用阿里 Wan2.1 不等于由阿里参与；Vivix 不在 14 家范围。",
+        "year": 2026
+      },
+      {
+        "title": "Omni-LiveAvatar: Minute-Level Real-Time Streaming Joint Audio-Visual Avatar Generation",
+        "url": "https://arxiv.org/html/2608.13602v1",
+        "outcome": "no-evidence",
+        "note": "2026-08-07 首稿列为港科大与 Vivix Group Limited，企业不在 14 家范围。与阿里另篇 LiveAvatar 和字节 OmniHuman 名近而非同项目。",
+        "year": 2026
+      },
+      {
+        "title": "Mon3tr: Monocular 3D Telepresence with Pre-built Gaussian Avatars as Amortization",
+        "url": "https://arxiv.org/html/2601.07518v1",
+        "outcome": "no-evidence",
+        "note": "2026-01-12 首稿通讯栏明确全员港科大。虽部分学生同期另在企业实习及有独立论文，本篇只找到校内合作与公开代码。",
+        "year": 2026
+      },
+      {
+        "title": "Real-Time Human Frontal View Synthesis from a Single Image",
+        "url": "https://arxiv.org/abs/2603.15433v1",
+        "outcome": "no-evidence",
+        "note": "2026-03-16 PrismMirror 全文首面只显示港科大，作者实名学籍不等于将其各自在企业的实习迁入该论文。",
+        "year": 2026
+      },
+      {
+        "title": "Dynamics-Aware Gaussian Splatting Streaming Toward Fast On-the-Fly 4D Reconstruction",
+        "url": "https://doi.org/10.1109/TVCG.2026.3688730",
+        "outcome": "no-evidence",
+        "note": "正式 TVCG 2026；2024-11 预印首面只署港科大与中国电信 TeleAI，后者不在 14 家，且时间早于学生 Yingdong Hu、Yushi Huang 另赴目标公司。正式版内容同源。",
+        "year": 2026
+      },
+      {
+        "title": "Feed-Forward 3D Gaussian Splatting Compression with Long-Context Modeling",
+        "url": "https://arxiv.org/abs/2512.00877v1",
+        "outcome": "no-evidence",
+        "note": "2025-12 首版署港科大和中国电信 TeleAI，不属于 14 家；没有阿里或字节研究的同篇署名或分工。",
+        "year": 2025
+      },
+      {
+        "title": "EVA-Gaussian: 3D Gaussian-based Real-time Human Novel View Synthesis under Diverse Multi-view Camera Settings",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025W/E2E3D/html/Hu_EVA-Gaussian_3D_Gaussian-based_Real-time_Human_Novel_View_Synthesis_under_Diverse_ICCVW_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "2024 年公开预印与 ICCVW 2025 正式同一项，首页只有港科大和中国电信 TeleAI，非目标企业。早期研究早于学员 2025 年阿里实习。",
+        "year": 2025
+      },
+      {
+        "title": "PixelCraft: A Multi-Agent System for High-Fidelity Visual Reasoning on Structured Images",
+        "url": "https://arxiv.org/abs/2509.25185v1",
+        "outcome": "no-evidence",
+        "note": "2025-09-29 初稿、ICLR 2026；首页的在企实习脚注明确是微软，正式发布仓库归微软。目标企业阿里并未出现在本项，李子健同期更换单位不能更改技术归属。",
+        "year": 2026
+      },
+      {
+        "title": "Chain of Functions: A Programmatic Pipeline for Fine-Grained Chart Reasoning Data",
+        "url": "https://arxiv.org/abs/2503.16260v1",
+        "outcome": "no-evidence",
+        "note": "2025-03-20 预印、AACL 正式。首面明示李子健在微软亚洲研究院完成本项，微软非目标企业。不可转给其稍后在阿里的实习。",
+        "year": 2025
+      },
+      {
+        "title": "Experience-Evolving Multi-Turn Tool-Use Agent with Hybrid Episodic–Procedural Memory",
+        "url": "https://proceedings.mlr.press/v306/li26bn.html",
+        "outcome": "no-evidence",
+        "note": "2025-12 的 SIT-GRAPH 到 ICML 2026 正式题名。正式版收录相同 arXiv，脚注为 Sijia Li 的微软亚洲实习；另一作者李子健此时虽有阿里或腾讯工作，未见本项企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks",
+        "url": "https://arxiv.org/abs/2505.01074v1",
+        "outcome": "no-evidence",
+        "note": "2025-05 预印、China Communications 2026 正式；首面作者归属全为港科大，赞助为港校研究资助，文中引用其他的电信大模型不是企业合作。",
+        "year": 2026
+      },
+      {
+        "title": "WirelessAgent++: Automated Agentic Workflow Design and Benchmarking for Wireless Networks",
+        "url": "https://arxiv.org/abs/2603.00501v1",
+        "outcome": "no-evidence",
+        "note": "2026-03-01 预印；任务由校方的工作流扩展到自动工作流生成和评测，独立于 WirelessAgent。首页只有深圳大学和港科大，技术文件未显示李子健同期腾讯实习用于本篇。",
         "year": 2026
       }
     ],
@@ -62552,5 +62678,191 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核完截至 2026-11-12 可公开查到且明确归属的 30 篇。以中科大院系、实验室和导师档案为底，对照两种公开署名的 DBLP、三个 OpenAlex 簇、团队 ORCID 与出版者题录/正文。旧署名 Jingyuan Cheng 由学校档案及独立的专业履历互证。排除同名地球物理、白城脑电、广州声学、北师大教育、天津仁爱英语教学及西工大软件论文。没有论文提供足够证实名单内三方关系的公开证据。"
+  },
+  "vArk4VIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.edu.cn/~qiang",
+      "https://people.ucas.ac.cn/~0052704?language=en",
+      "https://orcid.org/0000-0001-5814-8460",
+      "https://dblp.uni-trier.de/pid/92/5150-1.html",
+      "https://aclanthology.org/people/qiang-qu/",
+      "https://arxiv.org/abs/2408.08089",
+      "https://arxiv.org/html/2602.03219v1",
+      "https://wangqiyao.me/",
+      "https://rainbowluocs.github.io/",
+      "https://zchoi.github.io/",
+      "https://arxiv.org/pdf/2501.04236v1",
+      "https://www.researchsquare.com/article/rs-2959078/v1",
+      "https://doi.org/10.21203/rs.3.rs-3009681/v1",
+      "https://rainbowluocs.github.io/assets/cv_luorun.pdf",
+      "https://yongbin-li.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Optimal Hub Placement and Deadlock-Free Routing for Payment Channel Network Scalability",
+        "url": "https://doi.org/10.36227/techrxiv.23285453",
+        "note": "2023-06-07 TechRxiv 首稿，对应 ICDCS 正式版。使用链下支付网络的中枢放置与死锁消除；题录有曲强的深研院/华为实验室背景，未查到这项研究中本校导师指导在读作者赴目标公司实研。2025 扩展稿明确说是 2023 ICDCS 部分成果的期刊扩展，归并为同一工作。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Why blockchain needs graph: A survey on studies, scenarios, and solutions",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0743731523001004",
+        "note": "原文署名含曲强的深研院/华为云双署和白永杰的华为云署名，致谢列华为云研究基金；其余为东北大学团队。本篇为链上图系统综述，未见目标学校具名师生及学生在华为研究的证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Evolutionary approach to construct robust codes for DNA-based data storage",
+        "url": "https://doi.org/10.3389/fgene.2023.1158337",
+        "note": "Frontiers 2023-03-20 正式全文为 DNA 存储编码鲁棒性研究，作者为深研院、国科大和合作学术单位，未见目标公司实研角色。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Hydropower station scheduling with ship arrival prediction and energy storage",
+        "url": "https://www.nature.com/articles/s41598-023-45995-3",
+        "note": "Research Square 2023-06-09 版本 10.21203/rs.3.rs-3009681/v1 明示对应 2023-11-03 Scientific Reports 正式版。结合船舶到达预测与能源存储的水电站调度；机构为航运管理部门、河北大学、深研院等，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Optimizing hydropower scheduling through accurate power load prediction: A practical case study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10987994/",
+        "note": "2024 Heliyon 原文对应 Research Square 2023 首稿 rs-2959078，首稿明确主题为电负荷预测。机构为河北大学、航运管理部门、深圳先进院等，无目标企业。与船舶到达预测和能源存储工作区分。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Introducing on-chain graph data to consortium blockchain for commercial transactions",
+        "url": "https://academic.hep.com.cn/fcs/CN/10.1007/s11704-023-3523-9",
+        "note": "2024-01-24 公开正式稿，曲强深研院/华为云双署，白永杰为华为区块链实验室；其余作者属东北大学。研究将图结构引入联盟链，未找到曲强具名指导本校学生在华为完成本篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "An Effective DNA-Based File Storage System for Practical Archiving and Retrieval of Medical MRI Data",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/smtd.202301585",
+        "note": "2024-05-29 Advanced Materials Technologies 先行版。署名包含国科大/深研院与河北大学等，研究 DNA 介质归档与检索医疗 MRI 数据，未见目标企业署名或实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "SNCA: Semi-Supervised Node Classification for Evolving Large Attributed Graphs",
+        "url": "https://doi.org/10.26599/BDMA.2024.9020033",
+        "note": "IEEE BDMA 题录和机构信息用于核对属性随时间演变的图节点半监督分类，作者单位含深研院、卢森堡和英国高校，未见目标企业；未完整取得致谢。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "CIC-SIoT: Clean-Slate Information-Centric Software-Defined Content Discovery and Distribution for Internet of Things",
+        "url": "https://karimmd.github.io/publications/karim2024cicsiot.pdf",
+        "note": "期刊正式稿列北理工、深研院、伦敦大学城及英国高校；研究软件定义网络中的物联网内容发现和分发，未见目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "AgentCourt: Simulating Court with Adversarial Evolvable Lawyer Agents",
+        "url": "https://aclanthology.org/2025.findings-acl.304.pdf",
+        "note": "2024-08-15 arXiv:2408.08089 首稿与 ACL 正式版合并。论文有南科大、深研院、深研院与得理的联合实验室、深北莫等；得理法律 AI 不在目标企业范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "REXIO: Indexing for Low Write Amplification by Reducing Extra I/Os in Key-Value Store Under Mixed Read/Write Workloads",
+        "url": "https://doi.org/10.1007/978-981-96-0579-8_18",
+        "note": "Springer 2024-11-29 首发，卷期另标 2025。公示作者含深研院及国科大；数据库索引降低混合工作负载写放大，未见目标企业；公开题录和摘要未能核及致谢。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Adaptive Backdoor Attacks With Reasonable Constraints on Graph Neural Networks",
+        "url": "https://kar.kent.ac.uk/109705/1/IEEETDSC2025a.pdf",
+        "note": "IEEE TDSC 正式作者稿由肯特大学存档，机构包括西电、肯特、深研院和 Innopolis；图神经网络后门攻击由公开研究基金支持，未见目标企业实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "PriFFT: Privacy-Preserving Federated Fine-Tuning of Large Language Models via Hybrid Secret Sharing",
+        "url": "https://arxiv.org/pdf/2503.03146v1",
+        "note": "2025-03-05 首稿与 IEEE TDSC 10.1109/TDSC.2026.3661572 同一工作，西电及深研院作者研究通过混合秘密共享微调模型。未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction",
+        "url": "https://aclanthology.org/2025.acl-long.1276.pdf",
+        "note": "2025-05 arXiv:2505.20277 首稿。正式稿阿里实习脚注只标同济的 Haonan Zhang；国科大作者罗润同署通义，本人公开简历具名硕士导师杨敏而非曲强，2024-04 至 11 在通义从事多模态预训练。按杨敏另验是否可将罗润在公司为同一作品实研与后发论文对应。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "AI Agents Meet Blockchain: A Survey on Secure and Scalable Collaboration for Multi-Agents",
+        "url": "https://www.mdpi.com/1999-5903/17/2/57",
+        "note": "2025-02-02 Future Internet 正式发表，作者机构含中科院深研院和海外高校；对区块链与多智能体协作作综述，未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Quantity: Trajectory Diversity Scaling for Code Agents",
+        "url": "https://aclanthology.org/2026.findings-acl.768.pdf",
+        "note": "2026-02-03 arXiv:2602.03219 首稿。国科大王琪尧公开具名博士导师是杨敏，同篇写他署深研院及阿里通义，他的个人页同时列同篇为 SIAT-NLP/Qoder 与 2025-10 至 2026-03 阿里实习。曲强是合著者，未见指导王琪尧，因此曲强这一行留线索，按杨敏归属另审。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2026,
+        "title": "Just-in-Time Historical State Reconstruction for Low-Latency Financial Trading with Large Language Models",
+        "url": "https://doi.org/10.3390/ai7040117",
+        "note": "2026-03-27 发表，董姓作者 Dong Hoang Van 署深研院及国科大国际学院，曲强为通讯，Karim 署深研院。金融历史状态重建中未见目标公司共同实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "From trust to augmentation: A comprehensive survey on synergistic integration of decentralized and generative intelligence",
+        "url": "https://karimmd.github.io/paper-pages/karim2026trust/",
+        "note": "首作者论文页和 Computer Science Review 10.1016/j.cosrev.2026.100936 核实深研院、国科大、Northumbria、北理工及伦敦大学城等；去中心化和生成式 AI 四层框架综述，未见目标企业共同作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "MTC-SBC: Reputation-based service provision for multi-tier computing-enabled sharded blockchain",
+        "url": "https://openaccess.city.ac.uk/id/eprint/37513/",
+        "note": "伦敦大学城公开作者稿核对 10.1016/j.future.2026.108499，研究云、雾、边缘分片区块链基于信誉的服务机制，未见目标企业人员和学生实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34782",
+        "note": "2024-06-26 arXiv:2406.18294 首稿，AAAI 2025 版新增曲强署名。原文单位为深研院、国科大、浙江师大、NUS、中科大等；罗润同篇仅列学术单位，不能套用同期为阿里做的其他研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Transforming Data Annotation with AI Agents: A Review of Architectures, Reasoning, Applications, and Impact",
+        "url": "https://www.mdpi.com/1999-5903/17/8/353",
+        "note": "期刊 2025-08-02 公开全文。深研院、中南民族大学及浙江大学研究者综述数据标注智能体架构、推理与应用，原文未见目标企业合作。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "面向DNA安全存储的信息增量管理方法",
+        "url": "https://jcjs.siat.ac.cn/cn/article/pdf/preview/10.12146/j.issn.2095-3135.20240612001.pdf",
+        "note": "《集成技术》期刊原文列袁涛为硕士生，曲强为通讯；两者署国科大与深研院，研究链式索引下的 DNA 数据增量存储，没有目标公司同篇署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Can We Trust Autonomous Agents? A Formal Framework for Verifiable Agent Economies",
+        "url": "https://www.mdpi.com/1999-5903/18/10/532",
+        "note": "Future Internet 2026-10-01 全文为 Karim 和曲强双署深研院的可验证智能体经济框架，提出区块链、执行证明和随机审计；未见目标企业同篇实研。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "以国科大和深研院官方介绍、身份绑定 ORCID、DBLP 记录及 ACL 作者合集确认曲强。已逐篇写入首阶段，仍有题录与未获正文待补，并继续区分校方署名、企业实研和具名导师。相似工作未确认前不用于关系计数。"
   }
 };

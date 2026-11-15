@@ -47064,6 +47064,169 @@ const survey = {
       ],
       "evidence": "arXiv:2607.25291v1 首页实名标记 Yufei Xue 在腾讯实习期间完成这项研究；他是腾讯和港科大双署的共同第一作者，校内导师张军和腾讯 Guanghua Yu 都是本篇通讯作者。学生本人将两边的导师及任期分开列明，学校导师独立公布其在读入组日期，2025 年机器学习峰会主办方的企业演讲者介绍证实 Guanghua Yu 是腾讯混元大模型压缩算法负责人。预印首发 2026-07-28，处于 4–8 月腾讯实习窗口。此项是协同两阶段稀疏选择和 GPU kernel 的免训练方法，不与其腾讯通用算子团队其他论文合并或重复。",
       "paperId": "10.48550/arXiv.2607.25291"
+    },
+    {
+      "id": "tencent-worldplay-hkust-jun-zhang",
+      "company": "腾讯",
+      "team": "腾讯混元世界模型团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "香港科技大学电子及计算机工程学系教授、孙文强博士导师；论文通讯作者，港科大主页明确列为腾讯企业合作项目。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "employee": [
+        "Tengfei Wang",
+        "腾讯混元研究科学家、HY-World 1.5 负责人；该论文企业通讯作者。他的本人履历以 ^ 标记本篇孙文强为其企业实习生。",
+        "https://tengfei-wang.github.io/"
+      ],
+      "student": [
+        "孙文强 · Wenqiang Sun",
+        "项目发表时为港科大张军组在读博士生，2026 年 5 月才完成博士论文。是世界模型论文共同第一作者，学校明确记录他为该腾讯项目的关键贡献者。",
+        "https://eejzhang.people.ust.hk/group.html"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大张军课题组的博士毕业生名录列孙文强学位论文和毕业月份；导师的校方主页同时将孙文强列为腾讯合作 WorldPlay 的关键贡献者。",
+        "https://eejzhang.people.ust.hk/home.html"
+      ],
+      "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+      "short": "WorldPlay",
+      "date": "2025-12-17",
+      "venue": "ICML 2026（2025 年 12 月预印本）",
+      "area": "可实时交互、具长期几何一致性的世界模型",
+      "paper": "https://proceedings.mlr.press/v306/sun26az.html",
+      "extra": [
+        [
+          "arXiv 第 1 版提交与具名同篇署名",
+          "https://arxiv.org/abs/2512.14614v1"
+        ],
+        [
+          "初稿逐人校企署名和通讯作者",
+          "https://arxiv.org/html/2512.14614v1"
+        ],
+        [
+          "腾讯发布记录：2025-12-17 同时公开项目及研究论文",
+          "https://github.com/Tencent-Hunyuan/HY-WorldPlay/blob/main/README_zh.md"
+        ],
+        [
+          "腾讯 HY-World 1.5 技术报告（同一工作）",
+          "https://3d-models.hunyuan.tencent.com/world/world1_5/HYWorld_1.5_Tech_Report.pdf"
+        ]
+      ],
+      "evidence": "张军教授的港科大主页明确把 WorldPlay 与 HY-World 1.5 一并列作腾讯合作，实名确认博士生孙文强是关键贡献者；同一校方课题组名录记录孙文强博士论文于 2026 年 5 月完成。腾讯混元世界模型负责人 Tengfei Wang 的本人学术履历在本篇书目将 Sun 标记为本人实习生；他在论文同为企业通讯作者。原始稿与 ICML 正式版本保留同一学生共同一作、学术导师、企业负责人。2025-12-16 17:22 UTC 提交 arXiv，腾讯混元官方仓库确认北京时间 12 月 17 日公开同一模型、论文与技术报告；技术报告与主论文一起计一次。",
+      "paperId": "10.48550/arXiv.2512.14614"
+    },
+    {
+      "id": "alibaba-forge4d-hkust-jun-zhang",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "香港科技大学教授；博士生公开履历具名的博士导师，论文共同作者。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "employee": [
+        "何益升 · Yisheng He",
+        "阿里巴巴通义实验室研究科学家，个人明确记录 2023 年至今，本文共同第一作者和企业通讯作者。书目定义 ^ 为实习学生，逐篇标明。",
+        "https://hyshkust.github.io/"
+      ],
+      "student": [
+        "Yingdong Hu",
+        "港科大博士生，2023 年秋起在张军组；2025 年 5 月至 2026 年 4 月阿里通义实验室科研实习，企业共同一作兼通讯作者何益升对本篇逐项标注其为实习生。共同第一作者。",
+        "https://zhenliuzju.github.io/huyingdong/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大博士阶段个人履历明确记录该导师，学术导师与学生在初稿同署。",
+        "https://eejzhang.people.ust.hk/group.html"
+      ],
+      "title": "Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse-View Videos",
+      "short": "Forge4D",
+      "date": "2025-09-29",
+      "venue": "ECCV 2026",
+      "area": "动态三维高斯重建与时域插值",
+      "paper": "https://arxiv.org/abs/2509.24209v1",
+      "extra": [
+        [
+          "学生牵头的公开项目和分工",
+          "https://zhenliuzju.github.io/huyingdong/Forge4D/"
+        ],
+        [
+          "预印本作者及企业署名",
+          "https://arxiv.org/abs/2509.24209v1"
+        ],
+        [
+          "作者实际实现",
+          "https://github.com/zhenliuZJU/Forge4D"
+        ],
+        [
+          "ECCV 收录目录",
+          "https://eccv.ecva.net/Conferences/2026/AcceptedPapers"
+        ],
+        [
+          "ECCV 2026 正式会议论文页面",
+          "https://eccv.ecva.net/virtual/2026/poster/3899"
+        ]
+      ],
+      "evidence": "2025-09-29 首稿在 Yingdong Hu 2025 年 5 月至 2026 年 4 月的阿里通义实验室实习期间。企业共同一作兼通讯作者何益升在本人书目中逐篇用 ^ 标记了 Yingdong Hu 是该研究企业实习生；该学生自述何益升是本次任职的合作者，并在项目页与官方实现中记录该方法。两位作者分别明确标出受指导、参与本项目的在读学生；港科大组页确认 2023 秋起在读，学生署名的学术导师张军也出现在首稿与会议版本。ECCV 版本加入企业作者，仍为同篇。",
+      "paperId": "10.48550/arXiv.2509.24209"
+    },
+    {
+      "id": "alibaba-fa-lam-hkust-jun-zhang",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "香港科技大学教授；博士生公开履历具名的博士导师，论文共同作者。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "employee": [
+        "何益升 · Yisheng He",
+        "阿里巴巴通义实验室研究科学家，个人明确记录 2023 年至今，本文共同第一作者和企业通讯作者。书目定义 ^ 为实习学生，逐篇标明。",
+        "https://hyshkust.github.io/"
+      ],
+      "student": [
+        "Yingdong Hu",
+        "港科大博士生，2023 年秋起在张军组；2025 年 5 月至 2026 年 4 月阿里通义实验室科研实习，企业共同一作兼通讯作者何益升对本篇逐项标注其为实习生。共同第一作者。",
+        "https://zhenliuzju.github.io/huyingdong/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大博士阶段个人履历明确记录该导师，学术导师与学生在初稿同署。",
+        "https://eejzhang.people.ust.hk/group.html"
+      ],
+      "title": "FA-LAM: Focus-Aware Large Avatar Model for One-Shot 4D Animatable Gaussian Head",
+      "short": "FA-LAM",
+      "date": "2026-07-23",
+      "venue": "NeurIPS 2026 已录用",
+      "area": "可动画化的单图四维高斯头部",
+      "paper": "https://arxiv.org/abs/2607.20922v1",
+      "extra": [
+        [
+          "学生牵头的公开项目和分工",
+          "https://zhenliuzju.github.io/huyingdong/FA-LAM/"
+        ],
+        [
+          "预印本作者及企业署名",
+          "https://arxiv.org/abs/2607.20922v1"
+        ],
+        [
+          "NeurIPS 官方收录目录",
+          "https://neurips.cc/Downloads/2026"
+        ],
+        [
+          "NeurIPS 2026 正式会议海报页面",
+          "https://neurips.cc/virtual/2026/loc/sydney/poster/149554"
+        ]
+      ],
+      "evidence": "2026-07-23 首次公开晚于港科大博士生 Yingdong Hu结束通义实习，但企业共同一作兼通讯作者何益升在本篇学术书目直接用 ^ 标记该博士生是实习学生；学生本人公开履历实名列何益升为 2025 年 5 月至 2026 年 4 月通义实验室同期研究协作者，方向与本篇一致。记录研究期的企业参与，不推定公开日仍在职。首稿列学生和任导师张军为港科大，何益升及 Steven Hoi 为阿里通义。NeurIPS 2026 官方目录有该名称。与 Forge4D 的稀疏视图人体重建分别处理；与以单目全头静态建模为主的 PanoLAM 是不同论文，FA-LAM 首稿也引用 PanoLAM。",
+      "paperId": "10.48550/arXiv.2607.20922"
     }
   ]
 };
