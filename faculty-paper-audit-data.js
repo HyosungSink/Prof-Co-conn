@@ -67084,7 +67084,11 @@ const facultyPaperAudits = {
       "https://icnp24.cs.ucr.edu/acceptedpapers.html",
       "https://icnp26.cs.ucr.edu/program.html",
       "https://researchconnect.buffalo.edu/en/publications/accelerating-distributed-training-through-in-network-aggregation-/",
-      "https://conferences.sigcomm.org/sigcomm/2026/program/papers/"
+      "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "https://faculty.ustc.edu.cn/zhaogongming/zh_CN/index.htm",
+      "https://cs.ustc.edu.cn/2024/1115/c3054a660695/pagem.htm",
+      "https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD2026&filename=1025661692.nh",
+      "https://cs.njupt.edu.cn/2023/0225/c9374a234276/page.htm"
     ],
     "papers": [
       {
@@ -67098,7 +67102,7 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "SMART: Dual-channel Southbound Message Delivery in Clouds with Rate Estimation",
-        "url": "https://gmzhao-ustc.github.io/papers/2024%2BIWQoS%2BSMART_Dual_channel_Southbound_Message_Delivery_in_Clouds_with_Rate_Estimation.pdf",
+        "url": "https://doi.org/10.1109/IWQoS61813.2024.10682836",
         "outcome": "lead",
         "relationIds": [],
         "note": "IWQoS 正式全文首面明确列加拿大温哥华华为研究所的 Chun-Jen Chung；留存华为在职共同作者。首作罗路尧（Luyao Luo）校方团队名录为 2022–2024 博士；尚无具名证据确认其于企业执行同篇 SMART 的设计或实验，毕业去向为高校。"
@@ -67226,8 +67230,8 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "HiFiCNet: High-Fidelity Cloud Network Validation Platform at Scale by Hybrid Architecture",
-        "url": "https://icnp24.cs.ucr.edu/program.html",
-        "note": "IEEE ICNP 2024 议程列 Chun-Jen Chung、Min Chen、Xuwei Yang 为华为，刘佳维等四人当期在中科大。IEEE TC 10.1109/TC.2026.3700166 沿用 HiFiCNet 同一仿真器/模拟器混合架构，扩展版合并。未见刘佳维或另一具名学生在企业内完成同一项研究的当期证据，毕业去向不能补足。",
+        "url": "https://doi.org/10.1109/ICNP61940.2024.10858551",
+        "note": "ICNP 2024 署华为 Chun-Jen Chung、Min Chen、Xuwei Yang；IEEE TC 10.1109/TC.2026.3700166 同作扩展。刘佳维的中科大 2025 工程博士学位论文列徐宏力、赵功名、王伟光三位导师并具名 HifiCNet 为本人研发的精确同一系统；南邮官方 2023 简报另有同名华为计算存储网络负责人。学位摘要明确在华为生产网实测的一章为 Terra，不宜将该地点直接移到 HifiCNet，待核同项在企业开展的具体证据。",
         "outcome": "lead",
         "relationIds": []
       },
@@ -67310,9 +67314,129 @@ const facultyPaperAudits = {
         "note": "ACM SIGCOMM 2026 议程列腾讯云 Shaohui Xu、Fanjie Meng，王保清校方列为在读。首轮同组 APNet 2025（10.1145/3735358.3735371）研究同一空间聚合降低时间波动并共四名中科大作者，统一记早版，仍缺学生在腾讯云开展 Hestia 的具名材料，企业仅见扩展版。",
         "outcome": "lead",
         "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "SWOT: Enabling Communication-Reconfiguration Overlap for Collective Communication in Optical Networks",
+        "url": "https://doi.org/10.1145/3808672",
+        "note": "arXiv:2510.19322 于 2025-10-22 首发，2026-06-01 ACM 正式版同四作者及 SWOT 方法。吳昌博同时署中科大与上海创智学院；另三人均中科大。论文采用实验性光路动态重构与集体通信重叠；实际不是方缙曾在华为做的训练节点部署，未见范围内企业参与。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use",
+        "url": "https://arxiv.org/abs/2603.19896",
+        "note": "2026-03-20 首稿具名 Boyan Liu、赵功名、徐宏力，全部中科大；2026-09-13 修订按一篇。论文用 LLM 工具调用效用实验，未见目标企业同项开发证据；赵本人另列华为智能体调度项目，缺乏编号或具名证据对应到该文。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "JointPS: Joint Parameter Server Placement and Flow Scheduling for Machine Learning Clusters",
+        "url": "https://doi.org/10.1109/TC.2023.3305753",
+        "note": "IEEE 2023 正式题录及布法罗大学合作作者书目具名中科大、布法罗大学、加州州立大学圣贝纳迪诺分校及华东师大。未见目标企业共同作者。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Toward a QoS-Guaranteed Cloud Through Elastic Resource Scaling and Request Updating",
+        "url": "https://doi.org/10.1007/978-981-96-1542-1_1",
+        "note": "Springer 2025-02-15 首次公开，会议届次为 2024。五位均署中科大；本篇为 ESRU-A 随机舍入与贪心，和 2022 TRUST 渐进舍入及不同一作不混并，未见具名目标企业参与。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "FlyPS: A Flexible Multi-job Placement Scheme with Communication Scheduling in GPU Clusters",
+        "url": "https://doi.org/10.1109/IWQoS70441.2026.11661154",
+        "note": "IEEE IWQoS 2026 题录署包氏等中科大，Hao Zheng 与 Wenpeng Zhu 均署中国移动苏州。研究面向训练集群可变形任务及通信调度，未见目标企业参与。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Dynamic Hot Expert Replication with Load and Topology-Aware Joint Gating for Distributed MoE Inference",
+        "url": "https://doi.org/10.1109/IWQoS70441.2026.11661192",
+        "note": "IEEE IWQoS 论文六位署中科大、浙江工商大学。具名 MoE 热专家副本与路由用于推理；和 TopoEP 研究训练时的并行带宽不重复，未见目标企业同项研发。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Fossil: A Cost-Effective and Fault-Tolerant Task Placement Scheme for Geo-Distributed Clouds",
+        "url": "https://doi.org/10.1007/978-981-95-8402-4_1",
+        "note": "Springer 2026-04-09 首次上线（ICA3PP 2025 论文集）。两位企业作者 Gangyi Luo、Chu Xu 署中国移动苏州；另为中科大及崂山实验室，无具名目标企业参与。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Joint Optimization of Computation and Communication Resources for GPU Allocation in Heterogeneous Clusters",
+        "url": "https://doi.org/10.1007/978-3-032-10459-5_12",
+        "note": "Springer 2025-11-16 首次上线。HetSpeed 通过 GPU 异构与机架间通信联调，署中科大、崂山实验室和中国移动苏州，未见范围内企业合著。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "TAIR: Achieving Tenant Anomaly Isolation with Request Scheduling in Serverless Computing",
+        "url": "https://doi.org/10.1007/978-3-032-10459-5_22",
+        "note": "Springer 首次上线 2025-11-16，具名中科大、崂山实验室及中国移动苏州三人。TAIR 针对无服务器请求调度，与中科大王保清另一项租户承载部署研究分开。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Network Resource-Aware Multi-Job Deployment in Deep Learning Clusters",
+        "url": "https://doi.org/10.1109/ICCCN65249.2025.11133724",
+        "note": "IEEE 2025-08 会议及出版题录的钟艾、赵功名、徐宏力、方缙、刘佳维、杨鹏均署中科大；方缙后来录公开华为、字节项目，但未见同篇企业作者或可归属到这篇的实研证据。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "CADER: Cost-Efficient Cloud Application Deployment With Tenant Requirement Guarantee in Multi-Clouds",
+        "url": "https://doi.org/10.1109/TCC.2025.3626582",
+        "note": "作者公开的 IEEE 正文首页记 2025-10-28 首发，七位明确为浙江工商大学、之江实验室、南京理工和中科大。不同于 CARD 的地理故障可用性，更重跨云租户需求；未见目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "DFS: Joint data formatting and sparsification for efficient communication in Distributed Machine Learning",
+        "url": "https://doi.org/10.1016/j.comnet.2023.109777",
+        "note": "Elsevier 正式正文题录与出版元数据具名 Cheng Yang、Yangming Zhao、Gongming Zhao、Hongli Xu 都署中科大。部署网络压缩算法，不见范围内企业实际参与。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "SWVFM: Ranged Noise Removal for Sliding-Window Flow Cardinality Measurement in High-Speed Networks",
+        "url": "https://doi.org/10.1109/TON.2026.3733983",
+        "note": "IEEE 初次公开题录 2026-09 下旬，肯塔基大学正式机构存档及厂商中立的 FABRIC 实验存档。五人署中科大、苏州大学、肯塔基大学与佛罗里达大学，无具名目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "TopoEP: Topology-Aware Load Balancing for Expert-Parallel MoE Training",
+        "url": "https://arxiv.org/abs/2609.35481",
+        "note": "2026-09 arXiv 文件作者栏六名均中科大；图中涉及集群异构带宽评测，未署华为或字节。并非同一组的 CODA、HOCCL 或 SchedEP。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "A Reliability and Robustness-driven Approach for Optimizing VM Placement in Clouds",
+        "url": "https://doi.org/10.1109/ICPADS60453.2023.00313",
+        "note": "IEEE ICPADS 论文 2023-12 届次并留 DOI，四人中科大、一人之江实验室。第一作者 Yuheng Zhu，目标为综合可靠与容错放置，与刘佳维另一篇服务可用性分开；未见范围内企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
       }
     ],
-    "note": "先对照本人论文全文、实验室题录、本人 ORCID/DBLP 与专门项目履历。已遇到同篇华为作者，但部分学生只可证明其他项目的企业实习，不能用任职或工作主题相似替代同项贡献。继续对出版方与校方近作补遗。"
+    "note": "对照本人原文、实验室题录、ORCID/DBLP、出版社署名和学生简历，已覆盖三批。华为、腾讯同篇作者与学生在企业实际参与同项工作的证据分别核查，未以此前其他项目的实习、毕业去向或资助代替。仍有新近在刊作品及外部书目需比对。"
   },
   "Hc3iRxUAAAAJ": {
     "from": "2023-01-01",
@@ -67458,7 +67582,11 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2512.13472v1",
       "https://arxiv.org/abs/2510.10073v1",
       "https://arxiv.org/abs/2511.09920v1",
-      "https://arxiv.org/abs/2604.03144v1"
+      "https://arxiv.org/abs/2604.03144v1",
+      "https://tianyuan2001.github.io/",
+      "https://ai-safety-workshop-ijcai2026.github.io/accepted_paper_2026.html",
+      "https://arxiv.org/html/2510.00501v1",
+      "https://bdkelab.xjtu.edu.cn/info/1056/1301.htm"
     ],
     "papers": [
       {
@@ -67530,7 +67658,105 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "正式作者署武汉大学、南洋理工大学、北航，未披露目标企业同篇合著。"
+      },
+      {
+        "title": "Reading Between the Pixels: An Inscriptive Jailbreak Attack on Text-to-Image Models",
+        "url": "https://arxiv.org/html/2604.05853v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "4 月首稿列北航、北大、宁波诺丁汉与南洋理工，以及 360 AI Security Lab；360 不在范围内。"
+      },
+      {
+        "title": "SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving",
+        "url": "https://arxiv.org/html/2607.19701v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首稿 2026-07-22，明列奇瑞汽车作者和北航作者；奇瑞汽车不在本次范围。题目和内容是视频扩散危险场景生成，单列。"
+      },
+      {
+        "title": "Visual Adversarial Attack on Vision-Language Models for Autonomous Driving",
+        "url": "https://arxiv.org/pdf/2411.18275v1",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024-11-27 首稿，作者署北航、新加坡国立大学、华中科技大学。其道路实测与运行仿真没有披露目标企业学生实研。"
+      },
+      {
+        "title": "LatentGuard: Safeguarding Autonomous Driving VLMs via Latent World Logic Repair",
+        "url": "https://ai-safety-workshop-ijcai2026.github.io/pdf/LATENTGUARD_Safeguarding_Autonomous_Driving_VLMs_via_Latent_World_Logic_Repair.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IJCAI DDL2.0 原文首页列北航及中关村实验室。学生主页具名导师刘艾杉与刘祥龙，未见任何范围内企业同篇作者。"
+      },
+      {
+        "title": "CodeChemist: Test-Time Scaling for Low-Resource Code Generation via Functional Knowledge Transfer",
+        "url": "https://proceedings.mlr.press/v306/wang26dw.html",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "2025-10-01 具名首稿与 ICML 2026 正式稿同项。西安交大实验室正式披露蚂蚁合著；该论文未说明在西交大署名的第一作者在蚂蚁完成同项工作，也未见其与北航刘艾杉的导师关系。"
       }
     ]
+  },
+  "zGmKnqMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.ustc.edu.cn/2020/0828/c23235a460083/page.htm",
+      "https://dblp.org/pid/22/1748-1.html",
+      "https://int-ustc.github.io/paper.html",
+      "https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD2026&filename=1025661692.nh",
+      "https://www.fangjin.site/about/"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "HiFiCNet: High-Fidelity Cloud Network Validation Platform at Scale by Hybrid Architecture",
+        "url": "https://doi.org/10.1109/ICNP61940.2024.10858551",
+        "note": "ICNP 2024 署华为 Chun-Jen Chung、Min Chen、Xuwei Yang；IEEE TC 10.1109/TC.2026.3700166 同作扩展。刘佳维的中科大 2025 工程博士学位论文列徐宏力、赵功名、王伟光三位导师并具名 HifiCNet 为本人研发的精确同一系统；南邮官方 2023 简报另有同名华为计算存储网络负责人。学位摘要明确在华为生产网实测的一章为 Terra，不宜将该地点直接移到 HifiCNet，待核同项在企业开展的具体证据。",
+        "outcome": "lead",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Non-Idle Machine-Aware Worker Placement for Efficient Distributed Training in GPU Clusters",
+        "url": "https://doi.org/10.1109/ICNP61940.2024.10858582",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ICNP 2024 正式原文由第一作者公开，列华为 Zhen Yao、An Xie，通讯作者赵功名、徐宏力。方缙在读及具名双导师均有本人履历，且 2023-12–2024-05 在华为研究过光路交换网络上的节点放置，但无法从原文把实习中的光路交换放置算法与本文 Titan 的非空闲节点碎片化机制等同，需作者、企业或学位论文的同项目证据。 期刊 10.1109/TON.2025.3635222 仍名 Titan、同一非空闲策略和 74.9% 结果，新增动态任务迁移，合并为 ICNP 2024 首发；期刊新列华为 Baoyi An 与两名中国移动员工，未补企业内实研证据。 期刊 10.1109/TON.2025.3635222 仍名 Titan、同一非空闲策略和 74.9% 结果，新增动态任务迁移，合并为 ICNP 2024 首发；期刊新列华为 Baoyi An 与两名中国移动员工，未补企业内实研证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Accelerating Distributed Training With Collaborative In-Network Aggregation",
+        "url": "https://doi.org/10.1109/TNET.2024.3387948",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者正式期刊首面明确引用 2023 IWQoS 10.1109/IWQOS57198.2023.10188783 为本文首轮结果；GOAT 只算一篇。中科大、约翰霍普金斯大学和弗吉尼亚理工署名，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Network Resource-Aware Multi-Job Deployment in Deep Learning Clusters",
+        "url": "https://doi.org/10.1109/ICCCN65249.2025.11133724",
+        "note": "IEEE 2025-08 会议及出版题录的钟艾、赵功名、徐宏力、方缙、刘佳维、杨鹏均署中科大；方缙后来录公开华为、字节项目，但未见同篇企业作者或可归属到这篇的实研证据。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use",
+        "url": "https://arxiv.org/abs/2603.19896",
+        "note": "2026-03-20 首稿具名 Boyan Liu、赵功名、徐宏力，全部中科大；2026-09-13 修订按一篇。论文用 LLM 工具调用效用实验，未见目标企业同项开发证据；赵本人另列华为智能体调度项目，缺乏编号或具名证据对应到该文。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "SchedEP: Online Scheduling of EP Communication with Token Aggregation and Load Balancing",
+        "url": "https://icnp26.cs.ucr.edu/acceptedpapers.html",
+        "note": "IEEE ICNP 2026 10 月会议五个具名作者均署中科大。无华为、腾讯或其他目标企业共同作者；该工程并非同会存在华为作者的 CODA。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      }
+    ],
+    "note": "已按中科大师资、实验室成果和学生的具名师承核查一组独立作品。较长全量公开书目仍待梳理；师承和论文参与清楚时，企业同项目实研另查。"
   }
 };
