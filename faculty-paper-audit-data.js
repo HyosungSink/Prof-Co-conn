@@ -69049,7 +69049,86 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2403.11607v1",
       "https://hub.hku.hk/cris/rp/rp02008",
       "https://dblp.org/pid/59/5565.html",
-      "https://orcid.org/0000-0001-7746-440X"
+      "https://orcid.org/0000-0001-7746-440X",
+      "https://arxiv.org/html/2405.19257v1",
+      "https://doi.org/10.1109/LRA.2024.3468091",
+      "https://arxiv.org/html/2410.05079v1",
+      "https://doi.org/10.1109/LRA.2024.3518076",
+      "https://arxiv.org/html/2408.10618v1",
+      "https://arxiv.org/html/2509.14680v1",
+      "https://arxiv.org/html/2511.19368v1",
+      "https://arxiv.org/html/2512.21970v1",
+      "https://arxiv.org/html/2502.02581v2",
+      "https://arxiv.org/html/2502.02581v1",
+      "https://proceedings.mlr.press/v305/deng25a.html",
+      "https://raw.githubusercontent.com/mlresearch/v305/main/assets/deng25a/deng25a.pdf",
+      "https://arxiv.org/abs/2505.03233",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/99c66755871ae101a4cef87c67fb29e8-Abstract-Conference.html",
+      "https://arxiv.org/html/2405.15189v1",
+      "https://arxiv.org/html/2410.10209v1",
+      "https://arxiv.org/html/2507.05829v1",
+      "https://arxiv.org/html/2605.06027v1",
+      "https://doi.org/10.1109/ICSE55347.2025.00044",
+      "https://arxiv.org/html/2409.14541v1",
+      "https://shadowmydx.github.io/",
+      "https://www.shinhwei.com/icse25-fuzzing.pdf",
+      "https://arxiv.org/html/2603.04550v1",
+      "https://arxiv.org/html/2307.11565v1",
+      "https://arxiv.org/html/2307.11563v1",
+      "https://doi.org/10.1109/ISSRE62328.2024.00050",
+      "https://arxiv.org/html/2405.09314v1",
+      "https://doi.org/10.1109/TMC.2025.3601531",
+      "https://arxiv.org/html/2503.20613v1",
+      "https://doi.org/10.1109/ICASSP49660.2025.10890540",
+      "https://arxiv.org/html/2501.03562v1",
+      "https://arxiv.org/html/2509.15032v1",
+      "https://doi.org/10.1109/SP61157.2025.00173",
+      "https://hub.hku.hk/handle/10722/369696",
+      "https://github.com/hku-systems/Opera",
+      "https://hub.hku.hk/handle/10722/350313",
+      "https://doi.org/10.1109/SP63933.2026.00173",
+      "https://www.ieee-security.org/TC/SP2026/accepted-papers.html",
+      "https://doi.org/10.1109/TKDE.2025.3583470",
+      "https://tianxiang999.github.io/paper/ecstore.pdf",
+      "https://tianxiang999.github.io/",
+      "https://doi.org/10.1109/COMPSAC57700.2023.00174",
+      "https://ieeecompsac.computer.org/2023/aiml-2023/",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/fad8962279154544ed69bb63eb14d677-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2409.09016",
+      "https://github.com/OpenDriveLab/CLOVER",
+      "https://www.roboticsproceedings.org/rss20/p123.pdf",
+      "https://arxiv.org/abs/2406.00439",
+      "https://jmwang0117.github.io/HE-Nav.pdf",
+      "https://hku-systems.github.io/events/202503-hku-huawei-seminar/Hu_Qi.pdf",
+      "https://hku-systems.github.io/events/202503-hku-huawei-seminar/index.html",
+      "https://www.ieee-security.org/TC/SP2025/program.html",
+      "https://blog.spcsky.com/CFHE/paper.pdf",
+      "https://hk.linkedin.com/in/jackhuspc/zh-cn",
+      "https://proceedings.mlr.press/v267/huang25as.html",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/huang25as/huang25as.pdf",
+      "https://github.com/huangd1999/Effi-Code",
+      "https://doi.org/10.1145/3663338.3665828",
+      "https://hub.hku.hk/handle/10722/348075",
+      "https://fangmingliu.github.io/files/ApPLIED24.pdf",
+      "https://doi.org/10.1109/ICPADS67057.2025.11322909",
+      "https://api.crossref.org/works/10.1109/ICPADS67057.2025.11322909",
+      "https://doi.org/10.1007/978-3-031-61003-5_3",
+      "https://www.bc4is.com/2024/presentations/gafe.pdf",
+      "https://doi.org/10.1109/IROS60139.2025.11246652",
+      "https://api.crossref.org/works/10.1109/IROS60139.2025.11246652",
+      "https://arxiv.org/abs/2503.20844",
+      "https://doi.org/10.1145/3652032.3657570",
+      "https://api.crossref.org/works/10.1145/3652032.3657570",
+      "https://doi.org/10.1145/3724117",
+      "https://arxiv.org/html/2309.14345v1",
+      "https://doi.org/10.1145/3672454",
+      "https://api.crossref.org/works/10.1145/3672454",
+      "https://arxiv.org/abs/2307.11011",
+      "https://www.sciencedirect.com/science/article/pii/S0020025523016079",
+      "https://arxiv.org/html/2311.14311v1",
+      "https://arxiv.org/html/2312.13010v1",
+      "https://arxiv.org/html/2308.08784v1",
+      "https://arxiv.org/html/2507.21739v1"
     ],
     "papers": [
       {
@@ -69156,9 +69235,268 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "2024-03 预印本并入 ICRA 论文，明确港大机器人团队和华为张世雄署名；尚无在读者实际在华为承担本项工程的独立证据。",
         "year": 2024
+      },
+      {
+        "title": "Hybrid-Parallel: Achieving High Performance and Energy Efficient Distributed Inference on Robots",
+        "url": "https://arxiv.org/html/2405.19257v1",
+        "outcome": "no-evidence",
+        "note": "论文署港大、鹏城实验室与华中科技大学；本项与另有华为署名的 AGRNav 不同。",
+        "year": 2024
+      },
+      {
+        "title": "HE-Nav: A High-Performance and Efficient Navigation System for Aerial-Ground Robots in Cluttered Environments",
+        "url": "https://doi.org/10.1109/LRA.2024.3468091",
+        "outcome": "no-evidence",
+        "note": "IEEE 2024-09-25 先发，后有 arXiv 同题稿；正式稿感谢华为旗舰基金，作者只署港大、上海人工智能实验室与华科/鹏城实验室，未找到企业雇员同篇或学生的同项企业任务。",
+        "year": 2024
+      },
+      {
+        "title": "OMEGA: Efficient Occlusion-Aware Navigation for Air-Ground Robots in Dynamic Environments via State Space Model",
+        "url": "https://doi.org/10.1109/LRA.2024.3518076",
+        "outcome": "no-evidence",
+        "note": "2024 首稿、2025 刊卷系同作；作者港大、华科及上海人工智能实验室，未见目标企业具名研究。",
+        "year": 2025
+      },
+      {
+        "title": "LEED: A Highly Efficient and Scalable LLM-Empowered Expert Demonstrations Framework for Multi-Agent Reinforcement Learning",
+        "url": "https://arxiv.org/html/2509.14680v1",
+        "outcome": "no-evidence",
+        "note": "港大、南洋与英国等大学合作，作者题栏没有目标企业。为区别另篇，用原文不同作者表、不同系统与不同技术方案单独核查。",
+        "year": 2025
+      },
+      {
+        "title": "LLM-Driven Stationarity-Aware Expert Demonstrations for Multi-Agent Reinforcement Learning in Mobile Systems",
+        "url": "https://arxiv.org/html/2511.19368v1",
+        "outcome": "no-evidence",
+        "note": "论文标出中国联通 Haotian Meng 为企业员工，但中国联通不在项目企业范围。题栏亦有港大和北大。与较短 LEED 工件有作者相交但当前题目、技术方案和体系不同。",
+        "year": 2025
+      },
+      {
+        "title": "StereoVLA: Enhancing Vision-Language-Action Models with Stereo Vision",
+        "url": "https://arxiv.org/html/2512.21970v1",
+        "outcome": "no-evidence",
+        "note": "原文合作为北京银河通用 Galbot、北大、自动化所、港大、智源等，Galbot 不在企业范围。",
+        "year": 2025
+      },
+      {
+        "title": "Themis: Efficient Sparse Model Training Through Fully Sharded Sparse Data Parallelism",
+        "url": "https://arxiv.org/html/2502.02581v2",
+        "outcome": "lead",
+        "note": "2025-02-04 原始同一研究暂名 Hecate，首稿同署华为王森，2026-08 修订题为 Themis，变更作者并移除其署名；未找到具体学生是否在华为承担早期同项研究，不把修订版重复计。",
+        "year": 2025
+      },
+      {
+        "title": "GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data",
+        "url": "https://proceedings.mlr.press/v305/deng25a.html",
+        "outcome": "no-evidence",
+        "note": "CoRL 正式论文和 arXiv 同项；港大学生与北大、智源及 Galbot 合作，Galbot 不在目标企业范围。",
+        "year": 2025
+      },
+      {
+        "title": "EffiLearner: Enhancing Efficiency of Generated Code via Self-Optimization",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/99c66755871ae101a4cef87c67fb29e8-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "预印本名称 SOAP，正式 NeurIPS 题名 EffiLearner，题旨同项归并；在读生所在港大和其他学校，没有具名目标企业。",
+        "year": 2024
+      },
+      {
+        "title": "Intra-DP: A High Performance Collaborative Inference System for Mobile Edge Computing",
+        "url": "https://arxiv.org/html/2507.05829v1",
+        "outcome": "no-evidence",
+        "note": "原文为港大、上海人工智能实验室、复旦、福州大学、鹏城实验室等高校科研合作，无目标公司署名。",
+        "year": 2025
+      },
+      {
+        "title": "FluxShard: Motion-Aware Feature Cache Reuse for Collaborative Video Analytics in Mobile Edge Computing",
+        "url": "https://arxiv.org/html/2605.06027v1",
+        "outcome": "no-evidence",
+        "note": "作者题栏为港大、南科大、港城大以及澳大利亚与新加坡大学等，未见目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-box Fuzzing?",
+        "url": "https://doi.org/10.1109/ICSE55347.2025.00044",
+        "outcome": "lead",
+        "note": "2024 预印本含港大第二单位，ICSE 后发表。学生原主页自述港大博士导师崔鹤鸣并同文，蚂蚁 Peng Di 具名同文，但未查到该学生在蚂蚁针对该篇的研究安排。",
+        "year": 2025
+      },
+      {
+        "title": "Transformer-Based Multipath Congestion Control: A Decoupled Approach for Wireless Uplinks",
+        "url": "https://arxiv.org/html/2603.04550v1",
+        "outcome": "no-evidence",
+        "note": "正式作者题栏仅港大、北交大、港城大、早稻田、西南大学等大学；未见范围内公司参与。",
+        "year": 2026
+      },
+      {
+        "title": "FMT: Removing Backdoor Feature Maps via Feature Map Testing in Deep Neural Networks",
+        "url": "https://arxiv.org/html/2307.11565v1",
+        "outcome": "no-evidence",
+        "note": "与同日 Feature Map Testing 论文作者相同，该篇原文单独研究后门移除；署港大、上交及上海人工智能实验室，无目标公司。",
+        "year": 2023
+      },
+      {
+        "title": "Feature Map Testing for Deep Neural Networks",
+        "url": "https://arxiv.org/html/2307.11563v1",
+        "outcome": "no-evidence",
+        "note": "与同日 FMT 拔除后门文章区分；本篇重在深度神经网络功能验证与测试，作者单位为港大、上交和上海人工智能实验室。",
+        "year": 2023
+      },
+      {
+        "title": "Themis: Automatic and Efficient Deep Learning System Testing with Strong Fault Detection Capability",
+        "url": "https://doi.org/10.1109/ISSRE62328.2024.00050",
+        "outcome": "no-evidence",
+        "note": "ISSRE 与 arXiv 同项；港大和新加坡管理大学合作，和稀疏模型训练的同名 Themis 为不同作品。",
+        "year": 2024
+      },
+      {
+        "title": "State-Aware Perturbation Optimization for Robust Deep Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TMC.2025.3601531",
+        "outcome": "no-evidence",
+        "note": "2025 先行与 2026 IEEE 刊出合并；港大、港城大、清华、西华和西南交大署名，未见目标公司。",
+        "year": 2026
+      },
+      {
+        "title": "Rethinking Adversarial Attacks in Reinforcement Learning from Policy Distribution Perspective",
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10890540",
+        "outcome": "no-evidence",
+        "note": "2025 预印本与正式 ICASSP 同项。港大、复旦、清华、西南交大及西华，无目标企业共研记录。",
+        "year": 2025
+      },
+      {
+        "title": "Sample Efficient Experience Replay in Non-stationary Environments",
+        "url": "https://arxiv.org/html/2509.15032v1",
+        "outcome": "no-evidence",
+        "note": "原文由港大、港城大、清华、新加坡国立等高校合著，无范围内企业参加。",
+        "year": 2025
+      },
+      {
+        "title": "Opera: Achieving Secure and High-Performance OLAP with Parallelized Homomorphic Comparisons",
+        "url": "https://hub.hku.hk/handle/10722/369696",
+        "outcome": "confirmed",
+        "note": "2025-03-27 联合研究会明确列胡起为崔鹤鸣的在读博士并由他公开报告该论文，展示同态比较和 HomCache 等技术。作者原稿明确华为为同项理论分析提供支持，未参与实验设计或评测；企业作者张弓的任职由正式会议和 IEEE 作者资料复核。学生履历把 2024-04 至 2025-03 的本人并行比较及 HomCache 设计列为这篇 IEEE S&P 论文的具体贡献。这条记联合研究，不声称在华为实习或已部署于华为业务。",
+        "year": 2025
+      },
+      {
+        "title": "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases",
+        "url": "https://doi.org/10.1109/SP63933.2026.00173",
+        "outcome": "no-evidence",
+        "note": "IEEE S&P 名录为 Wei Chen、Qi Hu、Siu-Ming Yiu、Heming Cui 四位作者，目标企业不在本篇题栏。和同团队有华为署名的 Opera 为独立论文。",
+        "year": 2026
+      },
+      {
+        "title": "ECStore: Achieving Efficient and Compressible Indexing on Outsourced Encrypted Databases",
+        "url": "https://doi.org/10.1109/TKDE.2025.3583470",
+        "outcome": "lead",
+        "note": "第一作者企业原稿确有华为王森、贾宁、沈天翔与港大宋昊泽、崔鹤鸣共同署名。宋昊泽的华为履历指向不同的 K2 事务管理，没有找到他在华为承担本篇加密索引的项目说明；沈天翔 2024 卒。",
+        "year": 2025
+      },
+      {
+        "title": "New Problems in Active Sampling for Mobile Robotic Online Learning",
+        "url": "https://doi.org/10.1109/COMPSAC57700.2023.00174",
+        "outcome": "no-evidence",
+        "note": "IEEE COMPSAC 正式节目及作者所属港大和鹏城实验室；未见调查范围内公司参与。",
+        "year": 2023
+      },
+      {
+        "title": "Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/fad8962279154544ed69bb63eb14d677-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式版与首稿合并。学校和上海人工智能实验室的公开 CLOVER 项目不属于范围内企业。",
+        "year": 2024
+      },
+      {
+        "title": "Learning Manipulation by Predicting Interaction",
+        "url": "https://www.roboticsproceedings.org/rss20/p123.pdf",
+        "outcome": "no-evidence",
+        "note": "RSS 发表稿及预印本合并。企业合作为中国电信 TeleAI，其余为上海人工智能实验室等；中国电信在本次企业名单之外。",
+        "year": 2024
+      },
+      {
+        "title": "EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning",
+        "url": "https://proceedings.mlr.press/v267/huang25as.html",
+        "outcome": "no-evidence",
+        "note": "2024 Effi-Code 预印本与 2025 ICML 正式稿项目链接重定向到同一官方代码库，作者相同，归并为一项。PMLR 首面为港大、北邮、新加坡及英国高校等，无目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "New Problems in Distributed Inference for DNN Models on Robotic IoT",
+        "url": "https://doi.org/10.1145/3663338.3665828",
+        "outcome": "no-evidence",
+        "note": "正式 ACM ApPLIED 作品；作者论文首面港大、华中科技大学及鹏城实验室。与后续 Hybrid-Parallel 技术稿单独核查。",
+        "year": 2024
+      },
+      {
+        "title": "Two Heads are Better than One: Robust Learning Meets Multi-branch Models",
+        "url": "https://doi.org/10.1109/ICPADS67057.2025.11322909",
+        "outcome": "no-evidence",
+        "note": "出版社 Crossref 记录的同名论文为张宗元、卜庆文等八位作者，来自港大、上交、港城大、新加坡国立；未见目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "High-Performance Confidentiality-Preserving Blockchain via GPU-Accelerated Fully Homomorphic Encryption",
+        "url": "https://doi.org/10.1007/978-3-031-61003-5_3",
+        "outcome": "lead",
+        "note": "正式论文与报告都列港大、华为和中科院软件所；港大导师名录称第一作者为其在读硕士。报告未公开该生在华为机构实施该区块链具体任务的出处，保留线索。",
+        "year": 2024
+      },
+      {
+        "title": "Robust Deep Reinforcement Learning in Robotics via Adaptive Gradient-Masked Adversarial Attacks",
+        "url": "https://doi.org/10.1109/IROS60139.2025.11246652",
+        "outcome": "no-evidence",
+        "note": "2025 正式会稿与同名首稿合并，IEEE 作者单位均为港大、复旦、清华及西南交大、西华等高校，无目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "EVMBT: A Binary Translation Scheme for Upgrading EVM Smart Contracts to WASM",
+        "url": "https://doi.org/10.1145/3652032.3657570",
+        "outcome": "no-evidence",
+        "note": "正式 ACM 首面单位港理工、华科、港大与北大，区块链框架本身不显示企业研发。",
+        "year": 2024
+      },
+      {
+        "title": "Bias Testing and Mitigation in LLM-based Code Generation",
+        "url": "https://doi.org/10.1145/3724117",
+        "outcome": "no-evidence",
+        "note": "2023 预印本发表题名 Bias Assessment，正式 TOSEM 题名 Bias Testing；高校署名港大、上交、伦敦国王学院、新加坡管理大学与天大。",
+        "year": 2026
+      },
+      {
+        "title": "Neuron Sensitivity-Guided Test Case Selection",
+        "url": "https://doi.org/10.1145/3672454",
+        "outcome": "no-evidence",
+        "note": "2023 预印本有题名尾语差异，正式 ACM 论文合并。Crossref 及首面署港大、上交、新加坡管理大学与天津大学。",
+        "year": 2024
+      },
+      {
+        "title": "RelJoin: Relative-cost-based selection of distributed join methods for query plan optimization",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0020025523016079",
+        "outcome": "no-evidence",
+        "note": "2023 预印本同研究与 2024 版本合并。出版社作者介绍确认第一作者已经完成博士，曾任华为高级工程师；本篇所列现聘为深圳北理莫斯科大学等高校，未找到其以华为研究角色完成本文的证据。",
+        "year": 2024
+      },
+      {
+        "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+        "url": "https://arxiv.org/html/2312.13010v1",
+        "outcome": "no-evidence",
+        "note": "先发版署港大、上交、伦敦国王学院与 Sussex；引用先前 CodeCoT 作单独基线，因此不要合并这两个不同方法。",
+        "year": 2023
+      },
+      {
+        "title": "CodeCoT and Beyond: Learning to Program and Test like a Developer",
+        "url": "https://arxiv.org/html/2308.08784v1",
+        "outcome": "no-evidence",
+        "note": "首稿的三位作者独立提出单模型代码和测试提示方法；后续 AgentCoder 比较而非直接更新，同组无目标企业参与证明。",
+        "year": 2023
+      },
+      {
+        "title": "RRTO: A High-Performance Transparent Offloading System for Model Inference in Mobile Edge Computing",
+        "url": "https://arxiv.org/html/2507.21739v1",
+        "outcome": "no-evidence",
+        "note": "原文属港大及上海人工智能实验室、港城、华科与科研院所合作，未见目标企业。",
+        "year": 2025
       }
     ],
-    "note": "阶段性核查港大与华为、阿里、字节的系统论文。已经交叉定位港大的实名学位论文、研究团队与 DBLP 2026-11-01 的个人书目；这些记录不代表全量审查。旧的预印本与正式版按研究归并，未独立证实企业职责者单列。"
+    "note": "阶段性逐篇核查：校方教师与实验室资料、香港大学学位论文、DBLP 2026-11-01 本人书目、原始 arXiv 预印本与正式论文联合核对；2025-03-27 港大—华为联合研究会核证了 Fold3D、K2 和 OPERA 的学生与技术证据。逐篇区分纯资助、技术合作和实习，并排除早于 2023 年首发的同作及同名作者。"
   },
   "vzr_L0EAAAAJ": {
     "from": "2023-01-01",

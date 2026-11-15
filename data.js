@@ -48810,6 +48810,62 @@ const survey = {
         ]
       ],
       "evidence": "PVLDB 标称 2025 年 2 月卷期，Crossref 记载正式稿 8 月 29 日上线；同项 arXiv 扩展稿可核最早公开号为 2025-04-02。宋昊泽在读、其导师崔鹤鸣与华为云通讯作者陈旭生同文。宋昊泽的当期履历明确列华为云多地域 NewSQL 实习及 K2 进入 Global TKV；另一版本实名列陈旭生为企业导师，港大的博士论文则独立证实学术导师与 K2 课题。"
+    },
+    {
+      "id": "huawei-opera-hku-heming-cui",
+      "company": "华为",
+      "team": "理论实验室",
+      "school": "香港大学",
+      "studentSchool": "香港大学",
+      "employee": [
+        "张弓 · Nicholas Zhang",
+        "同期原稿与 IEEE S&P 目录列为华为研究人员、同文作者；IEEE 同组另一篇正式作者履历明确称其为华为理论实验室的首席架构研究科学家和负责人。",
+        "https://hub.hku.hk/bitstream/10722/331903/1/content.pdf"
+      ],
+      "student": [
+        "胡起 · Qi Hu",
+        "港大在读博士并列第一作者。以港大—华为联合研究会课题报告者身份逐项介绍同一论文的 HomCache 与同态比较设计；本人项目履历写明 2024-04 至 2025-03，并列出其提出两维并行比较和缓存方案的具体贡献。",
+        "https://hku-systems.github.io/events/202503-hku-huawei-seminar/Hu_Qi.pdf"
+      ],
+      "faculty": [
+        "崔鹤鸣 · Heming Cui",
+        "香港大学计算机科学副教授，以港大单位担任同篇共同通讯作者。",
+        "https://www.cs.hku.hk/people/academic-staff/heming/"
+      ],
+      "advising": [
+        "博士导师",
+        "2025-03-27 港大—华为联合研究会正式议程明确标注胡起为崔鹤鸣的博士生；两位均在正式论文署名，议程并附学生报告。",
+        "https://hku-systems.github.io/events/202503-hku-huawei-seminar/index.html"
+      ],
+      "title": "Opera: Achieving Secure and High-Performance OLAP with Parallelized Homomorphic Comparisons",
+      "short": "OPERA",
+      "date": "2025-05-12",
+      "venue": "IEEE Symposium on Security and Privacy",
+      "area": "数据安全",
+      "paper": "https://hub.hku.hk/handle/10722/369696",
+      "extra": [
+        [
+          "IEEE S&P 正式会议目录",
+          "https://www.ieee-security.org/TC/SP2025/program.html"
+        ],
+        [
+          "作者全文的华为具体合作分工",
+          "https://blog.spcsky.com/CFHE/paper.pdf"
+        ],
+        [
+          "学生本人列在读时期、同项功能与研制时间",
+          "https://hk.linkedin.com/in/jackhuspc/zh-cn"
+        ],
+        [
+          "正式论文对应实验原始代码",
+          "https://github.com/hku-systems/Opera"
+        ],
+        [
+          "IEEE 正式发表日期",
+          "https://api.crossref.org/works/10.1109/SP61157.2025.00173"
+        ]
+      ],
+      "evidence": "2025-03-27 联合研究会明确列胡起为崔鹤鸣的在读博士并由他公开报告该论文，展示同态比较和 HomCache 等技术。作者原稿明确华为为同项理论分析提供支持，未参与实验设计或评测；企业作者张弓的任职由正式会议和 IEEE 作者资料复核。学生履历把 2024-04 至 2025-03 的本人并行比较及 HomCache 设计列为这篇 IEEE S&P 论文的具体贡献。这条记联合研究，不声称在华为实习或已部署于华为业务。"
     }
   ]
 };
