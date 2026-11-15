@@ -62864,5 +62864,612 @@ const facultyPaperAudits = {
       }
     ],
     "note": "以国科大和深研院官方介绍、身份绑定 ORCID、DBLP 记录及 ACL 作者合集确认曲强。已逐篇写入首阶段，仍有题录与未获正文待补，并继续区分校方署名、企业实研和具名导师。相似工作未确认前不用于关系计数。"
+  },
+  "HFGNmPsAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.ustc.edu.cn/2022/0220/c23236a546061/page.htm",
+      "https://songqi1990.github.io/publication.html",
+      "https://songqi1990.github.io/Files/songqi-en.pdf",
+      "https://dblp.org/pid/82/5132-4.html",
+      "https://orcid.org/0000-0002-1726-7858",
+      "https://faculty.ustc.edu.cn/songqi/zh_CN/kyxm/607912/list/index.htm",
+      "https://openalex.org/A5100748969",
+      "https://jllliang.github.io/",
+      "https://linke.ustc.edu.cn/_upload/article/files/c3/86/b4732b7c4428b807bd5d79c27340/54db3532-18d9-4618-97d1-54e2063b30e0.pdf"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Fair Group Summarization with Graph Patterns",
+        "url": "https://doi.org/10.1109/ICDE55515.2023.00154",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE ICDE 2023-04-05，NSF 原版逐名列宋骐中科大、其余 Case Western Reserve；未见名单企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Efficient Deep Ensemble Inference via Query Difficulty-dependent Task Scheduling",
+        "url": "https://doi.org/10.1109/ICDE55515.2023.00082",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023 IEEE ICDE 会期，7 月 DOI登记。出版社均中科大、合肥国家科学中心。学生Zichong Li本人写硕士导师张兰，与宋骐只是同篇；此前后的微软实习均不属于该论文。"
+      },
+      {
+        "year": 2023,
+        "title": "CoTel: Ontology-Neural Co-Enhanced Text Labeling",
+        "url": "https://doi.org/10.1145/3543507.3583533",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-04-26 ACM 登记；作者Yijun Liu、Guidong Zheng署招商银行，未在站内目标企业。Zichong Li本人在读 2020–23、导师张兰；微软是后来博士阶段的独立项目。"
+      },
+      {
+        "year": 2023,
+        "title": "HeteroPush: Communication-Efficient Video Analytics by Scheduling Heterogeneous Filters",
+        "url": "https://doi.org/10.1109/BIGCOM61073.2023.00035",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023 IEEE BigCom，会刊与 LINKE 学校成果独立确认四名作者均署中科大；虽未收录在宋个人精选，另补入。"
+      },
+      {
+        "year": 2024,
+        "title": "Query Exploration Based on Knowledge Reasoning",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-0814-0_24",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2024-12-13 首发（版权 2025）。Springer 同篇列中科大 Tian Xie、Qi Zhao 和通讯宋骐，Hao Jiang、YiJie Li、TongJing Zhu 署华为。学校明列宋主持同方向的华为联合项目 2022.09–2023.08，原文致谢不给该项目编号，尚需学生具名师承及其在公司做本研究的直接材料。Tian Xie 非微软材料研究同名者。"
+      },
+      {
+        "year": 2025,
+        "title": "HE-GAD: a behavior-enhanced contrastive learning framework for graph anomaly detection",
+        "url": "https://link.springer.com/article/10.1007/s10994-025-06809-x",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2025-06-17 Springer 首发。中科大 Ling Zheng、Yihan Wang 和通讯宋骐、李向阳同篇，Zhitao Wang 自述自 2020-05 正式任职微信支付、出版社具名。校方另列宋主持腾讯犀牛鸟图异常项目，但原文不列该基金，未见具名学生实研和师承证据；暂留线索。"
+      },
+      {
+        "year": 2025,
+        "title": "Improving Pre-trained Language Models with Knowledge Enhancement and Filtering Framework",
+        "url": "https://aclanthology.org/2025.findings-naacl.213/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "NAACL 2025-04；正式原文六人列中科大及 Columbia。Qi Zhao 后续可能的微信经历不能回推此研究。"
+      },
+      {
+        "year": 2025,
+        "title": "RJE: A Retrieval-Judgment-Exploration Framework for Efficient Knowledge Graph Question Answering with LLMs",
+        "url": "https://aclanthology.org/2025.emnlp-main.873/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-09-25 首稿 2510.01257，EMNLP 正式。原文署中科大、香港城市大学、德清 Alpha 研究院、合肥工业大学。未见目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "LGC-CR: Few-shot Knowledge Graph Completion via Local Global Contrastive Learning and LLM-Guided Refinement",
+        "url": "https://doi.org/10.1145/3746252.3761000",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 2025-11-10，作者全文逐名列中科大、合肥工业大学。模型和图谱为公共来源，未见目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "CrossLinear: Plug-and-Play Cross-Correlation Embedding for Time Series Forecasting with Exogenous Variables",
+        "url": "https://doi.org/10.1145/3711896.3736899",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-05-29 首稿 2505.23116，KDD 正式议程五人均中科大、后两人另署德清 Alpha。腾讯云上的文章只是会议转述。"
+      },
+      {
+        "year": 2025,
+        "title": "Capacity estimation of retired lithium-ion batteries using random charging segments from massive real-world data",
+        "url": "https://doi.org/10.1016/j.xcrp.2025.102444",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-02-11 期刊在线；作者只署中科大、合肥工业大学。2024 先发布的 Zenodo 对应数据不是论文。安徽国汽科技仅供数据且不在名单企业。"
+      },
+      {
+        "year": 2026,
+        "title": "RoleArena: Autonomous Plot Progression for Long-Horizon Multi-Agent Role-Playing",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1160/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026 年 OpenReview 匿名审稿题名较长、与 EMNLP 10 月正文同数据和项目。Qi Zhao 与宋骐均中科大；其他作者南大、上交、萨尔大学。Qwen 底模不代表阿里参与；也未见赵在腾讯进行本项的直接证据。"
+      },
+      {
+        "year": 2026,
+        "title": "GVR-Coder: A Visual-Feedback Framework for Structured SVG Generation in Complex Document and Meeting Scenarios",
+        "url": "https://doi.org/10.1145/3767308.3835261",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2026-07-30 arXiv:2607.28073 首发。正文及 ACM 正式会程列 Yiming Xu 中科大、通讯宋骐与五名 ByteDance 作者（Jihua Kang、Chunsai Du、Qifan Zhang、Yiting Wu、Tianqi Li）。未见实名实习脚注，仍需第一作者参与该企业项目和师承证据。 官方匿名仓库首批 4a020db（2026-06-30）有 DocMeetSVG 数据和训练/验证代码，但 CurryaNa 没有独立实名绑定；不能用作许在字节的直接证明。"
+      },
+      {
+        "year": 2026,
+        "title": "MKG-CARE: Case-Aware Reasoning with Multimodal Knowledge Graphs for Explainable Medical Image Diagnosis",
+        "url": "https://doi.org/10.1145/3799682.3840673",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-05-21 arXiv:2605.22547 初稿使用短题，CIKM 正式；原文同六人全署中科大、其中Yuhang Zhang 另署香港城市大学，未见范围企业。"
+      },
+      {
+        "year": 2024,
+        "title": "GTDIM: Grid-based Two-stage Dynamic Incentive Mechanism for Mobile Crowd Sensing",
+        "url": "https://doi.org/10.1016/j.pmcj.2024.101964",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024 Elsevier Pervasive and Mobile Computing 103:101964。出版社将宋骐与李向阳列同一中科大单位，作者其余署高校或学术实验室，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "LAORA: Location-Aware Orientation Adjustment for MIMO Magnetic Wireless Charging System",
+        "url": "https://doi.org/10.1109/SECON64284.2024.10934773",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-12-02 IEEE SECON。出版单位为中科大 LINKE、福建师大、香港城市大学，没有可识别企业作者。重心是充电定位与角度调整，和并行反馈通信不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Fast and Anti-starvation Charging Device Grouping for Magnetic Wireless Power Transfer",
+        "url": "https://doi.org/10.1109/INFOCOM55648.2025.11044582",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE INFOCOM 2025-05-19 会期，香港城市大学同篇作者成果档案载 DOI、三笔公共基金及中科大硬件支持。CharGroup 使用组内阻抗和调度算法；未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Relip: Reliable In-Band Parallel Communication for Magnetic MIMO Wireless Power Transfer System",
+        "url": "https://doi.org/10.1109/TMC.2025.3558524",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-04-08 在线。中科大、茨城大学、东京电气通信大学、国立情报学研究所及港城大；未见目标企业。早期 Roland 的正式作者名单没有宋骐。"
+      },
+      {
+        "year": 2025,
+        "title": "In-Band Parallel Feedback Communication for Magnetic MIMO Wireless Power Transfer System",
+        "url": "https://doi.org/10.1109/MWC.003.2400478",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE Wireless Communications 独立文章；核对出版社七位作者署中科大、香港城市大学、东京电气通信大学及国立情报学研究所，和同年 TMC Relip 作者、侧重不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient and Tractable Conflict Detection in Knowledge Graphs via Path Analysis",
+        "url": "https://doi.org/10.1109/TBDATA.2025.3575948",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 首发 2025-06-02，四位均中科大。DeCon/RingE 原文作者与经费未指向目标企业，和 HE-GAD 不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Knowledge-enhanced medical image classification via descriptive priors from large language models",
+        "url": "https://doi.org/10.1007/s13755-025-00380-4",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 首发 2025-09-28。中科大、港城大、安徽中医药大学；文章使用通用开放模型，未见目标企业署名或学生实研。"
+      },
+      {
+        "year": 2025,
+        "title": "MPSol: A Multimodal Prompt Learning Framework for Protein Solubility Prediction",
+        "url": "https://doi.org/10.1109/JBHI.2025.3608273",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2025，出版社六人标中科大、香港城市大学、浙江大学。RNA/蛋白序列公开基准与企业员工无对应证据。"
+      },
+      {
+        "year": 2025,
+        "title": "GraphIF: Enhancing Multi-Turn Instruction Following for Large Language Models with Relation Graph Prompt",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40457",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2511.10051 于 2025-11-13 首发，AAAI 2026-03-14 正式。除 Wen-Da Wei 署南京大学，其他五人均中科大。"
+      },
+      {
+        "year": 2025,
+        "title": "KnowPath: leveraging large language model prior reasoning paths for dynamic self-reflective reasoning via knowledge graph subgraph exploration",
+        "url": "https://doi.org/10.1016/j.eswa.2026.133255",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2502.12029 于 2025-02-17 首稿；2026 ESWA 扩写，与先前 SSRN/预印本保持 KnowPath 核心框架，作者宋骐与赵奇相同。原始五人版本为中科大及浙江工业大学，正式四人均中科大。"
+      },
+      {
+        "year": 2026,
+        "title": "Chunip: Charging-Uninterrupted In-Band Parallel Communication for Magnetic MIMO Wireless Power Transfer System",
+        "url": "https://doi.org/10.1109/INFOCOM59046.2026.11571285",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE INFOCOM 2026-05-18 会期。出版社八人署中科大、港城大、爱丁堡、阿尔托与国立情报学研究所，原文经费为公开项目。"
+      },
+      {
+        "year": 2026,
+        "title": "All-or-Nothing: Towards Hyperedge-Consistent Node Classification",
+        "url": "https://doi.org/10.1007/978-981-92-0366-6_14",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2026-05-09，宋骐与六名共同作者署中科大，Wangqiu Zhou 署合工大，Hao Liu 仅列合肥；未找到能将该 Hao Liu 识别为目标企业研究人员的材料。梁军丽本人明确宋骐与李向阳共同指导。"
+      },
+      {
+        "year": 2026,
+        "title": "ReLiB-100k: a real-world 100k-scale dataset and comprehensive benchmark for capacity estimation of retired lithium-ion batteries",
+        "url": "https://doi.org/10.1007/s10618-026-01204-z",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2026-05-09，正式标题较简历去掉开头 A。九名作者署中科大与合工大，若电池数据有产业来源也未见名单企业作者。不同于 2025 年 2D-CNN 的方法论文。"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient screening of retired lithium-ion batteries with a lightweight stacking model via time-frequency data fusion",
+        "url": "https://doi.org/10.1016/j.est.2026.123818",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "合工大通讯/项目作者成果页明确 2026-07-22，Elsevier 11 月卷；采集共 870 块电池但公开原文未将回收企业与目标名单或具名在读学生在企业研制对应。"
+      },
+      {
+        "year": 2026,
+        "title": "A Multi-stage Framework for Chemical Multimodal Knowledge Graph Construction Using Large Language Models",
+        "url": "https://doi.org/10.1007/978-981-92-2864-5_35",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2026-07-13 首发（版权 2027），正式题录与完整四名中科大作者已核。校内 bibliography 未列，补进。"
+      },
+      {
+        "year": 2026,
+        "title": "CROG: Coverage-aware Reasoning Optimization on Graphs for Multi-hop Question Answering",
+        "url": "https://aclanthology.org/2026.emnlp-main.1164/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026 EMNLP 正式全文，中科大、俄亥俄州立与合工大；梁军丽本人列宋骐、李向阳共同指导，但本篇未见目标企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Koopman-Guided Diffusion for Probabilistic Time Series Forecasting",
+        "url": "https://doi.org/10.1145/3799682.3841028",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM CIKM 2026-11-06 正式上线，出版社列中科大及合工大。作者公开代码未标目标企业共同实验。"
+      }
+    ],
+    "note": "依本人完整书目、学校 LINKE 成果、两个独立作者索引和逐篇出版记录扩展。有华为、腾讯、字节三项署名线索，仍缺学生在企业参与具体论文的证据。其他研究按可公开取得的原文与作者资料判定。"
+  },
+  "-0q6cIYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://arxiv.org/abs/2509.07552v1",
+      "https://penghtyx.github.io/yuki-lipeng/",
+      "https://ece.hkust.edu.hk/yikeguo",
+      "https://hyshkust.github.io/",
+      "https://panolam.github.io/",
+      "https://zhenliuzju.github.io/huyingdong/"
+    ],
+    "papers": [
+      {
+        "title": "PanoLAM: Large Avatar Model for Gaussian Full-Head Synthesis from One-shot Unposed Image",
+        "url": "https://arxiv.org/abs/2509.07552v1",
+        "outcome": "confirmed",
+        "note": "2025-09-09 首稿，李鹏自己公开列郭毅可与罗文汉为港科大博士导师。郭毅可与学生李鹏、阿里巴巴通义实验室研究员何益升同署首稿。何益升为企业共同第一作者兼通讯，并在本人书目对该篇以专门符号标注李鹏为企业实习学生。项目正式页可核对三方与同一方法，各版本合并为一篇。",
+        "year": 2025
+      }
+    ]
+  },
+  "q7NLPG0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://doi.org/10.1145/3799902.3811123",
+      "https://hengyumeng.github.io/",
+      "https://cislab.hkust-gz.edu.cn/members/hengyu-meng/",
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=167",
+      "https://s2026.conference-schedule.org/organization/?inst=5581523508781238107",
+      "https://cislab.hkust-gz.edu.cn/media/documents/SIGGRAPH2026_InvSculpt_Cameraready.pdf#page=1",
+      "https://s2026.conference-schedule.org/presenter/?uid=780683",
+      "https://researchportal.hkust.edu.hk/en/publications/invsculpt-inverse-sculpting-modeling-via-controlled-3d-generation/",
+      "https://cislab.hkust-gz.edu.cn/publications/invsculpt-inverse-sculpting-modeling-via-controlled-3d-generation-and-a-vector-displacement-field/",
+      "https://doi.org/10.1109/3DV66043.2025.00025",
+      "https://zcai0612.github.io/assets/ZeyuCai_CV.pdf",
+      "https://xiaohangzhan.github.io/",
+      "https://arxiv.org/pdf/2403.09326v1",
+      "https://www.duotun-wang.co.uk/HeadEvolver/",
+      "https://cislab.hkust-gz.edu.cn/members/",
+      "https://researchportal.hkust.edu.hk/en/publications/headevolver-text-to-head-avatars-via-expressive-and-attribute-pre/",
+      "https://doi.org/10.2312/pg.20241311",
+      "https://arxiv.org/pdf/2409.05099v1",
+      "https://zcai0612.github.io/DreamMapping/",
+      "https://diglib.eg.org/server/api/core/bitstreams/d7f32b6a-c163-4718-bf2a-6dea971287c6/content",
+      "https://www.duotun-wang.co.uk/",
+      "https://cislab.hkust-gz.edu.cn/publications/uavlight-a-benchmark-for-illumination-robust-3d-reconstruction-in-unmanned-aerial-vehicle-uav-scenes/",
+      "https://yutiaoyi.github.io/",
+      "https://kangdu.top/",
+      "https://arxiv.org/abs/2511.21565v1",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Du_UAVLight_A_Benchmark_for_Illumination-Robust_3D_Reconstruction_in_Unmanned_Aerial_CVPR_2026_paper.pdf",
+      "https://uavlight.github.io/",
+      "https://arxiv.org/abs/2512.23667",
+      "https://arxiv.org/abs/2512.23667v1",
+      "https://arxiv.org/pdf/2512.23667v1",
+      "https://sa2026.conference-schedule.org/presentation/?id=papers_1403&sess=sess141",
+      "https://cislab.hkust-gz.edu.cn/members/kang-du/",
+      "https://kangdu.top/gsid/",
+      "https://arxiv.org/abs/2408.08524",
+      "https://www.linkedin.com/posts/hkust-gz-information-hub_gs-id-activity-7364450574882263040-NmzL",
+      "https://lzhnb.github.io/",
+      "https://cislab.hkust-gz.edu.cn/publications/gs-id/",
+      "https://arxiv.org/abs/2608.17559v1",
+      "https://cislab.hkust-gz.edu.cn/publications/mseditor-toward-consistent-multi-shot-video-editing/",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Tea-Adapter_Teacher_Adapter_for_Efficient_Conditional_Generation_CVPR_2026_paper.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/tea-adapter-teacher-adapter-for-efficient-conditional-generation/",
+      "https://chenyangqiqi.github.io/news.html",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_RetimeGS_Continuous-Time_Reconstruction_of_4D_Gaussian_Splatting_CVPR_2026_paper.pdf",
+      "https://arxiv.org/abs/2603.13783",
+      "https://yulinshen.com/",
+      "https://cislab.hkust-gz.edu.cn/publications/instgs-shared-template-gaussian-instancing-for-object-redundancy-free-rendering/",
+      "https://dblp.uni-trier.de/db/conf/eccv/eccv2026-6.html",
+      "https://doi.org/10.1145/3811364",
+      "https://cislab.hkust-gz.edu.cn/members/zhongyue-guan/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/1-s2.0-S0167839626000610-main.pdf",
+      "https://yixin-hu.github.io/cv_yixinhu.pdf",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2026__LayerInbetween.pdf#page=1",
+      "https://s2026.conference-schedule.org/presentation/?id=papers_1064&sess=sess114",
+      "https://github.com/MarkMoHR/LayerInbetween/commit/9a431b706e21779cd4673ddcb167f3ae8d430c79",
+      "https://raw.githubusercontent.com/MarkMoHR/LayerInbetween/9a431b706e21779cd4673ddcb167f3ae8d430c79/docs/index.html",
+      "https://api.crossref.org/works/10.1145/3811364",
+      "https://cislab.hkust-gz.edu.cn/publications/smarttracer-interactive-tracing-based-stroke-extraction-for-complex-line-art/",
+      "https://cislab.hkust-gz.edu.cn/publications/gatheringsense-ai-generated-imagery-and-embodied-experiences-for-understanding-literati-gatherings/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/CHI26-GatheringSense.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/gen-diaolou-an-integrated-ai-assisted-interactive-system-for-diachronic-understanding-and-preservation-of-the-kaiping-diaolou/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/2602.03095v1.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/sketchdynamics-exploring-free-form-sketches-for-dynamic-intent-expression-in-animation-generation/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/3772318.3791071-29.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/direct-vs-score-based-selection/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Direct_vs__Score_based_crc.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/gardendesigner-encoding-aesthetic-principles-into-jiangnan-garden-construction-via-a-chain-of-agents/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/GardenDesigner_CameraReady.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/up2you-fast-reconstruction-of-yourself-from-unconstrained-photo-collections/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/2509.24817v3.pdf",
+      "https://arxiv.org/abs/2509.24817",
+      "https://cislab.hkust-gz.edu.cn/publications/evdiff3d/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/EvDiff3D.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/unimgs/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/UniMGS_AAAI26_CRC.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/emovid/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/AAAI_2026_EmoVid_CamaraReady.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/easycreator-empowering-4d-creation-through-video-inpainting/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_ICLR_2026__EasyCreator.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/the-dream-of-zhuang-zhou-entangled-agencies-in-multispecies-virtual/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/saartpapers25-16.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/doodleassist-progressive-interactive-line-art-generation-with-latent-distribution-alignment/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/TVCG_DoodleAssist_final.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/linedrawer-stroke-level-process-reconstruction-of-complex-line-art-based-on-human-perception/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/LineDrawer.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/designmemo/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_CSCW_2025__DesignMemo.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/gaussianshopvr-facilitating-immersive-3d-authoring-using-gaussian-splatting-in-vr/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/UIST_2025_GaussianShopVR.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/videocraft-a-mixed-reality-empowered-video-generation-workflow-with-spatial-layer-editing-for-concept-video-creation/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/UIST_2025_VideoCraft.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/text2vdm/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/ICCV2025_Cameraready_Text2VDM.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/magiccolor/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/MagicColor.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/hi-reco-high-fidelity-real-time-conversational-digital-humans/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Hi_Reco.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/degas-detailed-expressions-on-full-body-gaussian-avatars/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/degas.pdf",
+      "https://advocate99.github.io/"
+    ],
+    "papers": [
+      {
+        "title": "InvSculpt: Inverse Sculpting Modeling via Controlled 3D Generation and a Vector Displacement Field",
+        "url": "https://doi.org/10.1145/3799902.3811123",
+        "outcome": "confirmed",
+        "note": "SIGGRAPH 正式首页把署 LIGHTSPEED 的 Lingting Zhu 和 Yingda Yin 标记为本篇企业项目负责人，校方王泽宇为通讯，Hengyu Meng 为第一作者。孟本人记录 2025 年 6 月至 2026 年 3 月在腾讯光子做研究实习，并明确列出 Lingting Zhu 指导；朱本人也确认曾任腾讯高级研究员。会议对本篇的报告人简介明确列孟当时是港科大（广州）MPhil 并同时署腾讯光子。校方实验室和学生本人均确认王泽宇为其硕士导师；不把后续香港校本部博士阶段计入本篇。学校书目记载正式发表日为 2026-07-19。",
+        "year": 2026
+      },
+      {
+        "title": "UAVLight: A Benchmark for Illumination-Robust 3D Reconstruction in Unmanned Aerial Vehicle (UAV) Scenes",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/uavlight-a-benchmark-for-illumination-robust-3d-reconstruction-in-unmanned-aerial-vehicle-uav-scenes/",
+        "outcome": "lead",
+        "note": "2025-11-26 开始公开、CVPR 2026 正式，早期版本曾以 LumiDrone 名义出现，主题、作者单位及项目一致。校方、正稿与共同第一作者 Xue Liao 均支持其与导师王泽宇、当时 2025-08 至 2026-07 美团实习、同篇 美团 UAV 组属实际研究（首次公开与两种身份重合）。目前另三位统一为美团单位，但未取到一位可独立验证的雇员或其明确企业工作分工来源，暂留线索。",
+        "year": 2026
+      },
+      {
+        "title": "MVID: Feed-Forward Multi-View Intrinsic Image Decomposition",
+        "url": "https://arxiv.org/abs/2512.23667",
+        "outcome": "lead",
+        "note": "2025-12-29 早期版本 titled IDT, later renamed MVID, all versions one research. 博士生杜康实名列校内导师王泽宇，MVID 独立列作腾讯合作；他自己在腾讯上一段正式任职在 2024 年结束，未声称本项是本人在腾讯任职。论文初稿和 SIGGRAPH Asia 项目页均列 Yirui Guan 为腾讯、但同期 UAVLight 同名作者只署北京化工大学，正式就业还是实习欠独立证明。",
+        "year": 2026
+      },
+      {
+        "title": "GS-ID: Illumination Decomposition on Gaussian Splatting via Adaptive Light Aggregation and Diffusion-Guided Material Priors",
+        "url": "https://kangdu.top/gsid/",
+        "outcome": "lead",
+        "note": "2024-08 初稿、ICCV 2025。学校信息枢纽明确腾讯混元和美团机器人参与，学生杜康为本项领衔且在校，学院归档和文章只列他、王泽宇、另一位港科大生 Yulin Shen 与华南理工的 Zhihao Liang（本人只确认曾在腾讯实习）。目前不能指认本篇企业员工作者，不能拿未署名人员补。",
+        "year": 2025
+      },
+      {
+        "title": "MSEditor: Toward Consistent Multi-Shot Video Editing",
+        "url": "https://arxiv.org/abs/2608.17559v1",
+        "outcome": "lead",
+        "note": "2026-08-18 首版另同作者发布于 ECCV。校方明示同篇 Yuefeng Wang 署百度，团队还有北京具身创新中心；目前未找到学生 Kunyu Feng 或其他具名在读者同篇属于百度研发的工作证据，百度署名单独不足。",
+        "year": 2026
+      },
+      {
+        "title": "Tea-Adapter: Teacher Adapter for Efficient Conditional Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Tea-Adapter_Teacher_Adapter_for_Efficient_Conditional_Generation_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "CVPR 2026 正式首页明确这个项目在 TeleAI 中国电信实习期间完成，企业不在 14 家。其它作者参与过腾讯混元项目，本篇不转移。",
+        "year": 2026
+      },
+      {
+        "title": "RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_RetimeGS_Continuous-Time_Reconstruction_of_4D_Gaussian_Splatting_CVPR_2026_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "2026-03 预印、CVPR 2026 同一方法。港科大两校园与 Netflix Eyeline Labs 同署，非目标公司；Yulin Shen 的腾讯实习起于 2026-07，不能迁至此研究。",
+        "year": 2026
+      },
+      {
+        "title": "InstGS: Shared-Template Gaussian Instancing for Object-Redundancy-Free Rendering",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/instgs-shared-template-gaussian-instancing-for-object-redundancy-free-rendering/",
+        "outcome": "no-evidence",
+        "note": "ECCV 2026，完整校方机构表仅港科大及广州、香港城市大学与同济大学。作者杜康本人亦仅其他成果标具体企业，本项目无目标企业共研凭证。",
+        "year": 2026
+      },
+      {
+        "title": "LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering",
+        "url": "https://doi.org/10.1145/3811364",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。",
+        "year": 2026
+      },
+      {
+        "title": "SmartTracer: Interactive Tracing-based Stroke Extraction for Complex Line Art",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/smarttracer-interactive-tracing-based-stroke-extraction-for-complex-line-art/",
+        "outcome": "no-evidence",
+        "note": "完整作者介绍明确关同学为王泽宇的硕士生；作者单位为港科大两校园与广州民航职业技术学院。该篇不列腾讯，和之后学生的笔画插值合作分别判断。",
+        "year": 2026
+      },
+      {
+        "title": "GatheringSense: AI-Generated Imagery and Embodied Experiences for Understanding Literati Gatherings",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/gatheringsense-ai-generated-imagery-and-embodied-experiences-for-understanding-literati-gatherings/",
+        "outcome": "no-evidence",
+        "note": "CHI 2026 的文人雅集互动研究。校方原始完整署名列港科大两校园与厦门大学马来西亚，未见目标企业角色。",
+        "year": 2026
+      },
+      {
+        "title": "Gen-Diaolou: An Integrated AI-Assisted Interactive System for Diachronic Understanding and Preservation of the Kaiping Diaolou",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/gen-diaolou-an-integrated-ai-assisted-interactive-system-for-diachronic-understanding-and-preservation-of-the-kaiping-diaolou/",
+        "outcome": "no-evidence",
+        "note": "CHI 2026；论文校方归档列港科大两校园与香港浸会大学，未显示目标公司参加开平碉楼系统。",
+        "year": 2026
+      },
+      {
+        "title": "SketchDynamics: Exploring Free-Form Sketches for Dynamic Intent Expression in Animation Generation",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/sketchdynamics-exploring-free-form-sketches-for-dynamic-intent-expression-in-animation-generation/",
+        "outcome": "no-evidence",
+        "note": "CHI 2026 的动画意图草图系统；同一校方归档列学术单位，未找到以目标公司完成的研究证据。",
+        "year": 2026
+      },
+      {
+        "title": "Direct vs. Score-based Selection: Understanding the Heisenberg Effect in Target Acquisition Across Input Modalities in Virtual Reality",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/direct-vs-score-based-selection/",
+        "outcome": "no-evidence",
+        "note": "2026 的虚拟现实目标选择研究，作者均署港科大两校区，无目标公司参与凭证。",
+        "year": 2026
+      },
+      {
+        "title": "GardenDesigner: Encoding Aesthetic Principles into Jiangnan Garden Construction via a Chain of Agents",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/gardendesigner-encoding-aesthetic-principles-into-jiangnan-garden-construction-via-a-chain-of-agents/",
+        "outcome": "no-evidence",
+        "note": "上海大学、上海市电影特效工程技术研究中心与港科大（广州）联合；校方原档无目标公司署名或分工。",
+        "year": 2026
+      },
+      {
+        "title": "UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/up2you-fast-reconstruction-of-yourself-from-unconstrained-photo-collections/",
+        "outcome": "no-evidence",
+        "note": "原始单位为西湖大学、南京大学与港科大（广州），作者所在单位不支持在目标公司完成本项。",
+        "year": 2026
+      },
+      {
+        "title": "EvDiff3D: Event-Aware Diffusion Repair for High-Fidelity Event-Based 3D Reconstruction",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/evdiff3d/",
+        "outcome": "no-evidence",
+        "note": "校方公开整篇归属港科大两地及南洋理工；没有目标企业在本篇做研究的材料。",
+        "year": 2026
+      },
+      {
+        "title": "UniMGS: Unifying Mesh and 3D Gaussian Splatting with Single-Pass Rasterization and Proxy-Based Deformation",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/unimgs/",
+        "outcome": "no-evidence",
+        "note": "港科大两地和复旦大学研究；公开项目说明为网格与高斯的光栅合成，未列目标公司。",
+        "year": 2026
+      },
+      {
+        "title": "EmoVid: A Multimodal Emotion Video Dataset for Emotion-Centric Video Understanding and Generation",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/emovid/",
+        "outcome": "no-evidence",
+        "note": "港科大两地和复旦的多模态情绪数据集，未见在目标公司内执行研究的原始记载。",
+        "year": 2026
+      },
+      {
+        "title": "EasyCreator: Empowering 4D Creation through Video Inpainting",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/easycreator-empowering-4d-creation-through-video-inpainting/",
+        "outcome": "no-evidence",
+        "note": "原始项目列港科大两地、国大、清华、香港中文大学高校作者；用外部模型或训练资料不等于企业参与。",
+        "year": 2026
+      },
+      {
+        "title": "The Dream of Zhuang Zhou: Entangled Agencies in Multispecies Virtual Reality",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/the-dream-of-zhuang-zhou-entangled-agencies-in-multispecies-virtual/",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia Art 校方档案列两所校园作为作品作者的组织归属；无目标公司参与。",
+        "year": 2025
+      },
+      {
+        "title": "DoodleAssist: Progressive Interactive Line Art Generation with Latent Distribution Alignment",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/doodleassist-progressive-interactive-line-art-generation-with-latent-distribution-alignment/",
+        "outcome": "no-evidence",
+        "note": "TVCG 正式登记港科大两校园与早稻田大学的线描生成研究；未见在目标企业完成的分工。同实验室后续有腾讯合作的不合并。",
+        "year": 2025
+      },
+      {
+        "title": "LineDrawer: Stroke-Level Process Reconstruction of Complex Line Art Based on Human Perception",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/linedrawer-stroke-level-process-reconstruction-of-complex-line-art-based-on-human-perception/",
+        "outcome": "no-evidence",
+        "note": "CAG/C&G 期刊的复杂线描绘制顺序研究，只署港科大两校园；未见目标企业与学生的直接证据。",
+        "year": 2025
+      },
+      {
+        "title": "DesignMemo: Integrating Discussion Context into Online Collaboration with Enhanced Design Rationale Tracking",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/designmemo/",
+        "outcome": "no-evidence",
+        "note": "2025 的在线协作设计复盘研究，校方论文列香港科大两地及 Colorado Boulder；未见目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "GaussianShopVR: Facilitating Immersive 3D Authoring Using Gaussian Splatting in VR",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/gaussianshopvr-facilitating-immersive-3d-authoring-using-gaussian-splatting-in-vr/",
+        "outcome": "no-evidence",
+        "note": "UIST 2025 原文和学生同列港科大两校园；Yulin Shen 后来 2026 年加入腾讯实习的项目未迁入这篇。",
+        "year": 2025
+      },
+      {
+        "title": "VideoCraft: A Mixed Reality-Empowered Video Generation Workflow with Spatial Layer Editing for Concept Video Creation",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/videocraft-a-mixed-reality-empowered-video-generation-workflow-with-spatial-layer-editing-for-concept-video-creation/",
+        "outcome": "no-evidence",
+        "note": "UIST 2025 混合现实视频创作；学术单位为港科大两地，未见目标企业作者或同项合作材料。",
+        "year": 2025
+      },
+      {
+        "title": "Text2VDM: Text to Vector Displacement Maps for Expressive and Interactive 3D Sculpting",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/text2vdm/",
+        "outcome": "no-evidence",
+        "note": "ICCV 2025、港科大两校园和中国科学技术大学。虽然首作者本人在 2025 年曾到腾讯，校方原件不显示该论文在腾讯做，不能沿用同一学生的 InvSculpt 证据。",
+        "year": 2025
+      },
+      {
+        "title": "MagicColor: Multi-Instance Sketch Colorization",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/magiccolor/",
+        "outcome": "no-evidence",
+        "note": "ICCV 2025，原始署名的两单位为同一校两校园；没有目标企业的同项目参与凭证。",
+        "year": 2025
+      },
+      {
+        "title": "Hi-Reco: High-Fidelity Real-Time Conversational Digital Humans",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/hi-reco-high-fidelity-real-time-conversational-digital-humans/",
+        "outcome": "no-evidence",
+        "note": "合作单位为 Prometheus Vision Technology Co., Ltd. 和港科大两地；该部属以原始署名为准，不属项目 14 家企业。",
+        "year": 2025
+      },
+      {
+        "title": "DEGAS: Detailed Expressions on Full-Body Gaussian Avatars",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/degas-detailed-expressions-on-full-body-gaussian-avatars/",
+        "outcome": "no-evidence",
+        "note": "3DV 2025；正式校方资料列港科大两地、Prometheus Vision Technology 和 Swinburne University。前者不在 14 家企业，不能沿用本组另外一篇的腾讯合作。",
+        "year": 2025
+      }
+    ]
   }
 };

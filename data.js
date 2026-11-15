@@ -47227,6 +47227,106 @@ const survey = {
       ],
       "evidence": "2026-07-23 首次公开晚于港科大博士生 Yingdong Hu结束通义实习，但企业共同一作兼通讯作者何益升在本篇学术书目直接用 ^ 标记该博士生是实习学生；学生本人公开履历实名列何益升为 2025 年 5 月至 2026 年 4 月通义实验室同期研究协作者，方向与本篇一致。记录研究期的企业参与，不推定公开日仍在职。首稿列学生和任导师张军为港科大，何益升及 Steven Hoi 为阿里通义。NeurIPS 2026 官方目录有该名称。与 Forge4D 的稀疏视图人体重建分别处理；与以单目全头静态建模为主的 PanoLAM 是不同论文，FA-LAM 首稿也引用 PanoLAM。",
       "paperId": "10.48550/arXiv.2607.20922"
+    },
+    {
+      "id": "alibaba-panolam-hkust-yike-guo",
+      "company": "阿里巴巴",
+      "team": "通义实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "郭毅可 · Yike Guo",
+        "香港科技大学教授；博士生公开履历具名的博士导师，论文共同作者。",
+        "https://ece.hkust.edu.hk/yikeguo"
+      ],
+      "employee": [
+        "何益升 · Yisheng He",
+        "阿里巴巴通义实验室研究科学家，个人明确记录 2023 年至今，本文共同第一作者和企业通讯作者。书目定义 ^ 为实习学生，逐篇标明。",
+        "https://hyshkust.github.io/"
+      ],
+      "student": [
+        "李鹏 · Peng Li",
+        "港科大在读博士生、共同第一作者。相应论文企业通讯作者在本人书目把李鹏明确标为本篇企业实习学生。",
+        "https://penghtyx.github.io/yuki-lipeng/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大博士阶段个人履历明确记录该导师，学术导师与学生在初稿同署。",
+        "https://penghtyx.github.io/yuki-lipeng/"
+      ],
+      "title": "PanoLAM: Large Avatar Model for Gaussian Full-Head Synthesis from One-shot Unposed Image",
+      "short": "PanoLAM",
+      "date": "2025-09-09",
+      "venue": "arXiv 预印本（作者书目列为 IEEE TVCG）",
+      "area": "单张无位姿输入的全头部三维高斯重建",
+      "paper": "https://arxiv.org/abs/2509.07552v1",
+      "extra": [
+        [
+          "学生牵头的公开项目和分工",
+          "https://panolam.github.io/"
+        ],
+        [
+          "预印本作者及企业署名",
+          "https://arxiv.org/abs/2509.07552v1"
+        ],
+        [
+          "期刊信息与共同作者记录",
+          "https://zhenliuzju.github.io/huyingdong/"
+        ]
+      ],
+      "evidence": "2025-09-09 首稿，李鹏自己公开列郭毅可与罗文汉为港科大博士导师。郭毅可与学生李鹏、阿里巴巴通义实验室研究员何益升同署首稿。何益升为企业共同第一作者兼通讯，并在本人书目对该篇以专门符号标注李鹏为企业实习学生。项目正式页可核对三方与同一方法，各版本合并为一篇。"
+    },
+    {
+      "id": "tencent-invsculpt-hkustgz-zeyu-wang",
+      "company": "腾讯",
+      "team": "光子工作室群（LIGHTSPEED）",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "王泽宇 · Zeyu Wang",
+        "香港科技大学（广州）助理教授，校方 CIS Lab 负责人，孟同学的硕士导师，论文的通讯作者；与武大同名教授是不同人。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=167"
+      ],
+      "employee": [
+        "Lingting Zhu",
+        "腾讯光子工作室群的企业研究员，该论文首页标注为项目负责人；学生个人履历同样具名列他为研究实习导师。",
+        "https://advocate99.github.io/"
+      ],
+      "student": [
+        "Hengyu Meng",
+        "项目研究期在港科大（广州）修读 MPhil，论文第一作者；个人 2025 年 6 月至 2026 年 3 月在腾讯光子实习，SIGGRAPH 本项目的具名会务详情列他港科大（广州）与腾讯光子双署。未把后续香港科大博士阶段当成本篇学籍。",
+        "https://hengyumeng.github.io/"
+      ],
+      "advising": [
+        "硕士导师",
+        "本人明确记载此前的港科大（广州）MPhil 由王泽宇导师指导，校方实验室有同期学生名单；王泽宇在本项为正式论文通讯。",
+        "https://cislab.hkust-gz.edu.cn/members/hengyu-meng/"
+      ],
+      "title": "InvSculpt: Inverse Sculpting Modeling via Controlled 3D Generation and a Vector Displacement Field",
+      "short": "InvSculpt",
+      "date": "2026-07-19",
+      "venue": "ACM SIGGRAPH 2026",
+      "area": "三维逆雕刻与几何细节矢量位移转移",
+      "paper": "https://doi.org/10.1145/3799902.3811123",
+      "extra": [
+        [
+          "校方正式论文镜像：双企业项目负责人及学校通讯作者",
+          "https://cislab.hkust-gz.edu.cn/media/documents/SIGGRAPH2026_InvSculpt_Cameraready.pdf#page=1"
+        ],
+        [
+          "本项会务简介：MPhil 在籍、校企双署",
+          "https://s2026.conference-schedule.org/presenter/?uid=780683"
+        ],
+        [
+          "校方记录的正式发表日期 2026-07-19",
+          "https://researchportal.hkust.edu.hk/en/publications/invsculpt-inverse-sculpting-modeling-via-controlled-3d-generation/"
+        ],
+        [
+          "作者与单位的实验室归档",
+          "https://cislab.hkust-gz.edu.cn/publications/invsculpt-inverse-sculpting-modeling-via-controlled-3d-generation-and-a-vector-displacement-field/"
+        ]
+      ],
+      "evidence": "SIGGRAPH 正式首页把署 LIGHTSPEED 的 Lingting Zhu 和 Yingda Yin 标记为本篇企业项目负责人，校方王泽宇为通讯，Hengyu Meng 为第一作者。孟本人记录 2025 年 6 月至 2026 年 3 月在腾讯光子做研究实习，并明确列出 Lingting Zhu 指导；朱本人也确认曾任腾讯高级研究员。会议对本篇的报告人简介明确列孟当时是港科大（广州）MPhil 并同时署腾讯光子。校方实验室和学生本人均确认王泽宇为其硕士导师；不把后续香港校本部博士阶段计入本篇。学校书目记载正式发表日为 2026-07-19。"
     }
   ]
 };
