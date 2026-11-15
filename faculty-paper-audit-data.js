@@ -18334,7 +18334,13 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2506.04216",
       "https://openreview.net/pdf?id=Vb4nE3WWf5",
       "https://arxiv.org/abs/2412.07744",
-      "https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_StyleMaster_Stylize_Your_Video_with_Artistic_Generation_and_Translation_CVPR_2025_paper.pdf"
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_StyleMaster_Stylize_Your_Video_with_Artistic_Generation_and_Translation_CVPR_2025_paper.pdf",
+      "https://arxiv.org/abs/2607.14681v1",
+      "https://liuxinyv.github.io/",
+      "https://longo11070001.github.io/",
+      "https://arxiv.org/pdf/2607.14681v1#page=1",
+      "https://rebind-mrv2v.github.io/",
+      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and/"
     ],
     "papers": [
       {
@@ -18354,6 +18360,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2412.07744",
         "outcome": "lead",
         "note": "原文具名快手实习；实验、预印本及会议均早于学生港科大博士入学。正式署港科大不能替代证实当时在该校联合培养的学籍资料，华中科大硕士导师也未同篇署名。"
+      },
+      {
+        "title": "ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships",
+        "url": "https://arxiv.org/abs/2607.14681v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "2026-07-16 首稿仅在第一作者刘昕煜姓名后标星，脚注明确说明工作在可灵团队实习期间完成。刘本人记录 2026 年 3–7 月在快手可灵实习，港科大博士导师为郭毅可和罗文寒，两人均署港科大。张远行本人确认在快手可灵负责多模态理解，本篇署可灵并与罗文寒共同通讯。两位博士导师分别可查询，索引把同篇只计一次。"
       }
     ]
   },
@@ -63533,7 +63546,17 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2601.04137v1",
       "https://arxiv.org/html/2503.08638v1#S15",
       "https://a43992899.github.io/",
-      "https://github.com/litwellchi/M2Chat"
+      "https://github.com/litwellchi/M2Chat",
+      "https://arxiv.org/abs/2607.14681v1",
+      "https://liuxinyv.github.io/",
+      "https://longo11070001.github.io/",
+      "https://arxiv.org/pdf/2607.14681v1#page=1",
+      "https://rebind-mrv2v.github.io/",
+      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and/",
+      "https://arxiv.org/html/2604.11103v1",
+      "https://arxiv.org/html/2609.33757v1",
+      "https://arxiv.org/html/2503.01710v1",
+      "https://github.com/ali-vilab/DreamVideo-Omni"
     ],
     "papers": [
       {
@@ -63618,7 +63641,42 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2503.08638",
         "year": 2025,
         "outcome": "lead",
-        "note": "项目中袁锐斌在月之暗面的具体参与已有同篇证据；同篇关系按具名导师薛巍已记。郭毅可虽为同篇通讯作者，还未找到他对该实习学生的具名导师证据。美团与小红书作者的论文工作是评测，未见郭毅可指导的在读学生属于对应企业研究。"
+        "note": "项目中袁锐斌在月之暗面的具体参与已有同篇证据；同篇关系按具名导师雪巍已记。郭毅可虽为同篇通讯作者，还未找到他对该实习学生的具名导师证据。美团与小红书作者的论文工作是评测，未见郭毅可指导的在读学生属于对应企业研究。"
+      },
+      {
+        "title": "ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships",
+        "url": "https://arxiv.org/abs/2607.14681v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "2026-07-16 首稿仅在第一作者刘昕煜姓名后标星，脚注明确说明工作在可灵团队实习期间完成。刘本人记录 2026 年 3–7 月在快手可灵实习，港科大博士导师为郭毅可和罗文寒，两人均署港科大。张远行本人确认在快手可灵负责多模态理解，本篇署可灵并与罗文寒共同通讯。两位博士导师分别可查询，索引把同篇只计一次。"
+      },
+      {
+        "title": "ActorMind: Emulating Human Actor Reasoning for Speech Role-Playing",
+        "url": "https://arxiv.org/abs/2604.11103v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首稿所有作者归属港科大。IndexTTS 为评测中使用的基础模型，未见其企业开发者参与该研究。"
+      },
+      {
+        "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+        "url": "https://arxiv.org/abs/2609.33757v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2026 年 9 月发表，原文逐人贡献表列袁锐斌为港科大、ACE Studio 和开源团队 MAP。ACE Studio 不在目标名单，不能沿用上一代 YuE 的月之暗面任职。"
+      },
+      {
+        "title": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
+        "url": "https://arxiv.org/abs/2503.01710v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "原文作者单位列 SparkAudio、港科大、出门问问、网易伏羲及多所其他高校；它使用 Qwen2.5 的模型，未见阿里同篇参与。"
+      },
+      {
+        "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.12257v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "阿里通义主导同项、企业仓库公开代码，刘昕煜为共同一作，但首稿仅署港科大，且首次公开晚于其通义实习三个月。尚未找到他在通义实际完成这一篇的独立时间或分工记录；不可借用 ReViSE 的脚注或署名。"
       }
     ]
   },

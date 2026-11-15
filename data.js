@@ -47805,6 +47805,102 @@ const survey = {
           "https://doi.org/10.1109/TON.2026.3720532"
         ]
       ]
+    },
+    {
+      "id": "kuaishou-rebind-hkust-yike-guo",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "title": "ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships",
+      "short": "ReBind",
+      "date": "2026-07-16",
+      "venue": "arXiv 预印本",
+      "area": "多参考图像视频编辑与对象关系控制",
+      "paper": "https://arxiv.org/abs/2607.14681v1",
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "2024 年起任职快手，在可灵团队负责多模态理解；第一版以可灵署名并任本篇通讯作者。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "刘昕煜 · Xinyu Liu",
+        "港科大博士生，署港科大和可灵且为第一作者；本篇首页明确说在可灵实习期间完成。",
+        "https://liuxinyv.github.io/"
+      ],
+      "advising": [
+        "博士共同导师",
+        "学生本人具名列出郭毅可、罗文寒为港科大博士共同导师；原文两人均为校方作者。",
+        "https://liuxinyv.github.io/"
+      ],
+      "extra": [
+        [
+          "首稿首页的第一作者实习脚注",
+          "https://arxiv.org/pdf/2607.14681v1#page=1"
+        ],
+        [
+          "同题原始项目",
+          "https://rebind-mrv2v.github.io/"
+        ],
+        [
+          "快手官方可灵所属说明",
+          "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and/"
+        ]
+      ],
+      "evidence": "2026-07-16 首稿仅在第一作者刘昕煜姓名后标星，脚注明确说明工作在可灵团队实习期间完成。刘本人记录 2026 年 3–7 月在快手可灵实习，港科大博士导师为郭毅可和罗文寒，两人均署港科大。张远行本人确认在快手可灵负责多模态理解，本篇署可灵并与罗文寒共同通讯。两位博士导师分别可查询，索引把同篇只计一次。",
+      "faculty": [
+        "郭毅可 · Yike Guo",
+        "港科大教授，刘昕煜的博士共同导师，原文校方作者。",
+        "https://ece.hkust.edu.hk/yikeguo"
+      ]
+    },
+    {
+      "id": "kuaishou-rebind-hkust-wenhan-luo",
+      "company": "快手",
+      "team": "可灵（Kling）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "title": "ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships",
+      "short": "ReBind",
+      "date": "2026-07-16",
+      "venue": "arXiv 预印本",
+      "area": "多参考图像视频编辑与对象关系控制",
+      "paper": "https://arxiv.org/abs/2607.14681v1",
+      "employee": [
+        "张远行 · Yuanxing Zhang",
+        "2024 年起任职快手，在可灵团队负责多模态理解；第一版以可灵署名并任本篇通讯作者。",
+        "https://longo11070001.github.io/"
+      ],
+      "student": [
+        "刘昕煜 · Xinyu Liu",
+        "港科大博士生，署港科大和可灵且为第一作者；本篇首页明确说在可灵实习期间完成。",
+        "https://liuxinyv.github.io/"
+      ],
+      "advising": [
+        "博士共同导师",
+        "学生本人具名列出郭毅可、罗文寒为港科大博士共同导师；原文两人均为校方作者。",
+        "https://liuxinyv.github.io/"
+      ],
+      "extra": [
+        [
+          "首稿首页的第一作者实习脚注",
+          "https://arxiv.org/pdf/2607.14681v1#page=1"
+        ],
+        [
+          "同题原始项目",
+          "https://rebind-mrv2v.github.io/"
+        ],
+        [
+          "快手官方可灵所属说明",
+          "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and/"
+        ]
+      ],
+      "evidence": "2026-07-16 首稿仅在第一作者刘昕煜姓名后标星，脚注明确说明工作在可灵团队实习期间完成。刘本人记录 2026 年 3–7 月在快手可灵实习，港科大博士导师为郭毅可和罗文寒，两人均署港科大。张远行本人确认在快手可灵负责多模态理解，本篇署可灵并与罗文寒共同通讯。两位博士导师分别可查询，索引把同篇只计一次。",
+      "faculty": [
+        "罗文寒 · Wenhan Luo",
+        "港科大助理教授，刘昕煜的博士共同导师，原文通讯作者。",
+        "https://ece.hkust.edu.hk/whluo"
+      ]
     }
   ]
 };
