@@ -15795,7 +15795,12 @@ const facultyPaperAudits = {
       "https://cse.hkust.edu.hk/pg/defenses/Summer26/httsangaj-07-08-2026.html",
       "https://gzone0111.github.io/profile/",
       "https://github.com/HKUST-KnowComp/AutoSchemaKG/blob/main/pyproject.toml",
-      "https://leijiewu.github.io/research/"
+      "https://leijiewu.github.io/research/",
+      "https://openreview.net/pdf/d569b33a1b2aa9116eee7e8609b6bf4b1c493b52.pdf",
+      "https://arxiv.org/html/2510.17934v1",
+      "https://hhy-huang.github.io/",
+      "https://github.com/HKUST-KnowComp/AtlasKV/commit/bd29076fd6e1f88c81ad9b68c3b6313011b456b6",
+      "https://hk.linkedin.com/in/xi-peng-pancy"
     ],
     "papers": [
       {
@@ -15834,6 +15839,13 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "2025-05-29 首版已列港科大曾康庭、导师宋陽秋与华为吴雷杰同篇。导师官方名单和港科大答辩确证曾康庭为 2024–2026 研究型硕士；他在学期间实际开发过同论文的图谱检索与剪枝，有 2025-06-06 原始代码及同项目软件署名。吴雷杰本人明确在华为任研究科学家时与宋陽秋团队共同研究 AutoSchemaKG。此处确认同项研究参与，不推定学生在华为实习，也不混同其他产品部署。",
         "year": 2026
+      },
+      {
+        "title": "AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM",
+        "url": "https://openreview.net/pdf/d569b33a1b2aa9116eee7e8609b6bf4b1c493b52.pdf",
+        "outcome": "lead",
+        "note": "2025-10-20 arXiv 首稿，ICLR 2026 正式发表。同篇署华为理论实验室彭曦、张弓；黄皓宇始于 2025 年秋在香港科大读博，宋陽秋是导师，精确仓库证明其实现同项 KG→KV 注入和层次剪枝。华为研究员曾转发项目说明，但目前仅查到同篇署名和转发，缺华为独立同篇研究记录或该学生参加企业项目的明确材料。AutoSchemaKG 被本篇引用，不借用前者已证实的合作证据。",
+        "year": 2025
       }
     ]
   },
@@ -67631,7 +67643,20 @@ const facultyPaperAudits = {
       "https://people.ucas.ac.cn/~cyj",
       "https://people.ucas.ac.cn/~huangdi",
       "https://github.com/IPRC-DIP/RealBench",
-      "https://arxiv.org/abs/2506.10399"
+      "https://arxiv.org/abs/2506.10399",
+      "https://lib.dicp.ac.cn/info/1070/1583.htm",
+      "https://patentimages.storage.googleapis.com/de/42/63/64461ff1f5dba9/CN120046659A.pdf",
+      "https://ict.cas.cn/sourcedb/cn/jssrck/202507/t20250717_7891682.html",
+      "https://arxiv.org/abs/2312.00084v1",
+      "https://arxiv.org/abs/2406.16743v1",
+      "https://arxiv.org/abs/2401.12491v1",
+      "https://arxiv.org/abs/2406.03250v1",
+      "https://luban-paper.github.io/",
+      "https://www.aspdac.com/aspdac2026/archive/program/program-abstract.html",
+      "https://yiminggan.com/",
+      "https://github.com/WZX0Swarm0Robotics/KARMA",
+      "https://airs.cuhk.edu.cn/publications?page=0%2C2",
+      "https://arxiv.org/abs/2409.14908"
     ],
     "papers": [
       {
@@ -67663,10 +67688,10 @@ const facultyPaperAudits = {
         "outcome": "no-evidence"
       },
       {
-        "year": 2024,
+        "year": 2023,
         "title": "Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion?",
         "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_Can_Protective_Perturbation_Safeguard_Personal_Data_from_Being_Exploited_by_CVPR_2024_paper.pdf",
-        "note": "CVPR 正式版比较图像保护扰动在生成模型被个性化微调时的成效。作者列国科大、计算所、Drexel 及上海处理器创新中心；未见目标企业。",
+        "note": "2023-11-30 arXiv:2312.00084 首稿，跟 CVPR 2024 正式版同篇。评测保护扰动的失效并以去扰动恢复生成模型的个性化学习，区别提出保护手段的 UDP 工作。作者署国科大、计算所、Drexel 和上海处理器创新中心，无目标企业作者。",
         "outcome": "no-evidence"
       },
       {
@@ -67890,7 +67915,7 @@ const facultyPaperAudits = {
         "year": 2024,
         "title": "InverseCoder: Self-improving Instruction-Tuned Code LLMs with Inverse-Instruct",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34742/36897",
-        "note": "2024-07-08 arXiv:2407.05700v1 首稿及 AAAI 2025 同篇。第一作者的公开项目账号同一账号自述中文名吴钰同、中科大本科；国科大拟录取名单证实其计算所电子信息专业录取，且与同一名单另一位同拼音申请者分开。本人同期自述计算所在读博士，首稿逐作者脚注明确他在百度实习期间完成。合著者尹大伟为同期百度员工。胡杏、陈云霁与黄迪的公开资料未见本人具名指导吴钰同，仍保留线索。",
+        "note": "2024-07-08 初版与 AAAI 2025 同篇。国科大录取信息及第一作者的本人资料确认吴钰同；论文首稿逐人脚注明确其在百度实习完成同篇，尹大伟有同期百度履历。计算所专利 CN120046659A 列吴钰同、黄迪、胡杏、陈云霁，使用和论文相同的代码预处理、总结多条指令、自评筛选流程；计算所是申请人，专利未注明导师或分工。仍缺同篇合资格教师与吴钰同的具名指导。",
         "outcome": "lead"
       },
       {
@@ -67948,9 +67973,72 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2610.41225v1",
         "note": "2026-10-30 首稿，训练单模型在 RTL 生成、电子设计自动化检查及依据工具反馈修补间切换，区别只用端口验证做分解的 VPID。作者单位为计算所、国科大及上海科技大学。DeepSeek 是教师模型，美团模型是基线，未见目标企业同篇作者或校企研究证据。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Online Symbolic Regression with Informative Query",
+        "url": "https://doi.org/10.1609/aaai.v37i4.25641",
+        "note": "2023-02 arXiv:2302.10539 与 AAAI 卷期合并。主动查询最有信息的采样点来识别符号表达式；第一作者靳鹏威、论文有胡杏，但原文所列企业为范围外寒武纪。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Unlearnable Examples for Diffusion Models: Protect Data from Unauthorized Exploitation",
+        "url": "https://arxiv.org/pdf/2306.01902v1",
+        "note": "2023-06-02 首稿、2024 修订用同一编号。提出 UDP 给训练图像加扰动，区别研究扰动局限与图像净化的 CVPR Can Protective Perturbation。署名为计算所、国科大、Drexel 与上海处理器创新中心。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Unlearnable Examples Give a False Sense of Data Privacy: Understanding and Relearning",
+        "url": "https://arxiv.org/abs/2306.02064",
+        "note": "2023-06-03 以 Flew Over Learning Trap 首发；2025 修订改题，方法通过分阶段训练绕过不可学习样本。与 Zhao 团队针对生成式扩散模型的工作不同，作者单位中无目标企业，NVIDIA 为实验设备。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Assessing and Understanding Creativity in Large Language Models",
+        "url": "https://link.springer.com/article/10.1007/s11633-025-1546-4",
+        "note": "2024-01-23 arXiv:2401.12491 与 Machine Intelligence Research 2025 正式版合并。以多维度评测及人工对照分析模型创造力；阿里 Qwen 等为比较对象，学术作者单位与同篇来源不支持企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Luban: Building Open-Ended Creative Agents via Autonomous Embodied Verification",
+        "url": "https://arxiv.org/pdf/2405.15414v1",
+        "note": "2024-05-24 首稿，与课题组项目页互证。以视觉结构和环境功能两层验证驱动 Minecraft 创意建造；校内作者、范围外的寒武纪与研究机构署名，没有范围内企业同篇角色。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Prompt-based Visual Alignment for Zero-shot Policy Transfer",
+        "url": "https://proceedings.mlr.press/v235/gao24r.html",
+        "note": "2024-06-05 首稿 arXiv:2406.03250 与 ICML 正式版合并。视觉语言模型作为语义约束，对齐不同环境的图像以零样本迁移策略；区别 2023 年 OPA 的少样本功能匹配。署名与致谢无目标企业项目证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Safety Alignment of Large Language Models via Contrasting Safe and Harmful Distributions",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40785/44746",
+        "note": "2024-06-24 arXiv:2406.16743 首稿题为 Adversarial Contrastive Decoding；AAAI 2026 改题及调整部分作者，正反提示优化及对比解码方法相同，按同篇计。原文主要机构为计算所、国科大及 Drexel；NVIDIA 是运行设备。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems",
+        "url": "https://doi.org/10.1109/ICRA55743.2025.11128047",
+        "note": "2024-09-23 arXiv:2409.14908 首发，与 ICRA 2025 同篇。作者 Junzhe Zhao 署阿里，甘一鸣的公开组内名单与第一作者项目页支持学生和论文归属。胡杏同篇，但没有她具名指导第一作者的证据；还缺任何在读共同作者作为阿里实习生参与同篇的证据。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "FlexMem: High-Parallel Near-Memory Architecture for Flexible Dataflow in Fully Homomorphic Encryption",
+        "url": "https://arxiv.org/pdf/2503.23496v1",
+        "note": "2025-03-30 首稿，ASP-DAC 2026 会议正式题录同题、作者序列大体相同，最终版未列齐国。以近存硬件和灵活数据流加速同态加密，与 Alchemist 的跨方案加速及 FicGCN 的图推理工作区分；首稿企业署名为范围外寒武纪。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "个人公开资料、国科大招生记录与论文首稿已确认 InverseCoder 在百度实习完成的第一作者是吴钰同。尚缺计算所学位、培养记录或其他公开来源具名说明他的导师，关系继续留线索。技术论文另按首发逐篇梳理。"
+    "note": "按正式出版信息与首稿纠正若干重复版本和首发年份。吴钰同具名导师仍未核实；中科院学位论文目录题录限院内访问，公开毕业及教学资料没有新的具名证据。计算所专利署名与核心技术可补证论文项目，发明人排列并不说明导师。KARMA 已核到阿里作者、校内课题组，但未核到在读学生在该公司参与同篇工作。继续梳理公开书目。"
   },
   "88tzr_sAAAAJ": {
     "from": "2023-01-01",
@@ -68375,11 +68463,11 @@ const facultyPaperAudits = {
         "relationIds": []
       },
       {
-        "year": 2026,
+        "year": 2024,
         "title": "Heterogeneity-Aware Semi-Supervised Federated Learning With Client-to-Client Collaboration",
         "url": "https://doi.org/10.1109/TMC.2026.3665045",
         "outcome": "no-evidence",
-        "note": "IEEE 2026-02-16 提前上线，作者均署中科大。当期未见具名企业参与；姚志伟后续华为去向不能外推。这篇第一作者 Yang Xu，和 2024–25 Jianchun Liu 为第一作者的渐进训练作品分别计。",
+        "note": "ICDE 2024 Clients Help Clients (10.1109/ICDE60146.2024.00149) 先发表 FedAC；IEEE TMC 2026.3665045 正文明确 E-FedAC 扩展此前 FedAC 的交替同类/异类客户端协作。两版统一计 2024；署中科大及布法罗大学，未见目标企业。姚志伟的毕业去向不作为同篇实研。",
         "relationIds": []
       },
       {
@@ -68692,6 +68780,102 @@ const facultyPaperAudits = {
         "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
         "note": "ACM SIGCOMM 2026 议程列腾讯云 Shaohui Xu、Fanjie Meng，王保清校方列为在读。首轮同组 APNet 2025（10.1145/3735358.3735371）研究同一空间聚合降低时间波动并共四名中科大作者，统一记早版，仍缺学生在腾讯云开展 Hestia 的具名材料，企业仅见扩展版。",
         "outcome": "lead",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Federated Fine-Tuning on Heterogeneous Devices with Adaptive Quantization and LoRA Depths",
+        "url": "https://doi.org/10.1109/ICPADS67057.2025.11323139",
+        "note": "IEEE 题录会议 2025-12-14，DOI 于 2026-01 登记。六位署中科大。这篇联合自适应量化和 LoRA 深度，与采用层级 LoRA 部署及激活量化的 FedQuad 作者、系统和 DOI 不同；无目标企业署名。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Towards layer-wise quantization for heterogeneous federated clients",
+        "url": "https://doi.org/10.1016/j.comnet.2025.111223",
+        "note": "Elsevier 2025-03-25 提前上线；六作者皆中科大。FedLQ 依据层重要度选择量化级数，和参与客户端轻量训练的不同作品不重复；未见公司合研。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Hierarchical Sketch: An Efficient Solution for Threshold-t Flows Measurement in High-Speed Networks",
+        "url": "https://doi.org/10.1109/ISPA-BDCloud-SocialCom-SustainCom59178.2023.00036",
+        "note": "2023-12-21 会议，2024-04 DOI 登记；IEEE 署苏州大学、南京大学及中科大，流量估计用于高速网，未见具名目标公司。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Federated Learning With Client Selection and Gradient Compression in Heterogeneous Edge Systems",
+        "url": "https://doi.org/10.1109/TMC.2023.3309497",
+        "note": "IEEE 2023-08 提前刊，同一五位主要作者的 INFOCOM 2023.10229029 使用自适应客户端选择和梯度压缩初稿，按 2023 在窗内只计一次。作者单位中科大、加州大学圣克鲁斯和布法罗大学；未见企业合作。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Semi-Supervised Decentralized Machine Learning With Device-to-Device Cooperation",
+        "url": "https://doi.org/10.1109/TMC.2024.3369188",
+        "note": "IEEE 2024-02 提前发布，具名中科大及布法罗大学；工作采用无中心的端到端合作，区别于 FedAC 的中心协调式交替客户端聚类。未见目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Enhancing Federated Learning With Server-Side Unlabeled Data by Adaptive Client and Data Selection",
+        "url": "https://doi.org/10.1109/TMC.2023.3265010",
+        "note": "IEEE 2023-04 提前版、2024 卷期。论文所列作者来自中科大，王伦的毕业去向不改变当期归属；未见目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Enhancing Decentralized and Personalized Federated Learning With Topology Construction",
+        "url": "https://doi.org/10.1109/TMC.2024.3367872",
+        "note": "IEEE 2024-02 正式上线，署中科大、之江实验室；方法为 TOPFL 拓扑构建下的个性化共享部分模型，不是 2023 Min Chen 的设备异构完整模型工作。无目标公司。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Accelerating Federated Learning With Data and Model Parallelism in Edge Computing",
+        "url": "https://doi.org/10.1109/TNET.2023.3299851",
+        "note": "IEEE 2023-08 提前版和 2024 卷期，署中科大及布法罗大学。是双并行的工作，不同于 ParallelSFL 的客户端与服务器切割；未见目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2024,
+        "title": "Federated Learning With Experience-Driven Model Migration in Heterogeneous Edge Networks",
+        "url": "https://doi.org/10.1109/TNET.2024.3390416",
+        "note": "IEEE 2024-04 提前版，题录为中科大、苏州大学和合肥工业大学。此篇提出经验驱动的模型迁移；未见目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Adaptive Block-Wise Regularization and Knowledge Distillation for Enhancing Federated Learning",
+        "url": "https://doi.org/10.1109/TNET.2023.3301972",
+        "note": "IEEE 2023-08 提前，2024 卷期。署中科大、苏州大学。使用块级正则和蒸馏，王志远随后入职阿里不能倒推，本项目无范围内企业署名。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Lightweight Per-Flow Traffic Measurement Using Improved LRU List",
+        "url": "https://doi.org/10.1109/TNSE.2023.3236147",
+        "note": "IEEE 2023-01-11 提前版与当年 7 月刊期；署中科大和美国佛罗里达大学。改进 LRU 流监测不同于 Yao 的多控制器协作测量。未见具名目标公司。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous Devices",
+        "url": "https://doi.org/10.1109/ICDE55515.2023.00177",
+        "note": "ICDE 2023-04 正式题录四人署中科大；Min Chen 当时学籍和邮箱为中科大，后来入职华为云不应倒推。未见当期目标企业。",
+        "outcome": "no-evidence",
         "relationIds": []
       }
     ],
@@ -69043,7 +69227,7 @@ const facultyPaperAudits = {
   "lW9bpFIAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://hub.hku.hk/bitstream/10722/331903/1/content.pdf",
       "https://hub.hku.hk/handle/10722/373228",
@@ -69200,7 +69384,13 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2410.08001v1",
       "https://hub.hku.hk/handle/10722/319776",
       "https://haoran-qiu.com/pdf/fring.pdf",
-      "https://export.arxiv.org/api/query?search_query=au%3A%22Heming%20Cui%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=200"
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Heming%20Cui%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=200",
+      "https://doi.org/10.1109/TCOMM.2026.3731849",
+      "https://api.crossref.org/works/10.1109%2FTCOMM.2026.3731849",
+      "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/15/Measuring-the-Influence-of-Incorrect-Code-on-Test-Generation",
+      "https://www.sciencedirect.com/science/article/pii/S1071579726000092",
+      "https://api.openalex.org/works/https://doi.org/10.1016/j.ffa.2026.102798",
+      "https://github.com/eurosys-27-1183/GTSparse/releases"
     ],
     "papers": [
       {
@@ -69214,14 +69404,14 @@ const facultyPaperAudits = {
         "title": "Rethink Query Optimization in HTAP Databases",
         "url": "https://haozesong.github.io/data/sigmod24-metis.pdf",
         "outcome": "confirmed",
-        "note": "ACM 第 1 卷第 4 期于 2023-12-12 在线公开，卷期日期为 12 月 8 日，次年在 SIGMOD 宣读。原文首页将香港大学博士生宋昊泽具体标为阿里集团实习期间完成；正式博士论文及履历证明崔鹤鸣导师关系，崔鹤鸣与阿里李飞飞、周文超、彭翔同篇署名。阿里云的当年活动确认李飞飞的企业职位，学生说明该研究 Metis 进入 PolarDB。",
+        "note": "2023-12-12 ACM 正式在线，第 1 卷第 4 期刊期标为 12-08（2024 SIGMOD 宣读）。原文首页将香港大学博士生宋昊泽具体标为阿里集团实习期间完成；正式博士论文及履历证明崔鹤鸣导师关系，崔鹤鸣与阿里飞飞李、周文超、彭翔同篇署名。阿里云的当年活动确认李飞飞的企业职位，学生说明该研究 Metis 进入 PolarDB。",
         "year": 2023
       },
       {
         "title": "K2: On Optimizing Distributed Transactions in a Multi-region Data Store with TrueTime Clocks",
         "url": "https://www.vldb.org/pvldb/vol18/p1756-song.pdf",
         "outcome": "confirmed",
-        "note": "PVLDB 标称 2025 年 2 月卷期，Crossref 记载正式稿 8 月 29 日上线；同项 arXiv 扩展稿可核最早公开号为 2025-04-02。宋昊泽在读、其导师崔鹤鸣与华为云通讯作者陈旭生同文。宋昊泽的当期履历明确列华为云多地域 NewSQL 实习及 K2 进入 Global TKV；另一版本实名列陈旭生为企业导师，港大的博士论文则独立证实学术导师与 K2 课题。",
+        "note": "2025 年 PVLDB 卷期与 2025-04-02 日可核的 arXiv 扩展版为同项，先以可核的精确公开日期记载。宋昊泽在读、其导师崔鹤鸣与华为云通讯作者陈旭生同文。宋昊泽的当期履历明确列华为云多地域 NewSQL 实习及 K2 进入 Global TKV；另一版本实名列陈旭生为企业导师，港大的博士论文则独立证实学术导师与 K2 课题。",
         "year": 2025
       },
       {
@@ -69445,7 +69635,7 @@ const facultyPaperAudits = {
         "title": "Opera: Achieving Secure and High-Performance OLAP with Parallelized Homomorphic Comparisons",
         "url": "https://hub.hku.hk/handle/10722/369696",
         "outcome": "confirmed",
-        "note": "2025-03-27 联合研究会明确列胡起为崔鹤鸣的在读博士并由他公开报告该论文，展示同态比较和 HomCache 等技术。作者原稿明确华为为同项理论分析提供支持，未参与实验设计或评测；企业作者张弓的任职由正式会议和 IEEE 作者资料复核。学生履历把 2024-04 至 2025-03 的本人并行比较及 HomCache 设计列为这篇 IEEE S&P 论文的具体贡献。这条记联合研究，不声称在华为实习或已部署于华为业务。",
+        "note": "2025-03-27 联合研究会明确列胡起为崔鹤鸣的在读博士并由他公开报告该论文，展示同态比较和 HomCache 等技术。作者原稿明确华为参加同项理论分析，未参与实验设计或评测；企业作者张弓的任职由正式会议和 IEEE 作者资料复核。学生履历把 2024-04 至 2025-03 的本人并行比较及 HomCache 设计列为这篇 IEEE S&P 论文的具体贡献。这条记联合研究，不声称在华为实习或已部署于华为业务。",
         "year": 2025
       },
       {
@@ -69611,10 +69801,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Measuring the Influence of Incorrect Code on Test Generation",
-        "url": "https://arxiv.org/html/2409.09464v3",
+        "url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/15/Measuring-the-Influence-of-Incorrect-Code-on-Test-Generation",
         "outcome": "no-evidence",
-        "note": "2024 年首发旧题 Rethinking the Influence of Source Code on Test Case Generation，v3 最新改题。港大、KCL、UCL 与新加坡国立为同篇全部作者单位。",
-        "year": 2024
+        "note": "2024 首稿题为 Rethinking the Influence of Source Code on Test Case Generation，与同编号 v3 及 ICSE 2026 正式版为一篇。最终节目注明港大、KCL、Meta 与 UCL、新加坡国立；Meta 不在目标企业。",
+        "year": 2026
       },
       {
         "title": "Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation",
@@ -69622,9 +69812,16 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "实质企业合作者是智元机器人 AgiBot，未在本次企业名单；其余署港大、上海人工智能实验室与上交。",
         "year": 2024
+      },
+      {
+        "title": "Joint Precoding, Passive Beamforming, and 3-D Trajectories Optimization for UAV-RISs-Assisted Systems With Statistical CSI",
+        "url": "https://doi.org/10.1109/TCOMM.2026.3731849",
+        "outcome": "no-evidence",
+        "note": "IEEE 存档中的实名 ORCID 0000-0001-7746-440X 与港大教师吻合；同篇其他作者仅署南京航空航天大学、华东师范大学和杭州电子科技大学，未见目标企业署名或学生参与材料。",
+        "year": 2026
       }
     ],
-    "note": "已核对 2023-01-01 至 2026-11-12 间阶段性公开书目：港大实名教师及课题组、博士论文库、准确姓名与日期的 arXiv 官方索引（34 条）、DBLP 2026-11-01 归档和各篇出版原件。已归并同项会议/期刊和改题预印本。FRing 与 COORP 已由原刊/港大源核实 2022 首发，2023 刊期非新论文。同名的编码与通信论文正进一步核对，当前不标已穷尽。"
+    "note": "已逐篇核查 2023-01-01 至 2026-11-12 可识别的公开书目，并交叉比对港大官方实名档及课题组、学位论文库、DBLP 2026-11-01 作者档、arXiv 同期 34 条题录、出版及会议原件；同研究的改题与预印本已归并。FRing、COORP 首发于 2022，2023 卷期不计；编码论文 Finite Fields Appl. 10.1016/j.ffa.2026.102798 首作者单位为中国石油大学（华东）理学院的同名研究者，排除。GTSparse 官网列为 EuroSys 2027，截止日前仅核见 2026 工件/实验日志，未发现可读公开全文，未计作论文。"
   },
   "vzr_L0EAAAAJ": {
     "from": "2023-01-01",
@@ -69785,7 +69982,9 @@ const facultyPaperAudits = {
       "https://scholars.cityu.edu.hk/en/persons/zhenlilu/",
       "https://zhenlianglu.github.io/",
       "https://dblp.org/pid/169/9986.html",
-      "https://orcid.org/0009-0007-7413-5679"
+      "https://orcid.org/0009-0007-7413-5679",
+      "https://sydney-cryptography-group.github.io/publications/",
+      "https://alkistang.github.io/publication.html"
     ],
     "papers": [
       {
@@ -69808,6 +70007,41 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "no-evidence",
         "note": "3 月首稿和 2025 TDSC 正式刊为同一扩展系列；首稿作者列中科院软件所、悉尼大学等，未见范围企业具名实研。"
+      },
+      {
+        "title": "Dragon: Decentralization at the cost of Representation after Arbitrary Grouping and Its Applications to Sub-cubic DKG and Interactive Consistency",
+        "url": "https://eprint.iacr.org/2024/168",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IACR 2024-02-05 首稿与 ACM PODC 2024 同一作品；原页明确列先前标题 Breaking the Cubic Barrier。三位作者均署悉尼大学。"
+      },
+      {
+        "title": "Faster Hash-based Multi-valued Validated Asynchronous Byzantine Agreement",
+        "url": "https://eprint.iacr.org/2024/479",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IACR 2024-03-22 首稿与 DSN 2025 正式版归并，原文列出早期标题 Making Hash-based MVBA Great Again。四位作者均署悉尼大学。与不同作者的 CRYPTO 2026 新作分列。"
+      },
+      {
+        "title": "Optimal Byzantine Agreement in the Presence of Message Drops",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-5116-3_6",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "Springer 2025-12-08 正式上线，书册引用年为 2026。作者仅署悉尼大学与香港城市大学；资助包括澳大利亚研究委员会及范围外机构，未见范围内企业具名实研。与 2026 原子广播论文分列。"
+      },
+      {
+        "title": "Asynchronous Dynamic Committee Proactive Secret Sharing for Large Data",
+        "url": "https://scholars.cityu.edu.hk/en/publications/asynchronous-dynamic-committee-proactive-secret-sharing-for-large/",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IEEE ICDCS 2025 项目与城大出版记录署名一致，作者所属南洋理工大学及悉尼大学；资助来源见出版记录，未见范围内企业具名实研。"
+      },
+      {
+        "title": "Optimistic Asynchronous Dynamic-Committee Proactive Secret Sharing",
+        "url": "https://eprint.iacr.org/2025/880",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IACR 2025-05-17 首稿与 IEEE S&P 2026 正式版同作。原稿涉及 Aptos Labs，不在调查范围；AWS 是实验资源。作者与技术重点均和 ICDCS 2025 面向大数据的 DPSS 不同。"
       }
     ]
   },
