@@ -45981,6 +45981,177 @@ const survey = {
       ],
       "evidence": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为提出保持等变性的归一化层并评估粒子系统模拟；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。日期采用可复查的 IJCAI 正式文集月；不把未能确证的更早索引日期当作论文首发。",
       "paperId": "10.24963/ijcai.2024/661"
+    },
+    {
+      "id": "tencent-parrot-ntpp-cuhk-irwin-king",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授、孟子乔博士导师；同署 2024 年会议稿和后续 ICML 2025 正式扩展稿。",
+        "https://www.cse.cuhk.edu.hk/irwin.king/"
+      ],
+      "employee": [
+        "赵沛霖 · Peilin Zhao",
+        "2017–2025 年任腾讯 AI Lab 首席研究员，早期工作坊稿署腾讯 AI Lab，ICML 正式稿为通讯作者。",
+        "https://peilinzhao.github.io/"
+      ],
+      "student": [
+        "孟子乔 · Ziqiao Meng",
+        "港中文博士生，2024 年工作坊稿为共同第一作者。ICML 正式论文具名说明两位共同一作是在腾讯 AI Lab 实习期间完成这项研究的。",
+        "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+      ],
+      "advising": [
+        "博士导师",
+        "金国庆校方教师履历在博士生名单列孟子乔自 2018 年 8 月起在他指导下读博。",
+        "https://misc-lab.cse.cuhk.edu.hk/wp-content/uploads/2023/04/CV_Prof_Irwin_King_2023.pdf#page=45"
+      ],
+      "title": "NTPP: Generative Speech Language Modeling for Dual-Channel Spoken Dialogue via Next-Token-Pair Prediction",
+      "short": "Parrot / NTPP",
+      "date": "2024-12-14",
+      "venue": "NeurIPS 2024 Audio Imagination Workshop；扩展稿 ICML 2025",
+      "area": "双声道对话语音生成",
+      "paper": "https://proceedings.mlr.press/v267/wang25by.html",
+      "extra": [
+        [
+          "2024 年工作坊原始版本：孟子乔共同一作，金国庆与腾讯赵沛霖同篇",
+          "https://openreview.net/notes/edits/attachment?id=bhusUIsd0o&name=pdf"
+        ],
+        [
+          "NeurIPS 2024 Audio Imagination 会期（2024-12-14）",
+          "https://openreview.net/group?id=NeurIPS.cc%2F2024%2FWorkshop%2FAudio_Imagination"
+        ],
+        [
+          "共同作者的会议书目",
+          "https://chenliang.tech/publications"
+        ],
+        [
+          "ICML 2025 正式稿首页",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/wang25by/wang25by.pdf#page=1"
+        ],
+        [
+          "扩展稿的 arXiv 首版",
+          "https://arxiv.org/abs/2506.00975v1"
+        ],
+        [
+          "作者同项目源码与演示",
+          "https://github.com/Chaos96/NTPP"
+        ]
+      ],
+      "evidence": "2024 年 NeurIPS Audio Imagination 工作坊的 Parrot 已列孟子乔共同第一作者、金国庆同篇与腾讯 AI Lab 的赵沛霖。校方实验室和教师履历记载孟子乔当时由金国庆指导读博。ICML 2025 正式版首页明确两位共同一作均在腾讯 AI Lab 实习期间完成该项研究，并列赵沛霖为共同通讯。两版都以双声道下一词元对来生成实时对话，作者正式代码仓库也保留 Parrot 的安装路径。学校关系按研究阶段核验；后来正式版的孟子乔署名含新加坡国立大学。工作坊稿与正式稿合计一条。",
+      "paperId": "10.48550/arXiv.2506.00975"
+    },
+    {
+      "id": "tencent-rag-ft-cuhk-lyu",
+      "company": "腾讯",
+      "team": "腾讯微信事业群",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "香港中文大学计算机科学与工程学系教授，王朝正的博士导师；两人共同署名。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "employee": [
+        "Hailiang Huang",
+        "腾讯微信团队研究人员，论文与会议公开档案均列腾讯署名，曾在 WXG 指导同领域研究。",
+        "https://conf.researchr.org/profile/2030-se-2025/hailianghuang"
+      ],
+      "student": [
+        "王朝正 · Chaozheng Wang",
+        "第一作者、港中文在读博士。本人公开列在腾讯微信事业群做代码补全模型；该篇的研究使用微信内部代码比较检索增强与微调。",
+        "https://adf1178.github.io/aboutme/"
+      ],
+      "advising": [
+        "博士导师",
+        "王朝正本人明确列 Michael Lyu 为港中文博士导师，学校 ARISE Lab 名单确认在读身份。",
+        "https://adf1178.github.io/aboutme/"
+      ],
+      "title": "RAG or Fine-tuning? A Comparative Study on LCMs-based Code Completion in Industry",
+      "short": "RAG or Fine-tuning?",
+      "date": "2025-05-21",
+      "venue": "FSE 2025 Industry",
+      "area": "代码大模型 · 工业代码补全",
+      "paper": "https://doi.org/10.1145/3696630.3728535",
+      "paperId": "10.1145/3696630.3728535",
+      "evidence": "论文明确把采用内部 C++ 代码进行 RAG 与微调的实验定义为同腾讯微信事业群合作的研究，有 16 万余文件及六种模型的实验证据。第一作者王朝正公开列其在微信事业群做代码补全模型，港中文博士导师 Michael Lyu 同篇。Hailiang Huang、Yuetang Deng 同篇为腾讯作者；另一位实习者的同期亲历资料也确认两人在微信组的研究指导工作。",
+      "extra": [
+        [
+          "第一作者校方在读名录",
+          "https://ariselab.cse.cuhk.edu.hk/members.html"
+        ],
+        [
+          "腾讯微信组同期研究指导记录",
+          "https://derekhjh.com/workexperience/"
+        ],
+        [
+          "2025-05-21 首版，介绍实际腾讯联合实验",
+          "https://arxiv.org/html/2505.15179v1"
+        ],
+        [
+          "港中文存档正式版",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/conference/cwang_fse2025_rag.pdf?cache=cache&id=students%3Aphd"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-lwo-cuhk-lyu",
+      "company": "腾讯",
+      "team": "腾讯微信事业群",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "香港中文大学计算机科学与工程学系教授，王朝正的博士导师；两人共同署名。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "employee": [
+        "Hailiang Huang",
+        "腾讯微信团队研究人员，论文与会议公开档案均列腾讯署名，曾在 WXG 指导同领域研究。",
+        "https://conf.researchr.org/profile/2030-se-2025/hailianghuang"
+      ],
+      "student": [
+        "王朝正 · Chaozheng Wang",
+        "港中文在读博士、第一作者。公开履历注明在腾讯微信事业群从事代码补全模型；同篇以企业提供的非公开代码评估逐层微调。",
+        "https://adf1178.github.io/aboutme/"
+      ],
+      "advising": [
+        "博士导师",
+        "王朝正本人明确列 Michael Lyu 为港中文博士导师，学校 ARISE Lab 名单确认在读身份。",
+        "https://adf1178.github.io/aboutme/"
+      ],
+      "title": "Beyond PEFT: Layer-Wise Optimization for More Effective and Efficient Large Code Model Tuning",
+      "short": "Beyond PEFT · LWO",
+      "date": "2025-06-19",
+      "venue": "FSE 2025",
+      "area": "代码大模型 · 分层微调",
+      "paper": "https://doi.org/10.1145/3729341",
+      "paperId": "10.1145/3729341",
+      "evidence": "港中文公开的正式全文将头文件预测、行级代码补全、协议转换中的非公开数据明确归于合作企业；正文评测用这些代码比较逐层优化与既有微调方法。同篇列微信组企业作者 Hailiang Huang 等三人及港中文导师 Michael Lyu。第一作者王朝正公开说明在微信事业群参与代码补全模型研发。此篇提出训练策略，和研究检索/微调选择的 RAG or Fine-tuning? 是两项工作。",
+      "extra": [
+        [
+          "第一作者校方在读名录",
+          "https://ariselab.cse.cuhk.edu.hk/members.html"
+        ],
+        [
+          "腾讯微信组同期研究指导记录",
+          "https://derekhjh.com/workexperience/"
+        ],
+        [
+          "FSE 正式作者及摘要",
+          "https://conf.researchr.org/details/fse-2025/fse-2025-research-papers/1/Beyond-PEFT-Layer-Wise-Optimization-for-More-Effective-and-Efficient-Large-Code-Mode"
+        ],
+        [
+          "港中文正式全文，第 2、7、12 页给出企业私有代码实验",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/conference/cwang_fse2025_beyond.pdf?id=students%3Aphd&cache=cache"
+        ],
+        [
+          "Crossref 记录的首次上线日期",
+          "https://api.crossref.org/works/10.1145/3729341"
+        ]
+      ]
     }
   ]
 };
