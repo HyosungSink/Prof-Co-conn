@@ -18340,7 +18340,13 @@ const facultyPaperAudits = {
       "https://longo11070001.github.io/",
       "https://arxiv.org/pdf/2607.14681v1#page=1",
       "https://rebind-mrv2v.github.io/",
-      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and/"
+      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and/",
+      "https://whluo.github.io/assets/publication.html",
+      "https://proceedings.mlr.press/v306/liu26fh.html",
+      "https://gongyeliu.github.io/",
+      "https://learner-shx.github.io/",
+      "https://arxiv.org/html/2605.21121v1",
+      "https://arxiv.org/html/2605.19727v1"
     ],
     "papers": [
       {
@@ -18367,6 +18373,27 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "2026-07-16 首稿仅在第一作者刘昕煜姓名后标星，脚注明确说明工作在可灵团队实习期间完成。刘本人记录 2026 年 3–7 月在快手可灵实习，港科大博士导师为郭毅可和罗文寒，两人均署港科大。张远行本人确认在快手可灵负责多模态理解，本篇署可灵并与罗文寒共同通讯。两位博士导师分别可查询，索引把同篇只计一次。"
+      },
+      {
+        "title": "Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling",
+        "url": "https://arxiv.org/abs/2602.11146v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICML 2026。第一作者Gongye Liu有快手实习履历，但论文没有快手署名或本篇快手实习说明；港科大指导组与另一项目的快手经历不互换。"
+      },
+      {
+        "title": "ROAR-3D: Routing Arbitrary Views for High-Fidelity 3D Generation",
+        "url": "https://arxiv.org/abs/2605.21121v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "2026 年 5 月首稿明确共同一作 Hanxiao Sun 在腾讯混元实习期间完成；其本人教育履历将港科大博士开始列为 2026 年秋，首公开和研究期仍在南开硕士阶段。另双署 Zebin He，可继续核其研究期学籍与导师。"
+      },
+      {
+        "title": "Tango3D: Towards Alignment for Global and Local 2D-3D Correspondence",
+        "url": "https://arxiv.org/abs/2605.19727v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "2026 年 5 月首稿脚注确认第一作者 Zebin He 在腾讯混元实习期间完成。两篇原文中都署港科大及腾讯；未取得独立的同期在读与具名导师证据。另一双署作者 Hanxiao Sun 的港科大博士学籍从同年秋季开始。"
       }
     ]
   },
@@ -63556,7 +63583,46 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2604.11103v1",
       "https://arxiv.org/html/2609.33757v1",
       "https://arxiv.org/html/2503.01710v1",
-      "https://github.com/ali-vilab/DreamVideo-Omni"
+      "https://github.com/ali-vilab/DreamVideo-Omni",
+      "https://pub.orcid.org/v3.0/0009-0005-8401-282X/works",
+      "https://dblp.org/pid/g/YikeGuo.html",
+      "https://doi.org/10.1145/3721238.3730722",
+      "https://arxiv.org/html/2505.07003v1",
+      "https://arxiv.org/abs/2601.01222",
+      "https://murphylmf.github.io/",
+      "https://arxiv.org/html/2601.01222v1",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/65a723bf7d8dad838c09178270d30e80-Abstract-Conference.html",
+      "https://arxiv.org/html/2405.11616v1",
+      "https://openaccess.thecvf.com/content/CVPR2024/html/Qi_Weakly-Supervised_Emotion_Transition_Learning_for_Diverse_3D_Co-speech_Gesture_Generation_CVPR_2024_paper.html",
+      "https://xingqunqi-lab.github.io/QXQPage/",
+      "https://repository.hkust.edu.hk/ir/Record/1783.1-139846",
+      "https://arxiv.org/abs/2311.17532",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/4ecc5b9a675e3aa58af199f666dede7f-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2405.16874",
+      "https://ir.pku.edu.cn/handle/20.500.11897/737071",
+      "https://doi.org/10.1109/CVPR52734.2025.01492",
+      "https://arxiv.org/html/2409.10141v1",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Li_PSHuman_Photorealistic_Single-image_3D_Human_Reconstruction_using_Cross-Scale_Multiview_Diffusion_CVPR_2025_paper.html",
+      "https://arxiv.org/abs/2502.05979",
+      "https://arxiv.org/html/2502.05979v1",
+      "https://ailingzeng.site/",
+      "https://vfx-creator0.github.io/",
+      "https://arxiv.org/abs/2503.10522",
+      "https://arxiv.org/html/2503.10522v1",
+      "https://ais.hkust.edu.hk/node/2400",
+      "https://zhaoyangliu12.github.io/",
+      "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_VidMuse_A_Simple_Video-to-Music_Generation_Framework_with_Long-Short-Term_Modeling_CVPR_2025_paper.html",
+      "https://arxiv.org/abs/2406.04321",
+      "https://openaccess.thecvf.com/content/CVPR2025/papers/Tian_VidMuse_A_Simple_Video-to-Music_Generation_Framework_with_Long-Short-Term_Modeling_CVPR_2025_paper.pdf",
+      "https://github.com/ZeyueT/VidMuse",
+      "https://arxiv.org/abs/2503.01710",
+      "https://github.com/sparkaudio/spark-tts",
+      "https://arxiv.org/abs/2503.17682",
+      "https://arxiv.org/html/2503.17682v1",
+      "https://arxiv.org/pdf/2607.14681v1",
+      "https://arxiv.org/abs/2607.14681",
+      "https://arxiv.org/html/2607.14681v1",
+      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and"
     ],
     "papers": [
       {
@@ -63677,6 +63743,48 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "阿里通义主导同项、企业仓库公开代码，刘昕煜为共同一作，但首稿仅署港科大，且首次公开晚于其通义实习三个月。尚未找到他在通义实际完成这一篇的独立时间或分工记录；不可借用 ReViSE 的脚注或署名。"
+      },
+      {
+        "title": "UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass",
+        "url": "https://arxiv.org/abs/2601.01222",
+        "outcome": "lead",
+        "note": "第一作者港科大博士生 Mengfei Li 在本人档案列郭毅可、罗文瀚为导师，首稿 2026-01-03 在其华为实习期间，研究主题也接近；论文首面只见高校署名，履历没有把 UniSH 明列为华为项目，也不能把担任其华为阶段监督的校方教师刘源自动计作员工。待补本项目的学生贡献及同篇经核实员工。",
+        "year": 2026
+      },
+      {
+        "title": "CoCoGesture: Toward Coherent Co-speech 3D Gesture Generation in the Wild",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/4ecc5b9a675e3aa58af199f666dede7f-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "2024 年公开首稿，ICLR 2025 正式版（部分目录作 Towards）同一项。题名无论版本均与 Weakly-Supervised 独立；正式稿的港科大、北大署名和学校博士论文未提供同篇目标企业人员角色。",
+        "year": 2025
+      },
+      {
+        "title": "VFX Creator: Animated Visual Effect Generation with Controllable Diffusion Transformer",
+        "url": "https://arxiv.org/abs/2502.05979",
+        "outcome": "lead",
+        "note": "2025-02-09 首稿署港科大在读第一作者 Xinyu Liu、实名指导郭毅可和腾讯 AI Lab 共同作者 Ailing Zeng；主管来源可核腾讯历史任职。学生公开档案只列翌后的阿里、快手实习，未见这篇中他由腾讯项目承担具体工作或科研实习的独立材料；企业合著与学生课题待区分。",
+        "year": 2025
+      },
+      {
+        "title": "AudioX: Diffusion Transformer for Anything-to-Audio Generation",
+        "url": "https://arxiv.org/abs/2503.10522",
+        "outcome": "lead",
+        "note": "2025-03-13 首稿 Xu Tan 为 Moonshot AI，郭毅可和在校学生作者为港科大；港科大学院消息指出该研究由薛伟团队牵头。从校方、原文和作者公开履历未找到具名在校者确实在该项目为月之暗面开展研究，亦未把郭毅可的同署当作具体指导。",
+        "year": 2025
+      },
+      {
+        "title": "VidMuse: A Simple Video-to-Music Generation Framework with Long-Short-Term Modeling",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_VidMuse_A_Simple_Video-to-Music_Generation_Framework_with_Long-Short-Term_Modeling_CVPR_2025_paper.html",
+        "outcome": "lead",
+        "note": "2024-06-06 首稿，正式为 CVPR 2025。核对港科大及 Xu Tan 的变化；不得把 AudioX 发表时的月之暗面职务反投到 VidMuse 研究期。原文与公开项目未见目标企业同期安排在校者参与的独立证据。",
+        "year": 2025
+      },
+      {
+        "title": "Safe RLHF-V: Safe Reinforcement Learning from Human Feedback in Multimodal Large Language Models",
+        "url": "https://arxiv.org/abs/2503.17682",
+        "outcome": "no-evidence",
+        "note": "arXiv 2025-03-22 首稿的作者单位为北京大学及港科大；原文另逐人说明了 Open-source Safe RLHF-V 项目的代码、数据、研究角色，没有指认任何范围内的企业研究参与。",
+        "year": 2025
       }
     ]
   },
@@ -64511,14 +64619,16 @@ const facultyPaperAudits = {
   "tDWLpawAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://cs.ustc.edu.cn/2025/0515/c23236a684097/page.htm",
       "https://snowzjx.me/publication.html",
       "https://snowzjx.me/assets/cv.pdf",
       "https://dblp.org/pid/155/4434.html",
       "https://orcid.org/0000-0001-6926-7801",
-      "https://cse.hkust.edu.hk/~kaichen/publication.html"
+      "https://cse.hkust.edu.hk/~kaichen/publication.html",
+      "https://www.usenix.org/conference/nsdi27/spring_accepted_papers",
+      "https://tianhan4.github.io/"
     ],
     "papers": [
       {
@@ -64527,7 +64637,7 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2501.19051",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "arXiv 2501.19051 首稿 2025-01，2026 SoCC 发布。同篇正文作者为中科大、港科大、东南大学；未见目标企业共同实施。"
+        "note": "arXiv:2501.19051 首发 2025-01-31，初题 Swift；作者官网明确连至 SoCC 正式改题 FCP（10.1145/3815789.3827946，会议 2026-11-19）。论文作者与实验为港科大、中科大、东南大学，未见目标企业。"
       },
       {
         "year": 2025,
@@ -64543,7 +64653,7 @@ const facultyPaperAudits = {
         "url": "https://www.usenix.org/conference/nsdi26/presentation/tian",
         "outcome": "lead",
         "relationIds": [],
-        "note": "USENIX 正式原文列中科大、港科大、东南大学和华为 Donghui Chen、Bin Huang、Senbo Fu。未见 Han Wang 或 Wenbo Li 在华为开展这一项目的脚注与相应具名指导证据。"
+        "note": "USENIX 正式原文列中科大、港科大、东南大学和华为 Donghui Chen、Bin Huang、Senbo Fu。未见 Han Wang 或 Wenbo Li 在华为开展这一项目的脚注与相应具名指导证据。 Wenxue Li 的 2025 年本人 CV 列 PolicyCache 及同期华为实习，但未将它列为实习的具体项目，不能沿用 DCP 的脚注。"
       },
       {
         "year": 2026,
@@ -64554,12 +64664,12 @@ const facultyPaperAudits = {
         "note": "EuroSys 原文列华为 Donghui Chen、Bin Huang；中科大 Wenbo Li 与港科大 Wenxue Li 均未见具名企业实研证据。后者的华为 DCP 实习脚注只对应不同的项目。"
       },
       {
-        "year": 2026,
+        "year": 2024,
         "title": "Towards Fair and Efficient Congestion Control Through Multi-Agent Deep Reinforcement Learning",
         "url": "https://doi.org/10.1109/TON.2026.3653773",
-        "outcome": "lead",
+        "outcome": "no-evidence",
         "relationIds": [],
-        "note": "IEEE 首发 2026-01-13（原稿 2024-03-24 投递）。终版 Xinchen Wan 署字节，履历与论文工作具体阶段待核；其余署中科大、港科大、中原工学院及 BitIntelligence，未见学生确切企业实研。"
+        "note": "同 Astraea arXiv:2403.01798 与 EuroSys 2024（10.1145/3627703.3650069，2024-04-22 正式）。2026 ToN 扩展同方法、同主要性能，张骏雪仅在扩展作者中出现。初版 Xinchen Wan 仍为港科大博士，2025-02 答辩后在字节任职，扩展版后来单位无证据说明其在企业开展此研究。"
       },
       {
         "year": 2025,
@@ -64567,7 +64677,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3718958.3750480",
         "outcome": "lead",
         "relationIds": [],
-        "note": "ACM 2025-08-27 首发；作者页将 IEEE 10.1109/TON.2026.3720532 明确列为同 work 扩展。首稿确认 Wenxue Li 参与华为实习，港科大公告公开的导师是 Kai CHEN；未见张骏雪指导该学生的证据。"
+        "note": "ACM 2025-08-27 首发；作者页将 IEEE 10.1109/TON.2026.3720532 明确列为同一研究的扩展版。首稿确认 Wenxue Li 参与华为实习，港科大公告公开的导师是 Kai CHEN；未见张骏雪指导该学生的证据。"
       },
       {
         "year": 2026,
@@ -64575,7 +64685,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3820441.3820479",
         "outcome": "lead",
         "relationIds": [],
-        "note": "APNet 原文独立确认四位华为作者；Weiye Wang 由上交陈晨指导（团队列 2025 秋加入），但未见其参与华为侧 Sanic 的具名材料或张骏雪对该生的指导资料。"
+        "note": "2026-03-22 arXiv:2603.21257 首发题为 CALVO，APNet 正式 Sanic 十人和 61.67% 指标相同。四位作者明确署华为；Weiye Wang 为上交陈晨 2025 秋入组的硕士，尚缺其参与同一华为项目或张骏雪指导此人的材料。"
       },
       {
         "year": 2025,
@@ -64608,8 +64718,128 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "relationIds": [],
         "note": "OSDI 2025 原文署港科大、中科大、北大、MIT、Meta、MetaX。后两家不在企业范围；不能用作者在不同项目的实习替代。"
+      },
+      {
+        "year": 2025,
+        "title": "Towards Optimal Rack-scale μs-level CPU Scheduling through In-Network Workload Shaping",
+        "url": "https://www.usenix.org/conference/atc25/presentation/liao",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "USENIX ATC 2025 的 Pallas。港科大、中科大、BitIntelligence、浪潮、北大。Xinchen Wan 这篇仍署港科大；同人后来成为字节员工，不能延伸到此研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Accelerating Distributed Graph Learning by Using Collaborative In-Network Multicast and Aggregation",
+        "url": "https://www.usenix.org/conference/atc25/presentation/li-zhaoyi",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "USENIX ATC 2025 原文列中南大学、港科大、南洋理工、清华；将字节推荐图规模作为行业例子，未署字节作者或记录学生实研。"
+      },
+      {
+        "year": 2025,
+        "title": "GREEN: Carbon-efficient Resource Scheduling for Machine Learning Clusters",
+        "url": "https://www.usenix.org/conference/nsdi25/presentation/xu-kaiqiang",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "USENIX NSDI 2025 原文署名均为港科大和中科大；电碳感知调度的真实评估源于校园训练集群，未见名单企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Design and Operation of Shared Machine Learning Clusters on Campus",
+        "url": "https://doi.org/10.1145/3669940.3707266",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ASPLOS 2025 全文九名均署港科大；使用自身 TACC 集群日志，未见名单企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Achieving Fairness Generalizability for Learning-based Congestion Control with Jury",
+        "url": "https://doi.org/10.1145/3689031.3696065",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "EuroSys 2025 原文署中科大、港科大、BitIntelligence。脚注明确 Chaoliang Zeng 此工作在港科大 iSING 完成，BitIntelligence 也非名单企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Sequoia: An Accessible and Extensible Framework for Privacy-Preserving Machine Learning over Distributed Data",
+        "url": "https://doi.org/10.1145/3709742",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM Crossref 正式题录为 2025-02。PACMMOD 正式刊文和 SIGMOD 同一论文；作者港科大与 UIUC，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Cache-Aware I/O Rate Control for RDMA",
+        "url": "https://doi.org/10.1145/3735358.3735376",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "APNet 2025 正式六人均署港科大。以读写网络/缓存速率限制为主题，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Fast, Scalable, and Accurate Rate Limiter for RDMA NICs",
+        "url": "https://doi.org/10.1145/3651890.3672215",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "SIGCOMM Tassel 原文列三位字节作者。港科大博士论文 DOI 10.14711/thesis-991013401041403412 确认汪子龙受 Kai CHEN 指导且 Tassel 是其学位工作；未见其在字节参与本项研究或张骏雪具名负责指导。"
+      },
+      {
+        "year": 2024,
+        "title": "Efficient Decentralized Federated Singular Vector Decomposition",
+        "url": "https://www.usenix.org/conference/atc24/presentation/chai",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "USENIX ATC 2024 Excalibur 署港科大、北大与微众银行，后者非目标企业。区分 2022 KDD FedSVD 独立前作。"
+      },
+      {
+        "year": 2024,
+        "title": "Accelerating Privacy-Preserving Machine Learning with GeniBatch",
+        "url": "https://doi.org/10.1145/3627703.3629563",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "EuroSys 2024 原文署港科大、Waterloo、中科大。早期 HAFLO（arXiv 2107.11396，缺张骏雪）为另一工作，不按同名合并。Shuihai Hu 现任华为并不构成本篇研究身份。"
+      },
+      {
+        "year": 2024,
+        "title": "Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA",
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ren",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "USENIX Security 2024 CORA 原文明列两位蚂蚁作者 Zhicong Huang、Cheng Hong。原文未写Zhenghang Ren 等港科大在读者基于蚂蚁进行同篇研究，未发现可归属张骏雪指导证据。"
+      },
+      {
+        "year": 2023,
+        "title": "Communication Efficient Secret Sharing with Dynamic Communication-Computation Conversion",
+        "url": "https://ieeexplore.ieee.org/document/10228872",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "IEEE INFOCOM 2023 Solar 明列 Cheng Hong 署阿里巴巴；学生 Zhenghang Ren、Xiaodian Cheng、Mingxuan Fan 均港科大。Clustar 仅为张骏雪的并列单位，不是阿里实研；未见学生同篇在企业参与的材料。"
+      },
+      {
+        "year": 2023,
+        "title": "FLASH: Towards a High-performance Hardware Acceleration Architecture for Cross-silo Federated Learning",
+        "url": "https://www.usenix.org/conference/nsdi23/presentation/zhang-junxue",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "USENIX 2023 原文明确港科大和 Clustar，后者不在企业范围。作者书目链接 IEEE 2024 10.1109/TPDS.2024.3413718 为同 FLASH 扩展版（正式刊文增 Han Tian、减 Wei Wang），都不见目标公司；和 2025 加密专用 FLASH-FHE 不同。"
+      },
+      {
+        "year": 2023,
+        "title": "Enabling Load Balancing for Lossless Datacenters",
+        "url": "https://doi.org/10.1109/ICNP59255.2023.10355615",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE ICNP 2023 原文列长沙理工、港科大、福州大学、港中文及中南大学。2024 IEEE 10.1109/TNET.2024.3366336 前页直接声明是本篇 Proteus 扩展，未见名单企业。"
+      },
+      {
+        "year": 2023,
+        "title": "A Survey for Federated Learning Evaluations: Goals and Measures",
+        "url": "https://doi.org/10.1109/TKDE.2024.3382002",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2308.11841 2023-08-23 首发，IEEE 2024-03-27。按领域综述独立收录，原文 §IV 使用同组 2020 FedEval 工具，并在 [113] 独立引用先前以七种算法实测为主题的论文；未见名单企业。"
       }
     ],
-    "note": "已按同名 ORCID、个人完整题录及港科大交叉；教师 2025-04 转入中科大，早期按港科大公开署名归属。DCP 已确认合作者 Kai Chen 的博士指导，尚无张骏雪指导该学生的具名证据。"
+    "note": "已完成调查期可公开识别的独立作品：个人完整书目、CV、ORCID/DBLP 与共同作者来源交叉。期刊扩展与原篇合并，排除首发早于 2023 年的 LiteFlow、Spine、eMPTCP、ECN、SoK、Secure Forward Aggregation 和 Personal Mask；PipeTune/Pyxis 目前仅见 NSDI 2027 录用名单。DCP 属于共同作者 Kai CHEN 的已确认指导；张骏雪的指导仍缺具名证据。"
   }
 };
