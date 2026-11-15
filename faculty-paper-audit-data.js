@@ -68408,7 +68408,16 @@ const facultyPaperAudits = {
       "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim#new_tab",
       "https://hunkim.cse.ust.hk/Bio.html",
       "https://shenjiasi.com/group.html",
-      "https://arxiv.org/html/2604.20398v1"
+      "https://arxiv.org/html/2604.20398v1",
+      "https://dblp.org/pid/k/SunghunKim.html",
+      "https://aclanthology.org/people/sunghun-kim/",
+      "https://withinmiaov.github.io/",
+      "https://ieeexplore.ieee.org/abstract/document/10937907/authors",
+      "https://arxiv.org/abs/2407.06204v1",
+      "https://arxiv.org/abs/2404.05019v1",
+      "https://arxiv.org/abs/2412.06071v1",
+      "https://arxiv.org/abs/2406.00515v1",
+      "https://arxiv.org/abs/2312.15166v1"
     ],
     "papers": [
       {
@@ -68417,6 +68426,55 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "阿里实习脚注点名 Juyong Jiang；港科大课题组具名 Sunghun Kim 与沈嘉思共同指导且两人均在同一论文作者行。两条导师证据按论文计一条已确认关系。"
+      },
+      {
+        "title": "A Survey on Mixture of Experts in Large Language Models",
+        "url": "https://doi.org/10.1109/TKDE.2025.3554028",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024-07 原始公开稿与 TKDE 2025 改题正式稿为同一综述。预印本作者都署港科大广州；未披露目标企业内具名实研。"
+      },
+      {
+        "title": "Shortcut-connected Expert Parallelism for Accelerating Mixture of Experts",
+        "url": "https://proceedings.mlr.press/v267/cai25c.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024-04 首稿与 ICML 2025 正式版同项；论文首页作者列港科大广州。与 MoE 综述不同，原创内容是跨层连接专家并行。"
+      },
+      {
+        "title": "KaSA: Knowledge-Aware Singular-Value Adaptation of Large Language Models",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/8aec95bc5344290249c32841c07c9dd1-Paper-Conference.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024-12 首稿与 ICLR 2025 同项。首页作者机构包括港科大和韩国 ETRI，未披露范围内企业在同项具名合著。"
+      },
+      {
+        "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+        "url": "https://aclanthology.org/2026.findings-acl.1872.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "正式首页具名 Juyong Jiang 在 NAVER 实习期间完成。所涉及 NAVER Cloud 和 Amazon AGI 均不在本次企业范围。"
+      },
+      {
+        "title": "A Survey on Large Language Models for Code Generation",
+        "url": "https://doi.org/10.1145/3747588",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024-06 首稿、2025 在线及 2026 刊期为同项；预印本列港科大两校区与 NAVER Cloud，后者不在范围。"
+      },
+      {
+        "title": "Do LLM-Generated Web Apps Behave Correctly? A Contract-Grounded Benchmark for Behavioral Conformance",
+        "url": "https://aclanthology.org/2026.emnlp-main.2018/",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "正式论文署港科大两校区与韩国 ETRI。主题是行为一致性基准，有别于 WebGen-R1 的网站生成训练。"
+      },
+      {
+        "title": "SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling",
+        "url": "https://aclanthology.org/2024.naacl-industry.3/",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2023-12 首稿与 2024 NAACL 工业轨是同一版本系列。正式公开为 Upstage 课题，该公司不在本次范围。2026 Solar Open 为后续独立模型。"
       }
     ]
   },
