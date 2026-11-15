@@ -48922,6 +48922,58 @@ const survey = {
         ]
       ],
       "evidence": "2025-05-29 首版已列港科大曾康庭、导师宋陽秋与华为吴雷杰同篇。导师官方名单和港科大答辩确证曾康庭为 2024–2026 研究型硕士；他在学期间实际开发过同论文的图谱检索与剪枝，有 2025-06-06 原始代码及同项目软件署名。吴雷杰本人明确在华为任研究科学家时与宋陽秋团队共同研究 AutoSchemaKG。此处确认同项研究参与，不推定学生在华为实习，也不混同其他产品部署。"
+    },
+    {
+      "id": "huawei-phostream-cuhk-hongsheng-li",
+      "company": "华为",
+      "team": "香港研究中心 · 莱布尼茨研究中心",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "employee": [
+        "陈锦芃 · Jinpeng Chen",
+        "原稿署 Huawei Research，并和企业项目负责人 Yang Bo 同篇。本人履历明确记载 2025-06 至 2026-07 为华为香港研究中心研究员，与之前的实习期分列。",
+        "https://jinpeng0528.github.io/"
+      ],
+      "student": [
+        "陆徐东 · Xudong Lu",
+        "港中文 MMLab 在读博士、同篇第一作者，公开履历列华为实习周期；由本人主页链接的同一账号发布论文指定的流式评测程序及数据集标注。",
+        "https://github.com/Lucky-Lance/PhoStream/commit/ed7543d6f580278db795e618c22730ca56a9807b"
+      ],
+      "faculty": [
+        "李鸿升 · Hongsheng Li",
+        "香港中文大学电子工程学系，论文共同通讯作者。",
+        "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-hongsheng-li"
+      ],
+      "advising": [
+        "博士生导师",
+        "陆徐东在本人履历明确写明在港中文 MMLab 攻读博士、由李鸿升指导。",
+        "https://lucky-lance.github.io/"
+      ],
+      "title": "PhoStream: Benchmarking Real-World Streaming for Omnimodal Assistants in Mobile Scenarios",
+      "short": "PhoStream",
+      "date": "2026-01-30",
+      "venue": "ICML 2026",
+      "area": "多模态流式理解",
+      "paper": "https://arxiv.org/pdf/2601.22575v1",
+      "extra": [
+        [
+          "ICML 正式论文及同一开源仓库",
+          "https://proceedings.mlr.press/v306/lu26o.html"
+        ],
+        [
+          "档案首版时间和具名作者",
+          "https://arxiv.org/abs/2601.22575v1"
+        ],
+        [
+          "原始项目仓库及流式评测程序",
+          "https://github.com/Lucky-Lance/PhoStream"
+        ],
+        [
+          "提交人、时间和原始文件记录",
+          "https://api.github.com/repos/Lucky-Lance/PhoStream/commits/ed7543d6f580278db795e618c22730ca56a9807b"
+        ]
+      ],
+      "evidence": "港中文在读博士陆徐东为论文第一作者，导师李鸿升为共同通讯作者。论文首页逐人标注 Huawei Research 的 Yang Bo 为同项项目负责人，陈锦芃亦署华为；陈锦芃的公开履历证实当时为华为香港研究员。陆徐东本人确认师生关系和 2025-08 至 2026-05 的华为实习，另用论文列明的同名账号公开该论文完整流式评测代码及测试标注。确认实际参与同一合作；现有资料未逐项披露学生在华为实习期间承担哪些内部工作。"
     }
   ]
 };

@@ -14248,7 +14248,12 @@ const facultyPaperAudits = {
       "https://openaccess.thecvf.com/content/ICCV2025/papers/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.pdf",
       "https://arxiv.org/abs/2503.10592",
       "https://arxiv.org/abs/2604.21921",
-      "https://omni-model.com/"
+      "https://omni-model.com/",
+      "https://arxiv.org/pdf/2601.22575v1",
+      "https://proceedings.mlr.press/v306/lu26o.html",
+      "https://github.com/Lucky-Lance/PhoStream/commit/ed7543d6f580278db795e618c22730ca56a9807b",
+      "https://lucky-lance.github.io/",
+      "https://jinpeng0528.github.io/"
     ],
     "papers": [
       {
@@ -14280,6 +14285,13 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2604.21921",
         "outcome": "confirmed",
         "note": "这篇论文是字节跳动 Seed 技术报告，项目页明确把何昊列为具名共同第一作者；何昊自身主页将这篇工作列于自己的研究，同时注明当时就在 Seed 做该类多模态模型研发。其港中文导师李鸿升同篇署名，实际任职的 Ceyuan Yang 为共同通讯作者。"
+      },
+      {
+        "title": "PhoStream: Benchmarking Real-World Streaming for Omnimodal Assistants in Mobile Scenarios",
+        "url": "https://arxiv.org/pdf/2601.22575v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "港中文在读博士陆徐东为论文第一作者，导师李鸿升为共同通讯作者。论文首页逐人标注 Huawei Research 的 Yang Bo 为同项项目负责人，陈锦芃亦署华为；陈锦芃的公开履历证实当时为华为香港研究员。陆徐东本人确认师生关系和 2025-08 至 2026-05 的华为实习，另用论文列明的同名账号公开该论文完整流式评测代码及测试标注。确认实际参与同一合作；现有资料未逐项披露学生在华为实习期间承担哪些内部工作。"
       }
     ]
   },
@@ -70339,7 +70351,14 @@ const facultyPaperAudits = {
       "https://people.ucas.ac.cn/~houfei",
       "https://lcs.ios.ac.cn/~houf/index.html",
       "https://orcid.org/0000-0001-8226-6635",
-      "https://dblp.org/pid/24/3702-1.html"
+      "https://dblp.org/pid/24/3702-1.html",
+      "https://lcs.ios.ac.cn/~houf/index_zh.html",
+      "https://personal.ntu.edu.sg/yhe/reconstruction.html",
+      "https://lcs.ios.ac.cn/~houf/papers.js?v=2c5f",
+      "https://doi.org/10.4230/dblp.xml.2026-11-01",
+      "https://people.ucas.ac.cn/~wangwencheng",
+      "https://is.cas.cn/yjsjy2016/zsxx2016/201910/t20191011_5406884.html",
+      "https://www.iscas.ac.cn/xwdt2016/kyjz2016/202601/t20260114_8105772.html"
     ],
     "papers": [
       {
@@ -70411,8 +70430,162 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Song_MoCoDiff_A_Controllable_Autoregressive_Diffusion_Model_for_Expressive_Motion_Generation_CVPR_2026_paper.pdf",
         "note": "CVPR 2026 正文：动作生成分开注入文本、风格和历史信号，用时间条件维持长序列稳定。各作者署名高校或研究实验室；致谢资助来自地方和国家基金、浙江大学实验室及软件所。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "2S-UDF: A Novel Two-stage UDF Learning Method for Robust Non-watertight Model Reconstruction from Multi-view Images",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Deng_2S-UDF_A_Novel_Two-stage_UDF_Learning_Method_for_Robust_Non-watertight_CVPR_2024_paper.pdf",
+        "note": "2023-03-27 arXiv:2303.15368 首稿，CVPR 2024 卷版同篇。先用密度函数粗重建，再调整体渲染权重以改善遮挡；国科大导师页列第一作者邓峻恺，论文及致谢未提供目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Robust Zero Level-Set Extraction from Unsigned Distance Fields Based on Double Covering",
+        "url": "https://arxiv.org/pdf/2310.03431v1",
+        "note": "2023-10-05 首稿，TOG 10.1145/3618314 同篇。用偏移表面的双覆盖和图割提取零水平集，区别后续 DCUDF2 的自适应权重和拓扑纠偏。致谢包含范围外的 OPPO 美国研究中心，没有范围内公司合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Parameterization-Driven Neural Surface Reconstruction for Object-Oriented Editing in Neural Rendering",
+        "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05803.pdf",
+        "note": "2023-10-09 arXiv:2310.05524 首稿，与 ECCV 2024 10.1007/978-3-031-72940-9_26 为同篇。用双向形变把隐式表面参数化成球或多立方体以便编辑。Chen Qian 署商汤研究院，另有未具名行业伙伴，未见范围内企业和学生企业实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Details Enhancement in Unsigned Distance Field Learning for High-fidelity 3D Surface Reconstruction",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32952/35107",
+        "note": "2024-06-01 arXiv:2406.00346 首稿，与 AAAI 2025 正式版同篇。DEUDF 结合法向对齐、加权 Eikonal 约束和正弦网络增强几何细节；Zhebin Zhang 署 InnoPeak，致谢有 OPPO 捐赠基金，两者均在范围外。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "GS-Octree: Octree-based 3D Gaussian Splatting for Robust Object-level 3D Reconstruction Under Strong Lighting",
+        "url": "https://arxiv.org/pdf/2406.18199v1",
+        "note": "2024-06-26 首稿，Computer Graphics Forum 10.1111/cgf.15206 同篇。用八叉树编码隐式场并与 3D 高斯交替优化，减弱高光干扰。Zhebin Zhang 署 InnoPeak Technology（范围外），NVIDIA A100 是实验设备。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "DCUDF2: Improving Efficiency and Accuracy in Extracting Zero Level Sets from Unsigned Distance Fields",
+        "url": "https://arxiv.org/pdf/2408.17284v1",
+        "note": "2024-08-30 首稿，TVCG 10.1109/TVCG.2025.3588659 同篇。以自适应几何权重和拓扑纠偏改进 2023 DCUDF；Zhebin Zhang 署 OPPO 美国研究中心（范围外），NVIDIA 为设备。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "UNIS: A Unified Framework for Achieving Unbiased Neural Implicit Surfaces in Volume Rendering",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Deng_UNIS_A_Unified_Framework_for_Achieving_Unbiased_Neural_Implicit_Surfaces_ICCV_2025_paper.pdf",
+        "note": "ICCV 2025 论文系统归纳从距离到体渲染密度的映射以减少偏差。邓峻恺、牛晗汀见国科大导师页，但论文均署学术单位；致谢的行业伙伴未具名，未见目标企业参与的直接证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "IntentMotion: Learning Intent-Aware Human Motion from Language in 3D Scenes",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37188/41150",
+        "note": "2025-12-15 SIGGRAPH Asia 公开受邀海报（同题同作者），与 AAAI 2026 10.1609/aaai.v40i3.37188 同篇。通过意图引导接触场与分阶段扩散改善场景内真实接触，区别 MoCoDiff 的文本、风格及历史独立条件。各位作者署高校或研究实验室，致谢没有目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "PoseFusion: Fusing Neural Implicit Surfaces for Multi-view Reconstruction from Multi-pose Captures",
+        "url": "https://sutd-cgl.github.io/supp/Publication/papers/2026-SPM-PoseFusion.pdf",
+        "note": "正式稿首页记载 2026-05-30 在线，10.1016/j.cad.2026.104101；项目页早期题名与 DOI、作者、方法均吻合。先对齐再融合不同物体姿态的隐式曲面，以补遮挡缺失；论文和项目页单位均为高校或软件所。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Dual Contouring over Expanded Cubes (DCx) for Zero-Level Set Extraction from Neural Unsigned Distance Functions",
+        "url": "https://s2026.conference-schedule.org/presentation/?id=papers_1461&sess=sess146",
+        "note": "SIGGRAPH 2026 与 TOG 10.1145/3811388 同篇。将双轮廓法扩展到 2×2×2 体素块查表，区别 DCUDF 系列的偏移面投影。国科大导师页列第一作者鲍庆超，会议官方逐人机构均为学术机构；未能读取 TOG 完整致谢，公开证据未见企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "MegaNorm: Local Patch Embeddings for Efficient and Robust Point Normal Orientation at Super-Large Scale",
+        "url": "https://s2026.conference-schedule.org/presentation/?id=papers_823&sess=sess153",
+        "note": "SIGGRAPH 2026 议程旧题 Local Patches Embedding 与正式 10.1145/3799902.3811139 同篇。用两个前馈网络定向局部点块并比较邻块，再优化全局翻转变量；区别仅用经典几何计算的 DACPO。导师页列首作者李卓栋，会议官方列国科大软件所和南洋理工；全文致谢未取得，公开项目页没有企业实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Image Composition with Depth Registration",
+        "url": "https://www.ijcai.org/proceedings/2023/0126.pdf",
+        "note": "IJCAI 2023（10.24963/ijcai.2023/126）。用深度配准处理图像拼接时的遮挡，Photoshop 是实验比较工具。作者均署软件所和国科大，未见目标企业作者或项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Analyzing Part Functionality via Multi-modal Latent Space Embedding and Interweaving",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0097849323001267",
+        "note": "2023 SMI / Computers & Graphics 10.1016/j.cag.2023.06.031；作者公开预稿与正式稿同篇。将形状、纹理、交互嵌入用于零件功能分析和三维模型检索；正式作者贡献和资助信息未列目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Hierarchical Vectorization for Facial Images",
+        "url": "https://link.springer.com/article/10.1007/s41095-022-0314-4",
+        "note": "出版社记载 2023-11-30 首次在线，与 2024 卷版同篇。分层矢量表示实现人像语义改色和光影编辑。Linlin Liu 为南洋理工与阿里联培博士，学籍高校不在本项目 26 校范围；其他作者无阿里正式员工署名或记录。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "UGrid: An Efficient-And-Rigorous Neural Multigrid Solver for Linear PDEs",
+        "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/han24a/han24a.pdf",
+        "note": "ICML 2024 论文与 2024-08-09 arXiv:2408.04846 同篇。把 U-Net 与多网格 V 循环结合，以残差损失求解线性偏微分方程；作者署石溪大学、软件所和国科大，无目标企业证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "From Transparent to Opaque: Rethinking Neural Implicit Surfaces with α-NeuS",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3173c427cb4ed2d5eaab029c17f221ae-Paper-Conference.pdf",
+        "note": "2024-11-08 arXiv:2411.05362 与 NeurIPS 2024 同篇。用局部最小值或零值面分别重建透明和不透明表面；张浩然见侯飞国科大导师页，但明确企业作者 Chen Qian 署商汤（范围外），致谢另有未具名合作伙伴。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "CtrlAvatar: Controllable Avatars Generation via Disentangled Invertible Networks",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32747/34902",
+        "note": "AAAI 2025 10.1609/aaai.v39i7.32747，作者存档与正式稿对应。用可逆网络分离人体几何与纹理控制，实现可编辑化身。作者署高校、软件所与中关村实验室，原文致谢未列目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Intuitive User-Guided Portrait Image Editing with Asymmetric Conditional GAN",
+        "url": "https://www.sciopen.com/article/10.26599/CVM.2025.9450370",
+        "note": "2025 正式发表（2023 收稿及接受日期非公开日期）。PortraitACG 以非对称条件 GAN 完成几何、色彩和阴影控制，区别三层矢量化。仅出版页摘要、作者机构可直接读取；Linlin Liu 是南洋理工与阿里联培，在读高校超出范围，未见同篇另有符合要求的阿里正式员工。全文 PDF 尚未取得。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Voronoi-Assisted Diffusion for Computing Unsigned Distance Fields from Unoriented Points",
+        "url": "https://arxiv.org/pdf/2510.12524v1",
+        "note": "2025-10-14 首稿。使用 Voronoi 条件对齐双向法向，扩散并积分成无符号距离场；这并非 DWG 的绕数梯度定向。原文列商汤研究院（范围外），无本项目目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Metric–Phase Fields: Decoupling Distance and Sign for Thin-Structure Reconstruction from Unoriented Point Clouds",
+        "url": "https://arxiv.org/pdf/2605.25503v1",
+        "note": "2026-05-25 首稿，软件所书目列 ICML 2026。分离度量场与拓扑相位以重建薄结构。作者均署高校或软件所；致谢有南洋理工 S-Lab 及未具名行业伙伴，未见范围内企业参与证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "SuP: Sub-cloud Driven Point Cloud Registration",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fung_SuP_Sub-cloud_Driven_Point_Cloud_Registration_CVPR_2026_paper.pdf",
+        "note": "CVPR 2026 正式全文。将低重叠点云问题转成子点云配对，用双阶段锚点选择做配准。企业作者 Wei Pan、Ling Cao 署 OPT Machine Vision（范围外），其余署高校或研究所。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Focusing: View-Consistent Sparse Voxels for Efficient 3D VAE Training",
+        "url": "https://proceedings.mlr.press/v306/chen26cn.html",
+        "note": "ICML 2026 正式稿署陈序辉为软件所、国科大和字节跳动共同一作，字节焦少慧同篇；以深度剔除潜在体素训练三维 VAE。软件所 2020 录取及王文成国科大导师页证明王文成是正式博士导师；侯飞与王文成曾共同指导陈序辉参与另一个 SparseMC 赛事，不足以确立本篇侯飞正式指导。尚缺字节方面对陈序辉在本项目参与方式的具名说明，双署名不足以确认。较早匿名 ICLR 稿与方法相同、确切公开日待查。",
+        "outcome": "lead"
       }
     ],
-    "note": "第一批：核对国科大导师页、软件所精选书目和 ORCID/DBLP 身份索引，再回到逐篇原文核读。已将同一工作的公开首稿、正式稿及勘误合并。书目仍有未审部分，暂标梳理中。"
+    "note": "第三批用软件所发布的书目脚本、ORCID 和 DBLP 2026-11-01 全量身份精确检索交叉对账。首稿、正式卷版和内容相同的早期版本归为一篇。范围内仍有未逐篇判断的文章；留作梳理中。"
   }
 };
