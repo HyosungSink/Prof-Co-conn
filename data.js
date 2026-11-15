@@ -46418,6 +46418,177 @@ const survey = {
           "https://www.cse.cuhk.edu.hk/lyu/_media/journal/jli_neurocomputing2021_on.pdf?cache=cache&id=students%3Aphd"
         ]
       ]
+    },
+    {
+      "id": "tencent-flashmemory-hkustgz-jia-li",
+      "company": "腾讯",
+      "team": "腾讯混元 Frontier",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "李佳 · Jia Li",
+        "香港科技大学（广州）数据科学与分析学域副教授，Qifan Zhang 的博士导师，也是技术报告作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee#new_tab"
+      ],
+      "employee": [
+        "梁添 · Tian Liang",
+        "本人主页列为腾讯 AI Lab 研究科学家，技术报告首版同篇署腾讯；共同第一作者。",
+        "https://skytliang.github.io/"
+      ],
+      "student": [
+        "Qifan Zhang",
+        "2024 年秋起在港科大（广州）攻读博士。项目负责人王琰具名列他为实习生，首稿明确列他和梁添作共同第一作者，并标注腾讯、港科大（广州）双署。",
+        "https://libertywing.github.io/yanwang.github.io/"
+      ],
+      "advising": [
+        "博士主导师",
+        "港科大（广州）在 2026 年 6 月博士资格考试公告中列李佳为 Qifan Zhang 主导师、Jing Tang 为共同导师。",
+        "https://dsa.hkust-gz.edu.cn/blog/2026/05/28/graph-problem-reasoning-and-large-language-models-a-comprehensive-survey/"
+      ],
+      "title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+      "short": "FlashMemory-DeepSeek-V4",
+      "date": "2026-06-08",
+      "venue": "arXiv 预印本",
+      "area": "超长上下文推理与稀疏注意力",
+      "paper": "https://arxiv.org/abs/2606.09079v1",
+      "extra": [
+        [
+          "技术报告首稿、作者和项目状态",
+          "https://arxiv.org/pdf/2606.09079v1#page=1"
+        ],
+        [
+          "共同第一作者具名说明同篇在混元 Frontier 实习时完成",
+          "https://littlecoder12345.github.io/"
+        ],
+        [
+          "港科大（广州）2024 级在读名录",
+          "https://dsa.hkust-gz.edu.cn/zh/blog/2024/09/05/2024-cohort/"
+        ],
+        [
+          "原始项目和代码",
+          "https://github.com/libertywing/FlashMemory-Deepseek-V4"
+        ],
+        [
+          "首稿次日改订覆盖的异动",
+          "https://arxiv.org/html/2606.09079v2"
+        ],
+        [
+          "校方博士资格考试：李佳为主导师",
+          "https://dsa.hkust-gz.edu.cn/blog/2026/05/28/graph-problem-reasoning-and-large-language-models-a-comprehensive-survey/"
+        ],
+        [
+          "原项目负责人具名记录 Qifan Zhang 的实习",
+          "https://libertywing.github.io/yanwang.github.io/"
+        ]
+      ],
+      "evidence": "6 月 8 日首版明确标注 Qifan Zhang 双署腾讯与港科大（广州）并列共同第一作者，项目负责人王琰独立具名列他为实习生，与他同篇共同第一的 Jiachen Yu 本人也明确列 FlashMemory 为腾讯混元 Frontier 实习期间完成的具体项目。首稿的项目状态说明王琰在公开前离开腾讯、这一研究暂停；因此公司人员使用在首版同属共同第一作者、本人确任腾讯研究科学家的梁添，并描述该项研究的形成阶段，不把首稿发行时项目负责人仍在腾讯或后续继续运行当作事实。Jia Li 教师主页列从 2024 年秋指导该生，同篇正式署名。三个版本合计一条。 DeepSeek-V4 是此研究使用的公开模型架构；该校企关系对应原文中署名的腾讯。",
+      "paperId": "10.48550/arXiv.2606.09079"
+    },
+    {
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "贺品嘉 · Pinjia He",
+        "香港中文大学（深圳）数据科学学院副教授；学生的博士导师，同篇以学校署名。",
+        "https://sds.cuhk.edu.cn/en/teacher/464"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "论文署腾讯 AI Lab；其任职由个人履历及此前出版物中的作者简介交叉确认。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "袁尤良 · Youliang Yuan",
+        "港中大（深圳）在读博士、第一作者；最早公开的预印本注明在腾讯 AI Lab 实习期间完成 DeRTa。",
+        "https://youliangyuan.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "港中大（深圳）校方的同项目案例明确指出贺品嘉和腾讯 AI Lab 涂兆鹏为两方指导。",
+        "https://itso.cuhk.edu.cn/page/473"
+      ],
+      "id": "tencent-derta-cuhksz-pinjia-he",
+      "title": "Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training",
+      "short": "DeRTa",
+      "date": "2024-07-12",
+      "venue": "ACL 2025",
+      "area": "大语言模型安全对齐 · 拒绝位置",
+      "paper": "https://aclanthology.org/2025.acl-long.158/",
+      "paperId": "10.48550/arXiv.2407.09121",
+      "evidence": "2024 年 7 月首稿具名注明袁尤良等学生在腾讯 AI Lab 实习期间完成；港中大（深圳）介绍同一研究时明确列出袁尤良为本校在读博士，贺品嘉和腾讯 AI Lab 涂兆鹏为该项目的两方指导。论文首稿列贺品嘉为通讯作者、涂兆鹏署腾讯。此篇主要是安全微调方法，区别于 CipherChat 的模型评测。",
+      "extra": [
+        [
+          "首稿首页：具名实习与两方署名",
+          "https://arxiv.org/html/2407.09121v1"
+        ],
+        [
+          "校方项目案例：两位指导者及学生身份",
+          "https://itso.cuhk.edu.cn/page/473"
+        ],
+        [
+          "2022 级博士在读与贺品嘉指导",
+          "https://sds.cuhk.edu.cn/article/1616"
+        ],
+        [
+          "中科院计算所：涂兆鹏任职与中文姓名",
+          "https://nlp.ict.ac.cn/yjdw/ybyxs/202210/t20221009_48715.html"
+        ]
+      ]
+    },
+    {
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "贺品嘉 · Pinjia He",
+        "香港中文大学（深圳）数据科学学院副教授；学生的博士导师，同篇以学校署名。",
+        "https://sds.cuhk.edu.cn/en/teacher/464"
+      ],
+      "employee": [
+        "王琰 · Yan Wang",
+        "本项研究进行时为腾讯 AI Lab 首席研究科学家和架构探索组负责人；正式稿署腾讯 AI Lab。",
+        "https://libertywing.github.io/yanwang.github.io/"
+      ],
+      "student": [
+        "Xiaoyuan Liu",
+        "港中大（深圳）博士生、第一作者。正式稿明确其在腾讯 AI Lab 实习期间完成研究，其公开履历列王琰为企业侧指导。",
+        "https://xyliu-cs.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生教育履历具名列贺品嘉为博士导师，校方课题组成员名单及原文通讯作者可交叉核实。",
+        "https://xyliu-cs.github.io/"
+      ],
+      "id": "tencent-statelm-cuhksz-pinjia-he",
+      "title": "The Pensieve Paradigm: Stateful Language Models Mastering Their Own Context",
+      "short": "StateLM",
+      "date": "2026-02-12",
+      "venue": "ICLR 2026",
+      "area": "大模型长程上下文 · 记忆工具",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8c54e9bfed4119c873f575d1d1e2f0a0-Paper-Conference.pdf",
+      "paperId": "10.48550/arXiv.2602.12108",
+      "evidence": "ICLR 正式稿首页在第一作者 Xiaoyuan Liu 名后标星，脚注明确该研究在腾讯 AI Lab 实习期间完成，并列其学校与腾讯的双署名。贺品嘉为港中大（深圳）通讯作者及其博士导师，王琰为同篇腾讯作者并在本人履历列该生 2025 年 6 月至 2026 年 3 月参加研究。项目在 1 月已被王琰提及，2 月 12 日有可核的完整公开稿；同一研究只计一次。",
+      "extra": [
+        [
+          "2 月 12 日公开稿",
+          "https://arxiv.org/abs/2602.12108v1"
+        ],
+        [
+          "企业项目与在读学生同期实习记录",
+          "https://libertywing.github.io/yanwang.github.io/"
+        ],
+        [
+          "作品由腾讯作者账号发布",
+          "https://huggingface.co/papers/2602.12108"
+        ],
+        [
+          "校内导师的课题组名单",
+          "https://pinjiahe.github.io/lab/"
+        ]
+      ]
     }
   ]
 };

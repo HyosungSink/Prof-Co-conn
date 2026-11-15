@@ -7620,7 +7620,9 @@ const facultyPaperAudits = {
       "https://doi.org/10.1145/3637528.3672010",
       "https://graph-wiz.github.io/",
       "https://squareroot3.github.io/",
-      "https://research.cuhk.edu.hk/en/publications/ibcircuit-towards-holistic-circuit-discovery-with-information-bot/"
+      "https://research.cuhk.edu.hk/en/publications/ibcircuit-towards-holistic-circuit-discovery-with-information-bot/",
+      "https://dsa.hkust-gz.edu.cn/zh/blog/2024/09/05/2024-cohort/",
+      "https://dsa.hkust-gz.edu.cn/blog/2026/05/28/graph-problem-reasoning-and-large-language-models-a-comprehensive-survey/"
     ],
     "papers": [
       {
@@ -7652,11 +7654,7 @@ const facultyPaperAudits = {
         "url": "https://proceedings.mlr.press/v267/bian25a.html",
         "outcome": "confirmed",
         "note": "该文首页列 Yifan Niu 为港科大（广州）博士生共同第一作者，其共同搭档 Tian Bian 同署香港中文大学与阿里达摩院，Yu Rong 同署阿里达摩院。论文第 10 页明确本研究由达摩院（湖畔实验室）创新研究计划支持，并列出具体分工：两位共同一作提出 IBCircuit、合作开发早期代码，Yifan Niu 负责变分近似、理论推导与正文第 1–4 节。这些资料共同证明学生直接参与同篇企业合作的技术工作，仅称共同科研，不认定该港科大学生在阿里任职。导师 Jia Li 与阿里达摩院专业人员 Yu Rong 均为正式署名作者。2025 年 ICML 版早于 2026 年作者补传预印本，同篇只计一次。",
-        "year": 2025,
-        "paperId": "10.48550/arXiv.2602.22581",
-        "relationIds": [
-          "alibaba-ibcircuit-hkustgz-jia-li"
-        ]
+        "year": 2025
       },
       {
         "title": "InversionGNN: A Dual Path Network for Multi-Property Molecular Optimization",
@@ -7699,8 +7697,90 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "note": "2025-07 ACL 正式文集同署 Yifan Niu、Miao Peng、Nuo Chen 与导师 Jia Li，另有腾讯与阿里作者。原文未见在读作者参与同期企业项目的明确脚注；个人主页列为学术成果，暂无企业项目归属。",
         "year": 2025
+      },
+      {
+        "title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+        "url": "https://arxiv.org/abs/2606.09079v1",
+        "outcome": "confirmed",
+        "note": "6 月 8 日首版明确标注 Qifan Zhang 双署腾讯与港科大（广州）并列共同第一作者，项目负责人王琰独立具名列他为实习生，与他同篇共同第一的 Jiachen Yu 本人也明确列 FlashMemory 为腾讯混元 Frontier 实习期间完成的具体项目。首稿的项目状态说明王琰在公开前离开腾讯、这一研究暂停；因此公司人员使用在首版同属共同第一作者、本人确任腾讯研究科学家的梁添，并描述该项研究的形成阶段，不把首稿发行时项目负责人仍在腾讯或后续继续运行当作事实。Jia Li 教师主页列从 2024 年秋指导该生，同篇正式署名。三个版本合计一条。 DeepSeek-V4 是此研究使用的公开模型架构；该校企关系对应原文中署名的腾讯。",
+        "year": 2026,
+        "paperId": "10.48550/arXiv.2606.09079",
+        "relationIds": [
+          "tencent-flashmemory-hkustgz-jia-li"
+        ]
+      },
+      {
+        "title": "POSEIDON: Scaling Training Environments for Scientific Agents from Code Repositories",
+        "url": "https://arxiv.org/abs/2610.32448",
+        "outcome": "existing",
+        "note": "已在关系索引以香港科技大学（广州）Jia Li、彭淼与腾讯混元 Nuo Chen 登记；2026-10-23 arXiv v1。作者双署、导师和腾讯职务可独立验证；不另按其他作者计数。",
+        "year": 2026
+      },
+      {
+        "title": "TrajLong: Co-Designing Agentic and Long-Context Supervision for Mid-Training",
+        "url": "https://arxiv.org/abs/2610.04973",
+        "outcome": "lead",
+        "note": "预印 v1 元数据提交 2026-10-04，原稿首页标 2026-10-06。中训练轨迹数据为独立项目，彭淼同署港科大（广州）与腾讯混元并列第一，博士导师 Jia Li 同篇，腾讯混元首席研究员 Nuo Chen 首页明确列项目负责人、通讯作者。学生本人列同队 2026-01 起实习；当前无本文具名实习脚注或过去同篇的第一方企业独立项目记录。",
+        "year": 2026
+      },
+      {
+        "title": "DMAIC-Bench: From Self-Reflection to Self-Restraint for Agents in Multi-Stage Analytical Tasks",
+        "url": "https://arxiv.org/abs/2610.32305",
+        "outcome": "no-evidence",
+        "note": "2026-10-23 原文，Shan Peng 双署深圳市不具目标公司身份的独立科研机构和港科大（广州），其余全列港科大（广州）；不能把在读者其他项目的企业任职迁入本篇。",
+        "year": 2026
+      },
+      {
+        "title": "The Oscars of AI Theater: A Survey on Role-Playing with Language Models",
+        "url": "https://arxiv.org/abs/2407.11484",
+        "outcome": "lead",
+        "note": "首个公开稿 2024-07-16。学生陈诺与博导 Jia Li 为校方，王琰自己列同篇成果；公开任职在该时期覆盖米哈游和重返腾讯的交界，论文暂无具名实习，陈诺同期在本人主页列的是阿里通义实习。不能把先前 Harry Potter 项目的关系移入此综述。",
+        "year": 2024
+      },
+      {
+        "title": "LoopRPT: Reinforcement Pre-Training for Looped Language Models",
+        "url": "https://arxiv.org/abs/2603.19714",
+        "outcome": "no-evidence",
+        "note": "2026-03-20 arXiv 首版与后来 NeurIPS 录用为同一研究。初稿全题作者均列哈工大、清华、港科大（广州）；不能因署港科大（广州）的 Nuo Chen 和 Yuhan Li 后续工作与腾讯相关而推定此项。",
+        "year": 2026
+      },
+      {
+        "title": "Rewarding Graph Reasoning Process makes LLMs more Generalized Reasoners",
+        "url": "https://arxiv.org/abs/2503.00845",
+        "outcome": "no-evidence",
+        "note": "2025-03-02 原稿明确全员为港科大（广州）数据科学与分析学域；彭淼的阿里和腾讯实习均晚于首稿，代码与模型由 GraphPRM 研究组发布，未发现当时的目标企业项目实际参与。",
+        "year": 2025
+      },
+      {
+        "title": "Improving LLMs’ Generalized Reasoning Abilities by Graph Problems",
+        "url": "https://arxiv.org/abs/2507.17168",
+        "outcome": "no-evidence",
+        "note": "COLM 正式稿六位作者均为港科大（广州），与 2025-07-23 预印同工作。学生彭淼或 Qifan Zhang 在别的时点或项目的企业经历不证明 GraphPile 为企业工作。",
+        "year": 2025
+      },
+      {
+        "title": "How does Misinformation Affect Large Language Model Behaviors and Preferences?",
+        "url": "https://aclanthology.org/2025.acl-long.674/",
+        "outcome": "no-evidence",
+        "note": "2025-05 预印及 2025-07 ACL 正式作者全列港科大（广州）；项目由学生的个人组织发布。未见该项与任何调查范围企业的确证协作。",
+        "year": 2025
+      },
+      {
+        "title": "Mitigating the Safety Alignment Tax with Null-Space Constrained Policy Optimization",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e664650506f1cf2b4696df892147c06e-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2025-12 预印与 2026 ICLR 会议版同一工作。正式稿五位都署港科大（广州）或港科大。研究人员在其他团队的职位不宜用于推断本项目。",
+        "year": 2026
+      },
+      {
+        "title": "GraphWiz: An Instruction-Following Language Model for Graph Computational Problems",
+        "url": "https://doi.org/10.1145/3637528.3672010",
+        "outcome": "no-evidence",
+        "note": "KDD 正式页、同项目作者和学校组网站确认陈诺、Yuhan Li、Jianheng Tang 与 Jia Li。未见本文目标公司的明确参与；项目上线早于此处已知通义和混元项目任职。",
+        "year": 2024
       }
-    ]
+    ],
+    "note": "仍在逐篇核对教师公开书目和学生同期企业研究。2022 年已经公开 Harry Potter 角色对话数据集及相同实验，2023 年会议版按同一研究排除。"
   },
   "gfB8UaIAAAAJ": {
     "from": "2023-01-01",
@@ -61104,7 +61184,7 @@ const facultyPaperAudits = {
   "PdzO-4YAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://wenqiangx.github.io/",
       "https://wenqiangx.github.io/publications/",
@@ -61117,7 +61197,10 @@ const facultyPaperAudits = {
       "https://www.robotube.org/",
       "https://proceedings.mlr.press/v205/",
       "https://kailinli.top/",
-      "https://openaccess.thecvf.com/content/ICCV2021/html/Yang_CPF_Learning_a_Contact_Potential_Field_To_Model_the_Hand-Object_ICCV_2021_paper.html"
+      "https://openaccess.thecvf.com/content/ICCV2021/html/Yang_CPF_Learning_a_Contact_Potential_Field_To_Model_the_Hand-Object_ICCV_2021_paper.html",
+      "https://api.crossref.org/works/10.1109/lra.2024.3518116",
+      "https://arxiv.org/html/2504.04573v1",
+      "https://dblp.org/rec/journals/ral/ZhangXYXTL25.html"
     ],
     "papers": [
       {
@@ -61184,10 +61267,10 @@ const facultyPaperAudits = {
         "outcome": "no-evidence"
       },
       {
-        "year": 2025,
-        "title": "DexTOG: Learning Task-Oriented Dexterous Grasp with Language Condition",
-        "url": "https://arxiv.org/pdf/2504.04573v1",
-        "note": "2025-04 首稿徐署上海交大，语言引导抓取所列机构没有目标企业。",
+        "year": 2024,
+        "title": "DexTOG: Learning Task-Oriented Dexterous Grasp With Language Condition",
+        "url": "https://doi.org/10.1109/LRA.2024.3518116",
+        "note": "徐本人书目列 2024，IEEE 向 Crossref 的 DOI 登记为 2024-12-16；正式编入 2025 年 2 月号，arXiv 2025-04 为后续版。视觉语言引导抓取论文为上海交大团队，资助与目标企业实研不同。",
         "outcome": "no-evidence"
       },
       {
@@ -61217,9 +61300,72 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2603.08122v1",
         "note": "2026-03-09 首稿，徐与 Lin Shao 署新加坡国立大学。另有交大、上海人工智能实验室、中关村学院及 Sharpa；Sharpa 不在目标企业范围。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Intersection-Free Robot Manipulation With Soft-Rigid Coupled Incremental Potential Contact",
+        "url": "https://arxiv.org/pdf/2311.05945v1",
+        "note": "2023-11-10 首稿署上海交大，研究软质材料和刚体的接触约束；与光学触觉传感器模拟 TacIPC 各有独立技术和实验。对应 IEEE RAL 10.1109/LRA.2024.3381012，无目标企业证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "TacIPC: Intersection- and Inversion-Free FEM-Based Elastomer Simulation for Optical Tactile Sensors",
+        "url": "https://arxiv.org/pdf/2311.05843v1",
+        "note": "2023-11-10 首稿署上海交大，主题为光学触觉传感器的弹性材料 FEM 模拟。对应 IEEE RAL 10.1109/LRA.2024.3357030，无目标企业同篇参与证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "RFTrans: Leveraging Refractive Flow of Transparent Objects for Surface Normal Estimation and Manipulation",
+        "url": "https://arxiv.org/pdf/2311.12398v1",
+        "note": "2023-11-21 首稿列上海交大电子信息与电气工程学院、启元研究所和人工智能研究院；研究透明物体的折射流、表面法线估计和机器人操作，未见企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Bidirectional visual-tactile cross-modal generation using latent feature space flow model",
+        "url": "https://doi.org/10.1016/j.neunet.2023.12.042",
+        "note": "Neural Networks 2023-12-27 先行出版，卷期为 2024 年；徐署上海交大、其他作者署哈工大。视觉与触觉双向转换论文的声明未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "MS-MANO: Enabling Hand Pose Tracking with Biomechanical Constraints",
+        "url": "https://arxiv.org/html/2404.10227v1",
+        "note": "2024-04-16 首稿标明谢鹏飞署东南大学、徐及其他作者署上海交大，研究生物力学约束手姿估计；CVPR 正式版对应 10.1109/CVPR52733.2024.00231，未见目标企业同篇证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Capturing forceful interaction with deformable objects using a deep learning-powered stretchable tactile array",
+        "url": "https://www.nature.com/articles/s41467-024-53654-y",
+        "note": "Nature Communications 2024-11-04 在线刊，徐为共同一作；所有作者署上海交大的不同院系，原文为研制触觉手套、采集手和物体动态数据的 ViTaM。与另篇 ViTaM-D 的 HOT 模拟数据和 DF-Field 不同，未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation",
+        "url": "https://arxiv.org/html/2411.09572v1",
+        "note": "2024-11-14 首稿列五位上海交大作者。2025 ICCV 正式稿增加 MIT 合作者，DF-Field 和 HOT 数据集是同一工作的后续版，原文未出现目标企业同篇参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "RigPI: Dynamic Parameter Identification of Rigid Body via VLM-Seeded Differentiable Simulation",
+        "url": "https://arxiv.org/pdf/2606.25212v1",
+        "note": "2026-06 首稿脚注显示徐在新加坡国立大学，另有两名上海交大作者，Rongrong Zhang 使用 way-robotics.com 邮箱。会议题录将该单位列为上海惟一科技，非目标企业。使用 Intern-S1 作对比不构成企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "VOKE: Visual Object Kinematics Estimator for Dexterous In-Hand Manipulation",
+        "url": "https://arxiv.org/pdf/2611.16423v1",
+        "note": "截至日 2026-11-12 的 arXiv v1 补到复旦署名。原文具名说明 Shengjia Zhu 是上海交大学生且在新加坡国立大学科研实习时完成本工作，Lin Shao 同署 NUS；不构成在目标公司实研。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "据徐文强本人论文清单与简历，及 DBLP、作者 ORCID、会议和出版社原文逐篇对照。2026-10-01 入职复旦，之前分别在上海交大与新加坡国立。按首稿归并 2024 TPAMI 的 CPF 扩展（2021 首发）、2023 RSS 的 RFUniverse（2022-02 首稿）、2023 PMLR 卷所收的 RoboTube（2022-12 CoRL 口头报告）。ORCID 增量仍待查缺。"
+    "note": "2023-01-01 至 2026-11-12 可识别公开书目逐篇核对 23 篇：本人论文页和 CV 与 ORCID、DBLP 记录、会议及出版社原文交叉复核。2026-10-01 入职复旦，此前在上海交大和新加坡国立。2024 TPAMI 的 CPF 扩展与 2021 ICCV 归同一工作，2023 RSS 的 RFUniverse 对应 2022 年首稿，PMLR 2023 卷所收 RoboTube 是 2022 年 CoRL 口头报告。三篇首发早于范围，未重复计。点云、交通与蚂蚁语音团队出现的 Wenqiang Xu 通过导师、单位和书目区别同名，不归入此条。"
   },
   "vg0moI0AAAAJ": {
     "from": "2023-01-01",
@@ -61233,7 +61379,14 @@ const facultyPaperAudits = {
       "https://tuzhaopeng.github.io/",
       "https://pinjiahe.github.io/publications/",
       "https://dblp.org/pid/147/1619.html",
-      "https://siyuexi.github.io/"
+      "https://siyuexi.github.io/",
+      "https://arxiv.org/html/2407.09121v1",
+      "https://itso.cuhk.edu.cn/page/473",
+      "https://sds.cuhk.edu.cn/article/1616",
+      "https://nlp.ict.ac.cn/yjdw/ybyxs/202210/t20221009_48715.html",
+      "https://arxiv.org/abs/2602.12108v1",
+      "https://libertywing.github.io/yanwang.github.io/",
+      "https://huggingface.co/papers/2602.12108"
     ],
     "papers": [
       {
@@ -61295,15 +61448,19 @@ const facultyPaperAudits = {
         "title": "Towards Evaluating Proactive Risk Awareness of Multimodal Language Models",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0a7872c9d3ce6792d033d3b0d044ba8a-Abstract-Datasets_and_Benchmarks_Track.html",
         "outcome": "lead",
-        "note": "2025-05-23 首稿；袁尤良、其博士导师贺品嘉与曾在腾讯工作的焦文祥同篇。仍需把该项和同一企业的同期任职、学生的同项目技术工作明确对应。",
+        "note": "2025-05-23 首稿；袁尤良、其博士导师贺品嘉与曾在腾讯工作的焦文祥同篇。仍需把该项和同一企业的同期任职、学生的同项目技术工作明确对应。 2025-05 首版焦文祥仅署个人邮箱，其主页记到 8 月仍在腾讯，9 月入职小红书；学校项目报告只列学术拨款，企业项目归属仍未证。",
         "paperId": "10.52202/085713-0240"
       },
       {
-        "year": 2025,
+        "year": 2024,
         "title": "Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training",
         "url": "https://aclanthology.org/2025.acl-long.158/",
-        "outcome": "lead",
-        "note": "正式稿署港中大（深圳）及腾讯作者；与 CipherChat 是不同研究。原文未说明袁尤良以腾讯实习人员身份做本篇，待见具名项目记录。"
+        "outcome": "confirmed",
+        "note": "2024 年 7 月首稿具名注明袁尤良等学生在腾讯 AI Lab 实习期间完成；港中大（深圳）介绍同一研究时明确列出袁尤良为本校在读博士，贺品嘉和腾讯 AI Lab 涂兆鹏为该项目的两方指导。论文首稿列贺品嘉为通讯作者、涂兆鹏署腾讯。此篇主要是安全微调方法，区别于 CipherChat 的模型评测。",
+        "paperId": "10.48550/arXiv.2407.09121",
+        "relationIds": [
+          "tencent-derta-cuhksz-pinjia-he"
+        ]
       },
       {
         "year": 2025,
@@ -61320,6 +61477,52 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "论文的公开企业合作来自微软研究院；微软不在网站 14 家范围内。版本沿用 OpenRCA 基准并只计一篇。",
         "paperId": "10.48550/arXiv.2502.06781"
+      },
+      {
+        "year": 2026,
+        "title": "The Pensieve Paradigm: Stateful Language Models Mastering Their Own Context",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8c54e9bfed4119c873f575d1d1e2f0a0-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "ICLR 正式稿首页在第一作者 Xiaoyuan Liu 名后标星，脚注明确该研究在腾讯 AI Lab 实习期间完成，并列其学校与腾讯的双署名。贺品嘉为港中大（深圳）通讯作者及其博士导师，王琰为同篇腾讯作者并在本人履历列该生 2025 年 6 月至 2026 年 3 月参加研究。项目在 1 月已被王琰提及，2 月 12 日有可核的完整公开稿；同一研究只计一次。",
+        "paperId": "10.48550/arXiv.2602.12108",
+        "relationIds": [
+          "tencent-statelm-cuhksz-pinjia-he"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": "Hue: A User-Adaptive Parser for Hybrid Logs",
+        "url": "https://arxiv.org/abs/2308.07085v1",
+        "outcome": "lead",
+        "note": "2023-08-14 公开，研究利用华为云私有日志并由校内导师贺品嘉通讯。正文给出的部署阶段为 2022 年 10 月至 12 月，学生徐俊杰龙所列华为实习则从 2023 年 5 月开始。仍须找到其参与本项企业研发阶段的直接证据。"
+      },
+      {
+        "year": 2024,
+        "title": "MRCA: Metric-level Root Cause Analysis for Microservices via Multi-Modal Data",
+        "url": "https://doi.org/10.1145/3691620.3695485",
+        "outcome": "lead",
+        "note": "正式会议材料具名列港中大（深圳）学生、贺品嘉及华为云两位作者。学生的华为实习期间和本项微服务根因项目的具体分工仍待证。"
+      },
+      {
+        "year": 2025,
+        "title": "UniSage: A Unified and Post-Analysis-Aware Sampling for Microservices",
+        "url": "https://arxiv.org/abs/2509.26336v1",
+        "outcome": "no-evidence",
+        "note": "预印本作者仅署港中大（深圳）和香港中文大学，未见范围内企业的同项目证据；学生在2025 年另列华为实习，不单凭日期归入。"
+      },
+      {
+        "year": 2025,
+        "title": "An Empirical Study of SOTA RCA Models: From Oversimplified Benchmarks to Realistic Failures",
+        "url": "https://arxiv.org/abs/2510.04711v1",
+        "outcome": "no-evidence",
+        "note": "2025-10-06 预印本和 FSE 2026 最终题名 Rethinking the Evaluation of Microservice RCA with a Fault Propagation-Aware Benchmark 为同一研究；预印公开作者单位无目标企业，公开 RCA 基准不能证明腾讯参与。"
+      },
+      {
+        "year": 2026,
+        "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
+        "url": "https://arxiv.org/abs/2606.27154v1",
+        "outcome": "no-evidence",
+        "note": "2026-06-25 首稿原文列作者和实验配置，腾讯、字节等只出现在被评估模型的供应商中；另有 2025 ICLR 原始 OpenRCA，2.0 增加的是可核的因果过程任务，单列一个核查决定。"
       }
     ],
     "note": "从校方课题组及公开书目逐篇查。同一作者论文的不同公开版本去重；尚余多篇公开书目待核。"
