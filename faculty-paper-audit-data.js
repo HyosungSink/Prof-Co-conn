@@ -13543,7 +13543,14 @@ const facultyPaperAudits = {
       "https://minyang.ai/",
       "https://ipbench.wangqiyao.me/",
       "https://aclanthology.org/people/min-yang-2728/",
-      "https://arxiv.org/abs/2504.15524"
+      "https://arxiv.org/abs/2504.15524",
+      "https://aclanthology.org/people/jiaxi-yang/",
+      "https://github.com/Yangjiaxi/Sense",
+      "https://huybery.github.io/",
+      "https://github.com/MING-ZCH/CII-Bench",
+      "https://arxiv.org/abs/2402.18679",
+      "https://arxiv.org/abs/2506.02347",
+      "https://arxiv.org/abs/2504.10458"
     ],
     "papers": [
       {
@@ -13722,9 +13729,100 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2412.09796v1",
         "note": "2024-12-13 首稿有深研院、大连理工、南科大、深圳理工和 UNSW。王琪尧当时是大连理工本科生，其后在国科大的博士培养和企业实习与本篇不可倒推；未见目标企业。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Synthesizing Text-to-SQL Data from Weak and Strong LLMs",
+        "url": "https://aclanthology.org/2024.acl-long.425.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式论文首页的实习脚注只标注第一作者杨家玺，说明本研究在阿里巴巴实习期间完成。杨家玺署国科大及深研院，杨敏同篇为通讯作者，Binyuan Hui 同篇为共同第一作者并署阿里。该工作合成强、弱模型的 Text-to-SQL 数据以训练 SENSE，与迭代前向调优及 AAAI 的协同专家方法均不同。"
+      },
+      {
+        "year": 2024,
+        "title": "E-EVAL: A Comprehensive Chinese K-12 Education Evaluation Benchmark for Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-acl.462.pdf",
+        "note": "arXiv:2401.15927 首发。评估中文中小学考试题的语言模型；正式原文列深研院、中科大、南科大、深北莫、哈工深和 UNION INFORMATION（范围外）。作者与研究资助未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Data Interpreter: An LLM Agent for Data Science",
+        "url": "https://aclanthology.org/2025.findings-acl.1016.pdf",
+        "note": "2024-02-28 arXiv:2402.18679 首稿，与 ACL 后续版合并。全文列 DeepWisdom、深研院及复旦、港科广等机构；所提方法用分层图计划执行数据科学任务，未见目标企业共同作者或学生企业实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "PITA: Prompting Task Interaction for Argumentation Mining",
+        "url": "https://aclanthology.org/2024.acl-long.275.pdf",
+        "note": "ACL 2024 原文把多个论证挖掘子任务用提示相互约束；机构是哈工深、鹏城实验室、深研院与港中大。致谢列科研资助，未见目标公司同篇作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Decomposing Argumentative Essay Generation via Dialectical Planning of Complex Reasoning",
+        "url": "https://aclanthology.org/2024.findings-acl.731.pdf",
+        "note": "ACL 2024 正式版。把议论文规划拆解为提纲与辩证检视；作者署哈工深、鹏城实验室、深研院及港中大，未见目标企业作者和同篇学生企业实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Discourse Structure-Aware Prefix for Generation-Based End-to-End Argumentation Mining",
+        "url": "https://aclanthology.org/2024.findings-acl.689.pdf",
+        "note": "ACL 2024 正式版，DENIM 利用篇章结构产生论证抽取提示，与 PITA 的任务互动为独立方法。原文列哈工深、鹏城实验室、深研院、港中大及中电科 30 所（范围外）；未见目标企业同篇作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "MOLIME: Less Is More for MLLM Evaluation",
+        "url": "https://aclanthology.org/2025.findings-acl.474.pdf",
+        "note": "最早为 2024-09-10 arXiv:2409.06851 的 LIME，同一基准后称 MOLIME。OPPO 在原文署名和资助中出现，不属于本轮企业；评测通义、DeepSeek 等模型不算这些企业参与研发。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Can MLLMs Understand the Deep Implication Behind Chinese Images?",
+        "url": "https://aclanthology.org/2025.acl-long.700.pdf",
+        "note": "arXiv:2410.13854 是 2024-10 首稿，与 ACL 2025 的 CII-Bench 去重。原文列华科、深研院、国科大与 01.AI 等机构；后者范围外。基准中的商业模型用于评测，未见目标企业学生实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Quantification of Large Language Model Distillation",
+        "url": "https://aclanthology.org/2025.acl-long.248.pdf",
+        "note": "2025-01 arXiv:2501.12619 首稿与 ACL 2025 合并。文件列北大、深研院、深圳理工、Leibowitz AI 和 01.AI 等；对豆包、Qwen 等闭源模型的量化测试没有对应公司署名、资助或学生实研依据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents",
+        "url": "https://arxiv.org/pdf/2504.10458v4",
+        "note": "2025-04-14 首稿，后续 v4 首次列杨敏及另两位学生，仍为同一 GUI 强化学习工作。v4 作者均署深研院、国科大或 NUS；代码托管 Ritzz-AI 亦范围外，未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "STORYTELLER: An Enhanced Plot-Planning Framework for Coherent and Cohesive Story Generation",
+        "url": "https://aclanthology.org/2025.findings-acl.1071.pdf",
+        "note": "2025-06 arXiv:2506.02347 首稿。国科大/深研院学生以情节节点和动态实体图提升故事连贯性；正式稿其余机构为 UNSW 和重庆大学，致谢为科研经费，没有目标企业合作证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Learning First-Order Logic Rules for Argumentation Mining",
+        "url": "https://aclanthology.org/2025.acl-long.691.pdf",
+        "note": "ACL 正式稿以一阶逻辑规则统一论证识别任务。致谢列 CIPSC-SMP-ZHIPU 跨学科研究基金，但作者仅署哈工深、鹏城实验室、深研院、港中大与 UNSW；没有智谱正式员工同篇或学生企业实研证据。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2026,
+        "title": "Learning Ordinal Probabilistic Reward from Preferences",
+        "url": "https://arxiv.org/pdf/2602.12660v1",
+        "note": "可核实名版本 2026-02-13；OPRM 通过有序概率奖励处理偏好不确定性。杨敏及学生仅署深研院和国科大，另两名共同作者署 Ritzz-AI（范围外），未见目标公司同篇参与。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "按杨敏课题组论文及本人书目，和罗润、张磊、王琪尧等作者独立公开页面交叉核对首稿、正式版和论文中实际科研角色；全期书目仍在逐篇梳理。"
+    "note": "已对照本人公开书目、ACL 正式论文、首稿和学生独立履历核对目前列出的作品。排除 ACL 作者页混入的字节跳动同名作者（VIPER、H-OPD 首稿）；不以作者索引列表自动归属。全期书目仍逐篇梳理。"
   },
   "66KKZR4AAAAJ": {
     "from": "2023-01-01",
@@ -18346,7 +18444,12 @@ const facultyPaperAudits = {
       "https://gongyeliu.github.io/",
       "https://learner-shx.github.io/",
       "https://arxiv.org/html/2605.21121v1",
-      "https://arxiv.org/html/2605.19727v1"
+      "https://arxiv.org/html/2605.19727v1",
+      "https://tianlinn.com/",
+      "https://arxiv.org/html/2606.08788v1",
+      "https://huaqlili.github.io/huaqiu/",
+      "https://echostyle2026.github.io/",
+      "https://arxiv.org/html/2606.27771v1"
     ],
     "papers": [
       {
@@ -18394,6 +18497,27 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "lead",
         "note": "2026 年 5 月首稿脚注确认第一作者 Zebin He 在腾讯混元实习期间完成。两篇原文中都署港科大及腾讯；未取得独立的同期在读与具名导师证据。另一双署作者 Hanxiao Sun 的港科大博士学籍从同年秋季开始。"
+      },
+      {
+        "title": "EchoStyle: Unlocking High-Fidelity Video Stylization with Reverse Data Synthesis",
+        "url": "https://doi.org/10.1007/978-3-032-37196-6_15",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "2026 年 6 月首稿，ECCV 同篇。李华秋当时在阿里通义实习、原文校企双署，但本人学籍记录 7 月前是清华硕士，9 月起才在港科大由罗文寒和谭平指导。研究期间的联合指导或另一位在读作者的具体归属待查。"
+      },
+      {
+        "title": "MaskAlign: Token-Subset Representation Alignment for Efficient Diffusion Training",
+        "url": "https://arxiv.org/abs/2606.08788v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "同篇两位共同一作都署快手与港科大，其中 Tianlin Pan 当时仍列国科大本科，港科大博士为后续阶段；Lianyu Pang 还缺其同期学籍和罗文寒的具名导师证明。"
+      },
+      {
+        "title": "NormGuard: Reward-Preserving Norm Constraints in Flow-Matching Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2606.27771v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "2026 年 6 月首稿，与 MaskAlign 的研究问题、实验不同。虽同篇列快手作者，Pan 在国科大本科阶段的记录、其他同篇作者学籍和导师尚需区分，未确认港科大导师关系。"
       }
     ]
   },

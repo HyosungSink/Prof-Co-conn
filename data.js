@@ -47901,6 +47901,59 @@ const survey = {
         "港科大副教授（校方现职），刘昕煜的博士共同导师，原文通讯作者。",
         "https://ece.hkust.edu.hk/whluo"
       ]
+    },
+    {
+      "id": "alibaba-sense-ucas-yang",
+      "paperId": "arxiv:2408.03256",
+      "company": "阿里巴巴",
+      "team": "通义 / Qwen",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "中国科学院大学深圳先进技术研究院研究员、博士生导师；本篇通讯作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "student": [
+        "杨家玺 · Jiaxi Yang",
+        "国科大博士生，正式版具名说明在阿里实习期间完成本研究。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Binyuan Hui",
+        "本篇共同第一作者，署阿里巴巴；同期公开论文及任职履历确认在阿里通义团队从事代码与大模型研究。",
+        "https://huybery.github.io/"
+      ],
+      "advising": [
+        "国科大博士导师",
+        "国科大官方档案的指导学生名单具名列杨家玺为杨敏所指导的博士生，杨敏同篇通讯。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "title": "Synthesizing Text-to-SQL Data from Weak and Strong LLMs",
+      "short": "SENSE",
+      "date": "2024-08-06",
+      "venue": "ACL 2024",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2024.acl-long.425.pdf",
+      "evidence": "ACL 正式论文首页的实习脚注只标注第一作者杨家玺，说明本研究在阿里巴巴实习期间完成。杨家玺署国科大及深研院，杨敏同篇为通讯作者，Binyuan Hui 同篇为共同第一作者并署阿里。该工作合成强、弱模型的 Text-to-SQL 数据以训练 SENSE，与迭代前向调优及 AAAI 的协同专家方法均不同。",
+      "extra": [
+        [
+          "首公开预印本",
+          "https://arxiv.org/abs/2408.03256"
+        ],
+        [
+          "作者项目仓库",
+          "https://github.com/Yangjiaxi/Sense"
+        ],
+        [
+          "同期阿里代码模型报告",
+          "https://arxiv.org/abs/2409.12186"
+        ],
+        [
+          "正式稿首页：具名实习脚注",
+          "https://aclanthology.org/2024.acl-long.425.pdf#page=1"
+        ]
+      ]
     }
   ]
 };
