@@ -69179,7 +69179,28 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2311.14311v1",
       "https://arxiv.org/html/2312.13010v1",
       "https://arxiv.org/html/2308.08784v1",
-      "https://arxiv.org/html/2507.21739v1"
+      "https://arxiv.org/html/2507.21739v1",
+      "https://doi.org/10.1145/3611643.3616277",
+      "https://2023.esec-fse.org/details/fse-2023-research-papers/36/SJFuzz-Seed-Mutator-Scheduling-for-JVM-Fuzzing",
+      "https://shadowmydx.github.io/papers/fse2023b.pdf",
+      "https://doi.org/10.1145/3611643.3616294",
+      "https://2023.esec-fse.org/details/fse-2023-research-papers/53/Enhancing-Coverage-guided-Fuzzing-via-Phantom-Program",
+      "https://shadowmydx.github.io/papers/fse2023a.pdf",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/15807b6e09d691fe5e96cdecde6d7b80-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "https://arxiv.org/abs/2402.02037",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/6b8198f777d1ba87a8250368db2ea16a-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "https://arxiv.org/abs/2505.13004",
+      "https://doi.org/10.1109/ICSE48619.2023.00017",
+      "https://shadowmydx.github.io/papers/icse23main-p1034.pdf",
+      "https://hub.hku.hk/handle/10722/333860",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Bu_Towards_Building_More_Robust_Models_with_Frequency_Bias_ICCV_2023_paper.pdf",
+      "https://arxiv.org/abs/2307.09763",
+      "https://arxiv.org/html/2409.09464v3",
+      "https://arxiv.org/html/2409.09464v1",
+      "https://arxiv.org/html/2410.08001v1",
+      "https://hub.hku.hk/handle/10722/319776",
+      "https://haoran-qiu.com/pdf/fring.pdf",
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Heming%20Cui%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=200"
     ],
     "papers": [
       {
@@ -69545,20 +69566,79 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "原文属港大及上海人工智能实验室、港城、华科与科研院所合作，未见目标企业。",
         "year": 2025
+      },
+      {
+        "title": "SJFuzz: Seed and Mutator Scheduling for JVM Fuzzing",
+        "url": "https://doi.org/10.1145/3611643.3616277",
+        "outcome": "no-evidence",
+        "note": "同一学生与崔鹤鸣合作的 ESEC/FSE 研究。正式节目列港大、南科大、天津大学、UIUC 与昆士兰大学，未需移用另一篇与蚂蚁合著的线索。",
+        "year": 2023
+      },
+      {
+        "title": "Enhancing Coverage-Guided Fuzzing via Phantom Program",
+        "url": "https://doi.org/10.1145/3611643.3616294",
+        "outcome": "no-evidence",
+        "note": "Phantom Program 与同组 SJFuzz 不同，正式论文署港大、南科大与天津大学，没有目标企业参与该项。",
+        "year": 2023
+      },
+      {
+        "title": "EffiBench: Benchmarking the Efficiency of Automatically Generated Code",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/15807b6e09d691fe5e96cdecde6d7b80-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "outcome": "no-evidence",
+        "note": "预印本与 NeurIPS 数据集正式版合并。首面港大、滑铁卢大学、上海人工智能实验室与伦敦国王学院；与后续多语言扩展不同。",
+        "year": 2024
+      },
+      {
+        "title": "EffiBench-X: A Multi-Language Benchmark for Measuring Efficiency of LLM-Generated Code",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/6b8198f777d1ba87a8250368db2ea16a-Paper-Datasets_and_Benchmarks_Track.pdf",
+        "outcome": "no-evidence",
+        "note": "独立多语言数据集，2025 预印本与 NeurIPS 正式版合并；首面署港大、港科大、港科大广州、新大、南洋、Monash 与 CSIRO 等，没有十四家企业。",
+        "year": 2025
+      },
+      {
+        "title": "JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time Compilers",
+        "url": "https://doi.org/10.1109/ICSE48619.2023.00017",
+        "outcome": "no-evidence",
+        "note": "ICSE 原文题栏仅港大、南科大、天大与 UIUC。论文感谢蚂蚁资助，但未列一位企业人员署名或在读作者的项目参与企业材料。",
+        "year": 2023
+      },
+      {
+        "title": "Towards Building More Robust Models with Frequency Bias",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Bu_Towards_Building_More_Robust_Models_with_Frequency_Bias_ICCV_2023_paper.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 ICCV 与首稿合并；署上海人工智能实验室、港大与上交，未找到目标企业同篇研究。",
+        "year": 2023
+      },
+      {
+        "title": "Measuring the Influence of Incorrect Code on Test Generation",
+        "url": "https://arxiv.org/html/2409.09464v3",
+        "outcome": "no-evidence",
+        "note": "2024 年首发旧题 Rethinking the Influence of Source Code on Test Case Generation，v3 最新改题。港大、KCL、UCL 与新加坡国立为同篇全部作者单位。",
+        "year": 2024
+      },
+      {
+        "title": "Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation",
+        "url": "https://arxiv.org/html/2410.08001v1",
+        "outcome": "no-evidence",
+        "note": "实质企业合作者是智元机器人 AgiBot，未在本次企业名单；其余署港大、上海人工智能实验室与上交。",
+        "year": 2024
       }
     ],
-    "note": "阶段性逐篇核查：校方教师与实验室资料、香港大学学位论文、DBLP 2026-11-01 本人书目、原始 arXiv 预印本与正式论文联合核对；2025-03-27 港大—华为联合研究会核证了 Fold3D、K2 和 OPERA 的学生与技术证据。逐篇区分纯资助、技术合作和实习，并排除早于 2023 年首发的同作及同名作者。"
+    "note": "已核对 2023-01-01 至 2026-11-12 间阶段性公开书目：港大实名教师及课题组、博士论文库、准确姓名与日期的 arXiv 官方索引（34 条）、DBLP 2026-11-01 归档和各篇出版原件。已归并同项会议/期刊和改题预印本。FRing 与 COORP 已由原刊/港大源核实 2022 首发，2023 刊期非新论文。同名的编码与通信论文正进一步核对，当前不标已穷尽。"
   },
   "vzr_L0EAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://www.cse.cuhk.edu.hk/people/faculty/hanrui/",
       "https://hanruizha.github.io/",
       "https://orcid.org/0000-0001-8991-0622",
       "https://dblp.org/pid/168/8847.html",
-      "https://export.arxiv.org/api/query?search_query=au%3A%22Hanrui%20Zhang%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=100"
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Hanrui%20Zhang%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=100",
+      "https://github.com/hanruizha/hanruizha.github.io/commit/0292157",
+      "https://github.com/hanruizha/hanruizha.github.io/commit/b62707d",
+      "https://wine2026conf.github.io/"
     ],
     "papers": [
       {
@@ -69678,9 +69758,24 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/html/2611.16880v1",
         "year": 2026,
         "outcome": "no-evidence",
-        "note": "arXiv 首稿 2026-11-12，原文以港中文 CSE 邮箱核对韩睿张身份与署名；一位作者，未见目标企业。"
+        "note": "arXiv 首稿 2026-11-12，原文以港中文 CSE 邮箱核对 Hanrui Zhang 的身份与署名；独著，未见目标企业。"
+      },
+      {
+        "title": "Optimal Prophet Inequality for Unions of Easy Systems",
+        "url": "https://hanruizha.github.io/papers/union_prophet.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "公开作者仓库 2026-09-17 已挂出手稿，会议正式日程具名；两人均署港中文。研究由若干简单系统组成的并集；与单作者对一般向下闭合集合的 11 月工作分开。"
+      },
+      {
+        "title": "Approximation Algorithms for GPU Pricing under Finite Capacity",
+        "url": "https://hanruizha.github.io/papers/gpu_pricing.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "作者主页具名，公开仓库 2026-10-01 提供投稿稿；该版匿名，未披露具名目标企业参与。"
       }
-    ]
+    ],
+    "note": "已交叉核对本人分年论文书目、本人网页公开仓库的提交时间、ORCID、DBLP 归档实名 PID 168/8847 和 arXiv 时间窗索引。2022 年首发的首价拍卖论文排除；arXiv 2511.07810 的同名作者为多伦多大学数学系人员，排除。预印本及会议期刊异名版本并项；匿名稿只记录公开可查的部分。"
   },
   "TUIQe5kAAAAJ": {
     "from": "2023-01-01",
@@ -69715,5 +69810,109 @@ const facultyPaperAudits = {
         "note": "3 月首稿和 2025 TDSC 正式刊为同一扩展系列；首稿作者列中科院软件所、悉尼大学等，未见范围企业具名实研。"
       }
     ]
+  },
+  "2meBhbQAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://saids.ustc.edu.cn/2026/0715/c36359a747684/page.htm",
+      "https://kkbless.github.io/",
+      "https://dblp.org/pid/181/2626-10.html",
+      "https://orcid.org/0000-0001-5855-3810",
+      "https://fawnliu.github.io/project/guideme/",
+      "https://www.cs.cityu.edu.hk/~rynson/rs/rs.html"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "Glass Surface Detection Grounded in 3D Visual Geometry",
+        "url": "https://arxiv.org/abs/2608.26752",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-08-27 arXiv 首稿，六位署江南大学、中科大、维尔茨堡大学和香港城市大学（东莞），没有目标企业署名。玻璃深度与法向恢复不同于本组早年视频动态反射论文。"
+      },
+      {
+        "year": 2026,
+        "title": "GuideMe: Benchmarking Multi-Domain Task Guidance and Intervention in Streaming Video",
+        "url": "https://arxiv.org/abs/2607.02991",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "首稿 2026-07-03 提交，香港城市大学机构库有同作者 ECCV 2026 改题。项目原文列华为 Jinpeng Chen、Huankang Guan、Yang Bo 和 Rui Liu，许可同时署中科大和香港城市大学。城大 Rynson Lau 师生名单明确 Fang Liu 博士由 Rynson Lau 和 Gerhard Hancke 共同指导，无证据把该生指导转给许可；尚未见 Fang Liu 在华为从事此项目的同期材料。协作者 Xudong Lu 的一般华为实习时间不能作为同项目实研，且其导师未同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization",
+        "url": "https://proceedings.mlr.press/v306/dong26k.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2606.15924 2026-06-14 首稿，7月 ICML PMLR 同八位正式版。作者单位浙江理工、浙江大学、香港城市大学、杭州电子科技大学、马栏山音视频实验室，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "GenSplat: Bridging the Generalization Gap in 3DGS Language Comprehension",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_GenSplat_Bridging_the_Generalization_Gap_in_3DGS_Language_Comprehension_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "CVPR 2026 开放原文与香港城市大学机构库，五作者均香港城市大学。LLM 用在视觉问答测试和推理模块，未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Salient Object Ranking via Cyclical Perception-Viewing Interaction Modeling",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/6d083cc1d2b3ba50982747fc394f7d6b-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICLR 2026 正式全篇三人均香港城市大学，许可及 Rynson Lau 共同通讯。课题关注感知与看图循环，不同于语言引导的 CVPR 2025 工作，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "StyleSculptor: Zero-Shot Style-Controllable 3D Asset Generation with Texture-Geometry Dual Guidance",
+        "url": "https://doi.org/10.1145/3757377.3763929",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2509.13301 及 SIGGRAPH Asia 2025 同六位。原文全部香港城市大学，后续 Haoyuan Wang 有腾讯三维团队去向，无法移用于这篇。"
+      },
+      {
+        "year": 2025,
+        "title": "SeHDR: Single-Exposure HDR Novel View Synthesis via 3D Gaussian Bracketing",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_SEHDR_Single-Exposure_HDR_Novel_View_Synthesis_via_3D_Gaussian_Bracketing_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2509.20400 为 ICCV 2025 同名同作者早版。五位署香港城市大学，低高曝光以高斯建模合成，无目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "4D Gaussian Videos with Motion Layering",
+        "url": "https://doi.org/10.1145/3731189",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "SIGGRAPH 2025 正式 PDF 首面明确 Yujun Shen 署蚂蚁集团，许可署香港城市大学，学生候选 Pinxuan Dai、Peiquan Zhang 等署浙江大学。尚无具名学生在蚂蚁完成这项运动分层研究和许可当期亲自指导的证据；可以追同篇浙大导师许威威。"
+      },
+      {
+        "year": 2025,
+        "title": "Language-Guided Salient Object Ranking",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Language-Guided_Salient_Object_Ranking_CVPR_2025_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "CVPR 2025 正式全文首面六人香港城市大学，使用大型视觉语言模型提供语言线索，不见同篇目标企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "LuSh-NeRF: Lighting up and Sharpening NeRFs for Low-light Scenes",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c69465280855cfe25d566e359da140c1-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "同年 arXiv:2411.06757 及 NeurIPS 2024 全文，同四位作者署香港城市大学。独立研究弱光与模糊，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Unsupervised Salient Instance Detection",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Tian_Unsupervised_Salient_Instance_Detection_CVPR_2024_paper.html",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "CVPR 原文 Xin Tian 署华为技术，许可和 Rynson Lau 署香港城市大学且共同通讯。Lau 公开学生履历列 Tian 2023 已毕业，现任华为海思高级研究员。原文没有另一位具名学生，找不到能证明同项目在读阶段实研且有同篇企业员工的三方材料。"
+      }
+    ],
+    "note": "许可于 2026 年入职中科大，早年按香港城市大学正式作品和该在读学生当期身份查。用自报 ORCID 和完整作者组排除同名 Ke Xu，逐篇查原文与学生的同一企业项目，待补完整公开书目。"
   }
 };
