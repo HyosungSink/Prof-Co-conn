@@ -46152,6 +46152,67 @@ const survey = {
           "https://api.crossref.org/works/10.1145/3729341"
         ]
       ]
+    },
+    {
+      "id": "alibaba-ibcircuit-hkustgz-jia-li",
+      "company": "阿里巴巴",
+      "team": "阿里达摩院",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "李佳 · Jia Li",
+        "香港科技大学（广州）数据科学与分析学域副教授，Yifan Niu 博士导师；本篇共同通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee#new_tab"
+      ],
+      "employee": [
+        "Yu Rong",
+        "正式稿署名 Alibaba DAMO Academy / 湖畔实验室；国际电信联盟演讲者履历列为阿里达摩院 Language & Science Laboratory 负责人、高级技术专家。",
+        "https://aiforgood.itu.int/speaker/rong-yu/"
+      ],
+      "student": [
+        "Yifan Niu",
+        "港科大（广州）2022 级在读博士生、共同第一作者；与校企双署的 Tian Bian 共同提出框架和开发早期代码，他本人负责变分近似、理论推导和第 1–4 节。",
+        "https://ivanniu.github.io/ivan_niu/"
+      ],
+      "advising": [
+        "博士导师",
+        "指导教师本人列 Yifan Niu 自 2022 年秋在其组攻读博士；学生本人主页反向具名 Jia Li 和 Yuan Yao。",
+        "https://sites.google.com/view/lijia"
+      ],
+      "title": "IBCircuit: Towards Holistic Circuit Discovery with Information Bottleneck",
+      "short": "IBCircuit",
+      "date": "2025-07",
+      "venue": "ICML 2025",
+      "area": "大语言模型可解释性与回路发现",
+      "paper": "https://proceedings.mlr.press/v267/bian25a.html",
+      "extra": [
+        [
+          "正式稿首页：校企双署及作者分组",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/bian25a/bian25a.pdf#page=1"
+        ],
+        [
+          "正式稿第 10 页：企业计划与具名技术贡献",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/bian25a/bian25a.pdf#page=10"
+        ],
+        [
+          "校方博士生名单，2022 级",
+          "https://dsa.hkust-gz.edu.cn/people/students/doctor-of-philosophy/"
+        ],
+        [
+          "第一作者提供的同项目代码",
+          "https://github.com/ivanniu/IBCircuit"
+        ],
+        [
+          "后续同篇预印本",
+          "https://arxiv.org/abs/2602.22581"
+        ],
+        [
+          "校方书目：2025 年 7 月正式发表",
+          "https://research.cuhk.edu.hk/en/publications/ibcircuit-towards-holistic-circuit-discovery-with-information-bot/"
+        ]
+      ],
+      "evidence": "该文首页列 Yifan Niu 为港科大（广州）博士生共同第一作者，其共同搭档 Tian Bian 同署香港中文大学与阿里达摩院，Yu Rong 同署阿里达摩院。论文第 10 页明确本研究由达摩院（湖畔实验室）创新研究计划支持，并列出具体分工：两位共同一作提出 IBCircuit、合作开发早期代码，Yifan Niu 负责变分近似、理论推导与正文第 1–4 节。这些资料共同证明学生直接参与同篇企业合作的技术工作，仅称共同科研，不认定该港科大学生在阿里任职。导师 Jia Li 与阿里达摩院专业人员 Yu Rong 均为正式署名作者。2025 年 ICML 版早于 2026 年作者补传预印本，同篇只计一次。",
+      "paperId": "10.48550/arXiv.2602.22581"
     }
   ]
 };

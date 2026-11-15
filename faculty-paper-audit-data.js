@@ -7549,7 +7549,78 @@ const facultyPaperAudits = {
       "https://www.youtube.com/watch?v=eEMgqDldqZQ",
       "https://proceedings.iclr.cc/paper_files/paper/2026/file/302cffe73187dca597aeb309cad1c1cb-Paper-Conference.pdf",
       "https://arxiv.org/abs/2507.03112",
-      "https://peisongw.github.io/"
+      "https://peisongw.github.io/",
+      "https://proceedings.mlr.press/v267/bian25a.html",
+      "https://ivanniu.github.io/ivan_niu/",
+      "https://aiforgood.itu.int/speaker/rong-yu/",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/bian25a/bian25a.pdf#page=1",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/bian25a/bian25a.pdf#page=10",
+      "https://dsa.hkust-gz.edu.cn/people/students/doctor-of-philosophy/",
+      "https://github.com/ivanniu/IBCircuit",
+      "https://arxiv.org/abs/2602.22581",
+      "https://arxiv.org/abs/2503.01488",
+      "https://arxiv.org/html/2503.01488v1",
+      "https://researchportal.hkust.edu.hk/en/publications/inversiongnn-a-dual-path-network-for-multi-property-molecular-opt/",
+      "https://github.com/ivanniu/InversionGNN",
+      "https://proceedings.mlr.press/v235/gao24o.html",
+      "https://openreview.net/pdf/88aab00a4b7dbded4a95bac424b3a384ecb5e23b.pdf",
+      "https://arxiv.org/abs/2405.03003v1",
+      "https://qichaowang.me/assets/pdf/Academic_CV.pdf",
+      "https://ziqigao-tsinghua.github.io/",
+      "https://arxiv.org/abs/2602.21788",
+      "https://arxiv.org/html/2602.21788v1",
+      "https://arxiv.org/html/2602.21788v2",
+      "https://github.com/ivanniu/FCP",
+      "https://arxiv.org/abs/2606.09456",
+      "https://arxiv.org/html/2606.09456v1",
+      "https://github.com/ivanniu/On-Policy-Distill",
+      "https://doi.org/10.1145/3627673.3679547",
+      "https://dl.acm.org/doi/10.1145/3627673.3679547",
+      "https://dbgroup.se.cuhk.edu.hk/people",
+      "https://aclanthology.org/2025.findings-acl.533/",
+      "https://aclanthology.org/2025.findings-acl.533.pdf",
+      "https://arxiv.org/abs/2606.09079",
+      "https://libertywing.github.io/yanwang.github.io/",
+      "https://skytliang.github.io/",
+      "https://arxiv.org/pdf/2606.09079v1#page=1",
+      "https://littlecoder12345.github.io/",
+      "https://github.com/libertywing/FlashMemory-Deepseek-V4",
+      "https://arxiv.org/html/2606.09079v2",
+      "https://arxiv.org/abs/2610.32448",
+      "https://arxiv.org/pdf/2610.32448v1",
+      "https://nuochenpku.github.io/",
+      "https://arxiv.org/abs/2610.04973",
+      "https://arxiv.org/pdf/2610.04973v1#page=1",
+      "https://arxiv.org/abs/2610.32305",
+      "https://arxiv.org/pdf/2610.32305v1",
+      "https://github.com/psptpx/DMAIC-Bench-public",
+      "https://aclanthology.org/2023.findings-emnlp.570/",
+      "https://arxiv.org/html/2211.06869v1",
+      "https://aclanthology.org/2023.findings-emnlp.570.pdf",
+      "https://dsa.hkust-gz.edu.cn/blog/2024/04/08/large-language-models-meet-harry-potter-a-dataset-for-aligning-dialogue-agents-with-characters-2/",
+      "https://jerrynchen.github.io/",
+      "https://arxiv.org/abs/2407.11484",
+      "https://arxiv.org/html/2407.11484v1",
+      "https://arxiv.org/abs/2603.19714",
+      "https://arxiv.org/html/2603.19714v1",
+      "https://interactive-active-ai.github.io/Aha-Looped-Transformer/papers/looprpt/",
+      "https://arxiv.org/abs/2503.00845",
+      "https://arxiv.org/html/2503.00845v1",
+      "https://huggingface.co/GraphPRM",
+      "https://arxiv.org/abs/2507.17168",
+      "https://openreview.net/pdf/c29abf3becdbc4c43ebe28e7b91d037027fd7f86.pdf",
+      "https://arxiv.org/html/2507.17168v1",
+      "https://aclanthology.org/2025.acl-long.674/",
+      "https://aclanthology.org/2025.acl-long.674.pdf",
+      "https://arxiv.org/abs/2505.21608",
+      "https://github.com/GKNL/MisBench",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e664650506f1cf2b4696df892147c06e-Abstract-Conference.html",
+      "https://openreview.net/pdf/443d2b6ac5edee6978e59f2c4eda4439bf9f4b2d.pdf",
+      "https://arxiv.org/abs/2512.11391",
+      "https://doi.org/10.1145/3637528.3672010",
+      "https://graph-wiz.github.io/",
+      "https://squareroot3.github.io/",
+      "https://research.cuhk.edu.hk/en/publications/ibcircuit-towards-holistic-circuit-discovery-with-information-bot/"
     ],
     "papers": [
       {
@@ -7575,6 +7646,59 @@ const facultyPaperAudits = {
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/302cffe73187dca597aeb309cad1c1cb-Paper-Conference.pdf",
         "outcome": "lead",
         "note": "正式版增加港科广导师 Jia Li，但 2025 年 7 月实习产出预印本没有 Jia Li，当时王沛松在清华大学读硕士、尚未于 2025 年 9 月赴港科广读博；不能仅凭正式版倒推同期指导。"
+      },
+      {
+        "title": "IBCircuit: Towards Holistic Circuit Discovery with Information Bottleneck",
+        "url": "https://proceedings.mlr.press/v267/bian25a.html",
+        "outcome": "confirmed",
+        "note": "该文首页列 Yifan Niu 为港科大（广州）博士生共同第一作者，其共同搭档 Tian Bian 同署香港中文大学与阿里达摩院，Yu Rong 同署阿里达摩院。论文第 10 页明确本研究由达摩院（湖畔实验室）创新研究计划支持，并列出具体分工：两位共同一作提出 IBCircuit、合作开发早期代码，Yifan Niu 负责变分近似、理论推导与正文第 1–4 节。这些资料共同证明学生直接参与同篇企业合作的技术工作，仅称共同科研，不认定该港科大学生在阿里任职。导师 Jia Li 与阿里达摩院专业人员 Yu Rong 均为正式署名作者。2025 年 ICML 版早于 2026 年作者补传预印本，同篇只计一次。",
+        "year": 2025,
+        "paperId": "10.48550/arXiv.2602.22581",
+        "relationIds": [
+          "alibaba-ibcircuit-hkustgz-jia-li"
+        ]
+      },
+      {
+        "title": "InversionGNN: A Dual Path Network for Multi-Property Molecular Optimization",
+        "url": "https://arxiv.org/abs/2503.01488",
+        "outcome": "lead",
+        "note": "2025-03-03预印；校方书目确认为 ICLR 2025。第一作者 Yifan Niu 及导师 Jia Li 同署，阿里达摩院 Tingyang Xu、Yu Rong 与腾讯 Yatao Bian 同署，但公开稿未说明学生在企业的本项目分工；上线代码为学生个人仓库。",
+        "year": 2025
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning with Discrete Fourier Transform",
+        "url": "https://proceedings.mlr.press/v235/gao24o.html",
+        "outcome": "lead",
+        "note": "2024-05-05 预印、同年 ICML。首页列腾讯 Bingzhe Wu，与 Jia Li 博士生 Ziqi Gao、Aochuan Chen 同篇；后文腾讯 AI Lab 资助的是 Liang Chen 已披露的项目，王启超同期实习但属中山大学。尚缺两位目标学校学生在企业同篇项目做了哪些工作的可核资料。",
+        "year": 2024
+      },
+      {
+        "title": "Efficient Scaling of LLM Training with Flexible Context Parallelism",
+        "url": "https://arxiv.org/abs/2602.21788",
+        "outcome": "lead",
+        "note": "2026-02-25 DHP 初稿、2026-06-08 FCP 改名与学生第一作者列 NeurIPS 2026 为同篇。华为 Wei Zhou 与 Yifan Niu 就读期及 Jia Li 导师同谱，尚未见明确同期工作分配或学生在企业实际完成该项，不能仅因使用昇腾硬件推出。",
+        "year": 2026
+      },
+      {
+        "title": "Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families",
+        "url": "https://arxiv.org/abs/2606.09456",
+        "outcome": "lead",
+        "note": "2026-06-08。初版有 Yifan Niu、博导 Jia Li 及腾讯 Yasheng Wang、Dihong Gong、Zelong Wang；无具名学生在腾讯参与该项的脚注，学生公开的代码为个人仓库，尚未见企业侧独立归属。",
+        "year": 2026
+      },
+      {
+        "title": "Hierarchical Graph Latent Diffusion Model for Conditional Molecule Generation",
+        "url": "https://doi.org/10.1145/3627673.3679547",
+        "outcome": "lead",
+        "note": "ACM CIKM 2024 篇目列校方 Tian Bian、Yifan Niu、Jia Li、Hong Cheng，以及 DAMO Academy & Hupan Lab 的 Yu Rong 和 Tingyang Xu。同学生另一篇 IBCircuit 之后有更强项目证据，不可回填。当前缺针对本项的直接企业技术分工或具名实习。",
+        "year": 2024
+      },
+      {
+        "title": "RelEdit: Evaluating Conceptual Knowledge Editing in Language Models via Relational Reasoning",
+        "url": "https://aclanthology.org/2025.findings-acl.533/",
+        "outcome": "lead",
+        "note": "2025-07 ACL 正式文集同署 Yifan Niu、Miao Peng、Nuo Chen 与导师 Jia Li，另有腾讯与阿里作者。原文未见在读作者参与同期企业项目的明确脚注；个人主页列为学术成果，暂无企业项目归属。",
+        "year": 2025
       }
     ]
   },
@@ -60410,7 +60534,11 @@ const facultyPaperAudits = {
       "https://zzppppy.github.io/",
       "https://static.cninfo.com.cn/finalpage/2025-09-30/1224693705.PDF",
       "https://pangezhong.github.io/CrossPortrait/",
-      "https://github.com/VisionXLab/RISEBench/tree/main/RISEBench%2B%2B"
+      "https://github.com/VisionXLab/RISEBench/tree/main/RISEBench%2B%2B",
+      "https://arxiv.org/search/?query=Xiaosong+Jia&searchtype=author&start=50",
+      "https://github.com/TJU-IDVLab/Traj-LLM",
+      "https://github.com/OpenDriveLab/PPGeo",
+      "https://arxiv.org/abs/2603.00466"
     ],
     "papers": [
       {
@@ -60545,8 +60673,244 @@ const facultyPaperAudits = {
         "title": "Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations",
         "url": "https://arxiv.org/pdf/2605.18059v1",
         "note": "2026-05-18 首稿明确具名Zhenghao Jin的部分工作在长城汽车实习时完成，长城汽车不在本次的 14 家企业范围；独立于 Bench2Drive-R 数据生成工作。"
+      },
+      {
+        "year": 2025,
+        "outcome": "lead",
+        "title": "Percept-WAM: Perception-Enhanced World-Awareness-Action Model for Robust End-to-End Autonomous Driving",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Percept-WAM_Perception-Enhanced_World-Awareness-Action_Model_for_Robust_End-to-End_Autonomous_Driving_CVPR_2026_paper.html",
+        "note": "2025-11-24 首稿 2511.19221；同篇贾署复旦、Jianhua Han 与 Hang Xu 等署引望（华为智能汽车业务）。Han 履历和 IEEE 资料可识别人员，论文未区分哪些引望作者是在读学生及有无教师具名在校指导。"
+      },
+      {
+        "year": 2026,
+        "outcome": "lead",
+        "title": "Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation",
+        "url": "https://arxiv.org/pdf/2607.06516v1",
+        "note": "2026-07-07 首稿有引望 Pei Xu、Hang Xu 等和复旦贾、上交严骏驰。列上海交大联系的游浚琦本人证实在交大时由严指导，但本科到 2026-06 已结束；暂无同项引望实研证据，另需核 Songbur Wong、Yuchen Zhou。"
+      },
+      {
+        "year": 2025,
+        "outcome": "lead",
+        "title": "PointOBB-v3: Expanding Performance Boundaries of Single Point-Supervised Oriented Object Detection",
+        "url": "https://doi.org/10.1007/s11263-025-02486-4",
+        "note": "2025-01-23 首稿 2501.13898 明列 Jingdong Chen 署蚂蚁、章培源与罗俊伟署武大、贾与严署上交。章本人另列 2025-12 起腾讯实习，不能作为此项蚂蚁实研；未见同篇学生在蚂蚁完成本研究的证据。"
+      },
+      {
+        "year": 2025,
+        "outcome": "no-evidence",
+        "title": "TrajTok: What makes for a good trajectory tokenizer in behavior generation?",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/a97f8072e51a785434b2da3e9cbf5aae-Abstract-Conference.html",
+        "note": "同一轨迹分词器最迟在 2025-06-23 技术报告 2506.21618 首公开；ICLR 正式扩展沿用分词机制与 Waymo 挑战结果，合为一项。正式作者皆上交或复旦，挑战主办方不是目标企业参与证据。"
+      },
+      {
+        "year": 2025,
+        "outcome": "no-evidence",
+        "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f502981cbe221d857ad409450a7917c3-Abstract-Conference.html",
+        "note": "2025-06-11 首稿 2506.09981；贾为上海交大署名，项目另有 NVIDIA Research 和小米汽车，均不在调查范围。"
+      },
+      {
+        "year": 2025,
+        "outcome": "no-evidence",
+        "title": "Repulsor: Accelerating Generative Modeling with a Contrastive Memory Bank",
+        "url": "https://arxiv.org/pdf/2512.08648v1",
+        "note": "2025-12-09 首稿给所有作者的单位只有中科大、上海交大、港大、港中文、复旦、南京大学；贾署复旦，未见企业同篇。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "PointAlign: Feature-Level Alignment Regularization for 3D Vision-Language Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Su_PointAlign_Feature-Level_Alignment_Regularization_for_3D_Vision-Language_Models_CVPR_2026_paper.html",
+        "note": "2026-02-28 首稿 2603.00412 覆盖中科大、福州大学、复旦、南京大学，贾署复旦，无目标公司共同研发。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+        "url": "https://arxiv.org/pdf/2603.03198v1",
+        "note": "2026-03-03 首稿贾署复旦，项目为 ACE Robotics 与多所高校的跨本体模型，首页机构中未列调查里的 14 家企业。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Can Users Specify Driving Speed? Bench2Drive-Speed: Benchmark and Baselines for Desired-Speed Conditioned Autonomous Driving",
+        "url": "https://arxiv.org/pdf/2603.25672v1",
+        "note": "2026-03-26 首稿四位作者署上海交大、复旦与 NVIDIA，企业不在范围；与其他 Bench2Drive 任务不同，聚焦指定速度。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models",
+        "url": "https://arxiv.org/pdf/2604.01259v1",
+        "note": "2026-04-01 首稿列贾在复旦、同队上海交大等，驾驶视觉问答和闭环接口是独立工作；未找到目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "SWIFT: Prompt-Adaptive Memory for Efficient Interactive Long Video Generation",
+        "url": "https://arxiv.org/pdf/2605.09442v1",
+        "note": "2026-05-10 首稿列中科大、复旦、Georgia Tech、上海交大；交互式长视频缓存研究无目标企业参与署名。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Attention Itself Could Retrieve. RetrieveVGGT: Training-Free Long Context Streaming 3D Reconstruction via Query-Key Similarity Retrieval",
+        "url": "https://arxiv.org/pdf/2605.09644v1",
+        "note": "2026-05-10 首稿四作者均属复旦和上海多模态具身智能重点实验室，无企业作者。方法为检索历史 token，不是 DriveVGGT 的车载相机几何约束。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling",
+        "url": "https://arxiv.org/pdf/2605.18599v1",
+        "note": "2026-05-18 首稿以语义及空间解耦解决合成新视角，复旦、上交、中科大署名，未见调查范围企业参与。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "EvoMemNav: Efficient Self-Evolving Fine-Grained Memory for Zero-Shot Embodied Navigation",
+        "url": "https://arxiv.org/pdf/2606.03509v1",
+        "note": "2026-06-02 首稿六作者署复旦与上海多模态具身智能重点实验室，零样本具身导航工作无目标公司。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "UniDexTok: A Unified Dexterous Hand Tokenizer from Real Data",
+        "url": "https://arxiv.org/pdf/2606.10683v1",
+        "note": "2026-06-09 首稿贾为复旦通讯作者，Zhong 与 Wang 署 Rimbot，另有合工大、北邮；Rimbot 不在 14 家范围。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "ReactSim-Bench: Benchmarking Reactive Behavior World Model Simulation in Autonomous Driving",
+        "url": "https://arxiv.org/pdf/2606.14058v1",
+        "note": "2026-06-12 首稿多所大学及长城汽车联合署名；长城不在目标企业范围。研究评价车辆在扰动下的反应，与其他驾驶基准不同。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Enhancing Video Physical Consistency via Role-aware Joint Training and Modality-decoupled Denoising",
+        "url": "https://arxiv.org/pdf/2607.04653v1",
+        "note": "2026-07-06 首稿作者来自中科大、电子科大、复旦、Georgia Tech、上海交大。贾在复旦，未见目标企业参与训练。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "EgoRecovery: Acquiring Failure Recovery Ability Through Human Recovery Demonstration",
+        "url": "https://arxiv.org/pdf/2607.19745v1",
+        "note": "2026-07-22 首稿具名复旦通讯作者贾与 Simple AI、复旦实验室合作；Simple AI 不在 14 家范围。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+        "url": "https://arxiv.org/pdf/2608.12122v1",
+        "note": "2026-08-12 首稿给出 Inspire Robots 与复旦、上交、港大、南洋理工、上海人工智能实验室；Inspire Robots 不在范围，摘要示例使用第三方模型并非合著。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands",
+        "url": "https://arxiv.org/pdf/2609.15726v1",
+        "note": "2026-09-14 首稿通讯作者为复旦贾和上交严，企业署名为 Inspire Robots 和 COWARobot，均不在 14 家目标企业范围。任务是双手操作跨本体视觉触觉评测。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
+        "url": "https://arxiv.org/pdf/2609.40341v1",
+        "note": "2026-09-30 首稿贾属复旦，项目负责人 Liu Liu 署地平线，另有华科与浙江工业大学；地平线不在调查范围。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Bridging NL2SQL for CAN Signal Analytics at NIO: From Externalized Schemas to CTE Pipelines",
+        "url": "https://www.vldb.org/pvldb/vol19/p4330-zhou.pdf",
+        "note": "PVLDB 2026 正式版贾署复旦，企业部署与参与者主要是蔚来，另有中国电信；两家均不在调查企业范围。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "Reasoning-Informed Visual Editing",
+        "url": "https://arxiv.org/pdf/2610.12343v1",
+        "note": "2026-10-08 首稿贾署复旦，章培源为上海交大学生核心贡献者，同篇列微软研究院而无腾讯署名。章称其在此时期在腾讯实习，尚无本篇由他在腾讯完成或腾讯正式人员参与的证据。"
+      },
+      {
+        "year": 2026,
+        "outcome": "lead",
+        "title": "CrossPortrait: Cross-Species Portrait Animation via Adversarial Motion Alignment",
+        "url": "https://arxiv.org/pdf/2610.17532v1",
+        "note": "2026-10-13 首稿复旦贾、中科大张举勇及华为 Zhe Li、Yongheng Zhao、Shiqi Zhou 合著；第一作者 Gezhong Pan 署中科大、深圳河套机构。未见在读者在华为做这项动物跨物种肖像动画的声明。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "LiFi: LiDAR Generation from Multi-View Images via Geometric and Semantic Collaborative Guidance",
+        "url": "https://arxiv.org/pdf/2610.19786v1",
+        "note": "2026-10-14 首稿，复旦贾与中科大、上海创智学院、上海交大署名；相机图像生成 LiDAR 点云与此前 LaGen 的序列生成研究不同，无目标企业合著。"
+      },
+      {
+        "year": 2026,
+        "outcome": "no-evidence",
+        "title": "BAT-WAM: Bridging Action and Touch in World-Action Models for Dexterous Hands",
+        "url": "https://arxiv.org/pdf/2611.10967v1",
+        "note": "2026-11-07 首稿贾为复旦通讯作者，企业研究者署 Rimbot，另有东南大学和清华；Rimbot 不在范围。触觉动作模型和 UniDexTok 的跨手离散编码是不同作品。"
       }
     ],
-    "note": "已逐篇核个人书目、DBLP 和 ORCID/PDF 中的独立作品，补 arXiv 截止日前索引，排除 2022 年先公开的 HDGT、UniAD 和 Delving；把同一作品预印本与正式版合并。引望和蚂蚁有企业署名的项目另待具名学生实研或校内指导。公开书目较新的论文尚待查完。"
+    "note": "已逐篇复核复旦教师贾萧松的个人书目、DBLP、ORCID 和 arXiv 作者检索，目前仍在比对余下公开论文与不同发表版本。已有同篇企业作者而缺少学生在企业参与同项研究证据的，保留为线索。"
+  },
+  "bEEA_jcAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+      "https://research.polyu.edu.hk/en/persons/zecheng-li/",
+      "https://archi-cszcli.github.io/homepage/assets/files/curriculum_vitae.pdf",
+      "https://orcid.org/0000-0003-4200-0941",
+      "https://theses.lib.polyu.edu.hk/bitstream/200/12385/3/6833.pdf",
+      "https://research.polyu.edu.hk/en/publications/n-mvtl-attack-optimal-transaction-reordering-attack-ondefi/",
+      "https://scholars.cityu.edu.hk/en/publications/flexible-and-privacy-preserving-access-control-framework-for-dece/",
+      "https://web.comp.polyu.edu.hk/csbxiao/students.html",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6908620"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Enabling Privacy-Preserving and Efficient Authenticated Graph Queries on Blockchain-Assisted Clouds",
+        "url": "https://doi.org/10.1109/TKDE.2023.3249279",
+        "outcome": "no-evidence",
+        "note": "IEEE 2023 期刊论文与作者港理工博士论文对应。公开技术内容关注区块链上对第三方云计算结果进行认证，未见范围内企业人员参与。"
+      },
+      {
+        "year": 2023,
+        "title": "n-MVTL Attack: Optimal Transaction Reordering Attack on DeFi",
+        "url": "https://doi.org/10.1007/978-3-031-51479-1_19",
+        "outcome": "no-evidence",
+        "note": "校方机构库列入 ESORICS 2023，出版社于 2024-01-12 发布同一篇论文；作者单位为香港理工大学和北京大学，资助为学术拨款。Uniswap 公开数据用于技术评测。"
+      },
+      {
+        "year": 2025,
+        "title": "SEASONED: Semantic-Enhanced Self-Counterfactual Explainable Detection of Adversarial Exploiter Contracts",
+        "url": "https://arxiv.org/abs/2509.05681v1",
+        "outcome": "no-evidence",
+        "note": "2025-09-06 投稿存档元数据具名列 Zecheng Li。首稿正文不具名，公开正文未显示范围内企业人员的参与，暂未发现关系证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Flexible and Privacy-Preserving Access Control Framework for Decentralized Identity Systems",
+        "url": "https://doi.org/10.1109/TIFS.2026.3676653",
+        "outcome": "no-evidence",
+        "note": "正式书目列 2026-03-23 发布，港城大机构库列作者及政府项目资助，港理工课题组公开名录印证学生身份；目前未发现范围内企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Combining LLM-Based Semantic Analysis with Lightweight Deep Learning for Smart Contract Vulnerability Detection",
+        "url": "https://doi.org/10.2139/ssrn.6908620",
+        "outcome": "no-evidence",
+        "note": "SSRN 2026-06-09 公开书目列香港理工大学与东南大学作者；全文尚不可查，按现有公开资料未发现范围内企业证据。"
+      }
+    ],
+    "note": "以港理工教师主页、个人履历和 ORCID 确认同一位作者。排除数据库混入的同名异人与 2022 年首次公开的期刊论文；仍需补查公开书目及个别全文。"
   }
 };
