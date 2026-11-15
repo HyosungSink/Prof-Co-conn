@@ -64965,5 +64965,40 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已完成调查期可公开识别的独立作品：个人完整书目、CV、ORCID/DBLP 与共同作者来源交叉。期刊扩展与原篇合并，排除首发早于 2023 年的 LiteFlow、Spine、eMPTCP、ECN、SoK、Secure Forward Aggregation 和 Personal Mask；PipeTune/Pyxis 目前仅见 NSDI 2027 录用名单。DCP 属于共同作者 Kai CHEN 的已确认指导；张骏雪的指导仍缺具名证据。"
+  },
+  "pw_0Z_UAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://papers.neurips.cc/paper_files/paper/2025/file/76227feb18ea0ee40bd15cf02c33e18e-Paper-Conference.pdf",
+      "https://jieliu.site/",
+      "https://jiajunvision.github.io/",
+      "https://www.ie.cuhk.edu.hk/faculty/ouyang-wanli/",
+      "https://github.com/KlingAIResearch/VideoAlign",
+      "https://gongyeliu.github.io/videoalign/",
+      "https://arxiv.org/pdf/2501.13918v1#page=1",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3a10c46572628d58cb44fb705f25cbbf-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2505.05470v1#page=1",
+      "https://github.com/yifan123/flow_grpo",
+      "https://github.com/yifan123/flow_grpo/commit/39d3d2c68fb0197290bfe1ffa8cd59f2cd459a78",
+      "https://research.cuhk.edu.hk/en/publications/flow-grpo-training-flow-matching-models-via-online-rl/"
+    ],
+    "papers": [
+      {
+        "title": "Improving Video Generation with Human Feedback",
+        "url": "https://papers.neurips.cc/paper_files/paper/2025/file/76227feb18ea0ee40bd15cf02c33e18e-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "year": 2025,
+        "note": "2025-01-23 首稿列港中大在读博士刘杰为共同第一作者并署快手，Jiajun Liang 署快手且有项目负责人标记；可灵团队官方代码仓库的同日记录及两位作者本人履历都将其对应到同一 VideoAlign 项目。刘杰实习研究题为图像与视频生成的强化学习，首稿在其快手实习期间公开。学生本人具名确认博士导师欧阳万里，欧阳在同篇署港中大及上海人工智能实验室。一并核对 NeurIPS 正式版，跨版本只计一项。"
+      },
+      {
+        "title": "Flow-GRPO: Training Flow Matching Models via Online RL",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/3a10c46572628d58cb44fb705f25cbbf-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "year": 2025,
+        "note": "刘杰在快手可灵的实习研究是图像与视频生成的强化学习；2025-05-08 原始论文在这段期间首次公开，明确列他为共同第一作者、三方联署。他本人公开列出该研究与项目代码，代码仓库可核对他在首稿公开当天提交本项实际实现。企业作者 Jiajun Liang 的履历明确快手可灵任职，并把同篇作为团队研究发表。欧阳万里同篇以港中大署名，学生公开履历独立确认博士导师。不是同组较早提出视频偏好数据及评测的 VideoAlign。"
+      }
+    ]
   }
 };
