@@ -63019,7 +63019,7 @@ const facultyPaperAudits = {
   "HFGNmPsAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://cs.ustc.edu.cn/2022/0220/c23236a546061/page.htm",
       "https://songqi1990.github.io/publication.html",
@@ -63029,7 +63029,10 @@ const facultyPaperAudits = {
       "https://faculty.ustc.edu.cn/songqi/zh_CN/kyxm/607912/list/index.htm",
       "https://openalex.org/A5100748969",
       "https://jllliang.github.io/",
-      "https://linke.ustc.edu.cn/_upload/article/files/c3/86/b4732b7c4428b807bd5d79c27340/54db3532-18d9-4618-97d1-54e2063b30e0.pdf"
+      "https://linke.ustc.edu.cn/_upload/article/files/c3/86/b4732b7c4428b807bd5d79c27340/54db3532-18d9-4618-97d1-54e2063b30e0.pdf",
+      "https://mumiao2000.github.io/",
+      "https://icdm2026.neu.edu.cn/DetailedSessions/list.htm",
+      "https://www3.cs.stonybrook.edu/~bibm2026/BIBM2026_Program_Schedule.html"
     ],
     "papers": [
       {
@@ -63222,7 +63225,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1016/j.eswa.2026.133255",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "arXiv:2502.12029 于 2025-02-17 首稿；2026 ESWA 扩写，与先前 SSRN/预印本保持 KnowPath 核心框架，作者宋骐与赵奇相同。原始五人版本为中科大及浙江工业大学，正式四人均中科大。"
+        "note": "arXiv:2502.12029 于 2025-02-17 首稿；2026 ESWA 扩写，与 arXiv 预印本保持 KnowPath 核心框架，作者宋骐与赵奇相同。原始五人版本为中科大及浙江工业大学，正式四人均中科大。"
       },
       {
         "year": 2026,
@@ -63279,9 +63282,57 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "relationIds": [],
         "note": "ACM CIKM 2026-11-06 正式上线，出版社列中科大及合工大。作者公开代码未标目标企业共同实验。"
+      },
+      {
+        "year": 2024,
+        "title": "Performance evaluations of large language models for customer service",
+        "url": "https://doi.org/10.1007/s13042-024-02432-9",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2024-11-11 首发，2025 刊期。正式刊文署中科大与 GuoChuang Cloud Technology，后者不在目标企业范围。客服基准含 21 套数据，调度篇 TeleEval-OS 与其有作者交叉但为独立研究。"
+      },
+      {
+        "year": 2025,
+        "title": "TeleEval-OS: Performance evaluations of large language models for telecommunications operations scheduling",
+        "url": "https://doi.org/10.1177/1088467X251389769",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2506.11017 提交记录 2025-05-06，SAGE 2025-11-03 正式发表。原文列梁军丽参与模型评估，宋骐与李向阳审核；企业共同作者均署非目标企业 GuoChuang Cloud Technology。研究运营调度流程的 15 套数据，不同于客服篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Knowledge-enhanced AI models for domain-specific application: a survey",
+        "url": "https://doi.org/10.1007/s11432-025-4635-0",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "出版方版本 2026-03-03，2025 为接收年。8 人均中科大，宋骐、李向阳兼署德清 Alpha 创新研究院；致谢提昇腾卓越中心资助，无具名华为作者或学生参与企业研究证据。"
+      },
+      {
+        "year": 2026,
+        "title": "TIGER: Text-Informed Generalized Enzyme-Reaction Retrieval",
+        "url": "https://aclanthology.org/2026.acl-long.1643/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "首个可归属作者的 arXiv:2605.24489 发表 2026-05-23，ACL 正式原文明确中科大、港城大和浙大，未见目标企业。较早匿名评审稿主题及基准一致，未另计。"
+      },
+      {
+        "year": 2026,
+        "title": "SentGraph: Hierarchical Sentence Graph for Multi-hop Retrieval-Augmented Question Answering",
+        "url": "https://arxiv.org/abs/2601.03014",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-01-06 首稿，七人署中科大，Wangqiu Zhou 署合肥工大。梁军丽本人列宋骐与李向阳共同指导，原文无目标公司或实研记录。"
+      },
+      {
+        "year": 2026,
+        "title": "Self-Evolving Time-Series Agent: Automatic Architecture Creation Based on Large Language Models",
+        "url": "https://doi.org/10.5281/zenodo.20594597",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Zenodo 2026-06-08 发布同篇预印本。原始稿 acl_latex.tex 明列中科大、俄亥俄州立大学、合肥工大，Pengfei Zhou 2023–2026 中科大硕士明确由宋骐指导，未见目标企业参与。"
       }
     ],
-    "note": "依本人完整书目、学校 LINKE 成果、两个独立作者索引和逐篇出版记录扩展。有华为、腾讯、字节三项署名线索，仍缺学生在企业参与具体论文的证据。其他研究按可公开取得的原文与作者资料判定。"
+    "note": "已逐篇对齐本人网页及简历、校方 LINKE、作者索引和合作者公开书目；合并改题版本。FDER 与 Hi-MEC 只见窗口后会程，三篇 KDD 2027 未见窗口内首发。已排除北航、国防科大及快手同名。华为、腾讯、字节三项保留线索：尚缺在读学生参与确切企业研究的证据。"
   },
   "-0q6cIYAAAAJ": {
     "from": "2023-01-01",
@@ -63298,7 +63349,17 @@ const facultyPaperAudits = {
       "https://researchportal.hkust.edu.hk/en/studentTheses/towards-coherent-co-speech-gesture-generation-multimodal-approach/",
       "https://openaccess.thecvf.com/content/CVPR2024/papers/Qi_Weakly-Supervised_Emotion_Transition_Learning_for_Diverse_3D_Co-speech_Gesture_Generation_CVPR_2024_paper.pdf",
       "https://penghtyx.github.io/Era3D/",
-      "https://penghtyx.github.io/CMD/"
+      "https://penghtyx.github.io/CMD/",
+      "https://arxiv.org/abs/2506.18897",
+      "https://teaganli.github.io/TingguangLi_files/Tingguang.pdf",
+      "https://litwellchi.github.io/",
+      "https://researchportal.hkust.edu.hk/en/studentTheses/empowering-multimodal-generative-models-to-step-into-the-physical/",
+      "https://arxiv.org/pdf/2506.18897v1#page=1",
+      "https://manipulate-in-dream.github.io/",
+      "https://proceedings.mlr.press/v267/chi25b.html",
+      "https://wow-world-model.github.io/",
+      "https://mattie-e.github.io/M2Chat.github.io/",
+      "https://penghtyx.github.io/LUNA/"
     ],
     "papers": [
       {
@@ -63335,6 +63396,34 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "no-evidence",
         "note": "2023 年首稿，CVPR 2024。同题正式版只列港科大和北京大学；使用 ChatGPT-4 生成实验材料并非目标企业共同研究。"
+      },
+      {
+        "title": "MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis",
+        "url": "https://arxiv.org/abs/2506.18897",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "2025-06-23 首稿首页明确列池晓威为共同第一作者及项目负责人，署香港科技大学和腾讯 Robotics X；李珽光署腾讯 Robotics X，郭毅可署港科大并为通讯作者。池本人公开履历列 2024 年 11 月至 2025 年 8 月在腾讯 Robotics X 实习，港科大学位论文将 MinD 列为其博士研究，明确具名导师。李本人履历与同期署名交叉核实企业职位。首稿名称略异，两个版本按同一论文处理。"
+      },
+      {
+        "title": "LUNA: Learning Universal 3D Human Animation Beyond Skinning",
+        "url": "https://arxiv.org/abs/2606.31981",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "香港科技大学和 Meta Reality Labs 合作，属于李鹏在港科大的博士课题；Meta 不在目标企业。"
+      },
+      {
+        "title": "Empowering World Models with Reflection for Embodied Video Prediction",
+        "url": "https://arxiv.org/abs/2410.15461",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "EVA 首稿 2024 年 10 月，ICML 2025 正式版单位和致谢没有池晓威后来实习的腾讯 Robotics X。与后续腾讯共研 MinD 分开。"
+      },
+      {
+        "title": "WoW: Towards a World omniscient World model Through Embodied Interaction",
+        "url": "https://arxiv.org/abs/2509.22642",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "项目及首稿列北京人形机器人创新中心、北京大学和港科大；北京人形机器人创新中心不在本次目标企业。"
       }
     ]
   },
@@ -63441,7 +63530,9 @@ const facultyPaperAudits = {
       "https://cislab.hkust-gz.edu.cn/media/documents/Hi_Reco.pdf",
       "https://cislab.hkust-gz.edu.cn/publications/degas-detailed-expressions-on-full-body-gaussian-avatars/",
       "https://cislab.hkust-gz.edu.cn/media/documents/degas.pdf",
-      "https://advocate99.github.io/"
+      "https://advocate99.github.io/",
+      "https://www.linkedin.com/in/yixin-hu-867b79116",
+      "https://mo-haoran.com/LayerInbetween/"
     ],
     "papers": [
       {
@@ -63503,9 +63594,9 @@ const facultyPaperAudits = {
       {
         "title": "LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering",
         "url": "https://doi.org/10.1145/3811364",
-        "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
-        "year": 2026
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "正式论文及 SIGGRAPH 同一场次明确列出港科大（广州）与腾讯双署的 Zhongyue Guan、腾讯美国图形研究员 Yixin Hu 和通讯导师王泽宇。2026-05-07 的原始项目版本在结果栏写明右侧示例的关键帧由 Guan 绘制，可核对同一篇的实验输入和输出；她当时在港科大（广州）读硕士。校方课题组与作者简介可复核她的学籍和导师。ACM 记录正式发表为 2026-07-03。"
       },
       {
         "title": "SmartTracer: Interactive Tracing-based Stroke Extraction for Complex Line Art",

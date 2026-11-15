@@ -47586,6 +47586,118 @@ const survey = {
         "阿里巴巴通义实验室首席研究科学家，负责 Qwen-Coder/Qoder 等研发；在所引论文及同期项目署通义。",
         "https://yongbin-li.github.io/"
       ]
+    },
+    {
+      "id": "tencent-layerinbetween-hkustgz-zeyu-wang",
+      "company": "腾讯",
+      "team": "腾讯（含腾讯美国 Pixel Lab）",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "王泽宇 · Zeyu Wang",
+        "香港科技大学（广州）助理教授；关同学的硕士生导师及 LayerInbetween 通讯作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=167"
+      ],
+      "employee": [
+        "Yixin Hu",
+        "腾讯美国的高级图形研究员；本人履历确认岗位，发表方同篇署名为 Tencent America。",
+        "https://www.linkedin.com/in/yixin-hu-867b79116"
+      ],
+      "student": [
+        "Zhongyue Guan",
+        "香港科大（广州）在读硕士（2023 秋–2026 年 5 月）；论文和 SIGGRAPH 本项均明示校企双署。首期研究项目归档具名标出由她绘制用于实验对照的原始关键帧，可直接查看对应输入和预测输出。",
+        "https://cislab.hkust-gz.edu.cn/members/zhongyue-guan/"
+      ],
+      "advising": [
+        "硕士导师",
+        "校方课题组记录硕士日期；这三人同领域另篇正式期刊 SmartTracer 原文作者介绍实名写出她受王泽宇指导。",
+        "https://cislab.hkust-gz.edu.cn/media/documents/1-s2.0-S0167839626000610-main.pdf"
+      ],
+      "title": "LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering",
+      "short": "LayerInbetween",
+      "date": "2026-07-03",
+      "venue": "ACM Transactions on Graphics（SIGGRAPH 2026 Journal Track）",
+      "area": "矢量动画笔画匹配、遮挡感知与自动补间",
+      "paper": "https://doi.org/10.1145/3811364",
+      "extra": [
+        [
+          "正式稿首面：学生和企业负责人实名单位",
+          "https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2026__LayerInbetween.pdf#page=1"
+        ],
+        [
+          "SIGGRAPH 本项官方三方与双署",
+          "https://s2026.conference-schedule.org/presentation/?id=papers_1064&sess=sess114"
+        ],
+        [
+          "2026-05-07 同篇公开项目源码版本（含原文链接）",
+          "https://github.com/MarkMoHR/LayerInbetween/commit/9a431b706e21779cd4673ddcb167f3ae8d430c79"
+        ],
+        [
+          "5 月项目存档：该生绘制的实验样本及其效果",
+          "https://raw.githubusercontent.com/MarkMoHR/LayerInbetween/9a431b706e21779cd4673ddcb167f3ae8d430c79/docs/index.html"
+        ],
+        [
+          "校方同项目文献和 MPhil 时段",
+          "https://cislab.hkust-gz.edu.cn/members/"
+        ],
+        [
+          "登记的出版方日期",
+          "https://api.crossref.org/works/10.1145/3811364"
+        ],
+        [
+          "作者公开项目页",
+          "https://mo-haoran.com/LayerInbetween/"
+        ]
+      ],
+      "evidence": "正式论文及 SIGGRAPH 同一场次明确列出港科大（广州）与腾讯双署的 Zhongyue Guan、腾讯美国图形研究员 Yixin Hu 和通讯导师王泽宇。2026-05-07 的原始项目版本在结果栏写明右侧示例的关键帧由 Guan 绘制，可核对同一篇的实验输入和输出；她当时在港科大（广州）读硕士。校方课题组与作者简介可复核她的学籍和导师。ACM 记录正式发表为 2026-07-03。"
+    },
+    {
+      "id": "tencent-mind-hkust-yike-guo",
+      "company": "腾讯",
+      "team": "Robotics X",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "郭毅可 · Yike Guo",
+        "香港科技大学教授，池晓威的博士导师，本篇通讯作者。",
+        "https://ece.hkust.edu.hk/yikeguo"
+      ],
+      "employee": [
+        "李珽光 · Tingguang Li",
+        "腾讯 Robotics X 高级研究科学家，原文署腾讯且为同篇作者；履历列该职位始于 2020 年 9 月。",
+        "https://teaganli.github.io/TingguangLi_files/Tingguang.pdf"
+      ],
+      "student": [
+        "池晓威 · Xiaowei Chi",
+        "港科大博士生，在腾讯 Robotics X 实习期间共同牵头本项目，论文第一作者，校企双署。",
+        "https://litwellchi.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "港科大博士论文库将 MinD 列入池晓威的博士研究，并具名列郭毅可和韩思锐为导师。",
+        "https://researchportal.hkust.edu.hk/en/studentTheses/empowering-multimodal-generative-models-to-step-into-the-physical/"
+      ],
+      "title": "MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis",
+      "short": "MinD",
+      "date": "2025-06-23",
+      "venue": "arXiv 预印本",
+      "area": "视觉想象和机器人实时动作控制",
+      "paper": "https://arxiv.org/abs/2506.18897",
+      "extra": [
+        [
+          "首稿首页：项目负责人及中英文机构",
+          "https://arxiv.org/pdf/2506.18897v1#page=1"
+        ],
+        [
+          "本项项目页（双署与演示）",
+          "https://manipulate-in-dream.github.io/"
+        ],
+        [
+          "学校博士论文与导师",
+          "https://researchportal.hkust.edu.hk/en/studentTheses/empowering-multimodal-generative-models-to-step-into-the-physical/"
+        ]
+      ],
+      "evidence": "2025-06-23 首稿首页明确列池晓威为共同第一作者及项目负责人，署香港科技大学和腾讯 Robotics X；李珽光署腾讯 Robotics X，郭毅可署港科大并为通讯作者。池本人公开履历列 2024 年 11 月至 2025 年 8 月在腾讯 Robotics X 实习，港科大学位论文将 MinD 列为其博士研究，明确具名导师。李本人履历与同期署名交叉核实企业职位。首稿名称略异，两个版本按同一论文处理。"
     }
   ]
 };
