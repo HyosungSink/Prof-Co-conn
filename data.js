@@ -48050,6 +48050,102 @@ const survey = {
         ]
       ],
       "evidence": "刘杰在快手可灵的实习研究是图像与视频生成的强化学习；2025-05-08 原始论文在这段期间首次公开，明确列他为共同第一作者、三方联署。他本人公开列出该研究与项目代码，代码仓库可核对他在首稿公开当天提交本项实际实现。企业作者 Jiajun Liang 的履历明确快手可灵任职，并把同篇作为团队研究发表。欧阳万里同篇以港中大署名，学生公开履历独立确认博士导师。不是同组较早提出视频偏好数据及评测的 VideoAlign。"
+    },
+    {
+      "id": "bytedance-unigrpo-cuhk-wanli-ouyang",
+      "company": "字节跳动",
+      "team": "Seed · 图像生成",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "欧阳万里 · Wanli Ouyang",
+        "香港中文大学信息工程学系教授，刘杰具名博士导师，论文署港中大。",
+        "https://www.ie.cuhk.edu.hk/faculty/ouyang-wanli/"
+      ],
+      "advising": [
+        "博士导师",
+        "刘杰的公开履历确认自 2023 年在港中大攻读博士并由欧阳万里指导。",
+        "https://jieliu.site/"
+      ],
+      "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+      "short": "UniGRPO",
+      "date": "2026-03-24",
+      "venue": "arXiv",
+      "area": "多模态推理与图像生成强化学习",
+      "paper": "https://arxiv.org/abs/2603.23500v1",
+      "employee": [
+        "Jie Wu",
+        "原稿署 ByteDance Seed 并标注为项目负责人；本人公开履历列为 Seed 研究员。",
+        "https://wujie1010.github.io/"
+      ],
+      "student": [
+        "刘杰 · Jie Liu",
+        "香港中文大学在读博士、共同第一作者；2025 年 7 月起在 Seed 实习研发图像生成强化学习，首稿同时署港中大和 ByteDance Seed。",
+        "https://jieliu.site/"
+      ],
+      "extra": [
+        [
+          "首稿首页：双署名与项目负责人",
+          "https://arxiv.org/pdf/2603.23500v1#page=1"
+        ],
+        [
+          "另一位 Seed 合著者公开履历",
+          "https://andy1621.github.io/"
+        ]
+      ],
+      "evidence": "首稿将港中大在读博士刘杰列为共同第一作者，并明确同时署名港中大和 ByteDance Seed，列吴杰为项目负责人。刘杰本人履历把图像生成强化学习列为自 2025 年 7 月起在 Seed 的实习工作，并独立具名确认博士导师是同篇署名港中大的欧阳万里。吴杰的公开履历确认其为 Seed 研究员，其研究履历列出 2025–2026 年同团队的图像与视频生成项目。此作在快手 Flow-GRPO 之后公开，将语言推理与图像合成联训，是另一项项目。"
+    },
+    {
+      "id": "tencent-cpo-hkust-yike-guo",
+      "company": "腾讯",
+      "team": "光子工作室群（LIGHTSPEED Studios）",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "employee": [
+        "Dong Fang",
+        "本篇首面署 LIGHTSPEED，学生第一方履历实名列他为同期深圳腾讯实习导师。另一篇 KDD 正式论文署 Tencent 并给出腾讯企业地址；2026 年同一人的 APEX-SQL 在香港中文大学正式出版档中亦列 LIGHTSPEED。",
+        "https://smartinternet.group/wp-content/uploads/2024/06/paper-xjy-smartguard-kdd.pdf"
+      ],
+      "student": [
+        "Zhiqin Yang",
+        "香港科技大学 2025 年入学的博士生，2025 年 11 月至 2026 年 2 月于腾讯光子担任算法实习生；公开履历具体把重新检查 DPO 与 RLHF 的等价性列为这段实习的研究，并在主页消息与论文源码区实名认领此篇第一作者。",
+        "https://visitworld123.github.io/"
+      ],
+      "faculty": [
+        "郭毅可 · Yike Guo",
+        "香港科技大学计算机科学及工程学系教授；首稿和 ICML 正式版同署港科大，首稿为共同通讯。",
+        "https://researchportal.hkust.edu.hk/en/persons/yike-guo/"
+      ],
+      "advising": [
+        "博士共同导师",
+        "学生公开教育履历明确自己自 2025 年在港科大读博，并具名郭毅可和薛伟为博士导师；二人均为同篇作者。",
+        "https://visitworld123.github.io/"
+      ],
+      "title": "Conditional Equivalence of DPO and RLHF: Implicit Assumption, Failure Modes, and Provable Alignment",
+      "short": "Conditional DPO/RLHF",
+      "date": "2026-05-20",
+      "venue": "ICML",
+      "area": "大语言模型",
+      "paper": "https://proceedings.mlr.press/v306/yang26dp.html",
+      "extra": [
+        [
+          "2026-05-20 首次全文公开并署 LIGHTSPEED",
+          "https://arxiv.org/pdf/2605.20834v1"
+        ],
+        [
+          "学生论文清单与同期项目新闻",
+          "https://visitworld123.github.io/js/data.js"
+        ],
+        [
+          "学生第一方公开算法实现",
+          "https://github.com/visitworld123/CPO"
+        ],
+        [
+          "校方独立书目核对同一员工与企业",
+          "https://research.cuhk.edu.hk/en/publications/apex-sql-talking-to-the-data-via-agentic-exploration-for-text-to-/"
+        ]
+      ],
+      "evidence": "香港科技大学博士生 Zhiqin Yang 把研究 DPO–RLHF 等价性明确列在 2025.11–2026.02 腾讯光子的工作经历中，实习导师具名 Dong Fang；本人公开论文清单实名列这篇首作及同名研究代码。论文首版 2026-05-20 公开时已完成实习，列在校生和其两位具名博士导师为港科大，列企业导师 Dong Fang 为 LIGHTSPEED；不声称公开时仍在腾讯。ICML 正式版与预印本同一项。"
     }
   ]
 };

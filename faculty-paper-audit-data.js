@@ -63746,50 +63746,95 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2607.14681v1",
       "https://arxiv.org/abs/2607.14681",
       "https://arxiv.org/html/2607.14681v1",
-      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and"
+      "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-unveils-comprehensive-ai-models-reshaping-content-and",
+      "https://tan-xu.github.io/",
+      "https://github.com/PKU-Alignment/safe-rlhf",
+      "https://github.com/zeyuet/AudioX",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b36dc39b319ba6ba2a0fd7601951efb4-Abstract-Conference.html",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/41c51513dac7b42dea755ea484955604-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2512.09924v1",
+      "https://arxiv.org/abs/2512.09924",
+      "https://arxiv.org/abs/2603.12257",
+      "https://arxiv.org/html/2603.12257v1",
+      "https://github.com/ali-vilab/DreamVideo-Omni/commit/eb9bd6114d78",
+      "https://dreamvideo-omni.github.io/",
+      "https://weilllllls.github.io/",
+      "https://doi.org/10.1007/s11263-026-02736-z",
+      "https://arxiv.org/abs/2409.02919",
+      "https://link.springer.com/article/10.1007/s11263-026-02736-z",
+      "https://arxiv.org/abs/2410.15461",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/chi25b/chi25b.pdf",
+      "https://arxiv.org/abs/2509.22642",
+      "https://arxiv.org/html/2509.22642v1",
+      "https://arxiv.org/abs/2601.04137",
+      "https://arxiv.org/abs/2610.20811",
+      "https://arxiv.org/html/2610.20811v1",
+      "https://arxiv.org/abs/2606.12555",
+      "https://arxiv.org/html/2606.12555v1",
+      "https://aclanthology.org/2024.findings-acl.373/",
+      "https://arxiv.org/abs/2402.16153",
+      "https://aclanthology.org/2024.findings-acl.373.pdf",
+      "https://proceedings.mlr.press/v306/yang26dp.html",
+      "https://visitworld123.github.io/",
+      "https://smartinternet.group/wp-content/uploads/2024/06/paper-xjy-smartguard-kdd.pdf",
+      "https://arxiv.org/pdf/2605.20834v1",
+      "https://visitworld123.github.io/js/data.js",
+      "https://github.com/visitworld123/CPO",
+      "https://research.cuhk.edu.hk/en/publications/apex-sql-talking-to-the-data-via-agentic-exploration-for-text-to-/",
+      "https://arxiv.org/abs/2604.19211",
+      "https://arxiv.org/html/2604.19211v1",
+      "https://github.com/hkgai-official/ClawNet",
+      "https://arxiv.org/abs/2602.07885",
+      "https://arxiv.org/html/2602.07885v1",
+      "https://arxiv.org/abs/2607.14047",
+      "https://arxiv.org/html/2607.14047v1",
+      "https://open-gigaai.github.io/PhysClaw",
+      "https://arxiv.org/abs/2608.31075",
+      "https://arxiv.org/html/2608.31075v1",
+      "https://github.com/visitworld123/Awesome-Scaling-LRM-Beyond-Human-Supervision"
     ],
     "papers": [
       {
         "title": "PanoLAM: Large Avatar Model for Gaussian Full-Head Synthesis from One-shot Unposed Image",
         "url": "https://arxiv.org/abs/2509.07552v1",
         "outcome": "confirmed",
-        "note": "2025-09-09 首稿，李鹏自己公开列郭毅可与罗文汉为港科大博士导师。郭毅可与学生李鹏、阿里巴巴通义实验室研究员何益升同署首稿。何益升为企业共同第一作者兼通讯，并在本人书目对该篇以专门符号标注李鹏为企业实习学生。项目正式页可核对三方与同一方法，各版本合并为一篇。",
-        "year": 2025
+        "note": "2025-09-09 预印本，李鹏自己公开列郭毅可和罗文汉为港科大博士导师，郭毅可与学生、阿里通义实验室研究员何益升同署首稿。何益升为企业共同第一作者兼通讯，且在本人学术履历该篇直接以 ^ 标注李鹏及另一位港科大作者 Yingdong Hu 为企业实习学生；故可确认与李鹏的同篇企业研究，而非凭学校和企业双边署名推断。项目正式页列相同核心三方和算法，跨版本去重。",
+        "year": 2026
       },
       {
         "title": "PSHuman: Photorealistic Single-image 3D Human Reconstruction using Cross-Scale Multiview Diffusion and Explicit Remeshing",
-        "url": "https://arxiv.org/abs/2409.10141",
-        "year": 2024,
+        "url": "https://doi.org/10.1109/CVPR52734.2025.01492",
         "outcome": "no-evidence",
-        "note": "2024 年首稿，CVPR 2025 正式发表；李鹏的港科大博士论文包含该课题。该稿企业署名为 VAST，不属于本次目标企业。"
+        "note": "2024-09-16 首稿题名简作 Single-view Human Reconstruction using Cross-Scale Diffusion，与 CVPR 2025 正式版同一项。郭毅可和李鹏可确认；企业作者署 VAST，非目标企业。后来的通义合作不能回填到这篇。",
+        "year": 2025
       },
       {
         "title": "CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation",
-        "url": "https://arxiv.org/abs/2505.07003",
-        "year": 2025,
+        "url": "https://doi.org/10.1145/3721238.3730722",
         "outcome": "no-evidence",
-        "note": "港科大正式学位论文、项目页与 ACM 正稿对应同一条件多视图方法。作者单位列港科大、约翰斯·霍普金斯大学、英属哥伦比亚大学和得州农工大学；未查到目标企业的同篇参与。"
+        "note": "2025-05-11 首稿及 2025 SIGGRAPH 正式版列郭毅可和博士生李鹏；其余为港科大、英属哥伦比亚大学、得克萨斯农工等。原文和项目页未见目标企业作者或学生在企业开展这个项目的记载。",
+        "year": 2025
       },
       {
         "title": "Era3D: High-Resolution Multiview Diffusion using Efficient Row-wise Attention",
-        "url": "https://arxiv.org/abs/2405.11616",
-        "year": 2024,
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/65a723bf7d8dad838c09178270d30e80-Abstract-Conference.html",
         "outcome": "no-evidence",
-        "note": "NeurIPS 2024 成果，论文列 DreamTech 和 LightIllusion，并感谢 DreamTech 的算力。两个署名单位均非目标企业。"
+        "note": "2024-05-19 首稿及 NeurIPS 正式版同一项；李鹏、郭毅可与 DreamTech、香港大学、北京大学等作者同署。DreamTech 不在范围内；未见目标企业的项目成员。",
+        "year": 2024
       },
       {
         "title": "Weakly-Supervised Emotion Transition Learning for Diverse 3D Co-speech Gesture Generation",
-        "url": "https://arxiv.org/abs/2311.17532",
-        "year": 2023,
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Qi_Weakly-Supervised_Emotion_Transition_Learning_for_Diverse_3D_Co-speech_Gesture_Generation_CVPR_2024_paper.html",
         "outcome": "no-evidence",
-        "note": "2023 年首稿，CVPR 2024。同题正式版只列港科大和北京大学；使用 ChatGPT-4 生成实验材料并非目标企业共同研究。"
+        "note": "2023 年有首稿，计 CVPR 2024。祁星群实名列郭毅可为导师，CVF 版只署港科大、北大，北大也公开报道本篇；方法使用 ChatGPT 不能推定企业员工作者或学生在企业完成。",
+        "year": 2024
       },
       {
         "title": "MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis",
         "url": "https://arxiv.org/abs/2506.18897",
-        "year": 2025,
         "outcome": "confirmed",
-        "note": "2025-06-23 首稿首页明确列池晓威为共同第一作者及项目负责人，署香港科技大学和腾讯 Robotics X；李珽光署腾讯 Robotics X，郭毅可署港科大并为通讯作者。池本人公开履历列 2024 年 11 月至 2025 年 8 月在腾讯 Robotics X 实习，港科大学位论文将 MinD 列为其博士研究，明确具名导师。李本人履历与同期署名交叉核实企业职位。首稿名称略异，两个版本按同一论文处理。"
+        "note": "已按郭毅可、港科大研究生迟晓威与腾讯 Robotics X 团队发布。作者项目页实名列分工，学生个人履历给出 2024.11–2025.08 的企业实习。",
+        "year": 2025
       },
       {
         "title": "LUNA: Learning Universal 3D Human Animation Beyond Skinning",
@@ -63800,17 +63845,17 @@ const facultyPaperAudits = {
       },
       {
         "title": "Empowering World Models with Reflection for Embodied Video Prediction",
-        "url": "https://arxiv.org/abs/2410.15461",
-        "year": 2024,
+        "url": "https://proceedings.mlr.press/v267/chi25b.html",
         "outcome": "no-evidence",
-        "note": "EVA 首稿 2024 年 10 月，ICML 2025 正式版单位和致谢没有池晓威后来实习的腾讯 Robotics X。与后续腾讯共研 MinD 分开。"
+        "note": "EVA 的 2024 年首稿与 ICML 2025 改题的正式版同一项，PMLR 作者原版单位只列港科大与北大。迟晓威腾讯入职记录晚于首稿公开，正式版没有把本篇列为腾讯项目。",
+        "year": 2025
       },
       {
-        "title": "WoW: Towards a World omniscient World model Through Embodied Interaction",
+        "title": "WoW: Towards a World-omniscient World-model Through Embodied Interaction",
         "url": "https://arxiv.org/abs/2509.22642",
-        "year": 2025,
         "outcome": "no-evidence",
-        "note": "项目及首稿列北京人形机器人创新中心、北京大学和港科大；北京人形机器人创新中心不在本次目标企业。"
+        "note": "2025-09-26 独立模型首稿；学生迟晓威、北大与北京人形机器人创新中心共同具名，后者不是指定企业。与其较早的实习项目 MinD 是不同研究，不能借用彼时的腾讯证据。",
+        "year": 2025
       },
       {
         "title": "M²Chat: Empowering VLM for Multimodal LLM Interleaved Text-Image Generation",
@@ -63821,10 +63866,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test",
-        "url": "https://arxiv.org/abs/2601.04137v1",
-        "year": 2026,
+        "url": "https://arxiv.org/abs/2601.04137",
         "outcome": "no-evidence",
-        "note": "2026-01-07 首稿，为独立发表的具身世界模型评测。原文单位与 WoW 同机构来源，仅北京人形机器人创新中心、北京大学和港科大，未见目标企业。"
+        "note": "2026-01-07 首次公开；成员迟晓威、郭毅可、北京人形机器人创新中心等；这篇是独立基准而非前作 WoW 的换名，首面没发现同项目指定企业作者。",
+        "year": 2026
       },
       {
         "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
@@ -63835,10 +63880,10 @@ const facultyPaperAudits = {
       },
       {
         "title": "ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships",
-        "url": "https://arxiv.org/abs/2607.14681v1",
-        "year": 2026,
+        "url": "https://arxiv.org/pdf/2607.14681v1",
         "outcome": "confirmed",
-        "note": "2026-07-16 首稿仅在第一作者刘昕煜姓名后标星，脚注明确说明工作在可灵团队实习期间完成。刘本人记录 2026 年 3–7 月在快手可灵实习，港科大博士导师为郭毅可和罗文寒，两人均署港科大。张远行本人确认在快手可灵负责多模态理解，本篇署可灵并与罗文寒共同通讯。两位博士导师分别可查询，索引把同篇只计一次。"
+        "note": "arXiv 首版 2026-07-16：第一作者刘昕煜与港科大及快手可灵团队双署，且其姓名的星号脚注明确本篇在可灵团队实习期间完成。学生个人主页独立标记该段实习及郭毅可、罗文瀚为实名博士导师；学术导师郭毅可与快手可灵通讯作者 Zhang Yuanxing 同署，后者于其公开职业档案实名确认 2024 年起的快手团队任职并列本篇。同篇按一项归集。",
+        "year": 2026
       },
       {
         "title": "ActorMind: Emulating Human Actor Reasoning for Speech Role-Playing",
@@ -63856,17 +63901,17 @@ const facultyPaperAudits = {
       },
       {
         "title": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
-        "url": "https://arxiv.org/abs/2503.01710v1",
-        "year": 2025,
+        "url": "https://arxiv.org/abs/2503.01710",
         "outcome": "no-evidence",
-        "note": "原文作者单位列 SparkAudio、港科大、出门问问、网易伏羲及多所其他高校；它使用 Qwen2.5 的模型，未见阿里同篇参与。"
+        "note": "首稿列 SparkAudio 开源群组、出门问问、网易伏羲及学术机构，郭毅可在该作者列。字节 Seed-TTS 出现在外部基准引用，并非这篇的署名企业；无范围内的三方来源。",
+        "year": 2025
       },
       {
         "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2603.12257v1",
-        "year": 2026,
+        "url": "https://arxiv.org/abs/2603.12257",
         "outcome": "lead",
-        "note": "阿里通义主导同项、企业仓库公开代码，刘昕煜为共同一作，但首稿仅署港科大，且首次公开晚于其通义实习三个月。尚未找到他在通义实际完成这一篇的独立时间或分工记录；不可借用 ReViSE 的脚注或署名。"
+        "note": "郭毅可博士生刘昕煜为共同第一作者；阿里同篇作者张士伟标为项目负责人，项目确由阿里视觉实验室公开开源。刘昕煜个人档案的阿里实习止于 2025 年 12 月，本篇 2026 年 3 月首发，公开仓库 2026 年 5 月原始技术提交均是另一位共同第一作者、复旦博士生卫昱杰。尚缺直接材料说明刘昕煜负责哪项企业研发、是否在实习期完成。卫昱杰路线亦不能采用郭毅可作为他的导师。",
+        "year": 2026
       },
       {
         "title": "UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass",
@@ -63909,8 +63954,93 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "arXiv 2025-03-22 首稿的作者单位为北京大学及港科大；原文另逐人说明了 Open-source Safe RLHF-V 项目的代码、数据、研究角色，没有指认任何范围内的企业研究参与。",
         "year": 2025
+      },
+      {
+        "title": "AudioX: A Unified Framework for Anything-to-Audio Generation",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/b36dc39b319ba6ba2a0fd7601951efb4-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "2025-03-13 首稿称 AudioX: Diffusion Transformer for Anything-to-Audio Generation，正式为 ICLR 2026；同一项目。Xu Tan 首稿同期为月之暗面，郭毅可和在校者署港科大，学院说由薛伟团队牵头。核对袁锐斌本人将 YuE、Kimi-Audio 明定为月之暗面项目，却将 AudioX 分开列为学术合著；不能把同期实习自动引用到本篇。其他在校作者暂未找到本篇企业参与和具名导师链。",
+        "year": 2026
+      },
+      {
+        "title": "Safe RLHF-V: Safe Reinforcement Learning from Multi-modal Human Feedback",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/41c51513dac7b42dea755ea484955604-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2025-03-22 首稿以 Safe Reinforcement Learning from Human Feedback in Multimodal Large Language Models 为副标题，NeurIPS 2025 正式版以此题名发表。原文作者单位为北大和港科大，代码及原文另逐人说明研究贡献，未发现目标企业成员。",
+        "year": 2025
+      },
+      {
+        "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+        "url": "https://arxiv.org/pdf/2512.09924v1",
+        "outcome": "existing",
+        "note": "首版 2025-12-11，且导师郭毅可和两位博士共同指导已见现有公开关系；学生本人明确 2025 年 5–12 月阿里通义万相实习，第一版双署名。后续版本并作一项。",
+        "year": 2025
+      },
+      {
+        "title": "HiPrompt: Tuning-free Higher-Resolution Generation with Hierarchical MLLM Prompts",
+        "url": "https://doi.org/10.1007/s11263-026-02736-z",
+        "outcome": "no-evidence",
+        "note": "首稿 2024 年，IJCV 2026 正式版此题；发表作者单位为港科大、得克萨斯大学奥斯汀分校、清华，未查到同项目具名的目标企业参与。学生后续阿里和快手实习不能外推。",
+        "year": 2026
+      },
+      {
+        "title": "RIGen: Beyond Action Following with Reciprocal Interaction in Generative Gameplay",
+        "url": "https://arxiv.org/abs/2610.20811",
+        "outcome": "no-evidence",
+        "note": "2026-10-14 首稿与 10 月 25 日修订合并；项目第一作者、在读博士 Mengfei Li 双署港科大、Vivix，个人资料列 Vivix 实习。企业不是范围内企业，不移用其先前在华为的履历。",
+        "year": 2026
+      },
+      {
+        "title": "AudioX-Turbo: A Unified Framework for Efficient Anything-to-Audio Generation",
+        "url": "https://arxiv.org/abs/2606.12555",
+        "outcome": "no-evidence",
+        "note": "以蒸馏和新语料为核心的独立研究，2026-06-10 首版；Xu Tan 这篇为独立研究者，其他企业署名 Noiz AI 不在 14 家，未见月之暗面参与该项。",
+        "year": 2026
+      },
+      {
+        "title": "ChatMusician: Understanding and Generating Music Intrinsically with LLM",
+        "url": "https://aclanthology.org/2024.findings-acl.373/",
+        "outcome": "no-evidence",
+        "note": "2024 年首稿与 ACL Findings 正式版为一项；作者原文列港科大、Multimodal Art Projection 与 Skywork AI。系同主题，但与后来 YuE 或 Kimi-Audio 的企业参与不混同。",
+        "year": 2024
+      },
+      {
+        "title": "Conditional Equivalence of DPO and RLHF: Implicit Assumption, Failure Modes, and Provable Alignment",
+        "url": "https://proceedings.mlr.press/v306/yang26dp.html",
+        "outcome": "confirmed",
+        "note": "香港科技大学博士生 Zhiqin Yang 把研究 DPO–RLHF 等价性明确列在 2025.11–2026.02 腾讯光子的工作经历中，实习导师具名 Dong Fang；本人公开论文清单实名列这篇首作及同名研究代码。论文首版 2026-05-20 公开时已完成实习，列在校生和其两位具名博士导师为港科大，列企业导师 Dong Fang 为 LIGHTSPEED；不声称公开时仍在腾讯。ICML 正式版与预印本同一项。",
+        "year": 2026
+      },
+      {
+        "title": "ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+        "url": "https://arxiv.org/abs/2604.19211",
+        "outcome": "no-evidence",
+        "note": "2026-04-21 版公开列项目机构为港科大、香港生成式人工智能研發中心、香港浸会；第一作者及两位具名导师同署港科大。作者新闻与机构代码组织明确归于 HKGAI，并非其早先的腾讯光子实习研究。",
+        "year": 2026
+      },
+      {
+        "title": "MemFly: On-the-Fly Memory Optimization via Information Bottleneck",
+        "url": "https://arxiv.org/abs/2602.07885",
+        "outcome": "no-evidence",
+        "note": "2026-02 首稿，个人书目列为 ICLR 2026 MemAgent 工作坊研究。原文作者署港科大、南京理工等；Zhiqin Yang 在腾讯实习期间研究的是 DPO 与 RLHF 等价性，没有证据表明这篇独立的记忆优化是该企业工作。",
+        "year": 2026
+      },
+      {
+        "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
+        "url": "https://arxiv.org/abs/2607.14047",
+        "outcome": "no-evidence",
+        "note": "2026-07 初版名 PhysClaw-0，后公开 Zero2Skill 同一预印本的版本调整按 arXiv 标识合并，校内作者和 GigaAI 项目团队均具名；公开原文另列国科大、港科大、南京理工、港中文等。GigaAI 不在指定企业。",
+        "year": 2026
+      },
+      {
+        "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
+        "url": "https://arxiv.org/abs/2608.31075",
+        "outcome": "lead",
+        "note": "2026-08-31 首稿及修订合并；第一作者 Zhiqin Yang 与两位具名博士导师郭毅可、薛伟同署港科大，同篇 Chenxin Li 署腾讯混元。该作者组的研究综述与 Zhiqin Yang 在腾讯光子具名的 DPO/RLHF 独立项目是不同项目和团队，未找到校内学生在本篇承担腾讯企业研究的可复核材料。",
+        "year": 2026
       }
-    ]
+    ],
+    "note": "阶段性梳理：以港科大教师页匹配的 ORCID、DBLP 与在读学生公开书目为线索，并逐篇核对出版社原文、正式稿和论文项目。ORCID 最晚只有 2025；不能作完整分母。逐项合并预印本和正式版。"
   },
   "q7NLPG0AAAAJ": {
     "from": "2023-01-01",
@@ -64982,7 +65112,11 @@ const facultyPaperAudits = {
       "https://arxiv.org/pdf/2505.05470v1#page=1",
       "https://github.com/yifan123/flow_grpo",
       "https://github.com/yifan123/flow_grpo/commit/39d3d2c68fb0197290bfe1ffa8cd59f2cd459a78",
-      "https://research.cuhk.edu.hk/en/publications/flow-grpo-training-flow-matching-models-via-online-rl/"
+      "https://research.cuhk.edu.hk/en/publications/flow-grpo-training-flow-matching-models-via-online-rl/",
+      "https://arxiv.org/abs/2603.23500v1",
+      "https://arxiv.org/pdf/2603.23500v1#page=1",
+      "https://wujie1010.github.io/",
+      "https://andy1621.github.io/"
     ],
     "papers": [
       {
@@ -64998,7 +65132,485 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "year": 2025,
         "note": "刘杰在快手可灵的实习研究是图像与视频生成的强化学习；2025-05-08 原始论文在这段期间首次公开，明确列他为共同第一作者、三方联署。他本人公开列出该研究与项目代码，代码仓库可核对他在首稿公开当天提交本项实际实现。企业作者 Jiajun Liang 的履历明确快手可灵任职，并把同篇作为团队研究发表。欧阳万里同篇以港中大署名，学生公开履历独立确认博士导师。不是同组较早提出视频偏好数据及评测的 VideoAlign。"
+      },
+      {
+        "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+        "url": "https://arxiv.org/abs/2603.23500v1",
+        "outcome": "confirmed",
+        "year": 2026,
+        "note": "首稿将港中大在读博士刘杰列为共同第一作者，并明确同时署名港中大和 ByteDance Seed，列吴杰为项目负责人。刘杰本人履历把图像生成强化学习列为自 2025 年 7 月起在 Seed 的实习工作，并独立具名确认博士导师是同篇署名港中大的欧阳万里。吴杰的公开履历确认其为 Seed 研究员，其研究履历列出 2025–2026 年同团队的图像与视频生成项目。此作在快手 Flow-GRPO 之后公开，将语言推理与图像合成联训，是另一项项目。"
       }
     ]
+  },
+  "s8pJB0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cybersec.ustc.edu.cn/2026/0401/c25038a725029/page.htm",
+      "https://fanghan-ustc.github.io/publications",
+      "https://orcid.org/0000-0001-9635-9859",
+      "https://www.comp.nus.edu.sg/~changec/pub.html",
+      "https://mzh045.github.io/publications/"
+    ],
+    "papers": [
+      {
+        "year": 2026,
+        "title": "DRAW: Deep Robustness-Adjustable Watermarking",
+        "url": "https://doi.org/10.1109/TDSC.2026.3714391",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2026 作者单位为中科大、新加坡国立大学。同年期刊的数字水印强度调节与 VaRiA 分辨率适应不同。未见目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "VaRiA: Variable-Resolution Image Adaptive Robust Watermarking",
+        "url": "https://doi.org/10.1109/TDSC.2026.3707132",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2026 正式刊文六名均署中科大。公开经费为自然科学基金，未见目标企业作者或企业研究。"
+      },
+      {
+        "year": 2025,
+        "title": "LoT-Pass: Long-Term-Robust Image Watermarking for Image to Video Generation",
+        "url": "https://doi.org/10.1007/978-3-032-37450-9_13",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2509.17773 2025-09-22 首发名 I2VWM，ECCV 2026 改名，同作者、自有实现仓库。中科大及新加坡国立大学；快手可灵等商业模型仅为测试对象。"
+      },
+      {
+        "year": 2026,
+        "title": "Revisiting Coding-Based Approaches to Overcome the Curse of Dimensionality in Learning-Based Watermarking",
+        "url": "https://proceedings.mlr.press/v306/qiu26d.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "PMLR ICML 2026 的 OrthoMark。作者首面只署新加坡国立大学与中科大，公开代码亦未载目标企业合研。"
+      },
+      {
+        "year": 2026,
+        "title": "FARI: Robust One-Step Inversion for Watermarking in Diffusion Models",
+        "url": "https://arxiv.org/abs/2607.26723",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICLR 2026 正式收录和 2026-07-29 arXiv 同题五作者均属中科大；原文没有企业作者或企业在读工作。"
+      },
+      {
+        "year": 2023,
+        "title": "Adaptive Attractors: A Defense Strategy Against Adversarial Collusion Attacks in Machine Learning",
+        "url": "https://doi.org/10.1109/TDSC.2025.3621213",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2306.01400 在 2023-06-02 首发，2025 提前上线、2026 IEEE 正卷；三作者首稿均署新加坡国立大学。研究多买方串谋防御，与 2023 年单份买方规避的基础工作不同。"
+      },
+      {
+        "year": 2023,
+        "title": "Flow-Based Robust Watermarking with Invertible Noise Layer for Black-Box Distortions",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25633",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "AAAI 正式的 FIN；作者来自新加坡国立大学和中科大，公开代码与正式来源未展示目标企业合研。"
+      },
+      {
+        "year": 2023,
+        "title": "AutoStegaFont: Synthesizing Vector Fonts for Hiding Information in Documents",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25425",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "正式 AAAI 2023，作者署中科大、新加坡国立大学、滑铁卢；原作为数字文档向量字形隐写。另查同组 AutoStegaFont+ 两阶段抗物理失真的增量压力测试，GlyphShield 为第三组独立研究。"
+      },
+      {
+        "year": 2026,
+        "title": "LoRo-Mark: Provably Lossless and Robust Agent Watermarking",
+        "url": "https://arxiv.org/abs/2609.34080",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv 2026-09-28 首稿，邹、王、姚、张、方均中科大。评估开源或商业模型不等同于具名企业合研。"
+      },
+      {
+        "year": 2026,
+        "title": "Provably Secure Agent Guardrail",
+        "url": "https://arxiv.org/abs/2605.29251",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv 2026-05-28 首发，全体署中科大；主要为加密验证及模型集成，未见目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Flow of Truth: Proactive Temporal Forensics for Image-to-Video Generation",
+        "url": "https://arxiv.org/abs/2604.15003",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv 2026-04-16 首发。原题六作者均为中科大安徽省数字安全重点实验室，Wan、Kling 等在实验中使用；与 LoT-Pass 的载荷提取非同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Proof-of-Authorship for Diffusion-based AI Generated Content",
+        "url": "https://doi.org/10.1145/3830454.3846801",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-03-18 arXiv:2603.17513 首稿三人均新加坡国立大学；CCS 2026 正式版方涵改署中科大，另外两人仍新加坡国立大学。无同篇企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "BiFPro: A Bidirectional Facial-data Protection Framework against DeepFake",
+        "url": "https://doi.org/10.1145/3581783.3613752",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ACM MM 2023 四位合作者署阿里巴巴，刘泓谷署中科大，方涵署新加坡国立大学。刘在 CVPR 2021 有独立论文脚注明示阿里实习；不能把旧脚注直接移给本篇，尚缺学生在阿里做 BiFPro 的具名实研，也未证实方涵同期指导。 2022-07-07 申请、2022-08 公开的同题专利 CN114881838A 只有中科大申请人和四名校方发明者；这可交叉研究起点与学生身份，仍不证明阿里侧学生角色。"
+      },
+      {
+        "year": 2025,
+        "title": "SynTag: Enhancing the Geometric Robustness of Inversion-based Generative Image Watermarking",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Fang_SynTag_Enhancing_the_Geometric_Robustness_of_Inversion-based_Generative_Image_Watermarking_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICCV 正式全文七位作者署新加坡国立大学与中科大。用几何配准提升反演水印，不同于 ROAR 的调反演误差。"
+      },
+      {
+        "year": 2025,
+        "title": "ROAR: Reducing Inversion Error in Generative Image Watermarking",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_ROAR_Reducing_Inversion_Error_in_Generative_Image_Watermarking_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICCV 原文为上交和新加坡国立大学；Hanyi Wang 与 Fang 同时出现在 CCS 去水印论文，但实验目标不同，都没有范围内企业署名。"
+      },
+      {
+        "year": 2025,
+        "title": "TAG-WM: Tamper-Aware Generative Image Watermarking via Diffusion Inversion Sensitivity",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_TAG-WM_Tamper-Aware_Generative_Image_Watermarking_via_Diffusion_Inversion_Sensitivity_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICCV 正式正文为中科大安徽省数字安全重点实验室、新加坡国立大学，研究生成水印的篡改识别，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "T2SMark: Balancing Robustness and Diversity in Noise-as-Watermark for Diffusion Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/abf731c2993f9b1ee417cc3734787d7a-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "NeurIPS 正式全文可见中科大、安徽省数字安全重点实验室与新加坡国立大学；未见目标企业。与相同五人下一年 FARI 研究方向有关，但分别调整采样噪声及训练逆向器。"
+      },
+      {
+        "year": 2025,
+        "title": "Lightweight-Mark: Rethinking Deep Learning-Based Watermarking",
+        "url": "https://proceedings.mlr.press/v267/qiu25b.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICML 正式全文三人均新加坡国立大学；强调较轻模型与扰动组合优化。次年同作者 OrthoMark 改为特征空间与编码解耦，非同篇。"
+      },
+      {
+        "year": 2025,
+        "title": "RoPaSS: Robust Watermarking for Partial Screen-Shooting Scenarios",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34128",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "AAAI 正式正文署中科大、国大、暨南大学与合肥高维数据研究机构（不是目标公司），未见企业在读工作。"
+      },
+      {
+        "year": 2025,
+        "title": "CoSDA: Enhancing the Robustness of Inversion-based Generative Image Watermarking Framework",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32295",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "AAAI 正式原文六作者分属新加坡国立大学与中科大；无目标企业或企业项目，和 ICCV 同组 SynTag 的方法不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Removal Attack and Defense on AI-generated Content Latent-based Watermarking",
+        "url": "https://doi.org/10.1145/3719027.3765175",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2509.11745 首发 2025-09-15；作者仅新加坡国立大学与上交。正式 ACM CCS 无目标企业。与 2026 CCS Proof-of-Authorship 非同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "GlyphShield: Document Watermarking for the Physical World via Vector Typeface Synthesis",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37073",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "AAAI 2026 正式稿署华中科技大学、中科大/国大等高校，未见目标企业。同组首作者 Nan Sun，与 Xi Yang 主导的 AutoStegaFont 和 AutoStegaFont+ 为不同方法及研究组。"
+      },
+      {
+        "year": 2025,
+        "title": "Synthesizing Glyph Vectors for Practical Information Hiding in Documents",
+        "url": "https://doi.org/10.1109/TDSC.2025.3580285",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2025；原文明示 AutoStegaFont+，增加双模态视觉读取、物理拍摄/打印扰动和二阶段训练，区别原始 AutoStegaFont 的纯数字向量读取。作者中科大、新加坡国立大学、南洋理工及 A*STAR 等研究机构；未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "SKeDA: A Generative Watermarking Framework for Text-to-video Diffusion Models",
+        "url": "https://arxiv.org/abs/2603.00194",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-02-27 arXiv 首稿；中科大、新加坡国立大学、安徽大学等科研机构，公开视频模型是被评估对象，未见具名企业合研。"
+      },
+      {
+        "year": 2026,
+        "title": "ReaguMark: A Resolution-Agnostic Unified Watermarking Framework for Screen-Camera Distortion Resistance",
+        "url": "https://doi.org/10.1109/TMM.2026.3729384",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2601.11978 于 2026-01-17 首发题 NiMark。作者、主题与数据单位确认同一系统演进，IEEE 精简作者，署湖南大学、南信大、新加坡国立大学及新泽西理工。未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "ResGuard: Enhancing Robustness Against Known Original Attacks in Deep Watermarking",
+        "url": "https://arxiv.org/abs/2604.03693",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-04-04 首发；原文署上交、中科大、新加坡国立大学，未见目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "ResetEdit: Precise Text-guided Editing of Generated Image via Resettable Starting Latent",
+        "url": "https://arxiv.org/abs/2604.25128",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-04-28 首发；原文署上交、中科大、武汉大学、新加坡国立大学。无目标企业作者，采用生成图像作公开评测。"
+      },
+      {
+        "year": 2026,
+        "title": "ACPO: Anchor-Constrained Perceptual Optimization for Diffusion Models with No-Reference Quality Guidance",
+        "url": "https://arxiv.org/abs/2604.26348",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-04-29 arXiv 首稿，安徽大学、中科大及合肥综合性国家科学中心人工智能研究院。未见范围内企业。与 Looks Similar and Looks Good 的水印质量函数关注点不同。"
+      },
+      {
+        "year": 2026,
+        "title": "Enhancing Stateful Detection of Adversarial Attacks with Soft-labels’ Temporality and Robust Similarity Approximations",
+        "url": "https://arxiv.org/abs/2606.21592",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-06-19 首发；三人署新加坡国立大学，评估安全查询序列，没有目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Screen-Conditioned Watermarking Against Multi-Screen Collusion Attacks",
+        "url": "https://arxiv.org/abs/2607.23553",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-07-26 首稿作者署湖南大学及中科大；研究叠加不同屏幕信号，与基于多模型买方串谋的 Adaptive Attractors 独立。"
+      },
+      {
+        "year": 2026,
+        "title": "CASIAL: Geometric Distortion Robust Image Watermarking",
+        "url": "https://arxiv.org/abs/2607.26729",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-07-29 arXiv 首稿，署新加坡国立大学和中科大；附件训练源没有目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "LEGO: Enhancing Watermark Robustness Against Multiple Distortions via Task Vectors",
+        "url": "https://doi.org/10.1145/3767308.3836474",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM MM 2026-11-05 正式，会议官方议程具名中科院信工所与中科大，没有目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Gaussian Shading: Provable Performance-Lossless Image Watermarking for Diffusion Models",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Gaussian_Shading_Provable_Performance-Lossless_Image_Watermarking_for_Diffusion_Models_CVPR_2024_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2404.04956 与 CVPR 2024 正式六人，仅中科大及新加坡国立大学。开源扩散模型与代码基准不能确认企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Flexible Partial Screen-Shooting Watermarking With Provable Robustness",
+        "url": "https://ieeexplore.ieee.org/document/11068971/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2025，六人署湖南大学、国防科大、合工大、新加坡国立大学等高校。研究 FPSMark，和 RoPaSS 是不同实验项目。"
+      },
+      {
+        "year": 2023,
+        "title": "DeNoL: A Few-Shot-Sample-Based Decoupling Noise Layer for Cross-channel Watermarking Robustness",
+        "url": "https://doi.org/10.1145/3581783.3612068",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ACM 正式 DOI 的两位华为新加坡作者为 Ke Xu、Chengfang Fang。方涵当期已从中科大毕业，在新加坡国立大学做博后；Qiu、Liu 在该校署名。尚缺目标高校在读者在华为做同项研究。正式作者最后一位为 Ee-Chien Chang，区别本人官网的一处作者列表误记。"
+      },
+      {
+        "year": 2024,
+        "title": "MuST: Robust Image Watermarking for Multi-Source Tracing",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28344",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "AAAI 2024 正式题录为中科大与新加坡国立大学；无可归属目标公司。"
+      },
+      {
+        "year": 2024,
+        "title": "FAMSeC: A Few-Shot-Sample-Based General AI-Generated Image Detection Method",
+        "url": "https://doi.org/10.1109/LSP.2024.3511421",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2024-12-04 首发，2025 刊期。正式作者所属中科大、安徽大学、新加坡国立大学；目标公司未见。"
+      },
+      {
+        "year": 2024,
+        "title": "Robust Model Watermarking for Image Processing Networks via Structure Consistency",
+        "url": "https://doi.org/10.1109/TPAMI.2024.3381543",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE DOI 2024-03-25。作者含微软研究院和 Wormpex AI Research，均不在目标名单；同组 AAAI 2020 Model Watermarking 与本作比较设计有不同，已排除发表窗外的老篇。"
+      },
+      {
+        "year": 2023,
+        "title": "A Robust Database Watermarking Scheme That Preserves Statistical Characteristics",
+        "url": "https://doi.org/10.1109/TKDE.2023.3324932",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 在 2023-10-16 已公开 DOI，2024 刊期。作者为中科大、新加坡国立大学、南洋理工、滑铁卢，非企业参与；对一般数值数据的统计约束不同于后续时间序列工作。"
+      },
+      {
+        "year": 2024,
+        "title": "SemGIR: Semantic-Guided Image Regeneration Based Method for AI-generated Image Detection and Attribution",
+        "url": "https://doi.org/10.1145/3664647.3680776",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM MM 2024 正式署中科大和新加坡国立大学。研究归因与再生成，使用行业生成模型未证明企业员工参与。"
+      },
+      {
+        "year": 2024,
+        "title": "A Geometric Distortion Immunized Deep Watermarking Framework with Robustness Generalizability",
+        "url": "https://doi.org/10.1007/978-3-031-72855-6_16",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ECCV 2024 论文全文和补充材料属中科大与新加坡国立大学两校。与稍后反演模型用的 SynTag 不同。"
+      },
+      {
+        "year": 2024,
+        "title": "DERO: Diffusion-Model-Erasure Robust Watermarking",
+        "url": "https://doi.org/10.1145/3664647.3681220",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM MM 2024 原文中科大和新加坡国立大学；应对以扩散模型抹除水印。未见名单企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Lie Detector: Unified Backdoor Detection via Cross-Examination Framework",
+        "url": "https://doi.org/10.52202/085713-5024",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "NeurIPS 正式，国防科大、新加坡国立大学、澳门大学、中科大、北航、中大、中科院深圳先进院等均为学研单位；未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "ProTegO: Protect Text Content against OCR Extraction Attack",
+        "url": "https://doi.org/10.1145/3581783.3612076",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM MM 2023 正式列中科院空天院、南洋理工、新加坡国立大学和中科大；没有目标公司署名，使用公开 OCR 工具为攻击评测。"
+      },
+      {
+        "year": 2025,
+        "title": "Improving adversarial transferability and imperceptibility with loss landscape and diffusion model",
+        "url": "https://doi.org/10.1016/j.patcog.2025.112076",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Elsevier 2025-07-03 先上线（2026 刊期）；正式作者单位中科大、南洋理工、新加坡国立大学，未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "OAcode: Overall Aesthetic 2D Barcode on Screen",
+        "url": "https://doi.org/10.1109/TMM.2023.3239755",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2023-01-25 DOI 登记，作者来自中科大与新加坡国立大学及学术实验室。OAcode 的审美条码为编码系统，不同于 SSyncOA 的帧或目标对齐水印。"
+      },
+      {
+        "year": 2026,
+        "title": "Enhanced flow-based image watermarking with dual attention mechanisms",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320326001913",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Elsevier 2026-02-13，署合工大和新加坡国立大学。正式发表者没有目标企业；采用双注意力变换，是与 FIN 的旧工作不同的一篇。"
+      },
+      {
+        "year": 2024,
+        "title": "SSyncOA: Self-synchronizing Object-aligned Watermarking to Resist Crop-paste Attacks",
+        "url": "https://doi.org/10.1109/ICME57554.2024.10687716",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024 ICME 正式署华中科技大学及新加坡国立大学，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "C³shartMark: A Chart Watermarking Scheme With Consecutive-Encoding and Concurrent-Decoding",
+        "url": "https://doi.org/10.1109/TCSVT.2024.3454531",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2024-09-04 首发，2025 刊期。作者为中科大和新加坡国立大学及校内重点实验室，未见目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "Looks Similar and Looks Good: A No-Reference Image Quality Loss for Watermarking Framework",
+        "url": "https://doi.org/10.1109/TCSVT.2026.3695018",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2026 作者单位安徽大学、中科大、人工智能研究院，未见目标公司。为水印的无参考图像质量损失研究，区别同时期的 ACPO 扩散感知优化。"
+      },
+      {
+        "year": 2025,
+        "title": "Ultra-high Resolution Watermarking Framework Resistant to Extreme Cropping and Scaling",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/509536a5b0367080dd8782f01d7ab025-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "NeurIPS 2025 原作者为华中科技大学、中科大及北大/Georgia Tech 团队，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "SnapGuard: Lightweight Prompt Injection Detection for Screenshot-Based Web Agents",
+        "url": "https://arxiv.org/abs/2604.25562",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-04-28 首稿正文列国防科大、中科大、国大、浙大；没有目标公司，测试网页智能体是否受到截图提示，不等于企业研发。"
+      },
+      {
+        "year": 2026,
+        "title": "SpanGuard: Decoupling Instruction Localization from Authorization for Lightweight IPI Defense",
+        "url": "https://arxiv.org/abs/2610.26013",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-10-19 首稿五位均中科大；任务是间接提示注入的指令定位和授权，与 SnapGuard 的视觉提示不同，未见目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models",
+        "url": "https://arxiv.org/abs/2610.27079",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-10-19 首稿三人署新加坡国立大学与中科大；本作实施自适应水印，并无目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models",
+        "url": "https://arxiv.org/abs/2610.18990",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-10-13 首稿四人，新加坡国立大学与中科大。采用公开 LoRA 内容作数据，未见目标公司的学生合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Right Tool, Wrong Parameters: Defending LLM Agents Against Parameter Poisoning",
+        "url": "https://arxiv.org/abs/2611.04673",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-11-03 arXiv 四位中科大作者；针对工具参数投毒，未见目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "DualGuard: A Dual Facial Privacy Protection Framework with Tampering Localization and Adversarial Example Mitigation",
+        "url": "https://doi.org/10.1109/TCSVT.2026.3752816",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE DOI 出版方于 Crossref 2026-11-11 登记，正式作者为安徽大学和中科大，未见目标公司。"
+      }
+    ],
+    "note": "校方、本人、ORCID 与新加坡国立大学合作者书目对齐。2021–2025 方涵在新加坡国立大学做博士后；论文发表晚于任职变更不自动证明当期指导或企业参与。排除无共同作者/单位匹配的同名作品，仍在逐篇扩大完整书目。"
   }
 };
