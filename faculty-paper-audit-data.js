@@ -65279,7 +65279,9 @@ const facultyPaperAudits = {
       "https://sse.cuhk.edu.cn/en/faculty/ouyangwanli",
       "https://arxiv.org/html/2607.07708v1",
       "https://arxiv.org/html/2312.01697v1",
-      "https://arxiv.org/html/2303.02936v1"
+      "https://arxiv.org/html/2303.02936v1",
+      "https://hitcslj.github.io/files/jianliu_en.pdf",
+      "https://papers.neurips.cc/paper_files/paper/2024/file/96bc329285d3f028dc5972d7146c7e2f-Paper-Datasets_and_Benchmarks_Track.pdf"
     ],
     "papers": [
       {
@@ -65344,19 +65346,29 @@ const facultyPaperAudits = {
         "year": 2023,
         "outcome": "no-evidence",
         "note": "首稿署浙大、悉尼大学和上海人工智能实验室，企业为范围外的商汤；学生 Yizhou Wang 2024-08 才入港中大，不能将现在的校内导师关系追溯到 2023 这篇。此统一 2D 模型与后续 Hulk 独立。"
+      },
+      {
+        "title": "AFBench: A Large-scale Benchmark for Airfoil Design",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/96bc329285d3f028dc5972d7146c7e2f-Abstract-Datasets_and_Benchmarks_Track.html",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "学生刘建公开简历明确项目在上海人工智能实验室实习时完成，欧阳万里是实验室指导人，同期学籍为哈工大，联署上海飞机设计研究院不在 14 家内。后续腾讯混元研究是另外的项目。"
       }
     ]
   },
   "s8pJB0AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://cybersec.ustc.edu.cn/2026/0401/c25038a725029/page.htm",
       "https://fanghan-ustc.github.io/publications",
       "https://orcid.org/0000-0001-9635-9859",
       "https://www.comp.nus.edu.sg/~changec/pub.html",
-      "https://mzh045.github.io/publications/"
+      "https://mzh045.github.io/publications/",
+      "https://dblp.org/pid/209/7867-4.html",
+      "https://msf-hnu.github.io/publications/",
+      "https://aclanthology.org/people/han-fang/"
     ],
     "papers": [
       {
@@ -65394,10 +65406,10 @@ const facultyPaperAudits = {
       {
         "year": 2026,
         "title": "FARI: Robust One-Step Inversion for Watermarking in Diffusion Models",
-        "url": "https://arxiv.org/abs/2607.26723",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/dad66bb085bab14fbca07cfa4271f00b-Abstract-Conference.html",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "ICLR 2026 正式收录和 2026-07-29 arXiv 同题五作者均属中科大；原文没有企业作者或企业在读工作。"
+        "note": "ICLR 2026 正式版方涵署新加坡国立大学，其余中科大与安徽省数字安全重点实验室；2026-07-29 arXiv 的同题五人版方涵署中科大。未见企业组织。"
       },
       {
         "year": 2023,
@@ -65461,7 +65473,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3581783.3613752",
         "outcome": "lead",
         "relationIds": [],
-        "note": "ACM MM 2023 四位合作者署阿里巴巴，刘泓谷署中科大，方涵署新加坡国立大学。刘在 CVPR 2021 有独立论文脚注明示阿里实习；不能把旧脚注直接移给本篇，尚缺学生在阿里做 BiFPro 的具名实研，也未证实方涵同期指导。 2022-07-07 申请、2022-08 公开的同题专利 CN114881838A 只有中科大申请人和四名校方发明者；这可交叉研究起点与学生身份，仍不证明阿里侧学生角色。"
+        "note": "ACM MM 2023 四位合作者署阿里巴巴，刘泓谷署中科大，方涵署新加坡国立大学。刘在 CVPR 2021 有独立论文脚注明示阿里实习；不能把旧脚注直接移给本篇，尚缺学生在阿里做 BiFPro 的具名实研，也未证实方涵同期指导。 2022-07-07 申请、2022-08-09 公开的同题专利 CN114881838A 只有中科大申请人和四名校方发明者；这可交叉研究起点与学生身份，仍不证明阿里侧学生角色。"
       },
       {
         "year": 2025,
@@ -65485,7 +65497,7 @@ const facultyPaperAudits = {
         "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_TAG-WM_Tamper-Aware_Generative_Image_Watermarking_via_Diffusion_Inversion_Sensitivity_ICCV_2025_paper.html",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "ICCV 正式正文为中科大安徽省数字安全重点实验室、新加坡国立大学，研究生成水印的篡改识别，未见目标企业。"
+        "note": "ICCV 正式正文为中科大安徽省数字安全重点实验室、新加坡国立大学，研究生成水印的篡改识别，未见目标企业。 arXiv:2506.23484 先于正式会版公开。"
       },
       {
         "year": 2025,
@@ -65493,7 +65505,7 @@ const facultyPaperAudits = {
         "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/abf731c2993f9b1ee417cc3734787d7a-Abstract-Conference.html",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "NeurIPS 正式全文可见中科大、安徽省数字安全重点实验室与新加坡国立大学；未见目标企业。与相同五人下一年 FARI 研究方向有关，但分别调整采样噪声及训练逆向器。"
+        "note": "NeurIPS 正式全文可见中科大、安徽省数字安全重点实验室与新加坡国立大学；未见目标企业。与相同五人下一年 FARI 研究方向有关，但分别调整采样噪声及训练逆向器。 arXiv:2510.22366 于 2025-10-25 同题首发。"
       },
       {
         "year": 2025,
@@ -65557,7 +65569,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/TMM.2026.3729384",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "arXiv:2601.11978 于 2026-01-17 首发题 NiMark。作者、主题与数据单位确认同一系统演进，IEEE 精简作者，署湖南大学、南信大、新加坡国立大学及新泽西理工。未见目标企业。"
+        "note": "IEEE 正式稿由湖南大学合作者实验室公开，正文使用多尺度训练、隐式神经表示、亮度归一化与摩尔纹合成；与同组 NiMark 的无侵入水印机制不同，分开收录。署湖南大学、南信大、新加坡国立大学、新泽西理工，未见目标企业。"
       },
       {
         "year": 2026,
@@ -65701,7 +65713,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.52202/085713-5024",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "NeurIPS 正式，国防科大、新加坡国立大学、澳门大学、中科大、北航、中大、中科院深圳先进院等均为学研单位；未见目标企业。"
+        "note": "NeurIPS 正式，国防科大、新加坡国立大学、澳门大学、中科大、北航、中大、中科院深圳先进院等均为学研单位；未见目标企业。 2025-03-21 arXiv:2503.16872 同作首发。"
       },
       {
         "year": 2023,
@@ -65741,7 +65753,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/ICME57554.2024.10687716",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "2024 ICME 正式署华中科技大学及新加坡国立大学，未见目标企业。"
+        "note": "2024 ICME 正式署华中科技大学及新加坡国立大学，未见目标企业。 arXiv:2405.03458 使用 Cropping-paste 初题。"
       },
       {
         "year": 2024,
@@ -65814,9 +65826,145 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "relationIds": [],
         "note": "IEEE DOI 出版方于 Crossref 2026-11-11 登记，正式作者为安徽大学和中科大，未见目标公司。"
+      },
+      {
+        "year": 2026,
+        "title": "NiMark: A Non-intrusive Watermarking Framework against Screen-shooting Attacks",
+        "url": "https://arxiv.org/abs/2601.11978",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-01-17 首稿署湖南大学、南信大、新加坡国立大学、新泽西理工。无侵入设计采用逻辑校验密钥避免改变原始内容，和正式 ReaguMark 的分辨率适应方法是两独立作品。"
+      },
+      {
+        "year": 2024,
+        "title": "Finding Input Data Domains of Image Classification Models with Hard-Label Black-Box Access",
+        "url": "https://doi.org/10.1145/3664647.3685506",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM MM 2024 正式题录、NUS 合作者书目及作者正式幻灯同三人均新加坡国立大学；未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "GSyncCode: Geometry Synchronous Hidden Code for One-step Photography Decoding",
+        "url": "https://doi.org/10.1145/3706060",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 2024-11-27 首发，2025 刊期。华中科技大学、伦敦城市大学及新加坡国立大学。正式研究同步隐藏条码，未见合著企业。"
+      },
+      {
+        "year": 2024,
+        "title": "A statistical characteristics preserving watermarking scheme for time series databases",
+        "url": "https://just.ustc.edu.cn/article/doi/10.52396/JUSTC-2023-0091",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "校刊原文 2024-06-16 公开。中科大、南洋理工及新加坡国立大学；于烨璐为中科大硕士，未见目标企业共同作者或实研。"
+      },
+      {
+        "year": 2025,
+        "title": "AD²T: Adversarial Distortion Domain Translation for Robust Watermarking against Non-differentiable Distortions",
+        "url": "https://doi.org/10.1109/ICASSP49660.2025.10889120",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICASSP 2025，IEEE 具名华中科技大学和新加坡国立大学。使用对抗方式翻译失真域，与双解码 END² 的结构不同，无目标公司。"
+      },
+      {
+        "year": 2025,
+        "title": "IPMN: Invertible privacy-preserving mask network with intellectual property protection",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2214212625001863",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Elsevier 2025，正文单位安徽大学、新加坡国立大学、中科大，未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Label Forensics: Interpreting Hard Labels in Black-Box Text Classifier",
+        "url": "https://arxiv.org/abs/2512.01514",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-12-01 首稿，新加坡国立大学、国防科大；与 2024 同组的图像分类数据域工作研究对象不同。"
+      },
+      {
+        "year": 2025,
+        "title": "Sim-to-Real: An Unsupervised Noise Layer for Screen-Camera Watermarking Robustness",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37103",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2504.18906 于 2025-04-26 公开，AAAI 2026 正式；湖南大学、南信大、国大、新泽西理工及南京的研究机构，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "END²: Robust Dual-Decoder Watermarking Framework Against Non-Differentiable Distortions",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32060",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2412.09960 2024-12-13 首发，2025-04-11 AAAI 正式。华中科技大学、新加坡国立大学、北大不同校方作者，未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "QuantumQA: Enhancing Scientific Reasoning via Physics-Consistent Dataset and Verification-Aware Reinforcement Learning",
+        "url": "https://aclanthology.org/2026.acl-long.1423/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2604.18176 首发 2026-04-20，ACL 2026 正式署中科大、合肥综合性国家科学中心、安徽大学与新加坡国立大学。评估开源和商业模型，不构成企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "Allocentric Perceiver: Disentangling Allocentric Reasoning from Egocentric Visual Priors via Frame Instantiation",
+        "url": "https://arxiv.org/abs/2602.05789",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-02-05 首发；方涵署新加坡国立大学，其余六名为中科大。公开 3D 数据评测，无目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "AI-generated image detection algorithm based on classical-quantum hybrid neural network",
+        "url": "https://doi.org/10.1007/s11432-024-4475-4",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer 2026-01-04 出版，方涵为新加坡国立大学共同第一作者，其余为安徽大学、中科大及合肥科研机构；无目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Geometric Alignment and Prior Modulation for View-Guided Point Cloud Completion on Unseen Categories",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xiu_Geometric_Alignment_and_Prior_Modulation_for_View-Guided_Point_Cloud_Completion_ICCV_2025_paper.html",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICCV 2025 首面署名：Han Fang 属新加坡国立大学，与共同作者 Yicong Li 同时在本人水印论文 SynTag 署同学校；另含中科大和新加坡科技设计大学，无企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Gaussian Shading++: Rethinking the Realistic Deployment Challenge of Performance-Lossless Image Watermark for Diffusion Models",
+        "url": "https://arxiv.org/abs/2504.15026",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-04-21 首发，首面中科大、锡耶纳大学、新加坡国立大学。针对物理部署的鲁棒性与区域遮挡，与 2024 Gaussian Shading 证明无损的研究分开。"
+      },
+      {
+        "year": 2024,
+        "title": "Semantic Mirror Jailbreak: Genetic Algorithm Based Jailbreak Prompts Against Open-source LLMs",
+        "url": "https://arxiv.org/abs/2402.14872",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-02-21 arXiv 元数据具名六人；PDF 首页仍匿名，HTML 的公司字段为未替换的示例模板。原文实验针对公开模型，不能识别目标企业作者。"
+      },
+      {
+        "year": 2023,
+        "title": "Watermarking Text Generated by Black-Box Language Models",
+        "url": "https://arxiv.org/abs/2305.08883",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-05-14 首稿，署中科大、南洋理工、新加坡国立大学；评估模型 API，没有具名企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "Improving Adversarial Transferability by Stable Diffusion",
+        "url": "https://arxiv.org/abs/2311.11017",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-11-18 首发；原文署新加坡国立大学、上交、南洋理工和中科大。以扩散模型作为对抗样本生成器；和 Pattern Recognition 2025 结合损失面及视觉无扰性的工作方法和作者组有区别。"
       }
     ],
-    "note": "校方、本人、ORCID 与新加坡国立大学合作者书目对齐。2021–2025 方涵在新加坡国立大学做博士后；论文发表晚于任职变更不自动证明当期指导或企业参与。排除无共同作者/单位匹配的同名作品，仍在逐篇扩大完整书目。"
+    "note": "已完成窗口内可识别公开书目：作者本人、ORCID、DBLP、ACL 与三组作者主页并表。对照逐篇版本，排除 2022 及以前首发的 DeAR、De-END、DP²、Tracing the Origin、Encoded Feature、Coherent Adversarial、Language Universal Font 和 Mitigating；排除电信姓同音方瀚、上交机器人及东南编码缓存同名误并。保留 BiFPro（阿里）与 DeNoL（华为）两项线索，尚缺覆盖高校的学生参与对应企业研究的具名证据。"
   },
   "UYIw2qAAAAAJ": {
     "from": "2023-01-01",
@@ -65909,5 +66057,72 @@ const facultyPaperAudits = {
       }
     ],
     "note": "逐篇核对中国科学院大学冯洋档案列出的论文、计算所自然语言处理组的项目原文及正式出版版。尚有其余论文等待核对。"
+  },
+  "Ib-sizwAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+      "https://hitcslj.github.io/",
+      "https://hitcslj.github.io/files/jianliu_en.pdf",
+      "https://ml-summit.org/speaker/1111?lang=en&uid=c1045",
+      "https://www.hkpeilab.com/news",
+      "https://fangqi-zhu.github.io/",
+      "https://yusufma03.github.io/data/cv.pdf",
+      "https://www.hkpeilab.com/news/iclr-2026-zai-xiang-xiang-zhong-jin-hua-de-ji-qi-ren-gang-ke-da-xzi-jie-tiao-dong-seedti-chu-wmpo-zai-shi-jie-mo-xing-zhong-jin-xing-vlaqiang-hua-xue-xi",
+      "https://arxiv.org/html/2509.21420v1",
+      "https://arxiv.org/html/2603.00526v1",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_Mesh-Pro_Asynchronous_Advantage-guided_Ranking_Preference_Optimization_for_Artist-style_Quadrilateral_Mesh_CVPR_2026_paper.pdf",
+      "https://arxiv.org/html/2605.08744v1",
+      "https://santisy.github.io/",
+      "https://neurips.cc/Downloads/2026",
+      "https://arxiv.org/html/2511.09515v1",
+      "https://github.com/WM-PO/WMPO"
+    ],
+    "papers": [
+      {
+        "title": "QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models",
+        "url": "https://openreview.net/pdf?id=oRmo4p1KEE",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "港科大 PEI-Lab 独立公开确认 QuadGPT 是该校与腾讯混元 3D 联合成果，博士生刘建为第一作者，郭嵩和郭春超分别为校企通讯。刘建本人履历列明 2025 年 9 月入读，9 月 25 日首稿同时署港科大和腾讯；他在这段实习专做低多边形网格，所列论文和正式团队消息明确是同项。研究开始时间未见公开，不以首稿日期倒推。"
+      },
+      {
+        "title": "Mesh-Pro: Asynchronous Advantage-guided Ranking Preference Optimization for Artist-style Quadrilateral Mesh Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Mesh-Pro_Asynchronous_Advantage-guided_Ranking_Preference_Optimization_for_Artist-style_Quadrilateral_Mesh_CVPR_2026_paper.html",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "刘建以在读博士与腾讯混元双署名共同领衔，郭嵩在正式稿为港科大通讯之一，郭春超署腾讯。刘建的研究经历、同篇发表及正式首面共同确认他在低多边形网格实习期间以腾讯身份参与该项工作；初稿提交为 2026-02-28（UTC）。它使用新的异步在线 ARPO 后训练与网格编码，区别于原生四边形的 QuadGPT 及局部编辑的 MeshFIM。"
+      },
+      {
+        "title": "MeshFIM: Local Low-Poly Mesh Editing via Fill-in-the-Middle Autoregressive Generation",
+        "url": "https://arxiv.org/abs/2605.08744v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "2026-05-09 首稿在刘建具名的腾讯混元科研实习期间公开，第二作者刘建同时署腾讯混元及港科大，博士导师郭嵩列港科大，企业导师郭春超列腾讯。刘建与第一作者分别公开对应的是同一低多边形局部补全工作。该论文研究指定区域编辑和缺损修复，与生成整件网格的 QuadGPT、Mesh-Pro 各为独立成果。"
+      },
+      {
+        "title": "WMPO: World Model-based Policy Optimization for Vision-Language-Action Models",
+        "url": "https://arxiv.org/abs/2511.09515v1",
+        "year": 2025,
+        "outcome": "confirmed",
+        "note": "港科大 PEI-Lab 独立确认 WMPO 为学校与字节 Seed 的联合成果，博士生朱方琪第一作者、郭嵩及马骁分别为校企通讯。朱方琪公开披露在 Seed 机器人组的世界模型研究和具名导师马骁，图文代码与论文均将他双署港科大和 Seed。2025-11-12 是最初公开日，当时他转入同企业的多模态组；公开证据未给出具体研究完成日期。"
+      },
+      {
+        "title": "FreeMesh: Boosting Mesh Generation with Coordinates Merging",
+        "url": "https://arxiv.org/abs/2505.13573v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "原稿 2025-05-19 有郭嵩与腾讯混元的同篇署名。刘建本人 CV 列 2025-09 才开始港科大博士学籍，最初发表时的正式学籍与同期导师需另证。"
+      },
+      {
+        "title": "Mesh-RFT: Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning",
+        "url": "https://arxiv.org/abs/2505.16761v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "首稿在 2025 年 5 月，早于刘建公开的 9 月港科大博士学籍；正式发表时的新学籍不能单独佐证首次研究同期导师身份。"
+      }
+    ]
   }
 };

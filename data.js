@@ -48146,6 +48146,202 @@ const survey = {
         ]
       ],
       "evidence": "香港科技大学博士生 Zhiqin Yang 把研究 DPO–RLHF 等价性明确列在 2025.11–2026.02 腾讯光子的工作经历中，实习导师具名 Dong Fang；本人公开论文清单实名列这篇首作及同名研究代码。论文首版 2026-05-20 公开时已完成实习，列在校生和其两位具名博士导师为港科大，列企业导师 Dong Fang 为 LIGHTSPEED；不声称公开时仍在腾讯。ICML 正式版与预印本同一项。"
+    },
+    {
+      "id": "tencent-quadgpt-hkust-song-guo",
+      "short": "QuadGPT",
+      "title": "QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models",
+      "date": "2025-09-25",
+      "venue": "ICLR",
+      "company": "腾讯",
+      "team": "混元 3D",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "area": "三维生成与四边形网格",
+      "faculty": [
+        "郭嵩 · Song Guo",
+        "港科大计算机科学及工程学系讲座教授；学生本人公开履历具名确认其博士导师身份。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo"
+      ],
+      "employee": [
+        "郭春超 · Chunchao Guo",
+        "混元 3D 与 3D 世界模型负责人、腾讯研究员；学生本人具名确认他是腾讯混元实习导师，并在同篇署名。",
+        "https://ml-summit.org/speaker/1111?lang=en&uid=c1045"
+      ],
+      "student": [
+        "刘建 · Jian Liu",
+        "2025 年 9 月起就读香港科技大学博士；本人列出 2025-07 至 2026-07 腾讯混元低多边形网格科研实习及同篇论文，原稿同时署港科大和腾讯。",
+        "https://hitcslj.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "刘建本人公开履历具名确认其港科大博士导师为郭嵩，郭嵩是同篇作者。",
+        "https://hitcslj.github.io/"
+      ],
+      "paper": "https://openreview.net/pdf?id=oRmo4p1KEE",
+      "extra": [
+        [
+          "首稿全文（作者和单位）",
+          "https://arxiv.org/html/2509.21420v1"
+        ],
+        [
+          "港科大课题组发布的项目与角色",
+          "https://www.hkpeilab.com/news"
+        ],
+        [
+          "学籍开始月份与具名实习",
+          "https://hitcslj.github.io/files/jianliu_en.pdf"
+        ]
+      ],
+      "evidence": "港科大 PEI-Lab 独立公开确认 QuadGPT 是该校与腾讯混元 3D 联合成果，博士生刘建为第一作者，郭嵩和郭春超分别为校企通讯。刘建本人履历列明 2025 年 9 月入读，9 月 25 日首稿同时署港科大和腾讯；他在这段实习专做低多边形网格，所列论文和正式团队消息明确是同项。研究开始时间未见公开，不以首稿日期倒推。"
+    },
+    {
+      "id": "tencent-mesh-pro-hkust-song-guo",
+      "short": "Mesh-Pro",
+      "title": "Mesh-Pro: Asynchronous Advantage-guided Ranking Preference Optimization for Artist-style Quadrilateral Mesh Generation",
+      "date": "2026-02-28",
+      "venue": "CVPR",
+      "company": "腾讯",
+      "team": "混元 3D",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "area": "三维网格生成与异步强化学习",
+      "faculty": [
+        "郭嵩 · Song Guo",
+        "港科大计算机科学及工程学系讲座教授；学生本人公开履历具名确认其博士导师身份。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo"
+      ],
+      "employee": [
+        "郭春超 · Chunchao Guo",
+        "混元 3D 与 3D 世界模型负责人、腾讯研究员；学生本人具名确认他是腾讯混元实习导师，并在同篇署名。",
+        "https://ml-summit.org/speaker/1111?lang=en&uid=c1045"
+      ],
+      "student": [
+        "刘建 · Jian Liu",
+        "2025 年 9 月起就读香港科技大学博士；本人列出 2025-07 至 2026-07 腾讯混元低多边形网格科研实习及同篇论文，原稿同时署港科大和腾讯。",
+        "https://hitcslj.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "刘建本人公开履历具名确认其港科大博士导师为郭嵩，郭嵩是同篇作者。",
+        "https://hitcslj.github.io/"
+      ],
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Mesh-Pro_Asynchronous_Advantage-guided_Ranking_Preference_Optimization_for_Artist-style_Quadrilateral_Mesh_CVPR_2026_paper.html",
+      "extra": [
+        [
+          "首稿全文（作者和单位）",
+          "https://arxiv.org/html/2603.00526v1"
+        ],
+        [
+          "CVPR 论文原件（共同第一与通讯）",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_Mesh-Pro_Asynchronous_Advantage-guided_Ranking_Preference_Optimization_for_Artist-style_Quadrilateral_Mesh_CVPR_2026_paper.pdf"
+        ],
+        [
+          "学籍及腾讯实习",
+          "https://hitcslj.github.io/files/jianliu_en.pdf"
+        ]
+      ],
+      "evidence": "刘建以在读博士与腾讯混元双署名共同领衔，郭嵩在正式稿为港科大通讯之一，郭春超署腾讯。刘建的研究经历、同篇发表及正式首面共同确认他在低多边形网格实习期间以腾讯身份参与该项工作；初稿提交为 2026-02-28（UTC）。它使用新的异步在线 ARPO 后训练与网格编码，区别于原生四边形的 QuadGPT 及局部编辑的 MeshFIM。"
+    },
+    {
+      "id": "tencent-meshfim-hkust-song-guo",
+      "short": "MeshFIM",
+      "title": "MeshFIM: Local Low-Poly Mesh Editing via Fill-in-the-Middle Autoregressive Generation",
+      "date": "2026-05-09",
+      "venue": "NeurIPS",
+      "company": "腾讯",
+      "team": "混元 3D",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "area": "三维网格局部编辑与缺损补全",
+      "faculty": [
+        "郭嵩 · Song Guo",
+        "港科大计算机科学及工程学系讲座教授；学生本人公开履历具名确认其博士导师身份。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo"
+      ],
+      "employee": [
+        "郭春超 · Chunchao Guo",
+        "混元 3D 与 3D 世界模型负责人、腾讯研究员；学生本人具名确认他是腾讯混元实习导师，并在同篇署名。",
+        "https://ml-summit.org/speaker/1111?lang=en&uid=c1045"
+      ],
+      "student": [
+        "刘建 · Jian Liu",
+        "2025 年 9 月起就读香港科技大学博士；本人列出 2025-07 至 2026-07 腾讯混元低多边形网格科研实习及同篇论文，原稿同时署港科大和腾讯。",
+        "https://hitcslj.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "刘建本人公开履历具名确认其港科大博士导师为郭嵩，郭嵩是同篇作者。",
+        "https://hitcslj.github.io/"
+      ],
+      "paper": "https://arxiv.org/abs/2605.08744v1",
+      "extra": [
+        [
+          "首稿全文（作者和单位）",
+          "https://arxiv.org/html/2605.08744v1"
+        ],
+        [
+          "第一作者的同篇发表与项目",
+          "https://santisy.github.io/"
+        ],
+        [
+          "学籍与企业研究方向",
+          "https://hitcslj.github.io/files/jianliu_en.pdf"
+        ],
+        [
+          "NeurIPS 2026 官方录用清单",
+          "https://neurips.cc/Downloads/2026"
+        ]
+      ],
+      "evidence": "2026-05-09 首稿在刘建具名的腾讯混元科研实习期间公开，第二作者刘建同时署腾讯混元及港科大，博士导师郭嵩列港科大，企业导师郭春超列腾讯。刘建与第一作者分别公开对应的是同一低多边形局部补全工作。该论文研究指定区域编辑和缺损修复，与生成整件网格的 QuadGPT、Mesh-Pro 各为独立成果。"
+    },
+    {
+      "id": "bytedance-wmpo-hkust-song-guo",
+      "short": "WMPO",
+      "title": "WMPO: World Model-based Policy Optimization for Vision-Language-Action Models",
+      "date": "2025-11-12",
+      "venue": "ICLR",
+      "company": "字节跳动",
+      "team": "Seed · 机器人",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "area": "具身智能与策略训练",
+      "faculty": [
+        "郭嵩 · Song Guo",
+        "港科大计算机科学及工程学系讲座教授；学生本人公开履历具名确认其博士导师身份。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo"
+      ],
+      "employee": [
+        "马骁 · Xiao Ma",
+        "2024 年 7 月起任职 ByteDance Seed；该篇通讯作者，学生履历具名确认其为字节机器人实习导师。",
+        "https://yusufma03.github.io/data/cv.pdf"
+      ],
+      "student": [
+        "朱方琪 · Fangqi Zhu",
+        "2024 年起在港科大攻读博士。本人列有字节 Seed 机器人方向研究实习（2024-03 至 2025-09），实习主题为机器人世界模型；同工作由本人作为第一作者公开，原文同时署港科大和 Seed。",
+        "https://fangqi-zhu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "朱方琪本人公开履历具名确认其港科大博士导师为郭嵩，郭嵩是同篇作者。",
+        "https://fangqi-zhu.github.io/"
+      ],
+      "paper": "https://arxiv.org/abs/2511.09515v1",
+      "extra": [
+        [
+          "首稿全文（作者和单位）",
+          "https://arxiv.org/html/2511.09515v1"
+        ],
+        [
+          "校方项目发布和三方身份",
+          "https://www.hkpeilab.com/news/iclr-2026-zai-xiang-xiang-zhong-jin-hua-de-ji-qi-ren-gang-ke-da-xzi-jie-tiao-dong-seedti-chu-wmpo-zai-shi-jie-mo-xing-zhong-jin-xing-vlaqiang-hua-xue-xi"
+        ],
+        [
+          "本文官方实现",
+          "https://github.com/WM-PO/WMPO"
+        ]
+      ],
+      "evidence": "港科大 PEI-Lab 独立确认 WMPO 为学校与字节 Seed 的联合成果，博士生朱方琪第一作者、郭嵩及马骁分别为校企通讯。朱方琪公开披露在 Seed 机器人组的世界模型研究和具名导师马骁，图文代码与论文均将他双署港科大和 Seed。2025-11-12 是最初公开日，当时他转入同企业的多模态组；公开证据未给出具体研究完成日期。"
     }
   ]
 };
