@@ -20592,16 +20592,202 @@ const facultyPaperAudits = {
       "https://zli999.github.io/zijianli.github.io/",
       "https://ece.hkust.edu.hk/eejzhang",
       "https://jiangyong.site/",
-      "https://arxiv.org/abs/2509.13312"
+      "https://arxiv.org/abs/2509.13312",
+      "https://arxiv.org/abs/2605.26108v1",
+      "https://harahan.github.io/",
+      "https://p2333.github.io/",
+      "https://arxiv.org/pdf/2605.26108v1#page=1",
+      "https://github.com/Harahan/RTDMD#-news",
+      "https://huggingface.co/papers/2605.26108",
+      "https://arxiv.org/abs/2607.15273v1",
+      "https://arxiv.org/html/2607.15273v1",
+      "https://harahan.github.io/meanflownft-project-page/",
+      "https://github.com/Harahan/MeanFlowNFT/commit/222300f405eb24479ff9127f6e3c5e8845f98499",
+      "https://zhouxiangxin1998.github.io/",
+      "https://arxiv.org/abs/2607.25291v1",
+      "https://yufeixue.tech/",
+      "https://eejzhang.people.ust.hk/group.html",
+      "https://www.ml-summit.org/speaker/1189?lang=en&uid=c1047",
+      "https://arxiv.org/pdf/2607.25291v1#page=1",
+      "https://arxiv.org/html/2607.25291v1",
+      "https://arxiv.org/abs/2602.21233",
+      "https://arxiv.org/abs/2607.25291",
+      "https://arxiv.org/abs/2609.36995",
+      "https://arxiv.org/html/2609.36995v1",
+      "https://xingtongge.github.io/Saltpp/",
+      "https://xingtongge.github.io/",
+      "https://arxiv.org/abs/2604.03118",
+      "https://arxiv.org/html/2604.03118v1",
+      "https://eejzhang.people.ust.hk/home.html",
+      "https://github.com/XingtongGe/Salt",
+      "https://proceedings.mlr.press/v306/zhu26v.html",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26v/zhu26v.pdf",
+      "https://arxiv.org/abs/2602.19161",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_LinVideo_A_Post-Training_Framework_towards_On_Attention_in_Efficient_Video_CVPR_2026_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_LinVideo_A_Post-Training_Framework_towards_On_Attention_in_Efficient_Video_CVPR_2026_paper.pdf",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_MoDES_Accelerating_Mixture-of-Experts_Multimodal_Large_Language_Models_via_Dynamic_Expert_CVPR_2026_paper.html",
+      "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_MoDES_Accelerating_Mixture-of-Experts_Multimodal_Large_Language_Models_via_Dynamic_Expert_CVPR_2026_paper.pdf",
+      "https://arxiv.org/abs/2505.11497",
+      "https://arxiv.org/html/2505.11497v1",
+      "https://arxiv.org/abs/2611.08216",
+      "https://arxiv.org/html/2611.08216v1",
+      "https://github.com/yufeixue-ai/ProQuant/",
+      "https://proceedings.mlr.press/v306/sun26az.html",
+      "https://tengfei-wang.github.io/",
+      "https://arxiv.org/abs/2512.14614v1",
+      "https://arxiv.org/html/2512.14614v1",
+      "https://github.com/Tencent-Hunyuan/HY-WorldPlay/blob/main/README_zh.md",
+      "https://3d-models.hunyuan.tencent.com/world/world1_5/HYWorld_1.5_Tech_Report.pdf",
+      "https://arxiv.org/abs/2609.35560v1",
+      "https://arxiv.org/pdf/2609.35560v1",
+      "https://worldplay2.github.io/",
+      "https://arxiv.org/abs/2509.24209v1",
+      "https://zhenliuzju.github.io/huyingdong/",
+      "https://hyshkust.github.io/",
+      "https://zhenliuzju.github.io/huyingdong/Forge4D/",
+      "https://github.com/zhenliuZJU/Forge4D",
+      "https://eccv.ecva.net/Conferences/2026/AcceptedPapers",
+      "https://arxiv.org/abs/2607.20922v1",
+      "https://zhenliuzju.github.io/huyingdong/FA-LAM/",
+      "https://neurips.cc/Downloads/2026",
+      "https://arxiv.org/html/2609.40037v1",
+      "https://rslinfy.github.io/Radian-Project-Page",
+      "https://arxiv.org/html/2608.13602v1",
+      "https://github.com/Aoko955/Omni-LiveAvatar",
+      "https://arxiv.org/html/2601.07518v1",
+      "https://mon3tr3d.github.io/",
+      "https://arxiv.org/abs/2603.15433v1",
+      "https://arxiv.org/html/2603.15433v1",
+      "https://github.com/rslinfy/PrismMirror",
+      "https://doi.org/10.1109/TVCG.2026.3688730",
+      "https://arxiv.org/pdf/2411.14847v1#page=1",
+      "https://scholars.ln.edu.hk/en/publications/dynamics-aware-gaussian-splatting-streaming-toward-fast-on-the-fl/",
+      "https://arxiv.org/abs/2512.00877v1",
+      "https://arxiv.org/pdf/2512.00877v1#page=1",
+      "https://openaccess.thecvf.com/content/ICCV2025W/E2E3D/html/Hu_EVA-Gaussian_3D_Gaussian-based_Real-time_Human_Novel_View_Synthesis_under_Diverse_ICCVW_2025_paper.html",
+      "https://arxiv.org/abs/2410.01425v1",
+      "https://openaccess.thecvf.com/content/ICCV2025W/E2E3D/papers/Hu_EVA-Gaussian_3D_Gaussian-based_Real-time_Human_Novel_View_Synthesis_under_Diverse_ICCVW_2025_paper.pdf",
+      "https://arxiv.org/abs/2509.25185v1",
+      "https://arxiv.org/html/2509.25185v1",
+      "https://github.com/microsoft/PixelCraft",
+      "https://arxiv.org/abs/2503.16260v1",
+      "https://arxiv.org/html/2503.16260v1",
+      "https://github.com/microsoft/Chain-of-Functions",
+      "https://proceedings.mlr.press/v306/li26bn.html",
+      "https://arxiv.org/abs/2512.07287",
+      "https://raw.githubusercontent.com/mlresearch/v306/main/assets/li26bn/li26bn.pdf#page=1",
+      "https://arxiv.org/abs/2505.01074v1",
+      "https://arxiv.org/pdf/2505.01074v1#page=1",
+      "https://arxiv.org/abs/2603.00501v1",
+      "https://arxiv.org/pdf/2603.00501v1#page=1",
+      "https://github.com/jwentong/WirelessAgent-R2",
+      "https://arxiv.org/abs/2611.01823v1",
+      "https://6g-aoe.hkust.edu.hk/student/",
+      "https://chenweikai.github.io/",
+      "https://chenweikai.github.io/publication.html",
+      "https://stopaimme.github.io/lumen/",
+      "https://doi.org/10.1145/3829340.3842306",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9067f9e64c6868279e9af14c796aef25-Abstract-Conference.html",
+      "https://arxiv.org/pdf/2511.19437v1#page=1",
+      "https://jingzhi03.com/",
+      "https://github.com/LumiTexPBR/LumiTex"
     ],
     "papers": [
       {
         "title": "WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/07fa611a88be1832f4c6a96f044ebede-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "论文首页逐名标记李子健在阿里通义实习期间完成本工作，2025 年 9 月预印本时间也处于履历的实习窗口。李子健本人具名张军为港科大博士导师、蒋勇为阿里项目导师，两人均是同篇作者；蒋勇任职和对应 WebWeaver 项目另有本人履历。"
+        "note": "论文首页逐名标记李子健在阿里通义实习期间完成本工作，2025 年 9 月预印本时间也处于履历的实习窗口。李子健本人具名张军为港科大博士导师、蒋勇为阿里项目导师，两人均是同篇作者；蒋勇任职和对应 WebWeaver 项目另有本人履历。",
+        "year": 2025,
+        "paperId": "10.48550/arXiv.2509.13312",
+        "relationIds": [
+          "alibaba-webweaver-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "Reinforcing Few-step Generators via Reward-Tilted Distribution Matching",
+        "url": "https://arxiv.org/abs/2605.26108v1",
+        "outcome": "confirmed",
+        "note": "黄雨石自 2025-02 在港科大随张军教授读博；本人履历列 2026-02 起在腾讯混元研究实习，至 10 月负责图像、视频生成强化学习。黄雨石是港科大、腾讯混元双署的共同一作；论文原始首页 † 具名说明他在腾讯混元实习期间完成本研究。原文同篇列其博士导师张军，腾讯混元多模态强化学习主管庞天宇任通讯作者，其具名履历支持腾讯正式任职。论文以奖励倾斜分布匹配为核心，包含先蒸馏再混合策略梯度优化的两阶段训练，与以诱导瞬时速度为中心的 MeanFlowNFT 各自独立。",
+        "year": 2026,
+        "paperId": "10.48550/arXiv.2605.26108",
+        "relationIds": [
+          "tencent-rtdmd-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+        "url": "https://arxiv.org/abs/2607.15273v1",
+        "outcome": "confirmed",
+        "note": "原稿列第一作者组的黄雨石双署香港科大与腾讯混元，港科大张军同篇，庞天宇为腾讯通讯作者。黄雨石的公开履历确认其在读导师以及 2026 年 2–10 月在腾讯混元做图像与视频强化学习；他在自己维护的同项目代码库发布 MeanFlowNFT 的训练与推理实现，腾讯作者也把这篇列为研究成果。研究用诱导瞬时速度定义强化目标、用平均速度采样，和较早的 RTDMD 各自独立。",
+        "year": 2026,
+        "paperId": "10.48550/arXiv.2607.15273",
+        "relationIds": [
+          "tencent-meanflownft-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "CoSA: Accelerating Long-Context Inference via Proxy-Kernel Co-Designed Sparse Attention",
+        "url": "https://arxiv.org/abs/2607.25291v1",
+        "outcome": "confirmed",
+        "note": "arXiv:2607.25291v1 首页实名标记 Yufei Xue 在腾讯实习期间完成这项研究；他是腾讯和港科大双署的共同第一作者，校内导师张军和腾讯 Guanghua Yu 都是本篇通讯作者。学生本人将两边的导师及任期分开列明，学校导师独立公布其在读入组日期，2025 年机器学习峰会主办方的企业演讲者介绍证实 Guanghua Yu 是腾讯混元大模型压缩算法负责人。预印首发 2026-07-28，处于 4–8 月腾讯实习窗口。此项是协同两阶段稀疏选择和 GPU kernel 的免训练方法，不与其腾讯通用算子团队其他论文合并或重复。",
+        "year": 2026,
+        "paperId": "10.48550/arXiv.2607.25291",
+        "relationIds": [
+          "tencent-cosa-hkust-jun-zhang"
+        ]
+      },
+      {
+        "title": "Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation",
+        "url": "https://arxiv.org/abs/2609.36995",
+        "outcome": "no-evidence",
+        "note": "2026-09-29。Xingtong Ge 首稿同时署港科大与非目标企业 Vivix；另一校内学生黄雨石为港科大单署，Vivix 的 Yi Zhang 为项目负责人。学生本人当时另有腾讯实习，不能把其迁至这个项目。与较早仅为视频的 Salt 有各自技术和输出。",
+        "year": 2026
+      },
+      {
+        "title": "Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation",
+        "url": "https://arxiv.org/abs/2604.03118",
+        "outcome": "no-evidence",
+        "note": "2026-04-03 预印与 ECCV 2026 同一段研究。学生 Xingtong Ge 与港科大、Vivix 双署，企业主体 Vivix 不在 14 家；黄雨石同期腾讯混元的其他研究不用于本项。",
+        "year": 2026
+      },
+      {
+        "title": "Flash-VAED: Plug-and-Play VAE Decoders for Efficient Video Generation",
+        "url": "https://proceedings.mlr.press/v306/zhu26v.html",
+        "outcome": "no-evidence",
+        "note": "2026-02-22 预印、ICML 2026 正式稿署港科大与岭南大学学术实验室。首发早于 Yufei Xue（2026-04）和 Xingtong Ge（2026-08）赴腾讯混元的实习开始；黄雨石其他同队研究不足以建立本篇企业关系。",
+        "year": 2026
+      },
+      {
+        "title": "LinVideo: A Post-Training Framework towards O(n) Attention in Efficient Video Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_LinVideo_A_Post-Training_Framework_towards_On_Attention_in_Efficient_Video_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 2026 正式首页明确一作黄雨石港科大、商汤双署，其余机构为高校与商汤。商汤是另一个企业，超出项目的 14 家核验范围，不能因同期以腾讯模型为例计入。",
+        "year": 2026
+      },
+      {
+        "title": "MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_MoDES_Accelerating_Mixture-of-Experts_Multimodal_Large_Language_Models_via_Dynamic_Expert_CVPR_2026_paper.html",
+        "outcome": "no-evidence",
+        "note": "CVPR 正式首面只署港科大、北航和北大，无企业单位。没有与本项直接关联的目标公司参与凭证；被测试的 Qwen 不能证明阿里参与；作者本人在不同团队有其他实习，不迁到本篇。",
+        "year": 2026
+      },
+      {
+        "title": "QVGen: Pushing the Limit of Quantized Video Generative Models",
+        "url": "https://arxiv.org/abs/2505.11497",
+        "outcome": "no-evidence",
+        "note": "2025-05 预印、2026-04 ICLR 正式同一论文。黄雨石和在商汤的合著者工作时早于本人 2026-02 腾讯实习；商汤不属目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "ProQuant: Progressive Quantization-aware Training for Edge MLLMs",
+        "url": "https://arxiv.org/abs/2611.08216",
+        "outcome": "no-evidence",
+        "note": "2026-11-05 预印，学生主页记录 NeurIPS 录用时点。原件作者单位为港科大、西工大、中国电信 TeleAI 与清华，后一份 CV 亦把论文列于不同项目，未建立目标企业相关研究。",
+        "year": 2026
       }
-    ]
+    ],
+    "note": "从港科大教师和实验室名录、学生在读与企业实习履历、原文首页和作者归档逐篇梳理。港科大张军的其余公开论文仍在核查。"
   },
   "xaTK57QAAAAJ": {
     "from": "2023-01-01",
@@ -61721,7 +61907,8 @@ const facultyPaperAudits = {
       "https://libertywing.github.io/yanwang.github.io/",
       "https://huggingface.co/papers/2602.12108",
       "https://cuhk-arise.github.io/VisFactor/",
-      "https://github.com/cuhk-arise/visfactor"
+      "https://github.com/cuhk-arise/visfactor",
+      "https://aclanthology.org/2025.acl-long.158.pdf#page=1"
     ],
     "papers": [
       {
@@ -61791,7 +61978,7 @@ const facultyPaperAudits = {
         "title": "Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training",
         "url": "https://aclanthology.org/2025.acl-long.158/",
         "outcome": "confirmed",
-        "note": "2024 年 7 月首稿具名注明袁尤良等学生在腾讯 AI Lab 实习期间完成；港中大（深圳）介绍同一研究时明确列出袁尤良为本校在读博士，贺品嘉和腾讯 AI Lab 涂兆鹏为该项目的两方指导。论文首稿列贺品嘉为通讯作者、涂兆鹏署腾讯。此篇主要是安全微调方法，区别于 CipherChat 的模型评测。",
+        "note": "2024 年 7 月首稿及 ACL 正式版均具名注明袁尤良等学生在腾讯 AI Lab 实习期间完成；港中大（深圳）介绍同一研究时明确列出袁尤良为本校在读博士，贺品嘉和腾讯 AI Lab 涂兆鹏为该项目的两方指导。论文首稿列贺品嘉为通讯作者、涂兆鹏署腾讯。此篇主要是安全微调方法，区别于 CipherChat 的模型评测。",
         "paperId": "10.48550/arXiv.2407.09121",
         "relationIds": [
           "tencent-derta-cuhksz-pinjia-he"
@@ -62103,5 +62290,267 @@ const facultyPaperAudits = {
       }
     ],
     "note": "核对国科大校方论文表、身份绑定 ORCID 与 DBLP 的 2023-01-01 至 2026-11-12 书目；30 项已有逐篇记录。同一工作首稿与正式版合并；DBLP 按印刷年列为 2023 的 Effects of spatial constraints and ages on children’s upper limb performance in mid-air gesture interaction 的 2022 年期刊先行版本与校方存档已核，不计入本期。仍有部分 ACM/IEEE 和期刊全文未能读取；这些论文仅记录可见摘要、署名与出版字段，暂不标为全部梳理。"
+  },
+  "uypjEiYAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://cs.ustc.edu.cn/2020/0827/c23235a460074/page.htm",
+      "https://pplab.ustc.edu.cn/publication/list.htm",
+      "https://dblp.org/pid/86/5473.html",
+      "https://dslx.ustc.edu.cn/?expertid=6496&menu=expert_paper_detail",
+      "https://faculty.ustc.edu.cn/chengjingyuan/zh_CN/index.htm",
+      "https://dblp.org/pid/41/4122.html",
+      "https://orcid.org/0000-0002-8064-5436",
+      "https://orcid.org/0009-0006-8190-7174",
+      "https://openalex.org/A5061794330",
+      "https://openalex.org/A5120353589",
+      "https://openalex.org/A5109068426",
+      "https://www.zut.edu.cn/info/1041/21793.htm"
+    ],
+    "papers": [
+      {
+        "year": 2025,
+        "title": "PI-HMR: Towards Robust In-bed Temporal Human Shape Reconstruction with Contact Pressure Sensing",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_PI-HMR_Towards_Robust_In-bed_Temporal_Human_Shape_Reconstruction_with_Contact_CVPR_2025_paper.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2503.00068 2025-02-27 首发。CVPR 原文八名作者均中科大，压力床单与算法来自同一校内项目；未见目标企业作者。校简介把会名写作 IMWUT，按正式 CVPR 出处。"
+      },
+      {
+        "year": 2025,
+        "title": "PressTrack-HMR: Pressure-Based Top-Down Multi-Person Global Human Mesh Recovery",
+        "url": "https://doi.org/10.1609/aaai.v40i21.38858",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv:2511.09147 于 2025-11-12 首发，AAAI 2026-03-14 正式（海报 DOI 10.48448/d1va-v605 同作）；十名作者原文全列中科大。"
+      },
+      {
+        "year": 2026,
+        "title": "Vib2ECG: A Co-Located Chest-Lead SCG–ECG Dataset and Benchmark for ECG Reconstruction",
+        "url": "https://arxiv.org/abs/2603.15539",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-03-16 首发，10 月修订题名。原文逐名列中科大蔡晓辉及荷兰莱顿大学三人；未见企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "PressureMesh: 3D Human Mesh Estimation from Multi-Device Pressure Images",
+        "url": "https://arxiv.org/abs/2608.09550",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-08-10 首稿全部署中科大。是跨设备传感数据研究，设备构成与校方实验没有显示企业共同作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Seeing through the Tactile: 3D Human Shape Estimation from Temporal In-Bed Pressure Images",
+        "url": "https://doi.org/10.1145/3659612",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-05 出版者登记，七名作者作者单位全为中科大。CVPR 2025 PI-HMR 明确引用本研究且方法和作者不同，各列一篇。"
+      },
+      {
+        "year": 2024,
+        "title": "A Single-Ply and Knit-Only Textile Sensing Matrix for Mapping Body Surface Pressure",
+        "url": "https://doi.org/10.1109/JSEN.2024.3421320",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "出版社登记为 2024 年；论文单位含 Ningbo Cixing Company Ltd（宁波慈星）。企业在范围外，未见名单企业作者。"
+      },
+      {
+        "year": 2024,
+        "title": "Dual-Modality Electromechanical Physiology Source Mapping",
+        "url": "https://doi.org/10.1109/JSEN.2024.3382347",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-04 登记、05 卷期发表；作者单位为中科大计算机、数据科学和附一院心内科，未见名单企业。"
+      },
+      {
+        "year": 2024,
+        "title": "Learn to Infer Human Poses Using a Full-Body Pressure-Sensing Garment",
+        "url": "https://doi.org/10.1109/JSEN.2024.3485226",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024 年。出版社七人均中科大精密普适计算相关实验室；未见企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "In-bed Pressure Image-supported Diffusion for 3D Human Mesh Recovery",
+        "url": "https://doi.org/10.1109/PERCOM64205.2025.00028",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "PerCom 2025 正式登记列五名中科大作者，与 PI-HMR 的技术和作者不同，无企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "From Camera to World: A Plug-and-Play Module for Human Mesh Transformation",
+        "url": "https://doi.org/10.1109/ICME59968.2025.11209248",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-06-30 会议，出版社六名作者逐名中科大。未见目标企业。 2025-12 arXiv:2512.15212 为同作，不另计。"
+      },
+      {
+        "year": 2024,
+        "title": "Contrastive Learning-based User Identification with Limited Data on Smart Textiles",
+        "url": "https://arxiv.org/abs/2409.07488",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-09-06 首稿。原文统一作者单位中科大并核实蔡晓辉校邮；公开证据无名单企业。"
+      },
+      {
+        "year": 2026,
+        "title": "SleevePose: Elastic Resistive Pressure Sensing Sleeve for Continuous Hand Pose Estimation",
+        "url": "https://doi.org/10.1145/3789683",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-03-16 ACM。中科大作者成果与共同作者谢方婷和吴子昱 ORCID 中的出版社记录一致；未见范围内企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Where to Improve? A Systematic Evaluation of Sampling Parameters for Pressure Sensor Matrix",
+        "url": "https://doi.org/10.1145/3770694",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-12-02 ACM 首发，十人均中科大（校方简介漏列吴子昱）。UbiComp 展示在 2026，不另计。"
+      },
+      {
+        "year": 2025,
+        "title": "FoRM: Foot-driven Reconstruction of Human Motion Using Dual-Modal Plantar Pressure and Inertial Sensing",
+        "url": "https://doi.org/10.1145/3749551",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-09 ACM 原文按页核对七人均中科大；首发出处与正式 UbiComp 宣讲不重复。"
+      },
+      {
+        "year": 2025,
+        "title": "A Hardware-Separated Standard Leads ECG Monitoring System",
+        "url": "https://doi.org/10.1109/SMC58881.2025.11342569",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE SMC 2025-10-05 至 08；出版社登记到 2026-01-28，正式会议手册已有论文及五人署名，出版社题录均中科大。"
+      },
+      {
+        "year": 2024,
+        "title": "3D Human Pose Estimation Using Pressure Images on a Smart Chair",
+        "url": "https://doi.org/10.1145/3663976.3663978",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-04-26 会期，2024-06-27 ACM 登记；五名作者的 ACM 单位全部中科大。"
+      },
+      {
+        "year": 2025,
+        "title": "A Scalable Textile Strain Sensor Matrix: Design, Implementation, and Application Exploration",
+        "url": "https://doi.org/10.1109/JSEN.2025.3542226",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "出版社 2025-02-21 登记、04 月正刊，四人均中科大。论文使用通用纺织设备不构成企业作者证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Detecting Feet's Bending Patterns With Smart Insoles",
+        "url": "https://doi.org/10.1109/PRML62565.2024.10779792",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-07-19 IEEE PRML 会期，2024-12-12 正式上线，三人均中科大。"
+      },
+      {
+        "year": 2024,
+        "title": "Pressure Distribution Based 2D In-Bed Keypoint Prediction Under Interfered Scenes",
+        "url": "https://doi.org/10.1016/j.pmcj.2024.101979",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SSRN 4814092 于 2024-05-01 公开。Elsevier 与校方、作者数据仓库交叉核验，六人均中科大；致谢的 Kimi 仅声明用作润色，不等于月之暗面参加研究。"
+      },
+      {
+        "year": 2024,
+        "title": "CLNet: A Federated Learning Approach for Privacy-aware Cognitive Load Evaluation while Walking Using Smart Shoes",
+        "url": "https://doi.org/10.1109/SWC62898.2024.00073",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SSRN 4741068 于 2024-02-27 首发，作者相同，智能鞋认知负荷任务一致且都报告 99.16%；IEEE 2024-12-02 会中加入隐私口径，维持同作。六人均中科大。"
+      },
+      {
+        "year": 2025,
+        "title": "Dual-Modality Smart Shoes for Health Assessment: A Primary Study in Heart Failure Using the 6-Minute Walk Test",
+        "url": "https://doi.org/10.1109/SWC65939.2025.00093",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-08-18 IEEE UIC 会议起日；六人署中科大及附一院。它与 2024 Diao 心衰工作均有 18 名受试者，但原文新目标是 6 分钟步行距离及左室射血分数、方法为转向检测和压力特征，不同于 2024 的 42 项指标建模。"
+      },
+      {
+        "year": 2026,
+        "title": "Robust In-Bed Human Pose and Shape Estimation from Pressure Images with Clinical Awareness",
+        "url": "https://doi.org/10.1109/ICASSP55912.2026.11462963",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026 年 ICASSP，官方会程论文 5797 精确列十一名中科大与中科大附一院作者。"
+      },
+      {
+        "year": 2026,
+        "title": "PaGe: A Physics-Aware Generative Network for Pressure Map Synthesis",
+        "url": "https://doi.org/10.1109/ICASSP55912.2026.11462463",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2026-04-21 登记、05-05 官方会程 3951；六人均中科大署名。"
+      },
+      {
+        "year": 2026,
+        "title": "Resistance-Voltage Mapping Modeling for Resistive Sensor Array Using Neural Network",
+        "url": "https://doi.org/10.1109/SSD69655.2026.11559022",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE SSD 2026-03-30，出版社注册记录 2026-06-18，两名作者均中科大计算机学院。与 2022 年代数建模是不同研究。"
+      },
+      {
+        "year": 2023,
+        "title": "MassNet: A Deep Learning Approach for Body Weight Extraction from A Single Pressure Image",
+        "url": "https://doi.org/10.1109/PERCOM56429.2023.10099301",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-03-15 IEEE PerCom 议程，arXiv:2303.10136 于 03-17 公开。原文通讯作者旧论文署名 Jingyuan Cheng。学校导师书目明确列入蔡晓辉；原文所有作者署名中科大。"
+      },
+      {
+        "year": 2023,
+        "title": "Smart Garment: A Long-Term Feasible, Whole-Body Textile Pressure-Sensing System",
+        "url": "https://doi.org/10.1109/JSEN.2023.3302857",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 2023-08-08 登记、10 月正卷；学校导师书目明确列入。IEEE 证明作者另有 Hui Cai，旧署名 Jingyuan Cheng 是同篇末位，均为独立作者；七名作者全部中科大。"
+      },
+      {
+        "year": 2023,
+        "title": "Dual-modality smart shoes for quantitative assessment of hemiplegic patients’ lower limb muscle strength",
+        "url": "https://doi.org/10.52396/JUSTC-2022-0161",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "出版社 Crossref 于 2023-06-08 注册，OpenAlex 的在线年份同为 2023，正式卷期 JUSTC 2024(1):0105；PDF 按旧署名 Jingyuan Cheng 对齐。作者属中科大及附一院神经科。"
+      },
+      {
+        "year": 2023,
+        "title": "Gym Exercises Monitoring with Smart Gloves: Exercise Recognition, Repetition Counting, and Imbalance Quantification",
+        "url": "https://doi.org/10.1145/3587716.3587759",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-02-17 ICMLC，会刊 2023-09；出版社六名作者署 USTC，末位旧署名 Jingyuan Cheng。"
+      },
+      {
+        "year": 2024,
+        "title": "Heart Failure Indicators Estimation in a Nonmedical Setting: a Pilot Study Using 6MWT Data from Smart Shoes",
+        "url": "https://doi.org/10.1145/3703847.3703891",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SSRN 4682080 于 2024-01-18 首发；ACM SHWID 2024-10-18 会期、2024-12-11 正式上线。逐名核同一七位作者、42 项指标和前 7 项小于 5%，同作去重。两位临床作者署中科大附一院，其余中科大；无名单企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Optimization of An Induced Magnetic Field-Based Positioning System",
+        "url": "https://doi.org/10.1109/ABC64332.2025.11118455",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-03-08 arXiv:2503.06270v1；原文全体署德国人工智能研究中心（DFKI），旧署名 Jingyuan Cheng 与长期合作者 Gerald Pirkl、Paul Lukowicz 同篇。实验有工厂场景但无名单内企业员工或本校学生项目证据。"
+      }
+    ],
+    "note": "逐篇核完截至 2026-11-12 可公开查到且明确归属的 30 篇。以中科大院系、实验室和导师档案为底，对照两种公开署名的 DBLP、三个 OpenAlex 簇、团队 ORCID 与出版者题录/正文。旧署名 Jingyuan Cheng 由学校档案及独立的专业履历互证。排除同名地球物理、白城脑电、广州声学、北师大教育、天津仁爱英语教学及西工大软件论文。没有论文提供足够证实名单内三方关系的公开证据。"
   }
 };

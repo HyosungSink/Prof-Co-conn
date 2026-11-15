@@ -46901,6 +46901,169 @@ const survey = {
           "https://iclr.cc/media/iclr-2024/Slides/19008.pdf"
         ]
       ]
+    },
+    {
+      "id": "tencent-rtdmd-hkust-jun-zhang",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "香港科技大学电子及计算机工程学系教授、黄雨石博士导师，论文同署。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "employee": [
+        "庞天宇 · Tianyu Pang",
+        "腾讯混元多模态强化学习技术负责人、首席研究科学家；在论文中署腾讯混元且为通讯作者。",
+        "https://p2333.github.io/"
+      ],
+      "student": [
+        "黄雨石 · Yushi Huang",
+        "黄雨石是港科大、腾讯混元双署的共同一作；论文原始首页 † 具名说明他在腾讯混元实习期间完成本研究。",
+        "https://harahan.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "黄雨石在本人履历的教育经历列 2025 年 2 月起在港科大电子及计算机工程学系攻读博士，具名 Jun Zhang 指导。",
+        "https://harahan.github.io/"
+      ],
+      "title": "Reinforcing Few-step Generators via Reward-Tilted Distribution Matching",
+      "short": "RTDMD",
+      "date": "2026-05-26",
+      "venue": "arXiv 预印本",
+      "area": "少步图像生成与蒸馏强化学习",
+      "paper": "https://arxiv.org/abs/2605.26108v1",
+      "extra": [
+        [
+          "正式预印首版首页的学生实习脚注",
+          "https://arxiv.org/pdf/2605.26108v1#page=1"
+        ],
+        [
+          "作者记录 5 月 26 日公开论文、权重和代码（arXiv v1 元数据为 5 月 25 日提交）",
+          "https://github.com/Harahan/RTDMD#-news"
+        ],
+        [
+          "作者提交的 Hugging Face 论文记录",
+          "https://huggingface.co/papers/2605.26108"
+        ],
+        [
+          "校方教师团队名单：黄雨石 2025 年春起在读",
+          "https://eejzhang.people.ust.hk/group.html"
+        ]
+      ],
+      "evidence": "黄雨石自 2025-02 在港科大随张军教授读博；本人履历列 2026-02 起在腾讯混元研究实习，至 10 月负责图像、视频生成强化学习。黄雨石是港科大、腾讯混元双署的共同一作；论文原始首页 † 具名说明他在腾讯混元实习期间完成本研究。原文同篇列其博士导师张军，腾讯混元多模态强化学习主管庞天宇任通讯作者，其具名履历支持腾讯正式任职。论文以奖励倾斜分布匹配为核心，包含先蒸馏再混合策略梯度优化的两阶段训练，与以诱导瞬时速度为中心的 MeanFlowNFT 各自独立。",
+      "paperId": "10.48550/arXiv.2605.26108"
+    },
+    {
+      "id": "tencent-meanflownft-hkust-jun-zhang",
+      "company": "腾讯",
+      "team": "腾讯混元",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "香港科技大学电子及计算机工程学系教授、黄雨石博士导师，论文同署。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "employee": [
+        "庞天宇 · Tianyu Pang",
+        "腾讯混元多模态强化学习技术负责人、首席研究科学家；在论文中署腾讯混元且为通讯作者。",
+        "https://p2333.github.io/"
+      ],
+      "student": [
+        "黄雨石 · Yushi Huang",
+        "港科大在读博士、腾讯混元研究实习生，首稿校企双署、并列第一；其账号发布原方法训练和推理实现。",
+        "https://harahan.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "黄雨石在本人履历的教育经历列 2025 年 2 月起在港科大电子及计算机工程学系攻读博士，具名 Jun Zhang 指导。",
+        "https://harahan.github.io/"
+      ],
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "short": "MeanFlowNFT",
+      "date": "2026-07-16",
+      "venue": "arXiv 预印本",
+      "area": "图像和视频生成的强化学习",
+      "paper": "https://arxiv.org/abs/2607.15273v1",
+      "extra": [
+        [
+          "同篇原始作者与腾讯混元署名",
+          "https://arxiv.org/html/2607.15273v1"
+        ],
+        [
+          "黄雨石的项目与代码发布",
+          "https://harahan.github.io/meanflownft-project-page/"
+        ],
+        [
+          "黄雨石实质同项代码提交",
+          "https://github.com/Harahan/MeanFlowNFT/commit/222300f405eb24479ff9127f6e3c5e8845f98499"
+        ],
+        [
+          "腾讯混元共同第一/通讯作者研究清单",
+          "https://zhouxiangxin1998.github.io/"
+        ],
+        [
+          "校方教师团队名单：黄雨石 2025 年春起在读",
+          "https://eejzhang.people.ust.hk/group.html"
+        ]
+      ],
+      "evidence": "原稿列第一作者组的黄雨石双署香港科大与腾讯混元，港科大张军同篇，庞天宇为腾讯通讯作者。黄雨石的公开履历确认其在读导师以及 2026 年 2–10 月在腾讯混元做图像与视频强化学习；他在自己维护的同项目代码库发布 MeanFlowNFT 的训练与推理实现，腾讯作者也把这篇列为研究成果。研究用诱导瞬时速度定义强化目标、用平均速度采样，和较早的 RTDMD 各自独立。",
+      "paperId": "10.48550/arXiv.2607.15273"
+    },
+    {
+      "id": "tencent-cosa-hkust-jun-zhang",
+      "company": "腾讯",
+      "team": "腾讯混元 AI Infra",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "faculty": [
+        "张军 · Jun Zhang",
+        "香港科技大学电子及计算机工程学系教授、Yufei Xue 博士导师，原稿校方通讯作者。",
+        "https://ece.hkust.edu.hk/eejzhang"
+      ],
+      "employee": [
+        "Guanghua Yu",
+        "腾讯混元大模型压缩算法负责人，原稿企业通讯作者，署腾讯。学生也在本人履历中具名列他为同期腾讯实习导师。",
+        "https://www.ml-summit.org/speaker/1189?lang=en&uid=c1047"
+      ],
+      "student": [
+        "Yufei Xue",
+        "2024 年秋起为港科大博士生；2026 年 4–8 月为腾讯混元 AI Infra 青云实习生，本篇校企双署共同第一作者。论文首版首页 † 明示本人在腾讯实习期间完成该工作。",
+        "https://yufeixue.tech/"
+      ],
+      "advising": [
+        "博士导师",
+        "香港科大张军课题组公开名录记录 2024 秋起入组；学生本人履历明确称 Jun Zhang 是其博士导师，与企业实习导师分别列出。",
+        "https://eejzhang.people.ust.hk/group.html"
+      ],
+      "title": "CoSA: Accelerating Long-Context Inference via Proxy-Kernel Co-Designed Sparse Attention",
+      "short": "CoSA",
+      "date": "2026-07-28",
+      "venue": "arXiv 预印本",
+      "area": "长上下文推理稀疏注意力与高性能算子",
+      "paper": "https://arxiv.org/abs/2607.25291v1",
+      "extra": [
+        [
+          "首次公开稿的博士生实习、校企双署和通讯",
+          "https://arxiv.org/pdf/2607.25291v1#page=1"
+        ],
+        [
+          "首版同篇 HTML",
+          "https://arxiv.org/html/2607.25291v1"
+        ],
+        [
+          "企业模型压缩团队早期公开成果",
+          "https://arxiv.org/abs/2602.21233"
+        ],
+        [
+          "作者归档的后续预印本与实现",
+          "https://arxiv.org/abs/2607.25291"
+        ]
+      ],
+      "evidence": "arXiv:2607.25291v1 首页实名标记 Yufei Xue 在腾讯实习期间完成这项研究；他是腾讯和港科大双署的共同第一作者，校内导师张军和腾讯 Guanghua Yu 都是本篇通讯作者。学生本人将两边的导师及任期分开列明，学校导师独立公布其在读入组日期，2025 年机器学习峰会主办方的企业演讲者介绍证实 Guanghua Yu 是腾讯混元大模型压缩算法负责人。预印首发 2026-07-28，处于 4–8 月腾讯实习窗口。此项是协同两阶段稀疏选择和 GPU kernel 的免训练方法，不与其腾讯通用算子团队其他论文合并或重复。",
+      "paperId": "10.48550/arXiv.2607.25291"
     }
   ]
 };
