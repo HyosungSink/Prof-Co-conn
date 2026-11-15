@@ -47327,6 +47327,114 @@ const survey = {
         ]
       ],
       "evidence": "SIGGRAPH 正式首页把署 LIGHTSPEED 的 Lingting Zhu 和 Yingda Yin 标记为本篇企业项目负责人，校方王泽宇为通讯，Hengyu Meng 为第一作者。孟本人记录 2025 年 6 月至 2026 年 3 月在腾讯光子做研究实习，并明确列出 Lingting Zhu 指导；朱本人也确认曾任腾讯高级研究员。会议对本篇的报告人简介明确列孟当时是港科大（广州）MPhil 并同时署腾讯光子。校方实验室和学生本人均确认王泽宇为其硕士导师；不把后续香港校本部博士阶段计入本篇。学校书目记载正式发表日为 2026-07-19。"
+    },
+    {
+      "id": "tencent-headevolver-hkustgz-zeyu-wang",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "王泽宇 · Zeyu Wang",
+        "港科大（广州）人工智能及计算媒体与艺术学域助理教授，校方 CIS Lab 负责人，学生具名硕士导师，论文作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=167"
+      ],
+      "employee": [
+        "詹晓航 · Xiaohang Zhan",
+        "2023 年 3 月至 2025 年 6 月腾讯正式研究科学家、技术负责人；论文企业署名，且在学生同项贡献记录中具名为企业研究导师。",
+        "https://xiaohangzhan.github.io/"
+      ],
+      "student": [
+        "Zeyu Cai",
+        "蔡同学是本篇标有等贡献的共同一作；本人简历将该研发的具名导师列为校方王泽宇和腾讯詹晓航，明确分工为引入逐三角片加权雅可比实现局部变形，同时保留语义特征与定义头部模型；完成期间港科大（广州）有其在读期间记录。",
+        "https://zcai0612.github.io/assets/ZeyuCai_CV.pdf"
+      ],
+      "advising": [
+        "硕士导师",
+        "学生原始个人简历中记录 2023 年 8 月至 2025 年 7 月的港科大（广州）硕士、明确导师王泽宇，校方 CIS 确认；去重后不用于后续其他院校学籍。",
+        "https://zcai0612.github.io/assets/ZeyuCai_CV.pdf"
+      ],
+      "title": "HeadEvolver: Text to Head Avatars via Expressive and Attribute-Preserving Mesh Deformation",
+      "short": "HeadEvolver",
+      "date": "2024-03-14",
+      "venue": "3DV 2025（2024 年 3 月预印本）",
+      "area": "可编辑三维网格头像变形",
+      "paper": "https://doi.org/10.1109/3DV66043.2025.00025",
+      "extra": [
+        [
+          "首篇公开稿：大学、员工与博士／硕士作者署名",
+          "https://arxiv.org/pdf/2403.09326v1"
+        ],
+        [
+          "论文独立项目页",
+          "https://www.duotun-wang.co.uk/HeadEvolver/"
+        ],
+        [
+          "研究组成员与导师",
+          "https://cislab.hkust-gz.edu.cn/members/"
+        ],
+        [
+          "港科大核实正式 3DV 2025 发表",
+          "https://researchportal.hkust.edu.hk/en/publications/headevolver-text-to-head-avatars-via-expressive-and-attribute-pre/"
+        ]
+      ],
+      "evidence": "2024-03-14 首稿，蔡同学是共同一作。其本人简历明确列出本篇的技术贡献（为各三角片的雅可比矩阵加权，实现局部变形）和两位项目导师：港科大（广州）王泽宇与腾讯詹晓航。项目从 2023 年 1 月至 2024 年 2 月，后半段与蔡同学 2023 年 8 月开始的港科大（广州）硕士学籍及詹晓航在腾讯的任期重叠。首稿署名列出三人，致谢注明 CCF–腾讯联合研究计划；这是由企业研究员具名指导的同一联合项目。2025 年 3DV 正式版与预印本合并。"
+    },
+    {
+      "id": "tencent-dreammapping-hkustgz-zeyu-wang",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "faculty": [
+        "王泽宇 · Zeyu Wang",
+        "港科大（广州）人工智能及计算媒体与艺术学域助理教授，校方 CIS Lab 负责人，学生具名硕士导师，论文作者。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=167"
+      ],
+      "employee": [
+        "詹晓航 · Xiaohang Zhan",
+        "2023 年 3 月至 2025 年 6 月腾讯正式研究科学家、技术负责人；论文企业署名，且在学生同项贡献记录中具名为企业研究导师。",
+        "https://xiaohangzhan.github.io/"
+      ],
+      "student": [
+        "Zeyu Cai",
+        "港科大（广州）硕士生，首版共同一作；独立履历将该篇具体研发列为本人提出 DreamMapping 与变分分布映射改进，明确由校方王泽宇与腾讯詹晓航指导。双署共同一作、同校博士杜同学另在其同期腾讯实习。",
+        "https://zcai0612.github.io/assets/ZeyuCai_CV.pdf"
+      ],
+      "advising": [
+        "硕士导师",
+        "学生原始个人简历中记录 2023 年 8 月至 2025 年 7 月的港科大（广州）硕士、明确导师王泽宇，校方 CIS 确认；去重后不用于后续其他院校学籍。",
+        "https://zcai0612.github.io/assets/ZeyuCai_CV.pdf"
+      ],
+      "title": "DreamMapping: High-Fidelity Text-to-3D Generation via Variational Distribution Mapping",
+      "short": "DreamMapping",
+      "date": "2024-09-08",
+      "venue": "Pacific Graphics 2024",
+      "area": "基于变分分布映射的文本到三维生成",
+      "paper": "https://doi.org/10.2312/pg.20241311",
+      "extra": [
+        [
+          "首篇公开稿：大学、员工与博士／硕士作者署名",
+          "https://arxiv.org/pdf/2409.05099v1"
+        ],
+        [
+          "论文独立项目页",
+          "https://zcai0612.github.io/DreamMapping/"
+        ],
+        [
+          "研究组成员与导师",
+          "https://cislab.hkust-gz.edu.cn/members/"
+        ],
+        [
+          "正式 Pacific Graphics 首面",
+          "https://diglib.eg.org/server/api/core/bitstreams/d7f32b6a-c163-4718-bf2a-6dea971287c6/content"
+        ],
+        [
+          "校企双署共同一作本人的学籍及腾讯任期",
+          "https://www.duotun-wang.co.uk/"
+        ]
+      ],
+      "evidence": "2024-09-08 首稿。蔡同学公开简历把本项列为 2024 年 2–5 月的具体研究，说明自己提出 DreamMapping 和变分分布映射，并具名列港科大（广州）王泽宇及腾讯詹晓航为该项目导师。蔡同期为港科大（广州）硕士，詹同期为腾讯正式研究员。首稿三人同署，另一共同一作当时也在腾讯 AI Lab 实习，原稿说明 CCF–腾讯联合研究项目。该论文解决文本到三维生成，和 HeadEvolver 的头像网格变形是两项工作。"
     }
   ]
 };

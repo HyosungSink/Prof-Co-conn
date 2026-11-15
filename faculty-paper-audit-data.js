@@ -62698,7 +62698,17 @@ const facultyPaperAudits = {
       "https://www.researchsquare.com/article/rs-2959078/v1",
       "https://doi.org/10.21203/rs.3.rs-3009681/v1",
       "https://rainbowluocs.github.io/assets/cv_luorun.pdf",
-      "https://yongbin-li.github.io/"
+      "https://yongbin-li.github.io/",
+      "https://karimmd.github.io/",
+      "https://orcid.org/0009-0009-7564-2415",
+      "https://www.sciencedirect.com/author/57202461736/qiang-qu",
+      "https://tsgjcjs.siat.ac.cn/jcjs/article/abstract/20240612001",
+      "https://ieeexplore.ieee.org/abstract/document/10924261/authors",
+      "https://www.researchsquare.com/article/rs-3358133/v1",
+      "https://link.springer.com/book/10.1007/978-981-95-5716-5",
+      "https://www.sciopen.com/article/10.26599/TST.2023.9010136",
+      "https://proceedings.mlr.press/v306/chen26bk.html",
+      "https://arxiv.org/abs/2602.21628"
     ],
     "papers": [
       {
@@ -62733,7 +62743,7 @@ const facultyPaperAudits = {
         "year": 2023,
         "title": "Optimizing hydropower scheduling through accurate power load prediction: A practical case study",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10987994/",
-        "note": "2024 Heliyon 原文对应 Research Square 2023 首稿 rs-2959078，首稿明确主题为电负荷预测。机构为河北大学、航运管理部门、深圳先进院等，无目标企业。与船舶到达预测和能源存储工作区分。",
+        "note": "2024 Heliyon 原文对应 Research Square 2023 首稿 rs-2959078，首稿明确主题为电负荷预测。机构为河北大学、航运管理部门、深圳先进院等，无目标企业。与船舶到达预测和能源存储工作区分。 同组 2023-09-22 rs-3358133 与本项同作者顺序、同沙沱电站、CNN–GRU 与 GA-NSGA-II，按同项归并。",
         "outcome": "no-evidence"
       },
       {
@@ -62753,14 +62763,14 @@ const facultyPaperAudits = {
       {
         "year": 2024,
         "title": "SNCA: Semi-Supervised Node Classification for Evolving Large Attributed Graphs",
-        "url": "https://doi.org/10.26599/BDMA.2024.9020033",
-        "note": "IEEE BDMA 题录和机构信息用于核对属性随时间演变的图节点半监督分类，作者单位含深研院、卢森堡和英国高校，未见目标企业；未完整取得致谢。",
+        "url": "https://www.sciopen.com/local/article_pdf/10.26599/BDMA.2024.9020033.pdf",
+        "note": "IEEE BDMA 正式全文 2024-08-28 网上发布。作者机构为深研院、卢森堡和英国学术单位；属性随时间演变的图节点分类，致谢未见目标公司。",
         "outcome": "no-evidence"
       },
       {
         "year": 2024,
         "title": "CIC-SIoT: Clean-Slate Information-Centric Software-Defined Content Discovery and Distribution for Internet of Things",
-        "url": "https://karimmd.github.io/publications/karim2024cicsiot.pdf",
+        "url": "https://openaccess.city.ac.uk/id/eprint/33807/1/paper.pdf",
         "note": "期刊正式稿列北理工、深研院、伦敦大学城及英国高校；研究软件定义网络中的物联网内容发现和分发，未见目标企业作者。",
         "outcome": "no-evidence"
       },
@@ -62852,7 +62862,7 @@ const facultyPaperAudits = {
         "year": 2025,
         "title": "面向DNA安全存储的信息增量管理方法",
         "url": "https://jcjs.siat.ac.cn/cn/article/pdf/preview/10.12146/j.issn.2095-3135.20240612001.pdf",
-        "note": "《集成技术》期刊原文列袁涛为硕士生，曲强为通讯；两者署国科大与深研院，研究链式索引下的 DNA 数据增量存储，没有目标公司同篇署名。",
+        "note": "2025-05-09 在线。《集成技术》期刊原文列袁涛为硕士生，曲强为通讯；两者署国科大与深研院，研究链式索引下的 DNA 数据增量存储，没有目标公司同篇署名。",
         "outcome": "no-evidence"
       },
       {
@@ -62861,9 +62871,114 @@ const facultyPaperAudits = {
         "url": "https://www.mdpi.com/1999-5903/18/10/532",
         "note": "Future Internet 2026-10-01 全文为 Karim 和曲强双署深研院的可验证智能体经济框架，提出区块链、执行证明和随机审计；未见目标企业同篇实研。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "PILE: Robust Privacy-Preserving Federated Learning Via Verifiable Perturbations",
+        "url": "https://doi.org/10.1109/TDSC.2023.3239007",
+        "note": "IEEE 先行版登记于 2023-01。曲强与薛腾飞在本篇署华为云，其他机构为中央民族大学、北理工及清华。首作者 Xiangyun Tang 已于 2022 年获北理工博士，署任职的中央民族大学；未见范围内在读者在目标企业完成本工作。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "EduChain: A Blockchain-Based Privacy-Preserving Lifelong Education Platform",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-30678-5_59",
+        "note": "2023-04 在线论文；曲强与张子怡署华为云，其他作者署桂林电子科技大学、鹏城实验室及北航。已核北航同篇 Yujue Wang 的博士学位早于本项目，协议工作未见符合条件的在校学生为企业实研；全文致谢未能独立取得。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "BO-DNA: Biologically optimized encoding model for a highly-reliable DNA data storage",
+        "url": "https://doi.org/10.1016/j.compbiomed.2023.107404",
+        "note": "2023-08 先行出版，结合生物特性优化 DNA 编码。题录列深研院/国科大、河北大学和深圳职业技术大学，曲强及首作者署深研院。未见目标公司在读实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Few-Shot Relation Extraction With Automatically Generated Prompts",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38507379/",
+        "note": "期刊电子版先于 2025 卷期。少样本关系抽取通过自动生成提示激发语言模型知识；署名机构为港中大、深研院和哈工深，未见目标企业，全文本轮未取得。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "On Time-Aware Cross-Blockchain Data Migration",
+        "url": "https://www.sciopen.com/local/article_pdf/10.26599/TST.2023.9010136.pdf",
+        "note": "2024-06-20 先行。原文列张孟秋为国科大/深研院在读硕士、曲强为通讯，致谢华为云项目 YBN2020085125；同作者另有公开专利。全文没有华为员工署名，也未说明院内学生在华为做此项研究或有具名学位指导关系。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2024,
+        "title": "Prognostic-Based Active Battery Degradation Management in Wireless Sensor Networks for Group Replacement",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/qre.3695",
+        "note": "Wiley 2024-12-06 在线，卷期 2025。无线传感器电池更换研究包含中电科和 Meta 署名，二者不在目标企业范围；未有目标公司对应的学生实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Bitcoin reimagined: A comprehensive study of ordinals and inscriptions protocols for Web3 asset innovation",
+        "url": "https://karimmd.github.io/assets/papers/karim2025bitcoin.pdf",
+        "note": "与 Elsevier 10.1016/j.bcra.2025.100379 同题，2025-09 先行公开。作者含曲强及当时已为深研院研究人员的 Karim，另有 Jingdong Coinlink 的 Teddy Liu；未见具名在读者在京东做同篇研究，不因公司署名计入。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Blockchain-Based MIMO AAV-Aided Mobile Edge Computing",
+        "url": "https://doi.org/10.1109/TMC.2025.3649700",
+        "note": "IEEE 2025-12-31 先行题录，后收 2026 卷期。无人机辅助移动边缘计算用区块链协调卸载，署名为西电和深研院，未见目标企业同篇作者；未独立取得全文。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Probabilistic Optimization of Top-k Aggregation in Distributed Environments",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-95-5716-5_35",
+        "note": "APWeb-WAIM 2025 会期、Springer 2026-01-23 论文集，原文为基于 Poisson 采样的 Value-Poisson Filter Top-k；与另一篇迭代指数采样研究是不同方法，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Securing Decentralized Finance: A Comprehensive Survey of Maximal Extractable Value and Its Countermeasures",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2096720926000175",
+        "note": "2026-02-02 Elsevier 开放全文；Karim、东黄文与曲强梳理 DeFi MEV 攻击和对策，并比较链上数据。未见目标公司共同作者或学生企业项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Dynamic Client Selector: A Double Deep Q-Learning Framework for Efficient Federated Learning",
+        "url": "https://doi.org/10.1109/PerCom67906.2026.11524502",
+        "note": "IEEE PerCom 2026 会议/Workshop 两个 DOI 题名、作者、摘要均指同一项双深度 Q 学习的联邦客户端选择；合为一篇。署名深研院与 Northumbria University，没有目标企业；未能取得两家版本的致谢。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "多方协同DNA安全信息存取：迈向DNA-硅基混合存储设施",
+        "url": "https://www.synbioj.com/zh/article/doi/10.12211/2096-8280.2025-067/",
+        "note": "期刊 2026-05 提供项目报告，署深研院、深圳大学、华东理工与浙江大学等。研究多方协同访问 DNA 介质；区别已发表的国科大增量存储方法，未见目标公司参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Fast and accurate distributed top-k aggregation",
+        "url": "https://link.springer.com/article/10.1007/s00607-026-01724-y",
+        "note": "Springer 2026-08-07 在线，9 月卷期；作者均署深研院，首作者另署国科大。核心是迭代指数采样，不同于同组会议 VPF 的 Poisson 采样；未见目标公司。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "LL-CEIoT: Lightweight LLM-based Collaborative Cloud-Edge Computing for Internet of Things",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11707753/",
+        "note": "IEEE 2026 年 9 月先行题录，Karim、Sangeen Khan 及曲强以轻量模型改善云边协同和物联网能耗。作者期刊条目与个人发布互证，未见目标企业共同作者；完整致谢未取得。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26bk/chen26bk.pdf",
+        "outcome": "lead",
+        "note": "2026-02-25 首稿，ICML 正式版列 Bo Zheng 和另外三位阿里作者，增列张磊但仅署深研院及国科大。张磊公开论文页列同篇，但没有本篇具体参与阿里研发的证明。曲强共同署深研院，未见具名校内指导。"
       }
     ],
-    "note": "以国科大和深研院官方介绍、身份绑定 ORCID、DBLP 记录及 ACL 作者合集确认曲强。已逐篇写入首阶段，仍有题录与未获正文待补，并继续区分校方署名、企业实研和具名导师。相似工作未确认前不用于关系计数。"
+    "note": "国科大官方介绍、身份绑定 ORCID、DBLP、ACL 作者合集及出版社数据已逐篇核对两批。将 Splicer+ 与 2023 ICDCS 首发合并，分开两篇有独立首稿的水电站研究。核对同名作者时排除只署辽宁科技大学的群体行为论文和只署西北农林科技大学的碳材料论文；几篇正文/版本仍待核，保留梳理中。"
   },
   "HFGNmPsAAAAJ": {
     "from": "2023-01-01",
@@ -63469,6 +63584,20 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "3DV 2025；正式校方资料列港科大两地、Prometheus Vision Technology 和 Swinburne University。前者不在 14 家企业，不能沿用本组另外一篇的腾讯合作。",
         "year": 2025
+      },
+      {
+        "title": "HeadEvolver: Text to Head Avatars via Expressive and Attribute-Preserving Mesh Deformation",
+        "url": "https://doi.org/10.1109/3DV66043.2025.00025",
+        "outcome": "confirmed",
+        "note": "2024-03-14 首稿，蔡同学是共同一作。其本人简历明确列出本篇的技术贡献（为各三角片的雅可比矩阵加权，实现局部变形）和两位项目导师：港科大（广州）王泽宇与腾讯詹晓航。项目从 2023 年 1 月至 2024 年 2 月，后半段与蔡同学 2023 年 8 月开始的港科大（广州）硕士学籍及詹晓航在腾讯的任期重叠。首稿署名列出三人，致谢注明 CCF–腾讯联合研究计划；这是由企业研究员具名指导的同一联合项目。2025 年 3DV 正式版与预印本合并。",
+        "year": 2024
+      },
+      {
+        "title": "DreamMapping: High-Fidelity Text-to-3D Generation via Variational Distribution Mapping",
+        "url": "https://doi.org/10.2312/pg.20241311",
+        "outcome": "confirmed",
+        "note": "2024-09-08 首稿。蔡同学公开简历把本项列为 2024 年 2–5 月的具体研究，说明自己提出 DreamMapping 和变分分布映射，并具名列港科大（广州）王泽宇及腾讯詹晓航为该项目导师。蔡同期为港科大（广州）硕士，詹同期为腾讯正式研究员。首稿三人同署，另一共同一作当时也在腾讯 AI Lab 实习，原稿说明 CCF–腾讯联合研究项目。该论文解决文本到三维生成，和 HeadEvolver 的头像网格变形是两项工作。",
+        "year": 2024
       }
     ]
   }
