@@ -13558,7 +13558,10 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2505.23923",
       "https://cuso4-chen.github.io/",
       "https://aclanthology.org/people/feiteng-fang/",
-      "https://dblp.dagstuhl.de/pid/02/1640-7.html"
+      "https://dblp.dagstuhl.de/pid/02/1640-7.html",
+      "https://github.com/AIforIP",
+      "https://github.com/SUAT-AIRI/SC-Arena",
+      "https://github.com/Chen-X666/NAIT"
     ],
     "papers": [
       {
@@ -13890,6 +13893,55 @@ const facultyPaperAudits = {
         "title": "Expanding before Inferring: Enhancing Factuality in Large Language Models through Premature Layers Interpolation",
         "url": "https://aclanthology.org/2025.emnlp-main.645.pdf",
         "note": "2025-06 arXiv:2506.02973 首发。杨敏、陈定纬等利用浅层插值提高事实可靠性，与 2024 年基于对比解码的 Lower Layers Matter 技术不同。正式版列中山大学、深北莫、港理工、UNSW、深研院；致谢未见腾讯或其余目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "CPsyExam: A Chinese Benchmark for Evaluating Psychology using Examinations",
+        "url": "https://aclanthology.org/2025.coling-main.745.pdf",
+        "note": "COLING 正式版由深研院、吉林大学、中科大、华科、澳大、华南理工等共同编制心理学考试基准；只以百度和通义模型参加评测，未见两公司同篇作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?",
+        "url": "https://arxiv.org/pdf/2604.27419v1",
+        "note": "2026-04-30 首稿，以多模态交互评估智能体能否按用户反馈搭建网站。王琪尧等署国科大、深研院、大工、深理工和 UNSW；DeepSeek、Kimi 仅作为模拟用户或被评模型。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "PatRe: A Full-Stage Office Action and Rebuttal Generation Benchmark for Patent Examination",
+        "url": "https://arxiv.org/pdf/2605.03571v1",
+        "note": "2026-05-05 首稿，模拟专利审查和答复两个阶段；原文仅学术机构，DeepSeek 和通义用于对照实验；与早期测试广义知识产权能力的 IPBench 属不同基准。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "TInR: Exploring Tool-Internalized Reasoning in Large Language Models",
+        "url": "https://aclanthology.org/2026.acl-long.2077.pdf",
+        "note": "ACL 正式版比较使用外部工具与把工具材料内化为语言模型推理知识的方案，作者署港理工、东南大学、爱丁堡大学和深研院。引用 DeepSeek、不构成项目参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation",
+        "url": "https://arxiv.org/html/2602.23199v1",
+        "note": "2026-02 首发，与 ICLR 2026 正式版合并。使用外部细胞本体和文献评价模型自然语言推理；作者列东北大学、深理工、深研院、UC Irvine 和 UNSW，致谢为公开科研资助，没有目标企业同篇实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Neuron-Aware Data Selection in Instruction Tuning for Large Language Models",
+        "url": "https://arxiv.org/html/2603.13201v1",
+        "note": "2026-03 具名公开稿与 ICLR 2026 同篇。按神经元激活选择指令训练语料，作者来自澳大、深理工、南大、KAUST 和深研院；没有目标公司署名或具名学生实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers",
+        "url": "https://aclanthology.org/2026.acl-long.1619.pdf",
+        "note": "ACL 正式版以训练模型主动澄清错误或缺失的用户前提；作者列南大、深理工、深研院及美国高校。未发现目标企业参加这项研究。",
         "outcome": "no-evidence"
       }
     ],
@@ -65975,7 +66027,13 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/07/6095-4.html",
       "https://nlp.ict.ac.cn/lwlz/fblw/",
       "https://fangqingkai.github.io/",
-      "https://zhangshaolei1998.github.io/"
+      "https://zhangshaolei1998.github.io/",
+      "https://aclanthology.org/people/yang-feng/unverified/",
+      "https://bingo123122121.github.io/",
+      "https://bingo123122121.github.io/cv/",
+      "https://arxiv.org/abs/2509.24338",
+      "https://iip.ict.ac.cn/yjspy/xs/zdbss/",
+      "https://nlp.ict.ac.cn/xsdt/"
     ],
     "papers": [
       {
@@ -66054,9 +66112,149 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.acl-long.912.pdf",
         "note": "2025-05 arXiv:2505.02625 首发；相比第一代，另一篇工作以自回归流式语音合成和新的训练数据改进语音交流。正式论文仅列计算所与国科大机构；Qwen 和 GLM 出现在模型比较中。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Learning Optimal Policy for Simultaneous Machine Translation via Binary Search",
+        "url": "https://aclanthology.org/2023.acl-long.130.pdf",
+        "note": "二分搜索产生读写政策监督，作者均署国科大与计算所；公开全文未见目标公司。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Back Translation for Speech-to-text Translation Without Transcripts",
+        "url": "https://aclanthology.org/2023.acl-long.251.pdf",
+        "note": "房庆凯和冯洋署国科大、计算所，以自监督离散语音单元从目标单语数据合成监督对；致谢为公共科研经费。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "CMOT: Cross-modal Mixup via Optimal Transport for Speech Translation",
+        "url": "https://aclanthology.org/2023.acl-long.436.pdf",
+        "note": "由周羿、房庆凯、冯洋署计算所和国科大，以最优传输对齐语音文本并做令牌混合；未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Understanding and Bridging the Modality Gap for Speech Translation",
+        "url": "https://aclanthology.org/2023.acl-long.884.pdf",
+        "note": "计算所与国科大的房庆凯、冯洋提出 CRESS，以计划采样缓解语音和文本推理时的暴露偏差，独立于 CMOT 的令牌混合；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Bridging the Gap between Synthetic and Authentic Images for Multimodal Machine Translation",
+        "url": "https://aclanthology.org/2023.emnlp-main.173.pdf",
+        "note": "正式版署计算所、国科大及北京语言大学，用图像和输出的分布约束缓解合成图像与真实图像偏移；未见目标公司作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Non-autoregressive Streaming Transformer for Simultaneous Translation",
+        "url": "https://aclanthology.org/2023.emnlp-main.314.pdf",
+        "note": "NAST 在输入分块内并行生成译文，由计算所、国科大和苏州大学合著；原文没有目标企业实研。独立于后续语音到多种输出的 NAST-S2x。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "End-to-End Simultaneous Speech Translation with Differentiable Segmentation",
+        "url": "https://aclanthology.org/2023.findings-acl.485.pdf",
+        "note": "张少磊、冯洋均署国科大计算所；将声学片段边界的选择纳入可微分的端到端训练，致谢为公开科研项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Enhancing Neural Machine Translation with Semantic Units",
+        "url": "https://aclanthology.org/2023.findings-emnlp.149.pdf",
+        "note": "以注意力聚合组成词组的子词语义，与多尺度字节翻译做法不同。正式文章列国科大计算所，未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Simultaneous Machine Translation with Tailored Reference",
+        "url": "https://aclanthology.org/2023.findings-emnlp.202.pdf",
+        "note": "郭守涛、张少磊、冯洋以强化学习改写不同延迟档位的参考译文，作者均署计算所和国科大；未见目标公司。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Scaling Law for Document-Level Neural Machine Translation",
+        "url": "https://aclanthology.org/2023.findings-emnlp.556.pdf",
+        "note": "正式版以模型大小、语料规模、序列长度做文档翻译的经验缩放关系，作者署国科大计算所与苏州大学；无目标公司同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Addressing the Length Bias Problem in Document-Level Neural Machine Translation",
+        "url": "https://aclanthology.org/2023.findings-emnlp.773.pdf",
+        "note": "相同作者另提出动态训练采样、长度归一化和滑窗推理解决长度偏置。计算所、国科大和苏州大学署名，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Decoder-only Streaming Transformer for Simultaneous Translation",
+        "url": "https://aclanthology.org/2024.acl-long.480.pdf",
+        "note": "提出独立编码两侧位置和流式自注意力，区别于 NAST 非自回归解码。所有作者署计算所和国科大；致谢只列公开科研项目。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "A Non-autoregressive Generation Framework for End-to-End Simultaneous Speech-to-Any Translation",
+        "url": "https://aclanthology.org/2024.acl-long.85.pdf",
+        "note": "NAST-S2x 增加真实流式语音输入与文本、声学两种输出，方法和评测区分 2023 年 NAST。正式版署计算所、国科大与苏州大学，没有目标企业同篇角色。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "CTC-based Non-autoregressive Textless Speech-to-Speech Translation",
+        "url": "https://aclanthology.org/2024.findings-acl.543.pdf",
+        "note": "结合 CTC、预训练及蒸馏做不依赖源语言文本的快速语音到语音翻译。作者来自国科大计算所和苏州大学，致谢未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Integrating Multi-scale Contextualized Information for Byte-based Neural Machine Translation",
+        "url": "https://aclanthology.org/2024.findings-acl.583.pdf",
+        "note": "利用多个尺度整合字节上下文，解决单个字节信息稀疏。黄浪林和冯洋署计算所与国科大；原文无目标公司署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Improving Multilingual Neural Machine Translation by Utilizing Semantic and Linguistic Features",
+        "url": "https://aclanthology.org/2024.findings-acl.620.pdf",
+        "note": "卜梦煜、古书昊和冯洋署国科大计算所，解耦语言和语义特征改善零样本多语翻译；非后来同组与百度合著的 AlignX。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Truth-Aware Context Selection: Mitigating Hallucinations of Large Language Models Being Misled by Untruthful Contexts",
+        "url": "https://aclanthology.org/2024.findings-acl.645.pdf",
+        "note": "计算所团队通过选择上下文屏蔽可疑输入，技术区别于编辑内部表征向量的 TruthX；全文和致谢未见目标公司。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "AlignX: Advancing Multilingual Large Language Models with Multilingual Representation Alignment",
+        "url": "https://aclanthology.org/2025.emnlp-main.328.pdf",
+        "note": "2025-09 arXiv:2509.24338 首稿。卜梦煜本人主页确认他 2023 年起在国科大读博，由论文共同作者冯洋指导；何中军、吴华署百度。正式版致谢只列自然科学基金，尚未证实学生在百度参与这一研究。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "StreamUni: Achieving Streaming Speech Translation with a Unified Large Speech-Language Model",
+        "url": "https://aclanthology.org/2026.emnlp-main.1859.pdf",
+        "note": "2025-07 arXiv:2507.07803 首稿，与 EMNLP 2026 正式版合并。语音思维链统一文本分析和实时输出；企业作者署理想汽车（范围外），DeepSeek 只用于实验评分。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning",
+        "url": "https://aclanthology.org/2026.emnlp-main.1299.pdf",
+        "note": "2026-02 arXiv:2602.18493 首发，与 EMNLP 2026 正式版归并。公开原文明确张珂豪在理想汽车实习期间完成本文，机构不在本次企业范围；使用 DeepSeek 做评估不构成合作。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "逐篇核对中国科学院大学冯洋档案列出的论文、计算所自然语言处理组的项目原文及正式出版版。尚有其余论文等待核对。"
+    "note": "对照个人档案、计算所原文和 ACL Anthology 的作者/共同作者索引逐篇查证，核对同名作者及发表版本。研究期的完整公开题录尚在梳理。"
   },
   "Ib-sizwAAAAJ": {
     "from": "2023-01-01",
@@ -66078,7 +66276,13 @@ const facultyPaperAudits = {
       "https://santisy.github.io/",
       "https://neurips.cc/Downloads/2026",
       "https://arxiv.org/html/2511.09515v1",
-      "https://github.com/WM-PO/WMPO"
+      "https://github.com/WM-PO/WMPO",
+      "https://arxiv.org/html/2406.14540v1",
+      "https://github.com/bytedance/IRASim",
+      "https://researchportal.hkust.edu.hk/en/publications/irasim-learning-interactive-real-robot-action-simulators-2/",
+      "https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.html",
+      "https://www.taokong.org/",
+      "https://arxiv.org/pdf/2602.21157v1"
     ],
     "papers": [
       {
@@ -66122,6 +66326,58 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "首稿在 2025 年 5 月，早于刘建公开的 9 月港科大博士学籍；正式发表时的新学籍不能单独佐证首次研究同期导师身份。"
+      },
+      {
+        "title": "IRASim: A Fine-Grained World Model for Robot Manipulation",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.html",
+        "year": 2024,
+        "outcome": "confirmed",
+        "note": "字节官方项目仓库和 2024-06-20 首稿列朱方琪为双署字节和港科大的第一作者、郭嵩为港科大通讯，并列字节研究者 Tao Kong 与项目负责人 Hongtao Wu。学生本人明确这段实习从 2024-03 开始，研究真实机器人仿真和世界模型且列两人为导师，港科大同期也把这项论文列入。2025 ICCV 改题后仍是同一项。其技术任务是训练细粒度机器人仿真世界模型，区别于后来利用模型训练策略的 WMPO。"
+      },
+      {
+        "title": "HALO: A Unified Vision-Language-Action Model for Embodied Multimodal Chain-of-Thought Reasoning",
+        "url": "https://proceedings.mlr.press/v306/shou26a.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "ICML 正式发文及预印本首页确认港科大、EPFL、中山大学，首稿未署企业。朱方琪的字节实习属于同一广泛领域，未找到本篇实研在该企业进行的具名材料。"
+      }
+    ]
+  },
+  "eUae2K0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+      "https://ornamentt.github.io/",
+      "https://arxiv.org/pdf/2607.07820v1",
+      "https://github.com/ornamentt/ornamentt.github.io/blob/4dd39b7d74211ae4d8d0db0189be1210efec9d01/index.html",
+      "https://github.com/ornamentt/DeepSearch-World",
+      "https://huggingface.co/api/datasets/Ornamentt/DeepSearch-World-Env/commits/main",
+      "https://neurips.cc/media/neurips-2025/Slides/116768.pdf",
+      "https://openreview.net/pdf/d125d856863c3ff9fc6dc2fadab05a1cc5557d01.pdf"
+    ],
+    "papers": [
+      {
+        "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+        "url": "https://arxiv.org/abs/2607.07820v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "首稿确认耿欣宇为同时署港科大与腾讯的共同第一作者，Haitao Mi 署腾讯，Yi R. Fung 署港科大并任通讯，学生履历具名导师和当时在腾讯的自蒸馏研究。学生公开的较早论文题名和现有代码是同一可验证检索环境，Hugging Face 项目存档证明他在 2026-05-26 已提交论文对应的检索索引、页面读取数据库与脚本。7 月公开首稿晚于他在腾讯的实习期，未据此推断他 7 月仍在腾讯。"
+      },
+      {
+        "title": "GeoBrowse: A Geolocation Benchmark for Agentic Tool Use with Expert-Annotated Reasoning Traces",
+        "url": "https://arxiv.org/html/2604.04017v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首稿作者均为港科大。不能把耿欣宇曾在腾讯做网页智能体的履历延伸为企业参与了这项独立地理定位基准。"
+      },
+      {
+        "title": "WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent",
+        "url": "https://openreview.net/pdf/d125d856863c3ff9fc6dc2fadab05a1cc5557d01.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "2025-08-07 首稿 2508.05748（当时署阿里团队、未见 Yi R. Fung），早于耿欣宇公开的 9 月港科大博士入学；2026 正式版列学生双署及校方作者，但尚不能补证研究当期存在对应指导。"
       }
     ]
   }

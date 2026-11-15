@@ -48342,6 +48342,106 @@ const survey = {
         ]
       ],
       "evidence": "港科大 PEI-Lab 独立确认 WMPO 为学校与字节 Seed 的联合成果，博士生朱方琪第一作者、郭嵩及马骁分别为校企通讯。朱方琪公开披露在 Seed 机器人组的世界模型研究和具名导师马骁，图文代码与论文均将他双署港科大和 Seed。2025-11-12 是最初公开日，当时他转入同企业的多模态组；公开证据未给出具体研究完成日期。"
+    },
+    {
+      "id": "bytedance-irasim-hkust-song-guo",
+      "company": "字节跳动",
+      "team": "Seed · 机器人",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "title": "IRASim: A Fine-Grained World Model for Robot Manipulation",
+      "short": "IRASim",
+      "date": "2024-06-20",
+      "venue": "ICCV",
+      "area": "机器人交互世界模型与仿真",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.html",
+      "faculty": [
+        "郭嵩 · Song Guo",
+        "港科大讲座教授，学生本人具名的博士导师，首稿和正式版均为港科大通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo"
+      ],
+      "employee": [
+        "Tao Kong",
+        "原稿和正式版署字节；本人公开履历列 2019–2025 年任字节机器人研究负责人，学生履历列其为字节机器人实习的指导人。",
+        "https://www.taokong.org/"
+      ],
+      "student": [
+        "朱方琪 · Fangqi Zhu",
+        "港科大博士，自述 2024-03 至 2025-09 在字节机器人组做真实机器人仿真及世界模型，首稿是第一作者并同时署港科大和字节。",
+        "https://fangqi-zhu.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "朱方琪的教育经历具名确认郭嵩，自 2024 年在港科大攻博；校方在 2024 年已收录该作。",
+        "https://fangqi-zhu.github.io/"
+      ],
+      "extra": [
+        [
+          "2024-06-20 首稿和双署名",
+          "https://arxiv.org/html/2406.14540v1"
+        ],
+        [
+          "字节官方实现与项目分工",
+          "https://github.com/bytedance/IRASim"
+        ],
+        [
+          "港科大同期书目",
+          "https://researchportal.hkust.edu.hk/en/publications/irasim-learning-interactive-real-robot-action-simulators-2/"
+        ]
+      ],
+      "evidence": "字节官方项目仓库和 2024-06-20 首稿列朱方琪为双署字节和港科大的第一作者、郭嵩为港科大通讯，并列字节研究者 Tao Kong 与项目负责人 Hongtao Wu。学生本人明确这段实习从 2024-03 开始，研究真实机器人仿真和世界模型且列两人为导师，港科大同期也把这项论文列入。2025 ICCV 改题后仍是同一项。其技术任务是训练细粒度机器人仿真世界模型，区别于后来利用模型训练策略的 WMPO。"
+    },
+    {
+      "id": "tencent-deepsearch-world-hkust-yi-fung",
+      "company": "腾讯",
+      "team": "混元 · 智能体",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+      "short": "DeepSearch-World",
+      "date": "2026-07-08",
+      "venue": "arXiv",
+      "area": "搜索智能体与自蒸馏",
+      "paper": "https://arxiv.org/abs/2607.07820v1",
+      "faculty": [
+        "Yi R. Fung",
+        "港科大计算机科学及工程学系助理教授，论文以港科大署名为通讯作者。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung"
+      ],
+      "employee": [
+        "Haitao Mi",
+        "首稿明确标注腾讯，与学生、导师同篇。2025 NeurIPS 作者表及 ACL 论文以腾讯研究机构署名，个人同样以腾讯团队身份公开介绍科研。",
+        "https://neurips.cc/media/neurips-2025/Slides/116768.pdf"
+      ],
+      "student": [
+        "耿欣宇 · Xinyu Geng",
+        "港科大在读博士、共同第一作者，2025-11 至 2026-05 在腾讯开展深度搜索、轨迹反思和策略自蒸馏；同项目环境的存档在 5 月已有技术提交。",
+        "https://ornamentt.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "耿欣宇公开履历独立具名确认自 2025 年 9 月在港科大随 Yi R. Fung 攻读博士。",
+        "https://ornamentt.github.io/"
+      ],
+      "extra": [
+        [
+          "首稿首页与三方作者单位",
+          "https://arxiv.org/pdf/2607.07820v1"
+        ],
+        [
+          "学生原始公开履历与此前题名",
+          "https://github.com/ornamentt/ornamentt.github.io/blob/4dd39b7d74211ae4d8d0db0189be1210efec9d01/index.html"
+        ],
+        [
+          "对应项目的搜索与数据实现",
+          "https://github.com/ornamentt/DeepSearch-World"
+        ],
+        [
+          "环境存档：2026-05-26 发布记录",
+          "https://huggingface.co/api/datasets/Ornamentt/DeepSearch-World-Env/commits/main"
+        ]
+      ],
+      "evidence": "首稿确认耿欣宇为同时署港科大与腾讯的共同第一作者，Haitao Mi 署腾讯，Yi R. Fung 署港科大并任通讯，学生履历具名导师和当时在腾讯的自蒸馏研究。学生公开的较早论文题名和现有代码是同一可验证检索环境，Hugging Face 项目存档证明他在 2026-05-26 已提交论文对应的检索索引、页面读取数据库与脚本。7 月公开首稿晚于他在腾讯的实习期，未据此推断他 7 月仍在腾讯。"
     }
   ]
 };
