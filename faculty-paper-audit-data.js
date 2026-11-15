@@ -21609,7 +21609,16 @@ const facultyPaperAudits = {
       "https://jiangyong.site/",
       "https://tongyi-agent.github.io/publication/",
       "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9760f18785acf535321e50405fd36578-Abstract-Conference.html",
-      "https://proceedings.iclr.cc/paper_files/paper/2026/file/9760f18785acf535321e50405fd36578-Paper-Conference.pdf"
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/9760f18785acf535321e50405fd36578-Paper-Conference.pdf",
+      "https://cse.hkust.edu.hk/pg/defenses/F24/pmaab-23-09-2024.html",
+      "https://github.com/microsoft/reliableAI/commit/f8bbc62fab938c411f8787d61fcbc7118c932ef3",
+      "https://www.microsoft.com/en-us/research/articles/causal-discovery/",
+      "https://yanzuo.ch/",
+      "https://github.com/yanzuochen/bitshield",
+      "https://github.com/yanzuochen/debfa",
+      "https://github.com/monkbai/DeepCache",
+      "https://cse.hkust.edu.hk/pg/defenses/Summer25/wkwongal-02-07-2025.html",
+      "https://daoyuan14.github.io/papers/ISSTA25_DecLLM.pdf"
     ],
     "papers": [
       {
@@ -21623,8 +21632,86 @@ const facultyPaperAudits = {
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9760f18785acf535321e50405fd36578-Abstract-Conference.html",
         "outcome": "confirmed",
         "note": "论文初版由阿里通义实验室以机构原创项目发布，第一作者是已明确为同期阿里通义研究实习生的李宽；正式版明确其双署港科大和阿里通义，并列港科大博士导师同篇通讯。Shuai Wang 的组名单和论文作者名单分别确认具名博士指导和同篇参与；企业共同作者蒋勇在阿里通义任研究职务。"
+      },
+      {
+        "year": 2024,
+        "title": "Scalable Differentiable Causal Discovery in the Presence of Latent Confounders with Skeleton Posterior",
+        "url": "https://arxiv.org/abs/2406.10537v1",
+        "outcome": "no-evidence",
+        "note": "2024-06-15 首稿。马平川是当时由 Shuai Wang 指导的港科大博士生；这项工作的核心代码后来由他提交至微软仓库，微软本人文献与校方研究讲座均直接确认同项。微软不在本次调查的 14 家企业内。"
+      },
+      {
+        "year": 2023,
+        "title": "InsightPilot: An LLM-Empowered Automated Data Exploration System",
+        "url": "https://aclanthology.org/2023.emnlp-demo.31/",
+        "outcome": "no-evidence",
+        "note": "2023-04 arXiv:2304.00477 与 ACL 正式版属同作。马平川、Shuai Wang 署港科大，Rui Ding 等三人署微软；微软不在本次调查的 14 家企业内。"
+      },
+      {
+        "year": 2025,
+        "title": "BitShield: Defending Against Bit-Flip Attacks on DNN Executables",
+        "url": "https://www.ndss-symposium.org/ndss-paper/bitshield-defending-against-bit-flip-attacks-on-dnn-executables/",
+        "outcome": "lead",
+        "note": "NDSS 正式作者列华为 Sihang Hu、Tianxiang Li；第一作者 Yanzuo Chen 是 Shuai Wang 的港科大博士生。本人仓库可核项目实现，原文未披露学生为华为完成了哪项工作。"
+      },
+      {
+        "year": 2025,
+        "title": "Compiled Models, Built-In Exploits: Uncovering Pervasive Bit-Flip Attack Surfaces in DNN Executables",
+        "url": "https://www.ndss-symposium.org/wp-content/uploads/2025-419-paper.pdf",
+        "outcome": "lead",
+        "note": "2024 年 Black Hat 技术报告与本文共享攻击主题，正式 NDSS 全文为 2025，另篇 BitShield 研究的是防御。论文有华为两位署名及具名博士生，尚缺学生因华为项目参与同一项研究的直接证据。"
+      },
+      {
+        "year": 2024,
+        "title": "DeepCache: Revisiting Cache Side-Channel Attacks in Deep Neural Networks Executables",
+        "url": "https://doi.org/10.1145/3658644.3690241",
+        "outcome": "lead",
+        "note": "CCS 正式原文列华为两位；第一作者 Zhibo Liu 已于 2023 年完成港科大博士，项目代码由其个人账号公开。其他同篇学生虽列港科大，未发现其参与华为同项研发的具名证据。"
+      },
+      {
+        "year": 2025,
+        "title": "DecLLM: LLM-Augmented Recompilable Decompilation for Enabling Programmatic Use of Decompiled Code",
+        "url": "https://doi.org/10.1145/3728958",
+        "outcome": "lead",
+        "note": "ISSTA 正式原文列腾讯科恩 Qiyi Tang、Sen Nie、Shi Wu。校方答辩摘要明确点名 Wong 的 DecLLM 研究和实际导师 Shuai Wang；还缺学生为腾讯完成该项工作的直接材料。"
+      },
+      {
+        "year": 2024,
+        "title": "Preserving Privacy in Software Composition Analysis: A Study of Technical Solutions and Enhancements",
+        "url": "https://arxiv.org/abs/2412.00898v1",
+        "outcome": "lead",
+        "note": "2024-12 首稿与 2025 ICSE 正式同作，正式议程列腾讯科恩三名共同作者；原文尚未说明在读作者同项在腾讯参与的具体工作。"
+      },
+      {
+        "year": 2024,
+        "title": "SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner",
+        "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wang-xunguang",
+        "outcome": "no-evidence",
+        "note": "2024 年 6 月正式长文首稿 arXiv:2406.05498；先前短版系同一防护方向。USENIX 正式署名唯一企业为汇丰，未见目标企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "Testing and Understanding Deviation Behaviors in FHE-hardened Machine Learning Models",
+        "url": "https://conf.researchr.org/details/icse-2025/icse-2025-research-track/81/Testing-and-Understanding-Deviation-Behaviors-in-FHE-hardened-Machine-Learning-Models",
+        "outcome": "no-evidence",
+        "note": "ICSE 作者页与全文一致：六人为港科大，企业作者 Juergen Rahmel 所属汇丰不在目标范围。论文使用外部加密工具不构成企业共研。"
+      },
+      {
+        "year": 2023,
+        "title": "Enabling Runtime Verification of Causal Discovery Algorithms with Automated Conditional Independence Reasoning",
+        "url": "https://arxiv.org/abs/2309.05264v1",
+        "outcome": "no-evidence",
+        "note": "2023-09 首版、ICSE 2024 同作。正式作者为港科大和浙江大学，无指定企业署名；CICheck 是独立验证工具，与 SPOT 不重复。"
+      },
+      {
+        "year": 2025,
+        "title": "Guardrail: Automated Integrity Constraint Synthesis From Noisy Data",
+        "url": "https://doi.org/10.1145/3749166",
+        "outcome": "no-evidence",
+        "note": "ACM 记录于 2025-09-23 首次上线，SIGMOD 2026 正式报告；ACM 六名作者机构全部为港科大。"
       }
-    ]
+    ],
+    "note": "在既有关系核查的基础上，增补因果发现、模型与软件安全论文。华为、腾讯合著中学生的具体企业项目参与仍有待核实。"
   },
   "s3lQL7YAAAAJ": {
     "from": "2023-01-01",
@@ -59154,7 +59241,7 @@ const facultyPaperAudits = {
   "rXB6z5QAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://ai.fudan.edu.cn/fjl/",
       "https://jinlanfu.github.io/",
@@ -59174,7 +59261,9 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2504.21447",
       "https://arxiv.org/abs/2107.13586",
       "https://arxiv.org/abs/2312.16864",
-      "https://arxiv.org/abs/2403.01848"
+      "https://arxiv.org/abs/2403.01848",
+      "https://pub.orcid.org/v3.0/0000-0002-0370-1238/works",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/file/33610fba262d7b6fed0810b89f55e147-Paper-Conference.pdf"
     ],
     "papers": [
       {
@@ -59182,7 +59271,7 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "title": "Sharing Beyond Decision: Deep Collaboration between Large Language Models via Representation Ensemble",
         "url": "https://aclanthology.org/2026.tacl-1.79/",
-        "note": "TACL 正式稿傅金兰与 Hao Fei、See-Kiong Ng 等署新加坡国立大学，合作机构另有哈工大、港大、中南大学；未有目标企业参与这项整合多模型表示的研究。"
+        "note": "TACL 正式稿傅金兰、Hao Fei 和 See-Kiong Ng 署新加坡国立大学，另列哈工大、港大、中南大学；未见目标企业参加表示集成研究。"
       },
       {
         "year": 2026,
@@ -59308,7 +59397,7 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "title": "LIBERO-Plus: A Progressive Robustness Benchmark for Visual-Language-Action Models",
         "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html",
-        "note": "2025-10 首稿 2510.13626，与正式 CVPR 为同一机器人稳健性基准。项目页傅署新加坡国立大学，其他为同济、复旦、上海创智学院，无目标企业合著。"
+        "note": "2025-10 首稿 2510.13626，与正式 CVPR 为同一机器人稳健性基准。项目页傅署新加坡国立大学，正式稿更新为复旦；同济、复旦、上海创智学院合著，无目标企业。"
       },
       {
         "year": 2023,
@@ -59388,18 +59477,21 @@ const facultyPaperAudits = {
         "note": "首稿首页列傅金兰在复旦，其余新加坡国立、南科大和哈工大深圳；情绪识别及表现生成无目标企业合著。"
       }
     ],
-    "note": "阶段性以复旦官网、个人书目、DBLP 和 ACL Anthology 对账，按首次公开时间记录，并区分研究时的新加坡国立署名和后来复旦身份。合并预印本与正式版并排除 2021 年首次公开的 Pre-train, Prompt, and Predict；仍在查截止日前独立出版索引的尾部。"
+    "note": "截至 2026-11-12，将本人公开书目、DBLP 作者页、ACL Anthology 和 ORCID 出版清单对账，按首次公开时间及原文署名核阶段。合并预印本与正式同篇，排除 2021 年首次公开的 Pre-train, Prompt, and Predict。书目中缺复旦就职时期的证据不按后来身份倒推；美团一篇保留线索。此完成范围限可检索公开书目。"
   },
   "1s8m7o4AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://homepage.hit.edu.cn/jiakunliu",
       "https://jiakun-liu.github.io/publications/",
       "https://conf.researchr.org/profile/jiakunliu",
       "https://orcid.org/0000-0002-7273-6709",
-      "https://soarsmu.github.io/team/"
+      "https://soarsmu.github.io/team/",
+      "https://zhongxin-liu.github.io/",
+      "https://baolingfeng.github.io/publication/",
+      "https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2026-02/davidlo-CV.pdf"
     ],
     "papers": [
       {
@@ -59481,8 +59573,310 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "relationIds": [],
         "note": "IEEE 正式版逐名为杭州城市大学、浙江大学、新加坡管理大学。分析软件包的存续不证明特定企业实研。"
+      },
+      {
+        "year": 2026,
+        "title": "LoLBench: Evaluating Coding Agents with Long-Horizon Proposals on Large Software Systems",
+        "url": "https://arxiv.org/html/2609.37143v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "原文首页列复旦、香港城市大学、香港中文大学、新加坡管理大学、港科大（广州）、莫纳什大学马来西亚分校、哈工大和独立研究者；未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation",
+        "url": "https://arxiv.org/html/2608.01927v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "DyRetriever 首稿 2026-08-03，论文作者逐名为浙大、杭州城市大学和哈工大，同作后入 ASE。未见目标企业作者。"
+      },
+      {
+        "year": 2026,
+        "title": "Multi-level Code Optimization via Mixture of Prompts",
+        "url": "https://arxiv.org/html/2607.23665v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "原稿逐名为复旦、浙大、哈工大、香港中文大学、新加坡管理大学和滨江区块链与数据安全研究院。此项未见学生在目标公司实研；不将作者参与其他公司的代码项目移用到本项。"
+      },
+      {
+        "year": 2026,
+        "title": "ATGBuilder: Feature-Assisted Graph Learning for Activity Transition Graph Construction with Seed Supervision",
+        "url": "https://arxiv.org/html/2606.27080v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "逐名为澳门科技大学、澳门科技大学珠海研究院、宁波诺丁汉大学、大连海事大学和哈工大。与较早的 ATG 工具测评不是同一篇。"
+      },
+      {
+        "year": 2026,
+        "title": "CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation",
+        "url": "https://arxiv.org/html/2601.21253v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "确有阿联酋 Technology Innovation Institute 具名作者，另有新加坡管理大学、哈工大及维罗纳大学；该机构不在本站企业范围。"
+      },
+      {
+        "year": 2026,
+        "title": "Can Test Cases Generated by Large Language Models Facilitate Automated Program Repair?",
+        "url": "https://link.springer.com/article/10.1007/s10664-026-10802-w",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "Springer 明确署华为软件工程应用技术实验室 Kui Liu，且其 2025 官方会议作者资料（https://conf.researchr.org/profile/ise-2025/kuiliu）列其研究人员身份。浙大作者 Chengming Zhang、Chuyang Xu 与哈工大刘佳琨同篇；未见前述学生在华为参加本项及由刘佳琨实际指导的具名资料。"
+      },
+      {
+        "year": 2026,
+        "title": "Can LLMs Keep Up with Library Changes? An Exploratory Study on LLM-Generated Code",
+        "url": "https://baolingfeng.github.io/papers/SANER2026.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SANER 正式版三名作者为浙江大学与哈尔滨工业大学；受测大模型和开源库并非同篇企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "From LLMs to Agents: A Comparative Evaluation of LLMs and LLM-based Agents in Security Patch Detection",
+        "url": "https://arxiv.org/html/2511.08060v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "原文完整署名为杭州城市大学、浙大、哈工大和华中科技大学，未见目标企业作者。"
+      },
+      {
+        "year": 2025,
+        "title": "RustMap: Towards Project-Scale C-to-Rust Migration via Program Analysis and LLM",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-00828-2_16",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Springer ICECCS 2025 逐名列新加坡管理大学、英国开放大学、北京、北京区块链与边缘计算研究院、北京交通大学。作者自报“Beijing, China”缺少企业归属，不能据此认定目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "LLM4SZZ: Enhancing SZZ Algorithm with Context-Enhanced Assessment on Large Language Models",
+        "url": "https://baolingfeng.github.io/papers/ISSTA2025_SZZ.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv 2504.01404 先发，ISSTA 正式原文逐名列浙大或新加坡管理大学。未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "More Effective JavaScript Breaking Change Detection via Dynamic Object Relation Graph",
+        "url": "https://baolingfeng.github.io/papers/ISSTA2025_BC.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "正式全文逐人来自浙江大学和新加坡管理大学。研究目标为依赖库的破坏性更新，和同组此前的 npm 数据与现象研究不同。"
+      },
+      {
+        "year": 2025,
+        "title": "A Comprehensive Study of Bug Characteristics on Foundation Language Models",
+        "url": "https://doi.org/10.1109/FORGE66646.2025.00037",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "FORGE 正式议程列邓水光的浙大与阿里巴巴—浙大联合研究院，IEEE 出版单位逐名仅有高校。联合机构条目缺阿里正式员工和学生在阿里做该论文的证据。刘佳琨同期署新加坡管理大学。"
+      },
+      {
+        "year": 2023,
+        "title": "APIDocBooster: An Extract-Then-Abstract Framework Leveraging Large Language Models for Augmenting API Documentation",
+        "url": "https://arxiv.org/html/2312.10934v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2023-12 已公开，2025 ICSME 同一项。原文形式为新加坡管理大学、北卡罗来纳州立大学、墨尔本大学与南京大学；未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "The Devil is in the Tails: How Long-Tailed Code Distributions Impact Large Language Models",
+        "url": "https://arxiv.org/html/2309.03567v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ASE 2023 原稿署名为新加坡管理大学、北卡罗来纳州立大学和伦敦大学皇家霍洛威学院；使用大模型未形成目标企业作者关系。"
+      },
+      {
+        "year": 2023,
+        "title": "Are We Ready to Embrace Generative AI for Software Q&A?",
+        "url": "https://arxiv.org/html/2307.09765v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ASE 2023 首稿列商学院、大学或澳大利亚 CSIRO Data61，未见目标企业作者。被评估的生成式软件不构成合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Effective Fuzzing-based Prototype Pollution Detection via Forced Execution and Template Synthesis",
+        "url": "https://doi.org/10.1145/3848632",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 登记 2026-09-24 正式在线，四名作者分别为浙江大学、哈工大。项目是 Forecast；未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "An Exploratory Study of Library Migration in Rust",
+        "url": "https://conf.researchr.org/details/scam-2026/scam-2026-research-track/5/An-Exploratory-Study-of-Library-Migration-in-Rust",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SCAM 正式议程与共同作者本人确认。五名逐人来自浙大和哈工大，未见目标企业作者。考察 Rust 库迁移，与 RustMap 翻译及 Interop Tools 错误分类是独立论文。"
+      },
+      {
+        "year": 2026,
+        "title": "Code Refinement with Repository Context: How Far are We?",
+        "url": "https://doi.org/10.1145/3820059",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 2026-08-03 先行公开；八名作者归中南大学、哈工大、浙大、杭州城市大学及新加坡管理大学。未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Debate with Myself: Zero-Shot Event Causality Identification with Adversarial Evidence Integration via Large Language Models",
+        "url": "https://ijcai.org/proceedings/2026/0674.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IJCAI 正式全文逐名列国防科大、哈工大；作者研究的语言模型不构成企业人员参与。"
+      },
+      {
+        "year": 2026,
+        "title": "Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools",
+        "url": "https://oro.open.ac.uk/108138/1/InteroperabilityTools_2025.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "新加坡管理大学机构库 2026-02 已发布录用稿资料，ACM 正刊 DOI 10.1145/3795532；作者来自 SMU、哈工大、浙江大学与英国开放大学。未见目标企业。"
+      },
+      {
+        "year": 2026,
+        "title": "Audio-Visual Deepfake Generation and Detection: An Exploratory Survey",
+        "url": "https://doi.org/10.1109/ICASSP55912.2026.11463954",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ICASSP 正式刊及议程列哈工程、中科院信工所、哈工大作者。综述收录企业论文不构成合作。"
+      },
+      {
+        "year": 2026,
+        "title": "Delving into History: Retrieve Less but Augment More on Commit Message Generation",
+        "url": "https://doi.org/10.1145/3794857",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "ACM 的出版登记及合作者书目列全部单位为中南、哈工大、浙大、新加坡管理大学。未见目标企业。"
+      },
+      {
+        "year": 2025,
+        "title": "Activity Transition Graph Generation: How Far Are We?",
+        "url": "https://doi.org/10.1145/3776553",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "共同作者 Debin Gao 的新加坡管理大学公开研究陈述列 2025-12 的 TOSEM 先发表（https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2026-02/dbgao-Research%20Sttm-2026.pdf）；ACM 初始登记 2025-11，最终版本 2026-06。原文胡晗署莫纳什；本人履历列后任华为（https://huhangithub.github.io/cv/），未见他以华为身份参与本研究。其余作者为哈工大、SMU、澳国立或特拉维夫大学。"
+      },
+      {
+        "year": 2025,
+        "title": "Shelving it rather than Ditching it: Dynamically Debloating DEX and Native Methods of Android Applications without APK Modification",
+        "url": "https://arxiv.org/html/2501.04963v1",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "原文逐名列新加坡管理大学、浙江实验室、特拉维夫大学。项目仓库 https://github.com/3DNDroid/3DNDroid 明列 DynDebloater 是同一工具的早期版本，FSE 演示 DOI 10.1145/3696630.3728580 附记在此。正式演示原稿单位为新加坡管理大学、浙江大学；两版均未见目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "On the Sustainability of Deep Learning Projects: Maintainers' Perspective",
+        "url": "https://doi.org/10.1002/smr.2645",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Wiley 2023-12-13 首次网络出版，2024 正卷。杭州城市大学、SMU、浙大、江西理工等相关作者，无目标企业单位。"
+      },
+      {
+        "year": 2023,
+        "title": "AutoDebloater: Automated Android App Debloating",
+        "url": "https://ink.library.smu.edu.sg/sis_research/8385/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "机构库 2023-09，IEEE DOI 10.1109/ASE56229.2023.00017 正式作者分属新加坡管理大学、浙江大学和特拉维夫大学。"
+      },
+      {
+        "year": 2023,
+        "title": "TECHSUMBOT: A Stack Overflow Answer Summarization Tool for Technical Query",
+        "url": "https://ink.library.smu.edu.sg/sis_research/8510/",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SMU 机构库和 ICSE Companion 记录四名新加坡管理大学作者。2022 年同工具的独立基准研究 arXiv:2209.10868 未署刘佳琨，本条对应 2023 会议工具论文。"
       }
     ],
-    "note": "由哈工大主页、本人书目、正式会议档案、出版社和可归属原稿逐篇核查。其 2022–2025 年为新加坡管理大学研究人员，不依同篇作者顺序推定导师；剩余公开书目与同作版本待继续核查。"
+    "note": "学校主页、本人书目、新加坡管理大学书目及会议正式档案和出版原文交叉核查。刘佳琨 2022–2025 年在新加坡管理大学任研究人员。预印本、正刊及同一工具演示归并。已剔除同名：HIT 合作者所在的故障诊断同名作者为中南大学、ORCID 0009-0007-1705-4397，口腔篇同名来自广州大学、量子力学篇来自宾夕法尼亚大学、电信篇来自中国科大。"
+  },
+  "xBuiA5AAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://sds.fudan.edu.cn/17429/list.htm",
+      "https://gefeiwang.github.io/publications/",
+      "https://gefeiwang.github.io/resume/",
+      "https://orcid.org/0000-0001-5627-9918",
+      "https://pub.orcid.org/v3.0/0000-0001-5627-9918/works",
+      "https://jiazhao97.github.io/publications/",
+      "https://nips2025fm4ls.github.io/pages/accepted-paper.html",
+      "https://researchportal.hkust.edu.hk/en/publications/construction-of-a-3d-whole-organism-spatial-atlas-by-joint-modell/",
+      "https://pubmed.ncbi.nlm.nih.gov/41957369/",
+      "https://doi.org/10.1101/2021.12.12.469460",
+      "https://doi.org/10.1101/2022.08.06.503035",
+      "https://doi.org/10.1101/2021.12.13.472243",
+      "https://doi.org/10.1038/s41467-024-46070-9"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "Interpretable, flexible and spatially aware integration of multiple spatial transcriptomics datasets from diverse sources",
+        "url": "https://doi.org/10.1038/s41588-026-02579-x",
+        "note": "Crossref 连到 2024-09-25 首发 INSPIRE（10.1101/2024.09.23.614539），正式期刊版所有机构均为耶鲁。王戈飞当时是耶鲁博士后，无目标企业同项研发。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Brain functional-structural gradient coupling reflects development, behavior and genetic influences",
+        "url": "https://doi.org/10.1038/s41467-026-71719-y",
+        "note": "medRxiv 2025-09-18 首发，后于 2026 正式刊载。王戈飞署耶鲁，与美国高校同行分析神经影像和遗传影响；未见调查范围企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Spatial co-expression and cell-cell communication inference from spatially resolved transcriptomics with CONCISE",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733860v1",
+        "note": "2026-06-28 首稿的七位作者均署耶鲁各院系。王戈飞署耶鲁生物统计；无同篇企业署名和学生实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "scMODAL: a general deep learning framework for comprehensive single-cell multi-omics data alignment with feature links",
+        "url": "https://doi.org/10.1038/s41467-025-60333-z",
+        "note": "2024-10-03 首发预印本 10.1101/2024.10.01.616142；2025 期刊原文载明全部六位作者属耶鲁，资助为美国 NIH；未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Improving polygenic risk prediction performance by integrating electronic health records through phenotype embedding",
+        "url": "https://doi.org/10.1016/j.ajhg.2025.11.006",
+        "note": "2025-08-07 首发 EEPRS 预印本，正式版本作者单位均是耶鲁；GPT 等用于临床表型嵌入，未见目标企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "A Multi-Modal Foundation Model Across Species for Interpreting Gene Functions",
+        "url": "https://openreview.net/pdf/4cc3799c621b65ad0d4f862f0890cda78cffef7f.pdf",
+        "note": "NeurIPS FM4LS 工作坊定稿以 DNACLIP 对齐 DNA 与文本，署名单位为耶鲁、Broad Institute、港中文、Northeastern。未见目标公司研究角色；不能把作者后来任职套回本文。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Bayesian Longitudinal Network Regression With Application to Brain Connectome Genetics",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12977017/",
+        "note": "Statistics in Medicine 2025-04 正式发表，作者归属杜克、耶鲁、印第安纳大学；王署耶鲁。贝叶斯脑连接网络分析无目标企业合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA",
+        "url": "https://doi.org/10.1101/2024.12.04.626878",
+        "note": "2024-12-08 bioRxiv 首发，PubMed 存档按作者表全部归属耶鲁组学与生物统计；无人署目标公司，借用语言模型嵌入不构成合作。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks",
+        "url": "https://doi.org/10.1038/s42256-023-00734-1",
+        "note": "2023-02-03 首发 STitch3D（10.1101/2023.02.02.526814），第一作者王是港科大博士生，港科大研究库与期刊正式原文一致；无 14 家目标公司作为作者署名，使用商业平台的公开数据不计合作。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "以学校职称名录、本人简历与公开书目、ORCID、共同作者书目和出版原文交叉。按首次公开日期去重；狐猴分子图谱、基因生理图谱和激素图谱三篇分别于 2021／2022 年首次公开，不入窗口。逐篇区分当时港科大求学、耶鲁博士后和 2026 年复旦入职。该完成标记限截至 2026-11-12 可检索公开书目。"
   }
 };
