@@ -48866,6 +48866,62 @@ const survey = {
         ]
       ],
       "evidence": "2025-03-27 联合研究会明确列胡起为崔鹤鸣的在读博士并由他公开报告该论文，展示同态比较和 HomCache 等技术。作者原稿明确华为为同项理论分析提供支持，未参与实验设计或评测；企业作者张弓的任职由正式会议和 IEEE 作者资料复核。学生履历把 2024-04 至 2025-03 的本人并行比较及 HomCache 设计列为这篇 IEEE S&P 论文的具体贡献。这条记联合研究，不声称在华为实习或已部署于华为业务。"
+    },
+    {
+      "id": "huawei-autoschemakg-hkust-yangqiu-song",
+      "company": "华为",
+      "team": "香港研究中心 · 2012 实验室理论实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "employee": [
+        "吴雷杰 · Leijie Wu",
+        "论文正式及首稿均以华为理论实验室署名；个人履历独立写明 2024-12 起担任华为香港研究中心研究科学家，并具体列 AutoSchemaKG 与港科大宋陽秋团队同项合作。",
+        "https://leijiewu.github.io/cv/"
+      ],
+      "student": [
+        "曾康庭 · Hong Ting Tsang",
+        "2024–2026 港科大在读研究型硕士，同篇已见于首稿。本人介绍列为项目核心代码作者，2025-06-06 可核的提交直接编写图谱检索与剪枝实现，论文同一公开仓库的公开软件元数据列其为作者。",
+        "https://github.com/HKUST-KnowComp/AutoSchemaKG/commit/18cb4289cdcbf747ed23ebe50a75b692e46a8dd8"
+      ],
+      "faculty": [
+        "宋陽秋 · Yangqiu Song",
+        "港科大计算机科学及工程学系副教授，与学生和华为研究员同篇公开署名。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong"
+      ],
+      "advising": [
+        "研究型硕士导师",
+        "宋陽秋校方页面的 HKUST MPhil 栏实名列 Dennis Hong Ting Tsang 为 2024–2026 指导学生，校方 2026 年八月硕士答辩公开记录同一学籍与论文题。",
+        "https://www.cse.ust.hk/~yqsong/"
+      ],
+      "title": "AutoSchemaKG: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora",
+      "short": "AutoSchemaKG",
+      "date": "2025-05-29",
+      "venue": "ACL 2026",
+      "area": "知识图谱",
+      "paper": "https://arxiv.org/html/2505.23628v1",
+      "extra": [
+        [
+          "ACL 正式论文",
+          "https://aclanthology.org/2026.acl-long.942/"
+        ],
+        [
+          "港科大实名硕士答辩",
+          "https://cse.hkust.edu.hk/pg/defenses/Summer26/httsangaj-07-08-2026.html"
+        ],
+        [
+          "学生述具体项目、导师及在学",
+          "https://gzone0111.github.io/profile/"
+        ],
+        [
+          "论文同项软件实名维护者",
+          "https://github.com/HKUST-KnowComp/AutoSchemaKG/blob/main/pyproject.toml"
+        ],
+        [
+          "企业作者明确区分同篇与其他企业项目",
+          "https://leijiewu.github.io/research/"
+        ]
+      ],
+      "evidence": "2025-05-29 首版已列港科大曾康庭、导师宋陽秋与华为吴雷杰同篇。导师官方名单和港科大答辩确证曾康庭为 2024–2026 研究型硕士；他在学期间实际开发过同论文的图谱检索与剪枝，有 2025-06-06 原始代码及同项目软件署名。吴雷杰本人明确在华为任研究科学家时与宋陽秋团队共同研究 AutoSchemaKG。此处确认同项研究参与，不推定学生在华为实习，也不混同其他产品部署。"
     }
   ]
 };

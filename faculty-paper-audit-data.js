@@ -15786,7 +15786,16 @@ const facultyPaperAudits = {
       "https://zongqing0068.github.io/",
       "https://aclanthology.org/2026.findings-emnlp.1366.pdf",
       "https://arxiv.org/pdf/2610.11552",
-      "https://zongqing0068.github.io/EvolvingWorld_page/"
+      "https://zongqing0068.github.io/EvolvingWorld_page/",
+      "https://arxiv.org/html/2505.23628v1",
+      "https://github.com/HKUST-KnowComp/AutoSchemaKG/commit/18cb4289cdcbf747ed23ebe50a75b692e46a8dd8",
+      "https://www.cse.ust.hk/~yqsong/",
+      "https://leijiewu.github.io/cv/",
+      "https://aclanthology.org/2026.acl-long.942/",
+      "https://cse.hkust.edu.hk/pg/defenses/Summer26/httsangaj-07-08-2026.html",
+      "https://gzone0111.github.io/profile/",
+      "https://github.com/HKUST-KnowComp/AutoSchemaKG/blob/main/pyproject.toml",
+      "https://leijiewu.github.io/research/"
     ],
     "papers": [
       {
@@ -15818,6 +15827,13 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.findings-emnlp.1366/",
         "outcome": "confirmed",
         "note": "港科大博士生宗晴在个人履历逐项写明，她在腾讯光子技术开发部实习时负责 EvolvingWorld；导师与学生主页均确认宋陽秋的博士指导，宋陽秋在正式论文署共同通讯。同行评审出版原文首页明确将 Yue Guo 标为唯一企业单位作者，并列腾讯邮箱；同一企业身份另有同期论文验证。"
+      },
+      {
+        "title": "AutoSchemaKG: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora",
+        "url": "https://arxiv.org/html/2505.23628v1",
+        "outcome": "confirmed",
+        "note": "2025-05-29 首版已列港科大曾康庭、导师宋陽秋与华为吴雷杰同篇。导师官方名单和港科大答辩确证曾康庭为 2024–2026 研究型硕士；他在学期间实际开发过同论文的图谱检索与剪枝，有 2025-06-06 原始代码及同项目软件署名。吴雷杰本人明确在华为任研究科学家时与宋陽秋团队共同研究 AutoSchemaKG。此处确认同项研究参与，不推定学生在华为实习，也不混同其他产品部署。",
+        "year": 2026
       }
     ]
   },
@@ -67608,7 +67624,14 @@ const facultyPaperAudits = {
       "https://github.com/kcxain/QiMeng-PRepair",
       "https://ieeexplore.ieee.org/abstract/document/9705069",
       "https://proceedings.neurips.cc/paper_files/paper/2022/file/ec3d49763c653ad7c8d587f52220c129-Paper-Conference.pdf",
-      "https://proceedings.neurips.cc/paper_files/paper/2022/hash/7e9fbd01b3084956dd8a070c7bf30bad-Abstract-Conference.html"
+      "https://proceedings.neurips.cc/paper_files/paper/2022/hash/7e9fbd01b3084956dd8a070c7bf30bad-Abstract-Conference.html",
+      "https://github.com/wyt2000/wyt2000.github.io/blob/master/about.markdown",
+      "https://admission.ucas.ac.cn/Content/Upload/2021/11/2.pdf",
+      "https://cslab.ustc.edu.cn/lsry/list.htm",
+      "https://people.ucas.ac.cn/~cyj",
+      "https://people.ucas.ac.cn/~huangdi",
+      "https://github.com/IPRC-DIP/RealBench",
+      "https://arxiv.org/abs/2506.10399"
     ],
     "papers": [
       {
@@ -67867,7 +67890,7 @@ const facultyPaperAudits = {
         "year": 2024,
         "title": "InverseCoder: Self-improving Instruction-Tuned Code LLMs with Inverse-Instruct",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34742/36897",
-        "note": "2024-07-08 首稿 arXiv:2407.05700v1 与 AAAI 2025 合并。首稿星号只附第一作者 Yutong Wu，明确这项工作在百度实习完成；本人公开项目确认研究时在计算所读博，尹大伟为同期百度正式员工。胡杏官方名录列同篇史文轩、南子渊、袁凯钊为所指导学生，但不列 Yutong Wu；也未核到三人在百度完成同一工作的具名证据。尚缺实习学生和同篇合格教师的具名指导，不计确认。",
+        "note": "2024-07-08 arXiv:2407.05700v1 首稿及 AAAI 2025 同篇。第一作者的公开项目账号同一账号自述中文名吴钰同、中科大本科；国科大拟录取名单证实其计算所电子信息专业录取，且与同一名单另一位同拼音申请者分开。本人同期自述计算所在读博士，首稿逐作者脚注明确他在百度实习期间完成。合著者尹大伟为同期百度员工。胡杏、陈云霁与黄迪的公开资料未见本人具名指导吴钰同，仍保留线索。",
         "outcome": "lead"
       },
       {
@@ -67897,9 +67920,37 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2605.13296v1",
         "note": "2026-05-13 首稿，以离散扩散生成联合路径作为邻域搜索的初始解；不是用时序扩散复用状态来做连续控制规划的 Efficient Diffusion Planning。论文作者均署中科院研究机构或国科大，NVIDIA 仅为试验设备。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "FicGCN: Unveiling the Homomorphic Encryption Efficiency from Irregular Graph Convolutional Networks",
+        "url": "https://proceedings.mlr.press/v267/kan25a.html",
+        "note": "2025-06-12 具名首稿 arXiv:2506.10399 与 ICML 同篇。利用密文数据打包、稀疏聚合和图连通结构重排降低图卷积开销，区别 Alchemist 的跨加密方案硬件。正式全文机构及资助未见目标企业实际参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "RealBench: Benchmarking Verilog Generation Models with Real-World IP Designs",
+        "url": "https://arxiv.org/pdf/2507.16200v1",
+        "note": "2025-07-22 首稿与计算所公开代码互证。以实际 IP 模块和系统的测试与验证环境评测 Verilog 生成，区别于使用此评测的 VPID 和 LocalV 两种算法。企业署名为范围外寒武纪。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "LocalV: Exploiting Information Locality for IP-level Verilog Generation",
+        "url": "https://arxiv.org/pdf/2602.00704v1",
+        "note": "2026-01-31 提交的首稿。用信息局部性把长设计规格和代码拆开，再做接口合并和局部调试；与用验证端口行为动态拆解的 VPID 及评测基础设施 RealBench 各自独立。署名为计算所、国科大与中科大，无目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design",
+        "url": "https://arxiv.org/pdf/2610.41225v1",
+        "note": "2026-10-30 首稿，训练单模型在 RTL 生成、电子设计自动化检查及依据工具反馈修补间切换，区别只用端口验证做分解的 VPID。作者单位为计算所、国科大及上海科技大学。DeepSeek 是教师模型，美团模型是基线，未见目标企业同篇作者或校企研究证据。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "通过国科大指导学生名单、本人 ORCID 和会议正式来源查缺。校正 HYVIN 首稿为 2023，排除个人主页标作 2023 年但原会期或刊期为 2022 的 OCARL、CDHRL 和 DeepSniffer 期刊扩展。InverseCoder 已核到百度同篇实习脚注，仍缺该具名实习学生与同篇合格教师的明确指导关系，保留线索。其他公开书目仍在梳理。"
+    "note": "个人公开资料、国科大招生记录与论文首稿已确认 InverseCoder 在百度实习完成的第一作者是吴钰同。尚缺计算所学位、培养记录或其他公开来源具名说明他的导师，关系继续留线索。技术论文另按首发逐篇梳理。"
   },
   "88tzr_sAAAAJ": {
     "from": "2023-01-01",
@@ -69506,7 +69557,8 @@ const facultyPaperAudits = {
       "https://www.cse.cuhk.edu.hk/people/faculty/hanrui/",
       "https://hanruizha.github.io/",
       "https://orcid.org/0000-0001-8991-0622",
-      "https://dblp.org/pid/168/8847.html"
+      "https://dblp.org/pid/168/8847.html",
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Hanrui%20Zhang%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=100"
     ],
     "papers": [
       {
@@ -69543,6 +69595,90 @@ const facultyPaperAudits = {
         "year": 2024,
         "outcome": "no-evidence",
         "note": "2024-02 首稿与同年 NeurIPS 版本同项，作者署伯克利与 Google Research。Google 不在本次范围。"
+      },
+      {
+        "title": "Refinement as a Service: Algorithmic Predictor Refinement",
+        "url": "https://arxiv.org/pdf/2610.11415v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "10 月原稿两位作者均列港中文；公司仅作为技术应用场景举例。"
+      },
+      {
+        "title": "Nonbossy Mechanisms: Mechanism Design Robust to Secondary Goals",
+        "url": "https://doi.org/10.1016/j.jet.2026.106187",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2023-07 首稿和 JET 同作；作者分别署 Google Research 与卡内基梅隆。Google 不在调查范围。"
+      },
+      {
+        "title": "Clock Auctions: Allocation-Based Characterization, Computational Complexity, and Economic Efficiency",
+        "url": "https://hanruizha.github.io/papers/clock.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "ACM 正式版独著，署港中文。"
+      },
+      {
+        "title": "Autobidder's Dilemma: Why More Sophisticated Autobidders Lead to Worse Auction Efficiency",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e9b0ae84d6879b30c78cb8537466a4e0-Paper-Conference.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "正式版作者列 Google Research 和港中文。原文将 2022 年 first-price auction 工作作既有结果引述，这篇另研究效率受竞价算法复杂度影响。"
+      },
+      {
+        "title": "Aggregating Quantitative Relative Judgments: From Social Choice to Ranking Prediction",
+        "url": "https://arxiv.org/abs/2410.05550v1",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "预印本和 NeurIPS 2024 正式版同项；首页列卡内基梅隆、港中文与布朗大学。"
+      },
+      {
+        "title": "Auto-bidding and Auctions in Online Advertising: A Survey",
+        "url": "https://sigecom.org/exchanges/volume_22/1/AGGARWAL.pdf",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "题录及作者本人清单确认同项综述，列 Google，范围无此企业。"
+      },
+      {
+        "title": "Efficiency of the Generalized Second-Price Auction for Value Maximizers",
+        "url": "https://arxiv.org/pdf/2310.03105v1",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "10 月首稿与 WWW 2024 同项，明列卡内基梅隆与 Google Research；区别于另篇首价拍卖。"
+      },
+      {
+        "title": "Non-Excludable Bilateral Trade Between Groups",
+        "url": "https://arxiv.org/pdf/2312.11800v1",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "12 月首稿与 AAAI 2024 同项，作者列清华、SLMath、卡内基梅隆；没有目标企业。"
+      },
+      {
+        "title": "Efficiently Solving Turn-Taking Stochastic Games with Extensive-Form Correlation",
+        "url": "https://hanruizha.github.io/papers/extensive-form_correlation.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "EC 2023 正式稿先于 2024 arXiv 扩展稿，署卡内基梅隆和布朗大学；两版只计一次。"
+      },
+      {
+        "title": "Autobidding Auctions in the Presence of User Costs",
+        "url": "https://arxiv.org/abs/2302.00377v1",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2 月预印本与 WWW 正式版同项，署 Google Research 与卡内基梅隆；Google 不在范围。"
+      },
+      {
+        "title": "Eligibility Mechanisms: Auctions Meet Information Retrieval",
+        "url": "https://hanruizha.github.io/papers/stochastic_probing.pdf",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "WWW 2023 原文作者列 Google 与卡内基梅隆，未披露目标企业的同项研究。"
+      },
+      {
+        "title": "Tight Bounds for Downward-Closed Prophet and Secretary Problems",
+        "url": "https://arxiv.org/html/2611.16880v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "arXiv 首稿 2026-11-12，原文以港中文 CSE 邮箱核对韩睿张身份与署名；一位作者，未见目标企业。"
       }
     ]
   },
