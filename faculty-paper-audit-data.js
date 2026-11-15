@@ -3100,7 +3100,9 @@ const facultyPaperAudits = {
       "https://openreview.net/forum?id=FPJ4b4JwEE",
       "https://farrenzhang.github.io/",
       "https://arxiv.org/html/2608.29296",
-      "https://openreview.net/pdf/ddf5536d927c46b6cd41023605878b3ab046c3b0.pdf"
+      "https://openreview.net/pdf/ddf5536d927c46b6cd41023605878b3ab046c3b0.pdf",
+      "https://cse.hkust.edu.hk/~kaichen/publication.html",
+      "https://cse.hkust.edu.hk/~kaichen/"
     ],
     "papers": [
       {
@@ -3126,8 +3128,19 @@ const facultyPaperAudits = {
         "url": "https://openreview.net/pdf/ddf5536d927c46b6cd41023605878b3ab046c3b0.pdf",
         "outcome": "no-evidence",
         "note": "学生简历所列研究期为 2025 年 1–10 月，早于李鹏博 2026 年 3 月入职腾讯混元实习。现有论文材料未说明另一位受指导学生在企业完成本研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Revisiting RDMA Reliability for Lossy Fabrics",
+        "url": "https://doi.org/10.1145/3718958.3750480",
+        "outcome": "confirmed",
+        "relationIds": [
+          "huawei-dcp-rdma-hkust-kai-chen"
+        ],
+        "note": "SIGCOMM 正式稿首页的具名脚注确认 Wenxue Li 在华为实习时完成该研究，港科大同篇获奖公告明确列她为陈凯的博士生。曾高雄的研发履历列明他在华为 2012 实验室从事同一项 DCP 研发；正式稿列他署华为，并以 AI 训练工作负载评测该协议。ACM 正式论文和 IEEE 期刊扩展版合并为同一工作。"
       }
-    ]
+    ],
+    "note": "本次增补同篇具名指导与华为实习的 DCP 证据。"
   },
   "Jk4vJU8AAAAJ": {
     "from": "2023-01-01",
@@ -63612,7 +63625,7 @@ const facultyPaperAudits = {
   "q7NLPG0AAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://doi.org/10.1145/3799902.3811123",
       "https://hengyumeng.github.io/",
@@ -63714,7 +63727,136 @@ const facultyPaperAudits = {
       "https://cislab.hkust-gz.edu.cn/media/documents/degas.pdf",
       "https://advocate99.github.io/",
       "https://www.linkedin.com/in/yixin-hu-867b79116",
-      "https://mo-haoran.com/LayerInbetween/"
+      "https://mo-haoran.com/LayerInbetween/",
+      "https://cislab.hkust-gz.edu.cn/publications/odorv-art-an-initial-exploration-of-an-olfactory-intervention-for-appreciating-style-information-of-artworks-in-virtual-museum/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/OdorV-Art-VINCI.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/from-expanded-cinema-to-extended-reality-how-ai-can-expand-and-extend-cinematic-experiences/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_VINCI_2023__From_Expanded_Cinema_to_Extended_Reality.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/simonstown-an-ai-facilitated-interactive-story-of-love-life-and-pandemic/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_VINCI_2023__Simonstown__an_interactive_story_of_love__life__and_disease.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/naturality-a-natural-reflection-of-chinese-calligraphy/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_VINCI_2023__Naturality__a_Way_of_Reflecting_on_Chinese_Calligraphy_in_the_Digital_Age.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/toward-making-virtual-reality-vr-more-inclusive-for-older-adults/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/CHI24_OlderAdults_VR_Accessibility_Modeling.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/neural-canvas-supporting-scenic-design-prototyping-by-integrating-3d-sketching-and-generative-ai/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/CHI24_NeuralCanvas.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/splattingavatar-realistic-real-time-human-avatars-with-mesh-embedded-gaussian-splatting/",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Shao_SplattingAvatar_Realistic_Real-Time_Human_Avatars_with_Mesh-Embedded_Gaussian_Splatting_CVPR_2024_paper.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/agilefingers-authoring-ar-character-animation-through-hierarchical-and-embodied-hand-gestures/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/AgileFingers_PDF.pdf",
+      "https://cislab.hkust-gz.edu.cn/media/documents/AgileFingers_Poster.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/an-inverse-procedural-modeling-pipeline-for-stylized-brush-stroke-rendering/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Eurographics_short1032.pdf",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Stroke_Rendering_Supplemental.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/ciallo-gpu-accelerated-rendering-of-vector-brush-strokes/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Ciallo.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/get-your-hands-dirty-a-comparative-study-of-tool-usage-and-perceptual-engagement-in-physical-and-digital-sculpting/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Get_Your_Hands_Dirty_A_Comparative_Study_of_Physical_and_Digital_Sculpting.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/anicraft-crafting-everyday-objects-as-physical-proxies-for-prototyping-3d-character-animation-in-mixed-reality/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/anicraft_uist2024.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/focalselect/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/VR2025__FocalSelect.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/magicscroll-enhancing-immersive-storytelling-with-controllable-scroll-image-generation/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/MagicScroll_Enhancing_Immersive_Storytelling_with_Controllable_Scroll_Image_Generation.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/emotionlens-interactive-visual-exploration-of-the-circumplex-emotion-space-in-literary-works-via-affective-word-clouds/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/EmotionLens.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/dit4edit-diffusion-transformer-for-image-editing/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_AAAI_2025__DiT4Edit_Camera_Ready.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/diffusion-based-visual-art-creation-a-survey-and-new-perspectives/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Diffusion-Based_Visual_Art_Creation.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/labanlab-an-interactive-choreographical-system-with-labanotation-motion-preview/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/LabanLab.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/assetdropper-asset-extraction-via-diffusion-models-with-reward-driven-optimization/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/AssetDropper.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/learning-to-draw-is-learning-to-see-analyzing-eye-tracking-patterns-for-assisted-observational-drawing/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2025__Learning_to_Draw_Is_Learning_to_See_4.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/bridging-past-and-present-rejuvenating-cantonese-opera-through-overlapping-immersive-experience-in-virtual-reality/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/ISEA2025_Paper_748.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/becoming-space-exploring-agential-materiality-through-ai-generated-metamorphosis-in-artistic-practice/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/SA25_BS_cr_1.pdf",
+      "https://cislab.hkust-gz.edu.cn/publications/a-deep-learning-model-for-edition-identification-of-premodern-chinese-rare-books/",
+      "https://cislab.hkust-gz.edu.cn/media/documents/A_Deep-Learning_Model_for_Edition_Identification_of_Premodern_Chinese_Rare_Books.pdf",
+      "https://doi.org/10.1111/cgf.70375",
+      "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70375",
+      "https://diglib.eg.org/items/78d94dba-ad1e-475b-a6e3-a276330a43e1",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/823e43f5537d8c1894afd1f6ab00a927-Abstract-Conference.html",
+      "https://vlislab22.github.io/LaSe-E2V/",
+      "https://arxiv.org/abs/2407.05547",
+      "https://papers.neurips.cc/paper_files/paper/2024/file/823e43f5537d8c1894afd1f6ab00a927-Paper-Conference.pdf",
+      "https://doi.org/10.1109/LRA.2025.3583602",
+      "https://arxiv.org/abs/2409.14103",
+      "https://researchportal.hkust.edu.hk/en/publications/exfman-rendering-3d-dynamic-humans-with-hybrid-monocular-blurry-f/",
+      "https://doi.org/10.2312/egs.20231009",
+      "https://graphics.cs.yale.edu/people/zeyu-wang",
+      "https://diglib.eg.org/collections/23fbd7b2-715c-4f3d-a30a-290e8255bef5",
+      "https://doi.org/10.1145/3544548.3580776",
+      "https://graphics.cs.yale.edu/sites/default/files/chi23-139.pdf",
+      "https://research.adobe.com/news/adobe-at-chi-2023/",
+      "https://doi.org/10.1145/3757374.3771441",
+      "https://www.duotun-wang.co.uk/assets/pdf/HybridDeform4D.pdf",
+      "https://sa2025.conference-schedule.org/presentation/?id=pos_207&sess=sess204",
+      "https://doi.org/10.1145/3709000",
+      "https://diglib.cgv.tugraz.at/items/54d97e7f-3d14-495a-b144-c72d5f8558ac",
+      "https://cislab.hkust-gz.edu.cn/projects/chang-e/",
+      "https://orcid.org/0000-0001-5374-6330",
+      "https://papers.nips.cc/paper_files/paper/2025/hash/dc3be1574e0f86d76e32a0229bb1f6be-Abstract-Conference.html",
+      "https://openreview.net/pdf?id=BWpMTkRrEO",
+      "https://doi.org/10.2312/pg.20231269",
+      "https://cislab.hkust-gz.edu.cn/media/documents/PG2023_DASKEL.pdf",
+      "https://doi.org/10.1145/3830398.3830633",
+      "https://arxiv.org/html/2607.10405v1",
+      "https://doi.org/10.1145/3830398.3830573",
+      "https://arxiv.org/html/2608.01267v1",
+      "https://doi.org/10.1109/TPAMI.2026.3690925",
+      "https://arxiv.org/html/2503.04641v1",
+      "https://doi.org/10.1109/TLT.2023.3289880",
+      "https://cislab.hkust-gz.edu.cn/media/documents/Introducing_Massive_Open_Metaverse_Course_MOMC_and_Its_Enabling_Technology.pdf",
+      "https://arxiv.org/abs/2602.11658v1",
+      "https://arxiv.org/html/2602.11658v1",
+      "https://arxiv.org/abs/2603.25357v1",
+      "https://arxiv.org/html/2603.25357v1",
+      "https://yinhan-zhang.github.io/animator",
+      "https://arxiv.org/abs/2507.16869v1",
+      "https://arxiv.org/html/2507.16869v1",
+      "https://arxiv.org/abs/2609.30623v1",
+      "https://arxiv.org/html/2609.30623v1",
+      "https://arxiv.org/abs/2408.17424v1",
+      "https://arxiv.org/html/2408.17424v1",
+      "https://arxiv.org/abs/2406.11739v1",
+      "https://arxiv.org/html/2406.11739v1",
+      "https://arxiv.org/abs/2608.06231v1",
+      "https://arxiv.org/html/2608.06231v1",
+      "https://arxiv.org/abs/2508.05580v1",
+      "https://arxiv.org/html/2508.05580v1",
+      "https://arxiv.org/abs/2507.20368v1",
+      "https://arxiv.org/html/2507.20368v1",
+      "https://arxiv.org/html/2506.04590v1",
+      "https://arxiv.org/html/2312.10899v1",
+      "https://researchportal.hkust.edu.hk/en/publications/magicscroll-enhancing-immersive-storytelling-with-controllable-sc/",
+      "https://doi.org/10.1145/3830397.3841846",
+      "https://programs.sigchi.org/uist/2026/people/affiliations/the-hong-kong-university-of-science-and-technology",
+      "https://yuejiang-nj.github.io/CV_YueJiang.pdf",
+      "https://doi.org/10.1145/3856307",
+      "https://api.crossref.org/works/10.1145/3856307",
+      "https://mindfulserendipity.github.io/index.html",
+      "https://doi.org/10.1080/10447318.2026.2713822",
+      "https://api.crossref.org/works/10.1080/10447318.2026.2713822",
+      "https://doi.org/10.1145/3799828.3811418",
+      "https://api.crossref.org/works/10.1145/3799828.3811418",
+      "https://s2026.conference-schedule.org/contributors/",
+      "https://doi.org/10.1109/TVCG.2026.3717858",
+      "https://researchportal.hkust.edu.hk/en/publications/dvd-scaffolding-non-experts-ideation-of-data-videos-through-co-cr/",
+      "https://doi.org/10.1145/3769534.3769550",
+      "https://api.crossref.org/works/10.1145/3769534.3769550",
+      "https://doi.org/10.1145/3641521.3680540",
+      "https://s2024.conference-program.org/my-agenda/",
+      "https://mindfulserendipity.github.io/academic.html",
+      "https://cislab.hkust-gz.edu.cn/publications/",
+      "https://dblp.org/pid/132/7882-3",
+      "https://doi.org/10.4230/dblp.xml.2026-11-01",
+      "https://pub.orcid.org/v3.0/0000-0001-5374-6330/works",
+      "https://dblp.org/pid/132/7882-3.html",
+      "https://doi.org/10.1145/3613904.3642558"
     ],
     "papers": [
       {
@@ -63854,7 +63996,7 @@ const facultyPaperAudits = {
         "title": "EasyCreator: Empowering 4D Creation through Video Inpainting",
         "url": "https://cislab.hkust-gz.edu.cn/publications/easycreator-empowering-4d-creation-through-video-inpainting/",
         "outcome": "no-evidence",
-        "note": "原始项目列港科大两地、国大、清华、香港中文大学高校作者；用外部模型或训练资料不等于企业参与。",
+        "note": "原始项目列港科大两地、国大、清华、香港中文大学高校作者。2025 年预印本先称 Follow-Your-Creation；首稿同一长作者序列与项目方向，合并。公开材料没有用于本项的目标企业学生工作。",
         "year": 2026
       },
       {
@@ -63868,8 +64010,8 @@ const facultyPaperAudits = {
         "title": "DoodleAssist: Progressive Interactive Line Art Generation with Latent Distribution Alignment",
         "url": "https://cislab.hkust-gz.edu.cn/publications/doodleassist-progressive-interactive-line-art-generation-with-latent-distribution-alignment/",
         "outcome": "no-evidence",
-        "note": "TVCG 正式登记港科大两校园与早稻田大学的线描生成研究；未见在目标企业完成的分工。同实验室后续有腾讯合作的不合并。",
-        "year": 2025
+        "note": "TVCG 正式登记港科大两校园与早稻田大学的线描生成研究；未见在目标企业完成的分工。同实验室后续有腾讯合作的不合并。 2025 年在线发表，TVCG 2026 年卷期。",
+        "year": 2026
       },
       {
         "title": "LineDrawer: Stroke-Level Process Reconstruction of Complex Line Art Based on Human Perception",
@@ -63940,7 +64082,476 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "2024-09-08 首稿。蔡同学公开简历把本项列为 2024 年 2–5 月的具体研究，说明自己提出 DreamMapping 和变分分布映射，并具名列港科大（广州）王泽宇及腾讯詹晓航为该项目导师。蔡同期为港科大（广州）硕士，詹同期为腾讯正式研究员。首稿三人同署，另一共同一作当时也在腾讯 AI Lab 实习，原稿说明 CCF–腾讯联合研究项目。该论文解决文本到三维生成，和 HeadEvolver 的头像网格变形是两项工作。",
         "year": 2024
+      },
+      {
+        "title": "OdorV-Art: An Initial Exploration of An Olfactory Intervention for Appreciating Style Information of Artworks in Virtual Museum",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/odorv-art-an-initial-exploration-of-an-olfactory-intervention-for-appreciating-style-information-of-artworks-in-virtual-museum/",
+        "outcome": "no-evidence",
+        "note": "港科大（广州）作者合作的虚拟博物馆嗅觉用户实验，原件未列目标公司。",
+        "year": 2023
+      },
+      {
+        "title": "From Expanded Cinema to Extended Reality: How AI Can Expand and Extend Cinematic Experiences",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/from-expanded-cinema-to-extended-reality-how-ai-can-expand-and-extend-cinematic-experiences/",
+        "outcome": "no-evidence",
+        "note": "校方署名只有港科大（广州），本作品公开材料未显示目标公司对实验或系统的参与。",
+        "year": 2023
+      },
+      {
+        "title": "Simonstown: An AI-facilitated Interactive Story of Love, Life, and Pandemic",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/simonstown-an-ai-facilitated-interactive-story-of-love-life-and-pandemic/",
+        "outcome": "no-evidence",
+        "note": "互动叙事原始校方页面与论文使用港科大（广州）单一组织归属，没有目标公司科研分工。",
+        "year": 2023
+      },
+      {
+        "title": "Naturality: A Natural Reflection of Chinese Calligraphy",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/naturality-a-natural-reflection-of-chinese-calligraphy/",
+        "outcome": "no-evidence",
+        "note": "书法自然性及数字艺术校方原始书目仅列港科大（广州），没有名单企业。",
+        "year": 2023
+      },
+      {
+        "title": "Toward Making Virtual Reality (VR) More Inclusive for Older Adults",
+        "url": "https://doi.org/10.1145/3613904.3642558",
+        "outcome": "no-evidence",
+        "note": "2024 CHI 老年 VR 交互原作署名港科大两校园。学生方面没有在目标公司实习完成这个人因研究的证据。 正式 ACM 题名末段为 Investigating Aging Effect on Target Selection and Manipulation Tasks in VR，系同一作品。",
+        "year": 2024
+      },
+      {
+        "title": "Neural Canvas: Supporting Scenic Design Prototyping by Integrating 3D Sketching and Generative AI",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/neural-canvas-supporting-scenic-design-prototyping-by-integrating-3d-sketching-and-generative-ai/",
+        "outcome": "no-evidence",
+        "note": "高校与耶鲁联合的场景草图工具，校方原件没发现名单公司作者/工作归属。",
+        "year": 2024
+      },
+      {
+        "title": "SplattingAvatar: Realistic Real-Time Human Avatars with Mesh-Embedded Gaussian Splatting",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/splattingavatar-realistic-real-time-human-avatars-with-mesh-embedded-gaussian-splatting/",
+        "outcome": "no-evidence",
+        "note": "CVPR 2024 正式论文，作者机构是港科大两地和 Prometheus Vision Technology；该企业不在 14 家。学生本人另有腾讯项目在别篇有证。",
+        "year": 2024
+      },
+      {
+        "title": "AgileFingers: Authoring AR Character Animation Through Hierarchical and Embodied Hand Gestures",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/agilefingers-authoring-ar-character-animation-through-hierarchical-and-embodied-hand-gestures/",
+        "outcome": "no-evidence",
+        "note": "IEEE VR 2024 工作坊，双校区团队研究手势创作；没有目标企业署名。",
+        "year": 2024
+      },
+      {
+        "title": "An Inverse Procedural Modeling Pipeline for Stylized Brush Stroke Rendering",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/an-inverse-procedural-modeling-pipeline-for-stylized-brush-stroke-rendering/",
+        "outcome": "no-evidence",
+        "note": "正式 Eurographics 2024 同署 Hao Li、Zhongyue Guan 与导师王泽宇，港科大两校区。后一篇 Guan 腾讯双署不能转用于本篇。",
+        "year": 2024
+      },
+      {
+        "title": "Ciallo: GPU-Accelerated Rendering of Vector Brush Strokes",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/ciallo-gpu-accelerated-rendering-of-vector-brush-strokes/",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH 2024 项目归属港科大两地和 Adobe Research，Adobe 不在 14 家。",
+        "year": 2024
+      },
+      {
+        "title": "Get Your Hands Dirty? A Comparative Study of Tool Usage and Perceptual Engagement in Physical and Digital Sculpting",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/get-your-hands-dirty-a-comparative-study-of-tool-usage-and-perceptual-engagement-in-physical-and-digital-sculpting/",
+        "outcome": "no-evidence",
+        "note": "人因对照研究公开作者来自港科大两地、华南理工及中国美术学院；未有目标公司的具体投入。",
+        "year": 2024
+      },
+      {
+        "title": "AniCraft: Crafting Everyday Objects as Physical Proxies for Prototyping 3D Character Animation in Mixed Reality",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/anicraft-crafting-everyday-objects-as-physical-proxies-for-prototyping-3d-character-animation-in-mixed-reality/",
+        "outcome": "no-evidence",
+        "note": "ACM 披露的混合现实物体代理研究，只署港科大两地；没有目标企业项目或作者。",
+        "year": 2024
+      },
+      {
+        "title": "FocalSelect: Improving Occluded Objects Acquisition with Heuristic Selection and Disambiguation in Virtual Reality",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/focalselect/",
+        "outcome": "no-evidence",
+        "note": "IEEE TVCG 2025 的 VR 遮挡目标选择研究，原件全员为学校。Duotun Wang 参加腾讯团队的其他三维项目不影响这篇结论。",
+        "year": 2025
+      },
+      {
+        "title": "MagicScroll: Enhancing Immersive Storytelling with Controllable Scroll Image Generation",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/magicscroll-enhancing-immersive-storytelling-with-controllable-scroll-image-generation/",
+        "outcome": "no-evidence",
+        "note": "IEEE VR 2025 的同一 MagicScroll 项目，首稿标题 MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising（2023-12-18）。扩展到三阶段卷轴生成编辑与沉浸体验，学校正式摘要及首稿均指向相同项目 https://magicscroll.github.io/，合并。校区均为高校，未见目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "EmotionLens: Interactive Visual Exploration of the Circumplex Emotion Space in Literary Works via Affective Word Clouds",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/emotionlens-interactive-visual-exploration-of-the-circumplex-emotion-space-in-literary-works-via-affective-word-clouds/",
+        "outcome": "no-evidence",
+        "note": "情绪可视分析论文，两校园署名，未有目标公司投入的现成一手资料。",
+        "year": 2025
+      },
+      {
+        "title": "DiT4Edit: Diffusion Transformer for Image Editing",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/dit4edit-diffusion-transformer-for-image-editing/",
+        "outcome": "no-evidence",
+        "note": "AAAI 2025 正式版署北大、港科大两地，无企业作者或本项目在目标公司的证据。",
+        "year": 2025
+      },
+      {
+        "title": "Diffusion-Based Visual Art Creation: A Survey and New Perspectives",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/diffusion-based-visual-art-creation-a-survey-and-new-perspectives/",
+        "outcome": "no-evidence",
+        "note": "港科大两校园的视觉艺术扩散综述，文中回顾各企业方法但没有实证本团队参加同企业项目。",
+        "year": 2025
+      },
+      {
+        "title": "LabanLab: An Interactive Choreographical System with Labanotation-Motion Preview",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/labanlab-an-interactive-choreographical-system-with-labanotation-motion-preview/",
+        "outcome": "no-evidence",
+        "note": "Eurographics 2025 正式；港科大两地、UCSB Media Arts and Technology，项目没有名单企业。",
+        "year": 2025
+      },
+      {
+        "title": "AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/assetdropper-asset-extraction-via-diffusion-models-with-reward-driven-optimization/",
+        "outcome": "no-evidence",
+        "note": "2025 SIGGRAPH 版与 2506.07738 预印同篇；港科大两校园、北大、香港大学。Lingting Zhu 其他 LIGHTSPEED 研究不能迁入本篇。",
+        "year": 2025
+      },
+      {
+        "title": "Learning to Draw Is Learning to See: Analyzing Eye Tracking Patterns for Assisted Observational Drawing",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/learning-to-draw-is-learning-to-see-analyzing-eye-tracking-patterns-for-assisted-observational-drawing/",
+        "outcome": "no-evidence",
+        "note": "2025 ACM 记录与学校档案定位到同一眼动研究，校方署两地校园，没有目标企业的项目归属。",
+        "year": 2025
+      },
+      {
+        "title": "Bridging Past and Present: Rejuvenating Cantonese Opera through Overlapping Immersive Experience in Virtual Reality",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/bridging-past-and-present-rejuvenating-cantonese-opera-through-overlapping-immersive-experience-in-virtual-reality/",
+        "outcome": "no-evidence",
+        "note": "2025 粤剧沉浸显示的研究，公开署名仅港科大两地，未见该项的企业人员。",
+        "year": 2025
+      },
+      {
+        "title": "Becoming Space: Exploring Agential Materiality through AI-Generated Metamorphosis in Artistic Practice",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/becoming-space-exploring-agential-materiality-through-ai-generated-metamorphosis-in-artistic-practice/",
+        "outcome": "no-evidence",
+        "note": "2025 SIGGRAPH Art；学校档案原始署名为港科大两地，作品使用 AI 并不提供公司参与证据。",
+        "year": 2025
+      },
+      {
+        "title": "A Deep-Learning Model for Edition Identification of Premodern Chinese Rare Books",
+        "url": "https://cislab.hkust-gz.edu.cn/publications/a-deep-learning-model-for-edition-identification-of-premodern-chinese-rare-books/",
+        "outcome": "no-evidence",
+        "note": "校方公开列南洋理工、都柏林城市大学、中国科学院大学、北京大学和港科大（广州）；古籍版本识别研究未显示目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "Layer3D: A 3D Layered Representation for Multiview Vector Graphics",
+        "url": "https://doi.org/10.1111/cgf.70375",
+        "outcome": "lead",
+        "note": "2026-04-14 Wiley 正式期刊论文；Zhongyue Guan 港科大（广州）硕士在读、腾讯双署；校方导师王泽宇通讯，腾讯正式研究员 Yixin Hu（本人履历）同署。与 LayerInbetween 不同，未找到本篇 CRediT 或个人同项研发任务，暂列线索，不迁用另一篇的绘制任务。",
+        "year": 2026
+      },
+      {
+        "title": "LaSe-E2V: Towards Language-guided Semantic-Aware Event-to-Video Reconstruction",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/823e43f5537d8c1894afd1f6ab00a927-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2024-07 arXiv 同 NeurIPS 正式题名。作者项目页逐人列港科大（广州）或同校 CSE，NeurIPS 幻灯同源；未见目标企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "ExFMan: Rendering 3D Dynamic Humans With Hybrid Monocular Blurry Frames and Events",
+        "url": "https://doi.org/10.1109/LRA.2025.3583602",
+        "outcome": "no-evidence",
+        "note": "2024-09 首稿与刊于 RA-L 2025 同一论文，校方正式索引用本单位三名作者、没有目标企业身份或对应研究素材。",
+        "year": 2025
+      },
+      {
+        "title": "Is Drawing Order Important?",
+        "url": "https://doi.org/10.2312/egs.20231009",
+        "outcome": "no-evidence",
+        "note": "Eurographics 短文；耶鲁与港科大研究者以描线顺序为对象，作者机构和可查项目说明均无目标企业。",
+        "year": 2023
+      },
+      {
+        "title": "PointShopAR: Supporting Environmental Design Prototyping Using Point Cloud in Augmented Reality",
+        "url": "https://doi.org/10.1145/3544548.3580776",
+        "outcome": "no-evidence",
+        "note": "CHI 2023 初面两位 Adobe Research 共著，Adobe 的官方项目也认领；其余高校作者，没有本研究目标企业。",
+        "year": 2023
+      },
+      {
+        "title": "HybridDeform4D: Joint Refinement of Mesh and Gaussian Splatting for Video-to-4D Object Generation",
+        "url": "https://doi.org/10.1145/3757374.3771441",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH Asia 2025 Posters 的原论文和大会页面逐人署港科大与 Lenovo CTOO；联想不属 14 家。Duotun 同年参与其它公司另有证，不能用于本篇。",
+        "year": 2025
+      },
+      {
+        "title": "Chang-E: A High-Quality Motion Capture Dataset of Chinese Classical Dunhuang Dance",
+        "url": "https://doi.org/10.1145/3709000",
+        "outcome": "no-evidence",
+        "note": "2024 Eurographics 会议短文 Documenting Dunhuang Dance Using Motion Capture Technology 与 ACM 期刊延展均使用 Chang-E 的同批敦煌舞动捕数据、同一机构项目，合并一项。作者主要为高校；会稿记录邀请舞蹈学院采集，企业旧资助线索不足以建立在校生同项公司科研。期刊 2025 可查，卷期 2026。",
+        "year": 2026
+      },
+      {
+        "title": "Event-Guided Consistent Video Enhancement with Modality-Adaptive Diffusion Pipeline",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/hash/dc3be1574e0f86d76e32a0229bb1f6be-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2025 的 EVDiffuser 与本组 EvDiff3D 主题和作者不同。正式首页只署港科大两校园与南洋理工，未定位在目标公司的项目。",
+        "year": 2025
+      },
+      {
+        "title": "DASKEL: An Interactive Choreographic System with Labanotation-Skeleton Translation",
+        "url": "https://doi.org/10.2312/pg.20231269",
+        "outcome": "no-evidence",
+        "note": "Pacific Graphics 2023 论文首页列西安交大、MYStudio 和港科大两地；MYStudio 不是名单公司。",
+        "year": 2023
+      },
+      {
+        "title": "Spatula: Exploring On-Demand In-Situ Interfaces and Interaction for Attribute Control",
+        "url": "https://doi.org/10.1145/3830398.3830633",
+        "outcome": "no-evidence",
+        "note": "2026-07 首稿与 UIST 正式同篇。首面作者的逐人来源只有港科大两地及 University of Utah；无目标企业角色。",
+        "year": 2026
+      },
+      {
+        "title": "Collascope: Supporting Serendipitous Asset Exploration for Collage-Based Storytelling",
+        "url": "https://doi.org/10.1145/3830398.3830573",
+        "outcome": "no-evidence",
+        "note": "2026-08 首稿与 UIST 2026 同篇。两校区、Stanford 与 Microsoft Research 署名；微软非 14 家。",
+        "year": 2026
+      },
+      {
+        "title": "Simulating the Real World: A Unified Survey of Multimodal Generative Models",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3690925",
+        "outcome": "no-evidence",
+        "note": "2025-03 预印是此 TPAMI 综述的早期版本；首稿表列港科大两地、中山大学、港中文、清华及上海 AI for Science 学院，没有目标公司投入本综述。",
+        "year": 2026
+      },
+      {
+        "title": "Introducing Massive Open Metaverse Course and Its Enabling Technology",
+        "url": "https://doi.org/10.1109/TLT.2023.3289880",
+        "outcome": "no-evidence",
+        "note": "2023 IEEE 公开说明港科大元宇宙课程。本篇着重教学课程和环境，原案没有 14 家公司同项学生企业分工。",
+        "year": 2023
+      },
+      {
+        "title": "EmoSpace: Fine-Grained Emotion Prototype Learning for Immersive Affective Content Generation",
+        "url": "https://arxiv.org/abs/2602.11658v1",
+        "outcome": "no-evidence",
+        "note": "2026-02 初稿作者通讯说明均为港科大两地，当年其他情绪数据集如 EmoVid 不是该成果；未见目标公司。",
+        "year": 2026
+      },
+      {
+        "title": "InstanceAnimator: Multi-Instance Sketch Video Colorization",
+        "url": "https://arxiv.org/abs/2603.25357v1",
+        "outcome": "no-evidence",
+        "note": "2026-03 首稿；港科大两地与国大。与较早 MagicColor 的静态线稿任务区分，未显示名单公司同项参与。",
+        "year": 2026
+      },
+      {
+        "title": "Controllable Video Generation: A Survey",
+        "url": "https://arxiv.org/abs/2507.16869v1",
+        "outcome": "lead",
+        "note": "2025-07 综述首稿记范昆宇在港科大广州、王泽宇同署、Zhifeng Li 与 Wei Liu 署腾讯；仅共同撰写，没有一手证明任何该学籍学生在哪家公司为同篇作研究。",
+        "year": 2025
+      },
+      {
+        "title": "CraftTrace: Unflattening Videos into Malleable, Creation-Inspired Structures for Generative Editing",
+        "url": "https://arxiv.org/abs/2609.30623v1",
+        "outcome": "no-evidence",
+        "note": "2026-09 首稿。企业参加者来自 Adobe Research；其他港科大、国大，Adobe 不属名单。",
+        "year": 2026
+      },
+      {
+        "title": "CinePreGen: Camera Controllable Video Previsualization via Engine-powered Diffusion",
+        "url": "https://arxiv.org/abs/2408.17424v1",
+        "outcome": "no-evidence",
+        "note": "2024-08 原版。作者机构独立明确港科大两个校园、上海人工智能实验室、Stanford；未发现目标公司。",
+        "year": 2024
+      },
+      {
+        "title": "V3Det Challenge 2024 on Vast Vocabulary and Open Vocabulary Object Detection: Methods and Results",
+        "url": "https://arxiv.org/abs/2406.11739v1",
+        "outcome": "no-evidence",
+        "note": "正式团队技术综述公开挑战竞赛，包含十余家机构；王泽宇出现在竞赛组录，未定位可从本篇确认的本人指导的在读生同目标企业的工作。",
+        "year": 2024
+      },
+      {
+        "title": "EmoWorld: A Decoupled Affective Field for Controllable Emotional Video Generation",
+        "url": "https://arxiv.org/abs/2608.06231v1",
+        "outcome": "no-evidence",
+        "note": "2026-08 预印本。作者同校科研为主，王泽宇通讯；没有目标公司作者、同项实习或公司发布凭证。",
+        "year": 2026
+      },
+      {
+        "title": "Follow-Your-Instruction: A Comprehensive MLLM Agent for World Data Synthesis",
+        "url": "https://arxiv.org/abs/2508.05580v1",
+        "outcome": "no-evidence",
+        "note": "2025-08 首篇。港科大两地、北大、重庆大学、清华及北京具身智能创新中心，无该研究中正式名单企业对应。与视频修复生成 Follow-Your-Creation 独立。",
+        "year": 2025
+      },
+      {
+        "title": "MagicAnime: A Hierarchically Annotated, Multimodal and Multitasking Dataset with Benchmarks for Cartoon Animation Generation",
+        "url": "https://arxiv.org/abs/2507.20368v1",
+        "outcome": "no-evidence",
+        "note": "2025-07 首篇。作者校方公开归属港科大两地、台湾成功大学和 Bournemouth；数据集角色没有目标企业记载。",
+        "year": 2025
+      },
+      {
+        "title": "Vision-Language Models with In-Context Learning for In-Camera Portrait Composition Guidance",
+        "url": "https://doi.org/10.1145/3830397.3841846",
+        "outcome": "no-evidence",
+        "note": "UIST 2026 的可追溯海报论文，有原始大会条目和高校共同作者履历；未见在目标企业执行本篇的人或工作包。",
+        "year": 2026
+      },
+      {
+        "title": "Embodied Gathering: Integrating Performative Interactions and Knowledge-Driven Agents for Virtual Living Heritage",
+        "url": "https://doi.org/10.1145/3856307",
+        "outcome": "no-evidence",
+        "note": "2026-10-14 ACM 可查，作者与较早的 CHI GatheringSense 部分不同，描述为新的人机表演互动和知识驱动代理；作者独立列为另一篇。公开来源均尚无同企业研究证据。",
+        "year": 2026
+      },
+      {
+        "title": "Visual Generative Artificial Intelligence (GenAI) in Mixed Reality (MR): A Survey of Techniques, Interaction Designs, and Evaluations",
+        "url": "https://doi.org/10.1080/10447318.2026.2713822",
+        "outcome": "no-evidence",
+        "note": "2026-08-18 正式混合现实技术综述。作者的书目与 Crossref 对应；目前无公开材料把文中在读者的工作具体归到名单企业。另有其他公司在其作者履历中，不迁入。",
+        "year": 2026
+      },
+      {
+        "title": "Human–AI Co-Creation in Generative Art: Graphics Methods, Systems, and Applications",
+        "url": "https://doi.org/10.1145/3799828.3811418",
+        "outcome": "no-evidence",
+        "note": "SIGGRAPH 技术工作坊公开短文，2026-07-19；节目归档列校方王泽宇。作为研讨会介绍，未找到符合项目口径的具名在读生在企业工作分配。",
+        "year": 2026
+      },
+      {
+        "title": "DVD: Scaffolding Non-experts' Ideation of Data Videos through Co-creation with AI",
+        "url": "https://doi.org/10.1109/TVCG.2026.3717858",
+        "outcome": "no-evidence",
+        "note": "2026 年 IEEE TVCG，港科大研究资料库与作者书目核同一用户研究。可查论文材料未披露目标企业作者或本论文在目标公司内研究活动；受邀设计评估者不算同篇三方作者。",
+        "year": 2026
+      },
+      {
+        "title": "Expanding Virtual Production Frontiers: AI-Driven Workflows for Enhanced Cinematic Creation",
+        "url": "https://doi.org/10.1145/3769534.3769550",
+        "outcome": "no-evidence",
+        "note": "2025-12 VINCI 正式，参与者系港科大（广州）高校作者；学生成员 Hongcheng Guo 同期在校，学校把 Huawei 列为其后续毕业工作，未发现针对该论文企业的协同研发。",
+        "year": 2025
+      },
+      {
+        "title": "Ink Harmony: An AI- and VR-enhanced System for Calligraphy Education",
+        "url": "https://doi.org/10.1145/3641521.3680540",
+        "outcome": "no-evidence",
+        "note": "2024 ACM SIGGRAPH Immersive Pavilion，正式节目核作者和报告者校园。书法教育的实现未找到具名学生在目标企业就本篇开展的工作。",
+        "year": 2024
       }
-    ]
+    ],
+    "note": "以 2023-01-01 至 2026-11-12 可公开定位的论文为范围，逐项核对港科大（广州）CIS 官方出版目录及论文、11 月 1 日 DBLP 快照中学术身份匹配的条目、教师 ORCID 0000-0001-5374-6330、耶鲁的早期书目、作者公开预印本及会刊。已归并改题或同一成果的工作论文、短初稿与最终版本（HeadEvolver、MagicScroll、Chang-E、LumiDrone/UAVLight、IDT/MVID、Follow-Your-Creation/EasyCreator、FocalSelect 等），未纳入武大同名教授，也不混淆 DBLP 同名 ORCID。公开材料确定已逐篇处理，无法证实三方的项目保留线索。"
+  },
+  "tDWLpawAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.ustc.edu.cn/2025/0515/c23236a684097/page.htm",
+      "https://snowzjx.me/publication.html",
+      "https://snowzjx.me/assets/cv.pdf",
+      "https://dblp.org/pid/155/4434.html",
+      "https://orcid.org/0000-0001-6926-7801",
+      "https://cse.hkust.edu.hk/~kaichen/publication.html"
+    ],
+    "papers": [
+      {
+        "year": 2025,
+        "title": "FCP: Fast User-space RDMA Control Plane Setup for Elastic Computing",
+        "url": "https://arxiv.org/abs/2501.19051",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv 2501.19051 首稿 2025-01，2026 SoCC 发布。同篇正文作者为中科大、港科大、东南大学；未见目标企业共同实施。"
+      },
+      {
+        "year": 2025,
+        "title": "Unlocking Full Efficiency of Token Filtering in Large Language Model Training",
+        "url": "https://arxiv.org/abs/2502.00340",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2025-02-01 arXiv 首稿，ICLR 2026 正式版正文为上海财经大学、港科大、中科大及东南大学；原文未见目标企业参与。"
+      },
+      {
+        "year": 2026,
+        "title": "PolicyCache: Intra-flow Learning in Congestion Control",
+        "url": "https://www.usenix.org/conference/nsdi26/presentation/tian",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "USENIX 正式原文列中科大、港科大、东南大学和华为 Donghui Chen、Bin Huang、Senbo Fu。未见 Han Wang 或 Wenbo Li 在华为开展这一项目的脚注与相应具名指导证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Learn-to-Probe: Achieving Signal Distinguishability in Learning-based Congestion Control",
+        "url": "https://doi.org/10.1145/3767295.3769317",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "EuroSys 原文列华为 Donghui Chen、Bin Huang；中科大 Wenbo Li 与港科大 Wenxue Li 均未见具名企业实研证据。后者的华为 DCP 实习脚注只对应不同的项目。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Fair and Efficient Congestion Control Through Multi-Agent Deep Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TON.2026.3653773",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "IEEE 首发 2026-01-13（原稿 2024-03-24 投递）。终版 Xinchen Wan 署字节，履历与论文工作具体阶段待核；其余署中科大、港科大、中原工学院及 BitIntelligence，未见学生确切企业实研。"
+      },
+      {
+        "year": 2025,
+        "title": "Revisiting RDMA Reliability for Lossy Fabrics",
+        "url": "https://doi.org/10.1145/3718958.3750480",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ACM 2025-08-27 首发；作者页将 IEEE 10.1109/TON.2026.3720532 明确列为同 work 扩展。首稿确认 Wenxue Li 参与华为实习，港科大公告公开的导师是 Kai CHEN；未见张骏雪指导该学生的证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Efficient Serving of Network-intensive LLM Inferences",
+        "url": "https://doi.org/10.1145/3820441.3820479",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "APNet 原文独立确认四位华为作者；Weiye Wang 由上交陈晨指导（团队列 2025 秋加入），但未见其参与华为侧 Sanic 的具名材料或张骏雪对该生的指导资料。"
+      },
+      {
+        "year": 2025,
+        "title": "FLASH-FHE: A Heterogeneous Architecture for Fully Homomorphic Encryption Acceleration",
+        "url": "https://arxiv.org/abs/2501.18371",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "截至调查期公开 2025-01 首稿，作者有港科大、Waterloo、Clustar、中科大、东南大学。Clustar 不在目标企业之列。与 NSDI 2023 FLASH 的联邦学习硬件不同。"
+      },
+      {
+        "year": 2025,
+        "title": "CEIO: A Cache-Efficient Network I/O Architecture for NIC-CPU Data Paths",
+        "url": "https://doi.org/10.1145/3718958.3750488",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "SIGCOMM 正式全文作者含港科大、中科大、电子科大、浪潮云。浪潮云不在目标企业，无同篇目标企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "eNetSTL: Towards an In-kernel Library for High-Performance eBPF-based Network Functions",
+        "url": "https://doi.org/10.1145/3689031.3696094",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "EuroSys 论文与补充材料作者分属东南大学、港科大及北大。阿里云正式博客确认东南大学团队将代码并入龙蜥社区；未列阿里员工这篇论文署名，也未发现张骏雪指导的学生为该企业做同篇研究。"
+      },
+      {
+        "year": 2025,
+        "title": "Enabling Efficient GPU Communication over Multiple NICs with FuseLink",
+        "url": "https://www.usenix.org/conference/osdi25/presentation/ren",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "OSDI 2025 原文署港科大、中科大、北大、MIT、Meta、MetaX。后两家不在企业范围；不能用作者在不同项目的实习替代。"
+      }
+    ],
+    "note": "已按同名 ORCID、个人完整题录及港科大交叉；教师 2025-04 转入中科大，早期按港科大公开署名归属。DCP 已确认合作者 Kai Chen 的博士指导，尚无张骏雪指导该学生的具名证据。"
   }
 };

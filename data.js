@@ -47751,6 +47751,60 @@ const survey = {
           "https://ojs.aaai.org/index.php/AAAI/article/download/34753/36908#page=1"
         ]
       ]
+    },
+    {
+      "id": "huawei-dcp-rdma-hkust-kai-chen",
+      "title": "Revisiting RDMA Reliability for Lossy Fabrics",
+      "short": "DCP",
+      "date": "2025-08-27",
+      "year": 2025,
+      "venue": "SIGCOMM",
+      "company": "华为",
+      "team": "2012 实验室 · 网络技术实验室",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "area": "AI 集群网络 · 高性能 RDMA",
+      "paper": "https://doi.org/10.1145/3718958.3750480",
+      "paperId": "doi:10.1145/3718958.3750480",
+      "faculty": [
+        "Kai CHEN",
+        "香港科技大学计算机科学与工程系教授；同篇正式署名，同校新闻明确为 Wenxue Li 的博士导师。",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/kaichen"
+      ],
+      "employee": [
+        "曾高雄 · Gaoxiong Zeng",
+        "自述 2022 年 2 月入职华为 2012 实验室、2026 年 6 月离任转入阿里云；当期为网络技术实验室研究员，在华为开发 DCP，SIGCOMM 原文列华为单位。",
+        "https://gaoxiong.site/files/cv_gaoxiongzeng.pdf"
+      ],
+      "student": [
+        "Wenxue Li",
+        "港科大计算机博士生，论文第一作者；本人履历列华为香港研究所实习，正式论文具名脚注明确是该研究的完成地点。",
+        "https://cse.hkust.edu.hk/~kaichen/papers/dcp-sigcomm25.pdf"
+      ],
+      "advising": [
+        "博士导师",
+        "香港科技大学计算机系就该 SIGCOMM 同篇论文明确称 Wenxue Li 于 2021 年入学由 Kai CHEN 指导。",
+        "https://cse.hkust.edu.hk/News/ACM_SIGCOMM2025/"
+      ],
+      "evidence": "SIGCOMM 正式稿首页的具名脚注确认 Wenxue Li 在华为实习时完成该研究，港科大同篇获奖公告明确列她为陈凯的博士生。曾高雄的研发履历列明他在华为 2012 实验室从事同一项 DCP 研发；正式稿列他署华为，并以 AI 训练工作负载评测该协议。ACM 正式论文和 IEEE 期刊扩展版合并为同一工作。",
+      "extra": [
+        [
+          "华为网络技术实验室同项目记录",
+          "https://www-file.huawei.com/admin/asset/v1/pro/view/1f6f46557899427b9d6b37f0862a550d.pdf"
+        ],
+        [
+          "论文首页：具名华为实习脚注",
+          "https://cse.hkust.edu.hk/~kaichen/papers/dcp-sigcomm25.pdf#page=1"
+        ],
+        [
+          "学生本人时间线",
+          "https://leewxgit.github.io/"
+        ],
+        [
+          "2026 年期刊扩展版",
+          "https://doi.org/10.1109/TON.2026.3720532"
+        ]
+      ]
     }
   ]
 };
