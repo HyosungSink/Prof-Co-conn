@@ -46589,6 +46589,153 @@ const survey = {
           "https://pinjiahe.github.io/lab/"
         ]
       ]
+    },
+    {
+      "id": "tencent-xsafety-cuhk-lyu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "香港中文大学计算机科学与工程学系教授，共同署名并指导该学生读博。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "王文轩 · Wenxuan Wang",
+        "论文研究阶段为香港中文大学在读博士生。发表版本具名说明了该篇的腾讯 AI Lab 实习研究。",
+        "https://jarviswang94.github.io/index.html"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "该项工作进行时为腾讯 AI Lab 研究人员，论文公开作者机构为腾讯。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人公开履历明确列 Michael R. Lyu 是其在香港中文大学的博士导师。",
+        "https://jarviswang94.github.io/index.html"
+      ],
+      "title": "All Languages Matter: On the Multilingual Safety of LLMs",
+      "short": "XSafety",
+      "date": "2023-10-02",
+      "venue": "Findings of ACL 2024",
+      "area": "多语言大模型安全评测",
+      "paper": "https://aclanthology.org/2024.findings-acl.349/",
+      "paperId": "10.48550/arXiv.2310.00905",
+      "evidence": "2023-10-02 首稿和 ACL 正式版均具名注明第一作者王文轩等三人在腾讯 AI Lab 实习时完成 XSafety。王文轩公开教育履历确认当时在港中文读博，校内博导 Michael R. Lyu 与腾讯研究员涂兆鹏共同署名。该论文评估模型跨语言的安全违规，与文化偏好研究采用的题集和指标不同。",
+      "extra": [
+        [
+          "预印本首版：首次公开日期、作者和研究内容",
+          "https://arxiv.org/abs/2310.00905v1"
+        ],
+        [
+          "ACL 原文首页有具名实习脚注",
+          "https://aclanthology.org/2024.findings-acl.349.pdf#page=1"
+        ],
+        [
+          "腾讯作者的书目",
+          "https://tuzhaopeng.github.io/publications"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-psychobench-cuhk-lyu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "香港中文大学计算机科学与工程学系教授，共同署名并指导该学生读博。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "黃任澤 · Jen-tse Huang",
+        "香港中文大学博士生、第一作者；ICLR 正式版明确其在腾讯 AI Lab 实习期间完成了该研究的一部分。",
+        "https://penguinnnnn.github.io/"
+      ],
+      "employee": [
+        "焦文祥 · Wenxiang Jiao",
+        "该项工作进行时为腾讯 AI Lab 研究人员，论文公开作者机构为腾讯。",
+        "https://wxjiao.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人公开履历明确列 Michael R. Lyu 是其在香港中文大学的博士导师。",
+        "https://penguinnnnn.github.io/"
+      ],
+      "title": "On the Humanity of Conversational AI: Evaluating the Psychological Portrayal of LLMs",
+      "short": "PsychoBench",
+      "date": "2023-10-02",
+      "venue": "ICLR 2024",
+      "area": "大语言模型心理特征评测",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/c48dcd605cfb17d5b4f94ce106a915f7-Paper-Conference.pdf",
+      "paperId": "10.48550/arXiv.2310.01386",
+      "evidence": "2023 年首稿以 PsychoBench 作标题副句，与后来 ICLR 正式版是同一研究。ICLR 正式版首页具名明确第一作者黃任澤等学生在腾讯 AI Lab 实习期间完成了该研究的一部分，腾讯作者焦文祥为通讯作者。黃任澤的 CV 列 2020–2024 年在港中文读博及 2022–2024 年在腾讯实习，校内导师 Michael R. Lyu 同篇署名。",
+      "extra": [
+        [
+          "预印本首版：首次公开日期、作者和研究内容",
+          "https://arxiv.org/abs/2310.01386v1"
+        ],
+        [
+          "博士在读区间和腾讯实习区间",
+          "https://penguinnnnn.github.io/pdfs/resume.pdf"
+        ],
+        [
+          "导师实验室记录 ICLR 录用",
+          "https://www.cse.cuhk.edu.hk/lyu/news2"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-culture-dominance-cuhk-lyu",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "香港中文大学计算机科学与工程学系教授，共同署名并指导该学生读博。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "student": [
+        "王文轩 · Wenxuan Wang",
+        "论文研究阶段为香港中文大学在读博士生。发表版本具名说明了该篇的腾讯 AI Lab 实习研究。",
+        "https://jarviswang94.github.io/index.html"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "该项工作进行时为腾讯 AI Lab 研究人员，论文公开作者机构为腾讯。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人公开履历明确列 Michael R. Lyu 是其在香港中文大学的博士导师。",
+        "https://jarviswang94.github.io/index.html"
+      ],
+      "title": "Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models",
+      "short": "文化偏向评测",
+      "date": "2023-10-19",
+      "venue": "ACL 2024",
+      "area": "多语言模型 · 文化偏向",
+      "paper": "https://aclanthology.org/2024.acl-long.345/",
+      "paperId": "10.48550/arXiv.2310.12481",
+      "evidence": "2023-10-19 首稿以及 ACL 正式版首页均具名标注王文轩、黃任澤在腾讯 AI Lab 实习期间完成；两人同时以港中文署名。第一作者王文轩的港中文博士导师 Michael R. Lyu 同篇；腾讯作者涂兆鹏为通讯作者。该项构建文化实体问答和多语言观点对照，区别于对有害输出评分的 XSafety。",
+      "extra": [
+        [
+          "预印本首版：首次公开日期、作者和研究内容",
+          "https://arxiv.org/abs/2310.12481v1"
+        ],
+        [
+          "ACL 正式全文：首页具名实习脚注",
+          "https://aclanthology.org/2024.acl-long.345.pdf#page=1"
+        ],
+        [
+          "首稿作者与实习对应",
+          "https://arxiv.org/html/2310.12481v1"
+        ]
+      ]
     }
   ]
 };

@@ -5723,7 +5723,22 @@ const facultyPaperAudits = {
       "https://api.crossref.org/works/10.1145/3729341",
       "https://www.cse.cuhk.edu.hk/lyu/students/phd",
       "https://github.com/adf1178/cascaced_code_editing",
-      "https://arxiv.org/abs/2406.16386v1"
+      "https://arxiv.org/abs/2406.16386v1",
+      "https://jarviswang94.github.io/index.html",
+      "https://penguinnnnn.github.io/",
+      "https://penguinnnnn.github.io/pdfs/resume.pdf",
+      "https://tuzhaopeng.github.io/",
+      "https://wxjiao.github.io/",
+      "https://penguinnnnn.github.io/publication.html",
+      "https://aclanthology.org/people/michael-r-lyu/",
+      "https://arxiv.org/abs/2310.00905v1",
+      "https://aclanthology.org/2024.findings-acl.349.pdf#page=1",
+      "https://tuzhaopeng.github.io/publications",
+      "https://arxiv.org/abs/2310.01386v1",
+      "https://www.cse.cuhk.edu.hk/lyu/news2",
+      "https://arxiv.org/abs/2310.12481v1",
+      "https://aclanthology.org/2024.acl-long.345.pdf#page=1",
+      "https://arxiv.org/html/2310.12481v1"
     ],
     "papers": [
       {
@@ -5842,9 +5857,70 @@ const facultyPaperAudits = {
         "relationIds": [
           "tencent-lwo-cuhk-lyu"
         ]
+      },
+      {
+        "year": 2023,
+        "title": "All Languages Matter: On the Multilingual Safety of LLMs",
+        "url": "https://aclanthology.org/2024.findings-acl.349/",
+        "outcome": "confirmed",
+        "note": "2023-10-02 首稿和 ACL 正式版均具名注明第一作者王文轩等三人在腾讯 AI Lab 实习时完成 XSafety。王文轩公开教育履历确认当时在港中文读博，校内博导 Michael R. Lyu 与腾讯研究员涂兆鹏共同署名。该论文评估模型跨语言的安全违规，与文化偏好研究采用的题集和指标不同。",
+        "paperId": "10.48550/arXiv.2310.00905",
+        "relationIds": [
+          "tencent-xsafety-cuhk-lyu"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": "On the Humanity of Conversational AI: Evaluating the Psychological Portrayal of LLMs",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/c48dcd605cfb17d5b4f94ce106a915f7-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "2023 年首稿以 PsychoBench 作标题副句，与后来 ICLR 正式版是同一研究。ICLR 正式版首页具名明确第一作者黃任澤等学生在腾讯 AI Lab 实习期间完成了该研究的一部分，腾讯作者焦文祥为通讯作者。黃任澤的 CV 列 2020–2024 年在港中文读博及 2022–2024 年在腾讯实习，校内导师 Michael R. Lyu 同篇署名。",
+        "paperId": "10.48550/arXiv.2310.01386",
+        "relationIds": [
+          "tencent-psychobench-cuhk-lyu"
+        ]
+      },
+      {
+        "year": 2023,
+        "title": "Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.345/",
+        "outcome": "confirmed",
+        "note": "2023-10-19 首稿以及 ACL 正式版首页均具名标注王文轩、黃任澤在腾讯 AI Lab 实习期间完成；两人同时以港中文署名。第一作者王文轩的港中文博士导师 Michael R. Lyu 同篇；腾讯作者涂兆鹏为通讯作者。该项构建文化实体问答和多语言观点对照，区别于对有害输出评分的 XSafety。",
+        "paperId": "10.48550/arXiv.2310.12481",
+        "relationIds": [
+          "tencent-culture-dominance-cuhk-lyu"
+        ]
+      },
+      {
+        "year": 2024,
+        "title": "Competing Large Language Models in Multi-Agent Gaming Environments",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a46adbe2f0ca0e16ef8857e188991ad7-Abstract-Conference.html",
+        "outcome": "lead",
+        "note": "2024-03 首稿题名变更，原文和终稿共用同项 GAMA-Bench。第一作者在腾讯实习并双署、导师同篇，尚待同项目的具名实习说明或同期企业技术分工。"
+      },
+      {
+        "year": 2024,
+        "title": "LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models",
+        "url": "https://arxiv.org/abs/2401.00757v1",
+        "outcome": "lead",
+        "note": "首稿与 EMNLP 正式页经题名和作者交叉核实；港中文、港中大（深圳）与腾讯作者同署。尚不能把其他项目的实习脚注转移到这个逻辑推理基准。"
+      },
+      {
+        "year": 2023,
+        "title": "On the Reliability of Psychological Scales on Large Language Models",
+        "url": "https://arxiv.org/abs/2305.19926v1",
+        "outcome": "lead",
+        "note": "首稿题为 ChatGPT an ENFJ, Bard an ISTJ，研究量表的可靠性，后续正式版同工作；不同于 PsychoBench 对多类心理特征构建集中基准。企业实研分工尚待同篇材料。"
+      },
+      {
+        "year": 2024,
+        "title": "On the Shortcut Learning in Multilingual Neural Machine Translation",
+        "url": "https://arxiv.org/abs/2411.10581v1",
+        "outcome": "lead",
+        "note": "2024-11 首稿，后刊 Neurocomputing。教师与企业作者并列；待核实在读学生的实研是否早于毕业且属于该项目。"
       }
     ],
-    "note": "增补王朝正与同课题组的代码大模型论文。通过在读、导师及论文的微信私有数据实验核对企业项目；仍需继续核对该教师其余公开书目。"
+    "note": "继续按学生与导师的公开书目核验各次公开版本、实际企业项目、学籍和指导。已有 2023 年的具名实习研究；其余公开书目仍待逐篇审查。"
   },
   "vVhmzbAAAAAJ": {
     "from": "2023-01-01",
@@ -61526,5 +61602,239 @@ const facultyPaperAudits = {
       }
     ],
     "note": "从校方课题组及公开书目逐篇查。同一作者论文的不同公开版本去重；尚余多篇公开书目待核。"
+  },
+  "z76aPskAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~huangjin",
+      "https://orcid.org/0000-0002-2833-8041",
+      "https://dblp.org/pid/49/2488-9.html",
+      "https://iui.acm.org/2024/accepted_papers.html",
+      "https://programs.sigchi.org/uist/2026/program/session/278208",
+      "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2024.20130.pdf",
+      "https://doi.org/10.1016/j.ijhcs.2026.103954",
+      "https://doi.org/10.1016/j.ijhcs.2024.103327",
+      "https://www.xinan-yan.com/publication/",
+      "https://ieeevr.org/2026/program/papers/",
+      "https://chchi.icachi.org/23/program/",
+      "https://graphics.cs.uh.edu/wp-content/papers/2022/2022-IJHCS-MidAirGestureInterface.pdf",
+      "https://api.crossref.org/works/10.1016/j.ijhcs.2022.102952",
+      "https://faculty.nwu.edu.cn/luotianren/en/lwcg/210244/content/18340.htm"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "ChallengeDetect: Investigating the Potential of Detecting In-Game Challenge Experience from Physiological Measures",
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/202173/1/3544548.3581232.pdf",
+        "note": "CHI 作者稿列中科院软件所、港科广、北师大和约克大学。比较游戏挑战与生理测量；未见目标企业同篇实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "A unified user behavior model for trajectory-based tasks with different types of path constraints",
+        "url": "https://doi.org/10.1007/s11432-023-3779-5",
+        "note": "2023-09-27 Springer 正式上线，机构含软件所、国科大与 La Trobe University。研究含路径限制的指向表现；未见目标企业合作。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "基于结构理解的手绘草图表格识别",
+        "url": "https://www.jcad.cn/article/doi/10.3724/SP.J.1089.2024.20130",
+        "note": "期刊 PDF 核实盖鑫和王丹琳在读，黄进为通讯；软件所/国科大署名，资助为自然科学基金和中科院青年创新促进会。未见两人在目标公司完成表格识别的证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "PANDA: Parkinson's Assistance and Notification Driving Aid",
+        "url": "https://arxiv.org/pdf/2503.06659v1",
+        "note": "2025-03 国科大软件所、航天中心医院、北京协和医院和卡内基梅隆合著；Tianyang Wen 双署软件所与国科大，原文为帕金森患者的辅助驾驶原型，并非目标企业的具名研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "MAGNeT: Multimodal Adaptive Gaussian Networks for Intent Inference in Moving Target Selection across Complex Scenarios",
+        "url": "https://arxiv.org/pdf/2508.12992v1",
+        "note": "2025-08 首稿，与 ACM Multimedia 10.1145/3746027.3758187 一致；列山东大学、软件所、香港科技大学及 AiLF Instruments。后者不是本次 14 家目标企业；未见目标公司参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Optimizing Moving Target Selection in VR by Integrating Proximity-Based Feedback Types and Modalities",
+        "url": "https://xuning-hu.github.io/assets/pdfs/VR2025Xuning.pdf",
+        "note": "IEEE VR 作者版列西交利物浦、达特茅斯、港科广和中科院软件所；实验为视听触反馈界面，未见目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Emotionally Challenging Games Can Satisfy Older Adults' Psychological Needs: From Empirical Study to Design Guidelines",
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/230221/1/Camera-ready_CHI_2025.pdf",
+        "note": "约克大学存档的 ACM 作者稿列软件所、约克大学、卡迪夫大学、东南大学等。老年玩家实验与情感化游戏设计未见目标企业同篇研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "基于图神经网络的手绘表格单元格类型识别算法",
+        "url": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2025-00461.pdf",
+        "note": "期刊优先出版稿列国科大及软件所；付强、王丹琳参与单元格类型识别，不同于盖鑫 2024 年那篇的结构解析与数据集。未见目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "车载振动环境下基于字根拆解的在线手写文字识别",
+        "url": "https://rjxb.alljournals.cn/jos/article/abstract/7650",
+        "note": "期刊优先发布 2026-08-19；原文中付强是软件所/国科大博士生，黄进是通讯，其他作者均属软件所或国科大。用模拟振动测试手写识别，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "面向指-笔混合输入的交互原语和交互模型研究",
+        "url": "https://www.jos.org.cn/1000-9825/6909.htm",
+        "note": "《软件学报》首发 2023-07-12，2024 才编入卷期；国科大软件所作者将指、笔及两者组合归纳为交互原语，资料没有目标企业在读实研或署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Evaluating the effects of user motion and viewing mode on target selection in augmented reality",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4514609",
+        "note": "SSRN 2023-07-18 作者首稿对应 IJHCS 2024 年正式版。黄进与彭晓兰、田丰署软件所，另有山东大学团队；研究不同用户运动状态、显示模式下的 AR 目标选择，没有目标公司具名作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "MathAssist: A Handwritten Mathematical Expression Autocomplete Technique",
+        "url": "https://doi.org/10.1145/3640543.3645149",
+        "note": "IUI 2024 正式议程逐人列国科大、科学院及软件所。手写数学表达式自动补全与 HchMER 的识别纠正实验为不同作品；未见企业同篇实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "HchMER: 混合人机智能的手写数学表达式识别方法",
+        "url": "https://www.jos.org.cn/1000-9825/7169.htm",
+        "note": "《软件学报》首发 2024-06-14，2025 编入卷期。原文涉及以人机协同纠正手写公式识别错误，作者及资金来自软件所、国科大及科研项目，未见目标企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "情感挑战研究进展及其在元宇宙中的应用前景",
+        "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.230734/",
+        "note": "《中国图象图形学报》2024-10 文章为彭晓兰、黄进、田丰的软件所与国科大署名综述，不存在所查公司的学生实研角色证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Survey of neurocognitive disorder detection methods based on speech, visual, and virtual reality technologies",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2096579624000482",
+        "note": "Virtual Reality & Intelligent Hardware 开放全文为语音、视觉和 VR 辅助检测认知障碍综述；资助列国家项目、软件所及科学院青年创新促进会，未见目标企业直接共研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "3D Ternary-Gaussian model: Modeling pointing uncertainty of 3D moving target selection in virtual reality",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1071581925000114",
+        "note": "期刊原文将黄进列为监督、项目管理，Yawen Zheng 主要负责设计和实验。以运动、视觉深度模型解释 VR 选择分布，原文并未把该监督或学生实验与目标公司相连。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Auto-Masked Audio Spectrogram Transformer for depression detection from speech",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40967413/",
+        "note": "Journal of Affective Disorders 2025-09-16 在线，2026 期刊卷期。作者分别署北京工业大学、软件所、北京天坛医院；抑郁语音自动评估未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "A Comparative Evaluation of Pointing and Crossing in Moving Target Selection",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/00187208251386219",
+        "note": "Human Factors 正式版标明 2025-10-16 online first。学生 Xiaoyu Zhang 属 La Trobe University，黄进在软件所；比较穿越与指向的 VR 交互设计，没有同篇目标公司参与证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "D-Model: Understanding the Effect of Expected Delays in Moving Target Selection in VR",
+        "url": "https://doi.org/10.1080/10447318.2026.2623221",
+        "note": "2026-02-18 在线原文列港科广、西交利物浦、La Trobe 和软件所；首作者Yushi Wei为港科广博士生。研究界面时延，全文致谢参与者和评审，无目标企业同篇实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Narrative-driven VR exergames for active older adults: Examining the impact of narrative styles and themes on motivation and user experience",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6385025",
+        "note": "2026-03-10 作者公开稿，复核 10.1016/j.ijhcs.2026.103954 的 2027 卷期和同一作者顺序后去重。研究 VR 骑行叙事，对应北理工、卡迪夫、约克和软件所，未见目标企业合作。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Surpassing Human Wrist Constraints: Dexterity-Enhanced Techniques for Teleoperated Robotic Manipulation",
+        "url": "https://shuaima.cc/personal_webpage_files/paper_pdf/surpassing.pdf",
+        "note": "11 月 UIST 正式稿把章一鸿署软件所并列国科大邮箱，黄进国科大主页列为自己的博士生。其他作者单位含港科广、西北大学、山东大学、密歇根大学、新加坡管理大学。致谢仅说明使用 ChatGPT 润色，未见目标企业在读实研或员工合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Shape-Adaptive Ternary-Gaussian Model: Modeling Pointing Uncertainty for Moving Targets of Arbitrary Shapes",
+        "url": "https://doi.org/10.1145/3544548.3581217",
+        "note": "ACM 书目作者单位含软件所、国科大与澳洲高校；模型针对任意形状运动目标的终点分布，未见目标企业实研。全文链接本轮未成功读取，已核公开摘要和署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Extrovert Increases Consensus? Exploring the Effects of Conversational Agent Personality for Group Decision Support",
+        "url": "https://doi.org/10.1145/3629606.3629619",
+        "note": "Chinese CHI 2023-11 的正式议程具名报告，ACM 作者记录均列为软件所/国科大；公开摘要描述 40 人 Wizard-of-Oz 实验，未见目标企业参与。全文链接本轮未成功读取。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Exploring Experience Gaps Between Active and Passive Users During Multi-user Locomotion in VR",
+        "url": "https://doi.org/10.1145/3613904.3641975",
+        "note": "首作者学校页与 ACM 10.1145/3613904.3641975 核对多用户 VR 主动与被动移动；署名列软件所、清华、首师大、中国传媒大学等。未见企业作者；ACM 全文链接本轮未成功读取。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "TutorCraftEase: Enhancing Pedagogical Question Creation with Large Language Models",
+        "url": "https://doi.org/10.1145/3706598.3713731",
+        "note": "ACM CHI 题录列中科院软件所及自动化所、斯图加特大学、北京工业大学。摘要研究教师在大模型工具中设计教学问题；未见目标企业参与，ACM 全文链接本轮未成功读取。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Tapping Beyond Hands: Assisting No-Handed Touch Interaction under Situational Impairments",
+        "url": "https://doi.org/10.1109/ICME59968.2025.11209225",
+        "note": "IEEE ICME 公开作者单位为山东大学和软件所；摘要是临时无法用手时的触屏交互实验，未见目标企业合作。未获得公开全文，未核致谢。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "N-ary Gaussian Model Modeling Pointing Uncertainty Across Task Scenarios Using an Automated Multi-Gaussian Modeling Pipeline",
+        "url": "https://www.xinan-yan.com/uploads/papers/n-ary-gaussian-model.pdf",
+        "note": "CHI 2026 原文列肖一笑双署软件所和国科大，黄进为通讯并在校方个人页列该学生；模型研究不同设备、输入和时间约束的点选误差，论文原文未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Exploring Freehand Selection Techniques of Polyhedron Faces in VR Environments",
+        "url": "https://www.xinan-yan.com/uploads/papers/freehand-polyhedron-selection.pdf",
+        "note": "IEEE TVCG 作者稿及 IEEE VR 会议名单核实软件所、达特茅斯和港科广。黄进通讯，资助列国家自然科学基金与中科院项目；多面体手势选择实验未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Human–Computer Interaction in Spatial Computing",
+        "url": "https://doi.org/10.1080/10447318.2026.2636246",
+        "note": "期刊首发 2026-04-14，纸本期为 11-17，仍属于范围。公开摘要为涵盖多模态与具身交互、LLM 情境理解的综述；作者单位为软件所与国科大，未见目标企业。未取得公开全文。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "“I Want My Own Space, but I Want to Be Understood”: The Adolescent Emotional Communication Dilemma in Hospitals",
+        "url": "https://doi.org/10.1145/3772363.3798447",
+        "note": "CHI 扩展摘要 2026-04-13 公开，作者题录列北京语言大学、山东大学与中科院软件所。研究青少年住院沟通，无公开目标企业实研证据；未取得公开全文。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "核对国科大校方论文表、身份绑定 ORCID 与 DBLP 的 2023-01-01 至 2026-11-12 书目；30 项已有逐篇记录。同一工作首稿与正式版合并；DBLP 按印刷年列为 2023 的 Effects of spatial constraints and ages on children’s upper limb performance in mid-air gesture interaction 的 2022 年期刊先行版本与校方存档已核，不计入本期。仍有部分 ACM/IEEE 和期刊全文未能读取；这些论文仅记录可见摘要、署名与出版字段，暂不标为全部梳理。"
   }
 };
