@@ -57066,7 +57066,60 @@ const facultyPaperAudits = {
       "https://github.com/BearCleverProud/TAKT/commit/381576d85a76f3b096224d2936c07d5fe97ab1d2",
       "https://arxiv.org/abs/2406.09696",
       "https://papers.miccai.org/miccai-2024/paper/2168_paper.pdf#page=9",
-      "https://github.com/BearCleverProud/MoME/commit/b4ddf3128e8d67f76652c03f5f3395621f7fb01c"
+      "https://github.com/BearCleverProud/MoME/commit/b4ddf3128e8d67f76652c03f5f3395621f7fb01c",
+      "https://papers.miccai.org/miccai-2024/531-Paper2168.html",
+      "https://researchportal.hkust.edu.hk/en/publications/mome-mixture-ofmultimodal-experts-forcancer-survival-prediction/",
+      "https://arxiv.org/abs/2604.04976v1",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/yuliang-sun/",
+      "https://junwei-pan.github.io/",
+      "https://arxiv.org/pdf/2604.04976v1#page=1",
+      "https://github.com/TencentAdvertisingAlgorithmCompetition/baseline_2025",
+      "https://github.com/TencentAdvertisingAlgorithmCompetition/baseline_2025/commit/cd3ec75b83b5c6801e587562b92a1f132681ad7e",
+      "https://github.com/TencentAdvertisingAlgorithmCompetition/baseline_2025/commit/ad4438840a9fd09a960456883ffd239702e57410",
+      "https://intrepidli.github.io/",
+      "https://www.tencent.com/en-us/articles/2202134.html",
+      "https://ijcai.org/proceedings/2023/452",
+      "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/",
+      "https://misc-lab.cse.cuhk.edu.hk/wp-content/uploads/2023/04/CV_Prof_Irwin_King_2023.pdf#page=45",
+      "https://peilinzhao.github.io/",
+      "https://www.ijcai.org/proceedings/2023/0452.pdf#page=1",
+      "https://research.cuhk.edu.hk/en/publications/doubly-stochastic-graph-based-non-autoregressive-reaction-predict-3/",
+      "https://arxiv.org/abs/2306.06119v1",
+      "https://ijcai.org/proceedings/2023/753",
+      "https://www.ijcai.org/proceedings/2023/0753.pdf#page=1",
+      "https://arxiv.org/abs/2306.15890v1",
+      "https://ijcai.org/proceedings/2024/661",
+      "https://www.ijcai.org/proceedings/2024/0661.pdf#page=1",
+      "https://research-information.bris.ac.uk/en/publications/towards-geometric-normalization-techniques-in-se3-equivariant-gra/",
+      "https://proceedings.mlr.press/v267/wang25by.html",
+      "https://raw.githubusercontent.com/mlresearch/v267/main/assets/wang25by/wang25by.pdf",
+      "https://www.comp.nus.edu.sg/cs/people/",
+      "https://arxiv.org/abs/2506.00975",
+      "https://aclanthology.org/2026.findings-acl.263/",
+      "https://aclanthology.org/2026.findings-acl.263.pdf",
+      "https://github.com/ZhangHe0918/MTR-DuplexBench",
+      "https://github.com/dreamtheater123",
+      "https://haolibai.github.io/",
+      "https://arxiv.org/abs/2508.07375",
+      "https://www.isca-archive.org/interspeech_2026",
+      "https://arxiv.org/html/2508.07375v1",
+      "https://github.com/dreamtheater123/TurnGuide/commit/a0be787fc3bad00b27bf940c05e04feacaf23a2e",
+      "https://arxiv.org/abs/2605.05927",
+      "https://arxiv.org/pdf/2605.05927",
+      "https://github.com/dreamtheater123/TextPro-SLM",
+      "https://doi.org/10.1145/3767308.3838667",
+      "https://2026.acmmm.org/site/ACMMM2026_Full_Programme.pdf",
+      "https://arxiv.org/abs/2608.17931",
+      "https://github.com/Sher13cked/SpeechSense",
+      "https://arxiv.org/abs/2609.06702",
+      "https://arxiv.org/html/2609.06702v1",
+      "https://cuhk-parser.github.io/",
+      "https://aclanthology.org/2025.acl-long.818/",
+      "https://aclanthology.org/2025.acl-long.818.pdf",
+      "https://github.com/dreamtheater123/VoxEval",
+      "https://research.cuhk.edu.hk/en/publications/voxeval-benchmarking-the-knowledge-understanding-capabilities-of--2/projects/",
+      "https://epubs.siam.org/doi/abs/10.1137/1.9781611977653.ch91",
+      "https://epubs.siam.org/doi/pdf/10.1137/1.9781611977653.fm"
     ],
     "papers": [
       {
@@ -57106,16 +57159,16 @@ const facultyPaperAudits = {
       },
       {
         "title": "MoME: Mixture of Multimodal Experts for Cancer Survival Prediction",
-        "url": "https://doi.org/10.1007/978-3-031-72083-3_30",
+        "url": "https://papers.miccai.org/miccai-2024/531-Paper2168.html",
         "outcome": "confirmed",
-        "note": "正式稿第 9 页明确与腾讯天衍共同完成；学生 Conghao Xiong 的署名提交发布对应的多模态专家模型实现。其具名博士导师金国庆与腾讯天衍主任郑冶枫均同篇。首稿 2024-06-14；与研究切片知识迁移的 TAKT 分开。",
+        "note": "首稿 2024-06-14 已列三位腾讯作者；正式 MICCAI PDF 第 9 页明确这项研究与腾讯天衍共同开展。港中文博士生 Conghao Xiong 在正式版列第一作者和共同通讯，并从本人可追溯仓库提交 254 行核心 MoME 模型实现；港中文实际博导金国庆、当时在腾讯全职的郑冶枫均同篇。它研究多模态癌症生存预测，与同一团队的病理切片知识转移 TAKT 是两篇独立论文。",
         "year": 2024
       },
       {
         "title": "TAKT: Target-Aware Knowledge Transfer for Whole Slide Image Classification",
         "url": "https://papers.miccai.org/miccai-2024/760-Paper2121.html",
         "outcome": "confirmed",
-        "note": "腾讯天衍与正式论文资料同时确认合作；港中文在读博士 Conghao Xiong 的署名代码实现合作版的专有新增模块。金国庆为明确的博士共同导师。2023 早稿无腾讯或该模块，与首次 2024-07-11 公开合作稿合为同一项。",
+        "note": "现有索引已按港中文师生与腾讯天衍共同研究核实：相较 2023 MHFA 初稿，2024 实质合作版有联合研究声明，学生 Conghao Xiong 同篇实现了新的数据增强和特征对齐。",
         "year": 2024
       },
       {
@@ -57158,14 +57211,14 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2024.findings-naacl.26/",
         "outcome": "lead",
         "note": "2023-07 首版、正式 NAACL 2024，署港中文学生 Yueen Ma 及 Jingjing Li 和两位华为诺亚作者；未找到学生承担企业项目的具名记录。不能借同组 Astra 的人员推定。",
-        "year": 2023
+        "year": 2024
       },
       {
         "title": "A Survey on Vision-Language-Action Models for Embodied AI",
         "url": "https://doi.org/10.1109/TNNLS.2025.3650584",
         "outcome": "lead",
         "note": "2024-05-23 首稿，2026 年正式刊期；正式团队及方法仓库均列港中文学生 Yueen Ma 和华为诺亚两名作者。未在原文、本人及课题组资料找到该学生在华为完成这篇综述的分工。",
-        "year": 2024
+        "year": 2026
       },
       {
         "title": "X-GS: An Extensible Framework for Perceiving and Thinking with 3D Gaussian Splatting",
@@ -57179,7 +57232,7 @@ const facultyPaperAudits = {
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40013",
         "outcome": "no-evidence",
         "note": "2025-11 预印本与 AAAI 2026 正式版合并，出版首面只有港中文、芝加哥伊利诺伊、南洋理工和港科大。不要用研究者曾有企业任职的履历替代同篇企业角色。",
-        "year": 2025
+        "year": 2026
       },
       {
         "title": "Exploiting Low-Dimensional Manifold of Features for Few-Shot Whole Slide Image Classification",
@@ -57193,7 +57246,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3691626",
         "outcome": "no-evidence",
         "note": "2023-12 首稿，ACM 标记线上正式出版日 2024-11-07；原文十位作者署高校。刘瑷玮后入腾讯而本篇署清华，也没有其他公司研究角色。",
-        "year": 2023
+        "year": 2024
       },
       {
         "title": "Dynamic Mixture of Latent Memories for Self-Evolving Agents",
@@ -57214,6 +57267,106 @@ const facultyPaperAudits = {
         "url": "https://ijcai.org/proceedings/2023/176",
         "outcome": "no-evidence",
         "note": "2023 正式版本与首稿同篇，Conghao Xiong、Hao Chen、Joseph Sung、Irwin King 的原研究机构均为学校，未找范围企业作者。",
+        "year": 2023
+      },
+      {
+        "title": "Tencent Advertising Algorithm Challenge 2025: All-Modality Generative Recommendation",
+        "url": "https://arxiv.org/abs/2604.04976v1",
+        "outcome": "confirmed",
+        "note": "论文 2026-04-04 首次公开，首面列出港中文博士生 Yuliang Sun、其导师金国庆及腾讯第一作者 Junwei Pan，并明确给出腾讯广告比赛基线官方代码仓库。同一仓库的 2026-03-30 首次提交用 Yuliang Sun 公开的 intrepidLi 账号加入数据加载、主模型及训练、推理和评测代码；2026-04-24 继续修改负样本抽样，确认他具体参与企业正式研究成果。企业新闻确认项目由腾讯广告举办，校方实验室与学生本人均公开导师和学籍。本条仅确认联合研究，不声称 Yuliang Sun 在腾讯实习或任职。",
+        "year": 2026,
+        "paperId": "10.48550/arXiv.2604.04976",
+        "relationIds": [
+          "tencent-taac2025-cuhk-irwin-king"
+        ]
+      },
+      {
+        "title": "Doubly Stochastic Graph-based Non-autoregressive Reaction Prediction",
+        "url": "https://ijcai.org/proceedings/2023/452",
+        "outcome": "confirmed",
+        "note": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为建立双随机注意力映射预测电子重分布；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。预印首发与 IJCAI 正式版本合计一条。",
+        "year": 2023,
+        "paperId": "10.48550/arXiv.2306.06119",
+        "relationIds": [
+          "tencent-reactionsink-cuhk-irwin-king"
+        ]
+      },
+      {
+        "title": "A Unified View of Deep Learning for Reaction and Retrosynthesis Prediction: Current Status and Future Challenges",
+        "url": "https://ijcai.org/proceedings/2023/753",
+        "outcome": "confirmed",
+        "note": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为梳理反应及逆合成预测的深度学习方法、机制和评价；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。预印首发与 IJCAI 正式版本合计一条。",
+        "year": 2023,
+        "paperId": "10.48550/arXiv.2306.15890",
+        "relationIds": [
+          "tencent-reaction-survey-cuhk-irwin-king"
+        ]
+      },
+      {
+        "title": "Towards Geometric Normalization Techniques in SE(3) Equivariant Graph Neural Networks for Physical Dynamics Simulations",
+        "url": "https://ijcai.org/proceedings/2024/661",
+        "outcome": "confirmed",
+        "note": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为提出保持等变性的归一化层并评估粒子系统模拟；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。日期采用可复查的 IJCAI 正式文集月；不把未能确证的更早索引日期当作论文首发。",
+        "year": 2024,
+        "paperId": "10.24963/ijcai.2024/661",
+        "relationIds": [
+          "tencent-geonorm-cuhk-irwin-king"
+        ]
+      },
+      {
+        "title": "NTPP: Generative Speech Language Modeling for Dual-Channel Spoken Dialogue via Next-Token-Pair Prediction",
+        "url": "https://proceedings.mlr.press/v267/wang25by.html",
+        "outcome": "lead",
+        "note": "ICML 首页确指两位共同一作在腾讯 AI Lab 实习时完成；孟子乔稿件署腾讯和新加坡国立大学，Qichao Wang 当时属中山大学（不在这 26 所队列）。Wenqian Cui为金国庆在读博士生但未具名为企业同项研究者。尚缺与本篇技术工作的具体时点能落入孟子乔港中文学籍的证明。",
+        "year": 2025
+      },
+      {
+        "title": "MTR-DuplexBench: Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models",
+        "url": "https://aclanthology.org/2026.findings-acl.263/",
+        "outcome": "lead",
+        "note": "2025-11-13 首稿、2026-07 ACL 正式版。港中文在读的Wenqian Cui与清华 He Zhang 并列一作，导师金国庆同署，华为研究者柏昊立等同署。代码库的主要代码提交署 Zhang He，公开资料未将Wenqian Cui（或清华学生）的同篇实验单独证立为华为项目任务。",
+        "year": 2026
+      },
+      {
+        "title": "TurnGuide: Enhancing Meaningful Full Duplex Spoken Interactions via Dynamic Turn-Level Text-Speech Interleaving",
+        "url": "https://arxiv.org/abs/2508.07375",
+        "outcome": "lead",
+        "note": "2025-08-10 原稿，2026 年 Interspeech。首页明确港中文博士生 Wenqian Cui 是项目负责人，香港中文大学金国庆与华为 Xiaohui Li 共同通讯。学生本人发布推理实现、权重账号的任职尚无可核据，仓库并非企业组织。继续找公开正式分工或厂方实际同篇协作的独立记录。",
+        "year": 2026
+      },
+      {
+        "title": "Minimizing Modality Gap from the Input Side: Your Speech LLM Can Be a Prosody-Aware Text LLM",
+        "url": "https://arxiv.org/abs/2605.05927",
+        "outcome": "lead",
+        "note": "首稿与修订稿列Wenqian Cui、Qiyong Zheng 为港中文作者，Xiao-Hui Li、Daxin Tan 为华为作者。预印 HTML 结构个别单位错置，以 PDF 学校代码为准。学生公开的同篇模型仓库属于个人，缺华为官方项目、训练分工或学生在华为同篇实际工作证明。",
+        "year": 2026
+      },
+      {
+        "title": "SpeechSense: A Paralinguistic-Focused Dataset for Fine-Grained Speech Sentiment Analysis",
+        "url": "https://doi.org/10.1145/3767308.3838667",
+        "outcome": "no-evidence",
+        "note": "ACM Multimedia 2026 官方会议资料显示三位作者均为港中文；同项目原始披露未核实有企业人员、在读和导师共同在企业完成此项研究。",
+        "year": 2026
+      },
+      {
+        "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+        "url": "https://arxiv.org/abs/2609.06702",
+        "outcome": "no-evidence",
+        "note": "三位共同一作与两位教师均署港中文，项目发布没有具名目标企业与学生协作记录；以企业开源模型作基线不是同篇分工。",
+        "year": 2026
+      },
+      {
+        "title": "VoxEval: Benchmarking the Knowledge Understanding Capabilities of End-to-End Spoken Language Models",
+        "url": "https://aclanthology.org/2025.acl-long.818/",
+        "outcome": "lead",
+        "note": "ACL 出版稿列港中文本校在读Wenqian Cui、导师金国庆与 LIGHTSPEED STUDIOS 的 Xiaoqi Jiao，但没有具名同项实习、开发分工或厂方技术发布；同名 CityU 统计博士页面不能用于确认这位企业作者。",
+        "year": 2025
+      },
+      {
+        "title": "Meta-Learning with Motif-based Task Augmentation for Few-Shot Molecular Property Prediction",
+        "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611977653.ch91",
+        "outcome": "lead",
+        "note": "SDM 文集确认港中文博士生孟子乔、导师金国庆及赵沛霖同署。暂未在可公开核实原稿见本篇同期腾讯实习脚注或同篇企业主导。不要跨论文迁移其他化学计算项目的实习证据。",
         "year": 2023
       }
     ],
@@ -57431,7 +57584,37 @@ const facultyPaperAudits = {
       "https://vvvvvjdy.github.io/",
       "https://cse.hkust.edu.hk/pg/defenses/S25/hche-12-05-2025.html",
       "https://cse.hkust.edu.hk/event/RTF2023/",
-      "https://chehx.github.io/#publications"
+      "https://chehx.github.io/#publications",
+      "https://doi.org/10.1016/j.bspc.2026.109664",
+      "https://www.sciencedirect.com/science/article/pii/S1746809426002181",
+      "https://researchportal.hkust.edu.hk/en/publications/3d-sa-loifm-a-three-dimensional-framework-for-segmentation-assist/",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5286637",
+      "https://github.com/hbcfx/3D-SA-LoIFM",
+      "https://openaccess.thecvf.com/content/ICCV2025W/PHAROS-AFE-AIMI/html/Li_Advancing_Lung_Disease_Diagnosis_in_3D_CT_Scans_ICCVW_2025_paper.html",
+      "https://openaccess.thecvf.com/content/ICCV2025W/PHAROS-AFE-AIMI/papers/Li_Advancing_Lung_Disease_Diagnosis_in_3D_CT_Scans_ICCVW_2025_paper.pdf",
+      "https://arxiv.org/abs/2507.00993",
+      "https://researchportal.hkust.edu.hk/en/publications/advancing-lung-disease-diagnosis-in-3d-ct-scans/",
+      "https://arxiv.org/abs/2606.08093",
+      "https://arxiv.org/html/2606.08093v1",
+      "https://arxiv.org/html/2606.08093",
+      "https://researchportal.hkust.edu.hk/en/publications/a-multimodal-agentic-pathology-co-pilot-via-evidence-grounded-rea/",
+      "https://doi.org/10.1109/TMI.2024.3355068",
+      "https://arxiv.org/html/2401.07437",
+      "https://ianyilin.github.io/",
+      "https://researchportal.hkust.edu.hk/en/publications/bonus-boundary-mining-for-nuclei-segmentation-with-partial-point-/",
+      "https://doi.org/10.1109/TMI.2025.3530113",
+      "https://arxiv.org/html/2303.13111",
+      "https://github.com/xiaofang007/PHNet",
+      "https://arxiv.org/abs/2303.13867",
+      "https://arxiv.org/html/2303.13867",
+      "https://link.springer.com/book/10.1007/978-3-031-43895-0?page=2",
+      "https://github.com/hust-linyi/CAT-Net",
+      "https://doi.org/10.1016/j.media.2025.103615",
+      "https://arxiv.org/abs/2305.00678",
+      "https://arxiv.org/abs/2505.04652",
+      "https://www.sciencedirect.com/science/article/pii/S1361841525001628",
+      "https://ijcai.org/proceedings/2025/1193",
+      "https://www.ijcai.org/proceedings/2025/1193.pdf"
     ],
     "papers": [
       {
@@ -57822,6 +58005,62 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "AAAI 真实出版名单均署港科大。2023 年 8 月预印，2024 年 3 月正式发表，两者均早于已知腾讯实习。",
         "year": 2024
+      },
+      {
+        "title": "3D SA-LoIFM: A three-dimensional framework for segmentation-assisted learning of informative feature matching in liver CT-3D US rigid registration",
+        "url": "https://doi.org/10.1016/j.bspc.2026.109664",
+        "outcome": "no-evidence",
+        "note": "SSRN 2025-06-09、期刊 2026-01 线上及 2026-06 期次为同篇。原文病例医院和伦理审查属于医院与中国科学院深圳先进院，所列资助是政府/科研；未发现范围内企业和具名在校生合作。",
+        "year": 2026
+      },
+      {
+        "title": "Advancing Lung Disease Diagnosis in 3D CT Scans",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025W/PHAROS-AFE-AIMI/html/Li_Advancing_Lung_Disease_Diagnosis_in_3D_CT_Scans_ICCVW_2025_paper.html",
+        "outcome": "no-evidence",
+        "note": "原始 ICCV Workshops 2025-10 文集证实全员复旦与香港科大，比赛成果不涉及目标企业作者。校库入库 2026-02 不是会议首发年。",
+        "year": 2025
+      },
+      {
+        "title": "A Multimodal Agentic Pathology Co-pilot via Evidence Grounded Reasoning",
+        "url": "https://arxiv.org/abs/2606.08093",
+        "outcome": "no-evidence",
+        "note": "arXiv 初稿名与后续稿不同，统一为现在列出的同一 PathPocket 论文；原稿及修订稿作者单位为高校、医院和研究机构，无本项目目标企业与在读共同研究证据。",
+        "year": 2026
+      },
+      {
+        "title": "BoNuS: Boundary Mining for Nuclei Segmentation With Partial Point Labels",
+        "url": "https://doi.org/10.1109/TMI.2024.3355068",
+        "outcome": "no-evidence",
+        "note": "论文首页确认第一作者 Yi Lin 与其导师均署港科大；其本人过去在腾讯 Jarvis 的工作另有时间，不把该雇佣关系推定到本文。未发现目标企业共同分工。",
+        "year": 2024
+      },
+      {
+        "title": "Boosting Convolution With Efficient MLP-Permutation for Volumetric Medical Image Segmentation",
+        "url": "https://doi.org/10.1109/TMI.2025.3530113",
+        "outcome": "no-evidence",
+        "note": "PHNet 为 2023-03 预印、2025 正式期刊；发表稿首页全部署港科大等校方研究单位，没有目标企业共研。",
+        "year": 2025
+      },
+      {
+        "title": "Few Shot Medical Image Segmentation with Cross Attention Transformer",
+        "url": "https://arxiv.org/abs/2303.13867",
+        "outcome": "no-evidence",
+        "note": "出版社 MICCAI 2023 文集与预印一一对应；原始论文四位作者全为港科大。未见同篇目标企业参与。",
+        "year": 2023
+      },
+      {
+        "title": "Rethinking Boundary Detection in Deep Learning-Based Medical Image Segmentation",
+        "url": "https://doi.org/10.1016/j.media.2025.103615",
+        "outcome": "no-evidence",
+        "note": "将 2023 年 IPMI/预印与 2025 年扩展期刊稿按同一作者、实现和核心 CTO 策略归并记录。期刊正文作者单位均为香港科大及其深港研究合作机构，未见范围内企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "A Survey of Pathology Foundation Model: Progress and Future Directions",
+        "url": "https://ijcai.org/proceedings/2025/1193",
+        "outcome": "no-evidence",
+        "note": "会刊三位作者列港中文、港科大和南洋理工。致谢具名金国庆参加构思但不在作者名单；没有目标企业和学生同项企业工作证据。此项不沿用 Xiong 与陈浩、金国庆在其他作品的关系。",
+        "year": 2025
       }
     ],
     "note": "已核 27 篇，Smart-CCS 由原文具名分工和校方答辩确认；港中文两篇已收录论文无需重复计数。其余已识别书目待逐篇核查。"

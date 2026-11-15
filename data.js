@@ -45765,6 +45765,222 @@ const survey = {
       ],
       "evidence": "2024-09-13 早期公开技术成果 GameGen-O 已署车昊轩为共同第一作者、Quande Liu 与陈浩为共同通讯，后续 GameGen-X 沿用 OGameData 和开放世界游戏视频生成技术并继续署三人；2024-11-01 是可查首篇全文，2025 年 ICLR 正式发表。车昊轩个人履历与具名采访交叉说明在腾讯实习期间提出此项研究并筛查游戏视频训练素材；校方学位论文记录具名导师陈浩。Quande Liu 2024-07 及 2024-11 的本人存档和同期公开项目区分腾讯任职与后续转岗。正式论文没有腾讯署名，企业判断基于早期实际研究阶段，而不把正式论文上的香港中文大学写成腾讯。项目展示、预印本和会刊合计一条。",
       "paperId": "10.48550/arXiv.2411.00769"
+    },
+    {
+      "id": "tencent-taac2025-cuhk-irwin-king",
+      "company": "腾讯",
+      "team": "腾讯广告",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授，港中文实验室具名 Yuliang Sun 的博士导师，也是论文共同作者。",
+        "https://www.cse.cuhk.edu.hk/irwin.king/"
+      ],
+      "employee": [
+        "Junwei Pan",
+        "腾讯研究科学家，研究推荐系统与计算广告；论文第一作者，论文单位与其公开履历一致。",
+        "https://junwei-pan.github.io/"
+      ],
+      "student": [
+        "Yuliang Sun",
+        "2025 年起为港中文博士生、论文共同作者。在论文所链接的腾讯官方基线代码库，用具名账号提交了数据加载、模型、训练、推理与评估代码，并后续维护采样。",
+        "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/yuliang-sun/"
+      ],
+      "advising": [
+        "博士导师",
+        "香港中文大学实验室成员页具名金国庆为导师；本人主页确认 2025 年入读港中文博士。",
+        "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/yuliang-sun/"
+      ],
+      "title": "Tencent Advertising Algorithm Challenge 2025: All-Modality Generative Recommendation",
+      "short": "TAAC 2025",
+      "date": "2026-04-04",
+      "venue": "arXiv",
+      "area": "多模态广告推荐与基准评测",
+      "paper": "https://arxiv.org/abs/2604.04976v1",
+      "extra": [
+        [
+          "论文首面：港中文 Yuliang Sun 与金国庆，共同署名腾讯研究科学家 Junwei Pan；正式给出同一官方代码仓库",
+          "https://arxiv.org/pdf/2604.04976v1#page=1"
+        ],
+        [
+          "同篇所列腾讯官方基线代码：训练、推理及评测实现",
+          "https://github.com/TencentAdvertisingAlgorithmCompetition/baseline_2025"
+        ],
+        [
+          "2026-03-30 学生具名发布论文的模型、数据和评估代码",
+          "https://github.com/TencentAdvertisingAlgorithmCompetition/baseline_2025/commit/cd3ec75b83b5c6801e587562b92a1f132681ad7e"
+        ],
+        [
+          "2026-04-24 学生在同一腾讯仓库提交负样本抽样修订",
+          "https://github.com/TencentAdvertisingAlgorithmCompetition/baseline_2025/commit/ad4438840a9fd09a960456883ffd239702e57410"
+        ],
+        [
+          "学生个人主页：博士学籍时间及同一 GitHub 账号",
+          "https://intrepidli.github.io/"
+        ],
+        [
+          "腾讯官网：同一挑战由腾讯广告组织，基于生成式推荐研究",
+          "https://www.tencent.com/en-us/articles/2202134.html"
+        ]
+      ],
+      "evidence": "论文 2026-04-04 首次公开，首面列出港中文博士生 Yuliang Sun、其导师金国庆及腾讯第一作者 Junwei Pan，并明确给出腾讯广告比赛基线官方代码仓库。同一仓库的 2026-03-30 首次提交用 Yuliang Sun 公开的 intrepidLi 账号加入数据加载、主模型及训练、推理和评测代码；2026-04-24 继续修改负样本抽样，确认他具体参与企业正式研究成果。企业新闻确认项目由腾讯广告举办，校方实验室与学生本人均公开导师和学籍。本条仅确认联合研究，不声称 Yuliang Sun 在腾讯实习或任职。",
+      "paperId": "10.48550/arXiv.2604.04976"
+    },
+    {
+      "id": "tencent-reactionsink-cuhk-irwin-king",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授、孟子乔博士导师，并为本篇通讯作者。",
+        "https://www.cse.cuhk.edu.hk/irwin.king/"
+      ],
+      "employee": [
+        "赵沛霖 · Peilin Zhao",
+        "同期任腾讯 AI Lab 首席研究员，正式论文署腾讯 AI Lab，并为本篇通讯作者。",
+        "https://peilinzhao.github.io/"
+      ],
+      "student": [
+        "孟子乔 · Ziqiao Meng",
+        "港中文博士生、第一作者；论文首页明确本篇在腾讯 AI Lab 实习期间完成。",
+        "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+      ],
+      "advising": [
+        "博士导师",
+        "金国庆校方公开履历在博士生指导名单列孟子乔，注明 2018 年 8 月开始；实验室成员档案交叉验证。",
+        "https://misc-lab.cse.cuhk.edu.hk/wp-content/uploads/2023/04/CV_Prof_Irwin_King_2023.pdf#page=45"
+      ],
+      "title": "Doubly Stochastic Graph-based Non-autoregressive Reaction Prediction",
+      "short": "ReactionSink",
+      "date": "2023-06-05",
+      "venue": "IJCAI 2023",
+      "area": "分子反应非自回归预测",
+      "paper": "https://ijcai.org/proceedings/2023/452",
+      "extra": [
+        [
+          "正式稿首页的学生实习脚注与三方署名",
+          "https://www.ijcai.org/proceedings/2023/0452.pdf#page=1"
+        ],
+        [
+          "香港中文大学实验室的同期博士生身份",
+          "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+        ],
+        [
+          "独立正式书目",
+          "https://research.cuhk.edu.hk/en/publications/doubly-stochastic-graph-based-non-autoregressive-reaction-predict-3/"
+        ],
+        [
+          "首次公开文本",
+          "https://arxiv.org/abs/2306.06119v1"
+        ]
+      ],
+      "evidence": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为建立双随机注意力映射预测电子重分布；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。预印首发与 IJCAI 正式版本合计一条。",
+      "paperId": "10.48550/arXiv.2306.06119"
+    },
+    {
+      "id": "tencent-reaction-survey-cuhk-irwin-king",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授、孟子乔博士导师，并为本篇通讯作者。",
+        "https://www.cse.cuhk.edu.hk/irwin.king/"
+      ],
+      "employee": [
+        "赵沛霖 · Peilin Zhao",
+        "同期任腾讯 AI Lab 首席研究员，正式论文署腾讯 AI Lab，并为本篇通讯作者。",
+        "https://peilinzhao.github.io/"
+      ],
+      "student": [
+        "孟子乔 · Ziqiao Meng",
+        "港中文博士生、第一作者；论文首页明确本篇在腾讯 AI Lab 实习期间完成。",
+        "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+      ],
+      "advising": [
+        "博士导师",
+        "金国庆校方公开履历在博士生指导名单列孟子乔，注明 2018 年 8 月开始；实验室成员档案交叉验证。",
+        "https://misc-lab.cse.cuhk.edu.hk/wp-content/uploads/2023/04/CV_Prof_Irwin_King_2023.pdf#page=45"
+      ],
+      "title": "A Unified View of Deep Learning for Reaction and Retrosynthesis Prediction: Current Status and Future Challenges",
+      "short": "反应与逆合成预测综述",
+      "date": "2023-06-28",
+      "venue": "IJCAI 2023",
+      "area": "分子反应与逆合成研究综述",
+      "paper": "https://ijcai.org/proceedings/2023/753",
+      "extra": [
+        [
+          "正式稿首页的学生实习脚注与三方署名",
+          "https://www.ijcai.org/proceedings/2023/0753.pdf#page=1"
+        ],
+        [
+          "香港中文大学实验室的同期博士生身份",
+          "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+        ],
+        [
+          "独立正式书目",
+          "https://ijcai.org/proceedings/2023/753"
+        ],
+        [
+          "首次公开文本",
+          "https://arxiv.org/abs/2306.15890v1"
+        ]
+      ],
+      "evidence": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为梳理反应及逆合成预测的深度学习方法、机制和评价；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。预印首发与 IJCAI 正式版本合计一条。",
+      "paperId": "10.48550/arXiv.2306.15890"
+    },
+    {
+      "id": "tencent-geonorm-cuhk-irwin-king",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学",
+      "studentSchool": "香港中文大学",
+      "faculty": [
+        "金国庆 · Irwin King",
+        "香港中文大学计算机科学与工程学系教授、孟子乔博士导师，并署名本篇。",
+        "https://www.cse.cuhk.edu.hk/irwin.king/"
+      ],
+      "employee": [
+        "赵沛霖 · Peilin Zhao",
+        "同期任腾讯 AI Lab 首席研究员，正式论文署腾讯 AI Lab，并署名本篇。",
+        "https://peilinzhao.github.io/"
+      ],
+      "student": [
+        "孟子乔 · Ziqiao Meng",
+        "港中文博士生、第一作者；论文首页明确本篇在腾讯 AI Lab 实习期间完成。",
+        "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+      ],
+      "advising": [
+        "博士导师",
+        "金国庆校方公开履历在博士生指导名单列孟子乔，注明 2018 年 8 月开始；实验室成员档案交叉验证。",
+        "https://misc-lab.cse.cuhk.edu.hk/wp-content/uploads/2023/04/CV_Prof_Irwin_King_2023.pdf#page=45"
+      ],
+      "title": "Towards Geometric Normalization Techniques in SE(3) Equivariant Graph Neural Networks for Physical Dynamics Simulations",
+      "short": "GeoNorm",
+      "date": "2024-08",
+      "venue": "IJCAI 2024",
+      "area": "物理动力学与等变图神经网络",
+      "paper": "https://ijcai.org/proceedings/2024/661",
+      "extra": [
+        [
+          "正式稿首页的学生实习脚注与三方署名",
+          "https://www.ijcai.org/proceedings/2024/0661.pdf#page=1"
+        ],
+        [
+          "香港中文大学实验室的同期博士生身份",
+          "https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/ziqiao-meng/"
+        ],
+        [
+          "独立正式书目",
+          "https://research-information.bris.ac.uk/en/publications/towards-geometric-normalization-techniques-in-se3-equivariant-gra/"
+        ]
+      ],
+      "evidence": "IJCAI 正式论文首页实名脚注确认本篇是孟子乔在腾讯 AI Lab 实习期间完成。他为港中文署名的第一作者，工作为提出保持等变性的归一化层并评估粒子系统模拟；其博士导师金国庆同署港中文，赵沛霖同篇署腾讯 AI Lab。金国庆公开教师履历列孟子乔于 2018 年 8 月起在他指导下读博；赵沛霖具名履历证实其在 2017–2025 年为腾讯 AI Lab 首席研究员。日期采用可复查的 IJCAI 正式文集月；不把未能确证的更早索引日期当作论文首发。",
+      "paperId": "10.24963/ijcai.2024/661"
     }
   ]
 };
