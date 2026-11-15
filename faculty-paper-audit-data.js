@@ -13525,7 +13525,12 @@ const facultyPaperAudits = {
       "https://yongbin-li.github.io/",
       "https://paris2025.gosim.org/speakers/yongbin-li/",
       "https://aclanthology.org/2025.emnlp-tutorials.pdf",
-      "https://ojs.aaai.org/index.php/AAAI/article/view/34753"
+      "https://ojs.aaai.org/index.php/AAAI/article/view/34753",
+      "https://hambaobao.me/publications/",
+      "https://minyang.ai/",
+      "https://ipbench.wangqiyao.me/",
+      "https://aclanthology.org/people/min-yang-2728/",
+      "https://arxiv.org/abs/2504.15524"
     ],
     "papers": [
       {
@@ -13570,7 +13575,7 @@ const facultyPaperAudits = {
         "title": "OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-time Emotional Speech Synthesis",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e92381dba235a8309f08ce46376189a9-Paper-Conference.pdf",
         "outcome": "confirmed",
-        "note": "NeurIPS 正式稿首页把罗润列为第一作者；其姓名后的星注明确注明在通义实习期间完成该项研究。杨敏和署阿里通义的李永彬为共同通讯作者。罗润的公开学术履历另列他在国科大攻读硕士时的导师为杨敏，以及 2024 年 4–11 月在通义做多模态研究。2025-01-08 首次公开晚于这段实习，记录的是论文注明的研究期间。"
+        "note": "NeurIPS 正式稿首页罗润姓名后的星注具名说明该研究在通义实验室实习期间完成。稿件的通讯作者为杨敏及署阿里通义的李永彬。师生和实习身份由罗润的学术履历独立核实。"
       },
       {
         "year": 2026,
@@ -13583,11 +13588,130 @@ const facultyPaperAudits = {
         "year": 2025,
         "title": "Fine-Tuning Language Models with Collaborative and Semantic Experts",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34753/36908",
+        "outcome": "confirmed",
+        "note": "AAAI 正式稿首页将实习脚注的星号只标在第一位作者杨家玺姓名后；他署深研院及国科大。同篇 Binyuan Hui 署阿里巴巴并为共同第一作者，杨敏署深研院并共同通讯。该论文研究用协同专家与语义专家完成监督微调，与另篇 Iterative Forward Tuning 的上下文学习算法不同。"
+      },
+      {
+        "year": 2023,
+        "title": "DiffusionTrack: Diffusion Model for Multi-Object Tracking",
+        "url": "https://arxiv.org/pdf/2308.09905v1",
+        "outcome": "no-evidence",
+        "note": "2023-08-19 首稿与 AAAI 2024 同一工作。首稿正处罗润华科本科毕业后、赴国科大前，作者当时以华中科大等学术机构署名。扩散式多对象追踪工作未见目标企业参与。"
+      },
+      {
+        "year": 2023,
+        "title": "Marathon: A Race Through the Realm of Long Context with Large Language Models",
+        "url": "https://aclanthology.org/2024.acl-long.284.pdf",
+        "outcome": "no-evidence",
+        "note": "2023-12 arXiv:2312.09542 首稿；ACL 2024 的作者署名深研院、国科大及加州大学尔湾分校。正文比较的 Qwen 模型不构成阿里参与研究。"
+      },
+      {
+        "year": 2024,
+        "title": "DEEM: Diffusion Models Serve as the Eyes of Large Language Models for Image Perception",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a8399aace3dfa6dfb8b635117748c561-Paper-Conference.pdf",
         "outcome": "lead",
-        "note": "待复核后再列入关系索引。"
+        "note": "2024-05 首稿 arXiv:2405.15232；正式版罗润及李云水的星号是共同一作，署学术单位；杨敏为同篇通讯、Binyuan Hui 署阿里巴巴同篇通讯。罗润同期为通义实习生，但未核到本研究在企业完成的具名说明。"
+      },
+      {
+        "year": 2024,
+        "title": "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34782",
+        "outcome": "no-evidence",
+        "note": "2024-06 首稿 arXiv:2406.18294，AAAI 后续稿为同一方法。张磊等署深研院、国科大、浙江师大、NUS 和中科大等；未见目标企业同篇作者，罗润同时期其他实习项目不套入本篇。"
+      },
+      {
+        "year": 2024,
+        "title": "Leave No Document Behind: Benchmarking Long-Context LLMs with Extended Multi-Doc QA",
+        "url": "https://aclanthology.org/2024.emnlp-main.322.pdf",
+        "outcome": "lead",
+        "note": "EMNLP 正式版为 Loong；杨敏的学生罗润、李云水同署国科大/深研院，员工李永彬及 Cheng Fu 署阿里。论文未具名说明校内学生在阿里做本项目；不以同论文合作或同期实习代替项目证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Ruler: A Model-Agnostic Method to Control Generated Length for Large Language Models",
+        "url": "https://aclanthology.org/2024.findings-emnlp.172.pdf",
+        "outcome": "no-evidence",
+        "note": "2024-09-27 公开首稿与 EMNLP 正式版为同一输出长度控制工作。作者包括罗润、张磊、李云水等，机构仅深研院及国科大；未见目标公司同篇实研。"
+      },
+      {
+        "year": 2025,
+        "title": "OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction",
+        "url": "https://aclanthology.org/2025.acl-long.1276.pdf",
+        "outcome": "lead",
+        "note": "2025-05 arXiv 首稿。罗润为杨敏在读硕士、同时列通义与国科大，是同篇共同第一作者；原文的阿里实习脚注标的是同济学生 Haonan Zhang。罗润的通义实习于 2024-11 结束，仍缺他在通义完成该具体项目的独立材料。"
+      },
+      {
+        "year": 2025,
+        "title": "Towards IP Intelligence: Benchmarking Large Language Models on Intellectual Property Knowledge and Practice",
+        "url": "https://aclanthology.org/2026.findings-acl.1000.pdf",
+        "outcome": "no-evidence",
+        "note": "同一 IPBench 的 arXiv:2504.15524 自 2025-04-22 首发。正式稿作者均署深研院、国科大、大连理工、深北莫等；王琪尧首稿时尚未开始国科大博士，未见目标企业同篇研究。"
+      },
+      {
+        "year": 2025,
+        "title": "VCM: Vision Concept Modeling with Adaptive Vision Token Compression via Instruction Fine-Tuning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/bea94fe9c5573e74294657f692069d89-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2025-04-28 首稿 2504.19627 后在 NeurIPS 发表。原文深研院、国科大与 Ritzz-AI 等署名，视觉概念/token 压缩工作未见目标企业参与。"
+      },
+      {
+        "year": 2025,
+        "title": "CLaSp: In-Context Layer Skip for Self-Speculative Decoding",
+        "url": "https://aclanthology.org/2025.acl-long.1525.pdf",
+        "outcome": "no-evidence",
+        "note": "2025-05 首稿 arXiv:2505.24196。ACL 正式版列国科大、深研院、新加坡科技设计大学、UNSW 及 Ritzz-AI。令语言模型根据上下文跳层解码，不存在已核的目标企业研究角色。"
+      },
+      {
+        "year": 2025,
+        "title": "Implicit Actor Critic Coupling via a Supervised Learning Framework for RLVR",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/li26p/li26p.pdf",
+        "outcome": "no-evidence",
+        "note": "首稿 2025-09-02，与 ICML 2026 正式版 PACS 合并。合著机构含深研院、国科大、深圳理工、澳门大学及 Ritzz-AI；未见目标企业同篇作者。"
+      },
+      {
+        "year": 2025,
+        "title": "NExT-OMNI: Towards Any-to-Any Omnimodal Foundation Models with Discrete Flow Matching",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee60f53717bd9c2abdcca66dfbec65da-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "2025-10-15 arXiv:2510.13721 首稿与 ICLR 2026 正式版同一工作；NUS、深研院、国科大、中科大及 Ritzz-AI 合著；罗润已结束在通义实习，未见目标企业同篇。"
+      },
+      {
+        "year": 2026,
+        "title": "Breaking the Block: Preserving Data Continuity to Train Superior SAEs for Instruct Models",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/li26ik/li26ik.pdf",
+        "outcome": "no-evidence",
+        "note": "ICML 2026 正式版列深研院、国科大、NUS、UNSW、深圳理工。透明模型特征及稀疏自编码器训练未见目标企业同篇；外部合成数据仅是实验素材。"
+      },
+      {
+        "year": 2026,
+        "title": "RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26bk/chen26bk.pdf",
+        "outcome": "lead",
+        "note": "2026-02-25 arXiv:2602.21628 首稿。ICML 后续稿增列杨敏博士生张磊，但他仅署深研院与国科大；原文列 Bo Zheng 与三名阿里员工，仍未取得张磊参加该具体阿里研究的证据。"
+      },
+      {
+        "year": 2025,
+        "title": "AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling",
+        "url": "https://arxiv.org/pdf/2501.09426v1",
+        "note": "2025-01-16 首稿：深研院、国科大、中科大、澳门大学、深大、深北莫、哈工深等学术单位共同研究多智能体模拟认知行为干预；未见目标企业同篇作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Small Language Model as Data Prospector for Large Language Model",
+        "url": "https://arxiv.org/pdf/2412.09990v1",
+        "note": "2024-12-13 首稿 SuperNUGGETS，深研院、中科大、UNSW、深圳理工。正文明确以早先 NUGGETS 为基线，新方法用小模型选择数据，为独立作品；未见目标企业实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "AutoPatent: A Multi-Agent Framework for Automatic Patent Generation",
+        "url": "https://arxiv.org/pdf/2412.09796v1",
+        "note": "2024-12-13 首稿有深研院、大连理工、南科大、深圳理工和 UNSW。王琪尧当时是大连理工本科生，其后在国科大的博士培养和企业实习与本篇不可倒推；未见目标企业。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "用国科大导师主页、在读者名录及作者公开简历核实指导，逐篇查首稿和正式版的企业实研角色；完整书目仍在梳理。"
+    "note": "按杨敏课题组论文及本人书目，和罗润、张磊、王琪尧等作者独立公开页面交叉核对首稿、正式版和论文中实际科研角色；全期书目仍在逐篇梳理。"
   },
   "66KKZR4AAAAJ": {
     "from": "2023-01-01",
@@ -62744,7 +62868,10 @@ const facultyPaperAudits = {
       "https://link.springer.com/book/10.1007/978-981-95-5716-5",
       "https://www.sciopen.com/article/10.26599/TST.2023.9010136",
       "https://proceedings.mlr.press/v306/chen26bk.html",
-      "https://arxiv.org/abs/2602.21628"
+      "https://arxiv.org/abs/2602.21628",
+      "https://people.ucas.ac.cn/~0064227",
+      "https://aclanthology.org/2025.emnlp-tutorials.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/34753"
     ],
     "papers": [
       {
@@ -63012,9 +63139,37 @@ const facultyPaperAudits = {
         "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/chen26bk/chen26bk.pdf",
         "outcome": "lead",
         "note": "2026-02-25 首稿，ICML 正式版列 Bo Zheng 和另外三位阿里作者，增列张磊但仅署深研院及国科大。张磊公开论文页列同篇，但没有本篇具体参与阿里研发的证明。曲强共同署深研院，未见具名校内指导。"
+      },
+      {
+        "year": 2025,
+        "title": "Fine-Tuning Language Models with Collaborative and Semantic Experts",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34753/36908",
+        "outcome": "no-evidence",
+        "note": "AAAI 原文核对国科大博士生杨家玺具名阿里实习，官方档案所列导师为同篇杨敏。曲强是学术合著者，未见其指导杨家玺，因此只按杨敏归属。"
+      },
+      {
+        "year": 2025,
+        "title": "AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling",
+        "url": "https://arxiv.org/pdf/2501.09426v1",
+        "note": "2025-01-16 首稿：深研院、国科大、中科大、澳门大学、深大、深北莫、哈工深等学术单位共同研究多智能体模拟认知行为干预；未见目标企业同篇作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Small Language Model as Data Prospector for Large Language Model",
+        "url": "https://arxiv.org/pdf/2412.09990v1",
+        "note": "2024-12-13 首稿 SuperNUGGETS，深研院、中科大、UNSW、深圳理工。正文明确以早先 NUGGETS 为基线，新方法用小模型选择数据，为独立作品；未见目标企业实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "AutoPatent: A Multi-Agent Framework for Automatic Patent Generation",
+        "url": "https://arxiv.org/pdf/2412.09796v1",
+        "note": "2024-12-13 首稿有深研院、大连理工、南科大、深圳理工和 UNSW。王琪尧当时是大连理工本科生，其后在国科大的博士培养和企业实习与本篇不可倒推；未见目标企业。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "国科大官方介绍、身份绑定 ORCID、DBLP、ACL 作者合集及出版社数据已逐篇核对两批。将 Splicer+ 与 2023 ICDCS 首发合并，分开两篇有独立首稿的水电站研究。核对同名作者时排除只署辽宁科技大学的群体行为论文和只署西北农林科技大学的碳材料论文；几篇正文/版本仍待核，保留梳理中。"
+    "note": "经国科大官方介绍、绑定本人 ORCID 的 DBLP、期刊正式题录和研究组作者书目交叉查缺。已列 42 篇可识别作品；排除了其他同名作者、研究范围前首发的期刊后续版本，并归并 ICDCS 与 Splicer+。仍有少数正文/版本未完全取得，尚未将可识别公开范围标为全部梳理。"
   },
   "HFGNmPsAAAAJ": {
     "from": "2023-01-01",
@@ -63359,7 +63514,13 @@ const facultyPaperAudits = {
       "https://proceedings.mlr.press/v267/chi25b.html",
       "https://wow-world-model.github.io/",
       "https://mattie-e.github.io/M2Chat.github.io/",
-      "https://penghtyx.github.io/LUNA/"
+      "https://penghtyx.github.io/LUNA/",
+      "https://researchportal.hkust.edu.hk/en/persons/yike-guo/",
+      "https://arxiv.org/html/2311.17963v1",
+      "https://arxiv.org/html/2601.04137v1",
+      "https://arxiv.org/html/2503.08638v1#S15",
+      "https://a43992899.github.io/",
+      "https://github.com/litwellchi/M2Chat"
     ],
     "papers": [
       {
@@ -63424,6 +63585,27 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "项目及首稿列北京人形机器人创新中心、北京大学和港科大；北京人形机器人创新中心不在本次目标企业。"
+      },
+      {
+        "title": "M²Chat: Empowering VLM for Multimodal LLM Interleaved Text-Image Generation",
+        "url": "https://arxiv.org/abs/2311.17963",
+        "year": 2023,
+        "outcome": "lead",
+        "note": "2023-11-29 首稿名为 ChatIllusion，项目仓库保留同一论文的两个引用名。首稿明确列腾讯优图 Zhengkai Jiang 和 Chaoyou Fu，后版机构署名有变。第一作者池晓威在公开履历中确认的腾讯 Robotics X 实习开始于 2024 年 11 月，不能用于确认 2023 年的优图合作。"
+      },
+      {
+        "title": "Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test",
+        "url": "https://arxiv.org/abs/2601.04137v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2026-01-07 首稿，为独立发表的具身世界模型评测。原文单位与 WoW 同机构来源，仅北京人形机器人创新中心、北京大学和港科大，未见目标企业。"
+      },
+      {
+        "title": "YuE: Scaling Open Foundation Models for Long-Form Music Generation",
+        "url": "https://arxiv.org/abs/2503.08638",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "项目中袁锐斌在月之暗面的具体参与已有同篇证据；同篇关系按具名导师薛巍已记。郭毅可虽为同篇通讯作者，还未找到他对该实习学生的具名导师证据。美团与小红书作者的论文工作是评测，未见郭毅可指导的在读学生属于对应企业研究。"
       }
     ]
   },

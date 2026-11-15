@@ -47698,6 +47698,59 @@ const survey = {
         ]
       ],
       "evidence": "2025-06-23 首稿首页明确列池晓威为共同第一作者及项目负责人，署香港科技大学和腾讯 Robotics X；李珽光署腾讯 Robotics X，郭毅可署港科大并为通讯作者。池本人公开履历列 2024 年 11 月至 2025 年 8 月在腾讯 Robotics X 实习，港科大学位论文将 MinD 列为其博士研究，明确具名导师。李本人履历与同期署名交叉核实企业职位。首稿名称略异，两个版本按同一论文处理。"
+    },
+    {
+      "id": "alibaba-coe-ucas-yang",
+      "paperId": "doi:10.1609/aaai.v39i24.34753",
+      "company": "阿里巴巴",
+      "team": "通义 / Qwen",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "title": "Fine-Tuning Language Models with Collaborative and Semantic Experts",
+      "short": "CoE",
+      "date": "2025-04-11",
+      "venue": "AAAI 2025",
+      "area": "语言模型与智能体",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/download/34753/36908",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "研究期间为中国科学院大学深圳先进技术研究院研究员、博士生导师；本篇共同通讯作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "Binyuan Hui",
+        "本篇署阿里巴巴并为共同第一作者；EMNLP 2025 正式教程作者履历列为阿里通义 Qwen 高级研究科学家，从事 Qwen-Coder 研发。",
+        "https://huybery.github.io/"
+      ],
+      "student": [
+        "杨家玺 · Jiaxi Yang",
+        "国科大导师官方名录列其为博士生；首次署名后星注说明在阿里巴巴实习期间完成该研究。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "advising": [
+        "国科大博士导师",
+        "国科大官方教师档案的指导学生名单具名列杨家玺为杨敏所指导的博士研究生；杨敏在本篇为通讯作者。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "evidence": "AAAI 正式稿首页将实习脚注的星号只标在第一位作者杨家玺姓名后；他署深研院及国科大。同篇 Binyuan Hui 署阿里巴巴并为共同第一作者，杨敏署深研院并共同通讯。该论文研究用协同专家与语义专家完成监督微调，与另篇 Iterative Forward Tuning 的上下文学习算法不同。",
+      "extra": [
+        [
+          "AAAI 正式题录",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/34753"
+        ],
+        [
+          "期刊在线日期",
+          "https://api.crossref.org/works/10.1609/aaai.v39i24.34753"
+        ],
+        [
+          "同期阿里研发报告",
+          "https://arxiv.org/abs/2412.15115"
+        ],
+        [
+          "第 1 页：杨家玺姓名后的阿里实习脚注",
+          "https://ojs.aaai.org/index.php/AAAI/article/download/34753/36908#page=1"
+        ]
+      ]
     }
   ]
 };
