@@ -68147,5 +68147,57 @@ const facultyPaperAudits = {
         "note": "5 月首稿具名腾讯 Robotics X 合作者及多位高校作者，没有具名写在读作者于腾讯完成同项；同篇主题是缩短软件开发里的智能体路径，非跨任务经验池。"
       }
     ]
+  },
+  "lW9bpFIAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://hub.hku.hk/bitstream/10722/331903/1/content.pdf",
+      "https://hub.hku.hk/handle/10722/373228",
+      "https://www.cs.hku.hk/people/academic-staff/heming/",
+      "https://doi.org/10.1109/TPDS.2023.3247883",
+      "https://hku-systems.github.io/events/202503-hku-huawei-seminar/Li_Fanxin.pdf",
+      "https://data.epo.org/publication-server/rest/v1.0/publication-dates/20251210/patents/EP4660792NWA1/document.html",
+      "https://patents.google.com/patent/CN118504637A/zh",
+      "https://github.com/mindspore-ai/mindspore/blob/master/mindspore/ccsrc/frontend/parallel/pipeline_transformer/fold_pipeline_transformer.cc",
+      "https://haozesong.github.io/data/sigmod24-metis.pdf",
+      "https://hub.hku.hk/handle/10722/372647",
+      "https://www.alibabacloud.com/en/apsara-conference/speakers-2023?_p_lc=1",
+      "https://doi.org/10.1145/3626750",
+      "https://api.crossref.org/works/10.1145/3626750",
+      "https://haozesong.github.io/data/haoze.pdf",
+      "https://2024.sigmodconf.hosting.acm.org/sigmod-list.html",
+      "https://www.vldb.org/pvldb/vol18/p1756-song.pdf",
+      "https://michaelxschen.github.io/",
+      "https://arxiv.org/abs/2504.01460",
+      "https://haozesong.github.io/data/CV.pdf",
+      "https://claudiacauli.com/wp-content/uploads/2026/03/eurosys26.pdf",
+      "https://doi.org/10.14778/3725688.3725704"
+    ],
+    "papers": [
+      {
+        "title": "Fold3D: Rethinking and Parallelizing Computational and Communicational Tasks in the Training of Large DNN Models",
+        "url": "https://hub.hku.hk/bitstream/10722/331903/1/content.pdf",
+        "outcome": "confirmed",
+        "note": "IEEE 原文先行公开于 2023-02-22，首页列港大博士生李凡鑫、其导师崔鹤鸣及华为理论实验室高级研究员王森共同署名，并标明对应华为旗舰研究资助。港大学位论文实名确认指导及第一作者工作；该生向港大—华为联合研讨报告了 Fold3D 具体实现和华为昇腾 MindSpore 集成。华为同技术专利的中国优先日 2023-02-16，列李凡鑫、崔鹤鸣和王森共同发明，切片跨流水级排布与论文本项相符，证实在校期间参与同项企业研究。没有将其描述为华为实习生。",
+        "year": 2023
+      },
+      {
+        "title": "Rethink Query Optimization in HTAP Databases",
+        "url": "https://haozesong.github.io/data/sigmod24-metis.pdf",
+        "outcome": "confirmed",
+        "note": "ACM 第 1 卷第 4 期于 2023-12-12 在线公开，卷期日期为 12 月 8 日，次年在 SIGMOD 宣读。原文首页将香港大学博士生宋昊泽具体标为阿里集团实习期间完成；正式博士论文及履历证明崔鹤鸣导师关系，崔鹤鸣与阿里李飞飞、周文超、彭翔同篇署名。阿里云的当年活动确认李飞飞的企业职位，学生说明该研究 Metis 进入 PolarDB。",
+        "year": 2023
+      },
+      {
+        "title": "K2: On Optimizing Distributed Transactions in a Multi-region Data Store with TrueTime Clocks",
+        "url": "https://www.vldb.org/pvldb/vol18/p1756-song.pdf",
+        "outcome": "confirmed",
+        "note": "PVLDB 标称 2025 年 2 月卷期，Crossref 记载正式稿 8 月 29 日上线；同项 arXiv 扩展稿可核最早公开号为 2025-04-02。宋昊泽在读、其导师崔鹤鸣与华为云通讯作者陈旭生同文。宋昊泽的当期履历明确列华为云多地域 NewSQL 实习及 K2 进入 Global TKV；另一版本实名列陈旭生为企业导师，港大的博士论文则独立证实学术导师与 K2 课题。",
+        "year": 2025
+      }
+    ],
+    "note": "阶段性核查：已从港大官网、学位论文与同项企业证明交叉核实 Fold3D；继续补充该日期范围内完整公开书目。"
   }
 };
