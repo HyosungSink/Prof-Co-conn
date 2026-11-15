@@ -66659,7 +66659,12 @@ const facultyPaperAudits = {
       "https://researchportal.hkust.edu.hk/en/publications/irasim-learning-interactive-real-robot-action-simulators-2/",
       "https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.html",
       "https://www.taokong.org/",
-      "https://arxiv.org/pdf/2602.21157v1"
+      "https://arxiv.org/pdf/2602.21157v1",
+      "https://www.hkpeilab.com/publications",
+      "https://researchportal.hkust.edu.hk/en/publications/kvdrive-a-holistic-multi-tier-kv-cache-management-system-for-long/",
+      "https://2026.sigmod.org/sigmod_papers.shtml",
+      "https://arxiv.org/html/2603.00595v1",
+      "https://arxiv.org/pdf/2605.18067v1"
     ],
     "papers": [
       {
@@ -66717,6 +66722,27 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "no-evidence",
         "note": "ICML 正式发文及预印本首页确认港科大、EPFL、中山大学，首稿未署企业。朱方琪的字节实习属于同一广泛领域，未找到本篇实研在该企业进行的具名材料。"
+      },
+      {
+        "title": "KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference",
+        "url": "https://doi.org/10.1145/3802077",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "SIGMOD 作者明列港科大和西安交大，校方与原始预印本同日公开；未见范围企业在本项设计有同篇具名实研。"
+      },
+      {
+        "title": "PPAI: Enabling Personalized LLM Agent Interoperability for Collaborative Edge Intelligence",
+        "url": "https://arxiv.org/pdf/2605.18067v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "首稿仅署港科大与中山大学，技术内容为边缘设备的个性化代理互操作，与同日预印本 KVDrive 的缓存调度不同。"
+      },
+      {
+        "title": "UNICBench: UNIfied Counting Benchmark for MLLM",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Rong_UNICBench_UNIfied_Counting_Benchmark_for_MLLM_CVPR_2026_paper.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2 月首稿与 CVPR 正式论文属同一多模态计数基准；原文有中国电信 TeleAI 参与，该企业不在当前范围。"
       }
     ]
   },
@@ -66836,7 +66862,12 @@ const facultyPaperAudits = {
       "https://int-ustc.github.io/paper.html",
       "https://int-ustc.github.io/member.html",
       "https://dblp.org/pid/201/1240.html",
-      "https://orcid.org/0000-0003-1311-8908"
+      "https://orcid.org/0000-0003-1311-8908",
+      "https://www.fangjin.site/pdf/resume.pdf",
+      "https://icnp24.cs.ucr.edu/acceptedpapers.html",
+      "https://icnp26.cs.ucr.edu/program.html",
+      "https://researchconnect.buffalo.edu/en/publications/accelerating-distributed-training-through-in-network-aggregation-/",
+      "https://conferences.sigcomm.org/sigcomm/2026/program/papers/"
     ],
     "papers": [
       {
@@ -66845,7 +66876,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1109/ICNP61940.2024.10858582",
         "outcome": "lead",
         "relationIds": [],
-        "note": "ICNP 2024 正式原文由第一作者公开，列华为 Zhen Yao、An Xie，通讯作者赵功名、徐宏力。方缙在读及具名双导师均有本人履历，且 2023-12–2024-05 在华为研究过光路交换网络上的节点放置，但无法从原文把实习中的光路交换放置算法与本文 Titan 的非空闲节点碎片化机制等同，需作者、企业或学位论文的同项目证据。"
+        "note": "ICNP 2024 正式原文由第一作者公开，列华为 Zhen Yao、An Xie，通讯作者赵功名、徐宏力。方缙在读及具名双导师均有本人履历，且 2023-12–2024-05 在华为研究过光路交换网络上的节点放置，但无法从原文把实习中的光路交换放置算法与本文 Titan 的非空闲节点碎片化机制等同，需作者、企业或学位论文的同项目证据。 期刊 10.1109/TON.2025.3635222 仍名 Titan、同一非空闲策略和 74.9% 结果，新增动态任务迁移，合并为 ICNP 2024 首发；期刊新列华为 Baoyi An 与两名中国移动员工，未补企业内实研证据。 期刊 10.1109/TON.2025.3635222 仍名 Titan、同一非空闲策略和 74.9% 结果，新增动态任务迁移，合并为 ICNP 2024 首发；期刊新列华为 Baoyi An 与两名中国移动员工，未补企业内实研证据。"
       },
       {
         "year": 2024,
@@ -66909,7 +66940,7 @@ const facultyPaperAudits = {
         "url": "https://doi.org/10.1145/3589334.3645394",
         "outcome": "no-evidence",
         "relationIds": [],
-        "note": "作者公开 WWW 正式全文首面全七人为中科大；刘佳维毕业去华为，方缙履历亦有华为实习，但尚无同篇华为共同作者或企业侧同项实研。待核 IEEE TC 2026 是否明确扩展同篇。"
+        "note": "ACM 原文和布法罗大学 IEEE TC 2026.3709852 摘要同名 InArt、两阶段多参数服务器聚合及路由策略，2026 七人扩展合并，保留 WWW 2024 首发。两版已核单位为学研机构，未见目标企业共同作者或同项目实研。"
       },
       {
         "year": 2023,
@@ -66974,6 +67005,94 @@ const facultyPaperAudits = {
         "outcome": "lead",
         "relationIds": [],
         "note": "WWW 正式会议录给出华为 Min Chen、Xuwei Yang、Yongqiang Yang、Ying Xiong，依旧需要 Baoqing Wang 或其他在读学生当期直接参与华为项目的证据。刘佳维 2025 届后来去华为，2026 题录仍署中科大，不能把后续去向倒推至项目开展时。"
+      },
+      {
+        "year": 2024,
+        "title": "HiFiCNet: High-Fidelity Cloud Network Validation Platform at Scale by Hybrid Architecture",
+        "url": "https://icnp24.cs.ucr.edu/program.html",
+        "note": "IEEE ICNP 2024 议程列 Chun-Jen Chung、Min Chen、Xuwei Yang 为华为，刘佳维等四人当期在中科大。IEEE TC 10.1109/TC.2026.3700166 沿用 HiFiCNet 同一仿真器/模拟器混合架构，扩展版合并。未见刘佳维或另一具名学生在企业内完成同一项研究的当期证据，毕业去向不能补足。",
+        "outcome": "lead",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Achieving High-Throughput and Reliable Cross-Cluster VPC Communication in Clouds",
+        "url": "https://doi.org/10.1109/TON.2025.3628399",
+        "note": "2025 IWQoS 10.1109/IWQOS65803.2025.11143339 与 IEEE ToN 期刊均针对 HiReC 同名跨集群 VPC 通信，统一收录。两版本具名企业单位均为中国移动苏州，不在本项目企业名单。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Achieving Service-Level Distributed Hierarchical Bandwidth Allocation in Clouds",
+        "url": "https://doi.org/10.1109/TON.2026.3705001",
+        "note": "2025 IWQoS S-DAL (10.1109/IWQOS65803.2025.11143465) 与相同七位作者 IEEE ToN 同架构扩展合并。期刊出版社题录给出华为 Hao Shi、Wenjuan Hou、Meiyu Qi。尚无学生 Bao Jianfeng 或 Lu Junhong 的华为同项目资料。",
+        "outcome": "lead",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "CROP: Efficient and Robust Multi-Job Placement in Deep Learning Clusters",
+        "url": "https://doi.org/10.1109/IWQOS65803.2025.11143379",
+        "note": "IEEE 出版题录三名企业作者 Wentao Fan、Xiaohu Xu、Jun Yao 署中国移动（苏州）软件；第一作者杨鹏后到腾讯不能覆盖此文。IEEE ToN 10.1109/TON.2026.3719666 摘要仍命名 CROP，重合作者和同样的多任务放置目标、次模方法，期刊扩展合并；后版三名企业作者也仅署中国移动。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "CARD: Cost-Efficient and Availability-Aware Application Deployment in Geo-Distributed Clouds",
+        "url": "https://doi.org/10.1109/IWQOS65803.2025.11143360",
+        "note": "IEEE IWQoS 出版题录列中科大、广西信息中心、中国移动苏州及学术作者；中国移动不在 14 家范围，未见其他目标企业共同实施。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Multi-Tenant Deployment with Anomaly Isolation in Public Clouds",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11199983",
+        "note": "IEEE IWQoS 2025 具名中科大与广西数字基础设施重点实验室。SSRN 7370242 的同组研究与其问题和方法高度重合，暂不另计；两者都未见具名范围内企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "X-ClusterLink: An Efficient Cross-Cluster Communication Framework in Multi-Kubernetes Clusters",
+        "url": "https://doi.org/10.1145/3696410.3714846",
+        "note": "WWW 2025 具名正式会议录列中科大及肯塔基大学。同题 OpenReview 初稿匿名；正式资助为国家自然科学基金及中科院项目。在校老师另有神州信息合作，不属于企业范围，也缺本文具名关联。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2023,
+        "title": "A cost-efficient traffic engineering framework with various pricing schemes in clouds",
+        "url": "https://doi.org/10.1016/j.comnet.2025.111090",
+        "note": "作者公开的 2023 INFOCOM COIN 10.1109/INFOCOM53939.2023.10229001 与 2025 Elsevier 期刊题名同组，均为按计价方案做流量工程；统一保留 2023。主文署中科大、美国布法罗大学及苏州大学，没有具名目标企业。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "SchedEP: Online Scheduling of EP Communication with Token Aggregation and Load Balancing",
+        "url": "https://icnp26.cs.ucr.edu/acceptedpapers.html",
+        "note": "IEEE ICNP 2026 10 月会议五个具名作者均署中科大。无华为、腾讯或其他目标企业共同作者；该工程并非同会存在华为作者的 CODA。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2026,
+        "title": "NAST: In-Network Aggregation with Worker Selection for Accelerating Distributed Training",
+        "url": "https://doi.org/10.1109/IWQOS70441.2026.11661119",
+        "note": "IEEE IWQoS 出版题录为中科大、广西壮族自治区信息中心与南京理工大学；模型训练网络效率实验，没有范围内企业的同篇参与材料。",
+        "outcome": "no-evidence",
+        "relationIds": []
+      },
+      {
+        "year": 2025,
+        "title": "Rethinking Cloud Optimization: Volatility-Driven for Better Outcomes",
+        "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+        "note": "ACM SIGCOMM 2026 议程列腾讯云 Shaohui Xu、Fanjie Meng，王保清校方列为在读。首轮同组 APNet 2025（10.1145/3735358.3735371）研究同一空间聚合降低时间波动并共四名中科大作者，统一记早版，仍缺学生在腾讯云开展 Hestia 的具名材料，企业仅见扩展版。",
+        "outcome": "lead",
+        "relationIds": []
       }
     ],
     "note": "先对照本人论文全文、实验室题录、本人 ORCID/DBLP 与专门项目履历。已遇到同篇华为作者，但部分学生只可证明其他项目的企业实习，不能用任职或工作主题相似替代同项贡献。继续对出版方与校方近作补遗。"
@@ -67055,5 +67174,49 @@ const facultyPaperAudits = {
       }
     ],
     "note": "首批按计算所与个人公开书目逐篇核对题名、作者、研究单位和正文。胡杏个人履历记载华为任职为 2014–2016 年；不将既往任职或人名 Huawei Li 视作当前企业参与。其余年代及渠道继续梳理。"
+  },
+  "88tzr_sAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://scse.buaa.edu.cn/info/1388/11326.htm",
+      "https://liuaishan.github.io/publication.html",
+      "https://dblp.uni-trier.de/pid/177/5658.html",
+      "https://aclanthology.org/people/aishan-liu/",
+      "https://arxiv.org/html/2610.41165v1",
+      "https://arxiv.org/abs/2512.22628v1",
+      "https://arxiv.org/abs/2512.13472v1"
+    ],
+    "papers": [
+      {
+        "title": "LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling",
+        "url": "https://doi.org/10.1109/TPAMI.2026.3748520",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "TPAMI 早期正式日期与 arXiv 同为 2026-10-30。正文作者履历确认刘艾杉任北航副教授、肖一松和应宗浩在北航读博；原文披露其他机构不构成目标企业的同项目学生实研。"
+      },
+      {
+        "title": "Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks",
+        "url": "https://aclanthology.org/2026.emnlp-main.398.pdf",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "EMNLP 正式首页列北航、北邮、西电、360 AI Security Lab 与智源。360 不在本次企业范围；试验所用模型的厂商不等同于合著者。"
+      },
+      {
+        "title": "M2G-Eval: Enhancing and Evaluating Multi-granularity Multilingual Code Generation",
+        "url": "https://aclanthology.org/2026.emnlp-main.982.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "初次公开是 2025-12-27，按同一 arXiv 与 EMNLP 正式稿匹配一次。正式署北航、湖南大学、IQuest Research；后者不在调查范围，试验基模 Qwen 不改变作者归属。"
+      },
+      {
+        "title": "Scaling Laws for Code: Every Programming Language Matters",
+        "url": "https://aclanthology.org/2026.findings-acl.487.pdf",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2025-12-15 预印本，2026 ACL 正式版列北航、人大高瓴和 IQuest Research。IQuest 不在范围内；与 M2G-Eval 的代码评测不同，本项研究预训练规模与编程语言配比。"
+      }
+    ]
   }
 };
