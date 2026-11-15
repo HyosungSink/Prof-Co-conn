@@ -69984,7 +69984,10 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/169/9986.html",
       "https://orcid.org/0009-0007-7413-5679",
       "https://sydney-cryptography-group.github.io/publications/",
-      "https://alkistang.github.io/publication.html"
+      "https://alkistang.github.io/publication.html",
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Zhenliang+Lu%22+AND+submittedDate%3A%5B202301010000+TO+202611122359%5D",
+      "https://arxiv.org/abs/2605.12133v1",
+      "https://scholars.cityu.edu.hk/en/publications/turritopsis-practical-dynamic-asynchronous-bft/"
     ],
     "papers": [
       {
@@ -70042,8 +70045,65 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "no-evidence",
         "note": "IACR 2025-05-17 首稿与 IEEE S&P 2026 正式版同作。原稿涉及 Aptos Labs，不在调查范围；AWS 是实验资源。作者与技术重点均和 ICDCS 2025 面向大数据的 DPSS 不同。"
+      },
+      {
+        "title": "Optimal Adaptively Secure Hash-Based MVBA and Asynchronous Common Subset",
+        "url": "https://eprint.iacr.org/2024/1710",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "IACR 2024-10-19 首稿与 CRYPTO 2026（10.1007/978-3-032-35428-0_2）为同作；三位作者署大学，以首次公开年份归档。与同年首发、2025 在 DSN 发表的四作者作品分列。"
+      },
+      {
+        "title": "On the (Im)possibility of Asynchronous Proactive Secret Sharing",
+        "url": "https://eprint.iacr.org/2026/2018",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IACR 2026-09-14 公开原稿核见五所高校及新加坡公共研究机构 A*STAR，未见目标企业参与。与同领域其他主动秘密共享方案分列。"
+      },
+      {
+        "title": "Optimistic History-Independent Sleepy Atomic Broadcast",
+        "url": "https://eprint.iacr.org/2026/2024",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IACR 2026-09-17 批准公开；原稿四作者署南洋理工、港城大、悉尼大学，未见调查范围企业参与。"
+      },
+      {
+        "title": "Optimal Byzantine Atomic Broadcast with Message Drops",
+        "url": "https://eprint.iacr.org/2026/2150",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "IACR 2026-09-22 公开原稿，署港城大、西安交大、悉尼大学。原文将 2025 拜占庭协议列作前序工作，两项不合并。"
+      },
+      {
+        "title": "Isotaxis: Optimal Asynchronous Byzantine Consensus with Ordering Linearizability",
+        "url": "https://eprint.iacr.org/2026/2645",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "虽为 NDSS 2027，IACR 全文在 2026-10-26 已公开。具名 Redbelly Network 与 Amaroo 均在 14 家企业范围外，AWS EC2 只作实验环境。"
+      },
+      {
+        "title": "Unique Decoding of Extended Subcodes of GRS Codes Using Error-Correcting Pairs",
+        "url": "https://arxiv.org/abs/2508.18845",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2025-08-26 首稿名为 On decoding extended Han-Zhang codes；与 2026 IEEE 正式版归并。2026 arXiv:2605.12133 由作者明确说明是首稿中拆出的其余深洞内容的扩展，两个公开文本均核对，但同一研究系列在此只计一次。现有两稿作者单位无范围内企业。"
+      },
+      {
+        "title": "Turritopsis: Practical Dynamic Asynchronous BFT",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11014212",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "IEEE 2025-05-23 正式上线；悉尼组与作者书目指向相同 DOI。中车株洲所的具名作者单位在 14 家企业之外，AWS 亦非调查内企业参与。"
+      },
+      {
+        "title": "Entanglement-Assisted Quantum Locally Recoverable Codes: Characterizations, Bounds, and Constructions",
+        "url": "https://arxiv.org/html/2607.27091v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2026-07-29 原文以城大 CS 邮箱确认身份。另见南洋理工、VinUniversity、南京航空航天大学、合肥工业大学；论文未披露调查内企业参与。"
       }
-    ]
+    ],
+    "note": "已交叉核对香港城市大学、教师主页、合作组、DBLP 归档和 arXiv；临近截止日的 SAME 水印文章公告日期仍在核对，因此暂保留梳理中。"
   },
   "2meBhbQAAAAJ": {
     "from": "2023-01-01",
@@ -70148,5 +70208,211 @@ const facultyPaperAudits = {
       }
     ],
     "note": "许可于 2026 年入职中科大，早年按香港城市大学正式作品和该在读学生当期身份查。用自报 ORCID 和完整作者组排除同名 Ke Xu，逐篇查原文与学生的同一企业项目，待补完整公开书目。"
+  },
+  "ftIjnJkAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://www.usenix.org/conference/osdi26/presentation/huang-jiacheng",
+      "https://www.usenix.org/system/files/osdi26-huang-jiacheng.pdf",
+      "https://junqiaoqiu.github.io/sac.html",
+      "https://www.usenix.org/conference/osdi26/presentation/zhang-yunmo",
+      "https://www.usenix.org/system/files/osdi26-zhang-yunmo.pdf",
+      "https://github.com/YunMoZhang/POEGA",
+      "https://scholars.cityu.edu.hk/en/publications/efficient-gpu-centric-evolving-graph-processing-at-scale/",
+      "https://scholars.cityu.edu.hk/en/publications/gaaf-fast-and-scalable-graph-based-vector-similarity-search-with-/",
+      "https://doi.org/10.1145/3797905.3807855",
+      "https://api.crossref.org/works/10.1145%2F3797905.3807855",
+      "https://xizhengxi.com/imwut26-power-hong.pdf",
+      "https://doi.org/10.1145/3789684",
+      "https://doi.org/10.1145/3786994",
+      "https://www.usenix.org/system/files/atc25-zhang-yunmo.pdf",
+      "https://yunmozhang.github.io/",
+      "https://scholars.cityu.edu.hk/en/studentTheses/efficient-and-reliable-evolving-graph-processing-on-heterogeneous/",
+      "https://doi.org/10.1145/3706599.3719972",
+      "https://api.crossref.org/works/10.1145%2F3706599.3719972",
+      "https://digitalcommons.mtu.edu/michigantech-p2/2693/",
+      "https://ieeexplore.ieee.org/document/11282940",
+      "https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-59.pdf",
+      "https://doi.org/10.1145/3721145.3730419",
+      "https://scholars.cityu.edu.hk/en/publications/more-apps-faster-hot-launch-on-mobile-devices-via-forebackground-/",
+      "https://doi.org/10.1145/3620666.3651377",
+      "https://api.crossref.org/works/10.1145%2F3620666.3651377",
+      "https://scholars.cityu.edu.hk/en/persons/junqiqiu/",
+      "https://junqiaoqiu.github.io/",
+      "https://orcid.org/0000-0001-7776-3944",
+      "https://dblp.org/pid/185/0237.html",
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Junqiao%20Qiu%22+AND+submittedDate%3A%5B202301010000+TO+202611122359%5D",
+      "https://ieeexplore.ieee.org/document/9900440",
+      "https://soldierchen.github.io/publications/",
+      "https://link.springer.com/chapter/10.1007/978-981-92-7741-4_19",
+      "https://api.crossref.org/works/10.1007%2F978-981-92-7741-4_19",
+      "https://adma2026.github.io/proceedings.html",
+      "https://scholars.cityu.edu.hk/en/persons/junqiqiu/publications/?format=rss",
+      "https://pub.orcid.org/v3.0/0000-0001-7776-3944/works",
+      "https://openalex.org/A5013012522",
+      "https://openalex.org/W4296871886",
+      "https://api.crossref.org/works/10.1109%2FTCBB.2022.3208867",
+      "https://henryhxu.github.io/papers",
+      "https://soldierchen.github.io/news/"
+    ],
+    "papers": [
+      {
+        "title": "LifeLine: An Object-Page Lifetime Alignment GC Enabling Minimal Memory Copying for Mobile Devices",
+        "url": "https://www.usenix.org/conference/osdi26/presentation/huang-jiacheng",
+        "outcome": "no-evidence",
+        "note": "OSDI 正式论文及致谢已查看。导师和黄嘉诚、张耘墨等有公开学籍/指导资料。同篇作者机构为 CityU、武汉大学和 MBZUAI；OPPO 仅列科研资助，且在十四家范围外。",
+        "year": 2026
+      },
+      {
+        "title": "Efficient GPU-Centric Evolving Graph Processing at Scale",
+        "url": "https://www.usenix.org/conference/osdi26/presentation/zhang-yunmo",
+        "outcome": "no-evidence",
+        "note": "POEGA 原文首面/致谢和代码对应，CityU 香港博士论文列专章。署港城大、美国 UC Riverside、港中大、MBZUAI。字节 ByteGraph 是引用，不是参与；不和 PIE 合并（GPU/代理图方法另有出版）。",
+        "year": 2026
+      },
+      {
+        "title": "GAAF: Fast and Scalable Graph-based Vector Similarity Search with Any-Match Label Filtering",
+        "url": "https://scholars.cityu.edu.hk/en/publications/gaaf-fast-and-scalable-graph-based-vector-similarity-search-with-/",
+        "outcome": "no-evidence",
+        "note": "正式版两位港城大研究者与独立研究者 Yin；马梦阳当时在读，学校和导师具名，但该项仅见政府及港城大资助，无十四家署名或项目线索。",
+        "year": 2026
+      },
+      {
+        "title": "Visualizing Power Mode: The Impact of Battery-Saving Indicators on User Behavior During Intensive Mobile Interactions",
+        "url": "https://xizhengxi.com/imwut26-power-hong.pdf",
+        "outcome": "no-evidence",
+        "note": "ACM 正式原件列出全体作者均为香港城市大学计算机科学系；以模拟手机省电提示做用户实验，无目标企业署名。",
+        "year": 2026
+      },
+      {
+        "title": "C3: Finding Counting-related Crash Consistency Atomicity Bugs for Persistent Memory",
+        "url": "https://doi.org/10.1145/3786994",
+        "outcome": "no-evidence",
+        "note": "2025-07 ATC《Inferring Likely Counting-related Atomicity Program Properties for Persistent Memory》与 2026 ACM TOS 扩展版均同四位作者、同一计数约束技术、同 14 个缺陷，第一作者明确标 ATC 工作特邀 TOS，归一项，审计年份采用正式扩展版。署 CityU、港中大、MBZUAI。",
+        "year": 2026
+      },
+      {
+        "title": "Generative AI in Special Education: Teachers' Insights on Instructional Enrichment vs. Accommodations",
+        "url": "https://doi.org/10.1145/3706599.3719972",
+        "outcome": "no-evidence",
+        "note": "CHI EA 原始出版元数据列澳门大学学生团队和一名香港城市大学合作者。访谈对象或 AI 工具不是该项企业在职合作者。",
+        "year": 2025
+      },
+      {
+        "title": "ANG: Accelerating NFA processing on GPUs via Exploring Multi-Level Fine-Grained Parallelism",
+        "url": "https://digitalcommons.mtu.edu/michigantech-p2/2693/",
+        "outcome": "no-evidence",
+        "note": "PACT 正式论文校方作者档列密歇根理工与港城大。研究使用架构平台，其既往学生与驻校导师同篇，未见目标企业参与。",
+        "year": 2025
+      },
+      {
+        "title": "PIE: Enabling Fast and Scalable Incremental Evolving Graph Analytics on Persistent Memory",
+        "url": "https://hpcrl.github.io/ICS2025-webpage/program/Proceedings_ICS25/ics25-59.pdf",
+        "outcome": "no-evidence",
+        "note": "正式 ICS 首面列香港城市大学、加州大学河滨、香港中文大学和 MBZUAI 等；作者博士书目指明此为基于持久内存的增量系统，与后来 GPU 代理近似不同。",
+        "year": 2025
+      },
+      {
+        "title": "More Apps, Faster Hot-Launch on Mobile Devices via Fore/Background-aware GC-Swap Co-design",
+        "url": "https://scholars.cityu.edu.hk/en/publications/more-apps-faster-hot-launch-on-mobile-devices-via-forebackground-/",
+        "outcome": "no-evidence",
+        "note": "FLEET 原始出版方列 CityU 武大双署第一作者黄嘉诚，另有 ETH、KMUTNB 和 MBZUAI。导师公开确认；研究资助有 CCF–飞腾，飞腾不在本次企业范围，而且没有该企业署名。",
+        "year": 2024
+      },
+      {
+        "title": "GCI: GPU-Centric Concurrent Incremental Analysis on Dynamic Graphs",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-92-7741-4_19",
+        "outcome": "no-evidence",
+        "note": "Springer 章节页及 Crossref 都标正式在线 2026-11-06，ADMA 2026 宣读，Springer 引用格式列书版权年 2027；电子卷汇编 11-05，不取为章节确切日期。算法用单原子操作更新顶点依赖、同步追踪父节点和并发查询资源分配，区别于 PIE 的持久内存和 POEGA 的代理图。出版社首部把刘泽谕、张耘墨、邱俊乔列香港城市大学；Xizhe Yin 用 UCR 学校邮箱。未见本次企业。",
+        "year": 2026
+      }
+    ],
+    "note": "将港城大完整 22 项公开成果 RSS、课题组和作者页、ORCID 0000-0001-7776-3944、DBLP PID 185/0237 的 2026-11-01 快照、日期限定 arXiv（无结果）、实名补漏索引、学生论文库和各篇正式文件相互核对。审计期 2023-01-01 至 2026-11-12；归并 2025 ATC/2026 TOS 的 C3。Motif 2022-09-23 首发，2023 出卷；不计。OmniBit 2026-10 仅查到 PPoPP 2027 录用公告，截止日前未发现可核查正文，未计。GCI 的章节正式上线为 2026-11-06，虽然 Springer 标注版权及书目年 2027。"
+  },
+  "NWoYRf8AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~houfei",
+      "https://lcs.ios.ac.cn/~houf/index.html",
+      "https://orcid.org/0000-0001-8226-6635",
+      "https://dblp.org/pid/24/3702-1.html"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Dynamic Ocean Inverse Modeling Based on Differentiable Rendering",
+        "url": "https://iccvm.org/2023/papers/s9-3-173-CVMJ.pdf",
+        "note": "CVM 2023 年 4 月 8 日已公开报告；2024 正式刊版 10.1007/s41095-023-0338-4 和单位勘误 10.1007/s41095-024-0398-z 合并。论文借助可微渲染从图像估计动力学参数，致谢列华为创新研究计划 TC20220616019，但无华为署名员工或学生在华为参加该项目的证据。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2024,
+        "title": "Diffusing Winding Gradients (DWG): A Parallel and Scalable Method for 3D Reconstruction from Unoriented Point Clouds",
+        "url": "https://arxiv.org/html/2405.13839v2",
+        "note": "2024-05-22 首稿，TOG 卷版 10.1145/3727873 同篇。迭代扩散广义绕数场的梯度以重建未定向点云；陈谦署商汤研究院（范围外），NVIDIA 是实验硬件。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "A Lightweight UDF Learning Framework for 3D Reconstruction Based on Local Shape Functions",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hu_A_Lightweight_UDF_Learning_Framework_for_3D_Reconstruction_Based_on_CVPR_2025_paper.pdf",
+        "note": "2024-07-01 arXiv:2407.01330 用早期题名公开，CVPR 2025 合并为同篇。局部形状函数训练轻量无符号距离场，作者单位为研究所和高校；致谢提到南洋理工有未具名行业伙伴，未能识别为目标企业或查到同篇的学生企业研究。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Quasi-Medial Distance Field (Q-MDF): A Robust Method for Approximating and Discretizing Neural Medial Axes",
+        "url": "https://arxiv.org/html/2410.17774v2",
+        "note": "2024-10-23 首稿，TOG 2026 卷版 10.1145/3795772 同篇。将三维中轴提取转化为无符号距离场的零水平集；企业署名为 Hanqing Jiang、Chen Qian 的商汤研究院（范围外）。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "A Divide-and-Conquer Approach for Global Orientation of Non-Watertight Scene-Level Point Clouds Using 0-1 Integer Optimization",
+        "url": "https://arxiv.org/pdf/2505.23469v1",
+        "note": "2025-05-29 首稿，TOG 10.1145/3730923 同篇。将非闭合场景分块，并通过零一整数规划实现全局定向；核查署名和资助，仅软件所、国科大及高校等学术单位，无目标企业项目证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "MIND: Material Interface Generation from UDFs for Non-Manifold Surface Reconstruction",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/ae3ebc8b02ffe3a5b6bd46af5c4aba59-Paper-Conference.pdf",
+        "note": "2025-06-03 arXiv:2506.02938 首稿，与 NeurIPS 2025 同篇；从无符号距离场构造非流形材料界面。作者为软件所、国科大及高校，致谢为国家、研究所和新加坡教育部项目；实验使用 NVIDIA GPU。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "TopoGen: Topology-Aware 3D Generation with Persistence Points",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70257",
+        "note": "2025-10-11 正式上线，Pacific Graphics 版同篇。以 Betti 数和持久点控制三维形状生成；Chen Qian 署商汤（范围外），未见范围内企业同篇证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "SharpNet: Enhancing MLPs to Represent Functions with Controlled Non-differentiability",
+        "url": "https://arxiv.org/pdf/2601.19683v1",
+        "note": "2026-01-27 首稿，TOG 10.1145/3811330 同篇。用辅助 Poisson 表示改善神经网络对尖锐或不连续函数的拟合；署名为软件所、国科大和南洋理工，NVIDIA 为训练设备。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Joint Orientation and Weight Optimization for Robust Watertight Surface Reconstruction via Dirichlet-Regularized Winding Fields",
+        "url": "https://arxiv.org/pdf/2602.13801v1",
+        "note": "2026-02-14 首稿，正式卷版改题 10.1145/3842515。DiWR 同时优化法向、面积权重与置信系数，区别以迭代扩散梯度定向的 DWG。论文作者均署学术单位；NVIDIA 为实验设备。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "MoCoDiff: A Controllable Autoregressive Diffusion Model for Expressive Motion Generation",
+        "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Song_MoCoDiff_A_Controllable_Autoregressive_Diffusion_Model_for_Expressive_Motion_Generation_CVPR_2026_paper.pdf",
+        "note": "CVPR 2026 正文：动作生成分开注入文本、风格和历史信号，用时间条件维持长序列稳定。各作者署名高校或研究实验室；致谢资助来自地方和国家基金、浙江大学实验室及软件所。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "第一批：核对国科大导师页、软件所精选书目和 ORCID/DBLP 身份索引，再回到逐篇原文核读。已将同一工作的公开首稿、正式稿及勘误合并。书目仍有未审部分，暂标梳理中。"
   }
 };
