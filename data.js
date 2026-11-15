@@ -46736,6 +46736,114 @@ const survey = {
           "https://arxiv.org/html/2310.12481v1"
         ]
       ]
+    },
+    {
+      "id": "huawei-cloud-sodacoder-hit-cuiyun-gao",
+      "title": "Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs",
+      "short": "SODA / SodaCoder",
+      "date": "2024-08-07",
+      "year": 2024,
+      "venue": "FSE 2025",
+      "company": "华为",
+      "team": "华为云 · PaaS 技术创新实验室",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "area": "代码大模型与知识蒸馏",
+      "paper": "https://doi.org/10.1145/3729405",
+      "paperId": "10.48550/arXiv.2408.03680",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈尔滨工业大学（深圳）教授，原稿与会议列为通讯作者。",
+        "http://faculty.hitsz.edu.cn/gaocuiyun"
+      ],
+      "employee": [
+        "马宇驰 · Yuchi Ma",
+        "正式会议官方嘉宾档案列其为华为云 Dev AI Lab 负责人；2024 年论文首稿同篇署华为云及企业邮箱。",
+        "https://gotc2023.oschina.net/guest/lists/en/"
+      ],
+      "student": [
+        "Yujia Chen",
+        "研究时以哈工大（深圳）学生邮箱和单位署名；本人列华为云 PaaS 技术创新实验室研究实习，明确与本篇马宇驰、李钟麒共同开展代码大模型知识蒸馏。",
+        "https://yujiachen99.github.io/experience/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开主页与高翠芸的指导清单均确认其哈工大博士导师；首稿与正式版署同校。",
+        "https://yujiachen99.github.io/"
+      ],
+      "evidence": "学生在本人实习履历明确列代码大模型知识蒸馏及同篇华为研究人员李钟麒、马宇驰；首稿写研究对象与方法完全对应，并逐名列二人公司身份及高翠芸通讯。正式发表由 IterKD / IterCoder 改名 SODA / SodaCoder，为同一档案的版本。",
+      "extra": [
+        [
+          "2024 年 8 月首稿及导师署名",
+          "https://arxiv.org/html/2408.03680v1"
+        ],
+        [
+          "同一论文版本记录",
+          "https://arxiv.org/abs/2408.03680"
+        ],
+        [
+          "FSE 正式论文与作者所属机构",
+          "https://conf.researchr.org/details/fse-2025/fse-2025-research-papers/133/Smaller-but-Better-Self-Paced-Knowledge-Distillation-for-Lightweight-yet-Effective-L"
+        ],
+        [
+          "企业负责人在华为云 2024 年研究任职材料",
+          "https://conf.researchr.org/profile/ase-2024/yuchima"
+        ]
+      ]
+    },
+    {
+      "id": "ant-codefuse-swe-fuse-hit-cuiyun-gao",
+      "title": "Free Is More: Empowering Software Agents via Issue-Free Trajectory Learning and Entropy-Aware RLVR Training",
+      "short": "SWE-Fuse / Free Is More",
+      "date": "2026-03-09",
+      "year": 2026,
+      "venue": "ASE 2026",
+      "company": "蚂蚁集团",
+      "team": "CodeFuse · 智能平台工程",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "area": "代码智能体与强化学习",
+      "paper": "https://doi.org/10.1145/3832783.3834438",
+      "paperId": "10.48550/arXiv.2603.07927",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈尔滨工业大学（深圳）教授及 Xin-Cheng Wen 的博士导师；首稿署香港中文大学为通讯作者，ASE 正式日程将其和学生均列为哈工大。",
+        "http://faculty.hitsz.edu.cn/gaocuiyun"
+      ],
+      "employee": [
+        "彭迪 · Peng Di",
+        "本人公开履历记 2020 至 2026 年任蚂蚁集团高级技术专家并领导智能平台工程团队；首稿列其蚂蚁公司邮箱和通讯作者。",
+        "https://pengd.github.io/"
+      ],
+      "student": [
+        "Xin-Cheng Wen",
+        "2022 年起为哈工大（深圳）硕博连读学生；首稿以蚂蚁集团署名，并明确注明在蚂蚁集团研究实习期间完成。ASE 正式日程列其单位为哈工大。",
+        "https://github.com/Xin-Cheng-Wen/Xin-Cheng-Wen/blob/main/README.md"
+      ],
+      "advising": [
+        "博士导师",
+        "高翠芸本人课题组指导名单将 Xin-Cheng Wen 列为现指导博士生。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "evidence": "2026 年 3 月首稿的脚注具名确认 Xin-Cheng Wen 在蚂蚁集团研究实习期间完成 SWE-Fuse。彭迪同篇署蚂蚁集团，履历支持其研究阶段的企业任职；高翠芸是首稿共同通讯作者，虽在该版署香港中文大学，ASE 正式日程把她与在读学生均列哈工大。学生的硕博连读日期和高翠芸的公开指导名单支持该校关系。正式发表改题 Free Is More，合计一篇。",
+      "extra": [
+        [
+          "首稿原文与具名实习脚注",
+          "https://arxiv.org/html/2603.07927v1"
+        ],
+        [
+          "ASE 正式日程与作者机构",
+          "https://conf.researchr.org/room/rssr-2026/ase-2026-venue1-forum-1"
+        ],
+        [
+          "通讯作者的官方机构书目与 DOI",
+          "https://research.unsw.edu.au/people/mr-peng-di/publications"
+        ],
+        [
+          "首版 PDF 标明机构与具名实习",
+          "https://arxiv.org/pdf/2603.07927v1#page=1"
+        ]
+      ]
     }
   ]
 };
