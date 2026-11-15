@@ -67758,5 +67758,220 @@ const facultyPaperAudits = {
       }
     ],
     "note": "已按中科大师资、实验室成果和学生的具名师承核查一组独立作品。较长全量公开书目仍待梳理；师承和论文参与清楚时，企业同项目实研另查。"
+  },
+  "pyLCHy0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": true,
+    "sources": [
+      "https://arxiv.org/pdf/2604.20398v1",
+      "https://shenjiasi.com/group.html",
+      "https://seng.hkust.edu.hk/about/people/faculty/jiasi-shen",
+      "https://yuewang-cuhk.github.io/",
+      "https://arxiv.org/html/2604.20398v1",
+      "https://tongyi-mai.github.io/MobileWorld/",
+      "https://github.com/juyongjiang/WebGen-R1",
+      "https://doi.org/10.1145/3821424",
+      "https://arxiv.org/html/2503.15231v1",
+      "https://researchportal.hkust.edu.hk/en/publications/when-retrieval-augmentation-meets-api-documentation-can-llms-code/",
+      "https://aclanthology.org/2026.findings-emnlp.1640/",
+      "https://arxiv.org/html/2604.18027v1",
+      "https://aclanthology.org/2026.findings-emnlp.1640.pdf",
+      "https://aclanthology.org/2026.emnlp-main.2018/",
+      "https://aclanthology.org/2026.emnlp-main.2018.pdf",
+      "https://aclanthology.org/2026.findings-emnlp.1634/",
+      "https://aclanthology.org/2026.findings-emnlp.1634.pdf",
+      "https://aclanthology.org/2026.findings-emnlp.1860/",
+      "https://arxiv.org/html/2610.04981v1",
+      "https://aclanthology.org/2026.findings-acl.1872/",
+      "https://arxiv.org/abs/2603.05863",
+      "https://aclanthology.org/2026.findings-acl.1872.pdf",
+      "https://doi.org/10.4230/LIPIcs.ECOOP.2026.25",
+      "https://arxiv.org/abs/2505.02493",
+      "https://doi.org/10.4230/DARTS.12.1.19",
+      "https://doi.org/10.1609/aaai.v40i37.40437",
+      "https://arxiv.org/abs/2504.20964",
+      "https://doi.org/10.1145/3747588",
+      "https://arxiv.org/abs/2406.00515",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ab88937bac4df5814314f3f8a360f913-Abstract-Conference.html",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/ab88937bac4df5814314f3f8a360f913-Paper-Conference.pdf",
+      "https://doi.org/10.1145/3763071",
+      "https://shenjiasi.com/assets/oopsla25-sprout.pdf",
+      "https://doi.org/10.1109/Blockchain67634.2025.00034",
+      "https://hal.science/hal-05320618",
+      "https://researchportal.hkust.edu.hk/en/publications/hermes-scalable-and-robust-structure-aware-optimal-routing-for-de/",
+      "https://doi.org/10.1109/HPEC67600.2025.11196449",
+      "https://arxiv.org/abs/2508.20403",
+      "https://arxiv.org/html/2607.17780v1",
+      "https://github.com/etas-project/etas",
+      "https://arxiv.org/html/2602.15449v1",
+      "https://github.com/deep-diver/TAROT",
+      "https://arxiv.org/html/2511.21380v1",
+      "https://arxiv.org/html/2607.15684v1",
+      "https://arxiv.org/html/2608.20776v1",
+      "https://arxiv.org/abs/2608.20776",
+      "https://shenjiasi.com/papers.html",
+      "https://shenjiasi.com/links.html",
+      "https://researchportal.hkust.edu.hk/en/persons/jiasi-shen/",
+      "https://dblp.org/pid/160/0554.html",
+      "https://orcid.org/0000-0002-5904-3641",
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Jiasi%20Shen%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=100"
+    ],
+    "papers": [
+      {
+        "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+        "url": "https://arxiv.org/pdf/2604.20398v1",
+        "outcome": "confirmed",
+        "note": "2026-04-22 首版具名把 Juyong Jiang 的该项工作标为阿里研究实习，页首列港科大广州、港科大双校区。香港科技大学沈嘉思的组员名录独立证实她和 Sunghun Kim 为学术共同导师，同篇均有署名；企业通讯作者 Yue Wang 由阿里通义原文及个人职业主页交叉证实。仅确认阿里实习；同篇的蚂蚁作者不据此推定学生也在蚂蚁实习。",
+        "year": 2026
+      },
+      {
+        "title": "When Retrieval Augmentation Meets API Documentation: Can LLMs Code with Less-Common Libraries?",
+        "url": "https://doi.org/10.1145/3821424",
+        "outcome": "no-evidence",
+        "note": "2025 年 arXiv 首版题名不同、作者相同，2026-06-25 ACM 先行在线。首版和正式作者题栏为港科大及其广州研究院，未见目标企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "CODEPIVOT: Bootstrapping Multilingual Transpilation in LLMs via Reinforcement Learning with Reduced Reliance on Parallel Corpora",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1640/",
+        "outcome": "no-evidence",
+        "note": "2026 年四月首稿题名有别，与 EMNLP Findings 正式版同项合并。出版首页为港科大、港科大广州、Monash 与香港中文大学，未见目标企业合著。",
+        "year": 2026
+      },
+      {
+        "title": "Do LLM-Generated Web Apps Behave Correctly? A Contract-Grounded Benchmark for Behavioral Conformance",
+        "url": "https://aclanthology.org/2026.emnlp-main.2018/",
+        "outcome": "no-evidence",
+        "note": "正式论文首面列港科大两校区以及韩国 ETRI，未见范围内企业署名或具名项目。",
+        "year": 2026
+      },
+      {
+        "title": "Learning to Code by Learning to Verify: Execution-Grounded Co-Evolution of Code Generation and Self-Verification for Reliable Code LLMs",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1634/",
+        "outcome": "no-evidence",
+        "note": "正式首页列港科大两校区与韩国 ETRI；与同组其他生成论文分开核对，未见目标企业合著。",
+        "year": 2026
+      },
+      {
+        "title": "TeleGen: Improving LLM-Based Web Application Generation via Runtime Telemetry",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1860/",
+        "outcome": "no-evidence",
+        "note": "首稿和会议稿同项。作者机构为滑铁卢大学及港科大两校区，未见范围内企业的学生研究。",
+        "year": 2026
+      },
+      {
+        "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+        "url": "https://aclanthology.org/2026.findings-acl.1872/",
+        "outcome": "no-evidence",
+        "note": "合并首稿和正式论文。首页除了港科大两校区，还署 Amazon AGI 和 NAVER Cloud，二者均不在本次企业范围。",
+        "year": 2026
+      },
+      {
+        "title": "Proof-of-Theft: Dynamic Graph-Based Fingerprinting of In-Browser Cryptomining",
+        "url": "https://doi.org/10.4230/LIPIcs.ECOOP.2026.25",
+        "outcome": "no-evidence",
+        "note": "2025 年改题前 arXiv、正式 ECOOP 论文与 DARTS 复现制品合并。正式论文两位作者均署港科大，没有目标企业项目证据。",
+        "year": 2026
+      },
+      {
+        "title": "OSVBench: Benchmarking LLMs on Specification Generation Tasks for Operating System Verification",
+        "url": "https://doi.org/10.1609/aaai.v40i37.40437",
+        "outcome": "no-evidence",
+        "note": "2025 预印本并入 2026 AAAI；港科大两校区与 Georgia Tech 为原文所列机构，未见目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "A Survey on Large Language Models for Code Generation",
+        "url": "https://doi.org/10.1145/3747588",
+        "outcome": "no-evidence",
+        "note": "2024 首稿、2025 接收与 2026 TOSEM 刊期合并。原文企业 NAVER Cloud 不在本次范围。",
+        "year": 2026
+      },
+      {
+        "title": "ProfiX: Improving Profile-Guided Optimization in Compilers with Graph Neural Networks",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ab88937bac4df5814314f3f8a360f913-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "NeurIPS 正式论文署港科大本部和广州校区；同组博士与导师合著但未见范围内企业参与项目。",
+        "year": 2025
+      },
+      {
+        "title": "A Sound Static Analysis Approach to I/O API Migration",
+        "url": "https://doi.org/10.1145/3763071",
+        "outcome": "no-evidence",
+        "note": "正式稿署港科大和北大；没有本次目标企业的作者或具名项目证据。",
+        "year": 2025
+      },
+      {
+        "title": "Hermes: Scalable and Robust Structure-Aware Optimal Routing for Decentralized Exchanges",
+        "url": "https://doi.org/10.1109/Blockchain67634.2025.00034",
+        "outcome": "no-evidence",
+        "note": "港科大与伊朗 Digikala 联合署名，后者不在目标企业范围。HAL 版本与 IEEE 正式版同项。",
+        "year": 2025
+      },
+      {
+        "title": "pdGRASS: A Fast Parallel Density-Aware Algorithm for Graph Spectral Sparsification",
+        "url": "https://doi.org/10.1109/HPEC67600.2025.11196449",
+        "outcome": "no-evidence",
+        "note": "IEEE HPEC 和同作者增补版并入。首页为 Georgia Tech、山东大学、中国石油大学（北京）、浙江大学与港科大，未见目标企业。",
+        "year": 2025
+      },
+      {
+        "title": "ETAS: An Effect-Typed Language for Agent Systems",
+        "url": "https://arxiv.org/html/2607.17780v1",
+        "outcome": "no-evidence",
+        "note": "首面五位作者均为港科大；复查作者项目未见范围内企业参加该项工作。",
+        "year": 2026
+      },
+      {
+        "title": "TAROT: Test-driven and Capability-adaptive Curriculum Reinforcement Fine-tuning for Code Generation with Large Language Models",
+        "url": "https://arxiv.org/html/2602.15449v1",
+        "outcome": "lead",
+        "note": "首稿具名港科大广州在读生 Juyong Jiang、导师沈嘉思及蚂蚁集团 Jianguo Li。同一学生的阿里实习是另一篇；TAROT 未找到其在蚂蚁为本项目实际开展研究的独立证据。",
+        "year": 2026
+      },
+      {
+        "title": "Multi-Agent Systems for Dataset Adaptation in Software Engineering: Capabilities, Limitations, and Future Directions",
+        "url": "https://arxiv.org/html/2511.21380v1",
+        "outcome": "no-evidence",
+        "note": "同篇作者署港科大、中国科学技术大学，未见目标企业作者或参与项目材料。",
+        "year": 2025
+      },
+      {
+        "title": "Understanding Agent-Reactive Bugs at the Model-Harness Boundary: An Empirical Study of LLM Agent Issue Reports",
+        "url": "https://arxiv.org/html/2607.15684v1",
+        "outcome": "no-evidence",
+        "note": "港科大和广州霍英东研究院为作者单位。以公司发布的软件问题作为观察对象不构成该企业参与合作。",
+        "year": 2026
+      },
+      {
+        "title": "An Extensive Empirical Study on Code Translation Techniques",
+        "url": "https://arxiv.org/html/2608.20776v1",
+        "outcome": "no-evidence",
+        "note": "arXiv 元数据用单数 Technique、正文题名为 Techniques，同项只记一次；署天津大学和港科大，未找到目标企业共研。",
+        "year": 2026
+      }
+    ],
+    "note": "2023-01-01 至 2026-11-12 可识别公开书目核查完成：教师完整公开论文页、港科大学术成果、ORCID、DBLP 2026-11-01 归档的实名 PID 160/0554，以及 arXiv 同作者日期索引（14 个原始预印本）交叉。预印本、改题、扩大版本和同篇复现工件按实际研究去重；近期期刊先行日期按校方与出版社核对。未闭合企业研究证据者仍单列线索。"
+  },
+  "JE_m2UgAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim#new_tab",
+      "https://hunkim.cse.ust.hk/Bio.html",
+      "https://shenjiasi.com/group.html",
+      "https://arxiv.org/html/2604.20398v1"
+    ],
+    "papers": [
+      {
+        "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+        "url": "https://arxiv.org/html/2604.20398v1",
+        "year": 2026,
+        "outcome": "confirmed",
+        "note": "阿里实习脚注点名 Juyong Jiang；港科大课题组具名 Sunghun Kim 与沈嘉思共同指导且两人均在同一论文作者行。两条导师证据按论文计一条已确认关系。"
+      }
+    ]
   }
 };

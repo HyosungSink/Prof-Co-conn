@@ -48542,6 +48542,110 @@ const survey = {
         ]
       ],
       "evidence": "首稿和 NeurIPS 正式版首页明确说明第一作者 Yuxin Pan 在腾讯 AI Lab 实习期间完成本篇。港科大授予 2025 年博士学位的官方论文档案具名介绍完全相同的 MoSES 算法和实验作为该生攻读博士的工作，并列林方真和 Yize Chen 为共同博士导师。企业同篇作者赵沛霖实名列 2017–2025 年任该实验室Principal Researcher，研究时段以学位研究与同期实习为准，不用十月公开日推定仍在学。"
+    },
+    {
+      "id": "alibaba-webgen-r1-hkust-jiasi-shen",
+      "company": "阿里巴巴",
+      "team": "通义实验室 MAI-UI 团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学（广州）",
+      "employee": [
+        "Yue Wang",
+        "同篇企业通讯作者，署阿里通义实验室。其本人研究主页实名自报为阿里通义 MAI-UI 团队负责人，通义公开的 MobileWorld 项目确认同一人及单位。",
+        "https://yuewang-cuhk.github.io/"
+      ],
+      "student": [
+        "Juyong Jiang",
+        "HKUST（广州）在读博士，论文以港科大广州和港科大双单位署名，首页具名脚注明确这项工作在阿里研究实习期间完成。",
+        "https://arxiv.org/pdf/2604.20398v1"
+      ],
+      "faculty": [
+        "沈嘉思 · Jiasi Shen",
+        "香港科技大学计算机科学及工程学系助理教授，首稿同署港科大。",
+        "https://seng.hkust.edu.hk/about/people/faculty/jiasi-shen"
+      ],
+      "advising": [
+        "博士共同导师",
+        "沈嘉思在港科大课题组网站将 Juyong Jiang 列为自己与广州校区 Sunghun Kim 共同指导的博士生。沈嘉思和 Kim 均同篇署名。",
+        "https://shenjiasi.com/group.html"
+      ],
+      "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+      "short": "WebGen-R1",
+      "date": "2026-04-22",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型",
+      "paper": "https://arxiv.org/pdf/2604.20398v1",
+      "extra": [
+        [
+          "首稿、准确日期与同篇实习脚注",
+          "https://arxiv.org/html/2604.20398v1"
+        ],
+        [
+          "阿里公开项目确认同一企业通讯作者",
+          "https://tongyi-mai.github.io/MobileWorld/"
+        ],
+        [
+          "学生同项目代码",
+          "https://github.com/juyongjiang/WebGen-R1"
+        ],
+        [
+          "同篇广州校区共同导师的学校档案",
+          "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim#new_tab"
+        ]
+      ],
+      "evidence": "2026-04-22 首版具名把 Juyong Jiang 的该项工作标为阿里研究实习，页首列港科大广州、港科大双校区。香港科技大学沈嘉思的组员名录独立证实她和 Sunghun Kim 为学术共同导师，同篇均有署名；企业通讯作者 Yue Wang 由阿里通义原文及个人职业主页交叉证实。仅确认阿里实习；同篇的蚂蚁作者不据此推定学生也在蚂蚁实习。"
+    },
+    {
+      "id": "alibaba-webgen-r1-hkust-gz-sunghun-kim",
+      "company": "阿里巴巴",
+      "team": "通义实验室 MAI-UI 团队",
+      "school": "香港科技大学（广州）",
+      "studentSchool": "香港科技大学（广州）",
+      "employee": [
+        "Yue Wang",
+        "同篇企业通讯作者，署阿里通义实验室。其本人研究主页实名自报为阿里通义 MAI-UI 团队负责人，通义公开的 MobileWorld 项目确认同一人及单位。",
+        "https://yuewang-cuhk.github.io/"
+      ],
+      "student": [
+        "Juyong Jiang",
+        "HKUST（广州）在读博士，论文以港科大广州和港科大双单位署名，首页具名脚注明确这项工作在阿里研究实习期间完成。",
+        "https://arxiv.org/pdf/2604.20398v1"
+      ],
+      "faculty": [
+        "Sung Hun KIM · Sunghun Kim",
+        "香港科技大学（广州）数据科学与分析学域副教授；论文作者行作 Sunghun Kim，署港科大（广州）。",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim#new_tab"
+      ],
+      "advising": [
+        "博士共同导师",
+        "港科大软件自动化课题组列 Juyong Jiang 为沈嘉思和广州校区 Sunghun Kim 共同指导的博士生。两位导师均署名原作。",
+        "https://shenjiasi.com/group.html"
+      ],
+      "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+      "short": "WebGen-R1",
+      "date": "2026-04-22",
+      "venue": "arXiv 预印本",
+      "area": "大语言模型",
+      "paper": "https://arxiv.org/pdf/2604.20398v1",
+      "extra": [
+        [
+          "首稿、准确日期与同篇实习脚注",
+          "https://arxiv.org/html/2604.20398v1"
+        ],
+        [
+          "阿里公开项目确认同一企业通讯作者",
+          "https://tongyi-mai.github.io/MobileWorld/"
+        ],
+        [
+          "学生同项目代码",
+          "https://github.com/juyongjiang/WebGen-R1"
+        ],
+        [
+          "同篇清水湾校区共同导师的学校档案",
+          "https://seng.hkust.edu.hk/about/people/faculty/jiasi-shen"
+        ]
+      ],
+      "evidence": "2026-04-22 首版具名把 Juyong Jiang 的该项工作标为阿里研究实习，页首列港科大广州、港科大双校区。香港科技大学沈嘉思的组员名录独立证实她和 Sunghun Kim 为学术共同导师，同篇均有署名；企业通讯作者 Yue Wang 由阿里通义原文及个人职业主页交叉证实。仅确认阿里实习；同篇的蚂蚁作者不据此推定学生也在蚂蚁实习。"
     }
   ]
 };
