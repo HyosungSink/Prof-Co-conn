@@ -48442,6 +48442,106 @@ const survey = {
         ]
       ],
       "evidence": "首稿确认耿欣宇为同时署港科大与腾讯的共同第一作者，Haitao Mi 署腾讯，Yi R. Fung 署港科大并任通讯，学生履历具名导师和当时在腾讯的自蒸馏研究。学生公开的较早论文题名和现有代码是同一可验证检索环境，Hugging Face 项目存档证明他在 2026-05-26 已提交论文对应的检索索引、页面读取数据库与脚本。7 月公开首稿晚于他在腾讯的实习期，未据此推断他 7 月仍在腾讯。"
+    },
+    {
+      "id": "meituan-bad-seeing-hkust-fangzhen-lin",
+      "company": "美团",
+      "team": "LongCat 团队",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "employee": [
+        "Chong Peng",
+        "该篇论文以美团署名；美团 LongCat 团队连续多份研究报告将其列作团体作者。另一篇同团队 EvoCUA 正式技术报告把他标为共同第一兼通讯作者、署美团，无在读高校单位。",
+        "https://arxiv.org/abs/2601.15876"
+      ],
+      "student": [
+        "Haozhe Wang",
+        "2024 年 9 月入读香港科技大学博士。个人公开研究清单将这篇论文专门标为美团 LongCat 团队实习工作，原文列其为第一且署港科大。",
+        "https://haozheh3.github.io/"
+      ],
+      "faculty": [
+        "林方真 · Fangzhen Lin",
+        "香港科技大学计算机科学与工程学系教授，首稿与 ICML 正式版皆列为港科大共同作者。",
+        "https://researchportal.hkust.edu.hk/en/persons/fangzhen-lin/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生首页明确其 2024 年 9 月入学及由林方真指导；港科大教师档案也一致。两者同署本篇。",
+        "https://haozheh3.github.io/"
+      ],
+      "title": "Bad Seeing or Bad Thinking? Rewarding Perception for Multimodal Reasoning",
+      "short": "Bad Seeing or Bad Thinking?",
+      "date": "2026-05-13",
+      "venue": "ICML",
+      "area": "视觉与多模态",
+      "paper": "https://proceedings.mlr.press/v306/wang26ji.html",
+      "extra": [
+        [
+          "2026-05-13 首稿首页，列美团和港科大作者",
+          "https://arxiv.org/pdf/2605.14054v1"
+        ],
+        [
+          "美团 LongCat 研究团队官方报告列名",
+          "https://arxiv.org/abs/2603.27538"
+        ],
+        [
+          "Vector 研究院确认 ICML 正式作者",
+          "https://vectorinstitute.ai/vector-researchers-icml-2026-accepted-papers/"
+        ]
+      ],
+      "evidence": "第一作者 Haozhe Wang 本人主页在同名作品下直接标记是美团 LongCat 实习研究，并具名林方真为在港科大的博士导师。2026-05-13 首稿与 ICML 正式版同时列港科大在读者、博士导师及美团作者 Taofeng Xue 与 Chong Peng，后者在同一时期美团团队的公开技术报告中列为企业作者。首稿副标题 Vision-Language Reasoning，正式题名 Multimodal Reasoning；同一项。"
+    },
+    {
+      "id": "tencent-moses-hkust-fangzhen-lin",
+      "company": "腾讯",
+      "team": "Tencent AI Lab",
+      "school": "香港科技大学",
+      "studentSchool": "香港科技大学",
+      "employee": [
+        "赵沛霖 · Peilin Zhao",
+        "个人履历列 2017–2025 年任腾讯 AI Lab Principal Researcher。首稿及会议稿均以腾讯 AI Lab 列他为同篇作者，同时列上海交通大学；下文描述腾讯研究阶段，不推定之后继续在企业。",
+        "https://peilinzhao.github.io/"
+      ],
+      "student": [
+        "Yuxin Pan",
+        "港科大博士论文摘要直接把本项目 MoSES 与其算法实现列为博士研究，博士学位授予年 2025。NeurIPS 正式 PDF 首面明确说明作者在腾讯 AI Lab 实习期间完成本篇，署名港科大。",
+        "https://researchportal.hkust.edu.hk/en/studentTheses/learning-generalizable-neural-solvers-for-combinatorial-optimizat/"
+      ],
+      "faculty": [
+        "林方真 · Fangzhen Lin",
+        "香港科技大学计算机科学与工程学系教授，原文与正式版同篇以港科大署名。",
+        "https://researchportal.hkust.edu.hk/en/persons/fangzhen-lin/"
+      ],
+      "advising": [
+        "博士共同导师",
+        "港科大正式博士档案具名林方真和 Yize Chen 为两位导师，二人均参与本篇。该论文的 MoSES 方法实质列入博士论文。",
+        "https://researchportal.hkust.edu.hk/en/studentTheses/learning-generalizable-neural-solvers-for-combinatorial-optimizat/"
+      ],
+      "title": "Multi-Task Vehicle Routing Solver via Mixture of Specialized Experts under State-Decomposable MDP",
+      "short": "MoSES",
+      "date": "2025-10-24",
+      "venue": "NeurIPS",
+      "area": "机器学习与优化",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2ee1c87245956e3eaa71aaba5f5753eb-Paper-Conference.pdf",
+      "extra": [
+        [
+          "2025-10-24 首稿及实习脚注",
+          "https://arxiv.org/html/2510.21453v1"
+        ],
+        [
+          "同篇正式校方书目",
+          "https://researchportal.hkust.edu.hk/en/publications/multi-task-vehicle-routing-solver-via-mixture-of-specialized-expe/"
+        ],
+        [
+          "本论文方法的学生公开代码",
+          "https://github.com/panyxy/moses_vrp"
+        ],
+        [
+          "2025 年会议完整投稿截止日",
+          "https://neurips.cc/Conferences/2025/CallForPapers"
+        ]
+      ],
+      "evidence": "首稿和 NeurIPS 正式版首页明确说明第一作者 Yuxin Pan 在腾讯 AI Lab 实习期间完成本篇。港科大授予 2025 年博士学位的官方论文档案具名介绍完全相同的 MoSES 算法和实验作为该生攻读博士的工作，并列林方真和 Yize Chen 为共同博士导师。企业同篇作者赵沛霖实名列 2017–2025 年任该实验室Principal Researcher，研究时段以学位研究与同期实习为准，不用十月公开日推定仍在学。"
     }
   ]
 };

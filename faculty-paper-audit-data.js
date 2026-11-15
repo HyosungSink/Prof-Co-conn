@@ -16448,7 +16448,69 @@ const facultyPaperAudits = {
       "https://arxiv.org/abs/2601.15876",
       "https://arxiv.org/pdf/2605.14054v1",
       "https://arxiv.org/abs/2609.27538",
-      "https://vectorinstitute.ai/vector-researchers-icml-2026-accepted-papers/"
+      "https://vectorinstitute.ai/vector-researchers-icml-2026-accepted-papers/",
+      "https://proceedings.mlr.press/v306/zhu26bj.html",
+      "https://zhuxmmm.github.io/",
+      "https://arxiv.org/html/2602.03430v1",
+      "https://researchportal.hkust.edu.hk/en/publications/proact-a-benchmark-and-multimodal-framework-for-structure-aware-p/",
+      "https://github.com/ZhuXMMM/ProAct/commit/15e7f8a48d2d55fba3de32e80bf7038894de1cbb",
+      "https://github.com/ZhuXMMM/ProAct/commit/178cb91659c8",
+      "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICLP2025.12.pdf=",
+      "https://cse.hkust.edu.hk/pg/defenses/S26/fzhuae-29-05-2026.html",
+      "https://arxiv.org/html/2502.07332v1",
+      "https://researchportal.hkust.edu.hk/en/publications/the-combined-problem-of-online-task-assignment-and-lifelong-path-/",
+      "https://github.com/Fernadoo/Online-TAPF",
+      "https://ijcai.org/proceedings/2026/56",
+      "https://arxiv.org/abs/2505.07008",
+      "https://researchportal.hkust.edu.hk/en/publications/constant-memory-strategies-in-stochastic-games-best-responses-and/",
+      "https://github.com/Fernadoo/Const-Mem",
+      "https://doi.org/10.4204/EPTCS.439.11",
+      "https://arxiv.org/html/2305.16203v1",
+      "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICLP2025.11.pdf=",
+      "https://dl.acm.org/doi/10.5555/3709347.3743879",
+      "https://arxiv.org/html/2502.08950v1",
+      "https://ifaamas.csc.liv.ac.uk/Proceedings/aamas2025/pdfs/p2382.pdf",
+      "https://arxiv.org/abs/2304.01771",
+      "https://cse.hkust.edu.hk/~flin/papers.html",
+      "https://arxiv.org/html/2304.01771",
+      "https://arxiv.org/abs/2511.22536",
+      "https://arxiv.org/html/2511.22536v1",
+      "https://doi.org/10.1007/s10458-026-09755-7",
+      "https://arxiv.org/abs/2502.08340",
+      "https://dl.acm.org/doi/10.5555/3709347.3743795",
+      "https://link.springer.com/article/10.1007/s10458-026-09755-7",
+      "https://github.com/panyxy/hlgp_cvrp/",
+      "https://proceedings.neurips.cc/paper_files/paper/2025/file/2ee1c87245956e3eaa71aaba5f5753eb-Paper-Conference.pdf",
+      "https://researchportal.hkust.edu.hk/en/studentTheses/learning-generalizable-neural-solvers-for-combinatorial-optimizat/",
+      "https://peilinzhao.github.io/",
+      "https://arxiv.org/html/2510.21453v1",
+      "https://researchportal.hkust.edu.hk/en/publications/multi-task-vehicle-routing-solver-via-mixture-of-specialized-expe/",
+      "https://github.com/panyxy/moses_vrp",
+      "https://neurips.cc/Conferences/2025/CallForPapers",
+      "https://arxiv.org/abs/2603.27538",
+      "https://aclanthology.org/2023.acl-long.892/",
+      "https://aclanthology.org/2023.acl-long.892.pdf",
+      "https://ceur-ws.org/Vol-3894/paper6.pdf",
+      "https://ceur-ws.org/Vol-3894/",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a345ed605675c7c484e740a8ceaa6b45-Abstract-Conference.html",
+      "https://arxiv.org/abs/2310.04323",
+      "https://proceedings.neurips.cc/paper_files/paper/2023/file/a345ed605675c7c484e740a8ceaa6b45-Paper-Conference.pdf",
+      "https://aclanthology.org/2025.findings-acl.159/",
+      "https://arxiv.org/abs/2502.00691",
+      "https://aclanthology.org/2025.findings-acl.159.pdf",
+      "https://arxiv.org/abs/2501.12428",
+      "https://arxiv.org/html/2501.12428v1",
+      "https://arxiv.org/abs/2503.07657",
+      "https://arxiv.org/html/2503.07657v1",
+      "https://arxiv.org/abs/2511.23031",
+      "https://arxiv.org/html/2511.23031v1",
+      "https://arxiv.org/abs/2509.05661",
+      "https://arxiv.org/html/2509.05661v1",
+      "https://arxiv.org/abs/2505.17952",
+      "https://arxiv.org/html/2505.17952v1",
+      "https://cheliu-computation.github.io/AlphaMed/",
+      "https://arxiv.org/abs/2608.09799",
+      "https://arxiv.org/html/2608.09799v1"
     ],
     "papers": [
       {
@@ -16473,7 +16535,7 @@ const facultyPaperAudits = {
       },
       {
         "title": "Emergent Hierarchical Reasoning in LLMs through Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2509.03646",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/79322f3668888f8f7fc99bbd98fbbaed-Abstract-Conference.html",
         "outcome": "no-evidence",
         "note": "2025 年首稿，学生本人和会议原文列 ICLR 2026；主要作者单位为港科大、清华、帝国理工、国科大及滑铁卢，未见目标企业员工。",
         "year": 2026
@@ -16487,7 +16549,7 @@ const facultyPaperAudits = {
       },
       {
         "title": "Starve to Perceive: Taming Lazy Perception in VLMs with Constrained Visual Bandwidth",
-        "url": "https://arxiv.org/abs/2605.18603",
+        "url": "https://doi.org/10.1007/978-3-032-37718-0_13",
         "outcome": "no-evidence",
         "note": "2026-05-18 首稿与 ECCV 2026 同题为一项，原文作者只有港科大与滑铁卢大学，没有美团或其他目标企业的独立项目证据。",
         "year": 2026
@@ -16509,12 +16571,145 @@ const facultyPaperAudits = {
       {
         "title": "Bad Seeing or Bad Thinking? Rewarding Perception for Multimodal Reasoning",
         "url": "https://proceedings.mlr.press/v306/wang26ji.html",
+        "outcome": "confirmed",
+        "note": "第一作者 Haozhe Wang 本人主页在同名作品下直接标记是美团 LongCat 实习研究，并具名林方真为在港科大的博士导师。2026-05-13 首稿与 ICML 正式版同时列港科大在读者、博士导师及美团作者 Taofeng Xue 与 Chong Peng，后者在同一时期美团团队的公开技术报告中列为企业作者。首稿副标题 Vision-Language Reasoning，正式题名 Multimodal Reasoning；同一项。",
+        "year": 2026
+      },
+      {
+        "title": "ProAct: A Benchmark and Multimodal Framework for Structure-Aware Proactive Response",
+        "url": "https://proceedings.mlr.press/v306/zhu26bj.html",
         "outcome": "lead",
-        "note": "待复核后再列入关系索引。",
+        "note": "2026-02-03 首稿与 ICML 正式版为一项，第一作者朱晓萌同时署港科大与腾讯，个人履历具名博士导师林方真，且 2025 年 6 月起为腾讯 Robotics X 青云实习生；共同作者张正友及企业通讯 Xuantang Xiong 同篇署腾讯。作者仓库保留第一作者同项目数据发布、文档技术贡献，但当时本人没有把这项明确列为实习任务，初始训练与评估核心代码由共同作者账户提交。继续寻找明示本篇的公司任务或由学生做出的具体研究环节。RxBrain 是同一学生已证实的不同公司项目，林方真未署后者。",
+        "year": 2026
+      },
+      {
+        "title": "The Combined Problem of Online Task Assignment and Lifelong Path Finding in Logistics Warehouses: Rule-Based Systems Matter",
+        "url": "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICLP2025.12.pdf=",
+        "outcome": "lead",
+        "note": "2025-02-11 A Case Study 首稿与 EPTCS 正式发表于 2026 年 1 月的 ICLP 2025 论文合并。港科大公开博士答辩明示林方真指导 Fengming Zhu；原文对接美团仓库场景开展仿真及对照，美团深圳机器人研究院署名作者 Weijia Xu 和 Yifei Guo 有正式公司地址，正式论文也明列美团支持。代码库为学生姓名账户。尚缺独立材料进一步确定一位两名企业作者的员工身份/期限，以及学生的企业岗位或该项目明确研究分工。",
+        "year": 2026
+      },
+      {
+        "title": "Constant-Memory Strategies in Stochastic Games: A Theoretical and Empirical Study",
+        "url": "https://ijcai.org/proceedings/2026/56",
+        "outcome": "no-evidence",
+        "note": "2025-05 首稿 Best Responses and Equilibria 后发 AAMAS 2026 短论文，IJCAI 2026 理论与实证报告同作者、同结构算法及核心结论，按一个研究并列版本。作者论文及校方只见港科大博士生 Zhu 和导师，无目标企业。",
+        "year": 2026
+      },
+      {
+        "title": "On Computing Universal Plans for Partially Observable Multi-Agent Path Finding",
+        "url": "https://doi.org/10.4204/EPTCS.439.11",
+        "outcome": "no-evidence",
+        "note": "2023-05 首稿与 EPTCS 的 ICLP 2025 论文同一项。林方真和学生 Fengming Zhu 都署港科大。此篇研究部分可观察条件的一般理论，并非与美团有关的在线仓库分配专项。",
+        "year": 2025
+      },
+      {
+        "title": "Single-Agent Planning in a Multi-Agent System: A Unified Framework for Type-Based Planners",
+        "url": "https://dl.acm.org/doi/10.5555/3709347.3743879",
+        "outcome": "no-evidence",
+        "note": "2025-02 首稿和 AAMAS 2025 会议稿均只有港科大的学生 Fengming Zhu、导师林方真；未见范围内的企业作者或该文章参与企业研究的证据。",
+        "year": 2025
+      },
+      {
+        "title": "Using Language Models For Knowledge Acquisition in Natural Language Reasoning Problems",
+        "url": "https://arxiv.org/abs/2304.01771",
+        "outcome": "no-evidence",
+        "note": "港科大教师个人书目明确列此项；2023-04 的原文中林方真、Ziyi Shou 署港科大，企业作者 Chengcai Chen 署小 i 机器人，不是范围内企业。",
+        "year": 2023
+      },
+      {
+        "title": "A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind",
+        "url": "https://arxiv.org/abs/2511.22536",
+        "outcome": "no-evidence",
+        "note": "2025-11-27 预印本的四名作者 Fengming Zhu、Yuxin Pan、Xiaomeng Zhu、林方真均为港科大学术署名（此作无腾讯公司署名）；同一学生的其他实习研究各自核对，不投射到该篇。",
+        "year": 2025
+      },
+      {
+        "title": "Multi-level graph partition via hierarchical learning for large-scale vehicle routing problems",
+        "url": "https://doi.org/10.1007/s10458-026-09755-7",
+        "outcome": "no-evidence",
+        "note": "2025-02 预印本及 AAMAS 2025 会议题名 Hierarchical Learning-based Graph Partition… 是同一 HLGP 研究；Springer 2026 发表版本作者贡献中明确列 Yuxin Pan 实现算法与撰写原稿，其余为校方作者，使用 Google OR-Tools 不构成同篇企业研究。",
+        "year": 2026
+      },
+      {
+        "title": "Multi-Task Vehicle Routing Solver via Mixture of Specialized Experts under State-Decomposable MDP",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/2ee1c87245956e3eaa71aaba5f5753eb-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "首稿和 NeurIPS 正式版首页明确说明第一作者 Yuxin Pan 在腾讯 AI Lab 实习期间完成本篇。港科大授予 2025 年博士学位的官方论文档案具名介绍完全相同的 MoSES 算法和实验作为该生攻读博士的工作，并列林方真和 Yize Chen 为共同博士导师。企业同篇作者赵沛霖实名列 2017–2025 年任该实验室Principal Researcher，研究时段以学位研究与同期实习为准，不用十月公开日推定仍在学。",
+        "year": 2025
+      },
+      {
+        "title": "Evaluate AMR Graph Similarity via Self-supervised Learning",
+        "url": "https://aclanthology.org/2023.acl-long.892/",
+        "outcome": "no-evidence",
+        "note": "ACL 长文原文列 Ziyi Shou、林方真均为港科大与港科大小 i 联合实验室；该联合实验室合作单位不在 14 家。",
+        "year": 2023
+      },
+      {
+        "title": "Enhancing Semantic Understanding in Vision Language Models Using Meaning Representation Negative Generation",
+        "url": "https://ceur-ws.org/Vol-3894/paper6.pdf",
+        "outcome": "no-evidence",
+        "note": "ECAI 同期 KiL 2024 工作坊论文，原文作者和单位是港科大及小 i 联合实验室。对抗负样本属与 2023 年 AMR 相似度论文不同的研究，但也没有指定企业参与。",
+        "year": 2024
+      },
+      {
+        "title": "Adjustable Robust Reinforcement Learning for Online 3D Bin Packing",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a345ed605675c7c484e740a8ceaa6b45-Abstract-Conference.html",
+        "outcome": "no-evidence",
+        "note": "arXiv 同年首稿与 NeurIPS 2023 正式版合并，港科大及港科大广州署名。官方博士论文把 AR2L 和同期腾讯 MoSES 分为独立的不同课题，不能沿用后者的实习脚注。",
+        "year": 2023
+      },
+      {
+        "title": "To Code or not to Code? Adaptive Tool Integration for Math Language Models via Expectation-Maximization",
+        "url": "https://aclanthology.org/2025.findings-acl.159/",
+        "outcome": "no-evidence",
+        "note": "2025 年首稿称 Learning Autonomous Code Integration for Math Language Models；正式 ACL Findings 作者原文列港科大和 INFLY Tech，后者不在目标企业中。学生的美团合作为独立论文。",
+        "year": 2025
+      },
+      {
+        "title": "SplitQuant: Layer Splitting for Low-Bit Neural Network Quantization",
+        "url": "https://arxiv.org/abs/2501.12428",
+        "outcome": "no-evidence",
+        "note": "2025-01 首稿指出提出切分低位神经网络量化，并标注同年 EDGE AI FOUNDATION Austin 的会议接收；原文仅列港科大 Jaewoo Song、林方真。与其他名叫 SplitQuant 的异作者工作分开。",
+        "year": 2025
+      },
+      {
+        "title": "SplitQuantV2: Enhancing Low-Bit Quantization of LLMs Without GPUs",
+        "url": "https://arxiv.org/abs/2503.07657",
+        "outcome": "no-evidence",
+        "note": "2025-03 独立预印本在原切分框架之上加入新的 CPU 工作，首面仍只列同两位港科大作者，领域名称和开源复用不能证实企业关系。",
+        "year": 2025
+      },
+      {
+        "title": "From Illusion to Intention: Visual Rationale Learning for Vision-Language Reasoning",
+        "url": "https://arxiv.org/abs/2511.23031",
+        "outcome": "lead",
+        "note": "2025-11 首稿列港科大在读 Haozhe Wang、导师林方真及两位企业作者 Taofeng Xue 和 Chong Peng。学生主页只把另一篇 Bad Seeing or Bad Thinking 单独列为美团实习成果；本篇无同等脚注或同期独立项目资料。",
+        "year": 2025
+      },
+      {
+        "title": "OOTSM: A Decoupled Linguistic Framework for Effective Scene Graph Anticipation",
+        "url": "https://arxiv.org/abs/2509.05661",
+        "outcome": "no-evidence",
+        "note": "2025-09 原始公开版作者为港科大与齐鲁工业大学相关研究单位。学生虽有腾讯/阿里等另项经历，本篇没有同研究企业作者或企业任务信息。",
+        "year": 2025
+      },
+      {
+        "title": "Beyond Distillation: Pushing the Limits of Medical LLM Reasoning with Minimalist Rule-Based RL",
+        "url": "https://arxiv.org/abs/2505.17952",
+        "outcome": "no-evidence",
+        "note": "2025-05 AlphaMed 预印本与原作者项目归同一项。原文为帝国理工、港科大、俄亥俄州立、复旦及慕尼黑工大等；论文评估 DeepSeek 并不构成该公司的研究参与。",
+        "year": 2025
+      },
+      {
+        "title": "SpecPath: Testing Coding Agents Across Contract-Equivalent Specification Histories",
+        "url": "https://arxiv.org/abs/2608.09799",
+        "outcome": "no-evidence",
+        "note": "2026-08 首稿列港科大等学术研究身份，提出合约等价的代码智能体规范测试；所测工具或模型来源不能充任论文企业合作者。",
         "year": 2026
       }
     ],
-    "note": "阶段性审查：港科大教师主页标识与 DBLP 对照，并以其具名在读博士独立书目作近期版本的补充；不因公司作者与高校学生同署就确认在企业承担研究。"
+    "note": "阶段性核查：院系与港科大正式出版书目、2026-11-01 DBLP 数据、在读博士的原始发表来源交叉。同项目 arXiv 与会议/期刊版本归并。正在继续核对 DBLP 区间全部剩余论文。"
   },
   "RfSQKrIAAAAJ": {
     "from": "2023-01-01",
@@ -66380,5 +66575,157 @@ const facultyPaperAudits = {
         "note": "2025-08-07 首稿 2508.05748（当时署阿里团队、未见 Yi R. Fung），早于耿欣宇公开的 9 月港科大博士入学；2026 正式版列学生双署及校方作者，但尚不能补证研究当期存在对应指导。"
       }
     ]
+  },
+  "Oj8TNw4AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://cs.ustc.edu.cn/2020/0928/c23239a460151/page.htm",
+      "https://gmzhao-ustc.github.io/",
+      "https://int-ustc.github.io/paper.html",
+      "https://int-ustc.github.io/member.html",
+      "https://dblp.org/pid/201/1240.html",
+      "https://orcid.org/0000-0003-1311-8908"
+    ],
+    "papers": [
+      {
+        "year": 2024,
+        "title": "Non-Idle Machine-Aware Worker Placement for Efficient Distributed Training in GPU Clusters",
+        "url": "https://doi.org/10.1109/ICNP61940.2024.10858582",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ICNP 2024 正式原文由第一作者公开，列华为 Zhen Yao、An Xie，通讯作者赵功名、徐宏力。方缙在读及具名双导师均有本人履历，且 2023-12–2024-05 在华为研究过光路交换网络上的节点放置，但无法从原文把实习中的光路交换放置算法与本文 Titan 的非空闲节点碎片化机制等同，需作者、企业或学位论文的同项目证据。"
+      },
+      {
+        "year": 2024,
+        "title": "SMART: Dual-channel Southbound Message Delivery in Clouds with Rate Estimation",
+        "url": "https://gmzhao-ustc.github.io/papers/2024%2BIWQoS%2BSMART_Dual_channel_Southbound_Message_Delivery_in_Clouds_with_Rate_Estimation.pdf",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "IWQoS 正式全文首面明确列加拿大温哥华华为研究所的 Chun-Jen Chung；留存华为在职共同作者。首作罗路尧（Luyao Luo）校方团队名录为 2022–2024 博士；尚无具名证据确认其于企业执行同篇 SMART 的设计或实验，毕业去向为高校。"
+      },
+      {
+        "year": 2024,
+        "title": "PARING: Joint Task Placement and Routing for Distributed Training With In-Network Aggregation",
+        "url": "https://doi.org/10.1109/TNET.2024.3414853",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 原文署中科大和美国布法罗大学；正式文研究联合放置与路由，未见具名目标企业作者或在企业同项实研。作者为邱宇航等，与方缙的华为学生项目不能串用。"
+      },
+      {
+        "year": 2024,
+        "title": "ALEPH: Accelerating Distributed Training With eBPF-Based Hierarchical Gradient Aggregation",
+        "url": "https://doi.org/10.1109/TNET.2024.3404999",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "正式题录和作者全文署中科大、布法罗大学。团队名录记录第一作者杨鹏后到腾讯青云计划；未见其在腾讯做此文的证据。"
+      },
+      {
+        "year": 2024,
+        "title": "Toward a Service Availability-Guaranteed Cloud Through VM Placement",
+        "url": "https://doi.org/10.1109/TNET.2024.3401758",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者公开 IEEE 全文，主文署中科大与布法罗大学；首作者刘佳维的华为毕业去向不等于当期企业任职或此文的华为实研。"
+      },
+      {
+        "year": 2024,
+        "title": "InGo: In-Network Aggregation Routing with Batch Size Adjustment for Distributed Training",
+        "url": "https://doi.org/10.1109/IWQoS61813.2024.10682850",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者公开正式正文署中科大和肯塔基大学；路由选择配合批量调整，评估在网训练，无具名目标公司。"
+      },
+      {
+        "year": 2024,
+        "title": "Leaf: Improving QoS for Reconfigurable Datacenters with Multiple Optical Circuit Switches",
+        "url": "https://gmzhao-ustc.github.io/papers/2024%2BIWQOS%2BLeaf_Improving_QoS_for_Reconfigurable_Datacenters_with_Multiple_Optical_Circuit_Switches.pdf",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者公开 IEEE 会刊原文首面全四人署中科大与肯塔基大学。主题虽也用光路交换机，但方缙未署名，未列目标企业。"
+      },
+      {
+        "year": 2023,
+        "title": "Accelerating Distributed Training With Collaborative In-Network Aggregation",
+        "url": "https://doi.org/10.1109/TNET.2024.3387948",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者正式期刊首面明确引用 2023 IWQoS 10.1109/IWQOS57198.2023.10188783 为本文首轮结果；GOAT 只算一篇。中科大、约翰霍普金斯大学和弗吉尼亚理工署名，未见目标企业。"
+      },
+      {
+        "year": 2024,
+        "title": "InArt: In-Network Aggregation with Route Selection for Accelerating Distributed Training",
+        "url": "https://doi.org/10.1145/3589334.3645394",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者公开 WWW 正式全文首面全七人为中科大；刘佳维毕业去华为，方缙履历亦有华为实习，但尚无同篇华为共同作者或企业侧同项实研。待核 IEEE TC 2026 是否明确扩展同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Programmable Device Deployment for Efficient Network Function Offloading",
+        "url": "https://doi.org/10.1016/j.comnet.2023.110163",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "期刊正文明确 2023-12-22 首次上线，卷期 2024。署之江实验室、中科大及布法罗大学；阿里轨迹是公开实验数据，未见具名共同作者。"
+      },
+      {
+        "year": 2023,
+        "title": "XAgg: Accelerating Heterogeneous Distributed Training Through XDP-Based Gradient Aggregation",
+        "url": "https://doi.org/10.1109/TNET.2023.3339524",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者公布当期刊提前版首面四人署中科大，阿里集群负载统计只是背景、数据材料；首作者张钱宇后来入职蚂蚁不能佐证同篇。"
+      },
+      {
+        "year": 2023,
+        "title": "Achieving Cost Optimization for Tenant Task Placement in Geo-distributed Clouds",
+        "url": "https://doi.org/10.1109/TNET.2023.3319434",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 期刊正文明确同 2023 INFOCOM 前身 TanGo（10.1109/INFOCOM53939.2023.10229004）。正式原文署中科大、约翰霍普金斯大学及弗吉尼亚理工，阿里 Cluster Trace、亚马逊和微软是文中数据或举例。"
+      },
+      {
+        "year": 2023,
+        "title": "Reveal: Robustness-Aware VNF Placement and Request Scheduling in Edge Clouds",
+        "url": "https://doi.org/10.1016/j.comnet.2023.109882",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "Elsevier 2023-06-22 提前上线，方缙与导师共同署名，当期原文的其余署名也是研究机构。其华为实习据本人简历始于同年十二月，且课题不同。"
+      },
+      {
+        "year": 2023,
+        "title": "GRID: Gradient Routing With In-Network Aggregation for Distributed Training",
+        "url": "https://doi.org/10.1109/TNET.2023.3244794",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "作者正式全文只含高校身份，致谢之江实验室计算项目。第一作者方缙本人披露 2022 年在之江实验室完成可编程交换机梯度聚合；之江实验室不在 14 家范围。"
+      },
+      {
+        "year": 2026,
+        "title": "HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training",
+        "url": "https://arxiv.org/abs/2609.34334",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "arXiv 初稿首面署中科大、中国移动（苏州）软件技术和鹏城实验室；中国移动不在目标企业范围。方缙的字节经历与本论文无具名连接。"
+      },
+      {
+        "year": 2026,
+        "title": "CODA: Dynamic Priority and Traffic Interleaving for Multi-Tenant DLT Clusters",
+        "url": "https://icnp26.cs.ucr.edu/program.html",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ICNP 2026 正式会议 10 月议程具名署华为的 Meng Niu、Yan Yang、Zhen Yao。中科大一方包括 Yifan Lin、Jiacheng Zhu 及赵功名，未见这些具名学生在华为实际参与此项目的直接记录。"
+      },
+      {
+        "year": 2026,
+        "title": "Meteor: High-Performance Control Message Delivery for Large-Scale Clouds",
+        "url": "https://doi.org/10.1145/3774904.3792135",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "WWW 正式会议录给出华为 Min Chen、Xuwei Yang、Yongqiang Yang、Ying Xiong，依旧需要 Baoqing Wang 或其他在读学生当期直接参与华为项目的证据。刘佳维 2025 届后来去华为，2026 题录仍署中科大，不能把后续去向倒推至项目开展时。"
+      }
+    ],
+    "note": "先对照本人论文全文、实验室题录、本人 ORCID/DBLP 与专门项目履历。已遇到同篇华为作者，但部分学生只可证明其他项目的企业实习，不能用任职或工作主题相似替代同项贡献。继续对出版方与校方近作补遗。"
   }
 };
