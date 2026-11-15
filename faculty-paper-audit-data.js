@@ -13517,7 +13517,15 @@ const facultyPaperAudits = {
     "exhausted": false,
     "sources": [
       "https://people.ucas.ac.cn/~0064227",
-      "https://hambaobao.me/about/"
+      "https://hambaobao.me/about/",
+      "https://minyang.me/",
+      "https://rainbowluocs.github.io/assets/cv_luorun.pdf",
+      "https://rainbowluocs.github.io/",
+      "https://wangqiyao.me/",
+      "https://yongbin-li.github.io/",
+      "https://paris2025.gosim.org/speakers/yongbin-li/",
+      "https://aclanthology.org/2025.emnlp-tutorials.pdf",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/34753"
     ],
     "papers": [
       {
@@ -13549,9 +13557,37 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2025.tacl-1.19.pdf",
         "outcome": "confirmed",
         "note": "TACL 正式版首页具名写明该研究在余天枢于通义实验室实习期间完成；国科大导师名录和深圳先进院新闻确认其硕士生身份。"
+      },
+      {
+        "year": 2024,
+        "title": "MMEvol: Empowering Multimodal Large Language Models with Evol-Instruct",
+        "url": "https://aclanthology.org/2025.findings-acl.1009.pdf",
+        "outcome": "confirmed",
+        "note": "ACL 正式稿首页具名指出共同第一作者罗润在通义实验室实习期间完成本研究；他署深研院、国科大及通义。杨敏和企业研究员李永彬均为同篇通讯作者。"
+      },
+      {
+        "year": 2025,
+        "title": "OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-time Emotional Speech Synthesis",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e92381dba235a8309f08ce46376189a9-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "NeurIPS 正式稿首页把罗润列为第一作者；其姓名后的星注明确注明在通义实习期间完成该项研究。杨敏和署阿里通义的李永彬为共同通讯作者。罗润的公开学术履历另列他在国科大攻读硕士时的导师为杨敏，以及 2024 年 4–11 月在通义做多模态研究。2025-01-08 首次公开晚于这段实习，记录的是论文注明的研究期间。"
+      },
+      {
+        "year": 2026,
+        "title": "Beyond Quantity: Trajectory Diversity Scaling for Code Agents",
+        "url": "https://aclanthology.org/2026.findings-acl.768.pdf",
+        "outcome": "confirmed",
+        "note": "王琪尧在本人论文列表将本研究明确列为深研院 SIAT-NLP 与 Qoder 的合作，原文也将他署为深研院及通义实验室。首稿发表于其阿里通义实习期间；杨敏为同篇通讯作者，负责 Qoder 研发的李永彬署通义并同篇合著。首页具名实习脚注属另一作者，本项依据王琪尧自己的项目归属、履历和原文署名。"
+      },
+      {
+        "year": 2025,
+        "title": "Fine-Tuning Language Models with Collaborative and Semantic Experts",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/download/34753/36908",
+        "outcome": "lead",
+        "note": "待复核后再列入关系索引。"
       }
     ],
-    "note": "逐篇核对公开题录、个人履历、论文及任职证据，未穷尽全期论文。"
+    "note": "用国科大导师主页、在读者名录及作者公开简历核实指导，逐篇查首稿和正式版的企业实研角色；完整书目仍在梳理。"
   },
   "66KKZR4AAAAJ": {
     "from": "2023-01-01",
@@ -63257,7 +63293,12 @@ const facultyPaperAudits = {
       "https://ece.hkust.edu.hk/yikeguo",
       "https://hyshkust.github.io/",
       "https://panolam.github.io/",
-      "https://zhenliuzju.github.io/huyingdong/"
+      "https://zhenliuzju.github.io/huyingdong/",
+      "https://researchportal.hkust.edu.hk/en/studentTheses/high-fidelity-and-controllable-3d-generation-framework/",
+      "https://researchportal.hkust.edu.hk/en/studentTheses/towards-coherent-co-speech-gesture-generation-multimodal-approach/",
+      "https://openaccess.thecvf.com/content/CVPR2024/papers/Qi_Weakly-Supervised_Emotion_Transition_Learning_for_Diverse_3D_Co-speech_Gesture_Generation_CVPR_2024_paper.pdf",
+      "https://penghtyx.github.io/Era3D/",
+      "https://penghtyx.github.io/CMD/"
     ],
     "papers": [
       {
@@ -63266,6 +63307,34 @@ const facultyPaperAudits = {
         "outcome": "confirmed",
         "note": "2025-09-09 首稿，李鹏自己公开列郭毅可与罗文汉为港科大博士导师。郭毅可与学生李鹏、阿里巴巴通义实验室研究员何益升同署首稿。何益升为企业共同第一作者兼通讯，并在本人书目对该篇以专门符号标注李鹏为企业实习学生。项目正式页可核对三方与同一方法，各版本合并为一篇。",
         "year": 2025
+      },
+      {
+        "title": "PSHuman: Photorealistic Single-image 3D Human Reconstruction using Cross-Scale Multiview Diffusion and Explicit Remeshing",
+        "url": "https://arxiv.org/abs/2409.10141",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "2024 年首稿，CVPR 2025 正式发表；李鹏的港科大博士论文包含该课题。该稿企业署名为 VAST，不属于本次目标企业。"
+      },
+      {
+        "title": "CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation",
+        "url": "https://arxiv.org/abs/2505.07003",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "港科大正式学位论文、项目页与 ACM 正稿对应同一条件多视图方法。作者单位列港科大、约翰斯·霍普金斯大学、英属哥伦比亚大学和得州农工大学；未查到目标企业的同篇参与。"
+      },
+      {
+        "title": "Era3D: High-Resolution Multiview Diffusion using Efficient Row-wise Attention",
+        "url": "https://arxiv.org/abs/2405.11616",
+        "year": 2024,
+        "outcome": "no-evidence",
+        "note": "NeurIPS 2024 成果，论文列 DreamTech 和 LightIllusion，并感谢 DreamTech 的算力。两个署名单位均非目标企业。"
+      },
+      {
+        "title": "Weakly-Supervised Emotion Transition Learning for Diverse 3D Co-speech Gesture Generation",
+        "url": "https://arxiv.org/abs/2311.17532",
+        "year": 2023,
+        "outcome": "no-evidence",
+        "note": "2023 年首稿，CVPR 2024。同题正式版只列港科大和北京大学；使用 ChatGPT-4 生成实验材料并非目标企业共同研究。"
       }
     ]
   },

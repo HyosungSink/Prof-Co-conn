@@ -47435,6 +47435,157 @@ const survey = {
         ]
       ],
       "evidence": "2024-09-08 首稿。蔡同学公开简历把本项列为 2024 年 2–5 月的具体研究，说明自己提出 DreamMapping 和变分分布映射，并具名列港科大（广州）王泽宇及腾讯詹晓航为该项目导师。蔡同期为港科大（广州）硕士，詹同期为腾讯正式研究员。首稿三人同署，另一共同一作当时也在腾讯 AI Lab 实习，原稿说明 CCF–腾讯联合研究项目。该论文解决文本到三维生成，和 HeadEvolver 的头像网格变形是两项工作。"
+    },
+    {
+      "id": "alibaba-mmevol-ucas-yang",
+      "paperId": "arxiv:2409.05840",
+      "team": "通义 / Qwen",
+      "student": [
+        "罗润 · Run Luo",
+        "2023 年 9 月至 2026 年 6 月在国科大攻读计算机技术硕士，2024 年 4 月至 11 月在阿里巴巴通义实验室进行多模态模型研究。",
+        "https://rainbowluocs.github.io/"
+      ],
+      "advising": [
+        "国科大硕士导师",
+        "罗润本人公开学术简历的教育经历将杨敏具名列为该阶段硕士导师；杨敏也是同篇通讯作者。",
+        "https://rainbowluocs.github.io/assets/cv_luorun.pdf"
+      ],
+      "title": "MMEvol: Empowering Multimodal Large Language Models with Evol-Instruct",
+      "short": "MMEvol",
+      "date": "2024-09-09",
+      "venue": "ACL 2025 Findings",
+      "area": "多模态学习",
+      "paper": "https://aclanthology.org/2025.findings-acl.1009.pdf",
+      "extra": [
+        [
+          "首公开预印本",
+          "https://arxiv.org/abs/2409.05840"
+        ],
+        [
+          "同期企业任职",
+          "https://paris2025.gosim.org/speakers/yongbin-li/"
+        ],
+        [
+          "正式稿首页（含具名实习脚注）",
+          "https://aclanthology.org/2025.findings-acl.1009.pdf#page=1"
+        ]
+      ],
+      "evidence": "ACL 正式稿首页具名指出共同第一作者罗润在通义实验室实习期间完成本研究；他署深研院、国科大及通义。杨敏和企业研究员李永彬均为同篇通讯作者。",
+      "company": "阿里巴巴",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "中国科学院大学深圳先进技术研究院研究员、博士生导师，为同篇具名指导教师。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "李永彬 · Yongbin Li",
+        "阿里巴巴通义实验室首席研究科学家，负责 Qwen-Coder/Qoder 等研发；在所引论文及同期项目署通义。",
+        "https://yongbin-li.github.io/"
+      ]
+    },
+    {
+      "id": "alibaba-openomni-ucas-yang",
+      "paperId": "arxiv:2501.04561",
+      "team": "通义 / Qwen",
+      "student": [
+        "罗润 · Run Luo",
+        "2023 年 9 月至 2026 年 6 月在国科大攻读计算机技术硕士，2024 年 4 月至 11 月在阿里巴巴通义实验室进行多模态模型研究。",
+        "https://rainbowluocs.github.io/"
+      ],
+      "advising": [
+        "国科大硕士导师",
+        "罗润本人公开学术简历的教育经历将杨敏具名列为该阶段硕士导师；杨敏也是同篇通讯作者。",
+        "https://rainbowluocs.github.io/assets/cv_luorun.pdf"
+      ],
+      "title": "OpenOmni: Advancing Open-Source Omnimodal Large Language Models with Progressive Multimodal Alignment and Real-time Emotional Speech Synthesis",
+      "short": "OpenOmni",
+      "date": "2025-01-08",
+      "venue": "NeurIPS 2025",
+      "area": "多模态学习",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e92381dba235a8309f08ce46376189a9-Paper-Conference.pdf",
+      "extra": [
+        [
+          "首公开预印本",
+          "https://arxiv.org/abs/2501.04561"
+        ],
+        [
+          "正式论文题录",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e92381dba235a8309f08ce46376189a9-Abstract-Conference.html"
+        ],
+        [
+          "同期企业任职",
+          "https://paris2025.gosim.org/speakers/yongbin-li/"
+        ],
+        [
+          "正式稿首页（含具名实习脚注）",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/e92381dba235a8309f08ce46376189a9-Paper-Conference.pdf#page=1"
+        ]
+      ],
+      "evidence": "NeurIPS 正式稿首页把罗润列为第一作者；其姓名后的星注明确注明在通义实习期间完成该项研究。杨敏和署阿里通义的李永彬为共同通讯作者。罗润的公开学术履历另列他在国科大攻读硕士时的导师为杨敏，以及 2024 年 4–11 月在通义做多模态研究。2025-01-08 首次公开晚于这段实习，记录的是论文注明的研究期间。",
+      "company": "阿里巴巴",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "中国科学院大学深圳先进技术研究院研究员、博士生导师，为同篇具名指导教师。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "李永彬 · Yongbin Li",
+        "阿里巴巴通义实验室首席研究科学家，负责 Qwen-Coder/Qoder 等研发；在所引论文及同期项目署通义。",
+        "https://yongbin-li.github.io/"
+      ]
+    },
+    {
+      "id": "alibaba-beyond-quantity-ucas-yang",
+      "paperId": "arxiv:2602.03219",
+      "team": "通义 / Qoder",
+      "student": [
+        "王琪尧 · Qiyao Wang",
+        "2025 年 9 月起在国科大深圳先进技术研究院攻读博士，2025 年 10 月至 2026 年 3 月在阿里巴巴通义实验室实习。",
+        "https://wangqiyao.me/"
+      ],
+      "advising": [
+        "国科大博士导师",
+        "王琪尧本人主页具名列杨敏为国科大博士导师；杨敏在该篇正式版署深研院及深圳理工大学，为共同通讯作者。",
+        "https://wangqiyao.me/"
+      ],
+      "title": "Beyond Quantity: Trajectory Diversity Scaling for Code Agents",
+      "short": "TDScaling",
+      "date": "2026-02-03",
+      "venue": "ACL 2026 Findings",
+      "area": "语言模型与智能体",
+      "paper": "https://aclanthology.org/2026.findings-acl.768.pdf",
+      "extra": [
+        [
+          "首公开预印本署名",
+          "https://arxiv.org/html/2602.03219v1"
+        ],
+        [
+          "阿里云 Qoder 官方资料",
+          "https://www.alibabacloud.com/help/en/lingma/changelogs-of-202507"
+        ],
+        [
+          "同期企业任职",
+          "https://paris2025.gosim.org/speakers/yongbin-li/"
+        ]
+      ],
+      "evidence": "王琪尧在本人论文列表将本研究明确列为深研院 SIAT-NLP 与 Qoder 的合作，原文也将他署为深研院及通义实验室。首稿发表于其阿里通义实习期间；杨敏为同篇通讯作者，负责 Qoder 研发的李永彬署通义并同篇合著。首页具名实习脚注属另一作者，本项依据王琪尧自己的项目归属、履历和原文署名。",
+      "company": "阿里巴巴",
+      "school": "中国科学院大学",
+      "studentSchool": "中国科学院大学",
+      "faculty": [
+        "杨敏 · Min Yang",
+        "中国科学院大学深圳先进技术研究院研究员、博士生导师，为同篇具名指导教师。",
+        "https://people.ucas.ac.cn/~0064227"
+      ],
+      "employee": [
+        "李永彬 · Yongbin Li",
+        "阿里巴巴通义实验室首席研究科学家，负责 Qwen-Coder/Qoder 等研发；在所引论文及同期项目署通义。",
+        "https://yongbin-li.github.io/"
+      ]
     }
   ]
 };
