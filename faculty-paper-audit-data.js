@@ -12149,7 +12149,12 @@ const facultyPaperAudits = {
       "https://sites.google.com/site/qiumh0727",
       "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhan_GThinker_Towards_General_Multimodal_Reasoning_via_Cue-Guided_Rethinking_CVPR_2026_paper.pdf",
       "https://www.nlpr.ia.ac.cn/iva/homepage/jqwang/index.htm",
-      "https://arxiv.org/pdf/2506.11571v2"
+      "https://arxiv.org/pdf/2506.11571v2",
+      "http://people.ucas.ac.cn/~jinqiaowang",
+      "https://jetteezhou.github.io/",
+      "https://arxiv.org/html/2510.21111v1",
+      "https://arxiv.org/html/2503.08508v1",
+      "https://arxiv.org/html/2503.08481v1"
     ],
     "papers": [
       {
@@ -12163,6 +12168,27 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2506.11571v2",
         "outcome": "confirmed",
         "note": "2025-07 修订稿具名注明詹宇飞字节实习，2025-06 首次公开；王金桥是其导师，且与字节员工同篇。"
+      },
+      {
+        "title": "PhysVLM-AVR: Active Visual Reasoning for Multimodal Large Language Models in Physical Environments",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/05e76d29b99b14f1c63fce1a93b4d4ec-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "正式 NeurIPS 署王金桥，周伟杰署北交、自动化所及腾讯 Robotics X 联合实验室，并在本人履历具名同学术导师。周在腾讯经历写明的 2025 项目是 TAIROS 与共享记忆；仍需证实其在腾讯负责本篇 PhysVLM-AVR 的哪个工作环节。"
+      },
+      {
+        "title": "PhysVLM: Enabling Visual Language Models to Understand Robotic Physical Reachability",
+        "url": "https://arxiv.org/html/2503.08481v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "3 月首稿与 CVPR 正式稿同项，研究机器人可达区域；没有目标企业作者。作者同期另有腾讯合作的 PhysVLM-AVR 属 10 月独立工作。"
+      },
+      {
+        "title": "LightPlanner: Unleashing the Reasoning Capabilities of Lightweight Large Language Models in Task Planning",
+        "url": "https://arxiv.org/html/2503.08508v1",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "3 月首稿与 IROS 正式稿属于相同的小语言模型闭环规划。署北交、中科院自动化所等，ObjectEye 不在企业范围；与视觉可达性工作技术内容不同。"
       }
     ],
     "note": "仅完成上述论文与部分合作线索，未覆盖教师全部论文。"
@@ -66445,7 +66471,11 @@ const facultyPaperAudits = {
       "https://shaochenze.github.io/",
       "https://iip.ict.ac.cn/lwfb/2023/",
       "https://iip.ict.ac.cn/lwfb/2024/",
-      "https://cjc.ict.ac.cn/online/bfpub/fy-2025116134920.pdf"
+      "https://cjc.ict.ac.cn/online/bfpub/fy-2025116134920.pdf",
+      "https://iip.ict.ac.cn/lwfb/2025/",
+      "https://cloud.tencent.com/developer/news/2583654",
+      "https://github.com/ictnlp/Simultaneous-Translation-Survey",
+      "https://aclanthology.org/2022.emnlp-tutorials.5/"
     ],
     "papers": [
       {
@@ -66830,14 +66860,14 @@ const facultyPaperAudits = {
         "year": 2025,
         "title": "基于连接时序分类解码器的实时语音翻译方法",
         "url": "https://cjc.ict.ac.cn/online/onlinepaper/zsl-202551995137.pdf",
-        "note": "计算所论文索引列张绍磊、冯洋和《计算机学报》2025 年在线稿。出版社 PDF 暂不可读，缺全文与致谢，也未完成与 StreamSpeech 的方法细节去重；仅记录可查题录，不能据此确认企业关系。",
+        "note": "计算所重点实验室的分年发表清单与刊期目录均确认张绍磊、冯洋，正式刊于《计算机学报》2025 年 48(5):1100–1115。StreamSpeech 为 2024 年 ACL 六位作者论文；作者数与题名不同尚不能证明研究独立，中文正文与致谢仍未取得，暂不据此确认关系。",
         "outcome": "no-evidence"
       },
       {
         "year": 2025,
         "title": "实时翻译研究综述",
         "url": "https://jcip.cipsc.org.cn/CN/Y2025/V39/I9/1",
-        "note": "计算所书目和期刊卷期均列张绍磊、冯洋，2025 年《中文信息学报》39(9) 1–22。独立综述文字与语音实时翻译的任务、方法及趋势；能核题录和摘要，未见完整正文致谢。",
+        "note": "计算所发表清单和《中文信息学报》卷期题录均指 2025 年 39(9):1–22，张绍磊、冯洋。独立综述文字和语音同传的任务、方法及趋势；研究组的开源清单与题录互证，未取得正文致谢，不能推定企业参与。",
         "outcome": "no-evidence"
       },
       {
@@ -66848,7 +66878,7 @@ const facultyPaperAudits = {
         "outcome": "no-evidence"
       }
     ],
-    "note": "计算所 NLP 按年书目、实验室按年期刊清单、ACL/NeurIPS/ICLR 正式索引和张绍磊、邵晨泽等人的独立书目已对账。AAAI 2023 的 Rephrasing the Reference 首稿 arXiv:2211.16863 在 2022 年，已排除。两篇中文文献的完整正文未能独立访问；ICLR 2023 两项仅可核 2023 年具名稿，公开评审首次开放日期未核，故暂保留梳理中。"
+    "note": "已对照计算所按年论文清单、智能信息处理重点实验室卷期清单与作者发表记录。两篇中文论文已核对正式刊载，其中 CTC 解码器一文与 StreamSpeech 仍缺可读正文判定版本关系；HMT 和 Fuzzy Alignments 可核实名正文在 ICLR 2023，但未核到匿名稿首次对公众开放日期。SLED 和 AlignX 缺同篇企业项目证据；书目继续标梳理中。"
   },
   "Ib-sizwAAAAJ": {
     "from": "2023-01-01",
@@ -67450,7 +67480,11 @@ const facultyPaperAudits = {
       "https://dblp.org/pid/49/10052-1.html",
       "https://huangdi95.github.io/publications/",
       "https://qimeng-ict.github.io/",
-      "https://iprc-dip.github.io/CodeV-R1"
+      "https://iprc-dip.github.io/CodeV-R1",
+      "https://english.ict.cas.cn/events/an/202601/t20260106_1145250.html",
+      "https://github.com/QiMeng-IPRC/QiMeng-SALV",
+      "https://api.crossref.org/works/10.1109/ISCA59077.2024.00070",
+      "https://api.crossref.org/works/10.1109/MICRO61859.2024.00047"
     ],
     "papers": [
       {
@@ -67564,9 +67598,79 @@ const facultyPaperAudits = {
         "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e2f7407b62f152b7fe533fbc077fddb7-Paper-Conference.pdf",
         "note": "NeurIPS 正式版通过可验证奖励与仿真反馈训练可推理 Verilog 生成器；区别原始 CodeV 的层级总结数据。计算所、国科大、中科大与寒武纪合著，未见目标公司。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Cambricon-D: Full-Network Differential Acceleration for Diffusion Models",
+        "url": "https://ieeexplore.ieee.org/document/10609724/",
+        "note": "胡杏本人页称 DiffBoost；IEEE ISCA 2024 的最终题名改为 Cambricon-D，第一作者和副题一致，是同一项目。用差分机制加速整网扩散推理；正式题录可核，未获得全文致谢。期刊后续版需与此次首发合并。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "DiffZOO: A Purely Query-Based Black-Box Attack for Red-teaming Text-to-Image Generative Model via Zeroth Order Optimization",
+        "url": "https://aclanthology.org/2025.naacl-findings.2.pdf",
+        "note": "2024-08-18 arXiv:2408.11071 首稿与 NAACL 2025 合并。以零阶优化测绘文生图模型黑盒风险；计算所、国科大、Drexel 和上海处理器创新中心署名，不见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Cambricon-C: Efficient 4-Bit Matrix Unit via Primitivization",
+        "url": "https://ieeexplore.ieee.org/document/10764444/",
+        "note": "IEEE MICRO 2024 DOI 10.1109/MICRO61859.2024.00047 题录核实名单，研究 4 位粒度矩阵单元；与内置闪存做端侧 70B 推理的 Cambricon-LLM 区别。此条仅据正式题录及课题组原作回引，致谢未能复核。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "MigGPT: Harnessing Large Language Models for Automated Migration of Out-of-Tree Linux Kernel Patches Across Versions",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3760dbb5835bf0b771c3f83cb27ef2c0-Paper-Conference.pdf",
+        "note": "2025-04-13 arXiv:2504.09474 首稿，与 NeurIPS Spotlight 去重。用语言模型跨版本迁移 Linux 树外补丁；正式版机构为计算所、国科大、清华与中关村实验室，无目标企业当事人。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Hardwired-Neurons Language Processing Units as General-Purpose Cognitive Substrates",
+        "url": "https://arxiv.org/html/2508.16151v1",
+        "note": "2025-08 首稿，采用硬连线神经元和位置映射重构高效语言推理。机构为计算所、中科大、软件所与寒武纪，华为只出现于参考文献。无目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "QiMeng-SALV: Signal-Aware Learning for Verilog Code Generation",
+        "url": "https://arxiv.org/html/2510.19296v1",
+        "note": "2025-10 首稿和 NeurIPS 论文属同一项目，以有效信号片段为强化学习奖励。与 CodeV-R1 的环境级可验证奖励独立；计算所、国科大及中科大署名，未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "QiMeng-CRUX: Narrowing the Gap between Natural Language and Verilog via Core Refined Understanding eXpression",
+        "url": "https://arxiv.org/html/2511.20099v1",
+        "note": "2025-11-25 首稿及 AAAI 2026 同篇。通过提炼结构化的中间设计描述把自然语言与 HDL 对齐，区别 SALV 的信号反馈；机构为计算所、国科大，无目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient Diffusion Planning with Temporal Diffusion",
+        "url": "https://arxiv.org/html/2511.21054v1",
+        "note": "2025-11 公开稿及 AAAI 2026 正式版同一工作。用时序扩散减少多步计划重复采样，并按状态和值决定再规划；机构包括计算所团队与范围外的寒武纪，没有目标公司实研证据。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Code Driven Planning with Domain-Adaptive Selector",
+        "url": "https://openreview.net/pdf?id=yDbJHQlrbf",
+        "note": "ICLR 2026 正式稿通过代码生成候选动作再用领域选择器执行；与同组较早公开的 Domain-Adaptive Critic 同一代码规划项目，未另计。作者单位为计算所、软件所、国科大、中科大、新加坡南洋理工与寒武纪；没有目标企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "QiMeng-CodeV-SVA: Training Specialized LLMs for Hardware Assertion Generation via RTL-Grounded Bidirectional Data Synthesis",
+        "url": "https://arxiv.org/html/2603.14239v1",
+        "note": "2026-03 首稿，生成面向硬件验证的 SystemVerilog 断言，区别启蒙其他生成电路程序的论文。作者署国科大、计算所、中科大及寒武纪（范围外），没有目标企业同篇证据。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "结合计算所官方与个人书目、计算所同组作者出版清单以及正式出版社与原稿交叉核对。区分寒武纪、阶跃星辰等范围外科研合作，以及国科大与浙江大学同名的 Xing Hu；尚有较新与部分出版全文继续核对。"
+    "note": "已对照计算所教师档案、本人书目、独立共同作者书目与出版社正式文献。会议与预稿同篇去重；未把胡杏的早年华为任职、名称类似 Huawei Li 的作者及同名作者视作目标企业证据。其余硬件论文继续查缺，标梳理中。"
   },
   "88tzr_sAAAAJ": {
     "from": "2023-01-01",
@@ -67971,6 +68075,76 @@ const facultyPaperAudits = {
         "year": 2026,
         "outcome": "confirmed",
         "note": "阿里实习脚注点名 Juyong Jiang；港科大课题组具名 Sunghun Kim 与沈嘉思共同指导且两人均在同一论文作者行。两条导师证据按论文计一条已确认关系。"
+      }
+    ]
+  },
+  "dT0v5u0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://na-wen.github.io/",
+      "https://na-wen.github.io/publications/",
+      "https://zimingyou01.github.io/",
+      "https://www.leihan.org/",
+      "https://www.cs.tsinghua.edu.cn/info/1121/7037.htm"
+    ],
+    "papers": [
+      {
+        "title": "Multi-Agent Collaboration via Evolving Orchestration",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f1320d2e2842169c6fc89dcbd80e94d0-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "5 月首稿和 NeurIPS 同一动态编排工作。正式原文有清华教师及腾讯 Robotics X 研究作者；当事人主页证明 Yufan Dang 后续师从刘知远。该学生资料未将这项工作列为腾讯实研，仍缺证。"
+      },
+      {
+        "title": "Cross-Task Experiential Learning on LLM-based Multi-Agent Collaboration",
+        "url": "https://arxiv.org/html/2505.23187v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "5 月首稿明列腾讯三位合作者。游孜明本人说明当时在北大读研并与清华合作，不能拿毕业后的字节实习填本项腾讯实研。尚无其他在读合作者的同项企业工作举证。与训练动态图的 Evolving Orchestration 不同。"
+      },
+      {
+        "title": "Co-Saving: Resource Aware Multi-Agent Collaboration for Software Development",
+        "url": "https://arxiv.org/pdf/2505.21898v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "5 月首稿具名腾讯 Robotics X 合作者及多位高校作者，没有具名写在读作者于腾讯完成同项；同篇主题是缩短软件开发里的智能体路径，非跨任务经验池。"
+      }
+    ]
+  },
+  "zIgT0HMAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://na-wen.github.io/",
+      "https://na-wen.github.io/publications/",
+      "https://zimingyou01.github.io/",
+      "https://www.leihan.org/",
+      "https://www.cs.tsinghua.edu.cn/info/1121/3554.htm"
+    ],
+    "papers": [
+      {
+        "title": "Multi-Agent Collaboration via Evolving Orchestration",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/f1320d2e2842169c6fc89dcbd80e94d0-Paper-Conference.pdf",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "5 月首稿和 NeurIPS 同一动态编排工作。正式原文有清华教师及腾讯 Robotics X 研究作者；当事人主页证明 Yufan Dang 后续师从刘知远。该学生资料未将这项工作列为腾讯实研，仍缺证。"
+      },
+      {
+        "title": "Cross-Task Experiential Learning on LLM-based Multi-Agent Collaboration",
+        "url": "https://arxiv.org/html/2505.23187v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "5 月首稿明列腾讯三位合作者。游孜明本人说明当时在北大读研并与清华合作，不能拿毕业后的字节实习填本项腾讯实研。尚无其他在读合作者的同项企业工作举证。与训练动态图的 Evolving Orchestration 不同。"
+      },
+      {
+        "title": "Co-Saving: Resource Aware Multi-Agent Collaboration for Software Development",
+        "url": "https://arxiv.org/pdf/2505.21898v1",
+        "year": 2025,
+        "outcome": "lead",
+        "note": "5 月首稿具名腾讯 Robotics X 合作者及多位高校作者，没有具名写在读作者于腾讯完成同项；同篇主题是缩短软件开发里的智能体路径，非跨任务经验池。"
       }
     ]
   }
