@@ -5738,7 +5738,13 @@ const facultyPaperAudits = {
       "https://www.cse.cuhk.edu.hk/lyu/news2",
       "https://arxiv.org/abs/2310.12481v1",
       "https://aclanthology.org/2024.acl-long.345.pdf#page=1",
-      "https://arxiv.org/html/2310.12481v1"
+      "https://arxiv.org/html/2310.12481v1",
+      "https://arxiv.org/abs/2308.03656v1",
+      "https://papers.neurips.cc/paper_files/paper/2024/file/b0049c3f9c53fb06f674ae66c2cf2376-Paper-Conference.pdf#page=1",
+      "https://penguinnnnn.github.io/pdfs/resume.pdf#page=1",
+      "https://iclr.cc/media/iclr-2024/Slides/19008.pdf",
+      "https://arxiv.org/abs/2403.11807v1",
+      "https://github.com/CUHK-ARISE/GAMABench/commit/66e2fb43615f28c95cd5195bcbb4e64530107e95"
     ],
     "papers": [
       {
@@ -5896,21 +5902,24 @@ const facultyPaperAudits = {
         "title": "Competing Large Language Models in Multi-Agent Gaming Environments",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a46adbe2f0ca0e16ef8857e188991ad7-Abstract-Conference.html",
         "outcome": "lead",
-        "note": "2024-03 首稿题名变更，原文和终稿共用同项 GAMA-Bench。第一作者在腾讯实习并双署、导师同篇，尚待同项目的具名实习说明或同期企业技术分工。"
+        "note": "2024-03-18 首稿改题后在 ICLR 发表，两版同一 GAMA-Bench。第一作者在腾讯实习时间覆盖首发，并双署香港中文大学和腾讯。查到在实习期间提交排行榜图片和文档，仍欠一手来源明确把参与的具体技术研究归到该企业实习。",
+        "paperId": "10.48550/arXiv.2403.11807"
       },
       {
         "year": 2024,
         "title": "LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models",
-        "url": "https://arxiv.org/abs/2401.00757v1",
+        "url": "https://aclanthology.org/2024.emnlp-main.128/",
         "outcome": "lead",
-        "note": "首稿与 EMNLP 正式页经题名和作者交叉核实；港中文、港中大（深圳）与腾讯作者同署。尚不能把其他项目的实习脚注转移到这个逻辑推理基准。"
+        "note": "首稿与 EMNLP 正式页经题名和作者交叉核实；港中文、港中大（深圳）与腾讯作者同署。尚不能把其他项目的实习脚注转移到这个逻辑推理基准。",
+        "paperId": "10.48550/arXiv.2401.00757"
       },
       {
         "year": 2023,
         "title": "On the Reliability of Psychological Scales on Large Language Models",
-        "url": "https://arxiv.org/abs/2305.19926v1",
+        "url": "https://aclanthology.org/2024.emnlp-main.354/",
         "outcome": "lead",
-        "note": "首稿题为 ChatGPT an ENFJ, Bard an ISTJ，研究量表的可靠性，后续正式版同工作；不同于 PsychoBench 对多类心理特征构建集中基准。企业实研分工尚待同篇材料。"
+        "note": "2023-05 首稿与 EMNLP 正式稿同系列量表可靠性研究；正式稿作者含焦文祥和在读博士，原文未注明该项目在腾讯实习中完成。校方和作者报告均将其与后来的情境情感评价和心理特征测评区分。",
+        "paperId": "10.48550/arXiv.2305.19926"
       },
       {
         "year": 2024,
@@ -5918,6 +5927,31 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2411.10581v1",
         "outcome": "lead",
         "note": "2024-11 首稿，后刊 Neurocomputing。教师与企业作者并列；待核实在读学生的实研是否早于毕业且属于该项目。"
+      },
+      {
+        "year": 2023,
+        "title": "Apathetic or Empathetic? Evaluating LLMs' Emotional Alignments with Humans",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b0049c3f9c53fb06f674ae66c2cf2376-Abstract-Conference.html",
+        "outcome": "confirmed",
+        "note": "2023-08-07 首稿与 NeurIPS 正式版沿用 EmotionBench 情境题和人类反应对照。正式版脚注具名说明第一作者黃任澤和王文轩在腾讯 AI Lab 实习期间完成本篇部分工作，并列腾讯焦文祥任共同通讯。黃任澤公开履历和港中文导师名单相互印证，研究时为 Michael R. Lyu 指导的在读博士。课题组的 ICLR 公开报告也将 EmotionBench 和另一个心理特征评测 PsychoBench 区分为两篇。",
+        "paperId": "10.48550/arXiv.2308.03656",
+        "relationIds": [
+          "tencent-emotionbench-cuhk-lyu"
+        ]
+      },
+      {
+        "year": 2024,
+        "title": "How Well Can LLMs Echo Us? Evaluating AI Chatbots’ Role-Play Ability with ECHO",
+        "url": "https://arxiv.org/abs/2404.13957v1",
+        "outcome": "no-evidence",
+        "note": "2024-04-22 首稿，可见作者单位为港中文，ECHO 使用公开模型对受试者的角色模仿进行评测。未见范围内企业项目。"
+      },
+      {
+        "year": 2024,
+        "title": "On the Resilience of LLM-Based Multi-Agent Collaboration with Faulty Agents",
+        "url": "https://proceedings.mlr.press/v267/huang25ay.html",
+        "outcome": "no-evidence",
+        "note": "首稿 2408.00989 的标题略异；正式稿的研究主题均为多智能体合作对错误参与者的容错。首稿未出现腾讯，各研究者的其他实习不能证明本项企业参与。"
       }
     ],
     "note": "继续按学生与导师的公开书目核验各次公开版本、实际企业项目、学籍和指导。已有 2023 年的具名实习研究；其余公开书目仍待逐篇审查。"
@@ -61685,7 +61719,9 @@ const facultyPaperAudits = {
       "https://nlp.ict.ac.cn/yjdw/ybyxs/202210/t20221009_48715.html",
       "https://arxiv.org/abs/2602.12108v1",
       "https://libertywing.github.io/yanwang.github.io/",
-      "https://huggingface.co/papers/2602.12108"
+      "https://huggingface.co/papers/2602.12108",
+      "https://cuhk-arise.github.io/VisFactor/",
+      "https://github.com/cuhk-arise/visfactor"
     ],
     "papers": [
       {
@@ -61822,6 +61858,14 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/abs/2606.27154v1",
         "outcome": "no-evidence",
         "note": "2026-06-25 首稿原文列作者和实验配置，腾讯、字节等只出现在被评估模型的供应商中；另有 2025 ICLR 原始 OpenRCA，2.0 增加的是可核的因果过程任务，单列一个核查决定。"
+      },
+      {
+        "year": 2025,
+        "title": "Human Cognitive Benchmarks Reveal Foundational Visual Gaps in MLLMs",
+        "url": "https://arxiv.org/abs/2502.16435v1",
+        "outcome": "lead",
+        "note": "2025-02-23 首稿使用 VisFactor 标题，2026 正式版对同一视觉认知基准扩展。2025 首稿和 2026 修订均含港中大（深圳）学生、导师和腾讯人员，未见本项目的具名实习或企业技术贡献证明。",
+        "paperId": "10.48550/arXiv.2502.16435"
       }
     ],
     "note": "从校方课题组及公开书目逐篇查。同一作者论文的不同公开版本去重；尚余多篇公开书目待核。"

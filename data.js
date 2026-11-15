@@ -46844,6 +46844,63 @@ const survey = {
           "https://arxiv.org/pdf/2603.07927v1#page=1"
         ]
       ]
+    },
+    {
+      "faculty": [
+        "Michael Rung Tsong Lyu",
+        "香港中文大学计算机科学与工程学系教授，共同署名并指导该学生读博。",
+        "https://www.cse.cuhk.edu.hk/people/faculty/michael-rung-tsong-lyu/"
+      ],
+      "studentSchool": "香港中文大学",
+      "school": "香港中文大学",
+      "team": "腾讯 AI Lab",
+      "employee": [
+        "焦文祥 · Wenxiang Jiao",
+        "该项工作进行时为腾讯 AI Lab 研究人员，论文公开作者机构为腾讯。",
+        "https://wxjiao.github.io/"
+      ],
+      "student": [
+        "黃任澤 · Jen-tse Huang",
+        "香港中文大学博士生、第一作者；NeurIPS 正式版明确其在腾讯 AI Lab 实习期间完成了 EmotionBench 的一部分。",
+        "https://penguinnnnn.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生本人公开履历明确列 Michael R. Lyu 是其在香港中文大学的博士导师。",
+        "https://penguinnnnn.github.io/"
+      ],
+      "company": "腾讯",
+      "id": "tencent-emotionbench-cuhk-lyu",
+      "title": "Apathetic or Empathetic? Evaluating LLMs' Emotional Alignments with Humans",
+      "short": "EmotionBench",
+      "date": "2023-08-07",
+      "venue": "NeurIPS 2024",
+      "area": "大语言模型情绪反应评测",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b0049c3f9c53fb06f674ae66c2cf2376-Abstract-Conference.html",
+      "paperId": "10.48550/arXiv.2308.03656",
+      "evidence": "2023-08-07 首稿与 NeurIPS 正式版沿用 EmotionBench 情境题和人类反应对照。正式版脚注具名说明第一作者黃任澤和王文轩在腾讯 AI Lab 实习期间完成本篇部分工作，并列腾讯焦文祥任共同通讯。黃任澤公开履历和港中文导师名单相互印证，研究时为 Michael R. Lyu 指导的在读博士。课题组的 ICLR 公开报告也将 EmotionBench 和另一个心理特征评测 PsychoBench 区分为两篇。",
+      "extra": [
+        [
+          "首稿与正式版为同一研究",
+          "https://arxiv.org/abs/2308.03656v1"
+        ],
+        [
+          "NeurIPS 正式全文：首页说明具名实习",
+          "https://papers.neurips.cc/paper_files/paper/2024/file/b0049c3f9c53fb06f674ae66c2cf2376-Paper-Conference.pdf#page=1"
+        ],
+        [
+          "港中文博士在读与腾讯实习日期",
+          "https://penguinnnnn.github.io/pdfs/resume.pdf#page=1"
+        ],
+        [
+          "导师公开博士指导名单",
+          "https://www.cse.cuhk.edu.hk/lyu/students/phd"
+        ],
+        [
+          "作者公开报告区分两篇研究",
+          "https://iclr.cc/media/iclr-2024/Slides/19008.pdf"
+        ]
+      ]
     }
   ]
 };
