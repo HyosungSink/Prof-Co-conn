@@ -48569,7 +48569,14 @@ const facultyPaperAudits = {
       "https://github.com/kinesiatricssxilm14/ContextCRBench",
       "https://conf.researchr.org/details/ase-2025/ase-2025-industry-showcase/27/Data-Dependency-Aware-Code-Generation-from-Enhanced-UML-Sequence-Diagrams",
       "https://doi.org/10.1109/ASE63991.2025.00282",
-      "https://arxiv.org/abs/2508.03379"
+      "https://arxiv.org/abs/2508.03379",
+      "https://cuiyungao.github.io/",
+      "https://dblp.org/pid/46/10222-1.html",
+      "https://adf1178.github.io/aboutme/",
+      "https://conf.researchr.org/profile/conf/cuiyungao",
+      "https://yujiachen99.github.io/publications/",
+      "https://yujiachen99.github.io/experience/",
+      "https://conf.researchr.org/profile/ase-2026/cuiyungao"
     ],
     "papers": [
       {
@@ -48618,7 +48625,7 @@ const facultyPaperAudits = {
         "title": "Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice",
         "url": "https://doi.org/10.1145/3803437.3805235",
         "year": 2026,
-        "outcome": "lead",
+        "outcome": "confirmed",
         "note": "第一作者胡瑞达在硕士并在字节实习期间提交首稿，项目资源由其维护，论文报告了字节实际应用；暂无脚注或公开贡献表将其本人在企业的工作具体指向该次部署或训练。另因会议目录的员工单位已变化，应按首稿和实际研究时期核。"
       },
       {
@@ -48634,6 +48641,166 @@ const facultyPaperAudits = {
         "url": "https://arxiv.org/pdf/2508.03379v3",
         "outcome": "confirmed",
         "note": "首页脚注具名说明 Wenxin Mao 与 Sirong Chen 均在腾讯实习期间参与本项工作，王志涛同篇署微信支付并列共同一作。会议日程与哈工大教师资料支持高翠芸当时任职；预印本和正式发表为同一项研究。"
+      },
+      {
+        "year": 2023,
+        "title": "A Unified Framework for Mini-game Testing: Experience on WeChat",
+        "url": "https://doi.org/10.1145/3611643.3613868",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "FSE 原始议程列此 iExplorer 的腾讯作者陆浩川、熊挺、邓跃堂与已改署港中大的王朝正、高翠芸。王朝正自述从 2021-12 起在微信从事基于图像的自动 GUI 测试框架，并具名哈工大硕士阶段导师高翠芸。正式摘要称首发时已实地部署超过 6 个月；技术细节和时段吻合，待补王本人点名 iExplorer 或学位论文的项目交叉证据。"
+      },
+      {
+        "year": 2023,
+        "title": "How Practitioners Expect Code Completion?",
+        "url": "https://arxiv.org/abs/2301.03846",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2023-01-10 首稿明确第一作者王朝正与高翠芸均署哈工大（本人学生邮箱），同篇列四名腾讯作者；王履历在同期微信事业群从事代码补全。此文另有北大谢涛与胡俊豪的已确认关系；尚缺王在腾讯执行该项问卷／访谈研究的独立陈述，暂不加哈工大面。"
+      },
+      {
+        "year": 2024,
+        "title": "ReposVul: A Repository-Level High-Quality Vulnerability Dataset",
+        "url": "https://arxiv.org/abs/2401.13169",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2024-01-24 首稿六人逐名均哈工大深圳；ICSE Industry Challenge Track 指会议分轨，论文的公开源项目与组内实验未显示字节或其他名单企业任职者共同参与。同批见 DOI 10.1145/3639478.3647634。"
+      },
+      {
+        "year": 2024,
+        "title": "Less is More? An Empirical Study on Configuration Issues in Python PyPI Ecosystem",
+        "url": "https://doi.org/10.1145/3597503.3639077",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "港中大公开 ACM 原稿逐名核查，胡睿达和王若珂为哈工大深圳学生校邮，余作者单位哈工大、港中大；未见企业作者或本研究的企业实施证据。"
+      },
+      {
+        "year": 2025,
+        "title": "Beyond PEFT: Layer-Wise Optimization for More Effective and Efficient Large Code Model Tuning",
+        "url": "https://doi.org/10.1145/3729341",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "FSE 原始议程列腾讯微信 Ting Peng、Hailiang Huang、Yuetang Deng 及港中大王朝正、高树正、吕荣聪和哈工大高翠芸。两名港中大作者已离开哈工大硕士阶段；成都电子科大 Jia Feng 是否属于高翠芸实际指导及同期在腾讯做该项目尚未核实。"
+      },
+      {
+        "year": 2025,
+        "title": "RAG or Fine-tuning? A Comparative Study on LCMs-based Code Completion in Industry",
+        "url": "https://www.cse.cuhk.edu.hk/lyu/_media/conference/cwang_fse2025_rag.pdf?cache=cache&id=students%3Aphd",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "FSE 原文说明在腾讯 WXG 私有代码库实研，同篇杨泽洲署腾讯，已列高翠芸硕士毕业生；王朝正、高树正署港中大，未见哈工大同期学生身份与原导师指导的独立资料。仍可另核港中大关系。"
+      },
+      {
+        "year": 2025,
+        "title": "A Deep Dive into Retrieval-Augmented Generation for Code Completion: Experience on WeChat",
+        "url": "https://arxiv.org/abs/2507.18515",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2025-07-24 首稿列高翠芸通讯、腾讯杨泽洲等四人及港中大王朝正；公司私有代码库研究明确，杨是高翠芸已毕业硕士，王当期博士导师为吕荣聪，未见在高翠芸同期指导下的学生。与 FSE 对比研究方法、数据划分和作者表不同。"
+      },
+      {
+        "year": 2025,
+        "title": "JSidentify-V2: Leveraging Dynamic Memory Fingerprinting for Mini-Game Plagiarism Detection",
+        "url": "https://arxiv.org/abs/2508.01655",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2025-08-03 首稿明确共同首作者王朝正署腾讯及港中大，腾讯部署和多名正式企业作者齐；高翠芸本篇署港中大，尚未核其指导王博士时期。原文的第一代 JSidentify 引用不是同一作品。"
+      },
+      {
+        "year": 2025,
+        "title": "JSProtect: A Scalable Obfuscation Framework for Mini-Games in WeChat",
+        "url": "https://arxiv.org/abs/2509.24498",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2025-09-29 首稿列共同首作者王朝正为腾讯与港中大，高翠芸列港中大，腾讯员工与落地研究清楚；王的现任博士导师为吕荣聪，缺高翠芸同期指导。此文是保护源代码，区别于检测抄袭的 JSidentify-V2。"
+      },
+      {
+        "year": 2023,
+        "title": "基于深度学习的代码生成方法研究进展",
+        "url": "https://doi.org/10.13328/j.cnki.jos.006981",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "北大机构库列 2023-10-26，《软件学报》2024 年卷。原文列李振昊当期华为，陈思榕、杨泽洲和高翠芸署哈工大深圳；高翠芸自列两人为学生。未见任一学生当期在华为参与这篇综述的独立项目记录。"
+      },
+      {
+        "year": 2026,
+        "title": "Unseen-Codebases-Domain Data Synthesis and Training Based on Code Graphs",
+        "url": "https://arxiv.org/abs/2602.20799",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "原文明确陈思榕为腾讯实习作者，高翠芸与腾讯微信支付负责人具名同篇。已找到哈工大深圳 2023 级推免公示与《软件学报》硕士生简历；导师在个人页列她为在读硕士但页面名单没有更新日期，不能据通常学制推定 2026 年 2 月仍在籍；继续查毕业或同期在籍原件。"
+      },
+      {
+        "year": 2026,
+        "title": "SpeC2Rust: Specification-Driven Repository-Level C-to-Rust Translation",
+        "url": "https://arxiv.org/abs/2610.34141",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2026-10 首稿列 Hongliang Tian署蚂蚁集团，哈工大 Yujia Chen 由导师本人学生清单证明。所有测试对象为公开 C 项目，未见学生在蚂蚁参与该工作的项目或实习说明。"
+      },
+      {
+        "year": 2026,
+        "title": "FeatureLoop: Benchmarking Coding Agents under Evolving Requirements",
+        "url": "https://arxiv.org/abs/2610.35488",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2026-10-26 v1 的首作者 Jia Feng 署腾讯混元，高翠芸署港中大；他在同年春季及 10-25 的另篇首稿使用哈工大学生账号。两日相邻但仍需能对齐身份与导师的在籍原件、同项实习角色。与 FeatureArc 的 73 个历史任务和无外部反馈设计不同，本文 61 个任务有两类用户反馈。"
+      },
+      {
+        "year": 2026,
+        "title": "FeatureArc: Benchmarking Coding Agents on Evolving Features",
+        "url": "https://arxiv.org/abs/2610.37434",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2026-10-27 首发档案，正文写在腾讯混元内部应用；Jia Feng 署腾讯混元、高翠芸署港中大且为通讯，尚无双方在此时期的指导或学生实习身份明证。与 FeatureLoop 两项单列，先不入关系。"
+      },
+      {
+        "year": 2026,
+        "title": "Dependency-Guided Repository-Level C-to-Rust Translation with Reinforcement Alignment",
+        "url": "https://arxiv.org/abs/2604.02852",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "FSE 2026，DOI 10.1145/3803437.3805266。首稿明列 Kui Liu 为华为员工，实验取 15 个公司内部数据库项目。高翠芸学生 Feng Luo 与作者 Jia Feng 为哈工大，仍未见其中一人在华为侧完成哪项工作。"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Reliable C-to-Rust Translation with Rule-Guided Reasoning and Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2607.19966",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "ASE Industry 正式议程与 2026-07 首稿明列华为 Kui Liu、导师同篇；两名哈工大硕士确为高翠芸公开列出的学生，首稿说明与华为合作抽取 100 个内部函数。但缺学生在企业侧开展同一研究的具名直接材料。"
+      },
+      {
+        "year": 2025,
+        "title": "Integrating Rules and Semantics for LLM-Based C-to-Rust Translation",
+        "url": "https://arxiv.org/abs/2508.06926",
+        "outcome": "lead",
+        "relationIds": [],
+        "note": "2025-08 首稿及 ICSME 官方议程均列华为 Kui Liu、哈工大高翠芸与 Feng Luo。原文明确同项目合作抽取华为生产线 C 函数；Feng Luo 的硕导可核，企业侧项目参与仍无具名凭证。与 TRAVEL 方法为后续工作。"
+      },
+      {
+        "year": 2026,
+        "title": "On the Effectiveness of Context Compression for Repository-Level Tasks: An Empirical Investigation",
+        "url": "https://arxiv.org/abs/2604.13725",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-04 首稿单位为哈工大、港中大、武汉大学及独立研究者；项目在公开评测上进行。即使有作者曾在腾讯工作，也未见与本研究同期的相关证据。"
+      },
+      {
+        "year": 2026,
+        "title": "Enhancing the Code Reasoning Capabilities of LLMs via Consistency-based Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2605.17958",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "2026-05 首稿七位作者单位为哈工大与港中大；Qwen 模型作为实验使用，未见目标企业共同实研。"
+      },
+      {
+        "year": 2023,
+        "title": "LIVABLE: Exploring Long-Tailed Classification of Software Vulnerability Types",
+        "url": "https://doi.org/10.1109/TSE.2024.3382361",
+        "outcome": "no-evidence",
+        "relationIds": [],
+        "note": "IEEE 原文作者资料列哈工大深圳、鹏城实验室、华中科大与北大；其中高翠芸公开列两位本校学生，未见该论文与目标企业的直接联系。 2023-06-12 预印本 arXiv:2306.06935 首发，正式 2024 年。"
       }
     ],
     "note": "已逐篇核查哈工大（深圳）高翠芸与其硕士生胡瑞达的部分合著。学籍中断时段从严，以公开材料能落实到本篇工作为准；导师其他论文尚待继续。"
@@ -60515,7 +60682,7 @@ const facultyPaperAudits = {
   "JeFQwxUAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://jiaxiaosong1002.github.io/",
       "https://hr.fudan.edu.cn/b6/ae/c4825a767662/page.htm",
@@ -60855,9 +61022,30 @@ const facultyPaperAudits = {
         "title": "BAT-WAM: Bridging Action and Touch in World-Action Models for Dexterous Hands",
         "url": "https://arxiv.org/pdf/2611.10967v1",
         "note": "2026-11-07 首稿贾为复旦通讯作者，企业研究者署 Rimbot，另有东南大学和清华；Rimbot 不在范围。触觉动作模型和 UniDexTok 的跨手离散编码是不同作品。"
+      },
+      {
+        "year": 2023,
+        "title": "Policy Pre-training for Autonomous Driving via Self-supervised Geometric Modeling",
+        "url": "https://arxiv.org/pdf/2301.01006v1",
+        "note": "原论文最早可核的首发为 2023-01-03（后经 ICLR 正式出版）；作者属上海人工智能实验室、上海交大、UC San Diego，无目标企业作者。项目代码仓有 2022 年提交，未见对应论文当时的公开日期。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/6bbefb73c0ede70635823a18426b9208-Abstract-Conference.html",
+        "note": "ICLR 正式稿贾与严署上海交大；另有天津大学、哥伦比亚大学、香港理工、新加坡 A*STAR。项目 2025 公开代码，未见目标企业参与其文本到车辆轨迹生成。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "DreamWorld: Unified World Modeling in Video Generation",
+        "url": "https://arxiv.org/pdf/2603.00466v2",
+        "note": "最早公开稿 2026-02-28，2026-10-12 修订版加入署复旦的贾萧松，两个版本按同一工作。企业署名为 Uber，不在 14 家范围；基底模型 Wan2.1 不代表阿里合著。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "已逐篇复核复旦教师贾萧松的个人书目、DBLP、ORCID 和 arXiv 作者检索，目前仍在比对余下公开论文与不同发表版本。已有同篇企业作者而缺少学生在企业参与同项研究证据的，保留为线索。"
+    "note": "截至 2026-11-12，以复旦官方名单、个人书目、DBLP、ORCID 与 arXiv 作者检索两页交叉；每篇对照论文原文、署名和首发，合并预印本与会议同篇。2022 首发的 HDGT、UniAD、Delving 等不计。引望、华为及蚂蚁论文仅保留线索；缺同项学生实研或具名指导证据。完成标记限可检索公开书目。"
   },
   "bEEA_jcAAAAJ": {
     "from": "2023-01-01",
@@ -60912,5 +61100,228 @@ const facultyPaperAudits = {
       }
     ],
     "note": "以港理工教师主页、个人履历和 ORCID 确认同一位作者。排除数据库混入的同名异人与 2022 年首次公开的期刊论文；仍需补查公开书目及个别全文。"
+  },
+  "PdzO-4YAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://wenqiangx.github.io/",
+      "https://wenqiangx.github.io/publications/",
+      "https://wenqiangx.github.io/cv/",
+      "https://drxslab.github.io/",
+      "https://wenqiangx.github.io/assets/pdf/wenqiang_cv.pdf",
+      "https://orcid.org/0000-0002-8648-5576",
+      "https://roboticsproceedings.org/rss19/p087.html",
+      "https://arxiv.org/abs/2202.00199",
+      "https://www.robotube.org/",
+      "https://proceedings.mlr.press/v205/",
+      "https://kailinli.top/",
+      "https://openaccess.thecvf.com/content/ICCV2021/html/Yang_CPF_Learning_a_Contact_Potential_Field_To_Model_the_Hand-Object_ICCV_2021_paper.html"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "Visual-Tactile Sensing for In-Hand Object Reconstruction",
+        "url": "https://arxiv.org/pdf/2303.14498v1",
+        "note": "2023-03-25 首稿，徐为上海交大博士生并署启智研究院，合著者另有康奈尔。CVPR 工作的手持目标重建未见目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "GarmentTracking: Category-Level Garment Pose Tracking",
+        "url": "https://arxiv.org/pdf/2303.13913v1",
+        "note": "2023-03-24 首稿属上海交大、上海启智研究院、康奈尔；服装类别级跟踪与 ClothPose 的间接实测录制是两个项目，无目标企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "ClothPose: A Real-world Benchmark for Visual Analysis of Garment Pose via an Indirect Recording Solution",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_ClothPose_A_Real-world_Benchmark_for_Visual_Analysis_of_Garment_Pose_ICCV_2023_paper.pdf",
+        "note": "ICCV 正式 PDF 为交大、启智、康奈尔合著，应用间接记录采集形变服装姿态；未见目标公司合著。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "UniFolding: Towards Sample-efficient, Scalable, and Generalizable Robotic Garment Folding",
+        "url": "https://arxiv.org/pdf/2311.01267v1",
+        "note": "2023-11-02 首稿徐署上海交大，其他机构为上海人工智能实验室（浦江实验室）、新罕布什尔大学；叠衣策略研究无目标公司署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Precise Robotic Needle-Threading with Tactile Perception and Reinforcement Learning",
+        "url": "https://arxiv.org/pdf/2311.02396v1",
+        "note": "2023-11-04 首稿，徐与 Zhenjun Yu 共同一作，作者全属上海交大。触觉引导强化学习完成穿针任务无目标企业合著者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Differentiable Cloth Parameter Identification and State Estimation in Manipulation",
+        "url": "https://arxiv.org/pdf/2311.05141v1",
+        "note": "2023-11-09 首稿具名说明 Dongzhe Zheng 在上海交大实习期间完成，徐与卢策吾署上海交大，具体项目不在企业实习。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Differentiable Fluid Physics Parameter Identification Via Stirring",
+        "url": "https://arxiv.org/pdf/2311.05137v1",
+        "note": "2023-11-09 首稿同样具名说明 Dongzhe Zheng 在上海交大实习期间完成，物理参数测量的是流体搅动，与同日布料操控不同；无目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Kalib: Markerless Hand-Eye Calibration with Keypoint Tracking",
+        "url": "https://arxiv.org/pdf/2408.10562v1",
+        "note": "2024-08-20 首稿校准方法作者为交大，卢策吾为通讯。与个人页所列 IROS 后续副题对应；未见目标公司。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "DiPGrasp: Parallel Local Searching for Efficient Differentiable Grasp Planning",
+        "url": "https://arxiv.org/pdf/2408.04738v1",
+        "note": "2024-08-08 首稿六位作者属上海交大。可微抓取规划研究无目标企业参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "DexTOG: Learning Task-Oriented Dexterous Grasp with Language Condition",
+        "url": "https://arxiv.org/pdf/2504.04573v1",
+        "note": "2025-04 首稿徐署上海交大，语言引导抓取所列机构没有目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "FBI: Learning Dexterous In-hand Manipulation with Dynamic Visuotactile Shortcut Policy",
+        "url": "https://arxiv.org/pdf/2508.14441v1",
+        "note": "2025-08-20 首稿。徐为上海交大共同一作；其视觉触觉模仿学习合著者均署交大，没有目标企业署名。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "FSGlove: An Inertial-Based Hand Tracking System with Shape-Aware Calibration",
+        "url": "https://arxiv.org/pdf/2509.21242v1",
+        "note": "2025-09-25 首稿作者署上海交大与其 Meta Robotics Institute；Meta Robotics Institute 是校内单位，研究为手套追踪校准，未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Stereo-Inertial Poser: Towards Metric-Accurate Shape-Aware Motion Capture Using Sparse IMUs and a Single Stereo Camera",
+        "url": "https://arxiv.org/pdf/2603.02130v1",
+        "note": "2026-03-02 首稿以双目相机、IMU 与手部形态参数恢复人体运动；徐署上海交大，未见目标企业同篇作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Towards Human-Like Manipulation through RL-Augmented Teleoperation and Mixture-of-Dexterous-Experts VLA",
+        "url": "https://arxiv.org/pdf/2603.08122v1",
+        "note": "2026-03-09 首稿，徐与 Lin Shao 署新加坡国立大学。另有交大、上海人工智能实验室、中关村学院及 Sharpa；Sharpa 不在目标企业范围。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "据徐文强本人论文清单与简历，及 DBLP、作者 ORCID、会议和出版社原文逐篇对照。2026-10-01 入职复旦，之前分别在上海交大与新加坡国立。按首稿归并 2024 TPAMI 的 CPF 扩展（2021 首发）、2023 RSS 的 RFUniverse（2022-02 首稿）、2023 PMLR 卷所收的 RoboTube（2022-12 CoRL 口头报告）。ORCID 增量仍待查缺。"
+  },
+  "vg0moI0AAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://sds.cuhk.edu.cn/en/teacher/464",
+      "https://pinjiahe.github.io/lab/",
+      "https://xyliu-cs.github.io/",
+      "https://youliangyuan.github.io/",
+      "https://tuzhaopeng.github.io/",
+      "https://pinjiahe.github.io/publications/",
+      "https://dblp.org/pid/147/1619.html",
+      "https://siyuexi.github.io/"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/ed4c38fe7899d3653acf39b2102af8ba-Paper-Conference.pdf",
+        "outcome": "confirmed",
+        "note": "2023 年 8 月首稿及 ICLR 正式版首页均具名确认袁尤良等三位学生在腾讯 AI Lab 实习时完成该研究；校方导师贺品嘉为通讯作者，腾讯企业作者涂兆鹏同篇。袁尤良本人也记录曾由涂兆鹏指导大模型安全实习。两版本共用 CipherChat 框架，只计一项。",
+        "paperId": "10.48550/arXiv.2308.06463",
+        "relationIds": [
+          "tencent-cipherchat-cuhksz-pinjia-he"
+        ]
+      },
+      {
+        "year": 2024,
+        "title": "Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs",
+        "url": "https://aclanthology.org/2025.acl-long.872/",
+        "outcome": "confirmed",
+        "note": "2024-10-10 首稿明确四名学生在腾讯 AI Lab 实习期间进行视觉与内在常识冲突评测，列第一作者 Xiaoyuan Liu 双署港中大（深圳）与腾讯。其博士导师贺品嘉为校方通讯作者，腾讯实习指导者涂兆鹏同篇。ACL 正式版与首稿共用 ConflictVis，不重复计算。",
+        "paperId": "10.48550/arXiv.2410.08145",
+        "relationIds": [
+          "tencent-conflictvis-cuhksz-pinjia-he"
+        ]
+      },
+      {
+        "year": 2025,
+        "title": "Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs",
+        "url": "https://aclanthology.org/2025.acl-long.832/",
+        "outcome": "confirmed",
+        "note": "2025-02-16 首稿具名说明 Xiaoyuan Liu 与袁尤良等人在腾讯 AI Lab 实习期间完成该项研究，二人均是贺品嘉的港中大（深圳）博士生且各自双署名。导师贺品嘉及腾讯通讯作者涂兆鹏同篇。该项建立图像与文本输入的安全与过度拒绝基准，和 ConflictVis 对照视觉证据与知识冲突是不同目标。",
+        "paperId": "10.48550/arXiv.2502.11184",
+        "relationIds": [
+          "tencent-mmsafeaware-cuhksz-pinjia-he"
+        ]
+      },
+      {
+        "year": 2025,
+        "title": "Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/bd3d106d8e9789ce4fd40e1edafe71d5-Paper-Conference.pdf",
+        "outcome": "existing",
+        "note": "正式稿具名注明 Xiaoyuan Liu 在腾讯实习完成，公司侧 Tian Liang 和学校博士导师贺品嘉已入库。",
+        "relationIds": [
+          "tencent-rise-cuhksz-he"
+        ],
+        "paperId": "10.48550/arXiv.2505.13445"
+      },
+      {
+        "year": 2026,
+        "title": "Scalable Supervision for Software Agents via Patch Reasoning",
+        "url": "https://aclanthology.org/2026.findings-emnlp.1069.pdf",
+        "outcome": "existing",
+        "note": "正式稿具名注明第一作者 Junjielong Xu 在字节 TRAE 实习时做本篇，课题组记录了博士导师和当时在读，已入库。",
+        "relationIds": [
+          "bytedance-trae-scalable-cuhksz-pinjia-he"
+        ]
+      },
+      {
+        "year": 2025,
+        "title": "Towards Evaluating Proactive Risk Awareness of Multimodal Language Models",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/0a7872c9d3ce6792d033d3b0d044ba8a-Abstract-Datasets_and_Benchmarks_Track.html",
+        "outcome": "lead",
+        "note": "2025-05-23 首稿；袁尤良、其博士导师贺品嘉与曾在腾讯工作的焦文祥同篇。仍需把该项和同一企业的同期任职、学生的同项目技术工作明确对应。",
+        "paperId": "10.52202/085713-0240"
+      },
+      {
+        "year": 2025,
+        "title": "Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training",
+        "url": "https://aclanthology.org/2025.acl-long.158/",
+        "outcome": "lead",
+        "note": "正式稿署港中大（深圳）及腾讯作者；与 CipherChat 是不同研究。原文未说明袁尤良以腾讯实习人员身份做本篇，待见具名项目记录。"
+      },
+      {
+        "year": 2025,
+        "title": "Curing Miracle Steps in LLM Mathematical Reasoning with Rubric Rewards",
+        "url": "https://arxiv.org/abs/2510.07774v1",
+        "outcome": "lead",
+        "note": "2025-10 首稿；有袁尤良、贺品嘉及当期署腾讯的合作者。第一作者维护同名代码仓；是否为这位学生的企业实习项目仍待直接来源。",
+        "paperId": "10.48550/arXiv.2510.07774"
+      },
+      {
+        "year": 2025,
+        "title": "OpenRCA: Can Large Language Models Locate the Root Cause of Software Failures?",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/d29b8d53678015079e1d245c023e49d2-Paper-Conference.pdf",
+        "outcome": "no-evidence",
+        "note": "论文的公开企业合作来自微软研究院；微软不在网站 14 家范围内。版本沿用 OpenRCA 基准并只计一篇。",
+        "paperId": "10.48550/arXiv.2502.06781"
+      }
+    ],
+    "note": "从校方课题组及公开书目逐篇查。同一作者论文的不同公开版本去重；尚余多篇公开书目待核。"
   }
 };

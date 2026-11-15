@@ -46213,6 +46213,211 @@ const survey = {
       ],
       "evidence": "该文首页列 Yifan Niu 为港科大（广州）博士生共同第一作者，其共同搭档 Tian Bian 同署香港中文大学与阿里达摩院，Yu Rong 同署阿里达摩院。论文第 10 页明确本研究由达摩院（湖畔实验室）创新研究计划支持，并列出具体分工：两位共同一作提出 IBCircuit、合作开发早期代码，Yifan Niu 负责变分近似、理论推导与正文第 1–4 节。这些资料共同证明学生直接参与同篇企业合作的技术工作，仅称共同科研，不认定该港科大学生在阿里任职。导师 Jia Li 与阿里达摩院专业人员 Yu Rong 均为正式署名作者。2025 年 ICML 版早于 2026 年作者补传预印本，同篇只计一次。",
       "paperId": "10.48550/arXiv.2602.22581"
+    },
+    {
+      "company": "字节跳动",
+      "team": "TRAE · 软件工程研究",
+      "school": "哈尔滨工业大学",
+      "studentSchool": "哈尔滨工业大学",
+      "faculty": [
+        "高翠芸 · Cuiyun Gao",
+        "哈工大（深圳）教授，与胡瑞达以同校署名，正式论文列为通讯作者。",
+        "http://faculty.hitsz.edu.cn/gaocuiyun"
+      ],
+      "employee": [
+        "Pengfei Gao",
+        "任字节 TRAE 研究员，首稿署字节及公司研究邮箱；其履历说明在公司开展 AI 编程研究。",
+        "https://cumt-gpf.github.io/"
+      ],
+      "student": [
+        "胡瑞达 · Ruida Hu",
+        "2024 年 9 月至 2026 年 8 月为哈工大（深圳）硕士生；本人列 2024 年 6 月至 2026 年 5 月在字节 TRAE 实习，与同篇 Pengfei Gao 一起研究代码评测。",
+        "https://kinesiatricssxilm14.github.io/#internships"
+      ],
+      "advising": [
+        "硕士导师",
+        "高翠芸的公开指导名录具名列 Ruida Hu 为哈工大（深圳）在读硕士，本人亦确认同一导师并说明硕博连续培养。",
+        "https://cuiyungao.github.io/#advising"
+      ],
+      "area": "智能软件工程与代码审查",
+      "id": "bytedance-trae-contextcrbench-hit-cuiyun-gao",
+      "title": "Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice",
+      "short": "ContextCRBench",
+      "date": "2025-11-10",
+      "year": 2025,
+      "venue": "FSE 2026 Industry",
+      "paper": "https://doi.org/10.1145/3803437.3805235",
+      "paperId": "arxiv:2511.07017",
+      "evidence": "首稿核实名录三位同篇，§5.1 具体说明字节使用这套 ContextCRBench 训练并实测内部代码审查工具。胡瑞达在字节 TRAE 实习期间，与同篇正式员工一起研究软件工程评测；他在原文指定作品仓库中具名提交采集、补丁关联、审查收集和三项评测代码，可逐一对应研究模块。公开提交发生于首稿之后及正式发表前，验证的是这项研究的代码贡献。校方与师生分别说明任职、指导及在籍。",
+      "extra": [
+        [
+          "2025 年 11 月首稿及字节应用一节",
+          "https://arxiv.org/html/2511.07017v1#S5.SS1"
+        ],
+        [
+          "胡瑞达同项目的数据与审查采集实现",
+          "https://github.com/kinesiatricssxilm14/ContextCRBench/commit/1e527487ada9041f1c54c5ac5f55bd272012bcfb"
+        ],
+        [
+          "胡瑞达同项目的三项评测脚本",
+          "https://github.com/kinesiatricssxilm14/ContextCRBench/commit/c7deb88b25c7041b8cfe9b8f1e163ca35dbf06a4"
+        ],
+        [
+          "FSE 正式论文会议信息",
+          "https://conf.researchr.org/details/fse-2026/fse-2026-industry-papers/33/Benchmarking-LLMs-for-Fine-Grained-Code-Review-with-Enriched-Context-in-Practice"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-cipherchat-cuhksz-pinjia-he",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "贺品嘉 · Pinjia He",
+        "香港中文大学（深圳）数据科学学院副教授；学生的博士导师，同篇以学校署名。",
+        "https://sds.cuhk.edu.cn/en/teacher/464"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "论文署腾讯 AI Lab；其任职由个人履历及此前出版物中的作者简介交叉确认。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "袁尤良 · Youliang Yuan",
+        "2022 年 9 月起在港中大（深圳）读博，本篇第一作者；首稿和正式稿均明确他在腾讯 AI Lab 实习期间完成研究。",
+        "https://youliangyuan.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开履历具名列贺品嘉，课题组在读及毕业名单可交叉核实。",
+        "https://youliangyuan.github.io/"
+      ],
+      "title": "GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher",
+      "short": "CipherChat",
+      "date": "2023-08-12",
+      "venue": "ICLR 2024",
+      "area": "大语言模型安全评测",
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/file/ed4c38fe7899d3653acf39b2102af8ba-Paper-Conference.pdf",
+      "paperId": "10.48550/arXiv.2308.06463",
+      "evidence": "2023 年 8 月首稿及 ICLR 正式版首页均具名确认袁尤良等三位学生在腾讯 AI Lab 实习时完成该研究；校方导师贺品嘉为通讯作者，腾讯企业作者涂兆鹏同篇。袁尤良本人也记录曾由涂兆鹏指导大模型安全实习。两版本共用 CipherChat 框架，只计一项。",
+      "extra": [
+        [
+          "最早可核全文：作者、机构与具名实习脚注",
+          "https://arxiv.org/html/2308.06463v1"
+        ],
+        [
+          "港中大（深圳）导师课题组的学生名单和在读时间",
+          "https://pinjiahe.github.io/lab/"
+        ],
+        [
+          "港中文存档：腾讯任职的作者简介",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/journal/jli_neurocomputing2021_on.pdf?cache=cache&id=students%3Aphd"
+        ],
+        [
+          "学校官方：袁尤良 2022 级、贺品嘉指导和论文收录",
+          "https://sds.cuhk.edu.cn/article/1616"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-conflictvis-cuhksz-pinjia-he",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "贺品嘉 · Pinjia He",
+        "香港中文大学（深圳）数据科学学院副教授；学生的博士导师，同篇以学校署名。",
+        "https://sds.cuhk.edu.cn/en/teacher/464"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "论文署腾讯 AI Lab；其任职由个人履历及此前出版物中的作者简介交叉确认。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "Xiaoyuan Liu",
+        "2024 年起在港中大（深圳）攻读博士。第一作者，原文具名注明在腾讯 AI Lab 实习时完成论文。",
+        "https://xyliu-cs.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开履历具名列贺品嘉，课题组在读及毕业名单可交叉核实。",
+        "https://xyliu-cs.github.io/"
+      ],
+      "title": "Insight Over Sight: Exploring the Vision-Knowledge Conflicts in Multimodal LLMs",
+      "short": "Insight Over Sight · ConflictVis",
+      "date": "2024-10-10",
+      "venue": "ACL 2025",
+      "area": "多模态模型 · 图像与常识冲突",
+      "paper": "https://aclanthology.org/2025.acl-long.872/",
+      "paperId": "10.48550/arXiv.2410.08145",
+      "evidence": "2024-10-10 首稿明确四名学生在腾讯 AI Lab 实习期间进行视觉与内在常识冲突评测，列第一作者 Xiaoyuan Liu 双署港中大（深圳）与腾讯。其博士导师贺品嘉为校方通讯作者，腾讯实习指导者涂兆鹏同篇。ACL 正式版与首稿共用 ConflictVis，不重复计算。",
+      "extra": [
+        [
+          "最早可核全文：作者、机构与具名实习脚注",
+          "https://arxiv.org/html/2410.08145v1"
+        ],
+        [
+          "港中大（深圳）导师课题组的学生名单和在读时间",
+          "https://pinjiahe.github.io/lab/"
+        ],
+        [
+          "港中文存档：腾讯任职的作者简介",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/journal/jli_neurocomputing2021_on.pdf?cache=cache&id=students%3Aphd"
+        ]
+      ]
+    },
+    {
+      "id": "tencent-mmsafeaware-cuhksz-pinjia-he",
+      "company": "腾讯",
+      "team": "腾讯 AI Lab",
+      "school": "香港中文大学（深圳）",
+      "studentSchool": "香港中文大学（深圳）",
+      "faculty": [
+        "贺品嘉 · Pinjia He",
+        "香港中文大学（深圳）数据科学学院副教授；学生的博士导师，同篇以学校署名。",
+        "https://sds.cuhk.edu.cn/en/teacher/464"
+      ],
+      "employee": [
+        "涂兆鹏 · Zhaopeng Tu",
+        "论文署腾讯 AI Lab；其任职由个人履历及此前出版物中的作者简介交叉确认。",
+        "https://tuzhaopeng.github.io/"
+      ],
+      "student": [
+        "Xiaoyuan Liu",
+        "港中大（深圳）博士生、共同贡献作者。原文明确本篇在腾讯 AI Lab 实习期间完成，并列学校和腾讯双署名。",
+        "https://xyliu-cs.github.io/"
+      ],
+      "advising": [
+        "博士导师",
+        "学生公开履历具名列贺品嘉，课题组在读及毕业名单可交叉核实。",
+        "https://xyliu-cs.github.io/"
+      ],
+      "title": "Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs",
+      "short": "MMSafeAware",
+      "date": "2025-02-16",
+      "venue": "ACL 2025",
+      "area": "多模态模型 · 安全意识评测",
+      "paper": "https://aclanthology.org/2025.acl-long.832/",
+      "paperId": "10.48550/arXiv.2502.11184",
+      "evidence": "2025-02-16 首稿具名说明 Xiaoyuan Liu 与袁尤良等人在腾讯 AI Lab 实习期间完成该项研究，二人均是贺品嘉的港中大（深圳）博士生且各自双署名。导师贺品嘉及腾讯通讯作者涂兆鹏同篇。该项建立图像与文本输入的安全与过度拒绝基准，和 ConflictVis 对照视觉证据与知识冲突是不同目标。",
+      "extra": [
+        [
+          "最早可核全文：作者、机构与具名实习脚注",
+          "https://arxiv.org/html/2502.11184v1"
+        ],
+        [
+          "港中大（深圳）导师课题组的学生名单和在读时间",
+          "https://pinjiahe.github.io/lab/"
+        ],
+        [
+          "港中文存档：腾讯任职的作者简介",
+          "https://www.cse.cuhk.edu.hk/lyu/_media/journal/jli_neurocomputing2021_on.pdf?cache=cache&id=students%3Aphd"
+        ]
+      ]
     }
   ]
 };
