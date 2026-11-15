@@ -16411,7 +16411,7 @@ const facultyPaperAudits = {
   "klFoxpYAAAAJ": {
     "from": "2023-01-01",
     "through": "2026-11-12",
-    "exhausted": false,
+    "exhausted": true,
     "sources": [
       "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bbeef01d9753fd5a29e9fd02d275698-Abstract-Conference.html",
       "https://haozheh3.github.io/",
@@ -16510,14 +16510,40 @@ const facultyPaperAudits = {
       "https://arxiv.org/html/2505.17952v1",
       "https://cheliu-computation.github.io/AlphaMed/",
       "https://arxiv.org/abs/2608.09799",
-      "https://arxiv.org/html/2608.09799v1"
+      "https://arxiv.org/html/2608.09799v1",
+      "https://ijcai.org/proceedings/2025/777",
+      "https://ijcai.org/proceedings/2025/0777.pdf",
+      "https://link.springer.com/chapter/10.1007/978-3-031-65627-9_20",
+      "https://cse.hkust.edu.hk/pg/defenses/Summer24/cwangci-07-06-2024.html",
+      "https://proceedings.kr.org/2025/74/",
+      "https://proceedings.kr.org/2024/32/",
+      "https://doi.org/10.1016/j.knosys.2022.110110",
+      "https://personal.hkust-gz.edu.cn/hedengbo/assets/publicationPDFs/Wang_KBS_2022a.pdf",
+      "https://researchportal.hkust.edu.hk/en/publications/multi-aspect-co-attentional-collaborative-filtering-for-extreme-m/fingerprints/",
+      "https://2023.splashcon.org/details/splash-2023-oopsla/2/Solving-Conditional-Linear-Recurrences-for-Program-Verification-The-Periodic-Case",
+      "https://doi.org/10.1145/3586028",
+      "https://doi.org/10.1016/j.neucom.2023.126299",
+      "https://personal.hkust-gz.edu.cn/hedengbo/assets/publicationPDFs/Wang_NEUCOM_2023a.pdf",
+      "https://ssrn.com/abstract=4342056",
+      "https://doi.org/10.1145/3568955",
+      "https://www.kr.tuwien.ac.at/tr-reports/files/rr2201.pdf",
+      "https://arxiv.org/abs/2509.03054",
+      "https://export.arxiv.org/api/query?search_query=au%3A%22Fangzhen%20Lin%22%20AND%20submittedDate%3A%5B202301010000%20TO%20202611122359%5D&max_results=100",
+      "https://arxiv.org/html/2509.03054v1",
+      "https://arxiv.org/html/2509.03054v4",
+      "https://arxiv.org/abs/2307.12987",
+      "https://arxiv.org/html/2307.12987v1",
+      "https://arxiv.org/html/2307.12987v3",
+      "https://doi.org/10.4230/dblp.xml.2026-11-01",
+      "https://arxiv.org/html/2509.05661v2"
     ],
     "papers": [
       {
         "title": "Reverse-Engineered Reasoning for Open-Ended Generation",
         "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/4bbeef01d9753fd5a29e9fd02d275698-Abstract-Conference.html",
         "outcome": "confirmed",
-        "note": "原文将第一作者 Haozhe Wang 同时署港科大和 Seed，具名脚注明确本研究在 Seed 完成；当事人主页把论文列为自己在 Seed 与 M-A-P 的实习项目。港科大教师官方档案核实林方真的博士指导关系，林方真与字节跳动官网认定的公司研究员 Ge Zhang 同篇通讯。"
+        "note": "原文将第一作者 Haozhe Wang 同时署港科大和 Seed，具名脚注明确本研究在 Seed 完成；当事人主页把论文列为自己在 Seed 与 M-A-P 的实习项目。港科大教师官方档案核实林方真的博士指导关系，林方真与字节跳动官网认定的公司研究员 Ge Zhang 同篇通讯。",
+        "year": 2026
       },
       {
         "title": "VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning",
@@ -16600,7 +16626,7 @@ const facultyPaperAudits = {
         "title": "On Computing Universal Plans for Partially Observable Multi-Agent Path Finding",
         "url": "https://doi.org/10.4204/EPTCS.439.11",
         "outcome": "no-evidence",
-        "note": "2023-05 首稿与 EPTCS 的 ICLP 2025 论文同一项。林方真和学生 Fengming Zhu 都署港科大。此篇研究部分可观察条件的一般理论，并非与美团有关的在线仓库分配专项。",
+        "note": "2023-05 首稿 On Computing Universal Plans…、后改称 Computing Universal Plans for Partially Observable Multi-Agent Routing Using Answer Set Programming，并在 EPTCS 的 ICLP 2025 正式发表；同一作品。两位作者都署港科大。部分可观察路径规划是独立研究，与美团仓库应用分开。",
         "year": 2025
       },
       {
@@ -16688,10 +16714,10 @@ const facultyPaperAudits = {
         "year": 2025
       },
       {
-        "title": "OOTSM: A Decoupled Linguistic Framework for Effective Scene Graph Anticipation",
+        "title": "Language-Driven Object-Oriented Two-Stage Method for Scene Graph Anticipation",
         "url": "https://arxiv.org/abs/2509.05661",
         "outcome": "no-evidence",
-        "note": "2025-09 原始公开版作者为港科大与齐鲁工业大学相关研究单位。学生虽有腾讯/阿里等另项经历，本篇没有同研究企业作者或企业任务信息。",
+        "note": "2025-09 原版 OOTSM，后以此标题修订，仍同一 arXiv ID；原始公开版作者为港科大与齐鲁工业大学相关研究单位。学生另有腾讯/阿里等经历，本篇没有范围内企业作者或同期同项目任务。",
         "year": 2025
       },
       {
@@ -16707,9 +16733,79 @@ const facultyPaperAudits = {
         "outcome": "no-evidence",
         "note": "2026-08 首稿列港科大等学术研究身份，提出合约等价的代码智能体规范测试；所测工具或模型来源不能充任论文企业合作者。",
         "year": 2026
+      },
+      {
+        "title": "Deduction with Induction: Combining Knowledge Discovery and Reasoning for Interpretable Deep Reinforcement Learning",
+        "url": "https://ijcai.org/proceedings/2025/777",
+        "outcome": "no-evidence",
+        "note": "2025 IJCAI 原文明确为深圳大学、微众银行和港科大。微众银行为此篇的独立署名单位，不将其作为腾讯同篇作者。",
+        "year": 2025
+      },
+      {
+        "title": "On Polynomial Expressions with C-Finite Recurrences in Loops with Nested Nondeterministic Branches",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-65627-9_20",
+        "outcome": "no-evidence",
+        "note": "CAV 2024 正式版作者仅港科大 Chenglin Wang 和林方真；港科大博士答辩列指导。区分与 OOPSLA 2023 不同的非确定性循环多项式研究。",
+        "year": 2024
+      },
+      {
+        "title": "Pruning with Belief Traps in Multi-agent Epistemic Planning",
+        "url": "https://proceedings.kr.org/2025/74/",
+        "outcome": "no-evidence",
+        "note": "正式 KR 2025 文章列 Biqing Fang 和林方真均港科大。文内针对陷阱剪枝，和 2024 的启发式搜索不同，作者及开源计算方法未提供指定企业关系。",
+        "year": 2025
+      },
+      {
+        "title": "Heuristic Strategies for Accelerating Multi-Agent Epistemic Planning",
+        "url": "https://proceedings.kr.org/2024/32/",
+        "outcome": "no-evidence",
+        "note": "正式 KR 2024 论文的两个作者均港科大。与 2025 年较新的陷阱剪枝不同；没有指定企业署名。",
+        "year": 2024
+      },
+      {
+        "title": "Multi-Aspect co-Attentional Collaborative Filtering for extreme multi-label text classification",
+        "url": "https://doi.org/10.1016/j.knosys.2022.110110",
+        "outcome": "no-evidence",
+        "note": "期刊卷次为 2023，作者自存版本早在 2022 公开，台账登记正式卷次并注明两个时间。原文只有港科大各机构与深港协同创新研究院，未见指定企业。",
+        "year": 2023
+      },
+      {
+        "title": "Solving Conditional Linear Recurrences for Program Verification: The Periodic Case",
+        "url": "https://2023.splashcon.org/details/splash-2023-oopsla/2/Solving-Conditional-Linear-Recurrences-for-Program-Verification-The-Periodic-Case",
+        "outcome": "no-evidence",
+        "note": "OOPSLA 正式发表及作者表为港科大博士生与导师。使用 SMT 工具 Z3 是实现选项，不能视为外部企业同项开展科研；两位作者也无指定企业署名。",
+        "year": 2023
+      },
+      {
+        "title": "Preciser comparison: Augmented multi-layer dynamic contrastive strategy for text2text question classification",
+        "url": "https://doi.org/10.1016/j.neucom.2023.126299",
+        "outcome": "no-evidence",
+        "note": "期刊正式版与作者稿相同，署港科大广州、港科大和深港协同创新研究院，与 2023 另一个极端多标签论文为不同研究。没有范围内企业角色。",
+        "year": 2023
+      },
+      {
+        "title": "Witnesses for Answer Sets of Logic Programs",
+        "url": "https://doi.org/10.1145/3568955",
+        "outcome": "no-evidence",
+        "note": "公开长版技术报告由维也纳工业大学于 2022 发布，2023 期刊正式卷次；报告首页署贵州大学、维也纳工业大学、得克萨斯理工大学、港科大。未见范围内企业参与。",
+        "year": 2023
+      },
+      {
+        "title": "Calibration and Transformation-Free Weight-Only LLMs Quantization via Dynamic Grouping",
+        "url": "https://arxiv.org/abs/2509.03054",
+        "outcome": "no-evidence",
+        "note": "2025-09 首版题名 Binary Quantization For LLMs Through Dynamic Grouping，修订扩大后仍为同一 arXiv 作品。当前同篇列港科大、岭南、香港理工与小 i 机器人；没有研究范围内的公司参与。",
+        "year": 2025
+      },
+      {
+        "title": "Agent-Based Modelling for Real-World Stock Markets under Behavioral Economic Principles",
+        "url": "https://arxiv.org/abs/2307.12987",
+        "outcome": "no-evidence",
+        "note": "2023 年首版标题为 Efficient Behavior-consistent Calibration for Multi-agent Market Simulation；后版新增作者后采用商用股票仿真标题，同一 arXiv 编号并为一个条目。林方真在后版同署港科大，企业合作者只列微软亚洲研究院，不在目标企业。",
+        "year": 2023
       }
     ],
-    "note": "阶段性核查：院系与港科大正式出版书目、2026-11-01 DBLP 数据、在读博士的原始发表来源交叉。同项目 arXiv 与会议/期刊版本归并。正在继续核对 DBLP 区间全部剩余论文。"
+    "note": "截至 2026-11-12，已核对可识别完整公开书目：港科大正式教师及论文主页、DBLP 2026-11-01 归档与个人 PID 73/6980、按姓名与日期的 arXiv 官方索引和具名学生的正式出版目录。将预印本与改题、会议短版与其明确完整版本合并，排除 DBLP 后部误读的 2008 年他人学位论文及非论文条。个别一手证据仍待补的工作保留为线索，已确认关系单独入库。"
   },
   "RfSQKrIAAAAJ": {
     "from": "2023-01-01",
@@ -66228,7 +66324,9 @@ const facultyPaperAudits = {
       "https://bingo123122121.github.io/cv/",
       "https://arxiv.org/abs/2509.24338",
       "https://iip.ict.ac.cn/yjspy/xs/zdbss/",
-      "https://nlp.ict.ac.cn/xsdt/"
+      "https://nlp.ict.ac.cn/xsdt/",
+      "https://fandongmeng.github.io/publications.html",
+      "https://nlp.ict.ac.cn/yjdw/xs/bsyjs/202210/t20221019_52675.html"
     ],
     "papers": [
       {
@@ -66447,9 +66545,93 @@ const facultyPaperAudits = {
         "url": "https://aclanthology.org/2026.emnlp-main.1299.pdf",
         "note": "2026-02 arXiv:2602.18493 首发，与 EMNLP 2026 正式版归并。公开原文明确张珂豪在理想汽车实习期间完成本文，机构不在本次企业范围；使用 DeepSeek 做评估不构成合作。",
         "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "BayLing 2: A Multilingual Large Language Model with Efficient Language Alignment",
+        "url": "https://arxiv.org/pdf/2411.16300v1",
+        "note": "2024-11-25 首稿，单独的第二代工作以机器翻译把生成能力对齐到更多低资源语言，首代为交互翻译和指令对齐。论文署名均为计算所与国科大；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "FlexRAG: A Flexible and Comprehensive Framework for Retrieval-Augmented Generation",
+        "url": "https://aclanthology.org/2025.acl-demo.60.pdf",
+        "note": "ACL 示范论文。FlexRAG 为通用检索增强框架，含不同检索类型、索引与评测，区别于应用这一框架处理多跳规划的 LevelRAG。原文仅计算所、国科大和哈工深。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "IG-Pruning: Input-Guided Block Pruning for Large Language Models",
+        "url": "https://aclanthology.org/2025.emnlp-main.537.pdf",
+        "note": "计算所、国科大三名作者按输入语义选择预先找到的模型层剪枝掩码，减少推理开销；致谢只列自然科学基金，未见同篇企业作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "LLM-based Translation Inference with Iterative Bilingual Understanding",
+        "url": "https://aclanthology.org/2025.findings-acl.867.pdf",
+        "note": "正式论文让语言模型在生成译文前反复利用双语理解。署名包括计算所、哈工大、哈工深和鹏城实验室；没有目标企业作者或学生企业实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "MoCE: Adaptive Mixture of Contextualization Experts for Byte-based Neural Machine Translation",
+        "url": "https://aclanthology.org/2025.naacl-long.47.pdf",
+        "note": "MoCE 以动态专家混合自适应处理不同长度字节上下文，区别 2024 多尺度模型。学术署名计算所、国科大和圣路易斯华盛顿大学；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "Efficient Speech Language Modeling via Energy Distance in Continuous Latent Space",
+        "url": "https://papers.nips.cc/paper_files/paper/2025/file/93f4abd83cf435395574b5d804b09c24-Paper-Conference.pdf",
+        "note": "2025-05 arXiv:2505.13181 首发。马铮睿研究时为国科大博士，同篇署计算所、国科大和腾讯微信 AI；冯洋国科大名录明确和张民共同指导，孟凡东同篇署腾讯并有本人履历。正式版没有具名实习或贡献说明；仍查同一 SLED 项目的企业参与独立证据。",
+        "outcome": "lead"
+      },
+      {
+        "year": 2025,
+        "title": "FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing",
+        "url": "https://arxiv.org/pdf/2507.14815v1",
+        "note": "2025-07 首稿，后收 NeurIPS。用迭代压缩及多压缩率训练处理长语音，原文署国科大、计算所和苏州大学；未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Language on Demand, Knowledge at Core: Composing LLMs with Encoder-Decoder Translation Models for Extensible Multilinguality",
+        "url": "https://aclanthology.org/2026.acl-long.955.pdf",
+        "note": "2026-03 arXiv:2603.17512 首发。XBridge 将专门翻译模型与以英文为主的语言模型组合，独立于训练多语言表征的 AlignX；两位作者都署计算所和国科大。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "Efficient Training for Cross-lingual Speech Language Models",
+        "url": "https://aclanthology.org/2026.findings-acl.642.pdf",
+        "note": "以离散语音和文本交替训练跨语言对话模型；正式版作者均署计算所与国科大，公共科研经费，无目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration",
+        "url": "https://aclanthology.org/2026.findings-acl.802.pdf",
+        "note": "作者是计算所国科大温卓凡、冯洋。基于层深度校准优化浅层自起草验证，不需要以前一篇 NeurIPS 2024 的独立 CTC 草稿模型；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "FreezeEmpath: Efficient Training for Empathetic Spoken Chatbots with Frozen LLMs",
+        "url": "https://aclanthology.org/2026.findings-acl.846.pdf",
+        "note": "冻结基座模型，以普通语音指令和情绪识别数据构建具同理心的语音交互。作者均署计算所与国科大，未见目标企业研究参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "From Attenuation to Attention: Variational Information Flow Manipulation for Fine-Grained Visual Perception",
+        "url": "https://aclanthology.org/2026.findings-acl.927.pdf",
+        "note": "作者是署计算所与国科大的朱纪龙、冯洋。以变分方式操控细粒度视觉信号传递，实验证据未见目标企业同篇参与。",
+        "outcome": "no-evidence"
       }
     ],
-    "note": "对照个人档案、计算所原文和 ACL Anthology 的作者/共同作者索引逐篇查证，核对同名作者及发表版本。研究期的完整公开题录尚在梳理。"
+    "note": "已逐篇核对国科大档案、计算所实验室研究动态和多份同作者题录，同时按原文署名排除 Angelalign、爱丁堡大学及南京大学同名作者。计算所其他渠道仍有论文待核。"
   },
   "Ib-sizwAAAAJ": {
     "from": "2023-01-01",
@@ -66550,7 +66732,19 @@ const facultyPaperAudits = {
       "https://github.com/ornamentt/DeepSearch-World",
       "https://huggingface.co/api/datasets/Ornamentt/DeepSearch-World-Env/commits/main",
       "https://neurips.cc/media/neurips-2025/Slides/116768.pdf",
-      "https://openreview.net/pdf/d125d856863c3ff9fc6dc2fadab05a1cc5557d01.pdf"
+      "https://openreview.net/pdf/d125d856863c3ff9fc6dc2fadab05a1cc5557d01.pdf",
+      "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=may-yi-ren-fung-yrfung",
+      "https://aclanthology.org/people/yi-r-fung/",
+      "https://dblp.org/pid/223/2782-1.html",
+      "https://mayrfung.github.io/publication.html",
+      "https://djangojungle.github.io/",
+      "https://zhaochen0110.github.io/",
+      "https://edric-zhao.github.io/",
+      "https://zongqing0068.github.io/",
+      "https://on-policy-data-evolution.github.io/",
+      "https://arxiv.org/pdf/2605.10832v1",
+      "https://arxiv.org/pdf/2605.10832v3",
+      "https://xskill-agent.github.io/xskill_page/"
     ],
     "papers": [
       {
@@ -66573,6 +66767,62 @@ const facultyPaperAudits = {
         "year": 2025,
         "outcome": "lead",
         "note": "2025-08-07 首稿 2508.05748（当时署阿里团队、未见 Yi R. Fung），早于耿欣宇公开的 9 月港科大博士入学；2026 正式版列学生双署及校方作者，但尚不能补证研究当期存在对应指导。"
+      },
+      {
+        "title": "AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios",
+        "url": "https://arxiv.org/html/2602.23166v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "2 月首稿列港科大等大学，无企业联署。作者蒋官语 9 月才入港科大且 10 月开始腾讯实习，不能用于这个项目；当期港科大学生苏肇辰、耿欣宇的其他企业实习亦没有本篇直接证据。"
+      },
+      {
+        "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+        "url": "https://proceedings.mlr.press/v306/jiang26aq.html",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "项目页和 ICML 正式稿仅列学术机构；蒋官语公开学历仍为浙大本科，腾讯实习开始于论文公开后。本工作是持续习得技能的方法，引用前作 AgentVista 作为测试基准，两个工作独立。"
+      },
+      {
+        "title": "Towards On-Policy Data Evolution for Visual-Native Multimodal Deep Search Agents",
+        "url": "https://arxiv.org/abs/2605.10832v3",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "核对 2026-05-11 首稿、2026-11-04 第三版及项目作者表，均未列企业。耿欣宇同时期腾讯履历不能替代该项证据。该视觉任务数据生成与搜索文字自蒸馏 DeepSearch-World 是两项。"
+      },
+      {
+        "title": "Entropy Centroids as Intrinsic Rewards for Test-Time Scaling",
+        "url": "https://arxiv.org/pdf/2604.26173v1",
+        "year": 2026,
+        "outcome": "lead",
+        "note": "首面确有四位华为合作者，港科大作者 Yiren Feng 与 Yi R. Fung 对应。赵文硕当时为浙大本科，在港科大以 Junxian He 为导师做研究助理；本人未列此项华为实习或企业贡献，缺同期导师及同项目角色的佐证。"
+      },
+      {
+        "title": "Veri-R1: Toward Precise and Faithful Claim Verification via Online Reinforcement Learning",
+        "url": "https://aclanthology.org/2026.findings-acl.1019/",
+        "year": 2025,
+        "outcome": "no-evidence",
+        "note": "2025-10-02 首发，2026 ACL 正式版为同一项目。原稿和正式首页均列伊利诺伊大学、复旦、清华和港科大，无目标企业同篇。"
+      },
+      {
+        "title": "CostBench: Evaluating Multi-Turn Cost-Optimal Planning and Adaptation in Dynamic Environments for LLM Tool-Use Agents",
+        "url": "https://aclanthology.org/2026.acl-long.584/",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "正式全文首页只有港科大、清华、伊利诺伊大学。宗晴本人具名的腾讯项目是另有作品的 EvolvingWorld，且她的博士导师宋陽秋未署本篇。"
+      },
+      {
+        "title": "Toward Safety-Aware AI Agents in Realistic Social Engineering Attack Scenarios",
+        "url": "https://arxiv.org/abs/2611.10037v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "11 月 5 日首稿以港科大 MMSense Lab 署名；主任务是静态和交互式社工风险、320 项案例及 META-SEA 防御，无目标企业同篇。"
+      },
+      {
+        "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+        "url": "https://arxiv.org/abs/2611.08281v1",
+        "year": 2026,
+        "outcome": "no-evidence",
+        "note": "另设 608 项含多模态欺骗的测试与相应攻击框架，和同组 320 项 SEA 工作分别公开；原稿均署港科大 MMSense Lab，未见目标企业参与。"
       }
     ]
   },
@@ -66727,5 +66977,83 @@ const facultyPaperAudits = {
       }
     ],
     "note": "先对照本人论文全文、实验室题录、本人 ORCID/DBLP 与专门项目履历。已遇到同篇华为作者，但部分学生只可证明其他项目的企业实习，不能用任职或工作主题相似替代同项贡献。继续对出版方与校方近作补遗。"
+  },
+  "Hc3iRxUAAAAJ": {
+    "from": "2023-01-01",
+    "through": "2026-11-12",
+    "exhausted": false,
+    "sources": [
+      "https://people.ucas.ac.cn/~xing",
+      "https://ict.cas.cn/sourcedb/cn/jssrck/202010/t20201022_5720975.html",
+      "https://xinghu-cs.github.io/",
+      "https://sklp.ict.ac.cn/gysys/yjdw/yjy/202409/t20240906_240425.html",
+      "https://dblp.org/pid/49/10052-1.html"
+    ],
+    "papers": [
+      {
+        "year": 2023,
+        "title": "ANPL: Compiling Natural Programs with Interactive Decomposition",
+        "url": "https://arxiv.org/pdf/2305.18498v1",
+        "note": "2023-05-29 首稿，用可交互的程序草图拆解需求，再用语言模型将自然语言描述变成局部程序。作者署计算所、国科大与 Autodesk Research（范围外），未见目标企业同篇参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Decompose a Task into Generalizable Subtasks in Multi-Agent Reinforcement Learning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/f7d3cef7ff579f2f903c8f458e730cae-Paper-Conference.pdf",
+        "note": "NeurIPS 正式版。跨多智能体任务学习可迁移子任务；合著单位为计算所、软件所、国科大、上海处理器创新中心及寒武纪。最后一家公司不在范围内，未见目标企业同篇。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Context Shift Reduction for Offline Meta-Reinforcement Learning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/fd489a44f3bcb9f122e4931ef21d0c43-Paper-Conference.pdf",
+        "note": "NeurIPS 正式论文，用推测数据训练更稳健的任务推理与探索，针对离线与测试环境的上下文分布差。作者含寒武纪和中科大等学术机构；未见目标公司同篇实研。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2023,
+        "title": "Contrastive Modules with Temporal Attention for Multi-Task Reinforcement Learning",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/72802bef5cf1a3449e909b20c2ae18d5-Paper-Conference.pdf",
+        "note": "NeurIPS 同年另一篇，按时序注意力选择模块并结合对比学习改善多任务强化学习。作者机构计算所、软件所、中科大、国科大、寒武纪与上海处理器创新中心；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion?",
+        "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_Can_Protective_Perturbation_Safeguard_Personal_Data_from_Being_Exploited_by_CVPR_2024_paper.pdf",
+        "note": "CVPR 正式版比较图像保护扰动在生成模型被个性化微调时的成效。作者列国科大、计算所、Drexel 及上海处理器创新中心；未见目标企业。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Automated CPU Design by Learning from Input-Output Examples",
+        "url": "https://www.ijcai.org/proceedings/2024/0425.pdf",
+        "note": "IJCAI 正式版由输入输出例子自动学习 CPU 电路，机构有计算所、国科大、中科大、上海处理器创新中心及寒武纪。与 2025 年端到端软硬件系统综述型技术报告并非同一论文；未见目标企业本篇参与。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2024,
+        "title": "Cambricon-LLM: A Chiplet-Based Hybrid Architecture for On-Device Inference of 70B LLM",
+        "url": "https://arxiv.org/html/2409.15654v1",
+        "note": "2024-09 arXiv 首稿与 MICRO 正式版为同篇。通过闪存与计算小芯粒支持端侧推理；寒武纪与多所院校合著，企业不在本次目标范围。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2025,
+        "title": "QiMeng: Fully Automated Hardware and Software Design for Processor Chip",
+        "url": "https://arxiv.org/pdf/2506.05007v1",
+        "note": "2025-06-05 首发，介绍可跨 CPU 电路、系统工具链与软硬件联合优化的启蒙系统。全体机构为计算所、软件所和国科大；原文未见目标公司共同作者。",
+        "outcome": "no-evidence"
+      },
+      {
+        "year": 2026,
+        "title": "HE²: A Communication-Light Heterogeneous Architecture for Efficient Fully Homomorphic Encryption",
+        "url": "https://arxiv.org/pdf/2605.31004v1",
+        "note": "2026-05-29 首发，以混合计算单元和执行图优化同态加密算力与通信。署计算所、国科大、北大、寒武纪等，无本次目标公司共同作者或学生企业实践证据。",
+        "outcome": "no-evidence"
+      }
+    ],
+    "note": "首批按计算所与个人公开书目逐篇核对题名、作者、研究单位和正文。胡杏个人履历记载华为任职为 2014–2016 年；不将既往任职或人名 Huawei Li 视作当前企业参与。其余年代及渠道继续梳理。"
   }
 };
